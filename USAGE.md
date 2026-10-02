@@ -30,6 +30,8 @@ The low-level CSS examples below show what the shared stylesheet does when you n
 
 ## Whole painted decorations
 
+The [design browser](https://adrian729.github.io/medieval-ornaments/examples/) starts with a use choice: frame, repeating divider, or whole decoration. Categories come from `images.json`; search also matches descriptions, subjects, and colors. Preview cards show the asset relevant to that use. Only applicable size and fit controls appear, so a whole decoration is never presented as a repeatable frame.
+
 The five narrow panels are complete ornaments. Preserve their aspect ratio. Use an `<img>` with one dimension set and the other automatic; do not stretch them to fill a frame or repeat them as a seamless strip. Select the smallest available PNG/WebP that meets the displayed size times the device pixel ratio. If the required resolution exceeds the master, use the master and reduce the display size rather than creating an enlarged raster export.
 
 ## Repeatable vector borders

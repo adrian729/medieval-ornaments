@@ -350,6 +350,37 @@ def svg(content,width,height,title):
     return f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}"><title>{escape(title)}</title>{content}</svg>\n'
 
 
+STEM_CURVES=((32,48,32,16,64,16),(96,16,96,48,128,48),
+             (160,48,160,80,192,80),(224,80,224,48,256,48))
+GOLD_CURVES=((32,57,32,25,64,25),(96,25,96,57,128,57),
+             (160,57,160,25,192,25),(224,25,224,57,256,57))
+
+
+def frame_curve(curves,offset):
+    """One closed path, with tangent-matched turns; no separately capped joins."""
+    size=W+2*B
+    transforms=(lambda x,y:(B+x,y),lambda x,y:(size-y,B+x),
+                lambda x,y:(size-B-x,size-y),lambda x,y:(y,size-B-x))
+    result=f'M{B} {offset}'
+    for i,transform in enumerate(transforms):
+        for curve in curves:
+            points=[transform(*curve[j:j+2]) for j in (0,2,4)]
+            result+=' C'+' '.join(f'{x} {y}' for x,y in points)
+        x,y=transforms[(i+1)%4](0,offset)
+        radius=B-offset
+        result+=f' A{radius} {radius} 0 0 1 {x} {y}'
+    return result+' Z'
+
+
+def flat_frame(offset):
+    return frame_curve(((W/3,offset,2*W/3,offset,W,offset),),offset)
+
+
+def ring(outer,inner,fill,p):
+    # Both outlines run clockwise; evenodd keeps the middle transparent.
+    return path(outer+' '+inner,fill,p['ink'],3).replace('<path ','<path fill-rule="evenodd" ',1)
+
+
 def documents(spec):
     foreground=spec['body'];background=''
     if spec['background']:
@@ -366,10 +397,37 @@ def documents(spec):
         tile=svg(body,W,H,title)
     cdoc=svg(corner,B,B,title+' adapted corner')
     size=W+2*B
-    frame=''.join(group(corner,transform) for transform in
+    frame_corner=corner;frame_foreground=foreground;underlay='';overlay=''
+    p=spec['palette']
+    if spec['reference']=='numbered-ornament-plate':
+        # Draw the background and rails once, across every side and corner.
+        # Adjacent clipped rectangles/capped rail segments can leave hairlines.
+        frame_corner=frame_corner.replace(rect(0,0,B,B,spec['background']),'',1)
+        frame_corner=frame_corner.replace(path('M96 5 H5 V96 M96 91 H91 V96',stroke=p['gold'],width=3),'',1)
+        frame_foreground=frame_foreground.replace(rails(p),'')
+        underlay=path(f'M0 0 H{size} V{size} H0Z M{B} {B} V{size-B} H{size-B} V{B}Z',spec['background'])
+        overlay=path(f'M5 5 H{size-5} V{size-5} H5Z M91 91 H{size-91} V{size-91} H91Z',stroke=p['gold'],width=3)
+    elif spec['number']!=6:
+        width=4 if spec['number']==3 else 3
+        frame_foreground=frame_foreground.replace(stem(p,p['ink'],width),'',1)
+        frame_corner=frame_corner.replace(path('M96 48 A48 48 0 0 0 48 96',stroke=p['ink'],width=3),'',1)
+        underlay=path(frame_curve(STEM_CURVES,48),stroke=p['ink'],width=width)
+        if spec['number']==3:
+            gold=path('M0 57 C32 57 32 25 64 25 C96 25 96 57 128 57 C160 57 160 25 192 25 C224 25 224 57 256 57',stroke=p['gold'],width=4)
+            frame_foreground=frame_foreground.replace(gold,'',1)
+            underlay+=path(frame_curve(GOLD_CURVES,57),stroke=p['gold'],width=4)
+    else:
+        # The ribbon is a pair of continuous rings, including the corner turns.
+        upper=((32,18,32,66,64,66),(96,66,96,18,128,18),(160,18,160,66,192,66),(224,66,224,18,256,18))
+        lower=((32,40,32,80,64,80),(96,80,96,40,128,40),(160,40,160,80,192,80),(224,80,224,40,256,40))
+        ribbon=ring(flat_frame(15),flat_frame(81),p['red'],p)
+        ribbon+=ring(frame_curve(upper,18),frame_curve(lower,40),p['gold'],p)
+        return tile,cdoc,svg(ribbon,size,size,title+' nine-slice border')
+    frame_body=f'<svg width="{W}" height="{H}" viewBox="0 0 {W} {H}" overflow="hidden">{periodic(frame_foreground)}</svg>'
+    frame=underlay+''.join(group(frame_corner,transform) for transform in
                   ('translate(0 0)',f'translate({size} 0) rotate(90)',
                    f'translate({size} {size}) rotate(180)',f'translate(0 {size}) rotate(270)'))
-    frame+=''.join(group(body,transform) for transform in
+    frame+=''.join(group(frame_body,transform) for transform in
                    (f'translate({B} 0)',f'translate({size} {B}) rotate(90)',
                     f'translate({size-B} {size}) rotate(180)',f'translate(0 {size-B}) rotate(270)'))
-    return tile,cdoc,svg(frame,size,size,title+' nine-slice border')
+    return tile,cdoc,svg(frame+overlay,size,size,title+' nine-slice border')

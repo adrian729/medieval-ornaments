@@ -15,7 +15,7 @@ This public repository stores medieval ornaments and border assets. It is separa
 - `EXTRACTION-PROMPTS.json`: exact extraction prompts and built-in imagegen method.
 - `scripts/catalog.py`: validates files and generates the README gallery.
 - `examples/demo.html`: small usage demo with copyable HTML/CSS; `index.html` forwards to it. `.nojekyll` lets GitHub Pages serve the collection as static files from `main`.
-- `examples/index.html`: interactive browser preview; `examples/qa.html`: frame verification sheet. Preserve demo links and verify copied examples use the displayed settings.
+- `examples/index.html`: visual browser with use/category/search filters and controls specific to frames, dividers, or whole decorations; `examples/qa.html`: frame verification sheet. Derive categories from the catalog and hide irrelevant controls. Preserve demo links and verify copied examples use the displayed settings.
 - `USAGE.md`, `SELECTION.md`: human and LLM usage guidance.
 - `tmp/`, `.venv/`: ignored local work only. Never commit credentials or private workspace material.
 
@@ -32,5 +32,7 @@ This public repository stores medieval ornaments and border assets. It is separa
 ## Border geometry
 
 Repeat geometry uses a 256 × 96 horizontal coordinate system; vertical tiles rotate it into 96 × 256. Corners are 96 × 96. The nine-slice atlas is 448 × 448, sliced at `100 * 96 / 448` percent. Clip each repeat viewport; wrap geometry across period boundaries. Match edge bands and rails through the corner. Adapted motifs may terminate intentionally at a corner; do not claim seamless artwork through those transitions.
+
+Draw continuous atlas stems, rails, and background bands as closed paths/rings across all sides and corners. Independently capped or clipped segments can leave hairline seams after fractional scaling. Preserve the separate tile and corner exports. For changes to frame geometry, run the rendered matrix check documented in QA.md; include 33px thickness and fractional pixel ratios, then inspect representative joins visually.
 
 Codex loads this `AGENTS.md` automatically. `CLAUDE.md` imports it; do not create a competing singular `AGENT.md`.

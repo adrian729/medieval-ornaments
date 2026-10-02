@@ -18,6 +18,7 @@ await send('Emulation.setDeviceMetricsOverride',{width:1200,height:1000,deviceSc
 await send('Page.navigate',{url:origin+'/examples/'});await ready();
 const catalog=await(await fetch(origin+'/images.json')).json();let checks=0;
 for(const item of catalog){
+  await choose('purpose',item.kind==='standalone'?'whole':'frame');
   await choose('design',item.name);
   for(const format of item.kind==='repeat-tile'?['svg','png','webp']:['png','webp']){
     await choose('format',format);
@@ -27,6 +28,23 @@ for(const item of catalog){
     checks++;
   }
 }
+// Browse by usage first, then by catalog category/search; expose relevant controls.
+await choose('purpose','whole');
+assert(await evaluate("document.querySelectorAll('.design-card').length===5&&document.getElementById('thicknessControl').hidden&&document.getElementById('fitControl').hidden&&document.getElementById('widthControl').hidden"),'Whole-decoration browsing controls');checks++;
+await choose('category','animals');
+assert(await evaluate("document.querySelectorAll('.design-card').length===4"),'Category filtering');checks++;
+await choose('search','butterfly-panel-red');
+assert(await evaluate("document.querySelectorAll('.design-card').length===1&&document.getElementById('design').value==='butterfly-panel-red'"),'Search filtering');checks++;
+await choose('search','no-such-design');
+assert(await evaluate("document.querySelectorAll('.design-card').length===0&&document.getElementById('stage').hidden&&document.getElementById('previewControls').hidden"),'Empty results');checks++;
+await choose('search','');await choose('category','all');await choose('purpose','divider');
+await choose('design','plate-03-spiral-bands');
+assert(await evaluate("!document.getElementById('previewStrip').hidden&&document.getElementById('fitControl').hidden&&document.getElementById('cornerSection').hidden&&document.getElementById('widthControl').hidden&&!document.getElementById('heightControl').hidden&&getComputedStyle(document.getElementById('previewStrip')).backgroundRepeat==='repeat-y'"),'Vertical divider controls');checks++;
+await choose('design','red-berry-vine');
+assert(await evaluate("!document.getElementById('widthControl').hidden&&document.getElementById('heightControl').hidden"),'Horizontal divider controls');checks++;
+await evaluate("document.querySelector('[data-design=\"gold-leaf-scroll\"]').click()");
+assert(await evaluate("document.getElementById('design').value==='gold-leaf-scroll'&&document.querySelector('[data-design=\"gold-leaf-scroll\"]').getAttribute('aria-pressed')==='true'"),'Visual selection');checks++;
+await choose('purpose','frame');
 await choose('design','red-berry-vine');await choose('format','svg');
 for(const viewport of [320,375,768,1200]){
   await send('Emulation.setDeviceMetricsOverride',{width:viewport,height:1000,deviceScaleFactor:1,mobile:false});
@@ -43,8 +61,16 @@ for(const [name,theme,width,height,thickness,format] of [
  ['plate-13-leaf-and-flower-vine','light',320,240,24,'svg'],
  ['plate-36-greek-key','dark',640,330,32,'png'],
  ['floral-bird-panel-blue','dark',640,650,32,'webp']]){
+  await choose('purpose',name==='floral-bird-panel-blue'?'whole':'frame');
   for(const [id,value] of Object.entries({design:name,theme,width,height,thickness,format}))await choose(id,value);
   await pause(150);const shot=await send('Page.captureScreenshot',{captureBeyondViewport:false});
+  await writeFile(new URL('../tmp/browser-'+name+'.png',import.meta.url),Buffer.from(shot.data,'base64'));
+}
+for(const [purpose,category,width,height,name] of [['frame','geometric',1200,1100,'frames-desktop'],['whole','animals',375,1100,'decorations-mobile']]){
+  await choose('purpose',purpose);await choose('category',category);await choose('theme','light');
+  await send('Emulation.setDeviceMetricsOverride',{width,height,deviceScaleFactor:1,mobile:false});
+  await evaluate('Promise.all([...document.images].filter(i=>!i.loading||i.loading!=="lazy"||i.getBoundingClientRect().top<innerHeight).map(i=>i.decode().catch(()=>{})))');
+  await pause(100);const shot=await send('Page.captureScreenshot',{captureBeyondViewport:false});
   await writeFile(new URL('../tmp/browser-'+name+'.png',import.meta.url),Buffer.from(shot.data,'base64'));
 }
 // The small usage demo consumes the same stylesheet as the full playground.

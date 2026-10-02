@@ -10,11 +10,11 @@ All 44 vector border styles include a repeat tile, a corner, and a nine-slice bo
 
 ## Preview and use
 
-Open the [small usage demo](https://adrian729.github.io/medieval-ornaments/) for a decorated card, repeating divider, and painted flourish, with copyable HTML/CSS. It includes a dark background, frame choices, and border thickness controls. The [full playground](https://adrian729.github.io/medieval-ornaments/examples/) lets you explore every design.
+Open the [small usage demo](https://adrian729.github.io/medieval-ornaments/) for a decorated card, repeating divider, and painted flourish, with copyable HTML/CSS. It includes a dark background, frame choices, and border thickness controls. The [design browser](https://adrian729.github.io/medieval-ornaments/examples/) groups designs by use: frames, repeating dividers, or whole painted decorations. Filter by category, search subjects or colors, and choose a visual preview card. Preview controls apply to the selected use.
 
 Use [ornaments.css](ornaments.css) for consistent classes: `ornament-frame`, `ornament-divider`, and `ornament-image`. Set `--ornament-image` and `--ornament-size`; the stylesheet handles the shared geometry. [Usage details and exceptions](USAGE.md#shared-usage-contract) explain the optional settings.
 
-Run `python3 -m http.server 8765` in this folder and open [the interactive preview](http://localhost:8765/examples/). Choose a design, change the frame size and border thickness, switch between SVG/PNG/WebP, and inspect the original reference where available.
+Run `python3 -m http.server 8765` in this folder and open [the interactive preview](http://localhost:8765/examples/). Frames offer width, height, thickness, and repeat fit; dividers offer length and thickness along their original direction; painted decorations offer image height. Switch between available formats and inspect the original reference where available.
 
 The demo is also at `examples/demo.html`; it works directly from a local checkout without a server.
 
