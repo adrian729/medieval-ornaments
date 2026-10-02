@@ -3,12 +3,14 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Medieval ornaments · Preview</title>
+<link rel="stylesheet" href="../ornaments.css">
 <style>
-*{box-sizing:border-box}body{margin:0;background:#ece7dc;color:#28251e;font:16px/1.5 system-ui,sans-serif}main{max-width:1240px;margin:auto;padding:28px}h1{margin:0;font:36px Georgia,serif}p{max-width:850px}a{color:#704123}.controls{display:flex;flex-wrap:wrap;gap:18px;padding:20px;background:#faf8f1;border-radius:8px}label{display:grid;gap:6px;font-size:14px;min-width:0;max-width:100%}select{max-width:100%;width:260px;padding:8px}input[type=range]{width:160px}.stage{padding:28px 10px;overflow:auto;background:#f6f2e6;margin-top:20px;border-radius:8px;min-height:360px}.stage.dark{background:#252b30;color:#f5efe1}.frame{margin:auto;display:flex;align-items:center;justify-content:center;text-align:center;flex-direction:column;flex-shrink:0;padding:12px;border-style:solid;border-color:transparent}.frame h2{font:28px Georgia,serif;margin:8px}.frame p{font-size:14px;max-width:360px}.standalone{display:block;object-fit:contain;max-width:100%;margin:auto}.details{display:flex;flex-wrap:wrap;align-items:flex-start;gap:32px;margin-top:24px}.detail{max-width:560px}.sample{padding:14px;background:#faf8f1;max-width:100%;overflow:hidden}#strip{background-repeat:repeat-x;width:480px;max-width:100%}#original{max-width:100%;height:auto}#corner{width:96px;height:96px}code{font-size:13px;overflow-wrap:anywhere}button{padding:8px 12px}.warning{color:#704123}footer{font-size:13px;margin-top:36px}.links{display:flex;gap:15px;flex-wrap:wrap}
+*{box-sizing:border-box}body{margin:0;background:#ece7dc;color:#28251e;font:16px/1.5 system-ui,sans-serif}main{max-width:1240px;margin:auto;padding:28px}h1{margin:0;font:36px Georgia,serif}p{max-width:850px}a{color:#704123}.controls{display:flex;flex-wrap:wrap;gap:18px;padding:20px;background:#faf8f1;border-radius:8px}label{display:grid;gap:6px;font-size:14px;min-width:0;max-width:100%}select{max-width:100%;width:260px;padding:8px}input[type=range]{width:160px}.stage{padding:28px 10px;overflow:auto;background:#f6f2e6;margin-top:20px;border-radius:8px;min-height:360px}.stage.dark{background:#252b30;color:#f5efe1}.frame{margin:auto;display:flex;align-items:center;justify-content:center;text-align:center;flex-direction:column;flex-shrink:0;padding:12px;}.frame h2{font:28px Georgia,serif;margin:8px}.frame p{font-size:14px;max-width:360px}.standalone{display:block;margin:auto}.details{display:flex;flex-wrap:wrap;align-items:flex-start;gap:32px;margin-top:24px}.detail{max-width:560px}.sample{padding:14px;background:#faf8f1;max-width:100%;overflow:hidden}#strip{max-width:100%}#original{max-width:100%;height:auto}#corner{width:96px;height:96px}code{font-size:13px;overflow-wrap:anywhere}button{padding:8px 12px}.warning{color:#704123}footer{font-size:13px;margin-top:36px}.links{display:flex;gap:15px;flex-wrap:wrap}
 @media(max-width:600px){main{padding:16px}.controls{padding:12px;gap:12px}.stage{padding:18px 4px}.detail{width:100%}}
 </style>
 <main>
 <h1>Medieval ornaments</h1>
+<p><a href="demo.html">See three simple usage examples →</a></p>
 <p>Try a repeating frame or a complete painted decoration. Change its size and background to see whether it suits your layout.</p>
 <div class="controls">
 <label>Design<select id="design"></select></label>
@@ -20,10 +22,10 @@
 <label>Background<select id="theme"><option value="light">Light</option><option value="dark">Dark</option></select></label>
 <label>Mirror<select id="mirror"><option value="none">None</option><option value="x">Horizontal</option><option value="y">Vertical</option></select></label>
 </div>
-<div class="stage" id="stage"><div class="frame" id="frame"><h2>A decorated page</h2><p>Choose an ornament and try it at the size you need.</p></div><img class="standalone" id="standalone" alt="" hidden></div>
+<div class="stage" id="stage"><div class="frame ornament-frame" id="frame"><h2>A decorated page</h2><p>Choose an ornament and try it at the size you need.</p></div><img class="standalone ornament-image" id="standalone" alt="" hidden></div>
 <p id="description"></p><p><code id="tags"></code></p><div class="links" id="links"></div>
 <div class="details">
-<section class="detail" id="repeatSection"><h2>Repeated strip</h2><div class="sample"><div id="strip"></div></div><p id="axis"></p></section>
+<section class="detail" id="repeatSection"><h2>Repeated strip</h2><div class="sample"><div class="ornament-divider" id="strip"></div></div><p id="axis"></p></section>
 <section class="detail" id="cornerSection"><h2>Adapted corner</h2><div class="sample"><img id="corner" alt=""></div></section>
 <section class="detail" id="originalSection" hidden><h2>Original reference crop</h2><div class="sample"><img id="original" alt="Original supplied plate region"></div><p>This crop preserves the supplied painted artwork. It is not a seamless repeat tile.</p></section>
 </div>
@@ -49,18 +51,27 @@ function update(){
   const mirror=$('mirror').value,transform=mirror==='x'?'scaleX(-1)':mirror==='y'?'scaleY(-1)':'none';
   if(vector){
     const atlas=item.components.border_image;
-    Object.assign($('frame').style,{width:w+'px',height:h+'px',borderWidth:t+'px',borderImageSource:`url("${assetPath(atlas,fmt,(448/96)*t*dpr)}")`,borderImageSlice:item.border_image_slice_percent+'%',borderImageRepeat:$('fit').value});
+    Object.assign($('frame').style,{width:w+'px',height:h+'px'});
+    $('frame').style.setProperty('--ornament-size',t+'px');
+    $('frame').style.setProperty('--ornament-image',`url("${assetPath(atlas,fmt,(448/96)*t*dpr)}")`);
+    $('frame').style.setProperty('--ornament-slice',item.border_image_slice_percent+'%');
+    $('frame').style.setProperty('--ornament-fit',$('fit').value);
     // Mirror the decorative frame without reversing its content.
     $('frame').style.transform=transform;
     for(const child of $('frame').children)child.style.transform=transform;
     const vertical=item.repeat_axis==='y',tileW=vertical?32:32*256/96,tileH=vertical?32*256/96:32;
-    Object.assign($('strip').style,{backgroundImage:`url("${assetPath(item,fmt,Math.max(tileW,tileH)*dpr)}")`,backgroundSize:`${tileW}px ${tileH}px`,backgroundRepeat:vertical?'repeat-y':'repeat-x',width:vertical?'32px':'480px',height:vertical?'220px':'32px',transform});
+    $('strip').dataset.axis=item.repeat_axis;
+    $('strip').style.setProperty('--ornament-image',`url("${assetPath(item,fmt,Math.max(tileW,tileH)*dpr)}")`);
+    $('strip').style.setProperty('--ornament-size','32px');
+    $('strip').style.setProperty('--ornament-length',vertical?'220px':'480px');
+    $('strip').style.transform=transform;
     $('axis').textContent=vertical?'Vertical original; frame edges rotate the same repeat.':'Horizontal original; repeats continue across the strip.';
     $('corner').src=assetPath(item.components.corner,fmt,96*dpr);
   }else{
     const displayH=Math.min(h,item.height/dpr);
     $('standalone').src=assetPath(item,fmt,displayH*dpr);
-    Object.assign($('standalone').style,{height:displayH+'px',width:'auto',transform});
+    $('standalone').style.setProperty('--ornament-size',displayH+'px');
+    $('standalone').style.transform=transform;
   }
   $('format').querySelector('[value=svg]').disabled=!vector;
   $('description').textContent=item.description;

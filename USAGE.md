@@ -1,5 +1,33 @@
 # Choosing and assembling ornaments
 
+## Shared usage contract
+
+Use the shared [ornaments.css](ornaments.css) rather than rewriting border geometry for each design. The demo uses this same stylesheet. Include it once, from your own copy or the hosted collection:
+
+```html
+<link rel="stylesheet" href="https://adrian729.github.io/medieval-ornaments/ornaments.css">
+```
+
+| Class | Asset to use | `--ornament-size` means |
+| --- | --- | --- |
+| `ornament-frame` | `components.border_image` | Border thickness; default 32px |
+| `ornament-divider` | Main repeat tile | Strip thickness; default 24px |
+| `ornament-image` | Standalone PNG/WebP | Image height; default 256px |
+
+Set `--ornament-image: url(...)` for frames/dividers. A vertical divider adds `data-axis="y"` and can set `--ornament-length: 240px`. Horizontal dividers fill their container by default. Raster images use normal `src`, `srcset`, or `<picture>` for size/format selection.
+
+```html
+<article class="ornament-frame" style="
+  --ornament-image: url('https://adrian729.github.io/medieval-ornaments/svg/red-berry-vine-border.svg');
+  --ornament-size: 28px; padding: 24px;">
+  Your content
+</article>
+```
+
+Every current vector style uses the same 256 × 96 repeat geometry and 448 × 448 atlas, so changing its URL is enough. Optional settings keep future exceptions explicit: `--ornament-ratio` is tile length divided by thickness (default 256/96), `--ornament-slice` is the atlas corner slice percentage, and `--ornament-fit` is `round` or `repeat`. Read those values from the catalog when using an asset with different geometry; do not force irregular handmade crops into a repeat. Use content padding and typography separately from ornament settings.
+
+The low-level CSS examples below show what the shared stylesheet does when you need to implement it independently.
+
 ## Whole painted decorations
 
 The five narrow panels are complete ornaments. Preserve their aspect ratio. Use an `<img>` with one dimension set and the other automatic; do not stretch them to fill a frame or repeat them as a seamless strip. Select the smallest available PNG/WebP that meets the displayed size times the device pixel ratio. If the required resolution exceeds the master, use the master and reduce the display size rather than creating an enlarged raster export.

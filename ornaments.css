@@ -1,0 +1,32 @@
+/* Shared usage contract. Image URLs resolve relative to where you declare them. */
+.ornament-frame {
+  box-sizing: border-box;
+  border: var(--ornament-size, 32px) solid transparent;
+  border-image-source: var(--ornament-image, none);
+  border-image-slice: var(--ornament-slice, 21.42857142857143%);
+  border-image-repeat: var(--ornament-fit, round);
+}
+
+.ornament-divider {
+  display: block;
+  width: var(--ornament-length, 100%);
+  height: var(--ornament-size, 24px);
+  background-image: var(--ornament-image, none);
+  background-repeat: repeat-x;
+  background-size: calc(var(--ornament-size, 24px) * var(--ornament-ratio, 2.6666666667)) var(--ornament-size, 24px);
+}
+
+.ornament-divider[data-axis="y"] {
+  width: var(--ornament-size, 24px);
+  height: var(--ornament-length, 256px);
+  background-repeat: repeat-y;
+  background-size: var(--ornament-size, 24px) calc(var(--ornament-size, 24px) * var(--ornament-ratio, 2.6666666667));
+}
+
+.ornament-image {
+  display: block;
+  height: var(--ornament-size, 256px);
+  width: auto;
+  max-width: 100%;
+  object-fit: contain;
+}

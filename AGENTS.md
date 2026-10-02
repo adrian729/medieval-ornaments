@@ -10,10 +10,12 @@ This public repository stores medieval ornaments and border assets. It is separa
 - `reference-crops.json`: supplied plate crop filenames and source coordinates; these PNG masters are original pixels.
 - `images.json`: generated catalog with six selection fields, usage metadata, dimensions, bytes, variants, and matching components. Do not hand-edit generated records.
 - `svg/`: genuine vectors, without embedded raster images or external references.
+- `ornaments.css`: shared usage classes (`ornament-frame`, `ornament-divider`, `ornament-image`) and `--ornament-*` settings. Reuse these in demos and documentation; do not introduce competing conventions. Default repeat geometry is 256 × 96; use explicit ratio/slice overrides for future exceptions.
 - `png/`, `webp/`: masters and size folders. Size is the longest dimension.
 - `EXTRACTION-PROMPTS.json`: exact extraction prompts and built-in imagegen method.
 - `scripts/catalog.py`: validates files and generates the README gallery.
-- `examples/index.html`: interactive browser preview; `examples/qa.html`: frame verification sheet.
+- `examples/demo.html`: small usage demo with copyable HTML/CSS; `index.html` forwards to it. `.nojekyll` lets GitHub Pages serve the collection as static files from `main`.
+- `examples/index.html`: interactive browser preview; `examples/qa.html`: frame verification sheet. Preserve demo links and verify copied examples use the displayed settings.
 - `USAGE.md`, `SELECTION.md`: human and LLM usage guidance.
 - `tmp/`, `.venv/`: ignored local work only. Never commit credentials or private workspace material.
 

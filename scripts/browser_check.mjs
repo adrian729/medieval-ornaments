@@ -47,6 +47,39 @@ for(const [name,theme,width,height,thickness,format] of [
   await pause(150);const shot=await send('Page.captureScreenshot',{captureBeyondViewport:false});
   await writeFile(new URL('../tmp/browser-'+name+'.png',import.meta.url),Buffer.from(shot.data,'base64'));
 }
+// The small usage demo consumes the same stylesheet as the full playground.
+await send('Page.navigate',{url:origin+'/examples/demo.html'});await ready();
+for(const viewport of [320,375,768,1200]){
+  await send('Emulation.setDeviceMetricsOverride',{width:viewport,height:1000,deviceScaleFactor:1,mobile:false});
+  const result=await evaluate(`(async()=>{await Promise.all([...document.images].map(i=>i.decode()));const divider=getComputedStyle(document.querySelector('.ornament-divider'));return {overflow:document.documentElement.scrollWidth>document.documentElement.clientWidth,loaded:[...document.images].every(i=>i.naturalWidth>0),tileSize:divider.backgroundSize}})()`);
+  assert(!result.overflow&&result.loaded&&result.tileSize==='64px 24px','Demo layout failed '+JSON.stringify({viewport,...result}));checks++;
+}
+for(const name of ['red-berry-vine','plate-13-leaf-and-flower-vine','plate-36-greek-key'])for(const size of [16,28,48]){
+  await choose('frameDesign',name);await choose('thickness',size);
+  const result=await evaluate(`(()=>{const frame=getComputedStyle(document.getElementById('frameExample')),code=document.getElementById('frameCode').textContent;return {border:parseFloat(frame.borderTopWidth),image:frame.borderImageSource,code}})()`);
+  assert(result.border===size&&result.image.includes(name+'-border.svg')&&result.code.includes('--ornament-size: '+size+'px')&&result.code.includes(name+'-border.svg'),'Demo setting/code mismatch');checks++;
+}
+await evaluate("document.getElementById('theme').click()");
+assert(await evaluate("document.body.classList.contains('dark')&&document.getElementById('theme').getAttribute('aria-pressed')==='true'"),'Theme toggle failed');checks++;
+await evaluate("document.getElementById('remoteUrls').checked=false;document.getElementById('remoteUrls').dispatchEvent(new Event('input'))");
+assert(await evaluate("['frameCode','dividerCode','panelCode'].every(id=>document.getElementById(id).textContent.includes('../')&&!document.getElementById(id).textContent.includes('https://'))"),'Local snippets failed');checks++;
+await evaluate("document.getElementById('remoteUrls').checked=true;document.getElementById('remoteUrls').dispatchEvent(new Event('input'))");
+assert(await evaluate("['frameCode','dividerCode','panelCode'].every(id=>document.getElementById(id).textContent.includes('https://adrian729.github.io/medieval-ornaments/ornaments.css'))"),'Hosted stylesheet snippets failed');checks++;
+// Verify copy output without modifying the user's system clipboard.
+await evaluate("Object.defineProperty(navigator,'clipboard',{configurable:true,value:{writeText:async text=>{window.copiedDemoText=text}}})");
+for(const id of ['frameCode','dividerCode','panelCode']){
+  await evaluate(`document.querySelector('[data-copy="${id}"]').click()`);
+  assert(await evaluate(`window.copiedDemoText===document.getElementById('${id}').textContent`),'Copy mismatch '+id);checks++;
+}
+// Exercise the alternate divider orientation through the same usage contract.
+const vertical=await evaluate(`(()=>{const el=document.querySelector('.ornament-divider');el.dataset.axis='y';el.style.setProperty('--ornament-length','180px');const style=getComputedStyle(el);const result={width:style.width,height:style.height,repeat:style.backgroundRepeat,size:style.backgroundSize};el.removeAttribute('data-axis');el.style.removeProperty('--ornament-length');return result})()`);
+assert(vertical.width==='24px'&&vertical.height==='180px'&&vertical.repeat==='repeat-y'&&vertical.size==='24px 64px','Vertical divider contract failed');checks++;
+await choose('frameDesign','red-berry-vine');await choose('thickness',28);
+for(const [width,height,name] of [[1200,1500,'desktop'],[375,1100,'mobile']]){
+  await send('Emulation.setDeviceMetricsOverride',{width,height,deviceScaleFactor:1,mobile:false});await pause(100);
+  const shot=await send('Page.captureScreenshot',{captureBeyondViewport:false});
+  await writeFile(new URL('../tmp/usage-demo-'+name+'.png',import.meta.url),Buffer.from(shot.data,'base64'));
+}
 assert(errors.length===0,'Browser errors '+JSON.stringify(errors));
 await writeFile(new URL('../tmp/browser-verification.json',import.meta.url),JSON.stringify({checks,designs:catalog.length,viewportWidths:[320,375,768,1200],errors},null,2));
-console.log(`PASS ${checks} browser checks across ${catalog.length} designs, all formats, and four viewport sizes.`);ws.close();
+console.log(`PASS ${checks} browser checks across ${catalog.length} designs, all formats, four viewport sizes, and shared usage/demo controls.`);ws.close();

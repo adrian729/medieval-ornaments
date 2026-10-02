@@ -10,7 +10,13 @@ All 44 vector border styles include a repeat tile, a corner, and a nine-slice bo
 
 ## Preview and use
 
+Open the [small usage demo](https://adrian729.github.io/medieval-ornaments/) for a decorated card, repeating divider, and painted flourish, with copyable HTML/CSS. It includes a dark background, frame choices, and border thickness controls. The [full playground](https://adrian729.github.io/medieval-ornaments/examples/) lets you explore every design.
+
+Use [ornaments.css](ornaments.css) for consistent classes: `ornament-frame`, `ornament-divider`, and `ornament-image`. Set `--ornament-image` and `--ornament-size`; the stylesheet handles the shared geometry. [Usage details and exceptions](USAGE.md#shared-usage-contract) explain the optional settings.
+
 Run `python3 -m http.server 8765` in this folder and open [the interactive preview](http://localhost:8765/examples/). Choose a design, change the frame size and border thickness, switch between SVG/PNG/WebP, and inspect the original reference where available.
+
+The demo is also at `examples/demo.html`; it works directly from a local checkout without a server.
 
 ```html
 <img src="https://raw.githubusercontent.com/adrian729/medieval-ornaments/main/webp/256/floral-bird-panel-blue.webp"
@@ -20,13 +26,13 @@ Run `python3 -m http.server 8765` in this folder and open [the interactive previ
 For a scalable frame:
 
 ```css
-.decorated {
-  border: 32px solid transparent;
-  border-image-source: url("https://raw.githubusercontent.com/adrian729/medieval-ornaments/main/svg/red-berry-vine-border.svg");
-  border-image-slice: 21.42857142857143%;
-  border-image-repeat: round;
+.ornament-frame {
+  --ornament-image: url("https://adrian729.github.io/medieval-ornaments/svg/red-berry-vine-border.svg");
+  --ornament-size: 32px;
 }
 ```
+
+Include `ornaments.css` once and add `class="ornament-frame"` to your element.
 
 `round` fits whole repeat units into each edge; `repeat` keeps their proportions and can clip a unit at the ends. Corners rotate the same adapted corner around the frame. These are deliberate turns rather than extensions of every motif through the corner. See [usage details](USAGE.md) and [selection guidance for LLMs](SELECTION.md).
 
