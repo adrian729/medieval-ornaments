@@ -15,7 +15,8 @@ This public collection is separate from `../medieval-cutouts`. Keep Polyhymnia l
 - `raster-metadata.json`: five standalone AI-extracted painted panels. Preserve these PNG masters.
 - `reference-crops.json`: untouched original plate crop bounds and masks. Reference crops are comparison images, not seamless tiles.
 - `scripts/catalog.py`: file validation and alphabetical README gallery generation.
-- `ornaments.css`: shared `ornament-frame`, `ornament-divider`, `ornament-image` contract. Relative URLs in custom properties resolve against this stylesheet. JavaScript must resolve catalog URLs explicitly.
+- `ornaments.css`: shared `ornament-frame`, `ornament-divider`, `ornament-image` contract. Divider slots retain the available length; their `::before` backgrounds contain only complete centered repeat sections. Preserve this for both axes and responsive percentage lengths. Relative URLs in custom properties resolve against this stylesheet. JavaScript must resolve catalog URLs explicitly.
+- `scripts/build_favicon.py`: renders the existing red rosette motif into root SVG/PNG/ICO favicon files. Every HTML entry point links them; keep them outside the ornament asset catalog.
 - `examples/demo.html`: small usage demo; `index.html` redirects to it. `examples/index.html`: categorized browser. `examples/review.html`: original/unit/repeat/frame comparisons. `examples/qa.html`: all frames.
 - `tmp/`, `.venv*/`: ignored local work. Never commit credentials/private workspace material.
 

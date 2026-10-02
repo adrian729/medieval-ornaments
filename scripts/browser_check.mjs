@@ -27,6 +27,11 @@ for(const item of catalog){
     assert(result.frameVisible===(item.kind==='repeat-tile')&&result.standaloneVisible===(item.kind==='standalone'),'Visibility failed '+item.name);
     checks++;
   }
+  if(item.kind==='repeat-tile'){
+  // A resized slot must add a whole section only once it fits, on both axes.
+  const fitting=await evaluate(`(()=>{const ratio=${item.repeat_ratio},period=33*ratio,failures=[];for(const axis of ['x','y'])for(const count of [1,3])for(const delta of [-.5,0,.5])for(const responsive of [false,true]){const length=count*period+delta,parent=document.createElement('div'),el=document.createElement('div');parent.style.cssText='position:absolute;width:'+length+'px;height:'+length+'px';el.className='ornament-divider';el.dataset.axis=axis;el.style.cssText='--ornament-size:33px;--ornament-ratio:'+ratio+';--ornament-length:'+(responsive?'100%':length+'px');parent.append(el);document.body.append(parent);const box=getComputedStyle(el),style=getComputedStyle(el,'::before'),available=parseFloat(box[axis==='x'?'width':'height']),used=parseFloat(style[axis==='x'?'width':'height']),inset=parseFloat(style[axis==='x'?'left':'top'])+new DOMMatrix(style.transform)[axis==='x'?'m41':'m42'],expected=Math.floor((available+1e-7)/period)*period;if(Math.abs(used-expected)>.025||Math.abs(inset-(available-used)/2)>.025)failures.push({axis,length,available,used,expected,inset,responsive});parent.remove()}return failures})()`);
+  assert(fitting.length===0,'Whole-section boundary fitting failed '+item.name+' '+JSON.stringify(fitting));checks++;
+  }
 }
 // Browse by usage first, then by catalog category/search; expose relevant controls.
 await choose('purpose','divider');
@@ -36,9 +41,9 @@ for(const item of catalog.filter(i=>i.kind==='repeat-tile')){
   for(const axis of ['x','y'])for(const format of ['svg','png','webp']){
     await choose('orientation',axis);await choose('format',format);
     const tile=axis===item.repeat_axis?item:item.components.rotated_tile;
-    const result=await evaluate(`(async()=>{const el=document.getElementById('previewStrip'),style=getComputedStyle(el),path=JSON.parse(style.backgroundImage.slice(4,-1)),image=new Image();image.src=path;await image.decode();return {path,width:parseFloat(style.width),height:parseFloat(style.height),repeat:style.backgroundRepeat,size:style.backgroundSize,axis:el.dataset.axis,controls:!document.getElementById('orientationControl').hidden&&document.getElementById('widthControl').hidden===${axis==='y'}&&document.getElementById('heightControl').hidden===${axis==='x'},links:[...document.querySelectorAll('#links a')].map(a=>a.href)}})()`);
+    const result=await evaluate(`(async()=>{const el=document.getElementById('previewStrip'),box=getComputedStyle(el),style=getComputedStyle(el,'::before'),path=JSON.parse(style.backgroundImage.slice(4,-1)),image=new Image();image.src=path;await image.decode();return {path,width:parseFloat(box.width),height:parseFloat(box.height),used:parseFloat(style.${axis==='x'?'width':'height'}),inset:parseFloat(style.${axis==='x'?'left':'top'})+new DOMMatrix(style.transform).${axis==='x'?'m41':'m42'},repeat:style.backgroundRepeat,size:style.backgroundSize,axis:el.dataset.axis,controls:!document.getElementById('orientationControl').hidden&&document.getElementById('widthControl').hidden===${axis==='y'}&&document.getElementById('heightControl').hidden===${axis==='x'},links:[...document.querySelectorAll('#links a')].map(a=>a.href)}})()`);
     const period=24*item.repeat_ratio,expectedSize=axis==='x'?[period,24]:[24,period],actualSize=result.size.split(' ').map(parseFloat);
-    assert([tile,...tile.variants].some(asset=>result.path.endsWith(asset[format]))&&result.width===(axis==='x'?420:24)&&result.height===(axis==='x'?24:260)&&result.repeat===('repeat-'+axis)&&result.axis===axis&&result.controls&&result.links.some(p=>p.endsWith(tile.png))&&actualSize.every((v,i)=>Math.abs(v-expectedSize[i])<.01),'Divider orientation failed '+item.name+' '+axis+' '+format+' '+JSON.stringify(result));checks++;
+    assert([tile,...tile.variants].some(asset=>result.path.endsWith(asset[format]))&&result.width===(axis==='x'?420:24)&&result.height===(axis==='x'?24:260)&&result.repeat===(axis==='x'?'round no-repeat':'no-repeat round')&&Math.abs(result.used-Math.floor((axis==='x'?420:260)/period)*period)<.02&&Math.abs(result.inset-((axis==='x'?420:260)-result.used)/2)<.02&&result.axis===axis&&result.controls&&result.links.some(p=>p.endsWith(tile.png))&&actualSize.every((v,i)=>Math.abs(v-expectedSize[i])<.01),'Divider orientation failed '+item.name+' '+axis+' '+format+' '+JSON.stringify(result));checks++;
     if(['red-berry-vine','plate-03-spiral-bands'].includes(item.name)&&format!=='png'){
       await evaluate("document.getElementById('stage').scrollIntoView({block:'center'})");
       const shot=await send('Page.captureScreenshot',{captureBeyondViewport:false});
@@ -63,7 +68,7 @@ await choose('search','no-such-design');
 assert(await evaluate("document.querySelectorAll('.design-card').length===0&&document.getElementById('stage').hidden&&document.getElementById('previewControls').hidden"),'Empty results');checks++;
 await choose('search','');await choose('category','all');await choose('purpose','divider');
 await choose('design','plate-03-spiral-bands');
-assert(await evaluate("!document.getElementById('previewStrip').hidden&&document.getElementById('fitControl').hidden&&document.getElementById('cornerSection').hidden&&document.getElementById('widthControl').hidden&&!document.getElementById('heightControl').hidden&&getComputedStyle(document.getElementById('previewStrip')).backgroundRepeat==='repeat-y'"),'Vertical divider controls');checks++;
+assert(await evaluate("!document.getElementById('previewStrip').hidden&&document.getElementById('fitControl').hidden&&document.getElementById('cornerSection').hidden&&document.getElementById('widthControl').hidden&&!document.getElementById('heightControl').hidden&&getComputedStyle(document.getElementById('previewStrip'),'::before').backgroundRepeat==='no-repeat round'"),'Vertical divider controls');checks++;
 await choose('design','red-berry-vine');
 assert(await evaluate("!document.getElementById('widthControl').hidden&&document.getElementById('heightControl').hidden"),'Horizontal divider controls');checks++;
 await evaluate("document.querySelector('[data-design=\"gold-leaf-scroll\"]').click()");
@@ -101,7 +106,7 @@ for(const [purpose,category,width,height,name] of [['frame','geometric',1200,110
 await send('Page.navigate',{url:origin+'/examples/demo.html'});await ready();
 for(const viewport of [320,375,768,1200]){
   await send('Emulation.setDeviceMetricsOverride',{width:viewport,height:1000,deviceScaleFactor:1,mobile:false});
-  const result=await evaluate(`(async()=>{await Promise.all([...document.images].map(i=>i.decode()));const divider=getComputedStyle(document.querySelector('.ornament-divider')),frame=getComputedStyle(document.getElementById('frameExample'));for(const cssUrl of [divider.backgroundImage,frame.borderImageSource]){const image=new Image();image.src=JSON.parse(cssUrl.slice(4,-1));await image.decode()}return {overflow:document.documentElement.scrollWidth>document.documentElement.clientWidth,loaded:[...document.images].every(i=>i.naturalWidth>0),tileSize:divider.backgroundSize}})()`);
+  const result=await evaluate(`(async()=>{await Promise.all([...document.images].map(i=>i.decode()));const divider=getComputedStyle(document.querySelector('.ornament-divider'),'::before'),frame=getComputedStyle(document.getElementById('frameExample'));for(const cssUrl of [divider.backgroundImage,frame.borderImageSource]){const image=new Image();image.src=JSON.parse(cssUrl.slice(4,-1));await image.decode()}return {overflow:document.documentElement.scrollWidth>document.documentElement.clientWidth,loaded:[...document.images].every(i=>i.naturalWidth>0),tileSize:divider.backgroundSize}})()`);
   assert(!result.overflow&&result.loaded&&result.tileSize==='64px 24px','Demo layout failed '+JSON.stringify({viewport,...result}));checks++;
 }
 for(const name of ['red-berry-vine','plate-13-leaf-and-flower-vine','plate-38-diagonal-meander'])for(const size of [16,28,48]){
@@ -122,8 +127,8 @@ for(const id of ['frameCode','dividerCode','panelCode']){
   assert(await evaluate(`window.copiedDemoText===document.getElementById('${id}').textContent`),'Copy mismatch '+id);checks++;
 }
 // Exercise the alternate divider orientation through the same usage contract.
-const vertical=await evaluate(`(()=>{const el=document.querySelector('.ornament-divider');el.dataset.axis='y';el.style.setProperty('--ornament-length','180px');const style=getComputedStyle(el);const result={width:style.width,height:style.height,repeat:style.backgroundRepeat,size:style.backgroundSize};el.removeAttribute('data-axis');el.style.removeProperty('--ornament-length');return result})()`);
-assert(vertical.width==='24px'&&vertical.height==='180px'&&vertical.repeat==='repeat-y'&&vertical.size==='24px 64px','Vertical divider contract failed');checks++;
+const vertical=await evaluate(`(()=>{const el=document.querySelector('.ornament-divider');el.dataset.axis='y';el.style.setProperty('--ornament-length','180px');const box=getComputedStyle(el),style=getComputedStyle(el,'::before');const result={width:box.width,height:box.height,repeat:style.backgroundRepeat,size:style.backgroundSize,used:style.height};el.removeAttribute('data-axis');el.style.removeProperty('--ornament-length');return result})()`);
+assert(vertical.width==='24px'&&vertical.height==='180px'&&vertical.repeat==='no-repeat round'&&vertical.size==='24px 64px'&&vertical.used==='128px','Vertical divider contract failed');checks++;
 await choose('frameDesign','red-berry-vine');await choose('thickness',28);
 for(const [width,height,name] of [[1200,1500,'desktop'],[375,1100,'mobile']]){
   await send('Emulation.setDeviceMetricsOverride',{width,height,deviceScaleFactor:1,mobile:false});await pause(100);
@@ -145,6 +150,11 @@ const shot=await send('Page.captureScreenshot',{captureBeyondViewport:false});
 await writeFile(new URL('../tmp/artwork-review-dark.png',import.meta.url),Buffer.from(shot.data,'base64'));
 await send('Emulation.setDeviceMetricsOverride',{width:375,height:1100,deviceScaleFactor:1,mobile:false});
 assert(await evaluate("document.documentElement.scrollWidth<=document.documentElement.clientWidth"),'Artwork review mobile overflow');checks++;
+// Every HTML entry point supplies valid SVG, PNG, and ICO tab icons.
+for(const path of ['index.html','examples/index.html','examples/demo.html','examples/review.html','examples/qa.html']){
+  const result=await evaluate(`(async()=>{const pageUrl=${JSON.stringify(origin+'/')}+${JSON.stringify(path)},response=await fetch(pageUrl),document=new DOMParser().parseFromString(await response.text(),'text/html'),icons=[...document.querySelectorAll('link[rel="icon"]')];for(const icon of icons){const url=new URL(icon.getAttribute('href'),pageUrl);if(!(await fetch(url)).ok)throw Error('Missing favicon '+url);if(icon.type!=='image/x-icon'){const image=new Image();image.src=url.href;await image.decode()}}return icons.map(i=>i.type)})()`);
+  assert(['image/svg+xml','image/png','image/x-icon'].every(type=>result.includes(type)),'Missing favicon links '+path);checks++;
+}
 assert(errors.length===0,'Browser errors '+JSON.stringify(errors));
 await writeFile(new URL('../tmp/browser-verification.json',import.meta.url),JSON.stringify({checks,designs:catalog.length,viewportWidths:[320,375,768,1200],errors},null,2));
 console.log(`PASS ${checks} browser checks across ${catalog.length} designs, all formats, four viewport sizes, and shared usage/demo controls.`);ws.close();

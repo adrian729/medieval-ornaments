@@ -14,7 +14,7 @@ Open the [small usage demo](https://adrian729.github.io/medieval-ornaments/) for
 
 Use [ornaments.css](ornaments.css) for consistent classes: `ornament-frame`, `ornament-divider`, and `ornament-image`. Set `--ornament-image` and `--ornament-size`; the stylesheet handles the shared geometry. [Usage details and exceptions](USAGE.md#shared-usage-contract) explain the optional settings.
 
-Run `python3 -m http.server 8765` in this folder and open [the interactive preview](http://localhost:8765/examples/). Frames offer width, height, and thickness; dividers offer orientation, length, and thickness; painted decorations offer image height. Switch between available formats and inspect the original reference where available. Every repeat tile includes a rotated version for using it in either direction with the shared CSS.
+Run `python3 -m http.server 8765` in this folder and open [the interactive preview](http://localhost:8765/examples/). Frames offer width, height, and thickness; dividers offer orientation, available length, and thickness; painted decorations offer image height. Divider sections remain complete and centered within the available length. Switch between available formats and inspect the original reference where available. Every repeat tile includes a rotated version for using it in either direction with the shared CSS.
 
 The [artwork review page](https://adrian729.github.io/medieval-ornaments/examples/review.html) compares originals, extracted units, repeated strips, and frames at 33px. Switch between painted raster artwork and SVG traces.
 

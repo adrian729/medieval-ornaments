@@ -14,7 +14,7 @@ Inspect [the comparison page](https://adrian729.github.io/medieval-ornaments/exa
 
 ## Browser and rendered checks
 
-Chrome passed **428 browser checks** across all 49 designs, available formats, and four viewport widths (320, 375, 768, 1200). Checks include image decoding, applicable controls, whole artwork size/format controls, all 40 dividers in both orientations and all three formats, matching download links and length controls, category/purpose/search filters, empty results, shared stylesheet usage, demo snippets and local/public URLs, the comparison page, and mobile overflow. Reports and screenshots are written to ignored `tmp/`.
+Chrome passed **473 browser checks** across all 49 designs, available formats, and four viewport widths (320, 375, 768, 1200). Checks include image decoding, applicable controls, whole artwork size/format controls, all 40 dividers in both orientations and all three formats, matching download links and length controls, complete centered sections at repeat boundaries (fixed and percentage lengths, including less than one section), all five pages' SVG/PNG/ICO favicons, category/purpose/search filters, empty results, shared stylesheet usage, demo snippets and local/public URLs, the comparison page, and mobile overflow. Reports and screenshots are written to ignored `tmp/`.
 
 The frame matrix covers **1,512 rendered cases**:
 

@@ -50,7 +50,7 @@ Use the main tile as a repeating background. For a horizontal divider:
 
 Every repeat design also supplies `components.rotated_tile`: the same artwork turned 90 degrees, in SVG, PNG, WebP, and smaller sizes. Its `repeat_axis` is opposite to the main tile's, and its `repeat_ratio` is unchanged. Choose the asset whose axis matches the direction you want. PNG/WebP rotations rearrange existing pixels without interpolation or enlargement.
 
-Vertical dividers add `data-axis="y"`; the length then sets height and the thickness sets width. Setting that attribute alone does not rotate a horizontal image: use the matching vertical asset too. For example:
+Vertical dividers add `data-axis="y"`; the available length then sets height and the thickness sets width. Setting that attribute alone does not rotate a horizontal image: use the matching vertical asset too. For example:
 
 ```html
 <div class="ornament-divider" data-axis="y" style="
@@ -59,7 +59,9 @@ Vertical dividers add `data-axis="y"`; the length then sets height and the thick
   --ornament-length: 240px;" aria-hidden="true"></div>
 ```
 
-The browser's Orientation selector offers Horizontal, Vertical, and Original direction; asset links follow your choice. A divider ending at an arbitrary length can crop its last unit; frames instead fit whole units around corners.
+The browser's Orientation selector offers Horizontal, Vertical, and Original direction; asset links follow your choice. `--ornament-length` sets the available space. The shared CSS fits as many complete, contiguous sections as possible and centers them within that space, leaving equal empty space at both ends. The artwork retains its thickness and proportions. If even one section is too long, nothing is painted: increase the available length or reduce the thickness.
+
+This works responsively with `--ornament-length:100%` and requires no JavaScript. The painted background lives on `::before`; leave that pseudo-element available. Whole-section fitting uses [CSS round()](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/round). Older browsers without that function fit complete tiles by slightly adjusting their length instead. Frames keep their separate `round` fitting around corners.
 
 ## Whole decorations
 

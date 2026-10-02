@@ -9,19 +9,49 @@
 }
 
 .ornament-divider {
+  --ornament-period: calc(var(--ornament-size, 24px) * var(--ornament-ratio, 2.6666666666666665));
   display: block;
+  position: relative;
   width: var(--ornament-length, 100%);
   height: var(--ornament-size, 24px);
+}
+
+.ornament-divider::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform: translateX(-50%);
+  width: 100%;
+  height: 100%;
   background-image: var(--ornament-image, none);
-  background-repeat: repeat-x;
-  background-size: calc(var(--ornament-size, 24px) * var(--ornament-ratio, 2.6666666667)) var(--ornament-size, 24px);
+  /* Older browsers fit complete tiles by adjusting their length. */
+  background-repeat: round no-repeat;
+  background-size: var(--ornament-period) var(--ornament-size, 24px);
 }
 
 .ornament-divider[data-axis="y"] {
   width: var(--ornament-size, 24px);
   height: var(--ornament-length, 256px);
-  background-repeat: repeat-y;
-  background-size: var(--ornament-size, 24px) calc(var(--ornament-size, 24px) * var(--ornament-ratio, 2.6666666667));
+}
+
+.ornament-divider[data-axis="y"]::before {
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  background-repeat: no-repeat round;
+  background-size: var(--ornament-size, 24px) var(--ornament-period);
+}
+
+@supports (width: round(down, 100%, 64px)) {
+  .ornament-divider::before {
+    /* Keep contiguous complete units; spare space stays outside the artwork. */
+    width: round(down, 100%, var(--ornament-period));
+  }
+  .ornament-divider[data-axis="y"]::before {
+    width: 100%;
+    height: round(down, 100%, var(--ornament-period));
+  }
 }
 
 .ornament-image {
