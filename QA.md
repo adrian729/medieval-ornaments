@@ -25,3 +25,5 @@ google-chrome --headless --no-sandbox --disable-gpu --remote-debugging-port=9227
 ```
 
 Then run `node scripts/browser_check.mjs`. It writes a report and selected screenshots to ignored `tmp/`. View [examples/qa.html](examples/qa.html) through the local server to inspect every frame. New or changed artwork needs fresh visual review as described in AGENTS.md.
+
+Pass a base URL to check a deployed site: `node scripts/browser_check.mjs https://adrian729.github.io/medieval-ornaments/`. The demo checks decode CSS ornament images as well as ordinary images, so hosted path errors are detected.

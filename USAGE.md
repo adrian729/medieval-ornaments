@@ -14,7 +14,7 @@ Use the shared [ornaments.css](ornaments.css) rather than rewriting border geome
 | `ornament-divider` | Main repeat tile | Strip thickness; default 24px |
 | `ornament-image` | Standalone PNG/WebP | Image height; default 256px |
 
-Set `--ornament-image: url(...)` for frames/dividers. A vertical divider adds `data-axis="y"` and can set `--ornament-length: 240px`. Horizontal dividers fill their container by default. Raster images use normal `src`, `srcset`, or `<picture>` for size/format selection.
+Set `--ornament-image: url(...)` for frames/dividers. Prefer absolute URLs, as used in the public demo examples. Relative URLs in this variable resolve against the shared stylesheet, so local collection assets use `url('svg/design.svg')`. For JavaScript, resolve catalog paths with `new URL(path, collectionBaseUrl).href` before setting the variable. A vertical divider adds `data-axis="y"` and can set `--ornament-length: 240px`. Horizontal dividers fill their container by default. Raster images use normal `src`, `srcset`, or `<picture>` for size/format selection.
 
 ```html
 <article class="ornament-frame" style="

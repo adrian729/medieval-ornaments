@@ -34,10 +34,10 @@
 <script>
 const $=id=>document.getElementById(id);let catalog=[];
 function assetPath(asset,format,need){
-  if(format==='svg'&&asset.svg)return '../'+asset.svg;
+  if(format==='svg'&&asset.svg)return new URL('../'+asset.svg,location.href).href;
   const fmt=format==='svg'?'webp':format;
   const sorted=[...asset.variants,asset].sort((a,b)=>Math.max(a.width,a.height)-Math.max(b.width,b.height));
-  return '../'+(sorted.find(v=>Math.max(v.width,v.height)>=need)||asset)[fmt];
+  return new URL('../'+(sorted.find(v=>Math.max(v.width,v.height)>=need)||asset)[fmt],location.href).href;
 }
 function update(){
   const item=catalog.find(x=>x.name===$('design').value);if(!item)return;

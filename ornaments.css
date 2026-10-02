@@ -1,4 +1,4 @@
-/* Shared usage contract. Image URLs resolve relative to where you declare them. */
+/* Shared usage contract. Use absolute image URLs, or paths relative to this stylesheet. */
 .ornament-frame {
   box-sizing: border-box;
   border: var(--ornament-size, 32px) solid transparent;

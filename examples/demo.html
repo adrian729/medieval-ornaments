@@ -31,10 +31,10 @@
     .hint { margin: 0 0 18px; color: var(--muted); max-width: 780px; font-size: 14px; }
     .example { display: grid; grid-template-columns: 1fr 1fr; gap: 28px; align-items: center; }
     .preview { min-width: 0; background: var(--surface); padding: 24px; }
-    .ornament-frame { --ornament-size: 28px; --ornament-image: url('../svg/red-berry-vine-border.svg'); padding: 24px 16px; text-align: center; }
+    .ornament-frame { --ornament-size: 28px; --ornament-image: url('svg/red-berry-vine-border.svg'); padding: 24px 16px; text-align: center; }
     .ornament-frame h3 { margin: 0 0 12px; font-size: 30px; line-height: 1.15; }
     .ornament-frame p { margin: 0; color: var(--muted); font-size: 14px; }
-    .ornament-divider { --ornament-size: 24px; --ornament-image: url('../svg/gold-leaf-scroll.svg'); margin: 24px 0; }
+    .ornament-divider { --ornament-size: 24px; --ornament-image: url('svg/gold-leaf-scroll.svg'); margin: 24px 0; }
     .divider-preview p { font-family: Georgia, serif; font-size: 20px; margin: 0; }
     .with-ornament { display: flex; gap: 24px; align-items: center; }
     .with-ornament img { flex-shrink: 0; }
@@ -78,7 +78,7 @@
 
 &lt;style&gt;
 .card {
-  --ornament-image: url('../svg/red-berry-vine-border.svg');
+  --ornament-image: url('svg/red-berry-vine-border.svg');
   --ornament-size: 28px;
   padding: 24px;
 }
@@ -97,7 +97,7 @@
 
 &lt;style&gt;
 .divider {
-  --ornament-image: url('../svg/gold-leaf-scroll.svg');
+  --ornament-image: url('svg/gold-leaf-scroll.svg');
   --ornament-size: 24px;
 }
 &lt;/style&gt;</code></pre></div>
@@ -140,11 +140,11 @@
     const name = $('frameDesign').value, thickness = $('thickness').value;
     $('thicknessValue').value = thickness + 'px';
     $('frameExample').style.setProperty('--ornament-size', thickness + 'px');
-    $('frameExample').style.setProperty('--ornament-image', `url('../svg/${name}-border.svg')`);
+    $('frameExample').style.setProperty('--ornament-image', `url('${new URL('../svg/' + name + '-border.svg', location.href).href}')`);
     for (const [id, original] of Object.entries(templates)) {
       let text = original;
       if (id === 'frameCode') text = text.replaceAll('red-berry-vine', name).replace('28px', thickness + 'px');
-      if ($('remoteUrls').checked) text = text.replaceAll('../', base);
+      if ($('remoteUrls').checked) text = text.replaceAll('../', base).replaceAll("url('svg/", "url('" + base + 'svg/');
       $(id).textContent = text;
     }
   }

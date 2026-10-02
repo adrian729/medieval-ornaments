@@ -1,6 +1,6 @@
 // Optional browser verification: Node 22+ and Chrome with --remote-debugging-port=9227.
 import {writeFile} from 'node:fs/promises';
-const origin='http://127.0.0.1:8765';
+const origin=(process.argv[2]||'http://127.0.0.1:8765').replace(/\/$/,'');
 const tabs=await(await fetch('http://127.0.0.1:9227/json')).json();
 const ws=new WebSocket(tabs.find(t=>t.type==='page').webSocketDebuggerUrl);
 await new Promise(r=>ws.addEventListener('open',r,{once:true}));
@@ -51,7 +51,7 @@ for(const [name,theme,width,height,thickness,format] of [
 await send('Page.navigate',{url:origin+'/examples/demo.html'});await ready();
 for(const viewport of [320,375,768,1200]){
   await send('Emulation.setDeviceMetricsOverride',{width:viewport,height:1000,deviceScaleFactor:1,mobile:false});
-  const result=await evaluate(`(async()=>{await Promise.all([...document.images].map(i=>i.decode()));const divider=getComputedStyle(document.querySelector('.ornament-divider'));return {overflow:document.documentElement.scrollWidth>document.documentElement.clientWidth,loaded:[...document.images].every(i=>i.naturalWidth>0),tileSize:divider.backgroundSize}})()`);
+  const result=await evaluate(`(async()=>{await Promise.all([...document.images].map(i=>i.decode()));const divider=getComputedStyle(document.querySelector('.ornament-divider')),frame=getComputedStyle(document.getElementById('frameExample'));for(const cssUrl of [divider.backgroundImage,frame.borderImageSource]){const image=new Image();image.src=JSON.parse(cssUrl.slice(4,-1));await image.decode()}return {overflow:document.documentElement.scrollWidth>document.documentElement.clientWidth,loaded:[...document.images].every(i=>i.naturalWidth>0),tileSize:divider.backgroundSize}})()`);
   assert(!result.overflow&&result.loaded&&result.tileSize==='64px 24px','Demo layout failed '+JSON.stringify({viewport,...result}));checks++;
 }
 for(const name of ['red-berry-vine','plate-13-leaf-and-flower-vine','plate-36-greek-key'])for(const size of [16,28,48]){
