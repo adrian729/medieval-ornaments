@@ -1,0 +1,989 @@
+{
+  "plate-01-linked-scrolls": {
+    "source_bounds": [
+      211,
+      99,
+      480,
+      139
+    ],
+    "orientation": "x",
+    "unit_bounds": [
+      23,
+      0,
+      78,
+      35
+    ],
+    "kind": "repeat-tile",
+    "join_adjustment_px": 2,
+    "repeat_note": "A back-to-back pair of linked scrolls; bottom T-junction excluded.",
+    "method": "source-crop-and-color-trace",
+    "colors": [
+      "red",
+      "cream",
+      "gold"
+    ]
+  },
+  "plate-02-stepped-ribbon": {
+    "source_bounds": [
+      321,
+      574,
+      373,
+      836
+    ],
+    "orientation": "y",
+    "unit_bounds": [
+      46,
+      0,
+      118,
+      52
+    ],
+    "kind": "repeat-tile",
+    "join_adjustment_px": 2,
+    "repeat_note": "One 72px repeat of the continuous three-dimensional stepped ribbon.",
+    "method": "source-crop-and-color-trace",
+    "colors": [
+      "red",
+      "cream",
+      "gold",
+      "green",
+      "black"
+    ]
+  },
+  "plate-03-spiral-bands": {
+    "source_bounds": [
+      564,
+      643,
+      616,
+      910
+    ],
+    "orientation": "y",
+    "unit_bounds": [
+      107,
+      0,
+      205,
+      52
+    ],
+    "kind": "repeat-tile",
+    "join_adjustment_px": 2,
+    "repeat_note": "One rising and falling spiral band with the blue/white central rails.",
+    "method": "source-crop-and-color-trace",
+    "colors": [
+      "red",
+      "cream",
+      "gold",
+      "green",
+      "blue"
+    ]
+  },
+  "plate-04-heart-and-diamond": {
+    "source_bounds": [
+      140,
+      159,
+      303,
+      211
+    ],
+    "orientation": "x",
+    "unit_bounds": [
+      26,
+      0,
+      93,
+      52
+    ],
+    "kind": "repeat-tile",
+    "join_adjustment_px": 2,
+    "repeat_note": "A complete source motif/cycle, retaining the source shapes and palette.",
+    "method": "source-crop-and-color-trace",
+    "colors": [
+      "red",
+      "cream",
+      "gold",
+      "green"
+    ]
+  },
+  "plate-05-blue-curls": {
+    "source_bounds": [
+      390,
+      159,
+      550,
+      211
+    ],
+    "orientation": "x",
+    "unit_bounds": [
+      9,
+      0,
+      99,
+      52
+    ],
+    "kind": "repeat-tile",
+    "join_adjustment_px": 2,
+    "repeat_note": "A complete source motif/cycle, retaining the source shapes and palette.",
+    "method": "source-crop-and-color-trace",
+    "colors": [
+      "red",
+      "blue",
+      "cream",
+      "green"
+    ]
+  },
+  "plate-06-paired-red-scrolls": {
+    "source_bounds": [
+      259,
+      230,
+      432,
+      280
+    ],
+    "orientation": "x",
+    "unit_bounds": [
+      0,
+      0,
+      173,
+      50
+    ],
+    "kind": "repeat-tile",
+    "join_adjustment_px": 2,
+    "repeat_note": "A complete source motif/cycle, retaining the source shapes and palette.",
+    "method": "source-crop-and-color-trace",
+    "colors": [
+      "red",
+      "green",
+      "cream",
+      "gold"
+    ]
+  },
+  "plate-07-blue-heart-leaves": {
+    "source_bounds": [
+      74,
+      299,
+      126,
+      494
+    ],
+    "orientation": "y",
+    "unit_bounds": [
+      53,
+      0,
+      166,
+      52
+    ],
+    "kind": "repeat-tile",
+    "join_adjustment_px": 2,
+    "repeat_note": "Two alternating heart-leaf colors form the full repeat.",
+    "method": "source-crop-and-color-trace",
+    "colors": [
+      "red",
+      "blue",
+      "cream",
+      "gold"
+    ]
+  },
+  "plate-08-diagonal-cross": {
+    "source_bounds": [
+      210,
+      299,
+      265,
+      354
+    ],
+    "orientation": "x",
+    "unit_bounds": [
+      0,
+      0,
+      55,
+      55
+    ],
+    "kind": "repeat-tile",
+    "join_adjustment_px": 2,
+    "repeat_note": "Deliberate repeat of one complete source square motif; the source shows a single cell, not a measured multi-cell strip.",
+    "method": "source-crop-and-color-trace",
+    "colors": [
+      "red",
+      "cream",
+      "gold"
+    ]
+  },
+  "plate-09-interlaced-knot": {
+    "source_bounds": [
+      427,
+      299,
+      482,
+      354
+    ],
+    "orientation": "x",
+    "unit_bounds": [
+      0,
+      0,
+      55,
+      55
+    ],
+    "kind": "repeat-tile",
+    "join_adjustment_px": 2,
+    "repeat_note": "Deliberate repeat of one complete source square motif; the source shows a single cell, not a measured multi-cell strip.",
+    "method": "source-crop-and-color-trace",
+    "colors": [
+      "blue",
+      "red",
+      "gold",
+      "cream"
+    ]
+  },
+  "plate-10-blue-palmettes": {
+    "source_bounds": [
+      566,
+      299,
+      617,
+      494
+    ],
+    "orientation": "y",
+    "unit_bounds": [
+      50,
+      0,
+      184,
+      51
+    ],
+    "kind": "repeat-tile",
+    "join_adjustment_px": 2,
+    "repeat_note": "Two alternating blue palmette forms are retained.",
+    "method": "source-crop-and-color-trace",
+    "colors": [
+      "red",
+      "blue",
+      "cream",
+      "gold"
+    ]
+  },
+  "plate-11-acanthus-scroll": {
+    "source_bounds": [
+      210,
+      372,
+      481,
+      420
+    ],
+    "orientation": "x",
+    "unit_bounds": [
+      0,
+      0,
+      271,
+      48
+    ],
+    "kind": "standalone",
+    "join_adjustment_px": 2,
+    "repeat_note": "Complete acanthus composition; no convincing full periodic unit in this supplied crop.",
+    "method": "source-crop-and-color-trace",
+    "colors": [
+      "red",
+      "green",
+      "cream",
+      "gold"
+    ]
+  },
+  "plate-12-arched-diamonds": {
+    "source_bounds": [
+      73,
+      511,
+      196,
+      559
+    ],
+    "orientation": "x",
+    "unit_bounds": [
+      53,
+      0,
+      120,
+      48
+    ],
+    "kind": "repeat-tile",
+    "join_adjustment_px": 2,
+    "repeat_note": "A complete source motif/cycle, retaining the source shapes and palette.",
+    "method": "source-crop-and-color-trace",
+    "colors": [
+      "red",
+      "black",
+      "green",
+      "cream",
+      "gold"
+    ]
+  },
+  "plate-13-leaf-and-flower-vine": {
+    "source_bounds": [
+      210,
+      511,
+      481,
+      559
+    ],
+    "orientation": "x",
+    "unit_bounds": [
+      55,
+      0,
+      229,
+      48
+    ],
+    "kind": "repeat-tile",
+    "join_adjustment_px": 2,
+    "repeat_note": "Flower-to-flower vine cycle; hand-drawn boundaries need the documented narrow join adjustment.",
+    "method": "source-crop-and-color-trace",
+    "colors": [
+      "red",
+      "green",
+      "gold"
+    ]
+  },
+  "plate-14-crossed-diamonds": {
+    "source_bounds": [
+      74,
+      579,
+      235,
+      629
+    ],
+    "orientation": "x",
+    "unit_bounds": [
+      30,
+      0,
+      142,
+      50
+    ],
+    "kind": "repeat-tile",
+    "join_adjustment_px": 2,
+    "repeat_note": "A complete source motif/cycle, retaining the source shapes and palette.",
+    "method": "source-crop-and-color-trace",
+    "colors": [
+      "red",
+      "green",
+      "cream",
+      "gold"
+    ]
+  },
+  "plate-15-diamond-square": {
+    "source_bounds": [
+      251,
+      579,
+      306,
+      629
+    ],
+    "orientation": "x",
+    "unit_bounds": [
+      0,
+      0,
+      55,
+      50
+    ],
+    "kind": "repeat-tile",
+    "join_adjustment_px": 2,
+    "repeat_note": "Deliberate repeat of one complete source square motif; the source shows a single cell, not a measured multi-cell strip.",
+    "method": "source-crop-and-color-trace",
+    "colors": [
+      "red",
+      "gold"
+    ]
+  },
+  "plate-16-stepped-corner": {
+    "source_bounds": [
+      388,
+      579,
+      443,
+      629
+    ],
+    "orientation": "x",
+    "unit_bounds": [
+      0,
+      0,
+      55,
+      50
+    ],
+    "kind": "standalone",
+    "join_adjustment_px": 2,
+    "repeat_note": "Complete stepped corner motif. Its differently shaped edge profiles do not form a repeating strip.",
+    "method": "source-crop-and-color-trace",
+    "colors": [
+      "red",
+      "blue",
+      "gold",
+      "green"
+    ]
+  },
+  "plate-17-stepped-arches": {
+    "source_bounds": [
+      456,
+      579,
+      618,
+      629
+    ],
+    "orientation": "x",
+    "unit_bounds": [
+      19,
+      0,
+      129,
+      50
+    ],
+    "kind": "repeat-tile",
+    "join_adjustment_px": 2,
+    "repeat_note": "A complete source motif/cycle, retaining the source shapes and palette.",
+    "method": "source-crop-and-color-trace",
+    "colors": [
+      "red",
+      "blue",
+      "green",
+      "gold",
+      "cream"
+    ]
+  },
+  "plate-18-fan-palmettes": {
+    "source_bounds": [
+      388,
+      643,
+      443,
+      909
+    ],
+    "orientation": "y",
+    "unit_bounds": [
+      97,
+      0,
+      188,
+      55
+    ],
+    "kind": "repeat-tile",
+    "join_adjustment_px": 2,
+    "repeat_note": "A complete source motif/cycle, retaining the source shapes and palette.",
+    "method": "source-crop-and-color-trace",
+    "colors": [
+      "red",
+      "green",
+      "black",
+      "gold",
+      "cream"
+    ]
+  },
+  "plate-19-cream-scrolls": {
+    "source_bounds": [
+      141,
+      643,
+      236,
+      698
+    ],
+    "orientation": "x",
+    "unit_bounds": [
+      15,
+      0,
+      80,
+      55
+    ],
+    "kind": "repeat-tile",
+    "join_adjustment_px": 2,
+    "repeat_note": "One complete central cream-scroll unit; neighboring incomplete gold/blue units are excluded.",
+    "method": "source-crop-and-color-trace",
+    "colors": [
+      "red",
+      "gold",
+      "cream"
+    ]
+  },
+  "plate-20-segmented-medallions": {
+    "source_bounds": [
+      141,
+      713,
+      236,
+      763
+    ],
+    "orientation": "x",
+    "unit_bounds": [
+      21,
+      0,
+      72,
+      50
+    ],
+    "kind": "repeat-tile",
+    "join_adjustment_px": 2,
+    "repeat_note": "Deliberate repeat of the complete central medallion cell; incomplete neighboring color variants are excluded.",
+    "method": "source-crop-and-color-trace",
+    "colors": [
+      "red",
+      "green",
+      "black",
+      "gold",
+      "cream"
+    ]
+  },
+  "plate-21-green-flower-medallions": {
+    "source_bounds": [
+      141,
+      782,
+      236,
+      835
+    ],
+    "orientation": "x",
+    "unit_bounds": [
+      30,
+      0,
+      85,
+      53
+    ],
+    "kind": "repeat-tile",
+    "join_adjustment_px": 2,
+    "repeat_note": "A complete source motif/cycle, retaining the source shapes and palette.",
+    "method": "source-crop-and-color-trace",
+    "colors": [
+      "red",
+      "gold",
+      "green",
+      "cream"
+    ]
+  },
+  "plate-22-white-petal-grid": {
+    "source_bounds": [
+      456,
+      643,
+      550,
+      698
+    ],
+    "orientation": "x",
+    "unit_bounds": [
+      10,
+      0,
+      74,
+      55
+    ],
+    "kind": "repeat-tile",
+    "join_adjustment_px": 2,
+    "repeat_note": "A complete source motif/cycle, retaining the source shapes and palette.",
+    "method": "source-crop-and-color-trace",
+    "colors": [
+      "red",
+      "cream",
+      "gold"
+    ]
+  },
+  "plate-23-crossed-ribbon-knots": {
+    "source_bounds": [
+      141,
+      853,
+      236,
+      909
+    ],
+    "orientation": "x",
+    "unit_bounds": [
+      21,
+      0,
+      71,
+      56
+    ],
+    "kind": "repeat-tile",
+    "join_adjustment_px": 2,
+    "repeat_note": "A complete source motif/cycle, retaining the source shapes and palette.",
+    "method": "source-crop-and-color-trace",
+    "colors": [
+      "red",
+      "gold",
+      "green",
+      "cream"
+    ]
+  },
+  "plate-24-gold-ring-scrolls": {
+    "source_bounds": [
+      456,
+      785,
+      550,
+      838
+    ],
+    "orientation": "x",
+    "unit_bounds": [
+      0,
+      0,
+      94,
+      53
+    ],
+    "kind": "repeat-tile",
+    "join_adjustment_px": 2,
+    "repeat_note": "Both differently colored ring interiors are retained.",
+    "method": "source-crop-and-color-trace",
+    "colors": [
+      "red",
+      "gold",
+      "green",
+      "cream"
+    ]
+  },
+  "plate-25-greek-crosses": {
+    "source_bounds": [
+      456,
+      853,
+      550,
+      909
+    ],
+    "orientation": "x",
+    "unit_bounds": [
+      9,
+      0,
+      66,
+      56
+    ],
+    "kind": "repeat-tile",
+    "join_adjustment_px": 2,
+    "repeat_note": "A complete source motif/cycle, retaining the source shapes and palette.",
+    "method": "source-crop-and-color-trace",
+    "colors": [
+      "red",
+      "gold",
+      "green",
+      "black",
+      "cream"
+    ]
+  },
+  "plate-26-eight-petal-rosette": {
+    "source_bounds": [
+      321,
+      853,
+      373,
+      909
+    ],
+    "orientation": "x",
+    "unit_bounds": [
+      0,
+      0,
+      52,
+      56
+    ],
+    "kind": "repeat-tile",
+    "join_adjustment_px": 2,
+    "repeat_note": "Deliberate repeat of one complete source square motif; the source shows a single cell, not a measured multi-cell strip.",
+    "method": "source-crop-and-color-trace",
+    "colors": [
+      "red",
+      "gold",
+      "blue",
+      "cream"
+    ]
+  },
+  "plate-27-blue-flower-medallions": {
+    "source_bounds": [
+      456,
+      716,
+      550,
+      770
+    ],
+    "orientation": "x",
+    "unit_bounds": [
+      10,
+      0,
+      67,
+      54
+    ],
+    "kind": "repeat-tile",
+    "join_adjustment_px": 2,
+    "repeat_note": "A complete source motif/cycle, retaining the source shapes and palette.",
+    "method": "source-crop-and-color-trace",
+    "colors": [
+      "red",
+      "blue",
+      "green",
+      "cream"
+    ]
+  },
+  "plate-28-angular-blue-meander": {
+    "source_bounds": [
+      494,
+      511,
+      618,
+      559
+    ],
+    "orientation": "x",
+    "unit_bounds": [
+      15,
+      0,
+      73,
+      48
+    ],
+    "kind": "repeat-tile",
+    "join_adjustment_px": 2,
+    "repeat_note": "A complete source motif/cycle, retaining the source shapes and palette.",
+    "method": "source-crop-and-color-trace",
+    "colors": [
+      "red",
+      "blue",
+      "green",
+      "black",
+      "gold"
+    ]
+  },
+  "plate-29-red-acanthus": {
+    "source_bounds": [
+      74,
+      643,
+      126,
+      909
+    ],
+    "orientation": "y",
+    "unit_bounds": [
+      24,
+      0,
+      237,
+      52
+    ],
+    "kind": "repeat-tile",
+    "join_adjustment_px": 2,
+    "repeat_note": "A full wave including the two alternating star positions.",
+    "method": "source-crop-and-color-trace",
+    "colors": [
+      "red",
+      "blue",
+      "gold",
+      "cream",
+      "green"
+    ]
+  },
+  "plate-30-layered-palmettes": {
+    "source_bounds": [
+      251,
+      643,
+      306,
+      909
+    ],
+    "orientation": "y",
+    "unit_bounds": [
+      22,
+      0,
+      157,
+      55
+    ],
+    "kind": "repeat-tile",
+    "join_adjustment_px": 2,
+    "repeat_note": "Two different palmette color arrangements form the full repeat.",
+    "method": "source-crop-and-color-trace",
+    "colors": [
+      "red",
+      "green",
+      "blue",
+      "cream",
+      "gold",
+      "black"
+    ]
+  },
+  "plate-31-alternating-florets": {
+    "source_bounds": [
+      210,
+      442,
+      481,
+      494
+    ],
+    "orientation": "x",
+    "unit_bounds": [
+      16,
+      0,
+      207,
+      52
+    ],
+    "kind": "repeat-tile",
+    "join_adjustment_px": 2,
+    "repeat_note": "Both red-framed and blue-framed florets, with intervening leaf crosses.",
+    "method": "source-crop-and-color-trace",
+    "colors": [
+      "red",
+      "blue",
+      "green",
+      "cream",
+      "gold"
+    ]
+  },
+  "plate-32-linked-ovals": {
+    "source_bounds": [
+      279,
+      299,
+      411,
+      354
+    ],
+    "orientation": "x",
+    "unit_bounds": [
+      16,
+      0,
+      116,
+      55
+    ],
+    "kind": "repeat-tile",
+    "join_adjustment_px": 2,
+    "repeat_note": "Both red and blue oval surrounds form the full repeat.",
+    "method": "source-crop-and-color-trace",
+    "colors": [
+      "red",
+      "blue",
+      "gold",
+      "cream",
+      "green"
+    ]
+  },
+  "plate-33-leaf-scrolls": {
+    "source_bounds": [
+      497,
+      299,
+      551,
+      494
+    ],
+    "orientation": "y",
+    "unit_bounds": [
+      40,
+      0,
+      111,
+      54
+    ],
+    "kind": "repeat-tile",
+    "join_adjustment_px": 2,
+    "repeat_note": "A complete source motif/cycle, retaining the source shapes and palette.",
+    "method": "source-crop-and-color-trace",
+    "colors": [
+      "cream",
+      "blue",
+      "green",
+      "red",
+      "gold"
+    ]
+  },
+  "plate-34-nested-fans": {
+    "source_bounds": [
+      142,
+      299,
+      194,
+      494
+    ],
+    "orientation": "y",
+    "unit_bounds": [
+      91,
+      0,
+      160,
+      52
+    ],
+    "kind": "repeat-tile",
+    "join_adjustment_px": 2,
+    "repeat_note": "Two nested fan/loop cells; the source is not isolated teardrop shapes.",
+    "method": "source-crop-and-color-trace",
+    "colors": [
+      "black",
+      "cream",
+      "red",
+      "gold"
+    ]
+  },
+  "plate-35-crossed-white-stems": {
+    "source_bounds": [
+      446,
+      230,
+      618,
+      280
+    ],
+    "orientation": "x",
+    "unit_bounds": [
+      27,
+      0,
+      68,
+      50
+    ],
+    "kind": "repeat-tile",
+    "join_adjustment_px": 2,
+    "repeat_note": "A complete source motif/cycle, retaining the source shapes and palette.",
+    "method": "source-crop-and-color-trace",
+    "colors": [
+      "cream",
+      "green",
+      "red",
+      "gold",
+      "black"
+    ]
+  },
+  "plate-36-greek-key": {
+    "source_bounds": [
+      74,
+      89,
+      195,
+      211
+    ],
+    "orientation": "x",
+    "unit_bounds": [
+      0,
+      0,
+      121,
+      122
+    ],
+    "kind": "standalone",
+    "join_adjustment_px": 2,
+    "repeat_note": "Complete original L-shaped corner. The supplied arms do not contain a verified full combined repeat; retain it as a whole corner decoration.",
+    "method": "source-crop-and-color-trace",
+    "clip_regions": [
+      [
+        0,
+        0,
+        121,
+        57
+      ],
+      [
+        0,
+        0,
+        53,
+        122
+      ]
+    ],
+    "colors": [
+      "red",
+      "blue",
+      "green",
+      "cream",
+      "gold"
+    ]
+  },
+  "plate-37-diamond-scroll": {
+    "source_bounds": [
+      496,
+      89,
+      617,
+      211
+    ],
+    "orientation": "x",
+    "unit_bounds": [
+      0,
+      0,
+      121,
+      122
+    ],
+    "kind": "standalone",
+    "join_adjustment_px": 2,
+    "repeat_note": "Complete original L-shaped corner. The supplied arms do not contain a verified full combined repeat; retain it as a whole corner decoration.",
+    "method": "source-crop-and-color-trace",
+    "clip_regions": [
+      [
+        0,
+        0,
+        121,
+        57
+      ],
+      [
+        68,
+        0,
+        121,
+        122
+      ]
+    ],
+    "colors": [
+      "red",
+      "blue",
+      "cream",
+      "gold"
+    ]
+  },
+  "plate-38-diagonal-meander": {
+    "source_bounds": [
+      73,
+      230,
+      245,
+      280
+    ],
+    "orientation": "x",
+    "unit_bounds": [
+      90,
+      0,
+      137,
+      50
+    ],
+    "kind": "repeat-tile",
+    "join_adjustment_px": 2,
+    "repeat_note": "A complete source motif/cycle, retaining the source shapes and palette.",
+    "method": "source-crop-and-color-trace",
+    "colors": [
+      "red",
+      "brown",
+      "cream",
+      "gold"
+    ]
+  }
+}

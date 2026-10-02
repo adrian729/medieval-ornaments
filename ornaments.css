@@ -4,7 +4,8 @@
   border: var(--ornament-size, 32px) solid transparent;
   border-image-source: var(--ornament-image, none);
   border-image-slice: var(--ornament-slice, 21.42857142857143%);
-  border-image-repeat: var(--ornament-fit, round);
+  /* Partial periods cannot match a designed corner. Always fit whole units. */
+  border-image-repeat: round;
 }
 
 .ornament-divider {

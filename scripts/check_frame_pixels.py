@@ -27,15 +27,16 @@ def enclosed(image):
 
 def main():
     report=json.loads((ROOT/'tmp/frame-matrix.json').read_text());failures=[];count=0
-    for ratio in report['pixelRatios']:
-        with Image.open(ROOT/f'tmp/frame-matrix-{ratio}.png') as sheet:
-            for frame in report['frames']:
+    for entry in report['sheets']:
+        ratio=entry['ratio']
+        with Image.open(ROOT/'tmp'/entry['file']) as sheet:
+            for frame in entry['frames']:
                 # Include white exterior around all four sides.
                 x=round(frame['x']*ratio)-2;y=round(frame['y']*ratio)-2
                 right=round((frame['x']+frame['width'])*ratio)+2
                 bottom=round((frame['y']+frame['height'])*ratio)+2
                 if not enclosed(sheet.crop((x,y,right,bottom))):
-                    failures.append(dict(name=frame['name'],thickness=frame['size'],pixel_ratio=ratio))
+                    failures.append(dict(name=frame['name'],thickness=frame['size'],pixel_ratio=ratio,format=entry['format']))
                 count+=1
     (ROOT/'tmp/frame-pixel-verification.json').write_text(json.dumps(dict(cases=count,failures=failures),indent=2)+'\n')
     assert not failures,f'Open frame joins: {failures}'

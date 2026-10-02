@@ -5,6 +5,7 @@ import argparse
 import hashlib
 import io
 import json
+from math import gcd
 from pathlib import Path
 
 import cairosvg
@@ -22,9 +23,12 @@ def selection(spec):
     import re
     labels=dict(ink='purple' if spec['reference']=='six-border-styles' else 'brown',
                 red='red',gold='gold',cream='cream',blue='blue',green='green',dark='black')
-    markup=spec['body']+documents(spec)[1]
+    markup=spec['body']+(documents(spec)[1] or '')
     used=set(re.findall(r'#[0-9a-fA-F]{6}',markup))
     colors=list(dict.fromkeys(labels[key] for key,value in spec['palette'].items() if value in used))
+    if spec['reference']=='numbered-ornament-plate':
+        # Source traces retain their own colors, rather than the old redraw palette.
+        colors=spec['colors']
     subjects=[word for word in spec['subjects'] if word not in
               {'and','paired','linked','stepped','blue','red','gold','green','white','cream',
                'diagonal','crossed','interlaced','nested','eight','petal','layered','alternating','angular'}]
@@ -60,29 +64,35 @@ def save_pair(image,name,folder=None):
                 webp_bytes=webp.stat().st_size)
 
 
-def variants(image,name):
+def variants(image,name,alignment_step=1):
     result=[]
     for limit in LIMITS:
         if max(image.size)<=limit:continue
-        resized=image.copy();resized.thumbnail((limit,limit),Image.Resampling.LANCZOS,reducing_gap=3)
-        assert max(resized.size)==limit
+        target=(limit//alignment_step)*alignment_step
+        if not target:continue
+        resized=image.copy();resized.thumbnail((target,target),Image.Resampling.LANCZOS,reducing_gap=3)
+        assert max(resized.size)==target
         assert resized.width<=image.width and resized.height<=image.height
-        result.append(dict(max_dimension=limit,**save_pair(resized,name,limit)))
+        result.append(dict(max_dimension=limit,rendered_max_dimension=target,**save_pair(resized,name,limit)))
     return result
 
 
-def vector_export(document,name):
+def vector_export(document,name,native_source=None,alignment_step=1):
     target=ROOT/'svg'/f'{name}.svg';target.parent.mkdir(exist_ok=True)
     target.write_text(document)
     # Render a single 1024px master from SVG. Only downscale that raster master.
     import xml.etree.ElementTree as ET
     element=ET.fromstring(document)
     width=float(element.attrib['width']);height=float(element.attrib['height'])
-    scale=MASTER_LIMIT/max(width,height)
-    pixels=cairosvg.svg2png(bytestring=document.encode(),output_width=round(width*scale),output_height=round(height*scale))
-    image=Image.open(io.BytesIO(pixels)).convert('RGBA')
+    if native_source is not None:
+        image=native_source.convert('RGBA')
+    else:
+        limit=(MASTER_LIMIT//alignment_step)*alignment_step
+        scale=limit/max(width,height)
+        pixels=cairosvg.svg2png(bytestring=document.encode(),output_width=round(width*scale),output_height=round(height*scale))
+        image=Image.open(io.BytesIO(pixels)).convert('RGBA')
     return dict(svg=target.relative_to(ROOT).as_posix(),viewbox=[0,0,int(width),int(height)],
-                **save_pair(image,name),variants=variants(image,name))
+                **save_pair(image,name),variants=variants(image,name,alignment_step))
 
 
 def existing_export(item,name):
@@ -95,14 +105,20 @@ def existing_export(item,name):
                 variants=variants(image,name))
 
 
-def build():
+def build(names=None):
+    old_catalog=json.loads((ROOT/'images.json').read_text())
     raster_path=ROOT/'raster-metadata.json'
     raster=json.loads(raster_path.read_text()) if raster_path.exists() else []
     before={item['png']:hashlib.sha256((ROOT/item['png']).read_bytes()).hexdigest() for item in raster}
+    selected=set(names or [])
+    known={item['name'] for item in old_catalog}
+    assert selected<=known,'Unknown design name'
     catalog=[]
     reference_path=ROOT/'reference-crops.json'
     references=json.loads(reference_path.read_text()) if reference_path.exists() else {}
     for item in raster:
+        if selected and item['name'] not in selected:
+            catalog.append(next(old for old in old_catalog if old['name']==item['name']));continue
         with Image.open(ROOT/item['png']) as source:image=source.convert('RGBA')
         # Keep the source PNG byte-for-byte; encode only its WebP and smaller variants.
         webp=ROOT/'webp'/f"{item['name']}.webp"
@@ -114,23 +130,62 @@ def build():
                    derivation='ai-assisted-extraction',components={})
         catalog.append(entry)
     for spec in specs():
-        name=spec['name'];tile,corner,atlas=documents(spec)
-        entry=dict(name=name,**vector_export(tile,name),
-                   description=f"Editable vector reconstruction of {spec['reference']} design {spec['number']}: {name.removeprefix('plate-'+str(spec['number']).zfill(2)+'-').replace('-',' ')}. Adapted for repeating borders with matching corner pieces.",
+        name=spec['name']
+        if selected and name not in selected:
+            catalog.append(next(old for old in old_catalog if old['name']==name));continue
+        tile,corner,atlas=documents(spec)
+        plate=spec['reference']=='numbered-ornament-plate'
+        native=None
+        if plate:
+            with Image.open(ROOT/f'sources/tiles/{name}.png') as source:native=source.copy()
+            if spec['orientation']=='y':native=native.transpose(Image.Transpose.ROTATE_270)
+        entry=dict(name=name,**vector_export(tile,name,native_source=native),
+                   description=(f"Source artwork from numbered plate design {spec['number']}, with an editable color trace. "+spec['repeat_note'] if plate else f"Editable vector border: {name.replace('-',' ')}. Matching adapted corner pieces."),
                    **selection(spec),facing='unclear',
-                   composition='repeat-tile',kind='repeat-tile',repeat_axis=spec['orientation'],
-                   derivation='vector-reconstruction',reference=spec['reference'],reference_design=spec['number'],
-                   components=dict(corner=vector_export(corner,name+'-corner'),
-                                   border_image=vector_export(atlas,name+'-border')),
-                   border_image_slice_percent=100*B/(W+2*B))
+                   composition=spec.get('kind','repeat-tile'),kind=spec.get('kind','repeat-tile'),
+                   repeat_axis='none' if spec.get('kind')=='standalone' else spec['orientation'],
+                   derivation='source-crop-and-color-trace' if plate else 'vector-reconstruction',
+                   reference=spec['reference'],reference_design=spec['number'],components={})
+        if atlas:
+            length=spec.get('width',W);corner_size=spec.get('corner_size',B);size=length+2*corner_size
+            step=size//gcd(size,corner_size)
+            native_corner=native_frame=None
+            if plate:
+                from source_patterns import raster_documents
+                native_corner,native_frame=raster_documents(spec)
+            entry['components']=dict(corner=vector_export(corner,name+'-corner',native_source=native_corner),
+                border_image=vector_export(atlas,name+'-border',native_source=native_frame,alignment_step=step))
+            entry['border_image_slice_percent']=100*corner_size/size
+            entry['frame_edge_ratio']=length/corner_size
+            entry['repeat_ratio']=length/corner_size
+            entry['frame_fit']='round'
+            entry['corner_method']='source-derived-miter' if plate else 'adapted-motif'
+            entry['components']['border_image']['slice_pixels']=round(corner_size/size*entry['components']['border_image']['width'])
+        if plate:
+            entry['source_pattern']=spec['repeat_note']
+            entry['source_canvas']={'width':native.width,'height':native.height}
+            entry['master_longest_dimension_cap']=max(native.size)
         if name in references:
             entry['components']['reference_crop']=existing_export(references[name],name+'-reference')
         catalog.append(entry)
         print('Built',name,flush=True)
     assert all(hashlib.sha256((ROOT/name).read_bytes()).hexdigest()==digest for name,digest in before.items())
     (ROOT/'images.json').write_text(json.dumps(catalog,indent=2)+'\n')
+    # Remove only superseded GENERATED assets previously named in the catalog.
+    # Preserved references, source files, and unrelated files are never touched.
+    def paths(items):
+        result=set()
+        for item in items:
+            for component in [item,*item['components'].values()]:
+                for asset in [component,*component.get('variants',[])]:
+                    result.update(asset[fmt] for fmt in ('png','webp','svg') if fmt in asset)
+        return result
+    for relative in sorted(paths(old_catalog)-paths(catalog)):
+        target=ROOT/relative
+        assert target.resolve().is_relative_to(ROOT) and relative.split('/')[0] in {'png','webp','svg'}
+        target.unlink()
     print(f'Built {len(catalog)} designs; raster source PNGs unchanged.')
 
 
 if __name__=='__main__':
-    parser=argparse.ArgumentParser(description=__doc__);parser.parse_args();build()
+    parser=argparse.ArgumentParser(description=__doc__);parser.add_argument('--name',action='append');args=parser.parse_args();build(args.name)

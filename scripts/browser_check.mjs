@@ -20,7 +20,7 @@ const catalog=await(await fetch(origin+'/images.json')).json();let checks=0;
 for(const item of catalog){
   await choose('purpose',item.kind==='standalone'?'whole':'frame');
   await choose('design',item.name);
-  for(const format of item.kind==='repeat-tile'?['svg','png','webp']:['png','webp']){
+  for(const format of item.svg?['svg','png','webp']:['png','webp']){
     await choose('format',format);
     const result=await evaluate(`(async()=>{const vector=${item.kind==='repeat-tile'},frame=document.getElementById('frame'),standalone=document.getElementById('standalone');const path=vector?JSON.parse(getComputedStyle(frame).borderImageSource.slice(4,-1)):standalone.src;const img=new Image();img.src=path;await img.decode();return {loaded:img.naturalWidth>0,frameVisible:getComputedStyle(frame).display!=='none',standaloneVisible:getComputedStyle(standalone).display!=='none',slice:getComputedStyle(frame).borderImageSlice,format:path.split('.').pop()}})()`);
     assert(result.loaded&&result.format===format,'Image load/format failed '+item.name+' '+JSON.stringify(result));
@@ -30,7 +30,12 @@ for(const item of catalog){
 }
 // Browse by usage first, then by catalog category/search; expose relevant controls.
 await choose('purpose','whole');
-assert(await evaluate("document.querySelectorAll('.design-card').length===5&&document.getElementById('thicknessControl').hidden&&document.getElementById('fitControl').hidden&&document.getElementById('widthControl').hidden"),'Whole-decoration browsing controls');checks++;
+assert(await evaluate("document.querySelectorAll('.design-card').length===9&&document.getElementById('thicknessControl').hidden&&document.getElementById('fitControl').hidden&&document.getElementById('widthControl').hidden"),'Whole-decoration browsing controls');checks++;
+await choose('design','plate-16-stepped-corner');
+for(const [format,height] of [['webp',24],['svg',300]]){
+  await choose('format',format);await choose('height',height);
+  assert(await evaluate(`parseFloat(getComputedStyle(document.getElementById('standalone')).height)===${height}`),'Whole artwork size/format controls');checks++;
+}
 await choose('category','animals');
 assert(await evaluate("document.querySelectorAll('.design-card').length===4"),'Category filtering');checks++;
 await choose('search','butterfly-panel-red');
@@ -59,7 +64,7 @@ for(const [name,theme,width,height,thickness,format] of [
  ['red-berry-vine','light',680,330,32,'svg'],
  ['interlocking-ribbon','dark',1000,400,64,'webp'],
  ['plate-13-leaf-and-flower-vine','light',320,240,24,'svg'],
- ['plate-36-greek-key','dark',640,330,32,'png'],
+ ['plate-38-diagonal-meander','dark',640,330,32,'png'],
  ['floral-bird-panel-blue','dark',640,650,32,'webp']]){
   await choose('purpose',name==='floral-bird-panel-blue'?'whole':'frame');
   for(const [id,value] of Object.entries({design:name,theme,width,height,thickness,format}))await choose(id,value);
@@ -80,10 +85,10 @@ for(const viewport of [320,375,768,1200]){
   const result=await evaluate(`(async()=>{await Promise.all([...document.images].map(i=>i.decode()));const divider=getComputedStyle(document.querySelector('.ornament-divider')),frame=getComputedStyle(document.getElementById('frameExample'));for(const cssUrl of [divider.backgroundImage,frame.borderImageSource]){const image=new Image();image.src=JSON.parse(cssUrl.slice(4,-1));await image.decode()}return {overflow:document.documentElement.scrollWidth>document.documentElement.clientWidth,loaded:[...document.images].every(i=>i.naturalWidth>0),tileSize:divider.backgroundSize}})()`);
   assert(!result.overflow&&result.loaded&&result.tileSize==='64px 24px','Demo layout failed '+JSON.stringify({viewport,...result}));checks++;
 }
-for(const name of ['red-berry-vine','plate-13-leaf-and-flower-vine','plate-36-greek-key'])for(const size of [16,28,48]){
+for(const name of ['red-berry-vine','plate-13-leaf-and-flower-vine','plate-38-diagonal-meander'])for(const size of [16,28,48]){
   await choose('frameDesign',name);await choose('thickness',size);
   const result=await evaluate(`(()=>{const frame=getComputedStyle(document.getElementById('frameExample')),code=document.getElementById('frameCode').textContent;return {border:parseFloat(frame.borderTopWidth),image:frame.borderImageSource,code}})()`);
-  assert(result.border===size&&result.image.includes(name+'-border.svg')&&result.code.includes('--ornament-size: '+size+'px')&&result.code.includes(name+'-border.svg'),'Demo setting/code mismatch');checks++;
+  assert(result.border===size&&result.image.includes(name+'-border.'+(name.startsWith('plate-')?'webp':'svg'))&&result.code.includes('--ornament-size: '+size+'px')&&result.code.includes(name+'-border.'+(name.startsWith('plate-')?'webp':'svg')),'Demo setting/code mismatch');checks++;
 }
 await evaluate("document.getElementById('theme').click()");
 assert(await evaluate("document.body.classList.contains('dark')&&document.getElementById('theme').getAttribute('aria-pressed')==='true'"),'Theme toggle failed');checks++;
@@ -106,6 +111,21 @@ for(const [width,height,name] of [[1200,1500,'desktop'],[375,1100,'mobile']]){
   const shot=await send('Page.captureScreenshot',{captureBeyondViewport:false});
   await writeFile(new URL('../tmp/usage-demo-'+name+'.png',import.meta.url),Buffer.from(shot.data,'base64'));
 }
+// Inspect every source/reference unit and frame in the comparison page.
+await send('Emulation.setDeviceMetricsOverride',{width:1200,height:1500,deviceScaleFactor:1,mobile:false});
+await send('Page.navigate',{url:origin+'/examples/review.html'});await ready();
+for(const format of ['webp','svg']){
+  await choose('format',format);
+  const result=await evaluate(`(async()=>{await Promise.all([...document.images].map(i=>i.decode()));for(const el of document.querySelectorAll('.ornament-frame')){const image=new Image();image.src=JSON.parse(getComputedStyle(el).borderImageSource.slice(4,-1));await image.decode()}return {cards:document.querySelectorAll('.card').length,frames:document.querySelectorAll('.ornament-frame').length}})()`);
+  assert(result.cards===49&&result.frames===40,'Artwork review coverage/loads');checks++;
+}
+await choose('collection','plate');assert(await evaluate("document.querySelectorAll('.card').length===38"),'Plate review filtering');checks++;
+await choose('collection','floral');assert(await evaluate("document.querySelectorAll('.card').length===6"),'Floral review filtering');checks++;
+await choose('format','webp');await choose('theme','dark');
+const shot=await send('Page.captureScreenshot',{captureBeyondViewport:false});
+await writeFile(new URL('../tmp/artwork-review-dark.png',import.meta.url),Buffer.from(shot.data,'base64'));
+await send('Emulation.setDeviceMetricsOverride',{width:375,height:1100,deviceScaleFactor:1,mobile:false});
+assert(await evaluate("document.documentElement.scrollWidth<=document.documentElement.clientWidth"),'Artwork review mobile overflow');checks++;
 assert(errors.length===0,'Browser errors '+JSON.stringify(errors));
 await writeFile(new URL('../tmp/browser-verification.json',import.meta.url),JSON.stringify({checks,designs:catalog.length,viewportWidths:[320,375,768,1200],errors},null,2));
 console.log(`PASS ${checks} browser checks across ${catalog.length} designs, all formats, four viewport sizes, and shared usage/demo controls.`);ws.close();

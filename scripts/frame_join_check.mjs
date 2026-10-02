@@ -17,25 +17,32 @@ await send('Page.navigate',{url:origin+'/examples/demo.html'});
 for(let i=0;i<100;i++){if(await evaluate('document.body?.dataset.ready==="true"'))break;await pause(50)}
 if(label==='matrix'){
   const catalog=await(await fetch(origin+'/images.json')).json();
-  const representatives=['red-berry-vine','interlocking-ribbon','plate-13-leaf-and-flower-vine','plate-36-greek-key'];
+  const representatives=['gold-quatrefoil-vine','red-berry-vine','gold-leaf-scroll','red-rosette-vine'];
   const samples=[];
   for(const name of representatives)for(let size=16;size<=48;size++)samples.push({name,size});
   for(const item of catalog.filter(i=>i.kind==='repeat-tile'&&!representatives.includes(i.name)))samples.push({name:item.name,size:33});
-  const frames=samples.map((sample,i)=>({ ...sample,x:20.5+(i%4)*280,y:24.25+Math.floor(i/4)*210,width:250,height:180,
-    source:origin+'/'+catalog.find(i=>i.name===sample.name).components.border_image.svg }));
-  await evaluate(`(async()=>{document.body.className='';document.body.innerHTML='';document.body.style.background='white';document.body.style.margin='0';const frames=${JSON.stringify(frames)};for(const item of frames){const el=document.createElement('div');el.className='ornament-frame';Object.assign(el.style,{position:'absolute',left:item.x+'px',top:item.y+'px',width:item.width+'px',height:item.height+'px',padding:'0'});el.style.setProperty('--ornament-size',item.size+'px');el.style.setProperty('--ornament-image','url("'+item.source+'")');document.body.append(el)}await Promise.all([...new Set(frames.map(i=>i.source))].map(async url=>{const image=new Image();image.src=url;await image.decode()}));})()`);
-  const height=Math.ceil(frames.at(-1).y+frames.at(-1).height+16);
-  for(const scale of [1,1.25,2]){
+  const sheets=[];
+  for(const format of ['svg','png','webp'])for(const scale of [1,1.25,2])for(let offset=0;offset<samples.length;offset+=24){
+    const cases=samples.slice(offset,offset+24).map((sample,i)=>{
+      const item=catalog.find(i=>i.name===sample.name),asset=item.components.border_image;
+      const slice=item.border_image_slice_percent,need=100/slice*sample.size*scale;
+      const choice=[...asset.variants,asset].sort((a,b)=>Math.max(a.width,a.height)-Math.max(b.width,b.height)).find(a=>Math.max(a.width,a.height)>=need)||asset;
+      return {...sample,x:20.5+(i%4)*280,y:24.25+Math.floor(i/4)*210,width:250,height:180,slice,source:origin+'/'+(format==='svg'?asset.svg:choice[format])};
+    });
+    const height=Math.ceil(cases.at(-1).y+cases.at(-1).height+16);
+    await evaluate(`(async()=>{document.body.className='';document.body.innerHTML='';document.body.style.background='white';document.body.style.margin='0';const frames=${JSON.stringify(cases)};for(const item of frames){const el=document.createElement('div');el.className='ornament-frame';Object.assign(el.style,{position:'absolute',left:item.x+'px',top:item.y+'px',width:item.width+'px',height:item.height+'px',padding:'0'});el.style.setProperty('--ornament-slice',item.slice+'%');el.style.setProperty('--ornament-size',item.size+'px');el.style.setProperty('--ornament-image','url("'+item.source+'")');document.body.append(el)}await Promise.all([...new Set(frames.map(i=>i.source))].map(async url=>{const image=new Image();image.src=url;await image.decode()}));})()`);
     await send('Emulation.setDeviceMetricsOverride',{width:1200,height:1000,deviceScaleFactor:scale,mobile:false});await pause(100);
     const shot=await send('Page.captureScreenshot',{clip:{x:0,y:0,width:1200,height,scale:1},captureBeyondViewport:true});
-    await writeFile(new URL(`../tmp/frame-matrix-${scale}.png`,import.meta.url),Buffer.from(shot.data,'base64'));
+    const file=`frame-matrix-${format}-${scale}-${offset}.png`;
+    await writeFile(new URL('../tmp/'+file,import.meta.url),Buffer.from(shot.data,'base64'));sheets.push({file,format,ratio:scale,frames:cases});
+    console.log(`Rendered ${format} DPR ${scale}, cases ${offset+1}–${offset+cases.length}.`);
   }
-  await writeFile(new URL('../tmp/frame-matrix.json',import.meta.url),JSON.stringify({frames,pixelRatios:[1,1.25,2]},null,2));
-  console.log(`Rendered ${frames.length*3} frame cases: every demo thickness, every design at 33px, and three pixel ratios.`);ws.close();
+  await writeFile(new URL('../tmp/frame-matrix.json',import.meta.url),JSON.stringify({sheets},null,2));
+  console.log(`Rendered ${samples.length*9} cases: four reported floral styles at every 16–48px thickness, every border at 33px, all formats and three pixel ratios.`);ws.close();
   process.exit(0);
 }
 const results=[];
-for(const name of ['red-berry-vine','plate-13-leaf-and-flower-vine','plate-36-greek-key'])for(const size of [32,33,34]){
+for(const name of ['red-berry-vine','plate-13-leaf-and-flower-vine','plate-38-diagonal-meander'])for(const size of [32,33,34]){
   const rect=await evaluate(`(async()=>{for(const [id,value] of [['frameDesign',${JSON.stringify(name)}],['thickness',${JSON.stringify(String(size))}]]){const el=document.getElementById(id);el.value=value;el.dispatchEvent(new Event('input'))}const frame=document.getElementById('frameExample');const image=new Image();image.src=JSON.parse(getComputedStyle(frame).borderImageSource.slice(4,-1));await image.decode();frame.scrollIntoView({block:'center'});const r=frame.getBoundingClientRect();return {x:r.x,y:r.y,width:r.width,height:r.height,border:parseFloat(getComputedStyle(frame).borderTopWidth)}})()`);
   await pause(50);const shot=await send('Page.captureScreenshot',{captureBeyondViewport:false});
   const file=`frame-joins-${label}-${name}-${size}.png`;

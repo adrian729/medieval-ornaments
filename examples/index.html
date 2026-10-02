@@ -16,7 +16,7 @@
 <p>Start with how you want to use it, then choose a category or search the collection. <a href="demo.html">See three simple usage examples →</a></p>
 <section class="browse" aria-label="Find a design">
 <div class="filters">
-<label>Use as<select id="purpose"><option value="frame">Frame around content</option><option value="divider">Repeating divider</option><option value="whole">Whole painted decoration</option></select></label>
+<label>Use as<select id="purpose"><option value="frame">Frame around content</option><option value="divider">Repeating divider</option><option value="whole">Whole decoration</option></select></label>
 <label>Category<select id="category"><option value="all">All categories</option></select></label>
 <label>Search<input id="search" type="search" placeholder="Flowers, butterflies, gold…"></label>
 </div>
@@ -27,11 +27,11 @@
 <label>Selected design<select id="design"></select></label>
 <p id="usage"></p>
 <div class="controls" id="previewControls" aria-label="Preview settings">
-<label>Format<select id="format"><option value="svg">SVG</option><option value="webp">WebP</option><option value="png">PNG</option></select></label>
+<label>Format<select id="format"><option value="svg">SVG</option><option value="webp" selected>WebP</option><option value="png">PNG</option></select></label>
 <label id="widthControl"><span id="widthLabel">Frame width</span><output id="widthOut"></output><input id="width" type="range" min="240" max="1050" value="680"></label>
 <label id="heightControl"><span id="heightLabel">Frame height</span><output id="heightOut"></output><input id="height" type="range" min="128" max="650" value="330"></label>
 <label id="thicknessControl"><span id="thicknessLabel">Border thickness</span><output id="thicknessOut"></output><input id="thickness" type="range" min="12" max="80" value="32"></label>
-<label id="fitControl">Repeat fit<select id="fit"><option value="round">Whole repeats (round)</option><option value="repeat">Natural proportions (repeat)</option></select></label>
+<label id="fitControl">Repeat fit<select id="fit"><option value="round">Whole repeats (round)</option></select></label>
 <label>Background<select id="theme"><option value="light">Light</option><option value="dark">Dark</option></select></label>
 <label>Mirror<select id="mirror"><option value="none">None</option><option value="x">Horizontal</option><option value="y">Vertical</option></select></label>
 </div>
@@ -46,12 +46,12 @@
 <section class="detail" id="cornerSection"><h2>Adapted corner</h2><div class="sample"><img id="corner" alt=""></div></section>
 <section class="detail" id="originalSection" hidden><h2>Original reference crop</h2><div class="sample"><img id="original" alt="Original supplied plate region"></div><p>This preserves the supplied painted artwork. Use it as a complete image; it is not a seamless repeat tile.</p></section>
 </div>
-<footer>SVG designs are simplified reconstructions; corners are new adaptations. Painted panels are AI-assisted extractions. <a href="../USAGE.md">Usage</a> · <a href="../images.json">Catalog</a> · <a href="qa.html">All frame previews</a></footer>
+<footer>Numbered designs preserve source raster artwork and offer color traces; their corners reflect the same pattern. Floral vectors have adapted corners. Painted panels are AI-assisted extractions. <a href="../USAGE.md">Usage</a> · <a href="../images.json">Catalog</a> · <a href="qa.html">All frame previews</a></footer>
 </main>
 <script>
 const $=id=>document.getElementById(id);let catalog=[];
 const readable=name=>name.replace(/^plate-(\d+)-/,'Plate $1 · ').replaceAll('-',' ');
-const notes={frame:'Frames use matching corners and repeating edges. Their border thickness is independent of the content size.',divider:'Dividers extend a repeat tile along its original direction: horizontal or vertical. Choose a design to see its direction.',whole:'These five painted panels are complete decorations. Preserve their proportions; each is a single image.'};
+const notes={frame:'Frames use matching corners and repeating edges. Their border thickness is independent of the content size.',divider:'Dividers extend a repeat tile along its original direction: horizontal or vertical. Choose a design to see its direction.',whole:'These complete decorations are individual images. Preserve their proportions; each is a single image.'};
 function candidates(){return catalog.filter(item=>($('purpose').value==='whole')===(item.kind==='standalone'))}
 function renderBrowser(){
   const pool=candidates(),categories=[...new Set(pool.flatMap(item=>item.categories))].sort(),oldCategory=$('category').value;
@@ -78,8 +78,8 @@ function assetPath(asset,format,need){
   return new URL('../'+(sorted.find(v=>Math.max(v.width,v.height)>=need)||asset)[fmt],location.href).href;
 }
 function setStrip(element,item,fmt,size,length,transform){
-  element.dataset.axis=item.repeat_axis;element.style.setProperty('--ornament-image',`url("${assetPath(item,fmt,size*256/96*(devicePixelRatio||1))}")`);
-  element.style.setProperty('--ornament-size',size+'px');element.style.setProperty('--ornament-length',length+'px');element.style.transform=transform;
+  element.dataset.axis=item.repeat_axis;element.style.setProperty('--ornament-image',`url("${assetPath(item,fmt,size*(item.repeat_ratio||Math.max(item.width,item.height)/Math.min(item.width,item.height))*(devicePixelRatio||1))}")`);
+  element.style.setProperty('--ornament-ratio',item.repeat_ratio||Math.max(item.width,item.height)/Math.min(item.width,item.height));element.style.setProperty('--ornament-size',size+'px');element.style.setProperty('--ornament-length',length+'px');element.style.transform=transform;
 }
 function update(){
   const item=catalog.find(x=>x.name===$('design').value),purpose=$('purpose').value,hasItem=!!item;
@@ -87,11 +87,12 @@ function update(){
   $('frame').hidden=purpose!=='frame';$('standalone').hidden=purpose!=='whole';$('previewStrip').hidden=purpose!=='divider';
   $('widthControl').hidden=purpose==='whole'||(purpose==='divider'&&item?.repeat_axis==='y');
   $('heightControl').hidden=purpose==='divider'&&item?.repeat_axis!=='y';
-  $('thicknessControl').hidden=purpose==='whole';$('fitControl').hidden=purpose!=='frame';
+  $('height').min=purpose==='whole'?16:128;
+  $('thicknessControl').hidden=purpose==='whole';$('fitControl').hidden=true;
   $('repeatSection').hidden=purpose!=='frame'||!hasItem;$('cornerSection').hidden=purpose!=='frame'||!hasItem;
   for(const button of $('designGrid').children)button.setAttribute('aria-pressed',String(button.dataset.design===item?.name));
   if(!item){$('description').textContent='';$('tags').textContent='';$('usage').textContent='';$('links').replaceChildren();$('originalSection').hidden=true;return}
-  const vector=item.kind==='repeat-tile';$('format').querySelector('[value=svg]').disabled=!vector;
+  const vector=!!item.svg;$('format').querySelector('[value=svg]').disabled=!vector;
   if(!vector&&$('format').value==='svg')$('format').value='webp';
   const fmt=$('format').value,dpr=window.devicePixelRatio||1,w=+$('width').value,h=+$('height').value,t=+$('thickness').value;
   for(const id of ['width','height','thickness'])$(id+'Out').value=$(id).value+'px';
@@ -100,8 +101,8 @@ function update(){
   const mirror=$('mirror').value,transform=mirror==='x'?'scaleX(-1)':mirror==='y'?'scaleY(-1)':'none';
   if(purpose==='frame'){
     const atlas=item.components.border_image;Object.assign($('frame').style,{width:w+'px',height:h+'px'});
-    $('frame').style.setProperty('--ornament-size',t+'px');$('frame').style.setProperty('--ornament-image',`url("${assetPath(atlas,fmt,(448/96)*t*dpr)}")`);
-    $('frame').style.setProperty('--ornament-slice',item.border_image_slice_percent+'%');$('frame').style.setProperty('--ornament-fit',$('fit').value);
+    $('frame').style.setProperty('--ornament-size',t+'px');$('frame').style.setProperty('--ornament-image',`url("${assetPath(atlas,fmt,(100/item.border_image_slice_percent)*t*dpr)}")`);
+    $('frame').style.setProperty('--ornament-slice',item.border_image_slice_percent+'%');
     $('frame').style.transform=transform;for(const child of $('frame').children)child.style.transform=transform;
     setStrip($('strip'),item,fmt,32,item.repeat_axis==='y'?220:480,transform);
     $('axis').textContent=item.repeat_axis==='y'?'Vertical original; the frame rotates it onto its other edges.':'Horizontal original; it repeats across the strip.';
@@ -111,12 +112,12 @@ function update(){
     setStrip($('previewStrip'),item,fmt,t,item.repeat_axis==='y'?h:w,transform);
     $('usage').textContent='Use the repeat tile with ornament-divider'+(item.repeat_axis==='y'?' and data-axis="y". This design repeats vertically.':'. This design repeats horizontally.');
   }else{
-    const displayH=Math.min(h,item.height/dpr);$('standalone').src=assetPath(item,fmt,displayH*dpr);$('standalone').style.setProperty('--ornament-size',displayH+'px');$('standalone').style.transform=transform;
-    $('usage').textContent='Use this complete PNG/WebP with ornament-image. Choose a smaller variant for a small display.';
+    const displayH=fmt==='svg'?h:Math.min(h,item.height/dpr);$('standalone').src=assetPath(item,fmt,displayH*dpr);$('standalone').style.setProperty('--ornament-size',displayH+'px');$('standalone').style.transform=transform;
+    $('usage').textContent='Use this complete image with ornament-image. Choose a smaller variant for a small display.';
   }
   $('description').textContent=item.description;$('tags').textContent=item.categories.join(' · ')+' | '+item.colors.join(', ');
   const selected=purpose==='frame'?item.components.border_image:item;
-  const links=[['PNG',selected.png],['WebP',selected.webp]];if(selected.svg)links.push([purpose==='frame'?'SVG frame':'SVG tile',selected.svg]);
+  const links=[['PNG',selected.png],['WebP',selected.webp]];if(selected.svg)links.push([purpose==='frame'?'SVG frame':'SVG artwork',selected.svg]);
   $('links').replaceChildren(...links.map(([label,path])=>{const a=document.createElement('a');a.href='../'+path;a.textContent=label;return a}));
   const original=item.components.reference_crop;$('originalSection').hidden=!original;if(original){$('original').src='../'+original.png;$('original').width=original.width}
 }

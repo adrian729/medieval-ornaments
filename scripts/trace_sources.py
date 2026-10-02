@@ -1,0 +1,78 @@
+#!/usr/bin/env python3
+"""Trace audited source repeat units; run with Python 3.12 (VTracer 0.6.15).
+
+The checked-in native PNG units and editable traces are build inputs. This
+optional step is separate from ordinary export regeneration. Never infer a
+period solely from autocorrelation: edit source-patterns.json after inspection.
+"""
+from pathlib import Path
+from PIL import Image, ImageFilter
+import json, xml.etree.ElementTree as ET
+import argparse
+import re
+from PIL import ImageDraw
+import vtracer
+
+ROOT=Path(__file__).resolve().parents[1]
+
+def match_edges(image, width=2):
+    """A narrow, symmetric join correction; the untouched reference stays separate."""
+    image=image.copy();original=image.copy()
+    for y in range(image.height):
+        a=original.getpixel((0,y));b=original.getpixel((image.width-1,y))
+        mid=tuple(round((x+z)/2) for x,z in zip(a,b))
+        for k in range(width):
+            weight=(width-k)/width
+            for x in (k,image.width-1-k):
+                old=original.getpixel((x,y))
+                image.putpixel((x,y),tuple(round(c*(1-weight)+m*weight) for c,m in zip(old,mid)))
+    return image
+
+
+def run(names=None):
+    source=Image.open(ROOT/'sources/numbered-ornament-plate.png').convert('RGB')
+    audit=json.loads((ROOT/'source-patterns.json').read_text())
+    tile_dir=ROOT/'sources/tiles';trace_dir=ROOT/'sources/traces'
+    tile_dir.mkdir(parents=True,exist_ok=True);trace_dir.mkdir(parents=True,exist_ok=True)
+    for name,item in audit.items():
+        if names and name not in names:continue
+        image=source.crop(item['source_bounds'])
+        if item['orientation']=='y':image=image.transpose(Image.Transpose.ROTATE_90)
+        box=item['unit_bounds'];image=image.crop(box)
+        if item['kind']=='repeat-tile':image=match_edges(image,item['join_adjustment_px'])
+        if item.get('clip_regions'):
+            mask=Image.new('L',image.size);draw=ImageDraw.Draw(mask)
+            for x0,y0,x1,y1 in item['clip_regions']:draw.rectangle((x0,y0,x1-1,y1-1),fill=255)
+            image=image.convert('RGBA');image.putalpha(mask)
+        image.save(tile_dir/f'{name}.png',optimize=True)
+        # Supersampling is only contour fitting. Native raster exports remain
+        # source-sized, and no claim of recovered source detail is made.
+        count=3 if item['kind']=='repeat-tile' else 1
+        repeated=Image.new('RGB',(image.width*count,image.height))
+        for x in range(count):repeated.paste(image,(x*image.width,0))
+        scaled=repeated.resize((repeated.width*4,repeated.height*4),Image.Resampling.BICUBIC)
+        palette=image.convert('RGB').filter(ImageFilter.GaussianBlur(.25)).quantize(colors=12)
+        cleaned=scaled.filter(ImageFilter.GaussianBlur(.6)).quantize(palette=palette,dither=Image.Dither.NONE).convert('RGB')
+        temporary=ROOT/'tmp/trace-input.png';temporary.parent.mkdir(exist_ok=True);cleaned.save(temporary)
+        output=ROOT/'tmp/trace-output.svg'
+        vtracer.convert_image_to_svg_py(str(temporary),str(output),filter_speckle=16,
+            color_precision=8,layer_difference=8,mode='spline',length_threshold=6,path_precision=3)
+        root=ET.fromstring(output.read_text())
+        # Preserve a whole neighboring period on either side, so boundary curves
+        # are fitted as continuous geometry rather than capped cropped shapes.
+        offset=image.width*4 if count==3 else 0
+        kept=[]
+        for c in root:
+            if c.tag.endswith('path'):
+                values=[float(v) for v in re.findall(r'[-+]?(?:\d*\.\d+|\d+)(?:[eE][-+]?\d+)?',c.attrib['d'])]
+                shift=re.findall(r'[-+]?(?:\d*\.\d+|\d+)',c.attrib.get('transform','translate(0,0)'))
+                xs=[x+float(shift[0]) for x in values[::2]]
+                if max(xs)<offset-.1 or min(xs)>offset+image.width*4+.1:continue
+            kept.append(c)
+        children=''.join(ET.tostring(c,encoding='unicode').replace('ns0:','').replace(':ns0','') for c in kept)
+        doc=f'<svg xmlns="http://www.w3.org/2000/svg" width="{image.width}" height="{image.height}" viewBox="{offset} 0 {image.width*4} {image.height*4}">{children}</svg>\n'
+        (trace_dir/f'{name}.svg').write_text(doc)
+        print(name,image.size,item['repeat_note'],flush=True)
+
+if __name__=='__main__':
+    parser=argparse.ArgumentParser(description=__doc__);parser.add_argument('--name',action='append');args=parser.parse_args();run(args.name)

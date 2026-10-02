@@ -39,7 +39,8 @@ def validate(catalog):
             for asset in [original,*original['variants']]:
                 expected=master.copy()
                 if 'max_dimension' in asset:
-                    limit=asset['max_dimension'];assert max(master.size)>limit
+                    limit=asset.get('rendered_max_dimension',asset['max_dimension']);assert max(master.size)>limit
+                    assert limit<=asset['max_dimension']
                     expected.thumbnail((limit,limit),Image.Resampling.LANCZOS,reducing_gap=3)
                     assert max(expected.size)==limit
                 assert expected.size==(asset['width'],asset['height'])
@@ -76,7 +77,8 @@ def gallery(catalog):
     for item in sorted(catalog,key=lambda item:item['name'].casefold()):
         preview=next((v['webp'] for v in item['variants'] if v['max_dimension']==128),item['webp'])
         links=[f"[PNG]({item['png']})",f"[WebP]({item['webp']})"]
-        if item.get('svg'):links+=[f"[SVG]({item['svg']})",f"[Corner]({item['components']['corner']['svg']})",f"[Border atlas]({item['components']['border_image']['svg']})"]
+        if item.get('svg'):links+=[f"[SVG]({item['svg']})"]
+        if 'corner' in item['components']:links+=[f"[Corner]({item['components']['corner']['svg']})",f"[Border atlas]({item['components']['border_image']['svg']})"]
         if 'reference_crop' in item['components']:links+=[f"[Reference crop]({item['components']['reference_crop']['png']})"]
         lines.append(f"| <img src=\"{preview}\" height=\"72\" alt=\"{item['name']}\"> | `{item['name']}` | {item['kind']} | {' · '.join(links)} |")
     lines+=['',END]

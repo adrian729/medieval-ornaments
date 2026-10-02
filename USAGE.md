@@ -2,81 +2,84 @@
 
 ## Shared usage contract
 
-Use the shared [ornaments.css](ornaments.css) rather than rewriting border geometry for each design. The demo uses this same stylesheet. Include it once, from your own copy or the hosted collection:
+Include [ornaments.css](ornaments.css) once:
 
 ```html
 <link rel="stylesheet" href="https://adrian729.github.io/medieval-ornaments/ornaments.css">
 ```
 
-| Class | Asset to use | `--ornament-size` means |
+| Class | Asset | Size means |
 | --- | --- | --- |
-| `ornament-frame` | `components.border_image` | Border thickness; default 32px |
-| `ornament-divider` | Main repeat tile | Strip thickness; default 24px |
-| `ornament-image` | Standalone PNG/WebP | Image height; default 256px |
+| `ornament-divider` | Main repeat tile | Strip thickness |
+| `ornament-frame` | `components.border_image` | Border thickness |
+| `ornament-image` | Whole decoration | Image height |
 
-Set `--ornament-image: url(...)` for frames/dividers. Prefer absolute URLs, as used in the public demo examples. Relative URLs in this variable resolve against the shared stylesheet, so local collection assets use `url('svg/design.svg')`. For JavaScript, resolve catalog paths with `new URL(path, collectionBaseUrl).href` before setting the variable. A vertical divider adds `data-axis="y"` and can set `--ornament-length: 240px`. Horizontal dividers fill their container by default. Raster images use normal `src`, `srcset`, or `<picture>` for size/format selection.
+Set `--ornament-image` to an absolute asset URL for frames/dividers, and `--ornament-size` to the display size. Relative URLs in this variable resolve against the shared stylesheet; local assets therefore use `url('svg/design.svg')` or `url('webp/design.webp')`. Resolve catalog paths in JavaScript with `new URL(path, collectionBaseUrl).href`.
+
+Use the catalog's `border_image_slice_percent` for `--ornament-slice`, and its `repeat_ratio` for `--ornament-ratio`. Plate designs retain their native proportions, so these values differ between designs. The six floral vectors retain the defaults of 256/96 and 21.42857142857143%.
 
 ```html
 <article class="ornament-frame" style="
   --ornament-image: url('https://adrian729.github.io/medieval-ornaments/svg/red-berry-vine-border.svg');
-  --ornament-size: 28px; padding: 24px;">
+  --ornament-slice: 21.42857142857143%;
+  --ornament-size: 33px; padding: 24px;">
   Your content
 </article>
 ```
 
-Every current vector style uses the same 256 × 96 repeat geometry and 448 × 448 atlas, so changing its URL is enough. Optional settings keep future exceptions explicit: `--ornament-ratio` is tile length divided by thickness (default 256/96), `--ornament-slice` is the atlas corner slice percentage, and `--ornament-fit` is `round` or `repeat`. Read those values from the catalog when using an asset with different geometry; do not force irregular handmade crops into a repeat. Use content padding and typography separately from ornament settings.
+## Frames
 
-The low-level CSS examples below show what the shared stylesheet does when you need to implement it independently.
+Frames always use `round`, fitting complete units into each side. A partial unit from `repeat` cannot meet the corner's expected phase and can cut petals or leaves. Whole-unit fitting can slightly adjust the length of a motif, so inspect narrow frames and thick borders.
 
-## Whole painted decorations
+Use the complete supplied atlas. Floral corners are adapted turns. Painted plate corners are mitered reflections of the same pattern; the atlas has four correctly phased corners and reflected edge directions. The separate `components.corner` export is the top-left piece, not a universal piece to rotate blindly. Diagonal miter reflections are adaptations, not recovered historical corners.
 
-The [design browser](https://adrian729.github.io/medieval-ornaments/examples/) starts with a use choice: frame, repeating divider, or whole decoration. Categories come from `images.json`; search also matches descriptions, subjects, and colors. Preview cards show the asset relevant to that use. Only applicable size and fit controls appear, so a whole decoration is never presented as a repeatable frame.
+Slice with the catalog percentage, without `fill`. The center remains transparent. Set a real CSS border width through `--ornament-size`; no `border-radius` clipping is promised.
 
-The five narrow panels are complete ornaments. Preserve their aspect ratio. Use an `<img>` with one dimension set and the other automatic; do not stretch them to fill a frame or repeat them as a seamless strip. Select the smallest available PNG/WebP that meets the displayed size times the device pixel ratio. If the required resolution exceeds the master, use the master and reduce the display size rather than creating an enlarged raster export.
+The demo uses SVG for its floral frame and source WebP for its painted plate frames. The browser offers the corresponding SVG color traces for comparison.
 
-## Repeatable vector borders
+## Dividers
 
-Each vector entry provides:
+Use the main tile as a repeating background. For a horizontal divider:
 
-| Asset | Purpose |
-| --- | --- |
-| Main SVG | One repeat period; `repeat_axis` says whether it is horizontal or vertical |
-| `components.corner` | A top-left corner that can be rotated for other corners |
-| `components.border_image` | Square atlas with four corners, four edge periods, and a transparent center |
-| `components.reference_crop` | Original plate region, where supplied; not a seamless tile |
-
-The atlas has a 448 × 448 viewBox and corner regions of 96 × 96. Slice at **21.42857142857143%** on all four sides, without `fill`. Percentage slices work for both SVG and all raster atlas sizes. Set a real CSS border width; the image does not create layout width on its own. No `border-radius` clipping is promised.
-
-```css
-.frame {
-  box-sizing: border-box;
-  border: 40px solid transparent;
-  border-image: url("../svg/plate-13-leaf-and-flower-vine-border.svg")
-                21.42857142857143% / 1 / 0 round;
-  padding: 24px;
-}
+```html
+<div class="ornament-divider" style="
+  --ornament-image: url('https://adrian729.github.io/medieval-ornaments/svg/red-berry-vine.svg');
+  --ornament-size: 24px; --ornament-ratio: 2.6666666666666665;
+  --ornament-length: 100%;" aria-hidden="true"></div>
 ```
 
-For a horizontal strip use the main tile as a repeating background. At a height of 24px, a horizontal 256 × 96 tile has a natural displayed width of 64px:
+Vertical designs add `data-axis="y"`; the length then sets height and the thickness sets width. Respect `repeat_axis` and `repeat_ratio` from the catalog. A divider ending at an arbitrary length can crop its last unit; frames instead fit whole units around corners.
 
-```css
-.strip {
-  height: 24px;
-  background: url("../svg/red-berry-vine.svg") repeat-x;
-  background-size: 64px 24px;
-}
+## Whole decorations
+
+The five extracted panels and plate 11, 16, 36, and 37 have `kind=standalone` and `repeat_axis=none`. They have no frame atlas. Use `ornament-image` or a normal `<img>` and preserve proportions. The plate exceptions retain complete acanthus/corner artwork rather than pretending their supplied regions form seamless strips.
+
+```html
+<img class="ornament-image"
+     src="https://adrian729.github.io/medieval-ornaments/webp/256/floral-bird-panel-blue.webp"
+     style="--ornament-size: 256px" alt="">
 ```
 
-For vertical originals the viewBox is 96 × 256. Repeat along `y`, with a natural displayed height of `width × 256 / 96`. Frame atlases already handle both orientations. Use CSS `scaleX(-1)` or `scaleY(-1)` to mirror a decoration; rotate a corner in multiples of 90 degrees. Do not mirror text or directional subjects without inspecting the result.
+Use empty alt text for purely decorative art; describe an image when its subject conveys meaning.
 
-Choose `round` to fit complete periods across an edge (the browser adjusts their length), or `repeat` for fixed proportions with possible clipped periods. Both keep the corners fixed. Extremely small frames or thick borders can crowd the decoration; inspect those combinations in the preview.
+## Source artwork and vectors
 
-## Original versus adapted artwork
+The 38 reference crops reproduce the supplied pixels without enlargement; two L-shaped crops mask neighboring regions. The full original sheet is in `sources/`. [source-patterns.json](source-patterns.json) records crop bounds, direction, unit choice, whole-art exceptions, and repeat rationale.
 
-The 38 numbered raster reference crops reproduce their supplied pixels without enlargement. The two L-shaped corner crops mask empty regions to exclude neighboring designs; their visible pixels are unchanged. The SVGs are intentionally simplified interpretations, and square/corner designs from the plate have been adapted into repeat strips. Their corner motifs are designed for the same palette/family, but are not historical reproductions. The six floral borders are redrawn from geometry; no watermarked reference pixels are embedded in those SVGs.
+Numbered PNG/WebP tiles retain painted pixels. Their repeating units have a two-pixel adjustment at both ends to reconcile print/scanning differences; the interior is unchanged. Their native corners/atlases rearrange and reflect these pixels without interpolation or enlargement. Some entries deliberately repeat one complete square/medallion cell instead of claiming an unavailable full color cycle. These choices are explicit in the catalog.
 
-The five transparent panel extractions use built-in imagegen and can reinterpret fine details. Generated extracts were reduced to a 650px longest dimension, the supplied source image's height. They are not presented as higher-resolution reproductions of the original photograph.
+The numbered SVGs trace those actual shapes with an adaptive color palette. They approximate print tones and curves, and can lose subtle detail; choose PNG/WebP when the painted appearance matters. They contain real vector paths, not embedded raster images. The six floral designs are geometric redraws; the watermarked sheet's pixels are not embedded or published as cleaned artwork.
+
+The five transparent panels are AI-assisted extractions and can reinterpret detail. Their master dimensions are capped at the supplied source's 650px height.
+
+## Raster size selection
+
+Choose listed variants by actual width/height and the display size times pixel density; do not guess filenames. Every smaller export comes directly from its master. Source pixels are never exported enlarged.
+
+Size folders are upper bounds. Frame variants use dimensions that keep slice boundaries on integer pixels, so a `128/` atlas might be 126px and some smaller atlas sizes are absent. Native plate assets are already small. SVG can scale its traced shapes, but does not recover missing source detail.
+
+The [design browser](https://adrian729.github.io/medieval-ornaments/examples/) filters by use, category, subjects, and colors. The [artwork comparison page](https://adrian729.github.io/medieval-ornaments/examples/review.html) shows originals, units, repetitions, and frames, with format/background/thickness controls.
 
 ## Technical references
 
-SVG patterns support repeated vector artwork; see [MDN SVG patterns](https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorials/SVG_from_scratch/Patterns). The supplied files are plain vector tiles usable as CSS backgrounds or inside an SVG pattern. Frame atlases use [CSS border-image](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/border-image); the fit behavior is described in [border-image-repeat](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/border-image-repeat). Raster vector exports use [CairoSVG](https://cairosvg.org/documentation/).
+Frame fitting follows [CSS border-image-repeat](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/border-image-repeat); slice geometry follows [border-image-slice](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/border-image-slice). Source color tracing uses [VTracer](https://github.com/visioncortex/vtracer); ordinary SVG rendering uses [CairoSVG](https://cairosvg.org/documentation/).

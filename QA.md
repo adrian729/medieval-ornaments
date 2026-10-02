@@ -1,42 +1,50 @@
-# Initial collection verification
+# Artwork and frame verification
 
-The first collection has 49 designs: five complete painted ornaments and 44 adapted vector border styles, including all numbered plate designs 1–38.
+The collection has **49 designs: 40 repeating borders and nine whole decorations**. Asset validation covers **742 cataloged files, including 124 SVGs**. Checks cover catalog coverage, filenames, dimensions, byte counts, lossless PNG/WebP visible pixels and alpha, variants produced directly from masters, and the absence of raster embedding or external references in SVGs.
 
-Automated asset checks passed for **1,628 files**, including **132 genuine SVGs**. Checks cover catalog coverage, filenames, dimensions, byte counts, lossless PNG/WebP visible pixels and alpha, variants produced directly from masters, and the absence of raster embedding or external references in SVGs. Standalone panel masters are capped at the source image's 650px height. All 38 reference crops were compared with the supplied source pixels; corner clipping is documented in their metadata.
+## Source and artwork checks
 
-Chrome passed **154 browser checks**: all 49 designs in their available formats, plus three frame-size/thickness combinations at four viewport widths (320, 375, 768, 1200). Browser caching was disabled for final inspection. Light/dark contact sheets and large/small frames were inspected visually. A ribbon corner band mismatch and repeat closing-stroke artifacts were corrected during review.
+All 38 numbered reference crops were compared with the original sheet's pixels and masks. The original sheet and five standalone panel masters are preserved. Numbered PNG/WebP units use actual source pixels, with only the documented two-pixel repeat-end adjustment. Their interiors and whole decorations are checked against the supplied source. Native plate frame assembly uses no enlargement or interpolation.
 
-After adding the usage demo and `ornaments.css`, the browser script passed **174 checks on both localhost and the live GitHub Pages site**. The additional checks cover the demo at those four widths, all three frame choices at three thicknesses, matching copied code, local/public URLs, theme switching, and the vertical divider convention. CSS image decoding is checked to catch asset-path errors on hosted pages. The playground, usage demo, and frame sheet use the same stylesheet. Existing PNG/WebP/SVG assets were unchanged.
+The source check verifies **272 exact corner-to-side pixel profiles** and **81 raster atlases with integer slice boundaries**. It also checks that the floral unit endpoints contain only their intended stems, preventing leaves or flowers from straddling corner clipping lines.
 
-The vector files are simplified reconstructions and adapted corners, not exact tracings. Original plate crops are retained for comparison. Whole painted panels are AI-assisted extractions and are not marked seamless.
+All numbered source regions and extracted repeat units received visual review, including alternating colors, complete motifs, and repeat phase. Plate 11, 16, 36, and 37 retain whole artwork without invented repeating frame strips. All 40 painted/vector frames were inspected at 33px. The four reported floral styles were compared across SVG, PNG, and WebP; the gold leaf scroll's red curls were removed and its leaf blades moved clear of the outer clipping edge.
 
-The categorized browser passed **181 browser checks**, including purpose/category/search filters, visual selection, empty results, and controls for horizontal/vertical dividers and whole decorations. All 44 frame atlases were rebuilt with continuous closed stems, rails, or bands to remove independently drawn corner/edge joins; the separate repeat tiles, corner exports, painted masters, and reference crops remain unchanged.
+Inspect [the comparison page](https://adrian729.github.io/medieval-ornaments/examples/review.html) to compare source crops, extracted units, repeating strips, and frames. It offers WebP/SVG, light/dark backgrounds, and several thicknesses. SVG color traces approximate print tones and curves; PNG/WebP preserve the painted appearance. Plate corners are reflected miter adaptations, not recovered historical corner artwork.
 
-The frame regression matrix passed **516 rendered pixel checks in Chrome**. It covers four representative styles at every integer thickness from 16–48px, all remaining styles at 33px, and device pixel ratios 1, 1.25, and 2 with fractional element positions. A flood-fill check confirms the exterior background cannot pass through an open join into the transparent center. Representative joins also receive visual inspection: this check does not measure every subtle color difference or guarantee identical rendering in other browsers.
+## Browser and rendered checks
 
-Repeat automated asset validation:
+Chrome passed **188 browser checks** across all 49 designs, available formats, and four viewport widths (320, 375, 768, 1200). Checks include image decoding, applicable controls, whole artwork size/format controls, category/purpose/search filters, empty results, shared stylesheet usage, demo snippets and local/public URLs, the comparison page, and mobile overflow. Reports and screenshots are written to ignored `tmp/`.
+
+The frame matrix covers **1,512 rendered cases**:
+
+- Gold quatrefoil vine, red berry vine, gold leaf scroll, and red rosette vine at every integer thickness from 16–48px.
+- All remaining repeating borders at 33px.
+- SVG, PNG, and WebP at device pixel ratios 1, 1.25, and 2, with fractional element positions.
+
+A flood-fill check verifies that the exterior background cannot pass through an open join into the transparent center. This catches open seams, but does not assess chopped motifs or subtle color differences; source-profile checks and visual review address those separately. These results describe Chrome and the tested combinations, not a guarantee for every browser or arbitrarily small frame.
+
+## Repeat the checks
 
 ```sh
 .venv/bin/python scripts/catalog.py --check
+.venv/bin/python scripts/artwork_check.py
 git diff --check
 ```
 
-Optional browser verification requires Node 22+ and Google Chrome. With the preview server running on port 8765, start Chrome in another terminal:
+Browser verification requires Node 22+ and Google Chrome. With the preview server running on port 8765, start Chrome in another terminal:
 
 ```sh
 google-chrome --headless --no-sandbox --disable-gpu --remote-debugging-port=9227 \
   --user-data-dir=/tmp/medieval-ornaments-chrome about:blank
 ```
 
-Then run `node scripts/browser_check.mjs`. It writes a report and selected screenshots to ignored `tmp/`. View [examples/qa.html](examples/qa.html) through the local server to inspect every frame. New or changed artwork needs fresh visual review as described in AGENTS.md.
-
-Pass a base URL to check a deployed site: `node scripts/browser_check.mjs https://adrian729.github.io/medieval-ornaments/`. The demo checks decode CSS ornament images as well as ordinary images, so hosted path errors are detected.
-
-To render and check the frame matrix with the same running Chrome:
+Run the browser and matrix scripts sequentially because they control the same Chrome tab:
 
 ```sh
+node scripts/browser_check.mjs
 node scripts/frame_join_check.mjs http://127.0.0.1:8765 matrix
 .venv/bin/python scripts/check_frame_pixels.py
 ```
 
-The renderer also accepts a deployed collection URL. Screenshots and the pixel report are stored in ignored `tmp/`. Without `matrix`, it captures the three demo styles at 32, 33, and 34px for closer visual review.
+Pass the deployed collection URL to either browser script to check GitHub Pages. Without `matrix`, the frame renderer captures the three demo styles at 32, 33, and 34px. New or changed artwork needs fresh source, repeat, and light/dark visual review as described in [AGENTS.md](AGENTS.md); passing a gap check alone is insufficient.

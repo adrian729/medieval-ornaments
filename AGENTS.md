@@ -1,38 +1,35 @@
 # Repository instructions
 
-This public repository stores medieval ornaments and border assets. It is separate from `../medieval-cutouts`. Polyhymnia logos and unrelated workspace files must remain outside this repository.
+This public collection is separate from `../medieval-cutouts`. Keep Polyhymnia logos and unrelated workspace files outside it.
 
-## Layout and sources of truth
+## Sources of truth
 
-- `scripts/designs.py`: editable SVG geometry and 44 border specifications (6 floral border styles and the numbered plate designs 1–38).
-- `scripts/build_assets.py`: deterministic SVG generation, PNG rendering, WebP conversion, downscaled variants, and `images.json` generation.
-- `raster-metadata.json`: metadata for the five standalone extracted PNG masters. Preserve these PNGs.
-- `reference-crops.json`: supplied plate crop filenames and source coordinates; these PNG masters are original pixels.
-- `images.json`: generated catalog with six selection fields, usage metadata, dimensions, bytes, variants, and matching components. Do not hand-edit generated records.
-- `svg/`: genuine vectors, without embedded raster images or external references.
-- `ornaments.css`: shared usage classes (`ornament-frame`, `ornament-divider`, `ornament-image`) and `--ornament-*` settings. Reuse these in demos and documentation; do not introduce competing conventions. Default repeat geometry is 256 × 96; use explicit ratio/slice overrides for future exceptions.
-- `png/`, `webp/`: masters and size folders. Size is the longest dimension.
-- `EXTRACTION-PROMPTS.json`: exact extraction prompts and built-in imagegen method.
-- `scripts/catalog.py`: validates files and generates the README gallery, with categories and design names in alphabetical order.
-- `examples/demo.html`: small usage demo with copyable HTML/CSS; `index.html` forwards to it. `.nojekyll` lets GitHub Pages serve the collection as static files from `main`.
-- `examples/index.html`: visual browser with use/category/search filters and controls specific to frames, dividers, or whole decorations; `examples/qa.html`: frame verification sheet. Derive categories from the catalog and hide irrelevant controls. Preserve demo links and verify copied examples use the displayed settings.
-- `USAGE.md`, `SELECTION.md`: human and LLM usage guidance.
-- `tmp/`, `.venv/`: ignored local work only. Never commit credentials or private workspace material.
+- `scripts/designs.py`: six floral vector designs and numbered design identities/categories. Floral repeat geometry is 256 × 96.
+- `source-patterns.json`: audited source regions, native unit bounds, original direction, colors, repeat rationale, and whole-decoration exceptions for all 38 numbered plate designs. Do not infer a repeat from autocorrelation alone.
+- `sources/numbered-ornament-plate.png`: original supplied sheet. Preserve it byte-for-byte.
+- `sources/tiles/`: native painted units. Repeat units have a documented two-pixel join adjustment; their interiors retain original pixels. Whole decorations retain their original shape, including the masks for L-shaped corners.
+- `sources/traces/`: checked-in editable color traces, not generic redraws or embedded raster images. They approximate print colors and curves; PNG/WebP retain the actual source appearance.
+- `scripts/trace_sources.py`: optional source tracing. Use Python 3.12 and `requirements-trace.txt`; the VTracer wheel crashed under this checkout's Python 3.14. The local fallback is `PYTHONPATH=tmp/trace-python312 /usr/bin/python3.12 scripts/trace_sources.py`. `--name NAME` limits retracing. Ordinary builds use the checked-in traces and do not invoke VTracer.
+- `scripts/source_patterns.py`: source-based tile/frame geometry and native pixel assembly. Corners use mitered reflections of the same artwork; never replace them with unrelated generic flowers/diamonds.
+- `scripts/build_assets.py`: SVG generation, native PNG/WebP, downscaled variants, and generated `images.json`. `--name NAME` limits rebuilding to selected designs; omit it for the full collection. It removes only obsolete generated paths previously named in the catalog.
+- `raster-metadata.json`: five standalone AI-extracted painted panels. Preserve these PNG masters.
+- `reference-crops.json`: untouched original plate crop bounds and masks. Reference crops are comparison images, not seamless tiles.
+- `scripts/catalog.py`: file validation and alphabetical README gallery generation.
+- `ornaments.css`: shared `ornament-frame`, `ornament-divider`, `ornament-image` contract. Relative URLs in custom properties resolve against this stylesheet. JavaScript must resolve catalog URLs explicitly.
+- `examples/demo.html`: small usage demo; `index.html` redirects to it. `examples/index.html`: categorized browser. `examples/review.html`: original/unit/repeat/frame comparisons. `examples/qa.html`: all frames.
+- `tmp/`, `.venv*/`: ignored local work. Never commit credentials/private workspace material.
 
-## Adding or correcting assets
+## Correcting or adding artwork
 
-1. Inspect the reference and the existing catalog for duplicates. Use an accurate lowercase kebab-case name. Preserve the original plate number for numbered designs. Correct names and all internal references together when a subject identification changes.
-2. Add a standalone transparent PNG master and its record to `raster-metadata.json`, or add a native vector specification in `scripts/designs.py`. Record exact prompts/method for new AI extractions. Do not imply an AI extraction is a pixel-exact historical crop.
-3. Supply a useful description, broad categories, factual subjects, facing, main colors, and composition. Keep categories generic and consistent with `SELECTION.md` and `scripts/catalog.py`.
-4. Mark standalone art `repeat_axis=none`. Repeatable designs require a deliberate seamless tile, matching adapted corner, and frame atlas. Do not call a crop seamless unless verified. Preserve transparent centers in atlases and their slice metadata. Avoid IDs that collide when composing SVGs.
-5. Preserve original raster PNGs; never upscale raster sources. Cap AI extraction masters at the source's longest dimension rather than treating larger generated outputs as extra source resolution (the first five panels are capped at 650px). Produce every smaller size directly from its master, only when smaller. SVG raster masters may be rendered at 1024px before downscaling. PNG/WebP must preserve alpha and visible RGB losslessly.
-6. Regenerate using the commands in README. Run `.venv/bin/python scripts/catalog.py --check` and `git diff --check`. Validate original masters remain unchanged. Inspect newly changed artwork on light/dark backgrounds, repeated strips, and frames at multiple sizes. Check joins, corner rotation, crop edges, transparent margins, and small-size legibility. Automated checks do not replace visual inspection.
-7. Keep documentation and generated gallery synchronized. Do not invent provenance, authorship, or licenses. Keep original reference crops alongside interpretations where available. Never publish a watermarked source sheet as a cleaned extraction.
+1. Inspect the actual source and repeated artwork, not just its thumbnail or the previous redraw. Preserve alternating motifs/colors and original direction. Single square cells can deliberately repeat as motif cells, but label this honestly. If the supplied artwork does not establish a usable repeat, retain the whole decoration without a frame atlas.
+2. Use an accurate lowercase kebab-case name. Preserve numbered plate identities. Correct all filenames and internal references together when needed.
+3. Supply the six selection fields: description, broad categories, factual subjects, facing, colors, composition. Keep categories generic and consistent with `SELECTION.md`.
+4. For source work, edit the audit, retrace the affected names with the compatible interpreter, inspect native pixels and traces, then run the ordinary build. Preserve untouched source and reference pixels. A narrow join adjustment must never become an excuse to hide the wrong repeat period or mismatched motifs.
+5. Never upscale source raster exports. Make each smaller variant directly from its master. SVG may scale, but a trace does not recover missing source detail. PNG/WebP pairs must preserve alpha and visible RGB losslessly. Floral vector masters are at most 1024px; raster atlases use sizes with integer slice coordinates. Size folders are upper bounds, not guaranteed exact dimensions; skip a smaller atlas size if it would require fractional slices.
+6. Frames require `round`: partial repeat units cannot match the corners. Dividers retain natural tile proportions. Read `repeat_ratio` and `border_image_slice_percent` from the catalog; plate geometry is not uniformly 256 × 96 or 448 × 448. Do not rotate source-derived miter corners blindly: use the supplied atlas, which contains all four phase-matched corners.
+7. Run `.venv/bin/python scripts/catalog.py --check`, `.venv/bin/python scripts/artwork_check.py`, and `git diff --check`. Inspect every changed design against the reference, as repeated strips, and in light/dark frames. Check leaves/petals and artwork continuity, not only whether a gap crosses the frame. Run browser and rendered join checks in `QA.md`, including 33px and fractional pixel ratios. Automated checks do not replace visual inspection.
+8. Keep README, usage notes, browser, and examples synchronized. Do not invent provenance/authorship/licenses. Record exact prompts/method for AI extractions; never call them pixel-exact crops. Never publish a watermarked source sheet as a cleaned extraction.
 
-## Border geometry
+The collection currently has 49 designs: 40 repeating borders and nine whole decorations (the five panels and plate 11, 16, 36, 37). Whole plate designs retain SVG alternatives but have no corner/frame components.
 
-Repeat geometry uses a 256 × 96 horizontal coordinate system; vertical tiles rotate it into 96 × 256. Corners are 96 × 96. The nine-slice atlas is 448 × 448, sliced at `100 * 96 / 448` percent. Clip each repeat viewport; wrap geometry across period boundaries. Match edge bands and rails through the corner. Adapted motifs may terminate intentionally at a corner; do not claim seamless artwork through those transitions.
-
-Draw continuous atlas stems, rails, and background bands as closed paths/rings across all sides and corners. Independently capped or clipped segments can leave hairline seams after fractional scaling. Preserve the separate tile and corner exports. For changes to frame geometry, run the rendered matrix check documented in QA.md; include 33px thickness and fractional pixel ratios, then inspect representative joins visually.
-
-Codex loads this `AGENTS.md` automatically. `CLAUDE.md` imports it; do not create a competing singular `AGENT.md`.
+Codex uses `AGENTS.md`; `CLAUDE.md` imports it. Do not create a competing singular `AGENT.md`.
