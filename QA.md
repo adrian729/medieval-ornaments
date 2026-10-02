@@ -6,7 +6,7 @@ Automated asset checks passed for **1,628 files**, including **132 genuine SVGs*
 
 Chrome passed **154 browser checks**: all 49 designs in their available formats, plus three frame-size/thickness combinations at four viewport widths (320, 375, 768, 1200). Browser caching was disabled for final inspection. Light/dark contact sheets and large/small frames were inspected visually. A ribbon corner band mismatch and repeat closing-stroke artifacts were corrected during review.
 
-After adding the usage demo and `ornaments.css`, the browser script passed **174 checks**. The additional checks cover the demo at those four widths, all three frame choices at three thicknesses, matching copied code, local/public URLs, theme switching, and the vertical divider convention. The playground, usage demo, and frame sheet use the same stylesheet. Existing PNG/WebP/SVG assets were unchanged.
+After adding the usage demo and `ornaments.css`, the browser script passed **174 checks on both localhost and the live GitHub Pages site**. The additional checks cover the demo at those four widths, all three frame choices at three thicknesses, matching copied code, local/public URLs, theme switching, and the vertical divider convention. CSS image decoding is checked to catch asset-path errors on hosted pages. The playground, usage demo, and frame sheet use the same stylesheet. Existing PNG/WebP/SVG assets were unchanged.
 
 The vector files are simplified reconstructions and adapted corners, not exact tracings. Original plate crops are retained for comparison. Whole painted panels are AI-assisted extractions and are not marked seamless.
 

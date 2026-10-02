@@ -10,7 +10,7 @@ function send(method,params={}){return new Promise((resolve,reject)=>{const id=+
 async function evaluate(expression){const r=await send('Runtime.evaluate',{expression,returnByValue:true,awaitPromise:true});if(r.exceptionDetails)throw Error(JSON.stringify(r.exceptionDetails));return r.result.value}
 function assert(ok,message){if(!ok)throw Error(message)}
 const pause=ms=>new Promise(r=>setTimeout(r,ms));
-async function ready(){for(let i=0;i<100;i++){if(await evaluate('document.body.dataset.ready==="true"'))return;await pause(50)}throw Error('Preview failed to load')}
+async function ready(){for(let i=0;i<100;i++){if(await evaluate('document.body?.dataset.ready==="true"'))return;await pause(50)}throw Error('Preview failed to load')}
 async function choose(id,value){await evaluate(`(()=>{const el=document.getElementById(${JSON.stringify(id)});el.value=${JSON.stringify(String(value))};el.dispatchEvent(new Event('input',{bubbles:true}));})()`)}
 await send('Runtime.enable');await send('Page.enable');await send('Network.enable');
 await send('Network.setCacheDisabled',{cacheDisabled:true});
