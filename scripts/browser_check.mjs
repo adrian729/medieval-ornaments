@@ -29,8 +29,27 @@ for(const item of catalog){
   }
 }
 // Browse by usage first, then by catalog category/search; expose relevant controls.
+await choose('purpose','divider');
+await choose('width',420);await choose('height',260);await choose('thickness',24);
+for(const item of catalog.filter(i=>i.kind==='repeat-tile')){
+  await choose('design',item.name);
+  for(const axis of ['x','y'])for(const format of ['svg','png','webp']){
+    await choose('orientation',axis);await choose('format',format);
+    const tile=axis===item.repeat_axis?item:item.components.rotated_tile;
+    const result=await evaluate(`(async()=>{const el=document.getElementById('previewStrip'),style=getComputedStyle(el),path=JSON.parse(style.backgroundImage.slice(4,-1)),image=new Image();image.src=path;await image.decode();return {path,width:parseFloat(style.width),height:parseFloat(style.height),repeat:style.backgroundRepeat,size:style.backgroundSize,axis:el.dataset.axis,controls:!document.getElementById('orientationControl').hidden&&document.getElementById('widthControl').hidden===${axis==='y'}&&document.getElementById('heightControl').hidden===${axis==='x'},links:[...document.querySelectorAll('#links a')].map(a=>a.href)}})()`);
+    const period=24*item.repeat_ratio,expectedSize=axis==='x'?[period,24]:[24,period],actualSize=result.size.split(' ').map(parseFloat);
+    assert([tile,...tile.variants].some(asset=>result.path.endsWith(asset[format]))&&result.width===(axis==='x'?420:24)&&result.height===(axis==='x'?24:260)&&result.repeat===('repeat-'+axis)&&result.axis===axis&&result.controls&&result.links.some(p=>p.endsWith(tile.png))&&actualSize.every((v,i)=>Math.abs(v-expectedSize[i])<.01),'Divider orientation failed '+item.name+' '+axis+' '+format+' '+JSON.stringify(result));checks++;
+    if(['red-berry-vine','plate-03-spiral-bands'].includes(item.name)&&format!=='png'){
+      await evaluate("document.getElementById('stage').scrollIntoView({block:'center'})");
+      const shot=await send('Page.captureScreenshot',{captureBeyondViewport:false});
+      await writeFile(new URL(`../tmp/divider-${item.name}-${axis}-${format}.png`,import.meta.url),Buffer.from(shot.data,'base64'));
+    }
+  }
+}
+await choose('orientation','native');
+await evaluate('scrollTo(0,0)');
 await choose('purpose','whole');
-assert(await evaluate("document.querySelectorAll('.design-card').length===9&&document.getElementById('thicknessControl').hidden&&document.getElementById('fitControl').hidden&&document.getElementById('widthControl').hidden"),'Whole-decoration browsing controls');checks++;
+assert(await evaluate("document.querySelectorAll('.design-card').length===9&&document.getElementById('thicknessControl').hidden&&document.getElementById('fitControl').hidden&&document.getElementById('widthControl').hidden&&document.getElementById('orientationControl').hidden"),'Whole-decoration browsing controls');checks++;
 await choose('design','plate-16-stepped-corner');
 for(const [format,height] of [['webp',24],['svg',300]]){
   await choose('format',format);await choose('height',height);

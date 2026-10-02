@@ -105,6 +105,23 @@ def existing_export(item,name):
                 variants=variants(image,name))
 
 
+def rotated_tile(entry):
+    """Turn the existing tile 90 degrees; preserve every raster pixel."""
+    import xml.etree.ElementTree as ET
+    from html import escape
+    axis=entry['repeat_axis'];w,h=entry['viewbox'][2:]
+    document=(ROOT/entry['svg']).read_text()
+    root=ET.fromstring(document)
+    root.attrib.update(width=str(w),height=str(h))
+    nested=ET.tostring(root,encoding='unicode').replace('ns0:','').replace(':ns0','')
+    matrix=f'matrix(0 1 -1 0 {h} 0)' if axis=='x' else f'matrix(0 -1 1 0 0 {w})'
+    document=f'<svg xmlns="http://www.w3.org/2000/svg" width="{h}" height="{w}" viewBox="0 0 {h} {w}"><title>{escape(entry["name"])} rotated repeat tile</title><g transform="{matrix}">{nested}</g></svg>\n'
+    with Image.open(ROOT/entry['png']) as image:
+        native=image.transpose(Image.Transpose.ROTATE_270 if axis=='x' else Image.Transpose.ROTATE_90)
+    return dict(**vector_export(document,entry['name']+'-rotated',native_source=native),
+                repeat_axis='y' if axis=='x' else 'x',repeat_ratio=entry['repeat_ratio'])
+
+
 def build(names=None):
     old_catalog=json.loads((ROOT/'images.json').read_text())
     raster_path=ROOT/'raster-metadata.json'
@@ -161,6 +178,7 @@ def build(names=None):
             entry['frame_fit']='round'
             entry['corner_method']='source-derived-miter' if plate else 'adapted-motif'
             entry['components']['border_image']['slice_pixels']=round(corner_size/size*entry['components']['border_image']['width'])
+            entry['components']['rotated_tile']=rotated_tile(entry)
         if plate:
             entry['source_pattern']=spec['repeat_note']
             entry['source_canvas']={'width':native.width,'height':native.height}

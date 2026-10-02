@@ -28,6 +28,7 @@
 <p id="usage"></p>
 <div class="controls" id="previewControls" aria-label="Preview settings">
 <label>Format<select id="format"><option value="svg">SVG</option><option value="webp" selected>WebP</option><option value="png">PNG</option></select></label>
+<label id="orientationControl" hidden>Orientation<select id="orientation"><option value="native">Original direction</option><option value="x">Horizontal</option><option value="y">Vertical</option></select></label>
 <label id="widthControl"><span id="widthLabel">Frame width</span><output id="widthOut"></output><input id="width" type="range" min="240" max="1050" value="680"></label>
 <label id="heightControl"><span id="heightLabel">Frame height</span><output id="heightOut"></output><input id="height" type="range" min="128" max="650" value="330"></label>
 <label id="thicknessControl"><span id="thicknessLabel">Border thickness</span><output id="thicknessOut"></output><input id="thickness" type="range" min="12" max="80" value="32"></label>
@@ -51,7 +52,7 @@
 <script>
 const $=id=>document.getElementById(id);let catalog=[];
 const readable=name=>name.replace(/^plate-(\d+)-/,'Plate $1 · ').replaceAll('-',' ');
-const notes={frame:'Frames use matching corners and repeating edges. Their border thickness is independent of the content size.',divider:'Dividers extend a repeat tile along its original direction: horizontal or vertical. Choose a design to see its direction.',whole:'These complete decorations are individual images. Preserve their proportions; each is a single image.'};
+const notes={frame:'Frames use matching corners and repeating edges. Their border thickness is independent of the content size.',divider:'Dividers repeat horizontally or vertically. Choose an orientation; the artwork turns to match while keeping its proportions.',whole:'These complete decorations are individual images. Preserve their proportions; each is a single image.'};
 function candidates(){return catalog.filter(item=>($('purpose').value==='whole')===(item.kind==='standalone'))}
 function renderBrowser(){
   const pool=candidates(),categories=[...new Set(pool.flatMap(item=>item.categories))].sort(),oldCategory=$('category').value;
@@ -77,16 +78,19 @@ function assetPath(asset,format,need){
   const fmt=format==='svg'?'webp':format,sorted=[...asset.variants,asset].sort((a,b)=>Math.max(a.width,a.height)-Math.max(b.width,b.height));
   return new URL('../'+(sorted.find(v=>Math.max(v.width,v.height)>=need)||asset)[fmt],location.href).href;
 }
-function setStrip(element,item,fmt,size,length,transform){
-  element.dataset.axis=item.repeat_axis;element.style.setProperty('--ornament-image',`url("${assetPath(item,fmt,size*(item.repeat_ratio||Math.max(item.width,item.height)/Math.min(item.width,item.height))*(devicePixelRatio||1))}")`);
-  element.style.setProperty('--ornament-ratio',item.repeat_ratio||Math.max(item.width,item.height)/Math.min(item.width,item.height));element.style.setProperty('--ornament-size',size+'px');element.style.setProperty('--ornament-length',length+'px');element.style.transform=transform;
+function setStrip(element,item,fmt,size,length,transform,axis=item.repeat_axis){
+  const tile=axis===item.repeat_axis?item:item.components.rotated_tile;
+  element.dataset.axis=axis;element.style.setProperty('--ornament-image',`url("${assetPath(tile,fmt,size*item.repeat_ratio*(devicePixelRatio||1))}")`);
+  element.style.setProperty('--ornament-ratio',item.repeat_ratio);element.style.setProperty('--ornament-size',size+'px');element.style.setProperty('--ornament-length',length+'px');element.style.transform=transform;
 }
 function update(){
   const item=catalog.find(x=>x.name===$('design').value),purpose=$('purpose').value,hasItem=!!item;
+  const axis=$('orientation').value==='native'?item?.repeat_axis:$('orientation').value;
   $('stage').hidden=!hasItem;$('previewControls').hidden=!hasItem;$('design').disabled=!hasItem;
   $('frame').hidden=purpose!=='frame';$('standalone').hidden=purpose!=='whole';$('previewStrip').hidden=purpose!=='divider';
-  $('widthControl').hidden=purpose==='whole'||(purpose==='divider'&&item?.repeat_axis==='y');
-  $('heightControl').hidden=purpose==='divider'&&item?.repeat_axis!=='y';
+  $('orientationControl').hidden=purpose!=='divider';
+  $('widthControl').hidden=purpose==='whole'||(purpose==='divider'&&axis==='y');
+  $('heightControl').hidden=purpose==='divider'&&axis!=='y';
   $('height').min=purpose==='whole'?16:128;
   $('thicknessControl').hidden=purpose==='whole';$('fitControl').hidden=true;
   $('repeatSection').hidden=purpose!=='frame'||!hasItem;$('cornerSection').hidden=purpose!=='frame'||!hasItem;
@@ -109,14 +113,14 @@ function update(){
     $('corner').src=assetPath(item.components.corner,fmt,96*dpr);
     $('usage').textContent='Use the frame atlas with ornament-frame. The matching tile and corner are shown below.';
   }else if(purpose==='divider'){
-    setStrip($('previewStrip'),item,fmt,t,item.repeat_axis==='y'?h:w,transform);
-    $('usage').textContent='Use the repeat tile with ornament-divider'+(item.repeat_axis==='y'?' and data-axis="y". This design repeats vertically.':'. This design repeats horizontally.');
+    setStrip($('previewStrip'),item,fmt,t,axis==='y'?h:w,transform,axis);
+    $('usage').textContent='Use the '+(axis===item.repeat_axis?'original':'rotated')+' tile with ornament-divider'+(axis==='y'?' and data-axis="y". This divider repeats vertically.':'. This divider repeats horizontally.');
   }else{
     const displayH=fmt==='svg'?h:Math.min(h,item.height/dpr);$('standalone').src=assetPath(item,fmt,displayH*dpr);$('standalone').style.setProperty('--ornament-size',displayH+'px');$('standalone').style.transform=transform;
     $('usage').textContent='Use this complete image with ornament-image. Choose a smaller variant for a small display.';
   }
   $('description').textContent=item.description;$('tags').textContent=item.categories.join(' · ')+' | '+item.colors.join(', ');
-  const selected=purpose==='frame'?item.components.border_image:item;
+  const selected=purpose==='frame'?item.components.border_image:purpose==='divider'&&axis!==item.repeat_axis?item.components.rotated_tile:item;
   const links=[['PNG',selected.png],['WebP',selected.webp]];if(selected.svg)links.push([purpose==='frame'?'SVG frame':'SVG artwork',selected.svg]);
   $('links').replaceChildren(...links.map(([label,path])=>{const a=document.createElement('a');a.href='../'+path;a.textContent=label;return a}));
   const original=item.components.reference_crop;$('originalSection').hidden=!original;if(original){$('original').src='../'+original.png;$('original').width=original.width}
@@ -124,7 +128,7 @@ function update(){
 fetch('../images.json').then(r=>{if(!r.ok)throw Error(r.status);return r.json()}).then(data=>{
  catalog=data;const query=new URLSearchParams(location.search),selected=data.find(i=>i.name===query.get('design'));
  $('purpose').value=query.get('purpose')||(selected?.kind==='standalone'?'whole':'frame');
- for(const id of ['width','height','thickness','format','theme','fit','mirror','search'])if(query.has(id))$(id).value=query.get(id);
+ for(const id of ['width','height','thickness','format','theme','fit','mirror','search','orientation'])if(query.has(id))$(id).value=query.get(id);
  renderBrowser();if(query.has('category')){$('category').value=query.get('category');renderBrowser()}if(selected&&[...$('design').options].some(o=>o.value===selected.name)){$('design').value=selected.name;update()}
  for(const id of ['purpose','category','search'])$(id).addEventListener('input',renderBrowser);
  for(const control of document.querySelectorAll('.controls input,.controls select,#design'))control.addEventListener('input',update);

@@ -10,7 +10,7 @@ Include [ornaments.css](ornaments.css) once:
 
 | Class | Asset | Size means |
 | --- | --- | --- |
-| `ornament-divider` | Main repeat tile | Strip thickness |
+| `ornament-divider` | Main or `components.rotated_tile` repeat tile | Strip thickness |
 | `ornament-frame` | `components.border_image` | Border thickness |
 | `ornament-image` | Whole decoration | Image height |
 
@@ -48,7 +48,18 @@ Use the main tile as a repeating background. For a horizontal divider:
   --ornament-length: 100%;" aria-hidden="true"></div>
 ```
 
-Vertical designs add `data-axis="y"`; the length then sets height and the thickness sets width. Respect `repeat_axis` and `repeat_ratio` from the catalog. A divider ending at an arbitrary length can crop its last unit; frames instead fit whole units around corners.
+Every repeat design also supplies `components.rotated_tile`: the same artwork turned 90 degrees, in SVG, PNG, WebP, and smaller sizes. Its `repeat_axis` is opposite to the main tile's, and its `repeat_ratio` is unchanged. Choose the asset whose axis matches the direction you want. PNG/WebP rotations rearrange existing pixels without interpolation or enlargement.
+
+Vertical dividers add `data-axis="y"`; the length then sets height and the thickness sets width. Setting that attribute alone does not rotate a horizontal image: use the matching vertical asset too. For example:
+
+```html
+<div class="ornament-divider" data-axis="y" style="
+  --ornament-image: url('https://adrian729.github.io/medieval-ornaments/svg/red-berry-vine-rotated.svg');
+  --ornament-size: 24px; --ornament-ratio: 2.6666666666666665;
+  --ornament-length: 240px;" aria-hidden="true"></div>
+```
+
+The browser's Orientation selector offers Horizontal, Vertical, and Original direction; asset links follow your choice. A divider ending at an arbitrary length can crop its last unit; frames instead fit whole units around corners.
 
 ## Whole decorations
 

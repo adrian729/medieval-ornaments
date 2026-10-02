@@ -78,6 +78,7 @@ def gallery(catalog):
         preview=next((v['webp'] for v in item['variants'] if v['max_dimension']==128),item['webp'])
         links=[f"[PNG]({item['png']})",f"[WebP]({item['webp']})"]
         if item.get('svg'):links+=[f"[SVG]({item['svg']})"]
+        if 'rotated_tile' in item['components']:links+=[f"[Rotated tile]({item['components']['rotated_tile']['svg']})"]
         if 'corner' in item['components']:links+=[f"[Corner]({item['components']['corner']['svg']})",f"[Border atlas]({item['components']['border_image']['svg']})"]
         if 'reference_crop' in item['components']:links+=[f"[Reference crop]({item['components']['reference_crop']['png']})"]
         lines.append(f"| <img src=\"{preview}\" height=\"72\" alt=\"{item['name']}\"> | `{item['name']}` | {item['kind']} | {' · '.join(links)} |")

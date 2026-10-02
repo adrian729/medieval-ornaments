@@ -1,12 +1,12 @@
 # Artwork and frame verification
 
-The collection has **49 designs: 40 repeating borders and nine whole decorations**. Asset validation covers **742 cataloged files, including 124 SVGs**. Checks cover catalog coverage, filenames, dimensions, byte counts, lossless PNG/WebP visible pixels and alpha, variants produced directly from masters, and the absence of raster embedding or external references in SVGs.
+The collection has **49 designs: 40 repeating borders and nine whole decorations**. Asset validation covers **922 cataloged files, including 164 SVGs**. Checks cover catalog coverage, filenames, dimensions, byte counts, lossless PNG/WebP visible pixels and alpha, variants produced directly from masters, and the absence of raster embedding or external references in SVGs.
 
 ## Source and artwork checks
 
 All 38 numbered reference crops were compared with the original sheet's pixels and masks. The original sheet and five standalone panel masters are preserved. Numbered PNG/WebP units use actual source pixels, with only the documented two-pixel repeat-end adjustment. Their interiors and whole decorations are checked against the supplied source. Native plate frame assembly uses no enlargement or interpolation.
 
-The source check verifies **272 exact corner-to-side pixel profiles** and **81 raster atlases with integer slice boundaries**. It also checks that the floral unit endpoints contain only their intended stems, preventing leaves or flowers from straddling corner clipping lines.
+The source check verifies **272 exact corner-to-side pixel profiles** and **81 raster atlases with integer slice boundaries**. All 40 rotated tiles are verified as pixel-exact 90-degree turns of their masters, with unchanged repeat proportions. It also checks that the floral unit endpoints contain only their intended stems, preventing leaves or flowers from straddling corner clipping lines.
 
 All numbered source regions and extracted repeat units received visual review, including alternating colors, complete motifs, and repeat phase. Plate 11, 16, 36, and 37 retain whole artwork without invented repeating frame strips. All 40 painted/vector frames were inspected at 33px. The four reported floral styles were compared across SVG, PNG, and WebP; the gold leaf scroll's red curls were removed and its leaf blades moved clear of the outer clipping edge.
 
@@ -14,7 +14,7 @@ Inspect [the comparison page](https://adrian729.github.io/medieval-ornaments/exa
 
 ## Browser and rendered checks
 
-Chrome passed **188 browser checks** across all 49 designs, available formats, and four viewport widths (320, 375, 768, 1200). Checks include image decoding, applicable controls, whole artwork size/format controls, category/purpose/search filters, empty results, shared stylesheet usage, demo snippets and local/public URLs, the comparison page, and mobile overflow. Reports and screenshots are written to ignored `tmp/`.
+Chrome passed **428 browser checks** across all 49 designs, available formats, and four viewport widths (320, 375, 768, 1200). Checks include image decoding, applicable controls, whole artwork size/format controls, all 40 dividers in both orientations and all three formats, matching download links and length controls, category/purpose/search filters, empty results, shared stylesheet usage, demo snippets and local/public URLs, the comparison page, and mobile overflow. Reports and screenshots are written to ignored `tmp/`.
 
 The frame matrix covers **1,512 rendered cases**:
 

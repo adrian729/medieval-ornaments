@@ -555,6 +555,65 @@
           }
         ],
         "slice_pixels": 219
+      },
+      "rotated_tile": {
+        "svg": "svg/gold-quatrefoil-vine-rotated.svg",
+        "viewbox": [
+          0,
+          0,
+          96,
+          256
+        ],
+        "png": "png/gold-quatrefoil-vine-rotated.png",
+        "webp": "webp/gold-quatrefoil-vine-rotated.webp",
+        "width": 384,
+        "height": 1024,
+        "png_bytes": 60763,
+        "webp_bytes": 17770,
+        "variants": [
+          {
+            "max_dimension": 128,
+            "rendered_max_dimension": 128,
+            "png": "png/128/gold-quatrefoil-vine-rotated.png",
+            "webp": "webp/128/gold-quatrefoil-vine-rotated.webp",
+            "width": 48,
+            "height": 128,
+            "png_bytes": 5784,
+            "webp_bytes": 3458
+          },
+          {
+            "max_dimension": 256,
+            "rendered_max_dimension": 256,
+            "png": "png/256/gold-quatrefoil-vine-rotated.png",
+            "webp": "webp/256/gold-quatrefoil-vine-rotated.webp",
+            "width": 96,
+            "height": 256,
+            "png_bytes": 18025,
+            "webp_bytes": 7470
+          },
+          {
+            "max_dimension": 512,
+            "rendered_max_dimension": 512,
+            "png": "png/512/gold-quatrefoil-vine-rotated.png",
+            "webp": "webp/512/gold-quatrefoil-vine-rotated.webp",
+            "width": 192,
+            "height": 512,
+            "png_bytes": 46880,
+            "webp_bytes": 16450
+          },
+          {
+            "max_dimension": 768,
+            "rendered_max_dimension": 768,
+            "png": "png/768/gold-quatrefoil-vine-rotated.png",
+            "webp": "webp/768/gold-quatrefoil-vine-rotated.webp",
+            "width": 288,
+            "height": 768,
+            "png_bytes": 79354,
+            "webp_bytes": 27228
+          }
+        ],
+        "repeat_axis": "y",
+        "repeat_ratio": 2.6666666666666665
       }
     },
     "border_image_slice_percent": 21.428571428571427,
@@ -755,6 +814,65 @@
           }
         ],
         "slice_pixels": 219
+      },
+      "rotated_tile": {
+        "svg": "svg/red-berry-vine-rotated.svg",
+        "viewbox": [
+          0,
+          0,
+          96,
+          256
+        ],
+        "png": "png/red-berry-vine-rotated.png",
+        "webp": "webp/red-berry-vine-rotated.webp",
+        "width": 384,
+        "height": 1024,
+        "png_bytes": 46864,
+        "webp_bytes": 14064,
+        "variants": [
+          {
+            "max_dimension": 128,
+            "rendered_max_dimension": 128,
+            "png": "png/128/red-berry-vine-rotated.png",
+            "webp": "webp/128/red-berry-vine-rotated.webp",
+            "width": 48,
+            "height": 128,
+            "png_bytes": 5669,
+            "webp_bytes": 3306
+          },
+          {
+            "max_dimension": 256,
+            "rendered_max_dimension": 256,
+            "png": "png/256/red-berry-vine-rotated.png",
+            "webp": "webp/256/red-berry-vine-rotated.webp",
+            "width": 96,
+            "height": 256,
+            "png_bytes": 13880,
+            "webp_bytes": 6290
+          },
+          {
+            "max_dimension": 512,
+            "rendered_max_dimension": 512,
+            "png": "png/512/red-berry-vine-rotated.png",
+            "webp": "webp/512/red-berry-vine-rotated.webp",
+            "width": 192,
+            "height": 512,
+            "png_bytes": 36892,
+            "webp_bytes": 12836
+          },
+          {
+            "max_dimension": 768,
+            "rendered_max_dimension": 768,
+            "png": "png/768/red-berry-vine-rotated.png",
+            "webp": "webp/768/red-berry-vine-rotated.webp",
+            "width": 288,
+            "height": 768,
+            "png_bytes": 61547,
+            "webp_bytes": 19998
+          }
+        ],
+        "repeat_axis": "y",
+        "repeat_ratio": 2.6666666666666665
       }
     },
     "border_image_slice_percent": 21.428571428571427,
@@ -956,6 +1074,65 @@
           }
         ],
         "slice_pixels": 219
+      },
+      "rotated_tile": {
+        "svg": "svg/gold-leaf-scroll-rotated.svg",
+        "viewbox": [
+          0,
+          0,
+          96,
+          256
+        ],
+        "png": "png/gold-leaf-scroll-rotated.png",
+        "webp": "webp/gold-leaf-scroll-rotated.webp",
+        "width": 384,
+        "height": 1024,
+        "png_bytes": 46991,
+        "webp_bytes": 18286,
+        "variants": [
+          {
+            "max_dimension": 128,
+            "rendered_max_dimension": 128,
+            "png": "png/128/gold-leaf-scroll-rotated.png",
+            "webp": "webp/128/gold-leaf-scroll-rotated.webp",
+            "width": 48,
+            "height": 128,
+            "png_bytes": 6463,
+            "webp_bytes": 3934
+          },
+          {
+            "max_dimension": 256,
+            "rendered_max_dimension": 256,
+            "png": "png/256/gold-leaf-scroll-rotated.png",
+            "webp": "webp/256/gold-leaf-scroll-rotated.webp",
+            "width": 96,
+            "height": 256,
+            "png_bytes": 17452,
+            "webp_bytes": 8520
+          },
+          {
+            "max_dimension": 512,
+            "rendered_max_dimension": 512,
+            "png": "png/512/gold-leaf-scroll-rotated.png",
+            "webp": "webp/512/gold-leaf-scroll-rotated.webp",
+            "width": 192,
+            "height": 512,
+            "png_bytes": 40592,
+            "webp_bytes": 17882
+          },
+          {
+            "max_dimension": 768,
+            "rendered_max_dimension": 768,
+            "png": "png/768/gold-leaf-scroll-rotated.png",
+            "webp": "webp/768/gold-leaf-scroll-rotated.webp",
+            "width": 288,
+            "height": 768,
+            "png_bytes": 65114,
+            "webp_bytes": 27976
+          }
+        ],
+        "repeat_axis": "y",
+        "repeat_ratio": 2.6666666666666665
       }
     },
     "border_image_slice_percent": 21.428571428571427,
@@ -1159,6 +1336,65 @@
           }
         ],
         "slice_pixels": 219
+      },
+      "rotated_tile": {
+        "svg": "svg/red-trefoil-vine-rotated.svg",
+        "viewbox": [
+          0,
+          0,
+          96,
+          256
+        ],
+        "png": "png/red-trefoil-vine-rotated.png",
+        "webp": "webp/red-trefoil-vine-rotated.webp",
+        "width": 384,
+        "height": 1024,
+        "png_bytes": 58509,
+        "webp_bytes": 20626,
+        "variants": [
+          {
+            "max_dimension": 128,
+            "rendered_max_dimension": 128,
+            "png": "png/128/red-trefoil-vine-rotated.png",
+            "webp": "webp/128/red-trefoil-vine-rotated.webp",
+            "width": 48,
+            "height": 128,
+            "png_bytes": 6638,
+            "webp_bytes": 4252
+          },
+          {
+            "max_dimension": 256,
+            "rendered_max_dimension": 256,
+            "png": "png/256/red-trefoil-vine-rotated.png",
+            "webp": "webp/256/red-trefoil-vine-rotated.webp",
+            "width": 96,
+            "height": 256,
+            "png_bytes": 17630,
+            "webp_bytes": 9144
+          },
+          {
+            "max_dimension": 512,
+            "rendered_max_dimension": 512,
+            "png": "png/512/red-trefoil-vine-rotated.png",
+            "webp": "webp/512/red-trefoil-vine-rotated.webp",
+            "width": 192,
+            "height": 512,
+            "png_bytes": 45188,
+            "webp_bytes": 20038
+          },
+          {
+            "max_dimension": 768,
+            "rendered_max_dimension": 768,
+            "png": "png/768/red-trefoil-vine-rotated.png",
+            "webp": "webp/768/red-trefoil-vine-rotated.webp",
+            "width": 288,
+            "height": 768,
+            "png_bytes": 75138,
+            "webp_bytes": 31948
+          }
+        ],
+        "repeat_axis": "y",
+        "repeat_ratio": 2.6666666666666665
       }
     },
     "border_image_slice_percent": 21.428571428571427,
@@ -1362,6 +1598,65 @@
           }
         ],
         "slice_pixels": 219
+      },
+      "rotated_tile": {
+        "svg": "svg/red-rosette-vine-rotated.svg",
+        "viewbox": [
+          0,
+          0,
+          96,
+          256
+        ],
+        "png": "png/red-rosette-vine-rotated.png",
+        "webp": "webp/red-rosette-vine-rotated.webp",
+        "width": 384,
+        "height": 1024,
+        "png_bytes": 65757,
+        "webp_bytes": 24326,
+        "variants": [
+          {
+            "max_dimension": 128,
+            "rendered_max_dimension": 128,
+            "png": "png/128/red-rosette-vine-rotated.png",
+            "webp": "webp/128/red-rosette-vine-rotated.webp",
+            "width": 48,
+            "height": 128,
+            "png_bytes": 7883,
+            "webp_bytes": 5486
+          },
+          {
+            "max_dimension": 256,
+            "rendered_max_dimension": 256,
+            "png": "png/256/red-rosette-vine-rotated.png",
+            "webp": "webp/256/red-rosette-vine-rotated.webp",
+            "width": 96,
+            "height": 256,
+            "png_bytes": 20332,
+            "webp_bytes": 11182
+          },
+          {
+            "max_dimension": 512,
+            "rendered_max_dimension": 512,
+            "png": "png/512/red-rosette-vine-rotated.png",
+            "webp": "webp/512/red-rosette-vine-rotated.webp",
+            "width": 192,
+            "height": 512,
+            "png_bytes": 51219,
+            "webp_bytes": 23922
+          },
+          {
+            "max_dimension": 768,
+            "rendered_max_dimension": 768,
+            "png": "png/768/red-rosette-vine-rotated.png",
+            "webp": "webp/768/red-rosette-vine-rotated.webp",
+            "width": 288,
+            "height": 768,
+            "png_bytes": 84494,
+            "webp_bytes": 38534
+          }
+        ],
+        "repeat_axis": "y",
+        "repeat_ratio": 2.6666666666666665
       }
     },
     "border_image_slice_percent": 21.428571428571427,
@@ -1561,6 +1856,65 @@
           }
         ],
         "slice_pixels": 219
+      },
+      "rotated_tile": {
+        "svg": "svg/interlocking-ribbon-rotated.svg",
+        "viewbox": [
+          0,
+          0,
+          96,
+          256
+        ],
+        "png": "png/interlocking-ribbon-rotated.png",
+        "webp": "webp/interlocking-ribbon-rotated.webp",
+        "width": 384,
+        "height": 1024,
+        "png_bytes": 37200,
+        "webp_bytes": 8016,
+        "variants": [
+          {
+            "max_dimension": 128,
+            "rendered_max_dimension": 128,
+            "png": "png/128/interlocking-ribbon-rotated.png",
+            "webp": "webp/128/interlocking-ribbon-rotated.webp",
+            "width": 48,
+            "height": 128,
+            "png_bytes": 2981,
+            "webp_bytes": 1646
+          },
+          {
+            "max_dimension": 256,
+            "rendered_max_dimension": 256,
+            "png": "png/256/interlocking-ribbon-rotated.png",
+            "webp": "webp/256/interlocking-ribbon-rotated.webp",
+            "width": 96,
+            "height": 256,
+            "png_bytes": 12644,
+            "webp_bytes": 3660
+          },
+          {
+            "max_dimension": 512,
+            "rendered_max_dimension": 512,
+            "png": "png/512/interlocking-ribbon-rotated.png",
+            "webp": "webp/512/interlocking-ribbon-rotated.webp",
+            "width": 192,
+            "height": 512,
+            "png_bytes": 28397,
+            "webp_bytes": 7632
+          },
+          {
+            "max_dimension": 768,
+            "rendered_max_dimension": 768,
+            "png": "png/768/interlocking-ribbon-rotated.png",
+            "webp": "webp/768/interlocking-ribbon-rotated.webp",
+            "width": 288,
+            "height": 768,
+            "png_bytes": 43929,
+            "webp_bytes": 11976
+          }
+        ],
+        "repeat_axis": "y",
+        "repeat_ratio": 2.6666666666666665
       }
     },
     "border_image_slice_percent": 21.428571428571427,
@@ -1637,6 +1991,24 @@
         "webp_bytes": 23052,
         "variants": [],
         "slice_pixels": 35
+      },
+      "rotated_tile": {
+        "svg": "svg/plate-01-linked-scrolls-rotated.svg",
+        "viewbox": [
+          0,
+          0,
+          35,
+          55
+        ],
+        "png": "png/plate-01-linked-scrolls-rotated.png",
+        "webp": "webp/plate-01-linked-scrolls-rotated.webp",
+        "width": 35,
+        "height": 55,
+        "png_bytes": 5377,
+        "webp_bytes": 3942,
+        "variants": [],
+        "repeat_axis": "y",
+        "repeat_ratio": 1.5714285714285714
       },
       "reference_crop": {
         "png": "png/plate-01-linked-scrolls-reference.png",
@@ -1770,6 +2142,24 @@
           }
         ],
         "slice_pixels": 52
+      },
+      "rotated_tile": {
+        "svg": "svg/plate-02-stepped-ribbon-rotated.svg",
+        "viewbox": [
+          0,
+          0,
+          72,
+          52
+        ],
+        "png": "png/plate-02-stepped-ribbon-rotated.png",
+        "webp": "webp/plate-02-stepped-ribbon-rotated.webp",
+        "width": 72,
+        "height": 52,
+        "png_bytes": 9143,
+        "webp_bytes": 6138,
+        "variants": [],
+        "repeat_axis": "x",
+        "repeat_ratio": 1.3846153846153846
       },
       "reference_crop": {
         "png": "png/plate-02-stepped-ribbon-reference.png",
@@ -1906,6 +2296,24 @@
         ],
         "slice_pixels": 52
       },
+      "rotated_tile": {
+        "svg": "svg/plate-03-spiral-bands-rotated.svg",
+        "viewbox": [
+          0,
+          0,
+          98,
+          52
+        ],
+        "png": "png/plate-03-spiral-bands-rotated.png",
+        "webp": "webp/plate-03-spiral-bands-rotated.webp",
+        "width": 98,
+        "height": 52,
+        "png_bytes": 14116,
+        "webp_bytes": 9682,
+        "variants": [],
+        "repeat_axis": "x",
+        "repeat_ratio": 1.8846153846153846
+      },
       "reference_crop": {
         "png": "png/plate-03-spiral-bands-reference.png",
         "source_bounds": [
@@ -2028,6 +2436,24 @@
         "webp_bytes": 39980,
         "variants": [],
         "slice_pixels": 52
+      },
+      "rotated_tile": {
+        "svg": "svg/plate-04-heart-and-diamond-rotated.svg",
+        "viewbox": [
+          0,
+          0,
+          52,
+          67
+        ],
+        "png": "png/plate-04-heart-and-diamond-rotated.png",
+        "webp": "webp/plate-04-heart-and-diamond-rotated.webp",
+        "width": 52,
+        "height": 67,
+        "png_bytes": 9421,
+        "webp_bytes": 6578,
+        "variants": [],
+        "repeat_axis": "y",
+        "repeat_ratio": 1.2884615384615385
       },
       "reference_crop": {
         "png": "png/plate-04-heart-and-diamond-reference.png",
@@ -2152,6 +2578,24 @@
         ],
         "slice_pixels": 52
       },
+      "rotated_tile": {
+        "svg": "svg/plate-05-blue-curls-rotated.svg",
+        "viewbox": [
+          0,
+          0,
+          52,
+          90
+        ],
+        "png": "png/plate-05-blue-curls-rotated.png",
+        "webp": "webp/plate-05-blue-curls-rotated.webp",
+        "width": 52,
+        "height": 90,
+        "png_bytes": 12407,
+        "webp_bytes": 8928,
+        "variants": [],
+        "repeat_axis": "y",
+        "repeat_ratio": 1.7307692307692308
+      },
       "reference_crop": {
         "png": "png/plate-05-blue-curls-reference.png",
         "source_bounds": [
@@ -2275,6 +2719,35 @@
         "variants": [],
         "slice_pixels": 50
       },
+      "rotated_tile": {
+        "svg": "svg/plate-06-paired-red-scrolls-rotated.svg",
+        "viewbox": [
+          0,
+          0,
+          50,
+          173
+        ],
+        "png": "png/plate-06-paired-red-scrolls-rotated.png",
+        "webp": "webp/plate-06-paired-red-scrolls-rotated.webp",
+        "width": 50,
+        "height": 173,
+        "png_bytes": 22730,
+        "webp_bytes": 16684,
+        "variants": [
+          {
+            "max_dimension": 128,
+            "rendered_max_dimension": 128,
+            "png": "png/128/plate-06-paired-red-scrolls-rotated.png",
+            "webp": "webp/128/plate-06-paired-red-scrolls-rotated.webp",
+            "width": 37,
+            "height": 128,
+            "png_bytes": 13042,
+            "webp_bytes": 10032
+          }
+        ],
+        "repeat_axis": "y",
+        "repeat_ratio": 3.46
+      },
       "reference_crop": {
         "png": "png/plate-06-paired-red-scrolls-reference.png",
         "source_bounds": [
@@ -2387,6 +2860,24 @@
         "webp_bytes": 64024,
         "variants": [],
         "slice_pixels": 52
+      },
+      "rotated_tile": {
+        "svg": "svg/plate-07-blue-heart-leaves-rotated.svg",
+        "viewbox": [
+          0,
+          0,
+          113,
+          52
+        ],
+        "png": "png/plate-07-blue-heart-leaves-rotated.png",
+        "webp": "webp/plate-07-blue-heart-leaves-rotated.webp",
+        "width": 113,
+        "height": 52,
+        "png_bytes": 17418,
+        "webp_bytes": 12306,
+        "variants": [],
+        "repeat_axis": "x",
+        "repeat_ratio": 2.173076923076923
       },
       "reference_crop": {
         "png": "png/plate-07-blue-heart-leaves-reference.png",
@@ -2509,6 +3000,24 @@
         ],
         "slice_pixels": 55
       },
+      "rotated_tile": {
+        "svg": "svg/plate-08-diagonal-cross-rotated.svg",
+        "viewbox": [
+          0,
+          0,
+          55,
+          55
+        ],
+        "png": "png/plate-08-diagonal-cross-rotated.png",
+        "webp": "webp/plate-08-diagonal-cross-rotated.webp",
+        "width": 55,
+        "height": 55,
+        "png_bytes": 8039,
+        "webp_bytes": 6014,
+        "variants": [],
+        "repeat_axis": "y",
+        "repeat_ratio": 1.0
+      },
       "reference_crop": {
         "png": "png/plate-08-diagonal-cross-reference.png",
         "source_bounds": [
@@ -2620,6 +3129,24 @@
           }
         ],
         "slice_pixels": 55
+      },
+      "rotated_tile": {
+        "svg": "svg/plate-09-interlaced-knot-rotated.svg",
+        "viewbox": [
+          0,
+          0,
+          55,
+          55
+        ],
+        "png": "png/plate-09-interlaced-knot-rotated.png",
+        "webp": "webp/plate-09-interlaced-knot-rotated.webp",
+        "width": 55,
+        "height": 55,
+        "png_bytes": 9463,
+        "webp_bytes": 6742,
+        "variants": [],
+        "repeat_axis": "y",
+        "repeat_ratio": 1.0
       },
       "reference_crop": {
         "png": "png/plate-09-interlaced-knot-reference.png",
@@ -2733,6 +3260,35 @@
         "webp_bytes": 73922,
         "variants": [],
         "slice_pixels": 51
+      },
+      "rotated_tile": {
+        "svg": "svg/plate-10-blue-palmettes-rotated.svg",
+        "viewbox": [
+          0,
+          0,
+          134,
+          51
+        ],
+        "png": "png/plate-10-blue-palmettes-rotated.png",
+        "webp": "webp/plate-10-blue-palmettes-rotated.webp",
+        "width": 134,
+        "height": 51,
+        "png_bytes": 19832,
+        "webp_bytes": 14222,
+        "variants": [
+          {
+            "max_dimension": 128,
+            "rendered_max_dimension": 128,
+            "png": "png/128/plate-10-blue-palmettes-rotated.png",
+            "webp": "webp/128/plate-10-blue-palmettes-rotated.webp",
+            "width": 128,
+            "height": 49,
+            "png_bytes": 18297,
+            "webp_bytes": 13216
+          }
+        ],
+        "repeat_axis": "x",
+        "repeat_ratio": 2.627450980392157
       },
       "reference_crop": {
         "png": "png/plate-10-blue-palmettes-reference.png",
@@ -2953,6 +3509,24 @@
         "variants": [],
         "slice_pixels": 48
       },
+      "rotated_tile": {
+        "svg": "svg/plate-12-arched-diamonds-rotated.svg",
+        "viewbox": [
+          0,
+          0,
+          48,
+          67
+        ],
+        "png": "png/plate-12-arched-diamonds-rotated.png",
+        "webp": "webp/plate-12-arched-diamonds-rotated.webp",
+        "width": 48,
+        "height": 67,
+        "png_bytes": 8934,
+        "webp_bytes": 6056,
+        "variants": [],
+        "repeat_axis": "y",
+        "repeat_ratio": 1.3958333333333333
+      },
       "reference_crop": {
         "png": "png/plate-12-arched-diamonds-reference.png",
         "source_bounds": [
@@ -3088,6 +3662,35 @@
         ],
         "slice_pixels": 48
       },
+      "rotated_tile": {
+        "svg": "svg/plate-13-leaf-and-flower-vine-rotated.svg",
+        "viewbox": [
+          0,
+          0,
+          48,
+          174
+        ],
+        "png": "png/plate-13-leaf-and-flower-vine-rotated.png",
+        "webp": "webp/plate-13-leaf-and-flower-vine-rotated.webp",
+        "width": 48,
+        "height": 174,
+        "png_bytes": 21836,
+        "webp_bytes": 15990,
+        "variants": [
+          {
+            "max_dimension": 128,
+            "rendered_max_dimension": 128,
+            "png": "png/128/plate-13-leaf-and-flower-vine-rotated.png",
+            "webp": "webp/128/plate-13-leaf-and-flower-vine-rotated.webp",
+            "width": 35,
+            "height": 128,
+            "png_bytes": 11962,
+            "webp_bytes": 9404
+          }
+        ],
+        "repeat_axis": "y",
+        "repeat_ratio": 3.625
+      },
       "reference_crop": {
         "png": "png/plate-13-leaf-and-flower-vine-reference.png",
         "source_bounds": [
@@ -3220,6 +3823,24 @@
         ],
         "slice_pixels": 50
       },
+      "rotated_tile": {
+        "svg": "svg/plate-14-crossed-diamonds-rotated.svg",
+        "viewbox": [
+          0,
+          0,
+          50,
+          112
+        ],
+        "png": "png/plate-14-crossed-diamonds-rotated.png",
+        "webp": "webp/plate-14-crossed-diamonds-rotated.webp",
+        "width": 50,
+        "height": 112,
+        "png_bytes": 15243,
+        "webp_bytes": 10490,
+        "variants": [],
+        "repeat_axis": "y",
+        "repeat_ratio": 2.24
+      },
       "reference_crop": {
         "png": "png/plate-14-crossed-diamonds-reference.png",
         "source_bounds": [
@@ -3340,6 +3961,24 @@
           }
         ],
         "slice_pixels": 50
+      },
+      "rotated_tile": {
+        "svg": "svg/plate-15-diamond-square-rotated.svg",
+        "viewbox": [
+          0,
+          0,
+          50,
+          55
+        ],
+        "png": "png/plate-15-diamond-square-rotated.png",
+        "webp": "webp/plate-15-diamond-square-rotated.webp",
+        "width": 50,
+        "height": 55,
+        "png_bytes": 7872,
+        "webp_bytes": 5596,
+        "variants": [],
+        "repeat_axis": "y",
+        "repeat_ratio": 1.1
       },
       "reference_crop": {
         "png": "png/plate-15-diamond-square-reference.png",
@@ -3515,6 +4154,24 @@
         ],
         "slice_pixels": 50
       },
+      "rotated_tile": {
+        "svg": "svg/plate-17-stepped-arches-rotated.svg",
+        "viewbox": [
+          0,
+          0,
+          50,
+          110
+        ],
+        "png": "png/plate-17-stepped-arches-rotated.png",
+        "webp": "webp/plate-17-stepped-arches-rotated.webp",
+        "width": 50,
+        "height": 110,
+        "png_bytes": 13816,
+        "webp_bytes": 9896,
+        "variants": [],
+        "repeat_axis": "y",
+        "repeat_ratio": 2.2
+      },
       "reference_crop": {
         "png": "png/plate-17-stepped-arches-reference.png",
         "source_bounds": [
@@ -3629,6 +4286,24 @@
         "webp_bytes": 53990,
         "variants": [],
         "slice_pixels": 55
+      },
+      "rotated_tile": {
+        "svg": "svg/plate-18-fan-palmettes-rotated.svg",
+        "viewbox": [
+          0,
+          0,
+          91,
+          55
+        ],
+        "png": "png/plate-18-fan-palmettes-rotated.png",
+        "webp": "webp/plate-18-fan-palmettes-rotated.webp",
+        "width": 91,
+        "height": 55,
+        "png_bytes": 14148,
+        "webp_bytes": 9460,
+        "variants": [],
+        "repeat_axis": "x",
+        "repeat_ratio": 1.6545454545454545
       },
       "reference_crop": {
         "png": "png/plate-18-fan-palmettes-reference.png",
@@ -3762,6 +4437,24 @@
         ],
         "slice_pixels": 55
       },
+      "rotated_tile": {
+        "svg": "svg/plate-19-cream-scrolls-rotated.svg",
+        "viewbox": [
+          0,
+          0,
+          55,
+          65
+        ],
+        "png": "png/plate-19-cream-scrolls-rotated.png",
+        "webp": "webp/plate-19-cream-scrolls-rotated.webp",
+        "width": 55,
+        "height": 65,
+        "png_bytes": 10479,
+        "webp_bytes": 7866,
+        "variants": [],
+        "repeat_axis": "y",
+        "repeat_ratio": 1.1818181818181819
+      },
       "reference_crop": {
         "png": "png/plate-19-cream-scrolls-reference.png",
         "source_bounds": [
@@ -3863,6 +4556,24 @@
         "webp_bytes": 33286,
         "variants": [],
         "slice_pixels": 50
+      },
+      "rotated_tile": {
+        "svg": "svg/plate-20-segmented-medallions-rotated.svg",
+        "viewbox": [
+          0,
+          0,
+          50,
+          51
+        ],
+        "png": "png/plate-20-segmented-medallions-rotated.png",
+        "webp": "webp/plate-20-segmented-medallions-rotated.webp",
+        "width": 50,
+        "height": 51,
+        "png_bytes": 7211,
+        "webp_bytes": 5124,
+        "variants": [],
+        "repeat_axis": "y",
+        "repeat_ratio": 1.02
       },
       "reference_crop": {
         "png": "png/plate-20-segmented-medallions-reference.png",
@@ -3967,6 +4678,24 @@
         "variants": [],
         "slice_pixels": 53
       },
+      "rotated_tile": {
+        "svg": "svg/plate-21-green-flower-medallions-rotated.svg",
+        "viewbox": [
+          0,
+          0,
+          53,
+          55
+        ],
+        "png": "png/plate-21-green-flower-medallions-rotated.png",
+        "webp": "webp/plate-21-green-flower-medallions-rotated.webp",
+        "width": 53,
+        "height": 55,
+        "png_bytes": 8717,
+        "webp_bytes": 6256,
+        "variants": [],
+        "repeat_axis": "y",
+        "repeat_ratio": 1.0377358490566038
+      },
       "reference_crop": {
         "png": "png/plate-21-green-flower-medallions-reference.png",
         "source_bounds": [
@@ -4067,6 +4796,24 @@
         "webp_bytes": 32872,
         "variants": [],
         "slice_pixels": 55
+      },
+      "rotated_tile": {
+        "svg": "svg/plate-22-white-petal-grid-rotated.svg",
+        "viewbox": [
+          0,
+          0,
+          55,
+          64
+        ],
+        "png": "png/plate-22-white-petal-grid-rotated.png",
+        "webp": "webp/plate-22-white-petal-grid-rotated.webp",
+        "width": 55,
+        "height": 64,
+        "png_bytes": 9854,
+        "webp_bytes": 6832,
+        "variants": [],
+        "repeat_axis": "y",
+        "repeat_ratio": 1.1636363636363636
       },
       "reference_crop": {
         "png": "png/plate-22-white-petal-grid-reference.png",
@@ -4181,6 +4928,24 @@
         ],
         "slice_pixels": 56
       },
+      "rotated_tile": {
+        "svg": "svg/plate-23-crossed-ribbon-knots-rotated.svg",
+        "viewbox": [
+          0,
+          0,
+          56,
+          50
+        ],
+        "png": "png/plate-23-crossed-ribbon-knots-rotated.png",
+        "webp": "webp/plate-23-crossed-ribbon-knots-rotated.webp",
+        "width": 56,
+        "height": 50,
+        "png_bytes": 8693,
+        "webp_bytes": 5956,
+        "variants": [],
+        "repeat_axis": "y",
+        "repeat_ratio": 0.8928571428571429
+      },
       "reference_crop": {
         "png": "png/plate-23-crossed-ribbon-knots-reference.png",
         "source_bounds": [
@@ -4283,6 +5048,24 @@
         "variants": [],
         "slice_pixels": 53
       },
+      "rotated_tile": {
+        "svg": "svg/plate-24-gold-ring-scrolls-rotated.svg",
+        "viewbox": [
+          0,
+          0,
+          53,
+          94
+        ],
+        "png": "png/plate-24-gold-ring-scrolls-rotated.png",
+        "webp": "webp/plate-24-gold-ring-scrolls-rotated.webp",
+        "width": 53,
+        "height": 94,
+        "png_bytes": 13796,
+        "webp_bytes": 9736,
+        "variants": [],
+        "repeat_axis": "y",
+        "repeat_ratio": 1.7735849056603774
+      },
       "reference_crop": {
         "png": "png/plate-24-gold-ring-scrolls-reference.png",
         "source_bounds": [
@@ -4384,6 +5167,24 @@
         "webp_bytes": 34416,
         "variants": [],
         "slice_pixels": 56
+      },
+      "rotated_tile": {
+        "svg": "svg/plate-25-greek-crosses-rotated.svg",
+        "viewbox": [
+          0,
+          0,
+          56,
+          57
+        ],
+        "png": "png/plate-25-greek-crosses-rotated.png",
+        "webp": "webp/plate-25-greek-crosses-rotated.webp",
+        "width": 56,
+        "height": 57,
+        "png_bytes": 7943,
+        "webp_bytes": 5438,
+        "variants": [],
+        "repeat_axis": "y",
+        "repeat_ratio": 1.0178571428571428
       },
       "reference_crop": {
         "png": "png/plate-25-greek-crosses-reference.png",
@@ -4496,6 +5297,24 @@
           }
         ],
         "slice_pixels": 56
+      },
+      "rotated_tile": {
+        "svg": "svg/plate-26-eight-petal-rosette-rotated.svg",
+        "viewbox": [
+          0,
+          0,
+          56,
+          52
+        ],
+        "png": "png/plate-26-eight-petal-rosette-rotated.png",
+        "webp": "webp/plate-26-eight-petal-rosette-rotated.webp",
+        "width": 56,
+        "height": 52,
+        "png_bytes": 8679,
+        "webp_bytes": 5964,
+        "variants": [],
+        "repeat_axis": "y",
+        "repeat_ratio": 0.9285714285714286
       },
       "reference_crop": {
         "png": "png/plate-26-eight-petal-rosette-reference.png",
@@ -4611,6 +5430,24 @@
         ],
         "slice_pixels": 54
       },
+      "rotated_tile": {
+        "svg": "svg/plate-27-blue-flower-medallions-rotated.svg",
+        "viewbox": [
+          0,
+          0,
+          54,
+          57
+        ],
+        "png": "png/plate-27-blue-flower-medallions-rotated.png",
+        "webp": "webp/plate-27-blue-flower-medallions-rotated.webp",
+        "width": 54,
+        "height": 57,
+        "png_bytes": 7452,
+        "webp_bytes": 5266,
+        "variants": [],
+        "repeat_axis": "y",
+        "repeat_ratio": 1.0555555555555556
+      },
       "reference_crop": {
         "png": "png/plate-27-blue-flower-medallions-reference.png",
         "source_bounds": [
@@ -4722,6 +5559,24 @@
           }
         ],
         "slice_pixels": 48
+      },
+      "rotated_tile": {
+        "svg": "svg/plate-28-angular-blue-meander-rotated.svg",
+        "viewbox": [
+          0,
+          0,
+          48,
+          58
+        ],
+        "png": "png/plate-28-angular-blue-meander-rotated.png",
+        "webp": "webp/plate-28-angular-blue-meander-rotated.webp",
+        "width": 48,
+        "height": 58,
+        "png_bytes": 7760,
+        "webp_bytes": 5598,
+        "variants": [],
+        "repeat_axis": "y",
+        "repeat_ratio": 1.2083333333333333
       },
       "reference_crop": {
         "png": "png/plate-28-angular-blue-meander-reference.png",
@@ -4835,6 +5690,35 @@
         "webp_bytes": 88100,
         "variants": [],
         "slice_pixels": 52
+      },
+      "rotated_tile": {
+        "svg": "svg/plate-29-red-acanthus-rotated.svg",
+        "viewbox": [
+          0,
+          0,
+          213,
+          52
+        ],
+        "png": "png/plate-29-red-acanthus-rotated.png",
+        "webp": "webp/plate-29-red-acanthus-rotated.webp",
+        "width": 213,
+        "height": 52,
+        "png_bytes": 30210,
+        "webp_bytes": 19212,
+        "variants": [
+          {
+            "max_dimension": 128,
+            "rendered_max_dimension": 128,
+            "png": "png/128/plate-29-red-acanthus-rotated.png",
+            "webp": "webp/128/plate-29-red-acanthus-rotated.webp",
+            "width": 128,
+            "height": 31,
+            "png_bytes": 10687,
+            "webp_bytes": 7972
+          }
+        ],
+        "repeat_axis": "x",
+        "repeat_ratio": 4.096153846153846
       },
       "reference_crop": {
         "png": "png/plate-29-red-acanthus-reference.png",
@@ -4983,6 +5867,35 @@
         ],
         "slice_pixels": 55
       },
+      "rotated_tile": {
+        "svg": "svg/plate-30-layered-palmettes-rotated.svg",
+        "viewbox": [
+          0,
+          0,
+          135,
+          55
+        ],
+        "png": "png/plate-30-layered-palmettes-rotated.png",
+        "webp": "webp/plate-30-layered-palmettes-rotated.webp",
+        "width": 135,
+        "height": 55,
+        "png_bytes": 19941,
+        "webp_bytes": 14358,
+        "variants": [
+          {
+            "max_dimension": 128,
+            "rendered_max_dimension": 128,
+            "png": "png/128/plate-30-layered-palmettes-rotated.png",
+            "webp": "webp/128/plate-30-layered-palmettes-rotated.webp",
+            "width": 128,
+            "height": 52,
+            "png_bytes": 17914,
+            "webp_bytes": 13014
+          }
+        ],
+        "repeat_axis": "x",
+        "repeat_ratio": 2.4545454545454546
+      },
       "reference_crop": {
         "png": "png/plate-30-layered-palmettes-reference.png",
         "source_bounds": [
@@ -5117,6 +6030,35 @@
         "variants": [],
         "slice_pixels": 52
       },
+      "rotated_tile": {
+        "svg": "svg/plate-31-alternating-florets-rotated.svg",
+        "viewbox": [
+          0,
+          0,
+          52,
+          191
+        ],
+        "png": "png/plate-31-alternating-florets-rotated.png",
+        "webp": "webp/plate-31-alternating-florets-rotated.webp",
+        "width": 52,
+        "height": 191,
+        "png_bytes": 28706,
+        "webp_bytes": 19156,
+        "variants": [
+          {
+            "max_dimension": 128,
+            "rendered_max_dimension": 128,
+            "png": "png/128/plate-31-alternating-florets-rotated.png",
+            "webp": "webp/128/plate-31-alternating-florets-rotated.webp",
+            "width": 35,
+            "height": 128,
+            "png_bytes": 13324,
+            "webp_bytes": 9730
+          }
+        ],
+        "repeat_axis": "y",
+        "repeat_ratio": 3.673076923076923
+      },
       "reference_crop": {
         "png": "png/plate-31-alternating-florets-reference.png",
         "source_bounds": [
@@ -5250,6 +6192,24 @@
         ],
         "slice_pixels": 55
       },
+      "rotated_tile": {
+        "svg": "svg/plate-32-linked-ovals-rotated.svg",
+        "viewbox": [
+          0,
+          0,
+          55,
+          100
+        ],
+        "png": "png/plate-32-linked-ovals-rotated.png",
+        "webp": "webp/plate-32-linked-ovals-rotated.webp",
+        "width": 55,
+        "height": 100,
+        "png_bytes": 16018,
+        "webp_bytes": 10766,
+        "variants": [],
+        "repeat_axis": "y",
+        "repeat_ratio": 1.8181818181818181
+      },
       "reference_crop": {
         "png": "png/plate-32-linked-ovals-reference.png",
         "source_bounds": [
@@ -5364,6 +6324,24 @@
         "variants": [],
         "slice_pixels": 54
       },
+      "rotated_tile": {
+        "svg": "svg/plate-33-leaf-scrolls-rotated.svg",
+        "viewbox": [
+          0,
+          0,
+          71,
+          54
+        ],
+        "png": "png/plate-33-leaf-scrolls-rotated.png",
+        "webp": "webp/plate-33-leaf-scrolls-rotated.webp",
+        "width": 71,
+        "height": 54,
+        "png_bytes": 11534,
+        "webp_bytes": 7186,
+        "variants": [],
+        "repeat_axis": "x",
+        "repeat_ratio": 1.3148148148148149
+      },
       "reference_crop": {
         "png": "png/plate-33-leaf-scrolls-reference.png",
         "source_bounds": [
@@ -5476,6 +6454,24 @@
         "variants": [],
         "slice_pixels": 52
       },
+      "rotated_tile": {
+        "svg": "svg/plate-34-nested-fans-rotated.svg",
+        "viewbox": [
+          0,
+          0,
+          69,
+          52
+        ],
+        "png": "png/plate-34-nested-fans-rotated.png",
+        "webp": "webp/plate-34-nested-fans-rotated.webp",
+        "width": 69,
+        "height": 52,
+        "png_bytes": 11822,
+        "webp_bytes": 6956,
+        "variants": [],
+        "repeat_axis": "x",
+        "repeat_ratio": 1.3269230769230769
+      },
       "reference_crop": {
         "png": "png/plate-34-nested-fans-reference.png",
         "source_bounds": [
@@ -5587,6 +6583,24 @@
         "webp_bytes": 25408,
         "variants": [],
         "slice_pixels": 50
+      },
+      "rotated_tile": {
+        "svg": "svg/plate-35-crossed-white-stems-rotated.svg",
+        "viewbox": [
+          0,
+          0,
+          50,
+          41
+        ],
+        "png": "png/plate-35-crossed-white-stems-rotated.png",
+        "webp": "webp/plate-35-crossed-white-stems-rotated.webp",
+        "width": 50,
+        "height": 41,
+        "png_bytes": 6244,
+        "webp_bytes": 3884,
+        "variants": [],
+        "repeat_axis": "y",
+        "repeat_ratio": 0.82
       },
       "reference_crop": {
         "png": "png/plate-35-crossed-white-stems-reference.png",
@@ -5853,6 +6867,24 @@
         "webp_bytes": 19916,
         "variants": [],
         "slice_pixels": 50
+      },
+      "rotated_tile": {
+        "svg": "svg/plate-38-diagonal-meander-rotated.svg",
+        "viewbox": [
+          0,
+          0,
+          50,
+          47
+        ],
+        "png": "png/plate-38-diagonal-meander-rotated.png",
+        "webp": "webp/plate-38-diagonal-meander-rotated.webp",
+        "width": 50,
+        "height": 47,
+        "png_bytes": 5430,
+        "webp_bytes": 3186,
+        "variants": [],
+        "repeat_axis": "y",
+        "repeat_ratio": 0.94
       },
       "reference_crop": {
         "png": "png/plate-38-diagonal-meander-reference.png",

@@ -59,13 +59,21 @@ def check():
                 if im.getpixel((x,y))[3] and not any(low<=y/scale<=high for low,high in bands):
                     raise AssertionError(item['name']+' motif crosses the corner join')
     aligned=0
+    rotated=0
     for item in catalog:
         if 'border_image' not in item['components']:continue
+        tile=item['components']['rotated_tile']
+        with Image.open(ROOT/item['png']) as original,Image.open(ROOT/tile['png']) as turned:
+            expected=original.transpose(Image.Transpose.ROTATE_270 if item['repeat_axis']=='x' else Image.Transpose.ROTATE_90).convert('RGBA')
+            assert turned.size==expected.size and turned.convert('RGBA').tobytes()==expected.tobytes(),item['name']+' rotated pixels'
+        assert tile['repeat_axis']==('y' if item['repeat_axis']=='x' else 'x')
+        assert tile['repeat_ratio']==item['repeat_ratio']
+        rotated+=1
         atlas=item['components']['border_image']
         for asset in [atlas,*atlas['variants']]:
             cut=asset['width']*item['border_image_slice_percent']/100
             assert math.isclose(cut,round(cut),abs_tol=1e-9),item['name']+' fractional raster slice'
             aligned+=1
-    print(f'Original reference pixels preserved; {joins} exact source-frame joins; {aligned} raster atlases with integer slice boundaries.')
+    print(f'Original reference pixels preserved; {joins} exact source-frame joins; {aligned} raster atlases with integer slice boundaries; {rotated} pixel-exact rotated tiles.')
 
 if __name__=='__main__':check()
