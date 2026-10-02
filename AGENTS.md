@@ -13,7 +13,7 @@ This public repository stores medieval ornaments and border assets. It is separa
 - `ornaments.css`: shared usage classes (`ornament-frame`, `ornament-divider`, `ornament-image`) and `--ornament-*` settings. Reuse these in demos and documentation; do not introduce competing conventions. Default repeat geometry is 256 × 96; use explicit ratio/slice overrides for future exceptions.
 - `png/`, `webp/`: masters and size folders. Size is the longest dimension.
 - `EXTRACTION-PROMPTS.json`: exact extraction prompts and built-in imagegen method.
-- `scripts/catalog.py`: validates files and generates the README gallery.
+- `scripts/catalog.py`: validates files and generates the README gallery, with categories and design names in alphabetical order.
 - `examples/demo.html`: small usage demo with copyable HTML/CSS; `index.html` forwards to it. `.nojekyll` lets GitHub Pages serve the collection as static files from `main`.
 - `examples/index.html`: visual browser with use/category/search filters and controls specific to frames, dividers, or whole decorations; `examples/qa.html`: frame verification sheet. Derive categories from the catalog and hide irrelevant controls. Preserve demo links and verify copied examples use the displayed settings.
 - `USAGE.md`, `SELECTION.md`: human and LLM usage guidance.

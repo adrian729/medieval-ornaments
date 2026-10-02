@@ -73,7 +73,7 @@ def gallery(catalog):
     lines=[START,'## Browse designs','','| Category | Designs |','| --- | --- |']
     lines.extend(f'| `{tag}` | {count} |' for tag,count in sorted(counts.items()))
     lines+=['','| Preview | Design | Type | Files |','| --- | --- | --- | --- |']
-    for item in catalog:
+    for item in sorted(catalog,key=lambda item:item['name'].casefold()):
         preview=next((v['webp'] for v in item['variants'] if v['max_dimension']==128),item['webp'])
         links=[f"[PNG]({item['png']})",f"[WebP]({item['webp']})"]
         if item.get('svg'):links+=[f"[SVG]({item['svg']})",f"[Corner]({item['components']['corner']['svg']})",f"[Border atlas]({item['components']['border_image']['svg']})"]
