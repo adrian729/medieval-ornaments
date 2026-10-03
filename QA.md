@@ -2,7 +2,7 @@
 
 ## Source additions release 0.3.0 (2026-10-03)
 
-The release candidate contains **70 designs: 56 repeats and 14 whole decorations**.
+The published release contains **70 designs: 56 repeats and 14 whole decorations**.
 Twenty-one source designs were added (16 repeats/five whole), including the three
 blue stencils with their grid-paper backgrounds retained. Grid lines are not stock
 watermarks; their distinct background period can show at repeat joins. All 28
@@ -49,8 +49,26 @@ Rich color traces are large; native PNG/WebP remains the default for source-base
 artwork. Default version-pinned CDN URLs move to UNPKG because the intact detailed
 traces exceed jsDelivr's [150 MB package limit](https://www.jsdelivr.com/documentation).
 Self-hosted assetsBase, asset-copy paths, formats and exact version pins are
-preserved. Release publication, registry/CDN/live checks and final archive sizes
-will be recorded here after verification.
+preserved.
+
+Published **@ranx729/medieval-ornaments@0.3.0** as npm latest. Registry integrity
+matches the exact locally tested archive. A fresh registry install passes the
+complete 70-design consumer matrix (168 native axis/design cases and 32 density
+cases), including React 18/19, styled/unstyled SSR, hydration and self-hosting.
+Publication initially returned HTTP 202 while npm processed the large archive;
+registry availability and named-version installation were verified after it
+became visible.
+
+Commit [a5e67d4](https://github.com/adrian729/medieval-ornaments/commit/a5e67d4adb783f20306f05ee1d7c0729ee208231)
+is pushed. Public release/tag [v0.3.0](https://github.com/adrian729/medieval-ornaments/releases/tag/v0.3.0)
+and successful Pages run [37135108933](https://github.com/adrian729/medieval-ornaments/actions/runs/37135108933)
+are verified. All **656 live artwork/browser/demo checks** pass. The actual
+pinned UNPKG modules report version 0.3.0 and 70 designs; eight old/new frame,
+divider and whole-image asset configurations decode using default URLs.
+Live vanilla/React examples pass at 375/1200px with original/forced axes,
+automatic React styles and new stencil/russet/painted designs. The downloaded
+browser ZIP passes archive integrity and serves its example using only local
+assets. Evidence is also in tmp/package-site.json and tmp/registry-release.json.
 
 Ignored evidence: tmp/package-integration.json, tmp/browser-check.json,
 tmp/additions-frame-matrix.json, tmp/additions-frame-pixel-verification.json,

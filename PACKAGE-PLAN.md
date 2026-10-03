@@ -1,6 +1,6 @@
 # npm package and integration plan
 
-Status: 0.3.0 is prepared and locally verified; the user authorized commits and release. It adds 21 source ornaments, preserves the original 49 and moves default pinned CDN URLs to UNPKG. npm 0.2.0 and its live examples remain the latest verified public release until publication completes. Keep this checklist current and record final registry/CDN/site verification.
+Status: @ranx729/medieval-ornaments@0.3.0 is published as npm latest, committed/pushed and released as v0.3.0. All 70 designs, fresh registry consumers, version-pinned UNPKG defaults, deployed demos and the downloaded browser ZIP are verified. Original 49 artwork entries remain unchanged. The temporary additions page is removed and watermarked candidates are excluded. No release work remains.
 
 ## Goal and scope
 
@@ -203,7 +203,9 @@ Release checklist:
 - [x] Bump package version and lockfile to 0.3.0 and regenerate metadata/types.
 - [x] Integrate three grid-paper stencil designs and remove temporary review page.
 - [x] Validate catalog, artwork, unit/types, packed consumers and main browser (656 checks).
-- [ ] Commit and push the tested changes.
-- [ ] Publish npm 0.3.0, verify a fresh registry install and version-pinned CDN.
-- [ ] Verify Pages, browser ZIP and all live demos.
-- [ ] Create v0.3.0 release/tag and record final evidence in QA.md.
+- [x] Commit and push the tested changes (a5e67d4).
+- [x] Publish npm 0.3.0 as latest; verify a fresh registry install and version-pinned UNPKG modules/assets.
+- [x] Verify successful Pages run 37135108933, 656 live gallery checks, vanilla/React examples and the downloaded self-hosted browser ZIP.
+- [x] Create public v0.3.0 release/tag and record final evidence in QA.md.
+
+Final verification: registry integrity matches the exact tested archive; fresh registry consumers pass 70 designs/168 native cases/32 density cases. Pinned UNPKG returns version 0.3.0 and all eight checked asset configurations decode. Live examples pass at 375/1200px, including new stencil/russet designs and the whole painted middle panel. The downloaded browser ZIP works with local assets. See QA.md for measured package sizes and source limitations.
