@@ -1,5 +1,7 @@
 # Choosing and assembling ornaments
 
+For normalized vanilla JS and React components with automatic orientation, geometry, format, and size selection, use the npm package. See [docs/INTEGRATION.md](docs/INTEGRATION.md). The CSS contract below remains available for direct HTML/CSS use.
+
 ## Shared usage contract
 
 Include [ornaments.css](ornaments.css) once:

@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Medieval ornaments · Vanilla JavaScript</title>
+  <link rel="icon" href="../../favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../../ornaments.css">
+  <link rel="stylesheet" href="../integration.css">
+  <script type="importmap">{"imports":{"@ranx729/medieval-ornaments":"../../lib/index.js"}}</script>
+</head>
+<body>
+<main>
+  <h1>Ornaments with plain JavaScript</h1>
+  <p>A frame, a complete repeating divider, and a whole painted decoration. The same design and sizing options work in React.</p>
+  <nav><a href="https://github.com/adrian729/medieval-ornaments/blob/main/docs/INTEGRATION.md">Integration guide</a><a href="../react/">React example</a><a href="../">Design browser</a><a href="../../medieval-ornaments-browser.zip">Browser ZIP</a></nav>
+  <div class="controls">
+    <label>Repeat design <select id="design"></select></label>
+    <label>Divider direction <select id="orientation"><option value="original">Original direction</option><option value="horizontal">Horizontal</option><option value="vertical">Vertical</option></select></label>
+    <label>Divider thickness <input id="size" type="range" min="12" max="64" value="24"></label>
+    <label>Available length <input id="length" type="range" min="80" max="600" value="420"></label>
+    <label>Whole decoration <select id="wholeDesign"></select></label>
+  </div>
+  <div class="grid">
+    <div>
+      <article id="frame" class="card"><h2>A frame for your content</h2><p>This frame uses 33px borders. Geometry and images are selected by the package.</p><label>Your note <input id="note" value="Notes from the garden"></label></article>
+      <div class="divider-slot"><div id="divider"></div></div>
+      <p id="details" class="status"></p>
+      <button id="toggle">Detach frame</button>
+    </div>
+    <div class="whole"><img id="whole" alt=""><p>A whole decoration at 128px height, with the smallest suitable raster asset.</p></div>
+  </div>
+  <h2>Use it in your project</h2>
+  <pre id="code"></pre>
+  <p>The original direction comes from the design. Horizontal and vertical automatically select the matching tile; complete units stay centered in the available length.</p>
+</main>
+<script type="module" src="main.js"></script>
+</body>
+</html>

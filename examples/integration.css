@@ -1,0 +1,20 @@
+:root { font-family: Georgia, serif; color: #30243a; background: #f5eedf; }
+* { box-sizing: border-box; }
+body { margin: 0; }
+main { max-width: 1000px; margin: auto; padding: 24px; }
+h1, h2 { font-weight: normal; }
+a { color: #71442c; }
+nav, .controls { display: flex; flex-wrap: wrap; gap: 16px; align-items: end; margin: 20px 0; }
+label { display: grid; gap: 8px; font: 14px system-ui, sans-serif; min-width: 0; max-width: 100%; }
+select, button, input { font: inherit; min-width: 0; max-width: 100%; }
+select, button { padding: 8px; }
+.grid { display: grid; grid-template-columns: minmax(0, 1fr) minmax(160px, 220px); gap: 24px; }
+.grid > * { min-width: 0; }
+.card { padding: 24px; background: #fffaf0; min-width: 0; }
+.card input { padding: 10px; width: 100%; }
+.divider-slot { overflow: auto; padding: 16px 0; }
+.whole { padding: 12px; display: grid; justify-items: center; align-content: start; }
+.whole .ornament-image { max-height: 256px; }
+pre { white-space: pre-wrap; overflow-wrap: anywhere; background: #eee4d2; padding: 16px; }
+.status { font: 13px system-ui, sans-serif; overflow-wrap: anywhere; }
+@media (max-width: 600px) { main { padding: 12px; } .grid { grid-template-columns: 1fr; } .card { padding: 12px; } }

@@ -2,6 +2,8 @@
 
 This public collection is separate from `../medieval-cutouts`. Keep Polyhymnia logos and unrelated workspace files outside it.
 
+The npm/vanilla JavaScript/React integration work is tracked in [PACKAGE-PLAN.md](PACKAGE-PLAN.md). The user approved implementation. Keep its accepted contract, checklist, and continuation checkpoint current across sessions.
+
 ## Sources of truth
 
 - `scripts/designs.py`: six floral vector designs and numbered design identities/categories. Floral repeat geometry is 256 × 96.
@@ -17,8 +19,16 @@ This public collection is separate from `../medieval-cutouts`. Keep Polyhymnia l
 - `scripts/catalog.py`: file validation and alphabetical README gallery generation.
 - `ornaments.css`: shared `ornament-frame`, `ornament-divider`, `ornament-image` contract. Divider slots retain the available length; their `::before` backgrounds contain only complete centered repeat sections. Preserve this for both axes and responsive percentage lengths. Relative URLs in custom properties resolve against this stylesheet. JavaScript must resolve catalog URLs explicitly.
 - `scripts/build_favicon.py`: renders the existing red rosette motif into root SVG/PNG/ICO favicon files. Every HTML entry point links them; keep them outside the ornament asset catalog.
+- `lib/resolve.js`: dependency-free shared selection, capability validation, geometry, resolution, and version-pinned/self-hosted asset URLs. React and vanilla must use this same resolver. Default divider orientation is original; horizontal/vertical select the matching asset automatically.
+- `lib/vanilla.js`: container/img controllers with validated partial updates and teardown; preserve application children/state. `lib/react.js`: ordinary declarative elements with forwarded refs and SSR support, without replacing React-owned children.
+- `scripts/build-library.mjs`: generates `lib/catalog.js`, `lib/catalog.json`, and TypeScript declarations from `images.json` and the package version. These files are generated; edit the builder/catalog, then run `npm run build`. Never regenerate artwork as part of npm packaging.
+- `lib/cli.js`: installed asset-copy command. Preserve paths/components/variants and rights notices; do not overwrite the installed package. `scripts/build-browser.mjs`: native browser ZIP and bundled self-hosted React example, under ignored `dist/`.
+- `docs/INTEGRATION.md`, `examples/vanilla/`, `examples/react/`: public API/hosting/release guide and runnable consumers. Keep required design names, use-specific options, defaults, and capability discovery synchronized.
+- `package.json`: public ESM exports, optional React peer, package allowlist. Consumers need no Python or React for vanilla. `LICENSE` scopes the integration software grant; `ASSET-RIGHTS.md` retains artwork's separate status. Never apply MIT to the whole artwork collection.
+- `tests/`: resolver/catalog/raster boundaries, SSR, public types, and real npm-packed browser consumers. Run `npm test`, `npm run test:types`, `npm run test:integration` before release. The integration check requires Chromium, npm cache access, and React 18 dependencies; `ORNAMENTS_PACKAGE` selects a registry version for post-publication verification.
+- `.github/workflows/pages.yml`: builds the React demo/browser ZIP and assembles Pages. Pages must use GitHub Actions, not a raw-branch deployment that serves unbuilt JSX.
 - `examples/demo.html`: small usage demo; `index.html` redirects to it. `examples/index.html`: categorized browser. `examples/review.html`: original/unit/repeat/frame comparisons. `examples/qa.html`: all frames.
-- `tmp/`, `.venv*/`: ignored local work. Never commit credentials/private workspace material.
+- `tmp/`, `.venv*/`, `node_modules/`, `dist/`, `*.tgz`: ignored local work/builds. Never commit credentials/private workspace material.
 
 ## Correcting or adding artwork
 

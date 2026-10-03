@@ -1,5 +1,28 @@
 # Artwork and frame verification
 
+## npm integration verification (0.1.0)
+
+The integration layer preserves the approved artwork and `ornaments.css` byte-for-byte. Catalog/artwork checks and the existing **473 browser checks** pass after adding the library and example links. The prior rendered frame matrix remains applicable because neither artwork nor shared geometry changed.
+
+`npm test` checks generated immutable metadata/capabilities, all 40 designs' original and forced divider directions in all formats, default formats for all nine whole designs, actual raster resolution boundaries at three densities, invalid input, discovery, scoped asset copying, and React server output. `npm run test:types` checks the public API, refs, custom properties, capability-specific design names, and invalid prop rejection. Capability-filtered discovery returns appropriately narrowed TypeScript names for direct component use.
+
+`node tests/integration.mjs` builds/installs a real npm archive into independent consumers. It verifies:
+
+- No React dependency is installed for vanilla use; all 922 assets are included, and the archive has only the explicit runtime/documentation allowlist.
+- The installed CLI copies the full catalog/components/sizes to a public asset folder.
+- Native ESM and bundled vanilla under a nested deployment root.
+- **120 native design/direction cases** (40 × original/horizontal/vertical), matching asset decoding and geometry, plus **32 density/length cases** including less than one full repeat fitting.
+- Atomic invalid updates, partial-option retention, duplicate-controller rejection, idempotent cleanup, prior-value restoration, and preservation of child input values/focus/unrelated styles/external edits.
+- React **19.3.0** development Strict Mode and production; React **18.3.1** production plus fresh-process SSR; public consumer declarations against both versions' React types.
+- React 19 SSR/hydration, forwarded DOM refs, input entered before hydration, and retained nodes/state during orientation/design changes and component remounts.
+- Four viewport widths (320, 375, 997, 1920), complete centered divider geometry, self-hosted images without external image requests, and no browser exceptions/missing assets.
+
+Reports and reviewed React screenshots are in ignored `tmp/package-integration.json` and `tmp/react*-*.png`. This is Chromium coverage, not certification across all browsers/frameworks. The browser ZIP and self-hosted live demos receive separate release verification. CDN defaults require internet access; the copy command supports local/offline hosting.
+
+The inspected archive is approximately **29.3 MB compressed / 52.3 MB unpacked** because it includes all raster sizes and editable SVG traces. These files are installed on disk, not embedded wholesale in the application's JavaScript bundle; browsers request selected images. Source sheets, audit scripts, temporary files, tests, and demos are excluded from npm. The browser download includes runnable native modules and artwork.
+
+For post-publication consumer checks, run `ORNAMENTS_PACKAGE=@ranx729/medieval-ornaments@0.1.0 node tests/integration.mjs`. Release/deployment verification is recorded below after completion.
+
 The collection has **49 designs: 40 repeating borders and nine whole decorations**. Asset validation covers **922 cataloged files, including 164 SVGs**. Checks cover catalog coverage, filenames, dimensions, byte counts, lossless PNG/WebP visible pixels and alpha, variants produced directly from masters, and the absence of raster embedding or external references in SVGs.
 
 ## Source and artwork checks

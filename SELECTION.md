@@ -2,6 +2,8 @@
 
 Use `images.json` as the source of truth. Selection fields are deliberately generic:
 
+The npm package generates `/catalog.json` and immutable `ornaments` from this catalog, adding `uses` (`frame`, `divider`, or `image`) and available `formats`. Use `findOrnaments({ use, categories, subjects, colors, query })` for alphabetical selection without a React dependency or image requests. Library divider orientation can be `original`, `horizontal`, or `vertical`; it selects the matching original/rotated asset automatically. See [the integration guide](docs/INTEGRATION.md).
+
 | Field | Meaning |
 | --- | --- |
 | `description` | Plain-language appearance, source family, and adaptation |

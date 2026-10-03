@@ -1,0 +1,21 @@
+# Artwork provenance and rights
+
+The integration library has a scoped MIT license in LICENSE. That grant does
+not cover the ornament artwork. This collection has no established blanket
+artwork license. Availability in a public repository or npm package does not
+establish ownership or grant additional rights to the supplied references.
+
+| Family | Method and known source information |
+| --- | --- |
+| Five painted panels | AI-assisted transparent extractions from a user-supplied five-panel reference; original artist/source rights have not been established. Prompts and limitations are recorded in EXTRACTION-PROMPTS.json in the repository. |
+| Six floral styles | Editable geometric reconstructions inspired by a user-supplied six-style sheet. The watermarked sheet's pixels are not embedded or published as cleaned extractions. No blanket rights claim is made for the inspiration or exports. |
+| 38 numbered plate designs | Crops of a user-supplied ornament plate, narrow join adjustments, source-derived miter frames, and approximate color traces. Source scan rights/attribution have not been established. Original pixels, crop audit, and derivation records are retained in the repository. |
+
+The catalog identifies each design's derivation and reference family. PNG/WebP
+preserve the painted source appearance where documented; SVG traces can lose
+detail. Adapted corners are not recovered historical originals.
+
+Source sheets, extraction prompts, and detailed audit records remain at
+https://github.com/adrian729/medieval-ornaments . They are not part of the npm
+runtime package. The package includes this notice and the design catalog so
+integrators can retain the distinction between software and artwork rights.

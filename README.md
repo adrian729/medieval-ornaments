@@ -2,6 +2,47 @@
 
 Reusable painted decorations and editable border designs, with PNG, lossless WebP, and smaller raster sizes. This repository is separate from [medieval-cutouts](https://github.com/adrian729/medieval-cutouts).
 
+## Install and integrate
+
+```sh
+npm install @ranx729/medieval-ornaments
+```
+
+Dependency-free vanilla JavaScript, optional React components, TypeScript declarations, and categorized discovery use the same normalized contract. See the [integration guide](https://github.com/adrian729/medieval-ornaments/blob/main/docs/INTEGRATION.md), [plain JS example](https://adrian729.github.io/medieval-ornaments/examples/vanilla/), [React example](https://adrian729.github.io/medieval-ornaments/examples/react/), and [browser ZIP](https://adrian729.github.io/medieval-ornaments/medieval-ornaments-browser.zip).
+
+```js
+import { createDivider } from '@ranx729/medieval-ornaments';
+import '@ranx729/medieval-ornaments/styles.css';
+
+const divider = createDivider(element, {
+  design: 'plate-02-stepped-ribbon', orientation: 'horizontal', length: '100%'
+});
+// divider.update({ orientation: 'vertical' });
+// divider.destroy();
+```
+
+```jsx
+import { OrnamentDivider, OrnamentFrame, OrnamentImage } from '@ranx729/medieval-ornaments/react';
+import '@ranx729/medieval-ornaments/styles.css';
+
+<OrnamentDivider design="plate-02-stepped-ribbon" />
+<OrnamentDivider design="plate-02-stepped-ribbon" orientation="horizontal" />
+<OrnamentFrame design="red-berry-vine" size={33}><YourContent /></OrnamentFrame>
+<OrnamentImage design="floral-bird-panel-blue" size={128} />
+```
+
+Only `design` is required. Dividers default to the chosen artwork's original direction; horizontal/vertical automatically choose matching assets. Geometry, formats, and smaller raster sizes come from the catalog. Import `findOrnaments({ use: 'frame', categories: ['floral'] })` to discover compatible designs. Frames/dividers support the 40 repeat designs; images support the nine whole decorations.
+
+Images default to version-pinned CDN URLs and load only when selected. To self-host:
+
+```sh
+npx medieval-ornaments copy-assets public/ornaments --design red-berry-vine
+```
+
+Pass `assetsBase: '/ornaments/'` in vanilla or `assetsBase="/ornaments/"` in React. No artwork build or Python is needed by consumers. The integration code has a scoped [MIT license](LICENSE); artwork retains its separately documented [rights status](ASSET-RIGHTS.md).
+
+## Artwork collection
+
 - **6 floral border styles:** editable vectors inspired by the supplied sheet, with complete motifs and matching corners.
 - **38 numbered plate designs:** original painted pixels cut into audited units, plus editable color traces and untouched reference crops. Alternating motifs/colors and native proportions are retained. Plate 11, 16, 36, and 37 are whole decorations because the supplied regions do not establish a usable repeating strip.
 - **5 painted vertical ornaments:** transparent AI-assisted extractions; complete decorations rather than seamless tiles.
@@ -56,7 +97,21 @@ python3 -m venv --system-site-packages .venv
 .venv/bin/python scripts/catalog.py --check
 ```
 
-The five extraction prompts and method are recorded in [EXTRACTION-PROMPTS.json](EXTRACTION-PROMPTS.json). Reference crop coordinates are in [reference-crops.json](reference-crops.json). Repeat/whole decisions and join adjustments are recorded in [source-patterns.json](source-patterns.json). Optional retracing uses Python 3.12 with `requirements-trace.txt`; normal builds use the checked-in traces. Asset metadata records whether artwork is an extraction, reconstruction, source crop/color trace, or reference crop. This repository does not establish ownership or a blanket license for the supplied reference artwork; no source attribution has been invented. The vector code and exported assets are provided without a blanket license until provenance is established.
+The five extraction prompts and method are recorded in [EXTRACTION-PROMPTS.json](EXTRACTION-PROMPTS.json). Reference crop coordinates are in [reference-crops.json](reference-crops.json). Repeat/whole decisions and join adjustments are recorded in [source-patterns.json](source-patterns.json). Optional retracing uses Python 3.12 with `requirements-trace.txt`; normal builds use the checked-in traces. Asset metadata records whether artwork is an extraction, reconstruction, source crop/color trace, or reference crop. This repository does not establish ownership or a blanket license for the supplied reference artwork; no source attribution has been invented. The ornament vector code and exported artwork assets are provided without a blanket license until provenance is established. The npm integration software's grant is scoped separately in [LICENSE](LICENSE).
+
+## Develop and release the library
+
+```sh
+npm ci
+npm run build
+npm test
+npm run test:types
+npm run test:integration
+npm run build:browser
+npm pack
+```
+
+The library build generates metadata/types from `images.json` without changing artwork. Consumer checks install a real archive and exercise native/bundled vanilla, React 18/19, production/development, SSR/hydration, types, and self-hosting. Chromium is required for browser checks. The Pages workflow builds the React example and browser download. Follow [the integration guide's release steps](docs/INTEGRATION.md#examples-and-development) and record results in [QA.md](QA.md).
 
 [Quality checks](QA.md) cover every exported file and all formats in the browser preview.
 
