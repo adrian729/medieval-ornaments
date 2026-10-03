@@ -1,5 +1,42 @@
 # Artwork and frame verification
 
+## Selective imports and local installer · 0.5.0 (2026-10-04)
+
+The code-only release adds bound `/designs/<name>`, `/react/<name>` and
+`/react/unstyled/<name>` exports, optional `/catalog` discovery, and the `add`
+installer. Artwork remains pinned to 0.3.2; no asset/source/CSS bytes changed.
+The complete walkthrough is in [docs/SELECTIVE.md](docs/SELECTIVE.md), also
+included in the npm package and browser ZIP. Permanent vanilla/React examples
+now render an individual-import divider and link the guide.
+
+Pre-publication checks pass:
+
+- 24 unit tests, including all 70 individual designs' geometry/SSR parity across
+  available formats and DPR 1/1.25/2, capability/format errors, mixed-format local
+  installs, edit protection, incremental additions and offline/hosting guards.
+- Public TypeScript checks plus independently installed local React/vanilla
+  declarations, including rejected uninstalled formats; React 18/19 types/SSR.
+- Actual packed consumers: lean install; one-design CDN `add` before installing
+  any artwork archive; all 1,383 offline files verified; four two-design
+  production consumers (npm/local × React/vanilla) with two metadata modules,
+  one resolver, retained CSS and no full catalog or runtime dependency in copied
+  code. Existing 168 native axis/design and 32 density/length cases, loading,
+  controller teardown, React state/refs/SSR/hydration and self-hosting pass.
+- Production audit: individual React divider **14,760 B raw / 4,589 B gzip**,
+  versus full **254,432 B / 32,792 B**; vanilla **15,007 B / 4,662 B**, versus
+  full **254,580 B / 32,825 B**. React is external; CSS is 473 B gzip in each.
+  This is a fixture-specific roughly 86% reduction in library JS transfer.
+- Catalog/artwork: 70 designs, 233 SVGs, 1,383 files, 400 exact source-frame
+  joins, 102 integer-slice atlases and 56 exact rotated tiles. All original
+  artwork/masters/traces and manifest remain unchanged. All 740 local browser
+  checks and the browser ZIP/React build pass; `git diff --check` is clean.
+
+The tested runtime archive contains **453 files / 121,700 compressed bytes /
+885,904 unpacked bytes**, with no artwork or automatic dependencies. SRI:
+`sha512-sfU4SQH+yz/M1TBbYJeMaqXq6p0gnVD2jKKoSQVnuR6M9Z3IE1tTypm+E3BXYOr1EtLr7ySv1dmISZUG7avDIg==`.
+This stays under the existing 150 KB compressed / 1 MB unpacked budgets.
+Post-publication registry/CDN/deployment verification is pending.
+
 ## Performance audit and package split · 0.4.0 (2026-10-03/04)
 
 The broad audit covers production bundles, asset sizes/complexity, selected

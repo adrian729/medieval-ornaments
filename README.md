@@ -10,31 +10,50 @@ npm install @ranx729/medieval-ornaments
 
 Dependency-free vanilla JavaScript, optional React components, TypeScript declarations, and categorized discovery use the same normalized contract. See the [integration guide](https://github.com/adrian729/medieval-ornaments/blob/main/docs/INTEGRATION.md), [plain JS example](https://adrian729.github.io/medieval-ornaments/examples/vanilla/), [React example](https://adrian729.github.io/medieval-ornaments/examples/react/), and [browser ZIP](https://adrian729.github.io/medieval-ornaments/medieval-ornaments-browser.zip).
 
-```js
-import { createDivider } from '@ranx729/medieval-ornaments';
-import '@ranx729/medieval-ornaments/styles.css';
+Import an individual design to bundle only that design and the shared helpers:
 
-const divider = createDivider(element, {
-  design: 'plate-02-stepped-ribbon', orientation: 'horizontal', length: '100%'
-});
+```js
+import { createDivider } from '@ranx729/medieval-ornaments/designs/plate-02-stepped-ribbon';
+import '@ranx729/medieval-ornaments/styles.css';
+const divider = createDivider(element, { orientation: 'horizontal', length: '100%' });
 // divider.update({ orientation: 'vertical' });
 // divider.destroy();
 ```
 
 ```jsx
-import { OrnamentDivider, OrnamentFrame, OrnamentImage } from '@ranx729/medieval-ornaments/react';
+import { OrnamentFrame, OrnamentDivider } from '@ranx729/medieval-ornaments/react/red-berry-vine';
+import { OrnamentImage } from '@ranx729/medieval-ornaments/react/floral-bird-panel-blue';
 
-<OrnamentDivider design="plate-02-stepped-ribbon" />
-<OrnamentDivider design="plate-02-stepped-ribbon" orientation="horizontal" />
-<OrnamentFrame design="red-berry-vine" size={33}><YourContent /></OrnamentFrame>
-<OrnamentImage design="floral-bird-panel-blue" size={128} />
+<OrnamentFrame size={33}><YourContent /></OrnamentFrame>
+<OrnamentDivider orientation="horizontal" />
+<OrnamentImage size={128} />
 ```
 
-React includes the shared stylesheet automatically. Use `/react/unstyled` for plain Node SSR or centrally managed CSS; see the [React integration guide](docs/INTEGRATION.md#react).
+React includes CSS automatically. Use `/react/unstyled/<name>` for plain Node SSR.
+Individual exports are bound to their named design; omit `design`.
+The root API and generic `/react` entry remain available for dynamic selection
+with a required `design` option and all 70 designs' metadata.
 
-Runtime 0.4.0 ships without the 180 MB artwork archive. Images use the independently pinned `@ranx729/medieval-ornaments-assets@0.3.2` CDN; code-only updates can reuse that artwork version. The [performance audit](docs/PERFORMANCE.md) records package costs, lazy loading, layout stability and lighter demos.
+To copy editable components and only their artwork into your own project:
 
-Only `design` is required. Dividers default to the chosen artwork's original direction; horizontal/vertical automatically choose matching assets. Geometry, formats, and smaller raster sizes come from the catalog. Import `findOrnaments({ use: 'frame', categories: ['floral'] })` to discover compatible designs. The catalog supports 56 repeat designs and 14 whole decorations.
+```sh
+npx @ranx729/medieval-ornaments@0.5.0 add red-berry-vine floral-bird-panel-blue
+# Then import from ./ornaments/red-berry-vine.js in a component under src/.
+```
+
+See the [selective usage guide](docs/SELECTIVE.md) for runnable React/vanilla
+examples, installer defaults, TypeScript, SSR, custom public URLs, offline use,
+and how to preserve edits when adding or updating components.
+
+Since 0.4.0 the runtime ships without the 180 MB artwork archive. Images use the
+independently pinned `@ranx729/medieval-ornaments-assets@0.3.2` CDN. Runtime 0.5.0
+adds individual imports and the local installer; normal npm installs include no
+artwork. The [performance audit](docs/PERFORMANCE.md) records measured costs.
+
+Dividers default to the artwork's original direction; horizontal/vertical choose
+matching assets. Geometry, formats and smaller raster sizes come from metadata.
+Import discovery from `@ranx729/medieval-ornaments/catalog` for a picker; it
+includes the full catalog of 56 repeats and 14 whole decorations.
 
 Images default to version-pinned CDN URLs and load only when selected. To self-host:
 

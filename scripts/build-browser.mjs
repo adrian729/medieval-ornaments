@@ -20,6 +20,7 @@ await cp(path.join(root, 'examples/integration.css'), path.join(browser, 'exampl
 await mkdir(path.join(browser, 'docs'));
 await cp(path.join(root, 'docs/INTEGRATION.md'), path.join(browser, 'docs/INTEGRATION.md'));
 await cp(path.join(root, 'docs/PERFORMANCE.md'), path.join(browser, 'docs/PERFORMANCE.md'));
+await cp(path.join(root, 'docs/SELECTIVE.md'), path.join(browser, 'docs/SELECTIVE.md'));
 await writeFile(path.join(browser, 'index.html'), '<!doctype html><meta charset="utf-8"><meta http-equiv="refresh" content="0;url=examples/vanilla/"><a href="examples/vanilla/">Vanilla example</a>');
 await writeFile(path.join(browser, 'README.txt'), 'Serve this folder over HTTP, for example: python3 -m http.server 8000\nOpen http://localhost:8000/\nThe example self-hosts its images. No React, npm, or build step is needed.\nSee docs/INTEGRATION.md and ASSET-RIGHTS.md.\n');
 // zip is a maintainer tool, never required by consumers.

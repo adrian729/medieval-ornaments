@@ -16,6 +16,19 @@ default. Self-hosting and offline workflows are described below.
 Code and artwork have separate licensing scopes: see [LICENSE](../LICENSE) and
 [ASSET-RIGHTS.md](../ASSET-RIGHTS.md).
 
+## Choose an import workflow
+
+For fixed designs, prefer `@ranx729/medieval-ornaments/react/<name>` or
+`@ranx729/medieval-ornaments/designs/<name>` (since 0.5.0). They bundle only the
+chosen metadata and shared helpers, and omit the `design` option. `add <name>...`
+can instead copy editable component code and selected artwork into your project.
+The [selective usage guide](SELECTIVE.md) covers both workflows, local defaults,
+format selection, public URLs, offline use, TypeScript, SSR and updates.
+
+The generic API below supports dynamic names, with the full catalog in its
+bundle. It remains compatible with earlier releases. Import `/catalog` explicitly
+when you want the full discovery API.
+
 ## Shared contract
 
 React's `/react` entry includes the shared stylesheet automatically. For vanilla
@@ -30,7 +43,8 @@ All designs use the same three components/functions:
 
 Version 0.3.0 includes 21 source additions, including the three grid-paper stencils with their backgrounds retained. The catalog has 70 designs.
 
-Only `design` is required. No default ornament is chosen for you. A whole
+In the generic API, only `design` is required. Individual imports are already bound
+to one design and omit that option. No default ornament is chosen for you. A whole
 corner/panel is an image, not a source of seamless frame pieces. Reference
 crops and individual corners are advanced assets available in the catalog.
 
@@ -256,7 +270,7 @@ SVG. Requesting an unsupported format or use throws a useful error.
 
 ## CDN or self-hosting
 
-The runtime pins an independent artwork revision. Runtime 0.4.0 uses:
+The runtime pins an independent artwork revision. Runtimes 0.4.0 and 0.5.0 use:
 
 ```text
 https://unpkg.com/@ranx729/medieval-ornaments-assets@0.3.2/

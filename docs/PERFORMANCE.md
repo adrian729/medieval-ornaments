@@ -52,8 +52,8 @@ artwork requests** initially. Initial component rendering still happens.
   catalog and use a name map. Importing it performs no artwork requests.
 - Across the five-run Node samples, 10,000 resolutions took about **16–126ms**,
   1,000 searches about **61–315ms**, and SSR of 1,000 frames about **45–171ms**.
-  These small per-call costs do not justify broad memoization or splitting a
-  stable public catalog during this change. No CPU-speedup claim is made from
+  These small per-call costs do not justify broad memoization. Version 0.5.0
+  adds selective imports to reduce bundle transfer and metadata initialization. No CPU-speedup claim is made from
   these variable samples. React rendering and image decoding are separate costs.
 - Vanilla previously rewrote every owned class/style/attribute, including
   unchanged image `src`. It now compares actual DOM values before writing.
@@ -160,3 +160,31 @@ Browser mechanisms: [native image attributes](https://developer.mozilla.org/en-U
 [IntersectionObserver](https://developer.mozilla.org/en-US/docs/Web/API/IntersectionObserver),
 [React effect lifecycle and SSR](https://react.dev/reference/react/useEffect),
 [React memoization guidance](https://react.dev/reference/react/useMemo).
+
+
+## Selective imports · 0.5.0
+
+Run `npm run audit:selective` for the production comparison; the JSON report is
+written to `tmp/selective-audit/report.json`. Vite minifies a single red berry
+vine divider; React is an external peer in both React fixtures. Image bytes and
+application/React runtime bytes are excluded.
+
+| Entry | Design metadata modules | JavaScript raw | JavaScript gzip | CSS gzip |
+| --- | ---: | ---: | ---: | ---: |
+| Full vanilla API | 70 | 254,580 B | 32,825 B | 473 B |
+| Individual vanilla | 1 | 15,007 B | 4,662 B | 473 B |
+| Full React API | 70 | 254,432 B | 32,792 B | 473 B |
+| Individual React | 1 | 14,760 B | 4,589 B | 473 B |
+
+This is about 86% less gzipped library JavaScript for this particular design.
+Metadata varies by design. Shared rendering/geometry/visibility helpers are
+bundled once when importing multiple designs. The actual packed two-design
+React/vanilla consumers verify their module graphs contain two metadata modules,
+one resolver, no aggregate catalog/discovery, and retained production CSS.
+
+The `add` installer copies selected metadata/helpers and only the requested
+artwork formats, components and variants. Copied code does not import the npm
+runtime. It retains existing resolution limits and lossless native artwork.
+The runtime npm installation still contains every small module; only installing
+the optional companion downloads the complete artwork archive. See
+[selective usage](SELECTIVE.md) for both workflows and their costs.

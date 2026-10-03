@@ -1,4 +1,5 @@
 import { createFrame, createDivider, createOrnamentImage, findOrnaments } from '@ranx729/medieval-ornaments';
+import { createDivider as createBerryDivider } from '@ranx729/medieval-ornaments/designs/red-berry-vine';
 
 // This checkout demo self-hosts images. Installed projects can omit assetsBase
 // for version-pinned CDN images, or use their own copied public asset root.
@@ -38,4 +39,5 @@ byId('toggle').addEventListener('click', () => {
   else { frame = createFrame(byId('frame'), { design: byId('design').value, size: 33, assetsBase }); byId('toggle').textContent = 'Detach frame'; }
 });
 update();
+createBerryDivider(byId('selective-divider'), { assetsBase });
 document.body.dataset.ready = 'true';

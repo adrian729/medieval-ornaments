@@ -1,6 +1,6 @@
 # npm package and integration plan
 
-Status: runtime @ranx729/medieval-ornaments@0.4.0 and optional @ranx729/medieval-ornaments-assets@0.3.2 are published and verified. Registry integrity matches both tested archives. Fresh registry consumers, all 740 live browser checks, deployed vanilla/React demos, pinned CDN files and downloaded browser ZIP pass. Artwork bytes are unchanged. Release v0.4.0 records the completed split and performance work; no release work remains.
+Status: implementing runtime 0.5.0 individual imports and the local component/artwork installer. Runtime 0.4.0 and artwork 0.3.2 are published and verified. The code-only 0.5.0 release retains artwork 0.3.2; publication/deployment checks are pending.
 
 ## Goal and scope
 
@@ -264,3 +264,33 @@ verification was completed; see QA.md.
 - [x] Pass both actual packed packages, lean install, explicit offline companion and production bundler asset imports.
 - [x] Publish exact tested companion/runtime archives and verify fresh registry consumers and pinned CDN checksums.
 - [x] Commit/push, tag/release 0.4.0, verify Pages/browser ZIP and record sizes/results in QA.md.
+
+
+## Selective imports and local installer · 0.5.0
+
+Individual `/designs/<name>` vanilla and `/react/<name>` React modules bind one
+immutable design; `/react/unstyled/<name>` supports plain Node SSR. Repeat designs
+export frame/divider APIs; whole decorations export image APIs. The `design`
+option is optional and can only match the bound name. Generic APIs remain
+compatible and require a design. `/catalog` exposes optional full discovery.
+All adapters use catalog-free shared geometry/rendering/visibility; generated
+modules import only their own data. Preserve styled wrappers' CSS side effects.
+
+`add <name>...` copies editable selected modules, shared helpers, declarations,
+notices and only requested artwork formats/components/variants into a consumer.
+Defaults are React, `src/ornaments`, `public/ornaments`, `/ornaments/`, and auto
+format (SVG for six vector reconstructions, lossless WebP for painted designs).
+Copied code has no runtime-package dependency. The asset manifest/streaming
+verification and guards also apply to add. Keep metadata/types filtered to
+installed formats. Reuse same-version/configuration helpers, merge chosen designs,
+retain unrelated files and protect edited requested files; `--overwrite` is
+explicit. Updates across versions/configuration use fresh directories and a
+reviewed merge. No artwork rebuilding or automatic dependency installation.
+
+- [x] Implement shared cores, generated individual metadata/modules/types and optional catalog export.
+- [x] Implement selected local code/artwork installer, checksum verification, offline support and edit protection.
+- [x] Document runnable imports, installer, hosting, formats, TypeScript, SSR, edits and updates in docs/SELECTIVE.md.
+- [x] Measure production bundles and assert selected module graphs, one resolver and retained CSS.
+- [x] Pass complete unit/types, actual packed consumers, artwork/catalog and browser/ZIP checks.
+- [ ] Commit/push, publish the exact tested runtime archive, verify fresh registry/CDN consumers.
+- [ ] Verify Pages/live examples/browser ZIP; tag/release and record sizes/results in QA.md.

@@ -1,6 +1,7 @@
 import React, { useState, useRef, StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 import { OrnamentFrame, OrnamentDivider, OrnamentImage } from '@ranx729/medieval-ornaments/react';
+import { OrnamentDivider as BerryDivider } from '@ranx729/medieval-ornaments/react/red-berry-vine';
 import { findOrnaments } from '@ranx729/medieval-ornaments';
 import '../integration.css';
 
@@ -21,7 +22,7 @@ function App() {
   return <main>
     <h1>Ornaments with React</h1>
     <p>Declarative components with styles included and the same defaults and sizing as plain JavaScript.</p>
-    <nav><a href="https://github.com/adrian729/medieval-ornaments/blob/main/docs/INTEGRATION.md">Integration guide</a><a href="../vanilla/">Plain JS example</a><a href="../">Design browser</a></nav>
+    <nav><a href="https://github.com/adrian729/medieval-ornaments/blob/main/docs/INTEGRATION.md">Integration guide</a><a href="https://github.com/adrian729/medieval-ornaments/blob/main/docs/SELECTIVE.md">Individual imports and local installer</a><a href="../vanilla/">Plain JS example</a><a href="../">Design browser</a></nav>
     <div className="controls">
       <label>Repeat design <select id="design" value={design} onChange={e => setDesign(e.target.value)}><Options items={repeats}/></select></label>
       <label>Divider direction <select id="orientation" value={orientation} onChange={e => setOrientation(e.target.value)}><option value="original">Original direction</option><option value="horizontal">Horizontal</option><option value="vertical">Vertical</option></select></label>
@@ -43,6 +44,10 @@ function App() {
     <h2>Use it in your project</h2>
     <pre>{`import { OrnamentDivider } from '@ranx729/medieval-ornaments/react';\n\n<OrnamentDivider design="${design}"\n  orientation="${orientation}" size={${size}} length={${length}} />`}</pre>
     <p>Omit orientation to retain the chosen design's original direction. Swapping axes selects the appropriate rotated artwork automatically.</p>
+    <h2>Use one design</h2>
+    <BerryDivider id="selective-divider" assetsBase={assetsBase} />
+    <pre>{`import { OrnamentDivider } from '@ranx729/medieval-ornaments/react/red-berry-vine';\n\n<OrnamentDivider />`}</pre>
+    <p>Individual imports omit the design prop and bundle only chosen metadata. This picker uses the full API to browse every design.</p>
   </main>;
 }
 createRoot(document.getElementById('root')).render(<StrictMode><App/></StrictMode>);

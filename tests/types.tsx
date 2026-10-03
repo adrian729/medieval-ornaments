@@ -36,3 +36,23 @@ const badDecoding = <OrnamentFrame design="red-berry-vine" decoding="async" />;
 // @ts-expect-error Loading must be eager or lazy.
 divider.update({ loading: 'auto' });
 void [example, badFrame, badImage, badDivider, badName, discoveredDividers, discoveredImages, unstyledProps, unstyledExample];
+
+import { OrnamentFrame as BerryFrame, OrnamentDivider as BerryDivider } from '@ranx729/medieval-ornaments/react/red-berry-vine';
+import { OrnamentImage as GoldImage } from '@ranx729/medieval-ornaments/react/unstyled/gold-scroll-with-blue-bellflowers';
+import { createDivider as createBerryDivider, resolveOrnament as resolveBerry } from '@ranx729/medieval-ornaments/designs/red-berry-vine';
+import { findOrnaments as discover } from '@ranx729/medieval-ornaments/catalog';
+const selective = <BerryFrame size={33} ref={createRef<HTMLDivElement>()}><input /><BerryDivider orientation="vertical" length={300} /><GoldImage size={128} alt="" /></BerryFrame>;
+createBerryDivider(document.createElement('div')).update({ size: 20 });
+resolveBerry('frame');
+discover({ use: 'image' });
+// @ts-expect-error Individual exports are bound to a single design.
+const wrongBoundDesign = <BerryDivider design="plate-02-stepped-ribbon" />;
+// @ts-expect-error Individual whole-decoration exports have no frame.
+import { OrnamentFrame as MissingFrame } from '@ranx729/medieval-ornaments/react/gold-scroll-with-blue-bellflowers';
+// @ts-expect-error Image-only design cannot resolve a divider.
+import { createDivider as MissingDivider } from '@ranx729/medieval-ornaments/designs/gold-scroll-with-blue-bellflowers';
+// @ts-expect-error Frames cannot be resolved as whole images.
+resolveBerry('image');
+// @ts-expect-error Whole-image loading hints cannot be used on dividers.
+const selectiveBadHint = <BerryDivider decoding="sync" />;
+void [selective, wrongBoundDesign, selectiveBadHint];

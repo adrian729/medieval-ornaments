@@ -8,6 +8,7 @@ import { createServer } from 'node:http';
 import { spawn, execFile } from 'node:child_process';
 import { promisify } from 'node:util';
 import { createRequire } from 'node:module';
+import { selectiveConsumers } from './selective-consumers.mjs';
 import { assetPaths, assetCatalog } from '../scripts/package-assets.mjs';
 import { createElement as h } from 'react';
 import { renderToString } from 'react-dom/server';
@@ -26,7 +27,7 @@ try {
   if (packageSource) install = packageSource;
   else {
     const packed = JSON.parse((await exec('npm', ['pack', '--json', '--pack-destination', folder], { cwd: root, maxBuffer: 3e6 })).stdout)[0];
-    const allowed = /^(?:lib\/|docs\/(?:INTEGRATION|PERFORMANCE)\.md$|ornaments\.css$|package\.json$|README\.md$|SELECTION\.md$|USAGE\.md$|LICENSE$|ASSET-RIGHTS\.md$)/;
+    const allowed = /^(?:lib\/|docs\/(?:INTEGRATION|PERFORMANCE|SELECTIVE)\.md$|ornaments\.css$|package\.json$|README\.md$|SELECTION\.md$|USAGE\.md$|LICENSE$|ASSET-RIGHTS\.md$)/;
     assert.ok(packed.files.every(file => allowed.test(file.path)), 'Unexpected runtime packed file');
     assert.deepEqual(packed.files.filter(file => /^(svg|png|webp)\//.test(file.path)), [], 'Runtime must contain no artwork');
     assert.ok(packed.size < 150_000 && packed.unpackedSize < 1_000_000, 'Lean runtime size budget');
@@ -59,6 +60,14 @@ try {
   assert.equal(api.defaultAssetsBase, `https://unpkg.com/${api.assetsPackage}@${api.assetsVersion}/`);
   const bin = path.join(app, 'node_modules/.bin/medieval-ornaments');
   await assert.rejects(exec(process.execPath, [bin, 'copy-assets', path.join(folder, 'offline-missing'), '--offline'], { cwd: app }), /Offline artwork not found/);
+  // The local installer also works before any full artwork package is installed.
+  const cdnSource = path.join(folder, 'cdn-selected-source'), cdnAssets = path.join(folder, 'cdn-selected-assets');
+  await exec(process.execPath, [bin, 'add', 'red-berry-vine', '--framework', 'vanilla', '--out', cdnSource, '--assets', cdnAssets], { cwd: app });
+  const selectedCDN = await import(pathToFileURL(path.join(cdnSource, 'red-berry-vine.js')));
+  assert.equal(selectedCDN.resolveOrnament('divider').asset.format, 'svg');
+  assert.deepEqual(selectedCDN.ornament.formats, ['svg']);
+  await assert.rejects(access(path.join(app, 'node_modules/@ranx729/medieval-ornaments-assets')), 'Selective add must not install the archive');
+  records.push({ kind: 'lean-install-selected-CDN-add', includedDesigns: 1, fullArchiveInstalled: false });
   // Install artwork explicitly, then exercise consumer-local discovery through the real bin.
   await exec('npm', ['install', '--save-dev', assetInstall, '--ignore-scripts', '--no-audit', '--no-fund', ...(assetSource ? ['--prefer-online'] : ['--offline'])], { cwd: app });
   const companion = path.join(app, 'node_modules', api.assetsPackage);
@@ -86,6 +95,7 @@ try {
   await writeFile(path.join(vanilla, 'main.js'), `import {createDivider} from '@ranx729/medieval-ornaments';import '@ranx729/medieval-ornaments/styles.css';import imageUrl from '@ranx729/medieval-ornaments-assets/webp/128/floral-bird-panel-blue.webp?url';window.importedAsset=imageUrl;window.divider=createDivider(document.getElementById('divider'),{design:'plate-02-stepped-ribbon',orientation:'horizontal',assetsBase:'/local/ornaments/'});document.body.dataset.ready='true';`);
   await build({ root: vanilla, configFile: false, base: '/vanilla/dist/', logLevel: 'error' });
   for (const name of ['react', 'react-dom', '@types']) await symlink(path.join(root, 'node_modules', name), path.join(app, 'node_modules', name), 'dir');
+  const selectivePages = await selectiveConsumers({ folder, app, root, exec, bin, records });
   // One imported component must retain its CSS through production tree shaking.
   const single = path.join(folder, 'single-react'); await mkdir(single);
   await symlink(path.join(app, 'node_modules'), path.join(single, 'node_modules'), 'dir');
@@ -192,6 +202,14 @@ try {
   assert.equal(await evaluate(`getComputedStyle(document.getElementById('divider'),'::before').content`), '""');
   records.push({ kind: 'single-react-automatic-styles' });
 
+  for (const page of selectivePages) {
+    await navigate(origin + `/${page.label}/dist/`, `!!document.getElementById('whole')?.getAttribute('src')`);
+    await decodeImages(); checkGeometry(await geometry());
+    assert.equal(await evaluate(`getComputedStyle(document.getElementById('frame')).borderTopWidth`), '33px');
+    assert.equal(await evaluate(`document.getElementById('note').value`), 'Keep me');
+    if (page.framework === 'vanilla') assert.equal(await evaluate(`(()=>{const before=divider.element.outerHTML;try{divider.update({design:'red-rosette-vine'});return false}catch{return divider.element.outerHTML===before}})()`), true);
+  }
+
   const noArtworkSince=start=>requests.slice(start).filter(url=>/\.(svg|png|webp)$/.test(url));
   const pendingArt=()=>evaluate(`getComputedStyle(document.getElementById('frame')).borderImageSource==='none'&&getComputedStyle(document.getElementById('divider'),'::before').backgroundImage==='none'`);
   let lazyStart=requests.length;
@@ -285,13 +303,13 @@ try {
   await exec('npm', ['install', '--prefer-offline', '--no-audit', '--no-fund', 'react@18.3.1', 'react-dom@18.3.1', '@types/react@18', '@types/react-dom@18'], { cwd: older });
   for (const name of ['react', 'react-dom', '@types']) { await rm(path.join(app, 'node_modules', name)); await symlink(path.join(older, 'node_modules', name), path.join(app, 'node_modules', name), 'dir'); }
   await exec(process.execPath, [path.join(root, 'node_modules/typescript/bin/tsc'), '--noEmit', '--strict', '--noUncheckedSideEffectImports', '--module', 'nodenext', '--target', 'es2022', '--jsx', 'react-jsx', 'types.tsx'], { cwd: app });
-  await writeFile(path.join(app, 'ssr.mjs'), `import {createElement as h} from 'react';import {renderToString} from 'react-dom/server';import {OrnamentDivider} from '@ranx729/medieval-ornaments/react/unstyled';if(!renderToString(h(OrnamentDivider,{design:'plate-02-stepped-ribbon'})).includes('data-axis="y"'))throw Error('SSR axis');`);
+  await writeFile(path.join(app, 'ssr.mjs'), `import {createElement as h} from 'react';import {renderToString} from 'react-dom/server';import {OrnamentDivider} from '@ranx729/medieval-ornaments/react/unstyled';if(!renderToString(h(OrnamentDivider,{design:'plate-02-stepped-ribbon'})).includes('data-axis="y"'))throw Error('SSR axis');import {OrnamentDivider as BoundDivider} from '@ranx729/medieval-ornaments/react/unstyled/plate-02-stepped-ribbon';if(!renderToString(h(BoundDivider)).includes('data-axis="y"'))throw Error('Bound SSR axis');`);
   await exec(process.execPath, ['ssr.mjs'], { cwd: app });
   await buildApp();
   await exerciseReact(origin + '/app/dist/', 'react18-production');
   await exerciseLazyReact(origin+'/app/dist/lazy.html','react18-production');
   assert.deepEqual(errors, [], 'Browser errors'); assert.deepEqual(failed, [], 'Missing assets');
-  assert.ok(requests.filter(url => /\.(svg|png|webp)$/.test(url)).every(url => new URL(url).hostname === '127.0.0.1' && new URL(url).pathname.startsWith('/local/ornaments/')), 'Unexpected external image requests');
+  assert.ok(requests.filter(url => /\.(svg|png|webp)$/.test(url)).every(url => new URL(url).hostname === '127.0.0.1' && ['/local/ornaments/', ...selectivePages.map(page => page.assetsBase)].some(base => new URL(url).pathname.startsWith(base))), 'Unexpected external image requests');
   await writeFile(path.join(root, 'tmp/package-integration.json'), JSON.stringify({ folder, records, errors, failed }, null, 2));
   console.log(`PASS packaged consumers: ${api.ornaments.length} designs, ${api.findOrnaments({use: 'divider'}).length * 3} native axis/design cases, 32 density/length cases, vanilla native/bundled, React 18/19, development Strict Mode, production, SSR/hydration, refs/state, types, and self-hosting. Fixture: ${folder}`);
 } finally {
