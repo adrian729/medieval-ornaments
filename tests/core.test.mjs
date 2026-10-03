@@ -5,7 +5,7 @@ import { tmpdir } from 'node:os';
 import path from 'node:path';
 import { execFile } from 'node:child_process';
 import { promisify } from 'node:util';
-import { ornaments, getOrnament, findOrnaments, resolveOrnament, version, defaultAssetsBase } from '../lib/index.js';
+import { ornaments, getOrnament, findOrnaments, resolveOrnament, version, assetsPackage, assetsVersion, defaultAssetsBase } from '../lib/index.js';
 import { main as copyAssets } from '../lib/cli.js';
 const run = promisify(execFile), root = new URL('../', import.meta.url);
 const environment = { ...process.env }; delete environment.NODE_TEST_CONTEXT;
@@ -31,7 +31,7 @@ test('generated catalog agrees with artwork and has stable capabilities', async 
 });
 
 test('version-pinned public URLs work without any browser globals', () => {
-  assert.equal(defaultAssetsBase, `https://unpkg.com/@ranx729/medieval-ornaments@${version}/`);
+  assert.equal(defaultAssetsBase, `https://unpkg.com/${assetsPackage}@${assetsVersion}/`);
   const options = Object.freeze({ design: 'red-berry-vine' });
   const result = resolveOrnament('frame', options);
   assert.equal(result.asset.url, defaultAssetsBase + 'svg/red-berry-vine-border.svg');
@@ -109,12 +109,26 @@ test('invalid options and accidental CSS paths fail clearly', () => {
   assert.equal(resolveOrnament('divider', { design: 'red-berry-vine', length: '20rem' }).style['--ornament-length'], '20rem');
 });
 
+test('loading and image hints are validated and image proportions are reserved', () => {
+  for(const use of ['frame','divider']) {
+    const config=resolveOrnament(use,{design:'red-berry-vine',loading:'lazy'});
+    assert.equal(config.loading,'lazy');assert.ok(!('loading' in config.attributes));
+    assert.throws(()=>resolveOrnament(use,{design:'red-berry-vine',loading:'auto'}),/loading/);
+    assert.throws(()=>resolveOrnament(use,{design:'red-berry-vine',decoding:'async'}),/Unsupported/);
+  }
+  const design='gold-scroll-with-blue-bellflowers',item=getOrnament(design);
+  const result=resolveOrnament('image',{design,size:32,loading:'lazy',decoding:'async',fetchPriority:'low'});
+  assert.equal(result.attributes.width,String(item.width));assert.equal(result.attributes.height,String(item.height));
+  assert.equal(result.attributes.loading,'lazy');assert.equal(result.attributes.decoding,'async');assert.equal(result.attributes.fetchpriority,'low');
+  for(const options of [{loading:null},{decoding:'invalid'},{fetchPriority:'urgent'}])assert.throws(()=>resolveOrnament('image',{design,...options}));
+});
+
 test('copy CLI runs through a bin symlink and preserves selected files exactly', async () => {
   const folder = await mkdtemp(path.join(tmpdir(), 'ornament-copy-test-'));
   const bin = path.join(folder, 'medieval-ornaments');
   await symlink(new URL('lib/cli.js', root), bin);
   const out = path.join(folder, 'assets');
-  await exec(process.execPath, [bin, 'copy-assets', out, '--design', 'red-berry-vine', '--design', 'floral-bird-panel-blue']);
+  await exec(process.execPath, [bin, 'copy-assets', out, '--from', root.pathname, '--offline', '--design', 'red-berry-vine', '--design', 'floral-bird-panel-blue']);
   const catalog = JSON.parse(await readFile(path.join(out, 'catalog.json')));
   assert.deepEqual(catalog.map(item => item.name), ['floral-bird-panel-blue', 'red-berry-vine']);
   for (const item of catalog) for (const component of [item, ...Object.values(item.components)]) for (const asset of [component, ...component.variants]) for (const format of ['svg', 'png', 'webp']) if (asset[format]) {

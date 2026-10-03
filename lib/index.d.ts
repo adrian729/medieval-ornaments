@@ -37,17 +37,17 @@ export interface WholeOrnament extends Ornament {
   readonly uses: readonly 'image'[]; readonly repeat_axis: 'none';
 }
 export interface CommonOptions {
-  size?: number; format?: Format; pixelRatio?: number; assetsBase?: string;
+  size?: number; format?: Format; pixelRatio?: number; assetsBase?: string; loading?: 'eager' | 'lazy';
 }
 export interface FrameOptions extends CommonOptions { design: RepeatDesignName; }
 export interface DividerOptions extends CommonOptions { design: RepeatDesignName; orientation?: Orientation; length?: number | string; }
-export interface ImageOptions extends CommonOptions { design: WholeDesignName; alt?: string; }
+export interface ImageOptions extends CommonOptions { design: WholeDesignName; alt?: string; decoding?: 'auto' | 'sync' | 'async'; fetchPriority?: 'auto' | 'high' | 'low'; }
 export interface SelectionFilters {
   use?: OrnamentUse; categories?: readonly Category[]; subjects?: readonly string[];
   colors?: readonly string[]; query?: string;
 }
 export interface ResolvedOrnament {
-  design: DesignName; use: OrnamentUse; axis?: 'x' | 'y'; size: number;
+  design: DesignName; use: OrnamentUse; axis?: 'x' | 'y'; size: number; loading: 'eager' | 'lazy';
   className: string; style: Record<string, string>; attributes: Record<string, string>;
   asset: { path: string; url: string; format: Exclude<Format, 'auto'>; width: number; height: number; resolutionLimited: boolean; };
 }
@@ -58,6 +58,8 @@ export interface OrnamentController<Options> {
   destroy(): void;
 }
 export declare const version: string;
+export declare const assetsPackage: string;
+export declare const assetsVersion: string;
 export declare const defaultAssetsBase: string;
 export declare const ornaments: readonly Ornament[];
 export declare function getOrnament(name: RepeatDesignName): RepeatOrnament;

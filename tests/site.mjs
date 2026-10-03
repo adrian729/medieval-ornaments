@@ -9,7 +9,7 @@ import { promisify } from 'node:util';
 import path from 'node:path';
 const exec = promisify(execFile);
 const root = new URL('../', import.meta.url);
-const { version } = JSON.parse(await readFile(new URL('package.json', root), 'utf8'));
+const { version, ornamentAssets } = JSON.parse(await readFile(new URL('package.json', root), 'utf8'));
 const origin = (process.argv[2] || 'https://adrian729.github.io/medieval-ornaments').replace(/\/$/, '');
 const tabs = await (await fetch('http://127.0.0.1:9227/json')).json();
 const ws = new WebSocket(tabs.find(tab => tab.type === 'page').webSocketDebuggerUrl);
@@ -62,9 +62,11 @@ try {
     records.push({ example, width, ...result });
   }
   // Load the actual npm modules directly from their pinned CDN, not checkout URLs.
-  const cdn = await evaluate(`(async()=>{const api=await import('https://unpkg.com/@ranx729/medieval-ornaments@${version}/lib/index.js');const cases=[['frame',{design:'red-berry-vine'}],['divider',{design:'plate-02-stepped-ribbon'}],['divider',{design:'plate-02-stepped-ribbon',orientation:'horizontal'}],['image',{design:'floral-bird-panel-blue',size:128}],['frame',{design:'blue-diamond-leaf-stencil-band'}],['divider',{design:'blue-paired-birds-and-palmettes',orientation:'vertical'}],['frame',{design:'russet-floral-vine-with-bud-borders'}],['image',{design:'painted-sprawling-floral-panel',size:128}],['image',{design:'gold-scroll-with-blue-bellflowers',format:'png',size:107,pixelRatio:1}],['image',{design:'gold-scroll-with-blue-bellflowers',format:'svg',size:330}]];const assets=cases.map(([use,options])=>api.resolveOrnament(use,options).asset);await Promise.all(assets.map(async asset=>{const image=new Image();image.src=asset.url;await image.decode();}));return {version:api.version,count:api.ornaments.length,assets};})()`);
+  const cdn = await evaluate(`(async()=>{const api=await import('https://unpkg.com/@ranx729/medieval-ornaments@${version}/lib/index.js');const cases=[['frame',{design:'red-berry-vine'}],['divider',{design:'plate-02-stepped-ribbon'}],['divider',{design:'plate-02-stepped-ribbon',orientation:'horizontal'}],['image',{design:'floral-bird-panel-blue',size:128}],['frame',{design:'blue-diamond-leaf-stencil-band'}],['divider',{design:'blue-paired-birds-and-palmettes',orientation:'vertical'}],['frame',{design:'russet-floral-vine-with-bud-borders'}],['image',{design:'painted-sprawling-floral-panel',size:128}],['image',{design:'gold-scroll-with-blue-bellflowers',format:'png',size:107,pixelRatio:1}],['image',{design:'gold-scroll-with-blue-bellflowers',format:'svg',size:330}]];const assets=cases.map(([use,options])=>api.resolveOrnament(use,options).asset);await Promise.all(assets.map(async asset=>{const image=new Image();image.src=asset.url;await image.decode();}));return {version:api.version,assetsPackage:api.assetsPackage,assetsVersion:api.assetsVersion,count:api.ornaments.length,assets};})()`);
   assert.equal(cdn.version, version); assert.equal(cdn.count, (await (await fetch(origin + '/images.json')).json()).length);
-  assert.ok(cdn.assets.every(asset => asset.url.startsWith(`https://unpkg.com/@ranx729/medieval-ornaments@${version}/`)));
+  assert.equal(cdn.assetsPackage, ornamentAssets.package);
+  assert.equal(cdn.assetsVersion, ornamentAssets.version);
+  assert.ok(cdn.assets.every(asset => asset.url.startsWith(`https://unpkg.com/${ornamentAssets.package}@${ornamentAssets.version}/`)));
   records.push({ cdn });
   const folder = await mkdtemp(path.join(tmpdir(), 'ornaments-browser-release-'));
   const response = await fetch(origin + '/medieval-ornaments-browser.zip'); assert.equal(response.status, 200);

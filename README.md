@@ -32,13 +32,17 @@ import { OrnamentDivider, OrnamentFrame, OrnamentImage } from '@ranx729/medieval
 
 React includes the shared stylesheet automatically. Use `/react/unstyled` for plain Node SSR or centrally managed CSS; see the [React integration guide](docs/INTEGRATION.md#react).
 
-Only `design` is required. Dividers default to the chosen artwork's original direction; horizontal/vertical automatically choose matching assets. Geometry, formats, and smaller raster sizes come from the catalog. Import `findOrnaments({ use: 'frame', categories: ['floral'] })` to discover compatible designs. Version 0.3.2 supports 56 repeat designs and 14 whole decorations.
+Runtime 0.4.0 ships without the 180 MB artwork archive. Images use the independently pinned `@ranx729/medieval-ornaments-assets@0.3.2` CDN; code-only updates can reuse that artwork version. The [performance audit](docs/PERFORMANCE.md) records package costs, lazy loading, layout stability and lighter demos.
+
+Only `design` is required. Dividers default to the chosen artwork's original direction; horizontal/vertical automatically choose matching assets. Geometry, formats, and smaller raster sizes come from the catalog. Import `findOrnaments({ use: 'frame', categories: ['floral'] })` to discover compatible designs. The catalog supports 56 repeat designs and 14 whole decorations.
 
 Images default to version-pinned CDN URLs and load only when selected. To self-host:
 
 ```sh
 npx medieval-ornaments copy-assets public/ornaments --design red-berry-vine
 ```
+
+For offline copying or direct image imports, optionally install `@ranx729/medieval-ornaments-assets@0.3.2` and use `copy-assets --offline`. Direct `/svg/*`, `/png/*`, `/webp/*` imports now belong to that companion. See the [0.3.x migration notes](docs/INTEGRATION.md#migrating-from-03x).
 
 Pass `assetsBase: '/ornaments/'` in vanilla or `assetsBase="/ornaments/"` in React. No artwork build or Python is needed by consumers. The integration code has a scoped [MIT license](LICENSE); artwork retains its separately documented [rights status](ASSET-RIGHTS.md).
 

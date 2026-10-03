@@ -22,7 +22,7 @@ populate('design', 'divider', 'red-berry-vine');
 populate('wholeDesign', 'image', 'floral-bird-panel-blue');
 let frame = createFrame(byId('frame'), { design: 'red-berry-vine', size: 33, assetsBase });
 const divider = createDivider(byId('divider'), { design: 'red-berry-vine', length: 420, assetsBase });
-const whole = createOrnamentImage(byId('whole'), { design: 'floral-bird-panel-blue', size: 128, assetsBase });
+const whole = createOrnamentImage(byId('whole'), { design: 'floral-bird-panel-blue', size: 128, loading: 'lazy', decoding: 'async', assetsBase });
 function update() {
   const design = byId('design').value, orientation = byId('orientation').value;
   const size = Number(byId('size').value), length = Number(byId('length').value);

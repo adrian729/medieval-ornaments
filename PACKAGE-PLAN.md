@@ -1,6 +1,6 @@
 # npm package and integration plan
 
-Status: @ranx729/medieval-ornaments@0.3.2 is published as npm latest and released as v0.3.2. The sprawling floral panel has matching full-width top/bottom rules, with the lower corner and three trailing rows removed. All 70 designs, fresh registry consumers, actual pinned CDN artwork, live demos and the downloaded browser ZIP are verified. Original source/reference crops, the panel's floral interior and the original 49 artwork designs remain unchanged. No release work remains.
+Status: preparing runtime 0.4.0 with the performance improvements and independent optional artwork companion @ranx729/medieval-ornaments-assets@0.3.2. No artwork bytes changed. Release validation and migration are tracked below.
 
 ## Goal and scope
 
@@ -48,6 +48,8 @@ Provide `ornaments`, `getOrnament(name)`, and `findOrnaments(filters)` without a
 | `orientation` | Dividers | `original` by default, or `horizontal` / `vertical` |
 | `length` | Dividers | Available space, as a positive number in pixels or a CSS length/percentage |
 | `alt` | Whole images | Empty by default for decoration; accept meaningful alternative text |
+| `loading` | All | Unreleased: eager by default; optional native image lazy loading or shared 200px viewport observer for CSS artwork |
+| `decoding`, `fetchPriority` | Whole images | Unreleased shared options: validated native hints, both default to auto |
 
 Default sizes: frame 32px, divider 24px, whole-image height 256px. Default available divider length: 100% horizontally and 256px vertically. Choosing `original` uses the selected design's catalog axis, including originally vertical plate designs.
 
@@ -94,20 +96,17 @@ divider.destroy();
 
 ## Asset delivery and package contents
 
-Default since 0.3.0: `https://unpkg.com/@ranx729/medieval-ornaments@VERSION/`. Detailed source traces exceed jsDelivr's [150 MB package limit](https://www.jsdelivr.com/documentation), so the host changes to preserve artwork detail. Self-hosting and package contents remain unchanged. Pin the library's own exact version, never `latest` or a moving Git branch. Only selected images are requested by the browser; importing the catalog must not fetch images. This also gives the browser and server identical public URLs.
+Since 0.4.0, default images use `https://unpkg.com/@ranx729/medieval-ornaments-assets@ASSETS_VERSION/`. The runtime exports `assetsPackage`, `assetsVersion` and `defaultAssetsBase`; root `ornamentAssets` pins the independently released companion. Code-only releases retain that pin. Never use `latest` or moving branches. Catalog imports perform no artwork requests.
 
-The default requires CDN access. Provide an equally documented self-hosted path for offline applications, strict content policies, or projects that want all resources on their own origin:
+The runtime includes core/React APIs, CSS, types, catalog, notices and integration documentation. It contains no artwork files or asset dependency. React remains an optional peer. `/react` imports CSS automatically and `/react/unstyled` supports ordinary Node SSR; preserve their side-effect metadata.
 
-- Include cataloged SVG/PNG/WebP assets in the npm archive.
-- Provide `medieval-ornaments copy-assets <destination>` with an optional design filter. Preserve relative paths and copy all necessary components/variants for the chosen designs.
-- Show how to copy into an application's public folder and pass `assetsBase`, including deployment under a nested URL path. Never infer the application's public deployment path from filesystem paths.
-- Provide a browser download with modules, CSS, assets, and a working native-JS example if following elder-scrolls' browser-download convention.
+The optional companion exports `/catalog.json`, `/assets-manifest.json`, `/svg/*`, `/png/*`, `/webp/*` and `/package.json`. Direct image imports migrate from the runtime to this companion in 0.4.0. It preserves every approved asset byte and the separate rights notices.
 
-Package exports: core API, `/react`, `/react/unstyled`, `/styles.css`, `/catalog.json`, and direct `/svg/*`, `/png/*`, `/webp/*` assets. Use ESM and TypeScript declarations. React is an optional peer dependency; vanilla users need no React runtime. The default `/react` entry imports the shared stylesheet automatically; `/react/unstyled` exposes the identical components without CSS imports for plain Node SSR and centrally managed styles. Vanilla still loads CSS explicitly. Keep both CSS and the styled React wrapper marked as side effects so production builds retain the styles. This updates the original separate-React-CSS-import contract at the user's request.
+`copy-assets <destination>` discovers the matching optional companion or downloads only selected files from the pinned CDN. Keep design/format filters, components/variants, filtered catalog, CSS and rights notices. Verify the trusted manifest and each asset; stream four files concurrently with bounded memory. `--offline` forbids network access; `--from` supports approved local/HTTP mirrors. Preserve unrelated files, reject package/source overlap and external destination symlinks, and remove failed temporary files. No install-time download hooks.
 
-Use a package allowlist. Exclude source sheets, reference audit scripts, private files, temporary folders, virtual environments, browser profiles, tests, and demos from the npm runtime package. Keep asset provenance and usage documentation included. Measure compressed/unpacked package sizes and inspect every packed path before release.
+The browser ZIP remains a full self-hosted distribution with modules, CSS and unchanged artwork. Pages retains self-hosted vanilla/React examples. Filesystem copy destinations never determine public `assetsBase` automatically.
 
-Consumers must not need Python or artwork-generation dependencies. Generate library metadata/types with a lightweight maintainer build; packaging must not retrace, redraw, or modify the approved artwork. Preserve the original catalog in the repository.
+Use allowlists for both packages. Exclude source sheets, audit scripts, private files, temporary folders, tests and demos. The runtime must stay below 150 KB compressed/1 MB unpacked. Measure both archives and verify every artwork hash before release. Ordinary npm packaging rebuilds only metadata. `build:assets` verifies and stages approved existing files; changed artwork/catalog needs a companion version bump and audited manifest update. Publish/verify the asset revision before a runtime referencing it.
 
 Document licensing scope honestly before release. The current repository does not establish a blanket license for supplied reference artwork. Do not label the whole package or collection MIT. Choose an explicit license for the new integration code and include a separate asset provenance/rights notice reflecting what is actually known; publication itself does not grant additional artwork rights.
 
@@ -243,3 +242,25 @@ reviewed PNG/SVG bytes. Actual version-pinned UNPKG files match those exports
 and report the repaired 722×229 geometry. Live vanilla/React demos and the
 downloaded browser ZIP pass. The initial CDN HTTP 500 responses cleared before
 verification was completed; see QA.md.
+
+
+## Performance audit and package split · 0.4.0 (2026-10-03)
+
+- [x] Measure artwork transfer/complexity, production bundles, computation/SSR,
+  browser layout/long tasks, caching and package installation costs.
+- [x] Add opt-in shared lazy loading without changing default geometry or content.
+- [x] Reserve whole-image dimensions and expose validated native image hints.
+- [x] Skip unchanged vanilla DOM writes, including image sources.
+- [x] Right-size thumbnails/comparisons and defer offscreen review/QA artwork.
+- [x] Record reproducible desktop/mobile observations in docs/PERFORMANCE.md.
+- [x] Pass unit/types and real packed React 18/19, SSR/hydration, state/ref,
+  pending-update, teardown and unchanged-mutation checks.
+- [x] Pass all 740 browser checks with lazy-artwork scrolling, inspect desktop/mobile
+  and dark review screenshots, and verify ZIP integrity/library/docs; record in QA.md.
+
+- [x] Split lightweight runtime from optional artwork archive and pin artwork independently.
+- [x] Preserve selected streaming downloads, checksum verification, offline copying and direct asset imports through the companion.
+- [x] Document the 0.3.x migration, independent versioning and asset-first release sequence.
+- [x] Pass both actual packed packages, lean install, explicit offline companion and production bundler asset imports.
+- [ ] Publish exact tested companion/runtime archives and verify fresh registry consumers and pinned CDN checksums.
+- [ ] Commit/push, tag/release 0.4.0, verify Pages/browser ZIP and record sizes/results in QA.md.

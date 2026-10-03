@@ -7,6 +7,8 @@ import { fileURLToPath, pathToFileURL } from 'node:url';
 import { createServer } from 'node:http';
 import { spawn, execFile } from 'node:child_process';
 import { promisify } from 'node:util';
+import { createRequire } from 'node:module';
+import { assetPaths, assetCatalog } from '../scripts/package-assets.mjs';
 import { createElement as h } from 'react';
 import { renderToString } from 'react-dom/server';
 import { createServer as createViteServer, build } from 'vite';
@@ -18,39 +20,70 @@ let server, chrome, ws, vite;
 
 try {
   const packageSource = process.env.ORNAMENTS_PACKAGE;
-  let install;
+  const assetSource = process.env.ORNAMENTS_ASSETS_PACKAGE;
+  let install, assetInstall;
+  const expectedAssets = assetPaths(await assetCatalog());
   if (packageSource) install = packageSource;
   else {
     const packed = JSON.parse((await exec('npm', ['pack', '--json', '--pack-destination', folder], { cwd: root, maxBuffer: 3e6 })).stdout)[0];
-    const allowed = /^(?:lib\/|svg\/|png\/|webp\/|docs\/INTEGRATION\.md$|ornaments\.css$|package\.json$|README\.md$|SELECTION\.md$|USAGE\.md$|LICENSE$|ASSET-RIGHTS\.md$)/;
-    assert.ok(packed.files.every(file => allowed.test(file.path)), 'Unexpected packed file');
-    const catalog = JSON.parse(await readFile(path.join(root, 'images.json')));
-    const expectedAssets = [...new Set(catalog.flatMap(item => [item, ...Object.values(item.components)].flatMap(component => [component, ...component.variants].flatMap(asset => ['svg', 'png', 'webp'].filter(format => asset[format]).map(format => asset[format])))))].sort();
-    assert.deepEqual(packed.files.filter(file => /^(svg|png|webp)\//.test(file.path)).map(file => file.path).sort(), expectedAssets);
+    const allowed = /^(?:lib\/|docs\/(?:INTEGRATION|PERFORMANCE)\.md$|ornaments\.css$|package\.json$|README\.md$|SELECTION\.md$|USAGE\.md$|LICENSE$|ASSET-RIGHTS\.md$)/;
+    assert.ok(packed.files.every(file => allowed.test(file.path)), 'Unexpected runtime packed file');
+    assert.deepEqual(packed.files.filter(file => /^(svg|png|webp)\//.test(file.path)), [], 'Runtime must contain no artwork');
+    assert.ok(packed.size < 150_000 && packed.unpackedSize < 1_000_000, 'Lean runtime size budget');
     assert.ok(packed.files.find(file => file.path === 'lib/cli.js').mode & 0o111);
-    records.push({ package: { bytes: packed.size, unpacked: packed.unpackedSize, files: packed.entryCount } });
+    records.push({ package: { bytes: packed.size, unpacked: packed.unpackedSize, files: packed.entryCount, integrity: packed.integrity, archive: path.join(folder, packed.filename) } });
     install = path.join(folder, packed.filename);
+  }
+  if (assetSource) assetInstall = assetSource;
+  else {
+    await exec(process.execPath, ['scripts/build-assets-package.mjs'], { cwd: root });
+    const packed = JSON.parse((await exec('npm', ['pack', '--json', '--pack-destination', folder], { cwd: path.join(root, 'dist/medieval-ornaments-assets'), maxBuffer: 3e6 })).stdout)[0];
+    assert.ok(packed.files.every(file => /^(?:svg\/|png\/|webp\/|catalog\.json$|assets-manifest\.json$|package\.json$|README\.md$|LICENSE$|ASSET-RIGHTS\.md$)/.test(file.path)), 'Unexpected artwork packed file');
+    assert.deepEqual(packed.files.filter(file => /^(svg|png|webp)\//.test(file.path)).map(file => file.path).sort(), expectedAssets);
+    records.push({ assetPackage: { bytes: packed.size, unpacked: packed.unpackedSize, files: packed.entryCount, integrity: packed.integrity, archive: path.join(folder, packed.filename) } });
+    assetInstall = path.join(folder, packed.filename);
   }
   await mkdir(app);
   await writeFile(path.join(app, 'package.json'), '{"private":true,"type":"module"}');
   await exec('npm', ['install', install, '--ignore-scripts', '--no-audit', '--no-fund', ...(packageSource ? [] : ['--offline'])], { cwd: app });
   const installed = path.join(app, 'node_modules/@ranx729/medieval-ornaments');
   await assert.rejects(access(path.join(app, 'node_modules/react')), 'Vanilla consumers must not require React');
+  await assert.rejects(access(path.join(app, 'node_modules/@ranx729/medieval-ornaments-assets')), 'Normal installs must not fetch artwork');
+  await assert.rejects(access(path.join(installed, 'svg')), 'Runtime must contain no artwork');
   const manifest = JSON.parse(await readFile(path.join(installed, 'package.json')));
+  assert.ok(!manifest.dependencies && !manifest.optionalDependencies, 'No automatic artwork dependencies');
   const api = await import(pathToFileURL(path.join(installed, 'lib/index.js')));
   assert.equal(api.version, manifest.version);
-  // Exercise the actual installed bin, not just a checkout function.
+  assert.equal(api.assetsPackage, manifest.ornamentAssets.package);
+  assert.equal(api.assetsVersion, manifest.ornamentAssets.version);
+  assert.equal(api.defaultAssetsBase, `https://unpkg.com/${api.assetsPackage}@${api.assetsVersion}/`);
   const bin = path.join(app, 'node_modules/.bin/medieval-ornaments');
-  await exec(process.execPath, [bin, 'copy-assets', path.join(folder, 'local/ornaments')]);
+  await assert.rejects(exec(process.execPath, [bin, 'copy-assets', path.join(folder, 'offline-missing'), '--offline'], { cwd: app }), /Offline artwork not found/);
+  // Install artwork explicitly, then exercise consumer-local discovery through the real bin.
+  await exec('npm', ['install', '--save-dev', assetInstall, '--ignore-scripts', '--no-audit', '--no-fund', ...(assetSource ? [] : ['--offline'])], { cwd: app });
+  const companion = path.join(app, 'node_modules', api.assetsPackage);
+  const artworkPackage = JSON.parse(await readFile(path.join(companion, 'package.json')));
+  assert.equal(artworkPackage.version, api.assetsVersion);
+  assert.ok(!artworkPackage.dependencies && !artworkPackage.peerDependencies);
+  assert.deepEqual(await readFile(path.join(companion, 'assets-manifest.json')), await readFile(path.join(root, 'assets-manifest.json')));
+  const require = createRequire(path.join(app, 'package.json'));
+  for (const relative of ['svg/red-berry-vine.svg', 'png/128/floral-bird-panel-blue.png', 'webp/128/floral-bird-panel-blue.webp']) {
+    assert.equal(require.resolve(api.assetsPackage + '/' + relative), path.join(companion, relative));
+  }
+  await assert.rejects(exec(process.execPath, [bin, 'copy-assets', companion, '--offline'], { cwd: app }), /outside the package directory and artwork source/);
+  // Copying all assets also checks each packed image against the trusted byte/hash manifest.
+  await exec(process.execPath, [bin, 'copy-assets', path.join(folder, 'local/ornaments'), '--offline'], { cwd: app });
   const copied = JSON.parse(await readFile(path.join(folder, 'local/ornaments/catalog.json')));
   assert.equal(copied.length, api.ornaments.length);
+  records.push({ kind: 'lean-install-optional-offline-artwork', assetsPackage: api.assetsPackage, assetsVersion: api.assetsVersion, verifiedFiles: expectedAssets.length });
   await writeFile(path.join(folder, 'native.html'), `<!doctype html><html lang="en" data-assets-base="/local/ornaments/"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="stylesheet" href="/local/ornaments/ornaments.css"><script type="importmap">{"imports":{"@ranx729/medieval-ornaments":"/app/node_modules/@ranx729/medieval-ornaments/lib/index.js"}}</script><body><article id="frame" class="existing" style="color:red;--ornament-size:7px"><input id="note" value="Initial"></article><div id="divider"></div><img id="whole" alt="Original"><script type="module">import * as api from '@ranx729/medieval-ornaments';window.api=api;const assetsBase='/local/ornaments/';window.frame=api.createFrame(document.getElementById('frame'),{design:'red-berry-vine',size:33,assetsBase});window.divider=api.createDivider(document.getElementById('divider'),{design:'plate-02-stepped-ribbon',assetsBase});window.whole=api.createOrnamentImage(document.getElementById('whole'),{design:'floral-bird-panel-blue',size:128,assetsBase});document.body.dataset.ready='true';</script></body></html>`);
+  await writeFile(path.join(folder,'lazy-native.html'),`<!doctype html><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="stylesheet" href="/local/ornaments/ornaments.css"><div style="height:10000px"></div><article id="frame" class="existing" style="height:180px;--ornament-size:7px"><input id="note" value="Keep me"></article><div id="divider"></div><img id="whole" width="13" height="17" loading="eager"><script type="module">import * as api from '/app/node_modules/@ranx729/medieval-ornaments/lib/index.js';window.api=api;const assetsBase='/local/ornaments/',loading='lazy';window.frame=api.createFrame(document.getElementById('frame'),{design:'red-berry-vine',assetsBase,loading});window.divider=api.createDivider(document.getElementById('divider'),{design:'plate-02-stepped-ribbon',assetsBase,loading});window.whole=api.createOrnamentImage(document.getElementById('whole'),{design:'gold-scroll-with-blue-bellflowers',assetsBase,loading,size:80,decoding:'async',fetchPriority:'low'});window.original=document.getElementById('note');document.body.dataset.ready='true';</script>`);
   // A vanilla bundled consumer under a nested deployment root.
   const vanilla = path.join(folder, 'vanilla');
   await mkdir(vanilla);
   await symlink(path.join(app, 'node_modules'), path.join(vanilla, 'node_modules'), 'dir');
   await writeFile(path.join(vanilla, 'index.html'), '<!doctype html><meta charset="utf-8"><div id="divider"></div><script type="module" src="/main.js"></script>');
-  await writeFile(path.join(vanilla, 'main.js'), `import {createDivider} from '@ranx729/medieval-ornaments';import '@ranx729/medieval-ornaments/styles.css';window.divider=createDivider(document.getElementById('divider'),{design:'plate-02-stepped-ribbon',orientation:'horizontal',assetsBase:'/local/ornaments/'});document.body.dataset.ready='true';`);
+  await writeFile(path.join(vanilla, 'main.js'), `import {createDivider} from '@ranx729/medieval-ornaments';import '@ranx729/medieval-ornaments/styles.css';import imageUrl from '@ranx729/medieval-ornaments-assets/webp/128/floral-bird-panel-blue.webp?url';window.importedAsset=imageUrl;window.divider=createDivider(document.getElementById('divider'),{design:'plate-02-stepped-ribbon',orientation:'horizontal',assetsBase:'/local/ornaments/'});document.body.dataset.ready='true';`);
   await build({ root: vanilla, configFile: false, base: '/vanilla/dist/', logLevel: 'error' });
   for (const name of ['react', 'react-dom', '@types']) await symlink(path.join(root, 'node_modules', name), path.join(app, 'node_modules', name), 'dir');
   // One imported component must retain its CSS through production tree shaking.
@@ -67,9 +100,13 @@ try {
   const markup = renderToString(h(OrnamentFrame, { design: 'red-berry-vine', assetsBase: '/local/ornaments/', id: 'hydrated' }, h('input', { id: 'hydrated-input', defaultValue: 'Server value' }), h(OrnamentDivider, { design: 'plate-02-stepped-ribbon', assetsBase: '/local/ornaments/', id: 'hydrated-divider' }), h(OrnamentImage, { design: 'floral-bird-panel-blue', assetsBase: '/local/ornaments/', size: 128, alt: 'Birds and flowers' })));
   await writeFile(path.join(app, 'hydrate.html'), `<!doctype html><html><meta charset="utf-8"><div id="root">${markup}</div><script type="module" src="/hydrate.jsx"></script></html>`);
   await writeFile(path.join(app, 'hydrate.jsx'), `import React,{StrictMode,useState,useRef,useEffect} from 'react';import {hydrateRoot} from 'react-dom/client';import {OrnamentFrame,OrnamentDivider,OrnamentImage} from '@ranx729/medieval-ornaments/react';window.before=document.getElementById('hydrated-input');before.value='Typed before hydration';function App(){const [orientation,setOrientation]=useState('original'),ref=useRef(null);useEffect(()=>{window.hydrationReady=true;window.forwarded=ref.current;window.changeOrientation=setOrientation;},[]);return <OrnamentFrame design="red-berry-vine" assetsBase="/local/ornaments/" id="hydrated" ref={ref}><input id="hydrated-input" defaultValue="Server value"/><OrnamentDivider design="plate-02-stepped-ribbon" orientation={orientation} assetsBase="/local/ornaments/" id="hydrated-divider"/><OrnamentImage design="floral-bird-panel-blue" assetsBase="/local/ornaments/" size={128} alt="Birds and flowers"/></OrnamentFrame>}hydrateRoot(document.getElementById('root'),<StrictMode><App/></StrictMode>);`);
+  const lazyMarkup=renderToString(h('div',null,h('div',{style:{height:10000}}),h(OrnamentFrame,{id:'frame',design:'red-berry-vine',loading:'lazy',assetsBase:'/local/ornaments/',style:{height:180}},h('input',{id:'note',defaultValue:'Keep me'})),h(OrnamentDivider,{id:'divider',design:'plate-02-stepped-ribbon',loading:'lazy',assetsBase:'/local/ornaments/'}),h(OrnamentImage,{id:'whole',design:'gold-scroll-with-blue-bellflowers',loading:'lazy',assetsBase:'/local/ornaments/',size:80,decoding:'async',fetchPriority:'low'})));
+  await writeFile(path.join(app,'lazy.html'),`<!doctype html><meta name="viewport" content="width=device-width,initial-scale=1"><div id="root">${lazyMarkup}</div><script type="module" src="/lazy.jsx"></script>`);
+  await writeFile(path.join(app,'lazy.jsx'),`import React,{StrictMode,useState,useEffect,useRef} from 'react';import {hydrateRoot} from 'react-dom/client';import {OrnamentFrame,OrnamentDivider,OrnamentImage} from '@ranx729/medieval-ornaments/react';window.original=document.getElementById('note');original.value='Before hydration';function App(){const [design,setDesign]=useState('red-berry-vine'),[loading,setLoading]=useState('lazy'),ref=useRef(null);useEffect(()=>{window.lazyReady=true;window.setLazyDesign=setDesign;window.setLazyLoading=setLoading;window.forwarded=ref.current;},[]);return <div><div style={{height:10000}}/><OrnamentFrame id="frame" design={design} loading={loading} ref={ref} assetsBase="/local/ornaments/" style={{height:180}}><input id="note" defaultValue="Keep me"/></OrnamentFrame><OrnamentDivider id="divider" design="plate-02-stepped-ribbon" loading="lazy" assetsBase="/local/ornaments/"/><OrnamentImage id="whole" design="gold-scroll-with-blue-bellflowers" loading="lazy" assetsBase="/local/ornaments/" size={80} decoding="async" fetchPriority="low"/></div>}hydrateRoot(document.getElementById('root'),<StrictMode><App/></StrictMode>);`);
   await cp(path.join(root, 'tests/types.tsx'), path.join(app, 'types.tsx'));
   await exec(process.execPath, [path.join(root, 'node_modules/typescript/bin/tsc'), '--noEmit', '--strict', '--noUncheckedSideEffectImports', '--module', 'nodenext', '--target', 'es2022', '--jsx', 'react-jsx', 'types.tsx'], { cwd: app });
-  await build({ root: app, configFile: false, base: '/app/dist/', logLevel: 'error' });
+  const buildApp=()=>build({ root: app, configFile: false, base: '/app/dist/', logLevel: 'error',build:{rollupOptions:{input:{main:path.join(app,'index.html'),lazy:path.join(app,'lazy.html')}}} });
+  await buildApp();
   const mime = { '.html': 'text/html', '.js': 'text/javascript', '.css': 'text/css', '.webp': 'image/webp', '.svg': 'image/svg+xml', '.png': 'image/png', '.json': 'application/json' };
   server = createServer(async (request, response) => {
     try {
@@ -125,6 +162,8 @@ try {
   const initialImages = requests.filter(url => /\.(webp|svg|png)$/.test(url));
   assert.equal(new Set(initialImages).size, 3, 'Only chosen images should load');
   assert.ok(initialImages.every(url => url.startsWith(origin + '/local/ornaments/')));
+  const redundantWrites=await evaluate(`(()=>{const observer=new MutationObserver(()=>{});for(const el of [frame.element,divider.element,whole.element])observer.observe(el,{attributes:true});for(let i=0;i<20;i++){frame.update({});divider.update({});whole.update({});}const count=observer.takeRecords().length;observer.disconnect();return count;})()`);
+  assert.equal(redundantWrites,0,'Unchanged updates should not rewrite image sources or geometry');
   await evaluate(`window.original=document.getElementById('note');original.focus();original.value='Keep my note';`);
   // All designs through their installed DOM controllers, both axes and fractional densities.
   for (const item of api.findOrnaments({ use: 'divider' })) {
@@ -148,10 +187,41 @@ try {
   await evaluate(`frame=api.createFrame(document.getElementById('frame'),{design:'red-berry-vine',size:33,assetsBase:'/local/ornaments/'});frame.element.style.setProperty('--ornament-size','11px');frame.destroy();whole.element.alt='External edit';whole.destroy();`);
   assert.equal(await evaluate(`document.getElementById('frame').style.getPropertyValue('--ornament-size')==='11px'&&document.getElementById('whole').alt==='External edit'&&!document.getElementById('whole').hasAttribute('src')`), true);
   await navigate(origin + '/vanilla/dist/', `document.body?.dataset.ready==='true'`); await decodeImages(); checkGeometry(await geometry());
-  assert.equal((await geometry()).axis, 'x'); records.push({ kind: 'vanilla-bundled' });
+  assert.equal((await geometry()).axis, 'x'); assert.ok(await evaluate(`typeof window.importedAsset==='string'&&window.importedAsset.length>0`)); records.push({ kind: 'vanilla-bundled-direct-asset-import' });
   await navigate(origin + '/single-react/dist/', `!!document.getElementById('divider')`); await decodeImages(); checkGeometry(await geometry());
   assert.equal(await evaluate(`getComputedStyle(document.getElementById('divider'),'::before').content`), '""');
   records.push({ kind: 'single-react-automatic-styles' });
+
+  const noArtworkSince=start=>requests.slice(start).filter(url=>/\.(svg|png|webp)$/.test(url));
+  const pendingArt=()=>evaluate(`getComputedStyle(document.getElementById('frame')).borderImageSource==='none'&&getComputedStyle(document.getElementById('divider'),'::before').backgroundImage==='none'`);
+  let lazyStart=requests.length;
+  await navigate(origin+'/lazy-native.html',`document.body?.dataset.ready==='true'`);await pause(250);
+  assert.deepEqual(noArtworkSince(lazyStart),[],'Offscreen lazy vanilla artwork requested');assert.equal(await pendingArt(),true);
+  const beforeBox=await evaluate(`(()=>{const b=whole.element.getBoundingClientRect();return [b.width,b.height]})()`);
+  await evaluate(`frame.update({design:'red-rosette-vine'});divider.update({orientation:'horizontal'});frame.destroy();window.restored=document.getElementById('frame').className==='existing'&&document.getElementById('frame').style.getPropertyValue('--ornament-size')==='7px'&&!document.getElementById('frame').style.getPropertyValue('--ornament-image');frame=api.createFrame(document.getElementById('frame'),{design:'red-rosette-vine',assetsBase:'/local/ornaments/',loading:'lazy'});`);
+  assert.equal(await evaluate('window.restored'),true);assert.equal(await pendingArt(),true);
+  await evaluate(`document.getElementById('frame').scrollIntoView({block:'center'})`);
+  await until(`getComputedStyle(document.getElementById('frame')).borderImageSource.includes('red-rosette-vine')`);await decodeImages();
+  assert.equal((await geometry()).axis,'x');checkGeometry(await geometry());
+  assert.equal(await evaluate(`original===document.getElementById('note')&&original.value==='Keep me'`),true);
+  assert.deepEqual(await evaluate(`(()=>{const b=whole.element.getBoundingClientRect();return [b.width,b.height]})()`),beforeBox,'Image geometry shifted after decoding');
+  await evaluate(`whole.destroy()`);
+  assert.equal(await evaluate(`document.getElementById('whole').width===13&&document.getElementById('whole').height===17&&document.getElementById('whole').loading==='eager'&&!document.getElementById('whole').hasAttribute('decoding')&&!document.getElementById('whole').hasAttribute('fetchpriority')`),true,'Restore native loading attributes');
+  records.push({kind:'lazy-vanilla-noop-dimensions-teardown'});
+  async function exerciseLazyReact(url,label){
+    await navigate('about:blank',`document.readyState==='complete'`);
+    const start=requests.length;await navigate(url,'window.lazyReady===true');await pause(250);
+    assert.deepEqual(noArtworkSince(start),[],label+' offscreen image requests');assert.equal(await pendingArt(),true);
+    assert.equal(await evaluate(`original===document.getElementById('note')&&original.value==='Before hydration'&&forwarded===document.getElementById('frame')`),true);
+    await evaluate(`setLazyDesign('red-rosette-vine')`);await pause(100);assert.equal(await pendingArt(),true);
+    await evaluate(`setLazyLoading('eager')`);await until(`getComputedStyle(document.getElementById('frame')).borderImageSource.includes('red-rosette-vine')`);
+    await evaluate(`setLazyLoading('lazy')`);await pause(100);
+    assert.equal(await evaluate(`getComputedStyle(document.getElementById('frame')).borderImageSource.includes('red-rosette-vine')`),true,'Keep previously activated artwork');
+    await evaluate(`document.getElementById('frame').scrollIntoView({block:'center'})`);
+    await until(`getComputedStyle(document.getElementById('divider'),'::before').backgroundImage!=='none'`);await decodeImages();
+    assert.equal(await evaluate(`original===document.getElementById('note')&&original.value==='Before hydration'`),true);
+    records.push({kind:label+'-lazy-hydration-updates'});
+  }
 
   async function exerciseReact(url, label) {
     await navigate(url, `document.getElementById('divider')?.classList.contains('ornament-divider')`);
@@ -182,6 +252,7 @@ try {
     records.push({ kind: label });
   }
   await exerciseReact(origin + '/app/dist/', 'react19-production');
+  await exerciseLazyReact(origin+'/app/dist/lazy.html','react19-production');
   vite = await createViteServer({ root: app, configFile: false, logLevel: 'error', ssr: { noExternal: ['@ranx729/medieval-ornaments'] }, server: { host: '127.0.0.1', port: 0 },
     plugins: [{ name: 'fixture-public-assets', configureServer(instance) {
       instance.middlewares.use('/local/ornaments', async (request, response, next) => {
@@ -205,6 +276,7 @@ try {
   await evaluate(`window.changeOrientation('horizontal')`); await until(`document.getElementById('hydrated-divider').dataset.axis==='x'`);
   assert.equal(await evaluate(`before===document.getElementById('hydrated-input')&&before.value==='Typed before hydration'`), true);
   records.push({ kind: 'hydration-ref-state' });
+  await exerciseLazyReact(dev+'lazy.html','react19-development');
   await vite.close(); vite = null;
 
   // Exercise the declared older peer too, including its SSR and public types.
@@ -215,8 +287,9 @@ try {
   await exec(process.execPath, [path.join(root, 'node_modules/typescript/bin/tsc'), '--noEmit', '--strict', '--noUncheckedSideEffectImports', '--module', 'nodenext', '--target', 'es2022', '--jsx', 'react-jsx', 'types.tsx'], { cwd: app });
   await writeFile(path.join(app, 'ssr.mjs'), `import {createElement as h} from 'react';import {renderToString} from 'react-dom/server';import {OrnamentDivider} from '@ranx729/medieval-ornaments/react/unstyled';if(!renderToString(h(OrnamentDivider,{design:'plate-02-stepped-ribbon'})).includes('data-axis="y"'))throw Error('SSR axis');`);
   await exec(process.execPath, ['ssr.mjs'], { cwd: app });
-  await build({ root: app, configFile: false, base: '/app/dist/', logLevel: 'error' });
+  await buildApp();
   await exerciseReact(origin + '/app/dist/', 'react18-production');
+  await exerciseLazyReact(origin+'/app/dist/lazy.html','react18-production');
   assert.deepEqual(errors, [], 'Browser errors'); assert.deepEqual(failed, [], 'Missing assets');
   assert.ok(requests.filter(url => /\.(svg|png|webp)$/.test(url)).every(url => new URL(url).hostname === '127.0.0.1' && new URL(url).pathname.startsWith('/local/ornaments/')), 'Unexpected external image requests');
   await writeFile(path.join(root, 'tmp/package-integration.json'), JSON.stringify({ folder, records, errors, failed }, null, 2));

@@ -8,7 +8,11 @@ npm install @ranx729/medieval-ornaments
 
 The core has no runtime dependencies. React is an optional peer dependency.
 Use ESM imports with a bundler, or native browser modules as described below.
-The package includes TypeScript declarations and the cataloged SVG/PNG/WebP assets.
+Since 0.4.0 the runtime contains JavaScript, CSS, TypeScript declarations and the
+catalog, without the large artwork archive. Normal installs do not download
+artwork or install the optional `@ranx729/medieval-ornaments-assets` package.
+Components fetch selected images from the independently pinned asset CDN by
+default. Self-hosting and offline workflows are described below.
 Code and artwork have separate licensing scopes: see [LICENSE](../LICENSE) and
 [ASSET-RIGHTS.md](../ASSET-RIGHTS.md).
 
@@ -37,9 +41,15 @@ crops and individual corners are advanced assets available in the catalog.
 | `format` | `auto` | `svg`, `webp`, `png`, or `auto`; auto selects SVG for six floral vectors, WebP for painted artwork |
 | `pixelRatio` | 2 | Positive raster density multiplier; deterministic across browser/server |
 | `assetsBase` | Version-pinned CDN | Absolute http(s) public URL or root-relative path such as `/ornaments/` |
+| `loading` | `eager` | Optional `lazy` artwork loading; native for whole images, shared viewport observer for frames/dividers |
 | `orientation` | `original` | Divider only: `original`, `horizontal`, or `vertical` |
 | `length` | Horizontal `100%`, vertical 256 | Divider only: available pixel number or positive CSS length/percentage |
 | `alt` | Empty | Whole image only: meaningful text when the image conveys content |
+| `decoding` | `auto` | Whole image only: native `auto`, `async`, or `sync` decode hint |
+| `fetchPriority` | `auto` | Whole image only: native `auto`, `high`, or `low` fetch hint |
+
+Frame/divider lazy loading, validated vanilla image hints and automatic image
+dimension reservation are available in 0.4.0.
 
 `length` accepts ordinary positive units such as `%`, `px`, `rem`, `em`, `vw`,
 `vh`, `svh`, `dvh`, and `ch`. Expressions such as `calc()` are outside the shared
@@ -152,6 +162,49 @@ length) are managed by the library. Frame padding, text, backgrounds, spacing,
 and application layout are yours. Avoid overriding the frame border geometry
 or divider pseudo-element; no rounded clipping of ornate frames is promised.
 
+## Performance options
+
+Choose lazy loading for artwork below the fold, and keep prominent artwork
+eager. The same option works in both APIs:
+
+```jsx
+<OrnamentFrame design="red-berry-vine" loading="lazy"><YourContent /></OrnamentFrame>
+<OrnamentDivider design="plate-02-stepped-ribbon" loading="lazy" />
+<OrnamentImage design="gold-scroll-with-blue-bellflowers" size={96}
+  loading="lazy" decoding="async" fetchPriority="low" />
+```
+
+```js
+createFrame(element, { design: 'red-berry-vine', loading: 'lazy' });
+createOrnamentImage(img, {
+  design: 'gold-scroll-with-blue-bellflowers', size: 96,
+  loading: 'lazy', decoding: 'async', fetchPriority: 'low'
+});
+```
+
+Frames/dividers retain their dimensions, borders and children immediately,
+but omit the artwork URL until they intersect the viewport plus a 200px margin.
+One observer per window serves all pending decorations and releases targets
+after loading or teardown. Changing pending artwork loads the latest design;
+switching to eager activates it immediately. Activated artwork stays active
+when scrolling away. Browsers without `IntersectionObserver` load it eagerly.
+Lazy CSS artwork requires client JavaScript; lazy SSR markup contains the
+content/geometry and activates after hydration. Native image lazy loading uses
+the browser's own distance threshold rather than the library's 200px margin.
+
+Whole images include source width/height attributes to reserve their proportions
+before decoding. Continue using `size` to control display height. `decoding`
+and `fetchPriority` are browser hints, not guarantees or CSS background options.
+For prominent whole-image artwork, use `loading="eager"` and optionally
+`fetchPriority="high"`; avoid lazily loading the page's main image.
+
+Keep `format="auto"` for source artwork: detailed traces can be tens of MB,
+whereas selected lossless WebP variants are much smaller. The six floral
+vectors retain their scalable SVG default. Self-host only the designs/formats
+you use, compress text assets, and cache versioned URLs. See the measured
+[performance audit](PERFORMANCE.md) for bundle, image, rendering, package-size,
+and caching findings and the reproducible audit command.
+
 ## Finding designs
 
 ```js
@@ -203,27 +256,51 @@ SVG. Requesting an unsupported format or use throws a useful error.
 
 ## CDN or self-hosting
 
-By default, image URLs use the exact installed package version:
+The runtime pins an independent artwork revision. Runtime 0.4.0 uses:
 
 ```text
-https://unpkg.com/@ranx729/medieval-ornaments@0.3.2/
+https://unpkg.com/@ranx729/medieval-ornaments-assets@0.3.2/
 ```
 
-UNPKG replaces the previous jsDelivr default because the detailed color traces exceed jsDelivr's [150 MB package limit](https://www.jsdelivr.com/documentation). URLs remain pinned to the installed version.
+The public exports `assetsPackage`, `assetsVersion` and `defaultAssetsBase`
+identify this pin. Code-only releases can retain it. URLs never follow `latest`
+or the repository branch. UNPKG hosts the detailed traces; their archive exceeds
+jsDelivr's [150 MB package limit](https://www.jsdelivr.com/documentation).
 
-Only selected images are requested; the image collection is not embedded in
-your JavaScript bundle. This mode requires access to that CDN and an appropriate
-`img-src` policy. Install updates to obtain new artwork; URLs do not follow
-`latest` or the repository's main branch.
+Only selected images are requested; the collection is not embedded in your
+JavaScript bundle. This mode requires CDN access and an appropriate `img-src`
+policy. Install a runtime update to obtain a new supported artwork revision.
 
-For local/offline assets:
+To self-host selected designs without installing the complete asset archive:
 
 ```sh
-npx medieval-ornaments copy-assets public/ornaments
-# Or copy just the designs you use, with all their components and sizes:
 npx medieval-ornaments copy-assets public/ornaments \
   --design red-berry-vine --design floral-bird-panel-blue
 ```
+
+The command downloads only their cataloged files, components and sizes. With no
+`--design`, it deliberately downloads the complete collection. It verifies the
+pinned SHA-256 manifest, each file's byte count and checksum, streams at most
+four files concurrently, and replaces each image only after verification.
+Failed transfers remove temporary files; already verified files may remain,
+and rerunning the command is safe. There is no install-time download hook.
+
+For fully offline copies or direct asset imports, explicitly install the
+matching artwork package:
+
+```sh
+npm install --save-dev @ranx729/medieval-ornaments-assets@0.3.2
+npx --no-install medieval-ornaments copy-assets public/ornaments \
+  --design red-berry-vine --offline
+```
+
+The command discovers the exact matching version in your project or alongside
+the runtime. `--offline` makes no network requests and fails clearly if artwork
+is absent. An installed different artwork revision is skipped; ordinary mode
+falls back to the pinned CDN, and offline mode reports the missing revision.
+You can supply a local checkout, extracted browser ZIP, or HTTP(S) mirror with
+`--from <directory-or-URL>`. Mirrors must retain the pinned `assets-manifest.json`
+and selected relative asset paths. Combine local `--from` with `--offline`.
 
 Then pass `assetsBase: '/ornaments/'` or `<OrnamentFrame assetsBase="/ornaments/" .../>`.
 For an application deployed at `/garden/`, use `/garden/ornaments/`. A filesystem
@@ -231,22 +308,35 @@ destination and a public URL are different: supply your application's actual
 public path. Relative paths such as `./ornaments/` are rejected because CSS
 image URLs would otherwise resolve against the stylesheet instead of the page.
 
-The copy command also includes shared CSS, rights notices, and a filtered
+The copy command includes shared CSS, rights notices and a filtered
 `catalog.json`. `--format webp`/`png`/`svg` copies just one format; request that
 same format in the application, since `auto` may choose another. SVG-only
-copying requires selecting designs that have SVG. The command does not remove
-unrelated existing files and refuses to overwrite the installed package.
+copying requires selecting compatible designs. Existing unrelated files are
+retained. Destinations must be outside both installed runtime and artwork
+source directories; external destination symlinks are rejected.
 
-Direct asset imports are exported too, e.g.
-`@ranx729/medieval-ornaments/webp/128/floral-bird-panel-blue.webp`. Their handling
-depends on the application's bundler. The standard component path does not
-depend on bundler-specific dynamic asset imports.
+### Migrating from 0.3.x
+
+Component imports, design names, options, CSS, `assetsBase` and the copy command
+retain their API. Direct image imports move to the optional artwork package:
+
+```js
+// Install the matching assets package first; Vite example:
+import panelUrl from '@ranx729/medieval-ornaments-assets/webp/128/floral-bird-panel-blue.webp?url';
+```
+
+Replace the old `@ranx729/medieval-ornaments/svg/...`, `/png/...` and `/webp/...`
+prefixes with `@ranx729/medieval-ornaments-assets/...`. Their handling depends on
+your bundler. The standard component API needs no asset-package installation.
+Offline CI must install that optional package or supply a verified local mirror;
+previously the artwork was included in every runtime installation. Versions
+0.3.x and their existing pinned CDN URLs remain available.
 
 ## Native browser modules, no bundler
 
 Download the [browser ZIP](https://adrian729.github.io/medieval-ornaments/medieval-ornaments-browser.zip)
 and serve it over HTTP. It includes a self-hosted vanilla example. Or copy the
-package's `lib/`, artwork folders, and `ornaments.css` to your static site:
+runtime's `lib/` and `ornaments.css`, plus the companion's artwork folders, to your static site:
 
 ```html
 <link rel="stylesheet" href="/vendor/ornaments/ornaments.css">
@@ -284,9 +374,33 @@ npm run build:browser
 npm pack
 ```
 
-Integration checks install a real archive into independent consumers and use
-Chromium (`CHROME_BIN` overrides the executable). See repository QA.md for the
-recorded coverage and limitations. Regenerate catalog/types after artwork
-changes and bump the package version before publishing. Rebuild before
-publishing so CDN URLs pin the new version. `npm publish --access public` runs
-the package metadata build via `prepack`; complete validations beforehand.
+Integration checks pack both distributions, install the runtime alone, then
+explicitly install the companion and verify every artwork file through offline
+copying. They exercise Chromium (`CHROME_BIN` overrides the executable) and real
+React 18/19 consumers. See QA.md for recorded coverage and limitations.
+
+For a code-only release, bump the root package/lockfile version, retain
+`ornamentAssets.version`, run the checks, and publish the tested runtime archive.
+`prepack` builds metadata only; it never renders, copies or downloads artwork.
+
+For an artwork/catalog change, audit and regenerate only the approved designs,
+bump `packages/assets/package.json` and root `ornamentAssets.version` together,
+then run:
+
+```sh
+npm run build:assets -- --update-manifest
+npm run build
+# Run all release checks, including packed consumers and artwork/browser QA.
+# The companion is staged here; pack and publish its tested archive first:
+cd dist/medieval-ornaments-assets
+npm pack
+```
+
+`build:assets` without `--update-manifest` verifies all files against the
+checked-in manifest and stages approved existing bytes. It rejects artwork
+changes under an unchanged asset version. Publish the companion before a runtime
+that pins it; verify actual CDN availability and checksums before releasing the
+runtime. Source sheets and tracing tools stay outside both npm distributions.
+Post-publication integration accepts `ORNAMENTS_PACKAGE` and
+`ORNAMENTS_ASSETS_PACKAGE` registry specs. Keep the complete browser ZIP and Pages
+self-hosted examples built and verified as part of the release.

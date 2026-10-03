@@ -10,7 +10,7 @@
 <title>Medieval ornaments · Browse by use and category</title>
 <link rel="stylesheet" href="../ornaments.css">
 <style>
-*{box-sizing:border-box}body{margin:0;background:#ece7dc;color:#28251e;font:16px/1.5 system-ui,sans-serif}main{max-width:1240px;margin:auto;padding:28px}h1{margin:0;font:36px Georgia,serif}h2{font:24px Georgia,serif}p{max-width:850px}a{color:#704123}label{display:grid;gap:6px;font-size:14px;min-width:0;max-width:100%}select,input[type=search]{max-width:100%;width:260px;padding:8px;font:inherit}input[type=range]{width:160px}button{font:inherit;cursor:pointer}button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid #704123;outline-offset:3px}.browse,.controls{padding:20px;background:#faf8f1;border-radius:8px;margin:20px 0}.filters,.controls{display:flex;flex-wrap:wrap;gap:18px}.controls{margin-bottom:0}.design-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:12px;max-height:340px;overflow:auto;padding:6px 3px}.design-card{background:#f0ebdd;border:2px solid transparent;border-radius:6px;color:inherit;text-align:left;padding:10px;min-width:0}.design-card[aria-pressed=true]{border-color:#704123;background:#fff8e7}.design-card img{width:100%;height:72px;object-fit:contain;display:block;margin-bottom:8px}.design-card strong{display:block;font-size:13px;font-weight:600}.design-card small{display:block;color:#6b6156;margin-top:4px;font-size:11px}.result-count,.usage-note{color:#6b6156;font-size:14px}.stage{padding:28px 10px;overflow:auto;background:#f6f2e6;margin-top:20px;border-radius:8px;min-height:260px}.stage.dark{background:#252b30;color:#f5efe1}.frame{margin:auto;display:flex;align-items:center;justify-content:center;text-align:center;flex-direction:column;padding:12px}.frame h2{margin:8px;font-size:28px}.frame p{font-size:14px;max-width:360px}.standalone,#previewStrip{margin:auto}.details{display:flex;flex-wrap:wrap;align-items:flex-start;gap:32px;margin-top:24px}.detail{max-width:560px}.sample{padding:14px;background:#faf8f1;max-width:100%;overflow:hidden}#strip{max-width:100%}#original{max-width:100%;height:auto}#corner{width:96px;height:96px}code{font-size:13px;overflow-wrap:anywhere}footer{font-size:13px;margin-top:36px}.links{display:flex;gap:15px;flex-wrap:wrap}[hidden]{display:none!important}
+*{box-sizing:border-box}body{margin:0;background:#ece7dc;color:#28251e;font:16px/1.5 system-ui,sans-serif}main{max-width:1240px;margin:auto;padding:28px}h1{margin:0;font:36px Georgia,serif}h2{font:24px Georgia,serif}p{max-width:850px}a{color:#704123}label{display:grid;gap:6px;font-size:14px;min-width:0;max-width:100%}select,input[type=search]{max-width:100%;width:260px;padding:8px;font:inherit}input[type=range]{width:160px}button{font:inherit;cursor:pointer}button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid #704123;outline-offset:3px}.browse,.controls{padding:20px;background:#faf8f1;border-radius:8px;margin:20px 0}.filters,.controls{display:flex;flex-wrap:wrap;gap:18px}.controls{margin-bottom:0}.design-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:12px;height:340px;overflow:auto;padding:6px 3px}.design-card{background:#f0ebdd;border:2px solid transparent;border-radius:6px;color:inherit;text-align:left;padding:10px;min-width:0}.design-card[aria-pressed=true]{border-color:#704123;background:#fff8e7}.design-card img{width:100%;height:72px;object-fit:contain;display:block;margin-bottom:8px}.design-card strong{display:block;font-size:13px;font-weight:600}.design-card small{display:block;color:#6b6156;margin-top:4px;font-size:11px}#purposeNote,#resultCount,#usage,output{min-height:1.5em}#previewControls{visibility:hidden}body[data-ready=true] #previewControls{visibility:visible}.result-count,.usage-note{color:#6b6156;font-size:14px}.stage{padding:28px 10px;overflow:auto;background:#f6f2e6;margin-top:20px;border-radius:8px;min-height:260px}.stage.dark{background:#252b30;color:#f5efe1}.frame{margin:auto;display:flex;align-items:center;justify-content:center;text-align:center;flex-direction:column;padding:12px}.frame h2{margin:8px;font-size:28px}.frame p{font-size:14px;max-width:360px}.standalone,#previewStrip{margin:auto}.details{display:flex;flex-wrap:wrap;align-items:flex-start;gap:32px;margin-top:24px}.detail{max-width:560px}.sample{padding:14px;background:#faf8f1;max-width:100%;overflow:hidden}#strip{max-width:100%}#original{max-width:100%;height:auto}#corner{width:96px;height:96px}code{font-size:13px;overflow-wrap:anywhere}footer{font-size:13px;margin-top:36px}.links{display:flex;gap:15px;flex-wrap:wrap}[hidden]{display:none!important}
 @media(max-width:600px){main{padding:16px}.browse,.controls{padding:12px;gap:12px}.stage{padding:18px 4px}.detail{width:100%}.design-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 </style>
 </head>
@@ -43,7 +43,7 @@
 <div class="stage" id="stage">
 <div class="frame ornament-frame" id="frame"><h2>A decorated page</h2><p>Choose an ornament and try it at the size you need.</p></div>
 <div class="ornament-divider" id="previewStrip" aria-hidden="true" hidden></div>
-<img class="standalone ornament-image" id="standalone" alt="" hidden>
+<img class="standalone ornament-image" id="standalone" decoding="async" alt="" hidden>
 </div>
 <p id="description"></p><p><code id="tags"></code></p><div class="links" id="links"></div>
 <div class="details">
@@ -53,24 +53,28 @@
 </div>
 <footer>Numbered designs preserve source raster artwork and offer color traces; their corners reflect the same pattern. Floral vectors have adapted corners. Painted panels are AI-assisted extractions. <a href="../USAGE.md">Usage</a> · <a href="../images.json">Catalog</a> · <a href="qa.html">All frame previews</a></footer>
 </main>
-<script>
+<script type="module">
+import { observeNearViewport } from '../lib/visibility.js';
+let thumbnailCleanup=[];
 const $=id=>document.getElementById(id);let catalog=[];
 const readable=name=>name.replace(/^plate-(\d+)-/,'Plate $1 · ').replaceAll('-',' ');
 const notes={frame:'Frames use matching corners and repeating edges. Their border thickness is independent of the content size.',divider:'Dividers repeat horizontally or vertically. Choose an orientation; the artwork turns to match while keeping its proportions.',whole:'These complete decorations are individual images. Preserve their proportions; each is a single image.'};
 function candidates(){return catalog.filter(item=>($('purpose').value==='whole')===(item.kind==='standalone'))}
-function renderBrowser(){
-  const pool=candidates(),categories=[...new Set(pool.flatMap(item=>item.categories))].sort(),oldCategory=$('category').value;
+function renderBrowser(preferred,preferredCategory){
+  for(const cancel of thumbnailCleanup)cancel();thumbnailCleanup=[];
+  const pool=candidates(),categories=[...new Set(pool.flatMap(item=>item.categories))].sort(),oldCategory=preferredCategory??$('category').value;
   $('category').replaceChildren(new Option('All categories','all'),...categories.map(tag=>new Option(tag+' ('+pool.filter(i=>i.categories.includes(tag)).length+')',tag)));
   $('category').value=categories.includes(oldCategory)?oldCategory:'all';
   const query=$('search').value.trim().toLowerCase(),items=pool.filter(item=>($('category').value==='all'||item.categories.includes($('category').value))&&[item.name,item.description,...item.subjects,...item.colors,...item.categories].join(' ').toLowerCase().includes(query));
-  const old=$('design').value;
+  const old=preferred??$('design').value;
   $('design').replaceChildren(...items.map(item=>new Option(readable(item.name),item.name)));
   $('design').value=items.some(i=>i.name===old)?old:(items.some(i=>i.name==='red-berry-vine')?'red-berry-vine':items[0]?.name||'');
   $('purposeNote').textContent=notes[$('purpose').value];$('resultCount').textContent=items.length+' matching designs'+(items.length?'':' — try another category or search.');
   $('designGrid').replaceChildren(...items.map(item=>{
     const button=document.createElement('button');button.type='button';button.className='design-card';button.dataset.design=item.name;
     const preview=$('purpose').value==='frame'?item.components.border_image:item;
-    const image=document.createElement('img');image.src=assetPath(preview,'webp',240*(devicePixelRatio||1));image.alt='';image.loading='lazy';
+    const image=document.createElement('img');image.alt='';image.loading='lazy';image.decoding='async';image.width=preview.width;image.height=preview.height;
+    thumbnailCleanup.push(observeNearViewport(image,()=>{const scale=Math.min(image.clientWidth/preview.width,image.clientHeight/preview.height);image.src=assetPath(preview,'webp',Math.max(preview.width,preview.height)*scale*(devicePixelRatio||1))}));
     const title=document.createElement('strong');title.textContent=readable(item.name);
     const tags=document.createElement('small');tags.textContent=item.categories.join(' · ')+(item.repeat_axis==='none'?'':(' · '+(item.repeat_axis==='y'?'vertical':'horizontal')));
     button.append(image,title,tags);button.addEventListener('click',()=>{$('design').value=item.name;update()});return button;
@@ -121,21 +125,21 @@ function update(){
     const sections=Math.floor((axis==='y'?h:w)/(t*item.repeat_ratio));
     $('usage').textContent=(sections?sections+' complete section'+(sections===1?'':'s')+', centered in the available length. ':'No complete section fits; increase the length or reduce the thickness. ')+'Use the '+(axis===item.repeat_axis?'original':'rotated')+' tile with ornament-divider'+(axis==='y'?' and data-axis="y". This divider repeats vertically.':'. This divider repeats horizontally.');
   }else{
-    const displayH=fmt==='svg'?h:Math.min(h,item.height/dpr);$('standalone').src=assetPath(item,fmt,displayH*Math.max(1,item.width/item.height)*dpr);$('standalone').style.setProperty('--ornament-size',displayH+'px');$('standalone').style.transform=transform;
+    const displayH=fmt==='svg'?h:Math.min(h,item.height/dpr);$('standalone').width=item.width;$('standalone').height=item.height;$('standalone').src=assetPath(item,fmt,displayH*Math.max(1,item.width/item.height)*dpr);$('standalone').style.setProperty('--ornament-size',displayH+'px');$('standalone').style.transform=transform;
     $('usage').textContent='Use this complete image with ornament-image. Choose a smaller variant for a small display.';
   }
   $('description').textContent=item.description;$('tags').textContent=item.categories.join(' · ')+' | '+item.colors.join(', ');
   const selected=purpose==='frame'?item.components.border_image:purpose==='divider'&&axis!==item.repeat_axis?item.components.rotated_tile:item;
   const links=[['PNG',selected.png],['WebP',selected.webp]];if(selected.svg)links.push([purpose==='frame'?'SVG frame':'SVG artwork',selected.svg]);
   $('links').replaceChildren(...links.map(([label,path])=>{const a=document.createElement('a');a.href='../'+path;a.textContent=label;return a}));
-  const original=item.components.reference_crop;$('originalSection').hidden=!original;if(original){$('original').src='../'+original.png;$('original').width=original.width}
+  const original=item.components.reference_crop;$('originalSection').hidden=!original;if(original){$('original').loading='lazy';$('original').decoding='async';$('original').width=original.width;$('original').height=original.height;$('original').src='../'+original.png}
 }
 fetch('../images.json').then(r=>{if(!r.ok)throw Error(r.status);return r.json()}).then(data=>{
  catalog=data;const query=new URLSearchParams(location.search),selected=data.find(i=>i.name===query.get('design'));
  $('purpose').value=query.get('purpose')||(selected?.kind==='standalone'?'whole':'frame');
  for(const id of ['width','height','thickness','format','theme','fit','mirror','search','orientation'])if(query.has(id))$(id).value=query.get(id);
- renderBrowser();if(query.has('category')){$('category').value=query.get('category');renderBrowser()}if(selected&&[...$('design').options].some(o=>o.value===selected.name)){$('design').value=selected.name;update()}
- for(const id of ['purpose','category','search'])$(id).addEventListener('input',renderBrowser);
+ renderBrowser(selected?.name,query.get('category')??undefined);
+ for(const id of ['purpose','category','search'])$(id).addEventListener('input',()=>renderBrowser());
  for(const control of document.querySelectorAll('.controls input,.controls select,#design'))control.addEventListener('input',update);
  document.body.dataset.ready='true';
 }).catch(error=>{$('description').textContent='Could not load the catalog. Serve this folder with python3 -m http.server 8765. '+error.message});

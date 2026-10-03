@@ -38,7 +38,7 @@ function App() {
         <div className="divider-slot"><OrnamentDivider id="divider" design={design} orientation={orientation} size={size} length={length} assetsBase={assetsBase}/></div>
         <button id="toggle" onClick={() => setVisible(value => !value)}>{visible ? 'Hide frame' : 'Show frame'}</button>
       </div>
-      <div className="whole"><OrnamentImage id="whole" design={image} size={128} assetsBase={assetsBase} loading="lazy"/><p>A whole decoration using a small, suitable asset.</p></div>
+      <div className="whole"><OrnamentImage decoding="async" id="whole" design={image} size={128} assetsBase={assetsBase} loading="lazy"/><p>A whole decoration using a small, suitable asset.</p></div>
     </div>
     <h2>Use it in your project</h2>
     <pre>{`import { OrnamentDivider } from '@ranx729/medieval-ornaments/react';\n\n<OrnamentDivider design="${design}"\n  orientation="${orientation}" size={${size}} length={${length}} />`}</pre>

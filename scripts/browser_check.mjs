@@ -119,7 +119,7 @@ for(const [purpose,category,width,height,name] of [['frame','geometric',1200,110
 await send('Page.navigate',{url:origin+'/examples/demo.html'});await ready();
 for(const viewport of [320,375,768,1200]){
   await send('Emulation.setDeviceMetricsOverride',{width:viewport,height:1000,deviceScaleFactor:1,mobile:false});
-  const result=await evaluate(`(async()=>{await Promise.all([...document.images].map(i=>i.decode()));const divider=getComputedStyle(document.querySelector('.ornament-divider'),'::before'),frame=getComputedStyle(document.getElementById('frameExample'));for(const cssUrl of [divider.backgroundImage,frame.borderImageSource]){const image=new Image();image.src=JSON.parse(cssUrl.slice(4,-1));await image.decode()}return {overflow:document.documentElement.scrollWidth>document.documentElement.clientWidth,loaded:[...document.images].every(i=>i.naturalWidth>0),tileSize:divider.backgroundSize}})()`);
+  const result=await evaluate(`(async()=>{for(const image of document.images){image.scrollIntoView({block:'center'});await image.decode()}scrollTo(0,0);const divider=getComputedStyle(document.querySelector('.ornament-divider'),'::before'),frame=getComputedStyle(document.getElementById('frameExample'));for(const cssUrl of [divider.backgroundImage,frame.borderImageSource]){const image=new Image();image.src=JSON.parse(cssUrl.slice(4,-1));await image.decode()}return {overflow:document.documentElement.scrollWidth>document.documentElement.clientWidth,loaded:[...document.images].every(i=>i.naturalWidth>0),tileSize:divider.backgroundSize}})()`);
   assert(!result.overflow&&result.loaded&&result.tileSize==='64px 24px','Demo layout failed '+JSON.stringify({viewport,...result}));checks++;
 }
 for(const name of ['red-berry-vine','plate-13-leaf-and-flower-vine','plate-38-diagonal-meander'])for(const size of [16,28,48]){
@@ -135,7 +135,7 @@ for(const name of ['blue-diamond-leaf-stencil-band','blue-paired-birds-and-palme
 }
 for(const name of ['gold-scroll-with-blue-bellflowers','painted-sprawling-floral-panel','painted-three-band-floral-panel']){
   await choose('panelDesign',name);
-  assert(await evaluate(`(async()=>{const image=document.getElementById('panelImage');await image.decode();return image.currentSrc.includes(${JSON.stringify(name)})&&document.getElementById('panelCode').textContent.includes(${JSON.stringify(name)})&&document.documentElement.scrollWidth<=document.documentElement.clientWidth})()`),'New demo whole decoration '+name);checks++;
+  assert(await evaluate(`(async()=>{const image=document.getElementById('panelImage');image.scrollIntoView({block:'center'});await image.decode();return image.currentSrc.includes(${JSON.stringify(name)})&&document.getElementById('panelCode').textContent.includes(${JSON.stringify(name)})&&document.documentElement.scrollWidth<=document.documentElement.clientWidth})()`),'New demo whole decoration '+name);checks++;
 }
 await choose('frameDesign','red-berry-vine');await choose('dividerDesign','gold-leaf-scroll');await choose('panelDesign','floral-bird-panel-blue');
 await evaluate("document.getElementById('theme').click()");
@@ -164,7 +164,7 @@ await send('Emulation.setDeviceMetricsOverride',{width:1200,height:1500,deviceSc
 await send('Page.navigate',{url:origin+'/examples/review.html'});await ready();
 for(const format of ['webp','svg']){
   await choose('format',format);
-  const result=await evaluate(`(async()=>{await Promise.all([...document.images].map(i=>i.decode()));for(const el of document.querySelectorAll('.ornament-frame')){const image=new Image();image.src=JSON.parse(getComputedStyle(el).borderImageSource.slice(4,-1));await image.decode()}return {cards:document.querySelectorAll('.card').length,frames:document.querySelectorAll('.ornament-frame').length}})()`);
+  const result=await evaluate(`(async()=>{for(const card of document.querySelectorAll('.card')){card.scrollIntoView({block:'center'});await new Promise(resolve=>setTimeout(resolve,60));await Promise.all([...card.querySelectorAll('img')].map(i=>i.decode()));for(const el of card.querySelectorAll('.ornament-frame')){const image=new Image();image.src=JSON.parse(getComputedStyle(el).borderImageSource.slice(4,-1));await image.decode()}}return {cards:document.querySelectorAll('.card').length,frames:document.querySelectorAll('.ornament-frame').length}})()`);
   assert(result.cards===catalog.length&&result.frames===catalog.filter(i=>i.kind==='repeat-tile').length,'Artwork review coverage/loads');checks++;
 }
 await choose('collection','plate');assert(await evaluate("document.querySelectorAll('.card').length===38"),'Plate review filtering');checks++;
@@ -172,6 +172,8 @@ await choose('collection','floral');assert(await evaluate("document.querySelecto
 await choose('collection','additions');assert(await evaluate(`document.querySelectorAll('.card').length===${catalog.length-49}`),'Source additions review filtering');checks++;
 await choose('collection','floral');
 await choose('format','webp');await choose('theme','dark');
+await evaluate('scrollTo(0,0)');await pause(150);
+await evaluate(`(async()=>{for(const card of document.querySelectorAll('.card')){const box=card.getBoundingClientRect();if(box.bottom<0||box.top>innerHeight)continue;await Promise.all([...card.querySelectorAll('img')].map(i=>i.decode()));for(const frame of card.querySelectorAll('.ornament-frame')){const image=new Image();image.src=JSON.parse(getComputedStyle(frame).borderImageSource.slice(4,-1));await image.decode()}}})()`);
 const shot=await send('Page.captureScreenshot',{captureBeyondViewport:false});
 await writeFile(new URL('../tmp/artwork-review-dark.png',import.meta.url),Buffer.from(shot.data,'base64'));
 await send('Emulation.setDeviceMetricsOverride',{width:375,height:1100,deviceScaleFactor:1,mobile:false});

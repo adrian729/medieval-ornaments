@@ -1,5 +1,69 @@
 # Artwork and frame verification
 
+## Performance audit and package split · 0.4.0 (2026-10-03/04)
+
+The broad audit covers production bundles, asset sizes/complexity, selected
+resolutions, startup/computation/SSR, controller updates, observer lifecycles,
+image proportions/layout shifts, caching and full npm/archive delivery. Detailed
+methods, measured before/after results and remaining opportunities are in
+[docs/PERFORMANCE.md](docs/PERFORMANCE.md). Raw reports stay under ignored
+`tmp/performance/`. Desktop observations use 1200×900/DPR 1, gzip text, cold
+cache, production React and 4× CPU slowdown; mobile uses 375px/DPR 2. These are
+local observations, not field performance or cross-browser guarantees.
+
+The design browser's initial response bodies fell from 5,067,690 to 292,143
+bytes (94.2%); comparison from 11,946,012 to 54,139 (99.5%); frame overview
+from 28,005,606 to 1,058,908 (96.2%). Desktop observed shifts are zero after
+space reservation. Mobile has small observed shifts from responsive text/content,
+recorded in the report. The offscreen 70-design React fixture makes zero artwork
+requests in lazy mode, versus 126 artwork resources eagerly.
+
+Checks pass: **20 unit tests**, public TypeScript types, real packed vanilla
+and React **18/19** consumers, production/development Strict Mode,
+SSR/hydration, ordinary refs/children/state, pending design/loading updates,
+image geometry before/after decoding, observer pooling/cancellation/fallback,
+owned-attribute restoration and zero mutations for unchanged updates. Existing
+**168 native axis/design cases** and **32 density/length cases** still pass.
+The first lazy-development assertion counted an old page's pending request;
+the fixture now navigates to blank before taking its request baseline.
+
+All **740 local browser checks** pass. Comparison checks scroll to each card
+and decode every original/unit/frame in both WebP/SVG modes, rather than
+forcing an offscreen lazy image to decode before it can start loading. Native
+lazy demo images are also scrolled into view. Desktop/mobile browser and dark
+comparison screenshots were inspected after visible deferred artwork decoded.
+Browser ZIP and production React builds pass; ZIP integrity and the packaged
+library/docs are checked against the checkout. Package dry-run includes the
+new observer and report; the separate companion preserves every artwork file. Catalog checks
+retain **70 designs / 233 SVGs / 1383 assets**; source geometry checks retain
+**400 joins / 102 integer-sliced atlases / 56 pixel-exact rotations**.
+`git diff --check` passes. **No artwork/source/catalog asset file changed.**
+
+The 0.4.0 split moves all 1383 artwork files to the optional
+`@ranx729/medieval-ornaments-assets@0.3.2` package. The runtime is approximately
+93 KB compressed / 637 KB unpacked, versus the old 180,450,015-byte archive.
+No automatic companion/React installation or download hook is present.
+Actual packed consumers verify the lean installation first, then explicitly
+install the companion. All 1383 assets pass trusted SHA-256/byte-count checks
+through offline copying. Direct asset exports work in production Vite. CLI
+tests cover selected-format HTTP downloads, untrusted manifests, corrupted/
+missing files, temporary cleanup, existing-file preservation, offline failures
+and destination/source protection. The complete self-hosted browser ZIP is
+retained with the same artwork and a pinned manifest.
+
+Final tested archives: runtime **92,710 B compressed / 637,142 B unpacked / 21
+files**; companion **180,469,930 B / 420,216,827 B / 1389 files**. Both notices
+retain the artwork's separate rights status. The complete current production
+core measures **33,029 B gzip** after the split; the earlier performance audit's
+32,993-byte measurement predates the independent pin/exports. Reports:
+`tmp/approved-release.json`, `tmp/performance/split-bundle.json`, and
+`tmp/package-integration.json`. Runtime archive bytes were compared against all
+21 current public files. Browser ZIP integrity and runtime/docs/manifest/notices
+match the checkout after the final documentation rebuild.
+
+Release verification is in progress; registry/CDN and deployed-site evidence
+will be recorded here after publication.
+
 ## Sprawling floral panel lower-border patch 0.3.2 (2026-10-03)
 
 At the user's request, the lower corner-shaped border now spans the complete

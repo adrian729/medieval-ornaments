@@ -18,5 +18,6 @@ detail. Adapted corners are not recovered historical originals.
 
 Source sheets, extraction prompts, and detailed audit records remain at
 https://github.com/adrian729/medieval-ornaments . They are not part of the npm
-runtime package. The package includes this notice and the design catalog so
+runtime package. Both the runtime and optional `@ranx729/medieval-ornaments-assets` archive
+include this notice and the design catalog so
 integrators can retain the distinction between software and artwork rights.

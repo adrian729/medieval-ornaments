@@ -1,6 +1,6 @@
 {
   "name": "@ranx729/medieval-ornaments",
-  "version": "0.3.2",
+  "version": "0.4.0",
   "description": "Categorized medieval ornaments with normalized frames, repeating dividers and whole decorations for JavaScript and React",
   "type": "module",
   "license": "SEE LICENSE IN LICENSE",
@@ -39,9 +39,6 @@
       "default": "./ornaments.css"
     },
     "./catalog.json": "./lib/catalog.json",
-    "./svg/*": "./svg/*",
-    "./png/*": "./png/*",
-    "./webp/*": "./webp/*",
     "./package.json": "./package.json"
   },
   "bin": {
@@ -50,10 +47,8 @@
   "files": [
     "lib",
     "ornaments.css",
-    "svg",
-    "png",
-    "webp",
     "docs/INTEGRATION.md",
+    "docs/PERFORMANCE.md",
     "ASSET-RIGHTS.md",
     "SELECTION.md",
     "USAGE.md"
@@ -79,7 +74,9 @@
     "prepack": "node scripts/build-library.mjs",
     "test": "node --test tests/*.test.mjs",
     "test:types": "tsc --noEmit --strict --noUncheckedSideEffectImports --module nodenext --target es2022 --jsx react-jsx tests/types.tsx",
-    "test:integration": "node tests/integration.mjs"
+    "test:integration": "node tests/integration.mjs",
+    "audit:performance": "node scripts/performance_audit.mjs",
+    "build:assets": "node scripts/build-assets-package.mjs"
   },
   "publishConfig": {
     "access": "public"
@@ -91,5 +88,9 @@
     "react-dom": "19.3.0",
     "typescript": "7.0.2",
     "vite": "8.3.2"
+  },
+  "ornamentAssets": {
+    "package": "@ranx729/medieval-ornaments-assets",
+    "version": "0.3.2"
   }
 }

@@ -12,13 +12,14 @@ const browser = path.join(out, 'medieval-ornaments-browser');
 await rm(browser, { recursive: true, force: true });
 await mkdir(browser);
 for (const folder of ['lib', 'svg', 'png', 'webp']) await cp(path.join(root, folder), path.join(browser, folder), { recursive: true });
-for (const name of ['ornaments.css', 'favicon.svg', 'LICENSE', 'ASSET-RIGHTS.md']) await cp(path.join(root, name), path.join(browser, name));
+for (const name of ['ornaments.css', 'favicon.svg', 'assets-manifest.json', 'LICENSE', 'ASSET-RIGHTS.md']) await cp(path.join(root, name), path.join(browser, name));
 await cp(path.join(root, 'examples/vanilla'), path.join(browser, 'examples/vanilla'), { recursive: true });
 const vanillaPage = path.join(browser, 'examples/vanilla/index.html');
 await writeFile(vanillaPage, (await readFile(vanillaPage, 'utf8')).replace('<a href="../react/">React example</a>', '').replace('<a href="../">Design browser</a>', '').replace('<a href="../../medieval-ornaments-browser.zip">Browser ZIP</a>', ''));
 await cp(path.join(root, 'examples/integration.css'), path.join(browser, 'examples/integration.css'));
 await mkdir(path.join(browser, 'docs'));
 await cp(path.join(root, 'docs/INTEGRATION.md'), path.join(browser, 'docs/INTEGRATION.md'));
+await cp(path.join(root, 'docs/PERFORMANCE.md'), path.join(browser, 'docs/PERFORMANCE.md'));
 await writeFile(path.join(browser, 'index.html'), '<!doctype html><meta charset="utf-8"><meta http-equiv="refresh" content="0;url=examples/vanilla/"><a href="examples/vanilla/">Vanilla example</a>');
 await writeFile(path.join(browser, 'README.txt'), 'Serve this folder over HTTP, for example: python3 -m http.server 8000\nOpen http://localhost:8000/\nThe example self-hosts its images. No React, npm, or build step is needed.\nSee docs/INTEGRATION.md and ASSET-RIGHTS.md.\n');
 // zip is a maintainer tool, never required by consumers.

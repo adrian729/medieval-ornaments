@@ -3,8 +3,9 @@ Licensing scope
 
 The MIT grant below applies to the integration library in lib/ (excluding the
 artwork metadata's underlying artwork), scripts/build-library.mjs,
-scripts/build-browser.mjs, package integration tests/examples, and
-docs/INTEGRATION.md, and the shared ornaments.css usage rules. It does not license the supplied reference artwork,
+scripts/build-browser.mjs, scripts/package-assets.mjs,
+scripts/build-assets-package.mjs, scripts/performance_audit.mjs,
+package integration tests/examples, docs/INTEGRATION.md and docs/PERFORMANCE.md, and the shared ornaments.css usage rules. It does not license the supplied reference artwork,
 extracted panels, reconstructed ornaments, traces, or exported SVG/PNG/WebP
 assets. See ASSET-RIGHTS.md for their separate status.
 
