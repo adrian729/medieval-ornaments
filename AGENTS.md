@@ -46,6 +46,6 @@ The npm/vanilla JavaScript/React runtime is published as `@ranx729/medieval-orna
 7. Run `.venv/bin/python scripts/catalog.py --check`, `.venv/bin/python scripts/artwork_check.py`, and `git diff --check`. Inspect every changed design against the reference, as repeated strips, and in light/dark frames. Check leaves/petals and artwork continuity, not only whether a gap crosses the frame. Run browser and rendered join checks in `QA.md`, including 33px and fractional pixel ratios. Automated checks do not replace visual inspection.
 8. Keep README, usage notes, browser, and examples synchronized. Do not invent provenance/authorship/licenses. Record exact prompts/method for AI extractions; never call them pixel-exact crops. Never publish a watermarked source sheet as a cleaned extraction.
 
-Version 0.3.2 has 70 designs: 56 repeating borders and 14 whole decorations. The original 49 designs are unchanged. Five new source decorations remain whole; original whole designs include the five panels and plate 11, 16, 36, 37. Whole plate designs retain SVG alternatives but have no corner/frame components.
+Artwork revision 0.3.2, used by runtime 0.4.0, has 70 designs: 56 repeating borders and 14 whole decorations. The original 49 designs are unchanged. Five new source decorations remain whole; original whole designs include the five panels and plate 11, 16, 36, 37. Whole plate designs retain SVG alternatives but have no corner/frame components.
 
 Codex uses `AGENTS.md`; `CLAUDE.md` imports it. Do not create a competing singular `AGENT.md`.

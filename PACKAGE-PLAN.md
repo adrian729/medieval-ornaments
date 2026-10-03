@@ -1,6 +1,6 @@
 # npm package and integration plan
 
-Status: preparing runtime 0.4.0 with the performance improvements and independent optional artwork companion @ranx729/medieval-ornaments-assets@0.3.2. No artwork bytes changed. Release validation and migration are tracked below.
+Status: runtime @ranx729/medieval-ornaments@0.4.0 and optional @ranx729/medieval-ornaments-assets@0.3.2 are published and verified. Registry integrity matches both tested archives. Fresh registry consumers, all 740 live browser checks, deployed vanilla/React demos, pinned CDN files and downloaded browser ZIP pass. Artwork bytes are unchanged. Release v0.4.0 records the completed split and performance work; no release work remains.
 
 ## Goal and scope
 
@@ -48,8 +48,8 @@ Provide `ornaments`, `getOrnament(name)`, and `findOrnaments(filters)` without a
 | `orientation` | Dividers | `original` by default, or `horizontal` / `vertical` |
 | `length` | Dividers | Available space, as a positive number in pixels or a CSS length/percentage |
 | `alt` | Whole images | Empty by default for decoration; accept meaningful alternative text |
-| `loading` | All | Unreleased: eager by default; optional native image lazy loading or shared 200px viewport observer for CSS artwork |
-| `decoding`, `fetchPriority` | Whole images | Unreleased shared options: validated native hints, both default to auto |
+| `loading` | All | Since 0.4.0: eager by default; optional native image lazy loading or shared 200px viewport observer for CSS artwork |
+| `decoding`, `fetchPriority` | Whole images | Since 0.4.0: shared options, validated native hints, both default to auto |
 
 Default sizes: frame 32px, divider 24px, whole-image height 256px. Default available divider length: 100% horizontally and 256px vertically. Choosing `original` uses the selected design's catalog axis, including originally vertical plate designs.
 
@@ -184,7 +184,7 @@ Last checkpoint (0.2.0): automatic CSS in `/react`, `/react/unstyled`, updated d
 
 Previous release checkpoint (0.1.0): implementation, npm publication, Pages deployment, fresh registry consumer checks, actual pinned CDN assets/modules, live vanilla/React demos, downloaded self-hosted browser ZIP, and the existing 473 live browser checks all pass. Artwork/source/shared CSS are unchanged. No implementation work remains. The checkout now lives at /home/ranx729/projects/medieval-ornaments. Release v0.1.0 records this completed work. For future additions, follow docs/INTEGRATION.md and regenerate metadata/types after catalog changes.
 
-## Unreleased artwork additions (October 2026)
+## Artwork additions · 0.3.0 (October 2026)
 
 Release 0.3.0 adds 21 audited source designs: 16 repeats and five whole decorations,
 for totals of 70/56/14. The original 49 designs are unchanged. Three grid-paper
@@ -262,5 +262,5 @@ verification was completed; see QA.md.
 - [x] Preserve selected streaming downloads, checksum verification, offline copying and direct asset imports through the companion.
 - [x] Document the 0.3.x migration, independent versioning and asset-first release sequence.
 - [x] Pass both actual packed packages, lean install, explicit offline companion and production bundler asset imports.
-- [ ] Publish exact tested companion/runtime archives and verify fresh registry consumers and pinned CDN checksums.
-- [ ] Commit/push, tag/release 0.4.0, verify Pages/browser ZIP and record sizes/results in QA.md.
+- [x] Publish exact tested companion/runtime archives and verify fresh registry consumers and pinned CDN checksums.
+- [x] Commit/push, tag/release 0.4.0, verify Pages/browser ZIP and record sizes/results in QA.md.

@@ -45,7 +45,7 @@ try {
   }
   await mkdir(app);
   await writeFile(path.join(app, 'package.json'), '{"private":true,"type":"module"}');
-  await exec('npm', ['install', install, '--ignore-scripts', '--no-audit', '--no-fund', ...(packageSource ? [] : ['--offline'])], { cwd: app });
+  await exec('npm', ['install', install, '--ignore-scripts', '--no-audit', '--no-fund', ...(packageSource ? ['--prefer-online'] : ['--offline'])], { cwd: app });
   const installed = path.join(app, 'node_modules/@ranx729/medieval-ornaments');
   await assert.rejects(access(path.join(app, 'node_modules/react')), 'Vanilla consumers must not require React');
   await assert.rejects(access(path.join(app, 'node_modules/@ranx729/medieval-ornaments-assets')), 'Normal installs must not fetch artwork');
@@ -60,7 +60,7 @@ try {
   const bin = path.join(app, 'node_modules/.bin/medieval-ornaments');
   await assert.rejects(exec(process.execPath, [bin, 'copy-assets', path.join(folder, 'offline-missing'), '--offline'], { cwd: app }), /Offline artwork not found/);
   // Install artwork explicitly, then exercise consumer-local discovery through the real bin.
-  await exec('npm', ['install', '--save-dev', assetInstall, '--ignore-scripts', '--no-audit', '--no-fund', ...(assetSource ? [] : ['--offline'])], { cwd: app });
+  await exec('npm', ['install', '--save-dev', assetInstall, '--ignore-scripts', '--no-audit', '--no-fund', ...(assetSource ? ['--prefer-online'] : ['--offline'])], { cwd: app });
   const companion = path.join(app, 'node_modules', api.assetsPackage);
   const artworkPackage = JSON.parse(await readFile(path.join(companion, 'package.json')));
   assert.equal(artworkPackage.version, api.assetsVersion);

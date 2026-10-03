@@ -61,8 +61,31 @@ core measures **33,029 B gzip** after the split; the earlier performance audit's
 21 current public files. Browser ZIP integrity and runtime/docs/manifest/notices
 match the checkout after the final documentation rebuild.
 
-Release verification is in progress; registry/CDN and deployed-site evidence
-will be recorded here after publication.
+Published both exact tested archives: runtime **@ranx729/medieval-ornaments@0.4.0**
+and independent **@ranx729/medieval-ornaments-assets@0.3.2**. Registry integrity
+matches both approved archives. Actual pinned companion CDN manifest, vector
+frame, WebP variant and fitted bellflower SVG match their approved SHA-256
+checksums. A fresh runtime-only registry install contains no artwork or React;
+its default-CDN copy downloads just selected WebP files and retains notices.
+Fresh registry React 18/19, types, SSR/hydration, production/development and all
+native geometry cases pass with the explicitly installed companion.
+
+GitHub Actions Pages run **37157632739** succeeded for **71d2e67**. All **740
+live browser checks** pass. The initial npm 202 acceptance was followed by
+brief registry/CDN propagation; checks completed after actual availability.
+Registry consumer checks now force fresh metadata (`--prefer-online`) to avoid
+an old npm cache reporting ETARGET immediately after publication. Reports:
+`tmp/assets-publication.json`, `tmp/lean-registry-install.json`,
+`tmp/package-integration.json` and `tmp/browser-verification.json`.
+
+Live vanilla/React examples pass at **375/1200px**, including original/forced
+axes and image decoding. The actual 0.4.0 npm CDN module resolves the independent
+0.3.2 companion pin; all ten tested asset configurations decode, including
+stencils, russet artwork, sprawling panel and the fitted bellflower PNG/SVG.
+The downloaded browser ZIP passes integrity checks and serves its native
+example locally with no external artwork requests. Report:
+`tmp/package-site.json`. Release **v0.4.0** records the completed work. No release
+verification remains.
 
 ## Sprawling floral panel lower-border patch 0.3.2 (2026-10-03)
 
