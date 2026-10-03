@@ -1,6 +1,6 @@
 # npm package and integration plan
 
-Status: @ranx729/medieval-ornaments@0.3.1 is published; patch 0.3.2 is being prepared for the user-requested sprawling floral panel lower-border repair. Its lower corner is replaced with the reflected top band, and three trailing rows are removed. Source/reference crops and the floral interior remain untouched. The collection retains 70 designs and the original 49 artwork designs remain unchanged.
+Status: @ranx729/medieval-ornaments@0.3.2 is published as npm latest and released as v0.3.2. The sprawling floral panel has matching full-width top/bottom rules, with the lower corner and three trailing rows removed. All 70 designs, fresh registry consumers, actual pinned CDN artwork, live demos and the downloaded browser ZIP are verified. Original source/reference crops, the panel's floral interior and the original 49 artwork designs remain unchanged. No release work remains.
 
 ## Goal and scope
 
@@ -234,5 +234,12 @@ native gold PNG and the smooth SVG, whose bytes match the reviewed export.
 - [x] Keep source/reference files and floral interior unchanged; retain existing SVG paths.
 - [x] Rebuild the affected PNG/WebP variants, SVG and package metadata.
 - [x] Complete artwork/catalog, browser and packed-consumer checks.
-- [ ] Commit/push, publish the tested package and create the patch release.
-- [ ] Verify fresh registry consumers, pinned CDN artwork and live demos; record final evidence.
+- [x] Commit/push, publish the tested package and create the patch release.
+- [x] Verify fresh registry consumers, pinned CDN artwork and live demos; record final evidence.
+
+Final verification: registry integrity matches the tested 0.3.2 archive; fresh
+registry consumers pass. Live Pages passes 740 browser checks and serves the
+reviewed PNG/SVG bytes. Actual version-pinned UNPKG files match those exports
+and report the repaired 722×229 geometry. Live vanilla/React demos and the
+downloaded browser ZIP pass. The initial CDN HTTP 500 responses cleared before
+verification was completed; see QA.md.

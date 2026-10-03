@@ -26,7 +26,18 @@ pass. Packed consumers pass **70 designs / 168 native axis/design cases /
 SSR/hydration, refs/state and self-hosting. The tested archive contains **1402
 files / 180,450,015 compressed bytes / 420,292,831 unpacked bytes**, and its
 corrected SVG/PNG/WebP match the reviewed exports. Browser ZIP/React builds
-also pass. Publication and live-site verification are in progress.
+also pass.
+
+Published **@ranx729/medieval-ornaments@0.3.2** as npm latest and created
+[v0.3.2](https://github.com/adrian729/medieval-ornaments/releases/tag/v0.3.2).
+Registry integrity matches the exact tested archive, and fresh registry consumers
+pass the same 70-design/168-native-case/32-density-case checks. GitHub Actions
+deployed successfully; the public browser passes all **740 checks**. Live
+vanilla/React demos pass at 375/1200px, and the downloaded browser ZIP passes
+archive checks and renders with local assets. Both Pages and pinned UNPKG serve
+the exact reviewed PNG/SVG bytes; the CDN catalog reports **722×229**.
+UNPKG initially returned HTTP 500 for the new version while it became available;
+those errors cleared before all ten pinned module/asset configurations passed.
 
 ## Whole-decoration quality patch 0.3.1 (2026-10-03)
 
