@@ -2,7 +2,6 @@ import React, { useState, useRef, StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 import { OrnamentFrame, OrnamentDivider, OrnamentImage } from '@ranx729/medieval-ornaments/react';
 import { findOrnaments } from '@ranx729/medieval-ornaments';
-import '@ranx729/medieval-ornaments/styles.css';
 import '../integration.css';
 
 const assetsBase = document.documentElement.dataset.assetsBase || undefined;
@@ -21,7 +20,7 @@ function App() {
   const frameRef = useRef(null);
   return <main>
     <h1>Ornaments with React</h1>
-    <p>Declarative components with the same defaults and sizing as plain JavaScript.</p>
+    <p>Declarative components with styles included and the same defaults and sizing as plain JavaScript.</p>
     <nav><a href="https://github.com/adrian729/medieval-ornaments/blob/main/docs/INTEGRATION.md">Integration guide</a><a href="../vanilla/">Plain JS example</a><a href="../">Design browser</a></nav>
     <div className="controls">
       <label>Repeat design <select id="design" value={design} onChange={e => setDesign(e.target.value)}><Options items={repeats}/></select></label>
@@ -42,7 +41,7 @@ function App() {
       <div className="whole"><OrnamentImage id="whole" design={image} size={128} assetsBase={assetsBase} loading="lazy"/><p>A whole decoration using a small, suitable asset.</p></div>
     </div>
     <h2>Use it in your project</h2>
-    <pre>{`import { OrnamentDivider } from '@ranx729/medieval-ornaments/react';\nimport '@ranx729/medieval-ornaments/styles.css';\n\n<OrnamentDivider design="${design}"\n  orientation="${orientation}" size={${size}} length={${length}} />`}</pre>
+    <pre>{`import { OrnamentDivider } from '@ranx729/medieval-ornaments/react';\n\n<OrnamentDivider design="${design}"\n  orientation="${orientation}" size={${size}} length={${length}} />`}</pre>
     <p>Omit orientation to retain the chosen design's original direction. Swapping axes selects the appropriate rotated artwork automatically.</p>
   </main>;
 }

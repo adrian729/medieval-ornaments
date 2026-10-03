@@ -9,6 +9,7 @@ import { promisify } from 'node:util';
 import path from 'node:path';
 const exec = promisify(execFile);
 const root = new URL('../', import.meta.url);
+const { version } = JSON.parse(await readFile(new URL('package.json', root), 'utf8'));
 const origin = (process.argv[2] || 'https://adrian729.github.io/medieval-ornaments').replace(/\/$/, '');
 const tabs = await (await fetch('http://127.0.0.1:9227/json')).json();
 const ws = new WebSocket(tabs.find(tab => tab.type === 'page').webSocketDebuggerUrl);
@@ -40,6 +41,10 @@ try {
   for (const example of ['vanilla', 'react']) for (const width of [375, 1200]) {
     await send('Emulation.setDeviceMetricsOverride', { width, height: 1000, deviceScaleFactor: 1.25, mobile: false });
     await navigate(origin + `/examples/${example}/`, example === 'vanilla' ? `document.body?.dataset.ready==='true'` : `!!document.getElementById('divider')`);
+    if (example === 'react') {
+      assert.equal(await evaluate(`document.querySelector('pre').textContent.includes('styles.css')`), false, 'React snippet needs only the component import');
+      assert.equal(await evaluate(`getComputedStyle(document.getElementById('frame')).borderTopWidth`), '33px', 'Live automatic React styles');
+    }
     check(await art());
     await choose('design', 'plate-02-stepped-ribbon'); await until(`document.getElementById('divider').dataset.axis==='y'`); check(await art());
     await choose('orientation', 'horizontal'); await until(`document.getElementById('divider').dataset.axis==='x'`); check(await art());
@@ -51,9 +56,9 @@ try {
     records.push({ example, width, ...result });
   }
   // Load the actual npm modules directly from their pinned CDN, not checkout URLs.
-  const cdn = await evaluate(`(async()=>{const api=await import('https://cdn.jsdelivr.net/npm/@ranx729/medieval-ornaments@0.1.0/lib/index.js');const cases=[['frame',{design:'red-berry-vine'}],['divider',{design:'plate-02-stepped-ribbon'}],['divider',{design:'plate-02-stepped-ribbon',orientation:'horizontal'}],['image',{design:'floral-bird-panel-blue',size:128}]];const assets=cases.map(([use,options])=>api.resolveOrnament(use,options).asset);await Promise.all(assets.map(async asset=>{const image=new Image();image.src=asset.url;await image.decode();}));return {version:api.version,count:api.ornaments.length,assets};})()`);
-  assert.equal(cdn.version, '0.1.0'); assert.equal(cdn.count, 49);
-  assert.ok(cdn.assets.every(asset => asset.url.startsWith('https://cdn.jsdelivr.net/npm/@ranx729/medieval-ornaments@0.1.0/')));
+  const cdn = await evaluate(`(async()=>{const api=await import('https://cdn.jsdelivr.net/npm/@ranx729/medieval-ornaments@${version}/lib/index.js');const cases=[['frame',{design:'red-berry-vine'}],['divider',{design:'plate-02-stepped-ribbon'}],['divider',{design:'plate-02-stepped-ribbon',orientation:'horizontal'}],['image',{design:'floral-bird-panel-blue',size:128}]];const assets=cases.map(([use,options])=>api.resolveOrnament(use,options).asset);await Promise.all(assets.map(async asset=>{const image=new Image();image.src=asset.url;await image.decode();}));return {version:api.version,count:api.ornaments.length,assets};})()`);
+  assert.equal(cdn.version, version); assert.equal(cdn.count, 49);
+  assert.ok(cdn.assets.every(asset => asset.url.startsWith(`https://cdn.jsdelivr.net/npm/@ranx729/medieval-ornaments@${version}/`)));
   records.push({ cdn });
   const folder = await mkdtemp(path.join(tmpdir(), 'ornaments-browser-release-'));
   const response = await fetch(origin + '/medieval-ornaments-browser.zip'); assert.equal(response.status, 200);

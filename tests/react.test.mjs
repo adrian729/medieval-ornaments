@@ -2,7 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import { createElement as h, createRef } from 'react';
 import { renderToString } from 'react-dom/server';
-import { OrnamentFrame, OrnamentDivider, OrnamentImage } from '../lib/react.js';
+import { OrnamentFrame, OrnamentDivider, OrnamentImage } from '@ranx729/medieval-ornaments/react/unstyled';
 import { findOrnaments } from '../lib/index.js';
 
 test('React SSR renders every design without DOM globals', () => {

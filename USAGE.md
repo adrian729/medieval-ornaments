@@ -1,6 +1,6 @@
 # Choosing and assembling ornaments
 
-For normalized vanilla JS and React components with automatic orientation, geometry, format, and size selection, use the npm package. See [docs/INTEGRATION.md](docs/INTEGRATION.md). The CSS contract below remains available for direct HTML/CSS use.
+For normalized vanilla JS and React components with automatic orientation, geometry, format, and size selection, use the npm package. React's `/react` entry includes the shared CSS automatically; vanilla and `/react/unstyled` load it separately. See [docs/INTEGRATION.md](docs/INTEGRATION.md). The CSS contract below remains available for direct HTML/CSS use.
 
 ## Shared usage contract
 

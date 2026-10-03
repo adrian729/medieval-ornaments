@@ -51,13 +51,20 @@ try {
   await writeFile(path.join(vanilla, 'main.js'), `import {createDivider} from '@ranx729/medieval-ornaments';import '@ranx729/medieval-ornaments/styles.css';window.divider=createDivider(document.getElementById('divider'),{design:'plate-02-stepped-ribbon',orientation:'horizontal',assetsBase:'/local/ornaments/'});document.body.dataset.ready='true';`);
   await build({ root: vanilla, configFile: false, base: '/vanilla/dist/', logLevel: 'error' });
   for (const name of ['react', 'react-dom', '@types']) await symlink(path.join(root, 'node_modules', name), path.join(app, 'node_modules', name), 'dir');
+  // One imported component must retain its CSS through production tree shaking.
+  const single = path.join(folder, 'single-react'); await mkdir(single);
+  await symlink(path.join(app, 'node_modules'), path.join(single, 'node_modules'), 'dir');
+  await writeFile(path.join(single, 'index.html'), '<!doctype html><div id="root"></div><script type="module" src="/main.js"></script>');
+  await writeFile(path.join(single, 'main.js'), `import {createElement as h} from 'react';import {createRoot} from 'react-dom/client';import {OrnamentDivider} from '@ranx729/medieval-ornaments/react';createRoot(document.getElementById('root')).render(h(OrnamentDivider,{id:'divider',design:'red-berry-vine',length:420,assetsBase:'/local/ornaments/'}));`);
+  await build({ root: single, configFile: false, base: '/single-react/dist/', logLevel: 'error' });
   await cp(path.join(root, 'examples/react/main.jsx'), path.join(app, 'main.jsx'));
   await cp(path.join(root, 'examples/integration.css'), path.join(folder, 'integration.css'));
   await writeFile(path.join(app, 'index.html'), '<!doctype html><html lang="en" data-assets-base="/local/ornaments/"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><div id="root"></div><script type="module" src="/main.jsx"></script></html>');
-  const { OrnamentFrame, OrnamentDivider, OrnamentImage } = await import(pathToFileURL(path.join(installed, 'lib/react.js')));
+  await writeFile(path.join(app, 'react-ssr.mjs'), `export { OrnamentFrame, OrnamentDivider, OrnamentImage } from '@ranx729/medieval-ornaments/react/unstyled';`);
+  const { OrnamentFrame, OrnamentDivider, OrnamentImage } = await import(pathToFileURL(path.join(app, 'react-ssr.mjs')));
   const markup = renderToString(h(OrnamentFrame, { design: 'red-berry-vine', assetsBase: '/local/ornaments/', id: 'hydrated' }, h('input', { id: 'hydrated-input', defaultValue: 'Server value' }), h(OrnamentDivider, { design: 'plate-02-stepped-ribbon', assetsBase: '/local/ornaments/', id: 'hydrated-divider' }), h(OrnamentImage, { design: 'floral-bird-panel-blue', assetsBase: '/local/ornaments/', size: 128, alt: 'Birds and flowers' })));
   await writeFile(path.join(app, 'hydrate.html'), `<!doctype html><html><meta charset="utf-8"><div id="root">${markup}</div><script type="module" src="/hydrate.jsx"></script></html>`);
-  await writeFile(path.join(app, 'hydrate.jsx'), `import React,{StrictMode,useState,useRef,useEffect} from 'react';import {hydrateRoot} from 'react-dom/client';import {OrnamentFrame,OrnamentDivider,OrnamentImage} from '@ranx729/medieval-ornaments/react';import '@ranx729/medieval-ornaments/styles.css';window.before=document.getElementById('hydrated-input');before.value='Typed before hydration';function App(){const [orientation,setOrientation]=useState('original'),ref=useRef(null);useEffect(()=>{window.hydrationReady=true;window.forwarded=ref.current;window.changeOrientation=setOrientation;},[]);return <OrnamentFrame design="red-berry-vine" assetsBase="/local/ornaments/" id="hydrated" ref={ref}><input id="hydrated-input" defaultValue="Server value"/><OrnamentDivider design="plate-02-stepped-ribbon" orientation={orientation} assetsBase="/local/ornaments/" id="hydrated-divider"/><OrnamentImage design="floral-bird-panel-blue" assetsBase="/local/ornaments/" size={128} alt="Birds and flowers"/></OrnamentFrame>}hydrateRoot(document.getElementById('root'),<StrictMode><App/></StrictMode>);`);
+  await writeFile(path.join(app, 'hydrate.jsx'), `import React,{StrictMode,useState,useRef,useEffect} from 'react';import {hydrateRoot} from 'react-dom/client';import {OrnamentFrame,OrnamentDivider,OrnamentImage} from '@ranx729/medieval-ornaments/react';window.before=document.getElementById('hydrated-input');before.value='Typed before hydration';function App(){const [orientation,setOrientation]=useState('original'),ref=useRef(null);useEffect(()=>{window.hydrationReady=true;window.forwarded=ref.current;window.changeOrientation=setOrientation;},[]);return <OrnamentFrame design="red-berry-vine" assetsBase="/local/ornaments/" id="hydrated" ref={ref}><input id="hydrated-input" defaultValue="Server value"/><OrnamentDivider design="plate-02-stepped-ribbon" orientation={orientation} assetsBase="/local/ornaments/" id="hydrated-divider"/><OrnamentImage design="floral-bird-panel-blue" assetsBase="/local/ornaments/" size={128} alt="Birds and flowers"/></OrnamentFrame>}hydrateRoot(document.getElementById('root'),<StrictMode><App/></StrictMode>);`);
   await cp(path.join(root, 'tests/types.tsx'), path.join(app, 'types.tsx'));
   await exec(process.execPath, [path.join(root, 'node_modules/typescript/bin/tsc'), '--noEmit', '--strict', '--noUncheckedSideEffectImports', '--module', 'nodenext', '--target', 'es2022', '--jsx', 'react-jsx', 'types.tsx'], { cwd: app });
   await build({ root: app, configFile: false, base: '/app/dist/', logLevel: 'error' });
@@ -140,11 +147,15 @@ try {
   assert.equal(await evaluate(`document.getElementById('frame').style.getPropertyValue('--ornament-size')==='11px'&&document.getElementById('whole').alt==='External edit'&&!document.getElementById('whole').hasAttribute('src')`), true);
   await navigate(origin + '/vanilla/dist/', `document.body?.dataset.ready==='true'`); await decodeImages(); checkGeometry(await geometry());
   assert.equal((await geometry()).axis, 'x'); records.push({ kind: 'vanilla-bundled' });
+  await navigate(origin + '/single-react/dist/', `!!document.getElementById('divider')`); await decodeImages(); checkGeometry(await geometry());
+  assert.equal(await evaluate(`getComputedStyle(document.getElementById('divider'),'::before').content`), '""');
+  records.push({ kind: 'single-react-automatic-styles' });
 
   async function exerciseReact(url, label) {
     await navigate(url, `document.getElementById('divider')?.classList.contains('ornament-divider')`);
     assert.ok((await evaluate('document.body.dataset.reactVersion')).startsWith(label.startsWith('react18') ? '18.' : '19.'), 'Wrong React runtime');
     await decodeImages();
+    assert.deepEqual(await evaluate(`(()=>{const frame=getComputedStyle(document.getElementById('frame')),image=getComputedStyle(document.getElementById('whole')),divider=getComputedStyle(document.getElementById('divider'),'::before');return {border:frame.borderTopWidth,repeat:frame.borderImageRepeat,height:image.height,fit:image.objectFit,content:divider.content}})()`), {border:'33px',repeat:'round',height:'128px',fit:'contain',content:'""'}, label + ' automatic React styles');
     for (const width of [320, 375, 997, 1920]) {
       await send('Emulation.setDeviceMetricsOverride', { width, height: 900, deviceScaleFactor: 1.25, mobile: false }); await pause(80);
       const overflow = await evaluate(`({overflow:document.documentElement.scrollWidth>document.documentElement.clientWidth,width:innerWidth,offenders:[...document.querySelectorAll('body *')].filter(el=>el.getBoundingClientRect().right>innerWidth+1).map(el=>({tag:el.tagName,id:el.id,class:el.className,right:el.getBoundingClientRect().right})).slice(0,12)})`);
@@ -169,7 +180,7 @@ try {
     records.push({ kind: label });
   }
   await exerciseReact(origin + '/app/dist/', 'react19-production');
-  vite = await createViteServer({ root: app, configFile: false, logLevel: 'error', server: { host: '127.0.0.1', port: 0 },
+  vite = await createViteServer({ root: app, configFile: false, logLevel: 'error', ssr: { noExternal: ['@ranx729/medieval-ornaments'] }, server: { host: '127.0.0.1', port: 0 },
     plugins: [{ name: 'fixture-public-assets', configureServer(instance) {
       instance.middlewares.use('/local/ornaments', async (request, response, next) => {
         try {
@@ -181,10 +192,14 @@ try {
       });
     } }]
   }); await vite.listen();
+  await writeFile(path.join(app, 'styled-ssr.mjs'), `import {createElement as h} from 'react';import {renderToString} from 'react-dom/server';import {OrnamentDivider} from '@ranx729/medieval-ornaments/react';export const markup=renderToString(h(OrnamentDivider,{design:'plate-02-stepped-ribbon'}));`);
+  assert.match((await vite.ssrLoadModule('/styled-ssr.mjs')).markup, /data-axis="y"/, 'Vite SSR processes the automatic CSS entry');
+  records.push({ kind: 'styled-vite-ssr' });
   const dev = `http://127.0.0.1:${vite.httpServer.address().port}/`;
   await exerciseReact(dev, 'react19-development');
   await navigate(dev + 'hydrate.html', 'window.hydrationReady===true'); await decodeImages();
   assert.equal(await evaluate(`before===document.getElementById('hydrated-input')&&before.value==='Typed before hydration'&&forwarded===document.getElementById('hydrated')`), true);
+  assert.equal(await evaluate(`getComputedStyle(document.getElementById('hydrated')).borderTopWidth`), '32px', 'Automatic styles during hydration');
   await evaluate(`window.changeOrientation('horizontal')`); await until(`document.getElementById('hydrated-divider').dataset.axis==='x'`);
   assert.equal(await evaluate(`before===document.getElementById('hydrated-input')&&before.value==='Typed before hydration'`), true);
   records.push({ kind: 'hydration-ref-state' });
@@ -196,7 +211,7 @@ try {
   await exec('npm', ['install', '--prefer-offline', '--no-audit', '--no-fund', 'react@18.3.1', 'react-dom@18.3.1', '@types/react@18', '@types/react-dom@18'], { cwd: older });
   for (const name of ['react', 'react-dom', '@types']) { await rm(path.join(app, 'node_modules', name)); await symlink(path.join(older, 'node_modules', name), path.join(app, 'node_modules', name), 'dir'); }
   await exec(process.execPath, [path.join(root, 'node_modules/typescript/bin/tsc'), '--noEmit', '--strict', '--noUncheckedSideEffectImports', '--module', 'nodenext', '--target', 'es2022', '--jsx', 'react-jsx', 'types.tsx'], { cwd: app });
-  await writeFile(path.join(app, 'ssr.mjs'), `import {createElement as h} from 'react';import {renderToString} from 'react-dom/server';import {OrnamentDivider} from '@ranx729/medieval-ornaments/react';if(!renderToString(h(OrnamentDivider,{design:'plate-02-stepped-ribbon'})).includes('data-axis="y"'))throw Error('SSR axis');`);
+  await writeFile(path.join(app, 'ssr.mjs'), `import {createElement as h} from 'react';import {renderToString} from 'react-dom/server';import {OrnamentDivider} from '@ranx729/medieval-ornaments/react/unstyled';if(!renderToString(h(OrnamentDivider,{design:'plate-02-stepped-ribbon'})).includes('data-axis="y"'))throw Error('SSR axis');`);
   await exec(process.execPath, ['ssr.mjs'], { cwd: app });
   await build({ root: app, configFile: false, base: '/app/dist/', logLevel: 'error' });
   await exerciseReact(origin + '/app/dist/', 'react18-production');

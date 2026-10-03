@@ -1,5 +1,13 @@
 # Artwork and frame verification
 
+## React automatic styles (0.2.0)
+
+The default `/react` entry now imports the existing shared stylesheet. A production consumer importing only `OrnamentDivider` verifies that tree shaking retains the CSS. The React demo and copyable snippet require only the component import. `/react/unstyled` provides the same components for plain Node SSR or centrally managed CSS. Both entries share the same declarations and component implementation.
+
+Pre-release checks pass: `npm test`, `npm run test:types`, packed React 18/19 consumers in production and React 19 development/Strict Mode, plain Node SSR, Vite SSR with automatic CSS, hydration, forwarded refs and retained inputs, native/bundled vanilla, local asset hosting, catalog/artwork checks, `git diff --check`, and `npm run build:browser`. Computed-style checks cover frame borders, divider pseudo-elements and whole-image sizing without an application CSS import. Reviewed the rendered React example. Artwork and `ornaments.css` are unchanged; the existing frame matrix remains applicable.
+
+Publication, fresh registry-consumer verification and live deployment checks are in progress.
+
 ## npm integration verification (0.1.0)
 
 The integration layer preserves the approved artwork and `ornaments.css` byte-for-byte. Catalog/artwork checks and the existing **473 browser checks** pass after adding the library and example links. The prior rendered frame matrix remains applicable because neither artwork nor shared geometry changed.

@@ -1,6 +1,6 @@
 # npm package and integration plan
 
-Status: implementation approved by the user ("impl!"). Implemented and published as @ranx729/medieval-ornaments@0.1.0. Packed and registry consumers, pinned CDN defaults, deployed examples, and the downloaded browser ZIP are verified. Keep this checklist current as each phase is completed. Record changes to the decisions here rather than silently diverging from them.
+Status: implementation approved by the user ("impl!"). Implemented and published as @ranx729/medieval-ornaments@0.1.0; automatic React styles for 0.2.0 are verified and release is underway. Packed and registry consumers, pinned CDN defaults, deployed examples, and the downloaded browser ZIP are verified. Keep this checklist current as each phase is completed. Record changes to the decisions here rather than silently diverging from them.
 
 ## Goal and scope
 
@@ -71,7 +71,6 @@ Use a shared pure configuration/resolution layer for both APIs. React should ren
 
 ```jsx
 import { OrnamentDivider, OrnamentFrame, OrnamentImage } from '@ranx729/medieval-ornaments/react';
-import '@ranx729/medieval-ornaments/styles.css';
 
 <OrnamentDivider design="plate-02-stepped-ribbon" />
 <OrnamentDivider design="plate-02-stepped-ribbon" orientation="horizontal" length="100%" />
@@ -104,7 +103,7 @@ The default requires CDN access. Provide an equally documented self-hosted path 
 - Show how to copy into an application's public folder and pass `assetsBase`, including deployment under a nested URL path. Never infer the application's public deployment path from filesystem paths.
 - Provide a browser download with modules, CSS, assets, and a working native-JS example if following elder-scrolls' browser-download convention.
 
-Package exports: core API, `/react`, `/styles.css`, `/catalog.json`, and direct `/svg/*`, `/png/*`, `/webp/*` assets. Use ESM and TypeScript declarations. React is an optional peer dependency; vanilla users need no React runtime. Keep CSS marked as a side effect so production builds retain it.
+Package exports: core API, `/react`, `/react/unstyled`, `/styles.css`, `/catalog.json`, and direct `/svg/*`, `/png/*`, `/webp/*` assets. Use ESM and TypeScript declarations. React is an optional peer dependency; vanilla users need no React runtime. The default `/react` entry imports the shared stylesheet automatically; `/react/unstyled` exposes the identical components without CSS imports for plain Node SSR and centrally managed styles. Vanilla still loads CSS explicitly. Keep both CSS and the styled React wrapper marked as side effects so production builds retain the styles. This updates the original separate-React-CSS-import contract at the user's request.
 
 Use a package allowlist. Exclude source sheets, reference audit scripts, private files, temporary folders, virtual environments, browser profiles, tests, and demos from the npm runtime package. Keep asset provenance and usage documentation included. Measure compressed/unpacked package sizes and inspect every packed path before release.
 
@@ -182,4 +181,6 @@ The work is complete when another project can install the published package, ren
 
 ## Continuation notes
 
-Last checkpoint: implementation, npm publication, Pages deployment, fresh registry consumer checks, actual pinned CDN assets/modules, live vanilla/React demos, downloaded self-hosted browser ZIP, and the existing 473 live browser checks all pass. Artwork/source/shared CSS are unchanged. No implementation work remains. The checkout now lives at /home/ranx729/projects/medieval-ornaments. Release v0.1.0 records this completed work. For future additions, follow docs/INTEGRATION.md and regenerate metadata/types after catalog changes.
+React style-loading follow-up: implemented automatic CSS in `/react`, added `/react/unstyled`, and synchronized the example/snippet and documentation. Packed consumer checks, types, unit tests, artwork checks, Vite SSR and demo builds pass; the user-requested npm/GitHub release is in progress. Release 0.2.0 reflects the changed default React import contract; plain Node SSR consumers migrate to `/react/unstyled`.
+
+Previous release checkpoint (0.1.0): implementation, npm publication, Pages deployment, fresh registry consumer checks, actual pinned CDN assets/modules, live vanilla/React demos, downloaded self-hosted browser ZIP, and the existing 473 live browser checks all pass. Artwork/source/shared CSS are unchanged. No implementation work remains. The checkout now lives at /home/ranx729/projects/medieval-ornaments. Release v0.1.0 records this completed work. For future additions, follow docs/INTEGRATION.md and regenerate metadata/types after catalog changes.

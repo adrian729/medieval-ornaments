@@ -23,13 +23,14 @@ const divider = createDivider(element, {
 
 ```jsx
 import { OrnamentDivider, OrnamentFrame, OrnamentImage } from '@ranx729/medieval-ornaments/react';
-import '@ranx729/medieval-ornaments/styles.css';
 
 <OrnamentDivider design="plate-02-stepped-ribbon" />
 <OrnamentDivider design="plate-02-stepped-ribbon" orientation="horizontal" />
 <OrnamentFrame design="red-berry-vine" size={33}><YourContent /></OrnamentFrame>
 <OrnamentImage design="floral-bird-panel-blue" size={128} />
 ```
+
+React includes the shared stylesheet automatically. Use `/react/unstyled` for plain Node SSR or centrally managed CSS; see the [React integration guide](docs/INTEGRATION.md#react).
 
 Only `design` is required. Dividers default to the chosen artwork's original direction; horizontal/vertical automatically choose matching assets. Geometry, formats, and smaller raster sizes come from the catalog. Import `findOrnaments({ use: 'frame', categories: ['floral'] })` to discover compatible designs. Frames/dividers support the 40 repeat designs; images support the nine whole decorations.
 

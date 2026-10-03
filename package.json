@@ -1,6 +1,6 @@
 {
   "name": "@ranx729/medieval-ornaments",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Categorized medieval ornaments with normalized frames, repeating dividers and whole decorations for JavaScript and React",
   "type": "module",
   "license": "SEE LICENSE IN LICENSE",
@@ -27,6 +27,10 @@
       "import": "./lib/index.js"
     },
     "./react": {
+      "types": "./lib/react.d.ts",
+      "import": "./lib/react-styled.js"
+    },
+    "./react/unstyled": {
       "types": "./lib/react.d.ts",
       "import": "./lib/react.js"
     },
@@ -55,7 +59,8 @@
     "USAGE.md"
   ],
   "sideEffects": [
-    "**/*.css"
+    "**/*.css",
+    "./lib/react-styled.js"
   ],
   "peerDependencies": {
     "react": ">=18 <20"

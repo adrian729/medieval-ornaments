@@ -1,7 +1,10 @@
 import { createRef } from 'react';
 import { createDivider, createFrame, createOrnamentImage, findOrnaments, resolveOrnament, type Category } from '@ranx729/medieval-ornaments';
 import { OrnamentFrame, OrnamentDivider, OrnamentImage } from '@ranx729/medieval-ornaments/react';
+import { OrnamentDivider as UnstyledDivider, type OrnamentFrameProps as UnstyledFrameProps } from '@ranx729/medieval-ornaments/react/unstyled';
 import '@ranx729/medieval-ornaments/styles.css';
+const unstyledProps: UnstyledFrameProps = { design: 'red-berry-vine', size: 33 };
+const unstyledExample = <UnstyledDivider design="plate-02-stepped-ribbon" orientation="horizontal" />;
 const categories: Category[] = ['floral'];
 findOrnaments({ use: 'frame', categories, query: 'gold' });
 const discoveredDividers = findOrnaments({ use: 'divider' }).map(item => <OrnamentDivider key={item.name} design={item.name} />);
@@ -26,4 +29,4 @@ const badImage = <OrnamentImage design="floral-bird-panel-blue" src="override.we
 const badDivider = <OrnamentDivider design="red-berry-vine">content</OrnamentDivider>;
 // @ts-expect-error Unknown catalog names fail at compilation.
 const badName = <OrnamentDivider design="not-real" />;
-void [example, badFrame, badImage, badDivider, badName, discoveredDividers, discoveredImages];
+void [example, badFrame, badImage, badDivider, badName, discoveredDividers, discoveredImages, unstyledProps, unstyledExample];

@@ -14,7 +14,8 @@ Code and artwork have separate licensing scopes: see [LICENSE](../LICENSE) and
 
 ## Shared contract
 
-Import `@ranx729/medieval-ornaments/styles.css` once in your application's entry point.
+React's `/react` entry includes the shared stylesheet automatically. For vanilla
+JavaScript, import `@ranx729/medieval-ornaments/styles.css` once in your application's entry point.
 All designs use the same three components/functions:
 
 | Use | React | Vanilla | Designs |
@@ -99,7 +100,6 @@ URL, dimensions, format, and `resolutionLimited` flag.
 
 ```jsx
 import { OrnamentFrame, OrnamentDivider, OrnamentImage } from '@ranx729/medieval-ornaments/react';
-import '@ranx729/medieval-ornaments/styles.css';
 
 function GardenCard() {
   return <>
@@ -114,6 +114,10 @@ function GardenCard() {
 }
 ```
 
+No separate CSS import is needed: your bundler handles the component entry's
+stylesheet import in development and production. Existing explicit imports of
+`/styles.css` can be removed.
+
 The wrapper supports React 18/19, refs to real DOM elements, `className`, `style`,
 native attributes, and native image load/error handlers. Frames accept children.
 Dividers and images do not. Image sources, dimensions and geometry are controlled
@@ -125,7 +129,21 @@ React renders ordinary elements directly. It preserves content/input nodes when
 artwork props change, supports Strict Mode, and works with server rendering and
 hydration. Pass identical options and `assetsBase` on server and client. No
 browser globals or image requests are used while resolving/rendering on the
-server. The React entry is marked `use client` for environments that require it.
+server. Both React entries are marked `use client` for environments that require it.
+
+For plain Node SSR (which cannot import CSS), or when your application manages
+the stylesheet centrally, use the same components from the CSS-free entry:
+
+```jsx
+import { OrnamentFrame, OrnamentDivider, OrnamentImage } from '@ranx729/medieval-ornaments/react/unstyled';
+```
+
+Load `/styles.css` once in the browser entry or link the self-hosted
+`ornaments.css` from the HTML document. The unstyled entry renders identical
+elements; it only omits the stylesheet import. The browser can hydrate these
+elements using either React entry. For Vite SSR with the default styled entry,
+set `ssr.noExternal: ['@ranx729/medieval-ornaments']` so Vite processes its CSS
+import; see [Vite's SSR guide](https://vite.dev/guide/ssr.html#ssr-externals).
 
 Reserved CSS properties (`--ornament-size`, `--ornament-image`, slice, ratio,
 length) are managed by the library. Frame padding, text, backgrounds, spacing,
@@ -178,7 +196,7 @@ SVG. Requesting an unsupported format or use throws a useful error.
 By default, image URLs use the exact installed package version:
 
 ```text
-https://cdn.jsdelivr.net/npm/@ranx729/medieval-ornaments@0.1.0/
+https://cdn.jsdelivr.net/npm/@ranx729/medieval-ornaments@0.2.0/
 ```
 
 Only selected images are requested; the image collection is not embedded in
