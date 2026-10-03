@@ -1,6 +1,6 @@
 # npm package and integration plan
 
-Status: @ranx729/medieval-ornaments@0.3.0 is published. A quality patch is in progress: correct whole-decoration preview resolution and replace the bellflower SVG's noisy color trace with source-fitted curves and gradients. The collection retains 70 designs, with the original 49 artwork entries unchanged. The temporary additions page is removed and watermarked candidates are excluded.
+Status: @ranx729/medieval-ornaments@0.3.1 is published as npm latest and released as v0.3.1. Whole-decoration previews select sufficient raster resolution, and the bellflower SVG uses smooth source-fitted curves and gradients. All 70 designs, fresh registry consumers, pinned CDN assets, deployed demos and the downloaded browser ZIP are verified. The original 49 artwork designs and all native/reference raster files remain unchanged. The temporary additions page is removed and watermarked candidates are excluded. No release work remains.
 
 ## Goal and scope
 
@@ -218,5 +218,11 @@ Final verification: registry integrity matches the exact tested archive; fresh r
 - [x] Bump package/lockfile and regenerate metadata for 0.3.1.
 - [x] Replace the noisy bellflower SVG with faithful smooth contours and petal gradients; preserve native raster and reference files.
 - [x] Validate artwork/catalog, packed consumers and the browser ZIP.
-- [ ] Commit/push, publish the tested package and create the patch release.
-- [ ] Verify fresh registry consumers, pinned CDN artwork and deployed demos; record final evidence.
+- [x] Commit/push, publish the tested package and create the patch release.
+- [x] Verify fresh registry consumers, pinned CDN artwork and deployed demos; record final evidence.
+
+Final verification: npm latest is 0.3.1, with registry integrity matching the
+exact tested archive. Fresh registry consumers repeat the packed-consumer checks.
+Pages passes all 740 browser checks; live vanilla/React examples and the downloaded
+browser ZIP pass. Ten actual pinned UNPKG configurations decode, including the
+native gold PNG and the smooth SVG, whose bytes match the reviewed export.

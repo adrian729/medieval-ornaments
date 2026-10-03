@@ -36,7 +36,18 @@ cases / 32 density/length cases**, including vanilla, React 18/19, SSR/hydration
 Strict Mode, refs/state, public types and self-hosting. The tested archive has
 **1402 files / 180,470,936 compressed bytes / 420,312,053 unpacked bytes**; its
 bellflower SVG and native PNG match the reviewed files. Browser ZIP/React builds
-also pass. Final publication and deployed-site verification are in progress.
+also pass.
+
+Published **@ranx729/medieval-ornaments@0.3.1** as npm latest and created
+[v0.3.1](https://github.com/adrian729/medieval-ornaments/releases/tag/v0.3.1).
+Registry SHA-512 integrity matches the exact tested archive. A fresh named-version
+registry install passes the same 70-design/168-native-case/32-density-case consumer
+checks. GitHub Actions deployed the patch successfully; the public browser passes
+all **740 checks**. Live vanilla/React demos pass at 375/1200px, and the downloaded
+browser ZIP passes archive checks and renders with local assets. Ten actual pinned
+UNPKG configurations decode, including the native 516×107 gold PNG and new SVG.
+Both Pages and UNPKG serve the exact reviewed SVG bytes (SHA-256
+`9e6d0bb4b0066fac48f1ba7ee1ffc13f89b0096ce70c95c3b24228801e882089`).
 
 ## Source additions release 0.3.0 (2026-10-03)
 
