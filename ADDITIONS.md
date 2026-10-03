@@ -45,7 +45,8 @@ original strip bounds, canonical unit bounds, directions, complete motif/color
 cycle evidence, selection metadata, native inputs, and trace parameters. Vertical
 inputs are traced in canonical horizontal coordinates then exported in their
 original direction. PNG/WebP retain the source background and painted pixels;
-only documented two-column repeat collars change. Smaller variants come directly
+only documented two-column repeat collars and the sprawling panel's audited
+lower-border repair change. Smaller variants come directly
 from their native master, without enlargement. Rotated raster masters are exact
 90-degree turns. Atlases use the same artwork's reflected miter corners and
 integer raster slice coordinates, with `round` fitting.
@@ -67,6 +68,12 @@ the reference crop remain unchanged. Its distinct end caps make it a complete
 decoration; repeating it would invent a join absent from the supplied artwork.
 The audit's `vector_method` preserves this editable master during optional
 retracing.
+
+The sprawling floral panel's lower border reflects its existing 11px top band
+across the full width, removing the cropped corner and three pale-gold rows
+below the red stripe. Native output is 722×229. Source rows 0–217 and the existing
+floral SVG paths remain unchanged; the 722×232 original reference is preserved.
+The audit and shared source geometry reproduce this bounded edit on rebuild.
 
 Ordinary artwork builds read checked-in traces and do not run VTracer. To rebuild
 only one integrated design:

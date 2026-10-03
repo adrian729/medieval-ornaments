@@ -87,7 +87,7 @@ The numbered SVGs trace those actual shapes with an adaptive color palette. They
 
 The five transparent panels are AI-assisted extractions and can reinterpret detail. Their master dimensions are capped at the supplied source's 650px height.
 
-The 21 source additions are audited in `additional-patterns.json`; native PNG/WebP preserve source backgrounds and pixels apart from documented narrow repeat collars. Whole-ended or irregular decorations have no frame/divider capability. The three blue stencil designs retain their grid-paper backgrounds, whose grid lines have a different period and can show at joins. Use the main design browser or artwork review page for comparisons. Watermarked candidates and the temporary additions page were removed. Version 0.3.0 includes all 70 designs and uses version-pinned UNPKG asset URLs.
+The 21 source additions are audited in `additional-patterns.json`; native PNG/WebP preserve source backgrounds and pixels apart from documented narrow repeat collars and the sprawling floral panel’s repaired lower border. Whole-ended or irregular decorations have no frame/divider capability. The three blue stencil designs retain their grid-paper backgrounds, whose grid lines have a different period and can show at joins. Use the main design browser or artwork review page for comparisons. Watermarked candidates and the temporary additions page were removed. Version 0.3.0 includes all 70 designs and uses version-pinned UNPKG asset URLs.
 
 ## Raster size selection
 

@@ -11,6 +11,7 @@ import json, xml.etree.ElementTree as ET
 import argparse
 import re
 from PIL import ImageDraw
+from source_patterns import retouch_native
 import vtracer
 
 ROOT=Path(__file__).resolve().parents[1]
@@ -52,6 +53,7 @@ def run(names=None):
         if item['orientation']=='y':image=image.transpose(Image.Transpose.ROTATE_90)
         box=item['unit_bounds'];image=image.crop(box)
         if item['kind']=='repeat-tile':image=match_edges(image,item['join_adjustment_px'])
+        image=retouch_native(image,item)
         if item.get('clip_regions'):
             mask=Image.new('L',image.size);draw=ImageDraw.Draw(mask)
             for x0,y0,x1,y1 in item['clip_regions']:draw.rectangle((x0,y0,x1-1,y1-1),fill=255)

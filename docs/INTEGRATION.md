@@ -206,7 +206,7 @@ SVG. Requesting an unsupported format or use throws a useful error.
 By default, image URLs use the exact installed package version:
 
 ```text
-https://unpkg.com/@ranx729/medieval-ornaments@0.3.1/
+https://unpkg.com/@ranx729/medieval-ornaments@0.3.2/
 ```
 
 UNPKG replaces the previous jsDelivr default because the detailed color traces exceed jsDelivr's [150 MB package limit](https://www.jsdelivr.com/documentation). URLs remain pinned to the installed version.

@@ -773,7 +773,7 @@
     "repeat_note": "The middle panel has individually arranged large flowers, small rosettes and crossing stems. Neither the red rosette nor the blue radial flower has an equivalent repeated copy establishing a full cycle. Preserve the entire decoration; no repeat or frame is inferred.",
     "repeat_evidence": "The middle panel has individually arranged large flowers, small rosettes and crossing stems. Neither the red rosette nor the blue radial flower has an equivalent repeated copy establishing a full cycle. Preserve the entire decoration; no repeat or frame is inferred.",
     "join_adjustment_px": 0,
-    "description": "A broad gold painted panel with irregular scrolling leaves, differently shaped red and blue flowers and small rosettes.",
+    "description": "A broad gold painted panel with irregular scrolling leaves, differently shaped red and blue flowers, small rosettes and matching red/gold/black rules above and below.",
     "categories": [
       "floral",
       "botanical",
@@ -800,7 +800,7 @@
     "tile_path": "sources/tiles/painted-sprawling-floral-panel.png",
     "trace_path": "sources/traces/painted-sprawling-floral-panel.svg",
     "reference_path": "png/painted-sprawling-floral-panel-reference.png",
-    "trace_method": "VTracer0.6.15 Python3.12;32-color palette;4x contour-only sampling; native raster unchanged except2px repeat collars.",
+    "trace_method": "Original checked-in VTracer 0.6.15/Python 3.12 32-color trace with 4\u00d7 contour-only sampling; existing floral paths and palette retained. Exported SVG reflects its top 11px band into rows 218\u2013228 and clips the original lower corner/trailing strip. Native PNG/WebP use the same bounded source-pixel repair and three-row trim, preserving source rows 0\u2013217 exactly. Source sheet and 722\u00d7232 reference crop remain untouched.",
     "trace_options": {
       "colors": 32,
       "quantize_method": "MEDIANCUT",
@@ -809,6 +809,13 @@
       "filter_speckle": 8,
       "length_threshold": 4,
       "retain_context_paths": false
+    },
+    "bottom_border_repair": {
+      "method": "reflect-top-band",
+      "top_band_height_px": 11,
+      "bottom_band_start_px": 218,
+      "trim_bottom_px": 3,
+      "note": "At the user\u2019s request, replace the corner-shaped lower rules with a full-width vertical reflection of the existing red/gold/thin-black top band. Remove three trailing pale-gold rows outside the red stripe. The original source and 722\u00d7232 reference remain untouched; native/exported decoration is 722\u00d7229, with rows 0\u2013217 unchanged."
     }
   },
   {

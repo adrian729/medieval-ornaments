@@ -7,6 +7,34 @@ ROOT=Path(__file__).resolve().parents[1]
 B=96
 
 
+def retouch_native(image,audit):
+    """Apply an audited whole-panel border repair without repainting its interior."""
+    repair=audit.get('bottom_border_repair')
+    if not repair:return image
+    assert audit['kind']=='standalone' and repair['method']=='reflect-top-band'
+    band=repair['top_band_height_px'];start=repair['bottom_band_start_px']
+    assert 0<band<=start and start+band==image.height-repair['trim_bottom_px']
+    result=image.crop((0,0,image.width,start+band))
+    result.paste(image.crop((0,0,image.width,band)).transpose(Image.Transpose.FLIP_TOP_BOTTOM),(0,start))
+    return result
+
+
+def retouch_vector(body,width,height,audit):
+    """Reflect the existing traced top band; retain every floral path unchanged."""
+    repair=audit.get('bottom_border_repair')
+    if not repair:return body,height
+    assert audit['kind']=='standalone' and repair['method']=='reflect-top-band'
+    band=repair['top_band_height_px'];start=repair['bottom_band_start_px'];end=start+band
+    assert 0<band<=start and end<=height
+    key=audit['name']+'-retouch'
+    definitions=(f'<defs><g id="{key}-art">{body}</g>'
+                 f'<clipPath id="{key}-interior"><rect width="{width}" height="{start}"/></clipPath>'
+                 f'<clipPath id="{key}-band"><rect width="{width}" height="{band}"/></clipPath></defs>')
+    result=definitions+f'<use href="#{key}-art" clip-path="url(#{key}-interior)"/>'
+    result+=f'<g transform="translate(0 {end}) scale(1 -1)"><use href="#{key}-art" clip-path="url(#{key}-band)"/></g>'
+    return result,end
+
+
 def load_spec(spec, audit=None):
     name=spec['name']
     if audit is None:audit=json.loads((ROOT/'source-patterns.json').read_text())[name]
@@ -21,15 +49,18 @@ def load_spec(spec, audit=None):
     # neighboring periods can otherwise differ slightly at the clipping line.
     image=Image.open(ROOT/audit.get('tile_path',f'sources/tiles/{name}.png')).convert('RGB')
     collar='';scale=1;collar_width=.45
-    for y in range(native_h):
-        color='#'+bytes(image.getpixel((0,y))).hex()
-        for x in (0,width-collar_width):
-            collar+=f'<rect x="{x}" y="{y*scale}" width="{collar_width}" height="{scale+.01}" fill="{color}"/>'
-    if audit['kind']=='repeat-tile':body+=collar
+    if audit['kind']=='repeat-tile':
+        for y in range(native_h):
+            color='#'+bytes(image.getpixel((0,y))).hex()
+            for x in (0,width-collar_width):
+                collar+=f'<rect x="{x}" y="{y*scale}" width="{collar_width}" height="{scale+.01}" fill="{color}"/>'
+        body+=collar
     if audit.get('clip_regions'):
         regions=''.join(f'<rect x="{x0}" y="{y0}" width="{x1-x0}" height="{y1-y0}"/>' for x0,y0,x1,y1 in audit['clip_regions'])
         key=name+'-source-mask'
         body=f'<defs><clipPath id="{key}">{regions}</clipPath></defs><g clip-path="url(#{key})">{body}</g>'
+    body,native_h=retouch_vector(body,native_w,native_h,audit)
+    assert image.size==(native_w,native_h),name+' native source/trace geometry mismatch'
     result=dict(spec,**audit)
     result.update(width=width,body=body,native_width=native_w,native_height=native_h,corner_size=native_h)
     return result

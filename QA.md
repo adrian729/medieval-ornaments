@@ -1,5 +1,33 @@
 # Artwork and frame verification
 
+## Sprawling floral panel lower-border patch 0.3.2 (2026-10-03)
+
+At the user's request, the lower corner-shaped border now spans the complete
+panel. The native 11px top band (red outer stripe, gold band, thin black inner
+rule) is reflected into rows 218–228. Three pale-gold rows below the red stripe
+are trimmed, yielding **722×229**. Source rows **0–217** are byte-for-byte
+unchanged; the original supplied sheet and every 722×232 reference crop/variant
+are preserved. The lower native band is pixel-exact to the reflected top band.
+
+The SVG retains all original floral paths and palette, with local vector reuse,
+clipping and reflection of the existing top band. Rendering the old/new SVGs at
+native size confirms the floral interior is pixel-identical. The mirrored SVG
+band has a mean CairoSVG antialiasing difference below 0.1/255 per channel.
+Native/enlarged PNG, SVG and original comparisons were visually inspected.
+The repair is recorded in the audit and shared source geometry, including the
+optional retracer's native preparation. The panel remains a whole decoration.
+
+Scoped rebuilding updates the native PNG/WebP and all smaller variants. Catalog
+checks pass **70 designs / 233 genuine SVGs / 1383 assets**; artwork checks retain
+**400 exact source-frame joins / 102 integer-sliced atlases / 56 pixel-exact
+rotated masters**. All **740 local browser checks**, npm tests and public types
+pass. Packed consumers pass **70 designs / 168 native axis/design cases /
+32 density/length cases**, including vanilla, React 18/19, Strict Mode,
+SSR/hydration, refs/state and self-hosting. The tested archive contains **1402
+files / 180,450,015 compressed bytes / 420,292,831 unpacked bytes**, and its
+corrected SVG/PNG/WebP match the reviewed exports. Browser ZIP/React builds
+also pass. Publication and live-site verification are in progress.
+
 ## Whole-decoration quality patch 0.3.1 (2026-10-03)
 
 The design browser selected wide whole decorations using only displayed height,

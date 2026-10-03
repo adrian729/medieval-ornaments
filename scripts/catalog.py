@@ -55,9 +55,12 @@ def validate(catalog):
                 vector_count+=1;path=ROOT/original['svg'];root=ET.parse(path).getroot()
                 assert [float(n) for n in root.attrib['viewBox'].split()]==original['viewbox']
                 # SVG exports must be genuine, self-contained vectors.
+                identifiers={node.attrib['id'] for node in root.iter() if 'id' in node.attrib}
                 for node in root.iter():
                     assert node.tag.split('}')[-1] not in {'image','script','foreignObject'}
-                    assert not any(key.endswith('href') for key in node.attrib)
+                    for key,value in node.attrib.items():
+                        if key.endswith('href'):
+                            assert node.tag.split('}')[-1]=='use' and value.startswith('#') and value[1:] in identifiers,'Only resolved local vector references are allowed'
                 paths.add(original['svg'])
         limits=[v['max_dimension'] for v in item['variants']]
         assert limits==sorted(set(limits))

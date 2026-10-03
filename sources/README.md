@@ -4,6 +4,12 @@
 
 `tiles/` contains native raster build inputs. Repeating units have a two-pixel edge adjustment, with unchanged source interiors. Whole decorations retain their complete source shapes; the two L-shaped corners mask neighboring regions.
 
+At the user's request, the sprawling floral panel's lower corner was replaced
+with a full-width reflection of its existing red/gold/black top band. Three
+trailing rows below the red stripe were trimmed, yielding 722×229. The floral
+interior, supplied sheet and 722×232 reference crop are untouched. Its audited
+`bottom_border_repair` is applied by the shared native/vector source geometry.
+
 `traces/` contains genuine editable vector color traces. They approximate the source curves and print tones rather than replacing motifs with generic geometry. Original painted PNG/WebP is available independently of these traces.
 
 The gold bellflower master uses source-fitted cubic contours, stems/veins and

@@ -39,7 +39,15 @@ def check():
             assert hashlib.sha256((ROOT/record['source_path']).read_bytes()).hexdigest()==record['source_sha256'],name+' source changed'
         expected=native.transpose(Image.Transpose.ROTATE_270) if record['orientation']=='y' else native
         with Image.open(ROOT/item['png']) as actual:assert actual.convert('RGBA').tobytes()==expected.tobytes(),name
-        if record['kind']=='standalone':continue
+        if record['kind']=='standalone':
+            repair=record.get('bottom_border_repair')
+            if repair:
+                assert repair['method']=='reflect-top-band',name
+                band=repair['top_band_height_px'];start=repair['bottom_band_start_px']
+                assert native.size==(raw.width,raw.height-repair['trim_bottom_px'])==(raw.width,start+band),name+' repair dimensions'
+                assert native.crop((0,0,raw.width,start)).tobytes()==raw.crop((0,0,raw.width,start)).tobytes(),name+' untouched floral pixels changed'
+                assert native.crop((0,start,raw.width,start+band)).tobytes()==raw.crop((0,0,raw.width,band)).transpose(Image.Transpose.FLIP_TOP_BOTTOM).tobytes(),name+' lower band differs from reflected top'
+            continue
         k=record['join_adjustment_px'];w,b=native.size
         assert native.crop((k,0,w-k,b)).tobytes()==raw.crop((k,0,w-k,b)).tobytes(),name+' source interior changed'
         assert native.crop((0,0,1,b)).tobytes()==native.crop((w-1,0,w,b)).tobytes(),name+' tile seam'
