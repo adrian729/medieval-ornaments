@@ -1,6 +1,6 @@
 # npm package and integration plan
 
-Status: implementation approved by the user ("impl!"). Core, React, declarations, examples, packaging, documentation, and packaged-consumer verification are complete; release verification is underway. Keep this checklist current as each phase is completed. Record changes to the decisions here rather than silently diverging from them.
+Status: implementation approved by the user ("impl!"). Implemented and published as @ranx729/medieval-ornaments@0.1.0. Packed and registry consumers, pinned CDN defaults, deployed examples, and the downloaded browser ZIP are verified. Keep this checklist current as each phase is completed. Record changes to the decisions here rather than silently diverging from them.
 
 ## Goal and scope
 
@@ -18,7 +18,7 @@ Preserve the existing 49 designs, original sources, catalog, variants, geometry,
 - [x] Check that `@ranx729/medieval-ornaments` is currently available. Recheck before the initial publish.
 - [x] Inspect the current asset sizes: approximately 13 MB PNG, 7.8 MB WebP, and 32 MB SVG before package compression. Avoid automatically embedding the collection in application JavaScript.
 
-## Proposed normalized contract
+## Accepted normalized contract
 
 ### Components and capabilities
 
@@ -38,7 +38,7 @@ Provide `ornaments`, `getOrnament(name)`, and `findOrnaments(filters)` without a
 
 ### Shared options and defaults
 
-| Option | Applies to | Proposed behavior |
+| Option | Applies to | Behavior |
 | --- | --- | --- |
 | `design` | All | Required stable catalog name |
 | `size` | All | Positive number in CSS pixels: frame/divider thickness, whole-image height |
@@ -95,7 +95,7 @@ divider.destroy();
 
 ## Asset delivery and package contents
 
-Proposed default: `https://cdn.jsdelivr.net/npm/@ranx729/medieval-ornaments@VERSION/`. Pin the library's own exact version, never `latest` or a moving Git branch. Only selected images are requested by the browser; importing the catalog must not fetch images. This also gives the browser and server identical public URLs.
+Default: `https://cdn.jsdelivr.net/npm/@ranx729/medieval-ornaments@VERSION/`. Pin the library's own exact version, never `latest` or a moving Git branch. Only selected images are requested by the browser; importing the catalog must not fetch images. This also gives the browser and server identical public URLs.
 
 The default requires CDN access. Provide an equally documented self-hosted path for offline applications, strict content policies, or projects that want all resources on their own origin:
 
@@ -104,7 +104,7 @@ The default requires CDN access. Provide an equally documented self-hosted path 
 - Show how to copy into an application's public folder and pass `assetsBase`, including deployment under a nested URL path. Never infer the application's public deployment path from filesystem paths.
 - Provide a browser download with modules, CSS, assets, and a working native-JS example if following elder-scrolls' browser-download convention.
 
-Proposed package exports: core API, `/react`, `/styles.css`, `/catalog.json`, and direct `/svg/*`, `/png/*`, `/webp/*` assets. Use ESM and TypeScript declarations. React is an optional peer dependency; vanilla users need no React runtime. Keep CSS marked as a side effect so production builds retain it.
+Package exports: core API, `/react`, `/styles.css`, `/catalog.json`, and direct `/svg/*`, `/png/*`, `/webp/*` assets. Use ESM and TypeScript declarations. React is an optional peer dependency; vanilla users need no React runtime. Keep CSS marked as a side effect so production builds retain it.
 
 Use a package allowlist. Exclude source sheets, reference audit scripts, private files, temporary folders, virtual environments, browser profiles, tests, and demos from the npm runtime package. Keep asset provenance and usage documentation included. Measure compressed/unpacked package sizes and inspect every packed path before release.
 
@@ -163,13 +163,13 @@ Document licensing scope honestly before release. The current repository does no
 ### 6. Release and verify
 
 - [x] Confirm npm identity, name availability, version, access, package contents, and final licensing notices.
-- [ ] Commit/push the tested implementation and documentation, keeping unrelated repositories untouched.
-- [ ] Publish `@ranx729/medieval-ornaments@0.1.0` publicly. If npm requires authentication/2FA interaction, report that concrete requirement; do not claim a successful release until verified.
-- [ ] Confirm the registry version and install it into a fresh consumer.
-- [ ] Verify version-pinned default CDN assets for frames, both divider directions, and whole images after publication.
-- [ ] Deploy examples/browser download and verify them on the live site.
-- [ ] Add a matching release/tag and record validation, package size, and any limitations in QA/release notes.
-- [ ] Document the future release sequence so additions to the artwork regenerate package metadata and ship under a new pinned version.
+- [x] Commit/push the tested implementation and documentation, keeping unrelated repositories untouched.
+- [x] Publish `@ranx729/medieval-ornaments@0.1.0` publicly. If npm requires authentication/2FA interaction, report that concrete requirement; do not claim a successful release until verified.
+- [x] Confirm the registry version and install it into a fresh consumer.
+- [x] Verify version-pinned default CDN assets for frames, both divider directions, and whole images after publication.
+- [x] Deploy examples/browser download and verify them on the live site.
+- [x] Add a matching release/tag and record validation, package size, and any limitations in QA/release notes.
+- [x] Document the future release sequence so additions to the artwork regenerate package metadata and ship under a new pinned version.
 
 ## Completion criteria
 
@@ -182,4 +182,4 @@ The work is complete when another project can install the published package, ren
 
 ## Continuation notes
 
-Last checkpoint: all implementation and pre-release validations pass, including packed vanilla/React 18/19 consumers, public types, SSR/hydration, local asset hosting, and the existing 473 artwork-browser checks. Artwork, source files, and shared CSS match the previous approved commit. No package published or deployment settings changed yet. Next: commit/push, publish 0.1.0, deploy the built Pages examples, verify registry/default CDN/fresh consumers/live site/browser ZIP, and record completion.
+Last checkpoint: implementation, npm publication, Pages deployment, fresh registry consumer checks, actual pinned CDN assets/modules, live vanilla/React demos, downloaded self-hosted browser ZIP, and the existing 473 live browser checks all pass. Artwork/source/shared CSS are unchanged. No implementation work remains. The checkout now lives at /home/ranx729/projects/medieval-ornaments. Release v0.1.0 records this completed work. For future additions, follow docs/INTEGRATION.md and regenerate metadata/types after catalog changes.

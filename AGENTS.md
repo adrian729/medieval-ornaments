@@ -2,7 +2,7 @@
 
 This public collection is separate from `../medieval-cutouts`. Keep Polyhymnia logos and unrelated workspace files outside it.
 
-The npm/vanilla JavaScript/React integration work is tracked in [PACKAGE-PLAN.md](PACKAGE-PLAN.md). The user approved implementation. Keep its accepted contract, checklist, and continuation checkpoint current across sessions.
+The npm/vanilla JavaScript/React library is published as `@ranx729/medieval-ornaments`. Its accepted contract and release checklist are tracked in [PACKAGE-PLAN.md](PACKAGE-PLAN.md); keep them current across sessions.
 
 ## Sources of truth
 
@@ -26,6 +26,7 @@ The npm/vanilla JavaScript/React integration work is tracked in [PACKAGE-PLAN.md
 - `docs/INTEGRATION.md`, `examples/vanilla/`, `examples/react/`: public API/hosting/release guide and runnable consumers. Keep required design names, use-specific options, defaults, and capability discovery synchronized.
 - `package.json`: public ESM exports, optional React peer, package allowlist. Consumers need no Python or React for vanilla. `LICENSE` scopes the integration software grant; `ASSET-RIGHTS.md` retains artwork's separate status. Never apply MIT to the whole artwork collection.
 - `tests/`: resolver/catalog/raster boundaries, SSR, public types, and real npm-packed browser consumers. Run `npm test`, `npm run test:types`, `npm run test:integration` before release. The integration check requires Chromium, npm cache access, and React 18 dependencies; `ORNAMENTS_PACKAGE` selects a registry version for post-publication verification.
+- `tests/site.mjs`: verifies live vanilla/React examples, the actual pinned npm CDN, and the downloaded browser ZIP. It shares Chrome port 9227 with the artwork browser checks; run sequentially. Record published-package and deployed-site checks in QA.md.
 - `.github/workflows/pages.yml`: builds the React demo/browser ZIP and assembles Pages. Pages must use GitHub Actions, not a raw-branch deployment that serves unbuilt JSX.
 - `examples/demo.html`: small usage demo; `index.html` redirects to it. `examples/index.html`: categorized browser. `examples/review.html`: original/unit/repeat/frame comparisons. `examples/qa.html`: all frames.
 - `tmp/`, `.venv*/`, `node_modules/`, `dist/`, `*.tgz`: ignored local work/builds. Never commit credentials/private workspace material.

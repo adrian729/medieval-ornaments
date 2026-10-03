@@ -4,26 +4,70 @@
   "description": "Categorized medieval ornaments with normalized frames, repeating dividers and whole decorations for JavaScript and React",
   "type": "module",
   "license": "SEE LICENSE IN LICENSE",
-  "repository": { "type": "git", "url": "git+https://github.com/adrian729/medieval-ornaments.git" },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adrian729/medieval-ornaments.git"
+  },
   "homepage": "https://adrian729.github.io/medieval-ornaments/",
-  "bugs": { "url": "https://github.com/adrian729/medieval-ornaments/issues" },
-  "keywords": ["medieval", "ornament", "border", "divider", "react", "vanilla", "decoration"],
+  "bugs": {
+    "url": "https://github.com/adrian729/medieval-ornaments/issues"
+  },
+  "keywords": [
+    "medieval",
+    "ornament",
+    "border",
+    "divider",
+    "react",
+    "vanilla",
+    "decoration"
+  ],
   "exports": {
-    ".": { "types": "./lib/index.d.ts", "import": "./lib/index.js" },
-    "./react": { "types": "./lib/react.d.ts", "import": "./lib/react.js" },
-    "./styles.css": { "types": "./lib/styles.d.ts", "default": "./ornaments.css" },
+    ".": {
+      "types": "./lib/index.d.ts",
+      "import": "./lib/index.js"
+    },
+    "./react": {
+      "types": "./lib/react.d.ts",
+      "import": "./lib/react.js"
+    },
+    "./styles.css": {
+      "types": "./lib/styles.d.ts",
+      "default": "./ornaments.css"
+    },
     "./catalog.json": "./lib/catalog.json",
     "./svg/*": "./svg/*",
     "./png/*": "./png/*",
     "./webp/*": "./webp/*",
     "./package.json": "./package.json"
   },
-  "bin": { "medieval-ornaments": "./lib/cli.js" },
-  "files": ["lib", "ornaments.css", "svg", "png", "webp", "docs/INTEGRATION.md", "ASSET-RIGHTS.md", "SELECTION.md", "USAGE.md"],
-  "sideEffects": ["**/*.css"],
-  "peerDependencies": { "react": ">=18 <20" },
-  "peerDependenciesMeta": { "react": { "optional": true } },
-  "engines": { "node": ">=18" },
+  "bin": {
+    "medieval-ornaments": "lib/cli.js"
+  },
+  "files": [
+    "lib",
+    "ornaments.css",
+    "svg",
+    "png",
+    "webp",
+    "docs/INTEGRATION.md",
+    "ASSET-RIGHTS.md",
+    "SELECTION.md",
+    "USAGE.md"
+  ],
+  "sideEffects": [
+    "**/*.css"
+  ],
+  "peerDependencies": {
+    "react": ">=18 <20"
+  },
+  "peerDependenciesMeta": {
+    "react": {
+      "optional": true
+    }
+  },
+  "engines": {
+    "node": ">=18"
+  },
   "scripts": {
     "build": "node scripts/build-library.mjs",
     "build:browser": "node scripts/build-browser.mjs",
@@ -32,7 +76,9 @@
     "test:types": "tsc --noEmit --strict --noUncheckedSideEffectImports --module nodenext --target es2022 --jsx react-jsx tests/types.tsx",
     "test:integration": "node tests/integration.mjs"
   },
-  "publishConfig": { "access": "public" },
+  "publishConfig": {
+    "access": "public"
+  },
   "devDependencies": {
     "@types/react": "19.3.0",
     "@types/react-dom": "19.3.0",

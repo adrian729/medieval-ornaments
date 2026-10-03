@@ -25,6 +25,14 @@ For post-publication consumer checks, run `ORNAMENTS_PACKAGE=@ranx729/medieval-o
 
 The collection has **49 designs: 40 repeating borders and nine whole decorations**. Asset validation covers **922 cataloged files, including 164 SVGs**. Checks cover catalog coverage, filenames, dimensions, byte counts, lossless PNG/WebP visible pixels and alpha, variants produced directly from masters, and the absence of raster embedding or external references in SVGs.
 
+### Published release verification
+
+Published **@ranx729/medieval-ornaments@0.1.0** to the public npm registry. A fresh registry install passed the same complete consumer matrix, including the installed asset-copy command and both React versions' types. npm normalized the command path from `./lib/cli.js` to `lib/cli.js`; its published `bin` is present and tested. The registry archive has **940 files / 52,284,801 unpacked bytes**. The repository now uses that normalized command path.
+
+GitHub Pages uses the checked-in build/deploy workflow. The live site passed all **473 existing browser checks**. `node tests/site.mjs` also passed the live vanilla and React demos at **375/1200px**, original and forced directions, painted-image changes, exact complete-unit centering, image decoding, and page overflow checks. The actual pinned CDN core modules/catalog loaded in Chrome, and default floral frame, painted original/rotated divider, and small whole-image assets decoded successfully. The live browser ZIP downloaded, passed archive integrity checks, and its extracted native example rendered with local images and orientation switching. Live mobile/desktop screenshots were visually inspected.
+
+Repeat live release checks with `node tests/site.mjs` after starting the review Chrome on port 9227. Run it sequentially with the existing browser checker because they share a tab. Reports/screenshots are under ignored `tmp/package-site.json` and `tmp/live-*.png`. These checks verify the public distribution as well as local source; artwork/source/shared CSS remain unchanged from the approved artwork commit.
+
 ## Source and artwork checks
 
 All 38 numbered reference crops were compared with the original sheet's pixels and masks. The original sheet and five standalone panel masters are preserved. Numbered PNG/WebP units use actual source pixels, with only the documented two-pixel repeat-end adjustment. Their interiors and whole decorations are checked against the supplied source. Native plate frame assembly uses no enlargement or interpolation.
