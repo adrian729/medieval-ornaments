@@ -1,0 +1,1346 @@
+[
+  {
+    "name": "blue-paired-birds-and-palmettes",
+    "source_path": "sources/additions/blue-sheet.png",
+    "source_bounds": [
+      29,
+      19,
+      592,
+      141
+    ],
+    "unit_bounds": [
+      140,
+      0,
+      279,
+      122
+    ],
+    "orientation": "x",
+    "kind": "repeat-tile",
+    "repeat_note": "Four paired bird-and-palmette cycles are visible. Fan-tailed and long-necked birds alternate, so a single bird is not a complete cycle. Matching cusp positions recur at x169,308,447,586: period139px. The interior x169\u2013308 crop follows the same cusp/stem phase on both edges; no terminal embellishment is included.",
+    "repeat_evidence": "Four paired bird-and-palmette cycles are visible. Fan-tailed and long-necked birds alternate, so a single bird is not a complete cycle. Matching cusp positions recur at x169,308,447,586: period139px. The interior x169\u2013308 crop follows the same cusp/stem phase on both edges; no terminal embellishment is included.",
+    "join_adjustment_px": 2,
+    "description": "Blue alternating fan-tailed and long-necked birds enclosed by paired scrolling stems above palmette leaves on pale blue.",
+    "categories": [
+      "animals",
+      "botanical",
+      "scrollwork"
+    ],
+    "subjects": [
+      "bird",
+      "leaf",
+      "palmette",
+      "scroll"
+    ],
+    "facing": "mixed",
+    "colors": [
+      "blue",
+      "light-blue"
+    ],
+    "composition": "repeat-tile",
+    "reference": "blue-sheet",
+    "reference_design": 1,
+    "status": "integrated",
+    "restrictions": "Supplied image; artwork authorship and reuse rights have not been established. No artwork license is inferred.",
+    "tile_path": "sources/tiles/blue-paired-birds-and-palmettes.png",
+    "trace_path": "sources/traces/blue-paired-birds-and-palmettes.svg",
+    "reference_path": "png/blue-paired-birds-and-palmettes-reference.png",
+    "trace_method": "VTracer0.6.15/Python3.12; three neighboring units for repeats, one for whole decorations;4\u00d7 BICUBIC contour-fitting input; original tile Gaussian blur0.15px for 12-color palette (MEDIANCUT); scaled input Gaussian blur0.3px; quantization without dither; spline, speckle4, color_precision8, layer_difference8, length_threshold3, path_precision3. Native PNG remains unchanged except documented two-pixel repeat join adjustment.",
+    "trace_options": {
+      "colors": 12,
+      "quantize_method": 0,
+      "quantize_method_name": "MEDIANCUT",
+      "palette_blur": 0.15,
+      "scaled_blur": 0.3,
+      "supersample": 4,
+      "resample": "BICUBIC",
+      "dither": "NONE",
+      "neighbors": 3,
+      "filter_speckle": 4,
+      "color_precision": 8,
+      "layer_difference": 8,
+      "mode": "spline",
+      "length_threshold": 3,
+      "path_precision": 3,
+      "retain_context_paths": false
+    },
+    "source_sha256": "f58857f5434d68d7147f5ae0f08882b4aa773a5272dd56189260b93d5f48be83"
+  },
+  {
+    "name": "blue-alternating-leaf-vine",
+    "source_path": "sources/additions/blue-sheet.png",
+    "source_bounds": [
+      29,
+      156,
+      88,
+      442
+    ],
+    "unit_bounds": [
+      66,
+      0,
+      201,
+      59
+    ],
+    "orientation": "y",
+    "kind": "repeat-tile",
+    "repeat_note": "Four leaf-and-loop lobes form two full mirrored pairs. Adjacent lobes reverse leaf/sprig placement; the complete cycle is135px, visually confirmed by the two matching pair arrangements. Native shifts135px have the strongest matching contour registration. Interior y222\u2013357 contains both directions and avoids the top pointed start and bottom terminal loop.",
+    "repeat_evidence": "Four leaf-and-loop lobes form two full mirrored pairs. Adjacent lobes reverse leaf/sprig placement; the complete cycle is135px, visually confirmed by the two matching pair arrangements. Native shifts135px have the strongest matching contour registration. Interior y222\u2013357 contains both directions and avoids the top pointed start and bottom terminal loop.",
+    "join_adjustment_px": 2,
+    "description": "Blue lobed leaves alternate direction inside curling vine loops with small flower sprigs on pale blue.",
+    "categories": [
+      "botanical",
+      "floral",
+      "scrollwork"
+    ],
+    "subjects": [
+      "leaf",
+      "vine",
+      "flower"
+    ],
+    "facing": "mixed",
+    "colors": [
+      "blue",
+      "light-blue"
+    ],
+    "composition": "repeat-tile",
+    "reference": "blue-sheet",
+    "reference_design": 2,
+    "status": "integrated",
+    "restrictions": "Supplied image; artwork authorship and reuse rights have not been established. No artwork license is inferred.",
+    "tile_path": "sources/tiles/blue-alternating-leaf-vine.png",
+    "trace_path": "sources/traces/blue-alternating-leaf-vine.svg",
+    "reference_path": "png/blue-alternating-leaf-vine-reference.png",
+    "trace_method": "VTracer0.6.15/Python3.12; three neighboring units for repeats, one for whole decorations;4\u00d7 BICUBIC contour-fitting input; original tile Gaussian blur0.15px for 12-color palette (MEDIANCUT); scaled input Gaussian blur0.3px; quantization without dither; spline, speckle4, color_precision8, layer_difference8, length_threshold3, path_precision3. Native PNG remains unchanged except documented two-pixel repeat join adjustment.",
+    "trace_options": {
+      "colors": 12,
+      "quantize_method": 0,
+      "quantize_method_name": "MEDIANCUT",
+      "palette_blur": 0.15,
+      "scaled_blur": 0.3,
+      "supersample": 4,
+      "resample": "BICUBIC",
+      "dither": "NONE",
+      "neighbors": 3,
+      "filter_speckle": 4,
+      "color_precision": 8,
+      "layer_difference": 8,
+      "mode": "spline",
+      "length_threshold": 3,
+      "path_precision": 3,
+      "retain_context_paths": false
+    },
+    "source_sha256": "f58857f5434d68d7147f5ae0f08882b4aa773a5272dd56189260b93d5f48be83"
+  },
+  {
+    "name": "purple-oval-rosette-vine",
+    "source_path": "sources/additions/blue-sheet.png",
+    "source_bounds": [
+      120,
+      156,
+      157,
+      442
+    ],
+    "unit_bounds": [
+      103,
+      0,
+      207,
+      37
+    ],
+    "orientation": "y",
+    "kind": "repeat-tile",
+    "repeat_note": "The full motif is one elongated mirrored scroll oval plus one pierced rosette; corresponding arrangements recur approximately104px apart. The bottom oval is a partial final cycle, not a replacement unit. Interior y259\u2013363 includes the full oval/rosette pair and joins at the narrow symmetric neck; source starts/ends are excluded.",
+    "repeat_evidence": "The full motif is one elongated mirrored scroll oval plus one pierced rosette; corresponding arrangements recur approximately104px apart. The bottom oval is a partial final cycle, not a replacement unit. Interior y259\u2013363 includes the full oval/rosette pair and joins at the narrow symmetric neck; source starts/ends are excluded.",
+    "join_adjustment_px": 2,
+    "description": "Purple elongated mirrored scroll ovals alternate with small pierced rosettes on pale blue.",
+    "categories": [
+      "floral",
+      "scrollwork",
+      "geometric"
+    ],
+    "subjects": [
+      "rosette",
+      "flower",
+      "scroll"
+    ],
+    "facing": "unclear",
+    "colors": [
+      "purple",
+      "light-blue"
+    ],
+    "composition": "repeat-tile",
+    "reference": "blue-sheet",
+    "reference_design": 3,
+    "status": "integrated",
+    "restrictions": "Supplied image; artwork authorship and reuse rights have not been established. No artwork license is inferred.",
+    "tile_path": "sources/tiles/purple-oval-rosette-vine.png",
+    "trace_path": "sources/traces/purple-oval-rosette-vine.svg",
+    "reference_path": "png/purple-oval-rosette-vine-reference.png",
+    "trace_method": "VTracer0.6.15/Python3.12; three neighboring units for repeats, one for whole decorations;4\u00d7 BICUBIC contour-fitting input; original tile Gaussian blur0.15px for 12-color palette (MEDIANCUT); scaled input Gaussian blur0.3px; quantization without dither; spline, speckle4, color_precision8, layer_difference8, length_threshold3, path_precision3. Native PNG remains unchanged except documented two-pixel repeat join adjustment.",
+    "trace_options": {
+      "colors": 12,
+      "quantize_method": 0,
+      "quantize_method_name": "MEDIANCUT",
+      "palette_blur": 0.15,
+      "scaled_blur": 0.3,
+      "supersample": 4,
+      "resample": "BICUBIC",
+      "dither": "NONE",
+      "neighbors": 3,
+      "filter_speckle": 4,
+      "color_precision": 8,
+      "layer_difference": 8,
+      "mode": "spline",
+      "length_threshold": 3,
+      "path_precision": 3,
+      "retain_context_paths": false
+    },
+    "source_sha256": "f58857f5434d68d7147f5ae0f08882b4aa773a5272dd56189260b93d5f48be83"
+  },
+  {
+    "name": "blue-acanthus-and-seed-head-panel",
+    "source_path": "sources/additions/blue-sheet.png",
+    "source_bounds": [
+      185,
+      156,
+      226,
+      442
+    ],
+    "unit_bounds": [
+      0,
+      0,
+      286,
+      41
+    ],
+    "orientation": "y",
+    "kind": "standalone",
+    "repeat_note": "Two consecutive upright leaf/seed-head motifs are followed by two inverted motifs, rather than a regular alternating repeat. The supplied strip ends in different leaf/seed-head phases. No source-supported complete seamless cycle is established; retain the whole decoration without a frame atlas.",
+    "repeat_evidence": "Two consecutive upright leaf/seed-head motifs are followed by two inverted motifs, rather than a regular alternating repeat. The supplied strip ends in different leaf/seed-head phases. No source-supported complete seamless cycle is established; retain the whole decoration without a frame atlas.",
+    "join_adjustment_px": 0,
+    "description": "A narrow blue acanthus strip with seed heads: two upright leaf groups above two inverted leaf groups on pale blue.",
+    "categories": [
+      "botanical"
+    ],
+    "subjects": [
+      "acanthus",
+      "leaf",
+      "seed-head"
+    ],
+    "facing": "mixed",
+    "colors": [
+      "blue",
+      "light-blue"
+    ],
+    "composition": "standalone",
+    "reference": "blue-sheet",
+    "reference_design": 4,
+    "status": "integrated",
+    "restrictions": "Supplied image; artwork authorship and reuse rights have not been established. No artwork license is inferred.",
+    "tile_path": "sources/tiles/blue-acanthus-and-seed-head-panel.png",
+    "trace_path": "sources/traces/blue-acanthus-and-seed-head-panel.svg",
+    "reference_path": "png/blue-acanthus-and-seed-head-panel-reference.png",
+    "trace_method": "VTracer0.6.15/Python3.12; three neighboring units for repeats, one for whole decorations;4\u00d7 BICUBIC contour-fitting input; original tile Gaussian blur0.15px for 12-color palette (MEDIANCUT); scaled input Gaussian blur0.3px; quantization without dither; spline, speckle4, color_precision8, layer_difference8, length_threshold3, path_precision3. Native PNG remains unchanged except documented two-pixel repeat join adjustment.",
+    "trace_options": {
+      "colors": 12,
+      "quantize_method": 0,
+      "quantize_method_name": "MEDIANCUT",
+      "palette_blur": 0.15,
+      "scaled_blur": 0.3,
+      "supersample": 4,
+      "resample": "BICUBIC",
+      "dither": "NONE",
+      "neighbors": 1,
+      "filter_speckle": 4,
+      "color_precision": 8,
+      "layer_difference": 8,
+      "mode": "spline",
+      "length_threshold": 3,
+      "path_precision": 3,
+      "retain_context_paths": false
+    },
+    "source_sha256": "f58857f5434d68d7147f5ae0f08882b4aa773a5272dd56189260b93d5f48be83"
+  },
+  {
+    "name": "purple-fine-scroll-lattice",
+    "source_path": "sources/additions/blue-sheet.png",
+    "source_bounds": [
+      257,
+      156,
+      298,
+      442
+    ],
+    "unit_bounds": [
+      67,
+      0,
+      102,
+      41
+    ],
+    "orientation": "y",
+    "kind": "repeat-tile",
+    "repeat_note": "Eight small symmetric lattice cells are visible along the strip; matching fine curls and central cross connections recur35px apart. A70px shift matches two cells but is not needed for motif identity. Interior y223\u2013258 preserves a whole symmetric cell and its connecting cross phase; native registration supports the visually observed35px period.",
+    "repeat_evidence": "Eight small symmetric lattice cells are visible along the strip; matching fine curls and central cross connections recur35px apart. A70px shift matches two cells but is not needed for motif identity. Interior y223\u2013258 preserves a whole symmetric cell and its connecting cross phase; native registration supports the visually observed35px period.",
+    "join_adjustment_px": 2,
+    "description": "Fine purple mirrored curled stems form a dense symmetrical scroll lattice on pale blue.",
+    "categories": [
+      "scrollwork",
+      "geometric"
+    ],
+    "subjects": [
+      "scroll",
+      "lattice"
+    ],
+    "facing": "unclear",
+    "colors": [
+      "purple",
+      "light-blue"
+    ],
+    "composition": "repeat-tile",
+    "reference": "blue-sheet",
+    "reference_design": 5,
+    "status": "integrated",
+    "restrictions": "Supplied image; artwork authorship and reuse rights have not been established. No artwork license is inferred.",
+    "tile_path": "sources/tiles/purple-fine-scroll-lattice.png",
+    "trace_path": "sources/traces/purple-fine-scroll-lattice.svg",
+    "reference_path": "png/purple-fine-scroll-lattice-reference.png",
+    "trace_method": "VTracer0.6.15/Python3.12; three neighboring units for repeats, one for whole decorations;4\u00d7 BICUBIC contour-fitting input; original tile Gaussian blur0.15px for 4-color palette (MEDIANCUT); scaled input Gaussian blur0.3px; quantization without dither; spline, speckle4, color_precision8, layer_difference8, length_threshold3, path_precision3. Native PNG remains unchanged except documented two-pixel repeat join adjustment.",
+    "trace_options": {
+      "colors": 4,
+      "quantize_method": 0,
+      "quantize_method_name": "MEDIANCUT",
+      "palette_blur": 0.15,
+      "scaled_blur": 0.3,
+      "supersample": 4,
+      "resample": "BICUBIC",
+      "dither": "NONE",
+      "neighbors": 3,
+      "filter_speckle": 4,
+      "color_precision": 8,
+      "layer_difference": 8,
+      "mode": "spline",
+      "length_threshold": 3,
+      "path_precision": 3,
+      "retain_context_paths": false
+    },
+    "source_sha256": "f58857f5434d68d7147f5ae0f08882b4aa773a5272dd56189260b93d5f48be83"
+  },
+  {
+    "name": "blue-staggered-leaf-scrolls",
+    "source_path": "sources/additions/blue-sheet.png",
+    "source_bounds": [
+      327,
+      156,
+      401,
+      442
+    ],
+    "unit_bounds": [
+      101,
+      0,
+      176,
+      74
+    ],
+    "orientation": "y",
+    "kind": "repeat-tile",
+    "repeat_note": "Alternating leaf rows have a half-step offset; one full left/right staggered pair is75px tall. Interior y257\u2013332 retains both rows and matching central stem/curled-leaf phase. The isolated curl at the upper-left start and the lower terminal curls are excluded; repeat validation uses the full pair rather than a half row.",
+    "repeat_evidence": "Alternating leaf rows have a half-step offset; one full left/right staggered pair is75px tall. Interior y257\u2013332 retains both rows and matching central stem/curled-leaf phase. The isolated curl at the upper-left start and the lower terminal curls are excluded; repeat validation uses the full pair rather than a half row.",
+    "join_adjustment_px": 2,
+    "description": "Blue small pointed leaves and paired curls form two staggered rows joined along a central vine on pale blue.",
+    "categories": [
+      "botanical",
+      "scrollwork"
+    ],
+    "subjects": [
+      "leaf",
+      "scroll",
+      "vine"
+    ],
+    "facing": "unclear",
+    "colors": [
+      "blue",
+      "light-blue"
+    ],
+    "composition": "repeat-tile",
+    "reference": "blue-sheet",
+    "reference_design": 6,
+    "status": "integrated",
+    "restrictions": "Supplied image; artwork authorship and reuse rights have not been established. No artwork license is inferred.",
+    "tile_path": "sources/tiles/blue-staggered-leaf-scrolls.png",
+    "trace_path": "sources/traces/blue-staggered-leaf-scrolls.svg",
+    "reference_path": "png/blue-staggered-leaf-scrolls-reference.png",
+    "trace_method": "VTracer0.6.15/Python3.12; three neighboring units for repeats, one for whole decorations;4\u00d7 BICUBIC contour-fitting input; original tile Gaussian blur0.15px for 12-color palette (MEDIANCUT); scaled input Gaussian blur0.3px; quantization without dither; spline, speckle4, color_precision8, layer_difference8, length_threshold3, path_precision3. Native PNG remains unchanged except documented two-pixel repeat join adjustment.",
+    "trace_options": {
+      "colors": 12,
+      "quantize_method": 0,
+      "quantize_method_name": "MEDIANCUT",
+      "palette_blur": 0.15,
+      "scaled_blur": 0.3,
+      "supersample": 4,
+      "resample": "BICUBIC",
+      "dither": "NONE",
+      "neighbors": 3,
+      "filter_speckle": 4,
+      "color_precision": 8,
+      "layer_difference": 8,
+      "mode": "spline",
+      "length_threshold": 3,
+      "path_precision": 3,
+      "retain_context_paths": false
+    },
+    "source_sha256": "f58857f5434d68d7147f5ae0f08882b4aa773a5272dd56189260b93d5f48be83"
+  },
+  {
+    "name": "purple-opposed-scroll-vine",
+    "source_path": "sources/additions/blue-sheet.png",
+    "source_bounds": [
+      430,
+      156,
+      487,
+      442
+    ],
+    "unit_bounds": [
+      85,
+      0,
+      179,
+      57
+    ],
+    "orientation": "y",
+    "kind": "repeat-tile",
+    "repeat_note": "Three full opposed-loop pairs appear, approximately94px apart. Adjacent individual loops reverse their direction and are not independently repeatable. Interior y241\u2013335 captures both opposing loops and the narrow connecting leaf/stem phase; measured94px source registration agrees with the visual pair cycle.",
+    "repeat_evidence": "Three full opposed-loop pairs appear, approximately94px apart. Adjacent individual loops reverse their direction and are not independently repeatable. Interior y241\u2013335 captures both opposing loops and the narrow connecting leaf/stem phase; measured94px source registration agrees with the visual pair cycle.",
+    "join_adjustment_px": 2,
+    "description": "Purple paired opposing curled vine loops with pointed leaf tips on pale blue.",
+    "categories": [
+      "botanical",
+      "scrollwork"
+    ],
+    "subjects": [
+      "leaf",
+      "vine",
+      "scroll"
+    ],
+    "facing": "mixed",
+    "colors": [
+      "purple",
+      "light-blue"
+    ],
+    "composition": "repeat-tile",
+    "reference": "blue-sheet",
+    "reference_design": 7,
+    "status": "integrated",
+    "restrictions": "Supplied image; artwork authorship and reuse rights have not been established. No artwork license is inferred.",
+    "tile_path": "sources/tiles/purple-opposed-scroll-vine.png",
+    "trace_path": "sources/traces/purple-opposed-scroll-vine.svg",
+    "reference_path": "png/purple-opposed-scroll-vine-reference.png",
+    "trace_method": "VTracer0.6.15/Python3.12; three neighboring units for repeats, one for whole decorations;4\u00d7 BICUBIC contour-fitting input; original tile Gaussian blur0.15px for 12-color palette (MEDIANCUT); scaled input Gaussian blur0.3px; quantization without dither; spline, speckle4, color_precision8, layer_difference8, length_threshold3, path_precision3. Native PNG remains unchanged except documented two-pixel repeat join adjustment.",
+    "trace_options": {
+      "colors": 12,
+      "quantize_method": 0,
+      "quantize_method_name": "MEDIANCUT",
+      "palette_blur": 0.15,
+      "scaled_blur": 0.3,
+      "supersample": 4,
+      "resample": "BICUBIC",
+      "dither": "NONE",
+      "neighbors": 3,
+      "filter_speckle": 4,
+      "color_precision": 8,
+      "layer_difference": 8,
+      "mode": "spline",
+      "length_threshold": 3,
+      "path_precision": 3,
+      "retain_context_paths": false
+    },
+    "source_sha256": "f58857f5434d68d7147f5ae0f08882b4aa773a5272dd56189260b93d5f48be83"
+  },
+  {
+    "name": "blue-looped-quatrefoils",
+    "source_path": "sources/additions/blue-sheet.png",
+    "source_bounds": [
+      516,
+      156,
+      593,
+      442
+    ],
+    "unit_bounds": [
+      74,
+      0,
+      144,
+      77
+    ],
+    "orientation": "y",
+    "kind": "repeat-tile",
+    "repeat_note": "Four identical four-loop floral crosses are arranged vertically with native spacing70\u201371px. The complete second interior cross is selected at y230\u2013300: period70px, with its top/bottom loop touching only at the small central connector. The outer sprigs are complete; the two-pixel collar addresses the one-pixel source spacing discrepancy, without changing the motif.",
+    "repeat_evidence": "Four identical four-loop floral crosses are arranged vertically with native spacing70\u201371px. The complete second interior cross is selected at y230\u2013300: period70px, with its top/bottom loop touching only at the small central connector. The outer sprigs are complete; the two-pixel collar addresses the one-pixel source spacing discrepancy, without changing the motif.",
+    "join_adjustment_px": 2,
+    "description": "Blue four-loop floral crosses with pointed leaf-shaped centers and four outer sprigs on pale blue.",
+    "categories": [
+      "floral",
+      "botanical",
+      "geometric"
+    ],
+    "subjects": [
+      "quatrefoil",
+      "flower",
+      "leaf"
+    ],
+    "facing": "unclear",
+    "colors": [
+      "blue",
+      "light-blue"
+    ],
+    "composition": "repeat-tile",
+    "reference": "blue-sheet",
+    "reference_design": 8,
+    "status": "integrated",
+    "restrictions": "Supplied image; artwork authorship and reuse rights have not been established. No artwork license is inferred.",
+    "tile_path": "sources/tiles/blue-looped-quatrefoils.png",
+    "trace_path": "sources/traces/blue-looped-quatrefoils.svg",
+    "reference_path": "png/blue-looped-quatrefoils-reference.png",
+    "trace_method": "VTracer0.6.15/Python3.12; three neighboring units for repeats, one for whole decorations;4\u00d7 BICUBIC contour-fitting input; original tile Gaussian blur0.15px for 12-color palette (MEDIANCUT); scaled input Gaussian blur0.3px; quantization without dither; spline, speckle4, color_precision8, layer_difference8, length_threshold3, path_precision3. Native PNG remains unchanged except documented two-pixel repeat join adjustment.",
+    "trace_options": {
+      "colors": 12,
+      "quantize_method": 0,
+      "quantize_method_name": "MEDIANCUT",
+      "palette_blur": 0.15,
+      "scaled_blur": 0.3,
+      "supersample": 4,
+      "resample": "BICUBIC",
+      "dither": "NONE",
+      "neighbors": 3,
+      "filter_speckle": 4,
+      "color_precision": 8,
+      "layer_difference": 8,
+      "mode": "spline",
+      "length_threshold": 3,
+      "path_precision": 3,
+      "retain_context_paths": false
+    },
+    "source_sha256": "f58857f5434d68d7147f5ae0f08882b4aa773a5272dd56189260b93d5f48be83"
+  },
+  {
+    "name": "olive-leaf-and-red-berry-vine",
+    "source_path": "sources/additions/drawn-vector-sheet.png",
+    "source_bounds": [
+      33,
+      138,
+      509,
+      223
+    ],
+    "unit_bounds": [
+      100,
+      0,
+      240,
+      85
+    ],
+    "orientation": "x",
+    "kind": "repeat-tile",
+    "repeat_note": "Digital strip2 has three equivalent leaf/berry arrangements, with red berries centered approximatelyx114,254,394: period140px. The hand-drawn strip1 is not used. Interior x133\u2013273 excludes the left white margin and right terminal curl, preserves one berry and the full corresponding leaf/stem cycle, and crosses the straight rule and matching thin stem phase.",
+    "repeat_evidence": "Digital strip2 has three equivalent leaf/berry arrangements, with red berries centered approximatelyx114,254,394: period140px. The hand-drawn strip1 is not used. Interior x133\u2013273 excludes the left white margin and right terminal curl, preserves one berry and the full corresponding leaf/stem cycle, and crosses the straight rule and matching thin stem phase.",
+    "join_adjustment_px": 2,
+    "description": "Black outlined olive-green curling leaves and hanging red berries beneath a straight black rule on white.",
+    "categories": [
+      "botanical",
+      "scrollwork"
+    ],
+    "subjects": [
+      "leaf",
+      "berry",
+      "vine"
+    ],
+    "facing": "unclear",
+    "colors": [
+      "green",
+      "red",
+      "black",
+      "white"
+    ],
+    "composition": "repeat-tile",
+    "reference": "drawn-vector-sheet",
+    "reference_design": 2,
+    "status": "integrated",
+    "restrictions": "Supplied image; artwork authorship and reuse rights have not been established. No artwork license is inferred.",
+    "tile_path": "sources/tiles/olive-leaf-and-red-berry-vine.png",
+    "trace_path": "sources/traces/olive-leaf-and-red-berry-vine.svg",
+    "reference_path": "png/olive-leaf-and-red-berry-vine-reference.png",
+    "trace_method": "VTracer0.6.15/Python3.12; three neighboring units for repeats, one for whole decorations;4\u00d7 BICUBIC contour-fitting input; original tile Gaussian blur0.15px for 64-color palette (MAXCOVERAGE); scaled input Gaussian blur0.3px; quantization without dither; spline, speckle4, color_precision8, layer_difference8, length_threshold3, path_precision3. Native PNG remains unchanged except documented two-pixel repeat join adjustment.",
+    "trace_options": {
+      "colors": 64,
+      "quantize_method": 1,
+      "quantize_method_name": "MAXCOVERAGE",
+      "palette_blur": 0.15,
+      "scaled_blur": 0.3,
+      "supersample": 4,
+      "resample": "BICUBIC",
+      "dither": "NONE",
+      "neighbors": 3,
+      "filter_speckle": 4,
+      "color_precision": 8,
+      "layer_difference": 8,
+      "mode": "spline",
+      "length_threshold": 3,
+      "path_precision": 3,
+      "retain_context_paths": false
+    },
+    "source_sha256": "92f15fa1d1910d6d94b5c1539b6952c0ae6ace6beeaebefdcbcba0fc8930b4f3"
+  },
+  {
+    "name": "gold-scroll-with-blue-bellflowers",
+    "source_path": "sources/additions/drawn-vector-sheet.png",
+    "source_bounds": [
+      14,
+      423,
+      530,
+      530
+    ],
+    "unit_bounds": [
+      0,
+      0,
+      516,
+      107
+    ],
+    "orientation": "x",
+    "kind": "standalone",
+    "repeat_note": "Digital strip4 is a complete flourish: the left raised scroll cap, central rising/falling acanthus curve, five individually placed bellflowers, and right large curled cap do not form repeated equivalent phases. Hand-drawn strip3 is not used. Retain the entire digital decoration with no frame atlas; no seamless period is invented.",
+    "repeat_evidence": "Digital strip4 is a complete flourish: the left raised scroll cap, central rising/falling acanthus curve, five individually placed bellflowers, and right large curled cap do not form repeated equivalent phases. Hand-drawn strip3 is not used. Retain the entire digital decoration with no frame atlas; no seamless period is invented.",
+    "join_adjustment_px": 0,
+    "description": "A black outlined gold acanthus flourish with five blue bellflowers and distinct curled ends beneath a black rule on white.",
+    "categories": [
+      "botanical",
+      "floral",
+      "scrollwork"
+    ],
+    "subjects": [
+      "acanthus",
+      "leaf",
+      "bellflower",
+      "scroll"
+    ],
+    "facing": "unclear",
+    "colors": [
+      "gold",
+      "blue",
+      "black",
+      "white"
+    ],
+    "composition": "standalone",
+    "reference": "drawn-vector-sheet",
+    "reference_design": 4,
+    "status": "integrated",
+    "restrictions": "Supplied image; artwork authorship and reuse rights have not been established. No artwork license is inferred.",
+    "tile_path": "sources/tiles/gold-scroll-with-blue-bellflowers.png",
+    "trace_path": "sources/traces/gold-scroll-with-blue-bellflowers.svg",
+    "reference_path": "png/gold-scroll-with-blue-bellflowers-reference.png",
+    "trace_method": "VTracer0.6.15/Python3.12; three neighboring units for repeats, one for whole decorations;4\u00d7 BICUBIC contour-fitting input; original tile Gaussian blur0.15px for 64-color palette (MAXCOVERAGE); scaled input Gaussian blur0.3px; quantization without dither; spline, speckle4, color_precision8, layer_difference8, length_threshold3, path_precision3. Native PNG remains unchanged except documented two-pixel repeat join adjustment.",
+    "trace_options": {
+      "colors": 64,
+      "quantize_method": 1,
+      "quantize_method_name": "MAXCOVERAGE",
+      "palette_blur": 0.15,
+      "scaled_blur": 0.3,
+      "supersample": 4,
+      "resample": "BICUBIC",
+      "dither": "NONE",
+      "neighbors": 1,
+      "filter_speckle": 4,
+      "color_precision": 8,
+      "layer_difference": 8,
+      "mode": "spline",
+      "length_threshold": 3,
+      "path_precision": 3,
+      "retain_context_paths": false
+    },
+    "source_sha256": "92f15fa1d1910d6d94b5c1539b6952c0ae6ace6beeaebefdcbcba0fc8930b4f3"
+  },
+  {
+    "name": "painted-symmetric-leaf-and-flower-panel",
+    "source_path": "sources/additions/painted-sheet.png",
+    "source_sha256": "6b27add8d841057b5ded16e3984474424edf39043a687bfacd715c1e75434595",
+    "source_bounds": [
+      6,
+      4,
+      728,
+      159
+    ],
+    "unit_bounds": [
+      0,
+      0,
+      722,
+      155
+    ],
+    "orientation": "x",
+    "kind": "standalone",
+    "composition": "standalone",
+    "repeat_note": "The central upright palmette is a unique mirror axis. The left and right flowers/leaves mirror one another; no complete identical cycle is shown twice. Retain the complete panel, including its pendant square trim, without a frame.",
+    "repeat_evidence": "The central upright palmette is a unique mirror axis. The left and right flowers/leaves mirror one another; no complete identical cycle is shown twice. Retain the complete panel, including its pendant square trim, without a frame.",
+    "join_adjustment_px": 0,
+    "description": "A symmetric gold panel of red-edged leaves, flower rosettes, berries and pendant square trim.",
+    "categories": [
+      "floral",
+      "botanical",
+      "scrollwork"
+    ],
+    "subjects": [
+      "leaf",
+      "flower",
+      "berry"
+    ],
+    "facing": "mixed",
+    "colors": [
+      "gold",
+      "green",
+      "red",
+      "blue",
+      "cream"
+    ],
+    "reference": "painted-sheet",
+    "reference_design": 1,
+    "status": "integrated",
+    "restrictions": "Supplied scan; artist/source rights are not established. SVG is an approximate32-color trace of the print, not recovered original vector artwork.",
+    "tile_path": "sources/tiles/painted-symmetric-leaf-and-flower-panel.png",
+    "trace_path": "sources/traces/painted-symmetric-leaf-and-flower-panel.svg",
+    "reference_path": "png/painted-symmetric-leaf-and-flower-panel-reference.png",
+    "trace_method": "VTracer0.6.15 Python3.12;32-color palette;4x contour-only sampling; native raster unchanged except2px repeat collars.",
+    "trace_options": {
+      "colors": 32,
+      "quantize_method": "MEDIANCUT",
+      "palette_blur": 0.15,
+      "trace_blur": 0,
+      "filter_speckle": 8,
+      "length_threshold": 4,
+      "retain_context_paths": false
+    }
+  },
+  {
+    "name": "painted-rosette-and-fan-vine",
+    "source_path": "sources/additions/painted-sheet.png",
+    "source_sha256": "6b27add8d841057b5ded16e3984474424edf39043a687bfacd715c1e75434595",
+    "source_bounds": [
+      6,
+      191,
+      728,
+      332
+    ],
+    "unit_bounds": [
+      197,
+      0,
+      604,
+      141
+    ],
+    "orientation": "x",
+    "kind": "repeat-tile",
+    "composition": "repeat-tile",
+    "repeat_note": "The cycle contains four distinct flowers: red fan, many-petaled rosette, pointed bud and cream rosette. Corresponding red fans and large rosettes recur approximately407px apart. Native source x203\u2013610 captures all four flowers, cutting the curled vine between large motifs. Two-pixel end collars match the selected scan phase; the painted scan is not pixel-identical between occurrences.",
+    "repeat_evidence": "The cycle contains four distinct flowers: red fan, many-petaled rosette, pointed bud and cream rosette. Corresponding red fans and large rosettes recur approximately407px apart. Native source x203\u2013610 captures all four flowers, cutting the curled vine between large motifs. Two-pixel end collars match the selected scan phase; the painted scan is not pixel-identical between occurrences.",
+    "join_adjustment_px": 2,
+    "description": "A painted olive acanthus vine alternates red fan flowers, a many-petaled rosette, a pointed red bud and a round cream flower between red rules.",
+    "categories": [
+      "floral",
+      "botanical",
+      "scrollwork"
+    ],
+    "subjects": [
+      "leaf",
+      "flower",
+      "rosette",
+      "bud",
+      "vine"
+    ],
+    "facing": "mixed",
+    "colors": [
+      "gold",
+      "green",
+      "red",
+      "blue",
+      "cream"
+    ],
+    "reference": "painted-sheet",
+    "reference_design": 2,
+    "status": "integrated",
+    "restrictions": "Supplied scan; artist/source rights are not established. SVG is an approximate32-color trace of the print, not recovered original vector artwork.",
+    "tile_path": "sources/tiles/painted-rosette-and-fan-vine.png",
+    "trace_path": "sources/traces/painted-rosette-and-fan-vine.svg",
+    "reference_path": "png/painted-rosette-and-fan-vine-reference.png",
+    "trace_method": "VTracer0.6.15 Python3.12;32-color palette;4x contour-only sampling; native raster unchanged except2px repeat collars.",
+    "trace_options": {
+      "colors": 32,
+      "quantize_method": "MEDIANCUT",
+      "palette_blur": 0.15,
+      "trace_blur": 0,
+      "filter_speckle": 8,
+      "length_threshold": 4,
+      "retain_context_paths": false
+    }
+  },
+  {
+    "name": "painted-sprawling-floral-panel",
+    "source_path": "sources/additions/painted-sheet.png",
+    "source_sha256": "6b27add8d841057b5ded16e3984474424edf39043a687bfacd715c1e75434595",
+    "source_bounds": [
+      6,
+      362,
+      728,
+      594
+    ],
+    "unit_bounds": [
+      0,
+      0,
+      722,
+      232
+    ],
+    "orientation": "x",
+    "kind": "standalone",
+    "composition": "standalone",
+    "repeat_note": "The middle panel has individually arranged large flowers, small rosettes and crossing stems. Neither the red rosette nor the blue radial flower has an equivalent repeated copy establishing a full cycle. Preserve the entire decoration; no repeat or frame is inferred.",
+    "repeat_evidence": "The middle panel has individually arranged large flowers, small rosettes and crossing stems. Neither the red rosette nor the blue radial flower has an equivalent repeated copy establishing a full cycle. Preserve the entire decoration; no repeat or frame is inferred.",
+    "join_adjustment_px": 0,
+    "description": "A broad gold painted panel with irregular scrolling leaves, differently shaped red and blue flowers and small rosettes.",
+    "categories": [
+      "floral",
+      "botanical",
+      "scrollwork"
+    ],
+    "subjects": [
+      "leaf",
+      "flower",
+      "rosette",
+      "vine"
+    ],
+    "facing": "mixed",
+    "colors": [
+      "gold",
+      "green",
+      "red",
+      "blue",
+      "cream"
+    ],
+    "reference": "painted-sheet",
+    "reference_design": 3,
+    "status": "integrated",
+    "restrictions": "Supplied scan; artist/source rights are not established. SVG is an approximate32-color trace of the print, not recovered original vector artwork.",
+    "tile_path": "sources/tiles/painted-sprawling-floral-panel.png",
+    "trace_path": "sources/traces/painted-sprawling-floral-panel.svg",
+    "reference_path": "png/painted-sprawling-floral-panel-reference.png",
+    "trace_method": "VTracer0.6.15 Python3.12;32-color palette;4x contour-only sampling; native raster unchanged except2px repeat collars.",
+    "trace_options": {
+      "colors": 32,
+      "quantize_method": "MEDIANCUT",
+      "palette_blur": 0.15,
+      "trace_blur": 0,
+      "filter_speckle": 8,
+      "length_threshold": 4,
+      "retain_context_paths": false
+    }
+  },
+  {
+    "name": "painted-opposed-serrated-flower-vine",
+    "source_path": "sources/additions/painted-sheet.png",
+    "source_sha256": "6b27add8d841057b5ded16e3984474424edf39043a687bfacd715c1e75434595",
+    "source_bounds": [
+      6,
+      622,
+      728,
+      774
+    ],
+    "unit_bounds": [
+      254,
+      0,
+      641,
+      152
+    ],
+    "orientation": "x",
+    "kind": "repeat-tile",
+    "composition": "repeat-tile",
+    "repeat_note": "A full cycle contains both opposed cream/red fan flowers and their serrated blue-green leaves; one flower alone is a half cycle. Matching pairs occur at roughly387\u2013393px spacing in the scan. Native x260\u2013647 captures the full two-flower phase and joins in the narrow sprig/vine area. The chosen387px unit retains original pixels; two-pixel collars address the small endpoint mismatch, not the print spacing elsewhere.",
+    "repeat_evidence": "A full cycle contains both opposed cream/red fan flowers and their serrated blue-green leaves; one flower alone is a half cycle. Matching pairs occur at roughly387\u2013393px spacing in the scan. Native x260\u2013647 captures the full two-flower phase and joins in the narrow sprig/vine area. The chosen387px unit retains original pixels; two-pixel collars address the small endpoint mismatch, not the print spacing elsewhere.",
+    "join_adjustment_px": 2,
+    "description": "A gold painted vine with opposed cream and red fan flowers framed by serrated blue-green leaves and small blossom sprigs.",
+    "categories": [
+      "floral",
+      "botanical",
+      "scrollwork"
+    ],
+    "subjects": [
+      "leaf",
+      "flower",
+      "vine"
+    ],
+    "facing": "mixed",
+    "colors": [
+      "gold",
+      "green",
+      "red",
+      "blue",
+      "cream"
+    ],
+    "reference": "painted-sheet",
+    "reference_design": 4,
+    "status": "integrated",
+    "restrictions": "Supplied scan; artist/source rights are not established. SVG is an approximate32-color trace of the print, not recovered original vector artwork.",
+    "tile_path": "sources/tiles/painted-opposed-serrated-flower-vine.png",
+    "trace_path": "sources/traces/painted-opposed-serrated-flower-vine.svg",
+    "reference_path": "png/painted-opposed-serrated-flower-vine-reference.png",
+    "trace_method": "VTracer0.6.15 Python3.12;32-color palette;4x contour-only sampling; native raster unchanged except2px repeat collars.",
+    "trace_options": {
+      "colors": 32,
+      "quantize_method": "MEDIANCUT",
+      "palette_blur": 0.15,
+      "trace_blur": 0,
+      "filter_speckle": 8,
+      "length_threshold": 4,
+      "retain_context_paths": false
+    }
+  },
+  {
+    "name": "painted-three-band-floral-panel",
+    "source_path": "sources/additions/painted-sheet.png",
+    "source_sha256": "6b27add8d841057b5ded16e3984474424edf39043a687bfacd715c1e75434595",
+    "source_bounds": [
+      6,
+      802,
+      728,
+      1019
+    ],
+    "unit_bounds": [
+      0,
+      0,
+      722,
+      217
+    ],
+    "orientation": "x",
+    "kind": "standalone",
+    "composition": "standalone",
+    "repeat_note": "The narrow outer scroll bands repeat at approximately149px, while the central opposed flowers and leaf arrangements follow a different longer cycle. The supplied722px panel does not establish a complete phase shared by all three bands. Preserve the composite whole; no arbitrary combined repeat or frame is invented.",
+    "repeat_evidence": "The narrow outer scroll bands repeat at approximately149px, while the central opposed flowers and leaf arrangements follow a different longer cycle. The supplied722px panel does not establish a complete phase shared by all three bands. Preserve the composite whole; no arbitrary combined repeat or frame is invented.",
+    "join_adjustment_px": 0,
+    "description": "A composite painted border with a gold and red floral vine between narrow red bands of blue-green and gold scrolls.",
+    "categories": [
+      "floral",
+      "botanical",
+      "scrollwork"
+    ],
+    "subjects": [
+      "leaf",
+      "flower",
+      "vine",
+      "scroll"
+    ],
+    "facing": "mixed",
+    "colors": [
+      "gold",
+      "green",
+      "red",
+      "blue",
+      "cream"
+    ],
+    "reference": "painted-sheet",
+    "reference_design": 5,
+    "status": "integrated",
+    "restrictions": "Supplied scan; artist/source rights are not established. SVG is an approximate32-color trace of the print, not recovered original vector artwork.",
+    "tile_path": "sources/tiles/painted-three-band-floral-panel.png",
+    "trace_path": "sources/traces/painted-three-band-floral-panel.svg",
+    "reference_path": "png/painted-three-band-floral-panel-reference.png",
+    "trace_method": "VTracer0.6.15 Python3.12;32-color palette;4x contour-only sampling; native raster unchanged except2px repeat collars.",
+    "trace_options": {
+      "colors": 32,
+      "quantize_method": "MEDIANCUT",
+      "palette_blur": 0.15,
+      "trace_blur": 0,
+      "filter_speckle": 8,
+      "length_threshold": 4,
+      "retain_context_paths": false
+    }
+  },
+  {
+    "name": "blue-alternating-stencil-scroll",
+    "source_path": "sources/additions/stencil-sheet.png",
+    "source_bounds": [
+      48,
+      86,
+      364,
+      138
+    ],
+    "unit_bounds": [
+      84,
+      0,
+      213,
+      52
+    ],
+    "orientation": "x",
+    "kind": "repeat-tile",
+    "repeat_note": "Two opposed open scrolls with alternating pointed leaves form one129px cycle. Decorative end strokes are excluded by selecting an interior cycle; the source grid remains and is not itself seamless.",
+    "repeat_evidence": "The left curling shape centered nearx=104 recurs near233; the opposed curl near166 recurs near295. The alternating direction makes the\u224864.5px half-cycle invalid. A129px offset gives6.3% blue-artwork mismatch. Unitx=132..261 in the full image lies inside the repeated portion, avoiding the independent loose end strokes atx\u224859 and353. Grid spacing (~28px) does not divide the ornament period, so grid phase at joins is visibly discontinuous.",
+    "join_adjustment_px": 2,
+    "description": "Blue stencil scroll pair with alternating curved and pointed leaves on the untouched white/gray graph-paper source.",
+    "categories": [
+      "botanical",
+      "scrollwork"
+    ],
+    "subjects": [
+      "leaf",
+      "scroll"
+    ],
+    "facing": "mixed",
+    "colors": [
+      "blue",
+      "white",
+      "gray"
+    ],
+    "composition": "repeat-tile",
+    "reference": "stencil-sheet",
+    "reference_design": 1,
+    "status": "integrated",
+    "restrictions": "Supplied grid-paper stencil artwork; authorship and reuse rights have not been established. Grid and source background are retained. SVG is an approximate color trace.",
+    "tile_path": "sources/tiles/blue-alternating-stencil-scroll.png",
+    "trace_path": "sources/traces/blue-alternating-stencil-scroll.svg",
+    "reference_path": "png/blue-alternating-stencil-scroll-reference.png",
+    "source_sha256": "09b42200ff065576d09fade59d5433fbc34ca95a57859f09ace5246ba2dd1a25",
+    "native_width": 129,
+    "native_height": 52,
+    "trace_method": "VTracer0.6.15, Python3.12; three-unit context;4x bicubic contour sampling,0.6px blur,32-color source-derived palette,filter_speckle4,length_threshold4. Neighbor geometry retained under the center-unit viewBox; no raster embedded. Native master is not enlarged.",
+    "visual_review": "The two opposed open scrolls and pointed leaves join with their source direction intact. Source end strokes are excluded by the interior unit. Retained graph-paper vertical lines have irregular spacing across the repeat join; SVG retains the visible grid and slightly smooths its thin gray lines.",
+    "trace_limitations": "Approximate color contours from a low-resolution grid-paper source. The paper grid has a separate period, so its background joins remain visible. Native PNG retains the source interior pixels.",
+    "trace_options": {
+      "supersample": 4,
+      "colors": 32,
+      "palette_blur": 0.25,
+      "trace_blur": 0.6,
+      "quantize_method_name": "MEDIANCUT",
+      "filter_speckle": 4,
+      "length_threshold": 4,
+      "retain_context_paths": false
+    }
+  },
+  {
+    "name": "blue-diamond-leaf-stencil-band",
+    "source_path": "sources/additions/stencil-sheet.png",
+    "source_bounds": [
+      43,
+      173,
+      373,
+      225
+    ],
+    "unit_bounds": [
+      66,
+      0,
+      171,
+      52
+    ],
+    "orientation": "x",
+    "kind": "repeat-tile",
+    "repeat_note": "One upward and one downward three-leaf diamond spray within opposing waves and horizontal blue rules form the full105px cycle. Source grid remains visible.",
+    "repeat_evidence": "Upright diamond sprays centered nearx=78,183,288 alternate with downward sprays near130,235,340. Cropping one105px cycle therefore retains both orientations. A52px half-cycle exchanges them (23.2% blue-artwork mismatch), while105px reduces mismatch to6.9%. The repeated motif and rails are visible at least three times; left/right partial motifs are excluded. The retained~28px grid is a different period and introduces grid-phase seams.",
+    "join_adjustment_px": 2,
+    "description": "Blue stencil band with opposed three-leaf diamond sprays in curling waves, bounded by straight blue rules on retained graph paper.",
+    "categories": [
+      "botanical",
+      "geometric",
+      "scrollwork"
+    ],
+    "subjects": [
+      "leaf",
+      "diamond",
+      "scroll"
+    ],
+    "facing": "mixed",
+    "colors": [
+      "blue",
+      "white",
+      "gray"
+    ],
+    "composition": "repeat-tile",
+    "reference": "stencil-sheet",
+    "reference_design": 2,
+    "status": "integrated",
+    "restrictions": "Supplied grid-paper stencil artwork; authorship and reuse rights have not been established. Grid and source background are retained. SVG is an approximate color trace.",
+    "tile_path": "sources/tiles/blue-diamond-leaf-stencil-band.png",
+    "trace_path": "sources/traces/blue-diamond-leaf-stencil-band.svg",
+    "reference_path": "png/blue-diamond-leaf-stencil-band-reference.png",
+    "source_sha256": "09b42200ff065576d09fade59d5433fbc34ca95a57859f09ace5246ba2dd1a25",
+    "native_width": 105,
+    "native_height": 52,
+    "trace_method": "VTracer0.6.15, Python3.12; three-unit context;4x bicubic contour sampling,0.6px blur,32-color source-derived palette,filter_speckle4,length_threshold4. Neighbor geometry retained under the center-unit viewBox; no raster embedded. Native master is not enlarged.",
+    "visual_review": "Upward/downward three-leaf sprays and both horizontal rules retain their order. Small gaps in the rails are present in the source and retained, rather than repaired. Grid spacing is inconsistent at joins because grid and ornament have different periods.",
+    "trace_limitations": "Approximate color contours from a low-resolution grid-paper source. The paper grid has a separate period, so its background joins remain visible. Native PNG retains the source interior pixels.",
+    "trace_options": {
+      "supersample": 4,
+      "colors": 32,
+      "palette_blur": 0.25,
+      "trace_blur": 0.6,
+      "quantize_method_name": "MEDIANCUT",
+      "filter_speckle": 4,
+      "length_threshold": 4,
+      "retain_context_paths": false
+    }
+  },
+  {
+    "name": "blue-four-petal-stencil-vine",
+    "source_path": "sources/additions/stencil-sheet.png",
+    "source_bounds": [
+      77,
+      271,
+      325,
+      323
+    ],
+    "unit_bounds": [
+      68,
+      0,
+      128,
+      52
+    ],
+    "orientation": "x",
+    "kind": "repeat-tile",
+    "repeat_note": "One circular four-petal flower, upper three-leaf spray and lower curling stem repeat every~59.5px; an interior60px unit retains these together and excludes the terminal source tips.",
+    "repeat_evidence": "Four-petal flower centers occur nearx=127,187,246,306; upper sprays recur near91,151,210,270. Each flower has four blue diamond petals around a small center and the same open spiral on its left. The60px crop repeats the complete visible motif. Blue-artwork mismatch is6.6% at60px;119px supports the underlying~59.5px spacing. Retained graph-paper lines have a separate~28px spacing and do not produce a seamless background.",
+    "join_adjustment_px": 2,
+    "description": "Blue stencil vine enclosing a four-petal diamond flower with an upper leaf spray and lower curl, on untouched graph paper.",
+    "categories": [
+      "floral",
+      "botanical",
+      "geometric",
+      "scrollwork"
+    ],
+    "subjects": [
+      "flower",
+      "leaf",
+      "diamond",
+      "vine",
+      "scroll"
+    ],
+    "facing": "right",
+    "colors": [
+      "blue",
+      "white",
+      "gray"
+    ],
+    "composition": "repeat-tile",
+    "reference": "stencil-sheet",
+    "reference_design": 3,
+    "status": "integrated",
+    "restrictions": "Supplied grid-paper stencil artwork; authorship and reuse rights have not been established. Grid and source background are retained. SVG is an approximate color trace.",
+    "tile_path": "sources/tiles/blue-four-petal-stencil-vine.png",
+    "trace_path": "sources/traces/blue-four-petal-stencil-vine.svg",
+    "reference_path": "png/blue-four-petal-stencil-vine-reference.png",
+    "source_sha256": "09b42200ff065576d09fade59d5433fbc34ca95a57859f09ace5246ba2dd1a25",
+    "native_width": 60,
+    "native_height": 52,
+    "trace_method": "VTracer0.6.15, Python3.12; three-unit context;4x bicubic contour sampling,0.6px blur,32-color source-derived palette,filter_speckle4,length_threshold4. Neighbor geometry retained under the center-unit viewBox; no raster embedded. Native master is not enlarged.",
+    "visual_review": "Each circle keeps four diamond petals, the small center, upper leaf spray and lower curl. Source begins/ends with partial terminal strokes; the60px interior repeat excludes those. Slight source-phase approximation (~59.5px motif rounded to60px) remains; the two-pixel boundary band closes its narrow stems. Retained grid remains visibly discontinuous at some joins.",
+    "trace_limitations": "Approximate color contours from a low-resolution grid-paper source. The paper grid has a separate period, so its background joins remain visible. Native PNG retains the source interior pixels.",
+    "trace_options": {
+      "supersample": 4,
+      "colors": 32,
+      "palette_blur": 0.25,
+      "trace_blur": 0.6,
+      "quantize_method_name": "MEDIANCUT",
+      "filter_speckle": 4,
+      "length_threshold": 4,
+      "retain_context_paths": false
+    }
+  },
+  {
+    "name": "russet-floral-vine-with-bud-borders",
+    "source_path": "sources/additions/tall-floral-sheet.png",
+    "source_bounds": [
+      187,
+      173,
+      511,
+      1206
+    ],
+    "unit_bounds": [
+      262,
+      0,
+      1001,
+      324
+    ],
+    "orientation": "y",
+    "kind": "repeat-tile",
+    "repeat_note": "A full central motif comprises both opposed large flower types, with the associated smaller flowers, white-veined leaves and curled stalks. The same arrangement recurs738\u2013739px farther down, with the source fractional raster spacing represented by a739px native period. Narrow side bands alternate two bud orientations per92\u201393px cycle; eight such cycles register across the same739px full central period. Native shifts738/739 align all three bands and their color identities; shorter large-flower half-cycles do not. Interior y435\u20131174 retains both complete large flower heads and joins across leaf/stem phases, before the small star-shaped flower petals. The source ends and tan surround are excluded.",
+    "repeat_evidence": "A full central motif comprises both opposed large flower types, with the associated smaller flowers, white-veined leaves and curled stalks. The same arrangement recurs738\u2013739px farther down, with the source fractional raster spacing represented by a739px native period. Narrow side bands alternate two bud orientations per92\u201393px cycle; eight such cycles register across the same739px full central period. Native shifts738/739 align all three bands and their color identities; shorter large-flower half-cycles do not. Interior y435\u20131174 retains both complete large flower heads and joins across leaf/stem phases, before the small star-shaped flower petals. The source ends and tan surround are excluded.",
+    "join_adjustment_px": 2,
+    "description": "Large opposed cream and tan flowers, small white blossoms and sage-green curling leaves on russet, flanked by beige bands of alternating russet and gray-blue buds.",
+    "categories": [
+      "floral",
+      "botanical",
+      "scrollwork"
+    ],
+    "subjects": [
+      "flower",
+      "leaf",
+      "vine",
+      "bud"
+    ],
+    "facing": "mixed",
+    "colors": [
+      "red",
+      "cream",
+      "tan",
+      "green",
+      "blue",
+      "beige",
+      "black"
+    ],
+    "composition": "repeat-tile",
+    "reference": "tall-floral-sheet",
+    "reference_design": 1,
+    "status": "integrated",
+    "restrictions": "Supplied image; artwork authorship and reuse rights have not been established. No artwork license is inferred.",
+    "tile_path": "sources/tiles/russet-floral-vine-with-bud-borders.png",
+    "trace_path": "sources/traces/russet-floral-vine-with-bud-borders.svg",
+    "reference_path": "png/russet-floral-vine-with-bud-borders-reference.png",
+    "trace_options": {
+      "colors": 32,
+      "quantize_method": 1,
+      "quantize_method_name": "MAXCOVERAGE",
+      "palette_blur": 0.15,
+      "scaled_blur": 0.3,
+      "supersample": 4,
+      "resample": "BICUBIC",
+      "dither": "NONE",
+      "neighbors": 3,
+      "filter_speckle": 4,
+      "color_precision": 8,
+      "layer_difference": 8,
+      "mode": "spline",
+      "length_threshold": 3,
+      "path_precision": 3,
+      "retain_context_paths": false
+    },
+    "trace_method": "VTracer0.6.15/Python3.12; three neighboring periods with center viewBox;4\u00d7 BICUBIC fitting input;32-color MAXCOVERAGE palette from native pixels blurred0.15px; scaled blur0.3px; no dither; spline, speckle4, color_precision8, layer_difference8, length_threshold3, path_precision3. Native exports remain source-sized and unchanged except the documented2px edge collar.",
+    "source_sha256": "71ee7befbd49eab8ff69130df55100ff246c58d62e4ac7445264652b0f34d0ac"
+  },
+  {
+    "name": "russet-opposed-flowers-and-sage-leaves",
+    "source_path": "sources/additions/tall-floral-sheet.png",
+    "source_bounds": [
+      239,
+      173,
+      460,
+      1206
+    ],
+    "unit_bounds": [
+      262,
+      0,
+      1001,
+      221
+    ],
+    "orientation": "y",
+    "kind": "repeat-tile",
+    "repeat_note": "The two large flower heads differ: one is frilled and faces one direction, the other is pointed with a speckled russet seed center and faces the opposite direction. Both belong in the full739px source-supported cycle. Repeated source arrangements register at738\u2013739px due to native fractional raster spacing. The isolated center preserves the complete central artwork and its bounding rules; y435\u20131174 includes both entire large flower heads and crosses matching leafy stem phases. No invented reflected motif or terminal cap is inserted.",
+    "repeat_evidence": "The two large flower heads differ: one is frilled and faces one direction, the other is pointed with a speckled russet seed center and faces the opposite direction. Both belong in the full739px source-supported cycle. Repeated source arrangements register at738\u2013739px due to native fractional raster spacing. The isolated center preserves the complete central artwork and its bounding rules; y435\u20131174 includes both entire large flower heads and crosses matching leafy stem phases. No invented reflected motif or terminal cap is inserted.",
+    "join_adjustment_px": 2,
+    "description": "Opposed large cream and tan flowers among smaller white blossoms, curled sage-green stems and white-veined leaves on russet, within thin green and black rules.",
+    "categories": [
+      "floral",
+      "botanical",
+      "scrollwork"
+    ],
+    "subjects": [
+      "flower",
+      "leaf",
+      "vine",
+      "bud"
+    ],
+    "facing": "mixed",
+    "colors": [
+      "red",
+      "cream",
+      "tan",
+      "green",
+      "black"
+    ],
+    "composition": "repeat-tile",
+    "reference": "tall-floral-sheet",
+    "reference_design": 2,
+    "status": "integrated",
+    "restrictions": "Supplied image; artwork authorship and reuse rights have not been established. No artwork license is inferred.",
+    "tile_path": "sources/tiles/russet-opposed-flowers-and-sage-leaves.png",
+    "trace_path": "sources/traces/russet-opposed-flowers-and-sage-leaves.svg",
+    "reference_path": "png/russet-opposed-flowers-and-sage-leaves-reference.png",
+    "trace_options": {
+      "colors": 32,
+      "quantize_method": 1,
+      "quantize_method_name": "MAXCOVERAGE",
+      "palette_blur": 0.15,
+      "scaled_blur": 0.3,
+      "supersample": 4,
+      "resample": "BICUBIC",
+      "dither": "NONE",
+      "neighbors": 3,
+      "filter_speckle": 4,
+      "color_precision": 8,
+      "layer_difference": 8,
+      "mode": "spline",
+      "length_threshold": 3,
+      "path_precision": 3,
+      "retain_context_paths": false
+    },
+    "trace_method": "VTracer0.6.15/Python3.12; three neighboring periods with center viewBox;4\u00d7 BICUBIC fitting input;32-color MAXCOVERAGE palette from native pixels blurred0.15px; scaled blur0.3px; no dither; spline, speckle4, color_precision8, layer_difference8, length_threshold3, path_precision3. Native exports remain source-sized and unchanged except the documented2px edge collar.",
+    "source_sha256": "71ee7befbd49eab8ff69130df55100ff246c58d62e4ac7445264652b0f34d0ac"
+  },
+  {
+    "name": "sage-leaf-and-russet-bud-vine",
+    "source_path": "sources/additions/tall-floral-sheet.png",
+    "source_bounds": [
+      190,
+      173,
+      240,
+      1206
+    ],
+    "unit_bounds": [
+      53,
+      0,
+      145,
+      50
+    ],
+    "orientation": "y",
+    "kind": "repeat-tile",
+    "repeat_note": "The two opposed pendant bud arrangements alternate, with gray-blue lobes above russet lobes in one and below them in the other. Both are required in a complete92px cycle; the nominal half46px shift exchanges motifs/colors. Matching arrangements recur92\u201393px apart, with739px registering eight cycles. Interior y226\u2013318 retains both arrangements and crosses matching narrow stem/leaf phases. Only the left band is extracted; the right band depicts essentially the same vine at a shifted source phase.",
+    "repeat_evidence": "The two opposed pendant bud arrangements alternate, with gray-blue lobes above russet lobes in one and below them in the other. Both are required in a complete92px cycle; the nominal half46px shift exchanges motifs/colors. Matching arrangements recur92\u201393px apart, with739px registering eight cycles. Interior y226\u2013318 retains both arrangements and crosses matching narrow stem/leaf phases. Only the left band is extracted; the right band depicts essentially the same vine at a shifted source phase.",
+    "join_adjustment_px": 2,
+    "description": "Tiny russet and gray-blue pendant buds alternate orientation along a sage-green leafy vine on beige between thin rules.",
+    "categories": [
+      "floral",
+      "botanical",
+      "scrollwork"
+    ],
+    "subjects": [
+      "flower",
+      "leaf",
+      "vine",
+      "bud"
+    ],
+    "facing": "mixed",
+    "colors": [
+      "green",
+      "red",
+      "blue",
+      "beige",
+      "black"
+    ],
+    "composition": "repeat-tile",
+    "reference": "tall-floral-sheet",
+    "reference_design": 3,
+    "status": "integrated",
+    "restrictions": "Supplied image; artwork authorship and reuse rights have not been established. No artwork license is inferred.",
+    "tile_path": "sources/tiles/sage-leaf-and-russet-bud-vine.png",
+    "trace_path": "sources/traces/sage-leaf-and-russet-bud-vine.svg",
+    "reference_path": "png/sage-leaf-and-russet-bud-vine-reference.png",
+    "trace_options": {
+      "colors": 32,
+      "quantize_method": 1,
+      "quantize_method_name": "MAXCOVERAGE",
+      "palette_blur": 0.15,
+      "scaled_blur": 0.3,
+      "supersample": 4,
+      "resample": "BICUBIC",
+      "dither": "NONE",
+      "neighbors": 3,
+      "filter_speckle": 4,
+      "color_precision": 8,
+      "layer_difference": 8,
+      "mode": "spline",
+      "length_threshold": 3,
+      "path_precision": 3,
+      "retain_context_paths": false
+    },
+    "trace_method": "VTracer0.6.15/Python3.12; three neighboring periods with center viewBox;4\u00d7 BICUBIC fitting input;32-color MAXCOVERAGE palette from native pixels blurred0.15px; scaled blur0.3px; no dither; spline, speckle4, color_precision8, layer_difference8, length_threshold3, path_precision3. Native exports remain source-sized and unchanged except the documented2px edge collar.",
+    "source_sha256": "71ee7befbd49eab8ff69130df55100ff246c58d62e4ac7445264652b0f34d0ac"
+  }
+]

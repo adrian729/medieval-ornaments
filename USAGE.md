@@ -67,7 +67,7 @@ This works responsively with `--ornament-length:100%` and requires no JavaScript
 
 ## Whole decorations
 
-The five extracted panels and plate 11, 16, 36, and 37 have `kind=standalone` and `repeat_axis=none`. They have no frame atlas. Use `ornament-image` or a normal `<img>` and preserve proportions. The plate exceptions retain complete acanthus/corner artwork rather than pretending their supplied regions form seamless strips.
+The five extracted panels, plate 11, 16, 36, and 37, and five new source decorations have `kind=standalone` and `repeat_axis=none`. They have no frame atlas. Use `ornament-image` or a normal `<img>` and preserve proportions. The plate exceptions retain complete acanthus/corner artwork rather than pretending their supplied regions form seamless strips.
 
 ```html
 <img class="ornament-image"
@@ -86,6 +86,8 @@ Numbered PNG/WebP tiles retain painted pixels. Their repeating units have a two-
 The numbered SVGs trace those actual shapes with an adaptive color palette. They approximate print tones and curves, and can lose subtle detail; choose PNG/WebP when the painted appearance matters. They contain real vector paths, not embedded raster images. The six floral designs are geometric redraws; the watermarked sheet's pixels are not embedded or published as cleaned artwork.
 
 The five transparent panels are AI-assisted extractions and can reinterpret detail. Their master dimensions are capped at the supplied source's 650px height.
+
+The 21 source additions are audited in `additional-patterns.json`; native PNG/WebP preserve source backgrounds and pixels apart from documented narrow repeat collars. Whole-ended or irregular decorations have no frame/divider capability. The three blue stencil designs retain their grid-paper backgrounds, whose grid lines have a different period and can show at joins. Use the main design browser or artwork review page for comparisons. Watermarked candidates and the temporary additions page were removed. Version 0.3.0 includes all 70 designs and uses version-pinned UNPKG asset URLs.
 
 ## Raster size selection
 

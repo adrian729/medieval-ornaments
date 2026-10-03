@@ -28,7 +28,7 @@ jobs:
         run: |
           mkdir -p dist/site
           cp -R examples lib svg png webp docs sources dist/site/
-          cp index.html ornaments.css favicon.svg favicon-32.png favicon.ico images.json LICENSE *.md source-patterns.json reference-crops.json raster-metadata.json EXTRACTION-PROMPTS.json dist/site/
+          cp index.html ornaments.css favicon.svg favicon-32.png favicon.ico images.json LICENSE *.md source-patterns.json additional-patterns.json reference-crops.json raster-metadata.json EXTRACTION-PROMPTS.json dist/site/
           cp -R dist/react/. dist/site/examples/react/
           cp dist/medieval-ornaments-browser.zip dist/site/
           touch dist/site/.nojekyll

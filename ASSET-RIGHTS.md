@@ -9,6 +9,7 @@ establish ownership or grant additional rights to the supplied references.
 | --- | --- |
 | Five painted panels | AI-assisted transparent extractions from a user-supplied five-panel reference; original artist/source rights have not been established. Prompts and limitations are recorded in EXTRACTION-PROMPTS.json in the repository. |
 | Six floral styles | Editable geometric reconstructions inspired by a user-supplied six-style sheet. The watermarked sheet's pixels are not embedded or published as cleaned extractions. No blanket rights claim is made for the inspiration or exports. |
+| 21 additional source designs | Native crops of five user-supplied sheets without stock watermarks, documented narrow repeat collars, reflected source miters and approximate editable color traces. Digital sheet strips 2/4 only. Sources and hashes are recorded in additional-patterns.json; authorship and reuse rights are not established. Watermarked candidates were removed. Three grid-paper stencils retain their backgrounds and documented grid-phase limitations. |
 | 38 numbered plate designs | Crops of a user-supplied ornament plate, narrow join adjustments, source-derived miter frames, and approximate color traces. Source scan rights/attribution have not been established. Original pixels, crop audit, and derivation records are retained in the repository. |
 
 The catalog identifies each design's derivation and reference family. PNG/WebP

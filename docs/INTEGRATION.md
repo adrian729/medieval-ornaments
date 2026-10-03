@@ -20,9 +20,11 @@ All designs use the same three components/functions:
 
 | Use | React | Vanilla | Designs |
 | --- | --- | --- | --- |
-| Frame around content | `OrnamentFrame` | `createFrame` | 40 repeat designs |
-| Repeating divider | `OrnamentDivider` | `createDivider` | 40 repeat designs |
-| Whole decoration | `OrnamentImage` | `createOrnamentImage` | Nine whole designs |
+| Frame around content | `OrnamentFrame` | `createFrame` | 56 repeat designs |
+| Repeating divider | `OrnamentDivider` | `createDivider` | 56 repeat designs |
+| Whole decoration | `OrnamentImage` | `createOrnamentImage` | 14 whole designs |
+
+Version 0.3.0 includes 21 source additions, including the three grid-paper stencils with their backgrounds retained. The catalog has 70 designs.
 
 Only `design` is required. No default ornament is chosen for you. A whole
 corner/panel is an image, not a source of seamless frame pieces. Reference
@@ -196,8 +198,10 @@ SVG. Requesting an unsupported format or use throws a useful error.
 By default, image URLs use the exact installed package version:
 
 ```text
-https://cdn.jsdelivr.net/npm/@ranx729/medieval-ornaments@0.2.0/
+https://unpkg.com/@ranx729/medieval-ornaments@0.3.0/
 ```
+
+UNPKG replaces the previous jsDelivr default because the detailed color traces exceed jsDelivr's [150 MB package limit](https://www.jsdelivr.com/documentation). URLs remain pinned to the installed version.
 
 Only selected images are requested; the image collection is not embedded in
 your JavaScript bundle. This mode requires access to that CDN and an appropriate

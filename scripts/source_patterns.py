@@ -7,17 +7,19 @@ ROOT=Path(__file__).resolve().parents[1]
 B=96
 
 
-def load_spec(spec):
-    name=spec['name'];audit=json.loads((ROOT/'source-patterns.json').read_text())[name]
-    root=ET.parse(ROOT/f'sources/traces/{name}.svg').getroot()
+def load_spec(spec, audit=None):
+    name=spec['name']
+    if audit is None:audit=json.loads((ROOT/'source-patterns.json').read_text())[name]
+    root=ET.parse(ROOT/audit.get('trace_path',f'sources/traces/{name}.svg')).getroot()
     native_w=int(root.attrib['width']);native_h=int(root.attrib['height'])
     width=native_w
     children=''.join(ET.tostring(c,encoding='unicode').replace('ns0:','').replace(':ns0','') for c in root)
     offset=float(root.attrib['viewBox'].split()[0])
-    body=f'<g transform="scale({1/4} {1/4}) translate({-offset} 0)">{children}</g>'
+    view=list(map(float,root.attrib['viewBox'].split()))
+    body=f'<g transform="scale({native_w/view[2]} {native_h/view[3]}) translate({-offset} 0)">{children}</g>'
     # Both ends have the same narrow source-color collar. Curves fitted in two
     # neighboring periods can otherwise differ slightly at the clipping line.
-    image=Image.open(ROOT/f'sources/tiles/{name}.png').convert('RGB')
+    image=Image.open(ROOT/audit.get('tile_path',f'sources/tiles/{name}.png')).convert('RGB')
     collar='';scale=1;collar_width=.45
     for y in range(native_h):
         color='#'+bytes(image.getpixel((0,y))).hex()
@@ -28,7 +30,9 @@ def load_spec(spec):
         regions=''.join(f'<rect x="{x0}" y="{y0}" width="{x1-x0}" height="{y1-y0}"/>' for x0,y0,x1,y1 in audit['clip_regions'])
         key=name+'-source-mask'
         body=f'<defs><clipPath id="{key}">{regions}</clipPath></defs><g clip-path="url(#{key})">{body}</g>'
-    return dict(spec,**audit,width=width,body=body,native_width=native_w,native_height=native_h,corner_size=native_h)
+    result=dict(spec,**audit)
+    result.update(width=width,body=body,native_width=native_w,native_height=native_h,corner_size=native_h)
+    return result
 
 
 def svg(content,w,h,title):
@@ -85,7 +89,7 @@ def raster_documents(spec):
     native atlas/corner exports preserve the painted appearance independently
     of the approximate color trace used for their SVG alternatives.
     """
-    name=spec['name'];image=Image.open(ROOT/f'sources/tiles/{name}.png').convert('RGBA')
+    name=spec['name'];image=Image.open(ROOT/spec.get('tile_path',f'sources/tiles/{name}.png')).convert('RGBA')
     w,b=image.size;size=w+2*b
     corner=Image.new('RGBA',(b,b));frame=Image.new('RGBA',(size,size))
     for y in range(size):

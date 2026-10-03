@@ -7,6 +7,7 @@ The npm/vanilla JavaScript/React library is published as `@ranx729/medieval-orna
 ## Sources of truth
 
 - `scripts/designs.py`: six floral vector designs and numbered design identities/categories. Floral repeat geometry is 256 × 96.
+- `additional-patterns.json`: audited clean additions from blue, grid-paper stencil, digital, painted and tall floral sheets; exact source hashes/bounds, repeat evidence, native inputs, trace settings and whole exceptions. `scripts/register_additions.py` registers clean audit inputs; `scripts/build_additions.py` assembles the local-only review catalog from ignored `tmp/additions/`. Watermarked candidates were removed at the user's request and remain excluded on rebuild; preserve original sources/audit records. Grid-paper backgrounds are retained in the three stencil additions; record their grid-phase limitations. The temporary additions page was removed; use the main browser and review page.
 - `source-patterns.json`: audited source regions, native unit bounds, original direction, colors, repeat rationale, and whole-decoration exceptions for all 38 numbered plate designs. Do not infer a repeat from autocorrelation alone.
 - `sources/numbered-ornament-plate.png`: original supplied sheet. Preserve it byte-for-byte.
 - `sources/tiles/`: native painted units. Repeat units have a documented two-pixel join adjustment; their interiors retain original pixels. Whole decorations retain their original shape, including the masks for L-shaped corners.
@@ -42,6 +43,6 @@ The npm/vanilla JavaScript/React library is published as `@ranx729/medieval-orna
 7. Run `.venv/bin/python scripts/catalog.py --check`, `.venv/bin/python scripts/artwork_check.py`, and `git diff --check`. Inspect every changed design against the reference, as repeated strips, and in light/dark frames. Check leaves/petals and artwork continuity, not only whether a gap crosses the frame. Run browser and rendered join checks in `QA.md`, including 33px and fractional pixel ratios. Automated checks do not replace visual inspection.
 8. Keep README, usage notes, browser, and examples synchronized. Do not invent provenance/authorship/licenses. Record exact prompts/method for AI extractions; never call them pixel-exact crops. Never publish a watermarked source sheet as a cleaned extraction.
 
-The collection currently has 49 designs: 40 repeating borders and nine whole decorations (the five panels and plate 11, 16, 36, 37). Whole plate designs retain SVG alternatives but have no corner/frame components.
+Version 0.3.0 has 70 designs: 56 repeating borders and 14 whole decorations. The original 49 designs are unchanged. Five new source decorations remain whole; original whole designs include the five panels and plate 11, 16, 36, 37. Whole plate designs retain SVG alternatives but have no corner/frame components.
 
 Codex uses `AGENTS.md`; `CLAUDE.md` imports it. Do not create a competing singular `AGENT.md`.

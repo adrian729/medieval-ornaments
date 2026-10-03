@@ -1,6 +1,6 @@
 # npm package and integration plan
 
-Status: implementation approved by the user ("impl!"). Implemented and published as @ranx729/medieval-ornaments@0.2.0, including automatic React styles. Packed and registry consumers, pinned CDN defaults, deployed examples, and the downloaded browser ZIP are verified. Keep this checklist current as each phase is completed. Record changes to the decisions here rather than silently diverging from them.
+Status: 0.3.0 is prepared and locally verified; the user authorized commits and release. It adds 21 source ornaments, preserves the original 49 and moves default pinned CDN URLs to UNPKG. npm 0.2.0 and its live examples remain the latest verified public release until publication completes. Keep this checklist current and record final registry/CDN/site verification.
 
 ## Goal and scope
 
@@ -8,7 +8,7 @@ Make this collection easy to use in other projects through `@ranx729/medieval-or
 
 This plan covers **medieval-ornaments only**. Keep medieval-cutouts, Polyhymnia logos, and elder-scrolls unchanged. Publishing the cutout collection would be a separate task.
 
-Preserve the existing 49 designs, original sources, catalog, variants, geometry, artwork audit, and preview pages. This is an integration layer over the approved artwork, not an artwork redesign. The current collection has 40 repeat designs and nine whole decorations.
+Preserve the original 49 designs and their sources, variants, geometry and audit. Version 0.3.0 adds 21 audited source designs; the current collection has 56 repeats and 14 whole decorations.
 
 ## Findings already checked
 
@@ -26,9 +26,9 @@ Expose three React components and corresponding vanilla functions:
 
 | Use | React | Vanilla | Supported designs |
 | --- | --- | --- | --- |
-| Frame around content | `OrnamentFrame` | `createFrame(element, options)` | The 40 designs with a frame atlas |
-| Repeating separator | `OrnamentDivider` | `createDivider(element, options)` | The 40 repeat designs |
-| Whole decoration | `OrnamentImage` | `createOrnamentImage(img, options)` | The nine whole decorations |
+| Frame around content | `OrnamentFrame` | `createFrame(element, options)` | The 56 designs with a frame atlas |
+| Repeating separator | `OrnamentDivider` | `createDivider(element, options)` | The 56 repeat designs |
+| Whole decoration | `OrnamentImage` | `createOrnamentImage(img, options)` | The 14 whole decorations |
 
 Require a `design` name; do not silently choose an unrelated design. All other artwork options have defaults. Thus a divider with only `design` preserves that design's original direction and proportions.
 
@@ -94,7 +94,7 @@ divider.destroy();
 
 ## Asset delivery and package contents
 
-Default: `https://cdn.jsdelivr.net/npm/@ranx729/medieval-ornaments@VERSION/`. Pin the library's own exact version, never `latest` or a moving Git branch. Only selected images are requested by the browser; importing the catalog must not fetch images. This also gives the browser and server identical public URLs.
+Default since 0.3.0: `https://unpkg.com/@ranx729/medieval-ornaments@VERSION/`. Detailed source traces exceed jsDelivr's [150 MB package limit](https://www.jsdelivr.com/documentation), so the host changes to preserve artwork detail. Self-hosting and package contents remain unchanged. Pin the library's own exact version, never `latest` or a moving Git branch. Only selected images are requested by the browser; importing the catalog must not fetch images. This also gives the browser and server identical public URLs.
 
 The default requires CDN access. Provide an equally documented self-hosted path for offline applications, strict content policies, or projects that want all resources on their own origin:
 
@@ -184,3 +184,26 @@ The work is complete when another project can install the published package, ren
 Last checkpoint (0.2.0): automatic CSS in `/react`, `/react/unstyled`, updated demo/snippet and documentation, and version-pinned metadata are complete. Unit/type checks, packed and fresh registry React 18/19 consumers, Node/Vite SSR, hydration, production tree shaking, artwork checks and demo builds pass. Published npm 0.2.0 as `latest`, pushed to GitHub, created release/tag v0.2.0, and verified the successful Pages deployment, live demos at 375/1200px, pinned CDN modules/images and downloaded browser ZIP. Artwork/source/shared CSS are unchanged. Plain Node SSR consumers migrate to `/react/unstyled`. All 473 existing live browser checks also pass. No follow-up implementation or release work remains.
 
 Previous release checkpoint (0.1.0): implementation, npm publication, Pages deployment, fresh registry consumer checks, actual pinned CDN assets/modules, live vanilla/React demos, downloaded self-hosted browser ZIP, and the existing 473 live browser checks all pass. Artwork/source/shared CSS are unchanged. No implementation work remains. The checkout now lives at /home/ranx729/projects/medieval-ornaments. Release v0.1.0 records this completed work. For future additions, follow docs/INTEGRATION.md and regenerate metadata/types after catalog changes.
+
+## Unreleased artwork additions (October 2026)
+
+Release 0.3.0 adds 21 audited source designs: 16 repeats and five whole decorations,
+for totals of 70/56/14. The original 49 designs are unchanged. Three grid-paper
+stencils retain their backgrounds and documented grid-phase limitations; grid
+lines are not watermarks. All 28 stock-watermarked candidates are excluded.
+
+The user authorized commits, npm release and main demo updates. The temporary
+additions-only page and its checker were removed; the permanent demo, browser,
+review and vanilla/React examples expose the accepted designs. All geometry,
+native pixels, source hashes and editable traces remain audited. Version-pinned
+UNPKG replaces jsDelivr for default URLs because the detailed traces exceed
+jsDelivr's package-size limit. Do not reduce artwork fidelity to fit that limit.
+
+Release checklist:
+- [x] Bump package version and lockfile to 0.3.0 and regenerate metadata/types.
+- [x] Integrate three grid-paper stencil designs and remove temporary review page.
+- [x] Validate catalog, artwork, unit/types, packed consumers and main browser (656 checks).
+- [ ] Commit and push the tested changes.
+- [ ] Publish npm 0.3.0, verify a fresh registry install and version-pinned CDN.
+- [ ] Verify Pages, browser ZIP and all live demos.
+- [ ] Create v0.3.0 release/tag and record final evidence in QA.md.

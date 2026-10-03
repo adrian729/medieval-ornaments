@@ -12,9 +12,11 @@ function assert(ok,message){if(!ok)throw Error(message)}
 const pause=ms=>new Promise(r=>setTimeout(r,ms));
 async function ready(){for(let i=0;i<100;i++){if(await evaluate('document.body?.dataset.ready==="true"'))return;await pause(50)}throw Error('Preview failed to load')}
 async function choose(id,value){await evaluate(`(()=>{const el=document.getElementById(${JSON.stringify(id)});el.value=${JSON.stringify(String(value))};el.dispatchEvent(new Event('input',{bubbles:true}));})()`)}
-await send('Runtime.enable');await send('Page.enable');await send('Network.enable');
+await send('Page.enable');await send('Page.navigate',{url:'about:blank'});await send('Runtime.enable');await send('Network.enable');
 await send('Network.setCacheDisabled',{cacheDisabled:true});
 await send('Emulation.setDeviceMetricsOverride',{width:1200,height:1000,deviceScaleFactor:1,mobile:false});
+// Ignore Runtime.enable's replay of errors from earlier shared-tab sessions.
+errors.length=0;
 await send('Page.navigate',{url:origin+'/examples/'});await ready();
 const catalog=await(await fetch(origin+'/images.json')).json();let checks=0;
 for(const item of catalog){
@@ -29,7 +31,7 @@ for(const item of catalog){
   }
   if(item.kind==='repeat-tile'){
   // A resized slot must add a whole section only once it fits, on both axes.
-  const fitting=await evaluate(`(()=>{const ratio=${item.repeat_ratio},period=33*ratio,failures=[];for(const axis of ['x','y'])for(const count of [1,3])for(const delta of [-.5,0,.5])for(const responsive of [false,true]){const length=count*period+delta,parent=document.createElement('div'),el=document.createElement('div');parent.style.cssText='position:absolute;width:'+length+'px;height:'+length+'px';el.className='ornament-divider';el.dataset.axis=axis;el.style.cssText='--ornament-size:33px;--ornament-ratio:'+ratio+';--ornament-length:'+(responsive?'100%':length+'px');parent.append(el);document.body.append(parent);const box=getComputedStyle(el),style=getComputedStyle(el,'::before'),available=parseFloat(box[axis==='x'?'width':'height']),used=parseFloat(style[axis==='x'?'width':'height']),inset=parseFloat(style[axis==='x'?'left':'top'])+new DOMMatrix(style.transform)[axis==='x'?'m41':'m42'],expected=Math.floor((available+1e-7)/period)*period;if(Math.abs(used-expected)>.025||Math.abs(inset-(available-used)/2)>.025)failures.push({axis,length,available,used,expected,inset,responsive});parent.remove()}return failures})()`);
+  const fitting=await evaluate(`(()=>{const ratio=${item.repeat_ratio},period=33*ratio,failures=[];for(const axis of ['x','y'])for(const count of [1,3])for(const delta of [-.5,0,.5])for(const responsive of [false,true]){const length=count*period+delta,parent=document.createElement('div'),el=document.createElement('div');parent.style.cssText='position:absolute;width:'+length+'px;height:'+length+'px';el.className='ornament-divider';el.dataset.axis=axis;el.style.cssText='--ornament-size:33px;--ornament-ratio:'+ratio+';--ornament-length:'+(responsive?'100%':length+'px');parent.append(el);document.body.append(parent);const box=el.getBoundingClientRect(),style=getComputedStyle(el,'::before'),available=box[axis==='x'?'width':'height'],used=parseFloat(style[axis==='x'?'width':'height']),inset=parseFloat(style[axis==='x'?'left':'top'])+new DOMMatrix(style.transform)[axis==='x'?'m41':'m42'],expected=Math.floor((available+1e-7)/period)*period;const conservativeBoundary=Math.abs(available-expected)<.025&&Math.abs(used-(expected-period))<.025;if((Math.abs(used-expected)>.025&&!conservativeBoundary)||Math.abs(inset-(available-used)/2)>.025)failures.push({axis,length,available,used,expected,inset,responsive});parent.remove()}return failures})()`);
   assert(fitting.length===0,'Whole-section boundary fitting failed '+item.name+' '+JSON.stringify(fitting));checks++;
   }
 }
@@ -54,14 +56,14 @@ for(const item of catalog.filter(i=>i.kind==='repeat-tile')){
 await choose('orientation','native');
 await evaluate('scrollTo(0,0)');
 await choose('purpose','whole');
-assert(await evaluate("document.querySelectorAll('.design-card').length===9&&document.getElementById('thicknessControl').hidden&&document.getElementById('fitControl').hidden&&document.getElementById('widthControl').hidden&&document.getElementById('orientationControl').hidden"),'Whole-decoration browsing controls');checks++;
+assert(await evaluate(`document.querySelectorAll('.design-card').length===${catalog.filter(i=>i.kind==='standalone').length}&&document.getElementById('thicknessControl').hidden&&document.getElementById('fitControl').hidden&&document.getElementById('widthControl').hidden&&document.getElementById('orientationControl').hidden`),'Whole-decoration browsing controls');checks++;
 await choose('design','plate-16-stepped-corner');
 for(const [format,height] of [['webp',24],['svg',300]]){
   await choose('format',format);await choose('height',height);
   assert(await evaluate(`parseFloat(getComputedStyle(document.getElementById('standalone')).height)===${height}`),'Whole artwork size/format controls');checks++;
 }
 await choose('category','animals');
-assert(await evaluate("document.querySelectorAll('.design-card').length===4"),'Category filtering');checks++;
+assert(await evaluate(`document.querySelectorAll('.design-card').length===${catalog.filter(i=>i.kind==='standalone'&&i.categories.includes('animals')).length}`),'Category filtering');checks++;
 await choose('search','butterfly-panel-red');
 assert(await evaluate("document.querySelectorAll('.design-card').length===1&&document.getElementById('design').value==='butterfly-panel-red'"),'Search filtering');checks++;
 await choose('search','no-such-design');
@@ -114,6 +116,17 @@ for(const name of ['red-berry-vine','plate-13-leaf-and-flower-vine','plate-38-di
   const result=await evaluate(`(()=>{const frame=getComputedStyle(document.getElementById('frameExample')),code=document.getElementById('frameCode').textContent;return {border:parseFloat(frame.borderTopWidth),image:frame.borderImageSource,code}})()`);
   assert(result.border===size&&result.image.includes(name+'-border.'+(name.startsWith('plate-')?'webp':'svg'))&&result.code.includes('--ornament-size: '+size+'px')&&result.code.includes(name+'-border.'+(name.startsWith('plate-')?'webp':'svg')),'Demo setting/code mismatch');checks++;
 }
+assert(await evaluate(`document.getElementById('frameDesign').options.length===${catalog.filter(i=>i.kind==='repeat-tile').length}&&document.getElementById('dividerDesign').options.length===${catalog.filter(i=>i.kind==='repeat-tile').length}&&document.getElementById('panelDesign').options.length===${catalog.filter(i=>i.kind==='standalone').length}`),'Small demo catalog coverage');checks++;
+for(const name of ['blue-diamond-leaf-stencil-band','blue-paired-birds-and-palmettes','russet-floral-vine-with-bud-borders']){
+  await choose('frameDesign',name);await choose('dividerDesign',name);
+  const result=await evaluate(`(async()=>{const frame=getComputedStyle(document.getElementById('frameExample')),divider=getComputedStyle(document.querySelector('.ornament-divider'),'::before');await Promise.all([frame.borderImageSource,divider.backgroundImage].map(async css=>{const image=new Image();image.src=JSON.parse(css.slice(4,-1));await image.decode()}));return document.getElementById('frameCode').textContent.includes(${JSON.stringify(name)})&&document.getElementById('dividerCode').textContent.includes(${JSON.stringify(name)})})()`);
+  assert(result,'New demo selection/snippet mismatch '+name);checks++;
+}
+for(const name of ['gold-scroll-with-blue-bellflowers','painted-sprawling-floral-panel','painted-three-band-floral-panel']){
+  await choose('panelDesign',name);
+  assert(await evaluate(`(async()=>{const image=document.getElementById('panelImage');await image.decode();return image.currentSrc.includes(${JSON.stringify(name)})&&document.getElementById('panelCode').textContent.includes(${JSON.stringify(name)})&&document.documentElement.scrollWidth<=document.documentElement.clientWidth})()`),'New demo whole decoration '+name);checks++;
+}
+await choose('frameDesign','red-berry-vine');await choose('dividerDesign','gold-leaf-scroll');await choose('panelDesign','floral-bird-panel-blue');
 await evaluate("document.getElementById('theme').click()");
 assert(await evaluate("document.body.classList.contains('dark')&&document.getElementById('theme').getAttribute('aria-pressed')==='true'"),'Theme toggle failed');checks++;
 await evaluate("document.getElementById('remoteUrls').checked=false;document.getElementById('remoteUrls').dispatchEvent(new Event('input'))");
@@ -141,10 +154,12 @@ await send('Page.navigate',{url:origin+'/examples/review.html'});await ready();
 for(const format of ['webp','svg']){
   await choose('format',format);
   const result=await evaluate(`(async()=>{await Promise.all([...document.images].map(i=>i.decode()));for(const el of document.querySelectorAll('.ornament-frame')){const image=new Image();image.src=JSON.parse(getComputedStyle(el).borderImageSource.slice(4,-1));await image.decode()}return {cards:document.querySelectorAll('.card').length,frames:document.querySelectorAll('.ornament-frame').length}})()`);
-  assert(result.cards===49&&result.frames===40,'Artwork review coverage/loads');checks++;
+  assert(result.cards===catalog.length&&result.frames===catalog.filter(i=>i.kind==='repeat-tile').length,'Artwork review coverage/loads');checks++;
 }
 await choose('collection','plate');assert(await evaluate("document.querySelectorAll('.card').length===38"),'Plate review filtering');checks++;
 await choose('collection','floral');assert(await evaluate("document.querySelectorAll('.card').length===6"),'Floral review filtering');checks++;
+await choose('collection','additions');assert(await evaluate(`document.querySelectorAll('.card').length===${catalog.length-49}`),'Source additions review filtering');checks++;
+await choose('collection','floral');
 await choose('format','webp');await choose('theme','dark');
 const shot=await send('Page.captureScreenshot',{captureBeyondViewport:false});
 await writeFile(new URL('../tmp/artwork-review-dark.png',import.meta.url),Buffer.from(shot.data,'base64'));

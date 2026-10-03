@@ -37,7 +37,9 @@ function check(result) {
   assert.ok(Math.abs(result.inset - (result.available - result.used) / 2) < .03, JSON.stringify(result));
 }
 try {
-  await send('Runtime.enable'); await send('Page.enable'); await send('Network.enable');
+  await send('Page.enable'); await send('Page.navigate', { url: 'about:blank' });
+  await send('Runtime.enable'); await send('Network.enable');
+  errors.length = 0; missing.length = 0;
   for (const example of ['vanilla', 'react']) for (const width of [375, 1200]) {
     await send('Emulation.setDeviceMetricsOverride', { width, height: 1000, deviceScaleFactor: 1.25, mobile: false });
     await navigate(origin + `/examples/${example}/`, example === 'vanilla' ? `document.body?.dataset.ready==='true'` : `!!document.getElementById('divider')`);
@@ -50,15 +52,19 @@ try {
     await choose('orientation', 'horizontal'); await until(`document.getElementById('divider').dataset.axis==='x'`); check(await art());
     await choose('orientation', 'vertical'); await until(`document.getElementById('divider').dataset.axis==='y'`); check(await art());
     await choose('wholeDesign', 'butterfly-panel-red'); const result = await art(); check(result);
+    for (const design of ['blue-diamond-leaf-stencil-band', 'russet-floral-vine-with-bud-borders']) {
+      await choose('design', design); check(await art());
+    }
+    await choose('wholeDesign', 'painted-sprawling-floral-panel'); check(await art());
     assert.ok(result.urls.every(url => url.startsWith(origin + '/')));
     const screenshot = await send('Page.captureScreenshot', { captureBeyondViewport: false });
     await writeFile(new URL(`tmp/live-${example}-${width}.png`, root), Buffer.from(screenshot.data, 'base64'));
     records.push({ example, width, ...result });
   }
   // Load the actual npm modules directly from their pinned CDN, not checkout URLs.
-  const cdn = await evaluate(`(async()=>{const api=await import('https://cdn.jsdelivr.net/npm/@ranx729/medieval-ornaments@${version}/lib/index.js');const cases=[['frame',{design:'red-berry-vine'}],['divider',{design:'plate-02-stepped-ribbon'}],['divider',{design:'plate-02-stepped-ribbon',orientation:'horizontal'}],['image',{design:'floral-bird-panel-blue',size:128}]];const assets=cases.map(([use,options])=>api.resolveOrnament(use,options).asset);await Promise.all(assets.map(async asset=>{const image=new Image();image.src=asset.url;await image.decode();}));return {version:api.version,count:api.ornaments.length,assets};})()`);
-  assert.equal(cdn.version, version); assert.equal(cdn.count, 49);
-  assert.ok(cdn.assets.every(asset => asset.url.startsWith(`https://cdn.jsdelivr.net/npm/@ranx729/medieval-ornaments@${version}/`)));
+  const cdn = await evaluate(`(async()=>{const api=await import('https://unpkg.com/@ranx729/medieval-ornaments@${version}/lib/index.js');const cases=[['frame',{design:'red-berry-vine'}],['divider',{design:'plate-02-stepped-ribbon'}],['divider',{design:'plate-02-stepped-ribbon',orientation:'horizontal'}],['image',{design:'floral-bird-panel-blue',size:128}],['frame',{design:'blue-diamond-leaf-stencil-band'}],['divider',{design:'blue-paired-birds-and-palmettes',orientation:'vertical'}],['frame',{design:'russet-floral-vine-with-bud-borders'}],['image',{design:'painted-sprawling-floral-panel',size:128}]];const assets=cases.map(([use,options])=>api.resolveOrnament(use,options).asset);await Promise.all(assets.map(async asset=>{const image=new Image();image.src=asset.url;await image.decode();}));return {version:api.version,count:api.ornaments.length,assets};})()`);
+  assert.equal(cdn.version, version); assert.equal(cdn.count, (await (await fetch(origin + '/images.json')).json()).length);
+  assert.ok(cdn.assets.every(asset => asset.url.startsWith(`https://unpkg.com/@ranx729/medieval-ornaments@${version}/`)));
   records.push({ cdn });
   const folder = await mkdtemp(path.join(tmpdir(), 'ornaments-browser-release-'));
   const response = await fetch(origin + '/medieval-ornaments-browser.zip'); assert.equal(response.status, 200);

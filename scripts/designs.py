@@ -123,6 +123,13 @@ def specs():
                    reference='numbered-ornament-plate',orientation='y' if n in VERTICAL else 'x',
                    categories=['geometric'] if n in GEOMETRIC else ['botanical','scrollwork'],
                    subjects=name.split('-'),palette=PLATE,background=None))
+    from pathlib import Path
+    import json
+    extra=Path(__file__).resolve().parents[1]/'additional-patterns.json'
+    if extra.exists():
+        for audit in json.loads(extra.read_text()):
+            yield load_spec(dict(name=audit['name'],number=audit['reference_design'],
+                                 reference=audit['reference'],source_based=True),audit)
 
 
 def corner_body(spec):
@@ -185,7 +192,7 @@ def ring(outer,inner,fill,p):
 
 
 def documents(spec):
-    if spec['reference']=='numbered-ornament-plate':
+    if spec['reference']=='numbered-ornament-plate' or spec.get('source_based'):
         from source_patterns import documents as source_documents
         return source_documents(spec)
     foreground=spec['body'];background=''

@@ -9,6 +9,8 @@ ROOT=Path(__file__).resolve().parents[1]
 def check():
     source=Image.open(ROOT/'sources/numbered-ornament-plate.png').convert('RGBA')
     audit=json.loads((ROOT/'source-patterns.json').read_text())
+    extra=ROOT/'additional-patterns.json'
+    if extra.exists():audit.update({item['name']:item for item in json.loads(extra.read_text())})
     catalog=json.loads((ROOT/'images.json').read_text())
     refs=json.loads((ROOT/'reference-crops.json').read_text())
     joins=0
@@ -24,10 +26,17 @@ def check():
     for item in catalog:
         if item['name'] not in audit:continue
         name=item['name'];record=audit[name]
-        raw=source.crop(record['source_bounds'])
+        original=Image.open(ROOT/record['source_path']).convert('RGBA') if 'source_path' in record else source
+        raw=original.crop(record['source_bounds'])
         if record['orientation']=='y':raw=raw.transpose(Image.Transpose.ROTATE_90)
         raw=raw.crop(record['unit_bounds'])
-        with Image.open(ROOT/f'sources/tiles/{name}.png') as native:native=native.convert('RGBA')
+        with Image.open(ROOT/record.get('tile_path',f'sources/tiles/{name}.png')) as native:native=native.convert('RGBA')
+        if 'source_path' in record:
+            reference=item['components']['reference_crop']
+            with Image.open(ROOT/reference['png']) as actual:
+                assert actual.convert('RGBA').tobytes()==original.crop(record['source_bounds']).tobytes(),name+' reference pixels changed'
+            import hashlib
+            assert hashlib.sha256((ROOT/record['source_path']).read_bytes()).hexdigest()==record['source_sha256'],name+' source changed'
         expected=native.transpose(Image.Transpose.ROTATE_270) if record['orientation']=='y' else native
         with Image.open(ROOT/item['png']) as actual:assert actual.convert('RGBA').tobytes()==expected.tobytes(),name
         if record['kind']=='standalone':continue

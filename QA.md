@@ -1,5 +1,63 @@
 # Artwork and frame verification
 
+## Source additions release 0.3.0 (2026-10-03)
+
+The release candidate contains **70 designs: 56 repeats and 14 whole decorations**.
+Twenty-one source designs were added (16 repeats/five whole), including the three
+blue stencils with their grid-paper backgrounds retained. Grid lines are not stock
+watermarks; their distinct background period can show at repeat joins. All 28
+stock-watermarked candidates are excluded. All original 49 catalog entries and
+artwork files are unchanged, and all nine uploaded source masters retain their
+recorded hashes. Five accepted originals are preserved in sources/additions/.
+See [ADDITIONS.md](ADDITIONS.md) for per-sheet decisions.
+
+Passed `npm test` (11 tests), `npm run test:types`, `npm run test:integration`
+and `npm run build:browser`. The actual packed consumer contains 70 designs and
+passes 168 native direction/design cases, 32 density/length cases, vanilla
+native/bundled usage, React 18/19, development Strict Mode/production,
+SSR/hydration, public types, refs/state, automatic styles and self-hosting.
+The inspected archive contains **1402 files / 182,192,358 compressed bytes /
+425,161,375 unpacked bytes**.
+
+Catalog validation passes for **233 genuine SVGs / 1383 cataloged asset files**.
+Source checks pass **400 exact source-frame profiles**, **102 integer-sliced
+raster atlases** and **56 pixel-exact rotated tile masters**. Native interiors,
+untouched reference crops, source hashes, direct-from-master downscales and
+lossless visible RGB/alpha pairs are verified. `git diff --check` passes.
+
+The permanent collection/browser/demo checker passes **656 checks** across all 70
+designs, all formats and four viewport widths, including new demo selections,
+copyable snippets and the source-additions review filter.
+
+The main demo offers all repeat designs for frames and horizontal dividers, and
+all whole decorations. Snippets follow the selected artwork's actual geometry
+and raster dimensions. The permanent browser, artwork review and vanilla/React
+examples share the complete catalog. The temporary additions-only page and its
+checker were removed at the user's request. The review supports
+`?collection=additions` for source comparisons.
+
+Before retiring the temporary page, all 21 remaining additions passed 114 browser
+checks and **144 rendered frames** (16 repeats × 3 formats × DPR 1/1.25/2) at
+**33px**, including fractional positions, passed the outside-to-center open-join
+check. All original/unit/trace comparisons and repeat/frame sheets were visually
+inspected; all 13 initial accepted repeats were checked in light/dark frames.
+The three stencil traces render pixel-identically before/after conservative
+context pruning. Native/SVG stencil comparisons were visually reviewed again
+before registration. Paper-grid background phase remains an explicit limitation.
+
+Rich color traces are large; native PNG/WebP remains the default for source-based
+artwork. Default version-pinned CDN URLs move to UNPKG because the intact detailed
+traces exceed jsDelivr's [150 MB package limit](https://www.jsdelivr.com/documentation).
+Self-hosted assetsBase, asset-copy paths, formats and exact version pins are
+preserved. Release publication, registry/CDN/live checks and final archive sizes
+will be recorded here after verification.
+
+Ignored evidence: tmp/package-integration.json, tmp/browser-check.json,
+tmp/additions-frame-matrix.json, tmp/additions-frame-pixel-verification.json,
+and tmp/additions/stencil-release-comparison.png. The historical additions frame
+check remains reproducible from its saved matrix with scripts/check_frame_pixels.py;
+current gallery coverage uses scripts/browser_check.mjs.
+
 ## React automatic styles (0.2.0)
 
 The default `/react` entry now imports the existing shared stylesheet. A production consumer importing only `OrnamentDivider` verifies that tree shaking retains the CSS. The React demo and copyable snippet require only the component import. `/react/unstyled` provides the same components for plain Node SSR or centrally managed CSS. Both entries share the same declarations and component implementation.

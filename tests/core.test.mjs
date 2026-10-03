@@ -13,10 +13,12 @@ const exec = (command, args) => run(command, args, { env: environment });
 
 test('generated catalog agrees with artwork and has stable capabilities', async () => {
   const original = JSON.parse(await readFile(new URL('images.json', root)));
-  assert.equal(ornaments.length, 49);
-  assert.equal(findOrnaments({ use: 'frame' }).length, 40);
-  assert.equal(findOrnaments({ use: 'divider' }).length, 40);
-  assert.equal(findOrnaments({ use: 'image' }).length, 9);
+  const additions = JSON.parse(await readFile(new URL('additional-patterns.json', root)));
+  const repeats = additions.filter(item => item.kind === 'repeat-tile').length;
+  assert.equal(ornaments.length, 49 + additions.length);
+  assert.equal(findOrnaments({ use: 'frame' }).length, 40 + repeats);
+  assert.equal(findOrnaments({ use: 'divider' }).length, 40 + repeats);
+  assert.equal(findOrnaments({ use: 'image' }).length, 9 + additions.length - repeats);
   assert.deepEqual(ornaments.map(item => item.name), [...ornaments.map(item => item.name)].sort());
   for (const item of original) {
     const { uses, formats, ...generated } = getOrnament(item.name);
@@ -29,7 +31,7 @@ test('generated catalog agrees with artwork and has stable capabilities', async 
 });
 
 test('version-pinned public URLs work without any browser globals', () => {
-  assert.equal(defaultAssetsBase, `https://cdn.jsdelivr.net/npm/@ranx729/medieval-ornaments@${version}/`);
+  assert.equal(defaultAssetsBase, `https://unpkg.com/@ranx729/medieval-ornaments@${version}/`);
   const options = Object.freeze({ design: 'red-berry-vine' });
   const result = resolveOrnament('frame', options);
   assert.equal(result.asset.url, defaultAssetsBase + 'svg/red-berry-vine-border.svg');

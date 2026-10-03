@@ -41,7 +41,9 @@
     .ornament-divider { --ornament-size: 24px; --ornament-image: url('svg/gold-leaf-scroll.svg'); margin: 24px 0; }
     .divider-preview p { font-family: Georgia, serif; font-size: 20px; margin: 0; }
     .with-ornament { display: flex; gap: 24px; align-items: center; }
-    .with-ornament img { flex-shrink: 0; }
+    .with-ornament picture { flex: 0 1 50%; min-width: 0; }
+    .with-ornament img { max-width: 100%; height: auto; }
+    .with-ornament blockquote { flex: 1; min-width: 0; }
     blockquote { margin: 0; font-size: clamp(20px, 2vw, 26px); line-height: 1.4; }
     .code { min-width: 0; }
     .code-heading { gap: 8px; font-size: 13px; color: var(--muted); margin-bottom: 8px; }
@@ -63,10 +65,10 @@
   <header>
     <p class="eyebrow">A little decoration, three ways</p>
     <h1>Make room for an ornament.</h1>
-    <p class="intro">Frame a card, separate two passages, or tuck a painted panel beside your text. These examples use the actual collection and one shared stylesheet. The same classes and settings work across designs.</p>
+    <p class="intro">Frame a card, separate two passages, or tuck a painted panel beside your text. Choose from all 70 designs, including the new blue stencils, painted flowers, and russet floral vines.</p>
   </header>
   <div class="toolbar" aria-label="Demo settings">
-    <label>Frame <select id="frameDesign"><option value="red-berry-vine">Berry vine</option><option value="plate-13-leaf-and-flower-vine">Leaf and flower</option><option value="plate-38-diagonal-meander">Diagonal meander</option></select></label>
+    <label>Frame <select id="frameDesign"></select></label>
     <label>Thickness <input id="thickness" type="range" min="16" max="48" value="28"><output id="thicknessValue">28px</output></label>
     <button id="theme" type="button" aria-pressed="false">Dark background</button>
     <label><input id="remoteUrls" type="checkbox" checked> Public URLs in examples</label>
@@ -94,7 +96,8 @@
 
   <section aria-labelledby="dividerTitle">
     <h2 id="dividerTitle">02 · Separate two passages</h2>
-    <p class="hint">Fit complete sections into the available width, centered with equal space at both ends. The SVG stays sharp and keeps its proportions.</p>
+    <p class="hint">Fit complete sections into the available width, centered with equal space at both ends. Each motif keeps its proportions.</p>
+    <label>Divider <select id="dividerDesign"></select></label>
     <div class="example">
       <div class="preview divider-preview"><p>One chapter comes to a close.</p><div class="ornament-divider" aria-hidden="true"></div><p>And another begins.</p></div>
       <div class="code"><div class="code-heading"><span>HTML + CSS</span><button data-copy="dividerCode" type="button">Copy example</button></div><pre><code id="dividerCode">&lt;link rel="stylesheet" href="../ornaments.css"&gt;
@@ -112,12 +115,13 @@
 
   <section aria-labelledby="panelTitle">
     <h2 id="panelTitle">03 · Add a painted flourish</h2>
-    <p class="hint">Use a transparent image beside your content. This example offers 256px and 512px files for ordinary and denser displays.</p>
+    <p class="hint">Use a whole decoration beside your content. Source-derived designs retain their original background and proportions; the five extracted panels have transparent backgrounds.</p>
+    <label>Decoration <select id="panelDesign"></select></label>
     <div class="example">
       <div class="preview with-ornament">
         <picture>
-          <source type="image/webp" srcset="../webp/256/floral-bird-panel-blue.webp 1x, ../webp/512/floral-bird-panel-blue.webp 2x">
-          <img class="ornament-image" src="../png/256/floral-bird-panel-blue.png" srcset="../png/256/floral-bird-panel-blue.png 1x, ../png/512/floral-bird-panel-blue.png 2x" height="256" width="34" alt="">
+          <source id="panelWebp" type="image/webp" srcset="../webp/256/floral-bird-panel-blue.webp 1x, ../webp/512/floral-bird-panel-blue.webp 2x">
+          <img id="panelImage" class="ornament-image" src="../png/256/floral-bird-panel-blue.png" srcset="../png/256/floral-bird-panel-blue.png 1x, ../png/512/floral-bird-panel-blue.png 2x" height="256" width="34" alt="">
         </picture>
         <blockquote>A narrow flourish leaves plenty of room for the words.</blockquote>
       </div>
@@ -135,7 +139,7 @@
     </div>
   </section>
   <p class="note">The shared classes are <code>ornament-frame</code>, <code>ornament-divider</code>, and <code>ornament-image</code>. Set <code>--ornament-image</code> for a border or tile and <code>--ornament-size</code> for its thickness or image height. A vertical divider uses <code>data-axis="y"</code>.</p>
-  <p class="note">SVG borders can scale freely. Raster images keep their aspect ratio and only have smaller exports. Painted panels are complete ornaments; use the vector tiles for repeating patterns.</p>
+  <p class="note">SVG borders can scale freely. Color traces approximate the source; PNG/WebP preserve its native appearance. Whole decorations retain distinct ends or irregular motifs and have no repeating frame. Grid-paper stencils retain their backgrounds, whose grid lines can show at repeat joins.</p>
   <footer><a href="index.html">Browse the collection</a> · <a href="https://github.com/adrian729/medieval-ornaments/blob/main/USAGE.md">More usage examples</a> · <a href="https://github.com/adrian729/medieval-ornaments/blob/main/images.json">Asset catalog</a><p>Plate frames use painted source pixels; optional SVGs are color traces with reflected miter corners. Painted panels are AI-assisted extractions.</p></footer>
 </main>
 <script>
@@ -143,6 +147,14 @@
   const base = 'https://adrian729.github.io/medieval-ornaments/';
   let catalog=[];
   const templates = Object.fromEntries(['frameCode', 'dividerCode', 'panelCode'].map(id => [id, $(id).textContent]));
+  const readable = name => name.replace(/^plate-(\d+)-/, 'Plate $1 · ').replaceAll('-', ' ');
+  function variant(item, required) {
+    return [...(item.variants || []), item].sort((a,b) => Math.max(a.width,a.height)-Math.max(b.width,b.height)).find(a => Math.max(a.width,a.height)>=required) || item;
+  }
+  function populate(id, items, selected) {
+    $(id).replaceChildren(...items.map(item => new Option(readable(item.name), item.name)));
+    $(id).value = selected;
+  }
   function update() {
     const name = $('frameDesign').value, thickness = $('thickness').value;
     $('thicknessValue').value = thickness + 'px';
@@ -151,15 +163,28 @@
     $('frameExample').style.setProperty('--ornament-slice',slice+'%');
     const framePath=item?.derivation==='source-crop-and-color-trace'?item.components.border_image.webp:'svg/'+name+'-border.svg';
     $('frameExample').style.setProperty('--ornament-image', `url('${new URL('../'+framePath, location.href).href}')`);
+    const divider=catalog.find(x=>x.name===$('dividerDesign').value);
+    const tile=divider.repeat_axis==='x'?divider:divider.components.rotated_tile;
+    const dividerPath=divider.derivation==='vector-reconstruction'?tile.svg:tile.webp;
+    const dividerElement=document.querySelector('.ornament-divider');
+    dividerElement.style.setProperty('--ornament-image',`url('${new URL('../'+dividerPath,location.href).href}')`);
+    dividerElement.style.setProperty('--ornament-ratio',divider.repeat_ratio);
+    const panel=catalog.find(x=>x.name===$('panelDesign').value),panelHeight=Math.floor(Math.min(256,panel.height/2));
+    const panelWidth=Math.round(panelHeight*panel.width/panel.height),one=variant(panel,Math.max(panelWidth,panelHeight)),two=variant(panel,Math.max(panelWidth,panelHeight)*2);
+    $('panelWebp').srcset=`../${one.webp} 1x, ../${two.webp} 2x`;
+    $('panelImage').src=`../${one.png}`;$('panelImage').srcset=`../${one.png} 1x, ../${two.png} 2x`;
+    $('panelImage').height=panelHeight;$('panelImage').width=panelWidth;
     for (const [id, original] of Object.entries(templates)) {
       let text = original;
       if (id === 'frameCode') text = text.replaceAll('red-berry-vine', name).replace('28px', thickness + 'px').replace('--ornament-size:', '--ornament-slice: '+slice+'%;\n  --ornament-size:');
       if(id==='frameCode')text=text.replace('svg/'+name+'-border.svg',framePath);
+      if(id==='dividerCode')text=text.replace('svg/gold-leaf-scroll.svg',dividerPath).replace('--ornament-size:', '--ornament-ratio: '+divider.repeat_ratio+';\n  --ornament-size:');
+      if(id==='panelCode')text=`<link rel="stylesheet" href="../ornaments.css">\n<picture>\n  <source type="image/webp" srcset="\n    ../${one.webp} 1x, ../${two.webp} 2x">\n  <img class="ornament-image" src="../${one.png}"\n    srcset="../${one.png} 1x, ../${two.png} 2x"\n    style="--ornament-size: ${panelHeight}px"\n    height="${panelHeight}" width="${panelWidth}" alt="">\n</picture>`;
       if ($('remoteUrls').checked) text = text.replaceAll('../', base).replaceAll("url('svg/", "url('" + base + 'svg/').replaceAll("url('webp/", "url('"+base+'webp/');
       $(id).textContent = text;
     }
   }
-  for (const id of ['frameDesign', 'thickness', 'remoteUrls']) $(id).addEventListener('input', update);
+  for (const id of ['frameDesign', 'dividerDesign', 'panelDesign', 'thickness', 'remoteUrls']) $(id).addEventListener('input', update);
   $('theme').addEventListener('click', () => {
     const dark = document.body.classList.toggle('dark');
     $('theme').setAttribute('aria-pressed', String(dark));
@@ -176,7 +201,7 @@
     }
     setTimeout(() => { button.textContent = 'Copy example'; }, 2400);
   });
-  fetch('../images.json').then(r=>r.json()).then(data=>{catalog=data;update();document.body.dataset.ready='true'});
+  fetch('../images.json').then(r=>r.json()).then(data=>{catalog=data;const repeats=data.filter(i=>i.kind==='repeat-tile'),whole=data.filter(i=>i.kind==='standalone');populate('frameDesign',repeats,'red-berry-vine');populate('dividerDesign',repeats,'gold-leaf-scroll');populate('panelDesign',whole,'floral-bird-panel-blue');update();document.body.dataset.ready='true'});
 </script>
 </body>
 </html>

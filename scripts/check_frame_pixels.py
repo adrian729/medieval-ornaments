@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Check that rendered frames enclose their center; an open join fails this check."""
 import json
+import argparse
 from pathlib import Path
 
 from PIL import Image
@@ -25,8 +26,8 @@ def enclosed(image):
     return True
 
 
-def main():
-    report=json.loads((ROOT/'tmp/frame-matrix.json').read_text());failures=[];count=0
+def main(report_path='tmp/frame-matrix.json',output_path='tmp/frame-pixel-verification.json'):
+    report=json.loads((ROOT/report_path).read_text());failures=[];count=0
     for entry in report['sheets']:
         ratio=entry['ratio']
         with Image.open(ROOT/'tmp'/entry['file']) as sheet:
@@ -38,9 +39,13 @@ def main():
                 if not enclosed(sheet.crop((x,y,right,bottom))):
                     failures.append(dict(name=frame['name'],thickness=frame['size'],pixel_ratio=ratio,format=entry['format']))
                 count+=1
-    (ROOT/'tmp/frame-pixel-verification.json').write_text(json.dumps(dict(cases=count,failures=failures),indent=2)+'\n')
+    (ROOT/output_path).write_text(json.dumps(dict(cases=count,failures=failures),indent=2)+'\n')
     assert not failures,f'Open frame joins: {failures}'
     print(f'PASS {count} rendered frames enclose their center without an open join.')
 
 
-if __name__=='__main__':main()
+if __name__=='__main__':
+    parser=argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--report',default='tmp/frame-matrix.json')
+    parser.add_argument('--output',default='tmp/frame-pixel-verification.json')
+    args=parser.parse_args();main(args.report,args.output)

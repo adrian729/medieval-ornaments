@@ -6926,5 +6926,3223 @@
       "height": 50
     },
     "master_longest_dimension_cap": 50
+  },
+  {
+    "name": "blue-paired-birds-and-palmettes",
+    "svg": "svg/blue-paired-birds-and-palmettes.svg",
+    "viewbox": [
+      0,
+      0,
+      139,
+      122
+    ],
+    "png": "png/blue-paired-birds-and-palmettes.png",
+    "webp": "webp/blue-paired-birds-and-palmettes.webp",
+    "width": 139,
+    "height": 122,
+    "png_bytes": 42791,
+    "webp_bytes": 30332,
+    "variants": [
+      {
+        "max_dimension": 128,
+        "rendered_max_dimension": 128,
+        "png": "png/128/blue-paired-birds-and-palmettes.png",
+        "webp": "webp/128/blue-paired-birds-and-palmettes.webp",
+        "width": 128,
+        "height": 112,
+        "png_bytes": 36929,
+        "webp_bytes": 26062
+      }
+    ],
+    "description": "Blue alternating fan-tailed and long-necked birds enclosed by paired scrolling stems above palmette leaves on pale blue.",
+    "colors": [
+      "blue",
+      "light-blue"
+    ],
+    "subjects": [
+      "bird",
+      "leaf",
+      "palmette",
+      "scroll"
+    ],
+    "categories": [
+      "animals",
+      "botanical",
+      "scrollwork"
+    ],
+    "facing": "mixed",
+    "composition": "repeat-tile",
+    "kind": "repeat-tile",
+    "repeat_axis": "x",
+    "derivation": "source-crop-and-color-trace",
+    "reference": "blue-sheet",
+    "reference_design": 1,
+    "components": {
+      "corner": {
+        "svg": "svg/blue-paired-birds-and-palmettes-corner.svg",
+        "viewbox": [
+          0,
+          0,
+          122,
+          122
+        ],
+        "png": "png/blue-paired-birds-and-palmettes-corner.png",
+        "webp": "webp/blue-paired-birds-and-palmettes-corner.webp",
+        "width": 122,
+        "height": 122,
+        "png_bytes": 37512,
+        "webp_bytes": 26254,
+        "variants": []
+      },
+      "border_image": {
+        "svg": "svg/blue-paired-birds-and-palmettes-border.svg",
+        "viewbox": [
+          0,
+          0,
+          383,
+          383
+        ],
+        "png": "png/blue-paired-birds-and-palmettes-border.png",
+        "webp": "webp/blue-paired-birds-and-palmettes-border.webp",
+        "width": 383,
+        "height": 383,
+        "png_bytes": 250267,
+        "webp_bytes": 218408,
+        "variants": [],
+        "slice_pixels": 122
+      },
+      "rotated_tile": {
+        "svg": "svg/blue-paired-birds-and-palmettes-rotated.svg",
+        "viewbox": [
+          0,
+          0,
+          122,
+          139
+        ],
+        "png": "png/blue-paired-birds-and-palmettes-rotated.png",
+        "webp": "webp/blue-paired-birds-and-palmettes-rotated.webp",
+        "width": 122,
+        "height": 139,
+        "png_bytes": 43173,
+        "webp_bytes": 30354,
+        "variants": [
+          {
+            "max_dimension": 128,
+            "rendered_max_dimension": 128,
+            "png": "png/128/blue-paired-birds-and-palmettes-rotated.png",
+            "webp": "webp/128/blue-paired-birds-and-palmettes-rotated.webp",
+            "width": 112,
+            "height": 128,
+            "png_bytes": 37174,
+            "webp_bytes": 26038
+          }
+        ],
+        "repeat_axis": "y",
+        "repeat_ratio": 1.139344262295082
+      },
+      "reference_crop": {
+        "png": "png/blue-paired-birds-and-palmettes-reference.png",
+        "webp": "webp/blue-paired-birds-and-palmettes-reference.webp",
+        "width": 563,
+        "height": 122,
+        "png_bytes": 153270,
+        "webp_bytes": 121884,
+        "variants": [
+          {
+            "max_dimension": 128,
+            "rendered_max_dimension": 128,
+            "png": "png/128/blue-paired-birds-and-palmettes-reference.png",
+            "webp": "webp/128/blue-paired-birds-and-palmettes-reference.webp",
+            "width": 128,
+            "height": 28,
+            "png_bytes": 11303,
+            "webp_bytes": 9032
+          },
+          {
+            "max_dimension": 256,
+            "rendered_max_dimension": 256,
+            "png": "png/256/blue-paired-birds-and-palmettes-reference.png",
+            "webp": "webp/256/blue-paired-birds-and-palmettes-reference.webp",
+            "width": 256,
+            "height": 55,
+            "png_bytes": 40399,
+            "webp_bytes": 29630
+          },
+          {
+            "max_dimension": 512,
+            "rendered_max_dimension": 512,
+            "png": "png/512/blue-paired-birds-and-palmettes-reference.png",
+            "webp": "webp/512/blue-paired-birds-and-palmettes-reference.webp",
+            "width": 512,
+            "height": 111,
+            "png_bytes": 146301,
+            "webp_bytes": 102392
+          }
+        ]
+      }
+    },
+    "border_image_slice_percent": 31.85378590078329,
+    "frame_edge_ratio": 1.139344262295082,
+    "repeat_ratio": 1.139344262295082,
+    "frame_fit": "round",
+    "corner_method": "source-derived-miter",
+    "source_pattern": "Four paired bird-and-palmette cycles are visible. Fan-tailed and long-necked birds alternate, so a single bird is not a complete cycle. Matching cusp positions recur at x169,308,447,586: period139px. The interior x169\u2013308 crop follows the same cusp/stem phase on both edges; no terminal embellishment is included.",
+    "source_canvas": {
+      "width": 139,
+      "height": 122
+    },
+    "master_longest_dimension_cap": 139
+  },
+  {
+    "name": "blue-alternating-leaf-vine",
+    "svg": "svg/blue-alternating-leaf-vine.svg",
+    "viewbox": [
+      0,
+      0,
+      59,
+      135
+    ],
+    "png": "png/blue-alternating-leaf-vine.png",
+    "webp": "webp/blue-alternating-leaf-vine.webp",
+    "width": 59,
+    "height": 135,
+    "png_bytes": 23601,
+    "webp_bytes": 17030,
+    "variants": [
+      {
+        "max_dimension": 128,
+        "rendered_max_dimension": 128,
+        "png": "png/128/blue-alternating-leaf-vine.png",
+        "webp": "webp/128/blue-alternating-leaf-vine.webp",
+        "width": 56,
+        "height": 128,
+        "png_bytes": 21642,
+        "webp_bytes": 15508
+      }
+    ],
+    "description": "Blue lobed leaves alternate direction inside curling vine loops with small flower sprigs on pale blue.",
+    "colors": [
+      "blue",
+      "light-blue"
+    ],
+    "subjects": [
+      "leaf",
+      "vine",
+      "flower"
+    ],
+    "categories": [
+      "botanical",
+      "floral",
+      "scrollwork"
+    ],
+    "facing": "mixed",
+    "composition": "repeat-tile",
+    "kind": "repeat-tile",
+    "repeat_axis": "y",
+    "derivation": "source-crop-and-color-trace",
+    "reference": "blue-sheet",
+    "reference_design": 2,
+    "components": {
+      "corner": {
+        "svg": "svg/blue-alternating-leaf-vine-corner.svg",
+        "viewbox": [
+          0,
+          0,
+          59,
+          59
+        ],
+        "png": "png/blue-alternating-leaf-vine-corner.png",
+        "webp": "webp/blue-alternating-leaf-vine-corner.webp",
+        "width": 59,
+        "height": 59,
+        "png_bytes": 10277,
+        "webp_bytes": 7402,
+        "variants": []
+      },
+      "border_image": {
+        "svg": "svg/blue-alternating-leaf-vine-border.svg",
+        "viewbox": [
+          0,
+          0,
+          253,
+          253
+        ],
+        "png": "png/blue-alternating-leaf-vine-border.png",
+        "webp": "webp/blue-alternating-leaf-vine-border.webp",
+        "width": 253,
+        "height": 253,
+        "png_bytes": 116550,
+        "webp_bytes": 91986,
+        "variants": [],
+        "slice_pixels": 59
+      },
+      "rotated_tile": {
+        "svg": "svg/blue-alternating-leaf-vine-rotated.svg",
+        "viewbox": [
+          0,
+          0,
+          135,
+          59
+        ],
+        "png": "png/blue-alternating-leaf-vine-rotated.png",
+        "webp": "webp/blue-alternating-leaf-vine-rotated.webp",
+        "width": 135,
+        "height": 59,
+        "png_bytes": 23729,
+        "webp_bytes": 16896,
+        "variants": [
+          {
+            "max_dimension": 128,
+            "rendered_max_dimension": 128,
+            "png": "png/128/blue-alternating-leaf-vine-rotated.png",
+            "webp": "webp/128/blue-alternating-leaf-vine-rotated.webp",
+            "width": 128,
+            "height": 56,
+            "png_bytes": 21610,
+            "webp_bytes": 15486
+          }
+        ],
+        "repeat_axis": "x",
+        "repeat_ratio": 2.288135593220339
+      },
+      "reference_crop": {
+        "png": "png/blue-alternating-leaf-vine-reference.png",
+        "webp": "webp/blue-alternating-leaf-vine-reference.webp",
+        "width": 59,
+        "height": 286,
+        "png_bytes": 43502,
+        "webp_bytes": 34644,
+        "variants": [
+          {
+            "max_dimension": 128,
+            "rendered_max_dimension": 128,
+            "png": "png/128/blue-alternating-leaf-vine-reference.png",
+            "webp": "webp/128/blue-alternating-leaf-vine-reference.webp",
+            "width": 26,
+            "height": 128,
+            "png_bytes": 10663,
+            "webp_bytes": 8318
+          },
+          {
+            "max_dimension": 256,
+            "rendered_max_dimension": 256,
+            "png": "png/256/blue-alternating-leaf-vine-reference.png",
+            "webp": "webp/256/blue-alternating-leaf-vine-reference.webp",
+            "width": 53,
+            "height": 256,
+            "png_bytes": 40227,
+            "webp_bytes": 28494
+          }
+        ]
+      }
+    },
+    "border_image_slice_percent": 23.320158102766797,
+    "frame_edge_ratio": 2.288135593220339,
+    "repeat_ratio": 2.288135593220339,
+    "frame_fit": "round",
+    "corner_method": "source-derived-miter",
+    "source_pattern": "Four leaf-and-loop lobes form two full mirrored pairs. Adjacent lobes reverse leaf/sprig placement; the complete cycle is135px, visually confirmed by the two matching pair arrangements. Native shifts135px have the strongest matching contour registration. Interior y222\u2013357 contains both directions and avoids the top pointed start and bottom terminal loop.",
+    "source_canvas": {
+      "width": 59,
+      "height": 135
+    },
+    "master_longest_dimension_cap": 135
+  },
+  {
+    "name": "purple-oval-rosette-vine",
+    "svg": "svg/purple-oval-rosette-vine.svg",
+    "viewbox": [
+      0,
+      0,
+      37,
+      104
+    ],
+    "png": "png/purple-oval-rosette-vine.png",
+    "webp": "webp/purple-oval-rosette-vine.webp",
+    "width": 37,
+    "height": 104,
+    "png_bytes": 11564,
+    "webp_bytes": 7688,
+    "variants": [],
+    "description": "Purple elongated mirrored scroll ovals alternate with small pierced rosettes on pale blue.",
+    "colors": [
+      "purple",
+      "light-blue"
+    ],
+    "subjects": [
+      "rosette",
+      "flower",
+      "scroll"
+    ],
+    "categories": [
+      "floral",
+      "scrollwork",
+      "geometric"
+    ],
+    "facing": "unclear",
+    "composition": "repeat-tile",
+    "kind": "repeat-tile",
+    "repeat_axis": "y",
+    "derivation": "source-crop-and-color-trace",
+    "reference": "blue-sheet",
+    "reference_design": 3,
+    "components": {
+      "corner": {
+        "svg": "svg/purple-oval-rosette-vine-corner.svg",
+        "viewbox": [
+          0,
+          0,
+          37,
+          37
+        ],
+        "png": "png/purple-oval-rosette-vine-corner.png",
+        "webp": "webp/purple-oval-rosette-vine-corner.webp",
+        "width": 37,
+        "height": 37,
+        "png_bytes": 4231,
+        "webp_bytes": 2804,
+        "variants": []
+      },
+      "border_image": {
+        "svg": "svg/purple-oval-rosette-vine-border.svg",
+        "viewbox": [
+          0,
+          0,
+          178,
+          178
+        ],
+        "png": "png/purple-oval-rosette-vine-border.png",
+        "webp": "webp/purple-oval-rosette-vine-border.webp",
+        "width": 178,
+        "height": 178,
+        "png_bytes": 54530,
+        "webp_bytes": 33776,
+        "variants": [],
+        "slice_pixels": 37
+      },
+      "rotated_tile": {
+        "svg": "svg/purple-oval-rosette-vine-rotated.svg",
+        "viewbox": [
+          0,
+          0,
+          104,
+          37
+        ],
+        "png": "png/purple-oval-rosette-vine-rotated.png",
+        "webp": "webp/purple-oval-rosette-vine-rotated.webp",
+        "width": 104,
+        "height": 37,
+        "png_bytes": 11560,
+        "webp_bytes": 7722,
+        "variants": [],
+        "repeat_axis": "x",
+        "repeat_ratio": 2.810810810810811
+      },
+      "reference_crop": {
+        "png": "png/purple-oval-rosette-vine-reference.png",
+        "webp": "webp/purple-oval-rosette-vine-reference.webp",
+        "width": 37,
+        "height": 286,
+        "png_bytes": 27842,
+        "webp_bytes": 20416,
+        "variants": [
+          {
+            "max_dimension": 128,
+            "rendered_max_dimension": 128,
+            "png": "png/128/purple-oval-rosette-vine-reference.png",
+            "webp": "webp/128/purple-oval-rosette-vine-reference.webp",
+            "width": 17,
+            "height": 128,
+            "png_bytes": 6965,
+            "webp_bytes": 5310
+          },
+          {
+            "max_dimension": 256,
+            "rendered_max_dimension": 256,
+            "png": "png/256/purple-oval-rosette-vine-reference.png",
+            "webp": "webp/256/purple-oval-rosette-vine-reference.webp",
+            "width": 33,
+            "height": 256,
+            "png_bytes": 25592,
+            "webp_bytes": 16884
+          }
+        ]
+      }
+    },
+    "border_image_slice_percent": 20.786516853932586,
+    "frame_edge_ratio": 2.810810810810811,
+    "repeat_ratio": 2.810810810810811,
+    "frame_fit": "round",
+    "corner_method": "source-derived-miter",
+    "source_pattern": "The full motif is one elongated mirrored scroll oval plus one pierced rosette; corresponding arrangements recur approximately104px apart. The bottom oval is a partial final cycle, not a replacement unit. Interior y259\u2013363 includes the full oval/rosette pair and joins at the narrow symmetric neck; source starts/ends are excluded.",
+    "source_canvas": {
+      "width": 37,
+      "height": 104
+    },
+    "master_longest_dimension_cap": 104
+  },
+  {
+    "name": "blue-acanthus-and-seed-head-panel",
+    "svg": "svg/blue-acanthus-and-seed-head-panel.svg",
+    "viewbox": [
+      0,
+      0,
+      41,
+      286
+    ],
+    "png": "png/blue-acanthus-and-seed-head-panel.png",
+    "webp": "webp/blue-acanthus-and-seed-head-panel.webp",
+    "width": 41,
+    "height": 286,
+    "png_bytes": 32574,
+    "webp_bytes": 23168,
+    "variants": [
+      {
+        "max_dimension": 128,
+        "rendered_max_dimension": 128,
+        "png": "png/128/blue-acanthus-and-seed-head-panel.png",
+        "webp": "webp/128/blue-acanthus-and-seed-head-panel.webp",
+        "width": 18,
+        "height": 128,
+        "png_bytes": 7142,
+        "webp_bytes": 5540
+      },
+      {
+        "max_dimension": 256,
+        "rendered_max_dimension": 256,
+        "png": "png/256/blue-acanthus-and-seed-head-panel.png",
+        "webp": "webp/256/blue-acanthus-and-seed-head-panel.webp",
+        "width": 37,
+        "height": 256,
+        "png_bytes": 27246,
+        "webp_bytes": 19206
+      }
+    ],
+    "description": "A narrow blue acanthus strip with seed heads: two upright leaf groups above two inverted leaf groups on pale blue.",
+    "colors": [
+      "blue",
+      "light-blue"
+    ],
+    "subjects": [
+      "acanthus",
+      "leaf",
+      "seed-head"
+    ],
+    "categories": [
+      "botanical"
+    ],
+    "facing": "mixed",
+    "composition": "standalone",
+    "kind": "standalone",
+    "repeat_axis": "none",
+    "derivation": "source-crop-and-color-trace",
+    "reference": "blue-sheet",
+    "reference_design": 4,
+    "components": {
+      "reference_crop": {
+        "png": "png/blue-acanthus-and-seed-head-panel-reference.png",
+        "webp": "webp/blue-acanthus-and-seed-head-panel-reference.webp",
+        "width": 41,
+        "height": 286,
+        "png_bytes": 29197,
+        "webp_bytes": 23168,
+        "variants": [
+          {
+            "max_dimension": 128,
+            "rendered_max_dimension": 128,
+            "png": "png/128/blue-acanthus-and-seed-head-panel-reference.png",
+            "webp": "webp/128/blue-acanthus-and-seed-head-panel-reference.webp",
+            "width": 18,
+            "height": 128,
+            "png_bytes": 7142,
+            "webp_bytes": 5540
+          },
+          {
+            "max_dimension": 256,
+            "rendered_max_dimension": 256,
+            "png": "png/256/blue-acanthus-and-seed-head-panel-reference.png",
+            "webp": "webp/256/blue-acanthus-and-seed-head-panel-reference.webp",
+            "width": 37,
+            "height": 256,
+            "png_bytes": 27246,
+            "webp_bytes": 19206
+          }
+        ]
+      }
+    },
+    "source_pattern": "Two consecutive upright leaf/seed-head motifs are followed by two inverted motifs, rather than a regular alternating repeat. The supplied strip ends in different leaf/seed-head phases. No source-supported complete seamless cycle is established; retain the whole decoration without a frame atlas.",
+    "source_canvas": {
+      "width": 41,
+      "height": 286
+    },
+    "master_longest_dimension_cap": 286
+  },
+  {
+    "name": "purple-fine-scroll-lattice",
+    "svg": "svg/purple-fine-scroll-lattice.svg",
+    "viewbox": [
+      0,
+      0,
+      41,
+      35
+    ],
+    "png": "png/purple-fine-scroll-lattice.png",
+    "webp": "webp/purple-fine-scroll-lattice.webp",
+    "width": 41,
+    "height": 35,
+    "png_bytes": 4708,
+    "webp_bytes": 3070,
+    "variants": [],
+    "description": "Fine purple mirrored curled stems form a dense symmetrical scroll lattice on pale blue.",
+    "colors": [
+      "purple",
+      "light-blue"
+    ],
+    "subjects": [
+      "scroll",
+      "lattice"
+    ],
+    "categories": [
+      "scrollwork",
+      "geometric"
+    ],
+    "facing": "unclear",
+    "composition": "repeat-tile",
+    "kind": "repeat-tile",
+    "repeat_axis": "y",
+    "derivation": "source-crop-and-color-trace",
+    "reference": "blue-sheet",
+    "reference_design": 5,
+    "components": {
+      "corner": {
+        "svg": "svg/purple-fine-scroll-lattice-corner.svg",
+        "viewbox": [
+          0,
+          0,
+          41,
+          41
+        ],
+        "png": "png/purple-fine-scroll-lattice-corner.png",
+        "webp": "webp/purple-fine-scroll-lattice-corner.webp",
+        "width": 41,
+        "height": 41,
+        "png_bytes": 5227,
+        "webp_bytes": 3436,
+        "variants": []
+      },
+      "border_image": {
+        "svg": "svg/purple-fine-scroll-lattice-border.svg",
+        "viewbox": [
+          0,
+          0,
+          117,
+          117
+        ],
+        "png": "png/purple-fine-scroll-lattice-border.png",
+        "webp": "webp/purple-fine-scroll-lattice-border.webp",
+        "width": 117,
+        "height": 117,
+        "png_bytes": 22746,
+        "webp_bytes": 19604,
+        "variants": [],
+        "slice_pixels": 41
+      },
+      "rotated_tile": {
+        "svg": "svg/purple-fine-scroll-lattice-rotated.svg",
+        "viewbox": [
+          0,
+          0,
+          35,
+          41
+        ],
+        "png": "png/purple-fine-scroll-lattice-rotated.png",
+        "webp": "webp/purple-fine-scroll-lattice-rotated.webp",
+        "width": 35,
+        "height": 41,
+        "png_bytes": 4618,
+        "webp_bytes": 3036,
+        "variants": [],
+        "repeat_axis": "x",
+        "repeat_ratio": 0.8536585365853658
+      },
+      "reference_crop": {
+        "png": "png/purple-fine-scroll-lattice-reference.png",
+        "webp": "webp/purple-fine-scroll-lattice-reference.webp",
+        "width": 41,
+        "height": 286,
+        "png_bytes": 33116,
+        "webp_bytes": 23344,
+        "variants": [
+          {
+            "max_dimension": 128,
+            "rendered_max_dimension": 128,
+            "png": "png/128/purple-fine-scroll-lattice-reference.png",
+            "webp": "webp/128/purple-fine-scroll-lattice-reference.webp",
+            "width": 18,
+            "height": 128,
+            "png_bytes": 7545,
+            "webp_bytes": 5302
+          },
+          {
+            "max_dimension": 256,
+            "rendered_max_dimension": 256,
+            "png": "png/256/purple-fine-scroll-lattice-reference.png",
+            "webp": "webp/256/purple-fine-scroll-lattice-reference.webp",
+            "width": 37,
+            "height": 256,
+            "png_bytes": 30521,
+            "webp_bytes": 19832
+          }
+        ]
+      }
+    },
+    "border_image_slice_percent": 35.042735042735046,
+    "frame_edge_ratio": 0.8536585365853658,
+    "repeat_ratio": 0.8536585365853658,
+    "frame_fit": "round",
+    "corner_method": "source-derived-miter",
+    "source_pattern": "Eight small symmetric lattice cells are visible along the strip; matching fine curls and central cross connections recur35px apart. A70px shift matches two cells but is not needed for motif identity. Interior y223\u2013258 preserves a whole symmetric cell and its connecting cross phase; native registration supports the visually observed35px period.",
+    "source_canvas": {
+      "width": 41,
+      "height": 35
+    },
+    "master_longest_dimension_cap": 41
+  },
+  {
+    "name": "blue-staggered-leaf-scrolls",
+    "svg": "svg/blue-staggered-leaf-scrolls.svg",
+    "viewbox": [
+      0,
+      0,
+      74,
+      75
+    ],
+    "png": "png/blue-staggered-leaf-scrolls.png",
+    "webp": "webp/blue-staggered-leaf-scrolls.webp",
+    "width": 74,
+    "height": 75,
+    "png_bytes": 15960,
+    "webp_bytes": 11472,
+    "variants": [],
+    "description": "Blue small pointed leaves and paired curls form two staggered rows joined along a central vine on pale blue.",
+    "colors": [
+      "blue",
+      "light-blue"
+    ],
+    "subjects": [
+      "leaf",
+      "scroll",
+      "vine"
+    ],
+    "categories": [
+      "botanical",
+      "scrollwork"
+    ],
+    "facing": "unclear",
+    "composition": "repeat-tile",
+    "kind": "repeat-tile",
+    "repeat_axis": "y",
+    "derivation": "source-crop-and-color-trace",
+    "reference": "blue-sheet",
+    "reference_design": 6,
+    "components": {
+      "corner": {
+        "svg": "svg/blue-staggered-leaf-scrolls-corner.svg",
+        "viewbox": [
+          0,
+          0,
+          74,
+          74
+        ],
+        "png": "png/blue-staggered-leaf-scrolls-corner.png",
+        "webp": "webp/blue-staggered-leaf-scrolls-corner.webp",
+        "width": 74,
+        "height": 74,
+        "png_bytes": 14799,
+        "webp_bytes": 10700,
+        "variants": []
+      },
+      "border_image": {
+        "svg": "svg/blue-staggered-leaf-scrolls-border.svg",
+        "viewbox": [
+          0,
+          0,
+          223,
+          223
+        ],
+        "png": "png/blue-staggered-leaf-scrolls-border.png",
+        "webp": "webp/blue-staggered-leaf-scrolls-border.webp",
+        "width": 223,
+        "height": 223,
+        "png_bytes": 93731,
+        "webp_bytes": 82000,
+        "variants": [],
+        "slice_pixels": 74
+      },
+      "rotated_tile": {
+        "svg": "svg/blue-staggered-leaf-scrolls-rotated.svg",
+        "viewbox": [
+          0,
+          0,
+          75,
+          74
+        ],
+        "png": "png/blue-staggered-leaf-scrolls-rotated.png",
+        "webp": "webp/blue-staggered-leaf-scrolls-rotated.webp",
+        "width": 75,
+        "height": 74,
+        "png_bytes": 15688,
+        "webp_bytes": 11480,
+        "variants": [],
+        "repeat_axis": "x",
+        "repeat_ratio": 1.0135135135135136
+      },
+      "reference_crop": {
+        "png": "png/blue-staggered-leaf-scrolls-reference.png",
+        "webp": "webp/blue-staggered-leaf-scrolls-reference.webp",
+        "width": 74,
+        "height": 286,
+        "png_bytes": 50972,
+        "webp_bytes": 40598,
+        "variants": [
+          {
+            "max_dimension": 128,
+            "rendered_max_dimension": 128,
+            "png": "png/128/blue-staggered-leaf-scrolls-reference.png",
+            "webp": "webp/128/blue-staggered-leaf-scrolls-reference.webp",
+            "width": 33,
+            "height": 128,
+            "png_bytes": 12790,
+            "webp_bytes": 9452
+          },
+          {
+            "max_dimension": 256,
+            "rendered_max_dimension": 256,
+            "png": "png/256/blue-staggered-leaf-scrolls-reference.png",
+            "webp": "webp/256/blue-staggered-leaf-scrolls-reference.webp",
+            "width": 66,
+            "height": 256,
+            "png_bytes": 47060,
+            "webp_bytes": 33296
+          }
+        ]
+      }
+    },
+    "border_image_slice_percent": 33.18385650224215,
+    "frame_edge_ratio": 1.0135135135135136,
+    "repeat_ratio": 1.0135135135135136,
+    "frame_fit": "round",
+    "corner_method": "source-derived-miter",
+    "source_pattern": "Alternating leaf rows have a half-step offset; one full left/right staggered pair is75px tall. Interior y257\u2013332 retains both rows and matching central stem/curled-leaf phase. The isolated curl at the upper-left start and the lower terminal curls are excluded; repeat validation uses the full pair rather than a half row.",
+    "source_canvas": {
+      "width": 74,
+      "height": 75
+    },
+    "master_longest_dimension_cap": 75
+  },
+  {
+    "name": "purple-opposed-scroll-vine",
+    "svg": "svg/purple-opposed-scroll-vine.svg",
+    "viewbox": [
+      0,
+      0,
+      57,
+      94
+    ],
+    "png": "png/purple-opposed-scroll-vine.png",
+    "webp": "webp/purple-opposed-scroll-vine.webp",
+    "width": 57,
+    "height": 94,
+    "png_bytes": 15605,
+    "webp_bytes": 10488,
+    "variants": [],
+    "description": "Purple paired opposing curled vine loops with pointed leaf tips on pale blue.",
+    "colors": [
+      "purple",
+      "light-blue"
+    ],
+    "subjects": [
+      "leaf",
+      "vine",
+      "scroll"
+    ],
+    "categories": [
+      "botanical",
+      "scrollwork"
+    ],
+    "facing": "mixed",
+    "composition": "repeat-tile",
+    "kind": "repeat-tile",
+    "repeat_axis": "y",
+    "derivation": "source-crop-and-color-trace",
+    "reference": "blue-sheet",
+    "reference_design": 7,
+    "components": {
+      "corner": {
+        "svg": "svg/purple-opposed-scroll-vine-corner.svg",
+        "viewbox": [
+          0,
+          0,
+          57,
+          57
+        ],
+        "png": "png/purple-opposed-scroll-vine-corner.png",
+        "webp": "webp/purple-opposed-scroll-vine-corner.webp",
+        "width": 57,
+        "height": 57,
+        "png_bytes": 9540,
+        "webp_bytes": 6470,
+        "variants": []
+      },
+      "border_image": {
+        "svg": "svg/purple-opposed-scroll-vine-border.svg",
+        "viewbox": [
+          0,
+          0,
+          208,
+          208
+        ],
+        "png": "png/purple-opposed-scroll-vine-border.png",
+        "webp": "webp/purple-opposed-scroll-vine-border.webp",
+        "width": 208,
+        "height": 208,
+        "png_bytes": 81386,
+        "webp_bytes": 62816,
+        "variants": [],
+        "slice_pixels": 57
+      },
+      "rotated_tile": {
+        "svg": "svg/purple-opposed-scroll-vine-rotated.svg",
+        "viewbox": [
+          0,
+          0,
+          94,
+          57
+        ],
+        "png": "png/purple-opposed-scroll-vine-rotated.png",
+        "webp": "webp/purple-opposed-scroll-vine-rotated.webp",
+        "width": 94,
+        "height": 57,
+        "png_bytes": 15611,
+        "webp_bytes": 10512,
+        "variants": [],
+        "repeat_axis": "x",
+        "repeat_ratio": 1.6491228070175439
+      },
+      "reference_crop": {
+        "png": "png/purple-opposed-scroll-vine-reference.png",
+        "webp": "webp/purple-opposed-scroll-vine-reference.webp",
+        "width": 57,
+        "height": 286,
+        "png_bytes": 41859,
+        "webp_bytes": 30918,
+        "variants": [
+          {
+            "max_dimension": 128,
+            "rendered_max_dimension": 128,
+            "png": "png/128/purple-opposed-scroll-vine-reference.png",
+            "webp": "webp/128/purple-opposed-scroll-vine-reference.webp",
+            "width": 26,
+            "height": 128,
+            "png_bytes": 10733,
+            "webp_bytes": 7810
+          },
+          {
+            "max_dimension": 256,
+            "rendered_max_dimension": 256,
+            "png": "png/256/purple-opposed-scroll-vine-reference.png",
+            "webp": "webp/256/purple-opposed-scroll-vine-reference.webp",
+            "width": 51,
+            "height": 256,
+            "png_bytes": 38646,
+            "webp_bytes": 25738
+          }
+        ]
+      }
+    },
+    "border_image_slice_percent": 27.403846153846153,
+    "frame_edge_ratio": 1.6491228070175439,
+    "repeat_ratio": 1.6491228070175439,
+    "frame_fit": "round",
+    "corner_method": "source-derived-miter",
+    "source_pattern": "Three full opposed-loop pairs appear, approximately94px apart. Adjacent individual loops reverse their direction and are not independently repeatable. Interior y241\u2013335 captures both opposing loops and the narrow connecting leaf/stem phase; measured94px source registration agrees with the visual pair cycle.",
+    "source_canvas": {
+      "width": 57,
+      "height": 94
+    },
+    "master_longest_dimension_cap": 94
+  },
+  {
+    "name": "blue-looped-quatrefoils",
+    "svg": "svg/blue-looped-quatrefoils.svg",
+    "viewbox": [
+      0,
+      0,
+      77,
+      70
+    ],
+    "png": "png/blue-looped-quatrefoils.png",
+    "webp": "webp/blue-looped-quatrefoils.webp",
+    "width": 77,
+    "height": 70,
+    "png_bytes": 14714,
+    "webp_bytes": 10720,
+    "variants": [],
+    "description": "Blue four-loop floral crosses with pointed leaf-shaped centers and four outer sprigs on pale blue.",
+    "colors": [
+      "blue",
+      "light-blue"
+    ],
+    "subjects": [
+      "quatrefoil",
+      "flower",
+      "leaf"
+    ],
+    "categories": [
+      "floral",
+      "botanical",
+      "geometric"
+    ],
+    "facing": "unclear",
+    "composition": "repeat-tile",
+    "kind": "repeat-tile",
+    "repeat_axis": "y",
+    "derivation": "source-crop-and-color-trace",
+    "reference": "blue-sheet",
+    "reference_design": 8,
+    "components": {
+      "corner": {
+        "svg": "svg/blue-looped-quatrefoils-corner.svg",
+        "viewbox": [
+          0,
+          0,
+          77,
+          77
+        ],
+        "png": "png/blue-looped-quatrefoils-corner.png",
+        "webp": "webp/blue-looped-quatrefoils-corner.webp",
+        "width": 77,
+        "height": 77,
+        "png_bytes": 16048,
+        "webp_bytes": 11878,
+        "variants": []
+      },
+      "border_image": {
+        "svg": "svg/blue-looped-quatrefoils-border.svg",
+        "viewbox": [
+          0,
+          0,
+          224,
+          224
+        ],
+        "png": "png/blue-looped-quatrefoils-border.png",
+        "webp": "webp/blue-looped-quatrefoils-border.webp",
+        "width": 224,
+        "height": 224,
+        "png_bytes": 91650,
+        "webp_bytes": 83510,
+        "variants": [
+          {
+            "max_dimension": 128,
+            "rendered_max_dimension": 128,
+            "png": "png/128/blue-looped-quatrefoils-border.png",
+            "webp": "webp/128/blue-looped-quatrefoils-border.webp",
+            "width": 128,
+            "height": 128,
+            "png_bytes": 28535,
+            "webp_bytes": 24784
+          }
+        ],
+        "slice_pixels": 77
+      },
+      "rotated_tile": {
+        "svg": "svg/blue-looped-quatrefoils-rotated.svg",
+        "viewbox": [
+          0,
+          0,
+          70,
+          77
+        ],
+        "png": "png/blue-looped-quatrefoils-rotated.png",
+        "webp": "webp/blue-looped-quatrefoils-rotated.webp",
+        "width": 70,
+        "height": 77,
+        "png_bytes": 14734,
+        "webp_bytes": 10728,
+        "variants": [],
+        "repeat_axis": "x",
+        "repeat_ratio": 0.9090909090909091
+      },
+      "reference_crop": {
+        "png": "png/blue-looped-quatrefoils-reference.png",
+        "webp": "webp/blue-looped-quatrefoils-reference.webp",
+        "width": 77,
+        "height": 286,
+        "png_bytes": 52553,
+        "webp_bytes": 42054,
+        "variants": [
+          {
+            "max_dimension": 128,
+            "rendered_max_dimension": 128,
+            "png": "png/128/blue-looped-quatrefoils-reference.png",
+            "webp": "webp/128/blue-looped-quatrefoils-reference.webp",
+            "width": 34,
+            "height": 128,
+            "png_bytes": 13243,
+            "webp_bytes": 10328
+          },
+          {
+            "max_dimension": 256,
+            "rendered_max_dimension": 256,
+            "png": "png/256/blue-looped-quatrefoils-reference.png",
+            "webp": "webp/256/blue-looped-quatrefoils-reference.webp",
+            "width": 69,
+            "height": 256,
+            "png_bytes": 48941,
+            "webp_bytes": 34828
+          }
+        ]
+      }
+    },
+    "border_image_slice_percent": 34.375,
+    "frame_edge_ratio": 0.9090909090909091,
+    "repeat_ratio": 0.9090909090909091,
+    "frame_fit": "round",
+    "corner_method": "source-derived-miter",
+    "source_pattern": "Four identical four-loop floral crosses are arranged vertically with native spacing70\u201371px. The complete second interior cross is selected at y230\u2013300: period70px, with its top/bottom loop touching only at the small central connector. The outer sprigs are complete; the two-pixel collar addresses the one-pixel source spacing discrepancy, without changing the motif.",
+    "source_canvas": {
+      "width": 77,
+      "height": 70
+    },
+    "master_longest_dimension_cap": 77
+  },
+  {
+    "name": "olive-leaf-and-red-berry-vine",
+    "svg": "svg/olive-leaf-and-red-berry-vine.svg",
+    "viewbox": [
+      0,
+      0,
+      140,
+      85
+    ],
+    "png": "png/olive-leaf-and-red-berry-vine.png",
+    "webp": "webp/olive-leaf-and-red-berry-vine.webp",
+    "width": 140,
+    "height": 85,
+    "png_bytes": 20924,
+    "webp_bytes": 11264,
+    "variants": [
+      {
+        "max_dimension": 128,
+        "rendered_max_dimension": 128,
+        "png": "png/128/olive-leaf-and-red-berry-vine.png",
+        "webp": "webp/128/olive-leaf-and-red-berry-vine.webp",
+        "width": 128,
+        "height": 78,
+        "png_bytes": 19104,
+        "webp_bytes": 10652
+      }
+    ],
+    "description": "Black outlined olive-green curling leaves and hanging red berries beneath a straight black rule on white.",
+    "colors": [
+      "green",
+      "red",
+      "black",
+      "white"
+    ],
+    "subjects": [
+      "leaf",
+      "berry",
+      "vine"
+    ],
+    "categories": [
+      "botanical",
+      "scrollwork"
+    ],
+    "facing": "unclear",
+    "composition": "repeat-tile",
+    "kind": "repeat-tile",
+    "repeat_axis": "x",
+    "derivation": "source-crop-and-color-trace",
+    "reference": "drawn-vector-sheet",
+    "reference_design": 2,
+    "components": {
+      "corner": {
+        "svg": "svg/olive-leaf-and-red-berry-vine-corner.svg",
+        "viewbox": [
+          0,
+          0,
+          85,
+          85
+        ],
+        "png": "png/olive-leaf-and-red-berry-vine-corner.png",
+        "webp": "webp/olive-leaf-and-red-berry-vine-corner.webp",
+        "width": 85,
+        "height": 85,
+        "png_bytes": 13006,
+        "webp_bytes": 6584,
+        "variants": []
+      },
+      "border_image": {
+        "svg": "svg/olive-leaf-and-red-berry-vine-border.svg",
+        "viewbox": [
+          0,
+          0,
+          310,
+          310
+        ],
+        "png": "png/olive-leaf-and-red-berry-vine-border.png",
+        "webp": "webp/olive-leaf-and-red-berry-vine-border.webp",
+        "width": 310,
+        "height": 310,
+        "png_bytes": 113476,
+        "webp_bytes": 55048,
+        "variants": [
+          {
+            "max_dimension": 128,
+            "rendered_max_dimension": 124,
+            "png": "png/128/olive-leaf-and-red-berry-vine-border.png",
+            "webp": "webp/128/olive-leaf-and-red-berry-vine-border.webp",
+            "width": 124,
+            "height": 124,
+            "png_bytes": 21850,
+            "webp_bytes": 12638
+          },
+          {
+            "max_dimension": 256,
+            "rendered_max_dimension": 248,
+            "png": "png/256/olive-leaf-and-red-berry-vine-border.png",
+            "webp": "webp/256/olive-leaf-and-red-berry-vine-border.webp",
+            "width": 248,
+            "height": 248,
+            "png_bytes": 82661,
+            "webp_bytes": 38404
+          }
+        ],
+        "slice_pixels": 85
+      },
+      "rotated_tile": {
+        "svg": "svg/olive-leaf-and-red-berry-vine-rotated.svg",
+        "viewbox": [
+          0,
+          0,
+          85,
+          140
+        ],
+        "png": "png/olive-leaf-and-red-berry-vine-rotated.png",
+        "webp": "webp/olive-leaf-and-red-berry-vine-rotated.webp",
+        "width": 85,
+        "height": 140,
+        "png_bytes": 20959,
+        "webp_bytes": 11516,
+        "variants": [
+          {
+            "max_dimension": 128,
+            "rendered_max_dimension": 128,
+            "png": "png/128/olive-leaf-and-red-berry-vine-rotated.png",
+            "webp": "webp/128/olive-leaf-and-red-berry-vine-rotated.webp",
+            "width": 78,
+            "height": 128,
+            "png_bytes": 19238,
+            "webp_bytes": 10808
+          }
+        ],
+        "repeat_axis": "y",
+        "repeat_ratio": 1.6470588235294117
+      },
+      "reference_crop": {
+        "png": "png/olive-leaf-and-red-berry-vine-reference.png",
+        "webp": "webp/olive-leaf-and-red-berry-vine-reference.webp",
+        "width": 476,
+        "height": 85,
+        "png_bytes": 57902,
+        "webp_bytes": 33080,
+        "variants": [
+          {
+            "max_dimension": 128,
+            "rendered_max_dimension": 128,
+            "png": "png/128/olive-leaf-and-red-berry-vine-reference.png",
+            "webp": "webp/128/olive-leaf-and-red-berry-vine-reference.webp",
+            "width": 128,
+            "height": 23,
+            "png_bytes": 6947,
+            "webp_bytes": 4240
+          },
+          {
+            "max_dimension": 256,
+            "rendered_max_dimension": 256,
+            "png": "png/256/olive-leaf-and-red-berry-vine-reference.png",
+            "webp": "webp/256/olive-leaf-and-red-berry-vine-reference.webp",
+            "width": 256,
+            "height": 46,
+            "png_bytes": 22740,
+            "webp_bytes": 12872
+          }
+        ]
+      }
+    },
+    "border_image_slice_percent": 27.419354838709676,
+    "frame_edge_ratio": 1.6470588235294117,
+    "repeat_ratio": 1.6470588235294117,
+    "frame_fit": "round",
+    "corner_method": "source-derived-miter",
+    "source_pattern": "Digital strip2 has three equivalent leaf/berry arrangements, with red berries centered approximatelyx114,254,394: period140px. The hand-drawn strip1 is not used. Interior x133\u2013273 excludes the left white margin and right terminal curl, preserves one berry and the full corresponding leaf/stem cycle, and crosses the straight rule and matching thin stem phase.",
+    "source_canvas": {
+      "width": 140,
+      "height": 85
+    },
+    "master_longest_dimension_cap": 140
+  },
+  {
+    "name": "gold-scroll-with-blue-bellflowers",
+    "svg": "svg/gold-scroll-with-blue-bellflowers.svg",
+    "viewbox": [
+      0,
+      0,
+      516,
+      107
+    ],
+    "png": "png/gold-scroll-with-blue-bellflowers.png",
+    "webp": "webp/gold-scroll-with-blue-bellflowers.webp",
+    "width": 516,
+    "height": 107,
+    "png_bytes": 100070,
+    "webp_bytes": 58286,
+    "variants": [
+      {
+        "max_dimension": 128,
+        "rendered_max_dimension": 128,
+        "png": "png/128/gold-scroll-with-blue-bellflowers.png",
+        "webp": "webp/128/gold-scroll-with-blue-bellflowers.webp",
+        "width": 128,
+        "height": 27,
+        "png_bytes": 8414,
+        "webp_bytes": 5866
+      },
+      {
+        "max_dimension": 256,
+        "rendered_max_dimension": 256,
+        "png": "png/256/gold-scroll-with-blue-bellflowers.png",
+        "webp": "webp/256/gold-scroll-with-blue-bellflowers.webp",
+        "width": 256,
+        "height": 53,
+        "png_bytes": 29312,
+        "webp_bytes": 18282
+      },
+      {
+        "max_dimension": 512,
+        "rendered_max_dimension": 512,
+        "png": "png/512/gold-scroll-with-blue-bellflowers.png",
+        "webp": "webp/512/gold-scroll-with-blue-bellflowers.webp",
+        "width": 512,
+        "height": 106,
+        "png_bytes": 101152,
+        "webp_bytes": 60036
+      }
+    ],
+    "description": "A black outlined gold acanthus flourish with five blue bellflowers and distinct curled ends beneath a black rule on white.",
+    "colors": [
+      "gold",
+      "blue",
+      "black",
+      "white"
+    ],
+    "subjects": [
+      "acanthus",
+      "leaf",
+      "bellflower",
+      "scroll"
+    ],
+    "categories": [
+      "botanical",
+      "floral",
+      "scrollwork"
+    ],
+    "facing": "unclear",
+    "composition": "standalone",
+    "kind": "standalone",
+    "repeat_axis": "none",
+    "derivation": "source-crop-and-color-trace",
+    "reference": "drawn-vector-sheet",
+    "reference_design": 4,
+    "components": {
+      "reference_crop": {
+        "png": "png/gold-scroll-with-blue-bellflowers-reference.png",
+        "webp": "webp/gold-scroll-with-blue-bellflowers-reference.webp",
+        "width": 516,
+        "height": 107,
+        "png_bytes": 90029,
+        "webp_bytes": 58286,
+        "variants": [
+          {
+            "max_dimension": 128,
+            "rendered_max_dimension": 128,
+            "png": "png/128/gold-scroll-with-blue-bellflowers-reference.png",
+            "webp": "webp/128/gold-scroll-with-blue-bellflowers-reference.webp",
+            "width": 128,
+            "height": 27,
+            "png_bytes": 8414,
+            "webp_bytes": 5866
+          },
+          {
+            "max_dimension": 256,
+            "rendered_max_dimension": 256,
+            "png": "png/256/gold-scroll-with-blue-bellflowers-reference.png",
+            "webp": "webp/256/gold-scroll-with-blue-bellflowers-reference.webp",
+            "width": 256,
+            "height": 53,
+            "png_bytes": 29312,
+            "webp_bytes": 18282
+          },
+          {
+            "max_dimension": 512,
+            "rendered_max_dimension": 512,
+            "png": "png/512/gold-scroll-with-blue-bellflowers-reference.png",
+            "webp": "webp/512/gold-scroll-with-blue-bellflowers-reference.webp",
+            "width": 512,
+            "height": 106,
+            "png_bytes": 101152,
+            "webp_bytes": 60036
+          }
+        ]
+      }
+    },
+    "source_pattern": "Digital strip4 is a complete flourish: the left raised scroll cap, central rising/falling acanthus curve, five individually placed bellflowers, and right large curled cap do not form repeated equivalent phases. Hand-drawn strip3 is not used. Retain the entire digital decoration with no frame atlas; no seamless period is invented.",
+    "source_canvas": {
+      "width": 516,
+      "height": 107
+    },
+    "master_longest_dimension_cap": 516
+  },
+  {
+    "name": "painted-symmetric-leaf-and-flower-panel",
+    "svg": "svg/painted-symmetric-leaf-and-flower-panel.svg",
+    "viewbox": [
+      0,
+      0,
+      722,
+      155
+    ],
+    "png": "png/painted-symmetric-leaf-and-flower-panel.png",
+    "webp": "webp/painted-symmetric-leaf-and-flower-panel.webp",
+    "width": 722,
+    "height": 155,
+    "png_bytes": 272627,
+    "webp_bytes": 169010,
+    "variants": [
+      {
+        "max_dimension": 128,
+        "rendered_max_dimension": 128,
+        "png": "png/128/painted-symmetric-leaf-and-flower-panel.png",
+        "webp": "webp/128/painted-symmetric-leaf-and-flower-panel.webp",
+        "width": 128,
+        "height": 27,
+        "png_bytes": 9041,
+        "webp_bytes": 7360
+      },
+      {
+        "max_dimension": 256,
+        "rendered_max_dimension": 256,
+        "png": "png/256/painted-symmetric-leaf-and-flower-panel.png",
+        "webp": "webp/256/painted-symmetric-leaf-and-flower-panel.webp",
+        "width": 256,
+        "height": 55,
+        "png_bytes": 36268,
+        "webp_bytes": 27766
+      },
+      {
+        "max_dimension": 512,
+        "rendered_max_dimension": 512,
+        "png": "png/512/painted-symmetric-leaf-and-flower-panel.png",
+        "webp": "webp/512/painted-symmetric-leaf-and-flower-panel.webp",
+        "width": 512,
+        "height": 110,
+        "png_bytes": 142208,
+        "webp_bytes": 93564
+      }
+    ],
+    "description": "A symmetric gold panel of red-edged leaves, flower rosettes, berries and pendant square trim.",
+    "colors": [
+      "gold",
+      "green",
+      "red",
+      "blue",
+      "cream"
+    ],
+    "subjects": [
+      "leaf",
+      "flower",
+      "berry"
+    ],
+    "categories": [
+      "floral",
+      "botanical",
+      "scrollwork"
+    ],
+    "facing": "mixed",
+    "composition": "standalone",
+    "kind": "standalone",
+    "repeat_axis": "none",
+    "derivation": "source-crop-and-color-trace",
+    "reference": "painted-sheet",
+    "reference_design": 1,
+    "components": {
+      "reference_crop": {
+        "png": "png/painted-symmetric-leaf-and-flower-panel-reference.png",
+        "webp": "webp/painted-symmetric-leaf-and-flower-panel-reference.webp",
+        "width": 722,
+        "height": 155,
+        "png_bytes": 242620,
+        "webp_bytes": 169010,
+        "variants": [
+          {
+            "max_dimension": 128,
+            "rendered_max_dimension": 128,
+            "png": "png/128/painted-symmetric-leaf-and-flower-panel-reference.png",
+            "webp": "webp/128/painted-symmetric-leaf-and-flower-panel-reference.webp",
+            "width": 128,
+            "height": 27,
+            "png_bytes": 9041,
+            "webp_bytes": 7360
+          },
+          {
+            "max_dimension": 256,
+            "rendered_max_dimension": 256,
+            "png": "png/256/painted-symmetric-leaf-and-flower-panel-reference.png",
+            "webp": "webp/256/painted-symmetric-leaf-and-flower-panel-reference.webp",
+            "width": 256,
+            "height": 55,
+            "png_bytes": 36268,
+            "webp_bytes": 27766
+          },
+          {
+            "max_dimension": 512,
+            "rendered_max_dimension": 512,
+            "png": "png/512/painted-symmetric-leaf-and-flower-panel-reference.png",
+            "webp": "webp/512/painted-symmetric-leaf-and-flower-panel-reference.webp",
+            "width": 512,
+            "height": 110,
+            "png_bytes": 142208,
+            "webp_bytes": 93564
+          }
+        ]
+      }
+    },
+    "source_pattern": "The central upright palmette is a unique mirror axis. The left and right flowers/leaves mirror one another; no complete identical cycle is shown twice. Retain the complete panel, including its pendant square trim, without a frame.",
+    "source_canvas": {
+      "width": 722,
+      "height": 155
+    },
+    "master_longest_dimension_cap": 722
+  },
+  {
+    "name": "painted-rosette-and-fan-vine",
+    "svg": "svg/painted-rosette-and-fan-vine.svg",
+    "viewbox": [
+      0,
+      0,
+      407,
+      141
+    ],
+    "png": "png/painted-rosette-and-fan-vine.png",
+    "webp": "webp/painted-rosette-and-fan-vine.webp",
+    "width": 407,
+    "height": 141,
+    "png_bytes": 137114,
+    "webp_bytes": 84894,
+    "variants": [
+      {
+        "max_dimension": 128,
+        "rendered_max_dimension": 128,
+        "png": "png/128/painted-rosette-and-fan-vine.png",
+        "webp": "webp/128/painted-rosette-and-fan-vine.webp",
+        "width": 128,
+        "height": 44,
+        "png_bytes": 13974,
+        "webp_bytes": 10862
+      },
+      {
+        "max_dimension": 256,
+        "rendered_max_dimension": 256,
+        "png": "png/256/painted-rosette-and-fan-vine.png",
+        "webp": "webp/256/painted-rosette-and-fan-vine.webp",
+        "width": 256,
+        "height": 89,
+        "png_bytes": 56650,
+        "webp_bytes": 38566
+      }
+    ],
+    "description": "A painted olive acanthus vine alternates red fan flowers, a many-petaled rosette, a pointed red bud and a round cream flower between red rules.",
+    "colors": [
+      "gold",
+      "green",
+      "red",
+      "blue",
+      "cream"
+    ],
+    "subjects": [
+      "leaf",
+      "flower",
+      "rosette",
+      "bud",
+      "vine"
+    ],
+    "categories": [
+      "floral",
+      "botanical",
+      "scrollwork"
+    ],
+    "facing": "mixed",
+    "composition": "repeat-tile",
+    "kind": "repeat-tile",
+    "repeat_axis": "x",
+    "derivation": "source-crop-and-color-trace",
+    "reference": "painted-sheet",
+    "reference_design": 2,
+    "components": {
+      "corner": {
+        "svg": "svg/painted-rosette-and-fan-vine-corner.svg",
+        "viewbox": [
+          0,
+          0,
+          141,
+          141
+        ],
+        "png": "png/painted-rosette-and-fan-vine-corner.png",
+        "webp": "webp/painted-rosette-and-fan-vine-corner.webp",
+        "width": 141,
+        "height": 141,
+        "png_bytes": 52456,
+        "webp_bytes": 32106,
+        "variants": [
+          {
+            "max_dimension": 128,
+            "rendered_max_dimension": 128,
+            "png": "png/128/painted-rosette-and-fan-vine-corner.png",
+            "webp": "webp/128/painted-rosette-and-fan-vine-corner.webp",
+            "width": 128,
+            "height": 128,
+            "png_bytes": 43622,
+            "webp_bytes": 27370
+          }
+        ]
+      },
+      "border_image": {
+        "svg": "svg/painted-rosette-and-fan-vine-border.svg",
+        "viewbox": [
+          0,
+          0,
+          689,
+          689
+        ],
+        "png": "png/painted-rosette-and-fan-vine-border.png",
+        "webp": "webp/painted-rosette-and-fan-vine-border.webp",
+        "width": 689,
+        "height": 689,
+        "png_bytes": 674735,
+        "webp_bytes": 414666,
+        "variants": [],
+        "slice_pixels": 141
+      },
+      "rotated_tile": {
+        "svg": "svg/painted-rosette-and-fan-vine-rotated.svg",
+        "viewbox": [
+          0,
+          0,
+          141,
+          407
+        ],
+        "png": "png/painted-rosette-and-fan-vine-rotated.png",
+        "webp": "webp/painted-rosette-and-fan-vine-rotated.webp",
+        "width": 141,
+        "height": 407,
+        "png_bytes": 140724,
+        "webp_bytes": 85504,
+        "variants": [
+          {
+            "max_dimension": 128,
+            "rendered_max_dimension": 128,
+            "png": "png/128/painted-rosette-and-fan-vine-rotated.png",
+            "webp": "webp/128/painted-rosette-and-fan-vine-rotated.webp",
+            "width": 44,
+            "height": 128,
+            "png_bytes": 14204,
+            "webp_bytes": 13354
+          },
+          {
+            "max_dimension": 256,
+            "rendered_max_dimension": 256,
+            "png": "png/256/painted-rosette-and-fan-vine-rotated.png",
+            "webp": "webp/256/painted-rosette-and-fan-vine-rotated.webp",
+            "width": 89,
+            "height": 256,
+            "png_bytes": 57890,
+            "webp_bytes": 38590
+          }
+        ],
+        "repeat_axis": "y",
+        "repeat_ratio": 2.8865248226950353
+      },
+      "reference_crop": {
+        "png": "png/painted-rosette-and-fan-vine-reference.png",
+        "webp": "webp/painted-rosette-and-fan-vine-reference.webp",
+        "width": 722,
+        "height": 141,
+        "png_bytes": 215416,
+        "webp_bytes": 149438,
+        "variants": [
+          {
+            "max_dimension": 128,
+            "rendered_max_dimension": 128,
+            "png": "png/128/painted-rosette-and-fan-vine-reference.png",
+            "webp": "webp/128/painted-rosette-and-fan-vine-reference.webp",
+            "width": 128,
+            "height": 25,
+            "png_bytes": 7513,
+            "webp_bytes": 6218
+          },
+          {
+            "max_dimension": 256,
+            "rendered_max_dimension": 256,
+            "png": "png/256/painted-rosette-and-fan-vine-reference.png",
+            "webp": "webp/256/painted-rosette-and-fan-vine-reference.webp",
+            "width": 256,
+            "height": 50,
+            "png_bytes": 31490,
+            "webp_bytes": 23786
+          },
+          {
+            "max_dimension": 512,
+            "rendered_max_dimension": 512,
+            "png": "png/512/painted-rosette-and-fan-vine-reference.png",
+            "webp": "webp/512/painted-rosette-and-fan-vine-reference.webp",
+            "width": 512,
+            "height": 100,
+            "png_bytes": 125541,
+            "webp_bytes": 82592
+          }
+        ]
+      }
+    },
+    "border_image_slice_percent": 20.4644412191582,
+    "frame_edge_ratio": 2.8865248226950353,
+    "repeat_ratio": 2.8865248226950353,
+    "frame_fit": "round",
+    "corner_method": "source-derived-miter",
+    "source_pattern": "The cycle contains four distinct flowers: red fan, many-petaled rosette, pointed bud and cream rosette. Corresponding red fans and large rosettes recur approximately407px apart. Native source x203\u2013610 captures all four flowers, cutting the curled vine between large motifs. Two-pixel end collars match the selected scan phase; the painted scan is not pixel-identical between occurrences.",
+    "source_canvas": {
+      "width": 407,
+      "height": 141
+    },
+    "master_longest_dimension_cap": 407
+  },
+  {
+    "name": "painted-sprawling-floral-panel",
+    "svg": "svg/painted-sprawling-floral-panel.svg",
+    "viewbox": [
+      0,
+      0,
+      722,
+      232
+    ],
+    "png": "png/painted-sprawling-floral-panel.png",
+    "webp": "webp/painted-sprawling-floral-panel.webp",
+    "width": 722,
+    "height": 232,
+    "png_bytes": 399176,
+    "webp_bytes": 244876,
+    "variants": [
+      {
+        "max_dimension": 128,
+        "rendered_max_dimension": 128,
+        "png": "png/128/painted-sprawling-floral-panel.png",
+        "webp": "webp/128/painted-sprawling-floral-panel.webp",
+        "width": 128,
+        "height": 41,
+        "png_bytes": 13872,
+        "webp_bytes": 11156
+      },
+      {
+        "max_dimension": 256,
+        "rendered_max_dimension": 256,
+        "png": "png/256/painted-sprawling-floral-panel.png",
+        "webp": "webp/256/painted-sprawling-floral-panel.webp",
+        "width": 256,
+        "height": 82,
+        "png_bytes": 54111,
+        "webp_bytes": 41064
+      },
+      {
+        "max_dimension": 512,
+        "rendered_max_dimension": 512,
+        "png": "png/512/painted-sprawling-floral-panel.png",
+        "webp": "webp/512/painted-sprawling-floral-panel.webp",
+        "width": 512,
+        "height": 165,
+        "png_bytes": 210759,
+        "webp_bytes": 136112
+      }
+    ],
+    "description": "A broad gold painted panel with irregular scrolling leaves, differently shaped red and blue flowers and small rosettes.",
+    "colors": [
+      "gold",
+      "green",
+      "red",
+      "blue",
+      "cream"
+    ],
+    "subjects": [
+      "leaf",
+      "flower",
+      "rosette",
+      "vine"
+    ],
+    "categories": [
+      "floral",
+      "botanical",
+      "scrollwork"
+    ],
+    "facing": "mixed",
+    "composition": "standalone",
+    "kind": "standalone",
+    "repeat_axis": "none",
+    "derivation": "source-crop-and-color-trace",
+    "reference": "painted-sheet",
+    "reference_design": 3,
+    "components": {
+      "reference_crop": {
+        "png": "png/painted-sprawling-floral-panel-reference.png",
+        "webp": "webp/painted-sprawling-floral-panel-reference.webp",
+        "width": 722,
+        "height": 232,
+        "png_bytes": 354736,
+        "webp_bytes": 244876,
+        "variants": [
+          {
+            "max_dimension": 128,
+            "rendered_max_dimension": 128,
+            "png": "png/128/painted-sprawling-floral-panel-reference.png",
+            "webp": "webp/128/painted-sprawling-floral-panel-reference.webp",
+            "width": 128,
+            "height": 41,
+            "png_bytes": 13872,
+            "webp_bytes": 11156
+          },
+          {
+            "max_dimension": 256,
+            "rendered_max_dimension": 256,
+            "png": "png/256/painted-sprawling-floral-panel-reference.png",
+            "webp": "webp/256/painted-sprawling-floral-panel-reference.webp",
+            "width": 256,
+            "height": 82,
+            "png_bytes": 54111,
+            "webp_bytes": 41064
+          },
+          {
+            "max_dimension": 512,
+            "rendered_max_dimension": 512,
+            "png": "png/512/painted-sprawling-floral-panel-reference.png",
+            "webp": "webp/512/painted-sprawling-floral-panel-reference.webp",
+            "width": 512,
+            "height": 165,
+            "png_bytes": 210759,
+            "webp_bytes": 136112
+          }
+        ]
+      }
+    },
+    "source_pattern": "The middle panel has individually arranged large flowers, small rosettes and crossing stems. Neither the red rosette nor the blue radial flower has an equivalent repeated copy establishing a full cycle. Preserve the entire decoration; no repeat or frame is inferred.",
+    "source_canvas": {
+      "width": 722,
+      "height": 232
+    },
+    "master_longest_dimension_cap": 722
+  },
+  {
+    "name": "painted-opposed-serrated-flower-vine",
+    "svg": "svg/painted-opposed-serrated-flower-vine.svg",
+    "viewbox": [
+      0,
+      0,
+      387,
+      152
+    ],
+    "png": "png/painted-opposed-serrated-flower-vine.png",
+    "webp": "webp/painted-opposed-serrated-flower-vine.webp",
+    "width": 387,
+    "height": 152,
+    "png_bytes": 144795,
+    "webp_bytes": 89488,
+    "variants": [
+      {
+        "max_dimension": 128,
+        "rendered_max_dimension": 128,
+        "png": "png/128/painted-opposed-serrated-flower-vine.png",
+        "webp": "webp/128/painted-opposed-serrated-flower-vine.webp",
+        "width": 128,
+        "height": 50,
+        "png_bytes": 16660,
+        "webp_bytes": 12844
+      },
+      {
+        "max_dimension": 256,
+        "rendered_max_dimension": 256,
+        "png": "png/256/painted-opposed-serrated-flower-vine.png",
+        "webp": "webp/256/painted-opposed-serrated-flower-vine.webp",
+        "width": 256,
+        "height": 101,
+        "png_bytes": 66295,
+        "webp_bytes": 44604
+      }
+    ],
+    "description": "A gold painted vine with opposed cream and red fan flowers framed by serrated blue-green leaves and small blossom sprigs.",
+    "colors": [
+      "gold",
+      "green",
+      "red",
+      "blue",
+      "cream"
+    ],
+    "subjects": [
+      "leaf",
+      "flower",
+      "vine"
+    ],
+    "categories": [
+      "floral",
+      "botanical",
+      "scrollwork"
+    ],
+    "facing": "mixed",
+    "composition": "repeat-tile",
+    "kind": "repeat-tile",
+    "repeat_axis": "x",
+    "derivation": "source-crop-and-color-trace",
+    "reference": "painted-sheet",
+    "reference_design": 4,
+    "components": {
+      "corner": {
+        "svg": "svg/painted-opposed-serrated-flower-vine-corner.svg",
+        "viewbox": [
+          0,
+          0,
+          152,
+          152
+        ],
+        "png": "png/painted-opposed-serrated-flower-vine-corner.png",
+        "webp": "webp/painted-opposed-serrated-flower-vine-corner.webp",
+        "width": 152,
+        "height": 152,
+        "png_bytes": 57804,
+        "webp_bytes": 35262,
+        "variants": [
+          {
+            "max_dimension": 128,
+            "rendered_max_dimension": 128,
+            "png": "png/128/painted-opposed-serrated-flower-vine-corner.png",
+            "webp": "webp/128/painted-opposed-serrated-flower-vine-corner.webp",
+            "width": 128,
+            "height": 128,
+            "png_bytes": 42043,
+            "webp_bytes": 26466
+          }
+        ]
+      },
+      "border_image": {
+        "svg": "svg/painted-opposed-serrated-flower-vine-border.svg",
+        "viewbox": [
+          0,
+          0,
+          691,
+          691
+        ],
+        "png": "png/painted-opposed-serrated-flower-vine-border.png",
+        "webp": "webp/painted-opposed-serrated-flower-vine-border.webp",
+        "width": 691,
+        "height": 691,
+        "png_bytes": 716471,
+        "webp_bytes": 455650,
+        "variants": [],
+        "slice_pixels": 152
+      },
+      "rotated_tile": {
+        "svg": "svg/painted-opposed-serrated-flower-vine-rotated.svg",
+        "viewbox": [
+          0,
+          0,
+          152,
+          387
+        ],
+        "png": "png/painted-opposed-serrated-flower-vine-rotated.png",
+        "webp": "webp/painted-opposed-serrated-flower-vine-rotated.webp",
+        "width": 152,
+        "height": 387,
+        "png_bytes": 147972,
+        "webp_bytes": 89612,
+        "variants": [
+          {
+            "max_dimension": 128,
+            "rendered_max_dimension": 128,
+            "png": "png/128/painted-opposed-serrated-flower-vine-rotated.png",
+            "webp": "webp/128/painted-opposed-serrated-flower-vine-rotated.webp",
+            "width": 50,
+            "height": 128,
+            "png_bytes": 16832,
+            "webp_bytes": 13024
+          },
+          {
+            "max_dimension": 256,
+            "rendered_max_dimension": 256,
+            "png": "png/256/painted-opposed-serrated-flower-vine-rotated.png",
+            "webp": "webp/256/painted-opposed-serrated-flower-vine-rotated.webp",
+            "width": 101,
+            "height": 256,
+            "png_bytes": 67231,
+            "webp_bytes": 44644
+          }
+        ],
+        "repeat_axis": "y",
+        "repeat_ratio": 2.5460526315789473
+      },
+      "reference_crop": {
+        "png": "png/painted-opposed-serrated-flower-vine-reference.png",
+        "webp": "webp/painted-opposed-serrated-flower-vine-reference.webp",
+        "width": 722,
+        "height": 152,
+        "png_bytes": 238153,
+        "webp_bytes": 166068,
+        "variants": [
+          {
+            "max_dimension": 128,
+            "rendered_max_dimension": 128,
+            "png": "png/128/painted-opposed-serrated-flower-vine-reference.png",
+            "webp": "webp/128/painted-opposed-serrated-flower-vine-reference.webp",
+            "width": 128,
+            "height": 27,
+            "png_bytes": 8667,
+            "webp_bytes": 7206
+          },
+          {
+            "max_dimension": 256,
+            "rendered_max_dimension": 256,
+            "png": "png/256/painted-opposed-serrated-flower-vine-reference.png",
+            "webp": "webp/256/painted-opposed-serrated-flower-vine-reference.webp",
+            "width": 256,
+            "height": 54,
+            "png_bytes": 35588,
+            "webp_bytes": 27086
+          },
+          {
+            "max_dimension": 512,
+            "rendered_max_dimension": 512,
+            "png": "png/512/painted-opposed-serrated-flower-vine-reference.png",
+            "webp": "webp/512/painted-opposed-serrated-flower-vine-reference.webp",
+            "width": 512,
+            "height": 108,
+            "png_bytes": 139433,
+            "webp_bytes": 92174
+          }
+        ]
+      }
+    },
+    "border_image_slice_percent": 21.99710564399421,
+    "frame_edge_ratio": 2.5460526315789473,
+    "repeat_ratio": 2.5460526315789473,
+    "frame_fit": "round",
+    "corner_method": "source-derived-miter",
+    "source_pattern": "A full cycle contains both opposed cream/red fan flowers and their serrated blue-green leaves; one flower alone is a half cycle. Matching pairs occur at roughly387\u2013393px spacing in the scan. Native x260\u2013647 captures the full two-flower phase and joins in the narrow sprig/vine area. The chosen387px unit retains original pixels; two-pixel collars address the small endpoint mismatch, not the print spacing elsewhere.",
+    "source_canvas": {
+      "width": 387,
+      "height": 152
+    },
+    "master_longest_dimension_cap": 387
+  },
+  {
+    "name": "painted-three-band-floral-panel",
+    "svg": "svg/painted-three-band-floral-panel.svg",
+    "viewbox": [
+      0,
+      0,
+      722,
+      217
+    ],
+    "png": "png/painted-three-band-floral-panel.png",
+    "webp": "webp/painted-three-band-floral-panel.webp",
+    "width": 722,
+    "height": 217,
+    "png_bytes": 368266,
+    "webp_bytes": 237370,
+    "variants": [
+      {
+        "max_dimension": 128,
+        "rendered_max_dimension": 128,
+        "png": "png/128/painted-three-band-floral-panel.png",
+        "webp": "webp/128/painted-three-band-floral-panel.webp",
+        "width": 128,
+        "height": 38,
+        "png_bytes": 12789,
+        "webp_bytes": 10686
+      },
+      {
+        "max_dimension": 256,
+        "rendered_max_dimension": 256,
+        "png": "png/256/painted-three-band-floral-panel.png",
+        "webp": "webp/256/painted-three-band-floral-panel.webp",
+        "width": 256,
+        "height": 77,
+        "png_bytes": 50409,
+        "webp_bytes": 39832
+      },
+      {
+        "max_dimension": 512,
+        "rendered_max_dimension": 512,
+        "png": "png/512/painted-three-band-floral-panel.png",
+        "webp": "webp/512/painted-three-band-floral-panel.webp",
+        "width": 512,
+        "height": 154,
+        "png_bytes": 193547,
+        "webp_bytes": 133796
+      }
+    ],
+    "description": "A composite painted border with a gold and red floral vine between narrow red bands of blue-green and gold scrolls.",
+    "colors": [
+      "gold",
+      "green",
+      "red",
+      "blue",
+      "cream"
+    ],
+    "subjects": [
+      "leaf",
+      "flower",
+      "vine",
+      "scroll"
+    ],
+    "categories": [
+      "floral",
+      "botanical",
+      "scrollwork"
+    ],
+    "facing": "mixed",
+    "composition": "standalone",
+    "kind": "standalone",
+    "repeat_axis": "none",
+    "derivation": "source-crop-and-color-trace",
+    "reference": "painted-sheet",
+    "reference_design": 5,
+    "components": {
+      "reference_crop": {
+        "png": "png/painted-three-band-floral-panel-reference.png",
+        "webp": "webp/painted-three-band-floral-panel-reference.webp",
+        "width": 722,
+        "height": 217,
+        "png_bytes": 326147,
+        "webp_bytes": 237370,
+        "variants": [
+          {
+            "max_dimension": 128,
+            "rendered_max_dimension": 128,
+            "png": "png/128/painted-three-band-floral-panel-reference.png",
+            "webp": "webp/128/painted-three-band-floral-panel-reference.webp",
+            "width": 128,
+            "height": 38,
+            "png_bytes": 12789,
+            "webp_bytes": 10686
+          },
+          {
+            "max_dimension": 256,
+            "rendered_max_dimension": 256,
+            "png": "png/256/painted-three-band-floral-panel-reference.png",
+            "webp": "webp/256/painted-three-band-floral-panel-reference.webp",
+            "width": 256,
+            "height": 77,
+            "png_bytes": 50409,
+            "webp_bytes": 39832
+          },
+          {
+            "max_dimension": 512,
+            "rendered_max_dimension": 512,
+            "png": "png/512/painted-three-band-floral-panel-reference.png",
+            "webp": "webp/512/painted-three-band-floral-panel-reference.webp",
+            "width": 512,
+            "height": 154,
+            "png_bytes": 193547,
+            "webp_bytes": 133796
+          }
+        ]
+      }
+    },
+    "source_pattern": "The narrow outer scroll bands repeat at approximately149px, while the central opposed flowers and leaf arrangements follow a different longer cycle. The supplied722px panel does not establish a complete phase shared by all three bands. Preserve the composite whole; no arbitrary combined repeat or frame is invented.",
+    "source_canvas": {
+      "width": 722,
+      "height": 217
+    },
+    "master_longest_dimension_cap": 722
+  },
+  {
+    "name": "blue-alternating-stencil-scroll",
+    "svg": "svg/blue-alternating-stencil-scroll.svg",
+    "viewbox": [
+      0,
+      0,
+      129,
+      52
+    ],
+    "png": "png/blue-alternating-stencil-scroll.png",
+    "webp": "webp/blue-alternating-stencil-scroll.webp",
+    "width": 129,
+    "height": 52,
+    "png_bytes": 17108,
+    "webp_bytes": 12504,
+    "variants": [
+      {
+        "max_dimension": 128,
+        "rendered_max_dimension": 128,
+        "png": "png/128/blue-alternating-stencil-scroll.png",
+        "webp": "webp/128/blue-alternating-stencil-scroll.webp",
+        "width": 128,
+        "height": 52,
+        "png_bytes": 17154,
+        "webp_bytes": 12510
+      }
+    ],
+    "description": "Blue stencil scroll pair with alternating curved and pointed leaves on the untouched white/gray graph-paper source.",
+    "colors": [
+      "blue",
+      "white",
+      "gray"
+    ],
+    "subjects": [
+      "leaf",
+      "scroll"
+    ],
+    "categories": [
+      "botanical",
+      "scrollwork"
+    ],
+    "facing": "mixed",
+    "composition": "repeat-tile",
+    "kind": "repeat-tile",
+    "repeat_axis": "x",
+    "derivation": "source-crop-and-color-trace",
+    "reference": "stencil-sheet",
+    "reference_design": 1,
+    "components": {
+      "corner": {
+        "svg": "svg/blue-alternating-stencil-scroll-corner.svg",
+        "viewbox": [
+          0,
+          0,
+          52,
+          52
+        ],
+        "png": "png/blue-alternating-stencil-scroll-corner.png",
+        "webp": "webp/blue-alternating-stencil-scroll-corner.webp",
+        "width": 52,
+        "height": 52,
+        "png_bytes": 6975,
+        "webp_bytes": 5284,
+        "variants": []
+      },
+      "border_image": {
+        "svg": "svg/blue-alternating-stencil-scroll-border.svg",
+        "viewbox": [
+          0,
+          0,
+          233,
+          233
+        ],
+        "png": "png/blue-alternating-stencil-scroll-border.png",
+        "webp": "webp/blue-alternating-stencil-scroll-border.webp",
+        "width": 233,
+        "height": 233,
+        "png_bytes": 82246,
+        "webp_bytes": 64788,
+        "variants": [],
+        "slice_pixels": 52
+      },
+      "rotated_tile": {
+        "svg": "svg/blue-alternating-stencil-scroll-rotated.svg",
+        "viewbox": [
+          0,
+          0,
+          52,
+          129
+        ],
+        "png": "png/blue-alternating-stencil-scroll-rotated.png",
+        "webp": "webp/blue-alternating-stencil-scroll-rotated.webp",
+        "width": 52,
+        "height": 129,
+        "png_bytes": 17017,
+        "webp_bytes": 12496,
+        "variants": [
+          {
+            "max_dimension": 128,
+            "rendered_max_dimension": 128,
+            "png": "png/128/blue-alternating-stencil-scroll-rotated.png",
+            "webp": "webp/128/blue-alternating-stencil-scroll-rotated.webp",
+            "width": 52,
+            "height": 128,
+            "png_bytes": 17096,
+            "webp_bytes": 12496
+          }
+        ],
+        "repeat_axis": "y",
+        "repeat_ratio": 2.480769230769231
+      },
+      "reference_crop": {
+        "png": "png/blue-alternating-stencil-scroll-reference.png",
+        "webp": "webp/blue-alternating-stencil-scroll-reference.webp",
+        "width": 316,
+        "height": 52,
+        "png_bytes": 34494,
+        "webp_bytes": 27748,
+        "variants": [
+          {
+            "max_dimension": 128,
+            "rendered_max_dimension": 128,
+            "png": "png/128/blue-alternating-stencil-scroll-reference.png",
+            "webp": "webp/128/blue-alternating-stencil-scroll-reference.webp",
+            "width": 128,
+            "height": 21,
+            "png_bytes": 7460,
+            "webp_bytes": 5488
+          },
+          {
+            "max_dimension": 256,
+            "rendered_max_dimension": 256,
+            "png": "png/256/blue-alternating-stencil-scroll-reference.png",
+            "webp": "webp/256/blue-alternating-stencil-scroll-reference.webp",
+            "width": 256,
+            "height": 42,
+            "png_bytes": 26575,
+            "webp_bytes": 19358
+          }
+        ]
+      }
+    },
+    "border_image_slice_percent": 22.317596566523605,
+    "frame_edge_ratio": 2.480769230769231,
+    "repeat_ratio": 2.480769230769231,
+    "frame_fit": "round",
+    "corner_method": "source-derived-miter",
+    "source_pattern": "Two opposed open scrolls with alternating pointed leaves form one129px cycle. Decorative end strokes are excluded by selecting an interior cycle; the source grid remains and is not itself seamless.",
+    "source_canvas": {
+      "width": 129,
+      "height": 52
+    },
+    "master_longest_dimension_cap": 129
+  },
+  {
+    "name": "blue-diamond-leaf-stencil-band",
+    "svg": "svg/blue-diamond-leaf-stencil-band.svg",
+    "viewbox": [
+      0,
+      0,
+      105,
+      52
+    ],
+    "png": "png/blue-diamond-leaf-stencil-band.png",
+    "webp": "webp/blue-diamond-leaf-stencil-band.webp",
+    "width": 105,
+    "height": 52,
+    "png_bytes": 14063,
+    "webp_bytes": 10498,
+    "variants": [],
+    "description": "Blue stencil band with opposed three-leaf diamond sprays in curling waves, bounded by straight blue rules on retained graph paper.",
+    "colors": [
+      "blue",
+      "white",
+      "gray"
+    ],
+    "subjects": [
+      "leaf",
+      "diamond",
+      "scroll"
+    ],
+    "categories": [
+      "botanical",
+      "geometric",
+      "scrollwork"
+    ],
+    "facing": "mixed",
+    "composition": "repeat-tile",
+    "kind": "repeat-tile",
+    "repeat_axis": "x",
+    "derivation": "source-crop-and-color-trace",
+    "reference": "stencil-sheet",
+    "reference_design": 2,
+    "components": {
+      "corner": {
+        "svg": "svg/blue-diamond-leaf-stencil-band-corner.svg",
+        "viewbox": [
+          0,
+          0,
+          52,
+          52
+        ],
+        "png": "png/blue-diamond-leaf-stencil-band-corner.png",
+        "webp": "webp/blue-diamond-leaf-stencil-band-corner.webp",
+        "width": 52,
+        "height": 52,
+        "png_bytes": 6882,
+        "webp_bytes": 5244,
+        "variants": []
+      },
+      "border_image": {
+        "svg": "svg/blue-diamond-leaf-stencil-band-border.svg",
+        "viewbox": [
+          0,
+          0,
+          209,
+          209
+        ],
+        "png": "png/blue-diamond-leaf-stencil-band-border.png",
+        "webp": "webp/blue-diamond-leaf-stencil-band-border.webp",
+        "width": 209,
+        "height": 209,
+        "png_bytes": 69911,
+        "webp_bytes": 56524,
+        "variants": [],
+        "slice_pixels": 52
+      },
+      "rotated_tile": {
+        "svg": "svg/blue-diamond-leaf-stencil-band-rotated.svg",
+        "viewbox": [
+          0,
+          0,
+          52,
+          105
+        ],
+        "png": "png/blue-diamond-leaf-stencil-band-rotated.png",
+        "webp": "webp/blue-diamond-leaf-stencil-band-rotated.webp",
+        "width": 52,
+        "height": 105,
+        "png_bytes": 13933,
+        "webp_bytes": 12330,
+        "variants": [],
+        "repeat_axis": "y",
+        "repeat_ratio": 2.019230769230769
+      },
+      "reference_crop": {
+        "png": "png/blue-diamond-leaf-stencil-band-reference.png",
+        "webp": "webp/blue-diamond-leaf-stencil-band-reference.webp",
+        "width": 330,
+        "height": 52,
+        "png_bytes": 38404,
+        "webp_bytes": 31714,
+        "variants": [
+          {
+            "max_dimension": 128,
+            "rendered_max_dimension": 128,
+            "png": "png/128/blue-diamond-leaf-stencil-band-reference.png",
+            "webp": "webp/128/blue-diamond-leaf-stencil-band-reference.webp",
+            "width": 128,
+            "height": 20,
+            "png_bytes": 7294,
+            "webp_bytes": 5666
+          },
+          {
+            "max_dimension": 256,
+            "rendered_max_dimension": 256,
+            "png": "png/256/blue-diamond-leaf-stencil-band-reference.png",
+            "webp": "webp/256/blue-diamond-leaf-stencil-band-reference.webp",
+            "width": 256,
+            "height": 40,
+            "png_bytes": 26939,
+            "webp_bytes": 20072
+          }
+        ]
+      }
+    },
+    "border_image_slice_percent": 24.880382775119617,
+    "frame_edge_ratio": 2.019230769230769,
+    "repeat_ratio": 2.019230769230769,
+    "frame_fit": "round",
+    "corner_method": "source-derived-miter",
+    "source_pattern": "One upward and one downward three-leaf diamond spray within opposing waves and horizontal blue rules form the full105px cycle. Source grid remains visible.",
+    "source_canvas": {
+      "width": 105,
+      "height": 52
+    },
+    "master_longest_dimension_cap": 105
+  },
+  {
+    "name": "blue-four-petal-stencil-vine",
+    "svg": "svg/blue-four-petal-stencil-vine.svg",
+    "viewbox": [
+      0,
+      0,
+      60,
+      52
+    ],
+    "png": "png/blue-four-petal-stencil-vine.png",
+    "webp": "webp/blue-four-petal-stencil-vine.webp",
+    "width": 60,
+    "height": 52,
+    "png_bytes": 8859,
+    "webp_bytes": 6646,
+    "variants": [],
+    "description": "Blue stencil vine enclosing a four-petal diamond flower with an upper leaf spray and lower curl, on untouched graph paper.",
+    "colors": [
+      "blue",
+      "white",
+      "gray"
+    ],
+    "subjects": [
+      "flower",
+      "leaf",
+      "diamond",
+      "vine",
+      "scroll"
+    ],
+    "categories": [
+      "floral",
+      "botanical",
+      "geometric",
+      "scrollwork"
+    ],
+    "facing": "right",
+    "composition": "repeat-tile",
+    "kind": "repeat-tile",
+    "repeat_axis": "x",
+    "derivation": "source-crop-and-color-trace",
+    "reference": "stencil-sheet",
+    "reference_design": 3,
+    "components": {
+      "corner": {
+        "svg": "svg/blue-four-petal-stencil-vine-corner.svg",
+        "viewbox": [
+          0,
+          0,
+          52,
+          52
+        ],
+        "png": "png/blue-four-petal-stencil-vine-corner.png",
+        "webp": "webp/blue-four-petal-stencil-vine-corner.webp",
+        "width": 52,
+        "height": 52,
+        "png_bytes": 7575,
+        "webp_bytes": 5812,
+        "variants": []
+      },
+      "border_image": {
+        "svg": "svg/blue-four-petal-stencil-vine-border.svg",
+        "viewbox": [
+          0,
+          0,
+          164,
+          164
+        ],
+        "png": "png/blue-four-petal-stencil-vine-border.png",
+        "webp": "webp/blue-four-petal-stencil-vine-border.webp",
+        "width": 164,
+        "height": 164,
+        "png_bytes": 49901,
+        "webp_bytes": 31988,
+        "variants": [
+          {
+            "max_dimension": 128,
+            "rendered_max_dimension": 123,
+            "png": "png/128/blue-four-petal-stencil-vine-border.png",
+            "webp": "webp/128/blue-four-petal-stencil-vine-border.webp",
+            "width": 123,
+            "height": 123,
+            "png_bytes": 28516,
+            "webp_bytes": 17756
+          }
+        ],
+        "slice_pixels": 52
+      },
+      "rotated_tile": {
+        "svg": "svg/blue-four-petal-stencil-vine-rotated.svg",
+        "viewbox": [
+          0,
+          0,
+          52,
+          60
+        ],
+        "png": "png/blue-four-petal-stencil-vine-rotated.png",
+        "webp": "webp/blue-four-petal-stencil-vine-rotated.webp",
+        "width": 52,
+        "height": 60,
+        "png_bytes": 8833,
+        "webp_bytes": 6654,
+        "variants": [],
+        "repeat_axis": "y",
+        "repeat_ratio": 1.1538461538461537
+      },
+      "reference_crop": {
+        "png": "png/blue-four-petal-stencil-vine-reference.png",
+        "webp": "webp/blue-four-petal-stencil-vine-reference.webp",
+        "width": 248,
+        "height": 52,
+        "png_bytes": 31662,
+        "webp_bytes": 26116,
+        "variants": [
+          {
+            "max_dimension": 128,
+            "rendered_max_dimension": 128,
+            "png": "png/128/blue-four-petal-stencil-vine-reference.png",
+            "webp": "webp/128/blue-four-petal-stencil-vine-reference.webp",
+            "width": 128,
+            "height": 27,
+            "png_bytes": 10520,
+            "webp_bytes": 7948
+          }
+        ]
+      }
+    },
+    "border_image_slice_percent": 31.70731707317073,
+    "frame_edge_ratio": 1.1538461538461537,
+    "repeat_ratio": 1.1538461538461537,
+    "frame_fit": "round",
+    "corner_method": "source-derived-miter",
+    "source_pattern": "One circular four-petal flower, upper three-leaf spray and lower curling stem repeat every~59.5px; an interior60px unit retains these together and excludes the terminal source tips.",
+    "source_canvas": {
+      "width": 60,
+      "height": 52
+    },
+    "master_longest_dimension_cap": 60
+  },
+  {
+    "name": "russet-floral-vine-with-bud-borders",
+    "svg": "svg/russet-floral-vine-with-bud-borders.svg",
+    "viewbox": [
+      0,
+      0,
+      324,
+      739
+    ],
+    "png": "png/russet-floral-vine-with-bud-borders.png",
+    "webp": "webp/russet-floral-vine-with-bud-borders.webp",
+    "width": 324,
+    "height": 739,
+    "png_bytes": 588684,
+    "webp_bytes": 337814,
+    "variants": [
+      {
+        "max_dimension": 128,
+        "rendered_max_dimension": 128,
+        "png": "png/128/russet-floral-vine-with-bud-borders.png",
+        "webp": "webp/128/russet-floral-vine-with-bud-borders.webp",
+        "width": 56,
+        "height": 128,
+        "png_bytes": 20935,
+        "webp_bytes": 15034
+      },
+      {
+        "max_dimension": 256,
+        "rendered_max_dimension": 256,
+        "png": "png/256/russet-floral-vine-with-bud-borders.png",
+        "webp": "webp/256/russet-floral-vine-with-bud-borders.webp",
+        "width": 112,
+        "height": 256,
+        "png_bytes": 78969,
+        "webp_bytes": 53258
+      },
+      {
+        "max_dimension": 512,
+        "rendered_max_dimension": 512,
+        "png": "png/512/russet-floral-vine-with-bud-borders.png",
+        "webp": "webp/512/russet-floral-vine-with-bud-borders.webp",
+        "width": 224,
+        "height": 512,
+        "png_bytes": 299072,
+        "webp_bytes": 180014
+      }
+    ],
+    "description": "Large opposed cream and tan flowers, small white blossoms and sage-green curling leaves on russet, flanked by beige bands of alternating russet and gray-blue buds.",
+    "colors": [
+      "red",
+      "cream",
+      "tan",
+      "green",
+      "blue",
+      "beige",
+      "black"
+    ],
+    "subjects": [
+      "flower",
+      "leaf",
+      "vine",
+      "bud"
+    ],
+    "categories": [
+      "floral",
+      "botanical",
+      "scrollwork"
+    ],
+    "facing": "mixed",
+    "composition": "repeat-tile",
+    "kind": "repeat-tile",
+    "repeat_axis": "y",
+    "derivation": "source-crop-and-color-trace",
+    "reference": "tall-floral-sheet",
+    "reference_design": 1,
+    "components": {
+      "corner": {
+        "svg": "svg/russet-floral-vine-with-bud-borders-corner.svg",
+        "viewbox": [
+          0,
+          0,
+          324,
+          324
+        ],
+        "png": "png/russet-floral-vine-with-bud-borders-corner.png",
+        "webp": "webp/russet-floral-vine-with-bud-borders-corner.webp",
+        "width": 324,
+        "height": 324,
+        "png_bytes": 260785,
+        "webp_bytes": 148668,
+        "variants": [
+          {
+            "max_dimension": 128,
+            "rendered_max_dimension": 128,
+            "png": "png/128/russet-floral-vine-with-bud-borders-corner.png",
+            "webp": "webp/128/russet-floral-vine-with-bud-borders-corner.webp",
+            "width": 128,
+            "height": 128,
+            "png_bytes": 45284,
+            "webp_bytes": 30168
+          },
+          {
+            "max_dimension": 256,
+            "rendered_max_dimension": 256,
+            "png": "png/256/russet-floral-vine-with-bud-borders-corner.png",
+            "webp": "webp/256/russet-floral-vine-with-bud-borders-corner.webp",
+            "width": 256,
+            "height": 256,
+            "png_bytes": 171392,
+            "webp_bytes": 101914
+          }
+        ]
+      },
+      "border_image": {
+        "svg": "svg/russet-floral-vine-with-bud-borders-border.svg",
+        "viewbox": [
+          0,
+          0,
+          1387,
+          1387
+        ],
+        "png": "png/russet-floral-vine-with-bud-borders-border.png",
+        "webp": "webp/russet-floral-vine-with-bud-borders-border.webp",
+        "width": 1387,
+        "height": 1387,
+        "png_bytes": 2919818,
+        "webp_bytes": 1631126,
+        "variants": [],
+        "slice_pixels": 324
+      },
+      "rotated_tile": {
+        "svg": "svg/russet-floral-vine-with-bud-borders-rotated.svg",
+        "viewbox": [
+          0,
+          0,
+          739,
+          324
+        ],
+        "png": "png/russet-floral-vine-with-bud-borders-rotated.png",
+        "webp": "webp/russet-floral-vine-with-bud-borders-rotated.webp",
+        "width": 739,
+        "height": 324,
+        "png_bytes": 582281,
+        "webp_bytes": 337608,
+        "variants": [
+          {
+            "max_dimension": 128,
+            "rendered_max_dimension": 128,
+            "png": "png/128/russet-floral-vine-with-bud-borders-rotated.png",
+            "webp": "webp/128/russet-floral-vine-with-bud-borders-rotated.webp",
+            "width": 128,
+            "height": 56,
+            "png_bytes": 20445,
+            "webp_bytes": 15010
+          },
+          {
+            "max_dimension": 256,
+            "rendered_max_dimension": 256,
+            "png": "png/256/russet-floral-vine-with-bud-borders-rotated.png",
+            "webp": "webp/256/russet-floral-vine-with-bud-borders-rotated.webp",
+            "width": 256,
+            "height": 112,
+            "png_bytes": 77860,
+            "webp_bytes": 53234
+          },
+          {
+            "max_dimension": 512,
+            "rendered_max_dimension": 512,
+            "png": "png/512/russet-floral-vine-with-bud-borders-rotated.png",
+            "webp": "webp/512/russet-floral-vine-with-bud-borders-rotated.webp",
+            "width": 512,
+            "height": 224,
+            "png_bytes": 296212,
+            "webp_bytes": 179930
+          }
+        ],
+        "repeat_axis": "x",
+        "repeat_ratio": 2.2808641975308643
+      },
+      "reference_crop": {
+        "png": "png/russet-floral-vine-with-bud-borders-reference.png",
+        "webp": "webp/russet-floral-vine-with-bud-borders-reference.webp",
+        "width": 324,
+        "height": 1033,
+        "png_bytes": 744296,
+        "webp_bytes": 480328,
+        "variants": [
+          {
+            "max_dimension": 128,
+            "rendered_max_dimension": 128,
+            "png": "png/128/russet-floral-vine-with-bud-borders-reference.png",
+            "webp": "webp/128/russet-floral-vine-with-bud-borders-reference.webp",
+            "width": 40,
+            "height": 128,
+            "png_bytes": 15266,
+            "webp_bytes": 11922
+          },
+          {
+            "max_dimension": 256,
+            "rendered_max_dimension": 256,
+            "png": "png/256/russet-floral-vine-with-bud-borders-reference.png",
+            "webp": "webp/256/russet-floral-vine-with-bud-borders-reference.webp",
+            "width": 80,
+            "height": 256,
+            "png_bytes": 58354,
+            "webp_bytes": 40778
+          },
+          {
+            "max_dimension": 512,
+            "rendered_max_dimension": 512,
+            "png": "png/512/russet-floral-vine-with-bud-borders-reference.png",
+            "webp": "webp/512/russet-floral-vine-with-bud-borders-reference.webp",
+            "width": 161,
+            "height": 512,
+            "png_bytes": 222017,
+            "webp_bytes": 141176
+          },
+          {
+            "max_dimension": 768,
+            "rendered_max_dimension": 768,
+            "png": "png/768/russet-floral-vine-with-bud-borders-reference.png",
+            "webp": "webp/768/russet-floral-vine-with-bud-borders-reference.webp",
+            "width": 241,
+            "height": 768,
+            "png_bytes": 482482,
+            "webp_bytes": 291082
+          }
+        ]
+      }
+    },
+    "border_image_slice_percent": 23.359769286229273,
+    "frame_edge_ratio": 2.2808641975308643,
+    "repeat_ratio": 2.2808641975308643,
+    "frame_fit": "round",
+    "corner_method": "source-derived-miter",
+    "source_pattern": "A full central motif comprises both opposed large flower types, with the associated smaller flowers, white-veined leaves and curled stalks. The same arrangement recurs738\u2013739px farther down, with the source fractional raster spacing represented by a739px native period. Narrow side bands alternate two bud orientations per92\u201393px cycle; eight such cycles register across the same739px full central period. Native shifts738/739 align all three bands and their color identities; shorter large-flower half-cycles do not. Interior y435\u20131174 retains both complete large flower heads and joins across leaf/stem phases, before the small star-shaped flower petals. The source ends and tan surround are excluded.",
+    "source_canvas": {
+      "width": 324,
+      "height": 739
+    },
+    "master_longest_dimension_cap": 739
+  },
+  {
+    "name": "russet-opposed-flowers-and-sage-leaves",
+    "svg": "svg/russet-opposed-flowers-and-sage-leaves.svg",
+    "viewbox": [
+      0,
+      0,
+      221,
+      739
+    ],
+    "png": "png/russet-opposed-flowers-and-sage-leaves.png",
+    "webp": "webp/russet-opposed-flowers-and-sage-leaves.webp",
+    "width": 221,
+    "height": 739,
+    "png_bytes": 412221,
+    "webp_bytes": 236290,
+    "variants": [
+      {
+        "max_dimension": 128,
+        "rendered_max_dimension": 128,
+        "png": "png/128/russet-opposed-flowers-and-sage-leaves.png",
+        "webp": "webp/128/russet-opposed-flowers-and-sage-leaves.webp",
+        "width": 38,
+        "height": 128,
+        "png_bytes": 14483,
+        "webp_bytes": 11244
+      },
+      {
+        "max_dimension": 256,
+        "rendered_max_dimension": 256,
+        "png": "png/256/russet-opposed-flowers-and-sage-leaves.png",
+        "webp": "webp/256/russet-opposed-flowers-and-sage-leaves.webp",
+        "width": 77,
+        "height": 256,
+        "png_bytes": 55249,
+        "webp_bytes": 37108
+      },
+      {
+        "max_dimension": 512,
+        "rendered_max_dimension": 512,
+        "png": "png/512/russet-opposed-flowers-and-sage-leaves.png",
+        "webp": "webp/512/russet-opposed-flowers-and-sage-leaves.webp",
+        "width": 153,
+        "height": 512,
+        "png_bytes": 208683,
+        "webp_bytes": 125490
+      }
+    ],
+    "description": "Opposed large cream and tan flowers among smaller white blossoms, curled sage-green stems and white-veined leaves on russet, within thin green and black rules.",
+    "colors": [
+      "red",
+      "cream",
+      "tan",
+      "green",
+      "black"
+    ],
+    "subjects": [
+      "flower",
+      "leaf",
+      "vine",
+      "bud"
+    ],
+    "categories": [
+      "floral",
+      "botanical",
+      "scrollwork"
+    ],
+    "facing": "mixed",
+    "composition": "repeat-tile",
+    "kind": "repeat-tile",
+    "repeat_axis": "y",
+    "derivation": "source-crop-and-color-trace",
+    "reference": "tall-floral-sheet",
+    "reference_design": 2,
+    "components": {
+      "corner": {
+        "svg": "svg/russet-opposed-flowers-and-sage-leaves-corner.svg",
+        "viewbox": [
+          0,
+          0,
+          221,
+          221
+        ],
+        "png": "png/russet-opposed-flowers-and-sage-leaves-corner.png",
+        "webp": "webp/russet-opposed-flowers-and-sage-leaves-corner.webp",
+        "width": 221,
+        "height": 221,
+        "png_bytes": 126560,
+        "webp_bytes": 71808,
+        "variants": [
+          {
+            "max_dimension": 128,
+            "rendered_max_dimension": 128,
+            "png": "png/128/russet-opposed-flowers-and-sage-leaves-corner.png",
+            "webp": "webp/128/russet-opposed-flowers-and-sage-leaves-corner.webp",
+            "width": 128,
+            "height": 128,
+            "png_bytes": 45380,
+            "webp_bytes": 28312
+          }
+        ]
+      },
+      "border_image": {
+        "svg": "svg/russet-opposed-flowers-and-sage-leaves-border.svg",
+        "viewbox": [
+          0,
+          0,
+          1181,
+          1181
+        ],
+        "png": "png/russet-opposed-flowers-and-sage-leaves-border.png",
+        "webp": "webp/russet-opposed-flowers-and-sage-leaves-border.webp",
+        "width": 1181,
+        "height": 1181,
+        "png_bytes": 1937659,
+        "webp_bytes": 1113998,
+        "variants": [],
+        "slice_pixels": 221
+      },
+      "rotated_tile": {
+        "svg": "svg/russet-opposed-flowers-and-sage-leaves-rotated.svg",
+        "viewbox": [
+          0,
+          0,
+          739,
+          221
+        ],
+        "png": "png/russet-opposed-flowers-and-sage-leaves-rotated.png",
+        "webp": "webp/russet-opposed-flowers-and-sage-leaves-rotated.webp",
+        "width": 739,
+        "height": 221,
+        "png_bytes": 411566,
+        "webp_bytes": 236686,
+        "variants": [
+          {
+            "max_dimension": 128,
+            "rendered_max_dimension": 128,
+            "png": "png/128/russet-opposed-flowers-and-sage-leaves-rotated.png",
+            "webp": "webp/128/russet-opposed-flowers-and-sage-leaves-rotated.webp",
+            "width": 128,
+            "height": 38,
+            "png_bytes": 14316,
+            "webp_bytes": 10230
+          },
+          {
+            "max_dimension": 256,
+            "rendered_max_dimension": 256,
+            "png": "png/256/russet-opposed-flowers-and-sage-leaves-rotated.png",
+            "webp": "webp/256/russet-opposed-flowers-and-sage-leaves-rotated.webp",
+            "width": 256,
+            "height": 77,
+            "png_bytes": 54866,
+            "webp_bytes": 37040
+          },
+          {
+            "max_dimension": 512,
+            "rendered_max_dimension": 512,
+            "png": "png/512/russet-opposed-flowers-and-sage-leaves-rotated.png",
+            "webp": "webp/512/russet-opposed-flowers-and-sage-leaves-rotated.webp",
+            "width": 512,
+            "height": 153,
+            "png_bytes": 207663,
+            "webp_bytes": 125386
+          }
+        ],
+        "repeat_axis": "x",
+        "repeat_ratio": 3.3438914027149322
+      },
+      "reference_crop": {
+        "png": "png/russet-opposed-flowers-and-sage-leaves-reference.png",
+        "webp": "webp/russet-opposed-flowers-and-sage-leaves-reference.webp",
+        "width": 221,
+        "height": 1033,
+        "png_bytes": 522541,
+        "webp_bytes": 333720,
+        "variants": [
+          {
+            "max_dimension": 128,
+            "rendered_max_dimension": 128,
+            "png": "png/128/russet-opposed-flowers-and-sage-leaves-reference.png",
+            "webp": "webp/128/russet-opposed-flowers-and-sage-leaves-reference.webp",
+            "width": 27,
+            "height": 128,
+            "png_bytes": 10560,
+            "webp_bytes": 8034
+          },
+          {
+            "max_dimension": 256,
+            "rendered_max_dimension": 256,
+            "png": "png/256/russet-opposed-flowers-and-sage-leaves-reference.png",
+            "webp": "webp/256/russet-opposed-flowers-and-sage-leaves-reference.webp",
+            "width": 55,
+            "height": 256,
+            "png_bytes": 40813,
+            "webp_bytes": 28262
+          },
+          {
+            "max_dimension": 512,
+            "rendered_max_dimension": 512,
+            "png": "png/512/russet-opposed-flowers-and-sage-leaves-reference.png",
+            "webp": "webp/512/russet-opposed-flowers-and-sage-leaves-reference.webp",
+            "width": 110,
+            "height": 512,
+            "png_bytes": 155123,
+            "webp_bytes": 97340
+          },
+          {
+            "max_dimension": 768,
+            "rendered_max_dimension": 768,
+            "png": "png/768/russet-opposed-flowers-and-sage-leaves-reference.png",
+            "webp": "webp/768/russet-opposed-flowers-and-sage-leaves-reference.webp",
+            "width": 164,
+            "height": 768,
+            "png_bytes": 336457,
+            "webp_bytes": 200402
+          }
+        ]
+      }
+    },
+    "border_image_slice_percent": 18.712955122777306,
+    "frame_edge_ratio": 3.3438914027149322,
+    "repeat_ratio": 3.3438914027149322,
+    "frame_fit": "round",
+    "corner_method": "source-derived-miter",
+    "source_pattern": "The two large flower heads differ: one is frilled and faces one direction, the other is pointed with a speckled russet seed center and faces the opposite direction. Both belong in the full739px source-supported cycle. Repeated source arrangements register at738\u2013739px due to native fractional raster spacing. The isolated center preserves the complete central artwork and its bounding rules; y435\u20131174 includes both entire large flower heads and crosses matching leafy stem phases. No invented reflected motif or terminal cap is inserted.",
+    "source_canvas": {
+      "width": 221,
+      "height": 739
+    },
+    "master_longest_dimension_cap": 739
+  },
+  {
+    "name": "sage-leaf-and-russet-bud-vine",
+    "svg": "svg/sage-leaf-and-russet-bud-vine.svg",
+    "viewbox": [
+      0,
+      0,
+      50,
+      92
+    ],
+    "png": "png/sage-leaf-and-russet-bud-vine.png",
+    "webp": "webp/sage-leaf-and-russet-bud-vine.webp",
+    "width": 50,
+    "height": 92,
+    "png_bytes": 11436,
+    "webp_bytes": 6788,
+    "variants": [],
+    "description": "Tiny russet and gray-blue pendant buds alternate orientation along a sage-green leafy vine on beige between thin rules.",
+    "colors": [
+      "green",
+      "red",
+      "blue",
+      "beige",
+      "black"
+    ],
+    "subjects": [
+      "flower",
+      "leaf",
+      "vine",
+      "bud"
+    ],
+    "categories": [
+      "floral",
+      "botanical",
+      "scrollwork"
+    ],
+    "facing": "mixed",
+    "composition": "repeat-tile",
+    "kind": "repeat-tile",
+    "repeat_axis": "y",
+    "derivation": "source-crop-and-color-trace",
+    "reference": "tall-floral-sheet",
+    "reference_design": 3,
+    "components": {
+      "corner": {
+        "svg": "svg/sage-leaf-and-russet-bud-vine-corner.svg",
+        "viewbox": [
+          0,
+          0,
+          50,
+          50
+        ],
+        "png": "png/sage-leaf-and-russet-bud-vine-corner.png",
+        "webp": "webp/sage-leaf-and-russet-bud-vine-corner.webp",
+        "width": 50,
+        "height": 50,
+        "png_bytes": 6486,
+        "webp_bytes": 3942,
+        "variants": []
+      },
+      "border_image": {
+        "svg": "svg/sage-leaf-and-russet-bud-vine-border.svg",
+        "viewbox": [
+          0,
+          0,
+          192,
+          192
+        ],
+        "png": "png/sage-leaf-and-russet-bud-vine-border.png",
+        "webp": "webp/sage-leaf-and-russet-bud-vine-border.webp",
+        "width": 192,
+        "height": 192,
+        "png_bytes": 57984,
+        "webp_bytes": 30378,
+        "variants": [
+          {
+            "max_dimension": 128,
+            "rendered_max_dimension": 96,
+            "png": "png/128/sage-leaf-and-russet-bud-vine-border.png",
+            "webp": "webp/128/sage-leaf-and-russet-bud-vine-border.webp",
+            "width": 96,
+            "height": 96,
+            "png_bytes": 15295,
+            "webp_bytes": 12572
+          }
+        ],
+        "slice_pixels": 50
+      },
+      "rotated_tile": {
+        "svg": "svg/sage-leaf-and-russet-bud-vine-rotated.svg",
+        "viewbox": [
+          0,
+          0,
+          92,
+          50
+        ],
+        "png": "png/sage-leaf-and-russet-bud-vine-rotated.png",
+        "webp": "webp/sage-leaf-and-russet-bud-vine-rotated.webp",
+        "width": 92,
+        "height": 50,
+        "png_bytes": 11386,
+        "webp_bytes": 6692,
+        "variants": [],
+        "repeat_axis": "x",
+        "repeat_ratio": 1.84
+      },
+      "reference_crop": {
+        "png": "png/sage-leaf-and-russet-bud-vine-reference.png",
+        "webp": "webp/sage-leaf-and-russet-bud-vine-reference.webp",
+        "width": 50,
+        "height": 1033,
+        "png_bytes": 112447,
+        "webp_bytes": 72334,
+        "variants": [
+          {
+            "max_dimension": 128,
+            "rendered_max_dimension": 128,
+            "png": "png/128/sage-leaf-and-russet-bud-vine-reference.png",
+            "webp": "webp/128/sage-leaf-and-russet-bud-vine-reference.webp",
+            "width": 6,
+            "height": 128,
+            "png_bytes": 2345,
+            "webp_bytes": 1672
+          },
+          {
+            "max_dimension": 256,
+            "rendered_max_dimension": 256,
+            "png": "png/256/sage-leaf-and-russet-bud-vine-reference.png",
+            "webp": "webp/256/sage-leaf-and-russet-bud-vine-reference.webp",
+            "width": 12,
+            "height": 256,
+            "png_bytes": 8628,
+            "webp_bytes": 6796
+          },
+          {
+            "max_dimension": 512,
+            "rendered_max_dimension": 512,
+            "png": "png/512/sage-leaf-and-russet-bud-vine-reference.png",
+            "webp": "webp/512/sage-leaf-and-russet-bud-vine-reference.webp",
+            "width": 25,
+            "height": 512,
+            "png_bytes": 34081,
+            "webp_bytes": 22094
+          },
+          {
+            "max_dimension": 768,
+            "rendered_max_dimension": 768,
+            "png": "png/768/sage-leaf-and-russet-bud-vine-reference.png",
+            "webp": "webp/768/sage-leaf-and-russet-bud-vine-reference.webp",
+            "width": 37,
+            "height": 768,
+            "png_bytes": 73165,
+            "webp_bytes": 44422
+          }
+        ]
+      }
+    },
+    "border_image_slice_percent": 26.041666666666668,
+    "frame_edge_ratio": 1.84,
+    "repeat_ratio": 1.84,
+    "frame_fit": "round",
+    "corner_method": "source-derived-miter",
+    "source_pattern": "The two opposed pendant bud arrangements alternate, with gray-blue lobes above russet lobes in one and below them in the other. Both are required in a complete92px cycle; the nominal half46px shift exchanges motifs/colors. Matching arrangements recur92\u201393px apart, with739px registering eight cycles. Interior y226\u2013318 retains both arrangements and crosses matching narrow stem/leaf phases. Only the left band is extracted; the right band depicts essentially the same vine at a shifted source phase.",
+    "source_canvas": {
+      "width": 50,
+      "height": 92
+    },
+    "master_longest_dimension_cap": 92
   }
 ]

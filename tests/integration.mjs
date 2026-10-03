@@ -24,7 +24,9 @@ try {
     const packed = JSON.parse((await exec('npm', ['pack', '--json', '--pack-destination', folder], { cwd: root, maxBuffer: 3e6 })).stdout)[0];
     const allowed = /^(?:lib\/|svg\/|png\/|webp\/|docs\/INTEGRATION\.md$|ornaments\.css$|package\.json$|README\.md$|SELECTION\.md$|USAGE\.md$|LICENSE$|ASSET-RIGHTS\.md$)/;
     assert.ok(packed.files.every(file => allowed.test(file.path)), 'Unexpected packed file');
-    assert.equal(packed.files.filter(file => /^(svg|png|webp)\//.test(file.path)).length, 922);
+    const catalog = JSON.parse(await readFile(path.join(root, 'images.json')));
+    const expectedAssets = [...new Set(catalog.flatMap(item => [item, ...Object.values(item.components)].flatMap(component => [component, ...component.variants].flatMap(asset => ['svg', 'png', 'webp'].filter(format => asset[format]).map(format => asset[format])))))].sort();
+    assert.deepEqual(packed.files.filter(file => /^(svg|png|webp)\//.test(file.path)).map(file => file.path).sort(), expectedAssets);
     assert.ok(packed.files.find(file => file.path === 'lib/cli.js').mode & 0o111);
     records.push({ package: { bytes: packed.size, unpacked: packed.unpackedSize, files: packed.entryCount } });
     install = path.join(folder, packed.filename);
@@ -41,7 +43,7 @@ try {
   const bin = path.join(app, 'node_modules/.bin/medieval-ornaments');
   await exec(process.execPath, [bin, 'copy-assets', path.join(folder, 'local/ornaments')]);
   const copied = JSON.parse(await readFile(path.join(folder, 'local/ornaments/catalog.json')));
-  assert.equal(copied.length, 49);
+  assert.equal(copied.length, api.ornaments.length);
   await writeFile(path.join(folder, 'native.html'), `<!doctype html><html lang="en" data-assets-base="/local/ornaments/"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="stylesheet" href="/local/ornaments/ornaments.css"><script type="importmap">{"imports":{"@ranx729/medieval-ornaments":"/app/node_modules/@ranx729/medieval-ornaments/lib/index.js"}}</script><body><article id="frame" class="existing" style="color:red;--ornament-size:7px"><input id="note" value="Initial"></article><div id="divider"></div><img id="whole" alt="Original"><script type="module">import * as api from '@ranx729/medieval-ornaments';window.api=api;const assetsBase='/local/ornaments/';window.frame=api.createFrame(document.getElementById('frame'),{design:'red-berry-vine',size:33,assetsBase});window.divider=api.createDivider(document.getElementById('divider'),{design:'plate-02-stepped-ribbon',assetsBase});window.whole=api.createOrnamentImage(document.getElementById('whole'),{design:'floral-bird-panel-blue',size:128,assetsBase});document.body.dataset.ready='true';</script></body></html>`);
   // A vanilla bundled consumer under a nested deployment root.
   const vanilla = path.join(folder, 'vanilla');
@@ -218,7 +220,7 @@ try {
   assert.deepEqual(errors, [], 'Browser errors'); assert.deepEqual(failed, [], 'Missing assets');
   assert.ok(requests.filter(url => /\.(svg|png|webp)$/.test(url)).every(url => new URL(url).hostname === '127.0.0.1' && new URL(url).pathname.startsWith('/local/ornaments/')), 'Unexpected external image requests');
   await writeFile(path.join(root, 'tmp/package-integration.json'), JSON.stringify({ folder, records, errors, failed }, null, 2));
-  console.log(`PASS packaged consumers: 49 designs, 120 native axis/design cases, 32 density/length cases, vanilla native/bundled, React 18/19, development Strict Mode, production, SSR/hydration, refs/state, types, and self-hosting. Fixture: ${folder}`);
+  console.log(`PASS packaged consumers: ${api.ornaments.length} designs, ${api.findOrnaments({use: 'divider'}).length * 3} native axis/design cases, 32 density/length cases, vanilla native/bundled, React 18/19, development Strict Mode, production, SSR/hydration, refs/state, types, and self-hosting. Fixture: ${folder}`);
 } finally {
   ws?.close(); chrome?.kill(); await vite?.close(); await new Promise(resolve => server ? server.close(resolve) : resolve());
 }

@@ -20,6 +20,8 @@ MASTER_LIMIT=1024
 
 def selection(spec):
     """Describe the actual vector design, including its adapted corner."""
+    if spec.get('source_based'):
+        return {key:spec[key] for key in ('colors','subjects','categories')}
     import re
     labels=dict(ink='purple' if spec['reference']=='six-border-styles' else 'brown',
                 red='red',gold='gold',cream='cream',blue='blue',green='green',dark='black')
@@ -128,7 +130,8 @@ def build(names=None):
     raster=json.loads(raster_path.read_text()) if raster_path.exists() else []
     before={item['png']:hashlib.sha256((ROOT/item['png']).read_bytes()).hexdigest() for item in raster}
     selected=set(names or [])
-    known={item['name'] for item in old_catalog}
+    designs=list(specs())
+    known={item['name'] for item in [*raster,*designs]}
     assert selected<=known,'Unknown design name'
     catalog=[]
     reference_path=ROOT/'reference-crops.json'
@@ -146,28 +149,29 @@ def build(names=None):
                    variants=variants(image,item['name']),kind='standalone',repeat_axis='none',
                    derivation='ai-assisted-extraction',components={})
         catalog.append(entry)
-    for spec in specs():
+    for spec in designs:
         name=spec['name']
         if selected and name not in selected:
             catalog.append(next(old for old in old_catalog if old['name']==name));continue
         tile,corner,atlas=documents(spec)
         plate=spec['reference']=='numbered-ornament-plate'
+        sourced=plate or spec.get('source_based',False)
         native=None
-        if plate:
-            with Image.open(ROOT/f'sources/tiles/{name}.png') as source:native=source.copy()
+        if sourced:
+            with Image.open(ROOT/spec.get('tile_path',f'sources/tiles/{name}.png')) as source:native=source.copy()
             if spec['orientation']=='y':native=native.transpose(Image.Transpose.ROTATE_270)
         entry=dict(name=name,**vector_export(tile,name,native_source=native),
-                   description=(f"Source artwork from numbered plate design {spec['number']}, with an editable color trace. "+spec['repeat_note'] if plate else f"Editable vector border: {name.replace('-',' ')}. Matching adapted corner pieces."),
-                   **selection(spec),facing='unclear',
+                   description=(spec['description'] if spec.get('source_based') else f"Source artwork from numbered plate design {spec['number']}, with an editable color trace. "+spec['repeat_note'] if plate else f"Editable vector border: {name.replace('-',' ')}. Matching adapted corner pieces."),
+                   **selection(spec),facing=spec.get('facing','unclear'),
                    composition=spec.get('kind','repeat-tile'),kind=spec.get('kind','repeat-tile'),
                    repeat_axis='none' if spec.get('kind')=='standalone' else spec['orientation'],
-                   derivation='source-crop-and-color-trace' if plate else 'vector-reconstruction',
+                   derivation='source-crop-and-color-trace' if sourced else 'vector-reconstruction',
                    reference=spec['reference'],reference_design=spec['number'],components={})
         if atlas:
             length=spec.get('width',W);corner_size=spec.get('corner_size',B);size=length+2*corner_size
             step=size//gcd(size,corner_size)
             native_corner=native_frame=None
-            if plate:
+            if sourced:
                 from source_patterns import raster_documents
                 native_corner,native_frame=raster_documents(spec)
             entry['components']=dict(corner=vector_export(corner,name+'-corner',native_source=native_corner),
@@ -176,13 +180,15 @@ def build(names=None):
             entry['frame_edge_ratio']=length/corner_size
             entry['repeat_ratio']=length/corner_size
             entry['frame_fit']='round'
-            entry['corner_method']='source-derived-miter' if plate else 'adapted-motif'
+            entry['corner_method']='source-derived-miter' if sourced else 'adapted-motif'
             entry['components']['border_image']['slice_pixels']=round(corner_size/size*entry['components']['border_image']['width'])
             entry['components']['rotated_tile']=rotated_tile(entry)
-        if plate:
+        if sourced:
             entry['source_pattern']=spec['repeat_note']
             entry['source_canvas']={'width':native.width,'height':native.height}
             entry['master_longest_dimension_cap']=max(native.size)
+        if spec.get('source_based'):
+            entry['components']['reference_crop']=existing_export(dict(png=spec['reference_path']),name+'-reference')
         if name in references:
             entry['components']['reference_crop']=existing_export(references[name],name+'-reference')
         catalog.append(entry)
