@@ -1,6 +1,6 @@
 # npm package and integration plan
 
-Status: implementation approved by the user ("impl!"). Implemented and published as @ranx729/medieval-ornaments@0.1.0; automatic React styles for 0.2.0 are verified and release is underway. Packed and registry consumers, pinned CDN defaults, deployed examples, and the downloaded browser ZIP are verified. Keep this checklist current as each phase is completed. Record changes to the decisions here rather than silently diverging from them.
+Status: implementation approved by the user ("impl!"). Implemented and published as @ranx729/medieval-ornaments@0.2.0, including automatic React styles. Packed and registry consumers, pinned CDN defaults, deployed examples, and the downloaded browser ZIP are verified. Keep this checklist current as each phase is completed. Record changes to the decisions here rather than silently diverging from them.
 
 ## Goal and scope
 
@@ -181,6 +181,6 @@ The work is complete when another project can install the published package, ren
 
 ## Continuation notes
 
-React style-loading follow-up: implemented automatic CSS in `/react`, added `/react/unstyled`, and synchronized the example/snippet and documentation. Packed consumer checks, types, unit tests, artwork checks, Vite SSR and demo builds pass; the user-requested npm/GitHub release is in progress. Release 0.2.0 reflects the changed default React import contract; plain Node SSR consumers migrate to `/react/unstyled`.
+Last checkpoint (0.2.0): automatic CSS in `/react`, `/react/unstyled`, updated demo/snippet and documentation, and version-pinned metadata are complete. Unit/type checks, packed and fresh registry React 18/19 consumers, Node/Vite SSR, hydration, production tree shaking, artwork checks and demo builds pass. Published npm 0.2.0 as `latest`, pushed to GitHub, created release/tag v0.2.0, and verified the successful Pages deployment, live demos at 375/1200px, pinned CDN modules/images and downloaded browser ZIP. Artwork/source/shared CSS are unchanged. Plain Node SSR consumers migrate to `/react/unstyled`. All 473 existing live browser checks also pass. No follow-up implementation or release work remains.
 
 Previous release checkpoint (0.1.0): implementation, npm publication, Pages deployment, fresh registry consumer checks, actual pinned CDN assets/modules, live vanilla/React demos, downloaded self-hosted browser ZIP, and the existing 473 live browser checks all pass. Artwork/source/shared CSS are unchanged. No implementation work remains. The checkout now lives at /home/ranx729/projects/medieval-ornaments. Release v0.1.0 records this completed work. For future additions, follow docs/INTEGRATION.md and regenerate metadata/types after catalog changes.

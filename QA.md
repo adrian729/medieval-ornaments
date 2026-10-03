@@ -6,7 +6,7 @@ The default `/react` entry now imports the existing shared stylesheet. A product
 
 Pre-release checks pass: `npm test`, `npm run test:types`, packed React 18/19 consumers in production and React 19 development/Strict Mode, plain Node SSR, Vite SSR with automatic CSS, hydration, forwarded refs and retained inputs, native/bundled vanilla, local asset hosting, catalog/artwork checks, `git diff --check`, and `npm run build:browser`. Computed-style checks cover frame borders, divider pseudo-elements and whole-image sizing without an application CSS import. Reviewed the rendered React example. Artwork and `ornaments.css` are unchanged; the existing frame matrix remains applicable.
 
-Publication, fresh registry-consumer verification and live deployment checks are in progress.
+Published **@ranx729/medieval-ornaments@0.2.0** as npm `latest`; the tested archive contains **941 files / 52,286,453 unpacked bytes** (29,257,655 compressed bytes). A fresh registry install passes the complete consumer matrix, including styled Vite SSR and the single-component production CSS check. GitHub release/tag [v0.2.0](https://github.com/adrian729/medieval-ornaments/releases/tag/v0.2.0) is public, and Pages deployment [37110852625](https://github.com/adrian729/medieval-ornaments/actions/runs/37110852625) succeeded. Live vanilla/React demos pass at 375/1200px with original/forced axes, preserved sizing, decoded self-hosted images and the updated React snippet. The actual 0.2.0 CDN modules/images and downloaded browser ZIP pass. Reviewed the live mobile React rendering; all 473 existing live artwork-browser checks pass. `tests/site.mjs` now derives the CDN version from package metadata.
 
 ## npm integration verification (0.1.0)
 
