@@ -70,7 +70,7 @@ function renderBrowser(){
   $('designGrid').replaceChildren(...items.map(item=>{
     const button=document.createElement('button');button.type='button';button.className='design-card';button.dataset.design=item.name;
     const preview=$('purpose').value==='frame'?item.components.border_image:item;
-    const image=document.createElement('img');image.src=assetPath(preview,'webp',128);image.alt='';image.loading='lazy';
+    const image=document.createElement('img');image.src=assetPath(preview,'webp',240*(devicePixelRatio||1));image.alt='';image.loading='lazy';
     const title=document.createElement('strong');title.textContent=readable(item.name);
     const tags=document.createElement('small');tags.textContent=item.categories.join(' · ')+(item.repeat_axis==='none'?'':(' · '+(item.repeat_axis==='y'?'vertical':'horizontal')));
     button.append(image,title,tags);button.addEventListener('click',()=>{$('design').value=item.name;update()});return button;
@@ -121,7 +121,7 @@ function update(){
     const sections=Math.floor((axis==='y'?h:w)/(t*item.repeat_ratio));
     $('usage').textContent=(sections?sections+' complete section'+(sections===1?'':'s')+', centered in the available length. ':'No complete section fits; increase the length or reduce the thickness. ')+'Use the '+(axis===item.repeat_axis?'original':'rotated')+' tile with ornament-divider'+(axis==='y'?' and data-axis="y". This divider repeats vertically.':'. This divider repeats horizontally.');
   }else{
-    const displayH=fmt==='svg'?h:Math.min(h,item.height/dpr);$('standalone').src=assetPath(item,fmt,displayH*dpr);$('standalone').style.setProperty('--ornament-size',displayH+'px');$('standalone').style.transform=transform;
+    const displayH=fmt==='svg'?h:Math.min(h,item.height/dpr);$('standalone').src=assetPath(item,fmt,displayH*Math.max(1,item.width/item.height)*dpr);$('standalone').style.setProperty('--ornament-size',displayH+'px');$('standalone').style.transform=transform;
     $('usage').textContent='Use this complete image with ornament-image. Choose a smaller variant for a small display.';
   }
   $('description').textContent=item.description;$('tags').textContent=item.categories.join(' · ')+' | '+item.colors.join(', ');

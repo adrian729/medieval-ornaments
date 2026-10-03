@@ -32,7 +32,7 @@ import { OrnamentDivider, OrnamentFrame, OrnamentImage } from '@ranx729/medieval
 
 React includes the shared stylesheet automatically. Use `/react/unstyled` for plain Node SSR or centrally managed CSS; see the [React integration guide](docs/INTEGRATION.md#react).
 
-Only `design` is required. Dividers default to the chosen artwork's original direction; horizontal/vertical automatically choose matching assets. Geometry, formats, and smaller raster sizes come from the catalog. Import `findOrnaments({ use: 'frame', categories: ['floral'] })` to discover compatible designs. Version 0.3.0 supports 56 repeat designs and 14 whole decorations.
+Only `design` is required. Dividers default to the chosen artwork's original direction; horizontal/vertical automatically choose matching assets. Geometry, formats, and smaller raster sizes come from the catalog. Import `findOrnaments({ use: 'frame', categories: ['floral'] })` to discover compatible designs. Version 0.3.1 supports 56 repeat designs and 14 whole decorations.
 
 Images default to version-pinned CDN URLs and load only when selected. To self-host:
 

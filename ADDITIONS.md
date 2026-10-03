@@ -50,15 +50,23 @@ from their native master, without enlargement. Rotated raster masters are exact
 90-degree turns. Atlases use the same artwork's reflected miter corners and
 integer raster slice coordinates, with `round` fitting.
 
-SVG files are editable color traces, not original vectors or pixel-exact
+Most SVG files are editable color traces, not original vectors or pixel-exact
 reproductions. Contour fitting uses Python 3.12/VTracer 0.6.15, neighboring repeat
 context and four-times sampling only for vector fitting. Rare colors and fine
-negative spaces were inspected; digital red berries/blue bellflowers needed
-palette corrections. Invisible neighboring paths are conservatively pruned;
+negative spaces were inspected; digital red berries needed palette corrections.
+Invisible neighboring paths are conservatively pruned;
 crossing curves remain. Native-scale rendering before/after pruning was
-pixel-identical for the ten blue/digital traces. Rich floral traces are large; the inspected unreleased archive is about 182MB
+pixel-identical for the ten blue/digital traces. Rich floral traces are large; the published 0.3.0 archive is about 182MB
 compressed/425MB unpacked. Browsers fetch selected assets, not the whole archive.
 PNG/WebP are preferable for the native source appearance and small previews.
+
+The gold bellflower decoration uses smooth source-fitted cubic contours,
+individually drawn stems/veins and blue-to-white petal gradients. This removes
+the palette trace's paper speckles and stepped color bands. Native PNG/WebP and
+the reference crop remain unchanged. Its distinct end caps make it a complete
+decoration; repeating it would invent a join absent from the supplied artwork.
+The audit's `vector_method` preserves this editable master during optional
+retracing.
 
 Ordinary artwork builds read checked-in traces and do not run VTracer. To rebuild
 only one integrated design:

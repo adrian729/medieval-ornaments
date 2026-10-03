@@ -627,26 +627,9 @@
     "tile_path": "sources/tiles/gold-scroll-with-blue-bellflowers.png",
     "trace_path": "sources/traces/gold-scroll-with-blue-bellflowers.svg",
     "reference_path": "png/gold-scroll-with-blue-bellflowers-reference.png",
-    "trace_method": "VTracer0.6.15/Python3.12; three neighboring units for repeats, one for whole decorations;4\u00d7 BICUBIC contour-fitting input; original tile Gaussian blur0.15px for 64-color palette (MAXCOVERAGE); scaled input Gaussian blur0.3px; quantization without dither; spline, speckle4, color_precision8, layer_difference8, length_threshold3, path_precision3. Native PNG remains unchanged except documented two-pixel repeat join adjustment.",
-    "trace_options": {
-      "colors": 64,
-      "quantize_method": 1,
-      "quantize_method_name": "MAXCOVERAGE",
-      "palette_blur": 0.15,
-      "scaled_blur": 0.3,
-      "supersample": 4,
-      "resample": "BICUBIC",
-      "dither": "NONE",
-      "neighbors": 1,
-      "filter_speckle": 4,
-      "color_precision": 8,
-      "layer_difference": 8,
-      "mode": "spline",
-      "length_threshold": 3,
-      "path_precision": 3,
-      "retain_context_paths": false
-    },
-    "source_sha256": "92f15fa1d1910d6d94b5c1539b6952c0ae6ace6beeaebefdcbcba0fc8930b4f3"
+    "trace_method": "Native 516\u00d7107 source inspected at native and enlarged scales. Structural gold/black contours isolated, texture patches discarded, mildly smoothed and fitted to cubic B\u00e9zier spans. Veins/stems and 14 individual petal lobes drawn as cubic paths; source-positioned linear gradients and one elliptical radial gradient retain blue tips/underside with pale inner folds. Sampled gold #b9a165. Original top rule, both distinct end caps, five unique flower placements and direction retained. White paper/compression speckles omitted in SVG only. Smooth editable approximation, not recovered original vectors or pixel-exact artwork; native PNG/WebP and reference remain unchanged.",
+    "source_sha256": "92f15fa1d1910d6d94b5c1539b6952c0ae6ace6beeaebefdcbcba0fc8930b4f3",
+    "vector_method": "source-fitted-cubic"
   },
   {
     "name": "painted-symmetric-leaf-and-flower-panel",

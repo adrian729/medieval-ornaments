@@ -1,5 +1,43 @@
 # Artwork and frame verification
 
+## Whole-decoration quality patch 0.3.1 (2026-10-03)
+
+The design browser selected wide whole decorations using only displayed height,
+although variant limits measure the longest edge. The released bellflower preview
+loaded a **128×27** PNG for about **507×107 CSS pixels** at density 1. Corrected
+selection includes aspect ratio and loads the **516×107 native master**. This
+applies to every whole decoration; thumbnails also account for screen density.
+The shared vanilla/React resolver already included aspect ratio.
+
+The existing 128/256/512/768px variants follow the same master-first downsampling
+approach as `medieval-cutouts`. No source raster enlargement or new size scheme
+is needed. The gold decoration's native raster pixels are identical to its
+supplied digital strip; the preview selection caused the visible enlargement.
+
+Added browser checks cover all **14 whole decorations × PNG/WebP × densities
+1/1.25/2**, verifying both source dimensions against the actual rendered image.
+These pass locally alongside the existing checks (**740 total**). `npm test`
+and `npm run test:types` also pass for 0.3.1.
+
+The bellflower SVG now uses cubic contours fitted to the source silhouette,
+explicit veins/stems and 14 individual flower lobes with linear/radial gradients.
+All five placements, both distinct caps and the top rule remain. White paper
+speckles and gold color noise are omitted in the SVG; native PNG/WebP and
+reference files are byte-for-byte unchanged (16 files checked). The SVG is a
+smooth approximation, not a recovery of the original vectors. Native/enlarged
+source comparisons and the generated SVG were visually inspected. Named
+optional retracing preserves the fitted master.
+
+Catalog validation passes **70 designs / 233 genuine SVGs / 1383 assets**.
+Artwork checks retain **400 exact source-frame joins / 102 integer-sliced
+atlases / 56 pixel-exact rotated masters**. The original 49 artwork designs
+remain unchanged. Packed consumers pass **70 designs / 168 native axis/design
+cases / 32 density/length cases**, including vanilla, React 18/19, SSR/hydration,
+Strict Mode, refs/state, public types and self-hosting. The tested archive has
+**1402 files / 180,470,936 compressed bytes / 420,312,053 unpacked bytes**; its
+bellflower SVG and native PNG match the reviewed files. Browser ZIP/React builds
+also pass. Final publication and deployed-site verification are in progress.
+
 ## Source additions release 0.3.0 (2026-10-03)
 
 The published release contains **70 designs: 56 repeats and 14 whole decorations**.

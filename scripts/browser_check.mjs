@@ -29,6 +29,17 @@ for(const item of catalog){
     assert(result.frameVisible===(item.kind==='repeat-tile')&&result.standaloneVisible===(item.kind==='standalone'),'Visibility failed '+item.name);
     checks++;
   }
+  if(item.kind==='standalone'){
+    for(const density of [1,1.25,2]){
+      await send('Emulation.setDeviceMetricsOverride',{width:1200,height:1000,deviceScaleFactor:density,mobile:false});
+      for(const format of ['png','webp']){
+        await choose('format',format);
+        const result=await evaluate(`(async()=>{const image=document.getElementById('standalone');await image.decode();const box=image.getBoundingClientRect();return {path:image.currentSrc,nativeWidth:image.naturalWidth,nativeHeight:image.naturalHeight,displayWidth:box.width,displayHeight:box.height,density:devicePixelRatio}})()`);
+        assert(result.nativeWidth+1>=result.displayWidth*density&&result.nativeHeight+1>=result.displayHeight*density,'Whole preview enlarges an undersized raster '+item.name+' '+JSON.stringify(result));checks++;
+      }
+    }
+    await send('Emulation.setDeviceMetricsOverride',{width:1200,height:1000,deviceScaleFactor:1,mobile:false});
+  }
   if(item.kind==='repeat-tile'){
   // A resized slot must add a whole section only once it fits, on both axes.
   const fitting=await evaluate(`(()=>{const ratio=${item.repeat_ratio},period=33*ratio,failures=[];for(const axis of ['x','y'])for(const count of [1,3])for(const delta of [-.5,0,.5])for(const responsive of [false,true]){const length=count*period+delta,parent=document.createElement('div'),el=document.createElement('div');parent.style.cssText='position:absolute;width:'+length+'px;height:'+length+'px';el.className='ornament-divider';el.dataset.axis=axis;el.style.cssText='--ornament-size:33px;--ornament-ratio:'+ratio+';--ornament-length:'+(responsive?'100%':length+'px');parent.append(el);document.body.append(parent);const box=el.getBoundingClientRect(),style=getComputedStyle(el,'::before'),available=box[axis==='x'?'width':'height'],used=parseFloat(style[axis==='x'?'width':'height']),inset=parseFloat(style[axis==='x'?'left':'top'])+new DOMMatrix(style.transform)[axis==='x'?'m41':'m42'],expected=Math.floor((available+1e-7)/period)*period;const conservativeBoundary=Math.abs(available-expected)<.025&&Math.abs(used-(expected-period))<.025;if((Math.abs(used-expected)>.025&&!conservativeBoundary)||Math.abs(inset-(available-used)/2)>.025)failures.push({axis,length,available,used,expected,inset,responsive});parent.remove()}return failures})()`);

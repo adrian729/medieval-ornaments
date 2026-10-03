@@ -176,9 +176,17 @@ and a selected asset without modifying the DOM.
 
 ## Image sizes and formats
 
+PNG/WebP files are generated ahead of time, not when a component requests a
+size. Available smaller variants have longest-edge limits of 128, 256, 512 and
+768px, plus the native master. Limits at or above the master size are skipped.
+Each smaller image is resized directly from its master; PNG and WebP pairs are
+lossless equivalents.
+
 Raster selection uses actual catalog dimensions and the target size times
 `pixelRatio`, not guessed folder names. For frames, the atlas slice determines
-the required source resolution; for dividers, the repeat ratio does. The
+the required source resolution; for dividers, the repeat ratio does. For whole
+images, `size` is the displayed height, so wide artwork also accounts for its
+width-to-height ratio. The
 smallest sufficient variant is selected. If the master is too small, it is used
 and `configuration.asset.resolutionLimited` is true. Displaying larger artwork
 does not create additional detail; no enlarged raster exports are generated.
@@ -198,7 +206,7 @@ SVG. Requesting an unsupported format or use throws a useful error.
 By default, image URLs use the exact installed package version:
 
 ```text
-https://unpkg.com/@ranx729/medieval-ornaments@0.3.0/
+https://unpkg.com/@ranx729/medieval-ornaments@0.3.1/
 ```
 
 UNPKG replaces the previous jsDelivr default because the detailed color traces exceed jsDelivr's [150 MB package limit](https://www.jsdelivr.com/documentation). URLs remain pinned to the installed version.

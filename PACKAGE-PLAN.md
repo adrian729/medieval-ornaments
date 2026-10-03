@@ -1,6 +1,6 @@
 # npm package and integration plan
 
-Status: @ranx729/medieval-ornaments@0.3.0 is published as npm latest, committed/pushed and released as v0.3.0. All 70 designs, fresh registry consumers, version-pinned UNPKG defaults, deployed demos and the downloaded browser ZIP are verified. Original 49 artwork entries remain unchanged. The temporary additions page is removed and watermarked candidates are excluded. No release work remains.
+Status: @ranx729/medieval-ornaments@0.3.0 is published. A quality patch is in progress: correct whole-decoration preview resolution and replace the bellflower SVG's noisy color trace with source-fitted curves and gradients. The collection retains 70 designs, with the original 49 artwork entries unchanged. The temporary additions page is removed and watermarked candidates are excluded.
 
 ## Goal and scope
 
@@ -209,3 +209,14 @@ Release checklist:
 - [x] Create public v0.3.0 release/tag and record final evidence in QA.md.
 
 Final verification: registry integrity matches the exact tested archive; fresh registry consumers pass 70 designs/168 native cases/32 density cases. Pinned UNPKG returns version 0.3.0 and all eight checked asset configurations decode. Live examples pass at 375/1200px, including new stencil/russet designs and the whole painted middle panel. The downloaded browser ZIP works with local assets. See QA.md for measured package sizes and source limitations.
+
+## Whole-decoration quality patch 0.3.1
+
+- [x] Confirm pre-generated raster variants match the cutout collection's size scheme.
+- [x] Fix whole-image browser selection to account for aspect ratio and density.
+- [x] Check all 14 whole designs in PNG/WebP at densities 1, 1.25 and 2.
+- [x] Bump package/lockfile and regenerate metadata for 0.3.1.
+- [x] Replace the noisy bellflower SVG with faithful smooth contours and petal gradients; preserve native raster and reference files.
+- [x] Validate artwork/catalog, packed consumers and the browser ZIP.
+- [ ] Commit/push, publish the tested package and create the patch release.
+- [ ] Verify fresh registry consumers, pinned CDN artwork and deployed demos; record final evidence.

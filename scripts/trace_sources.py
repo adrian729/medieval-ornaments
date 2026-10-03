@@ -40,6 +40,13 @@ def run(names=None):
     tile_dir.mkdir(parents=True,exist_ok=True);trace_dir.mkdir(parents=True,exist_ok=True)
     for name,item in audit.items():
         if names and name not in names:continue
+        if item.get('vector_method')=='source-fitted-cubic':
+            # These editable curves and gradients were fitted to the source
+            # structure. A palette retrace would replace them with color noise.
+            trace=ROOT/item['trace_path']
+            ET.parse(trace)
+            print(name,'preserved source-fitted cubic master',flush=True)
+            continue
         source=Image.open(ROOT/item.get('source_path','sources/numbered-ornament-plate.png')).convert('RGB')
         image=source.crop(item['source_bounds'])
         if item['orientation']=='y':image=image.transpose(Image.Transpose.ROTATE_90)

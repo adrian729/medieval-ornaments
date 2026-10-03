@@ -91,7 +91,7 @@ The 21 source additions are audited in `additional-patterns.json`; native PNG/We
 
 ## Raster size selection
 
-Choose listed variants by actual width/height and the display size times pixel density; do not guess filenames. Every smaller export comes directly from its master. Source pixels are never exported enlarged.
+PNG/WebP variants are generated ahead of time at 128, 256, 512 and 768px longest-edge limits, skipping limits at or above the native master size. Requesting a size selects an existing file; it does not generate an image at runtime. Choose listed variants by actual width/height and the display size times pixel density; do not guess filenames. Wide whole decorations require the displayed width as well as height. Every smaller export comes directly from its master. Source pixels are never exported enlarged.
 
 Size folders are upper bounds. Frame variants use dimensions that keep slice boundaries on integer pixels, so a `128/` atlas might be 126px and some smaller atlas sizes are absent. Native plate assets are already small. SVG can scale its traced shapes, but does not recover missing source detail.
 
