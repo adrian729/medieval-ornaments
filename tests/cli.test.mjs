@@ -71,3 +71,36 @@ test('offline mode refuses network sources and external destination symlinks', a
   assert.deepEqual(await readdir(outside), []);
   await assert.rejects(copyAssets(['copy-assets', root.pathname, '--from', root.pathname, '--offline']), /outside the package directory/);
 });
+
+test('split archives support nested dependencies and illustration-only offline installs', async t => {
+  const { execFile } = await import('node:child_process');
+  const { promisify } = await import('node:util');
+  const exec = promisify(execFile);
+  const { assetsPackage, assetsVersion, illustrationsPackage, illustrationsVersion } = await import('../lib/runtime.js');
+  const app = await mkdtemp(path.join(tmpdir(), 'ornaments-split-offline-'));
+  t.after(()=>rm(app,{recursive:true,force:true}));
+  await writeFile(path.join(app,'package.json'),'{}');
+  const main=path.join(app,'node_modules',assetsPackage);
+  const nested=path.join(main,'node_modules',illustrationsPackage);
+  const pig=getOrnament('flying-pig');
+  const pigPaths=[pig,...pig.variants].map(asset=>asset.webp);
+  async function packageFixture(directory,name,version,paths){
+    await mkdir(directory,{recursive:true});
+    await writeFile(path.join(directory,'package.json'),JSON.stringify({name,version,exports:{'./package.json':'./package.json'}}));
+    for(const relative of ['assets-manifest.json',...paths]){
+      await mkdir(path.dirname(path.join(directory,relative)),{recursive:true});
+      await writeFile(path.join(directory,relative),await readFile(new URL(relative,root)));
+    }
+  }
+  await packageFixture(main,assetsPackage,assetsVersion,svgPaths);
+  await packageFixture(nested,illustrationsPackage,illustrationsVersion,pigPaths);
+  const out=path.join(app,'selected');
+  await exec(process.execPath,[new URL('../lib/cli.js',import.meta.url).pathname,'add',item.name,pig.name,'--framework','vanilla','--out',path.join(app,'components'),'--assets',out,'--offline'],{cwd:app});
+  for(const relative of [...svgPaths,...pigPaths])assert.deepEqual(await readFile(path.join(out,relative)),await readFile(new URL(relative,root)));
+  const { cp } = await import('node:fs/promises');
+  await cp(nested,path.join(app,'node_modules',illustrationsPackage),{recursive:true});
+  await rm(main,{recursive:true,force:true});
+  await exec(process.execPath,[new URL('../lib/cli.js',import.meta.url).pathname,'copy-assets',path.join(app,'pig-only'),'--design',pig.name,'--format','webp','--offline'],{cwd:app});
+  await assert.rejects(exec(process.execPath,[new URL('../lib/cli.js',import.meta.url).pathname,'copy-assets',path.join(app,'border-missing'),'--design',item.name,'--offline'],{cwd:app}),/Offline artwork not found/);
+  await assert.rejects(readFile(path.join(app,'border-missing','catalog.json')),{code:'ENOENT'});
+});

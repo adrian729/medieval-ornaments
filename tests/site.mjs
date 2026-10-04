@@ -9,7 +9,7 @@ import { promisify } from 'node:util';
 import path from 'node:path';
 const exec = promisify(execFile);
 const root = new URL('../', import.meta.url);
-const { version, ornamentAssets } = JSON.parse(await readFile(new URL('package.json', root), 'utf8'));
+const { version, ornamentAssets, ornamentIllustrations } = JSON.parse(await readFile(new URL('package.json', root), 'utf8'));
 const origin = (process.argv[2] || 'https://adrian729.github.io/medieval-ornaments').replace(/\/$/, '');
 const tabs = await (await fetch('http://127.0.0.1:9227/json')).json();
 const ws = new WebSocket(tabs.find(tab => tab.type === 'page').webSocketDebuggerUrl);
@@ -73,7 +73,8 @@ try {
   assert.equal(cdn.version, version); assert.equal(cdn.count, (await (await fetch(origin + '/images.json')).json()).length);
   assert.equal(cdn.assetsPackage, ornamentAssets.package);
   assert.equal(cdn.assetsVersion, ornamentAssets.version);
-  assert.ok(cdn.assets.every(asset => asset.url.startsWith(`https://unpkg.com/${ornamentAssets.package}@${ornamentAssets.version}/`)));
+  assert.ok(cdn.assets.every(asset => asset.url.startsWith(`https://unpkg.com/${ornamentAssets.package}@${ornamentAssets.version}/`) || asset.url.startsWith(`https://unpkg.com/${ornamentIllustrations.package}@${ornamentIllustrations.version}/`)));
+  assert.ok(cdn.assets.slice(-3).every(asset=>asset.url.startsWith(`https://unpkg.com/${ornamentIllustrations.package}@${ornamentIllustrations.version}/`)));
   records.push({ cdn });
   const folder = await mkdtemp(path.join(tmpdir(), 'ornaments-browser-release-'));
   const response = await fetch(origin + '/medieval-ornaments-browser.zip'); assert.equal(response.status, 200);

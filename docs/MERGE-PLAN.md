@@ -64,3 +64,16 @@ as illustrations rather than being presented as repeating borders.
    Publish only verified artifacts in companion-before-runtime order if releasing.
 
 Implementation and validation status are recorded in PACKAGE-PLAN.md and QA.md.
+
+## Registry payload adjustment
+
+The verified unified 340,776,285 B archive was rejected by npm with HTTP 413
+before publication. Preserve all artwork bytes and the single repo/runtime by
+splitting the optional distribution: the existing border/decoration archive
+retains direct imports and pins the separate 406-file illustration archive.
+The full optional install still supplies all 111 designs; illustrations alone
+need only their archive. Both contain the same approved unified manifest, whose
+illustration file records identify their owning package. Resolver defaults and
+CLI discovery route by family; explicit local/HTTP flat mirrors remain supported.
+No artwork dependency is added to the runtime. Publish illustrations, full
+artwork companion, runtime, in that order, with exact archive/integrity checks.

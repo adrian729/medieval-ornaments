@@ -281,13 +281,17 @@ SVG. Requesting an unsupported format or use throws a useful error.
 The runtime pins an independent artwork revision. Runtime 0.6.0 uses:
 
 ```text
-https://unpkg.com/@ranx729/medieval-ornaments-assets@0.4.0/
+https://unpkg.com/@ranx729/medieval-ornaments-assets@0.4.0/                # borders/decorations
+https://unpkg.com/@ranx729/medieval-ornaments-illustration-assets@0.1.0/    # illustrations
 ```
 
 Runtimes 0.4.0 and 0.5.0 retain their original artwork pin at 0.3.2.
 
 The public exports `assetsPackage`, `assetsVersion` and `defaultAssetsBase`
-identify this pin. Code-only releases can retain it. URLs never follow `latest`
+identify the border/decoration pin. `illustrationsPackage`, `illustrationsVersion`
+and `defaultIllustrationsBase` identify the illustration pin. The resolver picks
+the correct source automatically; an explicit `assetsBase` overrides both for
+a flat self-hosted collection. Code-only releases can retain these pins. URLs never follow `latest`
 or the repository branch. UNPKG hosts the detailed traces; their archive exceeds
 jsDelivr's [150 MB package limit](https://www.jsdelivr.com/documentation).
 
@@ -360,7 +364,7 @@ previously the artwork was included in every runtime installation. Versions
 
 Download the [browser ZIP](https://adrian729.github.io/medieval-ornaments/medieval-ornaments-browser.zip)
 and serve it over HTTP. It includes a self-hosted vanilla example. Or copy the
-runtime's `lib/` and `ornaments.css`, plus the companion's artwork folders, to your static site:
+runtime's `lib/` and `ornaments.css`, plus artwork copied with `copy-assets --offline`, to your static site:
 
 ```html
 <link rel="stylesheet" href="/vendor/ornaments/ornaments.css">
@@ -405,27 +409,36 @@ copying. They exercise Chromium (`CHROME_BIN` overrides the executable) and real
 React 18/19 consumers. See QA.md for recorded coverage and limitations.
 
 For a code-only release, bump the root package/lockfile version, retain
-`ornamentAssets.version`, run the checks, and publish the tested runtime archive.
+`ornamentAssets.version` and `ornamentIllustrations.version`, run the checks, and publish the tested runtime archive.
 `prepack` builds metadata only; it never renders, copies or downloads artwork.
 
 For an artwork/catalog change, audit and regenerate only the approved designs,
-bump `packages/assets/package.json` and root `ornamentAssets.version` together,
+bump both artwork package versions and their root pins together (their shared
+manifest changes even when only one family changes),
 then run:
 
 ```sh
 npm run build:assets -- --update-manifest
 npm run build
 # Run all release checks, including packed consumers and artwork/browser QA.
-# The companion is staged here; pack and publish its tested archive first:
+# First pack/publish the tested illustration archive (its own version/pin):
+cd dist/medieval-ornaments-illustration-assets
+npm pack
+cd ../..
+# Then pack/publish the full artwork companion, before the runtime:
 cd dist/medieval-ornaments-assets
 npm pack
 ```
 
 `build:assets` without `--update-manifest` verifies all files against the
 checked-in manifest and stages approved existing bytes. It rejects artwork
-changes under an unchanged asset version. Publish the companion before a runtime
+changes under an unchanged asset version. The two archives share a unified
+manifest, with each illustration file recording its owning package. Bump
+`packages/illustration-assets/package.json`, root `ornamentIllustrations.version`
+and the full companion's exact dependency whenever the shared manifest changes. Publish
+the illustration archive before the full companion, then the runtime
 that pins it; verify actual CDN availability and checksums before releasing the
 runtime. Source sheets and tracing tools stay outside both npm distributions.
 Post-publication integration accepts `ORNAMENTS_PACKAGE` and
-`ORNAMENTS_ASSETS_PACKAGE` registry specs. Keep the complete browser ZIP and Pages
+`ORNAMENTS_ASSETS_PACKAGE` and `ORNAMENTS_ILLUSTRATIONS_PACKAGE` registry specs. Keep the complete browser ZIP and Pages
 self-hosted examples built and verified as part of the release.

@@ -100,6 +100,8 @@ Since 0.4.0, default images use `https://unpkg.com/@ranx729/medieval-ornaments-a
 
 The runtime includes core/React APIs, CSS, types, catalog, notices and integration documentation. It contains no artwork files or asset dependency. React remains an optional peer. `/react` imports CSS automatically and `/react/unstyled` supports ordinary Node SSR; preserve their side-effect metadata.
 
+The optional full companion pins `@ranx729/medieval-ornaments-illustration-assets` as an exact dependency; its own archive contains borders/decorations, while the dependency contains illustration PNG/WebP. Illustrations can be installed alone. The runtime remains dependency-free and routes default URLs by asset type; an explicit assetsBase overrides both. Both archives carry the same unified checksum manifest, so a catalog/artwork change requires both archive versions and root pins to advance. Stage a flat mirror for local tests; npm archives split file allowlists and each compressed upload must stay below 200 MB.
+
 The optional companion exports `/catalog.json`, `/assets-manifest.json`, `/svg/*`, `/png/*`, `/webp/*` and `/package.json`. Direct image imports migrate from the runtime to this companion in 0.4.0. It preserves every approved asset byte and the separate rights notices.
 
 `copy-assets <destination>` discovers the matching optional companion or downloads only selected files from the pinned CDN. Keep design/format filters, components/variants, filtered catalog, CSS and rights notices. Verify the trusted manifest and each asset; stream four files concurrently with bounded memory. `--offline` forbids network access; `--from` supports approved local/HTTP mirrors. Preserve unrelated files, reject package/source overlap and external destination symlinks, and remove failed temporary files. No install-time download hooks.
@@ -305,10 +307,11 @@ The asset package remains independently pinned and optional.
 - [x] Import 41 illustrations, variants, source records and descriptive metadata with an auditable byte inventory.
 - [x] Make full/selected border builds retain illustrations; provide a selected illustration resize command.
 - [x] Add type, transparency and usage metadata; improve generic ornament descriptions and preserve all cutout fields.
-- [x] Extend selection/types/schema and introduce scoped catalogs without changing rendering cores/CSS.
+- [x] Extend selection/types/schema and introduce scoped catalogs while preserving rendering geometry/CSS.
 - [x] Cover illustrations in selective imports, local installation, permanent demos and metadata filters.
 - [x] Verify unit/types, actual packed consumers, lossless pairs/source preservation and all 1,074 local browser checks.
 - [x] Measure selected/scoped bundles, real size selection and cold-cache eager/lazy behavior.
-- [x] Verify companion/runtime candidates and the 935.8 MB assembled deployment; final tested runtime archive is recorded in QA.md.
+- [x] Split optional artwork archives after npm rejected the unified payload; retain all bytes and full/illustration-only offline installs.
+- [x] Verify packed companions/runtime and assembled deployment; final archives are recorded in QA.md.
 - [ ] Commit/publish companion before runtime, then verify fresh registry/CDN consumers.
 - [ ] Verify deployed examples/ZIP and live gallery; tag/release and record final results.

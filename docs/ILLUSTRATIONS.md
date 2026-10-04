@@ -73,8 +73,27 @@ import { OrnamentImage as FlyingPig } from './ornaments/flying-pig.js';
 Package imports use the independently version-pinned artwork CDN. For self-hosted
 images, pass `assetsBase: '/ornaments/'`; the installer sets this default in copied
 modules. Offline/mirror installs, edits, incremental additions and upgrades use
-the existing [selective installer contract](SELECTIVE.md). The complete archive
+the existing [selective installer contract](SELECTIVE.md). The complete artwork
 remains optional; adding illustrations does not make it a runtime dependency.
+
+For illustration-only offline copying, install the data-only archive:
+
+```sh
+npm install --save-dev @ranx729/medieval-ornaments-illustration-assets@0.1.0
+npx medieval-ornaments copy-assets public/ornaments --design flying-pig --offline
+```
+
+Its 406 PNG/WebP masters and variants are separate from the border/decoration
+archive, so illustration-only projects need not install borders. The full
+`@ranx729/medieval-ornaments-assets@0.4.0` install includes both through a pinned
+dependency. Direct image imports use the illustration package:
+
+```js
+import pigUrl from '@ranx729/medieval-ornaments-illustration-assets/webp/256/flying-pig.webp?url';
+```
+
+The `?url` suffix is Vite-specific; other bundlers can use their image import
+convention. These data packages have no runtime code or image generation hooks.
 
 ## Help an agent choose
 

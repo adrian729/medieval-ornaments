@@ -8,11 +8,14 @@ const items = await assetCatalog(),catalog=catalogBytes(items);
 const manifestBytes=await readFile(new URL('assets-manifest.json',root)),manifest=JSON.parse(manifestBytes);
 const hash=bytes=>createHash('sha256').update(bytes).digest('hex');
 if(manifest.package!==pkg.ornamentAssets.package||manifest.version!==pkg.ornamentAssets.version||manifest.catalogSha256!==hash(catalog))throw Error('Pinned artwork manifest does not match the runtime catalog/package.');
+const illustrationPin=pkg.ornamentIllustrations;
+if(manifest.illustrations?.package!==illustrationPin.package||manifest.illustrations?.version!==illustrationPin.version)throw Error('Pinned illustration manifest does not match runtime package.');
 const base = `https://unpkg.com/${manifest.package}@${manifest.version}/`;
+const illustrationBase=`https://unpkg.com/${illustrationPin.package}@${illustrationPin.version}/`;
 // Preserve the JSON API without duplicating indentation in the installed package.
 // The signed artwork catalog retains its original deterministic serialization.
 await writeFile(new URL('lib/catalog.json', root), JSON.stringify(items) + '\n');
-await writeFile(new URL('lib/runtime.js', root), `// Generated release pins; contains no design catalog.\nexport const version = ${JSON.stringify(pkg.version)};\nexport const assetsPackage = ${JSON.stringify(manifest.package)};\nexport const assetsVersion = ${JSON.stringify(manifest.version)};\nexport const assetsManifestSha256 = ${JSON.stringify(hash(manifestBytes))};\nexport const defaultAssetsBase = ${JSON.stringify(base)};\n`);
+await writeFile(new URL('lib/runtime.js', root), `// Generated release pins; contains no design catalog.\nexport const version = ${JSON.stringify(pkg.version)};\nexport const assetsPackage = ${JSON.stringify(manifest.package)};\nexport const assetsVersion = ${JSON.stringify(manifest.version)};\nexport const assetsManifestSha256 = ${JSON.stringify(hash(manifestBytes))};\nexport const defaultAssetsBase = ${JSON.stringify(base)};\nexport const illustrationsPackage = ${JSON.stringify(illustrationPin.package)};\nexport const illustrationsVersion = ${JSON.stringify(illustrationPin.version)};\nexport const defaultIllustrationsBase = ${JSON.stringify(illustrationBase)};\n`);
 for (const directory of ['design-data', 'designs', 'react-designs']) await mkdir(new URL(`lib/${directory}/`, root), { recursive: true });
 for (const directory of ['design-data', 'designs', 'react-designs']) {
   const expected = new Set(items.flatMap(item => directory === 'design-data' ? [`${item.name}.js`] : directory === 'designs' ? [`${item.name}.js`, `${item.name}.d.ts`] : [`${item.name}.js`, `${item.name}.d.ts`, `${item.name}-styled.js`]));
@@ -29,7 +32,7 @@ for (const item of items) {
   };
   for (const [file, contents] of Object.entries(files)) await writeFile(new URL(`lib/${file}`, root), contents);
 }
-await writeFile(new URL('lib/catalog.js', root), `// Generated aggregate; use per-design imports for selective bundles.\nexport { version, assetsPackage, assetsVersion, assetsManifestSha256, defaultAssetsBase } from './runtime.js';\n${items.map((item, i) => `import { ornament as item${i} } from './design-data/${item.name}.js';`).join('\n')}\nexport const ornaments = Object.freeze([${items.map((_, i) => `item${i}`).join(', ')}]);\n`);
+await writeFile(new URL('lib/catalog.js', root), `// Generated aggregate; use per-design imports for selective bundles.\nexport { version, assetsPackage, assetsVersion, assetsManifestSha256, defaultAssetsBase, illustrationsPackage, illustrationsVersion, defaultIllustrationsBase } from './runtime.js';\n${items.map((item, i) => `import { ornament as item${i} } from './design-data/${item.name}.js';`).join('\n')}\nexport const ornaments = Object.freeze([${items.map((_, i) => `item${i}`).join(', ')}]);\n`);
 const union = values => values.map(value => JSON.stringify(value)).join(' | ');
 const names = items.map(item => item.name);
 const repeats = items.filter(item => item.kind === 'repeat-tile').map(item => item.name);
@@ -105,6 +108,9 @@ export declare const version: string;
 export declare const assetsPackage: string;
 export declare const assetsVersion: string;
 export declare const defaultAssetsBase: string;
+export declare const illustrationsPackage: string;
+export declare const illustrationsVersion: string;
+export declare const defaultIllustrationsBase: string;
 export declare const ornaments: readonly Ornament[];
 export declare function getOrnament(name: RepeatDesignName): RepeatOrnament;
 export declare function getOrnament(name: WholeDesignName): WholeOrnament;

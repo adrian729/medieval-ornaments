@@ -1,6 +1,6 @@
 # Medieval ornament assets
 
-This optional package contains the complete approved SVG, PNG and lossless WebP
+This optional install provides the complete approved SVG, PNG and lossless WebP
 collection for [`@ranx729/medieval-ornaments`](https://www.npmjs.com/package/@ranx729/medieval-ornaments).
 Artwork revision **0.4.0** contains 111 designs and 1789 asset files: 56 borders, 14 whole decorations and 41 illustrations. The original 70 designs retain their artwork bytes.
 Artwork rights are separate from integration software: read ASSET-RIGHTS.md.
@@ -21,12 +21,17 @@ npm install --save-dev @ranx729/medieval-ornaments-assets@0.4.0
 npx medieval-ornaments copy-assets public/ornaments --offline
 ```
 
-The archive is approximately 341 MB compressed / 581 MB unpacked. Installing it
-is optional. The runtime is not a dependency of this data-only package, and this
-package is not a dependency of the runtime. Direct bundler imports move here:
+The complete optional install is approximately 341 MB compressed / 581 MB unpacked,
+split between this border/decoration archive and its pinned illustration dependency.
+The split keeps each npm upload below the registry's payload limit. Installing it is optional.
+Illustrations can also be installed independently, without the borders archive.
+The runtime is not a dependency of either data package; neither is a dependency
+of the runtime. Existing border/decoration bundler imports remain here; illustration imports use
+`@ranx729/medieval-ornaments-illustration-assets`:
 
 ```js
 import bird from '@ranx729/medieval-ornaments-assets/webp/128/floral-bird-panel-blue.webp';
+import pig from '@ranx729/medieval-ornaments-illustration-assets/webp/256/flying-pig.webp';
 ```
 
 `catalog.json` retains components, actual dimensions, variants and capabilities;

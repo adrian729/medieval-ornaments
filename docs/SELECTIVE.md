@@ -13,7 +13,11 @@ illustrations. See [illustration and agent selection guidance](ILLUSTRATIONS.md)
 
 The small runtime npm package contains all individual modules. npm installs the
 package as a unit; individual imports reduce your application bundle. Installing
-the optional **asset package** installs the entire roughly 341 MB archive.
+the optional **asset package** explicitly installs the entire roughly 341 MB artwork
+through two archives: borders/decorations and its pinned illustration dependency.
+For illustration-only offline work, install
+`@ranx729/medieval-ornaments-illustration-assets@0.1.0` instead.
+This split does not affect selective imports or downloads.
 Neither of the first two workflows requires that archive. There are no
 install-time artwork downloads.
 

@@ -205,18 +205,18 @@ asserts scoped discovery module graphs. React is external; CSS remains 473 B gzi
 
 | Fixture | Metadata entries | JavaScript raw | JavaScript gzip |
 | --- | ---: | ---: | ---: |
-| Full React API, red berry divider | 111 | 359,780 B | 47,125 B |
-| Individual React red berry divider | 1 | 15,042 B | 4,733 B |
-| Individual vanilla red berry divider | 1 | 15,289 B | 4,807 B |
-| Individual React flying pig image | 1 | 10,631 B | 4,048 B |
-| Individual vanilla flying pig image | 1 | 10,874 B | 4,126 B |
+| Full React API, red berry divider | 111 | 359,898 B | 47,145 B |
+| Individual React red berry divider | 1 | 15,160 B | 4,763 B |
+| Individual vanilla red berry divider | 1 | 15,407 B | 4,833 B |
+| Individual React flying pig image | 1 | 10,749 B | 4,072 B |
+| Individual vanilla flying pig image | 1 | 10,992 B | 4,148 B |
 | Illustration-only discovery | 41 | 77,350 B | 10,284 B |
 | Decoration-only discovery | 14 | 38,601 B | 6,107 B |
 | Border-only discovery | 56 | 240,405 B | 28,381 B |
 
 Adding 41 illustrations does not add their metadata to an individual border
-import. The prior 4,589 B React border fixture is now 4,733 B: the 144 B increase
-is its richer selection metadata. Full dynamic imports grow with the catalog;
+import. The prior 4,589 B React border fixture is now 4,763 B: the 174 B increase
+covers richer selection metadata and a family-specific CDN default. Full dynamic imports grow with the catalog;
 use individual imports when the chosen design is known, and scoped discovery
 when a picker needs only one content type. Discovery caches lowercased searchable
 text once rather than rebuilding it for each query.
@@ -227,7 +227,10 @@ The richer 111-design catalog and declarations use about 1.13 MB installed.
 The runtime JSON export is compact to reduce duplicated indentation. The new
 budgets are 200 KB compressed / 1.25 MB installed, alongside strict per-design
 and scoped-catalog module graph checks. The optional complete archive is about
-341 MB compressed / 581 MB installed. Installing it is explicit; `add` downloads
+341 MB compressed / 581 MB installed across two archives. npm rejected the
+unified upload with HTTP 413, so the optional full package pins a separate
+illustration archive; illustration-only projects can install that archive alone.
+Runtime installs still include neither archive. Installing artwork is explicit; `add` downloads
 only the requested designs/formats. Image byte fidelity takes priority over
 making that optional archive artificially small.
 

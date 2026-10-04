@@ -70,7 +70,7 @@ Images default to version-pinned CDN URLs and load only when selected. To self-h
 npx medieval-ornaments copy-assets public/ornaments --design red-berry-vine
 ```
 
-For offline copying or direct image imports, optionally install `@ranx729/medieval-ornaments-assets@0.4.0` and use `copy-assets --offline`. This installs the complete roughly 341 MB archive; selected `add`/`copy-assets` installs download only chosen files. Direct `/svg/*`, `/png/*`, `/webp/*` imports belong to that companion. See the [0.3.x migration notes](docs/INTEGRATION.md#migrating-from-03x).
+For offline copying or direct image imports, optionally install `@ranx729/medieval-ornaments-assets@0.4.0` and use `copy-assets --offline`. This explicitly installs the complete roughly 341 MB artwork through two archives, including its pinned `@ranx729/medieval-ornaments-illustration-assets@0.1.0` dependency. You can install the illustration archive alone. Selected `add`/`copy-assets` installs download only chosen files. Border/decoration image imports belong to the original companion; illustration image imports use the illustration archive. See the [0.3.x migration notes](docs/INTEGRATION.md#migrating-from-03x).
 
 Pass `assetsBase: '/ornaments/'` in vanilla or `assetsBase="/ornaments/"` in React. No artwork build or Python is needed by consumers. The integration code has a scoped [MIT license](LICENSE); artwork retains its separately documented [rights status](ASSET-RIGHTS.md).
 

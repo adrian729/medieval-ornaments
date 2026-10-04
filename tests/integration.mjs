@@ -23,7 +23,11 @@ try {
   const packageSource = process.env.ORNAMENTS_PACKAGE;
   const registryPackage = packageSource?.startsWith('@ranx729/medieval-ornaments@');
   const assetSource = process.env.ORNAMENTS_ASSETS_PACKAGE;
-  let install, assetInstall;
+  const illustrationSource = process.env.ORNAMENTS_ILLUSTRATIONS_PACKAGE;
+  const items = await assetCatalog();
+  const illustrationAssets = assetPaths(items.filter(item=>item.asset_type==='illustration'));
+  const borderAssets = assetPaths(items.filter(item=>item.asset_type!=='illustration'));
+  let install, assetInstall, illustrationInstall;
   const expectedAssets = assetPaths(await assetCatalog());
   if (packageSource) install = packageSource;
   else {
@@ -38,12 +42,22 @@ try {
     records.push({ package: { bytes: packed.size, unpacked: packed.unpackedSize, files: packed.entryCount, integrity: packed.integrity, archive: path.join(folder, packed.filename) } });
     install = path.join(folder, packed.filename);
   }
+  if (illustrationSource) illustrationInstall = illustrationSource;
+  else {
+    await exec(process.execPath, ['scripts/build-assets-package.mjs'], { cwd: root });
+    const packed = JSON.parse((await exec('npm', ['pack', '--json', '--pack-destination', folder], { cwd: path.join(root, 'dist/medieval-ornaments-illustration-assets'), maxBuffer: 3e6 })).stdout)[0];
+    assert.ok(packed.size < 200_000_000, 'Illustration archive upload budget');
+    assert.deepEqual(packed.files.filter(file=>/^(svg|png|webp)\//.test(file.path)).map(file=>file.path).sort(), illustrationAssets);
+    records.push({ illustrationPackage: {bytes:packed.size,unpacked:packed.unpackedSize,files:packed.entryCount,integrity:packed.integrity,archive:path.join(folder,packed.filename)} });
+    illustrationInstall=path.join(folder,packed.filename);
+  }
   if (assetSource) assetInstall = assetSource;
   else {
     await exec(process.execPath, ['scripts/build-assets-package.mjs'], { cwd: root });
     const packed = JSON.parse((await exec('npm', ['pack', '--json', '--pack-destination', folder], { cwd: path.join(root, 'dist/medieval-ornaments-assets'), maxBuffer: 3e6 })).stdout)[0];
     assert.ok(packed.files.every(file => /^(?:svg\/|png\/|webp\/|catalog\.json$|assets-manifest\.json$|package\.json$|README\.md$|LICENSE$|ASSET-RIGHTS\.md$)/.test(file.path)), 'Unexpected artwork packed file');
-    assert.deepEqual(packed.files.filter(file => /^(svg|png|webp)\//.test(file.path)).map(file => file.path).sort(), expectedAssets);
+    assert.deepEqual(packed.files.filter(file => /^(svg|png|webp)\//.test(file.path)).map(file => file.path).sort(), borderAssets);
+    assert.ok(packed.size < 200_000_000, 'Border archive upload budget');
     records.push({ assetPackage: { bytes: packed.size, unpacked: packed.unpackedSize, files: packed.entryCount, integrity: packed.integrity, archive: path.join(folder, packed.filename) } });
     assetInstall = path.join(folder, packed.filename);
   }
@@ -95,13 +109,26 @@ try {
   await assert.rejects(access(path.join(app, 'node_modules/@ranx729/medieval-ornaments-assets')), 'Selective add must not install the archive');
   records.push({ kind: registryPackage ? 'lean-install-selected-CDN-add' : 'lean-install-selected-HTTP-add', includedDesigns: 2, fullArchiveInstalled: false });
   // Install artwork explicitly, then exercise consumer-local discovery through the real bin.
+  // Install illustrations first, proving independent offline discovery before
+  // the optional full package adds its exact pinned dependency.
+  await exec('npm', ['install', '--save-dev', illustrationInstall, '--ignore-scripts', '--no-audit', '--no-fund', ...(illustrationSource ? ['--prefer-online'] : ['--offline'])], { cwd: app });
+  const illustrationCompanion=path.join(app,'node_modules',api.illustrationsPackage);
+  assert.equal(JSON.parse(await readFile(path.join(illustrationCompanion,'package.json'))).version,api.illustrationsVersion);
+  await assert.rejects(access(path.join(app,'node_modules',api.assetsPackage)));
+  await exec(process.execPath,[bin,'copy-assets',path.join(folder,'illustrations-only'),'--design','flying-pig','--offline'],{cwd:app});
+  await assert.rejects(exec(process.execPath,[bin,'copy-assets',path.join(folder,'borders-missing'),'--design','red-berry-vine','--offline'],{cwd:app}),/Offline artwork not found/);
+  records.push({kind:'independent-illustration-offline-install',verifiedFiles:10});
   await exec('npm', ['install', '--save-dev', assetInstall, '--ignore-scripts', '--no-audit', '--no-fund', ...(assetSource ? ['--prefer-online'] : ['--offline'])], { cwd: app });
   const companion = path.join(app, 'node_modules', api.assetsPackage);
   const artworkPackage = JSON.parse(await readFile(path.join(companion, 'package.json')));
   assert.equal(artworkPackage.version, api.assetsVersion);
-  assert.ok(!artworkPackage.dependencies && !artworkPackage.peerDependencies);
+  assert.deepEqual(artworkPackage.dependencies,{[api.illustrationsPackage]:api.illustrationsVersion});
+  assert.ok(!artworkPackage.peerDependencies);
+  await assert.rejects(access(path.join(companion,'png/flying-pig.png')), 'Illustrations must not be duplicated in the borders archive');
+  assert.deepEqual(await readFile(path.join(illustrationCompanion,'assets-manifest.json')),await readFile(path.join(root,'assets-manifest.json')));
   assert.deepEqual(await readFile(path.join(companion, 'assets-manifest.json')), await readFile(path.join(root, 'assets-manifest.json')));
   const require = createRequire(path.join(app, 'package.json'));
+  assert.equal(require.resolve(api.illustrationsPackage+'/webp/256/flying-pig.webp'),path.join(illustrationCompanion,'webp/256/flying-pig.webp'));
   for (const relative of ['svg/red-berry-vine.svg', 'png/128/floral-bird-panel-blue.png', 'webp/128/floral-bird-panel-blue.webp']) {
     assert.equal(require.resolve(api.assetsPackage + '/' + relative), path.join(companion, relative));
   }
@@ -118,7 +145,7 @@ try {
   await mkdir(vanilla);
   await symlink(path.join(app, 'node_modules'), path.join(vanilla, 'node_modules'), 'dir');
   await writeFile(path.join(vanilla, 'index.html'), '<!doctype html><meta charset="utf-8"><div id="divider"></div><script type="module" src="/main.js"></script>');
-  await writeFile(path.join(vanilla, 'main.js'), `import {createDivider} from '@ranx729/medieval-ornaments';import '@ranx729/medieval-ornaments/styles.css';import imageUrl from '@ranx729/medieval-ornaments-assets/webp/128/floral-bird-panel-blue.webp?url';window.importedAsset=imageUrl;window.divider=createDivider(document.getElementById('divider'),{design:'plate-02-stepped-ribbon',orientation:'horizontal',assetsBase:'/local/ornaments/'});document.body.dataset.ready='true';`);
+  await writeFile(path.join(vanilla, 'main.js'), `import {createDivider} from '@ranx729/medieval-ornaments';import '@ranx729/medieval-ornaments/styles.css';import imageUrl from '@ranx729/medieval-ornaments-assets/webp/128/floral-bird-panel-blue.webp?url';import pigUrl from '@ranx729/medieval-ornaments-illustration-assets/webp/256/flying-pig.webp?url';window.importedPig=pigUrl;window.importedAsset=imageUrl;window.divider=createDivider(document.getElementById('divider'),{design:'plate-02-stepped-ribbon',orientation:'horizontal',assetsBase:'/local/ornaments/'});document.body.dataset.ready='true';`);
   await build({ root: vanilla, configFile: false, base: '/vanilla/dist/', logLevel: 'error' });
   for (const name of ['react', 'react-dom', '@types']) await symlink(path.join(root, 'node_modules', name), path.join(app, 'node_modules', name), 'dir');
   const selectivePages = await selectiveConsumers({ folder, app, root, exec, bin, records });
@@ -223,7 +250,7 @@ try {
   await evaluate(`frame=api.createFrame(document.getElementById('frame'),{design:'red-berry-vine',size:33,assetsBase:'/local/ornaments/'});frame.element.style.setProperty('--ornament-size','11px');frame.destroy();whole.element.alt='External edit';whole.destroy();`);
   assert.equal(await evaluate(`document.getElementById('frame').style.getPropertyValue('--ornament-size')==='11px'&&document.getElementById('whole').alt==='External edit'&&!document.getElementById('whole').hasAttribute('src')`), true);
   await navigate(origin + '/vanilla/dist/', `document.body?.dataset.ready==='true'`); await decodeImages(); checkGeometry(await geometry());
-  assert.equal((await geometry()).axis, 'x'); assert.ok(await evaluate(`typeof window.importedAsset==='string'&&window.importedAsset.length>0`)); records.push({ kind: 'vanilla-bundled-direct-asset-import' });
+  assert.equal((await geometry()).axis, 'x'); assert.ok(await evaluate(`typeof window.importedAsset==='string'&&window.importedAsset.length>0&&typeof window.importedPig==='string'&&window.importedPig.length>0`)); records.push({ kind: 'vanilla-bundled-direct-asset-import' });
   await navigate(origin + '/single-react/dist/', `!!document.getElementById('divider')`); await decodeImages(); checkGeometry(await geometry());
   assert.equal(await evaluate(`getComputedStyle(document.getElementById('divider'),'::before').content`), '""');
   records.push({ kind: 'single-react-automatic-styles' });

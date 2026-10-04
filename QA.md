@@ -18,7 +18,7 @@ validate against images.schema.json with a Draft 2020-12 validator.
 
 Validation completed:
 
-- 28 unit tests and public TypeScript checks; every individual entry has parity
+- 29 unit tests and public TypeScript checks; every individual entry has parity
   with generic geometry/SSR at available formats and densities. Illustration
   metadata/hash preservation, format/capability failures, resolution limits,
   scoped selection and selected offline local installs pass.
@@ -37,10 +37,10 @@ Validation completed:
 - All 1,074 local browser checks pass across 111 designs, formats, responsive
   sizes, original/forced axes, main/usage/review pages and the new metadata
   filters. Light/dark illustration screenshots were inspected, including the
-  wide seven-figure group at 375px. Shared CSS/rendering/resolution cores have
-  no diff. Source/reference bytes remain untouched.
+  wide seven-figure group at 375px. Shared CSS/rendering geometry remains unchanged; the resolver routes
+  illustration CDN defaults to their separate optional archive. Source/reference bytes remain untouched.
 - Production and cold-cache audit results are in docs/PERFORMANCE.md. Selected
-  React illustration: 4,048 B gzip; selected React border: 4,733 B; CSS: 473 B.
+  React illustration: 4,072 B gzip; selected React border: 4,763 B; CSS: 473 B.
   Scoped illustration discovery contains 41 entries and no aggregate catalog.
   Lazy offscreen collection requests two code/style resources and no artwork;
   eager fixture requests 169 resources. Reports remain under tmp/merge-review/.
@@ -57,16 +57,26 @@ Release artifact, assembled site size and post-publication checks are recorded
 below when complete. The runtime budgets are 200 KB compressed / 1.25 MB unpacked
 for the richer 111-design catalog; artwork remains excluded and optional.
 
-Final tested artifacts:
+The initially verified unified artwork archive (340,776,285 B compressed) was
+rejected by npm with HTTP 413 before publication. Optional artwork now ships as
+two archives without changing image bytes. The full package pins the illustration
+archive as a dependency; the runtime depends on neither. Both contain the same
+approved unified manifest. Tests additionally cover independent illustration-only
+offline installation and pnpm-style nested dependency discovery. Final artifact
+measurements and registry/deployment checks follow below after publication.
 
-- Runtime 0.6.0: **711 files / 165,540 B compressed / 1,124,807 B unpacked**.
-  SRI: `sha512-kzoV4RXzBhn1Uio6Dyy4lGhJAl91h2IAHK4YtcTpnWSG1tdVetjErALzCxmQ6bMEYwh2zvfHvElkyRDx+WmUAA==`.
-- Optional artwork 0.4.0: **1,795 files / 340,776,285 B compressed /
-  581,455,802 B unpacked**. Includes 1,789 artwork files and six metadata/notices.
-  SRI: `sha512-W7zALPaXACg5AZ3oDlH0aRYugfzqAXC++s/K46247smI0X0Mc/H1I7kMC7lbUQlOhg3HWE9Hdcu98fGMFp0HUg==`.
-- The exact runtime artifact passed the complete consumer matrix against the
-  exact tested companion archive. Final fixture: `/tmp/ornaments-integration-D8nDy5`;
-  artifacts are pinned in ignored `tmp/merge-review/approved-release.json`.
+Final tested archives (fixture /tmp/ornaments-integration-VwAusI):
+
+- runtime: **711 files / 166,742 B compressed / 1,129,754 B unpacked**.
+  SRI: `sha512-36tnBS52ASYVFMxzJ+r5qk7YXAoM819qQopUt9SO/clQcvpXvb8b/YkmCWG9uT6or76kbonEq+DgE2r4kMVdNw==`.
+- assets: **1389 files / 180,512,757 B compressed / 420,496,810 B unpacked**.
+  SRI: `sha512-PGp1L7sjl1V90z++9mq1ik/QNzjr1G022s4OXEVzEyeV3yrkanU+Pu+OJFj9Jeg2fHOuuGbuv6IDUAqF2wC9Ww==`.
+- illustrations: **412 files / 160,377,910 B compressed / 161,468,881 B unpacked**.
+  SRI: `sha512-hrpL0TIbZ9ZX2zx9YTnle8cj1vofrdlsuMrtKb1YetNZiWHqX0h0g4mfQ9QsY4YSGsWBWG9VBYLVOPL3gW8dpQ==`.
+
+The exact three archives passed the complete packed consumer matrix. The assembled
+site after packaging changes is 935,810,212 B, below the 950 MB budget. The
+approved archives are recorded in ignored tmp/merge-review/approved-release.json.
 
 
 ## Selective imports and local installer · 0.5.0 (2026-10-04)
