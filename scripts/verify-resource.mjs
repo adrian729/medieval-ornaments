@@ -12,9 +12,9 @@ const pkg=JSON.parse(await readFile(path.join(directory,'package.json')));
 if(pkg.name!==source.package||pkg.version!==pin.version||pkg.repository?.url!==`git+https://github.com/${source.repository}.git`||pkg.dependencies||pkg.scripts)throw Error('Invalid resource package identity/dependencies/hooks.');
 const snapshot=JSON.parse(await readFile(path.join(directory,'catalog.json')));
 if(stable(Object.fromEntries(snapshot.map(item=>[item.name,capabilities(item)])))!==stable(data.designs))throw Error('Resource catalog rendering data differs from approved manifest.');
-const allowed=[...Object.keys(data.files),'resource-manifest.json','catalog.json','ASSET-RIGHTS.md','LICENSE'].sort();
+const allowed=[...Object.keys(data.files),'resource-manifest.json','catalog.json','LICENSE'].sort();
 if(stable([...pkg.files].sort())!==stable(allowed))throw Error('Resource npm allowlist differs from approved exports.');
-for(const relative of ['LICENSE','ASSET-RIGHTS.md'])if(digest(await readFile(path.join(directory,relative)))!==digest(await readFile(path.join(projectRoot,relative))))throw Error('Rights notices differ: '+relative);
+for(const relative of ['LICENSE'])if(digest(await readFile(path.join(directory,relative)))!==digest(await readFile(path.join(projectRoot,relative))))throw Error('License notice differs: '+relative);
 let total=0;
 for(const [relative,expected]of Object.entries({...data.files,...data.inputs})) {
   const hash=createHash('sha256');let bytes=0;for await(const chunk of createReadStream(path.join(directory,relative))){bytes+=chunk.length;hash.update(chunk);}
@@ -22,7 +22,7 @@ for(const [relative,expected]of Object.entries({...data.files,...data.inputs})) 
   total+=bytes;
 }
 async function walk(base,prefix='') {let result=[];for(const entry of await readdir(base,{withFileTypes:true})){if(entry.name==='.git'||entry.name==='node_modules'||entry.name.endsWith('.tgz'))continue;const relative=prefix+entry.name;if(entry.isDirectory())result.push(...await walk(path.join(base,entry.name),relative+'/'));else if(entry.isSymbolicLink())throw Error('Resource repositories cannot contain symlinks: '+relative);else result.push(relative);}return result;}
-const small=new Set(['package.json','catalog.json','resource-manifest.json','README.md','AGENTS.md','LICENSE','ASSET-RIGHTS.md','.gitignore','.github/workflows/publish.yml']);
+const small=new Set(['package.json','catalog.json','resource-manifest.json','README.md','AGENTS.md','LICENSE','.gitignore','.github/workflows/publish.yml']);
 for(const relative of await walk(directory)) {
  if(!Object.hasOwn(data.files,relative)&&!Object.hasOwn(data.inputs,relative)){if(!small.has(relative))throw Error('Unapproved repository file: '+relative);total+=(await stat(path.join(directory,relative))).size;}
 }

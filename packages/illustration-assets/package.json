@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "Optional manuscript illustration PNG and lossless WebP assets for medieval-ornaments",
   "type": "module",
-  "license": "SEE LICENSE IN ASSET-RIGHTS.md",
+  "license": "SEE LICENSE IN LICENSE",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/adrian729/medieval-ornaments.git",
@@ -22,7 +22,6 @@
     "webp",
     "catalog.json",
     "assets-manifest.json",
-    "ASSET-RIGHTS.md",
     "LICENSE"
   ],
   "sideEffects": false,

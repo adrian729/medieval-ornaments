@@ -1,6 +1,6 @@
 # npm package and integration plan
 
-Status: runtime 0.6.1 consolidation review is published and verified. Full artwork 0.4.0 and illustration artwork 0.1.0 remain unchanged. Reviewed merge decisions are in docs/MERGE-PLAN.md; exact artifacts, registry/CDN checks and deployment verification are recorded in QA.md.
+Status: runtime 0.7.0 numbered resources are published and verified; the 0.7.1 notice removal is being released. Full artwork 0.4.0 and illustration artwork 0.1.0 remain unchanged. Reviewed merge decisions are in docs/MERGE-PLAN.md; exact artifacts, registry/CDN checks and deployment verification are recorded in QA.md.
 
 ## Goal and scope
 
@@ -102,15 +102,15 @@ The runtime includes core/React APIs, CSS, types, catalog, notices and integrati
 
 The optional full companion pins `@ranx729/medieval-ornaments-illustration-assets` as an exact dependency; its own archive contains borders/decorations, while the dependency contains illustration PNG/WebP. Illustrations can be installed alone. The runtime remains dependency-free and routes default URLs by asset type; an explicit assetsBase overrides both. Both archives carry the same unified checksum manifest, so a catalog/artwork change requires both archive versions and root pins to advance. Stage a flat mirror for local tests; npm archives split file allowlists and each compressed upload must stay below 200 MB.
 
-The optional companion exports `/catalog.json`, `/assets-manifest.json`, `/svg/*`, `/png/*`, `/webp/*` and `/package.json`. Direct image imports migrate from the runtime to this companion in 0.4.0. It preserves every approved asset byte and the separate rights notices.
+The optional companion exports `/catalog.json`, `/assets-manifest.json`, `/svg/*`, `/png/*`, `/webp/*` and `/package.json`. Direct image imports migrate from the runtime to this companion in 0.4.0. It preserves every approved asset byte and the separate license notice.
 
-`copy-assets <destination>` discovers the matching optional companion or downloads only selected files from the pinned CDN. Keep design/format filters, components/variants, filtered catalog, CSS and rights notices. Verify the trusted manifest and each asset; stream four files concurrently with bounded memory. `--offline` forbids network access; `--from` supports approved local/HTTP mirrors. Preserve unrelated files, reject overlap with the runtime, both installed artwork archives (including unused/older revisions) and the source, reject external destination symlinks, and remove failed temporary files. Check prospective destinations before mkdir, including aliases to protected folders. No install-time download hooks.
+`copy-assets <destination>` discovers the matching optional companion or downloads only selected files from the pinned CDN. Keep design/format filters, components/variants, filtered catalog, CSS and license notice. Verify the trusted manifest and each asset; stream four files concurrently with bounded memory. `--offline` forbids network access; `--from` supports approved local/HTTP mirrors. Preserve unrelated files, reject overlap with the runtime, both installed artwork archives (including unused/older revisions) and the source, reject external destination symlinks, and remove failed temporary files. Check prospective destinations before mkdir, including aliases to protected folders. No install-time download hooks.
 
 The browser ZIP remains a full self-hosted distribution with modules, CSS and unchanged artwork. Since 0.7.0 Pages uses CDN-backed vanilla/React examples; the full self-hosted browser ZIP is a GitHub Release asset. Filesystem copy destinations never determine public `assetsBase` automatically.
 
 Use allowlists for all three packages. Exclude source sheets, audit scripts, private files, temporary folders, tests and demos. The 111-design runtime must stay below 200 KB compressed/1.25 MB unpacked. This replaces the 70-design 150 KB/1 MB budget to accommodate 41 new typed entries and richer agent metadata; the artwork-free/optional-dependency invariant and single-design bundle checks remain mandatory. The runtime JSON catalog is compact to limit installed duplication. Measure both archives and verify every artwork hash before release. Ordinary npm packaging rebuilds only metadata. `build:assets` verifies and stages approved existing files; changed artwork/catalog needs both archive versions/dependency/pins to advance and an audited manifest update. Publish/verify illustrations, then the full companion, before a runtime referencing them.
 
-Document licensing scope honestly before release. The current repository does not establish a blanket license for supplied reference artwork. Do not label the whole package or collection MIT. Choose an explicit license for the new integration code and include a separate asset provenance/rights notice reflecting what is actually known; publication itself does not grant additional artwork rights.
+Document licensing scope honestly before release. The current repository does not establish a blanket license for supplied reference artwork. Do not label the whole package or collection MIT. LICENSE scopes the integration code grant and excludes artwork. The separate artwork-rights document was removed at the user's request; retain source audits and provenance metadata without recreating it. Publication itself does not grant additional artwork rights.
 
 ## Implementation phases and acceptance checks
 
@@ -350,3 +350,16 @@ CDN reduces deployment size but does not guarantee faster first paint.
 - [x] Publish/verify three resource repositories and npm packages; lock exact source commits and remove migrated physical files from main.
 - [x] Complete packed/browser/artwork/performance checks, publish runtime, deploy Pages and attach the verified offline ZIP.
 - [x] Record final sizes, release links and consumer migration examples after final review.
+
+## Notice removal · runtime 0.7.1
+
+Remove the separate artwork document at the user’s request from current main
+and numbered resource revisions. Keep the existing scoped LICENSE, source
+audits and artwork bytes. Old published archives are immutable compatibility
+snapshots and remain available. New copied components/assets and the browser
+ZIP include LICENSE only. No design, component API or geometry changes.
+
+- [ ] Publish the three numbered resources at 0.1.1 after verifying unchanged public files and editable inputs.
+- [ ] Lock clean source commits and update current usage/CDN examples to 0.7.1 / 0.1.1.
+- [ ] Pass unit, type, packed-consumer, package-size and site checks.
+- [ ] Publish the tested 0.7.1 runtime, upload its offline ZIP, deploy Pages and record results in QA.md.

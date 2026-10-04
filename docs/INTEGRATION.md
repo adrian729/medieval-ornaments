@@ -19,10 +19,10 @@ Self-hosting and offline workflows are deliberate alternatives described below.
 
 | Package | Contains | When to install |
 | --- | --- | --- |
-| `@ranx729/medieval-ornaments@0.7.0` | JS/React, CSS, types, discovery metadata and CLI; no artwork | Component imports or the installed CLI |
-| `@ranx729/medieval-ornaments-assets-borders-001@0.1.0` | All current border exports/sizes; no runtime or dependency | Selected border offline files |
-| `@ranx729/medieval-ornaments-assets-decorations-001@0.1.0` | All current whole-decoration exports/sizes; no runtime | Selected decoration offline files |
-| `@ranx729/medieval-ornaments-assets-illustrations-001@0.1.0` | All current illustration exports/sizes; no runtime | Selected illustration offline files |
+| `@ranx729/medieval-ornaments@0.7.1` | JS/React, CSS, types, discovery metadata and CLI; no artwork | Component imports or the installed CLI |
+| `@ranx729/medieval-ornaments-assets-borders-001@0.1.1` | All current border exports/sizes; no runtime or dependency | Selected border offline files |
+| `@ranx729/medieval-ornaments-assets-decorations-001@0.1.1` | All current whole-decoration exports/sizes; no runtime | Selected decoration offline files |
+| `@ranx729/medieval-ornaments-assets-illustrations-001@0.1.1` | All current illustration exports/sizes; no runtime | Selected illustration offline files |
 | `@ranx729/medieval-ornaments-illustration-assets@0.1.0` | Compatibility snapshot of 41 illustrations and PNG/WebP sizes; no runtime | Illustration-only offline files or direct bundler image imports |
 | `@ranx729/medieval-ornaments-assets@0.4.0` | Compatibility snapshot of border/decoration files; depends on the exact legacy illustration archive | The entire collection for offline use |
 
@@ -31,8 +31,7 @@ install totals roughly 341 MB compressed; use individual imports or `add` for
 selected designs. Import paths determine bundled metadata, while rendering
 determines image requests. Installing either archive alone does not change
 component URLs: copy files to a served folder and set `assetsBase` to self-host.
-Code and artwork have separate licensing scopes: see [LICENSE](../LICENSE) and
-[ASSET-RIGHTS.md](../ASSET-RIGHTS.md).
+The software license excludes artwork: see [LICENSE](../LICENSE).
 
 ## Choose an import workflow
 
@@ -304,13 +303,13 @@ SVG. Requesting an unsupported format or use throws a useful error.
 ## CDN or self-hosting
 
 The runtime routes each design through an explicit resource assignment. Version
-0.7.0 uses numbered packages at exact version 0.1.0:
+0.7.1 uses numbered packages at exact version 0.1.1:
 
 | Resource | CDN base |
 | --- | --- |
-| Borders | `https://unpkg.com/@ranx729/medieval-ornaments-assets-borders-001@0.1.0/` |
-| Decorations | `https://unpkg.com/@ranx729/medieval-ornaments-assets-decorations-001@0.1.0/` |
-| Illustrations | `https://unpkg.com/@ranx729/medieval-ornaments-assets-illustrations-001@0.1.0/` |
+| Borders | `https://unpkg.com/@ranx729/medieval-ornaments-assets-borders-001@0.1.1/` |
+| Decorations | `https://unpkg.com/@ranx729/medieval-ornaments-assets-decorations-001@0.1.1/` |
+| Illustrations | `https://unpkg.com/@ranx729/medieval-ornaments-assets-illustrations-001@0.1.1/` |
 
 Future collections can span several numbered repositories. Use the resolver or
 `getAssetSource(name)` rather than constructing URLs from an asset type:
@@ -375,7 +374,7 @@ destination and a public URL are different: supply your application's actual
 public path. Relative paths such as `./ornaments/` are rejected because CSS
 image URLs would otherwise resolve against the stylesheet instead of the page.
 
-The copy command includes shared CSS, rights notices and a filtered
+The copy command includes shared CSS, license notice and a filtered
 `catalog.json`. `--format webp`/`png`/`svg` copies just one format; request that
 same format in the application, since `auto` may choose another. SVG-only
 copying requires selecting compatible designs. Existing unrelated files are
@@ -408,7 +407,7 @@ previously the artwork was included in every runtime installation. Versions
 
 ## Native browser modules, no bundler
 
-Download the [browser ZIP](https://github.com/adrian729/medieval-ornaments/releases/download/v0.7.0/medieval-ornaments-browser.zip)
+Download the [browser ZIP](https://github.com/adrian729/medieval-ornaments/releases/download/v0.7.1/medieval-ornaments-browser.zip)
 and serve it over HTTP. It includes a self-hosted vanilla example. Or copy the
 runtime's `lib/` and `ornaments.css`, plus artwork copied with `copy-assets --offline`, to your static site:
 
@@ -475,7 +474,7 @@ checkouts. Upload it to the versioned main GitHub Release. Pages uses
 After publication, run the registry consumer tests and live site/ZIP checks:
 
 ```sh
-ORNAMENTS_PACKAGE=@ranx729/medieval-ornaments@0.7.0 npm run test:integration
+ORNAMENTS_PACKAGE=@ranx729/medieval-ornaments@0.7.1 npm run test:integration
 node tests/site.mjs
 ```
 

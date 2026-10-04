@@ -17,7 +17,7 @@ await mkdir(browser);
 await cp(path.join(root,'lib'),path.join(browser,'lib'),{recursive:true});
 for(const relative of assetPaths(await assetCatalog())) {const target=path.join(browser,relative);await mkdir(path.dirname(target),{recursive:true});await copyFile(resourceFile(relative),target);}
 await cp(path.join(root,'examples/assets.js'),path.join(browser,'examples/assets.js'));
-for (const name of ['ornaments.css', 'favicon.svg', 'favicon.ico', 'favicon-32.png', 'images.json', 'assets-manifest.json', 'LICENSE', 'ASSET-RIGHTS.md']) await cp(path.join(root, name), path.join(browser, name));
+for (const name of ['ornaments.css', 'favicon.svg', 'favicon.ico', 'favicon-32.png', 'images.json', 'assets-manifest.json', 'LICENSE']) await cp(path.join(root, name), path.join(browser, name));
 for (const name of ['index.html', 'demo.html', 'review.html', 'qa.html']) {
   const target = path.join(browser, 'examples', name);
   await cp(path.join(root, 'examples', name), target);
@@ -35,7 +35,7 @@ await cp(path.join(root, 'docs/ILLUSTRATIONS.md'), path.join(browser, 'docs/ILLU
 for(const name of ['RESOURCES.md','RESOURCE-MIGRATION.md'])await cp(path.join(root,'docs',name),path.join(browser,'docs',name));
 for (const name of ['SELECTION.md', 'USAGE.md', 'images.schema.json']) await cp(path.join(root, name), path.join(browser, name));
 await writeFile(path.join(browser, 'index.html'), '<!doctype html><meta charset="utf-8"><meta http-equiv="refresh" content="0;url=examples/vanilla/"><a href="examples/vanilla/">Vanilla example</a>');
-await writeFile(path.join(browser, 'README.txt'), 'Serve this folder over HTTP, for example: python3 -m http.server 8000\nOpen http://localhost:8000/\nThe example self-hosts its images. No React, npm, or build step is needed.\nSee docs/INTEGRATION.md and ASSET-RIGHTS.md.\n');
+await writeFile(path.join(browser, 'README.txt'), 'Serve this folder over HTTP, for example: python3 -m http.server 8000\nOpen http://localhost:8000/\nThe example self-hosts its images. No React, npm, or build step is needed.\nSee docs/INTEGRATION.md and LICENSE.\n');
 // zip is a maintainer tool, never required by consumers.
 const zipPath = path.join(out, 'medieval-ornaments-browser.zip');
 await rm(zipPath, { force: true });

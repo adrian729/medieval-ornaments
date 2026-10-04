@@ -35,10 +35,10 @@
     .hint { margin: 0 0 18px; color: var(--muted); max-width: 780px; font-size: 14px; }
     .example { display: grid; grid-template-columns: 1fr 1fr; gap: 28px; align-items: center; }
     .preview { min-width: 0; background: var(--surface); padding: 24px; }
-    .ornament-frame { --ornament-size: 28px; --ornament-image: url('https://unpkg.com/@ranx729/medieval-ornaments-assets-borders-001@0.1.0/svg/red-berry-vine-border.svg'); padding: 24px 16px; text-align: center; }
+    .ornament-frame { --ornament-size: 28px; --ornament-image: url('https://unpkg.com/@ranx729/medieval-ornaments-assets-borders-001@0.1.1/svg/red-berry-vine-border.svg'); padding: 24px 16px; text-align: center; }
     .ornament-frame h3 { margin: 0 0 12px; font-size: 30px; line-height: 1.15; }
     .ornament-frame p { margin: 0; color: var(--muted); font-size: 14px; }
-    .ornament-divider { --ornament-size: 24px; --ornament-image: url('https://unpkg.com/@ranx729/medieval-ornaments-assets-borders-001@0.1.0/svg/gold-leaf-scroll.svg'); margin: 24px 0; }
+    .ornament-divider { --ornament-size: 24px; --ornament-image: url('https://unpkg.com/@ranx729/medieval-ornaments-assets-borders-001@0.1.1/svg/gold-leaf-scroll.svg'); margin: 24px 0; }
     .divider-preview p { font-family: Georgia, serif; font-size: 20px; margin: 0; }
     .with-ornament { display: flex; gap: 24px; align-items: center; }
     .with-ornament picture { flex: 0 1 50%; min-width: 0; }
@@ -86,7 +86,7 @@
 
 &lt;style&gt;
 .card {
-  --ornament-image: url('https://unpkg.com/@ranx729/medieval-ornaments-assets-borders-001@0.1.0/svg/red-berry-vine-border.svg');
+  --ornament-image: url('https://unpkg.com/@ranx729/medieval-ornaments-assets-borders-001@0.1.1/svg/red-berry-vine-border.svg');
   --ornament-size: 28px;
   padding: 24px;
 }
@@ -106,7 +106,7 @@
 
 &lt;style&gt;
 .divider {
-  --ornament-image: url('https://unpkg.com/@ranx729/medieval-ornaments-assets-borders-001@0.1.0/svg/gold-leaf-scroll.svg');
+  --ornament-image: url('https://unpkg.com/@ranx729/medieval-ornaments-assets-borders-001@0.1.1/svg/gold-leaf-scroll.svg');
   --ornament-size: 24px;
 }
 &lt;/style&gt;</code></pre></div>
@@ -120,20 +120,20 @@
     <div class="example">
       <div class="preview with-ornament">
         <picture>
-          <source id="panelWebp" type="image/webp" srcset="https://unpkg.com/@ranx729/medieval-ornaments-assets-decorations-001@0.1.0/webp/256/floral-bird-panel-blue.webp 1x, https://unpkg.com/@ranx729/medieval-ornaments-assets-decorations-001@0.1.0/webp/512/floral-bird-panel-blue.webp 2x">
-          <img id="panelImage" loading="lazy" decoding="async" class="ornament-image" src="https://unpkg.com/@ranx729/medieval-ornaments-assets-decorations-001@0.1.0/png/256/floral-bird-panel-blue.png" srcset="https://unpkg.com/@ranx729/medieval-ornaments-assets-decorations-001@0.1.0/png/256/floral-bird-panel-blue.png 1x, https://unpkg.com/@ranx729/medieval-ornaments-assets-decorations-001@0.1.0/png/512/floral-bird-panel-blue.png 2x" height="256" width="34" alt="">
+          <source id="panelWebp" type="image/webp" srcset="https://unpkg.com/@ranx729/medieval-ornaments-assets-decorations-001@0.1.1/webp/256/floral-bird-panel-blue.webp 1x, https://unpkg.com/@ranx729/medieval-ornaments-assets-decorations-001@0.1.1/webp/512/floral-bird-panel-blue.webp 2x">
+          <img id="panelImage" loading="lazy" decoding="async" class="ornament-image" src="https://unpkg.com/@ranx729/medieval-ornaments-assets-decorations-001@0.1.1/png/256/floral-bird-panel-blue.png" srcset="https://unpkg.com/@ranx729/medieval-ornaments-assets-decorations-001@0.1.1/png/256/floral-bird-panel-blue.png 1x, https://unpkg.com/@ranx729/medieval-ornaments-assets-decorations-001@0.1.1/png/512/floral-bird-panel-blue.png 2x" height="256" width="34" alt="">
         </picture>
         <blockquote>A narrow flourish leaves plenty of room for the words.</blockquote>
       </div>
       <div class="code"><div class="code-heading"><span>HTML · decorative image</span><button data-copy="panelCode" type="button">Copy example</button></div><pre><code id="panelCode">&lt;link rel="stylesheet" href="../ornaments.css"&gt;
 &lt;picture&gt;
   &lt;source type="image/webp" srcset="
-    https://unpkg.com/@ranx729/medieval-ornaments-assets-decorations-001@0.1.0/webp/256/floral-bird-panel-blue.webp 1x,
-    https://unpkg.com/@ranx729/medieval-ornaments-assets-decorations-001@0.1.0/webp/512/floral-bird-panel-blue.webp 2x"&gt;
+    https://unpkg.com/@ranx729/medieval-ornaments-assets-decorations-001@0.1.1/webp/256/floral-bird-panel-blue.webp 1x,
+    https://unpkg.com/@ranx729/medieval-ornaments-assets-decorations-001@0.1.1/webp/512/floral-bird-panel-blue.webp 2x"&gt;
   &lt;img class="ornament-image"
-    src="https://unpkg.com/@ranx729/medieval-ornaments-assets-decorations-001@0.1.0/png/256/floral-bird-panel-blue.png"
-    srcset="https://unpkg.com/@ranx729/medieval-ornaments-assets-decorations-001@0.1.0/png/256/floral-bird-panel-blue.png 1x,
-      https://unpkg.com/@ranx729/medieval-ornaments-assets-decorations-001@0.1.0/png/512/floral-bird-panel-blue.png 2x"
+    src="https://unpkg.com/@ranx729/medieval-ornaments-assets-decorations-001@0.1.1/png/256/floral-bird-panel-blue.png"
+    srcset="https://unpkg.com/@ranx729/medieval-ornaments-assets-decorations-001@0.1.1/png/256/floral-bird-panel-blue.png 1x,
+      https://unpkg.com/@ranx729/medieval-ornaments-assets-decorations-001@0.1.1/png/512/floral-bird-panel-blue.png 2x"
     height="256" width="34" alt=""&gt;
 &lt;/picture&gt;</code></pre></div>
     </div>

@@ -3,7 +3,7 @@
 This optional install provides the complete approved SVG, PNG and lossless WebP
 collection for [`@ranx729/medieval-ornaments`](https://www.npmjs.com/package/@ranx729/medieval-ornaments).
 Artwork revision **0.4.0** contains 111 designs and 1789 asset files: 56 borders, 14 whole decorations and 41 illustrations. The original 70 designs retain their artwork bytes.
-Artwork rights are separate from integration software: read ASSET-RIGHTS.md.
+The integration software license excludes artwork: read LICENSE.
 
 Ordinary component usage needs only the lightweight runtime. It requests
 selected borders/decorations from this package's version-pinned CDN and

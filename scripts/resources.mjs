@@ -83,7 +83,7 @@ else if(command==='assign') {
       await clean(id);await git(id,'fetch','--depth=1','origin',pin.gitCommit);
       await git(id,'sparse-checkout','init','--no-cone');
       let previous=[];if(options.design){try{previous=(await git(id,'sparse-checkout','list')).split('\n').filter(p=>Object.hasOwn(all,p.replace(/^\//,'')));}catch{}}
-      await git(id,'sparse-checkout','set','--no-cone',...new Set([...previous,...['package.json','resource-manifest.json','catalog.json','README.md','AGENTS.md','.gitignore','.github/workflows/publish.yml','LICENSE','ASSET-RIGHTS.md',...paths].map(p=>'/'+p)]));
+      await git(id,'sparse-checkout','set','--no-cone',...new Set([...previous,...['package.json','resource-manifest.json','catalog.json','README.md','AGENTS.md','.gitignore','.github/workflows/publish.yml','LICENSE',...paths].map(p=>'/'+p)]));
       await git(id,'checkout','--detach',pin.gitCommit);
       for(const relative of paths){const actual=await fileDigest(path.join(directory,relative)),expected=all[relative];if(actual.bytes!==expected.bytes||actual.sha256!==expected.sha256)throw Error(`Fetched bytes differ: ${relative}`);}
     } else await linkFiles(id,paths);
@@ -136,7 +136,7 @@ else if(command==='assign') {
   if(Buffer.byteLength(content)>(config.policy.maxManifestBytes||1048576))throw Error('Manifest exceeds installer capacity; use another source.');
   const bytes=Object.values({...files,...inputs}).reduce((sum,file)=>sum+file.bytes,0);if(bytes>config.policy.maxTrackedBytes||Object.values({...files,...inputs}).some(f=>f.bytes>config.policy.maxFileBytes))throw Error('Approved resource exceeds capacity.');
   await writeFile(path.join(projectRoot,`resources/manifests/${id}.json`),content);await writeFile(path.join(resourceDirectory(id),'resource-manifest.json'),content);
-  const packagePath=path.join(resourceDirectory(id),'package.json'),pkg=JSON.parse(await readFile(packagePath));pkg.version=options.version;pkg.files=[...Object.keys(files),'resource-manifest.json','catalog.json','ASSET-RIGHTS.md','LICENSE'];await writeFile(packagePath,json(pkg));await writeFile(path.join(resourceDirectory(id),'catalog.json'),catalogBytes(selected));
+  const packagePath=path.join(resourceDirectory(id),'package.json'),pkg=JSON.parse(await readFile(packagePath));pkg.version=options.version;pkg.license='SEE LICENSE IN LICENSE';pkg.files=[...Object.keys(files),'resource-manifest.json','catalog.json','LICENSE'];await writeFile(packagePath,json(pkg));await writeFile(path.join(resourceDirectory(id),'catalog.json'),catalogBytes(selected));
   lock.sources[id]={version:options.version,gitCommit:null,manifestSha256:digest(content),filesSha256:digest(files)};await saveLock();console.log(`Approved ${id}@${options.version}; review and commit its source changes, then run lock.`);
 } else if(command==='new') {
   const collection=options.collection;if(!/^[a-z]+(?:-[a-z]+)*$/.test(collection||''))throw Error('new requires a lowercase collection.');

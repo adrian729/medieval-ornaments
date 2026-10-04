@@ -2,7 +2,7 @@
 
 Optional PNG and lossless WebP artwork for the 41 manuscript illustrations in
 `@ranx729/medieval-ornaments@0.6.1`. Includes all 406 original masters/variants,
-with their bytes preserved. Read ASSET-RIGHTS.md for artwork rights.
+with their bytes preserved. The software license in LICENSE excludes artwork.
 
 ```sh
 npm install @ranx729/medieval-ornaments@0.6.1

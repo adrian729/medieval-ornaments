@@ -12,7 +12,7 @@ traced, resized or re-encoded during migration.
 In an existing React or vanilla application, install the lightweight runtime:
 
 ```sh
-npm install @ranx729/medieval-ornaments@0.7.0
+npm install @ranx729/medieval-ornaments@0.7.1
 ```
 
 React applications also need their own React dependency. **Individual imports
@@ -69,12 +69,12 @@ Defaults remain eager loading, automatic decoding/priority and 2× density.
 ## Copy only selected code and artwork
 
 ```sh
-npx @ranx729/medieval-ornaments@0.7.0 add flying-pig rabbit-reading-book
+npx @ranx729/medieval-ornaments@0.7.1 add flying-pig rabbit-reading-book
 ```
 
 This writes editable React modules under `src/ornaments/` and only their verified
 WebP masters/variants under `public/ornaments/`. It also copies the required
-helpers, CSS, declarations and rights notices. It does not install the complete
+helpers, CSS, declarations and license notice. It does not install the complete
 artwork archive. Import from `./ornaments/flying-pig.js` in a component under src.
 For vanilla use `--framework vanilla`. `--format png` or `--format all` selects
 other available formats; attempting SVG fails before downloads.
@@ -94,8 +94,8 @@ For illustration-only offline copying, first install the runtime/CLI and the
 data-only archive while connected, then copy locally:
 
 ```sh
-npm install @ranx729/medieval-ornaments@0.7.0
-npm install --save-dev @ranx729/medieval-ornaments-assets-illustrations-001@0.1.0
+npm install @ranx729/medieval-ornaments@0.7.1
+npm install --save-dev @ranx729/medieval-ornaments-assets-illustrations-001@0.1.1
 npx --no-install medieval-ornaments copy-assets public/ornaments \
   --design flying-pig --offline
 ```
@@ -268,4 +268,4 @@ expectation, while the original import inventory remains unchanged.
 The original bytes, metadata snapshot and hashes make the merge auditable. New
 artwork corrections need their own source/method record; do not silently rewrite
 the migration snapshot or claim AI extractions are exact source crops. Artwork
-rights remain separate from the integration software; see [ASSET-RIGHTS.md](../ASSET-RIGHTS.md).
+rights remain separate from the integration software; see [LICENSE](../LICENSE).

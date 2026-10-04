@@ -32,7 +32,7 @@ try {
   if (packageSource) install = packageSource;
   else {
     const packed = JSON.parse((await exec('npm', ['pack', '--json', '--pack-destination', folder], { cwd: root, maxBuffer: 3e6 })).stdout)[0];
-    const allowed = /^(?:lib\/|docs\/(?:INTEGRATION|PERFORMANCE|SELECTIVE|ILLUSTRATIONS|RESOURCES|RESOURCE-MIGRATION)\.md$|images\.schema\.json$|ornaments\.css$|package\.json$|README\.md$|SELECTION\.md$|USAGE\.md$|LICENSE$|ASSET-RIGHTS\.md$)/;
+    const allowed = /^(?:lib\/|docs\/(?:INTEGRATION|PERFORMANCE|SELECTIVE|ILLUSTRATIONS|RESOURCES|RESOURCE-MIGRATION)\.md$|images\.schema\.json$|ornaments\.css$|package\.json$|README\.md$|SELECTION\.md$|USAGE\.md$|LICENSE$)/;
     assert.ok(packed.files.every(file => allowed.test(file.path)), 'Unexpected runtime packed file');
     assert.deepEqual(packed.files.filter(file => /^(svg|png|webp)\//.test(file.path)), [], 'Runtime must contain no artwork');
     // Budget accounts for 111 typed designs and richer selection metadata;
@@ -55,7 +55,7 @@ try {
   else {
     await exec(process.execPath, ['scripts/build-assets-package.mjs'], { cwd: root });
     const packed = JSON.parse((await exec('npm', ['pack', '--json', '--pack-destination', folder], { cwd: path.join(root, 'dist/medieval-ornaments-assets'), maxBuffer: 3e6 })).stdout)[0];
-    assert.ok(packed.files.every(file => /^(?:svg\/|png\/|webp\/|catalog\.json$|assets-manifest\.json$|package\.json$|README\.md$|LICENSE$|ASSET-RIGHTS\.md$)/.test(file.path)), 'Unexpected artwork packed file');
+    assert.ok(packed.files.every(file => /^(?:svg\/|png\/|webp\/|catalog\.json$|assets-manifest\.json$|package\.json$|README\.md$|LICENSE$)/.test(file.path)), 'Unexpected artwork packed file');
     assert.deepEqual(packed.files.filter(file => /^(svg|png|webp)\//.test(file.path)).map(file => file.path).sort(), borderAssets);
     assert.ok(packed.size < 200_000_000, 'Border archive upload budget');
     records.push({ assetPackage: { bytes: packed.size, unpacked: packed.unpackedSize, files: packed.entryCount, integrity: packed.integrity, archive: path.join(folder, packed.filename) } });

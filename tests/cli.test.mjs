@@ -40,7 +40,8 @@ test('lean CLI downloads only selected format/components and verifies exact byte
   assert.deepEqual(catalog.map(design => design.name), [item.name]);
   assert.deepEqual(catalog[0].formats, ['svg']);
   assert.equal(catalog[0].webp, undefined);
-  for (const name of ['ornaments.css', 'LICENSE', 'ASSET-RIGHTS.md']) assert.deepEqual(await readFile(path.join(directory, name)), await readFile(new URL(name, root)));
+  for (const name of ['ornaments.css', 'LICENSE']) assert.deepEqual(await readFile(path.join(directory, name)), await readFile(new URL(name, root)));
+  assert.ok(!(await readdir(directory)).includes('ASSET-RIGHTS.md'));
 });
 
 test('untrusted manifests are rejected before any artwork is requested', async t => {

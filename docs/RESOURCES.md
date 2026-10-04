@@ -32,7 +32,7 @@ masters, native tiles, traces, ordinary/rotated variants, corners, atlas and
 reference crops stay together. Shared source sheets stay in the main repository
 once, with their existing audits and hashes. Selection metadata and historical
 import records also stay here. A registry change must not erase descriptive
-information, provenance, extraction prompts or rights notices.
+information, provenance, extraction prompts or license notice.
 
 ## Capacity and rollover
 

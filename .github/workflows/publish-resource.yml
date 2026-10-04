@@ -29,7 +29,6 @@ jobs:
             resource-registry.json
             resource-lock.json
             LICENSE
-            ASSET-RIGHTS.md
           sparse-checkout-cone-mode: false
       - uses: actions/setup-node@v4
         with:

@@ -16,7 +16,7 @@ For applications using npm components with their default asset URLs:
 creates no image copies in the application repo. Leave `assetsBase` unset;
 `add`, `copy-assets` and resource-package installs are unnecessary here.
 
-1. Run `npm install @ranx729/medieval-ornaments@0.7.0`.
+1. Run `npm install @ranx729/medieval-ornaments@0.7.1`.
 2. Keep your current component imports and props; no storage ID belongs in JSX.
 3. Check your content-security policy allows `https://unpkg.com` in `img-src`.
 4. Verify your used frames, dividers and whole images in the production build.
@@ -30,7 +30,7 @@ For self-hosted applications:
    paths and variants remain the hosting contract.
 3. Offline work requires the matching optional archive/resource versions. Do not
    mix a newer runtime with an older archive and assume it contains new artwork.
-4. Preserve rights notices and check selected output files and application CSS.
+4. Preserve license notice and check selected output files and application CSS.
 
 ### Switching existing local copies to CDN delivery
 
@@ -78,8 +78,8 @@ current default. Replace manual use of these constants with `getAssetSource`.
 For an offline border installation:
 
 ```sh
-npm install @ranx729/medieval-ornaments@0.7.0
-npm install --save-dev @ranx729/medieval-ornaments-assets-borders-001@0.1.0
+npm install @ranx729/medieval-ornaments@0.7.1
+npm install --save-dev @ranx729/medieval-ornaments-assets-borders-001@0.1.1
 npx --no-install medieval-ornaments copy-assets public/ornaments --design red-berry-vine --offline
 ```
 
@@ -87,13 +87,13 @@ Install the corresponding decorations/illustrations numbered packages for those
 selected designs. `getAssetSource(name)` reports the exact package and version;
 no application needs to know the numbering policy.
 
-For existing installer-owned components, run the same `add` command with 0.7.0
+For existing installer-owned components, run the same `add` command with 0.7.1
 in a **fresh temporary output directory**, compare the generated code/assets
 with your existing installation and merge your edits. `add` intentionally rejects
 mixed runtime versions in one installation. Do not use `--overwrite` to bypass
 that version guard; do not delete customized files blindly.
 
-ZIP link: [0.7.0 browser archive](https://github.com/adrian729/medieval-ornaments/releases/download/v0.7.0/medieval-ornaments-browser.zip).
+ZIP link: [0.7.1 browser archive](https://github.com/adrian729/medieval-ornaments/releases/download/v0.7.1/medieval-ornaments-browser.zip).
 
 ## Authoring and automation
 
@@ -105,3 +105,16 @@ Do not commit fetched caches or duplicate masters into the main repository.
 Publication checks must cover legacy flat mirrors, matching offline archives,
 individual/scoped imports, React SSR/hydration and CDN asset decoding. Report
 any additional compatibility change here with an executable migration example.
+
+## Patch 0.7.1
+
+Install `@ranx729/medieval-ornaments@0.7.1` to use the current resource revisions
+(0.1.1). All artwork bytes, names, import paths and component options are
+unchanged; no application code migration is needed. `getAssetSource(design)`
+returns the new exact resource version for offline installations.
+
+New packages, copied components/assets and the browser ZIP contain `LICENSE`
+as their license notice. The separate artwork document has been removed.
+If your own packaging script explicitly copies that former document, remove
+that copy step and retain `LICENSE`. Previously published versions remain
+available and unchanged.
