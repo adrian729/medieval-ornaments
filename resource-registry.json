@@ -6,7 +6,9 @@
     "maxTrackedBytes": 850000000,
     "warnGitBytes": 800000000,
     "maxGitBytes": 950000000,
-    "maxFileBytes": 94371840
+    "maxFileBytes": 94371840,
+    "maxManifestBytes": 1048576,
+    "maxNpmPackedBytes": 200000000
   },
   "collections": {
     "borders": {

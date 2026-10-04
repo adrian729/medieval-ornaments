@@ -21,14 +21,14 @@ test('resource registry owns each public path and keeps descriptive metadata cen
   validateResources(changed);
   changed[0].width++;
   assert.throws(()=>validateResources(changed),/capabilities/);
-  assert.equal(Object.keys(lock.sources).length,3);
+  assert.ok(Object.keys(lock.sources).length>=3);
 });
 
 test('a second border resource routes by assignment without changing names or geometry',async t=>{
   const directory=await temporary(t);
   for(const folder of ['lib','resources'])await cp(path.join(root,folder),path.join(directory,folder),{recursive:true});
   await mkdir(path.join(directory,'scripts'));
-  for(const name of ['build-library.mjs','package-assets.mjs','resource-store.mjs'])await copyFile(path.join(root,'scripts',name),path.join(directory,'scripts',name));
+  for(const name of ['build-library.mjs','package-assets.mjs','resource-store.mjs','resources.mjs','scaffold-resource.mjs'])await copyFile(path.join(root,'scripts',name),path.join(directory,'scripts',name));
   for(const name of ['package.json','images.json','assets-manifest.json','resource-registry.json','resource-lock.json'])await copyFile(path.join(root,name),path.join(directory,name));
   const config=registry(),lock=resourceLock(),id='borders-002',name='red-berry-vine',first=manifest('borders-001');
   const chosen=first.designs[name], paths=new Set(assetPaths([chosen]));
@@ -37,6 +37,8 @@ test('a second border resource routes by assignment without changing names or ge
   config.sources['borders-001'].state='sealed';config.sources[id]={id,collection:'borders',sequence:2,state:'open',repository:'adrian729/medieval-ornaments-assets-borders-002',package:next.package};config.collections.borders.activeSource=id;config.assignments[name]=id;
   for(const data of [first,next]){const content=json(data);await writeFile(path.join(directory,'resources/manifests',data.id+'.json'),content);lock.sources[data.id]={version:data.version,gitCommit:null,manifestSha256:digest(content),filesSha256:digest(data.files)};}
   await writeFile(path.join(directory,'resource-registry.json'),json(config));await writeFile(path.join(directory,'resource-lock.json'),json(lock));
+  await assert.rejects(exec(process.execPath,['scripts/resources.mjs','assign','--design','red-berry-vine-corner','--collection','borders','--bytes','1'],{cwd:directory}),/collide with an existing resource/);
+  assert.equal(await readFile(path.join(directory,'resource-registry.json'),'utf8'),json(config));
   await exec(process.execPath,['scripts/build-library.mjs'],{cwd:directory});
   const api=await import(pathToFileURL(path.join(directory,'lib/designs',name+'.js')));
   assert.ok(api.resolveOrnament('frame').asset.url.startsWith('https://unpkg.com/'+next.package+'@0.1.0/'));

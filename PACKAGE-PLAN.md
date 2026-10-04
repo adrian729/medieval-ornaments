@@ -341,6 +341,6 @@ independent of factual asset type and supports additional numbered repositories.
 - [x] Route generic/individual components and verified installs through exact source pins without runtime artwork dependencies or full routing in individual bundles.
 - [x] Retain compatibility archive exports and flat self-hosted layout; document raw/Pages artwork links, legacy constants, local authoring and ZIP URL changes.
 - [x] Move Pages artwork to CDN delivery and the optional browser ZIP to GitHub Releases; separate demo build from full offline packaging.
-- [ ] Publish/verify three resource repositories and npm packages; lock exact source commits and remove migrated physical files from main.
+- [x] Publish/verify three resource repositories and npm packages; lock exact source commits and remove migrated physical files from main.
 - [ ] Complete packed/browser/artwork/performance checks, publish runtime, deploy Pages and attach the verified offline ZIP.
 - [ ] Record final sizes, release links and consumer migration examples after final review.

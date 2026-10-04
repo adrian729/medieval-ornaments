@@ -113,7 +113,7 @@
   "scripts": {
     "build": "node scripts/build-library.mjs",
     "build:browser": "node scripts/build-browser.mjs",
-    "prepack": "node scripts/build-library.mjs",
+    "prepack": "node scripts/build-library.mjs --release",
     "test": "node --test tests/*.test.mjs",
     "test:types": "tsc --noEmit --strict --noUncheckedSideEffectImports --module nodenext --target es2022 --jsx react-jsx tests/types.tsx",
     "test:integration": "node tests/integration.mjs",

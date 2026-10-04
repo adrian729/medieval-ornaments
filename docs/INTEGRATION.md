@@ -447,40 +447,38 @@ runtime alone, then explicitly install the full companion and verify every artwo
 copying. They exercise Chromium (`CHROME_BIN` overrides the executable) and real
 React 18/19 consumers. See QA.md for recorded coverage and limitations.
 
-For a code-only release, bump the root package/lockfile version, retain
-`ornamentAssets.version` and `ornamentIllustrations.version`, run the checks, and publish the tested runtime archive.
-`prepack` builds metadata only; it never renders, copies or downloads artwork.
+For a code-only or descriptive-metadata release, bump the root package/lockfile
+version and retain resource pins. Run the checks and publish the tested runtime
+archive. `prepack` builds metadata only and requires exact locked source commits;
+it never renders, copies or downloads artwork.
 
-For an artwork/catalog change, audit and regenerate only the approved designs,
-bump both artwork package versions and their root pins together (their shared
-manifest changes even when only one family changes),
-then run:
+For artwork changes, follow [RESOURCES.md](RESOURCES.md). Audit/regenerate only
+affected designs in their assigned checkouts, approve **only changed resource
+packages**, commit/push and publish them, verify registry/CDN bytes, then lock
+exact source SHAs in main. Update the runtime, rebuild/test and release. Main
+metadata stays authoritative; search descriptions do not force image updates.
+Check actual compressed npm size and full Git history independently of current
+tracked-file capacity. Source inputs stay outside npm distributions.
+
+`build:browser` assembles a complete offline ZIP from prepared resource
+checkouts. Upload it to the versioned main GitHub Release. Pages uses
+`build:react` / `build:site` and pinned CDN images, without the full artwork/ZIP.
+After publication, run the registry consumer tests and live site/ZIP checks:
 
 ```sh
-npm run build:assets -- --update-manifest
-npm run build
-# Run all release checks, including packed consumers and artwork/browser QA.
-# First pack/publish the tested illustration archive (its own version/pin):
-cd dist/medieval-ornaments-illustration-assets
-npm pack
-cd ../..
-# Then pack/publish the full artwork companion, before the runtime:
-cd dist/medieval-ornaments-assets
-npm pack
+ORNAMENTS_PACKAGE=@ranx729/medieval-ornaments@0.7.0 npm run test:integration
+node tests/site.mjs
 ```
 
-`build:assets` without `--update-manifest` verifies all files against the
-checked-in manifest and stages approved existing bytes. It rejects artwork
-changes under an unchanged asset version. The two archives share a unified
-manifest, with each illustration file recording its owning package. Bump
-`packages/illustration-assets/package.json`, root `ornamentIllustrations.version`
-and the full companion's exact dependency whenever the shared manifest changes. Publish
-the illustration archive before the full companion, then the runtime
-that pins it; verify actual CDN availability and checksums before releasing the
-runtime. Source sheets and tracing tools stay outside both npm distributions.
-Post-publication integration accepts `ORNAMENTS_PACKAGE` and
-`ORNAMENTS_ASSETS_PACKAGE` and `ORNAMENTS_ILLUSTRATIONS_PACKAGE` registry specs. Keep the complete browser ZIP and Pages
-CDN-backed Pages examples and the separately hosted offline ZIP verified as part of the release.
+The optional compatibility archives at assets 0.4.0 / illustrations 0.1.0 remain
+snapshots of this release's unchanged artwork. `build:assets` stages their
+approved bytes and a flat mirror; it rejects art/catalog changes under their
+unchanged versions. Updating these **optional compatibility snapshots** still
+requires bumping both package versions, their shared manifest, the root legacy
+pins and the full archive's exact illustration dependency, then
+`build:assets -- --update-manifest`. Publish illustrations before the full
+companion. This coupling does not apply to numbered resource releases. Existing
+snapshots remain available even when later artwork is delivered independently.
 
 ## Migration to numbered resources
 

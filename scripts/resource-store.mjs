@@ -47,6 +47,11 @@ export function resourceFile(relative, { write = false } = {}) {
   checkedRelative(relative);
   const owners = ownedPaths();
   let id = owners.get(relative);
+  if(write && id) {
+    const stem=path.basename(relative).replace(/\.[^.]+$/,''),config=registry();
+    const candidates=Object.keys(config.assignments).filter(name=>stem===name||['-border','-corner','-rotated','-reference'].some(suffix=>stem===name+suffix));
+    if(candidates.length!==1||config.assignments[candidates[0]]!==id)throw Error(`Resource write has conflicting design ownership: ${relative}`);
+  }
   if (!id && /^(?:png|webp|svg|sources\/(?:tiles|traces))\//.test(relative)) {
     const stem = path.basename(relative).replace(/\.[^.]+$/, '');
     const assignments = registry().assignments;
@@ -81,6 +86,8 @@ export function validateResources(items) {
     if (!config.collections[source.collection]) throw Error(`Unknown resource collection: ${id}`);
     const pin = lock.sources[id];
     if (!pin || !/^\d+\.\d+\.\d+(?:-[0-9A-Za-z.-]+)?$/.test(pin.version)) throw Error(`Missing exact resource version: ${id}`);
+    const content=readFileSync(path.join(projectRoot,`resources/manifests/${id}.json`));
+    if(content.length>(config.policy.maxManifestBytes||1048576))throw Error(`Resource manifest exceeds installer budget: ${id}`);
     const data = manifest(id);
     if(data.schemaVersion !== 2 || data.collection !== source.collection || (pin.gitCommit !== null && !/^[a-f0-9]{40}$/.test(pin.gitCommit))) throw Error(`Invalid resource manifest/commit: ${id}`);
     if (data.id !== id || data.package !== source.package || data.version !== pin.version || digest(readFileSync(path.join(projectRoot, `resources/manifests/${id}.json`))) !== pin.manifestSha256 || digest(data.files) !== pin.filesSha256) throw Error(`Pinned manifest mismatch: ${id}`);

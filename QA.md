@@ -580,3 +580,57 @@ node scripts/frame_join_check.mjs http://127.0.0.1:8765 matrix
 ```
 
 Pass the deployed collection URL to either browser script to check GitHub Pages. Without `matrix`, the frame renderer captures the three demo styles at 32, 33, and 34px. New or changed artwork needs fresh source, repeat, and light/dark visual review as described in [AGENTS.md](AGENTS.md); passing a gap check alone is insufficient.
+
+## Numbered resource split · 0.7.0 (2026-10-04)
+
+The public resource repositories are medieval-ornaments-assets-borders-001,
+medieval-ornaments-assets-decorations-001 and
+medieval-ornaments-assets-illustrations-001 under adrian729. Matching npm
+packages under @ranx729 are published at 0.1.0; registry tarball integrities,
+CDN manifests and SVG/WebP samples match approved hashes. Each source is pinned
+to its exact Git commit in resource-lock.json and tagged v0.1.0.
+
+| Resource | Designs | Artwork/input files | Full mirrored Git storage | Compressed npm |
+| --- | ---: | ---: | ---: | ---: |
+| borders-001 | 56 | 456,187,466 B | 160,810,826 B | 158,119,373 B |
+| decorations-001 | 14 | 81,140,460 B | 21,092,466 B | 22,393,078 B |
+| illustrations-001 | 41 | 163,065,762 B | 162,231,071 B | 160,314,271 B |
+
+All 1,789 public files and 120 native inputs were compared byte-for-byte before
+removing their physical main-tree copies. No artwork was regenerated. Shared
+reference sheets, all six descriptive fields, extraction/source audits, native
+geometry, raster variants, alpha, trace masters and rights scopes are preserved.
+The main tree is approximately 9 MB; old Git history is intentionally retained.
+The site is approximately 8.4 MB instead of 935.8 MB, with a 50 MB local guard.
+It contains no public artwork folders, native-input aliases or offline ZIP.
+The ZIP is a GitHub Release download; Pages loads exact-version CDN images.
+
+Passed: 32 unit tests, public types, packed vanilla/React 18/19 consumers,
+SSR/hydration/refs/state and offline self-hosting; catalog validation; 400 native
+source-frame joins, 102 integer-slice raster atlases and 56 pixel-exact rotated
+tiles. Isolated generator tests preserve imported bytes/masters, restore/new
+metadata and reject path/ownership errors before writes. Actual production
+bundles retain one design and one URL module per individual entry, with no
+full catalog/routing import. Scoped discovery sizes are unchanged.
+
+A fresh shallow/partial Git checkout fetched red-berry-vine (44 approved files),
+then blue-alternating-leaf-vine (24), retaining the first selection. Ignored
+flat aliases are readable. Rollover tests route a retained design to borders-002
+without changing its public name; richer search metadata passes without artwork
+publication, while changed rendering geometry fails approval checks.
+
+Consumer changes are explicit in docs/RESOURCE-MIGRATION.md: raw main-branch and
+Pages image paths are retired; the ZIP URL moves to Releases; legacy exported
+CDN constants identify compatibility snapshots, with getAssetSource replacing
+manual default routing. Component APIs, design imports and flat assetsBase paths
+stay supported. Installer-owned version upgrades use fresh reviewed output.
+No consuming repository was edited.
+
+Initial resource publications used the authorized maintainer npm login. Pinned
+resource publication workflows are included; automated OIDC publication requires
+per-package npm Trusted Publisher configuration for the caller resource repo.
+Until configured, verified manual npm publication remains available.
+
+Evidence: ignored tmp/resource-*-verification.json, tmp/resource-packages.json,
+full-history reports, tmp/resource-*-integration.log and bundle/artwork reports.
+Runtime publication and live deployment verification are recorded below.

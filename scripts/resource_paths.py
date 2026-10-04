@@ -37,6 +37,10 @@ def resource_file(relative, *, write=False):
     if config is None:
         return ROOT / relative
     identity = owners().get(relative)
+    if write and identity is not None:
+        stem = Path(relative).stem
+        candidates = [name for name in config['assignments'] if stem == name or any(stem == name + suffix for suffix in ['-border', '-corner', '-rotated', '-reference'])]
+        assert len(candidates) == 1 and config['assignments'][candidates[0]] == identity, f'Conflicting resource write ownership: {relative}'
     if identity is None and relative.startswith(('png/', 'webp/', 'svg/', 'sources/tiles/', 'sources/traces/')):
         stem = Path(relative).stem
         candidates = [name for name in config['assignments'] if stem == name or any(stem == name + suffix for suffix in ['-border', '-corner', '-rotated', '-reference'])]

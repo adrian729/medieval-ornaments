@@ -143,7 +143,7 @@ function update(){
   $('usageNotes').replaceChildren(...item.usage_notes.map(note=>{const li=document.createElement('li');li.textContent=note;return li}));
   const selected=purpose==='frame'?item.components.border_image:purpose==='divider'&&axis!==item.repeat_axis?item.components.rotated_tile:item;
   const links=[['PNG',selected.png],['WebP',selected.webp]];if(selected.svg)links.push([purpose==='frame'?'SVG frame':'SVG artwork',selected.svg]);
-  $('links').replaceChildren(...links.map(([label,path])=>{const a=document.createElement('a');a.href='../'+path;a.textContent=label;return a}));
+  $('links').replaceChildren(...links.map(([label,path])=>{const a=document.createElement('a');a.href=assetUrl(path);a.textContent=label;return a}));
   const original=item.components.reference_crop;$('originalSection').hidden=!original;if(original){$('original').loading='lazy';$('original').decoding='async';$('original').width=original.width;$('original').height=original.height;$('original').src=assetUrl(original.png)}
 }
 fetch('../images.json').then(r=>{if(!r.ok)throw Error(r.status);return r.json()}).then(data=>{

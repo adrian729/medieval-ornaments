@@ -13,6 +13,7 @@ import { scaffold } from './scaffold-resource.mjs';
 const exec = promisify(execFile), json = value => JSON.stringify(value,null,2)+'\n';
 const help = `npm run resources -- <command> [options]
   status | check [--verify-files]
+  pack --source borders-001
   plan --collection borders --bytes 12345 [--design existing-name]
   fetch [--all | --source borders-001 | --design red-berry-vine]
   link [--all | --source borders-001 | --design red-berry-vine]
@@ -68,6 +69,8 @@ else if(command==='status'||command==='check') {
 } else if(command==='plan') console.log(json(placement(options.collection,footprint(options.bytes),options.design)));
 else if(command==='assign') {
   const name=options.design;if(!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(name||'')||config.assignments[name])throw Error('assign requires a new unique lowercase kebab-case design name.');
+  const stems=new Set([name,...['-border','-corner','-rotated','-reference'].map(suffix=>name+suffix)]);
+  for(const id of Object.keys(config.sources))for(const relative of Object.keys(inventory(id)))if(stems.has(path.basename(relative).replace(/\.[^.]+$/,'')))throw Error('Design output would collide with an existing resource: '+relative);
   const result=placement(options.collection,footprint(options.bytes),name);if(!result.fits)throw Error(`Provision ${result.nextSource} before assigning this design.`);
   config.assignments[name]=result.source;await saveConfig();console.log(json(result));
 } else if(command==='fetch'||command==='link') {
@@ -76,7 +79,7 @@ else if(command==='assign') {
     const paths=Object.keys(all).filter(p=>!selected||selected.has(p)||p.endsWith('/'+options.design+'.png')||p.endsWith('/'+options.design+'.svg')||p.startsWith('sources/medieval-cutouts/sources/'));
     if(command==='fetch') {
       if(!/^[a-f0-9]{40}$/.test(pin.gitCommit||''))throw Error(`Resource has not been locked to a source commit: ${id}`);
-      if(!existsSync(path.join(directory,'.git'))){if(existsSync(directory))throw Error(`Existing non-Git directory: ${directory}`);await mkdir(path.dirname(directory),{recursive:true});await exec('git',['clone','--depth=1','--filter=blob:none','--no-checkout',`https://github.com/${source.repository}.git`,directory]);}
+      if(!existsSync(path.join(directory,'.git'))){if(existsSync(directory))throw Error(`Existing non-Git directory: ${directory}`);await mkdir(path.dirname(directory),{recursive:true});await exec('git',['clone','--depth=1','--filter=blob:none','--sparse',`https://github.com/${source.repository}.git`,directory]);}
       await clean(id);await git(id,'fetch','--depth=1','origin',pin.gitCommit);
       await git(id,'sparse-checkout','init','--no-cone');
       let previous=[];if(options.design){try{previous=(await git(id,'sparse-checkout','list')).split('\n').filter(p=>Object.hasOwn(all,p.replace(/^\//,'')));}catch{}}
@@ -86,6 +89,11 @@ else if(command==='assign') {
     } else await linkFiles(id,paths);
     console.log(`${command}: ${id}, ${paths.length} approved files`);
   }
+} else if(command==='pack') {
+  const id=options.source;sourceInfo(id);await exec(process.execPath,[path.join(projectRoot,'scripts/verify-resource.mjs'),id,resourceDirectory(id)]);
+  const packed=JSON.parse((await exec('npm',['pack','--json'],{cwd:resourceDirectory(id),maxBuffer:4*1024*1024})).stdout)[0];
+  if(packed.size>(config.policy.maxNpmPackedBytes||200000000))throw Error('Compressed upload exceeds capacity; move complete designs to the next resource before publishing.');
+  console.log(json({id,bytes:packed.size,unpacked:packed.unpackedSize,integrity:packed.integrity,filename:packed.filename}));
 } else if(command==='migrate') {
   const name=options.design, previousId=config.assignments[name], targetId=options.source;
   if(!previousId||previousId===targetId)throw Error('Choose an existing design and a different registered source.');
@@ -118,11 +126,14 @@ else if(command==='assign') {
 } else if(command==='approve') {
   const id=options.source,source=sourceInfo(id),pin=lock.sources[id];if(source.state==='archived')throw Error('Archived resources cannot be changed.');
   if(!/^\d+\.\d+\.\d+$/.test(options.version||'')||(options.version===pin.version&&pin.gitCommit!==null))throw Error('approve requires a new exact package version.');
-  const old=manifest(id),selected=[...items.filter(item=>config.assignments[item.name]===id),...(source.retainedDesigns||[]).map(name=>old.designs[name])],files={},inputs={};
+  const old=manifest(id),snapshot=JSON.parse(await readFile(path.join(resourceDirectory(id),'catalog.json')));
+  const retained=(source.retainedDesigns||[]).map(name=>{const previous=snapshot.find(item=>item.name===name);if(!previous)throw Error('Retained descriptive snapshot missing: '+name);return {...previous,...old.designs[name]};});
+  const selected=[...items.filter(item=>config.assignments[item.name]===id),...retained],files={},inputs={};
   for(const relative of assetPaths(selected))files[relative]=await fileDigest(path.join(resourceDirectory(id),relative));
   for(const relative of Object.keys(old.inputs))inputs[relative]=await fileDigest(path.join(resourceDirectory(id),relative));
   for(const item of selected)for(const directory of ['sources/tiles','sources/traces'])for(const extension of ['png','svg']){const relative=`${directory}/${item.name}.${extension}`;if(existsSync(path.join(resourceDirectory(id),relative)))inputs[relative]=await fileDigest(path.join(resourceDirectory(id),relative));}
   const approved={schemaVersion:2,id,collection:source.collection,package:source.package,version:options.version,designs:Object.fromEntries(selected.map(item=>[item.name,capabilities(item)])),files,inputs},content=json(approved);
+  if(Buffer.byteLength(content)>(config.policy.maxManifestBytes||1048576))throw Error('Manifest exceeds installer capacity; use another source.');
   const bytes=Object.values({...files,...inputs}).reduce((sum,file)=>sum+file.bytes,0);if(bytes>config.policy.maxTrackedBytes||Object.values({...files,...inputs}).some(f=>f.bytes>config.policy.maxFileBytes))throw Error('Approved resource exceeds capacity.');
   await writeFile(path.join(projectRoot,`resources/manifests/${id}.json`),content);await writeFile(path.join(resourceDirectory(id),'resource-manifest.json'),content);
   const packagePath=path.join(resourceDirectory(id),'package.json'),pkg=JSON.parse(await readFile(packagePath));pkg.version=options.version;pkg.files=[...Object.keys(files),'resource-manifest.json','catalog.json','ASSET-RIGHTS.md','LICENSE'];await writeFile(packagePath,json(pkg));await writeFile(path.join(resourceDirectory(id),'catalog.json'),catalogBytes(selected));

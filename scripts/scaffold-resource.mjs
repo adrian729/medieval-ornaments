@@ -1,8 +1,11 @@
 import { readFile, writeFile, mkdir, copyFile } from 'node:fs/promises';
 import path from 'node:path';
+import { execFile } from 'node:child_process';
+import { promisify } from 'node:util';
 import { projectRoot, registry, resourceDirectory, manifest } from './resource-store.mjs';
 export async function scaffold(id, toolingRef) {
   if(!/^[a-f0-9]{40}$/.test(toolingRef)) throw Error('Scaffold requires an immutable main tooling commit.');
+  await promisify(execFile)('git',['cat-file','-e',toolingRef+'^{commit}'],{cwd:projectRoot});
   const source=registry().sources[id], directory=resourceDirectory(id), data=manifest(id);
   if(!source)throw Error('Unknown resource: '+id);
   await mkdir(directory,{recursive:true});

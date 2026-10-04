@@ -18,10 +18,10 @@ Examples:
 
 | Resource ID | GitHub repository | npm package |
 | --- | --- | --- |
-| `borders-001` | `adrian729/medieval-ornaments-assets-borders-001` | `@ranx729/medieval-ornaments-assets-borders-001` |
+| `borders-001` | [`adrian729/medieval-ornaments-assets-borders-001`](https://github.com/adrian729/medieval-ornaments-assets-borders-001) | `@ranx729/medieval-ornaments-assets-borders-001` |
 | `borders-002` | `adrian729/medieval-ornaments-assets-borders-002` | `@ranx729/medieval-ornaments-assets-borders-002` |
-| `decorations-001` | `adrian729/medieval-ornaments-assets-decorations-001` | `@ranx729/medieval-ornaments-assets-decorations-001` |
-| `illustrations-001` | `adrian729/medieval-ornaments-assets-illustrations-001` | `@ranx729/medieval-ornaments-assets-illustrations-001` |
+| `decorations-001` | [`adrian729/medieval-ornaments-assets-decorations-001`](https://github.com/adrian729/medieval-ornaments-assets-decorations-001) | `@ranx729/medieval-ornaments-assets-decorations-001` |
+| `illustrations-001` | [`adrian729/medieval-ornaments-assets-illustrations-001`](https://github.com/adrian729/medieval-ornaments-assets-illustrations-001) | `@ranx729/medieval-ornaments-assets-illustrations-001` |
 
 The existing unnumbered npm archives remain compatibility distributions. They
 are not resource IDs and must not be converted into empty dependency wrappers:
@@ -45,6 +45,7 @@ These are project policies, not claims about GitHub's hard repository limit:
 - Monitor actual Git object storage using a complete mirror, independently of
   current-file size. Warn at 800 MB and stop extending it at 950 MB. Partial
   developer clones are not valid measurements of total object storage.
+- Keep each resource manifest below 1 MiB and each compressed npm upload below 200 MB; these independent limits can require rollover before the tracked-file budget. `pack --source <id>` verifies and measures the actual upload.
 - Reject regular Git files above 90 MiB. Splitting repositories does not solve
   a single oversized file; that resource needs an explicitly reviewed storage
   method.

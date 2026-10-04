@@ -10,6 +10,7 @@ const manifestBytes=await readFile(new URL('assets-manifest.json',root)),manifes
 const hash=bytes=>createHash('sha256').update(bytes).digest('hex');
 if(manifest.package!==pkg.ornamentAssets.package||manifest.version!==pkg.ornamentAssets.version)throw Error('Pinned compatibility archive does not match the runtime package.');
 const {config: resourceRegistry, lock: resourcePins} = validateResources(items);
+if(process.argv.includes('--release') && Object.values(resourcePins.sources).some(pin=>!/^[a-f0-9]{40}$/.test(pin.gitCommit||'')))throw Error('Release packaging requires exact locked resource commits.');
 const illustrationPin=pkg.ornamentIllustrations;
 if(manifest.illustrations?.package!==illustrationPin.package||manifest.illustrations?.version!==illustrationPin.version)throw Error('Pinned illustration manifest does not match runtime package.');
 const base = `https://unpkg.com/${manifest.package}@${manifest.version}/`;

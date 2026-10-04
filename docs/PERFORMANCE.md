@@ -263,3 +263,34 @@ the full browser ZIP would approach the [GitHub Pages 1 GB published-site limit]
 `npm run build:site` excludes only the redundant editable `sources/traces/`
 directory from deployment, preserves it in Git, and enforces a 950 MB budget.
 Public SVG/PNG/WebP paths and original reference sources remain available.
+
+## Resource repository delivery · 0.7.0
+
+The 935,825,529 B site previously included every image and a 341,919,489 B ZIP.
+Pages now contains code, catalogs, documentation, demos and shared references;
+images load from exact npm CDN pins and the full offline ZIP lives in GitHub
+Releases. The assembled site's final measured size is recorded in QA.md. Its
+new 50 MB project guard catches accidental resource bundling; GitHub's published
+site limit remains 1 GB. Future artwork adds no image bytes to Pages.
+
+Three numbered Git repositories/npm packages own border, decoration and
+illustration files. The main registry can add further sources per collection.
+The runtime installs no artwork packages automatically, renderers fetch no
+routing manifests, and individual imports include one assigned URL constant.
+Catalog-free `/resources` exposes pins for explicit offline/direct image use.
+
+| Individual fixture | JS gzip before | JS gzip after |
+| --- | ---: | ---: |
+| React red berry divider | 4,763 B | 4,773 B |
+| Vanilla red berry divider | 4,833 B | 4,850 B |
+| React flying pig image | 4,072 B | 4,086 B |
+| Vanilla flying pig image | 4,148 B | 4,167 B |
+
+Each fixture still includes exactly one design and shared helpers. The few extra
+bytes come from longer numbered package URLs. All scoped discovery bundle sizes
+remain unchanged. The generic API includes the complete catalog and source
+routing, as expected; choose individual entries for selected designs. Cache
+behavior, format/density selection, lazy rendering and lossless source bytes
+are preserved. Raw main/Pages image URLs change as documented in
+[RESOURCE-MIGRATION.md](RESOURCE-MIGRATION.md); old immutable npm releases remain
+available. `npm run audit:selective` checks actual production module graphs.

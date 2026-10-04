@@ -1,8 +1,9 @@
-// Assemble the actual deployment, retaining public artwork and reference sources.
+// Assemble lightweight demos/reference sources; artwork and archives stay external.
 import { cp, mkdir, readdir, rm, stat, writeFile, readFile } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { staticAssets } from './demo-assets.mjs';
+import { ownedPaths } from './resource-store.mjs';
 const root = fileURLToPath(new URL('../', import.meta.url));
 const site = path.join(root, 'dist/site');
 await rm(site, { recursive: true, force: true });
@@ -12,10 +13,10 @@ for (const directory of ['examples', 'lib', 'docs']) {
 }
 await mkdir(path.join(site, 'sources'));
 for (const entry of await readdir(path.join(root, 'sources'), { withFileTypes: true })) {
-  // Checked-in editable trace masters duplicate the public SVG exports. They
-  // remain in Git; neither the browser nor source/reference audit links need them.
+  // Canonical native inputs and traces belong to resource repositories.
+  // Local aliases must never be uploaded to Pages.
   if (['traces','tiles'].includes(entry.name)) continue;
-  await cp(path.join(root, 'sources', entry.name), path.join(site, 'sources', entry.name), { recursive: true });
+  await cp(path.join(root, 'sources', entry.name), path.join(site, 'sources', entry.name), { recursive: true, filter: source => !ownedPaths().has(path.relative(root,source).split(path.sep).join('/')) });
 }
 const files = ['index.html', 'ornaments.css', 'favicon.svg', 'favicon-32.png', 'favicon.ico',
   'images.json', 'images.schema.json', 'illustrations.json', 'illustration-import.json',
