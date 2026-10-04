@@ -634,3 +634,10 @@ Until configured, verified manual npm publication remains available.
 Evidence: ignored tmp/resource-*-verification.json, tmp/resource-packages.json,
 full-history reports, tmp/resource-*-integration.log and bundle/artwork reports.
 Runtime publication and live deployment verification are recorded below.
+
+The final collection browser passes all **1,079 checks** across 111 designs,
+all formats, four viewport widths and shared demo controls, with zero browser
+errors. A missing import on the small demo was corrected before release; the
+complete browser suite and targeted decoded-image/snippet checks then passed.
+Resource workflows now use a sparse, immutable main-tooling checkout; their
+code-only source commits preserve the already-published artwork bytes.
