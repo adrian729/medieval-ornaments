@@ -2,7 +2,7 @@
 
 Since 0.5.0, choose either individual npm imports or the `add` command. Both use
 the same geometry, resolution selection, loading behavior and TypeScript types
-as the full API. Runtime 0.6.0 pins artwork revision 0.4.0, including the merged
+as the full API. Runtime 0.6.1 retains artwork revision 0.4.0, including the merged
 illustrations. See [illustration and agent selection guidance](ILLUSTRATIONS.md).
 
 | Workflow | Component code | Artwork |
@@ -68,9 +68,11 @@ export function Decoration() {
 
 Shared helpers and CSS are bundled once. Importing a design performs no artwork
 request; rendering chooses its image. Explicit `format="svg"` uses an available
-vector alternative; painted designs default to lossless WebP. SVG traces can be
-larger than raster files. A size selects a pre-generated raster variant and
-never upscales beyond the master. See [all options](INTEGRATION.md#shared-contract).
+vector alternative; painted designs and illustrations default to lossless WebP.
+SVG traces can be larger than raster files. A size selects a pre-generated raster
+variant; no enlarged exports are generated. If the requested display resolution
+exceeds the master, the resolver uses it and reports `asset.resolutionLimited`.
+Displaying it larger cannot add detail. See [all options](INTEGRATION.md#shared-contract).
 
 ### SSR and TypeScript
 
@@ -125,7 +127,7 @@ import `lib/designs/<name>.js` from the browser ZIP or your own hosted runtime.
 Copy selected files without installing the full asset archive:
 
 ```sh
-npx medieval-ornaments copy-assets public/ornaments \
+npx --no-install medieval-ornaments copy-assets public/ornaments \
   --design red-berry-vine --format svg
 ```
 
@@ -141,7 +143,7 @@ Run this from your application's root. The examples pin the generator version
 so another developer can reproduce the same source:
 
 ```sh
-npx @ranx729/medieval-ornaments@0.6.0 add \
+npx @ranx729/medieval-ornaments@0.6.1 add \
   red-berry-vine gold-scroll-with-blue-bellflowers
 ```
 
@@ -196,7 +198,7 @@ package marker and declarations. No import references this npm runtime package.
 For vanilla code:
 
 ```sh
-npx @ranx729/medieval-ornaments@0.6.0 add red-berry-vine --framework vanilla
+npx @ranx729/medieval-ornaments@0.6.1 add red-berry-vine --framework vanilla
 ```
 
 ```js
@@ -219,7 +221,7 @@ const divider = createDivider(document.querySelector('#divider'));
 | `--overwrite` | Off | Explicitly replace differing existing generated files/artwork |
 
 `auto` installs SVG for the six vector reconstructions and WebP for painted
-designs. It copies the chosen format's size variants, original/rotated tiles,
+designs and illustrations. It copies the chosen format's size variants, original/rotated tiles,
 frame atlas, corners and reference components when available. Unselected designs
 and formats are omitted. The local types and resolver reject formats you did not
 install. `all` preserves all available format alternatives; explicit SVG fails
@@ -234,7 +236,7 @@ component installation; already verified artwork files can be reused on retry.
 For an application deployed at `/my-app/`:
 
 ```sh
-npx @ranx729/medieval-ornaments@0.6.0 add red-berry-vine \
+npx @ranx729/medieval-ornaments@0.6.1 add red-berry-vine \
   --out src/ui/ornaments \
   --assets public/ornaments \
   --assets-base /my-app/ornaments/
@@ -273,14 +275,18 @@ and merge your edits; this avoids deleting assets still in use.
 
 ### Offline use
 
-If you already have the full optional archive:
+For a fully local invocation, install the generator and full optional archive
+while connected, then run the installed CLI:
 
 ```sh
+npm install --save-dev @ranx729/medieval-ornaments@0.6.1
 npm install --save-dev @ranx729/medieval-ornaments-assets@0.4.0
-npx @ranx729/medieval-ornaments@0.6.0 add red-berry-vine --offline
+npx --no-install medieval-ornaments add red-berry-vine --offline
 ```
 
-This explicitly installs the entire archive. Alternatively, `--from /path/to/mirror
+This explicitly installs both artwork archives. For illustrations alone, install
+`@ranx729/medieval-ornaments-illustration-assets@0.1.0` instead and use a name such
+as `flying-pig`. Alternatively, `--from /path/to/mirror
 --offline` uses a local mirror containing the exact `assets-manifest.json` and
 the selected artwork paths from that revision. The source repository qualifies.
 A filtered `copy-assets` output is a hosting folder, not such a mirror: it does

@@ -1,5 +1,6 @@
 // Optional browser verification: Node 22+ and Chrome with --remote-debugging-port=9227.
 import {writeFile} from 'node:fs/promises';
+import { resolveOrnament } from '../lib/resolve.js';
 const origin=(process.argv[2]||'http://127.0.0.1:8765').replace(/\/$/,'');
 const tabs=await(await fetch('http://127.0.0.1:9227/json')).json();
 const ws=new WebSocket(tabs.find(t=>t.type==='page').webSocketDebuggerUrl);
@@ -145,12 +146,17 @@ for(const name of ['red-berry-vine','plate-13-leaf-and-flower-vine','plate-38-di
   assert(result.border===size&&result.image.includes(name+'-border.'+(name.startsWith('plate-')?'webp':'svg'))&&result.code.includes('--ornament-size: '+size+'px')&&result.code.includes(name+'-border.'+(name.startsWith('plate-')?'webp':'svg')),'Demo setting/code mismatch');checks++;
 }
 assert(await evaluate(`document.getElementById('frameDesign').options.length===${catalog.filter(i=>i.kind==='repeat-tile').length}&&document.getElementById('dividerDesign').options.length===${catalog.filter(i=>i.kind==='repeat-tile').length}&&document.getElementById('panelDesign').options.length===${catalog.filter(i=>i.kind==='standalone').length}`),'Small demo catalog coverage');checks++;
+assert(await evaluate(`document.getElementById('designCount').textContent==='${catalog.length}'&&document.querySelectorAll('#panelDesign optgroup').length===2&&document.querySelector('#panelDesign optgroup[label="Illustrations"]').children.length===${catalog.filter(i=>i.asset_type==='illustration').length}`),'Small demo illustration grouping/count');checks++;
 for(const name of ['blue-diamond-leaf-stencil-band','blue-paired-birds-and-palmettes','russet-floral-vine-with-bud-borders']){
   await choose('frameDesign',name);await choose('dividerDesign',name);
   const result=await evaluate(`(async()=>{const frame=getComputedStyle(document.getElementById('frameExample')),divider=getComputedStyle(document.querySelector('.ornament-divider'),'::before');await Promise.all([frame.borderImageSource,divider.backgroundImage].map(async css=>{const image=new Image();image.src=JSON.parse(css.slice(4,-1));await image.decode()}));return document.getElementById('frameCode').textContent.includes(${JSON.stringify(name)})&&document.getElementById('dividerCode').textContent.includes(${JSON.stringify(name)})})()`);
   assert(result,'New demo selection/snippet mismatch '+name);checks++;
 }
-for(const name of ['gold-scroll-with-blue-bellflowers','painted-sprawling-floral-panel','painted-three-band-floral-panel']){
+// Raster previews and copy snippets should use the smallest adequate variant.
+await choose('frameDesign','blue-paired-birds-and-palmettes');await choose('thickness',16);
+const expectedAtlas=resolveOrnament('frame',{design:'blue-paired-birds-and-palmettes',size:16}).asset.path;
+assert(await evaluate(`getComputedStyle(document.getElementById('frameExample')).borderImageSource.includes(${JSON.stringify(expectedAtlas)})&&document.getElementById('frameCode').textContent.includes(${JSON.stringify(expectedAtlas)})`),'Small demo raster atlas resolution matches library');checks++;
+for(const name of ['gold-scroll-with-blue-bellflowers','painted-sprawling-floral-panel','painted-three-band-floral-panel','flying-pig','musicians-and-dancers','animal-musicians-ensemble']){
   await choose('panelDesign',name);
   assert(await evaluate(`(async()=>{const image=document.getElementById('panelImage');image.scrollIntoView({block:'center'});await image.decode();return image.currentSrc.includes(${JSON.stringify(name)})&&document.getElementById('panelCode').textContent.includes(${JSON.stringify(name)})&&document.documentElement.scrollWidth<=document.documentElement.clientWidth})()`),'New demo whole decoration '+name);checks++;
 }

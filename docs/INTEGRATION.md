@@ -13,6 +13,18 @@ catalog, without the large artwork archive. Normal installs do not download
 artwork or install the optional `@ranx729/medieval-ornaments-assets` package.
 Components fetch selected images from the independently pinned asset CDN by
 default. Self-hosting and offline workflows are described below.
+
+| Package | Contains | When to install |
+| --- | --- | --- |
+| `@ranx729/medieval-ornaments@0.6.1` | JS/React, CSS, types, discovery metadata and CLI; no artwork | Component imports or the installed CLI |
+| `@ranx729/medieval-ornaments-illustration-assets@0.1.0` | All 41 illustrations and their PNG/WebP sizes; no runtime | Illustration-only offline files or direct bundler image imports |
+| `@ranx729/medieval-ornaments-assets@0.4.0` | All border/decoration files; depends on the exact illustration archive above | The entire collection for offline use |
+
+Installing an artwork archive does not install the runtime/CLI. The full optional
+install totals roughly 341 MB compressed; use individual imports or `add` for
+selected designs. Import paths determine bundled metadata, while rendering
+determines image requests. Installing either archive alone does not change
+component URLs: copy files to a served folder and set `assetsBase` to self-host.
 Code and artwork have separate licensing scopes: see [LICENSE](../LICENSE) and
 [ASSET-RIGHTS.md](../ASSET-RIGHTS.md).
 
@@ -230,7 +242,7 @@ and caching findings and the reproducible audit command.
 ## Finding designs
 
 ```js
-import { findOrnaments, getOrnament, ornaments } from '@ranx729/medieval-ornaments';
+import { findOrnaments, getOrnament, ornaments } from '@ranx729/medieval-ornaments/catalog';
 
 const frames = findOrnaments({ use: 'frame', categories: ['floral'] });
 const birds = findOrnaments({ use: 'image', subjects: ['bird'] });
@@ -240,8 +252,9 @@ console.log(item.uses, item.formats, item.repeat_axis);
 ```
 
 Results are alphabetical. Array filters require all supplied values to match;
-query words are case-insensitive and match name, description, categories,
-subjects, and colors. Catalog entries are deeply frozen. Importing them does not
+all query words must match, case-insensitively, across name, description,
+categories, subjects, colors, type, facing, composition and usage notes.
+Catalog entries are deeply frozen. Importing them does not
 download artwork. `getOrnament()` throws on unknown names.
 
 The package's `/catalog.json` export includes supported `uses` and `formats` in
@@ -302,7 +315,7 @@ policy. Install a runtime update to obtain a new supported artwork revision.
 To self-host selected designs without installing the complete asset archive:
 
 ```sh
-npx medieval-ornaments copy-assets public/ornaments \
+npx --no-install medieval-ornaments copy-assets public/ornaments \
   --design red-berry-vine --design floral-bird-panel-blue
 ```
 
@@ -313,8 +326,9 @@ four files concurrently, and replaces each image only after verification.
 Failed transfers remove temporary files; already verified files may remain,
 and rerunning the command is safe. There is no install-time download hook.
 
-For fully offline copies or direct asset imports, explicitly install the
-matching artwork package:
+For fully offline copies, first install the runtime above and the matching
+artwork package while connected. The following full install includes illustrations
+through an exact dependency:
 
 ```sh
 npm install --save-dev @ranx729/medieval-ornaments-assets@0.4.0
@@ -342,6 +356,13 @@ same format in the application, since `auto` may choose another. SVG-only
 copying requires selecting compatible designs. Existing unrelated files are
 retained. Destinations must be outside both installed runtime and artwork
 source directories; external destination symlinks are rejected.
+
+For illustration-only copying, replace the full archive install with
+`npm install --save-dev @ranx729/medieval-ornaments-illustration-assets@0.1.0`
+and select names such as `--design flying-pig`. The
+[illustration guide](ILLUSTRATIONS.md#copy-only-selected-code-and-artwork) includes
+a complete offline sequence. Direct image imports need only the relevant data
+package and your bundler's image import convention.
 
 ### Migrating from 0.3.x
 
@@ -403,8 +424,8 @@ npm run build:site
 npm pack
 ```
 
-Integration checks pack both distributions, install the runtime alone, then
-explicitly install the companion and verify every artwork file through offline
+Integration checks pack the runtime and both artwork distributions, install the
+runtime alone, then explicitly install the full companion and verify every artwork file through offline
 copying. They exercise Chromium (`CHROME_BIN` overrides the executable) and real
 React 18/19 consumers. See QA.md for recorded coverage and limitations.
 

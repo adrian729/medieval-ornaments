@@ -42,7 +42,7 @@ include only that type's metadata.
 To copy editable components and only their artwork into your own project:
 
 ```sh
-npx @ranx729/medieval-ornaments@0.6.0 add red-berry-vine flying-pig
+npx @ranx729/medieval-ornaments@0.6.1 add red-berry-vine flying-pig
 # Then import from ./ornaments/red-berry-vine.js in a component under src/.
 ```
 
@@ -51,7 +51,9 @@ examples, installer defaults, TypeScript, SSR, custom public URLs, offline use,
 and how to preserve edits when adding or updating components.
 
 Since 0.4.0 the runtime ships without the complete artwork archive. Images use the
-independently pinned `@ranx729/medieval-ornaments-assets@0.4.0` CDN. Runtime 0.5.0
+independently pinned artwork CDNs: borders/decorations use
+`@ranx729/medieval-ornaments-assets@0.4.0`, and illustrations use
+`@ranx729/medieval-ornaments-illustration-assets@0.1.0`. Runtime 0.5.0
 added individual imports and the local installer; 0.6.0 adds illustrations and
 scoped discovery. Normal npm installs include no
 artwork. The [performance audit](docs/PERFORMANCE.md) records measured costs.
@@ -67,10 +69,10 @@ see [SELECTION.md](SELECTION.md) and [the catalog schema](images.schema.json).
 Images default to version-pinned CDN URLs and load only when selected. To self-host:
 
 ```sh
-npx medieval-ornaments copy-assets public/ornaments --design red-berry-vine
+npx --no-install medieval-ornaments copy-assets public/ornaments --design red-berry-vine
 ```
 
-For offline copying or direct image imports, optionally install `@ranx729/medieval-ornaments-assets@0.4.0` and use `copy-assets --offline`. This explicitly installs the complete roughly 341 MB artwork through two archives, including its pinned `@ranx729/medieval-ornaments-illustration-assets@0.1.0` dependency. You can install the illustration archive alone. Selected `add`/`copy-assets` installs download only chosen files. Border/decoration image imports belong to the original companion; illustration image imports use the illustration archive. See the [0.3.x migration notes](docs/INTEGRATION.md#migrating-from-03x).
+For offline copying or direct image imports, optionally install `@ranx729/medieval-ornaments-assets@0.4.0` and use `copy-assets --offline`. This explicitly installs the complete roughly 341 MB artwork through two archives, including its pinned `@ranx729/medieval-ornaments-illustration-assets@0.1.0` dependency. You can install the illustration archive alone. These data packages do not provide the runtime or CLI; keep the runtime installation above for `copy-assets`. Selected `add`/`copy-assets` installs download only chosen files. Border/decoration image imports belong to the original companion; illustration image imports use the illustration archive. See the [package/workflow guide](docs/INTEGRATION.md) and [0.3.x migration notes](docs/INTEGRATION.md#migrating-from-03x).
 
 Pass `assetsBase: '/ornaments/'` in vanilla or `assetsBase="/ornaments/"` in React. No artwork build or Python is needed by consumers. The integration code has a scoped [MIT license](LICENSE); artwork retains its separately documented [rights status](ASSET-RIGHTS.md).
 
@@ -86,11 +88,11 @@ The 56 repeating styles include matching corners and a frame atlas. Painted plat
 
 ## Preview and use
 
-Open the [small usage demo](https://adrian729.github.io/medieval-ornaments/) for a decorated card, repeating divider, and painted flourish, with copyable HTML/CSS. It includes a dark background, frame choices, and border thickness controls. The [design browser](https://adrian729.github.io/medieval-ornaments/examples/) groups designs by use: frames, repeating dividers, or whole painted decorations. Filter by category, search subjects or colors, and choose a visual preview card. Preview controls apply to the selected use.
+Open the [small usage demo](https://adrian729.github.io/medieval-ornaments/) for a decorated card, repeating divider, and decoration or illustration, with copyable HTML/CSS. It includes a dark background, frame choices, and border thickness controls. The [design browser](https://adrian729.github.io/medieval-ornaments/examples/) groups designs by use: frames, repeating dividers, or whole images. Filter by content type, category, facing, composition or transparency, search subjects or colors, and choose a visual preview card. Preview controls apply to the selected use.
 
 Use [ornaments.css](ornaments.css) for consistent classes: `ornament-frame`, `ornament-divider`, and `ornament-image`. Set `--ornament-image` and `--ornament-size`; the stylesheet handles the shared geometry. [Usage details and exceptions](USAGE.md#shared-usage-contract) explain the optional settings.
 
-Run `python3 -m http.server 8765` in this folder and open [the interactive preview](http://localhost:8765/examples/). Frames offer width, height, and thickness; dividers offer orientation, available length, and thickness; painted decorations offer image height. Divider sections remain complete and centered within the available length. Switch between available formats and inspect the original reference where available. Every repeat tile includes a rotated version for using it in either direction with the shared CSS.
+Run `python3 -m http.server 8765` in this folder and open [the interactive preview](http://localhost:8765/examples/). Frames offer width, height, and thickness; dividers offer orientation, available length, and thickness; decorations and illustrations offer image height. Divider sections remain complete and centered within the available length. Switch between available formats and inspect the original reference where available. Every repeat tile includes a rotated version for using it in either direction with the shared CSS.
 
 The [artwork review page](https://adrian729.github.io/medieval-ornaments/examples/review.html) compares originals, extracted units, repeated strips, and frames at 33px. Switch between painted raster artwork and SVG traces.
 

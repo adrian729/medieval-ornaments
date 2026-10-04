@@ -1,5 +1,66 @@
 # Artwork and frame verification
 
+## Consolidation review · runtime 0.6.1 (2026-10-04)
+
+Reviewed migration fidelity, selection metadata, generated/individual APIs,
+packaging, offline copying, maintenance commands, the main demos and usage docs.
+The review found and fixed these concrete gaps:
+
+- A border rebuild could delete an illustration's files after its master entry
+  was removed. Cleanup now owns only generated border/decoration files.
+- A new illustration without `variants` failed after writing its WebP. New
+  entries now accept omitted variants and validate metadata, canonical paths,
+  unique names and ownership before writes, including component-name collisions.
+- Metadata refresh discarded usage notes authored in the illustration master.
+  It now composes/deduplicates those notes without carrying generated notes
+  forward from the previous catalog. Repeated refresh is byte-stable.
+- The CLI protected only the selected archive, allowing destinations inside an
+  unused installed companion. Both archives and older revisions are now
+  protected, including explicit mirrors and symlink aliases, before mkdir.
+- Offline examples omitted the runtime/CLI prerequisite; data archives provide
+  no executable. Guides now include complete installed-runtime/`--no-install`
+  sequences, public hosting URLs, the package split, sizing/resolution limits,
+  scoped discovery and a tested new-illustration template.
+- The landing demo still advertised 70 designs and used native border rasters.
+  It now reports the live catalog count, groups illustrations and decorations,
+  and selects sufficient smaller raster variants at 2× density for its borders.
+
+Validation for the patch:
+
+- 29 unit tests (including expanded nested/offline archive destination cases),
+  public TypeScript checks and real npm-packed consumers all pass. Packed
+  consumers cover React 18/19, SSR/hydration, refs/state, lazy image geometry,
+  independent illustration-only installs, selective local/npm components and
+  all 1,789 verified offline artwork files.
+- The isolated artwork fixture preserves all 406 imported files and every PNG
+  master, retains removed illustration files, builds a new entry without initial
+  variants/upscaling, preserves authored notes idempotently, and rejects path
+  collisions, invalid facing and unsafe stale variants before writes.
+- Catalog/full public JSON schemas, local guide links/JSON examples and artwork
+  validation pass: 400 exact joins, 102 integer-slice atlases, 56 exact rotations.
+  The current catalog, master metadata, manifest, source artwork and all image
+  bytes remain unchanged; the original cutouts working tree is untouched.
+- All 1,079 Chromium artwork/browser checks pass. The rebuilt self-hosted site
+  and downloaded browser ZIP pass responsive React/vanilla, image decode and
+  illustration gallery checks. Desktop/mobile demo screenshots were inspected.
+  Individual and scoped bundle sizes match the 0.6.0 measurements.
+- `build:browser`/`build:site` pass. The site remains about 935.8 MB against its
+  950 MB budget: move optional archives to release hosting before substantial
+  future additions. Unit tests and packing run sequentially because `prepack`
+  regenerates modules; an initial overlapping check was discarded and rerun.
+
+The tested runtime archive contains **711 files / 168,502 compressed bytes /
+1,136,545 unpacked bytes**, with SHA-512 integrity
+`sha512-se9Hn0CzOvRD++pOgKrZRxKMakkfGQyrz0lR8Inau7g7MgHN+XVkC6leMUWnhFwdMGSTbOlyTRgRsUfJbGzWLA==`.
+Artwork pins remain full 0.4.0 and illustrations 0.1.0; no artwork package is
+republished. Updated data-package README sources will ship with their next
+artwork revision; corrected workflows ship in this runtime's guides now.
+
+npm accepted the exact tested archive for processing. Registry integrity,
+fresh published consumers and deployed-site verification are pending.
+Evidence: `tmp/post-merge-review/`, with the approved local packed-consumer report
+in `local-release-integration.json`.
+
 ## Illustration consolidation · 0.6.0 / artwork 0.4.0 + illustrations 0.1.0 (2026-10-04)
 
 Reviewed decisions: [docs/MERGE-PLAN.md](docs/MERGE-PLAN.md). Migration preserves

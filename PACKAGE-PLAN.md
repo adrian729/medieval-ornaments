@@ -1,6 +1,6 @@
 # npm package and integration plan
 
-Status: runtime 0.6.0 illustration consolidation is published and verified, with full artwork 0.4.0 and illustration artwork 0.1.0. Reviewed decisions are in docs/MERGE-PLAN.md; exact artifacts, registry/CDN checks and live deployment verification are recorded in QA.md.
+Status: runtime 0.6.1 consolidation review is tested and publication verification is in progress. Full artwork 0.4.0 and illustration artwork 0.1.0 remain unchanged. Reviewed merge decisions are in docs/MERGE-PLAN.md; exact artifacts, registry/CDN checks and deployment verification are recorded in QA.md.
 
 ## Goal and scope
 
@@ -96,7 +96,7 @@ divider.destroy();
 
 ## Asset delivery and package contents
 
-Since 0.4.0, default images use `https://unpkg.com/@ranx729/medieval-ornaments-assets@ASSETS_VERSION/`. The runtime exports `assetsPackage`, `assetsVersion` and `defaultAssetsBase`; root `ornamentAssets` pins the independently released companion. Code-only releases retain that pin. Never use `latest` or moving branches. Catalog imports perform no artwork requests.
+Since 0.4.0, borders/decorations use `https://unpkg.com/@ranx729/medieval-ornaments-assets@ASSETS_VERSION/`. Illustrations use `https://unpkg.com/@ranx729/medieval-ornaments-illustration-assets@ILLUSTRATIONS_VERSION/`. The runtime exports both package/version/base triples; root `ornamentAssets` and `ornamentIllustrations` pin the independently released archives. Code-only releases retain both pins. Never use `latest` or moving branches. Catalog imports perform no artwork requests.
 
 The runtime includes core/React APIs, CSS, types, catalog, notices and integration documentation. It contains no artwork files or asset dependency. React remains an optional peer. `/react` imports CSS automatically and `/react/unstyled` supports ordinary Node SSR; preserve their side-effect metadata.
 
@@ -104,11 +104,11 @@ The optional full companion pins `@ranx729/medieval-ornaments-illustration-asset
 
 The optional companion exports `/catalog.json`, `/assets-manifest.json`, `/svg/*`, `/png/*`, `/webp/*` and `/package.json`. Direct image imports migrate from the runtime to this companion in 0.4.0. It preserves every approved asset byte and the separate rights notices.
 
-`copy-assets <destination>` discovers the matching optional companion or downloads only selected files from the pinned CDN. Keep design/format filters, components/variants, filtered catalog, CSS and rights notices. Verify the trusted manifest and each asset; stream four files concurrently with bounded memory. `--offline` forbids network access; `--from` supports approved local/HTTP mirrors. Preserve unrelated files, reject package/source overlap and external destination symlinks, and remove failed temporary files. No install-time download hooks.
+`copy-assets <destination>` discovers the matching optional companion or downloads only selected files from the pinned CDN. Keep design/format filters, components/variants, filtered catalog, CSS and rights notices. Verify the trusted manifest and each asset; stream four files concurrently with bounded memory. `--offline` forbids network access; `--from` supports approved local/HTTP mirrors. Preserve unrelated files, reject overlap with the runtime, both installed artwork archives (including unused/older revisions) and the source, reject external destination symlinks, and remove failed temporary files. Check prospective destinations before mkdir, including aliases to protected folders. No install-time download hooks.
 
 The browser ZIP remains a full self-hosted distribution with modules, CSS and unchanged artwork. Pages retains self-hosted vanilla/React examples. Filesystem copy destinations never determine public `assetsBase` automatically.
 
-Use allowlists for both packages. Exclude source sheets, audit scripts, private files, temporary folders, tests and demos. The 111-design runtime must stay below 200 KB compressed/1.25 MB unpacked. This replaces the 70-design 150 KB/1 MB budget to accommodate 41 new typed entries and richer agent metadata; the artwork-free/optional-dependency invariant and single-design bundle checks remain mandatory. The runtime JSON catalog is compact to limit installed duplication. Measure both archives and verify every artwork hash before release. Ordinary npm packaging rebuilds only metadata. `build:assets` verifies and stages approved existing files; changed artwork/catalog needs a companion version bump and audited manifest update. Publish/verify the asset revision before a runtime referencing it.
+Use allowlists for all three packages. Exclude source sheets, audit scripts, private files, temporary folders, tests and demos. The 111-design runtime must stay below 200 KB compressed/1.25 MB unpacked. This replaces the 70-design 150 KB/1 MB budget to accommodate 41 new typed entries and richer agent metadata; the artwork-free/optional-dependency invariant and single-design bundle checks remain mandatory. The runtime JSON catalog is compact to limit installed duplication. Measure both archives and verify every artwork hash before release. Ordinary npm packaging rebuilds only metadata. `build:assets` verifies and stages approved existing files; changed artwork/catalog needs both archive versions/dependency/pins to advance and an audited manifest update. Publish/verify illustrations, then the full companion, before a runtime referencing them.
 
 Document licensing scope honestly before release. The current repository does not establish a blanket license for supplied reference artwork. Do not label the whole package or collection MIT. Choose an explicit license for the new integration code and include a separate asset provenance/rights notice reflecting what is actually known; publication itself does not grant additional artwork rights.
 
@@ -315,3 +315,16 @@ The asset package remains independently pinned and optional.
 - [x] Verify packed companions/runtime and assembled deployment; final archives are recorded in QA.md.
 - [x] Commit/publish illustration archive, full companion, then runtime; verify fresh registry/CDN consumers.
 - [x] Verify deployed examples/ZIP and live gallery; tag/release and record final results.
+
+## Consolidation review · runtime 0.6.1
+
+Keep artwork 0.4.0 and illustrations 0.1.0 unchanged. This patch hardens
+maintenance/CLI behavior and fills documentation/demo gaps found after the merge.
+
+- [x] Preserve removed illustration files during border cleanup; validate new illustration metadata/path ownership before writes and allow omitted initial variants.
+- [x] Preserve authored illustration usage notes without accumulating generated notes on refresh.
+- [x] Protect both installed artwork archives, older versions, explicit mirrors and symlink aliases before creating copy destinations.
+- [x] Document runtime versus data packages, complete offline/hosting sequences, current capabilities, agent selection and the new-illustration template.
+- [x] Update the landing demo count/grouping and use adequate smaller raster variants for border previews.
+- [x] Verify 29 unit tests, public types, isolated rebuild cases, packed consumers, 1,079 browser checks, artifact/site builds and unchanged individual/scoped bundle sizes.
+- [ ] Publish the tested runtime patch, verify fresh registry/CDN consumers and deployed demos/ZIP, and record final evidence in QA.md.

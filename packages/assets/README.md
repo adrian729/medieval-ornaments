@@ -6,19 +6,21 @@ Artwork revision **0.4.0** contains 111 designs and 1789 asset files: 56 borders
 Artwork rights are separate from integration software: read ASSET-RIGHTS.md.
 
 Ordinary component usage needs only the lightweight runtime. It requests
-selected images from this package's version-pinned CDN; it does not install
+selected borders/decorations from this package's version-pinned CDN and
+illustrations from their own archive's CDN; it does not install
 or download the full archive. To self-host just the designs you need:
 
 ```sh
-npx @ranx729/medieval-ornaments copy-assets public/ornaments \
+npx @ranx729/medieval-ornaments@0.6.1 copy-assets public/ornaments \
   --design red-berry-vine --format webp
 ```
 
 For the complete offline collection:
 
 ```sh
+npm install @ranx729/medieval-ornaments@0.6.1
 npm install --save-dev @ranx729/medieval-ornaments-assets@0.4.0
-npx medieval-ornaments copy-assets public/ornaments --offline
+npx --no-install medieval-ornaments copy-assets public/ornaments --offline
 ```
 
 The complete optional install is approximately 341 MB compressed / 581 MB unpacked,
@@ -38,6 +40,11 @@ import pig from '@ranx729/medieval-ornaments-illustration-assets/webp/256/flying
 `assets-manifest.json` records exact bytes and SHA-256 hashes. Paths inside the
 collection remain unchanged. See the repository's integration guide for sizing,
 formats, SSR, migration, and public asset URLs.
+
+Serve the copied directory at `/ornaments/` and pass `assetsBase: '/ornaments/'`
+to components. The destination directory is not a public URL, and copying files
+does not change the default CDN URLs. See the
+[integration guide](https://github.com/adrian729/medieval-ornaments/blob/main/docs/INTEGRATION.md).
 
 Maintainers stage this package from the repository with `npm run build:assets`.
 Artwork generation is a separate audited workflow; staging only verifies and

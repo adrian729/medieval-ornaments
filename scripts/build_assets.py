@@ -209,7 +209,8 @@ def build(names=None):
                 for asset in [component,*component.get('variants',[])]:
                     result.update(asset[fmt] for fmt in ('png','webp','svg') if fmt in asset)
         return result
-    for relative in sorted(paths(old_catalog)-paths(catalog)):
+    old_generated=[item for item in old_catalog if item.get('asset_type')!='illustration' and item.get('reference')!='medieval-cutouts']
+    for relative in sorted(paths(old_generated)-paths(catalog)):
         target=ROOT/relative
         assert target.resolve().is_relative_to(ROOT) and relative.split('/')[0] in {'png','webp','svg'}
         target.unlink()

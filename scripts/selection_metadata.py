@@ -19,6 +19,8 @@ def illustrations():
 
 def enrich(catalog):
     overrides = json.loads((ROOT / 'selection-metadata.json').read_text())
+    master = ROOT / 'illustrations.json'
+    authored_notes = {item['name']: item.get('usage_notes', []) for item in json.loads(master.read_text())} if master.exists() else {}
     for item in catalog:
         facts = overrides.get(item['name'], {})
         if facts.get('description'):
@@ -28,7 +30,8 @@ def enrich(catalog):
                               else 'border' if item['kind'] == 'repeat-tile' else 'decoration')
         with Image.open(ROOT / item['png']) as image:
             item['has_transparency'] = image.convert('RGBA').getchannel('A').getextrema()[0] < 255
-        notes = list(facts.get('usage_notes', []))
+        # Read authored notes from the master, never yesterday's generated notes.
+        notes = [*authored_notes.get(item['name'], []), *facts.get('usage_notes', [])]
         if item['kind'] == 'repeat-tile':
             notes.append(f"Repeats originally {'vertically' if item['repeat_axis'] == 'y' else 'horizontally'}; use the matching rotated tile for the other axis and the supplied atlas with round fitting for frames.")
         else:
@@ -39,7 +42,7 @@ def enrich(catalog):
             notes.append('PNG/WebP preserve the painted source appearance; SVG is an approximate trace. Check the reference crop and repeat audit for source limitations.')
         elif item['derivation'] == 'ai-assisted-extraction':
             notes.append('AI-assisted extraction can reinterpret details; this is not a pixel-exact historical crop.')
-        item['usage_notes'] = notes
+        item['usage_notes'] = list(dict.fromkeys(notes))
     return catalog
 
 

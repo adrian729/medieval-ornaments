@@ -97,6 +97,26 @@ test('split archives support nested dependencies and illustration-only offline i
   const out=path.join(app,'selected');
   await exec(process.execPath,[new URL('../lib/cli.js',import.meta.url).pathname,'add',item.name,pig.name,'--framework','vanilla','--out',path.join(app,'components'),'--assets',out,'--offline'],{cwd:app});
   for(const relative of [...svgPaths,...pigPaths])assert.deepEqual(await readFile(path.join(out,relative)),await readFile(new URL(relative,root)));
+  // Selecting one family must still protect the other installed archive.
+  const cli=new URL('../lib/cli.js',import.meta.url).pathname;
+  await symlink(main,path.join(app,'archive-alias'),'dir');
+  for(const [destination,design,format,source] of [
+    [path.join(main,'new-folder'),pig.name,'webp',[]],
+    [path.join(nested,'new-folder'),item.name,'svg',[]],
+    [path.join(main,'new-folder'),pig.name,'webp',['--from',root.pathname]],
+    [path.join(app,'archive-alias','new-folder'),pig.name,'webp',[]]
+  ]){
+    await assert.rejects(exec(process.execPath,[cli,'copy-assets',destination,'--design',design,'--format',format,'--offline',...source],{cwd:app}),/outside the package directory/);
+    await assert.rejects(readFile(path.join(destination,'catalog.json')),{code:'ENOENT'});
+    await assert.rejects(readdir(destination),{code:'ENOENT'});
+  }
+  // A skipped older revision is protected too, even with an explicit mirror.
+  const mainManifest=await readFile(path.join(main,'package.json'));
+  await writeFile(path.join(main,'package.json'),JSON.stringify({name:assetsPackage,version:'0.0.0',exports:{'./package.json':'./package.json'}}));
+  await assert.rejects(exec(process.execPath,[cli,'copy-assets',path.join(main,'new-folder'),'--design',pig.name,'--format','webp','--from',root.pathname,'--offline'],{cwd:app}),/outside the package directory/);
+  await writeFile(path.join(main,'package.json'),mainManifest);
+  for(const relative of svgPaths)assert.deepEqual(await readFile(path.join(main,relative)),await readFile(new URL(relative,root)));
+  for(const relative of pigPaths)assert.deepEqual(await readFile(path.join(nested,relative)),await readFile(new URL(relative,root)));
   const { cp } = await import('node:fs/promises');
   await cp(nested,path.join(app,'node_modules',illustrationsPackage),{recursive:true});
   await rm(main,{recursive:true,force:true});
