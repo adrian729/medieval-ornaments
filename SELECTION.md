@@ -1,5 +1,13 @@
 # Selection guidance
 
+For agents integrating chosen designs, default to **individual npm imports and
+CDN image delivery**. Leave `assetsBase` unset. Selecting a design does not
+require copying images, running `add`/`copy-assets` or installing asset archives.
+Choose local files for existing self-hosting, explicit editable/offline needs
+or a measured delivery problem. Keep automatic format/resolution selection;
+use lazy loading for offscreen art and eager loading for visible critical art.
+See [workflow differences and performance tradeoffs](docs/SELECTIVE.md).
+
 Use `images.json` as the source of truth. Selection fields are deliberately generic:
 
 The npm package generates `/catalog.json` and immutable `ornaments` from this catalog, adding `uses` (`frame`, `divider`, or `image`) and available `formats`. Use `findOrnaments({ use, assetType, categories, subjects, colors, facing, composition, hasTransparency, query })` for alphabetical selection without a React dependency or image requests. `/catalog/borders`, `/catalog/decorations` and `/catalog/illustrations` import only their respective metadata. Library divider orientation can be `original`, `horizontal`, or `vertical`; it selects the matching original/rotated asset automatically. See [the integration guide](docs/INTEGRATION.md) and [the illustration/agent selection guide](docs/ILLUSTRATIONS.md).

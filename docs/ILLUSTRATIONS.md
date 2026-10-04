@@ -12,13 +12,16 @@ traced, resized or re-encoded during migration.
 In an existing React or vanilla application, install the lightweight runtime:
 
 ```sh
-npm install @ranx729/medieval-ornaments@0.6.1
+npm install @ranx729/medieval-ornaments@0.7.0
 ```
 
-React applications also need their own React dependency. The commands and imports
-below request only displayed artwork from the pinned CDN; neither artwork archive
-is installed automatically. To copy editable components instead of depending on
-the runtime, use [`add`](#copy-only-selected-code-and-artwork).
+React applications also need their own React dependency. **Individual imports
+with CDN delivery are the recommended default:** the imports below request only
+displayed image variants and create no local image files. Leave `assetsBase`
+unset; no asset archive or copy command is needed. Use
+[`add`](#copy-only-selected-code-and-artwork) when editable local components and
+downloaded images are deliberately wanted. Agents should follow this default
+unless the application's hosting/editing/offline needs justify another workflow.
 
 ```jsx
 import { OrnamentImage as FlyingPig } from
@@ -66,7 +69,7 @@ Defaults remain eager loading, automatic decoding/priority and 2× density.
 ## Copy only selected code and artwork
 
 ```sh
-npx @ranx729/medieval-ornaments@0.6.1 add flying-pig rabbit-reading-book
+npx @ranx729/medieval-ornaments@0.7.0 add flying-pig rabbit-reading-book
 ```
 
 This writes editable React modules under `src/ornaments/` and only their verified
@@ -91,8 +94,8 @@ For illustration-only offline copying, first install the runtime/CLI and the
 data-only archive while connected, then copy locally:
 
 ```sh
-npm install @ranx729/medieval-ornaments@0.6.1
-npm install --save-dev @ranx729/medieval-ornaments-illustration-assets@0.1.0
+npm install @ranx729/medieval-ornaments@0.7.0
+npm install --save-dev @ranx729/medieval-ornaments-assets-illustrations-001@0.1.0
 npx --no-install medieval-ornaments copy-assets public/ornaments \
   --design flying-pig --offline
 ```
@@ -104,8 +107,11 @@ generator; `--offline` prevents artwork requests. Then use
 serve `public/ornaments/` at `/ornaments/`; adjust that URL for deployments under
 a subpath. Copying files does not switch the default CDN URL automatically.
 
-Its 406 PNG/WebP masters and variants are separate from the border/decoration
-archive, so illustration-only projects need not install borders. The full
+The numbered illustration resource contains 406 PNG/WebP files independently
+of borders/decorations. npm installs that entire resource package; the copy
+command extracts only selected designs. This is an optional offline workflow.
+The old `@ranx729/medieval-ornaments-illustration-assets@0.1.0` archive remains a
+compatible snapshot. The full
 `@ranx729/medieval-ornaments-assets@0.4.0` install includes both through a pinned
 dependency. Direct image imports use the illustration package:
 

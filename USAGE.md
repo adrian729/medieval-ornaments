@@ -23,7 +23,7 @@ Use the catalog's `border_image_slice_percent` for `--ornament-slice`, and its `
 
 ```html
 <article class="ornament-frame" style="
-  --ornament-image: url('https://adrian729.github.io/medieval-ornaments/svg/red-berry-vine-border.svg');
+  --ornament-image: url('https://unpkg.com/@ranx729/medieval-ornaments-assets-borders-001@0.1.0/svg/red-berry-vine-border.svg');
   --ornament-slice: 21.42857142857143%;
   --ornament-size: 33px; padding: 24px;">
   Your content
@@ -46,7 +46,7 @@ Use the main tile as a repeating background. For a horizontal divider:
 
 ```html
 <div class="ornament-divider" style="
-  --ornament-image: url('https://adrian729.github.io/medieval-ornaments/svg/red-berry-vine.svg');
+  --ornament-image: url('https://unpkg.com/@ranx729/medieval-ornaments-assets-borders-001@0.1.0/svg/red-berry-vine.svg');
   --ornament-size: 24px; --ornament-ratio: 2.6666666666666665;
   --ornament-length: 100%;" aria-hidden="true"></div>
 ```
@@ -57,7 +57,7 @@ Vertical dividers add `data-axis="y"`; the available length then sets height and
 
 ```html
 <div class="ornament-divider" data-axis="y" style="
-  --ornament-image: url('https://adrian729.github.io/medieval-ornaments/svg/red-berry-vine-rotated.svg');
+  --ornament-image: url('https://unpkg.com/@ranx729/medieval-ornaments-assets-borders-001@0.1.0/svg/red-berry-vine-rotated.svg');
   --ornament-size: 24px; --ornament-ratio: 2.6666666666666665;
   --ornament-length: 240px;" aria-hidden="true"></div>
 ```
@@ -72,7 +72,7 @@ The five extracted panels, plate 11, 16, 36, and 37, and five new source decorat
 
 ```html
 <img class="ornament-image"
-     src="https://adrian729.github.io/medieval-ornaments/webp/256/floral-bird-panel-blue.webp"
+     src="https://unpkg.com/@ranx729/medieval-ornaments-assets-decorations-001@0.1.0/webp/256/floral-bird-panel-blue.webp"
      style="--ornament-size: 256px" alt="">
 ```
 

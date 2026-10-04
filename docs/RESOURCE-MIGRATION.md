@@ -12,6 +12,10 @@ is optional unless it follows the main Git branch or adopts the new release.
 
 For applications using npm components with their default asset URLs:
 
+**Recommended default:** individual package imports and CDN delivery. This
+creates no image copies in the application repo. Leave `assetsBase` unset;
+`add`, `copy-assets` and resource-package installs are unnecessary here.
+
 1. Run `npm install @ranx729/medieval-ornaments@0.7.0`.
 2. Keep your current component imports and props; no storage ID belongs in JSX.
 3. Check your content-security policy allows `https://unpkg.com` in `img-src`.
@@ -27,6 +31,17 @@ For self-hosted applications:
 3. Offline work requires the matching optional archive/resource versions. Do not
    mix a newer runtime with an older archive and assume it contains new artwork.
 4. Preserve rights notices and check selected output files and application CSS.
+
+### Switching existing local copies to CDN delivery
+
+Install the runtime, replace local generated component imports with the matching
+`/react/<name>` or `/designs/<name>` npm entry, and review any component edits
+before replacing them. Preserve the unstyled/CSS setup if using Node SSR.
+Remove local `assetsBase` overrides and asset-copy build steps. Verify the
+application requests the pinned CDN URLs, then remove only images/generated
+files that have no remaining users. Ordinary npm components need no asset
+packages. CDN delivery reduces deployed files; self-hosted selected files can
+still be preferable for offline use or measured first-load latency.
 
 ## Breaking repository/hosting assumptions
 

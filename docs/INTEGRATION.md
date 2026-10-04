@@ -12,7 +12,10 @@ Since 0.4.0 the runtime contains JavaScript, CSS, TypeScript declarations and th
 catalog, without the large artwork archive. Normal installs do not download
 artwork or install the optional `@ranx729/medieval-ornaments-assets` package.
 Components fetch selected images from the independently pinned asset CDN by
-default. Self-hosting and offline workflows are described below.
+default. **For chosen designs, individual imports with default CDN delivery are
+the recommended setup.** Leave `assetsBase` unset: no local image files are
+created and no `add`, `copy-assets` or artwork-package install is required.
+Self-hosting and offline workflows are deliberate alternatives described below.
 
 | Package | Contains | When to install |
 | --- | --- | --- |
@@ -37,6 +40,12 @@ For fixed designs, prefer `@ranx729/medieval-ornaments/react/<name>` or
 `@ranx729/medieval-ornaments/designs/<name>` (since 0.5.0). They bundle only the
 chosen metadata and shared helpers, and omit the `design` option. `add <name>...`
 can instead copy editable component code and selected artwork into your project.
+For agents, keep images on the default CDN unless the application already
+self-hosts, needs editable/offline assets, explicitly chooses another host or
+has a measured delivery issue. Individual imports minimize JS; CDN delivery
+minimizes deployed files. Self-hosting selected files can give faster first
+delivery by avoiding external connections and cold CDN misses; use the
+[performance guidance](PERFORMANCE.md) to assess that separate tradeoff.
 The [selective usage guide](SELECTIVE.md) covers both workflows, local defaults,
 format selection, public URLs, offline use, TypeScript, SSR and updates.
 

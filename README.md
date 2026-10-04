@@ -11,6 +11,12 @@ metadata and image bytes preserved. [Browse illustrations](https://adrian729.git
 npm install @ranx729/medieval-ornaments
 ```
 
+**Recommended application setup: individual npm imports with default CDN delivery.**
+This bundles only chosen designs and shared helpers; the browser fetches selected
+image variants. It creates no local image files. Leave `assetsBase` unset and
+use `add` or `copy-assets` only when you deliberately want local files.
+No asset package is needed for this default workflow.
+
 Dependency-free vanilla JavaScript, optional React components, TypeScript declarations, and categorized discovery use the same normalized contract. See the [integration guide](https://github.com/adrian729/medieval-ornaments/blob/main/docs/INTEGRATION.md), [plain JS example](https://adrian729.github.io/medieval-ornaments/examples/vanilla/), [React example](https://adrian729.github.io/medieval-ornaments/examples/react/), and [browser ZIP](https://github.com/adrian729/medieval-ornaments/releases/download/v0.7.0/medieval-ornaments-browser.zip).
 
 Import an individual design to bundle only that design and the shared helpers:
@@ -92,7 +98,7 @@ The old full and illustration archives remain compatible optional offline
 sources; existing published versions remain available. Data packages provide
 images, not components or the CLI. Selected installs request only chosen files.
 
-Pass `assetsBase: '/ornaments/'` in vanilla or `assetsBase="/ornaments/"` in React. No artwork build or Python is needed by consumers. The integration code has a scoped [MIT license](LICENSE); artwork retains its separately documented [rights status](ASSET-RIGHTS.md).
+For self-hosted copies, pass `assetsBase: '/ornaments/'` in vanilla or `assetsBase="/ornaments/"` in React. Keep it unset for the default CDN workflow. No artwork build or Python is needed by consumers. The integration code has a scoped [MIT license](LICENSE); artwork retains its separately documented [rights status](ASSET-RIGHTS.md).
 
 ## Artwork collection
 
@@ -127,7 +133,7 @@ For a scalable frame:
 
 ```css
 .ornament-frame {
-  --ornament-image: url("https://adrian729.github.io/medieval-ornaments/svg/red-berry-vine-border.svg");
+  --ornament-image: url("https://unpkg.com/@ranx729/medieval-ornaments-assets-borders-001@0.1.0/svg/red-berry-vine-border.svg");
   --ornament-size: 32px;
 }
 ```

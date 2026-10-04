@@ -336,6 +336,12 @@ docs/RESOURCE-MIGRATION.md. Artwork pixels, design names, props, geometry,
 scoped metadata and individual imports remain unchanged. Resource ownership is
 independent of factual asset type and supports additional numbered repositories.
 
+Consumer/agent default: individual npm imports with pinned CDN images and no
+local `assetsBase`. `add` deliberately copies code and artwork; `copy-assets`
+deliberately downloads images for self-hosting. Choose local delivery for existing
+hosting, explicit editable/offline requirements or measured delivery problems.
+CDN reduces deployment size but does not guarantee faster first paint.
+
 - [x] Validate the ownership split, preserve approved bytes/metadata and define stable collection/sequence naming and capacity reserves.
 - [x] Implement central registry/manifests/locks, explicit sparse fetching, canonical generator paths, local aliases, approval, new-source scaffolding and immutable retained-design migration.
 - [x] Route generic/individual components and verified installs through exact source pins without runtime artwork dependencies or full routing in individual bundles.

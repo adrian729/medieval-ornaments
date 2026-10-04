@@ -1,15 +1,33 @@
 # Use only the ornaments you need
 
-Since 0.5.0, choose either individual npm imports or the `add` command. Both use
+**Recommended default: individual npm imports with CDN images.** Leave
+`assetsBase` unset. This creates no local image files and needs no asset package,
+`add` command or `copy-assets` step. Selective imports reduce application JS;
+only displayed image variants are requested from the CDN.
+
+Since 0.5.0, individual imports and the optional `add` command use
 the same geometry, resolution selection, loading behavior and TypeScript types
 as the full API. Runtime 0.7.0 retains the same artwork bytes through numbered resources, including the merged
 illustrations. See [illustration and agent selection guidance](ILLUSTRATIONS.md).
 
 | Workflow | Component code | Artwork |
 | --- | --- | --- |
-| Individual imports | Your bundler includes chosen designs and shared helpers | Browser requests the selected image from the pinned CDN; self-hosting is optional |
+| Individual imports (recommended) | Your bundler includes chosen designs and shared helpers | Pinned CDN images; no local image copies |
 | `add` | Copies chosen components and shared helpers into your project; you can edit them | Downloads only chosen designs/formats into your public directory |
+| `copy-assets` | Keep your existing npm component imports | Downloads selected images for self-hosting; set `assetsBase` to their public URL |
 | Full API | Includes all 111 designs for runtime selection/search | Browser still requests only displayed images |
+
+For agents: use the recommended default for chosen designs, respecting an
+application's existing hosting requirements. Choose `add` for editable local
+components, and self-host for offline use, an explicit hosting choice or a
+measured CDN delivery problem. Setting `--assets-base` on `add` changes the
+generated public URLs; it does not skip downloading its selected images.
+
+CDN delivery keeps checkout and deployment sizes smaller; it is not a guarantee
+of the fastest first paint. Serving selected files with the application can
+avoid an extra connection and cold CDN misses. Preserve `format="auto"` and
+resolution selection; use lazy loading for offscreen art and eager loading for
+visible critical images. See [measured performance](PERFORMANCE.md).
 
 The small runtime npm package contains all individual modules. npm installs the
 package as a unit; individual imports reduce your application bundle. Installing

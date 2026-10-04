@@ -705,3 +705,15 @@ and warm results do not guarantee first-load latency elsewhere.
 
 Evidence: `tmp/delivery-review/readme-previews.json`, `gallery-cold.json`,
 `gallery-scroll.json`, `cdn-repeat.json` and the live README verification report.
+
+### Consumer workflow documentation
+
+README, selection/agent guidance, integration, selective usage, illustration
+usage and the migration report now recommend individual npm imports with CDN
+delivery and no local image copies. Local `add`/`copy-assets` workflows remain
+explicit alternatives; smaller deployment size is distinguished from first-load
+latency. Illustration instructions now pin runtime 0.7.0 and the numbered
+offline illustration resource. Direct HTML/CSS examples replace retired Pages
+image URLs with exact npm resource pins. Documentation-only packaging remains
+within the runtime budgets: 183,464 B compressed / 1,242,494 B unpacked before
+this QA/checklist record, which is excluded from the runtime package.
