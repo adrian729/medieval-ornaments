@@ -56,10 +56,23 @@ Artwork pins remain full 0.4.0 and illustrations 0.1.0; no artwork package is
 republished. Updated data-package README sources will ship with their next
 artwork revision; corrected workflows ship in this runtime's guides now.
 
-npm accepted the exact tested archive for processing. Registry integrity,
-fresh published consumers and deployed-site verification are pending.
-Evidence: `tmp/post-merge-review/`, with the approved local packed-consumer report
-in `local-release-integration.json`.
+Published **@ranx729/medieval-ornaments@0.6.1** as npm `latest`. The registry's
+integrity matches the exact tested archive above, and the pinned CDN's CLI is
+byte-exact. Fresh registry consumers pass with full artwork 0.4.0 and
+illustrations 0.1.0. No artwork archive was republished.
+
+Application deployment
+[37213217140](https://github.com/adrian729/medieval-ornaments/actions/runs/37213217140)
+at `ffc8cb16b910326ef046321c4f358b5b732dfea2` succeeded. The public landing demo,
+CLI/runtime and all three usage guides match the local files byte-for-byte.
+Live React/vanilla examples pass at 375/1200px; actual pinned npm CDN modules and
+13 selected images decode; the downloaded browser ZIP self-hosts its images and
+its illustration gallery contains all 41 entries. Public release:
+[v0.6.1](https://github.com/adrian729/medieval-ornaments/releases/tag/v0.6.1).
+The follow-up release-record commit changes QA/plan text only.
+
+Evidence: `tmp/post-merge-review/`, including `local-release-integration.json`,
+`registry-integration.log`, `registry.json`, `live-site.log` and `deployment.log`.
 
 ## Illustration consolidation · 0.6.0 / artwork 0.4.0 + illustrations 0.1.0 (2026-10-04)
 

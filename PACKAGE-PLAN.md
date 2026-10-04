@@ -1,6 +1,6 @@
 # npm package and integration plan
 
-Status: runtime 0.6.1 consolidation review is tested and publication verification is in progress. Full artwork 0.4.0 and illustration artwork 0.1.0 remain unchanged. Reviewed merge decisions are in docs/MERGE-PLAN.md; exact artifacts, registry/CDN checks and deployment verification are recorded in QA.md.
+Status: runtime 0.6.1 consolidation review is published and verified. Full artwork 0.4.0 and illustration artwork 0.1.0 remain unchanged. Reviewed merge decisions are in docs/MERGE-PLAN.md; exact artifacts, registry/CDN checks and deployment verification are recorded in QA.md.
 
 ## Goal and scope
 
@@ -327,4 +327,4 @@ maintenance/CLI behavior and fills documentation/demo gaps found after the merge
 - [x] Document runtime versus data packages, complete offline/hosting sequences, current capabilities, agent selection and the new-illustration template.
 - [x] Update the landing demo count/grouping and use adequate smaller raster variants for border previews.
 - [x] Verify 29 unit tests, public types, isolated rebuild cases, packed consumers, 1,079 browser checks, artifact/site builds and unchanged individual/scoped bundle sizes.
-- [ ] Publish the tested runtime patch, verify fresh registry/CDN consumers and deployed demos/ZIP, and record final evidence in QA.md.
+- [x] Publish the tested runtime patch, verify fresh registry/CDN consumers and deployed demos/ZIP, and record final evidence in QA.md.
