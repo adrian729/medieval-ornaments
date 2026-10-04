@@ -1,5 +1,74 @@
 # Artwork and frame verification
 
+## Illustration consolidation · 0.6.0 / artwork 0.4.0 (2026-10-04)
+
+Reviewed decisions: [docs/MERGE-PLAN.md](docs/MERGE-PLAN.md). Migration preserves
+41 illustrations, including the newer uncommitted musicians-and-dancers addition,
+with all six descriptive fields and every master/variant byte unchanged.
+`illustration-import.json` records 412 allowlisted file hashes. All 1,383 existing
+ornament files also match the pre-merge manifest. The cutouts checkout/status is
+unchanged. Total catalog: 111 designs / 233 genuine SVGs / 1,789 artwork files.
+
+Selection now distinguishes border/decoration/illustration, records measured
+transparency and practical usage notes, and supports facing/composition/type/
+transparency filters. Forty-four formerly generic ornament descriptions were
+reviewed against the artwork and improved; old subject tags retain singular
+aliases. Scoped catalogs import only their own metadata. Both public catalogs
+validate against images.schema.json with a Draft 2020-12 validator.
+
+Validation completed:
+
+- 28 unit tests and public TypeScript checks; every individual entry has parity
+  with generic geometry/SSR at available formats and densities. Illustration
+  metadata/hash preservation, format/capability failures, resolution limits,
+  scoped selection and selected offline local installs pass.
+- Actual packed consumers: lean runtime with no React or automatic artwork
+  installation; a two-design HTTP install before the companion downloads only
+  one manifest, four selected border SVGs and five selected illustration WebPs.
+  All 1,789 offline artwork files verify. Four production npm/local × React/
+  vanilla consumers contain exactly three metadata modules and one resolver.
+  Local declarations reject unavailable formats. Existing 168 native axis cases,
+  32 density/length cases, React 18/19, Strict Mode, production, SSR/hydration,
+  refs/state, teardown, unchanged DOM writes and lazy-image geometry pass.
+- Catalog validation checks every dimension, byte count, native/downscaled
+  PNG/WebP visible pixel and alpha pair. Artwork checks retain 400 exact joins,
+  102 integer-slice atlases and 56 exact rotations. No artwork generator ran
+  during migration/package builds.
+- All 1,074 local browser checks pass across 111 designs, formats, responsive
+  sizes, original/forced axes, main/usage/review pages and the new metadata
+  filters. Light/dark illustration screenshots were inspected, including the
+  wide seven-figure group at 375px. Shared CSS/rendering/resolution cores have
+  no diff. Source/reference bytes remain untouched.
+- Production and cold-cache audit results are in docs/PERFORMANCE.md. Selected
+  React illustration: 4,048 B gzip; selected React border: 4,733 B; CSS: 473 B.
+  Scoped illustration discovery contains 41 entries and no aggregate catalog.
+  Lazy offscreen collection requests two code/style resources and no artwork;
+  eager fixture requests 169 resources. Reports remain under tmp/merge-review/.
+- Isolated selected-border rebuild retains all 406 illustration files and their
+  metadata. Selected illustration resizing leaves every PNG master unchanged,
+  skips the 768 limit for the 650px corrected creature, and leaves other
+  illustrations unchanged. The test never writes to real artwork.
+- `build:browser` and `build:site` pass. The assembled site is **935,771,819 B**
+  before final release-document updates, under the 950 MB budget. Editable trace
+  masters remain in Git; all public exports and reference sources remain in the
+  deployed site. The ZIP includes the unified browser and illustration guide.
+
+Release artifact, assembled site size and post-publication checks are recorded
+below when complete. The runtime budgets are 200 KB compressed / 1.25 MB unpacked
+for the richer 111-design catalog; artwork remains excluded and optional.
+
+Final tested artifacts:
+
+- Runtime 0.6.0: **711 files / 165,540 B compressed / 1,124,807 B unpacked**.
+  SRI: `sha512-kzoV4RXzBhn1Uio6Dyy4lGhJAl91h2IAHK4YtcTpnWSG1tdVetjErALzCxmQ6bMEYwh2zvfHvElkyRDx+WmUAA==`.
+- Optional artwork 0.4.0: **1,795 files / 340,776,285 B compressed /
+  581,455,802 B unpacked**. Includes 1,789 artwork files and six metadata/notices.
+  SRI: `sha512-W7zALPaXACg5AZ3oDlH0aRYugfzqAXC++s/K46247smI0X0Mc/H1I7kMC7lbUQlOhg3HWE9Hdcu98fGMFp0HUg==`.
+- The exact runtime artifact passed the complete consumer matrix against the
+  exact tested companion archive. Final fixture: `/tmp/ornaments-integration-D8nDy5`;
+  artifacts are pinned in ignored `tmp/merge-review/approved-release.json`.
+
+
 ## Selective imports and local installer · 0.5.0 (2026-10-04)
 
 The code-only release adds bound `/designs/<name>`, `/react/<name>` and

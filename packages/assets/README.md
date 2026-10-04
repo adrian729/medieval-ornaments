@@ -2,7 +2,7 @@
 
 This optional package contains the complete approved SVG, PNG and lossless WebP
 collection for [`@ranx729/medieval-ornaments`](https://www.npmjs.com/package/@ranx729/medieval-ornaments).
-Artwork revision **0.3.2** retains all 70 designs and 1383 asset files unchanged.
+Artwork revision **0.4.0** contains 111 designs and 1789 asset files: 56 borders, 14 whole decorations and 41 illustrations. The original 70 designs retain their artwork bytes.
 Artwork rights are separate from integration software: read ASSET-RIGHTS.md.
 
 Ordinary component usage needs only the lightweight runtime. It requests
@@ -17,11 +17,11 @@ npx @ranx729/medieval-ornaments copy-assets public/ornaments \
 For the complete offline collection:
 
 ```sh
-npm install --save-dev @ranx729/medieval-ornaments-assets@0.3.2
+npm install --save-dev @ranx729/medieval-ornaments-assets@0.4.0
 npx medieval-ornaments copy-assets public/ornaments --offline
 ```
 
-The archive is approximately 180 MB compressed / 420 MB unpacked. Installing it
+The archive is approximately 341 MB compressed / 581 MB unpacked. Installing it
 is optional. The runtime is not a dependency of this data-only package, and this
 package is not a dependency of the runtime. Direct bundler imports move here:
 

@@ -1,5 +1,6 @@
-import { createFrame, createDivider, createOrnamentImage, findOrnaments } from '@ranx729/medieval-ornaments';
+import { createFrame, createDivider, createOrnamentImage, findOrnaments, getOrnament } from '@ranx729/medieval-ornaments';
 import { createDivider as createBerryDivider } from '@ranx729/medieval-ornaments/designs/red-berry-vine';
+import { createOrnamentImage as createFlyingPig } from '@ranx729/medieval-ornaments/designs/flying-pig';
 
 // This checkout demo self-hosts images. Installed projects can omit assetsBase
 // for version-pinned CDN images, or use their own copied public asset root.
@@ -8,7 +9,7 @@ const byId = id => document.getElementById(id);
 function populate(id, use, selected) {
   const select = byId(id), groups = new Map();
   for (const item of findOrnaments({ use })) {
-    const category = item.categories[0];
+    const category = item.asset_type + ' · ' + item.categories[0];
     if (!groups.has(category)) {
       const group = document.createElement('optgroup'); group.label = category;
       groups.set(category, group);
@@ -30,6 +31,8 @@ function update() {
   frame?.update({ design });
   divider.update({ design, orientation, size, length });
   whole.update({ design: byId('wholeDesign').value });
+  const illustration = getOrnament(byId('wholeDesign').value);
+  byId('imageDetails').textContent = illustration.description + ' · ' + illustration.asset_type + ' · ' + (illustration.has_transparency ? 'has transparency' : 'opaque background');
   byId('details').textContent = `${size}px thick · ${length}px available · ${divider.configuration.axis === 'x' ? 'horizontal' : 'vertical'} · ${divider.configuration.asset.path}`;
   byId('code').textContent = `import { createDivider } from '@ranx729/medieval-ornaments';\nimport '@ranx729/medieval-ornaments/styles.css';\n\nconst divider = createDivider(element, {\n  design: '${design}',\n  orientation: '${orientation}',\n  size: ${size}, length: ${length}\n});\n// divider.update({ orientation: 'vertical' });\n// divider.destroy();`;
 }
@@ -40,4 +43,5 @@ byId('toggle').addEventListener('click', () => {
 });
 update();
 createBerryDivider(byId('selective-divider'), { assetsBase });
+createFlyingPig(byId('selective-illustration'), { assetsBase, size: 128, loading: 'lazy', decoding: 'async' });
 document.body.dataset.ready = 'true';

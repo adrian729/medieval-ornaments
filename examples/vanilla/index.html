@@ -6,7 +6,7 @@
   <link rel="icon" href="../../favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="../../ornaments.css">
   <link rel="stylesheet" href="../integration.css">
-  <script type="importmap">{"imports":{"@ranx729/medieval-ornaments":"../../lib/index.js","@ranx729/medieval-ornaments/designs/red-berry-vine":"../../lib/designs/red-berry-vine.js"}}</script>
+  <script type="importmap">{"imports":{"@ranx729/medieval-ornaments":"../../lib/index.js","@ranx729/medieval-ornaments/designs/red-berry-vine":"../../lib/designs/red-berry-vine.js","@ranx729/medieval-ornaments/designs/flying-pig":"../../lib/designs/flying-pig.js"}}</script>
 </head>
 <body>
 <main>
@@ -18,7 +18,7 @@
     <label>Divider direction <select id="orientation"><option value="original">Original direction</option><option value="horizontal">Horizontal</option><option value="vertical">Vertical</option></select></label>
     <label>Divider thickness <input id="size" type="range" min="12" max="64" value="24"></label>
     <label>Available length <input id="length" type="range" min="80" max="600" value="420"></label>
-    <label>Whole decoration <select id="wholeDesign"></select></label>
+    <label>Decoration or illustration <select id="wholeDesign"></select></label>
   </div>
   <div class="grid">
     <div>
@@ -27,7 +27,7 @@
       <p id="details" class="status"></p>
       <button id="toggle">Detach frame</button>
     </div>
-    <div class="whole"><img id="whole" alt=""><p>A whole decoration at 128px height, with the smallest suitable raster asset.</p></div>
+    <div class="whole"><img id="whole" alt=""><p id="imageDetails"></p></div>
   </div>
   <h2>Use it in your project</h2>
   <pre id="code"></pre>
@@ -38,6 +38,11 @@
 import '@ranx729/medieval-ornaments/styles.css';
 createDivider(element);</pre>
   <p>Individual imports omit the design option and bundle only chosen metadata. This picker uses the full API to browse every design.</p>
+  <h2>Use an illustration</h2>
+  <img id="selective-illustration" alt="">
+  <pre>import { createOrnamentImage } from '@ranx729/medieval-ornaments/designs/flying-pig';
+createOrnamentImage(image, { size: 128, loading: 'lazy', decoding: 'async' });</pre>
+  <p><a href="../../docs/ILLUSTRATIONS.md">Illustration usage and metadata</a> · <a href="../?type=illustration">Browse illustrations</a></p>
 </main>
 <script type="module" src="main.js"></script>
 </body>

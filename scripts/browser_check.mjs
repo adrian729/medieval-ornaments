@@ -79,6 +79,23 @@ await choose('search','butterfly-panel-red');
 assert(await evaluate("document.querySelectorAll('.design-card').length===1&&document.getElementById('design').value==='butterfly-panel-red'"),'Search filtering');checks++;
 await choose('search','no-such-design');
 assert(await evaluate("document.querySelectorAll('.design-card').length===0&&document.getElementById('stage').hidden&&document.getElementById('previewControls').hidden"),'Empty results');checks++;
+await choose('search','');await choose('category','all');await choose('assetType','illustration');
+assert(await evaluate("document.getElementById('purpose').value==='whole'&&document.querySelectorAll('.design-card').length===41"),'Illustration type browsing');checks++;
+await choose('category','music');await choose('facing','left');await choose('composition','single-figure');await choose('transparency','alpha');
+assert(await evaluate(`document.querySelectorAll('.design-card').length===${catalog.filter(i=>i.asset_type==='illustration'&&i.categories.includes('music')&&i.facing==='left'&&i.composition==='single-figure'&&i.has_transparency).length}`),'Illustration metadata filters');checks++;
+for(const id of ['facing','composition','transparency'])await choose(id,'all');
+await choose('category','all');await choose('design','animal-musicians-ensemble');
+assert(await evaluate("document.getElementById('tags').textContent.includes('framed-scene')&&document.getElementById('tags').textContent.includes('opaque')&&document.getElementById('usageNotes').textContent.includes('preserved unchanged')&&document.querySelector('[value=svg]').disabled"),'Preserved-scene metadata and formats');checks++;
+for(const theme of ['light','dark']){
+  await choose('theme',theme);await choose('design','musicians-and-dancers');
+  await send('Emulation.setDeviceMetricsOverride',{width:375,height:1100,deviceScaleFactor:1.25,mobile:false});
+  await evaluate('document.getElementById("stage").scrollIntoView({block:"center"})');await pause(100);
+  assert(await evaluate("document.documentElement.scrollWidth<=document.documentElement.clientWidth"),'Illustration mobile overflow');checks++;
+  const shot=await send('Page.captureScreenshot',{captureBeyondViewport:false});
+  await writeFile(new URL(`../tmp/illustrations-${theme}-mobile.png`,import.meta.url),Buffer.from(shot.data,'base64'));
+}
+await send('Emulation.setDeviceMetricsOverride',{width:1200,height:1000,deviceScaleFactor:1,mobile:false});
+await choose('assetType','all');await choose('theme','light');
 await choose('search','');await choose('category','all');await choose('purpose','divider');
 await choose('design','plate-03-spiral-bands');
 assert(await evaluate("!document.getElementById('previewStrip').hidden&&document.getElementById('fitControl').hidden&&document.getElementById('cornerSection').hidden&&document.getElementById('widthControl').hidden&&!document.getElementById('heightControl').hidden&&getComputedStyle(document.getElementById('previewStrip'),'::before').backgroundRepeat==='no-repeat round'"),'Vertical divider controls');checks++;
@@ -169,7 +186,8 @@ for(const format of ['webp','svg']){
 }
 await choose('collection','plate');assert(await evaluate("document.querySelectorAll('.card').length===38"),'Plate review filtering');checks++;
 await choose('collection','floral');assert(await evaluate("document.querySelectorAll('.card').length===6"),'Floral review filtering');checks++;
-await choose('collection','additions');assert(await evaluate(`document.querySelectorAll('.card').length===${catalog.length-49}`),'Source additions review filtering');checks++;
+await choose('collection','additions');assert(await evaluate(`document.querySelectorAll('.card').length===${catalog.filter(i=>i.asset_type!=='illustration').length-49}`),'Source additions review filtering');checks++;
+await choose('collection','illustrations');assert(await evaluate("document.querySelectorAll('.card').length===41&&document.querySelectorAll('.ornament-frame').length===0"),'Illustration review filtering');checks++;
 await choose('collection','floral');
 await choose('format','webp');await choose('theme','dark');
 await evaluate('scrollTo(0,0)');await pause(150);

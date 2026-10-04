@@ -9,7 +9,9 @@ const manifestBytes=await readFile(new URL('assets-manifest.json',root)),manifes
 const hash=bytes=>createHash('sha256').update(bytes).digest('hex');
 if(manifest.package!==pkg.ornamentAssets.package||manifest.version!==pkg.ornamentAssets.version||manifest.catalogSha256!==hash(catalog))throw Error('Pinned artwork manifest does not match the runtime catalog/package.');
 const base = `https://unpkg.com/${manifest.package}@${manifest.version}/`;
-await writeFile(new URL('lib/catalog.json', root), catalog);
+// Preserve the JSON API without duplicating indentation in the installed package.
+// The signed artwork catalog retains its original deterministic serialization.
+await writeFile(new URL('lib/catalog.json', root), JSON.stringify(items) + '\n');
 await writeFile(new URL('lib/runtime.js', root), `// Generated release pins; contains no design catalog.\nexport const version = ${JSON.stringify(pkg.version)};\nexport const assetsPackage = ${JSON.stringify(manifest.package)};\nexport const assetsVersion = ${JSON.stringify(manifest.version)};\nexport const assetsManifestSha256 = ${JSON.stringify(hash(manifestBytes))};\nexport const defaultAssetsBase = ${JSON.stringify(base)};\n`);
 for (const directory of ['design-data', 'designs', 'react-designs']) await mkdir(new URL(`lib/${directory}/`, root), { recursive: true });
 for (const directory of ['design-data', 'designs', 'react-designs']) {
@@ -32,12 +34,17 @@ const union = values => values.map(value => JSON.stringify(value)).join(' | ');
 const names = items.map(item => item.name);
 const repeats = items.filter(item => item.kind === 'repeat-tile').map(item => item.name);
 const whole = items.filter(item => item.kind === 'standalone').map(item => item.name);
+const illustrationNames = items.filter(item => item.asset_type === 'illustration').map(item => item.name);
 const categories = [...new Set(items.flatMap(item => item.categories))].sort();
 const declarations = `// Generated design/capability types; edit scripts/build-library.mjs.
 export type DesignName = ${union(names)};
 export type RepeatDesignName = ${union(repeats)};
 export type WholeDesignName = ${union(whole)};
+export type IllustrationDesignName = ${union(illustrationNames)};
 export type Category = ${union(categories)};
+export type AssetType = 'border' | 'decoration' | 'illustration';
+export type Facing = 'left' | 'right' | 'front' | 'mixed' | 'unclear';
+export type Composition = 'single-ornament' | 'standalone' | 'repeat-tile' | 'single-figure' | 'multiple-figures' | 'framed-scene';
 export type OrnamentUse = 'frame' | 'divider' | 'image';
 export type Format = 'auto' | 'svg' | 'webp' | 'png';
 export type Orientation = 'original' | 'horizontal' | 'vertical';
@@ -56,7 +63,8 @@ export interface Asset extends RasterVariant {
 export interface Ornament extends Asset {
   readonly name: DesignName; readonly description: string;
   readonly categories: readonly Category[]; readonly subjects: readonly string[];
-  readonly colors: readonly string[]; readonly facing: string; readonly composition: string;
+  readonly colors: readonly string[]; readonly facing: Facing; readonly composition: Composition;
+  readonly asset_type: AssetType; readonly has_transparency: boolean; readonly usage_notes: readonly string[];
   readonly kind: 'standalone' | 'repeat-tile'; readonly derivation: string;
   readonly uses: readonly OrnamentUse[]; readonly formats: readonly Exclude<Format, 'auto'>[];
   readonly components: Readonly<Partial<Record<'border_image' | 'corner' | 'rotated_tile' | 'reference_crop', Asset>>>;
@@ -79,7 +87,8 @@ export interface DividerOptions extends CommonOptions { design: RepeatDesignName
 export interface ImageOptions extends CommonOptions { design: WholeDesignName; alt?: string; decoding?: 'auto' | 'sync' | 'async'; fetchPriority?: 'auto' | 'high' | 'low'; }
 export interface SelectionFilters {
   use?: OrnamentUse; categories?: readonly Category[]; subjects?: readonly string[];
-  colors?: readonly string[]; query?: string;
+  colors?: readonly string[]; query?: string; assetType?: AssetType; hasTransparency?: boolean;
+  facing?: Facing; composition?: Composition;
 }
 export interface ResolvedOrnament {
   design: DesignName; use: OrnamentUse; axis?: 'x' | 'y'; size: number; loading: 'eager' | 'lazy';
@@ -111,11 +120,18 @@ export declare function createDivider(element: HTMLElement, options: DividerOpti
 export declare function createOrnamentImage(element: HTMLImageElement, options: ImageOptions): OrnamentController<ImageOptions>;
 `;
 await writeFile(new URL('lib/index.d.ts', root), declarations);
-const common = declarations.slice(declarations.indexOf('export type OrnamentUse'), declarations.indexOf('export declare const version'))
+const common = declarations.slice(declarations.indexOf('export type AssetType'), declarations.indexOf('export declare const version'))
   .replace(/\b(?:DesignName|RepeatDesignName|WholeDesignName|Category)\b/g, 'string')
   .replace(/readonly (png|webp|png_bytes|webp_bytes):/g, 'readonly $1?:');
 await writeFile(new URL('lib/common.d.ts', root), common);
-await writeFile(new URL('lib/selection.d.ts', root), `export { ornaments, getOrnament, findOrnaments } from './index.js';\nexport type { Ornament, RepeatOrnament, WholeOrnament, SelectionFilters } from './index.js';\n`);
+await writeFile(new URL('lib/selection.d.ts', root), `export { ornaments, getOrnament, findOrnaments } from './index.js';\nexport type { Ornament, RepeatOrnament, WholeOrnament, SelectionFilters, AssetType, Facing, Composition } from './index.js';\n`);
+for (const [scope, type] of [['borders', 'border'], ['decorations', 'decoration'], ['illustrations', 'illustration']]) {
+  const scoped = items.filter(item => item.asset_type === type);
+  await writeFile(new URL(`lib/catalog-${scope}.js`, root), `// Generated scoped catalog; excludes other artwork families.\n${scoped.map((item, i) => `import { ornament as item${i} } from './design-data/${item.name}.js';`).join('\n')}\nexport const ornaments = Object.freeze([${scoped.map((_, i) => `item${i}`).join(', ')}]);\n`);
+  await writeFile(new URL(`lib/selection-${scope}.js`, root), `import { ornaments } from './catalog-${scope}.js';\nimport { createSelection } from './selection-core.js';\nexport { ornaments };\nexport const { getOrnament, findOrnaments } = /* @__PURE__ */ createSelection(ornaments);\n`);
+  const baseType = type === 'border' ? 'RepeatOrnament' : 'WholeOrnament';
+  await writeFile(new URL(`lib/selection-${scope}.d.ts`, root), `import type { ${baseType}, SelectionFilters } from './index.js';\nexport type ScopedOrnament = ${baseType} & { readonly name: ${union(scoped.map(item => item.name))}; readonly asset_type: ${JSON.stringify(type)} };\nexport declare const ornaments: readonly ScopedOrnament[];\nexport declare function getOrnament(name: string): ScopedOrnament;\nexport declare function findOrnaments(filters?: SelectionFilters): ScopedOrnament[];\n`);
+}
 const customKey = String.fromCharCode(96) + '--' + '$' + '{string}' + String.fromCharCode(96);
 await writeFile(new URL('lib/react-core.d.ts', root), `import type { CSSProperties } from 'react';\nexport type OrnamentStyle = CSSProperties & { [key: ${customKey}]: string | number | undefined };\n`);
 await writeFile(new URL('lib/react.d.ts', root), `import type { CSSProperties, ForwardRefExoticComponent, RefAttributes, HTMLAttributes, ImgHTMLAttributes } from 'react';

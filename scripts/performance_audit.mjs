@@ -82,7 +82,7 @@ try {
   await send('Emulation.setCPUThrottlingRate',{rate:4});
   await send('Page.addScriptToEvaluateOnNewDocument',{source:`window.audit={cls:0,shifts:[],longTasks:[]};new PerformanceObserver(l=>{for(const e of l.getEntries())if(!e.hadRecentInput){window.audit.cls+=e.value;window.audit.shifts.push({value:e.value,sources:e.sources.map(s=>({node:s.node?.id||s.node?.className||s.node?.tagName,before:s.previousRect.toJSON(),after:s.currentRect.toJSON()}))})}}).observe({type:'layout-shift',buffered:true});new PerformanceObserver(l=>{for(const e of l.getEntries())window.audit.longTasks.push(e.duration)}).observe({type:'longtask',buffered:true});`});
   const pages=[];
-  for(const route of ['/examples/','/examples/?design=gold-scroll-with-blue-bellflowers&format=webp','/examples/review.html','/examples/qa.html','/audit/?eager',...(lazy?['/audit/?lazy']:[])]){
+  for(const route of ['/examples/','/examples/?design=gold-scroll-with-blue-bellflowers&format=webp','/examples/?type=illustration&design=flying-pig&height=128','/examples/review.html','/examples/qa.html','/audit/?eager',...(lazy?['/audit/?lazy']:[])]){
     await send('Page.navigate',{url:'about:blank'});await pause(100);
     await send('Page.navigate',{url:origin+route});
     for(let i=0;i<400;i++){if(await evaluate(`location.href===${JSON.stringify(origin+route)}&&(document.body?.dataset.ready==='true'||window.auditReady===true)`))break;await pause(50);if(i===399)throw Error('page not ready '+route);}

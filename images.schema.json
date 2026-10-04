@@ -1,0 +1,59 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://adrian729.github.io/medieval-ornaments/images.schema.json",
+  "title": "Medieval borders, decorations and illustrations",
+  "description": "Public images.json and npm catalog.json share this schema. Asset type describes content; kind and uses describe rendering capability. Read usage_notes and inspect a preview before choosing.",
+  "type": "array",
+  "items": {"$ref": "#/$defs/ornament"},
+  "$defs": {
+    "category": {"type": "string", "enum": ["animals", "botanical", "fantasy", "floral", "geometric", "humans", "hybrids", "knotwork", "music", "reading", "ribbons", "royalty", "scrollwork"]},
+    "color": {"type": "string", "enum": ["beige", "black", "blue", "brown", "cream", "gold", "gray", "green", "light-blue", "orange", "pink", "purple", "red", "tan", "white", "yellow"]},
+    "facing": {"type": "string", "enum": ["left", "right", "front", "mixed", "unclear"], "description": "Direction of the main face/head relative to the viewer. Abstract artwork normally uses unclear; mixed means different directions."},
+    "composition": {"type": "string", "enum": ["single-ornament", "standalone", "repeat-tile", "single-figure", "multiple-figures", "framed-scene"]},
+    "asset": {
+      "type": "object",
+      "required": ["png", "webp", "width", "height", "png_bytes", "webp_bytes"],
+      "properties": {
+        "png": {"type": "string", "pattern": "^png/(?:[0-9]+/)?[a-z0-9-]+\\.png$"},
+        "webp": {"type": "string", "pattern": "^webp/(?:[0-9]+/)?[a-z0-9-]+\\.webp$"},
+        "svg": {"type": "string", "pattern": "^svg/[a-z0-9-]+\\.svg$"},
+        "width": {"type": "integer", "minimum": 1},
+        "height": {"type": "integer", "minimum": 1},
+        "png_bytes": {"type": "integer", "minimum": 1},
+        "webp_bytes": {"type": "integer", "minimum": 1},
+        "max_dimension": {"type": "integer", "minimum": 1},
+        "rendered_max_dimension": {"type": "integer", "minimum": 1},
+        "variants": {"type": "array", "items": {"$ref": "#/$defs/asset"}}
+      }
+    },
+    "ornament": {
+      "allOf": [
+        {"$ref": "#/$defs/asset"},
+        {"if": {"properties": {"kind": {"const": "repeat-tile"}}}, "then": {"required": ["repeat_ratio", "border_image_slice_percent"], "properties": {"asset_type": {"const": "border"}, "repeat_axis": {"enum": ["x", "y"]}}}, "else": {"properties": {"asset_type": {"enum": ["decoration", "illustration"]}, "repeat_axis": {"const": "none"}}}}
+      ],
+      "required": ["name", "description", "categories", "subjects", "facing", "colors", "composition", "asset_type", "kind", "repeat_axis", "derivation", "has_transparency", "usage_notes", "variants", "components"],
+      "properties": {
+        "name": {"type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"},
+        "description": {"type": "string", "minLength": 1, "description": "Factual visible appearance, pose, objects and distinguishing details; do not infer unverified identity or provenance."},
+        "categories": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"$ref": "#/$defs/category"}},
+        "subjects": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"type": "string", "pattern": "^[a-z]+(?:-[a-z]+)*$"}},
+        "colors": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"$ref": "#/$defs/color"}},
+        "facing": {"$ref": "#/$defs/facing"},
+        "composition": {"$ref": "#/$defs/composition"},
+        "asset_type": {"enum": ["border", "decoration", "illustration"], "description": "Border: verified repeat or deliberate motif cell. Decoration: whole ornamental panel/corner/flourish. Illustration: figure, group or preserved scene."},
+        "kind": {"enum": ["repeat-tile", "standalone"], "description": "Rendering capability; standalone includes both decorations and illustrations."},
+        "repeat_axis": {"enum": ["x", "y", "none"]},
+        "repeat_ratio": {"type": "number", "exclusiveMinimum": 0, "description": "Natural repeat length divided by divider thickness; shared by both axes."},
+        "border_image_slice_percent": {"type": "number", "exclusiveMinimum": 0, "maximum": 100, "description": "Use the supplied frame atlas with this percentage slice and round fitting."},
+        "source_pattern": {"type": "string", "description": "Audited repeat evidence or whole-decoration exception for source-based artwork."},
+        "has_transparency": {"type": "boolean", "description": "Measured from the main PNG: at least one pixel has alpha below 255. Does not guarantee that all paper or interior backgrounds were removed."},
+        "usage_notes": {"type": "array", "minItems": 1, "items": {"type": "string", "minLength": 1}, "description": "Selection limitations, retained backgrounds, repeat/corner constraints and extraction fidelity."},
+        "derivation": {"type": "string", "minLength": 1},
+        "reference": {"type": "string"},
+        "uses": {"type": "array", "items": {"enum": ["frame", "divider", "image"]}},
+        "formats": {"type": "array", "items": {"enum": ["svg", "webp", "png"]}},
+        "components": {"type": "object", "additionalProperties": {"$ref": "#/$defs/asset"}}
+      }
+    }
+  }
+}

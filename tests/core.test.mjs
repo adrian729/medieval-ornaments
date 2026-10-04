@@ -14,11 +14,12 @@ const exec = (command, args) => run(command, args, { env: environment });
 test('generated catalog agrees with artwork and has stable capabilities', async () => {
   const original = JSON.parse(await readFile(new URL('images.json', root)));
   const additions = JSON.parse(await readFile(new URL('additional-patterns.json', root)));
+  const illustrations = JSON.parse(await readFile(new URL('illustrations.json', root)));
   const repeats = additions.filter(item => item.kind === 'repeat-tile').length;
-  assert.equal(ornaments.length, 49 + additions.length);
+  assert.equal(ornaments.length, 49 + additions.length + illustrations.length);
   assert.equal(findOrnaments({ use: 'frame' }).length, 40 + repeats);
   assert.equal(findOrnaments({ use: 'divider' }).length, 40 + repeats);
-  assert.equal(findOrnaments({ use: 'image' }).length, 9 + additions.length - repeats);
+  assert.equal(findOrnaments({ use: 'image' }).length, 9 + additions.length - repeats + illustrations.length);
   assert.deepEqual(ornaments.map(item => item.name), [...ornaments.map(item => item.name)].sort());
   for (const item of original) {
     const { uses, formats, ...generated } = getOrnament(item.name);

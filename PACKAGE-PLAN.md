@@ -1,14 +1,14 @@
 # npm package and integration plan
 
-Status: runtime @ranx729/medieval-ornaments@0.5.0 and artwork @ranx729/medieval-ornaments-assets@0.3.2 are published and verified. The tested runtime SRI matches npm; fresh registry consumers, selected CDN installs, individual/local React and vanilla bundles, all 740 live gallery checks, deployed examples, actual pinned CDN modules/assets and downloaded browser ZIP pass. Release v0.5.0 records the individual imports and local installer. Artwork is unchanged; no release work remains.
+Status: illustration consolidation in progress for runtime 0.6.0 / artwork 0.4.0. Reviewed decisions are in docs/MERGE-PLAN.md; release/validation status is recorded below. Published 0.5.0 / 0.3.2 remain the verified previous release.
 
 ## Goal and scope
 
 Make this collection easy to use in other projects through `@ranx729/medieval-ornaments`, following the integration approach in `@ranx729/elder-scrolls`. Support native browser JavaScript, JavaScript with a bundler, and React with the same artwork behavior and options. Provide runnable examples, TypeScript declarations, clear asset hosting, and a tested public npm release.
 
-This plan covers **medieval-ornaments only**. Keep medieval-cutouts, Polyhymnia logos, and elder-scrolls unchanged. Publishing the cutout collection would be a separate task.
+The user authorized consolidation of medieval-cutouts into this collection. Preserve its original checkout/history; future illustration maintenance belongs here. Keep Polyhymnia logos, elder-scrolls and unrelated workspace files outside this repository.
 
-Preserve the original 49 designs and their sources, variants, geometry and audit. Version 0.3.0 adds 21 audited source designs; the current collection has 56 repeats and 14 whole decorations.
+Preserve the original 49 designs and their sources, variants, geometry and audit. Version 0.3.0 adds 21 audited source designs; the current collection has 56 repeats, 14 whole decorations and 41 illustrations.
 
 ## Findings already checked
 
@@ -28,13 +28,13 @@ Expose three React components and corresponding vanilla functions:
 | --- | --- | --- | --- |
 | Frame around content | `OrnamentFrame` | `createFrame(element, options)` | The 56 designs with a frame atlas |
 | Repeating separator | `OrnamentDivider` | `createDivider(element, options)` | The 56 repeat designs |
-| Whole decoration | `OrnamentImage` | `createOrnamentImage(img, options)` | The 14 whole decorations |
+| Whole decoration | `OrnamentImage` | `createOrnamentImage(img, options)` | The 14 whole decorations and 41 illustrations |
 
 Require a `design` name; do not silently choose an unrelated design. All other artwork options have defaults. Thus a divider with only `design` preserves that design's original direction and proportions.
 
 Whole plate corner designs remain whole images. Do not pretend that they can construct an arbitrary frame. Reference crops and individual corner pieces remain available as assets/catalog components for advanced uses, rather than receiving a misleading generic repeating component.
 
-Provide `ornaments`, `getOrnament(name)`, and `findOrnaments(filters)` without a React dependency. Selection supports use/capability, categories, subjects, colors, and text search. Expose supported uses and formats so tools can choose designs without probing by trial and error. Keep results alphabetically ordered. Read and generate this metadata from `images.json`; do not maintain another hand-written artwork catalog.
+Provide `ornaments`, `getOrnament(name)`, and `findOrnaments(filters)` without a React dependency. Selection supports use/capability, asset type, categories, subjects, colors, facing, composition, transparency and text search. Scoped catalogs import only their type’s metadata. Expose supported uses and formats so tools can choose designs without probing by trial and error. Keep results alphabetically ordered. Read and generate this metadata from `images.json`; do not maintain another hand-written artwork catalog.
 
 ### Shared options and defaults
 
@@ -106,7 +106,7 @@ The optional companion exports `/catalog.json`, `/assets-manifest.json`, `/svg/*
 
 The browser ZIP remains a full self-hosted distribution with modules, CSS and unchanged artwork. Pages retains self-hosted vanilla/React examples. Filesystem copy destinations never determine public `assetsBase` automatically.
 
-Use allowlists for both packages. Exclude source sheets, audit scripts, private files, temporary folders, tests and demos. The runtime must stay below 150 KB compressed/1 MB unpacked. Measure both archives and verify every artwork hash before release. Ordinary npm packaging rebuilds only metadata. `build:assets` verifies and stages approved existing files; changed artwork/catalog needs a companion version bump and audited manifest update. Publish/verify the asset revision before a runtime referencing it.
+Use allowlists for both packages. Exclude source sheets, audit scripts, private files, temporary folders, tests and demos. The 111-design runtime must stay below 200 KB compressed/1.25 MB unpacked. This replaces the 70-design 150 KB/1 MB budget to accommodate 41 new typed entries and richer agent metadata; the artwork-free/optional-dependency invariant and single-design bundle checks remain mandatory. The runtime JSON catalog is compact to limit installed duplication. Measure both archives and verify every artwork hash before release. Ordinary npm packaging rebuilds only metadata. `build:assets` verifies and stages approved existing files; changed artwork/catalog needs a companion version bump and audited manifest update. Publish/verify the asset revision before a runtime referencing it.
 
 Document licensing scope honestly before release. The current repository does not establish a blanket license for supplied reference artwork. Do not label the whole package or collection MIT. Choose an explicit license for the new integration code and include a separate asset provenance/rights notice reflecting what is actually known; publication itself does not grant additional artwork rights.
 
@@ -294,3 +294,21 @@ reviewed merge. No artwork rebuilding or automatic dependency installation.
 - [x] Pass complete unit/types, actual packed consumers, artwork/catalog and browser/ZIP checks.
 - [x] Commit/push, publish the exact tested runtime archive, verify fresh registry/CDN consumers.
 - [x] Verify Pages/live examples/browser ZIP; tag/release and record sizes/results in QA.md.
+
+## Illustration consolidation · 0.6.0 / artwork 0.4.0
+
+Reviewed plan: docs/MERGE-PLAN.md. Preserve the original checkout/history and all
+artwork bytes while making future illustration maintenance part of this repo.
+The asset package remains independently pinned and optional.
+
+- [x] Inspect both pipelines, metadata vocabularies, artwork, sources and working-tree additions.
+- [x] Import 41 illustrations, variants, source records and descriptive metadata with an auditable byte inventory.
+- [x] Make full/selected border builds retain illustrations; provide a selected illustration resize command.
+- [x] Add type, transparency and usage metadata; improve generic ornament descriptions and preserve all cutout fields.
+- [x] Extend selection/types/schema and introduce scoped catalogs without changing rendering cores/CSS.
+- [x] Cover illustrations in selective imports, local installation, permanent demos and metadata filters.
+- [x] Verify unit/types, actual packed consumers, lossless pairs/source preservation and all 1,074 local browser checks.
+- [x] Measure selected/scoped bundles, real size selection and cold-cache eager/lazy behavior.
+- [x] Verify companion/runtime candidates and the 935.8 MB assembled deployment; final tested runtime archive is recorded in QA.md.
+- [ ] Commit/publish companion before runtime, then verify fresh registry/CDN consumers.
+- [ ] Verify deployed examples/ZIP and live gallery; tag/release and record final results.

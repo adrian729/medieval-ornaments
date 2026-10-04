@@ -101,3 +101,5 @@ The [design browser](https://adrian729.github.io/medieval-ornaments/examples/) f
 ## Technical references
 
 Frame fitting follows [CSS border-image-repeat](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/border-image-repeat); slice geometry follows [border-image-slice](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/border-image-slice). Source color tracing uses [VTracer](https://github.com/visioncortex/vtracer); ordinary SVG rendering uses [CairoSVG](https://cairosvg.org/documentation/).
+
+Illustrations use the same whole-image sizing, native loading and density-aware raster selection. See [the illustration and agent selection guide](docs/ILLUSTRATIONS.md); filter `asset_type` to distinguish illustrations from borders and decorations.

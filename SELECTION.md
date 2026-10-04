@@ -2,16 +2,48 @@
 
 Use `images.json` as the source of truth. Selection fields are deliberately generic:
 
-The npm package generates `/catalog.json` and immutable `ornaments` from this catalog, adding `uses` (`frame`, `divider`, or `image`) and available `formats`. Use `findOrnaments({ use, categories, subjects, colors, query })` for alphabetical selection without a React dependency or image requests. Library divider orientation can be `original`, `horizontal`, or `vertical`; it selects the matching original/rotated asset automatically. See [the integration guide](docs/INTEGRATION.md).
+The npm package generates `/catalog.json` and immutable `ornaments` from this catalog, adding `uses` (`frame`, `divider`, or `image`) and available `formats`. Use `findOrnaments({ use, assetType, categories, subjects, colors, facing, composition, hasTransparency, query })` for alphabetical selection without a React dependency or image requests. `/catalog/borders`, `/catalog/decorations` and `/catalog/illustrations` import only their respective metadata. Library divider orientation can be `original`, `horizontal`, or `vertical`; it selects the matching original/rotated asset automatically. See [the integration guide](docs/INTEGRATION.md) and [the illustration/agent selection guide](docs/ILLUSTRATIONS.md).
 
 | Field | Meaning |
 | --- | --- |
-| `description` | Plain-language appearance, source family, and adaptation |
-| `categories` | Broad themes: floral, botanical, animals, geometric, knotwork, ribbons, scrollwork |
-| `subjects` | Depicted forms, such as bird, butterfly, leaf, flower, ribbon, or diamond |
-| `facing` | left, right, front, mixed, or unclear; unclear is normal for abstract ornaments |
-| `colors` | Main named colors present in the asset and its adapted corner |
-| `composition` | single-ornament, standalone, or repeat-tile |
+| `description` | Factual visible appearance, pose, clothing, objects and distinctive details; preserve uncertain identities |
+| `categories` | Broad overlapping themes, defined below |
+| `subjects` | Depicted forms and objects, preferably singular: rabbit, human, lute, leaf, flower, ribbon or diamond |
+| `facing` | left, right, front, mixed, or unclear; describes the main head relative to the viewer, not an instrument. Abstract ornaments normally use unclear |
+| `colors` | Approximate main colors, excluding transparency: beige, black, blue, brown, cream, gold, gray, green, light-blue, orange, pink, purple, red, tan, white, yellow |
+| `composition` | single-ornament, standalone, repeat-tile, single-figure, multiple-figures or framed-scene |
+
+`asset_type` distinguishes `border`, `decoration` and `illustration`. This is
+independent of subject categories: a bird border and a bird musician can both
+match `animals`. `kind: standalone` includes decorations and illustrations;
+it always renders as a whole image. `has_transparency` is measured from the main
+PNG and means at least one pixel has alpha below 255. It does not promise that
+all interior backgrounds are removed. Read `usage_notes` for retained scenes,
+graph paper, original corner shapes, unverified repeats and extraction fidelity.
+The machine-readable vocabulary and field descriptions live in [images.schema.json](images.schema.json).
+
+| Category | Meaning |
+| --- | --- |
+| animals | Animal figures and recognizable animal features |
+| botanical | Leaves, vines, stems and other plant forms |
+| fantasy | Mythical/impossible figures and animals performing human activities |
+| floral | Flowers, floral crosses, rosettes and palmettes |
+| geometric | Angular or repeating geometric forms |
+| humans | Human figures; human-like limbs alone do not make a creature human |
+| hybrids | Figures visibly combining different kinds of bodies/features |
+| knotwork | Interlaced or knotted bands |
+| music | Figures playing or holding musical instruments; instruments are subjects |
+| reading | Figures reading or holding open books |
+| ribbons | Ribbon and woven band motifs |
+| royalty | Visible royal imagery such as a crown, without asserting historical identity |
+| scrollwork | Curled ornamental stems, bands or scrolls |
+
+`single-figure` includes a figure's associated objects. `multiple-figures` is an
+unframed group; `framed-scene` retains a scene or frame. Keep existing plural
+ornament subject tags for compatibility; singular aliases have been added for
+selection across both collections. All requested category/subject/color tags
+must match. Search requires all case-insensitive whitespace-separated tokens and
+includes usage notes and descriptive fields; results are not relevance-ranked.
 
 Also inspect `kind`, `repeat_axis`, and `derivation` before using an asset. Choose `standalone` for complete panels, compositions, or original corner artwork. Choose `repeat-tile` for an extendable strip or frame and take its matching components. A reference crop is for its original appearance and must not be assumed seamless. Floral reconstructions and source-derived miter corners are adaptations. Numbered raster assets retain painted source pixels; their SVGs are approximate color traces.
 

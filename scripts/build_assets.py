@@ -12,6 +12,7 @@ import cairosvg
 from PIL import Image, ImageChops
 
 from designs import B, H, W, documents, specs
+from selection_metadata import illustrations, enrich
 
 ROOT=Path(__file__).resolve().parents[1]
 LIMITS=(128,256,512,768)
@@ -131,7 +132,8 @@ def build(names=None):
     before={item['png']:hashlib.sha256((ROOT/item['png']).read_bytes()).hexdigest() for item in raster}
     selected=set(names or [])
     designs=list(specs())
-    known={item['name'] for item in [*raster,*designs]}
+    illustration_items=illustrations()
+    known={item['name'] for item in [*raster,*designs,*illustration_items]}
     assert selected<=known,'Unknown design name'
     catalog=[]
     reference_path=ROOT/'reference-crops.json'
@@ -194,6 +196,9 @@ def build(names=None):
         catalog.append(entry)
         print('Built',name,flush=True)
     assert all(hashlib.sha256((ROOT/name).read_bytes()).hexdigest()==digest for name,digest in before.items())
+    # Illustrations have their own master catalog/resize command. Border builds
+    # include them unchanged and cannot delete their original files or variants.
+    catalog=enrich([*catalog,*illustration_items])
     (ROOT/'images.json').write_text(json.dumps(catalog,indent=2)+'\n')
     # Remove only superseded GENERATED assets previously named in the catalog.
     # Preserved references, source files, and unrelated files are never touched.

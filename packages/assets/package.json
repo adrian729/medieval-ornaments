@@ -1,10 +1,14 @@
 {
   "name": "@ranx729/medieval-ornaments-assets",
-  "version": "0.3.2",
-  "description": "Optional complete SVG, PNG and lossless WebP artwork for medieval-ornaments",
+  "version": "0.4.0",
+  "description": "Optional complete medieval border, decoration and illustration artwork for medieval-ornaments",
   "type": "module",
   "license": "SEE LICENSE IN ASSET-RIGHTS.md",
-  "repository": { "type": "git", "url": "git+https://github.com/adrian729/medieval-ornaments.git", "directory": "packages/assets" },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adrian729/medieval-ornaments.git",
+    "directory": "packages/assets"
+  },
   "homepage": "https://adrian729.github.io/medieval-ornaments/",
   "exports": {
     "./catalog.json": "./catalog.json",
@@ -14,7 +18,17 @@
     "./webp/*": "./webp/*",
     "./package.json": "./package.json"
   },
-  "files": ["svg", "png", "webp", "catalog.json", "assets-manifest.json", "ASSET-RIGHTS.md", "LICENSE"],
+  "files": [
+    "svg",
+    "png",
+    "webp",
+    "catalog.json",
+    "assets-manifest.json",
+    "ASSET-RIGHTS.md",
+    "LICENSE"
+  ],
   "sideEffects": false,
-  "publishConfig": { "access": "public" }
+  "publishConfig": {
+    "access": "public"
+  }
 }

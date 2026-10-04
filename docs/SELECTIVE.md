@@ -2,17 +2,18 @@
 
 Since 0.5.0, choose either individual npm imports or the `add` command. Both use
 the same geometry, resolution selection, loading behavior and TypeScript types
-as the full API. The artwork remains at the independently pinned 0.3.2 revision.
+as the full API. Runtime 0.6.0 pins artwork revision 0.4.0, including the merged
+illustrations. See [illustration and agent selection guidance](ILLUSTRATIONS.md).
 
 | Workflow | Component code | Artwork |
 | --- | --- | --- |
 | Individual imports | Your bundler includes chosen designs and shared helpers | Browser requests the selected image from the pinned CDN; self-hosting is optional |
 | `add` | Copies chosen components and shared helpers into your project; you can edit them | Downloads only chosen designs/formats into your public directory |
-| Full API | Includes all 70 designs for runtime selection/search | Browser still requests only displayed images |
+| Full API | Includes all 111 designs for runtime selection/search | Browser still requests only displayed images |
 
 The small runtime npm package contains all individual modules. npm installs the
 package as a unit; individual imports reduce your application bundle. Installing
-the optional **asset package** installs the entire roughly 180 MB archive.
+the optional **asset package** installs the entire roughly 341 MB archive.
 Neither of the first two workflows requires that archive. There are no
 install-time artwork downloads.
 
@@ -44,7 +45,7 @@ export function Card() {
 }
 ```
 
-Whole decorations export `OrnamentImage`. They do not export frame/divider
+Whole decorations and illustrations export `OrnamentImage`. They do not export frame/divider
 components. Alias components when using multiple designs:
 
 ```jsx
@@ -136,7 +137,7 @@ Run this from your application's root. The examples pin the generator version
 so another developer can reproduce the same source:
 
 ```sh
-npx @ranx729/medieval-ornaments@0.5.0 add \
+npx @ranx729/medieval-ornaments@0.6.0 add \
   red-berry-vine gold-scroll-with-blue-bellflowers
 ```
 
@@ -191,7 +192,7 @@ package marker and declarations. No import references this npm runtime package.
 For vanilla code:
 
 ```sh
-npx @ranx729/medieval-ornaments@0.5.0 add red-berry-vine --framework vanilla
+npx @ranx729/medieval-ornaments@0.6.0 add red-berry-vine --framework vanilla
 ```
 
 ```js
@@ -229,7 +230,7 @@ component installation; already verified artwork files can be reused on retry.
 For an application deployed at `/my-app/`:
 
 ```sh
-npx @ranx729/medieval-ornaments@0.5.0 add red-berry-vine \
+npx @ranx729/medieval-ornaments@0.6.0 add red-berry-vine \
   --out src/ui/ornaments \
   --assets public/ornaments \
   --assets-base /my-app/ornaments/
@@ -271,8 +272,8 @@ and merge your edits; this avoids deleting assets still in use.
 If you already have the full optional archive:
 
 ```sh
-npm install --save-dev @ranx729/medieval-ornaments-assets@0.3.2
-npx @ranx729/medieval-ornaments@0.5.0 add red-berry-vine --offline
+npm install --save-dev @ranx729/medieval-ornaments-assets@0.4.0
+npx @ranx729/medieval-ornaments@0.6.0 add red-berry-vine --offline
 ```
 
 This explicitly installs the entire archive. Alternatively, `--from /path/to/mirror
@@ -293,6 +294,13 @@ import { ornaments, findOrnaments, getOrnament }
 const frames = findOrnaments({ use: 'frame', categories: ['floral'] });
 ```
 
+Use `/catalog/borders`, `/catalog/decorations` or `/catalog/illustrations` to
+include only a content type's metadata. These export the same discovery functions;
+they do not import the aggregate catalog, React, rendering helpers or images.
+`findOrnaments` supports `assetType`, `hasTransparency`, `facing` and `composition`
+as well as the original filters. Descriptions and usage notes retain the visual
+detail and limitations needed for an agent to choose an asset without guessing.
+
 Importing `/catalog`, the root API, or the generic `/react` entry includes all
 design metadata. These remain supported for runtime switching; their `design`
 option is required. An individual design's `ornament` export provides metadata
@@ -300,9 +308,11 @@ without full discovery. Use direct import paths; constructing a broad dynamic
 import/glob or re-exporting every design can make a bundler include the full set.
 
 In the reproducible Vite fixture (`npm run audit:selective`), one bound React
-divider uses **4,589 B gzip** of library JavaScript versus **32,792 B** through
+divider uses about **4.7 KB gzip** of library JavaScript versus **47 KB** through
 the full API, with React external. Both retain **473 B gzip** of shared CSS.
-Two-design packed consumers include two metadata modules and one resolver.
+The flying-pig React fixture uses about **4 KB gzip**. Three-design packed
+consumers (border, decoration, illustration) include three metadata modules and
+one resolver. The scoped illustration discovery fixture includes only 41 entries.
 Your application, chosen design metadata, React and image bytes are additional
 variables. See [performance details](PERFORMANCE.md).
 

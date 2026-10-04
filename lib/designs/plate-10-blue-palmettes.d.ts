@@ -1,5 +1,5 @@
 import type { RepeatOrnament, ResolvedOrnament, OrnamentController, FrameOptions as BaseFrameOptions, DividerOptions as BaseDividerOptions } from '../common.js';
-export declare const ornament: RepeatOrnament & { readonly name: "plate-10-blue-palmettes" };
+export declare const ornament: RepeatOrnament & { readonly name: "plate-10-blue-palmettes"; readonly asset_type: "border" };
 export type FrameOptions = Omit<BaseFrameOptions, 'design' | 'format'> & { design?: "plate-10-blue-palmettes"; format?: "auto" | "svg" | "webp" | "png" };
 export declare function resolveOrnament(use: 'frame', options?: FrameOptions): ResolvedOrnament;
 export declare function createFrame(element: HTMLElement, options?: FrameOptions): OrnamentController<FrameOptions>;

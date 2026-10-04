@@ -1,7 +1,7 @@
 {
   "name": "@ranx729/medieval-ornaments",
-  "version": "0.5.0",
-  "description": "Categorized medieval ornaments with normalized frames, repeating dividers and whole decorations for JavaScript and React",
+  "version": "0.6.0",
+  "description": "Medieval borders, decorations and illustrations with selective JavaScript/React components and verified artwork installs",
   "type": "module",
   "license": "SEE LICENSE IN LICENSE",
   "repository": {
@@ -19,7 +19,10 @@
     "divider",
     "react",
     "vanilla",
-    "decoration"
+    "decoration",
+    "illustration",
+    "cutout",
+    "manuscript"
   ],
   "exports": {
     ".": {
@@ -55,7 +58,20 @@
     "./react/*": {
       "types": "./lib/react-designs/*.d.ts",
       "import": "./lib/react-designs/*-styled.js"
-    }
+    },
+    "./catalog/borders": {
+      "types": "./lib/selection-borders.d.ts",
+      "import": "./lib/selection-borders.js"
+    },
+    "./catalog/decorations": {
+      "types": "./lib/selection-decorations.d.ts",
+      "import": "./lib/selection-decorations.js"
+    },
+    "./catalog/illustrations": {
+      "types": "./lib/selection-illustrations.d.ts",
+      "import": "./lib/selection-illustrations.js"
+    },
+    "./images.schema.json": "./images.schema.json"
   },
   "bin": {
     "medieval-ornaments": "lib/cli.js"
@@ -68,7 +84,9 @@
     "ASSET-RIGHTS.md",
     "SELECTION.md",
     "USAGE.md",
-    "docs/SELECTIVE.md"
+    "docs/SELECTIVE.md",
+    "images.schema.json",
+    "docs/ILLUSTRATIONS.md"
   ],
   "sideEffects": [
     "**/*.css",
@@ -95,7 +113,8 @@
     "test:integration": "node tests/integration.mjs",
     "audit:performance": "node scripts/performance_audit.mjs",
     "build:assets": "node scripts/build-assets-package.mjs",
-    "audit:selective": "node scripts/selective_audit.mjs"
+    "audit:selective": "node scripts/selective_audit.mjs",
+    "build:site": "node scripts/build-site.mjs"
   },
   "publishConfig": {
     "access": "public"
@@ -110,6 +129,6 @@
   },
   "ornamentAssets": {
     "package": "@ranx729/medieval-ornaments-assets",
-    "version": "0.3.2"
+    "version": "0.4.0"
   }
 }

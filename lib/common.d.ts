@@ -1,3 +1,6 @@
+export type AssetType = 'border' | 'decoration' | 'illustration';
+export type Facing = 'left' | 'right' | 'front' | 'mixed' | 'unclear';
+export type Composition = 'single-ornament' | 'standalone' | 'repeat-tile' | 'single-figure' | 'multiple-figures' | 'framed-scene';
 export type OrnamentUse = 'frame' | 'divider' | 'image';
 export type Format = 'auto' | 'svg' | 'webp' | 'png';
 export type Orientation = 'original' | 'horizontal' | 'vertical';
@@ -16,7 +19,8 @@ export interface Asset extends RasterVariant {
 export interface Ornament extends Asset {
   readonly name: string; readonly description: string;
   readonly categories: readonly string[]; readonly subjects: readonly string[];
-  readonly colors: readonly string[]; readonly facing: string; readonly composition: string;
+  readonly colors: readonly string[]; readonly facing: Facing; readonly composition: Composition;
+  readonly asset_type: AssetType; readonly has_transparency: boolean; readonly usage_notes: readonly string[];
   readonly kind: 'standalone' | 'repeat-tile'; readonly derivation: string;
   readonly uses: readonly OrnamentUse[]; readonly formats: readonly Exclude<Format, 'auto'>[];
   readonly components: Readonly<Partial<Record<'border_image' | 'corner' | 'rotated_tile' | 'reference_crop', Asset>>>;
@@ -39,7 +43,8 @@ export interface DividerOptions extends CommonOptions { design: string; orientat
 export interface ImageOptions extends CommonOptions { design: string; alt?: string; decoding?: 'auto' | 'sync' | 'async'; fetchPriority?: 'auto' | 'high' | 'low'; }
 export interface SelectionFilters {
   use?: OrnamentUse; categories?: readonly string[]; subjects?: readonly string[];
-  colors?: readonly string[]; query?: string;
+  colors?: readonly string[]; query?: string; assetType?: AssetType; hasTransparency?: boolean;
+  facing?: Facing; composition?: Composition;
 }
 export interface ResolvedOrnament {
   design: string; use: OrnamentUse; axis?: 'x' | 'y'; size: number; loading: 'eager' | 'lazy';

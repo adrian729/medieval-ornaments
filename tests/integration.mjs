@@ -21,16 +21,19 @@ let server, chrome, ws, vite;
 
 try {
   const packageSource = process.env.ORNAMENTS_PACKAGE;
+  const registryPackage = packageSource?.startsWith('@ranx729/medieval-ornaments@');
   const assetSource = process.env.ORNAMENTS_ASSETS_PACKAGE;
   let install, assetInstall;
   const expectedAssets = assetPaths(await assetCatalog());
   if (packageSource) install = packageSource;
   else {
     const packed = JSON.parse((await exec('npm', ['pack', '--json', '--pack-destination', folder], { cwd: root, maxBuffer: 3e6 })).stdout)[0];
-    const allowed = /^(?:lib\/|docs\/(?:INTEGRATION|PERFORMANCE|SELECTIVE)\.md$|ornaments\.css$|package\.json$|README\.md$|SELECTION\.md$|USAGE\.md$|LICENSE$|ASSET-RIGHTS\.md$)/;
+    const allowed = /^(?:lib\/|docs\/(?:INTEGRATION|PERFORMANCE|SELECTIVE|ILLUSTRATIONS)\.md$|images\.schema\.json$|ornaments\.css$|package\.json$|README\.md$|SELECTION\.md$|USAGE\.md$|LICENSE$|ASSET-RIGHTS\.md$)/;
     assert.ok(packed.files.every(file => allowed.test(file.path)), 'Unexpected runtime packed file');
     assert.deepEqual(packed.files.filter(file => /^(svg|png|webp)\//.test(file.path)), [], 'Runtime must contain no artwork');
-    assert.ok(packed.size < 150_000 && packed.unpackedSize < 1_000_000, 'Lean runtime size budget');
+    // Budget accounts for 111 typed designs and richer selection metadata;
+    // application bundles must still prove only explicitly selected designs.
+    assert.ok(packed.size < 200_000 && packed.unpackedSize < 1_250_000, 'Lean runtime size budget');
     assert.ok(packed.files.find(file => file.path === 'lib/cli.js').mode & 0o111);
     records.push({ package: { bytes: packed.size, unpacked: packed.unpackedSize, files: packed.entryCount, integrity: packed.integrity, archive: path.join(folder, packed.filename) } });
     install = path.join(folder, packed.filename);
@@ -62,12 +65,35 @@ try {
   await assert.rejects(exec(process.execPath, [bin, 'copy-assets', path.join(folder, 'offline-missing'), '--offline'], { cwd: app }), /Offline artwork not found/);
   // The local installer also works before any full artwork package is installed.
   const cdnSource = path.join(folder, 'cdn-selected-source'), cdnAssets = path.join(folder, 'cdn-selected-assets');
-  await exec(process.execPath, [bin, 'add', 'red-berry-vine', '--framework', 'vanilla', '--out', cdnSource, '--assets', cdnAssets], { cwd: app });
+  const mirrorRequests = [];
+  let mirror;
+  const sourceFlags = [];
+  if (!registryPackage) {
+    // Unpublished candidates use the same HTTP verification path against the
+    // staged companion. Fresh registry runs exercise the actual pinned CDN.
+    mirror = createServer(async (request, response) => {
+      try {
+        const relative = new URL(request.url, 'http://local').pathname.slice(1);
+        if (!/^(?:assets-manifest\.json|(?:svg|png|webp)\/[a-z0-9/.-]+)$/.test(relative) || relative.includes('..')) throw Error('Invalid path');
+        mirrorRequests.push(relative);
+        response.end(await readFile(path.join(root, 'dist/medieval-ornaments-assets', relative)));
+      } catch { response.writeHead(404); response.end(); }
+    });
+    await new Promise(resolve => mirror.listen(0, '127.0.0.1', resolve));
+    sourceFlags.push('--from', `http://127.0.0.1:${mirror.address().port}/`);
+  }
+  try {
+    await exec(process.execPath, [bin, 'add', 'red-berry-vine', 'flying-pig', '--framework', 'vanilla', '--out', cdnSource, '--assets', cdnAssets, ...sourceFlags], { cwd: app });
+  } finally { if (mirror) { mirror.closeAllConnections(); await new Promise(resolve => mirror.close(resolve)); } }
   const selectedCDN = await import(pathToFileURL(path.join(cdnSource, 'red-berry-vine.js')));
   assert.equal(selectedCDN.resolveOrnament('divider').asset.format, 'svg');
   assert.deepEqual(selectedCDN.ornament.formats, ['svg']);
+  const selectedPig = await import(pathToFileURL(path.join(cdnSource, 'flying-pig.js')));
+  assert.deepEqual(selectedPig.ornament.formats, ['webp']);
+  assert.equal(selectedPig.resolveOrnament('image', { size: 128 }).asset.path, 'webp/256/flying-pig.webp');
+  if (mirrorRequests.length) assert.deepEqual(mirrorRequests.sort(), ['assets-manifest.json', ...['red-berry-vine', 'red-berry-vine-border', 'red-berry-vine-corner', 'red-berry-vine-rotated'].map(name => `svg/${name}.svg`), 'webp/flying-pig.webp', ...[128,256,512,768].map(size => `webp/${size}/flying-pig.webp`)].sort());
   await assert.rejects(access(path.join(app, 'node_modules/@ranx729/medieval-ornaments-assets')), 'Selective add must not install the archive');
-  records.push({ kind: 'lean-install-selected-CDN-add', includedDesigns: 1, fullArchiveInstalled: false });
+  records.push({ kind: registryPackage ? 'lean-install-selected-CDN-add' : 'lean-install-selected-HTTP-add', includedDesigns: 2, fullArchiveInstalled: false });
   // Install artwork explicitly, then exercise consumer-local discovery through the real bin.
   await exec('npm', ['install', '--save-dev', assetInstall, '--ignore-scripts', '--no-audit', '--no-fund', ...(assetSource ? ['--prefer-online'] : ['--offline'])], { cwd: app });
   const companion = path.join(app, 'node_modules', api.assetsPackage);

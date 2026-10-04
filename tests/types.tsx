@@ -56,3 +56,22 @@ resolveBerry('image');
 // @ts-expect-error Whole-image loading hints cannot be used on dividers.
 const selectiveBadHint = <BerryDivider decoding="sync" />;
 void [selective, wrongBoundDesign, selectiveBadHint];
+
+import { OrnamentImage as FlyingPig, ornament as pigMetadata } from '@ranx729/medieval-ornaments/react/flying-pig';
+import { findOrnaments as findIllustrations } from '@ranx729/medieval-ornaments/catalog/illustrations';
+const selectedIllustrations = findIllustrations({ subjects: ['rabbit'], categories: ['reading'], facing: 'left', composition: 'single-figure', hasTransparency: true });
+const pigsType: 'illustration' = pigMetadata.asset_type;
+const boundPig = <FlyingPig size={128} loading="lazy" decoding="async" fetchPriority="low" />;
+const dynamicIllustration = <OrnamentImage design="musicians-and-dancers" />;
+const scopeImages = selectedIllustrations.map(item => <OrnamentImage key={item.name} design={item.name} />);
+// @ts-expect-error Illustrations have no SVG format.
+const pigSVG = <FlyingPig format="svg" />;
+// @ts-expect-error Illustrations cannot repeat.
+const pigDivider = <OrnamentDivider design="flying-pig" />;
+// @ts-expect-error Unknown content type.
+findOrnaments({ assetType: 'picture' });
+// @ts-expect-error Transparency is a boolean filter.
+findOrnaments({ hasTransparency: 'true' });
+// @ts-expect-error Head direction uses the documented vocabulary.
+findOrnaments({ facing: 'up' });
+void [pigsType, boundPig, dynamicIllustration, scopeImages, pigSVG, pigDivider];

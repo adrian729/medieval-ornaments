@@ -1,5 +1,8 @@
 # Performance audit · 2026-10-03
 
+The historical measurements below cover the earlier artwork collection.
+The 2026-10-04 illustration merge is measured separately at the end of this guide.
+
 The expensive part of this collection is artwork delivery and detailed SVG
 parsing, rather than component configuration. Runtime 0.4.0 includes the
 improvements below and separates the full artwork archive into an optional
@@ -188,3 +191,72 @@ runtime. It retains existing resolution limits and lossless native artwork.
 The runtime npm installation still contains every small module; only installing
 the optional companion downloads the complete artwork archive. See
 [selective usage](SELECTIVE.md) for both workflows and their costs.
+
+## Illustration consolidation · 0.6.0
+
+The merged collection contains 111 designs. Existing artwork bytes, shared CSS,
+resolver, React/vanilla renderers and visibility observer remain unchanged.
+Illustrations use the existing native-image loading, reserved proportions,
+deterministic size/density selection, lossless WebP default and selective installer.
+No SVG trace or upscaled raster was introduced.
+
+`npm run audit:selective` now measures both a border and an illustration, and
+asserts scoped discovery module graphs. React is external; CSS remains 473 B gzip.
+
+| Fixture | Metadata entries | JavaScript raw | JavaScript gzip |
+| --- | ---: | ---: | ---: |
+| Full React API, red berry divider | 111 | 359,780 B | 47,125 B |
+| Individual React red berry divider | 1 | 15,042 B | 4,733 B |
+| Individual vanilla red berry divider | 1 | 15,289 B | 4,807 B |
+| Individual React flying pig image | 1 | 10,631 B | 4,048 B |
+| Individual vanilla flying pig image | 1 | 10,874 B | 4,126 B |
+| Illustration-only discovery | 41 | 77,350 B | 10,284 B |
+| Decoration-only discovery | 14 | 38,601 B | 6,107 B |
+| Border-only discovery | 56 | 240,405 B | 28,381 B |
+
+Adding 41 illustrations does not add their metadata to an individual border
+import. The prior 4,589 B React border fixture is now 4,733 B: the 144 B increase
+is its richer selection metadata. Full dynamic imports grow with the catalog;
+use individual imports when the chosen design is known, and scoped discovery
+when a picker needs only one content type. Discovery caches lowercased searchable
+text once rather than rebuilding it for each query.
+
+The runtime remains artwork-free with no automatic artwork dependency. Its
+compressed package is about 165 KB; the previous 70-design version was 122 KB.
+The richer 111-design catalog and declarations use about 1.13 MB installed.
+The runtime JSON export is compact to reduce duplicated indentation. The new
+budgets are 200 KB compressed / 1.25 MB installed, alongside strict per-design
+and scoped-catalog module graph checks. The optional complete archive is about
+341 MB compressed / 581 MB installed. Installing it is explicit; `add` downloads
+only the requested designs/formats. Image byte fidelity takes priority over
+making that optional archive artificially small.
+
+A 128px flying pig at the default 2× density requests a **45,056 B** 256px
+WebP instead of the **832,078 B** master. The selected installer retains all
+five WebP sizes for later use, but a mounted image requests only the chosen size.
+Three-design production consumers contain exactly three metadata modules and one
+resolver; copied components have no runtime-package import.
+
+Cold-cache production-browser observations (1200×900, DPR 1, 4× CPU slowdown,
+local gzip server, two-second sample; HTML/headers excluded):
+
+| Page | Requests | Response bytes | CLS |
+| --- | ---: | ---: | ---: |
+| Main frame browser | 20 | 304,276 B | 0 |
+| Illustration browser, flying pig at 128px | 16 | 219,524 B | 0.0082 |
+| Initial artwork review | 8 | 66,272 B | 0 |
+| All 111 designs offscreen, eager React | 169 | 9,724,981 B | 0 |
+| All 111 designs offscreen, lazy React | 2 | 109,260 B | 0 |
+
+The illustration browser loads only nearby thumbnails and the selected variant,
+not all illustration masters. The small gallery shift occurs during initial
+catalog/control setup. Lazy native images preserve their reserved proportions;
+the consumer checks verify unchanged geometry after decode. Timings remain
+observations, not fixed test thresholds. Reports: `tmp/selective-audit/report.json`
+and `tmp/merge-review/performance-final.json`.
+
+Site storage was also audited. Public exports, original reference sources and
+the full browser ZIP would approach the [GitHub Pages 1 GB published-site limit](https://docs.github.com/en/pages/getting-started-with-github-pages/github-pages-limits).
+`npm run build:site` excludes only the redundant editable `sources/traces/`
+directory from deployment, preserves it in Git, and enforces a 950 MB budget.
+Public SVG/PNG/WebP paths and original reference sources remain available.

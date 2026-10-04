@@ -19,3 +19,7 @@ as recorded by `vector_method` in `additional-patterns.json`.
 Optional retracing uses `scripts/trace_sources.py`, Python 3.12, and `requirements-trace.txt`. Ordinary asset builds read the checked-in tiles and traces. Keep the original sheet and untouched reference crops when making corrections.
 
 `additions/` preserves five further user-supplied sheets without stock watermarks byte-for-byte. `additional-patterns.json` records their exact hashes, source/canonical unit bounds, repeat evidence and trace fitting settings. The digital sheet uses only strips 2 and 4. `tiles/` and `traces/` also hold these checked native inputs and editable approximations. Original backgrounds remain in raster assets. The three blue stencil designs retain their grid-paper backgrounds; their background phase can show at repeat joins. Watermarked sheets stay in ignored `tmp/additions/` and their candidates are excluded from review and release.
+
+The 41 migrated illustration masters/variants retain their original bytes and descriptive metadata. `medieval-cutouts/` preserves the imported catalog, metadata guide, correction prompts and the two documented source references. See `illustration-import.json` at the repository root.
+
+Editable trace masters remain in the [repository](https://github.com/adrian729/medieval-ornaments/tree/main/sources/traces); the deployed Pages site omits this redundant directory while retaining the public SVG exports and original reference sources.

@@ -58,13 +58,16 @@ try {
       await choose('design', design); check(await art());
     }
     await choose('wholeDesign', 'painted-sprawling-floral-panel'); check(await art());
+    await choose('wholeDesign', 'flying-pig'); check(await art());
+    assert.ok(await evaluate("document.getElementById('whole').src.endsWith('/webp/256/flying-pig.webp')&&document.getElementById('whole').loading==='lazy'&&document.getElementById('selective-illustration').src.endsWith('/webp/256/flying-pig.webp')"), 'Live generic and individual illustration sizing/loading');
+    await choose('wholeDesign', 'animal-musicians-ensemble'); check(await art());
     assert.ok(result.urls.every(url => url.startsWith(origin + '/')));
     const screenshot = await send('Page.captureScreenshot', { captureBeyondViewport: false });
     await writeFile(new URL(`tmp/live-${example}-${width}.png`, root), Buffer.from(screenshot.data, 'base64'));
     records.push({ example, width, ...result });
   }
   // Load the actual npm modules directly from their pinned CDN, not checkout URLs.
-  const cdn = await evaluate(`(async()=>{const api=await import('https://unpkg.com/@ranx729/medieval-ornaments@${version}/lib/index.js');const cases=[['frame',{design:'red-berry-vine'}],['divider',{design:'plate-02-stepped-ribbon'}],['divider',{design:'plate-02-stepped-ribbon',orientation:'horizontal'}],['image',{design:'floral-bird-panel-blue',size:128}],['frame',{design:'blue-diamond-leaf-stencil-band'}],['divider',{design:'blue-paired-birds-and-palmettes',orientation:'vertical'}],['frame',{design:'russet-floral-vine-with-bud-borders'}],['image',{design:'painted-sprawling-floral-panel',size:128}],['image',{design:'gold-scroll-with-blue-bellflowers',format:'png',size:107,pixelRatio:1}],['image',{design:'gold-scroll-with-blue-bellflowers',format:'svg',size:330}]];const assets=cases.map(([use,options])=>api.resolveOrnament(use,options).asset);await Promise.all(assets.map(async asset=>{const image=new Image();image.src=asset.url;await image.decode();}));const individual=await import('https://unpkg.com/@ranx729/medieval-ornaments@${version}/lib/designs/red-berry-vine.js');const selected=individual.resolveOrnament('divider');return {individualName:individual.ornament.name,individualUrl:selected.asset.url,version:api.version,assetsPackage:api.assetsPackage,assetsVersion:api.assetsVersion,count:api.ornaments.length,assets};})()`);
+  const cdn = await evaluate(`(async()=>{const api=await import('https://unpkg.com/@ranx729/medieval-ornaments@${version}/lib/index.js');const cases=[['frame',{design:'red-berry-vine'}],['divider',{design:'plate-02-stepped-ribbon'}],['divider',{design:'plate-02-stepped-ribbon',orientation:'horizontal'}],['image',{design:'floral-bird-panel-blue',size:128}],['frame',{design:'blue-diamond-leaf-stencil-band'}],['divider',{design:'blue-paired-birds-and-palmettes',orientation:'vertical'}],['frame',{design:'russet-floral-vine-with-bud-borders'}],['image',{design:'painted-sprawling-floral-panel',size:128}],['image',{design:'gold-scroll-with-blue-bellflowers',format:'png',size:107,pixelRatio:1}],['image',{design:'gold-scroll-with-blue-bellflowers',format:'svg',size:330}],['image',{design:'flying-pig',size:128}],['image',{design:'musicians-and-dancers',size:128}],['image',{design:'animal-musicians-ensemble',size:128}]];const assets=cases.map(([use,options])=>api.resolveOrnament(use,options).asset);await Promise.all(assets.map(async asset=>{const image=new Image();image.src=asset.url;await image.decode();}));const individual=await import('https://unpkg.com/@ranx729/medieval-ornaments@${version}/lib/designs/red-berry-vine.js');const selected=individual.resolveOrnament('divider');const illustrations=await import('https://unpkg.com/@ranx729/medieval-ornaments@${version}/lib/selection-illustrations.js');if(illustrations.ornaments.length!==41||!illustrations.findOrnaments({categories:['reading'],subjects:['rabbit']}).length)throw Error('Scoped illustration discovery failed');const pig=await import('https://unpkg.com/@ranx729/medieval-ornaments@${version}/lib/designs/flying-pig.js');if(pig.resolveOrnament('image',{size:128}).asset.path!=='webp/256/flying-pig.webp')throw Error('Individual illustration failed');return {individualName:individual.ornament.name,individualUrl:selected.asset.url,version:api.version,assetsPackage:api.assetsPackage,assetsVersion:api.assetsVersion,count:api.ornaments.length,assets};})()`);
   assert.equal(cdn.individualName, 'red-berry-vine');
   assert.ok(cdn.individualUrl.startsWith(`https://unpkg.com/${ornamentAssets.package}@${ornamentAssets.version}/`));
   assert.equal(cdn.version, version); assert.equal(cdn.count, (await (await fetch(origin + '/images.json')).json()).length);
@@ -84,8 +87,11 @@ try {
   await new Promise(resolve => server.listen(0, '127.0.0.1', resolve));
   await navigate(`http://127.0.0.1:${server.address().port}/medieval-ornaments-browser/examples/vanilla/`, `document.body?.dataset.ready==='true'`);
   check(await art()); await choose('orientation', 'vertical'); check(await art());
+  await choose('wholeDesign', 'flying-pig'); check(await art());
   assert.ok((await art()).urls.every(url => new URL(url).hostname === '127.0.0.1'), 'ZIP example should be self-hosted');
   assert.deepEqual(errors, []); assert.deepEqual(missing, []);
+  await navigate(`http://127.0.0.1:${server.address().port}/medieval-ornaments-browser/examples/?type=illustration`, `document.body?.dataset.ready==='true'`);
+  assert.ok(await evaluate("document.querySelectorAll('.design-card').length===41&&document.getElementById('purpose').value==='whole'"), 'ZIP illustration browser');
   records.push({ browserZip: 'pass', folder });
   await writeFile(new URL('tmp/package-site.json', root), JSON.stringify(records, null, 2));
   console.log('PASS live vanilla/React demos at 375/1200px, original and forced axes, image decoding, pinned npm CDN modules/assets, and downloaded browser ZIP with local images.');

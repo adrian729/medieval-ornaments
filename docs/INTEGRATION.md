@@ -29,6 +29,12 @@ The generic API below supports dynamic names, with the full catalog in its
 bundle. It remains compatible with earlier releases. Import `/catalog` explicitly
 when you want the full discovery API.
 
+Since 0.6.0, `/catalog/borders`, `/catalog/decorations` and `/catalog/illustrations`
+provide discovery with only that type's metadata. Illustrations use the existing
+whole-image components and per-design import paths. Descriptions, subject tags,
+facing, composition, measured transparency and usage notes support autonomous
+selection; see [the illustration guide](ILLUSTRATIONS.md).
+
 ## Shared contract
 
 React's `/react` entry includes the shared stylesheet automatically. For vanilla
@@ -39,9 +45,11 @@ All designs use the same three components/functions:
 | --- | --- | --- | --- |
 | Frame around content | `OrnamentFrame` | `createFrame` | 56 repeat designs |
 | Repeating divider | `OrnamentDivider` | `createDivider` | 56 repeat designs |
-| Whole decoration | `OrnamentImage` | `createOrnamentImage` | 14 whole designs |
+| Decoration or illustration | `OrnamentImage` | `createOrnamentImage` | 14 decorations and 41 illustrations |
 
-Version 0.3.0 includes 21 source additions, including the three grid-paper stencils with their backgrounds retained. The catalog has 70 designs.
+The catalog has 111 designs. Version 0.3.0 added 21 source designs, including
+three grid-paper stencils with retained backgrounds. Version 0.6.0 adds the 41
+illustrations while preserving all existing artwork bytes and component geometry.
 
 In the generic API, only `design` is required. Individual imports are already bound
 to one design and omit that option. No default ornament is chosen for you. A whole
@@ -270,11 +278,13 @@ SVG. Requesting an unsupported format or use throws a useful error.
 
 ## CDN or self-hosting
 
-The runtime pins an independent artwork revision. Runtimes 0.4.0 and 0.5.0 use:
+The runtime pins an independent artwork revision. Runtime 0.6.0 uses:
 
 ```text
-https://unpkg.com/@ranx729/medieval-ornaments-assets@0.3.2/
+https://unpkg.com/@ranx729/medieval-ornaments-assets@0.4.0/
 ```
+
+Runtimes 0.4.0 and 0.5.0 retain their original artwork pin at 0.3.2.
 
 The public exports `assetsPackage`, `assetsVersion` and `defaultAssetsBase`
 identify this pin. Code-only releases can retain it. URLs never follow `latest`
@@ -303,7 +313,7 @@ For fully offline copies or direct asset imports, explicitly install the
 matching artwork package:
 
 ```sh
-npm install --save-dev @ranx729/medieval-ornaments-assets@0.3.2
+npm install --save-dev @ranx729/medieval-ornaments-assets@0.4.0
 npx --no-install medieval-ornaments copy-assets public/ornaments \
   --design red-berry-vine --offline
 ```
@@ -385,6 +395,7 @@ npm test
 npm run test:types
 npm run test:integration
 npm run build:browser
+npm run build:site
 npm pack
 ```
 

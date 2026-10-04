@@ -3,6 +3,7 @@
 
 import argparse
 import json
+import re
 from collections import Counter
 from pathlib import Path
 import xml.etree.ElementTree as ET
@@ -13,7 +14,8 @@ from build_assets import verify_pair
 ROOT=Path(__file__).resolve().parents[1]
 START='<!-- gallery:start -->'
 END='<!-- gallery:end -->'
-CATEGORIES={'floral','botanical','animals','geometric','knotwork','ribbons','scrollwork'}
+SCHEMA=json.loads((ROOT/'images.schema.json').read_text())['$defs']
+CATEGORIES=set(SCHEMA['category']['enum'])
 
 
 def entries(item):
@@ -28,7 +30,16 @@ def validate(catalog):
         assert item['description'].strip()
         assert set(item['categories'])<=CATEGORIES and item['categories']
         assert item['subjects'] and item['colors']
-        assert item['facing'] in {'left','right','front','mixed','unclear'}
+        for key in ['categories','subjects','colors']:
+            assert len(item[key])==len(set(item[key])) and all(re.fullmatch('[a-z]+(?:-[a-z]+)*', tag) for tag in item[key]),item['name']+' '+key
+        assert set(item['colors'])<=set(SCHEMA['color']['enum'])
+        assert item['facing'] in SCHEMA['facing']['enum']
+        assert item['composition'] in SCHEMA['composition']['enum']
+        assert item['asset_type'] in ['border','decoration','illustration']
+        assert item['kind'] in ['standalone','repeat-tile']
+        assert (item['asset_type']=='border')==(item['kind']=='repeat-tile')
+        assert isinstance(item['has_transparency'],bool)
+        assert item['usage_notes'] and all(isinstance(note,str) and note.strip() for note in item['usage_notes'])
         assert item['repeat_axis'] in {'none','x','y'}
         if item['kind']=='standalone':assert item['repeat_axis']=='none'
         if 'master_longest_dimension_cap' in item:
@@ -36,6 +47,7 @@ def validate(catalog):
             assert item['master_longest_dimension_cap']<=max(item['source_canvas'].values())
         for original in entries(item):
             with Image.open(ROOT/original['png']) as source:master=source.convert('RGBA')
+            if original is item:assert (master.getchannel('A').getextrema()[0]<255)==item['has_transparency'],item['name']+' transparency metadata'
             for asset in [original,*original['variants']]:
                 expected=master.copy()
                 if 'max_dimension' in asset:
@@ -74,7 +86,8 @@ def validate(catalog):
 
 def gallery(catalog):
     counts=Counter(tag for item in catalog for tag in item['categories'])
-    lines=[START,'## Browse designs','','| Category | Designs |','| --- | --- |']
+    types=Counter(item['asset_type'] for item in catalog)
+    lines=[START,'## Browse designs','',f"{len(catalog)} designs: {types['border']} repeating borders, {types['decoration']} whole decorations and {types['illustration']} illustrations.", '', '| Category | Designs |','| --- | --- |']
     lines.extend(f'| `{tag}` | {count} |' for tag,count in sorted(counts.items()))
     lines+=['','| Preview | Design | Type | Files |','| --- | --- | --- | --- |']
     for item in sorted(catalog,key=lambda item:item['name'].casefold()):
@@ -84,7 +97,7 @@ def gallery(catalog):
         if 'rotated_tile' in item['components']:links+=[f"[Rotated tile]({item['components']['rotated_tile']['svg']})"]
         if 'corner' in item['components']:links+=[f"[Corner]({item['components']['corner']['svg']})",f"[Border atlas]({item['components']['border_image']['svg']})"]
         if 'reference_crop' in item['components']:links+=[f"[Reference crop]({item['components']['reference_crop']['png']})"]
-        lines.append(f"| <img src=\"{preview}\" height=\"72\" alt=\"{item['name']}\"> | `{item['name']}` | {item['kind']} | {' · '.join(links)} |")
+        lines.append(f"| <img src=\"{preview}\" height=\"72\" alt=\"{item['name']}\"> | `{item['name']}` | {item['asset_type']} | {' · '.join(links)} |")
     lines+=['',END]
     return '\n'.join(lines)
 

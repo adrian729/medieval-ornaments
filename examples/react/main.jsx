@@ -2,14 +2,16 @@ import React, { useState, useRef, StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 import { OrnamentFrame, OrnamentDivider, OrnamentImage } from '@ranx729/medieval-ornaments/react';
 import { OrnamentDivider as BerryDivider } from '@ranx729/medieval-ornaments/react/red-berry-vine';
-import { findOrnaments } from '@ranx729/medieval-ornaments';
+import { OrnamentImage as FlyingPig } from '@ranx729/medieval-ornaments/react/flying-pig';
+import { findOrnaments, getOrnament } from '@ranx729/medieval-ornaments';
 import '../integration.css';
 
 const assetsBase = document.documentElement.dataset.assetsBase || undefined;
 const repeats = findOrnaments({ use: 'divider' }), whole = findOrnaments({ use: 'image' });
 function Options({ items }) {
-  return [...new Set(items.map(item => item.categories[0]))].sort().map(category =>
-    <optgroup key={category} label={category}>{items.filter(item => item.categories[0] === category).map(item => <option key={item.name}>{item.name}</option>)}</optgroup>);
+  const group = item => `${item.asset_type} · ${item.categories[0]}`;
+  return [...new Set(items.map(group))].sort().map(category =>
+    <optgroup key={category} label={category}>{items.filter(item => group(item) === category).map(item => <option key={item.name}>{item.name}</option>)}</optgroup>);
 }
 function App() {
   const [design, setDesign] = useState('red-berry-vine');
@@ -28,7 +30,7 @@ function App() {
       <label>Divider direction <select id="orientation" value={orientation} onChange={e => setOrientation(e.target.value)}><option value="original">Original direction</option><option value="horizontal">Horizontal</option><option value="vertical">Vertical</option></select></label>
       <label>Divider thickness <input id="size" type="range" min="12" max="64" value={size} onChange={e => setSize(Number(e.target.value))}/></label>
       <label>Available length <input id="length" type="range" min="80" max="600" value={length} onChange={e => setLength(Number(e.target.value))}/></label>
-      <label>Whole decoration <select id="wholeDesign" value={image} onChange={e => setImage(e.target.value)}><Options items={whole}/></select></label>
+      <label>Decoration or illustration <select id="wholeDesign" value={image} onChange={e => setImage(e.target.value)}><Options items={whole}/></select></label>
     </div>
     <div className="grid">
       <div>
@@ -39,7 +41,7 @@ function App() {
         <div className="divider-slot"><OrnamentDivider id="divider" design={design} orientation={orientation} size={size} length={length} assetsBase={assetsBase}/></div>
         <button id="toggle" onClick={() => setVisible(value => !value)}>{visible ? 'Hide frame' : 'Show frame'}</button>
       </div>
-      <div className="whole"><OrnamentImage decoding="async" id="whole" design={image} size={128} assetsBase={assetsBase} loading="lazy"/><p>A whole decoration using a small, suitable asset.</p></div>
+      <div className="whole"><OrnamentImage decoding="async" id="whole" design={image} size={128} assetsBase={assetsBase} loading="lazy"/><p>{getOrnament(image).description}</p><p>{getOrnament(image).asset_type} · {getOrnament(image).has_transparency ? 'has transparency' : 'opaque background'}</p></div>
     </div>
     <h2>Use it in your project</h2>
     <pre>{`import { OrnamentDivider } from '@ranx729/medieval-ornaments/react';\n\n<OrnamentDivider design="${design}"\n  orientation="${orientation}" size={${size}} length={${length}} />`}</pre>
@@ -48,6 +50,10 @@ function App() {
     <BerryDivider id="selective-divider" assetsBase={assetsBase} />
     <pre>{`import { OrnamentDivider } from '@ranx729/medieval-ornaments/react/red-berry-vine';\n\n<OrnamentDivider />`}</pre>
     <p>Individual imports omit the design prop and bundle only chosen metadata. This picker uses the full API to browse every design.</p>
+    <h2>Use an illustration</h2>
+    <FlyingPig id="selective-illustration" assetsBase={assetsBase} size={128} loading="lazy" decoding="async" />
+    <pre>{`import { OrnamentImage as FlyingPig } from '@ranx729/medieval-ornaments/react/flying-pig';\n\n<FlyingPig size={128} loading="lazy" decoding="async" />`}</pre>
+    <p><a href="../../docs/ILLUSTRATIONS.md">Illustration usage and metadata</a> · <a href="../?type=illustration">Browse illustrations</a></p>
   </main>;
 }
 createRoot(document.getElementById('root')).render(<StrictMode><App/></StrictMode>);
