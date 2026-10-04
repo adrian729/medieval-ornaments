@@ -649,3 +649,38 @@ check: an unchanged legacy archive identity cannot mask a newer numbered
 resource snapshot; online mode falls back to the pinned CDN and offline mode
 fails before creating output. Legacy lookup uses selected artwork types,
 so future differently named collections remain supported.
+
+### Published release verification
+
+[Runtime 0.7.0](https://www.npmjs.com/package/@ranx729/medieval-ornaments/v/0.7.0)
+is published as `latest`. The registry artifact matches the tested packed
+artifact's SHA-512 integrity. It contains 719 files: 180,980 B compressed and
+1,230,333 B unpacked. A fresh registry install includes only this runtime
+package, without React or resource archive dependencies. Its generic and
+individual resolvers agree; all 111 designs and the 41-illustration discovery
+catalog are available; selected WebP downloads from each of the three numbered
+sources return successfully.
+
+[Pages deployment](https://github.com/adrian729/medieval-ornaments/actions/runs/37234191754)
+succeeded at release commit `483a66fa95cf061c186f0a5006afaf51634aa362`.
+The final assembled site is **8,422,245 B**, down from **935,825,529 B**.
+Live vanilla and React demos pass at 375/1200px, including original/forced
+axes, complete centered dividers, automatic React styles, individual designs,
+illustrations, sizing and image decoding. Direct imports of the actual pinned
+npm CDN runtime, individual modules and scoped discovery pass; all 13 selected
+SVG/PNG/WebP assets decode from their numbered resource packages. npm CDN
+propagation initially returned 404 for the runtime; the successful verification
+used the ordinary exact-version URLs after propagation, without URL overrides.
+
+[Release v0.7.0](https://github.com/adrian729/medieval-ornaments/releases/tag/v0.7.0)
+contains the **341,941,779 B** browser ZIP. The downloaded archive passes ZIP
+integrity checks and renders its vanilla demo and illustration browser using
+local images, with no browser errors or missing requests. Its SHA-256 matches
+the published release asset digest:
+`9f6da56556909ab74dbf910e43b2d11aaff7ec45c033bc20217de11e0bf00297`.
+
+Post-publication evidence: `tmp/package-site.json`,
+`tmp/resource-site-verification.log`, `tmp/resource-registry-consumer.json`,
+`tmp/resource-cdn-verification.json` and `tmp/site-build.json`.
+General application migration steps and the breaking direct URL/checkout
+assumptions are documented in [RESOURCE-MIGRATION.md](docs/RESOURCE-MIGRATION.md).
