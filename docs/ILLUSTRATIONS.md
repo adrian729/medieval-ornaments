@@ -215,11 +215,12 @@ React/vanilla demos accept every illustration in the whole-image picker.
   the master catalog. Removing metadata is not a file deletion command: review
   orphaned artwork separately, preserving source masters and import records.
   Package builds generate metadata/types only.
-- Any catalog/artwork change requires **both** artwork archive versions and root
-  pins to advance, plus the full archive's exact illustration dependency. The
-  archives share one verified manifest. Follow the
-  [release sequence](INTEGRATION.md#examples-and-development); code-only changes
-  retain the existing artwork pins.
+- Artwork changes advance the affected numbered resource version and its
+  exact main lock; publish and verify that resource before the runtime. Changes
+  to descriptions or selection tags alone do not require artwork publication.
+  The optional legacy archives remain compatibility snapshots; refreshing them
+  requires advancing both archive versions, their shared manifest and runtime
+  compatibility pins. Follow the [resource release guide](RESOURCES.md).
 - `illustration-import.json` records migration hashes and the original checkout's
   HEAD. `sources/medieval-cutouts/` retains the original catalog, metadata guide,
   extraction records and the two documented source references. The migration

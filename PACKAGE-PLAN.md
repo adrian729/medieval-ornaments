@@ -359,7 +359,7 @@ audits and artwork bytes. Old published archives are immutable compatibility
 snapshots and remain available. New copied components/assets and the browser
 ZIP include LICENSE only. No design, component API or geometry changes.
 
-- [ ] Publish the three numbered resources at 0.1.1 after verifying unchanged public files and editable inputs.
-- [ ] Lock clean source commits and update current usage/CDN examples to 0.7.1 / 0.1.1.
-- [ ] Pass unit, type, packed-consumer, package-size and site checks.
+- [x] Publish the three numbered resources at 0.1.1 after verifying unchanged public files and editable inputs.
+- [x] Lock clean source commits and update current usage/CDN examples to 0.7.1 / 0.1.1.
+- [x] Pass unit, type, packed-consumer, package-size and site checks.
 - [ ] Publish the tested 0.7.1 runtime, upload its offline ZIP, deploy Pages and record results in QA.md.

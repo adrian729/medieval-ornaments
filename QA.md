@@ -717,3 +717,45 @@ offline illustration resource. Direct HTML/CSS examples replace retired Pages
 image URLs with exact npm resource pins. Documentation-only packaging remains
 within the runtime budgets: 183,464 B compressed / 1,242,494 B unpacked before
 this QA/checklist record, which is excluded from the runtime package.
+
+## Notice removal and patch release · 2026-10-05
+
+The standalone artwork document was removed at the user's request from main,
+the three numbered resource repositories and their current npm revisions.
+Package allowlists, copy/add installers, scaffolding, verification workflows,
+documentation and the offline ZIP now include LICENSE only. The existing
+scoped software license is unchanged apart from its obsolete document link.
+Historical package versions and release archives remain immutable.
+
+All 1,789 public artwork exports and 120 native inputs match the prior
+resource manifests exactly, including rendering capabilities. All 412 files
+in the medieval-cutouts migration inventory retain their original SHA-256
+hashes. Descriptive catalogs and import records are unchanged.
+
+The three resources are published at 0.1.1, with GitHub releases and exact
+clean source locks. Registry SHA-512 integrities match the locally verified
+archives; each actual pinned CDN manifest and a smaller WebP were checked
+against their approved SHA-256 hashes.
+
+- borders-001: `ab792af0317c3556731510dbbcd7da3e2173b4fa`.
+- decorations-001: `c82d3acca383e3fa43f394bc256eee3d8de0a116`.
+- illustrations-001: `127ff668acdc681586d9d08c8c81e3b84022440d`.
+
+Runtime 0.7.1 passes 33 unit tests, public types, selective bundle checks and
+packed consumers: vanilla, React 18/19, development/production, SSR/hydration,
+state/refs, automatic CSS, lazy loading, original/forced divider axes and
+offline/selected artwork copying. Native checks preserve original references,
+400 source-frame joins, 102 integer-sliced raster atlases and 56 exact rotated
+tiles. No artwork generation or fidelity reduction was performed.
+
+Final runtime archive: **182,555 B compressed / 1,239,993 B unpacked**, 718 files, below 200 KB / 1.25 MB. The final archive differs from the packed-consumer fixture only in regenerated README preview commit URLs; all other files and modes are identical. A fresh install of the final archive additionally verifies the lean dependency tree, 111 designs, individual resolver and 0.1.1 resource pins.
+
+Offline browser ZIP: **341,942,647 B**, verified ZIP integrity and absence of the removed document. SHA-256: `58c36595d5863d176453bdd28d7fc98a8c1f2b5bf5b155825cb0b4c0b3cfde50`. Pages still excludes artwork and the ZIP; its pre-release build is **8,437,428 B**, below the 50 MB guard.
+
+No component API migration is required. Upgrade the runtime to 0.7.1;
+offline consumers should install the 0.1.1 resource selected by
+getAssetSource(design). Custom packaging that explicitly copied the former
+document should remove that step and retain LICENSE.
+
+Evidence is in ignored tmp/remove-rights/ and tmp/package-integration.json.
+Post-publication runtime/site checks follow below.
