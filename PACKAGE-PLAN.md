@@ -1,6 +1,6 @@
 # npm package and integration plan
 
-Status: illustration consolidation in progress for runtime 0.6.0 / artwork 0.4.0. Reviewed decisions are in docs/MERGE-PLAN.md; release/validation status is recorded below. Published 0.5.0 / 0.3.2 remain the verified previous release.
+Status: runtime 0.6.0 illustration consolidation is published and verified, with full artwork 0.4.0 and illustration artwork 0.1.0. Reviewed decisions are in docs/MERGE-PLAN.md; exact artifacts, registry/CDN checks and live deployment verification are recorded in QA.md.
 
 ## Goal and scope
 
@@ -313,5 +313,5 @@ The asset package remains independently pinned and optional.
 - [x] Measure selected/scoped bundles, real size selection and cold-cache eager/lazy behavior.
 - [x] Split optional artwork archives after npm rejected the unified payload; retain all bytes and full/illustration-only offline installs.
 - [x] Verify packed companions/runtime and assembled deployment; final archives are recorded in QA.md.
-- [ ] Commit/publish companion before runtime, then verify fresh registry/CDN consumers.
-- [ ] Verify deployed examples/ZIP and live gallery; tag/release and record final results.
+- [x] Commit/publish illustration archive, full companion, then runtime; verify fresh registry/CDN consumers.
+- [x] Verify deployed examples/ZIP and live gallery; tag/release and record final results.

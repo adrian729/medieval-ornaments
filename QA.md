@@ -1,6 +1,6 @@
 # Artwork and frame verification
 
-## Illustration consolidation · 0.6.0 / artwork 0.4.0 (2026-10-04)
+## Illustration consolidation · 0.6.0 / artwork 0.4.0 + illustrations 0.1.0 (2026-10-04)
 
 Reviewed decisions: [docs/MERGE-PLAN.md](docs/MERGE-PLAN.md). Migration preserves
 41 illustrations, including the newer uncommitted musicians-and-dancers addition,
@@ -53,8 +53,8 @@ Validation completed:
   masters remain in Git; all public exports and reference sources remain in the
   deployed site. The ZIP includes the unified browser and illustration guide.
 
-Release artifact, assembled site size and post-publication checks are recorded
-below when complete. The runtime budgets are 200 KB compressed / 1.25 MB unpacked
+Release artifacts, assembled site size and completed post-publication checks are
+recorded below. The runtime budgets are 200 KB compressed / 1.25 MB unpacked
 for the richer 111-design catalog; artwork remains excluded and optional.
 
 The initially verified unified artwork archive (340,776,285 B compressed) was
@@ -77,6 +77,38 @@ Final tested archives (fixture /tmp/ornaments-integration-VwAusI):
 The exact three archives passed the complete packed consumer matrix. The assembled
 site after packaging changes is 935,810,212 B, below the 950 MB budget. The
 approved archives are recorded in ignored tmp/merge-review/approved-release.json.
+
+
+Post-publication verification:
+
+- Published `@ranx729/medieval-ornaments@0.6.0`, full artwork companion `0.4.0`
+  and illustration archive `0.1.0`. All registry SHA-512 integrity values match
+  the exact tested archives above; all three latest tags point to these versions.
+  The full companion's upload returned HTTP 202 while npm scanned it; verified
+  installability and pinned CDN availability before publishing the runtime.
+- Fresh registry integration (`/tmp/ornaments-integration-4v9pdc`) passes the
+  complete consumer matrix, real selective CDN downloads before any archive is
+  installed, independent illustration-only offline copying, both archives and
+  all 1,789 verified files. A separate fresh full-artwork-only registry install
+  automatically obtains its exact illustration dependency without runtime/React.
+- 140 pinned CDN files match the checked-in bytes: all 111 individual metadata
+  modules, 17 shared/scoped modules, schema/guides/CSS, both manifests and six
+  artwork samples. All 13 resolver-selected live CDN image cases additionally
+  match original hashes and decode successfully in Chromium. One initial cold
+  CDN transfer timed out; the checksum sweep and browser checks passed afterward.
+- Pages code deployment [37206813547](https://github.com/adrian729/medieval-ornaments/actions/runs/37206813547)
+  succeeded at `9f46425`. All 1,074 checks pass against the actual live gallery.
+  Actual vanilla/React demos pass at 375/1200px, including original/forced axes,
+  generic/bound illustrations, 55 whole-image choices, sizing and lazy loading.
+  The downloaded browser ZIP passes archive integrity, self-hosted decoding and
+  the illustration browser with all 41 cards. No console errors or missing files.
+- Fixed the ZIP test server's directory recognition when URLs contain query
+  strings; added specific CDN decode URLs and final gallery error assertions.
+  This changes the test harness only. The passing site report is tmp/package-site.json;
+  published integrity, CDN hashes, installs and screenshots remain under tmp/merge-review/.
+- Release: [v0.6.0](https://github.com/adrian729/medieval-ornaments/releases/tag/v0.6.0).
+  The final audit commit follows the tested code deployment; artwork and runtime
+  package inputs are unchanged. The original cutouts checkout/status remains intact.
 
 
 ## Selective imports and local installer · 0.5.0 (2026-10-04)
