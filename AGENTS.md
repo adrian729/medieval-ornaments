@@ -1,6 +1,6 @@
 # Repository instructions
 
-This public collection now includes the migrated medieval-cutouts illustrations. Future illustration work belongs here; preserve the original checkout/history in `../medieval-cutouts`. Keep Polyhymnia logos and unrelated workspace files outside it.
+This public collection now includes the migrated medieval-cutouts illustrations. Future illustration work belongs here. Its old GitHub repository was retired after verifying the complete migration; no separate cutouts npm package existed. Preserve the original local checkout/history in `../medieval-cutouts`. Keep Polyhymnia logos and unrelated workspace files outside it.
 
 The npm/vanilla JavaScript/React runtime is published as `@ranx729/medieval-ornaments`. Since 0.7.0 independently versioned numbered resource repositories/packages own heavy artwork; `resource-registry.json`, `resource-lock.json`, `resources/manifests/` and [docs/RESOURCES.md](docs/RESOURCES.md) own placement, pins, capacity and rollover. The existing unnumbered archives remain optional compatibility snapshots. Do not reintroduce artwork or automatic asset dependencies into the runtime. Its accepted contract and release checklist are tracked in [PACKAGE-PLAN.md](PACKAGE-PLAN.md); keep them current across sessions.
 

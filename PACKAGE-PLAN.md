@@ -1,6 +1,6 @@
 # npm package and integration plan
 
-Status: runtime 0.7.0 numbered resources are published and verified; the 0.7.1 notice removal is being released. Full artwork 0.4.0 and illustration artwork 0.1.0 remain unchanged. Reviewed merge decisions are in docs/MERGE-PLAN.md; exact artifacts, registry/CDN checks and deployment verification are recorded in QA.md.
+Status: runtime 0.7.1 and numbered resource revisions 0.1.1 are published and verified, with unchanged artwork. Full artwork 0.4.0 and illustration artwork 0.1.0 remain unchanged. Reviewed merge decisions are in docs/MERGE-PLAN.md; exact artifacts, registry/CDN checks and deployment verification are recorded in QA.md.
 
 ## Goal and scope
 
@@ -362,4 +362,4 @@ ZIP include LICENSE only. No design, component API or geometry changes.
 - [x] Publish the three numbered resources at 0.1.1 after verifying unchanged public files and editable inputs.
 - [x] Lock clean source commits and update current usage/CDN examples to 0.7.1 / 0.1.1.
 - [x] Pass unit, type, packed-consumer, package-size and site checks.
-- [ ] Publish the tested 0.7.1 runtime, upload its offline ZIP, deploy Pages and record results in QA.md.
+- [x] Publish the tested 0.7.1 runtime, upload its offline ZIP, deploy Pages and record results in QA.md.

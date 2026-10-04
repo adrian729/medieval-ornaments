@@ -759,3 +759,30 @@ document should remove that step and retain LICENSE.
 
 Evidence is in ignored tmp/remove-rights/ and tmp/package-integration.json.
 Post-publication runtime/site checks follow below.
+
+### Publication and original repository retirement
+
+Runtime 0.7.1 is published as npm `latest`; its registry SHA-512 matches the
+final verified archive. The exact-version CDN runtime returns successfully.
+The GitHub Release is public and its uploaded ZIP digest matches the verified
+local archive. Pages deployment
+[37240575802](https://github.com/adrian729/medieval-ornaments/actions/runs/37240575802)
+succeeded from `6ee910e5d347e61bde2c918b0f05653e9b689955`. All 111 README
+previews return the exact approved bytes from current locked resource commits.
+The removed document returns 404 in main and all three published source pins.
+
+After the user granted the required GitHub deletion scope, the original
+`adrian729/medieval-cutouts` repository was deleted and its API returns 404.
+The local original checkout remains intact and the complete Git bundle passes
+verification. There was no separate cutouts npm package. Migration snapshots
+were not rewritten; the resource/runtime packages remain available.
+
+Live post-publication checks pass: deployed vanilla and React demos at
+375/1200px, original/forced divider axes, centered complete repeats, individual
+imports, generic and individual illustrations, sizing and image decoding.
+The actual pinned npm CDN modules and 13 SVG/PNG/WebP cases pass. The downloaded
+v0.7.1 ZIP passes integrity checks and renders its vanilla example and full
+illustration browser using local artwork, with no missing requests or browser
+errors. The final Pages build remains approximately **8.44 MB**, below its
+50 MB guard. Evidence: tmp/remove-rights/live-site.log,
+tmp/package-site.json and tmp/site-build.json.

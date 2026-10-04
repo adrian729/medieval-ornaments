@@ -77,3 +77,19 @@ illustration file records identify their owning package. Resolver defaults and
 CLI discovery route by family; explicit local/HTTP flat mirrors remain supported.
 No artwork dependency is added to the runtime. Publish illustrations, full
 artwork companion, runtime, in that order, with exact archive/integrity checks.
+
+## Original repository retirement · 2026-10-05
+
+At the user's request, `adrian729/medieval-cutouts` was deleted from GitHub
+after all 412 imported files matched the historical migration inventory.
+The latest remote main commit still matched the imported HEAD. Its complete
+Git history was exported and verified as a bundle; the local checkout,
+including the original uncommitted musicians-and-dancers files, is retained
+at `../medieval-cutouts`. The additional local history backup is
+`tmp/remove-rights/medieval-cutouts-history.bundle` (ignored, not a package or
+site asset). Original import snapshots remain unchanged.
+
+There was no separate `@ranx729/medieval-cutouts` npm package to remove.
+The numbered illustration resource and legacy illustration compatibility
+archive remain part of medieval-ornaments delivery. Future illustration
+work belongs in this repository and its assigned resource checkout.
