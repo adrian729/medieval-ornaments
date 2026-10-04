@@ -35,7 +35,27 @@ The tested runtime archive contains **453 files / 121,700 compressed bytes /
 885,904 unpacked bytes**, with no artwork or automatic dependencies. SRI:
 `sha512-sfU4SQH+yz/M1TBbYJeMaqXq6p0gnVD2jKKoSQVnuR6M9Z3IE1tTypm+E3BXYOr1EtLr7ySv1dmISZUG7avDIg==`.
 This stays under the existing 150 KB compressed / 1 MB unpacked budgets.
-Post-publication registry/CDN/deployment verification is pending.
+Published **@ranx729/medieval-ornaments@0.5.0** as npm `latest`; registry SRI
+matches the tested archive above. A fresh registry consumer repeats the full
+integration matrix, including selected CDN `add` without the full archive,
+individual/copy-local React and vanilla, declarations, SSR/hydration and React
+18/19. The actual pinned UNPKG runtime, all 70 individual data modules, selected
+helpers/entry and usage guide match the release bytes (**83/83 files**).
+
+[Pages deployment 37161832045](https://github.com/adrian729/medieval-ornaments/actions/runs/37161832045)
+succeeded. All **740 live gallery checks** pass. Live vanilla/React examples at
+375/1200px render both generic and individual APIs, decode self-hosted assets,
+retain the original/forced axes, and link the new guide. The actual pinned npm
+CDN generic/individual modules and all ten image configurations pass. The
+published browser ZIP downloads, validates and renders offline self-hosted
+artwork, including the individual vanilla example. The mobile React rendering
+was inspected. [Release/tag v0.5.0](https://github.com/adrian729/medieval-ornaments/releases/tag/v0.5.0)
+is public; reports/screenshots remain under ignored `tmp/`.
+
+UNPKG initially returned version-not-found 404s while its npm metadata updated;
+a transient DNS error also occurred during polling. Both cleared before the
+successful checksum and actual-browser verification. No alternate version or
+artwork reduction was used.
 
 ## Performance audit and package split · 0.4.0 (2026-10-03/04)
 

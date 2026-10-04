@@ -1,6 +1,6 @@
 # npm package and integration plan
 
-Status: implementing runtime 0.5.0 individual imports and the local component/artwork installer. Runtime 0.4.0 and artwork 0.3.2 are published and verified. The code-only 0.5.0 release retains artwork 0.3.2; publication/deployment checks are pending.
+Status: runtime @ranx729/medieval-ornaments@0.5.0 and artwork @ranx729/medieval-ornaments-assets@0.3.2 are published and verified. The tested runtime SRI matches npm; fresh registry consumers, selected CDN installs, individual/local React and vanilla bundles, all 740 live gallery checks, deployed examples, actual pinned CDN modules/assets and downloaded browser ZIP pass. Release v0.5.0 records the individual imports and local installer. Artwork is unchanged; no release work remains.
 
 ## Goal and scope
 
@@ -292,5 +292,5 @@ reviewed merge. No artwork rebuilding or automatic dependency installation.
 - [x] Document runnable imports, installer, hosting, formats, TypeScript, SSR, edits and updates in docs/SELECTIVE.md.
 - [x] Measure production bundles and assert selected module graphs, one resolver and retained CSS.
 - [x] Pass complete unit/types, actual packed consumers, artwork/catalog and browser/ZIP checks.
-- [ ] Commit/push, publish the exact tested runtime archive, verify fresh registry/CDN consumers.
-- [ ] Verify Pages/live examples/browser ZIP; tag/release and record sizes/results in QA.md.
+- [x] Commit/push, publish the exact tested runtime archive, verify fresh registry/CDN consumers.
+- [x] Verify Pages/live examples/browser ZIP; tag/release and record sizes/results in QA.md.
