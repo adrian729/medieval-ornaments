@@ -60,3 +60,18 @@ test('numbered offline packages copy selected files and protect installed source
   const data=JSON.parse(await readFile(path.join(target,'resource-manifest.json')));data.version='0.2.0';await writeFile(path.join(target,'resource-manifest.json'),json(data));
   await assert.rejects(exec(process.execPath,[cli,'copy-assets',destination,'--design',item.name,'--format','svg','--offline'],{cwd:directory}),/manifest does not match pinned/);
 });
+
+test('an older compatible-archive identity cannot conceal newer resource files',async t=>{
+  const directory=await temporary(t);await cp(path.join(root,'lib'),path.join(directory,'lib'),{recursive:true});
+  await writeFile(path.join(directory,'package.json'),'{"type":"module"}');
+  const legacy=path.join(directory,'node_modules/@ranx729/medieval-ornaments-assets');await mkdir(legacy,{recursive:true});
+  await writeFile(path.join(legacy,'package.json'),json({name:'@ranx729/medieval-ornaments-assets',version:'0.4.0',exports:{'./package.json':'./package.json'}}));
+  await copyFile(path.join(root,'assets-manifest.json'),path.join(legacy,'assets-manifest.json'));
+  // Simulate a later independent border snapshot while the optional legacy
+  // archive pin stays unchanged. Offline preflight must reject it before mkdir.
+  const pinFile=path.join(directory,'lib/asset-sources/borders-001.js');
+  const source=await readFile(pinFile,'utf8');await writeFile(pinFile,source.replace(/"activeFilesSha256":"[a-f0-9]+"/,`"activeFilesSha256":"${'0'.repeat(64)}"`));
+  const destination=path.join(directory,'public');
+  await assert.rejects(exec(process.execPath,['lib/cli.js','copy-assets',destination,'--design','red-berry-vine','--offline'],{cwd:directory}),/Offline artwork not found/);
+  await assert.rejects(readdir(destination),{code:'ENOENT'});
+});

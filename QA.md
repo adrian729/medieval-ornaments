@@ -605,7 +605,7 @@ The site is approximately 8.4 MB instead of 935.8 MB, with a 50 MB local guard.
 It contains no public artwork folders, native-input aliases or offline ZIP.
 The ZIP is a GitHub Release download; Pages loads exact-version CDN images.
 
-Passed: 32 unit tests, public types, packed vanilla/React 18/19 consumers,
+Passed: 33 unit tests, public types, packed vanilla/React 18/19 consumers,
 SSR/hydration/refs/state and offline self-hosting; catalog validation; 400 native
 source-frame joins, 102 integer-slice raster atlases and 56 pixel-exact rotated
 tiles. Isolated generator tests preserve imported bytes/masters, restore/new
@@ -641,3 +641,11 @@ errors. A missing import on the small demo was corrected before release; the
 complete browser suite and targeted decoded-image/snippet checks then passed.
 Resource workflows now use a sparse, immutable main-tooling checkout; their
 code-only source commits preserve the already-published artwork bytes.
+
+All **1,656 rendered frame cases** pass the white-pixel enclosure check: four
+floral styles at every 16–48px thickness, every border at 33px, SVG/PNG/WebP,
+and pixel ratios 1 / 1.25 / 2. A final installer review also added a regression
+check: an unchanged legacy archive identity cannot mask a newer numbered
+resource snapshot; online mode falls back to the pinned CDN and offline mode
+fails before creating output. Legacy lookup uses selected artwork types,
+so future differently named collections remain supported.
