@@ -85,11 +85,17 @@ def validate(catalog):
     print(f'Validated {len(catalog)} designs, {vector_count} genuine SVG files, and {len(paths)} total asset files.')
 
 
-def public_url(item, relative):
+def public_url(item, relative, *, preview=False):
     config=configuration()
     if config is None:return relative
     identity=config['assignments'][item['name']]
     pin=json.loads((ROOT/'resource-lock.json').read_text())['sources'][identity]
+    if preview:
+        # GitHub renders its own raw image host directly, avoiding Camo's
+        # intermittent upstream timeouts when fetching npm CDN previews.
+        commit=pin.get('gitCommit')
+        assert re.fullmatch(r'[0-9a-f]{40}',commit or ''),'Lock the resource commit before publishing README previews'
+        return f"https://raw.githubusercontent.com/{config['sources'][identity]['repository']}/{commit}/{relative}"
     return f"https://unpkg.com/{config['sources'][identity]['package']}@{pin['version']}/{relative}"
 
 
@@ -106,7 +112,7 @@ def gallery(catalog):
         if 'rotated_tile' in item['components']:links+=[f"[Rotated tile]({public_url(item,item['components']['rotated_tile']['svg'])})"]
         if 'corner' in item['components']:links+=[f"[Corner]({public_url(item,item['components']['corner']['svg'])})",f"[Border atlas]({public_url(item,item['components']['border_image']['svg'])})"]
         if 'reference_crop' in item['components']:links+=[f"[Reference crop]({public_url(item,item['components']['reference_crop']['png'])})"]
-        lines.append(f"| <img src=\"{public_url(item,preview)}\" height=\"72\" alt=\"{item['name']}\"> | `{item['name']}` | {item['asset_type']} | {' · '.join(links)} |")
+        lines.append(f"| <img src=\"{public_url(item,preview,preview=True)}\" height=\"72\" alt=\"{item['name']}\"> | `{item['name']}` | {item['asset_type']} | {' · '.join(links)} |")
     lines+=['',END]
     return '\n'.join(lines)
 

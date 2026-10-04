@@ -684,3 +684,24 @@ Post-publication evidence: `tmp/package-site.json`,
 `tmp/resource-cdn-verification.json` and `tmp/site-build.json`.
 General application migration steps and the breaking direct URL/checkout
 assumptions are documented in [RESOURCE-MIGRATION.md](docs/RESOURCE-MIGRATION.md).
+
+### README delivery correction and live latency review
+
+GitHub's Camo proxy returned 504 (`Error Fetching Resource`) for README
+previews while the original npm CDN images returned 200. Purging one proxy
+entry restored it, but another still failed. The README generator now selects
+commit-pinned raw URLs from the assigned resource repositories for previews;
+GitHub's Markdown renderer serves these directly without Camo. All 111
+preview images returned 200 with approved byte counts and SHA-256 hashes.
+Resource pixels, component URL defaults and file download links are unchanged.
+
+A fresh Chromium profile checked the deployed illustration browser at
+1200×900/DPR 1. Initial 13 image requests were CDN hits at 60–120ms. After
+scrolling, all 41 thumbnails and the selected whole image decoded with zero
+page errors. A separate 512px `musicians-and-dancers` request measured 2,604ms
+on a CDN miss and 34ms on its next hit. These are local network observations;
+new publication and regional cache misses can explain slow initial delivery,
+and warm results do not guarantee first-load latency elsewhere.
+
+Evidence: `tmp/delivery-review/readme-previews.json`, `gallery-cold.json`,
+`gallery-scroll.json`, `cdn-repeat.json` and the live README verification report.

@@ -294,3 +294,29 @@ behavior, format/density selection, lazy rendering and lossless source bytes
 are preserved. Raw main/Pages image URLs change as documented in
 [RESOURCE-MIGRATION.md](RESOURCE-MIGRATION.md); old immutable npm releases remain
 available. `npm run audit:selective` checks actual production module graphs.
+
+### New-release CDN latency and GitHub previews
+
+The live illustration browser was checked after the 0.7.0 resource publication,
+using a fresh Chromium browser profile at 1200×900 and DPR 1. Its initial
+13 image requests were CDN cache hits and completed in 60–120ms. Scrolling
+decoded every one of the 41 illustration thumbnails without errors. This
+clears the browser cache, not Cloudflare's edge cache, and these observations
+do not establish latency in other regions or networks.
+
+A separate exact-version request for the 512px `musicians-and-dancers` WebP
+took **2,604ms** with `CF-Cache-Status: MISS`; its immediate repeat took **34ms**
+with `HIT`. Recently published files can therefore have slow first delivery,
+and an unprimed regional cache can cause the same effect later. Successful
+decoding and immutable URLs do not guarantee a fast first request everywhere.
+[UNPKG documents its versioned edge caching](https://unpkg.com/#cache-performance).
+Applications requiring predictable first delivery can self-host only selected
+variants using `copy-assets` and their existing `assetsBase`; this keeps the
+runtime small and avoids installing or serving the complete collection.
+
+GitHub's Camo proxy separately returned 504 for some README images whose
+direct npm CDN responses were 200. README thumbnails now use immutable raw
+URLs in the resource repositories, which GitHub renders without Camo. All
+111 preview responses and their byte hashes were verified. This changes
+documentation previews only; runtime CDN routing and artwork are unchanged.
+Evidence is in ignored `tmp/delivery-review/`.

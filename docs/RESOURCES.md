@@ -216,3 +216,11 @@ metadata alone need not trigger that refresh or numbered image publication.
 Pages builds need only `npm run build:react` and `npm run build:site`; their
 50 MB local guard detects accidental resource bundling. `build:browser` is an
 explicit full-resource offline artifact, uploaded to the runtime GitHub Release.
+
+README gallery previews use `raw.githubusercontent.com` URLs pinned to the
+assigned resource's exact Git commit. GitHub renders that host directly;
+proxying npm CDN images through Camo produced intermittent fetch timeouts.
+The catalog generator owns these URLs, so regenerating the README preserves
+the fix. Download links and component/demo defaults still use exact npm CDN
+versions. Preview files remain in the resource repositories, outside main
+and Pages; lock a published resource commit before updating the public gallery.
