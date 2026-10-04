@@ -8,6 +8,7 @@
 </head>
 <h1>Repeating border designs · large and small frames</h1><div class="grid" id="grid"></div>
 <script type="module">
+import { assetUrl } from './assets.js';
 import { ornaments, createFrame } from '../lib/index.js';
 const repeats=ornaments.filter(x=>x.kind==='repeat-tile'),controllers=[];
 document.querySelector('h1').textContent=repeats.length+' repeating border designs · large and small frames';
@@ -21,7 +22,7 @@ for(const item of repeats){
   for(const size of ['large','small']){
     const frame=document.createElement('div');frame.className='frame '+(size==='small'?'small dark':'');
     frame.textContent=size==='small'?'150 × 110':'Responsive frame';card.append(frame);
-    controllers.push(createFrame(frame,{design:item.name,size:size==='small'?16:24,assetsBase:new URL('../',location.href).href,pixelRatio:devicePixelRatio||1,loading:'lazy'}));
+    controllers.push(createFrame(frame,{design:item.name,size:size==='small'?16:24,assetsBase:new URLSearchParams(location.search).get('assets')==='local'?new URL('../',location.href).href:document.documentElement.dataset.assetsBase?new URL(document.documentElement.dataset.assetsBase,location.href).href:undefined,pixelRatio:devicePixelRatio||1,loading:'lazy'}));
   }
   document.getElementById('grid').append(card);
 }

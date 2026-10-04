@@ -106,7 +106,7 @@ The optional companion exports `/catalog.json`, `/assets-manifest.json`, `/svg/*
 
 `copy-assets <destination>` discovers the matching optional companion or downloads only selected files from the pinned CDN. Keep design/format filters, components/variants, filtered catalog, CSS and rights notices. Verify the trusted manifest and each asset; stream four files concurrently with bounded memory. `--offline` forbids network access; `--from` supports approved local/HTTP mirrors. Preserve unrelated files, reject overlap with the runtime, both installed artwork archives (including unused/older revisions) and the source, reject external destination symlinks, and remove failed temporary files. Check prospective destinations before mkdir, including aliases to protected folders. No install-time download hooks.
 
-The browser ZIP remains a full self-hosted distribution with modules, CSS and unchanged artwork. Pages retains self-hosted vanilla/React examples. Filesystem copy destinations never determine public `assetsBase` automatically.
+The browser ZIP remains a full self-hosted distribution with modules, CSS and unchanged artwork. Since 0.7.0 Pages uses CDN-backed vanilla/React examples; the full self-hosted browser ZIP is a GitHub Release asset. Filesystem copy destinations never determine public `assetsBase` automatically.
 
 Use allowlists for all three packages. Exclude source sheets, audit scripts, private files, temporary folders, tests and demos. The 111-design runtime must stay below 200 KB compressed/1.25 MB unpacked. This replaces the 70-design 150 KB/1 MB budget to accommodate 41 new typed entries and richer agent metadata; the artwork-free/optional-dependency invariant and single-design bundle checks remain mandatory. The runtime JSON catalog is compact to limit installed duplication. Measure both archives and verify every artwork hash before release. Ordinary npm packaging rebuilds only metadata. `build:assets` verifies and stages approved existing files; changed artwork/catalog needs both archive versions/dependency/pins to advance and an audited manifest update. Publish/verify illustrations, then the full companion, before a runtime referencing them.
 
@@ -328,3 +328,19 @@ maintenance/CLI behavior and fills documentation/demo gaps found after the merge
 - [x] Update the landing demo count/grouping and use adequate smaller raster variants for border previews.
 - [x] Verify 29 unit tests, public types, isolated rebuild cases, packed consumers, 1,079 browser checks, artifact/site builds and unchanged individual/scoped bundle sizes.
 - [x] Publish the tested runtime patch, verify fresh registry/CDN consumers and deployed demos/ZIP, and record final evidence in QA.md.
+
+## Numbered resources · runtime 0.7.0
+
+Plan and agent workflow: docs/RESOURCES.md. Consumer changes:
+docs/RESOURCE-MIGRATION.md. Artwork pixels, design names, props, geometry,
+scoped metadata and individual imports remain unchanged. Resource ownership is
+independent of factual asset type and supports additional numbered repositories.
+
+- [x] Validate the ownership split, preserve approved bytes/metadata and define stable collection/sequence naming and capacity reserves.
+- [x] Implement central registry/manifests/locks, explicit sparse fetching, canonical generator paths, local aliases, approval, new-source scaffolding and immutable retained-design migration.
+- [x] Route generic/individual components and verified installs through exact source pins without runtime artwork dependencies or full routing in individual bundles.
+- [x] Retain compatibility archive exports and flat self-hosted layout; document raw/Pages artwork links, legacy constants, local authoring and ZIP URL changes.
+- [x] Move Pages artwork to CDN delivery and the optional browser ZIP to GitHub Releases; separate demo build from full offline packaging.
+- [ ] Publish/verify three resource repositories and npm packages; lock exact source commits and remove migrated physical files from main.
+- [ ] Complete packed/browser/artwork/performance checks, publish runtime, deploy Pages and attach the verified offline ZIP.
+- [ ] Record final sizes, release links and consumer migration examples after final review.

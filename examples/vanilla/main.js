@@ -2,9 +2,9 @@ import { createFrame, createDivider, createOrnamentImage, findOrnaments, getOrna
 import { createDivider as createBerryDivider } from '@ranx729/medieval-ornaments/designs/red-berry-vine';
 import { createOrnamentImage as createFlyingPig } from '@ranx729/medieval-ornaments/designs/flying-pig';
 
-// This checkout demo self-hosts images. Installed projects can omit assetsBase
+// Default hosting follows immutable resource pins. Offline demos set assetsBase.
 // for version-pinned CDN images, or use their own copied public asset root.
-const assetsBase = document.documentElement.dataset.assetsBase || new URL('../../', import.meta.url).href;
+const assetsBase = document.documentElement.dataset.assetsBase ? new URL(document.documentElement.dataset.assetsBase, location.href).href : new URLSearchParams(location.search).get('assets')==='local' ? new URL('../../', import.meta.url).href : undefined;
 const byId = id => document.getElementById(id);
 function populate(id, use, selected) {
   const select = byId(id), groups = new Map();

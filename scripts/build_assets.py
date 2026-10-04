@@ -13,6 +13,7 @@ from PIL import Image, ImageChops
 
 from designs import B, H, W, documents, specs
 from selection_metadata import illustrations, enrich
+from resource_paths import resource_file, asset_relative
 
 ROOT=Path(__file__).resolve().parents[1]
 LIMITS=(128,256,512,768)
@@ -55,14 +56,14 @@ def verify_pair(expected,png,webp):
 
 
 def save_pair(image,name,folder=None):
-    png=ROOT/'png';webp=ROOT/'webp'
-    if folder is not None:png/=str(folder);webp/=str(folder)
-    png.mkdir(parents=True,exist_ok=True);webp.mkdir(parents=True,exist_ok=True)
-    png/=name+'.png';webp/=name+'.webp'
+    prefix=f'{folder}/' if folder is not None else ''
+    png=resource_file(f'png/{prefix}{name}.png',write=True)
+    webp=resource_file(f'webp/{prefix}{name}.webp',write=True)
+    png.parent.mkdir(parents=True,exist_ok=True);webp.parent.mkdir(parents=True,exist_ok=True)
     image.save(png,format='PNG',optimize=True)
     image.save(webp,format='WEBP',lossless=True,method=6,exact=True)
     verify_pair(image,png,webp)
-    return dict(png=png.relative_to(ROOT).as_posix(),webp=webp.relative_to(ROOT).as_posix(),
+    return dict(png=asset_relative(png),webp=asset_relative(webp),
                 width=image.width,height=image.height,png_bytes=png.stat().st_size,
                 webp_bytes=webp.stat().st_size)
 
@@ -81,7 +82,7 @@ def variants(image,name,alignment_step=1):
 
 
 def vector_export(document,name,native_source=None,alignment_step=1):
-    target=ROOT/'svg'/f'{name}.svg';target.parent.mkdir(exist_ok=True)
+    target=resource_file(f'svg/{name}.svg',write=True);target.parent.mkdir(parents=True,exist_ok=True)
     target.write_text(document)
     # Render a single 1024px master from SVG. Only downscale that raster master.
     import xml.etree.ElementTree as ET
@@ -94,17 +95,18 @@ def vector_export(document,name,native_source=None,alignment_step=1):
         scale=limit/max(width,height)
         pixels=cairosvg.svg2png(bytestring=document.encode(),output_width=round(width*scale),output_height=round(height*scale))
         image=Image.open(io.BytesIO(pixels)).convert('RGBA')
-    return dict(svg=target.relative_to(ROOT).as_posix(),viewbox=[0,0,int(width),int(height)],
+    return dict(svg=asset_relative(target),viewbox=[0,0,int(width),int(height)],
                 **save_pair(image,name),variants=variants(image,name,alignment_step))
 
 
 def existing_export(item,name):
-    with Image.open(ROOT/item['png']) as source:image=source.convert('RGBA')
-    webp=ROOT/'webp'/f'{name}.webp'
+    with Image.open(resource_file(item['png'])) as source:image=source.convert('RGBA')
+    webp=resource_file(f'webp/{name}.webp',write=True)
+    webp.parent.mkdir(parents=True,exist_ok=True)
     image.save(webp,format='WEBP',lossless=True,method=6,exact=True)
-    verify_pair(image,ROOT/item['png'],webp)
-    return dict(item,webp=webp.relative_to(ROOT).as_posix(),width=image.width,height=image.height,
-                png_bytes=(ROOT/item['png']).stat().st_size,webp_bytes=webp.stat().st_size,
+    verify_pair(image,resource_file(item['png']),webp)
+    return dict(item,webp=asset_relative(webp),width=image.width,height=image.height,
+                png_bytes=(resource_file(item['png'])).stat().st_size,webp_bytes=webp.stat().st_size,
                 variants=variants(image,name))
 
 
@@ -113,13 +115,13 @@ def rotated_tile(entry):
     import xml.etree.ElementTree as ET
     from html import escape
     axis=entry['repeat_axis'];w,h=entry['viewbox'][2:]
-    document=(ROOT/entry['svg']).read_text()
+    document=(resource_file(entry['svg'])).read_text()
     root=ET.fromstring(document)
     root.attrib.update(width=str(w),height=str(h))
     nested=ET.tostring(root,encoding='unicode').replace('ns0:','').replace(':ns0','')
     matrix=f'matrix(0 1 -1 0 {h} 0)' if axis=='x' else f'matrix(0 -1 1 0 0 {w})'
     document=f'<svg xmlns="http://www.w3.org/2000/svg" width="{h}" height="{w}" viewBox="0 0 {h} {w}"><title>{escape(entry["name"])} rotated repeat tile</title><g transform="{matrix}">{nested}</g></svg>\n'
-    with Image.open(ROOT/entry['png']) as image:
+    with Image.open(resource_file(entry['png'])) as image:
         native=image.transpose(Image.Transpose.ROTATE_270 if axis=='x' else Image.Transpose.ROTATE_90)
     return dict(**vector_export(document,entry['name']+'-rotated',native_source=native),
                 repeat_axis='y' if axis=='x' else 'x',repeat_ratio=entry['repeat_ratio'])
@@ -129,7 +131,7 @@ def build(names=None):
     old_catalog=json.loads((ROOT/'images.json').read_text())
     raster_path=ROOT/'raster-metadata.json'
     raster=json.loads(raster_path.read_text()) if raster_path.exists() else []
-    before={item['png']:hashlib.sha256((ROOT/item['png']).read_bytes()).hexdigest() for item in raster}
+    before={item['png']:hashlib.sha256((resource_file(item['png'])).read_bytes()).hexdigest() for item in raster if not names or item['name'] in names}
     selected=set(names or [])
     designs=list(specs())
     illustration_items=illustrations()
@@ -141,13 +143,14 @@ def build(names=None):
     for item in raster:
         if selected and item['name'] not in selected:
             catalog.append(next(old for old in old_catalog if old['name']==item['name']));continue
-        with Image.open(ROOT/item['png']) as source:image=source.convert('RGBA')
+        with Image.open(resource_file(item['png'])) as source:image=source.convert('RGBA')
         # Keep the source PNG byte-for-byte; encode only its WebP and smaller variants.
-        webp=ROOT/'webp'/f"{item['name']}.webp"
+        webp=resource_file(f"webp/{item['name']}.webp",write=True)
+        webp.parent.mkdir(parents=True,exist_ok=True)
         image.save(webp,format='WEBP',lossless=True,method=6,exact=True)
-        verify_pair(image,ROOT/item['png'],webp)
-        entry=dict(item,webp=webp.relative_to(ROOT).as_posix(),width=image.width,height=image.height,
-                   png_bytes=(ROOT/item['png']).stat().st_size,webp_bytes=webp.stat().st_size,
+        verify_pair(image,resource_file(item['png']),webp)
+        entry=dict(item,webp=asset_relative(webp),width=image.width,height=image.height,
+                   png_bytes=(resource_file(item['png'])).stat().st_size,webp_bytes=webp.stat().st_size,
                    variants=variants(image,item['name']),kind='standalone',repeat_axis='none',
                    derivation='ai-assisted-extraction',components={})
         catalog.append(entry)
@@ -160,7 +163,7 @@ def build(names=None):
         sourced=plate or spec.get('source_based',False)
         native=None
         if sourced:
-            with Image.open(ROOT/spec.get('tile_path',f'sources/tiles/{name}.png')) as source:native=source.copy()
+            with Image.open(resource_file(spec.get('tile_path',f'sources/tiles/{name}.png'))) as source:native=source.copy()
             if spec['orientation']=='y':native=native.transpose(Image.Transpose.ROTATE_270)
         entry=dict(name=name,**vector_export(tile,name,native_source=native),
                    description=(spec['description'] if spec.get('source_based') else f"Source artwork from numbered plate design {spec['number']}, with an editable color trace. "+spec['repeat_note'] if plate else f"Editable vector border: {name.replace('-',' ')}. Matching adapted corner pieces."),
@@ -195,10 +198,10 @@ def build(names=None):
             entry['components']['reference_crop']=existing_export(references[name],name+'-reference')
         catalog.append(entry)
         print('Built',name,flush=True)
-    assert all(hashlib.sha256((ROOT/name).read_bytes()).hexdigest()==digest for name,digest in before.items())
+    assert all(hashlib.sha256((resource_file(name)).read_bytes()).hexdigest()==digest for name,digest in before.items())
     # Illustrations have their own master catalog/resize command. Border builds
     # include them unchanged and cannot delete their original files or variants.
-    catalog=enrich([*catalog,*illustration_items])
+    catalog=enrich([*catalog,*illustration_items], measure=selected or {item['name'] for item in catalog})
     (ROOT/'images.json').write_text(json.dumps(catalog,indent=2)+'\n')
     # Remove only superseded GENERATED assets previously named in the catalog.
     # Preserved references, source files, and unrelated files are never touched.
@@ -211,7 +214,7 @@ def build(names=None):
         return result
     old_generated=[item for item in old_catalog if item.get('asset_type')!='illustration' and item.get('reference')!='medieval-cutouts']
     for relative in sorted(paths(old_generated)-paths(catalog)):
-        target=ROOT/relative
+        target=resource_file(relative)
         assert target.resolve().is_relative_to(ROOT) and relative.split('/')[0] in {'png','webp','svg'}
         target.unlink()
     print(f'Built {len(catalog)} designs; raster source PNGs unchanged.')

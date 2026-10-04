@@ -70,6 +70,8 @@ export declare const defaultAssetsBase: string;
 export declare const illustrationsPackage: string;
 export declare const illustrationsVersion: string;
 export declare const defaultIllustrationsBase: string;
+export interface AssetSource { readonly id: string; readonly collection: string; readonly package: string; readonly version: string; readonly base: string; readonly manifestSha256: string; readonly filesSha256: string; readonly activeFilesSha256: string; }
+export declare function getAssetSource(name: DesignName | string): AssetSource;
 export declare const ornaments: readonly Ornament[];
 export declare function getOrnament(name: RepeatDesignName): RepeatOrnament;
 export declare function getOrnament(name: WholeDesignName): WholeOrnament;

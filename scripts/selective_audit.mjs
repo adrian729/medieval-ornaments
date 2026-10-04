@@ -5,6 +5,7 @@ import { fileURLToPath } from 'node:url';
 import path from 'node:path';
 import assert from 'node:assert/strict';
 import { build } from 'vite';
+import { getAssetSource } from '../lib/asset-routing.js';
 import { ornaments } from '../lib/catalog.js';
 const root = fileURLToPath(new URL('../', import.meta.url)), out = path.join(root, 'tmp/selective-audit');
 await mkdir(out, { recursive: true });
@@ -22,6 +23,13 @@ for (const design of ['red-berry-vine', 'flying-pig']) for (const adapter of ['v
   const css = emitted.filter(file => file.type === 'asset' && file.fileName.endsWith('.css')).map(file => String(file.source)).join('\n');
   const count = ornaments.filter(item => code.includes(item.name)).length;
   assert.equal(count, selective ? 1 : ornaments.length);
+  if(selective) {
+    const chunks=emitted.filter(file=>file.type==='chunk'), modules=chunks.flatMap(chunk=>Object.keys(chunk.modules));
+    assert.ok(!modules.some(file=>file.endsWith('/asset-routing.js')||file.endsWith('/asset-sources.js')||file.endsWith('/runtime.js')));
+    assert.equal(modules.filter(file=>file.includes('/asset-sources/')).length,1);
+    assert.ok(code.includes(getAssetSource(design).base));
+    assert.ok(!code.includes(getAssetSource(design).manifestSha256));
+  }
   assert.ok(css.includes('.ornament-divider'), 'Styled CSS must survive production tree shaking');
   reports.push({ design, adapter, import: selective ? 'individual' : 'full', jsBytes: Buffer.byteLength(code), jsGzipBytes: gzipSync(code).length, cssBytes: Buffer.byteLength(css), cssGzipBytes: gzipSync(css).length, includedDesigns: count });
 }

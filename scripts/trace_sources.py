@@ -14,6 +14,7 @@ from PIL import ImageDraw
 from source_patterns import retouch_native
 import vtracer
 
+from resource_paths import resource_file
 ROOT=Path(__file__).resolve().parents[1]
 
 def match_edges(image, width=2):
@@ -44,7 +45,7 @@ def run(names=None):
         if item.get('vector_method')=='source-fitted-cubic':
             # These editable curves and gradients were fitted to the source
             # structure. A palette retrace would replace them with color noise.
-            trace=ROOT/item['trace_path']
+            trace=resource_file(item['trace_path'])
             ET.parse(trace)
             print(name,'preserved source-fitted cubic master',flush=True)
             continue
@@ -58,7 +59,8 @@ def run(names=None):
             mask=Image.new('L',image.size);draw=ImageDraw.Draw(mask)
             for x0,y0,x1,y1 in item['clip_regions']:draw.rectangle((x0,y0,x1-1,y1-1),fill=255)
             image=image.convert('RGBA');image.putalpha(mask)
-        image.save(ROOT/item.get('tile_path',f'sources/tiles/{name}.png'),optimize=True)
+        tile=resource_file(item.get('tile_path',f'sources/tiles/{name}.png'),write=True)
+        tile.parent.mkdir(parents=True,exist_ok=True);image.save(tile,optimize=True)
         # Supersampling is only contour fitting. Native raster exports remain
         # source-sized, and no claim of recovered source detail is made.
         count=3 if item['kind']=='repeat-tile' else 1
@@ -89,7 +91,8 @@ def run(names=None):
             kept.append(c)
         children=''.join(ET.tostring(c,encoding='unicode').replace('ns0:','').replace(':ns0','') for c in kept)
         doc=f'<svg xmlns="http://www.w3.org/2000/svg" width="{image.width}" height="{image.height}" viewBox="{offset} 0 {image.width*supersample} {image.height*supersample}">{children}</svg>\n'
-        (ROOT/item.get('trace_path',f'sources/traces/{name}.svg')).write_text(doc)
+        trace=resource_file(item.get('trace_path',f'sources/traces/{name}.svg'),write=True)
+        trace.parent.mkdir(parents=True,exist_ok=True);trace.write_text(doc)
         print(name,image.size,item['repeat_note'],flush=True)
 
 if __name__=='__main__':

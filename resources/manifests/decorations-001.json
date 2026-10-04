@@ -1,0 +1,1698 @@
+{
+  "schemaVersion": 2,
+  "id": "decorations-001",
+  "collection": "decorations",
+  "package": "@ranx729/medieval-ornaments-assets-decorations-001",
+  "version": "0.1.0",
+  "designs": {
+    "blue-acanthus-and-seed-head-panel": {
+      "name": "blue-acanthus-and-seed-head-panel",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "source-crop-and-color-trace",
+      "repeat_axis": "none",
+      "viewbox": [
+        0,
+        0,
+        41,
+        286
+      ],
+      "width": 41,
+      "height": 286,
+      "png": "png/blue-acanthus-and-seed-head-panel.png",
+      "webp": "webp/blue-acanthus-and-seed-head-panel.webp",
+      "svg": "svg/blue-acanthus-and-seed-head-panel.svg",
+      "png_bytes": 32574,
+      "webp_bytes": 23168,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/blue-acanthus-and-seed-head-panel.png",
+          "webp": "webp/128/blue-acanthus-and-seed-head-panel.webp",
+          "width": 18,
+          "height": 128,
+          "png_bytes": 7142,
+          "webp_bytes": 5540
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/blue-acanthus-and-seed-head-panel.png",
+          "webp": "webp/256/blue-acanthus-and-seed-head-panel.webp",
+          "width": 37,
+          "height": 256,
+          "png_bytes": 27246,
+          "webp_bytes": 19206
+        }
+      ],
+      "components": {
+        "reference_crop": {
+          "png": "png/blue-acanthus-and-seed-head-panel-reference.png",
+          "webp": "webp/blue-acanthus-and-seed-head-panel-reference.webp",
+          "width": 41,
+          "height": 286,
+          "png_bytes": 29197,
+          "webp_bytes": 23168,
+          "variants": [
+            {
+              "max_dimension": 128,
+              "rendered_max_dimension": 128,
+              "png": "png/128/blue-acanthus-and-seed-head-panel-reference.png",
+              "webp": "webp/128/blue-acanthus-and-seed-head-panel-reference.webp",
+              "width": 18,
+              "height": 128,
+              "png_bytes": 7142,
+              "webp_bytes": 5540
+            },
+            {
+              "max_dimension": 256,
+              "rendered_max_dimension": 256,
+              "png": "png/256/blue-acanthus-and-seed-head-panel-reference.png",
+              "webp": "webp/256/blue-acanthus-and-seed-head-panel-reference.webp",
+              "width": 37,
+              "height": 256,
+              "png_bytes": 27246,
+              "webp_bytes": 19206
+            }
+          ]
+        }
+      },
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "svg",
+        "webp",
+        "png"
+      ]
+    },
+    "butterfly-panel-red": {
+      "name": "butterfly-panel-red",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 80,
+      "height": 650,
+      "png": "png/butterfly-panel-red.png",
+      "webp": "webp/butterfly-panel-red.webp",
+      "png_bytes": 126789,
+      "webp_bytes": 96080,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/butterfly-panel-red.png",
+          "webp": "webp/128/butterfly-panel-red.webp",
+          "width": 16,
+          "height": 128,
+          "png_bytes": 5830,
+          "webp_bytes": 5714
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/butterfly-panel-red.png",
+          "webp": "webp/256/butterfly-panel-red.webp",
+          "width": 32,
+          "height": 256,
+          "png_bytes": 21963,
+          "webp_bytes": 18622
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/butterfly-panel-red.png",
+          "webp": "webp/512/butterfly-panel-red.webp",
+          "width": 63,
+          "height": 512,
+          "png_bytes": 81260,
+          "webp_bytes": 63656
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "floral-bird-panel-blue": {
+      "name": "floral-bird-panel-blue",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 86,
+      "height": 650,
+      "png": "png/floral-bird-panel-blue.png",
+      "webp": "webp/floral-bird-panel-blue.webp",
+      "png_bytes": 133830,
+      "webp_bytes": 105460,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/floral-bird-panel-blue.png",
+          "webp": "webp/128/floral-bird-panel-blue.webp",
+          "width": 17,
+          "height": 128,
+          "png_bytes": 6440,
+          "webp_bytes": 6612
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/floral-bird-panel-blue.png",
+          "webp": "webp/256/floral-bird-panel-blue.webp",
+          "width": 34,
+          "height": 256,
+          "png_bytes": 23432,
+          "webp_bytes": 20562
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/floral-bird-panel-blue.png",
+          "webp": "webp/512/floral-bird-panel-blue.webp",
+          "width": 68,
+          "height": 512,
+          "png_bytes": 86959,
+          "webp_bytes": 71766
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "floral-bird-panel-left": {
+      "name": "floral-bird-panel-left",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 81,
+      "height": 650,
+      "png": "png/floral-bird-panel-left.png",
+      "webp": "webp/floral-bird-panel-left.webp",
+      "png_bytes": 123771,
+      "webp_bytes": 96422,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/floral-bird-panel-left.png",
+          "webp": "webp/128/floral-bird-panel-left.webp",
+          "width": 16,
+          "height": 128,
+          "png_bytes": 5914,
+          "webp_bytes": 5908
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/floral-bird-panel-left.png",
+          "webp": "webp/256/floral-bird-panel-left.webp",
+          "width": 32,
+          "height": 256,
+          "png_bytes": 21245,
+          "webp_bytes": 21328
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/floral-bird-panel-left.png",
+          "webp": "webp/512/floral-bird-panel-left.webp",
+          "width": 64,
+          "height": 512,
+          "png_bytes": 79590,
+          "webp_bytes": 64198
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "floral-bird-panel-right": {
+      "name": "floral-bird-panel-right",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 78,
+      "height": 650,
+      "png": "png/floral-bird-panel-right.png",
+      "webp": "webp/floral-bird-panel-right.webp",
+      "png_bytes": 119689,
+      "webp_bytes": 94966,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/floral-bird-panel-right.png",
+          "webp": "webp/128/floral-bird-panel-right.webp",
+          "width": 15,
+          "height": 128,
+          "png_bytes": 5587,
+          "webp_bytes": 5626
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/floral-bird-panel-right.png",
+          "webp": "webp/256/floral-bird-panel-right.webp",
+          "width": 31,
+          "height": 256,
+          "png_bytes": 20767,
+          "webp_bytes": 21102
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/floral-bird-panel-right.png",
+          "webp": "webp/512/floral-bird-panel-right.webp",
+          "width": 61,
+          "height": 512,
+          "png_bytes": 75666,
+          "webp_bytes": 61728
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "gold-scroll-with-blue-bellflowers": {
+      "name": "gold-scroll-with-blue-bellflowers",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "source-crop-and-color-trace",
+      "repeat_axis": "none",
+      "viewbox": [
+        0,
+        0,
+        516,
+        107
+      ],
+      "width": 516,
+      "height": 107,
+      "png": "png/gold-scroll-with-blue-bellflowers.png",
+      "webp": "webp/gold-scroll-with-blue-bellflowers.webp",
+      "svg": "svg/gold-scroll-with-blue-bellflowers.svg",
+      "png_bytes": 100070,
+      "webp_bytes": 58286,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/gold-scroll-with-blue-bellflowers.png",
+          "webp": "webp/128/gold-scroll-with-blue-bellflowers.webp",
+          "width": 128,
+          "height": 27,
+          "png_bytes": 8414,
+          "webp_bytes": 5866
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/gold-scroll-with-blue-bellflowers.png",
+          "webp": "webp/256/gold-scroll-with-blue-bellflowers.webp",
+          "width": 256,
+          "height": 53,
+          "png_bytes": 29312,
+          "webp_bytes": 18282
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/gold-scroll-with-blue-bellflowers.png",
+          "webp": "webp/512/gold-scroll-with-blue-bellflowers.webp",
+          "width": 512,
+          "height": 106,
+          "png_bytes": 101152,
+          "webp_bytes": 60036
+        }
+      ],
+      "components": {
+        "reference_crop": {
+          "png": "png/gold-scroll-with-blue-bellflowers-reference.png",
+          "webp": "webp/gold-scroll-with-blue-bellflowers-reference.webp",
+          "width": 516,
+          "height": 107,
+          "png_bytes": 90029,
+          "webp_bytes": 58286,
+          "variants": [
+            {
+              "max_dimension": 128,
+              "rendered_max_dimension": 128,
+              "png": "png/128/gold-scroll-with-blue-bellflowers-reference.png",
+              "webp": "webp/128/gold-scroll-with-blue-bellflowers-reference.webp",
+              "width": 128,
+              "height": 27,
+              "png_bytes": 8414,
+              "webp_bytes": 5866
+            },
+            {
+              "max_dimension": 256,
+              "rendered_max_dimension": 256,
+              "png": "png/256/gold-scroll-with-blue-bellflowers-reference.png",
+              "webp": "webp/256/gold-scroll-with-blue-bellflowers-reference.webp",
+              "width": 256,
+              "height": 53,
+              "png_bytes": 29312,
+              "webp_bytes": 18282
+            },
+            {
+              "max_dimension": 512,
+              "rendered_max_dimension": 512,
+              "png": "png/512/gold-scroll-with-blue-bellflowers-reference.png",
+              "webp": "webp/512/gold-scroll-with-blue-bellflowers-reference.webp",
+              "width": 512,
+              "height": 106,
+              "png_bytes": 101152,
+              "webp_bytes": 60036
+            }
+          ]
+        }
+      },
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "svg",
+        "webp",
+        "png"
+      ]
+    },
+    "painted-sprawling-floral-panel": {
+      "name": "painted-sprawling-floral-panel",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "source-crop-and-color-trace",
+      "repeat_axis": "none",
+      "viewbox": [
+        0,
+        0,
+        722,
+        229
+      ],
+      "width": 722,
+      "height": 229,
+      "png": "png/painted-sprawling-floral-panel.png",
+      "webp": "webp/painted-sprawling-floral-panel.webp",
+      "svg": "svg/painted-sprawling-floral-panel.svg",
+      "png_bytes": 393444,
+      "webp_bytes": 239168,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/painted-sprawling-floral-panel.png",
+          "webp": "webp/128/painted-sprawling-floral-panel.webp",
+          "width": 128,
+          "height": 41,
+          "png_bytes": 13845,
+          "webp_bytes": 11126
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/painted-sprawling-floral-panel.png",
+          "webp": "webp/256/painted-sprawling-floral-panel.webp",
+          "width": 256,
+          "height": 81,
+          "png_bytes": 53471,
+          "webp_bytes": 40438
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/painted-sprawling-floral-panel.png",
+          "webp": "webp/512/painted-sprawling-floral-panel.webp",
+          "width": 512,
+          "height": 162,
+          "png_bytes": 206812,
+          "webp_bytes": 132816
+        }
+      ],
+      "components": {
+        "reference_crop": {
+          "png": "png/painted-sprawling-floral-panel-reference.png",
+          "webp": "webp/painted-sprawling-floral-panel-reference.webp",
+          "width": 722,
+          "height": 232,
+          "png_bytes": 354736,
+          "webp_bytes": 244876,
+          "variants": [
+            {
+              "max_dimension": 128,
+              "rendered_max_dimension": 128,
+              "png": "png/128/painted-sprawling-floral-panel-reference.png",
+              "webp": "webp/128/painted-sprawling-floral-panel-reference.webp",
+              "width": 128,
+              "height": 41,
+              "png_bytes": 13872,
+              "webp_bytes": 11156
+            },
+            {
+              "max_dimension": 256,
+              "rendered_max_dimension": 256,
+              "png": "png/256/painted-sprawling-floral-panel-reference.png",
+              "webp": "webp/256/painted-sprawling-floral-panel-reference.webp",
+              "width": 256,
+              "height": 82,
+              "png_bytes": 54111,
+              "webp_bytes": 41064
+            },
+            {
+              "max_dimension": 512,
+              "rendered_max_dimension": 512,
+              "png": "png/512/painted-sprawling-floral-panel-reference.png",
+              "webp": "webp/512/painted-sprawling-floral-panel-reference.webp",
+              "width": 512,
+              "height": 165,
+              "png_bytes": 210759,
+              "webp_bytes": 136112
+            }
+          ]
+        }
+      },
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "svg",
+        "webp",
+        "png"
+      ]
+    },
+    "painted-symmetric-leaf-and-flower-panel": {
+      "name": "painted-symmetric-leaf-and-flower-panel",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "source-crop-and-color-trace",
+      "repeat_axis": "none",
+      "viewbox": [
+        0,
+        0,
+        722,
+        155
+      ],
+      "width": 722,
+      "height": 155,
+      "png": "png/painted-symmetric-leaf-and-flower-panel.png",
+      "webp": "webp/painted-symmetric-leaf-and-flower-panel.webp",
+      "svg": "svg/painted-symmetric-leaf-and-flower-panel.svg",
+      "png_bytes": 272627,
+      "webp_bytes": 169010,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/painted-symmetric-leaf-and-flower-panel.png",
+          "webp": "webp/128/painted-symmetric-leaf-and-flower-panel.webp",
+          "width": 128,
+          "height": 27,
+          "png_bytes": 9041,
+          "webp_bytes": 7360
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/painted-symmetric-leaf-and-flower-panel.png",
+          "webp": "webp/256/painted-symmetric-leaf-and-flower-panel.webp",
+          "width": 256,
+          "height": 55,
+          "png_bytes": 36268,
+          "webp_bytes": 27766
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/painted-symmetric-leaf-and-flower-panel.png",
+          "webp": "webp/512/painted-symmetric-leaf-and-flower-panel.webp",
+          "width": 512,
+          "height": 110,
+          "png_bytes": 142208,
+          "webp_bytes": 93564
+        }
+      ],
+      "components": {
+        "reference_crop": {
+          "png": "png/painted-symmetric-leaf-and-flower-panel-reference.png",
+          "webp": "webp/painted-symmetric-leaf-and-flower-panel-reference.webp",
+          "width": 722,
+          "height": 155,
+          "png_bytes": 242620,
+          "webp_bytes": 169010,
+          "variants": [
+            {
+              "max_dimension": 128,
+              "rendered_max_dimension": 128,
+              "png": "png/128/painted-symmetric-leaf-and-flower-panel-reference.png",
+              "webp": "webp/128/painted-symmetric-leaf-and-flower-panel-reference.webp",
+              "width": 128,
+              "height": 27,
+              "png_bytes": 9041,
+              "webp_bytes": 7360
+            },
+            {
+              "max_dimension": 256,
+              "rendered_max_dimension": 256,
+              "png": "png/256/painted-symmetric-leaf-and-flower-panel-reference.png",
+              "webp": "webp/256/painted-symmetric-leaf-and-flower-panel-reference.webp",
+              "width": 256,
+              "height": 55,
+              "png_bytes": 36268,
+              "webp_bytes": 27766
+            },
+            {
+              "max_dimension": 512,
+              "rendered_max_dimension": 512,
+              "png": "png/512/painted-symmetric-leaf-and-flower-panel-reference.png",
+              "webp": "webp/512/painted-symmetric-leaf-and-flower-panel-reference.webp",
+              "width": 512,
+              "height": 110,
+              "png_bytes": 142208,
+              "webp_bytes": 93564
+            }
+          ]
+        }
+      },
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "svg",
+        "webp",
+        "png"
+      ]
+    },
+    "painted-three-band-floral-panel": {
+      "name": "painted-three-band-floral-panel",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "source-crop-and-color-trace",
+      "repeat_axis": "none",
+      "viewbox": [
+        0,
+        0,
+        722,
+        217
+      ],
+      "width": 722,
+      "height": 217,
+      "png": "png/painted-three-band-floral-panel.png",
+      "webp": "webp/painted-three-band-floral-panel.webp",
+      "svg": "svg/painted-three-band-floral-panel.svg",
+      "png_bytes": 368266,
+      "webp_bytes": 237370,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/painted-three-band-floral-panel.png",
+          "webp": "webp/128/painted-three-band-floral-panel.webp",
+          "width": 128,
+          "height": 38,
+          "png_bytes": 12789,
+          "webp_bytes": 10686
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/painted-three-band-floral-panel.png",
+          "webp": "webp/256/painted-three-band-floral-panel.webp",
+          "width": 256,
+          "height": 77,
+          "png_bytes": 50409,
+          "webp_bytes": 39832
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/painted-three-band-floral-panel.png",
+          "webp": "webp/512/painted-three-band-floral-panel.webp",
+          "width": 512,
+          "height": 154,
+          "png_bytes": 193547,
+          "webp_bytes": 133796
+        }
+      ],
+      "components": {
+        "reference_crop": {
+          "png": "png/painted-three-band-floral-panel-reference.png",
+          "webp": "webp/painted-three-band-floral-panel-reference.webp",
+          "width": 722,
+          "height": 217,
+          "png_bytes": 326147,
+          "webp_bytes": 237370,
+          "variants": [
+            {
+              "max_dimension": 128,
+              "rendered_max_dimension": 128,
+              "png": "png/128/painted-three-band-floral-panel-reference.png",
+              "webp": "webp/128/painted-three-band-floral-panel-reference.webp",
+              "width": 128,
+              "height": 38,
+              "png_bytes": 12789,
+              "webp_bytes": 10686
+            },
+            {
+              "max_dimension": 256,
+              "rendered_max_dimension": 256,
+              "png": "png/256/painted-three-band-floral-panel-reference.png",
+              "webp": "webp/256/painted-three-band-floral-panel-reference.webp",
+              "width": 256,
+              "height": 77,
+              "png_bytes": 50409,
+              "webp_bytes": 39832
+            },
+            {
+              "max_dimension": 512,
+              "rendered_max_dimension": 512,
+              "png": "png/512/painted-three-band-floral-panel-reference.png",
+              "webp": "webp/512/painted-three-band-floral-panel-reference.webp",
+              "width": 512,
+              "height": 154,
+              "png_bytes": 193547,
+              "webp_bytes": 133796
+            }
+          ]
+        }
+      },
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "svg",
+        "webp",
+        "png"
+      ]
+    },
+    "plate-11-acanthus-scroll": {
+      "name": "plate-11-acanthus-scroll",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "source-crop-and-color-trace",
+      "repeat_axis": "none",
+      "viewbox": [
+        0,
+        0,
+        271,
+        48
+      ],
+      "width": 271,
+      "height": 48,
+      "png": "png/plate-11-acanthus-scroll.png",
+      "webp": "webp/plate-11-acanthus-scroll.webp",
+      "svg": "svg/plate-11-acanthus-scroll.svg",
+      "png_bytes": 38240,
+      "webp_bytes": 26820,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/plate-11-acanthus-scroll.png",
+          "webp": "webp/128/plate-11-acanthus-scroll.webp",
+          "width": 128,
+          "height": 23,
+          "png_bytes": 9244,
+          "webp_bytes": 7246
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/plate-11-acanthus-scroll.png",
+          "webp": "webp/256/plate-11-acanthus-scroll.webp",
+          "width": 256,
+          "height": 45,
+          "png_bytes": 34101,
+          "webp_bytes": 24334
+        }
+      ],
+      "components": {
+        "reference_crop": {
+          "png": "png/plate-11-acanthus-scroll-reference.png",
+          "source_bounds": [
+            210,
+            372,
+            481,
+            420
+          ],
+          "derivation": "reference-crop",
+          "repeat_axis": "none",
+          "webp": "webp/plate-11-acanthus-scroll-reference.webp",
+          "width": 271,
+          "height": 48,
+          "png_bytes": 38240,
+          "webp_bytes": 26820,
+          "variants": [
+            {
+              "max_dimension": 128,
+              "rendered_max_dimension": 128,
+              "png": "png/128/plate-11-acanthus-scroll-reference.png",
+              "webp": "webp/128/plate-11-acanthus-scroll-reference.webp",
+              "width": 128,
+              "height": 23,
+              "png_bytes": 9244,
+              "webp_bytes": 7246
+            },
+            {
+              "max_dimension": 256,
+              "rendered_max_dimension": 256,
+              "png": "png/256/plate-11-acanthus-scroll-reference.png",
+              "webp": "webp/256/plate-11-acanthus-scroll-reference.webp",
+              "width": 256,
+              "height": 45,
+              "png_bytes": 34101,
+              "webp_bytes": 24334
+            }
+          ]
+        }
+      },
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "svg",
+        "webp",
+        "png"
+      ]
+    },
+    "plate-16-stepped-corner": {
+      "name": "plate-16-stepped-corner",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "source-crop-and-color-trace",
+      "repeat_axis": "none",
+      "viewbox": [
+        0,
+        0,
+        55,
+        50
+      ],
+      "width": 55,
+      "height": 50,
+      "png": "png/plate-16-stepped-corner.png",
+      "webp": "webp/plate-16-stepped-corner.webp",
+      "svg": "svg/plate-16-stepped-corner.svg",
+      "png_bytes": 6849,
+      "webp_bytes": 5138,
+      "variants": [],
+      "components": {
+        "reference_crop": {
+          "png": "png/plate-16-stepped-corner-reference.png",
+          "source_bounds": [
+            388,
+            579,
+            443,
+            629
+          ],
+          "derivation": "reference-crop",
+          "repeat_axis": "none",
+          "webp": "webp/plate-16-stepped-corner-reference.webp",
+          "width": 55,
+          "height": 50,
+          "png_bytes": 6849,
+          "webp_bytes": 5138,
+          "variants": []
+        }
+      },
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "svg",
+        "webp",
+        "png"
+      ]
+    },
+    "plate-36-greek-key": {
+      "name": "plate-36-greek-key",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "source-crop-and-color-trace",
+      "repeat_axis": "none",
+      "viewbox": [
+        0,
+        0,
+        121,
+        122
+      ],
+      "width": 121,
+      "height": 122,
+      "png": "png/plate-36-greek-key.png",
+      "webp": "webp/plate-36-greek-key.webp",
+      "svg": "svg/plate-36-greek-key.svg",
+      "png_bytes": 37293,
+      "webp_bytes": 25458,
+      "variants": [],
+      "components": {
+        "reference_crop": {
+          "png": "png/plate-36-greek-key-reference.png",
+          "source_bounds": [
+            74,
+            89,
+            195,
+            211
+          ],
+          "derivation": "reference-crop",
+          "repeat_axis": "none",
+          "clip_regions": [
+            [
+              0,
+              0,
+              121,
+              57
+            ],
+            [
+              0,
+              0,
+              53,
+              122
+            ]
+          ],
+          "webp": "webp/plate-36-greek-key-reference.webp",
+          "width": 121,
+          "height": 122,
+          "png_bytes": 37293,
+          "webp_bytes": 25458,
+          "variants": []
+        }
+      },
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "svg",
+        "webp",
+        "png"
+      ]
+    },
+    "plate-37-diamond-scroll": {
+      "name": "plate-37-diamond-scroll",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "source-crop-and-color-trace",
+      "repeat_axis": "none",
+      "viewbox": [
+        0,
+        0,
+        121,
+        122
+      ],
+      "width": 121,
+      "height": 122,
+      "png": "png/plate-37-diamond-scroll.png",
+      "webp": "webp/plate-37-diamond-scroll.webp",
+      "svg": "svg/plate-37-diamond-scroll.svg",
+      "png_bytes": 35903,
+      "webp_bytes": 24076,
+      "variants": [],
+      "components": {
+        "reference_crop": {
+          "png": "png/plate-37-diamond-scroll-reference.png",
+          "source_bounds": [
+            496,
+            89,
+            617,
+            211
+          ],
+          "derivation": "reference-crop",
+          "repeat_axis": "none",
+          "clip_regions": [
+            [
+              0,
+              0,
+              121,
+              57
+            ],
+            [
+              68,
+              0,
+              121,
+              122
+            ]
+          ],
+          "webp": "webp/plate-37-diamond-scroll-reference.webp",
+          "width": 121,
+          "height": 122,
+          "png_bytes": 35903,
+          "webp_bytes": 24076,
+          "variants": []
+        }
+      },
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "svg",
+        "webp",
+        "png"
+      ]
+    },
+    "spiral-ribbon-column": {
+      "name": "spiral-ribbon-column",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 63,
+      "height": 650,
+      "png": "png/spiral-ribbon-column.png",
+      "webp": "webp/spiral-ribbon-column.webp",
+      "png_bytes": 118948,
+      "webp_bytes": 97970,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/spiral-ribbon-column.png",
+          "webp": "webp/128/spiral-ribbon-column.webp",
+          "width": 12,
+          "height": 128,
+          "png_bytes": 5470,
+          "webp_bytes": 5110
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/spiral-ribbon-column.png",
+          "webp": "webp/256/spiral-ribbon-column.webp",
+          "width": 25,
+          "height": 256,
+          "png_bytes": 20940,
+          "webp_bytes": 19528
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/spiral-ribbon-column.png",
+          "webp": "webp/512/spiral-ribbon-column.webp",
+          "width": 50,
+          "height": 512,
+          "png_bytes": 77415,
+          "webp_bytes": 65738
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    }
+  },
+  "files": {
+    "png/128/blue-acanthus-and-seed-head-panel-reference.png": {
+      "bytes": 7142,
+      "sha256": "eb7e06d372e7ceb4473142151ab03c123292b4db8f3292abd39d2c0501c3973c"
+    },
+    "png/128/blue-acanthus-and-seed-head-panel.png": {
+      "bytes": 7142,
+      "sha256": "eb7e06d372e7ceb4473142151ab03c123292b4db8f3292abd39d2c0501c3973c"
+    },
+    "png/128/butterfly-panel-red.png": {
+      "bytes": 5830,
+      "sha256": "a528763ec439b4df9043fb9dcfef6e00f3415fafcafe9b542e772506dfdec9ad"
+    },
+    "png/128/floral-bird-panel-blue.png": {
+      "bytes": 6440,
+      "sha256": "2e3cc337f860d627d3b4125c2b712fc13cc7a728cd941303b9a9cd6fa7047dab"
+    },
+    "png/128/floral-bird-panel-left.png": {
+      "bytes": 5914,
+      "sha256": "19e04e424a88d9123c6588b06ea53160e4795890496e3df913f465c0e119d26f"
+    },
+    "png/128/floral-bird-panel-right.png": {
+      "bytes": 5587,
+      "sha256": "80f9d6bf95c2bf8a5dabdbb568740c9bbb2d9ce6791adff8ff34244b24050565"
+    },
+    "png/128/gold-scroll-with-blue-bellflowers-reference.png": {
+      "bytes": 8414,
+      "sha256": "57b1ada9c29216035b2761fe5cd8d0e349cddfbb5fd2af96c1e8571fb93775a6"
+    },
+    "png/128/gold-scroll-with-blue-bellflowers.png": {
+      "bytes": 8414,
+      "sha256": "57b1ada9c29216035b2761fe5cd8d0e349cddfbb5fd2af96c1e8571fb93775a6"
+    },
+    "png/128/painted-sprawling-floral-panel-reference.png": {
+      "bytes": 13872,
+      "sha256": "e569bcf66e917e684734300be7b575e1802206143d19bac3fd130825f9b5231b"
+    },
+    "png/128/painted-sprawling-floral-panel.png": {
+      "bytes": 13845,
+      "sha256": "456703572f8a75b11c33dade01339445437b707ea8e28497031a59c7f85e1039"
+    },
+    "png/128/painted-symmetric-leaf-and-flower-panel-reference.png": {
+      "bytes": 9041,
+      "sha256": "563e096ccbf34033e02c0ce320cb35f4a5ea08a7f9116f8ee63d92a6601e5fb5"
+    },
+    "png/128/painted-symmetric-leaf-and-flower-panel.png": {
+      "bytes": 9041,
+      "sha256": "563e096ccbf34033e02c0ce320cb35f4a5ea08a7f9116f8ee63d92a6601e5fb5"
+    },
+    "png/128/painted-three-band-floral-panel-reference.png": {
+      "bytes": 12789,
+      "sha256": "6d7e22e18194e9f7d88711af0cc85e092da1fbc788a67884bc47c3fa1bbc0471"
+    },
+    "png/128/painted-three-band-floral-panel.png": {
+      "bytes": 12789,
+      "sha256": "6d7e22e18194e9f7d88711af0cc85e092da1fbc788a67884bc47c3fa1bbc0471"
+    },
+    "png/128/plate-11-acanthus-scroll-reference.png": {
+      "bytes": 9244,
+      "sha256": "a4975109bc28c6b71de4289a42579716b6ff23db60e7bf4d6afab3aaa6476b65"
+    },
+    "png/128/plate-11-acanthus-scroll.png": {
+      "bytes": 9244,
+      "sha256": "a4975109bc28c6b71de4289a42579716b6ff23db60e7bf4d6afab3aaa6476b65"
+    },
+    "png/128/spiral-ribbon-column.png": {
+      "bytes": 5470,
+      "sha256": "50753b11ea9ab8b521a72810d5f85a4737d63a2705ab385c2eb4de204e7f175a"
+    },
+    "png/256/blue-acanthus-and-seed-head-panel-reference.png": {
+      "bytes": 27246,
+      "sha256": "05b9758f05e7ccb33d50d795b8bdad85252c79528c68e4d1fbbd63141229d467"
+    },
+    "png/256/blue-acanthus-and-seed-head-panel.png": {
+      "bytes": 27246,
+      "sha256": "05b9758f05e7ccb33d50d795b8bdad85252c79528c68e4d1fbbd63141229d467"
+    },
+    "png/256/butterfly-panel-red.png": {
+      "bytes": 21963,
+      "sha256": "57f2353ad1047bb92d2fffad49e7f495b9d52f34e37c724e6b29a09ecd6864a0"
+    },
+    "png/256/floral-bird-panel-blue.png": {
+      "bytes": 23432,
+      "sha256": "ca7399a9886b3fcf142019ce52d5b9eb25e1f1735aa424d352a477dc4f5c2f05"
+    },
+    "png/256/floral-bird-panel-left.png": {
+      "bytes": 21245,
+      "sha256": "5e9a0d9694e13af24e2392011df7dc88bf5ce590a5bff723a4c3147cad5fd995"
+    },
+    "png/256/floral-bird-panel-right.png": {
+      "bytes": 20767,
+      "sha256": "6a019a9d54846aebeea9a2d1c9e84cde0ec9048a08bfd5d57ff29da6add80f9b"
+    },
+    "png/256/gold-scroll-with-blue-bellflowers-reference.png": {
+      "bytes": 29312,
+      "sha256": "fe02a331a3233cb4c5bcff3f716bbe773f1bbfebedb7f0ccb213679eddb23681"
+    },
+    "png/256/gold-scroll-with-blue-bellflowers.png": {
+      "bytes": 29312,
+      "sha256": "fe02a331a3233cb4c5bcff3f716bbe773f1bbfebedb7f0ccb213679eddb23681"
+    },
+    "png/256/painted-sprawling-floral-panel-reference.png": {
+      "bytes": 54111,
+      "sha256": "ddab36546bae13b326cc3238902460500ca34d02534bb072b15fcf89ec503aee"
+    },
+    "png/256/painted-sprawling-floral-panel.png": {
+      "bytes": 53471,
+      "sha256": "8d8d300b76993f24494a2e167f988403c7d342c681789a6e4416ab4c187a2e06"
+    },
+    "png/256/painted-symmetric-leaf-and-flower-panel-reference.png": {
+      "bytes": 36268,
+      "sha256": "cf794d66280897a66ffc5c917f16179bb7247cd082c553b1ef028d7ab24a4e33"
+    },
+    "png/256/painted-symmetric-leaf-and-flower-panel.png": {
+      "bytes": 36268,
+      "sha256": "cf794d66280897a66ffc5c917f16179bb7247cd082c553b1ef028d7ab24a4e33"
+    },
+    "png/256/painted-three-band-floral-panel-reference.png": {
+      "bytes": 50409,
+      "sha256": "3dc5bc370380bbd2c3596e0ebf68fe92275a71e614a1d3c1c16b419bcbe48ce6"
+    },
+    "png/256/painted-three-band-floral-panel.png": {
+      "bytes": 50409,
+      "sha256": "3dc5bc370380bbd2c3596e0ebf68fe92275a71e614a1d3c1c16b419bcbe48ce6"
+    },
+    "png/256/plate-11-acanthus-scroll-reference.png": {
+      "bytes": 34101,
+      "sha256": "bf6328cfac391703815be555d4365dbf8b33f472499a0429345cceb6a08c3fe6"
+    },
+    "png/256/plate-11-acanthus-scroll.png": {
+      "bytes": 34101,
+      "sha256": "bf6328cfac391703815be555d4365dbf8b33f472499a0429345cceb6a08c3fe6"
+    },
+    "png/256/spiral-ribbon-column.png": {
+      "bytes": 20940,
+      "sha256": "616a1d04d8e6c9af01efc8a5623e1eb306b15a7070a108b954505e6ec69f67a6"
+    },
+    "png/512/butterfly-panel-red.png": {
+      "bytes": 81260,
+      "sha256": "d5847b961f20e68596d2050c00ca54b190383e06e9bd3a4307d904d42ee762f9"
+    },
+    "png/512/floral-bird-panel-blue.png": {
+      "bytes": 86959,
+      "sha256": "b057c97220643e6e9ff9c8413a391bb32b0291e20134287a7e4780e1ce7c29fd"
+    },
+    "png/512/floral-bird-panel-left.png": {
+      "bytes": 79590,
+      "sha256": "f05566ce221354a676fb3ea81a9760ef310bcdcf797965570fda99dce6bcfb60"
+    },
+    "png/512/floral-bird-panel-right.png": {
+      "bytes": 75666,
+      "sha256": "5e94604550198c50f6fa9684feae0e3781786d722e7f4b2308e36682c702394f"
+    },
+    "png/512/gold-scroll-with-blue-bellflowers-reference.png": {
+      "bytes": 101152,
+      "sha256": "5dcbf55aa9e72056a72ba8ff304b4d4e589be615307c92fbf2e9715fe19752b0"
+    },
+    "png/512/gold-scroll-with-blue-bellflowers.png": {
+      "bytes": 101152,
+      "sha256": "5dcbf55aa9e72056a72ba8ff304b4d4e589be615307c92fbf2e9715fe19752b0"
+    },
+    "png/512/painted-sprawling-floral-panel-reference.png": {
+      "bytes": 210759,
+      "sha256": "72bb060083f7b5c00eed6cc4fef14830d6e50cb49f13e208bf56cf2166f7af55"
+    },
+    "png/512/painted-sprawling-floral-panel.png": {
+      "bytes": 206812,
+      "sha256": "e23597090b0476f9b14c2f339925f7c8af7090f59e75bca4d2b1c0fd3604129d"
+    },
+    "png/512/painted-symmetric-leaf-and-flower-panel-reference.png": {
+      "bytes": 142208,
+      "sha256": "fa1a784a5f178a1b5c1aa611162f3385f85df047128806af24d69cdc23d1bfb5"
+    },
+    "png/512/painted-symmetric-leaf-and-flower-panel.png": {
+      "bytes": 142208,
+      "sha256": "fa1a784a5f178a1b5c1aa611162f3385f85df047128806af24d69cdc23d1bfb5"
+    },
+    "png/512/painted-three-band-floral-panel-reference.png": {
+      "bytes": 193547,
+      "sha256": "768c5af391fef9a4388c2fe2421e4908d1e90274c72a371a6fa4a29dddf065d5"
+    },
+    "png/512/painted-three-band-floral-panel.png": {
+      "bytes": 193547,
+      "sha256": "768c5af391fef9a4388c2fe2421e4908d1e90274c72a371a6fa4a29dddf065d5"
+    },
+    "png/512/spiral-ribbon-column.png": {
+      "bytes": 77415,
+      "sha256": "735295c907183cf272b535a6473378921d6a4ff32a4479f97ced62cc87324a66"
+    },
+    "png/blue-acanthus-and-seed-head-panel-reference.png": {
+      "bytes": 29197,
+      "sha256": "8b83031fa35782692993413309540491d6e96456ab02ea0294450b9faa4be112"
+    },
+    "png/blue-acanthus-and-seed-head-panel.png": {
+      "bytes": 32574,
+      "sha256": "68646dc2a564ab31f85a8b050d3960516377a7d178adce8f4cf4fd987c338f49"
+    },
+    "png/butterfly-panel-red.png": {
+      "bytes": 126789,
+      "sha256": "7dd127895fa3f8d0215f5329bbf4f1df3d17f4a42b9af72cb78c08718549fd0d"
+    },
+    "png/floral-bird-panel-blue.png": {
+      "bytes": 133830,
+      "sha256": "dbbe6526414050e0354891c80c0d3a4a0ca4e90677e1a0b5587c2cc15b179739"
+    },
+    "png/floral-bird-panel-left.png": {
+      "bytes": 123771,
+      "sha256": "1a19304ca42d5270262e37e8fe9231ad96d49012000ec2224b981834cbebdb94"
+    },
+    "png/floral-bird-panel-right.png": {
+      "bytes": 119689,
+      "sha256": "f3804359386ec8e07639806d052733c153609b885694fe3c0690655dcd111ffb"
+    },
+    "png/gold-scroll-with-blue-bellflowers-reference.png": {
+      "bytes": 90029,
+      "sha256": "c973baaee18cc4ae6041f81ff99323e228b2f3340665b18443c7374ee7785873"
+    },
+    "png/gold-scroll-with-blue-bellflowers.png": {
+      "bytes": 100070,
+      "sha256": "b24ce7a91ae22b7d2599c396f639b145ba712b7b43c4404956f19b5e5ccac76b"
+    },
+    "png/painted-sprawling-floral-panel-reference.png": {
+      "bytes": 354736,
+      "sha256": "e681dc2610acfaa385f0552a5696784f20e9eec00a499e1bf577fe32a5d4cb3d"
+    },
+    "png/painted-sprawling-floral-panel.png": {
+      "bytes": 393444,
+      "sha256": "8bea287754d32a7ea0b9b22b4718f9add8cd9e396f69730fe46998d98a9aa75e"
+    },
+    "png/painted-symmetric-leaf-and-flower-panel-reference.png": {
+      "bytes": 242620,
+      "sha256": "227a60f52e4d260b869c976d359503e7964ea2d3381c308e3ddee46eefd12ce8"
+    },
+    "png/painted-symmetric-leaf-and-flower-panel.png": {
+      "bytes": 272627,
+      "sha256": "93bf1da0d3eab6bb871b9c13876fb98ccab09b3b6367b1396cec8107b7129497"
+    },
+    "png/painted-three-band-floral-panel-reference.png": {
+      "bytes": 326147,
+      "sha256": "21e717fb357dce5ae50b44150a82363cc0fe7946ff16dc2d276c7f74eb069944"
+    },
+    "png/painted-three-band-floral-panel.png": {
+      "bytes": 368266,
+      "sha256": "ddf9cd1c601bbeaf481cad82bd3b9756dae448f27b4091de51e89b97204eb309"
+    },
+    "png/plate-11-acanthus-scroll-reference.png": {
+      "bytes": 38240,
+      "sha256": "279bd84423dcfe1bfc619086d59b473fd687e00ca08998705e104812875d9bfb"
+    },
+    "png/plate-11-acanthus-scroll.png": {
+      "bytes": 38240,
+      "sha256": "279bd84423dcfe1bfc619086d59b473fd687e00ca08998705e104812875d9bfb"
+    },
+    "png/plate-16-stepped-corner-reference.png": {
+      "bytes": 6849,
+      "sha256": "adc0b9343326d489ae9b21997b6eb514c5ed304fdac0942b5ec4a20de1b0e7f7"
+    },
+    "png/plate-16-stepped-corner.png": {
+      "bytes": 6849,
+      "sha256": "adc0b9343326d489ae9b21997b6eb514c5ed304fdac0942b5ec4a20de1b0e7f7"
+    },
+    "png/plate-36-greek-key-reference.png": {
+      "bytes": 37293,
+      "sha256": "d0268427f480eeaf96098195924f99d8004e16dda55ebc2bcd0e40d7aa64cea4"
+    },
+    "png/plate-36-greek-key.png": {
+      "bytes": 37293,
+      "sha256": "d0268427f480eeaf96098195924f99d8004e16dda55ebc2bcd0e40d7aa64cea4"
+    },
+    "png/plate-37-diamond-scroll-reference.png": {
+      "bytes": 35903,
+      "sha256": "45985c515e6b861f86350e287b15198aa459e09fbd1c8ac964363336d4fd0ea0"
+    },
+    "png/plate-37-diamond-scroll.png": {
+      "bytes": 35903,
+      "sha256": "45985c515e6b861f86350e287b15198aa459e09fbd1c8ac964363336d4fd0ea0"
+    },
+    "png/spiral-ribbon-column.png": {
+      "bytes": 118948,
+      "sha256": "a08520a81508cafe1ad39cd55f23e9f7917ccbe4bc85bd9310015e8a9438e180"
+    },
+    "svg/blue-acanthus-and-seed-head-panel.svg": {
+      "bytes": 1588030,
+      "sha256": "3a25a95ded5f4d08addb3e22b61255377641b05995f5c046f9ce328b59129d6e"
+    },
+    "svg/gold-scroll-with-blue-bellflowers.svg": {
+      "bytes": 17689,
+      "sha256": "9e6d0bb4b0066fac48f1ba7ee1ffc13f89b0096ce70c95c3b24228801e882089"
+    },
+    "svg/painted-sprawling-floral-panel.svg": {
+      "bytes": 11450818,
+      "sha256": "1bcc3a888ec5589b1ca145dbb5fe3b15c6bc960d22900dc9efec97f771baa9bf"
+    },
+    "svg/painted-symmetric-leaf-and-flower-panel.svg": {
+      "bytes": 9029807,
+      "sha256": "2f21555df93864746e94cf8b9204da0725f71b21625c4f4d11926eee49c99a6c"
+    },
+    "svg/painted-three-band-floral-panel.svg": {
+      "bytes": 12156225,
+      "sha256": "526e6fe7f109fd26e8d311874c5cb9b7ffbcecc292d55a6fe48bacb4b615dc5a"
+    },
+    "svg/plate-11-acanthus-scroll.svg": {
+      "bytes": 381581,
+      "sha256": "5f5200ea52074273ec72969db2467037a2c74d440c844eb43088c0b709e39561"
+    },
+    "svg/plate-16-stepped-corner.svg": {
+      "bytes": 98194,
+      "sha256": "3fa147b4320fdfd69a55971c9999793c93b0bcd7297742fad814e48150ea84be"
+    },
+    "svg/plate-36-greek-key.svg": {
+      "bytes": 319436,
+      "sha256": "3ad73c64922831bfd7f2a84ef05a75303727b466581df6184c76022612e58a84"
+    },
+    "svg/plate-37-diamond-scroll.svg": {
+      "bytes": 288906,
+      "sha256": "3906bb6e876eb87963d45353ae1fc2ef161307ce070f215a4d36f025854c6dda"
+    },
+    "webp/128/blue-acanthus-and-seed-head-panel-reference.webp": {
+      "bytes": 5540,
+      "sha256": "cbc71ed03b372d5ae0ec7f783c1b788b4f8c19d90c24bd615bf7c2edafce534b"
+    },
+    "webp/128/blue-acanthus-and-seed-head-panel.webp": {
+      "bytes": 5540,
+      "sha256": "cbc71ed03b372d5ae0ec7f783c1b788b4f8c19d90c24bd615bf7c2edafce534b"
+    },
+    "webp/128/butterfly-panel-red.webp": {
+      "bytes": 5714,
+      "sha256": "d517c267790ca3c130bb78c0467b050e29efa8cf7810b43a9a8fa6b669ae8499"
+    },
+    "webp/128/floral-bird-panel-blue.webp": {
+      "bytes": 6612,
+      "sha256": "5063ea8dd1369a0890b53adbebfb6710bf18aee2303d8da2884984dc77603548"
+    },
+    "webp/128/floral-bird-panel-left.webp": {
+      "bytes": 5908,
+      "sha256": "ecb77b65e407785e040b52b802644dfe50323e4598c902d2c4a43f56c60fe3d4"
+    },
+    "webp/128/floral-bird-panel-right.webp": {
+      "bytes": 5626,
+      "sha256": "98e4e74493e0c0f927a0177b7327be50f982af5c737211b8637e1ad2e9ae57e6"
+    },
+    "webp/128/gold-scroll-with-blue-bellflowers-reference.webp": {
+      "bytes": 5866,
+      "sha256": "92d0de04c120d7eae4754567978787150443313e948c734f97f1cf00ef5c0230"
+    },
+    "webp/128/gold-scroll-with-blue-bellflowers.webp": {
+      "bytes": 5866,
+      "sha256": "92d0de04c120d7eae4754567978787150443313e948c734f97f1cf00ef5c0230"
+    },
+    "webp/128/painted-sprawling-floral-panel-reference.webp": {
+      "bytes": 11156,
+      "sha256": "7c184e477d59452be21347ccd143816f6eec08bd856bf8c2b30a428c1f868f47"
+    },
+    "webp/128/painted-sprawling-floral-panel.webp": {
+      "bytes": 11126,
+      "sha256": "0b8125939781eef60fd08031290ffa705a7b4a42db8a3bf8c3b74fe299fe859d"
+    },
+    "webp/128/painted-symmetric-leaf-and-flower-panel-reference.webp": {
+      "bytes": 7360,
+      "sha256": "7e1b383c0406fb00972eec25af3750c0c4d8c6937ec52d40b4e171e7c53c6db0"
+    },
+    "webp/128/painted-symmetric-leaf-and-flower-panel.webp": {
+      "bytes": 7360,
+      "sha256": "7e1b383c0406fb00972eec25af3750c0c4d8c6937ec52d40b4e171e7c53c6db0"
+    },
+    "webp/128/painted-three-band-floral-panel-reference.webp": {
+      "bytes": 10686,
+      "sha256": "9da3d2c7d7021a0bfbff597262e092ab31718826ecfab105cff22d9d00281b7b"
+    },
+    "webp/128/painted-three-band-floral-panel.webp": {
+      "bytes": 10686,
+      "sha256": "9da3d2c7d7021a0bfbff597262e092ab31718826ecfab105cff22d9d00281b7b"
+    },
+    "webp/128/plate-11-acanthus-scroll-reference.webp": {
+      "bytes": 7246,
+      "sha256": "46a129825bc2f62668bc8678946945e111a4844ab80d67349a4e849da121a689"
+    },
+    "webp/128/plate-11-acanthus-scroll.webp": {
+      "bytes": 7246,
+      "sha256": "46a129825bc2f62668bc8678946945e111a4844ab80d67349a4e849da121a689"
+    },
+    "webp/128/spiral-ribbon-column.webp": {
+      "bytes": 5110,
+      "sha256": "bfbddbe5f6e829db01532f87514177181f033c90b06b45331523b8ef7573c051"
+    },
+    "webp/256/blue-acanthus-and-seed-head-panel-reference.webp": {
+      "bytes": 19206,
+      "sha256": "3d88b1af1594b4706b92d419ba900e2322f38b0b013b9308b34359904fa1c6c1"
+    },
+    "webp/256/blue-acanthus-and-seed-head-panel.webp": {
+      "bytes": 19206,
+      "sha256": "3d88b1af1594b4706b92d419ba900e2322f38b0b013b9308b34359904fa1c6c1"
+    },
+    "webp/256/butterfly-panel-red.webp": {
+      "bytes": 18622,
+      "sha256": "3b51e3928e417a6a88707426374637758f366f399975d93a2d6c3417d67869ee"
+    },
+    "webp/256/floral-bird-panel-blue.webp": {
+      "bytes": 20562,
+      "sha256": "a063bbcda877f7fafa8e8276deeb47297300cc70b7e5ce9a78f8977968f6106a"
+    },
+    "webp/256/floral-bird-panel-left.webp": {
+      "bytes": 21328,
+      "sha256": "47eeecfc002d4cf92510e7181abe763e6fba496d77b506ce7e53c504efdbce62"
+    },
+    "webp/256/floral-bird-panel-right.webp": {
+      "bytes": 21102,
+      "sha256": "5a5efa1e5286b794245cd778cbec00e93cda30284c17a902460b04bd5ce485c4"
+    },
+    "webp/256/gold-scroll-with-blue-bellflowers-reference.webp": {
+      "bytes": 18282,
+      "sha256": "8ceee7ed55aa71c21e07f49a50cbde7402b8c1dda41a04a578c5d5eb45fca7bf"
+    },
+    "webp/256/gold-scroll-with-blue-bellflowers.webp": {
+      "bytes": 18282,
+      "sha256": "8ceee7ed55aa71c21e07f49a50cbde7402b8c1dda41a04a578c5d5eb45fca7bf"
+    },
+    "webp/256/painted-sprawling-floral-panel-reference.webp": {
+      "bytes": 41064,
+      "sha256": "b994245d8aebb076cba91037c1f377f2de748045abfe454324f8564a0cc1023e"
+    },
+    "webp/256/painted-sprawling-floral-panel.webp": {
+      "bytes": 40438,
+      "sha256": "14172ced59b2beaf955496259285520f0839d2142e0a7aee1e1c784ffe912e3d"
+    },
+    "webp/256/painted-symmetric-leaf-and-flower-panel-reference.webp": {
+      "bytes": 27766,
+      "sha256": "5c0719e68b02730c8506c3ef98bc6720c750d7ae83b19fffc3dad95206b21ca6"
+    },
+    "webp/256/painted-symmetric-leaf-and-flower-panel.webp": {
+      "bytes": 27766,
+      "sha256": "5c0719e68b02730c8506c3ef98bc6720c750d7ae83b19fffc3dad95206b21ca6"
+    },
+    "webp/256/painted-three-band-floral-panel-reference.webp": {
+      "bytes": 39832,
+      "sha256": "caaf95eccd978258e98096d1717c8fa647d494c8ceb3e61d98e9b8ffee361712"
+    },
+    "webp/256/painted-three-band-floral-panel.webp": {
+      "bytes": 39832,
+      "sha256": "caaf95eccd978258e98096d1717c8fa647d494c8ceb3e61d98e9b8ffee361712"
+    },
+    "webp/256/plate-11-acanthus-scroll-reference.webp": {
+      "bytes": 24334,
+      "sha256": "3e1431ac5c431799242f851b5b15d0559f14e08eb0410232daabbd44ef2c59b6"
+    },
+    "webp/256/plate-11-acanthus-scroll.webp": {
+      "bytes": 24334,
+      "sha256": "3e1431ac5c431799242f851b5b15d0559f14e08eb0410232daabbd44ef2c59b6"
+    },
+    "webp/256/spiral-ribbon-column.webp": {
+      "bytes": 19528,
+      "sha256": "2c1e52ffdc18726ae897e217c0dfec586fc01fc84d7317a378e9037766602d93"
+    },
+    "webp/512/butterfly-panel-red.webp": {
+      "bytes": 63656,
+      "sha256": "b7c6ea9e766f5570fc318829e56cbcd19d4cde28f895e4c78535f5e9d763bc35"
+    },
+    "webp/512/floral-bird-panel-blue.webp": {
+      "bytes": 71766,
+      "sha256": "24b2f36c91bbc412b20c87937705f833ef5a829f18b69dbe5cedd2a00086fd47"
+    },
+    "webp/512/floral-bird-panel-left.webp": {
+      "bytes": 64198,
+      "sha256": "2515e13e98b0141c74b49d658572e749065cf57bb71e526e3e391b8e6252f3f0"
+    },
+    "webp/512/floral-bird-panel-right.webp": {
+      "bytes": 61728,
+      "sha256": "8ac8c1ca843092e7bfb567c427913b70f628c2e78ff6cd2ef32a75e0238746cf"
+    },
+    "webp/512/gold-scroll-with-blue-bellflowers-reference.webp": {
+      "bytes": 60036,
+      "sha256": "52033a5cc04bed1fe358ba41aa2225410c82edcef1cf803776950c2981e96df9"
+    },
+    "webp/512/gold-scroll-with-blue-bellflowers.webp": {
+      "bytes": 60036,
+      "sha256": "52033a5cc04bed1fe358ba41aa2225410c82edcef1cf803776950c2981e96df9"
+    },
+    "webp/512/painted-sprawling-floral-panel-reference.webp": {
+      "bytes": 136112,
+      "sha256": "db1ad24a3474c915a19d37d834c50ca4987a6bbab63c374eff2043dd923b998e"
+    },
+    "webp/512/painted-sprawling-floral-panel.webp": {
+      "bytes": 132816,
+      "sha256": "c5a69b0a7ab141098529f847b54908f60aaab718e87e19ea68304824cd811441"
+    },
+    "webp/512/painted-symmetric-leaf-and-flower-panel-reference.webp": {
+      "bytes": 93564,
+      "sha256": "d3216a143d563baf97bcf5b9ba00fd284ce52e0155dd72f342fc4f82295c2842"
+    },
+    "webp/512/painted-symmetric-leaf-and-flower-panel.webp": {
+      "bytes": 93564,
+      "sha256": "d3216a143d563baf97bcf5b9ba00fd284ce52e0155dd72f342fc4f82295c2842"
+    },
+    "webp/512/painted-three-band-floral-panel-reference.webp": {
+      "bytes": 133796,
+      "sha256": "57dfcdd8d375a2719d9aa2b074fad849df27b61965c64080f494453cc1d473c5"
+    },
+    "webp/512/painted-three-band-floral-panel.webp": {
+      "bytes": 133796,
+      "sha256": "57dfcdd8d375a2719d9aa2b074fad849df27b61965c64080f494453cc1d473c5"
+    },
+    "webp/512/spiral-ribbon-column.webp": {
+      "bytes": 65738,
+      "sha256": "08f0502f90dba0211e5fdd22b032ffc01289ee0ab4bcf3ca3f68eb69d9116221"
+    },
+    "webp/blue-acanthus-and-seed-head-panel-reference.webp": {
+      "bytes": 23168,
+      "sha256": "77c1a7ac3b859c021d0ead1ab51d55f27531c907c03f11daca95166e7c13167a"
+    },
+    "webp/blue-acanthus-and-seed-head-panel.webp": {
+      "bytes": 23168,
+      "sha256": "77c1a7ac3b859c021d0ead1ab51d55f27531c907c03f11daca95166e7c13167a"
+    },
+    "webp/butterfly-panel-red.webp": {
+      "bytes": 96080,
+      "sha256": "40457ce694dbed914e917bc425387c015e56878a30bd8bc5c6beefa6d458b035"
+    },
+    "webp/floral-bird-panel-blue.webp": {
+      "bytes": 105460,
+      "sha256": "47acb2232f66a36ec1b2942f98525eeccad059c549b3da7a9125d8e50298fa3e"
+    },
+    "webp/floral-bird-panel-left.webp": {
+      "bytes": 96422,
+      "sha256": "28727337fe633adcb4e48b9f9f9fd0da4761a096fd06d7ae33f15a6788cfedb4"
+    },
+    "webp/floral-bird-panel-right.webp": {
+      "bytes": 94966,
+      "sha256": "f78eab234694da9b5a3ac17122ec96b065055a3f641b6a102b8cb365cf5b3f08"
+    },
+    "webp/gold-scroll-with-blue-bellflowers-reference.webp": {
+      "bytes": 58286,
+      "sha256": "00f3e859434624148799a3eb700b1ec81b84c88aa3363592734bdedf2608c0e3"
+    },
+    "webp/gold-scroll-with-blue-bellflowers.webp": {
+      "bytes": 58286,
+      "sha256": "00f3e859434624148799a3eb700b1ec81b84c88aa3363592734bdedf2608c0e3"
+    },
+    "webp/painted-sprawling-floral-panel-reference.webp": {
+      "bytes": 244876,
+      "sha256": "ecc14b32c37f34c6644f26bf77ae79041d3f3a07d8d0a2e58bc7d0ab90d09d93"
+    },
+    "webp/painted-sprawling-floral-panel.webp": {
+      "bytes": 239168,
+      "sha256": "f41f910f71c436c442b666a816c29085cdcdad10914f067a639a79773f83df9e"
+    },
+    "webp/painted-symmetric-leaf-and-flower-panel-reference.webp": {
+      "bytes": 169010,
+      "sha256": "ef37869b4eedbe05a45d553442129b7f19c6b10cd041818dd344880c87d7704d"
+    },
+    "webp/painted-symmetric-leaf-and-flower-panel.webp": {
+      "bytes": 169010,
+      "sha256": "ef37869b4eedbe05a45d553442129b7f19c6b10cd041818dd344880c87d7704d"
+    },
+    "webp/painted-three-band-floral-panel-reference.webp": {
+      "bytes": 237370,
+      "sha256": "f6b4e9549d1729c4f991ebbbef7013bae8516391000773bb39e09fb25f928dee"
+    },
+    "webp/painted-three-band-floral-panel.webp": {
+      "bytes": 237370,
+      "sha256": "f6b4e9549d1729c4f991ebbbef7013bae8516391000773bb39e09fb25f928dee"
+    },
+    "webp/plate-11-acanthus-scroll-reference.webp": {
+      "bytes": 26820,
+      "sha256": "c2db990d4d8871acf545e4a11e00fdbf130163fab3fbd795b3f6e473d23b23b2"
+    },
+    "webp/plate-11-acanthus-scroll.webp": {
+      "bytes": 26820,
+      "sha256": "c2db990d4d8871acf545e4a11e00fdbf130163fab3fbd795b3f6e473d23b23b2"
+    },
+    "webp/plate-16-stepped-corner-reference.webp": {
+      "bytes": 5138,
+      "sha256": "cdded4bc2e09206d2363d7007415433dc681ee3e573759c13a62f83ec2ddd5ef"
+    },
+    "webp/plate-16-stepped-corner.webp": {
+      "bytes": 5138,
+      "sha256": "cdded4bc2e09206d2363d7007415433dc681ee3e573759c13a62f83ec2ddd5ef"
+    },
+    "webp/plate-36-greek-key-reference.webp": {
+      "bytes": 25458,
+      "sha256": "8e9eef65b73f0156623ed63cf48b47edd3fbe1dfdc8ffcc6d70fca35b80ad72b"
+    },
+    "webp/plate-36-greek-key.webp": {
+      "bytes": 25458,
+      "sha256": "8e9eef65b73f0156623ed63cf48b47edd3fbe1dfdc8ffcc6d70fca35b80ad72b"
+    },
+    "webp/plate-37-diamond-scroll-reference.webp": {
+      "bytes": 24076,
+      "sha256": "faf8bc0b3ee26527800a3cb21eb6ee8cc0f3a43fa53e6511b5b52d747a59f553"
+    },
+    "webp/plate-37-diamond-scroll.webp": {
+      "bytes": 24076,
+      "sha256": "faf8bc0b3ee26527800a3cb21eb6ee8cc0f3a43fa53e6511b5b52d747a59f553"
+    },
+    "webp/spiral-ribbon-column.webp": {
+      "bytes": 97970,
+      "sha256": "e772b682348e48fcc484c0f5924c8afbef6cddeabcfa25d7344437b97acad3a1"
+    }
+  },
+  "inputs": {
+    "sources/tiles/blue-acanthus-and-seed-head-panel.png": {
+      "bytes": 28881,
+      "sha256": "9b6d938295d047386a68e5149be786c2ebdfabab25a7a3bc9d7dbf65425a3715"
+    },
+    "sources/tiles/gold-scroll-with-blue-bellflowers.png": {
+      "bytes": 90029,
+      "sha256": "c973baaee18cc4ae6041f81ff99323e228b2f3340665b18443c7374ee7785873"
+    },
+    "sources/tiles/painted-sprawling-floral-panel.png": {
+      "bytes": 348567,
+      "sha256": "efebca5d8f74bd373037e999df5dcb5ab7daef9890266c63f631ef07b1c520a0"
+    },
+    "sources/tiles/painted-symmetric-leaf-and-flower-panel.png": {
+      "bytes": 242620,
+      "sha256": "227a60f52e4d260b869c976d359503e7964ea2d3381c308e3ddee46eefd12ce8"
+    },
+    "sources/tiles/painted-three-band-floral-panel.png": {
+      "bytes": 326147,
+      "sha256": "21e717fb357dce5ae50b44150a82363cc0fe7946ff16dc2d276c7f74eb069944"
+    },
+    "sources/tiles/plate-11-acanthus-scroll.png": {
+      "bytes": 33842,
+      "sha256": "ce878a04d8a4b5a3f91c4b2e854930fdebd9301ac747e7dfd8fff7592f2c05eb"
+    },
+    "sources/tiles/plate-16-stepped-corner.png": {
+      "bytes": 6014,
+      "sha256": "f3db987075d82ad956f83f3d50f6fe1cd25e52ffcf668a91090f6a3a25143abd"
+    },
+    "sources/tiles/plate-36-greek-key.png": {
+      "bytes": 37293,
+      "sha256": "d0268427f480eeaf96098195924f99d8004e16dda55ebc2bcd0e40d7aa64cea4"
+    },
+    "sources/tiles/plate-37-diamond-scroll.png": {
+      "bytes": 35903,
+      "sha256": "45985c515e6b861f86350e287b15198aa459e09fbd1c8ac964363336d4fd0ea0"
+    },
+    "sources/traces/blue-acanthus-and-seed-head-panel.svg": {
+      "bytes": 1587810,
+      "sha256": "44500932d1449d285c94c912fc08702df8e49c186435b91c3beca2271ee456f0"
+    },
+    "sources/traces/gold-scroll-with-blue-bellflowers.svg": {
+      "bytes": 16958,
+      "sha256": "0319da93d376ead59d1853ac935d8c43db56d6d10ff4ea8fe2656a0aa11e2df7"
+    },
+    "sources/traces/painted-sprawling-floral-panel.svg": {
+      "bytes": 11450079,
+      "sha256": "f44514a439d6170e1f8e3c455af4a77ed6a3731eb6004625e364e762895374fd"
+    },
+    "sources/traces/painted-symmetric-leaf-and-flower-panel.svg": {
+      "bytes": 9029624,
+      "sha256": "398c8be34b4a03f956b85443daa08478767a1a7570dcee136c1fcff0351f9e0e"
+    },
+    "sources/traces/painted-three-band-floral-panel.svg": {
+      "bytes": 12156050,
+      "sha256": "89cb77f7e752b34c4525f5147a7eb4d65525514e8a4ace23029475e8558fafc9"
+    },
+    "sources/traces/plate-11-acanthus-scroll.svg": {
+      "bytes": 381416,
+      "sha256": "1fc29c18fc9f9b45ef735b3a9f73d2b2cba31fcac6035b37b400b37824841d7a"
+    },
+    "sources/traces/plate-16-stepped-corner.svg": {
+      "bytes": 98032,
+      "sha256": "79c091d7a6720a202c2f7e64ea4735c7529f24d17158e8dedbeb11e0077bd1db"
+    },
+    "sources/traces/plate-36-greek-key.svg": {
+      "bytes": 319061,
+      "sha256": "00bd60cb8ffd2d58e6d066c21a1c811ae0d7bddb33d89069096142bb4e498221"
+    },
+    "sources/traces/plate-37-diamond-scroll.svg": {
+      "bytes": 288515,
+      "sha256": "cfb38f732363b6c2516f9e037f4cb0bc27a7f5f4caf14e2c3ea7f5b5315499fc"
+    }
+  }
+}

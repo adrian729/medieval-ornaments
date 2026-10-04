@@ -90,4 +90,7 @@ def check():
     print(f'Isolated rebuilds preserved {len(paths)} imported files and every PNG master, retained removed illustration files, generated a new entry without upscaling, preserved authored notes idempotently, and rejected metadata/path collisions before writes.')
 
 
-if __name__=='__main__':check()
+if __name__=='__main__':
+    try:check()
+    except subprocess.CalledProcessError as error:
+        print(error.stderr,file=sys.stderr);raise

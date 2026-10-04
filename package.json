@@ -1,6 +1,6 @@
 {
   "name": "@ranx729/medieval-ornaments",
-  "version": "0.6.1",
+  "version": "0.7.0",
   "description": "Medieval borders, decorations and illustrations with selective JavaScript/React components and verified artwork installs",
   "type": "module",
   "license": "SEE LICENSE IN LICENSE",
@@ -71,7 +71,11 @@
       "types": "./lib/selection-illustrations.d.ts",
       "import": "./lib/selection-illustrations.js"
     },
-    "./images.schema.json": "./images.schema.json"
+    "./images.schema.json": "./images.schema.json",
+    "./resources": {
+      "types": "./lib/asset-routing.d.ts",
+      "import": "./lib/asset-routing.js"
+    }
   },
   "bin": {
     "medieval-ornaments": "lib/cli.js"
@@ -86,7 +90,9 @@
     "USAGE.md",
     "docs/SELECTIVE.md",
     "images.schema.json",
-    "docs/ILLUSTRATIONS.md"
+    "docs/ILLUSTRATIONS.md",
+    "docs/RESOURCES.md",
+    "docs/RESOURCE-MIGRATION.md"
   ],
   "sideEffects": [
     "**/*.css",
@@ -114,7 +120,9 @@
     "audit:performance": "node scripts/performance_audit.mjs",
     "build:assets": "node scripts/build-assets-package.mjs",
     "audit:selective": "node scripts/selective_audit.mjs",
-    "build:site": "node scripts/build-site.mjs"
+    "build:site": "node scripts/build-site.mjs",
+    "resources": "node scripts/resources.mjs",
+    "build:react": "node scripts/build-react.mjs"
   },
   "publishConfig": {
     "access": "public"

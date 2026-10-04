@@ -16,9 +16,12 @@ default. Self-hosting and offline workflows are described below.
 
 | Package | Contains | When to install |
 | --- | --- | --- |
-| `@ranx729/medieval-ornaments@0.6.1` | JS/React, CSS, types, discovery metadata and CLI; no artwork | Component imports or the installed CLI |
-| `@ranx729/medieval-ornaments-illustration-assets@0.1.0` | All 41 illustrations and their PNG/WebP sizes; no runtime | Illustration-only offline files or direct bundler image imports |
-| `@ranx729/medieval-ornaments-assets@0.4.0` | All border/decoration files; depends on the exact illustration archive above | The entire collection for offline use |
+| `@ranx729/medieval-ornaments@0.7.0` | JS/React, CSS, types, discovery metadata and CLI; no artwork | Component imports or the installed CLI |
+| `@ranx729/medieval-ornaments-assets-borders-001@0.1.0` | All current border exports/sizes; no runtime or dependency | Selected border offline files |
+| `@ranx729/medieval-ornaments-assets-decorations-001@0.1.0` | All current whole-decoration exports/sizes; no runtime | Selected decoration offline files |
+| `@ranx729/medieval-ornaments-assets-illustrations-001@0.1.0` | All current illustration exports/sizes; no runtime | Selected illustration offline files |
+| `@ranx729/medieval-ornaments-illustration-assets@0.1.0` | Compatibility snapshot of 41 illustrations and PNG/WebP sizes; no runtime | Illustration-only offline files or direct bundler image imports |
+| `@ranx729/medieval-ornaments-assets@0.4.0` | Compatibility snapshot of border/decoration files; depends on the exact legacy illustration archive | The entire collection for offline use |
 
 Installing an artwork archive does not install the runtime/CLI. The full optional
 install totals roughly 341 MB compressed; use individual imports or `add` for
@@ -291,22 +294,35 @@ SVG. Requesting an unsupported format or use throws a useful error.
 
 ## CDN or self-hosting
 
-The runtime pins an independent artwork revision. Runtime 0.6.0 uses:
+The runtime routes each design through an explicit resource assignment. Version
+0.7.0 uses numbered packages at exact version 0.1.0:
 
-```text
-https://unpkg.com/@ranx729/medieval-ornaments-assets@0.4.0/                # borders/decorations
-https://unpkg.com/@ranx729/medieval-ornaments-illustration-assets@0.1.0/    # illustrations
+| Resource | CDN base |
+| --- | --- |
+| Borders | `https://unpkg.com/@ranx729/medieval-ornaments-assets-borders-001@0.1.0/` |
+| Decorations | `https://unpkg.com/@ranx729/medieval-ornaments-assets-decorations-001@0.1.0/` |
+| Illustrations | `https://unpkg.com/@ranx729/medieval-ornaments-assets-illustrations-001@0.1.0/` |
+
+Future collections can span several numbered repositories. Use the resolver or
+`getAssetSource(name)` rather than constructing URLs from an asset type:
+
+```js
+import { getAssetSource } from '@ranx729/medieval-ornaments/resources';
+const source = getAssetSource('flying-pig');
+console.log(source.package, source.version, source.base);
 ```
 
-Runtimes 0.4.0 and 0.5.0 retain their original artwork pin at 0.3.2.
+This entry loads routing metadata without the design catalog. Normal rendering
+includes no manifest request. Individual component entries include only their
+own design and their assigned URL constant. An explicit `assetsBase` overrides
+routing for a flat self-hosted collection.
 
-The public exports `assetsPackage`, `assetsVersion` and `defaultAssetsBase`
-identify the border/decoration pin. `illustrationsPackage`, `illustrationsVersion`
-and `defaultIllustrationsBase` identify the illustration pin. The resolver picks
-the correct source automatically; an explicit `assetsBase` overrides both for
-a flat self-hosted collection. Code-only releases can retain these pins. URLs never follow `latest`
-or the repository branch. UNPKG hosts the detailed traces; their archive exceeds
-jsDelivr's [150 MB package limit](https://www.jsdelivr.com/documentation).
+`assetsPackage`, `assetsVersion`, `defaultAssetsBase`, `illustrationsPackage`,
+`illustrationsVersion`, `defaultIllustrationsBase` remain **legacy compatibility
+archive pins**. They no longer describe the resolver's default source; replace
+such assumptions with `getAssetSource`. Runtime 0.6.1 and earlier keep their old
+immutable URLs. Code-only and descriptive-metadata updates need not republish
+artwork. UNPKG hosts exact npm versions; no released URL follows `latest`.
 
 Only selected images are requested; the collection is not embedded in your
 JavaScript bundle. This mode requires CDN access and an appropriate `img-src`
@@ -383,7 +399,7 @@ previously the artwork was included in every runtime installation. Versions
 
 ## Native browser modules, no bundler
 
-Download the [browser ZIP](https://adrian729.github.io/medieval-ornaments/medieval-ornaments-browser.zip)
+Download the [browser ZIP](https://github.com/adrian729/medieval-ornaments/releases/download/v0.7.0/medieval-ornaments-browser.zip)
 and serve it over HTTP. It includes a self-hosted vanilla example. Or copy the
 runtime's `lib/` and `ornaments.css`, plus artwork copied with `copy-assets --offline`, to your static site:
 
@@ -408,7 +424,9 @@ Native modules need HTTP serving, not opening the page with `file://`.
 In a checkout, `npm ci`, then `npm run build`. Serve the checkout over HTTP for
 the native example. For the React source example, run
 `npx vite examples/react` (images default to the pinned CDN), or
-`npm run build:browser` to build the self-hosted Pages example and browser ZIP.
+`npm run build:react` and `npm run build:site` for CDN-backed Pages examples.
+`npm run build:browser` explicitly fetches no files: prepare resource checkouts
+first, then build the optional self-hosted browser ZIP. See [RESOURCES.md](RESOURCES.md).
 Consumers do not need Python; artwork maintenance is a separate workflow.
 
 Before release:
@@ -462,4 +480,12 @@ that pins it; verify actual CDN availability and checksums before releasing the
 runtime. Source sheets and tracing tools stay outside both npm distributions.
 Post-publication integration accepts `ORNAMENTS_PACKAGE` and
 `ORNAMENTS_ASSETS_PACKAGE` and `ORNAMENTS_ILLUSTRATIONS_PACKAGE` registry specs. Keep the complete browser ZIP and Pages
-self-hosted examples built and verified as part of the release.
+CDN-backed Pages examples and the separately hosted offline ZIP verified as part of the release.
+
+## Migration to numbered resources
+
+See [RESOURCE-MIGRATION.md](RESOURCE-MIGRATION.md) for the 0.7.0 changes and
+commands. Component APIs and design names stay stable. Raw main-branch artwork
+URLs, Pages image paths and the Pages ZIP link change; use assigned immutable
+CDN URLs or copy a flat self-hosted mirror. New resource packages are optional
+and the main checkout contains no large export/native-input files.

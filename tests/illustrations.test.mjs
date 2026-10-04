@@ -5,7 +5,7 @@ import { createHash } from 'node:crypto';
 import { tmpdir } from 'node:os';
 import path from 'node:path';
 import { pathToFileURL } from 'node:url';
-import { ornaments, findOrnaments, resolveOrnament, getOrnament } from '../lib/index.js';
+import { ornaments, findOrnaments, resolveOrnament, getAssetSource, getOrnament } from '../lib/index.js';
 import { main } from '../lib/cli.js';
 
 const root = new URL('../', import.meta.url);
@@ -60,7 +60,7 @@ test('scoped discovery contains only its family and combines layout/subject filt
 test('illustrations inherit sufficient variants, native image hints and capability restrictions', () => {
   const result = resolveOrnament('image', { design: 'flying-pig', size: 128, loading: 'lazy', decoding: 'async', fetchPriority: 'low' });
   assert.equal(result.asset.path, 'webp/256/flying-pig.webp');
-  assert.equal(result.asset.url, 'https://unpkg.com/@ranx729/medieval-ornaments-illustration-assets@0.1.0/webp/256/flying-pig.webp');
+  assert.equal(result.asset.url, getAssetSource('flying-pig').base + 'webp/256/flying-pig.webp');
   assert.equal(result.asset.resolutionLimited, false);
   assert.equal(result.attributes.width, String(getOrnament('flying-pig').width));
   assert.equal(result.attributes.height, String(getOrnament('flying-pig').height));

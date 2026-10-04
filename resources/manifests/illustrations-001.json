@@ -1,0 +1,4046 @@
+{
+  "schemaVersion": 2,
+  "id": "illustrations-001",
+  "collection": "illustrations",
+  "package": "@ranx729/medieval-ornaments-assets-illustrations-001",
+  "version": "0.1.0",
+  "designs": {
+    "anafiles": {
+      "name": "anafiles",
+      "asset_type": "illustration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 964,
+      "height": 670,
+      "png": "png/anafiles.png",
+      "webp": "webp/anafiles.webp",
+      "png_bytes": 1017132,
+      "webp_bytes": 471034,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "width": 128,
+          "height": 89,
+          "png": "png/128/anafiles.png",
+          "webp": "webp/128/anafiles.webp",
+          "png_bytes": 21007,
+          "webp_bytes": 16726
+        },
+        {
+          "max_dimension": 256,
+          "width": 256,
+          "height": 178,
+          "png": "png/256/anafiles.png",
+          "webp": "webp/256/anafiles.webp",
+          "png_bytes": 78455,
+          "webp_bytes": 54294
+        },
+        {
+          "max_dimension": 512,
+          "width": 512,
+          "height": 356,
+          "png": "png/512/anafiles.png",
+          "webp": "webp/512/anafiles.webp",
+          "png_bytes": 278791,
+          "webp_bytes": 181950
+        },
+        {
+          "max_dimension": 768,
+          "width": 768,
+          "height": 534,
+          "png": "png/768/anafiles.png",
+          "webp": "webp/768/anafiles.webp",
+          "png_bytes": 555036,
+          "webp_bytes": 354756
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "animal-choir-landscape": {
+      "name": "animal-choir-landscape",
+      "asset_type": "illustration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 2135,
+      "height": 737,
+      "png": "png/animal-choir-landscape.png",
+      "webp": "webp/animal-choir-landscape.webp",
+      "png_bytes": 1774790,
+      "webp_bytes": 1265934,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "width": 128,
+          "height": 44,
+          "png": "png/128/animal-choir-landscape.png",
+          "webp": "webp/128/animal-choir-landscape.webp",
+          "png_bytes": 11450,
+          "webp_bytes": 9390
+        },
+        {
+          "max_dimension": 256,
+          "width": 256,
+          "height": 88,
+          "png": "png/256/animal-choir-landscape.png",
+          "webp": "webp/256/animal-choir-landscape.webp",
+          "png_bytes": 37657,
+          "webp_bytes": 29718
+        },
+        {
+          "max_dimension": 512,
+          "width": 512,
+          "height": 177,
+          "png": "png/512/animal-choir-landscape.png",
+          "webp": "webp/512/animal-choir-landscape.webp",
+          "png_bytes": 132989,
+          "webp_bytes": 96764
+        },
+        {
+          "max_dimension": 768,
+          "width": 768,
+          "height": 265,
+          "png": "png/768/animal-choir-landscape.png",
+          "webp": "webp/768/animal-choir-landscape.webp",
+          "png_bytes": 277809,
+          "webp_bytes": 200246
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "animal-musicians-ensemble": {
+      "name": "animal-musicians-ensemble",
+      "asset_type": "illustration",
+      "kind": "standalone",
+      "derivation": "preserved-source-scene",
+      "repeat_axis": "none",
+      "width": 720,
+      "height": 533,
+      "png": "png/animal-musicians-ensemble.png",
+      "webp": "webp/animal-musicians-ensemble.webp",
+      "png_bytes": 1345152,
+      "webp_bytes": 664008,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "width": 128,
+          "height": 95,
+          "png": "png/128/animal-musicians-ensemble.png",
+          "webp": "webp/128/animal-musicians-ensemble.webp",
+          "png_bytes": 35485,
+          "webp_bytes": 28024
+        },
+        {
+          "max_dimension": 256,
+          "width": 256,
+          "height": 190,
+          "png": "png/256/animal-musicians-ensemble.png",
+          "webp": "webp/256/animal-musicians-ensemble.webp",
+          "png_bytes": 147157,
+          "webp_bytes": 103056
+        },
+        {
+          "max_dimension": 512,
+          "width": 512,
+          "height": 379,
+          "png": "png/512/animal-musicians-ensemble.png",
+          "webp": "webp/512/animal-musicians-ensemble.webp",
+          "png_bytes": 582923,
+          "webp_bytes": 357460
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "bird-wind-player": {
+      "name": "bird-wind-player",
+      "asset_type": "illustration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 1211,
+      "height": 1299,
+      "png": "png/bird-wind-player.png",
+      "webp": "webp/bird-wind-player.webp",
+      "png_bytes": 1425509,
+      "webp_bytes": 1048316,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "width": 119,
+          "height": 128,
+          "png": "png/128/bird-wind-player.png",
+          "webp": "webp/128/bird-wind-player.webp",
+          "png_bytes": 20494,
+          "webp_bytes": 17002
+        },
+        {
+          "max_dimension": 256,
+          "width": 239,
+          "height": 256,
+          "png": "png/256/bird-wind-player.png",
+          "webp": "webp/256/bird-wind-player.webp",
+          "png_bytes": 71857,
+          "webp_bytes": 57298
+        },
+        {
+          "max_dimension": 512,
+          "width": 477,
+          "height": 512,
+          "png": "png/512/bird-wind-player.png",
+          "webp": "webp/512/bird-wind-player.webp",
+          "png_bytes": 255051,
+          "webp_bytes": 197970
+        },
+        {
+          "max_dimension": 768,
+          "width": 716,
+          "height": 768,
+          "png": "png/768/bird-wind-player.png",
+          "webp": "webp/768/bird-wind-player.webp",
+          "png_bytes": 542602,
+          "webp_bytes": 413842
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "boar-lute-player": {
+      "name": "boar-lute-player",
+      "asset_type": "illustration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 1177,
+      "height": 1337,
+      "png": "png/boar-lute-player.png",
+      "webp": "webp/boar-lute-player.webp",
+      "png_bytes": 1288066,
+      "webp_bytes": 900478,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "width": 113,
+          "height": 128,
+          "png": "png/128/boar-lute-player.png",
+          "webp": "webp/128/boar-lute-player.webp",
+          "png_bytes": 17670,
+          "webp_bytes": 13210
+        },
+        {
+          "max_dimension": 256,
+          "width": 225,
+          "height": 256,
+          "png": "png/256/boar-lute-player.png",
+          "webp": "webp/256/boar-lute-player.webp",
+          "png_bytes": 60808,
+          "webp_bytes": 44724
+        },
+        {
+          "max_dimension": 512,
+          "width": 451,
+          "height": 512,
+          "png": "png/512/boar-lute-player.png",
+          "webp": "webp/512/boar-lute-player.webp",
+          "png_bytes": 219017,
+          "webp_bytes": 157878
+        },
+        {
+          "max_dimension": 768,
+          "width": 676,
+          "height": 768,
+          "png": "png/768/boar-lute-player.png",
+          "webp": "webp/768/boar-lute-player.webp",
+          "png_bytes": 468045,
+          "webp_bytes": 335318
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "bunny-harp": {
+      "name": "bunny-harp",
+      "asset_type": "illustration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 1021,
+      "height": 1541,
+      "png": "png/bunny-harp.png",
+      "webp": "webp/bunny-harp.webp",
+      "png_bytes": 1073840,
+      "webp_bytes": 728608,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "width": 85,
+          "height": 128,
+          "png": "png/128/bunny-harp.png",
+          "webp": "webp/128/bunny-harp.webp",
+          "png_bytes": 12682,
+          "webp_bytes": 9950
+        },
+        {
+          "max_dimension": 256,
+          "width": 170,
+          "height": 256,
+          "png": "png/256/bunny-harp.png",
+          "webp": "webp/256/bunny-harp.webp",
+          "png_bytes": 42969,
+          "webp_bytes": 34116
+        },
+        {
+          "max_dimension": 512,
+          "width": 339,
+          "height": 512,
+          "png": "png/512/bunny-harp.png",
+          "webp": "webp/512/bunny-harp.webp",
+          "png_bytes": 147374,
+          "webp_bytes": 106048
+        },
+        {
+          "max_dimension": 768,
+          "width": 509,
+          "height": 768,
+          "png": "png/768/bunny-harp.png",
+          "webp": "webp/768/bunny-harp.webp",
+          "png_bytes": 305644,
+          "webp_bytes": 217584
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "bunny-trumpet": {
+      "name": "bunny-trumpet",
+      "asset_type": "illustration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 1536,
+      "height": 1024,
+      "png": "png/bunny-trumpet.png",
+      "webp": "webp/bunny-trumpet.webp",
+      "png_bytes": 1822297,
+      "webp_bytes": 1133700,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "width": 128,
+          "height": 85,
+          "png": "png/128/bunny-trumpet.png",
+          "webp": "webp/128/bunny-trumpet.webp",
+          "png_bytes": 11646,
+          "webp_bytes": 8836
+        },
+        {
+          "max_dimension": 256,
+          "width": 256,
+          "height": 171,
+          "png": "png/256/bunny-trumpet.png",
+          "webp": "webp/256/bunny-trumpet.webp",
+          "png_bytes": 39492,
+          "webp_bytes": 26382
+        },
+        {
+          "max_dimension": 512,
+          "width": 512,
+          "height": 341,
+          "png": "png/512/bunny-trumpet.png",
+          "webp": "webp/512/bunny-trumpet.webp",
+          "png_bytes": 136714,
+          "webp_bytes": 90196
+        },
+        {
+          "max_dimension": 768,
+          "width": 768,
+          "height": 512,
+          "png": "png/768/bunny-trumpet.png",
+          "webp": "webp/768/bunny-trumpet.webp",
+          "png_bytes": 290160,
+          "webp_bytes": 190604
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "canine-fiddle-player": {
+      "name": "canine-fiddle-player",
+      "asset_type": "illustration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 1188,
+      "height": 1324,
+      "png": "png/canine-fiddle-player.png",
+      "webp": "webp/canine-fiddle-player.webp",
+      "png_bytes": 1035264,
+      "webp_bytes": 710002,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "width": 115,
+          "height": 128,
+          "png": "png/128/canine-fiddle-player.png",
+          "webp": "webp/128/canine-fiddle-player.webp",
+          "png_bytes": 15184,
+          "webp_bytes": 12370
+        },
+        {
+          "max_dimension": 256,
+          "width": 230,
+          "height": 256,
+          "png": "png/256/canine-fiddle-player.png",
+          "webp": "webp/256/canine-fiddle-player.webp",
+          "png_bytes": 50491,
+          "webp_bytes": 36072
+        },
+        {
+          "max_dimension": 512,
+          "width": 459,
+          "height": 512,
+          "png": "png/512/canine-fiddle-player.png",
+          "webp": "webp/512/canine-fiddle-player.webp",
+          "png_bytes": 174735,
+          "webp_bytes": 123060
+        },
+        {
+          "max_dimension": 768,
+          "width": 689,
+          "height": 768,
+          "png": "png/768/canine-fiddle-player.png",
+          "webp": "webp/768/canine-fiddle-player.webp",
+          "png_bytes": 371359,
+          "webp_bytes": 262614
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "cat-reading-book": {
+      "name": "cat-reading-book",
+      "asset_type": "illustration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 1254,
+      "height": 1254,
+      "png": "png/cat-reading-book.png",
+      "webp": "webp/cat-reading-book.webp",
+      "png_bytes": 1080180,
+      "webp_bytes": 726458,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "width": 128,
+          "height": 128,
+          "png": "png/128/cat-reading-book.png",
+          "webp": "webp/128/cat-reading-book.webp",
+          "png_bytes": 17886,
+          "webp_bytes": 13468
+        },
+        {
+          "max_dimension": 256,
+          "width": 256,
+          "height": 256,
+          "png": "png/256/cat-reading-book.png",
+          "webp": "webp/256/cat-reading-book.webp",
+          "png_bytes": 60109,
+          "webp_bytes": 41928
+        },
+        {
+          "max_dimension": 512,
+          "width": 512,
+          "height": 512,
+          "png": "png/512/cat-reading-book.png",
+          "webp": "webp/512/cat-reading-book.webp",
+          "png_bytes": 209681,
+          "webp_bytes": 142398
+        },
+        {
+          "max_dimension": 768,
+          "width": 768,
+          "height": 768,
+          "png": "png/768/cat-reading-book.png",
+          "webp": "webp/768/cat-reading-book.webp",
+          "png_bytes": 441781,
+          "webp_bytes": 298968
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "creature-in-gold-shape": {
+      "name": "creature-in-gold-shape",
+      "asset_type": "illustration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 563,
+      "height": 650,
+      "png": "png/creature-in-gold-shape.png",
+      "webp": "webp/creature-in-gold-shape.webp",
+      "png_bytes": 500651,
+      "webp_bytes": 351630,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "width": 111,
+          "height": 128,
+          "png": "png/128/creature-in-gold-shape.png",
+          "webp": "webp/128/creature-in-gold-shape.webp",
+          "png_bytes": 25060,
+          "webp_bytes": 18036
+        },
+        {
+          "max_dimension": 256,
+          "width": 222,
+          "height": 256,
+          "png": "png/256/creature-in-gold-shape.png",
+          "webp": "webp/256/creature-in-gold-shape.webp",
+          "png_bytes": 89042,
+          "webp_bytes": 62038
+        },
+        {
+          "max_dimension": 512,
+          "width": 443,
+          "height": 512,
+          "png": "png/512/creature-in-gold-shape.png",
+          "webp": "webp/512/creature-in-gold-shape.webp",
+          "png_bytes": 323759,
+          "webp_bytes": 227132
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "crowned-cat": {
+      "name": "crowned-cat",
+      "asset_type": "illustration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 1111,
+      "height": 1415,
+      "png": "png/crowned-cat.png",
+      "webp": "webp/crowned-cat.webp",
+      "png_bytes": 1301078,
+      "webp_bytes": 844580,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "width": 101,
+          "height": 128,
+          "png": "png/128/crowned-cat.png",
+          "webp": "webp/128/crowned-cat.webp",
+          "png_bytes": 17283,
+          "webp_bytes": 12830
+        },
+        {
+          "max_dimension": 256,
+          "width": 201,
+          "height": 256,
+          "png": "png/256/crowned-cat.png",
+          "webp": "webp/256/crowned-cat.webp",
+          "png_bytes": 60130,
+          "webp_bytes": 41460
+        },
+        {
+          "max_dimension": 512,
+          "width": 402,
+          "height": 512,
+          "png": "png/512/crowned-cat.png",
+          "webp": "webp/512/crowned-cat.webp",
+          "png_bytes": 209733,
+          "webp_bytes": 138966
+        },
+        {
+          "max_dimension": 768,
+          "width": 603,
+          "height": 768,
+          "png": "png/768/crowned-cat.png",
+          "webp": "webp/768/crowned-cat.webp",
+          "png_bytes": 432838,
+          "webp_bytes": 286732
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "curled-cat": {
+      "name": "curled-cat",
+      "asset_type": "illustration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 1414,
+      "height": 1112,
+      "png": "png/curled-cat.png",
+      "webp": "webp/curled-cat.webp",
+      "png_bytes": 1708149,
+      "webp_bytes": 1164916,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "width": 128,
+          "height": 101,
+          "png": "png/128/curled-cat.png",
+          "webp": "webp/128/curled-cat.webp",
+          "png_bytes": 19652,
+          "webp_bytes": 15410
+        },
+        {
+          "max_dimension": 256,
+          "width": 256,
+          "height": 201,
+          "png": "png/256/curled-cat.png",
+          "webp": "webp/256/curled-cat.webp",
+          "png_bytes": 70466,
+          "webp_bytes": 49680
+        },
+        {
+          "max_dimension": 512,
+          "width": 512,
+          "height": 403,
+          "png": "png/512/curled-cat.png",
+          "webp": "webp/512/curled-cat.webp",
+          "png_bytes": 259498,
+          "webp_bytes": 180280
+        },
+        {
+          "max_dimension": 768,
+          "width": 768,
+          "height": 604,
+          "png": "png/768/curled-cat.png",
+          "webp": "webp/768/curled-cat.webp",
+          "png_bytes": 556538,
+          "webp_bytes": 384148
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "donkey-organist": {
+      "name": "donkey-organist",
+      "asset_type": "illustration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 1211,
+      "height": 1299,
+      "png": "png/donkey-organist.png",
+      "webp": "webp/donkey-organist.webp",
+      "png_bytes": 2544851,
+      "webp_bytes": 1724766,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "width": 119,
+          "height": 128,
+          "png": "png/128/donkey-organist.png",
+          "webp": "webp/128/donkey-organist.webp",
+          "png_bytes": 29927,
+          "webp_bytes": 25122
+        },
+        {
+          "max_dimension": 256,
+          "width": 239,
+          "height": 256,
+          "png": "png/256/donkey-organist.png",
+          "webp": "webp/256/donkey-organist.webp",
+          "png_bytes": 108784,
+          "webp_bytes": 75918
+        },
+        {
+          "max_dimension": 512,
+          "width": 477,
+          "height": 512,
+          "png": "png/512/donkey-organist.png",
+          "webp": "webp/512/donkey-organist.webp",
+          "png_bytes": 414436,
+          "webp_bytes": 287034
+        },
+        {
+          "max_dimension": 768,
+          "width": 716,
+          "height": 768,
+          "png": "png/768/donkey-organist.png",
+          "webp": "webp/768/donkey-organist.webp",
+          "png_bytes": 929580,
+          "webp_bytes": 642170
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "donkey-rooster-lute-player": {
+      "name": "donkey-rooster-lute-player",
+      "asset_type": "illustration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 1121,
+      "height": 1403,
+      "png": "png/donkey-rooster-lute-player.png",
+      "webp": "webp/donkey-rooster-lute-player.webp",
+      "png_bytes": 1318222,
+      "webp_bytes": 958870,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "width": 102,
+          "height": 128,
+          "png": "png/128/donkey-rooster-lute-player.png",
+          "webp": "webp/128/donkey-rooster-lute-player.webp",
+          "png_bytes": 17363,
+          "webp_bytes": 14850
+        },
+        {
+          "max_dimension": 256,
+          "width": 205,
+          "height": 256,
+          "png": "png/256/donkey-rooster-lute-player.png",
+          "webp": "webp/256/donkey-rooster-lute-player.webp",
+          "png_bytes": 59977,
+          "webp_bytes": 46886
+        },
+        {
+          "max_dimension": 512,
+          "width": 409,
+          "height": 512,
+          "png": "png/512/donkey-rooster-lute-player.png",
+          "webp": "webp/512/donkey-rooster-lute-player.webp",
+          "png_bytes": 210236,
+          "webp_bytes": 159372
+        },
+        {
+          "max_dimension": 768,
+          "width": 614,
+          "height": 768,
+          "png": "png/768/donkey-rooster-lute-player.png",
+          "webp": "webp/768/donkey-rooster-lute-player.webp",
+          "png_bytes": 441938,
+          "webp_bytes": 329930
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "fish-with-arms": {
+      "name": "fish-with-arms",
+      "asset_type": "illustration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 1325,
+      "height": 1187,
+      "png": "png/fish-with-arms.png",
+      "webp": "webp/fish-with-arms.webp",
+      "png_bytes": 1517617,
+      "webp_bytes": 1061054,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "width": 128,
+          "height": 115,
+          "png": "png/128/fish-with-arms.png",
+          "webp": "webp/128/fish-with-arms.webp",
+          "png_bytes": 19796,
+          "webp_bytes": 15190
+        },
+        {
+          "max_dimension": 256,
+          "width": 256,
+          "height": 229,
+          "png": "png/256/fish-with-arms.png",
+          "webp": "webp/256/fish-with-arms.webp",
+          "png_bytes": 70683,
+          "webp_bytes": 51356
+        },
+        {
+          "max_dimension": 512,
+          "width": 512,
+          "height": 459,
+          "png": "png/512/fish-with-arms.png",
+          "webp": "webp/512/fish-with-arms.webp",
+          "png_bytes": 259247,
+          "webp_bytes": 182658
+        },
+        {
+          "max_dimension": 768,
+          "width": 768,
+          "height": 688,
+          "png": "png/768/fish-with-arms.png",
+          "webp": "webp/768/fish-with-arms.webp",
+          "png_bytes": 555302,
+          "webp_bytes": 390360
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "flying-pig": {
+      "name": "flying-pig",
+      "asset_type": "illustration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 1254,
+      "height": 1254,
+      "png": "png/flying-pig.png",
+      "webp": "webp/flying-pig.webp",
+      "png_bytes": 1181614,
+      "webp_bytes": 832078,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "width": 128,
+          "height": 128,
+          "png": "png/128/flying-pig.png",
+          "webp": "webp/128/flying-pig.webp",
+          "png_bytes": 18644,
+          "webp_bytes": 14564
+        },
+        {
+          "max_dimension": 256,
+          "width": 256,
+          "height": 256,
+          "png": "png/256/flying-pig.png",
+          "webp": "webp/256/flying-pig.webp",
+          "png_bytes": 62459,
+          "webp_bytes": 45056
+        },
+        {
+          "max_dimension": 512,
+          "width": 512,
+          "height": 512,
+          "png": "png/512/flying-pig.png",
+          "webp": "webp/512/flying-pig.webp",
+          "png_bytes": 220065,
+          "webp_bytes": 157448
+        },
+        {
+          "max_dimension": 768,
+          "width": 768,
+          "height": 768,
+          "png": "png/768/flying-pig.png",
+          "webp": "webp/768/flying-pig.webp",
+          "png_bytes": 469117,
+          "webp_bytes": 335748
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "frog": {
+      "name": "frog",
+      "asset_type": "illustration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 1774,
+      "height": 887,
+      "png": "png/frog.png",
+      "webp": "webp/frog.webp",
+      "png_bytes": 1958415,
+      "webp_bytes": 1328258,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "width": 128,
+          "height": 64,
+          "png": "png/128/frog.png",
+          "webp": "webp/128/frog.webp",
+          "png_bytes": 13518,
+          "webp_bytes": 10946
+        },
+        {
+          "max_dimension": 256,
+          "width": 256,
+          "height": 128,
+          "png": "png/256/frog.png",
+          "webp": "webp/256/frog.webp",
+          "png_bytes": 49376,
+          "webp_bytes": 37264
+        },
+        {
+          "max_dimension": 512,
+          "width": 512,
+          "height": 256,
+          "png": "png/512/frog.png",
+          "webp": "webp/512/frog.webp",
+          "png_bytes": 187484,
+          "webp_bytes": 132828
+        },
+        {
+          "max_dimension": 768,
+          "width": 768,
+          "height": 384,
+          "png": "png/768/frog.png",
+          "webp": "webp/768/frog.webp",
+          "png_bytes": 412222,
+          "webp_bytes": 287368
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "funny-faced-lying-cat": {
+      "name": "funny-faced-lying-cat",
+      "asset_type": "illustration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 1448,
+      "height": 1086,
+      "png": "png/funny-faced-lying-cat.png",
+      "webp": "webp/funny-faced-lying-cat.webp",
+      "png_bytes": 2304520,
+      "webp_bytes": 1530974,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "width": 128,
+          "height": 96,
+          "png": "png/128/funny-faced-lying-cat.png",
+          "webp": "webp/128/funny-faced-lying-cat.webp",
+          "png_bytes": 22565,
+          "webp_bytes": 17006
+        },
+        {
+          "max_dimension": 256,
+          "width": 256,
+          "height": 192,
+          "png": "png/256/funny-faced-lying-cat.png",
+          "webp": "webp/256/funny-faced-lying-cat.webp",
+          "png_bytes": 84519,
+          "webp_bytes": 59650
+        },
+        {
+          "max_dimension": 512,
+          "width": 512,
+          "height": 384,
+          "png": "png/512/funny-faced-lying-cat.png",
+          "webp": "webp/512/funny-faced-lying-cat.webp",
+          "png_bytes": 327446,
+          "webp_bytes": 222424
+        },
+        {
+          "max_dimension": 768,
+          "width": 768,
+          "height": 576,
+          "png": "png/768/funny-faced-lying-cat.png",
+          "webp": "webp/768/funny-faced-lying-cat.webp",
+          "png_bytes": 717954,
+          "webp_bytes": 481420
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "hooded-bagpiper": {
+      "name": "hooded-bagpiper",
+      "asset_type": "illustration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 962,
+      "height": 1635,
+      "png": "png/hooded-bagpiper.png",
+      "webp": "webp/hooded-bagpiper.webp",
+      "png_bytes": 1400786,
+      "webp_bytes": 948276,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "width": 75,
+          "height": 128,
+          "png": "png/128/hooded-bagpiper.png",
+          "webp": "webp/128/hooded-bagpiper.webp",
+          "png_bytes": 14089,
+          "webp_bytes": 11918
+        },
+        {
+          "max_dimension": 256,
+          "width": 151,
+          "height": 256,
+          "png": "png/256/hooded-bagpiper.png",
+          "webp": "webp/256/hooded-bagpiper.webp",
+          "png_bytes": 48050,
+          "webp_bytes": 36458
+        },
+        {
+          "max_dimension": 512,
+          "width": 301,
+          "height": 512,
+          "png": "png/512/hooded-bagpiper.png",
+          "webp": "webp/512/hooded-bagpiper.webp",
+          "png_bytes": 168098,
+          "webp_bytes": 118130
+        },
+        {
+          "max_dimension": 768,
+          "width": 452,
+          "height": 768,
+          "png": "png/768/hooded-bagpiper.png",
+          "webp": "webp/768/hooded-bagpiper.webp",
+          "png_bytes": 355909,
+          "webp_bytes": 247950
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "hooded-harp-player": {
+      "name": "hooded-harp-player",
+      "asset_type": "illustration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 1089,
+      "height": 1444,
+      "png": "png/hooded-harp-player.png",
+      "webp": "webp/hooded-harp-player.webp",
+      "png_bytes": 1451182,
+      "webp_bytes": 1052722,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "width": 97,
+          "height": 128,
+          "png": "png/128/hooded-harp-player.png",
+          "webp": "webp/128/hooded-harp-player.webp",
+          "png_bytes": 17319,
+          "webp_bytes": 14486
+        },
+        {
+          "max_dimension": 256,
+          "width": 193,
+          "height": 256,
+          "png": "png/256/hooded-harp-player.png",
+          "webp": "webp/256/hooded-harp-player.webp",
+          "png_bytes": 60027,
+          "webp_bytes": 44982
+        },
+        {
+          "max_dimension": 512,
+          "width": 386,
+          "height": 512,
+          "png": "png/512/hooded-harp-player.png",
+          "webp": "webp/512/hooded-harp-player.webp",
+          "png_bytes": 215583,
+          "webp_bytes": 158456
+        },
+        {
+          "max_dimension": 768,
+          "width": 579,
+          "height": 768,
+          "png": "png/768/hooded-harp-player.png",
+          "webp": "webp/768/hooded-harp-player.webp",
+          "png_bytes": 456768,
+          "webp_bytes": 334496
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "lizard-lute-player": {
+      "name": "lizard-lute-player",
+      "asset_type": "illustration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 1024,
+      "height": 1536,
+      "png": "png/lizard-lute-player.png",
+      "webp": "webp/lizard-lute-player.webp",
+      "png_bytes": 2440506,
+      "webp_bytes": 1728106,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "width": 85,
+          "height": 128,
+          "png": "png/128/lizard-lute-player.png",
+          "webp": "webp/128/lizard-lute-player.webp",
+          "png_bytes": 17964,
+          "webp_bytes": 15386
+        },
+        {
+          "max_dimension": 256,
+          "width": 171,
+          "height": 256,
+          "png": "png/256/lizard-lute-player.png",
+          "webp": "webp/256/lizard-lute-player.webp",
+          "png_bytes": 61163,
+          "webp_bytes": 48838
+        },
+        {
+          "max_dimension": 512,
+          "width": 341,
+          "height": 512,
+          "png": "png/512/lizard-lute-player.png",
+          "webp": "webp/512/lizard-lute-player.webp",
+          "png_bytes": 217787,
+          "webp_bytes": 170638
+        },
+        {
+          "max_dimension": 768,
+          "width": 512,
+          "height": 768,
+          "png": "png/768/lizard-lute-player.png",
+          "webp": "webp/768/lizard-lute-player.webp",
+          "png_bytes": 468163,
+          "webp_bytes": 361882
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "musician-r1-c1-organ-player": {
+      "name": "musician-r1-c1-organ-player",
+      "asset_type": "illustration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 1143,
+      "height": 1376,
+      "png": "png/musician-r1-c1-organ-player.png",
+      "webp": "webp/musician-r1-c1-organ-player.webp",
+      "png_bytes": 1906271,
+      "webp_bytes": 1317572,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "width": 106,
+          "height": 128,
+          "png": "png/128/musician-r1-c1-organ-player.png",
+          "webp": "webp/128/musician-r1-c1-organ-player.webp",
+          "png_bytes": 22112,
+          "webp_bytes": 18490
+        },
+        {
+          "max_dimension": 256,
+          "width": 213,
+          "height": 256,
+          "png": "png/256/musician-r1-c1-organ-player.png",
+          "webp": "webp/256/musician-r1-c1-organ-player.webp",
+          "png_bytes": 78779,
+          "webp_bytes": 56254
+        },
+        {
+          "max_dimension": 512,
+          "width": 425,
+          "height": 512,
+          "png": "png/512/musician-r1-c1-organ-player.png",
+          "webp": "webp/512/musician-r1-c1-organ-player.webp",
+          "png_bytes": 290436,
+          "webp_bytes": 203720
+        },
+        {
+          "max_dimension": 768,
+          "width": 638,
+          "height": 768,
+          "png": "png/768/musician-r1-c1-organ-player.png",
+          "webp": "webp/768/musician-r1-c1-organ-player.webp",
+          "png_bytes": 635329,
+          "webp_bytes": 442718
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "musician-r1-c2-shawm-player": {
+      "name": "musician-r1-c2-shawm-player",
+      "asset_type": "illustration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 1143,
+      "height": 1376,
+      "png": "png/musician-r1-c2-shawm-player.png",
+      "webp": "webp/musician-r1-c2-shawm-player.webp",
+      "png_bytes": 1317650,
+      "webp_bytes": 897056,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "width": 106,
+          "height": 128,
+          "png": "png/128/musician-r1-c2-shawm-player.png",
+          "webp": "webp/128/musician-r1-c2-shawm-player.webp",
+          "png_bytes": 15888,
+          "webp_bytes": 12304
+        },
+        {
+          "max_dimension": 256,
+          "width": 213,
+          "height": 256,
+          "png": "png/256/musician-r1-c2-shawm-player.png",
+          "webp": "webp/256/musician-r1-c2-shawm-player.webp",
+          "png_bytes": 55496,
+          "webp_bytes": 40206
+        },
+        {
+          "max_dimension": 512,
+          "width": 425,
+          "height": 512,
+          "png": "png/512/musician-r1-c2-shawm-player.png",
+          "webp": "webp/512/musician-r1-c2-shawm-player.webp",
+          "png_bytes": 202584,
+          "webp_bytes": 141154
+        },
+        {
+          "max_dimension": 768,
+          "width": 638,
+          "height": 768,
+          "png": "png/768/musician-r1-c2-shawm-player.png",
+          "webp": "webp/768/musician-r1-c2-shawm-player.webp",
+          "png_bytes": 438924,
+          "webp_bytes": 303398
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "musician-r1-c3-horn-player": {
+      "name": "musician-r1-c3-horn-player",
+      "asset_type": "illustration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 1143,
+      "height": 1376,
+      "png": "png/musician-r1-c3-horn-player.png",
+      "webp": "webp/musician-r1-c3-horn-player.webp",
+      "png_bytes": 1239573,
+      "webp_bytes": 836502,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "width": 106,
+          "height": 128,
+          "png": "png/128/musician-r1-c3-horn-player.png",
+          "webp": "webp/128/musician-r1-c3-horn-player.webp",
+          "png_bytes": 16159,
+          "webp_bytes": 13440
+        },
+        {
+          "max_dimension": 256,
+          "width": 213,
+          "height": 256,
+          "png": "png/256/musician-r1-c3-horn-player.png",
+          "webp": "webp/256/musician-r1-c3-horn-player.webp",
+          "png_bytes": 54681,
+          "webp_bytes": 39494
+        },
+        {
+          "max_dimension": 512,
+          "width": 425,
+          "height": 512,
+          "png": "png/512/musician-r1-c3-horn-player.png",
+          "webp": "webp/512/musician-r1-c3-horn-player.webp",
+          "png_bytes": 195440,
+          "webp_bytes": 136146
+        },
+        {
+          "max_dimension": 768,
+          "width": 638,
+          "height": 768,
+          "png": "png/768/musician-r1-c3-horn-player.png",
+          "webp": "webp/768/musician-r1-c3-horn-player.webp",
+          "png_bytes": 421135,
+          "webp_bytes": 289630
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "musician-r1-c4-horn-player": {
+      "name": "musician-r1-c4-horn-player",
+      "asset_type": "illustration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 1143,
+      "height": 1376,
+      "png": "png/musician-r1-c4-horn-player.png",
+      "webp": "webp/musician-r1-c4-horn-player.webp",
+      "png_bytes": 1503003,
+      "webp_bytes": 1046802,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "width": 106,
+          "height": 128,
+          "png": "png/128/musician-r1-c4-horn-player.png",
+          "webp": "webp/128/musician-r1-c4-horn-player.webp",
+          "png_bytes": 19305,
+          "webp_bytes": 16320
+        },
+        {
+          "max_dimension": 256,
+          "width": 213,
+          "height": 256,
+          "png": "png/256/musician-r1-c4-horn-player.png",
+          "webp": "webp/256/musician-r1-c4-horn-player.webp",
+          "png_bytes": 65329,
+          "webp_bytes": 48286
+        },
+        {
+          "max_dimension": 512,
+          "width": 425,
+          "height": 512,
+          "png": "png/512/musician-r1-c4-horn-player.png",
+          "webp": "webp/512/musician-r1-c4-horn-player.webp",
+          "png_bytes": 235451,
+          "webp_bytes": 170080
+        },
+        {
+          "max_dimension": 768,
+          "width": 638,
+          "height": 768,
+          "png": "png/768/musician-r1-c4-horn-player.png",
+          "webp": "webp/768/musician-r1-c4-horn-player.webp",
+          "png_bytes": 509709,
+          "webp_bytes": 361494
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "musician-r2-c1-bagpiper": {
+      "name": "musician-r2-c1-bagpiper",
+      "asset_type": "illustration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 1143,
+      "height": 1376,
+      "png": "png/musician-r2-c1-bagpiper.png",
+      "webp": "webp/musician-r2-c1-bagpiper.webp",
+      "png_bytes": 1530800,
+      "webp_bytes": 1069574,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "width": 106,
+          "height": 128,
+          "png": "png/128/musician-r2-c1-bagpiper.png",
+          "webp": "webp/128/musician-r2-c1-bagpiper.webp",
+          "png_bytes": 18969,
+          "webp_bytes": 14662
+        },
+        {
+          "max_dimension": 256,
+          "width": 213,
+          "height": 256,
+          "png": "png/256/musician-r2-c1-bagpiper.png",
+          "webp": "webp/256/musician-r2-c1-bagpiper.webp",
+          "png_bytes": 65243,
+          "webp_bytes": 47986
+        },
+        {
+          "max_dimension": 512,
+          "width": 425,
+          "height": 512,
+          "png": "png/512/musician-r2-c1-bagpiper.png",
+          "webp": "webp/512/musician-r2-c1-bagpiper.webp",
+          "png_bytes": 238132,
+          "webp_bytes": 169426
+        },
+        {
+          "max_dimension": 768,
+          "width": 638,
+          "height": 768,
+          "png": "png/768/musician-r2-c1-bagpiper.png",
+          "webp": "webp/768/musician-r2-c1-bagpiper.webp",
+          "png_bytes": 514454,
+          "webp_bytes": 363942
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "musician-r2-c2-bagpiper": {
+      "name": "musician-r2-c2-bagpiper",
+      "asset_type": "illustration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 1024,
+      "height": 1536,
+      "png": "png/musician-r2-c2-bagpiper.png",
+      "webp": "webp/musician-r2-c2-bagpiper.webp",
+      "png_bytes": 2153820,
+      "webp_bytes": 1379500,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "width": 85,
+          "height": 128,
+          "png": "png/128/musician-r2-c2-bagpiper.png",
+          "webp": "webp/128/musician-r2-c2-bagpiper.webp",
+          "png_bytes": 13800,
+          "webp_bytes": 10968
+        },
+        {
+          "max_dimension": 256,
+          "width": 171,
+          "height": 256,
+          "png": "png/256/musician-r2-c2-bagpiper.png",
+          "webp": "webp/256/musician-r2-c2-bagpiper.webp",
+          "png_bytes": 48757,
+          "webp_bytes": 35926
+        },
+        {
+          "max_dimension": 512,
+          "width": 341,
+          "height": 512,
+          "png": "png/512/musician-r2-c2-bagpiper.png",
+          "webp": "webp/512/musician-r2-c2-bagpiper.webp",
+          "png_bytes": 178038,
+          "webp_bytes": 124154
+        },
+        {
+          "max_dimension": 768,
+          "width": 512,
+          "height": 768,
+          "png": "png/768/musician-r2-c2-bagpiper.png",
+          "webp": "webp/768/musician-r2-c2-bagpiper.webp",
+          "png_bytes": 384989,
+          "webp_bytes": 263530
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "musician-r2-c3-horn-player": {
+      "name": "musician-r2-c3-horn-player",
+      "asset_type": "illustration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 1143,
+      "height": 1376,
+      "png": "png/musician-r2-c3-horn-player.png",
+      "webp": "webp/musician-r2-c3-horn-player.webp",
+      "png_bytes": 1238002,
+      "webp_bytes": 838952,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "width": 106,
+          "height": 128,
+          "png": "png/128/musician-r2-c3-horn-player.png",
+          "webp": "webp/128/musician-r2-c3-horn-player.webp",
+          "png_bytes": 15511,
+          "webp_bytes": 12346
+        },
+        {
+          "max_dimension": 256,
+          "width": 213,
+          "height": 256,
+          "png": "png/256/musician-r2-c3-horn-player.png",
+          "webp": "webp/256/musician-r2-c3-horn-player.webp",
+          "png_bytes": 54141,
+          "webp_bytes": 38866
+        },
+        {
+          "max_dimension": 512,
+          "width": 425,
+          "height": 512,
+          "png": "png/512/musician-r2-c3-horn-player.png",
+          "webp": "webp/512/musician-r2-c3-horn-player.webp",
+          "png_bytes": 195215,
+          "webp_bytes": 134428
+        },
+        {
+          "max_dimension": 768,
+          "width": 638,
+          "height": 768,
+          "png": "png/768/musician-r2-c3-horn-player.png",
+          "webp": "webp/768/musician-r2-c3-horn-player.webp",
+          "png_bytes": 420511,
+          "webp_bytes": 286704
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "musician-r2-c4-psaltery-player": {
+      "name": "musician-r2-c4-psaltery-player",
+      "asset_type": "illustration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 1143,
+      "height": 1376,
+      "png": "png/musician-r2-c4-psaltery-player.png",
+      "webp": "webp/musician-r2-c4-psaltery-player.webp",
+      "png_bytes": 1770931,
+      "webp_bytes": 1158866,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "width": 106,
+          "height": 128,
+          "png": "png/128/musician-r2-c4-psaltery-player.png",
+          "webp": "webp/128/musician-r2-c4-psaltery-player.webp",
+          "png_bytes": 20364,
+          "webp_bytes": 14616
+        },
+        {
+          "max_dimension": 256,
+          "width": 213,
+          "height": 256,
+          "png": "png/256/musician-r2-c4-psaltery-player.png",
+          "webp": "webp/256/musician-r2-c4-psaltery-player.webp",
+          "png_bytes": 74762,
+          "webp_bytes": 49570
+        },
+        {
+          "max_dimension": 512,
+          "width": 425,
+          "height": 512,
+          "png": "png/512/musician-r2-c4-psaltery-player.png",
+          "webp": "webp/512/musician-r2-c4-psaltery-player.webp",
+          "png_bytes": 278015,
+          "webp_bytes": 178612
+        },
+        {
+          "max_dimension": 768,
+          "width": 638,
+          "height": 768,
+          "png": "png/768/musician-r2-c4-psaltery-player.png",
+          "webp": "webp/768/musician-r2-c4-psaltery-player.webp",
+          "png_bytes": 604120,
+          "webp_bytes": 389690
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "musician-r3-c1-bagpiper": {
+      "name": "musician-r3-c1-bagpiper",
+      "asset_type": "illustration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 1143,
+      "height": 1376,
+      "png": "png/musician-r3-c1-bagpiper.png",
+      "webp": "webp/musician-r3-c1-bagpiper.webp",
+      "png_bytes": 1342137,
+      "webp_bytes": 911802,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "width": 106,
+          "height": 128,
+          "png": "png/128/musician-r3-c1-bagpiper.png",
+          "webp": "webp/128/musician-r3-c1-bagpiper.webp",
+          "png_bytes": 17527,
+          "webp_bytes": 13952
+        },
+        {
+          "max_dimension": 256,
+          "width": 213,
+          "height": 256,
+          "png": "png/256/musician-r3-c1-bagpiper.png",
+          "webp": "webp/256/musician-r3-c1-bagpiper.webp",
+          "png_bytes": 60549,
+          "webp_bytes": 45092
+        },
+        {
+          "max_dimension": 512,
+          "width": 425,
+          "height": 512,
+          "png": "png/512/musician-r3-c1-bagpiper.png",
+          "webp": "webp/512/musician-r3-c1-bagpiper.webp",
+          "png_bytes": 218013,
+          "webp_bytes": 154700
+        },
+        {
+          "max_dimension": 768,
+          "width": 638,
+          "height": 768,
+          "png": "png/768/musician-r3-c1-bagpiper.png",
+          "webp": "webp/768/musician-r3-c1-bagpiper.webp",
+          "png_bytes": 465403,
+          "webp_bytes": 323316
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "musician-r3-c2-lute-player": {
+      "name": "musician-r3-c2-lute-player",
+      "asset_type": "illustration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 1024,
+      "height": 1536,
+      "png": "png/musician-r3-c2-lute-player.png",
+      "webp": "webp/musician-r3-c2-lute-player.webp",
+      "png_bytes": 2241450,
+      "webp_bytes": 1448394,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "width": 85,
+          "height": 128,
+          "png": "png/128/musician-r3-c2-lute-player.png",
+          "webp": "webp/128/musician-r3-c2-lute-player.webp",
+          "png_bytes": 15050,
+          "webp_bytes": 11504
+        },
+        {
+          "max_dimension": 256,
+          "width": 171,
+          "height": 256,
+          "png": "png/256/musician-r3-c2-lute-player.png",
+          "webp": "webp/256/musician-r3-c2-lute-player.webp",
+          "png_bytes": 51645,
+          "webp_bytes": 36898
+        },
+        {
+          "max_dimension": 512,
+          "width": 341,
+          "height": 512,
+          "png": "png/512/musician-r3-c2-lute-player.png",
+          "webp": "webp/512/musician-r3-c2-lute-player.webp",
+          "png_bytes": 187221,
+          "webp_bytes": 129678
+        },
+        {
+          "max_dimension": 768,
+          "width": 512,
+          "height": 768,
+          "png": "png/768/musician-r3-c2-lute-player.png",
+          "webp": "webp/768/musician-r3-c2-lute-player.webp",
+          "png_bytes": 407700,
+          "webp_bytes": 277822
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "musician-r3-c3-lute-player": {
+      "name": "musician-r3-c3-lute-player",
+      "asset_type": "illustration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 1024,
+      "height": 1536,
+      "png": "png/musician-r3-c3-lute-player.png",
+      "webp": "webp/musician-r3-c3-lute-player.webp",
+      "png_bytes": 2304829,
+      "webp_bytes": 1518790,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "width": 85,
+          "height": 128,
+          "png": "png/128/musician-r3-c3-lute-player.png",
+          "webp": "webp/128/musician-r3-c3-lute-player.webp",
+          "png_bytes": 14560,
+          "webp_bytes": 11874
+        },
+        {
+          "max_dimension": 256,
+          "width": 171,
+          "height": 256,
+          "png": "png/256/musician-r3-c3-lute-player.png",
+          "webp": "webp/256/musician-r3-c3-lute-player.webp",
+          "png_bytes": 50486,
+          "webp_bytes": 37744
+        },
+        {
+          "max_dimension": 512,
+          "width": 341,
+          "height": 512,
+          "png": "png/512/musician-r3-c3-lute-player.png",
+          "webp": "webp/512/musician-r3-c3-lute-player.webp",
+          "png_bytes": 185333,
+          "webp_bytes": 132524
+        },
+        {
+          "max_dimension": 768,
+          "width": 512,
+          "height": 768,
+          "png": "png/768/musician-r3-c3-lute-player.png",
+          "webp": "webp/768/musician-r3-c3-lute-player.webp",
+          "png_bytes": 404423,
+          "webp_bytes": 286288
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "musician-r3-c4-pipe-player": {
+      "name": "musician-r3-c4-pipe-player",
+      "asset_type": "illustration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 1143,
+      "height": 1376,
+      "png": "png/musician-r3-c4-pipe-player.png",
+      "webp": "webp/musician-r3-c4-pipe-player.webp",
+      "png_bytes": 1553556,
+      "webp_bytes": 1084606,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "width": 106,
+          "height": 128,
+          "png": "png/128/musician-r3-c4-pipe-player.png",
+          "webp": "webp/128/musician-r3-c4-pipe-player.webp",
+          "png_bytes": 18828,
+          "webp_bytes": 16088
+        },
+        {
+          "max_dimension": 256,
+          "width": 213,
+          "height": 256,
+          "png": "png/256/musician-r3-c4-pipe-player.png",
+          "webp": "webp/256/musician-r3-c4-pipe-player.webp",
+          "png_bytes": 64998,
+          "webp_bytes": 48170
+        },
+        {
+          "max_dimension": 512,
+          "width": 425,
+          "height": 512,
+          "png": "png/512/musician-r3-c4-pipe-player.png",
+          "webp": "webp/512/musician-r3-c4-pipe-player.webp",
+          "png_bytes": 237954,
+          "webp_bytes": 168740
+        },
+        {
+          "max_dimension": 768,
+          "width": 638,
+          "height": 768,
+          "png": "png/768/musician-r3-c4-pipe-player.png",
+          "webp": "webp/768/musician-r3-c4-pipe-player.webp",
+          "png_bytes": 518578,
+          "webp_bytes": 363528
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "musicians-and-dancers": {
+      "name": "musicians-and-dancers",
+      "asset_type": "illustration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 2032,
+      "height": 774,
+      "png": "png/musicians-and-dancers.png",
+      "webp": "webp/musicians-and-dancers.webp",
+      "png_bytes": 1514006,
+      "webp_bytes": 1191640,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "width": 128,
+          "height": 49,
+          "png": "png/128/musicians-and-dancers.png",
+          "webp": "webp/128/musicians-and-dancers.webp",
+          "png_bytes": 12775,
+          "webp_bytes": 11268
+        },
+        {
+          "max_dimension": 256,
+          "width": 256,
+          "height": 98,
+          "png": "png/256/musicians-and-dancers.png",
+          "webp": "webp/256/musicians-and-dancers.webp",
+          "png_bytes": 39806,
+          "webp_bytes": 35068
+        },
+        {
+          "max_dimension": 512,
+          "width": 512,
+          "height": 195,
+          "png": "png/512/musicians-and-dancers.png",
+          "webp": "webp/512/musicians-and-dancers.webp",
+          "png_bytes": 131561,
+          "webp_bytes": 105478
+        },
+        {
+          "max_dimension": 768,
+          "width": 768,
+          "height": 293,
+          "png": "png/768/musicians-and-dancers.png",
+          "webp": "webp/768/musicians-and-dancers.webp",
+          "png_bytes": 266116,
+          "webp_bytes": 210950
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "rabbit-bagpiper": {
+      "name": "rabbit-bagpiper",
+      "asset_type": "illustration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 1484,
+      "height": 1060,
+      "png": "png/rabbit-bagpiper.png",
+      "webp": "webp/rabbit-bagpiper.webp",
+      "png_bytes": 1161779,
+      "webp_bytes": 807908,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "width": 128,
+          "height": 91,
+          "png": "png/128/rabbit-bagpiper.png",
+          "webp": "webp/128/rabbit-bagpiper.webp",
+          "png_bytes": 13873,
+          "webp_bytes": 10926
+        },
+        {
+          "max_dimension": 256,
+          "width": 256,
+          "height": 183,
+          "png": "png/256/rabbit-bagpiper.png",
+          "webp": "webp/256/rabbit-bagpiper.webp",
+          "png_bytes": 47536,
+          "webp_bytes": 34458
+        },
+        {
+          "max_dimension": 512,
+          "width": 512,
+          "height": 366,
+          "png": "png/512/rabbit-bagpiper.png",
+          "webp": "webp/512/rabbit-bagpiper.webp",
+          "png_bytes": 164423,
+          "webp_bytes": 115466
+        },
+        {
+          "max_dimension": 768,
+          "width": 768,
+          "height": 549,
+          "png": "png/768/rabbit-bagpiper.png",
+          "webp": "webp/768/rabbit-bagpiper.webp",
+          "png_bytes": 346333,
+          "webp_bytes": 242138
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "rabbit-reading-book": {
+      "name": "rabbit-reading-book",
+      "asset_type": "illustration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 1500,
+      "height": 1049,
+      "png": "png/rabbit-reading-book.png",
+      "webp": "webp/rabbit-reading-book.webp",
+      "png_bytes": 1407667,
+      "webp_bytes": 960268,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "width": 128,
+          "height": 90,
+          "png": "png/128/rabbit-reading-book.png",
+          "webp": "webp/128/rabbit-reading-book.webp",
+          "png_bytes": 16358,
+          "webp_bytes": 13080
+        },
+        {
+          "max_dimension": 256,
+          "width": 256,
+          "height": 179,
+          "png": "png/256/rabbit-reading-book.png",
+          "webp": "webp/256/rabbit-reading-book.webp",
+          "png_bytes": 55159,
+          "webp_bytes": 38766
+        },
+        {
+          "max_dimension": 512,
+          "width": 512,
+          "height": 358,
+          "png": "png/512/rabbit-reading-book.png",
+          "webp": "webp/512/rabbit-reading-book.webp",
+          "png_bytes": 192958,
+          "webp_bytes": 134242
+        },
+        {
+          "max_dimension": 768,
+          "width": 768,
+          "height": 537,
+          "png": "png/768/rabbit-reading-book.png",
+          "webp": "webp/768/rabbit-reading-book.webp",
+          "png_bytes": 407060,
+          "webp_bytes": 282228
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "seated-rabbit": {
+      "name": "seated-rabbit",
+      "asset_type": "illustration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 1295,
+      "height": 1214,
+      "png": "png/seated-rabbit.png",
+      "webp": "webp/seated-rabbit.webp",
+      "png_bytes": 1338423,
+      "webp_bytes": 893840,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "width": 128,
+          "height": 120,
+          "png": "png/128/seated-rabbit.png",
+          "webp": "webp/128/seated-rabbit.webp",
+          "png_bytes": 20140,
+          "webp_bytes": 14410
+        },
+        {
+          "max_dimension": 256,
+          "width": 256,
+          "height": 240,
+          "png": "png/256/seated-rabbit.png",
+          "webp": "webp/256/seated-rabbit.webp",
+          "png_bytes": 69422,
+          "webp_bytes": 46850
+        },
+        {
+          "max_dimension": 512,
+          "width": 512,
+          "height": 480,
+          "png": "png/512/seated-rabbit.png",
+          "webp": "webp/512/seated-rabbit.webp",
+          "png_bytes": 242108,
+          "webp_bytes": 161314
+        },
+        {
+          "max_dimension": 768,
+          "width": 768,
+          "height": 720,
+          "png": "png/768/seated-rabbit.png",
+          "webp": "webp/768/seated-rabbit.webp",
+          "png_bytes": 509144,
+          "webp_bytes": 342502
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "snail": {
+      "name": "snail",
+      "asset_type": "illustration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 1774,
+      "height": 887,
+      "png": "png/snail.png",
+      "webp": "webp/snail.webp",
+      "png_bytes": 1749563,
+      "webp_bytes": 1199144,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "width": 128,
+          "height": 64,
+          "png": "png/128/snail.png",
+          "webp": "webp/128/snail.webp",
+          "png_bytes": 12599,
+          "webp_bytes": 9090
+        },
+        {
+          "max_dimension": 256,
+          "width": 256,
+          "height": 128,
+          "png": "png/256/snail.png",
+          "webp": "webp/256/snail.webp",
+          "png_bytes": 44757,
+          "webp_bytes": 30716
+        },
+        {
+          "max_dimension": 512,
+          "width": 512,
+          "height": 256,
+          "png": "png/512/snail.png",
+          "webp": "webp/512/snail.webp",
+          "png_bytes": 166875,
+          "webp_bytes": 110422
+        },
+        {
+          "max_dimension": 768,
+          "width": 768,
+          "height": 384,
+          "png": "png/768/snail.png",
+          "webp": "webp/768/snail.webp",
+          "png_bytes": 365741,
+          "webp_bytes": 243746
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "weird-dog": {
+      "name": "weird-dog",
+      "asset_type": "illustration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 1385,
+      "height": 1136,
+      "png": "png/weird-dog.png",
+      "webp": "webp/weird-dog.webp",
+      "png_bytes": 1617782,
+      "webp_bytes": 1102816,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "width": 128,
+          "height": 105,
+          "png": "png/128/weird-dog.png",
+          "webp": "webp/128/weird-dog.webp",
+          "png_bytes": 19802,
+          "webp_bytes": 14374
+        },
+        {
+          "max_dimension": 256,
+          "width": 256,
+          "height": 210,
+          "png": "png/256/weird-dog.png",
+          "webp": "webp/256/weird-dog.webp",
+          "png_bytes": 70966,
+          "webp_bytes": 48370
+        },
+        {
+          "max_dimension": 512,
+          "width": 512,
+          "height": 420,
+          "png": "png/512/weird-dog.png",
+          "webp": "webp/512/weird-dog.webp",
+          "png_bytes": 254971,
+          "webp_bytes": 171716
+        },
+        {
+          "max_dimension": 768,
+          "width": 768,
+          "height": 630,
+          "png": "png/768/weird-dog.png",
+          "webp": "webp/768/weird-dog.webp",
+          "png_bytes": 545158,
+          "webp_bytes": 368682
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "white-animal-bagpiper": {
+      "name": "white-animal-bagpiper",
+      "asset_type": "illustration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 1213,
+      "height": 1296,
+      "png": "png/white-animal-bagpiper.png",
+      "webp": "webp/white-animal-bagpiper.webp",
+      "png_bytes": 1810946,
+      "webp_bytes": 1246100,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "width": 120,
+          "height": 128,
+          "png": "png/128/white-animal-bagpiper.png",
+          "webp": "webp/128/white-animal-bagpiper.webp",
+          "png_bytes": 24472,
+          "webp_bytes": 18758
+        },
+        {
+          "max_dimension": 256,
+          "width": 240,
+          "height": 256,
+          "png": "png/256/white-animal-bagpiper.png",
+          "webp": "webp/256/white-animal-bagpiper.webp",
+          "png_bytes": 85699,
+          "webp_bytes": 59632
+        },
+        {
+          "max_dimension": 512,
+          "width": 479,
+          "height": 512,
+          "png": "png/512/white-animal-bagpiper.png",
+          "webp": "webp/512/white-animal-bagpiper.webp",
+          "png_bytes": 317346,
+          "webp_bytes": 218498
+        },
+        {
+          "max_dimension": 768,
+          "width": 719,
+          "height": 768,
+          "png": "png/768/white-animal-bagpiper.png",
+          "webp": "webp/768/white-animal-bagpiper.webp",
+          "png_bytes": 688674,
+          "webp_bytes": 474666
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "winged-rabbit": {
+      "name": "winged-rabbit",
+      "asset_type": "illustration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 1360,
+      "height": 1156,
+      "png": "png/winged-rabbit.png",
+      "webp": "webp/winged-rabbit.webp",
+      "png_bytes": 1901648,
+      "webp_bytes": 1263974,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "width": 128,
+          "height": 109,
+          "png": "png/128/winged-rabbit.png",
+          "webp": "webp/128/winged-rabbit.webp",
+          "png_bytes": 22388,
+          "webp_bytes": 17320
+        },
+        {
+          "max_dimension": 256,
+          "width": 256,
+          "height": 218,
+          "png": "png/256/winged-rabbit.png",
+          "webp": "webp/256/winged-rabbit.webp",
+          "png_bytes": 83821,
+          "webp_bytes": 58864
+        },
+        {
+          "max_dimension": 512,
+          "width": 512,
+          "height": 435,
+          "png": "png/512/winged-rabbit.png",
+          "webp": "webp/512/winged-rabbit.webp",
+          "png_bytes": 312737,
+          "webp_bytes": 212570
+        },
+        {
+          "max_dimension": 768,
+          "width": 768,
+          "height": 653,
+          "png": "png/768/winged-rabbit.png",
+          "webp": "webp/768/winged-rabbit.webp",
+          "png_bytes": 670929,
+          "webp_bytes": 451462
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    }
+  },
+  "files": {
+    "png/128/anafiles.png": {
+      "bytes": 21007,
+      "sha256": "b2e84a0674287e6747e4c321915287c677a6b24ef0ead7a7668a22d2d4009275"
+    },
+    "png/128/animal-choir-landscape.png": {
+      "bytes": 11450,
+      "sha256": "79afb11d2cc8ecd2d52be71c323d9587fff1bc1aa006cdbdcd241f158fde0cbb"
+    },
+    "png/128/animal-musicians-ensemble.png": {
+      "bytes": 35485,
+      "sha256": "1ebdc989bf71cefda7b454f3e5d13e101f6078dffcbd2ff4a74487f054a2527e"
+    },
+    "png/128/bird-wind-player.png": {
+      "bytes": 20494,
+      "sha256": "8d0fc75e19fe2ac2c7044f576087e9d3ac5a90b887ffce9f0613a79fac72a681"
+    },
+    "png/128/boar-lute-player.png": {
+      "bytes": 17670,
+      "sha256": "2469e209dbc38ac8b00fe90085abd1bf9b024aea9becfd2b514088dcab388f2c"
+    },
+    "png/128/bunny-harp.png": {
+      "bytes": 12682,
+      "sha256": "28e84d31a595e752a1461d1e8daac5ecb4a34f8d8d335d44c3f1e688e90cabfc"
+    },
+    "png/128/bunny-trumpet.png": {
+      "bytes": 11646,
+      "sha256": "04f95030e0ac66cf0d05e8047ec452e2906d8cd1ba5f28c711cfa703ef9406ef"
+    },
+    "png/128/canine-fiddle-player.png": {
+      "bytes": 15184,
+      "sha256": "e84cef151d7c5f6692ca9126b4d69c4e53c4b5220ba334bf13080002728276e2"
+    },
+    "png/128/cat-reading-book.png": {
+      "bytes": 17886,
+      "sha256": "24af08fb4390e0423459d22591ce3db0df34d22114ef0e2d285ae1af682c2a10"
+    },
+    "png/128/creature-in-gold-shape.png": {
+      "bytes": 25060,
+      "sha256": "81143a6bd8014a4ff5e83bab7f79cb704e63042afd3cbfac8dbd9353dda29d0f"
+    },
+    "png/128/crowned-cat.png": {
+      "bytes": 17283,
+      "sha256": "eb644319f316ede0aaffebdf1a49edd6d83ebbf8ae708e62b09bb0701c9083f3"
+    },
+    "png/128/curled-cat.png": {
+      "bytes": 19652,
+      "sha256": "e03d193ae25a8da275d8dadf6ba5f2a30520d6a544a7f815937c0b7dd7bf74f4"
+    },
+    "png/128/donkey-organist.png": {
+      "bytes": 29927,
+      "sha256": "9ad52c9463ea827d452b0ea3e6eb1c001ed4158092326e8b516da3063dcac0ad"
+    },
+    "png/128/donkey-rooster-lute-player.png": {
+      "bytes": 17363,
+      "sha256": "439746ab1209f4dcafab336a46b248991d52f1aa1cabba5b5bad4f298a1bdeab"
+    },
+    "png/128/fish-with-arms.png": {
+      "bytes": 19796,
+      "sha256": "b728c875af09e9d494c4ea0bb914f5323593b8f9c43b9436d2572e3824fee727"
+    },
+    "png/128/flying-pig.png": {
+      "bytes": 18644,
+      "sha256": "91e8d16ab3e6b8796ac9799eb9f7ea932d39150fa02d5dcf0b158fda2c329ed0"
+    },
+    "png/128/frog.png": {
+      "bytes": 13518,
+      "sha256": "7f9939a31b8b29904ad15fc72a03481d343ffdc99acc35d8cb7659c7658ef62f"
+    },
+    "png/128/funny-faced-lying-cat.png": {
+      "bytes": 22565,
+      "sha256": "48c6e66741b4806b0dd8d10618626651af66c138819812fb0b4019fb756da5cf"
+    },
+    "png/128/hooded-bagpiper.png": {
+      "bytes": 14089,
+      "sha256": "3299089f1079462dcb6a2b136c41fdceaab8c517d8d92af66d1e45e474319ab6"
+    },
+    "png/128/hooded-harp-player.png": {
+      "bytes": 17319,
+      "sha256": "0754fda11f9715bc252e1f37a43d4e24b01d895345ab4e1c21aa2110da588d12"
+    },
+    "png/128/lizard-lute-player.png": {
+      "bytes": 17964,
+      "sha256": "8ca05f50b160e7cbf7db0ba49df698f54a7542d072e85e1b687e72e4114d20a4"
+    },
+    "png/128/musician-r1-c1-organ-player.png": {
+      "bytes": 22112,
+      "sha256": "934a6b6bd6c0fa71bb82b04d6614976d980829b45fc675ff049a862a7ff579e9"
+    },
+    "png/128/musician-r1-c2-shawm-player.png": {
+      "bytes": 15888,
+      "sha256": "94c616310232e7ac8e866c210eccc964feb0ea26a3cb4a151941686f3ce190a8"
+    },
+    "png/128/musician-r1-c3-horn-player.png": {
+      "bytes": 16159,
+      "sha256": "fb68ab835d68b07af2006132a0003622498f8e476c3290978289ba6e22529a34"
+    },
+    "png/128/musician-r1-c4-horn-player.png": {
+      "bytes": 19305,
+      "sha256": "3a8085f4afc800c38211932583738636bc32efe7ab18e19c9faf2064230ea20c"
+    },
+    "png/128/musician-r2-c1-bagpiper.png": {
+      "bytes": 18969,
+      "sha256": "c9fece14ae769d098027d8d4da54adcbd1dcb2a1a7ef2902693966cd4f9a7eb3"
+    },
+    "png/128/musician-r2-c2-bagpiper.png": {
+      "bytes": 13800,
+      "sha256": "7dd79ff6eafe191119a921956a7c93bb4d6c02e286ede0a1ec8a4f2efa1f150d"
+    },
+    "png/128/musician-r2-c3-horn-player.png": {
+      "bytes": 15511,
+      "sha256": "85bb33c4ce2e84351161169dc067475cff833284bec3db837cf646022617695d"
+    },
+    "png/128/musician-r2-c4-psaltery-player.png": {
+      "bytes": 20364,
+      "sha256": "f05836d4f7c196298aa4ed5720766441774152080e6d7d35fa32affaa97bec59"
+    },
+    "png/128/musician-r3-c1-bagpiper.png": {
+      "bytes": 17527,
+      "sha256": "7279cd264bbe0db8e91b1f629fc4eee9368203603ae2350c45015206420210af"
+    },
+    "png/128/musician-r3-c2-lute-player.png": {
+      "bytes": 15050,
+      "sha256": "663f13b12865aa192ea391f911c6104f6ddbf01c84cc09c0f891c7d1dd3f8b32"
+    },
+    "png/128/musician-r3-c3-lute-player.png": {
+      "bytes": 14560,
+      "sha256": "81ca719dd52cf24a952641168d74380bf9edc47e8b1f4d16200edf9524d38938"
+    },
+    "png/128/musician-r3-c4-pipe-player.png": {
+      "bytes": 18828,
+      "sha256": "8f40c92064d14366e874d2f255496d69aef6796d94f015652ffc6b748935640d"
+    },
+    "png/128/musicians-and-dancers.png": {
+      "bytes": 12775,
+      "sha256": "a7e4db9115ab933200160ad71b5adb32e20210c8863109389696ef962abc8e2a"
+    },
+    "png/128/rabbit-bagpiper.png": {
+      "bytes": 13873,
+      "sha256": "a5fa56856860a31e096253a4882864b9625f640b2e21d637f9058f58c25063aa"
+    },
+    "png/128/rabbit-reading-book.png": {
+      "bytes": 16358,
+      "sha256": "e4714e21053ab2df80bf7eb4b96767888f1dad2096d306d7f688e90640b9c73a"
+    },
+    "png/128/seated-rabbit.png": {
+      "bytes": 20140,
+      "sha256": "e34ca6ac49c787680913148886048dcaa43030f6ccee2f48e2320808041cfe7c"
+    },
+    "png/128/snail.png": {
+      "bytes": 12599,
+      "sha256": "fee466085cd898d58b6fed3e497028a2c0b0a6f3dba7a1c5a9e410f8621675a5"
+    },
+    "png/128/weird-dog.png": {
+      "bytes": 19802,
+      "sha256": "3ab4c87039550a08400e42fc9293b4db644486711eb94624aa111816ef80f2b8"
+    },
+    "png/128/white-animal-bagpiper.png": {
+      "bytes": 24472,
+      "sha256": "adfeaae06427ef45bd3b1d2fdb82f197fc565f19208a9c9e27c888c2305612c3"
+    },
+    "png/128/winged-rabbit.png": {
+      "bytes": 22388,
+      "sha256": "cce64702e1cbc973bb3bc472a5991305120f6e3c137d2c52ea67390a17d9a6cd"
+    },
+    "png/256/anafiles.png": {
+      "bytes": 78455,
+      "sha256": "44c8103e9d8e602d501d3a630cc058ca469342e0e2ae03aca8d933f1aa71ef5f"
+    },
+    "png/256/animal-choir-landscape.png": {
+      "bytes": 37657,
+      "sha256": "903a01bc1179c1b481af7a328327e888105e32d01030da75c5c9d45d450c3dfd"
+    },
+    "png/256/animal-musicians-ensemble.png": {
+      "bytes": 147157,
+      "sha256": "57cdb70e0a4689a62babe938332c0a2344bca58eb15a235b252fff5374183522"
+    },
+    "png/256/bird-wind-player.png": {
+      "bytes": 71857,
+      "sha256": "35da14410589f12ba6037554f1f90591355a8aec55242fe07db996152a14a296"
+    },
+    "png/256/boar-lute-player.png": {
+      "bytes": 60808,
+      "sha256": "3fbb4dd208fe29e5f1acf9f8c72fe0d8d2bb5aacdae3cd495b08037dca2105d6"
+    },
+    "png/256/bunny-harp.png": {
+      "bytes": 42969,
+      "sha256": "94f970f2074500f15d07ab07708c00eb168c6cb0b6b0efad62fd0f633829c523"
+    },
+    "png/256/bunny-trumpet.png": {
+      "bytes": 39492,
+      "sha256": "da3fb1f460126c240d9d51656d1a399be5390e7b20aa0c04d6cf234adf827f49"
+    },
+    "png/256/canine-fiddle-player.png": {
+      "bytes": 50491,
+      "sha256": "859a713b77b34b60e14d7838fa7fc7e828e3a098e9080eb966c00fd7c004a69e"
+    },
+    "png/256/cat-reading-book.png": {
+      "bytes": 60109,
+      "sha256": "ce8bfaa92588eadd0cc69b1cdf87bebda69ca6e8cb415af52220a6e931b32a4e"
+    },
+    "png/256/creature-in-gold-shape.png": {
+      "bytes": 89042,
+      "sha256": "1a0f6f48d455e76fd98a6a523083c7a15950d58a5a64039a0e152f41fa8d9944"
+    },
+    "png/256/crowned-cat.png": {
+      "bytes": 60130,
+      "sha256": "ad832b0edea8ca5261c9a880e37ffc54df928c776e91b2f574375cccec7516a4"
+    },
+    "png/256/curled-cat.png": {
+      "bytes": 70466,
+      "sha256": "fcb54e0fa7725873537282c9f5cd8748a45e7fb0f66b0c8707ebba7a204d2f39"
+    },
+    "png/256/donkey-organist.png": {
+      "bytes": 108784,
+      "sha256": "f54c4b7ed5b442714f8df86300088677c268e45e68d47361cc2671cbd8ef9375"
+    },
+    "png/256/donkey-rooster-lute-player.png": {
+      "bytes": 59977,
+      "sha256": "359996af3de90696fcd0077091868c2ec09b2fd5c9b41fcd791f0e516a268abf"
+    },
+    "png/256/fish-with-arms.png": {
+      "bytes": 70683,
+      "sha256": "9b3f21fd134517924e5c86f281ca3179ba90d4e0c6ea199dd387905aae3db3b2"
+    },
+    "png/256/flying-pig.png": {
+      "bytes": 62459,
+      "sha256": "68cb9e55241b2fc61632a0f77bb99402455cba6dde7065ad718ff3939bf93d96"
+    },
+    "png/256/frog.png": {
+      "bytes": 49376,
+      "sha256": "197f7f8e71493e54551cb7a883b7f5ed68db2626255c4af30901e70951cb44d7"
+    },
+    "png/256/funny-faced-lying-cat.png": {
+      "bytes": 84519,
+      "sha256": "5b5ca5aed6538ada7f27fe36848f353e732466984ce0bc85cb8b53a139c37481"
+    },
+    "png/256/hooded-bagpiper.png": {
+      "bytes": 48050,
+      "sha256": "5565e2540ef818f2f1348ce28f288cab0bad14cf1be0569ed6e79737cedc1a93"
+    },
+    "png/256/hooded-harp-player.png": {
+      "bytes": 60027,
+      "sha256": "915ca192ed032f62cc238a9f1bd96ac2a962cf4d13eb484142d563d4025644c3"
+    },
+    "png/256/lizard-lute-player.png": {
+      "bytes": 61163,
+      "sha256": "0ff3212fdb84fe7d92075857cb93b804dd8236f33719e42b5b01c98ed3eeb7b4"
+    },
+    "png/256/musician-r1-c1-organ-player.png": {
+      "bytes": 78779,
+      "sha256": "63d97cdcfb4f61740cba99289d38475d4cb45c2b1491563c540d6d0e8a632e8d"
+    },
+    "png/256/musician-r1-c2-shawm-player.png": {
+      "bytes": 55496,
+      "sha256": "2f2d875829d9d81814b1a0be40360e84ebe4187ff2247af5048acca8f60c42b0"
+    },
+    "png/256/musician-r1-c3-horn-player.png": {
+      "bytes": 54681,
+      "sha256": "916213fa2ef8125177e21bbf149e59623149a7514687bce5e83c40b2a79a72b1"
+    },
+    "png/256/musician-r1-c4-horn-player.png": {
+      "bytes": 65329,
+      "sha256": "def282433d3fb4acd594da19f05608f5cb8022f226258261618f0a1e3b4e6a15"
+    },
+    "png/256/musician-r2-c1-bagpiper.png": {
+      "bytes": 65243,
+      "sha256": "bf79e30283f4b145107283a6b6f2e8f27d6452e8087a973bfb1b691ca0531681"
+    },
+    "png/256/musician-r2-c2-bagpiper.png": {
+      "bytes": 48757,
+      "sha256": "b6615525c6a26f5b91f280f531332badebf0c92b03a15342590c94704b56e0b3"
+    },
+    "png/256/musician-r2-c3-horn-player.png": {
+      "bytes": 54141,
+      "sha256": "fc3d1e55f2a710f35f61785a2131c438940f869f88906db5863ac5e36cbab7fa"
+    },
+    "png/256/musician-r2-c4-psaltery-player.png": {
+      "bytes": 74762,
+      "sha256": "70e8e9af0ae058cc83f27d47caa820659203140fdc53e48003026fca9c0b1aaf"
+    },
+    "png/256/musician-r3-c1-bagpiper.png": {
+      "bytes": 60549,
+      "sha256": "aeb0c32ca3675be4405245c7d98b671d901b02b71e91685a8a25ec12da8d8e7d"
+    },
+    "png/256/musician-r3-c2-lute-player.png": {
+      "bytes": 51645,
+      "sha256": "726ef33e3aa38df014a9edda5abc7d23ddf1f525844a680cf1e05403584d76e1"
+    },
+    "png/256/musician-r3-c3-lute-player.png": {
+      "bytes": 50486,
+      "sha256": "7d3c1f714422c3fa1f7452eb145fea2c2e9cc881b64a5d3b86505126d1d35d1c"
+    },
+    "png/256/musician-r3-c4-pipe-player.png": {
+      "bytes": 64998,
+      "sha256": "64d365a3d8cfd4247790381f7299ec62ea6ea4fc5b375d61ae06b950734982ad"
+    },
+    "png/256/musicians-and-dancers.png": {
+      "bytes": 39806,
+      "sha256": "7d857c25c5d767af367ff2712b442f34323a46b58ce63614e513e0f8c95eb53b"
+    },
+    "png/256/rabbit-bagpiper.png": {
+      "bytes": 47536,
+      "sha256": "50b5689bc0d8f8b1e8d469db8d7eaa5eb4e2a1bff5ab537682b80fbb421d1553"
+    },
+    "png/256/rabbit-reading-book.png": {
+      "bytes": 55159,
+      "sha256": "9cc1f41877ab8d3ba816d3822cedeb2c62576a4b46b1dc413188b739ca48eef3"
+    },
+    "png/256/seated-rabbit.png": {
+      "bytes": 69422,
+      "sha256": "bbf56277e1cfd951c7de0873d6b8d71579c295cc085bed02866612681da25685"
+    },
+    "png/256/snail.png": {
+      "bytes": 44757,
+      "sha256": "e752a60b4e1b67df3bd59bf1b517b95dd00326bfe8edb956773f7444ab5f5f84"
+    },
+    "png/256/weird-dog.png": {
+      "bytes": 70966,
+      "sha256": "e0c8e8cdc9e808a254a5dc284149addd0a73cae31415da4454b9803b891cd01d"
+    },
+    "png/256/white-animal-bagpiper.png": {
+      "bytes": 85699,
+      "sha256": "df5c496f77d30b706ae3153b66d6d947e5d5a6e102bd1a62f40afb2d6e53ee9e"
+    },
+    "png/256/winged-rabbit.png": {
+      "bytes": 83821,
+      "sha256": "7af6a6449ce1d78d2db1b8151fa8b5bb1a5544f985ef378916fc0e972fc64c07"
+    },
+    "png/512/anafiles.png": {
+      "bytes": 278791,
+      "sha256": "ffcd23ff635f77e1fbeec3b0c44635d4ee987fde87eb34feb16919278c17a745"
+    },
+    "png/512/animal-choir-landscape.png": {
+      "bytes": 132989,
+      "sha256": "148ed426d1bd46d0f546953670b0136c622f24f3f0f46cd002a5df9f4b7aefc7"
+    },
+    "png/512/animal-musicians-ensemble.png": {
+      "bytes": 582923,
+      "sha256": "afe21c347f0651990f723b85d6392860ed689d1717d3429d33803e147771d6c7"
+    },
+    "png/512/bird-wind-player.png": {
+      "bytes": 255051,
+      "sha256": "beca631b4bbc0f5223bf3dfd452aa9cc13c5c427ac324ad18db86999ee3a0645"
+    },
+    "png/512/boar-lute-player.png": {
+      "bytes": 219017,
+      "sha256": "03728e274fcee9343358f6883b39fde8963e8d3fb2efdace62af325e6b2540f7"
+    },
+    "png/512/bunny-harp.png": {
+      "bytes": 147374,
+      "sha256": "c3d7f87179a4164f163ad06cbd55903c97797a5d486e577bb69b3f28542a415c"
+    },
+    "png/512/bunny-trumpet.png": {
+      "bytes": 136714,
+      "sha256": "2c13712639a6f2794b89d0692f5cc2da1a6761dd571056d2a87116cdc2168106"
+    },
+    "png/512/canine-fiddle-player.png": {
+      "bytes": 174735,
+      "sha256": "458318cb13a9f505419e1667423e5774f81cd14da556e75c94344cac31f987b3"
+    },
+    "png/512/cat-reading-book.png": {
+      "bytes": 209681,
+      "sha256": "a16cfde4766b3392cc3d5589b4f0ab80c11d03807d1f0dde9da0e1b326fcebb3"
+    },
+    "png/512/creature-in-gold-shape.png": {
+      "bytes": 323759,
+      "sha256": "634d107c419a63f88613c4cef1f56361aa319ad8efe517f574fe6d0068e7f534"
+    },
+    "png/512/crowned-cat.png": {
+      "bytes": 209733,
+      "sha256": "96f850131be0c0dedc151aae104ce86c48c8c10ec3ccf5d63b2735f4619c7bda"
+    },
+    "png/512/curled-cat.png": {
+      "bytes": 259498,
+      "sha256": "241eb8b4556b0e2e91b953134215248f06662583f0e84b21fa27d6f0d3152a85"
+    },
+    "png/512/donkey-organist.png": {
+      "bytes": 414436,
+      "sha256": "6f11efcc6782387fcbd0fe385bff61f6884245e14aa09e3f6fa23270119f5341"
+    },
+    "png/512/donkey-rooster-lute-player.png": {
+      "bytes": 210236,
+      "sha256": "e6e6c200a13da8a136e98c077405781d2183de04f9b6541263b7453bd2f2038f"
+    },
+    "png/512/fish-with-arms.png": {
+      "bytes": 259247,
+      "sha256": "48f0236538de09383e06e46c2969dd55c0e33a61590ddf09ea23ff88bccf75ef"
+    },
+    "png/512/flying-pig.png": {
+      "bytes": 220065,
+      "sha256": "90f5e376a7a118d5b5c90294c0ab2f483ddd0e20622d39268722940da1c7316e"
+    },
+    "png/512/frog.png": {
+      "bytes": 187484,
+      "sha256": "66886be24f6caf74f65919354828737b041f97bfe4b1ffc314e3b5382c772ec6"
+    },
+    "png/512/funny-faced-lying-cat.png": {
+      "bytes": 327446,
+      "sha256": "3a80e196d443f29b1041d0189c5f82f21cfac771a905d41084b08209c137aae6"
+    },
+    "png/512/hooded-bagpiper.png": {
+      "bytes": 168098,
+      "sha256": "a8a3b7a3b563d29aaf5e1b0e5aa01841e093618c99e7c8c8cbd0016e5b700b3a"
+    },
+    "png/512/hooded-harp-player.png": {
+      "bytes": 215583,
+      "sha256": "201d7454ba4dd106b48b75d6d544f9d055feb8c1f4f8c4b0c00e3fa3ce26fcc4"
+    },
+    "png/512/lizard-lute-player.png": {
+      "bytes": 217787,
+      "sha256": "35e9dea4d0d292eabdeef7f6462628b87755cc8fe24c87d7346bda6d6e86cfd6"
+    },
+    "png/512/musician-r1-c1-organ-player.png": {
+      "bytes": 290436,
+      "sha256": "e35922a16f029c9bd71486b5781040b3784f646abb50201ad79fa7f3dffc363f"
+    },
+    "png/512/musician-r1-c2-shawm-player.png": {
+      "bytes": 202584,
+      "sha256": "f04cb3eb98e7c3849e5a56c2afcf3c1d520dfcabaf3a725588bfb2ed3345bb24"
+    },
+    "png/512/musician-r1-c3-horn-player.png": {
+      "bytes": 195440,
+      "sha256": "610a5c9b241091c3894bd0584421bfc7051734ae7914171088cbcb1121599432"
+    },
+    "png/512/musician-r1-c4-horn-player.png": {
+      "bytes": 235451,
+      "sha256": "75f21e2ef989cc9358c6205a32f4c971645e4ad39a4fc1b191160b7bea91f49a"
+    },
+    "png/512/musician-r2-c1-bagpiper.png": {
+      "bytes": 238132,
+      "sha256": "41877f87cff0e35fd02130dc0333249e6c0adc1a0691f4765340cac361c3af16"
+    },
+    "png/512/musician-r2-c2-bagpiper.png": {
+      "bytes": 178038,
+      "sha256": "429c048715fec501e5ae62c5aa627ce9400e7122cebc3a7e427cdafc39af26d4"
+    },
+    "png/512/musician-r2-c3-horn-player.png": {
+      "bytes": 195215,
+      "sha256": "36191cfd95406160a833ac386d1caf4512caefdb201953a606ee12ab50cff74b"
+    },
+    "png/512/musician-r2-c4-psaltery-player.png": {
+      "bytes": 278015,
+      "sha256": "7a229f057a8b0c4fc349624c5f74b87af2d38f2a2f0b9b0f8768636e2201212e"
+    },
+    "png/512/musician-r3-c1-bagpiper.png": {
+      "bytes": 218013,
+      "sha256": "39fb904d87c4205b45c9d3c5e5f747adf0d35ab7eccf9b40811599d5f4833bdd"
+    },
+    "png/512/musician-r3-c2-lute-player.png": {
+      "bytes": 187221,
+      "sha256": "856948cdc17f0ec2d69d1a73f99b1d90ad80f340e2f0c9701cbcf612bbced7ae"
+    },
+    "png/512/musician-r3-c3-lute-player.png": {
+      "bytes": 185333,
+      "sha256": "f2c2e8e126a21b2de9f9752956bc6028bfdffdada5a27ff67951e629c885ab75"
+    },
+    "png/512/musician-r3-c4-pipe-player.png": {
+      "bytes": 237954,
+      "sha256": "f562b50a2c9ba66a5d0a85f961b987368ef209992c61c3f4acab61994366f971"
+    },
+    "png/512/musicians-and-dancers.png": {
+      "bytes": 131561,
+      "sha256": "88b462921b48038508b1b65e40c207769b272eeee57a9c61f22f65d54192c9fb"
+    },
+    "png/512/rabbit-bagpiper.png": {
+      "bytes": 164423,
+      "sha256": "6aa8a68e59457a873facdd5e438cab9ee46063111bcdacb2b6e618574309ffb1"
+    },
+    "png/512/rabbit-reading-book.png": {
+      "bytes": 192958,
+      "sha256": "a1c91c9cfe7086ca18bd166eb2955f92090a2607d2fd76c2974b7d542b2c1f04"
+    },
+    "png/512/seated-rabbit.png": {
+      "bytes": 242108,
+      "sha256": "2d0b291781d5ccf20ce39b7624353934339eb5a8c1cb4eef0a5f813fcfd63e28"
+    },
+    "png/512/snail.png": {
+      "bytes": 166875,
+      "sha256": "fd64932bc04591d0b36440258e9b4f79f455a82d90ab328e1a6e83fafc40c5af"
+    },
+    "png/512/weird-dog.png": {
+      "bytes": 254971,
+      "sha256": "7ed4077ee6a8667dc5ee4cf411afac351f36a41c42e65bee498e5ff1ffa0fb3a"
+    },
+    "png/512/white-animal-bagpiper.png": {
+      "bytes": 317346,
+      "sha256": "17839dc772fa21eedfdeb0d41e7c089bd8eff4788f9fc94725885bddffd6d346"
+    },
+    "png/512/winged-rabbit.png": {
+      "bytes": 312737,
+      "sha256": "fb359a08c34d3a23ded7e55edf0fab722bfe449ba336101586f0bcfc10ce9fac"
+    },
+    "png/768/anafiles.png": {
+      "bytes": 555036,
+      "sha256": "f6b7e108addf084cb9bff9a09768d7416ceb577d568b0a1765496457916d046d"
+    },
+    "png/768/animal-choir-landscape.png": {
+      "bytes": 277809,
+      "sha256": "89f3b3f365d69a32bba0546ac0bbabb1646b9c23811724fcbbc552e60a3d3fef"
+    },
+    "png/768/bird-wind-player.png": {
+      "bytes": 542602,
+      "sha256": "79edf605e0952183c8d99a91b71956ec9bace8e387e1738e4f17a0e4f2d9bca0"
+    },
+    "png/768/boar-lute-player.png": {
+      "bytes": 468045,
+      "sha256": "24f70e7ea4ba1a7d8021e428981bda93b0beef3ce24d62b5fa0ca6fa61c72838"
+    },
+    "png/768/bunny-harp.png": {
+      "bytes": 305644,
+      "sha256": "ffa21c22d36031a7cddb7da9752165ad56eeebed9a31493f0cf2cae3ee1b3a6e"
+    },
+    "png/768/bunny-trumpet.png": {
+      "bytes": 290160,
+      "sha256": "07b470864159e7117de64d5264bd5bfcdd16c87d92dbbd688dd9be0ffb1b01f9"
+    },
+    "png/768/canine-fiddle-player.png": {
+      "bytes": 371359,
+      "sha256": "1560f32382dcbcf174154bdff83ecd65f48f4d6a52cc665f3981309a67abed4d"
+    },
+    "png/768/cat-reading-book.png": {
+      "bytes": 441781,
+      "sha256": "23be68192c65bd53cbd93f49f7b516295b28bd1d1325ed79c1e64bce696a44d4"
+    },
+    "png/768/crowned-cat.png": {
+      "bytes": 432838,
+      "sha256": "e601558eda3f3e89c0950fad7b2f967e72670585bd81146a86e154670461560e"
+    },
+    "png/768/curled-cat.png": {
+      "bytes": 556538,
+      "sha256": "6911836b1c37bd4b2891d5f77bba753d171edc55a8f7bdedd9a7d0276abfe7ea"
+    },
+    "png/768/donkey-organist.png": {
+      "bytes": 929580,
+      "sha256": "bb1b7e73b86fffb82f65d5571312ee0fbbdb9d696a8f16fe86328612a046d6c6"
+    },
+    "png/768/donkey-rooster-lute-player.png": {
+      "bytes": 441938,
+      "sha256": "d37ba11bb91b8e5e2c6d53b4b38f3778508eb2d500fbeeff36e8df7518f1c223"
+    },
+    "png/768/fish-with-arms.png": {
+      "bytes": 555302,
+      "sha256": "276abf4d9215ba23c05c8d0d879dac628bf7446de0db457af7ef3ccb3b13aed6"
+    },
+    "png/768/flying-pig.png": {
+      "bytes": 469117,
+      "sha256": "274647f45e7bd1bbef289a5f05c89d108a57b56a4cf9b372de92bbd807754d0e"
+    },
+    "png/768/frog.png": {
+      "bytes": 412222,
+      "sha256": "6d43091fedf10233c6aacb24e10a13b0f4a7a0560049d5f4e6867e3bcc84a3f2"
+    },
+    "png/768/funny-faced-lying-cat.png": {
+      "bytes": 717954,
+      "sha256": "471e8285b447b2beecf7a62b145d64d3151fbb03c6669d20bda003cf6a4771cc"
+    },
+    "png/768/hooded-bagpiper.png": {
+      "bytes": 355909,
+      "sha256": "1d7c38bc9718da7e745dbf1419a192efdce6180d350663ad4302bcbc9fd92f8e"
+    },
+    "png/768/hooded-harp-player.png": {
+      "bytes": 456768,
+      "sha256": "280e8f4eea7478928ba38f5b08aba0f6e4b9851edcc0c37e1e9704d834eaecee"
+    },
+    "png/768/lizard-lute-player.png": {
+      "bytes": 468163,
+      "sha256": "b031cf9ecf4b3fe70cccc7e65adb5078a36407c9120c76cdc084480b31b9bb23"
+    },
+    "png/768/musician-r1-c1-organ-player.png": {
+      "bytes": 635329,
+      "sha256": "e5dd6ea28de19d257085672d33aeeee7dc364db5150e3177f5c8353d8c145524"
+    },
+    "png/768/musician-r1-c2-shawm-player.png": {
+      "bytes": 438924,
+      "sha256": "5c7bae072305ba12353ebaae7e5449bce77ca0beed1c71c23d9082d12c8e2ac3"
+    },
+    "png/768/musician-r1-c3-horn-player.png": {
+      "bytes": 421135,
+      "sha256": "18b1475f143369e596ea044bbe6f944f5543d2c4a5dab70edc69c355b22805de"
+    },
+    "png/768/musician-r1-c4-horn-player.png": {
+      "bytes": 509709,
+      "sha256": "9f859f0e716cb6d3663486fdfd050c334c39161442016fb8efa59797be3fe4a5"
+    },
+    "png/768/musician-r2-c1-bagpiper.png": {
+      "bytes": 514454,
+      "sha256": "17e40636ed2a19038e98f07a3bba09cd0310344375cc7d30996a86680dd8299e"
+    },
+    "png/768/musician-r2-c2-bagpiper.png": {
+      "bytes": 384989,
+      "sha256": "c075ae078c9eb83ee96fc488a99883447efcf1b33e8163d99c3531956824d7b3"
+    },
+    "png/768/musician-r2-c3-horn-player.png": {
+      "bytes": 420511,
+      "sha256": "dacd08a8f829527a4c4c6cec4a7159163f2ea714aca8cc29d68393558e39faf0"
+    },
+    "png/768/musician-r2-c4-psaltery-player.png": {
+      "bytes": 604120,
+      "sha256": "b08aca4cd8c5aa8278be409105714b4cf4c2a578354719eb3b69335d5b397301"
+    },
+    "png/768/musician-r3-c1-bagpiper.png": {
+      "bytes": 465403,
+      "sha256": "184a9f4db376712f174c7eb226169b2652ce65fe104b8951c5ac0736842c5261"
+    },
+    "png/768/musician-r3-c2-lute-player.png": {
+      "bytes": 407700,
+      "sha256": "864ececb8fcd2c92cf07a9b98dab983afd4ec9584562a7f095a8aca265ba2db0"
+    },
+    "png/768/musician-r3-c3-lute-player.png": {
+      "bytes": 404423,
+      "sha256": "2979e60fa5c127f41dddd3aa1d650aecbd65f7d97a565208ad29a9c6a3283c7d"
+    },
+    "png/768/musician-r3-c4-pipe-player.png": {
+      "bytes": 518578,
+      "sha256": "b5dde21339a3dedb9828787a014cfccc8110f69bf673ec85895f6b36310e85fa"
+    },
+    "png/768/musicians-and-dancers.png": {
+      "bytes": 266116,
+      "sha256": "c3efdfd8664e39869fb0cfab95f6e7bcc3845dec8ebafc74d6cabcdd0f59c5b1"
+    },
+    "png/768/rabbit-bagpiper.png": {
+      "bytes": 346333,
+      "sha256": "e7a478fb167c6eb845cb29a323377fcb4c9d947886691b6a8ff946fa63e2c0c5"
+    },
+    "png/768/rabbit-reading-book.png": {
+      "bytes": 407060,
+      "sha256": "68785897bb47a47c26e41fccce44f13af2e6c5b2f17576a3b1979682bfd59447"
+    },
+    "png/768/seated-rabbit.png": {
+      "bytes": 509144,
+      "sha256": "8e4cf32323351402a60dbe4ebf135de38a2ef9a61349a09505673fc26abe37ab"
+    },
+    "png/768/snail.png": {
+      "bytes": 365741,
+      "sha256": "a659ae9699fa60347f7f0c435fb2a3a66729204042350ad3a3ea8cd99729a871"
+    },
+    "png/768/weird-dog.png": {
+      "bytes": 545158,
+      "sha256": "2f7f7841abb061cb4cf117027d778bce472c527bf772ae51082b77b0c7c9d0ef"
+    },
+    "png/768/white-animal-bagpiper.png": {
+      "bytes": 688674,
+      "sha256": "10b31aa2ec9bfde1344ed82506407ba800640cef7c931fea0de4e66c2617e447"
+    },
+    "png/768/winged-rabbit.png": {
+      "bytes": 670929,
+      "sha256": "38c241659162fdeaf6e8553d4ffd1704ba629f2b8d722fee4340885ac5ed16e3"
+    },
+    "png/anafiles.png": {
+      "bytes": 1017132,
+      "sha256": "0aa0bebde73fd69be3b56bfda059448967a76b99629ff62204fce85d4d8d2277"
+    },
+    "png/animal-choir-landscape.png": {
+      "bytes": 1774790,
+      "sha256": "a2180e1d7f75d4fab301b2fc5e325a4013f68d70b21262c9c6b62206f61868d9"
+    },
+    "png/animal-musicians-ensemble.png": {
+      "bytes": 1345152,
+      "sha256": "17a43df4cd1042021e0add2628ac222363ba982b6d744fbd309e61a83203f31a"
+    },
+    "png/bird-wind-player.png": {
+      "bytes": 1425509,
+      "sha256": "6b1c395734cae59c20f0186fee274777942e841ed05b76319a41423de12b35cb"
+    },
+    "png/boar-lute-player.png": {
+      "bytes": 1288066,
+      "sha256": "608266643f18e3f0b292152b8f23b092deccc73616ad316d51a6737b79097ea4"
+    },
+    "png/bunny-harp.png": {
+      "bytes": 1073840,
+      "sha256": "d30553977eaf4328680d6dde9e2f700aa3e4cd2dba5c415c91447cacfc39dea4"
+    },
+    "png/bunny-trumpet.png": {
+      "bytes": 1822297,
+      "sha256": "c847d255d29b2391d88d4c11e8be59e834c6e5713472d0fb09816b54ee8685d2"
+    },
+    "png/canine-fiddle-player.png": {
+      "bytes": 1035264,
+      "sha256": "5a95c8cd87cd164d1fabc52a09894d5bddf5a9093c42c90f26280095376aec94"
+    },
+    "png/cat-reading-book.png": {
+      "bytes": 1080180,
+      "sha256": "18df64ebbf356fd5635f9ecac5ca8ab08d6b4bbd6130415ff0a7d435f67eae93"
+    },
+    "png/creature-in-gold-shape.png": {
+      "bytes": 500651,
+      "sha256": "e91b3348f796eef7fd4a91216547716182b32e6c475d8db6851958fdbdc9df4d"
+    },
+    "png/crowned-cat.png": {
+      "bytes": 1301078,
+      "sha256": "6492a052d801dc84757540bd4c15e5550a91575125945550ac3ab143e3834c64"
+    },
+    "png/curled-cat.png": {
+      "bytes": 1708149,
+      "sha256": "b3693187d40b84726a1377f5484c615cc691e3dae615e15112deff4318d0b4b8"
+    },
+    "png/donkey-organist.png": {
+      "bytes": 2544851,
+      "sha256": "8064bc3b5d66c20a2c93b32d76f52b915ad3955dc2050d77dac8809d5fdd036b"
+    },
+    "png/donkey-rooster-lute-player.png": {
+      "bytes": 1318222,
+      "sha256": "dacfdb96b2b2824e28c5079d78f2e6bb853721b140d3d7ad740445f645184957"
+    },
+    "png/fish-with-arms.png": {
+      "bytes": 1517617,
+      "sha256": "85fee93d2811a52c5c995afca77d98db8455987cdf7923b9ab2ed3fe44da2192"
+    },
+    "png/flying-pig.png": {
+      "bytes": 1181614,
+      "sha256": "c0267cf0544f269558ee4404838915f187943e1d7b2d5b8b753e35c779313349"
+    },
+    "png/frog.png": {
+      "bytes": 1958415,
+      "sha256": "ead324f45d240c80435d03f568fe594fa451887c9e6889c19d9c908c4283ffac"
+    },
+    "png/funny-faced-lying-cat.png": {
+      "bytes": 2304520,
+      "sha256": "64100ba2474474c23ab1be2d9933233670a032963dd3425b1c0d5c38af9def70"
+    },
+    "png/hooded-bagpiper.png": {
+      "bytes": 1400786,
+      "sha256": "f91b9ac95b6cd4301fbc1b080450d32b89683df88dd2171293bebc4e58d9001a"
+    },
+    "png/hooded-harp-player.png": {
+      "bytes": 1451182,
+      "sha256": "f3e64799866e3ed346f20d91868e5d53b02608c5d6efced8d609258a70d31c5a"
+    },
+    "png/lizard-lute-player.png": {
+      "bytes": 2440506,
+      "sha256": "08c41d984956793514c477e13046a3f5bf0dfee8d905fa5142af106a0ba00829"
+    },
+    "png/musician-r1-c1-organ-player.png": {
+      "bytes": 1906271,
+      "sha256": "bbd71e76127ebb7cf6443a8b89c7b301eab64132e626e3ddc13d67f6809a13a8"
+    },
+    "png/musician-r1-c2-shawm-player.png": {
+      "bytes": 1317650,
+      "sha256": "60e78a19842be899ccea269ed0fdd7660ad88b532edc0c7faa20da43d97468d7"
+    },
+    "png/musician-r1-c3-horn-player.png": {
+      "bytes": 1239573,
+      "sha256": "c63ae791611a6157da9c2263f4efa9899818e8de0105ff3f899e87669b3ebaa5"
+    },
+    "png/musician-r1-c4-horn-player.png": {
+      "bytes": 1503003,
+      "sha256": "9b3d1dc03ed50820e9f4ac490907ce0b8fc6124861921bbd1681d1fec4bfe701"
+    },
+    "png/musician-r2-c1-bagpiper.png": {
+      "bytes": 1530800,
+      "sha256": "d50be96fead595bb682db1823ee1a42cfb145f41b14480ed42b85168ac9ea364"
+    },
+    "png/musician-r2-c2-bagpiper.png": {
+      "bytes": 2153820,
+      "sha256": "806d83cb8362e5be2b11a8e42faac2d21669843a8b72562d64df345ecd61650e"
+    },
+    "png/musician-r2-c3-horn-player.png": {
+      "bytes": 1238002,
+      "sha256": "0d561ad010e57ad587b697af72e6220d8919d45218beef4a0590209d912e0525"
+    },
+    "png/musician-r2-c4-psaltery-player.png": {
+      "bytes": 1770931,
+      "sha256": "4cec963cefeb05ff3419271805e2606da1666e14a03de2feab10d1db3c66eeb4"
+    },
+    "png/musician-r3-c1-bagpiper.png": {
+      "bytes": 1342137,
+      "sha256": "7ea743c1137462c1377074eb1b590d07f081a5db9c85e1f814490226f10da5fc"
+    },
+    "png/musician-r3-c2-lute-player.png": {
+      "bytes": 2241450,
+      "sha256": "8f1fb2930a9c6dc63d3d37516a87f121ce30eeef89b07473afb3938e6a2b763a"
+    },
+    "png/musician-r3-c3-lute-player.png": {
+      "bytes": 2304829,
+      "sha256": "e69acf6c6a065dfd8c142b73d986abf306fd567337c44d36b922e05fa4a456fb"
+    },
+    "png/musician-r3-c4-pipe-player.png": {
+      "bytes": 1553556,
+      "sha256": "1e682433b0de9beb0ba9c77c705c6b81fee63dc34ee68313ddc257d1f31f8a42"
+    },
+    "png/musicians-and-dancers.png": {
+      "bytes": 1514006,
+      "sha256": "9320bf713793f3cb4a72e68c88b3ee62faa024ca531f398f691cc9a1c68d80d4"
+    },
+    "png/rabbit-bagpiper.png": {
+      "bytes": 1161779,
+      "sha256": "c80f34cff6756c6c2f7f048daf51b190a3d541904118eb16a09e7e782c110fe8"
+    },
+    "png/rabbit-reading-book.png": {
+      "bytes": 1407667,
+      "sha256": "159ba6b87ef1e05597013f44006f205438b45667a88f49fbced52ec6d3300c02"
+    },
+    "png/seated-rabbit.png": {
+      "bytes": 1338423,
+      "sha256": "8d4cbf3f62b2d4aab3ec85ab1f094edb39cb8fc76818df77129c7a2fc9d447b4"
+    },
+    "png/snail.png": {
+      "bytes": 1749563,
+      "sha256": "f1a129787f3ca4d6a93c37f4996aeea9081ebc5d2266871fd74c33bbc364a3fb"
+    },
+    "png/weird-dog.png": {
+      "bytes": 1617782,
+      "sha256": "ae3b2a78773cb2eb86c478563081599621c8d17cb507d097eb55610ac10a3ea6"
+    },
+    "png/white-animal-bagpiper.png": {
+      "bytes": 1810946,
+      "sha256": "d7352d80391494272dc79cf72ca6804d9dcd42cee7828b8d81f8fed37ba2bb51"
+    },
+    "png/winged-rabbit.png": {
+      "bytes": 1901648,
+      "sha256": "fbccc5e86d1bf5bc89c14e4397decfcf6481f572fa27e10d5cccdf2ad3dd4140"
+    },
+    "webp/128/anafiles.webp": {
+      "bytes": 16726,
+      "sha256": "f138c13017fb5cf79cef7128db3b21686e58861a4d3bbd5e1e2441a639333e4f"
+    },
+    "webp/128/animal-choir-landscape.webp": {
+      "bytes": 9390,
+      "sha256": "f614aa8f32ae312181610382c8a1d0205e6f013aa7e62951ef514f98bda24984"
+    },
+    "webp/128/animal-musicians-ensemble.webp": {
+      "bytes": 28024,
+      "sha256": "43dd4c5df99c9ebf8d90d03d403d1d374a41e0bef6c21eeabb08697beffac349"
+    },
+    "webp/128/bird-wind-player.webp": {
+      "bytes": 17002,
+      "sha256": "e354fc795118314f68e64f0a7f75b976d521d3da68604e03010683246dee1034"
+    },
+    "webp/128/boar-lute-player.webp": {
+      "bytes": 13210,
+      "sha256": "ebdd08f461c57d74951c37b24cf96181ebb2c9a4948ddfb11f068dded605d1c0"
+    },
+    "webp/128/bunny-harp.webp": {
+      "bytes": 9950,
+      "sha256": "99913c0211a697c2da2f4d690ea7209a29aac0d1fd0da3c0b77256c331f120ae"
+    },
+    "webp/128/bunny-trumpet.webp": {
+      "bytes": 8836,
+      "sha256": "c0771dfd16351a75ba4cecad1a81eba88f1861b3881330c464e3ea73054c46b4"
+    },
+    "webp/128/canine-fiddle-player.webp": {
+      "bytes": 12370,
+      "sha256": "d749e554300173b5148f2731f0eec9fb55a0cd38b574e6371dec9ec919ee16ac"
+    },
+    "webp/128/cat-reading-book.webp": {
+      "bytes": 13468,
+      "sha256": "3426d218d8a87229ba9b11a61ae0ce4314ee2efd42845d838901496a289b4b7b"
+    },
+    "webp/128/creature-in-gold-shape.webp": {
+      "bytes": 18036,
+      "sha256": "1a70968ec6c26f3c7850fd989ac36b1618800d33196503f04c0f568af9b9b513"
+    },
+    "webp/128/crowned-cat.webp": {
+      "bytes": 12830,
+      "sha256": "22522616591b8b27726e25ec613963ef612d000b36416e9a231836a6f934eabc"
+    },
+    "webp/128/curled-cat.webp": {
+      "bytes": 15410,
+      "sha256": "7c1062cb1ec13e13c01693d7807500ff1afd9d126e0eb1cdde91a0ec4a8a92e1"
+    },
+    "webp/128/donkey-organist.webp": {
+      "bytes": 25122,
+      "sha256": "086b9901e854f175b3232976201cf47a56f7b622daad91c8d57a1b7654c16fd5"
+    },
+    "webp/128/donkey-rooster-lute-player.webp": {
+      "bytes": 14850,
+      "sha256": "97f3e00351e01001ae487574793b2d8c048b85b7abbe27d4309d5c1e58b8ca37"
+    },
+    "webp/128/fish-with-arms.webp": {
+      "bytes": 15190,
+      "sha256": "c7c6a583bf11130a3ee74d1c6a8d82b74a6ba53c2de7bb565b60dadb964d68cc"
+    },
+    "webp/128/flying-pig.webp": {
+      "bytes": 14564,
+      "sha256": "37497ea764e1c4aaeb8b001b9ee55261bab5d48c9db7d83e5398825512a777b0"
+    },
+    "webp/128/frog.webp": {
+      "bytes": 10946,
+      "sha256": "5f2df09cabe2356a1e051fb5e5d47dc7577296228387d11cf3d272feef3d656b"
+    },
+    "webp/128/funny-faced-lying-cat.webp": {
+      "bytes": 17006,
+      "sha256": "137b47602e9ae416c575eda71200cd58a5aceb944d2bfc621286467cb0d78af2"
+    },
+    "webp/128/hooded-bagpiper.webp": {
+      "bytes": 11918,
+      "sha256": "894ece1d66d0815f472c27eaa574e8919af2449caf2796fb47ed2c761bae4505"
+    },
+    "webp/128/hooded-harp-player.webp": {
+      "bytes": 14486,
+      "sha256": "1065cdb88b2eb2a365aceb880a3306fcf48f544a685ba3e889ebea4d61026ee3"
+    },
+    "webp/128/lizard-lute-player.webp": {
+      "bytes": 15386,
+      "sha256": "8ac6a611cfbe0d9e87f3ac2c610ff583891d6b569cc37b221b85ac46a14558b1"
+    },
+    "webp/128/musician-r1-c1-organ-player.webp": {
+      "bytes": 18490,
+      "sha256": "e965e70ad06483cd2ce6407a5fe8718e6eccdd8a5e1c5dde3af9f6133844a4df"
+    },
+    "webp/128/musician-r1-c2-shawm-player.webp": {
+      "bytes": 12304,
+      "sha256": "0a7eadaf43c994ffb33af8cdc690b55201d7201b1cac13718046df590a5a21da"
+    },
+    "webp/128/musician-r1-c3-horn-player.webp": {
+      "bytes": 13440,
+      "sha256": "02684f84dc7c5c6ea8856f76871205d88bf570fe35645d75f22bd8004f40ae12"
+    },
+    "webp/128/musician-r1-c4-horn-player.webp": {
+      "bytes": 16320,
+      "sha256": "7e930e9185ffadef5d88a8922c6a84833ad9e53832de7ed30b807754b292091d"
+    },
+    "webp/128/musician-r2-c1-bagpiper.webp": {
+      "bytes": 14662,
+      "sha256": "acd9fc24593f1209eb846542e3e1fa17d5086e073d0191214da3479f570a273e"
+    },
+    "webp/128/musician-r2-c2-bagpiper.webp": {
+      "bytes": 10968,
+      "sha256": "a599d02ac93eea318d4cf146453b30d643f07e20d3831659a9aff950f157c932"
+    },
+    "webp/128/musician-r2-c3-horn-player.webp": {
+      "bytes": 12346,
+      "sha256": "5ae2210a77a77f0a19d5dcdecbe2ec5696c888bcba4a3bfb23d0aea147cb31a0"
+    },
+    "webp/128/musician-r2-c4-psaltery-player.webp": {
+      "bytes": 14616,
+      "sha256": "75a9a0fc84fa381864f0ec700273e690f494f41d0dbcdc4bc3d4bf2042572b16"
+    },
+    "webp/128/musician-r3-c1-bagpiper.webp": {
+      "bytes": 13952,
+      "sha256": "bd50da5bbb72e1ebc4c9c34f9391256aeb92e5931aa181dee30e1c8c108e7e6c"
+    },
+    "webp/128/musician-r3-c2-lute-player.webp": {
+      "bytes": 11504,
+      "sha256": "1d801d593aa55b3aa8c0647f7e393e976fc6fa1f90bd4f8bc242a6e0c145c731"
+    },
+    "webp/128/musician-r3-c3-lute-player.webp": {
+      "bytes": 11874,
+      "sha256": "d7d0425a313b3d6968f37b850bbc9bd9fb2b218ec6c0bf0724d038b68bcbd552"
+    },
+    "webp/128/musician-r3-c4-pipe-player.webp": {
+      "bytes": 16088,
+      "sha256": "38339690d69f440dfee16650eb67b51c9d823b996dbe6890adc5340c1e5d6b7b"
+    },
+    "webp/128/musicians-and-dancers.webp": {
+      "bytes": 11268,
+      "sha256": "d89e7972f45dae6e3d32246b761f322f89707417c943cb027facbe51bd002740"
+    },
+    "webp/128/rabbit-bagpiper.webp": {
+      "bytes": 10926,
+      "sha256": "39a74b396c1191189b9a26f5bf04bd63666d1dd80258c4d5fe25d5af62ce60be"
+    },
+    "webp/128/rabbit-reading-book.webp": {
+      "bytes": 13080,
+      "sha256": "7c2aaf9db5a97a34533bad88bc8a85a3377b0ad9e1a65453e7771261a95c989f"
+    },
+    "webp/128/seated-rabbit.webp": {
+      "bytes": 14410,
+      "sha256": "138ec3babc839c9e30f1410e2a26513234891dd0709e89b7bfd0fa225d7dab88"
+    },
+    "webp/128/snail.webp": {
+      "bytes": 9090,
+      "sha256": "a5b8f8771e6de59fcf2278498a1882983076299d7117b008919ad88f6f447812"
+    },
+    "webp/128/weird-dog.webp": {
+      "bytes": 14374,
+      "sha256": "52ff0fc490ec59d86bcb0448af53606bb26aa7794d9849e044fbdfa2a5b7f4fc"
+    },
+    "webp/128/white-animal-bagpiper.webp": {
+      "bytes": 18758,
+      "sha256": "98be1776e160ced9002f72b46be5df9aa9e05cae2b3cbc0bef7cbc1c21e60f23"
+    },
+    "webp/128/winged-rabbit.webp": {
+      "bytes": 17320,
+      "sha256": "7fc524131cf08c7e4569f8f281c01d2fc0fbb3c65130630bb7806340b67b9e3d"
+    },
+    "webp/256/anafiles.webp": {
+      "bytes": 54294,
+      "sha256": "7b81266a5d53aae2df571ba39c5053b3469d76bccda75f69986dd9798ba0970e"
+    },
+    "webp/256/animal-choir-landscape.webp": {
+      "bytes": 29718,
+      "sha256": "4f9a44d44ed332cbd9bfa76eda3218e5e107d9dc018dd2ef9163c980d4516cde"
+    },
+    "webp/256/animal-musicians-ensemble.webp": {
+      "bytes": 103056,
+      "sha256": "7cc2e83bd27784d457b33d59a57262370f96558dce10557552e84a30f08cbdd8"
+    },
+    "webp/256/bird-wind-player.webp": {
+      "bytes": 57298,
+      "sha256": "5fcb78d725bde4e4b7d12f78a5d8344863f1738fa67c0e2ade1ba86a5470bed7"
+    },
+    "webp/256/boar-lute-player.webp": {
+      "bytes": 44724,
+      "sha256": "4f523bc5726fa7e167f36ca570e9cfe9966254e1b1e11929c2045a135a348239"
+    },
+    "webp/256/bunny-harp.webp": {
+      "bytes": 34116,
+      "sha256": "e1e83b37046c988d8f3897735f45fe41b0ed0449e3c369f10d88de2afc1750b3"
+    },
+    "webp/256/bunny-trumpet.webp": {
+      "bytes": 26382,
+      "sha256": "d215039fb6c8cd023f11e2c8ceb8705c948114f69f12b534ae90f4a377dc165a"
+    },
+    "webp/256/canine-fiddle-player.webp": {
+      "bytes": 36072,
+      "sha256": "9b7a6fbfbff8fe6b548d73a77872aa8327c36097830afdb580524447471f6698"
+    },
+    "webp/256/cat-reading-book.webp": {
+      "bytes": 41928,
+      "sha256": "fd6f0cef753128baa5948cb9e746fd3c15b167aa9859b1fc73f17ad0366f7e1d"
+    },
+    "webp/256/creature-in-gold-shape.webp": {
+      "bytes": 62038,
+      "sha256": "f424460acc86fb2fa37f3314f20743fe1adc19e0a4ab29c80bf31b5f748698c8"
+    },
+    "webp/256/crowned-cat.webp": {
+      "bytes": 41460,
+      "sha256": "832e52e4ac5e23a714abc6fb47365a430d8c92ba6db0caaa3f7eaca3409addba"
+    },
+    "webp/256/curled-cat.webp": {
+      "bytes": 49680,
+      "sha256": "a028b4a023363719f9e70558685f128d7e15207bd9e3ffd32b01a9ab912dbb0a"
+    },
+    "webp/256/donkey-organist.webp": {
+      "bytes": 75918,
+      "sha256": "b06a52d804edf5945dc65b5d1d147468b7103f1a978af1899b8db284a408e622"
+    },
+    "webp/256/donkey-rooster-lute-player.webp": {
+      "bytes": 46886,
+      "sha256": "db542ce9ec585cc425ffdc9a14723515ac15b75c0889dfbeedf2aeb6059f71ab"
+    },
+    "webp/256/fish-with-arms.webp": {
+      "bytes": 51356,
+      "sha256": "65832d5c467efb4a7ea9f3ec1611a30652aac4f5cd8af1213ed6385876826c6a"
+    },
+    "webp/256/flying-pig.webp": {
+      "bytes": 45056,
+      "sha256": "96045e4294813bdc3c202f72f7a3d1d8325057512d53998360270458f643343f"
+    },
+    "webp/256/frog.webp": {
+      "bytes": 37264,
+      "sha256": "7502f7c8f394207170adb8bfbe1c56c39f7f91c99c5947f73803de17ba1879c4"
+    },
+    "webp/256/funny-faced-lying-cat.webp": {
+      "bytes": 59650,
+      "sha256": "aa3d1f96a50064016907678ac578e0684bb613e557f876aa66c166f23827d892"
+    },
+    "webp/256/hooded-bagpiper.webp": {
+      "bytes": 36458,
+      "sha256": "08ab3c62a4fff551028971bdbc686a01a07c2b71ba5df14eb47c8e081693d85a"
+    },
+    "webp/256/hooded-harp-player.webp": {
+      "bytes": 44982,
+      "sha256": "70ed0ab59817815c01caf7dbb2f743dbc13287f92c1a01c8d40e02487a659c27"
+    },
+    "webp/256/lizard-lute-player.webp": {
+      "bytes": 48838,
+      "sha256": "380a3e71b0aaeead63cc254f2f76ecf4612d5eb25488eebfa655531a93a376d9"
+    },
+    "webp/256/musician-r1-c1-organ-player.webp": {
+      "bytes": 56254,
+      "sha256": "c784128f11dc9ddb3e8c80621deb2d9e69eb22fe3800db7625db95a61e437f78"
+    },
+    "webp/256/musician-r1-c2-shawm-player.webp": {
+      "bytes": 40206,
+      "sha256": "0fb891a4798d1f2809dce5be96f412417710c809cb69a3bccc9d5cb3b3054009"
+    },
+    "webp/256/musician-r1-c3-horn-player.webp": {
+      "bytes": 39494,
+      "sha256": "5d6cf5a49708ae784340767810f784b00b4424ca5f2d1cc3f93db40740c8982a"
+    },
+    "webp/256/musician-r1-c4-horn-player.webp": {
+      "bytes": 48286,
+      "sha256": "ddc3282f15aa0f7dabd606da3ea1ef0fbbf5d77183dd000820b49f778caff5db"
+    },
+    "webp/256/musician-r2-c1-bagpiper.webp": {
+      "bytes": 47986,
+      "sha256": "5fecc15e617e9708569937b1047593be88163a525b2b5d62524f29dcf5858f77"
+    },
+    "webp/256/musician-r2-c2-bagpiper.webp": {
+      "bytes": 35926,
+      "sha256": "bc3d5d72137c05f06add7fc764bb3e5717373cc1c3d3d275764a47d05cf2773e"
+    },
+    "webp/256/musician-r2-c3-horn-player.webp": {
+      "bytes": 38866,
+      "sha256": "f60f11d0a564b1c9d79908e79c4a6b9e4fef95535579505c1ae6411fe081c1da"
+    },
+    "webp/256/musician-r2-c4-psaltery-player.webp": {
+      "bytes": 49570,
+      "sha256": "75a3f1bf4fb1c27b7aa8e2f49dc87a3575c7170620aa7523951d6989a9934843"
+    },
+    "webp/256/musician-r3-c1-bagpiper.webp": {
+      "bytes": 45092,
+      "sha256": "043286cbdff7c7fdd507bd9d946da7c9e9198c8c041240f46067539842836661"
+    },
+    "webp/256/musician-r3-c2-lute-player.webp": {
+      "bytes": 36898,
+      "sha256": "66de5da434fc19b7587b72722d25cb546335d48d9b48e53d1029bc8d1c9213e5"
+    },
+    "webp/256/musician-r3-c3-lute-player.webp": {
+      "bytes": 37744,
+      "sha256": "be71bc9ca992afb2c608fc606ffd013cb142b88c2d0b9c989811befa4842a83e"
+    },
+    "webp/256/musician-r3-c4-pipe-player.webp": {
+      "bytes": 48170,
+      "sha256": "70bbfa0f8d43cce8018232df995a2012372681e3f770b879b3faa8613bd87cd4"
+    },
+    "webp/256/musicians-and-dancers.webp": {
+      "bytes": 35068,
+      "sha256": "10a5f8a74fd51740b44a24b477091496591fbd085b9d24667e20a576a1fd4df3"
+    },
+    "webp/256/rabbit-bagpiper.webp": {
+      "bytes": 34458,
+      "sha256": "a8565e9f1eacc94474b0fb9d9030d0c799ee7f9cebab2aa046f78cc907dca0f6"
+    },
+    "webp/256/rabbit-reading-book.webp": {
+      "bytes": 38766,
+      "sha256": "93109d025db6ec26ba8299444b3f61630cf9e9b1e3d600d3e15e76535965d2e1"
+    },
+    "webp/256/seated-rabbit.webp": {
+      "bytes": 46850,
+      "sha256": "0844cce4423839065584de3e6dc38e6a2b9af659a998ffd02278fb5f86b57b5c"
+    },
+    "webp/256/snail.webp": {
+      "bytes": 30716,
+      "sha256": "88a07a4a98cc39d5ed9716c786bb922664202f8d4c75ceb202aea07a6ec1775e"
+    },
+    "webp/256/weird-dog.webp": {
+      "bytes": 48370,
+      "sha256": "4adddfedb186a844fb421f87155483a071ce657ba1bf1e623bbcf9fb654bdb22"
+    },
+    "webp/256/white-animal-bagpiper.webp": {
+      "bytes": 59632,
+      "sha256": "7de9399645110de5b307bd94e0a6461109a75ea8a543946f5fbe654832218f7f"
+    },
+    "webp/256/winged-rabbit.webp": {
+      "bytes": 58864,
+      "sha256": "f280e746a83156969b2ee72996fbf78dff32baddea69803c0b18ed0dc64823bc"
+    },
+    "webp/512/anafiles.webp": {
+      "bytes": 181950,
+      "sha256": "0182d78bfb829b1ec80ec1d5e1fd5e9bae4d0735aa5a7904a14a6d31892b6006"
+    },
+    "webp/512/animal-choir-landscape.webp": {
+      "bytes": 96764,
+      "sha256": "066757e635cc73886eab1582f5d1c904f5fc1d7d3fc681501841b473abd24f01"
+    },
+    "webp/512/animal-musicians-ensemble.webp": {
+      "bytes": 357460,
+      "sha256": "250d7cd90998df14445026eadd651dabc72e4f950e14c9b08d4b801a3729cd81"
+    },
+    "webp/512/bird-wind-player.webp": {
+      "bytes": 197970,
+      "sha256": "b2c870f6db27c9324b606d7fb84855c8c87877443ddc77b9c7923bdb8f3f0e01"
+    },
+    "webp/512/boar-lute-player.webp": {
+      "bytes": 157878,
+      "sha256": "fae48aa0b129359e445bda23afcc4ed2d8c3e5f9b52c71ba352ac943ad7cb7c0"
+    },
+    "webp/512/bunny-harp.webp": {
+      "bytes": 106048,
+      "sha256": "d33d5c182aee2b0ae2316c5dccbc03ae78108ca5db629b092a04bc85a8c21a03"
+    },
+    "webp/512/bunny-trumpet.webp": {
+      "bytes": 90196,
+      "sha256": "165d13d38b22e6f80dde1370e5071ba79ffa49441fb0e6cb7a1328134b5b5f3a"
+    },
+    "webp/512/canine-fiddle-player.webp": {
+      "bytes": 123060,
+      "sha256": "c84a982e0722edcb4dbe54a712a41bc547d983acad59975e9eed5c5ec61280ef"
+    },
+    "webp/512/cat-reading-book.webp": {
+      "bytes": 142398,
+      "sha256": "739d10baffa19fdcac7d3e816c5cbc29c5c07bf6a6f94b82ce103e43461a0694"
+    },
+    "webp/512/creature-in-gold-shape.webp": {
+      "bytes": 227132,
+      "sha256": "2ef6fa449942a848aa619709a7d5fa6f9b4d572bd25918c9aa5de73077de92d1"
+    },
+    "webp/512/crowned-cat.webp": {
+      "bytes": 138966,
+      "sha256": "495b9821060eab268cc46917fbf2f7c7ea80a955b0e5d2a5942744d28c345bce"
+    },
+    "webp/512/curled-cat.webp": {
+      "bytes": 180280,
+      "sha256": "4735e17b7b7debae74b6577d04280ff857c5bdabb0e30480e72046a2e29cae56"
+    },
+    "webp/512/donkey-organist.webp": {
+      "bytes": 287034,
+      "sha256": "78665d28184f2d50ba8b7c3910b044cf877fead4479cae256e17abe1ebca1085"
+    },
+    "webp/512/donkey-rooster-lute-player.webp": {
+      "bytes": 159372,
+      "sha256": "f466ff5d1dcc8d2c50dbf8549323ae7788637e54e30e4e808d6cdaffb4e51e4d"
+    },
+    "webp/512/fish-with-arms.webp": {
+      "bytes": 182658,
+      "sha256": "63e832d086dca82fce65f694dd399d1544fed6b3fc8b326e292ca2615136e61b"
+    },
+    "webp/512/flying-pig.webp": {
+      "bytes": 157448,
+      "sha256": "72d8bd3319519bcbb8f9e0e7d805fa58929faf82b7affdf3998a2491772e600d"
+    },
+    "webp/512/frog.webp": {
+      "bytes": 132828,
+      "sha256": "4bf18e3303fbddb18f56212fe16dd9d37ff0cb859458b0f4b13dbea4c862d1b2"
+    },
+    "webp/512/funny-faced-lying-cat.webp": {
+      "bytes": 222424,
+      "sha256": "d05038996f06bde046338aab2c4944b3dae417d55d27defd89d02e6e1f8cb39f"
+    },
+    "webp/512/hooded-bagpiper.webp": {
+      "bytes": 118130,
+      "sha256": "f1c74f4573e754f74ec154b39c6e86869a3843c8a08c5589ce02e2bc9cb64255"
+    },
+    "webp/512/hooded-harp-player.webp": {
+      "bytes": 158456,
+      "sha256": "871238a570eff52c13c4713a9b16c66e47a2e8b0b13d339a386660de5e43836f"
+    },
+    "webp/512/lizard-lute-player.webp": {
+      "bytes": 170638,
+      "sha256": "6d58e65373d08b8aaf6242176382c9ad646105831a225d6beb75eb62a409386e"
+    },
+    "webp/512/musician-r1-c1-organ-player.webp": {
+      "bytes": 203720,
+      "sha256": "80353940bcd61ee88c3615365485cb6752fc338819f7f12f923ee66a66025073"
+    },
+    "webp/512/musician-r1-c2-shawm-player.webp": {
+      "bytes": 141154,
+      "sha256": "2cf406fab3cf3ae509095bba0b8fcb0b6e8e2fb5f1ecc259f751e82e92d02318"
+    },
+    "webp/512/musician-r1-c3-horn-player.webp": {
+      "bytes": 136146,
+      "sha256": "570b3c4e0d2ddafdbc8f6406b0123583112eae526eb7fc14c21277e57b7b3780"
+    },
+    "webp/512/musician-r1-c4-horn-player.webp": {
+      "bytes": 170080,
+      "sha256": "8e63546d44025706386f699392d8d0f4b8764849f9efcc38bd67d4f3ecf584e4"
+    },
+    "webp/512/musician-r2-c1-bagpiper.webp": {
+      "bytes": 169426,
+      "sha256": "992d6fea976e0d54f0420d58f1865efa503d4cd2958327838e3f9c70e517caec"
+    },
+    "webp/512/musician-r2-c2-bagpiper.webp": {
+      "bytes": 124154,
+      "sha256": "898849fd05b915d3c4c733686ee313c2676e67f3557f256d39c956dca00f42a8"
+    },
+    "webp/512/musician-r2-c3-horn-player.webp": {
+      "bytes": 134428,
+      "sha256": "4ee4f5bac6e1b9f82ca8578245c7a80b0c54e779188b4c66e73a36468b07d745"
+    },
+    "webp/512/musician-r2-c4-psaltery-player.webp": {
+      "bytes": 178612,
+      "sha256": "5ed64b717eefab4b9aa287d1777c2c008e431874b570b9a072c0cae1a2bb1cb7"
+    },
+    "webp/512/musician-r3-c1-bagpiper.webp": {
+      "bytes": 154700,
+      "sha256": "aa00ae33f7545014efc733fdc3e3a41e4f968e2b32ab080ff439e622f2370dcc"
+    },
+    "webp/512/musician-r3-c2-lute-player.webp": {
+      "bytes": 129678,
+      "sha256": "3f57a5f2ad24baa3bb6b7f5059c207259af8bb08915b4d5fd742afac87079451"
+    },
+    "webp/512/musician-r3-c3-lute-player.webp": {
+      "bytes": 132524,
+      "sha256": "bcc464dff647985331b6b9e1321472014c3048e4f46112dbe46eb5ef1a64f9c4"
+    },
+    "webp/512/musician-r3-c4-pipe-player.webp": {
+      "bytes": 168740,
+      "sha256": "01265195ccc4033fb8edb7822469920e499bfcbc8ec2fe128856228938bd9e13"
+    },
+    "webp/512/musicians-and-dancers.webp": {
+      "bytes": 105478,
+      "sha256": "f055df68f294693366b907ddb3ee0ef5c74fa44cc5d538f05995420e9c4b3e0c"
+    },
+    "webp/512/rabbit-bagpiper.webp": {
+      "bytes": 115466,
+      "sha256": "a477a469dcd466b8003b4982de5e3d57da37aa232614609564b87ab557b1c3f2"
+    },
+    "webp/512/rabbit-reading-book.webp": {
+      "bytes": 134242,
+      "sha256": "3746576cd47c6e40b39ed196c511d1df8e3e1e18d8e3706ad4f6ccc542aee4f9"
+    },
+    "webp/512/seated-rabbit.webp": {
+      "bytes": 161314,
+      "sha256": "b9b10ef37ed2386d165b3dc1404bad8eab1665be7adab60af2ccf80f8b6d4ced"
+    },
+    "webp/512/snail.webp": {
+      "bytes": 110422,
+      "sha256": "45ac3c7f376407016c2144c0429d3b1dba29582578751fc466247b9475832ccf"
+    },
+    "webp/512/weird-dog.webp": {
+      "bytes": 171716,
+      "sha256": "8f3662053e9087041593dbf671ef895beddc265f5375470ffc972a07ce7e64c8"
+    },
+    "webp/512/white-animal-bagpiper.webp": {
+      "bytes": 218498,
+      "sha256": "f8808b45d841b27f577c7676e8ac3d593e0d505e340368c85c5826a02f23c20a"
+    },
+    "webp/512/winged-rabbit.webp": {
+      "bytes": 212570,
+      "sha256": "8ecab29b625a629c4fe527b3a530aafef567a1fa44b57b99444cfbe4c0872cf3"
+    },
+    "webp/768/anafiles.webp": {
+      "bytes": 354756,
+      "sha256": "04c5a09ac256241897db9d8a5cbadc737ce891a3dab7503bdda2020302a2730f"
+    },
+    "webp/768/animal-choir-landscape.webp": {
+      "bytes": 200246,
+      "sha256": "ec73aacb815f21f9b751f0962be835bbc11b04064911bc9c3327394784f92e12"
+    },
+    "webp/768/bird-wind-player.webp": {
+      "bytes": 413842,
+      "sha256": "6ef56bd0360f5e63dc935f91ed20457630c921de4fc661318d1e1a48d2c5b0ac"
+    },
+    "webp/768/boar-lute-player.webp": {
+      "bytes": 335318,
+      "sha256": "7104f557b0d9fc3748139d7c33d91c9e554b0779870293b207511caa97b867fd"
+    },
+    "webp/768/bunny-harp.webp": {
+      "bytes": 217584,
+      "sha256": "c5cace098cff1d68feed95dc0d0c8505201b8b17fe23a656e42f44b356a547fd"
+    },
+    "webp/768/bunny-trumpet.webp": {
+      "bytes": 190604,
+      "sha256": "c92e29db02fefb9dc5ed26a3b3fd097f8b7ec6bccc61fa4848b8277859bf8bbc"
+    },
+    "webp/768/canine-fiddle-player.webp": {
+      "bytes": 262614,
+      "sha256": "9f4f3aaf4bd98b986f520e6197b668ed9923802f35ceb47486c3f36a69e5eaa5"
+    },
+    "webp/768/cat-reading-book.webp": {
+      "bytes": 298968,
+      "sha256": "f72c334cc1bd086960ba6e6df7147eb487fdf53c196027cc4605f70adac89c14"
+    },
+    "webp/768/crowned-cat.webp": {
+      "bytes": 286732,
+      "sha256": "f5f56f8c6956b2ca22386fc434d86db7bcddbba1e7d196f75481fd45aaf4617c"
+    },
+    "webp/768/curled-cat.webp": {
+      "bytes": 384148,
+      "sha256": "378d3d88f5557518a114693f3fa87c361a0f79162c286f0410ad21d112a51635"
+    },
+    "webp/768/donkey-organist.webp": {
+      "bytes": 642170,
+      "sha256": "9ed5db731090ee07b7e7a1757e202d592e5bddc578ce05f39ada275140eab2f0"
+    },
+    "webp/768/donkey-rooster-lute-player.webp": {
+      "bytes": 329930,
+      "sha256": "06005f25ef0651514e12e2dba5200534557f21a372ea41d9bc10e5a0c643633e"
+    },
+    "webp/768/fish-with-arms.webp": {
+      "bytes": 390360,
+      "sha256": "1e748235a766ed48db796d6b02ccba98455d4850328eb45685a51b108ed9f05c"
+    },
+    "webp/768/flying-pig.webp": {
+      "bytes": 335748,
+      "sha256": "6181fd3942e7aac4215ff1e20b1651f6d7522030d05dfe2fe733325e0fa41145"
+    },
+    "webp/768/frog.webp": {
+      "bytes": 287368,
+      "sha256": "f169495762c8cb7cc7b2b47ad4a4bd79b508957a0d710a1593a314852ff321d0"
+    },
+    "webp/768/funny-faced-lying-cat.webp": {
+      "bytes": 481420,
+      "sha256": "fe3159b1cae0546a88150026b484770acea6ddaff06956e9a3d1514f1bb0fa2d"
+    },
+    "webp/768/hooded-bagpiper.webp": {
+      "bytes": 247950,
+      "sha256": "1265615a83b97b2885160ddc482f01eb565fcaae1b00439e8f25986bf6cc9675"
+    },
+    "webp/768/hooded-harp-player.webp": {
+      "bytes": 334496,
+      "sha256": "7eb2f3f528e79728dda6f1598e3a47673226525010ccf566f715af3e2da9b715"
+    },
+    "webp/768/lizard-lute-player.webp": {
+      "bytes": 361882,
+      "sha256": "c9aadca962068b54c950b96f99d2fb62453f1b7799995bf26609a03d0322ac0e"
+    },
+    "webp/768/musician-r1-c1-organ-player.webp": {
+      "bytes": 442718,
+      "sha256": "eb9218d844e316519504bd38f9f0813d41d4c433839f6f912e14d7cbb2153993"
+    },
+    "webp/768/musician-r1-c2-shawm-player.webp": {
+      "bytes": 303398,
+      "sha256": "b019650c916eab334d2dbb5349cb437cfa2f78c2591926491542bbe9b8eb3a91"
+    },
+    "webp/768/musician-r1-c3-horn-player.webp": {
+      "bytes": 289630,
+      "sha256": "aa5ee9e0c7dff8e6f70f326659326a26f8e36c6b3c94da9bbb018319d50664b2"
+    },
+    "webp/768/musician-r1-c4-horn-player.webp": {
+      "bytes": 361494,
+      "sha256": "c6616b7bf195f2e948a7b75e1d0ff3028a4394ddec9240762c8492f557d88976"
+    },
+    "webp/768/musician-r2-c1-bagpiper.webp": {
+      "bytes": 363942,
+      "sha256": "ce31c02b3af1b32e2b746a75004c22f4da692c4b60945dc86f53bdeafcefa29f"
+    },
+    "webp/768/musician-r2-c2-bagpiper.webp": {
+      "bytes": 263530,
+      "sha256": "8cf80b97b4b1414af810c46dea43e92b6de012ae742ab4f1242a5dd1405a16ab"
+    },
+    "webp/768/musician-r2-c3-horn-player.webp": {
+      "bytes": 286704,
+      "sha256": "12d2b99fe83690dd4bf69fc78943054610d9b0d447cc7f24ca8b6830f27eb3c9"
+    },
+    "webp/768/musician-r2-c4-psaltery-player.webp": {
+      "bytes": 389690,
+      "sha256": "018294b2e9312ea701fbf3fb0f93cd39624c8b1a63b50d5df3a446fe8b0c9812"
+    },
+    "webp/768/musician-r3-c1-bagpiper.webp": {
+      "bytes": 323316,
+      "sha256": "912734261600cd8e42c5fd0b2ccd2efcdcfddbcee97f76027a89839fff2c0101"
+    },
+    "webp/768/musician-r3-c2-lute-player.webp": {
+      "bytes": 277822,
+      "sha256": "8f220650c23bf65e430691ac6a1693450305deb0dafcdd7e0cf77f8ed44b3ed5"
+    },
+    "webp/768/musician-r3-c3-lute-player.webp": {
+      "bytes": 286288,
+      "sha256": "04c09e9478a7e468aa40d115b8d19c3f49fcff38b889722430926d84dce393d6"
+    },
+    "webp/768/musician-r3-c4-pipe-player.webp": {
+      "bytes": 363528,
+      "sha256": "ffdf9be9953cbe96fa3339508071bd18140f496c85a42979dcd21200f33d03c0"
+    },
+    "webp/768/musicians-and-dancers.webp": {
+      "bytes": 210950,
+      "sha256": "041b8af0c86cd0ca37ec81f36e9e0f4ebb06f4c4caca522313e5e1bca9368141"
+    },
+    "webp/768/rabbit-bagpiper.webp": {
+      "bytes": 242138,
+      "sha256": "75457475a379fa30c91ef76fb78a8a87038eb0dc96c2dd68d09be97077b38e76"
+    },
+    "webp/768/rabbit-reading-book.webp": {
+      "bytes": 282228,
+      "sha256": "ec90131fe53f7cd8cca0980539d0cc1dea6cdbd5c3146dedf92cb215e69f7b02"
+    },
+    "webp/768/seated-rabbit.webp": {
+      "bytes": 342502,
+      "sha256": "80dd1a59de1f33bf7b4483d1af7a9c7d4a5a9d8980728e8f08d66f0bf5caacfc"
+    },
+    "webp/768/snail.webp": {
+      "bytes": 243746,
+      "sha256": "078fe128b57368eef0e0d84146c2565a102c64f47982f39e8ef2b3cb87d9cce8"
+    },
+    "webp/768/weird-dog.webp": {
+      "bytes": 368682,
+      "sha256": "891a3866f6d42ed9bc898de72a6a24cbf93a00a9075005b30556ebe4677f4925"
+    },
+    "webp/768/white-animal-bagpiper.webp": {
+      "bytes": 474666,
+      "sha256": "6d278b6afc1256bd8121533b255606068a9c1c94c2f96b01b8aa0121525fc978"
+    },
+    "webp/768/winged-rabbit.webp": {
+      "bytes": 451462,
+      "sha256": "66eeed82f686c5560b3779acdc2a59b5b54c46e34c9afb51cce2154579b51ad0"
+    },
+    "webp/anafiles.webp": {
+      "bytes": 471034,
+      "sha256": "46185c7db6c278fbc6f1e32b8e5471f81f994c27ac18522be2edac73de555808"
+    },
+    "webp/animal-choir-landscape.webp": {
+      "bytes": 1265934,
+      "sha256": "f2029a95cd2c97398229760ee1e0c76f009e91216a6fb97dc5015f316edcd129"
+    },
+    "webp/animal-musicians-ensemble.webp": {
+      "bytes": 664008,
+      "sha256": "32ce54d1eb893986730fead2dcbdef98e01aa9900f948d7aa5e33cc9e65f2a4a"
+    },
+    "webp/bird-wind-player.webp": {
+      "bytes": 1048316,
+      "sha256": "250a287565ff2a4baa796fb8517b696f423adf35e3a1c5b1c7ffd18cd1fe00eb"
+    },
+    "webp/boar-lute-player.webp": {
+      "bytes": 900478,
+      "sha256": "9ccb8c2d28879ef2328e4a939422021acb9379b7fa8eb1d30705d0f4a21ab783"
+    },
+    "webp/bunny-harp.webp": {
+      "bytes": 728608,
+      "sha256": "4b36f3a0fd244c49e755434c017c7a54cd88afb29ca0905dca9ed2b21c96038e"
+    },
+    "webp/bunny-trumpet.webp": {
+      "bytes": 1133700,
+      "sha256": "76b37496049236aa18b70736b8436ab93a255a3a5bac8ed0d050507fbeeb32b6"
+    },
+    "webp/canine-fiddle-player.webp": {
+      "bytes": 710002,
+      "sha256": "1beb177f8b5f49d43aaa3da44f2c0fb494af65a7b93a57afb81119f5cb0fb0b6"
+    },
+    "webp/cat-reading-book.webp": {
+      "bytes": 726458,
+      "sha256": "b9fcbc7e1e8f3c2d36024d028a13fd4792d332f8fc52f7d8fb6a92155edd3cff"
+    },
+    "webp/creature-in-gold-shape.webp": {
+      "bytes": 351630,
+      "sha256": "0fb6ad5fe9193addfb1bcc0e3bbac30e7b1ee72fd5967498c764196c8b2d6c05"
+    },
+    "webp/crowned-cat.webp": {
+      "bytes": 844580,
+      "sha256": "3a08f64547a5ab8d2df4d38320480f6eacfe1506edc13aa99c06d8c740d63b08"
+    },
+    "webp/curled-cat.webp": {
+      "bytes": 1164916,
+      "sha256": "d76535a2668b8b0edf5330cde3490d68b0794222ccbc4dcc981cdbe01da66ddd"
+    },
+    "webp/donkey-organist.webp": {
+      "bytes": 1724766,
+      "sha256": "4987bde661b9bebcbba871d7f6aad6f70bd77b0f70c41e1bfb1bb2ba2ebeeff2"
+    },
+    "webp/donkey-rooster-lute-player.webp": {
+      "bytes": 958870,
+      "sha256": "525641c66b73e8f64a3ae0eca944cb19be76a90ff570e70f9a1223461a8628ff"
+    },
+    "webp/fish-with-arms.webp": {
+      "bytes": 1061054,
+      "sha256": "081749b555e14280c5c3bbbf325fec29ec9ef55e0d66cf48f8d6af25e08143c7"
+    },
+    "webp/flying-pig.webp": {
+      "bytes": 832078,
+      "sha256": "c48449eb867eeac92ab00edd1ec8b909639fbad9df6a1374e188c7c9911cc0ab"
+    },
+    "webp/frog.webp": {
+      "bytes": 1328258,
+      "sha256": "fe298f2fcca1b31b773217dd7750442de5178e8818003483dc096b1664ea4be5"
+    },
+    "webp/funny-faced-lying-cat.webp": {
+      "bytes": 1530974,
+      "sha256": "2a342b0cee69a1599f2b415b5b0736c003bf224baaf2c060c715c78dbdbc59e7"
+    },
+    "webp/hooded-bagpiper.webp": {
+      "bytes": 948276,
+      "sha256": "9d458bff57ed73ec397bd087b55a49e02a8572dbedf62b5d69555d659ecb719f"
+    },
+    "webp/hooded-harp-player.webp": {
+      "bytes": 1052722,
+      "sha256": "7463b4d044e5791d72913a66fedfdb489c622ebcfb0e6c7a2d8b14a184299db4"
+    },
+    "webp/lizard-lute-player.webp": {
+      "bytes": 1728106,
+      "sha256": "7fa5c050c32e301e5a6338068003f8469ffb8fc292fc281c7d1bc726eed60f62"
+    },
+    "webp/musician-r1-c1-organ-player.webp": {
+      "bytes": 1317572,
+      "sha256": "ae381acfd6e4e82221078cd0f71feb4a05b1c97a44a48cae93ec26e0b3afa0e8"
+    },
+    "webp/musician-r1-c2-shawm-player.webp": {
+      "bytes": 897056,
+      "sha256": "3556a37749903cff3e5c005d0b44fea24aefaf4115a1e40a52a20bd45d6d5b0d"
+    },
+    "webp/musician-r1-c3-horn-player.webp": {
+      "bytes": 836502,
+      "sha256": "476a5248b8b7fd136290648dfd4a23edbbeb6d67cb1ed8194848b8bcd6dc0a6a"
+    },
+    "webp/musician-r1-c4-horn-player.webp": {
+      "bytes": 1046802,
+      "sha256": "564e04feb0e696fe38d36c6ef9c76ea636cca369ee9f0bf5d4cddb5556023a14"
+    },
+    "webp/musician-r2-c1-bagpiper.webp": {
+      "bytes": 1069574,
+      "sha256": "a0c17676cf6b2ae67112d942315d504757bd45221e2da9861f870ed53bb1e8db"
+    },
+    "webp/musician-r2-c2-bagpiper.webp": {
+      "bytes": 1379500,
+      "sha256": "af334ca043951def399d9f0cc1f4e5ea746a70459b2a189ead17d87b5a1303c0"
+    },
+    "webp/musician-r2-c3-horn-player.webp": {
+      "bytes": 838952,
+      "sha256": "14546c24d262de4cc6d23902f55e301f0ae59e1da255db6440617c4f33fe7046"
+    },
+    "webp/musician-r2-c4-psaltery-player.webp": {
+      "bytes": 1158866,
+      "sha256": "af07eddbe81ab98f5548450b56dd0647d7de67dfdda079b69f270b1602ba2ddd"
+    },
+    "webp/musician-r3-c1-bagpiper.webp": {
+      "bytes": 911802,
+      "sha256": "3d9b6b007427a427890d47bd5261bde9a133f31ad44b5e9eb3bae65df426c47a"
+    },
+    "webp/musician-r3-c2-lute-player.webp": {
+      "bytes": 1448394,
+      "sha256": "bbc944c75333d71831831436d5ae63e7d0a6d95cd4d7a5298bcd7c7638a4125f"
+    },
+    "webp/musician-r3-c3-lute-player.webp": {
+      "bytes": 1518790,
+      "sha256": "5242451cf60939c9cee3285fdfa239c52511f50f0b6f84669b55fec5c5031648"
+    },
+    "webp/musician-r3-c4-pipe-player.webp": {
+      "bytes": 1084606,
+      "sha256": "28a4172c5d7dc53204d55a514b7b23331d10fddaa06f05134644de5ac3f3209c"
+    },
+    "webp/musicians-and-dancers.webp": {
+      "bytes": 1191640,
+      "sha256": "5dd49b365c820a2ff08327ad38ad297f589595b4e312053d1adef8bd547e13a0"
+    },
+    "webp/rabbit-bagpiper.webp": {
+      "bytes": 807908,
+      "sha256": "4c03baf834ceba029bc96b8942c1208e778dc509002ce3a4623648d830a21a22"
+    },
+    "webp/rabbit-reading-book.webp": {
+      "bytes": 960268,
+      "sha256": "0f69b0ad0c2c6974ea780ff78c013128cfd3dd2e419220c44cf43dcc87cd666c"
+    },
+    "webp/seated-rabbit.webp": {
+      "bytes": 893840,
+      "sha256": "c255b8467619db9cfc4a0c3197f9abdb4d807339e89de373f8abadd53f79b72c"
+    },
+    "webp/snail.webp": {
+      "bytes": 1199144,
+      "sha256": "4055471007710db0adf392e6e1657e8fe586bac39cf594911d6a309e9bead618"
+    },
+    "webp/weird-dog.webp": {
+      "bytes": 1102816,
+      "sha256": "ec42290595db47aa85d3f8aa51331f4ed9c2e9e945cfacd11a2f043f7f92378b"
+    },
+    "webp/white-animal-bagpiper.webp": {
+      "bytes": 1246100,
+      "sha256": "a1ccafd2e775735efa782aa85e1d70bf536fe7c8f3fe2d575ebb6fc839d655b3"
+    },
+    "webp/winged-rabbit.webp": {
+      "bytes": 1263974,
+      "sha256": "ec23e888f1a843d6108cec747fb036fda5a27440612a5f6de68342db97922134"
+    }
+  },
+  "inputs": {
+    "sources/medieval-cutouts/sources/creature-in-gold-shape.png": {
+      "bytes": 814195,
+      "sha256": "57f7b659e744994d2040890949958aa0f807af8d61ab9d2353619d329dd7da0a"
+    },
+    "sources/medieval-cutouts/sources/musicians-and-dancers.png": {
+      "bytes": 1195888,
+      "sha256": "4f99b38af8fd5b84afeb8141fc4210e3397148ca91b3d81670b98284b8264692"
+    }
+  }
+}

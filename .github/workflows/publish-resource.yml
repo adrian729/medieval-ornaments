@@ -1,0 +1,45 @@
+name: Verify and publish a resource repository
+on:
+  workflow_call:
+    inputs:
+      source:
+        type: string
+        required: true
+      tooling-ref:
+        type: string
+        required: true
+permissions:
+  contents: read
+  id-token: write
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          path: resource
+      - uses: actions/checkout@v4
+        with:
+          repository: adrian729/medieval-ornaments
+          ref: ${{ inputs.tooling-ref }}
+          path: tooling
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          registry-url: https://registry.npmjs.org
+      - run: npm install --global npm@11.6.0
+      - name: Verify approved bytes and repository identity
+        env:
+          SOURCE_ID: ${{ inputs.source }}
+          CALLER_REPOSITORY: ${{ github.repository }}
+        run: |
+          node -e "const c=require('./tooling/resource-registry.json');if(c.sources[process.env.SOURCE_ID]?.repository!==process.env.CALLER_REPOSITORY)throw Error('Unregistered caller repository')"
+          node tooling/scripts/verify-resource.mjs "$SOURCE_ID" "$PWD/resource"
+      - name: Check compressed npm upload capacity
+        working-directory: resource
+        run: |
+          npm pack --json > pack.json
+          node -e "const p=require('./pack.json')[0];if(p.size>200000000)throw Error('Upload exceeds 200 MB; split the source before publishing')"
+          rm pack.json
+      - run: npm publish --access public --provenance
+        working-directory: resource

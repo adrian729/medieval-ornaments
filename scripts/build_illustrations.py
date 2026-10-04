@@ -7,6 +7,7 @@ import re
 from PIL import Image
 from build_assets import verify_pair, variants, ROOT, LIMITS
 from selection_metadata import refresh
+from resource_paths import resource_file
 
 
 def preflight(items, selected):
@@ -50,7 +51,7 @@ def preflight(items, selected):
                 owned.add(relative)
         owned.update(f'{fmt}/{limit}/{name}.{fmt}' for fmt in ['png', 'webp'] for limit in LIMITS)
         assert not owned & protected, f'Artwork paths already belong to an ornament: {name}'
-        assert all((ROOT/relative).resolve().is_relative_to(ROOT) for relative in owned), f'Artwork path escapes checkout: {name}'
+        assert all((resource_file(relative)).resolve().is_relative_to(ROOT) for relative in owned), f'Artwork path escapes checkout: {name}'
 
 
 def build(names):
@@ -58,25 +59,25 @@ def build(names):
     items=json.loads(path.read_text())
     selected=set(names)
     preflight(items, selected)
-    hashes={item['png']:hashlib.sha256((ROOT/item['png']).read_bytes()).hexdigest() for item in items}
+    hashes={item['png']:hashlib.sha256((resource_file(item['png'])).read_bytes()).hexdigest() for item in items if item['name'] in selected}
     for item in items:
         if item['name'] not in selected:continue
-        with Image.open(ROOT/item['png']) as source:image=source.convert('RGBA')
-        webp=ROOT/item['webp']
+        with Image.open(resource_file(item['png'])) as source:image=source.convert('RGBA')
+        webp=resource_file(item['webp'],write=True)
         webp.parent.mkdir(parents=True, exist_ok=True)
         image.save(webp,format='WEBP',lossless=True,method=6,exact=True)
-        verify_pair(image,ROOT/item['png'],webp)
+        verify_pair(image,resource_file(item['png']),webp)
         old_paths={asset[fmt] for asset in item.get('variants', []) for fmt in ['png','webp']}
-        item.update(width=image.width,height=image.height,png_bytes=(ROOT/item['png']).stat().st_size,
+        item.update(width=image.width,height=image.height,png_bytes=(resource_file(item['png'])).stat().st_size,
                     webp_bytes=webp.stat().st_size,variants=variants(image,item['name']))
         new_paths={asset[fmt] for asset in item['variants'] for fmt in ['png','webp']}
         for relative in old_paths-new_paths:
-            target=ROOT/relative
+            target=resource_file(relative)
             assert target.resolve().is_relative_to(ROOT) and target.stem==item['name']
             target.unlink(missing_ok=True)
-    assert all(hashlib.sha256((ROOT/name).read_bytes()).hexdigest()==digest for name,digest in hashes.items())
+    assert all(hashlib.sha256((resource_file(name)).read_bytes()).hexdigest()==digest for name,digest in hashes.items())
     path.write_text(json.dumps(items,indent=2)+'\n')
-    refresh()
+    refresh(measure=selected)
 
 
 if __name__=='__main__':

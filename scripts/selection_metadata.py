@@ -2,6 +2,7 @@
 import json
 from pathlib import Path
 from PIL import Image
+from resource_paths import resource_file
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -17,7 +18,8 @@ def illustrations():
             for item in json.loads(path.read_text())]
 
 
-def enrich(catalog):
+def enrich(catalog, measure=None):
+    previous={item['name']:item for item in json.loads((ROOT/'images.json').read_text())}
     overrides = json.loads((ROOT / 'selection-metadata.json').read_text())
     master = ROOT / 'illustrations.json'
     authored_notes = {item['name']: item.get('usage_notes', []) for item in json.loads(master.read_text())} if master.exists() else {}
@@ -28,8 +30,12 @@ def enrich(catalog):
         item['subjects'] = list(dict.fromkeys([*item['subjects'], *facts.get('subjects_add', [])]))
         item['asset_type'] = ('illustration' if item.get('asset_type') == 'illustration' or item.get('reference') == 'medieval-cutouts'
                               else 'border' if item['kind'] == 'repeat-tile' else 'decoration')
-        with Image.open(ROOT / item['png']) as image:
-            item['has_transparency'] = image.convert('RGBA').getchannel('A').getextrema()[0] < 255
+        prior=previous.get(item['name'], {})
+        if 'has_transparency' not in prior or (measure is not None and item['name'] in measure):
+            with Image.open(resource_file(item['png'])) as image:
+                item['has_transparency'] = image.convert('RGBA').getchannel('A').getextrema()[0] < 255
+        else:
+            item['has_transparency'] = prior['has_transparency']
         # Read authored notes from the master, never yesterday's generated notes.
         notes = [*authored_notes.get(item['name'], []), *facts.get('usage_notes', [])]
         if item['kind'] == 'repeat-tile':
@@ -46,10 +52,10 @@ def enrich(catalog):
     return catalog
 
 
-def refresh():
+def refresh(measure=None):
     path = ROOT / 'images.json'
     ornaments = [item for item in json.loads(path.read_text()) if item.get('asset_type') != 'illustration' and item.get('reference') != 'medieval-cutouts']
-    result = enrich([*ornaments, *illustrations()])
+    result = enrich([*ornaments, *illustrations()], measure=measure)
     path.write_text(json.dumps(result, indent=2) + '\n')
     print(f'Refreshed selection metadata for {len(result)} designs; artwork bytes unchanged.')
 

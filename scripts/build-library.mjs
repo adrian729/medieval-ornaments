@@ -3,11 +3,13 @@ import { readFile, writeFile, mkdir, readdir, rm } from 'node:fs/promises';
 import { createHash } from 'node:crypto';
 import { root, assetCatalog, catalogBytes } from './package-assets.mjs';
 import { designData, vanillaModule, reactModule, styledModule, vanillaTypes, reactTypes } from '../lib/module-templates.js';
+import { validateResources, manifest as resourceManifest, designPaths, digest } from './resource-store.mjs';
 const pkg = JSON.parse(await readFile(new URL('package.json', root), 'utf8'));
 const items = await assetCatalog(),catalog=catalogBytes(items);
 const manifestBytes=await readFile(new URL('assets-manifest.json',root)),manifest=JSON.parse(manifestBytes);
 const hash=bytes=>createHash('sha256').update(bytes).digest('hex');
-if(manifest.package!==pkg.ornamentAssets.package||manifest.version!==pkg.ornamentAssets.version||manifest.catalogSha256!==hash(catalog))throw Error('Pinned artwork manifest does not match the runtime catalog/package.');
+if(manifest.package!==pkg.ornamentAssets.package||manifest.version!==pkg.ornamentAssets.version)throw Error('Pinned compatibility archive does not match the runtime package.');
+const {config: resourceRegistry, lock: resourcePins} = validateResources(items);
 const illustrationPin=pkg.ornamentIllustrations;
 if(manifest.illustrations?.package!==illustrationPin.package||manifest.illustrations?.version!==illustrationPin.version)throw Error('Pinned illustration manifest does not match runtime package.');
 const base = `https://unpkg.com/${manifest.package}@${manifest.version}/`;
@@ -16,6 +18,15 @@ const illustrationBase=`https://unpkg.com/${illustrationPin.package}@${illustrat
 // The signed artwork catalog retains its original deterministic serialization.
 await writeFile(new URL('lib/catalog.json', root), JSON.stringify(items) + '\n');
 await writeFile(new URL('lib/runtime.js', root), `// Generated release pins; contains no design catalog.\nexport const version = ${JSON.stringify(pkg.version)};\nexport const assetsPackage = ${JSON.stringify(manifest.package)};\nexport const assetsVersion = ${JSON.stringify(manifest.version)};\nexport const assetsManifestSha256 = ${JSON.stringify(hash(manifestBytes))};\nexport const defaultAssetsBase = ${JSON.stringify(base)};\nexport const illustrationsPackage = ${JSON.stringify(illustrationPin.package)};\nexport const illustrationsVersion = ${JSON.stringify(illustrationPin.version)};\nexport const defaultIllustrationsBase = ${JSON.stringify(illustrationBase)};\n`);
+await mkdir(new URL('lib/asset-sources/', root), {recursive: true});
+for (const [id, source] of Object.entries(resourceRegistry.sources)) {
+  const pin = resourcePins.sources[id], approved = resourceManifest(id);
+  const info = {id, collection: source.collection, package: source.package, version: pin.version, manifestSha256: pin.manifestSha256, filesSha256: pin.filesSha256, activeFilesSha256: digest(Object.fromEntries(items.filter(item=>resourceRegistry.assignments[item.name]===id).flatMap(designPaths).map(p=>[p,approved.files[p]]))), base: `https://unpkg.com/${source.package}@${pin.version}/`};
+  await writeFile(new URL(`lib/asset-sources/${id}.js`, root), `// Generated immutable asset pin; no catalog.\nexport const base = ${JSON.stringify(info.base)};\nexport const source = /* @__PURE__ */ Object.freeze(${JSON.stringify(info)});\n`);
+}
+await writeFile(new URL('lib/asset-sources.js', root), `${Object.keys(resourceRegistry.sources).map((id,i)=>`import { source as s${i} } from './asset-sources/${id}.js';`).join('\n')}\nexport const assetSources = Object.freeze({${Object.keys(resourceRegistry.sources).map((id,i)=>`${JSON.stringify(id)}:s${i}`).join(',')}});\n`);
+await writeFile(new URL('lib/asset-routing.js', root), `import { assetSources } from './asset-sources.js';\nconst assignments = ${JSON.stringify(resourceRegistry.assignments)};\nexport function getAssetSource(name) {\n  if (typeof name !== 'string' || !Object.hasOwn(assignments, name)) throw new RangeError('Unknown ornament: ' + String(name));\n  return assetSources[assignments[name]];\n}\n`);
+await writeFile(new URL('lib/asset-routing.d.ts', root), `export interface AssetSource { readonly id: string; readonly collection: string; readonly package: string; readonly version: string; readonly base: string; readonly manifestSha256: string; readonly filesSha256: string; readonly activeFilesSha256: string; }\nexport declare function getAssetSource(name: string): AssetSource;\n`);
 for (const directory of ['design-data', 'designs', 'react-designs']) await mkdir(new URL(`lib/${directory}/`, root), { recursive: true });
 for (const directory of ['design-data', 'designs', 'react-designs']) {
   const expected = new Set(items.flatMap(item => directory === 'design-data' ? [`${item.name}.js`] : directory === 'designs' ? [`${item.name}.js`, `${item.name}.d.ts`] : [`${item.name}.js`, `${item.name}.d.ts`, `${item.name}-styled.js`]));
@@ -24,9 +35,9 @@ for (const directory of ['design-data', 'designs', 'react-designs']) {
 for (const item of items) {
   const files = {
     [`design-data/${item.name}.js`]: designData(item),
-    [`designs/${item.name}.js`]: vanillaModule(item),
+    [`designs/${item.name}.js`]: vanillaModule(item, {}, resourceRegistry.assignments[item.name]),
     [`designs/${item.name}.d.ts`]: vanillaTypes(item),
-    [`react-designs/${item.name}.js`]: reactModule(item),
+    [`react-designs/${item.name}.js`]: reactModule(item, {}, resourceRegistry.assignments[item.name]),
     [`react-designs/${item.name}-styled.js`]: styledModule(item.name),
     [`react-designs/${item.name}.d.ts`]: reactTypes(item)
   };
@@ -111,6 +122,8 @@ export declare const defaultAssetsBase: string;
 export declare const illustrationsPackage: string;
 export declare const illustrationsVersion: string;
 export declare const defaultIllustrationsBase: string;
+export interface AssetSource { readonly id: string; readonly collection: string; readonly package: string; readonly version: string; readonly base: string; readonly manifestSha256: string; readonly filesSha256: string; readonly activeFilesSha256: string; }
+export declare function getAssetSource(name: DesignName | string): AssetSource;
 export declare const ornaments: readonly Ornament[];
 export declare function getOrnament(name: RepeatDesignName): RepeatOrnament;
 export declare function getOrnament(name: WholeDesignName): WholeOrnament;

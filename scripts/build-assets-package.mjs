@@ -5,6 +5,7 @@ import { createReadStream } from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { root, assetCatalog, assetPaths, catalogBytes } from './package-assets.mjs';
+import { resourceFile } from './resource-store.mjs';
 const pkg=JSON.parse(await readFile(new URL('packages/assets/package.json',root)));
 const illustrationPkg=JSON.parse(await readFile(new URL('packages/illustration-assets/package.json',root)));
 if(pkg.dependencies?.[illustrationPkg.name]!==illustrationPkg.version)throw Error('Full artwork package must pin its illustration dependency.');
@@ -14,7 +15,7 @@ const hash=bytes=>createHash('sha256').update(bytes).digest('hex');
 const files={};
 for(const relative of assetPaths(items)) {
   const digest=createHash('sha256');let bytes=0;
-  for await(const data of createReadStream(new URL(relative,root))){bytes+=data.length;digest.update(data);}
+  for await(const data of createReadStream(resourceFile(relative))){bytes+=data.length;digest.update(data);}
   files[relative]={bytes,sha256:digest.digest('hex'),...(illustrationPaths.has(relative)?{package:illustrationPkg.name}:{})};
 }
 const manifest={package:pkg.name,version:pkg.version,illustrations:{package:illustrationPkg.name,version:illustrationPkg.version},catalogSha256:hash(catalog),files};
@@ -33,7 +34,7 @@ await writeFile(new URL('package.json',out),JSON.stringify({...pkg,files:[...mai
 await writeFile(new URL('catalog.json',out),catalog);
 await writeFile(new URL('assets-manifest.json',out),content);
 for(const relative of Object.keys(files)) {
-  const target=new URL(relative,out);await mkdir(path.dirname(fileURLToPath(target)),{recursive:true});await copyFile(new URL(relative,root),target);
+  const target=new URL(relative,out);await mkdir(path.dirname(fileURLToPath(target)),{recursive:true});await copyFile(resourceFile(relative),target);
 }
 for(const name of ['LICENSE','ASSET-RIGHTS.md'])await copyFile(new URL(name,root),new URL(name,out));
 await copyFile(new URL('packages/assets/README.md',root),new URL('README.md',out));
@@ -42,7 +43,7 @@ await rm(illustrationsOut,{recursive:true,force:true});await mkdir(illustrations
 await writeFile(new URL('package.json',illustrationsOut),JSON.stringify(illustrationPkg,null,2)+'\n');
 await writeFile(new URL('catalog.json',illustrationsOut),catalogBytes(items.filter(item=>item.asset_type==='illustration')));
 await writeFile(new URL('assets-manifest.json',illustrationsOut),content);
-for(const relative of illustrationPaths){const target=new URL(relative,illustrationsOut);await mkdir(path.dirname(fileURLToPath(target)),{recursive:true});await copyFile(new URL(relative,root),target);}
+for(const relative of illustrationPaths){const target=new URL(relative,illustrationsOut);await mkdir(path.dirname(fileURLToPath(target)),{recursive:true});await copyFile(resourceFile(relative),target);}
 for(const name of ['LICENSE','ASSET-RIGHTS.md'])await copyFile(new URL(name,root),new URL(name,illustrationsOut));
 await copyFile(new URL('packages/illustration-assets/README.md',root),new URL('README.md',illustrationsOut));
 console.log(`Staged ${pkg.name}@${pkg.version}: ${mainPaths.length} files, plus ${illustrationPkg.name}@${illustrationPkg.version}: ${illustrationPaths.size} files. All ${items.length} designs / ${Object.keys(files).length} artwork bytes verified and unchanged.`);

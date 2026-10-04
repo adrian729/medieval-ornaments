@@ -120,20 +120,20 @@
     <div class="example">
       <div class="preview with-ornament">
         <picture>
-          <source id="panelWebp" type="image/webp" srcset="../webp/256/floral-bird-panel-blue.webp 1x, ../webp/512/floral-bird-panel-blue.webp 2x">
-          <img id="panelImage" loading="lazy" decoding="async" class="ornament-image" src="../png/256/floral-bird-panel-blue.png" srcset="../png/256/floral-bird-panel-blue.png 1x, ../png/512/floral-bird-panel-blue.png 2x" height="256" width="34" alt="">
+          <source id="panelWebp" type="image/webp" srcset="https://unpkg.com/@ranx729/medieval-ornaments-assets-decorations-001@0.1.0/webp/256/floral-bird-panel-blue.webp 1x, https://unpkg.com/@ranx729/medieval-ornaments-assets-decorations-001@0.1.0/webp/512/floral-bird-panel-blue.webp 2x">
+          <img id="panelImage" loading="lazy" decoding="async" class="ornament-image" src="https://unpkg.com/@ranx729/medieval-ornaments-assets-decorations-001@0.1.0/png/256/floral-bird-panel-blue.png" srcset="https://unpkg.com/@ranx729/medieval-ornaments-assets-decorations-001@0.1.0/png/256/floral-bird-panel-blue.png 1x, https://unpkg.com/@ranx729/medieval-ornaments-assets-decorations-001@0.1.0/png/512/floral-bird-panel-blue.png 2x" height="256" width="34" alt="">
         </picture>
         <blockquote>A narrow flourish leaves plenty of room for the words.</blockquote>
       </div>
       <div class="code"><div class="code-heading"><span>HTML · decorative image</span><button data-copy="panelCode" type="button">Copy example</button></div><pre><code id="panelCode">&lt;link rel="stylesheet" href="../ornaments.css"&gt;
 &lt;picture&gt;
   &lt;source type="image/webp" srcset="
-    ../webp/256/floral-bird-panel-blue.webp 1x,
-    ../webp/512/floral-bird-panel-blue.webp 2x"&gt;
+    https://unpkg.com/@ranx729/medieval-ornaments-assets-decorations-001@0.1.0/webp/256/floral-bird-panel-blue.webp 1x,
+    https://unpkg.com/@ranx729/medieval-ornaments-assets-decorations-001@0.1.0/webp/512/floral-bird-panel-blue.webp 2x"&gt;
   &lt;img class="ornament-image"
-    src="../png/256/floral-bird-panel-blue.png"
-    srcset="../png/256/floral-bird-panel-blue.png 1x,
-      ../png/512/floral-bird-panel-blue.png 2x"
+    src="https://unpkg.com/@ranx729/medieval-ornaments-assets-decorations-001@0.1.0/png/256/floral-bird-panel-blue.png"
+    srcset="https://unpkg.com/@ranx729/medieval-ornaments-assets-decorations-001@0.1.0/png/256/floral-bird-panel-blue.png 1x,
+      https://unpkg.com/@ranx729/medieval-ornaments-assets-decorations-001@0.1.0/png/512/floral-bird-panel-blue.png 2x"
     height="256" width="34" alt=""&gt;
 &lt;/picture&gt;</code></pre></div>
     </div>
@@ -168,17 +168,17 @@
     $('frameExample').style.setProperty('--ornament-slice',slice+'%');
     const atlas=item.components.border_image;
     const framePath=item.derivation==='vector-reconstruction'?atlas.svg:variant(atlas,Number(thickness)*100/slice*2).webp;
-    $('frameExample').style.setProperty('--ornament-image', `url('${new URL('../'+framePath, location.href).href}')`);
+    $('frameExample').style.setProperty('--ornament-image', `url('${assetUrl(framePath)}')`);
     const divider=catalog.find(x=>x.name===$('dividerDesign').value);
     const tile=divider.repeat_axis==='x'?divider:divider.components.rotated_tile;
     const dividerPath=divider.derivation==='vector-reconstruction'?tile.svg:variant(tile,24*Math.max(1,divider.repeat_ratio)*2).webp;
     const dividerElement=document.querySelector('.ornament-divider');
-    dividerElement.style.setProperty('--ornament-image',`url('${new URL('../'+dividerPath,location.href).href}')`);
+    dividerElement.style.setProperty('--ornament-image',`url('${assetUrl(dividerPath)}')`);
     dividerElement.style.setProperty('--ornament-ratio',divider.repeat_ratio);
     const panel=catalog.find(x=>x.name===$('panelDesign').value),panelHeight=Math.floor(Math.min(256,panel.height/2));
     const panelWidth=Math.round(panelHeight*panel.width/panel.height),one=variant(panel,Math.max(panelWidth,panelHeight)),two=variant(panel,Math.max(panelWidth,panelHeight)*2);
-    $('panelWebp').srcset=`../${one.webp} 1x, ../${two.webp} 2x`;
-    $('panelImage').src=`../${one.png}`;$('panelImage').srcset=`../${one.png} 1x, ../${two.png} 2x`;
+    $('panelWebp').srcset=`${assetUrl(one.webp)} 1x, ${assetUrl(two.webp)} 2x`;
+    $('panelImage').src=assetUrl(one.png);$('panelImage').srcset=`${assetUrl(one.png)} 1x, ${assetUrl(two.png)} 2x`;
     $('panelImage').height=panelHeight;$('panelImage').width=panelWidth;
     for (const [id, original] of Object.entries(templates)) {
       let text = original;
@@ -186,7 +186,8 @@
       if(id==='frameCode')text=text.replace('svg/'+name+'-border.svg',framePath);
       if(id==='dividerCode')text=text.replace('svg/gold-leaf-scroll.svg',dividerPath).replace('--ornament-size:', '--ornament-ratio: '+divider.repeat_ratio+';\n  --ornament-size:');
       if(id==='panelCode')text=`<link rel="stylesheet" href="../ornaments.css">\n<picture>\n  <source type="image/webp" srcset="\n    ../${one.webp} 1x, ../${two.webp} 2x">\n  <img class="ornament-image" src="../${one.png}"\n    srcset="../${one.png} 1x, ../${two.png} 2x"\n    style="--ornament-size: ${panelHeight}px"\n    height="${panelHeight}" width="${panelWidth}" alt="">\n</picture>`;
-      if ($('remoteUrls').checked) text = text.replaceAll('../', base).replaceAll("url('svg/", "url('" + base + 'svg/').replaceAll("url('webp/", "url('"+base+'webp/');
+      if ($('remoteUrls').checked) text=text.replace(/\.\.\/((?:svg|png|webp)\/[a-z0-9/-]+\.(?:svg|png|webp))/g,(_,p)=>assetUrl(p)).replaceAll('../ornaments.css',base+'ornaments.css');
+      if (!$('remoteUrls').checked) text=text.replace(/https:\/\/unpkg\.com\/@ranx729\/medieval-ornaments-assets(?:-[a-z0-9-]+)?@\d+\.\d+\.\d+\/((?:svg|png|webp)\/[a-z0-9/-]+\.(?:svg|png|webp))/g,(_,p)=>'../'+p);
       $(id).textContent = text;
     }
   }

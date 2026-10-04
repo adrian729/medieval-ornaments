@@ -60,6 +60,7 @@
 <footer>Numbered designs preserve source raster artwork and offer color traces; their corners reflect the same pattern. Floral vectors have adapted corners. Most illustrations and painted panels are AI-assisted extractions; complete scenes can retain their backgrounds. <a href="../USAGE.md">Usage</a> · <a href="../SELECTION.md">Selection guide</a> · <a href="../docs/ILLUSTRATIONS.md">Illustrations</a> · <a href="../images.json">Catalog</a> · <a href="qa.html">All frame previews</a></footer>
 </main>
 <script type="module">
+import { assetUrl } from './assets.js';
 import { observeNearViewport } from '../lib/visibility.js';
 let thumbnailCleanup=[];
 const $=id=>document.getElementById(id);let catalog=[];
@@ -92,9 +93,9 @@ function renderBrowser(preferred,preferredCategory){
   update();
 }
 function assetPath(asset,format,need){
-  if(format==='svg'&&asset.svg)return new URL('../'+asset.svg,location.href).href;
+  if(format==='svg'&&asset.svg)return assetUrl(asset.svg);
   const fmt=format==='svg'?'webp':format,sorted=[...asset.variants,asset].sort((a,b)=>Math.max(a.width,a.height)-Math.max(b.width,b.height));
-  return new URL('../'+(sorted.find(v=>Math.max(v.width,v.height)>=need)||asset)[fmt],location.href).href;
+  return assetUrl((sorted.find(v=>Math.max(v.width,v.height)>=need)||asset)[fmt]);
 }
 function setStrip(element,item,fmt,size,length,transform,axis=item.repeat_axis){
   const tile=axis===item.repeat_axis?item:item.components.rotated_tile;
@@ -143,7 +144,7 @@ function update(){
   const selected=purpose==='frame'?item.components.border_image:purpose==='divider'&&axis!==item.repeat_axis?item.components.rotated_tile:item;
   const links=[['PNG',selected.png],['WebP',selected.webp]];if(selected.svg)links.push([purpose==='frame'?'SVG frame':'SVG artwork',selected.svg]);
   $('links').replaceChildren(...links.map(([label,path])=>{const a=document.createElement('a');a.href='../'+path;a.textContent=label;return a}));
-  const original=item.components.reference_crop;$('originalSection').hidden=!original;if(original){$('original').loading='lazy';$('original').decoding='async';$('original').width=original.width;$('original').height=original.height;$('original').src='../'+original.png}
+  const original=item.components.reference_crop;$('originalSection').hidden=!original;if(original){$('original').loading='lazy';$('original').decoding='async';$('original').width=original.width;$('original').height=original.height;$('original').src=assetUrl(original.png)}
 }
 fetch('../images.json').then(r=>{if(!r.ok)throw Error(r.status);return r.json()}).then(data=>{
  catalog=data;const query=new URLSearchParams(location.search),selected=data.find(i=>i.name===query.get('design'));

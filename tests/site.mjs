@@ -7,6 +7,7 @@ import { createServer } from 'node:http';
 import { execFile } from 'node:child_process';
 import { promisify } from 'node:util';
 import path from 'node:path';
+import { getAssetSource } from '../lib/asset-routing.js';
 const exec = promisify(execFile);
 const root = new URL('../', import.meta.url);
 const { version, ornamentAssets, ornamentIllustrations } = JSON.parse(await readFile(new URL('package.json', root), 'utf8'));
@@ -61,7 +62,7 @@ try {
     await choose('wholeDesign', 'flying-pig'); check(await art());
     assert.ok(await evaluate("document.getElementById('whole').src.endsWith('/webp/256/flying-pig.webp')&&document.getElementById('whole').loading==='lazy'&&document.getElementById('selective-illustration').src.endsWith('/webp/256/flying-pig.webp')"), 'Live generic and individual illustration sizing/loading');
     await choose('wholeDesign', 'animal-musicians-ensemble'); check(await art());
-    assert.ok(result.urls.every(url => url.startsWith(origin + '/')));
+    assert.ok(result.urls.every(url => url.startsWith('https://unpkg.com/@ranx729/medieval-ornaments-assets-')));
     const screenshot = await send('Page.captureScreenshot', { captureBeyondViewport: false });
     await writeFile(new URL(`tmp/live-${example}-${width}.png`, root), Buffer.from(screenshot.data, 'base64'));
     records.push({ example, width, ...result });
@@ -69,15 +70,15 @@ try {
   // Load the actual npm modules directly from their pinned CDN, not checkout URLs.
   const cdn = await evaluate(`(async()=>{const api=await import('https://unpkg.com/@ranx729/medieval-ornaments@${version}/lib/index.js');const cases=[['frame',{design:'red-berry-vine'}],['divider',{design:'plate-02-stepped-ribbon'}],['divider',{design:'plate-02-stepped-ribbon',orientation:'horizontal'}],['image',{design:'floral-bird-panel-blue',size:128}],['frame',{design:'blue-diamond-leaf-stencil-band'}],['divider',{design:'blue-paired-birds-and-palmettes',orientation:'vertical'}],['frame',{design:'russet-floral-vine-with-bud-borders'}],['image',{design:'painted-sprawling-floral-panel',size:128}],['image',{design:'gold-scroll-with-blue-bellflowers',format:'png',size:107,pixelRatio:1}],['image',{design:'gold-scroll-with-blue-bellflowers',format:'svg',size:330}],['image',{design:'flying-pig',size:128}],['image',{design:'musicians-and-dancers',size:128}],['image',{design:'animal-musicians-ensemble',size:128}]];const assets=cases.map(([use,options])=>api.resolveOrnament(use,options).asset);await Promise.all(assets.map(async asset=>{const image=new Image();image.src=asset.url;try{await image.decode();}catch(error){throw new Error('CDN image decode failed: '+asset.url,{cause:error});}}));const individual=await import('https://unpkg.com/@ranx729/medieval-ornaments@${version}/lib/designs/red-berry-vine.js');const selected=individual.resolveOrnament('divider');const illustrations=await import('https://unpkg.com/@ranx729/medieval-ornaments@${version}/lib/selection-illustrations.js');if(illustrations.ornaments.length!==41||!illustrations.findOrnaments({categories:['reading'],subjects:['rabbit']}).length)throw Error('Scoped illustration discovery failed');const pig=await import('https://unpkg.com/@ranx729/medieval-ornaments@${version}/lib/designs/flying-pig.js');if(pig.resolveOrnament('image',{size:128}).asset.path!=='webp/256/flying-pig.webp')throw Error('Individual illustration failed');return {individualName:individual.ornament.name,individualUrl:selected.asset.url,version:api.version,assetsPackage:api.assetsPackage,assetsVersion:api.assetsVersion,count:api.ornaments.length,assets};})()`);
   assert.equal(cdn.individualName, 'red-berry-vine');
-  assert.ok(cdn.individualUrl.startsWith(`https://unpkg.com/${ornamentAssets.package}@${ornamentAssets.version}/`));
+  assert.ok(cdn.individualUrl.startsWith(getAssetSource('red-berry-vine').base));
   assert.equal(cdn.version, version); assert.equal(cdn.count, (await (await fetch(origin + '/images.json')).json()).length);
   assert.equal(cdn.assetsPackage, ornamentAssets.package);
   assert.equal(cdn.assetsVersion, ornamentAssets.version);
-  assert.ok(cdn.assets.every(asset => asset.url.startsWith(`https://unpkg.com/${ornamentAssets.package}@${ornamentAssets.version}/`) || asset.url.startsWith(`https://unpkg.com/${ornamentIllustrations.package}@${ornamentIllustrations.version}/`)));
-  assert.ok(cdn.assets.slice(-3).every(asset=>asset.url.startsWith(`https://unpkg.com/${ornamentIllustrations.package}@${ornamentIllustrations.version}/`)));
+  assert.ok(cdn.assets.every(asset => asset.url.startsWith('https://unpkg.com/@ranx729/medieval-ornaments-assets-')));
+  assert.ok(cdn.assets.slice(-3).every(asset=>asset.url.startsWith(getAssetSource('flying-pig').base)));
   records.push({ cdn });
   const folder = await mkdtemp(path.join(tmpdir(), 'ornaments-browser-release-'));
-  const response = await fetch(origin + '/medieval-ornaments-browser.zip'); assert.equal(response.status, 200);
+  const response = await fetch(`https://github.com/adrian729/medieval-ornaments/releases/download/v${version}/medieval-ornaments-browser.zip`); assert.equal(response.status, 200);
   const archive = path.join(folder, 'browser.zip'); await writeFile(archive, Buffer.from(await response.arrayBuffer()));
   await exec('unzip', ['-t', archive]); await exec('unzip', ['-q', archive, '-d', folder]);
   const mime = { '.html': 'text/html', '.js': 'text/javascript', '.css': 'text/css', '.svg': 'image/svg+xml', '.webp': 'image/webp', '.png': 'image/png' };

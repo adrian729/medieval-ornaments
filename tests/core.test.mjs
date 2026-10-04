@@ -5,7 +5,7 @@ import { tmpdir } from 'node:os';
 import path from 'node:path';
 import { execFile } from 'node:child_process';
 import { promisify } from 'node:util';
-import { ornaments, getOrnament, findOrnaments, resolveOrnament, version, assetsPackage, assetsVersion, defaultAssetsBase } from '../lib/index.js';
+import { ornaments, getOrnament, findOrnaments, resolveOrnament, getAssetSource, version, assetsPackage, assetsVersion, defaultAssetsBase } from '../lib/index.js';
 import { main as copyAssets } from '../lib/cli.js';
 const run = promisify(execFile), root = new URL('../', import.meta.url);
 const environment = { ...process.env }; delete environment.NODE_TEST_CONTEXT;
@@ -35,7 +35,7 @@ test('version-pinned public URLs work without any browser globals', () => {
   assert.equal(defaultAssetsBase, `https://unpkg.com/${assetsPackage}@${assetsVersion}/`);
   const options = Object.freeze({ design: 'red-berry-vine' });
   const result = resolveOrnament('frame', options);
-  assert.equal(result.asset.url, defaultAssetsBase + 'svg/red-berry-vine-border.svg');
+  assert.equal(result.asset.url, getAssetSource('red-berry-vine').base + 'svg/red-berry-vine-border.svg');
   assert.equal(result.size, 32);
   assert.equal(result.asset.format, 'svg');
 });

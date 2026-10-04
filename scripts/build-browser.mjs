@@ -4,23 +4,28 @@ import { fileURLToPath } from 'node:url';
 import { execFile } from 'node:child_process';
 import { promisify } from 'node:util';
 import path from 'node:path';
-import { build } from 'vite';
+import { staticAssets } from './demo-assets.mjs';
+import { assetCatalog, assetPaths } from './package-assets.mjs';
+import { resourceFile } from './resource-store.mjs';
+import { copyFile } from 'node:fs/promises';
 const exec = promisify(execFile), root = fileURLToPath(new URL('../', import.meta.url));
 const out = path.join(root, 'dist');
 await mkdir(out, { recursive: true });
 const browser = path.join(out, 'medieval-ornaments-browser');
 await rm(browser, { recursive: true, force: true });
 await mkdir(browser);
-for (const folder of ['lib', 'svg', 'png', 'webp']) await cp(path.join(root, folder), path.join(browser, folder), { recursive: true });
+await cp(path.join(root,'lib'),path.join(browser,'lib'),{recursive:true});
+for(const relative of assetPaths(await assetCatalog())) {const target=path.join(browser,relative);await mkdir(path.dirname(target),{recursive:true});await copyFile(resourceFile(relative),target);}
+await cp(path.join(root,'examples/assets.js'),path.join(browser,'examples/assets.js'));
 for (const name of ['ornaments.css', 'favicon.svg', 'favicon.ico', 'favicon-32.png', 'images.json', 'assets-manifest.json', 'LICENSE', 'ASSET-RIGHTS.md']) await cp(path.join(root, name), path.join(browser, name));
 for (const name of ['index.html', 'demo.html', 'review.html', 'qa.html']) {
   const target = path.join(browser, 'examples', name);
   await cp(path.join(root, 'examples', name), target);
-  await writeFile(target, (await readFile(target, 'utf8')).replace(/<a href="react\/">[^<]*<\/a>/g, ''));
+  await writeFile(target, staticAssets((await readFile(target, 'utf8')).replace('<html lang="en">','<html lang="en" data-assets-base="../">'), '../').replace(/<a href="react\/">[^<]*<\/a>/g, ''));
 }
 await cp(path.join(root, 'examples/vanilla'), path.join(browser, 'examples/vanilla'), { recursive: true });
 const vanillaPage = path.join(browser, 'examples/vanilla/index.html');
-await writeFile(vanillaPage, (await readFile(vanillaPage, 'utf8')).replace('<a href="../react/">React example</a>', '').replace('<a href="../../medieval-ornaments-browser.zip">Browser ZIP</a>', ''));
+await writeFile(vanillaPage, (await readFile(vanillaPage, 'utf8')).replace('<html lang="en">','<html lang="en" data-assets-base="../../">').replace('<a href="../react/">React example</a>', '').replace('<a href="../../medieval-ornaments-browser.zip">Browser ZIP</a>', ''));
 await cp(path.join(root, 'examples/integration.css'), path.join(browser, 'examples/integration.css'));
 await mkdir(path.join(browser, 'docs'));
 await cp(path.join(root, 'docs/INTEGRATION.md'), path.join(browser, 'docs/INTEGRATION.md'));
@@ -34,9 +39,5 @@ await writeFile(path.join(browser, 'README.txt'), 'Serve this folder over HTTP, 
 const zipPath = path.join(out, 'medieval-ornaments-browser.zip');
 await rm(zipPath, { force: true });
 await exec('zip', ['-q', '-r', zipPath, path.basename(browser)], { cwd: out });
-const base = process.env.ORNAMENTS_SITE_BASE || '/medieval-ornaments/';
-const assetsRoot = base.replace(/\/$/, '') + '/';
-await build({ configFile: false, root: path.join(root, 'examples/react'), base: `${assetsRoot}examples/react/`,
-  plugins: [{ name: 'self-host-example', transformIndexHtml: html => html.replace('<html lang="en">', `<html lang="en" data-assets-base="${assetsRoot}">`) }],
-  build: { outDir: path.join(out, 'react'), emptyOutDir: true }, logLevel: 'warn' });
-console.log('Built browser ZIP and self-hosted React example in dist/.');
+await import('./build-react.mjs');
+console.log('Built offline browser ZIP and CDN React demo in dist/.');

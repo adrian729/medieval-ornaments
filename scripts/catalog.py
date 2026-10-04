@@ -10,6 +10,7 @@ import xml.etree.ElementTree as ET
 
 from PIL import Image
 from build_assets import verify_pair
+from resource_paths import resource_file, configuration
 
 ROOT=Path(__file__).resolve().parents[1]
 START='<!-- gallery:start -->'
@@ -46,7 +47,7 @@ def validate(catalog):
             assert max(item['width'],item['height'])<=item['master_longest_dimension_cap']
             assert item['master_longest_dimension_cap']<=max(item['source_canvas'].values())
         for original in entries(item):
-            with Image.open(ROOT/original['png']) as source:master=source.convert('RGBA')
+            with Image.open(resource_file(original['png'])) as source:master=source.convert('RGBA')
             if original is item:assert (master.getchannel('A').getextrema()[0]<255)==item['has_transparency'],item['name']+' transparency metadata'
             for asset in [original,*original['variants']]:
                 expected=master.copy()
@@ -58,13 +59,13 @@ def validate(catalog):
                 assert expected.size==(asset['width'],asset['height'])
                 assert expected.width<=master.width and expected.height<=master.height
                 for fmt in ('png','webp'):
-                    path=ROOT/asset[fmt]
+                    path=resource_file(asset[fmt])
                     assert path.resolve().is_relative_to(ROOT)
                     assert path.stat().st_size==asset[fmt+'_bytes'],path
                     paths.add(asset[fmt])
-                verify_pair(expected,ROOT/asset['png'],ROOT/asset['webp'])
+                verify_pair(expected,resource_file(asset['png']),resource_file(asset['webp']))
             if 'svg' in original:
-                vector_count+=1;path=ROOT/original['svg'];root=ET.parse(path).getroot()
+                vector_count+=1;path=resource_file(original['svg']);root=ET.parse(path).getroot()
                 assert [float(n) for n in root.attrib['viewBox'].split()]==original['viewbox']
                 # SVG exports must be genuine, self-contained vectors.
                 identifiers={node.attrib['id'] for node in root.iter() if 'id' in node.attrib}
@@ -84,6 +85,14 @@ def validate(catalog):
     print(f'Validated {len(catalog)} designs, {vector_count} genuine SVG files, and {len(paths)} total asset files.')
 
 
+def public_url(item, relative):
+    config=configuration()
+    if config is None:return relative
+    identity=config['assignments'][item['name']]
+    pin=json.loads((ROOT/'resource-lock.json').read_text())['sources'][identity]
+    return f"https://unpkg.com/{config['sources'][identity]['package']}@{pin['version']}/{relative}"
+
+
 def gallery(catalog):
     counts=Counter(tag for item in catalog for tag in item['categories'])
     types=Counter(item['asset_type'] for item in catalog)
@@ -92,12 +101,12 @@ def gallery(catalog):
     lines+=['','| Preview | Design | Type | Files |','| --- | --- | --- | --- |']
     for item in sorted(catalog,key=lambda item:item['name'].casefold()):
         preview=next((v['webp'] for v in item['variants'] if v['max_dimension']==128),item['webp'])
-        links=[f"[PNG]({item['png']})",f"[WebP]({item['webp']})"]
-        if item.get('svg'):links+=[f"[SVG]({item['svg']})"]
-        if 'rotated_tile' in item['components']:links+=[f"[Rotated tile]({item['components']['rotated_tile']['svg']})"]
-        if 'corner' in item['components']:links+=[f"[Corner]({item['components']['corner']['svg']})",f"[Border atlas]({item['components']['border_image']['svg']})"]
-        if 'reference_crop' in item['components']:links+=[f"[Reference crop]({item['components']['reference_crop']['png']})"]
-        lines.append(f"| <img src=\"{preview}\" height=\"72\" alt=\"{item['name']}\"> | `{item['name']}` | {item['asset_type']} | {' · '.join(links)} |")
+        links=[f"[PNG]({public_url(item,item['png'])})",f"[WebP]({public_url(item,item['webp'])})"]
+        if item.get('svg'):links+=[f"[SVG]({public_url(item,item['svg'])})"]
+        if 'rotated_tile' in item['components']:links+=[f"[Rotated tile]({public_url(item,item['components']['rotated_tile']['svg'])})"]
+        if 'corner' in item['components']:links+=[f"[Corner]({public_url(item,item['components']['corner']['svg'])})",f"[Border atlas]({public_url(item,item['components']['border_image']['svg'])})"]
+        if 'reference_crop' in item['components']:links+=[f"[Reference crop]({public_url(item,item['components']['reference_crop']['png'])})"]
+        lines.append(f"| <img src=\"{public_url(item,preview)}\" height=\"72\" alt=\"{item['name']}\"> | `{item['name']}` | {item['asset_type']} | {' · '.join(links)} |")
     lines+=['',END]
     return '\n'.join(lines)
 

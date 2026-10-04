@@ -1,19 +1,20 @@
 // Assemble the actual deployment, retaining public artwork and reference sources.
-import { cp, mkdir, readdir, rm, stat, writeFile } from 'node:fs/promises';
+import { cp, mkdir, readdir, rm, stat, writeFile, readFile } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { staticAssets } from './demo-assets.mjs';
 const root = fileURLToPath(new URL('../', import.meta.url));
 const site = path.join(root, 'dist/site');
 await rm(site, { recursive: true, force: true });
 await mkdir(site, { recursive: true });
-for (const directory of ['examples', 'lib', 'svg', 'png', 'webp', 'docs']) {
+for (const directory of ['examples', 'lib', 'docs']) {
   await cp(path.join(root, directory), path.join(site, directory), { recursive: true });
 }
 await mkdir(path.join(site, 'sources'));
 for (const entry of await readdir(path.join(root, 'sources'), { withFileTypes: true })) {
   // Checked-in editable trace masters duplicate the public SVG exports. They
   // remain in Git; neither the browser nor source/reference audit links need them.
-  if (entry.name === 'traces') continue;
+  if (['traces','tiles'].includes(entry.name)) continue;
   await cp(path.join(root, 'sources', entry.name), path.join(site, 'sources', entry.name), { recursive: true });
 }
 const files = ['index.html', 'ornaments.css', 'favicon.svg', 'favicon-32.png', 'favicon.ico',
@@ -23,7 +24,12 @@ const files = ['index.html', 'ornaments.css', 'favicon.svg', 'favicon-32.png', '
   ...(await readdir(root)).filter(name => name.endsWith('.md'))];
 for (const name of files) await cp(path.join(root, name), path.join(site, name));
 await cp(path.join(root, 'dist/react'), path.join(site, 'examples/react'), { recursive: true });
-await cp(path.join(root, 'dist/medieval-ornaments-browser.zip'), path.join(site, 'medieval-ornaments-browser.zip'));
+const pkg=JSON.parse(await readFile(path.join(root,'package.json')));
+const archive=`https://github.com/adrian729/medieval-ornaments/releases/download/v${pkg.version}/medieval-ornaments-browser.zip`;
+for(const relative of ['examples/demo.html','examples/index.html','examples/review.html','examples/qa.html','examples/vanilla/index.html']) {
+ const target=path.join(site,relative);let html=staticAssets(await readFile(target,'utf8'));
+ html=html.replace('../../medieval-ornaments-browser.zip',archive);await writeFile(target,html);
+}
 await writeFile(path.join(site, '.nojekyll'), '');
 async function bytes(directory) {
   const totals = await Promise.all((await readdir(directory, { withFileTypes: true })).map(async entry =>
@@ -32,7 +38,7 @@ async function bytes(directory) {
 }
 const total = await bytes(site);
 // GitHub Pages limits the published site to 1 GB. Keep measurable headroom.
-if (total >= 950_000_000) throw Error(`Published site is ${total} bytes, above the 950 MB deployment budget. Move optional archives to release hosting before adding more data.`);
+if (total >= 50_000_000) throw Error(`Published site is ${total} bytes, above the 50 MB lightweight-site budget. Resources belong in the registered asset repositories/CDN, and ZIPs in Releases.`);
 await mkdir(path.join(root, 'tmp'), { recursive: true });
-await writeFile(path.join(root, 'tmp/site-build.json'), JSON.stringify({ bytes: total, excludedSourceDirectory: 'sources/traces', budget: 950_000_000 }) + '\n');
-console.log(`Assembled GitHub Pages site: ${total} bytes; reference sources retained, editable traces remain in Git.`);
+await writeFile(path.join(root, 'tmp/site-build.json'), JSON.stringify({ bytes: total, externalResources: true, releaseArchive: archive, budget: 50_000_000 }) + '\n');
+console.log(`Assembled GitHub Pages site: ${total} bytes; reference sources retained; artwork uses pinned CDN, ZIP uses Releases.`);

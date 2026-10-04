@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "migratedFrom": {
+    "repository": "adrian729/medieval-ornaments",
+    "commit": "f2cc124e2864f62c5cc4a709a2736b99af8f7d47",
+    "manifestSha256": "aca0d73c8e00fc325fbca9671c2ad6a3a91ce8e15994d7770b916da9cad9c833"
+  },
+  "sources": {
+    "borders-001": {
+      "version": "0.1.0",
+      "gitCommit": null,
+      "manifestSha256": "26ff5df025ea6864f159a1415d304d1e84779a9b149020163457f1f34809ca8a",
+      "filesSha256": "dc315ff0636e2802e6d8d59d3a45d330bd865f4fefdbf4b2c30835d1ee7b0b39"
+    },
+    "decorations-001": {
+      "version": "0.1.0",
+      "gitCommit": null,
+      "manifestSha256": "7cc698691d1014d79d9082be7523f33c1ecb78493ba607d5a2216de85f4b89e6",
+      "filesSha256": "5b893f942637ab180b5ab57cf0b45129596c645f50310e2556e8508c547830ee"
+    },
+    "illustrations-001": {
+      "version": "0.1.0",
+      "gitCommit": null,
+      "manifestSha256": "c8e14a861338acc55478bbc76f867143e1cee8267a27a6d0bd5cc37006ba3409",
+      "filesSha256": "c01efa653881e21acdbfc0d4ec5ac5b8c2431fd4323b524086cee47fd1681837"
+    }
+  }
+}

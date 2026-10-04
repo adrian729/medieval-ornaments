@@ -5,3 +5,11 @@ __pycache__/
 node_modules/
 dist/
 *.tgz
+
+# Local flat authoring views; canonical artwork lives in registered resources.
+/png/
+/webp/
+/svg/
+/sources/tiles/
+/sources/traces/
+/sources/medieval-cutouts/sources/

@@ -1,3 +1,4 @@
+from resource_paths import resource_file
 """Source-based plate geometry. Native crops/traces are checked-in build inputs."""
 from pathlib import Path
 import json,xml.etree.ElementTree as ET
@@ -38,7 +39,7 @@ def retouch_vector(body,width,height,audit):
 def load_spec(spec, audit=None):
     name=spec['name']
     if audit is None:audit=json.loads((ROOT/'source-patterns.json').read_text())[name]
-    root=ET.parse(ROOT/audit.get('trace_path',f'sources/traces/{name}.svg')).getroot()
+    root=ET.parse(resource_file(audit.get('trace_path',f'sources/traces/{name}.svg'))).getroot()
     native_w=int(root.attrib['width']);native_h=int(root.attrib['height'])
     width=native_w
     children=''.join(ET.tostring(c,encoding='unicode').replace('ns0:','').replace(':ns0','') for c in root)
@@ -47,7 +48,7 @@ def load_spec(spec, audit=None):
     body=f'<g transform="scale({native_w/view[2]} {native_h/view[3]}) translate({-offset} 0)">{children}</g>'
     # Both ends have the same narrow source-color collar. Curves fitted in two
     # neighboring periods can otherwise differ slightly at the clipping line.
-    image=Image.open(ROOT/audit.get('tile_path',f'sources/tiles/{name}.png')).convert('RGB')
+    image=Image.open(resource_file(audit.get('tile_path',f'sources/tiles/{name}.png'))).convert('RGB')
     collar='';scale=1;collar_width=.45
     if audit['kind']=='repeat-tile':
         for y in range(native_h):
@@ -120,7 +121,7 @@ def raster_documents(spec):
     native atlas/corner exports preserve the painted appearance independently
     of the approximate color trace used for their SVG alternatives.
     """
-    name=spec['name'];image=Image.open(ROOT/spec.get('tile_path',f'sources/tiles/{name}.png')).convert('RGBA')
+    name=spec['name'];image=Image.open(resource_file(spec.get('tile_path',f'sources/tiles/{name}.png'))).convert('RGBA')
     w,b=image.size;size=w+2*b
     corner=Image.new('RGBA',(b,b));frame=Image.new('RGBA',(size,size))
     for y in range(size):

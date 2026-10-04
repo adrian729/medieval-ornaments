@@ -75,3 +75,7 @@ findOrnaments({ hasTransparency: 'true' });
 // @ts-expect-error Head direction uses the documented vocabulary.
 findOrnaments({ facing: 'up' });
 void [pigsType, boundPig, dynamicIllustration, scopeImages, pigSVG, pigDivider];
+
+import { getAssetSource } from '@ranx729/medieval-ornaments/resources';
+const sourceUrl: string = getAssetSource("red-berry-vine").base;
+void sourceUrl;
