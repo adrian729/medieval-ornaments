@@ -1,5 +1,174 @@
 # Artwork and frame verification
 
+## Corrected Polyhymnia and 0.8.0 release preparation (2026-10-08)
+
+Replaced all 10 existing Polyhymnia exports and its native input with the supplied
+`polyhymnia-final.png`, now 1004×1567. All names, descriptions, tags and usage
+notes remain unchanged; other 136 entries and approved resource files/inputs
+are identical. Compression preserves new RGBA pixels; each PNG/WebP size was
+reviewed on light/dark and verified lossless. Superseded hashes and original
+generation prompt remain audited; no unknown correction prompt is invented.
+Browser checks, source/resource hash checks, catalog, unit/types, isolated rebuild
+retention and selective imports pass. Release coordination continues below.
+
+## Polyhymnia illustration · local candidate (2026-10-08)
+
+Added `polyhymnia` as a complete 1004×1566 framed scene in illustrations-001.
+`illustration-additions.json` retains the supplied exact generation prompt,
+original hash/bytes and compressed PNG hash. It records a modern AI illustration
+without inferring the unidentified reference frame's historical attribution.
+PNG compression reduced 3,536,416 B to 3,357,834 B with identical RGBA pixels.
+Native lossless PNG/WebP plus 128/256/512/768 variants supply 10 public files;
+every pair preserves alpha and visible RGB. All sizes and the complete scene
+were visually reviewed, including organ, veil, border and irregular outer alpha.
+
+The original 136 catalog entries and every earlier approved illustration file
+and native input are unchanged. The catalog now has 137 designs (58 borders,
+24 decorations, 55 illustrations), 2,059 public asset files. Resource ownership,
+approved hashes and resource package verification pass; illustrations-001 has
+221,489,530 B of approved artwork/input bytes, below capacity. PNG/WebP display
+correctly on light/dark in the main browser; unavailable SVG is disabled. The
+simple added-assets overview includes the new image.
+
+38 unit tests, public types, catalog/README validation, artwork checks and
+selective import audits pass. Individual imports retain one design. The latest
+packed consumer integration passes all 137 designs, 174 native-axis cases and
+32 density/length cases, with React 18/19, SSR/hydration, copied components and
+self-hosting; all 2,059 public artwork files are verified against pinned hashes.
+Fixture: `/tmp/ornaments-integration-a8ARzk`.
+The latest
+runtime is **199,283 B packed / 1,204,457 B unpacked**, 875 files, no artwork,
+inside the original budget. Evidence lives in ignored `tmp/polyhymnia/`.
+All resource revisions remain local at 0.1.2 with pending publication/commit pins.
+
+## Refined Rosselli corners · local candidate (2026-10-08)
+
+Replaced the rigid diagonal corner splices in both Rosselli borders with four
+separately edited foliate turns per design. These are modern AI-assisted
+adaptations of the same leaves/scrolls. The editor outputs and native four-corner
+sheets are retained in borders-001; exact prompts, hashes, downscaling and
+assembly are recorded in `historical-border-patterns.json`. A 12px original
+connecting collar and 12px premultiplied-alpha feather preserve each phase.
+
+Only 28 corner/atlas exports changed. All earlier native input hashes, straight
+atlas strips, repeat units, whole strips and the other 134 catalog entries match
+the pre-edit snapshot. All eight corners were visually inspected on light/dark
+at native size and in working frames, including 33px at fractional DPR.
+
+Catalog/README validation, 416 exact joins (16 in these two borders), 110 integer
+atlas slices, 58 exact rotations, isolated illustration rebuild retention,
+38 unit tests, public types, resource byte verification and `git diff --check`
+pass. Chromium checks pass 48 frame and 48 divider cases across PNG/WebP,
+light/dark, 33/96px and DPR 1/1.25/2. Before/after preview and evidence are in
+ignored `tmp/rosselli-corners/`; working frame screenshots in `tmp/rosselli-review/`.
+The latest runtime archive is **197,828 B packed / 1,198,353 B unpacked**, 869
+files, within the original budget. borders-001 is 482,795,571 B, below capacity.
+No publication or commit pin was added. Packed integration results below belong
+to the preceding repeat-border candidate; they were not rerun for this corner edit.
+
+## Rosselli repeating borders and runtime size · local candidate (2026-10-08)
+
+Added `rosselli-mask-border` (270×290, original vertical direction) and
+`rosselli-foliate-border` (274×438, original vertical direction). The mask unit
+retains a complete human-mask/foliate alternation; the foliate unit uses an upper
+paired-leaf cycle and excludes the distinct lower terminal. Source print and
+approved whole strips were inspected. Interior pixels remain unchanged; only
+a two-pixel join collar is averaged. Whole strips remain unchanged.
+`historical-border-patterns.json` records bounds, hashes and accepted reviews.
+
+Native PNG/WebP atlases are 830×830 with 270px slices, and 986×986 with 274px
+slices. Each supplies four phase-matched, reflected miter corners made from the
+same artwork. These are modern adaptations, not recovered historical corners.
+Smaller atlas exports have integer slices; rotations are exact 90-degree turns.
+No SVG stand-in or raster upscaling was introduced. Ordinary selected builds
+reuse the assigned border resource's retained native unit and reference crop;
+source preparation is explicit.
+
+- Previous 134 catalog entries and all earlier border artwork/input hashes match
+  the pre-edit snapshot. Original museum scans and whole-strip masters are intact.
+- Native checks: 416 exact source-frame joins, 110 integer-sliced atlases and
+  58 pixel-exact rotated tiles. Both new reference crops retain the original pixels.
+- Chromium: 48 frame and 48 divider cases, PNG/WebP, light/dark, 33px/96px,
+  DPR 1/1.25/2; no errors, incomplete divider cycles or overflow. Large artwork,
+  leaves/stems and all corners were visually inspected. Main browser disables
+  unavailable SVG; source review includes both designs. Mobile overview fits.
+- 38 unit tests, public types and isolated rebuild retention pass. Actual packed
+  consumers pass 136 designs, 174 native-axis cases, 32 density/length cases,
+  vanilla, copied components, React 18/19, SSR/hydration and self-hosting.
+- Resource verification passes: borders-001 is 472,166,185 B, below capacity.
+  All three resource 0.1.2 revisions remain local with pending exact commit pins.
+
+Shared generic TypeScript declarations and a private field/path codec remove
+installed duplication while keeping the public JSON catalog and all metadata
+values intact. Copied components include the codec; rendering entries import
+only their own data and assigned URL constant. Individual production bundles
+still include one design: representative vanilla 15,146 JS bytes / React 14,899.
+The original **200,000 B packed / 1,250,000 B unpacked** test limits are restored
+and also enforced for supplied candidate archives. Final reviewed candidate:
+**197,754 B packed / 1,198,063 B unpacked**, 869 files, no artwork or automatic
+artwork dependency. The earlier size issue below is resolved.
+
+Evidence: ignored `tmp/rosselli-review/` screenshots, browser reports, resource
+snapshots and integration log; `tmp/package-integration.json` and selective audit.
+Catalog/README, resource hash checks and `git diff --check` pass. Ordinary release
+packaging still rejects missing source commit pins; nothing was published.
+
+## Historical additions · local candidate (2026-10-08)
+
+Added 23 designs (13 illustrations, 10 whole decorations), for a total of 134:
+56 borders, 24 decorations and 54 illustrations. Twenty-two are AI-assisted
+extractions from historical objects with CC0/public-domain reproductions. One is
+an independently composed modern interpretation of the rabbit/hound/horn motif;
+no restricted Fitzwilliam scan was imported. Exact prompts, untouched source
+hashes, retained generated inputs, export caps and individual reviews are in
+`historical-additions.json`. Existing origins were not researched or backfilled.
+
+Every final asset was compared with its source/motif and viewed in the main
+browser on light and dark backgrounds. The 46 screenshots and six contact sheets
+are in ignored `tmp/historical-review/`. Both frame centers have alpha zero;
+their fixed shapes are complete images. Thin ropes, bowstring, antennae, sepals,
+petals and penwork were inspected. Strips retain their original endings; no
+new repeat unit, corner or adaptable frame atlas is claimed. Integrated panels
+and overlapping apple halves remain whole. Authored usage notes describe retained
+panel ground, source resolution and AI extraction limits.
+
+Validation passed:
+
+- All 111 previous catalog entries retain their values, field order and catalog
+  positions. All 1,909 previously approved public/input files match their original
+  byte counts and SHA-256 hashes. The historical import snapshot is untouched.
+- 37 unit tests, public TypeScript checks, metadata build and source-search checks;
+  provenance survives full/scoped/individual metadata and copied components.
+- Catalog/README validation: 134 designs, 233 SVG files, 1,985 public artwork files;
+  PNG/WebP pairs preserve visible RGB/alpha and variants do not upscale masters.
+- Existing artwork check: 400 exact source-frame joins, 102 raster atlases with
+  integer slices and 56 pixel-exact rotated tiles.
+- Isolated rebuild retention: 510 illustration files and all PNG masters retained,
+  including missing-entry/new-entry, authored-note, idempotence and preflight cases.
+- Numbered-resource inventory verification: borders unchanged at 456,187,466 bytes;
+  decorations 150,662,105 bytes; illustrations 209,566,115 bytes. All fit capacity.
+- Actual packed candidate consumers passed with 134 designs, 168 native-axis/design
+  cases, 32 density/length cases, vanilla native/bundled code, React 18/19,
+  Strict Mode, production, SSR/hydration, refs/state, types and self-hosting.
+  Candidate runtime packing used `npm pack --ignore-scripts` explicitly, followed
+  by `ORNAMENTS_PACKAGE=<local archive> npm run test:integration`; this does not
+  claim a published or release-approved package.
+- Optional compatibility staging reproduces the original 111-design snapshot at
+  archive versions 0.4.0/0.1.0 without changing its shared approved manifest.
+  Legacy selections remain usable; new selections fail before requests/writes.
+  Exact numbered packages supply the full current catalog in packed consumers.
+- Selective production audit still includes one design for individual imports
+  (representative vanilla 15,405 JS bytes / React 15,158); artwork remains external.
+- Runtime archive: 207,792 bytes packed, 1,427,906 bytes unpacked, 856 files; no artwork payload or automatic artwork dependency.
+  This exceeds the previous 111-design runtime budget (200 KB / 1.25 MB); package-size work remains a release gate rather than a passed optimization check.
+- `git diff --check` passes. Ordinary release prepack correctly refuses unlocked
+  resource commits before writing package metadata.
+
+Decoration and illustration 0.1.2 revisions are prepared locally with pending
+commit pins. Resource publication, npm/CDN verification, exact clean commit locks,
+runtime version/release and live deployment checks remain pending. README keeps
+working published links for old artwork and labels the new rows pending.
+
 ## Consolidation review · runtime 0.6.1 (2026-10-04)
 
 Reviewed migration fidelity, selection metadata, generated/individual APIs,

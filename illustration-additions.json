@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "assets": [
+    {
+      "name": "polyhymnia",
+      "source": "user-supplied imagegen/polyhymnia-final.png",
+      "source_description": "Polyhymnia, veiled and contemplative, playing a portative organ in the manuscript\u2019s painted style.",
+      "tool": "image_gen.imagegen (recorded in supplied prompt file)",
+      "method": "independent-ai-interpretation",
+      "prompt": "Generated using the built-in image_gen tool.\n\nUse case: precise-object-edit.\nInput image 1 is the EDIT TARGET and the authoritative style reference. Complete this existing ornate illuminated-manuscript page by adding a fitting painted representation of POLYHYMNIA within the empty transparent arched opening (which may display as black). This is a careful fine-art restoration-style addition, one cohesive manuscript miniature, not a modern portrait.\n\nPreserve the existing outer border faithfully: identical asymmetric proportions, broad left and lower borders and narrow right border, every flower, butterfly, bird, white acanthus branch, green stem, stippled antique gold surface, red inner outline, and original framing. Do not cover or repaint the decoration. Paint only inside the empty arch. Keep the entire page visible and uncropped, with its original tall aspect ratio. Preserve transparency outside the irregular outer edge, but make the entire completed interior miniature opaque.\n\nInterior composition: a dignified full-length seated Polyhymnia, the Greek Muse of sacred hymns, as a late-15th-century Northern European illuminator might have imagined her. She is the sole figure, prominent and gracefully fitted to the tall narrow arch. A youthful adult woman with a serene, serious, introspective expression, delicately modeled face, downcast eyes, brown hair partly covered by a soft ivory veil. Long modest ivory classical robes in elegant finely articulated folds, muted rose sleeves, and a rich lapis-blue mantle arranged over her shoulder and across her knees, with restrained antique gold edging. Her fully draped seated body and hem are visible; balanced believable anatomy. No halo.\n\nInstrument: a historically plausible SMALL RENAISSANCE PORTATIVE PIPE ORGAN resting securely across her lap, a warm carved wood windchest with restrained gilded details, a short clearly rendered ivory keyboard and a neat rank of graduated silver-gold cylindrical pipes, with distinct pipe mouths and open tops. This is a small portable organ, not a piano, panpipes, harp or church organ. Her right hand gently presses the small keys; her left hand naturally operates the pleated leather bellows at the rear/side. Hands, fingers, wrist positions, instrument scale, pipe structure and support must be carefully coherent. The instrument must be clearly identifiable without obscuring her face.\n\nSetting: she sits on a simple low stone seat in a quiet garden terrace; a subdued distant Northern Renaissance landscape of soft green hills and small trees beneath pale blue atmospheric sky fills the upper arch. A little stone paving and restrained greenery below. Keep the background subordinate and uncluttered, with no other people, animals, books, symbols or additional decorative border. Figure and instrument should occupy most of the inset's height, with comfortable breathing room below the curved apex.\n\nStyle and integration: MATCH THE PROVIDED IMAGE, not generic fantasy art. Finely painted Flemish/Ghent-Bruges illuminated manuscript miniature, circa 1490\u20131520, opaque tempera and gouache on vellum, fine dark contours, tiny brushstrokes, luminous mineral pigments, crisp pale highlights, delicate local shadows, restrained spatial depth, very subtle aged parchment texture and patina. Match the tangible hand-painted petals, acanthus modeling, cobalt blues, blush pinks, ivory whites and mellow antique gold of the original border. The newly painted miniature should look made by the same historical workshop as the flowers. No photographic rendering, digital airbrush, glossy 3D, cinematic lighting, modern fashion, exaggerated fantasy details, cartoon features, text, captions, signatures, watermarks, new frame, cropping, or changes to the existing floral border.\n",
+      "prompt_sha256": "a13b24b9bb13ae70d9167b844592295c7d0540b0de4897b07a12b994d8b7a8fc",
+      "reference_notes": "The supplied generation prompt describes editing a pre-existing illuminated floral frame; the exact input frame and historical source were not supplied. No historical attribution or image-rights claim is inferred.",
+      "generated_input": "sources/tiles/polyhymnia.png",
+      "generated_sha256": "5ef6519c5aecf83c5127ea53fe7e09f7038b6907778776b49e0b7de0937442e1",
+      "master_path": "png/polyhymnia.png",
+      "master_sha256": "2c090e3b51ed7c6c6505fb4d8c77bd956abbbba5c92667c14a07199db60359df",
+      "native_dimensions": [
+        1004,
+        1567
+      ],
+      "processing": "PNG compression only, identical RGBA pixels; lossless WebP and smaller variants built directly from the master. No trimming, cleanup, extraction or upscaling.",
+      "review": {
+        "status": "accepted",
+        "checks": [
+          "corrected-master-rgba-identical-to-supplied-final",
+          "all-ten-exports-replaced-under-existing-filenames",
+          "lossless-png-webp-alpha-and-visible-rgb",
+          "variants-directly-from-corrected-native-master",
+          "every-size-visual-review-light-dark",
+          "description-tags-notes-and-other-assets-unchanged",
+          "assigned-resource-and-manifest-hashes"
+        ],
+        "notes": "User-corrected final version retained with no further painting or cleanup. Original generation prompt and superseded hashes remain in the audit. Native height is now 1567px; smaller size dimensions and every public filename are unchanged."
+      },
+      "revisions": [
+        {
+          "status": "superseded",
+          "source": "user-supplied imagegen/polyhymnia.png",
+          "generated_sha256": "6033f72fd1297b5f0fd8ba6418359ad7258e03ccb86b856d545dcc78e9e228b0",
+          "master_sha256": "252818478d7d9fa2cf0af0518192191115b965f617d839a785d63f874a014acb",
+          "native_dimensions": [
+            1004,
+            1566
+          ],
+          "review": {
+            "status": "accepted",
+            "checks": [
+              "master-rgba-identical-to-supplied-source",
+              "lossless-png-webp-alpha-and-visible-rgb",
+              "variants-directly-from-native-master",
+              "native-and-each-variant-visual-review",
+              "browser-light-dark-png-webp",
+              "existing-artwork-and-catalog-retained",
+              "assigned-numbered-resource-and-manifest-hashes"
+            ],
+            "notes": "Complete framed scene retained. Veil, organ keyboard/pipes/bellows, floral border, landscape and outer alpha reviewed; no extraction or cleanup applied."
+          }
+        }
+      ],
+      "replacement": {
+        "instruction": "Replace the existing image with the user-corrected final version; keep descriptions and public filenames.",
+        "prompt_scope": "The saved prompt is the original generation prompt. Subsequent correction prompts were not supplied.",
+        "source_sha256": "5ef6519c5aecf83c5127ea53fe7e09f7038b6907778776b49e0b7de0937442e1",
+        "preserved_public_name": "polyhymnia",
+        "date": "2026-10-08"
+      }
+    }
+  ]
+}

@@ -36,6 +36,16 @@ def validate(catalog):
         assert set(item['colors'])<=set(SCHEMA['color']['enum'])
         assert item['facing'] in SCHEMA['facing']['enum']
         assert item['composition'] in SCHEMA['composition']['enum']
+        if 'provenance' in item:
+            origin = item['provenance']
+            definition = SCHEMA['provenance']
+            assert isinstance(origin, dict) and set(definition['required']) <= origin.keys(), item['name']+' provenance'
+            assert origin.keys() <= definition['properties'].keys(), item['name']+' provenance fields'
+            assert all(isinstance(value, str) and value.strip() for value in origin.values()), item['name']+' provenance values'
+            assert origin['method'] in definition['properties']['method']['enum']
+            for field in ['record_url', 'image_url', 'rights_url', 'source_sha256']:
+                if field in origin:
+                    assert re.match(definition['properties'][field]['pattern'], origin[field]), item['name']+' '+field
         assert item['asset_type'] in ['border','decoration','illustration']
         assert item['kind'] in ['standalone','repeat-tile']
         assert (item['asset_type']=='border')==(item['kind']=='repeat-tile')
@@ -100,17 +110,34 @@ def public_url(item, relative, *, preview=False):
 
 
 def gallery(catalog):
+    # Pending source revisions are local authoring state. Keep the last
+    # published links for existing artwork and do not invent CDN URLs for new
+    # files. A locked revision regenerates every row normally after publication.
+    config = configuration()
+    pins = json.loads((ROOT/'resource-lock.json').read_text())['sources'] if config else {}
+    previous_rows = {}
+    for row in (ROOT/'README.md').read_text().splitlines():
+        match = re.match(r'^\| .* \| `([a-z0-9-]+)` \| (border|decoration|illustration) \| .* \|$', row)
+        if match:
+            previous_rows[(match[1], match[2])] = row
     counts=Counter(tag for item in catalog for tag in item['categories'])
     types=Counter(item['asset_type'] for item in catalog)
     lines=[START,'## Browse designs','',f"{len(catalog)} designs: {types['border']} repeating borders, {types['decoration']} whole decorations and {types['illustration']} illustrations.", '', '| Category | Designs |','| --- | --- |']
     lines.extend(f'| `{tag}` | {count} |' for tag,count in sorted(counts.items()))
     lines+=['','| Preview | Design | Type | Files |','| --- | --- | --- | --- |']
     for item in sorted(catalog,key=lambda item:item['name'].casefold()):
+        if config and pins[config['assignments'][item['name']]].get('gitCommit') is None:
+            lines.append(previous_rows.get((item['name'], item['asset_type']),
+                         f"| Pending publication | `{item['name']}` | {item['asset_type']} | Review in the local browser (`?assets=local`) |"))
+            continue
         preview=next((v['webp'] for v in item['variants'] if v['max_dimension']==128),item['webp'])
         links=[f"[PNG]({public_url(item,item['png'])})",f"[WebP]({public_url(item,item['webp'])})"]
         if item.get('svg'):links+=[f"[SVG]({public_url(item,item['svg'])})"]
-        if 'rotated_tile' in item['components']:links+=[f"[Rotated tile]({public_url(item,item['components']['rotated_tile']['svg'])})"]
-        if 'corner' in item['components']:links+=[f"[Corner]({public_url(item,item['components']['corner']['svg'])})",f"[Border atlas]({public_url(item,item['components']['border_image']['svg'])})"]
+        if 'rotated_tile' in item['components']:
+            asset=item['components']['rotated_tile'];links+=[f"[Rotated tile]({public_url(item,asset.get('svg',asset['png']))})"]
+        if 'corner' in item['components']:
+            corner=item['components']['corner'];atlas=item['components']['border_image']
+            links+=[f"[Corner]({public_url(item,corner.get('svg',corner['png']))})",f"[Border atlas]({public_url(item,atlas.get('svg',atlas['png']))})"]
         if 'reference_crop' in item['components']:links+=[f"[Reference crop]({public_url(item,item['components']['reference_crop']['png'])})"]
         lines.append(f"| <img src=\"{public_url(item,preview,preview=True)}\" height=\"72\" alt=\"{item['name']}\"> | `{item['name']}` | {item['asset_type']} | {' · '.join(links)} |")
     lines+=['',END]

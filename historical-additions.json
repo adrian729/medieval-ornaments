@@ -1,0 +1,1304 @@
+{
+  "schema_version": 1,
+  "sources": {
+    "rabbit-bells": {
+      "candidate": "walters-w102-81r",
+      "path": "sources/historical/rabbit-bells.jpg",
+      "sha256": "c329b6f3255b2ec40ac8868a1ceee0f0fc3e1a1797facc2b8b3e5064a61e41cb",
+      "width": 985,
+      "height": 1024,
+      "download_url": "https://live.staticflickr.com/8014/7699243818_f188d31fba_b.jpg"
+    },
+    "horse-flute-drum": {
+      "candidate": "walters-w102-74v",
+      "path": "sources/historical/horse-flute-drum.jpg",
+      "sha256": "91c4d324065db3ef13d6ca547f7e62d4231010db5b04d614d6435c432caf51f5",
+      "width": 409,
+      "height": 494,
+      "download_url": "https://pdr-assets.b-cdn.net/collections/music-in-the-margins-the-funeral-of-reynard-the-fox-13th-century/35897180625_74c08433b2_o.jpg"
+    },
+    "centaur-archer": {
+      "candidate": "walters-w102-82v",
+      "path": "sources/historical/centaur-archer.jpg",
+      "sha256": "4f3c9f7909682439c1ad1cd159ba76134e0f4312a851224390ae2750859ef442",
+      "width": 1023,
+      "height": 793,
+      "download_url": "https://live.staticflickr.com/8023/7699241118_60ac2881e4_b.jpg"
+    },
+    "elephant-castle": {
+      "candidate": "walters-w102-28r",
+      "path": "sources/historical/elephant-castle.jpg",
+      "sha256": "65f8a85603442f192063a8b6298def18ca577d635c955fd4b97c611d590a0ae2",
+      "width": 719,
+      "height": 1023,
+      "download_url": "https://live.staticflickr.com/8013/7650320442_11fe46635b_b.jpg"
+    },
+    "rosselli-border-segments": {
+      "candidate": "met-356741",
+      "path": "sources/historical/rosselli-border-segments.jpg",
+      "sha256": "98d28d964a4d99da22c8195476ad3c632a032b850f3ee3efe3ef019515dd88f8",
+      "width": 2286,
+      "height": 3389,
+      "download_url": "https://images.metmuseum.org/CRDImages/dp/original/DP833949.jpg"
+    },
+    "aldegrever-tendrils": {
+      "candidate": "met-422674",
+      "path": "sources/historical/aldegrever-tendrils.jpg",
+      "sha256": "dd571bc182e37d863ecd09e7a2774807d77a88a04c5cb13650ff437542f9b53b",
+      "width": 2878,
+      "height": 1067,
+      "download_url": "https://images.metmuseum.org/CRDImages/dp/original/DP836788.jpg"
+    },
+    "hopfer-thistles": {
+      "candidate": "met-373115",
+      "path": "sources/historical/hopfer-thistles.jpg",
+      "sha256": "5358f3001b24cd7b2e4a87a420be53f79ccc42a9655d18be6e94d5a684d40d3a",
+      "width": 2833,
+      "height": 4000,
+      "download_url": "https://images.metmuseum.org/CRDImages/dp/original/MM47469.jpg"
+    },
+    "isabella-hours-80v": {
+      "candidate": "cleveland-1963-256-80-b",
+      "path": "sources/historical/isabella-hours-80v.jpg",
+      "sha256": "74b406120e8c2872fddd48d75be535e24f479ea4b15b07a233855a072f229472",
+      "width": 3802,
+      "height": 5545,
+      "download_url": "https://archive.org/download/clevelandart-1963.256.80.b-hours-of-queen-isabe/1963.256.80.b_full.jpg"
+    },
+    "getty-rose-apple-107": {
+      "candidate": "getty-ms20-107",
+      "path": "sources/historical/getty-rose-apple-107.jpg",
+      "sha256": "4a9ac6e7d8bfc6f1ff31b9a83b5ead4ec79afb74e3b51b4fde9fa28fd4a69700",
+      "width": 5877,
+      "height": 8212,
+      "download_url": "https://media.getty.edu/iiif/image/c87fb882-b2e5-4d43-b225-c90f00569be8/full/full/0/default.jpg"
+    }
+  },
+  "assets": [
+    {
+      "name": "walters-rabbit-church-bells",
+      "candidate": "walters-w102-81r",
+      "source": "rabbit-bells",
+      "asset_type": "illustration",
+      "max_dimension": 960,
+      "region": "Complete brown rabbit, red bell rope and cream church with blue roofs. Remove the writing, parchment stains, green ground, ruling lines and all background. Keep church wall surfaces, dark windows and painted interior parts opaque; retain both thin hanging ends of the red rope. The rabbit and church are one connected composition.",
+      "description": "A brown rabbit pulls a red bell rope beside a cream church with blue roofs, a bell tower and a dark circular window.",
+      "categories": [
+        "animals",
+        "fantasy",
+        "music"
+      ],
+      "subjects": [
+        "rabbit",
+        "church",
+        "bell",
+        "rope",
+        "architecture"
+      ],
+      "colors": [
+        "brown",
+        "blue",
+        "cream",
+        "red",
+        "black"
+      ],
+      "facing": "right",
+      "composition": "framed-scene",
+      "prompt": "Edit target: the attached historical source image. Extract exactly one asset from the specified region. Preserve the historical drawing, colors, imperfections and proportions; do not replace with a generic ornament or modern redraw. Complete brown rabbit, red bell rope and cream church with blue roofs. Remove the writing, parchment stains, green ground, ruling lines and all background. Keep church wall surfaces, dark windows and painted interior parts opaque; retain both thin hanging ends of the red rope. The rabbit and church are one connected composition. Return a single tightly framed asset with a modest transparent margin. Do not place other source entities, labels, a paper rectangle, a checkerboard texture or a drop shadow around it. Preserve genuinely transparent alpha outside the extracted entity. ",
+      "estimated_bytes": 8000000,
+      "generated_input": "sources/tiles/walters-rabbit-church-bells.png",
+      "generated_sha256": "adec10d7017f69478ecab4ba4f310bed5e40c8ef3025fe18d795d0e2543752e3",
+      "export_crop": [
+        62,
+        1,
+        1158,
+        1279
+      ],
+      "alpha_crop_threshold": 16,
+      "crop_padding": 8,
+      "master_sha256": "59b1a39a1bac45f3d66a13792fe8412f1db3cae1c9e3ce388722a64e29f8fb54",
+      "review": {
+        "status": "accepted",
+        "checks": [
+          "historical-source-or-text-motif-comparison",
+          "final-png-on-light-background",
+          "final-png-on-dark-background",
+          "webp-decoding",
+          "transparent-openings-and-fine-details",
+          "no-unverified-repeat"
+        ],
+        "notes": "Rabbit, church, dark windows, cross and both rope ends retained together; text, ground and page removed. Open bell-tower arch is transparent."
+      }
+    },
+    {
+      "name": "walters-horse-flute-drum",
+      "candidate": "walters-w102-74v",
+      "source": "horse-flute-drum",
+      "asset_type": "illustration",
+      "max_dimension": 400,
+      "region": "Complete upright blue spotted horse playing its slim pipe and red-rimmed round drum, including the thin drumstick, tail and feet. Remove writing, parchment and green ground; keep drum membrane opaque.",
+      "description": "An upright blue spotted horse blows a small pipe while holding a round red-rimmed drum and a curved drumstick.",
+      "categories": [
+        "animals",
+        "fantasy",
+        "music"
+      ],
+      "subjects": [
+        "horse",
+        "flute",
+        "drum",
+        "musician"
+      ],
+      "colors": [
+        "blue",
+        "red",
+        "cream",
+        "black"
+      ],
+      "facing": "right",
+      "composition": "single-figure",
+      "prompt": "Edit the reference historical manuscript detail. Extract ONLY the complete upright blue horse-like musician blowing the slim pipe and holding a round red-rimmed drum and its thin bent drumstick. Preserve exactly the reference pose facing right, spotted blue pigment, long curled tail, hoof-shaped feet, black ink outlines, worn paint and medieval proportions. Remove all surrounding parchment, writing along the top, green ground and ruling lines. The spaces around the figure, between its legs, around the tail, and between the arm and drum must be genuinely transparent. Preserve the cream membrane INSIDE the drum as opaque paint. Do not invent extra details, modernize, smooth out historic texture, add shadows or border. One isolated source-faithful figure, tightly framed with a small clear margin, on transparent background.",
+      "estimated_bytes": 8000000,
+      "generated_input": "sources/tiles/walters-horse-flute-drum.png",
+      "generated_sha256": "7c294c8145a8e8948a2f53e6df4f94eca93b0b963a3ae720c34e091d71ec2bdd",
+      "export_crop": [
+        197,
+        22,
+        986,
+        1362
+      ],
+      "alpha_crop_threshold": 16,
+      "crop_padding": 8,
+      "master_sha256": "92aac0d38bf279b9ff4fd047290ecb758cb73fb7e030a7f48d65d09796a10a26",
+      "review": {
+        "status": "accepted",
+        "checks": [
+          "historical-source-or-text-motif-comparison",
+          "final-png-on-light-background",
+          "final-png-on-dark-background",
+          "webp-decoding",
+          "transparent-openings-and-fine-details",
+          "no-unverified-repeat"
+        ],
+        "notes": "Pipe, opaque drum membrane, curved stick, tail and both feet retained; page writing and green ground removed. Export capped at 400px."
+      }
+    },
+    {
+      "name": "walters-centaur-archer",
+      "candidate": "walters-w102-82v",
+      "source": "centaur-archer",
+      "asset_type": "illustration",
+      "max_dimension": 720,
+      "region": "Complete leaping centaur, including pale pink human torso, blue spotted equine body, dark tail and red bow, thin bowstring and long arrow pointing upper-right. Remove all writing, parchment, stains, ground and ruling lines. Keep the torso pigment opaque.",
+      "description": "A leaping centaur with a pale human torso and spotted blue equine body draws a red bow toward the right.",
+      "categories": [
+        "hybrids",
+        "fantasy",
+        "humans",
+        "animals"
+      ],
+      "subjects": [
+        "centaur",
+        "archer",
+        "bow",
+        "arrow"
+      ],
+      "colors": [
+        "blue",
+        "pink",
+        "red",
+        "black"
+      ],
+      "facing": "right",
+      "composition": "single-figure",
+      "prompt": "Edit target: the attached historical source image. Extract exactly one asset from the specified region. Preserve the historical drawing, colors, imperfections and proportions; do not replace with a generic ornament or modern redraw. Complete leaping centaur, including pale pink human torso, blue spotted equine body, dark tail and red bow, thin bowstring and long arrow pointing upper-right. Remove all writing, parchment, stains, ground and ruling lines. Keep the torso pigment opaque. Return a single tightly framed asset with a modest transparent margin. Do not place other source entities, labels, a paper rectangle, a checkerboard texture or a drop shadow around it. Preserve genuinely transparent alpha outside the extracted entity. ",
+      "estimated_bytes": 8000000,
+      "generated_input": "sources/tiles/walters-centaur-archer.png",
+      "generated_sha256": "4a122de5e0610d0e2de1ac1367ad0d6de3b03862180174090c6743093ae92a55",
+      "export_crop": [
+        154,
+        7,
+        1367,
+        1095
+      ],
+      "alpha_crop_threshold": 16,
+      "crop_padding": 8,
+      "master_sha256": "8087a8c1934d6468ba342bf1c9439f0beb926c970f0930167dbc8dcaf00e60d8",
+      "review": {
+        "status": "accepted",
+        "checks": [
+          "historical-source-or-text-motif-comparison",
+          "final-png-on-light-background",
+          "final-png-on-dark-background",
+          "webp-decoding",
+          "transparent-openings-and-fine-details",
+          "no-unverified-repeat"
+        ],
+        "notes": "Torso paint, spotted equine body, bow, arrow and fine string retained; stains and ground removed. Export capped at 720px."
+      }
+    },
+    {
+      "name": "walters-elephant-castle",
+      "candidate": "walters-w102-28r",
+      "source": "elephant-castle",
+      "asset_type": "illustration",
+      "max_dimension": 270,
+      "region": "ONLY the complete elephant-and-castle rectangular scene in the center-right of the page, near x=290..567 and y=302..511 in the 719x1024 source. Retain the orange elephant facing RIGHT, blue saddle cloth, cream masonry castle with blue roof and red parapet, rider, and the original dark blue/red patterned rectangular background. Remove every surrounding manuscript word and unrelated ornaments. The original patterned panel background stays opaque. Do not reconstruct a new elephant or extend the panel.",
+      "description": "An orange elephant carries a cream castle with blue roofs, a red parapet and a rider against a blue and red patterned panel.",
+      "categories": [
+        "animals",
+        "fantasy",
+        "humans"
+      ],
+      "subjects": [
+        "elephant",
+        "castle",
+        "rider",
+        "architecture"
+      ],
+      "colors": [
+        "orange",
+        "blue",
+        "red",
+        "cream",
+        "gold"
+      ],
+      "facing": "right",
+      "composition": "framed-scene",
+      "prompt": "Edit target: the attached historical source image. Extract exactly one asset from the specified region. Preserve the historical drawing, colors, imperfections and proportions; do not replace with a generic ornament or modern redraw. ONLY the complete elephant-and-castle rectangular scene in the center-right of the page, near x=290..567 and y=302..511 in the 719x1024 source. Retain the orange elephant facing RIGHT, blue saddle cloth, cream masonry castle with blue roof and red parapet, rider, and the original dark blue/red patterned rectangular background. Remove every surrounding manuscript word and unrelated ornaments. The original patterned panel background stays opaque. Do not reconstruct a new elephant or extend the panel. Return a single tightly framed asset with a modest transparent margin. Do not place other source entities, labels, a paper rectangle, a checkerboard texture or a drop shadow around it. Preserve genuinely transparent alpha outside the extracted entity. ",
+      "estimated_bytes": 8000000,
+      "generated_input": "sources/tiles/walters-elephant-castle.png",
+      "generated_sha256": "2dcf83faf314e32947772e1e951ecaf2d0cb2c78c1d226e01704275c731d6b6c",
+      "export_crop": [
+        104,
+        63,
+        1380,
+        1031
+      ],
+      "alpha_crop_threshold": 16,
+      "crop_padding": 8,
+      "master_sha256": "d3fcc367c0848ebc542c1bc94f40fc852af80497fb804b12ba635a9387d961a3",
+      "review": {
+        "status": "accepted",
+        "checks": [
+          "historical-source-or-text-motif-comparison",
+          "final-png-on-light-background",
+          "final-png-on-dark-background",
+          "webp-decoding",
+          "transparent-openings-and-fine-details",
+          "no-unverified-repeat"
+        ],
+        "notes": "Historical panel composition and patterned ground retained; surrounding words and unrelated line fillers removed. Export capped at 270px."
+      }
+    },
+    {
+      "name": "rosselli-foliate-strip",
+      "candidate": "met-356741",
+      "source": "rosselli-border-segments",
+      "asset_type": "decoration",
+      "max_dimension": 1400,
+      "region": "The entire LEFT tall ornamental strip, including all its foliate scrolls and original top and bottom endings. Exclude the central squares and right strip. Preserve all faint brown-gray historical engraved linework. Make bare paper between linework genuinely transparent, including within scroll openings. Do not strengthen into modern black graphics, symmetrize or invent detail.",
+      "description": "A tall Renaissance strip of mirrored leafy scrolls, floral terminals and curling stems.",
+      "categories": [
+        "botanical",
+        "scrollwork",
+        "floral"
+      ],
+      "subjects": [
+        "leaf",
+        "scroll",
+        "flower",
+        "finial"
+      ],
+      "colors": [
+        "brown",
+        "gray",
+        "cream"
+      ],
+      "facing": "unclear",
+      "composition": "single-ornament",
+      "prompt": "Edit target: the attached historical source image. Extract exactly one asset from the specified region. Preserve the historical drawing, colors, imperfections and proportions; do not replace with a generic ornament or modern redraw. The entire LEFT tall ornamental strip, including all its foliate scrolls and original top and bottom endings. Exclude the central squares and right strip. Preserve all faint brown-gray historical engraved linework. Make bare paper between linework genuinely transparent, including within scroll openings. Do not strengthen into modern black graphics, symmetrize or invent detail. Return a single tightly framed asset with a modest transparent margin. Do not place other source entities, labels, a paper rectangle, a checkerboard texture or a drop shadow around it. Preserve genuinely transparent alpha outside the extracted entity. ",
+      "estimated_bytes": 8000000,
+      "generated_input": "sources/tiles/rosselli-foliate-strip.png",
+      "generated_sha256": "4f43259c27b595152498e7f4971f02d285e6005be8c5a9e0eb22f8094ec36b54",
+      "export_crop": [
+        362,
+        1,
+        662,
+        1534
+      ],
+      "alpha_crop_threshold": 16,
+      "crop_padding": 8,
+      "master_sha256": "bbcd202878ab0b828ff24e0ded4bc5fbb5738f1081a8c2234b212f44249ca841",
+      "review": {
+        "status": "accepted",
+        "checks": [
+          "historical-source-or-text-motif-comparison",
+          "final-png-on-light-background",
+          "final-png-on-dark-background",
+          "webp-decoding",
+          "transparent-openings-and-fine-details",
+          "no-unverified-repeat"
+        ],
+        "notes": "Whole left strip retains its distinctive original terminals and alternating foliate groups; no square roundels or sheet rules remain. End phases are not a verified join."
+      },
+      "repeat_assessment": {
+        "status": "validated-derived-border",
+        "related_border": "rosselli-foliate-border",
+        "audit": "historical-border-patterns.json",
+        "note": "Interior cycle, two-pixel collar, repeated strips and phase-matched miter frame validated. This whole-strip asset remains unchanged and non-repeating."
+      }
+    },
+    {
+      "name": "rosselli-mask-strip",
+      "candidate": "met-356741",
+      "source": "rosselli-border-segments",
+      "asset_type": "decoration",
+      "max_dimension": 1400,
+      "region": "The entire RIGHT tall ornamental strip, including the alternating leafy scrolls and human masks, and its original clipped printed top and bottom. Exclude central squares and left strip. Preserve all faint brown-gray historical engraved linework. Make bare paper between linework genuinely transparent, including within scroll openings. Do not strengthen into modern black graphics, symmetrize or invent detail.",
+      "description": "A tall Renaissance ornament strip with alternating foliate scrolls and small human masks.",
+      "categories": [
+        "botanical",
+        "scrollwork",
+        "floral",
+        "humans"
+      ],
+      "subjects": [
+        "leaf",
+        "scroll",
+        "mask"
+      ],
+      "colors": [
+        "brown",
+        "gray",
+        "cream"
+      ],
+      "facing": "unclear",
+      "composition": "single-ornament",
+      "prompt": "Edit target: the attached historical source image. Extract exactly one asset from the specified region. Preserve the historical drawing, colors, imperfections and proportions; do not replace with a generic ornament or modern redraw. The entire RIGHT tall ornamental strip, including the alternating leafy scrolls and human masks, and its original clipped printed top and bottom. Exclude central squares and left strip. Preserve all faint brown-gray historical engraved linework. Make bare paper between linework genuinely transparent, including within scroll openings. Do not strengthen into modern black graphics, symmetrize or invent detail. Return a single tightly framed asset with a modest transparent margin. Do not place other source entities, labels, a paper rectangle, a checkerboard texture or a drop shadow around it. Preserve genuinely transparent alpha outside the extracted entity. ",
+      "estimated_bytes": 8000000,
+      "generated_input": "sources/tiles/rosselli-mask-strip.png",
+      "generated_sha256": "f00b29170fe1184d1078eb50f8b15574efc029f92f8f1f860951bc53dfc9ea23",
+      "export_crop": [
+        379,
+        4,
+        674,
+        1531
+      ],
+      "alpha_crop_threshold": 16,
+      "crop_padding": 8,
+      "master_sha256": "18d86b02364df1a3bfae1a785b4a4a7186c93f442424f1b095d963dec792b4ec",
+      "review": {
+        "status": "accepted",
+        "checks": [
+          "historical-source-or-text-motif-comparison",
+          "final-png-on-light-background",
+          "final-png-on-dark-background",
+          "webp-decoding",
+          "transparent-openings-and-fine-details",
+          "no-unverified-repeat"
+        ],
+        "notes": "Whole right strip retains alternating mask and foliate groups and the clipped historical top. End phases are not a verified join."
+      },
+      "cleanup_attempts": [
+        {
+          "date": "2026-10-08",
+          "tool": "built-in image_gen",
+          "prompt": "Use case: background-extraction. Edit target: the supplied tall transparent Rosselli mask ornament strip. Make only a tiny conservative cleanup of isolated paper-colored speckles and fuzzy parchment residue OUTSIDE the engraved contours and in genuinely empty scroll openings. Preserve the entire strip, all four human masks, alternating leafy groups, exact arrangement, proportions, clipped top, bottom ending, faint brown-gray engraved lines, historic imperfections, pale tan filled motif interiors and all fine leaves/tendrils. Do not redraw, modernize, darken, simplify, symmetrize, add motifs, make a repeat, remove fine engraving, or replace tan motif surfaces with holes. Keep genuinely transparent alpha around the ornament and in its existing openings. Return the same complete narrow tall composition, without added margins or labels.",
+          "input_sha256": "18d86b02364df1a3bfae1a785b4a4a7186c93f442424f1b095d963dec792b4ec",
+          "candidate_sha256": "ab1a6cc680768d6eade7c4f0255d1eb6a6e285d117f3d6aebb703094194cce59",
+          "status": "rejected",
+          "reason": "Visible softening and reinterpretation of fine engraving outweigh the minor background cleanup. Approved master and exports retained unchanged."
+        }
+      ],
+      "repeat_assessment": {
+        "status": "validated-derived-border",
+        "related_border": "rosselli-mask-border",
+        "audit": "historical-border-patterns.json",
+        "note": "Interior cycle, two-pixel collar, repeated strips and phase-matched miter frame validated. This whole-strip asset remains unchanged and non-repeating."
+      }
+    },
+    {
+      "name": "rosselli-roundel-top",
+      "candidate": "met-356741",
+      "source": "rosselli-border-segments",
+      "asset_type": "decoration",
+      "max_dimension": 620,
+      "region": "ONLY the FIRST/TOP of the four CENTRAL circular medallions. Keep its circular perimeter, inner rosette and every scroll/mask detail. Remove the surrounding square ruled box and paper. Do not borrow any motif from the other medallions. Preserve all faint brown-gray historical engraved linework. Make bare paper between linework genuinely transparent, including within scroll openings. Do not strengthen into modern black graphics, symmetrize or invent detail.",
+      "description": "A circular Renaissance medallion with a central rosette, scrolls, paired curled motifs and a scalloped ornamental rim.",
+      "categories": [
+        "botanical",
+        "scrollwork",
+        "floral"
+      ],
+      "subjects": [
+        "rosette",
+        "scroll",
+        "medallion"
+      ],
+      "colors": [
+        "brown",
+        "gray",
+        "cream"
+      ],
+      "facing": "unclear",
+      "composition": "single-ornament",
+      "prompt": "Edit target: the attached historical source image. Extract exactly one asset from the specified region. Preserve the historical drawing, colors, imperfections and proportions; do not replace with a generic ornament or modern redraw. ONLY the FIRST/TOP of the four CENTRAL circular medallions. Keep its circular perimeter, inner rosette and every scroll/mask detail. Remove the surrounding square ruled box and paper. Do not borrow any motif from the other medallions. Preserve all faint brown-gray historical engraved linework. Make bare paper between linework genuinely transparent, including within scroll openings. Do not strengthen into modern black graphics, symmetrize or invent detail. Return a single tightly framed asset with a modest transparent margin. Do not place other source entities, labels, a paper rectangle, a checkerboard texture or a drop shadow around it. Preserve genuinely transparent alpha outside the extracted entity. ",
+      "estimated_bytes": 8000000,
+      "generated_input": "sources/tiles/rosselli-roundel-top.png",
+      "generated_sha256": "2a2fe3cc7c1a8301e7d3630e04ac84fd262f384c5b29a0ff542ecf95522ce2a4",
+      "export_crop": [
+        34,
+        34,
+        1234,
+        1218
+      ],
+      "alpha_crop_threshold": 16,
+      "crop_padding": 8,
+      "master_sha256": "3eff6463245e06ce594501de86dc11a4c4ac5cfc0c74914445b8d4b1b1bd6369",
+      "review": {
+        "status": "accepted",
+        "checks": [
+          "historical-source-or-text-motif-comparison",
+          "final-png-on-light-background",
+          "final-png-on-dark-background",
+          "webp-decoding",
+          "transparent-openings-and-fine-details",
+          "no-unverified-repeat"
+        ],
+        "notes": "First source-position medallion reviewed with its central rosette, circular rim and separate scroll openings; square ruled surround removed."
+      }
+    },
+    {
+      "name": "rosselli-roundel-second",
+      "candidate": "met-356741",
+      "source": "rosselli-border-segments",
+      "asset_type": "decoration",
+      "max_dimension": 620,
+      "region": "ONLY the SECOND from top of the four CENTRAL circular medallions. Preserve this particular original pattern. Keep its circular perimeter and internal rosette/scrolls. Remove surrounding square ruled box and paper. Preserve all faint brown-gray historical engraved linework. Make bare paper between linework genuinely transparent, including within scroll openings. Do not strengthen into modern black graphics, symmetrize or invent detail.",
+      "description": "A circular Renaissance medallion with a radiating central rosette and four foliate scroll groups inside a patterned rim.",
+      "categories": [
+        "botanical",
+        "scrollwork",
+        "floral"
+      ],
+      "subjects": [
+        "rosette",
+        "scroll",
+        "medallion"
+      ],
+      "colors": [
+        "brown",
+        "gray",
+        "cream"
+      ],
+      "facing": "unclear",
+      "composition": "single-ornament",
+      "prompt": "Edit target: the attached historical source image. Extract exactly one asset from the specified region. Preserve the historical drawing, colors, imperfections and proportions; do not replace with a generic ornament or modern redraw. ONLY the SECOND from top of the four CENTRAL circular medallions. Preserve this particular original pattern. Keep its circular perimeter and internal rosette/scrolls. Remove surrounding square ruled box and paper. Preserve all faint brown-gray historical engraved linework. Make bare paper between linework genuinely transparent, including within scroll openings. Do not strengthen into modern black graphics, symmetrize or invent detail. Return a single tightly framed asset with a modest transparent margin. Do not place other source entities, labels, a paper rectangle, a checkerboard texture or a drop shadow around it. Preserve genuinely transparent alpha outside the extracted entity. ",
+      "estimated_bytes": 8000000,
+      "generated_input": "sources/tiles/rosselli-roundel-second.png",
+      "generated_sha256": "694733df3a725b5e42961f6b382c7f255dfb5336ab07562867da71dc92663a91",
+      "export_crop": [
+        32,
+        42,
+        1214,
+        1212
+      ],
+      "alpha_crop_threshold": 16,
+      "crop_padding": 8,
+      "master_sha256": "675357f3b2cc7bb410ca59f560d5da96b7b44bb671ef5572f15d176ca9a38188",
+      "review": {
+        "status": "accepted",
+        "checks": [
+          "historical-source-or-text-motif-comparison",
+          "final-png-on-light-background",
+          "final-png-on-dark-background",
+          "webp-decoding",
+          "transparent-openings-and-fine-details",
+          "no-unverified-repeat"
+        ],
+        "notes": "Second source-position medallion reviewed with its central rosette and cup-like foliate groups; square surround removed."
+      }
+    },
+    {
+      "name": "rosselli-roundel-third",
+      "candidate": "met-356741",
+      "source": "rosselli-border-segments",
+      "asset_type": "decoration",
+      "max_dimension": 620,
+      "region": "ONLY the THIRD from top of the four CENTRAL circular medallions, below the blank gap. Preserve this particular original pattern. Keep circular perimeter and internal rosette/scrolls; remove square ruled box and paper. Preserve all faint brown-gray historical engraved linework. Make bare paper between linework genuinely transparent, including within scroll openings. Do not strengthen into modern black graphics, symmetrize or invent detail.",
+      "description": "A circular Renaissance medallion with a central rosette, scrolling leaves and opposing cup-like terminals.",
+      "categories": [
+        "botanical",
+        "scrollwork",
+        "floral"
+      ],
+      "subjects": [
+        "rosette",
+        "scroll",
+        "medallion"
+      ],
+      "colors": [
+        "brown",
+        "gray",
+        "cream"
+      ],
+      "facing": "unclear",
+      "composition": "single-ornament",
+      "prompt": "Edit target: the attached historical source image. Extract exactly one asset from the specified region. Preserve the historical drawing, colors, imperfections and proportions; do not replace with a generic ornament or modern redraw. ONLY the THIRD from top of the four CENTRAL circular medallions, below the blank gap. Preserve this particular original pattern. Keep circular perimeter and internal rosette/scrolls; remove square ruled box and paper. Preserve all faint brown-gray historical engraved linework. Make bare paper between linework genuinely transparent, including within scroll openings. Do not strengthen into modern black graphics, symmetrize or invent detail. Return a single tightly framed asset with a modest transparent margin. Do not place other source entities, labels, a paper rectangle, a checkerboard texture or a drop shadow around it. Preserve genuinely transparent alpha outside the extracted entity. ",
+      "estimated_bytes": 8000000,
+      "generated_input": "sources/tiles/rosselli-roundel-third.png",
+      "generated_sha256": "ddc8c9aadc822f31bafff679db06a1aa992a994edd1e6c0199583289ad085794",
+      "export_crop": [
+        39,
+        35,
+        1215,
+        1197
+      ],
+      "alpha_crop_threshold": 16,
+      "crop_padding": 8,
+      "master_sha256": "d22a8a740c7351b744cf237fd0ef0670a22d2fee09aaa23d09ccf20e63e2e7d5",
+      "review": {
+        "status": "accepted",
+        "checks": [
+          "historical-source-or-text-motif-comparison",
+          "final-png-on-light-background",
+          "final-png-on-dark-background",
+          "webp-decoding",
+          "transparent-openings-and-fine-details",
+          "no-unverified-repeat"
+        ],
+        "notes": "Third source-position medallion reviewed separately; close motif family to the second roundel, with its source-specific drawing and shading retained approximately."
+      }
+    },
+    {
+      "name": "rosselli-roundel-bottom",
+      "candidate": "met-356741",
+      "source": "rosselli-border-segments",
+      "asset_type": "decoration",
+      "max_dimension": 620,
+      "region": "ONLY the FOURTH/BOTTOM of the four CENTRAL circular medallions. Preserve this particular original pattern. Keep circular perimeter and internal rosette/scrolls; remove square ruled box and paper. Preserve all faint brown-gray historical engraved linework. Make bare paper between linework genuinely transparent, including within scroll openings. Do not strengthen into modern black graphics, symmetrize or invent detail.",
+      "description": "A circular Renaissance medallion with a central rosette, curled foliate lobes and a patterned outer ring.",
+      "categories": [
+        "botanical",
+        "scrollwork",
+        "floral"
+      ],
+      "subjects": [
+        "rosette",
+        "scroll",
+        "medallion"
+      ],
+      "colors": [
+        "brown",
+        "gray",
+        "cream"
+      ],
+      "facing": "unclear",
+      "composition": "single-ornament",
+      "prompt": "Edit target: the attached historical source image. Extract exactly one asset from the specified region. Preserve the historical drawing, colors, imperfections and proportions; do not replace with a generic ornament or modern redraw. ONLY the FOURTH/BOTTOM of the four CENTRAL circular medallions. Preserve this particular original pattern. Keep circular perimeter and internal rosette/scrolls; remove square ruled box and paper. Preserve all faint brown-gray historical engraved linework. Make bare paper between linework genuinely transparent, including within scroll openings. Do not strengthen into modern black graphics, symmetrize or invent detail. Return a single tightly framed asset with a modest transparent margin. Do not place other source entities, labels, a paper rectangle, a checkerboard texture or a drop shadow around it. Preserve genuinely transparent alpha outside the extracted entity. ",
+      "estimated_bytes": 8000000,
+      "generated_input": "sources/tiles/rosselli-roundel-bottom.png",
+      "generated_sha256": "9b05e767322803a157da523c8b8a1b9a8766707e153336a019006f5749f84bdc",
+      "export_crop": [
+        34,
+        41,
+        1234,
+        1208
+      ],
+      "alpha_crop_threshold": 16,
+      "crop_padding": 8,
+      "master_sha256": "947a0807c33fa4152cc454bf9ee55de1bd413495bb584dfe4c56256aa34c54a8",
+      "review": {
+        "status": "accepted",
+        "checks": [
+          "historical-source-or-text-motif-comparison",
+          "final-png-on-light-background",
+          "final-png-on-dark-background",
+          "webp-decoding",
+          "transparent-openings-and-fine-details",
+          "no-unverified-repeat"
+        ],
+        "notes": "Fourth source-position medallion reviewed separately; source-specific rosette, outer rim and scroll groups retained approximately."
+      }
+    },
+    {
+      "name": "aldegrever-paired-tendrils",
+      "candidate": "met-422674",
+      "source": "aldegrever-tendrils",
+      "asset_type": "decoration",
+      "max_dimension": 1800,
+      "region": "The entire original horizontal engraved rectangular panel, with paired outward foliate scrolls, center stem, dense black crosshatching and the AG artist monogram at bottom center. Remove only the outside blank paper/plate margin. RETAIN all cream paper inside the panel as opaque ground; preserve hatching and original edges.",
+      "description": "A horizontal engraved panel with paired leafy tendrils curling outward from a central stem, dark crosshatching and an AG monogram.",
+      "categories": [
+        "botanical",
+        "scrollwork"
+      ],
+      "subjects": [
+        "leaf",
+        "tendril",
+        "scroll",
+        "monogram"
+      ],
+      "colors": [
+        "black",
+        "cream"
+      ],
+      "facing": "unclear",
+      "composition": "single-ornament",
+      "prompt": "Edit target: the attached historical source image. Extract exactly one asset from the specified region. Preserve the historical drawing, colors, imperfections and proportions; do not replace with a generic ornament or modern redraw. The entire original horizontal engraved rectangular panel, with paired outward foliate scrolls, center stem, dense black crosshatching and the AG artist monogram at bottom center. Remove only the outside blank paper/plate margin. RETAIN all cream paper inside the panel as opaque ground; preserve hatching and original edges. Return a single tightly framed asset with a modest transparent margin. Do not place other source entities, labels, a paper rectangle, a checkerboard texture or a drop shadow around it. Preserve genuinely transparent alpha outside the extracted entity. ",
+      "estimated_bytes": 8000000,
+      "generated_input": "sources/tiles/aldegrever-paired-tendrils.png",
+      "generated_sha256": "afae54c5b7f3ba4e562928ba671d613a4bf5e51332eecb7611becd0d86cf5f09",
+      "export_crop": [
+        21,
+        45,
+        2042,
+        717
+      ],
+      "alpha_crop_threshold": 16,
+      "crop_padding": 8,
+      "master_sha256": "c8c9187464b461909413657b87e81245b4cb441fa8dd6f51240114fcb65981f7",
+      "review": {
+        "status": "accepted",
+        "checks": [
+          "historical-source-or-text-motif-comparison",
+          "final-png-on-light-background",
+          "final-png-on-dark-background",
+          "webp-decoding",
+          "transparent-openings-and-fine-details",
+          "no-unverified-repeat"
+        ],
+        "notes": "Complete rectangular panel retains both volutes, crosshatching, pale inner ground and AG monogram; only outside page margins removed."
+      }
+    },
+    {
+      "name": "hopfer-thistle-panel",
+      "candidate": "met-373115",
+      "source": "hopfer-thistles",
+      "asset_type": "decoration",
+      "max_dimension": 1800,
+      "region": "The whole original vertical rectangular engraved panel of curling thistle stems, fantastic birds at upper left/right, black hatched ground and a mask/monogram near the bottom. Remove only blank outside margins. Retain all pale inner panel ground as opaque, all original hatch marks, birds and mask. No isolated reconstructed birds.",
+      "description": "A vertical engraved panel of curling thistle stems, fantastic birds, pale foliage, dark hatching and a small mask near the base.",
+      "categories": [
+        "botanical",
+        "floral",
+        "fantasy",
+        "animals",
+        "scrollwork"
+      ],
+      "subjects": [
+        "thistle",
+        "bird",
+        "scroll",
+        "mask",
+        "monogram"
+      ],
+      "colors": [
+        "black",
+        "white"
+      ],
+      "facing": "unclear",
+      "composition": "single-ornament",
+      "prompt": "Edit target: the attached historical source image. Extract exactly one asset from the specified region. Preserve the historical drawing, colors, imperfections and proportions; do not replace with a generic ornament or modern redraw. The whole original vertical rectangular engraved panel of curling thistle stems, fantastic birds at upper left/right, black hatched ground and a mask/monogram near the bottom. Remove only blank outside margins. Retain all pale inner panel ground as opaque, all original hatch marks, birds and mask. No isolated reconstructed birds. Return a single tightly framed asset with a modest transparent margin. Do not place other source entities, labels, a paper rectangle, a checkerboard texture or a drop shadow around it. Preserve genuinely transparent alpha outside the extracted entity. ",
+      "estimated_bytes": 8000000,
+      "generated_input": "sources/tiles/hopfer-thistle-panel.png",
+      "generated_sha256": "c76f59c853a42041324df863144cd89e5478e0df45e1b1fc919c486dc4eb7f4d",
+      "export_crop": [
+        42,
+        30,
+        1013,
+        1451
+      ],
+      "alpha_crop_threshold": 16,
+      "crop_padding": 8,
+      "master_sha256": "51d04515b4539e7e320eacd0761794bed4e5452a6564d0679dca6e4a7ce50d0a",
+      "review": {
+        "status": "accepted",
+        "checks": [
+          "historical-source-or-text-motif-comparison",
+          "final-png-on-light-background",
+          "final-png-on-dark-background",
+          "webp-decoding",
+          "transparent-openings-and-fine-details",
+          "no-unverified-repeat"
+        ],
+        "notes": "Complete panel retains all integrated birds, thistle stems, hatchwork and bottom monogram/mask motifs; overlapping entities were not separated into invented figures."
+      }
+    },
+    {
+      "name": "isabella-gold-floral-frame",
+      "candidate": "cleveland-1963-256-80-b",
+      "source": "isabella-hours-80v",
+      "asset_type": "decoration",
+      "max_dimension": 1600,
+      "region": "The entire gold rectangular floral BORDER only, preserving its exact original arched interior opening. Remove the Madonna/angels and ALL central scene inside the arch, replacing that opening with true transparency. Remove outside parchment. Preserve the gold ground, every flower, butterfly, bird, and curled pale leaf in their original locations. Fixed-shape whole frame; no tile unit.",
+      "description": "A gold manuscript frame with an arched opening, scattered painted flowers, butterflies, a small bird and pale curled foliage.",
+      "categories": [
+        "floral",
+        "botanical",
+        "animals"
+      ],
+      "subjects": [
+        "flower",
+        "butterfly",
+        "bird",
+        "acanthus",
+        "frame"
+      ],
+      "colors": [
+        "gold",
+        "pink",
+        "blue",
+        "green",
+        "white",
+        "gray"
+      ],
+      "facing": "unclear",
+      "composition": "single-ornament",
+      "prompt": "Edit target: the attached historical source image. Extract exactly one asset from the specified region. Preserve the historical drawing, colors, imperfections and proportions; do not replace with a generic ornament or modern redraw. The entire gold rectangular floral BORDER only, preserving its exact original arched interior opening. Remove the Madonna/angels and ALL central scene inside the arch, replacing that opening with true transparency. Remove outside parchment. Preserve the gold ground, every flower, butterfly, bird, and curled pale leaf in their original locations. Fixed-shape whole frame; no tile unit. Return a single tightly framed asset with a modest transparent margin. Do not place other source entities, labels, a paper rectangle, a checkerboard texture or a drop shadow around it. Preserve genuinely transparent alpha outside the extracted entity. ",
+      "estimated_bytes": 8000000,
+      "generated_input": "sources/tiles/isabella-gold-floral-frame.png",
+      "generated_sha256": "f65ee94d3918ad0888344579a77d47c54e0f2b360f3eb81c018dd848fcbd9825",
+      "export_crop": [
+        65,
+        36,
+        974,
+        1454
+      ],
+      "alpha_crop_threshold": 16,
+      "crop_padding": 8,
+      "master_sha256": "ca54dfae6ce4dc8369cdafa19ff7a4a81bbe1c94c57eeb435ef0c7d439f599ba",
+      "review": {
+        "status": "accepted",
+        "checks": [
+          "historical-source-or-text-motif-comparison",
+          "final-png-on-light-background",
+          "final-png-on-dark-background",
+          "webp-decoding",
+          "transparent-openings-and-fine-details",
+          "no-unverified-repeat"
+        ],
+        "notes": "Gold ground, flowers, butterflies, acanthus and bird retained. Central religious scene and outer page removed; arched center tested alpha zero. Fixed whole frame."
+      }
+    },
+    {
+      "name": "isabella-orange-butterfly",
+      "candidate": "cleveland-1963-256-80-b",
+      "source": "isabella-hours-80v",
+      "asset_type": "illustration",
+      "max_dimension": 300,
+      "region": "ONLY the orange-and-gray butterfly at the TOP LEFT of the painted border, immediately right of the pale flower. Preserve its two patterned wings, tiny body, legs and both fine antennae. Remove adjacent white flower, leaves and the gold ground.",
+      "description": "A small butterfly with orange and gray patterned wings, dark spots and thin antennae.",
+      "categories": [
+        "animals"
+      ],
+      "subjects": [
+        "butterfly",
+        "insect"
+      ],
+      "colors": [
+        "orange",
+        "gray",
+        "brown",
+        "black"
+      ],
+      "facing": "right",
+      "composition": "single-figure",
+      "prompt": "Edit target: the attached historical source image. Extract exactly one asset from the specified region. Preserve the historical drawing, colors, imperfections and proportions; do not replace with a generic ornament or modern redraw. ONLY the orange-and-gray butterfly at the TOP LEFT of the painted border, immediately right of the pale flower. Preserve its two patterned wings, tiny body, legs and both fine antennae. Remove adjacent white flower, leaves and the gold ground. Return a single tightly framed asset with a modest transparent margin. Do not place other source entities, labels, a paper rectangle, a checkerboard texture or a drop shadow around it. Preserve genuinely transparent alpha outside the extracted entity. ",
+      "estimated_bytes": 8000000,
+      "generated_input": "sources/tiles/isabella-orange-butterfly.png",
+      "generated_sha256": "b0c3ba30f45e2b14225af476d74632ca6b87b47a927718199ff48fe98435f256",
+      "export_crop": [
+        94,
+        27,
+        1248,
+        1194
+      ],
+      "alpha_crop_threshold": 16,
+      "crop_padding": 8,
+      "master_sha256": "e7d26a3a5d97cf001306049e0efa6cd551f83914a399b2a9561d66deddf4bbd1",
+      "review": {
+        "status": "accepted",
+        "checks": [
+          "historical-source-or-text-motif-comparison",
+          "final-png-on-light-background",
+          "final-png-on-dark-background",
+          "webp-decoding",
+          "transparent-openings-and-fine-details",
+          "no-unverified-repeat"
+        ],
+        "notes": "Both patterned wings, small body, legs and two fine antennae remain visible on light and dark surfaces; adjacent flower and gold ground removed."
+      }
+    },
+    {
+      "name": "isabella-gray-butterfly",
+      "candidate": "cleveland-1963-256-80-b",
+      "source": "isabella-hours-80v",
+      "asset_type": "illustration",
+      "max_dimension": 450,
+      "region": "ONLY the gray spotted butterfly midway down the LEFT border, beside and overlapping the large pale pink flower. Preserve its original wings, body, fine antennae and legs. Remove flower and gold ground without inventing hidden body parts.",
+      "description": "A gray butterfly with dark eyespots, mottled wings and thin antennae.",
+      "categories": [
+        "animals"
+      ],
+      "subjects": [
+        "butterfly",
+        "insect"
+      ],
+      "colors": [
+        "gray",
+        "cream",
+        "brown",
+        "black"
+      ],
+      "facing": "right",
+      "composition": "single-figure",
+      "prompt": "Edit target: the attached historical source image. Extract exactly one asset from the specified region. Preserve the historical drawing, colors, imperfections and proportions; do not replace with a generic ornament or modern redraw. ONLY the gray spotted butterfly midway down the LEFT border, beside and overlapping the large pale pink flower. Preserve its original wings, body, fine antennae and legs. Remove flower and gold ground without inventing hidden body parts. Return a single tightly framed asset with a modest transparent margin. Do not place other source entities, labels, a paper rectangle, a checkerboard texture or a drop shadow around it. Preserve genuinely transparent alpha outside the extracted entity. ",
+      "estimated_bytes": 8000000,
+      "generated_input": "sources/tiles/isabella-gray-butterfly.png",
+      "generated_sha256": "dfc2fbabe57d0d636a16c3537799bb61c79da6ad1bf2da74341edd6da589aab3",
+      "export_crop": [
+        156,
+        73,
+        1328,
+        1075
+      ],
+      "alpha_crop_threshold": 16,
+      "crop_padding": 8,
+      "master_sha256": "fc184f13fda57f22f8ea9a37d4d53ebf91181360e5e93e6c370544eb271bcdd1",
+      "review": {
+        "status": "accepted",
+        "checks": [
+          "historical-source-or-text-motif-comparison",
+          "final-png-on-light-background",
+          "final-png-on-dark-background",
+          "webp-decoding",
+          "transparent-openings-and-fine-details",
+          "no-unverified-repeat"
+        ],
+        "notes": "Spotted gray wings, eyespots, body, legs and antennae reviewed on both backgrounds; overlapping pink flower and gold ground removed."
+      }
+    },
+    {
+      "name": "isabella-small-bird",
+      "candidate": "cleveland-1963-256-80-b",
+      "source": "isabella-hours-80v",
+      "asset_type": "illustration",
+      "max_dimension": 530,
+      "region": "ONLY the small gray-brown bird near the LOWER LEFT of the painted border, above the first lower pansy. Retain beak, eye, pale belly, blue wing highlight, tail and feet. Remove every adjacent green bud, white acanthus leaf and the gold ground.",
+      "description": "A small gray-brown bird faces left, with a pale belly, dark beak and blue wing highlights.",
+      "categories": [
+        "animals"
+      ],
+      "subjects": [
+        "bird"
+      ],
+      "colors": [
+        "gray",
+        "brown",
+        "blue",
+        "cream"
+      ],
+      "facing": "left",
+      "composition": "single-figure",
+      "prompt": "Edit target: the attached historical source image. Extract exactly one asset from the specified region. Preserve the historical drawing, colors, imperfections and proportions; do not replace with a generic ornament or modern redraw. ONLY the small gray-brown bird near the LOWER LEFT of the painted border, above the first lower pansy. Retain beak, eye, pale belly, blue wing highlight, tail and feet. Remove every adjacent green bud, white acanthus leaf and the gold ground. Return a single tightly framed asset with a modest transparent margin. Do not place other source entities, labels, a paper rectangle, a checkerboard texture or a drop shadow around it. Preserve genuinely transparent alpha outside the extracted entity. ",
+      "estimated_bytes": 8000000,
+      "generated_input": "sources/tiles/isabella-small-bird.png",
+      "generated_sha256": "c488198c9cf6f1bf6034ef46cdbbbfd767164cb908b315a177254309d867ab62",
+      "export_crop": [
+        72,
+        187,
+        1483,
+        929
+      ],
+      "alpha_crop_threshold": 16,
+      "crop_padding": 8,
+      "master_sha256": "74e54c035f33307b42d733aa8128a69e082b4e861f98361c94ab3111c6555157",
+      "review": {
+        "status": "accepted",
+        "checks": [
+          "historical-source-or-text-motif-comparison",
+          "final-png-on-light-background",
+          "final-png-on-dark-background",
+          "webp-decoding",
+          "transparent-openings-and-fine-details",
+          "no-unverified-repeat"
+        ],
+        "notes": "Left-facing bird, beak, eye, pale belly, blue wing, tail and feet reviewed; adjacent buds and acanthus removed. Fine details are an AI reinterpretation."
+      }
+    },
+    {
+      "name": "isabella-pink-rose",
+      "candidate": "cleveland-1963-256-80-b",
+      "source": "isabella-hours-80v",
+      "asset_type": "illustration",
+      "max_dimension": 550,
+      "region": "ONLY the large many-petalled PINK ROSE along the BOTTOM border slightly right of center. Retain its gold-yellow stamens and all layered pink petals; remove its thin gray surrounding stem, neighboring flowers and gold background. No invented green leaves.",
+      "description": "A layered pink rose viewed from the front, with golden stamens and dark rose-colored petal folds.",
+      "categories": [
+        "floral",
+        "botanical"
+      ],
+      "subjects": [
+        "rose",
+        "flower"
+      ],
+      "colors": [
+        "pink",
+        "red",
+        "gold"
+      ],
+      "facing": "front",
+      "composition": "single-figure",
+      "prompt": "Edit target: the attached historical source image. Extract exactly one asset from the specified region. Preserve the historical drawing, colors, imperfections and proportions; do not replace with a generic ornament or modern redraw. ONLY the large many-petalled PINK ROSE along the BOTTOM border slightly right of center. Retain its gold-yellow stamens and all layered pink petals; remove its thin gray surrounding stem, neighboring flowers and gold background. No invented green leaves. Return a single tightly framed asset with a modest transparent margin. Do not place other source entities, labels, a paper rectangle, a checkerboard texture or a drop shadow around it. Preserve genuinely transparent alpha outside the extracted entity. ",
+      "estimated_bytes": 8000000,
+      "generated_input": "sources/tiles/isabella-pink-rose.png",
+      "generated_sha256": "d3da9510b11ee51cae0d121850442bd64640b5be64ad1697204bb6253a3f950e",
+      "export_crop": [
+        68,
+        76,
+        1242,
+        1173
+      ],
+      "alpha_crop_threshold": 16,
+      "crop_padding": 8,
+      "master_sha256": "6fcf4456a81da91cb8b1e8fb653e33ac30f69613c6ea5366ecb1245202044a6f",
+      "review": {
+        "status": "accepted",
+        "checks": [
+          "historical-source-or-text-motif-comparison",
+          "final-png-on-light-background",
+          "final-png-on-dark-background",
+          "webp-decoding",
+          "transparent-openings-and-fine-details",
+          "no-unverified-repeat"
+        ],
+        "notes": "Layered petals and gold stamens retained; surrounding stems, gold ground and adjacent flowers removed."
+      }
+    },
+    {
+      "name": "isabella-blue-cornflower",
+      "candidate": "cleveland-1963-256-80-b",
+      "source": "isabella-hours-80v",
+      "asset_type": "illustration",
+      "max_dimension": 430,
+      "region": "ONLY the bright blue spiky-petalled flower at the BOTTOM RIGHT, immediately to the right of the large pink rose. Retain all ragged blue petals and dark center; remove thin surrounding stem, gold ground and other flowers.",
+      "description": "A blue flower with ragged radiating petals and a dark center, viewed from the front.",
+      "categories": [
+        "floral",
+        "botanical"
+      ],
+      "subjects": [
+        "cornflower",
+        "flower"
+      ],
+      "colors": [
+        "blue",
+        "light-blue",
+        "black"
+      ],
+      "facing": "front",
+      "composition": "single-figure",
+      "prompt": "Edit target: the attached historical source image. Extract exactly one asset from the specified region. Preserve the historical drawing, colors, imperfections and proportions; do not replace with a generic ornament or modern redraw. ONLY the bright blue spiky-petalled flower at the BOTTOM RIGHT, immediately to the right of the large pink rose. Retain all ragged blue petals and dark center; remove thin surrounding stem, gold ground and other flowers. Return a single tightly framed asset with a modest transparent margin. Do not place other source entities, labels, a paper rectangle, a checkerboard texture or a drop shadow around it. Preserve genuinely transparent alpha outside the extracted entity. ",
+      "estimated_bytes": 8000000,
+      "generated_input": "sources/tiles/isabella-blue-cornflower.png",
+      "generated_sha256": "65dc22e25b8dbd81249d4bac11e3eb6c279b2cef6b89ba1110ecd7cdcec298e5",
+      "export_crop": [
+        125,
+        80,
+        1253,
+        1153
+      ],
+      "alpha_crop_threshold": 16,
+      "crop_padding": 8,
+      "master_sha256": "5806686071bebf74ec88c124085abd75a2b8255aa1e5b3f4c6988be5f296a167",
+      "review": {
+        "status": "accepted",
+        "checks": [
+          "historical-source-or-text-motif-comparison",
+          "final-png-on-light-background",
+          "final-png-on-dark-background",
+          "webp-decoding",
+          "transparent-openings-and-fine-details",
+          "no-unverified-repeat"
+        ],
+        "notes": "Ragged blue petals and dark center retained; neighboring flowers and stem removed. Export capped at 430px."
+      }
+    },
+    {
+      "name": "hoefnagel-rose-upper",
+      "candidate": "getty-ms20-107",
+      "source": "getty-rose-apple-107",
+      "asset_type": "illustration",
+      "max_dimension": 1000,
+      "region": "ONLY the UPPER/LEFT large pink drooping ROSE in the lower painted portion, with its green calyx, pointed sepals and the visible long green stem leading to the right. Exclude the smaller lower rose, both apple halves, all penwork frame, calligraphy, parchment and cast shadow. Keep the stem only as far as visibly established before occlusion; do not invent hidden connections.",
+      "description": "A drooping pink rose with a green calyx, pointed sepals and a long curved green stem.",
+      "categories": [
+        "floral",
+        "botanical"
+      ],
+      "subjects": [
+        "rose",
+        "flower",
+        "stem"
+      ],
+      "colors": [
+        "pink",
+        "green",
+        "cream"
+      ],
+      "facing": "left",
+      "composition": "single-figure",
+      "prompt": "Edit target: the attached historical source image. Extract exactly one asset from the specified region. Preserve the historical drawing, colors, imperfections and proportions; do not replace with a generic ornament or modern redraw. ONLY the UPPER/LEFT large pink drooping ROSE in the lower painted portion, with its green calyx, pointed sepals and the visible long green stem leading to the right. Exclude the smaller lower rose, both apple halves, all penwork frame, calligraphy, parchment and cast shadow. Keep the stem only as far as visibly established before occlusion; do not invent hidden connections. Return a single tightly framed asset with a modest transparent margin. Do not place other source entities, labels, a paper rectangle, a checkerboard texture or a drop shadow around it. Preserve genuinely transparent alpha outside the extracted entity. ",
+      "estimated_bytes": 8000000,
+      "generated_input": "sources/tiles/hoefnagel-rose-upper.png",
+      "generated_sha256": "8da88f636ac532ed462e67911303c5e3b7033a71a003eeef0a0b16b55b28e4af",
+      "export_crop": [
+        55,
+        110,
+        1728,
+        843
+      ],
+      "alpha_crop_threshold": 16,
+      "crop_padding": 8,
+      "master_sha256": "74ce642b0be4024ca25d3f8c82c5cced6c328a04e357ea370fd3c00b828b6aa0",
+      "review": {
+        "status": "accepted",
+        "checks": [
+          "historical-source-or-text-motif-comparison",
+          "final-png-on-light-background",
+          "final-png-on-dark-background",
+          "webp-decoding",
+          "transparent-openings-and-fine-details",
+          "no-unverified-repeat"
+        ],
+        "notes": "Upper large rose, green calyx and visible stem isolated; other rose, apples, lettering and shadow removed. Stem ends at its visible source extent."
+      }
+    },
+    {
+      "name": "hoefnagel-rose-lower",
+      "candidate": "getty-ms20-107",
+      "source": "getty-rose-apple-107",
+      "asset_type": "illustration",
+      "max_dimension": 900,
+      "region": "ONLY the LOWER/LEFT smaller pink drooping ROSE, with its green calyx, long pointed sepals and the visible stem extending upward-right until the apple covers it. Exclude upper rose, apple, penwork frame, all parchment and cast shadows. Do not invent the hidden continuation of its stem.",
+      "description": "A small drooping pink rosebud with green sepals and a short visible stem.",
+      "categories": [
+        "floral",
+        "botanical"
+      ],
+      "subjects": [
+        "rose",
+        "rosebud",
+        "flower",
+        "stem"
+      ],
+      "colors": [
+        "pink",
+        "green",
+        "cream"
+      ],
+      "facing": "left",
+      "composition": "single-figure",
+      "prompt": "Edit target: the attached historical source image. Extract exactly one asset from the specified region. Preserve the historical drawing, colors, imperfections and proportions; do not replace with a generic ornament or modern redraw. ONLY the LOWER/LEFT smaller pink drooping ROSE, with its green calyx, long pointed sepals and the visible stem extending upward-right until the apple covers it. Exclude upper rose, apple, penwork frame, all parchment and cast shadows. Do not invent the hidden continuation of its stem. Return a single tightly framed asset with a modest transparent margin. Do not place other source entities, labels, a paper rectangle, a checkerboard texture or a drop shadow around it. Preserve genuinely transparent alpha outside the extracted entity. ",
+      "estimated_bytes": 8000000,
+      "generated_input": "sources/tiles/hoefnagel-rose-lower.png",
+      "generated_sha256": "8adf5fe4aad43eb4fffa67ccd606eed4769aae273fb69b128597544c7ef469a2",
+      "export_crop": [
+        93,
+        133,
+        1475,
+        963
+      ],
+      "alpha_crop_threshold": 16,
+      "crop_padding": 8,
+      "master_sha256": "2787fa958fb59ed68f4278b6531f3f7d0c6565afe8b70fa65a9a84da7fc85f3a",
+      "review": {
+        "status": "accepted",
+        "checks": [
+          "historical-source-or-text-motif-comparison",
+          "final-png-on-light-background",
+          "final-png-on-dark-background",
+          "webp-decoding",
+          "transparent-openings-and-fine-details",
+          "no-unverified-repeat"
+        ],
+        "notes": "Lower small rosebud and long sepals retained separately; apple occlusion not completed with an invented full stem."
+      }
+    },
+    {
+      "name": "hoefnagel-cut-apple",
+      "candidate": "getty-ms20-107",
+      "source": "getty-rose-apple-107",
+      "asset_type": "illustration",
+      "max_dimension": 1600,
+      "region": "ONLY BOTH touching cut apple halves in the lower-right painted portion, retained together as one composition. Preserve cream exposed flesh, red peel, brown pips, dark cores, stalks and original overlap. Remove roses, unrelated green rose stems, cast shadows, parchment, lettering and ornament frame. Do not divide overlapping halves or invent hidden apple surfaces.",
+      "description": "Two overlapping halves of a red apple reveal pale flesh, dark cores, brown seeds and short stalks.",
+      "categories": [
+        "botanical"
+      ],
+      "subjects": [
+        "apple",
+        "fruit",
+        "seed"
+      ],
+      "colors": [
+        "red",
+        "cream",
+        "brown"
+      ],
+      "facing": "unclear",
+      "composition": "multiple-figures",
+      "prompt": "Edit target: the attached historical source image. Extract exactly one asset from the specified region. Preserve the historical drawing, colors, imperfections and proportions; do not replace with a generic ornament or modern redraw. ONLY BOTH touching cut apple halves in the lower-right painted portion, retained together as one composition. Preserve cream exposed flesh, red peel, brown pips, dark cores, stalks and original overlap. Remove roses, unrelated green rose stems, cast shadows, parchment, lettering and ornament frame. Do not divide overlapping halves or invent hidden apple surfaces. Return a single tightly framed asset with a modest transparent margin. Do not place other source entities, labels, a paper rectangle, a checkerboard texture or a drop shadow around it. Preserve genuinely transparent alpha outside the extracted entity. ",
+      "estimated_bytes": 8000000,
+      "generated_input": "sources/tiles/hoefnagel-cut-apple.png",
+      "generated_sha256": "d88f7ec1fd9f58e216b21ef205719aa128c93f30e949f6aecc4e1283c301fa33",
+      "export_crop": [
+        114,
+        44,
+        1353,
+        1077
+      ],
+      "alpha_crop_threshold": 16,
+      "crop_padding": 8,
+      "master_sha256": "3d6ccf5fb323c51916ee1cd62a846d7f166bf72eaa4e1152c706d42ca25615dd",
+      "review": {
+        "status": "accepted",
+        "checks": [
+          "historical-source-or-text-motif-comparison",
+          "final-png-on-light-background",
+          "final-png-on-dark-background",
+          "webp-decoding",
+          "transparent-openings-and-fine-details",
+          "no-unverified-repeat"
+        ],
+        "notes": "Both overlapping halves kept together; pips, cores, red skins and stems retained; rose stems and cast shadows removed."
+      }
+    },
+    {
+      "name": "hoefnagel-strapwork-frame",
+      "candidate": "getty-ms20-107",
+      "source": "getty-rose-apple-107",
+      "asset_type": "decoration",
+      "max_dimension": 1800,
+      "region": "ONLY the complete intricate BLACK-BROWN PENWORK rectangular STRAPWORK FRAME in the upper page, including every thin leafy vine around the outside. Remove ALL lettering and flourishes inside its inner rectangle, the small gold initial, page number at top right, the flowers/fruit below and all parchment, including the center and all scroll openings. Preserve faint historical pen strokes and hatching; use true alpha, no cream rectangular fill. Preserve exact fixed aspect ratio and corner joins, no repeating tile interpretation.",
+      "description": "An intricate brown-black penwork frame with curled strapwork, small floral details, hatching and fine leafy vines around its perimeter.",
+      "categories": [
+        "ribbons",
+        "scrollwork",
+        "botanical",
+        "floral"
+      ],
+      "subjects": [
+        "strapwork",
+        "frame",
+        "vine",
+        "leaf",
+        "flower"
+      ],
+      "colors": [
+        "brown",
+        "black"
+      ],
+      "facing": "unclear",
+      "composition": "single-ornament",
+      "prompt": "Edit target: the attached historical source image. Extract exactly one asset from the specified region. Preserve the historical drawing, colors, imperfections and proportions; do not replace with a generic ornament or modern redraw. ONLY the complete intricate BLACK-BROWN PENWORK rectangular STRAPWORK FRAME in the upper page, including every thin leafy vine around the outside. Remove ALL lettering and flourishes inside its inner rectangle, the small gold initial, page number at top right, the flowers/fruit below and all parchment, including the center and all scroll openings. Preserve faint historical pen strokes and hatching; use true alpha, no cream rectangular fill. Preserve exact fixed aspect ratio and corner joins, no repeating tile interpretation. Return a single tightly framed asset with a modest transparent margin. Do not place other source entities, labels, a paper rectangle, a checkerboard texture or a drop shadow around it. Preserve genuinely transparent alpha outside the extracted entity. ",
+      "estimated_bytes": 8000000,
+      "generated_input": "sources/tiles/hoefnagel-strapwork-frame.png",
+      "generated_sha256": "da3be7afb9b2d0883328bc8ac440f1878c791231566207acf5bb0491d1ec36c4",
+      "export_crop": [
+        32,
+        5,
+        1452,
+        1063
+      ],
+      "alpha_crop_threshold": 16,
+      "crop_padding": 8,
+      "master_sha256": "4117235b8edcf52c3393acc21c2f4cd1e24a90eb57a844cde04993fe3f7268ed",
+      "review": {
+        "status": "accepted",
+        "checks": [
+          "historical-source-or-text-motif-comparison",
+          "final-png-on-light-background",
+          "final-png-on-dark-background",
+          "webp-decoding",
+          "transparent-openings-and-fine-details",
+          "no-unverified-repeat"
+        ],
+        "notes": "Complete strapwork, corner connections and thin outer vines reviewed; center lettering, gold initial, page number, fruit and paper removed. Center alpha zero; fine brown ink has lower contrast on dark surfaces."
+      }
+    },
+    {
+      "name": "rabbit-horn-hound-rider",
+      "candidate": "fitzwilliam-ms1-2005-115v",
+      "source": null,
+      "asset_type": "illustration",
+      "max_dimension": 1024,
+      "region": "Create an independently composed NEW illustration from this text motif only: a small russet rabbit blowing a curved brass hunting horn while riding a long slender cream-and-gray hound trotting to the right. The rabbit wears a muted red short tunic, one paw at the horn and one lightly holding a plain rein. This is an original modern interpretation of a documented medieval marginal motif, NOT a reproduction or extraction of a museum scan. Use restrained late-medieval ink and opaque painted pigment, fine uneven dark-brown outlines, flat irregular shapes, worn blue-gray/ochre/red coloration. Design a fresh pose and proportions. Transparent background, no parchment, no ground, no text, no shadows, no elaborate frame. Show complete ears, horn, hound tail and all legs, and maintain legible separation.",
+      "description": "A russet rabbit in a red tunic blows a curved hunting horn while riding a pale hound facing right.",
+      "categories": [
+        "animals",
+        "fantasy",
+        "music"
+      ],
+      "subjects": [
+        "rabbit",
+        "dog",
+        "hound",
+        "rider",
+        "horn",
+        "musician"
+      ],
+      "colors": [
+        "brown",
+        "red",
+        "cream",
+        "gray",
+        "gold"
+      ],
+      "facing": "right",
+      "composition": "multiple-figures",
+      "prompt": "Create an independently composed NEW illustration from this text motif only: a small russet rabbit blowing a curved brass hunting horn while riding a long slender cream-and-gray hound trotting to the right. The rabbit wears a muted red short tunic, one paw at the horn and one lightly holding a plain rein. This is an original modern interpretation of a documented medieval marginal motif, NOT a reproduction or extraction of a museum scan. Use restrained late-medieval ink and opaque painted pigment, fine uneven dark-brown outlines, flat irregular shapes, worn blue-gray/ochre/red coloration. Design a fresh pose and proportions. Transparent background, no parchment, no ground, no text, no shadows, no elaborate frame. Show complete ears, horn, hound tail and all legs, and maintain legible separation.",
+      "estimated_bytes": 8000000,
+      "generated_input": "sources/tiles/rabbit-horn-hound-rider.png",
+      "generated_sha256": "ec532bb19319a85ce090b99c74616d45ad364f4d907c8c4659282c32ab537ade",
+      "export_crop": [
+        9,
+        10,
+        1372,
+        1132
+      ],
+      "alpha_crop_threshold": 16,
+      "crop_padding": 8,
+      "master_sha256": "389484fee62fcefcd259ef700dd177133167aa65ddde9a157403ef26e2ffe0dd",
+      "review": {
+        "status": "accepted",
+        "checks": [
+          "historical-source-or-text-motif-comparison",
+          "final-png-on-light-background",
+          "final-png-on-dark-background",
+          "webp-decoding",
+          "transparent-openings-and-fine-details",
+          "no-unverified-repeat"
+        ],
+        "notes": "Independently authored text-only interpretation reviewed for complete horn, rabbit ears, hound limbs and tail, legible pose and transparency. No Fitzwilliam scan imported."
+      }
+    }
+  ],
+  "method": "One built-in imagegen edit per extracted entity, preserving the unmodified downloaded source. Native generated PNGs are retained; library PNG masters trim only outer canvas and downscale to source-region caps. No tracing, tile synthesis or automatic repeats.",
+  "review": {
+    "status": "complete",
+    "backgrounds": [
+      "white",
+      "#172026"
+    ],
+    "existing_assets": "No provenance backfill or artwork edits.",
+    "reviewed_on": "2026-10-08",
+    "asset_count": 23,
+    "png_webp_pairs": "Lossless visible RGB and alpha verified by catalog checks.",
+    "browser_screenshots": "tmp/historical-review/",
+    "historical_extractions": 22,
+    "independent_interpretations": 1
+  }
+}

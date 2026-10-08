@@ -16,6 +16,14 @@ export interface Asset extends RasterVariant {
   readonly repeat_axis?: 'x' | 'y' | 'none';
   readonly repeat_ratio?: number; readonly slice_pixels?: number;
 }
+export interface Provenance {
+  readonly institution: string; readonly title: string; readonly object_identifier: string;
+  readonly date: string; readonly artist?: string; readonly record_url: string;
+  readonly image_url?: string; readonly image_rights: string; readonly rights_url: string;
+  readonly source_sha256?: string;
+  readonly method: 'ai-assisted-extraction' | 'independent-ai-interpretation';
+  readonly audit: string;
+}
 export interface Ornament extends Asset {
   readonly name: string; readonly description: string;
   readonly categories: readonly string[]; readonly subjects: readonly string[];
@@ -25,6 +33,7 @@ export interface Ornament extends Asset {
   readonly uses: readonly OrnamentUse[]; readonly formats: readonly Exclude<Format, 'auto'>[];
   readonly components: Readonly<Partial<Record<'border_image' | 'corner' | 'rotated_tile' | 'reference_crop', Asset>>>;
   readonly border_image_slice_percent?: number; readonly reference?: string;
+  readonly provenance?: Provenance;
 }
 export interface RepeatOrnament extends Ornament {
   readonly name: string; readonly kind: 'repeat-tile';
@@ -56,4 +65,23 @@ export interface OrnamentController<Options> {
   readonly configuration: ResolvedOrnament;
   update(options: Partial<Options>): OrnamentController<Options>;
   destroy(): void;
+}
+
+type BoundOptions<Base, Name extends string, Available extends Exclude<Format, 'auto'>> = Omit<Base, 'design' | 'format'> & { design?: Name; format?: 'auto' | Available };
+export interface RepeatDesign<Name extends string, Available extends Exclude<Format, 'auto'>, Type extends AssetType = 'border'> {
+  ornament: RepeatOrnament & { readonly name: Name; readonly asset_type: Type };
+  frameOptions: BoundOptions<FrameOptions, Name, Available>;
+  dividerOptions: BoundOptions<DividerOptions, Name, Available>;
+  resolve: {
+    (use: 'frame', options?: BoundOptions<FrameOptions, Name, Available>): ResolvedOrnament;
+    (use: 'divider', options?: BoundOptions<DividerOptions, Name, Available>): ResolvedOrnament;
+  };
+  createFrame: (element: HTMLElement, options?: BoundOptions<FrameOptions, Name, Available>) => OrnamentController<BoundOptions<FrameOptions, Name, Available>>;
+  createDivider: (element: HTMLElement, options?: BoundOptions<DividerOptions, Name, Available>) => OrnamentController<BoundOptions<DividerOptions, Name, Available>>;
+}
+export interface WholeDesign<Name extends string, Available extends Exclude<Format, 'auto'>, Type extends AssetType> {
+  ornament: WholeOrnament & { readonly name: Name; readonly asset_type: Type };
+  imageOptions: BoundOptions<ImageOptions, Name, Available>;
+  resolve: (use: 'image', options?: BoundOptions<ImageOptions, Name, Available>) => ResolvedOrnament;
+  createOrnamentImage: (element: HTMLImageElement, options?: BoundOptions<ImageOptions, Name, Available>) => OrnamentController<BoundOptions<ImageOptions, Name, Available>>;
 }

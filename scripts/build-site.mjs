@@ -22,6 +22,7 @@ const files = ['index.html', 'ornaments.css', 'favicon.svg', 'favicon-32.png', '
   'images.json', 'images.schema.json', 'illustrations.json', 'illustration-import.json',
   'selection-metadata.json', 'assets-manifest.json', 'LICENSE', 'source-patterns.json',
   'additional-patterns.json', 'reference-crops.json', 'raster-metadata.json', 'EXTRACTION-PROMPTS.json',
+  'historical-additions.json', 'historical-border-patterns.json', 'illustration-additions.json',
   ...(await readdir(root)).filter(name => name.endsWith('.md'))];
 for (const name of files) await cp(path.join(root, name), path.join(site, name));
 await cp(path.join(root, 'dist/react'), path.join(site, 'examples/react'), { recursive: true });

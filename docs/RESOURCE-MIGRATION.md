@@ -16,7 +16,7 @@ For applications using npm components with their default asset URLs:
 creates no image copies in the application repo. Leave `assetsBase` unset;
 `add`, `copy-assets` and resource-package installs are unnecessary here.
 
-1. Run `npm install @ranx729/medieval-ornaments@0.7.1`.
+1. Run `npm install @ranx729/medieval-ornaments@0.8.0`.
 2. Keep your current component imports and props; no storage ID belongs in JSX.
 3. Check your content-security policy allows `https://unpkg.com` in `img-src`.
 4. Verify your used frames, dividers and whole images in the production build.
@@ -78,8 +78,8 @@ current default. Replace manual use of these constants with `getAssetSource`.
 For an offline border installation:
 
 ```sh
-npm install @ranx729/medieval-ornaments@0.7.1
-npm install --save-dev @ranx729/medieval-ornaments-assets-borders-001@0.1.1
+npm install @ranx729/medieval-ornaments@0.8.0
+npm install --save-dev @ranx729/medieval-ornaments-assets-borders-001@0.1.2
 npx --no-install medieval-ornaments copy-assets public/ornaments --design red-berry-vine --offline
 ```
 
@@ -93,7 +93,7 @@ with your existing installation and merge your edits. `add` intentionally reject
 mixed runtime versions in one installation. Do not use `--overwrite` to bypass
 that version guard; do not delete customized files blindly.
 
-ZIP link: [0.7.1 browser archive](https://github.com/adrian729/medieval-ornaments/releases/download/v0.7.1/medieval-ornaments-browser.zip).
+ZIP link: [0.7.1 browser archive](https://github.com/adrian729/medieval-ornaments/releases/download/v0.8.0/medieval-ornaments-browser.zip).
 
 ## Authoring and automation
 
@@ -108,7 +108,7 @@ any additional compatibility change here with an executable migration example.
 
 ## Patch 0.7.1
 
-Install `@ranx729/medieval-ornaments@0.7.1` to use the current resource revisions
+Install `@ranx729/medieval-ornaments@0.8.0` to use the current resource revisions
 (0.1.1). All artwork bytes, names, import paths and component options are
 unchanged; no application code migration is needed. `getAssetSource(design)`
 returns the new exact resource version for offline installations.

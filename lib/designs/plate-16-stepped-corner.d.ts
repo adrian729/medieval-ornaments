@@ -1,5 +1,6 @@
-import type { WholeOrnament, ResolvedOrnament, OrnamentController, ImageOptions as BaseImageOptions } from '../common.js';
-export declare const ornament: WholeOrnament & { readonly name: "plate-16-stepped-corner"; readonly asset_type: "decoration" };
-export type ImageOptions = Omit<BaseImageOptions, 'design' | 'format'> & { design?: "plate-16-stepped-corner"; format?: "auto" | "svg" | "webp" | "png" };
-export declare function resolveOrnament(use: 'image', options?: ImageOptions): ResolvedOrnament;
-export declare function createOrnamentImage(element: HTMLImageElement, options?: ImageOptions): OrnamentController<ImageOptions>;
+import type { WholeDesign } from '../common.js';
+type Design = WholeDesign<"plate-16-stepped-corner", "svg" | "webp" | "png", "decoration">;
+export declare const ornament: Design['ornament'];
+export declare const resolveOrnament: Design['resolve'];
+export type ImageOptions = Design['imageOptions'];
+export declare const createOrnamentImage: Design['createOrnamentImage'];

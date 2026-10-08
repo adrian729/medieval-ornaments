@@ -50,6 +50,13 @@ test('untrusted manifests are rejected before any artwork is requested', async t
   assert.deepEqual(requests, ['assets-manifest.json']);
 });
 
+test('immutable compatibility snapshots reject new artwork before downloading or writing files', async t => {
+  const { directory, requests, base } = await fixture(t);
+  await assert.rejects(copyAssets(['copy-assets', directory, '--design', 'isabella-pink-rose', '--format', 'png', '--from', base]), /absent from compatibility archive/);
+  assert.deepEqual(requests, ['assets-manifest.json']);
+  assert.deepEqual(await readdir(directory), []);
+});
+
 for (const mode of ['corrupt', 'missing']) test(`failed ${mode} downloads preserve existing files and remove temporary files`, async t => {
   const { directory, args } = await fixture(t, mode);
   await mkdir(path.join(directory, 'svg'));

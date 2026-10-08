@@ -1,0 +1,279 @@
+{
+  "schema_version": 1,
+  "reviewed_on": "2026-10-08",
+  "purpose": "Research shortlist for possible historical illustration and ornament additions; not an asset catalog, resource assignment, or publication approval.",
+  "method": "Locate motifs through museum decoration inventories, object records and curated selections, then inspect selected images. No sequential manuscript scanning.",
+  "scope": "Prefer historical originals and image terms allowing modification, redistribution and commercial use. Keep attractive restricted scans as references for independently authored adaptations or an alternative unrestricted reproduction.",
+  "discovery_guides": [
+    {
+      "title": "Walters W.102 decoration inventory",
+      "url": "https://thedigitalwalters.org/Data/WaltersManuscripts/html/W102/description.html",
+      "use": "Lists named motifs and exact folios, including the Reynard funeral cycle and line fillers."
+    },
+    {
+      "title": "Music in the Margins: The Funeral of Reynard the Fox",
+      "url": "https://publicdomainreview.org/collection/music-in-the-margins-the-funeral-of-reynard-the-fox-13th-century",
+      "use": "Curated detail images; confirm identification against Walters because the elephant-pilgrim caption gives 73r while the museum inventory gives 73v."
+    },
+    {
+      "title": "Renaissance Ornament Prints and Drawings",
+      "url": "https://www.metmuseum.org/met-publications/renaissance-ornament-prints-and-drawings",
+      "use": "Curated scholarly discovery guide with links to original collection objects. Use the historical objects' open images, not presumed reuse rights in the modern publication."
+    }
+  ],
+  "candidates": [
+    {
+      "id": "walters-w102-81r",
+      "title": "Rabbit tolling church bells",
+      "institution": "Walters Art Museum",
+      "object_identifier": "W.102, fol. 81r",
+      "date": "ca. 1300",
+      "record_url": "https://art.thewalters.org/object/W.102.81R/",
+      "discovery": "Named in the museum's folio decoration inventory; also in the curated Reynard funeral selection.",
+      "image_reuse": "CC0; directly reusable",
+      "rights_evidence_urls": [
+        "https://art.thewalters.org/object/W.102.81R/"
+      ],
+      "visual_review": "Inspected the detail distributed by the museum's Flickr account.",
+      "preview_url": "https://live.staticflickr.com/8014/7699243818_f188d31fba_b.jpg",
+      "preview_record_url": "https://www.flickr.com/photos/medmss/7699243818",
+      "proposed_use": "Standalone illustration retaining the rabbit, rope and church as one composition.",
+      "fit": "Extends existing rabbit musicians with a new action and an architectural scene.",
+      "work_needed": "Obtain the highest useful source resolution and remove parchment carefully. The bell rope joins the church; extracting only the rabbit would lose the action.",
+      "priority": "high",
+      "library_assets": [
+        "walters-rabbit-church-bells"
+      ],
+      "library_status": "added-locally; resource-publication-pending"
+    },
+    {
+      "id": "walters-w102-74v",
+      "title": "Horse playing a flute and drum",
+      "institution": "Walters Art Museum",
+      "object_identifier": "W.102, fol. 74v",
+      "date": "ca. 1300",
+      "record_url": "https://art.thewalters.org/object/W.102.74V/",
+      "discovery": "Museum decoration inventory and curated Reynard funeral selection.",
+      "image_reuse": "CC0; directly reusable",
+      "rights_evidence_urls": [
+        "https://art.thewalters.org/object/W.102.74V/"
+      ],
+      "visual_review": "Inspected the selected detail: an upright blue horse-like animal plays a pipe beside a round red-rimmed drum. Source text is above, and a small green ground strip is below; extraction fidelity is not yet assessed.",
+      "preview_url": "https://pdr-assets.b-cdn.net/collections/music-in-the-margins-the-funeral-of-reynard-the-fox-13th-century/35897180625_74c08433b2_o.jpg?height=1200&width=600",
+      "proposed_use": "Single-figure illustration with both instruments retained.",
+      "fit": "Adds a horse musician and a combined flute-and-drum action absent from the current illustration descriptions.",
+      "work_needed": "Inspect the full-resolution museum master and retain the entire figure and instruments during extraction.",
+      "priority": "high",
+      "library_assets": [
+        "walters-horse-flute-drum"
+      ],
+      "library_status": "added-locally; resource-publication-pending"
+    },
+    {
+      "id": "walters-w102-82v",
+      "title": "Centaur firing an arrow",
+      "institution": "Walters Art Museum",
+      "object_identifier": "W.102, fol. 82v",
+      "date": "ca. 1300",
+      "record_url": "https://art.thewalters.org/object/W.102.82V/",
+      "discovery": "Named in the museum's decoration inventory.",
+      "image_reuse": "CC0; directly reusable",
+      "rights_evidence_urls": [
+        "https://art.thewalters.org/object/W.102.82V/"
+      ],
+      "visual_review": "Inspected the museum-distributed detail: blue equine body, pale human torso and red bow, with green ground beneath.",
+      "preview_url": "https://live.staticflickr.com/8023/7699241118_60ac2881e4_b.jpg",
+      "preview_record_url": "https://www.flickr.com/photos/medmss/7699241118",
+      "proposed_use": "Single-figure hybrid illustration.",
+      "fit": "Adds a centaur and archery to a collection currently concentrated on music and reading.",
+      "work_needed": "Acquire a release-quality source; preserve the fine bowstring and arrow. Decide explicitly whether the green ground remains.",
+      "priority": "high",
+      "library_assets": [
+        "walters-centaur-archer"
+      ],
+      "library_status": "added-locally; resource-publication-pending"
+    },
+    {
+      "id": "walters-w102-28r",
+      "title": "Elephant and castle",
+      "institution": "Walters Art Museum",
+      "object_identifier": "W.102, fol. 28r",
+      "date": "ca. 1300",
+      "record_url": "https://art.thewalters.org/object/W.102.28R/",
+      "discovery": "Museum inventory identifies the motif as a line filler; the object record also lists its inclusion in Getty's Book of Beasts exhibition.",
+      "image_reuse": "CC0; directly reusable",
+      "rights_evidence_urls": [
+        "https://art.thewalters.org/object/W.102.28R/"
+      ],
+      "visual_review": "Object and rights verified; image inspection pending.",
+      "proposed_use": "Standalone illustration or complete figural line decoration.",
+      "fit": "Adds an elephant and a distinctive animal-and-architecture motif.",
+      "work_needed": "Inspect its relationship to the surrounding line and lettering before choosing extraction bounds. Keep elephant and castle together; do not assume repeat capability.",
+      "priority": "medium",
+      "library_assets": [
+        "walters-elephant-castle"
+      ],
+      "library_status": "added-locally; resource-publication-pending"
+    },
+    {
+      "id": "met-356741",
+      "title": "Sheet of border segments: vertical floral ornament, horizontal frieze, four corners",
+      "institution": "The Metropolitan Museum of Art",
+      "object_identifier": "29.16.3",
+      "artist": "Francesco Rosselli",
+      "date": "1490-1500",
+      "record_url": "https://www.metmuseum.org/art/collection/search/356741",
+      "discovery": "Linked from the museum's curated Renaissance Ornament Prints and Drawings publication.",
+      "image_reuse": "Public Domain; directly reusable",
+      "rights_evidence_urls": [
+        "https://www.metmuseum.org/art/collection/search/356741"
+      ],
+      "preview_url": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/356741/1302791/main-image",
+      "visual_review": "Inspected the source image: two long ornament strips and four separately framed roundel blocks. The title's four corners are not a ready-made modern frame atlas.",
+      "proposed_use": "Separate long decorations and roundels initially; repeating borders only after geometry and join review.",
+      "fit": "Historical modular ornament with actual strip and corner-related components; unusually close to the library's needs.",
+      "work_needed": "Retain distinctions between the two strips and the roundels. Audit source repeat periods, end phases and any adaptations needed for a frame. Preserve source scans; document tracing or reconstruction.",
+      "priority": "high",
+      "library_assets": [
+        "rosselli-foliate-strip",
+        "rosselli-mask-strip",
+        "rosselli-roundel-top",
+        "rosselli-roundel-second",
+        "rosselli-roundel-third",
+        "rosselli-roundel-bottom"
+      ],
+      "library_status": "added-locally; resource-publication-pending"
+    },
+    {
+      "id": "met-422674",
+      "title": "Horizontal Panel with Two Tendrils Sprouting from the Center, Ending in Volutes",
+      "institution": "The Metropolitan Museum of Art",
+      "object_identifier": "26.105.2",
+      "artist": "Heinrich Aldegrever",
+      "date": "ca. 1529",
+      "record_url": "https://www.metmuseum.org/art/collection/search/422674",
+      "discovery": "Specific ornament object search.",
+      "image_reuse": "Public Domain; directly reusable",
+      "rights_evidence_urls": [
+        "https://www.metmuseum.org/art/collection/search/422674"
+      ],
+      "preview_url": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/422674/1358053/main-image",
+      "visual_review": "Inspected: light foliate scrolls on dark engraving hatching, spreading outward from a central stem; artist monogram at the bottom.",
+      "proposed_use": "Whole horizontal decoration.",
+      "fit": "A compact Renaissance scrollwork panel suitable above or below content.",
+      "work_needed": "Preserve the complete centered composition. An SVG trace would be an adaptation of the engraving; removing hatching would change its appearance. No seamless repeat claim.",
+      "priority": "high",
+      "library_assets": [
+        "aldegrever-paired-tendrils"
+      ],
+      "library_status": "added-locally; resource-publication-pending"
+    },
+    {
+      "id": "met-373115",
+      "title": "Ornamental Fillet with Thistle Motifs",
+      "institution": "The Metropolitan Museum of Art",
+      "object_identifier": "24.68.2",
+      "artist": "Daniel Hopfer",
+      "date": "1510-1528",
+      "record_url": "https://www.metmuseum.org/art/collection/search/373115",
+      "discovery": "Linked from the museum's curated Renaissance ornament publication.",
+      "image_reuse": "Public Domain; directly reusable",
+      "rights_evidence_urls": [
+        "https://www.metmuseum.org/art/collection/search/373115"
+      ],
+      "preview_url": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/373115/1341492/main-image",
+      "visual_review": "Inspected: dense upright botanical ornament, curling stems, birds or fantastic bird-like figures, and a mask near the bottom.",
+      "proposed_use": "Whole vertical decoration.",
+      "fit": "Adds dense black-and-white Renaissance botanical and fantastic ornament.",
+      "work_needed": "Keep the complete panel first. Do not infer a tile from the word fillet; the image has a composed beginning and end.",
+      "priority": "medium",
+      "library_assets": [
+        "hopfer-thistle-panel"
+      ],
+      "library_status": "added-locally; resource-publication-pending"
+    },
+    {
+      "id": "cleveland-1963-256-80-b",
+      "title": "Floral border surrounding Virgin and Christ with Angels",
+      "institution": "Cleveland Museum of Art",
+      "object_identifier": "1963.256.80.b; Hours of Queen Isabella, fol. 80v",
+      "artist": "Master of the First Prayerbook of Maximillian and associates",
+      "date": "ca. 1500",
+      "record_url": "https://www.clevelandart.org/art/1963.256.80.b",
+      "discovery": "Cataloged leaf with an explicit description of the flowers, birds and butterflies in its border.",
+      "image_reuse": "CC0; directly reusable",
+      "rights_evidence_urls": [
+        "https://www.clevelandart.org/art/1963.256.80.b",
+        "https://www.clevelandart.org/open-access"
+      ],
+      "preview_url": "https://openaccess-cdn.clevelandart.org/1963.256.80.b/1963.256.80.b_web.jpg",
+      "visual_review": "Museum description and image terms verified; source download blocked in this session, so visual extraction review remains pending.",
+      "proposed_use": "Whole floral border, side decorations, or individual flower and butterfly illustrations after source inspection.",
+      "fit": "Close match to the library's painted botanical ornaments, with naturalistic fauna.",
+      "work_needed": "Inspect the source at full resolution. Preserve or explicitly adapt the gold ground; document any removal of the central scene. The composition is not presumed seamless.",
+      "priority": "high",
+      "library_assets": [
+        "isabella-gold-floral-frame",
+        "isabella-orange-butterfly",
+        "isabella-gray-butterfly",
+        "isabella-small-bird",
+        "isabella-pink-rose",
+        "isabella-blue-cornflower"
+      ],
+      "library_status": "added-locally; resource-publication-pending"
+    },
+    {
+      "id": "getty-ms20-107",
+      "title": "French Rose and Apple",
+      "institution": "J. Paul Getty Museum",
+      "object_identifier": "Ms. 20 (86.MV.527), fol. 107",
+      "artist": "Georg Bocskay, script; Joris Hoefnagel, illumination",
+      "date": "Script 1561-1562; illumination 1591-1596",
+      "record_url": "https://www.getty.edu/news/to-hold-nature-in-the-hand-revealing-the-wonders-of-the-mira-monumenta-calligraphiae/",
+      "parent_record_url": "https://www.getty.edu/art/collection/object/103RWD",
+      "discovery": "Museum curator's illustrated article identifies this exact folio.",
+      "image_reuse": "Getty Open Content / CC0; institutional manuscript policy verified. Obtain the Open Content master and preserve its designation at acquisition.",
+      "rights_evidence_urls": [
+        "https://www.getty.edu/museum/manuscripts/",
+        "https://www.getty.edu/projects/open-content-program/"
+      ],
+      "preview_url": "https://media.getty.edu/iiif/image/c87fb882-b2e5-4d43-b225-c90f00569be8/full/1200,/0/default.jpg",
+      "visual_review": "Inspected: two pink roses and a cut apple below calligraphy, plus a complete intricate black strapwork-and-vine frame.",
+      "proposed_use": "Rose-and-apple botanical illustration and, separately, a whole strapwork frame decoration.",
+      "fit": "One located page offers both a painted botanical composition and geometric scrollwork.",
+      "work_needed": "Acquire the designated Open Content master. Keep the fruit and flower composition whole initially. Removing text or converting the frame to a stretchable atlas requires documented adaptation.",
+      "priority": "high",
+      "library_assets": [
+        "hoefnagel-rose-upper",
+        "hoefnagel-rose-lower",
+        "hoefnagel-cut-apple",
+        "hoefnagel-strapwork-frame"
+      ],
+      "library_status": "added-locally; resource-publication-pending"
+    },
+    {
+      "id": "fitzwilliam-ms1-2005-115v",
+      "title": "Rabbit blowing a hunting horn and riding a hound",
+      "institution": "Fitzwilliam Museum",
+      "object_identifier": "MS 1-2005; Macclesfield Psalter, fol. 115v",
+      "date": "ca. 1330-1340",
+      "record_url": "https://www.fitzmuseum.cam.ac.uk/illuminated/manuscript/discover/the-macclesfield-psalter/folio/folio-115v-294",
+      "discovery": "Exact folio and motif described by the museum's Illuminated project.",
+      "image_reuse": "Reference only; website images declared CC BY-NC-ND. The collections API describes CC BY-NC-SA images instead; neither is unrestricted for our intended redistribution.",
+      "rights_evidence_urls": [
+        "https://fitzmuseum.cam.ac.uk/about-us/terms-of-use-of-our-website",
+        "https://www.fitzmuseum.cam.ac.uk/commercial-services/image-library",
+        "https://data.fitzmuseum.cam.ac.uk/api"
+      ],
+      "visual_review": "Catalog identification verified; image review deferred because this is not a direct-use candidate.",
+      "proposed_use": "Reference for an independently authored adaptation of the historical motif, or locate an unrestricted reproduction of the original artwork.",
+      "fit": "A new rabbit action involving a hound, fitting the animal and fantasy categories.",
+      "work_needed": "Do not publish a cropped, traced or AI-edited restricted scan as an unrestricted cutout. A new drawing must have its own documented method and must not be represented as source pixels. Resolve any applicable source-use terms before authoring.",
+      "priority": "reference",
+      "library_assets": [
+        "rabbit-horn-hound-rider"
+      ],
+      "library_status": "independent-interpretation-added; historical-reference-not-copied"
+    }
+  ]
+}

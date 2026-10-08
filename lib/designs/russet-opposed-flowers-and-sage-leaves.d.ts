@@ -1,8 +1,8 @@
-import type { RepeatOrnament, ResolvedOrnament, OrnamentController, FrameOptions as BaseFrameOptions, DividerOptions as BaseDividerOptions } from '../common.js';
-export declare const ornament: RepeatOrnament & { readonly name: "russet-opposed-flowers-and-sage-leaves"; readonly asset_type: "border" };
-export type FrameOptions = Omit<BaseFrameOptions, 'design' | 'format'> & { design?: "russet-opposed-flowers-and-sage-leaves"; format?: "auto" | "svg" | "webp" | "png" };
-export declare function resolveOrnament(use: 'frame', options?: FrameOptions): ResolvedOrnament;
-export declare function createFrame(element: HTMLElement, options?: FrameOptions): OrnamentController<FrameOptions>;
-export type DividerOptions = Omit<BaseDividerOptions, 'design' | 'format'> & { design?: "russet-opposed-flowers-and-sage-leaves"; format?: "auto" | "svg" | "webp" | "png" };
-export declare function resolveOrnament(use: 'divider', options?: DividerOptions): ResolvedOrnament;
-export declare function createDivider(element: HTMLElement, options?: DividerOptions): OrnamentController<DividerOptions>;
+import type { RepeatDesign } from '../common.js';
+type Design = RepeatDesign<"russet-opposed-flowers-and-sage-leaves", "svg" | "webp" | "png", "border">;
+export declare const ornament: Design['ornament'];
+export declare const resolveOrnament: Design['resolve'];
+export type FrameOptions = Design['frameOptions'];
+export declare const createFrame: Design['createFrame'];
+export type DividerOptions = Design['dividerOptions'];
+export declare const createDivider: Design['createDivider'];

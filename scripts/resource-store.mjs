@@ -34,7 +34,7 @@ export function ownedPaths() {
     const data = manifest(id);
     const config=registry();
     const retainedFiles=new Set(Object.entries(data.designs).filter(([name])=>config.assignments[name]!==id).flatMap(([,item])=>designPaths(item)));
-    for (const relative of [...Object.keys(data.files).filter(p=>!retainedFiles.has(p)), ...Object.keys(data.inputs || {}).filter(p=>!Object.keys(data.designs).some(name=>config.assignments[name]!==id&&path.basename(p).replace(/\.[^.]+$/,'')===name))]) {
+    for (const relative of [...Object.keys(data.files).filter(p=>!retainedFiles.has(p)), ...Object.keys(data.inputs || {}).filter(p=>!Object.keys(data.designs).some(name=>config.assignments[name]!==id&&[name,...['-border','-corner','-rotated','-reference'].map(suffix=>name+suffix)].includes(path.basename(p).replace(/\.[^.]+$/,''))))]) {
       checkedRelative(relative);
       if (result.has(relative)) throw Error(`Resource path has two owners: ${relative}`);
       result.set(relative, id);

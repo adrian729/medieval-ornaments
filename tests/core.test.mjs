@@ -15,11 +15,13 @@ test('generated catalog agrees with artwork and has stable capabilities', async 
   const original = JSON.parse(await readFile(new URL('images.json', root)));
   const additions = JSON.parse(await readFile(new URL('additional-patterns.json', root)));
   const illustrations = JSON.parse(await readFile(new URL('illustrations.json', root)));
+  const raster = JSON.parse(await readFile(new URL('raster-metadata.json', root)));
+  const rasterBorders = JSON.parse(await readFile(new URL('historical-border-patterns.json', root)));
   const repeats = additions.filter(item => item.kind === 'repeat-tile').length;
-  assert.equal(ornaments.length, 49 + additions.length + illustrations.length);
-  assert.equal(findOrnaments({ use: 'frame' }).length, 40 + repeats);
-  assert.equal(findOrnaments({ use: 'divider' }).length, 40 + repeats);
-  assert.equal(findOrnaments({ use: 'image' }).length, 9 + additions.length - repeats + illustrations.length);
+  assert.equal(ornaments.length, 44 + raster.length + additions.length + illustrations.length + rasterBorders.length);
+  assert.equal(findOrnaments({ use: 'frame' }).length, 40 + repeats + rasterBorders.length);
+  assert.equal(findOrnaments({ use: 'divider' }).length, 40 + repeats + rasterBorders.length);
+  assert.equal(findOrnaments({ use: 'image' }).length, 4 + raster.length + additions.length - repeats + illustrations.length);
   assert.deepEqual(ornaments.map(item => item.name), [...ornaments.map(item => item.name)].sort());
   for (const item of original) {
     const { uses, formats, ...generated } = getOrnament(item.name);
@@ -42,7 +44,7 @@ test('version-pinned public URLs work without any browser globals', () => {
 
 test('every repeat design selects original and forced axes with each format', async () => {
   for (const item of findOrnaments({ use: 'divider' })) {
-    for (const orientation of ['original', 'horizontal', 'vertical']) for (const format of ['auto', 'svg', 'webp', 'png']) {
+    for (const orientation of ['original', 'horizontal', 'vertical']) for (const format of ['auto', ...item.formats]) {
       const result = resolveOrnament('divider', { design: item.name, orientation, format });
       const axis = orientation === 'original' ? item.repeat_axis : orientation === 'horizontal' ? 'x' : 'y';
       const source = axis === item.repeat_axis ? item : item.components.rotated_tile;
@@ -56,6 +58,7 @@ test('every repeat design selects original and forced axes with each format', as
     const frame = resolveOrnament('frame', { design: item.name, size: 33 });
     assert.equal(frame.style['--ornament-slice'], item.border_image_slice_percent + '%');
     assert.ok(frame.asset.path.includes('-border.'));
+    if (!item.formats.includes('svg')) assert.throws(() => resolveOrnament('frame', {design: item.name, format: 'svg'}), /svg|format/);
   }
 });
 

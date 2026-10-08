@@ -151,7 +151,34 @@ checkout. Subsequent design fetches in one source accumulate required files.
 Dirty checkouts are protected. `link` creates ignored flat aliases for existing
 review/test tools; generators read/write the canonical checkout directly.
 References shared across designs remain in main. Local flat views and npm
-mirrors are different: use `npm run build:assets` for an approved flat mirror.
+mirrors are different: `npm run build:assets` reproduces the approved optional
+compatibility snapshot. Install the matching numbered packages for a complete
+current-catalog offline copy; `build:browser` creates its full self-hosted ZIP.
+
+Historical additions use `historical-additions.json` for untouched shared scan
+hashes, chosen entities, exact extraction prompts, source-region resolution caps
+and per-asset reviews. `scripts/import_historical.py` imports only explicitly
+selected new results after checking ownership and source hashes. Generated
+native inputs and PNG masters belong to the assigned numbered resource; the
+importer trims outer canvas and downsamples, without cleaning pixels or inventing
+repeats. New master entries may carry `provenance`; existing unknown origins stay
+absent. See [ILLUSTRATIONS.md](ILLUSTRATIONS.md) for the reviewed batch.
+
+The installer verifies a separate pinned checksum for the unchanged intersection
+with the legacy archives. These immutable snapshots can still supply old selected
+designs after numbered additions, but cannot supply new or changed files. Missing
+selections are rejected before artwork requests/writes; install the matching
+numbered package for those designs. Do not advance the compatibility archive
+versions merely to add numbered artwork.
+
+`historical-border-patterns.json` audits PNG/WebP-only repeating borders derived
+from approved historical extractions. `scripts/raster_borders.py --prepare
+--name NAME` is an explicit authoring step for native phase crops and their
+two-pixel join collars. Ordinary selected `build_assets.py` runs reuse retained
+native inputs and reference crops from the border's own resource, assemble
+phase-matched corners, and skip atlas sizes with fractional slices. Retained
+AI-assisted corner sheets preserve exact connecting collars. Their native inputs
+use the design's `-corner`/`-border` stems and follow its owner on fetch/migration.
 
 For a new design, estimate **all** bytes (exports, all variants, native inputs),
 then plan and assign before running the normal artwork pipeline:

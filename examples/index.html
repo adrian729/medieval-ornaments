@@ -51,7 +51,7 @@
 <div class="ornament-divider" id="previewStrip" aria-hidden="true" hidden></div>
 <img class="standalone ornament-image" id="standalone" decoding="async" alt="" hidden>
 </div>
-<p id="description"></p><p><code id="tags"></code></p><ul id="usageNotes"></ul><div class="links" id="links"></div>
+<p id="description"></p><p><code id="tags"></code></p><ul id="usageNotes"></ul><p id="provenance" hidden></p><div class="links" id="links"></div>
 <div class="details">
 <section class="detail" id="repeatSection"><h2>Matching repeat tile</h2><div class="sample"><div class="ornament-divider" id="strip"></div></div><p id="axis"></p></section>
 <section class="detail" id="cornerSection"><h2>Adapted corner</h2><div class="sample"><img id="corner" alt=""></div></section>
@@ -76,7 +76,7 @@ function renderBrowser(preferred,preferredCategory){
   const pool=candidates(),categories=[...new Set(pool.flatMap(item=>item.categories))].sort(),oldCategory=preferredCategory??$('category').value;
   $('category').replaceChildren(new Option('All categories','all'),...categories.map(tag=>new Option(tag+' ('+pool.filter(i=>i.categories.includes(tag)).length+')',tag)));
   $('category').value=categories.includes(oldCategory)?oldCategory:'all';
-  const tokens=$('search').value.trim().toLowerCase().split(/\s+/).filter(Boolean),items=pool.filter(item=>($('category').value==='all'||item.categories.includes($('category').value))&&tokens.every(token=>[item.name,item.description,item.facing,item.composition,item.asset_type,...item.subjects,...item.colors,...item.categories,...item.usage_notes].join(' ').toLowerCase().includes(token)));
+  const tokens=$('search').value.trim().toLowerCase().split(/\s+/).filter(Boolean),items=pool.filter(item=>($('category').value==='all'||item.categories.includes($('category').value))&&tokens.every(token=>[item.name,item.description,item.facing,item.composition,item.asset_type,...item.subjects,...item.colors,...item.categories,...item.usage_notes,...Object.values(item.provenance||{})].join(' ').toLowerCase().includes(token)));
   const old=preferred??$('design').value;
   $('design').replaceChildren(...items.map(item=>new Option(readable(item.name),item.name)));
   $('design').value=items.some(i=>i.name===old)?old:(items.some(i=>i.name==='red-berry-vine')?'red-berry-vine':items[0]?.name||'');
@@ -114,7 +114,7 @@ function update(){
   $('thicknessControl').hidden=purpose==='whole';$('fitControl').hidden=true;
   $('repeatSection').hidden=purpose!=='frame'||!hasItem;$('cornerSection').hidden=purpose!=='frame'||!hasItem;
   for(const button of $('designGrid').children)button.setAttribute('aria-pressed',String(button.dataset.design===item?.name));
-  if(!item){$('description').textContent='';$('tags').textContent='';$('usage').textContent='';$('usageNotes').replaceChildren();$('links').replaceChildren();$('originalSection').hidden=true;return}
+  if(!item){$('description').textContent='';$('tags').textContent='';$('usage').textContent='';$('usageNotes').replaceChildren();$('provenance').hidden=true;$('provenance').replaceChildren();$('links').replaceChildren();$('originalSection').hidden=true;return}
   const vector=!!item.svg;$('format').querySelector('[value=svg]').disabled=!vector;
   if(!vector&&$('format').value==='svg')$('format').value='webp';
   const fmt=$('format').value,dpr=window.devicePixelRatio||1,w=+$('width').value,h=+$('height').value,t=+$('thickness').value;
@@ -141,6 +141,12 @@ function update(){
   }
   $('description').textContent=item.description;$('tags').textContent=item.asset_type+' | '+item.categories.join(' · ')+' | '+item.colors.join(', ')+' | '+item.facing+' | '+item.composition+' | '+(item.has_transparency?'has transparency':'opaque');
   $('usageNotes').replaceChildren(...item.usage_notes.map(note=>{const li=document.createElement('li');li.textContent=note;return li}));
+  const origin=item.provenance,source=$('provenance');source.hidden=!origin;source.replaceChildren();
+  if(origin){
+    const record=document.createElement('a');record.href=origin.record_url;record.textContent=origin.title;
+    const rights=document.createElement('a');rights.href=origin.rights_url;rights.textContent=origin.image_rights;
+    source.append('Source: ',record,' · '+origin.institution+' · '+origin.object_identifier+' · '+origin.date+(origin.artist?' · '+origin.artist:'')+'. Image terms: ',rights,'.');
+  }
   const selected=purpose==='frame'?item.components.border_image:purpose==='divider'&&axis!==item.repeat_axis?item.components.rotated_tile:item;
   const links=[['PNG',selected.png],['WebP',selected.webp]];if(selected.svg)links.push([purpose==='frame'?'SVG frame':'SVG artwork',selected.svg]);
   $('links').replaceChildren(...links.map(([label,path])=>{const a=document.createElement('a');a.href=assetUrl(path);a.textContent=label;return a}));

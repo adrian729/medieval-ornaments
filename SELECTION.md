@@ -15,6 +15,7 @@ The npm package generates `/catalog.json` and immutable `ornaments` from this ca
 | Field | Meaning |
 | --- | --- |
 | `description` | Factual visible appearance, pose, clothing, objects and distinctive details; preserve uncertain identities |
+| `provenance` | Optional source institution, object/folio, date, artist when known, record/image links, source image terms and derivation method; absent for existing assets whose origins were not researched |
 | `categories` | Broad overlapping themes, defined below |
 | `subjects` | Depicted forms and objects, preferably singular: rabbit, human, lute, leaf, flower, ribbon or diamond |
 | `facing` | left, right, front, mixed, or unclear; describes the main head relative to the viewer, not an instrument. Abstract ornaments normally use unclear |

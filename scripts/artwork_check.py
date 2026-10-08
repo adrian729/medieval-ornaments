@@ -11,6 +11,8 @@ def check():
     audit=json.loads((ROOT/'source-patterns.json').read_text())
     extra=ROOT/'additional-patterns.json'
     if extra.exists():audit.update({item['name']:item for item in json.loads(extra.read_text())})
+    historical=ROOT/'historical-border-patterns.json'
+    if historical.exists():audit.update({item['name']:item for item in json.loads(historical.read_text())})
     catalog=json.loads((ROOT/'images.json').read_text())
     refs=json.loads((ROOT/'reference-crops.json').read_text())
     joins=0
@@ -53,6 +55,20 @@ def check():
         assert native.crop((0,0,1,b)).tobytes()==native.crop((w-1,0,w,b)).tobytes(),name+' tile seam'
         atlas=item['components']['border_image'];im=Image.open(ROOT/atlas['png']).convert('RGBA');size=w+2*b
         assert im.size==(size,size),name
+        if record.get('corner_edit'):
+            from source_patterns import raster_documents
+            from raster_borders import adapted_corners
+            import hashlib
+            edit=record['corner_edit']
+            for key in ['raw','sheet']:
+                assert hashlib.sha256((ROOT/edit[key+'_path']).read_bytes()).hexdigest()==edit[key+'_sha256'],name+' corner input changed'
+            _,base=raster_documents(record)
+            expected_corner,expected_atlas=adapted_corners(record,base,w,b)
+            assert im.tobytes()==expected_atlas.tobytes(),name+' adapted atlas differs from retained inputs'
+            with Image.open(ROOT/item['components']['corner']['png']) as standalone:
+                assert standalone.convert('RGBA').tobytes()==expected_corner.tobytes(),name+' standalone corner differs'
+            for bounds in [(b,0,b+w,b),(b+w,b,size,b+w),(b,b+w,b+w,size),(0,b,b,b+w)]:
+                assert im.crop(bounds).tobytes()==base.crop(bounds).tobytes(),name+' straight edge changed'
         comparisons=[((b-1,0,b,b),(b,0,b+1,b)),
             ((0,b-1,b,b),(0,b,b,b+1)),
             ((b+w-1,0,b+w,b),(b+w,0,b+w+1,b)),

@@ -114,7 +114,14 @@ def rotated_tile(entry):
     """Turn the existing tile 90 degrees; preserve every raster pixel."""
     import xml.etree.ElementTree as ET
     from html import escape
-    axis=entry['repeat_axis'];w,h=entry['viewbox'][2:]
+    axis=entry['repeat_axis']
+    if 'svg' not in entry:
+        with Image.open(resource_file(entry['png'])) as image:
+            native=image.transpose(Image.Transpose.ROTATE_270 if axis=='x' else Image.Transpose.ROTATE_90)
+        return dict(**save_pair(native,entry['name']+'-rotated'),
+                    variants=variants(native,entry['name']+'-rotated'),
+                    repeat_axis='y' if axis=='x' else 'x',repeat_ratio=entry['repeat_ratio'])
+    w,h=entry['viewbox'][2:]
     document=(resource_file(entry['svg'])).read_text()
     root=ET.fromstring(document)
     root.attrib.update(width=str(w),height=str(h))
@@ -135,7 +142,9 @@ def build(names=None):
     selected=set(names or [])
     designs=list(specs())
     illustration_items=illustrations()
-    known={item['name'] for item in [*raster,*designs,*illustration_items]}
+    from raster_borders import records, build as build_raster_border
+    raster_borders=records()
+    known={item['name'] for item in [*raster,*designs,*illustration_items,*raster_borders]}
     assert selected<=known,'Unknown design name'
     catalog=[]
     reference_path=ROOT/'reference-crops.json'
@@ -152,7 +161,7 @@ def build(names=None):
         entry=dict(item,webp=asset_relative(webp),width=image.width,height=image.height,
                    png_bytes=(resource_file(item['png'])).stat().st_size,webp_bytes=webp.stat().st_size,
                    variants=variants(image,item['name']),kind='standalone',repeat_axis='none',
-                   derivation='ai-assisted-extraction',components={})
+                   derivation=item.get('derivation', 'ai-assisted-extraction'),components={})
         catalog.append(entry)
     for spec in designs:
         name=spec['name']
@@ -198,6 +207,11 @@ def build(names=None):
             entry['components']['reference_crop']=existing_export(references[name],name+'-reference')
         catalog.append(entry)
         print('Built',name,flush=True)
+    for record in raster_borders:
+        if selected and record['name'] not in selected:
+            catalog.append(next(old for old in old_catalog if old['name']==record['name']))
+        else:
+            catalog.append(build_raster_border(record))
     assert all(hashlib.sha256((resource_file(name)).read_bytes()).hexdigest()==digest for name,digest in before.items())
     # Illustrations have their own master catalog/resize command. Border builds
     # include them unchanged and cannot delete their original files or variants.

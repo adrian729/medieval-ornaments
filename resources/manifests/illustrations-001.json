@@ -3,7 +3,7 @@
   "id": "illustrations-001",
   "collection": "illustrations",
   "package": "@ranx729/medieval-ornaments-assets-illustrations-001",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "designs": {
     "anafiles": {
       "name": "anafiles",
@@ -1049,6 +1049,195 @@
         "png"
       ]
     },
+    "hoefnagel-cut-apple": {
+      "name": "hoefnagel-cut-apple",
+      "asset_type": "illustration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 1239,
+      "height": 1033,
+      "png": "png/hoefnagel-cut-apple.png",
+      "webp": "webp/hoefnagel-cut-apple.webp",
+      "png_bytes": 1970999,
+      "webp_bytes": 1427430,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/hoefnagel-cut-apple.png",
+          "webp": "webp/128/hoefnagel-cut-apple.webp",
+          "width": 128,
+          "height": 107,
+          "png_bytes": 26597,
+          "webp_bytes": 20786
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/hoefnagel-cut-apple.png",
+          "webp": "webp/256/hoefnagel-cut-apple.webp",
+          "width": 256,
+          "height": 213,
+          "png_bytes": 96111,
+          "webp_bytes": 71560
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/hoefnagel-cut-apple.png",
+          "webp": "webp/512/hoefnagel-cut-apple.webp",
+          "width": 512,
+          "height": 427,
+          "png_bytes": 364246,
+          "webp_bytes": 264572
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/hoefnagel-cut-apple.png",
+          "webp": "webp/768/hoefnagel-cut-apple.webp",
+          "width": 768,
+          "height": 640,
+          "png_bytes": 807575,
+          "webp_bytes": 583936
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "hoefnagel-rose-lower": {
+      "name": "hoefnagel-rose-lower",
+      "asset_type": "illustration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 900,
+      "height": 541,
+      "png": "png/hoefnagel-rose-lower.png",
+      "webp": "webp/hoefnagel-rose-lower.webp",
+      "png_bytes": 457499,
+      "webp_bytes": 321942,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/hoefnagel-rose-lower.png",
+          "webp": "webp/128/hoefnagel-rose-lower.webp",
+          "width": 128,
+          "height": 77,
+          "png_bytes": 13306,
+          "webp_bytes": 11184
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/hoefnagel-rose-lower.png",
+          "webp": "webp/256/hoefnagel-rose-lower.webp",
+          "width": 256,
+          "height": 154,
+          "png_bytes": 44186,
+          "webp_bytes": 33782
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/hoefnagel-rose-lower.png",
+          "webp": "webp/512/hoefnagel-rose-lower.webp",
+          "width": 512,
+          "height": 308,
+          "png_bytes": 158496,
+          "webp_bytes": 114184
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/hoefnagel-rose-lower.png",
+          "webp": "webp/768/hoefnagel-rose-lower.webp",
+          "width": 768,
+          "height": 462,
+          "png_bytes": 342381,
+          "webp_bytes": 244658
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "hoefnagel-rose-upper": {
+      "name": "hoefnagel-rose-upper",
+      "asset_type": "illustration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 1000,
+      "height": 438,
+      "png": "png/hoefnagel-rose-upper.png",
+      "webp": "webp/hoefnagel-rose-upper.webp",
+      "png_bytes": 444736,
+      "webp_bytes": 318480,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/hoefnagel-rose-upper.png",
+          "webp": "webp/128/hoefnagel-rose-upper.webp",
+          "width": 128,
+          "height": 56,
+          "png_bytes": 10021,
+          "webp_bytes": 8682
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/hoefnagel-rose-upper.png",
+          "webp": "webp/256/hoefnagel-rose-upper.webp",
+          "width": 256,
+          "height": 112,
+          "png_bytes": 33480,
+          "webp_bytes": 26562
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/hoefnagel-rose-upper.png",
+          "webp": "webp/512/hoefnagel-rose-upper.webp",
+          "width": 512,
+          "height": 224,
+          "png_bytes": 121397,
+          "webp_bytes": 90096
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/hoefnagel-rose-upper.png",
+          "webp": "webp/768/hoefnagel-rose-upper.webp",
+          "width": 768,
+          "height": 336,
+          "png_bytes": 268088,
+          "webp_bytes": 196812
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
     "hooded-bagpiper": {
       "name": "hooded-bagpiper",
       "asset_type": "illustration",
@@ -1156,6 +1345,241 @@
           "webp": "webp/768/hooded-harp-player.webp",
           "png_bytes": 456768,
           "webp_bytes": 334496
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "isabella-blue-cornflower": {
+      "name": "isabella-blue-cornflower",
+      "asset_type": "illustration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 430,
+      "height": 409,
+      "png": "png/isabella-blue-cornflower.png",
+      "webp": "webp/isabella-blue-cornflower.webp",
+      "png_bytes": 276714,
+      "webp_bytes": 202952,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/isabella-blue-cornflower.png",
+          "webp": "webp/128/isabella-blue-cornflower.webp",
+          "width": 128,
+          "height": 122,
+          "png_bytes": 30545,
+          "webp_bytes": 25788
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/isabella-blue-cornflower.png",
+          "webp": "webp/256/isabella-blue-cornflower.webp",
+          "width": 256,
+          "height": 243,
+          "png_bytes": 105310,
+          "webp_bytes": 79970
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "isabella-gray-butterfly": {
+      "name": "isabella-gray-butterfly",
+      "asset_type": "illustration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 450,
+      "height": 385,
+      "png": "png/isabella-gray-butterfly.png",
+      "webp": "webp/isabella-gray-butterfly.webp",
+      "png_bytes": 239252,
+      "webp_bytes": 152890,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/isabella-gray-butterfly.png",
+          "webp": "webp/128/isabella-gray-butterfly.webp",
+          "width": 128,
+          "height": 110,
+          "png_bytes": 23160,
+          "webp_bytes": 15972
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/isabella-gray-butterfly.png",
+          "webp": "webp/256/isabella-gray-butterfly.webp",
+          "width": 256,
+          "height": 219,
+          "png_bytes": 81670,
+          "webp_bytes": 53040
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "isabella-orange-butterfly": {
+      "name": "isabella-orange-butterfly",
+      "asset_type": "illustration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 297,
+      "height": 300,
+      "png": "png/isabella-orange-butterfly.png",
+      "webp": "webp/isabella-orange-butterfly.webp",
+      "png_bytes": 154003,
+      "webp_bytes": 106582,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/isabella-orange-butterfly.png",
+          "webp": "webp/128/isabella-orange-butterfly.webp",
+          "width": 127,
+          "height": 128,
+          "png_bytes": 31684,
+          "webp_bytes": 23094
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/isabella-orange-butterfly.png",
+          "webp": "webp/256/isabella-orange-butterfly.webp",
+          "width": 253,
+          "height": 256,
+          "png_bytes": 114599,
+          "webp_bytes": 80534
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "isabella-pink-rose": {
+      "name": "isabella-pink-rose",
+      "asset_type": "illustration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 550,
+      "height": 514,
+      "png": "png/isabella-pink-rose.png",
+      "webp": "webp/isabella-pink-rose.webp",
+      "png_bytes": 543133,
+      "webp_bytes": 382698,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/isabella-pink-rose.png",
+          "webp": "webp/128/isabella-pink-rose.webp",
+          "width": 128,
+          "height": 120,
+          "png_bytes": 33217,
+          "webp_bytes": 25688
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/isabella-pink-rose.png",
+          "webp": "webp/256/isabella-pink-rose.webp",
+          "width": 256,
+          "height": 239,
+          "png_bytes": 122754,
+          "webp_bytes": 89588
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/isabella-pink-rose.png",
+          "webp": "webp/512/isabella-pink-rose.webp",
+          "width": 512,
+          "height": 478,
+          "png_bytes": 462370,
+          "webp_bytes": 334350
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "isabella-small-bird": {
+      "name": "isabella-small-bird",
+      "asset_type": "illustration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 530,
+      "height": 279,
+      "png": "png/isabella-small-bird.png",
+      "webp": "webp/isabella-small-bird.webp",
+      "png_bytes": 165063,
+      "webp_bytes": 112952,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/isabella-small-bird.png",
+          "webp": "webp/128/isabella-small-bird.webp",
+          "width": 128,
+          "height": 67,
+          "png_bytes": 12383,
+          "webp_bytes": 9484
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/isabella-small-bird.png",
+          "webp": "webp/256/isabella-small-bird.webp",
+          "width": 256,
+          "height": 135,
+          "png_bytes": 42846,
+          "webp_bytes": 31334
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/isabella-small-bird.png",
+          "webp": "webp/512/isabella-small-bird.webp",
+          "width": 512,
+          "height": 270,
+          "png_bytes": 156101,
+          "webp_bytes": 109324
         }
       ],
       "components": {},
@@ -1993,6 +2417,69 @@
         "png"
       ]
     },
+    "polyhymnia": {
+      "name": "polyhymnia",
+      "asset_type": "illustration",
+      "kind": "standalone",
+      "derivation": "independent-ai-interpretation",
+      "repeat_axis": "none",
+      "width": 1004,
+      "height": 1567,
+      "png": "png/polyhymnia.png",
+      "webp": "webp/polyhymnia.webp",
+      "png_bytes": 2916743,
+      "webp_bytes": 2061232,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/polyhymnia.png",
+          "webp": "webp/128/polyhymnia.webp",
+          "width": 82,
+          "height": 128,
+          "png_bytes": 28334,
+          "webp_bytes": 23492
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/polyhymnia.png",
+          "webp": "webp/256/polyhymnia.webp",
+          "width": 164,
+          "height": 256,
+          "png_bytes": 106736,
+          "webp_bytes": 83476
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/polyhymnia.png",
+          "webp": "webp/512/polyhymnia.webp",
+          "width": 328,
+          "height": 512,
+          "png_bytes": 392388,
+          "webp_bytes": 291084
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/polyhymnia.png",
+          "webp": "webp/768/polyhymnia.webp",
+          "width": 492,
+          "height": 768,
+          "png_bytes": 832442,
+          "webp_bytes": 601034
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
     "rabbit-bagpiper": {
       "name": "rabbit-bagpiper",
       "asset_type": "illustration",
@@ -2041,6 +2528,69 @@
           "webp": "webp/768/rabbit-bagpiper.webp",
           "png_bytes": 346333,
           "webp_bytes": 242138
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "rabbit-horn-hound-rider": {
+      "name": "rabbit-horn-hound-rider",
+      "asset_type": "illustration",
+      "kind": "standalone",
+      "derivation": "independent-ai-interpretation",
+      "repeat_axis": "none",
+      "width": 1024,
+      "height": 843,
+      "png": "png/rabbit-horn-hound-rider.png",
+      "webp": "webp/rabbit-horn-hound-rider.webp",
+      "png_bytes": 878477,
+      "webp_bytes": 603604,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/rabbit-horn-hound-rider.png",
+          "webp": "webp/128/rabbit-horn-hound-rider.webp",
+          "width": 128,
+          "height": 105,
+          "png_bytes": 20544,
+          "webp_bytes": 15554
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/rabbit-horn-hound-rider.png",
+          "webp": "webp/256/rabbit-horn-hound-rider.webp",
+          "width": 256,
+          "height": 211,
+          "png_bytes": 65635,
+          "webp_bytes": 46782
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/rabbit-horn-hound-rider.png",
+          "webp": "webp/512/rabbit-horn-hound-rider.webp",
+          "width": 512,
+          "height": 422,
+          "png_bytes": 233579,
+          "webp_bytes": 163290
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/rabbit-horn-hound-rider.png",
+          "webp": "webp/768/rabbit-horn-hound-rider.webp",
+          "width": 768,
+          "height": 632,
+          "png_bytes": 511058,
+          "webp_bytes": 356398
         }
       ],
       "components": {},
@@ -2218,6 +2768,208 @@
           "webp": "webp/768/snail.webp",
           "png_bytes": 365741,
           "webp_bytes": 243746
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "walters-centaur-archer": {
+      "name": "walters-centaur-archer",
+      "asset_type": "illustration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 720,
+      "height": 646,
+      "png": "png/walters-centaur-archer.png",
+      "webp": "webp/walters-centaur-archer.webp",
+      "png_bytes": 526938,
+      "webp_bytes": 373318,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/walters-centaur-archer.png",
+          "webp": "webp/128/walters-centaur-archer.webp",
+          "width": 128,
+          "height": 115,
+          "png_bytes": 24493,
+          "webp_bytes": 18866
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/walters-centaur-archer.png",
+          "webp": "webp/256/walters-centaur-archer.webp",
+          "width": 256,
+          "height": 230,
+          "png_bytes": 82613,
+          "webp_bytes": 60208
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/walters-centaur-archer.png",
+          "webp": "webp/512/walters-centaur-archer.webp",
+          "width": 512,
+          "height": 459,
+          "png_bytes": 285413,
+          "webp_bytes": 205856
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "walters-elephant-castle": {
+      "name": "walters-elephant-castle",
+      "asset_type": "illustration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 270,
+      "height": 205,
+      "png": "png/walters-elephant-castle.png",
+      "webp": "webp/walters-elephant-castle.webp",
+      "png_bytes": 109169,
+      "webp_bytes": 81152,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/walters-elephant-castle.png",
+          "webp": "webp/128/walters-elephant-castle.webp",
+          "width": 128,
+          "height": 97,
+          "png_bytes": 26603,
+          "webp_bytes": 21400
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/walters-elephant-castle.png",
+          "webp": "webp/256/walters-elephant-castle.webp",
+          "width": 256,
+          "height": 194,
+          "png_bytes": 99036,
+          "webp_bytes": 75040
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "walters-horse-flute-drum": {
+      "name": "walters-horse-flute-drum",
+      "asset_type": "illustration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 236,
+      "height": 400,
+      "png": "png/walters-horse-flute-drum.png",
+      "webp": "webp/walters-horse-flute-drum.webp",
+      "png_bytes": 133740,
+      "webp_bytes": 95004,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/walters-horse-flute-drum.png",
+          "webp": "webp/128/walters-horse-flute-drum.webp",
+          "width": 76,
+          "height": 128,
+          "png_bytes": 17009,
+          "webp_bytes": 14518
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/walters-horse-flute-drum.png",
+          "webp": "webp/256/walters-horse-flute-drum.webp",
+          "width": 151,
+          "height": 256,
+          "png_bytes": 59345,
+          "webp_bytes": 44012
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "walters-rabbit-church-bells": {
+      "name": "walters-rabbit-church-bells",
+      "asset_type": "illustration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 823,
+      "height": 960,
+      "png": "png/walters-rabbit-church-bells.png",
+      "webp": "webp/walters-rabbit-church-bells.webp",
+      "png_bytes": 1225555,
+      "webp_bytes": 868836,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/walters-rabbit-church-bells.png",
+          "webp": "webp/128/walters-rabbit-church-bells.webp",
+          "width": 110,
+          "height": 128,
+          "png_bytes": 27854,
+          "webp_bytes": 21056
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/walters-rabbit-church-bells.png",
+          "webp": "webp/256/walters-rabbit-church-bells.webp",
+          "width": 219,
+          "height": 256,
+          "png_bytes": 100026,
+          "webp_bytes": 72114
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/walters-rabbit-church-bells.png",
+          "webp": "webp/512/walters-rabbit-church-bells.webp",
+          "width": 439,
+          "height": 512,
+          "png_bytes": 372597,
+          "webp_bytes": 264142
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/walters-rabbit-church-bells.png",
+          "webp": "webp/768/walters-rabbit-church-bells.webp",
+          "width": 658,
+          "height": 768,
+          "png_bytes": 810977,
+          "webp_bytes": 574524
         }
       ],
       "components": {},
@@ -2480,6 +3232,18 @@
       "bytes": 22565,
       "sha256": "48c6e66741b4806b0dd8d10618626651af66c138819812fb0b4019fb756da5cf"
     },
+    "png/128/hoefnagel-cut-apple.png": {
+      "bytes": 26597,
+      "sha256": "0ae49b4b12b4f69935c116f0c9098537024f9102aa796de18ba08e0e6db1034a"
+    },
+    "png/128/hoefnagel-rose-lower.png": {
+      "bytes": 13306,
+      "sha256": "be6e7caec74f1e623ce5f9ec62044b4302bed8f72a05f493e312df5a722f8913"
+    },
+    "png/128/hoefnagel-rose-upper.png": {
+      "bytes": 10021,
+      "sha256": "b2bafbfbb647d561da750b679da07268ff3735c5c5b6f6e3bc02264015f5b762"
+    },
     "png/128/hooded-bagpiper.png": {
       "bytes": 14089,
       "sha256": "3299089f1079462dcb6a2b136c41fdceaab8c517d8d92af66d1e45e474319ab6"
@@ -2487,6 +3251,26 @@
     "png/128/hooded-harp-player.png": {
       "bytes": 17319,
       "sha256": "0754fda11f9715bc252e1f37a43d4e24b01d895345ab4e1c21aa2110da588d12"
+    },
+    "png/128/isabella-blue-cornflower.png": {
+      "bytes": 30545,
+      "sha256": "f8e2815ced641748bc29f32e15ebb1895f601dbc1e7d40bc082650361b6ad829"
+    },
+    "png/128/isabella-gray-butterfly.png": {
+      "bytes": 23160,
+      "sha256": "564866ef2928d28ff782f14cc266e6f0d33bc48cdac8aebe5351ab0c2a4b270e"
+    },
+    "png/128/isabella-orange-butterfly.png": {
+      "bytes": 31684,
+      "sha256": "cd131325e79a92b6a0c96a13d57559883882d424e1b80ac5d666fc3246a3edb3"
+    },
+    "png/128/isabella-pink-rose.png": {
+      "bytes": 33217,
+      "sha256": "978864325f932b61ab60f65cf5cd8c9baa7b70b5a13b2bc162264da639750ed8"
+    },
+    "png/128/isabella-small-bird.png": {
+      "bytes": 12383,
+      "sha256": "e9dc8dac63fd7d9a6a7d3fcdcaba0d370816c3abd8bd948cb36bd84bedb7fffb"
     },
     "png/128/lizard-lute-player.png": {
       "bytes": 17964,
@@ -2544,9 +3328,17 @@
       "bytes": 12775,
       "sha256": "a7e4db9115ab933200160ad71b5adb32e20210c8863109389696ef962abc8e2a"
     },
+    "png/128/polyhymnia.png": {
+      "bytes": 28334,
+      "sha256": "a19e8514c2fb8dde668353682344fed377e6618decc04fec2045c6ea3cec4481"
+    },
     "png/128/rabbit-bagpiper.png": {
       "bytes": 13873,
       "sha256": "a5fa56856860a31e096253a4882864b9625f640b2e21d637f9058f58c25063aa"
+    },
+    "png/128/rabbit-horn-hound-rider.png": {
+      "bytes": 20544,
+      "sha256": "315a304e3b41fa4d6e6380945aa63e8f5ba4b9016cbef4c82a1f4106a8b5d18d"
     },
     "png/128/rabbit-reading-book.png": {
       "bytes": 16358,
@@ -2559,6 +3351,22 @@
     "png/128/snail.png": {
       "bytes": 12599,
       "sha256": "fee466085cd898d58b6fed3e497028a2c0b0a6f3dba7a1c5a9e410f8621675a5"
+    },
+    "png/128/walters-centaur-archer.png": {
+      "bytes": 24493,
+      "sha256": "d4ec7da8e6eb9cfa114672de0b6277020d7b2b722957113fca83bb8afc0b1c4c"
+    },
+    "png/128/walters-elephant-castle.png": {
+      "bytes": 26603,
+      "sha256": "b82d2dfabcb0285cf5c140dc4494cad5d28e726e6a091051c28af9fed8ca5f09"
+    },
+    "png/128/walters-horse-flute-drum.png": {
+      "bytes": 17009,
+      "sha256": "0d5bf3cda3d3cf42516ed11f83b0664451b0abb5c5fd020b59ecbc7387bc0948"
+    },
+    "png/128/walters-rabbit-church-bells.png": {
+      "bytes": 27854,
+      "sha256": "5eb4dd1b662a09fa013c2672e97b7202d950fc9556d55d1ecdff8aea7218ff89"
     },
     "png/128/weird-dog.png": {
       "bytes": 19802,
@@ -2644,6 +3452,18 @@
       "bytes": 84519,
       "sha256": "5b5ca5aed6538ada7f27fe36848f353e732466984ce0bc85cb8b53a139c37481"
     },
+    "png/256/hoefnagel-cut-apple.png": {
+      "bytes": 96111,
+      "sha256": "cadf1d2e1a598dab15d1096c5bef0f29905f918455402406c66aa0d99f32d60d"
+    },
+    "png/256/hoefnagel-rose-lower.png": {
+      "bytes": 44186,
+      "sha256": "15b58f86491d03f600ee4116a66e1e5ade9f902fa02b854f540639eb9f5ef8ac"
+    },
+    "png/256/hoefnagel-rose-upper.png": {
+      "bytes": 33480,
+      "sha256": "23eed8336e47a15686703ab1b5f438ff3ecfe5d5d125ce8abf22dc5f1e8b41a6"
+    },
     "png/256/hooded-bagpiper.png": {
       "bytes": 48050,
       "sha256": "5565e2540ef818f2f1348ce28f288cab0bad14cf1be0569ed6e79737cedc1a93"
@@ -2651,6 +3471,26 @@
     "png/256/hooded-harp-player.png": {
       "bytes": 60027,
       "sha256": "915ca192ed032f62cc238a9f1bd96ac2a962cf4d13eb484142d563d4025644c3"
+    },
+    "png/256/isabella-blue-cornflower.png": {
+      "bytes": 105310,
+      "sha256": "827cf803f2f44df76c91cb89ce961545fe24b01c39d1369b837bc0db700e8b62"
+    },
+    "png/256/isabella-gray-butterfly.png": {
+      "bytes": 81670,
+      "sha256": "6f2a915fb95252896cbf35de52c29eff01e159a5e0d4198d600c87570c89d9bd"
+    },
+    "png/256/isabella-orange-butterfly.png": {
+      "bytes": 114599,
+      "sha256": "146a84b01cdd68e3e1595a0c94f86c2bcef4a6f39bfc1989327b09d62ab72f26"
+    },
+    "png/256/isabella-pink-rose.png": {
+      "bytes": 122754,
+      "sha256": "224a88c4c52971232092dc4be0e0d70c52c36f4f7dfdba325ae4f76eb292bb3a"
+    },
+    "png/256/isabella-small-bird.png": {
+      "bytes": 42846,
+      "sha256": "07e0531913f32cb34a6b3419fc64143f0b4d896a0cc1e641f33f58ef627df1a6"
     },
     "png/256/lizard-lute-player.png": {
       "bytes": 61163,
@@ -2708,9 +3548,17 @@
       "bytes": 39806,
       "sha256": "7d857c25c5d767af367ff2712b442f34323a46b58ce63614e513e0f8c95eb53b"
     },
+    "png/256/polyhymnia.png": {
+      "bytes": 106736,
+      "sha256": "03856a441ff97c16955aca13d2acdc778b6dfc8cb4cfe870f94c972cea405184"
+    },
     "png/256/rabbit-bagpiper.png": {
       "bytes": 47536,
       "sha256": "50b5689bc0d8f8b1e8d469db8d7eaa5eb4e2a1bff5ab537682b80fbb421d1553"
+    },
+    "png/256/rabbit-horn-hound-rider.png": {
+      "bytes": 65635,
+      "sha256": "82639b8d8b6b3232c48d3a7a8e22234f9fe4cd85e43be4e5b1cca6dbb63a6fc4"
     },
     "png/256/rabbit-reading-book.png": {
       "bytes": 55159,
@@ -2723,6 +3571,22 @@
     "png/256/snail.png": {
       "bytes": 44757,
       "sha256": "e752a60b4e1b67df3bd59bf1b517b95dd00326bfe8edb956773f7444ab5f5f84"
+    },
+    "png/256/walters-centaur-archer.png": {
+      "bytes": 82613,
+      "sha256": "6e3dd5275a0b475c22f6724f6a9bc13a1668858ec37a83a9fb3e96700a7e0154"
+    },
+    "png/256/walters-elephant-castle.png": {
+      "bytes": 99036,
+      "sha256": "669b82c15e689ac41cb247628347a8a412e004894293efa6b70ebefe91b390af"
+    },
+    "png/256/walters-horse-flute-drum.png": {
+      "bytes": 59345,
+      "sha256": "f066db7ea1fb857ac7d94e382e66e116019cfafae9ee0b42b12abcabc3ee5700"
+    },
+    "png/256/walters-rabbit-church-bells.png": {
+      "bytes": 100026,
+      "sha256": "7b017d35a0701363fa6a9136ee3940a057f329945fd93b698ff13845a52853c4"
     },
     "png/256/weird-dog.png": {
       "bytes": 70966,
@@ -2808,6 +3672,18 @@
       "bytes": 327446,
       "sha256": "3a80e196d443f29b1041d0189c5f82f21cfac771a905d41084b08209c137aae6"
     },
+    "png/512/hoefnagel-cut-apple.png": {
+      "bytes": 364246,
+      "sha256": "48b65386e3c34990b1abbae88dc17c9e05db2b554e9b59d790502a86159fc679"
+    },
+    "png/512/hoefnagel-rose-lower.png": {
+      "bytes": 158496,
+      "sha256": "e66342dd379a0fa558b6ac8dd9591b737587dd960b244c5e7fe6e4018132e5af"
+    },
+    "png/512/hoefnagel-rose-upper.png": {
+      "bytes": 121397,
+      "sha256": "2ca0f0c576a6136769fee019c1b2a2e66547ca68bf0dc8823e01e17e80437b3d"
+    },
     "png/512/hooded-bagpiper.png": {
       "bytes": 168098,
       "sha256": "a8a3b7a3b563d29aaf5e1b0e5aa01841e093618c99e7c8c8cbd0016e5b700b3a"
@@ -2815,6 +3691,14 @@
     "png/512/hooded-harp-player.png": {
       "bytes": 215583,
       "sha256": "201d7454ba4dd106b48b75d6d544f9d055feb8c1f4f8c4b0c00e3fa3ce26fcc4"
+    },
+    "png/512/isabella-pink-rose.png": {
+      "bytes": 462370,
+      "sha256": "62ecd7bd69cbfabdd3d3561aa0f61f0b8ec252a1f04570364f354a869c01615a"
+    },
+    "png/512/isabella-small-bird.png": {
+      "bytes": 156101,
+      "sha256": "23b1c0a8e1d706862a8102c88d7fa99f268741b01758c0ff1aa46ddd445ed000"
     },
     "png/512/lizard-lute-player.png": {
       "bytes": 217787,
@@ -2872,9 +3756,17 @@
       "bytes": 131561,
       "sha256": "88b462921b48038508b1b65e40c207769b272eeee57a9c61f22f65d54192c9fb"
     },
+    "png/512/polyhymnia.png": {
+      "bytes": 392388,
+      "sha256": "902e590b199c4e46b827cfaf4e69b387c8f5def38f903ec4631a644c69951f86"
+    },
     "png/512/rabbit-bagpiper.png": {
       "bytes": 164423,
       "sha256": "6aa8a68e59457a873facdd5e438cab9ee46063111bcdacb2b6e618574309ffb1"
+    },
+    "png/512/rabbit-horn-hound-rider.png": {
+      "bytes": 233579,
+      "sha256": "da102f58d0c6ec0665884138ea984cbae5a34c77bb96da19c25e57312f12d434"
     },
     "png/512/rabbit-reading-book.png": {
       "bytes": 192958,
@@ -2887,6 +3779,14 @@
     "png/512/snail.png": {
       "bytes": 166875,
       "sha256": "fd64932bc04591d0b36440258e9b4f79f455a82d90ab328e1a6e83fafc40c5af"
+    },
+    "png/512/walters-centaur-archer.png": {
+      "bytes": 285413,
+      "sha256": "7939538f25fe74d343b97d5f9ebec481b37cbe75e41851c75ca7164f8420cbd0"
+    },
+    "png/512/walters-rabbit-church-bells.png": {
+      "bytes": 372597,
+      "sha256": "fa7a50481c2d20703734c6b3ac1ab0f9972a82752453617900ca0d2e712d3ff6"
     },
     "png/512/weird-dog.png": {
       "bytes": 254971,
@@ -2964,6 +3864,18 @@
       "bytes": 717954,
       "sha256": "471e8285b447b2beecf7a62b145d64d3151fbb03c6669d20bda003cf6a4771cc"
     },
+    "png/768/hoefnagel-cut-apple.png": {
+      "bytes": 807575,
+      "sha256": "7217e5928666fa1c02d038bff7c429b2b6476d7b5b3c948b6d83782ea3902617"
+    },
+    "png/768/hoefnagel-rose-lower.png": {
+      "bytes": 342381,
+      "sha256": "5b3d0a0c9fac6e432c204d81f68db5bfe8f3bfe78858330ca52ffde2848b1f50"
+    },
+    "png/768/hoefnagel-rose-upper.png": {
+      "bytes": 268088,
+      "sha256": "13152caf919834bb7f58b389ffbe985362db701cce444dd5c2ce940a90c86e9e"
+    },
     "png/768/hooded-bagpiper.png": {
       "bytes": 355909,
       "sha256": "1d7c38bc9718da7e745dbf1419a192efdce6180d350663ad4302bcbc9fd92f8e"
@@ -3028,9 +3940,17 @@
       "bytes": 266116,
       "sha256": "c3efdfd8664e39869fb0cfab95f6e7bcc3845dec8ebafc74d6cabcdd0f59c5b1"
     },
+    "png/768/polyhymnia.png": {
+      "bytes": 832442,
+      "sha256": "306e06c9d04e7f0eed5999200d89c3b9b1786284878ca89314f8613c74c67502"
+    },
     "png/768/rabbit-bagpiper.png": {
       "bytes": 346333,
       "sha256": "e7a478fb167c6eb845cb29a323377fcb4c9d947886691b6a8ff946fa63e2c0c5"
+    },
+    "png/768/rabbit-horn-hound-rider.png": {
+      "bytes": 511058,
+      "sha256": "6afd8406a1ed0887189f3c70d54988c8f8d9e6a9605e3a6220ed8397c88b127a"
     },
     "png/768/rabbit-reading-book.png": {
       "bytes": 407060,
@@ -3043,6 +3963,10 @@
     "png/768/snail.png": {
       "bytes": 365741,
       "sha256": "a659ae9699fa60347f7f0c435fb2a3a66729204042350ad3a3ea8cd99729a871"
+    },
+    "png/768/walters-rabbit-church-bells.png": {
+      "bytes": 810977,
+      "sha256": "d131b4da14718e0353a364e8448c859a1495b23a9ab58eb6d7d7fd66cee6466a"
     },
     "png/768/weird-dog.png": {
       "bytes": 545158,
@@ -3128,6 +4052,18 @@
       "bytes": 2304520,
       "sha256": "64100ba2474474c23ab1be2d9933233670a032963dd3425b1c0d5c38af9def70"
     },
+    "png/hoefnagel-cut-apple.png": {
+      "bytes": 1970999,
+      "sha256": "3d6ccf5fb323c51916ee1cd62a846d7f166bf72eaa4e1152c706d42ca25615dd"
+    },
+    "png/hoefnagel-rose-lower.png": {
+      "bytes": 457499,
+      "sha256": "2787fa958fb59ed68f4278b6531f3f7d0c6565afe8b70fa65a9a84da7fc85f3a"
+    },
+    "png/hoefnagel-rose-upper.png": {
+      "bytes": 444736,
+      "sha256": "74ce642b0be4024ca25d3f8c82c5cced6c328a04e357ea370fd3c00b828b6aa0"
+    },
     "png/hooded-bagpiper.png": {
       "bytes": 1400786,
       "sha256": "f91b9ac95b6cd4301fbc1b080450d32b89683df88dd2171293bebc4e58d9001a"
@@ -3135,6 +4071,26 @@
     "png/hooded-harp-player.png": {
       "bytes": 1451182,
       "sha256": "f3e64799866e3ed346f20d91868e5d53b02608c5d6efced8d609258a70d31c5a"
+    },
+    "png/isabella-blue-cornflower.png": {
+      "bytes": 276714,
+      "sha256": "5806686071bebf74ec88c124085abd75a2b8255aa1e5b3f4c6988be5f296a167"
+    },
+    "png/isabella-gray-butterfly.png": {
+      "bytes": 239252,
+      "sha256": "fc184f13fda57f22f8ea9a37d4d53ebf91181360e5e93e6c370544eb271bcdd1"
+    },
+    "png/isabella-orange-butterfly.png": {
+      "bytes": 154003,
+      "sha256": "e7d26a3a5d97cf001306049e0efa6cd551f83914a399b2a9561d66deddf4bbd1"
+    },
+    "png/isabella-pink-rose.png": {
+      "bytes": 543133,
+      "sha256": "6fcf4456a81da91cb8b1e8fb653e33ac30f69613c6ea5366ecb1245202044a6f"
+    },
+    "png/isabella-small-bird.png": {
+      "bytes": 165063,
+      "sha256": "74e54c035f33307b42d733aa8128a69e082b4e861f98361c94ab3111c6555157"
     },
     "png/lizard-lute-player.png": {
       "bytes": 2440506,
@@ -3192,9 +4148,17 @@
       "bytes": 1514006,
       "sha256": "9320bf713793f3cb4a72e68c88b3ee62faa024ca531f398f691cc9a1c68d80d4"
     },
+    "png/polyhymnia.png": {
+      "bytes": 2916743,
+      "sha256": "2c090e3b51ed7c6c6505fb4d8c77bd956abbbba5c92667c14a07199db60359df"
+    },
     "png/rabbit-bagpiper.png": {
       "bytes": 1161779,
       "sha256": "c80f34cff6756c6c2f7f048daf51b190a3d541904118eb16a09e7e782c110fe8"
+    },
+    "png/rabbit-horn-hound-rider.png": {
+      "bytes": 878477,
+      "sha256": "389484fee62fcefcd259ef700dd177133167aa65ddde9a157403ef26e2ffe0dd"
     },
     "png/rabbit-reading-book.png": {
       "bytes": 1407667,
@@ -3207,6 +4171,22 @@
     "png/snail.png": {
       "bytes": 1749563,
       "sha256": "f1a129787f3ca4d6a93c37f4996aeea9081ebc5d2266871fd74c33bbc364a3fb"
+    },
+    "png/walters-centaur-archer.png": {
+      "bytes": 526938,
+      "sha256": "8087a8c1934d6468ba342bf1c9439f0beb926c970f0930167dbc8dcaf00e60d8"
+    },
+    "png/walters-elephant-castle.png": {
+      "bytes": 109169,
+      "sha256": "d3fcc367c0848ebc542c1bc94f40fc852af80497fb804b12ba635a9387d961a3"
+    },
+    "png/walters-horse-flute-drum.png": {
+      "bytes": 133740,
+      "sha256": "92aac0d38bf279b9ff4fd047290ecb758cb73fb7e030a7f48d65d09796a10a26"
+    },
+    "png/walters-rabbit-church-bells.png": {
+      "bytes": 1225555,
+      "sha256": "59b1a39a1bac45f3d66a13792fe8412f1db3cae1c9e3ce388722a64e29f8fb54"
     },
     "png/weird-dog.png": {
       "bytes": 1617782,
@@ -3292,6 +4272,18 @@
       "bytes": 17006,
       "sha256": "137b47602e9ae416c575eda71200cd58a5aceb944d2bfc621286467cb0d78af2"
     },
+    "webp/128/hoefnagel-cut-apple.webp": {
+      "bytes": 20786,
+      "sha256": "cd351188ada5f917b0291e969013b0e36dfe7b680f0522e4b9a2c999f01dc640"
+    },
+    "webp/128/hoefnagel-rose-lower.webp": {
+      "bytes": 11184,
+      "sha256": "9fd39a6935f0702b96d93debdb1a9344f4c613dc711d9cc05e0c7538e95b6996"
+    },
+    "webp/128/hoefnagel-rose-upper.webp": {
+      "bytes": 8682,
+      "sha256": "c920263d0f9bf737f097c77b783e7d412018869427df0106a7068d46bf80ab80"
+    },
     "webp/128/hooded-bagpiper.webp": {
       "bytes": 11918,
       "sha256": "894ece1d66d0815f472c27eaa574e8919af2449caf2796fb47ed2c761bae4505"
@@ -3299,6 +4291,26 @@
     "webp/128/hooded-harp-player.webp": {
       "bytes": 14486,
       "sha256": "1065cdb88b2eb2a365aceb880a3306fcf48f544a685ba3e889ebea4d61026ee3"
+    },
+    "webp/128/isabella-blue-cornflower.webp": {
+      "bytes": 25788,
+      "sha256": "9d0cf0a93794180493cc87c45214cc2368354e614f61bc018b6a16a0e8f54048"
+    },
+    "webp/128/isabella-gray-butterfly.webp": {
+      "bytes": 15972,
+      "sha256": "354a9729535a913ddbd492ff42f22293d883d3455f28714a185e911c184199aa"
+    },
+    "webp/128/isabella-orange-butterfly.webp": {
+      "bytes": 23094,
+      "sha256": "a534c900e1427eacfa9896221391f915b8ece21e7d6b955bb01f5ce047cef918"
+    },
+    "webp/128/isabella-pink-rose.webp": {
+      "bytes": 25688,
+      "sha256": "323db8267b1114aa79b74327da87ebb680938ff237d7727f12cafcc045edb9a7"
+    },
+    "webp/128/isabella-small-bird.webp": {
+      "bytes": 9484,
+      "sha256": "1cbecd84780bf7b2f0806655ad68f848c10a8c1fc1203eae17f556c8a26fd06c"
     },
     "webp/128/lizard-lute-player.webp": {
       "bytes": 15386,
@@ -3356,9 +4368,17 @@
       "bytes": 11268,
       "sha256": "d89e7972f45dae6e3d32246b761f322f89707417c943cb027facbe51bd002740"
     },
+    "webp/128/polyhymnia.webp": {
+      "bytes": 23492,
+      "sha256": "6adf02a64dec44f00f02d851f7c644a7ea099d654bc5d104834e3d4ae366695e"
+    },
     "webp/128/rabbit-bagpiper.webp": {
       "bytes": 10926,
       "sha256": "39a74b396c1191189b9a26f5bf04bd63666d1dd80258c4d5fe25d5af62ce60be"
+    },
+    "webp/128/rabbit-horn-hound-rider.webp": {
+      "bytes": 15554,
+      "sha256": "656ff1727a52e8813c8dd7ce3248c9366a2995eec052f407617653b24cbdfd20"
     },
     "webp/128/rabbit-reading-book.webp": {
       "bytes": 13080,
@@ -3371,6 +4391,22 @@
     "webp/128/snail.webp": {
       "bytes": 9090,
       "sha256": "a5b8f8771e6de59fcf2278498a1882983076299d7117b008919ad88f6f447812"
+    },
+    "webp/128/walters-centaur-archer.webp": {
+      "bytes": 18866,
+      "sha256": "4304728752a2ffe245105e2f7b96c53c84ff82f9bdf18658c032a0f472874dce"
+    },
+    "webp/128/walters-elephant-castle.webp": {
+      "bytes": 21400,
+      "sha256": "5f1a1d71119c481a94501dfc3e9a2935d6c14c6b623705942c9ba241af4ab306"
+    },
+    "webp/128/walters-horse-flute-drum.webp": {
+      "bytes": 14518,
+      "sha256": "32d24cc8631ae59f6595945bb1eb2643b05bf4761fc73c1e8c6c1f2633a41451"
+    },
+    "webp/128/walters-rabbit-church-bells.webp": {
+      "bytes": 21056,
+      "sha256": "89d5818a76ee219eabdb69a3faf22e4d08eccced3cf6e6c0a983d30e54d504cd"
     },
     "webp/128/weird-dog.webp": {
       "bytes": 14374,
@@ -3456,6 +4492,18 @@
       "bytes": 59650,
       "sha256": "aa3d1f96a50064016907678ac578e0684bb613e557f876aa66c166f23827d892"
     },
+    "webp/256/hoefnagel-cut-apple.webp": {
+      "bytes": 71560,
+      "sha256": "dac523c70ecdf73995120458e9c5fcd7b36e7857c72732880986d73fa4cbaae6"
+    },
+    "webp/256/hoefnagel-rose-lower.webp": {
+      "bytes": 33782,
+      "sha256": "625da4a3be78b76dc7faf0accbf68b1c0b98fa81dcd1cae86fe9ea4680af592e"
+    },
+    "webp/256/hoefnagel-rose-upper.webp": {
+      "bytes": 26562,
+      "sha256": "a23521f9ff75359a032064f948996cfd60864d7bf11fddd3ba320e5e65f048b5"
+    },
     "webp/256/hooded-bagpiper.webp": {
       "bytes": 36458,
       "sha256": "08ab3c62a4fff551028971bdbc686a01a07c2b71ba5df14eb47c8e081693d85a"
@@ -3463,6 +4511,26 @@
     "webp/256/hooded-harp-player.webp": {
       "bytes": 44982,
       "sha256": "70ed0ab59817815c01caf7dbb2f743dbc13287f92c1a01c8d40e02487a659c27"
+    },
+    "webp/256/isabella-blue-cornflower.webp": {
+      "bytes": 79970,
+      "sha256": "cfa48c9ffa59754d5ce46d6d0ca1bfce4e83887c197d29654ed7c60e8e665e5c"
+    },
+    "webp/256/isabella-gray-butterfly.webp": {
+      "bytes": 53040,
+      "sha256": "db04a0b4d712adac5c1edf86e879a298ea9032b82cf8c167bc6996ebc4d08c2e"
+    },
+    "webp/256/isabella-orange-butterfly.webp": {
+      "bytes": 80534,
+      "sha256": "2afe04348eec0e786ad820d6e7e2c270f6e82524b8011da6cf5b216ae09c3bfb"
+    },
+    "webp/256/isabella-pink-rose.webp": {
+      "bytes": 89588,
+      "sha256": "9bee4fc2740431f38a8c6d9c3f019435793330a56cd3556df0c7ea6a87ebb010"
+    },
+    "webp/256/isabella-small-bird.webp": {
+      "bytes": 31334,
+      "sha256": "5a1904ac733b06fdd8bc9a90706ab276f8e10ccecfc4d86f72619130366c8f8f"
     },
     "webp/256/lizard-lute-player.webp": {
       "bytes": 48838,
@@ -3520,9 +4588,17 @@
       "bytes": 35068,
       "sha256": "10a5f8a74fd51740b44a24b477091496591fbd085b9d24667e20a576a1fd4df3"
     },
+    "webp/256/polyhymnia.webp": {
+      "bytes": 83476,
+      "sha256": "b565cb1960080420a2e6ba878f51c22989abf2c5a08d4e7a863038340c6d29c1"
+    },
     "webp/256/rabbit-bagpiper.webp": {
       "bytes": 34458,
       "sha256": "a8565e9f1eacc94474b0fb9d9030d0c799ee7f9cebab2aa046f78cc907dca0f6"
+    },
+    "webp/256/rabbit-horn-hound-rider.webp": {
+      "bytes": 46782,
+      "sha256": "33c6038c4d5a1e4cf1be9dc686e9b5fb87ed82d249dd54f915a73c603e9cf49d"
     },
     "webp/256/rabbit-reading-book.webp": {
       "bytes": 38766,
@@ -3535,6 +4611,22 @@
     "webp/256/snail.webp": {
       "bytes": 30716,
       "sha256": "88a07a4a98cc39d5ed9716c786bb922664202f8d4c75ceb202aea07a6ec1775e"
+    },
+    "webp/256/walters-centaur-archer.webp": {
+      "bytes": 60208,
+      "sha256": "4d3c8cfdfb9ba213af5c8ef868cb887f8ef5570f84cccde2173fd0076f8ac923"
+    },
+    "webp/256/walters-elephant-castle.webp": {
+      "bytes": 75040,
+      "sha256": "0bcbf5a7ddd9fe14e4ef0115029f66d7ad4e2bd43c8d4867a292c7027f9fcc78"
+    },
+    "webp/256/walters-horse-flute-drum.webp": {
+      "bytes": 44012,
+      "sha256": "e50426e59ca4c51f1502e81e983bd5a4f6db8bc9c397335beb60a2c181d05ee6"
+    },
+    "webp/256/walters-rabbit-church-bells.webp": {
+      "bytes": 72114,
+      "sha256": "08b1cb289408baae7e2c410e97613d150d92df034510c244f62ff02790ed73c1"
     },
     "webp/256/weird-dog.webp": {
       "bytes": 48370,
@@ -3620,6 +4712,18 @@
       "bytes": 222424,
       "sha256": "d05038996f06bde046338aab2c4944b3dae417d55d27defd89d02e6e1f8cb39f"
     },
+    "webp/512/hoefnagel-cut-apple.webp": {
+      "bytes": 264572,
+      "sha256": "de5ccdff977b16098556548d4ed8a4d02870a53fd0d85940213e3dc71b25dae2"
+    },
+    "webp/512/hoefnagel-rose-lower.webp": {
+      "bytes": 114184,
+      "sha256": "ac12b6e400013760dc20803ac7b78be505993b93535c6303033dec2ad599e718"
+    },
+    "webp/512/hoefnagel-rose-upper.webp": {
+      "bytes": 90096,
+      "sha256": "5fb6423dd4cf7797d832993de7f780fc19cc00d7c6f7a754054d1b4fc050c354"
+    },
     "webp/512/hooded-bagpiper.webp": {
       "bytes": 118130,
       "sha256": "f1c74f4573e754f74ec154b39c6e86869a3843c8a08c5589ce02e2bc9cb64255"
@@ -3627,6 +4731,14 @@
     "webp/512/hooded-harp-player.webp": {
       "bytes": 158456,
       "sha256": "871238a570eff52c13c4713a9b16c66e47a2e8b0b13d339a386660de5e43836f"
+    },
+    "webp/512/isabella-pink-rose.webp": {
+      "bytes": 334350,
+      "sha256": "beed18e4b138d5e53f3256cbbde585201bdaf6e49aec6be92cf2e92d3959cb20"
+    },
+    "webp/512/isabella-small-bird.webp": {
+      "bytes": 109324,
+      "sha256": "9fe523cc6037c544d2c0a73f135bc7c3ee39e004b2b5094720c601a01a848019"
     },
     "webp/512/lizard-lute-player.webp": {
       "bytes": 170638,
@@ -3684,9 +4796,17 @@
       "bytes": 105478,
       "sha256": "f055df68f294693366b907ddb3ee0ef5c74fa44cc5d538f05995420e9c4b3e0c"
     },
+    "webp/512/polyhymnia.webp": {
+      "bytes": 291084,
+      "sha256": "32a439a3cc303ecbdc2e76de3cc43e23963dc0cde2e9ac9222e76a461ef196f8"
+    },
     "webp/512/rabbit-bagpiper.webp": {
       "bytes": 115466,
       "sha256": "a477a469dcd466b8003b4982de5e3d57da37aa232614609564b87ab557b1c3f2"
+    },
+    "webp/512/rabbit-horn-hound-rider.webp": {
+      "bytes": 163290,
+      "sha256": "f6f4a6dd4170a19230d84f7fc32d59826c708f885eb96f4711938abc30b438a1"
     },
     "webp/512/rabbit-reading-book.webp": {
       "bytes": 134242,
@@ -3699,6 +4819,14 @@
     "webp/512/snail.webp": {
       "bytes": 110422,
       "sha256": "45ac3c7f376407016c2144c0429d3b1dba29582578751fc466247b9475832ccf"
+    },
+    "webp/512/walters-centaur-archer.webp": {
+      "bytes": 205856,
+      "sha256": "bb700ff73d8c69dceffa94df51620e9174d950918d6776d4313156b93dce1792"
+    },
+    "webp/512/walters-rabbit-church-bells.webp": {
+      "bytes": 264142,
+      "sha256": "121edd1fc0ebf82ef071e3a0605b4ebd35ac6740bf19eea4b3bcb2e85ef88d57"
     },
     "webp/512/weird-dog.webp": {
       "bytes": 171716,
@@ -3776,6 +4904,18 @@
       "bytes": 481420,
       "sha256": "fe3159b1cae0546a88150026b484770acea6ddaff06956e9a3d1514f1bb0fa2d"
     },
+    "webp/768/hoefnagel-cut-apple.webp": {
+      "bytes": 583936,
+      "sha256": "3eded782d0fd3857e31c64ad84d0960c94b748f2712f8fca7bc9c71ad38bd904"
+    },
+    "webp/768/hoefnagel-rose-lower.webp": {
+      "bytes": 244658,
+      "sha256": "daec8979579e0764db4aa392194150f656b46074b2027cd636ddc1eeec49f442"
+    },
+    "webp/768/hoefnagel-rose-upper.webp": {
+      "bytes": 196812,
+      "sha256": "1d46a973251793866acffea92c990ad6b8000cc67449314df644de925787bbf6"
+    },
     "webp/768/hooded-bagpiper.webp": {
       "bytes": 247950,
       "sha256": "1265615a83b97b2885160ddc482f01eb565fcaae1b00439e8f25986bf6cc9675"
@@ -3840,9 +4980,17 @@
       "bytes": 210950,
       "sha256": "041b8af0c86cd0ca37ec81f36e9e0f4ebb06f4c4caca522313e5e1bca9368141"
     },
+    "webp/768/polyhymnia.webp": {
+      "bytes": 601034,
+      "sha256": "334aa762829a610cf2aa4ec15681e95a4359d44158f30c9a6516beb0a81e7b5e"
+    },
     "webp/768/rabbit-bagpiper.webp": {
       "bytes": 242138,
       "sha256": "75457475a379fa30c91ef76fb78a8a87038eb0dc96c2dd68d09be97077b38e76"
+    },
+    "webp/768/rabbit-horn-hound-rider.webp": {
+      "bytes": 356398,
+      "sha256": "282542e6cf880dfe72be0de6774d6aa2de1617139e95711a48532d9c087eea5d"
     },
     "webp/768/rabbit-reading-book.webp": {
       "bytes": 282228,
@@ -3855,6 +5003,10 @@
     "webp/768/snail.webp": {
       "bytes": 243746,
       "sha256": "078fe128b57368eef0e0d84146c2565a102c64f47982f39e8ef2b3cb87d9cce8"
+    },
+    "webp/768/walters-rabbit-church-bells.webp": {
+      "bytes": 574524,
+      "sha256": "d445a519667899fa0f0297984c6e2c24381d20fff274fc63f15252cbc6e40dea"
     },
     "webp/768/weird-dog.webp": {
       "bytes": 368682,
@@ -3940,6 +5092,18 @@
       "bytes": 1530974,
       "sha256": "2a342b0cee69a1599f2b415b5b0736c003bf224baaf2c060c715c78dbdbc59e7"
     },
+    "webp/hoefnagel-cut-apple.webp": {
+      "bytes": 1427430,
+      "sha256": "230df6f1d844a1bdc24763f017baeaa986826c80938f5f6fa32abd1e8df175a3"
+    },
+    "webp/hoefnagel-rose-lower.webp": {
+      "bytes": 321942,
+      "sha256": "675f5ef7484ab8c2148e65e24db59202caa52f0c590fc66daa806253102ce3f8"
+    },
+    "webp/hoefnagel-rose-upper.webp": {
+      "bytes": 318480,
+      "sha256": "054182f1c98dee62aeeb710bfe41b9d1f73b78a1d711db17bf8b02d5fdd94e6d"
+    },
     "webp/hooded-bagpiper.webp": {
       "bytes": 948276,
       "sha256": "9d458bff57ed73ec397bd087b55a49e02a8572dbedf62b5d69555d659ecb719f"
@@ -3947,6 +5111,26 @@
     "webp/hooded-harp-player.webp": {
       "bytes": 1052722,
       "sha256": "7463b4d044e5791d72913a66fedfdb489c622ebcfb0e6c7a2d8b14a184299db4"
+    },
+    "webp/isabella-blue-cornflower.webp": {
+      "bytes": 202952,
+      "sha256": "7c178133cb6480b4fdb9e2a264ca53b120de44407ee35958c2239e40b5d79701"
+    },
+    "webp/isabella-gray-butterfly.webp": {
+      "bytes": 152890,
+      "sha256": "de108b3585cc087886e1525b2bae05b74145a0189139a58cfeb50a6b89f7d7b6"
+    },
+    "webp/isabella-orange-butterfly.webp": {
+      "bytes": 106582,
+      "sha256": "0ddd07414d88810a4125e4001e315317b4ce56ba90e9cb89f45ae0a9f1ca60ee"
+    },
+    "webp/isabella-pink-rose.webp": {
+      "bytes": 382698,
+      "sha256": "a73a93461faa73965a558cab88b8d70b7b811c77d191f86878013a45da80e4bf"
+    },
+    "webp/isabella-small-bird.webp": {
+      "bytes": 112952,
+      "sha256": "547994a64f8ba55c5b669cfcef15286602d251c90a215f317080ca6714814594"
     },
     "webp/lizard-lute-player.webp": {
       "bytes": 1728106,
@@ -4004,9 +5188,17 @@
       "bytes": 1191640,
       "sha256": "5dd49b365c820a2ff08327ad38ad297f589595b4e312053d1adef8bd547e13a0"
     },
+    "webp/polyhymnia.webp": {
+      "bytes": 2061232,
+      "sha256": "e07fcfa20ad305c3a52f19b8c528562c2e3f5f76902a542fec90b876110958b6"
+    },
     "webp/rabbit-bagpiper.webp": {
       "bytes": 807908,
       "sha256": "4c03baf834ceba029bc96b8942c1208e778dc509002ce3a4623648d830a21a22"
+    },
+    "webp/rabbit-horn-hound-rider.webp": {
+      "bytes": 603604,
+      "sha256": "842fe914818ba93c887aea2ef7fb664ec1630c47f8bf02f9826b7143984789bf"
     },
     "webp/rabbit-reading-book.webp": {
       "bytes": 960268,
@@ -4019,6 +5211,22 @@
     "webp/snail.webp": {
       "bytes": 1199144,
       "sha256": "4055471007710db0adf392e6e1657e8fe586bac39cf594911d6a309e9bead618"
+    },
+    "webp/walters-centaur-archer.webp": {
+      "bytes": 373318,
+      "sha256": "2f084bf0e5ae1796e7e9be8d504ac9362609c4e03fe76e3234a773b352247164"
+    },
+    "webp/walters-elephant-castle.webp": {
+      "bytes": 81152,
+      "sha256": "9a76f0e6ef6d9e7a82e5d64fc65191ffdc70b9ebbd22f4c062c7c46b1092d3b9"
+    },
+    "webp/walters-horse-flute-drum.webp": {
+      "bytes": 95004,
+      "sha256": "03636e2da301231334997ee506e526ce6b45a9340a987d991895eb170b208066"
+    },
+    "webp/walters-rabbit-church-bells.webp": {
+      "bytes": 868836,
+      "sha256": "a654a8b587f14d2307bfe35fc06cfafb047986e7596d9a852c1d73c847bc95c4"
     },
     "webp/weird-dog.webp": {
       "bytes": 1102816,
@@ -4041,6 +5249,62 @@
     "sources/medieval-cutouts/sources/musicians-and-dancers.png": {
       "bytes": 1195888,
       "sha256": "4f99b38af8fd5b84afeb8141fc4210e3397148ca91b3d81670b98284b8264692"
+    },
+    "sources/tiles/hoefnagel-cut-apple.png": {
+      "bytes": 2063332,
+      "sha256": "d88f7ec1fd9f58e216b21ef205719aa128c93f30e949f6aecc4e1283c301fa33"
+    },
+    "sources/tiles/hoefnagel-rose-lower.png": {
+      "bytes": 1865622,
+      "sha256": "8adf5fe4aad43eb4fffa67ccd606eed4769aae273fb69b128597544c7ef469a2"
+    },
+    "sources/tiles/hoefnagel-rose-upper.png": {
+      "bytes": 1236662,
+      "sha256": "8da88f636ac532ed462e67911303c5e3b7033a71a003eeef0a0b16b55b28e4af"
+    },
+    "sources/tiles/isabella-blue-cornflower.png": {
+      "bytes": 1770932,
+      "sha256": "65dc22e25b8dbd81249d4bac11e3eb6c279b2cef6b89ba1110ecd7cdcec298e5"
+    },
+    "sources/tiles/isabella-gray-butterfly.png": {
+      "bytes": 1563043,
+      "sha256": "dfc2fbabe57d0d636a16c3537799bb61c79da6ad1bf2da74341edd6da589aab3"
+    },
+    "sources/tiles/isabella-orange-butterfly.png": {
+      "bytes": 2307156,
+      "sha256": "b0c3ba30f45e2b14225af476d74632ca6b87b47a927718199ff48fe98435f256"
+    },
+    "sources/tiles/isabella-pink-rose.png": {
+      "bytes": 2402894,
+      "sha256": "d3da9510b11ee51cae0d121850442bd64640b5be64ad1697204bb6253a3f950e"
+    },
+    "sources/tiles/isabella-small-bird.png": {
+      "bytes": 1800469,
+      "sha256": "c488198c9cf6f1bf6034ef46cdbbbfd767164cb908b315a177254309d867ab62"
+    },
+    "sources/tiles/rabbit-horn-hound-rider.png": {
+      "bytes": 1568391,
+      "sha256": "ec532bb19319a85ce090b99c74616d45ad364f4d907c8c4659282c32ab537ade"
+    },
+    "sources/tiles/walters-centaur-archer.png": {
+      "bytes": 1395558,
+      "sha256": "4a122de5e0610d0e2de1ac1367ad0d6de3b03862180174090c6743093ae92a55"
+    },
+    "sources/tiles/walters-elephant-castle.png": {
+      "bytes": 2103957,
+      "sha256": "2dcf83faf314e32947772e1e951ecaf2d0cb2c78c1d226e01704275c731d6b6c"
+    },
+    "sources/tiles/walters-horse-flute-drum.png": {
+      "bytes": 1354357,
+      "sha256": "7c294c8145a8e8948a2f53e6df4f94eca93b0b963a3ae720c34e091d71ec2bdd"
+    },
+    "sources/tiles/walters-rabbit-church-bells.png": {
+      "bytes": 2156817,
+      "sha256": "adec10d7017f69478ecab4ba4f310bed5e40c8ef3025fe18d795d0e2543752e3"
+    },
+    "sources/tiles/polyhymnia.png": {
+      "bytes": 3058251,
+      "sha256": "5ef6519c5aecf83c5127ea53fe7e09f7038b6907778776b49e0b7de0937442e1"
     }
   }
 }

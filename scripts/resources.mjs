@@ -39,6 +39,8 @@ const saveLock=()=>writeFile(path.join(projectRoot,'resource-lock.json'),json(lo
 const selectedIds=()=>options.design ? [config.assignments[options.design]||(()=>{throw Error(`Unknown assignment: ${options.design}`)})()] : options.source ? [options.source] : options.all ? Object.keys(config.sources) : (()=>{throw Error('Select --all, --source or --design.');})();
 const sourceInfo=id=>config.sources[id]||(()=>{throw Error(`Unknown resource: ${id}`)})();
 const inventory=id=>({...manifest(id).files,...manifest(id).inputs});
+const designStems=name=>[name,...['-border','-corner','-rotated','-reference'].map(suffix=>name+suffix)];
+const belongsToDesign=(relative,name)=>designStems(name).includes(path.basename(relative).replace(/\.[^.]+$/,''));
 const size=id=>Object.values(inventory(id)).reduce((sum,file)=>sum+file.bytes,0);
 async function fileDigest(file) {const hash=createHash('sha256');let bytes=0;for await(const chunk of createReadStream(file)){bytes+=chunk.length;hash.update(chunk);}return {bytes,sha256:hash.digest('hex')};}
 async function checkFiles(id) {for(const [relative,expected]of Object.entries(inventory(id))){const actual=await fileDigest(path.join(resourceDirectory(id),relative));if(actual.bytes!==expected.bytes||actual.sha256!==expected.sha256)throw Error(`Unapproved resource bytes: ${id}/${relative}`);}}
@@ -76,7 +78,7 @@ else if(command==='assign') {
 } else if(command==='fetch'||command==='link') {
   for(const id of selectedIds()){const source=sourceInfo(id),directory=resourceDirectory(id),pin=lock.sources[id];
     const all=inventory(id),selected=options.design?new Set(assetPaths(items.filter(x=>x.name===options.design))):null;
-    const paths=Object.keys(all).filter(p=>!selected||selected.has(p)||p.endsWith('/'+options.design+'.png')||p.endsWith('/'+options.design+'.svg')||p.startsWith('sources/medieval-cutouts/sources/'));
+    const paths=Object.keys(all).filter(p=>!selected||selected.has(p)||belongsToDesign(p,options.design)||p.startsWith('sources/medieval-cutouts/sources/'));
     if(command==='fetch') {
       if(!/^[a-f0-9]{40}$/.test(pin.gitCommit||''))throw Error(`Resource has not been locked to a source commit: ${id}`);
       if(!existsSync(path.join(directory,'.git'))){if(existsSync(directory))throw Error(`Existing non-Git directory: ${directory}`);await mkdir(path.dirname(directory),{recursive:true});await exec('git',['clone','--depth=1','--filter=blob:none','--sparse',`https://github.com/${source.repository}.git`,directory]);}
@@ -99,7 +101,7 @@ else if(command==='assign') {
   if(!previousId||previousId===targetId)throw Error('Choose an existing design and a different registered source.');
   const previous=sourceInfo(previousId),target=sourceInfo(targetId),old=manifest(previousId),item=old.designs[name];
   if(previous.collection!==target.collection||target.state==='archived')throw Error('Migration must stay within the collection and target a writable source.');
-  const paths=[...designPaths(item),...Object.keys(old.inputs).filter(p=>path.basename(p).replace(/\.[^.]+$/,'')===name)];
+  const paths=[...designPaths(item),...Object.keys(old.inputs).filter(p=>belongsToDesign(p,name))];
   const added=paths.reduce((sum,p)=>sum+(old.files[p]||old.inputs[p]).bytes,0);
   if(size(targetId)+added>config.policy.maxTrackedBytes)throw Error('Migrated design exceeds target capacity.');
   for(const relative of paths){const input=path.join(resourceDirectory(previousId),relative);if(stable(await fileDigest(input))!==stable(old.files[relative]||old.inputs[relative]))throw Error('Fetch approved design bytes before migration: '+relative);const output=path.join(resourceDirectory(targetId),relative);if(existsSync(output))throw Error('Migration target already contains '+relative);await mkdir(path.dirname(output),{recursive:true});await copyFile(input,output);}
@@ -131,7 +133,7 @@ else if(command==='assign') {
   const selected=[...items.filter(item=>config.assignments[item.name]===id),...retained],files={},inputs={};
   for(const relative of assetPaths(selected))files[relative]=await fileDigest(path.join(resourceDirectory(id),relative));
   for(const relative of Object.keys(old.inputs))inputs[relative]=await fileDigest(path.join(resourceDirectory(id),relative));
-  for(const item of selected)for(const directory of ['sources/tiles','sources/traces'])for(const extension of ['png','svg']){const relative=`${directory}/${item.name}.${extension}`;if(existsSync(path.join(resourceDirectory(id),relative)))inputs[relative]=await fileDigest(path.join(resourceDirectory(id),relative));}
+  for(const item of selected)for(const stem of designStems(item.name))for(const directory of ['sources/tiles','sources/traces'])for(const extension of ['png','svg']){const relative=`${directory}/${stem}.${extension}`;if(existsSync(path.join(resourceDirectory(id),relative)))inputs[relative]=await fileDigest(path.join(resourceDirectory(id),relative));}
   const approved={schemaVersion:2,id,collection:source.collection,package:source.package,version:options.version,designs:Object.fromEntries(selected.map(item=>[item.name,capabilities(item)])),files,inputs},content=json(approved);
   if(Buffer.byteLength(content)>(config.policy.maxManifestBytes||1048576))throw Error('Manifest exceeds installer capacity; use another source.');
   const bytes=Object.values({...files,...inputs}).reduce((sum,file)=>sum+file.bytes,0);if(bytes>config.policy.maxTrackedBytes||Object.values({...files,...inputs}).some(f=>f.bytes>config.policy.maxFileBytes))throw Error('Approved resource exceeds capacity.');

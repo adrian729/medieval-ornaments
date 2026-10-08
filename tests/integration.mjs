@@ -10,6 +10,7 @@ import { promisify } from 'node:util';
 import { createRequire } from 'node:module';
 import { selectiveConsumers } from './selective-consumers.mjs';
 import { assetPaths, assetCatalog } from '../scripts/package-assets.mjs';
+import { registry, resourceLock } from '../scripts/resource-store.mjs';
 import { createElement as h } from 'react';
 import { renderToString } from 'react-dom/server';
 import { createServer as createViteServer, build } from 'vite';
@@ -25,8 +26,9 @@ try {
   const assetSource = process.env.ORNAMENTS_ASSETS_PACKAGE;
   const illustrationSource = process.env.ORNAMENTS_ILLUSTRATIONS_PACKAGE;
   const items = await assetCatalog();
-  const illustrationAssets = assetPaths(items.filter(item=>item.asset_type==='illustration'));
-  const borderAssets = assetPaths(items.filter(item=>item.asset_type!=='illustration'));
+  const compatibility=JSON.parse(await readFile(path.join(root,'assets-manifest.json'),'utf8'));
+  const illustrationAssets = Object.keys(compatibility.files).filter(relative=>compatibility.files[relative].package===compatibility.illustrations.package).sort();
+  const borderAssets = Object.keys(compatibility.files).filter(relative=>compatibility.files[relative].package!==compatibility.illustrations.package).sort();
   let install, assetInstall, illustrationInstall;
   const expectedAssets = assetPaths(await assetCatalog());
   if (packageSource) install = packageSource;
@@ -35,8 +37,6 @@ try {
     const allowed = /^(?:lib\/|docs\/(?:INTEGRATION|PERFORMANCE|SELECTIVE|ILLUSTRATIONS|RESOURCES|RESOURCE-MIGRATION)\.md$|images\.schema\.json$|ornaments\.css$|package\.json$|README\.md$|SELECTION\.md$|USAGE\.md$|LICENSE$)/;
     assert.ok(packed.files.every(file => allowed.test(file.path)), 'Unexpected runtime packed file');
     assert.deepEqual(packed.files.filter(file => /^(svg|png|webp)\//.test(file.path)), [], 'Runtime must contain no artwork');
-    // Budget accounts for 111 typed designs and richer selection metadata;
-    // application bundles must still prove only explicitly selected designs.
     assert.ok(packed.size < 200_000 && packed.unpackedSize < 1_250_000, 'Lean runtime size budget');
     assert.ok(packed.files.find(file => file.path === 'lib/cli.js').mode & 0o111);
     records.push({ package: { bytes: packed.size, unpacked: packed.unpackedSize, files: packed.entryCount, integrity: packed.integrity, archive: path.join(folder, packed.filename) } });
@@ -65,6 +65,12 @@ try {
   await writeFile(path.join(app, 'package.json'), '{"private":true,"type":"module"}');
   await exec('npm', ['install', install, '--ignore-scripts', '--no-audit', '--no-fund', ...(packageSource ? ['--prefer-online'] : ['--offline'])], { cwd: app });
   const installed = path.join(app, 'node_modules/@ranx729/medieval-ornaments');
+  if (packageSource) {
+    const measured = JSON.parse((await exec('npm', ['pack', '--ignore-scripts', '--json', '--pack-destination', folder], {cwd: installed, maxBuffer: 3e6})).stdout)[0];
+    assert.ok(measured.size < 200_000 && measured.unpackedSize < 1_250_000, 'Provided runtime must satisfy the same size budget');
+    assert.ok(measured.files.every(file => !/^(svg|png|webp)\//.test(file.path)), 'Provided runtime must contain no artwork');
+    records.push({package: {bytes: measured.size, unpacked: measured.unpackedSize, files: measured.entryCount}});
+  }
   await assert.rejects(access(path.join(app, 'node_modules/react')), 'Vanilla consumers must not require React');
   await assert.rejects(access(path.join(app, 'node_modules/@ranx729/medieval-ornaments-assets')), 'Normal installs must not fetch artwork');
   await assert.rejects(access(path.join(installed, 'svg')), 'Runtime must contain no artwork');
@@ -131,6 +137,21 @@ try {
   assert.equal(require.resolve(api.illustrationsPackage+'/webp/256/flying-pig.webp'),path.join(illustrationCompanion,'webp/256/flying-pig.webp'));
   for (const relative of ['svg/red-berry-vine.svg', 'png/128/floral-bird-panel-blue.png', 'webp/128/floral-bird-panel-blue.webp']) {
     assert.equal(require.resolve(api.assetsPackage + '/' + relative), path.join(companion, relative));
+  }
+  // Immutable optional archives can lack later additions. Install the exact
+  // numbered revisions before the complete current-catalog offline copy.
+  const sources=registry().sources,pins=resourceLock().sources;
+  for(const [id,source] of Object.entries(sources)){
+    let installResource;
+    if(registryPackage)installResource=source.package+'@'+pins[id].version;
+    else{
+      const packed=JSON.parse((await exec('npm',['pack','--ignore-scripts','--json','--pack-destination',folder],{cwd:path.join(root,'tmp/resource-checkouts',id),maxBuffer:3e6})).stdout)[0];
+      assert.deepEqual(packed.files.filter(file=>/^(svg|png|webp)\//.test(file.path)).map(file=>file.path).sort(),assetPaths(items.filter(item=>registry().assignments[item.name]===id)));
+      installResource=path.join(folder,packed.filename);
+    }
+    await exec('npm',['install','--save-dev',installResource,'--ignore-scripts','--no-audit','--no-fund',registryPackage?'--prefer-online':'--offline'],{cwd:app});
+    const installedResource=path.join(app,'node_modules',source.package);
+    assert.deepEqual(await readFile(path.join(installedResource,'resource-manifest.json')),await readFile(path.join(root,'resources/manifests',id+'.json')));
   }
   await assert.rejects(exec(process.execPath, [bin, 'copy-assets', companion, '--offline'], { cwd: app }), /outside the package directory and artwork source/);
   // Copying all assets also checks each packed image against the trusted byte/hash manifest.

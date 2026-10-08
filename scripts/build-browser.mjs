@@ -18,6 +18,7 @@ await cp(path.join(root,'lib'),path.join(browser,'lib'),{recursive:true});
 for(const relative of assetPaths(await assetCatalog())) {const target=path.join(browser,relative);await mkdir(path.dirname(target),{recursive:true});await copyFile(resourceFile(relative),target);}
 await cp(path.join(root,'examples/assets.js'),path.join(browser,'examples/assets.js'));
 for (const name of ['ornaments.css', 'favicon.svg', 'favicon.ico', 'favicon-32.png', 'images.json', 'assets-manifest.json', 'LICENSE']) await cp(path.join(root, name), path.join(browser, name));
+for (const name of ['historical-additions.json', 'historical-border-patterns.json', 'illustration-additions.json']) await cp(path.join(root, name), path.join(browser, name));
 for (const name of ['index.html', 'demo.html', 'review.html', 'qa.html']) {
   const target = path.join(browser, 'examples', name);
   await cp(path.join(root, 'examples', name), target);

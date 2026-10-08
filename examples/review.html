@@ -21,7 +21,7 @@ function update(){
   document.body.classList.toggle('dark',$('theme').value==='dark');$('grid').replaceChildren();
   for(const item of catalog){
     const plate=item.name.startsWith('plate-');
-    if($('collection').value==='plate'&&!plate||$('collection').value==='floral'&&item.reference!=='six-border-styles'||$('collection').value==='illustrations'&&item.asset_type!=='illustration'||$('collection').value==='additions'&&(plate||item.derivation!=='source-crop-and-color-trace'))continue;
+    if($('collection').value==='plate'&&!plate||$('collection').value==='floral'&&item.reference!=='six-border-styles'||$('collection').value==='illustrations'&&item.asset_type!=='illustration'||$('collection').value==='additions'&&(plate||!(item.derivation==='source-crop-and-color-trace'||item.asset_type==='border'&&item.provenance)))continue;
     const card=document.createElement('section');card.className='card';
     const title=document.createElement('h2');title.textContent=item.name;card.append(title);
     const samples=document.createElement('div');samples.className='samples';const paint=[];

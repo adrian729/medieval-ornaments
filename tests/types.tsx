@@ -1,11 +1,17 @@
 import { createRef } from 'react';
-import { createDivider, createFrame, createOrnamentImage, findOrnaments, resolveOrnament, assetsPackage, assetsVersion, type Category } from '@ranx729/medieval-ornaments';
+import { createDivider, createFrame, createOrnamentImage, findOrnaments, resolveOrnament, assetsPackage, assetsVersion, type Category, type Provenance } from '@ranx729/medieval-ornaments';
 import { OrnamentFrame, OrnamentDivider, OrnamentImage } from '@ranx729/medieval-ornaments/react';
 import { OrnamentDivider as UnstyledDivider, type OrnamentFrameProps as UnstyledFrameProps } from '@ranx729/medieval-ornaments/react/unstyled';
 import '@ranx729/medieval-ornaments/styles.css';
 const unstyledProps: UnstyledFrameProps = { design: 'red-berry-vine', size: 33 };
 const unstyledExample = <UnstyledDivider design="plate-02-stepped-ribbon" orientation="horizontal" />;
 const categories: Category[] = ['floral'];
+const source: Provenance | undefined = findOrnaments({ query: 'Hoefnagel' })[0]?.provenance;
+if (source) {
+  const sourceRecord: string = source.record_url;
+  // @ts-expect-error Provenance is immutable selection metadata.
+  source.institution = 'Replacement';
+}
 const artworkRevision: string = `${assetsPackage}@${assetsVersion}`;
 findOrnaments({ use: 'frame', categories, query: 'gold' });
 const discoveredDividers = findOrnaments({ use: 'divider' }).map(item => <OrnamentDivider key={item.name} design={item.name} />);
@@ -79,3 +85,14 @@ void [pigsType, boundPig, dynamicIllustration, scopeImages, pigSVG, pigDivider];
 import { getAssetSource } from '@ranx729/medieval-ornaments/resources';
 const sourceUrl: string = getAssetSource("red-berry-vine").base;
 void sourceUrl;
+
+import { createFrame as createRosselliFrame, createDivider as createRosselliDivider } from '@ranx729/medieval-ornaments/designs/rosselli-mask-border';
+import { OrnamentFrame as RosselliFrame } from '@ranx729/medieval-ornaments/react/rosselli-foliate-border';
+createRosselliFrame(document.createElement('div'), {size: 33, format: 'png'});
+createRosselliDivider(document.createElement('div'), {orientation: 'horizontal', format: 'webp'});
+const rosselli = <RosselliFrame size={33} format="webp" />;
+// @ts-expect-error Native raster borders do not invent SVG alternatives.
+const rosselliSvg = <RosselliFrame format="svg" />;
+// @ts-expect-error The individual border stays bound to its own design.
+createRosselliFrame(document.createElement('div'), {design: 'rosselli-foliate-border'});
+void [rosselli, rosselliSvg];

@@ -3,8 +3,71 @@
   "id": "decorations-001",
   "collection": "decorations",
   "package": "@ranx729/medieval-ornaments-assets-decorations-001",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "designs": {
+    "aldegrever-paired-tendrils": {
+      "name": "aldegrever-paired-tendrils",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 1800,
+      "height": 599,
+      "png": "png/aldegrever-paired-tendrils.png",
+      "webp": "webp/aldegrever-paired-tendrils.webp",
+      "png_bytes": 2617967,
+      "webp_bytes": 1647020,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/aldegrever-paired-tendrils.png",
+          "webp": "webp/128/aldegrever-paired-tendrils.webp",
+          "width": 128,
+          "height": 43,
+          "png_bytes": 16608,
+          "webp_bytes": 10280
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/aldegrever-paired-tendrils.png",
+          "webp": "webp/256/aldegrever-paired-tendrils.webp",
+          "width": 256,
+          "height": 85,
+          "png_bytes": 62687,
+          "webp_bytes": 38856
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/aldegrever-paired-tendrils.png",
+          "webp": "webp/512/aldegrever-paired-tendrils.webp",
+          "width": 512,
+          "height": 170,
+          "png_bytes": 251035,
+          "webp_bytes": 151480
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/aldegrever-paired-tendrils.png",
+          "webp": "webp/768/aldegrever-paired-tendrils.webp",
+          "width": 768,
+          "height": 256,
+          "png_bytes": 553175,
+          "webp_bytes": 338028
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
     "blue-acanthus-and-seed-head-panel": {
       "name": "blue-acanthus-and-seed-head-panel",
       "asset_type": "decoration",
@@ -397,6 +460,195 @@
       ],
       "formats": [
         "svg",
+        "webp",
+        "png"
+      ]
+    },
+    "hoefnagel-strapwork-frame": {
+      "name": "hoefnagel-strapwork-frame",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 1420,
+      "height": 1058,
+      "png": "png/hoefnagel-strapwork-frame.png",
+      "webp": "webp/hoefnagel-strapwork-frame.webp",
+      "png_bytes": 2769350,
+      "webp_bytes": 2049320,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/hoefnagel-strapwork-frame.png",
+          "webp": "webp/128/hoefnagel-strapwork-frame.webp",
+          "width": 128,
+          "height": 95,
+          "png_bytes": 29632,
+          "webp_bytes": 21512
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/hoefnagel-strapwork-frame.png",
+          "webp": "webp/256/hoefnagel-strapwork-frame.webp",
+          "width": 256,
+          "height": 191,
+          "png_bytes": 110243,
+          "webp_bytes": 78766
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/hoefnagel-strapwork-frame.png",
+          "webp": "webp/512/hoefnagel-strapwork-frame.webp",
+          "width": 512,
+          "height": 381,
+          "png_bytes": 415973,
+          "webp_bytes": 286002
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/hoefnagel-strapwork-frame.png",
+          "webp": "webp/768/hoefnagel-strapwork-frame.webp",
+          "width": 768,
+          "height": 572,
+          "png_bytes": 898214,
+          "webp_bytes": 632024
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "hopfer-thistle-panel": {
+      "name": "hopfer-thistle-panel",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 971,
+      "height": 1421,
+      "png": "png/hopfer-thistle-panel.png",
+      "webp": "webp/hopfer-thistle-panel.webp",
+      "png_bytes": 3642959,
+      "webp_bytes": 2129350,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/hopfer-thistle-panel.png",
+          "webp": "webp/128/hopfer-thistle-panel.webp",
+          "width": 87,
+          "height": 128,
+          "png_bytes": 35464,
+          "webp_bytes": 17508
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/hopfer-thistle-panel.png",
+          "webp": "webp/256/hopfer-thistle-panel.webp",
+          "width": 175,
+          "height": 256,
+          "png_bytes": 133440,
+          "webp_bytes": 69742
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/hopfer-thistle-panel.png",
+          "webp": "webp/512/hopfer-thistle-panel.webp",
+          "width": 350,
+          "height": 512,
+          "png_bytes": 505147,
+          "webp_bytes": 273156
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/hopfer-thistle-panel.png",
+          "webp": "webp/768/hopfer-thistle-panel.webp",
+          "width": 525,
+          "height": 768,
+          "png_bytes": 1138589,
+          "webp_bytes": 624048
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "isabella-gold-floral-frame": {
+      "name": "isabella-gold-floral-frame",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 909,
+      "height": 1418,
+      "png": "png/isabella-gold-floral-frame.png",
+      "webp": "webp/isabella-gold-floral-frame.webp",
+      "png_bytes": 1882426,
+      "webp_bytes": 1398436,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/isabella-gold-floral-frame.png",
+          "webp": "webp/128/isabella-gold-floral-frame.webp",
+          "width": 82,
+          "height": 128,
+          "png_bytes": 19474,
+          "webp_bytes": 17022
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/isabella-gold-floral-frame.png",
+          "webp": "webp/256/isabella-gold-floral-frame.webp",
+          "width": 164,
+          "height": 256,
+          "png_bytes": 71550,
+          "webp_bytes": 58560
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/isabella-gold-floral-frame.png",
+          "webp": "webp/512/isabella-gold-floral-frame.webp",
+          "width": 328,
+          "height": 512,
+          "png_bytes": 263989,
+          "webp_bytes": 206648
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/isabella-gold-floral-frame.png",
+          "webp": "webp/768/isabella-gold-floral-frame.webp",
+          "width": 492,
+          "height": 768,
+          "png_bytes": 581128,
+          "webp_bytes": 447284
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
         "webp",
         "png"
       ]
@@ -969,6 +1221,344 @@
         "png"
       ]
     },
+    "rosselli-foliate-strip": {
+      "name": "rosselli-foliate-strip",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 274,
+      "height": 1400,
+      "png": "png/rosselli-foliate-strip.png",
+      "webp": "webp/rosselli-foliate-strip.webp",
+      "png_bytes": 976394,
+      "webp_bytes": 693510,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/rosselli-foliate-strip.png",
+          "webp": "webp/128/rosselli-foliate-strip.webp",
+          "width": 25,
+          "height": 128,
+          "png_bytes": 11700,
+          "webp_bytes": 7990
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/rosselli-foliate-strip.png",
+          "webp": "webp/256/rosselli-foliate-strip.webp",
+          "width": 50,
+          "height": 256,
+          "png_bytes": 44184,
+          "webp_bytes": 29032
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/rosselli-foliate-strip.png",
+          "webp": "webp/512/rosselli-foliate-strip.webp",
+          "width": 100,
+          "height": 512,
+          "png_bytes": 158830,
+          "webp_bytes": 106272
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/rosselli-foliate-strip.png",
+          "webp": "webp/768/rosselli-foliate-strip.webp",
+          "width": 150,
+          "height": 768,
+          "png_bytes": 335102,
+          "webp_bytes": 228542
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "rosselli-mask-strip": {
+      "name": "rosselli-mask-strip",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 270,
+      "height": 1400,
+      "png": "png/rosselli-mask-strip.png",
+      "webp": "webp/rosselli-mask-strip.webp",
+      "png_bytes": 998899,
+      "webp_bytes": 685338,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/rosselli-mask-strip.png",
+          "webp": "webp/128/rosselli-mask-strip.webp",
+          "width": 25,
+          "height": 128,
+          "png_bytes": 11081,
+          "webp_bytes": 7630
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/rosselli-mask-strip.png",
+          "webp": "webp/256/rosselli-mask-strip.webp",
+          "width": 49,
+          "height": 256,
+          "png_bytes": 41644,
+          "webp_bytes": 27526
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/rosselli-mask-strip.png",
+          "webp": "webp/512/rosselli-mask-strip.webp",
+          "width": 99,
+          "height": 512,
+          "png_bytes": 157177,
+          "webp_bytes": 108136
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/rosselli-mask-strip.png",
+          "webp": "webp/768/rosselli-mask-strip.webp",
+          "width": 148,
+          "height": 768,
+          "png_bytes": 336031,
+          "webp_bytes": 239636
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "rosselli-roundel-bottom": {
+      "name": "rosselli-roundel-bottom",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 620,
+      "height": 603,
+      "png": "png/rosselli-roundel-bottom.png",
+      "webp": "webp/rosselli-roundel-bottom.webp",
+      "png_bytes": 750372,
+      "webp_bytes": 481222,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/rosselli-roundel-bottom.png",
+          "webp": "webp/128/rosselli-roundel-bottom.webp",
+          "width": 128,
+          "height": 124,
+          "png_bytes": 41218,
+          "webp_bytes": 25130
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/rosselli-roundel-bottom.png",
+          "webp": "webp/256/rosselli-roundel-bottom.webp",
+          "width": 256,
+          "height": 249,
+          "png_bytes": 148922,
+          "webp_bytes": 95478
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/rosselli-roundel-bottom.png",
+          "webp": "webp/512/rosselli-roundel-bottom.webp",
+          "width": 512,
+          "height": 498,
+          "png_bytes": 531783,
+          "webp_bytes": 342508
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "rosselli-roundel-second": {
+      "name": "rosselli-roundel-second",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 620,
+      "height": 614,
+      "png": "png/rosselli-roundel-second.png",
+      "webp": "webp/rosselli-roundel-second.webp",
+      "png_bytes": 767050,
+      "webp_bytes": 486680,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/rosselli-roundel-second.png",
+          "webp": "webp/128/rosselli-roundel-second.webp",
+          "width": 128,
+          "height": 127,
+          "png_bytes": 43700,
+          "webp_bytes": 27228
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/rosselli-roundel-second.png",
+          "webp": "webp/256/rosselli-roundel-second.webp",
+          "width": 256,
+          "height": 254,
+          "png_bytes": 153097,
+          "webp_bytes": 100970
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/rosselli-roundel-second.png",
+          "webp": "webp/512/rosselli-roundel-second.webp",
+          "width": 512,
+          "height": 507,
+          "png_bytes": 542783,
+          "webp_bytes": 347360
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "rosselli-roundel-third": {
+      "name": "rosselli-roundel-third",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 620,
+      "height": 613,
+      "png": "png/rosselli-roundel-third.png",
+      "webp": "webp/rosselli-roundel-third.webp",
+      "png_bytes": 788827,
+      "webp_bytes": 508420,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/rosselli-roundel-third.png",
+          "webp": "webp/128/rosselli-roundel-third.webp",
+          "width": 128,
+          "height": 127,
+          "png_bytes": 44116,
+          "webp_bytes": 27756
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/rosselli-roundel-third.png",
+          "webp": "webp/256/rosselli-roundel-third.webp",
+          "width": 256,
+          "height": 253,
+          "png_bytes": 155148,
+          "webp_bytes": 101988
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/rosselli-roundel-third.png",
+          "webp": "webp/512/rosselli-roundel-third.webp",
+          "width": 512,
+          "height": 506,
+          "png_bytes": 556667,
+          "webp_bytes": 360714
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "rosselli-roundel-top": {
+      "name": "rosselli-roundel-top",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 620,
+      "height": 612,
+      "png": "png/rosselli-roundel-top.png",
+      "webp": "webp/rosselli-roundel-top.webp",
+      "png_bytes": 791487,
+      "webp_bytes": 507656,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/rosselli-roundel-top.png",
+          "webp": "webp/128/rosselli-roundel-top.webp",
+          "width": 128,
+          "height": 126,
+          "png_bytes": 43968,
+          "webp_bytes": 28064
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/rosselli-roundel-top.png",
+          "webp": "webp/256/rosselli-roundel-top.webp",
+          "width": 256,
+          "height": 253,
+          "png_bytes": 156201,
+          "webp_bytes": 103386
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/rosselli-roundel-top.png",
+          "webp": "webp/512/rosselli-roundel-top.webp",
+          "width": 512,
+          "height": 505,
+          "png_bytes": 560295,
+          "webp_bytes": 363926
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
     "spiral-ribbon-column": {
       "name": "spiral-ribbon-column",
       "asset_type": "decoration",
@@ -1024,6 +1614,10 @@
     }
   },
   "files": {
+    "png/128/aldegrever-paired-tendrils.png": {
+      "bytes": 16608,
+      "sha256": "93d9b5c5e705d61ebe39b908e939904c85053d454835971608d41257c8c55100"
+    },
     "png/128/blue-acanthus-and-seed-head-panel-reference.png": {
       "bytes": 7142,
       "sha256": "eb7e06d372e7ceb4473142151ab03c123292b4db8f3292abd39d2c0501c3973c"
@@ -1055,6 +1649,18 @@
     "png/128/gold-scroll-with-blue-bellflowers.png": {
       "bytes": 8414,
       "sha256": "57b1ada9c29216035b2761fe5cd8d0e349cddfbb5fd2af96c1e8571fb93775a6"
+    },
+    "png/128/hoefnagel-strapwork-frame.png": {
+      "bytes": 29632,
+      "sha256": "fa11c4755294d1175b75140d17bb614b637779c8bd31f0791633449aa84a2730"
+    },
+    "png/128/hopfer-thistle-panel.png": {
+      "bytes": 35464,
+      "sha256": "4aaca7618ec7f925009a7f61601a12b0c9085f8d7908eb6fc1dd5dca400d7dc2"
+    },
+    "png/128/isabella-gold-floral-frame.png": {
+      "bytes": 19474,
+      "sha256": "7bd516832fe49795232e5a41c1d93e906dc4a9146b27af9bad9ac8cce701bd7b"
     },
     "png/128/painted-sprawling-floral-panel-reference.png": {
       "bytes": 13872,
@@ -1088,9 +1694,37 @@
       "bytes": 9244,
       "sha256": "a4975109bc28c6b71de4289a42579716b6ff23db60e7bf4d6afab3aaa6476b65"
     },
+    "png/128/rosselli-foliate-strip.png": {
+      "bytes": 11700,
+      "sha256": "2fd810b739edda199486f38f092f8a294680b7c44bf27f214717ca9b8daeaac2"
+    },
+    "png/128/rosselli-mask-strip.png": {
+      "bytes": 11081,
+      "sha256": "13e72fa0767fb6a90810a25c6b3af15e43f873bb07d85e8e412ec72d1fbd5f7f"
+    },
+    "png/128/rosselli-roundel-bottom.png": {
+      "bytes": 41218,
+      "sha256": "e86b014b7279bea04d6ae78b4e6af8c35d76b889193403289a80c27be080345f"
+    },
+    "png/128/rosselli-roundel-second.png": {
+      "bytes": 43700,
+      "sha256": "b51bc17f01178d2f3410bef49740ad7abae447156d1711ac4f499128fdf905f4"
+    },
+    "png/128/rosselli-roundel-third.png": {
+      "bytes": 44116,
+      "sha256": "c13ecd55fdc12f70b3c86ba784cc66e30fce11a33c2531b9ca5d71bcf78d3f9a"
+    },
+    "png/128/rosselli-roundel-top.png": {
+      "bytes": 43968,
+      "sha256": "40dc83ecaf00a6304ecabb230b43958450ce5cdf70e6a53d58c1cfd667845ba9"
+    },
     "png/128/spiral-ribbon-column.png": {
       "bytes": 5470,
       "sha256": "50753b11ea9ab8b521a72810d5f85a4737d63a2705ab385c2eb4de204e7f175a"
+    },
+    "png/256/aldegrever-paired-tendrils.png": {
+      "bytes": 62687,
+      "sha256": "4de69ea3b7bd108283144cf4c1cf457e33891a2d5c78ec9b02b5785723bc8bc2"
     },
     "png/256/blue-acanthus-and-seed-head-panel-reference.png": {
       "bytes": 27246,
@@ -1124,6 +1758,18 @@
       "bytes": 29312,
       "sha256": "fe02a331a3233cb4c5bcff3f716bbe773f1bbfebedb7f0ccb213679eddb23681"
     },
+    "png/256/hoefnagel-strapwork-frame.png": {
+      "bytes": 110243,
+      "sha256": "a19528621fcf328b3b8ac36ece5fd3838b12639eece18fd29bb1289994d44838"
+    },
+    "png/256/hopfer-thistle-panel.png": {
+      "bytes": 133440,
+      "sha256": "05e18803679dc2f5ef2a7223509079b9ebe074d97ec8604a2e1668d6f1d2e779"
+    },
+    "png/256/isabella-gold-floral-frame.png": {
+      "bytes": 71550,
+      "sha256": "57443fdc8d3febdc67aac08a4a4991527e3881bddeec7be5c629de87b0ca6847"
+    },
     "png/256/painted-sprawling-floral-panel-reference.png": {
       "bytes": 54111,
       "sha256": "ddab36546bae13b326cc3238902460500ca34d02534bb072b15fcf89ec503aee"
@@ -1156,9 +1802,37 @@
       "bytes": 34101,
       "sha256": "bf6328cfac391703815be555d4365dbf8b33f472499a0429345cceb6a08c3fe6"
     },
+    "png/256/rosselli-foliate-strip.png": {
+      "bytes": 44184,
+      "sha256": "dd04a0c668f80f181824680f3b20eafe5825744d707e47d70a9bf2e619b9e9de"
+    },
+    "png/256/rosselli-mask-strip.png": {
+      "bytes": 41644,
+      "sha256": "5c9f671ca52cc3d9fb7b02d86c45ca27ff939876443179b5adc4554b6d05fec0"
+    },
+    "png/256/rosselli-roundel-bottom.png": {
+      "bytes": 148922,
+      "sha256": "36a91f5411da9566fcadc939bd853c58dcfc1589d2740ba081f6529de8c530bd"
+    },
+    "png/256/rosselli-roundel-second.png": {
+      "bytes": 153097,
+      "sha256": "592f5d6e3576a4a890b9b84f53512db19c3e6dec27f7ce5a406f189b99e16dfb"
+    },
+    "png/256/rosselli-roundel-third.png": {
+      "bytes": 155148,
+      "sha256": "210abdda69b25e4db09811fee77f2b2463c721e114ce266d904f35d5a917e4c9"
+    },
+    "png/256/rosselli-roundel-top.png": {
+      "bytes": 156201,
+      "sha256": "3cd031db44cc5d79d059316832e4e3711861141488dbceaa9a7365d08d72a049"
+    },
     "png/256/spiral-ribbon-column.png": {
       "bytes": 20940,
       "sha256": "616a1d04d8e6c9af01efc8a5623e1eb306b15a7070a108b954505e6ec69f67a6"
+    },
+    "png/512/aldegrever-paired-tendrils.png": {
+      "bytes": 251035,
+      "sha256": "af28239c5a58586a5d00d72e0210aed16a18dd4c7e9ff085b8ad82322e5d92d5"
     },
     "png/512/butterfly-panel-red.png": {
       "bytes": 81260,
@@ -1184,6 +1858,18 @@
       "bytes": 101152,
       "sha256": "5dcbf55aa9e72056a72ba8ff304b4d4e589be615307c92fbf2e9715fe19752b0"
     },
+    "png/512/hoefnagel-strapwork-frame.png": {
+      "bytes": 415973,
+      "sha256": "b41030ea5d3658520bc392e6f525c706d5e65d5cef517fe651be821b1e767d66"
+    },
+    "png/512/hopfer-thistle-panel.png": {
+      "bytes": 505147,
+      "sha256": "6016b163ced98ad83bc117e01099f8eb971e73e3067a4713e3742a825d5a0b97"
+    },
+    "png/512/isabella-gold-floral-frame.png": {
+      "bytes": 263989,
+      "sha256": "65b8fc3db5e6dfccbbeb923b6acee1b336bd126115a9a890680d66bc81cee651"
+    },
     "png/512/painted-sprawling-floral-panel-reference.png": {
       "bytes": 210759,
       "sha256": "72bb060083f7b5c00eed6cc4fef14830d6e50cb49f13e208bf56cf2166f7af55"
@@ -1208,9 +1894,61 @@
       "bytes": 193547,
       "sha256": "768c5af391fef9a4388c2fe2421e4908d1e90274c72a371a6fa4a29dddf065d5"
     },
+    "png/512/rosselli-foliate-strip.png": {
+      "bytes": 158830,
+      "sha256": "9cfbd4f7074ae45aaa7cb14b26244754e2352a9e62ccb37c3be86f783c3f4f49"
+    },
+    "png/512/rosselli-mask-strip.png": {
+      "bytes": 157177,
+      "sha256": "f82fd25b57d0764496dd1089194cb3e2ac48a87271d0516ef1a2e56adc9a9c3f"
+    },
+    "png/512/rosselli-roundel-bottom.png": {
+      "bytes": 531783,
+      "sha256": "e9a1b173f0c2bb8e1230cb09c3f7ead9e1c5fa22a386205348e7c349d43f642f"
+    },
+    "png/512/rosselli-roundel-second.png": {
+      "bytes": 542783,
+      "sha256": "d93869651b1687a4b68e1a0798ef27fe8a667fc3d97a3403b5a2faf6cc3613a8"
+    },
+    "png/512/rosselli-roundel-third.png": {
+      "bytes": 556667,
+      "sha256": "85d95c48a50350cc2e0f18c584723f01337c9626b561ff4f11b8831b836814d3"
+    },
+    "png/512/rosselli-roundel-top.png": {
+      "bytes": 560295,
+      "sha256": "743cf99f35ff23f3af89180ed545f380404d2fabebbd0fa5e20a7721da0fcd48"
+    },
     "png/512/spiral-ribbon-column.png": {
       "bytes": 77415,
       "sha256": "735295c907183cf272b535a6473378921d6a4ff32a4479f97ced62cc87324a66"
+    },
+    "png/768/aldegrever-paired-tendrils.png": {
+      "bytes": 553175,
+      "sha256": "43dd29cde0ae8ef5192a5e27fa5670134eb0706d0fb3d0e15c6abd0971cd40df"
+    },
+    "png/768/hoefnagel-strapwork-frame.png": {
+      "bytes": 898214,
+      "sha256": "61e8d3b5b32c99fe6cddb78d0b9def0b019f38f14df44383eed6d505a990c8a6"
+    },
+    "png/768/hopfer-thistle-panel.png": {
+      "bytes": 1138589,
+      "sha256": "5b2e8a2f8a85a9e25600f16f67ff57a35dcecb42d56aa305e28e288c5efe6f2a"
+    },
+    "png/768/isabella-gold-floral-frame.png": {
+      "bytes": 581128,
+      "sha256": "c50794cc24c7c70b3db29fa79da7c0d64550cb1878bd1c310f0a037e4d372023"
+    },
+    "png/768/rosselli-foliate-strip.png": {
+      "bytes": 335102,
+      "sha256": "abcaad5cec6ff55982d0611e9164727b706c88f08ba564ebe73ba3425152d6c8"
+    },
+    "png/768/rosselli-mask-strip.png": {
+      "bytes": 336031,
+      "sha256": "77c50f3ec4450314f9b4957b1ffbefb3adbc02bdf8a10a8dbaeb0585445ad614"
+    },
+    "png/aldegrever-paired-tendrils.png": {
+      "bytes": 2617967,
+      "sha256": "c8c9187464b461909413657b87e81245b4cb441fa8dd6f51240114fcb65981f7"
     },
     "png/blue-acanthus-and-seed-head-panel-reference.png": {
       "bytes": 29197,
@@ -1243,6 +1981,18 @@
     "png/gold-scroll-with-blue-bellflowers.png": {
       "bytes": 100070,
       "sha256": "b24ce7a91ae22b7d2599c396f639b145ba712b7b43c4404956f19b5e5ccac76b"
+    },
+    "png/hoefnagel-strapwork-frame.png": {
+      "bytes": 2769350,
+      "sha256": "4117235b8edcf52c3393acc21c2f4cd1e24a90eb57a844cde04993fe3f7268ed"
+    },
+    "png/hopfer-thistle-panel.png": {
+      "bytes": 3642959,
+      "sha256": "51d04515b4539e7e320eacd0761794bed4e5452a6564d0679dca6e4a7ce50d0a"
+    },
+    "png/isabella-gold-floral-frame.png": {
+      "bytes": 1882426,
+      "sha256": "ca54dfae6ce4dc8369cdafa19ff7a4a81bbe1c94c57eeb435ef0c7d439f599ba"
     },
     "png/painted-sprawling-floral-panel-reference.png": {
       "bytes": 354736,
@@ -1300,6 +2050,30 @@
       "bytes": 35903,
       "sha256": "45985c515e6b861f86350e287b15198aa459e09fbd1c8ac964363336d4fd0ea0"
     },
+    "png/rosselli-foliate-strip.png": {
+      "bytes": 976394,
+      "sha256": "bbcd202878ab0b828ff24e0ded4bc5fbb5738f1081a8c2234b212f44249ca841"
+    },
+    "png/rosselli-mask-strip.png": {
+      "bytes": 998899,
+      "sha256": "18d86b02364df1a3bfae1a785b4a4a7186c93f442424f1b095d963dec792b4ec"
+    },
+    "png/rosselli-roundel-bottom.png": {
+      "bytes": 750372,
+      "sha256": "947a0807c33fa4152cc454bf9ee55de1bd413495bb584dfe4c56256aa34c54a8"
+    },
+    "png/rosselli-roundel-second.png": {
+      "bytes": 767050,
+      "sha256": "675357f3b2cc7bb410ca59f560d5da96b7b44bb671ef5572f15d176ca9a38188"
+    },
+    "png/rosselli-roundel-third.png": {
+      "bytes": 788827,
+      "sha256": "d22a8a740c7351b744cf237fd0ef0670a22d2fee09aaa23d09ccf20e63e2e7d5"
+    },
+    "png/rosselli-roundel-top.png": {
+      "bytes": 791487,
+      "sha256": "3eff6463245e06ce594501de86dc11a4c4ac5cfc0c74914445b8d4b1b1bd6369"
+    },
     "png/spiral-ribbon-column.png": {
       "bytes": 118948,
       "sha256": "a08520a81508cafe1ad39cd55f23e9f7917ccbe4bc85bd9310015e8a9438e180"
@@ -1340,6 +2114,10 @@
       "bytes": 288906,
       "sha256": "3906bb6e876eb87963d45353ae1fc2ef161307ce070f215a4d36f025854c6dda"
     },
+    "webp/128/aldegrever-paired-tendrils.webp": {
+      "bytes": 10280,
+      "sha256": "b3e0ca8aeb4ec617926d6d115039c6e7d7312b9738506cba4bacc51097b08caf"
+    },
     "webp/128/blue-acanthus-and-seed-head-panel-reference.webp": {
       "bytes": 5540,
       "sha256": "cbc71ed03b372d5ae0ec7f783c1b788b4f8c19d90c24bd615bf7c2edafce534b"
@@ -1371,6 +2149,18 @@
     "webp/128/gold-scroll-with-blue-bellflowers.webp": {
       "bytes": 5866,
       "sha256": "92d0de04c120d7eae4754567978787150443313e948c734f97f1cf00ef5c0230"
+    },
+    "webp/128/hoefnagel-strapwork-frame.webp": {
+      "bytes": 21512,
+      "sha256": "2e61d47a0dcfbef025519619b1fa03ac5f06870a4f88600a28a4732bc5e55617"
+    },
+    "webp/128/hopfer-thistle-panel.webp": {
+      "bytes": 17508,
+      "sha256": "08ee4e6caa93a1b7797682e5bb54a6b74d2e4b35b459fcbf9b6cf2bde7a9f101"
+    },
+    "webp/128/isabella-gold-floral-frame.webp": {
+      "bytes": 17022,
+      "sha256": "e2a76f0014f3588b91c9f1a863bde5caef174028f18f6e4e8c2a123424ca960b"
     },
     "webp/128/painted-sprawling-floral-panel-reference.webp": {
       "bytes": 11156,
@@ -1404,9 +2194,37 @@
       "bytes": 7246,
       "sha256": "46a129825bc2f62668bc8678946945e111a4844ab80d67349a4e849da121a689"
     },
+    "webp/128/rosselli-foliate-strip.webp": {
+      "bytes": 7990,
+      "sha256": "ff705865cf74e3c5cdabfe474f9c775d685277b066c1fab1db5c64c7053b0588"
+    },
+    "webp/128/rosselli-mask-strip.webp": {
+      "bytes": 7630,
+      "sha256": "8c74bdc5efe725b8302147cf3a1dc44aae7d6f5a0e2c9c0af6e8373cfd95a855"
+    },
+    "webp/128/rosselli-roundel-bottom.webp": {
+      "bytes": 25130,
+      "sha256": "29ee34846d94bc93786c78ed867a83ab8f09faadda723ab9b631497338daec88"
+    },
+    "webp/128/rosselli-roundel-second.webp": {
+      "bytes": 27228,
+      "sha256": "f6f276de5520c826d4bbad4d760e1a4d96d0dc982ef2a5af5f393a1afd7cdd5b"
+    },
+    "webp/128/rosselli-roundel-third.webp": {
+      "bytes": 27756,
+      "sha256": "a36df11b02a01c168d4c560366a6a7af7da6a52181787588734bc6c0c493d2ac"
+    },
+    "webp/128/rosselli-roundel-top.webp": {
+      "bytes": 28064,
+      "sha256": "5496d3abe3e703cf7bdd648d72816585afb0a3c8658f399e783e6b9a6876ea0f"
+    },
     "webp/128/spiral-ribbon-column.webp": {
       "bytes": 5110,
       "sha256": "bfbddbe5f6e829db01532f87514177181f033c90b06b45331523b8ef7573c051"
+    },
+    "webp/256/aldegrever-paired-tendrils.webp": {
+      "bytes": 38856,
+      "sha256": "cd812cdc2495b48beba4b07c186dedd71eca2f2de111981b95826942f5fe5b11"
     },
     "webp/256/blue-acanthus-and-seed-head-panel-reference.webp": {
       "bytes": 19206,
@@ -1440,6 +2258,18 @@
       "bytes": 18282,
       "sha256": "8ceee7ed55aa71c21e07f49a50cbde7402b8c1dda41a04a578c5d5eb45fca7bf"
     },
+    "webp/256/hoefnagel-strapwork-frame.webp": {
+      "bytes": 78766,
+      "sha256": "08a35a57b476b9cded43e16547ccff41178ee36d4c1a2a5058017e72e7b5fb2f"
+    },
+    "webp/256/hopfer-thistle-panel.webp": {
+      "bytes": 69742,
+      "sha256": "3997b529555f201ceb5211393c442dd76eec81377d00b872c9fdac097280ad2e"
+    },
+    "webp/256/isabella-gold-floral-frame.webp": {
+      "bytes": 58560,
+      "sha256": "b5d6f1e747808710604921326a3e82e9a7ffa8a16bafbf78569515f2620ce90b"
+    },
     "webp/256/painted-sprawling-floral-panel-reference.webp": {
       "bytes": 41064,
       "sha256": "b994245d8aebb076cba91037c1f377f2de748045abfe454324f8564a0cc1023e"
@@ -1472,9 +2302,37 @@
       "bytes": 24334,
       "sha256": "3e1431ac5c431799242f851b5b15d0559f14e08eb0410232daabbd44ef2c59b6"
     },
+    "webp/256/rosselli-foliate-strip.webp": {
+      "bytes": 29032,
+      "sha256": "dde5c60ed56f6f25a3dfd1c967d8c1c38cc44842bf8324e4a3987152ed0ead9e"
+    },
+    "webp/256/rosselli-mask-strip.webp": {
+      "bytes": 27526,
+      "sha256": "abb96cbd1ded1c07bd0595a49beccd0018a129c69be166bf1fc6b743fba6e280"
+    },
+    "webp/256/rosselli-roundel-bottom.webp": {
+      "bytes": 95478,
+      "sha256": "0478f17481eda15cbe4287e765fde2f97b2ed3efcc9f80849167f37c16bd6146"
+    },
+    "webp/256/rosselli-roundel-second.webp": {
+      "bytes": 100970,
+      "sha256": "f7c92fc4d6b826e8933ff96378de498f27f28f30eb88e633c6259a5b5112f95f"
+    },
+    "webp/256/rosselli-roundel-third.webp": {
+      "bytes": 101988,
+      "sha256": "4093609e56d21565a0c028ada0e55c703e4cf04a00e37a846616d23031c94759"
+    },
+    "webp/256/rosselli-roundel-top.webp": {
+      "bytes": 103386,
+      "sha256": "2c1ac5ccb0300a193222a5aa7f984b87ff6e4f6d57b44ab7f76e78ce7d88fd62"
+    },
     "webp/256/spiral-ribbon-column.webp": {
       "bytes": 19528,
       "sha256": "2c1e52ffdc18726ae897e217c0dfec586fc01fc84d7317a378e9037766602d93"
+    },
+    "webp/512/aldegrever-paired-tendrils.webp": {
+      "bytes": 151480,
+      "sha256": "2f3e95918acd0305971175ffab04877c2139fc9ac580304431247a41558b241e"
     },
     "webp/512/butterfly-panel-red.webp": {
       "bytes": 63656,
@@ -1500,6 +2358,18 @@
       "bytes": 60036,
       "sha256": "52033a5cc04bed1fe358ba41aa2225410c82edcef1cf803776950c2981e96df9"
     },
+    "webp/512/hoefnagel-strapwork-frame.webp": {
+      "bytes": 286002,
+      "sha256": "55ffb4cf31f9d0957b5aef2bd0612b9771de8cba7b9c76be187ee738799fe38e"
+    },
+    "webp/512/hopfer-thistle-panel.webp": {
+      "bytes": 273156,
+      "sha256": "8bf0408da28be22627d9bad5262a8b2dd7b520d7b935c8ab8c9a34ceca9e0806"
+    },
+    "webp/512/isabella-gold-floral-frame.webp": {
+      "bytes": 206648,
+      "sha256": "3b8e36699d6c9d918b4f7be2723cfcc421dd79bfed8821f9e5105dd35cbe90e3"
+    },
     "webp/512/painted-sprawling-floral-panel-reference.webp": {
       "bytes": 136112,
       "sha256": "db1ad24a3474c915a19d37d834c50ca4987a6bbab63c374eff2043dd923b998e"
@@ -1524,9 +2394,61 @@
       "bytes": 133796,
       "sha256": "57dfcdd8d375a2719d9aa2b074fad849df27b61965c64080f494453cc1d473c5"
     },
+    "webp/512/rosselli-foliate-strip.webp": {
+      "bytes": 106272,
+      "sha256": "adc1a9ae72e6ce04d88aa8fd3c704080211752fe545f641217c1eb6a07fce8cd"
+    },
+    "webp/512/rosselli-mask-strip.webp": {
+      "bytes": 108136,
+      "sha256": "74a268114cabaa61a39d9bd470be8b6994dec853bd086560e6f99dd411edd66a"
+    },
+    "webp/512/rosselli-roundel-bottom.webp": {
+      "bytes": 342508,
+      "sha256": "1871db9bb28b4988d57b25bf1afba42384428d1544af4433761822755a5433ff"
+    },
+    "webp/512/rosselli-roundel-second.webp": {
+      "bytes": 347360,
+      "sha256": "e5e2e3e9287b91c243babef3bba9caf13004d34b07c7a992c462976600304b0a"
+    },
+    "webp/512/rosselli-roundel-third.webp": {
+      "bytes": 360714,
+      "sha256": "550c6fc984200941f488487fd3abcc6885bdcfffb95c881f43eaa64911dab775"
+    },
+    "webp/512/rosselli-roundel-top.webp": {
+      "bytes": 363926,
+      "sha256": "b400e4820e08758a3e1a45d1a1ea1797204b44bb6c7864bef1a301271e3811f0"
+    },
     "webp/512/spiral-ribbon-column.webp": {
       "bytes": 65738,
       "sha256": "08f0502f90dba0211e5fdd22b032ffc01289ee0ab4bcf3ca3f68eb69d9116221"
+    },
+    "webp/768/aldegrever-paired-tendrils.webp": {
+      "bytes": 338028,
+      "sha256": "a66db2df0988714a63d848090930c0f3a36c30c0e1b36c5638937170feb517cc"
+    },
+    "webp/768/hoefnagel-strapwork-frame.webp": {
+      "bytes": 632024,
+      "sha256": "621945064545f5096f398a3185670171497cdc8a959c991af78332a87ffb9860"
+    },
+    "webp/768/hopfer-thistle-panel.webp": {
+      "bytes": 624048,
+      "sha256": "84c694ef6d3dc719f21aabe939d4965e3095cf3092867d421e799433e931f41c"
+    },
+    "webp/768/isabella-gold-floral-frame.webp": {
+      "bytes": 447284,
+      "sha256": "12228faf97767695fe07166c52a7e9a57e06fa6814c9042979af742173a10a28"
+    },
+    "webp/768/rosselli-foliate-strip.webp": {
+      "bytes": 228542,
+      "sha256": "99acb1b2140b413053be7f6996112226360969522b5ab00a7c71deaa3fa84d21"
+    },
+    "webp/768/rosselli-mask-strip.webp": {
+      "bytes": 239636,
+      "sha256": "74adbc220d581386371ffd44189f16eb949c14efb30396e068f4e190e5d5eb0f"
+    },
+    "webp/aldegrever-paired-tendrils.webp": {
+      "bytes": 1647020,
+      "sha256": "396cd20d925242d4cd622c1f501befc647a4df1fcff2d1c0cb194464f3142c5c"
     },
     "webp/blue-acanthus-and-seed-head-panel-reference.webp": {
       "bytes": 23168,
@@ -1559,6 +2481,18 @@
     "webp/gold-scroll-with-blue-bellflowers.webp": {
       "bytes": 58286,
       "sha256": "00f3e859434624148799a3eb700b1ec81b84c88aa3363592734bdedf2608c0e3"
+    },
+    "webp/hoefnagel-strapwork-frame.webp": {
+      "bytes": 2049320,
+      "sha256": "94752dee3d85c0db2537ff9f70229754edba8d0188d2eabc7c5782163e7e47ab"
+    },
+    "webp/hopfer-thistle-panel.webp": {
+      "bytes": 2129350,
+      "sha256": "0ecf1f8f62090533c66162bd991e628d7deb490cd84dfecc9f215c5e052ccb67"
+    },
+    "webp/isabella-gold-floral-frame.webp": {
+      "bytes": 1398436,
+      "sha256": "8a83a3ce91a8f9be49fce34fb20eb55a2eae374e1a5fc3bd81a219d05ef69a26"
     },
     "webp/painted-sprawling-floral-panel-reference.webp": {
       "bytes": 244876,
@@ -1615,6 +2549,30 @@
     "webp/plate-37-diamond-scroll.webp": {
       "bytes": 24076,
       "sha256": "faf8bc0b3ee26527800a3cb21eb6ee8cc0f3a43fa53e6511b5b52d747a59f553"
+    },
+    "webp/rosselli-foliate-strip.webp": {
+      "bytes": 693510,
+      "sha256": "2c4efbf31f83f4783c39982721e10e31bb0850e9b14d5e11853f52e1e82e6d1e"
+    },
+    "webp/rosselli-mask-strip.webp": {
+      "bytes": 685338,
+      "sha256": "f247d8156569f587f653d3024e8c0c955ef5df63aa532bc1f4b3b362f4b73cc7"
+    },
+    "webp/rosselli-roundel-bottom.webp": {
+      "bytes": 481222,
+      "sha256": "ca92e1a6e0dda60184f62cf9e9ffa59b77948dbc115860ebe745fd912c04e2d3"
+    },
+    "webp/rosselli-roundel-second.webp": {
+      "bytes": 486680,
+      "sha256": "a744354516d8a91507c7fbd814bfcf15c8f41c15bfdd9847560a7d66977b4e37"
+    },
+    "webp/rosselli-roundel-third.webp": {
+      "bytes": 508420,
+      "sha256": "edd8c2f7a6968dce243edb0554fb27595a5f69a57cb73810903e334b099ee505"
+    },
+    "webp/rosselli-roundel-top.webp": {
+      "bytes": 507656,
+      "sha256": "cc1a8fad76df6041457c55fcdac7b1b3e4e636a0805f94102fd7340b7cebdb0d"
     },
     "webp/spiral-ribbon-column.webp": {
       "bytes": 97970,
@@ -1693,6 +2651,46 @@
     "sources/traces/plate-37-diamond-scroll.svg": {
       "bytes": 288515,
       "sha256": "cfb38f732363b6c2516f9e037f4cb0bc27a7f5f4caf14e2c3ea7f5b5315499fc"
+    },
+    "sources/tiles/aldegrever-paired-tendrils.png": {
+      "bytes": 3578175,
+      "sha256": "afae54c5b7f3ba4e562928ba671d613a4bf5e51332eecb7611becd0d86cf5f09"
+    },
+    "sources/tiles/hoefnagel-strapwork-frame.png": {
+      "bytes": 3144449,
+      "sha256": "da3be7afb9b2d0883328bc8ac440f1878c791231566207acf5bb0491d1ec36c4"
+    },
+    "sources/tiles/hopfer-thistle-panel.png": {
+      "bytes": 4110070,
+      "sha256": "c76f59c853a42041324df863144cd89e5478e0df45e1b1fc919c486dc4eb7f4d"
+    },
+    "sources/tiles/isabella-gold-floral-frame.png": {
+      "bytes": 2011403,
+      "sha256": "f65ee94d3918ad0888344579a77d47c54e0f2b360f3eb81c018dd848fcbd9825"
+    },
+    "sources/tiles/rosselli-foliate-strip.png": {
+      "bytes": 1844416,
+      "sha256": "4f43259c27b595152498e7f4971f02d285e6005be8c5a9e0eb22f8094ec36b54"
+    },
+    "sources/tiles/rosselli-mask-strip.png": {
+      "bytes": 1906640,
+      "sha256": "f00b29170fe1184d1078eb50f8b15574efc029f92f8f1f860951bc53dfc9ea23"
+    },
+    "sources/tiles/rosselli-roundel-bottom.png": {
+      "bytes": 2741134,
+      "sha256": "9b05e767322803a157da523c8b8a1b9a8766707e153336a019006f5749f84bdc"
+    },
+    "sources/tiles/rosselli-roundel-second.png": {
+      "bytes": 2765485,
+      "sha256": "694733df3a725b5e42961f6b382c7f255dfb5336ab07562867da71dc92663a91"
+    },
+    "sources/tiles/rosselli-roundel-third.png": {
+      "bytes": 2803182,
+      "sha256": "ddc8c9aadc822f31bafff679db06a1aa992a994edd1e6c0199583289ad085794"
+    },
+    "sources/tiles/rosselli-roundel-top.png": {
+      "bytes": 2933825,
+      "sha256": "2a2fe3cc7c1a8301e7d3630e04ac84fd262f384c5b29a0ff542ecf95522ce2a4"
     }
   }
 }

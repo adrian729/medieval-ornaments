@@ -9,7 +9,12 @@ import { resourceFile } from './resource-store.mjs';
 const pkg=JSON.parse(await readFile(new URL('packages/assets/package.json',root)));
 const illustrationPkg=JSON.parse(await readFile(new URL('packages/illustration-assets/package.json',root)));
 if(pkg.dependencies?.[illustrationPkg.name]!==illustrationPkg.version)throw Error('Full artwork package must pin its illustration dependency.');
-const items=await assetCatalog(),catalog=catalogBytes(items);
+const approvedManifest=JSON.parse(await readFile(new URL('assets-manifest.json',root),'utf8'));
+const current=await assetCatalog();
+// Ordinary staging reproduces the immutable optional snapshot. Only an explicit
+// reviewed manifest update includes new numbered artwork and advances archives.
+const items=process.argv.includes('--update-manifest')?current:current.filter(item=>assetPaths([item]).every(relative=>Object.hasOwn(approvedManifest.files,relative)));
+const catalog=catalogBytes(items);
 const illustrationPaths=new Set(assetPaths(items.filter(item=>item.asset_type==='illustration')));
 const hash=bytes=>createHash('sha256').update(bytes).digest('hex');
 const files={};

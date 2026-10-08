@@ -1,7 +1,7 @@
 # Illustrations and autonomous selection
 
 The collection includes 41 manuscript-style illustrations migrated from
-medieval-cutouts, alongside 56 repeating borders and 14 whole decorations.
+medieval-cutouts, alongside later additions, for 55 illustrations, 58 repeating borders and 24 whole decorations.
 Illustrations can ornament a page, but they remain distinct catalog types.
 Their descriptions, categories, subjects, facing, colors and composition are
 preserved from the reviewed cutout catalog. No illustration was redrawn,
@@ -12,7 +12,7 @@ traced, resized or re-encoded during migration.
 In an existing React or vanilla application, install the lightweight runtime:
 
 ```sh
-npm install @ranx729/medieval-ornaments@0.7.1
+npm install @ranx729/medieval-ornaments@0.8.0
 ```
 
 React applications also need their own React dependency. **Individual imports
@@ -69,7 +69,7 @@ Defaults remain eager loading, automatic decoding/priority and 2× density.
 ## Copy only selected code and artwork
 
 ```sh
-npx @ranx729/medieval-ornaments@0.7.1 add flying-pig rabbit-reading-book
+npx @ranx729/medieval-ornaments@0.8.0 add flying-pig rabbit-reading-book
 ```
 
 This writes editable React modules under `src/ornaments/` and only their verified
@@ -94,8 +94,8 @@ For illustration-only offline copying, first install the runtime/CLI and the
 data-only archive while connected, then copy locally:
 
 ```sh
-npm install @ranx729/medieval-ornaments@0.7.1
-npm install --save-dev @ranx729/medieval-ornaments-assets-illustrations-001@0.1.1
+npm install @ranx729/medieval-ornaments@0.8.0
+npm install --save-dev @ranx729/medieval-ornaments-assets-illustrations-001@0.1.2
 npx --no-install medieval-ornaments copy-assets public/ornaments \
   --design flying-pig --offline
 ```
@@ -107,7 +107,7 @@ generator; `--offline` prevents artwork requests. Then use
 serve `public/ornaments/` at `/ornaments/`; adjust that URL for deployments under
 a subpath. Copying files does not switch the default CDN URL automatically.
 
-The numbered illustration resource contains 406 PNG/WebP files independently
+The numbered illustration resource contains 520 PNG/WebP files independently
 of borders/decorations. npm installs that entire resource package; the copy
 command extracts only selected designs. This is an optional offline workflow.
 The old `@ranx729/medieval-ornaments-illustration-assets@0.1.0` archive remains a
@@ -230,6 +230,12 @@ React/vanilla demos accept every illustration in the whole-image picker.
   belongs here. This was an allowlisted file migration, without rewriting either
   repository's Git history or committing unrelated workspace files.
 
+`polyhymnia` is a user-supplied modern AI illustration retained as a complete
+framed scene. Its original input hash and exact generation prompt are recorded
+in `illustration-additions.json`; no historical source attribution is inferred.
+The corrected native 1004×1567 master has lossless PNG/WebP exports and 128/256/512/768
+variants in illustrations-001. The painted frame and landscape remain intact.
+
 Example new entry (replace the name and description/tags with the inspected
 artwork's actual details; omit provenance fields when unknown):
 
@@ -258,9 +264,10 @@ After adding or changing metadata/artwork, refresh and validate the catalog:
 .venv/bin/python scripts/check_illustration_build.py
 ```
 
-Then advance both artwork revisions/dependency as described above, generate the
-new manifest with `npm run build:assets -- --update-manifest`, and run
-`npm run build` to synchronize all public catalogs, individual entries and types.
+Assign and approve the affected numbered resource revision as described in
+[RESOURCES.md](RESOURCES.md), then run `npm run build` to synchronize public
+catalogs, individual entries and types. The legacy archives are optional,
+immutable snapshots; new numbered artwork does not require refreshing them.
 Inspect the actual illustration at its intended sizes and backgrounds. The
 migration hash regression deliberately protects imported artwork; an intentional
 correction also needs a separate documented revision and an updated regression
@@ -270,3 +277,39 @@ The original bytes, metadata snapshot and hashes make the merge auditable. New
 artwork corrections need their own source/method record; do not silently rewrite
 the migration snapshot or claim AI extractions are exact source crops. Artwork
 rights remain separate from the integration software; see [LICENSE](../LICENSE).
+
+## Historical additions reviewed 2026-10-08
+
+The local catalog has 23 new assets: 13 illustrations and 10 whole decorations.
+Twenty-two are AI-assisted extractions from historical objects with CC0 or
+public-domain museum reproductions. The rabbit riding a hound is an explicitly
+modern, independently composed interpretation of a documented marginal motif;
+the restricted Fitzwilliam image was not imported or edited.
+
+[historical-additions.json](../historical-additions.json) records nine untouched
+source images and their hashes, each chosen region, exact edit prompt, retained
+native result, source-resolution export cap and individual visual review.
+[The candidate tracker](source-candidates.json) links all ten object records to
+their resulting assets. New master entries carry optional `provenance`; it is
+preserved in JSON, scoped/individual metadata, copied components and TypeScript.
+The browser shows source links and searches institutions, artists and object
+identifiers. The existing 111 entries have no provenance backfill.
+
+Rosselli's sheet yields two whole strips and four individual roundels.
+Isabella's illumination yields its fixed gold frame and five separate figures
+(two butterflies, a bird, a rose and a blue flower). Hoefnagel's page yields two
+separate roses, its touching apple halves as one composition and a fixed penwork
+frame. The elephant, rabbit/church and engraved panels retain their connected
+compositions. These 23 assets remain whole images. Two additional borders,
+`rosselli-mask-border` and `rosselli-foliate-border`, use verified interior cycles
+from the approved strips. Their native PNG/WebP units retain the alternating
+motifs; only a two-pixel join collar is adjusted. The original strips stay
+unchanged. Corners are modern AI-assisted foliate adaptations of the same artwork, with a
+phase-matched atlas for `round` fitting. No SVG redraw is supplied. Bounds,
+hashes and repeat evidence are in `historical-border-patterns.json`.
+
+Use the main browser with `?assets=local` for unpublished authoring previews.
+The three affected resource revisions are prepared at 0.1.2; exact source commits,
+npm/CDN verification and runtime publication remain release work. README keeps
+existing published previews and marks new rows pending until the source locks
+are complete. Release packing continues to reject missing commit pins.

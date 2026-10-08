@@ -21,9 +21,21 @@ def illustrations():
 def enrich(catalog, measure=None):
     previous={item['name']:item for item in json.loads((ROOT/'images.json').read_text())}
     overrides = json.loads((ROOT / 'selection-metadata.json').read_text())
-    master = ROOT / 'illustrations.json'
-    authored_notes = {item['name']: item.get('usage_notes', []) for item in json.loads(master.read_text())} if master.exists() else {}
+    authored_notes = {}
+    authored_origins = {}
+    for filename in ['illustrations.json', 'raster-metadata.json', 'historical-border-patterns.json']:
+        master = ROOT / filename
+        if master.exists():
+            items = json.loads(master.read_text())
+            authored_notes.update({item['name']: item.get('usage_notes', []) for item in items})
+            authored_origins.update({item['name']: item.get('provenance') for item in items})
     for item in catalog:
+        if item['name'] in authored_origins:
+            origin = authored_origins[item['name']]
+            if origin is not None:
+                item['provenance'] = origin
+            else:
+                item.pop('provenance', None)
         facts = overrides.get(item['name'], {})
         if facts.get('description'):
             item['description'] = facts['description']
@@ -49,6 +61,9 @@ def enrich(catalog, measure=None):
         elif item['derivation'] == 'ai-assisted-extraction':
             notes.append('AI-assisted extraction can reinterpret details; this is not a pixel-exact historical crop.')
         item['usage_notes'] = list(dict.fromkeys(notes))
+    # Additions must not move or rewrite the established historical entries.
+    order = {name: index for index, name in enumerate(previous)}
+    catalog.sort(key=lambda item: order.get(item['name'], len(order)))
     return catalog
 
 

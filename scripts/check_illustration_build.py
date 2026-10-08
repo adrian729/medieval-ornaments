@@ -27,6 +27,8 @@ def check():
         for name in ['images.json','raster-metadata.json','source-patterns.json','additional-patterns.json',
                      'reference-crops.json','illustrations.json','illustration-import.json','selection-metadata.json','images.schema.json']:
             shutil.copy2(ROOT/name,fixture/name)
+        if (ROOT/'historical-border-patterns.json').exists():
+            shutil.copy2(ROOT/'historical-border-patterns.json',fixture/'historical-border-patterns.json')
         for relative in paths|{path.relative_to(ROOT).as_posix() for path in (ROOT/'png').glob('*.png')}:
             target=fixture/relative;target.parent.mkdir(parents=True,exist_ok=True)
             shutil.copy2(ROOT/relative,target)

@@ -3,7 +3,7 @@
   "id": "borders-001",
   "collection": "borders",
   "package": "@ranx729/medieval-ornaments-assets-borders-001",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "designs": {
     "blue-alternating-leaf-vine": {
       "name": "blue-alternating-leaf-vine",
@@ -7337,6 +7337,366 @@
         "png"
       ]
     },
+    "rosselli-foliate-border": {
+      "name": "rosselli-foliate-border",
+      "asset_type": "border",
+      "kind": "repeat-tile",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "y",
+      "repeat_ratio": 1.5985401459854014,
+      "border_image_slice_percent": 27.789046653144016,
+      "width": 274,
+      "height": 438,
+      "png": "png/rosselli-foliate-border.png",
+      "webp": "webp/rosselli-foliate-border.webp",
+      "png_bytes": 309999,
+      "webp_bytes": 214392,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/rosselli-foliate-border.png",
+          "webp": "webp/128/rosselli-foliate-border.webp",
+          "width": 80,
+          "height": 128,
+          "png_bytes": 33148,
+          "webp_bytes": 22328
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/rosselli-foliate-border.png",
+          "webp": "webp/256/rosselli-foliate-border.webp",
+          "width": 160,
+          "height": 256,
+          "png_bytes": 119119,
+          "webp_bytes": 83236
+        }
+      ],
+      "components": {
+        "corner": {
+          "png": "png/rosselli-foliate-border-corner.png",
+          "webp": "webp/rosselli-foliate-border-corner.webp",
+          "width": 274,
+          "height": 274,
+          "png_bytes": 193624,
+          "webp_bytes": 130860,
+          "variants": [
+            {
+              "max_dimension": 128,
+              "rendered_max_dimension": 128,
+              "png": "png/128/rosselli-foliate-border-corner.png",
+              "webp": "webp/128/rosselli-foliate-border-corner.webp",
+              "width": 128,
+              "height": 128,
+              "png_bytes": 47123,
+              "webp_bytes": 34086
+            },
+            {
+              "max_dimension": 256,
+              "rendered_max_dimension": 256,
+              "png": "png/256/rosselli-foliate-border-corner.png",
+              "webp": "webp/256/rosselli-foliate-border-corner.webp",
+              "width": 256,
+              "height": 256,
+              "png_bytes": 173001,
+              "webp_bytes": 118306
+            }
+          ]
+        },
+        "border_image": {
+          "png": "png/rosselli-foliate-border-border.png",
+          "webp": "webp/rosselli-foliate-border-border.webp",
+          "width": 986,
+          "height": 986,
+          "png_bytes": 1995107,
+          "webp_bytes": 1415284,
+          "variants": [
+            {
+              "max_dimension": 512,
+              "rendered_max_dimension": 493,
+              "png": "png/512/rosselli-foliate-border-border.png",
+              "webp": "webp/512/rosselli-foliate-border-border.webp",
+              "width": 493,
+              "height": 493,
+              "png_bytes": 568501,
+              "webp_bytes": 395550
+            },
+            {
+              "max_dimension": 768,
+              "rendered_max_dimension": 493,
+              "png": "png/768/rosselli-foliate-border-border.png",
+              "webp": "webp/768/rosselli-foliate-border-border.webp",
+              "width": 493,
+              "height": 493,
+              "png_bytes": 568501,
+              "webp_bytes": 395550
+            }
+          ],
+          "slice_pixels": 274
+        },
+        "rotated_tile": {
+          "png": "png/rosselli-foliate-border-rotated.png",
+          "webp": "webp/rosselli-foliate-border-rotated.webp",
+          "width": 438,
+          "height": 274,
+          "png_bytes": 308504,
+          "webp_bytes": 213970,
+          "variants": [
+            {
+              "max_dimension": 128,
+              "rendered_max_dimension": 128,
+              "png": "png/128/rosselli-foliate-border-rotated.png",
+              "webp": "webp/128/rosselli-foliate-border-rotated.webp",
+              "width": 128,
+              "height": 80,
+              "png_bytes": 32799,
+              "webp_bytes": 22278
+            },
+            {
+              "max_dimension": 256,
+              "rendered_max_dimension": 256,
+              "png": "png/256/rosselli-foliate-border-rotated.png",
+              "webp": "webp/256/rosselli-foliate-border-rotated.webp",
+              "width": 256,
+              "height": 160,
+              "png_bytes": 118082,
+              "webp_bytes": 81762
+            }
+          ],
+          "repeat_axis": "x",
+          "repeat_ratio": 1.5985401459854014
+        },
+        "reference_crop": {
+          "png": "png/rosselli-foliate-border-reference.png",
+          "webp": "webp/rosselli-foliate-border-reference.webp",
+          "width": 274,
+          "height": 438,
+          "png_bytes": 309703,
+          "webp_bytes": 214178,
+          "variants": [
+            {
+              "max_dimension": 128,
+              "rendered_max_dimension": 128,
+              "png": "png/128/rosselli-foliate-border-reference.png",
+              "webp": "webp/128/rosselli-foliate-border-reference.webp",
+              "width": 80,
+              "height": 128,
+              "png_bytes": 33149,
+              "webp_bytes": 22300
+            },
+            {
+              "max_dimension": 256,
+              "rendered_max_dimension": 256,
+              "png": "png/256/rosselli-foliate-border-reference.png",
+              "webp": "webp/256/rosselli-foliate-border-reference.webp",
+              "width": 160,
+              "height": 256,
+              "png_bytes": 119071,
+              "webp_bytes": 83246
+            }
+          ]
+        }
+      },
+      "uses": [
+        "frame",
+        "divider"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "rosselli-mask-border": {
+      "name": "rosselli-mask-border",
+      "asset_type": "border",
+      "kind": "repeat-tile",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "y",
+      "repeat_ratio": 1.0740740740740742,
+      "border_image_slice_percent": 32.53012048192771,
+      "width": 270,
+      "height": 290,
+      "png": "png/rosselli-mask-border.png",
+      "webp": "webp/rosselli-mask-border.webp",
+      "png_bytes": 208323,
+      "webp_bytes": 140584,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/rosselli-mask-border.png",
+          "webp": "webp/128/rosselli-mask-border.webp",
+          "width": 119,
+          "height": 128,
+          "png_bytes": 46263,
+          "webp_bytes": 32772
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/rosselli-mask-border.png",
+          "webp": "webp/256/rosselli-mask-border.webp",
+          "width": 238,
+          "height": 256,
+          "png_bytes": 169067,
+          "webp_bytes": 114982
+        }
+      ],
+      "components": {
+        "corner": {
+          "png": "png/rosselli-mask-border-corner.png",
+          "webp": "webp/rosselli-mask-border-corner.webp",
+          "width": 270,
+          "height": 270,
+          "png_bytes": 197671,
+          "webp_bytes": 130682,
+          "variants": [
+            {
+              "max_dimension": 128,
+              "rendered_max_dimension": 128,
+              "png": "png/128/rosselli-mask-border-corner.png",
+              "webp": "webp/128/rosselli-mask-border-corner.webp",
+              "width": 128,
+              "height": 128,
+              "png_bytes": 50184,
+              "webp_bytes": 35782
+            },
+            {
+              "max_dimension": 256,
+              "rendered_max_dimension": 256,
+              "png": "png/256/rosselli-mask-border-corner.png",
+              "webp": "webp/256/rosselli-mask-border-corner.webp",
+              "width": 256,
+              "height": 256,
+              "png_bytes": 181822,
+              "webp_bytes": 121964
+            }
+          ]
+        },
+        "border_image": {
+          "png": "png/rosselli-mask-border-border.png",
+          "webp": "webp/rosselli-mask-border-border.webp",
+          "width": 830,
+          "height": 830,
+          "png_bytes": 1588583,
+          "webp_bytes": 1091582,
+          "variants": [
+            {
+              "max_dimension": 128,
+              "rendered_max_dimension": 83,
+              "png": "png/128/rosselli-mask-border-border.png",
+              "webp": "webp/128/rosselli-mask-border-border.webp",
+              "width": 83,
+              "height": 83,
+              "png_bytes": 20748,
+              "webp_bytes": 13872
+            },
+            {
+              "max_dimension": 256,
+              "rendered_max_dimension": 249,
+              "png": "png/256/rosselli-mask-border-border.png",
+              "webp": "webp/256/rosselli-mask-border-border.webp",
+              "width": 249,
+              "height": 249,
+              "png_bytes": 173168,
+              "webp_bytes": 114896
+            },
+            {
+              "max_dimension": 512,
+              "rendered_max_dimension": 498,
+              "png": "png/512/rosselli-mask-border-border.png",
+              "webp": "webp/512/rosselli-mask-border-border.webp",
+              "width": 498,
+              "height": 498,
+              "png_bytes": 633934,
+              "webp_bytes": 432390
+            },
+            {
+              "max_dimension": 768,
+              "rendered_max_dimension": 747,
+              "png": "png/768/rosselli-mask-border-border.png",
+              "webp": "webp/768/rosselli-mask-border-border.webp",
+              "width": 747,
+              "height": 747,
+              "png_bytes": 1336844,
+              "webp_bytes": 920752
+            }
+          ],
+          "slice_pixels": 270
+        },
+        "rotated_tile": {
+          "png": "png/rosselli-mask-border-rotated.png",
+          "webp": "webp/rosselli-mask-border-rotated.webp",
+          "width": 290,
+          "height": 270,
+          "png_bytes": 207736,
+          "webp_bytes": 140372,
+          "variants": [
+            {
+              "max_dimension": 128,
+              "rendered_max_dimension": 128,
+              "png": "png/128/rosselli-mask-border-rotated.png",
+              "webp": "webp/128/rosselli-mask-border-rotated.webp",
+              "width": 128,
+              "height": 119,
+              "png_bytes": 45942,
+              "webp_bytes": 32674
+            },
+            {
+              "max_dimension": 256,
+              "rendered_max_dimension": 256,
+              "png": "png/256/rosselli-mask-border-rotated.png",
+              "webp": "webp/256/rosselli-mask-border-rotated.webp",
+              "width": 256,
+              "height": 238,
+              "png_bytes": 168293,
+              "webp_bytes": 114592
+            }
+          ],
+          "repeat_axis": "x",
+          "repeat_ratio": 1.0740740740740742
+        },
+        "reference_crop": {
+          "png": "png/rosselli-mask-border-reference.png",
+          "webp": "webp/rosselli-mask-border-reference.webp",
+          "width": 270,
+          "height": 290,
+          "png_bytes": 208070,
+          "webp_bytes": 140050,
+          "variants": [
+            {
+              "max_dimension": 128,
+              "rendered_max_dimension": 128,
+              "png": "png/128/rosselli-mask-border-reference.png",
+              "webp": "webp/128/rosselli-mask-border-reference.webp",
+              "width": 119,
+              "height": 128,
+              "png_bytes": 46229,
+              "webp_bytes": 32786
+            },
+            {
+              "max_dimension": 256,
+              "rendered_max_dimension": 256,
+              "png": "png/256/rosselli-mask-border-reference.png",
+              "webp": "webp/256/rosselli-mask-border-reference.webp",
+              "width": 238,
+              "height": 256,
+              "png_bytes": 168950,
+              "webp_bytes": 115018
+            }
+          ]
+        }
+      },
+      "uses": [
+        "frame",
+        "divider"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
     "russet-floral-vine-with-bud-borders": {
       "name": "russet-floral-vine-with-bud-borders",
       "asset_type": "border",
@@ -8319,6 +8679,42 @@
       "bytes": 6284,
       "sha256": "7085311621b33b1153d3823ec463a3bac3168338084ac50a514a600bb6fdb47b"
     },
+    "png/128/rosselli-foliate-border-corner.png": {
+      "bytes": 47123,
+      "sha256": "18026956104bb94ff2ab9b49499d7b78ca1f85d15f01f1fa6a9aa6d17b1b919c"
+    },
+    "png/128/rosselli-foliate-border-reference.png": {
+      "bytes": 33149,
+      "sha256": "a0aaeb627c34f27da69a88952b3a5e77acc089b616cffc9ce1976cae884f822f"
+    },
+    "png/128/rosselli-foliate-border-rotated.png": {
+      "bytes": 32799,
+      "sha256": "e3f61ea115be32a0ca303675b08c689aab774521cd9b1317ff926aec3e99661e"
+    },
+    "png/128/rosselli-foliate-border.png": {
+      "bytes": 33148,
+      "sha256": "e28ffba9945d3853c7405010981c58113c532ac727e0cae29d3ed68f3ec3ad41"
+    },
+    "png/128/rosselli-mask-border-border.png": {
+      "bytes": 20748,
+      "sha256": "a3e06bfc17e8b3542f542ca54658b3583b14fed26c6ca04ece18bff23fac7ab5"
+    },
+    "png/128/rosselli-mask-border-corner.png": {
+      "bytes": 50184,
+      "sha256": "fa19470c42a21085d2d0ac34f6b4c99c9366717b44fb61aa1f310f459064d8bf"
+    },
+    "png/128/rosselli-mask-border-reference.png": {
+      "bytes": 46229,
+      "sha256": "8fe3077fa34edea2dd79afa256ac5b7b11e961bd45273058c2fc66526b242a09"
+    },
+    "png/128/rosselli-mask-border-rotated.png": {
+      "bytes": 45942,
+      "sha256": "d96ecd5fc6af706d0d75b92c66df3716c944363bb9129d6588ce9297ece415c4"
+    },
+    "png/128/rosselli-mask-border.png": {
+      "bytes": 46263,
+      "sha256": "efda217139164bb5600927d084fb5ca67a806bfaa1e3ff2ebf1074c0853aa31c"
+    },
     "png/128/russet-floral-vine-with-bud-borders-corner.png": {
       "bytes": 45284,
       "sha256": "b82c39b68655645845c06d930c4f2efae415c90941dfd1b1633508d2e86520d2"
@@ -8559,6 +8955,42 @@
       "bytes": 16198,
       "sha256": "95fba9234e94666f2c0504e4fe7d6a244b5c9f326face105d1f3d97b21b800a0"
     },
+    "png/256/rosselli-foliate-border-corner.png": {
+      "bytes": 173001,
+      "sha256": "a5e16439deb94e4f465ab50d161e8a3342f958fea3ca1a1031f5e44aa67e6bcd"
+    },
+    "png/256/rosselli-foliate-border-reference.png": {
+      "bytes": 119071,
+      "sha256": "e6b9e095185641b82d8c11e1ea530383433da1060f5f217445d05b83bd1eb81c"
+    },
+    "png/256/rosselli-foliate-border-rotated.png": {
+      "bytes": 118082,
+      "sha256": "189e50ea73f2815fdf188a29614bae56ad9a4e2cb57150339dcb87084898e946"
+    },
+    "png/256/rosselli-foliate-border.png": {
+      "bytes": 119119,
+      "sha256": "eddab3ca50b6d29a0d1b39e3040d7dfe40635516180e550d26ca6f32fb80ffa5"
+    },
+    "png/256/rosselli-mask-border-border.png": {
+      "bytes": 173168,
+      "sha256": "4ee6771bb2fe423604bdbed4b8565cb0f27bd1095daf56595b54aeb26c812613"
+    },
+    "png/256/rosselli-mask-border-corner.png": {
+      "bytes": 181822,
+      "sha256": "6f3196953ea62df5c8c9ee446da876ab89124f4d1ca7149256281ff4b4b26e39"
+    },
+    "png/256/rosselli-mask-border-reference.png": {
+      "bytes": 168950,
+      "sha256": "3faceef5e01e54cc408af1c740b95615ddb9ca0a1ee3f505346d193f166691a4"
+    },
+    "png/256/rosselli-mask-border-rotated.png": {
+      "bytes": 168293,
+      "sha256": "6c15bf29e2c046ef3d620454a7efca148800a65b38ebc56178569d802e54dec7"
+    },
+    "png/256/rosselli-mask-border.png": {
+      "bytes": 169067,
+      "sha256": "bb0149fb4f5a5041ee01fc3f5d2c959ade8e84033f8213142ff26caa043ebe6e"
+    },
     "png/256/russet-floral-vine-with-bud-borders-corner.png": {
       "bytes": 171392,
       "sha256": "48abdcb75841e871f29ad9c8b30ce4b7075db83233735d3d4725fa32a1b23d2e"
@@ -8699,6 +9131,14 @@
       "bytes": 42911,
       "sha256": "b24d9a28a89f16be62d04973aee4a308124e8ce3872a71451a34965b2c36ed3c"
     },
+    "png/512/rosselli-foliate-border-border.png": {
+      "bytes": 568501,
+      "sha256": "0ba7b032e2cd1fe5744502134ad38a53a8d21f487b1eb4ea4bf3f6efc7bd0bfc"
+    },
+    "png/512/rosselli-mask-border-border.png": {
+      "bytes": 633934,
+      "sha256": "4a296cbbe999fe596cd6604eefe6462159a12ddb0c1d0424afe9936ac49147b6"
+    },
     "png/512/russet-floral-vine-with-bud-borders-reference.png": {
       "bytes": 222017,
       "sha256": "344c20ee41ddc4e763f48e4e903a1462c4450123aabfb2970e1f7f24a373e0c0"
@@ -8822,6 +9262,14 @@
     "png/768/red-trefoil-vine.png": {
       "bytes": 70812,
       "sha256": "62c3aefd9319dfc6c4c5f63be94543dfe4c749aadb22cf45fe849a256adf6481"
+    },
+    "png/768/rosselli-foliate-border-border.png": {
+      "bytes": 568501,
+      "sha256": "0ba7b032e2cd1fe5744502134ad38a53a8d21f487b1eb4ea4bf3f6efc7bd0bfc"
+    },
+    "png/768/rosselli-mask-border-border.png": {
+      "bytes": 1336844,
+      "sha256": "df7031a207139c6610b1afd68320c093133ce2ae69c55d4a8938bcc8f0f66f58"
     },
     "png/768/russet-floral-vine-with-bud-borders-reference.png": {
       "bytes": 482482,
@@ -9870,6 +10318,46 @@
     "png/red-trefoil-vine.png": {
       "bytes": 55279,
       "sha256": "60de2f12a32540a47b91ca7a6a84c63c2d3f3e45f2fe8135ed5f49e659729f60"
+    },
+    "png/rosselli-foliate-border-border.png": {
+      "bytes": 1995107,
+      "sha256": "0135d687932548d12a32f789d94f57292cc652c8b7f9f7dff388e1036e8a8322"
+    },
+    "png/rosselli-foliate-border-corner.png": {
+      "bytes": 193624,
+      "sha256": "3b6ccec48e3f036cc7d8030993b103a6f5ff4a1c76245898b2ac0ba7ddf1337c"
+    },
+    "png/rosselli-foliate-border-reference.png": {
+      "bytes": 309703,
+      "sha256": "d3651a6ddbb2834fe26bb9b1402c966ae4523a511cf07f70b22c3950bbfcfd04"
+    },
+    "png/rosselli-foliate-border-rotated.png": {
+      "bytes": 308504,
+      "sha256": "54d2b74f2311346dae34b320b74ebe8b18eda5a825526bfa39242a742fcf99b3"
+    },
+    "png/rosselli-foliate-border.png": {
+      "bytes": 309999,
+      "sha256": "b8b83e7f3eb389915301511723269545f989a28f84da2caee3f1a1b700442e59"
+    },
+    "png/rosselli-mask-border-border.png": {
+      "bytes": 1588583,
+      "sha256": "d25a8efb8deaf710da95ad6746033387f6d798142a445c03bb2a71fdb8009fa2"
+    },
+    "png/rosselli-mask-border-corner.png": {
+      "bytes": 197671,
+      "sha256": "172b117cedf10838d3ab732f9cf03a09afa46618fc1472c191799542133e9711"
+    },
+    "png/rosselli-mask-border-reference.png": {
+      "bytes": 208070,
+      "sha256": "2b6c8869631b4da1d8fef65c930aa5c7c2e253f9693b054f24f799c2526859f2"
+    },
+    "png/rosselli-mask-border-rotated.png": {
+      "bytes": 207736,
+      "sha256": "f87d302363f8c611dc4e2ac0a4ba6c6297dbb05d40736403cf48b0c82b830adb"
+    },
+    "png/rosselli-mask-border.png": {
+      "bytes": 208323,
+      "sha256": "58bcd3b72722f5493279ff41b95a1502dfdd4df9f6bbee5153200c00995dceed"
     },
     "png/russet-floral-vine-with-bud-borders-border.png": {
       "bytes": 2919818,
@@ -11235,6 +11723,42 @@
       "bytes": 4116,
       "sha256": "593159d34c585fd5faf3109844dfcc71e5f29048aadadc027af52876972c1611"
     },
+    "webp/128/rosselli-foliate-border-corner.webp": {
+      "bytes": 34086,
+      "sha256": "9267f987550396cabfa1345969e272f38af5edb2b2ccd8c9d97a18bd70a7e12f"
+    },
+    "webp/128/rosselli-foliate-border-reference.webp": {
+      "bytes": 22300,
+      "sha256": "0fe859f49189bb92a4891a8aac4c438cb470d7b30774c8cbefe70561efea468f"
+    },
+    "webp/128/rosselli-foliate-border-rotated.webp": {
+      "bytes": 22278,
+      "sha256": "4ae3d09f70c747d1d8c056134090d6c8b3926f63b28c474ba644b87096b1878b"
+    },
+    "webp/128/rosselli-foliate-border.webp": {
+      "bytes": 22328,
+      "sha256": "233a81235dde045e0b6bf753a2f2ecbd8848f2980380f509cd8afc01e249171a"
+    },
+    "webp/128/rosselli-mask-border-border.webp": {
+      "bytes": 13872,
+      "sha256": "d54529b1dc272b36a8c2bea712e3977c0d0916f291ee22a64f831b0124a0c46f"
+    },
+    "webp/128/rosselli-mask-border-corner.webp": {
+      "bytes": 35782,
+      "sha256": "9e2999b786b88ac05475fac0a05ea2f73ed06ebe16a4cf83cf4709542b403e42"
+    },
+    "webp/128/rosselli-mask-border-reference.webp": {
+      "bytes": 32786,
+      "sha256": "a9ddbbfa564ca564b92c0bb338ee57d239c18b6193a5f0b585075ef19c75e153"
+    },
+    "webp/128/rosselli-mask-border-rotated.webp": {
+      "bytes": 32674,
+      "sha256": "05edce273abd42fcaa5d6669a0a17918038b8fb8c141f7fa7bacc057f8c85152"
+    },
+    "webp/128/rosselli-mask-border.webp": {
+      "bytes": 32772,
+      "sha256": "e3c304e5e340ba97b03873a969ee4ae85d353e0193eb31e58bad9952de68ef73"
+    },
     "webp/128/russet-floral-vine-with-bud-borders-corner.webp": {
       "bytes": 30168,
       "sha256": "667fab36fe5c88ce64bac7856c479fa47fb206410475a2e04a76b80d3805d5cb"
@@ -11475,6 +11999,42 @@
       "bytes": 8536,
       "sha256": "1a1d75ed199338f41206f86f0982dc3cdb249f3b04c143a55ed3062069f84d4f"
     },
+    "webp/256/rosselli-foliate-border-corner.webp": {
+      "bytes": 118306,
+      "sha256": "9376ee26141d97c953714db2ad492203b0c209c6c4b7c5aab7c45c5a8efeb3c3"
+    },
+    "webp/256/rosselli-foliate-border-reference.webp": {
+      "bytes": 83246,
+      "sha256": "97aa583ee4c2707a58da390ee71dcd1b8d3e81682511cd37f948c21e3807b8f2"
+    },
+    "webp/256/rosselli-foliate-border-rotated.webp": {
+      "bytes": 81762,
+      "sha256": "d9988ca7467498b3b6605f6db97782e2c689ca97784a8c3fa85dcb2257767959"
+    },
+    "webp/256/rosselli-foliate-border.webp": {
+      "bytes": 83236,
+      "sha256": "662d212a848e8f64034bb41bcf1a58c4f5a20c38f565de1aa0d440939934be5e"
+    },
+    "webp/256/rosselli-mask-border-border.webp": {
+      "bytes": 114896,
+      "sha256": "e987e5f756e5a7f09f4758924df89802df550d001d322dd58edb8b534894f0e5"
+    },
+    "webp/256/rosselli-mask-border-corner.webp": {
+      "bytes": 121964,
+      "sha256": "56f08f4fac36d7c6346b277143b489ec03248016bc0c0ff022c44a521669a17f"
+    },
+    "webp/256/rosselli-mask-border-reference.webp": {
+      "bytes": 115018,
+      "sha256": "2d771e6cb1c6f1246e18f3d6b66e67574739a890b3ff90a02b1b787ddd6a5cb3"
+    },
+    "webp/256/rosselli-mask-border-rotated.webp": {
+      "bytes": 114592,
+      "sha256": "838e2ac051aa200f3721958e82b5f395362f3406709e481d78bac1b8f688a074"
+    },
+    "webp/256/rosselli-mask-border.webp": {
+      "bytes": 114982,
+      "sha256": "b87c6ed24d8c216fdc57b2ff7093fc8e8745eb91c3c0a7d2585e94dba518f5ef"
+    },
     "webp/256/russet-floral-vine-with-bud-borders-corner.webp": {
       "bytes": 101914,
       "sha256": "be341a15790e29ff58c49ffebb529caf0e1e414c3324256faddbcffc242b5174"
@@ -11615,6 +12175,14 @@
       "bytes": 18804,
       "sha256": "254b44a0fd1ba081153b4f075704cbdcf139e0b84e3bbd0153ef005df70218e9"
     },
+    "webp/512/rosselli-foliate-border-border.webp": {
+      "bytes": 395550,
+      "sha256": "33f0aa227bae26e966b86c05de052d59d460107512db265f231443008b4e7f51"
+    },
+    "webp/512/rosselli-mask-border-border.webp": {
+      "bytes": 432390,
+      "sha256": "519b6a1324006ee22666d03d9ed8bef6779aa55ede97f04f3a6c69c5cb275d31"
+    },
     "webp/512/russet-floral-vine-with-bud-borders-reference.webp": {
       "bytes": 141176,
       "sha256": "7b9e22ce4ee924c18d34cce8dd7db9029ad0c3a459e7efc74afb93ba4fdfceba"
@@ -11738,6 +12306,14 @@
     "webp/768/red-trefoil-vine.webp": {
       "bytes": 30052,
       "sha256": "62c3093d60e9af52b39bb41331191930319de5ddc3122d197aa244a797a453c5"
+    },
+    "webp/768/rosselli-foliate-border-border.webp": {
+      "bytes": 395550,
+      "sha256": "33f0aa227bae26e966b86c05de052d59d460107512db265f231443008b4e7f51"
+    },
+    "webp/768/rosselli-mask-border-border.webp": {
+      "bytes": 920752,
+      "sha256": "b7623f23d1c1c7a8c49a651da17e41ffa032580394d0ec5240bbbe847b4be2e8"
     },
     "webp/768/russet-floral-vine-with-bud-borders-reference.webp": {
       "bytes": 291082,
@@ -12787,6 +13363,46 @@
       "bytes": 18948,
       "sha256": "f308e5623bb59dda7127b7a318c2f6da3748a8e0e6e84f48cfd1c02c4a26046b"
     },
+    "webp/rosselli-foliate-border-border.webp": {
+      "bytes": 1415284,
+      "sha256": "e5697a99f337fa304af321fc280d85fc2630abc6ca8be3a338a8c3ae22f0f01f"
+    },
+    "webp/rosselli-foliate-border-corner.webp": {
+      "bytes": 130860,
+      "sha256": "b602acc259db2dae863f49a2fed57f2bd0232854bc28532fffa06feba2bcd826"
+    },
+    "webp/rosselli-foliate-border-reference.webp": {
+      "bytes": 214178,
+      "sha256": "a6c5c9a9cc8dd3a45f92ad86060e5e2ca119029393285c7ab682e872f207e7ed"
+    },
+    "webp/rosselli-foliate-border-rotated.webp": {
+      "bytes": 213970,
+      "sha256": "040827e9fb8a9e46fa4bb76defeb040d75eeba87aa4323e5d6a58ed34f6b7e6e"
+    },
+    "webp/rosselli-foliate-border.webp": {
+      "bytes": 214392,
+      "sha256": "e76dffbd29700429f0fc449e645faccf6ec32d2b4a60da869a65b8abdc43e93e"
+    },
+    "webp/rosselli-mask-border-border.webp": {
+      "bytes": 1091582,
+      "sha256": "0b5c30987ec25d8009740461921b0d20a9c48a02fd4fe723be2529fc980e9638"
+    },
+    "webp/rosselli-mask-border-corner.webp": {
+      "bytes": 130682,
+      "sha256": "f226e1dfbde231018a0207e2abbce5094d1da705e53a3626239a62093891160d"
+    },
+    "webp/rosselli-mask-border-reference.webp": {
+      "bytes": 140050,
+      "sha256": "fb9c320bf8c00ce21b532f153782c3be9af4d4843423d882b5c907d5b50bef74"
+    },
+    "webp/rosselli-mask-border-rotated.webp": {
+      "bytes": 140372,
+      "sha256": "297e7aa8c8b43d09fc342bc3aacf6fd7e2373c9eeb7c85e2b05ebf79116270bf"
+    },
+    "webp/rosselli-mask-border.webp": {
+      "bytes": 140584,
+      "sha256": "1d30b1b33e38eebaef6503663c1879773758ccc6c612ff36e0e4cdb8efad61a9"
+    },
     "webp/russet-floral-vine-with-bud-borders-border.webp": {
       "bytes": 1631126,
       "sha256": "eae2a185d58b7131183b3dc367434b95262f2ad8d69106c08049210f1e19a74d"
@@ -13248,6 +13864,30 @@
     "sources/traces/sage-leaf-and-russet-bud-vine.svg": {
       "bytes": 523288,
       "sha256": "2d837e8105b76dfbddb17cc10400771c31ad602f9d16f7b53ec8a0d273b7a100"
+    },
+    "sources/tiles/rosselli-foliate-border.png": {
+      "bytes": 308504,
+      "sha256": "54d2b74f2311346dae34b320b74ebe8b18eda5a825526bfa39242a742fcf99b3"
+    },
+    "sources/tiles/rosselli-mask-border.png": {
+      "bytes": 207736,
+      "sha256": "f87d302363f8c611dc4e2ac0a4ba6c6297dbb05d40736403cf48b0c82b830adb"
+    },
+    "sources/tiles/rosselli-foliate-border-border.png": {
+      "bytes": 3450567,
+      "sha256": "a220819e8c9257cb92e3b9f958bd89fdf6994a5dba4610fde0231f2835bf8910"
+    },
+    "sources/tiles/rosselli-foliate-border-corner.png": {
+      "bytes": 786653,
+      "sha256": "1653adaff5899d694924f070c2604203b162c7215a4be03db55602a754670118"
+    },
+    "sources/tiles/rosselli-mask-border-border.png": {
+      "bytes": 3519649,
+      "sha256": "4845129f4bd8478b1bd87fa901696a9cbead4baa9bd00ecd41f0deffee86e31d"
+    },
+    "sources/tiles/rosselli-mask-border-corner.png": {
+      "bytes": 780662,
+      "sha256": "bb126cdc1eb3ee00e5a34a753f59b0005b193b0482a6599b41231026743726bf"
     }
   }
 }

@@ -30,9 +30,11 @@ test('a second border resource routes by assignment without changing names or ge
   await mkdir(path.join(directory,'scripts'));
   for(const name of ['build-library.mjs','package-assets.mjs','resource-store.mjs','resources.mjs','scaffold-resource.mjs'])await copyFile(path.join(root,'scripts',name),path.join(directory,'scripts',name));
   for(const name of ['package.json','images.json','assets-manifest.json','resource-registry.json','resource-lock.json'])await copyFile(path.join(root,name),path.join(directory,name));
-  const config=registry(),lock=resourceLock(),id='borders-002',name='red-berry-vine',first=manifest('borders-001');
+  const config=registry(),lock=resourceLock(),id='borders-002',name='rosselli-mask-border',first=manifest('borders-001');
   const chosen=first.designs[name], paths=new Set(assetPaths([chosen]));
-  const next={schemaVersion:2,id,collection:'borders',package:'@ranx729/medieval-ornaments-assets-borders-002',version:'0.1.0',designs:{[name]:chosen},files:Object.fromEntries(Object.entries(first.files).filter(([p])=>paths.has(p))),inputs:{}};
+  const inputs=Object.fromEntries(Object.entries(first.inputs).filter(([p])=>[name,name+'-corner',name+'-border'].includes(path.basename(p,'.png'))));
+  assert.equal(Object.keys(inputs).length,3,'Migration carries the repeat, edited corners and retained editor output');
+  const next={schemaVersion:2,id,collection:'borders',package:'@ranx729/medieval-ornaments-assets-borders-002',version:'0.1.0',designs:{[name]:chosen},files:Object.fromEntries(Object.entries(first.files).filter(([p])=>paths.has(p))),inputs};
   config.sources['borders-001'].retainedDesigns=[name];
   config.sources['borders-001'].state='sealed';config.sources[id]={id,collection:'borders',sequence:2,state:'open',repository:'adrian729/medieval-ornaments-assets-borders-002',package:next.package};config.collections.borders.activeSource=id;config.assignments[name]=id;
   for(const data of [first,next]){const content=json(data);await writeFile(path.join(directory,'resources/manifests',data.id+'.json'),content);lock.sources[data.id]={version:data.version,gitCommit:null,manifestSha256:digest(content),filesSha256:digest(data.files)};}
@@ -70,8 +72,36 @@ test('an older compatible-archive identity cannot conceal newer resource files',
   // Simulate a later independent border snapshot while the optional legacy
   // archive pin stays unchanged. Offline preflight must reject it before mkdir.
   const pinFile=path.join(directory,'lib/asset-sources/borders-001.js');
-  const source=await readFile(pinFile,'utf8');await writeFile(pinFile,source.replace(/"activeFilesSha256":"[a-f0-9]+"/,`"activeFilesSha256":"${'0'.repeat(64)}"`));
+  const source=await readFile(pinFile,'utf8');await writeFile(pinFile,source.replace(/"(?:activeFilesSha256|legacyFilesSha256)":"[a-f0-9]+"/g,match=>match.replace(/[a-f0-9]{64}/,'0'.repeat(64))));
   const destination=path.join(directory,'public');
   await assert.rejects(exec(process.execPath,['lib/cli.js','copy-assets',destination,'--design','red-berry-vine','--offline'],{cwd:directory}),/Offline artwork not found/);
   await assert.rejects(readdir(destination),{code:'ENOENT'});
+});
+
+test('new historical artwork installs offline from numbered packages with its provenance',async t=>{
+  const directory=await temporary(t),items=await assetCatalog();
+  const selected=['isabella-pink-rose','rosselli-roundel-top'].map(name=>items.find(item=>item.name===name));
+  const config=registry(),lock=resourceLock();
+  await writeFile(path.join(directory,'package.json'),'{"type":"module"}');
+  for(const item of selected){
+    const id=config.assignments[item.name],source=config.sources[id],target=path.join(directory,'node_modules',source.package);
+    await mkdir(target,{recursive:true});
+    await writeFile(path.join(target,'package.json'),json({name:source.package,version:lock.sources[id].version,exports:{'./package.json':'./package.json'}}));
+    await copyFile(path.join(root,'resources/manifests',id+'.json'),path.join(target,'resource-manifest.json'));
+    for(const relative of assetPaths([item]).filter(p=>p.endsWith('.png'))){
+      await mkdir(path.dirname(path.join(target,relative)),{recursive:true});
+      await copyFile(resourceFile(relative),path.join(target,relative));
+    }
+  }
+  const out=path.join(directory,'src'),assets=path.join(directory,'public');
+  await exec(process.execPath,[path.join(root,'lib/cli.js'),'add',...selected.map(item=>item.name),'--framework','vanilla','--format','png','--out',out,'--assets',assets,'--assets-base','/historical/','--offline'],{cwd:directory});
+  for(const item of selected){
+    const api=await import(pathToFileURL(path.join(out,item.name+'.js')));
+    assert.deepEqual(api.ornament.provenance,item.provenance);
+    assert.deepEqual(api.ornament.formats,['png']);
+    const resolved=api.resolveOrnament('image',{size:128});
+    assert.ok(resolved.asset.url.startsWith('/historical/png/'));
+    assert.deepEqual(await readFile(path.join(assets,item.png)),await readFile(resourceFile(item.png)));
+  }
+  assert.ok(!(await readdir(path.join(assets,'png'))).some(name=>name==='flying-pig.png'));
 });

@@ -363,3 +363,63 @@ ZIP include LICENSE only. No design, component API or geometry changes.
 - [x] Lock clean source commits and update current usage/CDN examples to 0.7.1 / 0.1.1.
 - [x] Pass unit, type, packed-consumer, package-size and site checks.
 - [x] Publish the tested 0.7.1 runtime, upload its offline ZIP, deploy Pages and record results in QA.md.
+
+## Historical-source additions · local candidate, 2026-10-08
+
+Add 23 reviewed assets to numbered resources: 22 extractions of historical
+objects with open museum reproductions and one explicitly modern independent
+interpretation of a restricted-reference motif. Preserve all 111 earlier catalog
+entries and artwork. The local total is 134: 56 borders, 24 whole decorations,
+54 illustrations. Optional provenance reaches master/public/individual metadata,
+types, search, browser links and copied components. No new repeat is claimed.
+
+- [x] Assign capacity before artwork writes; retain untouched scans, generated native inputs, source/master hashes and exact edit prompts.
+- [x] Split independent entities and review every final asset against its source/motif and on light/dark backgrounds; verify both transparent frame centers.
+- [x] Preserve the existing catalog entries and all old approved artwork/input bytes without provenance backfill.
+- [x] Keep optional compatibility archives immutable; verify their unchanged intersection and refuse new selections before writes.
+- [x] Verify local unit/types, catalog/artwork, isolated rebuild retention and offline numbered-resource consumers.
+- [x] Pass actual npm-packed candidate consumers with all numbered packages installed: 134 designs, React 18/19, SSR/hydration and self-hosting. Keep ordinary release prepack blocked until source commits are locked.
+- [x] Prepare decoration and illustration resource 0.1.2 manifests with pending commit pins; measure an artwork-free runtime archive (about 206 KB packed, 1.43 MB unpacked).
+- [x] Resolve the measured runtime size increase with shared generic declarations and compact private per-design metadata. Public JSON/descriptions/provenance remain unchanged; individual imports remain isolated. Keep the original 200 KB / 1.25 MB test limits, including provided candidate archives.
+- [ ] Publish the reviewed numbered resource bytes, verify npm/CDN, then lock exact clean source commits.
+- [ ] Choose the runtime release version, rebuild and run the actual packed-consumer release gate; keep both old compatibility snapshots unchanged.
+- [ ] Publish runtime, deploy source-linked browser, verify live gallery/examples and attach the verified offline ZIP.
+
+### Rosselli repeat borders and runtime size follow-up
+
+Two additional native raster borders bring the local total to 136: 58 borders,
+24 decorations and 54 illustrations. `historical-border-patterns.json` records
+complete interior mask/foliate cycles, source/master hashes, a two-pixel collar,
+and refined AI-assisted foliate corner geometry with exact connecting collars.
+The four distinct corner phases and editor outputs are retained in borders-001.
+Original whole strips are preserved.
+Both belong to borders-001; its 0.1.2 revision is prepared with a pending commit
+pin. Publication and exact source locks remain outstanding for all three resources.
+The reviewed 136-design runtime is 197,828 B packed / 1,198,353 B unpacked,
+below the unchanged 200,000 B / 1,250,000 B budget. Packed consumers, public
+types, isolated rebuilds, native/frame browser checks and selective imports pass.
+
+### Polyhymnia illustration
+
+Added the user-supplied `polyhymnia` framed scene to illustrations-001's local
+0.1.2 candidate, retaining original bytes and the exact supplied generation
+prompt in `illustration-additions.json`. Optimized PNG pixels are identical;
+lossless WebP and native-derived 128/256/512/768 variants retain the outer alpha.
+The catalog now has 137 designs: 58 borders, 24 decorations, 55 illustrations.
+Individual vanilla/React imports and types are generated. All existing artwork
+and catalog entries remain unchanged. Publication and exact pins remain pending.
+Runtime remains within the original size limits at 199,283 B packed /
+1,204,457 B unpacked (875 files), with no artwork dependency.
+
+## Release 0.8.0 coordination (2026-10-08)
+
+User authorized committing, pushing and releasing main plus all three changed
+numbered resources. Runtime version: 0.8.0; numbered revisions: 0.1.2. Polyhymnia
+uses the supplied corrected 1004×1567 source with unchanged names/descriptions.
+
+- [x] Replace its native input and every PNG/WebP size; review all variants and preserve all unrelated artwork/metadata.
+- [x] Validate resource ownership, capacity, source audits, catalog, types, unit tests and isolated rebuild retention.
+- [ ] Commit approved main tooling to an immutable release branch; pin resource publication workflows.
+- [ ] Commit/push/publish resources; verify registry/CDN bytes; lock clean exact source commits.
+- [ ] Pass final release pack budget and actual packed consumers; commit/push main.
+- [ ] Publish runtime 0.8.0, create releases/tags for all four repos, upload browser ZIP, verify registry consumers and Pages/ZIP.

@@ -1,0 +1,244 @@
+[
+  {
+    "name": "rosselli-mask-border",
+    "source_path": "png/rosselli-mask-strip.png",
+    "source_sha256": "18d86b02364df1a3bfae1a785b4a4a7186c93f442424f1b095d963dec792b4ec",
+    "source_bounds": [
+      0,
+      365,
+      270,
+      655
+    ],
+    "unit_bounds": [
+      0,
+      0,
+      290,
+      270
+    ],
+    "orientation": "y",
+    "kind": "repeat-tile",
+    "tile_path": "sources/tiles/rosselli-mask-border.png",
+    "reference_path": "png/rosselli-mask-border-reference.png",
+    "reference": "met-356741",
+    "join_adjustment_px": 2,
+    "description": "A repeating Renaissance border of alternating human masks and leafy scrolls.",
+    "categories": [
+      "botanical",
+      "scrollwork",
+      "floral",
+      "humans"
+    ],
+    "subjects": [
+      "leaf",
+      "scroll",
+      "mask"
+    ],
+    "colors": [
+      "brown",
+      "gray",
+      "cream"
+    ],
+    "facing": "unclear",
+    "provenance": {
+      "institution": "The Metropolitan Museum of Art",
+      "title": "Sheet of border segments: vertical floral ornament, horizontal frieze, four corners",
+      "object_identifier": "29.16.3",
+      "date": "1490-1500",
+      "record_url": "https://www.metmuseum.org/art/collection/search/356741",
+      "artist": "Francesco Rosselli",
+      "image_rights": "Public Domain",
+      "rights_url": "https://www.metmuseum.org/art/collection/search/356741",
+      "method": "ai-assisted-extraction",
+      "audit": "historical-border-patterns.json",
+      "image_url": "https://images.metmuseum.org/CRDImages/dp/original/DP833949.jpg",
+      "source_sha256": "98d28d964a4d99da22c8195476ad3c632a032b850f3ee3efe3ef019515dd88f8"
+    },
+    "repeat_note": "One full human-mask and foliate-scroll cycle; the original print visibly repeats this alternation four times.",
+    "usage_notes": [
+      "Native phase crop from the approved AI-assisted historical extraction; interior pixels are unchanged. Only a two-pixel join collar is averaged.",
+      "Corners are modern AI-assisted foliate adaptations with exact connecting profiles, not recovered historical motifs. Use the supplied atlas with round fitting.",
+      "PNG/WebP only: no vector redraw is supplied."
+    ],
+    "historical_source_path": "sources/historical/rosselli-border-segments.jpg",
+    "historical_source_sha256": "98d28d964a4d99da22c8195476ad3c632a032b850f3ee3efe3ef019515dd88f8",
+    "related_whole": "rosselli-mask-strip",
+    "review": {
+      "status": "accepted",
+      "checks": [
+        "original-print-motif-cycle-comparison",
+        "native-interior-pixels-preserved",
+        "two-pixel-join-collar-only",
+        "eight-exact-native-corner-edge-joins",
+        "integer-atlas-slices",
+        "pixel-exact-90-degree-rotation",
+        "lossless-png-webp-alpha-and-visible-rgb",
+        "light-dark-repeats-and-frames-at-33-and-96px",
+        "browser-pixel-ratios-1-1.25-2",
+        "actual-main-browser-and-review-page",
+        "packed-consumer-native-and-forced-axes",
+        "four-refined-corner-phases-inspected",
+        "exact-12px-connecting-collars",
+        "retained-editor-output-and-native-corner-sheet"
+      ],
+      "notes": "Complete motif cycle and original whole strip/reference retained. Corners are modern AI-assisted foliate adaptations; all four turns reviewed on light/dark. Straight atlas edges and native repeats retain their original pixels; 12px connecting collars remain exact."
+    },
+    "tile_sha256": "f87d302363f8c611dc4e2ac0a4ba6c6297dbb05d40736403cf48b0c82b830adb",
+    "reference_sha256": "2b6c8869631b4da1d8fef65c930aa5c7c2e253f9693b054f24f799c2526859f2",
+    "source_canvas": {
+      "width": 270,
+      "height": 1400
+    },
+    "master_sha256": "58bcd3b72722f5493279ff41b95a1502dfdd4df9f6bbee5153200c00995dceed",
+    "corner_method": "source-derived-ai-adaptation",
+    "corner_edit": {
+      "tool": "image_gen.imagegen",
+      "method": "four separately refined corner phases from source-derived miter atlas",
+      "prompt": "Use case: precise-object-edit. Edit target: the supplied transparent square Renaissance engraved frame atlas. Refine ONLY its four corner squares. Each corner square occupies 32.53012% of the image width and height. Keep the exact square canvas, empty transparent central square, border thickness, layout, all four straight edge strips, all human masks in those strips, the engraving's brown-gray linework and pale tan motif surfaces unchanged. At each corner, replace the rigid diagonal mirrored leaf splice with a graceful coherent ninety-degree acanthus-scroll turn composed from the SAME existing leaves, tendrils and scrolls. Preserve the connecting stems where the corner meets the adjacent straight edges, especially the outermost twenty pixels at those connecting sides. Do not add rosettes, geometric diamonds, unrelated flowers, human faces, masks or other motifs. Avoid cut-off leaf lobes, fused leaves and dense mirrored knots at the turns. Preserve the antique engraved style, restrained fine hatching, original light brown/cream palette, opaque motif interiors and truly transparent spaces between them. Match all four corners to their own adjacent edge phases rather than blindly rotating one corner. Return the complete unchanged-size square atlas without added margins, labels, backdrop or shadow. The artistic change should be confined to four coherent, flowing foliate corner turns.",
+      "source_atlas_sha256": "49a0639057c106ae6850989e889527dd0541c42dcc68db0d4790edc9cf5f075b",
+      "raw_path": "sources/tiles/rosselli-mask-border-border.png",
+      "raw_sha256": "4845129f4bd8478b1bd87fa901696a9cbead4baa9bd00ecd41f0deffee86e31d",
+      "generated_dimensions": [
+        1254,
+        1254
+      ],
+      "native_atlas_dimensions": [
+        830,
+        830
+      ],
+      "resampling": "Lanczos downscale only",
+      "sheet_path": "sources/tiles/rosselli-mask-border-corner.png",
+      "sheet_sha256": "bb126cdc1eb3ee00e5a34a753f59b0005b193b0482a6599b41231026743726bf",
+      "quadrant_order": [
+        "top-left",
+        "top-right",
+        "bottom-left",
+        "bottom-right"
+      ],
+      "connecting_collar_px": 12,
+      "feather_px": 12,
+      "assembly": "premultiplied-alpha feather; original zero-weight collars and every straight edge retained byte-for-byte",
+      "review": "accepted: all four corner phases inspected at native size on light/dark; exact connecting profiles; straight edges and repeat units unchanged"
+    }
+  },
+  {
+    "name": "rosselli-foliate-border",
+    "source_path": "png/rosselli-foliate-strip.png",
+    "source_sha256": "bbcd202878ab0b828ff24e0ded4bc5fbb5738f1081a8c2234b212f44249ca841",
+    "source_bounds": [
+      0,
+      190,
+      274,
+      628
+    ],
+    "unit_bounds": [
+      0,
+      0,
+      438,
+      274
+    ],
+    "orientation": "y",
+    "kind": "repeat-tile",
+    "tile_path": "sources/tiles/rosselli-foliate-border.png",
+    "reference_path": "png/rosselli-foliate-border-reference.png",
+    "reference": "met-356741",
+    "join_adjustment_px": 2,
+    "description": "A repeating Renaissance border of paired acanthus leaves and curling foliate stems.",
+    "categories": [
+      "botanical",
+      "scrollwork",
+      "floral"
+    ],
+    "subjects": [
+      "leaf",
+      "scroll",
+      "flower",
+      "finial"
+    ],
+    "colors": [
+      "brown",
+      "gray",
+      "cream"
+    ],
+    "facing": "unclear",
+    "provenance": {
+      "institution": "The Metropolitan Museum of Art",
+      "title": "Sheet of border segments: vertical floral ornament, horizontal frieze, four corners",
+      "object_identifier": "29.16.3",
+      "date": "1490-1500",
+      "record_url": "https://www.metmuseum.org/art/collection/search/356741",
+      "artist": "Francesco Rosselli",
+      "image_rights": "Public Domain",
+      "rights_url": "https://www.metmuseum.org/art/collection/search/356741",
+      "method": "ai-assisted-extraction",
+      "audit": "historical-border-patterns.json",
+      "image_url": "https://images.metmuseum.org/CRDImages/dp/original/DP833949.jpg",
+      "source_sha256": "98d28d964a4d99da22c8195476ad3c632a032b850f3ee3efe3ef019515dd88f8"
+    },
+    "repeat_note": "One full paired foliate cycle in the upper two matching sections; the distinct lower terminal is excluded.",
+    "usage_notes": [
+      "Native phase crop from the approved AI-assisted historical extraction; interior pixels are unchanged. Only a two-pixel join collar is averaged.",
+      "Corners are modern AI-assisted foliate adaptations with exact connecting profiles, not recovered historical motifs. Use the supplied atlas with round fitting.",
+      "PNG/WebP only: no vector redraw is supplied."
+    ],
+    "historical_source_path": "sources/historical/rosselli-border-segments.jpg",
+    "historical_source_sha256": "98d28d964a4d99da22c8195476ad3c632a032b850f3ee3efe3ef019515dd88f8",
+    "related_whole": "rosselli-foliate-strip",
+    "review": {
+      "status": "accepted",
+      "checks": [
+        "original-print-motif-cycle-comparison",
+        "native-interior-pixels-preserved",
+        "two-pixel-join-collar-only",
+        "eight-exact-native-corner-edge-joins",
+        "integer-atlas-slices",
+        "pixel-exact-90-degree-rotation",
+        "lossless-png-webp-alpha-and-visible-rgb",
+        "light-dark-repeats-and-frames-at-33-and-96px",
+        "browser-pixel-ratios-1-1.25-2",
+        "actual-main-browser-and-review-page",
+        "packed-consumer-native-and-forced-axes",
+        "four-refined-corner-phases-inspected",
+        "exact-12px-connecting-collars",
+        "retained-editor-output-and-native-corner-sheet"
+      ],
+      "notes": "Complete motif cycle and original whole strip/reference retained. Corners are modern AI-assisted foliate adaptations; all four turns reviewed on light/dark. Straight atlas edges and native repeats retain their original pixels; 12px connecting collars remain exact."
+    },
+    "tile_sha256": "54d2b74f2311346dae34b320b74ebe8b18eda5a825526bfa39242a742fcf99b3",
+    "reference_sha256": "d3651a6ddbb2834fe26bb9b1402c966ae4523a511cf07f70b22c3950bbfcfd04",
+    "source_canvas": {
+      "width": 274,
+      "height": 1400
+    },
+    "master_sha256": "b8b83e7f3eb389915301511723269545f989a28f84da2caee3f1a1b700442e59",
+    "corner_method": "source-derived-ai-adaptation",
+    "corner_edit": {
+      "tool": "image_gen.imagegen",
+      "method": "four separately refined corner phases from source-derived miter atlas",
+      "prompt": "Use case: precise-object-edit. Edit target: the supplied transparent square Renaissance foliate engraved frame atlas. Refine ONLY its four corner squares. Each corner square occupies 27.78905% of the image width and height. Keep the exact square canvas, empty transparent central square, border thickness, layout and all four straight edge strips unchanged. At each corner, replace the rigid diagonal mirror splice and folded overlapping leaf tips with a graceful coherent ninety-degree scroll turn formed from the SAME paired acanthus leaves and curling stems already present. Preserve the connecting stems where the corner meets the adjacent straight edges, especially the outermost twenty pixels at those connecting sides. Keep a clear flowing central vine turning around the corner, naturally attached complete leaf lobes, and open negative spaces instead of a compact mirrored diamond. Preserve the historical brown-gray fine engraving, restrained hatching, pale tan motif interiors and the original palette. Do not introduce rosettes, flowers, dots, masks, animals or generic new ornament. Match all four corners to their own adjacent edge phases rather than blindly rotating one corner. Return the complete unchanged-size square atlas with truly transparent alpha around the ornament and in its empty center, without margins, labels, paper backdrop or shadow.",
+      "source_atlas_sha256": "656bee9e0b75b9d8427f371ae05913b128b715cdab74243557ec9f1890690532",
+      "raw_path": "sources/tiles/rosselli-foliate-border-border.png",
+      "raw_sha256": "a220819e8c9257cb92e3b9f958bd89fdf6994a5dba4610fde0231f2835bf8910",
+      "generated_dimensions": [
+        1254,
+        1254
+      ],
+      "native_atlas_dimensions": [
+        986,
+        986
+      ],
+      "resampling": "Lanczos downscale only",
+      "sheet_path": "sources/tiles/rosselli-foliate-border-corner.png",
+      "sheet_sha256": "1653adaff5899d694924f070c2604203b162c7215a4be03db55602a754670118",
+      "quadrant_order": [
+        "top-left",
+        "top-right",
+        "bottom-left",
+        "bottom-right"
+      ],
+      "connecting_collar_px": 12,
+      "feather_px": 12,
+      "assembly": "premultiplied-alpha feather; original zero-weight collars and every straight edge retained byte-for-byte",
+      "review": "accepted: all four corner phases inspected at native size on light/dark; exact connecting profiles; straight edges and repeat units unchanged"
+    }
+  }
+]

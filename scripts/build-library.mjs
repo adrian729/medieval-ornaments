@@ -23,6 +23,11 @@ await mkdir(new URL('lib/asset-sources/', root), {recursive: true});
 for (const [id, source] of Object.entries(resourceRegistry.sources)) {
   const pin = resourcePins.sources[id], approved = resourceManifest(id);
   const info = {id, collection: source.collection, package: source.package, version: pin.version, manifestSha256: pin.manifestSha256, filesSha256: pin.filesSha256, activeFilesSha256: digest(Object.fromEntries(items.filter(item=>resourceRegistry.assignments[item.name]===id).flatMap(designPaths).map(p=>[p,approved.files[p]]))), base: `https://unpkg.com/${source.package}@${pin.version}/`};
+  // Bind the unchanged intersection with the immutable compatibility archive.
+  // New numbered artwork must never force refreshing those optional snapshots.
+  info.legacyFilesSha256 = digest(Object.fromEntries(items.filter(item=>resourceRegistry.assignments[item.name]===id).flatMap(designPaths)
+    .filter(p=>manifest.files[p] && manifest.files[p].bytes===approved.files[p].bytes && manifest.files[p].sha256===approved.files[p].sha256)
+    .map(p=>[p,approved.files[p]])));
   await writeFile(new URL(`lib/asset-sources/${id}.js`, root), `// Generated immutable asset pin; no catalog.\nexport const base = ${JSON.stringify(info.base)};\nexport const source = /* @__PURE__ */ Object.freeze(${JSON.stringify(info)});\n`);
 }
 await writeFile(new URL('lib/asset-sources.js', root), `${Object.keys(resourceRegistry.sources).map((id,i)=>`import { source as s${i} } from './asset-sources/${id}.js';`).join('\n')}\nexport const assetSources = Object.freeze({${Object.keys(resourceRegistry.sources).map((id,i)=>`${JSON.stringify(id)}:s${i}`).join(',')}});\n`);
@@ -75,6 +80,14 @@ export interface Asset extends RasterVariant {
   readonly repeat_axis?: 'x' | 'y' | 'none';
   readonly repeat_ratio?: number; readonly slice_pixels?: number;
 }
+export interface Provenance {
+  readonly institution: string; readonly title: string; readonly object_identifier: string;
+  readonly date: string; readonly artist?: string; readonly record_url: string;
+  readonly image_url?: string; readonly image_rights: string; readonly rights_url: string;
+  readonly source_sha256?: string;
+  readonly method: 'ai-assisted-extraction' | 'independent-ai-interpretation';
+  readonly audit: string;
+}
 export interface Ornament extends Asset {
   readonly name: DesignName; readonly description: string;
   readonly categories: readonly Category[]; readonly subjects: readonly string[];
@@ -84,6 +97,7 @@ export interface Ornament extends Asset {
   readonly uses: readonly OrnamentUse[]; readonly formats: readonly Exclude<Format, 'auto'>[];
   readonly components: Readonly<Partial<Record<'border_image' | 'corner' | 'rotated_tile' | 'reference_crop', Asset>>>;
   readonly border_image_slice_percent?: number; readonly reference?: string;
+  readonly provenance?: Provenance;
 }
 export interface RepeatOrnament extends Ornament {
   readonly name: RepeatDesignName; readonly kind: 'repeat-tile';
@@ -143,7 +157,27 @@ await writeFile(new URL('lib/index.d.ts', root), declarations);
 const common = declarations.slice(declarations.indexOf('export type AssetType'), declarations.indexOf('export declare const version'))
   .replace(/\b(?:DesignName|RepeatDesignName|WholeDesignName|Category)\b/g, 'string')
   .replace(/readonly (png|webp|png_bytes|webp_bytes):/g, 'readonly $1?:');
-await writeFile(new URL('lib/common.d.ts', root), common);
+const boundTypes = `
+type BoundOptions<Base, Name extends string, Available extends Exclude<Format, 'auto'>> = Omit<Base, 'design' | 'format'> & { design?: Name; format?: 'auto' | Available };
+export interface RepeatDesign<Name extends string, Available extends Exclude<Format, 'auto'>, Type extends AssetType = 'border'> {
+  ornament: RepeatOrnament & { readonly name: Name; readonly asset_type: Type };
+  frameOptions: BoundOptions<FrameOptions, Name, Available>;
+  dividerOptions: BoundOptions<DividerOptions, Name, Available>;
+  resolve: {
+    (use: 'frame', options?: BoundOptions<FrameOptions, Name, Available>): ResolvedOrnament;
+    (use: 'divider', options?: BoundOptions<DividerOptions, Name, Available>): ResolvedOrnament;
+  };
+  createFrame: (element: HTMLElement, options?: BoundOptions<FrameOptions, Name, Available>) => OrnamentController<BoundOptions<FrameOptions, Name, Available>>;
+  createDivider: (element: HTMLElement, options?: BoundOptions<DividerOptions, Name, Available>) => OrnamentController<BoundOptions<DividerOptions, Name, Available>>;
+}
+export interface WholeDesign<Name extends string, Available extends Exclude<Format, 'auto'>, Type extends AssetType> {
+  ornament: WholeOrnament & { readonly name: Name; readonly asset_type: Type };
+  imageOptions: BoundOptions<ImageOptions, Name, Available>;
+  resolve: (use: 'image', options?: BoundOptions<ImageOptions, Name, Available>) => ResolvedOrnament;
+  createOrnamentImage: (element: HTMLImageElement, options?: BoundOptions<ImageOptions, Name, Available>) => OrnamentController<BoundOptions<ImageOptions, Name, Available>>;
+}
+`;
+await writeFile(new URL('lib/common.d.ts', root), common + boundTypes);
 await writeFile(new URL('lib/selection.d.ts', root), `export { ornaments, getOrnament, findOrnaments } from './index.js';\nexport type { Ornament, RepeatOrnament, WholeOrnament, SelectionFilters, AssetType, Facing, Composition } from './index.js';\n`);
 for (const [scope, type] of [['borders', 'border'], ['decorations', 'decoration'], ['illustrations', 'illustration']]) {
   const scoped = items.filter(item => item.asset_type === type);
@@ -153,7 +187,13 @@ for (const [scope, type] of [['borders', 'border'], ['decorations', 'decoration'
   await writeFile(new URL(`lib/selection-${scope}.d.ts`, root), `import type { ${baseType}, SelectionFilters } from './index.js';\nexport type ScopedOrnament = ${baseType} & { readonly name: ${union(scoped.map(item => item.name))}; readonly asset_type: ${JSON.stringify(type)} };\nexport declare const ornaments: readonly ScopedOrnament[];\nexport declare function getOrnament(name: string): ScopedOrnament;\nexport declare function findOrnaments(filters?: SelectionFilters): ScopedOrnament[];\n`);
 }
 const customKey = String.fromCharCode(96) + '--' + '$' + '{string}' + String.fromCharCode(96);
-await writeFile(new URL('lib/react-core.d.ts', root), `import type { CSSProperties } from 'react';\nexport type OrnamentStyle = CSSProperties & { [key: ${customKey}]: string | number | undefined };\n`);
+await writeFile(new URL('lib/react-core.d.ts', root), `import type { CSSProperties, ForwardRefExoticComponent, RefAttributes, HTMLAttributes, ImgHTMLAttributes } from 'react';
+export type OrnamentStyle = CSSProperties & { [key: ${customKey}]: string | number | undefined };
+type ElementFor<Use> = Use extends 'image' ? HTMLImageElement : HTMLDivElement;
+type Omitted<Use> = 'style' | 'dangerouslySetInnerHTML' | (Use extends 'frame' ? never : 'children') | (Use extends 'image' ? 'src' | 'srcSet' | 'sizes' | 'height' | 'width' | 'alt' : never);
+export type BoundProps<Use extends 'image' | 'frame' | 'divider', Options> = Options & Omit<Use extends 'image' ? ImgHTMLAttributes<HTMLImageElement> : HTMLAttributes<HTMLDivElement>, Omitted<Use>> & { style?: OrnamentStyle } & (Use extends 'frame' ? {} : { children?: never });
+export type BoundComponent<Use extends 'image' | 'frame' | 'divider', Options> = ForwardRefExoticComponent<BoundProps<Use, Options> & RefAttributes<ElementFor<Use>>>;
+`);
 await writeFile(new URL('lib/react.d.ts', root), `import type { CSSProperties, ForwardRefExoticComponent, RefAttributes, HTMLAttributes, ImgHTMLAttributes } from 'react';
 import type { FrameOptions, DividerOptions, ImageOptions } from './index.js';
 export type OrnamentStyle = CSSProperties & { [key: ${customKey}]: string | number | undefined };
