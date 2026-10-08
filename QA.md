@@ -1,5 +1,28 @@
 # Artwork and frame verification
 
+## Automated publishing authentication follow-up (2026-10-09)
+
+Added an authentication-only caller input and a pinned npm 11.19.0 check that
+requires positive evidence from npm's actual GitHub OIDC token exchange. Its
+dry run cannot upload; real publication and capacity-pack steps are skipped.
+An unauthenticated npm dry run exiting successfully is deliberately rejected.
+Captured CLI errors/output are never echoed into workflow logs. setup-node no
+longer writes an unused token-based npmrc.
+
+41 unit tests and public types pass. Normal candidate pack remains within the
+original budget at 199,952 B / 1,215,973 B, 875 files; no runtime code or artwork
+changed. The main tooling commit bb0fec2c09437645196071076221691db8e0b539 is
+pinned in all three pushed resource callers. Pages deployment for it passes.
+
+GitHub authentication-only runs 37854145728 (borders), 37854149453 (decorations)
+and 37854153460 (illustrations) all pass approved bytes and repository identity,
+then reject the missing successful OIDC exchange. The real publish steps were
+skipped in every run. No npm version, manifest, artwork or published source pin
+changed. Trusted Publisher configuration remains unresolved: the current local
+publishing token receives E403 when listing settings. An interactive account
+login is required; the initial web login link expired without completing.
+See [authentication setup](docs/PUBLISHING.md). Evidence: ignored tmp/npm-auth/.
+
 ## 0.8.0 published release verification (2026-10-08)
 
 The final normal npm pack is **199,920 B packed / 1,215,901 B unpacked**, 875

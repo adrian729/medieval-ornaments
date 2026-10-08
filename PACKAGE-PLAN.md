@@ -441,10 +441,17 @@ above are superseded by this completed release; optional archives remain unchang
 - [x] Add a fail-closed authentication-only workflow using npm's real OIDC exchange, with no upload or version change.
 - [x] Remove setup-node's unused token npmrc; pin npm 11.19.0 and retain the caller's immutable tooling SHA and byte/identity checks.
 - [x] Pass 41 unit tests and public types; keep the runtime budget at 199,952 B / 1,215,973 B with the documentation update.
-- [ ] Pin/push the three resource callers and run authentication-only checks from their actual GitHub identities.
+- [x] Pin/push the three resource callers and run authentication-only checks from their actual GitHub identities. All byte/identity checks pass, but all three authentication checks fail; settings are still unresolved.
 - [ ] Inspect/fix npm Trusted Publisher settings using an interactive account session if the checks require it. The existing maintainer publishing token is rejected for trust management (E403).
 - [ ] Record successful authentication and, for any newly created connection, its first real publish/expiry status.
 
 No artwork, approved manifests, public npm versions or published source pins have
 changed in this infrastructure follow-up. docs/PUBLISHING.md records the exact
 identities, permissions and safe workflow invocation. Account login is pending.
+
+Tooling SHA: bb0fec2c09437645196071076221691db8e0b539. Caller commits:
+borders 65eb1f2, decorations 4cc9a66, illustrations 49fe571. Auth-only runs:
+37854145728 / 37854149453 / 37854153460. Each skipped the real publish step.
+The first interactive npm login link expired; no registry setting has been
+changed. Continue with a fresh interactive session, inspect existing publishers
+and rerun all three checks after correcting the settings.
