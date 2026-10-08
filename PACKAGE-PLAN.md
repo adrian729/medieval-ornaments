@@ -455,3 +455,8 @@ borders 65eb1f2, decorations 4cc9a66, illustrations 49fe571. Auth-only runs:
 The first interactive npm login link expired; no registry setting has been
 changed. Continue with a fresh interactive session, inspect existing publishers
 and rerun all three checks after correcting the settings.
+
+Interactive maintainer login succeeded. npm requires account 2FA enrollment
+before Trusted Publisher management. User has the account-settings link and
+is completing the required setup.
+The temporary account credential is private under /tmp, outside all checkouts.
