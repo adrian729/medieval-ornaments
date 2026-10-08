@@ -1,5 +1,38 @@
 # Artwork and frame verification
 
+## 0.8.0 release gate and resource publication (2026-10-08)
+
+The final normal npm pack is **199,920 B packed / 1,215,901 B unpacked**, 875
+files, inside the unchanged 200,000 B / 1,250,000 B budget. It contains no
+artwork or automatic asset dependencies. 38 unit tests, public types and the
+actual packed consumer release gate pass: 137 designs, 174 native-axis cases,
+32 density/length cases, React 18/19, SSR/hydration, selective/copy imports and
+self-hosting. All 2,059 public artwork files match approved manifest hashes.
+Fixture: /tmp/ornaments-integration-v9jbCC. Final catalog generation validates
+137 designs and 233 genuine SVGs; isolated rebuild retention and artwork checks
+pass (416 exact joins, 110 integer atlases, 58 pixel-exact rotations).
+
+All three numbered resource packages are published at 0.1.2, with clean exact
+source commits locked after registry/CDN verification:
+
+- borders-001: ef24915da1bfec54f7263871a4ffa2ddc0eea5b4.
+- decorations-001: 5f4cca1a625af43c08040ed70f97e736e999c7e0.
+- illustrations-001: d44f1405d44a8276d1b75246db297f2db84a3d74.
+
+Their approved CDN manifests and 79 selected files match SHA-256, covering all
+corrected Polyhymnia variants, new master images and Rosselli frame components.
+Resource GitHub tags/releases v0.1.2 exist. Workflows pinned to reviewed tooling
+1eef0552577e0dea7b874c649b03f72d4bec9b79 passed byte/identity verification,
+but npm rejected automated publication with E404. Publication succeeded using
+the already authorized maintainer login; Trusted Publisher configuration still
+needs verification before relying on automation for a future release.
+Legacy compatibility archives stay immutable at 0.4.0/0.1.0.
+
+The rebuilt browser ZIP is 431,547,944 B. The CDN-backed Pages build is
+42,548,588 B, below its 50 MB guard, with source audits and no local heavy
+artwork or ZIP. Runtime publication and deployed-site/registry checks follow.
+Evidence: ignored tmp/polyhymnia-replacement/ and tmp/package-integration.json.
+
 ## Corrected Polyhymnia and 0.8.0 release preparation (2026-10-08)
 
 Replaced all 10 existing Polyhymnia exports and its native input with the supplied

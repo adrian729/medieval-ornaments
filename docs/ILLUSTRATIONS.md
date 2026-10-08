@@ -280,7 +280,7 @@ rights remain separate from the integration software; see [LICENSE](../LICENSE).
 
 ## Historical additions reviewed 2026-10-08
 
-The local catalog has 23 new assets: 13 illustrations and 10 whole decorations.
+The historical additions include 23 assets: 13 illustrations and 10 whole decorations.
 Twenty-two are AI-assisted extractions from historical objects with CC0 or
 public-domain museum reproductions. The rabbit riding a hound is an explicitly
 modern, independently composed interpretation of a documented marginal motif;
@@ -308,8 +308,10 @@ unchanged. Corners are modern AI-assisted foliate adaptations of the same artwor
 phase-matched atlas for `round` fitting. No SVG redraw is supplied. Bounds,
 hashes and repeat evidence are in `historical-border-patterns.json`.
 
-Use the main browser with `?assets=local` for unpublished authoring previews.
-The three affected resource revisions are prepared at 0.1.2; exact source commits,
-npm/CDN verification and runtime publication remain release work. README keeps
-existing published previews and marks new rows pending until the source locks
-are complete. Release packing continues to reject missing commit pins.
+The 0.8.0 runtime uses numbered resource revisions 0.1.2. Exact source commits
+and approved manifest hashes are recorded in `resource-lock.json`; README
+previews use immutable source URLs. Use `?assets=local` only for authoring previews.
+Release packing rejects missing commit pins. The user-supplied Polyhymnia scene
+uses the corrected 1004×1567 native image and all rebuilt PNG/WebP sizes; its
+original description, filenames, generation prompt and superseded hashes remain
+audited in `illustration-additions.json`.

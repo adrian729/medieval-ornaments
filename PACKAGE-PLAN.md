@@ -381,8 +381,8 @@ types, search, browser links and copied components. No new repeat is claimed.
 - [x] Pass actual npm-packed candidate consumers with all numbered packages installed: 134 designs, React 18/19, SSR/hydration and self-hosting. Keep ordinary release prepack blocked until source commits are locked.
 - [x] Prepare decoration and illustration resource 0.1.2 manifests with pending commit pins; measure an artwork-free runtime archive (about 206 KB packed, 1.43 MB unpacked).
 - [x] Resolve the measured runtime size increase with shared generic declarations and compact private per-design metadata. Public JSON/descriptions/provenance remain unchanged; individual imports remain isolated. Keep the original 200 KB / 1.25 MB test limits, including provided candidate archives.
-- [ ] Publish the reviewed numbered resource bytes, verify npm/CDN, then lock exact clean source commits.
-- [ ] Choose the runtime release version, rebuild and run the actual packed-consumer release gate; keep both old compatibility snapshots unchanged.
+- [x] Publish the reviewed numbered resource bytes, verify npm/CDN, then lock exact clean source commits.
+- [x] Choose runtime 0.8.0, rebuild and pass its actual packed-consumer release gate; keep both old compatibility snapshots unchanged.
 - [ ] Publish runtime, deploy source-linked browser, verify live gallery/examples and attach the verified offline ZIP.
 
 ### Rosselli repeat borders and runtime size follow-up
@@ -419,7 +419,11 @@ uses the supplied corrected 1004×1567 source with unchanged names/descriptions.
 
 - [x] Replace its native input and every PNG/WebP size; review all variants and preserve all unrelated artwork/metadata.
 - [x] Validate resource ownership, capacity, source audits, catalog, types, unit tests and isolated rebuild retention.
-- [ ] Commit approved main tooling to an immutable release branch; pin resource publication workflows.
-- [ ] Commit/push/publish resources; verify registry/CDN bytes; lock clean exact source commits.
+- [x] Commit approved main tooling to an immutable release branch; pin resource publication workflows.
+- [x] Commit/push/publish resources; verify registry/CDN bytes; lock clean exact source commits.
 - [ ] Pass final release pack budget and actual packed consumers; commit/push main.
 - [ ] Publish runtime 0.8.0, create releases/tags for all four repos, upload browser ZIP, verify registry consumers and Pages/ZIP.
+
+Final 0.8.0 normal pack: 199,920 B / 1,215,901 B (875 files). Packed consumers
+and all 2,059 public artwork hashes pass. See QA.md for exact pins and the
+maintainer publication fallback after npm rejected workflow authentication.
