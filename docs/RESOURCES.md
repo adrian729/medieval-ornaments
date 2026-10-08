@@ -214,10 +214,11 @@ node scripts/verify-resource.mjs borders-002 tmp/resource-checkouts/borders-002
 The scaffold imports the pinned main reusable workflow. Configure npm Trusted
 Publishing separately for each package with its **own resource repository**,
 workflow `publish.yml`, and GitHub-hosted runner; the caller's repository
-identity matters. The workflow supplies Node 22 and npm 11.6, verifies approved
+identity matters. The workflow supplies Node 22 and npm 11.19, verifies approved
 hashes/notices, caps compressed uploads at 200 MB and publishes with provenance.
 Initial/manual publication may use an already authorized maintainer npm login.
 Never put credentials in repository files. Do not dispatch before approval.
+See [authentication checks](PUBLISHING.md) for setup and verification.
 
 After registry/CDN verification, run `lock --source <id>` in a complete,
 non-partial clone, then commit the resulting exact source SHA in main. `lock`

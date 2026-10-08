@@ -435,3 +435,16 @@ consumers, all artwork hashes, live Pages examples/pinned CDN and the downloaded
 ZIP pass. Release tag v0.8.0 pins 05d7f67; resource v0.1.2 tags pin the three
 clean commits in resource-lock.json. Historical local-candidate checkpoints
 above are superseded by this completed release; optional archives remain unchanged.
+
+## Automated resource authentication follow-up (2026-10-09)
+
+- [x] Add a fail-closed authentication-only workflow using npm's real OIDC exchange, with no upload or version change.
+- [x] Remove setup-node's unused token npmrc; pin npm 11.19.0 and retain the caller's immutable tooling SHA and byte/identity checks.
+- [x] Pass 41 unit tests and public types; keep the runtime budget at 199,952 B / 1,215,973 B with the documentation update.
+- [ ] Pin/push the three resource callers and run authentication-only checks from their actual GitHub identities.
+- [ ] Inspect/fix npm Trusted Publisher settings using an interactive account session if the checks require it. The existing maintainer publishing token is rejected for trust management (E403).
+- [ ] Record successful authentication and, for any newly created connection, its first real publish/expiry status.
+
+No artwork, approved manifests, public npm versions or published source pins have
+changed in this infrastructure follow-up. docs/PUBLISHING.md records the exact
+identities, permissions and safe workflow invocation. Account login is pending.
