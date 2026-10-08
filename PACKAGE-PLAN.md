@@ -383,7 +383,7 @@ types, search, browser links and copied components. No new repeat is claimed.
 - [x] Resolve the measured runtime size increase with shared generic declarations and compact private per-design metadata. Public JSON/descriptions/provenance remain unchanged; individual imports remain isolated. Keep the original 200 KB / 1.25 MB test limits, including provided candidate archives.
 - [x] Publish the reviewed numbered resource bytes, verify npm/CDN, then lock exact clean source commits.
 - [x] Choose runtime 0.8.0, rebuild and pass its actual packed-consumer release gate; keep both old compatibility snapshots unchanged.
-- [ ] Publish runtime, deploy source-linked browser, verify live gallery/examples and attach the verified offline ZIP.
+- [x] Publish runtime, deploy source-linked browser, verify live gallery/examples and attach the verified offline ZIP.
 
 ### Rosselli repeat borders and runtime size follow-up
 
@@ -393,8 +393,9 @@ complete interior mask/foliate cycles, source/master hashes, a two-pixel collar,
 and refined AI-assisted foliate corner geometry with exact connecting collars.
 The four distinct corner phases and editor outputs are retained in borders-001.
 Original whole strips are preserved.
-Both belong to borders-001; its 0.1.2 revision is prepared with a pending commit
-pin. Publication and exact source locks remain outstanding for all three resources.
+Both belong to borders-001; its 0.1.2 revision was prepared with a pending commit
+pin at this checkpoint. Publication and exact source locks are now complete; see
+the 0.8.0 release coordination below.
 The reviewed 136-design runtime is 197,828 B packed / 1,198,353 B unpacked,
 below the unchanged 200,000 B / 1,250,000 B budget. Packed consumers, public
 types, isolated rebuilds, native/frame browser checks and selective imports pass.
@@ -407,7 +408,8 @@ prompt in `illustration-additions.json`. Optimized PNG pixels are identical;
 lossless WebP and native-derived 128/256/512/768 variants retain the outer alpha.
 The catalog now has 137 designs: 58 borders, 24 decorations, 55 illustrations.
 Individual vanilla/React imports and types are generated. All existing artwork
-and catalog entries remain unchanged. Publication and exact pins remain pending.
+and catalog entries remain unchanged. Publication and exact pins are now complete
+as part of the 0.8.0 release below.
 Runtime remains within the original size limits at 199,283 B packed /
 1,204,457 B unpacked (875 files), with no artwork dependency.
 
@@ -421,9 +423,15 @@ uses the supplied corrected 1004×1567 source with unchanged names/descriptions.
 - [x] Validate resource ownership, capacity, source audits, catalog, types, unit tests and isolated rebuild retention.
 - [x] Commit approved main tooling to an immutable release branch; pin resource publication workflows.
 - [x] Commit/push/publish resources; verify registry/CDN bytes; lock clean exact source commits.
-- [ ] Pass final release pack budget and actual packed consumers; commit/push main.
-- [ ] Publish runtime 0.8.0, create releases/tags for all four repos, upload browser ZIP, verify registry consumers and Pages/ZIP.
+- [x] Pass final release pack budget and actual packed consumers; commit/push main.
+- [x] Publish runtime 0.8.0, create releases/tags for all four repos, upload browser ZIP, verify registry consumers and Pages/ZIP.
 
 Final 0.8.0 normal pack: 199,920 B / 1,215,901 B (875 files). Packed consumers
 and all 2,059 public artwork hashes pass. See QA.md for exact pins and the
 maintainer publication fallback after npm rejected workflow authentication.
+
+All four releases are public and their latest npm tags are verified. Registry
+consumers, all artwork hashes, live Pages examples/pinned CDN and the downloaded
+ZIP pass. Release tag v0.8.0 pins 05d7f67; resource v0.1.2 tags pin the three
+clean commits in resource-lock.json. Historical local-candidate checkpoints
+above are superseded by this completed release; optional archives remain unchanged.

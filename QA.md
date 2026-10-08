@@ -1,6 +1,6 @@
 # Artwork and frame verification
 
-## 0.8.0 release gate and resource publication (2026-10-08)
+## 0.8.0 published release verification (2026-10-08)
 
 The final normal npm pack is **199,920 B packed / 1,215,901 B unpacked**, 875
 files, inside the unchanged 200,000 B / 1,250,000 B budget. It contains no
@@ -30,8 +30,23 @@ Legacy compatibility archives stay immutable at 0.4.0/0.1.0.
 
 The rebuilt browser ZIP is 431,547,944 B. The CDN-backed Pages build is
 42,548,588 B, below its 50 MB guard, with source audits and no local heavy
-artwork or ZIP. Runtime publication and deployed-site/registry checks follow.
-Evidence: ignored tmp/polyhymnia-replacement/ and tmp/package-integration.json.
+artwork or ZIP. Runtime 0.8.0 is published; its npm integrity matches the exact
+tested archive. Registry consumers pass again using all published resource
+packages, with all 2,059 artwork hashes verified; fixture:
+/tmp/ornaments-integration-g3eEYQ. CDN catalog matches all 137 designs.
+The main v0.8.0 tag points to tested release commit
+05d7f67f85f4dee04f60005104c524ac88926dd9. All four repos have pushed commits
+and public GitHub tags/releases; npm latest tags select 0.8.0 / 0.1.2. Pages
+deployment run 37825067535 passed. Deployed catalog and all three source audits
+match main bytes. Live vanilla/React at 375/1200px and fractional DPR, forced
+axes, pinned npm modules/artwork (including both Rosselli frames and corrected
+Polyhymnia), and downloaded offline ZIP all pass without browser errors or
+missing assets. ZIP fixture: /tmp/ornaments-browser-release-HfAObb. Uploaded,
+local and downloaded ZIP SHA-256:
+c6146646ec1eff3bdc6d1996bf907550551a9b61b060b3f8d959d0d13601e994.
+
+Evidence: ignored tmp/polyhymnia-replacement/, tmp/package-integration.json and
+tmp/package-site.json. [Runtime release](https://github.com/adrian729/medieval-ornaments/releases/tag/v0.8.0).
 
 ## Corrected Polyhymnia and 0.8.0 release preparation (2026-10-08)
 
