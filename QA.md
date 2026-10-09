@@ -1098,8 +1098,11 @@ resource byte/capacity verification, catalog (161 designs / 233 genuine SVGs /
 2,299 public files), artwork audit (416 reference joins, 110 integer atlases,
 58 pixel-exact rotated tiles), and isolated rebuild retention. New/copied
 individual entries preserve author metadata and rendering restrictions.
-Runtime candidate pack is 198,917 B / 1,141,896 B; final normal release pack and
-actual packed/registry consumers are pending. Decorations resource upload is
+Runtime candidate pack is 198,917 B / 1,141,896 B; the actual packed candidate consumers pass (fixture
+`/tmp/ornaments-integration-Ok8hAD`): 161 designs, 174 native axis/design cases,
+32 density/length cases, lean installation, all artwork hashes, React 18/19,
+SSR/hydration, local copied helpers, types and self-hosting. Final normal release
+pack and registry consumers remain pending. Decorations resource upload is
 104,541,688 B and illustrations 195,819,444 B, both under the 200 MB ceiling.
 Next illustration additions must account for that small upload reserve.
 Historical reports remain in PERFORMANCE-HISTORY.md/MERGE-PLAN.md; compact
