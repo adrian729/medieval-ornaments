@@ -8,11 +8,30 @@ GitHub environment and direct-publish permission. Authentication-only runs
 37892212475 (borders), 37892216484 (decorations), and 37892220297 (illustrations)
 all pass the actual npm OIDC exchange; every real publish step is skipped.
 
-Resources 0.1.3 are approved for first-publish activation within npm's two-day
-deadline. Their manifests differ from 0.1.2 only in version: all 2,059 exports,
-native inputs, capabilities and selection catalogs are unchanged. Publication,
-registry/CDN checks and exact source locks are pending. Runtime 0.8.1 will adopt
-the verified resource pins; the optional compatibility archives stay unchanged.
+Resources 0.1.3 completed their first real GitHub OIDC publication within npm's
+two-day deadline. Runs 37892458561 / 37892461639 / 37892465609 succeeded with
+signed npm provenance. Registry downloads, CDN manifests and representative
+artwork hashes pass. npm provenance records the exact caller workflow and source
+SHA for each release. All three GitHub v0.1.3 releases are public.
+
+Their manifests differ from 0.1.2 only in version: all 2,059 exports, native
+inputs, capabilities and selection catalogs are unchanged. Exact clean source
+locks are borders `b7b43e5e4aa40b4526940bc172a6f2d1bcbd67c9`, decorations
+`59203bf4fb96f3e819374f01bac7295bd4e1ad29`, and illustrations
+`d72a6437770ef7c626aa87df7a9f0bac8df5b8ce`. Complete remote history audits remain
+below capacity: 186,066,750 / 89,936,753 / 218,794,806 B respectively.
+
+Runtime 0.8.1 adopts these verified pins. 41 unit tests, public types, selective
+imports and unchanged-artwork checks pass. Normal pack: 199,957 B compressed /
+1,215,976 B unpacked, 875 files, within the original budgets. Native checks
+preserve reference pixels, 416 frame joins, 110 integer-sliced atlases and 58
+exact rotated tiles. Packed consumers pass vanilla/React 18/19, SSR/hydration,
+refs/state, native/bundled rendering, selective/offline installs and all public
+artwork hashes. The final archive's SHA-512 matches the consumer-test fixture.
+Browser ZIP integrity passes: 431,547,981 B, SHA-256
+`1e0093676fe613ec0157f21eb061a6ba71da9ac54ae12f81af2da423193f8409`.
+Runtime/site publication is pending. Optional compatibility archives stay at
+0.4.0/0.1.0. Evidence: tmp/npm-auth/.
 
 ## Automated publishing authentication follow-up (2026-10-09)
 

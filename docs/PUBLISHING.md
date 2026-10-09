@@ -61,3 +61,13 @@ the first publish occurred. Track this separately and validate a new connection
 through a reviewed resource release within npm's deadline. Follow the normal
 [resource release ordering](RESOURCES.md); never republish an existing version.
 Auth-only workflow commits do not change artwork manifests or published pins.
+
+## First connection validation, 2026-10-09
+
+The maintainer enrolled a passkey and npm reports account 2FA as enabled. All
+three resource connections were created with the identities above. Checks
+37892212475 / 37892216484 / 37892220297 confirmed npm's actual OIDC exchange.
+The approved 0.1.3 patches preserve every 0.1.2 artwork/native hash and rendering
+capability; they provide the required first real publish. Publication workflows
+pin main tooling 9bfb355ec00b2236fd64915dbde26b203c8b5b13. Final registry/source
+verification and connection activation status are recorded in QA.md.

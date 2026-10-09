@@ -162,7 +162,7 @@ Run this from your application's root. The examples pin the generator version
 so another developer can reproduce the same source:
 
 ```sh
-npx @ranx729/medieval-ornaments@0.8.0 add \
+npx @ranx729/medieval-ornaments@0.8.1 add \
   red-berry-vine gold-scroll-with-blue-bellflowers
 ```
 
@@ -215,7 +215,7 @@ package marker and declarations. No import references this npm runtime package.
 For vanilla code:
 
 ```sh
-npx @ranx729/medieval-ornaments@0.8.0 add red-berry-vine --framework vanilla
+npx @ranx729/medieval-ornaments@0.8.1 add red-berry-vine --framework vanilla
 ```
 
 ```js
@@ -253,7 +253,7 @@ component installation; already verified artwork files can be reused on retry.
 For an application deployed at `/my-app/`:
 
 ```sh
-npx @ranx729/medieval-ornaments@0.8.0 add red-berry-vine \
+npx @ranx729/medieval-ornaments@0.8.1 add red-berry-vine \
   --out src/ui/ornaments \
   --assets public/ornaments \
   --assets-base /my-app/ornaments/
@@ -296,13 +296,13 @@ For a fully local invocation, install the generator and full optional archive
 while connected, then run the installed CLI:
 
 ```sh
-npm install --save-dev @ranx729/medieval-ornaments@0.8.0
-npm install --save-dev @ranx729/medieval-ornaments-assets-borders-001@0.1.2
+npm install --save-dev @ranx729/medieval-ornaments@0.8.1
+npm install --save-dev @ranx729/medieval-ornaments-assets-borders-001@0.1.3
 npx --no-install medieval-ornaments add red-berry-vine --offline
 ```
 
 This explicitly installs both artwork archives. For illustrations alone, install
-`@ranx729/medieval-ornaments-assets-illustrations-001@0.1.2` instead and use a name such
+`@ranx729/medieval-ornaments-assets-illustrations-001@0.1.3` instead and use a name such
 as `flying-pig`. Alternatively, `--from /path/to/mirror
 --offline` uses a local mirror containing the exact `assets-manifest.json` and
 the selected artwork paths from that revision. The source repository qualifies.
@@ -353,7 +353,7 @@ source comes from each design's assignment, including future `borders-002`
 resources. Import `getAssetSource` from `/resources` to discover exact offline
 package/version pins without loading the catalog. Install only those packages
 then use `--offline`. Decorations currently use
-`@ranx729/medieval-ornaments-assets-decorations-001@0.1.2`. The unnumbered full
+`@ranx729/medieval-ornaments-assets-decorations-001@0.1.3`. The unnumbered full
 and illustration archives remain compatible optional sources for this artwork
 snapshot. Flat `--from` mirrors retain their approved `assets-manifest.json`;
 a single numbered repository is not a flat collection mirror.

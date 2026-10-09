@@ -442,8 +442,8 @@ above are superseded by this completed release; optional archives remain unchang
 - [x] Remove setup-node's unused token npmrc; pin npm 11.19.0 and retain the caller's immutable tooling SHA and byte/identity checks.
 - [x] Pass 41 unit tests and public types; keep the runtime budget at 199,952 B / 1,215,973 B with the documentation update.
 - [x] Pin/push the three resource callers and run authentication-only checks from their actual GitHub identities. All byte/identity checks pass, but all three authentication checks fail; settings are still unresolved.
-- [ ] Inspect/fix npm Trusted Publisher settings using an interactive account session if the checks require it. The existing maintainer publishing token is rejected for trust management (E403).
-- [ ] Record successful authentication and, for any newly created connection, its first real publish/expiry status.
+- [x] Inspect/fix npm Trusted Publisher settings using an interactive account session and the user's passkey enrollment. The old publishing token remains unsuitable for trust management.
+- [x] Record successful authentication and the first real publish for all three new connections; see activation results below.
 
 No artwork, approved manifests, public npm versions or published source pins have
 changed in this infrastructure follow-up. docs/PUBLISHING.md records the exact
@@ -470,7 +470,7 @@ OIDC exchange. The previous authentication failures above are superseded.
 
 - [x] Verify account 2FA, configure each resource's Trusted Publisher and pass all three authentication-only workflows.
 - [x] Approve resource 0.1.3 manifests; prove only their version changes and all artwork/native/capability data stays identical.
-- [ ] Publish the three 0.1.3 resource revisions using GitHub OIDC within npm's two-day deadline, verify registry/CDN and lock their exact clean source commits.
+- [x] Publish the three 0.1.3 resource revisions using GitHub OIDC within npm's two-day deadline, verify registry/CDN and lock their exact clean source commits.
 - [ ] Release runtime 0.8.1 with those pins, pass package budgets and consumers, upload its browser ZIP and verify Pages.
 
 The real first publish is required to permanently validate a new connection;

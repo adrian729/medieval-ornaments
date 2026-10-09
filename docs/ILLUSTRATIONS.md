@@ -12,7 +12,7 @@ traced, resized or re-encoded during migration.
 In an existing React or vanilla application, install the lightweight runtime:
 
 ```sh
-npm install @ranx729/medieval-ornaments@0.8.0
+npm install @ranx729/medieval-ornaments@0.8.1
 ```
 
 React applications also need their own React dependency. **Individual imports
@@ -69,7 +69,7 @@ Defaults remain eager loading, automatic decoding/priority and 2× density.
 ## Copy only selected code and artwork
 
 ```sh
-npx @ranx729/medieval-ornaments@0.8.0 add flying-pig rabbit-reading-book
+npx @ranx729/medieval-ornaments@0.8.1 add flying-pig rabbit-reading-book
 ```
 
 This writes editable React modules under `src/ornaments/` and only their verified
@@ -94,8 +94,8 @@ For illustration-only offline copying, first install the runtime/CLI and the
 data-only archive while connected, then copy locally:
 
 ```sh
-npm install @ranx729/medieval-ornaments@0.8.0
-npm install --save-dev @ranx729/medieval-ornaments-assets-illustrations-001@0.1.2
+npm install @ranx729/medieval-ornaments@0.8.1
+npm install --save-dev @ranx729/medieval-ornaments-assets-illustrations-001@0.1.3
 npx --no-install medieval-ornaments copy-assets public/ornaments \
   --design flying-pig --offline
 ```
@@ -308,7 +308,7 @@ unchanged. Corners are modern AI-assisted foliate adaptations of the same artwor
 phase-matched atlas for `round` fitting. No SVG redraw is supplied. Bounds,
 hashes and repeat evidence are in `historical-border-patterns.json`.
 
-The 0.8.0 runtime uses numbered resource revisions 0.1.2. Exact source commits
+The 0.8.1 runtime uses numbered resource revisions 0.1.3. Exact source commits
 and approved manifest hashes are recorded in `resource-lock.json`; README
 previews use immutable source URLs. Use `?assets=local` only for authoring previews.
 Release packing rejects missing commit pins. The user-supplied Polyhymnia scene
