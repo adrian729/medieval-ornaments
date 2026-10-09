@@ -67,7 +67,8 @@ export function createPicker({ id, label, items, value, search, thumbnail, onCha
     onChange(name);
   }
 
-  trigger.addEventListener('click', () => { renderCategories(); render(); dialog.showModal(); search_.focus(); });
+  // Each opening starts from the full list; type and category choices persist.
+  trigger.addEventListener('click', () => { search_.value = ''; state.query = ''; renderCategories(); render(); dialog.showModal(); search_.focus(); });
   close.addEventListener('click', () => dialog.close());
   dialog.addEventListener('click', event => { if (event.target === dialog) dialog.close(); });
   dialog.addEventListener('close', () => { for (const cleanup of cleanups) cleanup(); cleanups = []; grid.replaceChildren(); });

@@ -40,7 +40,7 @@ function DesignPicker({ id, label, items, search, value, onChange }) {
   const current = items.find(item => item.name === value);
   const close = () => dialog.current.close();
   return <>
-    <button type="button" className="picker-trigger" id={id} data-value={value} aria-haspopup="dialog" onClick={() => { setOpen(true); dialog.current.showModal(); }}>
+    <button type="button" className="picker-trigger" id={id} data-value={value} aria-haspopup="dialog" onClick={() => { setQuery(''); setOpen(true); dialog.current.showModal(); }}>
       <span className="picker-thumb"><Thumb item={current} /></span>
       <span className="picker-label"><strong>{readable(value)}</strong><small>Change</small></span>
     </button>

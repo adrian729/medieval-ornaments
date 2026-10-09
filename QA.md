@@ -1185,4 +1185,20 @@ locked resource commits: 161 designs, 174 native axis cases, React 18/19,
 Strict Mode, SSR/hydration and self-hosting. After regenerating the README
 gallery for the seven locked commits, the runtime pack is 200,162 B, 162 B over
 the 200,000 B budget (seven distinct pinned commits compress less than three);
-the budget decision is pending with the maintainer.
+the packed budget was then raised to 210,000 B (see PACKAGE-PLAN.md).
+
+Publication (2026-10-09): borders-001 0.2.0, decorations-001 0.1.5 and
+illustrations-001 0.2.0 through OIDC workflows; borders-002/003/004 and
+illustrations-002 0.1.0 by maintainer login (registry integrity equals the
+verified local tarballs), then 0.1.1 through OIDC with identical files. Each 0.1.1
+registry integrity equals a local deterministic pack of the same commit. npm adds
+its own `0.0.0-stage` placeholder to new package names; it is never `latest`.
+
+Real-CDN gallery, cold browser cache, jsDelivr defaults: all 161 designs load
+with none unavailable; border pages 1.7–2.8 s, illustration pages 2.1–4.1 s,
+decorations 2.3 s (11.6 s while jsDelivr first fetched files). Before, with the
+0.9.0 packages on unpkg, uncached thumbnails had no response after 30 s.
+Runtime 0.10.0 packs to 200,292 B / 1,149,162 B; `npm test` (43), types,
+`browser_check.mjs` (237, including picker type/category/search), packed
+consumers and the self-hosted ZIP (477,428,750 B, SHA-256 468a4edc…) pass.
+

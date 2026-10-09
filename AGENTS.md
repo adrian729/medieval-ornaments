@@ -94,3 +94,15 @@ Generic usage-note encoding and compact generated modules preserve all public
 metadata and individual import boundaries. Active shipped guides link preserved
 historical reports in PERFORMANCE-HISTORY.md and MERGE-PLAN.md; the alphabetical
 README gallery lists formats and directs downloads to the main asset browser.
+
+Runtime 0.10.0 splits resources under a 140 MB unpacked package limit and
+defaults to jsDelivr: borders-001 0.2.0 (54 borders), borders-002/003 (the two
+russet borders, sealed), borders-004 (painted vines, open), decorations-001
+0.1.5, illustrations-001 0.2.0 (original cutouts, sealed) and illustrations-002
+(28 later illustrations, open), pinned in resource-lock.json. Uploads are packed
+WebP-first. All seven resources and the runtime (`release.yml`) publish through
+npm Trusted Publishing; only a brand-new package needs one interactive first
+publish and trust link. The public pages were redesigned (overview, paginated
+gallery, searchable pickers in the integration examples); the packed runtime
+budget is 210 KB.
+

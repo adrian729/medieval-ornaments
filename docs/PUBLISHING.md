@@ -13,6 +13,19 @@ Configure each package separately with these exact GitHub identities:
 | `@ranx729/medieval-ornaments-assets-borders-001` | `adrian729/medieval-ornaments-assets-borders-001` | `publish.yml` |
 | `@ranx729/medieval-ornaments-assets-decorations-001` | `adrian729/medieval-ornaments-assets-decorations-001` | `publish.yml` |
 | `@ranx729/medieval-ornaments-assets-illustrations-001` | `adrian729/medieval-ornaments-assets-illustrations-001` | `publish.yml` |
+| `@ranx729/medieval-ornaments-assets-borders-002` … `-004`, `-illustrations-002` | the matching `adrian729/medieval-ornaments-assets-<id>` | `publish.yml` |
+| `@ranx729/medieval-ornaments` (runtime) | `adrian729/medieval-ornaments` | `release.yml` |
+
+The runtime publishes through `.github/workflows/release.yml` (dispatch on
+`main`; `check-authentication=true` verifies OIDC only). Run tests, browser
+checks and packed consumers locally first: CI has no resource checkouts.
+
+A new package cannot be linked before it exists (npm answers 404). Publish its
+verified first tarball from an interactive terminal (npm confirms in the
+browser), link it with `npm trust github`, then publish an identical-artwork
+patch through `publish.yml` within two days to activate the connection. The four
+2026-10-09 packages were activated this way (0.1.1); the runtime connection
+activates with its first `release.yml` publish.
 
 No GitHub environment is used. Enable **Allow npm publish**; a staged-publishing
 permission alone does not authorize the existing direct-publish workflow. For

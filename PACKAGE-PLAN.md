@@ -531,14 +531,15 @@ but served decorations-001's uncached files in 0.12–0.53 s once warm.
 - [x] Approve and lock borders-001 0.2.0, borders-002/003/004 0.1.0, illustrations-001 0.2.0, illustrations-002 0.1.0, decorations-001 0.1.5.
 - [x] Pass unit/type tests, 235 browser checks, catalog/artwork checks and the self-hosted ZIP.
 - [x] Create the four new GitHub repositories and push all seven resource commits.
-- [ ] First publication of the four new packages from a maintainer npm login; configure their Trusted Publishers.
+- [x] First publication of the four new packages from a maintainer npm login (integrity matches the verified tarballs); configure their Trusted Publishers and activate them with identical-artwork 0.1.1 OIDC publishes (runs 37949656711 / 37949662877 / 37949669244 / 37949677726).
 - [x] Publish borders-001 0.2.0, illustrations-001 0.2.0 and decorations-001 0.1.5 through their workflows (runs 37944645504 / 37944659791 / 37944652680, with provenance).
 - [x] Measure unpkg and jsDelivr on the new packages; jsDelivr is now the default in `cdnBase`.
-- [ ] Bump the runtime to 0.10.0, regenerate the README gallery, pass packed consumers, publish, tag, deploy Pages and run `tests/site.mjs`.
+- [x] Bump the runtime to 0.10.0, regenerate the README gallery and pass unit/type tests, 237 browser checks, packed consumers and the self-hosted ZIP.
+- [ ] Merge to main (Pages), publish the runtime through `release.yml`, create releases/tags and run `tests/site.mjs`.
 
-The runtime pack is 200,162 B after regenerating the README gallery for seven
-locked commits, 162 B over the 200,000 B budget. Each numbered source adds about
-360 B of pins plus README gallery commit links. Decide the budget before release.
+The runtime pack is 200,292 B. The packed budget is now 210,000 B (unpacked
+1,250,000 B unchanged): each numbered source adds about 0.4 KB of pins, and the
+runtime still contains no artwork.
 
 CDN choice: on the published 0.2.0/0.1.5 versions, 24 never-requested WebP files
 from jsDelivr took 0.08–0.45 s typically and 2–4.6 s while it first loaded a
