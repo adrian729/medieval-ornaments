@@ -80,3 +80,14 @@ export function codePanel(panel) {
   copy?.addEventListener('click', () => copyText(pre.textContent, copy));
   return { set(next) { snippets = next; show(current); }, get text() { return pre.textContent; } };
 }
+
+export const kilobytes = bytes => bytes >= 1024 * 1024 ? `${(bytes / 1024 / 1024).toFixed(1)} MB` : `${Math.max(1, Math.round(bytes / 1024))} KB`;
+
+// The published WebP files of a whole image, smallest first. `size` is the CSS
+// height that selects exactly that file at pixelRatio 1, shown at its pixel size.
+export function imageSizes(item) {
+  const aspect = item.width / item.height;
+  return [...[...item.variants].sort((a, b) => a.max_dimension - b.max_dimension).map(asset => [String(asset.max_dimension), asset]), ['Original', item]]
+    .map(([label, asset]) => ({ label, width: asset.width, height: asset.height, bytes: asset.webp_bytes, path: asset.webp,
+      size: Math.max(asset.width, asset.height) / Math.max(aspect, 1) }));
+}

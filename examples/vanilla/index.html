@@ -39,30 +39,43 @@
     <div class="install"><code>npm i @ranx729/medieval-ornaments</code><button class="copy" type="button" data-copy-text="npm i @ranx729/medieval-ornaments">Copy</button></div>
   </div>
 
-  <section class="section" aria-labelledby="playTitle">
-    <div class="section-head"><h2 id="playTitle">Try the controllers</h2><p class="muted">Every change below calls <code>update()</code> on the same controllers. The code reflects your current choices.</p></div>
+  <section class="section" aria-labelledby="bordersTitle">
+    <div class="section-head"><h2 id="bordersTitle">Borders: frames and dividers</h2><p class="muted">Every border works as a frame around any element and as a divider in either direction. Changes call <code>update()</code> on the same controllers.</p></div>
     <div class="playground">
       <form class="panel play-controls" onsubmit="return false">
         <div class="field"><span>Border</span><div id="designPicker"></div></div>
-        <label class="field">Divider direction <select id="orientation"><option value="original">Original direction</option><option value="horizontal">Horizontal</option><option value="vertical">Vertical</option></select></label>
-        <label class="field"><span class="field-row">Thickness <output id="sizeOut">24px</output></span><input id="size" type="range" min="12" max="64" value="24"></label>
-        <div class="field"><span>Image</span><div id="imagePicker"></div></div>
-        <label class="field">Image height <select id="imageSize"><option value="96">96px</option><option value="128" selected>128px</option><option value="192">192px</option></select></label>
+        <label class="field">Divider direction <select id="orientation" name="orientation"><option value="original">Original direction</option><option value="horizontal">Horizontal</option><option value="vertical">Vertical</option></select></label>
+        <label class="field"><span class="field-row">Thickness <output id="sizeOut">24px</output></span><input id="size" name="size" type="range" min="12" max="64" value="24"></label>
       </form>
       <div class="play-output">
         <div class="stage">
-          <article id="frame" class="play-card"><h3>A frame for your content</h3><p>Your markup stays yours: changing the border keeps this text and the input below.</p><label class="field">Your note <input id="note" type="text" value="Notes from the garden"></label></article>
+          <article id="frame" class="play-card"><h3>A frame for your content</h3><p>Your markup stays yours: changing the border keeps this text and the input below.</p><label class="field">Your note <input id="note" name="note" type="text" value="Notes from the garden"></label></article>
         </div>
-        <div class="play-row">
-          <div class="stage divider-stage"><div id="divider"></div></div>
-          <div class="stage image-stage"><img id="whole" alt=""></div>
-        </div>
+        <div class="stage divider-stage"><div id="divider"></div></div>
         <p class="play-actions"><button id="toggle" class="btn btn-sm" type="button">Detach frame</button><span class="muted" id="details"></span></p>
       </div>
     </div>
-    <div class="code-panel" id="playCode">
+    <div class="code-panel" id="borderCode">
       <div class="code-bar"><div class="code-tabs" role="tablist"><button type="button" role="tab" data-lang="js">JavaScript</button><button type="button" role="tab" data-lang="html">HTML</button></div><button class="copy" type="button">Copy</button></div>
       <pre class="code" id="code"></pre>
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="imagesTitle">
+    <div class="section-head"><h2 id="imagesTitle">Images: decorations and illustrations</h2><p class="muted">Whole images keep their proportions. Choose one of the sizes published for the selected image; it is shown at that file’s pixel size.</p></div>
+    <div class="playground">
+      <form class="panel play-controls" onsubmit="return false">
+        <div class="field"><span>Image</span><div id="imagePicker"></div></div>
+        <div class="field"><span>Size</span><div class="segmented" id="imageSize" role="group" aria-label="Image size"></div></div>
+      </form>
+      <div class="play-output">
+        <div class="stage image-stage"><img id="whole" alt=""></div>
+        <p class="play-actions muted" id="imageDetails"></p>
+      </div>
+    </div>
+    <div class="code-panel" id="imageCode">
+      <div class="code-bar"><div class="code-tabs" role="tablist"><button type="button" role="tab" data-lang="js">JavaScript</button><button type="button" role="tab" data-lang="html">HTML</button></div><button class="copy" type="button">Copy</button></div>
+      <pre class="code"></pre>
     </div>
   </section>
 

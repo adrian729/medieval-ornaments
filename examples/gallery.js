@@ -3,7 +3,7 @@
 // a design's full-resolution artwork loads only when it is opened.
 import { findOrnaments, getOrnament, resolveOrnament, getAssetSource } from '../lib/index.js';
 import { assetsBase, withHosting } from './shared/env.js';
-import { $, $$, element, readable, typeLabel, debounce, loadImage, prefetch, idle, segmented, codePanel } from './shared/ui.js';
+import { $, $$, element, readable, typeLabel, debounce, loadImage, prefetch, idle, segmented, codePanel, kilobytes } from './shared/ui.js';
 import { htmlSnippet, jsSnippet, reactSnippet, cliSnippet } from './shared/snippets.js';
 
 const PAGE_SIZE = 24, THUMB = { width: 128, height: 112 }, STRIP = 32;
@@ -153,7 +153,6 @@ function previewFor(item, mode = view.mode) {
   return resolveOrnament('divider', withHosting({ design: item.name, size: view.size, orientation: view.orientation }));
 }
 const fileUrl = path => assetsBase ? assetsBase.replace(/\/?$/, '/') + path : getAssetSource(current.name).base + path;
-const kilobytes = bytes => bytes >= 1024 * 1024 ? `${(bytes / 1024 / 1024).toFixed(1)} MB` : `${Math.max(1, Math.round(bytes / 1024))} KB`;
 function fileInfo(item, path) {
   const format = path.split('.').pop();
   const assets = [item, ...Object.values(item.components || {})].flatMap(asset => [asset, ...(asset.variants || [])]);

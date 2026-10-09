@@ -16,8 +16,8 @@ export function createPicker({ id, label, items, value, search, thumbnail, onCha
   const trigger = element('button', { type: 'button', class: 'picker-trigger', id, 'aria-haspopup': 'dialog', 'data-value': value },
     triggerArt, element('span', { class: 'picker-label' }, triggerName, element('small', { text: 'Change' })));
 
-  const search_ = element('input', { type: 'search', placeholder: 'Search names, subjects, colours…', 'aria-label': `Search ${label.toLowerCase()}`, autocomplete: 'off' });
-  const category = element('select', { 'aria-label': 'Category' });
+  const search_ = element('input', { type: 'search', name: `${id}-search`, placeholder: 'Search names, subjects, colours…', 'aria-label': `Search ${label.toLowerCase()}`, autocomplete: 'off' });
+  const category = element('select', { name: `${id}-category`, 'aria-label': 'Category' });
   const tabs = types.length > 1 ? element('div', { class: 'segmented', role: 'group', 'aria-label': 'Type' },
     ...['all', ...types].map(type => element('button', { type: 'button', 'data-value': type, 'aria-pressed': String(type === 'all'), text: type === 'all' ? 'All' : typePlural[type] }))) : null;
   const count = element('p', { class: 'picker-count', 'aria-live': 'polite' });

@@ -179,7 +179,8 @@ The wrapper supports React 18/19, refs to real DOM elements, `className`, `style
 native attributes, and native image load/error handlers. Frames accept children.
 Dividers and images do not. Image sources, dimensions and geometry are controlled
 through the library options; do not pass `src`, `srcSet`, `width`, or `height`.
-Use `size` for image height. A divider is decorative (`aria-hidden`) by default;
+Use `size` for image height; images also get `--ornament-width`, so lazy images are
+sized before loading. A divider is decorative (`aria-hidden`) by default;
 React callers can override that attribute when providing their own semantics.
 
 React renders ordinary elements directly. It preserves content/input nodes when
@@ -402,7 +403,7 @@ previously the artwork was included in every runtime installation. Versions
 
 ## Native browser modules, no bundler
 
-Download the [browser ZIP](https://github.com/adrian729/medieval-ornaments/releases/download/v0.10.0/medieval-ornaments-browser.zip)
+Download the [browser ZIP](https://github.com/adrian729/medieval-ornaments/releases/download/v0.10.1/medieval-ornaments-browser.zip)
 and serve it over HTTP. It includes a self-hosted vanilla example. Or copy the
 runtime's `lib/` and `ornaments.css`, plus artwork copied with `copy-assets --offline`, to your static site:
 

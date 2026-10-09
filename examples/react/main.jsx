@@ -3,7 +3,7 @@ import { createRoot } from 'react-dom/client';
 import { OrnamentFrame, OrnamentDivider, OrnamentImage } from '@ranx729/medieval-ornaments/react';
 import { OrnamentDivider as BerryDivider } from '@ranx729/medieval-ornaments/react/red-berry-vine';
 import { OrnamentImage as FlyingPig } from '@ranx729/medieval-ornaments/react/flying-pig';
-import { findOrnaments } from '@ranx729/medieval-ornaments';
+import { findOrnaments, getOrnament } from '@ranx729/medieval-ornaments';
 import '../site.css';
 import '../playground.css';
 
@@ -22,7 +22,7 @@ const typeNames = { border: 'Borders', decoration: 'Decorations', illustration: 
 function Thumb({ item, lazy }) {
   const shared = { design: item.name, pixelRatio: 1, format: 'webp', assetsBase, ...(lazy ? { loading: 'lazy' } : {}) };
   return item.kind === 'repeat-tile'
-    ? <OrnamentDivider {...shared} size={24} orientation="horizontal" />
+    ? <OrnamentDivider {...shared} size={lazy ? 24 : Math.min(16, 50 / item.repeat_ratio)} orientation="horizontal" />
     : <OrnamentImage {...shared} size={Math.max(8, Math.floor(Math.min(88, 112 * item.height / item.width)))} decoding="async" />;
 }
 
@@ -50,8 +50,8 @@ function DesignPicker({ id, label, items, search, value, onChange }) {
         {types.length > 1 && <div className="segmented" role="group" aria-label="Type">
           {['all', ...types].map(name => <button key={name} type="button" aria-pressed={type === name} onClick={() => setType(name)}>{name === 'all' ? 'All' : typeNames[name]}</button>)}
         </div>}
-        <input type="search" value={query} placeholder="Search names, subjects, colours…" aria-label={`Search ${label.toLowerCase()}`} onChange={event => setQuery(event.target.value)} />
-        <select value={activeCategory} aria-label="Category" onChange={event => setCategory(event.target.value)}>
+        <input type="search" name={`${id}-search`} value={query} placeholder="Search names, subjects, colours…" aria-label={`Search ${label.toLowerCase()}`} onChange={event => setQuery(event.target.value)} />
+        <select name={`${id}-category`} value={activeCategory} aria-label="Category" onChange={event => setCategory(event.target.value)}>
           <option value="">All categories</option>
           {[...counts].sort(([a], [b]) => a.localeCompare(b)).map(([name, count]) => <option key={name} value={name}>{capital(name)} ({count})</option>)}
         </select>
@@ -76,22 +76,38 @@ function Code({ children }) {
   </div>;
 }
 
+// The published WebP files of a whole image, smallest first. `size` is the CSS
+// height that selects exactly that file at pixelRatio 1, shown at its pixel size.
+function imageSizes(item) {
+  const aspect = item.width / item.height;
+  return [...[...item.variants].sort((a, b) => a.max_dimension - b.max_dimension).map(asset => [String(asset.max_dimension), asset]), ['Original', item]]
+    .map(([label, asset]) => ({ label, width: asset.width, height: asset.height, bytes: asset.webp_bytes, path: asset.webp,
+      size: Math.max(asset.width, asset.height) / Math.max(aspect, 1) }));
+}
+const kilobytes = bytes => bytes >= 1048576 ? `${(bytes / 1048576).toFixed(1)} MB` : `${Math.max(1, Math.round(bytes / 1024))} KB`;
+
 function App() {
   const [design, setDesign] = useState('red-berry-vine');
   const [orientation, setOrientation] = useState('original');
   const [size, setSize] = useState(24);
-  const [image, setImage] = useState('floral-bird-panel-blue');
-  const [imageSize, setImageSize] = useState(128);
   const [note, setNote] = useState('Notes from the garden');
   const [visible, setVisible] = useState(true);
-  const snippet = `import { OrnamentFrame, OrnamentDivider, OrnamentImage }
+  const [image, setImage] = useState('floral-bird-panel-blue');
+  const [tier, setTier] = useState('256');
+  const sizes = imageSizes(getOrnament(image));
+  const chosen = sizes.find(option => option.label === tier) || sizes.findLast(option => Number(option.label) <= Number(tier)) || sizes[0];
+  const imageSize = Math.round(chosen.size * 100) / 100;
+  const borderSnippet = `import { OrnamentFrame, OrnamentDivider }
   from '@ranx729/medieval-ornaments/react';
 
 <OrnamentFrame design="${design}" size={${size}}>
   …
 </OrnamentFrame>
-<OrnamentDivider design="${design}" orientation="${orientation}" size={${size}} />
-<OrnamentImage design="${image}" size={${imageSize}} loading="lazy" />`;
+<OrnamentDivider design="${design}" orientation="${orientation}" size={${size}} />`;
+  const imageSnippet = `import { OrnamentImage } from '@ranx729/medieval-ornaments/react';
+
+// Loads ${chosen.path} (${chosen.width} × ${chosen.height} px).
+<OrnamentImage design="${image}" size={${imageSize}} pixelRatio={1} loading="lazy" />`;
   return <>
     <div className="page-head">
       <p className="eyebrow">Integration</p>
@@ -100,32 +116,44 @@ function App() {
       <div className="install"><code>npm i @ranx729/medieval-ornaments</code></div>
     </div>
 
-    <section className="section" aria-labelledby="playTitle">
-      <div className="section-head"><h2 id="playTitle">Try the components</h2><p className="muted">Change any option: React re-renders the same elements, and the note you type stays put.</p></div>
+    <section className="section" aria-labelledby="bordersTitle">
+      <div className="section-head"><h2 id="bordersTitle">Borders: frames and dividers</h2><p className="muted">Every border works as a frame around any element and as a divider in either direction. React re-renders the same elements, so the note you type stays put.</p></div>
       <div className="playground">
         <form className="panel play-controls" onSubmit={event => event.preventDefault()}>
           <div className="field"><span>Border</span><DesignPicker id="design" label="Border" items={borders} search={searchBorders} value={design} onChange={setDesign} /></div>
-          <label className="field">Divider direction <select id="orientation" value={orientation} onChange={event => setOrientation(event.target.value)}><option value="original">Original direction</option><option value="horizontal">Horizontal</option><option value="vertical">Vertical</option></select></label>
-          <label className="field"><span className="field-row">Thickness <output>{size}px</output></span><input id="size" type="range" min="12" max="64" value={size} onChange={event => setSize(Number(event.target.value))} /></label>
-          <div className="field"><span>Image</span><DesignPicker id="wholeDesign" label="Image" items={images} search={searchImages} value={image} onChange={setImage} /></div>
-          <label className="field">Image height <select id="imageSize" value={imageSize} onChange={event => setImageSize(Number(event.target.value))}><option value="96">96px</option><option value="128">128px</option><option value="192">192px</option></select></label>
+          <label className="field">Divider direction <select id="orientation" name="orientation" value={orientation} onChange={event => setOrientation(event.target.value)}><option value="original">Original direction</option><option value="horizontal">Horizontal</option><option value="vertical">Vertical</option></select></label>
+          <label className="field"><span className="field-row">Thickness <output>{size}px</output></span><input id="size" name="size" type="range" min="12" max="64" value={size} onChange={event => setSize(Number(event.target.value))} /></label>
         </form>
         <div className="play-output">
           <div className="stage">
             {visible && <OrnamentFrame id="frame" className="play-card" design={design} size={size} assetsBase={assetsBase}>
               <h2>A frame for your content</h2>
               <p>React owns these children. Changing the border keeps this text and the input below.</p>
-              <label className="field">Your note <input id="note" type="text" value={note} onChange={event => setNote(event.target.value)} /></label>
+              <label className="field">Your note <input id="note" name="note" type="text" value={note} onChange={event => setNote(event.target.value)} /></label>
             </OrnamentFrame>}
           </div>
-          <div className="play-row">
-            <div className="stage divider-stage"><OrnamentDivider id="divider" design={design} orientation={orientation} size={size} assetsBase={assetsBase} /></div>
-            <div className="stage image-stage"><OrnamentImage id="whole" design={image} size={imageSize} loading="lazy" decoding="async" assetsBase={assetsBase} /></div>
-          </div>
+          <div className="stage divider-stage"><OrnamentDivider id="divider" design={design} orientation={orientation} size={size} assetsBase={assetsBase} /></div>
           <p className="play-actions"><button id="toggle" className="btn btn-sm" type="button" onClick={() => setVisible(value => !value)}>{visible ? 'Hide frame' : 'Show frame'}</button><span className="muted">Your note survives because its state lives above the frame.</span></p>
         </div>
       </div>
-      <Code>{snippet}</Code>
+      <Code>{borderSnippet}</Code>
+    </section>
+
+    <section className="section" aria-labelledby="imagesTitle">
+      <div className="section-head"><h2 id="imagesTitle">Images: decorations and illustrations</h2><p className="muted">Whole images keep their proportions. Choose one of the sizes published for the selected image; it is shown at that file’s pixel size.</p></div>
+      <div className="playground">
+        <form className="panel play-controls" onSubmit={event => event.preventDefault()}>
+          <div className="field"><span>Image</span><DesignPicker id="wholeDesign" label="Image" items={images} search={searchImages} value={image} onChange={setImage} /></div>
+          <div className="field"><span>Size</span><div className="segmented" id="imageSize" role="group" aria-label="Image size">
+            {sizes.map(option => <button key={option.label} type="button" data-value={option.label} aria-pressed={option === chosen} title={`${option.width} × ${option.height} px · ${kilobytes(option.bytes)}`} onClick={() => setTier(option.label)}>{option.label}</button>)}
+          </div></div>
+        </form>
+        <div className="play-output">
+          <div className="stage image-stage"><OrnamentImage id="whole" design={image} size={chosen.size} pixelRatio={1} loading="lazy" decoding="async" assetsBase={assetsBase} style={{ aspectRatio: `${getOrnament(image).width} / ${getOrnament(image).height}` }} /></div>
+          <p className="play-actions muted">{chosen.path} · {chosen.width} × {chosen.height} px · {kilobytes(chosen.bytes)}</p>
+        </div>
+      </div>
+      <Code>{imageSnippet}</Code>
     </section>
 
     <section className="section" aria-labelledby="oneTitle">

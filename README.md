@@ -22,7 +22,7 @@ image variants. It creates no local image files. Leave `assetsBase` unset and
 use `add` or `copy-assets` only when you deliberately want local files.
 No asset package is needed for this default workflow.
 
-Dependency-free vanilla JavaScript, optional React components, TypeScript declarations, and categorized discovery use the same normalized contract. See the [integration guide](https://github.com/adrian729/medieval-ornaments/blob/main/docs/INTEGRATION.md), [plain JS example](https://adrian729.github.io/medieval-ornaments/examples/vanilla/), [React example](https://adrian729.github.io/medieval-ornaments/examples/react/), and [browser ZIP](https://github.com/adrian729/medieval-ornaments/releases/download/v0.10.0/medieval-ornaments-browser.zip).
+Dependency-free vanilla JavaScript, optional React components, TypeScript declarations, and categorized discovery use the same normalized contract. See the [integration guide](https://github.com/adrian729/medieval-ornaments/blob/main/docs/INTEGRATION.md), [plain JS example](https://adrian729.github.io/medieval-ornaments/examples/vanilla/), [React example](https://adrian729.github.io/medieval-ornaments/examples/react/), and [browser ZIP](https://github.com/adrian729/medieval-ornaments/releases/download/v0.10.1/medieval-ornaments-browser.zip).
 
 Import an individual design to bundle only that design and the shared helpers:
 

@@ -1,0 +1,28 @@
+name: Warm and verify the CDN
+# Requests every file of every pinned resource version from jsDelivr and checks
+# its bytes, so caches stay warm and any missing or altered file fails loudly.
+on:
+  schedule:
+    - cron: '17 4 * * 1'
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: warm-cdn
+  cancel-in-progress: false
+jobs:
+  warm:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: |
+            scripts/
+            resources/
+            resource-registry.json
+            resource-lock.json
+          sparse-checkout-cone-mode: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node scripts/warm-cdn.mjs --all

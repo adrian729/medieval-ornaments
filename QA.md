@@ -1213,3 +1213,20 @@ never-requested 768px image on jsDelivr and passed on retry (about 3 s), so live
 waits now allow 30 s. Registry consumers
 (`ORNAMENTS_PACKAGE=@ranx729/medieval-ornaments@0.10.0`) pass.
 
+## 0.10.1: split integration pages, explicit image widths, warm CDN (2026-10-09)
+
+The plain-JavaScript and React examples now have separate Borders (frame and
+divider) and Images sections; the image size buttons list only the chosen
+image's published files and load exactly that file at pixelRatio 1. Picker form
+fields are named. The resolver adds `--ornament-width` to images, so lazy images
+are explicitly sized: Chrome's issue reporter shows no LazyLoadImageIssue or form
+issues on the four pages (an automation-only skippable-history notice remains
+when a script clicks without user activation). `scripts/warm-cdn.mjs --all`
+fetched and byte-verified all 2,299 files of the seven pinned versions; afterwards
+a cache-disabled first visit received gallery images in 28–95 ms median, 111 ms
+maximum (previously 3–5 s for uncached files). A weekly workflow repeats it.
+`npm test` (44), types, `browser_check.mjs` (239) and packed consumers pass; the
+packed React check rounds the image height to the nearest pixel because the
+stage scales large files with `height: auto` and an explicit aspect ratio.
+Runtime 0.10.1 packs to 200,485 B; ZIP 477,429,970 B, SHA-256 4c24d991….
+

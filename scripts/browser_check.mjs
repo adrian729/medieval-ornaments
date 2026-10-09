@@ -141,7 +141,11 @@ assert(await evaluate(`document.querySelectorAll('dialog.picker[open] .picker-ti
 await evaluate(`(()=>{const select=document.querySelector('dialog.picker[open] select');select.value='reading';select.dispatchEvent(new Event('change',{bubbles:true}))})()`);
 assert(await evaluate(`document.querySelectorAll('dialog.picker[open] .picker-tile').length===${catalog.filter(i=>i.asset_type==='illustration'&&i.categories.includes('reading')).length}`),'Picker category filter');checks++;
 await evaluate(`document.querySelector('dialog.picker[open] .btn-icon').click()`);
-assert(await evaluate(`document.getElementById('code').textContent.includes("design: 'flying-pig'")`),'Live code');checks++;
+assert(await evaluate(`document.querySelector('#imageCode pre').textContent.includes("design: 'flying-pig'")&&document.querySelector('#imageCode pre').textContent.includes(document.getElementById('whole').currentSrc.split('/').slice(-3).join('/'))`),'Live image code names the loaded file');checks++;
+// Size choices list only the chosen image's published files and load exactly that file.
+const sizes=await evaluate(`[...document.querySelectorAll('#imageSize button')].map(b=>b.dataset.value)`);
+assert(JSON.stringify(sizes)===JSON.stringify([...catalog.find(i=>i.name==='flying-pig').variants.map(v=>String(v.max_dimension)),'Original']),'Image size choices '+sizes);checks++;
+await click('#imageSize [data-value="512"]');await until(`document.getElementById('whole').currentSrc.endsWith('/webp/512/flying-pig.webp')`,'512 file');checks++;
 await click('#toggle');assert(await evaluate(`getComputedStyle(document.getElementById('frame')).borderImageSource==='none'`),'Detach');await click('#toggle');checks++;
 for(const width of widths){await viewport(width);assert(!(await overflow()),'Plain JavaScript overflow '+width);checks++}
 await viewport(375);await screenshot('vanilla-mobile');await viewport(1200);

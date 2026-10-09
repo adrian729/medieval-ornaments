@@ -548,3 +548,11 @@ bytes on retry. unpkg still answered 404 for every new-version file about 15
 minutes after publication. On the 0.9.0 packages, unpkg left uncached gallery
 thumbnails without a response for over 30 s. The integration pages also replace
 long dropdowns with searchable pickers (type, category and text filters).
+
+## 0.10.1 follow-up (2026-10-09)
+
+- [x] Split the integration examples into Borders and Images sections; image sizes come from each image's published files.
+- [x] Explicit `--ornament-width` for images (no unsized lazy images); named picker fields.
+- [x] Warm and verify every pinned CDN file after publishing and weekly (`warm-cdn.yml`).
+- [ ] Publish 0.10.1 through `release.yml`, release with the ZIP, deploy Pages and verify live.
+

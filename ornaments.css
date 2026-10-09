@@ -57,7 +57,8 @@
 .ornament-image {
   display: block;
   height: var(--ornament-size, 256px);
-  width: auto;
+  /* Set by the resolver from the source proportions, so lazy images are sized before loading. */
+  width: var(--ornament-width, auto);
   max-width: 100%;
   object-fit: contain;
 }
