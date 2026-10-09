@@ -164,6 +164,16 @@ importer trims outer canvas and downsamples, without cleaning pixels or inventin
 repeats. New master entries may carry `provenance`; existing unknown origins stay
 absent. See [ILLUSTRATIONS.md](ILLUSTRATIONS.md) for the reviewed batch.
 
+Authored PNG imports use `authored-additions.json` and
+`scripts/import_authored.py ARCHIVE --name NAME`. Plan and assign every name
+before import. The importer checks archive/input hashes and ownership, retains
+original native bytes, and optimizes PNG compression without changing pixels or
+canvas. Selected normal builds supply lossless WebP and smaller sizes. Optional
+`author` identifies a creating account, including work done on its behalf;
+unknown authors remain absent. It is descriptive metadata and does not change
+resource capabilities. The gold components remain individually selectable;
+the vanilla example supplies their original flexible CSS compositions.
+
 The installer verifies a separate pinned checksum for the unchanged intersection
 with the legacy archives. These immutable snapshots can still supply old selected
 designs after numbered additions, but cannot supply new or changed files. Missing

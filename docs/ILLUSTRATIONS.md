@@ -1,7 +1,7 @@
 # Illustrations and autonomous selection
 
 The collection includes 41 manuscript-style illustrations migrated from
-medieval-cutouts, alongside later additions, for 55 illustrations, 58 repeating borders and 24 whole decorations.
+medieval-cutouts, alongside later additions, for 57 illustrations, 58 repeating borders and 46 whole decorations.
 Illustrations can ornament a page, but they remain distinct catalog types.
 Their descriptions, categories, subjects, facing, colors and composition are
 preserved from the reviewed cutout catalog. No illustration was redrawn,
@@ -175,7 +175,7 @@ const candidates = findOrnaments({
 
 This scoped catalog imports only illustration metadata, with no React or image
 requests. `/catalog/borders` and `/catalog/decorations` work the same way.
-`/catalog` searches all 111 entries. The complete API also supports `assetType`,
+`/catalog` searches all 161 entries. The complete API also supports `assetType`,
 for example `findOrnaments({ assetType: 'illustration', query: 'wings gold' })`.
 Search is case-insensitive, with all whitespace-separated tokens required;
 it includes descriptions, usage notes, subjects, colors, types and composition.
@@ -185,133 +185,33 @@ The [design browser](https://adrian729.github.io/medieval-ornaments/examples/?ty
 category, search, facing, composition and transparency filters. The permanent
 React/vanilla demos accept every illustration in the whole-image picker.
 
-## Migration and maintenance
+## Sources, authors and maintenance
 
-- Names and PNG/WebP paths are unchanged; old raw GitHub URLs still refer to the
-  old repository. New raw URLs use `adrian729/medieval-ornaments`. Pin a commit
-  when using raw assets; package URLs are version-pinned automatically.
-- `illustrations.json` is the editable illustration master catalog. Selection
-  edits can run `.venv/bin/python scripts/selection_metadata.py`, then refresh
-  the README with `scripts/catalog.py`. No image regeneration is needed.
-- `selection-metadata.json` contains inspected ornament description improvements,
-  subject aliases and exceptional usage notes. `scripts/selection_metadata.py`
-  applies them, measures transparency and composes the unified `images.json`.
-- To add an illustration, preserve a PNG master in `png/<name>.png` and append
-  an entry to `illustrations.json` using the template below. The WebP path names
-  the output; the WebP file need not exist yet. `variants`, dimensions and byte
-  counts are generated, so they can be omitted on a new entry. Run
-  `.venv/bin/python scripts/build_illustrations.py --name <name>`.
-  Record factual `derivation` and `reference` when known; new entries default to
-  `supplied-illustration`, without assuming an AI extraction or historical identity.
-  It generates 128/256/512/768 variants directly from the master, skips equal or
-  larger limits, checks lossless visible pixels/alpha and leaves all PNG masters
-  unchanged. Preflight checks the shared vocabulary, unique names, canonical
-  paths and collisions with border/decoration components before writing. The
-  command requires explicit names to avoid collection-wide churn.
-- Optional authored `usage_notes` in `illustrations.json` are preserved alongside
-  generated capability/fidelity notes. Do not edit generated `images.json` or
-  `lib/` modules directly.
-- Border builds retain illustration files even when an entry is removed from
-  the master catalog. Removing metadata is not a file deletion command: review
-  orphaned artwork separately, preserving source masters and import records.
-  Package builds generate metadata/types only.
-- Artwork changes advance the affected numbered resource version and its
-  exact main lock; publish and verify that resource before the runtime. Changes
-  to descriptions or selection tags alone do not require artwork publication.
-  The optional legacy archives remain compatibility snapshots; refreshing them
-  requires advancing both archive versions, their shared manifest and runtime
-  compatibility pins. Follow the [resource release guide](RESOURCES.md).
-- `illustration-import.json` records migration hashes and the original checkout's
-  HEAD. `sources/medieval-cutouts/` retains the original catalog, metadata guide,
-  extraction records and the two documented source references. The migration
-  includes the newer `musicians-and-dancers` working-tree addition. Its prompt
-  records the retained left vine and removal of the cropped right vine.
-- The original checkout/history remains intact. Future collection development
-  belongs here. This was an allowlisted file migration, without rewriting either
-  repository's Git history or committing unrelated workspace files.
+The original 41 cutouts retain their names, six selection fields and imported
+bytes. New historical extractions have optional `provenance`, including source
+links and method. An optional `author` identifies the creator account, including
+work performed by agents on that account's behalf. It is separate from
+`provenance.artist`; unknown attribution remains absent. Polyhymnia and the
+24 authored backup additions use `author: "adrian729"` and are searchable by it.
 
-`polyhymnia` is a user-supplied modern AI illustration retained as a complete
-framed scene. Its original input hash and exact generation prompt are recorded
-in `illustration-additions.json`; no historical source attribution is inferred.
-The corrected native 1004×1567 master has lossless PNG/WebP exports and 128/256/512/768
-variants in illustrations-001. The painted frame and landscape remain intact.
+The collection now has 161 designs: 58 repeating borders, 46 whole decorations
+and 57 illustrations. The new book and rabbit musician are illustrations; the
+other supplied ornaments remain whole decorations. The supplied frames are
+fixed complete images, and the eight corner phases remain independent images.
+The four gold components also have a ready-to-use CSS composition in the
+[vanilla example](https://adrian729.github.io/medieval-ornaments/examples/vanilla/).
 
-Example new entry (replace the name and description/tags with the inspected
-artwork's actual details; omit provenance fields when unknown):
+`authored-additions.json` records the backup hash, exact source paths, native and
+optimized master hashes, metadata and individual reviews. Original PNG bytes
+are retained with each design in its resource; optimized masters preserve exact
+RGBA pixels. Lossless PNG/WebP variants at 128/256/512/768 derive directly from
+the masters. No SVG, repeat, historical source or unavailable prompt is inferred.
 
-```json
-{
-  "name": "new-leafy-sprig",
-  "png": "png/new-leafy-sprig.png",
-  "webp": "webp/new-leafy-sprig.webp",
-  "description": "A curved stem bearing three green leaves.",
-  "categories": ["botanical"],
-  "subjects": ["stem", "leaf"],
-  "facing": "unclear",
-  "colors": ["green"],
-  "composition": "single-ornament",
-  "usage_notes": ["Keep the open space beside the curved stem."]
-}
-```
+Historical extraction audits remain in `historical-additions.json`, Rosselli
+repeat/corner evidence in `historical-border-patterns.json`, and Polyhymnia's
+prompt and correction history in `illustration-additions.json`. Heavy artwork
+belongs to the assigned numbered resource. Read [RESOURCES.md](RESOURCES.md)
+before authoring; selected builds preserve unrelated artwork.
 
-After adding or changing metadata/artwork, refresh and validate the catalog:
-
-```sh
-.venv/bin/python scripts/selection_metadata.py
-.venv/bin/python scripts/catalog.py
-.venv/bin/python scripts/catalog.py --check
-.venv/bin/python scripts/artwork_check.py
-.venv/bin/python scripts/check_illustration_build.py
-```
-
-Assign and approve the affected numbered resource revision as described in
-[RESOURCES.md](RESOURCES.md), then run `npm run build` to synchronize public
-catalogs, individual entries and types. The legacy archives are optional,
-immutable snapshots; new numbered artwork does not require refreshing them.
-Inspect the actual illustration at its intended sizes and backgrounds. The
-migration hash regression deliberately protects imported artwork; an intentional
-correction also needs a separate documented revision and an updated regression
-expectation, while the original import inventory remains unchanged.
-
-The original bytes, metadata snapshot and hashes make the merge auditable. New
-artwork corrections need their own source/method record; do not silently rewrite
-the migration snapshot or claim AI extractions are exact source crops. Artwork
-rights remain separate from the integration software; see [LICENSE](../LICENSE).
-
-## Historical additions reviewed 2026-10-08
-
-The historical additions include 23 assets: 13 illustrations and 10 whole decorations.
-Twenty-two are AI-assisted extractions from historical objects with CC0 or
-public-domain museum reproductions. The rabbit riding a hound is an explicitly
-modern, independently composed interpretation of a documented marginal motif;
-the restricted Fitzwilliam image was not imported or edited.
-
-[historical-additions.json](../historical-additions.json) records nine untouched
-source images and their hashes, each chosen region, exact edit prompt, retained
-native result, source-resolution export cap and individual visual review.
-[The candidate tracker](source-candidates.json) links all ten object records to
-their resulting assets. New master entries carry optional `provenance`; it is
-preserved in JSON, scoped/individual metadata, copied components and TypeScript.
-The browser shows source links and searches institutions, artists and object
-identifiers. The existing 111 entries have no provenance backfill.
-
-Rosselli's sheet yields two whole strips and four individual roundels.
-Isabella's illumination yields its fixed gold frame and five separate figures
-(two butterflies, a bird, a rose and a blue flower). Hoefnagel's page yields two
-separate roses, its touching apple halves as one composition and a fixed penwork
-frame. The elephant, rabbit/church and engraved panels retain their connected
-compositions. These 23 assets remain whole images. Two additional borders,
-`rosselli-mask-border` and `rosselli-foliate-border`, use verified interior cycles
-from the approved strips. Their native PNG/WebP units retain the alternating
-motifs; only a two-pixel join collar is adjusted. The original strips stay
-unchanged. Corners are modern AI-assisted foliate adaptations of the same artwork, with a
-phase-matched atlas for `round` fitting. No SVG redraw is supplied. Bounds,
-hashes and repeat evidence are in `historical-border-patterns.json`.
-
-The 0.8.1 runtime uses numbered resource revisions 0.1.3. Exact source commits
-and approved manifest hashes are recorded in `resource-lock.json`; README
-previews use immutable source URLs. Use `?assets=local` only for authoring previews.
-Release packing rejects missing commit pins. The user-supplied Polyhymnia scene
-uses the corrected 1004×1567 native image and all rebuilt PNG/WebP sizes; its
-original description, filenames, generation prompt and superseded hashes remain
-audited in `illustration-additions.json`.
+The complete prior migration and historical addition notes are preserved in
+[the merge plan](https://github.com/adrian729/medieval-ornaments/blob/main/docs/MERGE-PLAN.md#illustration-maintenance-record).
