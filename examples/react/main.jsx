@@ -7,8 +7,10 @@ import { findOrnaments } from '@ranx729/medieval-ornaments';
 import '../site.css';
 import '../playground.css';
 
-// Published pages use the default CDN; the offline/self-hosted build sets data-assets-base.
-const assetsBase = document.documentElement.dataset.assetsBase || undefined;
+// Published pages use the default CDN; the offline/self-hosted build sets data-assets-base,
+// and ?assets=local previews a checkout's linked, not yet published artwork.
+const assetsBase = document.documentElement.dataset.assetsBase
+  || (new URLSearchParams(location.search).get('assets') === 'local' ? new URL('/', location.href).href : undefined);
 const borders = findOrnaments({ use: 'divider' }), images = findOrnaments({ use: 'image' });
 const readable = name => { const plate = /^plate-(\d+)-(.*)$/.exec(name), words = (plate ? plate[2] : name).replaceAll('-', ' '); const text = words[0].toUpperCase() + words.slice(1); return plate ? `Plate ${Number(plate[1])} · ${text}` : text; };
 const capital = text => text[0].toUpperCase() + text.slice(1);
