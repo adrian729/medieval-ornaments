@@ -120,7 +120,7 @@ def gallery(catalog):
     previous_rows = {}
     for row in (ROOT/'README.md').read_text().splitlines():
         match = re.match(r'^\| .* \| `([a-z0-9-]+)` \| (border|decoration|illustration) \| .* \|$', row)
-        if match:
+        if match and '<img ' in row:
             previous_rows[(match[1], match[2])] = row
     counts=Counter(tag for item in catalog for tag in item['categories'])
     types=Counter(item['asset_type'] for item in catalog)
