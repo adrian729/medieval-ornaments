@@ -1100,11 +1100,13 @@ resource byte/capacity verification, catalog (161 designs / 233 genuine SVGs /
 2,299 public files), artwork audit (416 reference joins, 110 integer atlases,
 58 pixel-exact rotated tiles), and isolated rebuild retention. New/copied
 individual entries preserve author metadata and rendering restrictions.
-Runtime candidate pack is 198,917 B / 1,141,896 B; the actual packed candidate consumers pass (fixture
+The final normal release pack is 198,993 B / 1,145,306 B (1,019 files).
+The initial packed candidate consumers pass (fixture
 `/tmp/ornaments-integration-Ok8hAD`): 161 designs, 174 native axis/design cases,
 32 density/length cases, lean installation, all artwork hashes, React 18/19,
-SSR/hydration, local copied helpers, types and self-hosting. Final normal release
-pack and registry consumers remain pending. Decorations resource upload is
+SSR/hydration, local copied helpers, types and self-hosting. The final normal archive also passes all packed consumers (fixture
+`/tmp/ornaments-integration-5lwR4L`), including all 2,299 artwork hashes.
+Registry consumers remain pending. Decorations resource upload is
 104,541,688 B and illustrations 195,819,444 B, both under the 200 MB ceiling.
 Next illustration additions must account for that small upload reserve.
 Historical reports remain in PERFORMANCE-HISTORY.md/MERGE-PLAN.md; compact
@@ -1125,3 +1127,8 @@ Main 0.9.0 is still unpublished. The corrected composition uses a continuous
 4px rule beneath the terminal/center stems and 36px centers; its responsive and
 visual review passes. Rebuilding the offline ZIP precedes main publication. The initial composition
 and archive hashes remain in the audit/history.
+
+The rebuilt corrected offline ZIP is 477,409,056 B, SHA-256
+`2b1408b96dfb9b126d0cdcfd4b58129da51472d792e44aed85a9fd5a5f29dca9`.
+Its CSS/JS/audit bytes and all 24 masters match the reviewed checkout. The final
+local Pages assembly is 42,681,393 B, under the unchanged 50 MB guard.
