@@ -530,12 +530,20 @@ but served decorations-001's uncached files in 0.12–0.53 s once warm.
 - [x] Split resources by whole design under a 140 MB unpacked limit; add `release`; pack uploads WebP-first.
 - [x] Approve and lock borders-001 0.2.0, borders-002/003/004 0.1.0, illustrations-001 0.2.0, illustrations-002 0.1.0, decorations-001 0.1.5.
 - [x] Pass unit/type tests, 235 browser checks, catalog/artwork checks and the self-hosted ZIP.
-- [ ] Create the four new GitHub repositories and push all seven resource commits.
+- [x] Create the four new GitHub repositories and push all seven resource commits.
 - [ ] First publication of the four new packages from a maintainer npm login; configure their Trusted Publishers.
-- [ ] Publish borders-001, illustrations-001 and decorations-001 through their existing workflows.
-- [ ] Measure unpkg and jsDelivr on the new packages; choose the default CDN in `cdnBase`.
+- [x] Publish borders-001 0.2.0, illustrations-001 0.2.0 and decorations-001 0.1.5 through their workflows (runs 37944645504 / 37944659791 / 37944652680, with provenance).
+- [x] Measure unpkg and jsDelivr on the new packages; jsDelivr is now the default in `cdnBase`.
 - [ ] Bump the runtime to 0.10.0, regenerate the README gallery, pass packed consumers, publish, tag, deploy Pages and run `tests/site.mjs`.
 
 The runtime pack is 200,162 B after regenerating the README gallery for seven
 locked commits, 162 B over the 200,000 B budget. Each numbered source adds about
 360 B of pins plus README gallery commit links. Decide the budget before release.
+
+CDN choice: on the published 0.2.0/0.1.5 versions, 24 never-requested WebP files
+from jsDelivr took 0.08–0.45 s typically and 2–4.6 s while it first loaded a
+package (19 s once); three transient 404s during that load returned the approved
+bytes on retry. unpkg still answered 404 for every new-version file about 15
+minutes after publication. On the 0.9.0 packages, unpkg left uncached gallery
+thumbnails without a response for over 30 s. The integration pages also replace
+long dropdowns with searchable pickers (type, category and text filters).

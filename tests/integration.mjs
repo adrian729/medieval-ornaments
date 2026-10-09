@@ -331,14 +331,22 @@ try {
       checkGeometry(await geometry());
     }
     await evaluate(`window.original=document.getElementById('note');original.focus();const setter=Object.getOwnPropertyDescriptor(HTMLInputElement.prototype,'value').set;setter.call(original,'Controlled note');original.dispatchEvent(new Event('input',{bubbles:true}));`);
+async function pick(id, name) {
+      await evaluate(`document.getElementById(${JSON.stringify(id)}).click()`); await until(`!!document.querySelector('dialog.picker[open]')`);
+      await evaluate(`(()=>{const input=document.querySelector('dialog.picker[open] input[type=search]');Object.getOwnPropertyDescriptor(HTMLInputElement.prototype,'value').set.call(input,${JSON.stringify(name)});input.dispatchEvent(new Event('input',{bubbles:true}));})()`);
+      await until(`!!document.querySelector('dialog.picker[open] [data-design=${JSON.stringify(name)}]')`);
+      await evaluate(`document.querySelector('dialog.picker[open] [data-design=${JSON.stringify(name)}]').click()`);
+      await until(`document.getElementById(${JSON.stringify(id)}).dataset.value===${JSON.stringify(name)}`);
+    }
     async function choose(id, value) { await evaluate(`(()=>{const el=document.getElementById(${JSON.stringify(id)});el.value=${JSON.stringify(value)};el.dispatchEvent(new Event('change',{bubbles:true}));})()`); await pause(80); }
-    await choose('design', 'plate-02-stepped-ribbon'); await until(`document.getElementById('divider').dataset.axis==='y'`);
+    await pick('design', 'plate-02-stepped-ribbon'); await until(`document.getElementById('divider').dataset.axis==='y'`);
     await choose('orientation', 'horizontal'); await until(`document.getElementById('divider').dataset.axis==='x'`);
-    await choose('design', 'plate-03-spiral-bands');
+    await pick('design', 'plate-03-spiral-bands');
     assert.equal((await geometry()).axis, 'x'); checkGeometry(await geometry());
     await choose('orientation', 'vertical'); await until(`document.getElementById('divider').dataset.axis==='y'`);
-    assert.equal(await evaluate(`document.getElementById('note')===original&&original.value==='Controlled note'&&document.activeElement===original`), true);
-    await choose('wholeDesign', 'butterfly-panel-red'); await decodeImages();
+    // The picker dialog takes focus while open; the note must survive as the same element with its value.
+    assert.equal(await evaluate(`document.getElementById('note')===original&&original.value==='Controlled note'`), true);
+    await pick('wholeDesign', 'butterfly-panel-red'); await decodeImages();
     assert.equal(await evaluate(`document.getElementById('whole').src.includes('butterfly-panel-red')`), true);
     await evaluate(`document.getElementById('toggle').click()`); await until(`!document.getElementById('frame')`);
     await evaluate(`document.getElementById('toggle').click()`); await until(`!!document.getElementById('frame')`);

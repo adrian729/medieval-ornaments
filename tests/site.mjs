@@ -33,6 +33,13 @@ const pause = ms => new Promise(resolve => setTimeout(resolve, ms));
 async function until(expression) { for (let i = 0; i < 200; i++) { if (await evaluate(expression)) return; await pause(60); } throw new Error('Page did not become ready: ' + expression + JSON.stringify({ errors, missing })); }
 async function navigate(url, ready) { await send('Page.navigate', { url }); await until(`location.href===${JSON.stringify(url)}`); await until(ready); }
 async function choose(id, value) { await evaluate(`(()=>{const el=document.getElementById(${JSON.stringify(id)});el.value=${JSON.stringify(value)};el.dispatchEvent(new Event('input',{bubbles:true}));el.dispatchEvent(new Event('change',{bubbles:true}));})()`); await pause(100); }
+async function pick(id, name) {
+  await evaluate(`document.getElementById(${JSON.stringify(id)}).click()`); await until(`!!document.querySelector('dialog.picker[open]')`);
+  await evaluate(`(()=>{const input=document.querySelector('dialog.picker[open] input[type=search]');Object.getOwnPropertyDescriptor(HTMLInputElement.prototype,'value').set.call(input,${JSON.stringify(name)});input.dispatchEvent(new Event('input',{bubbles:true}));})()`);
+  await until(`!!document.querySelector('dialog.picker[open] [data-design=${JSON.stringify(name)}]')`);
+  await evaluate(`document.querySelector('dialog.picker[open] [data-design=${JSON.stringify(name)}]').click()`);
+  await until(`document.getElementById(${JSON.stringify(id)}).dataset.value===${JSON.stringify(name)}`);
+}
 async function art() {
   return evaluate(`(async()=>{const frame=document.getElementById('frame'),divider=document.getElementById('divider'),whole=document.getElementById('whole'),style=getComputedStyle(divider),paint=getComputedStyle(divider,'::before'),axis=divider.dataset.axis,available=parseFloat(style[axis==='x'?'width':'height']),used=parseFloat(paint[axis==='x'?'width':'height']),period=parseFloat(style.getPropertyValue('--ornament-size'))*parseFloat(style.getPropertyValue('--ornament-ratio')),inset=parseFloat(paint[axis==='x'?'left':'top'])+new DOMMatrix(paint.transform)[axis==='x'?'m41':'m42'];const urls=[JSON.parse(getComputedStyle(frame).borderImageSource.slice(4,-1)),JSON.parse(paint.backgroundImage.slice(4,-1)),whole.src];await Promise.all(urls.map(async url=>{const image=new Image();image.src=url;try{await image.decode();}catch(error){throw new Error("Image decode failed: "+url,{cause:error});}}));return {axis,available,used,period,inset,urls,overflow:document.documentElement.scrollWidth>document.documentElement.clientWidth}})()`);
 }
@@ -63,17 +70,17 @@ try {
     }
     assert.equal(await evaluate(`document.getElementById('selective-divider')?.dataset.axis`), 'x', 'Live individual-design example');
     assert.ok(await evaluate(`getComputedStyle(document.getElementById('selective-divider'),'::before').backgroundImage.includes('red-berry-vine')`));
-    await choose('design', 'plate-02-stepped-ribbon'); await until(`document.getElementById('divider').dataset.axis==='y'`); check(await art());
+    await pick('design', 'plate-02-stepped-ribbon'); await until(`document.getElementById('divider').dataset.axis==='y'`); check(await art());
     await choose('orientation', 'horizontal'); await until(`document.getElementById('divider').dataset.axis==='x'`); check(await art());
     await choose('orientation', 'vertical'); await until(`document.getElementById('divider').dataset.axis==='y'`); check(await art());
-    await choose('wholeDesign', 'butterfly-panel-red'); const result = await art(); check(result);
+    await pick('wholeDesign', 'butterfly-panel-red'); const result = await art(); check(result);
     for (const design of ['blue-diamond-leaf-stencil-band', 'russet-floral-vine-with-bud-borders']) {
       await choose('design', design); check(await art());
     }
-    await choose('wholeDesign', 'painted-sprawling-floral-panel'); check(await art());
-    await choose('wholeDesign', 'flying-pig'); check(await art());
+    await pick('wholeDesign', 'painted-sprawling-floral-panel'); check(await art());
+    await pick('wholeDesign', 'flying-pig'); check(await art());
     assert.ok(await evaluate("document.getElementById('whole').src.endsWith('/webp/256/flying-pig.webp')&&document.getElementById('whole').loading==='lazy'&&document.getElementById('selective-illustration').src.endsWith('/webp/256/flying-pig.webp')"), 'Live generic and individual illustration sizing/loading');
-    await choose('wholeDesign', 'animal-musicians-ensemble'); check(await art());
+    await pick('wholeDesign', 'animal-musicians-ensemble'); check(await art());
     assert.ok(result.urls.every(url => cdnBases.some(base => url.startsWith(base))), 'Live examples use the pinned default CDN');
     const screenshot = await send('Page.captureScreenshot', { captureBeyondViewport: false });
     await writeFile(new URL(`tmp/live-${example}-${width}.png`, root), Buffer.from(screenshot.data, 'base64'));
@@ -116,7 +123,7 @@ try {
   assert.equal(zipDividers.length,2);
   assert.ok(zipDividers.every(x=>x.rule==='4px'&&x.center===36&&x.urls.every(url=>new URL(url).hostname==='127.0.0.1')), 'ZIP contains corrected self-hosted gold compositions');
   check(await art()); await choose('orientation', 'vertical'); check(await art());
-  await choose('wholeDesign', 'flying-pig'); check(await art());
+  await pick('wholeDesign', 'flying-pig'); check(await art());
   assert.ok((await art()).urls.every(url => new URL(url).hostname === '127.0.0.1'), 'ZIP example should be self-hosted');
   assert.deepEqual(errors, []); assert.deepEqual(missing, []);
   await navigate(`http://127.0.0.1:${server.address().port}/medieval-ornaments-browser/examples/?type=illustration`, `document.body?.dataset.ready==='true'`);

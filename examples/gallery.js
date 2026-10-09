@@ -107,6 +107,8 @@ function renderGrid() {
   const start = (state.page - 1) * PAGE_SIZE, items = results.slice(start, start + PAGE_SIZE);
   const thumbs = items.map(thumbnail);
   $('#grid').replaceChildren(...items.map((item, index) => element('li', {}, card(item, thumbs[index]))));
+  // A failed request must be visible, never a silently empty card.
+  thumbs.forEach((thumb, index) => thumb.ready.catch(() => $('#grid').children[index]?.querySelector('.tile-art')?.classList.add('missing')));
   $('#empty').hidden = results.length > 0;
   $('#resultCount').textContent = results.length === 0 ? 'No matching designs'
     : `${results.length} design${results.length === 1 ? '' : 's'}${pages > 1 ? ` · page ${state.page} of ${pages}` : ''}`;

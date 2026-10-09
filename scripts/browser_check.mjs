@@ -17,6 +17,7 @@ async function open(path){await send('Page.navigate',{url:origin+path});await un
 async function viewport(width,deviceScaleFactor=1,height=1000){await send('Emulation.setDeviceMetricsOverride',{width,height,deviceScaleFactor,mobile:false});await pause(80)}
 async function choose(id,value){await evaluate(`(()=>{const el=document.getElementById(${JSON.stringify(id)});el.value=${JSON.stringify(String(value))};el.dispatchEvent(new Event('input',{bubbles:true}));el.dispatchEvent(new Event('change',{bubbles:true}));})()`);await pause(60)}
 const click=selector=>evaluate(`document.querySelector(${JSON.stringify(selector)}).click()`);
+async function pick(id,name){await click('#'+id);await until(`!!document.querySelector('dialog.picker[open]')`,'picker '+id);await evaluate(`(()=>{const input=document.querySelector('dialog.picker[open] input[type=search]');Object.getOwnPropertyDescriptor(HTMLInputElement.prototype,'value').set.call(input,${JSON.stringify(name)});input.dispatchEvent(new Event('input',{bubbles:true}))})()`);await until(`!!document.querySelector('dialog.picker[open] [data-design="${name}"]')`,'pick '+name);await click(`dialog.picker[open] [data-design="${name}"]`);await until(`!document.querySelector('dialog.picker[open]')&&document.getElementById('${id}').dataset.value==='${name}'`,'picked '+name)}
 const overflow=()=>evaluate('document.documentElement.scrollWidth>document.documentElement.clientWidth');
 async function screenshot(name){await evaluate('Promise.all([...document.images].filter(i=>i.getBoundingClientRect().top<innerHeight).map(i=>i.decode().catch(()=>{})))');await pause(120);const shot=await send('Page.captureScreenshot',{captureBeyondViewport:false});await writeFile(new URL(`../tmp/browser-${name}.png`,import.meta.url),Buffer.from(shot.data,'base64'))}
 await send('Page.enable');await send('Page.navigate',{url:'about:blank'});await send('Runtime.enable');await send('Network.enable');
@@ -129,10 +130,17 @@ await viewport(375);await screenshot('overview-mobile');await viewport(1200);awa
 await open('/examples/vanilla/?assets=local');
 await until(`getComputedStyle(document.querySelector('.cinquefoil .terminal')).backgroundImage!=='none'`,'gold compositions');checks++;
 assert(await evaluate(`document.getElementById('selective-divider').dataset.axis==='x'&&getComputedStyle(document.getElementById('selective-divider'),'::before').backgroundImage.includes('red-berry-vine')`),'Single-design import');checks++;
-await choose('design','plate-02-stepped-ribbon');await until(`document.getElementById('divider').dataset.axis==='y'`);
+await pick('design','plate-02-stepped-ribbon');await until(`document.getElementById('divider').dataset.axis==='y'`);
 await choose('orientation','horizontal');await until(`document.getElementById('divider').dataset.axis==='x'`);
 await choose('orientation','vertical');await until(`document.getElementById('divider').dataset.axis==='y'`);checks++;
-await choose('wholeDesign','flying-pig');await until(`document.getElementById('whole').currentSrc.includes('flying-pig')`);
+await pick('wholeDesign','flying-pig');await until(`document.getElementById('whole').currentSrc.includes('flying-pig')`);
+// Picker filters: type tabs, category and search narrow the catalog.
+await click('#wholeDesign');await until(`!!document.querySelector('dialog.picker[open]')`);
+await evaluate(`[...document.querySelectorAll('dialog.picker[open] .segmented button')].find(b=>b.textContent==='Illustrations').click()`);
+assert(await evaluate(`document.querySelectorAll('dialog.picker[open] .picker-tile').length===${catalog.filter(i=>i.asset_type==='illustration').length}`),'Picker type filter');checks++;
+await evaluate(`(()=>{const select=document.querySelector('dialog.picker[open] select');select.value='reading';select.dispatchEvent(new Event('change',{bubbles:true}))})()`);
+assert(await evaluate(`document.querySelectorAll('dialog.picker[open] .picker-tile').length===${catalog.filter(i=>i.asset_type==='illustration'&&i.categories.includes('reading')).length}`),'Picker category filter');checks++;
+await evaluate(`document.querySelector('dialog.picker[open] .btn-icon').click()`);
 assert(await evaluate(`document.getElementById('code').textContent.includes("design: 'flying-pig'")`),'Live code');checks++;
 await click('#toggle');assert(await evaluate(`getComputedStyle(document.getElementById('frame')).borderImageSource==='none'`),'Detach');await click('#toggle');checks++;
 for(const width of widths){await viewport(width);assert(!(await overflow()),'Plain JavaScript overflow '+width);checks++}

@@ -1,4 +1,4 @@
-import React, { useState, StrictMode } from 'react';
+import React, { useState, useRef, useMemo, StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 import { OrnamentFrame, OrnamentDivider, OrnamentImage } from '@ranx729/medieval-ornaments/react';
 import { OrnamentDivider as BerryDivider } from '@ranx729/medieval-ornaments/react/red-berry-vine';
@@ -11,16 +11,61 @@ import '../playground.css';
 // and ?assets=local previews a checkout's linked, not yet published artwork.
 const assetsBase = document.documentElement.dataset.assetsBase
   || (new URLSearchParams(location.search).get('assets') === 'local' ? new URL('/', location.href).href : undefined);
+if (assetsBase && !document.documentElement.dataset.assetsBase) for (const link of document.querySelectorAll('a[href$="/"], a[href$=".html"]')) link.search = '?assets=local';
 const borders = findOrnaments({ use: 'divider' }), images = findOrnaments({ use: 'image' });
 const readable = name => { const plate = /^plate-(\d+)-(.*)$/.exec(name), words = (plate ? plate[2] : name).replaceAll('-', ' '); const text = words[0].toUpperCase() + words.slice(1); return plate ? `Plate ${Number(plate[1])} · ${text}` : text; };
 const capital = text => text[0].toUpperCase() + text.slice(1);
 
-function Options({ items, group }) {
-  const labels = [...new Set(items.map(group))].sort();
-  return labels.map(label => <optgroup key={label} label={label}>
-    {items.filter(item => group(item) === label).map(item => <option key={item.name} value={item.name}>{readable(item.name)}</option>)}
-  </optgroup>);
+const typeNames = { border: 'Borders', decoration: 'Decorations', illustration: 'Illustrations' };
+
+// Small published files only (pixelRatio 1); grid thumbnails load as they scroll into view.
+function Thumb({ item, lazy }) {
+  const shared = { design: item.name, pixelRatio: 1, format: 'webp', assetsBase, ...(lazy ? { loading: 'lazy' } : {}) };
+  return item.kind === 'repeat-tile'
+    ? <OrnamentDivider {...shared} size={24} orientation="horizontal" />
+    : <OrnamentImage {...shared} size={Math.max(8, Math.floor(Math.min(88, 112 * item.height / item.width)))} decoding="async" />;
 }
+
+// A searchable picker: type tabs, category filter and text search over the catalog.
+function DesignPicker({ id, label, items, search, value, onChange }) {
+  const dialog = useRef(null);
+  const [open, setOpen] = useState(false), [type, setType] = useState('all'), [category, setCategory] = useState(''), [query, setQuery] = useState('');
+  const types = useMemo(() => [...new Set(items.map(item => item.asset_type))], [items]);
+  const pool = items.filter(item => type === 'all' || item.asset_type === type);
+  const counts = new Map();
+  for (const item of pool) for (const name of item.categories) counts.set(name, (counts.get(name) || 0) + 1);
+  const activeCategory = counts.has(category) ? category : '';
+  const allowed = useMemo(() => new Set(search(query).map(item => item.name)), [search, query]);
+  const results = pool.filter(item => allowed.has(item.name) && (!activeCategory || item.categories.includes(activeCategory)));
+  const current = items.find(item => item.name === value);
+  const close = () => dialog.current.close();
+  return <>
+    <button type="button" className="picker-trigger" id={id} data-value={value} aria-haspopup="dialog" onClick={() => { setOpen(true); dialog.current.showModal(); }}>
+      <span className="picker-thumb"><Thumb item={current} /></span>
+      <span className="picker-label"><strong>{readable(value)}</strong><small>Change</small></span>
+    </button>
+    <dialog ref={dialog} className="picker" aria-label={`Choose ${label.toLowerCase()}`} onClose={() => setOpen(false)} onClick={event => event.target === dialog.current && close()}>
+      <div className="picker-head"><h2>Choose {label.toLowerCase()}</h2><button type="button" className="btn btn-icon" aria-label="Close" onClick={close}>×</button></div>
+      <div className="picker-tools">
+        {types.length > 1 && <div className="segmented" role="group" aria-label="Type">
+          {['all', ...types].map(name => <button key={name} type="button" aria-pressed={type === name} onClick={() => setType(name)}>{name === 'all' ? 'All' : typeNames[name]}</button>)}
+        </div>}
+        <input type="search" value={query} placeholder="Search names, subjects, colours…" aria-label={`Search ${label.toLowerCase()}`} onChange={event => setQuery(event.target.value)} />
+        <select value={activeCategory} aria-label="Category" onChange={event => setCategory(event.target.value)}>
+          <option value="">All categories</option>
+          {[...counts].sort(([a], [b]) => a.localeCompare(b)).map(([name, count]) => <option key={name} value={name}>{capital(name)} ({count})</option>)}
+        </select>
+      </div>
+      <p className="picker-count" aria-live="polite">{results.length ? `${results.length} design${results.length === 1 ? '' : 's'}` : 'No designs match. Try another word or category.'}</p>
+      {open && <ul className="picker-grid">{results.map(item => <li key={item.name}>
+        <button type="button" className="picker-tile" data-design={item.name} aria-pressed={item.name === value} onClick={() => { onChange(item.name); close(); }}>
+          <span className="tile-art"><Thumb item={item} lazy /></span><span className="tile-name">{readable(item.name)}</span>
+        </button>
+      </li>)}</ul>}
+    </dialog>
+  </>;
+}
+const searchBorders = query => findOrnaments({ use: 'divider', query }), searchImages = query => findOrnaments({ use: 'image', query });
 
 function Code({ children }) {
   const [label, setLabel] = useState('Copy');
@@ -59,10 +104,10 @@ function App() {
       <div className="section-head"><h2 id="playTitle">Try the components</h2><p className="muted">Change any option: React re-renders the same elements, and the note you type stays put.</p></div>
       <div className="playground">
         <form className="panel play-controls" onSubmit={event => event.preventDefault()}>
-          <label className="field">Border <select id="design" value={design} onChange={event => setDesign(event.target.value)}><Options items={borders} group={item => capital(item.categories[0])} /></select></label>
+          <div className="field"><span>Border</span><DesignPicker id="design" label="Border" items={borders} search={searchBorders} value={design} onChange={setDesign} /></div>
           <label className="field">Divider direction <select id="orientation" value={orientation} onChange={event => setOrientation(event.target.value)}><option value="original">Original direction</option><option value="horizontal">Horizontal</option><option value="vertical">Vertical</option></select></label>
           <label className="field"><span className="field-row">Thickness <output>{size}px</output></span><input id="size" type="range" min="12" max="64" value={size} onChange={event => setSize(Number(event.target.value))} /></label>
-          <label className="field">Image <select id="wholeDesign" value={image} onChange={event => setImage(event.target.value)}><Options items={images} group={item => item.asset_type === 'illustration' ? 'Illustrations' : 'Decorations'} /></select></label>
+          <div className="field"><span>Image</span><DesignPicker id="wholeDesign" label="Image" items={images} search={searchImages} value={image} onChange={setImage} /></div>
           <label className="field">Image height <select id="imageSize" value={imageSize} onChange={event => setImageSize(Number(event.target.value))}><option value="96">96px</option><option value="128">128px</option><option value="192">192px</option></select></label>
         </form>
         <div className="play-output">

@@ -2,29 +2,36 @@ import { createFrame, createDivider, createOrnamentImage, findOrnaments, resolve
 import { createDivider as createBerryDivider } from '@ranx729/medieval-ornaments/designs/red-berry-vine';
 import { createOrnamentImage as createFlyingPig } from '@ranx729/medieval-ornaments/designs/flying-pig';
 import { assetsBase } from '../shared/env.js';
-import { $, $$, element, readable, codePanel, copyText } from '../shared/ui.js';
+import { $, $$, element, codePanel, copyText } from '../shared/ui.js';
+import { createPicker } from '../shared/picker.js';
 import { htmlSnippet } from '../shared/snippets.js';
 
 // The offline ZIP self-hosts its artwork; published pages use the default CDN.
 const hosting = assetsBase ? { assetsBase } : {};
-const capital = text => text[0].toUpperCase() + text.slice(1);
 
-function populate(select, items, group, selected) {
-  const groups = new Map();
-  for (const item of items) {
-    const label = group(item);
-    if (!groups.has(label)) groups.set(label, element('optgroup', { label }));
-    groups.get(label).append(new Option(readable(item.name), item.name));
+// Searchable pickers; their thumbnails use the library with the smallest files.
+function thumbnail(item, target, { lazy }) {
+  const options = { pixelRatio: 1, format: 'webp', ...(lazy ? { loading: 'lazy' } : {}), ...hosting };
+  if (item.kind === 'repeat-tile') {
+    const strip = element('span'); target.append(strip);
+    const controller = createDivider(strip, { design: item.name, size: 24, orientation: 'horizontal', ...options });
+    return () => controller.destroy();
   }
-  select.replaceChildren(...[...groups.keys()].sort().map(label => groups.get(label)));
-  select.value = selected;
+  const image = element('img', { alt: '' }); target.append(image);
+  const size = Math.max(8, Math.floor(Math.min(88, 112 * item.height / item.width)));
+  const controller = createOrnamentImage(image, { design: item.name, size, decoding: 'async', ...options });
+  return () => controller.destroy();
 }
-populate($('#design'), findOrnaments({ use: 'divider' }), item => capital(item.categories[0]), 'red-berry-vine');
-populate($('#wholeDesign'), findOrnaments({ use: 'image' }), item => item.asset_type === 'illustration' ? 'Illustrations' : 'Decorations', 'floral-bird-panel-blue');
+const borderPicker = createPicker({ id: 'design', label: 'Border', value: 'red-berry-vine', items: findOrnaments({ use: 'divider' }),
+  search: query => findOrnaments({ use: 'divider', query }), thumbnail, onChange: () => update() });
+const imagePicker = createPicker({ id: 'wholeDesign', label: 'Image', value: 'floral-bird-panel-blue', items: findOrnaments({ use: 'image' }),
+  search: query => findOrnaments({ use: 'image', query }), thumbnail, onChange: () => update() });
+$('#designPicker').append(borderPicker.element);
+$('#imagePicker').append(imagePicker.element);
 
 const read = () => ({
-  design: $('#design').value, orientation: $('#orientation').value, size: Number($('#size').value),
-  image: $('#wholeDesign').value, imageSize: Number($('#imageSize').value)
+  design: borderPicker.value, orientation: $('#orientation').value, size: Number($('#size').value),
+  image: imagePicker.value, imageSize: Number($('#imageSize').value)
 });
 let options = read();
 let frame = createFrame($('#frame'), { design: options.design, size: options.size, ...hosting });
@@ -71,7 +78,7 @@ function update() {
   $('#details').textContent = `${axis === 'x' ? 'Horizontal' : 'Vertical'} divider using ${asset.path}`;
   renderCode();
 }
-for (const id of ['design', 'orientation', 'size', 'wholeDesign', 'imageSize']) $('#' + id).addEventListener('input', update);
+for (const id of ['orientation', 'size', 'imageSize']) $('#' + id).addEventListener('input', update);
 
 $('#toggle').addEventListener('click', () => {
   if (frame) { frame.destroy(); frame = null; $('#toggle').textContent = 'Attach frame'; }

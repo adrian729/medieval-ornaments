@@ -19,7 +19,9 @@ export const sourceId = (collection, sequence) => `${collection}-${String(sequen
 export const repositoryName = id => `medieval-ornaments-assets-${id}`;
 export const packageName = id => `@ranx729/${repositoryName(id)}`;
 // Default public delivery for an exact numbered resource version.
-export const cdnBase = (name, version) => `https://unpkg.com/${name}@${version}/`;
+// jsDelivr: fast first requests and available within minutes of publishing;
+// every package stays under its 150 MB limit (maxNpmUnpackedBytes).
+export const cdnBase = (name, version) => `https://cdn.jsdelivr.net/npm/${name}@${version}/`;
 
 export function checkedRelative(relative) {
   if (typeof relative !== 'string' || !relative || path.isAbsolute(relative) || relative.includes('\\') || relative.split('/').some(part => part === '..' || part === '.' || !part)) throw Error(`Invalid resource path: ${relative}`);

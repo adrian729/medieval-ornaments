@@ -8,7 +8,8 @@ existing artwork unchanged. See QA.md for publication and verification results.
 Whole designs moved so each package stays below 140 MB for both CDNs: russet
 borders to borders-002/003, painted vines to borders-004 and 28 later
 illustrations to illustrations-002. Names and imports are unchanged; copied CDN
-URLs keep working. Offline: install the packages `getAssetSource(name)` reports.
+URLs keep working. Default URLs now use jsDelivr: allow `https://cdn.jsdelivr.net` in
+`img-src`. Offline: install the packages `getAssetSource(name)` reports.
 
 ## Existing applications
 

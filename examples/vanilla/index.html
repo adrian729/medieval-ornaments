@@ -8,7 +8,7 @@
 <link rel="icon" type="image/x-icon" href="../../favicon.ico" sizes="16x16 32x32 48x48">
 <link rel="icon" type="image/png" href="../../favicon-32.png" sizes="32x32">
 <link rel="icon" type="image/svg+xml" href="../../favicon.svg" sizes="any">
-<link rel="preconnect" href="https://unpkg.com">
+<link rel="preconnect" href="https://cdn.jsdelivr.net">
 <link rel="stylesheet" href="../../ornaments.css">
 <link rel="stylesheet" href="../site.css">
 <link rel="stylesheet" href="../playground.css">
@@ -43,10 +43,10 @@
     <div class="section-head"><h2 id="playTitle">Try the controllers</h2><p class="muted">Every change below calls <code>update()</code> on the same controllers. The code reflects your current choices.</p></div>
     <div class="playground">
       <form class="panel play-controls" onsubmit="return false">
-        <label class="field">Border <select id="design"></select></label>
+        <div class="field"><span>Border</span><div id="designPicker"></div></div>
         <label class="field">Divider direction <select id="orientation"><option value="original">Original direction</option><option value="horizontal">Horizontal</option><option value="vertical">Vertical</option></select></label>
         <label class="field"><span class="field-row">Thickness <output id="sizeOut">24px</output></span><input id="size" type="range" min="12" max="64" value="24"></label>
-        <label class="field">Image <select id="wholeDesign"></select></label>
+        <div class="field"><span>Image</span><div id="imagePicker"></div></div>
         <label class="field">Image height <select id="imageSize"><option value="96">96px</option><option value="128" selected>128px</option><option value="192">192px</option></select></label>
       </form>
       <div class="play-output">

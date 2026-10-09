@@ -9,3 +9,11 @@ export const assetsBase = declared ? new URL(declared, location.href).href
   : new URLSearchParams(location.search).get('assets') === 'local' ? new URL(checkoutRoot, import.meta.url).href
   : undefined;
 export const withHosting = options => assetsBase ? { ...options, assetsBase } : options;
+
+// Keep a local preview local while navigating between the example pages.
+if (!declared && assetsBase) {
+  for (const link of document.querySelectorAll('a[href]')) {
+    const url = new URL(link.getAttribute('href'), location.href);
+    if (url.origin === location.origin && /(\/|\.html)$/.test(url.pathname)) { url.searchParams.set('assets', 'local'); link.href = url.href; }
+  }
+}

@@ -302,14 +302,9 @@ SVG. Requesting an unsupported format or use throws a useful error.
 
 ## CDN or self-hosting
 
-The runtime routes each design through an explicit resource assignment. Version
-0.9.0 uses these independently pinned numbered package versions:
-
-| Resource | CDN base |
-| --- | --- |
-| Borders | `https://unpkg.com/@ranx729/medieval-ornaments-assets-borders-001@0.1.3/` |
-| Decorations | `https://unpkg.com/@ranx729/medieval-ornaments-assets-decorations-001@0.1.4/` |
-| Illustrations | `https://unpkg.com/@ranx729/medieval-ornaments-assets-illustrations-001@0.1.4/` |
+The runtime routes each design through an explicit resource assignment to an
+exact numbered package version on jsDelivr, for example
+`https://cdn.jsdelivr.net/npm/@ranx729/medieval-ornaments-assets-borders-001@0.2.0/`.
 
 Future collections can span several numbered repositories. Use the resolver or
 `getAssetSource(name)` rather than constructing URLs from an asset type:

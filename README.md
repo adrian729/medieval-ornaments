@@ -132,7 +132,7 @@ The [source-additions review](https://adrian729.github.io/medieval-ornaments/exa
 The overview is `examples/demo.html`; Pages serves bundled builds (`npm run build:examples`).
 
 ```html
-<img src="https://unpkg.com/@ranx729/medieval-ornaments-assets-decorations-001@0.1.4/webp/256/floral-bird-panel-blue.webp"
+<img src="https://cdn.jsdelivr.net/npm/@ranx729/medieval-ornaments-assets-decorations-001@0.1.5/webp/256/floral-bird-panel-blue.webp"
      alt="" height="256">
 ```
 
@@ -140,7 +140,7 @@ For a scalable frame:
 
 ```css
 .ornament-frame {
-  --ornament-image: url("https://unpkg.com/@ranx729/medieval-ornaments-assets-borders-001@0.1.3/svg/red-berry-vine-border.svg");
+  --ornament-image: url("https://cdn.jsdelivr.net/npm/@ranx729/medieval-ornaments-assets-borders-001@0.2.0/svg/red-berry-vine-border.svg");
   --ornament-size: 32px;
 }
 ```
