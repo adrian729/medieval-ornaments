@@ -10,6 +10,7 @@ import { createHash } from 'node:crypto';
 import { assetCatalog, assetPaths, catalogBytes } from './package-assets.mjs';
 import { projectRoot, registry, resourceLock, manifest, resourceDirectory, sourceId, repositoryName, packageName, capabilities, designPaths, validateResources, digest, stable, checkedRelative } from './resource-store.mjs';
 import { scaffold } from './scaffold-resource.mjs';
+import { packResource } from './pack-resource.mjs';
 const exec = promisify(execFile), json = value => JSON.stringify(value,null,2)+'\n';
 const help = `npm run resources -- <command> [options]
   status | check [--verify-files]
@@ -19,6 +20,7 @@ const help = `npm run resources -- <command> [options]
   link [--all | --source borders-001 | --design red-berry-vine]
   assign --design new-name --collection borders --bytes 12345
   migrate --design existing-name --source borders-002
+  release --design migrated-name
   approve --source borders-001 --version 0.2.0
   lock --source borders-001
   scaffold --source borders-001 --tooling-ref <main-commit>
@@ -93,9 +95,9 @@ else if(command==='assign') {
   }
 } else if(command==='pack') {
   const id=options.source;sourceInfo(id);await exec(process.execPath,[path.join(projectRoot,'scripts/verify-resource.mjs'),id,resourceDirectory(id)]);
-  const packed=JSON.parse((await exec('npm',['pack','--json'],{cwd:resourceDirectory(id),maxBuffer:4*1024*1024})).stdout)[0];
-  if(packed.size>(config.policy.maxNpmPackedBytes||200000000))throw Error('Compressed upload exceeds capacity; move complete designs to the next resource before publishing.');
-  console.log(json({id,bytes:packed.size,unpacked:packed.unpackedSize,integrity:packed.integrity,filename:packed.filename}));
+  const pin=lock.sources[id],output=path.join(projectRoot,'tmp/resource-packs',`${repositoryName(id)}-${pin.version}.tgz`);
+  const packed=await packResource(id,resourceDirectory(id),output);
+  console.log(json({...packed,integrity:'sha512-'+createHash('sha512').update(await readFile(output)).digest('base64')}));
 } else if(command==='migrate') {
   const name=options.design, previousId=config.assignments[name], targetId=options.source;
   if(!previousId||previousId===targetId)throw Error('Choose an existing design and a different registered source.');
@@ -107,6 +109,23 @@ else if(command==='assign') {
   for(const relative of paths){const input=path.join(resourceDirectory(previousId),relative);if(stable(await fileDigest(input))!==stable(old.files[relative]||old.inputs[relative]))throw Error('Fetch approved design bytes before migration: '+relative);const output=path.join(resourceDirectory(targetId),relative);if(existsSync(output))throw Error('Migration target already contains '+relative);await mkdir(path.dirname(output),{recursive:true});await copyFile(input,output);}
   previous.retainedDesigns=[...new Set([...(previous.retainedDesigns||[]),name])];config.assignments[name]=targetId;await saveConfig();
   console.log(`Copied ${name} to ${targetId}; original ${previousId} remains immutable. Approve/publish the target, lock it, then regenerate local links.`);
+} else if(command==='release') {
+  // Drop a migrated design from its previous source's next revision. Published
+  // versions and Git history keep it; only the next approved revision shrinks.
+  const name=options.design,owner=config.assignments[name];if(!owner)throw Error(`Unknown assignment: ${name}`);
+  const previousIds=Object.keys(config.sources).filter(id=>(config.sources[id].retainedDesigns||[]).includes(name));
+  if(!previousIds.length)throw Error(`${name} is not retained by any previous source; migrate it first.`);
+  for(const id of previousIds){
+    const source=sourceInfo(id),old=manifest(id),item=old.designs[name];if(source.state==='archived')throw Error(`Archived source ${id} cannot release ${name}.`);
+    const paths=[...designPaths(item),...Object.keys(old.inputs).filter(p=>belongsToDesign(p,name))];
+    // Never delete before the current owner holds byte-identical copies.
+    for(const relative of paths){const copy=path.join(resourceDirectory(owner),checkedRelative(relative));
+      if(!existsSync(copy)||stable(await fileDigest(copy))!==stable(old.files[relative]||old.inputs[relative]))throw Error(`${owner} lacks the approved bytes of ${relative}; migrate/fetch before releasing ${name} from ${id}.`);}
+    for(const relative of paths)await rm(path.join(resourceDirectory(id),relative),{force:true});
+    source.retainedDesigns=source.retainedDesigns.filter(other=>other!==name);if(!source.retainedDesigns.length)delete source.retainedDesigns;
+    console.log(`Released ${name} from ${id} (${paths.length} files); approve a new ${id} version to publish the smaller package.`);
+  }
+  await saveConfig();
 } else if(command==='scaffold') {
   sourceInfo(options.source);await scaffold(options.source,options['tooling-ref']);
   console.log('Scaffolded '+options.source+'; review generated package, notices and workflow.');
@@ -132,11 +151,13 @@ else if(command==='assign') {
   const retained=(source.retainedDesigns||[]).map(name=>{const previous=snapshot.find(item=>item.name===name);if(!previous)throw Error('Retained descriptive snapshot missing: '+name);return {...previous,...old.designs[name]};});
   const selected=[...items.filter(item=>config.assignments[item.name]===id),...retained],files={},inputs={};
   for(const relative of assetPaths(selected))files[relative]=await fileDigest(path.join(resourceDirectory(id),relative));
-  for(const relative of Object.keys(old.inputs))inputs[relative]=await fileDigest(path.join(resourceDirectory(id),relative));
+  const selectedNames=new Set(selected.map(item=>item.name)),released=Object.keys(old.designs).filter(name=>!selectedNames.has(name));
+  for(const relative of Object.keys(old.inputs))if(!released.some(name=>belongsToDesign(relative,name)))inputs[relative]=await fileDigest(path.join(resourceDirectory(id),relative));
   for(const item of selected)for(const stem of designStems(item.name))for(const directory of ['sources/tiles','sources/traces'])for(const extension of ['png','svg']){const relative=`${directory}/${stem}.${extension}`;if(existsSync(path.join(resourceDirectory(id),relative)))inputs[relative]=await fileDigest(path.join(resourceDirectory(id),relative));}
   const approved={schemaVersion:2,id,collection:source.collection,package:source.package,version:options.version,designs:Object.fromEntries(selected.map(item=>[item.name,capabilities(item)])),files,inputs},content=json(approved);
   if(Buffer.byteLength(content)>(config.policy.maxManifestBytes||1048576))throw Error('Manifest exceeds installer capacity; use another source.');
   const bytes=Object.values({...files,...inputs}).reduce((sum,file)=>sum+file.bytes,0);if(bytes>config.policy.maxTrackedBytes||Object.values({...files,...inputs}).some(f=>f.bytes>config.policy.maxFileBytes))throw Error('Approved resource exceeds capacity.');
+  const publicBytes=Object.values(files).reduce((sum,file)=>sum+file.bytes,0);if(publicBytes>config.policy.maxNpmUnpackedBytes)throw Error(`Public files total ${publicBytes} B, above the ${config.policy.maxNpmUnpackedBytes} B npm/CDN package limit; move complete designs to another source.`);
   await writeFile(path.join(projectRoot,`resources/manifests/${id}.json`),content);await writeFile(path.join(resourceDirectory(id),'resource-manifest.json'),content);
   const packagePath=path.join(resourceDirectory(id),'package.json'),pkg=JSON.parse(await readFile(packagePath));pkg.version=options.version;pkg.license='SEE LICENSE IN LICENSE';pkg.files=[...Object.keys(files),'resource-manifest.json','catalog.json','LICENSE'];await writeFile(packagePath,json(pkg));await writeFile(path.join(resourceDirectory(id),'catalog.json'),catalogBytes(selected));
   lock.sources[id]={version:options.version,gitCommit:null,manifestSha256:digest(content),filesSha256:digest(files)};await saveLock();console.log(`Approved ${id}@${options.version}; review and commit its source changes, then run lock.`);

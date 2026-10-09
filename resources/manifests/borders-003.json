@@ -1,0 +1,373 @@
+{
+  "schemaVersion": 2,
+  "id": "borders-003",
+  "collection": "borders",
+  "package": "@ranx729/medieval-ornaments-assets-borders-003",
+  "version": "0.1.0",
+  "designs": {
+    "russet-opposed-flowers-and-sage-leaves": {
+      "name": "russet-opposed-flowers-and-sage-leaves",
+      "asset_type": "border",
+      "kind": "repeat-tile",
+      "derivation": "source-crop-and-color-trace",
+      "repeat_axis": "y",
+      "repeat_ratio": 3.3438914027149322,
+      "border_image_slice_percent": 18.712955122777306,
+      "viewbox": [
+        0,
+        0,
+        221,
+        739
+      ],
+      "width": 221,
+      "height": 739,
+      "png": "png/russet-opposed-flowers-and-sage-leaves.png",
+      "webp": "webp/russet-opposed-flowers-and-sage-leaves.webp",
+      "svg": "svg/russet-opposed-flowers-and-sage-leaves.svg",
+      "png_bytes": 412221,
+      "webp_bytes": 236290,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/russet-opposed-flowers-and-sage-leaves.png",
+          "webp": "webp/128/russet-opposed-flowers-and-sage-leaves.webp",
+          "width": 38,
+          "height": 128,
+          "png_bytes": 14483,
+          "webp_bytes": 11244
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/russet-opposed-flowers-and-sage-leaves.png",
+          "webp": "webp/256/russet-opposed-flowers-and-sage-leaves.webp",
+          "width": 77,
+          "height": 256,
+          "png_bytes": 55249,
+          "webp_bytes": 37108
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/russet-opposed-flowers-and-sage-leaves.png",
+          "webp": "webp/512/russet-opposed-flowers-and-sage-leaves.webp",
+          "width": 153,
+          "height": 512,
+          "png_bytes": 208683,
+          "webp_bytes": 125490
+        }
+      ],
+      "components": {
+        "corner": {
+          "svg": "svg/russet-opposed-flowers-and-sage-leaves-corner.svg",
+          "viewbox": [
+            0,
+            0,
+            221,
+            221
+          ],
+          "png": "png/russet-opposed-flowers-and-sage-leaves-corner.png",
+          "webp": "webp/russet-opposed-flowers-and-sage-leaves-corner.webp",
+          "width": 221,
+          "height": 221,
+          "png_bytes": 126560,
+          "webp_bytes": 71808,
+          "variants": [
+            {
+              "max_dimension": 128,
+              "rendered_max_dimension": 128,
+              "png": "png/128/russet-opposed-flowers-and-sage-leaves-corner.png",
+              "webp": "webp/128/russet-opposed-flowers-and-sage-leaves-corner.webp",
+              "width": 128,
+              "height": 128,
+              "png_bytes": 45380,
+              "webp_bytes": 28312
+            }
+          ]
+        },
+        "border_image": {
+          "svg": "svg/russet-opposed-flowers-and-sage-leaves-border.svg",
+          "viewbox": [
+            0,
+            0,
+            1181,
+            1181
+          ],
+          "png": "png/russet-opposed-flowers-and-sage-leaves-border.png",
+          "webp": "webp/russet-opposed-flowers-and-sage-leaves-border.webp",
+          "width": 1181,
+          "height": 1181,
+          "png_bytes": 1937659,
+          "webp_bytes": 1113998,
+          "variants": [],
+          "slice_pixels": 221
+        },
+        "rotated_tile": {
+          "svg": "svg/russet-opposed-flowers-and-sage-leaves-rotated.svg",
+          "viewbox": [
+            0,
+            0,
+            739,
+            221
+          ],
+          "png": "png/russet-opposed-flowers-and-sage-leaves-rotated.png",
+          "webp": "webp/russet-opposed-flowers-and-sage-leaves-rotated.webp",
+          "width": 739,
+          "height": 221,
+          "png_bytes": 411566,
+          "webp_bytes": 236686,
+          "variants": [
+            {
+              "max_dimension": 128,
+              "rendered_max_dimension": 128,
+              "png": "png/128/russet-opposed-flowers-and-sage-leaves-rotated.png",
+              "webp": "webp/128/russet-opposed-flowers-and-sage-leaves-rotated.webp",
+              "width": 128,
+              "height": 38,
+              "png_bytes": 14316,
+              "webp_bytes": 10230
+            },
+            {
+              "max_dimension": 256,
+              "rendered_max_dimension": 256,
+              "png": "png/256/russet-opposed-flowers-and-sage-leaves-rotated.png",
+              "webp": "webp/256/russet-opposed-flowers-and-sage-leaves-rotated.webp",
+              "width": 256,
+              "height": 77,
+              "png_bytes": 54866,
+              "webp_bytes": 37040
+            },
+            {
+              "max_dimension": 512,
+              "rendered_max_dimension": 512,
+              "png": "png/512/russet-opposed-flowers-and-sage-leaves-rotated.png",
+              "webp": "webp/512/russet-opposed-flowers-and-sage-leaves-rotated.webp",
+              "width": 512,
+              "height": 153,
+              "png_bytes": 207663,
+              "webp_bytes": 125386
+            }
+          ],
+          "repeat_axis": "x",
+          "repeat_ratio": 3.3438914027149322
+        },
+        "reference_crop": {
+          "png": "png/russet-opposed-flowers-and-sage-leaves-reference.png",
+          "webp": "webp/russet-opposed-flowers-and-sage-leaves-reference.webp",
+          "width": 221,
+          "height": 1033,
+          "png_bytes": 522541,
+          "webp_bytes": 333720,
+          "variants": [
+            {
+              "max_dimension": 128,
+              "rendered_max_dimension": 128,
+              "png": "png/128/russet-opposed-flowers-and-sage-leaves-reference.png",
+              "webp": "webp/128/russet-opposed-flowers-and-sage-leaves-reference.webp",
+              "width": 27,
+              "height": 128,
+              "png_bytes": 10560,
+              "webp_bytes": 8034
+            },
+            {
+              "max_dimension": 256,
+              "rendered_max_dimension": 256,
+              "png": "png/256/russet-opposed-flowers-and-sage-leaves-reference.png",
+              "webp": "webp/256/russet-opposed-flowers-and-sage-leaves-reference.webp",
+              "width": 55,
+              "height": 256,
+              "png_bytes": 40813,
+              "webp_bytes": 28262
+            },
+            {
+              "max_dimension": 512,
+              "rendered_max_dimension": 512,
+              "png": "png/512/russet-opposed-flowers-and-sage-leaves-reference.png",
+              "webp": "webp/512/russet-opposed-flowers-and-sage-leaves-reference.webp",
+              "width": 110,
+              "height": 512,
+              "png_bytes": 155123,
+              "webp_bytes": 97340
+            },
+            {
+              "max_dimension": 768,
+              "rendered_max_dimension": 768,
+              "png": "png/768/russet-opposed-flowers-and-sage-leaves-reference.png",
+              "webp": "webp/768/russet-opposed-flowers-and-sage-leaves-reference.webp",
+              "width": 164,
+              "height": 768,
+              "png_bytes": 336457,
+              "webp_bytes": 200402
+            }
+          ]
+        }
+      },
+      "uses": [
+        "frame",
+        "divider"
+      ],
+      "formats": [
+        "svg",
+        "webp",
+        "png"
+      ]
+    }
+  },
+  "files": {
+    "png/128/russet-opposed-flowers-and-sage-leaves-corner.png": {
+      "bytes": 45380,
+      "sha256": "ab4b7fd49fa3df046e355344099c19a3794755b4e98295a3221c2a6a0656fb22"
+    },
+    "png/128/russet-opposed-flowers-and-sage-leaves-reference.png": {
+      "bytes": 10560,
+      "sha256": "288773bfc1451abfa3253474b18dd411fcc05f3a47fc3e962b0d0cdb6ade31c6"
+    },
+    "png/128/russet-opposed-flowers-and-sage-leaves-rotated.png": {
+      "bytes": 14316,
+      "sha256": "c9aa61cc45b7992be34138835c938745f2251aaa63135e885b3fff1b1d193b83"
+    },
+    "png/128/russet-opposed-flowers-and-sage-leaves.png": {
+      "bytes": 14483,
+      "sha256": "1b3d795252da6cc315ef8b77044ed1cf60c5981e4288822db568a12a4c4ee078"
+    },
+    "png/256/russet-opposed-flowers-and-sage-leaves-reference.png": {
+      "bytes": 40813,
+      "sha256": "e69b75a5db9aab95a725c73352ce1a0f5b3bc3755e9edec81e92b2dafee43dbb"
+    },
+    "png/256/russet-opposed-flowers-and-sage-leaves-rotated.png": {
+      "bytes": 54866,
+      "sha256": "b04377ddca17ae07013d701f607af34191ab0105e849bd6a36eb191a67eaff15"
+    },
+    "png/256/russet-opposed-flowers-and-sage-leaves.png": {
+      "bytes": 55249,
+      "sha256": "420944fc75d3ca5ab30cff687b60e13c100a5e3400c33b2b01615e5661a14dcb"
+    },
+    "png/512/russet-opposed-flowers-and-sage-leaves-reference.png": {
+      "bytes": 155123,
+      "sha256": "d4ec102b1463ba8345833f84e8c95b0e95fc04b5ace1169f67c6df584d9f55f1"
+    },
+    "png/512/russet-opposed-flowers-and-sage-leaves-rotated.png": {
+      "bytes": 207663,
+      "sha256": "43ee0a0114dcf2b3063d8122122a9e989f553ac4294f4f270b0059de6055f8cf"
+    },
+    "png/512/russet-opposed-flowers-and-sage-leaves.png": {
+      "bytes": 208683,
+      "sha256": "cbd25d3c2edadc4ee3770e2e24fea537462592d79a3141aab01d8defa28294d0"
+    },
+    "png/768/russet-opposed-flowers-and-sage-leaves-reference.png": {
+      "bytes": 336457,
+      "sha256": "a8541243d3f00e5cdd511cda60b3e59970d76594b81455844c5383f991eaa2ca"
+    },
+    "png/russet-opposed-flowers-and-sage-leaves-border.png": {
+      "bytes": 1937659,
+      "sha256": "0596158d36647f97413eeed1601996543945fa76b546f84a8d351356e6f46065"
+    },
+    "png/russet-opposed-flowers-and-sage-leaves-corner.png": {
+      "bytes": 126560,
+      "sha256": "397a2cb98743b4c123d89f5dc1e3920d4df4596a97fb50d5474020d3699eda17"
+    },
+    "png/russet-opposed-flowers-and-sage-leaves-reference.png": {
+      "bytes": 522541,
+      "sha256": "282e8b28e0a4b9a6d5b3b96270396b600bffaeee6c5c523bc0e471765e04bfcb"
+    },
+    "png/russet-opposed-flowers-and-sage-leaves-rotated.png": {
+      "bytes": 411566,
+      "sha256": "60416a24e68d8428fadeb7fedeb8f331f377c8f28c5fa870d140302873604215"
+    },
+    "png/russet-opposed-flowers-and-sage-leaves.png": {
+      "bytes": 412221,
+      "sha256": "49b562272636ac656facc5b1b706fc2c964c18c9daf3eb9a15639b927e0e95fd"
+    },
+    "svg/russet-opposed-flowers-and-sage-leaves-border.svg": {
+      "bytes": 21798480,
+      "sha256": "7de9755d3f23d9f50a3ef6e63dfaca0ef86fa46a384e41babef64c8d0f62c530"
+    },
+    "svg/russet-opposed-flowers-and-sage-leaves-corner.svg": {
+      "bytes": 21795553,
+      "sha256": "8bd1df2618f634aebddbe1e37cd8e0ba66d2b72f136949a80f272372402590c7"
+    },
+    "svg/russet-opposed-flowers-and-sage-leaves-rotated.svg": {
+      "bytes": 20874223,
+      "sha256": "eea63e092617e63777c9d4dd5be55fe7a9e1d4d48d77ad3f7d522e8ce1f4a6bc"
+    },
+    "svg/russet-opposed-flowers-and-sage-leaves.svg": {
+      "bytes": 21794878,
+      "sha256": "ea5552a414662cfec8f0449cadd58ad96a1e0009592e25781bac3e714b730eef"
+    },
+    "webp/128/russet-opposed-flowers-and-sage-leaves-corner.webp": {
+      "bytes": 28312,
+      "sha256": "1fccda088322df809e109e0ea44af0a91dbf36c2fcf0519dc42a5d3fea1aae2d"
+    },
+    "webp/128/russet-opposed-flowers-and-sage-leaves-reference.webp": {
+      "bytes": 8034,
+      "sha256": "52b4625117bff18dc49733db9983f14418749f097bc0fe417cc6efd77633c1f9"
+    },
+    "webp/128/russet-opposed-flowers-and-sage-leaves-rotated.webp": {
+      "bytes": 10230,
+      "sha256": "ae08440f4b55e9d9b26d1578a76cebae6af4fb9f3563123f524ce3caa28a3900"
+    },
+    "webp/128/russet-opposed-flowers-and-sage-leaves.webp": {
+      "bytes": 11244,
+      "sha256": "e435f1a7ea6d81d10fce6290b832d0c5b85a29b54edbc93267aa8aebd6db330a"
+    },
+    "webp/256/russet-opposed-flowers-and-sage-leaves-reference.webp": {
+      "bytes": 28262,
+      "sha256": "8b47d9412e7fa82ebd087da43430789655282740fc359f8519f7ccccf8541a9b"
+    },
+    "webp/256/russet-opposed-flowers-and-sage-leaves-rotated.webp": {
+      "bytes": 37040,
+      "sha256": "50808eeeebd55fd771009b4595d5d94fc4aaadadb979838335af6a334f982f78"
+    },
+    "webp/256/russet-opposed-flowers-and-sage-leaves.webp": {
+      "bytes": 37108,
+      "sha256": "0c6a34850f60e5314c5d90b7b98e099adb736185fd7e8a594bfb4707d5905eda"
+    },
+    "webp/512/russet-opposed-flowers-and-sage-leaves-reference.webp": {
+      "bytes": 97340,
+      "sha256": "cf18f0ef4bd7ba9c535ed10a92299a576a289b706600638e4b9316302e536202"
+    },
+    "webp/512/russet-opposed-flowers-and-sage-leaves-rotated.webp": {
+      "bytes": 125386,
+      "sha256": "ece0f3b49d4a9cf1d9063aef8bf613fc24ddef5b9913d9584d9989c33d6d1bfc"
+    },
+    "webp/512/russet-opposed-flowers-and-sage-leaves.webp": {
+      "bytes": 125490,
+      "sha256": "36a497be76a2f13242a5646f2aa1df82dda1707a87dfc7041b1ef4235ae7b7d6"
+    },
+    "webp/768/russet-opposed-flowers-and-sage-leaves-reference.webp": {
+      "bytes": 200402,
+      "sha256": "a08e57d560fc4b49983ea102823bcffe0d732164eb835fb93e824bd020d8f823"
+    },
+    "webp/russet-opposed-flowers-and-sage-leaves-border.webp": {
+      "bytes": 1113998,
+      "sha256": "45b0da8558c9c52cdb1bbad12b02d6da46bf011a8adc0e1aad0c45bf128589c4"
+    },
+    "webp/russet-opposed-flowers-and-sage-leaves-corner.webp": {
+      "bytes": 71808,
+      "sha256": "c10b2f8324f76aabbcf3b7583a9be6e9258c5052db31caa1402d6d5fb16db5da"
+    },
+    "webp/russet-opposed-flowers-and-sage-leaves-reference.webp": {
+      "bytes": 333720,
+      "sha256": "b35253c23e705890b6daa32ff7b069ee5332e88c35cb9be4eb73e478e68d92d1"
+    },
+    "webp/russet-opposed-flowers-and-sage-leaves-rotated.webp": {
+      "bytes": 236686,
+      "sha256": "30d81d2ac1b2baf9aeb8fff2236fd10b3a30853915d397cc8c42d4156528229c"
+    },
+    "webp/russet-opposed-flowers-and-sage-leaves.webp": {
+      "bytes": 236290,
+      "sha256": "04e1febe7344b905c027dcf1dcf91551d5411a654f0b562b11fd0950c9edcbc6"
+    }
+  },
+  "inputs": {
+    "sources/tiles/russet-opposed-flowers-and-sage-leaves.png": {
+      "bytes": 369421,
+      "sha256": "8a3320084f66dcf54b48b6b8f70b475b7894fc50e9cd97745e7f19245a4f56eb"
+    },
+    "sources/traces/russet-opposed-flowers-and-sage-leaves.svg": {
+      "bytes": 20844613,
+      "sha256": "d062ccb3e1075fc4938c99a53b6b1f33958d690042681fda23416e159b25e136"
+    }
+  }
+}

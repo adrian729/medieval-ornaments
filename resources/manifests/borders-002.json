@@ -1,0 +1,391 @@
+{
+  "schemaVersion": 2,
+  "id": "borders-002",
+  "collection": "borders",
+  "package": "@ranx729/medieval-ornaments-assets-borders-002",
+  "version": "0.1.0",
+  "designs": {
+    "russet-floral-vine-with-bud-borders": {
+      "name": "russet-floral-vine-with-bud-borders",
+      "asset_type": "border",
+      "kind": "repeat-tile",
+      "derivation": "source-crop-and-color-trace",
+      "repeat_axis": "y",
+      "repeat_ratio": 2.2808641975308643,
+      "border_image_slice_percent": 23.359769286229273,
+      "viewbox": [
+        0,
+        0,
+        324,
+        739
+      ],
+      "width": 324,
+      "height": 739,
+      "png": "png/russet-floral-vine-with-bud-borders.png",
+      "webp": "webp/russet-floral-vine-with-bud-borders.webp",
+      "svg": "svg/russet-floral-vine-with-bud-borders.svg",
+      "png_bytes": 588684,
+      "webp_bytes": 337814,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/russet-floral-vine-with-bud-borders.png",
+          "webp": "webp/128/russet-floral-vine-with-bud-borders.webp",
+          "width": 56,
+          "height": 128,
+          "png_bytes": 20935,
+          "webp_bytes": 15034
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/russet-floral-vine-with-bud-borders.png",
+          "webp": "webp/256/russet-floral-vine-with-bud-borders.webp",
+          "width": 112,
+          "height": 256,
+          "png_bytes": 78969,
+          "webp_bytes": 53258
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/russet-floral-vine-with-bud-borders.png",
+          "webp": "webp/512/russet-floral-vine-with-bud-borders.webp",
+          "width": 224,
+          "height": 512,
+          "png_bytes": 299072,
+          "webp_bytes": 180014
+        }
+      ],
+      "components": {
+        "corner": {
+          "svg": "svg/russet-floral-vine-with-bud-borders-corner.svg",
+          "viewbox": [
+            0,
+            0,
+            324,
+            324
+          ],
+          "png": "png/russet-floral-vine-with-bud-borders-corner.png",
+          "webp": "webp/russet-floral-vine-with-bud-borders-corner.webp",
+          "width": 324,
+          "height": 324,
+          "png_bytes": 260785,
+          "webp_bytes": 148668,
+          "variants": [
+            {
+              "max_dimension": 128,
+              "rendered_max_dimension": 128,
+              "png": "png/128/russet-floral-vine-with-bud-borders-corner.png",
+              "webp": "webp/128/russet-floral-vine-with-bud-borders-corner.webp",
+              "width": 128,
+              "height": 128,
+              "png_bytes": 45284,
+              "webp_bytes": 30168
+            },
+            {
+              "max_dimension": 256,
+              "rendered_max_dimension": 256,
+              "png": "png/256/russet-floral-vine-with-bud-borders-corner.png",
+              "webp": "webp/256/russet-floral-vine-with-bud-borders-corner.webp",
+              "width": 256,
+              "height": 256,
+              "png_bytes": 171392,
+              "webp_bytes": 101914
+            }
+          ]
+        },
+        "border_image": {
+          "svg": "svg/russet-floral-vine-with-bud-borders-border.svg",
+          "viewbox": [
+            0,
+            0,
+            1387,
+            1387
+          ],
+          "png": "png/russet-floral-vine-with-bud-borders-border.png",
+          "webp": "webp/russet-floral-vine-with-bud-borders-border.webp",
+          "width": 1387,
+          "height": 1387,
+          "png_bytes": 2919818,
+          "webp_bytes": 1631126,
+          "variants": [],
+          "slice_pixels": 324
+        },
+        "rotated_tile": {
+          "svg": "svg/russet-floral-vine-with-bud-borders-rotated.svg",
+          "viewbox": [
+            0,
+            0,
+            739,
+            324
+          ],
+          "png": "png/russet-floral-vine-with-bud-borders-rotated.png",
+          "webp": "webp/russet-floral-vine-with-bud-borders-rotated.webp",
+          "width": 739,
+          "height": 324,
+          "png_bytes": 582281,
+          "webp_bytes": 337608,
+          "variants": [
+            {
+              "max_dimension": 128,
+              "rendered_max_dimension": 128,
+              "png": "png/128/russet-floral-vine-with-bud-borders-rotated.png",
+              "webp": "webp/128/russet-floral-vine-with-bud-borders-rotated.webp",
+              "width": 128,
+              "height": 56,
+              "png_bytes": 20445,
+              "webp_bytes": 15010
+            },
+            {
+              "max_dimension": 256,
+              "rendered_max_dimension": 256,
+              "png": "png/256/russet-floral-vine-with-bud-borders-rotated.png",
+              "webp": "webp/256/russet-floral-vine-with-bud-borders-rotated.webp",
+              "width": 256,
+              "height": 112,
+              "png_bytes": 77860,
+              "webp_bytes": 53234
+            },
+            {
+              "max_dimension": 512,
+              "rendered_max_dimension": 512,
+              "png": "png/512/russet-floral-vine-with-bud-borders-rotated.png",
+              "webp": "webp/512/russet-floral-vine-with-bud-borders-rotated.webp",
+              "width": 512,
+              "height": 224,
+              "png_bytes": 296212,
+              "webp_bytes": 179930
+            }
+          ],
+          "repeat_axis": "x",
+          "repeat_ratio": 2.2808641975308643
+        },
+        "reference_crop": {
+          "png": "png/russet-floral-vine-with-bud-borders-reference.png",
+          "webp": "webp/russet-floral-vine-with-bud-borders-reference.webp",
+          "width": 324,
+          "height": 1033,
+          "png_bytes": 744296,
+          "webp_bytes": 480328,
+          "variants": [
+            {
+              "max_dimension": 128,
+              "rendered_max_dimension": 128,
+              "png": "png/128/russet-floral-vine-with-bud-borders-reference.png",
+              "webp": "webp/128/russet-floral-vine-with-bud-borders-reference.webp",
+              "width": 40,
+              "height": 128,
+              "png_bytes": 15266,
+              "webp_bytes": 11922
+            },
+            {
+              "max_dimension": 256,
+              "rendered_max_dimension": 256,
+              "png": "png/256/russet-floral-vine-with-bud-borders-reference.png",
+              "webp": "webp/256/russet-floral-vine-with-bud-borders-reference.webp",
+              "width": 80,
+              "height": 256,
+              "png_bytes": 58354,
+              "webp_bytes": 40778
+            },
+            {
+              "max_dimension": 512,
+              "rendered_max_dimension": 512,
+              "png": "png/512/russet-floral-vine-with-bud-borders-reference.png",
+              "webp": "webp/512/russet-floral-vine-with-bud-borders-reference.webp",
+              "width": 161,
+              "height": 512,
+              "png_bytes": 222017,
+              "webp_bytes": 141176
+            },
+            {
+              "max_dimension": 768,
+              "rendered_max_dimension": 768,
+              "png": "png/768/russet-floral-vine-with-bud-borders-reference.png",
+              "webp": "webp/768/russet-floral-vine-with-bud-borders-reference.webp",
+              "width": 241,
+              "height": 768,
+              "png_bytes": 482482,
+              "webp_bytes": 291082
+            }
+          ]
+        }
+      },
+      "uses": [
+        "frame",
+        "divider"
+      ],
+      "formats": [
+        "svg",
+        "webp",
+        "png"
+      ]
+    }
+  },
+  "files": {
+    "png/128/russet-floral-vine-with-bud-borders-corner.png": {
+      "bytes": 45284,
+      "sha256": "b82c39b68655645845c06d930c4f2efae415c90941dfd1b1633508d2e86520d2"
+    },
+    "png/128/russet-floral-vine-with-bud-borders-reference.png": {
+      "bytes": 15266,
+      "sha256": "be51ab57b4d7c8fa45eff6205c5e5b235490daa91b087df7154deeb369515a83"
+    },
+    "png/128/russet-floral-vine-with-bud-borders-rotated.png": {
+      "bytes": 20445,
+      "sha256": "7d31ec8208d00a2a2c662bd59e6da9018809cbc54836a8d4ea09c688cdfe5fa0"
+    },
+    "png/128/russet-floral-vine-with-bud-borders.png": {
+      "bytes": 20935,
+      "sha256": "ebca2f47a2632b61a229b9df86d21a274090b908f6bc43a47b23a73afbaa17c8"
+    },
+    "png/256/russet-floral-vine-with-bud-borders-corner.png": {
+      "bytes": 171392,
+      "sha256": "48abdcb75841e871f29ad9c8b30ce4b7075db83233735d3d4725fa32a1b23d2e"
+    },
+    "png/256/russet-floral-vine-with-bud-borders-reference.png": {
+      "bytes": 58354,
+      "sha256": "8830740c726af4c57fcb32190ce23bc240f6882e5e41538664314b417b8b76f0"
+    },
+    "png/256/russet-floral-vine-with-bud-borders-rotated.png": {
+      "bytes": 77860,
+      "sha256": "4aacb94d8c62cf8b61626b53c9cc2a6f73335e1fb673d742a92f032801238ae9"
+    },
+    "png/256/russet-floral-vine-with-bud-borders.png": {
+      "bytes": 78969,
+      "sha256": "571c679b999f1032887e4ef3b7bd707257851021e5e92edf21b03f509579859b"
+    },
+    "png/512/russet-floral-vine-with-bud-borders-reference.png": {
+      "bytes": 222017,
+      "sha256": "344c20ee41ddc4e763f48e4e903a1462c4450123aabfb2970e1f7f24a373e0c0"
+    },
+    "png/512/russet-floral-vine-with-bud-borders-rotated.png": {
+      "bytes": 296212,
+      "sha256": "2b40b9f69bf235df17c83ef4503297ab9896fff039ca5a87f601a363eed656b2"
+    },
+    "png/512/russet-floral-vine-with-bud-borders.png": {
+      "bytes": 299072,
+      "sha256": "be5f28e4aa6c479f6cb416c3bc16c59507aad2ce52cb754e330b519c5869985b"
+    },
+    "png/768/russet-floral-vine-with-bud-borders-reference.png": {
+      "bytes": 482482,
+      "sha256": "da901c0d82404a9deaec5c080708d65b05a1b39ce43c9467d285fe133e9d7d5a"
+    },
+    "png/russet-floral-vine-with-bud-borders-border.png": {
+      "bytes": 2919818,
+      "sha256": "6da20ad2310a00a385a6c940cc606fecbeb740339edf1aa5094e5547165b8bb1"
+    },
+    "png/russet-floral-vine-with-bud-borders-corner.png": {
+      "bytes": 260785,
+      "sha256": "75ba9ec5ffbafd3228fa3f5c4288044d8b351eb7b5d722a35d87ea9f96e365a4"
+    },
+    "png/russet-floral-vine-with-bud-borders-reference.png": {
+      "bytes": 744296,
+      "sha256": "df317376bd2cd958e947f726f1788566daf928a294265f0c2dcb5341ff35aee3"
+    },
+    "png/russet-floral-vine-with-bud-borders-rotated.png": {
+      "bytes": 582281,
+      "sha256": "ece113498e012ab79e21761f96812d1b42cfe5437f5a6539eb07f1d3fe2be116"
+    },
+    "png/russet-floral-vine-with-bud-borders.png": {
+      "bytes": 588684,
+      "sha256": "7ad7937b55e77ef5eae415c8237dafb0c2f5aaf2ddadad1f6d9b4e07a4472638"
+    },
+    "svg/russet-floral-vine-with-bud-borders-border.svg": {
+      "bytes": 30132207,
+      "sha256": "a0a9cafc419dd46fa5509153ad435d0a96d955f20ec9875bdd00dd71cd7a92ef"
+    },
+    "svg/russet-floral-vine-with-bud-borders-corner.svg": {
+      "bytes": 30129322,
+      "sha256": "2c9526e9f1567e854a7a4d52fb3581dcecb7a5b904a3f0f969b41343c7d430ca"
+    },
+    "svg/russet-floral-vine-with-bud-borders-rotated.svg": {
+      "bytes": 28804905,
+      "sha256": "78b8d83637e4ffe46e24ff458ad390451ce8a85b5be8bcfb01c96e645c74778b"
+    },
+    "svg/russet-floral-vine-with-bud-borders.svg": {
+      "bytes": 30128662,
+      "sha256": "57e7ee270d1a167756434e49cd3cbddc8feabb3efec829c89bb16e791c4d0f90"
+    },
+    "webp/128/russet-floral-vine-with-bud-borders-corner.webp": {
+      "bytes": 30168,
+      "sha256": "667fab36fe5c88ce64bac7856c479fa47fb206410475a2e04a76b80d3805d5cb"
+    },
+    "webp/128/russet-floral-vine-with-bud-borders-reference.webp": {
+      "bytes": 11922,
+      "sha256": "5b3853a0e439b7dd21c48f18cb82cda202d986128b644d923ee38190414a0010"
+    },
+    "webp/128/russet-floral-vine-with-bud-borders-rotated.webp": {
+      "bytes": 15010,
+      "sha256": "3b88a03e2bef8175f309fc850d8ab6fb0ad44787a8f36b1e7b03f881bd091f73"
+    },
+    "webp/128/russet-floral-vine-with-bud-borders.webp": {
+      "bytes": 15034,
+      "sha256": "b9c65a943e09e7765e2110c9d87ceeb43237f28e11d1e0e2195a2c97465a1a6c"
+    },
+    "webp/256/russet-floral-vine-with-bud-borders-corner.webp": {
+      "bytes": 101914,
+      "sha256": "be341a15790e29ff58c49ffebb529caf0e1e414c3324256faddbcffc242b5174"
+    },
+    "webp/256/russet-floral-vine-with-bud-borders-reference.webp": {
+      "bytes": 40778,
+      "sha256": "3f716d24730a6adff9cb55bbe759ea3a7375610db9575e3b1b58f94588e5af0e"
+    },
+    "webp/256/russet-floral-vine-with-bud-borders-rotated.webp": {
+      "bytes": 53234,
+      "sha256": "a40a4173b7bd40b726db4948aa8b297fdb5bd95568290aa423eef764ce312b72"
+    },
+    "webp/256/russet-floral-vine-with-bud-borders.webp": {
+      "bytes": 53258,
+      "sha256": "15a015e806b8a76772c9a820d63bc9f954ff882ede3a7f0db8b3ce7436ed9f8e"
+    },
+    "webp/512/russet-floral-vine-with-bud-borders-reference.webp": {
+      "bytes": 141176,
+      "sha256": "7b9e22ce4ee924c18d34cce8dd7db9029ad0c3a459e7efc74afb93ba4fdfceba"
+    },
+    "webp/512/russet-floral-vine-with-bud-borders-rotated.webp": {
+      "bytes": 179930,
+      "sha256": "605f026cfa03486292985194117b3c2bba356a6f95d0c4c1e3d4efde041746c2"
+    },
+    "webp/512/russet-floral-vine-with-bud-borders.webp": {
+      "bytes": 180014,
+      "sha256": "c11051aa455b638c41a5031d4c754ec376c3ba2f42ea046e59efa736d423c399"
+    },
+    "webp/768/russet-floral-vine-with-bud-borders-reference.webp": {
+      "bytes": 291082,
+      "sha256": "c593548920b765675b5a116d65b424398742aba597d01d5a738e8a529b36b5f2"
+    },
+    "webp/russet-floral-vine-with-bud-borders-border.webp": {
+      "bytes": 1631126,
+      "sha256": "eae2a185d58b7131183b3dc367434b95262f2ad8d69106c08049210f1e19a74d"
+    },
+    "webp/russet-floral-vine-with-bud-borders-corner.webp": {
+      "bytes": 148668,
+      "sha256": "1887e2bf7004537b44d6f31f446df99ca2f8b36966b344b7b6924147b9e96fbc"
+    },
+    "webp/russet-floral-vine-with-bud-borders-reference.webp": {
+      "bytes": 480328,
+      "sha256": "ca1617dc5ca0ee9e8fc1487743bb6189a6a97712ef322aade8a1a826dd327d05"
+    },
+    "webp/russet-floral-vine-with-bud-borders-rotated.webp": {
+      "bytes": 337608,
+      "sha256": "42295a0b0077da595f1d40a32f16affc306203788c7ab914412eef4bd7d4a50c"
+    },
+    "webp/russet-floral-vine-with-bud-borders.webp": {
+      "bytes": 337814,
+      "sha256": "5ab6fb37d0571f0b98b87d1d1c2870087b3f3cc824a6d7b1e260dc5c6b4fc220"
+    }
+  },
+  "inputs": {
+    "sources/tiles/russet-floral-vine-with-bud-borders.png": {
+      "bytes": 522794,
+      "sha256": "55ec3df68109984a692d17d6dfbc1c993a93fb98bea190be78d5ee350fcb01fc"
+    },
+    "sources/traces/russet-floral-vine-with-bud-borders.svg": {
+      "bytes": 28761603,
+      "sha256": "f5fb9b0f6dfa370ed88605b142a2b50e1e3dee97548ffc25264b64ff8b38ff13"
+    }
+  }
+}

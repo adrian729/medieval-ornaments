@@ -3,7 +3,7 @@ import { readFile, writeFile, mkdir, readdir, rm } from 'node:fs/promises';
 import { createHash } from 'node:crypto';
 import { root, assetCatalog, catalogBytes } from './package-assets.mjs';
 import { designData, vanillaModule, reactModule, styledModule, vanillaTypes, reactTypes } from '../lib/module-templates.js';
-import { validateResources, manifest as resourceManifest, designPaths, digest } from './resource-store.mjs';
+import { validateResources, manifest as resourceManifest, designPaths, digest, cdnBase } from './resource-store.mjs';
 const pkg = JSON.parse(await readFile(new URL('package.json', root), 'utf8'));
 const items = await assetCatalog(),catalog=catalogBytes(items);
 const manifestBytes=await readFile(new URL('assets-manifest.json',root)),manifest=JSON.parse(manifestBytes);
@@ -22,7 +22,7 @@ await writeFile(new URL('lib/runtime.js', root), `// Generated release pins; con
 await mkdir(new URL('lib/asset-sources/', root), {recursive: true});
 for (const [id, source] of Object.entries(resourceRegistry.sources)) {
   const pin = resourcePins.sources[id], approved = resourceManifest(id);
-  const info = {id, collection: source.collection, package: source.package, version: pin.version, manifestSha256: pin.manifestSha256, filesSha256: pin.filesSha256, activeFilesSha256: digest(Object.fromEntries(items.filter(item=>resourceRegistry.assignments[item.name]===id).flatMap(designPaths).map(p=>[p,approved.files[p]]))), base: `https://unpkg.com/${source.package}@${pin.version}/`};
+  const info = {id, collection: source.collection, package: source.package, version: pin.version, manifestSha256: pin.manifestSha256, filesSha256: pin.filesSha256, activeFilesSha256: digest(Object.fromEntries(items.filter(item=>resourceRegistry.assignments[item.name]===id).flatMap(designPaths).map(p=>[p,approved.files[p]]))), base: cdnBase(source.package, pin.version)};
   // Bind the unchanged intersection with the immutable compatibility archive.
   // New numbered artwork must never force refreshing those optional snapshots.
   info.legacyFilesSha256 = digest(Object.fromEntries(items.filter(item=>resourceRegistry.assignments[item.name]===id).flatMap(designPaths)

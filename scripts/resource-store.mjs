@@ -18,6 +18,8 @@ export const resourceDirectory = id => path.join(projectRoot, 'tmp/resource-chec
 export const sourceId = (collection, sequence) => `${collection}-${String(sequence).padStart(3, '0')}`;
 export const repositoryName = id => `medieval-ornaments-assets-${id}`;
 export const packageName = id => `@ranx729/${repositoryName(id)}`;
+// Default public delivery for an exact numbered resource version.
+export const cdnBase = (name, version) => `https://unpkg.com/${name}@${version}/`;
 
 export function checkedRelative(relative) {
   if (typeof relative !== 'string' || !relative || path.isAbsolute(relative) || relative.includes('\\') || relative.split('/').some(part => part === '..' || part === '.' || !part)) throw Error(`Invalid resource path: ${relative}`);

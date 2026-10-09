@@ -8,14 +8,15 @@
     "maxGitBytes": 950000000,
     "maxFileBytes": 94371840,
     "maxManifestBytes": 1048576,
-    "maxNpmPackedBytes": 200000000
+    "maxNpmPackedBytes": 200000000,
+    "maxNpmUnpackedBytes": 140000000
   },
   "collections": {
     "borders": {
       "assetTypes": [
         "border"
       ],
-      "activeSource": "borders-001"
+      "activeSource": "borders-004"
     },
     "decorations": {
       "assetTypes": [
@@ -27,7 +28,7 @@
       "assetTypes": [
         "illustration"
       ],
-      "activeSource": "illustrations-001"
+      "activeSource": "illustrations-002"
     }
   },
   "sources": {
@@ -35,7 +36,7 @@
       "id": "borders-001",
       "collection": "borders",
       "sequence": 1,
-      "state": "open",
+      "state": "sealed",
       "repository": "adrian729/medieval-ornaments-assets-borders-001",
       "package": "@ranx729/medieval-ornaments-assets-borders-001"
     },
@@ -51,9 +52,41 @@
       "id": "illustrations-001",
       "collection": "illustrations",
       "sequence": 1,
-      "state": "open",
+      "state": "sealed",
       "repository": "adrian729/medieval-ornaments-assets-illustrations-001",
       "package": "@ranx729/medieval-ornaments-assets-illustrations-001"
+    },
+    "borders-002": {
+      "id": "borders-002",
+      "collection": "borders",
+      "sequence": 2,
+      "state": "sealed",
+      "repository": "adrian729/medieval-ornaments-assets-borders-002",
+      "package": "@ranx729/medieval-ornaments-assets-borders-002"
+    },
+    "borders-003": {
+      "id": "borders-003",
+      "collection": "borders",
+      "sequence": 3,
+      "state": "sealed",
+      "repository": "adrian729/medieval-ornaments-assets-borders-003",
+      "package": "@ranx729/medieval-ornaments-assets-borders-003"
+    },
+    "borders-004": {
+      "id": "borders-004",
+      "collection": "borders",
+      "sequence": 4,
+      "state": "open",
+      "repository": "adrian729/medieval-ornaments-assets-borders-004",
+      "package": "@ranx729/medieval-ornaments-assets-borders-004"
+    },
+    "illustrations-002": {
+      "id": "illustrations-002",
+      "collection": "illustrations",
+      "sequence": 2,
+      "state": "open",
+      "repository": "adrian729/medieval-ornaments-assets-illustrations-002",
+      "package": "@ranx729/medieval-ornaments-assets-illustrations-002"
     }
   },
   "assignments": {
@@ -94,22 +127,22 @@
     "hooded-harp-player": "illustrations-001",
     "interlocking-ribbon": "borders-001",
     "lizard-lute-player": "illustrations-001",
-    "musician-r1-c1-organ-player": "illustrations-001",
-    "musician-r1-c2-shawm-player": "illustrations-001",
-    "musician-r1-c3-horn-player": "illustrations-001",
-    "musician-r1-c4-horn-player": "illustrations-001",
-    "musician-r2-c1-bagpiper": "illustrations-001",
-    "musician-r2-c2-bagpiper": "illustrations-001",
-    "musician-r2-c3-horn-player": "illustrations-001",
-    "musician-r2-c4-psaltery-player": "illustrations-001",
-    "musician-r3-c1-bagpiper": "illustrations-001",
-    "musician-r3-c2-lute-player": "illustrations-001",
-    "musician-r3-c3-lute-player": "illustrations-001",
-    "musician-r3-c4-pipe-player": "illustrations-001",
+    "musician-r1-c1-organ-player": "illustrations-002",
+    "musician-r1-c2-shawm-player": "illustrations-002",
+    "musician-r1-c3-horn-player": "illustrations-002",
+    "musician-r1-c4-horn-player": "illustrations-002",
+    "musician-r2-c1-bagpiper": "illustrations-002",
+    "musician-r2-c2-bagpiper": "illustrations-002",
+    "musician-r2-c3-horn-player": "illustrations-002",
+    "musician-r2-c4-psaltery-player": "illustrations-002",
+    "musician-r3-c1-bagpiper": "illustrations-002",
+    "musician-r3-c2-lute-player": "illustrations-002",
+    "musician-r3-c3-lute-player": "illustrations-002",
+    "musician-r3-c4-pipe-player": "illustrations-002",
     "musicians-and-dancers": "illustrations-001",
     "olive-leaf-and-red-berry-vine": "borders-001",
-    "painted-opposed-serrated-flower-vine": "borders-001",
-    "painted-rosette-and-fan-vine": "borders-001",
+    "painted-opposed-serrated-flower-vine": "borders-004",
+    "painted-rosette-and-fan-vine": "borders-004",
     "painted-sprawling-floral-panel": "decorations-001",
     "painted-symmetric-leaf-and-flower-panel": "decorations-001",
     "painted-three-band-floral-panel": "decorations-001",
@@ -159,8 +192,8 @@
     "red-berry-vine": "borders-001",
     "red-rosette-vine": "borders-001",
     "red-trefoil-vine": "borders-001",
-    "russet-floral-vine-with-bud-borders": "borders-001",
-    "russet-opposed-flowers-and-sage-leaves": "borders-001",
+    "russet-floral-vine-with-bud-borders": "borders-002",
+    "russet-opposed-flowers-and-sage-leaves": "borders-003",
     "sage-leaf-and-russet-bud-vine": "borders-001",
     "seated-rabbit": "illustrations-001",
     "snail": "illustrations-001",
@@ -168,10 +201,10 @@
     "weird-dog": "illustrations-001",
     "white-animal-bagpiper": "illustrations-001",
     "winged-rabbit": "illustrations-001",
-    "walters-horse-flute-drum": "illustrations-001",
-    "walters-rabbit-church-bells": "illustrations-001",
-    "walters-centaur-archer": "illustrations-001",
-    "walters-elephant-castle": "illustrations-001",
+    "walters-horse-flute-drum": "illustrations-002",
+    "walters-rabbit-church-bells": "illustrations-002",
+    "walters-centaur-archer": "illustrations-002",
+    "walters-elephant-castle": "illustrations-002",
     "rosselli-foliate-strip": "decorations-001",
     "rosselli-mask-strip": "decorations-001",
     "rosselli-roundel-top": "decorations-001",
@@ -181,22 +214,22 @@
     "aldegrever-paired-tendrils": "decorations-001",
     "hopfer-thistle-panel": "decorations-001",
     "isabella-gold-floral-frame": "decorations-001",
-    "isabella-orange-butterfly": "illustrations-001",
-    "isabella-gray-butterfly": "illustrations-001",
-    "isabella-small-bird": "illustrations-001",
-    "isabella-pink-rose": "illustrations-001",
-    "isabella-blue-cornflower": "illustrations-001",
-    "hoefnagel-rose-upper": "illustrations-001",
-    "hoefnagel-rose-lower": "illustrations-001",
-    "hoefnagel-cut-apple": "illustrations-001",
+    "isabella-orange-butterfly": "illustrations-002",
+    "isabella-gray-butterfly": "illustrations-002",
+    "isabella-small-bird": "illustrations-002",
+    "isabella-pink-rose": "illustrations-002",
+    "isabella-blue-cornflower": "illustrations-002",
+    "hoefnagel-rose-upper": "illustrations-002",
+    "hoefnagel-rose-lower": "illustrations-002",
+    "hoefnagel-cut-apple": "illustrations-002",
     "hoefnagel-strapwork-frame": "decorations-001",
-    "rabbit-horn-hound-rider": "illustrations-001",
+    "rabbit-horn-hound-rider": "illustrations-002",
     "rosselli-mask-border": "borders-001",
     "rosselli-foliate-border": "borders-001",
-    "polyhymnia": "illustrations-001",
+    "polyhymnia": "illustrations-002",
     "acanthus-tailpiece": "decorations-001",
     "briar-divider": "decorations-001",
-    "choirbook-and-ivy": "illustrations-001",
+    "choirbook-and-ivy": "illustrations-002",
     "gold-cinquefoil-divider-center": "decorations-001",
     "gold-cinquefoil-divider-end": "decorations-001",
     "gold-lozenge-divider-center": "decorations-001",
@@ -216,7 +249,7 @@
     "ivy-line-filler": "decorations-001",
     "ivy-manuscript-frame": "decorations-001",
     "ivy-marginal-vine": "decorations-001",
-    "rabbit-lutenist-painted": "illustrations-001",
+    "rabbit-lutenist-painted": "illustrations-002",
     "songbirds-headpiece": "decorations-001"
   }
 }

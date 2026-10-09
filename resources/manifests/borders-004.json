@@ -1,0 +1,625 @@
+{
+  "schemaVersion": 2,
+  "id": "borders-004",
+  "collection": "borders",
+  "package": "@ranx729/medieval-ornaments-assets-borders-004",
+  "version": "0.1.0",
+  "designs": {
+    "painted-opposed-serrated-flower-vine": {
+      "name": "painted-opposed-serrated-flower-vine",
+      "asset_type": "border",
+      "kind": "repeat-tile",
+      "derivation": "source-crop-and-color-trace",
+      "repeat_axis": "x",
+      "repeat_ratio": 2.5460526315789473,
+      "border_image_slice_percent": 21.99710564399421,
+      "viewbox": [
+        0,
+        0,
+        387,
+        152
+      ],
+      "width": 387,
+      "height": 152,
+      "png": "png/painted-opposed-serrated-flower-vine.png",
+      "webp": "webp/painted-opposed-serrated-flower-vine.webp",
+      "svg": "svg/painted-opposed-serrated-flower-vine.svg",
+      "png_bytes": 144795,
+      "webp_bytes": 89488,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/painted-opposed-serrated-flower-vine.png",
+          "webp": "webp/128/painted-opposed-serrated-flower-vine.webp",
+          "width": 128,
+          "height": 50,
+          "png_bytes": 16660,
+          "webp_bytes": 12844
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/painted-opposed-serrated-flower-vine.png",
+          "webp": "webp/256/painted-opposed-serrated-flower-vine.webp",
+          "width": 256,
+          "height": 101,
+          "png_bytes": 66295,
+          "webp_bytes": 44604
+        }
+      ],
+      "components": {
+        "corner": {
+          "svg": "svg/painted-opposed-serrated-flower-vine-corner.svg",
+          "viewbox": [
+            0,
+            0,
+            152,
+            152
+          ],
+          "png": "png/painted-opposed-serrated-flower-vine-corner.png",
+          "webp": "webp/painted-opposed-serrated-flower-vine-corner.webp",
+          "width": 152,
+          "height": 152,
+          "png_bytes": 57804,
+          "webp_bytes": 35262,
+          "variants": [
+            {
+              "max_dimension": 128,
+              "rendered_max_dimension": 128,
+              "png": "png/128/painted-opposed-serrated-flower-vine-corner.png",
+              "webp": "webp/128/painted-opposed-serrated-flower-vine-corner.webp",
+              "width": 128,
+              "height": 128,
+              "png_bytes": 42043,
+              "webp_bytes": 26466
+            }
+          ]
+        },
+        "border_image": {
+          "svg": "svg/painted-opposed-serrated-flower-vine-border.svg",
+          "viewbox": [
+            0,
+            0,
+            691,
+            691
+          ],
+          "png": "png/painted-opposed-serrated-flower-vine-border.png",
+          "webp": "webp/painted-opposed-serrated-flower-vine-border.webp",
+          "width": 691,
+          "height": 691,
+          "png_bytes": 716471,
+          "webp_bytes": 455650,
+          "variants": [],
+          "slice_pixels": 152
+        },
+        "rotated_tile": {
+          "svg": "svg/painted-opposed-serrated-flower-vine-rotated.svg",
+          "viewbox": [
+            0,
+            0,
+            152,
+            387
+          ],
+          "png": "png/painted-opposed-serrated-flower-vine-rotated.png",
+          "webp": "webp/painted-opposed-serrated-flower-vine-rotated.webp",
+          "width": 152,
+          "height": 387,
+          "png_bytes": 147972,
+          "webp_bytes": 89612,
+          "variants": [
+            {
+              "max_dimension": 128,
+              "rendered_max_dimension": 128,
+              "png": "png/128/painted-opposed-serrated-flower-vine-rotated.png",
+              "webp": "webp/128/painted-opposed-serrated-flower-vine-rotated.webp",
+              "width": 50,
+              "height": 128,
+              "png_bytes": 16832,
+              "webp_bytes": 13024
+            },
+            {
+              "max_dimension": 256,
+              "rendered_max_dimension": 256,
+              "png": "png/256/painted-opposed-serrated-flower-vine-rotated.png",
+              "webp": "webp/256/painted-opposed-serrated-flower-vine-rotated.webp",
+              "width": 101,
+              "height": 256,
+              "png_bytes": 67231,
+              "webp_bytes": 44644
+            }
+          ],
+          "repeat_axis": "y",
+          "repeat_ratio": 2.5460526315789473
+        },
+        "reference_crop": {
+          "png": "png/painted-opposed-serrated-flower-vine-reference.png",
+          "webp": "webp/painted-opposed-serrated-flower-vine-reference.webp",
+          "width": 722,
+          "height": 152,
+          "png_bytes": 238153,
+          "webp_bytes": 166068,
+          "variants": [
+            {
+              "max_dimension": 128,
+              "rendered_max_dimension": 128,
+              "png": "png/128/painted-opposed-serrated-flower-vine-reference.png",
+              "webp": "webp/128/painted-opposed-serrated-flower-vine-reference.webp",
+              "width": 128,
+              "height": 27,
+              "png_bytes": 8667,
+              "webp_bytes": 7206
+            },
+            {
+              "max_dimension": 256,
+              "rendered_max_dimension": 256,
+              "png": "png/256/painted-opposed-serrated-flower-vine-reference.png",
+              "webp": "webp/256/painted-opposed-serrated-flower-vine-reference.webp",
+              "width": 256,
+              "height": 54,
+              "png_bytes": 35588,
+              "webp_bytes": 27086
+            },
+            {
+              "max_dimension": 512,
+              "rendered_max_dimension": 512,
+              "png": "png/512/painted-opposed-serrated-flower-vine-reference.png",
+              "webp": "webp/512/painted-opposed-serrated-flower-vine-reference.webp",
+              "width": 512,
+              "height": 108,
+              "png_bytes": 139433,
+              "webp_bytes": 92174
+            }
+          ]
+        }
+      },
+      "uses": [
+        "frame",
+        "divider"
+      ],
+      "formats": [
+        "svg",
+        "webp",
+        "png"
+      ]
+    },
+    "painted-rosette-and-fan-vine": {
+      "name": "painted-rosette-and-fan-vine",
+      "asset_type": "border",
+      "kind": "repeat-tile",
+      "derivation": "source-crop-and-color-trace",
+      "repeat_axis": "x",
+      "repeat_ratio": 2.8865248226950353,
+      "border_image_slice_percent": 20.4644412191582,
+      "viewbox": [
+        0,
+        0,
+        407,
+        141
+      ],
+      "width": 407,
+      "height": 141,
+      "png": "png/painted-rosette-and-fan-vine.png",
+      "webp": "webp/painted-rosette-and-fan-vine.webp",
+      "svg": "svg/painted-rosette-and-fan-vine.svg",
+      "png_bytes": 137114,
+      "webp_bytes": 84894,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/painted-rosette-and-fan-vine.png",
+          "webp": "webp/128/painted-rosette-and-fan-vine.webp",
+          "width": 128,
+          "height": 44,
+          "png_bytes": 13974,
+          "webp_bytes": 10862
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/painted-rosette-and-fan-vine.png",
+          "webp": "webp/256/painted-rosette-and-fan-vine.webp",
+          "width": 256,
+          "height": 89,
+          "png_bytes": 56650,
+          "webp_bytes": 38566
+        }
+      ],
+      "components": {
+        "corner": {
+          "svg": "svg/painted-rosette-and-fan-vine-corner.svg",
+          "viewbox": [
+            0,
+            0,
+            141,
+            141
+          ],
+          "png": "png/painted-rosette-and-fan-vine-corner.png",
+          "webp": "webp/painted-rosette-and-fan-vine-corner.webp",
+          "width": 141,
+          "height": 141,
+          "png_bytes": 52456,
+          "webp_bytes": 32106,
+          "variants": [
+            {
+              "max_dimension": 128,
+              "rendered_max_dimension": 128,
+              "png": "png/128/painted-rosette-and-fan-vine-corner.png",
+              "webp": "webp/128/painted-rosette-and-fan-vine-corner.webp",
+              "width": 128,
+              "height": 128,
+              "png_bytes": 43622,
+              "webp_bytes": 27370
+            }
+          ]
+        },
+        "border_image": {
+          "svg": "svg/painted-rosette-and-fan-vine-border.svg",
+          "viewbox": [
+            0,
+            0,
+            689,
+            689
+          ],
+          "png": "png/painted-rosette-and-fan-vine-border.png",
+          "webp": "webp/painted-rosette-and-fan-vine-border.webp",
+          "width": 689,
+          "height": 689,
+          "png_bytes": 674735,
+          "webp_bytes": 414666,
+          "variants": [],
+          "slice_pixels": 141
+        },
+        "rotated_tile": {
+          "svg": "svg/painted-rosette-and-fan-vine-rotated.svg",
+          "viewbox": [
+            0,
+            0,
+            141,
+            407
+          ],
+          "png": "png/painted-rosette-and-fan-vine-rotated.png",
+          "webp": "webp/painted-rosette-and-fan-vine-rotated.webp",
+          "width": 141,
+          "height": 407,
+          "png_bytes": 140724,
+          "webp_bytes": 85504,
+          "variants": [
+            {
+              "max_dimension": 128,
+              "rendered_max_dimension": 128,
+              "png": "png/128/painted-rosette-and-fan-vine-rotated.png",
+              "webp": "webp/128/painted-rosette-and-fan-vine-rotated.webp",
+              "width": 44,
+              "height": 128,
+              "png_bytes": 14204,
+              "webp_bytes": 13354
+            },
+            {
+              "max_dimension": 256,
+              "rendered_max_dimension": 256,
+              "png": "png/256/painted-rosette-and-fan-vine-rotated.png",
+              "webp": "webp/256/painted-rosette-and-fan-vine-rotated.webp",
+              "width": 89,
+              "height": 256,
+              "png_bytes": 57890,
+              "webp_bytes": 38590
+            }
+          ],
+          "repeat_axis": "y",
+          "repeat_ratio": 2.8865248226950353
+        },
+        "reference_crop": {
+          "png": "png/painted-rosette-and-fan-vine-reference.png",
+          "webp": "webp/painted-rosette-and-fan-vine-reference.webp",
+          "width": 722,
+          "height": 141,
+          "png_bytes": 215416,
+          "webp_bytes": 149438,
+          "variants": [
+            {
+              "max_dimension": 128,
+              "rendered_max_dimension": 128,
+              "png": "png/128/painted-rosette-and-fan-vine-reference.png",
+              "webp": "webp/128/painted-rosette-and-fan-vine-reference.webp",
+              "width": 128,
+              "height": 25,
+              "png_bytes": 7513,
+              "webp_bytes": 6218
+            },
+            {
+              "max_dimension": 256,
+              "rendered_max_dimension": 256,
+              "png": "png/256/painted-rosette-and-fan-vine-reference.png",
+              "webp": "webp/256/painted-rosette-and-fan-vine-reference.webp",
+              "width": 256,
+              "height": 50,
+              "png_bytes": 31490,
+              "webp_bytes": 23786
+            },
+            {
+              "max_dimension": 512,
+              "rendered_max_dimension": 512,
+              "png": "png/512/painted-rosette-and-fan-vine-reference.png",
+              "webp": "webp/512/painted-rosette-and-fan-vine-reference.webp",
+              "width": 512,
+              "height": 100,
+              "png_bytes": 125541,
+              "webp_bytes": 82592
+            }
+          ]
+        }
+      },
+      "uses": [
+        "frame",
+        "divider"
+      ],
+      "formats": [
+        "svg",
+        "webp",
+        "png"
+      ]
+    }
+  },
+  "files": {
+    "png/128/painted-opposed-serrated-flower-vine-corner.png": {
+      "bytes": 42043,
+      "sha256": "97474ad995f4b05a43948e70d5629583a6843137a01e95ee6c1885a8087f6f58"
+    },
+    "png/128/painted-opposed-serrated-flower-vine-reference.png": {
+      "bytes": 8667,
+      "sha256": "a5b6ca8e5638df1a37c23be0943b2db6d32a2f201bb58d7fa8ffe8b5345da39c"
+    },
+    "png/128/painted-opposed-serrated-flower-vine-rotated.png": {
+      "bytes": 16832,
+      "sha256": "c4b38a723137c0ca6b599095d8b17035282bd059f72a9a93b9073b5bbe3696bc"
+    },
+    "png/128/painted-opposed-serrated-flower-vine.png": {
+      "bytes": 16660,
+      "sha256": "a20553970e6ebbd02975e45b56b7e6ede28b9724f06dd9c5934604bc49a07100"
+    },
+    "png/128/painted-rosette-and-fan-vine-corner.png": {
+      "bytes": 43622,
+      "sha256": "1d5f1f3a46811e6c00369a0adb3f04f3825e0b56d2f478b3ae709c323ee4cea9"
+    },
+    "png/128/painted-rosette-and-fan-vine-reference.png": {
+      "bytes": 7513,
+      "sha256": "32803b2ac729df26e5f0f1a45ca9130aa7a601096de2e975a84e8ef494113aff"
+    },
+    "png/128/painted-rosette-and-fan-vine-rotated.png": {
+      "bytes": 14204,
+      "sha256": "cb0574925e4a137435dba68eff5ebe15d2044eaa29b2ab4a68ec7a7f170dab5e"
+    },
+    "png/128/painted-rosette-and-fan-vine.png": {
+      "bytes": 13974,
+      "sha256": "239efd826bd22267872a2a5825bbca5365c8200077450c0c8543792f84b90ded"
+    },
+    "png/256/painted-opposed-serrated-flower-vine-reference.png": {
+      "bytes": 35588,
+      "sha256": "fbe54d277085c1dd07490a694503007adfb0ca84b133c72d5ce1b78c1f738331"
+    },
+    "png/256/painted-opposed-serrated-flower-vine-rotated.png": {
+      "bytes": 67231,
+      "sha256": "cac66eb483d3ffbe0414863b225c04fcc61f4df29062305dd01a97f0d00576c9"
+    },
+    "png/256/painted-opposed-serrated-flower-vine.png": {
+      "bytes": 66295,
+      "sha256": "e47e9db9dc8f02aeb51fb684ab83e5496c43275e6635d078b7ec4d8eda297bf0"
+    },
+    "png/256/painted-rosette-and-fan-vine-reference.png": {
+      "bytes": 31490,
+      "sha256": "4be46a7ba410e4ba2b2dbaa814aeef01b0c1eab9c5aff75737fb5c644f47839a"
+    },
+    "png/256/painted-rosette-and-fan-vine-rotated.png": {
+      "bytes": 57890,
+      "sha256": "24abb7572a275abe858ca322eb3d3805725b2bd9d42b4cb4198408c191ed06ec"
+    },
+    "png/256/painted-rosette-and-fan-vine.png": {
+      "bytes": 56650,
+      "sha256": "e3fc23f57a07e94948a1b7cf26c39c8203429a8f21c19bd73669f7a37dbe6e96"
+    },
+    "png/512/painted-opposed-serrated-flower-vine-reference.png": {
+      "bytes": 139433,
+      "sha256": "3165b05bf68a0fb047d7d3671c68fac5be20259846b8f3b5136d9c034f0e99d4"
+    },
+    "png/512/painted-rosette-and-fan-vine-reference.png": {
+      "bytes": 125541,
+      "sha256": "7926fda7044fcb15e9662b7787d28d840676476dc501e8e2b3a188b153d4acd9"
+    },
+    "png/painted-opposed-serrated-flower-vine-border.png": {
+      "bytes": 716471,
+      "sha256": "a3e9dfb022458d6a51585a2baa3c8e33bfa480c16554a3f536e06b13aaa10268"
+    },
+    "png/painted-opposed-serrated-flower-vine-corner.png": {
+      "bytes": 57804,
+      "sha256": "e24903080f48fbcc407901abad0011e1c9a5dbcb7d2171d3865e252ab809a560"
+    },
+    "png/painted-opposed-serrated-flower-vine-reference.png": {
+      "bytes": 238153,
+      "sha256": "4c37e49ccb23da8c92c87dc08662c2298665bebd221dd4c0a51c5cb82148d419"
+    },
+    "png/painted-opposed-serrated-flower-vine-rotated.png": {
+      "bytes": 147972,
+      "sha256": "7ff35029441c9c771912af1a992fb975c7c9198eb010e25ec67014ea305eb133"
+    },
+    "png/painted-opposed-serrated-flower-vine.png": {
+      "bytes": 144795,
+      "sha256": "d79f2ebd2b1ac59e7ccd75f16e749ae1f27dea480fa105020c33544636137878"
+    },
+    "png/painted-rosette-and-fan-vine-border.png": {
+      "bytes": 674735,
+      "sha256": "a534b21058142067983c1b101784ef5c0a966da2b26cf195bcc53d72b31ef10c"
+    },
+    "png/painted-rosette-and-fan-vine-corner.png": {
+      "bytes": 52456,
+      "sha256": "0be7111cd990252e8eb3a5374c6ea0b3012153d1a9baacfc1e46d68335c01727"
+    },
+    "png/painted-rosette-and-fan-vine-reference.png": {
+      "bytes": 215416,
+      "sha256": "3e8a96287416dd714878f38a6d93ebfe8574ee19286d15b8f9ea66d98af81358"
+    },
+    "png/painted-rosette-and-fan-vine-rotated.png": {
+      "bytes": 140724,
+      "sha256": "fe164885ff844dd11081a9971600b83d4352abb50f66525150b919cd90018db8"
+    },
+    "png/painted-rosette-and-fan-vine.png": {
+      "bytes": 137114,
+      "sha256": "f33fee4f35221a2877a871288dd910c12238e7463b7c47207a6b8cc74c73e9fa"
+    },
+    "svg/painted-opposed-serrated-flower-vine-border.svg": {
+      "bytes": 6656682,
+      "sha256": "071b3fefeaa904713d762b6ae9c4402f152963a5728d9ff906782a0258c2b0de"
+    },
+    "svg/painted-opposed-serrated-flower-vine-corner.svg": {
+      "bytes": 6653793,
+      "sha256": "c34219264d55aab439e6b8d350650521feafc513be580efc50a308c3c6b00e48"
+    },
+    "svg/painted-opposed-serrated-flower-vine-rotated.svg": {
+      "bytes": 6512611,
+      "sha256": "7d107d9c178d0e581c5010490b760ddcd817c3830bd004b02b3ba7add00dd85f"
+    },
+    "svg/painted-opposed-serrated-flower-vine.svg": {
+      "bytes": 6653081,
+      "sha256": "f4b3b7d96f5985b1a57e4f5592beb93d1ee18c22b204465b9d30f84af5b8cc9d"
+    },
+    "svg/painted-rosette-and-fan-vine-border.svg": {
+      "bytes": 5693409,
+      "sha256": "2fac753fef7f27d68a49322774f59c1fe6066c7da508114a95cbdc53ace3690d"
+    },
+    "svg/painted-rosette-and-fan-vine-corner.svg": {
+      "bytes": 5690648,
+      "sha256": "a6263b01e1f92454604b81f7ce6ada3b6216096455c37de0e449d5ac3db3d9a2"
+    },
+    "svg/painted-rosette-and-fan-vine-rotated.svg": {
+      "bytes": 5556931,
+      "sha256": "a925f40666648d85f82e7b9e3f349f374940f8cba46cd19241babf2c6091ee90"
+    },
+    "svg/painted-rosette-and-fan-vine.svg": {
+      "bytes": 5689976,
+      "sha256": "0ec0f56c4631534a284492856ffb9a967448343160578f45f27cd5a27c0d894b"
+    },
+    "webp/128/painted-opposed-serrated-flower-vine-corner.webp": {
+      "bytes": 26466,
+      "sha256": "3a66a7c2f4ffcdf0dc12ea37afbf6ebfc617e04929d56cf3cc5370c74519f16f"
+    },
+    "webp/128/painted-opposed-serrated-flower-vine-reference.webp": {
+      "bytes": 7206,
+      "sha256": "1ce32371d323d2c61dc25bdfdc8939bb482541dff757acc4aedf9eb13c502717"
+    },
+    "webp/128/painted-opposed-serrated-flower-vine-rotated.webp": {
+      "bytes": 13024,
+      "sha256": "dcb112845fb2e30ea26abf8eb9581e70e2012755eb65e9b881c48957560b994e"
+    },
+    "webp/128/painted-opposed-serrated-flower-vine.webp": {
+      "bytes": 12844,
+      "sha256": "2ceb6ee74ad9aa0c96d2ba245c41d973d539cc9369992120f6eb74aa6b289549"
+    },
+    "webp/128/painted-rosette-and-fan-vine-corner.webp": {
+      "bytes": 27370,
+      "sha256": "3b8e89ae89f30d77444aea40dfad47d94ab724789c7fd36686bd40a1119bc872"
+    },
+    "webp/128/painted-rosette-and-fan-vine-reference.webp": {
+      "bytes": 6218,
+      "sha256": "96316f69893153c3f94aa5feca966f38e64519d6584665983bdf0c4a537eb969"
+    },
+    "webp/128/painted-rosette-and-fan-vine-rotated.webp": {
+      "bytes": 13354,
+      "sha256": "6b5f7ca466da0651c941d3f57f5df139ed4c37cbbd6411f83c2c1019ae28cd94"
+    },
+    "webp/128/painted-rosette-and-fan-vine.webp": {
+      "bytes": 10862,
+      "sha256": "40f0ca34d869e8cbbc0397d7cf90e6ef0cabf9bdb42df11b84e072eed0e7d7ef"
+    },
+    "webp/256/painted-opposed-serrated-flower-vine-reference.webp": {
+      "bytes": 27086,
+      "sha256": "6c24eb918672419116a2c8baf8d93683c36370f128df2b0de0f91aebaf975b86"
+    },
+    "webp/256/painted-opposed-serrated-flower-vine-rotated.webp": {
+      "bytes": 44644,
+      "sha256": "7f354faad7c18982e1186387359acd1d7dd9ba577ed1c4920847776f5f82ee58"
+    },
+    "webp/256/painted-opposed-serrated-flower-vine.webp": {
+      "bytes": 44604,
+      "sha256": "6c62a7646259ec368fd30f27a6a6b914ed94ee737a1107bc820a709b8b386a76"
+    },
+    "webp/256/painted-rosette-and-fan-vine-reference.webp": {
+      "bytes": 23786,
+      "sha256": "7f096db4efb99ffb09a9ab7cb17befda7200041ca00efd588644bfeca7cc69e7"
+    },
+    "webp/256/painted-rosette-and-fan-vine-rotated.webp": {
+      "bytes": 38590,
+      "sha256": "a8bd22c56d63e31c0b451954b3d40ff688642c8e85ada74b3f59590d72ed5160"
+    },
+    "webp/256/painted-rosette-and-fan-vine.webp": {
+      "bytes": 38566,
+      "sha256": "24451f286f2b002c5b69a580db5013aef2ae9d82ff3d64fbd8f698ba276f6182"
+    },
+    "webp/512/painted-opposed-serrated-flower-vine-reference.webp": {
+      "bytes": 92174,
+      "sha256": "a223dedf9c546cf9b689efee91db29c01408ad95940e963d5c782ba3c7b87827"
+    },
+    "webp/512/painted-rosette-and-fan-vine-reference.webp": {
+      "bytes": 82592,
+      "sha256": "28e832393f22ae4ec59c2fb50b11b78936744f35cf2807ae925d0b31061a17b9"
+    },
+    "webp/painted-opposed-serrated-flower-vine-border.webp": {
+      "bytes": 455650,
+      "sha256": "deedfa790be795e1300e14968790423bfd79592cadabef220557ce40903e8177"
+    },
+    "webp/painted-opposed-serrated-flower-vine-corner.webp": {
+      "bytes": 35262,
+      "sha256": "c1749914ebfb8ed78d1f05936317c66198c8ae9c02e5723d323d31534319f77c"
+    },
+    "webp/painted-opposed-serrated-flower-vine-reference.webp": {
+      "bytes": 166068,
+      "sha256": "29e194b67d574aeaa51d11696b1995e3dadaed99709d7e0597e969cdda7759d0"
+    },
+    "webp/painted-opposed-serrated-flower-vine-rotated.webp": {
+      "bytes": 89612,
+      "sha256": "14a2bd0c1a63819f5f374daea7e16d58e0c22b73bdae8a3664b4c66721ab75e5"
+    },
+    "webp/painted-opposed-serrated-flower-vine.webp": {
+      "bytes": 89488,
+      "sha256": "b30e66d45eab2e62fd5b2994246137265b175471df0f5efd9ab944aede7538e5"
+    },
+    "webp/painted-rosette-and-fan-vine-border.webp": {
+      "bytes": 414666,
+      "sha256": "317576e8ad23f69bd005af717c73cf1dbbdedfc6ce47b4e673ca83b49c5bc9d8"
+    },
+    "webp/painted-rosette-and-fan-vine-corner.webp": {
+      "bytes": 32106,
+      "sha256": "adadeabf09538ac955dd38c8b2b74b08fc9fd35a312d15d35e68f369337571a9"
+    },
+    "webp/painted-rosette-and-fan-vine-reference.webp": {
+      "bytes": 149438,
+      "sha256": "78e81708362686ef1a6aa69e2a334a0c1018c5a35efe8ba7c5a8ef44b9b0ac97"
+    },
+    "webp/painted-rosette-and-fan-vine-rotated.webp": {
+      "bytes": 85504,
+      "sha256": "c97ab8d4e50141446b668cff4bfb901c3adbe685f91a94812b266664ede7a5f1"
+    },
+    "webp/painted-rosette-and-fan-vine.webp": {
+      "bytes": 84894,
+      "sha256": "2b5a5d561fa59fd2944df3bfa9d93334471c7d8cfb92417c7cc5c79ad6904287"
+    }
+  },
+  "inputs": {
+    "sources/tiles/painted-opposed-serrated-flower-vine.png": {
+      "bytes": 128986,
+      "sha256": "0bc1259d64845a913d56ad84fbd4f1a39cc1432f20f1d02c5dcf2b2b4eb738bb"
+    },
+    "sources/traces/painted-opposed-serrated-flower-vine.svg": {
+      "bytes": 6492229,
+      "sha256": "621282295f75835558d78a793a3936e35e0a21a46b071743e34973e9f1ab811b"
+    },
+    "sources/tiles/painted-rosette-and-fan-vine.png": {
+      "bytes": 122402,
+      "sha256": "da6506972894ef5e497c8d2134faff4fa8fcd7420c58a4dd53f1c8d36f879a57"
+    },
+    "sources/traces/painted-rosette-and-fan-vine.svg": {
+      "bytes": 5538028,
+      "sha256": "e533de7796c569a1f9279d619415f4f7d35c4b8179dd2aa14ecfe5d0c953c6df"
+    }
+  }
+}

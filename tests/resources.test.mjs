@@ -7,7 +7,7 @@ import { execFile } from 'node:child_process';
 import { promisify } from 'node:util';
 import { fileURLToPath, pathToFileURL } from 'node:url';
 import { assetCatalog, assetPaths } from '../scripts/package-assets.mjs';
-import { registry, resourceLock, manifest, digest, validateResources, resourceFile } from '../scripts/resource-store.mjs';
+import { registry, resourceLock, manifest, digest, validateResources, resourceFile, cdnBase, sourceId } from '../scripts/resource-store.mjs';
 const exec=promisify(execFile),root=fileURLToPath(new URL('../',import.meta.url));
 const json=value=>JSON.stringify(value,null,2)+'\n';
 async function temporary(t){const directory=await mkdtemp(path.join(tmpdir(),'ornament-resources-'));t.after(()=>rm(directory,{recursive:true,force:true}));return directory;}
@@ -24,28 +24,29 @@ test('resource registry owns each public path and keeps descriptive metadata cen
   assert.ok(Object.keys(lock.sources).length>=3);
 });
 
-test('a second border resource routes by assignment without changing names or geometry',async t=>{
+test('a further border resource routes by assignment without changing names or geometry',async t=>{
   const directory=await temporary(t);
   for(const folder of ['lib','resources'])await cp(path.join(root,folder),path.join(directory,folder),{recursive:true});
   await mkdir(path.join(directory,'scripts'));
-  for(const name of ['build-library.mjs','package-assets.mjs','resource-store.mjs','resources.mjs','scaffold-resource.mjs'])await copyFile(path.join(root,'scripts',name),path.join(directory,'scripts',name));
+  for(const name of ['build-library.mjs','package-assets.mjs','resource-store.mjs','resources.mjs','scaffold-resource.mjs','pack-resource.mjs'])await copyFile(path.join(root,'scripts',name),path.join(directory,'scripts',name));
   for(const name of ['package.json','images.json','assets-manifest.json','resource-registry.json','resource-lock.json'])await copyFile(path.join(root,name),path.join(directory,name));
-  const config=registry(),lock=resourceLock(),id='borders-002',name='rosselli-mask-border',first=manifest('borders-001');
+  const config=registry(),lock=resourceLock(),name='rosselli-mask-border',owner=config.assignments[name],first=manifest(owner);
+  const sequence=Math.max(...Object.values(config.sources).filter(s=>s.collection==='borders').map(s=>s.sequence))+1,id=sourceId('borders',sequence);
   const chosen=first.designs[name], paths=new Set(assetPaths([chosen]));
   const inputs=Object.fromEntries(Object.entries(first.inputs).filter(([p])=>[name,name+'-corner',name+'-border'].includes(path.basename(p,'.png'))));
   assert.equal(Object.keys(inputs).length,3,'Migration carries the repeat, edited corners and retained editor output');
-  const next={schemaVersion:2,id,collection:'borders',package:'@ranx729/medieval-ornaments-assets-borders-002',version:'0.1.0',designs:{[name]:chosen},files:Object.fromEntries(Object.entries(first.files).filter(([p])=>paths.has(p))),inputs};
-  config.sources['borders-001'].retainedDesigns=[name];
-  config.sources['borders-001'].state='sealed';config.sources[id]={id,collection:'borders',sequence:2,state:'open',repository:'adrian729/medieval-ornaments-assets-borders-002',package:next.package};config.collections.borders.activeSource=id;config.assignments[name]=id;
+  const next={schemaVersion:2,id,collection:'borders',package:'@ranx729/medieval-ornaments-assets-'+id,version:'0.1.0',designs:{[name]:chosen},files:Object.fromEntries(Object.entries(first.files).filter(([p])=>paths.has(p))),inputs};
+  config.sources[owner].retainedDesigns=[name];
+  config.sources[config.collections.borders.activeSource].state='sealed';config.sources[id]={id,collection:'borders',sequence,state:'open',repository:'adrian729/medieval-ornaments-assets-'+id,package:next.package};config.collections.borders.activeSource=id;config.assignments[name]=id;
   for(const data of [first,next]){const content=json(data);await writeFile(path.join(directory,'resources/manifests',data.id+'.json'),content);lock.sources[data.id]={version:data.version,gitCommit:null,manifestSha256:digest(content),filesSha256:digest(data.files)};}
   await writeFile(path.join(directory,'resource-registry.json'),json(config));await writeFile(path.join(directory,'resource-lock.json'),json(lock));
   await assert.rejects(exec(process.execPath,['scripts/resources.mjs','assign','--design','red-berry-vine-corner','--collection','borders','--bytes','1'],{cwd:directory}),/collide with an existing resource/);
   assert.equal(await readFile(path.join(directory,'resource-registry.json'),'utf8'),json(config));
   await exec(process.execPath,['scripts/build-library.mjs'],{cwd:directory});
   const api=await import(pathToFileURL(path.join(directory,'lib/designs',name+'.js')));
-  assert.ok(api.resolveOrnament('frame').asset.url.startsWith('https://unpkg.com/'+next.package+'@0.1.0/'));
+  assert.ok(api.resolveOrnament('frame').asset.url.startsWith(cdnBase(next.package,'0.1.0')));
   assert.equal(api.ornament.name,name);
-  const source=await readFile(path.join(directory,'lib/designs',name+'.js'),'utf8');assert.ok(source.includes('asset-sources/borders-002'));assert.ok(!source.includes('asset-routing'));
+  const source=await readFile(path.join(directory,'lib/designs',name+'.js'),'utf8');assert.ok(source.includes('asset-sources/'+id));assert.ok(!source.includes('asset-routing'));
 });
 
 test('numbered offline packages copy selected files and protect installed sources',async t=>{
@@ -59,7 +60,7 @@ test('numbered offline packages copy selected files and protect installed source
   await exec(process.execPath,[cli,'copy-assets',destination,'--design',item.name,'--format','svg','--offline'],{cwd:directory});
   const files=await readdir(path.join(destination,'svg'));assert.equal(files.length,4);assert.ok(!files.some(file=>file.includes('flying-pig')));
   await assert.rejects(exec(process.execPath,[cli,'copy-assets',path.join(target,'nested'),'--design',item.name,'--offline'],{cwd:directory}),/outside the package/);
-  const data=JSON.parse(await readFile(path.join(target,'resource-manifest.json')));data.version='0.2.0';await writeFile(path.join(target,'resource-manifest.json'),json(data));
+  const data=JSON.parse(await readFile(path.join(target,'resource-manifest.json')));data.version='99.0.0';await writeFile(path.join(target,'resource-manifest.json'),json(data));
   await assert.rejects(exec(process.execPath,[cli,'copy-assets',destination,'--design',item.name,'--format','svg','--offline'],{cwd:directory}),/manifest does not match pinned/);
 });
 
@@ -105,4 +106,13 @@ test('historical and authored artwork installs offline from numbered packages wi
     assert.deepEqual(await readFile(path.join(assets,item.png)),await readFile(resourceFile(item.png)));
   }
   assert.ok(!(await readdir(path.join(assets,'png'))).some(name=>name==='flying-pig.png'));
+});
+
+test('resource tarballs list default delivery files before optional alternatives',async()=>{
+  const { deliveryOrder } = await import('../scripts/pack-resource.mjs');
+  const vector={derivation:'vector-reconstruction',svg:'svg/vine.svg',png:'png/vine.png',webp:'webp/vine.webp',variants:[],components:{}};
+  const traced={derivation:'source-crop-and-color-trace',svg:'svg/plate.svg',png:'png/plate.png',webp:'webp/plate.webp',variants:[{png:'png/128/plate.png',webp:'webp/128/plate.webp'}],components:{}};
+  const files=['svg/plate.svg','png/plate.png','png/128/plate.png','webp/plate.webp','svg/vine.svg','webp/128/plate.webp','png/vine.png','webp/vine.webp'];
+  assert.deepEqual(deliveryOrder(files,{vine:vector,plate:traced}),['webp/128/plate.webp','webp/plate.webp','webp/vine.webp','svg/vine.svg','png/128/plate.png','png/plate.png','png/vine.png','svg/plate.svg']);
+  for(const id of Object.keys(registry().sources)){const files=manifest(id).files;assert.ok(Object.values(files).reduce((sum,file)=>sum+file.bytes,0)<=registry().policy.maxNpmUnpackedBytes,`${id} fits the CDN package limit`);}
 });

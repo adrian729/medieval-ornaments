@@ -47,13 +47,14 @@ jobs:
       - name: Verify npm OIDC authentication without publishing
         if: inputs.check-authentication
         run: node tooling/scripts/check-npm-auth.mjs "$PWD/resource"
-      - name: Check compressed npm upload capacity
+      - name: Pack in delivery order and check upload capacity
         if: ${{ !inputs.check-authentication }}
-        working-directory: resource
-        run: |
-          npm pack --json > pack.json
-          node -e "const p=require('./pack.json')[0];if(p.size>200000000)throw Error('Upload exceeds 200 MB; split the source before publishing')"
-          rm pack.json
-      - run: npm publish --access public --provenance --registry https://registry.npmjs.org
+        env:
+          SOURCE_ID: ${{ inputs.source }}
+        # Same files as npm pack; default WebP/vector SVG first so CDNs that read
+        # tarballs sequentially reach them quickly. Fails above the 200 MB
+        # compressed or 140 MB unpacked (jsDelivr headroom) limits.
+        run: node tooling/scripts/pack-resource.mjs "$SOURCE_ID" "$PWD/resource" "$RUNNER_TEMP/package.tgz"
+      - run: npm publish "$RUNNER_TEMP/package.tgz" --access public --provenance --registry https://registry.npmjs.org
         if: ${{ !inputs.check-authentication }}
         working-directory: resource
