@@ -471,8 +471,15 @@ OIDC exchange. The previous authentication failures above are superseded.
 - [x] Verify account 2FA, configure each resource's Trusted Publisher and pass all three authentication-only workflows.
 - [x] Approve resource 0.1.3 manifests; prove only their version changes and all artwork/native/capability data stays identical.
 - [x] Publish the three 0.1.3 resource revisions using GitHub OIDC within npm's two-day deadline, verify registry/CDN and lock their exact clean source commits.
-- [ ] Release runtime 0.8.1 with those pins, pass package budgets and consumers, upload its browser ZIP and verify Pages.
+- [x] Release runtime 0.8.1 with those pins, pass package budgets and consumers, upload its browser ZIP and verify Pages.
 
 The real first publish is required to permanently validate a new connection;
 successful dry runs alone do not satisfy npm's expiry rule. These patch releases
 complete the already authorized automated-publishing fix without artwork edits.
+
+All four npm and GitHub releases are public. Runtime 0.8.1's final tested archive
+is 199,957 B packed / 1,215,976 B unpacked (875 files), with registry integrity
+matching the consumer fixture. Registry consumers and all public artwork hashes,
+the live Pages demos, exact pinned npm CDN and downloaded browser ZIP pass.
+All three first real OIDC publishes completed within npm's deadline with signed
+provenance binding their exact source commits. No authentication work remains.

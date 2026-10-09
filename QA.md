@@ -30,8 +30,17 @@ refs/state, native/bundled rendering, selective/offline installs and all public
 artwork hashes. The final archive's SHA-512 matches the consumer-test fixture.
 Browser ZIP integrity passes: 431,547,981 B, SHA-256
 `1e0093676fe613ec0157f21eb061a6ba71da9ac54ae12f81af2da423193f8409`.
-Runtime/site publication is pending. Optional compatibility archives stay at
-0.4.0/0.1.0. Evidence: tmp/npm-auth/.
+Runtime 0.8.1 is public as npm latest; its integrity matches the tested archive.
+Registry consumers pass the same installation/rendering checks and verify all
+public artwork bytes. GitHub release v0.8.1 pins
+`be1e8ea44bcf1193bf13792278b2497a1d1d94ca`; its uploaded browser ZIP digest matches
+the local artifact. Pages run 37893903498 deployed successfully. The pinned
+unpkg runtime now matches the tested bytes after its missing-version cache
+refreshed. Live vanilla/React demos at 375/1200px, original/forced divider axes,
+image decoding, actual pinned npm modules/assets and the downloaded browser ZIP
+all pass. The first browser connection ended during an image wait; the fresh
+retry passed the complete suite. No publishing-authentication follow-up remains.
+Optional compatibility archives stay at 0.4.0/0.1.0. Evidence: tmp/npm-auth/.
 
 ## Automated publishing authentication follow-up (2026-10-09)
 

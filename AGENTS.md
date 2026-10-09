@@ -57,13 +57,13 @@ The npm/vanilla JavaScript/React runtime is published as `@ranx729/medieval-orna
 7. Run `.venv/bin/python scripts/catalog.py --check`, `.venv/bin/python scripts/artwork_check.py`, and `git diff --check`. Inspect every changed design against the reference, as repeated strips, and in light/dark frames. Check leaves/petals and artwork continuity, not only whether a gap crosses the frame. Run browser and rendered join checks in `QA.md`, including 33px and fractional pixel ratios. Automated checks do not replace visual inspection.
 8. Keep README, usage notes, browser, and examples synchronized. Do not invent provenance/authorship/licenses. Record exact prompts/method for AI extractions; never call them pixel-exact crops. Never publish a watermarked source sheet as a cleaned extraction.
 
-Published runtime 0.8.0 uses numbered resource revisions 0.1.2 and 137 designs: 58 repeating borders, 24 whole decorations and 55 illustrations. The original 111 designs remain unchanged. The six illustration selection fields and every imported file are preserved in the migration inventory. The original 49 designs are unchanged. Five new source decorations remain whole; original whole designs include the five panels and plate 11, 16, 36, 37. Whole plate designs retain SVG alternatives but have no corner/frame components.
+Published runtime 0.8.1 uses numbered resource revisions 0.1.3 and 137 designs: 58 repeating borders, 24 whole decorations and 55 illustrations. The original 111 designs remain unchanged. The six illustration selection fields and every imported file are preserved in the migration inventory. The original 49 designs are unchanged. Five new source decorations remain whole; original whole designs include the five panels and plate 11, 16, 36, 37. Whole plate designs retain SVG alternatives but have no corner/frame components.
 
-The 0.8.0 collection has 137 designs: 58 borders, 24 whole decorations
+The 0.8.1 collection has 137 designs: 58 borders, 24 whole decorations
 and 55 illustrations. `illustration-additions.json` audits user-supplied modern
 AI artwork, currently the complete framed `polyhymnia` scene, retaining its exact
 prompt, original bytes and PNG compression verification. Historical source
-attribution remains absent when unknown. Runtime 0.8.0 and the three 0.1.2
+attribution remains absent when unknown. Runtime 0.8.1 and the three 0.1.3
 resource packages are published and verified; exact commit pins and release
 checks are recorded in `resource-lock.json`, QA.md and PACKAGE-PLAN.md.
 The Rosselli whole strips remain intact alongside their
