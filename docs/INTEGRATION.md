@@ -402,7 +402,7 @@ previously the artwork was included in every runtime installation. Versions
 
 ## Native browser modules, no bundler
 
-Download the [browser ZIP](https://github.com/adrian729/medieval-ornaments/releases/download/v0.9.0/medieval-ornaments-browser.zip)
+Download the [browser ZIP](https://github.com/adrian729/medieval-ornaments/releases/download/v0.10.0/medieval-ornaments-browser.zip)
 and serve it over HTTP. It includes a self-hosted vanilla example. Or copy the
 runtime's `lib/` and `ornaments.css`, plus artwork copied with `copy-assets --offline`, to your static site:
 

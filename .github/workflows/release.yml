@@ -1,0 +1,40 @@
+name: Publish runtime
+# npm Trusted Publishing (OIDC) for @ranx729/medieval-ornaments: no stored token
+# and no interactive 2FA. Run tests and browser checks locally before dispatching;
+# the full unit suite needs resource checkouts that CI does not fetch.
+on:
+  workflow_dispatch:
+    inputs:
+      check-authentication:
+        description: Verify npm OIDC without publishing
+        type: boolean
+        default: false
+permissions:
+  contents: read
+  id-token: write
+concurrency:
+  group: runtime-publication
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: npm install --global npm@11.19.0
+      - run: npm ci
+      - run: npm run build
+      - run: npm run test:types
+      - name: Verify npm OIDC authentication without publishing
+        if: inputs.check-authentication
+        run: node scripts/check-npm-auth.mjs "$PWD"
+      - name: Pack with locked resources and check the runtime budget
+        if: ${{ !inputs.check-authentication }}
+        run: |
+          npm pack --json > "$RUNNER_TEMP/pack.json"
+          node -e "const p=require(process.env.RUNNER_TEMP+'/pack.json')[0];if(p.size>=210000||p.unpackedSize>=1250000)throw Error('Runtime exceeds the 210 KB packed / 1.25 MB unpacked budget');console.log(p.filename,p.size,p.unpackedSize)"
+      - name: Publish with provenance
+        if: ${{ !inputs.check-authentication }}
+        run: npm publish ./ranx729-medieval-ornaments-*.tgz --access public --provenance --registry https://registry.npmjs.org

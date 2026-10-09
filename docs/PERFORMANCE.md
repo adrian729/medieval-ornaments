@@ -49,7 +49,7 @@ The selective audit verifies actual included design modules, resource constants
 and production CSS retention. Packed consumers test the real npm archive,
 optional React, individual imports, copied components and artwork hashes.
 
-The runtime budget remains **200,000 B packed / 1,250,000 B unpacked**. Resource
+The runtime budget is **210,000 B packed / 1,250,000 B unpacked**; each numbered resource adds about 0.4 KB of pins. Resource
 uploads have separate capacity limits. Timings are observations, not fixed test
 thresholds or field Core Web Vitals. Chromium results do not establish
 Safari/Firefox performance, and JS heap observations do not measure decoded

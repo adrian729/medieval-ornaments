@@ -37,7 +37,7 @@ try {
     const allowed = /^(?:lib\/|docs\/(?:INTEGRATION|PERFORMANCE|SELECTIVE|ILLUSTRATIONS|RESOURCES|RESOURCE-MIGRATION)\.md$|images\.schema\.json$|ornaments\.css$|package\.json$|README\.md$|SELECTION\.md$|USAGE\.md$|LICENSE$)/;
     assert.ok(packed.files.every(file => allowed.test(file.path)), 'Unexpected runtime packed file');
     assert.deepEqual(packed.files.filter(file => /^(svg|png|webp)\//.test(file.path)), [], 'Runtime must contain no artwork');
-    assert.ok(packed.size < 200_000 && packed.unpackedSize < 1_250_000, 'Lean runtime size budget');
+    assert.ok(packed.size < 210_000 && packed.unpackedSize < 1_250_000, 'Lean runtime size budget');
     assert.ok(packed.files.find(file => file.path === 'lib/cli.js').mode & 0o111);
     records.push({ package: { bytes: packed.size, unpacked: packed.unpackedSize, files: packed.entryCount, integrity: packed.integrity, archive: path.join(folder, packed.filename) } });
     install = path.join(folder, packed.filename);
@@ -67,7 +67,7 @@ try {
   const installed = path.join(app, 'node_modules/@ranx729/medieval-ornaments');
   if (packageSource) {
     const measured = JSON.parse((await exec('npm', ['pack', '--ignore-scripts', '--json', '--pack-destination', folder], {cwd: installed, maxBuffer: 3e6})).stdout)[0];
-    assert.ok(measured.size < 200_000 && measured.unpackedSize < 1_250_000, 'Provided runtime must satisfy the same size budget');
+    assert.ok(measured.size < 210_000 && measured.unpackedSize < 1_250_000, 'Provided runtime must satisfy the same size budget');
     assert.ok(measured.files.every(file => !/^(svg|png|webp)\//.test(file.path)), 'Provided runtime must contain no artwork');
     records.push({package: {bytes: measured.size, unpacked: measured.unpackedSize, files: measured.entryCount}});
   }
