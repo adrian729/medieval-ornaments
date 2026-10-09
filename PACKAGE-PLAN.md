@@ -460,3 +460,19 @@ Interactive maintainer login succeeded. npm requires account 2FA enrollment
 before Trusted Publisher management. User has the account-settings link and
 is completing the required setup.
 The temporary account credential is private under /tmp, outside all checkouts.
+
+Account passkey enrollment is now verified. All three Trusted Publishers have
+been created with the exact caller identities and direct-publish permission.
+Authentication-only runs 37892212475 / 37892216484 / 37892220297 pass npm's actual
+OIDC exchange. The previous authentication failures above are superseded.
+
+### First-publish activation (2026-10-09)
+
+- [x] Verify account 2FA, configure each resource's Trusted Publisher and pass all three authentication-only workflows.
+- [x] Approve resource 0.1.3 manifests; prove only their version changes and all artwork/native/capability data stays identical.
+- [ ] Publish the three 0.1.3 resource revisions using GitHub OIDC within npm's two-day deadline, verify registry/CDN and lock their exact clean source commits.
+- [ ] Release runtime 0.8.1 with those pins, pass package budgets and consumers, upload its browser ZIP and verify Pages.
+
+The real first publish is required to permanently validate a new connection;
+successful dry runs alone do not satisfy npm's expiry rule. These patch releases
+complete the already authorized automated-publishing fix without artwork edits.

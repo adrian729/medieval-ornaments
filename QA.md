@@ -1,5 +1,19 @@
 # Artwork and frame verification
 
+## Trusted Publisher activation releases (2026-10-09)
+
+Account passkey enrollment is verified (`auth-and-writes`). All three new npm
+connections authorize their own resource repository's `publish.yml`, with no
+GitHub environment and direct-publish permission. Authentication-only runs
+37892212475 (borders), 37892216484 (decorations), and 37892220297 (illustrations)
+all pass the actual npm OIDC exchange; every real publish step is skipped.
+
+Resources 0.1.3 are approved for first-publish activation within npm's two-day
+deadline. Their manifests differ from 0.1.2 only in version: all 2,059 exports,
+native inputs, capabilities and selection catalogs are unchanged. Publication,
+registry/CDN checks and exact source locks are pending. Runtime 0.8.1 will adopt
+the verified resource pins; the optional compatibility archives stay unchanged.
+
 ## Automated publishing authentication follow-up (2026-10-09)
 
 Added an authentication-only caller input and a pinned npm 11.19.0 check that
