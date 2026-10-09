@@ -72,7 +72,7 @@ audited derived borders. See QA.md and PACKAGE-PLAN.md for checks and release ga
 Codex uses `AGENTS.md`; `CLAUDE.md` imports it. Do not create a competing singular `AGENT.md`.
 
 
-The authored backup import for the next 0.9.0 release adds 24 whole-image assets:
+Published runtime 0.9.0 adds 24 whole-image assets from the authored backup:
 22 decorations and two illustrations, for 161 designs (58 borders, 46 decorations,
 57 illustrations). `authored-additions.json` records its archive/input hashes,
 metadata, exact RGBA compression checks and each visual review. All 24 and
@@ -85,8 +85,9 @@ belong to decorations-001/illustrations-001. Four phases in each corner family
 remain independent images, two frames remain fixed whole images, and the four
 gold components have a CSS composition example. No repeat or SVG is inferred.
 Decorations/illustrations resource 0.1.4 revisions are published and verified;
-resource-lock.json pins their exact clean source commits. Runtime 0.9.0 release
-is pending. The corrected 093951 backup changes only divider CSS/JSON, retaining
+resource-lock.json pins their exact clean source commits. Runtime 0.9.0, both
+resource GitHub releases and the corrected browser ZIP are published and verified.
+Registry consumers, live Pages/CDN and downloaded-ZIP checks pass. The corrected 093951 backup changes only divider CSS/JSON, retaining
 all 24 PNGs. Its compositions use continuous 4px rules, 36px centers and
 resolution-aware individual imports; no artwork republication was required.
 Generic usage-note encoding and compact generated modules preserve all public

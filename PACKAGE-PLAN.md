@@ -492,7 +492,7 @@ provenance binding their exact source commits. No authentication work remains.
 - [x] Review all 24 on light/dark surfaces and every exported size; preserve separate corner phases and complete frames; retain the supplied CSS gold rules as individual assets plus a composition example.
 - [x] Pass resource capacity/hash checks, 42 unit tests, types, selective bundles, catalog/artwork joins and isolated rebuild retention. Reduce generated overhead and shipped historical-report duplication; keep the unchanged runtime budget.
 - [x] Publish decorations-001/illustrations-001 0.1.4 using immutable approved main tooling; verify registry/CDN and lock exact clean commits. Borders stay 0.1.3; compatibility snapshots stay unchanged.
-- [ ] Pass the final normal npm pack and packed consumers; release runtime 0.9.0, upload the offline browser ZIP, verify registry consumers and live Pages.
+- [x] Pass the final normal npm pack and packed consumers; release runtime 0.9.0, upload the offline browser ZIP, verify registry consumers and live Pages.
 
 Current resource packs: decorations 104,541,688 B; illustrations 195,819,444 B,
 both below 200 MB. Illustrations-001 has little npm upload reserve; plan the next
@@ -504,7 +504,14 @@ reports remain fully preserved outside the npm runtime allowlist.
 The corrected 093951 backup changes only dividers.css/dividers.json; all 24
 PNGs match the first archive exactly. Both resource 0.1.4 OIDC publishes
 completed successfully before this correction, and their artwork remains valid.
-Main 0.9.0 is still unpublished. The corrected composition uses a continuous
+Main 0.9.0 now includes the corrected composition, using a continuous
 4px rule beneath the terminal/center stems and 36px centers; its responsive and
-visual review passes. Rebuilding the offline ZIP precedes main publication. The initial composition
+visual review passes. The corrected offline ZIP is published and verified. The initial composition
 and archive hashes remain in the audit/history.
+
+Runtime 0.9.0 and both changed resource 0.1.4 releases are complete. Main release
+tag v0.9.0 pins 90f9e42e96b4c9e317a98062c42fad49bbce5386; resource tags pin
+the exact commits in resource-lock.json. The runtime is 198,993 B packed /
+1,145,306 B unpacked. Actual registry consumers, all artwork hashes, deployed
+vanilla/React examples, author discovery, pinned CDN and downloaded ZIP pass.
+Pages deployment 37901909410 succeeded. No release/authentication work remains.

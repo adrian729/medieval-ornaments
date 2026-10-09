@@ -1071,7 +1071,7 @@ errors. The final Pages build remains approximately **8.44 MB**, below its
 tmp/package-site.json and tmp/site-build.json.
 
 
-## Authored backup / creator metadata candidate — 2026-10-09
+## Authored backup / creator metadata release — 2026-10-09
 
 The supplied archive contains 24 PNGs plus the original CSS/JSON for two gold
 rules. `authored-additions.json` binds its SHA-256, every input/native/master,
@@ -1106,7 +1106,8 @@ The initial packed candidate consumers pass (fixture
 32 density/length cases, lean installation, all artwork hashes, React 18/19,
 SSR/hydration, local copied helpers, types and self-hosting. The final normal archive also passes all packed consumers (fixture
 `/tmp/ornaments-integration-5lwR4L`), including all 2,299 artwork hashes.
-Registry consumers remain pending. Decorations resource upload is
+Actual registry consumers pass too (fixture
+`/tmp/ornaments-integration-wzIJpG`), with every approved artwork hash verified. Decorations resource upload is
 104,541,688 B and illustrations 195,819,444 B, both under the 200 MB ceiling.
 Next illustration additions must account for that small upload reserve.
 Historical reports remain in PERFORMANCE-HISTORY.md/MERGE-PLAN.md; compact
@@ -1116,19 +1117,38 @@ metadata, types, complete alphabetic previews and individual import boundaries.
 Resource 0.1.4 registry/CDN bytes and all 1,001 public exports are verified.
 Decorations pins cadf00605fb05e1a96669b7a9792e22679736a2e; illustrations pins
 1aaf383b70fbad7f5ddb714f5c411878b6a2f893. Both source GitHub releases are
-public and OIDC provenance is present. Runtime 0.9.0, the rebuilt offline ZIP
-and live Pages verification remain pending.
+public and signed OIDC provenance binds those exact source commits. Runtime
+0.9.0 and the rebuilt offline ZIP are public; live Pages checks pass.
 
 
 The corrected 093951 backup changes only dividers.css/dividers.json; all 24
 PNGs match the first archive exactly. Both resource 0.1.4 OIDC publishes
 completed successfully before this correction, and their artwork remains valid.
-Main 0.9.0 is still unpublished. The corrected composition uses a continuous
+Main 0.9.0 now includes the corrected composition, using a continuous
 4px rule beneath the terminal/center stems and 36px centers; its responsive and
-visual review passes. Rebuilding the offline ZIP precedes main publication. The initial composition
+visual review passes. The corrected offline ZIP is published and verified. The initial composition
 and archive hashes remain in the audit/history.
 
 The rebuilt corrected offline ZIP is 477,409,056 B, SHA-256
 `2b1408b96dfb9b126d0cdcfd4b58129da51472d792e44aed85a9fd5a5f29dca9`.
 Its CSS/JS/audit bytes and all 24 masters match the reviewed checkout. The final
 local Pages assembly is 42,681,393 B, under the unchanged 50 MB guard.
+
+Final release v0.9.0 pins `90f9e42e96b4c9e317a98062c42fad49bbce5386`.
+The npm registry integrity matches the exact final tested archive; npm latest
+points to 0.9.0 and the two changed resource packages to 0.1.4. Their GitHub
+releases/tags and clean source commits match the locks; borders stay unchanged.
+The public uploaded ZIP digest matches the local verified SHA-256 above.
+
+Pages deployment [37901909410](https://github.com/adrian729/medieval-ornaments/actions/runs/37901909410)
+succeeded. Live vanilla/React examples at 375/1200px, native/forced axes, complete
+repeats, individual imports and image decoding pass. Both corrected gold rules
+retain their 18/36/18px geometry at widths 160/420/800, with continuous 4px rules.
+The live author browser shows 25 results and the selected author; real npm CDN
+modules preserve author discovery and decode all artwork cases. The downloaded
+release ZIP passes archive checks and renders corrected gold rules, local images
+and the complete illustration browser with no browser errors/missing requests.
+One initial CDN decode failed; all 12 divider WebP variants were then verified
+against approved hashes and the complete live suite passed on retry. Evidence:
+`tmp/authored-import-20261009/live-site.log`, `tmp/package-site.json`,
+`tmp/authored-import-20261009/integration-registry.log`. No checks remain pending.
