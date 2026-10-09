@@ -44,7 +44,7 @@ function DesignPicker({ id, label, items, search, value, onChange }) {
       <span className="picker-thumb"><Thumb item={current} /></span>
       <span className="picker-label"><strong>{readable(value)}</strong><small>Change</small></span>
     </button>
-    <dialog ref={dialog} className="picker" aria-label={`Choose ${label.toLowerCase()}`} onClose={() => setOpen(false)} onClick={event => event.target === dialog.current && close()}>
+    <dialog ref={dialog} className="picker" aria-label={`Choose ${label.toLowerCase()}`} onClose={() => { if (!dialog.current.open) setOpen(false); }} onClick={event => event.target === dialog.current && close()}>
       <div className="picker-head"><h2>Choose {label.toLowerCase()}</h2><button type="button" className="btn btn-icon" aria-label="Close" onClick={close}>×</button></div>
       <div className="picker-tools">
         {types.length > 1 && <div className="segmented" role="group" aria-label="Type">

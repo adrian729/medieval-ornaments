@@ -71,7 +71,8 @@ export function createPicker({ id, label, items, value, search, thumbnail, onCha
   trigger.addEventListener('click', () => { search_.value = ''; state.query = ''; renderCategories(); render(); dialog.showModal(); search_.focus(); });
   close.addEventListener('click', () => dialog.close());
   dialog.addEventListener('click', event => { if (event.target === dialog) dialog.close(); });
-  dialog.addEventListener('close', () => { for (const cleanup of cleanups) cleanup(); cleanups = []; grid.replaceChildren(); });
+  // 'close' fires after a delay; skip it if the picker was already reopened.
+  dialog.addEventListener('close', () => { if (dialog.open) return; for (const cleanup of cleanups) cleanup(); cleanups = []; grid.replaceChildren(); });
   search_.addEventListener('input', debounce(() => { state.query = search_.value.trim(); render(); }, 150));
   category.addEventListener('change', () => { state.category = category.value; render(); });
   tabs?.addEventListener('click', event => {

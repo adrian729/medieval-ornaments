@@ -31,14 +31,14 @@ const send = (method, params = {}) => new Promise((resolve, reject) => { const i
 async function evaluate(expression) { const result = await send('Runtime.evaluate', { expression, returnByValue: true, awaitPromise: true }); if (result.exceptionDetails) throw new Error(JSON.stringify(result.exceptionDetails)); return result.result.value; }
 const pause = ms => new Promise(resolve => setTimeout(resolve, ms));
 // A design's first request after publication can wait on the CDN fetching its package.
-async function until(expression, attempts = 500) { for (let i = 0; i < attempts; i++) { if (await evaluate(expression)) return; await pause(60); } throw new Error('Page did not become ready: ' + expression + JSON.stringify({ errors, missing })); }
+async function until(expression, attempts = 500) { for (let i = 0; i < attempts; i++) { if (await evaluate(expression)) return; await pause(60); } const state = await evaluate(`JSON.stringify({url:location.href,width:innerWidth,dialogs:[...document.querySelectorAll('dialog')].map(d=>({open:d.open,label:d.getAttribute('aria-label'),tiles:d.querySelectorAll('.picker-tile').length,query:d.querySelector('input[type=search]')?.value}))})`).catch(() => ''); throw new Error('Page did not become ready: ' + expression + JSON.stringify({ errors, missing }) + ' ' + state); }
 async function navigate(url, ready) { await send('Page.navigate', { url }); await until(`location.href===${JSON.stringify(url)}`); await until(ready); }
 async function choose(id, value) { await evaluate(`(()=>{const el=document.getElementById(${JSON.stringify(id)});el.value=${JSON.stringify(value)};el.dispatchEvent(new Event('input',{bubbles:true}));el.dispatchEvent(new Event('change',{bubbles:true}));})()`); await pause(100); }
 async function pick(id, name) {
   await evaluate(`document.getElementById(${JSON.stringify(id)}).click()`); await until(`!!document.querySelector('dialog.picker[open]')`);
   await evaluate(`(()=>{const input=document.querySelector('dialog.picker[open] input[type=search]');Object.getOwnPropertyDescriptor(HTMLInputElement.prototype,'value').set.call(input,${JSON.stringify(name)});input.dispatchEvent(new Event('input',{bubbles:true}));})()`);
-  await until(`!!document.querySelector('dialog.picker[open] [data-design=${JSON.stringify(name)}]')`);
-  await evaluate(`document.querySelector('dialog.picker[open] [data-design=${JSON.stringify(name)}]').click()`);
+  // Click in the same check that finds the tile, so a re-render between the two cannot race.
+  await until(`(()=>{const tile=document.querySelector('dialog.picker[open] [data-design=${JSON.stringify(name)}]');if(!tile)return false;tile.click();return true;})()`);
   await until(`document.getElementById(${JSON.stringify(id)}).dataset.value===${JSON.stringify(name)}`);
 }
 async function art() {
@@ -76,7 +76,7 @@ try {
     await choose('orientation', 'vertical'); await until(`document.getElementById('divider').dataset.axis==='y'`); check(await art());
     await pick('wholeDesign', 'butterfly-panel-red'); const result = await art(); check(result);
     for (const design of ['blue-diamond-leaf-stencil-band', 'russet-floral-vine-with-bud-borders']) {
-      await choose('design', design); check(await art());
+      await pick('design', design); check(await art());
     }
     await pick('wholeDesign', 'painted-sprawling-floral-panel'); check(await art());
     await pick('wholeDesign', 'flying-pig'); check(await art());
