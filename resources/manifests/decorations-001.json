@@ -3,8 +3,71 @@
   "id": "decorations-001",
   "collection": "decorations",
   "package": "@ranx729/medieval-ornaments-assets-decorations-001",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "designs": {
+    "acanthus-tailpiece": {
+      "name": "acanthus-tailpiece",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "supplied-authored-raster",
+      "repeat_axis": "none",
+      "width": 1254,
+      "height": 1254,
+      "png": "png/acanthus-tailpiece.png",
+      "webp": "webp/acanthus-tailpiece.webp",
+      "png_bytes": 530357,
+      "webp_bytes": 333664,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/acanthus-tailpiece.png",
+          "webp": "webp/128/acanthus-tailpiece.webp",
+          "width": 128,
+          "height": 128,
+          "png_bytes": 9878,
+          "webp_bytes": 6136
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/acanthus-tailpiece.png",
+          "webp": "webp/256/acanthus-tailpiece.webp",
+          "width": 256,
+          "height": 256,
+          "png_bytes": 32306,
+          "webp_bytes": 19850
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/acanthus-tailpiece.png",
+          "webp": "webp/512/acanthus-tailpiece.webp",
+          "width": 512,
+          "height": 512,
+          "png_bytes": 100774,
+          "webp_bytes": 65396
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/acanthus-tailpiece.png",
+          "webp": "webp/768/acanthus-tailpiece.webp",
+          "width": 768,
+          "height": 768,
+          "png_bytes": 210217,
+          "webp_bytes": 137284
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
     "aldegrever-paired-tendrils": {
       "name": "aldegrever-paired-tendrils",
       "asset_type": "decoration",
@@ -146,6 +209,69 @@
       ],
       "formats": [
         "svg",
+        "webp",
+        "png"
+      ]
+    },
+    "briar-divider": {
+      "name": "briar-divider",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "supplied-authored-raster",
+      "repeat_axis": "none",
+      "width": 2172,
+      "height": 724,
+      "png": "png/briar-divider.png",
+      "webp": "webp/briar-divider.webp",
+      "png_bytes": 393542,
+      "webp_bytes": 269698,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/briar-divider.png",
+          "webp": "webp/128/briar-divider.webp",
+          "width": 128,
+          "height": 43,
+          "png_bytes": 3832,
+          "webp_bytes": 2086
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/briar-divider.png",
+          "webp": "webp/256/briar-divider.webp",
+          "width": 256,
+          "height": 85,
+          "png_bytes": 11778,
+          "webp_bytes": 6364
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/briar-divider.png",
+          "webp": "webp/512/briar-divider.webp",
+          "width": 512,
+          "height": 171,
+          "png_bytes": 33746,
+          "webp_bytes": 19572
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/briar-divider.png",
+          "webp": "webp/768/briar-divider.webp",
+          "width": 768,
+          "height": 256,
+          "png_bytes": 67921,
+          "webp_bytes": 39666
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
         "webp",
         "png"
       ]
@@ -351,6 +477,258 @@
           "height": 512,
           "png_bytes": 75666,
           "webp_bytes": 61728
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "gold-cinquefoil-divider-center": {
+      "name": "gold-cinquefoil-divider-center",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "supplied-authored-raster",
+      "repeat_axis": "none",
+      "width": 1374,
+      "height": 1145,
+      "png": "png/gold-cinquefoil-divider-center.png",
+      "webp": "webp/gold-cinquefoil-divider-center.webp",
+      "png_bytes": 525652,
+      "webp_bytes": 380126,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/gold-cinquefoil-divider-center.png",
+          "webp": "webp/128/gold-cinquefoil-divider-center.webp",
+          "width": 128,
+          "height": 107,
+          "png_bytes": 6623,
+          "webp_bytes": 5414
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/gold-cinquefoil-divider-center.png",
+          "webp": "webp/256/gold-cinquefoil-divider-center.webp",
+          "width": 256,
+          "height": 213,
+          "png_bytes": 22041,
+          "webp_bytes": 16160
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/gold-cinquefoil-divider-center.png",
+          "webp": "webp/512/gold-cinquefoil-divider-center.webp",
+          "width": 512,
+          "height": 427,
+          "png_bytes": 80739,
+          "webp_bytes": 58730
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/gold-cinquefoil-divider-center.png",
+          "webp": "webp/768/gold-cinquefoil-divider-center.webp",
+          "width": 768,
+          "height": 640,
+          "png_bytes": 177589,
+          "webp_bytes": 128312
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "gold-cinquefoil-divider-end": {
+      "name": "gold-cinquefoil-divider-end",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "supplied-authored-raster",
+      "repeat_axis": "none",
+      "width": 1536,
+      "height": 1024,
+      "png": "png/gold-cinquefoil-divider-end.png",
+      "webp": "webp/gold-cinquefoil-divider-end.webp",
+      "png_bytes": 1111079,
+      "webp_bytes": 807138,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/gold-cinquefoil-divider-end.png",
+          "webp": "webp/128/gold-cinquefoil-divider-end.webp",
+          "width": 128,
+          "height": 85,
+          "png_bytes": 5139,
+          "webp_bytes": 4382
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/gold-cinquefoil-divider-end.png",
+          "webp": "webp/256/gold-cinquefoil-divider-end.webp",
+          "width": 256,
+          "height": 171,
+          "png_bytes": 17011,
+          "webp_bytes": 12482
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/gold-cinquefoil-divider-end.png",
+          "webp": "webp/512/gold-cinquefoil-divider-end.webp",
+          "width": 512,
+          "height": 341,
+          "png_bytes": 61155,
+          "webp_bytes": 43608
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/gold-cinquefoil-divider-end.png",
+          "webp": "webp/768/gold-cinquefoil-divider-end.webp",
+          "width": 768,
+          "height": 512,
+          "png_bytes": 135492,
+          "webp_bytes": 96010
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "gold-lozenge-divider-center": {
+      "name": "gold-lozenge-divider-center",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "supplied-authored-raster",
+      "repeat_axis": "none",
+      "width": 1536,
+      "height": 1024,
+      "png": "png/gold-lozenge-divider-center.png",
+      "webp": "webp/gold-lozenge-divider-center.webp",
+      "png_bytes": 1270248,
+      "webp_bytes": 917960,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/gold-lozenge-divider-center.png",
+          "webp": "webp/128/gold-lozenge-divider-center.webp",
+          "width": 128,
+          "height": 85,
+          "png_bytes": 6633,
+          "webp_bytes": 5430
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/gold-lozenge-divider-center.png",
+          "webp": "webp/256/gold-lozenge-divider-center.webp",
+          "width": 256,
+          "height": 171,
+          "png_bytes": 21448,
+          "webp_bytes": 17448
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/gold-lozenge-divider-center.png",
+          "webp": "webp/512/gold-lozenge-divider-center.webp",
+          "width": 512,
+          "height": 341,
+          "png_bytes": 74096,
+          "webp_bytes": 54446
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/gold-lozenge-divider-center.png",
+          "webp": "webp/768/gold-lozenge-divider-center.webp",
+          "width": 768,
+          "height": 512,
+          "png_bytes": 160239,
+          "webp_bytes": 116346
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "gold-lozenge-divider-end": {
+      "name": "gold-lozenge-divider-end",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "supplied-authored-raster",
+      "repeat_axis": "none",
+      "width": 1619,
+      "height": 972,
+      "png": "png/gold-lozenge-divider-end.png",
+      "webp": "webp/gold-lozenge-divider-end.webp",
+      "png_bytes": 527989,
+      "webp_bytes": 364798,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/gold-lozenge-divider-end.png",
+          "webp": "webp/128/gold-lozenge-divider-end.webp",
+          "width": 128,
+          "height": 77,
+          "png_bytes": 5331,
+          "webp_bytes": 4434
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/gold-lozenge-divider-end.png",
+          "webp": "webp/256/gold-lozenge-divider-end.webp",
+          "width": 256,
+          "height": 154,
+          "png_bytes": 17293,
+          "webp_bytes": 14214
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/gold-lozenge-divider-end.png",
+          "webp": "webp/512/gold-lozenge-divider-end.webp",
+          "width": 512,
+          "height": 307,
+          "png_bytes": 60611,
+          "webp_bytes": 42002
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/gold-lozenge-divider-end.png",
+          "webp": "webp/768/gold-lozenge-divider-end.webp",
+          "width": 768,
+          "height": 461,
+          "png_bytes": 132383,
+          "webp_bytes": 91256
         }
       ],
       "components": {},
@@ -590,6 +968,447 @@
         "png"
       ]
     },
+    "illuminated-acanthus-corner": {
+      "name": "illuminated-acanthus-corner",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "supplied-authored-raster",
+      "repeat_axis": "none",
+      "width": 1266,
+      "height": 1243,
+      "png": "png/illuminated-acanthus-corner.png",
+      "webp": "webp/illuminated-acanthus-corner.webp",
+      "png_bytes": 979245,
+      "webp_bytes": 722614,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/illuminated-acanthus-corner.png",
+          "webp": "webp/128/illuminated-acanthus-corner.webp",
+          "width": 128,
+          "height": 126,
+          "png_bytes": 15649,
+          "webp_bytes": 13400
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/illuminated-acanthus-corner.png",
+          "webp": "webp/256/illuminated-acanthus-corner.webp",
+          "width": 256,
+          "height": 251,
+          "png_bytes": 51194,
+          "webp_bytes": 39436
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/illuminated-acanthus-corner.png",
+          "webp": "webp/512/illuminated-acanthus-corner.webp",
+          "width": 512,
+          "height": 503,
+          "png_bytes": 177151,
+          "webp_bytes": 132082
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/illuminated-acanthus-corner.png",
+          "webp": "webp/768/illuminated-acanthus-corner.webp",
+          "width": 768,
+          "height": 754,
+          "png_bytes": 387204,
+          "webp_bytes": 285530
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "illuminated-acanthus-corner-bottom-left": {
+      "name": "illuminated-acanthus-corner-bottom-left",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "supplied-authored-raster",
+      "repeat_axis": "none",
+      "width": 1287,
+      "height": 1222,
+      "png": "png/illuminated-acanthus-corner-bottom-left.png",
+      "webp": "webp/illuminated-acanthus-corner-bottom-left.webp",
+      "png_bytes": 1034299,
+      "webp_bytes": 774416,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/illuminated-acanthus-corner-bottom-left.png",
+          "webp": "webp/128/illuminated-acanthus-corner-bottom-left.webp",
+          "width": 128,
+          "height": 122,
+          "png_bytes": 16492,
+          "webp_bytes": 13980
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/illuminated-acanthus-corner-bottom-left.png",
+          "webp": "webp/256/illuminated-acanthus-corner-bottom-left.webp",
+          "width": 256,
+          "height": 243,
+          "png_bytes": 53700,
+          "webp_bytes": 42762
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/illuminated-acanthus-corner-bottom-left.png",
+          "webp": "webp/512/illuminated-acanthus-corner-bottom-left.webp",
+          "width": 512,
+          "height": 486,
+          "png_bytes": 183840,
+          "webp_bytes": 140274
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/illuminated-acanthus-corner-bottom-left.png",
+          "webp": "webp/768/illuminated-acanthus-corner-bottom-left.webp",
+          "width": 768,
+          "height": 729,
+          "png_bytes": 398144,
+          "webp_bytes": 298926
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "illuminated-acanthus-corner-bottom-right": {
+      "name": "illuminated-acanthus-corner-bottom-right",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "supplied-authored-raster",
+      "repeat_axis": "none",
+      "width": 1536,
+      "height": 1024,
+      "png": "png/illuminated-acanthus-corner-bottom-right.png",
+      "webp": "webp/illuminated-acanthus-corner-bottom-right.webp",
+      "png_bytes": 1550155,
+      "webp_bytes": 1120078,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/illuminated-acanthus-corner-bottom-right.png",
+          "webp": "webp/128/illuminated-acanthus-corner-bottom-right.webp",
+          "width": 128,
+          "height": 85,
+          "png_bytes": 11228,
+          "webp_bytes": 9260
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/illuminated-acanthus-corner-bottom-right.png",
+          "webp": "webp/256/illuminated-acanthus-corner-bottom-right.webp",
+          "width": 256,
+          "height": 171,
+          "png_bytes": 35687,
+          "webp_bytes": 30422
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/illuminated-acanthus-corner-bottom-right.png",
+          "webp": "webp/512/illuminated-acanthus-corner-bottom-right.webp",
+          "width": 512,
+          "height": 341,
+          "png_bytes": 121252,
+          "webp_bytes": 90486
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/illuminated-acanthus-corner-bottom-right.png",
+          "webp": "webp/768/illuminated-acanthus-corner-bottom-right.webp",
+          "width": 768,
+          "height": 512,
+          "png_bytes": 251693,
+          "webp_bytes": 185962
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "illuminated-acanthus-corner-top-right": {
+      "name": "illuminated-acanthus-corner-top-right",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "supplied-authored-raster",
+      "repeat_axis": "none",
+      "width": 1312,
+      "height": 1199,
+      "png": "png/illuminated-acanthus-corner-top-right.png",
+      "webp": "webp/illuminated-acanthus-corner-top-right.webp",
+      "png_bytes": 1085477,
+      "webp_bytes": 794732,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/illuminated-acanthus-corner-top-right.png",
+          "webp": "webp/128/illuminated-acanthus-corner-top-right.webp",
+          "width": 128,
+          "height": 117,
+          "png_bytes": 17337,
+          "webp_bytes": 14376
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/illuminated-acanthus-corner-top-right.png",
+          "webp": "webp/256/illuminated-acanthus-corner-top-right.webp",
+          "width": 256,
+          "height": 234,
+          "png_bytes": 56851,
+          "webp_bytes": 44138
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/illuminated-acanthus-corner-top-right.png",
+          "webp": "webp/512/illuminated-acanthus-corner-top-right.webp",
+          "width": 512,
+          "height": 468,
+          "png_bytes": 194807,
+          "webp_bytes": 144930
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/illuminated-acanthus-corner-top-right.png",
+          "webp": "webp/768/illuminated-acanthus-corner-top-right.webp",
+          "width": 768,
+          "height": 702,
+          "png_bytes": 416152,
+          "webp_bytes": 304822
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "illuminated-acanthus-frame": {
+      "name": "illuminated-acanthus-frame",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "supplied-authored-raster",
+      "repeat_axis": "none",
+      "width": 1536,
+      "height": 1024,
+      "png": "png/illuminated-acanthus-frame.png",
+      "webp": "webp/illuminated-acanthus-frame.webp",
+      "png_bytes": 2026280,
+      "webp_bytes": 1545856,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/illuminated-acanthus-frame.png",
+          "webp": "webp/128/illuminated-acanthus-frame.webp",
+          "width": 128,
+          "height": 85,
+          "png_bytes": 16596,
+          "webp_bytes": 14152
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/illuminated-acanthus-frame.png",
+          "webp": "webp/256/illuminated-acanthus-frame.webp",
+          "width": 256,
+          "height": 171,
+          "png_bytes": 56703,
+          "webp_bytes": 47274
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/illuminated-acanthus-frame.png",
+          "webp": "webp/512/illuminated-acanthus-frame.webp",
+          "width": 512,
+          "height": 341,
+          "png_bytes": 197344,
+          "webp_bytes": 160258
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/illuminated-acanthus-frame.png",
+          "webp": "webp/768/illuminated-acanthus-frame.webp",
+          "width": 768,
+          "height": 512,
+          "png_bytes": 413260,
+          "webp_bytes": 334264
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "illuminated-acanthus-headpiece": {
+      "name": "illuminated-acanthus-headpiece",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "supplied-authored-raster",
+      "repeat_axis": "none",
+      "width": 2172,
+      "height": 724,
+      "png": "png/illuminated-acanthus-headpiece.png",
+      "webp": "webp/illuminated-acanthus-headpiece.webp",
+      "png_bytes": 1671472,
+      "webp_bytes": 1254430,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/illuminated-acanthus-headpiece.png",
+          "webp": "webp/128/illuminated-acanthus-headpiece.webp",
+          "width": 128,
+          "height": 43,
+          "png_bytes": 12128,
+          "webp_bytes": 9480
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/illuminated-acanthus-headpiece.png",
+          "webp": "webp/256/illuminated-acanthus-headpiece.webp",
+          "width": 256,
+          "height": 85,
+          "png_bytes": 38578,
+          "webp_bytes": 30554
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/illuminated-acanthus-headpiece.png",
+          "webp": "webp/512/illuminated-acanthus-headpiece.webp",
+          "width": 512,
+          "height": 171,
+          "png_bytes": 122721,
+          "webp_bytes": 94702
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/illuminated-acanthus-headpiece.png",
+          "webp": "webp/768/illuminated-acanthus-headpiece.webp",
+          "width": 768,
+          "height": 256,
+          "png_bytes": 251282,
+          "webp_bytes": 190898
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "illuminated-acanthus-tailpiece": {
+      "name": "illuminated-acanthus-tailpiece",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "supplied-authored-raster",
+      "repeat_axis": "none",
+      "width": 1374,
+      "height": 1145,
+      "png": "png/illuminated-acanthus-tailpiece.png",
+      "webp": "webp/illuminated-acanthus-tailpiece.webp",
+      "png_bytes": 1031814,
+      "webp_bytes": 755268,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/illuminated-acanthus-tailpiece.png",
+          "webp": "webp/128/illuminated-acanthus-tailpiece.webp",
+          "width": 128,
+          "height": 107,
+          "png_bytes": 15305,
+          "webp_bytes": 12846
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/illuminated-acanthus-tailpiece.png",
+          "webp": "webp/256/illuminated-acanthus-tailpiece.webp",
+          "width": 256,
+          "height": 213,
+          "png_bytes": 48500,
+          "webp_bytes": 37034
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/illuminated-acanthus-tailpiece.png",
+          "webp": "webp/512/illuminated-acanthus-tailpiece.webp",
+          "width": 512,
+          "height": 427,
+          "png_bytes": 164887,
+          "webp_bytes": 122458
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/illuminated-acanthus-tailpiece.png",
+          "webp": "webp/768/illuminated-acanthus-tailpiece.webp",
+          "width": 768,
+          "height": 640,
+          "png_bytes": 354834,
+          "webp_bytes": 260094
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
     "isabella-gold-floral-frame": {
       "name": "isabella-gold-floral-frame",
       "asset_type": "decoration",
@@ -642,6 +1461,510 @@
           "height": 768,
           "png_bytes": 581128,
           "webp_bytes": 447284
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "ivy-corner": {
+      "name": "ivy-corner",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "supplied-authored-raster",
+      "repeat_axis": "none",
+      "width": 1254,
+      "height": 1254,
+      "png": "png/ivy-corner.png",
+      "webp": "webp/ivy-corner.webp",
+      "png_bytes": 267736,
+      "webp_bytes": 168428,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/ivy-corner.png",
+          "webp": "webp/128/ivy-corner.webp",
+          "width": 128,
+          "height": 128,
+          "png_bytes": 6445,
+          "webp_bytes": 3728
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/ivy-corner.png",
+          "webp": "webp/256/ivy-corner.webp",
+          "width": 256,
+          "height": 256,
+          "png_bytes": 18089,
+          "webp_bytes": 11280
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/ivy-corner.png",
+          "webp": "webp/512/ivy-corner.webp",
+          "width": 512,
+          "height": 512,
+          "png_bytes": 54862,
+          "webp_bytes": 33904
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/ivy-corner.png",
+          "webp": "webp/768/ivy-corner.webp",
+          "width": 768,
+          "height": 768,
+          "png_bytes": 112716,
+          "webp_bytes": 70210
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "ivy-corner-bottom-left": {
+      "name": "ivy-corner-bottom-left",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "supplied-authored-raster",
+      "repeat_axis": "none",
+      "width": 1254,
+      "height": 1254,
+      "png": "png/ivy-corner-bottom-left.png",
+      "webp": "webp/ivy-corner-bottom-left.webp",
+      "png_bytes": 251749,
+      "webp_bytes": 163848,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/ivy-corner-bottom-left.png",
+          "webp": "webp/128/ivy-corner-bottom-left.webp",
+          "width": 128,
+          "height": 128,
+          "png_bytes": 6148,
+          "webp_bytes": 3484
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/ivy-corner-bottom-left.png",
+          "webp": "webp/256/ivy-corner-bottom-left.webp",
+          "width": 256,
+          "height": 256,
+          "png_bytes": 17812,
+          "webp_bytes": 11266
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/ivy-corner-bottom-left.png",
+          "webp": "webp/512/ivy-corner-bottom-left.webp",
+          "width": 512,
+          "height": 512,
+          "png_bytes": 53315,
+          "webp_bytes": 33716
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/ivy-corner-bottom-left.png",
+          "webp": "webp/768/ivy-corner-bottom-left.webp",
+          "width": 768,
+          "height": 768,
+          "png_bytes": 109096,
+          "webp_bytes": 70164
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "ivy-corner-bottom-right": {
+      "name": "ivy-corner-bottom-right",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "supplied-authored-raster",
+      "repeat_axis": "none",
+      "width": 1254,
+      "height": 1254,
+      "png": "png/ivy-corner-bottom-right.png",
+      "webp": "webp/ivy-corner-bottom-right.webp",
+      "png_bytes": 230019,
+      "webp_bytes": 148328,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/ivy-corner-bottom-right.png",
+          "webp": "webp/128/ivy-corner-bottom-right.webp",
+          "width": 128,
+          "height": 128,
+          "png_bytes": 5749,
+          "webp_bytes": 3256
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/ivy-corner-bottom-right.png",
+          "webp": "webp/256/ivy-corner-bottom-right.webp",
+          "width": 256,
+          "height": 256,
+          "png_bytes": 16226,
+          "webp_bytes": 10134
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/ivy-corner-bottom-right.png",
+          "webp": "webp/512/ivy-corner-bottom-right.webp",
+          "width": 512,
+          "height": 512,
+          "png_bytes": 49062,
+          "webp_bytes": 30408
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/ivy-corner-bottom-right.png",
+          "webp": "webp/768/ivy-corner-bottom-right.webp",
+          "width": 768,
+          "height": 768,
+          "png_bytes": 99783,
+          "webp_bytes": 62958
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "ivy-corner-top-right": {
+      "name": "ivy-corner-top-right",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "supplied-authored-raster",
+      "repeat_axis": "none",
+      "width": 1254,
+      "height": 1254,
+      "png": "png/ivy-corner-top-right.png",
+      "webp": "webp/ivy-corner-top-right.webp",
+      "png_bytes": 192303,
+      "webp_bytes": 118950,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/ivy-corner-top-right.png",
+          "webp": "webp/128/ivy-corner-top-right.webp",
+          "width": 128,
+          "height": 128,
+          "png_bytes": 5242,
+          "webp_bytes": 3038
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/ivy-corner-top-right.png",
+          "webp": "webp/256/ivy-corner-top-right.webp",
+          "width": 256,
+          "height": 256,
+          "png_bytes": 14311,
+          "webp_bytes": 8810
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/ivy-corner-top-right.png",
+          "webp": "webp/512/ivy-corner-top-right.webp",
+          "width": 512,
+          "height": 512,
+          "png_bytes": 41678,
+          "webp_bytes": 25498
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/ivy-corner-top-right.png",
+          "webp": "webp/768/ivy-corner-top-right.webp",
+          "width": 768,
+          "height": 768,
+          "png_bytes": 82660,
+          "webp_bytes": 51280
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "ivy-fleuron": {
+      "name": "ivy-fleuron",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "supplied-authored-raster",
+      "repeat_axis": "none",
+      "width": 1333,
+      "height": 1180,
+      "png": "png/ivy-fleuron.png",
+      "webp": "webp/ivy-fleuron.webp",
+      "png_bytes": 188167,
+      "webp_bytes": 115540,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/ivy-fleuron.png",
+          "webp": "webp/128/ivy-fleuron.webp",
+          "width": 128,
+          "height": 113,
+          "png_bytes": 4155,
+          "webp_bytes": 2770
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/ivy-fleuron.png",
+          "webp": "webp/256/ivy-fleuron.webp",
+          "width": 256,
+          "height": 227,
+          "png_bytes": 11907,
+          "webp_bytes": 7966
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/ivy-fleuron.png",
+          "webp": "webp/512/ivy-fleuron.webp",
+          "width": 512,
+          "height": 453,
+          "png_bytes": 36565,
+          "webp_bytes": 24114
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/ivy-fleuron.png",
+          "webp": "webp/768/ivy-fleuron.webp",
+          "width": 768,
+          "height": 680,
+          "png_bytes": 72708,
+          "webp_bytes": 47070
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "ivy-line-filler": {
+      "name": "ivy-line-filler",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "supplied-authored-raster",
+      "repeat_axis": "none",
+      "width": 2172,
+      "height": 724,
+      "png": "png/ivy-line-filler.png",
+      "webp": "webp/ivy-line-filler.webp",
+      "png_bytes": 198268,
+      "webp_bytes": 147380,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/ivy-line-filler.png",
+          "webp": "webp/128/ivy-line-filler.webp",
+          "width": 128,
+          "height": 43,
+          "png_bytes": 2526,
+          "webp_bytes": 1466
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/ivy-line-filler.png",
+          "webp": "webp/256/ivy-line-filler.webp",
+          "width": 256,
+          "height": 85,
+          "png_bytes": 6605,
+          "webp_bytes": 3918
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/ivy-line-filler.png",
+          "webp": "webp/512/ivy-line-filler.webp",
+          "width": 512,
+          "height": 171,
+          "png_bytes": 18894,
+          "webp_bytes": 11336
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/ivy-line-filler.png",
+          "webp": "webp/768/ivy-line-filler.webp",
+          "width": 768,
+          "height": 256,
+          "png_bytes": 36566,
+          "webp_bytes": 22474
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "ivy-manuscript-frame": {
+      "name": "ivy-manuscript-frame",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "supplied-authored-raster",
+      "repeat_axis": "none",
+      "width": 1536,
+      "height": 1024,
+      "png": "png/ivy-manuscript-frame.png",
+      "webp": "webp/ivy-manuscript-frame.webp",
+      "png_bytes": 784702,
+      "webp_bytes": 522140,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/ivy-manuscript-frame.png",
+          "webp": "webp/128/ivy-manuscript-frame.webp",
+          "width": 128,
+          "height": 85,
+          "png_bytes": 5763,
+          "webp_bytes": 3352
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/ivy-manuscript-frame.png",
+          "webp": "webp/256/ivy-manuscript-frame.webp",
+          "width": 256,
+          "height": 171,
+          "png_bytes": 18361,
+          "webp_bytes": 11368
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/ivy-manuscript-frame.png",
+          "webp": "webp/512/ivy-manuscript-frame.webp",
+          "width": 512,
+          "height": 341,
+          "png_bytes": 54843,
+          "webp_bytes": 36892
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/ivy-manuscript-frame.png",
+          "webp": "webp/768/ivy-manuscript-frame.webp",
+          "width": 768,
+          "height": 512,
+          "png_bytes": 109198,
+          "webp_bytes": 74862
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "ivy-marginal-vine": {
+      "name": "ivy-marginal-vine",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "supplied-authored-raster",
+      "repeat_axis": "none",
+      "width": 956,
+      "height": 1646,
+      "png": "png/ivy-marginal-vine.png",
+      "webp": "webp/ivy-marginal-vine.webp",
+      "png_bytes": 205160,
+      "webp_bytes": 116152,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/ivy-marginal-vine.png",
+          "webp": "webp/128/ivy-marginal-vine.webp",
+          "width": 74,
+          "height": 128,
+          "png_bytes": 3216,
+          "webp_bytes": 1746
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/ivy-marginal-vine.png",
+          "webp": "webp/256/ivy-marginal-vine.webp",
+          "width": 149,
+          "height": 256,
+          "png_bytes": 9658,
+          "webp_bytes": 4924
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/ivy-marginal-vine.png",
+          "webp": "webp/512/ivy-marginal-vine.webp",
+          "width": 297,
+          "height": 512,
+          "png_bytes": 27804,
+          "webp_bytes": 15602
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/ivy-marginal-vine.png",
+          "webp": "webp/768/ivy-marginal-vine.webp",
+          "width": 446,
+          "height": 768,
+          "png_bytes": 52254,
+          "webp_bytes": 29756
         }
       ],
       "components": {},
@@ -1559,6 +2882,69 @@
         "png"
       ]
     },
+    "songbirds-headpiece": {
+      "name": "songbirds-headpiece",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "supplied-authored-raster",
+      "repeat_axis": "none",
+      "width": 2170,
+      "height": 725,
+      "png": "png/songbirds-headpiece.png",
+      "webp": "webp/songbirds-headpiece.webp",
+      "png_bytes": 706301,
+      "webp_bytes": 519340,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/songbirds-headpiece.png",
+          "webp": "webp/128/songbirds-headpiece.webp",
+          "width": 128,
+          "height": 43,
+          "png_bytes": 6023,
+          "webp_bytes": 3808
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/songbirds-headpiece.png",
+          "webp": "webp/256/songbirds-headpiece.webp",
+          "width": 256,
+          "height": 86,
+          "png_bytes": 16267,
+          "webp_bytes": 11142
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/songbirds-headpiece.png",
+          "webp": "webp/512/songbirds-headpiece.webp",
+          "width": 512,
+          "height": 171,
+          "png_bytes": 52936,
+          "webp_bytes": 35482
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/songbirds-headpiece.png",
+          "webp": "webp/768/songbirds-headpiece.webp",
+          "width": 768,
+          "height": 257,
+          "png_bytes": 112727,
+          "webp_bytes": 73058
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
     "spiral-ribbon-column": {
       "name": "spiral-ribbon-column",
       "asset_type": "decoration",
@@ -1614,6 +3000,10 @@
     }
   },
   "files": {
+    "png/128/acanthus-tailpiece.png": {
+      "bytes": 9878,
+      "sha256": "120827eddbe9640e4a681341449ac637833c6e09f7583cdf0d78cc82405c4d6a"
+    },
     "png/128/aldegrever-paired-tendrils.png": {
       "bytes": 16608,
       "sha256": "93d9b5c5e705d61ebe39b908e939904c85053d454835971608d41257c8c55100"
@@ -1625,6 +3015,10 @@
     "png/128/blue-acanthus-and-seed-head-panel.png": {
       "bytes": 7142,
       "sha256": "eb7e06d372e7ceb4473142151ab03c123292b4db8f3292abd39d2c0501c3973c"
+    },
+    "png/128/briar-divider.png": {
+      "bytes": 3832,
+      "sha256": "6bc1683d1ff25b4b073b461742cf9e9e63bcdd84b02044e06ac5bb280412ffda"
     },
     "png/128/butterfly-panel-red.png": {
       "bytes": 5830,
@@ -1642,6 +3036,22 @@
       "bytes": 5587,
       "sha256": "80f9d6bf95c2bf8a5dabdbb568740c9bbb2d9ce6791adff8ff34244b24050565"
     },
+    "png/128/gold-cinquefoil-divider-center.png": {
+      "bytes": 6623,
+      "sha256": "1886158e3edcff47858ef6fb3700475538a7da53a8c483460a713953eb4fd3a7"
+    },
+    "png/128/gold-cinquefoil-divider-end.png": {
+      "bytes": 5139,
+      "sha256": "9a937f574141880ca6191db24ff197f24df5bb73048101513e884be58330e8ea"
+    },
+    "png/128/gold-lozenge-divider-center.png": {
+      "bytes": 6633,
+      "sha256": "665afb77cb4bd7cbaa618628912e0b8e90ac831ff01edb3c025e140fcbb5e221"
+    },
+    "png/128/gold-lozenge-divider-end.png": {
+      "bytes": 5331,
+      "sha256": "6fc9be67efcff902999733ee6683b27256ea426d5fb86f6a4c35bb0d454b6b10"
+    },
     "png/128/gold-scroll-with-blue-bellflowers-reference.png": {
       "bytes": 8414,
       "sha256": "57b1ada9c29216035b2761fe5cd8d0e349cddfbb5fd2af96c1e8571fb93775a6"
@@ -1658,9 +3068,69 @@
       "bytes": 35464,
       "sha256": "4aaca7618ec7f925009a7f61601a12b0c9085f8d7908eb6fc1dd5dca400d7dc2"
     },
+    "png/128/illuminated-acanthus-corner-bottom-left.png": {
+      "bytes": 16492,
+      "sha256": "3c6014e19c46837dbb3dc077dccb3223474499a26cddef72ab3fd02685b8901d"
+    },
+    "png/128/illuminated-acanthus-corner-bottom-right.png": {
+      "bytes": 11228,
+      "sha256": "735e1a1cdf532210dad23c25446a69108707da1c205fbcb708b1d604345828b9"
+    },
+    "png/128/illuminated-acanthus-corner-top-right.png": {
+      "bytes": 17337,
+      "sha256": "4923a23a5e739c006a37855e46acd9c1f3176946e8af58cfaae45c3519e71bb4"
+    },
+    "png/128/illuminated-acanthus-corner.png": {
+      "bytes": 15649,
+      "sha256": "106714a75ac8d9e8162a113c582ef3aa044f0010942ce9b301611a2b7f311c83"
+    },
+    "png/128/illuminated-acanthus-frame.png": {
+      "bytes": 16596,
+      "sha256": "20fffdd4a88058fc2fdfc2a6e3f18b7f5a279704ee113955c193465755d75848"
+    },
+    "png/128/illuminated-acanthus-headpiece.png": {
+      "bytes": 12128,
+      "sha256": "4801cd287f8fc6b726568f2c1ebde0fb7426aa202b8e76f35717ca8dcc9168fe"
+    },
+    "png/128/illuminated-acanthus-tailpiece.png": {
+      "bytes": 15305,
+      "sha256": "26181cad32797ca3b84628c8108f9c68bd80e98dd93bbc6aa4abc1d45b562708"
+    },
     "png/128/isabella-gold-floral-frame.png": {
       "bytes": 19474,
       "sha256": "7bd516832fe49795232e5a41c1d93e906dc4a9146b27af9bad9ac8cce701bd7b"
+    },
+    "png/128/ivy-corner-bottom-left.png": {
+      "bytes": 6148,
+      "sha256": "78b0eedb173d0e13c1be8cc2619e73b38efa0164ed58bf2c14213456081758b0"
+    },
+    "png/128/ivy-corner-bottom-right.png": {
+      "bytes": 5749,
+      "sha256": "fa47ada4f02b96a98fd0fd4ec3d1a78fd06722c72bb7e068680a7d5bc392c7ef"
+    },
+    "png/128/ivy-corner-top-right.png": {
+      "bytes": 5242,
+      "sha256": "85ec46343a26fe5ff15ec1e21dcf084f52ea8358c960d605e1f261d2c8ed2db5"
+    },
+    "png/128/ivy-corner.png": {
+      "bytes": 6445,
+      "sha256": "4b0cf9bb4a681a82e71b62d20ac7c6624260b317d2f8527c9380665fe171a361"
+    },
+    "png/128/ivy-fleuron.png": {
+      "bytes": 4155,
+      "sha256": "a4659707ff7637215770df65c398acfd9309ca57fadc23d366fb1332f659a99d"
+    },
+    "png/128/ivy-line-filler.png": {
+      "bytes": 2526,
+      "sha256": "b6bbb22a5f608e4a138441ef7f8d4273e1d9131eddc0e7fc316549c83430ad21"
+    },
+    "png/128/ivy-manuscript-frame.png": {
+      "bytes": 5763,
+      "sha256": "6589242060b2b9ce03ff7a73a3ddbf336247901b9090c439ba3a0ce6719fd9a5"
+    },
+    "png/128/ivy-marginal-vine.png": {
+      "bytes": 3216,
+      "sha256": "68deb678b5c813967dce683d9cd7fd913e1530c1b52327cc32524a54c19167ab"
     },
     "png/128/painted-sprawling-floral-panel-reference.png": {
       "bytes": 13872,
@@ -1718,9 +3188,17 @@
       "bytes": 43968,
       "sha256": "40dc83ecaf00a6304ecabb230b43958450ce5cdf70e6a53d58c1cfd667845ba9"
     },
+    "png/128/songbirds-headpiece.png": {
+      "bytes": 6023,
+      "sha256": "ce92e9b24af27ce8c1126018277f1ac0f839f3de9aa2c833272f6c41a2238ddf"
+    },
     "png/128/spiral-ribbon-column.png": {
       "bytes": 5470,
       "sha256": "50753b11ea9ab8b521a72810d5f85a4737d63a2705ab385c2eb4de204e7f175a"
+    },
+    "png/256/acanthus-tailpiece.png": {
+      "bytes": 32306,
+      "sha256": "66ed792aef43094996e5a8c98e85e3043bc13fb6b48ecbcefff59f7492278b77"
     },
     "png/256/aldegrever-paired-tendrils.png": {
       "bytes": 62687,
@@ -1733,6 +3211,10 @@
     "png/256/blue-acanthus-and-seed-head-panel.png": {
       "bytes": 27246,
       "sha256": "05b9758f05e7ccb33d50d795b8bdad85252c79528c68e4d1fbbd63141229d467"
+    },
+    "png/256/briar-divider.png": {
+      "bytes": 11778,
+      "sha256": "353ec79e6d1ed911a417009b78bee0598ab1807c0cac6755152f07ef37f3eae0"
     },
     "png/256/butterfly-panel-red.png": {
       "bytes": 21963,
@@ -1750,6 +3232,22 @@
       "bytes": 20767,
       "sha256": "6a019a9d54846aebeea9a2d1c9e84cde0ec9048a08bfd5d57ff29da6add80f9b"
     },
+    "png/256/gold-cinquefoil-divider-center.png": {
+      "bytes": 22041,
+      "sha256": "d74e7b19ed67e40bbbe006de58d87d1612d193670209018dced734ef78bc0f43"
+    },
+    "png/256/gold-cinquefoil-divider-end.png": {
+      "bytes": 17011,
+      "sha256": "9eec2231797219983670e8c09d76243d3d47c001dddbf783d6707144048f1a2c"
+    },
+    "png/256/gold-lozenge-divider-center.png": {
+      "bytes": 21448,
+      "sha256": "e8ee1d6d8b9d1c68be16a65b99eef84fd6bf60c985acdb6d9a3504b2dc2f1792"
+    },
+    "png/256/gold-lozenge-divider-end.png": {
+      "bytes": 17293,
+      "sha256": "e79e63ef8670668ab38376b331ca72d2a236d1f04c12103420b106b620d2050d"
+    },
     "png/256/gold-scroll-with-blue-bellflowers-reference.png": {
       "bytes": 29312,
       "sha256": "fe02a331a3233cb4c5bcff3f716bbe773f1bbfebedb7f0ccb213679eddb23681"
@@ -1766,9 +3264,69 @@
       "bytes": 133440,
       "sha256": "05e18803679dc2f5ef2a7223509079b9ebe074d97ec8604a2e1668d6f1d2e779"
     },
+    "png/256/illuminated-acanthus-corner-bottom-left.png": {
+      "bytes": 53700,
+      "sha256": "b060b4376a6da3afac9d8d4fd69800a4d7d93e2c282003d0db94d5d2c5c8b72d"
+    },
+    "png/256/illuminated-acanthus-corner-bottom-right.png": {
+      "bytes": 35687,
+      "sha256": "1cf34fd7c56166fc4732f61bf5bad9f5d9e2fb400f9cbbb06862e7817e455bef"
+    },
+    "png/256/illuminated-acanthus-corner-top-right.png": {
+      "bytes": 56851,
+      "sha256": "b2ae5012059befe44c2423f0d3ea8b0ffe96efa37b9c242587db87422e4264f3"
+    },
+    "png/256/illuminated-acanthus-corner.png": {
+      "bytes": 51194,
+      "sha256": "55aabff62acab1b4285d7263694fab3436e687b06b426e6c8495f9c0f0a0ce35"
+    },
+    "png/256/illuminated-acanthus-frame.png": {
+      "bytes": 56703,
+      "sha256": "875ca66a1bf2b6bf850859ec23581b914997d1ed185fe5d15ebd220cb2ad6830"
+    },
+    "png/256/illuminated-acanthus-headpiece.png": {
+      "bytes": 38578,
+      "sha256": "36bb0a6a0e8629c06696221306fb97a262a0ceaf614b50b6b454f15a71740217"
+    },
+    "png/256/illuminated-acanthus-tailpiece.png": {
+      "bytes": 48500,
+      "sha256": "dda125dca6514cd10064e0c3f835a43d4b19312df5dbec1d88ebbbfd0a2130a1"
+    },
     "png/256/isabella-gold-floral-frame.png": {
       "bytes": 71550,
       "sha256": "57443fdc8d3febdc67aac08a4a4991527e3881bddeec7be5c629de87b0ca6847"
+    },
+    "png/256/ivy-corner-bottom-left.png": {
+      "bytes": 17812,
+      "sha256": "bbd8a391ef821a5d73a48ad666a64a92e5e813fabc3e5749e5ec173404f3f841"
+    },
+    "png/256/ivy-corner-bottom-right.png": {
+      "bytes": 16226,
+      "sha256": "7d734a6fd365a1baca3c731817176f4de8b50b638872d4a004aaab2d1279ecd0"
+    },
+    "png/256/ivy-corner-top-right.png": {
+      "bytes": 14311,
+      "sha256": "6d0662851e593dd699fb24d4d09ba11c041c751a77024f2317ec492e2644f2e7"
+    },
+    "png/256/ivy-corner.png": {
+      "bytes": 18089,
+      "sha256": "08ac209773bc154951da09d2fba3068349310102e36da4dea4666be5b8642564"
+    },
+    "png/256/ivy-fleuron.png": {
+      "bytes": 11907,
+      "sha256": "142265d43f1f8be4ed2c87035c9a6a83bd7cdf0bf7a85105ea8d9b69cbe60ff8"
+    },
+    "png/256/ivy-line-filler.png": {
+      "bytes": 6605,
+      "sha256": "4d470d407f21272e733819b437efec7ba7b52c3209c1e83c72b204debad51027"
+    },
+    "png/256/ivy-manuscript-frame.png": {
+      "bytes": 18361,
+      "sha256": "005480833deb9220550c1f96205114b478e65169d4358f82b09eefef5c0b648b"
+    },
+    "png/256/ivy-marginal-vine.png": {
+      "bytes": 9658,
+      "sha256": "dc74b35433fda6c5a27c1ba02874e077bc3c5fc731de1dd21239660c888b369b"
     },
     "png/256/painted-sprawling-floral-panel-reference.png": {
       "bytes": 54111,
@@ -1826,13 +3384,25 @@
       "bytes": 156201,
       "sha256": "3cd031db44cc5d79d059316832e4e3711861141488dbceaa9a7365d08d72a049"
     },
+    "png/256/songbirds-headpiece.png": {
+      "bytes": 16267,
+      "sha256": "7b638f31ce47cc5e762916772ba1971ce67d8e1b8718df5abaea01a1249f99a7"
+    },
     "png/256/spiral-ribbon-column.png": {
       "bytes": 20940,
       "sha256": "616a1d04d8e6c9af01efc8a5623e1eb306b15a7070a108b954505e6ec69f67a6"
     },
+    "png/512/acanthus-tailpiece.png": {
+      "bytes": 100774,
+      "sha256": "74ceb5c374e069fb110ad81e9cc2bcf242c437151081ee98474664e31c0510dc"
+    },
     "png/512/aldegrever-paired-tendrils.png": {
       "bytes": 251035,
       "sha256": "af28239c5a58586a5d00d72e0210aed16a18dd4c7e9ff085b8ad82322e5d92d5"
+    },
+    "png/512/briar-divider.png": {
+      "bytes": 33746,
+      "sha256": "b5fb4ace5111e17c7131790c36c568ef9acf2d0fd06e8278a1e3ae0d54ee1a90"
     },
     "png/512/butterfly-panel-red.png": {
       "bytes": 81260,
@@ -1850,6 +3420,22 @@
       "bytes": 75666,
       "sha256": "5e94604550198c50f6fa9684feae0e3781786d722e7f4b2308e36682c702394f"
     },
+    "png/512/gold-cinquefoil-divider-center.png": {
+      "bytes": 80739,
+      "sha256": "0a2342259df77a9587497495d536dce4c8e3c25612df910c8bdd631479945625"
+    },
+    "png/512/gold-cinquefoil-divider-end.png": {
+      "bytes": 61155,
+      "sha256": "9225c974c2d4b53cc8318e5253d4ac1984206c81860273957e6c3258a245295d"
+    },
+    "png/512/gold-lozenge-divider-center.png": {
+      "bytes": 74096,
+      "sha256": "f582cab5962e11c81ca9bd59a220971b2d69205df5f792385d97c6f10093eb91"
+    },
+    "png/512/gold-lozenge-divider-end.png": {
+      "bytes": 60611,
+      "sha256": "4b79bd84abd48b49bc609a99ee9dcd2de0845370823f4fd1eb531e7b3aa77bb9"
+    },
     "png/512/gold-scroll-with-blue-bellflowers-reference.png": {
       "bytes": 101152,
       "sha256": "5dcbf55aa9e72056a72ba8ff304b4d4e589be615307c92fbf2e9715fe19752b0"
@@ -1866,9 +3452,69 @@
       "bytes": 505147,
       "sha256": "6016b163ced98ad83bc117e01099f8eb971e73e3067a4713e3742a825d5a0b97"
     },
+    "png/512/illuminated-acanthus-corner-bottom-left.png": {
+      "bytes": 183840,
+      "sha256": "df2bd96dc17c7073ad0ec0e777b6728a0bf07c77b5ba8b35b3190394f3d30d5a"
+    },
+    "png/512/illuminated-acanthus-corner-bottom-right.png": {
+      "bytes": 121252,
+      "sha256": "de9f09638e1a54231cf29bb4162bad98cebe709cbc81e125bb6927c548f14b99"
+    },
+    "png/512/illuminated-acanthus-corner-top-right.png": {
+      "bytes": 194807,
+      "sha256": "057e63fee09610502183d63ad8cc7faa4c83822d25972bc980c0d340fc78fc7f"
+    },
+    "png/512/illuminated-acanthus-corner.png": {
+      "bytes": 177151,
+      "sha256": "dc374a4a5965f50bb9d02b581f140195bcfd685ad08a149f6416e2ad7c47fe31"
+    },
+    "png/512/illuminated-acanthus-frame.png": {
+      "bytes": 197344,
+      "sha256": "732dce7fc66d186eb2fad6f02d11f302e10f2dce46f97d0f7f90a5ec9671afae"
+    },
+    "png/512/illuminated-acanthus-headpiece.png": {
+      "bytes": 122721,
+      "sha256": "c8437b8248f090cbaf634f43dd97c71e50be1d185537f97b763c679b86102db4"
+    },
+    "png/512/illuminated-acanthus-tailpiece.png": {
+      "bytes": 164887,
+      "sha256": "9804cc119c5abc79a770bbb4a7db3c555507dbaca5f8e81fd1148fb839e45050"
+    },
     "png/512/isabella-gold-floral-frame.png": {
       "bytes": 263989,
       "sha256": "65b8fc3db5e6dfccbbeb923b6acee1b336bd126115a9a890680d66bc81cee651"
+    },
+    "png/512/ivy-corner-bottom-left.png": {
+      "bytes": 53315,
+      "sha256": "79c05b038330992f3493e03b78b71c01368c0469d2f3ce45c00c098ff2546eaf"
+    },
+    "png/512/ivy-corner-bottom-right.png": {
+      "bytes": 49062,
+      "sha256": "3e9ba55ef2d3ba016d557d42102352b533a584ca49cac8c9128c907a564e0367"
+    },
+    "png/512/ivy-corner-top-right.png": {
+      "bytes": 41678,
+      "sha256": "e567cfdb5b59ead27c4e8b7ba2bdd1f7ca041aabb7b54105620436f6f91ec48c"
+    },
+    "png/512/ivy-corner.png": {
+      "bytes": 54862,
+      "sha256": "1706e990771f844698a06f116088069ba0b25d18fadd1537a4100d841219baeb"
+    },
+    "png/512/ivy-fleuron.png": {
+      "bytes": 36565,
+      "sha256": "4f09ebd3b28b4870a5a89131b5ab01d768e4aba177b93f1b4cca1082a2b437b9"
+    },
+    "png/512/ivy-line-filler.png": {
+      "bytes": 18894,
+      "sha256": "70e6ef8ed5ceebe7dfe9d69c16fe4d4520e9264cc4d156e16ad77f2173c2442a"
+    },
+    "png/512/ivy-manuscript-frame.png": {
+      "bytes": 54843,
+      "sha256": "50890b0435d2ae5e73fd4717e4fe687c0c2c14436612cf7a638f11d631bab0c6"
+    },
+    "png/512/ivy-marginal-vine.png": {
+      "bytes": 27804,
+      "sha256": "7c3710b26c81c14062b8d45791ea592674b66cabca2dac6cbc66e4ce224b32e5"
     },
     "png/512/painted-sprawling-floral-panel-reference.png": {
       "bytes": 210759,
@@ -1918,13 +3564,41 @@
       "bytes": 560295,
       "sha256": "743cf99f35ff23f3af89180ed545f380404d2fabebbd0fa5e20a7721da0fcd48"
     },
+    "png/512/songbirds-headpiece.png": {
+      "bytes": 52936,
+      "sha256": "74836a122a5b0cdf6a0507ebdd5b53fd1ee08222e51aa3f5c682aa937647def3"
+    },
     "png/512/spiral-ribbon-column.png": {
       "bytes": 77415,
       "sha256": "735295c907183cf272b535a6473378921d6a4ff32a4479f97ced62cc87324a66"
     },
+    "png/768/acanthus-tailpiece.png": {
+      "bytes": 210217,
+      "sha256": "9913c78f80901ce0c875ddab82547cfd8efac1fba756ac8e9708a515a532621d"
+    },
     "png/768/aldegrever-paired-tendrils.png": {
       "bytes": 553175,
       "sha256": "43dd29cde0ae8ef5192a5e27fa5670134eb0706d0fb3d0e15c6abd0971cd40df"
+    },
+    "png/768/briar-divider.png": {
+      "bytes": 67921,
+      "sha256": "687ac5e466fd3ef431e6be01299f34c5a48012f3307617197734eb77b5854882"
+    },
+    "png/768/gold-cinquefoil-divider-center.png": {
+      "bytes": 177589,
+      "sha256": "657cfcbbdb2b0a32146dfcfaf26cb41ad35a2a1dc7441118e1990c1768d51f1f"
+    },
+    "png/768/gold-cinquefoil-divider-end.png": {
+      "bytes": 135492,
+      "sha256": "8beb1e987b6f898febabfdac86912be0738ceb310257d703adcfc93d2249d468"
+    },
+    "png/768/gold-lozenge-divider-center.png": {
+      "bytes": 160239,
+      "sha256": "22f2d59eed1b638593abea9e1cc7d9d19519513a07fe3fc1fea9f0dabbf72789"
+    },
+    "png/768/gold-lozenge-divider-end.png": {
+      "bytes": 132383,
+      "sha256": "e589b02cfeda23e3b82fa4d957d12acdee5f634bcd95317b814e6318fd550943"
     },
     "png/768/hoefnagel-strapwork-frame.png": {
       "bytes": 898214,
@@ -1934,9 +3608,69 @@
       "bytes": 1138589,
       "sha256": "5b2e8a2f8a85a9e25600f16f67ff57a35dcecb42d56aa305e28e288c5efe6f2a"
     },
+    "png/768/illuminated-acanthus-corner-bottom-left.png": {
+      "bytes": 398144,
+      "sha256": "86378af7351383252e8bfaa9e284d329cfb6e586bf63a4587edd26085c830e90"
+    },
+    "png/768/illuminated-acanthus-corner-bottom-right.png": {
+      "bytes": 251693,
+      "sha256": "facfea2915314e251bc4179d735a4a258536c04ee193632dcf392b5569d55260"
+    },
+    "png/768/illuminated-acanthus-corner-top-right.png": {
+      "bytes": 416152,
+      "sha256": "44b389d81195b847e51b4cd67d97d37e8148081b2a652f46dadab68194151622"
+    },
+    "png/768/illuminated-acanthus-corner.png": {
+      "bytes": 387204,
+      "sha256": "99631f535a5c8603908103926bb9596ea2db79b1bf863074e25874858b7f2e5b"
+    },
+    "png/768/illuminated-acanthus-frame.png": {
+      "bytes": 413260,
+      "sha256": "36c0d503d49796b682faa0402f215aa1969151128966ff7549bf6f0dce6581be"
+    },
+    "png/768/illuminated-acanthus-headpiece.png": {
+      "bytes": 251282,
+      "sha256": "787c851ac25cd9f04730454976a943830a0b5758529134096c9e573d5ad772b4"
+    },
+    "png/768/illuminated-acanthus-tailpiece.png": {
+      "bytes": 354834,
+      "sha256": "956cd36b3310fa2b791b6c9f982799d49c29712b5755a0ea53d479e97cfb2f0a"
+    },
     "png/768/isabella-gold-floral-frame.png": {
       "bytes": 581128,
       "sha256": "c50794cc24c7c70b3db29fa79da7c0d64550cb1878bd1c310f0a037e4d372023"
+    },
+    "png/768/ivy-corner-bottom-left.png": {
+      "bytes": 109096,
+      "sha256": "934fc1797083a7aed4c4b8a3228b63dec5f450b78ea5b6f3d2b539d3a1ce2c52"
+    },
+    "png/768/ivy-corner-bottom-right.png": {
+      "bytes": 99783,
+      "sha256": "d52da0981b5246369d39a64bd87f2281c41b5f7598f933377de0d3d78c2d69c7"
+    },
+    "png/768/ivy-corner-top-right.png": {
+      "bytes": 82660,
+      "sha256": "13c6e7ef2fcea05b99e6db3b85014c430f9a7039b6daa26fabea48f8a96a8f05"
+    },
+    "png/768/ivy-corner.png": {
+      "bytes": 112716,
+      "sha256": "533205d6d699f9df94d36a7b1902e5bee834568abb5968636e8eea578918e297"
+    },
+    "png/768/ivy-fleuron.png": {
+      "bytes": 72708,
+      "sha256": "a4b8a301104ead89672aa622ecef29641c5588dd01de27a4a7e4337483c3c728"
+    },
+    "png/768/ivy-line-filler.png": {
+      "bytes": 36566,
+      "sha256": "66e49fff29bb981e7e5004b227b80723685654ebf10a262426bce544343e1d63"
+    },
+    "png/768/ivy-manuscript-frame.png": {
+      "bytes": 109198,
+      "sha256": "c5a71f2a269ced76e7554822edc58bd36815aaec0518a2045bdc055abbcbdf49"
+    },
+    "png/768/ivy-marginal-vine.png": {
+      "bytes": 52254,
+      "sha256": "50ebd5af36fd6fcc2b778a29ba0be21c2b099cbbe0ef49d5547668f5f5777b47"
     },
     "png/768/rosselli-foliate-strip.png": {
       "bytes": 335102,
@@ -1945,6 +3679,14 @@
     "png/768/rosselli-mask-strip.png": {
       "bytes": 336031,
       "sha256": "77c50f3ec4450314f9b4957b1ffbefb3adbc02bdf8a10a8dbaeb0585445ad614"
+    },
+    "png/768/songbirds-headpiece.png": {
+      "bytes": 112727,
+      "sha256": "352ee5bc8ea1f00d7379845babca5e9ccd737e80d42573db52fbe126e6d0a073"
+    },
+    "png/acanthus-tailpiece.png": {
+      "bytes": 530357,
+      "sha256": "12921dcc48274836e02b8e242fab4ca047456634c0bd574b7ab7e7a1cefee059"
     },
     "png/aldegrever-paired-tendrils.png": {
       "bytes": 2617967,
@@ -1957,6 +3699,10 @@
     "png/blue-acanthus-and-seed-head-panel.png": {
       "bytes": 32574,
       "sha256": "68646dc2a564ab31f85a8b050d3960516377a7d178adce8f4cf4fd987c338f49"
+    },
+    "png/briar-divider.png": {
+      "bytes": 393542,
+      "sha256": "626bf833ff4e3bd1619d653723ce9b793d70caf3facee77dcdc5df41c7b0fd20"
     },
     "png/butterfly-panel-red.png": {
       "bytes": 126789,
@@ -1974,6 +3720,22 @@
       "bytes": 119689,
       "sha256": "f3804359386ec8e07639806d052733c153609b885694fe3c0690655dcd111ffb"
     },
+    "png/gold-cinquefoil-divider-center.png": {
+      "bytes": 525652,
+      "sha256": "1c75e016c2080036dd94344f68c73cba63a402432508d50ffa080b39a3d1ff0b"
+    },
+    "png/gold-cinquefoil-divider-end.png": {
+      "bytes": 1111079,
+      "sha256": "bef5d8ca631a488581963a775b88f1368d75c5c87749dc363ce702b82625e245"
+    },
+    "png/gold-lozenge-divider-center.png": {
+      "bytes": 1270248,
+      "sha256": "5fd4fddf8a1061024d6c484417df8927e90a8f8b258942b884ea286e1ca22890"
+    },
+    "png/gold-lozenge-divider-end.png": {
+      "bytes": 527989,
+      "sha256": "82edd55d3ec7bc49611a48fb95168fb847e81200e7ccf297213cd7c165bc6202"
+    },
     "png/gold-scroll-with-blue-bellflowers-reference.png": {
       "bytes": 90029,
       "sha256": "c973baaee18cc4ae6041f81ff99323e228b2f3340665b18443c7374ee7785873"
@@ -1990,9 +3752,69 @@
       "bytes": 3642959,
       "sha256": "51d04515b4539e7e320eacd0761794bed4e5452a6564d0679dca6e4a7ce50d0a"
     },
+    "png/illuminated-acanthus-corner-bottom-left.png": {
+      "bytes": 1034299,
+      "sha256": "5766353db79acb5f06f1252e2bc31fb4d7779d1fdfa576f371248250ddb49721"
+    },
+    "png/illuminated-acanthus-corner-bottom-right.png": {
+      "bytes": 1550155,
+      "sha256": "391ec36ec93c5528b7bf97a4bdb25afbf14991c79c420be8267a89c9b5e9f674"
+    },
+    "png/illuminated-acanthus-corner-top-right.png": {
+      "bytes": 1085477,
+      "sha256": "d6ecd16bff02a64c8416c58e6a9522b1225a6264fd5b99181fbefe940305f3ab"
+    },
+    "png/illuminated-acanthus-corner.png": {
+      "bytes": 979245,
+      "sha256": "0c3ae9a1e04ee9a4157d8e60ebf13ea1913c9707578b937504980a4c2d1e873f"
+    },
+    "png/illuminated-acanthus-frame.png": {
+      "bytes": 2026280,
+      "sha256": "6797c4c7247f3a6f9dbdbb97ed7680a1c426bd614b3fc94f5853d5d23ca6c73b"
+    },
+    "png/illuminated-acanthus-headpiece.png": {
+      "bytes": 1671472,
+      "sha256": "970fa67243e11e31d8db7d13caa5419def61b5f327cfd69fc1fea4123183d386"
+    },
+    "png/illuminated-acanthus-tailpiece.png": {
+      "bytes": 1031814,
+      "sha256": "67a3dbeeb44c496028f0c519e139460c26aae44ba08cc3c68ea3e040ddc0861c"
+    },
     "png/isabella-gold-floral-frame.png": {
       "bytes": 1882426,
       "sha256": "ca54dfae6ce4dc8369cdafa19ff7a4a81bbe1c94c57eeb435ef0c7d439f599ba"
+    },
+    "png/ivy-corner-bottom-left.png": {
+      "bytes": 251749,
+      "sha256": "900eb83057e0d9e3dbcb9b446774a23f8edbdf6b85d71496f8ea84820604a896"
+    },
+    "png/ivy-corner-bottom-right.png": {
+      "bytes": 230019,
+      "sha256": "bf3c53882df02a3d3e075c3c810d864bb83b5b1a58145626176db467f0eb0bb9"
+    },
+    "png/ivy-corner-top-right.png": {
+      "bytes": 192303,
+      "sha256": "92000a8f62f0138e7c7ae774518410f2c1fcfee22dc5a7fb15596a310d22455c"
+    },
+    "png/ivy-corner.png": {
+      "bytes": 267736,
+      "sha256": "a8b0ae2a5a80454ed660c4c9211a714ae2466031c6551a2ccdb7dc5443fc4ef4"
+    },
+    "png/ivy-fleuron.png": {
+      "bytes": 188167,
+      "sha256": "80aec03e0281c73df2a627b6c59503ca2a798fe5683d4dc04376f2bce269ae5a"
+    },
+    "png/ivy-line-filler.png": {
+      "bytes": 198268,
+      "sha256": "c9d8d8e4e105ffe094dad14b50fe31a8fe0833ccd68c41e72086f638708de42f"
+    },
+    "png/ivy-manuscript-frame.png": {
+      "bytes": 784702,
+      "sha256": "38c97cd8a11e8dd03f610fe9c7cd834052a92ec71db680b8058418d3b60d8ed1"
+    },
+    "png/ivy-marginal-vine.png": {
+      "bytes": 205160,
+      "sha256": "2c6d9f59adb41026c38695f3fde0c76841bdb6a3f8fa11337f02e8d821a300f4"
     },
     "png/painted-sprawling-floral-panel-reference.png": {
       "bytes": 354736,
@@ -2074,6 +3896,10 @@
       "bytes": 791487,
       "sha256": "3eff6463245e06ce594501de86dc11a4c4ac5cfc0c74914445b8d4b1b1bd6369"
     },
+    "png/songbirds-headpiece.png": {
+      "bytes": 706301,
+      "sha256": "80ef076ccf5e3c53c4d48d9a62951c5761d357363932058c53467df2fe2bddc2"
+    },
     "png/spiral-ribbon-column.png": {
       "bytes": 118948,
       "sha256": "a08520a81508cafe1ad39cd55f23e9f7917ccbe4bc85bd9310015e8a9438e180"
@@ -2114,6 +3940,10 @@
       "bytes": 288906,
       "sha256": "3906bb6e876eb87963d45353ae1fc2ef161307ce070f215a4d36f025854c6dda"
     },
+    "webp/128/acanthus-tailpiece.webp": {
+      "bytes": 6136,
+      "sha256": "63c910493e76f7a6fdd7bc911c0ddcca101a04c0fd818ed9dcb5bbacdda32502"
+    },
     "webp/128/aldegrever-paired-tendrils.webp": {
       "bytes": 10280,
       "sha256": "b3e0ca8aeb4ec617926d6d115039c6e7d7312b9738506cba4bacc51097b08caf"
@@ -2125,6 +3955,10 @@
     "webp/128/blue-acanthus-and-seed-head-panel.webp": {
       "bytes": 5540,
       "sha256": "cbc71ed03b372d5ae0ec7f783c1b788b4f8c19d90c24bd615bf7c2edafce534b"
+    },
+    "webp/128/briar-divider.webp": {
+      "bytes": 2086,
+      "sha256": "552921b6b4d30ea04c3171e53bf5ac7cfe4c42cb170fc387debd6bc59e660f2a"
     },
     "webp/128/butterfly-panel-red.webp": {
       "bytes": 5714,
@@ -2142,6 +3976,22 @@
       "bytes": 5626,
       "sha256": "98e4e74493e0c0f927a0177b7327be50f982af5c737211b8637e1ad2e9ae57e6"
     },
+    "webp/128/gold-cinquefoil-divider-center.webp": {
+      "bytes": 5414,
+      "sha256": "ba62c7854aec6c226ebaffa176ead8c14b204acf94d0f5330b61a428a3629000"
+    },
+    "webp/128/gold-cinquefoil-divider-end.webp": {
+      "bytes": 4382,
+      "sha256": "53de7e6e6cee5aa6eeb5b46f033a04201396b0d883e4014c8ba4f34cc39d2b55"
+    },
+    "webp/128/gold-lozenge-divider-center.webp": {
+      "bytes": 5430,
+      "sha256": "5a172de0781fd9d8519a44782a98e16c4c82f94e2200583b8ce1afb6423c20a9"
+    },
+    "webp/128/gold-lozenge-divider-end.webp": {
+      "bytes": 4434,
+      "sha256": "c672a0fc727eb092f8ac7c783ce188606cc6c543926f0b8a044f88b119ba1928"
+    },
     "webp/128/gold-scroll-with-blue-bellflowers-reference.webp": {
       "bytes": 5866,
       "sha256": "92d0de04c120d7eae4754567978787150443313e948c734f97f1cf00ef5c0230"
@@ -2158,9 +4008,69 @@
       "bytes": 17508,
       "sha256": "08ee4e6caa93a1b7797682e5bb54a6b74d2e4b35b459fcbf9b6cf2bde7a9f101"
     },
+    "webp/128/illuminated-acanthus-corner-bottom-left.webp": {
+      "bytes": 13980,
+      "sha256": "b7b687db2f76d920111d3391e52f836e40669cbff48772ebe0f2caa98f60eea0"
+    },
+    "webp/128/illuminated-acanthus-corner-bottom-right.webp": {
+      "bytes": 9260,
+      "sha256": "236c1f5bcef9a80d4955d0d05e395a7bcf5f0f4227723858f016e90fa8c6a7b6"
+    },
+    "webp/128/illuminated-acanthus-corner-top-right.webp": {
+      "bytes": 14376,
+      "sha256": "b1cd4b823cd9459ba2952c6854d6b38418866ca359b5d0687b6606c4110fa501"
+    },
+    "webp/128/illuminated-acanthus-corner.webp": {
+      "bytes": 13400,
+      "sha256": "e35d493c5df164eeb627087cc58f2f4fdb336a4c1b20225b19e951df4596c576"
+    },
+    "webp/128/illuminated-acanthus-frame.webp": {
+      "bytes": 14152,
+      "sha256": "2ca8c5c0dfac4bdedc7cbd49a82530cc3e5491cd4bacfb916901fdad6be7db38"
+    },
+    "webp/128/illuminated-acanthus-headpiece.webp": {
+      "bytes": 9480,
+      "sha256": "a89c957611e6d9a68d4d006c762da663d87b54d0de5916d661bcf653292ff21f"
+    },
+    "webp/128/illuminated-acanthus-tailpiece.webp": {
+      "bytes": 12846,
+      "sha256": "81a6db46aa694437214a4ac9ba16be8b054d69360b5d4499b6e8437755c14817"
+    },
     "webp/128/isabella-gold-floral-frame.webp": {
       "bytes": 17022,
       "sha256": "e2a76f0014f3588b91c9f1a863bde5caef174028f18f6e4e8c2a123424ca960b"
+    },
+    "webp/128/ivy-corner-bottom-left.webp": {
+      "bytes": 3484,
+      "sha256": "e60a9bfbb503eff1826d6412ba4eb355b8acc95e2ed4488bf0f7d76c24872261"
+    },
+    "webp/128/ivy-corner-bottom-right.webp": {
+      "bytes": 3256,
+      "sha256": "7bb6603fd8214b5661fd2e7d0f5884eb5068eac21cbc860eabfd05d4adbb00fa"
+    },
+    "webp/128/ivy-corner-top-right.webp": {
+      "bytes": 3038,
+      "sha256": "907fb854a33223a24da9eb3594795618a1038410733889278fa44b07b9c19072"
+    },
+    "webp/128/ivy-corner.webp": {
+      "bytes": 3728,
+      "sha256": "98a626d4f411f67d931f45eb546bf10badf821c8988dbdf424f8f7ddfd7ee9e0"
+    },
+    "webp/128/ivy-fleuron.webp": {
+      "bytes": 2770,
+      "sha256": "1c5c9e1e307459c55f1569da82763f34b8324433fe412ad873e3aae877191490"
+    },
+    "webp/128/ivy-line-filler.webp": {
+      "bytes": 1466,
+      "sha256": "8c64f4c858887a3ad646240f2bfed58a977368e64b77cd57d960e26bc940fdf8"
+    },
+    "webp/128/ivy-manuscript-frame.webp": {
+      "bytes": 3352,
+      "sha256": "3ca46dae340389264274894ac1e76717b00ebb75967f0c221cbc36d21f245f15"
+    },
+    "webp/128/ivy-marginal-vine.webp": {
+      "bytes": 1746,
+      "sha256": "15cc01abae949ca77124dd232639cf78f772337555c13fa42984d0dd9c0ce0ff"
     },
     "webp/128/painted-sprawling-floral-panel-reference.webp": {
       "bytes": 11156,
@@ -2218,9 +4128,17 @@
       "bytes": 28064,
       "sha256": "5496d3abe3e703cf7bdd648d72816585afb0a3c8658f399e783e6b9a6876ea0f"
     },
+    "webp/128/songbirds-headpiece.webp": {
+      "bytes": 3808,
+      "sha256": "6ce9ffbe61c34de12d368e21525a03bb83c53144950184e5d554940679c15e7c"
+    },
     "webp/128/spiral-ribbon-column.webp": {
       "bytes": 5110,
       "sha256": "bfbddbe5f6e829db01532f87514177181f033c90b06b45331523b8ef7573c051"
+    },
+    "webp/256/acanthus-tailpiece.webp": {
+      "bytes": 19850,
+      "sha256": "547e9bf595684d9eac5362404ca198c5233d2eb936e253703104d2807076db67"
     },
     "webp/256/aldegrever-paired-tendrils.webp": {
       "bytes": 38856,
@@ -2233,6 +4151,10 @@
     "webp/256/blue-acanthus-and-seed-head-panel.webp": {
       "bytes": 19206,
       "sha256": "3d88b1af1594b4706b92d419ba900e2322f38b0b013b9308b34359904fa1c6c1"
+    },
+    "webp/256/briar-divider.webp": {
+      "bytes": 6364,
+      "sha256": "7c1453f06e961ccaf2f720faa80dad677901fa57c4604b77359b6da26ce0907b"
     },
     "webp/256/butterfly-panel-red.webp": {
       "bytes": 18622,
@@ -2250,6 +4172,22 @@
       "bytes": 21102,
       "sha256": "5a5efa1e5286b794245cd778cbec00e93cda30284c17a902460b04bd5ce485c4"
     },
+    "webp/256/gold-cinquefoil-divider-center.webp": {
+      "bytes": 16160,
+      "sha256": "954ab3aa0f5e28a28e3fb59086b3e378d47d41e6ad9ec07c5a4074d53a4e3089"
+    },
+    "webp/256/gold-cinquefoil-divider-end.webp": {
+      "bytes": 12482,
+      "sha256": "d69f8cde802887ca277f68f691c5e3d43748531d7ebbd07a82cf56a5349c5f09"
+    },
+    "webp/256/gold-lozenge-divider-center.webp": {
+      "bytes": 17448,
+      "sha256": "6fdc58d5ec7d256971b24f15f25be79d5c2d4ce57c45bfa13e84993e4a018244"
+    },
+    "webp/256/gold-lozenge-divider-end.webp": {
+      "bytes": 14214,
+      "sha256": "24b8128d5a0abe3572af40b71f77c02da0f1494ee25ac65568112111ebc3fcfa"
+    },
     "webp/256/gold-scroll-with-blue-bellflowers-reference.webp": {
       "bytes": 18282,
       "sha256": "8ceee7ed55aa71c21e07f49a50cbde7402b8c1dda41a04a578c5d5eb45fca7bf"
@@ -2266,9 +4204,69 @@
       "bytes": 69742,
       "sha256": "3997b529555f201ceb5211393c442dd76eec81377d00b872c9fdac097280ad2e"
     },
+    "webp/256/illuminated-acanthus-corner-bottom-left.webp": {
+      "bytes": 42762,
+      "sha256": "3a0f9df6f3e92fe985485be3d9cdf309c5a6f8051ea48d9a751b03b741bc5613"
+    },
+    "webp/256/illuminated-acanthus-corner-bottom-right.webp": {
+      "bytes": 30422,
+      "sha256": "03be35a4cbc483d4c8ed10e851cc4a35719f10fa65730425b529f363d64b56c3"
+    },
+    "webp/256/illuminated-acanthus-corner-top-right.webp": {
+      "bytes": 44138,
+      "sha256": "ee031bbcb50a5f90effec98df57107d13413ea97cbd0b67c1c77f7156ed71eaa"
+    },
+    "webp/256/illuminated-acanthus-corner.webp": {
+      "bytes": 39436,
+      "sha256": "9306f5e1f2de41fcb565864d85589491f8c5dada2a3da753bf0342bd4ddf50f7"
+    },
+    "webp/256/illuminated-acanthus-frame.webp": {
+      "bytes": 47274,
+      "sha256": "fe7df27980e56001bde1bb502abd51eaee804b21df0da412eb5c1b356b887fca"
+    },
+    "webp/256/illuminated-acanthus-headpiece.webp": {
+      "bytes": 30554,
+      "sha256": "fb85b62ba45750bd6d13c0000f29139f04835535506960ea0539f9d483e9740e"
+    },
+    "webp/256/illuminated-acanthus-tailpiece.webp": {
+      "bytes": 37034,
+      "sha256": "c2c0f53e15e266ed1600d1e4f4d15dd9a72a873d8dc8159e27c06294cbd114cb"
+    },
     "webp/256/isabella-gold-floral-frame.webp": {
       "bytes": 58560,
       "sha256": "b5d6f1e747808710604921326a3e82e9a7ffa8a16bafbf78569515f2620ce90b"
+    },
+    "webp/256/ivy-corner-bottom-left.webp": {
+      "bytes": 11266,
+      "sha256": "5541b4e5d1ad63abeca6c7fa3c0ec012436ebda91496dedc7fc36f8854145def"
+    },
+    "webp/256/ivy-corner-bottom-right.webp": {
+      "bytes": 10134,
+      "sha256": "fe9cf881a0b1c3bc7dafb3838aafea4c84bb4ef259d223d52b285d543422a1d8"
+    },
+    "webp/256/ivy-corner-top-right.webp": {
+      "bytes": 8810,
+      "sha256": "c9077ed71b023b092a9d747ec6217f8d1d89c0c1d3367f6a30361c0ee6d4eba5"
+    },
+    "webp/256/ivy-corner.webp": {
+      "bytes": 11280,
+      "sha256": "7749b289a3ce749b4df3ea57c87d8c46c85eed107a139f4b13c41de4e6dc4bc7"
+    },
+    "webp/256/ivy-fleuron.webp": {
+      "bytes": 7966,
+      "sha256": "ef98e46648acd761825636bfffd1c6bc9784e47cea5cb8fe442023ff9bf2d895"
+    },
+    "webp/256/ivy-line-filler.webp": {
+      "bytes": 3918,
+      "sha256": "0bf03f147a11e727a179acd83c76040a0dc7d14e49a2de266b8f6883d7099c44"
+    },
+    "webp/256/ivy-manuscript-frame.webp": {
+      "bytes": 11368,
+      "sha256": "0770187c6bd2944ccd0de82f8746f605f9b391221889bdf4d722dfab956497a0"
+    },
+    "webp/256/ivy-marginal-vine.webp": {
+      "bytes": 4924,
+      "sha256": "64eca486e057bb1985c396e4fcf6315cecb39b4d32d0ec76bc2829fe99cb4f9d"
     },
     "webp/256/painted-sprawling-floral-panel-reference.webp": {
       "bytes": 41064,
@@ -2326,13 +4324,25 @@
       "bytes": 103386,
       "sha256": "2c1ac5ccb0300a193222a5aa7f984b87ff6e4f6d57b44ab7f76e78ce7d88fd62"
     },
+    "webp/256/songbirds-headpiece.webp": {
+      "bytes": 11142,
+      "sha256": "19e7fc92b7be63b0ae4877c44b8831dbf247b996c92913fef36ddb0e0bf45641"
+    },
     "webp/256/spiral-ribbon-column.webp": {
       "bytes": 19528,
       "sha256": "2c1e52ffdc18726ae897e217c0dfec586fc01fc84d7317a378e9037766602d93"
     },
+    "webp/512/acanthus-tailpiece.webp": {
+      "bytes": 65396,
+      "sha256": "c9cf169c14e1333b37b2766c7b02f7a5ebcbf530d407aea3c16eb98037d3d372"
+    },
     "webp/512/aldegrever-paired-tendrils.webp": {
       "bytes": 151480,
       "sha256": "2f3e95918acd0305971175ffab04877c2139fc9ac580304431247a41558b241e"
+    },
+    "webp/512/briar-divider.webp": {
+      "bytes": 19572,
+      "sha256": "47dc049a406d8f3ac7dc3e24da1e8237b3f78fe906677ea5f050bcecb901acc6"
     },
     "webp/512/butterfly-panel-red.webp": {
       "bytes": 63656,
@@ -2350,6 +4360,22 @@
       "bytes": 61728,
       "sha256": "8ac8c1ca843092e7bfb567c427913b70f628c2e78ff6cd2ef32a75e0238746cf"
     },
+    "webp/512/gold-cinquefoil-divider-center.webp": {
+      "bytes": 58730,
+      "sha256": "985e0b337f2138e5c3e3c951cf45c385966379b60148ebb9c57a23523c97e87e"
+    },
+    "webp/512/gold-cinquefoil-divider-end.webp": {
+      "bytes": 43608,
+      "sha256": "df5312b9808b78a653884a13f0d1a630cb10a1e9329db0b29e3b038efc82fb04"
+    },
+    "webp/512/gold-lozenge-divider-center.webp": {
+      "bytes": 54446,
+      "sha256": "45f6c42da55640f600bf73978f1b82619bae8aaf081a49a00effbb3e8a97cc9b"
+    },
+    "webp/512/gold-lozenge-divider-end.webp": {
+      "bytes": 42002,
+      "sha256": "5341025ac26aaec0df598f821534f6963d3cf4791732a227b8bd28ced3c600bd"
+    },
     "webp/512/gold-scroll-with-blue-bellflowers-reference.webp": {
       "bytes": 60036,
       "sha256": "52033a5cc04bed1fe358ba41aa2225410c82edcef1cf803776950c2981e96df9"
@@ -2366,9 +4392,69 @@
       "bytes": 273156,
       "sha256": "8bf0408da28be22627d9bad5262a8b2dd7b520d7b935c8ab8c9a34ceca9e0806"
     },
+    "webp/512/illuminated-acanthus-corner-bottom-left.webp": {
+      "bytes": 140274,
+      "sha256": "3ffcf9892e8781e967c0b730fb3eab2eaedb2fb7286b781c55a8cb9173915800"
+    },
+    "webp/512/illuminated-acanthus-corner-bottom-right.webp": {
+      "bytes": 90486,
+      "sha256": "9a084340bddca5dd9eda7635429e7a1df3958d024007f9039e0efe116d2cd147"
+    },
+    "webp/512/illuminated-acanthus-corner-top-right.webp": {
+      "bytes": 144930,
+      "sha256": "2d4ed7d5c3ece70d6b6666fb47bcfa08b707be1fe4299d97bcf0d28660e37f47"
+    },
+    "webp/512/illuminated-acanthus-corner.webp": {
+      "bytes": 132082,
+      "sha256": "cdb1b487a61de5a2a06846f0e9fcfb359b30caf8b74ad210afdd1e5584c3d302"
+    },
+    "webp/512/illuminated-acanthus-frame.webp": {
+      "bytes": 160258,
+      "sha256": "85afff5a6ced850e5d7fd58367cc89e51259c784f17a3e697d15976a414e87b1"
+    },
+    "webp/512/illuminated-acanthus-headpiece.webp": {
+      "bytes": 94702,
+      "sha256": "926ff61ea9a64b8be6c36dcbb9dfff2f0d23b9181fbf0019fff574c44b9ae61d"
+    },
+    "webp/512/illuminated-acanthus-tailpiece.webp": {
+      "bytes": 122458,
+      "sha256": "381d9249b04ff121ba1ac21c0009b1eafa98456c58dda624c2d5d4ad046162db"
+    },
     "webp/512/isabella-gold-floral-frame.webp": {
       "bytes": 206648,
       "sha256": "3b8e36699d6c9d918b4f7be2723cfcc421dd79bfed8821f9e5105dd35cbe90e3"
+    },
+    "webp/512/ivy-corner-bottom-left.webp": {
+      "bytes": 33716,
+      "sha256": "ecb6798c8197172bc0909c7db0109036697bc326be296dc9f31cf95075b3a5b0"
+    },
+    "webp/512/ivy-corner-bottom-right.webp": {
+      "bytes": 30408,
+      "sha256": "6d6847ac08d93c05cc6270585796029daa6783b2045a8a13c554e8ea93a43275"
+    },
+    "webp/512/ivy-corner-top-right.webp": {
+      "bytes": 25498,
+      "sha256": "e0350dfcced64a7978ec7ca0e189c6663a3db54446e458d7a6308908fd7649b0"
+    },
+    "webp/512/ivy-corner.webp": {
+      "bytes": 33904,
+      "sha256": "814fe8f19c11ee960047a9252c018e1a11b5d3b23761b6e8676fe3492b6f6379"
+    },
+    "webp/512/ivy-fleuron.webp": {
+      "bytes": 24114,
+      "sha256": "f21a7e73805a474709ddcfeb0dc4733f1584f5fc2749610b7ee0cc8fabc9f3bf"
+    },
+    "webp/512/ivy-line-filler.webp": {
+      "bytes": 11336,
+      "sha256": "753e6e3d69c8f4eddecafce5a83417c18a271d2a685b35ae69e46c85a7484143"
+    },
+    "webp/512/ivy-manuscript-frame.webp": {
+      "bytes": 36892,
+      "sha256": "612ead9fd06f90f43563c87472523d975e63ae0db0bd6de06ffd544a78068b9d"
+    },
+    "webp/512/ivy-marginal-vine.webp": {
+      "bytes": 15602,
+      "sha256": "658d0eab916936d20e218ff6474fe412461fc67a1e46eac0f26f91b2250e0734"
     },
     "webp/512/painted-sprawling-floral-panel-reference.webp": {
       "bytes": 136112,
@@ -2418,13 +4504,41 @@
       "bytes": 363926,
       "sha256": "b400e4820e08758a3e1a45d1a1ea1797204b44bb6c7864bef1a301271e3811f0"
     },
+    "webp/512/songbirds-headpiece.webp": {
+      "bytes": 35482,
+      "sha256": "d582cbf33982d40f51e54253a6dcc1425e3481258bbf5b51ae7e763842a89cb6"
+    },
     "webp/512/spiral-ribbon-column.webp": {
       "bytes": 65738,
       "sha256": "08f0502f90dba0211e5fdd22b032ffc01289ee0ab4bcf3ca3f68eb69d9116221"
     },
+    "webp/768/acanthus-tailpiece.webp": {
+      "bytes": 137284,
+      "sha256": "594bf140d039e3963ac6217b8852dd1649ccec08ad11a2cfc848bdae03eafc0c"
+    },
     "webp/768/aldegrever-paired-tendrils.webp": {
       "bytes": 338028,
       "sha256": "a66db2df0988714a63d848090930c0f3a36c30c0e1b36c5638937170feb517cc"
+    },
+    "webp/768/briar-divider.webp": {
+      "bytes": 39666,
+      "sha256": "ab3c59eb4a68d71be56afb253a3fe93a6bec76a4ceefd9db678e1f1d66f16cdc"
+    },
+    "webp/768/gold-cinquefoil-divider-center.webp": {
+      "bytes": 128312,
+      "sha256": "16db1b2c8d164e3c26236d5225f02651d90b1c5b980567d6dca8158d30cf5ae6"
+    },
+    "webp/768/gold-cinquefoil-divider-end.webp": {
+      "bytes": 96010,
+      "sha256": "25a449b5ca9786eb61721b37b4142cac627a18b9ad15a95423e10f14815177bd"
+    },
+    "webp/768/gold-lozenge-divider-center.webp": {
+      "bytes": 116346,
+      "sha256": "859227d99153a9b6d7b8165e7eeb614f4834ffd8e575e14aaaddcf7bd5eb1f6a"
+    },
+    "webp/768/gold-lozenge-divider-end.webp": {
+      "bytes": 91256,
+      "sha256": "aad6b7a8c98f6d1d0e775816e1aea715e064dca3ede3eff56b496df85ba6f540"
     },
     "webp/768/hoefnagel-strapwork-frame.webp": {
       "bytes": 632024,
@@ -2434,9 +4548,69 @@
       "bytes": 624048,
       "sha256": "84c694ef6d3dc719f21aabe939d4965e3095cf3092867d421e799433e931f41c"
     },
+    "webp/768/illuminated-acanthus-corner-bottom-left.webp": {
+      "bytes": 298926,
+      "sha256": "f4d85fe7681c49e986acfda34e066f9529ae2ebb052da02059942493c1518ab5"
+    },
+    "webp/768/illuminated-acanthus-corner-bottom-right.webp": {
+      "bytes": 185962,
+      "sha256": "b2a583a38e4867620c544c5da65e85a832c9593fd576ff4fbc46e1156783d9b6"
+    },
+    "webp/768/illuminated-acanthus-corner-top-right.webp": {
+      "bytes": 304822,
+      "sha256": "3ea91cd4a3a8d35f45eef4db237e38b964e1e6f425637a192d0aaf026c4a92d2"
+    },
+    "webp/768/illuminated-acanthus-corner.webp": {
+      "bytes": 285530,
+      "sha256": "a928181d5f4fa244d51242bba73e08138e3344a98992e77ebcbaddc91070a856"
+    },
+    "webp/768/illuminated-acanthus-frame.webp": {
+      "bytes": 334264,
+      "sha256": "9ea004306ac8fb84b85933033a094bf86c1479bf9bcee16124c27f3236c67f1d"
+    },
+    "webp/768/illuminated-acanthus-headpiece.webp": {
+      "bytes": 190898,
+      "sha256": "5da05bc3d8b79c97b2cafdfe757d1c1df0a13c0b24ddf94a467da65daf3e4691"
+    },
+    "webp/768/illuminated-acanthus-tailpiece.webp": {
+      "bytes": 260094,
+      "sha256": "663e5ab91d997029870b45163ee45a1db458d5ad3be6a64c65773256a7b1355b"
+    },
     "webp/768/isabella-gold-floral-frame.webp": {
       "bytes": 447284,
       "sha256": "12228faf97767695fe07166c52a7e9a57e06fa6814c9042979af742173a10a28"
+    },
+    "webp/768/ivy-corner-bottom-left.webp": {
+      "bytes": 70164,
+      "sha256": "1c4abaf2f036d921fdca714524e900aa459ffee0abef247b9b88ff9faa7f7235"
+    },
+    "webp/768/ivy-corner-bottom-right.webp": {
+      "bytes": 62958,
+      "sha256": "fa61a798f7eb16e2a51073d3309cce066919c763822c079c4fb03edd31a51e2b"
+    },
+    "webp/768/ivy-corner-top-right.webp": {
+      "bytes": 51280,
+      "sha256": "3403064ab7ed00815244713e52b8c6eca0a14722dd7161b786c929968fb998db"
+    },
+    "webp/768/ivy-corner.webp": {
+      "bytes": 70210,
+      "sha256": "c1fb4849093d8d9810814c15fc82169d98a72ec18ba075357a9037e8c87afa96"
+    },
+    "webp/768/ivy-fleuron.webp": {
+      "bytes": 47070,
+      "sha256": "32b571cc81fedea6eed56b23e76ebb6f08e94ec385dc3505c9bde708253ba170"
+    },
+    "webp/768/ivy-line-filler.webp": {
+      "bytes": 22474,
+      "sha256": "7b7cf1a6be2717abe3b6dd039dddfa96056204967857f20b8832b6077b79770a"
+    },
+    "webp/768/ivy-manuscript-frame.webp": {
+      "bytes": 74862,
+      "sha256": "d13ae3d85de1f899642bc9ff525219daaf3ef346845bdd2a054b46286bc47ea7"
+    },
+    "webp/768/ivy-marginal-vine.webp": {
+      "bytes": 29756,
+      "sha256": "cdba00a33c7b2ff1953909cda892845bf658e052b575e5bda430926735f64be4"
     },
     "webp/768/rosselli-foliate-strip.webp": {
       "bytes": 228542,
@@ -2445,6 +4619,14 @@
     "webp/768/rosselli-mask-strip.webp": {
       "bytes": 239636,
       "sha256": "74adbc220d581386371ffd44189f16eb949c14efb30396e068f4e190e5d5eb0f"
+    },
+    "webp/768/songbirds-headpiece.webp": {
+      "bytes": 73058,
+      "sha256": "c0f9a3ec7db730abc6c6bdc8ba1bff71132ea11d00dfd847cbb61b5083a15d9b"
+    },
+    "webp/acanthus-tailpiece.webp": {
+      "bytes": 333664,
+      "sha256": "8b833c82d40a3783cf9f309471a33a7c573f73c401a6ec0510c888cefaeac298"
     },
     "webp/aldegrever-paired-tendrils.webp": {
       "bytes": 1647020,
@@ -2457,6 +4639,10 @@
     "webp/blue-acanthus-and-seed-head-panel.webp": {
       "bytes": 23168,
       "sha256": "77c1a7ac3b859c021d0ead1ab51d55f27531c907c03f11daca95166e7c13167a"
+    },
+    "webp/briar-divider.webp": {
+      "bytes": 269698,
+      "sha256": "b663ee7abc76b05ed4af4e739c490188ba3b0f76b1c4580b5e71de15d3e1dce9"
     },
     "webp/butterfly-panel-red.webp": {
       "bytes": 96080,
@@ -2474,6 +4660,22 @@
       "bytes": 94966,
       "sha256": "f78eab234694da9b5a3ac17122ec96b065055a3f641b6a102b8cb365cf5b3f08"
     },
+    "webp/gold-cinquefoil-divider-center.webp": {
+      "bytes": 380126,
+      "sha256": "a23115317da1e738b95367527ee3c1b88d570cec5ccff547b019ebcf80d5b3f1"
+    },
+    "webp/gold-cinquefoil-divider-end.webp": {
+      "bytes": 807138,
+      "sha256": "ab14a817a31843b388808704372ebc5a4700b3ba28e27b9e7eb0f50857365e0d"
+    },
+    "webp/gold-lozenge-divider-center.webp": {
+      "bytes": 917960,
+      "sha256": "759afe4b08d98a19a1712aba5dc632f7d928311f1ac0b7d5fcdc751c3378ba60"
+    },
+    "webp/gold-lozenge-divider-end.webp": {
+      "bytes": 364798,
+      "sha256": "101b6ff24d3b73a87921fa4c3ff429e3a8266d08895e9d193cd8d8033ec676da"
+    },
     "webp/gold-scroll-with-blue-bellflowers-reference.webp": {
       "bytes": 58286,
       "sha256": "00f3e859434624148799a3eb700b1ec81b84c88aa3363592734bdedf2608c0e3"
@@ -2490,9 +4692,69 @@
       "bytes": 2129350,
       "sha256": "0ecf1f8f62090533c66162bd991e628d7deb490cd84dfecc9f215c5e052ccb67"
     },
+    "webp/illuminated-acanthus-corner-bottom-left.webp": {
+      "bytes": 774416,
+      "sha256": "bf1159b15b9c5d0675fabb895618515ccf9017b51a4460e7d58fca1ffd40d2af"
+    },
+    "webp/illuminated-acanthus-corner-bottom-right.webp": {
+      "bytes": 1120078,
+      "sha256": "b9b4eea1bdd11082660c768c4b5a816560e461a2c8d6d0afbd72f28bc2434f28"
+    },
+    "webp/illuminated-acanthus-corner-top-right.webp": {
+      "bytes": 794732,
+      "sha256": "82ce4b544d3f3b7e1019a968f2353223a24ca6894ab901871655f97a348b5965"
+    },
+    "webp/illuminated-acanthus-corner.webp": {
+      "bytes": 722614,
+      "sha256": "0540093bca790e5013886323d35dc8af0e26f551365f34a112b874f61e84a2c5"
+    },
+    "webp/illuminated-acanthus-frame.webp": {
+      "bytes": 1545856,
+      "sha256": "c2305a5d00d50d3ebc9835d15fa5c7fbae1955a6568acc45358f1b99cf68150c"
+    },
+    "webp/illuminated-acanthus-headpiece.webp": {
+      "bytes": 1254430,
+      "sha256": "4ba240e1d54497f129551c274e8bd2036afb6d3ebdb820eb031d857ad94850f2"
+    },
+    "webp/illuminated-acanthus-tailpiece.webp": {
+      "bytes": 755268,
+      "sha256": "e6157218cddcf13744610bd4f953debc3ac87ab6fab34181bf18fa0aa51eb0b7"
+    },
     "webp/isabella-gold-floral-frame.webp": {
       "bytes": 1398436,
       "sha256": "8a83a3ce91a8f9be49fce34fb20eb55a2eae374e1a5fc3bd81a219d05ef69a26"
+    },
+    "webp/ivy-corner-bottom-left.webp": {
+      "bytes": 163848,
+      "sha256": "70183906b6df66d5ffa06afd49696a9418185e2a510dd7e61c0aee7e510c1645"
+    },
+    "webp/ivy-corner-bottom-right.webp": {
+      "bytes": 148328,
+      "sha256": "6f11c87b02c5a9c0a50f8155d249d26ee12bd3ab2d4a20edf4af7e5ae83f3ad5"
+    },
+    "webp/ivy-corner-top-right.webp": {
+      "bytes": 118950,
+      "sha256": "7eb140d2d3258de351edc18aa193ec85f3f9fe571426c63c8a2691952a4421c0"
+    },
+    "webp/ivy-corner.webp": {
+      "bytes": 168428,
+      "sha256": "5760a1311eaafcb54b2d58f3405dd44004640c0c76d6abaed89fb0df172bcca0"
+    },
+    "webp/ivy-fleuron.webp": {
+      "bytes": 115540,
+      "sha256": "bb6381502d4e42ce8fcb8ce6f8f06ca30286f02fea08224ed85aabaeae6aa4d1"
+    },
+    "webp/ivy-line-filler.webp": {
+      "bytes": 147380,
+      "sha256": "0428db1f41ea82bef1bf66db09e7317d06635b1679662e5d9e3ebdca55917f1f"
+    },
+    "webp/ivy-manuscript-frame.webp": {
+      "bytes": 522140,
+      "sha256": "8b99095537c7d70f101a24df9ab936c1f8ccfe92431bf81a22d5e88c929f82ba"
+    },
+    "webp/ivy-marginal-vine.webp": {
+      "bytes": 116152,
+      "sha256": "ee14236a65cc3efa147de741e489cb4dcbffd1951ab98d349af451c780029133"
     },
     "webp/painted-sprawling-floral-panel-reference.webp": {
       "bytes": 244876,
@@ -2573,6 +4835,10 @@
     "webp/rosselli-roundel-top.webp": {
       "bytes": 507656,
       "sha256": "cc1a8fad76df6041457c55fcdac7b1b3e4e636a0805f94102fd7340b7cebdb0d"
+    },
+    "webp/songbirds-headpiece.webp": {
+      "bytes": 519340,
+      "sha256": "d707762da36629909be24a821f785f76a9d8db9f83e52597597951d330a51e67"
     },
     "webp/spiral-ribbon-column.webp": {
       "bytes": 97970,
@@ -2691,6 +4957,94 @@
     "sources/tiles/rosselli-roundel-top.png": {
       "bytes": 2933825,
       "sha256": "2a2fe3cc7c1a8301e7d3630e04ac84fd262f384c5b29a0ff542ecf95522ce2a4"
+    },
+    "sources/tiles/acanthus-tailpiece.png": {
+      "bytes": 573955,
+      "sha256": "a0e825c86714c9da00c9f0a1a6d5d309a926d40aa13c23ed43d2a5f3eabbb772"
+    },
+    "sources/tiles/briar-divider.png": {
+      "bytes": 450442,
+      "sha256": "25a05b0a80ea095d1121aa407f23f974d5927016eeff1f4312a6225b28feb80b"
+    },
+    "sources/tiles/gold-cinquefoil-divider-center.png": {
+      "bytes": 603433,
+      "sha256": "dad9643428241850546391a0faa6c732c19fc713f3f571518bbd317599d81ebf"
+    },
+    "sources/tiles/gold-cinquefoil-divider-end.png": {
+      "bytes": 1257878,
+      "sha256": "89577e3984f211dac00c1d7381612f3c4db58f0336e94af6b0e45fad50a4e3d4"
+    },
+    "sources/tiles/gold-lozenge-divider-center.png": {
+      "bytes": 1430278,
+      "sha256": "7d0af9b913d851f014eee73207004fda947a0fe2a194010bafc4a7949807c8fd"
+    },
+    "sources/tiles/gold-lozenge-divider-end.png": {
+      "bytes": 594794,
+      "sha256": "87a81768bc306f27d9ec2237fedafd6be14a9534be7570ce82bdf78cbc49bdec"
+    },
+    "sources/tiles/illuminated-acanthus-corner.png": {
+      "bytes": 1075341,
+      "sha256": "fe5405db845407352cda4a042e0926373dc3e735aa2ac3c3218e5f855d6cf01d"
+    },
+    "sources/tiles/illuminated-acanthus-corner-bottom-left.png": {
+      "bytes": 1147043,
+      "sha256": "112ad2180aae1240e59b3fbc261736f8c3782e731804be2c448da3181dc303b9"
+    },
+    "sources/tiles/illuminated-acanthus-corner-bottom-right.png": {
+      "bytes": 1690736,
+      "sha256": "b63c2f521dc1773b86422dd380de4269fd1aa26ead11852b599ac761a963fce0"
+    },
+    "sources/tiles/illuminated-acanthus-corner-top-right.png": {
+      "bytes": 1187868,
+      "sha256": "386ba692cb9e39eda8575757bdacf87ec56302d70826b2567845e1abaa658d07"
+    },
+    "sources/tiles/illuminated-acanthus-frame.png": {
+      "bytes": 2154986,
+      "sha256": "e4aaec3730cb9a7bdc25d41da3d5867380f1445851687f2305a3181f4dd85317"
+    },
+    "sources/tiles/illuminated-acanthus-headpiece.png": {
+      "bytes": 1852954,
+      "sha256": "a10e179458a143eaf705595ac47b415fc72ba349af1bd9364a89b8036b17eb7b"
+    },
+    "sources/tiles/illuminated-acanthus-tailpiece.png": {
+      "bytes": 1114275,
+      "sha256": "9901cac7e268ad13641a6ce32b47d80d6253de1cdd6fd15a7036ff2dac2a0c3e"
+    },
+    "sources/tiles/ivy-corner.png": {
+      "bytes": 334782,
+      "sha256": "3fe9ca36ee952e7a6bd298606cc01a9a200b12c8e1c2ed00ec007a6e13aaba31"
+    },
+    "sources/tiles/ivy-corner-bottom-left.png": {
+      "bytes": 321448,
+      "sha256": "db31cdce3ba5d77164d7a12f1974ef132b5bb4fc6fe772ace1dfec7e381b0bb6"
+    },
+    "sources/tiles/ivy-corner-bottom-right.png": {
+      "bytes": 294723,
+      "sha256": "d4988bbac62a87cba86c75ef5c83ecfd6bb4fd535b3ffdffe8b0c93c4c70ae1c"
+    },
+    "sources/tiles/ivy-corner-top-right.png": {
+      "bytes": 253937,
+      "sha256": "4e0979eb9588425c80fff404a690c65bf1ac0adf47651b55b395a1dbd4b646e0"
+    },
+    "sources/tiles/ivy-fleuron.png": {
+      "bytes": 238041,
+      "sha256": "15e060bef4ae0046466979b5952a996e74c78aa8ebc7e26f3582c85eeb78d519"
+    },
+    "sources/tiles/ivy-line-filler.png": {
+      "bytes": 241269,
+      "sha256": "e5ab480ae90324188bb4b7bd939b8fd83fdf8fbc98086200a9c48e6d2ee4bb30"
+    },
+    "sources/tiles/ivy-manuscript-frame.png": {
+      "bytes": 893808,
+      "sha256": "6aa3cd8c9a51bb4e0487939cd3602097d93b917b297dbb3da45a66c1c8ec26cf"
+    },
+    "sources/tiles/ivy-marginal-vine.png": {
+      "bytes": 257284,
+      "sha256": "7299a61b239a9ee7327b920ad8fba2eb9e8c9e0bb4e2a8de5ce4863c51dd1e39"
+    },
+    "sources/tiles/songbirds-headpiece.png": {
+      "bytes": 745447,
+      "sha256": "04d40a2e4c2b1ac165f011cea980766df0b2dac1e559355a299d5ce0c1a3f409"
     }
   }
 }

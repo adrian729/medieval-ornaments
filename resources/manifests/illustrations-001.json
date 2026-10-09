@@ -3,7 +3,7 @@
   "id": "illustrations-001",
   "collection": "illustrations",
   "package": "@ranx729/medieval-ornaments-assets-illustrations-001",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "designs": {
     "anafiles": {
       "name": "anafiles",
@@ -516,6 +516,69 @@
           "webp": "webp/768/cat-reading-book.webp",
           "png_bytes": 441781,
           "webp_bytes": 298968
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "choirbook-and-ivy": {
+      "name": "choirbook-and-ivy",
+      "asset_type": "illustration",
+      "kind": "standalone",
+      "derivation": "supplied-authored-raster",
+      "repeat_axis": "none",
+      "width": 1536,
+      "height": 1024,
+      "png": "png/choirbook-and-ivy.png",
+      "webp": "webp/choirbook-and-ivy.webp",
+      "png_bytes": 730743,
+      "webp_bytes": 482022,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/choirbook-and-ivy.png",
+          "webp": "webp/128/choirbook-and-ivy.webp",
+          "width": 128,
+          "height": 85,
+          "png_bytes": 6972,
+          "webp_bytes": 4190
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/choirbook-and-ivy.png",
+          "webp": "webp/256/choirbook-and-ivy.webp",
+          "width": 256,
+          "height": 171,
+          "png_bytes": 21860,
+          "webp_bytes": 13998
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/choirbook-and-ivy.png",
+          "webp": "webp/512/choirbook-and-ivy.webp",
+          "width": 512,
+          "height": 341,
+          "png_bytes": 67916,
+          "webp_bytes": 43708
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/choirbook-and-ivy.png",
+          "webp": "webp/768/choirbook-and-ivy.webp",
+          "width": 768,
+          "height": 512,
+          "png_bytes": 137097,
+          "webp_bytes": 88738
         }
       ],
       "components": {},
@@ -2602,6 +2665,69 @@
         "png"
       ]
     },
+    "rabbit-lutenist-painted": {
+      "name": "rabbit-lutenist-painted",
+      "asset_type": "illustration",
+      "kind": "standalone",
+      "derivation": "supplied-authored-raster",
+      "repeat_axis": "none",
+      "width": 1197,
+      "height": 1314,
+      "png": "png/rabbit-lutenist-painted.png",
+      "webp": "webp/rabbit-lutenist-painted.webp",
+      "png_bytes": 1321288,
+      "webp_bytes": 927744,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/rabbit-lutenist-painted.png",
+          "webp": "webp/128/rabbit-lutenist-painted.webp",
+          "width": 117,
+          "height": 128,
+          "png_bytes": 20193,
+          "webp_bytes": 15766
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/rabbit-lutenist-painted.png",
+          "webp": "webp/256/rabbit-lutenist-painted.webp",
+          "width": 233,
+          "height": 256,
+          "png_bytes": 66589,
+          "webp_bytes": 48470
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/rabbit-lutenist-painted.png",
+          "webp": "webp/512/rabbit-lutenist-painted.webp",
+          "width": 466,
+          "height": 512,
+          "png_bytes": 231500,
+          "webp_bytes": 162342
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/rabbit-lutenist-painted.png",
+          "webp": "webp/768/rabbit-lutenist-painted.webp",
+          "width": 700,
+          "height": 768,
+          "png_bytes": 497765,
+          "webp_bytes": 345818
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
     "rabbit-reading-book": {
       "name": "rabbit-reading-book",
       "asset_type": "illustration",
@@ -3196,6 +3322,10 @@
       "bytes": 17886,
       "sha256": "24af08fb4390e0423459d22591ce3db0df34d22114ef0e2d285ae1af682c2a10"
     },
+    "png/128/choirbook-and-ivy.png": {
+      "bytes": 6972,
+      "sha256": "463352abcd46229da496f2c32bc88114855f7bc031cb5ac55b326168b7d1dea1"
+    },
     "png/128/creature-in-gold-shape.png": {
       "bytes": 25060,
       "sha256": "81143a6bd8014a4ff5e83bab7f79cb704e63042afd3cbfac8dbd9353dda29d0f"
@@ -3340,6 +3470,10 @@
       "bytes": 20544,
       "sha256": "315a304e3b41fa4d6e6380945aa63e8f5ba4b9016cbef4c82a1f4106a8b5d18d"
     },
+    "png/128/rabbit-lutenist-painted.png": {
+      "bytes": 20193,
+      "sha256": "26b7aeccc39a1c577d523797851f4b2f999bea8a27ae9b10842b6169eb6a5117"
+    },
     "png/128/rabbit-reading-book.png": {
       "bytes": 16358,
       "sha256": "e4714e21053ab2df80bf7eb4b96767888f1dad2096d306d7f688e90640b9c73a"
@@ -3415,6 +3549,10 @@
     "png/256/cat-reading-book.png": {
       "bytes": 60109,
       "sha256": "ce8bfaa92588eadd0cc69b1cdf87bebda69ca6e8cb415af52220a6e931b32a4e"
+    },
+    "png/256/choirbook-and-ivy.png": {
+      "bytes": 21860,
+      "sha256": "a2e7cfe22d408d5037c46ba068691a26ddbb25fe76113a493814a859687d70ad"
     },
     "png/256/creature-in-gold-shape.png": {
       "bytes": 89042,
@@ -3560,6 +3698,10 @@
       "bytes": 65635,
       "sha256": "82639b8d8b6b3232c48d3a7a8e22234f9fe4cd85e43be4e5b1cca6dbb63a6fc4"
     },
+    "png/256/rabbit-lutenist-painted.png": {
+      "bytes": 66589,
+      "sha256": "d1efb06251a43230bdcafb735cfe98254ca9a9af5bc325f0fdf520461db38dd7"
+    },
     "png/256/rabbit-reading-book.png": {
       "bytes": 55159,
       "sha256": "9cc1f41877ab8d3ba816d3822cedeb2c62576a4b46b1dc413188b739ca48eef3"
@@ -3635,6 +3777,10 @@
     "png/512/cat-reading-book.png": {
       "bytes": 209681,
       "sha256": "a16cfde4766b3392cc3d5589b4f0ab80c11d03807d1f0dde9da0e1b326fcebb3"
+    },
+    "png/512/choirbook-and-ivy.png": {
+      "bytes": 67916,
+      "sha256": "fa92f84ac8f08ad359b9654a88681880ec7355f459a27f8c36fcd6cfae8548e8"
     },
     "png/512/creature-in-gold-shape.png": {
       "bytes": 323759,
@@ -3768,6 +3914,10 @@
       "bytes": 233579,
       "sha256": "da102f58d0c6ec0665884138ea984cbae5a34c77bb96da19c25e57312f12d434"
     },
+    "png/512/rabbit-lutenist-painted.png": {
+      "bytes": 231500,
+      "sha256": "c8bec6fc654707d441afe71415b1ea89c6d1d76efc4e8e7d195585d299269de9"
+    },
     "png/512/rabbit-reading-book.png": {
       "bytes": 192958,
       "sha256": "a1c91c9cfe7086ca18bd166eb2955f92090a2607d2fd76c2974b7d542b2c1f04"
@@ -3831,6 +3981,10 @@
     "png/768/cat-reading-book.png": {
       "bytes": 441781,
       "sha256": "23be68192c65bd53cbd93f49f7b516295b28bd1d1325ed79c1e64bce696a44d4"
+    },
+    "png/768/choirbook-and-ivy.png": {
+      "bytes": 137097,
+      "sha256": "620f495beff95239da72bb1272f9e835d52923ade8bea271c1a9a477dfb5427f"
     },
     "png/768/crowned-cat.png": {
       "bytes": 432838,
@@ -3952,6 +4106,10 @@
       "bytes": 511058,
       "sha256": "6afd8406a1ed0887189f3c70d54988c8f8d9e6a9605e3a6220ed8397c88b127a"
     },
+    "png/768/rabbit-lutenist-painted.png": {
+      "bytes": 497765,
+      "sha256": "f7000ff103d614587085f7267bb1673d9b2071184853dd42489e0869d1297cfe"
+    },
     "png/768/rabbit-reading-book.png": {
       "bytes": 407060,
       "sha256": "68785897bb47a47c26e41fccce44f13af2e6c5b2f17576a3b1979682bfd59447"
@@ -4015,6 +4173,10 @@
     "png/cat-reading-book.png": {
       "bytes": 1080180,
       "sha256": "18df64ebbf356fd5635f9ecac5ca8ab08d6b4bbd6130415ff0a7d435f67eae93"
+    },
+    "png/choirbook-and-ivy.png": {
+      "bytes": 730743,
+      "sha256": "7cf42535d12602494b3b59ce277976471c19a67eea01b142266c5c9a16b2d4fa"
     },
     "png/creature-in-gold-shape.png": {
       "bytes": 500651,
@@ -4160,6 +4322,10 @@
       "bytes": 878477,
       "sha256": "389484fee62fcefcd259ef700dd177133167aa65ddde9a157403ef26e2ffe0dd"
     },
+    "png/rabbit-lutenist-painted.png": {
+      "bytes": 1321288,
+      "sha256": "96caf9279d50a90ca0bfb07f33a03fd43f99229a6d983c89929c023a27540853"
+    },
     "png/rabbit-reading-book.png": {
       "bytes": 1407667,
       "sha256": "159ba6b87ef1e05597013f44006f205438b45667a88f49fbced52ec6d3300c02"
@@ -4235,6 +4401,10 @@
     "webp/128/cat-reading-book.webp": {
       "bytes": 13468,
       "sha256": "3426d218d8a87229ba9b11a61ae0ce4314ee2efd42845d838901496a289b4b7b"
+    },
+    "webp/128/choirbook-and-ivy.webp": {
+      "bytes": 4190,
+      "sha256": "872d8724c5bc486ae86ae0ef67047b35516078ea37cabd4a85348334e4174e28"
     },
     "webp/128/creature-in-gold-shape.webp": {
       "bytes": 18036,
@@ -4380,6 +4550,10 @@
       "bytes": 15554,
       "sha256": "656ff1727a52e8813c8dd7ce3248c9366a2995eec052f407617653b24cbdfd20"
     },
+    "webp/128/rabbit-lutenist-painted.webp": {
+      "bytes": 15766,
+      "sha256": "e4b23afc7b71f28e034eff32d52991393e9c3210e3d5004b467a5f42834ddf67"
+    },
     "webp/128/rabbit-reading-book.webp": {
       "bytes": 13080,
       "sha256": "7c2aaf9db5a97a34533bad88bc8a85a3377b0ad9e1a65453e7771261a95c989f"
@@ -4455,6 +4629,10 @@
     "webp/256/cat-reading-book.webp": {
       "bytes": 41928,
       "sha256": "fd6f0cef753128baa5948cb9e746fd3c15b167aa9859b1fc73f17ad0366f7e1d"
+    },
+    "webp/256/choirbook-and-ivy.webp": {
+      "bytes": 13998,
+      "sha256": "c165e8de80f1c58f22d05660205850aed8fd1a1b29e046f442d50adc1dea335e"
     },
     "webp/256/creature-in-gold-shape.webp": {
       "bytes": 62038,
@@ -4600,6 +4778,10 @@
       "bytes": 46782,
       "sha256": "33c6038c4d5a1e4cf1be9dc686e9b5fb87ed82d249dd54f915a73c603e9cf49d"
     },
+    "webp/256/rabbit-lutenist-painted.webp": {
+      "bytes": 48470,
+      "sha256": "4ed5372fa908937f92c0506852eaf9c10e600d66581694504d2b9938136541d4"
+    },
     "webp/256/rabbit-reading-book.webp": {
       "bytes": 38766,
       "sha256": "93109d025db6ec26ba8299444b3f61630cf9e9b1e3d600d3e15e76535965d2e1"
@@ -4675,6 +4857,10 @@
     "webp/512/cat-reading-book.webp": {
       "bytes": 142398,
       "sha256": "739d10baffa19fdcac7d3e816c5cbc29c5c07bf6a6f94b82ce103e43461a0694"
+    },
+    "webp/512/choirbook-and-ivy.webp": {
+      "bytes": 43708,
+      "sha256": "ed6b74f05d1261144bd1d4b0faaf2ada5b2d435a64ec7ef0a230e97c683940c2"
     },
     "webp/512/creature-in-gold-shape.webp": {
       "bytes": 227132,
@@ -4808,6 +4994,10 @@
       "bytes": 163290,
       "sha256": "f6f4a6dd4170a19230d84f7fc32d59826c708f885eb96f4711938abc30b438a1"
     },
+    "webp/512/rabbit-lutenist-painted.webp": {
+      "bytes": 162342,
+      "sha256": "63df3ebea2acc0fe55ad5e6ded03c23475350795240b266248a32f0bf0e2eb19"
+    },
     "webp/512/rabbit-reading-book.webp": {
       "bytes": 134242,
       "sha256": "3746576cd47c6e40b39ed196c511d1df8e3e1e18d8e3706ad4f6ccc542aee4f9"
@@ -4871,6 +5061,10 @@
     "webp/768/cat-reading-book.webp": {
       "bytes": 298968,
       "sha256": "f72c334cc1bd086960ba6e6df7147eb487fdf53c196027cc4605f70adac89c14"
+    },
+    "webp/768/choirbook-and-ivy.webp": {
+      "bytes": 88738,
+      "sha256": "b14070d2a67888ff7ab2dfbe538aa10aecb4b29baa695f64a20b74c83d87d8e8"
     },
     "webp/768/crowned-cat.webp": {
       "bytes": 286732,
@@ -4992,6 +5186,10 @@
       "bytes": 356398,
       "sha256": "282542e6cf880dfe72be0de6774d6aa2de1617139e95711a48532d9c087eea5d"
     },
+    "webp/768/rabbit-lutenist-painted.webp": {
+      "bytes": 345818,
+      "sha256": "489114e12583b4fa2946d8c149981f8922fa92611f96def83cbb0b3cd49377e0"
+    },
     "webp/768/rabbit-reading-book.webp": {
       "bytes": 282228,
       "sha256": "ec90131fe53f7cd8cca0980539d0cc1dea6cdbd5c3146dedf92cb215e69f7b02"
@@ -5055,6 +5253,10 @@
     "webp/cat-reading-book.webp": {
       "bytes": 726458,
       "sha256": "b9fcbc7e1e8f3c2d36024d028a13fd4792d332f8fc52f7d8fb6a92155edd3cff"
+    },
+    "webp/choirbook-and-ivy.webp": {
+      "bytes": 482022,
+      "sha256": "81cac6a6296e87d383a560f7ce61743b6e4134380a1237fcef0304ff7cd7a99a"
     },
     "webp/creature-in-gold-shape.webp": {
       "bytes": 351630,
@@ -5200,6 +5402,10 @@
       "bytes": 603604,
       "sha256": "842fe914818ba93c887aea2ef7fb664ec1630c47f8bf02f9826b7143984789bf"
     },
+    "webp/rabbit-lutenist-painted.webp": {
+      "bytes": 927744,
+      "sha256": "c22fcb7d9360c6bea3bff7b1e7c6e0f2c276af4f1670b16e64fa1a535d63e1bd"
+    },
     "webp/rabbit-reading-book.webp": {
       "bytes": 960268,
       "sha256": "0f69b0ad0c2c6974ea780ff78c013128cfd3dd2e419220c44cf43dcc87cd666c"
@@ -5305,6 +5511,14 @@
     "sources/tiles/polyhymnia.png": {
       "bytes": 3058251,
       "sha256": "5ef6519c5aecf83c5127ea53fe7e09f7038b6907778776b49e0b7de0937442e1"
+    },
+    "sources/tiles/choirbook-and-ivy.png": {
+      "bytes": 825958,
+      "sha256": "a672c99e32c4cb8abec723e8ce75af91c18944813ca811d5cf8269d5eec1dff3"
+    },
+    "sources/tiles/rabbit-lutenist-painted.png": {
+      "bytes": 1429440,
+      "sha256": "a5c8ee68e71f5676a061edc07fc8f64a8f531a7a35a702876f0aaf9ceebf35b0"
     }
   }
 }

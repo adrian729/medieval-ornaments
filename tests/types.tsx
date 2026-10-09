@@ -7,6 +7,12 @@ const unstyledProps: UnstyledFrameProps = { design: 'red-berry-vine', size: 33 }
 const unstyledExample = <UnstyledDivider design="plate-02-stepped-ribbon" orientation="horizontal" />;
 const categories: Category[] = ['floral'];
 const source: Provenance | undefined = findOrnaments({ query: 'Hoefnagel' })[0]?.provenance;
+const author: string | undefined = findOrnaments({ query: 'adrian729' })[0]?.author;
+import { ornament as authoredOrnament } from '@ranx729/medieval-ornaments/designs/rabbit-lutenist-painted';
+const individualAuthor: string | undefined = authoredOrnament.author;
+// @ts-expect-error Author is immutable optional metadata.
+authoredOrnament.author = 'someone-else';
+void [author, individualAuthor];
 if (source) {
   const sourceRecord: string = source.record_url;
   // @ts-expect-error Provenance is immutable selection metadata.

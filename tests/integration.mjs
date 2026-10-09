@@ -78,6 +78,10 @@ try {
   assert.ok(!manifest.dependencies && !manifest.optionalDependencies, 'No automatic artwork dependencies');
   const api = await import(pathToFileURL(path.join(installed, 'lib/index.js')));
   assert.equal(api.version, manifest.version);
+  assert.equal(api.findOrnaments({query:'adrian729'}).length, items.filter(item=>item.author==='adrian729').length, 'Packed authored metadata and search');
+  const authored = await import(pathToFileURL(path.join(installed, 'lib/designs/rabbit-lutenist-painted.js')));
+  assert.equal(authored.ornament.author, 'adrian729');
+  assert.deepEqual(authored.ornament, api.getOrnament('rabbit-lutenist-painted'));
   assert.equal(api.assetsPackage, manifest.ornamentAssets.package);
   assert.equal(api.assetsVersion, manifest.ornamentAssets.version);
   assert.equal(api.defaultAssetsBase, `https://unpkg.com/${api.assetsPackage}@${api.assetsVersion}/`);

@@ -70,3 +70,22 @@ The Rosselli whole strips remain intact alongside their
 audited derived borders. See QA.md and PACKAGE-PLAN.md for checks and release gates.
 
 Codex uses `AGENTS.md`; `CLAUDE.md` imports it. Do not create a competing singular `AGENT.md`.
+
+
+The authored backup import for the next 0.9.0 release adds 24 whole-image assets:
+22 decorations and two illustrations, for 161 designs (58 borders, 46 decorations,
+57 illustrations). `authored-additions.json` records its archive/input hashes,
+metadata, exact RGBA compression checks and each visual review. All 24 and
+Polyhymnia carry optional `author: "adrian729"`; historical `provenance.artist`
+remains separate. Other unknown authors stay absent. Master catalogs or
+`selection-metadata.json` own author attribution; metadata refresh/search/types,
+individual entries and copied components retain it. Original 137 artwork bytes
+remain unchanged. All new PNG/WebP native and 128/256/512/768 outputs and originals
+belong to decorations-001/illustrations-001. Four phases in each corner family
+remain independent images, two frames remain fixed whole images, and the four
+gold components have a CSS composition example. No repeat or SVG is inferred.
+Resource 0.1.4 publication, exact locks and runtime 0.9.0 release are pending.
+Generic usage-note encoding and compact generated modules preserve all public
+metadata and individual import boundaries. Active shipped guides link preserved
+historical reports in PERFORMANCE-HISTORY.md and MERGE-PLAN.md; the alphabetical
+README gallery lists formats and directs downloads to the main asset browser.

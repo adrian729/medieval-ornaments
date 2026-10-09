@@ -128,6 +128,7 @@
         "derivation": {"type": "string", "minLength": 1},
         "reference": {"type": "string"},
         "provenance": {"$ref": "#/$defs/provenance"},
+        "author": {"type": "string", "minLength": 1, "description": "Optional creator account, including artwork created by an agent on that account's behalf. Separate from provenance.artist, which identifies a historical source artist. Omit when unknown."},
         "uses": {"type": "array", "items": {"enum": ["frame", "divider", "image"]}},
         "formats": {"type": "array", "items": {"enum": ["svg", "webp", "png"]}},
         "components": {"type": "object", "additionalProperties": {"$ref": "#/$defs/asset"}}

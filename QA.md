@@ -1069,3 +1069,42 @@ illustration browser using local artwork, with no missing requests or browser
 errors. The final Pages build remains approximately **8.44 MB**, below its
 50 MB guard. Evidence: tmp/remove-rights/live-site.log,
 tmp/package-site.json and tmp/site-build.json.
+
+
+## Authored backup / creator metadata candidate — 2026-10-09
+
+The supplied archive contains 24 PNGs plus the original CSS/JSON for two gold
+rules. `authored-additions.json` binds its SHA-256, every input/native/master,
+metadata and individual accepted review. Two illustrations and 22 decorations
+are assigned before writes to illustrations-001/decorations-001; Polyhymnia and
+all new entries expose optional `author: "adrian729"` separately from source
+artist. The original 137 metadata entries remain identical except that one
+Polyhymnia field, and all prior public/native hashes remain unchanged.
+
+Native and optimized PNG masters have identical RGBA/canvas; lossless WebP
+retains alpha and visible RGB. All four sizes derive directly from masters
+without upscaling. Every asset and size was inspected, with light/dark master
+and 128px comparisons. Black transparent linework has light-surface usage notes.
+Fixed frames and eight individual corner phases have no repeat/atlas/SVG claim.
+Original gold component presentation bounds/CSS are retained byte-for-byte in
+`sources/authored/20261009/`; the runnable vanilla compositions select 256px
+WebP components. Browser checks at widths 160/420/800 and DPR 1.25 retain terminal
+and center dimensions, positive connecting rules and decoded component images.
+The main browser's all-type author search shows 25 results and displays the
+selected author. Review evidence stays in ignored `tmp/authored-import-20261009/`.
+
+Checks pass: 42 unit tests, public types, selective production bundles, exact
+resource byte/capacity verification, catalog (161 designs / 233 genuine SVGs /
+2,299 public files), artwork audit (416 reference joins, 110 integer atlases,
+58 pixel-exact rotated tiles), and isolated rebuild retention. New/copied
+individual entries preserve author metadata and rendering restrictions.
+Runtime candidate pack is 198,917 B / 1,141,896 B; final normal release pack and
+actual packed/registry consumers are pending. Decorations resource upload is
+104,541,688 B and illustrations 195,819,444 B, both under the 200 MB ceiling.
+Next illustration additions must account for that small upload reserve.
+Historical reports remain in PERFORMANCE-HISTORY.md/MERGE-PLAN.md; compact
+modules, generic note encoding and the shortened gallery preserve all public
+metadata, types, complete alphabetic previews and individual import boundaries.
+
+Resource 0.1.4 publication/CDN availability and exact source locks, runtime
+0.9.0 release, offline ZIP and live Pages verification are pending.

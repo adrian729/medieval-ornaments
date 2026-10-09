@@ -17,7 +17,7 @@ test('resource registry owns each public path and keeps descriptive metadata cen
   const reunited={};for(const id of Object.keys(config.sources))for(const [relative,file]of Object.entries(manifest(id).files))reunited[relative]=file;
   assert.deepEqual(Object.keys(reunited).sort(),assetPaths(items));
   assert.equal(Object.keys(config.assignments).length,items.length);
-  const changed=structuredClone(items);changed[0].description+=' More selection detail.';changed[0].subjects.push('factual-subject');
+  const changed=structuredClone(items);changed[0].description+=' More selection detail.';changed[0].subjects.push('factual-subject');changed[0].author='adrian729';
   validateResources(changed);
   changed[0].width++;
   assert.throws(()=>validateResources(changed),/capabilities/);
@@ -78,9 +78,9 @@ test('an older compatible-archive identity cannot conceal newer resource files',
   await assert.rejects(readdir(destination),{code:'ENOENT'});
 });
 
-test('new historical artwork installs offline from numbered packages with its provenance',async t=>{
+test('historical and authored artwork installs offline from numbered packages with its attribution',async t=>{
   const directory=await temporary(t),items=await assetCatalog();
-  const selected=['isabella-pink-rose','rosselli-roundel-top'].map(name=>items.find(item=>item.name===name));
+  const selected=['isabella-pink-rose','rosselli-roundel-top','ivy-corner','choirbook-and-ivy'].map(name=>items.find(item=>item.name===name));
   const config=registry(),lock=resourceLock();
   await writeFile(path.join(directory,'package.json'),'{"type":"module"}');
   for(const item of selected){
@@ -98,6 +98,7 @@ test('new historical artwork installs offline from numbered packages with its pr
   for(const item of selected){
     const api=await import(pathToFileURL(path.join(out,item.name+'.js')));
     assert.deepEqual(api.ornament.provenance,item.provenance);
+    assert.equal(api.ornament.author,item.author);
     assert.deepEqual(api.ornament.formats,['png']);
     const resolved=api.resolveOrnament('image',{size:128});
     assert.ok(resolved.asset.url.startsWith('/historical/png/'));

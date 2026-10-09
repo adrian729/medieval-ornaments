@@ -23,12 +23,14 @@ def enrich(catalog, measure=None):
     overrides = json.loads((ROOT / 'selection-metadata.json').read_text())
     authored_notes = {}
     authored_origins = {}
+    authors = {}
     for filename in ['illustrations.json', 'raster-metadata.json', 'historical-border-patterns.json']:
         master = ROOT / filename
         if master.exists():
             items = json.loads(master.read_text())
             authored_notes.update({item['name']: item.get('usage_notes', []) for item in items})
             authored_origins.update({item['name']: item.get('provenance') for item in items})
+            authors.update({item['name']: item.get('author') for item in items})
     for item in catalog:
         if item['name'] in authored_origins:
             origin = authored_origins[item['name']]
@@ -37,6 +39,12 @@ def enrich(catalog, measure=None):
             else:
                 item.pop('provenance', None)
         facts = overrides.get(item['name'], {})
+        author = facts.get('author', authors.get(item['name']))
+        if author is not None:
+            assert isinstance(author, str) and author.strip(), item['name']+' author'
+            item['author'] = author
+        else:
+            item.pop('author', None)
         if facts.get('description'):
             item['description'] = facts['description']
         item['subjects'] = list(dict.fromkeys([*item['subjects'], *facts.get('subjects_add', [])]))

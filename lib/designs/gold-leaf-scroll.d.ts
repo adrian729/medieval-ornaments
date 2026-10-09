@@ -1,8 +1,1 @@
-import type { RepeatDesign } from '../common.js';
-type Design = RepeatDesign<"gold-leaf-scroll", "svg" | "webp" | "png", "border">;
-export declare const ornament: Design['ornament'];
-export declare const resolveOrnament: Design['resolve'];
-export type FrameOptions = Design['frameOptions'];
-export declare const createFrame: Design['createFrame'];
-export type DividerOptions = Design['dividerOptions'];
-export declare const createDivider: Design['createDivider'];
+import type{RepeatDesign}from'../common.js';type D=RepeatDesign<"gold-leaf-scroll","svg"|"webp"|"png","border">;export declare const ornament:D['ornament'];export declare const resolveOrnament:D['resolve'];export type FrameOptions=D['frameOptions'];export declare const createFrame:D['createFrame'];export type DividerOptions=D['dividerOptions'];export declare const createDivider:D['createDivider'];

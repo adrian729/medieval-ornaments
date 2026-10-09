@@ -6,6 +6,7 @@
   <link rel="icon" href="../../favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="../../ornaments.css">
   <link rel="stylesheet" href="../integration.css">
+  <link rel="stylesheet" href="../gold-dividers.css">
   <script type="importmap">{"imports":{"@ranx729/medieval-ornaments":"../../lib/index.js","@ranx729/medieval-ornaments/designs/red-berry-vine":"../../lib/designs/red-berry-vine.js","@ranx729/medieval-ornaments/designs/flying-pig":"../../lib/designs/flying-pig.js"}}</script>
 </head>
 <body>
@@ -29,6 +30,11 @@
     </div>
     <div class="whole"><img id="whole" alt=""><p id="imageDetails"></p></div>
   </div>
+  <h2>Gold rules with fixed ornaments</h2>
+  <p>The terminals and center retain their proportions. Only the connecting lines grow. These compositions use individual whole-image assets and the supplied CSS layout.</p>
+  <div class="manuscript-divider cinquefoil" role="separator" aria-label="Gold cinquefoil divider"><span class="terminal"></span><span class="rule"></span><span class="centre"></span><span class="rule"></span><span class="terminal right"></span></div>
+  <div class="manuscript-divider lozenge" role="separator" aria-label="Gold foliate lozenge divider"><span class="terminal"></span><span class="rule"></span><span class="centre"></span><span class="rule"></span><span class="terminal right"></span></div>
+  <p><a href="../gold-dividers.js">Composition JavaScript</a> · <a href="../gold-dividers.css">Composition CSS</a></p>
   <h2>Use it in your project</h2>
   <pre id="code"></pre>
   <p>The original direction comes from the design. Horizontal and vertical automatically select the matching tile; complete units stay centered in the available length.</p>
@@ -45,5 +51,6 @@ createOrnamentImage(image, { size: 128, loading: 'lazy', decoding: 'async' });</
   <p><a href="../../docs/ILLUSTRATIONS.md">Illustration usage and metadata</a> · <a href="../?type=illustration">Browse illustrations</a></p>
 </main>
 <script type="module" src="main.js"></script>
+<script type="module" src="../gold-dividers.js"></script>
 </body>
 </html>

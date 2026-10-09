@@ -16,6 +16,7 @@ The npm package generates `/catalog.json` and immutable `ornaments` from this ca
 | --- | --- |
 | `description` | Factual visible appearance, pose, clothing, objects and distinctive details; preserve uncertain identities |
 | `provenance` | Optional source institution, object/folio, date, artist when known, record/image links, source image terms and derivation method; absent for existing assets whose origins were not researched |
+| `author` | Optional creator account, including artwork created by an agent on that account's behalf; distinct from the historical artist in `provenance`. Polyhymnia and the authored backup additions use `adrian729`; unknown authors remain absent. Searchable through `query`. |
 | `categories` | Broad overlapping themes, defined below |
 | `subjects` | Depicted forms and objects, preferably singular: rabbit, human, lute, leaf, flower, ribbon or diamond |
 | `facing` | left, right, front, mixed, or unclear; describes the main head relative to the viewer, not an instrument. Abstract ornaments normally use unclear |
@@ -61,3 +62,7 @@ Every repeat design offers both divider directions: the main tile follows its or
 For raster files, choose a listed variant rather than guessing a filename. `max_dimension` is a size-folder upper bound, not necessarily the rendered longest dimension. Use actual `width` and `height` to estimate resolution at the intended display size and pixel density. Never invent a missing larger size. Use SVG when scalable traced geometry is appropriate; use numbered PNG/WebP for the original painted appearance. Read `repeat_ratio` and `border_image_slice_percent`; do not assume a fixed geometry or rotate source miter corners independently. Frames require whole-unit fitting (`round`).
 
 Prefer a restrained pattern for small corners or dense layouts. Use tall standalone panels beside content and repeat strips for separators. Check the preview at the intended size, especially for detailed ornament, mirrored designs, and dark backgrounds. Use an empty alt attribute for purely decorative images; describe meaningful imagery when it conveys content.
+
+Author attribution is maintained on illustration/raster masters, or in
+`selection-metadata.json` for other ornaments. Refresh metadata without rebuilding
+artwork. Omit unknown authors; this field makes no additional licensing claim.

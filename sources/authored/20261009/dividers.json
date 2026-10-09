@@ -1,0 +1,151 @@
+[
+  {
+    "name": "gold-cinquefoil-divider",
+    "title": "Cinquefoil rule",
+    "group": "Simple dividers",
+    "medium": "painted",
+    "kind": "responsive-divider",
+    "file": "assets/dividers.css",
+    "description": "A simple gold rule with pointed ivy terminals and a small five-petaled flower at the centre.",
+    "subjects": [
+      "flower",
+      "ivy",
+      "leaf"
+    ],
+    "categories": [
+      "botanical",
+      "floral"
+    ],
+    "colors": [
+      "gold"
+    ],
+    "facing": "unclear",
+    "composition": "standalone",
+    "asset_type": "decoration",
+    "uses": [
+      "divider"
+    ],
+    "components": {
+      "end": {
+        "file": "assets/components/gold-cinquefoil-divider-end.png",
+        "width": 1536,
+        "height": 1024,
+        "visible_bounds": [
+          258,
+          209,
+          1272,
+          788
+        ],
+        "presentation_crop": [
+          255,
+          206.0,
+          1020,
+          624.2517620620383
+        ],
+        "stem_axis": 518.1258810310192,
+        "display_width": 29.411210533636233,
+        "display_height": 18,
+        "sha256": "89577e3984f211dac00c1d7381612f3c4db58f0336e94af6b0e45fad50a4e3d4"
+      },
+      "center": {
+        "file": "assets/components/gold-cinquefoil-divider-center.png",
+        "width": 1374,
+        "height": 1145,
+        "visible_bounds": [
+          320,
+          297,
+          1054,
+          805
+        ],
+        "presentation_crop": [
+          317,
+          294.0,
+          740,
+          580.5186262317038
+        ],
+        "stem_axis": 584.2593131158519,
+        "display_width": 35.692222546757655,
+        "display_height": 28,
+        "sha256": "dad9643428241850546391a0faa6c732c19fc713f3f571518bbd317599d81ebf"
+      }
+    },
+    "variant": "cinquefoil",
+    "min_width": 160,
+    "method": "Built-in AI-generated PNG ornaments joined by a CSS rule.",
+    "usage_notes": "End and centre artwork retain fixed proportions. Only the two line segments grow; the right terminal mirrors the left. Gold is native; red and blue are display filters."
+  },
+  {
+    "name": "gold-lozenge-divider",
+    "title": "Foliate lozenge rule",
+    "group": "Simple dividers",
+    "medium": "painted",
+    "kind": "responsive-divider",
+    "file": "assets/dividers.css",
+    "description": "A simple gold rule with curled acanthus terminals and a small pointed four-lobed fleuron at the centre.",
+    "subjects": [
+      "acanthus",
+      "leaf"
+    ],
+    "categories": [
+      "botanical",
+      "scrollwork"
+    ],
+    "colors": [
+      "gold"
+    ],
+    "facing": "unclear",
+    "composition": "standalone",
+    "asset_type": "decoration",
+    "uses": [
+      "divider"
+    ],
+    "components": {
+      "end": {
+        "file": "assets/components/gold-lozenge-divider-end.png",
+        "width": 1619,
+        "height": 972,
+        "visible_bounds": [
+          316,
+          192,
+          1303,
+          779
+        ],
+        "presentation_crop": [
+          313,
+          189.0,
+          993,
+          609.9965881655608
+        ],
+        "stem_axis": 493.9982940827804,
+        "display_width": 29.3018032342646,
+        "display_height": 18,
+        "sha256": "87a81768bc306f27d9ec2237fedafd6be14a9534be7570ce82bdf78cbc49bdec"
+      },
+      "center": {
+        "file": "assets/components/gold-lozenge-divider-center.png",
+        "width": 1536,
+        "height": 1024,
+        "visible_bounds": [
+          202,
+          107,
+          1334,
+          887
+        ],
+        "presentation_crop": [
+          199,
+          104.0,
+          1138,
+          804.8295641187618
+        ],
+        "stem_axis": 506.4147820593809,
+        "display_width": 39.59099096327195,
+        "display_height": 28,
+        "sha256": "7d0af9b913d851f014eee73207004fda947a0fe2a194010bafc4a7949807c8fd"
+      }
+    },
+    "variant": "lozenge",
+    "min_width": 160,
+    "method": "Built-in AI-generated PNG ornaments joined by a CSS rule.",
+    "usage_notes": "End and centre artwork retain fixed proportions. Only the two line segments grow; the right terminal mirrors the left. Gold is native; red and blue are display filters."
+  }
+]

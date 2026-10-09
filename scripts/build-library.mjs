@@ -49,7 +49,13 @@ for (const item of items) {
   };
   for (const [file, contents] of Object.entries(files)) await writeFile(new URL(`lib/${file}`, root), contents);
 }
-await writeFile(new URL('lib/catalog.js', root), `// Generated aggregate; use per-design imports for selective bundles.\nexport { version, assetsPackage, assetsVersion, assetsManifestSha256, defaultAssetsBase, illustrationsPackage, illustrationsVersion, defaultIllustrationsBase } from './runtime.js';\n${items.map((item, i) => `import { ornament as item${i} } from './design-data/${item.name}.js';`).join('\n')}\nexport const ornaments = Object.freeze([${items.map((_, i) => `item${i}`).join(', ')}]);\n`);
+await writeFile(new URL('lib/catalog.js', root), `// Generated aggregate; individual imports remain catalog-free.
+export { version, assetsPackage, assetsVersion, assetsManifestSha256, defaultAssetsBase, illustrationsPackage, illustrationsVersion, defaultIllustrationsBase } from './runtime.js';
+import { ornaments as borders } from './catalog-borders.js';
+import { ornaments as decorations } from './catalog-decorations.js';
+import { ornaments as illustrations } from './catalog-illustrations.js';
+export const ornaments = Object.freeze([...borders, ...decorations, ...illustrations].sort((a,b)=>a.name.localeCompare(b.name,'en')));
+`);
 const union = values => values.map(value => JSON.stringify(value)).join(' | ');
 const names = items.map(item => item.name);
 const repeats = items.filter(item => item.kind === 'repeat-tile').map(item => item.name);
@@ -57,9 +63,9 @@ const whole = items.filter(item => item.kind === 'standalone').map(item => item.
 const illustrationNames = items.filter(item => item.asset_type === 'illustration').map(item => item.name);
 const categories = [...new Set(items.flatMap(item => item.categories))].sort();
 const declarations = `// Generated design/capability types; edit scripts/build-library.mjs.
-export type DesignName = ${union(names)};
+export type DesignName = RepeatDesignName | WholeDesignName;
 export type RepeatDesignName = ${union(repeats)};
-export type WholeDesignName = ${union(whole)};
+export type WholeDesignName = ${union(items.filter(item => item.kind === 'standalone' && item.asset_type !== 'illustration').map(item => item.name))} | IllustrationDesignName;
 export type IllustrationDesignName = ${union(illustrationNames)};
 export type Category = ${union(categories)};
 export type AssetType = 'border' | 'decoration' | 'illustration';
@@ -98,6 +104,7 @@ export interface Ornament extends Asset {
   readonly components: Readonly<Partial<Record<'border_image' | 'corner' | 'rotated_tile' | 'reference_crop', Asset>>>;
   readonly border_image_slice_percent?: number; readonly reference?: string;
   readonly provenance?: Provenance;
+  readonly author?: string;
 }
 export interface RepeatOrnament extends Ornament {
   readonly name: RepeatDesignName; readonly kind: 'repeat-tile';
@@ -181,10 +188,12 @@ await writeFile(new URL('lib/common.d.ts', root), common + boundTypes);
 await writeFile(new URL('lib/selection.d.ts', root), `export { ornaments, getOrnament, findOrnaments } from './index.js';\nexport type { Ornament, RepeatOrnament, WholeOrnament, SelectionFilters, AssetType, Facing, Composition } from './index.js';\n`);
 for (const [scope, type] of [['borders', 'border'], ['decorations', 'decoration'], ['illustrations', 'illustration']]) {
   const scoped = items.filter(item => item.asset_type === type);
-  await writeFile(new URL(`lib/catalog-${scope}.js`, root), `// Generated scoped catalog; excludes other artwork families.\n${scoped.map((item, i) => `import { ornament as item${i} } from './design-data/${item.name}.js';`).join('\n')}\nexport const ornaments = Object.freeze([${scoped.map((_, i) => `item${i}`).join(', ')}]);\n`);
+  await writeFile(new URL(`lib/catalog-${scope}.js`, root), `// Generated scoped catalog.\n${scoped.map((item, i) => `import{ornament as i${i}}from'./design-data/${item.name}.js';`).join('\n')}\nexport const ornaments=Object.freeze([${scoped.map((_, i) => `i${i}`).join(',')}]);\n`);
   await writeFile(new URL(`lib/selection-${scope}.js`, root), `import { ornaments } from './catalog-${scope}.js';\nimport { createSelection } from './selection-core.js';\nexport { ornaments };\nexport const { getOrnament, findOrnaments } = /* @__PURE__ */ createSelection(ornaments);\n`);
   const baseType = type === 'border' ? 'RepeatOrnament' : 'WholeOrnament';
-  await writeFile(new URL(`lib/selection-${scope}.d.ts`, root), `import type { ${baseType}, SelectionFilters } from './index.js';\nexport type ScopedOrnament = ${baseType} & { readonly name: ${union(scoped.map(item => item.name))}; readonly asset_type: ${JSON.stringify(type)} };\nexport declare const ornaments: readonly ScopedOrnament[];\nexport declare function getOrnament(name: string): ScopedOrnament;\nexport declare function findOrnaments(filters?: SelectionFilters): ScopedOrnament[];\n`);
+  const nameTypes = type === 'border' ? 'RepeatDesignName' : type === 'illustration' ? 'IllustrationDesignName' : 'WholeDesignName, IllustrationDesignName';
+  const scopedName = type === 'decoration' ? 'Exclude<WholeDesignName, IllustrationDesignName>' : nameTypes;
+  await writeFile(new URL(`lib/selection-${scope}.d.ts`, root), `import type { ${baseType}, SelectionFilters, ${nameTypes} } from './index.js';\nexport type ScopedOrnament = ${baseType} & { readonly name: ${scopedName}; readonly asset_type: ${JSON.stringify(type)} };\nexport declare const ornaments: readonly ScopedOrnament[];\nexport declare function getOrnament(name: string): ScopedOrnament;\nexport declare function findOrnaments(filters?: SelectionFilters): ScopedOrnament[];\n`);
 }
 const customKey = String.fromCharCode(96) + '--' + '$' + '{string}' + String.fromCharCode(96);
 await writeFile(new URL('lib/react-core.d.ts', root), `import type { CSSProperties, ForwardRefExoticComponent, RefAttributes, HTMLAttributes, ImgHTMLAttributes } from 'react';

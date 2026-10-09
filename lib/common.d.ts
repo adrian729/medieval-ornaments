@@ -34,6 +34,7 @@ export interface Ornament extends Asset {
   readonly components: Readonly<Partial<Record<'border_image' | 'corner' | 'rotated_tile' | 'reference_crop', Asset>>>;
   readonly border_image_slice_percent?: number; readonly reference?: string;
   readonly provenance?: Provenance;
+  readonly author?: string;
 }
 export interface RepeatOrnament extends Ornament {
   readonly name: string; readonly kind: 'repeat-tile';

@@ -483,3 +483,19 @@ matching the consumer fixture. Registry consumers and all public artwork hashes,
 the live Pages demos, exact pinned npm CDN and downloaded browser ZIP pass.
 All three first real OIDC publishes completed within npm's deadline with signed
 provenance binding their exact source commits. No authentication work remains.
+
+
+## Authored backup and creator metadata (2026-10-09)
+
+- [x] Add optional immutable `author`, separate from historical source artist, across masters, schema, refresh, types, catalogs, scoped/individual imports, copied helpers, search and browser. Set only Polyhymnia and the 24 supplied assets to `adrian729`.
+- [x] Audit archive and native bytes; assign before writes; import 22 decorations and two illustrations with exact native RGBA/canvas, lossless PNG/WebP and all four smaller variants. Preserve every prior artwork file and metadata entry.
+- [x] Review all 24 on light/dark surfaces and every exported size; preserve separate corner phases and complete frames; retain the supplied CSS gold rules as individual assets plus a composition example.
+- [x] Pass resource capacity/hash checks, 42 unit tests, types, selective bundles, catalog/artwork joins and isolated rebuild retention. Reduce generated overhead and shipped historical-report duplication; keep the unchanged runtime budget.
+- [ ] Publish decorations-001/illustrations-001 0.1.4 using immutable approved main tooling; verify registry/CDN and lock exact clean commits. Borders stay 0.1.3; compatibility snapshots stay unchanged.
+- [ ] Pass the final normal npm pack and packed consumers; release runtime 0.9.0, upload the offline browser ZIP, verify registry consumers and live Pages.
+
+Current resource packs: decorations 104,541,688 B; illustrations 195,819,444 B,
+both below 200 MB. Illustrations-001 has little npm upload reserve; plan the next
+illustration against the actual upload ceiling and roll over before exceeding it.
+No artwork was simplified or made lossy to reduce runtime size. Previous audit
+reports remain fully preserved outside the npm runtime allowlist.

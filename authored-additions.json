@@ -1,0 +1,1289 @@
+{
+  "schema_version": 1,
+  "author": "adrian729",
+  "source_archive": {
+    "filename": "medieval-ornaments-assets-backup-20261009-081316-257307.tar.gz",
+    "bytes": 19852144,
+    "sha256": "7b69794513d66c8b8295261db06b3e368c510fb077a112583049406354f8e5b4"
+  },
+  "source_notes": "User supplied all artwork as authored by adrian729, including work performed by agents on their behalf. Historical source attribution and generation prompts were not supplied. The original divider metadata explicitly identifies its four components as AI-generated. No historical origin or additional licensing claim is inferred.",
+  "composition_sources": [
+    {
+      "path": "sources/authored/20261009/dividers.json",
+      "archive_path": "assets/dividers.json",
+      "sha256": "a14d7451cb969eddcbe040375a4554e8c468a1a1da37f1785bb4c9a7146caac7"
+    },
+    {
+      "path": "sources/authored/20261009/dividers.css",
+      "archive_path": "assets/dividers.css",
+      "sha256": "1f410ab029c62476918969eb5b1d8c7e1a45286939afa0249746badcaf9fb738"
+    }
+  ],
+  "assets": [
+    {
+      "name": "acanthus-tailpiece",
+      "author": "adrian729",
+      "asset_type": "decoration",
+      "description": "An upright black penwork acanthus spray with curling lobed leaves, fine hatching and a hanging flower bud.",
+      "categories": [
+        "botanical",
+        "floral",
+        "scrollwork"
+      ],
+      "subjects": [
+        "acanthus",
+        "leaf",
+        "scroll",
+        "bud"
+      ],
+      "facing": "unclear",
+      "colors": [
+        "black"
+      ],
+      "composition": "single-ornament",
+      "usage_notes": [
+        "User-authored artwork; native canvas, transparency and pixels are retained. Import details are recorded in authored-additions.json.",
+        "Black linework and its interiors are transparent; it reads best on a light surface."
+      ],
+      "source": "assets/acanthus-tailpiece.png",
+      "source_sha256": "a0e825c86714c9da00c9f0a1a6d5d309a926d40aa13c23ed43d2a5f3eabbb772",
+      "native_dimensions": [
+        1254,
+        1254
+      ],
+      "native_input": "sources/tiles/acanthus-tailpiece.png",
+      "master_path": "png/acanthus-tailpiece.png",
+      "method": "supplied-authored-raster",
+      "processing": "PNG compression only; exact RGBA pixels and native canvas retained. Lossless WebP and 128/256/512/768 variants made directly from the native-size master. No trimming, cleanup, tracing, repainting, rotation or upscaling.",
+      "review": {
+        "status": "accepted",
+        "checks": [
+          "native-input-sha256-matches-archive",
+          "optimized-master-exact-native-rgba-and-canvas",
+          "lossless-png-webp-alpha-and-visible-rgb",
+          "all-four-variants-directly-from-master-without-upscaling",
+          "individual-light-dark-visual-review",
+          "128-256-512-768-export-visual-review",
+          "metadata-vocabulary-and-assigned-resource-ownership",
+          "whole-image-capabilities-no-inferred-repeat-or-svg"
+        ],
+        "notes": "Original artwork retained without cleanup or cropping. Transparent black linework is intended for light surfaces."
+      },
+      "master_sha256": "12921dcc48274836e02b8e242fab4ca047456634c0bd574b7ab7e7a1cefee059"
+    },
+    {
+      "name": "briar-divider",
+      "author": "adrian729",
+      "asset_type": "decoration",
+      "description": "A long, fine black botanical flourish with curling briar stems, five-petalled flowers, leaves and berry clusters. The two ends differ.",
+      "categories": [
+        "botanical",
+        "floral",
+        "scrollwork"
+      ],
+      "subjects": [
+        "vine",
+        "leaf",
+        "flower",
+        "berry"
+      ],
+      "facing": "unclear",
+      "colors": [
+        "black"
+      ],
+      "composition": "single-ornament",
+      "usage_notes": [
+        "User-authored artwork; native canvas, transparency and pixels are retained. Import details are recorded in authored-additions.json.",
+        "Complete flourish with retained end phases; do not tile or stretch it.",
+        "Black linework and its interiors are transparent; it reads best on a light surface."
+      ],
+      "source": "assets/briar-divider.png",
+      "source_sha256": "25a05b0a80ea095d1121aa407f23f974d5927016eeff1f4312a6225b28feb80b",
+      "native_dimensions": [
+        2172,
+        724
+      ],
+      "native_input": "sources/tiles/briar-divider.png",
+      "master_path": "png/briar-divider.png",
+      "method": "supplied-authored-raster",
+      "processing": "PNG compression only; exact RGBA pixels and native canvas retained. Lossless WebP and 128/256/512/768 variants made directly from the native-size master. No trimming, cleanup, tracing, repainting, rotation or upscaling.",
+      "review": {
+        "status": "accepted",
+        "checks": [
+          "native-input-sha256-matches-archive",
+          "optimized-master-exact-native-rgba-and-canvas",
+          "lossless-png-webp-alpha-and-visible-rgb",
+          "all-four-variants-directly-from-master-without-upscaling",
+          "individual-light-dark-visual-review",
+          "128-256-512-768-export-visual-review",
+          "metadata-vocabulary-and-assigned-resource-ownership",
+          "whole-image-capabilities-no-inferred-repeat-or-svg"
+        ],
+        "notes": "Original artwork retained without cleanup or cropping. Transparent black linework is intended for light surfaces."
+      },
+      "master_sha256": "626bf833ff4e3bd1619d653723ce9b793d70caf3facee77dcdc5df41c7b0fd20"
+    },
+    {
+      "name": "choirbook-and-ivy",
+      "author": "adrian729",
+      "asset_type": "illustration",
+      "description": "A closed clasped book with a ribbon bookmark, visible page edges and a decorated spine, surrounded by curling ivy in black penwork.",
+      "categories": [
+        "reading",
+        "botanical",
+        "scrollwork"
+      ],
+      "subjects": [
+        "book",
+        "bookmark",
+        "ivy",
+        "leaf",
+        "vine"
+      ],
+      "facing": "unclear",
+      "colors": [
+        "black"
+      ],
+      "composition": "standalone",
+      "usage_notes": [
+        "User-authored artwork; native canvas, transparency and pixels are retained. Import details are recorded in authored-additions.json.",
+        "Black linework and its interiors are transparent; it reads best on a light surface."
+      ],
+      "source": "assets/choirbook-and-ivy.png",
+      "source_sha256": "a672c99e32c4cb8abec723e8ce75af91c18944813ca811d5cf8269d5eec1dff3",
+      "native_dimensions": [
+        1536,
+        1024
+      ],
+      "native_input": "sources/tiles/choirbook-and-ivy.png",
+      "master_path": "png/choirbook-and-ivy.png",
+      "method": "supplied-authored-raster",
+      "processing": "PNG compression only; exact RGBA pixels and native canvas retained. Lossless WebP and 128/256/512/768 variants made directly from the native-size master. No trimming, cleanup, tracing, repainting, rotation or upscaling.",
+      "review": {
+        "status": "accepted",
+        "checks": [
+          "native-input-sha256-matches-archive",
+          "optimized-master-exact-native-rgba-and-canvas",
+          "lossless-png-webp-alpha-and-visible-rgb",
+          "all-four-variants-directly-from-master-without-upscaling",
+          "individual-light-dark-visual-review",
+          "128-256-512-768-export-visual-review",
+          "metadata-vocabulary-and-assigned-resource-ownership",
+          "whole-image-capabilities-no-inferred-repeat-or-svg"
+        ],
+        "notes": "Original artwork retained without cleanup or cropping. Transparent black linework is intended for light surfaces."
+      },
+      "master_sha256": "7cf42535d12602494b3b59ce277976471c19a67eea01b142266c5c9a16b2d4fa"
+    },
+    {
+      "name": "gold-cinquefoil-divider-center",
+      "author": "adrian729",
+      "asset_type": "decoration",
+      "description": "A painted gold five-petalled flower with fine pale highlights, brown contours and short horizontal stems on both sides.",
+      "categories": [
+        "floral",
+        "botanical"
+      ],
+      "subjects": [
+        "flower",
+        "petal",
+        "stem"
+      ],
+      "facing": "unclear",
+      "colors": [
+        "gold",
+        "brown"
+      ],
+      "composition": "single-ornament",
+      "usage_notes": [
+        "User-authored artwork; native canvas, transparency and pixels are retained. Import details are recorded in authored-additions.json.",
+        "AI-generated component supplied with the gold divider compositions. The example composes fixed-proportion terminals and centers with two flexible CSS rules; color filters are display effects."
+      ],
+      "source": "assets/components/gold-cinquefoil-divider-center.png",
+      "source_sha256": "dad9643428241850546391a0faa6c732c19fc713f3f571518bbd317599d81ebf",
+      "native_dimensions": [
+        1374,
+        1145
+      ],
+      "native_input": "sources/tiles/gold-cinquefoil-divider-center.png",
+      "master_path": "png/gold-cinquefoil-divider-center.png",
+      "method": "supplied-authored-raster",
+      "processing": "PNG compression only; exact RGBA pixels and native canvas retained. Lossless WebP and 128/256/512/768 variants made directly from the native-size master. No trimming, cleanup, tracing, repainting, rotation or upscaling.",
+      "review": {
+        "status": "accepted",
+        "checks": [
+          "native-input-sha256-matches-archive",
+          "optimized-master-exact-native-rgba-and-canvas",
+          "lossless-png-webp-alpha-and-visible-rgb",
+          "all-four-variants-directly-from-master-without-upscaling",
+          "individual-light-dark-visual-review",
+          "128-256-512-768-export-visual-review",
+          "metadata-vocabulary-and-assigned-resource-ownership",
+          "whole-image-capabilities-no-inferred-repeat-or-svg"
+        ],
+        "notes": "Original artwork retained without cleanup or cropping. Native painted colors and transparent openings retained."
+      },
+      "master_sha256": "1c75e016c2080036dd94344f68c73cba63a402432508d50ffa080b39a3d1ff0b"
+    },
+    {
+      "name": "gold-cinquefoil-divider-end",
+      "author": "adrian729",
+      "asset_type": "decoration",
+      "description": "A painted gold terminal formed from three pointed ivy leaves, with a straight stem extending to the right, pale highlights and brown outlines.",
+      "categories": [
+        "botanical"
+      ],
+      "subjects": [
+        "ivy",
+        "leaf",
+        "stem"
+      ],
+      "facing": "unclear",
+      "colors": [
+        "gold",
+        "brown"
+      ],
+      "composition": "single-ornament",
+      "usage_notes": [
+        "User-authored artwork; native canvas, transparency and pixels are retained. Import details are recorded in authored-additions.json.",
+        "AI-generated component supplied with the gold divider compositions. The example composes fixed-proportion terminals and centers with two flexible CSS rules; color filters are display effects."
+      ],
+      "source": "assets/components/gold-cinquefoil-divider-end.png",
+      "source_sha256": "89577e3984f211dac00c1d7381612f3c4db58f0336e94af6b0e45fad50a4e3d4",
+      "native_dimensions": [
+        1536,
+        1024
+      ],
+      "native_input": "sources/tiles/gold-cinquefoil-divider-end.png",
+      "master_path": "png/gold-cinquefoil-divider-end.png",
+      "method": "supplied-authored-raster",
+      "processing": "PNG compression only; exact RGBA pixels and native canvas retained. Lossless WebP and 128/256/512/768 variants made directly from the native-size master. No trimming, cleanup, tracing, repainting, rotation or upscaling.",
+      "review": {
+        "status": "accepted",
+        "checks": [
+          "native-input-sha256-matches-archive",
+          "optimized-master-exact-native-rgba-and-canvas",
+          "lossless-png-webp-alpha-and-visible-rgb",
+          "all-four-variants-directly-from-master-without-upscaling",
+          "individual-light-dark-visual-review",
+          "128-256-512-768-export-visual-review",
+          "metadata-vocabulary-and-assigned-resource-ownership",
+          "whole-image-capabilities-no-inferred-repeat-or-svg"
+        ],
+        "notes": "Original artwork retained without cleanup or cropping. Native painted colors and transparent openings retained."
+      },
+      "master_sha256": "bef5d8ca631a488581963a775b88f1368d75c5c87749dc363ce702b82625e245"
+    },
+    {
+      "name": "gold-lozenge-divider-center",
+      "author": "adrian729",
+      "asset_type": "decoration",
+      "description": "A painted gold four-lobed foliate fleuron with pointed upper and lower leaves, curled side lobes and short horizontal stems on both sides.",
+      "categories": [
+        "botanical",
+        "scrollwork"
+      ],
+      "subjects": [
+        "fleuron",
+        "leaf",
+        "scroll",
+        "stem"
+      ],
+      "facing": "unclear",
+      "colors": [
+        "gold",
+        "brown"
+      ],
+      "composition": "single-ornament",
+      "usage_notes": [
+        "User-authored artwork; native canvas, transparency and pixels are retained. Import details are recorded in authored-additions.json.",
+        "AI-generated component supplied with the gold divider compositions. The example composes fixed-proportion terminals and centers with two flexible CSS rules; color filters are display effects."
+      ],
+      "source": "assets/components/gold-lozenge-divider-center.png",
+      "source_sha256": "7d0af9b913d851f014eee73207004fda947a0fe2a194010bafc4a7949807c8fd",
+      "native_dimensions": [
+        1536,
+        1024
+      ],
+      "native_input": "sources/tiles/gold-lozenge-divider-center.png",
+      "master_path": "png/gold-lozenge-divider-center.png",
+      "method": "supplied-authored-raster",
+      "processing": "PNG compression only; exact RGBA pixels and native canvas retained. Lossless WebP and 128/256/512/768 variants made directly from the native-size master. No trimming, cleanup, tracing, repainting, rotation or upscaling.",
+      "review": {
+        "status": "accepted",
+        "checks": [
+          "native-input-sha256-matches-archive",
+          "optimized-master-exact-native-rgba-and-canvas",
+          "lossless-png-webp-alpha-and-visible-rgb",
+          "all-four-variants-directly-from-master-without-upscaling",
+          "individual-light-dark-visual-review",
+          "128-256-512-768-export-visual-review",
+          "metadata-vocabulary-and-assigned-resource-ownership",
+          "whole-image-capabilities-no-inferred-repeat-or-svg"
+        ],
+        "notes": "Original artwork retained without cleanup or cropping. Native painted colors and transparent openings retained."
+      },
+      "master_sha256": "5fd4fddf8a1061024d6c484417df8927e90a8f8b258942b884ea286e1ca22890"
+    },
+    {
+      "name": "gold-lozenge-divider-end",
+      "author": "adrian729",
+      "asset_type": "decoration",
+      "description": "A painted gold acanthus terminal with curled leaf lobes on the left and a straight stem extending to the right, shaded brown and highlighted pale yellow.",
+      "categories": [
+        "botanical",
+        "scrollwork"
+      ],
+      "subjects": [
+        "acanthus",
+        "leaf",
+        "scroll",
+        "stem"
+      ],
+      "facing": "unclear",
+      "colors": [
+        "gold",
+        "brown"
+      ],
+      "composition": "single-ornament",
+      "usage_notes": [
+        "User-authored artwork; native canvas, transparency and pixels are retained. Import details are recorded in authored-additions.json.",
+        "AI-generated component supplied with the gold divider compositions. The example composes fixed-proportion terminals and centers with two flexible CSS rules; color filters are display effects."
+      ],
+      "source": "assets/components/gold-lozenge-divider-end.png",
+      "source_sha256": "87a81768bc306f27d9ec2237fedafd6be14a9534be7570ce82bdf78cbc49bdec",
+      "native_dimensions": [
+        1619,
+        972
+      ],
+      "native_input": "sources/tiles/gold-lozenge-divider-end.png",
+      "master_path": "png/gold-lozenge-divider-end.png",
+      "method": "supplied-authored-raster",
+      "processing": "PNG compression only; exact RGBA pixels and native canvas retained. Lossless WebP and 128/256/512/768 variants made directly from the native-size master. No trimming, cleanup, tracing, repainting, rotation or upscaling.",
+      "review": {
+        "status": "accepted",
+        "checks": [
+          "native-input-sha256-matches-archive",
+          "optimized-master-exact-native-rgba-and-canvas",
+          "lossless-png-webp-alpha-and-visible-rgb",
+          "all-four-variants-directly-from-master-without-upscaling",
+          "individual-light-dark-visual-review",
+          "128-256-512-768-export-visual-review",
+          "metadata-vocabulary-and-assigned-resource-ownership",
+          "whole-image-capabilities-no-inferred-repeat-or-svg"
+        ],
+        "notes": "Original artwork retained without cleanup or cropping. Native painted colors and transparent openings retained."
+      },
+      "master_sha256": "82edd55d3ec7bc49611a48fb95168fb847e81200e7ccf297213cd7c165bc6202"
+    },
+    {
+      "name": "illuminated-acanthus-corner-bottom-left",
+      "author": "adrian729",
+      "asset_type": "decoration",
+      "description": "A painted bottom-left L-shaped corner with red and gold rules, red and blue acanthus leaves, gold scrolls, green ivy and small floral finials.",
+      "categories": [
+        "botanical",
+        "scrollwork"
+      ],
+      "subjects": [
+        "corner",
+        "acanthus",
+        "ivy",
+        "leaf",
+        "scroll"
+      ],
+      "facing": "unclear",
+      "colors": [
+        "red",
+        "blue",
+        "gold",
+        "green",
+        "brown"
+      ],
+      "composition": "single-ornament",
+      "usage_notes": [
+        "User-authored artwork; native canvas, transparency and pixels are retained. Import details are recorded in authored-additions.json.",
+        "Distinct supplied bottom-left corner phase. Use as a whole image; it is not a rotation of another corner or a phase-matched repeating atlas."
+      ],
+      "source": "assets/illuminated-acanthus-corner-bottom-left.png",
+      "source_sha256": "112ad2180aae1240e59b3fbc261736f8c3782e731804be2c448da3181dc303b9",
+      "native_dimensions": [
+        1287,
+        1222
+      ],
+      "native_input": "sources/tiles/illuminated-acanthus-corner-bottom-left.png",
+      "master_path": "png/illuminated-acanthus-corner-bottom-left.png",
+      "method": "supplied-authored-raster",
+      "processing": "PNG compression only; exact RGBA pixels and native canvas retained. Lossless WebP and 128/256/512/768 variants made directly from the native-size master. No trimming, cleanup, tracing, repainting, rotation or upscaling.",
+      "review": {
+        "status": "accepted",
+        "checks": [
+          "native-input-sha256-matches-archive",
+          "optimized-master-exact-native-rgba-and-canvas",
+          "lossless-png-webp-alpha-and-visible-rgb",
+          "all-four-variants-directly-from-master-without-upscaling",
+          "individual-light-dark-visual-review",
+          "128-256-512-768-export-visual-review",
+          "metadata-vocabulary-and-assigned-resource-ownership",
+          "whole-image-capabilities-no-inferred-repeat-or-svg"
+        ],
+        "notes": "Original artwork retained without cleanup or cropping. Native painted colors and transparent openings retained."
+      },
+      "master_sha256": "5766353db79acb5f06f1252e2bc31fb4d7779d1fdfa576f371248250ddb49721"
+    },
+    {
+      "name": "illuminated-acanthus-corner-bottom-right",
+      "author": "adrian729",
+      "asset_type": "decoration",
+      "description": "A painted bottom-right L-shaped corner with red and gold rules, red and blue acanthus leaves, gold scrolls, green ivy and small floral finials.",
+      "categories": [
+        "botanical",
+        "scrollwork"
+      ],
+      "subjects": [
+        "corner",
+        "acanthus",
+        "ivy",
+        "leaf",
+        "scroll"
+      ],
+      "facing": "unclear",
+      "colors": [
+        "red",
+        "blue",
+        "gold",
+        "green",
+        "brown"
+      ],
+      "composition": "single-ornament",
+      "usage_notes": [
+        "User-authored artwork; native canvas, transparency and pixels are retained. Import details are recorded in authored-additions.json.",
+        "Distinct supplied bottom-right corner phase. Use as a whole image; it is not a rotation of another corner or a phase-matched repeating atlas."
+      ],
+      "source": "assets/illuminated-acanthus-corner-bottom-right.png",
+      "source_sha256": "b63c2f521dc1773b86422dd380de4269fd1aa26ead11852b599ac761a963fce0",
+      "native_dimensions": [
+        1536,
+        1024
+      ],
+      "native_input": "sources/tiles/illuminated-acanthus-corner-bottom-right.png",
+      "master_path": "png/illuminated-acanthus-corner-bottom-right.png",
+      "method": "supplied-authored-raster",
+      "processing": "PNG compression only; exact RGBA pixels and native canvas retained. Lossless WebP and 128/256/512/768 variants made directly from the native-size master. No trimming, cleanup, tracing, repainting, rotation or upscaling.",
+      "review": {
+        "status": "accepted",
+        "checks": [
+          "native-input-sha256-matches-archive",
+          "optimized-master-exact-native-rgba-and-canvas",
+          "lossless-png-webp-alpha-and-visible-rgb",
+          "all-four-variants-directly-from-master-without-upscaling",
+          "individual-light-dark-visual-review",
+          "128-256-512-768-export-visual-review",
+          "metadata-vocabulary-and-assigned-resource-ownership",
+          "whole-image-capabilities-no-inferred-repeat-or-svg"
+        ],
+        "notes": "Original artwork retained without cleanup or cropping. Native painted colors and transparent openings retained."
+      },
+      "master_sha256": "391ec36ec93c5528b7bf97a4bdb25afbf14991c79c420be8267a89c9b5e9f674"
+    },
+    {
+      "name": "illuminated-acanthus-corner-top-right",
+      "author": "adrian729",
+      "asset_type": "decoration",
+      "description": "A painted top-right L-shaped corner with red and gold rules, red and blue acanthus leaves, gold scrolls, green ivy and small floral finials.",
+      "categories": [
+        "botanical",
+        "scrollwork"
+      ],
+      "subjects": [
+        "corner",
+        "acanthus",
+        "ivy",
+        "leaf",
+        "scroll"
+      ],
+      "facing": "unclear",
+      "colors": [
+        "red",
+        "blue",
+        "gold",
+        "green",
+        "brown"
+      ],
+      "composition": "single-ornament",
+      "usage_notes": [
+        "User-authored artwork; native canvas, transparency and pixels are retained. Import details are recorded in authored-additions.json.",
+        "Distinct supplied top-right corner phase. Use as a whole image; it is not a rotation of another corner or a phase-matched repeating atlas."
+      ],
+      "source": "assets/illuminated-acanthus-corner-top-right.png",
+      "source_sha256": "386ba692cb9e39eda8575757bdacf87ec56302d70826b2567845e1abaa658d07",
+      "native_dimensions": [
+        1312,
+        1199
+      ],
+      "native_input": "sources/tiles/illuminated-acanthus-corner-top-right.png",
+      "master_path": "png/illuminated-acanthus-corner-top-right.png",
+      "method": "supplied-authored-raster",
+      "processing": "PNG compression only; exact RGBA pixels and native canvas retained. Lossless WebP and 128/256/512/768 variants made directly from the native-size master. No trimming, cleanup, tracing, repainting, rotation or upscaling.",
+      "review": {
+        "status": "accepted",
+        "checks": [
+          "native-input-sha256-matches-archive",
+          "optimized-master-exact-native-rgba-and-canvas",
+          "lossless-png-webp-alpha-and-visible-rgb",
+          "all-four-variants-directly-from-master-without-upscaling",
+          "individual-light-dark-visual-review",
+          "128-256-512-768-export-visual-review",
+          "metadata-vocabulary-and-assigned-resource-ownership",
+          "whole-image-capabilities-no-inferred-repeat-or-svg"
+        ],
+        "notes": "Original artwork retained without cleanup or cropping. Native painted colors and transparent openings retained."
+      },
+      "master_sha256": "d6ecd16bff02a64c8416c58e6a9522b1225a6264fd5b99181fbefe940305f3ab"
+    },
+    {
+      "name": "illuminated-acanthus-corner",
+      "author": "adrian729",
+      "asset_type": "decoration",
+      "description": "A painted top-left L-shaped corner with red and gold rules, red and blue acanthus leaves, gold scrolls, green ivy and small floral finials.",
+      "categories": [
+        "botanical",
+        "scrollwork"
+      ],
+      "subjects": [
+        "corner",
+        "acanthus",
+        "ivy",
+        "leaf",
+        "scroll"
+      ],
+      "facing": "unclear",
+      "colors": [
+        "red",
+        "blue",
+        "gold",
+        "green",
+        "brown"
+      ],
+      "composition": "single-ornament",
+      "usage_notes": [
+        "User-authored artwork; native canvas, transparency and pixels are retained. Import details are recorded in authored-additions.json.",
+        "Distinct supplied top-left corner phase. Use as a whole image; it is not a rotation of another corner or a phase-matched repeating atlas."
+      ],
+      "source": "assets/illuminated-acanthus-corner.png",
+      "source_sha256": "fe5405db845407352cda4a042e0926373dc3e735aa2ac3c3218e5f855d6cf01d",
+      "native_dimensions": [
+        1266,
+        1243
+      ],
+      "native_input": "sources/tiles/illuminated-acanthus-corner.png",
+      "master_path": "png/illuminated-acanthus-corner.png",
+      "method": "supplied-authored-raster",
+      "processing": "PNG compression only; exact RGBA pixels and native canvas retained. Lossless WebP and 128/256/512/768 variants made directly from the native-size master. No trimming, cleanup, tracing, repainting, rotation or upscaling.",
+      "review": {
+        "status": "accepted",
+        "checks": [
+          "native-input-sha256-matches-archive",
+          "optimized-master-exact-native-rgba-and-canvas",
+          "lossless-png-webp-alpha-and-visible-rgb",
+          "all-four-variants-directly-from-master-without-upscaling",
+          "individual-light-dark-visual-review",
+          "128-256-512-768-export-visual-review",
+          "metadata-vocabulary-and-assigned-resource-ownership",
+          "whole-image-capabilities-no-inferred-repeat-or-svg"
+        ],
+        "notes": "Original artwork retained without cleanup or cropping. Native painted colors and transparent openings retained."
+      },
+      "master_sha256": "0c3ae9a1e04ee9a4157d8e60ebf13ea1913c9707578b937504980a4c2d1e873f"
+    },
+    {
+      "name": "illuminated-acanthus-frame",
+      "author": "adrian729",
+      "asset_type": "decoration",
+      "description": "A complete landscape frame with thin red and gold rules, red and blue acanthus scrolls, gold foliage and green ivy around a transparent rectangular opening.",
+      "categories": [
+        "botanical",
+        "scrollwork",
+        "floral"
+      ],
+      "subjects": [
+        "frame",
+        "acanthus",
+        "ivy",
+        "leaf",
+        "scroll",
+        "flower"
+      ],
+      "facing": "unclear",
+      "colors": [
+        "red",
+        "blue",
+        "gold",
+        "green",
+        "brown"
+      ],
+      "composition": "single-ornament",
+      "usage_notes": [
+        "User-authored artwork; native canvas, transparency and pixels are retained. Import details are recorded in authored-additions.json.",
+        "Fixed complete frame with a transparent center; resize proportionally as one image. Its sides are not verified repeat tiles."
+      ],
+      "source": "assets/illuminated-acanthus-frame.png",
+      "source_sha256": "e4aaec3730cb9a7bdc25d41da3d5867380f1445851687f2305a3181f4dd85317",
+      "native_dimensions": [
+        1536,
+        1024
+      ],
+      "native_input": "sources/tiles/illuminated-acanthus-frame.png",
+      "master_path": "png/illuminated-acanthus-frame.png",
+      "method": "supplied-authored-raster",
+      "processing": "PNG compression only; exact RGBA pixels and native canvas retained. Lossless WebP and 128/256/512/768 variants made directly from the native-size master. No trimming, cleanup, tracing, repainting, rotation or upscaling.",
+      "review": {
+        "status": "accepted",
+        "checks": [
+          "native-input-sha256-matches-archive",
+          "optimized-master-exact-native-rgba-and-canvas",
+          "lossless-png-webp-alpha-and-visible-rgb",
+          "all-four-variants-directly-from-master-without-upscaling",
+          "individual-light-dark-visual-review",
+          "128-256-512-768-export-visual-review",
+          "metadata-vocabulary-and-assigned-resource-ownership",
+          "whole-image-capabilities-no-inferred-repeat-or-svg"
+        ],
+        "notes": "Original artwork retained without cleanup or cropping. Native painted colors and transparent openings retained."
+      },
+      "master_sha256": "6797c4c7247f3a6f9dbdbb97ed7680a1c426bd614b3fc94f5853d5d23ca6c73b"
+    },
+    {
+      "name": "illuminated-acanthus-headpiece",
+      "author": "adrian729",
+      "asset_type": "decoration",
+      "description": "A broad, nearly symmetric painted headpiece of red and blue acanthus leaves, gold scrolls and green ivy, with a central blue and gold foliate crest.",
+      "categories": [
+        "botanical",
+        "scrollwork"
+      ],
+      "subjects": [
+        "acanthus",
+        "ivy",
+        "leaf",
+        "scroll"
+      ],
+      "facing": "unclear",
+      "colors": [
+        "red",
+        "blue",
+        "gold",
+        "green",
+        "brown"
+      ],
+      "composition": "single-ornament",
+      "usage_notes": [
+        "User-authored artwork; native canvas, transparency and pixels are retained. Import details are recorded in authored-additions.json.",
+        "Complete flourish with retained end phases; do not tile or stretch it."
+      ],
+      "source": "assets/illuminated-acanthus-headpiece.png",
+      "source_sha256": "a10e179458a143eaf705595ac47b415fc72ba349af1bd9364a89b8036b17eb7b",
+      "native_dimensions": [
+        2172,
+        724
+      ],
+      "native_input": "sources/tiles/illuminated-acanthus-headpiece.png",
+      "master_path": "png/illuminated-acanthus-headpiece.png",
+      "method": "supplied-authored-raster",
+      "processing": "PNG compression only; exact RGBA pixels and native canvas retained. Lossless WebP and 128/256/512/768 variants made directly from the native-size master. No trimming, cleanup, tracing, repainting, rotation or upscaling.",
+      "review": {
+        "status": "accepted",
+        "checks": [
+          "native-input-sha256-matches-archive",
+          "optimized-master-exact-native-rgba-and-canvas",
+          "lossless-png-webp-alpha-and-visible-rgb",
+          "all-four-variants-directly-from-master-without-upscaling",
+          "individual-light-dark-visual-review",
+          "128-256-512-768-export-visual-review",
+          "metadata-vocabulary-and-assigned-resource-ownership",
+          "whole-image-capabilities-no-inferred-repeat-or-svg"
+        ],
+        "notes": "Original artwork retained without cleanup or cropping. Native painted colors and transparent openings retained."
+      },
+      "master_sha256": "970fa67243e11e31d8db7d13caa5419def61b5f327cfd69fc1fea4123183d386"
+    },
+    {
+      "name": "illuminated-acanthus-tailpiece",
+      "author": "adrian729",
+      "asset_type": "decoration",
+      "description": "An upright painted foliate spray with a red acanthus leaf on the left, a tall blue leaf above, a curled gold leaf on the right and small green ivy leaves at its base.",
+      "categories": [
+        "botanical",
+        "scrollwork"
+      ],
+      "subjects": [
+        "acanthus",
+        "ivy",
+        "leaf",
+        "scroll"
+      ],
+      "facing": "unclear",
+      "colors": [
+        "red",
+        "blue",
+        "gold",
+        "green",
+        "brown"
+      ],
+      "composition": "single-ornament",
+      "usage_notes": [
+        "User-authored artwork; native canvas, transparency and pixels are retained. Import details are recorded in authored-additions.json."
+      ],
+      "source": "assets/illuminated-acanthus-tailpiece.png",
+      "source_sha256": "9901cac7e268ad13641a6ce32b47d80d6253de1cdd6fd15a7036ff2dac2a0c3e",
+      "native_dimensions": [
+        1374,
+        1145
+      ],
+      "native_input": "sources/tiles/illuminated-acanthus-tailpiece.png",
+      "master_path": "png/illuminated-acanthus-tailpiece.png",
+      "method": "supplied-authored-raster",
+      "processing": "PNG compression only; exact RGBA pixels and native canvas retained. Lossless WebP and 128/256/512/768 variants made directly from the native-size master. No trimming, cleanup, tracing, repainting, rotation or upscaling.",
+      "review": {
+        "status": "accepted",
+        "checks": [
+          "native-input-sha256-matches-archive",
+          "optimized-master-exact-native-rgba-and-canvas",
+          "lossless-png-webp-alpha-and-visible-rgb",
+          "all-four-variants-directly-from-master-without-upscaling",
+          "individual-light-dark-visual-review",
+          "128-256-512-768-export-visual-review",
+          "metadata-vocabulary-and-assigned-resource-ownership",
+          "whole-image-capabilities-no-inferred-repeat-or-svg"
+        ],
+        "notes": "Original artwork retained without cleanup or cropping. Native painted colors and transparent openings retained."
+      },
+      "master_sha256": "67a3dbeeb44c496028f0c519e139460c26aae44ba08cc3c68ea3e040ddc0861c"
+    },
+    {
+      "name": "ivy-corner-bottom-left",
+      "author": "adrian729",
+      "asset_type": "decoration",
+      "description": "A black penwork bottom-left L-shaped corner with double rules, curled acanthus foliage, pointed ivy leaves and small finials.",
+      "categories": [
+        "botanical",
+        "scrollwork"
+      ],
+      "subjects": [
+        "corner",
+        "acanthus",
+        "ivy",
+        "leaf",
+        "scroll"
+      ],
+      "facing": "unclear",
+      "colors": [
+        "black"
+      ],
+      "composition": "single-ornament",
+      "usage_notes": [
+        "User-authored artwork; native canvas, transparency and pixels are retained. Import details are recorded in authored-additions.json.",
+        "Distinct supplied bottom-left corner phase. Use as a whole image; it is not a rotation of another corner or a phase-matched repeating atlas.",
+        "Black linework and its interiors are transparent; it reads best on a light surface."
+      ],
+      "source": "assets/ivy-corner-bottom-left.png",
+      "source_sha256": "db31cdce3ba5d77164d7a12f1974ef132b5bb4fc6fe772ace1dfec7e381b0bb6",
+      "native_dimensions": [
+        1254,
+        1254
+      ],
+      "native_input": "sources/tiles/ivy-corner-bottom-left.png",
+      "master_path": "png/ivy-corner-bottom-left.png",
+      "method": "supplied-authored-raster",
+      "processing": "PNG compression only; exact RGBA pixels and native canvas retained. Lossless WebP and 128/256/512/768 variants made directly from the native-size master. No trimming, cleanup, tracing, repainting, rotation or upscaling.",
+      "review": {
+        "status": "accepted",
+        "checks": [
+          "native-input-sha256-matches-archive",
+          "optimized-master-exact-native-rgba-and-canvas",
+          "lossless-png-webp-alpha-and-visible-rgb",
+          "all-four-variants-directly-from-master-without-upscaling",
+          "individual-light-dark-visual-review",
+          "128-256-512-768-export-visual-review",
+          "metadata-vocabulary-and-assigned-resource-ownership",
+          "whole-image-capabilities-no-inferred-repeat-or-svg"
+        ],
+        "notes": "Original artwork retained without cleanup or cropping. Transparent black linework is intended for light surfaces."
+      },
+      "master_sha256": "900eb83057e0d9e3dbcb9b446774a23f8edbdf6b85d71496f8ea84820604a896"
+    },
+    {
+      "name": "ivy-corner-bottom-right",
+      "author": "adrian729",
+      "asset_type": "decoration",
+      "description": "A black penwork bottom-right L-shaped corner with double rules, curled acanthus foliage, pointed ivy leaves and small finials.",
+      "categories": [
+        "botanical",
+        "scrollwork"
+      ],
+      "subjects": [
+        "corner",
+        "acanthus",
+        "ivy",
+        "leaf",
+        "scroll"
+      ],
+      "facing": "unclear",
+      "colors": [
+        "black"
+      ],
+      "composition": "single-ornament",
+      "usage_notes": [
+        "User-authored artwork; native canvas, transparency and pixels are retained. Import details are recorded in authored-additions.json.",
+        "Distinct supplied bottom-right corner phase. Use as a whole image; it is not a rotation of another corner or a phase-matched repeating atlas.",
+        "Black linework and its interiors are transparent; it reads best on a light surface."
+      ],
+      "source": "assets/ivy-corner-bottom-right.png",
+      "source_sha256": "d4988bbac62a87cba86c75ef5c83ecfd6bb4fd535b3ffdffe8b0c93c4c70ae1c",
+      "native_dimensions": [
+        1254,
+        1254
+      ],
+      "native_input": "sources/tiles/ivy-corner-bottom-right.png",
+      "master_path": "png/ivy-corner-bottom-right.png",
+      "method": "supplied-authored-raster",
+      "processing": "PNG compression only; exact RGBA pixels and native canvas retained. Lossless WebP and 128/256/512/768 variants made directly from the native-size master. No trimming, cleanup, tracing, repainting, rotation or upscaling.",
+      "review": {
+        "status": "accepted",
+        "checks": [
+          "native-input-sha256-matches-archive",
+          "optimized-master-exact-native-rgba-and-canvas",
+          "lossless-png-webp-alpha-and-visible-rgb",
+          "all-four-variants-directly-from-master-without-upscaling",
+          "individual-light-dark-visual-review",
+          "128-256-512-768-export-visual-review",
+          "metadata-vocabulary-and-assigned-resource-ownership",
+          "whole-image-capabilities-no-inferred-repeat-or-svg"
+        ],
+        "notes": "Original artwork retained without cleanup or cropping. Transparent black linework is intended for light surfaces."
+      },
+      "master_sha256": "bf3c53882df02a3d3e075c3c810d864bb83b5b1a58145626176db467f0eb0bb9"
+    },
+    {
+      "name": "ivy-corner-top-right",
+      "author": "adrian729",
+      "asset_type": "decoration",
+      "description": "A black penwork top-right L-shaped corner with double rules, curled acanthus foliage, pointed ivy leaves and small finials.",
+      "categories": [
+        "botanical",
+        "scrollwork"
+      ],
+      "subjects": [
+        "corner",
+        "acanthus",
+        "ivy",
+        "leaf",
+        "scroll"
+      ],
+      "facing": "unclear",
+      "colors": [
+        "black"
+      ],
+      "composition": "single-ornament",
+      "usage_notes": [
+        "User-authored artwork; native canvas, transparency and pixels are retained. Import details are recorded in authored-additions.json.",
+        "Distinct supplied top-right corner phase. Use as a whole image; it is not a rotation of another corner or a phase-matched repeating atlas.",
+        "Black linework and its interiors are transparent; it reads best on a light surface."
+      ],
+      "source": "assets/ivy-corner-top-right.png",
+      "source_sha256": "4e0979eb9588425c80fff404a690c65bf1ac0adf47651b55b395a1dbd4b646e0",
+      "native_dimensions": [
+        1254,
+        1254
+      ],
+      "native_input": "sources/tiles/ivy-corner-top-right.png",
+      "master_path": "png/ivy-corner-top-right.png",
+      "method": "supplied-authored-raster",
+      "processing": "PNG compression only; exact RGBA pixels and native canvas retained. Lossless WebP and 128/256/512/768 variants made directly from the native-size master. No trimming, cleanup, tracing, repainting, rotation or upscaling.",
+      "review": {
+        "status": "accepted",
+        "checks": [
+          "native-input-sha256-matches-archive",
+          "optimized-master-exact-native-rgba-and-canvas",
+          "lossless-png-webp-alpha-and-visible-rgb",
+          "all-four-variants-directly-from-master-without-upscaling",
+          "individual-light-dark-visual-review",
+          "128-256-512-768-export-visual-review",
+          "metadata-vocabulary-and-assigned-resource-ownership",
+          "whole-image-capabilities-no-inferred-repeat-or-svg"
+        ],
+        "notes": "Original artwork retained without cleanup or cropping. Transparent black linework is intended for light surfaces."
+      },
+      "master_sha256": "92000a8f62f0138e7c7ae774518410f2c1fcfee22dc5a7fb15596a310d22455c"
+    },
+    {
+      "name": "ivy-corner",
+      "author": "adrian729",
+      "asset_type": "decoration",
+      "description": "A black penwork top-left L-shaped corner with double rules, curled acanthus foliage, pointed ivy leaves and small finials.",
+      "categories": [
+        "botanical",
+        "scrollwork"
+      ],
+      "subjects": [
+        "corner",
+        "acanthus",
+        "ivy",
+        "leaf",
+        "scroll"
+      ],
+      "facing": "unclear",
+      "colors": [
+        "black"
+      ],
+      "composition": "single-ornament",
+      "usage_notes": [
+        "User-authored artwork; native canvas, transparency and pixels are retained. Import details are recorded in authored-additions.json.",
+        "Distinct supplied top-left corner phase. Use as a whole image; it is not a rotation of another corner or a phase-matched repeating atlas.",
+        "Black linework and its interiors are transparent; it reads best on a light surface."
+      ],
+      "source": "assets/ivy-corner.png",
+      "source_sha256": "3fe9ca36ee952e7a6bd298606cc01a9a200b12c8e1c2ed00ec007a6e13aaba31",
+      "native_dimensions": [
+        1254,
+        1254
+      ],
+      "native_input": "sources/tiles/ivy-corner.png",
+      "master_path": "png/ivy-corner.png",
+      "method": "supplied-authored-raster",
+      "processing": "PNG compression only; exact RGBA pixels and native canvas retained. Lossless WebP and 128/256/512/768 variants made directly from the native-size master. No trimming, cleanup, tracing, repainting, rotation or upscaling.",
+      "review": {
+        "status": "accepted",
+        "checks": [
+          "native-input-sha256-matches-archive",
+          "optimized-master-exact-native-rgba-and-canvas",
+          "lossless-png-webp-alpha-and-visible-rgb",
+          "all-four-variants-directly-from-master-without-upscaling",
+          "individual-light-dark-visual-review",
+          "128-256-512-768-export-visual-review",
+          "metadata-vocabulary-and-assigned-resource-ownership",
+          "whole-image-capabilities-no-inferred-repeat-or-svg"
+        ],
+        "notes": "Original artwork retained without cleanup or cropping. Transparent black linework is intended for light surfaces."
+      },
+      "master_sha256": "a8b0ae2a5a80454ed660c4c9211a714ae2466031c6551a2ccdb7dc5443fc4ef4"
+    },
+    {
+      "name": "ivy-fleuron",
+      "author": "adrian729",
+      "asset_type": "decoration",
+      "description": "A compact black penwork fleuron of three pointed ivy leaves on short stems, with a bold outer contour and fine internal veins.",
+      "categories": [
+        "botanical"
+      ],
+      "subjects": [
+        "ivy",
+        "leaf",
+        "fleuron"
+      ],
+      "facing": "unclear",
+      "colors": [
+        "black"
+      ],
+      "composition": "single-ornament",
+      "usage_notes": [
+        "User-authored artwork; native canvas, transparency and pixels are retained. Import details are recorded in authored-additions.json.",
+        "Black linework and its interiors are transparent; it reads best on a light surface."
+      ],
+      "source": "assets/ivy-fleuron.png",
+      "source_sha256": "15e060bef4ae0046466979b5952a996e74c78aa8ebc7e26f3582c85eeb78d519",
+      "native_dimensions": [
+        1333,
+        1180
+      ],
+      "native_input": "sources/tiles/ivy-fleuron.png",
+      "master_path": "png/ivy-fleuron.png",
+      "method": "supplied-authored-raster",
+      "processing": "PNG compression only; exact RGBA pixels and native canvas retained. Lossless WebP and 128/256/512/768 variants made directly from the native-size master. No trimming, cleanup, tracing, repainting, rotation or upscaling.",
+      "review": {
+        "status": "accepted",
+        "checks": [
+          "native-input-sha256-matches-archive",
+          "optimized-master-exact-native-rgba-and-canvas",
+          "lossless-png-webp-alpha-and-visible-rgb",
+          "all-four-variants-directly-from-master-without-upscaling",
+          "individual-light-dark-visual-review",
+          "128-256-512-768-export-visual-review",
+          "metadata-vocabulary-and-assigned-resource-ownership",
+          "whole-image-capabilities-no-inferred-repeat-or-svg"
+        ],
+        "notes": "Original artwork retained without cleanup or cropping. Transparent black linework is intended for light surfaces."
+      },
+      "master_sha256": "80aec03e0281c73df2a627b6c59503ca2a798fe5683d4dc04376f2bce269ae5a"
+    },
+    {
+      "name": "ivy-line-filler",
+      "author": "adrian729",
+      "asset_type": "decoration",
+      "description": "A slender horizontal black penwork vine with spaced ivy leaves, a small central flower, curling stems and diamond-shaped terminals.",
+      "categories": [
+        "botanical",
+        "floral",
+        "scrollwork"
+      ],
+      "subjects": [
+        "ivy",
+        "leaf",
+        "vine",
+        "flower",
+        "diamond"
+      ],
+      "facing": "unclear",
+      "colors": [
+        "black"
+      ],
+      "composition": "single-ornament",
+      "usage_notes": [
+        "User-authored artwork; native canvas, transparency and pixels are retained. Import details are recorded in authored-additions.json.",
+        "Complete flourish with retained end phases; do not tile or stretch it.",
+        "Black linework and its interiors are transparent; it reads best on a light surface."
+      ],
+      "source": "assets/ivy-line-filler.png",
+      "source_sha256": "e5ab480ae90324188bb4b7bd939b8fd83fdf8fbc98086200a9c48e6d2ee4bb30",
+      "native_dimensions": [
+        2172,
+        724
+      ],
+      "native_input": "sources/tiles/ivy-line-filler.png",
+      "master_path": "png/ivy-line-filler.png",
+      "method": "supplied-authored-raster",
+      "processing": "PNG compression only; exact RGBA pixels and native canvas retained. Lossless WebP and 128/256/512/768 variants made directly from the native-size master. No trimming, cleanup, tracing, repainting, rotation or upscaling.",
+      "review": {
+        "status": "accepted",
+        "checks": [
+          "native-input-sha256-matches-archive",
+          "optimized-master-exact-native-rgba-and-canvas",
+          "lossless-png-webp-alpha-and-visible-rgb",
+          "all-four-variants-directly-from-master-without-upscaling",
+          "individual-light-dark-visual-review",
+          "128-256-512-768-export-visual-review",
+          "metadata-vocabulary-and-assigned-resource-ownership",
+          "whole-image-capabilities-no-inferred-repeat-or-svg"
+        ],
+        "notes": "Original artwork retained without cleanup or cropping. Transparent black linework is intended for light surfaces."
+      },
+      "master_sha256": "c9d8d8e4e105ffe094dad14b50fe31a8fe0833ccd68c41e72086f638708de42f"
+    },
+    {
+      "name": "ivy-manuscript-frame",
+      "author": "adrian729",
+      "asset_type": "decoration",
+      "description": "A complete black penwork landscape frame with a double rectangular rule, pointed ivy leaves and scrolling foliage surrounding a transparent opening.",
+      "categories": [
+        "botanical",
+        "scrollwork"
+      ],
+      "subjects": [
+        "frame",
+        "ivy",
+        "leaf",
+        "vine",
+        "scroll"
+      ],
+      "facing": "unclear",
+      "colors": [
+        "black"
+      ],
+      "composition": "single-ornament",
+      "usage_notes": [
+        "User-authored artwork; native canvas, transparency and pixels are retained. Import details are recorded in authored-additions.json.",
+        "Fixed complete frame with a transparent center; resize proportionally as one image. Its sides are not verified repeat tiles.",
+        "Black linework and its interiors are transparent; it reads best on a light surface."
+      ],
+      "source": "assets/ivy-manuscript-frame.png",
+      "source_sha256": "6aa3cd8c9a51bb4e0487939cd3602097d93b917b297dbb3da45a66c1c8ec26cf",
+      "native_dimensions": [
+        1536,
+        1024
+      ],
+      "native_input": "sources/tiles/ivy-manuscript-frame.png",
+      "master_path": "png/ivy-manuscript-frame.png",
+      "method": "supplied-authored-raster",
+      "processing": "PNG compression only; exact RGBA pixels and native canvas retained. Lossless WebP and 128/256/512/768 variants made directly from the native-size master. No trimming, cleanup, tracing, repainting, rotation or upscaling.",
+      "review": {
+        "status": "accepted",
+        "checks": [
+          "native-input-sha256-matches-archive",
+          "optimized-master-exact-native-rgba-and-canvas",
+          "lossless-png-webp-alpha-and-visible-rgb",
+          "all-four-variants-directly-from-master-without-upscaling",
+          "individual-light-dark-visual-review",
+          "128-256-512-768-export-visual-review",
+          "metadata-vocabulary-and-assigned-resource-ownership",
+          "whole-image-capabilities-no-inferred-repeat-or-svg"
+        ],
+        "notes": "Original artwork retained without cleanup or cropping. Transparent black linework is intended for light surfaces."
+      },
+      "master_sha256": "38c97cd8a11e8dd03f610fe9c7cd834052a92ec71db680b8058418d3b60d8ed1"
+    },
+    {
+      "name": "ivy-marginal-vine",
+      "author": "adrian729",
+      "asset_type": "decoration",
+      "description": "A narrow vertical black penwork marginal vine with alternating pointed ivy and curled acanthus leaves, a fine straight stem and pointed terminals.",
+      "categories": [
+        "botanical",
+        "scrollwork"
+      ],
+      "subjects": [
+        "ivy",
+        "acanthus",
+        "leaf",
+        "vine",
+        "stem"
+      ],
+      "facing": "unclear",
+      "colors": [
+        "black"
+      ],
+      "composition": "single-ornament",
+      "usage_notes": [
+        "User-authored artwork; native canvas, transparency and pixels are retained. Import details are recorded in authored-additions.json.",
+        "Complete flourish with retained end phases; do not tile or stretch it.",
+        "Black linework and its interiors are transparent; it reads best on a light surface."
+      ],
+      "source": "assets/ivy-marginal-vine.png",
+      "source_sha256": "7299a61b239a9ee7327b920ad8fba2eb9e8c9e0bb4e2a8de5ce4863c51dd1e39",
+      "native_dimensions": [
+        956,
+        1646
+      ],
+      "native_input": "sources/tiles/ivy-marginal-vine.png",
+      "master_path": "png/ivy-marginal-vine.png",
+      "method": "supplied-authored-raster",
+      "processing": "PNG compression only; exact RGBA pixels and native canvas retained. Lossless WebP and 128/256/512/768 variants made directly from the native-size master. No trimming, cleanup, tracing, repainting, rotation or upscaling.",
+      "review": {
+        "status": "accepted",
+        "checks": [
+          "native-input-sha256-matches-archive",
+          "optimized-master-exact-native-rgba-and-canvas",
+          "lossless-png-webp-alpha-and-visible-rgb",
+          "all-four-variants-directly-from-master-without-upscaling",
+          "individual-light-dark-visual-review",
+          "128-256-512-768-export-visual-review",
+          "metadata-vocabulary-and-assigned-resource-ownership",
+          "whole-image-capabilities-no-inferred-repeat-or-svg"
+        ],
+        "notes": "Original artwork retained without cleanup or cropping. Transparent black linework is intended for light surfaces."
+      },
+      "master_sha256": "2c6d9f59adb41026c38695f3fde0c76841bdb6a3f8fa11337f02e8d821a300f4"
+    },
+    {
+      "name": "rabbit-lutenist-painted",
+      "author": "adrian729",
+      "asset_type": "illustration",
+      "description": "A brown rabbit standing upright and facing right while playing a wooden lute, with long raised ears, pale chest fur and green ivy curling around its feet.",
+      "categories": [
+        "animals",
+        "music",
+        "fantasy",
+        "botanical",
+        "scrollwork"
+      ],
+      "subjects": [
+        "rabbit",
+        "musician",
+        "lute",
+        "ivy",
+        "leaf",
+        "vine"
+      ],
+      "facing": "right",
+      "colors": [
+        "brown",
+        "tan",
+        "cream",
+        "green",
+        "gold"
+      ],
+      "composition": "single-figure",
+      "usage_notes": [
+        "User-authored artwork; native canvas, transparency and pixels are retained. Import details are recorded in authored-additions.json.",
+        "The supplied artwork reaches the lower canvas edge; preserve the full image."
+      ],
+      "source": "assets/rabbit-lutenist-painted.png",
+      "source_sha256": "a5c8ee68e71f5676a061edc07fc8f64a8f531a7a35a702876f0aaf9ceebf35b0",
+      "native_dimensions": [
+        1197,
+        1314
+      ],
+      "native_input": "sources/tiles/rabbit-lutenist-painted.png",
+      "master_path": "png/rabbit-lutenist-painted.png",
+      "method": "supplied-authored-raster",
+      "processing": "PNG compression only; exact RGBA pixels and native canvas retained. Lossless WebP and 128/256/512/768 variants made directly from the native-size master. No trimming, cleanup, tracing, repainting, rotation or upscaling.",
+      "review": {
+        "status": "accepted",
+        "checks": [
+          "native-input-sha256-matches-archive",
+          "optimized-master-exact-native-rgba-and-canvas",
+          "lossless-png-webp-alpha-and-visible-rgb",
+          "all-four-variants-directly-from-master-without-upscaling",
+          "individual-light-dark-visual-review",
+          "128-256-512-768-export-visual-review",
+          "metadata-vocabulary-and-assigned-resource-ownership",
+          "whole-image-capabilities-no-inferred-repeat-or-svg"
+        ],
+        "notes": "Original artwork retained without cleanup or cropping. Native painted colors and transparent openings retained."
+      },
+      "master_sha256": "96caf9279d50a90ca0bfb07f33a03fd43f99229a6d983c89929c023a27540853"
+    },
+    {
+      "name": "songbirds-headpiece",
+      "author": "adrian729",
+      "asset_type": "decoration",
+      "description": "A wide black penwork headpiece with two pale songbirds facing inward among symmetric curling stems, dark ivy leaves and hanging berry clusters.",
+      "categories": [
+        "animals",
+        "botanical",
+        "scrollwork"
+      ],
+      "subjects": [
+        "bird",
+        "ivy",
+        "leaf",
+        "vine",
+        "berry"
+      ],
+      "facing": "mixed",
+      "colors": [
+        "black"
+      ],
+      "composition": "multiple-figures",
+      "usage_notes": [
+        "User-authored artwork; native canvas, transparency and pixels are retained. Import details are recorded in authored-additions.json.",
+        "Complete flourish with retained end phases; do not tile or stretch it.",
+        "Black linework and its interiors are transparent; it reads best on a light surface."
+      ],
+      "source": "assets/songbirds-headpiece.png",
+      "source_sha256": "04d40a2e4c2b1ac165f011cea980766df0b2dac1e559355a299d5ce0c1a3f409",
+      "native_dimensions": [
+        2170,
+        725
+      ],
+      "native_input": "sources/tiles/songbirds-headpiece.png",
+      "master_path": "png/songbirds-headpiece.png",
+      "method": "supplied-authored-raster",
+      "processing": "PNG compression only; exact RGBA pixels and native canvas retained. Lossless WebP and 128/256/512/768 variants made directly from the native-size master. No trimming, cleanup, tracing, repainting, rotation or upscaling.",
+      "review": {
+        "status": "accepted",
+        "checks": [
+          "native-input-sha256-matches-archive",
+          "optimized-master-exact-native-rgba-and-canvas",
+          "lossless-png-webp-alpha-and-visible-rgb",
+          "all-four-variants-directly-from-master-without-upscaling",
+          "individual-light-dark-visual-review",
+          "128-256-512-768-export-visual-review",
+          "metadata-vocabulary-and-assigned-resource-ownership",
+          "whole-image-capabilities-no-inferred-repeat-or-svg"
+        ],
+        "notes": "Original artwork retained without cleanup or cropping. Transparent black linework is intended for light surfaces."
+      },
+      "master_sha256": "80ef076ccf5e3c53c4d48d9a62951c5761d357363932058c53467df2fe2bddc2"
+    }
+  ]
+}

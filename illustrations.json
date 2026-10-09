@@ -3812,6 +3812,168 @@
         "png_bytes": 832442,
         "webp_bytes": 601034
       }
+    ],
+    "author": "adrian729"
+  },
+  {
+    "name": "choirbook-and-ivy",
+    "author": "adrian729",
+    "description": "A closed clasped book with a ribbon bookmark, visible page edges and a decorated spine, surrounded by curling ivy in black penwork.",
+    "categories": [
+      "reading",
+      "botanical",
+      "scrollwork"
+    ],
+    "subjects": [
+      "book",
+      "bookmark",
+      "ivy",
+      "leaf",
+      "vine"
+    ],
+    "facing": "unclear",
+    "colors": [
+      "black"
+    ],
+    "composition": "standalone",
+    "usage_notes": [
+      "User-authored artwork; native canvas, transparency and pixels are retained. Import details are recorded in authored-additions.json.",
+      "Black linework and its interiors are transparent; it reads best on a light surface."
+    ],
+    "png": "png/choirbook-and-ivy.png",
+    "webp": "webp/choirbook-and-ivy.webp",
+    "reference": "authored-additions",
+    "derivation": "supplied-authored-raster",
+    "asset_type": "illustration",
+    "width": 1536,
+    "height": 1024,
+    "png_bytes": 730743,
+    "webp_bytes": 482022,
+    "variants": [
+      {
+        "max_dimension": 128,
+        "rendered_max_dimension": 128,
+        "png": "png/128/choirbook-and-ivy.png",
+        "webp": "webp/128/choirbook-and-ivy.webp",
+        "width": 128,
+        "height": 85,
+        "png_bytes": 6972,
+        "webp_bytes": 4190
+      },
+      {
+        "max_dimension": 256,
+        "rendered_max_dimension": 256,
+        "png": "png/256/choirbook-and-ivy.png",
+        "webp": "webp/256/choirbook-and-ivy.webp",
+        "width": 256,
+        "height": 171,
+        "png_bytes": 21860,
+        "webp_bytes": 13998
+      },
+      {
+        "max_dimension": 512,
+        "rendered_max_dimension": 512,
+        "png": "png/512/choirbook-and-ivy.png",
+        "webp": "webp/512/choirbook-and-ivy.webp",
+        "width": 512,
+        "height": 341,
+        "png_bytes": 67916,
+        "webp_bytes": 43708
+      },
+      {
+        "max_dimension": 768,
+        "rendered_max_dimension": 768,
+        "png": "png/768/choirbook-and-ivy.png",
+        "webp": "webp/768/choirbook-and-ivy.webp",
+        "width": 768,
+        "height": 512,
+        "png_bytes": 137097,
+        "webp_bytes": 88738
+      }
+    ]
+  },
+  {
+    "name": "rabbit-lutenist-painted",
+    "author": "adrian729",
+    "description": "A brown rabbit standing upright and facing right while playing a wooden lute, with long raised ears, pale chest fur and green ivy curling around its feet.",
+    "categories": [
+      "animals",
+      "music",
+      "fantasy",
+      "botanical",
+      "scrollwork"
+    ],
+    "subjects": [
+      "rabbit",
+      "musician",
+      "lute",
+      "ivy",
+      "leaf",
+      "vine"
+    ],
+    "facing": "right",
+    "colors": [
+      "brown",
+      "tan",
+      "cream",
+      "green",
+      "gold"
+    ],
+    "composition": "single-figure",
+    "usage_notes": [
+      "User-authored artwork; native canvas, transparency and pixels are retained. Import details are recorded in authored-additions.json.",
+      "The supplied artwork reaches the lower canvas edge; preserve the full image."
+    ],
+    "png": "png/rabbit-lutenist-painted.png",
+    "webp": "webp/rabbit-lutenist-painted.webp",
+    "reference": "authored-additions",
+    "derivation": "supplied-authored-raster",
+    "asset_type": "illustration",
+    "width": 1197,
+    "height": 1314,
+    "png_bytes": 1321288,
+    "webp_bytes": 927744,
+    "variants": [
+      {
+        "max_dimension": 128,
+        "rendered_max_dimension": 128,
+        "png": "png/128/rabbit-lutenist-painted.png",
+        "webp": "webp/128/rabbit-lutenist-painted.webp",
+        "width": 117,
+        "height": 128,
+        "png_bytes": 20193,
+        "webp_bytes": 15766
+      },
+      {
+        "max_dimension": 256,
+        "rendered_max_dimension": 256,
+        "png": "png/256/rabbit-lutenist-painted.png",
+        "webp": "webp/256/rabbit-lutenist-painted.webp",
+        "width": 233,
+        "height": 256,
+        "png_bytes": 66589,
+        "webp_bytes": 48470
+      },
+      {
+        "max_dimension": 512,
+        "rendered_max_dimension": 512,
+        "png": "png/512/rabbit-lutenist-painted.png",
+        "webp": "webp/512/rabbit-lutenist-painted.webp",
+        "width": 466,
+        "height": 512,
+        "png_bytes": 231500,
+        "webp_bytes": 162342
+      },
+      {
+        "max_dimension": 768,
+        "rendered_max_dimension": 768,
+        "png": "png/768/rabbit-lutenist-painted.png",
+        "webp": "webp/768/rabbit-lutenist-painted.webp",
+        "width": 700,
+        "height": 768,
+        "png_bytes": 497765,
+        "webp_bytes": 345818
+      }
     ]
   }
 ]

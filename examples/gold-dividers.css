@@ -1,0 +1,13 @@
+/* Supplied divider composition; images resolve through their assigned resource. */
+/* Painted PNG components; only the rule changes length. */
+.manuscript-divider{display:flex;align-items:center;width:100%;min-width:160px;height:32px;filter:var(--divider-filter,none)}
+.manuscript-divider .terminal,.manuscript-divider .centre{display:block;flex:0 0 auto;background-repeat:no-repeat;position:relative;z-index:1}
+.manuscript-divider .terminal.right{transform:scaleX(-1)}
+.manuscript-divider .rule{display:block;flex:1 1 0;height:var(--divider-rule-thickness,2px);margin:0 -2px;background:linear-gradient(#7e511e,#c19845 55%,#8b602b);position:relative;z-index:0}
+.manuscript-divider[data-color="red"]{--divider-filter:hue-rotate(-55deg) saturate(.8) brightness(.85)}
+.manuscript-divider[data-color="blue"]{--divider-filter:hue-rotate(155deg) saturate(.75) brightness(.85)}
+
+.manuscript-divider.cinquefoil .terminal{width:29.411211px;height:18px;background-image:var(--cinquefoil-end);background-size:150.58823529% 164.03638119%;background-position:49.41860465% 51.53243478%}
+.manuscript-divider.cinquefoil .centre{width:35.692223px;height:28px;background-image:var(--cinquefoil-center);background-size:185.67567568% 197.23742672%;background-position:50.00000000% 52.08320658%}
+.manuscript-divider.lozenge .terminal{width:29.301803px;height:18px;background-image:var(--lozenge-end);background-size:163.04128902% 159.34515354%;background-position:50.00000000% 52.20945268%}
+.manuscript-divider.lozenge .centre{width:39.590991px;height:28px;background-image:var(--lozenge-center);background-size:134.97363796% 127.23190669%;background-position:50.00000000% 47.45165541%}

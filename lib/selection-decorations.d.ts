@@ -1,5 +1,5 @@
-import type { WholeOrnament, SelectionFilters } from './index.js';
-export type ScopedOrnament = WholeOrnament & { readonly name: "aldegrever-paired-tendrils" | "blue-acanthus-and-seed-head-panel" | "butterfly-panel-red" | "floral-bird-panel-blue" | "floral-bird-panel-left" | "floral-bird-panel-right" | "gold-scroll-with-blue-bellflowers" | "hoefnagel-strapwork-frame" | "hopfer-thistle-panel" | "isabella-gold-floral-frame" | "painted-sprawling-floral-panel" | "painted-symmetric-leaf-and-flower-panel" | "painted-three-band-floral-panel" | "plate-11-acanthus-scroll" | "plate-16-stepped-corner" | "plate-36-greek-key" | "plate-37-diamond-scroll" | "rosselli-foliate-strip" | "rosselli-mask-strip" | "rosselli-roundel-bottom" | "rosselli-roundel-second" | "rosselli-roundel-third" | "rosselli-roundel-top" | "spiral-ribbon-column"; readonly asset_type: "decoration" };
+import type { WholeOrnament, SelectionFilters, WholeDesignName, IllustrationDesignName } from './index.js';
+export type ScopedOrnament = WholeOrnament & { readonly name: Exclude<WholeDesignName, IllustrationDesignName>; readonly asset_type: "decoration" };
 export declare const ornaments: readonly ScopedOrnament[];
 export declare function getOrnament(name: string): ScopedOrnament;
 export declare function findOrnaments(filters?: SelectionFilters): ScopedOrnament[];

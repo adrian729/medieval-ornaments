@@ -36,6 +36,8 @@ def validate(catalog):
         assert set(item['colors'])<=set(SCHEMA['color']['enum'])
         assert item['facing'] in SCHEMA['facing']['enum']
         assert item['composition'] in SCHEMA['composition']['enum']
+        if 'author' in item:
+            assert isinstance(item['author'], str) and item['author'].strip(), item['name']+' author'
         if 'provenance' in item:
             origin = item['provenance']
             definition = SCHEMA['provenance']
@@ -124,22 +126,20 @@ def gallery(catalog):
     types=Counter(item['asset_type'] for item in catalog)
     lines=[START,'## Browse designs','',f"{len(catalog)} designs: {types['border']} repeating borders, {types['decoration']} whole decorations and {types['illustration']} illustrations.", '', '| Category | Designs |','| --- | --- |']
     lines.extend(f'| `{tag}` | {count} |' for tag,count in sorted(counts.items()))
-    lines+=['','| Preview | Design | Type | Files |','| --- | --- | --- | --- |']
+    lines+=['','[Open the asset browser for individual downloads, sizes and components](https://adrian729.github.io/medieval-ornaments/examples/).','','| Preview | Design | Type | Formats |','| --- | --- | --- | --- |']
     for item in sorted(catalog,key=lambda item:item['name'].casefold()):
         if config and pins[config['assignments'][item['name']]].get('gitCommit') is None:
-            lines.append(previous_rows.get((item['name'], item['asset_type']),
-                         f"| Pending publication | `{item['name']}` | {item['asset_type']} | Review in the local browser (`?assets=local`) |"))
+            row=previous_rows.get((item['name'], item['asset_type']))
+            if row:
+                formats=['PNG','WebP']+(['SVG'] if item.get('svg') else [])
+                row=row.rsplit(' | ',1)[0]+f" | {' · '.join(formats)} |"
+                row=re.sub(r'alt="[^"]*"', 'alt=""', row)
+            lines.append(row or f"| Pending publication | `{item['name']}` | {item['asset_type']} | Review in the local browser (`?assets=local`) |")
             continue
         preview=next((v['webp'] for v in item['variants'] if v['max_dimension']==128),item['webp'])
-        links=[f"[PNG]({public_url(item,item['png'])})",f"[WebP]({public_url(item,item['webp'])})"]
-        if item.get('svg'):links+=[f"[SVG]({public_url(item,item['svg'])})"]
-        if 'rotated_tile' in item['components']:
-            asset=item['components']['rotated_tile'];links+=[f"[Rotated tile]({public_url(item,asset.get('svg',asset['png']))})"]
-        if 'corner' in item['components']:
-            corner=item['components']['corner'];atlas=item['components']['border_image']
-            links+=[f"[Corner]({public_url(item,corner.get('svg',corner['png']))})",f"[Border atlas]({public_url(item,atlas.get('svg',atlas['png']))})"]
-        if 'reference_crop' in item['components']:links+=[f"[Reference crop]({public_url(item,item['components']['reference_crop']['png'])})"]
-        lines.append(f"| <img src=\"{public_url(item,preview,preview=True)}\" height=\"72\" alt=\"{item['name']}\"> | `{item['name']}` | {item['asset_type']} | {' · '.join(links)} |")
+        formats=['PNG','WebP']+(['SVG'] if item.get('svg') else [])
+        files=' · '.join(formats)
+        lines.append(f"| <img src=\"{public_url(item,preview,preview=True)}\" height=\"72\" alt=\"\"> | `{item['name']}` | {item['asset_type']} | {files} |")
     lines+=['',END]
     return '\n'.join(lines)
 

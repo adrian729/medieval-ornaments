@@ -46,8 +46,8 @@ test('scoped discovery contains only its family and combines layout/subject filt
     assert.throws(() => api.getOrnament(type === 'illustration' ? 'red-berry-vine' : 'flying-pig'), /Unknown ornament/);
   }
   assert.equal(findOrnaments({ assetType: 'border' }).length, 58);
-  assert.equal(findOrnaments({ assetType: 'decoration' }).length, 24);
-  assert.equal(findOrnaments({ assetType: 'illustration' }).length, 55);
+  assert.equal(findOrnaments({ assetType: 'decoration' }).length, 46);
+  assert.equal(findOrnaments({ assetType: 'illustration' }).length, 57);
   const rabbits = findOrnaments({ assetType: 'illustration', categories: ['animals', 'music'], subjects: ['rabbit'], facing: 'left', hasTransparency: true, composition: 'single-figure' });
   assert.deepEqual(rabbits.map(item => item.name), ['bunny-trumpet', 'rabbit-bagpiper']);
   assert.deepEqual(findOrnaments({ assetType: 'illustration', categories: ['reading'], subjects: ['rabbit'] }).map(item => item.name), ['rabbit-reading-book']);

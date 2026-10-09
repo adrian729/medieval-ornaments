@@ -38,7 +38,7 @@ def preflight(items, selected):
             assert item.get(field) in vocabulary[field]['enum'], f'Invalid {field}: {name}'
         notes = item.get('usage_notes', [])
         assert isinstance(notes, list) and all(isinstance(note, str) and note.strip() for note in notes), f'Invalid usage_notes: {name}'
-        for field in ['reference', 'derivation']:
+        for field in ['reference', 'derivation', 'author']:
             assert field not in item or isinstance(item[field], str) and item[field].strip(), f'Invalid {field}: {name}'
         for fmt in ['png', 'webp']:
             assert item.get(fmt) == f'{fmt}/{name}.{fmt}', f'Invalid master {fmt} path: {name}'
