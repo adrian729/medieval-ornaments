@@ -86,7 +86,8 @@ The main repository coordinates releases in this order:
 
 1. Validate assignments, source revisions, capacities and file ownership.
 2. Run the affected artwork checks and publish the changed numbered packages.
-3. Verify pinned CDN files and manifests before adopting their versions.
+3. Verify pinned CDN files before adopting their versions; the publish workflows
+   wait until jsDelivr serves every approved file (`scripts/warm-cdn.mjs`).
 4. Assemble compatibility archives and the optional offline browser download.
 5. Build/test the runtime and demos against the resulting locked snapshot.
 6. Publish the runtime, upload download archives to GitHub Releases, deploy

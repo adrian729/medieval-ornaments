@@ -16,6 +16,10 @@ Configure each package separately with these exact GitHub identities:
 | `@ranx729/medieval-ornaments-assets-borders-002` … `-004`, `-illustrations-002` | the matching `adrian729/medieval-ornaments-assets-<id>` | `publish.yml` |
 | `@ranx729/medieval-ornaments` (runtime) | `adrian729/medieval-ornaments` | `release.yml` |
 
+After every publish, both workflows run `scripts/warm-cdn.mjs`: they finish only
+when jsDelivr serves every file of the new version with its approved bytes, so a
+first-request delay or transient 404 never reaches a pinned release.
+
 The runtime publishes through `.github/workflows/release.yml` (dispatch on
 `main`; `check-authentication=true` verifies OIDC only). Run tests, browser
 checks and packed consumers locally first: CI has no resource checkouts.

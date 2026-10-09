@@ -116,3 +116,17 @@ test('resource tarballs list default delivery files before optional alternatives
   assert.deepEqual(deliveryOrder(files,{vine:vector,plate:traced}),['webp/128/plate.webp','webp/plate.webp','webp/vine.webp','svg/vine.svg','png/128/plate.png','png/plate.png','png/vine.png','svg/plate.svg']);
   for(const id of Object.keys(registry().sources)){const files=manifest(id).files;assert.ok(Object.values(files).reduce((sum,file)=>sum+file.bytes,0)<=registry().policy.maxNpmUnpackedBytes,`${id} fits the CDN package limit`);}
 });
+
+test('publishing waits until the CDN serves every approved file',async t=>{
+  const { warmCdn } = await import('../scripts/warm-cdn.mjs');
+  const directory=await temporary(t),good=Buffer.from('approved'),{createHash}=await import('node:crypto');
+  await writeFile(path.join(directory,'package.json'),json({name:'@ranx729/example',version:'1.0.0'}));
+  await writeFile(path.join(directory,'resource-manifest.json'),json({files:{'webp/a.webp':{bytes:good.length,sha256:createHash('sha256').update(good).digest('hex')}}}));
+  const original=globalThis.fetch;t.after(()=>{globalThis.fetch=original});
+  let attempts=0,body=good;
+  globalThis.fetch=async url=>url.startsWith('https://registry.npmjs.org/')?new Response('{}',{status:200}):++attempts===1?new Response('',{status:404}):new Response(body);
+  assert.deepEqual(await warmCdn(directory,{log:()=>{}}),{base:'https://cdn.jsdelivr.net/npm/@ranx729/example@1.0.0/',files:1});
+  assert.equal(attempts,2,'A transient 404 is retried');
+  body=Buffer.from('tampered');attempts=1;
+  await assert.rejects(warmCdn(directory,{deadlineMinutes:0,log:()=>{}}),/served 0\/1 files with approved bytes/);
+});

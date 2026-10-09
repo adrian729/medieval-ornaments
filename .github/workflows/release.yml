@@ -38,3 +38,6 @@ jobs:
       - name: Publish with provenance
         if: ${{ !inputs.check-authentication }}
         run: npm publish ./ranx729-medieval-ornaments-*.tgz --access public --provenance --registry https://registry.npmjs.org
+      - name: Wait until the default CDN serves the runtime
+        if: ${{ !inputs.check-authentication }}
+        run: node scripts/warm-cdn.mjs "$PWD"

@@ -58,3 +58,8 @@ jobs:
       - run: npm publish "$RUNNER_TEMP/package.tgz" --access public --provenance --registry https://registry.npmjs.org
         if: ${{ !inputs.check-authentication }}
         working-directory: resource
+      - name: Wait until the default CDN serves every approved file
+        if: ${{ !inputs.check-authentication }}
+        # Absorbs jsDelivr's first fetch of the new version (seconds, with brief
+        # 404s) before anything pins it; fails if a file is missing or altered.
+        run: node tooling/scripts/warm-cdn.mjs "$PWD/resource"
