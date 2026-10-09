@@ -84,7 +84,11 @@ remain unchanged. All new PNG/WebP native and 128/256/512/768 outputs and origin
 belong to decorations-001/illustrations-001. Four phases in each corner family
 remain independent images, two frames remain fixed whole images, and the four
 gold components have a CSS composition example. No repeat or SVG is inferred.
-Resource 0.1.4 publication, exact locks and runtime 0.9.0 release are pending.
+Decorations/illustrations resource 0.1.4 revisions are published and verified;
+resource-lock.json pins their exact clean source commits. Runtime 0.9.0 release
+is pending. The corrected 093951 backup changes only divider CSS/JSON, retaining
+all 24 PNGs. Its compositions use continuous 4px rules, 36px centers and
+resolution-aware individual imports; no artwork republication was required.
 Generic usage-note encoding and compact generated modules preserve all public
 metadata and individual import boundaries. Active shipped guides link preserved
 historical reports in PERFORMANCE-HISTORY.md and MERGE-PLAN.md; the alphabetical

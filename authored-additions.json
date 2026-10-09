@@ -2,21 +2,21 @@
   "schema_version": 1,
   "author": "adrian729",
   "source_archive": {
-    "filename": "medieval-ornaments-assets-backup-20261009-081316-257307.tar.gz",
-    "bytes": 19852144,
-    "sha256": "7b69794513d66c8b8295261db06b3e368c510fb077a112583049406354f8e5b4"
+    "filename": "medieval-ornaments-assets-backup-20261009-093951-831057.tar.gz",
+    "bytes": 19852271,
+    "sha256": "670ad9aba0d03ea020cb8e508a3cac122243cf07322140fa9efe554c7762fe03"
   },
   "source_notes": "User supplied all artwork as authored by adrian729, including work performed by agents on their behalf. Historical source attribution and generation prompts were not supplied. The original divider metadata explicitly identifies its four components as AI-generated. No historical origin or additional licensing claim is inferred.",
   "composition_sources": [
     {
       "path": "sources/authored/20261009/dividers.json",
       "archive_path": "assets/dividers.json",
-      "sha256": "a14d7451cb969eddcbe040375a4554e8c468a1a1da37f1785bb4c9a7146caac7"
+      "sha256": "d8cb866799dac7b1860b36290137ce9cace9238a182c6800729e0ef44ac786cd"
     },
     {
       "path": "sources/authored/20261009/dividers.css",
       "archive_path": "assets/dividers.css",
-      "sha256": "1f410ab029c62476918969eb5b1d8c7e1a45286939afa0249746badcaf9fb738"
+      "sha256": "4a9910b6e65b4605684558cd0e59b5b9ca5b1a3bc2fe2d3967f77e287a976995"
     }
   ],
   "assets": [
@@ -197,7 +197,7 @@
       "composition": "single-ornament",
       "usage_notes": [
         "User-authored artwork; native canvas, transparency and pixels are retained. Import details are recorded in authored-additions.json.",
-        "AI-generated component supplied with the gold divider compositions. The example composes fixed-proportion terminals and centers with two flexible CSS rules; color filters are display effects."
+        "AI-generated component supplied with the gold divider compositions. The example uses a continuous CSS rule beneath fixed-proportion terminals and centers; color filters are display effects."
       ],
       "source": "assets/components/gold-cinquefoil-divider-center.png",
       "source_sha256": "dad9643428241850546391a0faa6c732c19fc713f3f571518bbd317599d81ebf",
@@ -246,7 +246,7 @@
       "composition": "single-ornament",
       "usage_notes": [
         "User-authored artwork; native canvas, transparency and pixels are retained. Import details are recorded in authored-additions.json.",
-        "AI-generated component supplied with the gold divider compositions. The example composes fixed-proportion terminals and centers with two flexible CSS rules; color filters are display effects."
+        "AI-generated component supplied with the gold divider compositions. The example uses a continuous CSS rule beneath fixed-proportion terminals and centers; color filters are display effects."
       ],
       "source": "assets/components/gold-cinquefoil-divider-end.png",
       "source_sha256": "89577e3984f211dac00c1d7381612f3c4db58f0336e94af6b0e45fad50a4e3d4",
@@ -297,7 +297,7 @@
       "composition": "single-ornament",
       "usage_notes": [
         "User-authored artwork; native canvas, transparency and pixels are retained. Import details are recorded in authored-additions.json.",
-        "AI-generated component supplied with the gold divider compositions. The example composes fixed-proportion terminals and centers with two flexible CSS rules; color filters are display effects."
+        "AI-generated component supplied with the gold divider compositions. The example uses a continuous CSS rule beneath fixed-proportion terminals and centers; color filters are display effects."
       ],
       "source": "assets/components/gold-lozenge-divider-center.png",
       "source_sha256": "7d0af9b913d851f014eee73207004fda947a0fe2a194010bafc4a7949807c8fd",
@@ -348,7 +348,7 @@
       "composition": "single-ornament",
       "usage_notes": [
         "User-authored artwork; native canvas, transparency and pixels are retained. Import details are recorded in authored-additions.json.",
-        "AI-generated component supplied with the gold divider compositions. The example composes fixed-proportion terminals and centers with two flexible CSS rules; color filters are display effects."
+        "AI-generated component supplied with the gold divider compositions. The example uses a continuous CSS rule beneath fixed-proportion terminals and centers; color filters are display effects."
       ],
       "source": "assets/components/gold-lozenge-divider-end.png",
       "source_sha256": "87a81768bc306f27d9ec2237fedafd6be14a9534be7570ce82bdf78cbc49bdec",
@@ -1285,5 +1285,65 @@
       },
       "master_sha256": "80ef076ccf5e3c53c4d48d9a62951c5761d357363932058c53467df2fe2bddc2"
     }
-  ]
+  ],
+  "previous_archives": [
+    {
+      "filename": "medieval-ornaments-assets-backup-20261009-081316-257307.tar.gz",
+      "bytes": 19852144,
+      "sha256": "7b69794513d66c8b8295261db06b3e368c510fb077a112583049406354f8e5b4"
+    }
+  ],
+  "composition_revisions": [
+    {
+      "source_archive": {
+        "filename": "medieval-ornaments-assets-backup-20261009-081316-257307.tar.gz",
+        "bytes": 19852144,
+        "sha256": "7b69794513d66c8b8295261db06b3e368c510fb077a112583049406354f8e5b4"
+      },
+      "source_commit": "edfcb8fb712b91f98caf6fa0095c35797b66200a",
+      "composition_sources": [
+        {
+          "path": "sources/authored/20261009/dividers.json",
+          "archive_path": "assets/dividers.json",
+          "sha256": "a14d7451cb969eddcbe040375a4554e8c468a1a1da37f1785bb4c9a7146caac7"
+        },
+        {
+          "path": "sources/authored/20261009/dividers.css",
+          "archive_path": "assets/dividers.css",
+          "sha256": "1f410ab029c62476918969eb5b1d8c7e1a45286939afa0249746badcaf9fb738"
+        }
+      ],
+      "status": "superseded",
+      "reason": "User supplied a corrected continuous rule beneath the ornaments and 36px centers; all 24 PNG hashes remain identical."
+    }
+  ],
+  "correction_review": {
+    "status": "accepted",
+    "changed_files": [
+      {
+        "file": "assets/dividers.css",
+        "old_sha256": "1f410ab029c62476918969eb5b1d8c7e1a45286939afa0249746badcaf9fb738",
+        "new_sha256": "4a9910b6e65b4605684558cd0e59b5b9ca5b1a3bc2fe2d3967f77e287a976995",
+        "bytes": 2067
+      },
+      {
+        "file": "assets/dividers.json",
+        "old_sha256": "a14d7451cb969eddcbe040375a4554e8c468a1a1da37f1785bb4c9a7146caac7",
+        "new_sha256": "d8cb866799dac7b1860b36290137ce9cace9238a182c6800729e0ef44ac786cd",
+        "bytes": 4358
+      }
+    ],
+    "unchanged_png_count": 24,
+    "processing": "Replace only supplied CSS/JSON and the gold component usage notes. No artwork bytes, variants, names, descriptions or selection fields change.",
+    "checks": [
+      "all-24-pngs-byte-identical-between-archives",
+      "supplied-corrected-css-json-retained-byte-for-byte",
+      "continuous-4px-rule-beneath-terminal-and-center-stems",
+      "fixed-18px-terminals-36px-centers-40px-container",
+      "widths-160-420-800-at-dpr-1.25-2-4",
+      "all-selected-resource-images-decoded",
+      "light-dark-gold-red-blue-visual-review",
+      "no-runtime-browser-exceptions"
+    ]
+  }
 }

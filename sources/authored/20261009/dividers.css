@@ -1,12 +1,15 @@
-/* Painted PNG components; only the rule changes length. */
-.manuscript-divider{display:flex;align-items:center;width:100%;min-width:160px;height:32px;filter:var(--divider-filter,none)}
+/* One continuous rule under the painted ornaments, including their short joining stems. */
+.manuscript-divider{display:flex;align-items:center;position:relative;width:100%;min-width:160px;height:40px;filter:var(--divider-filter,none)}
+.manuscript-divider::before{content:"";position:absolute;left:var(--divider-terminal-inset);right:var(--divider-terminal-inset);top:50%;height:var(--divider-rule-thickness,4px);transform:translateY(-50%);background:linear-gradient(#7e511e,#c19845 55%,#8b602b);z-index:0}
 .manuscript-divider .terminal,.manuscript-divider .centre{display:block;flex:0 0 auto;background-repeat:no-repeat;position:relative;z-index:1}
 .manuscript-divider .terminal.right{transform:scaleX(-1)}
-.manuscript-divider .rule{display:block;flex:1 1 0;height:var(--divider-rule-thickness,2px);margin:0 -2px;background:linear-gradient(#7e511e,#c19845 55%,#8b602b);position:relative;z-index:0}
+.manuscript-divider .rule{display:block;flex:1 1 0;height:var(--divider-rule-thickness,4px);margin:0 -2px}
 .manuscript-divider[data-color="red"]{--divider-filter:hue-rotate(-55deg) saturate(.8) brightness(.85)}
 .manuscript-divider[data-color="blue"]{--divider-filter:hue-rotate(155deg) saturate(.75) brightness(.85)}
 
+.manuscript-divider.cinquefoil{--divider-terminal-inset:14.705605px}
 .manuscript-divider.cinquefoil .terminal{width:29.411211px;height:18px;background-image:url("components/gold-cinquefoil-divider-end.png");background-size:150.58823529% 164.03638119%;background-position:49.41860465% 51.53243478%}
-.manuscript-divider.cinquefoil .centre{width:35.692223px;height:28px;background-image:url("components/gold-cinquefoil-divider-center.png");background-size:185.67567568% 197.23742672%;background-position:50.00000000% 52.08320658%}
+.manuscript-divider.cinquefoil .centre{width:45.890000px;height:36px;background-image:url("components/gold-cinquefoil-divider-center.png");background-size:185.67567568% 197.23742672%;background-position:50.00000000% 52.08320658%}
+.manuscript-divider.lozenge{--divider-terminal-inset:14.650902px}
 .manuscript-divider.lozenge .terminal{width:29.301803px;height:18px;background-image:url("components/gold-lozenge-divider-end.png");background-size:163.04128902% 159.34515354%;background-position:50.00000000% 52.20945268%}
-.manuscript-divider.lozenge .centre{width:39.590991px;height:28px;background-image:url("components/gold-lozenge-divider-center.png");background-size:134.97363796% 127.23190669%;background-position:50.00000000% 47.45165541%}
+.manuscript-divider.lozenge .centre{width:50.902703px;height:36px;background-image:url("components/gold-lozenge-divider-center.png");background-size:134.97363796% 127.23190669%;background-position:50.00000000% 47.45165541%}

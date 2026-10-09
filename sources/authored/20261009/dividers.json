@@ -64,15 +64,16 @@
           580.5186262317038
         ],
         "stem_axis": 584.2593131158519,
-        "display_width": 35.692222546757655,
-        "display_height": 28,
+        "display_width": 45.89000041725984,
+        "display_height": 36,
         "sha256": "dad9643428241850546391a0faa6c732c19fc713f3f571518bbd317599d81ebf"
       }
     },
     "variant": "cinquefoil",
     "min_width": 160,
-    "method": "Built-in AI-generated PNG ornaments joined by a CSS rule.",
-    "usage_notes": "End and centre artwork retain fixed proportions. Only the two line segments grow; the right terminal mirrors the left. Gold is native; red and blue are display filters."
+    "rule_thickness": 4,
+    "method": "Built-in AI-generated PNG ornaments joined by a continuous CSS rule.",
+    "usage_notes": "The continuous rule extends beneath the end and centre ornaments, reinforcing their short joining stems. End and centre artwork retain fixed proportions; the right terminal mirrors the left. Gold is native; red and blue are display filters."
   },
   {
     "name": "gold-lozenge-divider",
@@ -138,14 +139,15 @@
           804.8295641187618
         ],
         "stem_axis": 506.4147820593809,
-        "display_width": 39.59099096327195,
-        "display_height": 28,
+        "display_width": 50.902702667063934,
+        "display_height": 36,
         "sha256": "7d0af9b913d851f014eee73207004fda947a0fe2a194010bafc4a7949807c8fd"
       }
     },
     "variant": "lozenge",
     "min_width": 160,
-    "method": "Built-in AI-generated PNG ornaments joined by a CSS rule.",
-    "usage_notes": "End and centre artwork retain fixed proportions. Only the two line segments grow; the right terminal mirrors the left. Gold is native; red and blue are display filters."
+    "rule_thickness": 4,
+    "method": "Built-in AI-generated PNG ornaments joined by a continuous CSS rule.",
+    "usage_notes": "The continuous rule extends beneath the end and centre ornaments, reinforcing their short joining stems. End and centre artwork retain fixed proportions; the right terminal mirrors the left. Gold is native; red and blue are display filters."
   }
 ]

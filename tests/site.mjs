@@ -53,8 +53,9 @@ try {
     check(await art());
     if (example === 'vanilla') {
       await until(`getComputedStyle(document.querySelector('.cinquefoil .terminal')).backgroundImage!=='none'`);
-      const compositions = await evaluate(`(async()=>{const elements=[...document.querySelectorAll('.manuscript-divider')],records=[];for(const width of [160,420]){for(const el of elements)el.style.width=width+'px';const data=elements.map(el=>({width:el.getBoundingClientRect().width,ornaments:[...el.querySelectorAll('.terminal,.centre')].map(x=>[x.getBoundingClientRect().width,x.getBoundingClientRect().height]),rules:[...el.querySelectorAll('.rule')].map(x=>x.getBoundingClientRect().width),urls:[...el.querySelectorAll('.terminal,.centre')].map(x=>JSON.parse(getComputedStyle(x).backgroundImage.slice(4,-1)))}));await Promise.all(data.flatMap(x=>x.urls).map(async url=>{const image=new Image();image.src=url;await image.decode();}));records.push(data);}for(const el of elements)el.style.removeProperty('width');return records;})()`);
+      const compositions = await evaluate(`(async()=>{const elements=[...document.querySelectorAll('.manuscript-divider')],records=[];for(const width of [160,420,800]){for(const el of elements)el.style.width=width+'px';const data=elements.map(el=>{const paint=getComputedStyle(el,'::before');return {width:el.getBoundingClientRect().width,ornaments:[...el.querySelectorAll('.terminal,.centre')].map(x=>[x.getBoundingClientRect().width,x.getBoundingClientRect().height]),rules:[...el.querySelectorAll('.rule')].map(x=>x.getBoundingClientRect().width),continuousRule:{height:parseFloat(paint.height),width:parseFloat(paint.width),left:parseFloat(paint.left),right:parseFloat(paint.right)},urls:[...el.querySelectorAll('.terminal,.centre')].map(x=>JSON.parse(getComputedStyle(x).backgroundImage.slice(4,-1)))}});await Promise.all(data.flatMap(x=>x.urls).map(async url=>{const image=new Image();image.src=url;await image.decode();}));records.push(data);}for(const el of elements)el.style.removeProperty('width');return records;})()`);
       assert.deepEqual(compositions[0].map(x=>x.ornaments),compositions[1].map(x=>x.ornaments));
+      assert.ok(compositions.flat().every(x=>x.ornaments.map(([,height])=>height).join(',')==='18,36,18'&&x.continuousRule.height===4&&Math.abs(x.continuousRule.width+x.continuousRule.left+x.continuousRule.right-x.width)<.05));
       assert.ok(compositions.flat().every(x=>x.rules.every(size=>size>0)&&x.urls.every(url=>url.startsWith(getAssetSource('gold-cinquefoil-divider-end').base))));
       records.push({goldCompositions:compositions});
     }
@@ -97,6 +98,10 @@ try {
   });
   await new Promise(resolve => server.listen(0, '127.0.0.1', resolve));
   await navigate(`http://127.0.0.1:${server.address().port}/medieval-ornaments-browser/examples/vanilla/`, `document.body?.dataset.ready==='true'`);
+  await until(`getComputedStyle(document.querySelector('.cinquefoil .terminal')).backgroundImage!=='none'`);
+  const zipDividers = await evaluate(`(async()=>{const records=[];for(const el of document.querySelectorAll('.manuscript-divider')){const urls=[...el.querySelectorAll('.terminal,.centre')].map(x=>JSON.parse(getComputedStyle(x).backgroundImage.slice(4,-1)));await Promise.all(urls.map(async url=>{const image=new Image();image.src=url;await image.decode();}));records.push({rule:getComputedStyle(el,'::before').height,center:el.querySelector('.centre').getBoundingClientRect().height,urls});}return records;})()`);
+  assert.equal(zipDividers.length,2);
+  assert.ok(zipDividers.every(x=>x.rule==='4px'&&x.center===36&&x.urls.every(url=>new URL(url).hostname==='127.0.0.1')), 'ZIP contains corrected self-hosted gold compositions');
   check(await art()); await choose('orientation', 'vertical'); check(await art());
   await choose('wholeDesign', 'flying-pig'); check(await art());
   assert.ok((await art()).urls.every(url => new URL(url).hostname === '127.0.0.1'), 'ZIP example should be self-hosted');

@@ -1087,9 +1087,11 @@ without upscaling. Every asset and size was inspected, with light/dark master
 and 128px comparisons. Black transparent linework has light-surface usage notes.
 Fixed frames and eight individual corner phases have no repeat/atlas/SVG claim.
 Original gold component presentation bounds/CSS are retained byte-for-byte in
-`sources/authored/20261009/`; the runnable vanilla compositions select 256px
-WebP components. Browser checks at widths 160/420/800 and DPR 1.25 retain terminal
-and center dimensions, positive connecting rules and decoded component images.
+`sources/authored/20261009/`; the runnable vanilla compositions select lossless WebP through individual
+resolvers using the cropped background canvas and device pixel ratio. Corrected
+browser checks at widths 160/420/800 and DPR 1.25/2/4 retain 18px terminals, 36px
+centers and a continuous 4px rule. Light/dark gold/red/blue views were inspected;
+all selected images decode without browser exceptions.
 The main browser's all-type author search shows 25 results and displays the
 selected author. Review evidence stays in ignored `tmp/authored-import-20261009/`.
 
@@ -1109,5 +1111,17 @@ Historical reports remain in PERFORMANCE-HISTORY.md/MERGE-PLAN.md; compact
 modules, generic note encoding and the shortened gallery preserve all public
 metadata, types, complete alphabetic previews and individual import boundaries.
 
-Resource 0.1.4 publication/CDN availability and exact source locks, runtime
-0.9.0 release, offline ZIP and live Pages verification are pending.
+Resource 0.1.4 registry/CDN bytes and all 1,001 public exports are verified.
+Decorations pins cadf00605fb05e1a96669b7a9792e22679736a2e; illustrations pins
+1aaf383b70fbad7f5ddb714f5c411878b6a2f893. Both source GitHub releases are
+public and OIDC provenance is present. Runtime 0.9.0, the rebuilt offline ZIP
+and live Pages verification remain pending.
+
+
+The corrected 093951 backup changes only dividers.css/dividers.json; all 24
+PNGs match the first archive exactly. Both resource 0.1.4 OIDC publishes
+completed successfully before this correction, and their artwork remains valid.
+Main 0.9.0 is still unpublished. The corrected composition uses a continuous
+4px rule beneath the terminal/center stems and 36px centers; its responsive and
+visual review passes. Rebuilding the offline ZIP precedes main publication. The initial composition
+and archive hashes remain in the audit/history.

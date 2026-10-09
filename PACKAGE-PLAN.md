@@ -491,7 +491,7 @@ provenance binding their exact source commits. No authentication work remains.
 - [x] Audit archive and native bytes; assign before writes; import 22 decorations and two illustrations with exact native RGBA/canvas, lossless PNG/WebP and all four smaller variants. Preserve every prior artwork file and metadata entry.
 - [x] Review all 24 on light/dark surfaces and every exported size; preserve separate corner phases and complete frames; retain the supplied CSS gold rules as individual assets plus a composition example.
 - [x] Pass resource capacity/hash checks, 42 unit tests, types, selective bundles, catalog/artwork joins and isolated rebuild retention. Reduce generated overhead and shipped historical-report duplication; keep the unchanged runtime budget.
-- [ ] Publish decorations-001/illustrations-001 0.1.4 using immutable approved main tooling; verify registry/CDN and lock exact clean commits. Borders stay 0.1.3; compatibility snapshots stay unchanged.
+- [x] Publish decorations-001/illustrations-001 0.1.4 using immutable approved main tooling; verify registry/CDN and lock exact clean commits. Borders stay 0.1.3; compatibility snapshots stay unchanged.
 - [ ] Pass the final normal npm pack and packed consumers; release runtime 0.9.0, upload the offline browser ZIP, verify registry consumers and live Pages.
 
 Current resource packs: decorations 104,541,688 B; illustrations 195,819,444 B,
@@ -499,3 +499,12 @@ both below 200 MB. Illustrations-001 has little npm upload reserve; plan the nex
 illustration against the actual upload ceiling and roll over before exceeding it.
 No artwork was simplified or made lossy to reduce runtime size. Previous audit
 reports remain fully preserved outside the npm runtime allowlist.
+
+
+The corrected 093951 backup changes only dividers.css/dividers.json; all 24
+PNGs match the first archive exactly. Both resource 0.1.4 OIDC publishes
+completed successfully before this correction, and their artwork remains valid.
+Main 0.9.0 is still unpublished. The corrected composition uses a continuous
+4px rule beneath the terminal/center stems and 36px centers; its responsive and
+visual review passes. Rebuilding the offline ZIP precedes main publication. The initial composition
+and archive hashes remain in the audit/history.
