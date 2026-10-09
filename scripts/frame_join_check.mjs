@@ -13,7 +13,8 @@ async function evaluate(expression){const r=await send('Runtime.evaluate',{expre
 const pause=ms=>new Promise(r=>setTimeout(r,ms));
 await send('Page.enable');await send('Network.enable');await send('Network.setCacheDisabled',{cacheDisabled:true});
 await send('Emulation.setDeviceMetricsOverride',{width:1200,height:1000,deviceScaleFactor:dpr,mobile:false});
-await send('Page.navigate',{url:origin+'/examples/demo.html'});
+// The internal QA page supplies ornaments.css; frames are built here with the library.
+await send('Page.navigate',{url:origin+'/examples/qa.html?assets=local'});
 for(let i=0;i<100;i++){if(await evaluate('document.body?.dataset.ready==="true"'))break;await pause(50)}
 if(label==='matrix'){
   const catalog=await(await fetch(origin+'/images.json')).json();
@@ -43,7 +44,7 @@ if(label==='matrix'){
 }
 const results=[];
 for(const name of ['red-berry-vine','plate-13-leaf-and-flower-vine','plate-38-diagonal-meander'])for(const size of [32,33,34]){
-  const rect=await evaluate(`(async()=>{for(const [id,value] of [['frameDesign',${JSON.stringify(name)}],['thickness',${JSON.stringify(String(size))}]]){const el=document.getElementById(id);el.value=value;el.dispatchEvent(new Event('input'))}const frame=document.getElementById('frameExample');const image=new Image();image.src=JSON.parse(getComputedStyle(frame).borderImageSource.slice(4,-1));await image.decode();frame.scrollIntoView({block:'center'});const r=frame.getBoundingClientRect();return {x:r.x,y:r.y,width:r.width,height:r.height,border:parseFloat(getComputedStyle(frame).borderTopWidth)}})()`);
+  const rect=await evaluate(`(async()=>{const api=await import('/lib/index.js');const resolved=api.resolveOrnament('frame',{design:${JSON.stringify(name)},size:${size},assetsBase:location.origin+'/'});document.body.className='';document.body.innerHTML='';document.body.style.cssText='margin:0;background:#fbf8f2';const frame=document.createElement('div');frame.className=resolved.className;frame.style.cssText='position:absolute;left:40px;top:40px;width:420px;height:240px';for(const [key,value] of Object.entries(resolved.style))frame.style.setProperty(key,value);document.body.append(frame);const image=new Image();image.src=resolved.asset.url;await image.decode();const r=frame.getBoundingClientRect();return {x:r.x,y:r.y,width:r.width,height:r.height,border:parseFloat(getComputedStyle(frame).borderTopWidth),source:resolved.asset.path}})()`);
   await pause(50);const shot=await send('Page.captureScreenshot',{captureBeyondViewport:false});
   const file=`frame-joins-${label}-${name}-${size}.png`;
   await writeFile(new URL('../tmp/'+file,import.meta.url),Buffer.from(shot.data,'base64'));

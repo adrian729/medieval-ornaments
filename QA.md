@@ -1152,3 +1152,37 @@ One initial CDN decode failed; all 12 divider WebP variants were then verified
 against approved hashes and the complete live suite passed on retry. Evidence:
 `tmp/authored-import-20261009/live-site.log`, `tmp/package-site.json`,
 `tmp/authored-import-20261009/integration-registry.log`. No checks remain pending.
+
+## Public pages redesign and resource split (2026-10-09, in progress)
+
+Baseline (live 0.9.0, cold cache): the gallery requested a separate unpkg file per
+card from a 340px scroll box; 4 s after load 1 of 12 visible thumbnails had loaded
+and 20 of 57 after about 12 s. Single uncached unpkg files took 0.8–44 s; the same
+files took ~0.05 s once cached. The plain-JavaScript page made 191 script requests
+(186 KB). jsDelivr refused borders-001 and illustrations-001 ("Package size
+exceeded the configured limit of 150 MB"). Tarball entries were alphabetical, so
+borders-001's default WebP files started after 369 MB of PNG/SVG.
+
+New build, local cold loads at 1366×900 with linked artwork: overview 25 requests
+(51 KB JS including the lazily loaded catalog), gallery 58 requests (54 KB JS;
+24 visible thumbnails at the 128px tier plus the prefetched next 24), plain
+JavaScript 21 requests (53 KB JS), React 14 requests (116 KB JS). The local Pages
+assembly is 42,731,024 B, under the 50 MB guard.
+
+Resource split: every package's public files are at most 130.2 MB unpacked
+(borders-002); compressed uploads are 22.7–111.1 MB. Delivery-ordered tarballs
+contain exactly npm's file set, are byte-reproducible, and extract to the
+approved bytes (466 files compared for decorations-001). `npm test` (43),
+`test:types`, `catalog.py --check`, `artwork_check.py` and
+`scripts/browser_check.mjs` (235 checks: library-driven artwork for all 161
+designs and formats on the QA page, gallery/overview/plain-JavaScript pages at
+320/375/768/1200px, review page, tab icons) pass. Two review-page expectations
+(55 source additions, 41 illustrations) predated the 0.9.0 additions and now
+derive from the catalog. The offline ZIP (477,426,037 B) serves every image from
+its own folder and hides the React link.
+Packed consumers (`npm run test:integration`) pass with the new React page and
+locked resource commits: 161 designs, 174 native axis cases, React 18/19,
+Strict Mode, SSR/hydration and self-hosting. After regenerating the README
+gallery for the seven locked commits, the runtime pack is 200,162 B, 162 B over
+the 200,000 B budget (seven distinct pinned commits compress less than three);
+the budget decision is pending with the maintainer.

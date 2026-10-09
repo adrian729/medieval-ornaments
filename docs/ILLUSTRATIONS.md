@@ -181,9 +181,10 @@ Search is case-insensitive, with all whitespace-separated tokens required;
 it includes descriptions, usage notes, subjects, colors, types and composition.
 Results are alphabetical and do not imply relevance ranking.
 
-The [design browser](https://adrian729.github.io/medieval-ornaments/examples/?type=illustration) offers type,
-category, search, facing, composition and transparency filters. The permanent
-React/vanilla demos accept every illustration in the whole-image picker.
+The [gallery](https://adrian729.github.io/medieval-ornaments/examples/?type=illustration) offers type,
+category and search; each design's detail lists facing, composition, background,
+source and usage notes. The permanent React/vanilla examples accept every
+illustration in their image picker.
 
 ## Sources, authors and maintenance
 

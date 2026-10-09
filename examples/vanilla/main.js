@@ -1,47 +1,85 @@
-import { createFrame, createDivider, createOrnamentImage, findOrnaments, getOrnament } from '@ranx729/medieval-ornaments';
+import { createFrame, createDivider, createOrnamentImage, findOrnaments, resolveOrnament } from '@ranx729/medieval-ornaments';
 import { createDivider as createBerryDivider } from '@ranx729/medieval-ornaments/designs/red-berry-vine';
 import { createOrnamentImage as createFlyingPig } from '@ranx729/medieval-ornaments/designs/flying-pig';
+import { assetsBase } from '../shared/env.js';
+import { $, $$, element, readable, codePanel, copyText } from '../shared/ui.js';
+import { htmlSnippet } from '../shared/snippets.js';
 
-// Default hosting follows immutable resource pins. Offline demos set assetsBase.
-// for version-pinned CDN images, or use their own copied public asset root.
-const assetsBase = document.documentElement.dataset.assetsBase ? new URL(document.documentElement.dataset.assetsBase, location.href).href : new URLSearchParams(location.search).get('assets')==='local' ? new URL('../../', import.meta.url).href : undefined;
-const byId = id => document.getElementById(id);
-function populate(id, use, selected) {
-  const select = byId(id), groups = new Map();
-  for (const item of findOrnaments({ use })) {
-    const category = item.asset_type + ' · ' + item.categories[0];
-    if (!groups.has(category)) {
-      const group = document.createElement('optgroup'); group.label = category;
-      groups.set(category, group);
-    }
-    const option = document.createElement('option'); option.value = item.name;
-    option.textContent = item.name; option.selected = item.name === selected;
-    groups.get(category).append(option);
+// The offline ZIP self-hosts its artwork; published pages use the default CDN.
+const hosting = assetsBase ? { assetsBase } : {};
+const capital = text => text[0].toUpperCase() + text.slice(1);
+
+function populate(select, items, group, selected) {
+  const groups = new Map();
+  for (const item of items) {
+    const label = group(item);
+    if (!groups.has(label)) groups.set(label, element('optgroup', { label }));
+    groups.get(label).append(new Option(readable(item.name), item.name));
   }
-  for (const key of [...groups.keys()].sort()) select.append(groups.get(key));
+  select.replaceChildren(...[...groups.keys()].sort().map(label => groups.get(label)));
+  select.value = selected;
 }
-populate('design', 'divider', 'red-berry-vine');
-populate('wholeDesign', 'image', 'floral-bird-panel-blue');
-let frame = createFrame(byId('frame'), { design: 'red-berry-vine', size: 33, assetsBase });
-const divider = createDivider(byId('divider'), { design: 'red-berry-vine', length: 420, assetsBase });
-const whole = createOrnamentImage(byId('whole'), { design: 'floral-bird-panel-blue', size: 128, loading: 'lazy', decoding: 'async', assetsBase });
-function update() {
-  const design = byId('design').value, orientation = byId('orientation').value;
-  const size = Number(byId('size').value), length = Number(byId('length').value);
-  frame?.update({ design });
-  divider.update({ design, orientation, size, length });
-  whole.update({ design: byId('wholeDesign').value });
-  const illustration = getOrnament(byId('wholeDesign').value);
-  byId('imageDetails').textContent = illustration.description + ' · ' + illustration.asset_type + ' · ' + (illustration.has_transparency ? 'has transparency' : 'opaque background');
-  byId('details').textContent = `${size}px thick · ${length}px available · ${divider.configuration.axis === 'x' ? 'horizontal' : 'vertical'} · ${divider.configuration.asset.path}`;
-  byId('code').textContent = `import { createDivider } from '@ranx729/medieval-ornaments';\nimport '@ranx729/medieval-ornaments/styles.css';\n\nconst divider = createDivider(element, {\n  design: '${design}',\n  orientation: '${orientation}',\n  size: ${size}, length: ${length}\n});\n// divider.update({ orientation: 'vertical' });\n// divider.destroy();`;
-}
-for (const id of ['design', 'orientation', 'size', 'length', 'wholeDesign']) byId(id).addEventListener('input', update);
-byId('toggle').addEventListener('click', () => {
-  if (frame) { frame.destroy(); frame = null; byId('toggle').textContent = 'Attach frame'; }
-  else { frame = createFrame(byId('frame'), { design: byId('design').value, size: 33, assetsBase }); byId('toggle').textContent = 'Detach frame'; }
+populate($('#design'), findOrnaments({ use: 'divider' }), item => capital(item.categories[0]), 'red-berry-vine');
+populate($('#wholeDesign'), findOrnaments({ use: 'image' }), item => item.asset_type === 'illustration' ? 'Illustrations' : 'Decorations', 'floral-bird-panel-blue');
+
+const read = () => ({
+  design: $('#design').value, orientation: $('#orientation').value, size: Number($('#size').value),
+  image: $('#wholeDesign').value, imageSize: Number($('#imageSize').value)
 });
+let options = read();
+let frame = createFrame($('#frame'), { design: options.design, size: options.size, ...hosting });
+const divider = createDivider($('#divider'), { design: options.design, orientation: options.orientation, size: options.size, ...hosting });
+const whole = createOrnamentImage($('#whole'), { design: options.image, size: options.imageSize, loading: 'lazy', decoding: 'async', ...hosting });
+const code = codePanel($('#playCode'));
+
+function renderCode() {
+  const { design, orientation, size, image, imageSize } = options;
+  const js = `import { createFrame, createDivider, createOrnamentImage } from '@ranx729/medieval-ornaments';
+import '@ranx729/medieval-ornaments/styles.css';
+
+const frame = createFrame(document.querySelector('#frame'), {
+  design: '${design}', size: ${size}
+});
+const divider = createDivider(document.querySelector('#divider'), {
+  design: '${design}', orientation: '${orientation}', size: ${size}
+});
+const image = createOrnamentImage(document.querySelector('#image'), {
+  design: '${image}', size: ${imageSize}, loading: 'lazy'
+});
+
+// Later: change options in place, or remove the ornament.
+divider.update({ orientation: 'horizontal' });
+frame.destroy();`;
+  // The same result without JavaScript, from the library's own resolution.
+  const blocks = [
+    htmlSnippet(resolveOrnament('frame', { design, size, ...hosting }), '…'),
+    htmlSnippet(resolveOrnament('divider', { design, orientation, size, ...hosting })),
+    htmlSnippet(resolveOrnament('image', { design: image, size: imageSize, ...hosting }))
+  ];
+  const link = blocks[0].split('\n')[0];
+  const html = [link, ...blocks.map(block => block.split('\n').slice(2).join('\n'))].join('\n\n');
+  code.set({ js, html });
+}
+
+function update() {
+  options = read();
+  $('#sizeOut').value = `${options.size}px`;
+  frame?.update({ design: options.design, size: options.size });
+  divider.update({ design: options.design, orientation: options.orientation, size: options.size });
+  whole.update({ design: options.image, size: options.imageSize });
+  const { axis, asset } = divider.configuration;
+  $('#details').textContent = `${axis === 'x' ? 'Horizontal' : 'Vertical'} divider using ${asset.path}`;
+  renderCode();
+}
+for (const id of ['design', 'orientation', 'size', 'wholeDesign', 'imageSize']) $('#' + id).addEventListener('input', update);
+
+$('#toggle').addEventListener('click', () => {
+  if (frame) { frame.destroy(); frame = null; $('#toggle').textContent = 'Attach frame'; }
+  else { frame = createFrame($('#frame'), { design: options.design, size: options.size, ...hosting }); $('#toggle').textContent = 'Detach frame'; }
+});
+for (const button of $$('[data-copy-text]')) button.addEventListener('click', () => copyText(button.dataset.copyText, button));
+
 update();
-createBerryDivider(byId('selective-divider'), { assetsBase });
-createFlyingPig(byId('selective-illustration'), { assetsBase, size: 128, loading: 'lazy', decoding: 'async' });
+createBerryDivider($('#selective-divider'), hosting);
+createFlyingPig($('#selective-illustration'), { size: 128, loading: 'lazy', decoding: 'async', ...hosting });
 document.body.dataset.ready = 'true';

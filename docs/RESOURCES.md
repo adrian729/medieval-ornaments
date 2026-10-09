@@ -46,6 +46,8 @@ These are project policies, not claims about GitHub's hard repository limit:
   current-file size. Warn at 800 MB and stop extending it at 950 MB. Partial
   developer clones are not valid measurements of total object storage.
 - Keep each resource manifest below 1 MiB and each compressed npm upload below 200 MB; these independent limits can require rollover before the tracked-file budget. `pack --source <id>` verifies and measures the actual upload.
+- Keep each package's public files at or below 140 MB unpacked (jsDelivr
+  refuses 150 MB); `plan`, `approve`, `pack` and publishing enforce it.
 - Reject regular Git files above 90 MiB. Splitting repositories does not solve
   a single oversized file; that resource needs an explicitly reviewed storage
   method.
@@ -221,6 +223,9 @@ node scripts/verify-resource.mjs borders-002 tmp/resource-checkouts/borders-002
 # Commit/push the resource checkout; check npm pack before publishing.
 ```
 
+Uploads (`scripts/pack-resource.mjs`) order npm's file set WebP, vector SVG,
+PNG, then trace SVG, so CDNs reach common files first.
+
 The scaffold imports the pinned main reusable workflow. Configure npm Trusted
 Publishing separately for each package with its **own resource repository**,
 workflow `publish.yml`, and GitHub-hosted runner; the caller's repository
@@ -245,13 +250,16 @@ resource manifests and old npm releases stay available; do not prune archived
 history or rename the design. A source may therefore retain inactive designs
 while the central assignment selects exactly one current owner.
 
+To shrink a source, migrate designs, then `release --design <name>` removes
+verified copies from the old checkout; published versions keep them.
+
 Compatibility archives are snapshots, retained at assets 0.4.0 / illustrations
 0.1.0 for runtime 0.7.0. They are optional and their direct exports remain valid.
 New artwork uses independent numbered pins. Refreshing a compatibility archive
 requires its existing audited two-package version procedure; descriptive
 metadata alone need not trigger that refresh or numbered image publication.
 
-Pages builds need only `npm run build:react` and `npm run build:site`; their
+Pages builds need only `npm run build:examples` and `npm run build:site`; their
 50 MB local guard detects accidental resource bundling. `build:browser` is an
 explicit full-resource offline artifact, uploaded to the runtime GitHub Release.
 

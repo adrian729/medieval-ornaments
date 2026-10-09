@@ -1,170 +1,171 @@
 <!doctype html>
 <html lang="en">
 <head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gallery · Medieval Ornaments</title>
+<meta name="description" content="Browse every medieval border, decoration and illustration, preview it at your size and copy ready-to-use code.">
 <link rel="icon" type="image/x-icon" href="../favicon.ico" sizes="16x16 32x32 48x48">
 <link rel="icon" type="image/png" href="../favicon-32.png" sizes="32x32">
 <link rel="icon" type="image/svg+xml" href="../favicon.svg" sizes="any">
-
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Medieval ornaments · Browse by use and category</title>
+<link rel="preconnect" href="https://unpkg.com">
 <link rel="stylesheet" href="../ornaments.css">
+<link rel="stylesheet" href="site.css">
 <style>
-*{box-sizing:border-box}body{margin:0;background:#ece7dc;color:#28251e;font:16px/1.5 system-ui,sans-serif}main{max-width:1240px;margin:auto;padding:28px}h1{margin:0;font:36px Georgia,serif}h2{font:24px Georgia,serif}p{max-width:850px}a{color:#704123}label{display:grid;gap:6px;font-size:14px;min-width:0;max-width:100%}select,input[type=search]{max-width:100%;width:260px;padding:8px;font:inherit}input[type=range]{width:160px}button{font:inherit;cursor:pointer}button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid #704123;outline-offset:3px}.browse,.controls{padding:20px;background:#faf8f1;border-radius:8px;margin:20px 0}.filters,.controls{display:flex;flex-wrap:wrap;gap:18px}.controls{margin-bottom:0}.design-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:12px;height:340px;overflow:auto;padding:6px 3px}.design-card{background:#f0ebdd;border:2px solid transparent;border-radius:6px;color:inherit;text-align:left;padding:10px;min-width:0}.design-card[aria-pressed=true]{border-color:#704123;background:#fff8e7}.design-card img{width:100%;height:72px;object-fit:contain;display:block;margin-bottom:8px}.design-card strong{display:block;font-size:13px;font-weight:600}.design-card small{display:block;color:#6b6156;margin-top:4px;font-size:11px}#purposeNote,#resultCount,#usage,output{min-height:1.5em}#previewControls{visibility:hidden}body[data-ready=true] #previewControls{visibility:visible}.result-count,.usage-note{color:#6b6156;font-size:14px}.stage{padding:28px 10px;overflow:auto;background:#f6f2e6;margin-top:20px;border-radius:8px;min-height:260px}.stage.dark{background:#252b30;color:#f5efe1}.frame{margin:auto;display:flex;align-items:center;justify-content:center;text-align:center;flex-direction:column;padding:12px}.frame h2{margin:8px;font-size:28px}.frame p{font-size:14px;max-width:360px}.standalone,#previewStrip{margin:auto}.details{display:flex;flex-wrap:wrap;align-items:flex-start;gap:32px;margin-top:24px}.detail{max-width:560px}.sample{padding:14px;background:#faf8f1;max-width:100%;overflow:hidden}#strip{max-width:100%}#original{max-width:100%;height:auto}#corner{width:96px;height:96px}code{font-size:13px;overflow-wrap:anywhere}footer{font-size:13px;margin-top:36px}.links{display:flex;gap:15px;flex-wrap:wrap}[hidden]{display:none!important}
-@media(max-width:600px){main{padding:16px}.browse,.controls{padding:12px;gap:12px}.stage{padding:18px 4px}.detail{width:100%}.design-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+  .gallery-head { display: grid; gap: 8px; padding-block: 40px 20px; }
+  .toolbar { position: sticky; top: 60px; z-index: 10; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px; padding-block: 12px; background: var(--bg); border-bottom: 1px solid var(--line); }
+  .toolbar-fields { display: flex; flex-wrap: wrap; gap: 10px; flex: 1 1 360px; justify-content: flex-end; }
+  .toolbar-fields input[type="search"] { flex: 1 1 220px; min-width: 0; }
+  .toolbar-fields select { flex: 0 1 220px; min-width: 0; }
+  .result-line { display: flex; align-items: center; gap: 12px; min-height: 44px; color: var(--muted); font-size: 14px; }
+  .link-button { border: 0; background: none; padding: 0; color: var(--accent); font: inherit; cursor: pointer; text-decoration: underline; text-underline-offset: 3px; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(168px, 1fr)); gap: 16px; padding: 0; margin: 0; list-style: none; }
+  .tile { display: flex; flex-direction: column; width: 100%; height: 100%; padding: 0; text-align: left; color: var(--ink); background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; cursor: pointer; transition: border-color .15s, box-shadow .15s, transform .15s; font: inherit; }
+  .tile:hover { border-color: var(--line-strong); box-shadow: var(--shadow); transform: translateY(-1px); }
+  .tile-art { display: grid; place-items: center; height: 136px; padding: 12px; background: var(--stage-paper); border-bottom: 1px solid var(--line); }
+  .tile-art img { max-width: 128px; max-height: 112px; width: auto; height: auto; }
+  .tile-art .ornament-divider { width: 100%; }
+  .tile-meta { display: grid; gap: 2px; padding: 10px 12px 12px; }
+  .tile-name { font-weight: 600; font-size: 14px; line-height: 1.35; }
+  .tile-type { font-size: 12.5px; color: var(--muted); }
+  .empty { padding: 48px 0; text-align: center; color: var(--muted); }
+  .pager { display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 6px; margin-top: 36px; }
+  .pager .btn[aria-current="page"] { background: var(--ink); color: var(--bg); border-color: var(--ink); }
+  .pager .gap { color: var(--muted); padding: 0 4px; }
+
+  dialog.detail { width: min(1120px, calc(100vw - 32px)); max-height: calc(100dvh - 32px); padding: 0; border: 1px solid var(--line); border-radius: 16px; background: var(--surface); color: var(--ink); box-shadow: 0 30px 90px rgb(0 0 0 / 35%); overflow: hidden; }
+  dialog.detail[open] { display: flex; flex-direction: column; }
+  dialog.detail::backdrop { background: rgb(18 15 12 / 60%); backdrop-filter: blur(2px); }
+  .detail-head { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 14px 16px 14px 24px; border-bottom: 1px solid var(--line); }
+  .detail-head h2 { font-size: 1.5rem; }
+  .detail-actions { display: flex; gap: 6px; flex: none; }
+  .detail-body { display: grid; grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr); overflow: auto; }
+  .detail-preview { position: sticky; top: 0; align-self: start; display: grid; gap: 14px; align-content: start; padding: 20px 24px 24px; }
+  .detail-info { border-left: 1px solid var(--line); }
+  .preview-bar { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px; }
+  .detail-stage { min-height: 340px; }
+  .detail-stage .sample-frame { min-height: 240px; }
+  .detail-stage img { max-width: 100%; }
+  .detail-stage .vertical-wrap { display: flex; gap: 20px; align-items: center; height: 260px; }
+  .preview-controls { display: flex; flex-wrap: wrap; gap: 16px 24px; align-items: end; }
+  .preview-controls .field { flex: 1 1 200px; }
+  .detail-info { display: grid; gap: 18px; align-content: start; padding: 20px 24px 28px; min-width: 0; }
+  .detail-info h3 { font-size: 1.05rem; margin-bottom: -8px; }
+  .facts { display: grid; grid-template-columns: max-content minmax(0, 1fr); gap: 8px 16px; margin: 0; font-size: 14px; }
+  .facts dt { color: var(--muted); }
+  .facts dd { margin: 0; min-width: 0; overflow-wrap: anywhere; }
+  details.notes summary { cursor: pointer; font-weight: 600; font-size: 14px; }
+  details.notes ul { margin: 8px 0 0; padding-left: 18px; color: var(--muted); font-size: 14px; display: grid; gap: 4px; }
+  .files { display: grid; gap: 10px; font-size: 14px; }
+  .files > div { display: grid; gap: 2px; }
+  .files strong { font-weight: 600; }
+  .files p { display: flex; flex-wrap: wrap; gap: 4px 12px; color: var(--muted); }
+  .files a { white-space: nowrap; }
+  @media (max-width: 860px) {
+    dialog.detail { width: 100vw; max-width: 100vw; height: 100dvh; max-height: 100dvh; border-radius: 0; border: 0; }
+    .detail-body { grid-template-columns: minmax(0, 1fr); }
+    .detail-preview { position: static; border-bottom: 1px solid var(--line); padding: 16px; }
+    .detail-info { border-left: 0; }
+    .detail-info { padding: 16px 16px 32px; }
+    .detail-head { padding: 10px 10px 10px 16px; }
+    .detail-head h2 { font-size: 1.25rem; }
+    .detail-stage { min-height: 280px; }
+  }
+  @media (max-width: 640px) {
+    .toolbar { position: static; }
+    .toolbar #typeTabs { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; width: 100%; }
+    .toolbar-fields { flex-basis: 100%; }
+    .toolbar-fields input[type="search"], .toolbar-fields select { flex: 1 1 100%; }
+  }
+  @media (max-width: 520px) { .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; } .tile-art { height: 120px; padding: 8px; } }
 </style>
+<script type="module" src="gallery.js"></script>
 </head>
 <body>
-<main>
-<h1>Find an ornament for your page</h1>
-<p>Start with how you want to use it, then choose a category or search the collection. <a href="demo.html">See three simple usage examples →</a> · <a href="vanilla/">JavaScript package</a> · <a href="react/">React components</a></p>
-<section class="browse" aria-label="Find a design">
-<div class="filters">
-<label>Use as<select id="purpose"><option value="frame">Frame around content</option><option value="divider">Repeating divider</option><option value="whole">Whole image</option></select></label>
-<label>Artwork type<select id="assetType"><option value="all">All types</option><option value="border">Repeating borders</option><option value="decoration">Whole decorations</option><option value="illustration">Illustrations</option></select></label>
-<label>Category<select id="category"><option value="all">All categories</option></select></label>
-<label>Search<input id="search" type="search" placeholder="Flowers, butterflies, gold…"></label>
-</div>
-<details><summary>Facing, composition and transparency</summary><div class="filters">
-<label>Facing<select id="facing"><option value="all">Any direction</option><option>left</option><option>right</option><option>front</option><option>mixed</option><option>unclear</option></select></label>
-<label>Composition<select id="composition"><option value="all">Any composition</option><option>single-figure</option><option>multiple-figures</option><option>framed-scene</option><option>single-ornament</option><option>standalone</option><option>repeat-tile</option></select></label>
-<label>Transparency<select id="transparency"><option value="all">Any background</option><option value="alpha">Has transparent pixels</option><option value="opaque">Fully opaque</option></select></label>
-</div></details>
-<p class="usage-note" id="purposeNote"></p>
-<p class="result-count" id="resultCount" aria-live="polite"></p>
-<div class="design-grid" id="designGrid" aria-label="Matching designs"></div>
-</section>
-<label>Selected design<select id="design"></select></label>
-<p id="usage"></p>
-<div class="controls" id="previewControls" aria-label="Preview settings">
-<label>Format<select id="format"><option value="svg">SVG</option><option value="webp" selected>WebP</option><option value="png">PNG</option></select></label>
-<label id="orientationControl" hidden>Orientation<select id="orientation"><option value="native">Original direction</option><option value="x">Horizontal</option><option value="y">Vertical</option></select></label>
-<label id="widthControl"><span id="widthLabel">Frame width</span><output id="widthOut"></output><input id="width" type="range" min="240" max="1050" value="680"></label>
-<label id="heightControl"><span id="heightLabel">Frame height</span><output id="heightOut"></output><input id="height" type="range" min="128" max="650" value="330"></label>
-<label id="thicknessControl"><span id="thicknessLabel">Border thickness</span><output id="thicknessOut"></output><input id="thickness" type="range" min="12" max="80" value="32"></label>
-<label id="fitControl">Repeat fit<select id="fit"><option value="round">Whole repeats (round)</option></select></label>
-<label>Background<select id="theme"><option value="light">Light</option><option value="dark">Dark</option></select></label>
-<label>Mirror<select id="mirror"><option value="none">None</option><option value="x">Horizontal</option><option value="y">Vertical</option></select></label>
-</div>
-<div class="stage" id="stage">
-<div class="frame ornament-frame" id="frame"><h2>A decorated page</h2><p>Choose an ornament and try it at the size you need.</p></div>
-<div class="ornament-divider" id="previewStrip" aria-hidden="true" hidden></div>
-<img class="standalone ornament-image" id="standalone" decoding="async" alt="" hidden>
-</div>
-<p id="description"></p><p><code id="tags"></code></p><ul id="usageNotes"></ul><p id="author" hidden></p><p id="provenance" hidden></p><div class="links" id="links"></div>
-<div class="details">
-<section class="detail" id="repeatSection"><h2>Matching repeat tile</h2><div class="sample"><div class="ornament-divider" id="strip"></div></div><p id="axis"></p></section>
-<section class="detail" id="cornerSection"><h2>Adapted corner</h2><div class="sample"><img id="corner" alt=""></div></section>
-<section class="detail" id="originalSection" hidden><h2>Original reference crop</h2><div class="sample"><img id="original" alt="Original supplied plate region"></div><p>This preserves the supplied painted artwork. Use it as a complete image; it is not a seamless repeat tile.</p></section>
-</div>
-<footer>Numbered designs preserve source raster artwork and offer color traces; their corners reflect the same pattern. Floral vectors have adapted corners. Most illustrations and painted panels are AI-assisted extractions; complete scenes can retain their backgrounds. <a href="../USAGE.md">Usage</a> · <a href="../SELECTION.md">Selection guide</a> · <a href="../docs/ILLUSTRATIONS.md">Illustrations</a> · <a href="../images.json">Catalog</a> · <a href="qa.html">All frame previews</a></footer>
+<header class="site-header">
+  <div class="container">
+    <a class="brand" href="demo.html"><img src="../favicon.svg" alt=""><span>Medieval Ornaments</span></a>
+    <nav class="site-nav" aria-label="Main">
+      <a href="demo.html">Overview</a>
+      <a href="index.html" aria-current="page">Gallery</a>
+      <a href="vanilla/">JavaScript</a>
+      <a href="react/" data-online-only>React</a>
+      <a class="nav-secondary" href="https://github.com/adrian729/medieval-ornaments" data-online-only>GitHub</a>
+    </nav>
+  </div>
+</header>
+
+<main class="container">
+  <div class="gallery-head">
+    <h1>Gallery</h1>
+    <p class="lede">Every border, decoration and illustration. Select one to preview it at your size, check its source and copy the code.</p>
+  </div>
+  <div class="toolbar">
+    <div class="segmented" id="typeTabs" role="group" aria-label="Artwork type">
+      <button type="button" data-value="all">All<span class="count"></span></button>
+      <button type="button" data-value="border">Borders<span class="count"></span></button>
+      <button type="button" data-value="decoration">Decorations<span class="count"></span></button>
+      <button type="button" data-value="illustration">Illustrations<span class="count"></span></button>
+    </div>
+    <div class="toolbar-fields">
+      <label class="visually-hidden" for="search">Search designs</label>
+      <input id="search" type="search" placeholder="Search: rabbit, gold, butterfly…" autocomplete="off">
+      <label class="visually-hidden" for="category">Category</label>
+      <select id="category"><option value="">All categories</option></select>
+    </div>
+  </div>
+  <p class="result-line"><span id="resultCount" aria-live="polite"></span><button type="button" class="link-button" id="clearFilters" hidden>Clear filters</button></p>
+  <ul class="grid" id="grid" aria-label="Designs"></ul>
+  <p class="empty" id="empty" hidden>No designs match. Try another word, type or category.</p>
+  <nav class="pager" id="pager" aria-label="Pages"></nav>
 </main>
-<script type="module">
-import { assetUrl } from './assets.js';
-import { observeNearViewport } from '../lib/visibility.js';
-let thumbnailCleanup=[];
-const $=id=>document.getElementById(id);let catalog=[];
-const readable=name=>name.replace(/^plate-(\d+)-/,'Plate $1 · ').replaceAll('-',' ');
-const notes={frame:'Frames use matching corners and repeating edges. Their border thickness is independent of the content size.',divider:'Dividers repeat horizontally or vertically. Choose an orientation; the artwork turns to match while keeping its proportions.',whole:'Decorations and illustrations are complete images. Use the artwork-type filter to distinguish them. Preserve their proportions and inspect retained backgrounds.'};
-function candidates(){return catalog.filter(item=>($('purpose').value==='whole')===(item.kind==='standalone')
-  &&($('assetType').value==='all'||item.asset_type===$('assetType').value)
-  &&($('transparency').value==='all'||item.has_transparency===($('transparency').value==='alpha'))
-  &&($('facing').value==='all'||item.facing===$('facing').value)
-  &&($('composition').value==='all'||item.composition===$('composition').value))}
-function renderBrowser(preferred,preferredCategory){
-  for(const cancel of thumbnailCleanup)cancel();thumbnailCleanup=[];
-  const pool=candidates(),categories=[...new Set(pool.flatMap(item=>item.categories))].sort(),oldCategory=preferredCategory??$('category').value;
-  $('category').replaceChildren(new Option('All categories','all'),...categories.map(tag=>new Option(tag+' ('+pool.filter(i=>i.categories.includes(tag)).length+')',tag)));
-  $('category').value=categories.includes(oldCategory)?oldCategory:'all';
-  const tokens=$('search').value.trim().toLowerCase().split(/\s+/).filter(Boolean),items=pool.filter(item=>($('category').value==='all'||item.categories.includes($('category').value))&&tokens.every(token=>[item.name,item.description,item.facing,item.composition,item.asset_type,...item.subjects,...item.colors,...item.categories,...item.usage_notes,item.author||'',...Object.values(item.provenance||{})].join(' ').toLowerCase().includes(token)));
-  const old=preferred??$('design').value;
-  $('design').replaceChildren(...items.map(item=>new Option(readable(item.name),item.name)));
-  $('design').value=items.some(i=>i.name===old)?old:(items.some(i=>i.name==='red-berry-vine')?'red-berry-vine':items[0]?.name||'');
-  $('purposeNote').textContent=notes[$('purpose').value];$('resultCount').textContent=items.length+' matching designs'+(items.length?'':' — try another category or search.');
-  $('designGrid').replaceChildren(...items.map(item=>{
-    const button=document.createElement('button');button.type='button';button.className='design-card';button.dataset.design=item.name;
-    const preview=$('purpose').value==='frame'?item.components.border_image:item;
-    const image=document.createElement('img');image.alt='';image.loading='lazy';image.decoding='async';image.width=preview.width;image.height=preview.height;
-    thumbnailCleanup.push(observeNearViewport(image,()=>{const scale=Math.min(image.clientWidth/preview.width,image.clientHeight/preview.height);image.src=assetPath(preview,'webp',Math.max(preview.width,preview.height)*scale*(devicePixelRatio||1))}));
-    const title=document.createElement('strong');title.textContent=readable(item.name);
-    const tags=document.createElement('small');tags.textContent=item.asset_type+' · '+item.categories.join(' · ')+(item.repeat_axis==='none'?'':(' · '+(item.repeat_axis==='y'?'vertical':'horizontal')));
-    button.append(image,title,tags);button.addEventListener('click',()=>{$('design').value=item.name;update()});return button;
-  }));
-  update();
-}
-function assetPath(asset,format,need){
-  if(format==='svg'&&asset.svg)return assetUrl(asset.svg);
-  const fmt=format==='svg'?'webp':format,sorted=[...asset.variants,asset].sort((a,b)=>Math.max(a.width,a.height)-Math.max(b.width,b.height));
-  return assetUrl((sorted.find(v=>Math.max(v.width,v.height)>=need)||asset)[fmt]);
-}
-function setStrip(element,item,fmt,size,length,transform,axis=item.repeat_axis){
-  const tile=axis===item.repeat_axis?item:item.components.rotated_tile;
-  element.dataset.axis=axis;element.style.setProperty('--ornament-image',`url("${assetPath(tile,fmt,size*item.repeat_ratio*(devicePixelRatio||1))}")`);
-  element.style.setProperty('--ornament-ratio',item.repeat_ratio);element.style.setProperty('--ornament-size',size+'px');element.style.setProperty('--ornament-length',length+'px');element.style.transform=transform;
-}
-function update(){
-  const item=catalog.find(x=>x.name===$('design').value),purpose=$('purpose').value,hasItem=!!item;
-  const axis=$('orientation').value==='native'?item?.repeat_axis:$('orientation').value;
-  $('stage').hidden=!hasItem;$('previewControls').hidden=!hasItem;$('design').disabled=!hasItem;
-  $('frame').hidden=purpose!=='frame';$('standalone').hidden=purpose!=='whole';$('previewStrip').hidden=purpose!=='divider';
-  $('orientationControl').hidden=purpose!=='divider';
-  $('widthControl').hidden=purpose==='whole'||(purpose==='divider'&&axis==='y');
-  $('heightControl').hidden=purpose==='divider'&&axis!=='y';
-  $('height').min=purpose==='whole'?16:128;
-  $('thicknessControl').hidden=purpose==='whole';$('fitControl').hidden=true;
-  $('repeatSection').hidden=purpose!=='frame'||!hasItem;$('cornerSection').hidden=purpose!=='frame'||!hasItem;
-  for(const button of $('designGrid').children)button.setAttribute('aria-pressed',String(button.dataset.design===item?.name));
-  if(!item){$('description').textContent='';$('tags').textContent='';$('usage').textContent='';$('usageNotes').replaceChildren();$('author').hidden=true;$('author').textContent='';$('provenance').hidden=true;$('provenance').replaceChildren();$('links').replaceChildren();$('originalSection').hidden=true;return}
-  const vector=!!item.svg;$('format').querySelector('[value=svg]').disabled=!vector;
-  if(!vector&&$('format').value==='svg')$('format').value='webp';
-  const fmt=$('format').value,dpr=window.devicePixelRatio||1,w=+$('width').value,h=+$('height').value,t=+$('thickness').value;
-  for(const id of ['width','height','thickness'])$(id+'Out').value=$(id).value+'px';
-  $('widthLabel').textContent=purpose==='frame'?'Frame width':'Available length';$('heightLabel').textContent=purpose==='whole'?'Image height':purpose==='divider'?'Available length':'Frame height';$('thicknessLabel').textContent=purpose==='frame'?'Border thickness':'Divider thickness';
-  $('stage').classList.toggle('dark',$('theme').value==='dark');
-  const mirror=$('mirror').value,transform=mirror==='x'?'scaleX(-1)':mirror==='y'?'scaleY(-1)':'none';
-  if(purpose==='frame'){
-    const atlas=item.components.border_image;Object.assign($('frame').style,{width:w+'px',height:h+'px'});
-    $('frame').style.setProperty('--ornament-size',t+'px');$('frame').style.setProperty('--ornament-image',`url("${assetPath(atlas,fmt,(100/item.border_image_slice_percent)*t*dpr)}")`);
-    $('frame').style.setProperty('--ornament-slice',item.border_image_slice_percent+'%');
-    $('frame').style.transform=transform;for(const child of $('frame').children)child.style.transform=transform;
-    setStrip($('strip'),item,fmt,32,item.repeat_axis==='y'?220:480,transform);
-    $('axis').textContent=item.repeat_axis==='y'?'Vertical original; the frame rotates it onto its other edges.':'Horizontal original; it repeats across the strip.';
-    $('corner').src=assetPath(item.components.corner,fmt,96*dpr);
-    $('usage').textContent='Use the frame atlas with ornament-frame. The matching tile and corner are shown below.';
-  }else if(purpose==='divider'){
-    setStrip($('previewStrip'),item,fmt,t,axis==='y'?h:w,transform,axis);
-    const sections=Math.floor((axis==='y'?h:w)/(t*item.repeat_ratio));
-    $('usage').textContent=(sections?sections+' complete section'+(sections===1?'':'s')+', centered in the available length. ':'No complete section fits; increase the length or reduce the thickness. ')+'Use the '+(axis===item.repeat_axis?'original':'rotated')+' tile with ornament-divider'+(axis==='y'?' and data-axis="y". This divider repeats vertically.':'. This divider repeats horizontally.');
-  }else{
-    const displayH=fmt==='svg'?h:Math.min(h,item.height/dpr);$('standalone').width=item.width;$('standalone').height=item.height;$('standalone').src=assetPath(item,fmt,displayH*Math.max(1,item.width/item.height)*dpr);$('standalone').style.setProperty('--ornament-size',displayH+'px');$('standalone').style.transform=transform;
-    $('usage').textContent='Use this complete image with ornament-image. Choose a smaller variant for a small display.';
-  }
-  $('description').textContent=item.description;$('tags').textContent=item.asset_type+' | '+item.categories.join(' · ')+' | '+item.colors.join(', ')+' | '+item.facing+' | '+item.composition+' | '+(item.has_transparency?'has transparency':'opaque');
-  $('usageNotes').replaceChildren(...item.usage_notes.map(note=>{const li=document.createElement('li');li.textContent=note;return li}));
-  $('author').hidden=!item.author;$('author').textContent=item.author?'Author: '+item.author:'';
-  const origin=item.provenance,source=$('provenance');source.hidden=!origin;source.replaceChildren();
-  if(origin){
-    const record=document.createElement('a');record.href=origin.record_url;record.textContent=origin.title;
-    const rights=document.createElement('a');rights.href=origin.rights_url;rights.textContent=origin.image_rights;
-    source.append('Source: ',record,' · '+origin.institution+' · '+origin.object_identifier+' · '+origin.date+(origin.artist?' · '+origin.artist:'')+'. Image terms: ',rights,'.');
-  }
-  const selected=purpose==='frame'?item.components.border_image:purpose==='divider'&&axis!==item.repeat_axis?item.components.rotated_tile:item;
-  const links=[['PNG',selected.png],['WebP',selected.webp]];if(selected.svg)links.push([purpose==='frame'?'SVG frame':'SVG artwork',selected.svg]);
-  $('links').replaceChildren(...links.map(([label,path])=>{const a=document.createElement('a');a.href=assetUrl(path);a.textContent=label;return a}));
-  const original=item.components.reference_crop;$('originalSection').hidden=!original;if(original){$('original').loading='lazy';$('original').decoding='async';$('original').width=original.width;$('original').height=original.height;$('original').src=assetUrl(original.png)}
-}
-fetch('../images.json').then(r=>{if(!r.ok)throw Error(r.status);return r.json()}).then(data=>{
- catalog=data;const query=new URLSearchParams(location.search),selected=data.find(i=>i.name===query.get('design'));
- const type=query.get('type')||selected?.asset_type||'all';$('assetType').value=type;
- $('purpose').value=query.get('purpose')||((selected?.kind==='standalone'||['decoration','illustration'].includes(type))?'whole':'frame');
- for(const id of ['width','height','thickness','format','theme','fit','mirror','search','orientation'])if(query.has(id))$(id).value=query.get(id);
- renderBrowser(selected?.name,query.get('category')??undefined);
- $('assetType').addEventListener('input',()=>{if(['decoration','illustration'].includes($('assetType').value))$('purpose').value='whole';else if($('assetType').value==='border'&&$('purpose').value==='whole')$('purpose').value='frame';renderBrowser()});
- $('purpose').addEventListener('input',()=>{if($('purpose').value!=='whole'&&['decoration','illustration'].includes($('assetType').value)||$('purpose').value==='whole'&&$('assetType').value==='border')$('assetType').value='all';renderBrowser()});
- for(const id of ['category','search','transparency','facing','composition'])$(id).addEventListener('input',()=>renderBrowser());
- for(const control of document.querySelectorAll('.controls input,.controls select,#design'))control.addEventListener('input',update);
- document.body.dataset.ready='true';
-}).catch(error=>{$('description').textContent='Could not load the catalog. Serve this folder with python3 -m http.server 8765. '+error.message});
-</script>
+
+<dialog class="detail" id="detail" aria-labelledby="detailTitle">
+  <div class="detail-head">
+    <div><p class="eyebrow" id="detailType"></p><h2 id="detailTitle"></h2></div>
+    <div class="detail-actions">
+      <button type="button" class="btn btn-icon" id="prevDesign" aria-label="Previous design">‹</button>
+      <button type="button" class="btn btn-icon" id="nextDesign" aria-label="Next design">›</button>
+      <button type="button" class="btn btn-icon" id="closeDetail" aria-label="Close">×</button>
+    </div>
+  </div>
+  <div class="detail-body">
+    <div class="detail-preview">
+      <div class="preview-bar">
+        <div class="segmented" id="modeTabs" role="group" aria-label="Use"><button type="button" data-value="frame">Frame</button><button type="button" data-value="divider">Divider</button></div>
+        <div class="segmented" id="backgroundTabs" role="group" aria-label="Preview background"><button type="button" data-value="paper" aria-pressed="true">Light</button><button type="button" data-value="dark">Dark</button><button type="button" data-value="checker">Transparency</button></div>
+      </div>
+      <div class="stage detail-stage" id="detailStage" data-bg="paper">
+        <div class="sample-frame" id="detailFrame"><strong>Your content here</strong><span>The frame grows with whatever it holds.</span></div>
+        <div class="vertical-wrap" id="dividerWrap"><div id="detailDivider"></div></div>
+        <img id="detailImage" alt="">
+      </div>
+      <div class="preview-controls" id="borderControls">
+        <label class="field"><span class="field-row">Thickness <output id="sizeOut">32px</output></span><input type="range" id="size" min="16" max="64" value="32"></label>
+        <div class="field" id="orientationField"><span>Direction</span><div class="segmented" id="orientationTabs" role="group" aria-label="Divider direction"><button type="button" data-value="horizontal" aria-pressed="true">Horizontal</button><button type="button" data-value="vertical">Vertical</button></div></div>
+      </div>
+      <p class="muted" id="fullSize"></p>
+    </div>
+    <div class="detail-info">
+      <p id="detailDescription"></p>
+      <dl class="facts" id="facts"></dl>
+      <details class="notes" id="notes"><summary>Usage notes</summary><ul id="notesList"></ul></details>
+      <h3>Use it</h3>
+      <div class="code-panel" id="detailCode">
+        <div class="code-bar"><div class="code-tabs" role="tablist"><button type="button" role="tab" data-lang="html">HTML</button><button type="button" role="tab" data-lang="js">JavaScript</button><button type="button" role="tab" data-lang="react">React</button><button type="button" role="tab" data-lang="cli">CLI</button></div><button class="copy" type="button">Copy</button></div>
+        <pre class="code"></pre>
+      </div>
+      <h3>Files</h3>
+      <div class="files" id="files"></div>
+    </div>
+  </div>
+</dialog>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>The integration code is MIT-licensed; artwork is excluded from that grant. See <a href="https://github.com/adrian729/medieval-ornaments/blob/main/LICENSE">LICENSE</a>.</p>
+    <nav aria-label="Project"><a href="https://github.com/adrian729/medieval-ornaments">GitHub</a><a href="https://www.npmjs.com/package/@ranx729/medieval-ornaments">npm</a><a href="demo.html">Overview</a></nav>
+  </div>
+</footer>
 </body>
 </html>

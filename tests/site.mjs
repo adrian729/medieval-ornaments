@@ -8,6 +8,8 @@ import { execFile } from 'node:child_process';
 import { promisify } from 'node:util';
 import path from 'node:path';
 import { getAssetSource } from '../lib/asset-routing.js';
+import { assetSources } from '../lib/asset-sources.js';
+const cdnBases = Object.values(assetSources).map(source => source.base);
 const exec = promisify(execFile);
 const root = new URL('../', import.meta.url);
 const { version, ornamentAssets, ornamentIllustrations } = JSON.parse(await readFile(new URL('package.json', root), 'utf8'));
@@ -48,7 +50,7 @@ try {
     await navigate(origin + `/examples/${example}/`, example === 'vanilla' ? `document.body?.dataset.ready==='true'` : `!!document.getElementById('divider')`);
     if (example === 'react') {
       assert.equal(await evaluate(`document.querySelector('pre').textContent.includes('styles.css')`), false, 'React snippet needs only the component import');
-      assert.equal(await evaluate(`getComputedStyle(document.getElementById('frame')).borderTopWidth`), '33px', 'Live automatic React styles');
+      assert.equal(await evaluate(`getComputedStyle(document.getElementById('frame')).borderTopWidth`), '24px', 'Live automatic React styles');
     }
     check(await art());
     if (example === 'vanilla') {
@@ -72,15 +74,22 @@ try {
     await choose('wholeDesign', 'flying-pig'); check(await art());
     assert.ok(await evaluate("document.getElementById('whole').src.endsWith('/webp/256/flying-pig.webp')&&document.getElementById('whole').loading==='lazy'&&document.getElementById('selective-illustration').src.endsWith('/webp/256/flying-pig.webp')"), 'Live generic and individual illustration sizing/loading');
     await choose('wholeDesign', 'animal-musicians-ensemble'); check(await art());
-    assert.ok(result.urls.every(url => url.startsWith('https://unpkg.com/@ranx729/medieval-ornaments-assets-')));
+    assert.ok(result.urls.every(url => cdnBases.some(base => url.startsWith(base))), 'Live examples use the pinned default CDN');
     const screenshot = await send('Page.captureScreenshot', { captureBeyondViewport: false });
     await writeFile(new URL(`tmp/live-${example}-${width}.png`, root), Buffer.from(screenshot.data, 'base64'));
     records.push({ example, width, ...result });
   }
-  await navigate(origin + '/examples/?purpose=whole&type=all&search=adrian729&design=rabbit-lutenist-painted', `document.body?.dataset.ready==='true'`);
-  assert.equal(await evaluate(`document.querySelectorAll('.design-card').length`),authorCount, 'Live author discovery');
-  assert.ok(await evaluate(`!document.getElementById('author').hidden&&document.getElementById('author').textContent==='Author: adrian729'`), 'Live author attribution');
-  await evaluate(`document.getElementById('standalone').decode()`);
+  // Overview: counts, curated examples and the hero load from the default CDN.
+  await send('Emulation.setDeviceMetricsOverride', { width: 1200, height: 1000, deviceScaleFactor: 1, mobile: false });
+  await navigate(origin + '/examples/demo.html', `document.body?.dataset.ready==='true'`);
+  await until(`[...document.querySelectorAll('[data-count]')].reduce((sum,node)=>sum+Number(node.textContent||0),0)===${JSON.parse(await readFile(new URL('images.json', root))).length}`);
+  await evaluate(`document.getElementById('heroImage').decode()`);
+  // Gallery: author discovery, attribution and a deep-linked design.
+  await navigate(origin + '/examples/?q=adrian729&design=rabbit-lutenist-painted', `document.body?.dataset.ready==='true'`);
+  assert.equal(await evaluate(`document.getElementById('resultCount').textContent.split(' ')[0]`), String(authorCount), 'Live author discovery');
+  assert.ok(await evaluate(`document.getElementById('detail').open&&[...document.querySelectorAll('#facts dt')].some(dt=>dt.textContent==='Author'&&dt.nextElementSibling.textContent==='adrian729')`), 'Live author attribution');
+  await until(`document.getElementById('detailImage').dataset.url===document.getElementById('detailImage').currentSrc`);
+  assert.ok(await evaluate(`[...document.querySelectorAll('.tile img')].every(image=>image.currentSrc.includes('/webp/128/')||!/\\/webp\\/(256|512|768)\\//.test(image.currentSrc))`), 'Gallery thumbnails use the smallest published files');
   // Load the actual npm modules directly from their pinned CDN, not checkout URLs.
   const cdn = await evaluate(`(async()=>{const api=await import('https://unpkg.com/@ranx729/medieval-ornaments@${version}/lib/index.js');const cases=[['frame',{design:'red-berry-vine'}],['divider',{design:'plate-02-stepped-ribbon'}],['divider',{design:'plate-02-stepped-ribbon',orientation:'horizontal'}],['image',{design:'floral-bird-panel-blue',size:128}],['frame',{design:'blue-diamond-leaf-stencil-band'}],['divider',{design:'blue-paired-birds-and-palmettes',orientation:'vertical'}],['frame',{design:'russet-floral-vine-with-bud-borders'}],['image',{design:'painted-sprawling-floral-panel',size:128}],['image',{design:'gold-scroll-with-blue-bellflowers',format:'png',size:107,pixelRatio:1}],['image',{design:'gold-scroll-with-blue-bellflowers',format:'svg',size:330}],['frame',{design:'rosselli-mask-border',size:33}],['frame',{design:'rosselli-foliate-border',size:96}],['image',{design:'polyhymnia',size:256}],['image',{design:'rabbit-lutenist-painted',size:256}],['image',{design:'choirbook-and-ivy',size:256}],['image',{design:'illuminated-acanthus-frame',size:256}],['image',{design:'ivy-corner',size:256}],['image',{design:'flying-pig',size:128}],['image',{design:'musicians-and-dancers',size:128}],['image',{design:'animal-musicians-ensemble',size:128}]];if(api.findOrnaments({query:'adrian729'}).length!==${authorCount}||api.getOrnament('polyhymnia').author!=='adrian729'||api.getOrnament('rabbit-lutenist-painted').author!=='adrian729')throw Error('Published author metadata/search failed');const assets=cases.map(([use,options])=>api.resolveOrnament(use,options).asset);await Promise.all(assets.map(async asset=>{const image=new Image();image.src=asset.url;try{await image.decode();}catch(error){throw new Error('CDN image decode failed: '+asset.url,{cause:error});}}));const individual=await import('https://unpkg.com/@ranx729/medieval-ornaments@${version}/lib/designs/red-berry-vine.js');const selected=individual.resolveOrnament('divider');const illustrations=await import('https://unpkg.com/@ranx729/medieval-ornaments@${version}/lib/selection-illustrations.js');if(illustrations.ornaments.length!==${illustrationCount}||!illustrations.findOrnaments({categories:['reading'],subjects:['rabbit']}).length)throw Error('Scoped illustration discovery failed');const pig=await import('https://unpkg.com/@ranx729/medieval-ornaments@${version}/lib/designs/flying-pig.js');if(pig.resolveOrnament('image',{size:128}).asset.path!=='webp/256/flying-pig.webp')throw Error('Individual illustration failed');return {individualName:individual.ornament.name,individualUrl:selected.asset.url,version:api.version,assetsPackage:api.assetsPackage,assetsVersion:api.assetsVersion,count:api.ornaments.length,assets};})()`);
   assert.equal(cdn.individualName, 'red-berry-vine');
@@ -88,7 +97,7 @@ try {
   assert.equal(cdn.version, version); assert.equal(cdn.count, (await (await fetch(origin + '/images.json')).json()).length);
   assert.equal(cdn.assetsPackage, ornamentAssets.package);
   assert.equal(cdn.assetsVersion, ornamentAssets.version);
-  assert.ok(cdn.assets.every(asset => asset.url.startsWith('https://unpkg.com/@ranx729/medieval-ornaments-assets-')));
+  assert.ok(cdn.assets.every(asset => cdnBases.some(base => asset.url.startsWith(base))));
   assert.ok(cdn.assets.slice(-3).every(asset=>asset.url.startsWith(getAssetSource('flying-pig').base)));
   records.push({ cdn });
   const folder = await mkdtemp(path.join(tmpdir(), 'ornaments-browser-release-'));
@@ -111,7 +120,7 @@ try {
   assert.ok((await art()).urls.every(url => new URL(url).hostname === '127.0.0.1'), 'ZIP example should be self-hosted');
   assert.deepEqual(errors, []); assert.deepEqual(missing, []);
   await navigate(`http://127.0.0.1:${server.address().port}/medieval-ornaments-browser/examples/?type=illustration`, `document.body?.dataset.ready==='true'`);
-  assert.ok(await evaluate(`document.querySelectorAll('.design-card').length===${illustrationCount}&&document.getElementById('purpose').value==='whole'`), 'ZIP illustration browser');
+  assert.ok(await evaluate(`document.getElementById('resultCount').textContent.startsWith('${illustrationCount} designs')&&document.querySelectorAll('.tile').length===${Math.min(24, illustrationCount)}&&[...document.querySelectorAll('.tile img')].every(image=>new URL(image.currentSrc).hostname==='127.0.0.1')`), 'ZIP illustration gallery is self-hosted');
   assert.deepEqual(errors, []); assert.deepEqual(missing, []);
   records.push({ browserZip: 'pass', folder });
   await writeFile(new URL('tmp/package-site.json', root), JSON.stringify(records, null, 2));

@@ -54,9 +54,11 @@ function placement(collection,bytes,name) {
   const existing=name&&config.assignments[name],id=existing||family.activeSource,source=sourceInfo(id);
   if(source.collection!==collection)throw Error('Explicit migration is required to change a design collection.');
   const limit=existing?config.policy.maxTrackedBytes:config.policy.newDesignTrackedBytes;
-  const fits=source.state!=='archived'&&(existing||source.state==='open')&&size(id)+bytes<=limit;
+  // Public files must also stay under the CDN package limit (jsDelivr refuses packages above 150 MB).
+  const publicBytes=Object.values(manifest(id).files).reduce((sum,file)=>sum+file.bytes,0),publicLimit=config.policy.maxNpmUnpackedBytes;
+  const fits=source.state!=='archived'&&(existing||source.state==='open')&&size(id)+bytes<=limit&&publicBytes+bytes<=publicLimit;
   const next=Math.max(...Object.values(config.sources).filter(s=>s.collection===collection).map(s=>s.sequence))+1;
-  return {collection,design:name||null,source:id,currentBytes:size(id),additionalBytes:bytes,projectedBytes:size(id)+bytes,limitBytes:limit,fits,nextSource:fits?id:sourceId(collection,next)};
+  return {collection,design:name||null,source:id,currentBytes:size(id),additionalBytes:bytes,projectedBytes:size(id)+bytes,limitBytes:limit,publicBytes,publicLimitBytes:publicLimit,fits,nextSource:fits?id:sourceId(collection,next)};
 }
 async function linkFiles(id,paths) {
   for(const relative of paths){checkedRelative(relative);const target=path.join(resourceDirectory(id),relative),alias=path.join(projectRoot,relative);

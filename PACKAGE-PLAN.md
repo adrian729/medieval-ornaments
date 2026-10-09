@@ -515,3 +515,27 @@ the exact commits in resource-lock.json. The runtime is 198,993 B packed /
 1,145,306 B unpacked. Actual registry consumers, all artwork hashes, deployed
 vanilla/React examples, author discovery, pinned CDN and downloaded ZIP pass.
 Pages deployment 37901909410 succeeded. No release/authentication work remains.
+
+## Public pages redesign and smaller resource packages 0.10.0 (2026-10-09)
+
+The user asked for professional, fast public pages that use the package exactly
+as any consumer does, and for the delivery problems found while measuring them
+to be fixed for every consumer. Measured cause: unpkg answers uncached files in
+0.5–5 s (outliers 20–45 s) for these 127–393 MB packages, cached files in ~0.05 s;
+jsDelivr refused borders-001/illustrations-001 above its 150 MB package limit
+but served decorations-001's uncached files in 0.12–0.53 s once warm.
+
+- [x] Redesign overview, gallery, plain-JavaScript and React pages with a shared look; gallery pages 24 small (128px tier, `pixelRatio: 1`) thumbnails and prefetches the next page; full artwork loads only for the selected design.
+- [x] Build one production bundle per public page (`build:examples`); the ZIP keeps native pages.
+- [x] Split resources by whole design under a 140 MB unpacked limit; add `release`; pack uploads WebP-first.
+- [x] Approve and lock borders-001 0.2.0, borders-002/003/004 0.1.0, illustrations-001 0.2.0, illustrations-002 0.1.0, decorations-001 0.1.5.
+- [x] Pass unit/type tests, 235 browser checks, catalog/artwork checks and the self-hosted ZIP.
+- [ ] Create the four new GitHub repositories and push all seven resource commits.
+- [ ] First publication of the four new packages from a maintainer npm login; configure their Trusted Publishers.
+- [ ] Publish borders-001, illustrations-001 and decorations-001 through their existing workflows.
+- [ ] Measure unpkg and jsDelivr on the new packages; choose the default CDN in `cdnBase`.
+- [ ] Bump the runtime to 0.10.0, regenerate the README gallery, pass packed consumers, publish, tag, deploy Pages and run `tests/site.mjs`.
+
+The runtime pack is 200,162 B after regenerating the README gallery for seven
+locked commits, 162 B over the 200,000 B budget. Each numbered source adds about
+360 B of pins plus README gallery commit links. Decide the budget before release.

@@ -1,56 +1,115 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Medieval ornaments · Vanilla JavaScript</title>
-  <link rel="icon" href="../../favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="../../ornaments.css">
-  <link rel="stylesheet" href="../integration.css">
-  <link rel="stylesheet" href="../gold-dividers.css">
-  <script type="importmap">{"imports":{"@ranx729/medieval-ornaments":"../../lib/index.js","@ranx729/medieval-ornaments/designs/red-berry-vine":"../../lib/designs/red-berry-vine.js","@ranx729/medieval-ornaments/designs/flying-pig":"../../lib/designs/flying-pig.js"}}</script>
-</head>
-<body>
-<main>
-  <h1>Ornaments with plain JavaScript</h1>
-  <p>A frame, a complete repeating divider, and a whole painted decoration. The same design and sizing options work in React.</p>
-  <nav><a href="https://github.com/adrian729/medieval-ornaments/blob/main/docs/INTEGRATION.md">Integration guide</a><a href="https://github.com/adrian729/medieval-ornaments/blob/main/docs/SELECTIVE.md">Individual imports and local installer</a><a href="../react/">React example</a><a href="../">Design browser</a><a href="../../medieval-ornaments-browser.zip">Browser ZIP</a></nav>
-  <div class="controls">
-    <label>Repeat design <select id="design"></select></label>
-    <label>Divider direction <select id="orientation"><option value="original">Original direction</option><option value="horizontal">Horizontal</option><option value="vertical">Vertical</option></select></label>
-    <label>Divider thickness <input id="size" type="range" min="12" max="64" value="24"></label>
-    <label>Available length <input id="length" type="range" min="80" max="600" value="420"></label>
-    <label>Decoration or illustration <select id="wholeDesign"></select></label>
-  </div>
-  <div class="grid">
-    <div>
-      <article id="frame" class="card"><h2>A frame for your content</h2><p>This frame uses 33px borders. Geometry and images are selected by the package.</p><label>Your note <input id="note" value="Notes from the garden"></label></article>
-      <div class="divider-slot"><div id="divider"></div></div>
-      <p id="details" class="status"></p>
-      <button id="toggle">Detach frame</button>
-    </div>
-    <div class="whole"><img id="whole" alt=""><p id="imageDetails"></p></div>
-  </div>
-  <h2>Gold rules with fixed ornaments</h2>
-  <p>The terminals and center retain their proportions. A continuous rule runs beneath the ornaments and grows with the available width. These compositions use individual whole-image assets and the supplied CSS layout.</p>
-  <div class="manuscript-divider cinquefoil" role="separator" aria-label="Gold cinquefoil divider"><span class="terminal"></span><span class="rule"></span><span class="centre"></span><span class="rule"></span><span class="terminal right"></span></div>
-  <div class="manuscript-divider lozenge" role="separator" aria-label="Gold foliate lozenge divider"><span class="terminal"></span><span class="rule"></span><span class="centre"></span><span class="rule"></span><span class="terminal right"></span></div>
-  <p><a href="../gold-dividers.js">Composition JavaScript</a> · <a href="../gold-dividers.css">Composition CSS</a></p>
-  <h2>Use it in your project</h2>
-  <pre id="code"></pre>
-  <p>The original direction comes from the design. Horizontal and vertical automatically select the matching tile; complete units stay centered in the available length.</p>
-  <h2>Use one design</h2>
-  <div id="selective-divider"></div>
-  <pre>import { createDivider } from '@ranx729/medieval-ornaments/designs/red-berry-vine';
-import '@ranx729/medieval-ornaments/styles.css';
-createDivider(element);</pre>
-  <p>Individual imports omit the design option and bundle only chosen metadata. This picker uses the full API to browse every design.</p>
-  <h2>Use an illustration</h2>
-  <img id="selective-illustration" alt="">
-  <pre>import { createOrnamentImage } from '@ranx729/medieval-ornaments/designs/flying-pig';
-createOrnamentImage(image, { size: 128, loading: 'lazy', decoding: 'async' });</pre>
-  <p><a href="../../docs/ILLUSTRATIONS.md">Illustration usage and metadata</a> · <a href="../?type=illustration">Browse illustrations</a></p>
-</main>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Plain JavaScript · Medieval Ornaments</title>
+<meta name="description" content="Use medieval frames, dividers and images in plain JavaScript: create, update and destroy controllers on any element.">
+<link rel="icon" type="image/x-icon" href="../../favicon.ico" sizes="16x16 32x32 48x48">
+<link rel="icon" type="image/png" href="../../favicon-32.png" sizes="32x32">
+<link rel="icon" type="image/svg+xml" href="../../favicon.svg" sizes="any">
+<link rel="preconnect" href="https://unpkg.com">
+<link rel="stylesheet" href="../../ornaments.css">
+<link rel="stylesheet" href="../site.css">
+<link rel="stylesheet" href="../playground.css">
+<link rel="stylesheet" href="../gold-dividers.css">
+<script type="importmap">{"imports":{"@ranx729/medieval-ornaments":"../../lib/index.js","@ranx729/medieval-ornaments/designs/red-berry-vine":"../../lib/designs/red-berry-vine.js","@ranx729/medieval-ornaments/designs/flying-pig":"../../lib/designs/flying-pig.js"}}</script>
 <script type="module" src="main.js"></script>
 <script type="module" src="../gold-dividers.js"></script>
+</head>
+<body>
+<header class="site-header">
+  <div class="container">
+    <a class="brand" href="../demo.html"><img src="../../favicon.svg" alt=""><span>Medieval Ornaments</span></a>
+    <nav class="site-nav" aria-label="Main">
+      <a href="../demo.html">Overview</a>
+      <a href="../index.html">Gallery</a>
+      <a href="./" aria-current="page">JavaScript</a>
+      <a href="../react/" data-online-only>React</a>
+      <a class="nav-secondary" href="https://github.com/adrian729/medieval-ornaments" data-online-only>GitHub</a>
+    </nav>
+  </div>
+</header>
+
+<main class="container">
+  <div class="page-head">
+    <p class="eyebrow">Integration</p>
+    <h1>Plain JavaScript</h1>
+    <p class="lede">Attach a frame, a divider or an image to any element. Each controller picks the right artwork for its size and can be updated or removed later. No framework required.</p>
+    <div class="install"><code>npm i @ranx729/medieval-ornaments</code><button class="copy" type="button" data-copy-text="npm i @ranx729/medieval-ornaments">Copy</button></div>
+  </div>
+
+  <section class="section" aria-labelledby="playTitle">
+    <div class="section-head"><h2 id="playTitle">Try the controllers</h2><p class="muted">Every change below calls <code>update()</code> on the same controllers. The code reflects your current choices.</p></div>
+    <div class="playground">
+      <form class="panel play-controls" onsubmit="return false">
+        <label class="field">Border <select id="design"></select></label>
+        <label class="field">Divider direction <select id="orientation"><option value="original">Original direction</option><option value="horizontal">Horizontal</option><option value="vertical">Vertical</option></select></label>
+        <label class="field"><span class="field-row">Thickness <output id="sizeOut">24px</output></span><input id="size" type="range" min="12" max="64" value="24"></label>
+        <label class="field">Image <select id="wholeDesign"></select></label>
+        <label class="field">Image height <select id="imageSize"><option value="96">96px</option><option value="128" selected>128px</option><option value="192">192px</option></select></label>
+      </form>
+      <div class="play-output">
+        <div class="stage">
+          <article id="frame" class="play-card"><h3>A frame for your content</h3><p>Your markup stays yours: changing the border keeps this text and the input below.</p><label class="field">Your note <input id="note" type="text" value="Notes from the garden"></label></article>
+        </div>
+        <div class="play-row">
+          <div class="stage divider-stage"><div id="divider"></div></div>
+          <div class="stage image-stage"><img id="whole" alt=""></div>
+        </div>
+        <p class="play-actions"><button id="toggle" class="btn btn-sm" type="button">Detach frame</button><span class="muted" id="details"></span></p>
+      </div>
+    </div>
+    <div class="code-panel" id="playCode">
+      <div class="code-bar"><div class="code-tabs" role="tablist"><button type="button" role="tab" data-lang="js">JavaScript</button><button type="button" role="tab" data-lang="html">HTML</button></div><button class="copy" type="button">Copy</button></div>
+      <pre class="code" id="code"></pre>
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="oneTitle">
+    <div class="section-head"><h2 id="oneTitle">Import a single design</h2><p class="muted">For a fixed selection, import each design directly. Your bundle then contains only that design’s metadata, and the <code>design</code> option is not needed.</p></div>
+    <div class="split">
+      <div class="stage"><div id="selective-divider" style="width: 100%"></div></div>
+      <pre class="code-panel code">import { createDivider }
+  from '@ranx729/medieval-ornaments/designs/red-berry-vine';
+import '@ranx729/medieval-ornaments/styles.css';
+
+createDivider(document.querySelector('.divider'));</pre>
+      <div class="stage"><img id="selective-illustration" alt="A winged pig"></div>
+      <pre class="code-panel code">import { createOrnamentImage }
+  from '@ranx729/medieval-ornaments/designs/flying-pig';
+
+createOrnamentImage(document.querySelector('img'), {
+  size: 128, loading: 'lazy', decoding: 'async'
+});</pre>
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="goldTitle">
+    <div class="section-head"><h2 id="goldTitle">Compose whole images</h2><p class="muted">Some decorations are parts of a composition. These gold rules place fixed-size end and centre images over a continuous CSS rule that grows with the available width.</p></div>
+    <div class="stage gold-stage">
+      <div class="manuscript-divider cinquefoil" role="separator" aria-label="Gold cinquefoil divider"><span class="terminal"></span><span class="rule"></span><span class="centre"></span><span class="rule"></span><span class="terminal right"></span></div>
+      <div class="manuscript-divider lozenge" role="separator" aria-label="Gold foliate lozenge divider"><span class="terminal"></span><span class="rule"></span><span class="centre"></span><span class="rule"></span><span class="terminal right"></span></div>
+    </div>
+    <p class="muted links-line"><a href="https://github.com/adrian729/medieval-ornaments/blob/main/examples/gold-dividers.js">Composition JavaScript</a> · <a href="https://github.com/adrian729/medieval-ornaments/blob/main/examples/gold-dividers.css">Composition CSS</a></p>
+  </section>
+
+  <section class="section" aria-labelledby="moreTitle">
+    <div class="section-head"><h2 id="moreTitle">Learn more</h2></div>
+    <nav class="doc-links" aria-label="Guides">
+      <a href="https://github.com/adrian729/medieval-ornaments/blob/main/docs/INTEGRATION.md">Integration guide</a>
+      <a href="https://github.com/adrian729/medieval-ornaments/blob/main/docs/SELECTIVE.md">Individual imports and the CLI</a>
+      <a href="https://github.com/adrian729/medieval-ornaments/blob/main/docs/ILLUSTRATIONS.md">Illustrations and metadata</a>
+      <a href="../index.html">Find design names in the gallery</a>
+    </nav>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>The integration code is MIT-licensed; artwork is excluded from that grant. See <a href="https://github.com/adrian729/medieval-ornaments/blob/main/LICENSE">LICENSE</a>.</p>
+    <nav aria-label="Project"><a href="https://github.com/adrian729/medieval-ornaments">GitHub</a><a href="https://www.npmjs.com/package/@ranx729/medieval-ornaments">npm</a><a href="../index.html">Gallery</a></nav>
+  </div>
+</footer>
 </body>
 </html>

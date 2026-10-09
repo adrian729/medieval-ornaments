@@ -181,7 +181,7 @@ try {
   await writeFile(path.join(single, 'main.js'), `import {createElement as h} from 'react';import {createRoot} from 'react-dom/client';import {OrnamentDivider} from '@ranx729/medieval-ornaments/react';createRoot(document.getElementById('root')).render(h(OrnamentDivider,{id:'divider',design:'red-berry-vine',length:420,assetsBase:'/local/ornaments/'}));`);
   await build({ root: single, configFile: false, base: '/single-react/dist/', logLevel: 'error' });
   await cp(path.join(root, 'examples/react/main.jsx'), path.join(app, 'main.jsx'));
-  await cp(path.join(root, 'examples/integration.css'), path.join(folder, 'integration.css'));
+  for (const name of ['site.css', 'playground.css']) await cp(path.join(root, 'examples', name), path.join(folder, name));
   await writeFile(path.join(app, 'index.html'), '<!doctype html><html lang="en" data-assets-base="/local/ornaments/"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><div id="root"></div><script type="module" src="/main.jsx"></script></html>');
   await writeFile(path.join(app, 'react-ssr.mjs'), `export { OrnamentFrame, OrnamentDivider, OrnamentImage } from '@ranx729/medieval-ornaments/react/unstyled';`);
   const { OrnamentFrame, OrnamentDivider, OrnamentImage } = await import(pathToFileURL(path.join(app, 'react-ssr.mjs')));
@@ -323,7 +323,7 @@ try {
     await navigate(url, `document.getElementById('divider')?.classList.contains('ornament-divider')`);
     assert.ok((await evaluate('document.body.dataset.reactVersion')).startsWith(label.startsWith('react18') ? '18.' : '19.'), 'Wrong React runtime');
     await decodeImages();
-    assert.deepEqual(await evaluate(`(()=>{const frame=getComputedStyle(document.getElementById('frame')),image=getComputedStyle(document.getElementById('whole')),divider=getComputedStyle(document.getElementById('divider'),'::before');return {border:frame.borderTopWidth,repeat:frame.borderImageRepeat,height:image.height,fit:image.objectFit,content:divider.content}})()`), {border:'33px',repeat:'round',height:'128px',fit:'contain',content:'""'}, label + ' automatic React styles');
+    assert.deepEqual(await evaluate(`(()=>{const frame=getComputedStyle(document.getElementById('frame')),image=getComputedStyle(document.getElementById('whole')),divider=getComputedStyle(document.getElementById('divider'),'::before');return {border:frame.borderTopWidth,repeat:frame.borderImageRepeat,height:image.height,fit:image.objectFit,content:divider.content}})()`), {border:'24px',repeat:'round',height:'128px',fit:'contain',content:'""'}, label + ' automatic React styles');
     for (const width of [320, 375, 997, 1920]) {
       await send('Emulation.setDeviceMetricsOverride', { width, height: 900, deviceScaleFactor: 1.25, mobile: false }); await pause(80);
       const overflow = await evaluate(`({overflow:document.documentElement.scrollWidth>document.documentElement.clientWidth,width:innerWidth,offenders:[...document.querySelectorAll('body *')].filter(el=>el.getBoundingClientRect().right>innerWidth+1).map(el=>({tag:el.tagName,id:el.id,class:el.className,right:el.getBoundingClientRect().right})).slice(0,12)})`);

@@ -22,7 +22,7 @@ jobs:
       - run: npm ci
       - run: npm run build
       - run: npm run test:types
-      - run: npm run build:react
+      - run: npm run build:examples
       - name: Assemble public site
         run: npm run build:site
       - uses: actions/upload-pages-artifact@v3

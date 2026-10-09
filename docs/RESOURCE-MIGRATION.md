@@ -3,6 +3,13 @@
 Runtime **0.7.0** introduces numbered resource packages at **0.1.0**, with the
 existing artwork unchanged. See QA.md for publication and verification results.
 
+## Runtime 0.10.0: smaller resource packages
+
+Whole designs moved so each package stays below 140 MB for both CDNs: russet
+borders to borders-002/003, painted vines to borders-004 and 28 later
+illustrations to illustrations-002. Names and imports are unchanged; copied CDN
+URLs keep working. Offline: install the packages `getAssetSource(name)` reports.
+
 ## Existing applications
 
 The design names, individual/generic vanilla and React imports, component props,

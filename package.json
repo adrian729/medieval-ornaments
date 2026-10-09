@@ -121,7 +121,7 @@
     "audit:selective": "node scripts/selective_audit.mjs",
     "build:site": "node scripts/build-site.mjs",
     "resources": "node scripts/resources.mjs",
-    "build:react": "node scripts/build-react.mjs"
+    "build:examples": "node scripts/build-examples.mjs"
   },
   "publishConfig": {
     "access": "public"

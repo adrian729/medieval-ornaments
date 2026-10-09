@@ -8,9 +8,14 @@ const root = fileURLToPath(new URL('../', import.meta.url));
 const site = path.join(root, 'dist/site');
 await rm(site, { recursive: true, force: true });
 await mkdir(site, { recursive: true });
-for (const directory of ['examples', 'lib', 'docs']) {
+for (const directory of ['lib', 'docs']) {
   await cp(path.join(root, directory), path.join(site, directory), { recursive: true });
 }
+// Public pages come from the production build (npm run build:examples); the
+// internal review/QA pages are served from source with their URL helper.
+await mkdir(path.join(site, 'examples'));
+for (const name of ['review.html', 'qa.html', 'assets.js']) await cp(path.join(root, 'examples', name), path.join(site, 'examples', name));
+await cp(path.join(root, 'dist/examples'), path.join(site, 'examples'), { recursive: true });
 await mkdir(path.join(site, 'sources'));
 for (const entry of await readdir(path.join(root, 'sources'), { withFileTypes: true })) {
   // Canonical native inputs and traces belong to resource repositories.
@@ -25,12 +30,10 @@ const files = ['index.html', 'ornaments.css', 'favicon.svg', 'favicon-32.png', '
   'historical-additions.json', 'historical-border-patterns.json', 'illustration-additions.json', 'authored-additions.json',
   ...(await readdir(root)).filter(name => name.endsWith('.md'))];
 for (const name of files) await cp(path.join(root, name), path.join(site, name));
-await cp(path.join(root, 'dist/react'), path.join(site, 'examples/react'), { recursive: true });
 const pkg=JSON.parse(await readFile(path.join(root,'package.json')));
 const archive=`https://github.com/adrian729/medieval-ornaments/releases/download/v${pkg.version}/medieval-ornaments-browser.zip`;
-for(const relative of ['examples/demo.html','examples/index.html','examples/review.html','examples/qa.html','examples/vanilla/index.html']) {
- const target=path.join(site,relative);let html=staticAssets(await readFile(target,'utf8'));
- html=html.replace('../../medieval-ornaments-browser.zip',archive);await writeFile(target,html);
+for(const relative of ['examples/review.html','examples/qa.html']) {
+ const target=path.join(site,relative);await writeFile(target,staticAssets(await readFile(target,'utf8')));
 }
 await writeFile(path.join(site, '.nojekyll'), '');
 async function bytes(directory) {

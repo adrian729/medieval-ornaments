@@ -62,7 +62,7 @@ Vertical dividers add `data-axis="y"`; the available length then sets height and
   --ornament-length: 240px;" aria-hidden="true"></div>
 ```
 
-The browser's Orientation selector offers Horizontal, Vertical, and Original direction; asset links follow your choice. `--ornament-length` sets the available space. The shared CSS fits as many complete, contiguous sections as possible and centers them within that space, leaving equal empty space at both ends. The artwork retains its thickness and proportions. If even one section is too long, nothing is painted: increase the available length or reduce the thickness.
+The gallery previews dividers horizontally or vertically; snippets follow your choice. `--ornament-length` sets the available space. The shared CSS fits as many complete, contiguous sections as possible and centers them within that space, leaving equal empty space at both ends. The artwork retains its thickness and proportions. If even one section is too long, nothing is painted: increase the available length or reduce the thickness.
 
 This works responsively with `--ornament-length:100%` and requires no JavaScript. The painted background lives on `::before`; leave that pseudo-element available. Whole-section fitting uses [CSS round()](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/round). Older browsers without that function fit complete tiles by slightly adjusting their length instead. Frames keep their separate `round` fitting around corners.
 
@@ -96,7 +96,7 @@ PNG/WebP variants are generated ahead of time at 128, 256, 512 and 768px longest
 
 Size folders are upper bounds. Frame variants use dimensions that keep slice boundaries on integer pixels, so a `128/` atlas might be 126px and some smaller atlas sizes are absent. Native plate assets are already small. SVG can scale its traced shapes, but does not recover missing source detail.
 
-The [design browser](https://adrian729.github.io/medieval-ornaments/examples/) filters by use, category, subjects, and colors. The [artwork comparison page](https://adrian729.github.io/medieval-ornaments/examples/review.html) shows originals, units, repetitions, and frames, with format/background/thickness controls.
+The [gallery](https://adrian729.github.io/medieval-ornaments/examples/) filters by type and category and searches names, descriptions, subjects, colours, sources and authors. The [artwork comparison page](https://adrian729.github.io/medieval-ornaments/examples/review.html) shows originals, units, repetitions, and frames, with format/background/thickness controls.
 
 ## Technical references
 

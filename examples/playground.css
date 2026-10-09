@@ -1,0 +1,20 @@
+/* Shared layout for the plain JavaScript and React integration examples. */
+.playground { display: grid; grid-template-columns: 280px minmax(0, 1fr); gap: 20px; align-items: start; margin-bottom: 20px; }
+.play-controls { display: grid; gap: 16px; position: sticky; top: 76px; }
+.play-controls select { width: 100%; font-weight: 400; }
+.play-output { display: grid; gap: 16px; min-width: 0; }
+.play-card { display: grid; gap: 10px; width: min(100%, 520px); padding: 24px; }
+.play-card h2, .play-card h3 { font-size: 1.3rem; }
+.play-card p { font-size: 15px; opacity: .8; }
+.play-card input { width: 100%; font-weight: 400; }
+.play-row { display: grid; grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr); gap: 16px; }
+.divider-stage, .image-stage { min-height: 300px; }
+.play-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; font-size: 14px; overflow-wrap: anywhere; }
+.gold-stage { display: grid; gap: 28px; padding: 32px clamp(16px, 4vw, 48px); }
+.gold-stage .manuscript-divider { width: 100%; }
+.links-line { margin-top: 12px; font-size: 14px; }
+pre.code-panel { margin: 0; }
+@media (max-width: 900px) {
+  .playground, .play-row { grid-template-columns: minmax(0, 1fr); }
+  .play-controls { position: static; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); }
+}

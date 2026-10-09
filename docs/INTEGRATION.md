@@ -427,12 +427,12 @@ Native modules need HTTP serving, not opening the page with `file://`.
 
 - [Vanilla example](https://adrian729.github.io/medieval-ornaments/examples/vanilla/)
 - [React example](https://adrian729.github.io/medieval-ornaments/examples/react/)
-- [Categorized design browser](https://adrian729.github.io/medieval-ornaments/examples/)
+- [Gallery](https://adrian729.github.io/medieval-ornaments/examples/) and [overview](https://adrian729.github.io/medieval-ornaments/examples/demo.html)
 
 In a checkout, `npm ci`, then `npm run build`. Serve the checkout over HTTP for
 the native example. For the React source example, run
 `npx vite examples/react` (images default to the pinned CDN), or
-`npm run build:react` and `npm run build:site` for CDN-backed Pages examples.
+`npm run build:examples` and `npm run build:site` for CDN-backed Pages examples.
 `npm run build:browser` explicitly fetches no files: prepare resource checkouts
 first, then build the optional self-hosted browser ZIP. See [RESOURCES.md](RESOURCES.md).
 Consumers do not need Python; artwork maintenance is a separate workflow.
@@ -470,7 +470,7 @@ tracked-file capacity. Source inputs stay outside npm distributions.
 
 `build:browser` assembles a complete offline ZIP from prepared resource
 checkouts. Upload it to the versioned main GitHub Release. Pages uses
-`build:react` / `build:site` and pinned CDN images, without the full artwork/ZIP.
+`build:examples` / `build:site` and pinned CDN images, without the full artwork/ZIP.
 After publication, run the registry consumer tests and live site/ZIP checks:
 
 ```sh
