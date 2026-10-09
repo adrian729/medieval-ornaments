@@ -554,5 +554,5 @@ long dropdowns with searchable pickers (type, category and text filters).
 - [x] Split the integration examples into Borders and Images sections; image sizes come from each image's published files.
 - [x] Explicit `--ornament-width` for images (no unsized lazy images); named picker fields.
 - [x] Warm and verify every pinned CDN file after publishing and weekly (`warm-cdn.yml`).
-- [ ] Publish 0.10.1 through `release.yml`, release with the ZIP, deploy Pages and verify live.
+- [x] Publish 0.10.1 through `release.yml` (run 37984254317; jsDelivr confirmed by the workflow), release v0.10.1 with the ZIP, deploy Pages (de179db) and pass packed consumers, `tests/site.mjs` and Chrome's issue reporter (no issues on the four public pages).
 

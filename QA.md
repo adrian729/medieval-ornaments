@@ -1229,4 +1229,10 @@ maximum (previously 3–5 s for uncached files). A weekly workflow repeats it.
 packed React check rounds the image height to the nearest pixel because the
 stage scales large files with `height: auto` and an explicit aspect ratio.
 Runtime 0.10.1 packs to 200,485 B; ZIP 477,429,970 B, SHA-256 4c24d991….
+Live 0.10.1: release run 37984254317 published 199,607 B and waited about 2.5
+minutes until jsDelivr served the new version. Pages de179db adds a fix for a
+picker race (a late dialog `close` event emptied a reopened picker). Packed
+consumers, `tests/site.mjs` (375/1200px, CDN modules, v0.10.1 ZIP) and Chrome's
+issue reporter on the deployed overview, gallery, JavaScript and React pages
+(pickers opened, sizes switched) pass with no issues.
 
