@@ -1202,3 +1202,14 @@ Runtime 0.10.0 packs to 200,292 B / 1,149,162 B; `npm test` (43), types,
 `browser_check.mjs` (237, including picker type/category/search), packed
 consumers and the self-hosted ZIP (477,428,750 B, SHA-256 468a4edc…) pass.
 
+Release 0.10.0 is complete. `main` and tag v0.10.0 pin fd862c0; the runtime was
+published by `release.yml` run 37963722285 through npm Trusted Publishing
+(199,411 B packed / 1,149,162 B), activating its connection. Resource releases
+tag the exact commits in resource-lock.json (new packages: v0.1.0 and v0.1.1).
+Pages run 37963698122 deployed the redesigned pages with jsDelivr preconnects.
+`node tests/site.mjs` passes on the live site, the pinned npm CDN modules and the
+downloaded release ZIP; its first attempt timed out waiting 12 s for a
+never-requested 768px image on jsDelivr and passed on retry (about 3 s), so live
+waits now allow 30 s. Registry consumers
+(`ORNAMENTS_PACKAGE=@ranx729/medieval-ornaments@0.10.0`) pass.
+

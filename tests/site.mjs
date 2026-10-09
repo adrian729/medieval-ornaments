@@ -30,7 +30,8 @@ ws.addEventListener('message', event => {
 const send = (method, params = {}) => new Promise((resolve, reject) => { const id = ++sequence; pending.set(id, { resolve, reject }); ws.send(JSON.stringify({ id, method, params })); });
 async function evaluate(expression) { const result = await send('Runtime.evaluate', { expression, returnByValue: true, awaitPromise: true }); if (result.exceptionDetails) throw new Error(JSON.stringify(result.exceptionDetails)); return result.result.value; }
 const pause = ms => new Promise(resolve => setTimeout(resolve, ms));
-async function until(expression) { for (let i = 0; i < 200; i++) { if (await evaluate(expression)) return; await pause(60); } throw new Error('Page did not become ready: ' + expression + JSON.stringify({ errors, missing })); }
+// A design's first request after publication can wait on the CDN fetching its package.
+async function until(expression, attempts = 500) { for (let i = 0; i < attempts; i++) { if (await evaluate(expression)) return; await pause(60); } throw new Error('Page did not become ready: ' + expression + JSON.stringify({ errors, missing })); }
 async function navigate(url, ready) { await send('Page.navigate', { url }); await until(`location.href===${JSON.stringify(url)}`); await until(ready); }
 async function choose(id, value) { await evaluate(`(()=>{const el=document.getElementById(${JSON.stringify(id)});el.value=${JSON.stringify(value)};el.dispatchEvent(new Event('input',{bubbles:true}));el.dispatchEvent(new Event('change',{bubbles:true}));})()`); await pause(100); }
 async function pick(id, name) {
