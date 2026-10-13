@@ -1360,3 +1360,32 @@ The release review found this was the only failed resource workflow among the
 14 published revisions at that point; the other 13 completed successfully.
 The remaining ten activation releases are tracked separately and must pass their
 own checks before runtime publication.
+
+### 2026-10-13: all resource revisions verified
+
+All 24 changed resource revisions are published, fully CDN-verified and pinned
+by exact clean source commit in `resource-lock.json`. All 22 new packages have
+trusted publishers configured and corresponding public GitHub repositories.
+Every changed resource has a versioned GitHub release. The collection now uses
+29 registered resource repositories; five existing revisions remain unchanged.
+
+The final batch also encountered delayed registry processing:
+[illustrations-010 run 38434750760](https://github.com/adrian729/medieval-ornaments-assets-illustrations-010/actions/runs/38434750760)
+reported a successful upload with an npm processing notice, then exceeded the
+registry-visibility deadline. At 17:16 UTC the published version became available
+and a fresh complete check verified all 410 files. Its exact source commit is
+`5cba95b9cf66fd1e83778d28f500f70195b1c6e2`. No duplicate upload was attempted.
+Both recovered workflow failures remain visible as historical failures; their
+GitHub release notes record the subsequent successful checks.
+
+The final offline archives are 1,214,470,453 and 1,403,679,621 bytes. Full CRC,
+SHA-256 and catalog coverage checks pass for all 8,321 public artwork paths;
+all 4,278 copied runtime files match the final generated runtime. Checksums are
+in `dist/browser-downloads.json`. Final production examples/site build passes
+at 48,944,311 bytes, below the 50 MB deployment limit. Unit tests (47) and
+public TypeScript checks pass with final resource versions.
+
+Final catalog validation also passes: 702 designs, 255 genuine SVG files and
+8,321 catalog artwork paths, including exact PNG pixels, lossless visible WebP
+pixels/alpha, native size caps, variants and selection metadata. README previews
+now point to the final locked resource commits.

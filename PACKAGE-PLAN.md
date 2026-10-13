@@ -607,8 +607,8 @@ checks use that same file. This is an explicit policy revision, not a claim that
 the old cap was met. Artwork, resource dependencies, and eager full catalogs in
 individual rendering entries remain prohibited. No API migration is required.
 
-- [ ] Publish/verify the 24 changed resources; activate trusted publication for new packages.
-- [ ] Lock exact clean resource commits and rebuild public metadata/gallery.
+- [x] Publish/verify the 24 changed resources; activate trusted publication for new packages.
+- [x] Lock exact clean resource commits and rebuild public metadata/gallery.
 - [ ] Pass packed consumers, types, selective bundles, artwork and browser checks.
 - [x] Merge completed source work to main (828def7); keep Pages gated until publication.
 - [ ] Publish runtime 0.11.0, upload both browser ZIPs/checksums, and verify live Pages/CDN.
@@ -638,3 +638,11 @@ GitHub releases exist for those three verified resource revisions. The local
 two-ZIP build passes CRC validation and supplies all 8,321 public artwork paths
 exactly once when extracted together. Final release archives will be rebuilt
 after the remaining resource pins are locked.
+
+Resource completion, 2026-10-13 17:16 UTC: all 24 changed revisions are published,
+CDN-verified, released on GitHub and locked to clean source commits. All 22 new
+repositories/packages have completed first publication and trusted-publisher
+setup. Two post-upload visibility timeouts were recovered through fresh complete
+verification, without uploading a version again; see QA.md. Authentication and
+resource publication are complete. Runtime publication and production consumer
+checks are the remaining release gates.

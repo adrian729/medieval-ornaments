@@ -12,10 +12,28 @@ integration of the finished assets; earlier staging-only limits below describe t
 state at the pause, not a prohibition on the newly requested integration.
 This document preserves the task across sessions. It supersedes the older instruction
 in the generated local status file to continue without stopping. No extraction
-process was running when this handoff was written. Nothing has been published or
-imported into the public collection from this staging task.
+process was running when this handoff was written. The pause inventory below is
+historical; the completed-assets integration and release update immediately below
+records subsequent authorized work.
 
-## Current state
+## Completed-assets release update — 2026-10-13
+
+The user subsequently authorized commits, pushes, npm publication and production
+release of all completed work. After corrections and duplicate removal, **541 new
+assets** are integrated, bringing the real catalog to **702 designs** (89 borders,
+281 decorations, 332 illustrations). The original 161 designs are unchanged.
+All 24 changed resource revisions are published, verified against every approved
+CDN file and pinned to clean source commits; all 22 new repositories/packages
+have trusted publishers and public version releases. Runtime 0.11.0 is in final
+release testing; follow QA.md and PACKAGE-PLAN.md for publication status.
+
+The explicit metadata budget is now 1 MB packed / 6 MB installed; artwork remains
+outside the runtime. Final offline archives contain all 8,321 public artwork
+paths across two ZIPs. Earlier local-only limits and publication blockers below
+are historical, superseded by this update. **The 35 unfinished sources remain
+paused** and must only be resumed on the user's request.
+
+## Extraction state at pause
 
 | Measure | At pause |
 | --- | ---: |

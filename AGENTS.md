@@ -129,3 +129,14 @@ not `kind` alone. `sets` names feed shared discovery and gallery group links.
 Component ownership includes bars and all four explicitly named corner phases.
 Read the current local-integration gates at the end of PACKAGE-PLAN.md before
 publishing. The separate unfinished-source handoff remains in effect.
+
+0.11.0 release preparation (2026-10-13): 541 completed historical additions bring
+this collection to 702 designs (89 borders, 281 decorations, 332 illustrations).
+The original 161 designs remain unchanged; 35 unfinished source extractions stay
+paused. All 24 changed resource revisions are published, CDN-verified and locked
+across 29 registered resource repositories; all 22 new packages use trusted
+publishing. Runtime publication status is recorded in QA.md and PACKAGE-PLAN.md.
+The expanded catalog retains the synchronous public metadata API; the explicit
+runtime budget is now 1 MB packed / 6 MB unpacked in runtime-budget.json, with no
+artwork or automatic resource dependencies. Offline releases contain two ZIPs
+that extract into the same directory, each below GitHub's 2 GiB file limit.
