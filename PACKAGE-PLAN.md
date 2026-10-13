@@ -611,3 +611,22 @@ individual rendering entries remain prohibited. No API migration is required.
 - [ ] Lock exact clean resource commits and rebuild public metadata/gallery.
 - [ ] Pass packed consumers, types, selective bundles, artwork and browser checks.
 - [ ] Merge main, publish runtime 0.11.0, upload browser ZIP, and verify live Pages/CDN.
+
+Release progress, 2026-10-13: borders-004 and illustrations-002 0.1.2 are
+published through OIDC, with successful full-CDN verification (runs
+38389427682 / 38389474853), and locked to their clean source commits.
+New resource first publications/trust setup are in progress. GitHub temporarily
+rate-limited new repository creation after ten repositories; retries respect
+its cooldown. npm requires maintainer proof of presence for first publications
+and trust setup; expired challenges must be renewed when the maintainer is ready.
+
+Pages now defers deployment while any resource is unlocked or the selected
+runtime version is unpublished. The runtime release workflow dispatches Pages
+only after its CDN check. This allows completed source work to merge without
+replacing the functioning public site with partially published resources.
+
+The expanded offline collection has 3.09 GB of public artwork before ZIP
+compression. `build:browser` emits two ordinary archives plus checksums, each
+under GitHub's 2 GiB release-file limit. Both extract into the same directory;
+all PNG/WebP/SVG files are retained unchanged. Downloaded-release tests stream
+and verify both archives before testing the complete self-hosted mirror.

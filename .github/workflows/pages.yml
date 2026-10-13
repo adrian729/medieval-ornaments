@@ -11,7 +11,20 @@ concurrency:
   group: pages
   cancel-in-progress: true
 jobs:
+  release-ready:
+    runs-on: ubuntu-latest
+    outputs:
+      ready: ${{ steps.check.outputs.ready }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - id: check
+        run: node scripts/check-site-release.mjs >> "$GITHUB_OUTPUT"
   build:
+    needs: release-ready
+    if: needs.release-ready.outputs.ready == 'true'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4

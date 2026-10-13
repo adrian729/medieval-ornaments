@@ -121,7 +121,7 @@ for (const button of $$('[data-copy-text]')) button.addEventListener('click', ()
 
 // Install section: exact versions from the generated release pins.
 for (const node of $$('[data-version]')) node.textContent = version;
-$('#zipLink').href = `https://github.com/adrian729/medieval-ornaments/releases/download/v${version}/medieval-ornaments-browser.zip`;
+$('#zipLink').href = `https://github.com/adrian729/medieval-ornaments/releases/tag/v${version}`;
 $('#packages').append(...Object.values(assetSources).sort((a, b) => a.id.localeCompare(b.id)).map(source => element('li', {},
   element('a', { href: `https://www.npmjs.com/package/${source.package}/v/${source.version}`, text: `${source.package.replace('@ranx729/medieval-ornaments-assets-', '')}@${source.version}` }))));
 

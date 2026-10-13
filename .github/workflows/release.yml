@@ -12,6 +12,7 @@ on:
 permissions:
   contents: read
   id-token: write
+  actions: write
 concurrency:
   group: runtime-publication
   cancel-in-progress: false
@@ -41,3 +42,8 @@ jobs:
       - name: Wait until the default CDN serves the runtime
         if: ${{ !inputs.check-authentication }}
         run: node scripts/warm-cdn.mjs "$PWD"
+      - name: Deploy the released catalog
+        if: ${{ !inputs.check-authentication }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run pages.yml --ref main

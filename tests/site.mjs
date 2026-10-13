@@ -2,6 +2,10 @@
 // Uses the same review Chrome as scripts/browser_check.mjs; run sequentially.
 import assert from 'node:assert/strict';
 import { readFile, writeFile, mkdtemp } from 'node:fs/promises';
+import { createWriteStream, createReadStream } from 'node:fs';
+import { Readable } from 'node:stream';
+import { pipeline } from 'node:stream/promises';
+import { createHash } from 'node:crypto';
 import { tmpdir } from 'node:os';
 import { createServer } from 'node:http';
 import { execFile } from 'node:child_process';
@@ -109,9 +113,20 @@ try {
   assert.ok(cdn.assets.slice(-3).every(asset=>asset.url.startsWith(getAssetSource('flying-pig').base)));
   records.push({ cdn });
   const folder = await mkdtemp(path.join(tmpdir(), 'ornaments-browser-release-'));
-  const response = await fetch(`https://github.com/adrian729/medieval-ornaments/releases/download/v${version}/medieval-ornaments-browser.zip`); assert.equal(response.status, 200);
-  const archive = path.join(folder, 'browser.zip'); await writeFile(archive, Buffer.from(await response.arrayBuffer()));
-  await exec('unzip', ['-t', archive]); await exec('unzip', ['-q', archive, '-d', folder]);
+  const releaseBase = `https://github.com/adrian729/medieval-ornaments/releases/download/v${version}/`;
+  const downloadsResponse = await fetch(releaseBase + 'browser-downloads.json'); assert.equal(downloadsResponse.status, 200);
+  const downloads = await downloadsResponse.json();
+  assert.equal(downloads.version, version);
+  assert.deepEqual(downloads.archives.map(item => item.file), ['medieval-ornaments-browser.zip', 'medieval-ornaments-browser-png.zip']);
+  for (const entry of downloads.archives) {
+    const response = await fetch(releaseBase + entry.file); assert.equal(response.status, 200);
+    const archive = path.join(folder, entry.file);
+    await pipeline(Readable.fromWeb(response.body), createWriteStream(archive));
+    const hash = createHash('sha256'); let bytes = 0;
+    for await (const chunk of createReadStream(archive)) { hash.update(chunk); bytes += chunk.length; }
+    assert.equal(bytes, entry.bytes); assert.equal(hash.digest('hex'), entry.sha256);
+    await exec('unzip', ['-tqq', archive]); await exec('unzip', ['-q', archive, '-d', folder]);
+  }
   const mime = { '.html': 'text/html', '.js': 'text/javascript', '.css': 'text/css', '.svg': 'image/svg+xml', '.webp': 'image/webp', '.png': 'image/png' };
   server = createServer(async (request, res) => {
     try { let file = path.resolve(folder, '.' + new URL(request.url, 'http://localhost').pathname); if (!file.startsWith(folder + path.sep)) throw Error('Outside fixture'); if (new URL(request.url, 'http://localhost').pathname.endsWith('/')) file = path.join(file, 'index.html'); const bytes = await readFile(file); res.writeHead(200, { 'content-type': mime[path.extname(file)] || 'application/octet-stream' }); res.end(bytes); }

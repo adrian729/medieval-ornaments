@@ -21,10 +21,14 @@ for (const design of ['red-berry-vine', 'flying-pig']) for (const adapter of ['v
   const emitted = (Array.isArray(built) ? built : [built]).flatMap(result => result.output);
   const code = emitted.filter(file => file.type === 'chunk').map(file => file.code).join('\n');
   const css = emitted.filter(file => file.type === 'asset' && file.fileName.endsWith('.css')).map(file => String(file.source)).join('\n');
-  const count = ornaments.filter(item => code.includes(item.name)).length;
+  // Names can contain other complete names (e.g. flying-pig and pig). Count
+  // actual metadata modules, not substrings in generated source or prose.
+  const modules = emitted.filter(file => file.type === 'chunk').flatMap(chunk => Object.keys(chunk.modules));
+  const dataModules = modules.filter(file => file.includes('/design-data/'));
+  const count = dataModules.length;
   assert.equal(count, selective ? 1 : ornaments.length);
   if(selective) {
-    const chunks=emitted.filter(file=>file.type==='chunk'), modules=chunks.flatMap(chunk=>Object.keys(chunk.modules));
+    assert.ok(dataModules[0].endsWith(`/design-data/${design}.js`));
     assert.ok(!modules.some(file=>file.endsWith('/asset-routing.js')||file.endsWith('/asset-sources.js')||file.endsWith('/runtime.js')));
     assert.equal(modules.filter(file=>file.includes('/asset-sources/')).length,1);
     assert.ok(code.includes(getAssetSource(design).base));

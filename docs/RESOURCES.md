@@ -261,8 +261,11 @@ requires its existing audited two-package version procedure; descriptive
 metadata alone need not trigger that refresh or numbered image publication.
 
 Pages builds need only `npm run build:examples` and `npm run build:site`; their
-50 MB local guard detects accidental resource bundling. `build:browser` is an
-explicit full-resource offline artifact, uploaded to the runtime GitHub Release.
+50 MB local guard detects accidental resource bundling. `build:browser` creates
+the full-resource offline mirror as two ordinary ZIPs: browser/WebP/SVG and PNG.
+Upload both plus `browser-downloads.json` to the runtime GitHub Release. Extract
+both into the same directory to merge the mirror; each download is checked
+against GitHub's 2 GiB release-asset limit without changing artwork fidelity.
 
 README gallery previews use `raw.githubusercontent.com` URLs pinned to the
 assigned resource's exact Git commit. GitHub renders that host directly;
