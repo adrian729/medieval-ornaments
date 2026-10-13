@@ -104,7 +104,7 @@ createRosselliFrame(document.createElement('div'), {design: 'rosselli-foliate-bo
 void [rosselli, rosselliSvg];
 
 // Reviewed repeat units without faithful corners expose divider-only entries.
-import { resolveOrnament as resolveDividerOnly, createDivider as createDividerOnly } from '../lib/designs/white-curling-vine-on-blue-repeat.js';
+import { resolveOrnament as resolveDividerOnly, createDivider as createDividerOnly } from '@ranx729/medieval-ornaments/designs/white-curling-vine-on-blue-repeat';
 resolveDividerOnly('divider', { orientation: 'vertical' });
 // @ts-expect-error No approved corners or frame capability.
 resolveDividerOnly('frame');
