@@ -1413,3 +1413,35 @@ exact published resource revisions. No browser errors or missing requests.
 Runtime archive: 815877 bytes packed / 5038440 bytes unpacked,
 4291 files, with no artwork or automatic asset dependencies. Evidence:
 `tmp/release-0.11.0/integration-local.json`.
+
+### 2026-10-13: runtime 0.11.0 published
+
+Runtime [publication 38443761273](https://github.com/adrian729/medieval-ornaments/actions/runs/38443761273)
+passed build, public types, package budget, npm provenance publication and default
+CDN verification. It published tested commit
+`015c055948bc38da9547919fabf734db051f5304`; npm processing briefly delayed registry
+visibility, then completed without another authentication or upload.
+[Pages deployment 38444676328](https://github.com/adrian729/medieval-ornaments/actions/runs/38444676328)
+passed its release gate, production build and deployment.
+
+The public [v0.11.0 release](https://github.com/adrian729/medieval-ornaments/releases/tag/v0.11.0)
+contains both complete offline archives and `browser-downloads.json` checksums.
+A fresh actual-registry consumer run passes all 286 records: 702 designs, 267
+native axis/design cases, 32 density/length cases, complete offline artwork byte
+verification, lean installation, selective imports, React 18/19, SSR/hydration,
+state/refs and public types, with no browser errors or missing requests. The
+published runtime measures 815,877 bytes packed / 5,038,440 bytes unpacked.
+Evidence: `tmp/release-0.11.0/integration-registry.json`.
+
+Final post-publication site check passes: live JavaScript/React demos at 375px
+and 1200px, original/forced divider axes, artwork decoding, overview counts,
+gallery discovery/attribution, and direct pinned npm CDN imports/assets.
+Both archives were downloaded from the public v0.11.0 GitHub release, verified
+against their byte sizes and SHA-256 checksums, CRC-tested and extracted together.
+The downloaded browser's demos and paginated illustration gallery load local
+images with no console errors or missing requests. Desktop/mobile screenshots
+were also visually inspected. Evidence: `tmp/release-0.11.0/site-final.json`
+and `tmp/live-{vanilla,react}-{375,1200}.png`.
+
+All completed-assets release gates are satisfied. The 35 unfinished source
+extractions remain paused and are excluded from this release.

@@ -140,3 +140,10 @@ The expanded catalog retains the synchronous public metadata API; the explicit
 runtime budget is now 1 MB packed / 6 MB unpacked in runtime-budget.json, with no
 artwork or automatic resource dependencies. Offline releases contain two ZIPs
 that extract into the same directory, each below GitHub's 2 GiB file limit.
+
+Runtime 0.11.0 is now published with provenance and verified against real npm
+consumers; all 29 pinned resource revisions are available. Main release commit
+015c055 and successful publication/Pages runs are recorded in QA.md. The public
+v0.11.0 release includes both offline browser ZIPs and checksums. The tested
+runtime is 815,877 bytes packed / 5,038,440 bytes unpacked. Continue to preserve
+the original 161 artwork designs and the pause on 35 unfinished source images.

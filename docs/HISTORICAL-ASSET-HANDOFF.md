@@ -24,8 +24,11 @@ assets** are integrated, bringing the real catalog to **702 designs** (89 border
 281 decorations, 332 illustrations). The original 161 designs are unchanged.
 All 24 changed resource revisions are published, verified against every approved
 CDN file and pinned to clean source commits; all 22 new repositories/packages
-have trusted publishers and public version releases. Runtime 0.11.0 is in final
-release testing; follow QA.md and PACKAGE-PLAN.md for publication status.
+have trusted publishers and public version releases. Runtime 0.11.0 is published with provenance, the production site is deployed,
+and both offline browser archives are on the public GitHub release. Actual npm
+consumer tests, live Pages/CDN checks and both downloaded offline archives pass.
+All completed-assets work is merged and released; see QA.md and PACKAGE-PLAN.md
+for release evidence.
 
 The explicit metadata budget is now 1 MB packed / 6 MB installed; artwork remains
 outside the runtime. Final offline archives contain all 8,321 public artwork

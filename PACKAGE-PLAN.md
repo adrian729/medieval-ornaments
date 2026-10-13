@@ -611,7 +611,7 @@ individual rendering entries remain prohibited. No API migration is required.
 - [x] Lock exact clean resource commits and rebuild public metadata/gallery.
 - [x] Pass packed consumers, types, selective bundles, artwork and browser checks.
 - [x] Merge completed source work to main (828def7); keep Pages gated until publication.
-- [ ] Publish runtime 0.11.0, upload both browser ZIPs/checksums, and verify live Pages/CDN.
+- [x] Publish runtime 0.11.0, upload both browser ZIPs/checksums, and verify live Pages/CDN.
 
 Release progress, 2026-10-13: borders-004 and illustrations-002 0.1.2 are
 published through OIDC, with successful full-CDN verification (runs
@@ -646,3 +646,13 @@ setup. Two post-upload visibility timeouts were recovered through fresh complete
 verification, without uploading a version again; see QA.md. Authentication and
 resource publication are complete. Runtime publication and production consumer
 checks are the remaining release gates.
+
+
+Release complete, 2026-10-13: runtime 0.11.0 is published with provenance from
+commit `015c055948bc38da9547919fabf734db051f5304` (workflow 38443761273).
+Pages build/deployment 38444676328 passed. GitHub v0.11.0 includes both offline
+archives and checksums. Fresh registry consumers and live Pages/CDN/downloaded
+ZIP checks pass; QA.md records the evidence. The final runtime is 815,877 bytes
+packed / 5,038,440 bytes unpacked, without artwork or resource dependencies.
+All completed work is merged and released. The 35 unfinished source extractions
+remain paused; their resume instructions are in the historical asset handoff.
