@@ -1,0 +1,144 @@
+{
+  "source_id": "nga-3303",
+  "assets": [
+    {
+      "id": "nga-3303--curling-thistle-ornament",
+      "name": "curling-thistle-ornament",
+      "source_id": "nga-3303",
+      "source_folder": "national-gallery-of-art",
+      "asset_type": "decoration",
+      "description": "A complete curved thistle-leaf ornament with deeply curling thorned foliage and a long swept stem.",
+      "source_region": [
+        0,
+        0,
+        2813,
+        4096
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        3,
+        2,
+        1028,
+        1513
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 1025,
+      "height": 1511,
+      "png": "national-gallery-of-art/nga-3303--curling-thistle-ornament.png",
+      "png_sha256": "8cdf579861d4dba331d273d84717efb95910faee17068b919c81519f0ba639a7",
+      "provenance": {
+        "institution": "National Gallery of Art, Washington",
+        "title": "Thistle Ornament",
+        "object_identifier": "1943.3.91",
+        "date": "1450–1491 (catalog year range)",
+        "artist": "Martin Schongauer",
+        "record_url": "https://www.nga.gov/collection/art-object-page.3303.html",
+        "image_rights": "Open Access / public domain; official image dataset openaccess=1",
+        "rights_url": "https://www.nga.gov/artworks/free-images-and-open-access",
+        "source_file": "tmp/new-assets/national-gallery-of-art/nga-3303--thistle-ornament.jpg",
+        "source_sha256": "9311b765f9b8a2b9897e141cfd698187b23ca21cc4bd8275a275ed04faf9827c",
+        "source_metadata": "tmp/new-assets/national-gallery-of-art/nga-3303.json",
+        "image_url": "https://api.nga.gov/iiif/ef921c34-916e-42e4-97a0-933cf8e94350/full/full/0/default.jpg",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: precise-object-edit / historical artwork extraction. Edit target: the supplied original Martin Schongauer foliage engraving. Extract the entire single connected curling thorned thistle-leaf ornament and its complete long winding stem and root/base. Preserve the exact original leaves, curls, holes, pointed tips, stem direction, proportions and fine engraved hatching. Remove all paper outside and in the actual openings BETWEEN leaves and curls, scan stains, foxing, plate edge, cracks and the small artist monogram near the base. Do not remove or fill actual leaves. Keep the engraved leaf and stem surfaces opaque, with their pale source highlights. Output genuine transparent alpha outside and between the ornament. Keep the same original geometry and fine lines, with no simplification, modernization, extra leaf, decorative addition, shadows, glow, frame or background rectangle. No repeating tile: this is one original complete ornament.",
+        "retained_generated_extraction": "tmp/extraction-work/nga-3303--curling-thistle-ornament--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "9a3be622c74c52caf523063e9b4eaab92f51364df1a131e02d7d5174e9b98027",
+        "retained_generated_size": [
+          1039,
+          1513
+        ],
+        "resolution_cap_scale": 1,
+        "resolution_capped_size": [
+          1039,
+          1513
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261010",
+        "notes": "Compared complete source branching thistle form, curled leaves, tiny hooks and narrow lower stem on white/dark backgrounds. Transparent interior curls; no surrounding scan paper. AI extraction is an approximation, as documented.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": "tmp/extraction-work/quality-reaudit-20261010/manifest.json"
+      },
+      "categories": [
+        "botanical",
+        "scrollwork"
+      ],
+      "subjects": [
+        "foliage",
+        "thistle",
+        "curved-stem"
+      ],
+      "facing": "unclear",
+      "colors": [
+        "brown",
+        "cream",
+        "black"
+      ],
+      "composition": "single-ornament",
+      "usage_notes": "Complete original curved foliage; no demonstrated repeat. AI-assisted extraction retains opaque illustrated highlights and removes the surrounding paper and true openings. See original source for fine engraving comparison.",
+      "svg": "national-gallery-of-art/nga-3303--curling-thistle-ornament.svg",
+      "svg_sha256": "7561aaa0e72db9294e8f5189825e813d67fa4b0c8b62057f24fcbfc8150caec9",
+      "vector_review": {
+        "status": "accepted",
+        "reviewed_on": "2026-10-10",
+        "embedded_raster": false,
+        "method": "Editable VTracer color paths fitted to the original PNG alpha with eight native opacity-contour layers",
+        "premultiplied_rgb_error": 0.03178955738442608,
+        "alpha_error": 0.0059161049683031045,
+        "trace_settings": {
+          "filter_speckle": 2,
+          "color_precision": 6,
+          "layer_difference": 12,
+          "mode": "spline",
+          "path_precision": 3
+        },
+        "notes": "Rendered SVG compared against PNG: actual exterior and openings, thin lances, instrument contours and anatomical silhouettes retained. Small print/paint texture is approximated; PNG remains the raster master."
+      },
+      "review_history": [
+        {
+          "round": "quality-reaudit-20261010",
+          "previous_review": {
+            "status": "accepted",
+            "reviewed_on": "2026-10-10",
+            "notes": "Complete original connected ornament compared with source on white and dark backgrounds. Leaf tips, curls, long stem and base retained; page marks, monogram and surrounding paper cleared. Real openings are transparent and illustrated pale surfaces remain opaque. AI extraction approximates fine scan texture."
+          }
+        }
+      ],
+      "selection_history": [
+        {
+          "previous_values": {
+            "categories": [
+              "botanical",
+              "scrollwork"
+            ],
+            "subjects": [
+              "foliage",
+              "thistle",
+              "curved stem"
+            ],
+            "composition": "single-ornament"
+          },
+          "reason": "Normalize new staging metadata to shared category/composition/subject vocabulary; factual descriptions and original source metadata unchanged."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,681 @@
+{
+  "source_id": "openn-lewis-e-m-031-029",
+  "assets": [
+    {
+      "id": "openn-lewis-e-m-031-029--crowned-david-seated-playing-harp",
+      "name": "crowned-david-seated-playing-harp",
+      "source_id": "openn-lewis-e-m-031-029",
+      "source_folder": "openn-free-library",
+      "asset_type": "illustration",
+      "description": "Crowned David in a brown robe sitting on a small red seat and playing a harp. Part of the Historiated initial G from an antiphonary depicting David as a musician (openn-lewis-e-m-031-029) set.",
+      "source_region": [
+        2944,
+        1732,
+        4076,
+        3585
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        10,
+        0,
+        980,
+        1605
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 970,
+      "height": 1605,
+      "png": "openn-free-library/openn-lewis-e-m-031-029--crowned-david-seated-playing-harp.png",
+      "png_sha256": "98ef5f74990f23126b19a0d9c69594bbb249136aa3cdc99c51aec48565f615d8",
+      "provenance": {
+        "institution": "Free Library of Philadelphia, John Frederick Lewis Collection",
+        "title": "Historiated initial G from an antiphonary depicting David as a musician",
+        "object_identifier": "Lewis E M 31:29 Historiated initial G from an antiphonary depicting David as a musician",
+        "date": "(Portugal, 1600-1699)",
+        "record_url": "https://openn.library.upenn.edu/Data/0023/html/lewis_e_m_031_029.html",
+        "image_rights": "Public Domain Mark 1.0; item record explicitly places images in public domain",
+        "rights_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "source_file": "tmp/new-assets/openn-free-library/openn-lewis-e-m-031-029--historiated-initial-g-from-an-antiphonary-depicting-david-as-a-musician--master.tif",
+        "source_sha256": "24a2f7c8131c3845961249a78a4f686dc66dea3f589c5b5fe7f3aafec248987a",
+        "source_metadata": "tmp/new-assets/openn-free-library/openn-lewis-e-m-031-029.json",
+        "image_url": "https://openn.library.upenn.edu/Data/0023/lewis_e_m_031_029/data/master/7916_0000.tif",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. Isolate ONLY David with his complete crown, face, robe, source-visible hands and feet, all original HARP frame, strings and original small red seat beneath him. Keep contacting musician and instrument as one illustration. Remove blue sky, green surrounding ground and the surrounding grotesque frame. Clear all real spaces between harp strings and the frame, arms and robe. Preserve opaque pale skin and original brown folds. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint. Critical foreground ownership: the blue field visible BETWEEN the harp strings is the scene sky and must be transparent. Preserve every original dark harp string continuously. The small original red and blue painted figures inside the harp are real source detail: retain their entire original faces, hands and clothing opaque, while clearing blue sky OUTSIDE their actual silhouettes. Do not cut blue holes inside painted skin, eyes or garments. No straight polygon patches of sky around those figures. Preserve all original body/harp geometry and wear.",
+        "retained_generated_extraction": "tmp/extraction-work/openn-lewis-e-m-031-029--crowned-david-seated-playing-harp--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "aeaa40c05f28cb1af7919e374bc4574eb5a85eae06372b0fd973236d0557e810",
+        "retained_generated_size": [
+          980,
+          1605
+        ],
+        "resolution_cap_scale": 1,
+        "resolution_capped_size": [
+          980,
+          1605
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          1028,
+          1750
+        ],
+        "native_subject_size_evidence": {
+          "method": "Individually inspected native visible subject bounds, excluding input-region whitespace and neighbours.",
+          "preview_subject_bounds": [
+            810,
+            483,
+            1088,
+            956
+          ],
+          "preview_size": [
+            1400,
+            1306
+          ],
+          "original_size": [
+            5178,
+            4832
+          ]
+        },
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 15944
+        },
+        "attempt_history": [
+          {
+            "prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. Isolate ONLY David with his complete crown, face, robe, source-visible hands and feet, all original HARP frame, strings and original small red seat beneath him. Keep contacting musician and instrument as one illustration. Remove blue sky, green surrounding ground and the surrounding grotesque frame. Clear all real spaces between harp strings and the frame, arms and robe. Preserve opaque pale skin and original brown folds. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+            "retained_rejected_result": "tmp/extraction-work/continuation-20261010/openn-lewis-e-m-031-029--crowned-david-seated-playing-harp--first-rejected-generated.png",
+            "reason": "Uncleared harp sky or retained alphabetic oval stroke."
+          }
+        ]
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Compared full native original, harp interior close-up, corrected full cutout and white/dark proof. Every harp string retained continuously with transparent actual sky openings. Small source-painted figures within the harp remain opaque, including their original blue paint, red skin and fine hands. Complete original crown, musician, robe and shoes retained; no straight polygon sky patches.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/openn-opening-correction-results-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/david-original-harp-interior.png"
+        ]
+      },
+      "categories": [
+        "humans",
+        "music",
+        "royalty"
+      ],
+      "subjects": [
+        "david",
+        "king",
+        "crown",
+        "harp",
+        "musician",
+        "seat"
+      ],
+      "colors": [
+        "brown",
+        "gold",
+        "red",
+        "cream"
+      ],
+      "facing": "front",
+      "composition": "standalone",
+      "usage_notes": "Original independent specimen with printed plate rules and page removed. AI-assisted extraction remains approximate; source bounds, actual native subject cap, original and exact prompt retained.",
+      "sets": [
+        {
+          "id": "openn-lewis-e-m-031-029-set",
+          "name": "Historiated initial G from an antiphonary depicting David as a musician (openn-lewis-e-m-031-029)",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "Crowned David in a brown robe sitting on a small red seat and playing a harp.",
+      "set_label": "Historiated initial G from an antiphonary depicting David as a musician (openn-lewis-e-m-031-029)"
+    },
+    {
+      "id": "openn-lewis-e-m-031-029--flying-brown-bird-with-red-beak",
+      "name": "flying-brown-bird-with-red-beak",
+      "source_id": "openn-lewis-e-m-031-029",
+      "source_folder": "openn-free-library",
+      "asset_type": "illustration",
+      "description": "A small brown bird flying with outstretched wings and a red beak. Part of the Historiated initial G from an antiphonary depicting David as a musician (openn-lewis-e-m-031-029) set.",
+      "source_region": [
+        988,
+        511,
+        1550,
+        1110
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        10,
+        7,
+        515,
+        541
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 505,
+      "height": 534,
+      "png": "openn-free-library/openn-lewis-e-m-031-029--flying-brown-bird-with-red-beak.png",
+      "png_sha256": "fbfa8e765315c70422fc262618d3f432fe04d50e94dd26e89b5886f9acd61e19",
+      "provenance": {
+        "institution": "Free Library of Philadelphia, John Frederick Lewis Collection",
+        "title": "Historiated initial G from an antiphonary depicting David as a musician",
+        "object_identifier": "Lewis E M 31:29 Historiated initial G from an antiphonary depicting David as a musician",
+        "date": "(Portugal, 1600-1699)",
+        "record_url": "https://openn.library.upenn.edu/Data/0023/html/lewis_e_m_031_029.html",
+        "image_rights": "Public Domain Mark 1.0; item record explicitly places images in public domain",
+        "rights_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "source_file": "tmp/new-assets/openn-free-library/openn-lewis-e-m-031-029--historiated-initial-g-from-an-antiphonary-depicting-david-as-a-musician--master.tif",
+        "source_sha256": "24a2f7c8131c3845961249a78a4f686dc66dea3f589c5b5fe7f3aafec248987a",
+        "source_metadata": "tmp/new-assets/openn-free-library/openn-lewis-e-m-031-029.json",
+        "image_url": "https://openn.library.upenn.edu/Data/0023/lewis_e_m_031_029/data/master/7916_0000.tif",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. Isolate ONLY the upper-left flying brown bird, including both wings, every original feather tip, tail and its small red beak. Its beak does not contact the plant below. Remove all parchment and every plant or gold letter fragment. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_extraction": "tmp/extraction-work/openn-lewis-e-m-031-029--flying-brown-bird-with-red-beak--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "b1cbe665b903dcd197859311470b6f08efeeb4c94f49422d524827e6fdd81c32",
+        "retained_generated_size": [
+          1214,
+          1295
+        ],
+        "resolution_cap_scale": 0.4245901639344262,
+        "resolution_capped_size": [
+          515,
+          550
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          492,
+          518
+        ],
+        "native_subject_size_evidence": {
+          "method": "Individually inspected native visible subject bounds, excluding input-region whitespace and neighbours.",
+          "preview_subject_bounds": [
+            278,
+            148,
+            411,
+            288
+          ],
+          "preview_size": [
+            1400,
+            1306
+          ],
+          "original_size": [
+            5178,
+            4832
+          ]
+        },
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 361
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Viewed original, white and dark comparisons. Corrected flowering plants contain no neighboring gilt ivy; complete source-visible leaves and source-truncated flower remain opaque. Archer retains its actual curved shaft end, two original hoofed legs and true arm/bow openings. Full tall rod and upper curl now retained. Butterfly fine anatomy checked against the native original. All source-capped PNGs retain precise prompt and original attribution.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/openn-margin-final-ready-results-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/openn-margin-final-ready-results-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/openn-margin-final-ready-results-proof-3.jpg",
+          "tmp/extraction-work/continuation-20261010/openn-lewis-e-m-031-029--small-spotted-butterfly--original.png"
+        ]
+      },
+      "categories": [
+        "animals"
+      ],
+      "subjects": [
+        "bird",
+        "wing",
+        "beak"
+      ],
+      "colors": [
+        "brown",
+        "cream",
+        "red"
+      ],
+      "facing": "left",
+      "composition": "standalone",
+      "usage_notes": "Original independent specimen with printed plate rules and page removed. AI-assisted extraction remains approximate; source bounds, actual native subject cap, original and exact prompt retained.",
+      "sets": [
+        {
+          "id": "openn-lewis-e-m-031-029-set",
+          "name": "Historiated initial G from an antiphonary depicting David as a musician (openn-lewis-e-m-031-029)",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A small brown bird flying with outstretched wings and a red beak.",
+      "set_label": "Historiated initial G from an antiphonary depicting David as a musician (openn-lewis-e-m-031-029)"
+    },
+    {
+      "id": "openn-lewis-e-m-031-029--grapevine-with-two-purple-clusters-and-lobed-leaves",
+      "name": "grapevine-with-two-purple-clusters-and-lobed-leaves",
+      "source_id": "openn-lewis-e-m-031-029",
+      "source_folder": "openn-free-library",
+      "asset_type": "decoration",
+      "description": "A grapevine with two purple grape clusters, large green leaves and curling tendrils. Part of the Historiated initial G from an antiphonary depicting David as a musician (openn-lewis-e-m-031-029) set.",
+      "source_region": [
+        884,
+        1432,
+        2652,
+        4458
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        15,
+        4,
+        959,
+        1627
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 944,
+      "height": 1623,
+      "png": "openn-free-library/openn-lewis-e-m-031-029--grapevine-with-two-purple-clusters-and-lobed-leaves.png",
+      "png_sha256": "d797f10c4eed838460b5a8cdb132302d7a654bbb2ed5ef7e468ecb0b74151d4c",
+      "provenance": {
+        "institution": "Free Library of Philadelphia, John Frederick Lewis Collection",
+        "title": "Historiated initial G from an antiphonary depicting David as a musician",
+        "object_identifier": "Lewis E M 31:29 Historiated initial G from an antiphonary depicting David as a musician",
+        "date": "(Portugal, 1600-1699)",
+        "record_url": "https://openn.library.upenn.edu/Data/0023/html/lewis_e_m_031_029.html",
+        "image_rights": "Public Domain Mark 1.0; item record explicitly places images in public domain",
+        "rights_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "source_file": "tmp/new-assets/openn-free-library/openn-lewis-e-m-031-029--historiated-initial-g-from-an-antiphonary-depicting-david-as-a-musician--master.tif",
+        "source_sha256": "24a2f7c8131c3845961249a78a4f686dc66dea3f589c5b5fe7f3aafec248987a",
+        "source_metadata": "tmp/new-assets/openn-free-library/openn-lewis-e-m-031-029.json",
+        "image_url": "https://openn.library.upenn.edu/Data/0023/lewis_e_m_031_029/data/master/7916_0000.tif",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. Isolate ONLY the complete GRAPEVINE: both purple grape bunches, its large green/red lobed leaves, all green curly tendrils and thinner stems, the hanging pink round fruit and its two narrow green leaves if attached to the same vine. Exclude BOTH butterflies, the large adjacent red/blue grotesque body and all gold paper. The fine green stem between the bunches belongs to the vine. Preserve actual source-visible leaf and tendril ends, no completion behind insects. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_extraction": "tmp/extraction-work/openn-lewis-e-m-031-029--grapevine-with-two-purple-clusters-and-lobed-leaves--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "2d6727fee5800a2615bba271239f052503bb379cf82210cbf3e7cc40d598bbc9",
+        "retained_generated_size": [
+          959,
+          1641
+        ],
+        "resolution_cap_scale": 1,
+        "resolution_capped_size": [
+          959,
+          1641
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          1679,
+          2956
+        ],
+        "native_subject_size_evidence": {
+          "method": "Individually inspected native visible subject bounds, excluding input-region whitespace and neighbours.",
+          "preview_subject_bounds": [
+            250,
+            398,
+            704,
+            1197
+          ],
+          "preview_size": [
+            1400,
+            1306
+          ],
+          "original_size": [
+            5178,
+            4832
+          ]
+        },
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 36373
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Viewed original, white and dark comparisons. Corrected flowering plants contain no neighboring gilt ivy; complete source-visible leaves and source-truncated flower remain opaque. Archer retains its actual curved shaft end, two original hoofed legs and true arm/bow openings. Full tall rod and upper curl now retained. Butterfly fine anatomy checked against the native original. All source-capped PNGs retain precise prompt and original attribution.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/openn-margin-final-ready-results-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/openn-margin-final-ready-results-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/openn-margin-final-ready-results-proof-3.jpg",
+          "tmp/extraction-work/continuation-20261010/openn-lewis-e-m-031-029--small-spotted-butterfly--original.png"
+        ]
+      },
+      "categories": [
+        "floral",
+        "botanical"
+      ],
+      "subjects": [
+        "vine",
+        "grape",
+        "fruit",
+        "leaf",
+        "tendril"
+      ],
+      "colors": [
+        "purple",
+        "green",
+        "red",
+        "pink"
+      ],
+      "facing": "unclear",
+      "composition": "single-ornament",
+      "usage_notes": "Original independent specimen with printed plate rules and page removed. AI-assisted extraction remains approximate; source bounds, actual native subject cap, original and exact prompt retained.",
+      "sets": [
+        {
+          "id": "openn-lewis-e-m-031-029-set",
+          "name": "Historiated initial G from an antiphonary depicting David as a musician (openn-lewis-e-m-031-029)",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A grapevine with two purple grape clusters, large green leaves and curling tendrils.",
+      "set_label": "Historiated initial G from an antiphonary depicting David as a musician (openn-lewis-e-m-031-029)"
+    },
+    {
+      "id": "openn-lewis-e-m-031-029--large-red-brown-butterfly-with-cream-wing-bars",
+      "name": "large-red-brown-butterfly-with-cream-wing-bars",
+      "source_id": "openn-lewis-e-m-031-029",
+      "source_folder": "openn-free-library",
+      "asset_type": "illustration",
+      "description": "A large red brown butterfly with cream wing bands and thin legs. Part of the Historiated initial G from an antiphonary depicting David as a musician (openn-lewis-e-m-031-029) set.",
+      "source_region": [
+        2049,
+        3445,
+        2770,
+        4229
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        0,
+        1,
+        629,
+        681
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 629,
+      "height": 680,
+      "png": "openn-free-library/openn-lewis-e-m-031-029--large-red-brown-butterfly-with-cream-wing-bars.png",
+      "png_sha256": "6919c56be6d25c588d1ca335f0da93bf329bbb838b628629e2ac026e1a9b017a",
+      "provenance": {
+        "institution": "Free Library of Philadelphia, John Frederick Lewis Collection",
+        "title": "Historiated initial G from an antiphonary depicting David as a musician",
+        "object_identifier": "Lewis E M 31:29 Historiated initial G from an antiphonary depicting David as a musician",
+        "date": "(Portugal, 1600-1699)",
+        "record_url": "https://openn.library.upenn.edu/Data/0023/html/lewis_e_m_031_029.html",
+        "image_rights": "Public Domain Mark 1.0; item record explicitly places images in public domain",
+        "rights_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "source_file": "tmp/new-assets/openn-free-library/openn-lewis-e-m-031-029--historiated-initial-g-from-an-antiphonary-depicting-david-as-a-musician--master.tif",
+        "source_sha256": "24a2f7c8131c3845961249a78a4f686dc66dea3f589c5b5fe7f3aafec248987a",
+        "source_metadata": "tmp/new-assets/openn-free-library/openn-lewis-e-m-031-029.json",
+        "image_url": "https://openn.library.upenn.edu/Data/0023/lewis_e_m_031_029/data/master/7916_0000.tif",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. Isolate ONLY the lower red/brown butterfly with cream wing bands, its blue gray small body, all thin legs and antennae. Remove the grape clusters and vine behind or to the left; preserve only source-visible insect parts without completing hidden legs. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_extraction": "tmp/extraction-work/openn-lewis-e-m-031-029--large-red-brown-butterfly-with-cream-wing-bars--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "1569594709c64829a8b5f2f440f6799f238e118d0f60d69aefceba2107a8179c",
+        "retained_generated_size": [
+          1203,
+          1308
+        ],
+        "resolution_cap_scale": 0.5225752508361204,
+        "resolution_capped_size": [
+          629,
+          684
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          625,
+          688
+        ],
+        "native_subject_size_evidence": {
+          "method": "Individually inspected native visible subject bounds, excluding input-region whitespace and neighbours.",
+          "preview_subject_bounds": [
+            567,
+            944,
+            736,
+            1130
+          ],
+          "preview_size": [
+            1400,
+            1306
+          ],
+          "original_size": [
+            5178,
+            4832
+          ]
+        },
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 1609
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Viewed original, white and dark comparisons. Corrected flowering plants contain no neighboring gilt ivy; complete source-visible leaves and source-truncated flower remain opaque. Archer retains its actual curved shaft end, two original hoofed legs and true arm/bow openings. Full tall rod and upper curl now retained. Butterfly fine anatomy checked against the native original. All source-capped PNGs retain precise prompt and original attribution.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/openn-margin-final-ready-results-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/openn-margin-final-ready-results-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/openn-margin-final-ready-results-proof-3.jpg",
+          "tmp/extraction-work/continuation-20261010/openn-lewis-e-m-031-029--small-spotted-butterfly--original.png"
+        ]
+      },
+      "categories": [
+        "animals"
+      ],
+      "subjects": [
+        "butterfly",
+        "wing",
+        "antenna"
+      ],
+      "colors": [
+        "red",
+        "brown",
+        "cream",
+        "gray"
+      ],
+      "facing": "left",
+      "composition": "standalone",
+      "usage_notes": "Original independent specimen with printed plate rules and page removed. AI-assisted extraction remains approximate; source bounds, actual native subject cap, original and exact prompt retained.",
+      "sets": [
+        {
+          "id": "openn-lewis-e-m-031-029-set",
+          "name": "Historiated initial G from an antiphonary depicting David as a musician (openn-lewis-e-m-031-029)",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A large red brown butterfly with cream wing bands and thin legs.",
+      "set_label": "Historiated initial G from an antiphonary depicting David as a musician (openn-lewis-e-m-031-029)"
+    },
+    {
+      "id": "openn-lewis-e-m-031-029--small-spotted-butterfly",
+      "name": "small-spotted-butterfly",
+      "source_id": "openn-lewis-e-m-031-029",
+      "source_folder": "openn-free-library",
+      "asset_type": "illustration",
+      "description": "A small brown and cream spotted butterfly with thin legs and antennae. Part of the Historiated initial G from an antiphonary depicting David as a musician (openn-lewis-e-m-031-029) set.",
+      "source_region": [
+        984,
+        1839,
+        1446,
+        2361
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        0,
+        6,
+        386,
+        417
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 386,
+      "height": 411,
+      "png": "openn-free-library/openn-lewis-e-m-031-029--small-spotted-butterfly.png",
+      "png_sha256": "caccaf83003313edd65f2834ecfbb22d4efde0e61637f053309bb6c70364b3fc",
+      "provenance": {
+        "institution": "Free Library of Philadelphia, John Frederick Lewis Collection",
+        "title": "Historiated initial G from an antiphonary depicting David as a musician",
+        "object_identifier": "Lewis E M 31:29 Historiated initial G from an antiphonary depicting David as a musician",
+        "date": "(Portugal, 1600-1699)",
+        "record_url": "https://openn.library.upenn.edu/Data/0023/html/lewis_e_m_031_029.html",
+        "image_rights": "Public Domain Mark 1.0; item record explicitly places images in public domain",
+        "rights_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "source_file": "tmp/new-assets/openn-free-library/openn-lewis-e-m-031-029--historiated-initial-g-from-an-antiphonary-depicting-david-as-a-musician--master.tif",
+        "source_sha256": "24a2f7c8131c3845961249a78a4f686dc66dea3f589c5b5fe7f3aafec248987a",
+        "source_metadata": "tmp/new-assets/openn-free-library/openn-lewis-e-m-031-029.json",
+        "image_url": "https://openn.library.upenn.edu/Data/0023/lewis_e_m_031_029/data/master/7916_0000.tif",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. Isolate ONLY the small spotted butterfly at left above the large grape leaf. Preserve original spotted wings, thin body, legs and antennae. Remove the grape leaf below, all paper/gold ground and the red/blue foliate scroll to the right. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_extraction": "tmp/extraction-work/openn-lewis-e-m-031-029--small-spotted-butterfly--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "245037ec577f2ab571e3c8e9a6839551e276a1e892d0ce48795d9c93e5a6eab7",
+        "retained_generated_size": [
+          1180,
+          1333
+        ],
+        "resolution_cap_scale": 0.32727952675596655,
+        "resolution_capped_size": [
+          386,
+          436
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          381,
+          425
+        ],
+        "native_subject_size_evidence": {
+          "method": "Individually inspected native visible subject bounds, excluding input-region whitespace and neighbours.",
+          "preview_subject_bounds": [
+            279,
+            511,
+            382,
+            626
+          ],
+          "preview_size": [
+            1400,
+            1306
+          ],
+          "original_size": [
+            5178,
+            4832
+          ]
+        },
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 384
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Viewed original, white and dark comparisons. Corrected flowering plants contain no neighboring gilt ivy; complete source-visible leaves and source-truncated flower remain opaque. Archer retains its actual curved shaft end, two original hoofed legs and true arm/bow openings. Full tall rod and upper curl now retained. Butterfly fine anatomy checked against the native original. All source-capped PNGs retain precise prompt and original attribution.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/openn-margin-final-ready-results-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/openn-margin-final-ready-results-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/openn-margin-final-ready-results-proof-3.jpg",
+          "tmp/extraction-work/continuation-20261010/openn-lewis-e-m-031-029--small-spotted-butterfly--original.png"
+        ]
+      },
+      "categories": [
+        "animals"
+      ],
+      "subjects": [
+        "butterfly",
+        "wing",
+        "antenna"
+      ],
+      "colors": [
+        "brown",
+        "cream",
+        "black"
+      ],
+      "facing": "right",
+      "composition": "standalone",
+      "usage_notes": "Original independent specimen with printed plate rules and page removed. AI-assisted extraction remains approximate; source bounds, actual native subject cap, original and exact prompt retained.",
+      "sets": [
+        {
+          "id": "openn-lewis-e-m-031-029-set",
+          "name": "Historiated initial G from an antiphonary depicting David as a musician (openn-lewis-e-m-031-029)",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A small brown and cream spotted butterfly with thin legs and antennae.",
+      "set_label": "Historiated initial G from an antiphonary depicting David as a musician (openn-lewis-e-m-031-029)"
+    }
+  ]
+}

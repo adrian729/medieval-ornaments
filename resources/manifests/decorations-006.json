@@ -1,0 +1,4519 @@
+{
+  "schemaVersion": 2,
+  "id": "decorations-006",
+  "collection": "decorations",
+  "package": "@ranx729/medieval-ornaments-assets-decorations-006",
+  "version": "0.1.0",
+  "designs": {
+    "acanthus-double-medallion-with-two-winged-figures": {
+      "name": "acanthus-double-medallion-with-two-winged-figures",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-source-extraction",
+      "repeat_axis": "none",
+      "width": 1900,
+      "height": 1178,
+      "png": "png/acanthus-double-medallion-with-two-winged-figures.png",
+      "webp": "webp/acanthus-double-medallion-with-two-winged-figures.webp",
+      "png_bytes": 4312071,
+      "webp_bytes": 2384342,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/acanthus-double-medallion-with-two-winged-figures.png",
+          "webp": "webp/128/acanthus-double-medallion-with-two-winged-figures.webp",
+          "width": 128,
+          "height": 79,
+          "png_bytes": 31824,
+          "webp_bytes": 20412
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/acanthus-double-medallion-with-two-winged-figures.png",
+          "webp": "webp/256/acanthus-double-medallion-with-two-winged-figures.webp",
+          "width": 256,
+          "height": 159,
+          "png_bytes": 111764,
+          "webp_bytes": 73240
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/acanthus-double-medallion-with-two-winged-figures.png",
+          "webp": "webp/512/acanthus-double-medallion-with-two-winged-figures.webp",
+          "width": 512,
+          "height": 317,
+          "png_bytes": 399849,
+          "webp_bytes": 262358
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/acanthus-double-medallion-with-two-winged-figures.png",
+          "webp": "webp/768/acanthus-double-medallion-with-two-winged-figures.webp",
+          "width": 768,
+          "height": 476,
+          "png_bytes": 876587,
+          "webp_bytes": 544108
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "arched-canopy-with-two-hanging-birdcages": {
+      "name": "arched-canopy-with-two-hanging-birdcages",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-ink-extraction",
+      "repeat_axis": "none",
+      "width": 1725,
+      "height": 1224,
+      "png": "png/arched-canopy-with-two-hanging-birdcages.png",
+      "webp": "webp/arched-canopy-with-two-hanging-birdcages.webp",
+      "png_bytes": 848399,
+      "webp_bytes": 503586,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/arched-canopy-with-two-hanging-birdcages.png",
+          "webp": "webp/128/arched-canopy-with-two-hanging-birdcages.webp",
+          "width": 128,
+          "height": 91,
+          "png_bytes": 20792,
+          "webp_bytes": 8814
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/arched-canopy-with-two-hanging-birdcages.png",
+          "webp": "webp/256/arched-canopy-with-two-hanging-birdcages.webp",
+          "width": 256,
+          "height": 182,
+          "png_bytes": 60815,
+          "webp_bytes": 27618
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/arched-canopy-with-two-hanging-birdcages.png",
+          "webp": "webp/512/arched-canopy-with-two-hanging-birdcages.webp",
+          "width": 512,
+          "height": 363,
+          "png_bytes": 182669,
+          "webp_bytes": 84296
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/arched-canopy-with-two-hanging-birdcages.png",
+          "webp": "webp/768/arched-canopy-with-two-hanging-birdcages.webp",
+          "width": 768,
+          "height": 545,
+          "png_bytes": 352176,
+          "webp_bytes": 164072
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "arched-lace-with-checker-fans-and-square-star": {
+      "name": "arched-lace-with-checker-fans-and-square-star",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-ink-extraction",
+      "repeat_axis": "none",
+      "width": 683,
+      "height": 548,
+      "png": "png/arched-lace-with-checker-fans-and-square-star.png",
+      "webp": "webp/arched-lace-with-checker-fans-and-square-star.webp",
+      "png_bytes": 143030,
+      "webp_bytes": 85152,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/arched-lace-with-checker-fans-and-square-star.png",
+          "webp": "webp/128/arched-lace-with-checker-fans-and-square-star.webp",
+          "width": 128,
+          "height": 103,
+          "png_bytes": 21149,
+          "webp_bytes": 10138
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/arched-lace-with-checker-fans-and-square-star.png",
+          "webp": "webp/256/arched-lace-with-checker-fans-and-square-star.webp",
+          "width": 256,
+          "height": 205,
+          "png_bytes": 66453,
+          "webp_bytes": 32862
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/arched-lace-with-checker-fans-and-square-star.png",
+          "webp": "webp/512/arched-lace-with-checker-fans-and-square-star.webp",
+          "width": 512,
+          "height": 411,
+          "png_bytes": 203744,
+          "webp_bytes": 112594
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "arched-lace-with-compass-star-and-dense-small-petals": {
+      "name": "arched-lace-with-compass-star-and-dense-small-petals",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-ink-extraction",
+      "repeat_axis": "none",
+      "width": 619,
+      "height": 531,
+      "png": "png/arched-lace-with-compass-star-and-dense-small-petals.png",
+      "webp": "webp/arched-lace-with-compass-star-and-dense-small-petals.webp",
+      "png_bytes": 131111,
+      "webp_bytes": 76940,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/arched-lace-with-compass-star-and-dense-small-petals.png",
+          "webp": "webp/128/arched-lace-with-compass-star-and-dense-small-petals.webp",
+          "width": 128,
+          "height": 110,
+          "png_bytes": 23330,
+          "webp_bytes": 11326
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/arched-lace-with-compass-star-and-dense-small-petals.png",
+          "webp": "webp/256/arched-lace-with-compass-star-and-dense-small-petals.webp",
+          "width": 256,
+          "height": 220,
+          "png_bytes": 75809,
+          "webp_bytes": 36886
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/arched-lace-with-compass-star-and-dense-small-petals.png",
+          "webp": "webp/512/arched-lace-with-compass-star-and-dense-small-petals.webp",
+          "width": 512,
+          "height": 439,
+          "png_bytes": 233436,
+          "webp_bytes": 125538
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "arched-lace-with-concentric-petal-rosette": {
+      "name": "arched-lace-with-concentric-petal-rosette",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-ink-extraction",
+      "repeat_axis": "none",
+      "width": 584,
+      "height": 543,
+      "png": "png/arched-lace-with-concentric-petal-rosette.png",
+      "webp": "webp/arched-lace-with-concentric-petal-rosette.webp",
+      "png_bytes": 136310,
+      "webp_bytes": 80738,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/arched-lace-with-concentric-petal-rosette.png",
+          "webp": "webp/128/arched-lace-with-concentric-petal-rosette.webp",
+          "width": 128,
+          "height": 119,
+          "png_bytes": 27448,
+          "webp_bytes": 13276
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/arched-lace-with-concentric-petal-rosette.png",
+          "webp": "webp/256/arched-lace-with-concentric-petal-rosette.webp",
+          "width": 256,
+          "height": 238,
+          "png_bytes": 86140,
+          "webp_bytes": 42214
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/arched-lace-with-concentric-petal-rosette.png",
+          "webp": "webp/512/arched-lace-with-concentric-petal-rosette.webp",
+          "width": 512,
+          "height": 476,
+          "png_bytes": 262697,
+          "webp_bytes": 144888
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "arched-lace-with-crossed-stars-and-small-petals": {
+      "name": "arched-lace-with-crossed-stars-and-small-petals",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-ink-extraction",
+      "repeat_axis": "none",
+      "width": 686,
+      "height": 631,
+      "png": "png/arched-lace-with-crossed-stars-and-small-petals.png",
+      "webp": "webp/arched-lace-with-crossed-stars-and-small-petals.webp",
+      "png_bytes": 185799,
+      "webp_bytes": 109064,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/arched-lace-with-crossed-stars-and-small-petals.png",
+          "webp": "webp/128/arched-lace-with-crossed-stars-and-small-petals.webp",
+          "width": 128,
+          "height": 118,
+          "png_bytes": 30530,
+          "webp_bytes": 14038
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/arched-lace-with-crossed-stars-and-small-petals.png",
+          "webp": "webp/256/arched-lace-with-crossed-stars-and-small-petals.webp",
+          "width": 256,
+          "height": 235,
+          "png_bytes": 95258,
+          "webp_bytes": 44604
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/arched-lace-with-crossed-stars-and-small-petals.png",
+          "webp": "webp/512/arched-lace-with-crossed-stars-and-small-petals.webp",
+          "width": 512,
+          "height": 471,
+          "png_bytes": 285299,
+          "webp_bytes": 150610
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "arched-lace-with-eight-point-stars-and-small-roundels": {
+      "name": "arched-lace-with-eight-point-stars-and-small-roundels",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-ink-extraction",
+      "repeat_axis": "none",
+      "width": 714,
+      "height": 642,
+      "png": "png/arched-lace-with-eight-point-stars-and-small-roundels.png",
+      "webp": "webp/arched-lace-with-eight-point-stars-and-small-roundels.webp",
+      "png_bytes": 187084,
+      "webp_bytes": 110610,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/arched-lace-with-eight-point-stars-and-small-roundels.png",
+          "webp": "webp/128/arched-lace-with-eight-point-stars-and-small-roundels.webp",
+          "width": 128,
+          "height": 115,
+          "png_bytes": 25545,
+          "webp_bytes": 12472
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/arched-lace-with-eight-point-stars-and-small-roundels.png",
+          "webp": "webp/256/arched-lace-with-eight-point-stars-and-small-roundels.webp",
+          "width": 256,
+          "height": 230,
+          "png_bytes": 82807,
+          "webp_bytes": 40002
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/arched-lace-with-eight-point-stars-and-small-roundels.png",
+          "webp": "webp/512/arched-lace-with-eight-point-stars-and-small-roundels.webp",
+          "width": 512,
+          "height": 460,
+          "png_bytes": 257513,
+          "webp_bytes": 137838
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "arched-lace-with-four-floral-diamonds": {
+      "name": "arched-lace-with-four-floral-diamonds",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-ink-extraction",
+      "repeat_axis": "none",
+      "width": 697,
+      "height": 605,
+      "png": "png/arched-lace-with-four-floral-diamonds.png",
+      "webp": "webp/arched-lace-with-four-floral-diamonds.webp",
+      "png_bytes": 149812,
+      "webp_bytes": 86304,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/arched-lace-with-four-floral-diamonds.png",
+          "webp": "webp/128/arched-lace-with-four-floral-diamonds.webp",
+          "width": 128,
+          "height": 111,
+          "png_bytes": 23090,
+          "webp_bytes": 10864
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/arched-lace-with-four-floral-diamonds.png",
+          "webp": "webp/256/arched-lace-with-four-floral-diamonds.webp",
+          "width": 256,
+          "height": 222,
+          "png_bytes": 73211,
+          "webp_bytes": 34356
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/arched-lace-with-four-floral-diamonds.png",
+          "webp": "webp/512/arched-lace-with-four-floral-diamonds.webp",
+          "width": 512,
+          "height": 444,
+          "png_bytes": 220951,
+          "webp_bytes": 116544
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "arched-lace-with-large-petalled-flower": {
+      "name": "arched-lace-with-large-petalled-flower",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-ink-extraction",
+      "repeat_axis": "none",
+      "width": 689,
+      "height": 620,
+      "png": "png/arched-lace-with-large-petalled-flower.png",
+      "webp": "webp/arched-lace-with-large-petalled-flower.webp",
+      "png_bytes": 176565,
+      "webp_bytes": 102808,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/arched-lace-with-large-petalled-flower.png",
+          "webp": "webp/128/arched-lace-with-large-petalled-flower.webp",
+          "width": 128,
+          "height": 115,
+          "png_bytes": 28563,
+          "webp_bytes": 13244
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/arched-lace-with-large-petalled-flower.png",
+          "webp": "webp/256/arched-lace-with-large-petalled-flower.webp",
+          "width": 256,
+          "height": 230,
+          "png_bytes": 88274,
+          "webp_bytes": 41854
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/arched-lace-with-large-petalled-flower.png",
+          "webp": "webp/512/arched-lace-with-large-petalled-flower.webp",
+          "width": 512,
+          "height": 461,
+          "png_bytes": 263688,
+          "webp_bytes": 140946
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "arched-lace-with-radiating-spokes-and-pointed-petals": {
+      "name": "arched-lace-with-radiating-spokes-and-pointed-petals",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-ink-extraction",
+      "repeat_axis": "none",
+      "width": 638,
+      "height": 536,
+      "png": "png/arched-lace-with-radiating-spokes-and-pointed-petals.png",
+      "webp": "webp/arched-lace-with-radiating-spokes-and-pointed-petals.webp",
+      "png_bytes": 134230,
+      "webp_bytes": 78460,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/arched-lace-with-radiating-spokes-and-pointed-petals.png",
+          "webp": "webp/128/arched-lace-with-radiating-spokes-and-pointed-petals.webp",
+          "width": 128,
+          "height": 108,
+          "png_bytes": 23281,
+          "webp_bytes": 11254
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/arched-lace-with-radiating-spokes-and-pointed-petals.png",
+          "webp": "webp/256/arched-lace-with-radiating-spokes-and-pointed-petals.webp",
+          "width": 256,
+          "height": 215,
+          "png_bytes": 75560,
+          "webp_bytes": 36232
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/arched-lace-with-radiating-spokes-and-pointed-petals.png",
+          "webp": "webp/512/arched-lace-with-radiating-spokes-and-pointed-petals.webp",
+          "width": 512,
+          "height": 430,
+          "png_bytes": 230836,
+          "webp_bytes": 125244
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "bearded-winged-masks-with-curled-leaf-scroll": {
+      "name": "bearded-winged-masks-with-curled-leaf-scroll",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-ink-extraction",
+      "repeat_axis": "none",
+      "width": 2398,
+      "height": 362,
+      "png": "png/bearded-winged-masks-with-curled-leaf-scroll.png",
+      "webp": "webp/bearded-winged-masks-with-curled-leaf-scroll.webp",
+      "png_bytes": 911595,
+      "webp_bytes": 514138,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/bearded-winged-masks-with-curled-leaf-scroll.png",
+          "webp": "webp/128/bearded-winged-masks-with-curled-leaf-scroll.webp",
+          "width": 128,
+          "height": 19,
+          "png_bytes": 5510,
+          "webp_bytes": 3158
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/bearded-winged-masks-with-curled-leaf-scroll.png",
+          "webp": "webp/256/bearded-winged-masks-with-curled-leaf-scroll.webp",
+          "width": 256,
+          "height": 39,
+          "png_bytes": 20495,
+          "webp_bytes": 10260
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/bearded-winged-masks-with-curled-leaf-scroll.png",
+          "webp": "webp/512/bearded-winged-masks-with-curled-leaf-scroll.webp",
+          "width": 512,
+          "height": 77,
+          "png_bytes": 67275,
+          "webp_bytes": 34102
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/bearded-winged-masks-with-curled-leaf-scroll.png",
+          "webp": "webp/768/bearded-winged-masks-with-curled-leaf-scroll.webp",
+          "width": 768,
+          "height": 116,
+          "png_bytes": 139630,
+          "webp_bytes": 73150
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "cupid-subduing-two-lions-in-acanthus-scroll": {
+      "name": "cupid-subduing-two-lions-in-acanthus-scroll",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-ink-extraction",
+      "repeat_axis": "none",
+      "width": 3707,
+      "height": 636,
+      "png": "png/cupid-subduing-two-lions-in-acanthus-scroll.png",
+      "webp": "webp/cupid-subduing-two-lions-in-acanthus-scroll.webp",
+      "png_bytes": 1622499,
+      "webp_bytes": 1143138,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/cupid-subduing-two-lions-in-acanthus-scroll.png",
+          "webp": "webp/128/cupid-subduing-two-lions-in-acanthus-scroll.webp",
+          "width": 128,
+          "height": 22,
+          "png_bytes": 7940,
+          "webp_bytes": 3918
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/cupid-subduing-two-lions-in-acanthus-scroll.png",
+          "webp": "webp/256/cupid-subduing-two-lions-in-acanthus-scroll.webp",
+          "width": 256,
+          "height": 44,
+          "png_bytes": 29823,
+          "webp_bytes": 13342
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/cupid-subduing-two-lions-in-acanthus-scroll.png",
+          "webp": "webp/512/cupid-subduing-two-lions-in-acanthus-scroll.webp",
+          "width": 512,
+          "height": 88,
+          "png_bytes": 109136,
+          "webp_bytes": 47574
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/cupid-subduing-two-lions-in-acanthus-scroll.png",
+          "webp": "webp/768/cupid-subduing-two-lions-in-acanthus-scroll.webp",
+          "width": 768,
+          "height": 132,
+          "png_bytes": 227319,
+          "webp_bytes": 101868
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "dragon-head-scroll-with-long-bearded-mask": {
+      "name": "dragon-head-scroll-with-long-bearded-mask",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-ink-extraction",
+      "repeat_axis": "none",
+      "width": 2396,
+      "height": 405,
+      "png": "png/dragon-head-scroll-with-long-bearded-mask.png",
+      "webp": "webp/dragon-head-scroll-with-long-bearded-mask.webp",
+      "png_bytes": 1026499,
+      "webp_bytes": 563362,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/dragon-head-scroll-with-long-bearded-mask.png",
+          "webp": "webp/128/dragon-head-scroll-with-long-bearded-mask.webp",
+          "width": 128,
+          "height": 22,
+          "png_bytes": 7005,
+          "webp_bytes": 3722
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/dragon-head-scroll-with-long-bearded-mask.png",
+          "webp": "webp/256/dragon-head-scroll-with-long-bearded-mask.webp",
+          "width": 256,
+          "height": 43,
+          "png_bytes": 24766,
+          "webp_bytes": 11788
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/dragon-head-scroll-with-long-bearded-mask.png",
+          "webp": "webp/512/dragon-head-scroll-with-long-bearded-mask.webp",
+          "width": 512,
+          "height": 87,
+          "png_bytes": 80416,
+          "webp_bytes": 39522
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/dragon-head-scroll-with-long-bearded-mask.png",
+          "webp": "webp/768/dragon-head-scroll-with-long-bearded-mask.webp",
+          "width": 768,
+          "height": 130,
+          "png_bytes": 163289,
+          "webp_bytes": 81564
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "foliate-face-with-paired-perching-birds": {
+      "name": "foliate-face-with-paired-perching-birds",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-ink-extraction",
+      "repeat_axis": "none",
+      "width": 1001,
+      "height": 544,
+      "png": "png/foliate-face-with-paired-perching-birds.png",
+      "webp": "webp/foliate-face-with-paired-perching-birds.webp",
+      "png_bytes": 313282,
+      "webp_bytes": 193454,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/foliate-face-with-paired-perching-birds.png",
+          "webp": "webp/128/foliate-face-with-paired-perching-birds.webp",
+          "width": 128,
+          "height": 70,
+          "png_bytes": 18227,
+          "webp_bytes": 7850
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/foliate-face-with-paired-perching-birds.png",
+          "webp": "webp/256/foliate-face-with-paired-perching-birds.webp",
+          "width": 256,
+          "height": 139,
+          "png_bytes": 53236,
+          "webp_bytes": 23630
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/foliate-face-with-paired-perching-birds.png",
+          "webp": "webp/512/foliate-face-with-paired-perching-birds.webp",
+          "width": 512,
+          "height": 278,
+          "png_bytes": 168779,
+          "webp_bytes": 77246
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/foliate-face-with-paired-perching-birds.png",
+          "webp": "webp/768/foliate-face-with-paired-perching-birds.webp",
+          "width": 768,
+          "height": 417,
+          "png_bytes": 340822,
+          "webp_bytes": 160822
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "four-season-heads-in-acanthus-frieze": {
+      "name": "four-season-heads-in-acanthus-frieze",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-ink-extraction",
+      "repeat_axis": "none",
+      "width": 3678,
+      "height": 439,
+      "png": "png/four-season-heads-in-acanthus-frieze.png",
+      "webp": "webp/four-season-heads-in-acanthus-frieze.webp",
+      "png_bytes": 1146573,
+      "webp_bytes": 806982,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/four-season-heads-in-acanthus-frieze.png",
+          "webp": "webp/128/four-season-heads-in-acanthus-frieze.webp",
+          "width": 128,
+          "height": 15,
+          "png_bytes": 5293,
+          "webp_bytes": 2840
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/four-season-heads-in-acanthus-frieze.png",
+          "webp": "webp/256/four-season-heads-in-acanthus-frieze.webp",
+          "width": 256,
+          "height": 31,
+          "png_bytes": 20855,
+          "webp_bytes": 9558
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/four-season-heads-in-acanthus-frieze.png",
+          "webp": "webp/512/four-season-heads-in-acanthus-frieze.webp",
+          "width": 512,
+          "height": 61,
+          "png_bytes": 75057,
+          "webp_bytes": 33158
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/four-season-heads-in-acanthus-frieze.png",
+          "webp": "webp/768/four-season-heads-in-acanthus-frieze.webp",
+          "width": 768,
+          "height": 92,
+          "png_bytes": 158594,
+          "webp_bytes": 71552
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "garlanded-grotesque-with-birds-musicians-and-central-mask": {
+      "name": "garlanded-grotesque-with-birds-musicians-and-central-mask",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-ink-extraction",
+      "repeat_axis": "none",
+      "width": 2206,
+      "height": 3421,
+      "png": "png/garlanded-grotesque-with-birds-musicians-and-central-mask.png",
+      "webp": "webp/garlanded-grotesque-with-birds-musicians-and-central-mask.webp",
+      "png_bytes": 4048625,
+      "webp_bytes": 2462416,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/garlanded-grotesque-with-birds-musicians-and-central-mask.png",
+          "webp": "webp/128/garlanded-grotesque-with-birds-musicians-and-central-mask.webp",
+          "width": 83,
+          "height": 128,
+          "png_bytes": 29297,
+          "webp_bytes": 11496
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/garlanded-grotesque-with-birds-musicians-and-central-mask.png",
+          "webp": "webp/256/garlanded-grotesque-with-birds-musicians-and-central-mask.webp",
+          "width": 165,
+          "height": 256,
+          "png_bytes": 100280,
+          "webp_bytes": 39382
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/garlanded-grotesque-with-birds-musicians-and-central-mask.png",
+          "webp": "webp/512/garlanded-grotesque-with-birds-musicians-and-central-mask.webp",
+          "width": 330,
+          "height": 512,
+          "png_bytes": 317317,
+          "webp_bytes": 134952
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/garlanded-grotesque-with-birds-musicians-and-central-mask.png",
+          "webp": "webp/768/garlanded-grotesque-with-birds-musicians-and-central-mask.webp",
+          "width": 495,
+          "height": 768,
+          "png_bytes": 627601,
+          "webp_bytes": 281146
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "grape-and-lobed-leaf-scroll-with-central-tie": {
+      "name": "grape-and-lobed-leaf-scroll-with-central-tie",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-ink-extraction",
+      "repeat_axis": "none",
+      "width": 2399,
+      "height": 349,
+      "png": "png/grape-and-lobed-leaf-scroll-with-central-tie.png",
+      "webp": "webp/grape-and-lobed-leaf-scroll-with-central-tie.webp",
+      "png_bytes": 906119,
+      "webp_bytes": 512664,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/grape-and-lobed-leaf-scroll-with-central-tie.png",
+          "webp": "webp/128/grape-and-lobed-leaf-scroll-with-central-tie.webp",
+          "width": 128,
+          "height": 19,
+          "png_bytes": 6027,
+          "webp_bytes": 3316
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/grape-and-lobed-leaf-scroll-with-central-tie.png",
+          "webp": "webp/256/grape-and-lobed-leaf-scroll-with-central-tie.webp",
+          "width": 256,
+          "height": 37,
+          "png_bytes": 20094,
+          "webp_bytes": 10248
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/grape-and-lobed-leaf-scroll-with-central-tie.png",
+          "webp": "webp/512/grape-and-lobed-leaf-scroll-with-central-tie.webp",
+          "width": 512,
+          "height": 74,
+          "png_bytes": 66173,
+          "webp_bytes": 34428
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/grape-and-lobed-leaf-scroll-with-central-tie.png",
+          "webp": "webp/768/grape-and-lobed-leaf-scroll-with-central-tie.webp",
+          "width": 768,
+          "height": 112,
+          "png_bytes": 138027,
+          "webp_bytes": 73060
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "grotesque-architecture-with-bird-canopies-and-framed-scenes": {
+      "name": "grotesque-architecture-with-bird-canopies-and-framed-scenes",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-ink-extraction",
+      "repeat_axis": "none",
+      "width": 2042,
+      "height": 3096,
+      "png": "png/grotesque-architecture-with-bird-canopies-and-framed-scenes.png",
+      "webp": "webp/grotesque-architecture-with-bird-canopies-and-framed-scenes.webp",
+      "png_bytes": 3737472,
+      "webp_bytes": 2366474,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/grotesque-architecture-with-bird-canopies-and-framed-scenes.png",
+          "webp": "webp/128/grotesque-architecture-with-bird-canopies-and-framed-scenes.webp",
+          "width": 84,
+          "height": 128,
+          "png_bytes": 26593,
+          "webp_bytes": 12032
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/grotesque-architecture-with-bird-canopies-and-framed-scenes.png",
+          "webp": "webp/256/grotesque-architecture-with-bird-canopies-and-framed-scenes.webp",
+          "width": 169,
+          "height": 256,
+          "png_bytes": 90859,
+          "webp_bytes": 41426
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/grotesque-architecture-with-bird-canopies-and-framed-scenes.png",
+          "webp": "webp/512/grotesque-architecture-with-bird-canopies-and-framed-scenes.webp",
+          "width": 338,
+          "height": 512,
+          "png_bytes": 300131,
+          "webp_bytes": 143104
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/grotesque-architecture-with-bird-canopies-and-framed-scenes.png",
+          "webp": "webp/768/grotesque-architecture-with-bird-canopies-and-framed-scenes.webp",
+          "width": 507,
+          "height": 768,
+          "png_bytes": 609316,
+          "webp_bytes": 301570
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "grotesque-candelabrum-with-satyrs-griffins-and-music": {
+      "name": "grotesque-candelabrum-with-satyrs-griffins-and-music",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-ink-extraction",
+      "repeat_axis": "none",
+      "width": 2255,
+      "height": 3385,
+      "png": "png/grotesque-candelabrum-with-satyrs-griffins-and-music.png",
+      "webp": "webp/grotesque-candelabrum-with-satyrs-griffins-and-music.webp",
+      "png_bytes": 4050431,
+      "webp_bytes": 2715314,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/grotesque-candelabrum-with-satyrs-griffins-and-music.png",
+          "webp": "webp/128/grotesque-candelabrum-with-satyrs-griffins-and-music.webp",
+          "width": 85,
+          "height": 128,
+          "png_bytes": 29973,
+          "webp_bytes": 12082
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/grotesque-candelabrum-with-satyrs-griffins-and-music.png",
+          "webp": "webp/256/grotesque-candelabrum-with-satyrs-griffins-and-music.webp",
+          "width": 171,
+          "height": 256,
+          "png_bytes": 101218,
+          "webp_bytes": 41132
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/grotesque-candelabrum-with-satyrs-griffins-and-music.png",
+          "webp": "webp/512/grotesque-candelabrum-with-satyrs-griffins-and-music.webp",
+          "width": 341,
+          "height": 512,
+          "png_bytes": 332079,
+          "webp_bytes": 142484
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/grotesque-candelabrum-with-satyrs-griffins-and-music.png",
+          "webp": "webp/768/grotesque-candelabrum-with-satyrs-griffins-and-music.webp",
+          "width": 512,
+          "height": 768,
+          "png_bytes": 668341,
+          "webp_bytes": 301908
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "grotesque-canopy-with-birds-and-suspended-miniature": {
+      "name": "grotesque-canopy-with-birds-and-suspended-miniature",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-ink-extraction",
+      "repeat_axis": "none",
+      "width": 1004,
+      "height": 535,
+      "png": "png/grotesque-canopy-with-birds-and-suspended-miniature.png",
+      "webp": "webp/grotesque-canopy-with-birds-and-suspended-miniature.webp",
+      "png_bytes": 253594,
+      "webp_bytes": 151734,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/grotesque-canopy-with-birds-and-suspended-miniature.png",
+          "webp": "webp/128/grotesque-canopy-with-birds-and-suspended-miniature.webp",
+          "width": 128,
+          "height": 68,
+          "png_bytes": 15978,
+          "webp_bytes": 7060
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/grotesque-canopy-with-birds-and-suspended-miniature.png",
+          "webp": "webp/256/grotesque-canopy-with-birds-and-suspended-miniature.webp",
+          "width": 256,
+          "height": 136,
+          "png_bytes": 46400,
+          "webp_bytes": 20702
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/grotesque-canopy-with-birds-and-suspended-miniature.png",
+          "webp": "webp/512/grotesque-canopy-with-birds-and-suspended-miniature.webp",
+          "width": 512,
+          "height": 273,
+          "png_bytes": 139802,
+          "webp_bytes": 64360
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/grotesque-canopy-with-birds-and-suspended-miniature.png",
+          "webp": "webp/768/grotesque-canopy-with-birds-and-suspended-miniature.webp",
+          "width": 768,
+          "height": 409,
+          "png_bytes": 280970,
+          "webp_bytes": 132786
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "grotesque-vines-with-winged-hybrids-and-figure-canopies": {
+      "name": "grotesque-vines-with-winged-hybrids-and-figure-canopies",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-ink-extraction",
+      "repeat_axis": "none",
+      "width": 2226,
+      "height": 3423,
+      "png": "png/grotesque-vines-with-winged-hybrids-and-figure-canopies.png",
+      "webp": "webp/grotesque-vines-with-winged-hybrids-and-figure-canopies.webp",
+      "png_bytes": 4466606,
+      "webp_bytes": 2659446,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/grotesque-vines-with-winged-hybrids-and-figure-canopies.png",
+          "webp": "webp/128/grotesque-vines-with-winged-hybrids-and-figure-canopies.webp",
+          "width": 83,
+          "height": 128,
+          "png_bytes": 30656,
+          "webp_bytes": 12032
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/grotesque-vines-with-winged-hybrids-and-figure-canopies.png",
+          "webp": "webp/256/grotesque-vines-with-winged-hybrids-and-figure-canopies.webp",
+          "width": 166,
+          "height": 256,
+          "png_bytes": 107129,
+          "webp_bytes": 41736
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/grotesque-vines-with-winged-hybrids-and-figure-canopies.png",
+          "webp": "webp/512/grotesque-vines-with-winged-hybrids-and-figure-canopies.webp",
+          "width": 333,
+          "height": 512,
+          "png_bytes": 347522,
+          "webp_bytes": 144426
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/grotesque-vines-with-winged-hybrids-and-figure-canopies.png",
+          "webp": "webp/768/grotesque-vines-with-winged-hybrids-and-figure-canopies.webp",
+          "width": 499,
+          "height": 768,
+          "png_bytes": 685293,
+          "webp_bytes": 301110
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "grotesque-with-paired-curled-hybrids-and-framed-scene": {
+      "name": "grotesque-with-paired-curled-hybrids-and-framed-scene",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-ink-extraction",
+      "repeat_axis": "none",
+      "width": 1733,
+      "height": 1318,
+      "png": "png/grotesque-with-paired-curled-hybrids-and-framed-scene.png",
+      "webp": "webp/grotesque-with-paired-curled-hybrids-and-framed-scene.webp",
+      "png_bytes": 1248824,
+      "webp_bytes": 759918,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/grotesque-with-paired-curled-hybrids-and-framed-scene.png",
+          "webp": "webp/128/grotesque-with-paired-curled-hybrids-and-framed-scene.webp",
+          "width": 128,
+          "height": 97,
+          "png_bytes": 25820,
+          "webp_bytes": 11020
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/grotesque-with-paired-curled-hybrids-and-framed-scene.png",
+          "webp": "webp/256/grotesque-with-paired-curled-hybrids-and-framed-scene.webp",
+          "width": 256,
+          "height": 195,
+          "png_bytes": 83021,
+          "webp_bytes": 35940
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/grotesque-with-paired-curled-hybrids-and-framed-scene.png",
+          "webp": "webp/512/grotesque-with-paired-curled-hybrids-and-framed-scene.webp",
+          "width": 512,
+          "height": 389,
+          "png_bytes": 255827,
+          "webp_bytes": 115734
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/grotesque-with-paired-curled-hybrids-and-framed-scene.png",
+          "webp": "webp/768/grotesque-with-paired-curled-hybrids-and-framed-scene.webp",
+          "width": 768,
+          "height": 584,
+          "png_bytes": 508661,
+          "webp_bytes": 231440
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "hanging-rosette-and-bell-finial": {
+      "name": "hanging-rosette-and-bell-finial",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-ink-extraction",
+      "repeat_axis": "none",
+      "width": 230,
+      "height": 213,
+      "png": "png/hanging-rosette-and-bell-finial.png",
+      "webp": "webp/hanging-rosette-and-bell-finial.webp",
+      "png_bytes": 15667,
+      "webp_bytes": 8680,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/hanging-rosette-and-bell-finial.png",
+          "webp": "webp/128/hanging-rosette-and-bell-finial.webp",
+          "width": 128,
+          "height": 119,
+          "png_bytes": 14059,
+          "webp_bytes": 7840
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "horned-dragon-with-flowering-scroll": {
+      "name": "horned-dragon-with-flowering-scroll",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-ink-extraction",
+      "repeat_axis": "none",
+      "width": 2401,
+      "height": 376,
+      "png": "png/horned-dragon-with-flowering-scroll.png",
+      "webp": "webp/horned-dragon-with-flowering-scroll.webp",
+      "png_bytes": 955862,
+      "webp_bytes": 531022,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/horned-dragon-with-flowering-scroll.png",
+          "webp": "webp/128/horned-dragon-with-flowering-scroll.webp",
+          "width": 128,
+          "height": 20,
+          "png_bytes": 6254,
+          "webp_bytes": 3386
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/horned-dragon-with-flowering-scroll.png",
+          "webp": "webp/256/horned-dragon-with-flowering-scroll.webp",
+          "width": 256,
+          "height": 40,
+          "png_bytes": 22142,
+          "webp_bytes": 11020
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/horned-dragon-with-flowering-scroll.png",
+          "webp": "webp/512/horned-dragon-with-flowering-scroll.webp",
+          "width": 512,
+          "height": 80,
+          "png_bytes": 73068,
+          "webp_bytes": 36264
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/horned-dragon-with-flowering-scroll.png",
+          "webp": "webp/768/horned-dragon-with-flowering-scroll.webp",
+          "width": 768,
+          "height": 120,
+          "png_bytes": 145695,
+          "webp_bytes": 75036
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "horned-hybrids-and-bears-in-foliate-cartouche-frame": {
+      "name": "horned-hybrids-and-bears-in-foliate-cartouche-frame",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-ink-extraction",
+      "repeat_axis": "none",
+      "width": 3539,
+      "height": 941,
+      "png": "png/horned-hybrids-and-bears-in-foliate-cartouche-frame.png",
+      "webp": "webp/horned-hybrids-and-bears-in-foliate-cartouche-frame.webp",
+      "png_bytes": 1950935,
+      "webp_bytes": 1183450,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/horned-hybrids-and-bears-in-foliate-cartouche-frame.png",
+          "webp": "webp/128/horned-hybrids-and-bears-in-foliate-cartouche-frame.webp",
+          "width": 128,
+          "height": 34,
+          "png_bytes": 11582,
+          "webp_bytes": 5320
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/horned-hybrids-and-bears-in-foliate-cartouche-frame.png",
+          "webp": "webp/256/horned-hybrids-and-bears-in-foliate-cartouche-frame.webp",
+          "width": 256,
+          "height": 68,
+          "png_bytes": 44207,
+          "webp_bytes": 17984
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/horned-hybrids-and-bears-in-foliate-cartouche-frame.png",
+          "webp": "webp/512/horned-hybrids-and-bears-in-foliate-cartouche-frame.webp",
+          "width": 512,
+          "height": 136,
+          "png_bytes": 151690,
+          "webp_bytes": 63316
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/horned-hybrids-and-bears-in-foliate-cartouche-frame.png",
+          "webp": "webp/768/horned-hybrids-and-bears-in-foliate-cartouche-frame.webp",
+          "width": 768,
+          "height": 204,
+          "png_bytes": 305946,
+          "webp_bytes": 131786
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "inverted-lattice-floral-triangle": {
+      "name": "inverted-lattice-floral-triangle",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-ink-extraction",
+      "repeat_axis": "none",
+      "width": 252,
+      "height": 212,
+      "png": "png/inverted-lattice-floral-triangle.png",
+      "webp": "webp/inverted-lattice-floral-triangle.webp",
+      "png_bytes": 22381,
+      "webp_bytes": 12864,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/inverted-lattice-floral-triangle.png",
+          "webp": "webp/128/inverted-lattice-floral-triangle.webp",
+          "width": 128,
+          "height": 108,
+          "png_bytes": 16981,
+          "webp_bytes": 9244
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "paired-bearded-heads-with-horns-and-flowers": {
+      "name": "paired-bearded-heads-with-horns-and-flowers",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-ink-extraction",
+      "repeat_axis": "none",
+      "width": 2399,
+      "height": 357,
+      "png": "png/paired-bearded-heads-with-horns-and-flowers.png",
+      "webp": "webp/paired-bearded-heads-with-horns-and-flowers.webp",
+      "png_bytes": 956500,
+      "webp_bytes": 540116,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/paired-bearded-heads-with-horns-and-flowers.png",
+          "webp": "webp/128/paired-bearded-heads-with-horns-and-flowers.webp",
+          "width": 128,
+          "height": 19,
+          "png_bytes": 6006,
+          "webp_bytes": 3368
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/paired-bearded-heads-with-horns-and-flowers.png",
+          "webp": "webp/256/paired-bearded-heads-with-horns-and-flowers.webp",
+          "width": 256,
+          "height": 38,
+          "png_bytes": 20809,
+          "webp_bytes": 10784
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/paired-bearded-heads-with-horns-and-flowers.png",
+          "webp": "webp/512/paired-bearded-heads-with-horns-and-flowers.webp",
+          "width": 512,
+          "height": 76,
+          "png_bytes": 69423,
+          "webp_bytes": 35172
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/paired-bearded-heads-with-horns-and-flowers.png",
+          "webp": "webp/768/paired-bearded-heads-with-horns-and-flowers.webp",
+          "width": 768,
+          "height": 114,
+          "png_bytes": 140872,
+          "webp_bytes": 74322
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "paired-horned-creatures-and-twin-flower-scroll": {
+      "name": "paired-horned-creatures-and-twin-flower-scroll",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-ink-extraction",
+      "repeat_axis": "none",
+      "width": 2396,
+      "height": 364,
+      "png": "png/paired-horned-creatures-and-twin-flower-scroll.png",
+      "webp": "webp/paired-horned-creatures-and-twin-flower-scroll.webp",
+      "png_bytes": 1034973,
+      "webp_bytes": 584448,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/paired-horned-creatures-and-twin-flower-scroll.png",
+          "webp": "webp/128/paired-horned-creatures-and-twin-flower-scroll.webp",
+          "width": 128,
+          "height": 19,
+          "png_bytes": 5928,
+          "webp_bytes": 3414
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/paired-horned-creatures-and-twin-flower-scroll.png",
+          "webp": "webp/256/paired-horned-creatures-and-twin-flower-scroll.webp",
+          "width": 256,
+          "height": 39,
+          "png_bytes": 21391,
+          "webp_bytes": 11146
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/paired-horned-creatures-and-twin-flower-scroll.png",
+          "webp": "webp/512/paired-horned-creatures-and-twin-flower-scroll.webp",
+          "width": 512,
+          "height": 78,
+          "png_bytes": 71621,
+          "webp_bytes": 37112
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/paired-horned-creatures-and-twin-flower-scroll.png",
+          "webp": "webp/768/paired-horned-creatures-and-twin-flower-scroll.webp",
+          "width": 768,
+          "height": 117,
+          "png_bytes": 151060,
+          "webp_bytes": 80196
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "paired-human-headed-birds-with-tied-scroll": {
+      "name": "paired-human-headed-birds-with-tied-scroll",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-ink-extraction",
+      "repeat_axis": "none",
+      "width": 2397,
+      "height": 378,
+      "png": "png/paired-human-headed-birds-with-tied-scroll.png",
+      "webp": "webp/paired-human-headed-birds-with-tied-scroll.webp",
+      "png_bytes": 1020837,
+      "webp_bytes": 571128,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/paired-human-headed-birds-with-tied-scroll.png",
+          "webp": "webp/128/paired-human-headed-birds-with-tied-scroll.webp",
+          "width": 128,
+          "height": 20,
+          "png_bytes": 6202,
+          "webp_bytes": 3530
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/paired-human-headed-birds-with-tied-scroll.png",
+          "webp": "webp/256/paired-human-headed-birds-with-tied-scroll.webp",
+          "width": 256,
+          "height": 40,
+          "png_bytes": 21901,
+          "webp_bytes": 11354
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/paired-human-headed-birds-with-tied-scroll.png",
+          "webp": "webp/512/paired-human-headed-birds-with-tied-scroll.webp",
+          "width": 512,
+          "height": 81,
+          "png_bytes": 74831,
+          "webp_bytes": 37682
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/paired-human-headed-birds-with-tied-scroll.png",
+          "webp": "webp/768/paired-human-headed-birds-with-tied-scroll.webp",
+          "width": 768,
+          "height": 121,
+          "png_bytes": 151786,
+          "webp_bytes": 79770
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "paired-winged-beasts-with-central-face": {
+      "name": "paired-winged-beasts-with-central-face",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-ink-extraction",
+      "repeat_axis": "none",
+      "width": 2397,
+      "height": 377,
+      "png": "png/paired-winged-beasts-with-central-face.png",
+      "webp": "webp/paired-winged-beasts-with-central-face.webp",
+      "png_bytes": 882745,
+      "webp_bytes": 498522,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/paired-winged-beasts-with-central-face.png",
+          "webp": "webp/128/paired-winged-beasts-with-central-face.webp",
+          "width": 128,
+          "height": 20,
+          "png_bytes": 5656,
+          "webp_bytes": 3248
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/paired-winged-beasts-with-central-face.png",
+          "webp": "webp/256/paired-winged-beasts-with-central-face.webp",
+          "width": 256,
+          "height": 40,
+          "png_bytes": 18530,
+          "webp_bytes": 9966
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/paired-winged-beasts-with-central-face.png",
+          "webp": "webp/512/paired-winged-beasts-with-central-face.webp",
+          "width": 512,
+          "height": 81,
+          "png_bytes": 60595,
+          "webp_bytes": 32888
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/paired-winged-beasts-with-central-face.png",
+          "webp": "webp/768/paired-winged-beasts-with-central-face.webp",
+          "width": 768,
+          "height": 121,
+          "png_bytes": 125390,
+          "webp_bytes": 69734
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "paired-winged-putti-holding-bowl-in-scroll": {
+      "name": "paired-winged-putti-holding-bowl-in-scroll",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-ink-extraction",
+      "repeat_axis": "none",
+      "width": 2394,
+      "height": 386,
+      "png": "png/paired-winged-putti-holding-bowl-in-scroll.png",
+      "webp": "webp/paired-winged-putti-holding-bowl-in-scroll.webp",
+      "png_bytes": 891015,
+      "webp_bytes": 495410,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/paired-winged-putti-holding-bowl-in-scroll.png",
+          "webp": "webp/128/paired-winged-putti-holding-bowl-in-scroll.webp",
+          "width": 128,
+          "height": 21,
+          "png_bytes": 5801,
+          "webp_bytes": 3330
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/paired-winged-putti-holding-bowl-in-scroll.png",
+          "webp": "webp/256/paired-winged-putti-holding-bowl-in-scroll.webp",
+          "width": 256,
+          "height": 41,
+          "png_bytes": 19257,
+          "webp_bytes": 9944
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/paired-winged-putti-holding-bowl-in-scroll.png",
+          "webp": "webp/512/paired-winged-putti-holding-bowl-in-scroll.webp",
+          "width": 512,
+          "height": 83,
+          "png_bytes": 65274,
+          "webp_bytes": 33302
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/paired-winged-putti-holding-bowl-in-scroll.png",
+          "webp": "webp/768/paired-winged-putti-holding-bowl-in-scroll.webp",
+          "width": 768,
+          "height": 124,
+          "png_bytes": 134177,
+          "webp_bytes": 70828
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "small-lace-roundel-with-eight-point-star": {
+      "name": "small-lace-roundel-with-eight-point-star",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-ink-extraction",
+      "repeat_axis": "none",
+      "width": 276,
+      "height": 268,
+      "png": "png/small-lace-roundel-with-eight-point-star.png",
+      "webp": "webp/small-lace-roundel-with-eight-point-star.webp",
+      "png_bytes": 53298,
+      "webp_bytes": 32118,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/small-lace-roundel-with-eight-point-star.png",
+          "webp": "webp/128/small-lace-roundel-with-eight-point-star.webp",
+          "width": 128,
+          "height": 124,
+          "png_bytes": 35635,
+          "webp_bytes": 18420
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/small-lace-roundel-with-eight-point-star.png",
+          "webp": "webp/256/small-lace-roundel-with-eight-point-star.webp",
+          "width": 256,
+          "height": 249,
+          "png_bytes": 113723,
+          "webp_bytes": 64664
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "small-triangular-fleur-finial": {
+      "name": "small-triangular-fleur-finial",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-ink-extraction",
+      "repeat_axis": "none",
+      "width": 104,
+      "height": 110,
+      "png": "png/small-triangular-fleur-finial.png",
+      "webp": "webp/small-triangular-fleur-finial.webp",
+      "png_bytes": 5375,
+      "webp_bytes": 3054,
+      "variants": [],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "soldier-profile-in-fruiting-dagger-sheath": {
+      "name": "soldier-profile-in-fruiting-dagger-sheath",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 483,
+      "height": 2148,
+      "png": "png/soldier-profile-in-fruiting-dagger-sheath.png",
+      "webp": "webp/soldier-profile-in-fruiting-dagger-sheath.webp",
+      "png_bytes": 1567051,
+      "webp_bytes": 1016888,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/soldier-profile-in-fruiting-dagger-sheath.png",
+          "webp": "webp/128/soldier-profile-in-fruiting-dagger-sheath.webp",
+          "width": 29,
+          "height": 128,
+          "png_bytes": 11067,
+          "webp_bytes": 6624
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/soldier-profile-in-fruiting-dagger-sheath.png",
+          "webp": "webp/256/soldier-profile-in-fruiting-dagger-sheath.webp",
+          "width": 58,
+          "height": 256,
+          "png_bytes": 36394,
+          "webp_bytes": 21586
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/soldier-profile-in-fruiting-dagger-sheath.png",
+          "webp": "webp/512/soldier-profile-in-fruiting-dagger-sheath.webp",
+          "width": 115,
+          "height": 512,
+          "png_bytes": 116913,
+          "webp_bytes": 72964
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/soldier-profile-in-fruiting-dagger-sheath.png",
+          "webp": "webp/768/soldier-profile-in-fruiting-dagger-sheath.webp",
+          "width": 173,
+          "height": 768,
+          "png_bytes": 238913,
+          "webp_bytes": 152182
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "sphinxes-and-cornucopias-in-tall-candelabrum": {
+      "name": "sphinxes-and-cornucopias-in-tall-candelabrum",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 731,
+      "height": 2025,
+      "png": "png/sphinxes-and-cornucopias-in-tall-candelabrum.png",
+      "webp": "webp/sphinxes-and-cornucopias-in-tall-candelabrum.webp",
+      "png_bytes": 3463849,
+      "webp_bytes": 2295666,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/sphinxes-and-cornucopias-in-tall-candelabrum.png",
+          "webp": "webp/128/sphinxes-and-cornucopias-in-tall-candelabrum.webp",
+          "width": 46,
+          "height": 128,
+          "png_bytes": 21523,
+          "webp_bytes": 14046
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/sphinxes-and-cornucopias-in-tall-candelabrum.png",
+          "webp": "webp/256/sphinxes-and-cornucopias-in-tall-candelabrum.webp",
+          "width": 92,
+          "height": 256,
+          "png_bytes": 79148,
+          "webp_bytes": 49592
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/sphinxes-and-cornucopias-in-tall-candelabrum.png",
+          "webp": "webp/512/sphinxes-and-cornucopias-in-tall-candelabrum.webp",
+          "width": 185,
+          "height": 512,
+          "png_bytes": 276654,
+          "webp_bytes": 180254
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/sphinxes-and-cornucopias-in-tall-candelabrum.png",
+          "webp": "webp/768/sphinxes-and-cornucopias-in-tall-candelabrum.webp",
+          "width": 277,
+          "height": 768,
+          "png_bytes": 576791,
+          "webp_bytes": 364622
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "square-four-pointed-star-lace-cell": {
+      "name": "square-four-pointed-star-lace-cell",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-ink-extraction",
+      "repeat_axis": "none",
+      "width": 152,
+      "height": 145,
+      "png": "png/square-four-pointed-star-lace-cell.png",
+      "webp": "webp/square-four-pointed-star-lace-cell.webp",
+      "png_bytes": 15284,
+      "webp_bytes": 9266,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/square-four-pointed-star-lace-cell.png",
+          "webp": "webp/128/square-four-pointed-star-lace-cell.webp",
+          "width": 128,
+          "height": 122,
+          "png_bytes": 28372,
+          "webp_bytes": 16470
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "square-lace-with-concentric-cross-and-star-corners": {
+      "name": "square-lace-with-concentric-cross-and-star-corners",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-ink-extraction",
+      "repeat_axis": "none",
+      "width": 593,
+      "height": 557,
+      "png": "png/square-lace-with-concentric-cross-and-star-corners.png",
+      "webp": "webp/square-lace-with-concentric-cross-and-star-corners.webp",
+      "png_bytes": 201244,
+      "webp_bytes": 123716,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/square-lace-with-concentric-cross-and-star-corners.png",
+          "webp": "webp/128/square-lace-with-concentric-cross-and-star-corners.webp",
+          "width": 128,
+          "height": 120,
+          "png_bytes": 41200,
+          "webp_bytes": 18820
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/square-lace-with-concentric-cross-and-star-corners.png",
+          "webp": "webp/256/square-lace-with-concentric-cross-and-star-corners.webp",
+          "width": 256,
+          "height": 240,
+          "png_bytes": 129506,
+          "webp_bytes": 63140
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/square-lace-with-concentric-cross-and-star-corners.png",
+          "webp": "webp/512/square-lace-with-concentric-cross-and-star-corners.webp",
+          "width": 512,
+          "height": 481,
+          "png_bytes": 388586,
+          "webp_bytes": 212986
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "square-lace-with-radiating-petals-and-triangle-fans": {
+      "name": "square-lace-with-radiating-petals-and-triangle-fans",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-ink-extraction",
+      "repeat_axis": "none",
+      "width": 606,
+      "height": 557,
+      "png": "png/square-lace-with-radiating-petals-and-triangle-fans.png",
+      "webp": "webp/square-lace-with-radiating-petals-and-triangle-fans.webp",
+      "png_bytes": 196434,
+      "webp_bytes": 121546,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/square-lace-with-radiating-petals-and-triangle-fans.png",
+          "webp": "webp/128/square-lace-with-radiating-petals-and-triangle-fans.webp",
+          "width": 128,
+          "height": 118,
+          "png_bytes": 39145,
+          "webp_bytes": 18100
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/square-lace-with-radiating-petals-and-triangle-fans.png",
+          "webp": "webp/256/square-lace-with-radiating-petals-and-triangle-fans.webp",
+          "width": 256,
+          "height": 235,
+          "png_bytes": 122557,
+          "webp_bytes": 59728
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/square-lace-with-radiating-petals-and-triangle-fans.png",
+          "webp": "webp/512/square-lace-with-radiating-petals-and-triangle-fans.webp",
+          "width": 512,
+          "height": 471,
+          "png_bytes": 367628,
+          "webp_bytes": 203932
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "square-lace-with-six-looped-petal-medallion": {
+      "name": "square-lace-with-six-looped-petal-medallion",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-ink-extraction",
+      "repeat_axis": "none",
+      "width": 590,
+      "height": 552,
+      "png": "png/square-lace-with-six-looped-petal-medallion.png",
+      "webp": "webp/square-lace-with-six-looped-petal-medallion.webp",
+      "png_bytes": 204101,
+      "webp_bytes": 125078,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/square-lace-with-six-looped-petal-medallion.png",
+          "webp": "webp/128/square-lace-with-six-looped-petal-medallion.webp",
+          "width": 128,
+          "height": 120,
+          "png_bytes": 37987,
+          "webp_bytes": 18476
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/square-lace-with-six-looped-petal-medallion.png",
+          "webp": "webp/256/square-lace-with-six-looped-petal-medallion.webp",
+          "width": 256,
+          "height": 240,
+          "png_bytes": 126251,
+          "webp_bytes": 62028
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/square-lace-with-six-looped-petal-medallion.png",
+          "webp": "webp/512/square-lace-with-six-looped-petal-medallion.webp",
+          "width": 512,
+          "height": 479,
+          "png_bytes": 396538,
+          "webp_bytes": 215532
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "square-lace-with-triangle-star-and-small-oval-petals": {
+      "name": "square-lace-with-triangle-star-and-small-oval-petals",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-ink-extraction",
+      "repeat_axis": "none",
+      "width": 571,
+      "height": 554,
+      "png": "png/square-lace-with-triangle-star-and-small-oval-petals.png",
+      "webp": "webp/square-lace-with-triangle-star-and-small-oval-petals.webp",
+      "png_bytes": 229575,
+      "webp_bytes": 141504,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/square-lace-with-triangle-star-and-small-oval-petals.png",
+          "webp": "webp/128/square-lace-with-triangle-star-and-small-oval-petals.webp",
+          "width": 128,
+          "height": 124,
+          "png_bytes": 42111,
+          "webp_bytes": 20896
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/square-lace-with-triangle-star-and-small-oval-petals.png",
+          "webp": "webp/256/square-lace-with-triangle-star-and-small-oval-petals.webp",
+          "width": 256,
+          "height": 248,
+          "png_bytes": 140183,
+          "webp_bytes": 71196
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/square-lace-with-triangle-star-and-small-oval-petals.png",
+          "webp": "webp/512/square-lace-with-triangle-star-and-small-oval-petals.webp",
+          "width": 512,
+          "height": 497,
+          "png_bytes": 454758,
+          "webp_bytes": 254932
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "suspended-foliate-roundel": {
+      "name": "suspended-foliate-roundel",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-ink-extraction",
+      "repeat_axis": "none",
+      "width": 359,
+      "height": 269,
+      "png": "png/suspended-foliate-roundel.png",
+      "webp": "webp/suspended-foliate-roundel.webp",
+      "png_bytes": 33545,
+      "webp_bytes": 18972,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/suspended-foliate-roundel.png",
+          "webp": "webp/128/suspended-foliate-roundel.webp",
+          "width": 128,
+          "height": 96,
+          "png_bytes": 15648,
+          "webp_bytes": 8080
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/suspended-foliate-roundel.png",
+          "webp": "webp/256/suspended-foliate-roundel.webp",
+          "width": 256,
+          "height": 192,
+          "png_bytes": 45891,
+          "webp_bytes": 25048
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "tall-canopy-with-framed-figure-and-winged-mask": {
+      "name": "tall-canopy-with-framed-figure-and-winged-mask",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-ink-extraction",
+      "repeat_axis": "none",
+      "width": 998,
+      "height": 1992,
+      "png": "png/tall-canopy-with-framed-figure-and-winged-mask.png",
+      "webp": "webp/tall-canopy-with-framed-figure-and-winged-mask.webp",
+      "png_bytes": 1082170,
+      "webp_bytes": 647326,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/tall-canopy-with-framed-figure-and-winged-mask.png",
+          "webp": "webp/128/tall-canopy-with-framed-figure-and-winged-mask.webp",
+          "width": 64,
+          "height": 128,
+          "png_bytes": 18705,
+          "webp_bytes": 7918
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/tall-canopy-with-framed-figure-and-winged-mask.png",
+          "webp": "webp/256/tall-canopy-with-framed-figure-and-winged-mask.webp",
+          "width": 128,
+          "height": 256,
+          "png_bytes": 60966,
+          "webp_bytes": 26032
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/tall-canopy-with-framed-figure-and-winged-mask.png",
+          "webp": "webp/512/tall-canopy-with-framed-figure-and-winged-mask.webp",
+          "width": 257,
+          "height": 512,
+          "png_bytes": 185370,
+          "webp_bytes": 82626
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/tall-canopy-with-framed-figure-and-winged-mask.png",
+          "webp": "webp/768/tall-canopy-with-framed-figure-and-winged-mask.webp",
+          "width": 385,
+          "height": 768,
+          "png_bytes": 359268,
+          "webp_bytes": 164318
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "tall-grotesque-candelabrum-with-paired-satyrs": {
+      "name": "tall-grotesque-candelabrum-with-paired-satyrs",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-ink-extraction",
+      "repeat_axis": "none",
+      "width": 1048,
+      "height": 3616,
+      "png": "png/tall-grotesque-candelabrum-with-paired-satyrs.png",
+      "webp": "webp/tall-grotesque-candelabrum-with-paired-satyrs.webp",
+      "png_bytes": 2887119,
+      "webp_bytes": 1692542,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/tall-grotesque-candelabrum-with-paired-satyrs.png",
+          "webp": "webp/128/tall-grotesque-candelabrum-with-paired-satyrs.webp",
+          "width": 37,
+          "height": 128,
+          "png_bytes": 11491,
+          "webp_bytes": 5708
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/tall-grotesque-candelabrum-with-paired-satyrs.png",
+          "webp": "webp/256/tall-grotesque-candelabrum-with-paired-satyrs.webp",
+          "width": 74,
+          "height": 256,
+          "png_bytes": 42888,
+          "webp_bytes": 19730
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/tall-grotesque-candelabrum-with-paired-satyrs.png",
+          "webp": "webp/512/tall-grotesque-candelabrum-with-paired-satyrs.webp",
+          "width": 148,
+          "height": 512,
+          "png_bytes": 153556,
+          "webp_bytes": 71948
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/tall-grotesque-candelabrum-with-paired-satyrs.png",
+          "webp": "webp/768/tall-grotesque-candelabrum-with-paired-satyrs.webp",
+          "width": 223,
+          "height": 768,
+          "png_bytes": 319358,
+          "webp_bytes": 154894
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "tall-grotesque-with-dragons-and-paired-griffins": {
+      "name": "tall-grotesque-with-dragons-and-paired-griffins",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-ink-extraction",
+      "repeat_axis": "none",
+      "width": 998,
+      "height": 2004,
+      "png": "png/tall-grotesque-with-dragons-and-paired-griffins.png",
+      "webp": "webp/tall-grotesque-with-dragons-and-paired-griffins.webp",
+      "png_bytes": 1133692,
+      "webp_bytes": 685878,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/tall-grotesque-with-dragons-and-paired-griffins.png",
+          "webp": "webp/128/tall-grotesque-with-dragons-and-paired-griffins.webp",
+          "width": 64,
+          "height": 128,
+          "png_bytes": 19166,
+          "webp_bytes": 7988
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/tall-grotesque-with-dragons-and-paired-griffins.png",
+          "webp": "webp/256/tall-grotesque-with-dragons-and-paired-griffins.webp",
+          "width": 127,
+          "height": 256,
+          "png_bytes": 61807,
+          "webp_bytes": 26130
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/tall-grotesque-with-dragons-and-paired-griffins.png",
+          "webp": "webp/512/tall-grotesque-with-dragons-and-paired-griffins.webp",
+          "width": 255,
+          "height": 512,
+          "png_bytes": 191910,
+          "webp_bytes": 84048
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/tall-grotesque-with-dragons-and-paired-griffins.png",
+          "webp": "webp/768/tall-grotesque-with-dragons-and-paired-griffins.webp",
+          "width": 382,
+          "height": 768,
+          "png_bytes": 368624,
+          "webp_bytes": 166620
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "two-boys-with-connected-acanthus-scroll": {
+      "name": "two-boys-with-connected-acanthus-scroll",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 1952,
+      "height": 802,
+      "png": "png/two-boys-with-connected-acanthus-scroll.png",
+      "webp": "webp/two-boys-with-connected-acanthus-scroll.webp",
+      "png_bytes": 3113926,
+      "webp_bytes": 1991890,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/two-boys-with-connected-acanthus-scroll.png",
+          "webp": "webp/128/two-boys-with-connected-acanthus-scroll.webp",
+          "width": 128,
+          "height": 53,
+          "png_bytes": 23884,
+          "webp_bytes": 15648
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/two-boys-with-connected-acanthus-scroll.png",
+          "webp": "webp/256/two-boys-with-connected-acanthus-scroll.webp",
+          "width": 256,
+          "height": 105,
+          "png_bytes": 81798,
+          "webp_bytes": 51346
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/two-boys-with-connected-acanthus-scroll.png",
+          "webp": "webp/512/two-boys-with-connected-acanthus-scroll.webp",
+          "width": 512,
+          "height": 210,
+          "png_bytes": 273381,
+          "webp_bytes": 172382
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/two-boys-with-connected-acanthus-scroll.png",
+          "webp": "webp/768/two-boys-with-connected-acanthus-scroll.webp",
+          "width": 768,
+          "height": 316,
+          "png_bytes": 570567,
+          "webp_bytes": 355098
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "two-satyr-couples-on-foliate-candelabrum": {
+      "name": "two-satyr-couples-on-foliate-candelabrum",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 830,
+      "height": 1752,
+      "png": "png/two-satyr-couples-on-foliate-candelabrum.png",
+      "webp": "webp/two-satyr-couples-on-foliate-candelabrum.webp",
+      "png_bytes": 3471875,
+      "webp_bytes": 2224818,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/two-satyr-couples-on-foliate-candelabrum.png",
+          "webp": "webp/128/two-satyr-couples-on-foliate-candelabrum.webp",
+          "width": 61,
+          "height": 128,
+          "png_bytes": 26844,
+          "webp_bytes": 17102
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/two-satyr-couples-on-foliate-candelabrum.png",
+          "webp": "webp/256/two-satyr-couples-on-foliate-candelabrum.webp",
+          "width": 121,
+          "height": 256,
+          "png_bytes": 96541,
+          "webp_bytes": 59548
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/two-satyr-couples-on-foliate-candelabrum.png",
+          "webp": "webp/512/two-satyr-couples-on-foliate-candelabrum.webp",
+          "width": 243,
+          "height": 512,
+          "png_bytes": 347655,
+          "webp_bytes": 213452
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/two-satyr-couples-on-foliate-candelabrum.png",
+          "webp": "webp/768/two-satyr-couples-on-foliate-candelabrum.webp",
+          "width": 364,
+          "height": 768,
+          "png_bytes": 748300,
+          "webp_bytes": 463982
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "winged-putto-with-shield-and-braided-scroll": {
+      "name": "winged-putto-with-shield-and-braided-scroll",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "mixed-source-extraction",
+      "repeat_axis": "none",
+      "width": 2405,
+      "height": 344,
+      "png": "png/winged-putto-with-shield-and-braided-scroll.png",
+      "webp": "webp/winged-putto-with-shield-and-braided-scroll.webp",
+      "png_bytes": 878887,
+      "webp_bytes": 495804,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/winged-putto-with-shield-and-braided-scroll.png",
+          "webp": "webp/128/winged-putto-with-shield-and-braided-scroll.webp",
+          "width": 128,
+          "height": 18,
+          "png_bytes": 5393,
+          "webp_bytes": 3158
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/winged-putto-with-shield-and-braided-scroll.png",
+          "webp": "webp/256/winged-putto-with-shield-and-braided-scroll.webp",
+          "width": 256,
+          "height": 37,
+          "png_bytes": 19030,
+          "webp_bytes": 10056
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/winged-putto-with-shield-and-braided-scroll.png",
+          "webp": "webp/512/winged-putto-with-shield-and-braided-scroll.webp",
+          "width": 512,
+          "height": 73,
+          "png_bytes": 62119,
+          "webp_bytes": 32536
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/winged-putto-with-shield-and-braided-scroll.png",
+          "webp": "webp/768/winged-putto-with-shield-and-braided-scroll.webp",
+          "width": 768,
+          "height": 110,
+          "png_bytes": 129561,
+          "webp_bytes": 69586
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    }
+  },
+  "files": {
+    "png/128/acanthus-double-medallion-with-two-winged-figures.png": {
+      "bytes": 31824,
+      "sha256": "3f213983a9f8b2e59c125d7229c4139cf010e2325398e6840cbd3e16f7bce274"
+    },
+    "png/128/arched-canopy-with-two-hanging-birdcages.png": {
+      "bytes": 20792,
+      "sha256": "9acf5b3c5f182886ae914a8d7846b91b367ed54fa2a401d4f2574c94cc4c22b8"
+    },
+    "png/128/arched-lace-with-checker-fans-and-square-star.png": {
+      "bytes": 21149,
+      "sha256": "b6a7d81ff21c5090fc2924964a16f7e5eac39fdc25ae13fa718e3c80671948ff"
+    },
+    "png/128/arched-lace-with-compass-star-and-dense-small-petals.png": {
+      "bytes": 23330,
+      "sha256": "6c5334b9d59a2e349396c7f76367e428623b7eeff261b1cc26bc0ec948cdebbc"
+    },
+    "png/128/arched-lace-with-concentric-petal-rosette.png": {
+      "bytes": 27448,
+      "sha256": "b2d32e2e1cefba9d71fb44fbccd886248b1836b8900c56e3b23156c0c8faf6cf"
+    },
+    "png/128/arched-lace-with-crossed-stars-and-small-petals.png": {
+      "bytes": 30530,
+      "sha256": "33a4bee9077a6e7a3c729c9bb49a38062e773a12f5156a4bd8e37943b89d8e10"
+    },
+    "png/128/arched-lace-with-eight-point-stars-and-small-roundels.png": {
+      "bytes": 25545,
+      "sha256": "4d2843a2a914f54bb54fcbbe6f425d3912a747f0fa84a211972f6c9a34c91000"
+    },
+    "png/128/arched-lace-with-four-floral-diamonds.png": {
+      "bytes": 23090,
+      "sha256": "996cf616af13b78f6bb117b2ce5f7c62cc37bf6cdc9133469823ff2618dc4328"
+    },
+    "png/128/arched-lace-with-large-petalled-flower.png": {
+      "bytes": 28563,
+      "sha256": "24664ec4eccc04e8446ed98dff272466965af74023c94a7c3781e4336768a2dc"
+    },
+    "png/128/arched-lace-with-radiating-spokes-and-pointed-petals.png": {
+      "bytes": 23281,
+      "sha256": "2027198846f411065f5aa6dc2435c2d6262d1e13671334d80c76cd18d57b4469"
+    },
+    "png/128/bearded-winged-masks-with-curled-leaf-scroll.png": {
+      "bytes": 5510,
+      "sha256": "c43a0f025bd6d71ee6020625c8175126c10a39854be397bc841b17f7a83e3b2c"
+    },
+    "png/128/cupid-subduing-two-lions-in-acanthus-scroll.png": {
+      "bytes": 7940,
+      "sha256": "c0e39806189278329401aa49600ea23a3f59bb22158363da59ff233b23f91a6c"
+    },
+    "png/128/dragon-head-scroll-with-long-bearded-mask.png": {
+      "bytes": 7005,
+      "sha256": "a4df2a3399db00a1ddb2fd07adfab6789373f2ca2387bec211ac0b899173aa85"
+    },
+    "png/128/foliate-face-with-paired-perching-birds.png": {
+      "bytes": 18227,
+      "sha256": "71e6e9952951dbf0758d8385e89e0107a97c43487e3383334960fe78a54880e6"
+    },
+    "png/128/four-season-heads-in-acanthus-frieze.png": {
+      "bytes": 5293,
+      "sha256": "7bb2ab98968ecf0b8abf9982a840363cc6dbf618b5902930bccaae7b9399c30b"
+    },
+    "png/128/garlanded-grotesque-with-birds-musicians-and-central-mask.png": {
+      "bytes": 29297,
+      "sha256": "b78519cd67c19c2a788291a576903f345cc038e10a7019b702ab51340e783c17"
+    },
+    "png/128/grape-and-lobed-leaf-scroll-with-central-tie.png": {
+      "bytes": 6027,
+      "sha256": "5c59e9e5fd1a62cf6fe752bf39f8ae558a767519048c27c3d8d2bfba3b45e65d"
+    },
+    "png/128/grotesque-architecture-with-bird-canopies-and-framed-scenes.png": {
+      "bytes": 26593,
+      "sha256": "cff2bcd4f11671d3c2ea17286454808c33f1a676b3737a05c9680c13d752d7a2"
+    },
+    "png/128/grotesque-candelabrum-with-satyrs-griffins-and-music.png": {
+      "bytes": 29973,
+      "sha256": "f31e384977a88f9114661caf9a177c394b1a044ba2d78af5c15d10274b7f1f0e"
+    },
+    "png/128/grotesque-canopy-with-birds-and-suspended-miniature.png": {
+      "bytes": 15978,
+      "sha256": "0b4c5d31498b90a280d1db7cb6c205315cc37d3f963868f538e7d939aba1a393"
+    },
+    "png/128/grotesque-vines-with-winged-hybrids-and-figure-canopies.png": {
+      "bytes": 30656,
+      "sha256": "5f8c6bf1b8122d4cd1e000351fc53e040043ec1f075c919750832d878363a04b"
+    },
+    "png/128/grotesque-with-paired-curled-hybrids-and-framed-scene.png": {
+      "bytes": 25820,
+      "sha256": "9b1c924252f107f636d617176927a7f3f3e2c5e1ace8f24b14d4de9c8adb85f8"
+    },
+    "png/128/hanging-rosette-and-bell-finial.png": {
+      "bytes": 14059,
+      "sha256": "b71a41569edd63521826effbb6a43b23aaf80ee6d8165654d98fd5583729c4df"
+    },
+    "png/128/horned-dragon-with-flowering-scroll.png": {
+      "bytes": 6254,
+      "sha256": "2eea233f9f6d6e7338055f46d0773766a460a3eb855f087edaf4a8ff9dcce26a"
+    },
+    "png/128/horned-hybrids-and-bears-in-foliate-cartouche-frame.png": {
+      "bytes": 11582,
+      "sha256": "e11f69e94269f9ab868b67b673e43ef90528edb76b099348af2112a5bef821d2"
+    },
+    "png/128/inverted-lattice-floral-triangle.png": {
+      "bytes": 16981,
+      "sha256": "3063199843e87ac4f1114c7466eeb735ef0a40aa1c034af9bfe8a45c56968a9f"
+    },
+    "png/128/paired-bearded-heads-with-horns-and-flowers.png": {
+      "bytes": 6006,
+      "sha256": "8db661d8ff7f809987788b4dedb0f7812955897c0bd1a6272fe7d49d9af721ef"
+    },
+    "png/128/paired-horned-creatures-and-twin-flower-scroll.png": {
+      "bytes": 5928,
+      "sha256": "5aa40a5311110f561686b66340fb5a8101632f32d39c724cdde2efa030e392a7"
+    },
+    "png/128/paired-human-headed-birds-with-tied-scroll.png": {
+      "bytes": 6202,
+      "sha256": "c452cda39a79bcf314c1dd9e95eae73bfcfa280b3915711a74d1f0073b9e0f07"
+    },
+    "png/128/paired-winged-beasts-with-central-face.png": {
+      "bytes": 5656,
+      "sha256": "6c31abad9c8d341ac02d652630833d71d3d0f3f137df4dfab1b9591234c017b6"
+    },
+    "png/128/paired-winged-putti-holding-bowl-in-scroll.png": {
+      "bytes": 5801,
+      "sha256": "6d6d0c39c7eb006417ebd103d2f587b3a4615169d493792c48d1b7514b03a93a"
+    },
+    "png/128/small-lace-roundel-with-eight-point-star.png": {
+      "bytes": 35635,
+      "sha256": "1cccdda85210b4606f865d6bd1f7f81c858c701afe7a39facf72a4899883a8b1"
+    },
+    "png/128/soldier-profile-in-fruiting-dagger-sheath.png": {
+      "bytes": 11067,
+      "sha256": "4b9d33a2d78cf275f8c059934f02e2f8131c875dd085c79d10a492d0b2ce112b"
+    },
+    "png/128/sphinxes-and-cornucopias-in-tall-candelabrum.png": {
+      "bytes": 21523,
+      "sha256": "10483d795a192bc3de0571d8ebbb8e52cf09f986e4cb3245cd687f0d0a829e05"
+    },
+    "png/128/square-four-pointed-star-lace-cell.png": {
+      "bytes": 28372,
+      "sha256": "d6182d6617b32425793e30d4270d514cd2bfc444aa6da8640741509e25e8bf9b"
+    },
+    "png/128/square-lace-with-concentric-cross-and-star-corners.png": {
+      "bytes": 41200,
+      "sha256": "b9849680f830ec4dc0b80b69a8924e2fd7e76819ff390fe02ea1bbe6c0093f2b"
+    },
+    "png/128/square-lace-with-radiating-petals-and-triangle-fans.png": {
+      "bytes": 39145,
+      "sha256": "8a25a3ab5e6b01e641cdff3797f31156e66be7a158d481b2b4abc7cce4bdd39b"
+    },
+    "png/128/square-lace-with-six-looped-petal-medallion.png": {
+      "bytes": 37987,
+      "sha256": "27cd678eb40f0f117876085a881482e2109a507925afb037d67f4bf9792f97f0"
+    },
+    "png/128/square-lace-with-triangle-star-and-small-oval-petals.png": {
+      "bytes": 42111,
+      "sha256": "904d6d7e2dc702cc97ea2ad8b0866fadcfac2b4bc1730548dafce36bda471cbb"
+    },
+    "png/128/suspended-foliate-roundel.png": {
+      "bytes": 15648,
+      "sha256": "dc0324ac31e92f3727a7a06b6e37730cd57e8cea27d7d676aac4ce22e144d2d3"
+    },
+    "png/128/tall-canopy-with-framed-figure-and-winged-mask.png": {
+      "bytes": 18705,
+      "sha256": "581d813a9e1dd9b6ed0f86fd9e6719c679fbd5157ed93f0c12455563911254ab"
+    },
+    "png/128/tall-grotesque-candelabrum-with-paired-satyrs.png": {
+      "bytes": 11491,
+      "sha256": "10f8034fa309a70a402214875286e6a7815fb8542442335f5e2f73580912ab65"
+    },
+    "png/128/tall-grotesque-with-dragons-and-paired-griffins.png": {
+      "bytes": 19166,
+      "sha256": "f3ac8de155b6f596999bed1e655422d4bc2c68d2952e721c95bb1c9513be7a04"
+    },
+    "png/128/two-boys-with-connected-acanthus-scroll.png": {
+      "bytes": 23884,
+      "sha256": "3b1afd4ff5ade293f896b97f8ecbbfe605282b847c159180e26dd82aec963d8f"
+    },
+    "png/128/two-satyr-couples-on-foliate-candelabrum.png": {
+      "bytes": 26844,
+      "sha256": "4b0706cee3c128a1c5bfde7fa4995ac65a88abd3142736790f0f35d2d2a08057"
+    },
+    "png/128/winged-putto-with-shield-and-braided-scroll.png": {
+      "bytes": 5393,
+      "sha256": "3c153cd40d03ac623bceb7ed827fb0902349e7f7f96fb03d92f0c9336f44ef17"
+    },
+    "png/256/acanthus-double-medallion-with-two-winged-figures.png": {
+      "bytes": 111764,
+      "sha256": "2ef44812400517e1c48cf6c58af4024d37fbade75cc3b6ebccd40f0699ddbe34"
+    },
+    "png/256/arched-canopy-with-two-hanging-birdcages.png": {
+      "bytes": 60815,
+      "sha256": "c60b245ebb7dd70d5b5b5a2e4a14d94a75e00f82b3864dff57fb86b2cdbdda0d"
+    },
+    "png/256/arched-lace-with-checker-fans-and-square-star.png": {
+      "bytes": 66453,
+      "sha256": "b2dddb337f9de969d2482a14f7c4db612498c25e2b014c83a130d19c198bbb20"
+    },
+    "png/256/arched-lace-with-compass-star-and-dense-small-petals.png": {
+      "bytes": 75809,
+      "sha256": "cb7dd2477fc08c9dabbd633bd728c0615d639a1b27420b0520cf2fe9495d2d94"
+    },
+    "png/256/arched-lace-with-concentric-petal-rosette.png": {
+      "bytes": 86140,
+      "sha256": "fbc9c66e5f0318e8979655cd6eacc0b6abbe4490d55d24219cbfca6af0dcc1d6"
+    },
+    "png/256/arched-lace-with-crossed-stars-and-small-petals.png": {
+      "bytes": 95258,
+      "sha256": "e54df439624ec22242d82607dea364575abf7467795ec29551787809f75fcd25"
+    },
+    "png/256/arched-lace-with-eight-point-stars-and-small-roundels.png": {
+      "bytes": 82807,
+      "sha256": "761abe9ee3029fca6c1465f7ecd599394c6287719cd64b8fc308f2c2c054a07f"
+    },
+    "png/256/arched-lace-with-four-floral-diamonds.png": {
+      "bytes": 73211,
+      "sha256": "2f19b2624427b48c03082ce4db5c770bb31e9b39d53d94f8d3196f1c8986e19b"
+    },
+    "png/256/arched-lace-with-large-petalled-flower.png": {
+      "bytes": 88274,
+      "sha256": "28c8cf183d863777acbbf46f5b73a65c06554ca7d9d22a9d36449bebbaecafca"
+    },
+    "png/256/arched-lace-with-radiating-spokes-and-pointed-petals.png": {
+      "bytes": 75560,
+      "sha256": "38ee582e795308d62c08a07f119cabd63fbf2610b0236cc70b54d9b93f76457f"
+    },
+    "png/256/bearded-winged-masks-with-curled-leaf-scroll.png": {
+      "bytes": 20495,
+      "sha256": "04dcd6e87b61392f359e6651ecb5f5f07b398a57aa57266b224634ba46884818"
+    },
+    "png/256/cupid-subduing-two-lions-in-acanthus-scroll.png": {
+      "bytes": 29823,
+      "sha256": "2efa138139ff8418381c147882292d087b7fd397c74bbe9319c988e4f2a6b2e0"
+    },
+    "png/256/dragon-head-scroll-with-long-bearded-mask.png": {
+      "bytes": 24766,
+      "sha256": "1a69ed0add9182798a233009862ee17e9a26b8049fae5501bde1ee1d5f2700c7"
+    },
+    "png/256/foliate-face-with-paired-perching-birds.png": {
+      "bytes": 53236,
+      "sha256": "11bb3c28062c3e021ffd952e3043c5cc7c6fb99e7414fc90dc2a5d59a3eeac46"
+    },
+    "png/256/four-season-heads-in-acanthus-frieze.png": {
+      "bytes": 20855,
+      "sha256": "60562df4e63be2931d538babe70e2baaff6eae3d646bb8107c902a9d8378376b"
+    },
+    "png/256/garlanded-grotesque-with-birds-musicians-and-central-mask.png": {
+      "bytes": 100280,
+      "sha256": "97a1610abcc38278d1d37b4c2a7bdafb388bb93a898a5030cb4750e05133b2a8"
+    },
+    "png/256/grape-and-lobed-leaf-scroll-with-central-tie.png": {
+      "bytes": 20094,
+      "sha256": "ad3f4a6f808d9e501ea89ce4d2b43fcb1950313c0894213173693aafe75b9133"
+    },
+    "png/256/grotesque-architecture-with-bird-canopies-and-framed-scenes.png": {
+      "bytes": 90859,
+      "sha256": "50d52acbda8a92da71e5813975f415416c677b70983e8100ed2461e60b66f1ec"
+    },
+    "png/256/grotesque-candelabrum-with-satyrs-griffins-and-music.png": {
+      "bytes": 101218,
+      "sha256": "789f3b292d89522d657e70e3489c95b79e0e9846c7d6bdfd8309dd92b8885d27"
+    },
+    "png/256/grotesque-canopy-with-birds-and-suspended-miniature.png": {
+      "bytes": 46400,
+      "sha256": "ff1717cb3b39ba552be116b957dbf020d5630e59b1b4535b09e6b372d50b18a2"
+    },
+    "png/256/grotesque-vines-with-winged-hybrids-and-figure-canopies.png": {
+      "bytes": 107129,
+      "sha256": "91101ddd31da9819edc11244a9b568bdbfbb213f625834d670d7debd3fb4b69f"
+    },
+    "png/256/grotesque-with-paired-curled-hybrids-and-framed-scene.png": {
+      "bytes": 83021,
+      "sha256": "fd15a1fd1fbbf433386f5f5f82ede612810826cdd76219a68e5dcb9a95a5d43b"
+    },
+    "png/256/horned-dragon-with-flowering-scroll.png": {
+      "bytes": 22142,
+      "sha256": "75f6ff22823889e2baff057191f96a2d7a67ace33997e6864e652b372cabbc11"
+    },
+    "png/256/horned-hybrids-and-bears-in-foliate-cartouche-frame.png": {
+      "bytes": 44207,
+      "sha256": "049c7d0a0e756f1f7c5b259f3b4094eca3f8257bcd61e01290bcf3d446949c93"
+    },
+    "png/256/paired-bearded-heads-with-horns-and-flowers.png": {
+      "bytes": 20809,
+      "sha256": "92a86a9f69c9220141f84472ad5b681fb3822c72f993243cba275e7954d3471e"
+    },
+    "png/256/paired-horned-creatures-and-twin-flower-scroll.png": {
+      "bytes": 21391,
+      "sha256": "13cac5af9ea717626a3ff5ee9322913efa1b0d8ae95358947e7adf17e4ce416c"
+    },
+    "png/256/paired-human-headed-birds-with-tied-scroll.png": {
+      "bytes": 21901,
+      "sha256": "967a798ec89086334eb81b07ade5ddbef62eafa81b6d085786c28407107c635c"
+    },
+    "png/256/paired-winged-beasts-with-central-face.png": {
+      "bytes": 18530,
+      "sha256": "a33ad22b87228f172b0613ac9af3548cd6a9f86dafbda5c5980e57436688be9a"
+    },
+    "png/256/paired-winged-putti-holding-bowl-in-scroll.png": {
+      "bytes": 19257,
+      "sha256": "81affa243f9477c28eecaf79f52d634b246e3bba1ec94d56cc6a4bab1185374d"
+    },
+    "png/256/small-lace-roundel-with-eight-point-star.png": {
+      "bytes": 113723,
+      "sha256": "d74fc722e9957061dd09297735bc319dbbef1973c95feb08fb337ecba1783151"
+    },
+    "png/256/soldier-profile-in-fruiting-dagger-sheath.png": {
+      "bytes": 36394,
+      "sha256": "546aa23cd1a0542ae2d3f8cfd1ad85888a9c56a69844aef30715051c345f7246"
+    },
+    "png/256/sphinxes-and-cornucopias-in-tall-candelabrum.png": {
+      "bytes": 79148,
+      "sha256": "5c248595085b2e3d402c4dad65aca97ae935439b61452160c44ba0b30bfdd10b"
+    },
+    "png/256/square-lace-with-concentric-cross-and-star-corners.png": {
+      "bytes": 129506,
+      "sha256": "02829e397f8a85e8e445844103522d99494335f9a6b72f7d6534c270932097fc"
+    },
+    "png/256/square-lace-with-radiating-petals-and-triangle-fans.png": {
+      "bytes": 122557,
+      "sha256": "fe07d537042fe0b0ba0a89622371b6097a3b746e059110dd1632b37a1d313e48"
+    },
+    "png/256/square-lace-with-six-looped-petal-medallion.png": {
+      "bytes": 126251,
+      "sha256": "e86391f31e8629b6d8af41db7e35ebe7a72002445941a78e7b60916acd17effd"
+    },
+    "png/256/square-lace-with-triangle-star-and-small-oval-petals.png": {
+      "bytes": 140183,
+      "sha256": "3f65632e46c9c6f52a03a5befc66bd4e55fce6feca8a3bb4ed66c06af14f19c1"
+    },
+    "png/256/suspended-foliate-roundel.png": {
+      "bytes": 45891,
+      "sha256": "330bed9314f56f4f21d697c1e290afaa0af93c399d1544c791bb3faba9360e99"
+    },
+    "png/256/tall-canopy-with-framed-figure-and-winged-mask.png": {
+      "bytes": 60966,
+      "sha256": "78b4a8c7921e0b9b8f93136e283ae61ba4b409c881acf948378a12e592be38d3"
+    },
+    "png/256/tall-grotesque-candelabrum-with-paired-satyrs.png": {
+      "bytes": 42888,
+      "sha256": "3356580c051f3bef86c25982f4a066b56485b848fa8b827a7254dc9612c34e15"
+    },
+    "png/256/tall-grotesque-with-dragons-and-paired-griffins.png": {
+      "bytes": 61807,
+      "sha256": "6b87ebc0ccd5ef96340454cd095a78c70d1f15c6133bd054b81c04d3b42fabd1"
+    },
+    "png/256/two-boys-with-connected-acanthus-scroll.png": {
+      "bytes": 81798,
+      "sha256": "eae8571b7e68c3eefcab532aa8ee94a73717e1b9d72e042cb3540d188515ae57"
+    },
+    "png/256/two-satyr-couples-on-foliate-candelabrum.png": {
+      "bytes": 96541,
+      "sha256": "0f67a28782b1ae4aebb711a418393426a09ab0973a5285519be24351428b388d"
+    },
+    "png/256/winged-putto-with-shield-and-braided-scroll.png": {
+      "bytes": 19030,
+      "sha256": "37a9d40e41038777db94cac647ee5ae58fa831827bdaf5bcf210292f4242b42f"
+    },
+    "png/512/acanthus-double-medallion-with-two-winged-figures.png": {
+      "bytes": 399849,
+      "sha256": "139a4c3888d94b57d3bf653d22a6f49180a33f9e0eb21b7579a7e1a84853b649"
+    },
+    "png/512/arched-canopy-with-two-hanging-birdcages.png": {
+      "bytes": 182669,
+      "sha256": "18986d155265d520d4aded5895f15afbccd43005dda79a73b314065ecc0c4164"
+    },
+    "png/512/arched-lace-with-checker-fans-and-square-star.png": {
+      "bytes": 203744,
+      "sha256": "ed78970ecd330ef59db04575497f6873b8ff5e22597dcab41bf4f369f81dccf1"
+    },
+    "png/512/arched-lace-with-compass-star-and-dense-small-petals.png": {
+      "bytes": 233436,
+      "sha256": "52771166b10bdbc20f1d01d74fc4d7eba40fb859e315a502f6c41d905b47f354"
+    },
+    "png/512/arched-lace-with-concentric-petal-rosette.png": {
+      "bytes": 262697,
+      "sha256": "4350f5b5c301cde5169215cf2655edd60228a44c36c3d44832598c1d0831e2ae"
+    },
+    "png/512/arched-lace-with-crossed-stars-and-small-petals.png": {
+      "bytes": 285299,
+      "sha256": "ac147e0aee0f03610f14c327d8747b78c84a45255201d79e243aa8108ecddf12"
+    },
+    "png/512/arched-lace-with-eight-point-stars-and-small-roundels.png": {
+      "bytes": 257513,
+      "sha256": "e63e352b39ce7095e9f1afa22057a9cbefed5bd16bc7a7be82f620a37ba3f8eb"
+    },
+    "png/512/arched-lace-with-four-floral-diamonds.png": {
+      "bytes": 220951,
+      "sha256": "7a18cb2e0601abfca8946a4b95aac4f0cf5228e012f72efd3b5c4a9ac3fb52c5"
+    },
+    "png/512/arched-lace-with-large-petalled-flower.png": {
+      "bytes": 263688,
+      "sha256": "f2675c108527b0c7f493675bf2d8404fbb15f474acd875b0cbc06cbc7ba0a0a2"
+    },
+    "png/512/arched-lace-with-radiating-spokes-and-pointed-petals.png": {
+      "bytes": 230836,
+      "sha256": "0b2b856760f3462b2cb9900f69b53f3e122b1ad7bfe6c4679981c88d7aa3cd89"
+    },
+    "png/512/bearded-winged-masks-with-curled-leaf-scroll.png": {
+      "bytes": 67275,
+      "sha256": "f02516ac6f78bffe36494a63b4f6feac78da4a668e087b14d88b12de7023a031"
+    },
+    "png/512/cupid-subduing-two-lions-in-acanthus-scroll.png": {
+      "bytes": 109136,
+      "sha256": "4a3f92204bf05507195fc73be051e4657229e0802126a81519810415f3db0aff"
+    },
+    "png/512/dragon-head-scroll-with-long-bearded-mask.png": {
+      "bytes": 80416,
+      "sha256": "e153ba84c05906f76be081244ac381b6ba2f1269b5db6e70d2e72bd0f26fb65c"
+    },
+    "png/512/foliate-face-with-paired-perching-birds.png": {
+      "bytes": 168779,
+      "sha256": "9925d38c6a4f0de743fcb71017cda91dbec86b265cfbf745607f5528d6a7c408"
+    },
+    "png/512/four-season-heads-in-acanthus-frieze.png": {
+      "bytes": 75057,
+      "sha256": "9ea267196ad998cab6617fe4c2bcf60511f6c079e2302f28dae1484f2dcf6e11"
+    },
+    "png/512/garlanded-grotesque-with-birds-musicians-and-central-mask.png": {
+      "bytes": 317317,
+      "sha256": "8f502513b06d80587b2033a205e7804d3bdbee63c6a7495e2dbe8969b9729508"
+    },
+    "png/512/grape-and-lobed-leaf-scroll-with-central-tie.png": {
+      "bytes": 66173,
+      "sha256": "252f8242a8561e36a1676d1b4378a16871fff8805cc2a0f3c9512c224ffcd4c4"
+    },
+    "png/512/grotesque-architecture-with-bird-canopies-and-framed-scenes.png": {
+      "bytes": 300131,
+      "sha256": "b0675fc5109ee12c32cd6dc1977f5f115ab3919d8c69c63dc5008714b17aeb55"
+    },
+    "png/512/grotesque-candelabrum-with-satyrs-griffins-and-music.png": {
+      "bytes": 332079,
+      "sha256": "23a34dbcb081392e45fd717397a7787fa21df0794522f85c09c307766af57590"
+    },
+    "png/512/grotesque-canopy-with-birds-and-suspended-miniature.png": {
+      "bytes": 139802,
+      "sha256": "3cee66f464cb9f6314ac6c9a48460e01d86692dd28e9541bc538b2da9c40cd29"
+    },
+    "png/512/grotesque-vines-with-winged-hybrids-and-figure-canopies.png": {
+      "bytes": 347522,
+      "sha256": "bf657caef890a3b5af490e132f185929ef0a3ce6dc5f16a1b39684f830046a4f"
+    },
+    "png/512/grotesque-with-paired-curled-hybrids-and-framed-scene.png": {
+      "bytes": 255827,
+      "sha256": "42f2c2ef44e09f3f8cc0449be31f297688d617f4e97c2bd4a90e90c58aa50f6e"
+    },
+    "png/512/horned-dragon-with-flowering-scroll.png": {
+      "bytes": 73068,
+      "sha256": "852f988ad2c1aab6746bda82b38d2a06534672f350aa261c8e5ae22a2e12e6ff"
+    },
+    "png/512/horned-hybrids-and-bears-in-foliate-cartouche-frame.png": {
+      "bytes": 151690,
+      "sha256": "eb2aca117343745c1901082d8731e479047a5eb1ccc1718dc8c785f67812498d"
+    },
+    "png/512/paired-bearded-heads-with-horns-and-flowers.png": {
+      "bytes": 69423,
+      "sha256": "f80a2be202721a0ca1969e07deefba2611cac203a632cea151ca96e7719b03f3"
+    },
+    "png/512/paired-horned-creatures-and-twin-flower-scroll.png": {
+      "bytes": 71621,
+      "sha256": "762ee533e0c604818a9d276566c1c716e7b3afb0ff5f4dc20ca42f69b4040094"
+    },
+    "png/512/paired-human-headed-birds-with-tied-scroll.png": {
+      "bytes": 74831,
+      "sha256": "40f01925530aec33747b6171437922c3b50c0973a4cdf8f65200723f2bff1a18"
+    },
+    "png/512/paired-winged-beasts-with-central-face.png": {
+      "bytes": 60595,
+      "sha256": "23bb79d28fc78ad8fab61fc8082c344f38b51aadb2b850a000a53b64ed27ad86"
+    },
+    "png/512/paired-winged-putti-holding-bowl-in-scroll.png": {
+      "bytes": 65274,
+      "sha256": "73d56f12def9d17d5d6e28e7b191d9bb71bc9f11f92065e8717ca9248beef537"
+    },
+    "png/512/soldier-profile-in-fruiting-dagger-sheath.png": {
+      "bytes": 116913,
+      "sha256": "b59ed475ed092169fc4be213151651f1fb1fb5ab5a91d3d28fd011a757e451fa"
+    },
+    "png/512/sphinxes-and-cornucopias-in-tall-candelabrum.png": {
+      "bytes": 276654,
+      "sha256": "7dd2b3743f7bc050e39f152ccbba4ad542b64037891cb322d37d736327688419"
+    },
+    "png/512/square-lace-with-concentric-cross-and-star-corners.png": {
+      "bytes": 388586,
+      "sha256": "b2605c14e92ee9cf5320b3d98492d8a84ba5eccbcf6f526dd7e998c468660518"
+    },
+    "png/512/square-lace-with-radiating-petals-and-triangle-fans.png": {
+      "bytes": 367628,
+      "sha256": "fb8f7a854ac3f4c04f51a63a2aeb47e0d5fb3a5ca924aa8c201284351b9803d8"
+    },
+    "png/512/square-lace-with-six-looped-petal-medallion.png": {
+      "bytes": 396538,
+      "sha256": "bc7791d61fb0b09a6fcc8b98c1d37883ebe7e6e715ed0494f5f9e9ef1a5797ed"
+    },
+    "png/512/square-lace-with-triangle-star-and-small-oval-petals.png": {
+      "bytes": 454758,
+      "sha256": "e3d3309f1e61f0f596f44a5cb3071cc0767d54e464069cc1a7386e11670a21d0"
+    },
+    "png/512/tall-canopy-with-framed-figure-and-winged-mask.png": {
+      "bytes": 185370,
+      "sha256": "037b40a7ba4e550e6be736b3dcd22b485769605928cda9d2141eb3fe0c6c8ac0"
+    },
+    "png/512/tall-grotesque-candelabrum-with-paired-satyrs.png": {
+      "bytes": 153556,
+      "sha256": "4468d0896c5c8822e81f3d7a58b81017165e32bd054ecd55c6d6c5696226c82c"
+    },
+    "png/512/tall-grotesque-with-dragons-and-paired-griffins.png": {
+      "bytes": 191910,
+      "sha256": "3bc1b8fe374f17054ac939b8a1ec1daab811deb6065851ee021ebb3e349cde63"
+    },
+    "png/512/two-boys-with-connected-acanthus-scroll.png": {
+      "bytes": 273381,
+      "sha256": "0d041b42abd524d3dd596e94567b7b685371b8143ce62e7c624d374ccf25569d"
+    },
+    "png/512/two-satyr-couples-on-foliate-candelabrum.png": {
+      "bytes": 347655,
+      "sha256": "385927c51309909b3742b832de3159b298270205ff703dc407d8f4a8194e00b9"
+    },
+    "png/512/winged-putto-with-shield-and-braided-scroll.png": {
+      "bytes": 62119,
+      "sha256": "cb1d7d472be3e578bad377b356f14841fc108711f6a5350df98494f04851c110"
+    },
+    "png/768/acanthus-double-medallion-with-two-winged-figures.png": {
+      "bytes": 876587,
+      "sha256": "97def412f255403a4461ff867316ae785502688d9e918e220c9dd52f9ba1391f"
+    },
+    "png/768/arched-canopy-with-two-hanging-birdcages.png": {
+      "bytes": 352176,
+      "sha256": "ac41e3b87d9ab882cde020a2feb39e0da205b1bb4b8c12412c029dd9d8118883"
+    },
+    "png/768/bearded-winged-masks-with-curled-leaf-scroll.png": {
+      "bytes": 139630,
+      "sha256": "d56f1df1fb97f00cb8f63c66666a7eec110ccca87d5926dde3b27fdb031dcb8f"
+    },
+    "png/768/cupid-subduing-two-lions-in-acanthus-scroll.png": {
+      "bytes": 227319,
+      "sha256": "9628b8440feec2aac561ba03973294a85e5ad82a5c658bf9cec9ec22132cb247"
+    },
+    "png/768/dragon-head-scroll-with-long-bearded-mask.png": {
+      "bytes": 163289,
+      "sha256": "e1b7915416a4a9ff398c7ef8a4425e7d0f2623209bae5d1b8b42a1a7ebae587f"
+    },
+    "png/768/foliate-face-with-paired-perching-birds.png": {
+      "bytes": 340822,
+      "sha256": "eec799c6cf59551c6b08e3c8c5e9a06b9cb1bfd27185f18936ce1fa46e19ecba"
+    },
+    "png/768/four-season-heads-in-acanthus-frieze.png": {
+      "bytes": 158594,
+      "sha256": "4e24a032ae7cc850866d8b6ff3c7bb541a4da94d4fe871e4ebcce8f6f64e3ce7"
+    },
+    "png/768/garlanded-grotesque-with-birds-musicians-and-central-mask.png": {
+      "bytes": 627601,
+      "sha256": "d63647b39d3891dc07960614c39be23912dec768bbdde783d99e4bc1724eb7a9"
+    },
+    "png/768/grape-and-lobed-leaf-scroll-with-central-tie.png": {
+      "bytes": 138027,
+      "sha256": "7b3ebae2af063b24e17bb5e37f00d9137d41ec67edf974d14c2e55f4e330ef74"
+    },
+    "png/768/grotesque-architecture-with-bird-canopies-and-framed-scenes.png": {
+      "bytes": 609316,
+      "sha256": "4cb9edf18e4385e8d43c46aff7016952e9483b28bf1e4977bfce3ae6e0faf473"
+    },
+    "png/768/grotesque-candelabrum-with-satyrs-griffins-and-music.png": {
+      "bytes": 668341,
+      "sha256": "da3d57f2b666a90467415734cb0fdd4eee42d1af4f9c08c8cd81ed0e645a0546"
+    },
+    "png/768/grotesque-canopy-with-birds-and-suspended-miniature.png": {
+      "bytes": 280970,
+      "sha256": "43117281a7352bef967705fe34ecd911cbce1962d0642ce711f79c78dc4cf69e"
+    },
+    "png/768/grotesque-vines-with-winged-hybrids-and-figure-canopies.png": {
+      "bytes": 685293,
+      "sha256": "61a9def07cab21c3704ec847fe825bc5036f5db753444fb06d616bf780642eb6"
+    },
+    "png/768/grotesque-with-paired-curled-hybrids-and-framed-scene.png": {
+      "bytes": 508661,
+      "sha256": "eecc712aceadeec1eca641179caf00be1bb19309be1d9a575642b35c15c8c538"
+    },
+    "png/768/horned-dragon-with-flowering-scroll.png": {
+      "bytes": 145695,
+      "sha256": "44a0ec7cc2ff042b0d19dea1850901f6a3a84b029e4271c7ba377bb60c1e5776"
+    },
+    "png/768/horned-hybrids-and-bears-in-foliate-cartouche-frame.png": {
+      "bytes": 305946,
+      "sha256": "9d4f33b30f1fb25d3642187cf3becc73eb0460b33dd60c0d4add94a50e9043c3"
+    },
+    "png/768/paired-bearded-heads-with-horns-and-flowers.png": {
+      "bytes": 140872,
+      "sha256": "d5664adb2f7c13a2c935b8e15ac89dbbf69de5129d0a0ff096c45fe154fd4395"
+    },
+    "png/768/paired-horned-creatures-and-twin-flower-scroll.png": {
+      "bytes": 151060,
+      "sha256": "ef37308d6da1def5b0e03f3a1b1ab92ecfcc070315e620ed72f2493f8863ba7a"
+    },
+    "png/768/paired-human-headed-birds-with-tied-scroll.png": {
+      "bytes": 151786,
+      "sha256": "a1b355d1fc45d70586e1780d932030f82d230843e447140ae102eeb455c6d4da"
+    },
+    "png/768/paired-winged-beasts-with-central-face.png": {
+      "bytes": 125390,
+      "sha256": "e5db7154df957a38e63c81c955a31090e3b6d5ff7f793640d38203a99d71c5e0"
+    },
+    "png/768/paired-winged-putti-holding-bowl-in-scroll.png": {
+      "bytes": 134177,
+      "sha256": "400bf81245595ace51fbb67da8f82dd23b0f2a1b57316d6cf0f52432f07d3668"
+    },
+    "png/768/soldier-profile-in-fruiting-dagger-sheath.png": {
+      "bytes": 238913,
+      "sha256": "f6fc211c86f8803d33b50bdfdc2e3e0acd5567acf910eb167b5ee6380e197ac6"
+    },
+    "png/768/sphinxes-and-cornucopias-in-tall-candelabrum.png": {
+      "bytes": 576791,
+      "sha256": "d825f20f5c5bed2c70ba4908217c0fb828c52608ebcc81e04d37059cbc9fe1df"
+    },
+    "png/768/tall-canopy-with-framed-figure-and-winged-mask.png": {
+      "bytes": 359268,
+      "sha256": "838b3a8e2a4bf7c62f2ff8c0a4d6b3a16d4707496ea8ef534127c4cbb3df2d17"
+    },
+    "png/768/tall-grotesque-candelabrum-with-paired-satyrs.png": {
+      "bytes": 319358,
+      "sha256": "fefda376b42ad0ac9f9befdc5abbc21d2358bf4d57fcbe5e42d1a3680f9c16eb"
+    },
+    "png/768/tall-grotesque-with-dragons-and-paired-griffins.png": {
+      "bytes": 368624,
+      "sha256": "663028d305c9a2466a72b596a64836bd5d4dc4dc55702f39206e6496d10402c2"
+    },
+    "png/768/two-boys-with-connected-acanthus-scroll.png": {
+      "bytes": 570567,
+      "sha256": "1e4d04aa41a360fe2887936c27b7d5a4efe350ff91e97cf6573dda1d933db04d"
+    },
+    "png/768/two-satyr-couples-on-foliate-candelabrum.png": {
+      "bytes": 748300,
+      "sha256": "9c7fd29626ad4baad112940048fd12887178109b9cc78c431c49aa5833a38f39"
+    },
+    "png/768/winged-putto-with-shield-and-braided-scroll.png": {
+      "bytes": 129561,
+      "sha256": "c666a89f97af4fcb1e43d5bda8298e1d806bb3990fd234c96feee6fcd8e14dcc"
+    },
+    "png/acanthus-double-medallion-with-two-winged-figures.png": {
+      "bytes": 4312071,
+      "sha256": "fc3950ec864ca3a1d188e2ae7b7249214af37737332f4547e773dcd51254616b"
+    },
+    "png/arched-canopy-with-two-hanging-birdcages.png": {
+      "bytes": 848399,
+      "sha256": "17c1388b3206c40455c43944b3d3a0329e83b14b7e368635dc565acd26ab3b28"
+    },
+    "png/arched-lace-with-checker-fans-and-square-star.png": {
+      "bytes": 143030,
+      "sha256": "e602ba985b18bdebe23249edbaf55020247bafa4d810f6a1cc75c5790f44678f"
+    },
+    "png/arched-lace-with-compass-star-and-dense-small-petals.png": {
+      "bytes": 131111,
+      "sha256": "027bdb0cd412b69f20f06d53536701bfa1879afde4e567022afbdfc43ee5ae85"
+    },
+    "png/arched-lace-with-concentric-petal-rosette.png": {
+      "bytes": 136310,
+      "sha256": "ea9fefc7be0ec1c13c27af9f06f3dccc0fdc5325769d81cb544c2c3133b50771"
+    },
+    "png/arched-lace-with-crossed-stars-and-small-petals.png": {
+      "bytes": 185799,
+      "sha256": "cc3e1780611b55938c19831ce98ecff7bc263330c03e1b4cee10cb3fbfc17b26"
+    },
+    "png/arched-lace-with-eight-point-stars-and-small-roundels.png": {
+      "bytes": 187084,
+      "sha256": "76684a4a35c8f363bd0c8b0aefee97554c648e1fb2dde858a772bb6e6fe038e0"
+    },
+    "png/arched-lace-with-four-floral-diamonds.png": {
+      "bytes": 149812,
+      "sha256": "e4bc7b5bb2b2d68a429b1240ad6f480af4ba9c0629466ea867024588457dba42"
+    },
+    "png/arched-lace-with-large-petalled-flower.png": {
+      "bytes": 176565,
+      "sha256": "ea88e16f2b983e4448c007a42ad7ed1146fac4352925132e70335bfd34197263"
+    },
+    "png/arched-lace-with-radiating-spokes-and-pointed-petals.png": {
+      "bytes": 134230,
+      "sha256": "3fbcb6f326718a89c3e55305f70682513ed00fe5907e28daca60d8a863a4ea62"
+    },
+    "png/bearded-winged-masks-with-curled-leaf-scroll.png": {
+      "bytes": 911595,
+      "sha256": "95237117250e3a515b1d3580910a939fd76c1dbf384773faaafb3a3b9c075d3f"
+    },
+    "png/cupid-subduing-two-lions-in-acanthus-scroll.png": {
+      "bytes": 1622499,
+      "sha256": "7a3d8e8c0924671d0fea503780d26297f7af0d2c346a0da104eb0178bb3c78fb"
+    },
+    "png/dragon-head-scroll-with-long-bearded-mask.png": {
+      "bytes": 1026499,
+      "sha256": "75b2fc8c979d7c0670d60bba555c8e7ffebeca4a27b05216d2509cff275d3f9d"
+    },
+    "png/foliate-face-with-paired-perching-birds.png": {
+      "bytes": 313282,
+      "sha256": "dcb98936a9692c1d135ce5a643f1c83bf24965e4cf3fec42d9adb5139fbe8178"
+    },
+    "png/four-season-heads-in-acanthus-frieze.png": {
+      "bytes": 1146573,
+      "sha256": "2c8b1977d4d85224b3d8ab1cb6c88df070a34fe5c363671ab659adeeae9ad70f"
+    },
+    "png/garlanded-grotesque-with-birds-musicians-and-central-mask.png": {
+      "bytes": 4048625,
+      "sha256": "0e8c4bcf20d4107913bdcf061dd08ed3f0bad37dee9007b6129600a6a71c27d6"
+    },
+    "png/grape-and-lobed-leaf-scroll-with-central-tie.png": {
+      "bytes": 906119,
+      "sha256": "6f4307bcda582e91352b91d39e0ac3a4b9fbb7bf7d201ced6b9af15fd71a0284"
+    },
+    "png/grotesque-architecture-with-bird-canopies-and-framed-scenes.png": {
+      "bytes": 3737472,
+      "sha256": "85bea402921f94536701a5d5ccd240c208ef6f7cc882acf0547992135f264e66"
+    },
+    "png/grotesque-candelabrum-with-satyrs-griffins-and-music.png": {
+      "bytes": 4050431,
+      "sha256": "708631b99931b91f0b526e4bc33278d3040887a2d0ee0214ed73732dc41b9cea"
+    },
+    "png/grotesque-canopy-with-birds-and-suspended-miniature.png": {
+      "bytes": 253594,
+      "sha256": "81de1d3d93a41979e6c51264b6d89fc5062e30ec6deae5874837ef894022b68a"
+    },
+    "png/grotesque-vines-with-winged-hybrids-and-figure-canopies.png": {
+      "bytes": 4466606,
+      "sha256": "bebdc311313312227b0b4814fca840a5b7fe7349d0213890409f28d6c088af7d"
+    },
+    "png/grotesque-with-paired-curled-hybrids-and-framed-scene.png": {
+      "bytes": 1248824,
+      "sha256": "af7b474a46b5a923a8c4d287138fbeb02c03e9b1dee58bfb4b8b2ab58434b763"
+    },
+    "png/hanging-rosette-and-bell-finial.png": {
+      "bytes": 15667,
+      "sha256": "094346146eb76d056c9fa498278c2cb43f41158fee6409e3ffa3774556de86f5"
+    },
+    "png/horned-dragon-with-flowering-scroll.png": {
+      "bytes": 955862,
+      "sha256": "c3cab8b6cdf25d34325abc43fc587c1e288af6fedd2abd1686a749a603da6c5b"
+    },
+    "png/horned-hybrids-and-bears-in-foliate-cartouche-frame.png": {
+      "bytes": 1950935,
+      "sha256": "d9f1e092879720a15703f0abfc6cd0a05710d7a3811c0dd5df5d5babeb054cf2"
+    },
+    "png/inverted-lattice-floral-triangle.png": {
+      "bytes": 22381,
+      "sha256": "4e1f3768971113ffb97cef56fdc24642292083950812984150e588fc25b3d723"
+    },
+    "png/paired-bearded-heads-with-horns-and-flowers.png": {
+      "bytes": 956500,
+      "sha256": "22e628a0056b868fa67582420e87d14395d15506186cceb753214cae357d9c39"
+    },
+    "png/paired-horned-creatures-and-twin-flower-scroll.png": {
+      "bytes": 1034973,
+      "sha256": "373ea68c131ee72501d8a1c4e790441afd2c774fd08fbf756a2677c7a9c2939b"
+    },
+    "png/paired-human-headed-birds-with-tied-scroll.png": {
+      "bytes": 1020837,
+      "sha256": "cf36418851960418e400d7734a0c9b77fd22cac431404994c72d35af110ff3cb"
+    },
+    "png/paired-winged-beasts-with-central-face.png": {
+      "bytes": 882745,
+      "sha256": "f7293760bbd2962054c10989ea1775f5481d5e8dd802bc004ce0ad424f9d9ee3"
+    },
+    "png/paired-winged-putti-holding-bowl-in-scroll.png": {
+      "bytes": 891015,
+      "sha256": "bfa81e86209c829778ef473de2fe9edbdecb1b56c172889c577df5c56d54c4cc"
+    },
+    "png/small-lace-roundel-with-eight-point-star.png": {
+      "bytes": 53298,
+      "sha256": "89867a325f6a8336cf80d079ab5e28e51c6e93e64449f61e493c1f50e482469b"
+    },
+    "png/small-triangular-fleur-finial.png": {
+      "bytes": 5375,
+      "sha256": "faf8789f8b06e79c169d6599c2f25c2ed66540b6f17616c13a4e1dfd89f41446"
+    },
+    "png/soldier-profile-in-fruiting-dagger-sheath.png": {
+      "bytes": 1567051,
+      "sha256": "b7d41e6b2d0a1657366f61ec5f857fb3098bf9ea3860e00e94060c47a2684baf"
+    },
+    "png/sphinxes-and-cornucopias-in-tall-candelabrum.png": {
+      "bytes": 3463849,
+      "sha256": "67a2c3665dd986c2a00e12f2105b2897aa218f532751f9ece6a00472f2b03330"
+    },
+    "png/square-four-pointed-star-lace-cell.png": {
+      "bytes": 15284,
+      "sha256": "255426dce06d42a381e02356504b3d44fac8dc49ea9a9980d1381f713daee827"
+    },
+    "png/square-lace-with-concentric-cross-and-star-corners.png": {
+      "bytes": 201244,
+      "sha256": "3912ecf4295ecd66d8306788ab0510a769b426b6f3e78394fa9d652d69e42aac"
+    },
+    "png/square-lace-with-radiating-petals-and-triangle-fans.png": {
+      "bytes": 196434,
+      "sha256": "139cf3ce194d4214a1c6f17864dc979e0e462ed35a5356d2f7c5b88f901ac2ef"
+    },
+    "png/square-lace-with-six-looped-petal-medallion.png": {
+      "bytes": 204101,
+      "sha256": "697fff379ea0dc92618fc6945b3db5446e46ac7ff527b67e545063dba4e8d91a"
+    },
+    "png/square-lace-with-triangle-star-and-small-oval-petals.png": {
+      "bytes": 229575,
+      "sha256": "984c8d45c0df0f0ca70e67c1bccb57b640803b49f36d7ee9deec130c4b2b2f98"
+    },
+    "png/suspended-foliate-roundel.png": {
+      "bytes": 33545,
+      "sha256": "e33a31f28a19349fbed6097278f5e9ab1e80b5b162c285ebfc863cfc6ed5805b"
+    },
+    "png/tall-canopy-with-framed-figure-and-winged-mask.png": {
+      "bytes": 1082170,
+      "sha256": "0429a5f4a0a25c5d39fbab24ba8894a35040a91e1d8099bdfc9d86b553e5a919"
+    },
+    "png/tall-grotesque-candelabrum-with-paired-satyrs.png": {
+      "bytes": 2887119,
+      "sha256": "f6d25013cd87a6721a8a795ae723fcc785b5564481daf39687ea430071620ac4"
+    },
+    "png/tall-grotesque-with-dragons-and-paired-griffins.png": {
+      "bytes": 1133692,
+      "sha256": "1239b7da5442ad6b9f5fce0866afbac5877e41f1388881d4722bd0cdc79d67be"
+    },
+    "png/two-boys-with-connected-acanthus-scroll.png": {
+      "bytes": 3113926,
+      "sha256": "1f79821ce0c5f037c04e360a1dcf2e29c143db93c3491e69734570a7ba43cd05"
+    },
+    "png/two-satyr-couples-on-foliate-candelabrum.png": {
+      "bytes": 3471875,
+      "sha256": "bea7bbe87517a971b2cdad56e919a059f457f48d346027b725f8a36b8db0b109"
+    },
+    "png/winged-putto-with-shield-and-braided-scroll.png": {
+      "bytes": 878887,
+      "sha256": "3eddbc58b2971c8a88d0a643b4bc989245b66f62dca8036d179d84562435d6dc"
+    },
+    "webp/128/acanthus-double-medallion-with-two-winged-figures.webp": {
+      "bytes": 20412,
+      "sha256": "9a2f3394b364ba2e15fa49c646f0fec59ffe69b3d57f4f439eae2448f5abe011"
+    },
+    "webp/128/arched-canopy-with-two-hanging-birdcages.webp": {
+      "bytes": 8814,
+      "sha256": "d5846cd753091dc5aeb58d6d08046c42287ada776a8ae68360b528ed2c315751"
+    },
+    "webp/128/arched-lace-with-checker-fans-and-square-star.webp": {
+      "bytes": 10138,
+      "sha256": "d241740b67a688029fb971c359b44d00e892cc6dc3ecf697aeea8947efb612c9"
+    },
+    "webp/128/arched-lace-with-compass-star-and-dense-small-petals.webp": {
+      "bytes": 11326,
+      "sha256": "97fdf1ccf2d32c83e76d2c63a078bbdf55f2ea539a2564b54a6b568f626c5437"
+    },
+    "webp/128/arched-lace-with-concentric-petal-rosette.webp": {
+      "bytes": 13276,
+      "sha256": "dd7ccd466df64b7577bbf5c909ed18132cfaf17150d128c9385b9d3bbf2e7d00"
+    },
+    "webp/128/arched-lace-with-crossed-stars-and-small-petals.webp": {
+      "bytes": 14038,
+      "sha256": "69fe3169d53c2427c5777600d642e467d2ebf793cebcb7aee49e96673cdbab44"
+    },
+    "webp/128/arched-lace-with-eight-point-stars-and-small-roundels.webp": {
+      "bytes": 12472,
+      "sha256": "5307ba73792ffb96087a2039283d63178ae0619e306f8d8b7631a751bf1f8d64"
+    },
+    "webp/128/arched-lace-with-four-floral-diamonds.webp": {
+      "bytes": 10864,
+      "sha256": "58f86290c9fbf831a1216d6830670a979a5649fb9f50ce0c10027aa259a4fafa"
+    },
+    "webp/128/arched-lace-with-large-petalled-flower.webp": {
+      "bytes": 13244,
+      "sha256": "a0cd1637712032d7752299343ebbf24554eb90590373bb4e01c58c5edc52425c"
+    },
+    "webp/128/arched-lace-with-radiating-spokes-and-pointed-petals.webp": {
+      "bytes": 11254,
+      "sha256": "8b475d19e67dfd08443fea5bd8e953fd9563966a30ff3d930d60d11f7b9fd5d5"
+    },
+    "webp/128/bearded-winged-masks-with-curled-leaf-scroll.webp": {
+      "bytes": 3158,
+      "sha256": "b86a7d3b54e140ecf24e7d883ef2b44e09f53db725724779837fe722feed5e8c"
+    },
+    "webp/128/cupid-subduing-two-lions-in-acanthus-scroll.webp": {
+      "bytes": 3918,
+      "sha256": "b646e7673d04970bd4d0929cebf227deacfe5c07b7f22163a4c30a33ae08ac2e"
+    },
+    "webp/128/dragon-head-scroll-with-long-bearded-mask.webp": {
+      "bytes": 3722,
+      "sha256": "aa7025646d2d42e1a73ee408b9109efe1ef986978eaf4dd86310e77e2d1ac7f6"
+    },
+    "webp/128/foliate-face-with-paired-perching-birds.webp": {
+      "bytes": 7850,
+      "sha256": "51d74dfd76e1748a00d06f1677b95c1cacc11f1bef6c984a1130d0bba57430f8"
+    },
+    "webp/128/four-season-heads-in-acanthus-frieze.webp": {
+      "bytes": 2840,
+      "sha256": "8d9034fcb933b16c957c6698b08fc964dc33029a9623f6bdcc6f82df890b1c67"
+    },
+    "webp/128/garlanded-grotesque-with-birds-musicians-and-central-mask.webp": {
+      "bytes": 11496,
+      "sha256": "3d18363b8495c218cd31a5e2742f940843bd1448d52ad4508f1bcfd087b6b017"
+    },
+    "webp/128/grape-and-lobed-leaf-scroll-with-central-tie.webp": {
+      "bytes": 3316,
+      "sha256": "b887ccae0021ee20368a669f68e486fab317d48adbee220da12832cef1f7a98d"
+    },
+    "webp/128/grotesque-architecture-with-bird-canopies-and-framed-scenes.webp": {
+      "bytes": 12032,
+      "sha256": "01ce93355a6014996c348b1832db6589bfd5fe41feba9001fd39f266ed200fc8"
+    },
+    "webp/128/grotesque-candelabrum-with-satyrs-griffins-and-music.webp": {
+      "bytes": 12082,
+      "sha256": "517925219f590136a48d85f952fa36c52d1056d84c50a88072bc2d641f8c3142"
+    },
+    "webp/128/grotesque-canopy-with-birds-and-suspended-miniature.webp": {
+      "bytes": 7060,
+      "sha256": "032168a3c776cc0737d379a819f0267d18cdfc6946ab0e7286296762216a5f30"
+    },
+    "webp/128/grotesque-vines-with-winged-hybrids-and-figure-canopies.webp": {
+      "bytes": 12032,
+      "sha256": "2dda8dfd7a7aeed33b864c34b01bdee0ae5ff2969bf3c9a3b5a9bb1f56fd21b7"
+    },
+    "webp/128/grotesque-with-paired-curled-hybrids-and-framed-scene.webp": {
+      "bytes": 11020,
+      "sha256": "da8f21ac58ddf918c5a3c6abdf8752c3a34a789f4b2b6aeaf73a54c6f644a2bb"
+    },
+    "webp/128/hanging-rosette-and-bell-finial.webp": {
+      "bytes": 7840,
+      "sha256": "ac1f0c6bc7cfa405d5a4e387fd3a29240923f797cd5f6c328d371db923cd5309"
+    },
+    "webp/128/horned-dragon-with-flowering-scroll.webp": {
+      "bytes": 3386,
+      "sha256": "5fb19a644ce77937a764d81a0551069083addc8d91fa77920aa2bfd2721cb250"
+    },
+    "webp/128/horned-hybrids-and-bears-in-foliate-cartouche-frame.webp": {
+      "bytes": 5320,
+      "sha256": "bf77c50091534683180ebb474d24732c31e5f6c567ac64bc2d249633dc797f2d"
+    },
+    "webp/128/inverted-lattice-floral-triangle.webp": {
+      "bytes": 9244,
+      "sha256": "c112397f4b1d8a17fcc78ee2aa7c6c8aef85e211deb1187ef3adfcd38163c3fb"
+    },
+    "webp/128/paired-bearded-heads-with-horns-and-flowers.webp": {
+      "bytes": 3368,
+      "sha256": "78e93156919e405caa13805da6847873023c613d03f281a92182517d69acce30"
+    },
+    "webp/128/paired-horned-creatures-and-twin-flower-scroll.webp": {
+      "bytes": 3414,
+      "sha256": "9559da2a4f598fe1c46b9e84852133feeee9aafca3ee171e8358a1c4a2a1af21"
+    },
+    "webp/128/paired-human-headed-birds-with-tied-scroll.webp": {
+      "bytes": 3530,
+      "sha256": "874257f5e0fddae18494ae2fea6f6b8d18e3902aa95e1791b929fab7740f540c"
+    },
+    "webp/128/paired-winged-beasts-with-central-face.webp": {
+      "bytes": 3248,
+      "sha256": "13f9be3f613dfd72f94b81ee4b8062fc1160ad9155913101491583eba3088a75"
+    },
+    "webp/128/paired-winged-putti-holding-bowl-in-scroll.webp": {
+      "bytes": 3330,
+      "sha256": "1ac9df976c3034af4c2b6c664b05d356bdadd714842faff1e9f0fb5c698f6e04"
+    },
+    "webp/128/small-lace-roundel-with-eight-point-star.webp": {
+      "bytes": 18420,
+      "sha256": "ada1927007f62afed5b96e31e1b0a417b1f8938355c6f33c7c0bc3e7a2dc73ae"
+    },
+    "webp/128/soldier-profile-in-fruiting-dagger-sheath.webp": {
+      "bytes": 6624,
+      "sha256": "59d41c09ec4c2e6dc38fd40dd690a904eae037baa7ba7660f760ac2502946845"
+    },
+    "webp/128/sphinxes-and-cornucopias-in-tall-candelabrum.webp": {
+      "bytes": 14046,
+      "sha256": "d4b02f1765dc6ccb39f9e3e212d3abbe7ed37307cab82a0f7a119a70ef73df34"
+    },
+    "webp/128/square-four-pointed-star-lace-cell.webp": {
+      "bytes": 16470,
+      "sha256": "dd04a3113788c2df56261b3956b238564c1288036bc1ba7aeb5b07105752bd64"
+    },
+    "webp/128/square-lace-with-concentric-cross-and-star-corners.webp": {
+      "bytes": 18820,
+      "sha256": "6a22084f2ab089fea9a4d873a8489b192e485fb48ee9bd78c6ece3946cd6091f"
+    },
+    "webp/128/square-lace-with-radiating-petals-and-triangle-fans.webp": {
+      "bytes": 18100,
+      "sha256": "6a993cc0e10fb4b72fc68721e8eb27c75fb5d36b54614404fe2f91cb931f33d3"
+    },
+    "webp/128/square-lace-with-six-looped-petal-medallion.webp": {
+      "bytes": 18476,
+      "sha256": "93a7725cd361aa5765aedbd8a6b3df47a76e32bb6a1046012a6f1ef77ed7f5f0"
+    },
+    "webp/128/square-lace-with-triangle-star-and-small-oval-petals.webp": {
+      "bytes": 20896,
+      "sha256": "e236afc9914337c6adc32c49bfc9b8c5a2b2b0be241f0b4dcce5c9e9d4a44211"
+    },
+    "webp/128/suspended-foliate-roundel.webp": {
+      "bytes": 8080,
+      "sha256": "65f946a056713ae81dab5234d0062e5b8dc8f8ba90742d39ca8e25af8b2c09f6"
+    },
+    "webp/128/tall-canopy-with-framed-figure-and-winged-mask.webp": {
+      "bytes": 7918,
+      "sha256": "87276b28100e1eb782a3c4a09bfed1ecb012f44a22021f397bd1af69cb7ec2a9"
+    },
+    "webp/128/tall-grotesque-candelabrum-with-paired-satyrs.webp": {
+      "bytes": 5708,
+      "sha256": "a102fd02b554155ec68295f1b337c8d8720af90eb131580427e1c6de2e946b72"
+    },
+    "webp/128/tall-grotesque-with-dragons-and-paired-griffins.webp": {
+      "bytes": 7988,
+      "sha256": "fa3ff06dc34a973b86249a9f502e845baad6069c44311393255ea94875c79132"
+    },
+    "webp/128/two-boys-with-connected-acanthus-scroll.webp": {
+      "bytes": 15648,
+      "sha256": "876a14f1da64fdc3d662f86a9d90a71b31e26756c0ed89e29d33f7e1a9544014"
+    },
+    "webp/128/two-satyr-couples-on-foliate-candelabrum.webp": {
+      "bytes": 17102,
+      "sha256": "7c71cdd0c967b13878ac9f918ad33f3003dd053e86b7a2e5d6c3ebac06808d34"
+    },
+    "webp/128/winged-putto-with-shield-and-braided-scroll.webp": {
+      "bytes": 3158,
+      "sha256": "0bf94e2ca8e88e02a8c5e7854ddacf5077228c5d2b15e2d4ee3d06f46a560248"
+    },
+    "webp/256/acanthus-double-medallion-with-two-winged-figures.webp": {
+      "bytes": 73240,
+      "sha256": "29c2de0b7fe0b0e6ca8841c8e29b31f2a2fc96c22cb1fb6edfa01b76fb8bc057"
+    },
+    "webp/256/arched-canopy-with-two-hanging-birdcages.webp": {
+      "bytes": 27618,
+      "sha256": "62c3b242c3721245b174502cf7397d05cee58887a2708cc2bbfd17243876a241"
+    },
+    "webp/256/arched-lace-with-checker-fans-and-square-star.webp": {
+      "bytes": 32862,
+      "sha256": "b33360f5d92d5e71ca406b48bc013df38c1f709a19ed38a3e96fc1d95dc1a0e4"
+    },
+    "webp/256/arched-lace-with-compass-star-and-dense-small-petals.webp": {
+      "bytes": 36886,
+      "sha256": "a7af84b83935bb03d00abcb46c599ac504ac56ee2f0473a490f40e843dc9219e"
+    },
+    "webp/256/arched-lace-with-concentric-petal-rosette.webp": {
+      "bytes": 42214,
+      "sha256": "e8061b529318f8461d68c881a37bf89a27a92bddefa7a43a64206df9b296e84e"
+    },
+    "webp/256/arched-lace-with-crossed-stars-and-small-petals.webp": {
+      "bytes": 44604,
+      "sha256": "303ce6bb2b6974192c1d65264da76484f692b969f1595a8af4a86b94e902065d"
+    },
+    "webp/256/arched-lace-with-eight-point-stars-and-small-roundels.webp": {
+      "bytes": 40002,
+      "sha256": "3fa733016a63690651e9c8f331775592b23ed101ade350a4e638f01ca0955330"
+    },
+    "webp/256/arched-lace-with-four-floral-diamonds.webp": {
+      "bytes": 34356,
+      "sha256": "b1a086229a505e651dcc4a21bab0f84de0058f6723ba6db415c646ee4d1d059d"
+    },
+    "webp/256/arched-lace-with-large-petalled-flower.webp": {
+      "bytes": 41854,
+      "sha256": "21f78ca83caaa37af198b77e489f5e8da103fa3b671e6f60c22ce37e538552da"
+    },
+    "webp/256/arched-lace-with-radiating-spokes-and-pointed-petals.webp": {
+      "bytes": 36232,
+      "sha256": "d897ada03f332f96f5cb83043c1779d4c29418e206800a13ab1ef9c8cf7d2451"
+    },
+    "webp/256/bearded-winged-masks-with-curled-leaf-scroll.webp": {
+      "bytes": 10260,
+      "sha256": "c24eed856a31f35910406f57f1337db5f3113f1a0fba540376b13647a8d8321f"
+    },
+    "webp/256/cupid-subduing-two-lions-in-acanthus-scroll.webp": {
+      "bytes": 13342,
+      "sha256": "5aa09deb7b8a07c442fec638c1bd59c474b238a8403ce5e7b5b30e6ad08bdaa6"
+    },
+    "webp/256/dragon-head-scroll-with-long-bearded-mask.webp": {
+      "bytes": 11788,
+      "sha256": "497a418ddaa93518916faa3b9384bce56e3e87db961b8c61456769994970a074"
+    },
+    "webp/256/foliate-face-with-paired-perching-birds.webp": {
+      "bytes": 23630,
+      "sha256": "bdb5f63bb00e7ab0a28bd0f46a0defc6be487eadcde92de23e235751e1223328"
+    },
+    "webp/256/four-season-heads-in-acanthus-frieze.webp": {
+      "bytes": 9558,
+      "sha256": "3c2dc88f8e40dae919b06195383acf86d52713e92319cff7dd6e539ddc6b0c03"
+    },
+    "webp/256/garlanded-grotesque-with-birds-musicians-and-central-mask.webp": {
+      "bytes": 39382,
+      "sha256": "5fc11cc7c17d982a559da47796da46c2ede54d6359712c757d7579fd49281d37"
+    },
+    "webp/256/grape-and-lobed-leaf-scroll-with-central-tie.webp": {
+      "bytes": 10248,
+      "sha256": "f0caad1af3d64cf4c7d614177aa5cb25a60c05ff6520e3f4bf0310a26e06e156"
+    },
+    "webp/256/grotesque-architecture-with-bird-canopies-and-framed-scenes.webp": {
+      "bytes": 41426,
+      "sha256": "cbba031c641e3e220b77e3c162caee37ed8224d9617d494b2a4312e03a9c8dbe"
+    },
+    "webp/256/grotesque-candelabrum-with-satyrs-griffins-and-music.webp": {
+      "bytes": 41132,
+      "sha256": "7ce2aa2c085712eb8efe90c58c8afb85f45ce3fd01aeac2814093449c7f65e47"
+    },
+    "webp/256/grotesque-canopy-with-birds-and-suspended-miniature.webp": {
+      "bytes": 20702,
+      "sha256": "c9b2f7b5e9f6b266c3f32b7e491542bb7610f19a2e708c95a2ff895b1837e775"
+    },
+    "webp/256/grotesque-vines-with-winged-hybrids-and-figure-canopies.webp": {
+      "bytes": 41736,
+      "sha256": "6d8aefa741ef9f7df6801346065aca00ec0699a06a835b0ac2a6a0ae338ca6c1"
+    },
+    "webp/256/grotesque-with-paired-curled-hybrids-and-framed-scene.webp": {
+      "bytes": 35940,
+      "sha256": "4e04ee061b491d46efdf11d8fa3b91b1e9aa65bdfcf4190d17f1e749ffabad45"
+    },
+    "webp/256/horned-dragon-with-flowering-scroll.webp": {
+      "bytes": 11020,
+      "sha256": "0737c0d7520b68c92acaa37aa33ef1ad2f650293c30a20e9b7165fac33fd0bca"
+    },
+    "webp/256/horned-hybrids-and-bears-in-foliate-cartouche-frame.webp": {
+      "bytes": 17984,
+      "sha256": "995489b3937b701b7c2f6436bd27c380c20071a0344b0035a0f67025bcc75b63"
+    },
+    "webp/256/paired-bearded-heads-with-horns-and-flowers.webp": {
+      "bytes": 10784,
+      "sha256": "a967f15c2d967804b6dbe83199fb05f4bef87ab10c0fbcd71a6f307e2e916539"
+    },
+    "webp/256/paired-horned-creatures-and-twin-flower-scroll.webp": {
+      "bytes": 11146,
+      "sha256": "52ca24d7e4054e889662dfe7d524f99c872e7d8f94f82b1c6ba392a1811f0fd8"
+    },
+    "webp/256/paired-human-headed-birds-with-tied-scroll.webp": {
+      "bytes": 11354,
+      "sha256": "18342c33dca034068ba660a3a35f3cb393e9c5af15f67db51e7fa9fb46b19814"
+    },
+    "webp/256/paired-winged-beasts-with-central-face.webp": {
+      "bytes": 9966,
+      "sha256": "3a5fd5ffaa0b987756e49aa4aa11a9d6f55b023e22a63cb8c65e7ed9c28f8219"
+    },
+    "webp/256/paired-winged-putti-holding-bowl-in-scroll.webp": {
+      "bytes": 9944,
+      "sha256": "e41964ee038396527165778896010dd603cbeb3b727ed84ac788138a5a3cc3d6"
+    },
+    "webp/256/small-lace-roundel-with-eight-point-star.webp": {
+      "bytes": 64664,
+      "sha256": "9fd776afa8f32936f0a817d2a72040084e003213d0e4433ce4ccf503db75b671"
+    },
+    "webp/256/soldier-profile-in-fruiting-dagger-sheath.webp": {
+      "bytes": 21586,
+      "sha256": "cf345d9200b1f4db439d25c486eeb73b94051da9fe859410f26bde359fe7dc12"
+    },
+    "webp/256/sphinxes-and-cornucopias-in-tall-candelabrum.webp": {
+      "bytes": 49592,
+      "sha256": "58b8938710b5d94fa29ef686910d48db3b9f56a5789c64150bb9456257149e66"
+    },
+    "webp/256/square-lace-with-concentric-cross-and-star-corners.webp": {
+      "bytes": 63140,
+      "sha256": "49b0e0b1db8ee2361a5d89ed7145818bad7b367814a861989135cd422aca9188"
+    },
+    "webp/256/square-lace-with-radiating-petals-and-triangle-fans.webp": {
+      "bytes": 59728,
+      "sha256": "526885650f37e13d4427b1d431b45b4c47dec2ec9438a21dd17ae8af0f74d576"
+    },
+    "webp/256/square-lace-with-six-looped-petal-medallion.webp": {
+      "bytes": 62028,
+      "sha256": "f916a43545a6ca8f952c2e75b4c6a68e9ba9e45f90437c29b0ecaae05e8c5cad"
+    },
+    "webp/256/square-lace-with-triangle-star-and-small-oval-petals.webp": {
+      "bytes": 71196,
+      "sha256": "5d3932ea216da0fe5dad2b5aa40e06d8ef2829785e463ed18a7abc1590354682"
+    },
+    "webp/256/suspended-foliate-roundel.webp": {
+      "bytes": 25048,
+      "sha256": "4c34304c941cb4021dae721b02f2e29b5875dbdeb1d2ac530e1add5427bdb55c"
+    },
+    "webp/256/tall-canopy-with-framed-figure-and-winged-mask.webp": {
+      "bytes": 26032,
+      "sha256": "49a178c309f6932e72f150baf7df1aa9116d6212593318e102f92c972c6f033b"
+    },
+    "webp/256/tall-grotesque-candelabrum-with-paired-satyrs.webp": {
+      "bytes": 19730,
+      "sha256": "e58b35cc527084c6f1f293c6c9aa652cc9d9a82b4276eb0494a960b22c93445b"
+    },
+    "webp/256/tall-grotesque-with-dragons-and-paired-griffins.webp": {
+      "bytes": 26130,
+      "sha256": "773202db2ef200c1a5602e4ef17e2de08ccb2db6c910023aa4f68d4034a6a531"
+    },
+    "webp/256/two-boys-with-connected-acanthus-scroll.webp": {
+      "bytes": 51346,
+      "sha256": "3b8a06c3b28d19346dcb39d6399ced937a9aaa8b8c346a51ebbd4bb76ea0b52c"
+    },
+    "webp/256/two-satyr-couples-on-foliate-candelabrum.webp": {
+      "bytes": 59548,
+      "sha256": "d9afbd755e27adc6fe37139e95902c3bb4cfd76ffd2d48a39944d1d61bd10537"
+    },
+    "webp/256/winged-putto-with-shield-and-braided-scroll.webp": {
+      "bytes": 10056,
+      "sha256": "188e94a18a5982b0f9544075eadec4910f842230b1efbd5221ba942cc28eb457"
+    },
+    "webp/512/acanthus-double-medallion-with-two-winged-figures.webp": {
+      "bytes": 262358,
+      "sha256": "5e88ce5b34c41d75ca2d3ec437b987a736807e25df9c608c691c118b68c86690"
+    },
+    "webp/512/arched-canopy-with-two-hanging-birdcages.webp": {
+      "bytes": 84296,
+      "sha256": "cc3715974dd223d57f397f2b0f6d685b32b26faa687cc5060e58a88e5ee4361d"
+    },
+    "webp/512/arched-lace-with-checker-fans-and-square-star.webp": {
+      "bytes": 112594,
+      "sha256": "c5204c4d1ef4f4a7ca27619a230c6b12684bf9c0c7f2b39efcd667b4e689b11e"
+    },
+    "webp/512/arched-lace-with-compass-star-and-dense-small-petals.webp": {
+      "bytes": 125538,
+      "sha256": "f324a291843ebf747fffc82adc11d6a0e9d245927f95bab93bd0070676c2b0d4"
+    },
+    "webp/512/arched-lace-with-concentric-petal-rosette.webp": {
+      "bytes": 144888,
+      "sha256": "ba6d0d58d27502e63b6918faa48f2f5848cd6b3d29ceb35a72df3d149149a6cf"
+    },
+    "webp/512/arched-lace-with-crossed-stars-and-small-petals.webp": {
+      "bytes": 150610,
+      "sha256": "9eb0685935118e0bb7ea93d388ffec0357302c66a2ed906b11bafd2dc1ecdea8"
+    },
+    "webp/512/arched-lace-with-eight-point-stars-and-small-roundels.webp": {
+      "bytes": 137838,
+      "sha256": "0c5bce2b4c7baea5eacd1f320e553de6b8d7887b550c3d56867d5196e21e19f2"
+    },
+    "webp/512/arched-lace-with-four-floral-diamonds.webp": {
+      "bytes": 116544,
+      "sha256": "ad6b4abea91d6cd8a76bb738b20dce279315a72c2643f64c97df0482f4448d40"
+    },
+    "webp/512/arched-lace-with-large-petalled-flower.webp": {
+      "bytes": 140946,
+      "sha256": "5131e9a7ee14e0a42aff386a58955b6532ad91a207e907c19ca4c9b90b8e2868"
+    },
+    "webp/512/arched-lace-with-radiating-spokes-and-pointed-petals.webp": {
+      "bytes": 125244,
+      "sha256": "d7acec8a6fe25f0c1a18b4385599883620f4db4b854db19370fbabf12309667a"
+    },
+    "webp/512/bearded-winged-masks-with-curled-leaf-scroll.webp": {
+      "bytes": 34102,
+      "sha256": "3875c24478f534d7be77109cccce0401eb5e7124f7ae247a0e1f16c3f0457ad0"
+    },
+    "webp/512/cupid-subduing-two-lions-in-acanthus-scroll.webp": {
+      "bytes": 47574,
+      "sha256": "24a87e8e13c6882d7340a51807b7d28543b5ca64761568479f363cecb9173c35"
+    },
+    "webp/512/dragon-head-scroll-with-long-bearded-mask.webp": {
+      "bytes": 39522,
+      "sha256": "df7f69418d098d1b4488e6d7a2a9cc3fbc8613e3625aeb6bd9f5292d0d24d87f"
+    },
+    "webp/512/foliate-face-with-paired-perching-birds.webp": {
+      "bytes": 77246,
+      "sha256": "9da37fc471df2fcf417fae974ec880b6157d9838b85241fff5eed3bd4252f028"
+    },
+    "webp/512/four-season-heads-in-acanthus-frieze.webp": {
+      "bytes": 33158,
+      "sha256": "def86513cc8ee080933737d40cde2be878752b23f5fac148f5ac247ec916613d"
+    },
+    "webp/512/garlanded-grotesque-with-birds-musicians-and-central-mask.webp": {
+      "bytes": 134952,
+      "sha256": "c8e42c3632ec4b4458e9206bb81dac3c9c94f713bb374fcb552e095bd5a1de04"
+    },
+    "webp/512/grape-and-lobed-leaf-scroll-with-central-tie.webp": {
+      "bytes": 34428,
+      "sha256": "653046f29ecb32e17750fafe7bec41a61eabd4741ad2b2a8c640e626bcd8c285"
+    },
+    "webp/512/grotesque-architecture-with-bird-canopies-and-framed-scenes.webp": {
+      "bytes": 143104,
+      "sha256": "b7ff67b24f4a82bbe30693bc3f2f558a6d1756e83329fd5ca0040271f038954c"
+    },
+    "webp/512/grotesque-candelabrum-with-satyrs-griffins-and-music.webp": {
+      "bytes": 142484,
+      "sha256": "ae8309e21129c2967cc2b0a8f69a926ab5982bea90006db76b744ed66872c7fb"
+    },
+    "webp/512/grotesque-canopy-with-birds-and-suspended-miniature.webp": {
+      "bytes": 64360,
+      "sha256": "9d90d29e025df874ebd854ccaf3fc9facaee70d122250c07defa845f9e0ca7e0"
+    },
+    "webp/512/grotesque-vines-with-winged-hybrids-and-figure-canopies.webp": {
+      "bytes": 144426,
+      "sha256": "a5100f4ed070bb2cbf4b5842805d5b4de80f059efcecb6a892524875bb1c65f9"
+    },
+    "webp/512/grotesque-with-paired-curled-hybrids-and-framed-scene.webp": {
+      "bytes": 115734,
+      "sha256": "980856ff73685a331c895fcddc8d0be2c34ceeab5f25ac16f218550732631184"
+    },
+    "webp/512/horned-dragon-with-flowering-scroll.webp": {
+      "bytes": 36264,
+      "sha256": "1d8f33024e916f8464461bc5729f0ef700abe73065cf97a4c6bc290d558e06f4"
+    },
+    "webp/512/horned-hybrids-and-bears-in-foliate-cartouche-frame.webp": {
+      "bytes": 63316,
+      "sha256": "b2b27cdd9d603712b1f6923c72a0d74b89816be5621bda59e8dceb6e9c8de5b2"
+    },
+    "webp/512/paired-bearded-heads-with-horns-and-flowers.webp": {
+      "bytes": 35172,
+      "sha256": "a9ae2634fe7f9e471c0cc8d4b081fcaf97331b9dac1c84fda4a3afef33bce29b"
+    },
+    "webp/512/paired-horned-creatures-and-twin-flower-scroll.webp": {
+      "bytes": 37112,
+      "sha256": "bf7f1fbf623c8b56e75ee92f0e0a69fff327bb1f3e875076bebfb1cf4ffcf1ea"
+    },
+    "webp/512/paired-human-headed-birds-with-tied-scroll.webp": {
+      "bytes": 37682,
+      "sha256": "f359de8389a7d89a00fa8f74bed6289b565c1b9b5924b8da6a7d919ee9229cf2"
+    },
+    "webp/512/paired-winged-beasts-with-central-face.webp": {
+      "bytes": 32888,
+      "sha256": "0e1b2cba0f3fc5e3a7f4b090d3e58c759034a49fb89ac012d9402af4451eda11"
+    },
+    "webp/512/paired-winged-putti-holding-bowl-in-scroll.webp": {
+      "bytes": 33302,
+      "sha256": "47b2651e31267c74a670ce696b614c4ca65758ca5a3e5b97963c048ed43d35a3"
+    },
+    "webp/512/soldier-profile-in-fruiting-dagger-sheath.webp": {
+      "bytes": 72964,
+      "sha256": "916151fc1f982a1701e85d03e3ff80e7fb36ec44130db86dee1c728d67a28a72"
+    },
+    "webp/512/sphinxes-and-cornucopias-in-tall-candelabrum.webp": {
+      "bytes": 180254,
+      "sha256": "ad9384992be25b68e117bb5be230fc5272089afdce45ee06805f1d8fa531b2b7"
+    },
+    "webp/512/square-lace-with-concentric-cross-and-star-corners.webp": {
+      "bytes": 212986,
+      "sha256": "75734cb20e533c66f314cf1aaa0aec11c2370c414a0b8c0ca79d67b007ead904"
+    },
+    "webp/512/square-lace-with-radiating-petals-and-triangle-fans.webp": {
+      "bytes": 203932,
+      "sha256": "59d7d4672012b07ac2be1168f2251a06a97a4713a8e876b3c10613f5f8920015"
+    },
+    "webp/512/square-lace-with-six-looped-petal-medallion.webp": {
+      "bytes": 215532,
+      "sha256": "9d66c669f8703b03994379dea7ca07c9d6ad3c7842d6d64e772dcbce7ffc692c"
+    },
+    "webp/512/square-lace-with-triangle-star-and-small-oval-petals.webp": {
+      "bytes": 254932,
+      "sha256": "3a9315c355f4d3536ef4fe8bfaab5cf9fe10d810bf7aee3a7ef41373ee6c1418"
+    },
+    "webp/512/tall-canopy-with-framed-figure-and-winged-mask.webp": {
+      "bytes": 82626,
+      "sha256": "2d4fad8045cbe719229742bf1ea294de18b3a8d102fde75b641f1f0ad51426aa"
+    },
+    "webp/512/tall-grotesque-candelabrum-with-paired-satyrs.webp": {
+      "bytes": 71948,
+      "sha256": "6226e39e8e5b4505f7d1280df9dfdbf80f501aa8d414f0b951d1898e4dced7bf"
+    },
+    "webp/512/tall-grotesque-with-dragons-and-paired-griffins.webp": {
+      "bytes": 84048,
+      "sha256": "63cdae608a5a405ee42e339412b6f1aae3e97b55cdecf70c8a5ce74b38b496f5"
+    },
+    "webp/512/two-boys-with-connected-acanthus-scroll.webp": {
+      "bytes": 172382,
+      "sha256": "12ebe37e14555b9d390ea2ff5264f1b9d8fc2695ae4a753d0040668a50c963b7"
+    },
+    "webp/512/two-satyr-couples-on-foliate-candelabrum.webp": {
+      "bytes": 213452,
+      "sha256": "8e8f35fe27b7796a03e8b541379638a436ca500ae98905e7c38535d679ffc87d"
+    },
+    "webp/512/winged-putto-with-shield-and-braided-scroll.webp": {
+      "bytes": 32536,
+      "sha256": "d51858ff787b219f151cfec89ff26b094fb8143cf98cdb0e0455573bb9a18abf"
+    },
+    "webp/768/acanthus-double-medallion-with-two-winged-figures.webp": {
+      "bytes": 544108,
+      "sha256": "2c4869c8d76ed83258b0b144050469b4e382749aeb4979d0d47a81f1ba02f693"
+    },
+    "webp/768/arched-canopy-with-two-hanging-birdcages.webp": {
+      "bytes": 164072,
+      "sha256": "f12649617a0f0e45d045ac7d30293563ed72de4386aa0593905255353101ee2c"
+    },
+    "webp/768/bearded-winged-masks-with-curled-leaf-scroll.webp": {
+      "bytes": 73150,
+      "sha256": "781e98d8bcdd1208ded5d0055f606409b8ab4b473d8f6cc56676bf4ddbbaf02a"
+    },
+    "webp/768/cupid-subduing-two-lions-in-acanthus-scroll.webp": {
+      "bytes": 101868,
+      "sha256": "eacb18ff2a557a0435756443b842f10effdcc7caf8cc32fd596812aa64f8c590"
+    },
+    "webp/768/dragon-head-scroll-with-long-bearded-mask.webp": {
+      "bytes": 81564,
+      "sha256": "ae7e5959c43972119a0a68ad0fbf460e0db500e4970bda76f8a6e52f71f5777d"
+    },
+    "webp/768/foliate-face-with-paired-perching-birds.webp": {
+      "bytes": 160822,
+      "sha256": "b29fbbd79ccccc944369723438336204960f057ea40158d395222af915e15d56"
+    },
+    "webp/768/four-season-heads-in-acanthus-frieze.webp": {
+      "bytes": 71552,
+      "sha256": "dcf9a9560b101277c94fa126b5c6475d24670eb519e0ca661ef34b16bb024801"
+    },
+    "webp/768/garlanded-grotesque-with-birds-musicians-and-central-mask.webp": {
+      "bytes": 281146,
+      "sha256": "442a76a5f1259339b45f82b7d2a4d060811682fdcc156f6e1af23d76dbc5f5f2"
+    },
+    "webp/768/grape-and-lobed-leaf-scroll-with-central-tie.webp": {
+      "bytes": 73060,
+      "sha256": "67985ba072078b7f4180406d4420baf8797467bfc18c2e44f1783043174ef1a7"
+    },
+    "webp/768/grotesque-architecture-with-bird-canopies-and-framed-scenes.webp": {
+      "bytes": 301570,
+      "sha256": "1808b946de02f294edaa06766190fd19c93e9db47789aae4eac5f90a31f555e1"
+    },
+    "webp/768/grotesque-candelabrum-with-satyrs-griffins-and-music.webp": {
+      "bytes": 301908,
+      "sha256": "c3ed50c28fffb031a3bb77c6ab9a6188aca34334f0b663e06656c823d0b8cc2d"
+    },
+    "webp/768/grotesque-canopy-with-birds-and-suspended-miniature.webp": {
+      "bytes": 132786,
+      "sha256": "4cdf14af01448b145e7bbfeb67fe2ae9305b64341ecece565ea6b2ed788f2a1a"
+    },
+    "webp/768/grotesque-vines-with-winged-hybrids-and-figure-canopies.webp": {
+      "bytes": 301110,
+      "sha256": "71552d6fb4ddbd7cf4505f7a95c76158f6a3c7f3768752e51024aceb7320334f"
+    },
+    "webp/768/grotesque-with-paired-curled-hybrids-and-framed-scene.webp": {
+      "bytes": 231440,
+      "sha256": "21915187c13b3bbe1807995236a8e38d51c6951232e464590ce29a74641e25eb"
+    },
+    "webp/768/horned-dragon-with-flowering-scroll.webp": {
+      "bytes": 75036,
+      "sha256": "90512d7b13b0d18cb2fcce838515bf69a58eb9ecec3a9e5eba5c30cb82f7bd84"
+    },
+    "webp/768/horned-hybrids-and-bears-in-foliate-cartouche-frame.webp": {
+      "bytes": 131786,
+      "sha256": "3fac1629549f5d9c60b105da0ab13a9a3004f5623d50767bc92fae724b3f6792"
+    },
+    "webp/768/paired-bearded-heads-with-horns-and-flowers.webp": {
+      "bytes": 74322,
+      "sha256": "6460d7dead3cec154c0dae36043eff408668fff7c837531ea75ef2e262a8bcf0"
+    },
+    "webp/768/paired-horned-creatures-and-twin-flower-scroll.webp": {
+      "bytes": 80196,
+      "sha256": "d6fe1c0a231831aa08445f8fa9729a0ee6eacdf92bb6cafb5bd134caa3e9cc67"
+    },
+    "webp/768/paired-human-headed-birds-with-tied-scroll.webp": {
+      "bytes": 79770,
+      "sha256": "d9fca3687a393a15563c0b75f331a2f8bcc4ac06b509a0f9024deed7a333d240"
+    },
+    "webp/768/paired-winged-beasts-with-central-face.webp": {
+      "bytes": 69734,
+      "sha256": "04f75ed967d9702431058efa62ecb24cc68d264eb31c801556b271b48d4a20d6"
+    },
+    "webp/768/paired-winged-putti-holding-bowl-in-scroll.webp": {
+      "bytes": 70828,
+      "sha256": "c71fa25eeb8e40f59b00ffb6ef22b582795a3334f034ede72b9e83d4740ff990"
+    },
+    "webp/768/soldier-profile-in-fruiting-dagger-sheath.webp": {
+      "bytes": 152182,
+      "sha256": "b0c7848a9b4a71175cf9790cb60509365658b475adc9044999a0f2ce69d63d4c"
+    },
+    "webp/768/sphinxes-and-cornucopias-in-tall-candelabrum.webp": {
+      "bytes": 364622,
+      "sha256": "6fb325fb5f2c64d88c57ea242cf25a160c4d3dd2c99ec38530d9c7d86f35116a"
+    },
+    "webp/768/tall-canopy-with-framed-figure-and-winged-mask.webp": {
+      "bytes": 164318,
+      "sha256": "1df587cb5cb23cb3fb5030d2429cd5442cfd4e8677feb483de5e5129696f3057"
+    },
+    "webp/768/tall-grotesque-candelabrum-with-paired-satyrs.webp": {
+      "bytes": 154894,
+      "sha256": "ed061e86275072cfe298a02670a36a7ee7dbaa259b203f0475224110ab5b6dc9"
+    },
+    "webp/768/tall-grotesque-with-dragons-and-paired-griffins.webp": {
+      "bytes": 166620,
+      "sha256": "c5eda1f226560906a7bdec28591a9804706368ecf698ef34383c6e2a4f70b4e3"
+    },
+    "webp/768/two-boys-with-connected-acanthus-scroll.webp": {
+      "bytes": 355098,
+      "sha256": "f3ea927224f4d4c135d73c3041e222ed76091207869cefc2dfec291f131c17ea"
+    },
+    "webp/768/two-satyr-couples-on-foliate-candelabrum.webp": {
+      "bytes": 463982,
+      "sha256": "cac46fd500de3ade802cf7fe8c992104284a7b4532e10e609ea5a7acb6a48ad2"
+    },
+    "webp/768/winged-putto-with-shield-and-braided-scroll.webp": {
+      "bytes": 69586,
+      "sha256": "19425c3ce702824619c4fc52f80cf06c08ed30ae5035a80cb5c79d409256ff1f"
+    },
+    "webp/acanthus-double-medallion-with-two-winged-figures.webp": {
+      "bytes": 2384342,
+      "sha256": "cb1de2adbdf9baea85a463a41e2c88d3bc024ae231e45e7ca3c2c12c830fe737"
+    },
+    "webp/arched-canopy-with-two-hanging-birdcages.webp": {
+      "bytes": 503586,
+      "sha256": "21677b66f9def18a6835f90d32187f68a6c9ba26f8ab49a13aade648938f8576"
+    },
+    "webp/arched-lace-with-checker-fans-and-square-star.webp": {
+      "bytes": 85152,
+      "sha256": "efedbd5d2ee6eadb2fdb63e0ea73f5896bce208cffc958c769554854090111a2"
+    },
+    "webp/arched-lace-with-compass-star-and-dense-small-petals.webp": {
+      "bytes": 76940,
+      "sha256": "b2a7cf18a5adef2e0c10039298ee72190769522bf24ea089017d65247d2d7caf"
+    },
+    "webp/arched-lace-with-concentric-petal-rosette.webp": {
+      "bytes": 80738,
+      "sha256": "feaec2f8ca482c11af7c9aae5ca8a15ae6b3be829e96654e1bf62fee608b9a68"
+    },
+    "webp/arched-lace-with-crossed-stars-and-small-petals.webp": {
+      "bytes": 109064,
+      "sha256": "dbb471180e809dbb4b82ac3a39c680c34748504c8caf4ac18033287e19b8a671"
+    },
+    "webp/arched-lace-with-eight-point-stars-and-small-roundels.webp": {
+      "bytes": 110610,
+      "sha256": "6f89ebf51a3cd71261d49e91d340418c60fc31163cf4a7fac67c41d6b58ca158"
+    },
+    "webp/arched-lace-with-four-floral-diamonds.webp": {
+      "bytes": 86304,
+      "sha256": "ea9fc89235e633f101bc749c139e7052f181294ec1d78f9093da80dc3ce5f499"
+    },
+    "webp/arched-lace-with-large-petalled-flower.webp": {
+      "bytes": 102808,
+      "sha256": "6d691f5e681c065b49429af5d9dc43133e5b084c8cbd11a5eabbbb249a4f6c0b"
+    },
+    "webp/arched-lace-with-radiating-spokes-and-pointed-petals.webp": {
+      "bytes": 78460,
+      "sha256": "7ee49803abd4c5d3f4a550c8765337d1c41cfb22d067e4684036139e960e8347"
+    },
+    "webp/bearded-winged-masks-with-curled-leaf-scroll.webp": {
+      "bytes": 514138,
+      "sha256": "03decf42bd6ced1ca01a87b806918b830d166f9c2e37b6f0ab030a9283b223cd"
+    },
+    "webp/cupid-subduing-two-lions-in-acanthus-scroll.webp": {
+      "bytes": 1143138,
+      "sha256": "594bd81bc702bd36639c65fbf11a8d2103f399e4c3a392572987ebc783a8f778"
+    },
+    "webp/dragon-head-scroll-with-long-bearded-mask.webp": {
+      "bytes": 563362,
+      "sha256": "e5fd643450ac3a87152ba8ac2ede087d549b2d4adfa4c2f4053743fad61e69af"
+    },
+    "webp/foliate-face-with-paired-perching-birds.webp": {
+      "bytes": 193454,
+      "sha256": "0f7b5ce48509a0f7e679a02f47dffb3f42e7c0091aeebbe7302cc1f93e8308b4"
+    },
+    "webp/four-season-heads-in-acanthus-frieze.webp": {
+      "bytes": 806982,
+      "sha256": "f6e46060085ea100b98a5ca5a35e954a4611b7b72e859de5a2bfebd55d8883c3"
+    },
+    "webp/garlanded-grotesque-with-birds-musicians-and-central-mask.webp": {
+      "bytes": 2462416,
+      "sha256": "ccfcd2851e62c286b94e73fdbfb8fc74e8cee400e34f5b8fdaeae3d752f48e97"
+    },
+    "webp/grape-and-lobed-leaf-scroll-with-central-tie.webp": {
+      "bytes": 512664,
+      "sha256": "f408971c28dee8003f2e256e376fce030cfa70cbe777b30211ae29db8c4460f0"
+    },
+    "webp/grotesque-architecture-with-bird-canopies-and-framed-scenes.webp": {
+      "bytes": 2366474,
+      "sha256": "b31773a798bc4fe0738502d3f3460527b50b38074720195422e04853e86eecb1"
+    },
+    "webp/grotesque-candelabrum-with-satyrs-griffins-and-music.webp": {
+      "bytes": 2715314,
+      "sha256": "a782e0f7098bbb068b5db05969c1bd056133f18a9a5edced61a0cf558ddc4dc0"
+    },
+    "webp/grotesque-canopy-with-birds-and-suspended-miniature.webp": {
+      "bytes": 151734,
+      "sha256": "9263f26ca2c839f48f7b0fdddaf6026bed20589dc96fa912e02d1e6b08ebe1fd"
+    },
+    "webp/grotesque-vines-with-winged-hybrids-and-figure-canopies.webp": {
+      "bytes": 2659446,
+      "sha256": "796ce71158f0fd1e935c2c2fd051da5584f344e18d56fd95fe60b28ccb60d77e"
+    },
+    "webp/grotesque-with-paired-curled-hybrids-and-framed-scene.webp": {
+      "bytes": 759918,
+      "sha256": "547bc92f12866a882c4279b60ac7110f845e16f47a2c52ae01b508662e4fe08c"
+    },
+    "webp/hanging-rosette-and-bell-finial.webp": {
+      "bytes": 8680,
+      "sha256": "2cbb31e45382d0f7c8cb190fee398e6cbc74b8b10525ef4346f245afba59ef9e"
+    },
+    "webp/horned-dragon-with-flowering-scroll.webp": {
+      "bytes": 531022,
+      "sha256": "59d36a31522b03fada02bb9be04e5cb04d5dd308b9968e98bbdd5787cf720893"
+    },
+    "webp/horned-hybrids-and-bears-in-foliate-cartouche-frame.webp": {
+      "bytes": 1183450,
+      "sha256": "7ea226c31412fc484804de76f49dab9323ecf972a2ba38c21686cf59d85a7799"
+    },
+    "webp/inverted-lattice-floral-triangle.webp": {
+      "bytes": 12864,
+      "sha256": "573c398e860e76aced5e6acb7f02c9b833581135ab4540fe72d1ad91abb9bf59"
+    },
+    "webp/paired-bearded-heads-with-horns-and-flowers.webp": {
+      "bytes": 540116,
+      "sha256": "f73aee2ee41e6110658d727dbeca7d06a89673ef32dff755be6ff677abe4bfca"
+    },
+    "webp/paired-horned-creatures-and-twin-flower-scroll.webp": {
+      "bytes": 584448,
+      "sha256": "895e1fc396a8707cac0496864d4a6d332c9266a4c3cfa0c1bdd3e2267ac63f66"
+    },
+    "webp/paired-human-headed-birds-with-tied-scroll.webp": {
+      "bytes": 571128,
+      "sha256": "75a7c41ba5a36399e7a73782a19e71090438312cfec3856067e9712ee0f28c5b"
+    },
+    "webp/paired-winged-beasts-with-central-face.webp": {
+      "bytes": 498522,
+      "sha256": "1bdd8129cbcc49e17b3d751ec76cdb8ff1955bef030430ebb76a55b6b9d479ed"
+    },
+    "webp/paired-winged-putti-holding-bowl-in-scroll.webp": {
+      "bytes": 495410,
+      "sha256": "06435b34a5ebe695892059b125470971ac196720e761b6b334597f93d04354c8"
+    },
+    "webp/small-lace-roundel-with-eight-point-star.webp": {
+      "bytes": 32118,
+      "sha256": "4bad3e9eb66c9528989227dfe7c202cbb66475c1cca709d9df4ad010f698326e"
+    },
+    "webp/small-triangular-fleur-finial.webp": {
+      "bytes": 3054,
+      "sha256": "74a373dcd15bc5abc2594f5578bcd47c1887776c17efcd82367a3cd54be9d1e5"
+    },
+    "webp/soldier-profile-in-fruiting-dagger-sheath.webp": {
+      "bytes": 1016888,
+      "sha256": "ea8ad3eb8bfee2d77b5938e6c7ec4156d0e63857b25768a0f5e41cf221110cb0"
+    },
+    "webp/sphinxes-and-cornucopias-in-tall-candelabrum.webp": {
+      "bytes": 2295666,
+      "sha256": "944f85cf0e574b511cbf0430ac480f34333fc033c8f04c9cb1c814dc25ab6284"
+    },
+    "webp/square-four-pointed-star-lace-cell.webp": {
+      "bytes": 9266,
+      "sha256": "af05bbb41c3c91a922c937f7f629492058f694841c467f3a6ac7806aaf4835d3"
+    },
+    "webp/square-lace-with-concentric-cross-and-star-corners.webp": {
+      "bytes": 123716,
+      "sha256": "67cc6d6f3c21e3a4b10c7b1ca1c83fa6d2c02616732ca957ecd3b90b42ebde08"
+    },
+    "webp/square-lace-with-radiating-petals-and-triangle-fans.webp": {
+      "bytes": 121546,
+      "sha256": "a02173da647a84243f6d69f36503bd99cadeb26b64c233a7bc2d9c0d9cc6b846"
+    },
+    "webp/square-lace-with-six-looped-petal-medallion.webp": {
+      "bytes": 125078,
+      "sha256": "a1fe5790f71bddced6374efaf5702dce746c54fc16e7834f4a253940bdd5a616"
+    },
+    "webp/square-lace-with-triangle-star-and-small-oval-petals.webp": {
+      "bytes": 141504,
+      "sha256": "941d27eb8b6afbc3e872205c03dd4fc6af91cbb53014a7bee442c6e90f99bdbb"
+    },
+    "webp/suspended-foliate-roundel.webp": {
+      "bytes": 18972,
+      "sha256": "d4abffe247ea90888d1791bf349e068e4f71ba3419187daae963d478b1f5d781"
+    },
+    "webp/tall-canopy-with-framed-figure-and-winged-mask.webp": {
+      "bytes": 647326,
+      "sha256": "4f4640fefd69906c738231433128cf7ddc76b82828a44446853aac83a59d8eeb"
+    },
+    "webp/tall-grotesque-candelabrum-with-paired-satyrs.webp": {
+      "bytes": 1692542,
+      "sha256": "02eda1488e5f18e367777691c195eab3124e19667c48e40c88f9312a05292e80"
+    },
+    "webp/tall-grotesque-with-dragons-and-paired-griffins.webp": {
+      "bytes": 685878,
+      "sha256": "9ff4c3dba95234bc219a69647237f68d193f5c8f8355c7f5af8e1038fa3f014b"
+    },
+    "webp/two-boys-with-connected-acanthus-scroll.webp": {
+      "bytes": 1991890,
+      "sha256": "341220ac417fd013a918f7b311eab20cf40ed7a78f798c8baf2bf13fd24591af"
+    },
+    "webp/two-satyr-couples-on-foliate-candelabrum.webp": {
+      "bytes": 2224818,
+      "sha256": "5acfed8d599e4ef099ea061a7903545749b882d783c93cfa6d29bd15668840ae"
+    },
+    "webp/winged-putto-with-shield-and-braided-scroll.webp": {
+      "bytes": 495804,
+      "sha256": "72c1acdbf7d1d890a732321cc68462ac13181f2b6a0e45fa3c912d7ad7e4ff60"
+    }
+  },
+  "inputs": {
+    "sources/tiles/acanthus-double-medallion-with-two-winged-figures.png": {
+      "bytes": 4312071,
+      "sha256": "fc3950ec864ca3a1d188e2ae7b7249214af37737332f4547e773dcd51254616b"
+    },
+    "sources/tiles/arched-canopy-with-two-hanging-birdcages.png": {
+      "bytes": 848399,
+      "sha256": "17c1388b3206c40455c43944b3d3a0329e83b14b7e368635dc565acd26ab3b28"
+    },
+    "sources/tiles/arched-lace-with-checker-fans-and-square-star.png": {
+      "bytes": 143030,
+      "sha256": "e602ba985b18bdebe23249edbaf55020247bafa4d810f6a1cc75c5790f44678f"
+    },
+    "sources/tiles/arched-lace-with-compass-star-and-dense-small-petals.png": {
+      "bytes": 131111,
+      "sha256": "027bdb0cd412b69f20f06d53536701bfa1879afde4e567022afbdfc43ee5ae85"
+    },
+    "sources/tiles/arched-lace-with-concentric-petal-rosette.png": {
+      "bytes": 136310,
+      "sha256": "ea9fefc7be0ec1c13c27af9f06f3dccc0fdc5325769d81cb544c2c3133b50771"
+    },
+    "sources/tiles/arched-lace-with-crossed-stars-and-small-petals.png": {
+      "bytes": 185799,
+      "sha256": "cc3e1780611b55938c19831ce98ecff7bc263330c03e1b4cee10cb3fbfc17b26"
+    },
+    "sources/tiles/arched-lace-with-eight-point-stars-and-small-roundels.png": {
+      "bytes": 187084,
+      "sha256": "76684a4a35c8f363bd0c8b0aefee97554c648e1fb2dde858a772bb6e6fe038e0"
+    },
+    "sources/tiles/arched-lace-with-four-floral-diamonds.png": {
+      "bytes": 149812,
+      "sha256": "e4bc7b5bb2b2d68a429b1240ad6f480af4ba9c0629466ea867024588457dba42"
+    },
+    "sources/tiles/arched-lace-with-large-petalled-flower.png": {
+      "bytes": 176565,
+      "sha256": "ea88e16f2b983e4448c007a42ad7ed1146fac4352925132e70335bfd34197263"
+    },
+    "sources/tiles/arched-lace-with-radiating-spokes-and-pointed-petals.png": {
+      "bytes": 134230,
+      "sha256": "3fbcb6f326718a89c3e55305f70682513ed00fe5907e28daca60d8a863a4ea62"
+    },
+    "sources/tiles/bearded-winged-masks-with-curled-leaf-scroll.png": {
+      "bytes": 911595,
+      "sha256": "95237117250e3a515b1d3580910a939fd76c1dbf384773faaafb3a3b9c075d3f"
+    },
+    "sources/tiles/cupid-subduing-two-lions-in-acanthus-scroll.png": {
+      "bytes": 1622499,
+      "sha256": "7a3d8e8c0924671d0fea503780d26297f7af0d2c346a0da104eb0178bb3c78fb"
+    },
+    "sources/tiles/dragon-head-scroll-with-long-bearded-mask.png": {
+      "bytes": 1026499,
+      "sha256": "75b2fc8c979d7c0670d60bba555c8e7ffebeca4a27b05216d2509cff275d3f9d"
+    },
+    "sources/tiles/foliate-face-with-paired-perching-birds.png": {
+      "bytes": 313282,
+      "sha256": "dcb98936a9692c1d135ce5a643f1c83bf24965e4cf3fec42d9adb5139fbe8178"
+    },
+    "sources/tiles/four-season-heads-in-acanthus-frieze.png": {
+      "bytes": 1146573,
+      "sha256": "2c8b1977d4d85224b3d8ab1cb6c88df070a34fe5c363671ab659adeeae9ad70f"
+    },
+    "sources/tiles/garlanded-grotesque-with-birds-musicians-and-central-mask.png": {
+      "bytes": 4048625,
+      "sha256": "0e8c4bcf20d4107913bdcf061dd08ed3f0bad37dee9007b6129600a6a71c27d6"
+    },
+    "sources/tiles/grape-and-lobed-leaf-scroll-with-central-tie.png": {
+      "bytes": 906119,
+      "sha256": "6f4307bcda582e91352b91d39e0ac3a4b9fbb7bf7d201ced6b9af15fd71a0284"
+    },
+    "sources/tiles/grotesque-architecture-with-bird-canopies-and-framed-scenes.png": {
+      "bytes": 3737472,
+      "sha256": "85bea402921f94536701a5d5ccd240c208ef6f7cc882acf0547992135f264e66"
+    },
+    "sources/tiles/grotesque-candelabrum-with-satyrs-griffins-and-music.png": {
+      "bytes": 4050431,
+      "sha256": "708631b99931b91f0b526e4bc33278d3040887a2d0ee0214ed73732dc41b9cea"
+    },
+    "sources/tiles/grotesque-canopy-with-birds-and-suspended-miniature.png": {
+      "bytes": 253594,
+      "sha256": "81de1d3d93a41979e6c51264b6d89fc5062e30ec6deae5874837ef894022b68a"
+    },
+    "sources/tiles/grotesque-vines-with-winged-hybrids-and-figure-canopies.png": {
+      "bytes": 4466606,
+      "sha256": "bebdc311313312227b0b4814fca840a5b7fe7349d0213890409f28d6c088af7d"
+    },
+    "sources/tiles/grotesque-with-paired-curled-hybrids-and-framed-scene.png": {
+      "bytes": 1248824,
+      "sha256": "af7b474a46b5a923a8c4d287138fbeb02c03e9b1dee58bfb4b8b2ab58434b763"
+    },
+    "sources/tiles/hanging-rosette-and-bell-finial.png": {
+      "bytes": 15667,
+      "sha256": "094346146eb76d056c9fa498278c2cb43f41158fee6409e3ffa3774556de86f5"
+    },
+    "sources/tiles/horned-dragon-with-flowering-scroll.png": {
+      "bytes": 955862,
+      "sha256": "c3cab8b6cdf25d34325abc43fc587c1e288af6fedd2abd1686a749a603da6c5b"
+    },
+    "sources/tiles/horned-hybrids-and-bears-in-foliate-cartouche-frame.png": {
+      "bytes": 1950935,
+      "sha256": "d9f1e092879720a15703f0abfc6cd0a05710d7a3811c0dd5df5d5babeb054cf2"
+    },
+    "sources/tiles/inverted-lattice-floral-triangle.png": {
+      "bytes": 22381,
+      "sha256": "4e1f3768971113ffb97cef56fdc24642292083950812984150e588fc25b3d723"
+    },
+    "sources/tiles/paired-bearded-heads-with-horns-and-flowers.png": {
+      "bytes": 956500,
+      "sha256": "22e628a0056b868fa67582420e87d14395d15506186cceb753214cae357d9c39"
+    },
+    "sources/tiles/paired-horned-creatures-and-twin-flower-scroll.png": {
+      "bytes": 1034973,
+      "sha256": "373ea68c131ee72501d8a1c4e790441afd2c774fd08fbf756a2677c7a9c2939b"
+    },
+    "sources/tiles/paired-human-headed-birds-with-tied-scroll.png": {
+      "bytes": 1020837,
+      "sha256": "cf36418851960418e400d7734a0c9b77fd22cac431404994c72d35af110ff3cb"
+    },
+    "sources/tiles/paired-winged-beasts-with-central-face.png": {
+      "bytes": 882745,
+      "sha256": "f7293760bbd2962054c10989ea1775f5481d5e8dd802bc004ce0ad424f9d9ee3"
+    },
+    "sources/tiles/paired-winged-putti-holding-bowl-in-scroll.png": {
+      "bytes": 891015,
+      "sha256": "bfa81e86209c829778ef473de2fe9edbdecb1b56c172889c577df5c56d54c4cc"
+    },
+    "sources/tiles/small-lace-roundel-with-eight-point-star.png": {
+      "bytes": 53298,
+      "sha256": "89867a325f6a8336cf80d079ab5e28e51c6e93e64449f61e493c1f50e482469b"
+    },
+    "sources/tiles/small-triangular-fleur-finial.png": {
+      "bytes": 5375,
+      "sha256": "faf8789f8b06e79c169d6599c2f25c2ed66540b6f17616c13a4e1dfd89f41446"
+    },
+    "sources/tiles/soldier-profile-in-fruiting-dagger-sheath.png": {
+      "bytes": 1567051,
+      "sha256": "b7d41e6b2d0a1657366f61ec5f857fb3098bf9ea3860e00e94060c47a2684baf"
+    },
+    "sources/tiles/sphinxes-and-cornucopias-in-tall-candelabrum.png": {
+      "bytes": 3463849,
+      "sha256": "67a2c3665dd986c2a00e12f2105b2897aa218f532751f9ece6a00472f2b03330"
+    },
+    "sources/tiles/square-four-pointed-star-lace-cell.png": {
+      "bytes": 15284,
+      "sha256": "255426dce06d42a381e02356504b3d44fac8dc49ea9a9980d1381f713daee827"
+    },
+    "sources/tiles/square-lace-with-concentric-cross-and-star-corners.png": {
+      "bytes": 201244,
+      "sha256": "3912ecf4295ecd66d8306788ab0510a769b426b6f3e78394fa9d652d69e42aac"
+    },
+    "sources/tiles/square-lace-with-radiating-petals-and-triangle-fans.png": {
+      "bytes": 196434,
+      "sha256": "139cf3ce194d4214a1c6f17864dc979e0e462ed35a5356d2f7c5b88f901ac2ef"
+    },
+    "sources/tiles/square-lace-with-six-looped-petal-medallion.png": {
+      "bytes": 204101,
+      "sha256": "697fff379ea0dc92618fc6945b3db5446e46ac7ff527b67e545063dba4e8d91a"
+    },
+    "sources/tiles/square-lace-with-triangle-star-and-small-oval-petals.png": {
+      "bytes": 229575,
+      "sha256": "984c8d45c0df0f0ca70e67c1bccb57b640803b49f36d7ee9deec130c4b2b2f98"
+    },
+    "sources/tiles/suspended-foliate-roundel.png": {
+      "bytes": 33545,
+      "sha256": "e33a31f28a19349fbed6097278f5e9ab1e80b5b162c285ebfc863cfc6ed5805b"
+    },
+    "sources/tiles/tall-canopy-with-framed-figure-and-winged-mask.png": {
+      "bytes": 1082170,
+      "sha256": "0429a5f4a0a25c5d39fbab24ba8894a35040a91e1d8099bdfc9d86b553e5a919"
+    },
+    "sources/tiles/tall-grotesque-candelabrum-with-paired-satyrs.png": {
+      "bytes": 2887119,
+      "sha256": "f6d25013cd87a6721a8a795ae723fcc785b5564481daf39687ea430071620ac4"
+    },
+    "sources/tiles/tall-grotesque-with-dragons-and-paired-griffins.png": {
+      "bytes": 1133692,
+      "sha256": "1239b7da5442ad6b9f5fce0866afbac5877e41f1388881d4722bd0cdc79d67be"
+    },
+    "sources/tiles/two-boys-with-connected-acanthus-scroll.png": {
+      "bytes": 3113926,
+      "sha256": "1f79821ce0c5f037c04e360a1dcf2e29c143db93c3491e69734570a7ba43cd05"
+    },
+    "sources/tiles/two-satyr-couples-on-foliate-candelabrum.png": {
+      "bytes": 3471875,
+      "sha256": "bea7bbe87517a971b2cdad56e919a059f457f48d346027b725f8a36b8db0b109"
+    },
+    "sources/tiles/winged-putto-with-shield-and-braided-scroll.png": {
+      "bytes": 878887,
+      "sha256": "3eddbc58b2971c8a88d0a643b4bc989245b66f62dca8036d179d84562435d6dc"
+    }
+  }
+}

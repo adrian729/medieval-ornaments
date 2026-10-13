@@ -1,0 +1,115 @@
+{
+  "source_id": "mkg-dc00101707",
+  "assets": [
+    {
+      "id": "mkg-dc00101707--ornate-double-cup-with-two-children",
+      "name": "ornate-double-cup-with-two-children",
+      "source_id": "mkg-dc00101707",
+      "source_folder": "mkg-hamburg",
+      "asset_type": "decoration",
+      "description": "An ornate engraved double cup with two children, masks and curling foliage.",
+      "source_region": [
+        0,
+        0,
+        277,
+        500
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        0,
+        0,
+        264,
+        469
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 264,
+      "height": 469,
+      "png": "mkg-hamburg/mkg-dc00101707--ornate-double-cup-with-two-children.png",
+      "png_sha256": "420286a46813e0f8a6e70b9fb4c34ae09050c98d417ca16632e113eb4afb6e92",
+      "provenance": {
+        "institution": "Museum für Kunst und Gewerbe Hamburg",
+        "title": "Doppelpokal, unten zwei Putti mit Wappenschilden",
+        "object_identifier": "O1919.19",
+        "date": "1531",
+        "artist": "Beham, Hans Sebald",
+        "record_url": "https://www.mkg-hamburg.de/sammlung/objekt/doppelpokal-unten-zwei-putti-wappenschilden/O1919.19/dc00101707",
+        "image_rights": "Public Domain Mark 1.0; object image marked Public Domain",
+        "rights_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "source_file": "tmp/new-assets/mkg-hamburg/mkg-dc00101707--doppelpokal-unten-zwei-putti-mit-wappenschilden.jpg",
+        "source_sha256": "a7107d63eed5b21979e77a271d2e10f87c10816a336eaf2bbadd5a2e51267049",
+        "source_metadata": "tmp/new-assets/mkg-hamburg/mkg-dc00101707.json",
+        "image_url": "https://www.mkg-hamburg.de/object/dc00101707/image-download/0",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: background-extraction. Edit target: the referenced ORIGINAL historic engraving for a museum decorative-art collection. Produce a transparent cutout of this exact existing ornament, with all source proportions and engraved detail preserved. Subject: The entire connected ornate double cup, with both original lower children, all curling foliage, masks, geometric inset panels and original cup rims. Remove only dense background hatch, plate frame and bottom signature lettering. Do not simplify the elaborate little engraved motifs. Remove the dense straight crosshatched BACKGROUND field, page paper, outer plate rules, unrelated signatures, date panels and cartouche lettering. Clear every genuine opening between leaves, limbs, wings, stems and scrolls. Foreground curved hatching, original ink texture, pale illustrated surfaces and every real contour stay intact and opaque. Keep every original finger, toe, curl, narrow connecting line, leaf tooth and motif tip. Keep physically contacting figures and shared props together. Do not invent missing source-truncated ends or extend motifs beyond the original. Do not add shading, symmetry, anatomy, detail or generic replacement foliage. Do not redesign, simplify, beautify, sharpen into modern line art, stretch or compress the original height-to-width ratio. Preserve the exact original long narrow arrangement when present. Use fine antialiased edges without paper halos or stepped polygon cuts. Genuine transparent alpha outside and inside the openings; no white rectangle, checkerboard paint, background hatching or shadow.",
+        "retained_generated_extraction": "tmp/extraction-work/mkg-dc00101707--ornate-double-cup-with-two-children--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "1c4f0fd69f0fb519888832622515989869f739560826d799197358feb2f3655e",
+        "retained_generated_size": [
+          934,
+          1685
+        ],
+        "resolution_cap_scale": 0.2830396475770925,
+        "resolution_capped_size": [
+          264,
+          477
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          257,
+          465
+        ],
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 8
+        },
+        "native_subject_size_evidence": "Conservative source subject bounds within the inspected full plate; five-to-seven-percent outer paper/plate margin excluded from the native subject cap."
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Source/white/dark inspections completed for all contacting ornaments, heraldic crests and finite friezes. Actual opaque engraved surfaces and all genuine openings retained. Original tall proportions, motif tiers, full feather/leaf tips and animals checked. Lettered rings, signatures and background hatch excluded. Native subject caps apply uniformly to both axes; no upscaled source detail or generic SVG.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/mkg-twelve-generated-results-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/mkg-twelve-generated-results-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/mkg-twelve-generated-results-proof-3.jpg"
+        ]
+      },
+      "categories": [
+        "humans",
+        "floral"
+      ],
+      "subjects": [
+        "cup",
+        "child",
+        "mask",
+        "leaf",
+        "scroll"
+      ],
+      "facing": "mixed",
+      "colors": [
+        "black",
+        "brown",
+        "cream"
+      ],
+      "composition": "single-ornament",
+      "usage_notes": "Whole finite source ornament with original contacting figures and shared props retained. No seamless period or new frame corners inferred. AI-assisted extraction is approximate, not a pixel-exact crop; original, exact prompt and native resolution caps retained."
+    }
+  ]
+}

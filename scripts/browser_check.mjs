@@ -20,7 +20,7 @@ const click=selector=>evaluate(`document.querySelector(${JSON.stringify(selector
 async function pick(id,name){await click('#'+id);await until(`!!document.querySelector('dialog.picker[open]')`,'picker '+id);await evaluate(`(()=>{const input=document.querySelector('dialog.picker[open] input[type=search]');Object.getOwnPropertyDescriptor(HTMLInputElement.prototype,'value').set.call(input,${JSON.stringify(name)});input.dispatchEvent(new Event('input',{bubbles:true}))})()`);await until(`!!document.querySelector('dialog.picker[open] [data-design="${name}"]')`,'pick '+name);await click(`dialog.picker[open] [data-design="${name}"]`);await until(`!document.querySelector('dialog.picker[open]')&&document.getElementById('${id}').dataset.value==='${name}'`,'picked '+name)}
 const overflow=()=>evaluate('document.documentElement.scrollWidth>document.documentElement.clientWidth');
 async function screenshot(name){await evaluate('Promise.all([...document.images].filter(i=>i.getBoundingClientRect().top<innerHeight).map(i=>i.decode().catch(()=>{})))');await pause(120);const shot=await send('Page.captureScreenshot',{captureBeyondViewport:false});await writeFile(new URL(`../tmp/browser-${name}.png`,import.meta.url),Buffer.from(shot.data,'base64'))}
-await send('Page.enable');await send('Page.navigate',{url:'about:blank'});await send('Runtime.enable');await send('Network.enable');
+await send('Page.enable');await send('Page.addScriptToEvaluateOnNewDocument',{source:'performance.setResourceTimingBufferSize(12000)'});await send('Page.navigate',{url:'about:blank'});await send('Runtime.enable');await send('Network.enable');
 await send('Network.setCacheDisabled',{cacheDisabled:true});
 await viewport(1200);
 // Ignore Runtime.enable's replay of errors from earlier shared-tab sessions.
@@ -31,15 +31,15 @@ const widths=[320,375,768,1200];
 // ---------- Artwork through the library ----------
 await open('/examples/qa.html?assets=local');
 await evaluate(`window.api=import('/lib/index.js')`);
-for(const item of catalog){
+if(!process.argv.includes('--pages-only')) for(const item of catalog){
   const result=await evaluate(`(async()=>{const api=await window.api,item=${JSON.stringify(item)},base=location.origin+'/',failures=[];
     const load=async url=>{const image=new Image();image.src=url;try{await image.decode()}catch{failures.push({decode:url})}return image};
-    const use=item.kind==='repeat-tile'?'frame':'image';
+    const use=item.kind==='repeat-tile'?(item.components.border_image?'frame':'divider'):'image';
     for(const format of item.svg?['svg','png','webp']:['png','webp']){const r=api.resolveOrnament(use,{design:item.name,format,size:use==='frame'?33:128,assetsBase:base});const image=await load(r.asset.url);if(!image.naturalWidth||!r.asset.url.endsWith('.'+format))failures.push({format,url:r.asset.url})}
     if(use==='image')for(const pixelRatio of [1,1.25,2])for(const format of ['png','webp']){
       const size=Math.max(8,Math.min(256,item.height/pixelRatio)),r=api.resolveOrnament('image',{design:item.name,format,size,pixelRatio,assetsBase:base}),image=await load(r.asset.url);
       if(image.naturalHeight+1<size*pixelRatio||image.naturalWidth+1<size*item.width/item.height*pixelRatio)failures.push({pixelRatio,format,size,natural:[image.naturalWidth,image.naturalHeight]})}
-    if(use==='frame'){
+    if(item.kind==='repeat-tile'){
       // A resized slot adds a whole section only once it fits, on both axes.
       const ratio=item.repeat_ratio,period=33*ratio;
       for(const axis of ['x','y'])for(const count of [1,3])for(const delta of [-.5,0,.5])for(const responsive of [false,true]){const length=count*period+delta,parent=document.createElement('div'),el=document.createElement('div');parent.style.cssText='position:absolute;width:'+length+'px;height:'+length+'px';el.className='ornament-divider';el.dataset.axis=axis;el.style.cssText='--ornament-size:33px;--ornament-ratio:'+ratio+';--ornament-length:'+(responsive?'100%':length+'px');parent.append(el);document.body.append(parent);const box=el.getBoundingClientRect(),style=getComputedStyle(el,'::before'),available=box[axis==='x'?'width':'height'],used=parseFloat(style[axis==='x'?'width':'height']),inset=parseFloat(style[axis==='x'?'left':'top'])+new DOMMatrix(style.transform)[axis==='x'?'m41':'m42'],expected=Math.floor((available+1e-7)/period)*period;const conservative=Math.abs(available-expected)<.025&&Math.abs(used-(expected-period))<.025;if((Math.abs(used-expected)>.025&&!conservative)||Math.abs(inset-(available-used)/2)>.025)failures.push({fit:{axis,length,available,used,expected,inset,responsive}});parent.remove()}
@@ -150,13 +150,22 @@ await click('#toggle');assert(await evaluate(`getComputedStyle(document.getEleme
 for(const width of widths){await viewport(width);assert(!(await overflow()),'Plain JavaScript overflow '+width);checks++}
 await viewport(375);await screenshot('vanilla-mobile');await viewport(1200);
 
+// Finished patterns without approved corners stay usable as dividers.
+await pick('design','white-curling-vine-on-blue-repeat');
+assert(await evaluate(`document.getElementById('toggle').disabled&&getComputedStyle(document.getElementById('frame')).borderImageSource==='none'&&!document.querySelector('#borderCode pre').textContent.includes('createFrame')`),'Divider-only vanilla capability');checks++;
+await open('/examples/index.html?assets=local&design=gold-s-shaped-leaf-on-red-repeat');
+await until(`document.getElementById('detailDivider').dataset.url?.includes('gold-s-shaped-leaf-on-red-repeat')`,'Divider-only gallery preview');
+assert(await evaluate(`document.querySelector('#modeTabs [data-value="frame"]').hidden`),'Unsupported frame tab hidden');checks++;
+await open('/examples/index.html?assets=local&design=seriphium-absinthium');
+assert(await evaluate(`document.getElementById('detail').textContent.includes('Sets')`),'Related set names in gallery');checks++;
+
 // ---------- Internal artwork review page ----------
 await viewport(1200,1,1500);
 await open('/examples/review.html?assets=local');
 for(const format of ['webp','svg']){
   await choose('format',format);
   const result=await evaluate(`(async()=>{for(const card of document.querySelectorAll('.card')){card.scrollIntoView({block:'center'});await new Promise(resolve=>setTimeout(resolve,60));await Promise.all([...card.querySelectorAll('img')].map(i=>i.decode()));for(const el of card.querySelectorAll('.ornament-frame')){const image=new Image();image.src=JSON.parse(getComputedStyle(el).borderImageSource.slice(4,-1));await image.decode()}}return {cards:document.querySelectorAll('.card').length,frames:document.querySelectorAll('.ornament-frame').length}})()`);
-  assert(result.cards===catalog.length&&result.frames===catalog.filter(i=>i.kind==='repeat-tile').length,'Artwork review coverage/loads');checks++;
+  assert(result.cards===catalog.length&&result.frames===catalog.filter(i=>i.components.border_image).length,'Artwork review coverage/loads');checks++;
 }
 await choose('collection','plate');assert(await evaluate("document.querySelectorAll('.card').length===38"),'Plate review filtering');checks++;
 await choose('collection','floral');assert(await evaluate("document.querySelectorAll('.card').length===6"),'Floral review filtering');checks++;
@@ -175,5 +184,5 @@ for(const path of ['index.html','examples/index.html','examples/demo.html','exam
   assert(['image/svg+xml','image/png','image/x-icon'].every(type=>result.includes(type)),'Missing favicon links '+path);checks++;
 }
 assert(errors.length===0,'Browser errors '+JSON.stringify(errors));
-await writeFile(new URL('../tmp/browser-verification.json',import.meta.url),JSON.stringify({checks,designs:catalog.length,viewportWidths:widths,errors},null,2));
-console.log(`PASS ${checks} browser checks: artwork for all ${catalog.length} designs and formats through the library, gallery, overview and plain-JavaScript pages at four widths, the review page and tab icons.`);ws.close();
+await writeFile(new URL('../tmp/browser-verification.json',import.meta.url),JSON.stringify({checks,designs:catalog.length,artworkChecked:!process.argv.includes('--pages-only'),viewportWidths:widths,errors},null,2));
+console.log(`PASS ${checks} browser checks: ${process.argv.includes('--pages-only')?'pages-only pass':`artwork for all ${catalog.length} designs and formats through the library`}, gallery, overview and plain-JavaScript pages at four widths, the review page and tab icons.`);ws.close();

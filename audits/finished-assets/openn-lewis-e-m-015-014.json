@@ -1,0 +1,136 @@
+{
+  "source_id": "openn-lewis-e-m-015-014",
+  "assets": [
+    {
+      "id": "openn-lewis-e-m-015-014--michael-and-angels-battling-winged-demons",
+      "name": "michael-and-angels-battling-winged-demons",
+      "source_id": "openn-lewis-e-m-015-014",
+      "source_folder": "openn-free-library",
+      "asset_type": "illustration",
+      "description": "Armored winged Michael and assisting angels fighting winged demons, with shared swords and shield.",
+      "source_region": [
+        118,
+        108,
+        1709,
+        2795
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        0,
+        0,
+        965,
+        1606
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 965,
+      "height": 1606,
+      "png": "openn-free-library/openn-lewis-e-m-015-014--michael-and-angels-battling-winged-demons.png",
+      "png_sha256": "f079efe24b5f3832b7e5121c4a7eef4c02d621c010407413ae54a0cf8e6e0ed0",
+      "provenance": {
+        "institution": "Free Library of Philadelphia, John Frederick Lewis Collection",
+        "title": "Miniature depicting Michael the Archangel fighting the dragon with his angels",
+        "object_identifier": "Lewis E M 15:14 Miniature depicting Michael the Archangel fighting the dragon with his angels",
+        "date": "(France, 1500-1525)",
+        "record_url": "https://openn.library.upenn.edu/Data/0023/html/lewis_e_m_015_014.html",
+        "image_rights": "Public Domain Mark 1.0; item record explicitly places images in public domain",
+        "rights_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "source_file": "tmp/new-assets/openn-free-library/openn-lewis-e-m-015-014--miniature-depicting-michael-the-archangel-fighting-the-dragon-with-his-angels--master.tif",
+        "source_sha256": "dc349fcfe99eb31780d4c2e52269108de7e392d53540d280c8ead993ed38ec05",
+        "source_metadata": "tmp/new-assets/openn-free-library/openn-lewis-e-m-015-014.json",
+        "image_url": "https://openn.library.upenn.edu/Data/0023/lewis_e_m_015_014/data/master/7600_0000.tif",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. Retain the complete physically interacting original combat group: the central armored green-winged Michael with full raised sword, halo, shield and both armored legs; the white/red and white/orange assisting angels with their contacting hands and weapons; the demons contacting the shield, Michael, one another and the large lower winged beast. Keep every ORIGINAL source-visible extremity, including the upper sword and original partial edge figures. Clear the blue painted sky and the pale lower ground around and within real openings. Exclude the rectangular miniature border and all lower landscape, trees and flames. The contacting combat figures and props must remain a single group. Do not reconstruct cropped angels or hidden limbs. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_extraction": "tmp/extraction-work/openn-lewis-e-m-015-014--michael-and-angels-battling-winged-demons--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "6a8e93119f50942e899a46b79612c5d96a7a2c8fb6217d735dcc8b5c2b6522af",
+        "retained_generated_size": [
+          965,
+          1630
+        ],
+        "resolution_cap_scale": 1,
+        "resolution_capped_size": [
+          965,
+          1630
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          1564,
+          2560
+        ],
+        "native_subject_size_evidence": {
+          "method": "Individually inspected native visible subject bounds, excluding input-region whitespace and neighbours.",
+          "preview_subject_bounds": [
+            66,
+            61,
+            851,
+            1346
+          ],
+          "preview_size": [
+            1239,
+            1600
+          ],
+          "original_size": [
+            2468,
+            3188
+          ]
+        },
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 34013
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Viewed each original ROI and final white/dark proof. Complete selected stems, faces, wings, leaves and contacts retained; paper/gold/sky and glyph-only strokes excluded. Native subject caps and exact prompts retained; AI approximation is disclosed.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/openn-margin-first-ready-results-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/openn-margin-first-ready-results-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/openn-margin-first-ready-results-proof-3.jpg"
+        ]
+      },
+      "categories": [
+        "humans",
+        "animals",
+        "fantasy"
+      ],
+      "subjects": [
+        "michael",
+        "angel",
+        "demon",
+        "combat",
+        "sword",
+        "shield",
+        "wing"
+      ],
+      "colors": [
+        "gold",
+        "red",
+        "blue",
+        "green",
+        "white",
+        "brown"
+      ],
+      "facing": "mixed",
+      "composition": "multiple-figures",
+      "usage_notes": "Original independent specimen with printed plate rules and page removed. AI-assisted extraction remains approximate; source bounds, actual native subject cap, original and exact prompt retained."
+    }
+  ]
+}

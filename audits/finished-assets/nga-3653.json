@@ -1,0 +1,122 @@
+{
+  "source_id": "nga-3653",
+  "assets": [
+    {
+      "id": "nga-3653--war-candelabrum-with-dragons-masks-and-weapons",
+      "name": "war-candelabrum-with-dragons-masks-and-weapons",
+      "source_id": "nga-3653",
+      "source_folder": "national-gallery-of-art",
+      "asset_type": "decoration",
+      "description": "A tall connected grotesque candelabrum with paired dragons, masks, helmets, shields and war instruments.",
+      "source_region": [
+        0,
+        0,
+        1867,
+        4096
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        6,
+        2,
+        839,
+        1843
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 833,
+      "height": 1841,
+      "png": "national-gallery-of-art/nga-3653--war-candelabrum-with-dragons-masks-and-weapons.png",
+      "png_sha256": "1e34572eca3330d529b973189f6a30e3773656cf30656bbc2bd748f7aa25f9b3",
+      "provenance": {
+        "institution": "National Gallery of Art, Washington",
+        "title": "Ornament Panel with Dragons, Masks, and Instruments of War",
+        "object_identifier": "1943.3.441",
+        "date": "c. 1505",
+        "artist": "Zoan Andrea",
+        "record_url": "https://www.nga.gov/collection/art-object-page.3653.html",
+        "image_rights": "Open Access / public domain; official image dataset openaccess=1",
+        "rights_url": "https://www.nga.gov/artworks/free-images-and-open-access",
+        "source_file": "tmp/new-assets/national-gallery-of-art/nga-3653--ornament-panel-with-dragons-masks-and-instruments-of-war.jpg",
+        "source_sha256": "aca0721ebc9e2836450f6882127231f9c2c9110ecd392c17b5b1a35d3b6e2047",
+        "source_metadata": "tmp/new-assets/national-gallery-of-art/nga-3653.json",
+        "image_url": null,
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: faithful background extraction and correction. The FIRST reference is the ORIGINAL historic war-themed engraving; the SECOND is a previous transparent extraction needing correction. Match the ORIGINAL engraving. The pale narrow conical fluted shaft at the TOP CENTER, from the cropped top plate edge down to the upper flared bowl, is foreground ornament and MUST stay present and opaque with its original oblique engraved hatching. It was wrongly removed in reference two: restore it exactly as seen in reference one. The tiny face at the bottom is cut off by the ORIGINAL lower source edge: preserve this original clipped edge; do not invent a complete chin or complete missing parts. Keep the full rest of this original tall candelabrum: its paired upper curled heads, central bowl and pillar, crossed weapons, helmets and shields, paired bearded dragons sharing the basket bowl, lower scroll monsters and all connecting stems. Foreground pale surfaces and original curved hatching are opaque. Only the dense straight crosshatched field and page outside the artwork and in genuine holes become transparent. Remove cartouche lettering but keep cartouche shapes. No new symmetry, new anatomy, new horns, generic foliage, redrawn detail, sharpening, stretching or compression. Preserve the ORIGINAL silhouette, every leaf tooth, fine tip, thin weapon shaft and cropped terminal edges. Fine natural antialiasing, no halo or polygon steps. Transparent exterior and holes, no background rectangle.",
+        "retained_generated_extraction": "tmp/extraction-work/nga-3653--war-candelabrum-with-dragons-masks-and-weapons--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "b54c7d5b59f285292204444d4a91ba7e3a2906b50ac7b8417a63720c668901c1",
+        "retained_generated_size": [
+          847,
+          1857
+        ],
+        "resolution_cap_scale": 1,
+        "resolution_capped_size": [
+          847,
+          1857
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          1867,
+          4096
+        ],
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 38611
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "approval_scope": "Full source and native upper/lower detail comparison; provisional for maintainer review.",
+        "checks": [
+          "restored-original-pale-upper-cone",
+          "original-figures-and-connected-war-props",
+          "original-proportions",
+          "transparent-background-and-holes",
+          "opaque-foreground-surfaces",
+          "white-and-dark-backgrounds",
+          "native-resolution-cap"
+        ],
+        "notes": "Corrected the pale upper engraved cone mistakenly removed in the first attempt. Full lower source comparison confirms the original small face is visible beneath the crossbar; the revised extraction retains it and the contacting scaled scroll creatures. The retained original documents all original plate-edge truncation and AI approximation.",
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/met-flowers-and-war-generated-results-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/war-bottom-original.png",
+          "tmp/extraction-work/continuation-20261010/war-bottom-corrected.png"
+        ],
+        "prior_attempt": {
+          "status": "rejected",
+          "metadata": "tmp/extraction-work/continuation-20261010/nga-3653--war-candelabrum-with-dragons-masks-and-weapons--first-extraction.json",
+          "reason": "Pale upper cone missing; lower edge required original comparison."
+        }
+      },
+      "categories": [
+        "floral",
+        "fantasy"
+      ],
+      "subjects": [
+        "dragon",
+        "mask",
+        "helmet",
+        "shield",
+        "weapon",
+        "candelabrum",
+        "scroll"
+      ],
+      "facing": "mixed",
+      "colors": [
+        "black",
+        "brown",
+        "cream"
+      ],
+      "composition": "single-ornament",
+      "usage_notes": "Whole finite source ornament with original contacting figures and shared props retained. No seamless period or new frame corners inferred. AI-assisted extraction is approximate, not a pixel-exact crop; original, exact prompt and native resolution caps retained."
+    }
+  ]
+}

@@ -1,0 +1,817 @@
+{
+  "source_id": "walters-w7-15v",
+  "assets": [
+    {
+      "id": "walters-w7-15v--fixed-twisted-column-arcade-with-scalloped-arch",
+      "name": "fixed-twisted-column-arcade-with-scalloped-arch",
+      "source_id": "walters-w7-15v",
+      "source_folder": "walters",
+      "asset_type": "decoration",
+      "description": "Original fixed manuscript arcade with paired twisted red columns, green capitals, gold lintel and scalloped red-and-gold semicircular arch. Part of the Walters W.7 Matthew portrait ornaments set.",
+      "source_region": [
+        3992,
+        1463,
+        8242,
+        7430
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        132,
+        62,
+        4095,
+        5918
+      ],
+      "export_crop_coordinate_space": "original-native-source-region",
+      "width": 3963,
+      "height": 5856,
+      "png": "walters/walters-w7-15v--fixed-twisted-column-arcade-with-scalloped-arch.png",
+      "png_sha256": "b4b2f42823ef0313b5777440f993c7435ab9eda3200520bc6ac7f52f9efd455b",
+      "provenance": {
+        "institution": "Walters Art Museum",
+        "title": "Portrait of the Evangelist Matthew",
+        "object_identifier": "W.7, fol. 15v",
+        "date": "Middle of the 11th century CE",
+        "record_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/html/W7/description.html",
+        "image_rights": "CC0 (Digital Walters manuscript images)",
+        "rights_url": "https://www.thedigitalwalters.org/01_ACCESS_WALTERS_MANUSCRIPTS.html",
+        "source_file": "tmp/new-assets/walters/walters-w7-15v--portrait-of-the-evangelist-matthew--master.tif",
+        "source_sha256": "cca95ef468d7a30acc6fc7fd7e301ff1a0819425f6c4c652f3baad6b977004ad",
+        "source_metadata": "tmp/new-assets/walters/walters-w7-15v.json",
+        "image_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/W7/data/W.7/master/W7_000034_1022.tif",
+        "method": "native-source-continuous-edge-matting"
+      },
+      "extraction": {
+        "candidate_png": "tmp/extraction-work/continuation-20261010/walters-w7-15v--fixed-twisted-column-arcade-with-scalloped-arch--refined-original-native-candidate.png",
+        "native_export_crop": [
+          132,
+          62,
+          4095,
+          5918
+        ],
+        "export_crop_coordinate_space": "original-native-source-region",
+        "annotation_json": "tmp/extraction-work/continuation-20261010/walters-w7-15v--fixed-twisted-column-arcade-with-scalloped-arch--refined-original-native-audit.json",
+        "trimap_png": "tmp/extraction-work/continuation-20261010/walters-w7-15v--fixed-twisted-column-arcade-with-scalloped-arch--refined-original-native-trimap.png",
+        "native_source_size": [
+          4250,
+          5967
+        ],
+        "native_upscaling": false,
+        "source_pixels_redrawn": false,
+        "original_opaque_rgb_preserved": true,
+        "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+        "alpha_guide": {
+          "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+          "guide_png": "tmp/extraction-work/continuation-20261010/walters-w7-15v--fixed-twisted-column-arcade-with-scalloped-arch--native-alpha-reference.png",
+          "guide_sha256": "8515595815c020e2ce49c4294842db4059bc5027fbc301edb71cf19d50dd1fa8",
+          "native_original": "tmp/extraction-work/continuation-20261010/walters-w7-15v--fixed-twisted-column-arcade-with-scalloped-arch--original.png",
+          "similarity_ai_alpha_to_original": [
+            [
+              4.006484114123127,
+              -0.019034183240761192,
+              6.404550694282626
+            ],
+            [
+              0.019034183240761192,
+              4.006484114123127,
+              -1.4870736225011738
+            ]
+          ],
+          "matching_feature_pairs": 308,
+          "inlier_feature_pairs": 132,
+          "inlier_rms_native_pixels": 6.935881348245133,
+          "source_inspection_factor": 0.30165912518853694,
+          "unknown_edge_band_native_pixels": 6,
+          "edge_solve_tile_size": 640,
+          "edge_solve_halo": 32,
+          "edge_solve_tiles": 40,
+          "original_opaque_rgb_preserved": true
+        },
+        "status": "awaiting-original-white-dark-review",
+        "native_refinement": {
+          "method": "Final background-only cleanup removes the lower surrounding gilt field and green floor while filling enclosed pigment-classification holes <=10000 native pixels within the solid blue-gray folds and collars. Thus pale original paint stays opaque. The separately reviewed angel alpha is mapped in original full-source coordinates to exclude the small original wing/halo intrusion at the arch apex; source-visible gold remains, with no hidden band reconstruction. Original RGB and geometry remain native; continuous three-pixel outer alpha.",
+          "source": "tmp/extraction-work/continuation-20261010/walters-w7-15v--fixed-twisted-column-arcade-with-scalloped-arch--original.png",
+          "previous_native_matte": {
+            "candidate_png": "tmp/extraction-work/continuation-20261010/walters-w7-15v--fixed-twisted-column-arcade-with-scalloped-arch--refined-original-native-candidate.png",
+            "native_export_crop": [
+              118,
+              61,
+              4096,
+              5921
+            ],
+            "export_crop_coordinate_space": "original-native-source-region",
+            "annotation_json": "tmp/extraction-work/continuation-20261010/walters-w7-15v--fixed-twisted-column-arcade-with-scalloped-arch--refined-original-native-audit.json",
+            "trimap_png": "tmp/extraction-work/continuation-20261010/walters-w7-15v--fixed-twisted-column-arcade-with-scalloped-arch--refined-original-native-trimap.png",
+            "native_source_size": [
+              4250,
+              5967
+            ],
+            "native_upscaling": false,
+            "source_pixels_redrawn": false,
+            "original_opaque_rgb_preserved": true,
+            "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+            "alpha_guide": {
+              "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+              "guide_png": "tmp/extraction-work/continuation-20261010/walters-w7-15v--fixed-twisted-column-arcade-with-scalloped-arch--native-alpha-reference.png",
+              "guide_sha256": "8515595815c020e2ce49c4294842db4059bc5027fbc301edb71cf19d50dd1fa8",
+              "native_original": "tmp/extraction-work/continuation-20261010/walters-w7-15v--fixed-twisted-column-arcade-with-scalloped-arch--original.png",
+              "similarity_ai_alpha_to_original": [
+                [
+                  4.006484114123127,
+                  -0.019034183240761192,
+                  6.404550694282626
+                ],
+                [
+                  0.019034183240761192,
+                  4.006484114123127,
+                  -1.4870736225011738
+                ]
+              ],
+              "matching_feature_pairs": 308,
+              "inlier_feature_pairs": 132,
+              "inlier_rms_native_pixels": 6.935881348245133,
+              "source_inspection_factor": 0.30165912518853694,
+              "unknown_edge_band_native_pixels": 6,
+              "edge_solve_tile_size": 640,
+              "edge_solve_halo": 32,
+              "edge_solve_tiles": 40,
+              "original_opaque_rgb_preserved": true
+            },
+            "status": "awaiting-original-white-dark-review",
+            "native_refinement": {
+              "method": "All original blue-gray capital, collar and spiral-fold surfaces are explicitly opaque. Small enclosed ownership holes up to 8000 native pixels in these solid painted members are filled; the large arch opening and open bottom remain transparent. Source-visible green floor is excluded only in the last 650 rows with G-R>14,G-B>25; the gold field exclusion below row 1750 is restricted to the ten-pixel ownership perimeter. Four-pixel interior paint is fixed foreground so edge colour inference cannot eat pale painted surfaces. Original native RGB and geometry are retained, with only continuous outer-edge alpha.",
+              "source": "tmp/extraction-work/continuation-20261010/walters-w7-15v--fixed-twisted-column-arcade-with-scalloped-arch--original.png",
+              "previous_native_matte": {
+                "candidate_png": "tmp/extraction-work/continuation-20261010/walters-w7-15v--fixed-twisted-column-arcade-with-scalloped-arch--refined-original-native-candidate.png",
+                "native_export_crop": [
+                  132,
+                  61,
+                  4096,
+                  5918
+                ],
+                "export_crop_coordinate_space": "original-native-source-region",
+                "annotation_json": "tmp/extraction-work/continuation-20261010/walters-w7-15v--fixed-twisted-column-arcade-with-scalloped-arch--refined-original-native-audit.json",
+                "trimap_png": "tmp/extraction-work/continuation-20261010/walters-w7-15v--fixed-twisted-column-arcade-with-scalloped-arch--refined-original-native-trimap.png",
+                "native_source_size": [
+                  4250,
+                  5967
+                ],
+                "native_upscaling": false,
+                "source_pixels_redrawn": false,
+                "original_opaque_rgb_preserved": true,
+                "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+                "alpha_guide": {
+                  "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+                  "guide_png": "tmp/extraction-work/continuation-20261010/walters-w7-15v--fixed-twisted-column-arcade-with-scalloped-arch--native-alpha-reference.png",
+                  "guide_sha256": "8515595815c020e2ce49c4294842db4059bc5027fbc301edb71cf19d50dd1fa8",
+                  "native_original": "tmp/extraction-work/continuation-20261010/walters-w7-15v--fixed-twisted-column-arcade-with-scalloped-arch--original.png",
+                  "similarity_ai_alpha_to_original": [
+                    [
+                      4.006484114123127,
+                      -0.019034183240761192,
+                      6.404550694282626
+                    ],
+                    [
+                      0.019034183240761192,
+                      4.006484114123127,
+                      -1.4870736225011738
+                    ]
+                  ],
+                  "matching_feature_pairs": 308,
+                  "inlier_feature_pairs": 132,
+                  "inlier_rms_native_pixels": 6.935881348245133,
+                  "source_inspection_factor": 0.30165912518853694,
+                  "unknown_edge_band_native_pixels": 6,
+                  "edge_solve_tile_size": 640,
+                  "edge_solve_halo": 32,
+                  "edge_solve_tiles": 40,
+                  "original_opaque_rgb_preserved": true
+                },
+                "status": "awaiting-original-white-dark-review",
+                "native_refinement": {
+                  "method": "The original registered ownership is restored, including every opaque blue-gray capital, collar and twisted-column fold. Only the genuinely green lower floor (G-R>14,G-B>16 in the last 650 rows) and surrounding gold field below row 1750 (G-B>32, -3<R-G<32) are excluded. Blue-gray paint is explicitly outside both exclusions. The upper gold lintel and inner gilt arch remain whole. Source RGB is unchanged; continuous four-native-pixel native edge matting.",
+                  "source": "tmp/extraction-work/continuation-20261010/walters-w7-15v--fixed-twisted-column-arcade-with-scalloped-arch--original.png",
+                  "previous_native_matte": {
+                    "candidate_png": "tmp/extraction-work/continuation-20261010/walters-w7-15v--fixed-twisted-column-arcade-with-scalloped-arch--refined-original-native-candidate.png",
+                    "native_export_crop": [
+                      118,
+                      61,
+                      4096,
+                      5923
+                    ],
+                    "export_crop_coordinate_space": "original-native-source-region",
+                    "annotation_json": "tmp/extraction-work/continuation-20261010/walters-w7-15v--fixed-twisted-column-arcade-with-scalloped-arch--refined-original-native-audit.json",
+                    "trimap_png": "tmp/extraction-work/continuation-20261010/walters-w7-15v--fixed-twisted-column-arcade-with-scalloped-arch--refined-original-native-trimap.png",
+                    "native_source_size": [
+                      4250,
+                      5967
+                    ],
+                    "native_upscaling": false,
+                    "source_pixels_redrawn": false,
+                    "original_opaque_rgb_preserved": true,
+                    "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+                    "alpha_guide": {
+                      "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+                      "guide_png": "tmp/extraction-work/continuation-20261010/walters-w7-15v--fixed-twisted-column-arcade-with-scalloped-arch--native-alpha-reference.png",
+                      "guide_sha256": "8515595815c020e2ce49c4294842db4059bc5027fbc301edb71cf19d50dd1fa8",
+                      "native_original": "tmp/extraction-work/continuation-20261010/walters-w7-15v--fixed-twisted-column-arcade-with-scalloped-arch--original.png",
+                      "similarity_ai_alpha_to_original": [
+                        [
+                          4.006484114123127,
+                          -0.019034183240761192,
+                          6.404550694282626
+                        ],
+                        [
+                          0.019034183240761192,
+                          4.006484114123127,
+                          -1.4870736225011738
+                        ]
+                      ],
+                      "matching_feature_pairs": 308,
+                      "inlier_feature_pairs": 132,
+                      "inlier_rms_native_pixels": 6.935881348245133,
+                      "source_inspection_factor": 0.30165912518853694,
+                      "unknown_edge_band_native_pixels": 6,
+                      "edge_solve_tile_size": 640,
+                      "edge_solve_halo": 32,
+                      "edge_solve_tiles": 40,
+                      "original_opaque_rgb_preserved": true
+                    },
+                    "status": "awaiting-original-white-dark-review",
+                    "native_refinement": {
+                      "method": "Original columned arch: native review excludes the unrelated green floor remnant beside the lower right column base. This colour test is confined to the final 650 source-region rows; the actual green capitals higher above, blue base collars, orange/red bases and original dark outlines stay opaque. Architecture retains native original proportions/perspective and original RGB, genuine open interior and top sky transparent.",
+                      "source": "tmp/extraction-work/continuation-20261010/walters-w7-15v--fixed-twisted-column-arcade-with-scalloped-arch--original.png",
+                      "previous_native_matte": {
+                        "candidate_png": "tmp/extraction-work/continuation-20261010/walters-w7-15v--fixed-twisted-column-arcade-with-scalloped-arch--registered-native-candidate.png",
+                        "native_export_crop": [
+                          117,
+                          62,
+                          4094,
+                          5921
+                        ],
+                        "export_crop_coordinate_space": "original-native-source-region",
+                        "annotation_json": "tmp/extraction-work/continuation-20261010/walters-w7-15v--fixed-twisted-column-arcade-with-scalloped-arch--registered-native-annotation.json",
+                        "trimap_png": "tmp/extraction-work/continuation-20261010/walters-w7-15v--fixed-twisted-column-arcade-with-scalloped-arch--registered-native-trimap.png",
+                        "native_source_size": [
+                          4250,
+                          5967
+                        ],
+                        "native_upscaling": false,
+                        "source_pixels_redrawn": false,
+                        "original_opaque_rgb_preserved": true,
+                        "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+                        "alpha_guide": {
+                          "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+                          "guide_png": "tmp/extraction-work/continuation-20261010/walters-w7-15v--fixed-twisted-column-arcade-with-scalloped-arch--native-alpha-reference.png",
+                          "guide_sha256": "8515595815c020e2ce49c4294842db4059bc5027fbc301edb71cf19d50dd1fa8",
+                          "native_original": "tmp/extraction-work/continuation-20261010/walters-w7-15v--fixed-twisted-column-arcade-with-scalloped-arch--original.png",
+                          "similarity_ai_alpha_to_original": [
+                            [
+                              4.006484114123127,
+                              -0.019034183240761192,
+                              6.404550694282626
+                            ],
+                            [
+                              0.019034183240761192,
+                              4.006484114123127,
+                              -1.4870736225011738
+                            ]
+                          ],
+                          "matching_feature_pairs": 308,
+                          "inlier_feature_pairs": 132,
+                          "inlier_rms_native_pixels": 6.935881348245133,
+                          "source_inspection_factor": 0.30165912518853694,
+                          "unknown_edge_band_native_pixels": 6,
+                          "edge_solve_tile_size": 640,
+                          "edge_solve_halo": 32,
+                          "edge_solve_tiles": 40,
+                          "original_opaque_rgb_preserved": true
+                        },
+                        "status": "awaiting-original-white-dark-review"
+                      },
+                      "unknown_band_native_pixels": 4,
+                      "source_rgb_redrawn": false,
+                      "source_resized": false,
+                      "original_opaque_rgb_preserved": true,
+                      "ownership": "tmp/extraction-work/continuation-20261010/walters-w7-15v--fixed-twisted-column-arcade-with-scalloped-arch--refined-original-native-ownership.png",
+                      "ownership_sha256": "da6f7179242fa8bb5e14fffc6366978763c7a64ed50798ef13daaa53edd322b9",
+                      "unowned_lower_floor_exclusion": "last 650 native rows, G-R>10,G-B>-6,R<180,G>70"
+                    }
+                  },
+                  "unknown_band_native_pixels": 4,
+                  "source_rgb_redrawn": false,
+                  "source_resized": false,
+                  "original_opaque_rgb_preserved": true,
+                  "ownership": "tmp/extraction-work/continuation-20261010/walters-w7-15v--fixed-twisted-column-arcade-with-scalloped-arch--refined-original-native-ownership.png",
+                  "ownership_sha256": "3514ef1524b019fb2eddd60b8fa63f579f5dd0e92b25a3cc209f5f80836b627e",
+                  "green_floor_exclusion_pixels": 1152086,
+                  "lower_external_gilt_field_exclusion_pixels": 6454831,
+                  "restored_original_registration": "tmp/extraction-work/continuation-20261010/walters-w7-15v--fixed-twisted-column-arcade-with-scalloped-arch--registered-native-candidate.png"
+                }
+              },
+              "unknown_band_native_pixels": 4,
+              "source_rgb_redrawn": false,
+              "source_resized": false,
+              "original_opaque_rgb_preserved": true,
+              "ownership": "tmp/extraction-work/continuation-20261010/walters-w7-15v--fixed-twisted-column-arcade-with-scalloped-arch--refined-original-native-ownership.png",
+              "ownership_sha256": "603bdbceb5d2bac56ce612d9818c9abe72307a509a576ebf8ec3780ff1541fd4",
+              "painted_hole_max_pixels": 8000,
+              "source_opaque_interior_min_distance": 4
+            }
+          },
+          "unknown_band_native_pixels": 3,
+          "source_rgb_redrawn": false,
+          "source_resized": false,
+          "original_opaque_rgb_preserved": true,
+          "ownership": "tmp/extraction-work/continuation-20261010/walters-w7-15v--fixed-twisted-column-arcade-with-scalloped-arch--refined-original-native-ownership.png",
+          "ownership_sha256": "a99cb7d47c4fde551e45d0149df4ddd25f2e0d5f59affd75e0061669158d9736",
+          "solid_paint_hole_max_pixels": 10000,
+          "excluded_angel_identity": "walters-w7-15v--winged-haloed-angel-holding-closed-book",
+          "angel_native_offset_in_arch": [
+            1605,
+            333
+          ]
+        },
+        "tool": "Original native scan / closed-form edge alpha and foreground decontamination",
+        "pixel_exact": false,
+        "ownership_guide_prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. ONLY the original contacting architecture: the complete scalloped burgundy-and-gold semicircular arch, gold horizontal lintel, both twisted red columns, green/blue capitals and complete original column bases. Remove the angel, central seated writer, both sky fields, all empty flat gold field, all flat burgundy rectangle around the actual architecture, the green floor between column bases and the thin external rectangular gold painting outline. Keep original relative positions and source perspective. The arcade is open at bottom; do not fabricate a bottom connector or pillars. All real openings become transparent. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_ownership_guide": {
+          "file": "tmp/extraction-work/walters-w7-15v--fixed-twisted-column-arcade-with-scalloped-arch--retained-ai-extraction.png",
+          "sha256": "8515595815c020e2ce49c4294842db4059bc5027fbc301edb71cf19d50dd1fa8",
+          "purpose": "Retained AI alpha guide only; delivered opaque RGB belongs to the unchanged native source."
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Complete original architecture reviewed with unchanged source and whole white/dark comparisons, then actual-native capitals/bases and arch apex. Blue-gray pale paint is opaque, all source-visible column folds and collars retained. Exterior burgundy/gilt/green page fields and separately retained figures removed; the real source occlusion at the angel wing remains a small notch in the inner gold band. Native proportions and original unequal bases preserved; no generic corner, repeat or hidden gold repair.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/w7-arcade-current-final-native-review-current-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/w7-arcade-final-source-visible-native-proof.png"
+        ]
+      },
+      "categories": [
+        "geometric"
+      ],
+      "subjects": [
+        "column",
+        "arch",
+        "capital"
+      ],
+      "colors": [
+        "red",
+        "gold",
+        "green",
+        "blue"
+      ],
+      "facing": "unclear",
+      "composition": "standalone",
+      "usage_notes": "Whole original scalloped arch, lintel and paired twisted columns with unequal bases. Original native shading, green capitals and blue-gray folds remain opaque. The original angel wing overlaps the inner gilt arch at its apex; that source-visible notch is retained when the separate angel is removed, without reconstructing hidden gold. No repeat, fabricated corner, hidden paint or SVG redraw.",
+      "sets": [
+        {
+          "id": "walters-w7-15v-set",
+          "name": "Walters W.7 Matthew portrait ornaments",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "Original fixed manuscript arcade with paired twisted red columns, green capitals, gold lintel and scalloped red-and-gold semicircular arch.",
+      "set_label": "Walters W.7 Matthew portrait ornaments"
+    },
+    {
+      "id": "walters-w7-15v--matthew-writing-at-lectern-with-seat-and-footstool",
+      "name": "matthew-writing-at-lectern-with-seat-and-footstool",
+      "source_id": "walters-w7-15v",
+      "source_folder": "walters",
+      "asset_type": "illustration",
+      "description": "Matthew writing at a lectern with original book, curved chair, bare feet and red footstool. Part of the Walters W.7 Matthew portrait ornaments set.",
+      "source_region": [
+        4673,
+        3677,
+        6704,
+        6926
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        29,
+        2,
+        980,
+        1581
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 951,
+      "height": 1579,
+      "png": "walters/walters-w7-15v--matthew-writing-at-lectern-with-seat-and-footstool.png",
+      "png_sha256": "b36c0a0fd57c48a0e1781d415f652deb7502de31f6b67fc6bcc5de0efd45e478",
+      "provenance": {
+        "institution": "Walters Art Museum",
+        "title": "Portrait of the Evangelist Matthew",
+        "object_identifier": "W.7, fol. 15v",
+        "date": "Middle of the 11th century CE",
+        "record_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/html/W7/description.html",
+        "image_rights": "CC0 (Digital Walters manuscript images)",
+        "rights_url": "https://www.thedigitalwalters.org/01_ACCESS_WALTERS_MANUSCRIPTS.html",
+        "source_file": "tmp/new-assets/walters/walters-w7-15v--portrait-of-the-evangelist-matthew--master.tif",
+        "source_sha256": "cca95ef468d7a30acc6fc7fd7e301ff1a0819425f6c4c652f3baad6b977004ad",
+        "source_metadata": "tmp/new-assets/walters/walters-w7-15v.json",
+        "image_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/W7/data/W.7/master/W7_000034_1022.tif",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. The complete central Matthew writing group WITH his original contacting chair, wooden lectern/book, upright thin pen/feather, bare feet and red footstool. Preserve the exact old face, blue halo, light blue garment, brown drapery and curled chair arm. Clear real gaps within lectern, chair and between limbs. Remove side columns, flat gold field, green floor and all unrelated upper architecture/angel. Do not invent more toes, widen the feet, shorten the thin pen, or replace the lectern with a modern desk. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_extraction": "tmp/extraction-work/walters-w7-15v--matthew-writing-at-lectern-with-seat-and-footstool--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "badb9c836ba57972df458831858ed736c22b44d1257ca80e03845b0ca1872103",
+        "retained_generated_size": [
+          992,
+          1586
+        ],
+        "resolution_cap_scale": 1,
+        "resolution_capped_size": [
+          992,
+          1586
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          1930,
+          3160
+        ],
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 5484
+        },
+        "native_subject_size_evidence": {
+          "method": "Individually inspected native visible subject bounds, excluding input-region whitespace and neighbours.",
+          "preview_subject_bounds": [
+            752,
+            591,
+            1058,
+            1092
+          ],
+          "preview_size": [
+            1348,
+            1600
+          ],
+          "original_size": [
+            8501,
+            10092
+          ]
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Compared original region and white/dark native-cap renders. Full visible figures, green leg armor, contacting lion, original props, wing colors and genuine harp/desk openings checked. Two visible busts retain only source-visible lower edges; no invented hidden legs. Three other batch outputs separately rejected for correction.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/eleven-walters-weapons-generated-results-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/eleven-walters-weapons-generated-results-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/eleven-walters-weapons-generated-results-proof-3.jpg"
+        ]
+      },
+      "categories": [
+        "humans",
+        "reading"
+      ],
+      "subjects": [
+        "matthew",
+        "saint",
+        "book",
+        "pen",
+        "lectern",
+        "chair",
+        "footstool",
+        "halo"
+      ],
+      "colors": [
+        "brown",
+        "light-blue",
+        "red",
+        "gold",
+        "cream",
+        "blue"
+      ],
+      "facing": "right",
+      "composition": "single-figure",
+      "usage_notes": "Original independent specimen with printed plate rules and page removed. AI-assisted extraction remains approximate; source bounds, actual native subject cap, original and exact prompt retained.",
+      "selection_history": [
+        {
+          "previous_values": {
+            "categories": [
+              "humans",
+              "reading"
+            ],
+            "subjects": [
+              "Matthew",
+              "saint",
+              "book",
+              "pen",
+              "lectern",
+              "chair",
+              "footstool",
+              "halo"
+            ],
+            "composition": "single-figure"
+          },
+          "reason": "Normalize new staging metadata to shared category/composition/subject vocabulary; factual descriptions and original source metadata unchanged."
+        }
+      ],
+      "sets": [
+        {
+          "id": "walters-w7-15v-set",
+          "name": "Walters W.7 Matthew portrait ornaments",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "Matthew writing at a lectern with original book, curved chair, bare feet and red footstool.",
+      "set_label": "Walters W.7 Matthew portrait ornaments"
+    },
+    {
+      "id": "walters-w7-15v--winged-haloed-angel-holding-closed-book",
+      "name": "winged-haloed-angel-holding-closed-book",
+      "source_id": "walters-w7-15v",
+      "source_folder": "walters",
+      "asset_type": "illustration",
+      "description": "Waist-length haloed angel with long gold wings holding a closed book, in a green robe. Part of the Walters W.7 Matthew portrait ornaments set.",
+      "source_region": [
+        5480,
+        1760,
+        7240,
+        2958
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        117,
+        36,
+        1657,
+        1190
+      ],
+      "export_crop_coordinate_space": "original-native-source-region",
+      "width": 1540,
+      "height": 1154,
+      "png": "walters/walters-w7-15v--winged-haloed-angel-holding-closed-book.png",
+      "png_sha256": "d6bffa22a1a8a5dccec9cba446c2bd03eabbb8d4293ef070395d15f32e5d3324",
+      "provenance": {
+        "institution": "Walters Art Museum",
+        "title": "Portrait of the Evangelist Matthew",
+        "object_identifier": "W.7, fol. 15v",
+        "date": "Middle of the 11th century CE",
+        "record_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/html/W7/description.html",
+        "image_rights": "CC0 (Digital Walters manuscript images)",
+        "rights_url": "https://www.thedigitalwalters.org/01_ACCESS_WALTERS_MANUSCRIPTS.html",
+        "source_file": "tmp/new-assets/walters/walters-w7-15v--portrait-of-the-evangelist-matthew--master.tif",
+        "source_sha256": "cca95ef468d7a30acc6fc7fd7e301ff1a0819425f6c4c652f3baad6b977004ad",
+        "source_metadata": "tmp/new-assets/walters/walters-w7-15v.json",
+        "image_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/W7/data/W.7/master/W7_000034_1022.tif",
+        "method": "native-source-continuous-edge-matting"
+      },
+      "extraction": {
+        "candidate_png": "tmp/extraction-work/continuation-20261010/walters-w7-15v--winged-haloed-angel-holding-closed-book--refined-original-native-candidate.png",
+        "native_export_crop": [
+          117,
+          36,
+          1657,
+          1190
+        ],
+        "export_crop_coordinate_space": "original-native-source-region",
+        "annotation_json": "tmp/extraction-work/continuation-20261010/walters-w7-15v--winged-haloed-angel-holding-closed-book--refined-original-native-audit.json",
+        "trimap_png": "tmp/extraction-work/continuation-20261010/walters-w7-15v--winged-haloed-angel-holding-closed-book--refined-original-native-trimap.png",
+        "native_source_size": [
+          1760,
+          1198
+        ],
+        "native_upscaling": false,
+        "source_pixels_redrawn": false,
+        "original_opaque_rgb_preserved": true,
+        "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+        "alpha_guide": {
+          "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+          "guide_png": "tmp/extraction-work/continuation-20261010/walters-w7-15v--winged-haloed-angel-holding-closed-book--native-alpha-reference.png",
+          "guide_sha256": "d5cbad6e63d501eb7f85256bb77376385b8319b3067c3d7293863b351081fe80",
+          "native_original": "tmp/extraction-work/continuation-20261010/walters-w7-15v--winged-haloed-angel-holding-closed-book--original.png",
+          "similarity_ai_alpha_to_original": [
+            [
+              1.1464791477645895,
+              -0.0035361787435862677,
+              5.476812607929905
+            ],
+            [
+              0.0035361787435862677,
+              1.1464791477645895,
+              8.294338397915721
+            ]
+          ],
+          "matching_feature_pairs": 674,
+          "inlier_feature_pairs": 409,
+          "inlier_rms_native_pixels": 2.2688827170669366,
+          "source_inspection_factor": 1,
+          "unknown_edge_band_native_pixels": 6,
+          "edge_solve_tile_size": 640,
+          "edge_solve_halo": 32,
+          "edge_solve_tiles": 5,
+          "original_opaque_rgb_preserved": true
+        },
+        "status": "awaiting-original-white-dark-review",
+        "native_refinement": {
+          "method": "Final native wing-tip inspection clears faint green exterior sky from the right feather underside (G-R>5,G-B>-4,R>95,B>110) only x>950,y<650. Gold wing paint, cream highlights and dark feather outlines retained. Original skin, robe, book and halo unchanged. Source native RGB, no rescale or redraw.",
+          "source": "tmp/extraction-work/continuation-20261010/walters-w7-15v--winged-haloed-angel-holding-closed-book--original.png",
+          "previous_native_matte": {
+            "candidate_png": "tmp/extraction-work/continuation-20261010/walters-w7-15v--winged-haloed-angel-holding-closed-book--refined-original-native-candidate.png",
+            "native_export_crop": [
+              119,
+              36,
+              1666,
+              1190
+            ],
+            "export_crop_coordinate_space": "original-native-source-region",
+            "annotation_json": "tmp/extraction-work/continuation-20261010/walters-w7-15v--winged-haloed-angel-holding-closed-book--refined-original-native-audit.json",
+            "trimap_png": "tmp/extraction-work/continuation-20261010/walters-w7-15v--winged-haloed-angel-holding-closed-book--refined-original-native-trimap.png",
+            "native_source_size": [
+              1760,
+              1198
+            ],
+            "native_upscaling": false,
+            "source_pixels_redrawn": false,
+            "original_opaque_rgb_preserved": true,
+            "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+            "alpha_guide": {
+              "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+              "guide_png": "tmp/extraction-work/continuation-20261010/walters-w7-15v--winged-haloed-angel-holding-closed-book--native-alpha-reference.png",
+              "guide_sha256": "d5cbad6e63d501eb7f85256bb77376385b8319b3067c3d7293863b351081fe80",
+              "native_original": "tmp/extraction-work/continuation-20261010/walters-w7-15v--winged-haloed-angel-holding-closed-book--original.png",
+              "similarity_ai_alpha_to_original": [
+                [
+                  1.1464791477645895,
+                  -0.0035361787435862677,
+                  5.476812607929905
+                ],
+                [
+                  0.0035361787435862677,
+                  1.1464791477645895,
+                  8.294338397915721
+                ]
+              ],
+              "matching_feature_pairs": 674,
+              "inlier_feature_pairs": 409,
+              "inlier_rms_native_pixels": 2.2688827170669366,
+              "source_inspection_factor": 1,
+              "unknown_edge_band_native_pixels": 6,
+              "edge_solve_tile_size": 640,
+              "edge_solve_halo": 32,
+              "edge_solve_tiles": 5,
+              "original_opaque_rgb_preserved": true
+            },
+            "status": "awaiting-original-white-dark-review",
+            "native_refinement": {
+              "method": "Native original winged angel, with guide registration used only for ownership. Native review clears green sky beneath the two long right feathers and blue sky beside left feather tips using inspected colour/region tests; actual dark feather outlines retained. Halo gold, wing gold, book, green robe and all visible original hands remain opaque. Source native RGB unscaled; no new anatomy.",
+              "source": "tmp/extraction-work/continuation-20261010/walters-w7-15v--winged-haloed-angel-holding-closed-book--original.png",
+              "previous_native_matte": {
+                "candidate_png": "tmp/extraction-work/continuation-20261010/walters-w7-15v--winged-haloed-angel-holding-closed-book--registered-native-candidate.png",
+                "native_export_crop": [
+                  96,
+                  35,
+                  1668,
+                  1190
+                ],
+                "export_crop_coordinate_space": "original-native-source-region",
+                "annotation_json": "tmp/extraction-work/continuation-20261010/walters-w7-15v--winged-haloed-angel-holding-closed-book--registered-native-annotation.json",
+                "trimap_png": "tmp/extraction-work/continuation-20261010/walters-w7-15v--winged-haloed-angel-holding-closed-book--registered-native-trimap.png",
+                "native_source_size": [
+                  1760,
+                  1198
+                ],
+                "native_upscaling": false,
+                "source_pixels_redrawn": false,
+                "original_opaque_rgb_preserved": true,
+                "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+                "alpha_guide": {
+                  "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+                  "guide_png": "tmp/extraction-work/continuation-20261010/walters-w7-15v--winged-haloed-angel-holding-closed-book--native-alpha-reference.png",
+                  "guide_sha256": "d5cbad6e63d501eb7f85256bb77376385b8319b3067c3d7293863b351081fe80",
+                  "native_original": "tmp/extraction-work/continuation-20261010/walters-w7-15v--winged-haloed-angel-holding-closed-book--original.png",
+                  "similarity_ai_alpha_to_original": [
+                    [
+                      1.1464791477645895,
+                      -0.0035361787435862677,
+                      5.476812607929905
+                    ],
+                    [
+                      0.0035361787435862677,
+                      1.1464791477645895,
+                      8.294338397915721
+                    ]
+                  ],
+                  "matching_feature_pairs": 674,
+                  "inlier_feature_pairs": 409,
+                  "inlier_rms_native_pixels": 2.2688827170669366,
+                  "source_inspection_factor": 1,
+                  "unknown_edge_band_native_pixels": 6,
+                  "edge_solve_tile_size": 640,
+                  "edge_solve_halo": 32,
+                  "edge_solve_tiles": 5,
+                  "original_opaque_rgb_preserved": true
+                },
+                "status": "awaiting-original-white-dark-review"
+              },
+              "unknown_band_native_pixels": 3,
+              "source_rgb_redrawn": false,
+              "source_resized": false,
+              "original_opaque_rgb_preserved": true,
+              "ownership": "tmp/extraction-work/continuation-20261010/walters-w7-15v--winged-haloed-angel-holding-closed-book--refined-original-native-ownership.png",
+              "ownership_sha256": "7a733c240f47129292c262f2406c9af17ec0ec02f8b63e86404f6217d219ad46",
+              "certain_exterior_sky_regions": {
+                "right_green": "x>950,y<650,G-R>12,B-R>5,R>95,B>110",
+                "left_blue": "x<340,y>560,B-R>20,B-G>20,R>65,B>130,G>80"
+              }
+            }
+          },
+          "unknown_band_native_pixels": 3,
+          "source_rgb_redrawn": false,
+          "source_resized": false,
+          "original_opaque_rgb_preserved": true,
+          "ownership": "tmp/extraction-work/continuation-20261010/walters-w7-15v--winged-haloed-angel-holding-closed-book--refined-original-native-ownership.png",
+          "ownership_sha256": "f7a37a90023bb43558eddea99e2a1cd54f6c80b318831e1422e6a5ebbf4eda8a",
+          "native_pale_green_sky_exclusion": "G-R>5,G-B>-4,R>95,B>110,x>950,y<650"
+        },
+        "tool": "Original native scan / closed-form edge alpha and foreground decontamination",
+        "pixel_exact": false,
+        "ownership_guide_prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. ONLY the original upper winged haloed angel with complete long golden wings, the blue-bordered gold halo, green robe, closed book and hands. Retain its original visible waist truncation at the lintel; no added legs. Remove original blue/green sky and burgundy arch/lintel. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_ownership_guide": {
+          "file": "tmp/extraction-work/walters-w7-15v--winged-haloed-angel-holding-closed-book--retained-ai-extraction.png",
+          "sha256": "d5cbad6e63d501eb7f85256bb77376385b8319b3067c3d7293863b351081fe80",
+          "purpose": "Retained AI alpha guide only; delivered opaque RGB belongs to the unchanged native source."
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Compared complete original, white/dark full output and native 100 percent detailed boundaries. Original anatomy, props, wing tips, halo, gray/dark outlines, all gold rim and painted surfaces retained at native scale. Exterior paper/flowers or sky cleared, complete actual openings transparent. Original scene field stays integral; original half-length waist truncation stays unchanged. No invented parts or raster upscaling.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/three-current-final-native-review-current-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/oval-and-angel-native-final-soft-edge-review.png",
+          "tmp/extraction-work/continuation-20261010/cma5206b-oval-original-native-coordinate-grid.png"
+        ]
+      },
+      "categories": [
+        "humans"
+      ],
+      "subjects": [
+        "angel",
+        "book",
+        "wing",
+        "halo"
+      ],
+      "colors": [
+        "gold",
+        "green",
+        "blue",
+        "brown",
+        "cream"
+      ],
+      "facing": "right",
+      "composition": "standalone",
+      "usage_notes": "Original half-length book-holding angel, complete wings and halo, as visible above the lintel. Empty sky/architecture cleared. Native source RGB retained, original waist truncation preserved; no invented legs or SVG redraw.",
+      "sets": [
+        {
+          "id": "walters-w7-15v-set",
+          "name": "Walters W.7 Matthew portrait ornaments",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "Waist-length haloed angel with long gold wings holding a closed book, in a green robe.",
+      "set_label": "Walters W.7 Matthew portrait ornaments"
+    }
+  ]
+}

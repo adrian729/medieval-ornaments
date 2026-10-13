@@ -1,0 +1,139 @@
+{
+  "source_id": "erara-gessner-elephant-626863",
+  "assets": [
+    {
+      "id": "erara-gessner-elephant-626863--elephant",
+      "name": "elephant",
+      "source_id": "erara-gessner-elephant-626863",
+      "source_folder": "e-rara-gessner",
+      "asset_type": "illustration",
+      "description": "An elephant with its complete curled trunk, two tusks, large ear, four legs and tail. Part of the Gessner Historiae Animalium set.",
+      "source_region": [
+        410,
+        294,
+        2783,
+        3348
+      ],
+      "rotation_clockwise": 90,
+      "export_crop": [
+        54,
+        67,
+        2970,
+        2169
+      ],
+      "width": 2916,
+      "height": 2102,
+      "png": "e-rara-gessner/erara-gessner-elephant-626863--elephant.png",
+      "png_sha256": "445bd964adc05536c6ebcc1298b9dd4d93cdfa2f1ae21f483f165cb364610b36",
+      "provenance": {
+        "institution": "Zentralbibliothek Zürich",
+        "title": "Gessner, Historiae animalium: De elephanto.",
+        "object_identifier": "5.1: a-5.3; image 626863; section De elephanto.",
+        "date": "1551–1587",
+        "record_url": "https://www.e-rara.ch/zuz/content/pageview/626863",
+        "image_rights": "Public Domain Mark; parent bibliographic record",
+        "rights_url": "https://www.e-rara.ch/zuz/content/titleinfo/637105",
+        "source_sha256": "54b1e2d83da5ba5fedd0bdb425d7009b0558349dc455500a3afa81972e131ea0",
+        "source_file": "tmp/new-assets/e-rara-gessner/erara-gessner-elephant-626863--gessner-historiae-animalium-de-elephanto.jpg",
+        "source_metadata": "tmp/new-assets/e-rara-gessner/erara-gessner-elephant-626863.json",
+        "image_url": "https://www.e-rara.ch/i3f/v20/626863/full/full/0/default.jpg",
+        "method": "source-pixel-extraction-with-ai-assisted-selection-mask"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: precise-object-edit. Output ONLY an original-aligned two-color foreground selection matte. Preserve EXACTLY this input’s aspect ratio, size relationships, positions, pose and every contour. No recentering or reconstruction. Solid vivid MAGENTA #ff00ff selects the complete original animal illustration; solid CYAN #00ffff excludes ALL page paper, letters, text, caption, print showing through from the other page, stains and actual openings between limbs and around the tail or trunk. Select An elephant with its complete curled trunk, two tusks, large ear, four legs and tail. The selected animal must be a FEATURELESS SOLID MAGENTA silhouette: every interior pale illustrated body surface, eye, dark ink line and hatch must be magenta with no copied internal features. Actual exterior page and genuine spaces between feet, tail, trunk or antler branches must remain cyan. Include every thin whisker, toe, claw, tip and hair at its original position. Do not simplify, move, enlarge, redraw or add anything. No white or black or other colors, no text on the mask. Exclude the horizontal ground hatching, cast shadows, ruled lines and lettering outside the animal’s actual contour.",
+        "selection_mask": "tmp/extraction-work/erara-gessner-elephant-626863--elephant--selection-mask.png",
+        "selection_mask_sha256": "30ed4e7ec2055628c1808c77e7f471558d0cd79594e41be8019e83534cad4a92",
+        "mask_dimensions": [
+          1424,
+          1105
+        ],
+        "mask_application": "binary selection resized to native source region; only alpha changed",
+        "mask_source_region": [
+          410,
+          294,
+          2783,
+          3348
+        ],
+        "mask_encoding": "magenta-on-cyan",
+        "native_stroke_correction": null,
+        "native_paper_cleanup": null,
+        "native_boundary_refinement": null,
+        "mask_preprocessing": {
+          "fill_internal_holes_below_px": 250,
+          "remove_islands_below_px": 30
+        },
+        "native_rgb_verification": "all alpha-visible RGB values exactly equal the recorded native source crop; fully transparent RGB cleared",
+        "source_color_profile_preserved": true,
+        "source_pixels_repainted": false
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261010",
+        "notes": "Native overlay confirms complete hanging tail, four feet, huge ear, tusks and entire curved trunk tip. Every genuine space around trunk and legs transparent.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": "tmp/extraction-work/quality-reaudit-20261010/manifest.json"
+      },
+      "categories": [
+        "animals"
+      ],
+      "subjects": [
+        "elephant"
+      ],
+      "facing": "right",
+      "colors": [
+        "brown",
+        "cream"
+      ],
+      "composition": "single-figure",
+      "vector_review": {
+        "status": "accepted",
+        "method": "Editable native-color VTracer paths with eight-layer native PNG alpha contour mask, excluding opaque hidden pixels and stray trace islands.",
+        "premultiplied_rgb_error_at_review_resolution": 0.02128587788535937,
+        "alpha_error_at_review_resolution": 0.0006095365797458726,
+        "limitation": "Contours and scan tones are approximate. PNG retains original native source RGB and remains the preferred fidelity master.",
+        "embedded_raster": false,
+        "quality_round": "20261010"
+      },
+      "svg": "e-rara-gessner/erara-gessner-elephant-626863--elephant.svg",
+      "svg_sha256": "886fe1bf7a125abf2d5a8a2febb5c72002ae5ae66a8964938985c1d7719f05e4",
+      "review_history": [
+        {
+          "round": "quality-reaudit-20261010",
+          "previous_review": {
+            "status": "accepted",
+            "reviewed_on": "2026-10-10T11:45:29.479306+00:00",
+            "notes": "Compared the complete animal against its source, checked corrected orientation, fur/ear/tail tips and paws, and inspected transparent exterior and true spaces between limbs on light and dark backgrounds. Native source RGB retained; SVG evaluation remains pending.",
+            "checks": [
+              "original-source-comparison",
+              "white-background",
+              "dark-background",
+              "outer-contours",
+              "interior-openings",
+              "thin-details",
+              "original-rgb-equality"
+            ]
+          }
+        }
+      ],
+      "sets": [
+        {
+          "id": "gessner-historiae-animalium",
+          "name": "Gessner Historiae Animalium",
+          "relation": "same historical zoological work and illustration family"
+        }
+      ],
+      "description_before_set_naming": "An elephant with its complete curled trunk, two tusks, large ear, four legs and tail.",
+      "set_label": "Gessner Historiae Animalium"
+    }
+  ]
+}

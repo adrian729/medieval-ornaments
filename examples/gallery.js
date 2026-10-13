@@ -149,7 +149,7 @@ const dialog = $('#detail'), stage = $('#detailStage'), code = codePanel($('#det
 const imageSize = item => Math.max(16, Math.floor(Math.min(IMAGE_BOX.height, IMAGE_BOX.width * item.height / item.width, item.height / (window.devicePixelRatio || 1))));
 function previewFor(item, mode = view.mode) {
   if (item.kind !== 'repeat-tile') return resolveOrnament('image', withHosting({ design: item.name, size: imageSize(item) }));
-  if (mode === 'frame') return resolveOrnament('frame', withHosting({ design: item.name, size: view.size }));
+  if (mode === 'frame' && item.uses.includes('frame')) return resolveOrnament('frame', withHosting({ design: item.name, size: view.size }));
   return resolveOrnament('divider', withHosting({ design: item.name, size: view.size, orientation: view.orientation }));
 }
 const fileUrl = path => assetsBase ? assetsBase.replace(/\/?$/, '/') + path : getAssetSource(current.name).base + path;
@@ -230,7 +230,7 @@ function renderInfo(item) {
   const border = item.kind === 'repeat-tile';
   const rows = [
     fact('Name', element('code', { text: item.name })),
-    fact('Use', border ? 'Frame or repeating divider' : 'Whole image'),
+    fact('Use', border ? item.uses.includes('frame') ? 'Frame or repeating divider' : 'Repeating divider' : 'Whole image'),
     border ? fact('Repeats', item.repeat_axis === 'y' ? 'Vertically (a rotated tile serves horizontal dividers)' : 'Horizontally (a rotated tile serves vertical dividers)')
       : fact('Original size', `${item.width} × ${item.height} px`),
     fact('Background', item.has_transparency ? 'Transparent' : 'Opaque'),
@@ -242,6 +242,10 @@ function renderInfo(item) {
     fact('Made by', derivations[item.derivation] || item.derivation),
     item.author ? fact('Author', item.author) : null
   ];
+  if (item.sets?.length) rows.push(fact('Sets', ...item.sets.map(set => element('button', {
+    type: 'button', class: 'chip', text: set.name,
+    onclick: () => { openedByPush = false; state.q = set.name; state.category = ''; state.type = 'all'; close(); update(); }
+  }))));
   if (item.provenance) {
     const source = item.provenance;
     rows.push(fact('Source', element('a', { href: source.record_url, text: source.title }), ` · ${[source.institution, source.object_identifier, source.date, source.artist].filter(Boolean).join(' · ')}`));
@@ -257,7 +261,7 @@ function renderInfo(item) {
 function renderFiles(item) {
   const components = item.components || {};
   const groups = item.kind === 'repeat-tile'
-    ? [['Repeating tile', item], ['Rotated tile', components.rotated_tile], ['Frame image', components.border_image], ['Corner', components.corner], ['Original crop', components.reference_crop]]
+    ? [['Repeating tile', item], ['Rotated tile', components.rotated_tile], ['Frame image', components.border_image], ['Corner', components.corner], ...['top-left', 'top-right', 'bottom-left', 'bottom-right'].map(role => ['Corner ' + role, components['corner-' + role]]), ['Five-unit bar', components.bar], ['Rotated bar', components.rotated_bar], ['Original crop', components.reference_crop]]
     : [['Image', item], ['Original crop', components.reference_crop]];
   const link = (text, path) => element('a', { href: fileUrl(path), text, title: fileInfo(item, path), target: '_blank', rel: 'noopener' });
   $('#files').replaceChildren(...groups.filter(([, asset]) => asset).map(([label, asset]) => {
@@ -274,6 +278,8 @@ function open(name, push = false) {
   try { item = getOrnament(name); } catch { return; }
   current = item; state.design = name;
   if (item.kind !== 'repeat-tile') view.mode = 'frame';
+  else if (!item.uses.includes(view.mode)) view.mode = 'divider';
+  for (const button of $$('#modeTabs button')) button.hidden = !item.uses.includes(button.dataset.value);
   modeControl.select(view.mode);
   writeUrl(push && !dialog.open);
   if (push && !dialog.open) openedByPush = true;

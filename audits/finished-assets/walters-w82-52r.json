@@ -1,0 +1,3040 @@
+{
+  "source_id": "walters-w82-52r",
+  "assets": [
+    {
+      "id": "walters-w82-52r--finite-blue-and-rose-band-with-gold-pips-and-white-curls",
+      "name": "finite-blue-and-rose-band-with-gold-pips-and-white-curls",
+      "source_id": "walters-w82-52r",
+      "source_folder": "walters",
+      "asset_type": "decoration",
+      "description": "A finite two-color blue and rose-brown line filler with gold pips and a succession of pale curled strokes. Part of the Walters W.82 Marginalia set.",
+      "source_region": [
+        2420,
+        1824,
+        3930,
+        2137
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        8,
+        13,
+        1491,
+        273
+      ],
+      "export_crop_coordinate_space": "original-native-source-region",
+      "width": 1483,
+      "height": 260,
+      "png": "walters/walters-w82-52r--finite-blue-and-rose-band-with-gold-pips-and-white-curls.png",
+      "png_sha256": "da1b8f58b329dd65831bf0f7186379ef027dc71e87c50d4c448a8481d2386254",
+      "provenance": {
+        "institution": "Walters Art Museum",
+        "title": "Initial \"D\" with a fool before David enthroned; man carrying horse on back in margin",
+        "object_identifier": "W.82, fol. 52r",
+        "date": "Ca. 1315-1325 CE",
+        "record_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/html/W82/description.html",
+        "image_rights": "CC0 (Digital Walters manuscript images)",
+        "rights_url": "https://www.thedigitalwalters.org/01_ACCESS_WALTERS_MANUSCRIPTS.html",
+        "source_file": "tmp/new-assets/walters/walters-w82-52r--initial-d-with-a-fool-before-david-enthroned-man-carrying-horse-on-back-in-margin--master.tif",
+        "source_sha256": "988ffd4dc9788e4b74e3d84f10127faaaafb59991a1b9ac2bf45548b1464bccb",
+        "source_metadata": "tmp/new-assets/walters/walters-w82-52r.json",
+        "image_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/W82/data/W.82/master/W82_000107_1200.tif",
+        "method": "native-source-continuous-edge-matting"
+      },
+      "extraction": {
+        "candidate_png": "tmp/extraction-work/continuation-20261010/walters-w82-52r--finite-blue-and-rose-band-with-gold-pips-and-white-curls--registered-native-candidate.png",
+        "native_export_crop": [
+          8,
+          13,
+          1491,
+          273
+        ],
+        "export_crop_coordinate_space": "original-native-source-region",
+        "annotation_json": "tmp/extraction-work/continuation-20261010/walters-w82-52r--finite-blue-and-rose-band-with-gold-pips-and-white-curls--registered-native-annotation.json",
+        "trimap_png": "tmp/extraction-work/continuation-20261010/walters-w82-52r--finite-blue-and-rose-band-with-gold-pips-and-white-curls--registered-native-trimap.png",
+        "native_source_size": [
+          1510,
+          313
+        ],
+        "native_upscaling": false,
+        "source_pixels_redrawn": false,
+        "original_opaque_rgb_preserved": true,
+        "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+        "alpha_guide": {
+          "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+          "guide_png": "tmp/extraction-work/continuation-20261010/walters-w82-52r--finite-blue-and-rose-band-with-gold-pips-and-white-curls--complete-black-rule-alpha-reference.png",
+          "guide_sha256": "b5af27f4baa0ba859bd7497ac6c2f1eb06c2b47509c37b7293b339bc1fadb653",
+          "native_original": "tmp/extraction-work/continuation-20261010/walters-w82-52r--finite-blue-and-rose-band-with-gold-pips-and-white-curls--original.png",
+          "similarity_ai_alpha_to_original": [
+            [
+              0.6884314343294157,
+              -0.0023933364324838155,
+              3.335612987950292
+            ],
+            [
+              0.0023933364324838155,
+              0.6884314343294157,
+              -119.92756601501361
+            ]
+          ],
+          "matching_feature_pairs": 370,
+          "inlier_feature_pairs": 273,
+          "inlier_rms_native_pixels": 1.4680548913006295,
+          "source_inspection_factor": 1,
+          "unknown_edge_band_native_pixels": 2,
+          "edge_solve_tile_size": 640,
+          "edge_solve_halo": 32,
+          "edge_solve_tiles": 3,
+          "original_opaque_rgb_preserved": true
+        },
+        "status": "awaiting-original-white-dark-review",
+        "tool": "Original native scan / closed-form edge alpha and foreground decontamination",
+        "pixel_exact": false,
+        "ownership_guide_prompt": "Use case: background-extraction. Edit target: supplied original source crop. Extract ONLY the complete finite manuscript ornamental line-filler band: blue field at left with exactly three gold pips, rose-brown field at right, all the original cream curls/crossing strokes and pale bounding lines, and the WHOLE dark painted outer border on ALL four sides. In particular retain the entire original dark upper rule above the rose field and the original dark lower rule; do not cut them down to the pale inner line. The outer rule is subtly wavy and irregular, and the original left and right ends are part of the ornament: preserve their exact shapes, no straightening or generic rectangle. Remove surrounding page paper, grime and all neighboring lettering above and below, including the small letter stroke touching the upper rule near the left. No transparent holes anywhere inside this solid painted band: the gold highlights, worn pale areas and cream strokes are opaque. Real transparent exterior; preserve original spacing, proportions, source colors and aged paint texture. No redraw, new pip, restored line, sharpened replacement, or invented repeating unit. Keep the whole band visible with small transparent padding.",
+        "retained_generated_ownership_guide": {
+          "file": "tmp/extraction-work/continuation-20261010/walters-w82-52r--finite-blue-and-rose-band-with-gold-pips-and-white-curls--complete-black-rule-alpha-reference.png",
+          "sha256": "b5af27f4baa0ba859bd7497ac6c2f1eb06c2b47509c37b7293b339bc1fadb653",
+          "purpose": "Retained AI alpha guide only; delivered opaque RGB belongs to the unchanged native source."
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Full-source, white/dark and native-detail review confirms all three opaque gold pips, both original colors, full original upper/lower dark rules, pale curls, left curved terminal and right terminal. The rejected hue/GrabCut trials lost parts of the neutral outer border; none of their incomplete outlines are delivered. A complete guide is registered to untouched native RGB using 273 matching inliers and 1.47-native-pixel RMS. Original artist irregularity and all intrinsic paint remain; paper and neighboring lettering are clear. Finite original piece, no inferred repeat or SVG.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/w8252-native-finite-filler-final-review-current-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/w8252-complete-original-dark-rules-native-final-reviewed.jpg"
+        ]
+      },
+      "categories": [
+        "geometric",
+        "scrollwork"
+      ],
+      "subjects": [
+        "band",
+        "pip",
+        "curl",
+        "line"
+      ],
+      "colors": [
+        "blue",
+        "brown",
+        "gold",
+        "cream"
+      ],
+      "facing": "unclear",
+      "composition": "single-ornament",
+      "usage_notes": "Original finite line filler with its actual end caps and original hand-painted variation. Colored fields are intrinsic artwork and remain opaque. Exterior paper and adjacent writing are removed. This asset is the original finite decoration; it has no repeating atlas or newly invented corners.",
+      "sets": [
+        {
+          "id": "walters-w82-marginalia",
+          "name": "Walters W.82 Marginalia",
+          "relation": "same manuscript; each page retains its source identity"
+        },
+        {
+          "id": "walters-w82-52r-set",
+          "name": "Initial \"D\" with a fool before David enthroned; man carrying horse on back in margin (walters-w82-52r)",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A finite two-color blue and rose-brown line filler with gold pips and a succession of pale curled strokes.",
+      "set_label": "Walters W.82 Marginalia"
+    },
+    {
+      "id": "walters-w82-52r--hare-and-hound-in-contact",
+      "name": "hare-and-hound-in-contact",
+      "source_id": "walters-w82-52r",
+      "source_folder": "walters",
+      "asset_type": "illustration",
+      "description": "A gray hare and a pale hound contact each other in the upper margin. Part of the Walters W.82 Marginalia set.",
+      "source_region": [
+        920,
+        188,
+        2603,
+        867
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        148,
+        93,
+        1583,
+        525
+      ],
+      "export_crop_coordinate_space": "original-native-source-region",
+      "width": 1435,
+      "height": 432,
+      "png": "walters/walters-w82-52r--hare-and-hound-in-contact.png",
+      "png_sha256": "c70aec65a7a9c3b86e722696c779ae1d20f95f74879ccf51381d2b3933718ee6",
+      "provenance": {
+        "institution": "Walters Art Museum",
+        "title": "Initial \"D\" with a fool before David enthroned; man carrying horse on back in margin",
+        "object_identifier": "W.82, fol. 52r",
+        "date": "Ca. 1315-1325 CE",
+        "record_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/html/W82/description.html",
+        "image_rights": "CC0 (Digital Walters manuscript images)",
+        "rights_url": "https://www.thedigitalwalters.org/01_ACCESS_WALTERS_MANUSCRIPTS.html",
+        "source_file": "tmp/new-assets/walters/walters-w82-52r--initial-d-with-a-fool-before-david-enthroned-man-carrying-horse-on-back-in-margin--master.tif",
+        "source_sha256": "988ffd4dc9788e4b74e3d84f10127faaaafb59991a1b9ac2bf45548b1464bccb",
+        "source_metadata": "tmp/new-assets/walters/walters-w82-52r.json",
+        "image_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/W82/data/W.82/master/W82_000107_1200.tif",
+        "method": "native-source-continuous-edge-matting"
+      },
+      "extraction": {
+        "candidate_png": "tmp/extraction-work/continuation-20261010/walters-w82-52r--hare-and-hound-in-contact--registered-native-candidate.png",
+        "native_export_crop": [
+          148,
+          93,
+          1583,
+          525
+        ],
+        "export_crop_coordinate_space": "original-native-source-region",
+        "annotation_json": "tmp/extraction-work/continuation-20261010/walters-w82-52r--hare-and-hound-in-contact--registered-native-annotation.json",
+        "trimap_png": "tmp/extraction-work/continuation-20261010/walters-w82-52r--hare-and-hound-in-contact--registered-native-trimap.png",
+        "native_source_size": [
+          1683,
+          679
+        ],
+        "native_upscaling": false,
+        "source_pixels_redrawn": false,
+        "original_opaque_rgb_preserved": true,
+        "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+        "alpha_guide": {
+          "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+          "guide_png": "tmp/extraction-work/continuation-20261010/walters-w82-52r--hare-and-hound-in-contact--native-alpha-reference.png",
+          "guide_sha256": "666e76f6f4513243333ce8edacaf2505bd5ade60f6cae6de12481afbbfc6635a",
+          "native_original": "tmp/extraction-work/continuation-20261010/walters-w82-52r--hare-and-hound-in-contact--original.png",
+          "similarity_ai_alpha_to_original": [
+            [
+              0.7587056244477811,
+              0.0014140511573829944,
+              114.16961102314342
+            ],
+            [
+              -0.0014140511573829944,
+              0.7587056244477811,
+              8.847268378632535
+            ]
+          ],
+          "matching_feature_pairs": 276,
+          "inlier_feature_pairs": 130,
+          "inlier_rms_native_pixels": 2.253041486044626,
+          "source_inspection_factor": 1,
+          "unknown_edge_band_native_pixels": 3,
+          "edge_solve_tile_size": 640,
+          "edge_solve_halo": 32,
+          "edge_solve_tiles": 3,
+          "original_opaque_rgb_preserved": true
+        },
+        "status": "awaiting-original-white-dark-review",
+        "tool": "Original native scan / closed-form edge alpha and foreground decontamination",
+        "pixel_exact": false,
+        "ownership_guide_prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. Keep BOTH original upper-margin animals together: the complete gray hare at left with its long ears, muzzle/whiskers and paws, and the pale hound immediately touching it with its complete head, body, paws and tail. Preserve the exact original overlap/contact. Remove the red/blue/gold manuscript frame, unrelated leaf terminals and paper; no separate dismembered animals, changed species, new paws or hidden-body reconstruction. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_ownership_guide": {
+          "file": "tmp/extraction-work/walters-w82-52r--hare-and-hound-in-contact--retained-ai-extraction.png",
+          "sha256": "666e76f6f4513243333ce8edacaf2505bd5ade60f6cae6de12481afbbfc6635a",
+          "purpose": "Retained AI alpha guide only; delivered opaque RGB belongs to the unchanged native source."
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Inspected complete original pages, exact original input regions and current aligned native source/white/dark comparisons. Archer retains both entire feet, full red bow/string and original long arrow INCLUDING the tip restored by enlarging input bounds before generation. Hare/hound stay as one actual contacting group with full paws, tail, source blood markings and thin original whiskers. Orange-robed winged figure includes complete thin green feather tips, source pale limbs and gold collar; separate lower vine is not included. Complete source-native RGB and original proportions retained, no enlargement or replacement AI texture. Exterior page/frame and true limb openings cleared.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/walters-eleven-margin-native-review-current-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/walters-eleven-margin-native-review-current-proof-3.jpg"
+        ]
+      },
+      "categories": [
+        "animals"
+      ],
+      "subjects": [
+        "hare",
+        "hound",
+        "ear",
+        "paw",
+        "tail"
+      ],
+      "colors": [
+        "gray",
+        "cream",
+        "brown",
+        "black"
+      ],
+      "facing": "unclear",
+      "composition": "standalone",
+      "usage_notes": "Original native source RGB retained without resizing or redraw; registered retained AI alpha supplies approximate ownership only. Complete original visible subject, pale/gray/colored body surfaces and fine props retained; source page/frame exterior and genuine openings are transparent. Native source/white/dark review recorded. Original source occlusions or page-edge truncations are retained; no hidden reconstruction.",
+      "sets": [
+        {
+          "id": "walters-w82-marginalia",
+          "name": "Walters W.82 Marginalia",
+          "relation": "same manuscript; each page retains its source identity"
+        },
+        {
+          "id": "walters-w82-52r-set",
+          "name": "Initial \"D\" with a fool before David enthroned; man carrying horse on back in margin (walters-w82-52r)",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A gray hare and a pale hound contact each other in the upper margin.",
+      "set_label": "Walters W.82 Marginalia"
+    },
+    {
+      "id": "walters-w82-52r--long-brown-foliate-vine-with-blue-green-and-gold-leaves",
+      "name": "long-brown-foliate-vine-with-blue-green-and-gold-leaves",
+      "source_id": "walters-w82-52r",
+      "source_folder": "walters",
+      "asset_type": "decoration",
+      "description": "A long brown foliate vine has large curled loops, fine side branchlets and blue, green and gold leaves. Part of the Walters W.82 Marginalia set.",
+      "source_region": [
+        3930,
+        2322,
+        4787,
+        6610
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        52,
+        58,
+        826,
+        4267
+      ],
+      "export_crop_coordinate_space": "original-native-source-region",
+      "width": 774,
+      "height": 4209,
+      "png": "walters/walters-w82-52r--long-brown-foliate-vine-with-blue-green-and-gold-leaves.png",
+      "png_sha256": "8730efff02deec422c9cae79e1eb13216f6499ef5946ce6c7f03fb76e78e6012",
+      "provenance": {
+        "institution": "Walters Art Museum",
+        "title": "Initial \"D\" with a fool before David enthroned; man carrying horse on back in margin",
+        "object_identifier": "W.82, fol. 52r",
+        "date": "Ca. 1315-1325 CE",
+        "record_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/html/W82/description.html",
+        "image_rights": "CC0 (Digital Walters manuscript images)",
+        "rights_url": "https://www.thedigitalwalters.org/01_ACCESS_WALTERS_MANUSCRIPTS.html",
+        "source_file": "tmp/new-assets/walters/walters-w82-52r--initial-d-with-a-fool-before-david-enthroned-man-carrying-horse-on-back-in-margin--master.tif",
+        "source_sha256": "988ffd4dc9788e4b74e3d84f10127faaaafb59991a1b9ac2bf45548b1464bccb",
+        "source_metadata": "tmp/new-assets/walters/walters-w82-52r.json",
+        "image_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/W82/data/W.82/master/W82_000107_1200.tif",
+        "method": "native-source-continuous-edge-matting"
+      },
+      "extraction": {
+        "candidate_png": "tmp/extraction-work/continuation-20261010/walters-w82-52r--long-brown-foliate-vine-with-blue-green-and-gold-leaves--refined-original-native-candidate.png",
+        "native_export_crop": [
+          52,
+          58,
+          826,
+          4267
+        ],
+        "export_crop_coordinate_space": "original-native-source-region",
+        "annotation_json": "tmp/extraction-work/continuation-20261010/walters-w82-52r--long-brown-foliate-vine-with-blue-green-and-gold-leaves--refined-original-native-audit.json",
+        "trimap_png": "tmp/extraction-work/continuation-20261010/walters-w82-52r--long-brown-foliate-vine-with-blue-green-and-gold-leaves--refined-original-native-trimap.png",
+        "native_source_size": [
+          857,
+          4288
+        ],
+        "native_upscaling": false,
+        "source_pixels_redrawn": false,
+        "original_opaque_rgb_preserved": true,
+        "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+        "alpha_guide": {
+          "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+          "guide_png": "tmp/extraction-work/continuation-20261010/walters-w82-52r--long-brown-foliate-vine-with-blue-green-and-gold-leaves--native-alpha-reference.png",
+          "guide_sha256": "8f458bf01bb531451e579cad63ef91710c7b273c3c18536ad0c996dc16f5b767",
+          "native_original": "tmp/extraction-work/continuation-20261010/walters-w82-52r--long-brown-foliate-vine-with-blue-green-and-gold-leaves--original.png",
+          "similarity_ai_alpha_to_original": [
+            [
+              1.9620352935646885,
+              -0.008434872457318086,
+              -276.30042598153614
+            ],
+            [
+              0.008434872457318086,
+              1.9620352935646885,
+              -48.05399336787811
+            ]
+          ],
+          "matching_feature_pairs": 255,
+          "inlier_feature_pairs": 110,
+          "inlier_rms_native_pixels": 4.7241996221946545,
+          "source_inspection_factor": 0.436046511627907,
+          "unknown_edge_band_native_pixels": 3,
+          "edge_solve_tile_size": 640,
+          "edge_solve_halo": 32,
+          "edge_solve_tiles": 13,
+          "original_opaque_rgb_preserved": true
+        },
+        "status": "awaiting-original-white-dark-review",
+        "native_refinement": {
+          "method": "Expanded-source upper leaf reviewed at native scale. The former gray<115 guide admitted aged paper specks above the actual pointed leaf. The added upper region is rebuilt using gray<95 native ink/pigment, one-pixel closing and enclosed pale-interior filling within the same inspected leaf scope. The existing lower vine and terminal are retained. Three-native-pixel continuous edge alpha, original RGB, no reconstruction or scale change.",
+          "source": "tmp/extraction-work/continuation-20261010/walters-w82-52r--long-brown-foliate-vine-with-blue-green-and-gold-leaves--expanded-native-original.png",
+          "previous_native_matte": {
+            "candidate_png": "tmp/extraction-work/continuation-20261010/walters-w82-52r--long-brown-foliate-vine-with-blue-green-and-gold-leaves--refined-original-native-candidate.png",
+            "native_export_crop": [
+              51,
+              31,
+              826,
+              4267
+            ],
+            "export_crop_coordinate_space": "original-native-source-region",
+            "annotation_json": "tmp/extraction-work/continuation-20261010/walters-w82-52r--long-brown-foliate-vine-with-blue-green-and-gold-leaves--refined-original-native-audit.json",
+            "trimap_png": "tmp/extraction-work/continuation-20261010/walters-w82-52r--long-brown-foliate-vine-with-blue-green-and-gold-leaves--refined-original-native-trimap.png",
+            "native_source_size": [
+              857,
+              4288
+            ],
+            "native_upscaling": false,
+            "source_pixels_redrawn": false,
+            "original_opaque_rgb_preserved": true,
+            "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+            "alpha_guide": {
+              "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+              "guide_png": "tmp/extraction-work/continuation-20261010/walters-w82-52r--long-brown-foliate-vine-with-blue-green-and-gold-leaves--native-alpha-reference.png",
+              "guide_sha256": "8f458bf01bb531451e579cad63ef91710c7b273c3c18536ad0c996dc16f5b767",
+              "native_original": "tmp/extraction-work/continuation-20261010/walters-w82-52r--long-brown-foliate-vine-with-blue-green-and-gold-leaves--original.png",
+              "similarity_ai_alpha_to_original": [
+                [
+                  1.9620352935646885,
+                  -0.008434872457318086,
+                  -276.30042598153614
+                ],
+                [
+                  0.008434872457318086,
+                  1.9620352935646885,
+                  -48.05399336787811
+                ]
+              ],
+              "matching_feature_pairs": 255,
+              "inlier_feature_pairs": 110,
+              "inlier_rms_native_pixels": 4.7241996221946545,
+              "source_inspection_factor": 0.436046511627907,
+              "unknown_edge_band_native_pixels": 3,
+              "edge_solve_tile_size": 640,
+              "edge_solve_halo": 32,
+              "edge_solve_tiles": 13,
+              "original_opaque_rgb_preserved": true
+            },
+            "status": "awaiting-original-white-dark-review",
+            "native_refinement": {
+              "method": "The inspected upper brown pointed leaf is recovered from 160 additional original native scan rows above the previous source-input rectangle. Only its actual source ink/pigment within the individually inspected native region is added, with its pale folded interior opaque. The earlier complete vine and the corrected rolled lower terminal remain; the unrelated vertical gilt frame stays excluded. Continuous three-native-pixel alpha and original opaque RGB; no paint, stem or leaf is reconstructed.",
+              "source": "tmp/extraction-work/continuation-20261010/walters-w82-52r--long-brown-foliate-vine-with-blue-green-and-gold-leaves--expanded-native-original.png",
+              "previous_native_matte": {
+                "candidate_png": "tmp/extraction-work/continuation-20261010/walters-w82-52r--long-brown-foliate-vine-with-blue-green-and-gold-leaves--refined-original-native-candidate.png",
+                "native_export_crop": [
+                  41,
+                  0,
+                  826,
+                  4110
+                ],
+                "export_crop_coordinate_space": "original-native-source-region",
+                "annotation_json": "tmp/extraction-work/continuation-20261010/walters-w82-52r--long-brown-foliate-vine-with-blue-green-and-gold-leaves--refined-original-native-audit.json",
+                "trimap_png": "tmp/extraction-work/continuation-20261010/walters-w82-52r--long-brown-foliate-vine-with-blue-green-and-gold-leaves--refined-original-native-trimap.png",
+                "native_source_size": [
+                  857,
+                  4128
+                ],
+                "native_upscaling": false,
+                "source_pixels_redrawn": false,
+                "original_opaque_rgb_preserved": true,
+                "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+                "alpha_guide": {
+                  "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+                  "guide_png": "tmp/extraction-work/continuation-20261010/walters-w82-52r--long-brown-foliate-vine-with-blue-green-and-gold-leaves--native-alpha-reference.png",
+                  "guide_sha256": "8f458bf01bb531451e579cad63ef91710c7b273c3c18536ad0c996dc16f5b767",
+                  "native_original": "tmp/extraction-work/continuation-20261010/walters-w82-52r--long-brown-foliate-vine-with-blue-green-and-gold-leaves--original.png",
+                  "similarity_ai_alpha_to_original": [
+                    [
+                      1.9620352935646885,
+                      -0.008434872457318086,
+                      -276.30042598153614
+                    ],
+                    [
+                      0.008434872457318086,
+                      1.9620352935646885,
+                      -48.05399336787811
+                    ]
+                  ],
+                  "matching_feature_pairs": 255,
+                  "inlier_feature_pairs": 110,
+                  "inlier_rms_native_pixels": 4.7241996221946545,
+                  "source_inspection_factor": 0.436046511627907,
+                  "unknown_edge_band_native_pixels": 3,
+                  "edge_solve_tile_size": 640,
+                  "edge_solve_halo": 32,
+                  "edge_solve_tiles": 13,
+                  "original_opaque_rgb_preserved": true
+                },
+                "status": "awaiting-original-white-dark-review",
+                "native_refinement": {
+                  "method": "Original registered vine ownership retained. The unrelated vertical gilt page-frame strip at its lower end is excluded at its inspected interface with the brown loop and rolled terminal. The source brown terminal, loop interior, all earlier blue/green/gold leaves and fine stems remain native. A continuous seven-native-pixel edge solve fits the original ink and pigment near this interface; no new terminal, repeat, background or vector redraw.",
+                  "source": "tmp/extraction-work/continuation-20261010/walters-w82-52r--long-brown-foliate-vine-with-blue-green-and-gold-leaves--original.png",
+                  "previous_native_matte": {
+                    "candidate_png": "tmp/extraction-work/continuation-20261010/walters-w82-52r--long-brown-foliate-vine-with-blue-green-and-gold-leaves--registered-native-candidate.png",
+                    "native_export_crop": [
+                      44,
+                      0,
+                      822,
+                      4128
+                    ],
+                    "export_crop_coordinate_space": "original-native-source-region",
+                    "annotation_json": "tmp/extraction-work/continuation-20261010/walters-w82-52r--long-brown-foliate-vine-with-blue-green-and-gold-leaves--registered-native-annotation.json",
+                    "trimap_png": "tmp/extraction-work/continuation-20261010/walters-w82-52r--long-brown-foliate-vine-with-blue-green-and-gold-leaves--registered-native-trimap.png",
+                    "native_source_size": [
+                      857,
+                      4128
+                    ],
+                    "native_upscaling": false,
+                    "source_pixels_redrawn": false,
+                    "original_opaque_rgb_preserved": true,
+                    "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+                    "alpha_guide": {
+                      "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+                      "guide_png": "tmp/extraction-work/continuation-20261010/walters-w82-52r--long-brown-foliate-vine-with-blue-green-and-gold-leaves--native-alpha-reference.png",
+                      "guide_sha256": "8f458bf01bb531451e579cad63ef91710c7b273c3c18536ad0c996dc16f5b767",
+                      "native_original": "tmp/extraction-work/continuation-20261010/walters-w82-52r--long-brown-foliate-vine-with-blue-green-and-gold-leaves--original.png",
+                      "similarity_ai_alpha_to_original": [
+                        [
+                          1.9620352935646885,
+                          -0.008434872457318086,
+                          -276.30042598153614
+                        ],
+                        [
+                          0.008434872457318086,
+                          1.9620352935646885,
+                          -48.05399336787811
+                        ]
+                      ],
+                      "matching_feature_pairs": 255,
+                      "inlier_feature_pairs": 110,
+                      "inlier_rms_native_pixels": 4.7241996221946545,
+                      "source_inspection_factor": 0.436046511627907,
+                      "unknown_edge_band_native_pixels": 3,
+                      "edge_solve_tile_size": 640,
+                      "edge_solve_halo": 32,
+                      "edge_solve_tiles": 13,
+                      "original_opaque_rgb_preserved": true
+                    },
+                    "status": "awaiting-original-white-dark-review"
+                  },
+                  "unknown_band_native_pixels": 7,
+                  "source_rgb_redrawn": false,
+                  "source_resized": false,
+                  "original_opaque_rgb_preserved": true,
+                  "ownership": "tmp/extraction-work/continuation-20261010/walters-w82-52r--long-brown-foliate-vine-with-blue-green-and-gold-leaves--refined-original-native-ownership.png",
+                  "ownership_sha256": "f92aca28257f65e920a034d450a3ed23ea31f81af00a050d3b0695b2f798783e",
+                  "inspected_interface_guide_native_y_x": [
+                    [
+                      3638,
+                      622
+                    ],
+                    [
+                      3670,
+                      608
+                    ],
+                    [
+                      3700,
+                      598
+                    ],
+                    [
+                      3760,
+                      590
+                    ],
+                    [
+                      3840,
+                      584
+                    ],
+                    [
+                      3900,
+                      581
+                    ],
+                    [
+                      3940,
+                      586
+                    ],
+                    [
+                      3980,
+                      599
+                    ],
+                    [
+                      4010,
+                      604
+                    ],
+                    [
+                      4040,
+                      599
+                    ],
+                    [
+                      4070,
+                      580
+                    ],
+                    [
+                      4090,
+                      550
+                    ],
+                    [
+                      4110,
+                      480
+                    ]
+                  ],
+                  "dense_interface_native_y_x": [
+                    [
+                      3638,
+                      622
+                    ],
+                    [
+                      3639,
+                      622
+                    ],
+                    [
+                      3640,
+                      621
+                    ],
+                    [
+                      3641,
+                      621
+                    ],
+                    [
+                      3642,
+                      620
+                    ],
+                    [
+                      3643,
+                      620
+                    ],
+                    [
+                      3644,
+                      619
+                    ],
+                    [
+                      3645,
+                      619
+                    ],
+                    [
+                      3646,
+                      618
+                    ],
+                    [
+                      3647,
+                      618
+                    ],
+                    [
+                      3648,
+                      618
+                    ],
+                    [
+                      3649,
+                      617
+                    ],
+                    [
+                      3650,
+                      617
+                    ],
+                    [
+                      3651,
+                      616
+                    ],
+                    [
+                      3652,
+                      616
+                    ],
+                    [
+                      3653,
+                      615
+                    ],
+                    [
+                      3654,
+                      615
+                    ],
+                    [
+                      3655,
+                      615
+                    ],
+                    [
+                      3656,
+                      614
+                    ],
+                    [
+                      3657,
+                      614
+                    ],
+                    [
+                      3658,
+                      613
+                    ],
+                    [
+                      3659,
+                      613
+                    ],
+                    [
+                      3660,
+                      612
+                    ],
+                    [
+                      3661,
+                      612
+                    ],
+                    [
+                      3662,
+                      612
+                    ],
+                    [
+                      3663,
+                      611
+                    ],
+                    [
+                      3664,
+                      611
+                    ],
+                    [
+                      3665,
+                      610
+                    ],
+                    [
+                      3666,
+                      610
+                    ],
+                    [
+                      3667,
+                      609
+                    ],
+                    [
+                      3668,
+                      609
+                    ],
+                    [
+                      3669,
+                      608
+                    ],
+                    [
+                      3670,
+                      608
+                    ],
+                    [
+                      3671,
+                      608
+                    ],
+                    [
+                      3672,
+                      607
+                    ],
+                    [
+                      3673,
+                      607
+                    ],
+                    [
+                      3674,
+                      607
+                    ],
+                    [
+                      3675,
+                      606
+                    ],
+                    [
+                      3676,
+                      606
+                    ],
+                    [
+                      3677,
+                      606
+                    ],
+                    [
+                      3678,
+                      605
+                    ],
+                    [
+                      3679,
+                      605
+                    ],
+                    [
+                      3680,
+                      605
+                    ],
+                    [
+                      3681,
+                      604
+                    ],
+                    [
+                      3682,
+                      604
+                    ],
+                    [
+                      3683,
+                      604
+                    ],
+                    [
+                      3684,
+                      603
+                    ],
+                    [
+                      3685,
+                      603
+                    ],
+                    [
+                      3686,
+                      603
+                    ],
+                    [
+                      3687,
+                      602
+                    ],
+                    [
+                      3688,
+                      602
+                    ],
+                    [
+                      3689,
+                      602
+                    ],
+                    [
+                      3690,
+                      601
+                    ],
+                    [
+                      3691,
+                      601
+                    ],
+                    [
+                      3692,
+                      601
+                    ],
+                    [
+                      3693,
+                      600
+                    ],
+                    [
+                      3694,
+                      600
+                    ],
+                    [
+                      3695,
+                      600
+                    ],
+                    [
+                      3696,
+                      599
+                    ],
+                    [
+                      3697,
+                      599
+                    ],
+                    [
+                      3698,
+                      599
+                    ],
+                    [
+                      3699,
+                      598
+                    ],
+                    [
+                      3700,
+                      598
+                    ],
+                    [
+                      3701,
+                      598
+                    ],
+                    [
+                      3702,
+                      598
+                    ],
+                    [
+                      3703,
+                      598
+                    ],
+                    [
+                      3704,
+                      597
+                    ],
+                    [
+                      3705,
+                      597
+                    ],
+                    [
+                      3706,
+                      597
+                    ],
+                    [
+                      3707,
+                      597
+                    ],
+                    [
+                      3708,
+                      597
+                    ],
+                    [
+                      3709,
+                      597
+                    ],
+                    [
+                      3710,
+                      597
+                    ],
+                    [
+                      3711,
+                      597
+                    ],
+                    [
+                      3712,
+                      596
+                    ],
+                    [
+                      3713,
+                      596
+                    ],
+                    [
+                      3714,
+                      596
+                    ],
+                    [
+                      3715,
+                      596
+                    ],
+                    [
+                      3716,
+                      596
+                    ],
+                    [
+                      3717,
+                      596
+                    ],
+                    [
+                      3718,
+                      596
+                    ],
+                    [
+                      3719,
+                      595
+                    ],
+                    [
+                      3720,
+                      595
+                    ],
+                    [
+                      3721,
+                      595
+                    ],
+                    [
+                      3722,
+                      595
+                    ],
+                    [
+                      3723,
+                      595
+                    ],
+                    [
+                      3724,
+                      595
+                    ],
+                    [
+                      3725,
+                      595
+                    ],
+                    [
+                      3726,
+                      595
+                    ],
+                    [
+                      3727,
+                      594
+                    ],
+                    [
+                      3728,
+                      594
+                    ],
+                    [
+                      3729,
+                      594
+                    ],
+                    [
+                      3730,
+                      594
+                    ],
+                    [
+                      3731,
+                      594
+                    ],
+                    [
+                      3732,
+                      594
+                    ],
+                    [
+                      3733,
+                      594
+                    ],
+                    [
+                      3734,
+                      593
+                    ],
+                    [
+                      3735,
+                      593
+                    ],
+                    [
+                      3736,
+                      593
+                    ],
+                    [
+                      3737,
+                      593
+                    ],
+                    [
+                      3738,
+                      593
+                    ],
+                    [
+                      3739,
+                      593
+                    ],
+                    [
+                      3740,
+                      593
+                    ],
+                    [
+                      3741,
+                      593
+                    ],
+                    [
+                      3742,
+                      592
+                    ],
+                    [
+                      3743,
+                      592
+                    ],
+                    [
+                      3744,
+                      592
+                    ],
+                    [
+                      3745,
+                      592
+                    ],
+                    [
+                      3746,
+                      592
+                    ],
+                    [
+                      3747,
+                      592
+                    ],
+                    [
+                      3748,
+                      592
+                    ],
+                    [
+                      3749,
+                      591
+                    ],
+                    [
+                      3750,
+                      591
+                    ],
+                    [
+                      3751,
+                      591
+                    ],
+                    [
+                      3752,
+                      591
+                    ],
+                    [
+                      3753,
+                      591
+                    ],
+                    [
+                      3754,
+                      591
+                    ],
+                    [
+                      3755,
+                      591
+                    ],
+                    [
+                      3756,
+                      591
+                    ],
+                    [
+                      3757,
+                      590
+                    ],
+                    [
+                      3758,
+                      590
+                    ],
+                    [
+                      3759,
+                      590
+                    ],
+                    [
+                      3760,
+                      590
+                    ],
+                    [
+                      3761,
+                      590
+                    ],
+                    [
+                      3762,
+                      590
+                    ],
+                    [
+                      3763,
+                      590
+                    ],
+                    [
+                      3764,
+                      590
+                    ],
+                    [
+                      3765,
+                      590
+                    ],
+                    [
+                      3766,
+                      590
+                    ],
+                    [
+                      3767,
+                      589
+                    ],
+                    [
+                      3768,
+                      589
+                    ],
+                    [
+                      3769,
+                      589
+                    ],
+                    [
+                      3770,
+                      589
+                    ],
+                    [
+                      3771,
+                      589
+                    ],
+                    [
+                      3772,
+                      589
+                    ],
+                    [
+                      3773,
+                      589
+                    ],
+                    [
+                      3774,
+                      589
+                    ],
+                    [
+                      3775,
+                      589
+                    ],
+                    [
+                      3776,
+                      589
+                    ],
+                    [
+                      3777,
+                      589
+                    ],
+                    [
+                      3778,
+                      589
+                    ],
+                    [
+                      3779,
+                      589
+                    ],
+                    [
+                      3780,
+                      588
+                    ],
+                    [
+                      3781,
+                      588
+                    ],
+                    [
+                      3782,
+                      588
+                    ],
+                    [
+                      3783,
+                      588
+                    ],
+                    [
+                      3784,
+                      588
+                    ],
+                    [
+                      3785,
+                      588
+                    ],
+                    [
+                      3786,
+                      588
+                    ],
+                    [
+                      3787,
+                      588
+                    ],
+                    [
+                      3788,
+                      588
+                    ],
+                    [
+                      3789,
+                      588
+                    ],
+                    [
+                      3790,
+                      588
+                    ],
+                    [
+                      3791,
+                      588
+                    ],
+                    [
+                      3792,
+                      588
+                    ],
+                    [
+                      3793,
+                      588
+                    ],
+                    [
+                      3794,
+                      587
+                    ],
+                    [
+                      3795,
+                      587
+                    ],
+                    [
+                      3796,
+                      587
+                    ],
+                    [
+                      3797,
+                      587
+                    ],
+                    [
+                      3798,
+                      587
+                    ],
+                    [
+                      3799,
+                      587
+                    ],
+                    [
+                      3800,
+                      587
+                    ],
+                    [
+                      3801,
+                      587
+                    ],
+                    [
+                      3802,
+                      587
+                    ],
+                    [
+                      3803,
+                      587
+                    ],
+                    [
+                      3804,
+                      587
+                    ],
+                    [
+                      3805,
+                      587
+                    ],
+                    [
+                      3806,
+                      587
+                    ],
+                    [
+                      3807,
+                      586
+                    ],
+                    [
+                      3808,
+                      586
+                    ],
+                    [
+                      3809,
+                      586
+                    ],
+                    [
+                      3810,
+                      586
+                    ],
+                    [
+                      3811,
+                      586
+                    ],
+                    [
+                      3812,
+                      586
+                    ],
+                    [
+                      3813,
+                      586
+                    ],
+                    [
+                      3814,
+                      586
+                    ],
+                    [
+                      3815,
+                      586
+                    ],
+                    [
+                      3816,
+                      586
+                    ],
+                    [
+                      3817,
+                      586
+                    ],
+                    [
+                      3818,
+                      586
+                    ],
+                    [
+                      3819,
+                      586
+                    ],
+                    [
+                      3820,
+                      586
+                    ],
+                    [
+                      3821,
+                      585
+                    ],
+                    [
+                      3822,
+                      585
+                    ],
+                    [
+                      3823,
+                      585
+                    ],
+                    [
+                      3824,
+                      585
+                    ],
+                    [
+                      3825,
+                      585
+                    ],
+                    [
+                      3826,
+                      585
+                    ],
+                    [
+                      3827,
+                      585
+                    ],
+                    [
+                      3828,
+                      585
+                    ],
+                    [
+                      3829,
+                      585
+                    ],
+                    [
+                      3830,
+                      585
+                    ],
+                    [
+                      3831,
+                      585
+                    ],
+                    [
+                      3832,
+                      585
+                    ],
+                    [
+                      3833,
+                      585
+                    ],
+                    [
+                      3834,
+                      584
+                    ],
+                    [
+                      3835,
+                      584
+                    ],
+                    [
+                      3836,
+                      584
+                    ],
+                    [
+                      3837,
+                      584
+                    ],
+                    [
+                      3838,
+                      584
+                    ],
+                    [
+                      3839,
+                      584
+                    ],
+                    [
+                      3840,
+                      584
+                    ],
+                    [
+                      3841,
+                      584
+                    ],
+                    [
+                      3842,
+                      584
+                    ],
+                    [
+                      3843,
+                      584
+                    ],
+                    [
+                      3844,
+                      584
+                    ],
+                    [
+                      3845,
+                      584
+                    ],
+                    [
+                      3846,
+                      584
+                    ],
+                    [
+                      3847,
+                      584
+                    ],
+                    [
+                      3848,
+                      584
+                    ],
+                    [
+                      3849,
+                      584
+                    ],
+                    [
+                      3850,
+                      584
+                    ],
+                    [
+                      3851,
+                      583
+                    ],
+                    [
+                      3852,
+                      583
+                    ],
+                    [
+                      3853,
+                      583
+                    ],
+                    [
+                      3854,
+                      583
+                    ],
+                    [
+                      3855,
+                      583
+                    ],
+                    [
+                      3856,
+                      583
+                    ],
+                    [
+                      3857,
+                      583
+                    ],
+                    [
+                      3858,
+                      583
+                    ],
+                    [
+                      3859,
+                      583
+                    ],
+                    [
+                      3860,
+                      583
+                    ],
+                    [
+                      3861,
+                      583
+                    ],
+                    [
+                      3862,
+                      583
+                    ],
+                    [
+                      3863,
+                      583
+                    ],
+                    [
+                      3864,
+                      583
+                    ],
+                    [
+                      3865,
+                      583
+                    ],
+                    [
+                      3866,
+                      583
+                    ],
+                    [
+                      3867,
+                      583
+                    ],
+                    [
+                      3868,
+                      583
+                    ],
+                    [
+                      3869,
+                      583
+                    ],
+                    [
+                      3870,
+                      582
+                    ],
+                    [
+                      3871,
+                      582
+                    ],
+                    [
+                      3872,
+                      582
+                    ],
+                    [
+                      3873,
+                      582
+                    ],
+                    [
+                      3874,
+                      582
+                    ],
+                    [
+                      3875,
+                      582
+                    ],
+                    [
+                      3876,
+                      582
+                    ],
+                    [
+                      3877,
+                      582
+                    ],
+                    [
+                      3878,
+                      582
+                    ],
+                    [
+                      3879,
+                      582
+                    ],
+                    [
+                      3880,
+                      582
+                    ],
+                    [
+                      3881,
+                      582
+                    ],
+                    [
+                      3882,
+                      582
+                    ],
+                    [
+                      3883,
+                      582
+                    ],
+                    [
+                      3884,
+                      582
+                    ],
+                    [
+                      3885,
+                      582
+                    ],
+                    [
+                      3886,
+                      582
+                    ],
+                    [
+                      3887,
+                      582
+                    ],
+                    [
+                      3888,
+                      582
+                    ],
+                    [
+                      3889,
+                      582
+                    ],
+                    [
+                      3890,
+                      582
+                    ],
+                    [
+                      3891,
+                      581
+                    ],
+                    [
+                      3892,
+                      581
+                    ],
+                    [
+                      3893,
+                      581
+                    ],
+                    [
+                      3894,
+                      581
+                    ],
+                    [
+                      3895,
+                      581
+                    ],
+                    [
+                      3896,
+                      581
+                    ],
+                    [
+                      3897,
+                      581
+                    ],
+                    [
+                      3898,
+                      581
+                    ],
+                    [
+                      3899,
+                      581
+                    ],
+                    [
+                      3900,
+                      581
+                    ],
+                    [
+                      3901,
+                      581
+                    ],
+                    [
+                      3902,
+                      581
+                    ],
+                    [
+                      3903,
+                      581
+                    ],
+                    [
+                      3904,
+                      582
+                    ],
+                    [
+                      3905,
+                      582
+                    ],
+                    [
+                      3906,
+                      582
+                    ],
+                    [
+                      3907,
+                      582
+                    ],
+                    [
+                      3908,
+                      582
+                    ],
+                    [
+                      3909,
+                      582
+                    ],
+                    [
+                      3910,
+                      582
+                    ],
+                    [
+                      3911,
+                      582
+                    ],
+                    [
+                      3912,
+                      582
+                    ],
+                    [
+                      3913,
+                      583
+                    ],
+                    [
+                      3914,
+                      583
+                    ],
+                    [
+                      3915,
+                      583
+                    ],
+                    [
+                      3916,
+                      583
+                    ],
+                    [
+                      3917,
+                      583
+                    ],
+                    [
+                      3918,
+                      583
+                    ],
+                    [
+                      3919,
+                      583
+                    ],
+                    [
+                      3920,
+                      584
+                    ],
+                    [
+                      3921,
+                      584
+                    ],
+                    [
+                      3922,
+                      584
+                    ],
+                    [
+                      3923,
+                      584
+                    ],
+                    [
+                      3924,
+                      584
+                    ],
+                    [
+                      3925,
+                      584
+                    ],
+                    [
+                      3926,
+                      584
+                    ],
+                    [
+                      3927,
+                      584
+                    ],
+                    [
+                      3928,
+                      584
+                    ],
+                    [
+                      3929,
+                      585
+                    ],
+                    [
+                      3930,
+                      585
+                    ],
+                    [
+                      3931,
+                      585
+                    ],
+                    [
+                      3932,
+                      585
+                    ],
+                    [
+                      3933,
+                      585
+                    ],
+                    [
+                      3934,
+                      585
+                    ],
+                    [
+                      3935,
+                      585
+                    ],
+                    [
+                      3936,
+                      586
+                    ],
+                    [
+                      3937,
+                      586
+                    ],
+                    [
+                      3938,
+                      586
+                    ],
+                    [
+                      3939,
+                      586
+                    ],
+                    [
+                      3940,
+                      586
+                    ],
+                    [
+                      3941,
+                      586
+                    ],
+                    [
+                      3942,
+                      587
+                    ],
+                    [
+                      3943,
+                      587
+                    ],
+                    [
+                      3944,
+                      587
+                    ],
+                    [
+                      3945,
+                      588
+                    ],
+                    [
+                      3946,
+                      588
+                    ],
+                    [
+                      3947,
+                      588
+                    ],
+                    [
+                      3948,
+                      589
+                    ],
+                    [
+                      3949,
+                      589
+                    ],
+                    [
+                      3950,
+                      589
+                    ],
+                    [
+                      3951,
+                      590
+                    ],
+                    [
+                      3952,
+                      590
+                    ],
+                    [
+                      3953,
+                      590
+                    ],
+                    [
+                      3954,
+                      591
+                    ],
+                    [
+                      3955,
+                      591
+                    ],
+                    [
+                      3956,
+                      591
+                    ],
+                    [
+                      3957,
+                      592
+                    ],
+                    [
+                      3958,
+                      592
+                    ],
+                    [
+                      3959,
+                      592
+                    ],
+                    [
+                      3960,
+                      592
+                    ],
+                    [
+                      3961,
+                      593
+                    ],
+                    [
+                      3962,
+                      593
+                    ],
+                    [
+                      3963,
+                      593
+                    ],
+                    [
+                      3964,
+                      594
+                    ],
+                    [
+                      3965,
+                      594
+                    ],
+                    [
+                      3966,
+                      594
+                    ],
+                    [
+                      3967,
+                      595
+                    ],
+                    [
+                      3968,
+                      595
+                    ],
+                    [
+                      3969,
+                      595
+                    ],
+                    [
+                      3970,
+                      596
+                    ],
+                    [
+                      3971,
+                      596
+                    ],
+                    [
+                      3972,
+                      596
+                    ],
+                    [
+                      3973,
+                      597
+                    ],
+                    [
+                      3974,
+                      597
+                    ],
+                    [
+                      3975,
+                      597
+                    ],
+                    [
+                      3976,
+                      598
+                    ],
+                    [
+                      3977,
+                      598
+                    ],
+                    [
+                      3978,
+                      598
+                    ],
+                    [
+                      3979,
+                      599
+                    ],
+                    [
+                      3980,
+                      599
+                    ],
+                    [
+                      3981,
+                      599
+                    ],
+                    [
+                      3982,
+                      599
+                    ],
+                    [
+                      3983,
+                      600
+                    ],
+                    [
+                      3984,
+                      600
+                    ],
+                    [
+                      3985,
+                      600
+                    ],
+                    [
+                      3986,
+                      600
+                    ],
+                    [
+                      3987,
+                      600
+                    ],
+                    [
+                      3988,
+                      600
+                    ],
+                    [
+                      3989,
+                      600
+                    ],
+                    [
+                      3990,
+                      601
+                    ],
+                    [
+                      3991,
+                      601
+                    ],
+                    [
+                      3992,
+                      601
+                    ],
+                    [
+                      3993,
+                      601
+                    ],
+                    [
+                      3994,
+                      601
+                    ],
+                    [
+                      3995,
+                      602
+                    ],
+                    [
+                      3996,
+                      602
+                    ],
+                    [
+                      3997,
+                      602
+                    ],
+                    [
+                      3998,
+                      602
+                    ],
+                    [
+                      3999,
+                      602
+                    ],
+                    [
+                      4000,
+                      602
+                    ],
+                    [
+                      4001,
+                      602
+                    ],
+                    [
+                      4002,
+                      603
+                    ],
+                    [
+                      4003,
+                      603
+                    ],
+                    [
+                      4004,
+                      603
+                    ],
+                    [
+                      4005,
+                      603
+                    ],
+                    [
+                      4006,
+                      603
+                    ],
+                    [
+                      4007,
+                      604
+                    ],
+                    [
+                      4008,
+                      604
+                    ],
+                    [
+                      4009,
+                      604
+                    ],
+                    [
+                      4010,
+                      604
+                    ],
+                    [
+                      4011,
+                      604
+                    ],
+                    [
+                      4012,
+                      604
+                    ],
+                    [
+                      4013,
+                      604
+                    ],
+                    [
+                      4014,
+                      603
+                    ],
+                    [
+                      4015,
+                      603
+                    ],
+                    [
+                      4016,
+                      603
+                    ],
+                    [
+                      4017,
+                      603
+                    ],
+                    [
+                      4018,
+                      603
+                    ],
+                    [
+                      4019,
+                      602
+                    ],
+                    [
+                      4020,
+                      602
+                    ],
+                    [
+                      4021,
+                      602
+                    ],
+                    [
+                      4022,
+                      602
+                    ],
+                    [
+                      4023,
+                      602
+                    ],
+                    [
+                      4024,
+                      602
+                    ],
+                    [
+                      4025,
+                      602
+                    ],
+                    [
+                      4026,
+                      601
+                    ],
+                    [
+                      4027,
+                      601
+                    ],
+                    [
+                      4028,
+                      601
+                    ],
+                    [
+                      4029,
+                      601
+                    ],
+                    [
+                      4030,
+                      601
+                    ],
+                    [
+                      4031,
+                      600
+                    ],
+                    [
+                      4032,
+                      600
+                    ],
+                    [
+                      4033,
+                      600
+                    ],
+                    [
+                      4034,
+                      600
+                    ],
+                    [
+                      4035,
+                      600
+                    ],
+                    [
+                      4036,
+                      600
+                    ],
+                    [
+                      4037,
+                      600
+                    ],
+                    [
+                      4038,
+                      599
+                    ],
+                    [
+                      4039,
+                      599
+                    ],
+                    [
+                      4040,
+                      599
+                    ],
+                    [
+                      4041,
+                      598
+                    ],
+                    [
+                      4042,
+                      598
+                    ],
+                    [
+                      4043,
+                      597
+                    ],
+                    [
+                      4044,
+                      596
+                    ],
+                    [
+                      4045,
+                      596
+                    ],
+                    [
+                      4046,
+                      595
+                    ],
+                    [
+                      4047,
+                      595
+                    ],
+                    [
+                      4048,
+                      594
+                    ],
+                    [
+                      4049,
+                      593
+                    ],
+                    [
+                      4050,
+                      593
+                    ],
+                    [
+                      4051,
+                      592
+                    ],
+                    [
+                      4052,
+                      591
+                    ],
+                    [
+                      4053,
+                      591
+                    ],
+                    [
+                      4054,
+                      590
+                    ],
+                    [
+                      4055,
+                      590
+                    ],
+                    [
+                      4056,
+                      589
+                    ],
+                    [
+                      4057,
+                      588
+                    ],
+                    [
+                      4058,
+                      588
+                    ],
+                    [
+                      4059,
+                      587
+                    ],
+                    [
+                      4060,
+                      586
+                    ],
+                    [
+                      4061,
+                      586
+                    ],
+                    [
+                      4062,
+                      585
+                    ],
+                    [
+                      4063,
+                      584
+                    ],
+                    [
+                      4064,
+                      584
+                    ],
+                    [
+                      4065,
+                      583
+                    ],
+                    [
+                      4066,
+                      583
+                    ],
+                    [
+                      4067,
+                      582
+                    ],
+                    [
+                      4068,
+                      581
+                    ],
+                    [
+                      4069,
+                      581
+                    ],
+                    [
+                      4070,
+                      580
+                    ],
+                    [
+                      4071,
+                      578
+                    ],
+                    [
+                      4072,
+                      577
+                    ],
+                    [
+                      4073,
+                      576
+                    ],
+                    [
+                      4074,
+                      574
+                    ],
+                    [
+                      4075,
+                      572
+                    ],
+                    [
+                      4076,
+                      571
+                    ],
+                    [
+                      4077,
+                      570
+                    ],
+                    [
+                      4078,
+                      568
+                    ],
+                    [
+                      4079,
+                      566
+                    ],
+                    [
+                      4080,
+                      565
+                    ],
+                    [
+                      4081,
+                      564
+                    ],
+                    [
+                      4082,
+                      562
+                    ],
+                    [
+                      4083,
+                      560
+                    ],
+                    [
+                      4084,
+                      559
+                    ],
+                    [
+                      4085,
+                      558
+                    ],
+                    [
+                      4086,
+                      556
+                    ],
+                    [
+                      4087,
+                      554
+                    ],
+                    [
+                      4088,
+                      553
+                    ],
+                    [
+                      4089,
+                      552
+                    ],
+                    [
+                      4090,
+                      550
+                    ],
+                    [
+                      4091,
+                      546
+                    ],
+                    [
+                      4092,
+                      543
+                    ],
+                    [
+                      4093,
+                      540
+                    ],
+                    [
+                      4094,
+                      536
+                    ],
+                    [
+                      4095,
+                      532
+                    ],
+                    [
+                      4096,
+                      529
+                    ],
+                    [
+                      4097,
+                      526
+                    ],
+                    [
+                      4098,
+                      522
+                    ],
+                    [
+                      4099,
+                      518
+                    ],
+                    [
+                      4100,
+                      515
+                    ],
+                    [
+                      4101,
+                      512
+                    ],
+                    [
+                      4102,
+                      508
+                    ],
+                    [
+                      4103,
+                      504
+                    ],
+                    [
+                      4104,
+                      501
+                    ],
+                    [
+                      4105,
+                      498
+                    ],
+                    [
+                      4106,
+                      494
+                    ],
+                    [
+                      4107,
+                      490
+                    ],
+                    [
+                      4108,
+                      487
+                    ],
+                    [
+                      4109,
+                      484
+                    ],
+                    [
+                      4110,
+                      480
+                    ]
+                  ]
+                }
+              },
+              "unknown_band_native_pixels": 3,
+              "source_rgb_redrawn": false,
+              "source_resized": false,
+              "original_opaque_rgb_preserved": true,
+              "ownership": "tmp/extraction-work/continuation-20261010/walters-w82-52r--long-brown-foliate-vine-with-blue-green-and-gold-leaves--refined-original-native-ownership.png",
+              "ownership_sha256": "78a86a09b70217e022aceb71c8abb28c0760f514c0cfe4d828919d8029e2d8de",
+              "source_input_expansion": {
+                "old_native_source_bounds": [
+                  3930,
+                  2482,
+                  4787,
+                  6610
+                ],
+                "old_original_input": "tmp/extraction-work/continuation-20261010/walters-w82-52r--long-brown-foliate-vine-with-blue-green-and-gold-leaves--original.png",
+                "expanded_native_source_bounds": [
+                  3930,
+                  2322,
+                  4787,
+                  6610
+                ],
+                "expanded_original": "tmp/extraction-work/continuation-20261010/walters-w82-52r--long-brown-foliate-vine-with-blue-green-and-gold-leaves--expanded-native-original.png",
+                "reason": "Untouched source inspection above the old input reveals the complete pointed brown leaf; the old rectangle cuts through it. Added 160 native rows, without resizing or inventing paint."
+              },
+              "inspected_upper_leaf_scope": [
+                [
+                  250,
+                  38
+                ],
+                [
+                  305,
+                  58
+                ],
+                [
+                  338,
+                  115
+                ],
+                [
+                  415,
+                  159
+                ],
+                [
+                  526,
+                  226
+                ],
+                [
+                  510,
+                  274
+                ],
+                [
+                  350,
+                  275
+                ],
+                [
+                  275,
+                  206
+                ],
+                [
+                  250,
+                  137
+                ]
+              ],
+              "native_gray_pigment_guide_max": 115
+            }
+          },
+          "unknown_band_native_pixels": 3,
+          "source_rgb_redrawn": false,
+          "source_resized": false,
+          "original_opaque_rgb_preserved": true,
+          "ownership": "tmp/extraction-work/continuation-20261010/walters-w82-52r--long-brown-foliate-vine-with-blue-green-and-gold-leaves--refined-original-native-ownership.png",
+          "ownership_sha256": "344737e325aca478cd9967a1938414be227aba1bc6cc1c48c1367219a64492b6",
+          "native_gray_pigment_guide_max": 95,
+          "native_input_expansion": {
+            "old_native_source_bounds": [
+              3930,
+              2482,
+              4787,
+              6610
+            ],
+            "old_original_input": "tmp/extraction-work/continuation-20261010/walters-w82-52r--long-brown-foliate-vine-with-blue-green-and-gold-leaves--original.png",
+            "expanded_native_source_bounds": [
+              3930,
+              2322,
+              4787,
+              6610
+            ],
+            "expanded_original": "tmp/extraction-work/continuation-20261010/walters-w82-52r--long-brown-foliate-vine-with-blue-green-and-gold-leaves--expanded-native-original.png",
+            "reason": "Untouched source inspection above the old input reveals the complete pointed brown leaf; the old rectangle cuts through it. Added 160 native rows, without resizing or inventing paint."
+          }
+        },
+        "tool": "Original native scan / closed-form edge alpha and foreground decontamination",
+        "pixel_exact": false,
+        "ownership_guide_prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. Keep ONLY the COMPLETE actual connected lower-right long brown foliate vine, beginning with its large thin upper curled loop, continuing through the pointed brown folded bud, all thin stems/branchlets, ALL original blue/green/gold leaves, and all actual lower intertwined loops. Remove paper, lettering, nearby tape patch, the outer page frame and the separate orange-robed human-headed winged figure above it. That figure is physically disconnected from the vine and must not be included. Gold and pale interior leaf surfaces are real opaque paint, not background. True holes through every loop must be transparent. This is one finite ornament; no seamless repeat, new source-hidden tip or shortened vine. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_ownership_guide": {
+          "file": "tmp/extraction-work/walters-w82-52r--long-brown-foliate-vine-with-blue-green-and-gold-leaves--retained-ai-extraction.png",
+          "sha256": "8f458bf01bb531451e579cad63ef91710c7b273c3c18536ad0c996dc16f5b767",
+          "purpose": "Retained AI alpha guide only; delivered opaque RGB belongs to the unchanged native source."
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Viewed expanded untouched source, entire native original/white/dark comparison, and native close-ups of upper leaf and rolled base. Recovered the complete upper point from original source rows, kept pale folded leaf interiors and all fine vine branches, cleared true loop openings and surrounding paper, and excluded the separate gilt page-frame strip while keeping the original rolled brown end. Source scan wear stays original. No source enlargement, disconnected montage, invented repeat/corner or faceted SVG.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/two-refined-native-margin-pieces-current-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/vine-final-native-top-proof.jpg",
+          "tmp/extraction-work/continuation-20261010/vine-final-native-base-proof.jpg",
+          "tmp/extraction-work/continuation-20261010/vine-original-top-point-bounds-check.png"
+        ]
+      },
+      "categories": [
+        "floral",
+        "scrollwork"
+      ],
+      "subjects": [
+        "stem",
+        "leaf",
+        "curl",
+        "flower"
+      ],
+      "colors": [
+        "brown",
+        "blue",
+        "green",
+        "gold",
+        "cream"
+      ],
+      "facing": "unclear",
+      "composition": "standalone",
+      "usage_notes": "Finite original vertical foliate vine with its complete pointed upper leaf, curling brown stem, blue/green/gold leaves, genuine loop openings and rolled lower terminal. The source input is expanded above the original extraction to recover the actual visible upper leaf; the unrelated gilt page-frame strip is excluded from the base. Painted pale leaf interiors remain opaque, exterior paper and loop openings transparent. Original scan wear and paint texture remain, with no enlargement, inferred cycle, reconstructed paint or approximate SVG. The physically separate orange-robed winged figure is available independently.",
+      "sets": [
+        {
+          "id": "walters-w82-marginalia",
+          "name": "Walters W.82 Marginalia",
+          "relation": "same manuscript; each page retains its source identity"
+        },
+        {
+          "id": "walters-w82-52r-set",
+          "name": "Initial \"D\" with a fool before David enthroned; man carrying horse on back in margin (walters-w82-52r)",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A long brown foliate vine has large curled loops, fine side branchlets and blue, green and gold leaves.",
+      "set_label": "Walters W.82 Marginalia"
+    },
+    {
+      "id": "walters-w82-52r--man-carrying-horse",
+      "name": "man-carrying-horse",
+      "source_id": "walters-w82-52r",
+      "source_folder": "walters",
+      "asset_type": "illustration",
+      "description": "A man in an orange robe carries a tan horse draped over his shoulders, supporting it with both hands while its head and legs hang to the left. Part of the Walters W.82 Marginalia set.",
+      "source_region": [
+        1819,
+        6114,
+        3293,
+        7629
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        165,
+        21,
+        1216,
+        1240
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 1051,
+      "height": 1219,
+      "png": "walters/walters-w82-52r--man-carrying-horse.png",
+      "png_sha256": "742e2085fa4906dc07e2268d661684579399f309240e245a4d0c6eccbdec7645",
+      "provenance": {
+        "institution": "Walters Art Museum",
+        "title": "Initial \"D\" with a fool before David enthroned; man carrying horse on back in margin",
+        "object_identifier": "W.82, fol. 52r",
+        "date": "Ca. 1315-1325 CE",
+        "record_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/html/W82/description.html",
+        "image_rights": "CC0 (Digital Walters manuscript images)",
+        "rights_url": "https://www.thedigitalwalters.org/01_ACCESS_WALTERS_MANUSCRIPTS.html",
+        "source_file": "tmp/new-assets/walters/walters-w82-52r--initial-d-with-a-fool-before-david-enthroned-man-carrying-horse-on-back-in-margin--master.tif",
+        "source_sha256": "988ffd4dc9788e4b74e3d84f10127faaaafb59991a1b9ac2bf45548b1464bccb",
+        "source_metadata": "tmp/new-assets/walters/walters-w82-52r.json",
+        "image_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/W82/data/W.82/master/W82_000107_1200.tif",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: background-extraction. Edit target: the referenced ORIGINAL historical manuscript detail. Make a faithful transparent cutout of ONLY the specified complete painted subject. Keep the original pose, proportions, colors, hand-drawn contours and slight scan softness. Preserve every actual limb, prop and delicate painted stroke; do not invent missing parts or new detail. Opaque pale skin/eyes/painted surfaces stay opaque; genuine gaps between limbs and props and around the subject are transparent. Remove all parchment, text, foliate manuscript borders, unrelated neighbor figures, isolated marks and stains. Smooth fine antialiased edges; no coarse binary steps, polygon outlines, paper fringe, black ground line, shadow, sharpened modern cartoon or extra texture. Preserve the original figure aspect and its relative anatomy. Subject: ONE intact contacting group of the orange-robed man carrying the complete tan horse draped over his shoulders. The horse lies horizontally with its head and two front legs dangling downward at the left, its rump at the right and a curling thin dark tail; the man's raised hands grip the horse, his original pale curly-haired face remains below its belly, and his two slender green-clad legs extend apart to long bare feet. Keep the full horse head, mane, muzzle, all original dangling legs/hooves, curling tail, man's fingers, orange cloth folds, legs and feet. Do not split man and horse. Do not retain the blue/red/gold border crossing behind the feet, the neighbor's partial body at left or the other man at right. No restoration of hidden anatomy; keep the original visible occlusions and asymmetry.",
+        "retained_generated_extraction": "tmp/extraction-work/walters-w82-52r--man-carrying-horse--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "8948931615c3e905cf68f0fdf1dabf924820d79b0a33a26d27c595a21ae39526",
+        "retained_generated_size": [
+          1237,
+          1272
+        ],
+        "resolution_cap_scale": 1,
+        "resolution_capped_size": [
+          1237,
+          1272
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          1145,
+          1315
+        ],
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 9726
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "native-contours-and-new-assets-20261010",
+        "approval_scope": "Extraction-workflow visual review only; remains provisional for maintainer review.",
+        "checks": [
+          "actual-original-source",
+          "white-and-dark-backgrounds",
+          "complete-entity-and-fine-tips",
+          "native-subject-scale",
+          "opaque-painted-foreground",
+          "transparent-exterior-and-genuine-holes",
+          "contacting-group-policy"
+        ],
+        "notes": "Horse and carrying man form one contacting group. Checked the complete hanging front legs, hoof tips, head, mane, curled tail, both gripping hands and both green-clad legs. Expanded the original input to retain the left horse leg. Removed unrelated neighboring hand, page paper and painted lower border; kept true gaps between limbs transparent. Built-in image_gen extraction: approximate source texture, tones and small contours are explicitly recorded; no native subject upscaling and no forced SVG redraw.",
+        "evidence": [
+          "tmp/extraction-work/contour-corrections-20261010/walters-five-source-white-dark.jpg"
+        ]
+      },
+      "categories": [
+        "humans",
+        "animals"
+      ],
+      "subjects": [
+        "person",
+        "horse",
+        "carrying"
+      ],
+      "colors": [
+        "orange",
+        "brown",
+        "green",
+        "cream"
+      ],
+      "facing": "mixed",
+      "composition": "multiple-figures",
+      "usage_notes": "Original source and exact AI extraction prompt retained. This is an AI-assisted approximation, not a pixel-exact crop; minute contours, scan grain and tones can differ. No separately split versions of contacting figures/props. Native subject bounds cap both axes, with no raster upscaling.",
+      "sets": [
+        {
+          "id": "walters-w82-marginalia",
+          "name": "Walters W.82 Marginalia",
+          "relation": "same manuscript; each page retains its source identity"
+        },
+        {
+          "id": "walters-w82-52r-set",
+          "name": "Initial \"D\" with a fool before David enthroned; man carrying horse on back in margin (walters-w82-52r)",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A man in an orange robe carries a tan horse draped over his shoulders, supporting it with both hands while its head and legs hang to the left.",
+      "set_label": "Walters W.82 Marginalia"
+    },
+    {
+      "id": "walters-w82-52r--man-carrying-suspended-tub",
+      "name": "man-carrying-suspended-tub",
+      "source_id": "walters-w82-52r",
+      "source_folder": "walters",
+      "asset_type": "illustration",
+      "description": "A pale walking man carries a large suspended gray tub, with one arm over its rim and a small indistinct green object in his outstretched hand. Part of the Walters W.82 Marginalia set.",
+      "source_region": [
+        2995,
+        6114,
+        4134,
+        7494
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        92,
+        80,
+        1073,
+        1314
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 981,
+      "height": 1234,
+      "png": "walters/walters-w82-52r--man-carrying-suspended-tub.png",
+      "png_sha256": "65a32d544aaaf72af99bcb5a02087e1ab50c486b7fe106ae264011255bbedf56",
+      "provenance": {
+        "institution": "Walters Art Museum",
+        "title": "Initial \"D\" with a fool before David enthroned; man carrying horse on back in margin",
+        "object_identifier": "W.82, fol. 52r",
+        "date": "Ca. 1315-1325 CE",
+        "record_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/html/W82/description.html",
+        "image_rights": "CC0 (Digital Walters manuscript images)",
+        "rights_url": "https://www.thedigitalwalters.org/01_ACCESS_WALTERS_MANUSCRIPTS.html",
+        "source_file": "tmp/new-assets/walters/walters-w82-52r--initial-d-with-a-fool-before-david-enthroned-man-carrying-horse-on-back-in-margin--master.tif",
+        "source_sha256": "988ffd4dc9788e4b74e3d84f10127faaaafb59991a1b9ac2bf45548b1464bccb",
+        "source_metadata": "tmp/new-assets/walters/walters-w82-52r.json",
+        "image_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/W82/data/W.82/master/W82_000107_1200.tif",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: background-extraction. Edit target: the referenced ORIGINAL historical manuscript detail. Make a faithful transparent cutout of ONLY the specified complete painted subject. Keep the original pose, proportions, colors, hand-drawn contours and slight scan softness. Preserve every actual limb, prop and delicate painted stroke; do not invent missing parts or new detail. Opaque pale skin/eyes/painted surfaces stay opaque; genuine gaps between limbs and props and around the subject are transparent. Remove all parchment, text, foliate manuscript borders, unrelated neighbor figures, isolated marks and stains. Smooth fine antialiased edges; no coarse binary steps, polygon outlines, paper fringe, black ground line, shadow, sharpened modern cartoon or extra texture. Preserve the original figure aspect and its relative anatomy. Subject: the complete pale-faced walking man facing left, with short hair, a pale gray tunic, a large rounded open gray wooden tub suspended in front of his abdomen by the original straps, orange edge details, two thin legs and original long bare feet. His bent right arm reaches into/over the tub; his left hand extends forward holding the small indistinct green painted object visible in the source. Keep that held green object, all original fingers/straps/rims and foot contours, without inventing a different object or replacing the tub with an instrument. Remove the partial horse tail above/at far left, detached green smears beyond his actual held object, border strip and gilded discs behind his feet. Keep the original slim posture and complete original tub/legs.\n",
+        "retained_generated_extraction": "tmp/extraction-work/walters-w82-52r--man-carrying-suspended-tub--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "2cab02bd715f1b2339eae0b12e7151c1994f25879a95b60421ae473a3764d676",
+        "retained_generated_size": [
+          1139,
+          1381
+        ],
+        "resolution_cap_scale": 0.983824066864761,
+        "resolution_capped_size": [
+          1121,
+          1359
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          1050,
+          1220
+        ],
+        "subject_resolution_cap_method": "Both actual alpha>8 subject axes verified after resize. If Lanczos edge coverage extends the subject, resample once more directly from the retained raw master with a two-pixel safety allowance.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 11332
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "native-contours-and-new-assets-20261010",
+        "approval_scope": "Extraction-workflow visual review only; remains provisional for maintainer review.",
+        "checks": [
+          "actual-original-source",
+          "white-and-dark-backgrounds",
+          "complete-entity-and-fine-tips",
+          "native-subject-scale",
+          "opaque-painted-foreground",
+          "transparent-exterior-and-genuine-holes",
+          "contacting-group-policy"
+        ],
+        "notes": "Man, suspended tub, connecting straps and the small indistinct green object in his hand remain one prop-bearing illustration. Checked outstretched fingers, pale opaque tunic and tub interior, straps, both legs and feet. Removed the neighboring horse tail and page/border; did not identify the indistinct held object more narrowly than the source supports. Built-in image_gen extraction: approximate source texture, tones and small contours are explicitly recorded; no native subject upscaling and no forced SVG redraw.",
+        "evidence": [
+          "tmp/extraction-work/contour-corrections-20261010/walters-five-source-white-dark.jpg"
+        ]
+      },
+      "categories": [
+        "humans"
+      ],
+      "subjects": [
+        "person",
+        "tub",
+        "carrying"
+      ],
+      "colors": [
+        "gray",
+        "cream",
+        "orange",
+        "green"
+      ],
+      "facing": "left",
+      "composition": "single-figure",
+      "usage_notes": "Original source and exact AI extraction prompt retained. This is an AI-assisted approximation, not a pixel-exact crop; minute contours, scan grain and tones can differ. No separately split versions of contacting figures/props. Native subject bounds cap both axes, with no raster upscaling.",
+      "sets": [
+        {
+          "id": "walters-w82-marginalia",
+          "name": "Walters W.82 Marginalia",
+          "relation": "same manuscript; each page retains its source identity"
+        },
+        {
+          "id": "walters-w82-52r-set",
+          "name": "Initial \"D\" with a fool before David enthroned; man carrying horse on back in margin (walters-w82-52r)",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A pale walking man carries a large suspended gray tub, with one arm over its rim and a small indistinct green object in his outstretched hand.",
+      "set_label": "Walters W.82 Marginalia"
+    },
+    {
+      "id": "walters-w82-52r--orange-robed-human-headed-winged-figure",
+      "name": "orange-robed-human-headed-winged-figure",
+      "source_id": "walters-w82-52r",
+      "source_folder": "walters",
+      "asset_type": "illustration",
+      "description": "An orange-robed human-headed winged figure has a long green feathered wing and visible pale lower limbs. Part of the Walters W.82 Marginalia set.",
+      "source_region": [
+        3951,
+        585,
+        4787,
+        2566
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        137,
+        26,
+        804,
+        1806
+      ],
+      "export_crop_coordinate_space": "original-native-source-region",
+      "width": 667,
+      "height": 1780,
+      "png": "walters/walters-w82-52r--orange-robed-human-headed-winged-figure.png",
+      "png_sha256": "e232383f904caa7dc8481d9950ce4de299f163c8abfc33cbbe52767575b88f12",
+      "provenance": {
+        "institution": "Walters Art Museum",
+        "title": "Initial \"D\" with a fool before David enthroned; man carrying horse on back in margin",
+        "object_identifier": "W.82, fol. 52r",
+        "date": "Ca. 1315-1325 CE",
+        "record_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/html/W82/description.html",
+        "image_rights": "CC0 (Digital Walters manuscript images)",
+        "rights_url": "https://www.thedigitalwalters.org/01_ACCESS_WALTERS_MANUSCRIPTS.html",
+        "source_file": "tmp/new-assets/walters/walters-w82-52r--initial-d-with-a-fool-before-david-enthroned-man-carrying-horse-on-back-in-margin--master.tif",
+        "source_sha256": "988ffd4dc9788e4b74e3d84f10127faaaafb59991a1b9ac2bf45548b1464bccb",
+        "source_metadata": "tmp/new-assets/walters/walters-w82-52r.json",
+        "image_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/W82/data/W.82/master/W82_000107_1200.tif",
+        "method": "native-source-continuous-edge-matting"
+      },
+      "extraction": {
+        "candidate_png": "tmp/extraction-work/continuation-20261010/walters-w82-52r--orange-robed-human-headed-winged-figure--registered-native-candidate.png",
+        "native_export_crop": [
+          137,
+          26,
+          804,
+          1806
+        ],
+        "export_crop_coordinate_space": "original-native-source-region",
+        "annotation_json": "tmp/extraction-work/continuation-20261010/walters-w82-52r--orange-robed-human-headed-winged-figure--registered-native-annotation.json",
+        "trimap_png": "tmp/extraction-work/continuation-20261010/walters-w82-52r--orange-robed-human-headed-winged-figure--registered-native-trimap.png",
+        "native_source_size": [
+          836,
+          1981
+        ],
+        "native_upscaling": false,
+        "source_pixels_redrawn": false,
+        "original_opaque_rgb_preserved": true,
+        "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+        "alpha_guide": {
+          "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+          "guide_png": "tmp/extraction-work/continuation-20261010/walters-w82-52r--orange-robed-human-headed-winged-figure--native-alpha-reference.png",
+          "guide_sha256": "781b9d129b28cc9577abd0582f7342196ca4c8a10068d754d5b1cdeaf5d6a20f",
+          "native_original": "tmp/extraction-work/continuation-20261010/walters-w82-52r--orange-robed-human-headed-winged-figure--original.png",
+          "similarity_ai_alpha_to_original": [
+            [
+              0.9490511117175625,
+              0.003881340751229123,
+              50.332376834920126
+            ],
+            [
+              -0.003881340751229123,
+              0.9490511117175625,
+              16.548813737514507
+            ]
+          ],
+          "matching_feature_pairs": 490,
+          "inlier_feature_pairs": 179,
+          "inlier_rms_native_pixels": 2.6159559608025953,
+          "source_inspection_factor": 0.9086320040383644,
+          "unknown_edge_band_native_pixels": 3,
+          "edge_solve_tile_size": 640,
+          "edge_solve_halo": 32,
+          "edge_solve_tiles": 6,
+          "original_opaque_rgb_preserved": true
+        },
+        "status": "awaiting-original-white-dark-review",
+        "tool": "Original native scan / closed-form edge alpha and foreground decontamination",
+        "pixel_exact": false,
+        "ownership_guide_prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. Keep only the COMPLETE original human-headed winged figure in the upper-right margin: its original hair/face, orange robe with gold collar, both visible hands and all pale limbs visible to the left of its robe, the ENTIRE long green feathered wing extending upward including every thin feather tip, and the complete tapering robe. Remove the nearby outer frame, paper and tape patch, and the separate foliate vine farther below. That lower vine is disconnected from the figure in the original and must not be included. Preserve exactly source-visible anatomy and cropped manuscript-edge parts without restoring hidden fabric or repainting covered details. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_ownership_guide": {
+          "file": "tmp/extraction-work/walters-w82-52r--orange-robed-human-headed-winged-figure--retained-ai-extraction.png",
+          "sha256": "781b9d129b28cc9577abd0582f7342196ca4c8a10068d754d5b1cdeaf5d6a20f",
+          "purpose": "Retained AI alpha guide only; delivered opaque RGB belongs to the unchanged native source."
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Inspected complete original pages, exact original input regions and current aligned native source/white/dark comparisons. Archer retains both entire feet, full red bow/string and original long arrow INCLUDING the tip restored by enlarging input bounds before generation. Hare/hound stay as one actual contacting group with full paws, tail, source blood markings and thin original whiskers. Orange-robed winged figure includes complete thin green feather tips, source pale limbs and gold collar; separate lower vine is not included. Complete source-native RGB and original proportions retained, no enlargement or replacement AI texture. Exterior page/frame and true limb openings cleared.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/walters-eleven-margin-native-review-current-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/walters-eleven-margin-native-review-current-proof-3.jpg"
+        ]
+      },
+      "categories": [
+        "humans",
+        "fantasy"
+      ],
+      "subjects": [
+        "figure",
+        "head",
+        "wing",
+        "robe",
+        "hand",
+        "foot"
+      ],
+      "colors": [
+        "orange",
+        "green",
+        "cream",
+        "gold",
+        "brown"
+      ],
+      "facing": "unclear",
+      "composition": "standalone",
+      "usage_notes": "Original native source RGB retained without resizing or redraw; registered retained AI alpha supplies approximate ownership only. Complete original visible subject, pale/gray/colored body surfaces and fine props retained; source page/frame exterior and genuine openings are transparent. Native source/white/dark review recorded. Original source occlusions or page-edge truncations are retained; no hidden reconstruction.",
+      "sets": [
+        {
+          "id": "walters-w82-marginalia",
+          "name": "Walters W.82 Marginalia",
+          "relation": "same manuscript; each page retains its source identity"
+        },
+        {
+          "id": "walters-w82-52r-set",
+          "name": "Initial \"D\" with a fool before David enthroned; man carrying horse on back in margin (walters-w82-52r)",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "An orange-robed human-headed winged figure has a long green feathered wing and visible pale lower limbs.",
+      "set_label": "Walters W.82 Marginalia"
+    }
+  ]
+}

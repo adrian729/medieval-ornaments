@@ -1,0 +1,275 @@
+{
+  "source_id": "nga-3375",
+  "assets": [
+    {
+      "id": "nga-3375--circular-acanthus-and-grotesque-ornament",
+      "name": "circular-acanthus-and-grotesque-ornament",
+      "source_id": "nga-3375",
+      "source_folder": "national-gallery-of-art",
+      "asset_type": "decoration",
+      "description": "A fixed circular acanthus ornament with grotesque figures and masks. Part of the Circular Ornament with Musicians Playing near a Well (nga-3375) set.",
+      "source_region": [
+        259,
+        246,
+        3352,
+        3434
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        0,
+        0,
+        1235,
+        1274
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 1235,
+      "height": 1274,
+      "png": "national-gallery-of-art/nga-3375--circular-acanthus-and-grotesque-ornament.png",
+      "png_sha256": "eb0c29cb734f42120f9784d2eebf77443b946d6160898fc42ae1e71d626a6635",
+      "provenance": {
+        "institution": "National Gallery of Art, Washington",
+        "title": "Circular Ornament with Musicians Playing near a Well",
+        "object_identifier": "1943.3.163",
+        "date": "c. 1495/1503",
+        "artist": "Israhel van Meckenem",
+        "record_url": "https://www.nga.gov/collection/art-object-page.3375.html",
+        "image_rights": "Open Access / public domain; official image dataset openaccess=1",
+        "rights_url": "https://www.nga.gov/artworks/free-images-and-open-access",
+        "source_file": "tmp/new-assets/national-gallery-of-art/nga-3375--circular-ornament-with-musicians-playing-near-a-well.jpg",
+        "source_sha256": "e60d9b77c83e40852274de9b27356b17f0dc4fb3d00abc058b5c5229c5a40336",
+        "source_metadata": "tmp/new-assets/national-gallery-of-art/nga-3375.json",
+        "image_url": "https://api.nga.gov/iiif/402edd12-ca6a-4c3c-b9d0-507e8f95e985/full/full/0/default.jpg",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. Extract ONLY complete circular foliate ornamental BAND surrounding central musicians scene. Preserve its actual irregular round outline, every large engraved curl, continuous thin vine, grotesque head, tiny animal and bud. Clear central circular opening, entire musicians/fountain scene inside, outer paper and all dark crosshatched background within the leafy band including ALL genuine holes. Pale leaf and skin surfaces opaque with original hatching. No generic redrawn circle, not a repeating tile. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_extraction": "tmp/extraction-work/nga-3375--circular-acanthus-and-grotesque-ornament--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "25d035eb2191d432763698978796b3ae652f9159be0ce55a777c9be1a8272692",
+        "retained_generated_size": [
+          1235,
+          1274
+        ],
+        "resolution_cap_scale": 1,
+        "resolution_capped_size": [
+          1235,
+          1274
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          3033,
+          3120
+        ],
+        "native_subject_size_evidence": {
+          "method": "Individually inspected native visible subject bounds, excluding input-region whitespace and neighbours.",
+          "preview_subject_bounds": [
+            114,
+            108,
+            1283,
+            1311
+          ],
+          "preview_size": [
+            1400,
+            1422
+          ],
+          "original_size": [
+            3632,
+            3688
+          ]
+        },
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 34346
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Compared every entity with the original at source scale on white/dark. All original contact groups remain together, including stag/hound and each rider/horse. Separate hounds and the complete hunting landscape are also retained. Printed paper, landscape hatching around individuals and crosshatched ornament background removed, pale engraved surfaces opaque, true gaps clear. AI method and exact input/prompt are retained; no source raster upscaling or SVG stand-in.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/hunt-nga-met-ready-results-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/hunt-nga-met-ready-results-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/hunt-nga-met-ready-results-proof-3.jpg"
+        ]
+      },
+      "categories": [
+        "floral",
+        "hybrids",
+        "scrollwork"
+      ],
+      "subjects": [
+        "acanthus",
+        "leaf",
+        "grotesque",
+        "mask",
+        "frame"
+      ],
+      "colors": [
+        "black",
+        "brown",
+        "cream"
+      ],
+      "facing": "unclear",
+      "composition": "single-ornament",
+      "usage_notes": "Original independent specimen with printed plate rules and page removed. AI-assisted extraction remains approximate; source bounds, actual native subject cap, original and exact prompt retained.",
+      "sets": [
+        {
+          "id": "nga-3375-set",
+          "name": "Circular Ornament with Musicians Playing near a Well (nga-3375)",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A fixed circular acanthus ornament with grotesque figures and masks.",
+      "set_label": "Circular Ornament with Musicians Playing near a Well (nga-3375)"
+    },
+    {
+      "id": "nga-3375--two-seated-musicians-with-shared-fountain",
+      "name": "two-seated-musicians-with-shared-fountain",
+      "source_id": "nga-3375",
+      "source_folder": "national-gallery-of-art",
+      "asset_type": "illustration",
+      "description": "Two seated musicians with a lute and harp beside a shared architectural fountain. Part of the Circular Ornament with Musicians Playing near a Well (nga-3375) set.",
+      "source_region": [
+        1084,
+        1131,
+        2400,
+        2293
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        6,
+        0,
+        1254,
+        1109
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 1248,
+      "height": 1109,
+      "png": "national-gallery-of-art/nga-3375--two-seated-musicians-with-shared-fountain.png",
+      "png_sha256": "7f30634014b3dedd2551497ea60b2f2e2ab0566aa31084f1d17c46c8a3dc3644",
+      "provenance": {
+        "institution": "National Gallery of Art, Washington",
+        "title": "Circular Ornament with Musicians Playing near a Well",
+        "object_identifier": "1943.3.163",
+        "date": "c. 1495/1503",
+        "artist": "Israhel van Meckenem",
+        "record_url": "https://www.nga.gov/collection/art-object-page.3375.html",
+        "image_rights": "Open Access / public domain; official image dataset openaccess=1",
+        "rights_url": "https://www.nga.gov/artworks/free-images-and-open-access",
+        "source_file": "tmp/new-assets/national-gallery-of-art/nga-3375--circular-ornament-with-musicians-playing-near-a-well.jpg",
+        "source_sha256": "e60d9b77c83e40852274de9b27356b17f0dc4fb3d00abc058b5c5229c5a40336",
+        "source_metadata": "tmp/new-assets/national-gallery-of-art/nga-3375.json",
+        "image_url": "https://api.nga.gov/iiif/402edd12-ca6a-4c3c-b9d0-507e8f95e985/full/full/0/default.jpg",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. Extract ONLY entire intrinsic contacting central group: seated lute player at left and seated harp player at right, their original shared architectural octagonal fountain/well with central spire and two side vessels, both source-visible benches, full instruments, fingers and exposed feet. Keep ONE group because figures and shared props contact. Remove circular floral surround, lower signature lettering, sky/blank paper and grass beyond actual contact footprint. Clear real spaces inside harp strings, fountain architecture and between limbs. No hidden reconstruction. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_extraction": "tmp/extraction-work/nga-3375--two-seated-musicians-with-shared-fountain--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "b445b4b972f1dd2295214139db58dc275e262684f740e9269b6c21f3fb70ce7a",
+        "retained_generated_size": [
+          1334,
+          1179
+        ],
+        "resolution_cap_scale": 0.9409751924721984,
+        "resolution_capped_size": [
+          1255,
+          1109
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          1250,
+          1100
+        ],
+        "native_subject_size_evidence": {
+          "method": "Individually inspected native visible subject bounds, excluding input-region whitespace and neighbours.",
+          "preview_subject_bounds": [
+            432,
+            448,
+            914,
+            872
+          ],
+          "preview_size": [
+            1400,
+            1422
+          ],
+          "original_size": [
+            3632,
+            3688
+          ]
+        },
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 4433
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Compared every entity with the original at source scale on white/dark. All original contact groups remain together, including stag/hound and each rider/horse. Separate hounds and the complete hunting landscape are also retained. Printed paper, landscape hatching around individuals and crosshatched ornament background removed, pale engraved surfaces opaque, true gaps clear. AI method and exact input/prompt are retained; no source raster upscaling or SVG stand-in.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/hunt-nga-met-ready-results-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/hunt-nga-met-ready-results-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/hunt-nga-met-ready-results-proof-3.jpg"
+        ]
+      },
+      "categories": [
+        "humans",
+        "music"
+      ],
+      "subjects": [
+        "musician",
+        "lute",
+        "harp",
+        "fountain"
+      ],
+      "colors": [
+        "black",
+        "brown",
+        "cream"
+      ],
+      "facing": "unclear",
+      "composition": "multiple-figures",
+      "usage_notes": "Original independent specimen with printed plate rules and page removed. AI-assisted extraction remains approximate; source bounds, actual native subject cap, original and exact prompt retained.",
+      "sets": [
+        {
+          "id": "nga-3375-set",
+          "name": "Circular Ornament with Musicians Playing near a Well (nga-3375)",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "Two seated musicians with a lute and harp beside a shared architectural fountain.",
+      "set_label": "Circular Ornament with Musicians Playing near a Well (nga-3375)"
+    }
+  ]
+}

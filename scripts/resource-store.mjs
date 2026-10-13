@@ -18,6 +18,9 @@ export const resourceDirectory = id => path.join(projectRoot, 'tmp/resource-chec
 export const sourceId = (collection, sequence) => `${collection}-${String(sequence).padStart(3, '0')}`;
 export const repositoryName = id => `medieval-ornaments-assets-${id}`;
 export const packageName = id => `@ranx729/${repositoryName(id)}`;
+export const componentSuffixes = ['-border', '-corner', '-rotated', '-reference', '-bar', '-bar-rotated',
+  '-corner-top-left', '-corner-top-right', '-corner-bottom-left', '-corner-bottom-right'];
+export const designStems = name => [name, ...componentSuffixes.map(suffix => name + suffix)];
 // Default public delivery for an exact numbered resource version.
 // jsDelivr: fast first requests and available within minutes of publishing;
 // every package stays under its 150 MB limit (maxNpmUnpackedBytes).
@@ -38,7 +41,7 @@ export function ownedPaths() {
     const data = manifest(id);
     const config=registry();
     const retainedFiles=new Set(Object.entries(data.designs).filter(([name])=>config.assignments[name]!==id).flatMap(([,item])=>designPaths(item)));
-    for (const relative of [...Object.keys(data.files).filter(p=>!retainedFiles.has(p)), ...Object.keys(data.inputs || {}).filter(p=>!Object.keys(data.designs).some(name=>config.assignments[name]!==id&&[name,...['-border','-corner','-rotated','-reference'].map(suffix=>name+suffix)].includes(path.basename(p).replace(/\.[^.]+$/,''))))]) {
+    for (const relative of [...Object.keys(data.files).filter(p=>!retainedFiles.has(p)), ...Object.keys(data.inputs || {}).filter(p=>!Object.keys(data.designs).some(name=>config.assignments[name]!==id&&designStems(name).includes(path.basename(p).replace(/\.[^.]+$/,''))))]) {
       checkedRelative(relative);
       if (result.has(relative)) throw Error(`Resource path has two owners: ${relative}`);
       result.set(relative, id);
@@ -53,13 +56,13 @@ export function resourceFile(relative, { write = false } = {}) {
   let id = owners.get(relative);
   if(write && id) {
     const stem=path.basename(relative).replace(/\.[^.]+$/,''),config=registry();
-    const candidates=Object.keys(config.assignments).filter(name=>stem===name||['-border','-corner','-rotated','-reference'].some(suffix=>stem===name+suffix));
+    const candidates=Object.keys(config.assignments).filter(name=>designStems(name).includes(stem));
     if(candidates.length!==1||config.assignments[candidates[0]]!==id)throw Error(`Resource write has conflicting design ownership: ${relative}`);
   }
   if (!id && /^(?:png|webp|svg|sources\/(?:tiles|traces))\//.test(relative)) {
     const stem = path.basename(relative).replace(/\.[^.]+$/, '');
     const assignments = registry().assignments;
-    const candidates = Object.keys(assignments).filter(name => stem === name || ['-border', '-corner', '-rotated', '-reference'].some(suffix => stem === name + suffix));
+    const candidates = Object.keys(assignments).filter(name => designStems(name).includes(stem));
     if (candidates.length !== 1) throw Error(`Register an unambiguous resource assignment before writing ${relative}`);
     id = assignments[candidates[0]];
   }

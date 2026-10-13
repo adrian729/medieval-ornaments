@@ -144,7 +144,9 @@ def build(names=None):
     illustration_items=illustrations()
     from raster_borders import records, build as build_raster_border
     raster_borders=records()
-    known={item['name'] for item in [*raster,*designs,*illustration_items,*raster_borders]}
+    from finished_assets import border_records, build_border
+    finished_borders=border_records()
+    known={item['name'] for item in [*raster,*designs,*illustration_items,*raster_borders,*finished_borders]}
     assert selected<=known,'Unknown design name'
     catalog=[]
     reference_path=ROOT/'reference-crops.json'
@@ -212,6 +214,11 @@ def build(names=None):
             catalog.append(next(old for old in old_catalog if old['name']==record['name']))
         else:
             catalog.append(build_raster_border(record))
+    for record in finished_borders:
+        if selected and record['name'] not in selected:
+            catalog.append(next(old for old in old_catalog if old['name']==record['name']))
+        else:
+            catalog.append(build_border(record))
     assert all(hashlib.sha256((resource_file(name)).read_bytes()).hexdigest()==digest for name,digest in before.items())
     # Illustrations have their own master catalog/resize command. Border builds
     # include them unchanged and cannot delete their original files or variants.

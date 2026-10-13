@@ -1,0 +1,831 @@
+{
+  "source_id": "openn-lewis-e-m-028-026-027",
+  "assets": [
+    {
+      "id": "openn-lewis-e-m-028-026-027--crowned-winged-figure-with-chalice",
+      "name": "crowned-winged-figure-with-chalice",
+      "source_id": "openn-lewis-e-m-028-026-027",
+      "source_folder": "openn-free-library",
+      "asset_type": "illustration",
+      "description": "A two-faced crowned alchemical figure with one gold wing and one blue wing, holding a chalice with three green serpent heads. Part of the Miniature from an alchemical manuscript (openn-lewis-e-m-028-026-027) set.",
+      "source_region": [
+        0,
+        0,
+        3064,
+        3226
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        76,
+        7,
+        1176,
+        1278
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 1100,
+      "height": 1271,
+      "png": "openn-free-library/openn-lewis-e-m-028-026-027--crowned-winged-figure-with-chalice.png",
+      "png_sha256": "051cb1e77d34fea7e697a6006cd6b983bec98ae822d68814b75e4796a3227a04",
+      "provenance": {
+        "institution": "Free Library of Philadelphia, John Frederick Lewis Collection",
+        "title": "Miniature from an alchemical manuscript",
+        "object_identifier": "Lewis E M 28:26-27 Miniature from an alchemical manuscript",
+        "date": "(Italy (northern?), 1400-1499)",
+        "record_url": "https://openn.library.upenn.edu/Data/0023/html/lewis_e_m_028_026-027.html",
+        "image_rights": "Public Domain Mark 1.0; item record explicitly places images in public domain",
+        "rights_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "source_file": "tmp/new-assets/openn-free-library/openn-lewis-e-m-028-026-027--miniature-from-an-alchemical-manuscript--master.tif",
+        "source_sha256": "b87275307689fde187402827139bfcd856127bf12664822834ba834ddafe7fa5",
+        "source_metadata": "tmp/new-assets/openn-free-library/openn-lewis-e-m-028-026-027.json",
+        "image_url": "https://openn.library.upenn.edu/Data/0023/lewis_e_m_028_026-027/data/master/7868_0000.tif",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: faithful historical miniature extraction. Edit the ORIGINAL alchemical miniature. Extract only the complete central TWO-FACED CROWNED WINGED FIGURE HOLDING THE CHALICE: the original gold crown, BOTH original faces side by side under their shared crown, and all hair, gold-and-black upper robe and red-and-black skirt, both original arms and hands, the original black-and-gold chalice AND all THREE green serpent heads projecting from it, the entire GOLD LEFT WING and BLUE RIGHT WING including every long tip, and the two original bare lower legs and feet. All of these belong together as one figure. Clear the blue painted sky, the original rocky green ground, the decorative rectangular frame, paper and color chart. Retain the gold and blue wing surfaces and all pale skin opaque, along with original thin outlines, painted folds and feather highlights. True spaces between fingers, feathers, arms, chalice and legs become transparent. Preserve the source-visible feet and every feather tip without inventing hidden parts or extending source-clipped tips. Do not redraw, modernize, symmetrize, sharpen, stretch or compress the painting. Fine antialiasing faithful to the hand-painted outline, no halo or stepped cut. Transparent exterior and internal holes.",
+        "retained_generated_extraction": "tmp/extraction-work/openn-lewis-e-m-028-026-027--crowned-winged-figure-with-chalice--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "90664cf2d2a8b1425f73bcb227f41fc55074b29ccf108b85c95e7c306d07bb3c",
+        "retained_generated_size": [
+          1222,
+          1287
+        ],
+        "resolution_cap_scale": 1,
+        "resolution_capped_size": [
+          1222,
+          1287
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          2300,
+          2770
+        ],
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 22880
+        }
+      },
+      "parent": "openn-lewis-e-m-028-026-027--two-faced-alchemical-figure-and-dragon-scene",
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "approval_scope": "Original source comparison; provisional for maintainer review.",
+        "checks": [
+          "complete-source-visible-subject",
+          "original-proportions",
+          "transparent-exterior-and-openings",
+          "opaque-original-paint-surfaces",
+          "thin-original-tips-and-props",
+          "white-and-dark-backgrounds",
+          "native-size-cap"
+        ],
+        "notes": "Compared against the original source and retained all actual leaf tips, painted highlights, thin stems, contacting props and original visible anatomy. The two-faced alchemical figure retains both faces, shared crown, both wings and all three chalice serpent heads; the reclining dragon includes both brown rear wings. AI-assisted texture and contour differences remain explicitly recorded.",
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/twelve-ornament-generated-results-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/twelve-ornament-generated-results-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/twelve-ornament-generated-results-proof-3.jpg"
+        ]
+      },
+      "categories": [
+        "humans",
+        "hybrids",
+        "royalty",
+        "fantasy"
+      ],
+      "subjects": [
+        "human-figure",
+        "two-faces",
+        "crown",
+        "wing",
+        "chalice",
+        "serpent"
+      ],
+      "colors": [
+        "blue",
+        "gold",
+        "green",
+        "red",
+        "black"
+      ],
+      "facing": "mixed",
+      "composition": "single-figure",
+      "usage_notes": "Original alchemical figure, with contacting chalice retained. Background miniature sky and ground removed; original paint surfaces opaque. AI-assisted extraction is approximate; original scan, exact prompt and native caps retained.",
+      "selection_history": [
+        {
+          "previous_values": {
+            "categories": [
+              "humans",
+              "hybrids",
+              "royalty",
+              "fantasy"
+            ],
+            "subjects": [
+              "human figure",
+              "two faces",
+              "crown",
+              "wing",
+              "chalice",
+              "serpent"
+            ],
+            "composition": "single-figure"
+          },
+          "reason": "Normalize new staging metadata to shared category/composition/subject vocabulary; factual descriptions and original source metadata unchanged."
+        }
+      ],
+      "sets": [
+        {
+          "id": "openn-lewis-e-m-028-026-027-set",
+          "name": "Miniature from an alchemical manuscript (openn-lewis-e-m-028-026-027)",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A two-faced crowned alchemical figure with one gold wing and one blue wing, holding a chalice with three green serpent heads.",
+      "set_label": "Miniature from an alchemical manuscript (openn-lewis-e-m-028-026-027)"
+    },
+    {
+      "id": "openn-lewis-e-m-028-026-027--dark-seed-pod-sprig",
+      "name": "dark-seed-pod-sprig",
+      "source_id": "openn-lewis-e-m-028-026-027",
+      "source_folder": "openn-free-library",
+      "asset_type": "illustration",
+      "description": "A dark branching sprig with hanging oval seed pods. Part of the Miniature from an alchemical manuscript (openn-lewis-e-m-028-026-027) set.",
+      "source_region": [
+        2375,
+        1652,
+        2810,
+        2534
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        47,
+        41,
+        415,
+        850
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 368,
+      "height": 809,
+      "png": "openn-free-library/openn-lewis-e-m-028-026-027--dark-seed-pod-sprig.png",
+      "png_sha256": "7c717ff89655d5ae49b1e2f1ef42ac38bedd7e9cc8bb610d328a3e3d365ae2c6",
+      "provenance": {
+        "institution": "Free Library of Philadelphia, John Frederick Lewis Collection",
+        "title": "Miniature from an alchemical manuscript",
+        "object_identifier": "Lewis E M 28:26-27 Miniature from an alchemical manuscript",
+        "date": "(Italy (northern?), 1400-1499)",
+        "record_url": "https://openn.library.upenn.edu/Data/0023/html/lewis_e_m_028_026-027.html",
+        "image_rights": "Public Domain Mark 1.0; item record explicitly places images in public domain",
+        "rights_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "source_file": "tmp/new-assets/openn-free-library/openn-lewis-e-m-028-026-027--miniature-from-an-alchemical-manuscript--master.tif",
+        "source_sha256": "b87275307689fde187402827139bfcd856127bf12664822834ba834ddafe7fa5",
+        "source_metadata": "tmp/new-assets/openn-free-library/openn-lewis-e-m-028-026-027.json",
+        "image_url": "https://openn.library.upenn.edu/Data/0023/lewis_e_m_028_026-027/data/master/7868_0000.tif",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: faithful historical miniature extraction. Edit this ORIGINAL source region. Only the DARK SEED-POD PLANT at the lower RIGHT of the central figure. Retain its original slim branching stem, all original oval hanging pods and its true original lower end. Remove the blue painted sky, rocky green ground, wing, chalice and frame; do not invent roots or extra pods. Preserve every visible original contour, pale and dark painted surface, fine stem, feather, tooth, toe, curl and highlight at the same original proportions. Real openings and the specified unwanted background become transparent; selected subject paint stays opaque. No added anatomy, hidden parts, symmetry, sharpening, modern redraw, stretching or compression. Keep source-truncated edges as they are. Fine natural antialiased edges, no parchment halo or stepped cut. Transparent exterior and genuine internal holes.",
+        "retained_generated_extraction": "tmp/extraction-work/openn-lewis-e-m-028-026-027--dark-seed-pod-sprig--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "0a1dd3b2910a0f83a8192a8a2f2a3f9a3b63efa765dfabc5e613d26ecce81c87",
+        "retained_generated_size": [
+          881,
+          1786
+        ],
+        "resolution_cap_scale": 0.49375709421112374,
+        "resolution_capped_size": [
+          435,
+          882
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          435,
+          882
+        ],
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 4013
+        }
+      },
+      "parent": "openn-lewis-e-m-028-026-027--two-faced-alchemical-figure-and-dragon-scene",
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "approval_scope": "Original source comparison; provisional for maintainer review.",
+        "checks": [
+          "complete-source-visible-subject",
+          "original-proportions",
+          "transparent-exterior-and-openings",
+          "opaque-original-paint-surfaces",
+          "thin-original-tips-and-props",
+          "white-and-dark-backgrounds",
+          "native-size-cap"
+        ],
+        "notes": "Compared against the original source and retained all actual leaf tips, painted highlights, thin stems, contacting props and original visible anatomy. The two-faced alchemical figure retains both faces, shared crown, both wings and all three chalice serpent heads; the reclining dragon includes both brown rear wings. AI-assisted texture and contour differences remain explicitly recorded.",
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/twelve-ornament-generated-results-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/twelve-ornament-generated-results-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/twelve-ornament-generated-results-proof-3.jpg"
+        ]
+      },
+      "categories": [
+        "floral"
+      ],
+      "subjects": [
+        "seed-pod",
+        "stem",
+        "plant"
+      ],
+      "colors": [
+        "black",
+        "green",
+        "gold"
+      ],
+      "facing": "unclear",
+      "composition": "standalone",
+      "usage_notes": "Original painted source subject with background cleared, no invented hidden parts. Native-size cap and exact extraction prompt retained. The complete landscape scene and its independent subjects are available separately; AI extraction is approximate.",
+      "selection_history": [
+        {
+          "previous_values": {
+            "categories": [
+              "floral"
+            ],
+            "subjects": [
+              "seed pod",
+              "stem",
+              "plant"
+            ],
+            "composition": "standalone"
+          },
+          "reason": "Normalize new staging metadata to shared category/composition/subject vocabulary; factual descriptions and original source metadata unchanged."
+        }
+      ],
+      "sets": [
+        {
+          "id": "openn-lewis-e-m-028-026-027-set",
+          "name": "Miniature from an alchemical manuscript (openn-lewis-e-m-028-026-027)",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A dark branching sprig with hanging oval seed pods.",
+      "set_label": "Miniature from an alchemical manuscript (openn-lewis-e-m-028-026-027)"
+    },
+    {
+      "id": "openn-lewis-e-m-028-026-027--gold-seed-pod-sprig",
+      "name": "gold-seed-pod-sprig",
+      "source_id": "openn-lewis-e-m-028-026-027",
+      "source_folder": "openn-free-library",
+      "asset_type": "illustration",
+      "description": "A delicate golden branching sprig with hanging seed pods. Part of the Miniature from an alchemical manuscript (openn-lewis-e-m-028-026-027) set.",
+      "source_region": [
+        913,
+        1674,
+        1333,
+        2674
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        18,
+        4,
+        301,
+        673
+      ],
+      "export_crop_coordinate_space": "source-region",
+      "width": 283,
+      "height": 669,
+      "png": "openn-free-library/openn-lewis-e-m-028-026-027--gold-seed-pod-sprig.png",
+      "png_sha256": "af17e4b7556be8e39515ae13f914520bffb02c6d4532f80ac98bf69a0837cdf5",
+      "provenance": {
+        "institution": "Free Library of Philadelphia, John Frederick Lewis Collection",
+        "title": "Miniature from an alchemical manuscript",
+        "object_identifier": "Lewis E M 28:26-27 Miniature from an alchemical manuscript",
+        "date": "(Italy (northern?), 1400-1499)",
+        "record_url": "https://openn.library.upenn.edu/Data/0023/html/lewis_e_m_028_026-027.html",
+        "image_rights": "Public Domain Mark 1.0; item record explicitly places images in public domain",
+        "rights_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "source_file": "tmp/new-assets/openn-free-library/openn-lewis-e-m-028-026-027--miniature-from-an-alchemical-manuscript--master.tif",
+        "source_sha256": "b87275307689fde187402827139bfcd856127bf12664822834ba834ddafe7fa5",
+        "source_metadata": "tmp/new-assets/openn-free-library/openn-lewis-e-m-028-026-027.json",
+        "image_url": "https://openn.library.upenn.edu/Data/0023/lewis_e_m_028_026-027/data/master/7868_0000.tif",
+        "method": "native-source-continuous-edge-matting"
+      },
+      "extraction": {
+        "candidate_png": "tmp/extraction-work/continuation-20261010/openn-lewis-e-m-028-026-027--gold-seed-pod-sprig--native-matte.png",
+        "native_export_crop": [
+          18,
+          4,
+          301,
+          673
+        ],
+        "native_dimensions": [
+          420,
+          1000
+        ],
+        "method": "Original native RGB with continuous closed-form edge alpha; damaged gold paint and incomplete original seed-pod traces preserved rather than reconstructed. Blue sky and lower green rock excluded.",
+        "source_pixels_redrawn": false,
+        "native_upscaling": false,
+        "alpha_levels": 256,
+        "trimap_file": "tmp/extraction-work/continuation-20261010/openn-lewis-e-m-028-026-027--gold-seed-pod-sprig--native-trimap.png",
+        "trimap_sha256": "20ad8f1b08c4de4e175718f25cd48e72621aa8efd297cad63dbea04044f1d8cb",
+        "trimap_source": "Native warm gold/green paint against blue background; four-pixel uncertain contour band and individually inspected ground exclusion.",
+        "opaque_rgb_preserved": true,
+        "unknown_contour_band_native_pixels": 4,
+        "epsilon": 1e-06,
+        "radius": 1,
+        "tool": "Original native scan / closed-form edge alpha and foreground decontamination",
+        "pixel_exact": false
+      },
+      "parent": "openn-lewis-e-m-028-026-027--two-faced-alchemical-figure-and-dragon-scene",
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "approval_scope": "Native source-pixel comparison; provisional for maintainer review.",
+        "checks": [
+          "native-original-paint",
+          "opaque-rgb-preserved",
+          "continuous-native-alpha",
+          "blue-field-cleared",
+          "green-ground-excluded",
+          "no-new-pods-or-stalk",
+          "native-size-no-upscaling"
+        ],
+        "notes": "Original damaged gold seed-pod traces and their partly missing stems are retained as they survive. The unsuccessful AI reconstruction was replaced by source-native color matting; no restored anatomy or invented roots.",
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/openn-lewis-e-m-028-026-027--gold-seed-pod-sprig--native-white.png",
+          "tmp/extraction-work/continuation-20261010/openn-lewis-e-m-028-026-027--gold-seed-pod-sprig--native-dark.png"
+        ]
+      },
+      "categories": [
+        "floral"
+      ],
+      "subjects": [
+        "seed-pod",
+        "stem",
+        "plant"
+      ],
+      "colors": [
+        "gold",
+        "green",
+        "brown"
+      ],
+      "facing": "unclear",
+      "composition": "standalone",
+      "usage_notes": "Faded and damaged original seed-pod paint retained as it survives in the source, including discontinuous original gold marks; no invented seeds or restored stalk. Native source RGB preserved in opaque interiors, continuous alpha and edge decontamination at the contours.",
+      "selection_history": [
+        {
+          "previous_values": {
+            "categories": [
+              "floral"
+            ],
+            "subjects": [
+              "seed pod",
+              "stem",
+              "plant"
+            ],
+            "composition": "standalone"
+          },
+          "reason": "Normalize new staging metadata to shared category/composition/subject vocabulary; factual descriptions and original source metadata unchanged."
+        }
+      ],
+      "sets": [
+        {
+          "id": "openn-lewis-e-m-028-026-027-set",
+          "name": "Miniature from an alchemical manuscript (openn-lewis-e-m-028-026-027)",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A delicate golden branching sprig with hanging seed pods.",
+      "set_label": "Miniature from an alchemical manuscript (openn-lewis-e-m-028-026-027)"
+    },
+    {
+      "id": "openn-lewis-e-m-028-026-027--reclining-green-dragon-biting-gold-bar",
+      "name": "reclining-green-dragon-biting-gold-bar",
+      "source_id": "openn-lewis-e-m-028-026-027",
+      "source_folder": "openn-free-library",
+      "asset_type": "illustration",
+      "description": "A reclining green dragon biting a gold rectangular bar. Part of the Miniature from an alchemical manuscript (openn-lewis-e-m-028-026-027) set.",
+      "source_region": [
+        1072,
+        2451,
+        2801,
+        2968
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        33,
+        79,
+        1514,
+        450
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 1481,
+      "height": 371,
+      "png": "openn-free-library/openn-lewis-e-m-028-026-027--reclining-green-dragon-biting-gold-bar.png",
+      "png_sha256": "64141a09f08eab1a0b2997038cc4a4aca92a34bde5d4e84f4972fdd98d5e7467",
+      "provenance": {
+        "institution": "Free Library of Philadelphia, John Frederick Lewis Collection",
+        "title": "Miniature from an alchemical manuscript",
+        "object_identifier": "Lewis E M 28:26-27 Miniature from an alchemical manuscript",
+        "date": "(Italy (northern?), 1400-1499)",
+        "record_url": "https://openn.library.upenn.edu/Data/0023/html/lewis_e_m_028_026-027.html",
+        "image_rights": "Public Domain Mark 1.0; item record explicitly places images in public domain",
+        "rights_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "source_file": "tmp/new-assets/openn-free-library/openn-lewis-e-m-028-026-027--miniature-from-an-alchemical-manuscript--master.tif",
+        "source_sha256": "b87275307689fde187402827139bfcd856127bf12664822834ba834ddafe7fa5",
+        "source_metadata": "tmp/new-assets/openn-free-library/openn-lewis-e-m-028-026-027.json",
+        "image_url": "https://openn.library.upenn.edu/Data/0023/lewis_e_m_028_026-027/data/master/7868_0000.tif",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: faithful historical miniature extraction. Edit this ORIGINAL source region. Only the original reclining GREEN DRAGON along the bottom of the miniature, with its long narrow body, raised head facing left, ALL original visible legs and its whole tail. Include the original dark upright form at the far RIGHT where it contacts the rear of the dragon, and the GOLD RECTANGULAR BAR held in its mouth. Retain the bar as its contacting prop. Remove the surrounding rocky green ground, other plants, human feet, blue field and border. Keep the original faint outlines and green body paint distinct from the green ground; no invented legs or extended tail. Preserve every visible original contour, pale and dark painted surface, fine stem, feather, tooth, toe, curl and highlight at the same original proportions. Real openings and the specified unwanted background become transparent; selected subject paint stays opaque. No added anatomy, hidden parts, symmetry, sharpening, modern redraw, stretching or compression. Keep source-truncated edges as they are. Fine natural antialiased edges, no parchment halo or stepped cut. Transparent exterior and genuine internal holes.",
+        "retained_generated_extraction": "tmp/extraction-work/openn-lewis-e-m-028-026-027--reclining-green-dragon-biting-gold-bar--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "06a876135fef661f7a0f691fa230513d94f85fbdea7c5ee4fe0c9fd04043817e",
+        "retained_generated_size": [
+          2170,
+          725
+        ],
+        "resolution_cap_scale": 0.713103448275862,
+        "resolution_capped_size": [
+          1547,
+          517
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          1729,
+          517
+        ],
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 3750
+        }
+      },
+      "parent": "openn-lewis-e-m-028-026-027--two-faced-alchemical-figure-and-dragon-scene",
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "approval_scope": "Original source comparison; provisional for maintainer review.",
+        "checks": [
+          "complete-source-visible-subject",
+          "original-proportions",
+          "transparent-exterior-and-openings",
+          "opaque-original-paint-surfaces",
+          "thin-original-tips-and-props",
+          "white-and-dark-backgrounds",
+          "native-size-cap"
+        ],
+        "notes": "Compared against the original source and retained all actual leaf tips, painted highlights, thin stems, contacting props and original visible anatomy. The two-faced alchemical figure retains both faces, shared crown, both wings and all three chalice serpent heads; the reclining dragon includes both brown rear wings. AI-assisted texture and contour differences remain explicitly recorded.",
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/twelve-ornament-generated-results-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/twelve-ornament-generated-results-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/twelve-ornament-generated-results-proof-3.jpg"
+        ]
+      },
+      "categories": [
+        "fantasy"
+      ],
+      "subjects": [
+        "dragon",
+        "wing",
+        "bar"
+      ],
+      "colors": [
+        "green",
+        "brown",
+        "gold"
+      ],
+      "facing": "left",
+      "composition": "standalone",
+      "usage_notes": "Original painted source subject with background cleared, no invented hidden parts. Native-size cap and exact extraction prompt retained. The complete landscape scene and its independent subjects are available separately; AI extraction is approximate.",
+      "sets": [
+        {
+          "id": "openn-lewis-e-m-028-026-027-set",
+          "name": "Miniature from an alchemical manuscript (openn-lewis-e-m-028-026-027)",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A reclining green dragon biting a gold rectangular bar.",
+      "set_label": "Miniature from an alchemical manuscript (openn-lewis-e-m-028-026-027)"
+    },
+    {
+      "id": "openn-lewis-e-m-028-026-027--thin-red-and-gold-fixed-miniature-frame",
+      "name": "thin-red-and-gold-fixed-miniature-frame",
+      "source_id": "openn-lewis-e-m-028-026-027",
+      "source_folder": "openn-free-library",
+      "asset_type": "decoration",
+      "description": "A thin worn red and gold fixed frame from an alchemical miniature. Part of the Miniature from an alchemical manuscript (openn-lewis-e-m-028-026-027) set.",
+      "source_region": [
+        801,
+        164,
+        2900,
+        3062
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        1,
+        4,
+        1061,
+        1474
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 1060,
+      "height": 1470,
+      "png": "openn-free-library/openn-lewis-e-m-028-026-027--thin-red-and-gold-fixed-miniature-frame.png",
+      "png_sha256": "5acd1290fe6ca258b141a750d982ee7720fea6dc4471a4484059eb28fc66a392",
+      "provenance": {
+        "institution": "Free Library of Philadelphia, John Frederick Lewis Collection",
+        "title": "Miniature from an alchemical manuscript",
+        "object_identifier": "Lewis E M 28:26-27 Miniature from an alchemical manuscript",
+        "date": "(Italy (northern?), 1400-1499)",
+        "record_url": "https://openn.library.upenn.edu/Data/0023/html/lewis_e_m_028_026-027.html",
+        "image_rights": "Public Domain Mark 1.0; item record explicitly places images in public domain",
+        "rights_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "source_file": "tmp/new-assets/openn-free-library/openn-lewis-e-m-028-026-027--miniature-from-an-alchemical-manuscript--master.tif",
+        "source_sha256": "b87275307689fde187402827139bfcd856127bf12664822834ba834ddafe7fa5",
+        "source_metadata": "tmp/new-assets/openn-free-library/openn-lewis-e-m-028-026-027.json",
+        "image_url": "https://openn.library.upenn.edu/Data/0023/lewis_e_m_028_026-027/data/master/7868_0000.tif",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. Extract ONLY the original thin red/gold outer painted rectangular frame surrounding the alchemical miniature. Retain actual four corners, original thickness, worn and flaking gold and red paint, including natural imperfect straightness. Remove the entire central blue field and all figures/plants/ground inside; inner rectangular opening truly transparent. Remove outer page/chart. Do not reconstruct, straighten, repair or make a generic replacement rectangle. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_extraction": "tmp/extraction-work/openn-lewis-e-m-028-026-027--thin-red-and-gold-fixed-miniature-frame--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "69db7422a9e3a71445290ce6523629b3f231af81bc986a27162f38e46fed4cd3",
+        "retained_generated_size": [
+          1067,
+          1474
+        ],
+        "resolution_cap_scale": 1,
+        "resolution_capped_size": [
+          1067,
+          1474
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          2046,
+          2856
+        ],
+        "native_subject_size_evidence": {
+          "method": "Individually inspected native visible subject bounds, excluding input-region whitespace and neighbours.",
+          "preview_subject_bounds": [
+            380,
+            86,
+            1315,
+            1391
+          ],
+          "preview_size": [
+            1400,
+            1474
+          ],
+          "original_size": [
+            3064,
+            3226
+          ]
+        },
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 13273
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Original source and white/dark renders individually inspected. Contacting lower-right figures retain full bodies/feet and physical head/hand contact. Detached gray bird retains both feet, full tail and beak. Paul is an honest source-visible waist-length figure with complete visible sword/book/halo. Foliate panel retains all four original pointed finials and three central blue stars, its intrinsic designed gold/blue fields, and worn paint; it is not a glyph. Thin red/gold frame keeps original corners, transparent exterior/interior and genuine imperfect geometry. No seamless period invented.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/new-borders-scenes-results-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/new-borders-scenes-results-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/new-borders-scenes-results-proof-3.jpg"
+        ]
+      },
+      "categories": [
+        "geometric"
+      ],
+      "subjects": [
+        "frame"
+      ],
+      "colors": [
+        "red",
+        "gold"
+      ],
+      "facing": "unclear",
+      "composition": "single-ornament",
+      "usage_notes": "Original independent specimen with printed plate rules and page removed. AI-assisted extraction remains approximate; source bounds, actual native subject cap, original and exact prompt retained.",
+      "sets": [
+        {
+          "id": "openn-lewis-e-m-028-026-027-set",
+          "name": "Miniature from an alchemical manuscript (openn-lewis-e-m-028-026-027)",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A thin worn red and gold fixed frame from an alchemical miniature.",
+      "set_label": "Miniature from an alchemical manuscript (openn-lewis-e-m-028-026-027)"
+    },
+    {
+      "id": "openn-lewis-e-m-028-026-027--two-faced-alchemical-figure-and-dragon-scene",
+      "name": "two-faced-alchemical-figure-and-dragon-scene",
+      "source_id": "openn-lewis-e-m-028-026-027",
+      "source_folder": "openn-free-library",
+      "asset_type": "illustration",
+      "description": "The complete alchemical figure and reclining dragon scene, retaining their shared rocky ground and seed-pod plants. Part of the Miniature from an alchemical manuscript (openn-lewis-e-m-028-026-027) set.",
+      "source_region": [
+        773,
+        160,
+        2882,
+        3057
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        35,
+        5,
+        1066,
+        1456
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 1031,
+      "height": 1451,
+      "png": "openn-free-library/openn-lewis-e-m-028-026-027--two-faced-alchemical-figure-and-dragon-scene.png",
+      "png_sha256": "2cfeb8868ac6a074711a63b82f02b3f4e9f6376ba0ed1eec7ad3b4d2e6a824a1",
+      "provenance": {
+        "institution": "Free Library of Philadelphia, John Frederick Lewis Collection",
+        "title": "Miniature from an alchemical manuscript",
+        "object_identifier": "Lewis E M 28:26-27 Miniature from an alchemical manuscript",
+        "date": "(Italy (northern?), 1400-1499)",
+        "record_url": "https://openn.library.upenn.edu/Data/0023/html/lewis_e_m_028_026-027.html",
+        "image_rights": "Public Domain Mark 1.0; item record explicitly places images in public domain",
+        "rights_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "source_file": "tmp/new-assets/openn-free-library/openn-lewis-e-m-028-026-027--miniature-from-an-alchemical-manuscript--master.tif",
+        "source_sha256": "b87275307689fde187402827139bfcd856127bf12664822834ba834ddafe7fa5",
+        "source_metadata": "tmp/new-assets/openn-free-library/openn-lewis-e-m-028-026-027.json",
+        "image_url": "https://openn.library.upenn.edu/Data/0023/lewis_e_m_028_026-027/data/master/7868_0000.tif",
+        "method": "ai-assisted-extraction-with-native-source-paint-recovery"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: faithful historical miniature extraction. Edit this ORIGINAL source region. The COMPLETE ORIGINAL PAINTED SCENE: the central TWO-FACED crowned figure with its shared crown, gold left wing and blue right wing, both hands, the spiral golden form under its left hand, the original chalice and all three green serpent heads, red-and-black skirt and two bare feet; the rocky green ground supporting its feet; the complete reclining green dragon biting the gold rectangular bar below; and both original seed-pod plants. These original subjects share the original painted landscape. Remove only the rectangular pink-and-gold frame, paper, chart and the BLUE SKY background outside and between subjects. Keep the true original rock contours and source-clipped left/right landscape edges, not a new rectangular blue background. Do not invent hidden landscape or change the scene. Preserve every visible original contour, pale and dark painted surface, fine stem, feather, tooth, toe, curl and highlight at the same original proportions. Real openings and the specified unwanted background become transparent; selected subject paint stays opaque. No added anatomy, hidden parts, symmetry, sharpening, modern redraw, stretching or compression. Keep source-truncated edges as they are. Fine natural antialiased edges, no parchment halo or stepped cut. Transparent exterior and genuine internal holes.",
+        "retained_generated_extraction": "tmp/extraction-work/openn-lewis-e-m-028-026-027--two-faced-alchemical-figure-and-dragon-scene--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "0ae78368c4172fab6c334dd62d62feeee7572691e140ed0f8e8885fb29809aa4",
+        "retained_generated_size": [
+          1070,
+          1470
+        ],
+        "resolution_cap_scale": 1,
+        "resolution_capped_size": [
+          1070,
+          1470
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          2109,
+          2897
+        ],
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 26768
+        },
+        "local_paint_recovery": {
+          "source_asset": "openn-lewis-e-m-028-026-027--gold-seed-pod-sprig",
+          "source_png": "tmp/new-crops/openn-free-library/openn-lewis-e-m-028-026-027--gold-seed-pod-sprig.png",
+          "source_png_sha256": "af17e4b7556be8e39515ae13f914520bffb02c6d4532f80ac98bf69a0837cdf5",
+          "method": "Replace the invented complete gold seed-pod plant with a uniform downscale of the original damaged native paint. Existing short ground-contact segment and all other scene artwork retained.",
+          "uniform_downscale": 0.49,
+          "patch_size": [
+            139,
+            328
+          ],
+          "placement": [
+            63,
+            763,
+            202,
+            1091
+          ],
+          "cleared_old_plant_bounds": [
+            30,
+            720,
+            235,
+            1074
+          ],
+          "ground_contact_anchor": [
+            137,
+            1086
+          ],
+          "source_pixels_redrawn": false,
+          "native_upscaling": false,
+          "prior_result": "tmp/extraction-work/continuation-20261010/openn-lewis-e-m-028-026-027--two-faced-alchemical-figure-and-dragon-scene--before-local-paint-recovery.png",
+          "native_connected_stalk_anchor": [
+            151.07894736842104,
+            660
+          ]
+        }
+      },
+      "parent": null,
+      "children": [
+        "openn-lewis-e-m-028-026-027--crowned-winged-figure-with-chalice",
+        "openn-lewis-e-m-028-026-027--reclining-green-dragon-biting-gold-bar",
+        "openn-lewis-e-m-028-026-027--dark-seed-pod-sprig",
+        "openn-lewis-e-m-028-026-027--gold-seed-pod-sprig"
+      ],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Full intrinsic scene checked against original, with both faces and crown, differently coloured wings, three chalice serpents, both bare feet, original ground, dragon and both plants. Replaced invented reconstructed gold seedpods with actual damaged native source paint, uniformly reduced and anchored to the existing stem/rock contact. True background and scene openings transparent.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/openn-lewis-e-m-028-026-027--two-faced-alchemical-figure-and-dragon-scene--native-paint-recovery-white.png",
+          "tmp/extraction-work/continuation-20261010/openn-lewis-e-m-028-026-027--two-faced-alchemical-figure-and-dragon-scene--native-paint-recovery-dark.png"
+        ]
+      },
+      "categories": [
+        "fantasy"
+      ],
+      "subjects": [
+        "human-figure",
+        "two-faces",
+        "crown",
+        "wing",
+        "chalice",
+        "serpent",
+        "dragon",
+        "landscape"
+      ],
+      "colors": [
+        "blue",
+        "gold",
+        "green",
+        "red",
+        "black"
+      ],
+      "facing": "front",
+      "composition": "multiple-figures",
+      "usage_notes": "Original painted source subject with background cleared, no invented hidden parts. Native-size cap and exact extraction prompt retained. The complete landscape scene and its independent subjects are available separately; AI extraction is approximate.",
+      "selection_history": [
+        {
+          "previous_values": {
+            "categories": [
+              "fantasy"
+            ],
+            "subjects": [
+              "human figure",
+              "two faces",
+              "crown",
+              "wing",
+              "chalice",
+              "serpent",
+              "dragon",
+              "landscape"
+            ],
+            "composition": "multiple-figures"
+          },
+          "reason": "Normalize new staging metadata to shared category/composition/subject vocabulary; factual descriptions and original source metadata unchanged."
+        }
+      ],
+      "sets": [
+        {
+          "id": "openn-lewis-e-m-028-026-027-set",
+          "name": "Miniature from an alchemical manuscript (openn-lewis-e-m-028-026-027)",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "The complete alchemical figure and reclining dragon scene, retaining their shared rocky ground and seed-pod plants.",
+      "set_label": "Miniature from an alchemical manuscript (openn-lewis-e-m-028-026-027)"
+    }
+  ]
+}

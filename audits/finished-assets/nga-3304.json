@@ -1,0 +1,144 @@
+{
+  "source_id": "nga-3304",
+  "assets": [
+    {
+      "id": "nga-3304--curling-leaf-ornament",
+      "name": "curling-leaf-ornament",
+      "source_id": "nga-3304",
+      "source_folder": "national-gallery-of-art",
+      "asset_type": "decoration",
+      "description": "A complete late-medieval foliage ornament with broad curling lobed leaves and a long sinuous stem.",
+      "source_region": [
+        0,
+        0,
+        2627,
+        4096
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        10,
+        8,
+        992,
+        1547
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 982,
+      "height": 1539,
+      "png": "national-gallery-of-art/nga-3304--curling-leaf-ornament.png",
+      "png_sha256": "8ebfdc7fdae089b0b1245396a78b99e93e57f60301485b3a076d0d3af7179b64",
+      "provenance": {
+        "institution": "National Gallery of Art, Washington",
+        "title": "Leaf Ornament",
+        "object_identifier": "1943.3.92",
+        "date": "c. 1480/1490",
+        "artist": "Martin Schongauer",
+        "record_url": "https://www.nga.gov/collection/art-object-page.3304.html",
+        "image_rights": "Open Access / public domain; official image dataset openaccess=1",
+        "rights_url": "https://www.nga.gov/artworks/free-images-and-open-access",
+        "source_file": "tmp/new-assets/national-gallery-of-art/nga-3304--leaf-ornament.jpg",
+        "source_sha256": "1e8e2cd8ca16f62349117a9dab3bcefc5042ad7d631d9ce85d931b13c7fd7e94",
+        "source_metadata": "tmp/new-assets/national-gallery-of-art/nga-3304.json",
+        "image_url": "https://api.nga.gov/iiif/ae603a15-6b28-4fac-ad99-e15c290787ee/full/full/0/default.jpg",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: precise-object-edit / historical artwork extraction. Edit target: the supplied original Martin Schongauer foliage engraving. Extract the entire single connected curling lobed leaf ornament and its complete long winding stem and root/base. Preserve the exact original leaves, curls, holes, pointed tips, stem direction, proportions and fine engraved hatching. Remove all paper outside and in the actual openings BETWEEN leaves and curls, scan stains, foxing, plate edge, cracks and the small artist monogram near the base. Do not remove or fill actual leaves. Keep the engraved leaf and stem surfaces opaque, with their pale source highlights. Output genuine transparent alpha outside and between the ornament. Keep the same original geometry and fine lines, with no simplification, modernization, extra leaf, decorative addition, shadows, glow, frame or background rectangle. No repeating tile: this is one original complete ornament.",
+        "retained_generated_extraction": "tmp/extraction-work/nga-3304--curling-leaf-ornament--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "5c279b966612009af0e5c0c77fb540982905571ef1af4499f3963c7a65c43cdd",
+        "retained_generated_size": [
+          1004,
+          1566
+        ],
+        "resolution_cap_scale": 1,
+        "resolution_capped_size": [
+          1004,
+          1566
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261010",
+        "notes": "Compared complete original curled leaves and long forked lower stem on white/dark backgrounds. Original overall direction and connected ornament retained; AI extraction limitations remain documented.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": "tmp/extraction-work/quality-reaudit-20261010/manifest.json"
+      },
+      "categories": [
+        "botanical",
+        "scrollwork"
+      ],
+      "subjects": [
+        "foliage",
+        "leaves",
+        "curved-stem"
+      ],
+      "facing": "unclear",
+      "colors": [
+        "brown",
+        "cream",
+        "black"
+      ],
+      "composition": "single-ornament",
+      "usage_notes": "Complete original curved foliage; no demonstrated repeat. AI-assisted extraction retains opaque illustrated highlights and removes the surrounding paper and true openings. See original source for fine engraving comparison.",
+      "svg": "national-gallery-of-art/nga-3304--curling-leaf-ornament.svg",
+      "svg_sha256": "f0e1e75439875aedfaeae3737d8f4a37d421b6725e258edb4d41fc51a226b429",
+      "vector_review": {
+        "status": "accepted",
+        "reviewed_on": "2026-10-10",
+        "embedded_raster": false,
+        "method": "Editable VTracer color paths fitted to the original PNG alpha with eight native opacity-contour layers",
+        "premultiplied_rgb_error": 0.024659635784431096,
+        "alpha_error": 0.00572180764803121,
+        "trace_settings": {
+          "filter_speckle": 2,
+          "color_precision": 6,
+          "layer_difference": 12,
+          "mode": "spline",
+          "path_precision": 3
+        },
+        "notes": "Rendered SVG compared against PNG: actual exterior and openings, thin lances, instrument contours and anatomical silhouettes retained. Small print/paint texture is approximated; PNG remains the raster master."
+      },
+      "review_history": [
+        {
+          "round": "quality-reaudit-20261010",
+          "previous_review": {
+            "status": "accepted",
+            "reviewed_on": "2026-10-10",
+            "notes": "Complete original connected ornament compared with source on white and dark backgrounds. Leaf tips, curls, long stem and base retained; page marks, monogram and surrounding paper cleared. Real openings are transparent and illustrated pale surfaces remain opaque. AI extraction approximates fine scan texture."
+          }
+        }
+      ],
+      "selection_history": [
+        {
+          "previous_values": {
+            "categories": [
+              "botanical",
+              "scrollwork"
+            ],
+            "subjects": [
+              "foliage",
+              "leaves",
+              "curved stem"
+            ],
+            "composition": "single-ornament"
+          },
+          "reason": "Normalize new staging metadata to shared category/composition/subject vocabulary; factual descriptions and original source metadata unchanged."
+        }
+      ]
+    }
+  ]
+}

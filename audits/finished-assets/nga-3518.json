@@ -1,0 +1,110 @@
+{
+  "source_id": "nga-3518",
+  "assets": [
+    {
+      "id": "nga-3518--child-gripping-wide-foliate-scroll",
+      "name": "child-gripping-wide-foliate-scroll",
+      "source_id": "nga-3518",
+      "source_folder": "national-gallery-of-art",
+      "asset_type": "decoration",
+      "description": "The complete wide leafy scroll and the small child near the center physically gripping its stems; all the original broad lobed leaves, narrow curls, figure arms and existing anatomy. Do not split the figure from the scroll.",
+      "source_region": [
+        0,
+        0,
+        4096,
+        1608
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        3,
+        1,
+        1999,
+        777
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 1996,
+      "height": 776,
+      "png": "national-gallery-of-art/nga-3518--child-gripping-wide-foliate-scroll.png",
+      "png_sha256": "2a67fa3bc77d355f6ead2cbe2fa0eaa18819836911543f06844789f349106265",
+      "provenance": {
+        "institution": "National Gallery of Art, Washington",
+        "title": "Ornament with Foliage and a Child in the Center",
+        "object_identifier": "1943.3.306",
+        "date": "1539",
+        "artist": "Heinrich Aldegrever",
+        "record_url": "https://www.nga.gov/collection/art-object-page.3518.html",
+        "image_rights": "Open Access / public domain; official image dataset openaccess=1",
+        "rights_url": "https://www.nga.gov/artworks/free-images-and-open-access",
+        "source_file": "tmp/new-assets/national-gallery-of-art/nga-3518--ornament-with-foliage-and-a-child-in-the-center.jpg",
+        "source_sha256": "eeb867c42896e50b933e7969ef52c3c8be0c159b775da27e6b9cc2da70a738eb",
+        "source_metadata": "tmp/new-assets/national-gallery-of-art/nga-3518.json",
+        "image_url": null,
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: background-extraction. Edit target: the referenced original nonsexual historical engraving, for a museum decorative-art collection. Extract ONLY the existing ornament onto genuine transparency, preserving its exact appearance. Subject: The complete wide leafy scroll and the small child near the center physically gripping its stems; all the original broad lobed leaves, narrow curls, figure arms and existing anatomy. Do not split the figure from the scroll. Remove only the lower-left date/AG block without inventing parts under the block. Remove the dense straight crosshatched BACKGROUND field completely, outside the ornament and inside every genuine scroll opening. Keep all original curved foreground hatching, engraving texture, opaque pale illustrated surfaces, hand-drawn irregularities, original proportions, ink color and every tiny tip. Do not transform the subject, add details, beautify, make it symmetrical, invent missing parts, alter anatomy, or turn it into a modern clean vector. Remove page paper, outer printed cell rules, dirt and unrelated printer marks. Retain the ornament wherever it meets the source edge, without invented extensions. Do not compress or stretch the original aspect ratio. Use smoothly antialiased original contours, no hard polygon cuts, paper halo, pixel-scale outline or shadow. True transparent alpha, never a white rectangle or painted checkerboard.",
+        "retained_generated_extraction": "tmp/extraction-work/nga-3518--child-gripping-wide-foliate-scroll--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "c7f069cf01b3b47320318a170e895bc9eb62e07a67f444ee22d6b6c189bea57a",
+        "retained_generated_size": [
+          1999,
+          786
+        ],
+        "resolution_cap_scale": 1,
+        "resolution_capped_size": [
+          1999,
+          786
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          4096,
+          1608
+        ],
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 28660
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "approval_scope": "Extraction-workflow source comparison; provisional for maintainer review.",
+        "checks": [
+          "original-connected-motif",
+          "clear-background-hatching-and-internal-openings",
+          "opaque-illustrated-surfaces",
+          "original-proportions",
+          "native-resolution-cap",
+          "white-and-dark-backgrounds"
+        ],
+        "notes": "Compared every major leaf, scroll connection and foreground figure/prop against the untouched source. Original background field and lettering removed; fine print appearance remains an explicitly recorded AI-assisted approximation. No forced vector or invented repeat.",
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/nga-three-generated-proof-1.jpg"
+        ]
+      },
+      "categories": [
+        "floral",
+        "fantasy"
+      ],
+      "subjects": [
+        "scroll",
+        "leaf",
+        "ornament"
+      ],
+      "facing": "mixed",
+      "colors": [
+        "black",
+        "brown",
+        "cream"
+      ],
+      "composition": "single-ornament",
+      "usage_notes": "Finite connected engraving; no seamless cycle or new corner atlas inferred. Actual source-truncated ends are retained without extensions. AI-assisted background extraction, not a pixel-exact crop; original and exact prompt retained."
+    }
+  ]
+}

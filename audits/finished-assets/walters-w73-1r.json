@@ -1,0 +1,1946 @@
+{
+  "source_id": "walters-w73-1r",
+  "assets": [
+    {
+      "id": "walters-w73-1r--bull-with-bent-legs",
+      "name": "bull-with-bent-legs",
+      "source_id": "walters-w73-1r",
+      "source_folder": "walters",
+      "asset_type": "illustration",
+      "description": "A pale bull with a curled tail and bent legs. Part of the Walters W.73 Zodiac set.",
+      "source_region": [
+        723,
+        9015,
+        2241,
+        10500
+      ],
+      "rotation_clockwise": 270,
+      "export_crop": [
+        45,
+        408,
+        1184,
+        1366
+      ],
+      "export_crop_coordinate_space": "rigidly-upright-original-source-region",
+      "width": 1139,
+      "height": 958,
+      "png": "walters/walters-w73-1r--bull-with-bent-legs.png",
+      "png_sha256": "bd66d7d214d45ee38318cdccccd047f9afb07b4661a8ffa6edc1889c5ca987c4",
+      "provenance": {
+        "institution": "Walters Art Museum",
+        "title": "Diagram of the zodiac",
+        "object_identifier": "W.73, fol. 1r",
+        "date": "Late 12th century CE",
+        "record_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/html/W73/description.html",
+        "image_rights": "CC0 (Digital Walters manuscript images)",
+        "rights_url": "https://www.thedigitalwalters.org/01_ACCESS_WALTERS_MANUSCRIPTS.html",
+        "source_file": "tmp/new-assets/walters/walters-w73-1r--diagram-of-the-zodiac--master.tif",
+        "source_sha256": "ffb54e2de949fa417ec244b99ad1575df380308d6a7466a29078367df143d568",
+        "source_metadata": "tmp/new-assets/walters/walters-w73-1r.json",
+        "image_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/W73/data/W.73/master/W73_000003_1076.tif",
+        "method": "native-source-continuous-edge-matting"
+      },
+      "extraction": {
+        "candidate_png": "tmp/extraction-work/continuation-20261010/walters-w73-1r--bull-with-bent-legs--native-final.png",
+        "native_export_crop": [
+          45,
+          408,
+          1184,
+          1366
+        ],
+        "export_crop_coordinate_space": "rigidly-upright-original-source-region",
+        "annotation_json": "tmp/extraction-work/continuation-20261010/walters-w73-1r--bull-with-bent-legs--registered-native-refined-annotation.json",
+        "trimap_png": "tmp/extraction-work/continuation-20261010/walters-w73-1r--bull-with-bent-legs--registered-native-refined-trimap.png",
+        "native_source_size": [
+          1485,
+          1518
+        ],
+        "native_upscaling": false,
+        "source_pixels_redrawn": false,
+        "original_opaque_rgb_preserved": true,
+        "method": "Extracted AI alpha is registered to the untouched upright native scan by a single similarity transform, then used only as an ownership guide for continuous native edge matting. Original scan RGB is never warped, rescaled or redrawn; all opaque source RGB is retained exactly, including worn paint. Mixed native edge colors are decontaminated. AI colors, inferred textures and restored marks are not used. Subject ownership remains approximate and requires original/white/dark visual review. Inspected saturated green external diagram field is removed from the bull, which has no green body paint; disconnected exterior scanned marks above the head are excluded.",
+        "alpha_guide": {
+          "method": "Extracted AI alpha is registered to the untouched upright native scan by a single similarity transform, then used only as an ownership guide for continuous native edge matting. Original scan RGB is never warped, rescaled or redrawn; all opaque source RGB is retained exactly, including worn paint. Mixed native edge colors are decontaminated. AI colors, inferred textures and restored marks are not used. Subject ownership remains approximate and requires original/white/dark visual review.",
+          "registration_algorithm": "SIFT descriptors / 0.72 Lowe ratio / RANSAC similarity transform, 5 native-pixel inlier threshold",
+          "guide_png": "tmp/extraction-work/continuation-20261010/walters-w73-1r--bull-with-bent-legs--registered-ai-alpha-guide-reference.png",
+          "guide_sha256": "eedd82e6e8da1e6100935201b37594a60eac3e37b6f007b1296d118d461c11e1",
+          "retained_builtin_ai_result": "tmp/extraction-work/walters-w73-1r--bull-with-bent-legs--retained-ai-extraction.png",
+          "upright_native_original": "tmp/extraction-work/continuation-20261010/walters-w73-1r--bull-with-bent-legs--expanded-upright-original.png",
+          "similarity_ai_alpha_to_native_scan": [
+            [
+              1.0961092269631125,
+              0.12010426218988657,
+              23.57614711506515
+            ],
+            [
+              -0.12010426218988657,
+              1.0961092269631125,
+              453.23211639565596
+            ]
+          ],
+          "matching_feature_pairs": 173,
+          "inlier_feature_pairs": 64,
+          "inlier_rms_native_pixels": 2.7197957016739656,
+          "unknown_edge_band_native_pixels": 20,
+          "thin_source_ink_seeding": "Only native dark ink contrast above 30/255, within the registered body guide more than one native pixel from its edge; saturated green compartment field excluded from this supplementary seed.",
+          "inspected_background_refinement": "Original bull/ram painted bodies contain no green pigment; green diagram field and baseline classified as exterior only. Native continuous alpha refinement retains the original complete pale/brown bodies and ink, without changing original opaque RGB."
+        },
+        "export_crop_verified_by_exact_opaque_source_rgb_block": {
+          "source_block_origin": [
+            818,
+            609
+          ],
+          "crop_block_origin": [
+            773,
+            201
+          ],
+          "block_size": 56,
+          "exact_rgb_equality": true
+        },
+        "status": "awaiting-final-original-white-dark-review",
+        "tool": "Original native scan / closed-form edge alpha and foreground decontamination",
+        "pixel_exact": false
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Original native painted RGB retained at opaque pixels, including wear and pale/gold/green source surfaces. Compared against full expanded native original and white/dark exports. Correct original-visible anatomy, eight crab legs, real linked fish group, actual bends and flowing robe retained. Upright rigid rotations reviewed; bull and ram external green diagram band removed. AI color/textural reconstruction rejected; source alpha ownership remains approximate, with soft original scanned ink and worn source paint deliberately retained. No false vector trace.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/zodiac-final-native-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/zodiac-final-native-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/zodiac-final-native-proof-3.jpg"
+        ]
+      },
+      "categories": [
+        "animals"
+      ],
+      "subjects": [
+        "bull",
+        "with",
+        "bent",
+        "legs",
+        "zodiac"
+      ],
+      "colors": [
+        "cream",
+        "brown",
+        "green"
+      ],
+      "facing": "unclear",
+      "composition": "standalone",
+      "usage_notes": "Native source painting retains its worn original pigment. The zodiac proceeds counterclockwise in this diagram; identity is checked against the institution description and visible original, rather than inferred from clockwise order. Labels and diagram divisions are excluded from the exterior. Original diagram strokes crossing painted subject pixels remain historical source texture. Any rigid orientation correction is recorded. Source authority: https://thedigitalwalters.org/Data/WaltersManuscripts/html/W73/description.html",
+      "sets": [
+        {
+          "id": "walters-w73-1r-set",
+          "name": "Walters W.73 Zodiac",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A pale bull with a curled tail and bent legs.",
+      "set_label": "Walters W.73 Zodiac"
+    },
+    {
+      "id": "walters-w73-1r--centaur-archer-with-bow",
+      "name": "centaur-archer-with-bow",
+      "source_id": "walters-w73-1r",
+      "source_folder": "walters",
+      "asset_type": "illustration",
+      "description": "A centaur archer with a bow and arrow, combining the original human torso and equine body. Part of the Walters W.73 Zodiac set.",
+      "source_region": [
+        2773,
+        5510,
+        4352,
+        6926
+      ],
+      "rotation_clockwise": 180,
+      "export_crop": [
+        284,
+        256,
+        1312,
+        1166
+      ],
+      "export_crop_coordinate_space": "rigidly-upright-original-source-region",
+      "width": 1028,
+      "height": 910,
+      "png": "walters/walters-w73-1r--centaur-archer-with-bow.png",
+      "png_sha256": "279335d4b64cd35915e4860d9dec12753537d1f825f83792e0f5c5756843063a",
+      "provenance": {
+        "institution": "Walters Art Museum",
+        "title": "Diagram of the zodiac",
+        "object_identifier": "W.73, fol. 1r",
+        "date": "Late 12th century CE",
+        "record_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/html/W73/description.html",
+        "image_rights": "CC0 (Digital Walters manuscript images)",
+        "rights_url": "https://www.thedigitalwalters.org/01_ACCESS_WALTERS_MANUSCRIPTS.html",
+        "source_file": "tmp/new-assets/walters/walters-w73-1r--diagram-of-the-zodiac--master.tif",
+        "source_sha256": "ffb54e2de949fa417ec244b99ad1575df380308d6a7466a29078367df143d568",
+        "source_metadata": "tmp/new-assets/walters/walters-w73-1r.json",
+        "image_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/W73/data/W.73/master/W73_000003_1076.tif",
+        "method": "native-source-continuous-edge-matting"
+      },
+      "extraction": {
+        "candidate_png": "tmp/extraction-work/continuation-20261010/walters-w73-1r--centaur-archer-with-bow--registered-native-candidate.png",
+        "native_export_crop": [
+          284,
+          256,
+          1312,
+          1166
+        ],
+        "export_crop_coordinate_space": "rigidly-upright-original-source-region",
+        "annotation_json": "tmp/extraction-work/continuation-20261010/walters-w73-1r--centaur-archer-with-bow--registered-native-annotation.json",
+        "trimap_png": "tmp/extraction-work/continuation-20261010/walters-w73-1r--centaur-archer-with-bow--registered-native-trimap.png",
+        "native_source_size": [
+          1579,
+          1416
+        ],
+        "native_upscaling": false,
+        "source_pixels_redrawn": false,
+        "original_opaque_rgb_preserved": true,
+        "method": "Extracted AI alpha is registered to the untouched upright native scan by a single similarity transform, then used only as an ownership guide for continuous native edge matting. Original scan RGB is never warped, rescaled or redrawn; all opaque source RGB is retained exactly, including worn paint. Mixed native edge colors are decontaminated. AI colors, inferred textures and restored marks are not used. Subject ownership remains approximate and requires original/white/dark visual review.",
+        "alpha_guide": {
+          "method": "Extracted AI alpha is registered to the untouched upright native scan by a single similarity transform, then used only as an ownership guide for continuous native edge matting. Original scan RGB is never warped, rescaled or redrawn; all opaque source RGB is retained exactly, including worn paint. Mixed native edge colors are decontaminated. AI colors, inferred textures and restored marks are not used. Subject ownership remains approximate and requires original/white/dark visual review.",
+          "registration_algorithm": "SIFT descriptors / 0.72 Lowe ratio / RANSAC similarity transform, 5 native-pixel inlier threshold",
+          "guide_png": "tmp/extraction-work/continuation-20261010/walters-w73-1r--centaur-archer-with-bow--registered-ai-alpha-guide-reference.png",
+          "guide_sha256": "5974fc65d7cd361a6c0d2f5f5384fa11dfd04a30ad15cf5b5c38113c8ee48969",
+          "retained_builtin_ai_result": "tmp/extraction-work/walters-w73-1r--centaur-archer-with-bow--retained-ai-extraction.png",
+          "upright_native_original": "tmp/extraction-work/continuation-20261010/walters-w73-1r--centaur-archer-with-bow--expanded-upright-original.png",
+          "similarity_ai_alpha_to_native_scan": [
+            [
+              0.9059854948252146,
+              -0.02275361671228607,
+              302.06737226400736
+            ],
+            [
+              0.02275361671228607,
+              0.9059854948252146,
+              249.11605458611848
+            ]
+          ],
+          "matching_feature_pairs": 104,
+          "inlier_feature_pairs": 35,
+          "inlier_rms_native_pixels": 2.357847956188948,
+          "unknown_edge_band_native_pixels": 8,
+          "thin_source_ink_seeding": "Only native dark ink contrast above 30/255, within the registered body guide more than one native pixel from its edge; saturated green compartment field excluded from this supplementary seed."
+        },
+        "rotation_method": "Exact native pixel transpose before alpha registration; original painted source pixels are not warped or rescaled.",
+        "status": "awaiting-original-native-white-dark-review",
+        "tool": "Original native scan / closed-form edge alpha and foreground decontamination",
+        "pixel_exact": false
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Original native painted RGB retained at opaque pixels, including wear and pale/gold/green source surfaces. Compared against full expanded native original and white/dark exports. Correct original-visible anatomy, eight crab legs, real linked fish group, actual bends and flowing robe retained. Upright rigid rotations reviewed; bull and ram external green diagram band removed. AI color/textural reconstruction rejected; source alpha ownership remains approximate, with soft original scanned ink and worn source paint deliberately retained. No false vector trace.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/zodiac-final-native-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/zodiac-final-native-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/zodiac-final-native-proof-3.jpg"
+        ]
+      },
+      "categories": [
+        "humans"
+      ],
+      "subjects": [
+        "centaur",
+        "archer",
+        "with",
+        "bow",
+        "zodiac"
+      ],
+      "colors": [
+        "cream",
+        "brown",
+        "green"
+      ],
+      "facing": "unclear",
+      "composition": "standalone",
+      "usage_notes": "Native source painting retains its worn original pigment. The zodiac proceeds counterclockwise in this diagram; identity is checked against the institution description and visible original, rather than inferred from clockwise order. Labels and diagram divisions are excluded from the exterior. Original diagram strokes crossing painted subject pixels remain historical source texture. Any rigid orientation correction is recorded. Source authority: https://thedigitalwalters.org/Data/WaltersManuscripts/html/W73/description.html",
+      "sets": [
+        {
+          "id": "walters-w73-1r-set",
+          "name": "Walters W.73 Zodiac",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A centaur archer with a bow and arrow, combining the original human torso and equine body.",
+      "set_label": "Walters W.73 Zodiac"
+    },
+    {
+      "id": "walters-w73-1r--eight-legged-zodiac-crab",
+      "name": "eight-legged-zodiac-crab",
+      "source_id": "walters-w73-1r",
+      "source_folder": "walters",
+      "asset_type": "illustration",
+      "description": "Pale eight-legged zodiac crab with four pairs of raised clawed legs and a pointed forked lower body. Part of the Walters W.73 Zodiac set.",
+      "source_region": [
+        2751,
+        9594,
+        4024,
+        10873
+      ],
+      "rotation_clockwise": 90,
+      "export_crop": [
+        318,
+        271,
+        1227,
+        1236
+      ],
+      "export_crop_coordinate_space": "rigidly-upright-original-source-region",
+      "width": 909,
+      "height": 965,
+      "png": "walters/walters-w73-1r--eight-legged-zodiac-crab.png",
+      "png_sha256": "556af06602111c7591ebaf135caab8b01980b77a5fbf0de087d36816f21b868a",
+      "provenance": {
+        "institution": "Walters Art Museum",
+        "title": "Diagram of the zodiac",
+        "object_identifier": "W.73, fol. 1r",
+        "date": "Late 12th century CE",
+        "record_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/html/W73/description.html",
+        "image_rights": "CC0 (Digital Walters manuscript images)",
+        "rights_url": "https://www.thedigitalwalters.org/01_ACCESS_WALTERS_MANUSCRIPTS.html",
+        "source_file": "tmp/new-assets/walters/walters-w73-1r--diagram-of-the-zodiac--master.tif",
+        "source_sha256": "ffb54e2de949fa417ec244b99ad1575df380308d6a7466a29078367df143d568",
+        "source_metadata": "tmp/new-assets/walters/walters-w73-1r.json",
+        "image_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/W73/data/W.73/master/W73_000003_1076.tif",
+        "method": "native-source-continuous-edge-matting"
+      },
+      "extraction": {
+        "candidate_png": "tmp/extraction-work/continuation-20261010/walters-w73-1r--six-legged-zodiac-crab--registered-native-candidate.png",
+        "native_export_crop": [
+          318,
+          271,
+          1227,
+          1236
+        ],
+        "export_crop_coordinate_space": "rigidly-upright-original-source-region",
+        "annotation_json": "tmp/extraction-work/continuation-20261010/walters-w73-1r--six-legged-zodiac-crab--registered-native-annotation.json",
+        "trimap_png": "tmp/extraction-work/continuation-20261010/walters-w73-1r--six-legged-zodiac-crab--registered-native-trimap.png",
+        "native_source_size": [
+          1279,
+          1273
+        ],
+        "native_upscaling": false,
+        "source_pixels_redrawn": false,
+        "original_opaque_rgb_preserved": true,
+        "method": "Extracted AI alpha is registered to the untouched upright native scan by a single similarity transform, then used only as an ownership guide for continuous native edge matting. Original scan RGB is never warped, rescaled or redrawn; all opaque source RGB is retained exactly, including worn paint. Mixed native edge colors are decontaminated. AI colors, inferred textures and restored marks are not used. Subject ownership remains approximate and requires original/white/dark visual review.",
+        "alpha_guide": {
+          "method": "Extracted AI alpha is registered to the untouched upright native scan by a single similarity transform, then used only as an ownership guide for continuous native edge matting. Original scan RGB is never warped, rescaled or redrawn; all opaque source RGB is retained exactly, including worn paint. Mixed native edge colors are decontaminated. AI colors, inferred textures and restored marks are not used. Subject ownership remains approximate and requires original/white/dark visual review.",
+          "registration_algorithm": "SIFT descriptors / 0.72 Lowe ratio / RANSAC similarity transform, 5 native-pixel inlier threshold",
+          "guide_png": "tmp/extraction-work/continuation-20261010/walters-w73-1r--six-legged-zodiac-crab--registered-ai-alpha-guide-reference.png",
+          "guide_sha256": "333a7cfaa41a753ecf44c4623fbcd3595a82511b20bcfff3c3b387615f8d4d49",
+          "retained_builtin_ai_result": "tmp/extraction-work/walters-w73-1r--six-legged-zodiac-crab--retained-ai-extraction.png",
+          "upright_native_original": "tmp/extraction-work/continuation-20261010/walters-w73-1r--six-legged-zodiac-crab--expanded-upright-original.png",
+          "similarity_ai_alpha_to_native_scan": [
+            [
+              1.1373878757720568,
+              0.03794381656102203,
+              315.1788962350487
+            ],
+            [
+              -0.03794381656102203,
+              1.1373878757720568,
+              290.28771520355616
+            ]
+          ],
+          "matching_feature_pairs": 160,
+          "inlier_feature_pairs": 121,
+          "inlier_rms_native_pixels": 1.6210629641166452,
+          "unknown_edge_band_native_pixels": 8,
+          "thin_source_ink_seeding": "Only native dark ink contrast above 30/255, within the registered body guide more than one native pixel from its edge; saturated green compartment field excluded from this supplementary seed."
+        },
+        "rotation_method": "Exact native pixel transpose before alpha registration; original painted source pixels are not warped or rescaled.",
+        "status": "awaiting-original-native-white-dark-review",
+        "tool": "Original native scan / closed-form edge alpha and foreground decontamination",
+        "pixel_exact": false
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Original native painted RGB retained at opaque pixels, including wear and pale/gold/green source surfaces. Compared against full expanded native original and white/dark exports. Correct original-visible anatomy, eight crab legs, real linked fish group, actual bends and flowing robe retained. Upright rigid rotations reviewed; bull and ram external green diagram band removed. AI color/textural reconstruction rejected; source alpha ownership remains approximate, with soft original scanned ink and worn source paint deliberately retained. No false vector trace.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/zodiac-final-native-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/zodiac-final-native-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/zodiac-final-native-proof-3.jpg"
+        ]
+      },
+      "categories": [
+        "animals"
+      ],
+      "subjects": [
+        "six",
+        "legged",
+        "zodiac",
+        "crab"
+      ],
+      "colors": [
+        "cream",
+        "brown",
+        "green"
+      ],
+      "facing": "unclear",
+      "composition": "standalone",
+      "usage_notes": "Native source painting retains its worn original pigment. The zodiac proceeds counterclockwise in this diagram; identity is checked against the institution description and visible original, rather than inferred from clockwise order. Labels and diagram divisions are excluded from the exterior. Original diagram strokes crossing painted subject pixels remain historical source texture. Any rigid orientation correction is recorded. Source authority: https://thedigitalwalters.org/Data/WaltersManuscripts/html/W73/description.html",
+      "sets": [
+        {
+          "id": "walters-w73-1r-set",
+          "name": "Walters W.73 Zodiac",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "Pale eight-legged zodiac crab with four pairs of raised clawed legs and a pointed forked lower body.",
+      "set_label": "Walters W.73 Zodiac"
+    },
+    {
+      "id": "walters-w73-1r--figure-holding-balance-scales",
+      "name": "figure-holding-balance-scales",
+      "source_id": "walters-w73-1r",
+      "source_folder": "walters",
+      "asset_type": "illustration",
+      "description": "A robed human figure holding a balance with a horizontal beam and two hanging scale pans. Part of the Walters W.73 Zodiac set.",
+      "source_region": [
+        4092,
+        6912,
+        5625,
+        8343
+      ],
+      "rotation_clockwise": 90,
+      "export_crop": [
+        241,
+        444,
+        1173,
+        1304
+      ],
+      "export_crop_coordinate_space": "rigidly-upright-original-source-region",
+      "width": 932,
+      "height": 860,
+      "png": "walters/walters-w73-1r--figure-holding-balance-scales.png",
+      "png_sha256": "9c636db53bec849653f4bc0e7244463ae7bc3d07bbe48b72cfe572e90cbeb101",
+      "provenance": {
+        "institution": "Walters Art Museum",
+        "title": "Diagram of the zodiac",
+        "object_identifier": "W.73, fol. 1r",
+        "date": "Late 12th century CE",
+        "record_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/html/W73/description.html",
+        "image_rights": "CC0 (Digital Walters manuscript images)",
+        "rights_url": "https://www.thedigitalwalters.org/01_ACCESS_WALTERS_MANUSCRIPTS.html",
+        "source_file": "tmp/new-assets/walters/walters-w73-1r--diagram-of-the-zodiac--master.tif",
+        "source_sha256": "ffb54e2de949fa417ec244b99ad1575df380308d6a7466a29078367df143d568",
+        "source_metadata": "tmp/new-assets/walters/walters-w73-1r.json",
+        "image_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/W73/data/W.73/master/W73_000003_1076.tif",
+        "method": "native-source-continuous-edge-matting"
+      },
+      "extraction": {
+        "candidate_png": "tmp/extraction-work/continuation-20261010/walters-w73-1r--figure-holding-balance-scales--complete-native-balance.png",
+        "native_export_crop": [
+          241,
+          444,
+          1173,
+          1304
+        ],
+        "export_crop_coordinate_space": "rigidly-upright-original-source-region",
+        "annotation_json": "tmp/extraction-work/continuation-20261010/walters-w73-1r--figure-holding-balance-scales--registered-native-annotation.json",
+        "trimap_png": "tmp/extraction-work/continuation-20261010/walters-w73-1r--figure-holding-balance-scales--registered-native-trimap.png",
+        "native_source_size": [
+          1431,
+          1533
+        ],
+        "native_upscaling": false,
+        "source_pixels_redrawn": false,
+        "original_opaque_rgb_preserved": true,
+        "method": "Extracted AI alpha is registered to the untouched upright native scan by a single similarity transform, then used only as an ownership guide for continuous native edge matting. Original scan RGB is never warped, rescaled or redrawn; all opaque source RGB is retained exactly, including worn paint. Mixed native edge colors are decontaminated. AI colors, inferred textures and restored marks are not used. Subject ownership remains approximate and requires original/white/dark visual review. Short local routes follow original native dark cord strokes within three inspection-pixel corridors. Their native RGB is retained; no new line color, redraw or source rescaling. Native continuous edge alpha retains original very faint suspension strings. Individually inspected original beam and two bowl boundaries, with original suspension-cord centres routed along native scan ink. Only alpha ownership is authored; every original opaque RGB value and all source-visible wear retained. Three-native-pixel continuous source edge matting. No new drawn beam, bowls or strings. Individually inspected original beam and two bowl boundaries, with original suspension-cord centres routed along native scan ink. Only alpha ownership is authored; every original opaque RGB value and all source-visible wear retained. Three-native-pixel continuous source edge matting. No new drawn beam, bowls or strings.",
+        "alpha_guide": {
+          "method": "Extracted AI alpha is registered to the untouched upright native scan by a single similarity transform, then used only as an ownership guide for continuous native edge matting. Original scan RGB is never warped, rescaled or redrawn; all opaque source RGB is retained exactly, including worn paint. Mixed native edge colors are decontaminated. AI colors, inferred textures and restored marks are not used. Subject ownership remains approximate and requires original/white/dark visual review.",
+          "registration_algorithm": "SIFT descriptors / 0.72 Lowe ratio / RANSAC similarity transform, 5 native-pixel inlier threshold",
+          "guide_png": "tmp/extraction-work/continuation-20261010/walters-w73-1r--figure-holding-balance-scales--registered-ai-alpha-guide-reference.png",
+          "guide_sha256": "a966411bfd7fdcee1f702df12b394e077f03b03fa9737eeabe5c349204bbfa5e",
+          "retained_builtin_ai_result": "tmp/extraction-work/walters-w73-1r--figure-holding-balance-scales--retained-ai-extraction.png",
+          "upright_native_original": "tmp/extraction-work/continuation-20261010/walters-w73-1r--figure-holding-balance-scales--expanded-upright-original.png",
+          "similarity_ai_alpha_to_native_scan": [
+            [
+              0.8195206167928281,
+              0.015568385569131371,
+              231.662758264432
+            ],
+            [
+              -0.015568385569131371,
+              0.8195206167928281,
+              454.9502628320127
+            ]
+          ],
+          "matching_feature_pairs": 173,
+          "inlier_feature_pairs": 129,
+          "inlier_rms_native_pixels": 2.4893593108981786,
+          "unknown_edge_band_native_pixels": 8,
+          "thin_source_ink_seeding": "Only native dark ink contrast above 30/255, within the registered body guide more than one native pixel from its edge; saturated green compartment field excluded from this supplementary seed."
+        },
+        "rotation_method": "Exact native pixel transpose before alpha registration; original painted source pixels are not warped or rescaled.",
+        "status": "awaiting-original-native-white-dark-review",
+        "instrument_ownership_annotation": "tmp/extraction-work/continuation-20261010/walters-w73-1r--figure-holding-balance-scales--complete-native-balance-annotation.json",
+        "instrument_ownership_guide": "tmp/extraction-work/continuation-20261010/walters-w73-1r--figure-holding-balance-scales--complete-native-instrument-ownership.png",
+        "tool": "Original native scan / closed-form edge alpha and foreground decontamination",
+        "pixel_exact": false
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Compared upright native original, white and dark results. Original faint scan marks, full source-visible bodies and props retained. Libra native beam, both bowls and all four suspension cords individually reviewed. Contacting twins/shared shield remain one group; lower ends retain only the original visible drawing at the diagram rule. No raster upscaling or invented anatomy.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/zodiac-native-final-two-proof.jpg",
+          "tmp/extraction-work/continuation-20261010/gemini-shield-tip-source-close.jpg",
+          "tmp/extraction-work/continuation-20261010/balance-original-instrument-labeled-inspection.jpg"
+        ]
+      },
+      "categories": [
+        "humans"
+      ],
+      "subjects": [
+        "figure",
+        "holding",
+        "balance",
+        "scales",
+        "zodiac"
+      ],
+      "colors": [
+        "cream",
+        "brown",
+        "green"
+      ],
+      "facing": "unclear",
+      "composition": "standalone",
+      "usage_notes": "Native source painting retains its worn original pigment. The zodiac proceeds counterclockwise in this diagram; identity is checked against the institution description and visible original, rather than inferred from clockwise order. Labels and diagram divisions are excluded from the exterior. Original diagram strokes crossing painted subject pixels remain historical source texture. Any rigid orientation correction is recorded. Source authority: https://thedigitalwalters.org/Data/WaltersManuscripts/html/W73/description.html",
+      "sets": [
+        {
+          "id": "walters-w73-1r-set",
+          "name": "Walters W.73 Zodiac",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A robed human figure holding a balance with a horizontal beam and two hanging scale pans.",
+      "set_label": "Walters W.73 Zodiac"
+    },
+    {
+      "id": "walters-w73-1r--goat-headed-fish-tailed-capricorn",
+      "name": "goat-headed-fish-tailed-capricorn",
+      "source_id": "walters-w73-1r",
+      "source_folder": "walters",
+      "asset_type": "illustration",
+      "description": "A goat-headed Capricorn hybrid with forelegs, a curled fish tail and a mask-like terminal. Part of the Walters W.73 Zodiac set.",
+      "source_region": [
+        1707,
+        5464,
+        3194,
+        6896
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        314,
+        310,
+        1305,
+        1111
+      ],
+      "export_crop_coordinate_space": "source-region",
+      "width": 991,
+      "height": 801,
+      "png": "walters/walters-w73-1r--goat-headed-fish-tailed-capricorn.png",
+      "png_sha256": "96eaa87321dab941cba32bad29ccb0dbda9ae7abcd98d04b1be546dd3c94468a",
+      "provenance": {
+        "institution": "Walters Art Museum",
+        "title": "Diagram of the zodiac",
+        "object_identifier": "W.73, fol. 1r",
+        "date": "Late 12th century CE",
+        "record_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/html/W73/description.html",
+        "image_rights": "CC0 (Digital Walters manuscript images)",
+        "rights_url": "https://www.thedigitalwalters.org/01_ACCESS_WALTERS_MANUSCRIPTS.html",
+        "source_file": "tmp/new-assets/walters/walters-w73-1r--diagram-of-the-zodiac--master.tif",
+        "source_sha256": "ffb54e2de949fa417ec244b99ad1575df380308d6a7466a29078367df143d568",
+        "source_metadata": "tmp/new-assets/walters/walters-w73-1r.json",
+        "image_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/W73/data/W.73/master/W73_000003_1076.tif",
+        "method": "native-source-continuous-edge-matting"
+      },
+      "extraction": {
+        "candidate_png": "tmp/extraction-work/continuation-20261010/walters-w73-1r--goat-headed-fish-tailed-capricorn--refined-native-candidate.png",
+        "native_export_crop": [
+          314,
+          310,
+          1305,
+          1111
+        ],
+        "annotation_json": "tmp/extraction-work/continuation-20261010/walters-w73-1r--goat-headed-fish-tailed-capricorn--native-semantic-annotation.json",
+        "trimap_png": "tmp/extraction-work/continuation-20261010/walters-w73-1r--goat-headed-fish-tailed-capricorn--refined-native-trimap.png",
+        "native_upscaling": false,
+        "source_pixels_redrawn": false,
+        "original_opaque_rgb_preserved": true,
+        "native_source_size": [
+          1487,
+          1432
+        ],
+        "unknown_contour_band_native_pixels": 4,
+        "rotation_method": "Source orientation retained",
+        "method": "SAM 2.1 semantic ownership guide applied only to native alpha; complete opaque original painted surfaces and exact opaque source RGB retained. Closed-form continuous native edge matting; no source upscaling, redraw, restored anatomy, or vector approximation.",
+        "semantic_body_guide": {
+          "prompts_native_pixels": [
+            {
+              "positive": [
+                [
+                  842.9499999999998,
+                  737.0399999999998
+                ],
+                [
+                  544.5999999999999,
+                  873.8000000000002
+                ],
+                [
+                  478.30000000000024,
+                  589.7600000000002
+                ],
+                [
+                  1052.9,
+                  558.1999999999998
+                ],
+                [
+                  1163.4,
+                  1010.5600000000004
+                ]
+              ],
+              "negative": [
+                [
+                  412.0,
+                  400.3999999999996
+                ],
+                [
+                  677.1999999999998,
+                  1115.7600000000002
+                ],
+                [
+                  1218.65,
+                  368.84000000000015
+                ]
+              ],
+              "box": [
+                206.0,
+                210.0,
+                1376.0,
+                1292.0
+              ],
+              "mask_choice": 2
+            }
+          ],
+          "normalized_prompts": [
+            {
+              "positive": [
+                [
+                  0.5668796234028244,
+                  0.5146927374301675
+                ],
+                [
+                  0.36624075319435095,
+                  0.6101955307262571
+                ],
+                [
+                  0.3216543375924682,
+                  0.4118435754189946
+                ],
+                [
+                  0.708069939475454,
+                  0.3898044692737429
+                ],
+                [
+                  0.782380632145259,
+                  0.7056983240223467
+                ]
+              ],
+              "negative": [
+                [
+                  0.27706792199058505,
+                  0.27960893854748575
+                ],
+                [
+                  0.4554135843981169,
+                  0.7791620111731845
+                ],
+                [
+                  0.8195359784801615,
+                  0.25756983240223474
+                ]
+              ],
+              "box": [
+                0.13853396099529253,
+                0.14664804469273743,
+                0.9253530598520511,
+                0.9022346368715084
+              ]
+            }
+          ],
+          "scores": [
+            [
+              0.8327065110206604,
+              0.7424328327178955,
+              0.8620956540107727
+            ]
+          ],
+          "ownership_scope_polygons": null,
+          "checkpoint": "tmp/sam2.1_hiera_base_plus.pt",
+          "checkpoint_sha256": "a2345aede8715ab1d5d31b4a509fb160c5a4af1970f199d9054ccfb746c004c5",
+          "unknown_band_native_pixels": 4,
+          "rotation_clockwise": 0,
+          "method": "SAM 2.1 semantic ownership guide applied only to native alpha; complete opaque original painted surfaces and exact opaque source RGB retained. Closed-form continuous native edge matting; no source upscaling, redraw, restored anatomy, or vector approximation."
+        },
+        "status": "awaiting-final-original-white-dark-review",
+        "alpha_support_refinements": {
+          "id": "walters-w73-1r--goat-headed-fish-tailed-capricorn",
+          "closures": [
+            {
+              "box": [
+                1175,
+                700,
+                1235,
+                815
+              ],
+              "kernel": [
+                1,
+                41
+              ],
+              "reason": "Restore the actual foreleg silhouette where the diagram spoke crosses it. Retain source RGB, including the original crossing mark; do not manufacture underlying paint."
+            }
+          ]
+        },
+        "tool": "Original native scan / closed-form edge alpha and foreground decontamination",
+        "pixel_exact": false
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Reviewed the expanded original/native painted contour and each white/dark result. Entire opaque painted bodies, real paint wear, pale strokes and source-visible extremities retained on their native pixel grid. All figure exterior, genuine openings, glyph strokes and detached page/diagram fragments cleared. Aquarius uses an exact 180-degree native transpose. Native alpha-only guide refinements preserve the small original diagram marks crossing Capricorn's forehoof and Scorpio's wing; the marks never extend outside the subjects and no underlying paint is invented. The green leaf and orange bloom are complete original ornaments; shared alphabetic blue strokes were excluded rather than presented as severed vines. No upscaling, redraw or faceted SVG.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/five-refined-native-dark-inspection.jpg",
+          "tmp/extraction-work/continuation-20261010/five-native-zodiac-and-letter-motifs-final-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/five-native-zodiac-and-letter-motifs-final-proof-2.jpg"
+        ]
+      },
+      "categories": [
+        "animals"
+      ],
+      "subjects": [
+        "goat",
+        "headed",
+        "fish",
+        "tailed",
+        "capricorn",
+        "zodiac"
+      ],
+      "colors": [
+        "cream",
+        "brown",
+        "green"
+      ],
+      "facing": "unclear",
+      "composition": "standalone",
+      "usage_notes": "Native source painting retains its worn original pigment. The zodiac proceeds counterclockwise in this diagram; identity is checked against the institution description and visible original, rather than inferred from clockwise order. Labels and diagram divisions are excluded from the exterior. Original diagram strokes crossing painted subject pixels remain historical source texture. Any rigid orientation correction is recorded. Source authority: https://thedigitalwalters.org/Data/WaltersManuscripts/html/W73/description.html",
+      "sets": [
+        {
+          "id": "walters-w73-1r-set",
+          "name": "Walters W.73 Zodiac",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A goat-headed Capricorn hybrid with forelegs, a curled fish tail and a mask-like terminal.",
+      "set_label": "Walters W.73 Zodiac"
+    },
+    {
+      "id": "walters-w73-1r--lion-with-curled-tail",
+      "name": "lion-with-curled-tail",
+      "source_id": "walters-w73-1r",
+      "source_folder": "walters",
+      "asset_type": "illustration",
+      "description": "A lion with four legs, curled tail and a worn mane. Part of the Walters W.73 Zodiac set.",
+      "source_region": [
+        3436,
+        8924,
+        5030,
+        10462
+      ],
+      "rotation_clockwise": 90,
+      "export_crop": [
+        355,
+        471,
+        1382,
+        1328
+      ],
+      "export_crop_coordinate_space": "rigidly-upright-original-source-region",
+      "width": 1027,
+      "height": 857,
+      "png": "walters/walters-w73-1r--lion-with-curled-tail.png",
+      "png_sha256": "9496e0e76d912c157cfae726e6183599354b88b9f1f3cfe1ea2eae93487ddcc0",
+      "provenance": {
+        "institution": "Walters Art Museum",
+        "title": "Diagram of the zodiac",
+        "object_identifier": "W.73, fol. 1r",
+        "date": "Late 12th century CE",
+        "record_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/html/W73/description.html",
+        "image_rights": "CC0 (Digital Walters manuscript images)",
+        "rights_url": "https://www.thedigitalwalters.org/01_ACCESS_WALTERS_MANUSCRIPTS.html",
+        "source_file": "tmp/new-assets/walters/walters-w73-1r--diagram-of-the-zodiac--master.tif",
+        "source_sha256": "ffb54e2de949fa417ec244b99ad1575df380308d6a7466a29078367df143d568",
+        "source_metadata": "tmp/new-assets/walters/walters-w73-1r.json",
+        "image_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/W73/data/W.73/master/W73_000003_1076.tif",
+        "method": "native-source-continuous-edge-matting"
+      },
+      "extraction": {
+        "candidate_png": "tmp/extraction-work/continuation-20261010/walters-w73-1r--lion-with-curled-tail--registered-native-candidate.png",
+        "native_export_crop": [
+          355,
+          471,
+          1382,
+          1328
+        ],
+        "export_crop_coordinate_space": "rigidly-upright-original-source-region",
+        "annotation_json": "tmp/extraction-work/continuation-20261010/walters-w73-1r--lion-with-curled-tail--registered-native-annotation.json",
+        "trimap_png": "tmp/extraction-work/continuation-20261010/walters-w73-1r--lion-with-curled-tail--registered-native-trimap.png",
+        "native_source_size": [
+          1538,
+          1594
+        ],
+        "native_upscaling": false,
+        "source_pixels_redrawn": false,
+        "original_opaque_rgb_preserved": true,
+        "method": "Extracted AI alpha is registered to the untouched upright native scan by a single similarity transform, then used only as an ownership guide for continuous native edge matting. Original scan RGB is never warped, rescaled or redrawn; all opaque source RGB is retained exactly, including worn paint. Mixed native edge colors are decontaminated. AI colors, inferred textures and restored marks are not used. Subject ownership remains approximate and requires original/white/dark visual review.",
+        "alpha_guide": {
+          "method": "Extracted AI alpha is registered to the untouched upright native scan by a single similarity transform, then used only as an ownership guide for continuous native edge matting. Original scan RGB is never warped, rescaled or redrawn; all opaque source RGB is retained exactly, including worn paint. Mixed native edge colors are decontaminated. AI colors, inferred textures and restored marks are not used. Subject ownership remains approximate and requires original/white/dark visual review.",
+          "registration_algorithm": "SIFT descriptors / 0.72 Lowe ratio / RANSAC similarity transform, 5 native-pixel inlier threshold",
+          "guide_png": "tmp/extraction-work/continuation-20261010/walters-w73-1r--lion-with-curled-tail--registered-ai-alpha-guide-reference.png",
+          "guide_sha256": "8f3ecb72289020f63086a204353ce4f493edf9b2ee9214cbd56b26f9c06f844b",
+          "retained_builtin_ai_result": "tmp/extraction-work/walters-w73-1r--lion-with-curled-tail--retained-ai-extraction.png",
+          "upright_native_original": "tmp/extraction-work/continuation-20261010/walters-w73-1r--lion-with-curled-tail--expanded-upright-original.png",
+          "similarity_ai_alpha_to_native_scan": [
+            [
+              0.9319545651237628,
+              0.0007939083680580398,
+              360.7466917726266
+            ],
+            [
+              -0.0007939083680580398,
+              0.9319545651237628,
+              477.32019192495227
+            ]
+          ],
+          "matching_feature_pairs": 210,
+          "inlier_feature_pairs": 175,
+          "inlier_rms_native_pixels": 2.072934881736797,
+          "unknown_edge_band_native_pixels": 8,
+          "thin_source_ink_seeding": "Only native dark ink contrast above 30/255, within the registered body guide more than one native pixel from its edge; saturated green compartment field excluded from this supplementary seed."
+        },
+        "rotation_method": "Exact native pixel transpose before alpha registration; original painted source pixels are not warped or rescaled.",
+        "status": "awaiting-original-native-white-dark-review",
+        "tool": "Original native scan / closed-form edge alpha and foreground decontamination",
+        "pixel_exact": false
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Original native painted RGB retained at opaque pixels, including wear and pale/gold/green source surfaces. Compared against full expanded native original and white/dark exports. Correct original-visible anatomy, eight crab legs, real linked fish group, actual bends and flowing robe retained. Upright rigid rotations reviewed; bull and ram external green diagram band removed. AI color/textural reconstruction rejected; source alpha ownership remains approximate, with soft original scanned ink and worn source paint deliberately retained. No false vector trace.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/zodiac-final-native-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/zodiac-final-native-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/zodiac-final-native-proof-3.jpg"
+        ]
+      },
+      "categories": [
+        "animals"
+      ],
+      "subjects": [
+        "lion",
+        "with",
+        "curled",
+        "tail",
+        "zodiac"
+      ],
+      "colors": [
+        "cream",
+        "brown",
+        "green"
+      ],
+      "facing": "unclear",
+      "composition": "standalone",
+      "usage_notes": "Native source painting retains its worn original pigment. The zodiac proceeds counterclockwise in this diagram; identity is checked against the institution description and visible original, rather than inferred from clockwise order. Labels and diagram divisions are excluded from the exterior. Original diagram strokes crossing painted subject pixels remain historical source texture. Any rigid orientation correction is recorded. Source authority: https://thedigitalwalters.org/Data/WaltersManuscripts/html/W73/description.html",
+      "sets": [
+        {
+          "id": "walters-w73-1r-set",
+          "name": "Walters W.73 Zodiac",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A lion with four legs, curled tail and a worn mane.",
+      "set_label": "Walters W.73 Zodiac"
+    },
+    {
+      "id": "walters-w73-1r--mail-clad-twins-with-shared-shield",
+      "name": "mail-clad-twins-with-shared-shield",
+      "source_id": "walters-w73-1r",
+      "source_folder": "walters",
+      "asset_type": "illustration",
+      "description": "Two armored mail-clad figures sharing one large triangular shield; their shared contact requires one group. Part of the Walters W.73 Zodiac set.",
+      "source_region": [
+        1585,
+        9548,
+        3216,
+        10942
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        270,
+        85,
+        1366,
+        1025
+      ],
+      "export_crop_coordinate_space": "rigidly-upright-original-source-region",
+      "width": 1096,
+      "height": 940,
+      "png": "walters/walters-w73-1r--mail-clad-twins-with-shared-shield.png",
+      "png_sha256": "dc0f8b932bd987128df32f25ccdd05f0b51fae97e4dea62d5dc5b52028139c2e",
+      "provenance": {
+        "institution": "Walters Art Museum",
+        "title": "Diagram of the zodiac",
+        "object_identifier": "W.73, fol. 1r",
+        "date": "Late 12th century CE",
+        "record_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/html/W73/description.html",
+        "image_rights": "CC0 (Digital Walters manuscript images)",
+        "rights_url": "https://www.thedigitalwalters.org/01_ACCESS_WALTERS_MANUSCRIPTS.html",
+        "source_file": "tmp/new-assets/walters/walters-w73-1r--diagram-of-the-zodiac--master.tif",
+        "source_sha256": "ffb54e2de949fa417ec244b99ad1575df380308d6a7466a29078367df143d568",
+        "source_metadata": "tmp/new-assets/walters/walters-w73-1r.json",
+        "image_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/W73/data/W.73/master/W73_000003_1076.tif",
+        "method": "native-source-continuous-edge-matting"
+      },
+      "extraction": {
+        "candidate_png": "tmp/extraction-work/continuation-20261010/walters-w73-1r--mail-clad-twins-with-shared-shield--native-source-visible-ends.png",
+        "native_export_crop": [
+          270,
+          85,
+          1366,
+          1025
+        ],
+        "export_crop_coordinate_space": "rigidly-upright-original-source-region",
+        "annotation_json": "tmp/extraction-work/continuation-20261010/walters-w73-1r--mail-clad-twins-with-shared-shield--registered-native-annotation.json",
+        "trimap_png": "tmp/extraction-work/continuation-20261010/walters-w73-1r--mail-clad-twins-with-shared-shield--registered-native-trimap.png",
+        "native_source_size": [
+          1631,
+          1394
+        ],
+        "native_upscaling": false,
+        "source_pixels_redrawn": false,
+        "original_opaque_rgb_preserved": true,
+        "method": "Extracted AI alpha is registered to the untouched upright native scan by a single similarity transform, then used only as an ownership guide for continuous native edge matting. Original scan RGB is never warped, rescaled or redrawn; all opaque source RGB is retained exactly, including worn paint. Mixed native edge colors are decontaminated. AI colors, inferred textures and restored marks are not used. Subject ownership remains approximate and requires original/white/dark visual review. Source figures terminate against the original upper edge of the green circular zodiac rule. Native subject alpha is bounded by this inspected source edge; no lower-leg, foot, sword or shield extensions are invented into the diagram band. Upper edge routes follow original native source ink within three inspection pixels. Original native opaque RGB and soft original painted outline retained.",
+        "alpha_guide": {
+          "method": "Extracted AI alpha is registered to the untouched upright native scan by a single similarity transform, then used only as an ownership guide for continuous native edge matting. Original scan RGB is never warped, rescaled or redrawn; all opaque source RGB is retained exactly, including worn paint. Mixed native edge colors are decontaminated. AI colors, inferred textures and restored marks are not used. Subject ownership remains approximate and requires original/white/dark visual review.",
+          "registration_algorithm": "SIFT descriptors / 0.72 Lowe ratio / RANSAC similarity transform, 5 native-pixel inlier threshold",
+          "guide_png": "tmp/extraction-work/continuation-20261010/walters-w73-1r--mail-clad-twins-with-shared-shield--registered-ai-alpha-guide-reference.png",
+          "guide_sha256": "acde727a758ed32e356ec63e303d6b53856c72d8c9bd0e76869fa60d0c31ee27",
+          "retained_builtin_ai_result": "tmp/extraction-work/walters-w73-1r--mail-clad-twins-with-shared-shield--retained-ai-extraction.png",
+          "upright_native_original": "tmp/extraction-work/continuation-20261010/walters-w73-1r--mail-clad-twins-with-shared-shield--expanded-upright-original.png",
+          "similarity_ai_alpha_to_native_scan": [
+            [
+              0.9712879830581473,
+              -0.02989596995144625,
+              296.75580929679853
+            ],
+            [
+              0.02989596995144625,
+              0.9712879830581473,
+              77.27401472713777
+            ]
+          ],
+          "matching_feature_pairs": 340,
+          "inlier_feature_pairs": 239,
+          "inlier_rms_native_pixels": 2.5750687880555585,
+          "unknown_edge_band_native_pixels": 8,
+          "thin_source_ink_seeding": "Only native dark ink contrast above 30/255, within the registered body guide more than one native pixel from its edge; saturated green compartment field excluded from this supplementary seed."
+        },
+        "rotation_method": "Exact native pixel transpose before alpha registration; original painted source pixels are not warped or rescaled.",
+        "status": "awaiting-original-native-white-dark-review",
+        "source_visible_end_annotation": "tmp/extraction-work/continuation-20261010/walters-w73-1r--mail-clad-twins-with-shared-shield--native-source-visible-ends-annotation.json",
+        "tool": "Original native scan / closed-form edge alpha and foreground decontamination",
+        "pixel_exact": false
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Compared upright native original, white and dark results. Original faint scan marks, full source-visible bodies and props retained. Libra native beam, both bowls and all four suspension cords individually reviewed. Contacting twins/shared shield remain one group; lower ends retain only the original visible drawing at the diagram rule. No raster upscaling or invented anatomy.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/zodiac-native-final-two-proof.jpg",
+          "tmp/extraction-work/continuation-20261010/gemini-shield-tip-source-close.jpg",
+          "tmp/extraction-work/continuation-20261010/balance-original-instrument-labeled-inspection.jpg"
+        ]
+      },
+      "categories": [
+        "humans"
+      ],
+      "subjects": [
+        "mail",
+        "clad",
+        "twins",
+        "with",
+        "shared",
+        "shield",
+        "zodiac"
+      ],
+      "colors": [
+        "cream",
+        "brown",
+        "green"
+      ],
+      "facing": "mixed",
+      "composition": "standalone",
+      "usage_notes": "Contacting twins with shared shield remain one group. The original diagram truncates lower shins/sword against its circular rule; only source-visible parts retained, with no invented feet or hidden anatomy. Original faint/worn native drawing preserved.",
+      "sets": [
+        {
+          "id": "walters-w73-1r-set",
+          "name": "Walters W.73 Zodiac",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "Two armored mail-clad figures sharing one large triangular shield; their shared contact requires one group.",
+      "set_label": "Walters W.73 Zodiac"
+    },
+    {
+      "id": "walters-w73-1r--ram-with-curled-horns",
+      "name": "ram-with-curled-horns",
+      "source_id": "walters-w73-1r",
+      "source_folder": "walters",
+      "asset_type": "illustration",
+      "description": "A ram with curled horns, hooves and a long curved tail. Part of the Walters W.73 Zodiac set.",
+      "source_region": [
+        259,
+        8108,
+        1753,
+        9441
+      ],
+      "rotation_clockwise": 270,
+      "export_crop": [
+        147,
+        303,
+        1102,
+        1230
+      ],
+      "export_crop_coordinate_space": "rigidly-upright-original-source-region",
+      "width": 955,
+      "height": 927,
+      "png": "walters/walters-w73-1r--ram-with-curled-horns.png",
+      "png_sha256": "7ba1b7ba973a629cf511b891dd22f7f7d1af495ab56c8d5748623b05a9211e62",
+      "provenance": {
+        "institution": "Walters Art Museum",
+        "title": "Diagram of the zodiac",
+        "object_identifier": "W.73, fol. 1r",
+        "date": "Late 12th century CE",
+        "record_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/html/W73/description.html",
+        "image_rights": "CC0 (Digital Walters manuscript images)",
+        "rights_url": "https://www.thedigitalwalters.org/01_ACCESS_WALTERS_MANUSCRIPTS.html",
+        "source_file": "tmp/new-assets/walters/walters-w73-1r--diagram-of-the-zodiac--master.tif",
+        "source_sha256": "ffb54e2de949fa417ec244b99ad1575df380308d6a7466a29078367df143d568",
+        "source_metadata": "tmp/new-assets/walters/walters-w73-1r.json",
+        "image_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/W73/data/W.73/master/W73_000003_1076.tif",
+        "method": "native-source-continuous-edge-matting"
+      },
+      "extraction": {
+        "candidate_png": "tmp/extraction-work/continuation-20261010/walters-w73-1r--ram-with-curled-horns--registered-native-refined.png",
+        "native_export_crop": [
+          147,
+          303,
+          1102,
+          1230
+        ],
+        "export_crop_coordinate_space": "rigidly-upright-original-source-region",
+        "annotation_json": "tmp/extraction-work/continuation-20261010/walters-w73-1r--ram-with-curled-horns--registered-native-refined-annotation.json",
+        "trimap_png": "tmp/extraction-work/continuation-20261010/walters-w73-1r--ram-with-curled-horns--registered-native-refined-trimap.png",
+        "native_source_size": [
+          1333,
+          1494
+        ],
+        "native_upscaling": false,
+        "source_pixels_redrawn": false,
+        "original_opaque_rgb_preserved": true,
+        "method": "Extracted AI alpha is registered to the untouched upright native scan by a single similarity transform, then used only as an ownership guide for continuous native edge matting. Original scan RGB is never warped, rescaled or redrawn; all opaque source RGB is retained exactly, including worn paint. Mixed native edge colors are decontaminated. AI colors, inferred textures and restored marks are not used. Subject ownership remains approximate and requires original/white/dark visual review.",
+        "alpha_guide": {
+          "method": "Extracted AI alpha is registered to the untouched upright native scan by a single similarity transform, then used only as an ownership guide for continuous native edge matting. Original scan RGB is never warped, rescaled or redrawn; all opaque source RGB is retained exactly, including worn paint. Mixed native edge colors are decontaminated. AI colors, inferred textures and restored marks are not used. Subject ownership remains approximate and requires original/white/dark visual review.",
+          "registration_algorithm": "SIFT descriptors / 0.72 Lowe ratio / RANSAC similarity transform, 5 native-pixel inlier threshold",
+          "guide_png": "tmp/extraction-work/continuation-20261010/walters-w73-1r--ram-with-curled-horns--registered-ai-alpha-guide-reference.png",
+          "guide_sha256": "70b0efad1fc832a2dadc82b27d94e50102b04bbac9bcf1fba417dcccb69ecd90",
+          "retained_builtin_ai_result": "tmp/extraction-work/walters-w73-1r--ram-with-curled-horns--retained-ai-extraction.png",
+          "upright_native_original": "tmp/extraction-work/continuation-20261010/walters-w73-1r--ram-with-curled-horns--expanded-upright-original.png",
+          "similarity_ai_alpha_to_native_scan": [
+            [
+              1.056361238605971,
+              -0.007182033292464009,
+              154.16605561508888
+            ],
+            [
+              0.007182033292464009,
+              1.056361238605971,
+              300.0632451708581
+            ]
+          ],
+          "matching_feature_pairs": 268,
+          "inlier_feature_pairs": 158,
+          "inlier_rms_native_pixels": 2.8349901453875694,
+          "unknown_edge_band_native_pixels": 8,
+          "thin_source_ink_seeding": "Only native dark ink contrast above 30/255, within the registered body guide more than one native pixel from its edge; saturated green compartment field excluded from this supplementary seed.",
+          "inspected_background_refinement": "Original bull/ram painted bodies contain no green pigment; green diagram field and baseline classified as exterior only. Native continuous alpha refinement retains the original complete pale/brown bodies and ink, without changing original opaque RGB."
+        },
+        "rotation_method": "Exact native pixel transpose before alpha registration; original painted source pixels are not warped or rescaled.",
+        "status": "awaiting-original-native-white-dark-review",
+        "tool": "Original native scan / closed-form edge alpha and foreground decontamination",
+        "pixel_exact": false
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Original native painted RGB retained at opaque pixels, including wear and pale/gold/green source surfaces. Compared against full expanded native original and white/dark exports. Correct original-visible anatomy, eight crab legs, real linked fish group, actual bends and flowing robe retained. Upright rigid rotations reviewed; bull and ram external green diagram band removed. AI color/textural reconstruction rejected; source alpha ownership remains approximate, with soft original scanned ink and worn source paint deliberately retained. No false vector trace.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/zodiac-final-native-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/zodiac-final-native-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/zodiac-final-native-proof-3.jpg"
+        ]
+      },
+      "categories": [
+        "animals"
+      ],
+      "subjects": [
+        "ram",
+        "with",
+        "curled",
+        "horns",
+        "zodiac"
+      ],
+      "colors": [
+        "cream",
+        "brown",
+        "green"
+      ],
+      "facing": "unclear",
+      "composition": "standalone",
+      "usage_notes": "Native source painting retains its worn original pigment. The zodiac proceeds counterclockwise in this diagram; identity is checked against the institution description and visible original, rather than inferred from clockwise order. Labels and diagram divisions are excluded from the exterior. Original diagram strokes crossing painted subject pixels remain historical source texture. Any rigid orientation correction is recorded. Source authority: https://thedigitalwalters.org/Data/WaltersManuscripts/html/W73/description.html",
+      "sets": [
+        {
+          "id": "walters-w73-1r-set",
+          "name": "Walters W.73 Zodiac",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A ram with curled horns, hooves and a long curved tail.",
+      "set_label": "Walters W.73 Zodiac"
+    },
+    {
+      "id": "walters-w73-1r--robed-water-bearer-pouring-round-jar",
+      "name": "robed-water-bearer-pouring-round-jar",
+      "source_id": "walters-w73-1r",
+      "source_folder": "walters",
+      "asset_type": "illustration",
+      "description": "A green-robed water bearer holding a large round jar and pouring its long wavy stream. Part of the Walters W.73 Zodiac set.",
+      "source_region": [
+        701,
+        6043,
+        2256,
+        7437
+      ],
+      "rotation_clockwise": 180,
+      "export_crop": [
+        240,
+        175,
+        1075,
+        1167
+      ],
+      "export_crop_coordinate_space": "source-region",
+      "width": 835,
+      "height": 992,
+      "png": "walters/walters-w73-1r--robed-water-bearer-pouring-round-jar.png",
+      "png_sha256": "68851b0f3c0f3dec0082ffab9480aeaf3940d721cbaa066b487d415c65d0c06e",
+      "provenance": {
+        "institution": "Walters Art Museum",
+        "title": "Diagram of the zodiac",
+        "object_identifier": "W.73, fol. 1r",
+        "date": "Late 12th century CE",
+        "record_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/html/W73/description.html",
+        "image_rights": "CC0 (Digital Walters manuscript images)",
+        "rights_url": "https://www.thedigitalwalters.org/01_ACCESS_WALTERS_MANUSCRIPTS.html",
+        "source_file": "tmp/new-assets/walters/walters-w73-1r--diagram-of-the-zodiac--master.tif",
+        "source_sha256": "ffb54e2de949fa417ec244b99ad1575df380308d6a7466a29078367df143d568",
+        "source_metadata": "tmp/new-assets/walters/walters-w73-1r.json",
+        "image_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/W73/data/W.73/master/W73_000003_1076.tif",
+        "method": "native-source-continuous-edge-matting"
+      },
+      "extraction": {
+        "candidate_png": "tmp/extraction-work/continuation-20261010/walters-w73-1r--robed-water-bearer-pouring-round-jar--refined-native-candidate.png",
+        "native_export_crop": [
+          240,
+          175,
+          1075,
+          1167
+        ],
+        "annotation_json": "tmp/extraction-work/continuation-20261010/walters-w73-1r--robed-water-bearer-pouring-round-jar--native-semantic-annotation.json",
+        "trimap_png": "tmp/extraction-work/continuation-20261010/walters-w73-1r--robed-water-bearer-pouring-round-jar--refined-native-trimap.png",
+        "native_upscaling": false,
+        "source_pixels_redrawn": false,
+        "original_opaque_rgb_preserved": true,
+        "native_source_size": [
+          1555,
+          1394
+        ],
+        "unknown_contour_band_native_pixels": 4,
+        "rotation_method": "Exact native pixel transpose",
+        "method": "SAM 2.1 semantic ownership guide applied only to native alpha; complete opaque original painted surfaces and exact opaque source RGB retained. Closed-form continuous native edge matting; no source upscaling, redraw, restored anatomy, or vector approximation.",
+        "semantic_body_guide": {
+          "prompts_native_pixels": [
+            {
+              "positive": [
+                [
+                  871.3399999999999,
+                  1031.62
+                ],
+                [
+                  929.99,
+                  636.1599999999999
+                ],
+                [
+                  883.0699999999999,
+                  342.10000000000036
+                ],
+                [
+                  718.8499999999999,
+                  991.0600000000004
+                ],
+                [
+                  460.78999999999996,
+                  818.6800000000003
+                ]
+              ],
+              "negative": [
+                [
+                  378.68000000000006,
+                  413.0799999999999
+                ],
+                [
+                  1164.59,
+                  656.4399999999996
+                ],
+                [
+                  1223.24,
+                  1062.04
+                ]
+              ],
+              "box": [
+                206.0,
+                210.0,
+                1444.0,
+                1254.0
+              ],
+              "mask_choice": 2
+            }
+          ],
+          "normalized_prompts": [
+            {
+              "positive": [
+                [
+                  0.5603472668810289,
+                  0.7400430416068866
+                ],
+                [
+                  0.598064308681672,
+                  0.4563558106169296
+                ],
+                [
+                  0.5678906752411575,
+                  0.2454088952654235
+                ],
+                [
+                  0.46228295819935683,
+                  0.7109469153515068
+                ],
+                [
+                  0.2963279742765273,
+                  0.5872883787661408
+                ]
+              ],
+              "negative": [
+                [
+                  0.24352411575562705,
+                  0.29632711621233854
+                ],
+                [
+                  0.7489324758842443,
+                  0.4709038737446195
+                ],
+                [
+                  0.7866495176848874,
+                  0.7618651362984218
+                ]
+              ],
+              "box": [
+                0.13247588424437298,
+                0.15064562410329985,
+                0.9286173633440514,
+                0.8995695839311334
+              ]
+            }
+          ],
+          "scores": [
+            [
+              0.8495965003967285,
+              0.7186509370803833,
+              0.8817130327224731
+            ]
+          ],
+          "ownership_scope_polygons": null,
+          "checkpoint": "tmp/sam2.1_hiera_base_plus.pt",
+          "checkpoint_sha256": "a2345aede8715ab1d5d31b4a509fb160c5a4af1970f199d9054ccfb746c004c5",
+          "unknown_band_native_pixels": 4,
+          "rotation_clockwise": 180,
+          "method": "SAM 2.1 semantic ownership guide applied only to native alpha; complete opaque original painted surfaces and exact opaque source RGB retained. Closed-form continuous native edge matting; no source upscaling, redraw, restored anatomy, or vector approximation."
+        },
+        "status": "awaiting-final-original-white-dark-review",
+        "alpha_support_refinements": {
+          "id": "walters-w73-1r--robed-water-bearer-pouring-round-jar"
+        },
+        "tool": "Original native scan / closed-form edge alpha and foreground decontamination",
+        "pixel_exact": false
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Reviewed the expanded original/native painted contour and each white/dark result. Entire opaque painted bodies, real paint wear, pale strokes and source-visible extremities retained on their native pixel grid. All figure exterior, genuine openings, glyph strokes and detached page/diagram fragments cleared. Aquarius uses an exact 180-degree native transpose. Native alpha-only guide refinements preserve the small original diagram marks crossing Capricorn's forehoof and Scorpio's wing; the marks never extend outside the subjects and no underlying paint is invented. The green leaf and orange bloom are complete original ornaments; shared alphabetic blue strokes were excluded rather than presented as severed vines. No upscaling, redraw or faceted SVG.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/five-refined-native-dark-inspection.jpg",
+          "tmp/extraction-work/continuation-20261010/five-native-zodiac-and-letter-motifs-final-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/five-native-zodiac-and-letter-motifs-final-proof-2.jpg"
+        ]
+      },
+      "categories": [
+        "humans"
+      ],
+      "subjects": [
+        "robed",
+        "water",
+        "bearer",
+        "pouring",
+        "round",
+        "jar",
+        "zodiac"
+      ],
+      "colors": [
+        "cream",
+        "brown",
+        "green"
+      ],
+      "facing": "unclear",
+      "composition": "standalone",
+      "usage_notes": "Native source painting retains its worn original pigment. The zodiac proceeds counterclockwise in this diagram; identity is checked against the institution description and visible original, rather than inferred from clockwise order. Labels and diagram divisions are excluded from the exterior. Original diagram strokes crossing painted subject pixels remain historical source texture. Any rigid orientation correction is recorded. Source authority: https://thedigitalwalters.org/Data/WaltersManuscripts/html/W73/description.html",
+      "sets": [
+        {
+          "id": "walters-w73-1r-set",
+          "name": "Walters W.73 Zodiac",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A green-robed water bearer holding a large round jar and pouring its long wavy stream.",
+      "set_label": "Walters W.73 Zodiac"
+    },
+    {
+      "id": "walters-w73-1r--robed-woman-with-outstretched-arms",
+      "name": "robed-woman-with-outstretched-arms",
+      "source_id": "walters-w73-1r",
+      "source_folder": "walters",
+      "asset_type": "illustration",
+      "description": "Pale zodiac woman in a flowing robe with both arms extended, upright after a rigid quarter-turn. Part of the Walters W.73 Zodiac set.",
+      "source_region": [
+        4008,
+        8093,
+        5625,
+        9547
+      ],
+      "rotation_clockwise": 90,
+      "export_crop": [
+        543,
+        117,
+        1331,
+        1065
+      ],
+      "export_crop_coordinate_space": "rigidly-upright-original-source-region",
+      "width": 948,
+      "height": 788,
+      "png": "walters/walters-w73-1r--robed-woman-with-outstretched-arms.png",
+      "png_sha256": "2a0f6617e488827da7e199dd91712f5d5b2cc1c38d4c476418a17a719ec78c08",
+      "provenance": {
+        "institution": "Walters Art Museum",
+        "title": "Diagram of the zodiac",
+        "object_identifier": "W.73, fol. 1r",
+        "date": "Late 12th century CE",
+        "record_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/html/W73/description.html",
+        "image_rights": "CC0 (Digital Walters manuscript images)",
+        "rights_url": "https://www.thedigitalwalters.org/01_ACCESS_WALTERS_MANUSCRIPTS.html",
+        "source_file": "tmp/new-assets/walters/walters-w73-1r--diagram-of-the-zodiac--master.tif",
+        "source_sha256": "ffb54e2de949fa417ec244b99ad1575df380308d6a7466a29078367df143d568",
+        "source_metadata": "tmp/new-assets/walters/walters-w73-1r.json",
+        "image_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/W73/data/W.73/master/W73_000003_1076.tif",
+        "method": "native-source-continuous-edge-matting"
+      },
+      "extraction": {
+        "candidate_png": "tmp/extraction-work/continuation-20261010/walters-w73-1r--robed-woman-with-folded-sleeves--registered-native-upright.png",
+        "native_export_crop": [
+          543,
+          117,
+          1331,
+          1065
+        ],
+        "export_crop_coordinate_space": "rigidly-upright-original-source-region",
+        "annotation_json": "tmp/extraction-work/continuation-20261010/walters-w73-1r--robed-woman-with-folded-sleeves--registered-native-annotation.json",
+        "trimap_png": "tmp/extraction-work/continuation-20261010/walters-w73-1r--robed-woman-with-folded-sleeves--registered-native-trimap.png",
+        "native_source_size": [
+          1617,
+          1454
+        ],
+        "native_upscaling": false,
+        "source_pixels_redrawn": false,
+        "original_opaque_rgb_preserved": true,
+        "method": "Extracted AI alpha is registered to the untouched upright native scan by a single similarity transform, then used only as an ownership guide for continuous native edge matting. Original scan RGB is never warped, rescaled or redrawn; all opaque source RGB is retained exactly, including worn paint. Mixed native edge colors are decontaminated. AI colors, inferred textures and restored marks are not used. Subject ownership remains approximate and requires original/white/dark visual review.",
+        "alpha_guide": {
+          "method": "Extracted AI alpha is registered to the untouched upright native scan by a single similarity transform, then used only as an ownership guide for continuous native edge matting. Original scan RGB is never warped, rescaled or redrawn; all opaque source RGB is retained exactly, including worn paint. Mixed native edge colors are decontaminated. AI colors, inferred textures and restored marks are not used. Subject ownership remains approximate and requires original/white/dark visual review.",
+          "registration_algorithm": "SIFT descriptors / 0.72 Lowe ratio / RANSAC similarity transform, 5 native-pixel inlier threshold",
+          "guide_png": "tmp/extraction-work/continuation-20261010/walters-w73-1r--robed-woman-with-folded-sleeves--registered-ai-alpha-guide-reference.png",
+          "guide_sha256": "47c8edc3d8949beb06710c251ddfb79b42dc477cee299e6aeeb78b56a39f9cfc",
+          "retained_builtin_ai_result": "tmp/extraction-work/walters-w73-1r--robed-woman-with-folded-sleeves--retained-ai-extraction.png",
+          "upright_native_original": "tmp/extraction-work/continuation-20261010/walters-w73-1r--robed-woman-with-folded-sleeves--expanded-upright-original.png",
+          "similarity_ai_alpha_to_native_scan": [
+            [
+              0.9354376770558489,
+              0.0846077213647716,
+              521.7907592743187
+            ],
+            [
+              -0.0846077213647716,
+              0.9354376770558489,
+              155.12422635353676
+            ]
+          ],
+          "matching_feature_pairs": 73,
+          "inlier_feature_pairs": 29,
+          "inlier_rms_native_pixels": 2.31369516471739,
+          "unknown_edge_band_native_pixels": 8,
+          "thin_source_ink_seeding": "Only native dark ink contrast above 30/255, within the registered body guide more than one native pixel from its edge; saturated green compartment field excluded from this supplementary seed."
+        },
+        "rotation_method": "Exact native pixel transpose: 90 degrees clockwise after registered native alpha matting. Source crop coordinates recorded before this final rigid quarter-turn.",
+        "status": "awaiting-original-native-white-dark-review",
+        "post_matte_rotation_clockwise": 90,
+        "tool": "Original native scan / closed-form edge alpha and foreground decontamination",
+        "pixel_exact": false
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Original native painted RGB retained at opaque pixels, including wear and pale/gold/green source surfaces. Compared against full expanded native original and white/dark exports. Correct original-visible anatomy, eight crab legs, real linked fish group, actual bends and flowing robe retained. Upright rigid rotations reviewed; bull and ram external green diagram band removed. AI color/textural reconstruction rejected; source alpha ownership remains approximate, with soft original scanned ink and worn source paint deliberately retained. No false vector trace.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/zodiac-final-native-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/zodiac-final-native-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/zodiac-final-native-proof-3.jpg"
+        ]
+      },
+      "categories": [
+        "humans"
+      ],
+      "subjects": [
+        "robed",
+        "woman",
+        "with",
+        "folded",
+        "sleeves",
+        "zodiac"
+      ],
+      "colors": [
+        "cream",
+        "brown",
+        "green"
+      ],
+      "facing": "unclear",
+      "composition": "standalone",
+      "usage_notes": "Native source painting retains its worn original pigment. The zodiac proceeds counterclockwise in this diagram; identity is checked against the institution description and visible original, rather than inferred from clockwise order. Labels and diagram divisions are excluded from the exterior. Original diagram strokes crossing painted subject pixels remain historical source texture. Any rigid orientation correction is recorded. Source authority: https://thedigitalwalters.org/Data/WaltersManuscripts/html/W73/description.html",
+      "sets": [
+        {
+          "id": "walters-w73-1r-set",
+          "name": "Walters W.73 Zodiac",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "Pale zodiac woman in a flowing robe with both arms extended, upright after a rigid quarter-turn.",
+      "set_label": "Walters W.73 Zodiac"
+    },
+    {
+      "id": "walters-w73-1r--two-linked-zodiac-fish",
+      "name": "two-linked-zodiac-fish",
+      "source_id": "walters-w73-1r",
+      "source_folder": "walters",
+      "asset_type": "illustration",
+      "description": "Two oppositely swimming fish joined by the original curved linking stroke. Part of the Walters W.73 Zodiac set.",
+      "source_region": [
+        274,
+        6980,
+        1456,
+        8321
+      ],
+      "rotation_clockwise": 90,
+      "export_crop": [
+        147,
+        456,
+        1191,
+        1038
+      ],
+      "export_crop_coordinate_space": "rigidly-upright-original-source-region",
+      "width": 1044,
+      "height": 582,
+      "png": "walters/walters-w73-1r--two-linked-zodiac-fish.png",
+      "png_sha256": "8a4e6d71f1b2238cd11977b55e869344b579b03558bb58003a09546a9034dc8c",
+      "provenance": {
+        "institution": "Walters Art Museum",
+        "title": "Diagram of the zodiac",
+        "object_identifier": "W.73, fol. 1r",
+        "date": "Late 12th century CE",
+        "record_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/html/W73/description.html",
+        "image_rights": "CC0 (Digital Walters manuscript images)",
+        "rights_url": "https://www.thedigitalwalters.org/01_ACCESS_WALTERS_MANUSCRIPTS.html",
+        "source_file": "tmp/new-assets/walters/walters-w73-1r--diagram-of-the-zodiac--master.tif",
+        "source_sha256": "ffb54e2de949fa417ec244b99ad1575df380308d6a7466a29078367df143d568",
+        "source_metadata": "tmp/new-assets/walters/walters-w73-1r.json",
+        "image_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/W73/data/W.73/master/W73_000003_1076.tif",
+        "method": "native-source-continuous-edge-matting"
+      },
+      "extraction": {
+        "candidate_png": "tmp/extraction-work/continuation-20261010/walters-w73-1r--two-linked-zodiac-fish--registered-native-candidate.png",
+        "native_export_crop": [
+          147,
+          456,
+          1191,
+          1038
+        ],
+        "export_crop_coordinate_space": "rigidly-upright-original-source-region",
+        "annotation_json": "tmp/extraction-work/continuation-20261010/walters-w73-1r--two-linked-zodiac-fish--registered-native-annotation.json",
+        "trimap_png": "tmp/extraction-work/continuation-20261010/walters-w73-1r--two-linked-zodiac-fish--registered-native-trimap.png",
+        "native_source_size": [
+          1341,
+          1182
+        ],
+        "native_upscaling": false,
+        "source_pixels_redrawn": false,
+        "original_opaque_rgb_preserved": true,
+        "method": "Extracted AI alpha is registered to the untouched upright native scan by a single similarity transform, then used only as an ownership guide for continuous native edge matting. Original scan RGB is never warped, rescaled or redrawn; all opaque source RGB is retained exactly, including worn paint. Mixed native edge colors are decontaminated. AI colors, inferred textures and restored marks are not used. Subject ownership remains approximate and requires original/white/dark visual review.",
+        "alpha_guide": {
+          "method": "Extracted AI alpha is registered to the untouched upright native scan by a single similarity transform, then used only as an ownership guide for continuous native edge matting. Original scan RGB is never warped, rescaled or redrawn; all opaque source RGB is retained exactly, including worn paint. Mixed native edge colors are decontaminated. AI colors, inferred textures and restored marks are not used. Subject ownership remains approximate and requires original/white/dark visual review.",
+          "registration_algorithm": "SIFT descriptors / 0.72 Lowe ratio / RANSAC similarity transform, 5 native-pixel inlier threshold",
+          "guide_png": "tmp/extraction-work/continuation-20261010/walters-w73-1r--two-linked-zodiac-fish--registered-ai-alpha-guide-reference.png",
+          "guide_sha256": "90963a8af698c456afbf18641fde92bf8a26dfa4a815033c4234c11a74ba77cf",
+          "retained_builtin_ai_result": "tmp/extraction-work/walters-w73-1r--two-linked-zodiac-fish--retained-ai-extraction.png",
+          "upright_native_original": "tmp/extraction-work/continuation-20261010/walters-w73-1r--two-linked-zodiac-fish--expanded-upright-original.png",
+          "similarity_ai_alpha_to_native_scan": [
+            [
+              1.1390374567033057,
+              -0.012036965257332027,
+              154.47111104191927
+            ],
+            [
+              0.012036965257332027,
+              1.1390374567033057,
+              458.72009377903834
+            ]
+          ],
+          "matching_feature_pairs": 167,
+          "inlier_feature_pairs": 108,
+          "inlier_rms_native_pixels": 2.7318420154253364,
+          "unknown_edge_band_native_pixels": 8,
+          "thin_source_ink_seeding": "Only native dark ink contrast above 30/255, within the registered body guide more than one native pixel from its edge; saturated green compartment field excluded from this supplementary seed."
+        },
+        "rotation_method": "Exact native pixel transpose before alpha registration; original painted source pixels are not warped or rescaled.",
+        "status": "awaiting-original-native-white-dark-review",
+        "tool": "Original native scan / closed-form edge alpha and foreground decontamination",
+        "pixel_exact": false
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Original native painted RGB retained at opaque pixels, including wear and pale/gold/green source surfaces. Compared against full expanded native original and white/dark exports. Correct original-visible anatomy, eight crab legs, real linked fish group, actual bends and flowing robe retained. Upright rigid rotations reviewed; bull and ram external green diagram band removed. AI color/textural reconstruction rejected; source alpha ownership remains approximate, with soft original scanned ink and worn source paint deliberately retained. No false vector trace.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/zodiac-final-native-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/zodiac-final-native-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/zodiac-final-native-proof-3.jpg"
+        ]
+      },
+      "categories": [
+        "animals"
+      ],
+      "subjects": [
+        "two",
+        "linked",
+        "zodiac",
+        "fish"
+      ],
+      "colors": [
+        "cream",
+        "brown",
+        "green"
+      ],
+      "facing": "mixed",
+      "composition": "standalone",
+      "usage_notes": "Native source painting retains its worn original pigment. The zodiac proceeds counterclockwise in this diagram; identity is checked against the institution description and visible original, rather than inferred from clockwise order. Labels and diagram divisions are excluded from the exterior. Original diagram strokes crossing painted subject pixels remain historical source texture. Any rigid orientation correction is recorded. Source authority: https://thedigitalwalters.org/Data/WaltersManuscripts/html/W73/description.html",
+      "sets": [
+        {
+          "id": "walters-w73-1r-set",
+          "name": "Walters W.73 Zodiac",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "Two oppositely swimming fish joined by the original curved linking stroke.",
+      "set_label": "Walters W.73 Zodiac"
+    },
+    {
+      "id": "walters-w73-1r--winged-two-necked-zodiac-creature",
+      "name": "winged-two-necked-zodiac-creature",
+      "source_id": "walters-w73-1r",
+      "source_folder": "walters",
+      "asset_type": "illustration",
+      "description": "A winged zodiac creature with two long curling necks and snake-like heads; the institution identifies this unusual medieval rendering as Scorpio. Part of the Walters W.73 Zodiac set.",
+      "source_region": [
+        3612,
+        5997,
+        5304,
+        7383
+      ],
+      "rotation_clockwise": 180,
+      "export_crop": [
+        288,
+        377,
+        1248,
+        1239
+      ],
+      "export_crop_coordinate_space": "source-region",
+      "width": 960,
+      "height": 862,
+      "png": "walters/walters-w73-1r--winged-two-necked-zodiac-creature.png",
+      "png_sha256": "9a2c4f4337aef84b3ddead3e215fe448cbbbc1b98713430efe9f82731bad2938",
+      "provenance": {
+        "institution": "Walters Art Museum",
+        "title": "Diagram of the zodiac",
+        "object_identifier": "W.73, fol. 1r",
+        "date": "Late 12th century CE",
+        "record_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/html/W73/description.html",
+        "image_rights": "CC0 (Digital Walters manuscript images)",
+        "rights_url": "https://www.thedigitalwalters.org/01_ACCESS_WALTERS_MANUSCRIPTS.html",
+        "source_file": "tmp/new-assets/walters/walters-w73-1r--diagram-of-the-zodiac--master.tif",
+        "source_sha256": "ffb54e2de949fa417ec244b99ad1575df380308d6a7466a29078367df143d568",
+        "source_metadata": "tmp/new-assets/walters/walters-w73-1r.json",
+        "image_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/W73/data/W.73/master/W73_000003_1076.tif",
+        "method": "native-source-continuous-edge-matting"
+      },
+      "extraction": {
+        "candidate_png": "tmp/extraction-work/continuation-20261010/walters-w73-1r--winged-two-necked-zodiac-creature--refined-native-candidate.png",
+        "native_export_crop": [
+          288,
+          377,
+          1248,
+          1239
+        ],
+        "annotation_json": "tmp/extraction-work/continuation-20261010/walters-w73-1r--winged-two-necked-zodiac-creature--native-semantic-annotation.json",
+        "trimap_png": "tmp/extraction-work/continuation-20261010/walters-w73-1r--winged-two-necked-zodiac-creature--refined-native-trimap.png",
+        "native_upscaling": false,
+        "source_pixels_redrawn": false,
+        "original_opaque_rgb_preserved": true,
+        "native_source_size": [
+          1692,
+          1386
+        ],
+        "unknown_contour_band_native_pixels": 4,
+        "rotation_method": "Exact native pixel transpose",
+        "method": "SAM 2.1 semantic ownership guide applied only to native alpha; complete opaque original painted surfaces and exact opaque source RGB retained. Closed-form continuous native edge matting; no source upscaling, redraw, restored anatomy, or vector approximation.",
+        "semantic_body_guide": {
+          "prompts_native_pixels": [
+            {
+              "positive": [
+                [
+                  832.8999999999996,
+                  723.1800000000003
+                ],
+                [
+                  715.0,
+                  622.5799999999999
+                ],
+                [
+                  1160.3999999999996,
+                  833.8400000000001
+                ],
+                [
+                  1317.6000000000004,
+                  713.12
+                ],
+                [
+                  977.0,
+                  1045.1000000000004
+                ]
+              ],
+              "negative": [
+                [
+                  269.5999999999999,
+                  270.47999999999956
+                ],
+                [
+                  701.8999999999996,
+                  310.72000000000025
+                ],
+                [
+                  1356.8999999999996,
+                  1075.2799999999997
+                ]
+              ],
+              "box": [
+                206.0,
+                210.0,
+                1581.0,
+                1246.0
+              ],
+              "mask_choice": 2
+            }
+          ],
+          "normalized_prompts": [
+            {
+              "positive": [
+                [
+                  0.4922576832151298,
+                  0.521774891774892
+                ],
+                [
+                  0.42257683215130026,
+                  0.44919191919191914
+                ],
+                [
+                  0.6858156028368793,
+                  0.6016161616161617
+                ],
+                [
+                  0.7787234042553194,
+                  0.5145165945165945
+                ],
+                [
+                  0.5774231678486997,
+                  0.7540404040404043
+                ]
+              ],
+              "negative": [
+                [
+                  0.159338061465721,
+                  0.19515151515151483
+                ],
+                [
+                  0.41483451536643007,
+                  0.22418470418470438
+                ],
+                [
+                  0.8019503546099289,
+                  0.7758152958152956
+                ]
+              ],
+              "box": [
+                0.12174940898345153,
+                0.15151515151515152,
+                0.9343971631205674,
+                0.898989898989899
+              ]
+            }
+          ],
+          "scores": [
+            [
+              0.8374902606010437,
+              0.6908286809921265,
+              0.8473950624465942
+            ]
+          ],
+          "ownership_scope_polygons": null,
+          "checkpoint": "tmp/sam2.1_hiera_base_plus.pt",
+          "checkpoint_sha256": "a2345aede8715ab1d5d31b4a509fb160c5a4af1970f199d9054ccfb746c004c5",
+          "unknown_band_native_pixels": 4,
+          "rotation_clockwise": 180,
+          "method": "SAM 2.1 semantic ownership guide applied only to native alpha; complete opaque original painted surfaces and exact opaque source RGB retained. Closed-form continuous native edge matting; no source upscaling, redraw, restored anatomy, or vector approximation."
+        },
+        "status": "awaiting-final-original-white-dark-review",
+        "alpha_support_refinements": {
+          "id": "walters-w73-1r--winged-two-necked-zodiac-creature",
+          "closures": [
+            {
+              "box": [
+                285,
+                380,
+                445,
+                620
+              ],
+              "kernel": [
+                17,
+                17
+              ],
+              "reason": "Retain the actual opaque barred feather tips and their pale source surfaces where the original diagram line crosses the wing."
+            }
+          ]
+        },
+        "tool": "Original native scan / closed-form edge alpha and foreground decontamination",
+        "pixel_exact": false
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Reviewed the expanded original/native painted contour and each white/dark result. Entire opaque painted bodies, real paint wear, pale strokes and source-visible extremities retained on their native pixel grid. All figure exterior, genuine openings, glyph strokes and detached page/diagram fragments cleared. Aquarius uses an exact 180-degree native transpose. Native alpha-only guide refinements preserve the small original diagram marks crossing Capricorn's forehoof and Scorpio's wing; the marks never extend outside the subjects and no underlying paint is invented. The green leaf and orange bloom are complete original ornaments; shared alphabetic blue strokes were excluded rather than presented as severed vines. No upscaling, redraw or faceted SVG.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/five-refined-native-dark-inspection.jpg",
+          "tmp/extraction-work/continuation-20261010/five-native-zodiac-and-letter-motifs-final-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/five-native-zodiac-and-letter-motifs-final-proof-2.jpg"
+        ]
+      },
+      "categories": [
+        "animals"
+      ],
+      "subjects": [
+        "winged",
+        "two",
+        "necked",
+        "zodiac",
+        "creature"
+      ],
+      "colors": [
+        "cream",
+        "brown",
+        "green"
+      ],
+      "facing": "mixed",
+      "composition": "standalone",
+      "usage_notes": "Native source painting retains its worn original pigment. The zodiac proceeds counterclockwise in this diagram; identity is checked against the institution description and visible original, rather than inferred from clockwise order. Labels and diagram divisions are excluded from the exterior. Original diagram strokes crossing painted subject pixels remain historical source texture. Any rigid orientation correction is recorded. Source authority: https://thedigitalwalters.org/Data/WaltersManuscripts/html/W73/description.html",
+      "sets": [
+        {
+          "id": "walters-w73-1r-set",
+          "name": "Walters W.73 Zodiac",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A winged zodiac creature with two long curling necks and snake-like heads; the institution identifies this unusual medieval rendering as Scorpio.",
+      "set_label": "Walters W.73 Zodiac"
+    }
+  ]
+}

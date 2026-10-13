@@ -1,0 +1,299 @@
+{
+  "source_id": "walters-w82-182v",
+  "assets": [
+    {
+      "id": "walters-w82-182v--long-snouted-running-quadruped",
+      "name": "long-snouted-running-quadruped",
+      "source_id": "walters-w82-182v",
+      "source_folder": "walters",
+      "asset_type": "illustration",
+      "description": "A running gray quadruped has a long narrow snout, raised ears and a tapering tail. Part of the Walters W.82 Marginalia set.",
+      "source_region": [
+        5066,
+        267,
+        6359,
+        889
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        28,
+        72,
+        1214,
+        578
+      ],
+      "export_crop_coordinate_space": "original-native-source-region",
+      "width": 1186,
+      "height": 506,
+      "png": "walters/walters-w82-182v--long-snouted-running-quadruped.png",
+      "png_sha256": "6c3b0919a789ab9b64f470941886f684f71205626a60a1fc1ee35dff29f98a50",
+      "provenance": {
+        "institution": "Walters Art Museum",
+        "title": "Initial “D” with Adoration of the Magi; man combing hair and ape with crossbow in margin",
+        "object_identifier": "W.82, fol. 182v",
+        "date": "Ca. 1315-1325 CE",
+        "record_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/html/W82/description.html",
+        "image_rights": "CC0 (Digital Walters manuscript images)",
+        "rights_url": "https://www.thedigitalwalters.org/01_ACCESS_WALTERS_MANUSCRIPTS.html",
+        "source_file": "tmp/new-assets/walters/walters-w82-182v--initial-d-with-adoration-of-the-magi-man-combing-hair-and-ape-with-crossbow-in-margin--master.tif",
+        "source_sha256": "0474360dd7f1501691242d3ae2cb256d5a2473b2a14c071a5cb3cd3fa42f694b",
+        "source_metadata": "tmp/new-assets/walters/walters-w82-182v.json",
+        "image_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/W82/data/W.82/master/W82_000368_1200.tif",
+        "method": "native-source-continuous-edge-matting"
+      },
+      "extraction": {
+        "candidate_png": "tmp/extraction-work/continuation-20261010/walters-w82-182v--long-snouted-running-quadruped--registered-native-candidate.png",
+        "native_export_crop": [
+          28,
+          72,
+          1214,
+          578
+        ],
+        "export_crop_coordinate_space": "original-native-source-region",
+        "annotation_json": "tmp/extraction-work/continuation-20261010/walters-w82-182v--long-snouted-running-quadruped--registered-native-annotation.json",
+        "trimap_png": "tmp/extraction-work/continuation-20261010/walters-w82-182v--long-snouted-running-quadruped--registered-native-trimap.png",
+        "native_source_size": [
+          1293,
+          622
+        ],
+        "native_upscaling": false,
+        "source_pixels_redrawn": false,
+        "original_opaque_rgb_preserved": true,
+        "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+        "alpha_guide": {
+          "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+          "guide_png": "tmp/extraction-work/continuation-20261010/walters-w82-182v--long-snouted-running-quadruped--native-alpha-reference.png",
+          "guide_sha256": "6cf2bb735f38a019bfa619a333323a6742a0931e2e47389c423f238ed2385441",
+          "native_original": "tmp/extraction-work/continuation-20261010/walters-w82-182v--long-snouted-running-quadruped--original.png",
+          "similarity_ai_alpha_to_original": [
+            [
+              0.6691487407333798,
+              0.007269542896314711,
+              3.4496645614727863
+            ],
+            [
+              -0.007269542896314711,
+              0.6691487407333798,
+              18.244403159189424
+            ]
+          ],
+          "matching_feature_pairs": 209,
+          "inlier_feature_pairs": 165,
+          "inlier_rms_native_pixels": 1.4892041723220768,
+          "source_inspection_factor": 1,
+          "unknown_edge_band_native_pixels": 3,
+          "edge_solve_tile_size": 640,
+          "edge_solve_halo": 32,
+          "edge_solve_tiles": 2,
+          "original_opaque_rgb_preserved": true
+        },
+        "status": "awaiting-original-white-dark-review",
+        "tool": "Original native scan / closed-form edge alpha and foreground decontamination",
+        "pixel_exact": false,
+        "ownership_guide_prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. Keep only the complete original running gray quadruped in the upper margin, including its full narrow snout, both ears, each source-visible paw and the entire long tapering tail. Remove the red/blue/gold page border under it and all paper. Retain the source pose and uncertain species; no new horns, mane, anatomy or restored hidden paws. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_ownership_guide": {
+          "file": "tmp/extraction-work/walters-w82-182v--long-snouted-running-quadruped--retained-ai-extraction.png",
+          "sha256": "6cf2bb735f38a019bfa619a333323a6742a0931e2e47389c423f238ed2385441",
+          "purpose": "Retained AI alpha guide only; delivered opaque RGB belongs to the unchanged native source."
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Compared the full original region and a native close-up of the hind paw on white and dark backgrounds. Complete long muzzle, ears, collar, tucked forepaws, all visible hind toes and the curved tail retained; actual source gold coloration inside the outlined paw retained while the separate page rule is excluded. Original opaque RGB and original proportions retained, genuine exterior clear.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/two-new-native-detail-review-current-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/walters-w82-182v--long-snouted-running-quadruped--native-prop-detail.jpg"
+        ]
+      },
+      "categories": [
+        "animals"
+      ],
+      "subjects": [
+        "quadruped",
+        "tail",
+        "ear",
+        "paw"
+      ],
+      "colors": [
+        "gray",
+        "cream",
+        "brown"
+      ],
+      "facing": "unclear",
+      "composition": "standalone",
+      "usage_notes": "Standalone source-visible running quadruped. The original pale painted body, collar, claws and curled tail remain opaque; surrounding paper and the unrelated page rule are transparent. Species is uncertain. Native scan pixels supply the visible artwork; a registered AI mask guides ownership only.",
+      "sets": [
+        {
+          "id": "walters-w82-marginalia",
+          "name": "Walters W.82 Marginalia",
+          "relation": "same manuscript; each page retains its source identity"
+        },
+        {
+          "id": "walters-w82-182v-set",
+          "name": "Initial “D” with Adoration of the Magi; man combing hair and ape with crossbow in margin (walters-w82-182v)",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A running gray quadruped has a long narrow snout, raised ears and a tapering tail.",
+      "set_label": "Walters W.82 Marginalia"
+    },
+    {
+      "id": "walters-w82-182v--standing-ape-archer-with-red-bow-and-long-arrow",
+      "name": "standing-ape-archer-with-red-bow-and-long-arrow",
+      "source_id": "walters-w82-182v",
+      "source_folder": "walters",
+      "asset_type": "illustration",
+      "description": "A standing ape draws a red bow with a long left-pointing arrow. Part of the Walters W.82 Marginalia set.",
+      "source_region": [
+        5595,
+        5961,
+        7079,
+        7679
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        117,
+        67,
+        1322,
+        1574
+      ],
+      "export_crop_coordinate_space": "original-native-source-region",
+      "width": 1205,
+      "height": 1507,
+      "png": "walters/walters-w82-182v--standing-ape-archer-with-red-bow-and-long-arrow.png",
+      "png_sha256": "63a7a8fe0dd092c815592e67b0ef02171239041ce3bb9f493d11ecb6ae8792b7",
+      "provenance": {
+        "institution": "Walters Art Museum",
+        "title": "Initial “D” with Adoration of the Magi; man combing hair and ape with crossbow in margin",
+        "object_identifier": "W.82, fol. 182v",
+        "date": "Ca. 1315-1325 CE",
+        "record_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/html/W82/description.html",
+        "image_rights": "CC0 (Digital Walters manuscript images)",
+        "rights_url": "https://www.thedigitalwalters.org/01_ACCESS_WALTERS_MANUSCRIPTS.html",
+        "source_file": "tmp/new-assets/walters/walters-w82-182v--initial-d-with-adoration-of-the-magi-man-combing-hair-and-ape-with-crossbow-in-margin--master.tif",
+        "source_sha256": "0474360dd7f1501691242d3ae2cb256d5a2473b2a14c071a5cb3cd3fa42f694b",
+        "source_metadata": "tmp/new-assets/walters/walters-w82-182v.json",
+        "image_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/W82/data/W.82/master/W82_000368_1200.tif",
+        "method": "native-source-continuous-edge-matting"
+      },
+      "extraction": {
+        "candidate_png": "tmp/extraction-work/continuation-20261010/walters-w82-182v--standing-ape-archer-with-red-bow-and-long-arrow--registered-native-candidate.png",
+        "native_export_crop": [
+          117,
+          67,
+          1322,
+          1574
+        ],
+        "export_crop_coordinate_space": "original-native-source-region",
+        "annotation_json": "tmp/extraction-work/continuation-20261010/walters-w82-182v--standing-ape-archer-with-red-bow-and-long-arrow--registered-native-annotation.json",
+        "trimap_png": "tmp/extraction-work/continuation-20261010/walters-w82-182v--standing-ape-archer-with-red-bow-and-long-arrow--registered-native-trimap.png",
+        "native_source_size": [
+          1484,
+          1718
+        ],
+        "native_upscaling": false,
+        "source_pixels_redrawn": false,
+        "original_opaque_rgb_preserved": true,
+        "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+        "alpha_guide": {
+          "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+          "guide_png": "tmp/extraction-work/continuation-20261010/walters-w82-182v--standing-ape-archer-with-red-bow-and-long-arrow--native-alpha-reference.png",
+          "guide_sha256": "fe24bdcaf815e0d45d5bdc68fc648a22ab331237f6d07b78829932f27f3f927a",
+          "native_original": "tmp/extraction-work/continuation-20261010/walters-w82-182v--standing-ape-archer-with-red-bow-and-long-arrow--original.png",
+          "similarity_ai_alpha_to_original": [
+            [
+              1.1814462811819453,
+              -0.020453804327278106,
+              28.142818107791175
+            ],
+            [
+              0.020453804327278106,
+              1.1814462811819453,
+              7.25591183033975
+            ]
+          ],
+          "matching_feature_pairs": 196,
+          "inlier_feature_pairs": 92,
+          "inlier_rms_native_pixels": 2.224764293714379,
+          "source_inspection_factor": 1,
+          "unknown_edge_band_native_pixels": 3,
+          "edge_solve_tile_size": 640,
+          "edge_solve_halo": 32,
+          "edge_solve_tiles": 7,
+          "original_opaque_rgb_preserved": true
+        },
+        "status": "awaiting-original-white-dark-review",
+        "tool": "Original native scan / closed-form edge alpha and foreground decontamination",
+        "pixel_exact": false,
+        "ownership_guide_prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. Keep only the original standing ape archer at lower right: full head, face, both hands, torso, both complete legs/feet, the ENTIRE red bow, its original string and the complete thin long arrow pointing left. Clear the blue/red/gold page frame and its large curled leaf, the swordsman and text. The arrow does not touch the swordsman; do not combine them, invent a connection, shorten the arrow or add a different weapon. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_ownership_guide": {
+          "file": "tmp/extraction-work/walters-w82-182v--standing-ape-archer-with-red-bow-and-long-arrow--retained-ai-extraction.png",
+          "sha256": "fe24bdcaf815e0d45d5bdc68fc648a22ab331237f6d07b78829932f27f3f927a",
+          "purpose": "Retained AI alpha guide only; delivered opaque RGB belongs to the unchanged native source."
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Inspected complete original pages, exact original input regions and current aligned native source/white/dark comparisons. Archer retains both entire feet, full red bow/string and original long arrow INCLUDING the tip restored by enlarging input bounds before generation. Hare/hound stay as one actual contacting group with full paws, tail, source blood markings and thin original whiskers. Orange-robed winged figure includes complete thin green feather tips, source pale limbs and gold collar; separate lower vine is not included. Complete source-native RGB and original proportions retained, no enlargement or replacement AI texture. Exterior page/frame and true limb openings cleared.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/walters-eleven-margin-native-review-current-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/walters-eleven-margin-native-review-current-proof-3.jpg"
+        ]
+      },
+      "categories": [
+        "animals"
+      ],
+      "subjects": [
+        "ape",
+        "bow",
+        "arrow",
+        "hand",
+        "foot"
+      ],
+      "colors": [
+        "gray",
+        "cream",
+        "red",
+        "brown"
+      ],
+      "facing": "unclear",
+      "composition": "standalone",
+      "usage_notes": "Original native source RGB retained without resizing or redraw; registered retained AI alpha supplies approximate ownership only. Complete original visible subject, pale/gray/colored body surfaces and fine props retained; source page/frame exterior and genuine openings are transparent. Native source/white/dark review recorded. Original source occlusions or page-edge truncations are retained; no hidden reconstruction.",
+      "sets": [
+        {
+          "id": "walters-w82-marginalia",
+          "name": "Walters W.82 Marginalia",
+          "relation": "same manuscript; each page retains its source identity"
+        },
+        {
+          "id": "walters-w82-182v-set",
+          "name": "Initial “D” with Adoration of the Magi; man combing hair and ape with crossbow in margin (walters-w82-182v)",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A standing ape draws a red bow with a long left-pointing arrow.",
+      "set_label": "Walters W.82 Marginalia"
+    }
+  ]
+}

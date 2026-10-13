@@ -1,0 +1,132 @@
+{
+  "source_id": "openn-lewis-e-m-012-020",
+  "assets": [
+    {
+      "id": "openn-lewis-e-m-012-020--fixed-rectangular-gold-blue-and-red-foliate-panel",
+      "name": "fixed-rectangular-gold-blue-and-red-foliate-panel",
+      "source_id": "openn-lewis-e-m-012-020",
+      "source_folder": "openn-free-library",
+      "asset_type": "decoration",
+      "description": "A finite rectangular foliate panel with curved pointed corner finials and three blue star squares.",
+      "source_region": [
+        150,
+        828,
+        2819,
+        3054
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        5,
+        4,
+        1369,
+        1142
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 1364,
+      "height": 1138,
+      "png": "openn-free-library/openn-lewis-e-m-012-020--fixed-rectangular-gold-blue-and-red-foliate-panel.png",
+      "png_sha256": "b968cbb5171177d017dae5306d0793a025001cf90e9a0eaefcfe11d9d5473004",
+      "provenance": {
+        "institution": "Free Library of Philadelphia, John Frederick Lewis Collection",
+        "title": "Decorated border detail",
+        "object_identifier": "Lewis E M 12:20 Decorated border detail",
+        "date": "(Unknown, 1400-1499)",
+        "record_url": "https://openn.library.upenn.edu/Data/0023/html/lewis_e_m_012_020.html",
+        "image_rights": "Public Domain Mark 1.0; item record explicitly places images in public domain",
+        "rights_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "source_file": "tmp/new-assets/openn-free-library/openn-lewis-e-m-012-020--decorated-border-detail--master.tif",
+        "source_sha256": "b9a01b81600de7cf27c59ceef40c5f5c466b946da0868d9c589b311a4e64cd47",
+        "source_metadata": "tmp/new-assets/openn-free-library/openn-lewis-e-m-012-020.json",
+        "image_url": "https://openn.library.upenn.edu/Data/0023/lewis_e_m_012_020/data/master/7545_0000.tif",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. Extract the ENTIRE original rectangular decorative PANEL. This is an independent decoration, NOT an alphabetic capital letter. Preserve all four curved pointed gold corner finials, top and bottom gold/blue/red horizontal bars, original red/blue intertwining side stems, red/green/blue lobed leaves and all THREE central blue squares with their fine white radial designs. Clear ONLY outer page/ruler/chart background. Inside painted gold and blue fields belong to the original designed panel and remain opaque; original white scuffs remain, do not restore damaged paint. No made-up seamless repeat. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_extraction": "tmp/extraction-work/openn-lewis-e-m-012-020--fixed-rectangular-gold-blue-and-red-foliate-panel--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "fe173de35dbc9b2319af590d02466dc1e91651426a56be30c3328ed5af3b05ed",
+        "retained_generated_size": [
+          1373,
+          1145
+        ],
+        "resolution_cap_scale": 1,
+        "resolution_capped_size": [
+          1373,
+          1145
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          2614,
+          2188
+        ],
+        "native_subject_size_evidence": {
+          "method": "Individually inspected native visible subject bounds, excluding input-region whitespace and neighbours.",
+          "preview_subject_bounds": [
+            87,
+            401,
+            1324,
+            1437
+          ],
+          "preview_size": [
+            1400,
+            1515
+          ],
+          "original_size": [
+            2958,
+            3200
+          ]
+        },
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 3292
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Original source and white/dark renders individually inspected. Contacting lower-right figures retain full bodies/feet and physical head/hand contact. Detached gray bird retains both feet, full tail and beak. Paul is an honest source-visible waist-length figure with complete visible sword/book/halo. Foliate panel retains all four original pointed finials and three central blue stars, its intrinsic designed gold/blue fields, and worn paint; it is not a glyph. Thin red/gold frame keeps original corners, transparent exterior/interior and genuine imperfect geometry. No seamless period invented.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/new-borders-scenes-results-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/new-borders-scenes-results-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/new-borders-scenes-results-proof-3.jpg"
+        ]
+      },
+      "categories": [
+        "floral",
+        "geometric",
+        "scrollwork"
+      ],
+      "subjects": [
+        "panel",
+        "leaf",
+        "star",
+        "scroll"
+      ],
+      "colors": [
+        "gold",
+        "blue",
+        "red",
+        "green",
+        "white"
+      ],
+      "facing": "unclear",
+      "composition": "single-ornament",
+      "usage_notes": "Original independent specimen with printed plate rules and page removed. AI-assisted extraction remains approximate; source bounds, actual native subject cap, original and exact prompt retained."
+    }
+  ]
+}

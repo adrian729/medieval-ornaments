@@ -1,0 +1,181 @@
+{
+  "source_id": "met-387623",
+  "assets": [
+    {
+      "id": "met-387623--grotesque-candelabrum-with-satyrs-griffins-and-music",
+      "name": "grotesque-candelabrum-with-satyrs-griffins-and-music",
+      "source_id": "met-387623",
+      "source_folder": "met",
+      "asset_type": "decoration",
+      "description": "A complete native grotesque candelabrum with upper satyrs, garlands, a child on a hybrid boat, winged masks, facing griffins and musicians.",
+      "source_region": [
+        25,
+        45,
+        2280,
+        3430
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        0,
+        0,
+        2255,
+        3385
+      ],
+      "export_crop_coordinate_space": "reviewed-native-rule-correction-canvas",
+      "width": 2255,
+      "height": 3385,
+      "png": "met/met-387623--grotesque-candelabrum-with-satyrs-griffins-and-music.png",
+      "png_sha256": "708631b99931b91f0b526e4bc33278d3040887a2d0ee0214ed73732dc41b9cea",
+      "provenance": {
+        "institution": "Metropolitan Museum of Art",
+        "title": "Panel from \"Petites Grotesques\"",
+        "object_identifier": "21.10.1(18)",
+        "date": "1550",
+        "artist": "Jacques Androuet Du Cerceau",
+        "record_url": "https://www.metmuseum.org/art/collection/search/387623",
+        "image_rights": "CC0 Open Access; isPublicDomain=true",
+        "rights_url": "https://www.metmuseum.org/policies/image-resources",
+        "source_file": "tmp/new-assets/met/met-387623--panel-from-petites-grotesques.jpg",
+        "source_sha256": "00652f9a018333c138582aa1e308c4b5f5ef73715531f2f91d2857fc5bbef0f6",
+        "source_metadata": "tmp/new-assets/met/met-387623.json",
+        "image_url": "https://images.metmuseum.org/CRDImages/dp/original/DP213856.jpg",
+        "method": "native-continuous-ink-matting"
+      },
+      "extraction": {
+        "method": "Native-resolution continuous ink coverage after locally measured paper removal; PNG appearance master.",
+        "source_pixels_repainted": false,
+        "source_rgb_modified": "Paper removed by measured ink coverage; RGB is the scan-measured ink tone, not an exact source-pixel crop.",
+        "paper_kernel": 61,
+        "minimum_coverage": 0.2,
+        "minimum_component_pixels": 5,
+        "settings": {
+          "paper_kernel": 61,
+          "paper_kernel_shape": "rectangle",
+          "minimum_coverage": 0.2,
+          "minimum_component_pixels": 5,
+          "minimum_component_peak": 0.55,
+          "minimum_channel_coverage": true,
+          "largest_connected_support_join_radius": 5,
+          "fill_connected_support_interiors": false
+        },
+        "exclude_regions": [],
+        "export_crop": [
+          0,
+          0,
+          2209,
+          3351
+        ],
+        "ink_color": [
+          92,
+          85,
+          71
+        ],
+        "candidate_png": "tmp/extraction-work/todo-fixes-20261012/met-387623--grotesque-candelabrum-with-satyrs-griffins-and-music--complete-original-plate-rules-candidate.png",
+        "status": "awaiting-native-visual-review",
+        "tool": "Native source ink analysis",
+        "source_pixels_redrawn": false,
+        "todo_correction": {
+          "id": "met-387623--grotesque-candelabrum-with-satyrs-griffins-and-music",
+          "previous_png": "tmp/extraction-work/todo-fixes-20261012/met-387623--grotesque-candelabrum-with-satyrs-griffins-and-music--before.png",
+          "previous_source_region": [
+            52,
+            65,
+            2261,
+            3416
+          ],
+          "source_region": [
+            25,
+            45,
+            2280,
+            3430
+          ],
+          "native_rule_intersections": [
+            [
+              58.0,
+              65.0
+            ],
+            [
+              2258.0,
+              70.0
+            ],
+            [
+              2225.0,
+              3409.0
+            ],
+            [
+              43.0,
+              3412.0
+            ]
+          ],
+          "original_corner_evidence": "tmp/extraction-work/todo-fixes-20261012/met387623-actual-original-four-plate-corners.jpg",
+          "method": "Recover actual original four thin plate rules from an expanded source region. Only measured ink coverage within a 17-native-pixel corridor around the inspected original rules is added. Source edges, original line texture and hand-drawn variation retained; no generic rectangle, new interior ink or scaled drawing. Interior pixels outside rule corridors stay exactly unchanged.",
+          "source_rgb_modified": "Newly recovered rule pixels use the same measured original ink tone as the existing native ink extraction.",
+          "rotation_counterclockwise_degrees": 0,
+          "added_or_strengthened_rule_pixels": 145149,
+          "candidate": "tmp/extraction-work/todo-fixes-20261012/met-387623--grotesque-candelabrum-with-satyrs-griffins-and-music--complete-original-plate-rules-candidate.png",
+          "candidate_sha256": "708631b99931b91f0b526e4bc33278d3040887a2d0ee0214ed73732dc41b9cea",
+          "status": "awaiting-source-white-dark-review"
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "finished-only-todo-corrections-20261012",
+        "notes": "Complete original candelabrum retained with all four original thin plate rules. The former extraction rectangle clipped the left/bottom rule; surrounding original source pixels now restore it. Rule texture and mild original perspective retained, with unchanged native interior drawing and measured source ink tone. No generic replacement rectangle.",
+        "checks": [
+          "actual-original-comparison",
+          "native-scale-and-proportions",
+          "complete-figures-and-ornaments",
+          "source-rule-geometry-and-endpoints",
+          "white-and-dark-backgrounds"
+        ],
+        "evidence": [
+          "tmp/extraction-work/todo-fixes-20261012/met387623-actual-original-four-plate-corners.jpg",
+          "tmp/extraction-work/todo-fixes-20261012/met387623-complete-original-rules-source-white-dark.jpg"
+        ]
+      },
+      "categories": [
+        "hybrids",
+        "humans",
+        "music",
+        "floral"
+      ],
+      "subjects": [
+        "satyr",
+        "garland",
+        "child",
+        "griffin",
+        "musician",
+        "scroll"
+      ],
+      "facing": "mixed",
+      "colors": [
+        "brown",
+        "black"
+      ],
+      "composition": "single-ornament",
+      "usage_notes": "Complete original candelabrum retained with all four original thin plate rules. The former extraction rectangle clipped the left/bottom rule; surrounding original source pixels now restore it. Rule texture and mild original perspective retained, with unchanged native interior drawing and measured source ink tone. No generic replacement rectangle. Finite original decoration; no repeat or corner atlas inferred.",
+      "review_history": [
+        {
+          "status": "accepted",
+          "quality_round": "20261011",
+          "notes": "Native source linework compared in full on source/white/dark. Natural continuous measured ink coverage; no resized hard mask, polygon trace or source stretch. Foreground strokes and props preserved; isolated page specks excluded by connected native support. Red stamp color excluded only where distinguishable from neutral foreground ink. Bare cartouche title removed with individually inspected text-line bounds, leaving the complete original frame. Original faded ink remains faint rather than newly enhanced.",
+          "checks": [
+            "original-source-comparison",
+            "complete-retained-entity",
+            "native-subject-scale",
+            "white-and-dark-backgrounds",
+            "exterior-and-genuine-openings",
+            "fine-props-and-extremities"
+          ],
+          "evidence": [
+            "tmp/extraction-work/continuation-20261010/seven-native-refinement-recipes-proof-1.jpg",
+            "tmp/extraction-work/continuation-20261010/seven-native-refinement-recipes-proof-2.jpg",
+            "tmp/extraction-work/continuation-20261010/cartouche-font-correction-native-proof-1.jpg"
+          ]
+        }
+      ]
+    }
+  ]
+}

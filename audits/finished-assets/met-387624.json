@@ -1,0 +1,195 @@
+{
+  "source_id": "met-387624",
+  "assets": [
+    {
+      "id": "met-387624--grotesque-vines-with-winged-hybrids-and-figure-canopies",
+      "name": "grotesque-vines-with-winged-hybrids-and-figure-canopies",
+      "source_id": "met-387624",
+      "source_folder": "met",
+      "asset_type": "decoration",
+      "description": "A complete native grotesque panel of twisting vines, winged hybrids, a hoofed animal standing on a scroll, small figures, a central canopy and framed miniature.",
+      "source_region": [
+        5,
+        12,
+        2231,
+        3435
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        0,
+        0,
+        2226,
+        3423
+      ],
+      "export_crop_coordinate_space": "reviewed-native-rule-correction-canvas",
+      "width": 2226,
+      "height": 3423,
+      "png": "met/met-387624--grotesque-vines-with-winged-hybrids-and-figure-canopies.png",
+      "png_sha256": "bebdc311313312227b0b4814fca840a5b7fe7349d0213890409f28d6c088af7d",
+      "provenance": {
+        "institution": "Metropolitan Museum of Art",
+        "title": "Panel from \"Petites Grotesques\"",
+        "object_identifier": "21.10.1(30)",
+        "date": "1550",
+        "artist": "Jacques Androuet Du Cerceau",
+        "record_url": "https://www.metmuseum.org/art/collection/search/387624",
+        "image_rights": "CC0 Open Access; isPublicDomain=true",
+        "rights_url": "https://www.metmuseum.org/policies/image-resources",
+        "source_file": "tmp/new-assets/met/met-387624--panel-from-petites-grotesques.jpg",
+        "source_sha256": "41f749f08b98f0b4d598a3a2037c9f986f163ef8b8152ec30a67b91c51f30b44",
+        "source_metadata": "tmp/new-assets/met/met-387624.json",
+        "image_url": "https://images.metmuseum.org/CRDImages/dp/original/DP213857.jpg",
+        "method": "native-continuous-ink-matting"
+      },
+      "extraction": {
+        "method": "Native-resolution continuous ink coverage after locally measured paper removal; PNG appearance master.",
+        "source_pixels_repainted": false,
+        "source_rgb_modified": "Paper removed by measured ink coverage; RGB is the scan-measured ink tone, not an exact source-pixel crop.",
+        "paper_kernel": 61,
+        "minimum_coverage": 0.2,
+        "minimum_component_pixels": 5,
+        "settings": {
+          "paper_kernel": 61,
+          "paper_kernel_shape": "rectangle",
+          "minimum_coverage": 0.2,
+          "minimum_component_pixels": 5,
+          "minimum_component_peak": 0.55,
+          "minimum_channel_coverage": true,
+          "largest_connected_support_join_radius": 5,
+          "fill_connected_support_interiors": false
+        },
+        "exclude_regions": [],
+        "export_crop": [
+          0,
+          0,
+          2176,
+          3373
+        ],
+        "ink_color": [
+          78,
+          72,
+          62
+        ],
+        "candidate_png": "tmp/extraction-work/todo-fixes-20261012/met-387624--grotesque-vines-with-winged-hybrids-and-figure-canopies--completed-plate-candidate.png",
+        "status": "awaiting-native-visual-review",
+        "tool": "Native source ink analysis",
+        "source_pixels_redrawn": true,
+        "todo_correction": {
+          "id": "met-387624--grotesque-vines-with-winged-hybrids-and-figure-canopies",
+          "candidate": "tmp/extraction-work/todo-fixes-20261012/met-387624--grotesque-vines-with-winged-hybrids-and-figure-canopies--completed-plate-candidate.png",
+          "before": "tmp/extraction-work/todo-fixes-20261012/met-387624--grotesque-vines-with-winged-hybrids-and-figure-canopies--before.png",
+          "source_region": [
+            5,
+            12,
+            2231,
+            3435
+          ],
+          "original": "tmp/new-assets/met/met-387624--panel-from-petites-grotesques.jpg",
+          "recovered_sides": [
+            {
+              "side": "top",
+              "source_axis_intercept_in_expanded_region": 12.888208269525268,
+              "slope": 0.01225114854517611,
+              "observed_original_segment_pixels": 1959,
+              "extent": [
+                15,
+                2211
+              ]
+            },
+            {
+              "side": "bottom",
+              "source_axis_intercept_in_expanded_region": 3397.970988213962,
+              "slope": 0.007252946509519492,
+              "observed_original_segment_pixels": 2206,
+              "extent": [
+                15,
+                2211
+              ]
+            },
+            {
+              "side": "left",
+              "source_axis_intercept_in_expanded_region": 26.704052780395852,
+              "slope": 0.003770028275212064,
+              "observed_original_segment_pixels": 2122,
+              "extent": [
+                15,
+                3408
+              ]
+            },
+            {
+              "side": "right",
+              "source_axis_intercept_in_expanded_region": 2198.0,
+              "slope": 0.0,
+              "observed_original_segment_pixels": 1725,
+              "extent": [
+                15,
+                3408
+              ]
+            }
+          ],
+          "pixels_added_or_strengthened": 96247,
+          "status": "awaiting-original-white-dark-review",
+          "method": "Recover only observed long plate rules from the original scan in a narrow source-fitted native corridor. The input is expanded 25 pixels to include clipped original ink. Source-measured ink color and coverage; no inferred missing side, generic rectangle, artwork rescaling or changed interior pixels.",
+          "rule_repair": {
+            "missing_native_columns_completed": 1881,
+            "method": "Only absent/faint outside-rule samples (<65 alpha in five-native-pixel corridor) receive the narrow three-pixel ink cross-section of a nearby surviving original printed rule. Decorative hatching and ornament interiors are unchanged."
+          }
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "finished-only-todo-corrections-20261012",
+        "notes": "Original finite engraved composition retained with its source-supported outside plate rules. Clipped rules recovered from adjacent original scan pixels; faint thin-rule gaps narrowly completed with neighboring native ink profiles where recorded. Decorative hatch bands retain original print wear. No generic replacement frame or repeat is inferred.",
+        "checks": [
+          "actual-original-comparison",
+          "native-scale-and-proportions",
+          "complete-figures-and-ornaments",
+          "source-rule-geometry-and-endpoints",
+          "white-and-dark-backgrounds"
+        ],
+        "evidence": [
+          "tmp/extraction-work/todo-fixes-20261012/met-387624--grotesque-vines-with-winged-hybrids-and-figure-canopies--recovered-rules-proof.jpg",
+          "tmp/extraction-work/todo-fixes-20261012/completed-plates-final-review-2.jpg"
+        ]
+      },
+      "categories": [
+        "hybrids",
+        "humans",
+        "animals",
+        "floral"
+      ],
+      "subjects": [
+        "hybrid",
+        "vine",
+        "figure",
+        "canopy",
+        "frame"
+      ],
+      "facing": "mixed",
+      "colors": [
+        "brown",
+        "black"
+      ],
+      "composition": "single-ornament",
+      "usage_notes": "Original finite engraved composition retained with its source-supported outside plate rules. Clipped rules recovered from adjacent original scan pixels; faint thin-rule gaps narrowly completed with neighboring native ink profiles where recorded. Decorative hatch bands retain original print wear. No generic replacement frame or repeat is inferred. Finite original decoration; no repeat or corner atlas inferred.",
+      "review_history": [
+        {
+          "status": "accepted",
+          "quality_round": "20261011",
+          "notes": "Corrected original grouping: both rear hooves stand on the same curled architectural support. Restored all four complete original legs and the whole source animal to the connected grotesque ornament, with no rectangular exclusion. Source/white/dark checked; incomplete separate animal rejected.",
+          "checks": [
+            "original-source-comparison",
+            "complete-retained-entity",
+            "native-subject-scale",
+            "white-and-dark-backgrounds",
+            "exterior-and-genuine-openings",
+            "fine-props-and-extremities"
+          ],
+          "evidence": "tmp/extraction-work/continuation-20261010/restore-contacting-hoofed-animal-native-proof-1.jpg"
+        }
+      ]
+    }
+  ]
+}

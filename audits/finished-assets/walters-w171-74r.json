@@ -1,0 +1,412 @@
+{
+  "source_id": "walters-w171-74r",
+  "assets": [
+    {
+      "id": "walters-w171-74r--fruit-tree-with-branching-trunk",
+      "name": "fruit-tree-with-branching-trunk",
+      "source_id": "walters-w171-74r",
+      "source_folder": "walters",
+      "asset_type": "illustration",
+      "description": "A dark green fruit tree with small rust orange fruits and a branching brown trunk. Part of the Walters W.171 Tree of Life set.",
+      "source_region": [
+        1291,
+        3934,
+        3144,
+        6557
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        0,
+        10,
+        1048,
+        1491
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 1048,
+      "height": 1481,
+      "png": "walters/walters-w171-74r--fruit-tree-with-branching-trunk.png",
+      "png_sha256": "176d582e2b89c6df0b4a678ff4a70f6a7a3690862aea28903078444683441734",
+      "provenance": {
+        "institution": "Walters Art Museum",
+        "title": "Tree of life with its twelve fruits",
+        "object_identifier": "W.171, fol. 74r",
+        "date": "1400-1404 CE",
+        "record_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/html/W171/description.html",
+        "image_rights": "CC0 (Digital Walters manuscript images)",
+        "rights_url": "https://www.thedigitalwalters.org/01_ACCESS_WALTERS_MANUSCRIPTS.html",
+        "source_file": "tmp/new-assets/walters/walters-w171-74r--tree-of-life-with-its-twelve-fruits--master.tif",
+        "source_sha256": "878b61a760f94af3ffe5387ab19269c7835067f75aa1bb6e884cf80467e0bc80",
+        "source_metadata": "tmp/new-assets/walters/walters-w171-74r.json",
+        "image_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/W171/data/W.171/master/W171_000151_1200.tif",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. Isolate ONLY the complete central original fruit TREE: every source-visible green crown/leaf, original orange or rust fruit, branching worn brown trunk and actual flared roots. Remove the flat gold field, blue decorated O, ground strip and the small separate flowering plants near the roots. Preserve source wear and all pale areas as opaque; do not restore or add leaves, branches, fruit, bark texture or hidden roots. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_extraction": "tmp/extraction-work/walters-w171-74r--fruit-tree-with-branching-trunk--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "d64e6c9c5157f4b0687f1392e29dbab01a1fd0f9841ded91f1b3044abdf24eae",
+        "retained_generated_size": [
+          1054,
+          1492
+        ],
+        "resolution_cap_scale": 1,
+        "resolution_capped_size": [
+          1054,
+          1492
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          1719,
+          2509
+        ],
+        "native_subject_size_evidence": {
+          "method": "Individually inspected native visible subject bounds, excluding input-region whitespace and neighbours.",
+          "preview_subject_bounds": [
+            202,
+            598,
+            459,
+            973
+          ],
+          "preview_size": [
+            1400,
+            1424
+          ],
+          "original_size": [
+            9366,
+            9528
+          ]
+        },
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 13171
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Inspected the complete native original and each light/dark export. Retained all selected source-visible tree trunks, foliage, fruit, fountain architecture and water jets, and complete foliate border strokes, alternating original paint and fine stem ends. Gold background and independent neighboring art removed; painted bodies remain opaque. Finite hand-drawn border branches are whole ornaments, with no invented repeat or corner atlas. The blue line-filler preserves both gold pips and the original right terminal; neighboring red panel is excluded. Native visible subject dimensions cap both axes, with no upscaling.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/fountain-tree-ready-results-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/fountain-tree-ready-results-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/fountain-tree-ready-results-proof-3.jpg"
+        ]
+      },
+      "categories": [
+        "floral",
+        "botanical"
+      ],
+      "subjects": [
+        "tree",
+        "fruit",
+        "leaf",
+        "trunk",
+        "root"
+      ],
+      "colors": [
+        "green",
+        "orange",
+        "brown",
+        "gold"
+      ],
+      "facing": "unclear",
+      "composition": "standalone",
+      "usage_notes": "Original independent specimen with printed plate rules and page removed. AI-assisted extraction remains approximate; source bounds, actual native subject cap, original and exact prompt retained.",
+      "sets": [
+        {
+          "id": "walters-w171-74r-set",
+          "name": "Walters W.171 Tree of Life",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A dark green fruit tree with small rust orange fruits and a branching brown trunk.",
+      "set_label": "Walters W.171 Tree of Life"
+    },
+    {
+      "id": "walters-w171-74r--lower-gold-rod-with-red-blue-and-gold-foliate-branch",
+      "name": "lower-gold-rod-with-red-blue-and-gold-foliate-branch",
+      "source_id": "walters-w171-74r",
+      "source_folder": "walters",
+      "asset_type": "decoration",
+      "description": "A finite lower gold margin rod with red blue and gold foliate branches and fine curls. Part of the Walters W.171 Tree of Life set.",
+      "source_region": [
+        114,
+        6377,
+        3365,
+        8879
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        13,
+        0,
+        1398,
+        1066
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 1385,
+      "height": 1066,
+      "png": "walters/walters-w171-74r--lower-gold-rod-with-red-blue-and-gold-foliate-branch.png",
+      "png_sha256": "17e4b72f3988c0ed8007036d6668be91f15175fc906db5e94d12493d7675e8cb",
+      "provenance": {
+        "institution": "Walters Art Museum",
+        "title": "Tree of life with its twelve fruits",
+        "object_identifier": "W.171, fol. 74r",
+        "date": "1400-1404 CE",
+        "record_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/html/W171/description.html",
+        "image_rights": "CC0 (Digital Walters manuscript images)",
+        "rights_url": "https://www.thedigitalwalters.org/01_ACCESS_WALTERS_MANUSCRIPTS.html",
+        "source_file": "tmp/new-assets/walters/walters-w171-74r--tree-of-life-with-its-twelve-fruits--master.tif",
+        "source_sha256": "878b61a760f94af3ffe5387ab19269c7835067f75aa1bb6e884cf80467e0bc80",
+        "source_metadata": "tmp/new-assets/walters/walters-w171-74r.json",
+        "image_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/W171/data/W.171/master/W171_000151_1200.tif",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. Isolate ALL of the original lower marginal ornament: the thin left GOLD/PINK vertical rod below the large decorated initial, the curled foliate terminal immediately at the original letter junction, and the complete lower branching red/pink stem with every original red, blue and gilt leaf. Exclude ALL blue oval letter strokes, the flat gold letter panel, all text and page ruling. Keep actual original ends and source wear; do not invent a cap or new leaves. This is a finite unequal original ornament, not a synthetic repeat. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_extraction": "tmp/extraction-work/walters-w171-74r--lower-gold-rod-with-red-blue-and-gold-foliate-branch--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "7886d7fcebf11533c4c43a3baabd153e55acb24c10a02b3f57e96b39ff0edcd6",
+        "retained_generated_size": [
+          1430,
+          1100
+        ],
+        "resolution_cap_scale": 1,
+        "resolution_capped_size": [
+          1430,
+          1100
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          3104,
+          2342
+        ],
+        "native_subject_size_evidence": {
+          "method": "Individually inspected native visible subject bounds, excluding input-region whitespace and neighbours.",
+          "preview_subject_bounds": [
+            27,
+            966,
+            491,
+            1316
+          ],
+          "preview_size": [
+            1400,
+            1424
+          ],
+          "original_size": [
+            9366,
+            9528
+          ]
+        },
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 15088
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Inspected the complete native original and each light/dark export. Retained all selected source-visible tree trunks, foliage, fruit, fountain architecture and water jets, and complete foliate border strokes, alternating original paint and fine stem ends. Gold background and independent neighboring art removed; painted bodies remain opaque. Finite hand-drawn border branches are whole ornaments, with no invented repeat or corner atlas. The blue line-filler preserves both gold pips and the original right terminal; neighboring red panel is excluded. Native visible subject dimensions cap both axes, with no upscaling.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/fountain-tree-ready-results-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/fountain-tree-ready-results-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/fountain-tree-ready-results-proof-3.jpg"
+        ]
+      },
+      "categories": [
+        "floral",
+        "scrollwork"
+      ],
+      "subjects": [
+        "rod",
+        "leaf",
+        "stem",
+        "flourish",
+        "margin"
+      ],
+      "colors": [
+        "gold",
+        "red",
+        "blue",
+        "pink",
+        "brown"
+      ],
+      "facing": "unclear",
+      "composition": "single-ornament",
+      "usage_notes": "Original independent specimen with printed plate rules and page removed. AI-assisted extraction remains approximate; source bounds, actual native subject cap, original and exact prompt retained.",
+      "sets": [
+        {
+          "id": "walters-w171-74r-set",
+          "name": "Walters W.171 Tree of Life",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A finite lower gold margin rod with red blue and gold foliate branches and fine curls.",
+      "set_label": "Walters W.171 Tree of Life"
+    },
+    {
+      "id": "walters-w171-74r--upper-gold-rod-with-red-blue-and-gold-foliate-branch",
+      "name": "upper-gold-rod-with-red-blue-and-gold-foliate-branch",
+      "source_id": "walters-w171-74r",
+      "source_folder": "walters",
+      "asset_type": "decoration",
+      "description": "A finite upper gold margin rod with red blue and gold foliate branches and fine curls. Part of the Walters W.171 Tree of Life set.",
+      "source_region": [
+        0,
+        462,
+        3947,
+        4751
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        45,
+        17,
+        1194,
+        1306
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 1149,
+      "height": 1289,
+      "png": "walters/walters-w171-74r--upper-gold-rod-with-red-blue-and-gold-foliate-branch.png",
+      "png_sha256": "2895cdf7ceac705e81ad02286397715d338e8121ad8ff6089a0b92d542fcb0ac",
+      "provenance": {
+        "institution": "Walters Art Museum",
+        "title": "Tree of life with its twelve fruits",
+        "object_identifier": "W.171, fol. 74r",
+        "date": "1400-1404 CE",
+        "record_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/html/W171/description.html",
+        "image_rights": "CC0 (Digital Walters manuscript images)",
+        "rights_url": "https://www.thedigitalwalters.org/01_ACCESS_WALTERS_MANUSCRIPTS.html",
+        "source_file": "tmp/new-assets/walters/walters-w171-74r--tree-of-life-with-its-twelve-fruits--master.tif",
+        "source_sha256": "878b61a760f94af3ffe5387ab19269c7835067f75aa1bb6e884cf80467e0bc80",
+        "source_metadata": "tmp/new-assets/walters/walters-w171-74r.json",
+        "image_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/W171/data/W.171/master/W171_000151_1200.tif",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. Isolate ALL of the original upper marginal ornament: the thin left GOLD/PINK vertical rod, the full top red/pink branching stem with every original red, blue and gilt leaf terminal, both upper and lower curled tips, and the original curled terminal where the rod meets the decorated initial. Exclude ALL blue letter glyph strokes, the large oval initial, the flat gold letter field, all text and page ruling. Retain only actual source-visible endings at the letter junction; no replacement cap, restored gilding, invented leaves or uniform repeating border. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_extraction": "tmp/extraction-work/walters-w171-74r--upper-gold-rod-with-red-blue-and-gold-foliate-branch--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "d522cd6a75dcae5cbc2e98d4c7c60095a528c1cbf5da247371931b1c8264890d",
+        "retained_generated_size": [
+          1202,
+          1308
+        ],
+        "resolution_cap_scale": 1,
+        "resolution_capped_size": [
+          1202,
+          1308
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          3874,
+          4175
+        ],
+        "native_subject_size_evidence": {
+          "method": "Individually inspected native visible subject bounds, excluding input-region whitespace and neighbours.",
+          "preview_subject_bounds": [
+            1,
+            81,
+            580,
+            705
+          ],
+          "preview_size": [
+            1400,
+            1424
+          ],
+          "original_size": [
+            9366,
+            9528
+          ]
+        },
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 17214
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Inspected the complete native original and each light/dark export. Retained all selected source-visible tree trunks, foliage, fruit, fountain architecture and water jets, and complete foliate border strokes, alternating original paint and fine stem ends. Gold background and independent neighboring art removed; painted bodies remain opaque. Finite hand-drawn border branches are whole ornaments, with no invented repeat or corner atlas. The blue line-filler preserves both gold pips and the original right terminal; neighboring red panel is excluded. Native visible subject dimensions cap both axes, with no upscaling.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/fountain-tree-ready-results-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/fountain-tree-ready-results-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/fountain-tree-ready-results-proof-3.jpg"
+        ]
+      },
+      "categories": [
+        "floral",
+        "scrollwork"
+      ],
+      "subjects": [
+        "rod",
+        "leaf",
+        "stem",
+        "flourish",
+        "margin"
+      ],
+      "colors": [
+        "gold",
+        "red",
+        "blue",
+        "pink",
+        "brown"
+      ],
+      "facing": "unclear",
+      "composition": "single-ornament",
+      "usage_notes": "Original independent specimen with printed plate rules and page removed. AI-assisted extraction remains approximate; source bounds, actual native subject cap, original and exact prompt retained.",
+      "sets": [
+        {
+          "id": "walters-w171-74r-set",
+          "name": "Walters W.171 Tree of Life",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A finite upper gold margin rod with red blue and gold foliate branches and fine curls.",
+      "set_label": "Walters W.171 Tree of Life"
+    }
+  ]
+}

@@ -1,0 +1,1493 @@
+{
+  "source_id": "cma-2005-206-a",
+  "assets": [
+    {
+      "id": "cma-2005-206-a--angel-chasing-devil-in-gold-oval",
+      "name": "angel-chasing-devil-in-gold-oval",
+      "source_id": "cma-2005-206-a",
+      "source_folder": "cleveland",
+      "asset_type": "illustration",
+      "description": "A white-robed winged angel pursues a black horned devil in a blue-sky and green-tree landscape, within the original gold oval miniature. Part of the Office of the Dead angel and devil set.",
+      "source_region": [
+        2445,
+        1730,
+        3310,
+        2590
+      ],
+      "export_crop": [
+        17,
+        6,
+        840,
+        834
+      ],
+      "width": 823,
+      "height": 828,
+      "png": "cleveland/cma-2005-206-a--angel-chasing-devil-in-gold-oval.png",
+      "png_sha256": "4e3200807a250bb9be3e72fe925c19ad99ad8d1c3a4f2176ad06632bfa94db3a",
+      "provenance": {
+        "institution": "Cleveland Museum of Art",
+        "title": "Leaf from a Book of Hours: Office of the Dead: Angel Chasing a Devil (recto)",
+        "object_identifier": "2005.206.a",
+        "date": "c. 1460",
+        "artist": "Coëtivy Master (French)",
+        "record_url": "https://clevelandart.org/art/2005.206.a",
+        "image_rights": "CC0; share_license_status=CC0",
+        "rights_url": "https://www.clevelandart.org/open-access",
+        "source_sha256": "3f5adfecfe574825b8e47db6e3b7975029c48443187a5b1b888befc893dd618c",
+        "source_file": "tmp/new-assets/cleveland/cma-2005-206-a--leaf-from-a-book-of-hours-office-of-the-dead-angel-chasing-a-devil-recto--master.tif",
+        "image_url": "https://openaccess-cdn.clevelandart.org/2005.206.a/2005.206.a_full.tif",
+        "method": "source-pixel-extraction-with-ai-assisted-selection-mask"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: precise-object-edit.\nAsset type: an original-aligned two-color foreground selection matte.\nEdit target: the ORIGINAL source image at the referenced local path. Keep exactly its 865 x 860 aspect ratio, native composition, positions and proportions. Do not recenter, zoom, redraw or change the layout.\nOutput ONLY a featureless selection mask in two solid colors: pure vivid MAGENTA (#ff00ff) for selected artwork, pure CYAN (#00ffff) for excluded background and real holes. Do not draw black outlines or copy any internal eyes, patterns, ink strokes, textures or other details onto the mask: those details will come from unchanged original RGB pixels.\nSelect: the COMPLETE oval painted miniature INCLUDING all blue sky, green trees, yellow-green ground, both figures and the entire original gold oval border. This complete painted scene is one uniformly magenta, solid filled shape. Follow the exact original OUTER gold oval perimeter, with its uneven historic contour; do not substitute a generic perfect circle. Everything outside the gold oval (parchment, black vines, flowers, leaves and blue scrolls) is cyan. Do not select extra flowers touching its outside. There are no internal openings in this scene matte: the entire painted scene and gold frame are one opaque magenta shape.\nNo text, labels, outlines, shadows, decorative modifications or additional colors.",
+        "selection_mask": "tmp/extraction-work/cma-2005-206-a--angel-chasing-devil-in-gold-oval--selection-mask.png",
+        "selection_mask_sha256": "7116354ba5dc43b79545033789f66f9e88ce00cdafee38a22b714b17c4561c8d",
+        "mask_dimensions": [
+          1275,
+          1234
+        ],
+        "mask_application": "binary selection resized to native source region; only alpha changed",
+        "mask_source_region": [
+          2445,
+          1730,
+          3310,
+          2590
+        ],
+        "mask_encoding": "magenta-on-cyan",
+        "native_stroke_correction": null,
+        "native_boundary_refinement": null,
+        "mask_preprocessing": {},
+        "native_rgb_verification": "all output RGB values exactly equal the recorded native source crop",
+        "source_pixels_repainted": false
+      },
+      "parent": null,
+      "children": [
+        "cma-2005-206-a--white-robed-winged-angel",
+        "cma-2005-206-a--black-horned-devil"
+      ],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261010",
+        "notes": "Original gilt oval and complete painted scene retained at native scale. The sky and landscape inside the oval are intrinsic to the miniature; surrounding page ornament is excluded.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": "tmp/extraction-work/quality-reaudit-20261010/manifest.json"
+      },
+      "categories": [
+        "humans",
+        "fantasy"
+      ],
+      "subjects": [
+        "angel",
+        "devil",
+        "wing",
+        "staff",
+        "tree"
+      ],
+      "facing": "mixed",
+      "colors": [
+        "white",
+        "red",
+        "black",
+        "gold",
+        "blue",
+        "green"
+      ],
+      "composition": "framed-scene",
+      "review_history": [
+        {
+          "round": "quality-reaudit-20261010",
+          "previous_review": {
+            "status": "accepted",
+            "reviewed_on": "2026-10-10T11:45:29.496772+00:00",
+            "notes": "Compared the complete original entity against its source, including fine tips and associated details. Checked contours, opaque illustrated surfaces and transparent exterior/openings on white and dark backgrounds. Source RGB unchanged. This complete painted scene retains its intrinsic sky and landscape inside the gold rim; a separate transparent figure group and individual figures are also supplied.",
+            "checks": [
+              "original-source-comparison",
+              "white-background",
+              "dark-background",
+              "outer-contours",
+              "interior-openings",
+              "thin-details",
+              "original-rgb-equality"
+            ]
+          }
+        }
+      ],
+      "sets": [
+        {
+          "id": "cma-2005-206-a-set",
+          "name": "Office of the Dead angel and devil",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A white-robed winged angel pursues a black horned devil in a blue-sky and green-tree landscape, within the original gold oval miniature.",
+      "set_label": "Office of the Dead angel and devil"
+    },
+    {
+      "id": "cma-2005-206-a--bearded-profile-head",
+      "name": "bearded-profile-head",
+      "source_id": "cma-2005-206-a",
+      "source_folder": "cleveland",
+      "asset_type": "illustration",
+      "description": "A bearded man’s head in left-facing profile, with long ochre hair, a hoop earring and pale collar; the decorated initial and panel are excluded. Part of the Office of the Dead angel and devil set.",
+      "source_region": [
+        985,
+        2195,
+        1345,
+        2490
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        6,
+        5,
+        307,
+        252
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 301,
+      "height": 247,
+      "png": "cleveland/cma-2005-206-a--bearded-profile-head.png",
+      "png_sha256": "c7c346e06c68d5c61eeb0644ec70b3efd812581b31b56608b522e98d47890dd7",
+      "provenance": {
+        "institution": "Cleveland Museum of Art",
+        "title": "Leaf from a Book of Hours: Office of the Dead: Angel Chasing a Devil (recto)",
+        "object_identifier": "2005.206.a",
+        "date": "c. 1460",
+        "artist": "Coëtivy Master (French)",
+        "record_url": "https://clevelandart.org/art/2005.206.a",
+        "image_rights": "CC0; share_license_status=CC0",
+        "rights_url": "https://www.clevelandart.org/open-access",
+        "source_file": "tmp/new-assets/cleveland/cma-2005-206-a--leaf-from-a-book-of-hours-office-of-the-dead-angel-chasing-a-devil-recto--master.tif",
+        "source_sha256": "3f5adfecfe574825b8e47db6e3b7975029c48443187a5b1b888befc893dd618c",
+        "source_metadata": "tmp/new-assets/cleveland/cma-2005-206-a.json",
+        "image_url": "https://openaccess-cdn.clevelandart.org/2005.206.a/2005.206.a_full.tif",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: background-extraction. The input is the exact edit target, a historical manuscript scan. Isolate only the specified original painted subject on a truly transparent background, including transparency in every genuine gap. Preserve the source's exact pose, proportions, distinctive anatomy, count, contours, fine original black outlines, pale painted foreground, coloring and aged brushwork. Follow actual drawn boundaries with clean antialiasing. Remove paper, page tint, reverse-page ghosts, text, ruler lines, neighboring ornament and unrelated marks. Do not invent concealed parts, change anatomy, thicken or simplify the drawing, add a border/shadow, or modernize it. This is conservation extraction, not a redesign. Subject: the complete grotesque human head facing LEFT, with its conspicuously long forward nose and pointed beard, ochre long hair curling out behind, gold hoop earring and pale pleated collar. Preserve the exact strange medieval profile and all original irregular beard strokes. Remove the decorated D letter, its blue oval and all gold twigs. Keep the full visible collar; its lower boundary is where the original oval meets it. Do not truncate the nose, beard tip, hair curl or collar. Do not regularize this into a conventional bearded portrait.",
+        "retained_generated_extraction": "tmp/extraction-work/cma-2005-206-a--bearded-profile-head--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "d7138b98e55461b3ca53ec892dc940cbe17a9bd6d4a4c1203b0582868c9248c2",
+        "retained_generated_size": [
+          1386,
+          1135
+        ],
+        "resolution_cap_scale": 0.22320074005550417,
+        "resolution_capped_size": [
+          309,
+          253
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          299,
+          234
+        ],
+        "native_subject_size_evidence": null,
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 29
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Retained original transparent raw resampled once uniformly to the previously inspected native subject bounds; conservative two-pixel allowance corrects Lanczos extent drift. Rechecked source, white/dark renders: entire long nose, beard strokes, hair curl/collar and joined monkey hands, calves, feet and fingers unchanged. No new extraction or changed pose.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/native-cap-one-pixel-final-proof-1.jpg"
+        ]
+      },
+      "categories": [
+        "humans"
+      ],
+      "subjects": [
+        "person",
+        "head",
+        "beard",
+        "earring"
+      ],
+      "facing": "left",
+      "colors": [
+        "brown",
+        "cream",
+        "gold"
+      ],
+      "composition": "single-figure",
+      "review_history": [
+        {
+          "round": "quality-reaudit-20261010",
+          "previous_review": {
+            "status": "accepted",
+            "reviewed_on": "2026-10-10T11:45:29.500314+00:00",
+            "notes": "Compared the complete original entity against its source, including fine tips and associated details. Checked contours, opaque illustrated surfaces and transparent exterior/openings on white and dark backgrounds. Source RGB unchanged.",
+            "checks": [
+              "original-source-comparison",
+              "white-background",
+              "dark-background",
+              "outer-contours",
+              "interior-openings",
+              "thin-details",
+              "original-rgb-equality"
+            ]
+          }
+        },
+        {
+          "status": "accepted",
+          "quality_round": "20261010",
+          "notes": "Replaced the misregistered hard mask. Compared the complete nose, irregular pointed beard, long hair curl, earring and whole visible collar against original source, then white/dark PNG. Antialiased transparent boundary, no letter or gold-floral remnants. Subject dimensions capped to inspected native head bounds. AI cleanup changes fine paint texture and small contours; it is not an exact source-pixel cutout.",
+          "checks": [
+            "original-source-comparison",
+            "complete-retained-entity",
+            "native-subject-scale",
+            "white-and-dark-backgrounds",
+            "exterior-and-genuine-openings",
+            "fine-props-and-extremities"
+          ],
+          "evidence": "tmp/extraction-work/quality-reaudit-20261010/eight-final-corrections-original-white-dark.jpg"
+        }
+      ],
+      "sets": [
+        {
+          "id": "cma-2005-206-a-set",
+          "name": "Office of the Dead angel and devil",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A bearded man’s head in left-facing profile, with long ochre hair, a hoop earring and pale collar; the decorated initial and panel are excluded.",
+      "set_label": "Office of the Dead angel and devil"
+    },
+    {
+      "id": "cma-2005-206-a--black-horned-devil",
+      "name": "black-horned-devil",
+      "source_id": "cma-2005-206-a",
+      "source_folder": "cleveland",
+      "asset_type": "illustration",
+      "description": "A black horned devil with gold facial and body strokes runs with one arm extended and a slender curved tail. Part of the Office of the Dead angel and devil set.",
+      "source_region": [
+        2880,
+        1810,
+        3305,
+        2560
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        27,
+        39,
+        370,
+        682
+      ],
+      "export_crop_coordinate_space": "source-region",
+      "width": 343,
+      "height": 643,
+      "png": "cleveland/cma-2005-206-a--black-horned-devil.png",
+      "png_sha256": "cd2c843144ac6ea0ec826cbb56f42394411ef621369507c03bbf9c90db95040c",
+      "provenance": {
+        "institution": "Cleveland Museum of Art",
+        "title": "Leaf from a Book of Hours: Office of the Dead: Angel Chasing a Devil (recto)",
+        "object_identifier": "2005.206.a",
+        "date": "c. 1460",
+        "artist": "Coëtivy Master (French)",
+        "record_url": "https://clevelandart.org/art/2005.206.a",
+        "image_rights": "CC0; share_license_status=CC0",
+        "rights_url": "https://www.clevelandart.org/open-access",
+        "source_file": "tmp/new-assets/cleveland/cma-2005-206-a--leaf-from-a-book-of-hours-office-of-the-dead-angel-chasing-a-devil-recto--master.tif",
+        "source_sha256": "3f5adfecfe574825b8e47db6e3b7975029c48443187a5b1b888befc893dd618c",
+        "source_metadata": "tmp/new-assets/cleveland/cma-2005-206-a.json",
+        "image_url": "https://openaccess-cdn.clevelandart.org/2005.206.a/2005.206.a_full.tif",
+        "method": "native-source-continuous-edge-matting"
+      },
+      "extraction": {
+        "source_region": [
+          2880,
+          1810,
+          3305,
+          2560
+        ],
+        "native_export_crop": [
+          27,
+          39,
+          370,
+          682
+        ],
+        "native_dimensions": [
+          425,
+          750
+        ],
+        "method": "Original native RGB with closed-form continuous alpha from a four-pixel unknown contour band; original opaque RGB retained. Edge RGB decontaminated with multilevel foreground estimation.",
+        "alpha_levels": 256,
+        "trimap_source": "Previous AI foreground selection is only a semantic guide; final edge alpha is solved from the actual native source colors, without resized generated foreground or binary alpha.",
+        "epsilon": 1e-06,
+        "radius": 1,
+        "unknown_contour_band_native_pixels": 4,
+        "source_pixels_redrawn": false,
+        "native_upscaling": false,
+        "candidate_png": "tmp/extraction-work/contour-corrections-20261010/cma-2005-206-a--black-horned-devil--native-matte.png",
+        "semantic_guide_prompt": "Use case: precise-object-edit.\nAsset type: an extraction MASK, not a new illustration.\nEdit target: the referenced ORIGINAL historical source detail.\nProduce ONLY a flat binary foreground-selection mask aligned EXACTLY to the original image canvas. The original canvas is 425 pixels wide by 750 pixels high, aspect ratio 425:750. Preserve the canvas composition and every object position; do NOT recenter or resize the devil inside the canvas.\nPaint solid pure white precisely over the complete original black horned devil silhouette: both original horns, both pointed ears, head, neck, arms and the outstretched hand, torso, slender tail, both legs and feet. Paint solid pure black everywhere else. True gaps between the original limbs, arm and body, and tail must be black. Only trace actual original outer boundaries. The devil's entire body, pale/gold details inside that body, and its original hands and feet are all white; do not invent foot holes, fingers, extra horns or new contours. Exclude the pale partial hand at the left edge, all sky, trees, ground, oval rim and floral margin. Do not add antialias halos, outline strokes, text, shadows, texture, pattern or any colored image. Return one precise original-aligned black-and-white extraction mask filling the unchanged canvas.",
+        "rejected_redraw_candidate": "tmp/extraction-work/cma-2005-206-a--black-horned-devil--retained-ai-extraction.png",
+        "tool": "Original native scan / closed-form edge alpha and foreground decontamination",
+        "pixel_exact": false
+      },
+      "parent": "cma-2005-206-a--angel-chasing-devil-in-gold-oval",
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "native-contours-20261010",
+        "checks": [
+          "native-source-proportions",
+          "smooth-continuous-alpha",
+          "white-and-dark-backgrounds",
+          "thin-extremities",
+          "foreground-and-genuine-openings"
+        ],
+        "evidence": "tmp/extraction-work/contour-corrections-20261010/cma-2005-206-a--black-horned-devil--final-original-white-dark.png",
+        "notes": "Original opaque scan RGB retained. Continuous native matting corrects hard binary edges; real narrow tail restored from original pigment, yellow ground beside foot excluded. No figure enlargement, body warp or redraw."
+      },
+      "categories": [
+        "fantasy"
+      ],
+      "subjects": [
+        "devil",
+        "horn",
+        "tail"
+      ],
+      "facing": "left",
+      "colors": [
+        "black",
+        "gold"
+      ],
+      "composition": "single-figure",
+      "review_history": [
+        {
+          "round": "quality-reaudit-20261010",
+          "previous_review": {
+            "status": "accepted",
+            "reviewed_on": "2026-10-10T11:45:29.493199+00:00",
+            "notes": "Compared the complete original entity against its source, including fine tips and associated details. Checked contours, opaque illustrated surfaces and transparent exterior/openings on white and dark backgrounds. Source RGB unchanged.",
+            "checks": [
+              "original-source-comparison",
+              "white-background",
+              "dark-background",
+              "outer-contours",
+              "interior-openings",
+              "thin-details",
+              "original-rgb-equality"
+            ]
+          }
+        },
+        {
+          "status": "accepted",
+          "quality_round": "20261010",
+          "notes": "Native-source comparison confirms complete horns, ears, folded arm, extended hand, two legs, feet and fine hanging gold stroke; sky/landscape and gaps between limbs removed.",
+          "checks": [
+            "original-source-comparison",
+            "complete-retained-entity",
+            "native-subject-scale",
+            "white-and-dark-backgrounds",
+            "exterior-and-genuine-openings",
+            "fine-props-and-extremities"
+          ],
+          "evidence": "tmp/extraction-work/quality-reaudit-20261010/manifest.json",
+          "superseded_by": "User rejected stepped binary edges; replacement reviewed against native source on white/dark."
+        }
+      ],
+      "sets": [
+        {
+          "id": "cma-2005-206-a-set",
+          "name": "Office of the Dead angel and devil",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A black horned devil with gold facial and body strokes runs with one arm extended and a slender curved tail.",
+      "set_label": "Office of the Dead angel and devil"
+    },
+    {
+      "id": "cma-2005-206-a--blue-brown-discs-and-diamonds-six-motif-repeat",
+      "name": "blue-brown-discs-and-diamonds-six-motif-repeat",
+      "source_id": "cma-2005-206-a",
+      "source_folder": "cleveland",
+      "asset_type": "border",
+      "description": "Native six-motif manuscript cycle of blue and brown discs and diamonds with gold hatching, on its original gold field. Part of the Office of the Dead angel and devil set.",
+      "source_region": [
+        1410,
+        2881,
+        2375,
+        3047
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        0,
+        0,
+        523,
+        117
+      ],
+      "export_crop_coordinate_space": "source-region",
+      "width": 523,
+      "height": 117,
+      "png": "cleveland/cma-2005-206-a--blue-brown-discs-and-diamonds-six-motif-repeat.png",
+      "png_sha256": "eed819837ac993785f3d75bf8110f0b8ac6be5d11e511a5a94bf7298edcf7250",
+      "provenance": {
+        "institution": "Cleveland Museum of Art",
+        "title": "Leaf from a Book of Hours: Office of the Dead: Angel Chasing a Devil (recto)",
+        "object_identifier": "2005.206.a",
+        "date": "c. 1460",
+        "artist": "Coëtivy Master (French)",
+        "record_url": "https://clevelandart.org/art/2005.206.a",
+        "image_rights": "CC0; share_license_status=CC0",
+        "rights_url": "https://www.clevelandart.org/open-access",
+        "source_file": "tmp/new-assets/cleveland/cma-2005-206-a--leaf-from-a-book-of-hours-office-of-the-dead-angel-chasing-a-devil-recto--master.tif",
+        "source_sha256": "3f5adfecfe574825b8e47db6e3b7975029c48443187a5b1b888befc893dd618c",
+        "source_metadata": "tmp/new-assets/cleveland/cma-2005-206-a.json",
+        "image_url": "https://openaccess-cdn.clevelandart.org/2005.206.a/2005.206.a_full.tif",
+        "method": "native-interior-repeat-with-source-derived-miter-corners"
+      },
+      "extraction": {
+        "candidate_png": "tmp/extraction-work/continuation-20261010/cma-2005-206-a--blue-brown-discs-and-diamonds-six-motif-repeat--native-cycle.png",
+        "export_crop": [
+          0,
+          0,
+          523,
+          117
+        ],
+        "method": "One complete original six-motif cycle, premultiplied-alpha native-scale rigid deskew; no reshaping or upscaling",
+        "native_upscaling": false,
+        "ink_color": null,
+        "original_native_matte_audit": {
+          "candidate_png": "tmp/extraction-work/continuation-20261010/cma-2005-206-a--finite-blue-gold-discs-and-paired-diamonds-line-filler--refined-original-native-candidate.png",
+          "native_export_crop": [
+            4,
+            13,
+            954,
+            149
+          ],
+          "annotation_json": "tmp/extraction-work/continuation-20261010/cma-2005-206-a--finite-blue-gold-discs-and-paired-diamonds-line-filler--refined-original-native-audit.json",
+          "trimap_png": "tmp/extraction-work/continuation-20261010/cma-2005-206-a--finite-blue-gold-discs-and-paired-diamonds-line-filler--refined-original-native-trimap.png",
+          "native_source_size": [
+            965,
+            166
+          ],
+          "export_crop_coordinate_space": "original-native-source-region",
+          "native_refinement": {
+            "method": "Complete original finite illuminated bar including the original black outline/spurs, gilding, blue/rust motifs and painted inner fields. The connected original dark painted perimeter determines ownership; its enclosed original painted area stays opaque. Only exterior parchment and unrelated isolated scan flecks clear. Narrow three-native-pixel source contour fitting, source RGB and native proportions retained. Motif sequence is finite and not falsely turned into a repeat.",
+            "source": "tmp/extraction-work/continuation-20261010/cma-2005-206-a--finite-blue-gold-discs-and-paired-diamonds-line-filler--original.png",
+            "previous_native_matte": {},
+            "unknown_band_native_pixels": 3,
+            "source_rgb_redrawn": false,
+            "source_resized": false,
+            "original_opaque_rgb_preserved": true,
+            "ownership": "tmp/extraction-work/continuation-20261010/cma-2005-206-a--finite-blue-gold-discs-and-paired-diamonds-line-filler--refined-original-native-ownership.png",
+            "ownership_sha256": "ae5d0f01304782e75842b03c49bb308f428253d0eaf19fcd702f16a8b97a04ab",
+            "native_dark_perimeter_detection": "mean(R,G,B)<145; enclosed painted bar filled, external specks excluded"
+          },
+          "status": "awaiting-original-white-dark-review"
+        },
+        "repeat_build": {
+          "unit_png": "tmp/extraction-work/cma-2005-206-a--blue-brown-discs-and-diamonds-six-motif-repeat--unit.png",
+          "bar_png": "tmp/extraction-work/cma-2005-206-a--blue-brown-discs-and-diamonds-six-motif-repeat--bar.png",
+          "frame_png": "tmp/extraction-work/cma-2005-206-a--blue-brown-discs-and-diamonds-six-motif-repeat--frame-atlas.png",
+          "corners": [
+            {
+              "name": "top-left",
+              "png": "tmp/extraction-work/cma-2005-206-a--blue-brown-discs-and-diamonds-six-motif-repeat--corner-top-left.png",
+              "atlas_bounds": [
+                0,
+                0,
+                117,
+                117
+              ]
+            },
+            {
+              "name": "top-right",
+              "png": "tmp/extraction-work/cma-2005-206-a--blue-brown-discs-and-diamonds-six-motif-repeat--corner-top-right.png",
+              "atlas_bounds": [
+                640,
+                0,
+                757,
+                117
+              ]
+            },
+            {
+              "name": "bottom-right",
+              "png": "tmp/extraction-work/cma-2005-206-a--blue-brown-discs-and-diamonds-six-motif-repeat--corner-bottom-right.png",
+              "atlas_bounds": [
+                640,
+                640,
+                757,
+                757
+              ]
+            },
+            {
+              "name": "bottom-left",
+              "png": "tmp/extraction-work/cma-2005-206-a--blue-brown-discs-and-diamonds-six-motif-repeat--corner-bottom-left.png",
+              "atlas_bounds": [
+                0,
+                640,
+                117,
+                757
+              ]
+            }
+          ],
+          "native_unit_size": [
+            523,
+            117
+          ],
+          "atlas_size": [
+            757,
+            757
+          ],
+          "slice_pixels": 117,
+          "slice_percent": 15.455746367239101,
+          "repeat_ratio": 4.47008547008547,
+          "join_adjustment": {
+            "pixels_at_each_end": 2,
+            "method": "average matching source collars; interior columns 2 through width-3 unchanged",
+            "source_cycle_verification": "The finite source shows blue/brown/blue discs followed by brown/blue/brown diamonds, then the next blue/brown/blue discs and brown diamond. A full six-motif shape-and-colour cycle is retained. One native cycle repeats; original spacing differs slightly rather than proving pixel-identical cycles."
+          },
+          "corner_method": "Mitered reflections of the exact same native unit, using the repository’s four phase-matched corner geometry. Derived corners are distinct from the original fixed printer-frame corners.",
+          "status": "awaiting-repeat-and-corner-visual-review"
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Full six-motif cycles and native coordinate-grid source compared. Initial partial motif cuts rejected; final phase cuts are in gold gaps after complete glyphs. Unit, five repeats and all four same-source miter corners inspected on white and dark at native scale. Original blue/brown paint, gold hatching and dark perimeter retained. Rigid deskew is audited; source strips remain unchanged. No invented geometric replacement.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/cma5206-finite-glyph-native-coordinate-grid.png",
+          "tmp/extraction-work/continuation-20261010/cma5206-six-motif-corrected-phase-review.jpg",
+          "tmp/extraction-work/continuation-20261010/cma5206-repeat-native-joins-and-four-corners.png"
+        ]
+      },
+      "categories": [
+        "geometric"
+      ],
+      "subjects": [
+        "disc",
+        "diamond",
+        "bar"
+      ],
+      "colors": [
+        "blue",
+        "gold",
+        "brown",
+        "black"
+      ],
+      "facing": "unclear",
+      "composition": "repeat-tile",
+      "usage_notes": "Six original complete hand-drawn motifs, including their original alternating colours and original gold field. Derived strip is deskewed by one rigid rotation at native scale; source whole strip remains unchanged. No upscaling or redrawing. Four same-source miter corners; original hand-drawn spacing varies.",
+      "repeat": {
+        "rationale": "The finite source shows blue/brown/blue discs followed by brown/blue/brown diamonds, then the next blue/brown/blue discs and brown diamond. A full six-motif shape-and-colour cycle is retained. One native cycle repeats; original spacing differs slightly rather than proving pixel-identical cycles.",
+        "original_direction": "horizontal",
+        "whole_strip_asset": "cma-2005-206-a--finite-blue-gold-discs-and-paired-diamonds-line-filler",
+        "rigid_deskew_counterclockwise_degrees": 1.1170301378603735,
+        "deskew_affine": [
+          [
+            0.999809961862673,
+            0.019494618748778628,
+            -1.235365959686628
+          ],
+          [
+            -0.019494618748778628,
+            0.999809961862673,
+            9.272866499008083
+          ]
+        ],
+        "cycle_bounds_in_deskewed_whole_strip": [
+          116,
+          0,
+          639,
+          136
+        ],
+        "native_scale": 1,
+        "motif_sequence": [
+          "brown disc",
+          "blue disc",
+          "brown diamond",
+          "blue diamond",
+          "brown diamond",
+          "blue disc"
+        ],
+        "phase_review": "Native coordinate-grid inspection places both cuts in gold gaps between complete adjacent motifs, after the first blue glyph and after the corresponding next blue glyph. First trial cutting a brown rim and blue diamond tip rejected.",
+        "slice_pixels": 117,
+        "slice_percent": 15.455746367239101,
+        "repeat_ratio": 4.47008547008547,
+        "native_unit_size": [
+          523,
+          117
+        ],
+        "atlas_size": [
+          757,
+          757
+        ],
+        "join_adjustment": {
+          "pixels_at_each_end": 2,
+          "method": "average matching source collars; interior columns 2 through width-3 unchanged",
+          "source_cycle_verification": "The finite source shows blue/brown/blue discs followed by brown/blue/brown diamonds, then the next blue/brown/blue discs and brown diamond. A full six-motif shape-and-colour cycle is retained. One native cycle repeats; original spacing differs slightly rather than proving pixel-identical cycles."
+        },
+        "corner_method": "Mitered reflections of the exact same native unit, using the repository’s four phase-matched corner geometry. Derived corners are distinct from the original fixed printer-frame corners."
+      },
+      "components": {
+        "bar": {
+          "png": "cleveland/cma-2005-206-a--blue-brown-discs-and-diamonds-six-motif-repeat--bar.png",
+          "png_sha256": "d0fcf7ac254474518703afd18c54a054c9ecbfb8b107c75f93a1f47c919e3814",
+          "width": 2615,
+          "height": 117,
+          "set_id": "cma-2005-206-a--blue-brown-discs-and-diamonds-six-motif-repeat",
+          "set_name": "Office of the Dead angel and devil — blue brown discs and diamonds six motif repeat",
+          "set_role": "bar"
+        },
+        "frame": {
+          "png": "cleveland/cma-2005-206-a--blue-brown-discs-and-diamonds-six-motif-repeat--frame-atlas.png",
+          "png_sha256": "ad9d94a45c84bb52f507156f0e7c02a5465bf8c78498b22112ed9c667485b9e6",
+          "width": 757,
+          "height": 757,
+          "set_id": "cma-2005-206-a--blue-brown-discs-and-diamonds-six-motif-repeat",
+          "set_name": "Office of the Dead angel and devil — blue brown discs and diamonds six motif repeat",
+          "set_role": "frame"
+        },
+        "corner-top-left": {
+          "png": "cleveland/cma-2005-206-a--blue-brown-discs-and-diamonds-six-motif-repeat--corner-top-left.png",
+          "png_sha256": "f9728de934e2c2fd5af0b3eb3b0108828280fa293db0294ab9d3c47b7b9c2d83",
+          "width": 117,
+          "height": 117,
+          "atlas_bounds": [
+            0,
+            0,
+            117,
+            117
+          ],
+          "method": "Mitered reflections of the exact same native unit, using the repository’s four phase-matched corner geometry. Derived corners are distinct from the original fixed printer-frame corners.",
+          "set_id": "cma-2005-206-a--blue-brown-discs-and-diamonds-six-motif-repeat",
+          "set_name": "Office of the Dead angel and devil — blue brown discs and diamonds six motif repeat",
+          "set_role": "corner-top-left"
+        },
+        "corner-top-right": {
+          "png": "cleveland/cma-2005-206-a--blue-brown-discs-and-diamonds-six-motif-repeat--corner-top-right.png",
+          "png_sha256": "77c5f61420bc48d00520fab1d84bf33d8475859e359767da0d266e6e677efde5",
+          "width": 117,
+          "height": 117,
+          "atlas_bounds": [
+            640,
+            0,
+            757,
+            117
+          ],
+          "method": "Mitered reflections of the exact same native unit, using the repository’s four phase-matched corner geometry. Derived corners are distinct from the original fixed printer-frame corners.",
+          "set_id": "cma-2005-206-a--blue-brown-discs-and-diamonds-six-motif-repeat",
+          "set_name": "Office of the Dead angel and devil — blue brown discs and diamonds six motif repeat",
+          "set_role": "corner-top-right"
+        },
+        "corner-bottom-right": {
+          "png": "cleveland/cma-2005-206-a--blue-brown-discs-and-diamonds-six-motif-repeat--corner-bottom-right.png",
+          "png_sha256": "23791e513f00109f8918c2bc6cf617f1a6216cebc1ce4f071620392b58c4a239",
+          "width": 117,
+          "height": 117,
+          "atlas_bounds": [
+            640,
+            640,
+            757,
+            757
+          ],
+          "method": "Mitered reflections of the exact same native unit, using the repository’s four phase-matched corner geometry. Derived corners are distinct from the original fixed printer-frame corners.",
+          "set_id": "cma-2005-206-a--blue-brown-discs-and-diamonds-six-motif-repeat",
+          "set_name": "Office of the Dead angel and devil — blue brown discs and diamonds six motif repeat",
+          "set_role": "corner-bottom-right"
+        },
+        "corner-bottom-left": {
+          "png": "cleveland/cma-2005-206-a--blue-brown-discs-and-diamonds-six-motif-repeat--corner-bottom-left.png",
+          "png_sha256": "359df44841bb14a61db1e21e15fd549dc6121246165ff4a63a532826fcc1290b",
+          "width": 117,
+          "height": 117,
+          "atlas_bounds": [
+            0,
+            640,
+            117,
+            757
+          ],
+          "method": "Mitered reflections of the exact same native unit, using the repository’s four phase-matched corner geometry. Derived corners are distinct from the original fixed printer-frame corners.",
+          "set_id": "cma-2005-206-a--blue-brown-discs-and-diamonds-six-motif-repeat",
+          "set_name": "Office of the Dead angel and devil — blue brown discs and diamonds six motif repeat",
+          "set_role": "corner-bottom-left"
+        }
+      },
+      "sets": [
+        {
+          "id": "cma-2005-206-a-set",
+          "name": "Office of the Dead angel and devil",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "Native six-motif manuscript cycle of blue and brown discs and diamonds with gold hatching, on its original gold field.",
+      "set_label": "Office of the Dead angel and devil"
+    },
+    {
+      "id": "cma-2005-206-a--blue-gold-floral-frame",
+      "name": "blue-gold-floral-frame",
+      "source_id": "cma-2005-206-a",
+      "source_folder": "cleveland",
+      "asset_type": "decoration",
+      "description": "A complete manuscript frame of blue and gold acanthus scrolls, delicate dark vines, green and yellow leaves, gold buds, red and blue flowers and a long-necked bird; the text area and oval miniature opening are transparent. Part of the Office of the Dead angel and devil set.",
+      "source_region": [
+        140,
+        215,
+        3330,
+        4390
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        4,
+        0,
+        3190,
+        4157
+      ],
+      "width": 3186,
+      "height": 4157,
+      "png": "cleveland/cma-2005-206-a--blue-gold-floral-frame.png",
+      "png_sha256": "3708cdd80f6a71620d2ca9e479f2a8596df6db3c2797d2ec74312e4db361c7b8",
+      "provenance": {
+        "institution": "Cleveland Museum of Art",
+        "title": "Leaf from a Book of Hours: Office of the Dead: Angel Chasing a Devil (recto)",
+        "object_identifier": "2005.206.a",
+        "date": "c. 1460",
+        "artist": "Coëtivy Master (French)",
+        "record_url": "https://clevelandart.org/art/2005.206.a",
+        "image_rights": "CC0; share_license_status=CC0",
+        "rights_url": "https://www.clevelandart.org/open-access",
+        "source_sha256": "3f5adfecfe574825b8e47db6e3b7975029c48443187a5b1b888befc893dd618c",
+        "source_file": "tmp/new-assets/cleveland/cma-2005-206-a--leaf-from-a-book-of-hours-office-of-the-dead-angel-chasing-a-devil-recto--master.tif",
+        "source_metadata": "tmp/new-assets/cleveland/cma-2005-206-a.json",
+        "image_url": "https://openaccess-cdn.clevelandart.org/2005.206.a/2005.206.a_full.tif",
+        "method": "source-pixel-extraction-with-ai-assisted-selection-mask"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: precise-object-edit.\nAsset type: an original-aligned two-color foreground selection matte.\nEdit target: the ORIGINAL source image at the referenced local path. Keep exactly its 3190 x 4175 aspect ratio, native composition, positions and proportions. Do not recenter, zoom, redraw or change the layout.\nOutput ONLY a featureless selection mask in two solid colors: pure vivid MAGENTA (#ff00ff) for selected artwork, pure CYAN (#00ffff) for excluded background and real holes. Do not draw black outlines or copy any internal eyes, patterns, ink strokes, textures or other details onto the mask: those details will come from unchanged original RGB pixels.\nSelect: ONLY the COMPLETE original ornamental FRAME: all blue/gold/red acanthus-scroll groups, green/yellow leaves, every small gold bud, red/blue flower, delicate black vine and the complete inner gold/red/blue rectangular rules around the text. Include the complete long-necked bird at the bottom as an integral part of this original border. Trace every fine stem and small motif faithfully and keep each genuinely pale painted leaf/bud/flower interior solid magenta. Retain the small gold oval RIM at right, but its entire inner scene must be cyan; exclude both figures, all sky, landscape and trees within that oval. ALL parchment, the ENTIRE central text block, ALL letters and initials, writing, stains, ruled page margins and every bare gap between botanical motifs and inside scroll openings must be cyan. Do not fill the large border bands with magenta rectangles: select only actual drawn/painted ornamental shapes and the continuous original narrow frame rules. Preserve all four original corners and all motif positions. No new flowers, leaves, lines, simplification, symmetry or reconstructed repeat.\nNo text, labels, outlines, shadows, decorative modifications or additional colors.",
+        "selection_mask": "tmp/extraction-work/cma-2005-206-a--blue-gold-floral-frame--selection-mask.png",
+        "selection_mask_sha256": "d7f87839553ea890a410dfd6908229bff35b1d6ec5bab67ed55a38cf6c53e627",
+        "mask_dimensions": [
+          1096,
+          1435
+        ],
+        "mask_application": "binary selection resized to native source region; only alpha changed",
+        "mask_source_region": [
+          140,
+          215,
+          3330,
+          4390
+        ],
+        "mask_encoding": "magenta-on-cyan",
+        "native_stroke_correction": null,
+        "native_paper_cleanup": {
+          "method": "native-pigment-and-ink",
+          "support_expansion": 60,
+          "exclude_regions": [
+            [
+              670,
+              835,
+              2240,
+              3020
+            ]
+          ],
+          "retain_semantic_regions": [
+            [
+              2305,
+              1515,
+              3190,
+              2375
+            ]
+          ],
+          "restore_native_regions": [
+            [
+              635,
+              770,
+              780,
+              875
+            ],
+            [
+              2245,
+              810,
+              2380,
+              905
+            ]
+          ],
+          "fill_semantic_holes_max": 2000
+        },
+        "native_boundary_refinement": null,
+        "mask_preprocessing": {},
+        "alpha_components": [
+          "tmp/new-crops/cleveland/cma-2005-206-a--human-headed-bird.json"
+        ],
+        "native_rgb_verification": "all alpha-visible RGB values exactly equal the recorded native source crop; fully transparent RGB cleared",
+        "source_color_profile_preserved": true,
+        "source_pixels_repainted": false
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261010",
+        "notes": "Complete source manuscript border retained as a fixed whole decoration. Writing and oval miniature interior removed; tiny original leaves, gilding and corner ornament retained. No repeat period inferred.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": "tmp/extraction-work/quality-reaudit-20261010/manifest.json"
+      },
+      "categories": [
+        "botanical",
+        "floral",
+        "scrollwork",
+        "animals"
+      ],
+      "subjects": [
+        "leaf",
+        "vine",
+        "flower",
+        "bud",
+        "bird",
+        "scroll"
+      ],
+      "facing": "unclear",
+      "colors": [
+        "blue",
+        "gold",
+        "green",
+        "yellow",
+        "red",
+        "brown",
+        "black"
+      ],
+      "composition": "single-ornament",
+      "repeat": {
+        "status": "unverified",
+        "reason": "The painted foliate groups and spacing vary across the original page; retain the complete fixed frame."
+      },
+      "usage_notes": [
+        "Original fixed frame and its four original corner compositions; no periodic unit has been established."
+      ],
+      "review_history": [
+        {
+          "round": "quality-reaudit-20261010",
+          "previous_review": {
+            "status": "accepted",
+            "reviewed_on": "2026-10-10T11:58:29.996593+00:00",
+            "notes": "Compared whole frame and original corner groups with the source, inspected fine vines at native resolution, verified both pillar caps, checked transparent text/oval openings and spaces between motifs on white and dark backgrounds. Pale selected surface holes filled conservatively; source RGB and original bird silhouette retained. Original fixed composition; no periodic unit is inferred.",
+            "checks": [
+              "original-source-comparison",
+              "white-background",
+              "dark-background",
+              "outer-contours",
+              "interior-openings",
+              "thin-details",
+              "original-rgb-equality"
+            ]
+          }
+        }
+      ],
+      "sets": [
+        {
+          "id": "cma-2005-206-a-set",
+          "name": "Office of the Dead angel and devil",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A complete manuscript frame of blue and gold acanthus scrolls, delicate dark vines, green and yellow leaves, gold buds, red and blue flowers and a long-necked bird; the text area and oval miniature opening are transparent.",
+      "set_label": "Office of the Dead angel and devil"
+    },
+    {
+      "id": "cma-2005-206-a--finite-blue-gold-discs-and-paired-diamonds-line-filler",
+      "name": "finite-blue-gold-discs-and-paired-diamonds-line-filler",
+      "source_id": "cma-2005-206-a",
+      "source_folder": "cleveland",
+      "asset_type": "decoration",
+      "description": "Original finite gold-field manuscript line filler with blue and brown discs and diamonds, gold hatching and a dark perimeter. Part of the Office of the Dead angel and devil set.",
+      "source_region": [
+        1410,
+        2881,
+        2375,
+        3047
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        4,
+        13,
+        954,
+        149
+      ],
+      "export_crop_coordinate_space": "original-native-source-region",
+      "width": 950,
+      "height": 136,
+      "png": "cleveland/cma-2005-206-a--finite-blue-gold-discs-and-paired-diamonds-line-filler.png",
+      "png_sha256": "8b3117da87cb7afe7adaec4c8ee0d5d5ee5adbea410e65bec9d0aff3cd0acea6",
+      "provenance": {
+        "institution": "Cleveland Museum of Art",
+        "title": "Leaf from a Book of Hours: Office of the Dead: Angel Chasing a Devil (recto)",
+        "object_identifier": "2005.206.a",
+        "date": "c. 1460",
+        "artist": "Coëtivy Master (French)",
+        "record_url": "https://clevelandart.org/art/2005.206.a",
+        "image_rights": "CC0; share_license_status=CC0",
+        "rights_url": "https://www.clevelandart.org/open-access",
+        "source_file": "tmp/new-assets/cleveland/cma-2005-206-a--leaf-from-a-book-of-hours-office-of-the-dead-angel-chasing-a-devil-recto--master.tif",
+        "source_sha256": "3f5adfecfe574825b8e47db6e3b7975029c48443187a5b1b888befc893dd618c",
+        "source_metadata": "tmp/new-assets/cleveland/cma-2005-206-a.json",
+        "image_url": "https://openaccess-cdn.clevelandart.org/2005.206.a/2005.206.a_full.tif",
+        "method": "native-source-continuous-edge-matting"
+      },
+      "extraction": {
+        "candidate_png": "tmp/extraction-work/continuation-20261010/cma-2005-206-a--finite-blue-gold-discs-and-paired-diamonds-line-filler--refined-original-native-candidate.png",
+        "native_export_crop": [
+          4,
+          13,
+          954,
+          149
+        ],
+        "annotation_json": "tmp/extraction-work/continuation-20261010/cma-2005-206-a--finite-blue-gold-discs-and-paired-diamonds-line-filler--refined-original-native-audit.json",
+        "trimap_png": "tmp/extraction-work/continuation-20261010/cma-2005-206-a--finite-blue-gold-discs-and-paired-diamonds-line-filler--refined-original-native-trimap.png",
+        "native_source_size": [
+          965,
+          166
+        ],
+        "export_crop_coordinate_space": "original-native-source-region",
+        "native_refinement": {
+          "method": "Complete original finite illuminated bar including the original black outline/spurs, gilding, blue/rust motifs and painted inner fields. The connected original dark painted perimeter determines ownership; its enclosed original painted area stays opaque. Only exterior parchment and unrelated isolated scan flecks clear. Narrow three-native-pixel source contour fitting, source RGB and native proportions retained. Motif sequence is finite and not falsely turned into a repeat.",
+          "source": "tmp/extraction-work/continuation-20261010/cma-2005-206-a--finite-blue-gold-discs-and-paired-diamonds-line-filler--original.png",
+          "previous_native_matte": {},
+          "unknown_band_native_pixels": 3,
+          "source_rgb_redrawn": false,
+          "source_resized": false,
+          "original_opaque_rgb_preserved": true,
+          "ownership": "tmp/extraction-work/continuation-20261010/cma-2005-206-a--finite-blue-gold-discs-and-paired-diamonds-line-filler--refined-original-native-ownership.png",
+          "ownership_sha256": "ae5d0f01304782e75842b03c49bb308f428253d0eaf19fcd702f16a8b97a04ab",
+          "native_dark_perimeter_detection": "mean(R,G,B)<145; enclosed painted bar filled, external specks excluded"
+        },
+        "status": "awaiting-original-white-dark-review",
+        "tool": "Original native scan / closed-form edge alpha and foreground decontamination",
+        "pixel_exact": false
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Inspected the untouched source and transparent results on white and dark backgrounds at native pixel scale. Complete painted fields, original irregular ink perimeters, hatching and pale chevrons retained. Exterior parchment/gilt is cleared without cutting pale motif strokes. No scaling or inferred glyph reconstruction.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/walters-w171-10r--blue-inlay-with-white-opposed-chevron-chain--native-100-final.png",
+          "tmp/extraction-work/continuation-20261010/walters-w171-10r--pink-inlay-with-white-opposed-chevron-chain--native-100-final.png",
+          "tmp/extraction-work/continuation-20261010/cma-2005-206-a--finite-gold-foliate-wave-on-blue-line-filler--native-100-final.png",
+          "tmp/extraction-work/continuation-20261010/cma-2005-206-a--finite-blue-gold-discs-and-paired-diamonds-line-filler--native-100-final.png",
+          "tmp/extraction-work/continuation-20261010/cma-2005-206-b--finite-blue-gold-discs-and-diamonds-line-filler--native-100-final.png"
+        ]
+      },
+      "categories": [
+        "geometric"
+      ],
+      "subjects": [
+        "disc",
+        "diamond",
+        "bar"
+      ],
+      "colors": [
+        "blue",
+        "gold",
+        "brown",
+        "black"
+      ],
+      "facing": "unclear",
+      "composition": "standalone",
+      "usage_notes": "Original finite strip with hand-drawn spacing. Its six-motif colour-and-shape cycle is identifiable; a separate repeating unit is being prepared. Gold fields and brown, blue and black paint are integral; exterior parchment is transparent.",
+      "sets": [
+        {
+          "id": "cma-2005-206-a-set",
+          "name": "Office of the Dead angel and devil",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "Original finite gold-field manuscript line filler with blue and brown discs and diamonds, gold hatching and a dark perimeter.",
+      "set_label": "Office of the Dead angel and devil"
+    },
+    {
+      "id": "cma-2005-206-a--finite-gold-foliate-wave-on-blue-line-filler",
+      "name": "finite-gold-foliate-wave-on-blue-line-filler",
+      "source_id": "cma-2005-206-a",
+      "source_folder": "cleveland",
+      "asset_type": "decoration",
+      "description": "Original finite gold and blue acanthus-wave manuscript line filler with its dark perimeter and painted gold field. Part of the Office of the Dead angel and devil set.",
+      "source_region": [
+        1825,
+        1250,
+        2382,
+        1406
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        5,
+        4,
+        557,
+        146
+      ],
+      "export_crop_coordinate_space": "original-native-source-region",
+      "width": 552,
+      "height": 142,
+      "png": "cleveland/cma-2005-206-a--finite-gold-foliate-wave-on-blue-line-filler.png",
+      "png_sha256": "4482de0693dbb3180ca8d24538ebbc7dfd44d1496062e8a82a76ed16556f13b6",
+      "provenance": {
+        "institution": "Cleveland Museum of Art",
+        "title": "Leaf from a Book of Hours: Office of the Dead: Angel Chasing a Devil (recto)",
+        "object_identifier": "2005.206.a",
+        "date": "c. 1460",
+        "artist": "Coëtivy Master (French)",
+        "record_url": "https://clevelandart.org/art/2005.206.a",
+        "image_rights": "CC0; share_license_status=CC0",
+        "rights_url": "https://www.clevelandart.org/open-access",
+        "source_file": "tmp/new-assets/cleveland/cma-2005-206-a--leaf-from-a-book-of-hours-office-of-the-dead-angel-chasing-a-devil-recto--master.tif",
+        "source_sha256": "3f5adfecfe574825b8e47db6e3b7975029c48443187a5b1b888befc893dd618c",
+        "source_metadata": "tmp/new-assets/cleveland/cma-2005-206-a.json",
+        "image_url": "https://openaccess-cdn.clevelandart.org/2005.206.a/2005.206.a_full.tif",
+        "method": "native-source-continuous-edge-matting"
+      },
+      "extraction": {
+        "candidate_png": "tmp/extraction-work/continuation-20261010/cma-2005-206-a--finite-gold-foliate-wave-on-blue-line-filler--refined-original-native-candidate.png",
+        "native_export_crop": [
+          5,
+          4,
+          557,
+          146
+        ],
+        "annotation_json": "tmp/extraction-work/continuation-20261010/cma-2005-206-a--finite-gold-foliate-wave-on-blue-line-filler--refined-original-native-audit.json",
+        "trimap_png": "tmp/extraction-work/continuation-20261010/cma-2005-206-a--finite-gold-foliate-wave-on-blue-line-filler--refined-original-native-trimap.png",
+        "native_source_size": [
+          557,
+          156
+        ],
+        "export_crop_coordinate_space": "original-native-source-region",
+        "native_refinement": {
+          "method": "Complete original finite illuminated bar including the original black outline/spurs, gilding, blue/rust motifs and painted inner fields. The connected original dark painted perimeter determines ownership; its enclosed original painted area stays opaque. Only exterior parchment and unrelated isolated scan flecks clear. Narrow three-native-pixel source contour fitting, source RGB and native proportions retained. Motif sequence is finite and not falsely turned into a repeat.",
+          "source": "tmp/extraction-work/continuation-20261010/cma-2005-206-a--finite-gold-foliate-wave-on-blue-line-filler--original.png",
+          "previous_native_matte": {},
+          "unknown_band_native_pixels": 3,
+          "source_rgb_redrawn": false,
+          "source_resized": false,
+          "original_opaque_rgb_preserved": true,
+          "ownership": "tmp/extraction-work/continuation-20261010/cma-2005-206-a--finite-gold-foliate-wave-on-blue-line-filler--refined-original-native-ownership.png",
+          "ownership_sha256": "0ef9be5bc95d66970dc82eed2beed84caec4bc6b464218f6ae96d68e92dc5d7d",
+          "native_dark_perimeter_detection": "mean(R,G,B)<145; enclosed painted bar filled, external specks excluded"
+        },
+        "status": "awaiting-original-white-dark-review",
+        "tool": "Original native scan / closed-form edge alpha and foreground decontamination",
+        "pixel_exact": false
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Inspected the untouched source and transparent results on white and dark backgrounds at native pixel scale. Complete painted fields, original irregular ink perimeters, hatching and pale chevrons retained. Exterior parchment/gilt is cleared without cutting pale motif strokes. No scaling or inferred glyph reconstruction.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/walters-w171-10r--blue-inlay-with-white-opposed-chevron-chain--native-100-final.png",
+          "tmp/extraction-work/continuation-20261010/walters-w171-10r--pink-inlay-with-white-opposed-chevron-chain--native-100-final.png",
+          "tmp/extraction-work/continuation-20261010/cma-2005-206-a--finite-gold-foliate-wave-on-blue-line-filler--native-100-final.png",
+          "tmp/extraction-work/continuation-20261010/cma-2005-206-a--finite-blue-gold-discs-and-paired-diamonds-line-filler--native-100-final.png",
+          "tmp/extraction-work/continuation-20261010/cma-2005-206-b--finite-blue-gold-discs-and-diamonds-line-filler--native-100-final.png"
+        ]
+      },
+      "categories": [
+        "floral"
+      ],
+      "subjects": [
+        "leaf",
+        "wave",
+        "bar"
+      ],
+      "colors": [
+        "blue",
+        "gold",
+        "brown",
+        "black"
+      ],
+      "facing": "unclear",
+      "composition": "standalone",
+      "usage_notes": "One finite foliate wave pair. No complete repeating foliate cycle is established by this short source. Original gold and blue painted fields are integral; exterior parchment is transparent.",
+      "sets": [
+        {
+          "id": "cma-2005-206-a-set",
+          "name": "Office of the Dead angel and devil",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "Original finite gold and blue acanthus-wave manuscript line filler with its dark perimeter and painted gold field.",
+      "set_label": "Office of the Dead angel and devil"
+    },
+    {
+      "id": "cma-2005-206-a--human-headed-bird",
+      "name": "human-headed-bird",
+      "source_id": "cma-2005-206-a",
+      "source_folder": "cleveland",
+      "asset_type": "illustration",
+      "description": "A brown and gold bird grotesque with a pale bearded human head, long curved neck, feathered body, tail and slim legs. Part of the Office of the Dead angel and devil set.",
+      "source_region": [
+        1120,
+        3500,
+        1900,
+        4120
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        1,
+        0,
+        608,
+        575
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 607,
+      "height": 575,
+      "png": "cleveland/cma-2005-206-a--human-headed-bird.png",
+      "png_sha256": "9f344d77bf1b3aa9e02822a4b99cd0562323585703c23f5d6f6651405e389f15",
+      "provenance": {
+        "institution": "Cleveland Museum of Art",
+        "title": "Leaf from a Book of Hours: Office of the Dead: Angel Chasing a Devil (recto)",
+        "object_identifier": "2005.206.a",
+        "date": "c. 1460",
+        "artist": "Coëtivy Master (French)",
+        "record_url": "https://clevelandart.org/art/2005.206.a",
+        "image_rights": "CC0; share_license_status=CC0",
+        "rights_url": "https://www.clevelandart.org/open-access",
+        "source_file": "tmp/new-assets/cleveland/cma-2005-206-a--leaf-from-a-book-of-hours-office-of-the-dead-angel-chasing-a-devil-recto--master.tif",
+        "source_sha256": "3f5adfecfe574825b8e47db6e3b7975029c48443187a5b1b888befc893dd618c",
+        "source_metadata": "tmp/new-assets/cleveland/cma-2005-206-a.json",
+        "image_url": "https://openaccess-cdn.clevelandart.org/2005.206.a/2005.206.a_full.tif",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: precise-object-edit / background-extraction. Image 1 is the edit target, an original-pixel cutout of a medieval human-headed bird. Image 2 is the original manuscript detail for verification. Correct ONLY the faulty jagged cut edge in image 1, removing residual parchment and replacing coarse step edges with fine smooth antialiasing. Keep the SAME original bird, exact pose, exact colors and slight original scan softness, the same drawn facial features, feather strokes and gold lines. Crucial: preserve the ORIGINAL TALL proportions in image 1: the entire bird including head and feet has an approximately 590:545 width:height ratio (about 1.08 wide, not a broad squat 1.25-wide bird). Do not flatten or compress its curved neck, belly or legs, enlarge its wings, recenter or change its pose. Retain the complete long tail, feather tips, pale face/beard and original thin legs with all the original toes, consulting image 2 where the current mask has clipped a toe. Change only edge alpha and tiny contaminated edge pixels; preserve the original interior paint texture and colors. The face, hair, beard, brown body and gold paint are opaque. Exterior and genuine gaps are fully transparent. No neighboring floral decoration, leaves, stems, berries, paper, extra strokes or objects. No sharpening, enhanced texture, modern cartoon redraw, new pose, new anatomy or made-up claws. Restore a faithful conservation-like cutout with smooth precise original contours.",
+        "retained_generated_extraction": "tmp/extraction-work/cma-2005-206-a--human-headed-bird--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "e4c484e7c636ec5ca17eade085579b9a1fde25146dac5741aa5a48876154137a",
+        "retained_generated_size": [
+          1290,
+          1219
+        ],
+        "resolution_cap_scale": 0.4713375796178344,
+        "resolution_capped_size": [
+          608,
+          575
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          592,
+          560
+        ],
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 618
+        },
+        "referenced_edit_inputs": [
+          "tmp/extraction-work/contour-corrections-20261010/previous-sidecars/cma-2005-206-a--human-headed-bird.png",
+          "tmp/extraction-work/cma-2005-206-a--long-necked-bird--edit-input.png"
+        ]
+      },
+      "parent": "cma-2005-206-a--blue-gold-floral-frame",
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "native-contours-20261010",
+        "checks": [
+          "native-source-proportions",
+          "smooth-continuous-alpha",
+          "white-and-dark-backgrounds",
+          "thin-extremities",
+          "foreground-and-genuine-openings"
+        ],
+        "evidence": "tmp/extraction-work/contour-corrections-20261010/cma-2005-206-a--human-headed-bird--final-original-white-dark.png",
+        "notes": "Direct correction of the previous source-pixel cutout guided by the original. Tall original figure proportions retained; horns/neck gap, feather tips, face/beard and toes checked. Interior/gaps transparent as appropriate. AI may alter minute scan texture/contours; original retained, not claimed pixel-exact."
+      },
+      "categories": [
+        "animals"
+      ],
+      "subjects": [
+        "bird",
+        "person",
+        "grotesque",
+        "hybrid"
+      ],
+      "facing": "right",
+      "colors": [
+        "brown",
+        "gold",
+        "cream"
+      ],
+      "composition": "single-figure",
+      "review_history": [
+        {
+          "round": "quality-reaudit-20261010",
+          "previous_review": {
+            "status": "accepted",
+            "reviewed_on": "2026-10-10T11:45:29.503843+00:00",
+            "notes": "Compared the complete original entity against its source, including fine tips and associated details. Checked contours, opaque illustrated surfaces and transparent exterior/openings on white and dark backgrounds. Source RGB unchanged.",
+            "checks": [
+              "original-source-comparison",
+              "white-background",
+              "dark-background",
+              "outer-contours",
+              "interior-openings",
+              "thin-details",
+              "original-rgb-equality"
+            ]
+          }
+        },
+        {
+          "status": "accepted",
+          "quality_round": "20261010",
+          "notes": "Compared original head/beard, long curved neck, wing, tail feathers, both legs and toes against source overlay. No neighboring stem or leaf retained; native RGB and proportions preserved.",
+          "checks": [
+            "original-source-comparison",
+            "complete-retained-entity",
+            "native-subject-scale",
+            "white-and-dark-backgrounds",
+            "exterior-and-genuine-openings",
+            "fine-props-and-extremities"
+          ],
+          "evidence": "tmp/extraction-work/quality-reaudit-20261010/manifest.json",
+          "superseded_by": "User rejected stepped binary edges; replacement reviewed against native source on white/dark."
+        }
+      ],
+      "sets": [
+        {
+          "id": "cma-2005-206-a-set",
+          "name": "Office of the Dead angel and devil",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A brown and gold bird grotesque with a pale bearded human head, long curved neck, feathered body, tail and slim legs.",
+      "set_label": "Office of the Dead angel and devil"
+    },
+    {
+      "id": "cma-2005-206-a--white-robed-winged-angel",
+      "name": "white-robed-winged-angel",
+      "source_id": "cma-2005-206-a",
+      "source_folder": "cleveland",
+      "asset_type": "illustration",
+      "description": "A white-robed angel with red-brown pointed wings and a gold halo holds a thin diagonal gold staff. Part of the Office of the Dead angel and devil set.",
+      "source_region": [
+        2490,
+        1720,
+        3040,
+        2600
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        6,
+        97,
+        522,
+        759
+      ],
+      "width": 516,
+      "height": 662,
+      "png": "cleveland/cma-2005-206-a--white-robed-winged-angel.png",
+      "png_sha256": "58d9b9f495a97a71897e3c1f74355601d4523800697dd00264009841f233fe52",
+      "provenance": {
+        "institution": "Cleveland Museum of Art",
+        "title": "Leaf from a Book of Hours: Office of the Dead: Angel Chasing a Devil (recto)",
+        "object_identifier": "2005.206.a",
+        "date": "c. 1460",
+        "artist": "Coëtivy Master (French)",
+        "record_url": "https://clevelandart.org/art/2005.206.a",
+        "image_rights": "CC0; share_license_status=CC0",
+        "rights_url": "https://www.clevelandart.org/open-access",
+        "source_sha256": "3f5adfecfe574825b8e47db6e3b7975029c48443187a5b1b888befc893dd618c",
+        "source_file": "tmp/new-assets/cleveland/cma-2005-206-a--leaf-from-a-book-of-hours-office-of-the-dead-angel-chasing-a-devil-recto--master.tif",
+        "source_metadata": "tmp/new-assets/cleveland/cma-2005-206-a.json",
+        "image_url": "https://openaccess-cdn.clevelandart.org/2005.206.a/2005.206.a_full.tif",
+        "method": "source-pixel-extraction-with-ai-assisted-selection-mask"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: precise-object-edit.\nAsset type: pixel selection matte for applying original source colors.\nInput: the referenced original source image is the edit target.\nReturn an ORIGINAL-ALIGNED TWO-COLOR SELECTION MASK, not an illustration. Keep EXACTLY the original 550 x 880 image aspect ratio, object positions, orientation, proportions and margins. Do not zoom, recenter or change the layout.\nForeground must be uniformly solid vivid MAGENTA (#ff00ff), without internal drawings, outlines, eyes, shading, black marks or textures. Background and all genuine open spaces must be uniformly solid CYAN (#00ffff).\nForeground selection: the white-robed angel, both entire red-brown wings INCLUDING both long lower green wing extensions, the gold halo, face, hands and the entire fine diagonal gold staff from its hooked top left to its far lower-right endpoint. All pale clothing, skin, gold surfaces and every black facial detail inside the angel must be filled uniformly magenta. All wing parts are one connected selection even where old pigment is faded. Exclude the adjacent devil fragments, sky, trees, landscape, oval border and floral margin.\nThis must be a plain featureless filled selection silhouette. Original illustrated details are deliberately NOT drawn on this mask because they will come from untouched original pixels. Do not redraw any features, invent shapes, add text, labels, shadows, borders, outlines, or extra colors.",
+        "selection_mask": "tmp/extraction-work/cma-2005-206-a--white-robed-winged-angel--selection-mask.png",
+        "selection_mask_sha256": "de771704c5470617932a3e8b55969567ce22d8d1e18876734c32f0ae8bddcc49",
+        "mask_dimensions": [
+          992,
+          1586
+        ],
+        "mask_application": "binary selection resized to native source region; only alpha changed",
+        "mask_source_region": [
+          2490,
+          1720,
+          3040,
+          2600
+        ],
+        "mask_encoding": "magenta-on-cyan",
+        "native_stroke_correction": {
+          "method": "native gold-pigment detection along the source-measured staff axis",
+          "source_line_evidence": [
+            [
+              109,
+              257,
+              509,
+              535
+            ],
+            [
+              110,
+              253,
+              509,
+              532
+            ],
+            [
+              109,
+              254,
+              507,
+              530
+            ]
+          ],
+          "slope": 0.695,
+          "intercept": 179,
+          "half_width": 5,
+          "x_range": [
+            75,
+            515
+          ],
+          "remove_false_selection_box": [
+            350,
+            435,
+            550,
+            690
+          ]
+        },
+        "native_paper_cleanup": null,
+        "native_boundary_refinement": null,
+        "mask_preprocessing": {
+          "close_px": 3,
+          "fill_internal_holes_below_px": 120,
+          "remove_islands_below_px": 50
+        },
+        "native_rgb_verification": "all alpha-visible RGB values exactly equal the recorded native source crop; fully transparent RGB cleared",
+        "source_color_profile_preserved": true,
+        "source_pixels_repainted": false
+      },
+      "parent": "cma-2005-206-a--angel-chasing-devil-in-gold-oval",
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261010",
+        "notes": "Complete pale robe, both wings and all their visible portions, hands and thin diagonal gold weapon retained. Genuine spaces around wings/arms remain transparent.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": "tmp/extraction-work/quality-reaudit-20261010/manifest.json"
+      },
+      "categories": [
+        "humans",
+        "fantasy"
+      ],
+      "subjects": [
+        "angel",
+        "wing",
+        "halo",
+        "staff"
+      ],
+      "facing": "right",
+      "colors": [
+        "white",
+        "red",
+        "brown",
+        "gold"
+      ],
+      "composition": "single-figure",
+      "archived_source_layout": {
+        "id": "cma-2005-206-a--angel-chasing-devil",
+        "reason": "Disconnected subjects have individually reviewed deliveries; combined layout is redundant and retained only as extraction audit input.",
+        "source_id": "cma-2005-206-a",
+        "metadata": "tmp/extraction-work/retired-compositions/cleveland/cma-2005-206-a--angel-chasing-devil.json",
+        "png": "tmp/extraction-work/retired-compositions/cleveland/cma-2005-206-a--angel-chasing-devil.png",
+        "png_sha256": "873d7f3af229cdcb96bf3aac32a67c1f3756bdaef8a379051048b44b86acd260"
+      },
+      "review_history": [
+        {
+          "round": "quality-reaudit-20261010",
+          "previous_review": {
+            "status": "accepted",
+            "reviewed_on": "2026-10-10T11:58:29.983279+00:00",
+            "notes": "Checked against the original scene and on white/dark backgrounds. Full wings, robe, hands, real source-measured gold staff and devil outline retained; openings and disconnected background specks removed. Source RGB preserved.",
+            "checks": [
+              "original-source-comparison",
+              "white-background",
+              "dark-background",
+              "outer-contours",
+              "interior-openings",
+              "thin-details",
+              "original-rgb-equality"
+            ]
+          }
+        }
+      ],
+      "sets": [
+        {
+          "id": "cma-2005-206-a-set",
+          "name": "Office of the Dead angel and devil",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A white-robed angel with red-brown pointed wings and a gold halo holds a thin diagonal gold staff.",
+      "set_label": "Office of the Dead angel and devil"
+    }
+  ]
+}

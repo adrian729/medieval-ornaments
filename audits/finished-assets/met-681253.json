@@ -1,0 +1,1269 @@
+{
+  "source_id": "met-681253",
+  "assets": [
+    {
+      "id": "met-681253--crossed-knots-and-four-foliate-scroll-panel",
+      "name": "crossed-knots-and-four-foliate-scroll-panel",
+      "source_id": "met-681253",
+      "source_folder": "met",
+      "asset_type": "decoration",
+      "description": "A complete finite model-book ornament with two crossed knots flanking four curling foliate lobes and small flower terminals. Part of the Modelbuch interlaced loops and flowers set.",
+      "source_region": [
+        499,
+        718,
+        1693,
+        1100
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        0,
+        0,
+        1194,
+        382
+      ],
+      "export_crop_coordinate_space": "source-region",
+      "width": 1194,
+      "height": 382,
+      "png": "met/met-681253--crossed-knots-and-four-foliate-scroll-panel.png",
+      "png_sha256": "5a5b2ad302677547405eea72fb962782afa4237c6bcef1242f0d07d945cc565a",
+      "provenance": {
+        "institution": "Metropolitan Museum of Art",
+        "title": "Page from Ein new kunstlich Modelbuch...(Page 2v)",
+        "object_identifier": "22.84.1(2v)",
+        "date": "1544",
+        "artist": "Peter Quentel",
+        "record_url": "https://www.metmuseum.org/art/collection/search/681253",
+        "image_rights": "CC0 Open Access; isPublicDomain=true",
+        "rights_url": "https://www.metmuseum.org/policies/image-resources",
+        "source_file": "tmp/new-assets/met/met-681253--page-from-ein-new-kunstlich-modelbuch-page-2v.jpg",
+        "source_sha256": "addb61701877a67401271c155a51f9f490ea1e6c10703be1979e1a28d524c982",
+        "source_metadata": "tmp/new-assets/met/met-681253.json",
+        "image_url": "https://images.metmuseum.org/CRDImages/dp/original/DP357022.jpg",
+        "method": "native-continuous-ink-matting"
+      },
+      "extraction": {
+        "method": "Native-resolution continuous ink coverage after locally measured paper removal; PNG appearance master.",
+        "source_pixels_repainted": false,
+        "source_rgb_modified": "Paper removed by measured ink coverage; RGB is the scan-measured ink tone, not an exact source-pixel crop.",
+        "paper_kernel": 61,
+        "minimum_coverage": 0.22,
+        "minimum_component_pixels": 6,
+        "settings": {
+          "paper_kernel": 61,
+          "paper_kernel_shape": "rectangle",
+          "minimum_coverage": 0.22,
+          "minimum_component_pixels": 6,
+          "minimum_component_peak": 0.55,
+          "minimum_channel_coverage": true
+        },
+        "exclude_regions": [],
+        "export_crop": [
+          0,
+          0,
+          1194,
+          382
+        ],
+        "ink_color": [
+          60,
+          53,
+          46
+        ],
+        "candidate_png": "tmp/extraction-work/met-681253--crossed-knots-and-four-foliate-scroll-panel--ink-candidate.png",
+        "status": "awaiting-native-visual-review",
+        "tool": "Native source ink analysis",
+        "source_pixels_redrawn": false
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Full original finite row compared on source/white/dark. Mirrored end motifs retained; no unsupported repeating tile or fabricated corner atlas. Native continuous ink contours and transparent original paper spaces preserved.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": "tmp/extraction-work/continuation-20261010/two-finite-modelbook-panel-recipes-proof-1.jpg"
+      },
+      "categories": [
+        "geometric",
+        "floral",
+        "knotwork"
+      ],
+      "subjects": [
+        "knot",
+        "leaf",
+        "scroll",
+        "flower"
+      ],
+      "facing": "mixed",
+      "colors": [
+        "brown",
+        "black"
+      ],
+      "composition": "single-ornament",
+      "usage_notes": "Original complete finite panel retained. Similar end knots alone do not establish a whole seamless cycle; no translated repeat or new corner atlas inferred.",
+      "sets": [
+        {
+          "id": "met-681253-set",
+          "name": "Modelbuch interlaced loops and flowers",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A complete finite model-book ornament with two crossed knots flanking four curling foliate lobes and small flower terminals.",
+      "set_label": "Modelbuch interlaced loops and flowers"
+    },
+    {
+      "id": "met-681253--interlaced-diamonds-and-floral-rosettes",
+      "name": "interlaced-diamonds-and-floral-rosettes",
+      "source_id": "met-681253",
+      "source_folder": "met",
+      "asset_type": "border",
+      "description": "An original model-book repeat of interlaced diamonds and floral rosettes. Part of the Modelbuch interlaced loops and flowers set.",
+      "source_region": [
+        631,
+        297,
+        1223,
+        718
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        0,
+        0,
+        592,
+        421
+      ],
+      "export_crop_coordinate_space": "source-region",
+      "width": 592,
+      "height": 421,
+      "png": "met/met-681253--interlaced-diamonds-and-floral-rosettes.png",
+      "png_sha256": "927de686adb021c066072ae818d321a30eea2668d8bacb7df8675d06a602213d",
+      "provenance": {
+        "institution": "Metropolitan Museum of Art",
+        "title": "Page from Ein new kunstlich Modelbuch...(Page 2v)",
+        "object_identifier": "22.84.1(2v)",
+        "date": "1544",
+        "artist": "Peter Quentel",
+        "record_url": "https://www.metmuseum.org/art/collection/search/681253",
+        "image_rights": "CC0 Open Access; isPublicDomain=true",
+        "rights_url": "https://www.metmuseum.org/policies/image-resources",
+        "source_file": "tmp/new-assets/met/met-681253--page-from-ein-new-kunstlich-modelbuch-page-2v.jpg",
+        "source_sha256": "addb61701877a67401271c155a51f9f490ea1e6c10703be1979e1a28d524c982",
+        "source_metadata": "tmp/new-assets/met/met-681253.json",
+        "image_url": "https://images.metmuseum.org/CRDImages/dp/original/DP357022.jpg",
+        "method": "native-interior-repeat-with-source-derived-miter-corners"
+      },
+      "extraction": {
+        "method": "Native-resolution continuous ink coverage after locally measured paper removal; PNG appearance master.",
+        "source_pixels_repainted": false,
+        "source_rgb_modified": "Paper removed by measured ink coverage; RGB is the scan-measured ink tone, not an exact source-pixel crop.",
+        "paper_kernel": 61,
+        "minimum_coverage": 0.22,
+        "minimum_component_pixels": 3,
+        "settings": {
+          "paper_kernel": 61,
+          "paper_kernel_shape": "rectangle",
+          "minimum_coverage": 0.22,
+          "minimum_component_pixels": 3,
+          "minimum_component_peak": 0.55,
+          "minimum_channel_coverage": true
+        },
+        "exclude_regions": [],
+        "export_crop": [
+          0,
+          0,
+          592,
+          421
+        ],
+        "ink_color": [
+          62,
+          55,
+          47
+        ],
+        "candidate_png": "tmp/extraction-work/met-681253--interlaced-diamonds-and-floral-rosettes--ink-candidate.png",
+        "status": "awaiting-native-visual-review",
+        "repeat_build": {
+          "unit_png": "tmp/extraction-work/met-681253--interlaced-diamonds-and-floral-rosettes--unit.png",
+          "bar_png": "tmp/extraction-work/met-681253--interlaced-diamonds-and-floral-rosettes--bar.png",
+          "frame_png": "tmp/extraction-work/met-681253--interlaced-diamonds-and-floral-rosettes--frame-atlas.png",
+          "corners": [
+            {
+              "name": "top-left",
+              "png": "tmp/extraction-work/met-681253--interlaced-diamonds-and-floral-rosettes--corner-top-left.png",
+              "atlas_bounds": [
+                0,
+                0,
+                421,
+                421
+              ]
+            },
+            {
+              "name": "top-right",
+              "png": "tmp/extraction-work/met-681253--interlaced-diamonds-and-floral-rosettes--corner-top-right.png",
+              "atlas_bounds": [
+                1013,
+                0,
+                1434,
+                421
+              ]
+            },
+            {
+              "name": "bottom-right",
+              "png": "tmp/extraction-work/met-681253--interlaced-diamonds-and-floral-rosettes--corner-bottom-right.png",
+              "atlas_bounds": [
+                1013,
+                1013,
+                1434,
+                1434
+              ]
+            },
+            {
+              "name": "bottom-left",
+              "png": "tmp/extraction-work/met-681253--interlaced-diamonds-and-floral-rosettes--corner-bottom-left.png",
+              "atlas_bounds": [
+                0,
+                1013,
+                421,
+                1434
+              ]
+            }
+          ],
+          "native_unit_size": [
+            592,
+            421
+          ],
+          "atlas_size": [
+            1434,
+            1434
+          ],
+          "slice_pixels": 421,
+          "slice_percent": 29.358437935843792,
+          "repeat_ratio": 1.4061757719714965,
+          "join_adjustment": {
+            "pixels_at_each_end": 2,
+            "method": "average matching source collars; interior columns 2 through width-3 unchanged",
+            "source_cycle_verification": "Matching large diamond-rosette centers at preview x=493 and x=848; the intervening smaller paired upper/lower rosettes and all connecting diagonal straps form one full cycle."
+          },
+          "corner_method": "Mitered reflections of the exact same native unit, using the repository’s four phase-matched corner geometry. Derived corners are distinct from the original fixed printer-frame corners.",
+          "status": "awaiting-repeat-and-corner-visual-review"
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Complete alternating motif cycles identified directly in the original model-book rows. Reviewed original units, five-unit strips, enlarged native joins and all four mitered corners in frames. Native interiors preserved; only audited two-pixel end collars adjusted. Vertical components are exact 90-degree native transposes. Minor original printed stroke variation remains; no generic SVG redraw.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": "tmp/extraction-work/continuation-20261010/three-refined-repeat-source-strip-native-join-frame.jpg"
+      },
+      "categories": [
+        "geometric",
+        "floral"
+      ],
+      "subjects": [
+        "diamond",
+        "rosette",
+        "interlace"
+      ],
+      "facing": "unclear",
+      "colors": [
+        "black",
+        "brown"
+      ],
+      "composition": "repeat-tile",
+      "usage_notes": "Native original repeat, including all alternating motif classes. Derived four-phase corners use mitered reflections of the very same source unit; no substitute corner artwork. Original scan texture retained in PNG. Whole-pattern, source-phase, strip and corner review pending.",
+      "repeat": {
+        "status": "awaiting-phase-and-join-review",
+        "orientation": "horizontal",
+        "source_witnesses": [
+          [
+            523,
+            297,
+            1106,
+            718
+          ],
+          [
+            1106,
+            297,
+            1688,
+            718
+          ]
+        ],
+        "rationale": "Matching large diamond-rosette centers at preview x=493 and x=848; the intervening smaller paired upper/lower rosettes and all connecting diagonal straps form one full cycle.",
+        "phase_measurement": "Individually inspected original motif centers and whole alternating pattern interval; native integer boundaries. No autocorrelation-based repeat inference.",
+        "preview_phase_bounds": [
+          493,
+          181,
+          848,
+          438
+        ],
+        "phase_alignment": {
+          "initial_native_bounds": [
+            809,
+            297,
+            1391,
+            718
+          ],
+          "refined_native_bounds": [
+            631,
+            297,
+            1223,
+            718
+          ],
+          "method": "Native edge-profile comparison within the already inspected whole alternating motif cycle; local phase and period refinement only, no inference of a motif from correlation. Original source pixels and full alternating content retained.",
+          "search_radius_native_pixels": 200,
+          "period_radius_native_pixels": 28,
+          "profile_difference": 0.18249052870916344,
+          "status": "awaiting-visual-review"
+        },
+        "slice_pixels": 421,
+        "slice_percent": 29.358437935843792,
+        "repeat_ratio": 1.4061757719714965,
+        "native_unit_size": [
+          592,
+          421
+        ],
+        "atlas_size": [
+          1434,
+          1434
+        ],
+        "join_adjustment": {
+          "pixels_at_each_end": 2,
+          "method": "average matching source collars; interior columns 2 through width-3 unchanged",
+          "source_cycle_verification": "Matching large diamond-rosette centers at preview x=493 and x=848; the intervening smaller paired upper/lower rosettes and all connecting diagonal straps form one full cycle."
+        },
+        "corner_method": "Mitered reflections of the exact same native unit, using the repository’s four phase-matched corner geometry. Derived corners are distinct from the original fixed printer-frame corners."
+      },
+      "components": {
+        "bar": {
+          "png": "met/met-681253--interlaced-diamonds-and-floral-rosettes--bar.png",
+          "png_sha256": "b0e95590aad7087cc3a93568bc7f984f5056a216d2ce9e3f54463831596b46e0",
+          "width": 2960,
+          "height": 421,
+          "set_id": "met-681253--interlaced-diamonds-and-floral-rosettes",
+          "set_name": "Modelbuch interlaced loops and flowers — interlaced diamonds and floral rosettes",
+          "set_role": "bar"
+        },
+        "frame": {
+          "png": "met/met-681253--interlaced-diamonds-and-floral-rosettes--frame-atlas.png",
+          "png_sha256": "183914c218d6129c297a0dc2cbf568fc51ebaab5a19ed7d826ae41daa9fd6930",
+          "width": 1434,
+          "height": 1434,
+          "set_id": "met-681253--interlaced-diamonds-and-floral-rosettes",
+          "set_name": "Modelbuch interlaced loops and flowers — interlaced diamonds and floral rosettes",
+          "set_role": "frame"
+        },
+        "corner-top-left": {
+          "png": "met/met-681253--interlaced-diamonds-and-floral-rosettes--corner-top-left.png",
+          "png_sha256": "f728122cd9028b57ecfab92b14052d406464daa85a9af366b8be94f0d8645df4",
+          "width": 421,
+          "height": 421,
+          "atlas_bounds": [
+            0,
+            0,
+            421,
+            421
+          ],
+          "method": "Mitered reflections of the exact same native unit, using the repository’s four phase-matched corner geometry. Derived corners are distinct from the original fixed printer-frame corners.",
+          "set_id": "met-681253--interlaced-diamonds-and-floral-rosettes",
+          "set_name": "Modelbuch interlaced loops and flowers — interlaced diamonds and floral rosettes",
+          "set_role": "corner-top-left"
+        },
+        "corner-top-right": {
+          "png": "met/met-681253--interlaced-diamonds-and-floral-rosettes--corner-top-right.png",
+          "png_sha256": "4fd74ef26d29f8924698aa3faa2643fcd313cc8e8fe4f33dc9ab0d0b17cf4611",
+          "width": 421,
+          "height": 421,
+          "atlas_bounds": [
+            1013,
+            0,
+            1434,
+            421
+          ],
+          "method": "Mitered reflections of the exact same native unit, using the repository’s four phase-matched corner geometry. Derived corners are distinct from the original fixed printer-frame corners.",
+          "set_id": "met-681253--interlaced-diamonds-and-floral-rosettes",
+          "set_name": "Modelbuch interlaced loops and flowers — interlaced diamonds and floral rosettes",
+          "set_role": "corner-top-right"
+        },
+        "corner-bottom-right": {
+          "png": "met/met-681253--interlaced-diamonds-and-floral-rosettes--corner-bottom-right.png",
+          "png_sha256": "4ee42963e6d5f5853a94165626e785a05df4dfe71e9d4a49e19c639619825af1",
+          "width": 421,
+          "height": 421,
+          "atlas_bounds": [
+            1013,
+            1013,
+            1434,
+            1434
+          ],
+          "method": "Mitered reflections of the exact same native unit, using the repository’s four phase-matched corner geometry. Derived corners are distinct from the original fixed printer-frame corners.",
+          "set_id": "met-681253--interlaced-diamonds-and-floral-rosettes",
+          "set_name": "Modelbuch interlaced loops and flowers — interlaced diamonds and floral rosettes",
+          "set_role": "corner-bottom-right"
+        },
+        "corner-bottom-left": {
+          "png": "met/met-681253--interlaced-diamonds-and-floral-rosettes--corner-bottom-left.png",
+          "png_sha256": "793b508306118031dd012011dc24f8230bc0ffdd07ddb29af1fc102a04623fea",
+          "width": 421,
+          "height": 421,
+          "atlas_bounds": [
+            0,
+            1013,
+            421,
+            1434
+          ],
+          "method": "Mitered reflections of the exact same native unit, using the repository’s four phase-matched corner geometry. Derived corners are distinct from the original fixed printer-frame corners.",
+          "set_id": "met-681253--interlaced-diamonds-and-floral-rosettes",
+          "set_name": "Modelbuch interlaced loops and flowers — interlaced diamonds and floral rosettes",
+          "set_role": "corner-bottom-left"
+        },
+        "rotated_tile": {
+          "png": "met/met-681253--interlaced-diamonds-and-floral-rosettes--rotated-tile.png",
+          "png_sha256": "a4e6a300711eb72c5cce8a384b20c19dc46324617c121d5f2260bc9115188208",
+          "width": 421,
+          "height": 592,
+          "method": "Pixel-exact clockwise 90-degree transpose of the corresponding native PNG.",
+          "set_id": "met-681253--interlaced-diamonds-and-floral-rosettes",
+          "set_name": "Modelbuch interlaced loops and flowers — interlaced diamonds and floral rosettes",
+          "set_role": "rotated_tile"
+        },
+        "rotated_bar": {
+          "png": "met/met-681253--interlaced-diamonds-and-floral-rosettes--rotated-bar.png",
+          "png_sha256": "c294af8951535fd48f98214ce9406031e3dc486f79ea4c9a01e9aab493f49df1",
+          "width": 421,
+          "height": 2960,
+          "method": "Pixel-exact clockwise 90-degree transpose of the corresponding native PNG.",
+          "set_id": "met-681253--interlaced-diamonds-and-floral-rosettes",
+          "set_name": "Modelbuch interlaced loops and flowers — interlaced diamonds and floral rosettes",
+          "set_role": "rotated_bar"
+        }
+      },
+      "sets": [
+        {
+          "id": "met-681253-set",
+          "name": "Modelbuch interlaced loops and flowers",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "An original model-book repeat of interlaced diamonds and floral rosettes.",
+      "set_label": "Modelbuch interlaced loops and flowers"
+    },
+    {
+      "id": "met-681253--looped-straps-and-geometric-flower-crosses",
+      "name": "looped-straps-and-geometric-flower-crosses",
+      "source_id": "met-681253",
+      "source_folder": "met",
+      "asset_type": "border",
+      "description": "An original model-book repeat of looped straps and geometric flower crosses. Part of the Modelbuch interlaced loops and flowers set.",
+      "source_region": [
+        724,
+        1522,
+        1302,
+        1801
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        0,
+        0,
+        578,
+        279
+      ],
+      "export_crop_coordinate_space": "source-region",
+      "width": 578,
+      "height": 279,
+      "png": "met/met-681253--looped-straps-and-geometric-flower-crosses.png",
+      "png_sha256": "cb04ba17e1d0a4ae2658c7e8666e860bca77d28b7e1a4e385086fa6b98dfb15c",
+      "provenance": {
+        "institution": "Metropolitan Museum of Art",
+        "title": "Page from Ein new kunstlich Modelbuch...(Page 2v)",
+        "object_identifier": "22.84.1(2v)",
+        "date": "1544",
+        "artist": "Peter Quentel",
+        "record_url": "https://www.metmuseum.org/art/collection/search/681253",
+        "image_rights": "CC0 Open Access; isPublicDomain=true",
+        "rights_url": "https://www.metmuseum.org/policies/image-resources",
+        "source_file": "tmp/new-assets/met/met-681253--page-from-ein-new-kunstlich-modelbuch-page-2v.jpg",
+        "source_sha256": "addb61701877a67401271c155a51f9f490ea1e6c10703be1979e1a28d524c982",
+        "source_metadata": "tmp/new-assets/met/met-681253.json",
+        "image_url": "https://images.metmuseum.org/CRDImages/dp/original/DP357022.jpg",
+        "method": "native-interior-repeat-with-source-derived-miter-corners"
+      },
+      "extraction": {
+        "method": "Native-resolution continuous ink coverage after locally measured paper removal; PNG appearance master.",
+        "source_pixels_repainted": false,
+        "source_rgb_modified": "Paper removed by measured ink coverage; RGB is the scan-measured ink tone, not an exact source-pixel crop.",
+        "paper_kernel": 61,
+        "minimum_coverage": 0.22,
+        "minimum_component_pixels": 3,
+        "settings": {
+          "paper_kernel": 61,
+          "paper_kernel_shape": "rectangle",
+          "minimum_coverage": 0.22,
+          "minimum_component_pixels": 3,
+          "minimum_component_peak": 0.55,
+          "minimum_channel_coverage": true
+        },
+        "exclude_regions": [],
+        "export_crop": [
+          0,
+          0,
+          578,
+          279
+        ],
+        "ink_color": [
+          55,
+          49,
+          42
+        ],
+        "candidate_png": "tmp/extraction-work/met-681253--looped-straps-and-geometric-flower-crosses--ink-candidate.png",
+        "status": "awaiting-native-visual-review",
+        "repeat_build": {
+          "unit_png": "tmp/extraction-work/met-681253--looped-straps-and-geometric-flower-crosses--unit.png",
+          "bar_png": "tmp/extraction-work/met-681253--looped-straps-and-geometric-flower-crosses--bar.png",
+          "frame_png": "tmp/extraction-work/met-681253--looped-straps-and-geometric-flower-crosses--frame-atlas.png",
+          "corners": [
+            {
+              "name": "top-left",
+              "png": "tmp/extraction-work/met-681253--looped-straps-and-geometric-flower-crosses--corner-top-left.png",
+              "atlas_bounds": [
+                0,
+                0,
+                279,
+                279
+              ]
+            },
+            {
+              "name": "top-right",
+              "png": "tmp/extraction-work/met-681253--looped-straps-and-geometric-flower-crosses--corner-top-right.png",
+              "atlas_bounds": [
+                857,
+                0,
+                1136,
+                279
+              ]
+            },
+            {
+              "name": "bottom-right",
+              "png": "tmp/extraction-work/met-681253--looped-straps-and-geometric-flower-crosses--corner-bottom-right.png",
+              "atlas_bounds": [
+                857,
+                857,
+                1136,
+                1136
+              ]
+            },
+            {
+              "name": "bottom-left",
+              "png": "tmp/extraction-work/met-681253--looped-straps-and-geometric-flower-crosses--corner-bottom-left.png",
+              "atlas_bounds": [
+                0,
+                857,
+                279,
+                1136
+              ]
+            }
+          ],
+          "native_unit_size": [
+            578,
+            279
+          ],
+          "atlas_size": [
+            1136,
+            1136
+          ],
+          "slice_pixels": 279,
+          "slice_percent": 24.559859154929576,
+          "repeat_ratio": 2.07168458781362,
+          "join_adjustment": {
+            "pixels_at_each_end": 2,
+            "method": "average matching source collars; interior columns 2 through width-3 unchanged",
+            "source_cycle_verification": "Two matching tall intertwined-loop groups at x=487 and x=826. The flower cross between them and the partial matching flower crosses at both source edges establish the full alternating loop/flower cycle."
+          },
+          "corner_method": "Mitered reflections of the exact same native unit, using the repository’s four phase-matched corner geometry. Derived corners are distinct from the original fixed printer-frame corners.",
+          "status": "awaiting-repeat-and-corner-visual-review"
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Complete alternating motif cycles identified directly in the original model-book rows. Reviewed original units, five-unit strips, enlarged native joins and all four mitered corners in frames. Native interiors preserved; only audited two-pixel end collars adjusted. Vertical components are exact 90-degree native transposes. Minor original printed stroke variation remains; no generic SVG redraw.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": "tmp/extraction-work/continuation-20261010/three-refined-repeat-source-strip-native-join-frame.jpg"
+      },
+      "categories": [
+        "geometric",
+        "floral"
+      ],
+      "subjects": [
+        "knot",
+        "loop",
+        "flower",
+        "cross"
+      ],
+      "facing": "unclear",
+      "colors": [
+        "black",
+        "brown"
+      ],
+      "composition": "repeat-tile",
+      "usage_notes": "Native original repeat, including all alternating motif classes. Derived four-phase corners use mitered reflections of the very same source unit; no substitute corner artwork. Original scan texture retained in PNG. Whole-pattern, source-phase, strip and corner review pending.",
+      "repeat": {
+        "status": "awaiting-phase-and-join-review",
+        "orientation": "horizontal",
+        "source_witnesses": [
+          [
+            520,
+            1522,
+            1076,
+            1801
+          ],
+          [
+            1076,
+            1522,
+            1632,
+            1801
+          ]
+        ],
+        "rationale": "Two matching tall intertwined-loop groups at x=487 and x=826. The flower cross between them and the partial matching flower crosses at both source edges establish the full alternating loop/flower cycle.",
+        "phase_measurement": "Individually inspected original motif centers and whole alternating pattern interval; native integer boundaries. No autocorrelation-based repeat inference.",
+        "preview_phase_bounds": [
+          487,
+          928,
+          826,
+          1098
+        ],
+        "phase_alignment": {
+          "initial_native_bounds": [
+            799,
+            1522,
+            1355,
+            1801
+          ],
+          "refined_native_bounds": [
+            724,
+            1522,
+            1302,
+            1801
+          ],
+          "method": "Native edge-profile comparison within the already inspected whole alternating motif cycle; local phase and period refinement only, no inference of a motif from correlation. Original source pixels and full alternating content retained.",
+          "search_radius_native_pixels": 200,
+          "period_radius_native_pixels": 28,
+          "profile_difference": 0.05392743735430348,
+          "status": "awaiting-visual-review"
+        },
+        "slice_pixels": 279,
+        "slice_percent": 24.559859154929576,
+        "repeat_ratio": 2.07168458781362,
+        "native_unit_size": [
+          578,
+          279
+        ],
+        "atlas_size": [
+          1136,
+          1136
+        ],
+        "join_adjustment": {
+          "pixels_at_each_end": 2,
+          "method": "average matching source collars; interior columns 2 through width-3 unchanged",
+          "source_cycle_verification": "Two matching tall intertwined-loop groups at x=487 and x=826. The flower cross between them and the partial matching flower crosses at both source edges establish the full alternating loop/flower cycle."
+        },
+        "corner_method": "Mitered reflections of the exact same native unit, using the repository’s four phase-matched corner geometry. Derived corners are distinct from the original fixed printer-frame corners."
+      },
+      "components": {
+        "bar": {
+          "png": "met/met-681253--looped-straps-and-geometric-flower-crosses--bar.png",
+          "png_sha256": "0b1c41595246cc014fd032107977081d7e5cda96203ab5d4e414d401282dec1f",
+          "width": 2890,
+          "height": 279,
+          "set_id": "met-681253--looped-straps-and-geometric-flower-crosses",
+          "set_name": "Modelbuch interlaced loops and flowers — looped straps and geometric flower crosses",
+          "set_role": "bar"
+        },
+        "frame": {
+          "png": "met/met-681253--looped-straps-and-geometric-flower-crosses--frame-atlas.png",
+          "png_sha256": "866e0005449a9e701841dfc008c256393af6549ab61e42d93245bc6ff4033e9d",
+          "width": 1136,
+          "height": 1136,
+          "set_id": "met-681253--looped-straps-and-geometric-flower-crosses",
+          "set_name": "Modelbuch interlaced loops and flowers — looped straps and geometric flower crosses",
+          "set_role": "frame"
+        },
+        "corner-top-left": {
+          "png": "met/met-681253--looped-straps-and-geometric-flower-crosses--corner-top-left.png",
+          "png_sha256": "2675637c08b7640d272f3a3229a2ff43f7e20615bd8665f3a81451b87a69d521",
+          "width": 279,
+          "height": 279,
+          "atlas_bounds": [
+            0,
+            0,
+            279,
+            279
+          ],
+          "method": "Mitered reflections of the exact same native unit, using the repository’s four phase-matched corner geometry. Derived corners are distinct from the original fixed printer-frame corners.",
+          "set_id": "met-681253--looped-straps-and-geometric-flower-crosses",
+          "set_name": "Modelbuch interlaced loops and flowers — looped straps and geometric flower crosses",
+          "set_role": "corner-top-left"
+        },
+        "corner-top-right": {
+          "png": "met/met-681253--looped-straps-and-geometric-flower-crosses--corner-top-right.png",
+          "png_sha256": "b994c0948fa6c377f52357fd2dd2ec250a3822636ddc4b55c4f180f8f6eafa76",
+          "width": 279,
+          "height": 279,
+          "atlas_bounds": [
+            857,
+            0,
+            1136,
+            279
+          ],
+          "method": "Mitered reflections of the exact same native unit, using the repository’s four phase-matched corner geometry. Derived corners are distinct from the original fixed printer-frame corners.",
+          "set_id": "met-681253--looped-straps-and-geometric-flower-crosses",
+          "set_name": "Modelbuch interlaced loops and flowers — looped straps and geometric flower crosses",
+          "set_role": "corner-top-right"
+        },
+        "corner-bottom-right": {
+          "png": "met/met-681253--looped-straps-and-geometric-flower-crosses--corner-bottom-right.png",
+          "png_sha256": "90bc6aec31c0243bf22ef72f76a4feef69471678263a711cba5b909015415b92",
+          "width": 279,
+          "height": 279,
+          "atlas_bounds": [
+            857,
+            857,
+            1136,
+            1136
+          ],
+          "method": "Mitered reflections of the exact same native unit, using the repository’s four phase-matched corner geometry. Derived corners are distinct from the original fixed printer-frame corners.",
+          "set_id": "met-681253--looped-straps-and-geometric-flower-crosses",
+          "set_name": "Modelbuch interlaced loops and flowers — looped straps and geometric flower crosses",
+          "set_role": "corner-bottom-right"
+        },
+        "corner-bottom-left": {
+          "png": "met/met-681253--looped-straps-and-geometric-flower-crosses--corner-bottom-left.png",
+          "png_sha256": "565c7973dda8f9c303310e06860261ab14bcdb7acb4223969954f33bdf157574",
+          "width": 279,
+          "height": 279,
+          "atlas_bounds": [
+            0,
+            857,
+            279,
+            1136
+          ],
+          "method": "Mitered reflections of the exact same native unit, using the repository’s four phase-matched corner geometry. Derived corners are distinct from the original fixed printer-frame corners.",
+          "set_id": "met-681253--looped-straps-and-geometric-flower-crosses",
+          "set_name": "Modelbuch interlaced loops and flowers — looped straps and geometric flower crosses",
+          "set_role": "corner-bottom-left"
+        },
+        "rotated_tile": {
+          "png": "met/met-681253--looped-straps-and-geometric-flower-crosses--rotated-tile.png",
+          "png_sha256": "2eff4d7921d3d084ca50e0b2b7c9779425de67a54455fddd26ff48df68f9a225",
+          "width": 279,
+          "height": 578,
+          "method": "Pixel-exact clockwise 90-degree transpose of the corresponding native PNG.",
+          "set_id": "met-681253--looped-straps-and-geometric-flower-crosses",
+          "set_name": "Modelbuch interlaced loops and flowers — looped straps and geometric flower crosses",
+          "set_role": "rotated_tile"
+        },
+        "rotated_bar": {
+          "png": "met/met-681253--looped-straps-and-geometric-flower-crosses--rotated-bar.png",
+          "png_sha256": "b1eecc137dbb7827be4dca54f75be2b1b7e69dd01e66c644d7a777ac48181c79",
+          "width": 279,
+          "height": 2890,
+          "method": "Pixel-exact clockwise 90-degree transpose of the corresponding native PNG.",
+          "set_id": "met-681253--looped-straps-and-geometric-flower-crosses",
+          "set_name": "Modelbuch interlaced loops and flowers — looped straps and geometric flower crosses",
+          "set_role": "rotated_bar"
+        }
+      },
+      "sets": [
+        {
+          "id": "met-681253-set",
+          "name": "Modelbuch interlaced loops and flowers",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "An original model-book repeat of looped straps and geometric flower crosses.",
+      "set_label": "Modelbuch interlaced loops and flowers"
+    },
+    {
+      "id": "met-681253--mirrored-figure-eight-loops-and-floral-diamonds-panel",
+      "name": "mirrored-figure-eight-loops-and-floral-diamonds-panel",
+      "source_id": "met-681253",
+      "source_folder": "met",
+      "asset_type": "decoration",
+      "description": "A complete model-book panel with two floral diamonds and mirrored figure-eight loops and leafy curls at its ends. Part of the Modelbuch interlaced loops and flowers set.",
+      "source_region": [
+        499,
+        1100,
+        1693,
+        1522
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        0,
+        0,
+        1194,
+        422
+      ],
+      "export_crop_coordinate_space": "source-region",
+      "width": 1194,
+      "height": 422,
+      "png": "met/met-681253--mirrored-figure-eight-loops-and-floral-diamonds-panel.png",
+      "png_sha256": "328e0c00e99ad751236bbdca271e99c4acd50a976d99532c38815aab64decfd3",
+      "provenance": {
+        "institution": "Metropolitan Museum of Art",
+        "title": "Page from Ein new kunstlich Modelbuch...(Page 2v)",
+        "object_identifier": "22.84.1(2v)",
+        "date": "1544",
+        "artist": "Peter Quentel",
+        "record_url": "https://www.metmuseum.org/art/collection/search/681253",
+        "image_rights": "CC0 Open Access; isPublicDomain=true",
+        "rights_url": "https://www.metmuseum.org/policies/image-resources",
+        "source_file": "tmp/new-assets/met/met-681253--page-from-ein-new-kunstlich-modelbuch-page-2v.jpg",
+        "source_sha256": "addb61701877a67401271c155a51f9f490ea1e6c10703be1979e1a28d524c982",
+        "source_metadata": "tmp/new-assets/met/met-681253.json",
+        "image_url": "https://images.metmuseum.org/CRDImages/dp/original/DP357022.jpg",
+        "method": "native-continuous-ink-matting"
+      },
+      "extraction": {
+        "method": "Native-resolution continuous ink coverage after locally measured paper removal; PNG appearance master.",
+        "source_pixels_repainted": false,
+        "source_rgb_modified": "Paper removed by measured ink coverage; RGB is the scan-measured ink tone, not an exact source-pixel crop.",
+        "paper_kernel": 61,
+        "minimum_coverage": 0.22,
+        "minimum_component_pixels": 6,
+        "settings": {
+          "paper_kernel": 61,
+          "paper_kernel_shape": "rectangle",
+          "minimum_coverage": 0.22,
+          "minimum_component_pixels": 6,
+          "minimum_component_peak": 0.55,
+          "minimum_channel_coverage": true
+        },
+        "exclude_regions": [],
+        "export_crop": [
+          0,
+          0,
+          1194,
+          422
+        ],
+        "ink_color": [
+          58,
+          51,
+          43
+        ],
+        "candidate_png": "tmp/extraction-work/met-681253--mirrored-figure-eight-loops-and-floral-diamonds-panel--ink-candidate.png",
+        "status": "awaiting-native-visual-review",
+        "tool": "Native source ink analysis",
+        "source_pixels_redrawn": false
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Full original finite row compared on source/white/dark. Mirrored end motifs retained; no unsupported repeating tile or fabricated corner atlas. Native continuous ink contours and transparent original paper spaces preserved.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": "tmp/extraction-work/continuation-20261010/two-finite-modelbook-panel-recipes-proof-1.jpg"
+      },
+      "categories": [
+        "geometric",
+        "floral",
+        "knotwork"
+      ],
+      "subjects": [
+        "loop",
+        "leaf",
+        "diamond",
+        "rosette",
+        "star"
+      ],
+      "facing": "mixed",
+      "colors": [
+        "brown",
+        "black"
+      ],
+      "composition": "single-ornament",
+      "usage_notes": "Original complete finite panel with mirrored end foliage retained. Its two end loops differ in direction, so they are not treated as matching translated phases. No seamless repeat or new corner atlas inferred.",
+      "sets": [
+        {
+          "id": "met-681253-set",
+          "name": "Modelbuch interlaced loops and flowers",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A complete model-book panel with two floral diamonds and mirrored figure-eight loops and leafy curls at its ends.",
+      "set_label": "Modelbuch interlaced loops and flowers"
+    },
+    {
+      "id": "met-681253--paired-leaf-scrolls-and-interlaced-figure-eights",
+      "name": "paired-leaf-scrolls-and-interlaced-figure-eights",
+      "source_id": "met-681253",
+      "source_folder": "met",
+      "asset_type": "border",
+      "description": "An original model-book repeat of paired leaf scrolls and interlaced figure eights. Part of the Modelbuch interlaced loops and flowers set.",
+      "source_region": [
+        592,
+        1801,
+        1173,
+        2130
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        0,
+        0,
+        581,
+        329
+      ],
+      "export_crop_coordinate_space": "source-region",
+      "width": 581,
+      "height": 329,
+      "png": "met/met-681253--paired-leaf-scrolls-and-interlaced-figure-eights.png",
+      "png_sha256": "e6f4a9964b28d2aac6f9636f84813e5d63bfb2e1951576ce365a22e202b8134f",
+      "provenance": {
+        "institution": "Metropolitan Museum of Art",
+        "title": "Page from Ein new kunstlich Modelbuch...(Page 2v)",
+        "object_identifier": "22.84.1(2v)",
+        "date": "1544",
+        "artist": "Peter Quentel",
+        "record_url": "https://www.metmuseum.org/art/collection/search/681253",
+        "image_rights": "CC0 Open Access; isPublicDomain=true",
+        "rights_url": "https://www.metmuseum.org/policies/image-resources",
+        "source_file": "tmp/new-assets/met/met-681253--page-from-ein-new-kunstlich-modelbuch-page-2v.jpg",
+        "source_sha256": "addb61701877a67401271c155a51f9f490ea1e6c10703be1979e1a28d524c982",
+        "source_metadata": "tmp/new-assets/met/met-681253.json",
+        "image_url": "https://images.metmuseum.org/CRDImages/dp/original/DP357022.jpg",
+        "method": "native-interior-repeat-with-source-derived-miter-corners"
+      },
+      "extraction": {
+        "method": "Native-resolution continuous ink coverage after locally measured paper removal; PNG appearance master.",
+        "source_pixels_repainted": false,
+        "source_rgb_modified": "Paper removed by measured ink coverage; RGB is the scan-measured ink tone, not an exact source-pixel crop.",
+        "paper_kernel": 61,
+        "minimum_coverage": 0.22,
+        "minimum_component_pixels": 3,
+        "settings": {
+          "paper_kernel": 61,
+          "paper_kernel_shape": "rectangle",
+          "minimum_coverage": 0.22,
+          "minimum_component_pixels": 3,
+          "minimum_component_peak": 0.55,
+          "minimum_channel_coverage": true
+        },
+        "exclude_regions": [],
+        "export_crop": [
+          0,
+          0,
+          581,
+          329
+        ],
+        "ink_color": [
+          53,
+          48,
+          41
+        ],
+        "candidate_png": "tmp/extraction-work/met-681253--paired-leaf-scrolls-and-interlaced-figure-eights--ink-candidate.png",
+        "status": "awaiting-native-visual-review",
+        "repeat_build": {
+          "unit_png": "tmp/extraction-work/met-681253--paired-leaf-scrolls-and-interlaced-figure-eights--unit.png",
+          "bar_png": "tmp/extraction-work/met-681253--paired-leaf-scrolls-and-interlaced-figure-eights--bar.png",
+          "frame_png": "tmp/extraction-work/met-681253--paired-leaf-scrolls-and-interlaced-figure-eights--frame-atlas.png",
+          "corners": [
+            {
+              "name": "top-left",
+              "png": "tmp/extraction-work/met-681253--paired-leaf-scrolls-and-interlaced-figure-eights--corner-top-left.png",
+              "atlas_bounds": [
+                0,
+                0,
+                329,
+                329
+              ]
+            },
+            {
+              "name": "top-right",
+              "png": "tmp/extraction-work/met-681253--paired-leaf-scrolls-and-interlaced-figure-eights--corner-top-right.png",
+              "atlas_bounds": [
+                910,
+                0,
+                1239,
+                329
+              ]
+            },
+            {
+              "name": "bottom-right",
+              "png": "tmp/extraction-work/met-681253--paired-leaf-scrolls-and-interlaced-figure-eights--corner-bottom-right.png",
+              "atlas_bounds": [
+                910,
+                910,
+                1239,
+                1239
+              ]
+            },
+            {
+              "name": "bottom-left",
+              "png": "tmp/extraction-work/met-681253--paired-leaf-scrolls-and-interlaced-figure-eights--corner-bottom-left.png",
+              "atlas_bounds": [
+                0,
+                910,
+                329,
+                1239
+              ]
+            }
+          ],
+          "native_unit_size": [
+            581,
+            329
+          ],
+          "atlas_size": [
+            1239,
+            1239
+          ],
+          "slice_pixels": 329,
+          "slice_percent": 26.55367231638418,
+          "repeat_ratio": 1.7659574468085106,
+          "join_adjustment": {
+            "pixels_at_each_end": 2,
+            "method": "average matching source collars; interior columns 2 through width-3 unchanged",
+            "source_cycle_verification": "Two matching leafy double-scroll axes at x=480 and x=828; the interlaced figure-eight loop at their midpoint and the corresponding loop halves at both printed side edges establish the full alternating leaf/loop period."
+          },
+          "corner_method": "Mitered reflections of the exact same native unit, using the repository’s four phase-matched corner geometry. Derived corners are distinct from the original fixed printer-frame corners.",
+          "status": "awaiting-repeat-and-corner-visual-review"
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Complete alternating motif cycles identified directly in the original model-book rows. Reviewed original units, five-unit strips, enlarged native joins and all four mitered corners in frames. Native interiors preserved; only audited two-pixel end collars adjusted. Vertical components are exact 90-degree native transposes. Minor original printed stroke variation remains; no generic SVG redraw.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": "tmp/extraction-work/continuation-20261010/three-refined-repeat-source-strip-native-join-frame.jpg"
+      },
+      "categories": [
+        "geometric",
+        "floral"
+      ],
+      "subjects": [
+        "leaf",
+        "scroll",
+        "interlace",
+        "loop"
+      ],
+      "facing": "unclear",
+      "colors": [
+        "black",
+        "brown"
+      ],
+      "composition": "repeat-tile",
+      "usage_notes": "Native original repeat, including all alternating motif classes. Derived four-phase corners use mitered reflections of the very same source unit; no substitute corner artwork. Original scan texture retained in PNG. Whole-pattern, source-phase, strip and corner review pending.",
+      "repeat": {
+        "status": "awaiting-phase-and-join-review",
+        "orientation": "horizontal",
+        "source_witnesses": [
+          [
+            502,
+            1801,
+            1073,
+            2130
+          ],
+          [
+            1073,
+            1801,
+            1644,
+            2130
+          ]
+        ],
+        "rationale": "Two matching leafy double-scroll axes at x=480 and x=828; the interlaced figure-eight loop at their midpoint and the corresponding loop halves at both printed side edges establish the full alternating leaf/loop period.",
+        "phase_measurement": "Individually inspected original motif centers and whole alternating pattern interval; native integer boundaries. No autocorrelation-based repeat inference.",
+        "preview_phase_bounds": [
+          480,
+          1098,
+          828,
+          1299
+        ],
+        "phase_alignment": {
+          "initial_native_bounds": [
+            787,
+            1801,
+            1358,
+            2130
+          ],
+          "refined_native_bounds": [
+            592,
+            1801,
+            1173,
+            2130
+          ],
+          "method": "Native edge-profile comparison within the already inspected whole alternating motif cycle; local phase and period refinement only, no inference of a motif from correlation. Original source pixels and full alternating content retained.",
+          "search_radius_native_pixels": 200,
+          "period_radius_native_pixels": 28,
+          "profile_difference": 0.08449259736009096,
+          "status": "awaiting-visual-review"
+        },
+        "slice_pixels": 329,
+        "slice_percent": 26.55367231638418,
+        "repeat_ratio": 1.7659574468085106,
+        "native_unit_size": [
+          581,
+          329
+        ],
+        "atlas_size": [
+          1239,
+          1239
+        ],
+        "join_adjustment": {
+          "pixels_at_each_end": 2,
+          "method": "average matching source collars; interior columns 2 through width-3 unchanged",
+          "source_cycle_verification": "Two matching leafy double-scroll axes at x=480 and x=828; the interlaced figure-eight loop at their midpoint and the corresponding loop halves at both printed side edges establish the full alternating leaf/loop period."
+        },
+        "corner_method": "Mitered reflections of the exact same native unit, using the repository’s four phase-matched corner geometry. Derived corners are distinct from the original fixed printer-frame corners."
+      },
+      "components": {
+        "bar": {
+          "png": "met/met-681253--paired-leaf-scrolls-and-interlaced-figure-eights--bar.png",
+          "png_sha256": "d8dc9984a2d7969d64bedfc19f03d0ed0ec8830931209504b1cc854e3303b081",
+          "width": 2905,
+          "height": 329,
+          "set_id": "met-681253--paired-leaf-scrolls-and-interlaced-figure-eights",
+          "set_name": "Modelbuch interlaced loops and flowers — paired leaf scrolls and interlaced figure eights",
+          "set_role": "bar"
+        },
+        "frame": {
+          "png": "met/met-681253--paired-leaf-scrolls-and-interlaced-figure-eights--frame-atlas.png",
+          "png_sha256": "f9f3a27b946fff6b77021bfac9bf42276221bfdbba6be9005ca164bd539d31ab",
+          "width": 1239,
+          "height": 1239,
+          "set_id": "met-681253--paired-leaf-scrolls-and-interlaced-figure-eights",
+          "set_name": "Modelbuch interlaced loops and flowers — paired leaf scrolls and interlaced figure eights",
+          "set_role": "frame"
+        },
+        "corner-top-left": {
+          "png": "met/met-681253--paired-leaf-scrolls-and-interlaced-figure-eights--corner-top-left.png",
+          "png_sha256": "51c6b4772e4e7c095884c715e3d47d6a868426f0f84b7805d2c5341597dbee50",
+          "width": 329,
+          "height": 329,
+          "atlas_bounds": [
+            0,
+            0,
+            329,
+            329
+          ],
+          "method": "Mitered reflections of the exact same native unit, using the repository’s four phase-matched corner geometry. Derived corners are distinct from the original fixed printer-frame corners.",
+          "set_id": "met-681253--paired-leaf-scrolls-and-interlaced-figure-eights",
+          "set_name": "Modelbuch interlaced loops and flowers — paired leaf scrolls and interlaced figure eights",
+          "set_role": "corner-top-left"
+        },
+        "corner-top-right": {
+          "png": "met/met-681253--paired-leaf-scrolls-and-interlaced-figure-eights--corner-top-right.png",
+          "png_sha256": "c8c64ada5ce69ce9e5202d19d617fd630f4f2f07fdebf3a05260bc75454fce37",
+          "width": 329,
+          "height": 329,
+          "atlas_bounds": [
+            910,
+            0,
+            1239,
+            329
+          ],
+          "method": "Mitered reflections of the exact same native unit, using the repository’s four phase-matched corner geometry. Derived corners are distinct from the original fixed printer-frame corners.",
+          "set_id": "met-681253--paired-leaf-scrolls-and-interlaced-figure-eights",
+          "set_name": "Modelbuch interlaced loops and flowers — paired leaf scrolls and interlaced figure eights",
+          "set_role": "corner-top-right"
+        },
+        "corner-bottom-right": {
+          "png": "met/met-681253--paired-leaf-scrolls-and-interlaced-figure-eights--corner-bottom-right.png",
+          "png_sha256": "f2c9bf20c452d9ad34d2d7ab8c04f67edad4ebfdb0ec37fc5595569871a08f49",
+          "width": 329,
+          "height": 329,
+          "atlas_bounds": [
+            910,
+            910,
+            1239,
+            1239
+          ],
+          "method": "Mitered reflections of the exact same native unit, using the repository’s four phase-matched corner geometry. Derived corners are distinct from the original fixed printer-frame corners.",
+          "set_id": "met-681253--paired-leaf-scrolls-and-interlaced-figure-eights",
+          "set_name": "Modelbuch interlaced loops and flowers — paired leaf scrolls and interlaced figure eights",
+          "set_role": "corner-bottom-right"
+        },
+        "corner-bottom-left": {
+          "png": "met/met-681253--paired-leaf-scrolls-and-interlaced-figure-eights--corner-bottom-left.png",
+          "png_sha256": "3af9e314f2f13024c955d2ef706d143e4a08860a23c02609e55631ea16662ac0",
+          "width": 329,
+          "height": 329,
+          "atlas_bounds": [
+            0,
+            910,
+            329,
+            1239
+          ],
+          "method": "Mitered reflections of the exact same native unit, using the repository’s four phase-matched corner geometry. Derived corners are distinct from the original fixed printer-frame corners.",
+          "set_id": "met-681253--paired-leaf-scrolls-and-interlaced-figure-eights",
+          "set_name": "Modelbuch interlaced loops and flowers — paired leaf scrolls and interlaced figure eights",
+          "set_role": "corner-bottom-left"
+        },
+        "rotated_tile": {
+          "png": "met/met-681253--paired-leaf-scrolls-and-interlaced-figure-eights--rotated-tile.png",
+          "png_sha256": "6b537df5f0dbb1ccceb91159185dc89d51c60257785881320833f2217f122ea8",
+          "width": 329,
+          "height": 581,
+          "method": "Pixel-exact clockwise 90-degree transpose of the corresponding native PNG.",
+          "set_id": "met-681253--paired-leaf-scrolls-and-interlaced-figure-eights",
+          "set_name": "Modelbuch interlaced loops and flowers — paired leaf scrolls and interlaced figure eights",
+          "set_role": "rotated_tile"
+        },
+        "rotated_bar": {
+          "png": "met/met-681253--paired-leaf-scrolls-and-interlaced-figure-eights--rotated-bar.png",
+          "png_sha256": "f0f13323f99bea07ef351de3b8ec5079e79b61b7fc5b93c1a18aab54aabab884",
+          "width": 329,
+          "height": 2905,
+          "method": "Pixel-exact clockwise 90-degree transpose of the corresponding native PNG.",
+          "set_id": "met-681253--paired-leaf-scrolls-and-interlaced-figure-eights",
+          "set_name": "Modelbuch interlaced loops and flowers — paired leaf scrolls and interlaced figure eights",
+          "set_role": "rotated_bar"
+        }
+      },
+      "sets": [
+        {
+          "id": "met-681253-set",
+          "name": "Modelbuch interlaced loops and flowers",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "An original model-book repeat of paired leaf scrolls and interlaced figure eights.",
+      "set_label": "Modelbuch interlaced loops and flowers"
+    }
+  ]
+}

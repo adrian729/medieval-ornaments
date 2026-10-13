@@ -556,3 +556,37 @@ long dropdowns with searchable pickers (type, category and text filters).
 - [x] Warm and verify every pinned CDN file after publishing and weekly (`warm-cdn.yml`).
 - [x] Publish 0.10.1 through `release.yml` (run 37984254317; jsDelivr confirmed by the workflow), release v0.10.1 with the ZIP, deploy Pages (de179db) and pass packed consumers, `tests/site.mjs` and Chrome's issue reporter (no issues on the four public pages).
 
+
+## Finished historical assets — local integration (2026-10-12)
+
+Authorized scope: fix the TODOs only on finished new assets and integrate them.
+Unfinished extraction remains paused in `docs/HISTORICAL-ASSET-HANDOFF.md`.
+The frozen 557 reviewed assets passed validation; 16 alternate extractions were
+excluded after visual duplicate review, leaving 541 additions (275 illustrations,
+235 decorations, 31 repeats). The original 161 designs remain unchanged.
+
+- [x] Correct the floral frame, ten Hopfer friezes and inspected plate boundaries; retain before files, methods and source comparisons.
+- [x] Establish shared set names and review duplicate choices by source fidelity, completeness, resolution and license.
+- [x] Finish measured resource assignments, native imports and approved local manifests.
+- [x] Validate catalogs, source/master bytes, selected rebuild retention, types and local browser; verify/pack every changed resource.
+- [x] Complete all 29 new frame visual checks and React browser checks.
+- [ ] Rerun packed consumers after resource locks and the runtime budget contract are resolved.
+- [x] Record measured runtime size against the existing 210 KB / 1.25 MB budget; do not silently relax the release gate.
+- [ ] Review resource/main changes, create the new remote resource repositories, publish resources, warm every CDN file and lock clean exact source commits.
+- [ ] Advance the runtime release version, rerun release checks, publish runtime/Pages and upload the self-hosted browser ZIP.
+
+Local import authorization does not claim these publication steps have occurred.
+New package first publication/trust setup follows `docs/PUBLISHING.md`. Keep
+existing compatibility archives immutable. Regenerate public README preview
+URLs only after the corresponding resource is published and locked.
+
+Local import now contains 702 designs; see the handoff for all 24 changed
+owners. Resource publication remains pending. The measured runtime draft is
+809,036 bytes compressed and 4,949,945 bytes unpacked, so the existing
+210 KB / 1.25 MB contract also blocks release. Do not weaken that check silently.
+Pages passes at 48,918,125 bytes after metadata-only deployment reductions.
+
+The size increase tracks catalog growth from 161 to 702 designs (4.36×); artwork
+is still absent from the runtime. A release decision must either approve a new
+measured metadata budget or change catalog distribution/API architecture. This
+local import does not choose either policy change on the maintainer's behalf.

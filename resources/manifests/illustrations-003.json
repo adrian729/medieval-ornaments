@@ -1,0 +1,4718 @@
+{
+  "schemaVersion": 2,
+  "id": "illustrations-003",
+  "collection": "illustrations",
+  "package": "@ranx729/medieval-ornaments-assets-illustrations-003",
+  "version": "0.1.0",
+  "designs": {
+    "angel-chasing-devil-in-gold-oval": {
+      "name": "angel-chasing-devil-in-gold-oval",
+      "asset_type": "illustration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-source-mask",
+      "repeat_axis": "none",
+      "width": 823,
+      "height": 828,
+      "png": "png/angel-chasing-devil-in-gold-oval.png",
+      "webp": "webp/angel-chasing-devil-in-gold-oval.webp",
+      "png_bytes": 984149,
+      "webp_bytes": 624288,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/angel-chasing-devil-in-gold-oval.png",
+          "webp": "webp/128/angel-chasing-devil-in-gold-oval.webp",
+          "width": 127,
+          "height": 128,
+          "png_bytes": 33353,
+          "webp_bytes": 25754
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/angel-chasing-devil-in-gold-oval.png",
+          "webp": "webp/256/angel-chasing-devil-in-gold-oval.webp",
+          "width": 254,
+          "height": 256,
+          "png_bytes": 111083,
+          "webp_bytes": 78980
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/angel-chasing-devil-in-gold-oval.png",
+          "webp": "webp/512/angel-chasing-devil-in-gold-oval.webp",
+          "width": 509,
+          "height": 512,
+          "png_bytes": 352256,
+          "webp_bytes": 229558
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/angel-chasing-devil-in-gold-oval.png",
+          "webp": "webp/768/angel-chasing-devil-in-gold-oval.webp",
+          "width": 763,
+          "height": 768,
+          "png_bytes": 693208,
+          "webp_bytes": 467330
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "bearded-profile-head": {
+      "name": "bearded-profile-head",
+      "asset_type": "illustration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 301,
+      "height": 247,
+      "png": "png/bearded-profile-head.png",
+      "webp": "webp/bearded-profile-head.webp",
+      "png_bytes": 113595,
+      "webp_bytes": 76300,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/bearded-profile-head.png",
+          "webp": "webp/128/bearded-profile-head.webp",
+          "width": 128,
+          "height": 105,
+          "png_bytes": 23774,
+          "webp_bytes": 17232
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/bearded-profile-head.png",
+          "webp": "webp/256/bearded-profile-head.webp",
+          "width": 256,
+          "height": 210,
+          "png_bytes": 83914,
+          "webp_bytes": 58670
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "black-horned-devil": {
+      "name": "black-horned-devil",
+      "asset_type": "illustration",
+      "kind": "standalone",
+      "derivation": "native-source-extraction",
+      "repeat_axis": "none",
+      "width": 343,
+      "height": 643,
+      "png": "png/black-horned-devil.png",
+      "webp": "webp/black-horned-devil.webp",
+      "png_bytes": 148294,
+      "webp_bytes": 95906,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/black-horned-devil.png",
+          "webp": "webp/128/black-horned-devil.webp",
+          "width": 68,
+          "height": 128,
+          "png_bytes": 11884,
+          "webp_bytes": 9064
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/black-horned-devil.png",
+          "webp": "webp/256/black-horned-devil.webp",
+          "width": 137,
+          "height": 256,
+          "png_bytes": 34727,
+          "webp_bytes": 25596
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/black-horned-devil.png",
+          "webp": "webp/512/black-horned-devil.webp",
+          "width": 273,
+          "height": 512,
+          "png_bytes": 105946,
+          "webp_bytes": 76302
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "blue-and-pink-bud-with-two-green-leaves": {
+      "name": "blue-and-pink-bud-with-two-green-leaves",
+      "asset_type": "illustration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 1468,
+      "height": 606,
+      "png": "png/blue-and-pink-bud-with-two-green-leaves.png",
+      "webp": "webp/blue-and-pink-bud-with-two-green-leaves.webp",
+      "png_bytes": 866981,
+      "webp_bytes": 638316,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/blue-and-pink-bud-with-two-green-leaves.png",
+          "webp": "webp/128/blue-and-pink-bud-with-two-green-leaves.webp",
+          "width": 128,
+          "height": 53,
+          "png_bytes": 11503,
+          "webp_bytes": 9680
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/blue-and-pink-bud-with-two-green-leaves.png",
+          "webp": "webp/256/blue-and-pink-bud-with-two-green-leaves.webp",
+          "width": 256,
+          "height": 106,
+          "png_bytes": 37165,
+          "webp_bytes": 29816
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/blue-and-pink-bud-with-two-green-leaves.png",
+          "webp": "webp/512/blue-and-pink-bud-with-two-green-leaves.webp",
+          "width": 512,
+          "height": 211,
+          "png_bytes": 127921,
+          "webp_bytes": 97914
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/blue-and-pink-bud-with-two-green-leaves.png",
+          "webp": "webp/768/blue-and-pink-bud-with-two-green-leaves.webp",
+          "width": 768,
+          "height": 317,
+          "png_bytes": 269110,
+          "webp_bytes": 202246
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "blue-clad-man-pulling-ornamental-stem": {
+      "name": "blue-clad-man-pulling-ornamental-stem",
+      "asset_type": "illustration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 531,
+      "height": 1020,
+      "png": "png/blue-clad-man-pulling-ornamental-stem.png",
+      "webp": "webp/blue-clad-man-pulling-ornamental-stem.webp",
+      "png_bytes": 621075,
+      "webp_bytes": 444130,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/blue-clad-man-pulling-ornamental-stem.png",
+          "webp": "webp/128/blue-clad-man-pulling-ornamental-stem.webp",
+          "width": 67,
+          "height": 128,
+          "png_bytes": 14988,
+          "webp_bytes": 12354
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/blue-clad-man-pulling-ornamental-stem.png",
+          "webp": "webp/256/blue-clad-man-pulling-ornamental-stem.webp",
+          "width": 133,
+          "height": 256,
+          "png_bytes": 50400,
+          "webp_bytes": 37814
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/blue-clad-man-pulling-ornamental-stem.png",
+          "webp": "webp/512/blue-clad-man-pulling-ornamental-stem.webp",
+          "width": 267,
+          "height": 512,
+          "png_bytes": 175303,
+          "webp_bytes": 126824
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/blue-clad-man-pulling-ornamental-stem.png",
+          "webp": "webp/768/blue-clad-man-pulling-ornamental-stem.webp",
+          "width": 400,
+          "height": 768,
+          "png_bytes": 371558,
+          "webp_bytes": 269332
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "blue-red-and-gray-radial-flower": {
+      "name": "blue-red-and-gray-radial-flower",
+      "asset_type": "illustration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 1346,
+      "height": 1088,
+      "png": "png/blue-red-and-gray-radial-flower.png",
+      "webp": "webp/blue-red-and-gray-radial-flower.webp",
+      "png_bytes": 2461277,
+      "webp_bytes": 1753298,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/blue-red-and-gray-radial-flower.png",
+          "webp": "webp/128/blue-red-and-gray-radial-flower.webp",
+          "width": 128,
+          "height": 103,
+          "png_bytes": 30097,
+          "webp_bytes": 23182
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/blue-red-and-gray-radial-flower.png",
+          "webp": "webp/256/blue-red-and-gray-radial-flower.webp",
+          "width": 256,
+          "height": 207,
+          "png_bytes": 107846,
+          "webp_bytes": 80170
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/blue-red-and-gray-radial-flower.png",
+          "webp": "webp/512/blue-red-and-gray-radial-flower.webp",
+          "width": 512,
+          "height": 414,
+          "png_bytes": 394576,
+          "webp_bytes": 285196
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/blue-red-and-gray-radial-flower.png",
+          "webp": "webp/768/blue-red-and-gray-radial-flower.webp",
+          "width": 768,
+          "height": 621,
+          "png_bytes": 852561,
+          "webp_bytes": 628714
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "broad-green-leaf-scroll": {
+      "name": "broad-green-leaf-scroll",
+      "asset_type": "illustration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 1594,
+      "height": 947,
+      "png": "png/broad-green-leaf-scroll.png",
+      "webp": "webp/broad-green-leaf-scroll.webp",
+      "png_bytes": 1482225,
+      "webp_bytes": 1080198,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/broad-green-leaf-scroll.png",
+          "webp": "webp/128/broad-green-leaf-scroll.webp",
+          "width": 128,
+          "height": 76,
+          "png_bytes": 16430,
+          "webp_bytes": 13950
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/broad-green-leaf-scroll.png",
+          "webp": "webp/256/broad-green-leaf-scroll.webp",
+          "width": 256,
+          "height": 152,
+          "png_bytes": 55154,
+          "webp_bytes": 47060
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/broad-green-leaf-scroll.png",
+          "webp": "webp/512/broad-green-leaf-scroll.webp",
+          "width": 512,
+          "height": 304,
+          "png_bytes": 185355,
+          "webp_bytes": 139824
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/broad-green-leaf-scroll.png",
+          "webp": "webp/768/broad-green-leaf-scroll.webp",
+          "width": 768,
+          "height": 456,
+          "png_bytes": 388340,
+          "webp_bytes": 291672
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "brown-fan-flower-with-curled-green-leaf-branch": {
+      "name": "brown-fan-flower-with-curled-green-leaf-branch",
+      "asset_type": "illustration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 768,
+      "height": 1994,
+      "png": "png/brown-fan-flower-with-curled-green-leaf-branch.png",
+      "webp": "webp/brown-fan-flower-with-curled-green-leaf-branch.webp",
+      "png_bytes": 1698097,
+      "webp_bytes": 1206052,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/brown-fan-flower-with-curled-green-leaf-branch.png",
+          "webp": "webp/128/brown-fan-flower-with-curled-green-leaf-branch.webp",
+          "width": 49,
+          "height": 128,
+          "png_bytes": 14163,
+          "webp_bytes": 11574
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/brown-fan-flower-with-curled-green-leaf-branch.png",
+          "webp": "webp/256/brown-fan-flower-with-curled-green-leaf-branch.webp",
+          "width": 99,
+          "height": 256,
+          "png_bytes": 44707,
+          "webp_bytes": 36822
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/brown-fan-flower-with-curled-green-leaf-branch.png",
+          "webp": "webp/512/brown-fan-flower-with-curled-green-leaf-branch.webp",
+          "width": 197,
+          "height": 512,
+          "png_bytes": 145789,
+          "webp_bytes": 110226
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/brown-fan-flower-with-curled-green-leaf-branch.png",
+          "webp": "webp/768/brown-fan-flower-with-curled-green-leaf-branch.webp",
+          "width": 296,
+          "height": 768,
+          "png_bytes": 299576,
+          "webp_bytes": 223980
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "christ-carrying-cross-with-contacting-procession": {
+      "name": "christ-carrying-cross-with-contacting-procession",
+      "asset_type": "illustration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 1272,
+      "height": 1201,
+      "png": "png/christ-carrying-cross-with-contacting-procession.png",
+      "webp": "webp/christ-carrying-cross-with-contacting-procession.webp",
+      "png_bytes": 2360969,
+      "webp_bytes": 1728794,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/christ-carrying-cross-with-contacting-procession.png",
+          "webp": "webp/128/christ-carrying-cross-with-contacting-procession.webp",
+          "width": 128,
+          "height": 121,
+          "png_bytes": 36105,
+          "webp_bytes": 29206
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/christ-carrying-cross-with-contacting-procession.png",
+          "webp": "webp/256/christ-carrying-cross-with-contacting-procession.webp",
+          "width": 256,
+          "height": 242,
+          "png_bytes": 123557,
+          "webp_bytes": 94906
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/christ-carrying-cross-with-contacting-procession.png",
+          "webp": "webp/512/christ-carrying-cross-with-contacting-procession.webp",
+          "width": 512,
+          "height": 483,
+          "png_bytes": 436769,
+          "webp_bytes": 329464
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/christ-carrying-cross-with-contacting-procession.png",
+          "webp": "webp/768/christ-carrying-cross-with-contacting-procession.webp",
+          "width": 768,
+          "height": 725,
+          "png_bytes": 935770,
+          "webp_bytes": 686902
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "cook-with-ladle-dish-and-soup-cauldron": {
+      "name": "cook-with-ladle-dish-and-soup-cauldron",
+      "asset_type": "illustration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 1013,
+      "height": 1373,
+      "png": "png/cook-with-ladle-dish-and-soup-cauldron.png",
+      "webp": "webp/cook-with-ladle-dish-and-soup-cauldron.webp",
+      "png_bytes": 1903900,
+      "webp_bytes": 1300080,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/cook-with-ladle-dish-and-soup-cauldron.png",
+          "webp": "webp/128/cook-with-ladle-dish-and-soup-cauldron.webp",
+          "width": 94,
+          "height": 128,
+          "png_bytes": 24235,
+          "webp_bytes": 18258
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/cook-with-ladle-dish-and-soup-cauldron.png",
+          "webp": "webp/256/cook-with-ladle-dish-and-soup-cauldron.webp",
+          "width": 189,
+          "height": 256,
+          "png_bytes": 83962,
+          "webp_bytes": 59092
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/cook-with-ladle-dish-and-soup-cauldron.png",
+          "webp": "webp/512/cook-with-ladle-dish-and-soup-cauldron.webp",
+          "width": 378,
+          "height": 512,
+          "png_bytes": 301262,
+          "webp_bytes": 208854
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/cook-with-ladle-dish-and-soup-cauldron.png",
+          "webp": "webp/768/cook-with-ladle-dish-and-soup-cauldron.webp",
+          "width": 567,
+          "height": 768,
+          "png_bytes": 650205,
+          "webp_bytes": 451706
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "coronation-of-mary-with-six-angels-and-throne": {
+      "name": "coronation-of-mary-with-six-angels-and-throne",
+      "asset_type": "illustration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 1171,
+      "height": 1322,
+      "png": "png/coronation-of-mary-with-six-angels-and-throne.png",
+      "webp": "webp/coronation-of-mary-with-six-angels-and-throne.webp",
+      "png_bytes": 2308583,
+      "webp_bytes": 1655764,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/coronation-of-mary-with-six-angels-and-throne.png",
+          "webp": "webp/128/coronation-of-mary-with-six-angels-and-throne.webp",
+          "width": 113,
+          "height": 128,
+          "png_bytes": 33263,
+          "webp_bytes": 27172
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/coronation-of-mary-with-six-angels-and-throne.png",
+          "webp": "webp/256/coronation-of-mary-with-six-angels-and-throne.webp",
+          "width": 227,
+          "height": 256,
+          "png_bytes": 117911,
+          "webp_bytes": 89724
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/coronation-of-mary-with-six-angels-and-throne.png",
+          "webp": "webp/512/coronation-of-mary-with-six-angels-and-throne.webp",
+          "width": 454,
+          "height": 512,
+          "png_bytes": 415229,
+          "webp_bytes": 306146
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/coronation-of-mary-with-six-angels-and-throne.png",
+          "webp": "webp/768/coronation-of-mary-with-six-angels-and-throne.webp",
+          "width": 680,
+          "height": 768,
+          "png_bytes": 871651,
+          "webp_bytes": 625948
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "crossed-gray-blue-leaf-pair": {
+      "name": "crossed-gray-blue-leaf-pair",
+      "asset_type": "illustration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 449,
+      "height": 1183,
+      "png": "png/crossed-gray-blue-leaf-pair.png",
+      "webp": "webp/crossed-gray-blue-leaf-pair.webp",
+      "png_bytes": 547289,
+      "webp_bytes": 378998,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/crossed-gray-blue-leaf-pair.png",
+          "webp": "webp/128/crossed-gray-blue-leaf-pair.webp",
+          "width": 49,
+          "height": 128,
+          "png_bytes": 10251,
+          "webp_bytes": 7974
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/crossed-gray-blue-leaf-pair.png",
+          "webp": "webp/256/crossed-gray-blue-leaf-pair.webp",
+          "width": 97,
+          "height": 256,
+          "png_bytes": 33232,
+          "webp_bytes": 25638
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/crossed-gray-blue-leaf-pair.png",
+          "webp": "webp/512/crossed-gray-blue-leaf-pair.webp",
+          "width": 194,
+          "height": 512,
+          "png_bytes": 116265,
+          "webp_bytes": 80668
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/crossed-gray-blue-leaf-pair.png",
+          "webp": "webp/768/crossed-gray-blue-leaf-pair.webp",
+          "width": 291,
+          "height": 768,
+          "png_bytes": 248226,
+          "webp_bytes": 172106
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "crouching-hairy-figure-with-long-bent-implement": {
+      "name": "crouching-hairy-figure-with-long-bent-implement",
+      "asset_type": "illustration",
+      "kind": "standalone",
+      "derivation": "native-source-extraction",
+      "repeat_axis": "none",
+      "width": 738,
+      "height": 666,
+      "png": "png/crouching-hairy-figure-with-long-bent-implement.png",
+      "webp": "webp/crouching-hairy-figure-with-long-bent-implement.webp",
+      "png_bytes": 229490,
+      "webp_bytes": 146338,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/crouching-hairy-figure-with-long-bent-implement.png",
+          "webp": "webp/128/crouching-hairy-figure-with-long-bent-implement.webp",
+          "width": 128,
+          "height": 116,
+          "png_bytes": 14891,
+          "webp_bytes": 11378
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/crouching-hairy-figure-with-long-bent-implement.png",
+          "webp": "webp/256/crouching-hairy-figure-with-long-bent-implement.webp",
+          "width": 256,
+          "height": 231,
+          "png_bytes": 43786,
+          "webp_bytes": 33282
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/crouching-hairy-figure-with-long-bent-implement.png",
+          "webp": "webp/512/crouching-hairy-figure-with-long-bent-implement.webp",
+          "width": 512,
+          "height": 462,
+          "png_bytes": 134090,
+          "webp_bytes": 93114
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "diving-long-beaked-waterbird": {
+      "name": "diving-long-beaked-waterbird",
+      "asset_type": "illustration",
+      "kind": "standalone",
+      "derivation": "native-source-extraction",
+      "repeat_axis": "none",
+      "width": 724,
+      "height": 588,
+      "png": "png/diving-long-beaked-waterbird.png",
+      "webp": "webp/diving-long-beaked-waterbird.webp",
+      "png_bytes": 209630,
+      "webp_bytes": 135218,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/diving-long-beaked-waterbird.png",
+          "webp": "webp/128/diving-long-beaked-waterbird.webp",
+          "width": 128,
+          "height": 104,
+          "png_bytes": 13485,
+          "webp_bytes": 10514
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/diving-long-beaked-waterbird.png",
+          "webp": "webp/256/diving-long-beaked-waterbird.webp",
+          "width": 256,
+          "height": 208,
+          "png_bytes": 40396,
+          "webp_bytes": 30826
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/diving-long-beaked-waterbird.png",
+          "webp": "webp/512/diving-long-beaked-waterbird.webp",
+          "width": 512,
+          "height": 416,
+          "png_bytes": 125344,
+          "webp_bytes": 90008
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "girl-kneading-bread-at-table-with-basket": {
+      "name": "girl-kneading-bread-at-table-with-basket",
+      "asset_type": "illustration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 1074,
+      "height": 1345,
+      "png": "png/girl-kneading-bread-at-table-with-basket.png",
+      "webp": "webp/girl-kneading-bread-at-table-with-basket.webp",
+      "png_bytes": 1666528,
+      "webp_bytes": 1147656,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/girl-kneading-bread-at-table-with-basket.png",
+          "webp": "webp/128/girl-kneading-bread-at-table-with-basket.webp",
+          "width": 102,
+          "height": 128,
+          "png_bytes": 22492,
+          "webp_bytes": 18368
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/girl-kneading-bread-at-table-with-basket.png",
+          "webp": "webp/256/girl-kneading-bread-at-table-with-basket.webp",
+          "width": 204,
+          "height": 256,
+          "png_bytes": 77080,
+          "webp_bytes": 53906
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/girl-kneading-bread-at-table-with-basket.png",
+          "webp": "webp/512/girl-kneading-bread-at-table-with-basket.webp",
+          "width": 409,
+          "height": 512,
+          "png_bytes": 274361,
+          "webp_bytes": 191168
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/girl-kneading-bread-at-table-with-basket.png",
+          "webp": "webp/768/girl-kneading-bread-at-table-with-basket.webp",
+          "width": 613,
+          "height": 768,
+          "png_bytes": 591730,
+          "webp_bytes": 411806
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "gold-ground-portrait-of-saint-paul-with-sword-and-book": {
+      "name": "gold-ground-portrait-of-saint-paul-with-sword-and-book",
+      "asset_type": "illustration",
+      "kind": "standalone",
+      "derivation": "native-source-extraction",
+      "repeat_axis": "none",
+      "width": 446,
+      "height": 513,
+      "png": "png/gold-ground-portrait-of-saint-paul-with-sword-and-book.png",
+      "webp": "webp/gold-ground-portrait-of-saint-paul-with-sword-and-book.webp",
+      "png_bytes": 410888,
+      "webp_bytes": 278126,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/gold-ground-portrait-of-saint-paul-with-sword-and-book.png",
+          "webp": "webp/128/gold-ground-portrait-of-saint-paul-with-sword-and-book.webp",
+          "width": 111,
+          "height": 128,
+          "png_bytes": 32475,
+          "webp_bytes": 24740
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/gold-ground-portrait-of-saint-paul-with-sword-and-book.png",
+          "webp": "webp/256/gold-ground-portrait-of-saint-paul-with-sword-and-book.webp",
+          "width": 223,
+          "height": 256,
+          "png_bytes": 116495,
+          "webp_bytes": 84640
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/gold-ground-portrait-of-saint-paul-with-sword-and-book.png",
+          "webp": "webp/512/gold-ground-portrait-of-saint-paul-with-sword-and-book.webp",
+          "width": 445,
+          "height": 512,
+          "png_bytes": 403393,
+          "webp_bytes": 280396
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "gray-blue-flower-with-red-center-and-green-leaf-scroll": {
+      "name": "gray-blue-flower-with-red-center-and-green-leaf-scroll",
+      "asset_type": "illustration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 1595,
+      "height": 954,
+      "png": "png/gray-blue-flower-with-red-center-and-green-leaf-scroll.png",
+      "webp": "webp/gray-blue-flower-with-red-center-and-green-leaf-scroll.webp",
+      "png_bytes": 1395330,
+      "webp_bytes": 1015188,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/gray-blue-flower-with-red-center-and-green-leaf-scroll.png",
+          "webp": "webp/128/gray-blue-flower-with-red-center-and-green-leaf-scroll.webp",
+          "width": 128,
+          "height": 77,
+          "png_bytes": 15467,
+          "webp_bytes": 13046
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/gray-blue-flower-with-red-center-and-green-leaf-scroll.png",
+          "webp": "webp/256/gray-blue-flower-with-red-center-and-green-leaf-scroll.webp",
+          "width": 256,
+          "height": 153,
+          "png_bytes": 51114,
+          "webp_bytes": 39846
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/gray-blue-flower-with-red-center-and-green-leaf-scroll.png",
+          "webp": "webp/512/gray-blue-flower-with-red-center-and-green-leaf-scroll.webp",
+          "width": 512,
+          "height": 306,
+          "png_bytes": 175467,
+          "webp_bytes": 131778
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/gray-blue-flower-with-red-center-and-green-leaf-scroll.png",
+          "webp": "webp/768/gray-blue-flower-with-red-center-and-green-leaf-scroll.webp",
+          "width": 768,
+          "height": 459,
+          "png_bytes": 369509,
+          "webp_bytes": 275918
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "hairy-hunter-and-diving-bird-in-columned-pond-scene": {
+      "name": "hairy-hunter-and-diving-bird-in-columned-pond-scene",
+      "asset_type": "illustration",
+      "kind": "standalone",
+      "derivation": "native-source-extraction",
+      "repeat_axis": "none",
+      "width": 2702,
+      "height": 909,
+      "png": "png/hairy-hunter-and-diving-bird-in-columned-pond-scene.png",
+      "webp": "webp/hairy-hunter-and-diving-bird-in-columned-pond-scene.webp",
+      "png_bytes": 3051402,
+      "webp_bytes": 1952110,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/hairy-hunter-and-diving-bird-in-columned-pond-scene.png",
+          "webp": "webp/128/hairy-hunter-and-diving-bird-in-columned-pond-scene.webp",
+          "width": 128,
+          "height": 43,
+          "png_bytes": 14005,
+          "webp_bytes": 11774
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/hairy-hunter-and-diving-bird-in-columned-pond-scene.png",
+          "webp": "webp/256/hairy-hunter-and-diving-bird-in-columned-pond-scene.webp",
+          "width": 256,
+          "height": 86,
+          "png_bytes": 50651,
+          "webp_bytes": 39992
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/hairy-hunter-and-diving-bird-in-columned-pond-scene.png",
+          "webp": "webp/512/hairy-hunter-and-diving-bird-in-columned-pond-scene.webp",
+          "width": 512,
+          "height": 172,
+          "png_bytes": 182013,
+          "webp_bytes": 137740
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/hairy-hunter-and-diving-bird-in-columned-pond-scene.png",
+          "webp": "webp/768/hairy-hunter-and-diving-bird-in-columned-pond-scene.webp",
+          "width": 768,
+          "height": 258,
+          "png_bytes": 382337,
+          "webp_bytes": 286470
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "horizontal-brown-flower-with-long-green-leaves": {
+      "name": "horizontal-brown-flower-with-long-green-leaves",
+      "asset_type": "illustration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 2133,
+      "height": 253,
+      "png": "png/horizontal-brown-flower-with-long-green-leaves.png",
+      "webp": "webp/horizontal-brown-flower-with-long-green-leaves.webp",
+      "png_bytes": 487572,
+      "webp_bytes": 371132,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/horizontal-brown-flower-with-long-green-leaves.png",
+          "webp": "webp/128/horizontal-brown-flower-with-long-green-leaves.webp",
+          "width": 128,
+          "height": 15,
+          "png_bytes": 3689,
+          "webp_bytes": 3610
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/horizontal-brown-flower-with-long-green-leaves.png",
+          "webp": "webp/256/horizontal-brown-flower-with-long-green-leaves.webp",
+          "width": 256,
+          "height": 30,
+          "png_bytes": 10979,
+          "webp_bytes": 10298
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/horizontal-brown-flower-with-long-green-leaves.png",
+          "webp": "webp/512/horizontal-brown-flower-with-long-green-leaves.webp",
+          "width": 512,
+          "height": 61,
+          "png_bytes": 36832,
+          "webp_bytes": 31744
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/horizontal-brown-flower-with-long-green-leaves.png",
+          "webp": "webp/768/horizontal-brown-flower-with-long-green-leaves.webp",
+          "width": 768,
+          "height": 91,
+          "png_bytes": 74871,
+          "webp_bytes": 61590
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "horizontal-pea-pod-with-two-leaves": {
+      "name": "horizontal-pea-pod-with-two-leaves",
+      "asset_type": "illustration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 2098,
+      "height": 598,
+      "png": "png/horizontal-pea-pod-with-two-leaves.png",
+      "webp": "webp/horizontal-pea-pod-with-two-leaves.webp",
+      "png_bytes": 1097035,
+      "webp_bytes": 771698,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/horizontal-pea-pod-with-two-leaves.png",
+          "webp": "webp/128/horizontal-pea-pod-with-two-leaves.webp",
+          "width": 128,
+          "height": 36,
+          "png_bytes": 7313,
+          "webp_bytes": 6498
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/horizontal-pea-pod-with-two-leaves.png",
+          "webp": "webp/256/horizontal-pea-pod-with-two-leaves.webp",
+          "width": 256,
+          "height": 73,
+          "png_bytes": 23864,
+          "webp_bytes": 19524
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/horizontal-pea-pod-with-two-leaves.png",
+          "webp": "webp/512/horizontal-pea-pod-with-two-leaves.webp",
+          "width": 512,
+          "height": 146,
+          "png_bytes": 83337,
+          "webp_bytes": 64128
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/horizontal-pea-pod-with-two-leaves.png",
+          "webp": "webp/768/horizontal-pea-pod-with-two-leaves.webp",
+          "width": 768,
+          "height": 219,
+          "png_bytes": 176269,
+          "webp_bytes": 133014
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "human-headed-bird": {
+      "name": "human-headed-bird",
+      "asset_type": "illustration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 607,
+      "height": 575,
+      "png": "png/human-headed-bird.png",
+      "webp": "webp/human-headed-bird.webp",
+      "png_bytes": 288430,
+      "webp_bytes": 194516,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/human-headed-bird.png",
+          "webp": "webp/128/human-headed-bird.webp",
+          "width": 128,
+          "height": 121,
+          "png_bytes": 19418,
+          "webp_bytes": 14740
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/human-headed-bird.png",
+          "webp": "webp/256/human-headed-bird.webp",
+          "width": 256,
+          "height": 243,
+          "png_bytes": 64220,
+          "webp_bytes": 44764
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/human-headed-bird.png",
+          "webp": "webp/512/human-headed-bird.webp",
+          "width": 512,
+          "height": 485,
+          "png_bytes": 218128,
+          "webp_bytes": 150626
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "human-headed-bird-with-curved-gold-neck-and-brown-wings": {
+      "name": "human-headed-bird-with-curved-gold-neck-and-brown-wings",
+      "asset_type": "illustration",
+      "kind": "standalone",
+      "derivation": "native-source-extraction",
+      "repeat_axis": "none",
+      "width": 601,
+      "height": 469,
+      "png": "png/human-headed-bird-with-curved-gold-neck-and-brown-wings.png",
+      "webp": "webp/human-headed-bird-with-curved-gold-neck-and-brown-wings.webp",
+      "png_bytes": 216592,
+      "webp_bytes": 131918,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/human-headed-bird-with-curved-gold-neck-and-brown-wings.png",
+          "webp": "webp/128/human-headed-bird-with-curved-gold-neck-and-brown-wings.webp",
+          "width": 128,
+          "height": 100,
+          "png_bytes": 17155,
+          "webp_bytes": 12984
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/human-headed-bird-with-curved-gold-neck-and-brown-wings.png",
+          "webp": "webp/256/human-headed-bird-with-curved-gold-neck-and-brown-wings.webp",
+          "width": 256,
+          "height": 200,
+          "png_bytes": 54224,
+          "webp_bytes": 39140
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/human-headed-bird-with-curved-gold-neck-and-brown-wings.png",
+          "webp": "webp/512/human-headed-bird-with-curved-gold-neck-and-brown-wings.webp",
+          "width": 512,
+          "height": 400,
+          "png_bytes": 171767,
+          "webp_bytes": 117632
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "kneeling-blue-robed-angel-with-long-green-wings": {
+      "name": "kneeling-blue-robed-angel-with-long-green-wings",
+      "asset_type": "illustration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 985,
+      "height": 1289,
+      "png": "png/kneeling-blue-robed-angel-with-long-green-wings.png",
+      "webp": "webp/kneeling-blue-robed-angel-with-long-green-wings.webp",
+      "png_bytes": 1671695,
+      "webp_bytes": 1256682,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/kneeling-blue-robed-angel-with-long-green-wings.png",
+          "webp": "webp/128/kneeling-blue-robed-angel-with-long-green-wings.webp",
+          "width": 98,
+          "height": 128,
+          "png_bytes": 25961,
+          "webp_bytes": 20680
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/kneeling-blue-robed-angel-with-long-green-wings.png",
+          "webp": "webp/256/kneeling-blue-robed-angel-with-long-green-wings.webp",
+          "width": 196,
+          "height": 256,
+          "png_bytes": 86182,
+          "webp_bytes": 65882
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/kneeling-blue-robed-angel-with-long-green-wings.png",
+          "webp": "webp/512/kneeling-blue-robed-angel-with-long-green-wings.webp",
+          "width": 391,
+          "height": 512,
+          "png_bytes": 298065,
+          "webp_bytes": 227832
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/kneeling-blue-robed-angel-with-long-green-wings.png",
+          "webp": "webp/768/kneeling-blue-robed-angel-with-long-green-wings.webp",
+          "width": 587,
+          "height": 768,
+          "png_bytes": 642454,
+          "webp_bytes": 486846
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "kneeling-green-robed-angel-with-long-green-wings": {
+      "name": "kneeling-green-robed-angel-with-long-green-wings",
+      "asset_type": "illustration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 1109,
+      "height": 1293,
+      "png": "png/kneeling-green-robed-angel-with-long-green-wings.png",
+      "webp": "webp/kneeling-green-robed-angel-with-long-green-wings.webp",
+      "png_bytes": 1910971,
+      "webp_bytes": 1316076,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/kneeling-green-robed-angel-with-long-green-wings.png",
+          "webp": "webp/128/kneeling-green-robed-angel-with-long-green-wings.webp",
+          "width": 110,
+          "height": 128,
+          "png_bytes": 27637,
+          "webp_bytes": 21236
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/kneeling-green-robed-angel-with-long-green-wings.png",
+          "webp": "webp/256/kneeling-green-robed-angel-with-long-green-wings.webp",
+          "width": 220,
+          "height": 256,
+          "png_bytes": 94921,
+          "webp_bytes": 70478
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/kneeling-green-robed-angel-with-long-green-wings.png",
+          "webp": "webp/512/kneeling-green-robed-angel-with-long-green-wings.webp",
+          "width": 439,
+          "height": 512,
+          "png_bytes": 339042,
+          "webp_bytes": 241764
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/kneeling-green-robed-angel-with-long-green-wings.png",
+          "webp": "webp/768/kneeling-green-robed-angel-with-long-green-wings.webp",
+          "width": 659,
+          "height": 768,
+          "png_bytes": 733371,
+          "webp_bytes": 511740
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "left-tan-robed-man-visible-half-figure": {
+      "name": "left-tan-robed-man-visible-half-figure",
+      "asset_type": "illustration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 259,
+      "height": 460,
+      "png": "png/left-tan-robed-man-visible-half-figure.png",
+      "webp": "webp/left-tan-robed-man-visible-half-figure.webp",
+      "png_bytes": 159168,
+      "webp_bytes": 107532,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/left-tan-robed-man-visible-half-figure.png",
+          "webp": "webp/128/left-tan-robed-man-visible-half-figure.webp",
+          "width": 72,
+          "height": 128,
+          "png_bytes": 15700,
+          "webp_bytes": 12552
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/left-tan-robed-man-visible-half-figure.png",
+          "webp": "webp/256/left-tan-robed-man-visible-half-figure.webp",
+          "width": 144,
+          "height": 256,
+          "png_bytes": 54120,
+          "webp_bytes": 38862
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "lower-left-pair-of-contacting-figures": {
+      "name": "lower-left-pair-of-contacting-figures",
+      "asset_type": "illustration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 695,
+      "height": 706,
+      "png": "png/lower-left-pair-of-contacting-figures.png",
+      "webp": "webp/lower-left-pair-of-contacting-figures.webp",
+      "png_bytes": 581157,
+      "webp_bytes": 407440,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/lower-left-pair-of-contacting-figures.png",
+          "webp": "webp/128/lower-left-pair-of-contacting-figures.webp",
+          "width": 126,
+          "height": 128,
+          "png_bytes": 26989,
+          "webp_bytes": 20008
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/lower-left-pair-of-contacting-figures.png",
+          "webp": "webp/256/lower-left-pair-of-contacting-figures.webp",
+          "width": 252,
+          "height": 256,
+          "png_bytes": 91642,
+          "webp_bytes": 65732
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/lower-left-pair-of-contacting-figures.png",
+          "webp": "webp/512/lower-left-pair-of-contacting-figures.webp",
+          "width": 504,
+          "height": 512,
+          "png_bytes": 324135,
+          "webp_bytes": 229498
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "lower-right-pair-of-contacting-figures": {
+      "name": "lower-right-pair-of-contacting-figures",
+      "asset_type": "illustration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 678,
+      "height": 817,
+      "png": "png/lower-right-pair-of-contacting-figures.png",
+      "webp": "webp/lower-right-pair-of-contacting-figures.webp",
+      "png_bytes": 795852,
+      "webp_bytes": 587926,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/lower-right-pair-of-contacting-figures.png",
+          "webp": "webp/128/lower-right-pair-of-contacting-figures.webp",
+          "width": 106,
+          "height": 128,
+          "png_bytes": 26416,
+          "webp_bytes": 22258
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/lower-right-pair-of-contacting-figures.png",
+          "webp": "webp/256/lower-right-pair-of-contacting-figures.webp",
+          "width": 212,
+          "height": 256,
+          "png_bytes": 91916,
+          "webp_bytes": 69712
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/lower-right-pair-of-contacting-figures.png",
+          "webp": "webp/512/lower-right-pair-of-contacting-figures.webp",
+          "width": 425,
+          "height": 512,
+          "png_bytes": 331762,
+          "webp_bytes": 248684
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/lower-right-pair-of-contacting-figures.png",
+          "webp": "webp/768/lower-right-pair-of-contacting-figures.webp",
+          "width": 637,
+          "height": 768,
+          "png_bytes": 707577,
+          "webp_bytes": 529058
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "pale-yellow-daisy-on-lobed-green-leaf-scroll": {
+      "name": "pale-yellow-daisy-on-lobed-green-leaf-scroll",
+      "asset_type": "illustration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 1756,
+      "height": 841,
+      "png": "png/pale-yellow-daisy-on-lobed-green-leaf-scroll.png",
+      "webp": "webp/pale-yellow-daisy-on-lobed-green-leaf-scroll.webp",
+      "png_bytes": 1621467,
+      "webp_bytes": 1150106,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/pale-yellow-daisy-on-lobed-green-leaf-scroll.png",
+          "webp": "webp/128/pale-yellow-daisy-on-lobed-green-leaf-scroll.webp",
+          "width": 128,
+          "height": 61,
+          "png_bytes": 16163,
+          "webp_bytes": 13300
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/pale-yellow-daisy-on-lobed-green-leaf-scroll.png",
+          "webp": "webp/256/pale-yellow-daisy-on-lobed-green-leaf-scroll.webp",
+          "width": 256,
+          "height": 123,
+          "png_bytes": 51982,
+          "webp_bytes": 40958
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/pale-yellow-daisy-on-lobed-green-leaf-scroll.png",
+          "webp": "webp/512/pale-yellow-daisy-on-lobed-green-leaf-scroll.webp",
+          "width": 512,
+          "height": 245,
+          "png_bytes": 173838,
+          "webp_bytes": 130336
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/pale-yellow-daisy-on-lobed-green-leaf-scroll.png",
+          "webp": "webp/768/pale-yellow-daisy-on-lobed-green-leaf-scroll.webp",
+          "width": 768,
+          "height": 368,
+          "png_bytes": 362704,
+          "webp_bytes": 269052
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "pale-yellow-flower-with-long-green-leaf-stem": {
+      "name": "pale-yellow-flower-with-long-green-leaf-stem",
+      "asset_type": "illustration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 748,
+      "height": 1975,
+      "png": "png/pale-yellow-flower-with-long-green-leaf-stem.png",
+      "webp": "webp/pale-yellow-flower-with-long-green-leaf-stem.webp",
+      "png_bytes": 1655504,
+      "webp_bytes": 1194410,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/pale-yellow-flower-with-long-green-leaf-stem.png",
+          "webp": "webp/128/pale-yellow-flower-with-long-green-leaf-stem.webp",
+          "width": 48,
+          "height": 128,
+          "png_bytes": 13730,
+          "webp_bytes": 11186
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/pale-yellow-flower-with-long-green-leaf-stem.png",
+          "webp": "webp/256/pale-yellow-flower-with-long-green-leaf-stem.webp",
+          "width": 97,
+          "height": 256,
+          "png_bytes": 44427,
+          "webp_bytes": 36834
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/pale-yellow-flower-with-long-green-leaf-stem.png",
+          "webp": "webp/512/pale-yellow-flower-with-long-green-leaf-stem.webp",
+          "width": 194,
+          "height": 512,
+          "png_bytes": 147273,
+          "webp_bytes": 113486
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/pale-yellow-flower-with-long-green-leaf-stem.png",
+          "webp": "webp/768/pale-yellow-flower-with-long-green-leaf-stem.webp",
+          "width": 291,
+          "height": 768,
+          "png_bytes": 301629,
+          "webp_bytes": 230856
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "pink-and-blue-upright-flower-on-curving-stem": {
+      "name": "pink-and-blue-upright-flower-on-curving-stem",
+      "asset_type": "illustration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 686,
+      "height": 1872,
+      "png": "png/pink-and-blue-upright-flower-on-curving-stem.png",
+      "webp": "webp/pink-and-blue-upright-flower-on-curving-stem.webp",
+      "png_bytes": 1221745,
+      "webp_bytes": 871128,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/pink-and-blue-upright-flower-on-curving-stem.png",
+          "webp": "webp/128/pink-and-blue-upright-flower-on-curving-stem.webp",
+          "width": 47,
+          "height": 128,
+          "png_bytes": 10304,
+          "webp_bytes": 9202
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/pink-and-blue-upright-flower-on-curving-stem.png",
+          "webp": "webp/256/pink-and-blue-upright-flower-on-curving-stem.webp",
+          "width": 94,
+          "height": 256,
+          "png_bytes": 32704,
+          "webp_bytes": 25786
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/pink-and-blue-upright-flower-on-curving-stem.png",
+          "webp": "webp/512/pink-and-blue-upright-flower-on-curving-stem.webp",
+          "width": 188,
+          "height": 512,
+          "png_bytes": 113397,
+          "webp_bytes": 85552
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/pink-and-blue-upright-flower-on-curving-stem.png",
+          "webp": "webp/768/pink-and-blue-upright-flower-on-curving-stem.webp",
+          "width": 281,
+          "height": 768,
+          "png_bytes": 240849,
+          "webp_bytes": 178142
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "pointed-blue-red-flower-with-long-green-stem": {
+      "name": "pointed-blue-red-flower-with-long-green-stem",
+      "asset_type": "illustration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 505,
+      "height": 2078,
+      "png": "png/pointed-blue-red-flower-with-long-green-stem.png",
+      "webp": "webp/pointed-blue-red-flower-with-long-green-stem.webp",
+      "png_bytes": 1069895,
+      "webp_bytes": 776020,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/pointed-blue-red-flower-with-long-green-stem.png",
+          "webp": "webp/128/pointed-blue-red-flower-with-long-green-stem.webp",
+          "width": 31,
+          "height": 128,
+          "png_bytes": 7468,
+          "webp_bytes": 6798
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/pointed-blue-red-flower-with-long-green-stem.png",
+          "webp": "webp/256/pointed-blue-red-flower-with-long-green-stem.webp",
+          "width": 62,
+          "height": 256,
+          "png_bytes": 23769,
+          "webp_bytes": 22288
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/pointed-blue-red-flower-with-long-green-stem.png",
+          "webp": "webp/512/pointed-blue-red-flower-with-long-green-stem.webp",
+          "width": 124,
+          "height": 512,
+          "png_bytes": 81278,
+          "webp_bytes": 63608
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/pointed-blue-red-flower-with-long-green-stem.png",
+          "webp": "webp/768/pointed-blue-red-flower-with-long-green-stem.webp",
+          "width": 187,
+          "height": 768,
+          "png_bytes": 172631,
+          "webp_bytes": 130390
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "red-scalloped-flower-on-long-green-leaves": {
+      "name": "red-scalloped-flower-on-long-green-leaves",
+      "asset_type": "illustration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 1832,
+      "height": 841,
+      "png": "png/red-scalloped-flower-on-long-green-leaves.png",
+      "webp": "webp/red-scalloped-flower-on-long-green-leaves.webp",
+      "png_bytes": 1856376,
+      "webp_bytes": 1359842,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/red-scalloped-flower-on-long-green-leaves.png",
+          "webp": "webp/128/red-scalloped-flower-on-long-green-leaves.webp",
+          "width": 128,
+          "height": 59,
+          "png_bytes": 15510,
+          "webp_bytes": 12778
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/red-scalloped-flower-on-long-green-leaves.png",
+          "webp": "webp/256/red-scalloped-flower-on-long-green-leaves.webp",
+          "width": 256,
+          "height": 118,
+          "png_bytes": 52282,
+          "webp_bytes": 40946
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/red-scalloped-flower-on-long-green-leaves.png",
+          "webp": "webp/512/red-scalloped-flower-on-long-green-leaves.webp",
+          "width": 512,
+          "height": 235,
+          "png_bytes": 180194,
+          "webp_bytes": 136684
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/red-scalloped-flower-on-long-green-leaves.png",
+          "webp": "webp/768/red-scalloped-flower-on-long-green-leaves.webp",
+          "width": 768,
+          "height": 353,
+          "png_bytes": 379331,
+          "webp_bytes": 288512
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "right-blue-red-robed-man-visible-half-figure": {
+      "name": "right-blue-red-robed-man-visible-half-figure",
+      "asset_type": "illustration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 212,
+      "height": 405,
+      "png": "png/right-blue-red-robed-man-visible-half-figure.png",
+      "webp": "webp/right-blue-red-robed-man-visible-half-figure.webp",
+      "png_bytes": 153493,
+      "webp_bytes": 108914,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/right-blue-red-robed-man-visible-half-figure.png",
+          "webp": "webp/128/right-blue-red-robed-man-visible-half-figure.webp",
+          "width": 67,
+          "height": 128,
+          "png_bytes": 18399,
+          "webp_bytes": 14336
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/right-blue-red-robed-man-visible-half-figure.png",
+          "webp": "webp/256/right-blue-red-robed-man-visible-half-figure.webp",
+          "width": 134,
+          "height": 256,
+          "png_bytes": 65215,
+          "webp_bytes": 48830
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "saint-paul-visible-bust-with-sword-and-book": {
+      "name": "saint-paul-visible-bust-with-sword-and-book",
+      "asset_type": "illustration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 363,
+      "height": 482,
+      "png": "png/saint-paul-visible-bust-with-sword-and-book.png",
+      "webp": "webp/saint-paul-visible-bust-with-sword-and-book.webp",
+      "png_bytes": 280456,
+      "webp_bytes": 199292,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/saint-paul-visible-bust-with-sword-and-book.png",
+          "webp": "webp/128/saint-paul-visible-bust-with-sword-and-book.webp",
+          "width": 96,
+          "height": 128,
+          "png_bytes": 24493,
+          "webp_bytes": 18802
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/saint-paul-visible-bust-with-sword-and-book.png",
+          "webp": "webp/256/saint-paul-visible-bust-with-sword-and-book.webp",
+          "width": 193,
+          "height": 256,
+          "png_bytes": 86791,
+          "webp_bytes": 63952
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "saint-paul-with-long-sword-and-book": {
+      "name": "saint-paul-with-long-sword-and-book",
+      "asset_type": "illustration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 361,
+      "height": 957,
+      "png": "png/saint-paul-with-long-sword-and-book.png",
+      "webp": "webp/saint-paul-with-long-sword-and-book.webp",
+      "png_bytes": 548148,
+      "webp_bytes": 373510,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/saint-paul-with-long-sword-and-book.png",
+          "webp": "webp/128/saint-paul-with-long-sword-and-book.webp",
+          "width": 48,
+          "height": 128,
+          "png_bytes": 14765,
+          "webp_bytes": 11190
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/saint-paul-with-long-sword-and-book.png",
+          "webp": "webp/256/saint-paul-with-long-sword-and-book.webp",
+          "width": 97,
+          "height": 256,
+          "png_bytes": 51058,
+          "webp_bytes": 36010
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/saint-paul-with-long-sword-and-book.png",
+          "webp": "webp/512/saint-paul-with-long-sword-and-book.webp",
+          "width": 193,
+          "height": 512,
+          "png_bytes": 175007,
+          "webp_bytes": 120160
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/saint-paul-with-long-sword-and-book.png",
+          "webp": "webp/768/saint-paul-with-long-sword-and-book.webp",
+          "width": 290,
+          "height": 768,
+          "png_bytes": 368647,
+          "webp_bytes": 255218
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "saint-peter-with-large-key": {
+      "name": "saint-peter-with-large-key",
+      "asset_type": "illustration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 413,
+      "height": 962,
+      "png": "png/saint-peter-with-large-key.png",
+      "webp": "webp/saint-peter-with-large-key.webp",
+      "png_bytes": 664496,
+      "webp_bytes": 466904,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/saint-peter-with-large-key.png",
+          "webp": "webp/128/saint-peter-with-large-key.webp",
+          "width": 55,
+          "height": 128,
+          "png_bytes": 17197,
+          "webp_bytes": 12862
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/saint-peter-with-large-key.png",
+          "webp": "webp/256/saint-peter-with-large-key.webp",
+          "width": 110,
+          "height": 256,
+          "png_bytes": 59985,
+          "webp_bytes": 43948
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/saint-peter-with-large-key.png",
+          "webp": "webp/512/saint-peter-with-large-key.webp",
+          "width": 220,
+          "height": 512,
+          "png_bytes": 209242,
+          "webp_bytes": 148514
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/saint-peter-with-large-key.png",
+          "webp": "webp/768/saint-peter-with-large-key.webp",
+          "width": 330,
+          "height": 768,
+          "png_bytes": 442614,
+          "webp_bytes": 313756
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "seated-red-squirrel-with-bushy-tail": {
+      "name": "seated-red-squirrel-with-bushy-tail",
+      "asset_type": "illustration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 970,
+      "height": 1524,
+      "png": "png/seated-red-squirrel-with-bushy-tail.png",
+      "webp": "webp/seated-red-squirrel-with-bushy-tail.webp",
+      "png_bytes": 2094263,
+      "webp_bytes": 1408808,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/seated-red-squirrel-with-bushy-tail.png",
+          "webp": "webp/128/seated-red-squirrel-with-bushy-tail.webp",
+          "width": 81,
+          "height": 128,
+          "png_bytes": 21331,
+          "webp_bytes": 17292
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/seated-red-squirrel-with-bushy-tail.png",
+          "webp": "webp/256/seated-red-squirrel-with-bushy-tail.webp",
+          "width": 163,
+          "height": 256,
+          "png_bytes": 77367,
+          "webp_bytes": 56756
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/seated-red-squirrel-with-bushy-tail.png",
+          "webp": "webp/512/seated-red-squirrel-with-bushy-tail.webp",
+          "width": 326,
+          "height": 512,
+          "png_bytes": 280772,
+          "webp_bytes": 198254
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/seated-red-squirrel-with-bushy-tail.png",
+          "webp": "webp/768/seated-red-squirrel-with-bushy-tail.webp",
+          "width": 489,
+          "height": 768,
+          "png_bytes": 600398,
+          "webp_bytes": 423396
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "small-brown-round-flower-on-leafy-stem": {
+      "name": "small-brown-round-flower-on-leafy-stem",
+      "asset_type": "illustration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 580,
+      "height": 2126,
+      "png": "png/small-brown-round-flower-on-leafy-stem.png",
+      "webp": "webp/small-brown-round-flower-on-leafy-stem.webp",
+      "png_bytes": 1028227,
+      "webp_bytes": 727124,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/small-brown-round-flower-on-leafy-stem.png",
+          "webp": "webp/128/small-brown-round-flower-on-leafy-stem.webp",
+          "width": 35,
+          "height": 128,
+          "png_bytes": 7372,
+          "webp_bytes": 6316
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/small-brown-round-flower-on-leafy-stem.png",
+          "webp": "webp/256/small-brown-round-flower-on-leafy-stem.webp",
+          "width": 70,
+          "height": 256,
+          "png_bytes": 22972,
+          "webp_bytes": 20090
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/small-brown-round-flower-on-leafy-stem.png",
+          "webp": "webp/512/small-brown-round-flower-on-leafy-stem.webp",
+          "width": 140,
+          "height": 512,
+          "png_bytes": 78161,
+          "webp_bytes": 59162
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/small-brown-round-flower-on-leafy-stem.png",
+          "webp": "webp/768/small-brown-round-flower-on-leafy-stem.webp",
+          "width": 210,
+          "height": 768,
+          "png_bytes": 163555,
+          "webp_bytes": 119562
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "small-faded-gray-flower-on-green-stem": {
+      "name": "small-faded-gray-flower-on-green-stem",
+      "asset_type": "illustration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 612,
+      "height": 1758,
+      "png": "png/small-faded-gray-flower-on-green-stem.png",
+      "webp": "webp/small-faded-gray-flower-on-green-stem.webp",
+      "png_bytes": 1035477,
+      "webp_bytes": 719812,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/small-faded-gray-flower-on-green-stem.png",
+          "webp": "webp/128/small-faded-gray-flower-on-green-stem.webp",
+          "width": 45,
+          "height": 128,
+          "png_bytes": 10158,
+          "webp_bytes": 8366
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/small-faded-gray-flower-on-green-stem.png",
+          "webp": "webp/256/small-faded-gray-flower-on-green-stem.webp",
+          "width": 89,
+          "height": 256,
+          "png_bytes": 32033,
+          "webp_bytes": 24912
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/small-faded-gray-flower-on-green-stem.png",
+          "webp": "webp/512/small-faded-gray-flower-on-green-stem.webp",
+          "width": 178,
+          "height": 512,
+          "png_bytes": 109997,
+          "webp_bytes": 80664
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/small-faded-gray-flower-on-green-stem.png",
+          "webp": "webp/768/small-faded-gray-flower-on-green-stem.webp",
+          "width": 267,
+          "height": 768,
+          "png_bytes": 231128,
+          "webp_bytes": 165860
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "small-gray-bird-with-long-tail": {
+      "name": "small-gray-bird-with-long-tail",
+      "asset_type": "illustration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 315,
+      "height": 532,
+      "png": "png/small-gray-bird-with-long-tail.png",
+      "webp": "webp/small-gray-bird-with-long-tail.webp",
+      "png_bytes": 179112,
+      "webp_bytes": 116788,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/small-gray-bird-with-long-tail.png",
+          "webp": "webp/128/small-gray-bird-with-long-tail.webp",
+          "width": 76,
+          "height": 128,
+          "png_bytes": 14327,
+          "webp_bytes": 9922
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/small-gray-bird-with-long-tail.png",
+          "webp": "webp/256/small-gray-bird-with-long-tail.webp",
+          "width": 152,
+          "height": 256,
+          "png_bytes": 47605,
+          "webp_bytes": 33756
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/small-gray-bird-with-long-tail.png",
+          "webp": "webp/512/small-gray-bird-with-long-tail.webp",
+          "width": 303,
+          "height": 512,
+          "png_bytes": 168031,
+          "webp_bytes": 110810
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "small-red-bud-on-long-horizontal-stem": {
+      "name": "small-red-bud-on-long-horizontal-stem",
+      "asset_type": "illustration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 1143,
+      "height": 601,
+      "png": "png/small-red-bud-on-long-horizontal-stem.png",
+      "webp": "webp/small-red-bud-on-long-horizontal-stem.webp",
+      "png_bytes": 571347,
+      "webp_bytes": 413478,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/small-red-bud-on-long-horizontal-stem.png",
+          "webp": "webp/128/small-red-bud-on-long-horizontal-stem.webp",
+          "width": 128,
+          "height": 67,
+          "png_bytes": 10899,
+          "webp_bytes": 9864
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/small-red-bud-on-long-horizontal-stem.png",
+          "webp": "webp/256/small-red-bud-on-long-horizontal-stem.webp",
+          "width": 256,
+          "height": 135,
+          "png_bytes": 36465,
+          "webp_bytes": 29656
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/small-red-bud-on-long-horizontal-stem.png",
+          "webp": "webp/512/small-red-bud-on-long-horizontal-stem.webp",
+          "width": 512,
+          "height": 269,
+          "png_bytes": 127915,
+          "webp_bytes": 97146
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/small-red-bud-on-long-horizontal-stem.png",
+          "webp": "webp/768/small-red-bud-on-long-horizontal-stem.webp",
+          "width": 768,
+          "height": 404,
+          "png_bytes": 273131,
+          "webp_bytes": 205944
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "small-upright-red-bud-with-long-stem": {
+      "name": "small-upright-red-bud-with-long-stem",
+      "asset_type": "illustration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 425,
+      "height": 1163,
+      "png": "png/small-upright-red-bud-with-long-stem.png",
+      "webp": "webp/small-upright-red-bud-with-long-stem.webp",
+      "png_bytes": 536144,
+      "webp_bytes": 387528,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/small-upright-red-bud-with-long-stem.png",
+          "webp": "webp/128/small-upright-red-bud-with-long-stem.webp",
+          "width": 47,
+          "height": 128,
+          "png_bytes": 10080,
+          "webp_bytes": 8792
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/small-upright-red-bud-with-long-stem.png",
+          "webp": "webp/256/small-upright-red-bud-with-long-stem.webp",
+          "width": 94,
+          "height": 256,
+          "png_bytes": 33465,
+          "webp_bytes": 26610
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/small-upright-red-bud-with-long-stem.png",
+          "webp": "webp/512/small-upright-red-bud-with-long-stem.webp",
+          "width": 187,
+          "height": 512,
+          "png_bytes": 117038,
+          "webp_bytes": 89036
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/small-upright-red-bud-with-long-stem.png",
+          "webp": "webp/768/small-upright-red-bud-with-long-stem.webp",
+          "width": 281,
+          "height": 768,
+          "png_bytes": 249968,
+          "webp_bytes": 186358
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "two-dancing-black-horned-figures-with-touching-feet": {
+      "name": "two-dancing-black-horned-figures-with-touching-feet",
+      "asset_type": "illustration",
+      "kind": "standalone",
+      "derivation": "native-source-extraction",
+      "repeat_axis": "none",
+      "width": 607,
+      "height": 672,
+      "png": "png/two-dancing-black-horned-figures-with-touching-feet.png",
+      "webp": "webp/two-dancing-black-horned-figures-with-touching-feet.webp",
+      "png_bytes": 260399,
+      "webp_bytes": 167616,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/two-dancing-black-horned-figures-with-touching-feet.png",
+          "webp": "webp/128/two-dancing-black-horned-figures-with-touching-feet.webp",
+          "width": 116,
+          "height": 128,
+          "png_bytes": 18634,
+          "webp_bytes": 14572
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/two-dancing-black-horned-figures-with-touching-feet.png",
+          "webp": "webp/256/two-dancing-black-horned-figures-with-touching-feet.webp",
+          "width": 231,
+          "height": 256,
+          "png_bytes": 55548,
+          "webp_bytes": 41434
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/two-dancing-black-horned-figures-with-touching-feet.png",
+          "webp": "webp/512/two-dancing-black-horned-figures-with-touching-feet.webp",
+          "width": 462,
+          "height": 512,
+          "png_bytes": 173895,
+          "webp_bytes": 127874
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "two-dancing-devils-in-gold-landscape-oval": {
+      "name": "two-dancing-devils-in-gold-landscape-oval",
+      "asset_type": "illustration",
+      "kind": "standalone",
+      "derivation": "native-source-extraction",
+      "repeat_axis": "none",
+      "width": 870,
+      "height": 855,
+      "png": "png/two-dancing-devils-in-gold-landscape-oval.png",
+      "webp": "webp/two-dancing-devils-in-gold-landscape-oval.webp",
+      "png_bytes": 902882,
+      "webp_bytes": 549784,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/two-dancing-devils-in-gold-landscape-oval.png",
+          "webp": "webp/128/two-dancing-devils-in-gold-landscape-oval.webp",
+          "width": 128,
+          "height": 126,
+          "png_bytes": 33657,
+          "webp_bytes": 25848
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/two-dancing-devils-in-gold-landscape-oval.png",
+          "webp": "webp/256/two-dancing-devils-in-gold-landscape-oval.webp",
+          "width": 256,
+          "height": 252,
+          "png_bytes": 115833,
+          "webp_bytes": 86834
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/two-dancing-devils-in-gold-landscape-oval.png",
+          "webp": "webp/512/two-dancing-devils-in-gold-landscape-oval.webp",
+          "width": 512,
+          "height": 503,
+          "png_bytes": 375995,
+          "webp_bytes": 255728
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/two-dancing-devils-in-gold-landscape-oval.png",
+          "webp": "webp/768/two-dancing-devils-in-gold-landscape-oval.webp",
+          "width": 768,
+          "height": 755,
+          "png_bytes": 741853,
+          "webp_bytes": 489266
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "upper-left-paired-green-leaves": {
+      "name": "upper-left-paired-green-leaves",
+      "asset_type": "illustration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 595,
+      "height": 1229,
+      "png": "png/upper-left-paired-green-leaves.png",
+      "webp": "webp/upper-left-paired-green-leaves.webp",
+      "png_bytes": 738077,
+      "webp_bytes": 537984,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/upper-left-paired-green-leaves.png",
+          "webp": "webp/128/upper-left-paired-green-leaves.webp",
+          "width": 62,
+          "height": 128,
+          "png_bytes": 12390,
+          "webp_bytes": 10698
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/upper-left-paired-green-leaves.png",
+          "webp": "webp/256/upper-left-paired-green-leaves.webp",
+          "width": 124,
+          "height": 256,
+          "png_bytes": 40611,
+          "webp_bytes": 32266
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/upper-left-paired-green-leaves.png",
+          "webp": "webp/512/upper-left-paired-green-leaves.webp",
+          "width": 248,
+          "height": 512,
+          "png_bytes": 145354,
+          "webp_bytes": 109166
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/upper-left-paired-green-leaves.png",
+          "webp": "webp/768/upper-left-paired-green-leaves.webp",
+          "width": 372,
+          "height": 768,
+          "png_bytes": 313612,
+          "webp_bytes": 234502
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "upright-paired-green-leaves": {
+      "name": "upright-paired-green-leaves",
+      "asset_type": "illustration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 506,
+      "height": 1721,
+      "png": "png/upright-paired-green-leaves.png",
+      "webp": "webp/upright-paired-green-leaves.webp",
+      "png_bytes": 1007462,
+      "webp_bytes": 703128,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/upright-paired-green-leaves.png",
+          "webp": "webp/128/upright-paired-green-leaves.webp",
+          "width": 38,
+          "height": 128,
+          "png_bytes": 9827,
+          "webp_bytes": 8376
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/upright-paired-green-leaves.png",
+          "webp": "webp/256/upright-paired-green-leaves.webp",
+          "width": 75,
+          "height": 256,
+          "png_bytes": 31091,
+          "webp_bytes": 26188
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/upright-paired-green-leaves.png",
+          "webp": "webp/512/upright-paired-green-leaves.webp",
+          "width": 151,
+          "height": 512,
+          "png_bytes": 107919,
+          "webp_bytes": 81922
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/upright-paired-green-leaves.png",
+          "webp": "webp/768/upright-paired-green-leaves.webp",
+          "width": 226,
+          "height": 768,
+          "png_bytes": 229124,
+          "webp_bytes": 165578
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "white-robed-winged-angel": {
+      "name": "white-robed-winged-angel",
+      "asset_type": "illustration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-source-mask",
+      "repeat_axis": "none",
+      "width": 516,
+      "height": 662,
+      "png": "png/white-robed-winged-angel.png",
+      "webp": "webp/white-robed-winged-angel.webp",
+      "png_bytes": 196468,
+      "webp_bytes": 118738,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/white-robed-winged-angel.png",
+          "webp": "webp/128/white-robed-winged-angel.webp",
+          "width": 100,
+          "height": 128,
+          "png_bytes": 17901,
+          "webp_bytes": 13776
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/white-robed-winged-angel.png",
+          "webp": "webp/256/white-robed-winged-angel.webp",
+          "width": 200,
+          "height": 256,
+          "png_bytes": 52672,
+          "webp_bytes": 38354
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/white-robed-winged-angel.png",
+          "webp": "webp/512/white-robed-winged-angel.webp",
+          "width": 399,
+          "height": 512,
+          "png_bytes": 156434,
+          "webp_bytes": 103286
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    }
+  },
+  "files": {
+    "png/128/angel-chasing-devil-in-gold-oval.png": {
+      "bytes": 33353,
+      "sha256": "6905791a33d3fe9b9c1cf2e2cc19aec3a7ab8fbc800d758eaaab5156b3aafc99"
+    },
+    "png/128/bearded-profile-head.png": {
+      "bytes": 23774,
+      "sha256": "5837f9a870f3a558e856e4ffc2e6675e8aad80717eb77c3257544857c148dad4"
+    },
+    "png/128/black-horned-devil.png": {
+      "bytes": 11884,
+      "sha256": "b93c33f21d4ac43531c678a9f1eb0e5df09f65f9281014289a33cbf80e1cb4bf"
+    },
+    "png/128/blue-and-pink-bud-with-two-green-leaves.png": {
+      "bytes": 11503,
+      "sha256": "c0672dd002c69af44ea523828534d6f2e0ac582e390f77f554e5fb7a85355b52"
+    },
+    "png/128/blue-clad-man-pulling-ornamental-stem.png": {
+      "bytes": 14988,
+      "sha256": "fdcfcf9108b73b02cd815b7b00264eccb0ef372484b622ff2edd8c2aab77cfc5"
+    },
+    "png/128/blue-red-and-gray-radial-flower.png": {
+      "bytes": 30097,
+      "sha256": "3e2d249d66e106efbf84cab653fa733a1bb6b77469b724a9b28574c2763e1380"
+    },
+    "png/128/broad-green-leaf-scroll.png": {
+      "bytes": 16430,
+      "sha256": "e57121b424087a29e0ca4e00c4202a959b88b73abec9fb9715452736a5bd5ca7"
+    },
+    "png/128/brown-fan-flower-with-curled-green-leaf-branch.png": {
+      "bytes": 14163,
+      "sha256": "c74fbb295e7024af5a346e3aa310fd47883a356246a158cd426815bcc6f15675"
+    },
+    "png/128/christ-carrying-cross-with-contacting-procession.png": {
+      "bytes": 36105,
+      "sha256": "3c5d27d234636532cf7cd25cc5c2f0a82ca52cb7144976490fc63ac6bd0f4a7e"
+    },
+    "png/128/cook-with-ladle-dish-and-soup-cauldron.png": {
+      "bytes": 24235,
+      "sha256": "5ab896db687ebcab35a86b529ea941e59abdd76f1b09b836006c4984b5c9a9f5"
+    },
+    "png/128/coronation-of-mary-with-six-angels-and-throne.png": {
+      "bytes": 33263,
+      "sha256": "66742c819164f23edda03bc4a7beb954a24b55b0d58db5ca2d0170d9ec7e993d"
+    },
+    "png/128/crossed-gray-blue-leaf-pair.png": {
+      "bytes": 10251,
+      "sha256": "01a9dea73fd163b4f4bdde4eb4e80990d470c3839b53d1ade618d9355ab6e134"
+    },
+    "png/128/crouching-hairy-figure-with-long-bent-implement.png": {
+      "bytes": 14891,
+      "sha256": "dc92982d372be1e5f95bff0ef99d33183a1a937a67d923c2d7415bd2feac4d3a"
+    },
+    "png/128/diving-long-beaked-waterbird.png": {
+      "bytes": 13485,
+      "sha256": "72f245fce3cab282e0359053aa3b0d5616fd901f72eb2b36a241792a1ba4c9d7"
+    },
+    "png/128/girl-kneading-bread-at-table-with-basket.png": {
+      "bytes": 22492,
+      "sha256": "1d0c6072b4c9db15448e19f2b6c58db500a4d172ae9e19516a8ba9601a2a95e7"
+    },
+    "png/128/gold-ground-portrait-of-saint-paul-with-sword-and-book.png": {
+      "bytes": 32475,
+      "sha256": "057b4996a6f4b4644181b0660f689f7bbcff5b1dfcf8dd1a474278c621c104a1"
+    },
+    "png/128/gray-blue-flower-with-red-center-and-green-leaf-scroll.png": {
+      "bytes": 15467,
+      "sha256": "65376a621ada90736f83becc19b633ad7d3b06cdfa6d6aab3267f024ae9db504"
+    },
+    "png/128/hairy-hunter-and-diving-bird-in-columned-pond-scene.png": {
+      "bytes": 14005,
+      "sha256": "bceab0fe456a3136a93d9290e21c9d79a4eb8d86243fc9afcdcd5ebdc89b19c4"
+    },
+    "png/128/horizontal-brown-flower-with-long-green-leaves.png": {
+      "bytes": 3689,
+      "sha256": "89b51ba713d62230a261db3e9deb90de71ca4e26fb3616506db52b5a20e78b46"
+    },
+    "png/128/horizontal-pea-pod-with-two-leaves.png": {
+      "bytes": 7313,
+      "sha256": "eedab35b6bd0e8b76a9f2f4347275fff1a5d39ab4abcc37f5c163baad82f8669"
+    },
+    "png/128/human-headed-bird-with-curved-gold-neck-and-brown-wings.png": {
+      "bytes": 17155,
+      "sha256": "aae63b9d89ea605b7ed7744f1ba4f328643fbb2a889de5ee158b73be1803c081"
+    },
+    "png/128/human-headed-bird.png": {
+      "bytes": 19418,
+      "sha256": "5ab643f05a3d0e43a9a257062c70f51a6ece385b1afd99a17211baa71fbcb93c"
+    },
+    "png/128/kneeling-blue-robed-angel-with-long-green-wings.png": {
+      "bytes": 25961,
+      "sha256": "314fb6cd940aee15907401a7b7419ed626f0c9c3938354cd48043c4e7fb91f3e"
+    },
+    "png/128/kneeling-green-robed-angel-with-long-green-wings.png": {
+      "bytes": 27637,
+      "sha256": "35ebc0b9e4dc732efd1339e6f3aff3b06128fda2112bff2a8d6b325674e217cf"
+    },
+    "png/128/left-tan-robed-man-visible-half-figure.png": {
+      "bytes": 15700,
+      "sha256": "db5cf3cb7bf692ff66f76c1bce931f9a8e2d3240a352b97141934c2393bc04c7"
+    },
+    "png/128/lower-left-pair-of-contacting-figures.png": {
+      "bytes": 26989,
+      "sha256": "3fc2f6cd742af3bea15858196c32672de30bd3256b8abd47396312d90193f165"
+    },
+    "png/128/lower-right-pair-of-contacting-figures.png": {
+      "bytes": 26416,
+      "sha256": "5a5c9a02a590b28a125d69c8734ee4b6ef6b050f90674ebeb723290788a39e8c"
+    },
+    "png/128/pale-yellow-daisy-on-lobed-green-leaf-scroll.png": {
+      "bytes": 16163,
+      "sha256": "89f1c66f145e95f88000d03fd2928f612d057294e17092083eb8564fec40f19a"
+    },
+    "png/128/pale-yellow-flower-with-long-green-leaf-stem.png": {
+      "bytes": 13730,
+      "sha256": "227b2cf542e019138179fb771d6518a91dd5a76e0716f4056493f2881ea46a4a"
+    },
+    "png/128/pink-and-blue-upright-flower-on-curving-stem.png": {
+      "bytes": 10304,
+      "sha256": "302f6a8e082f62fb74291533f57584141cda12a28f846ddf00179faec0b735bb"
+    },
+    "png/128/pointed-blue-red-flower-with-long-green-stem.png": {
+      "bytes": 7468,
+      "sha256": "d088fca441c8fea14a6719d286663835c4cd3caf5e9467eddeebd2d3999a6875"
+    },
+    "png/128/red-scalloped-flower-on-long-green-leaves.png": {
+      "bytes": 15510,
+      "sha256": "04b7ebebd3d96627ffecb6933685a07ec63820f10654f47673784cc2f95d48fe"
+    },
+    "png/128/right-blue-red-robed-man-visible-half-figure.png": {
+      "bytes": 18399,
+      "sha256": "60ca7da0753e92090366ee61b8a70ef373add191bb0b4f2db7699dd7053449f5"
+    },
+    "png/128/saint-paul-visible-bust-with-sword-and-book.png": {
+      "bytes": 24493,
+      "sha256": "0e686242c332f1a1cd3d11dbbcc89f1e01c6e602895d650a382fc08858e49414"
+    },
+    "png/128/saint-paul-with-long-sword-and-book.png": {
+      "bytes": 14765,
+      "sha256": "76bf51d1def4111465444070b6fa0c7b1d187ab614f1604d7fb97f26da074682"
+    },
+    "png/128/saint-peter-with-large-key.png": {
+      "bytes": 17197,
+      "sha256": "896b21c4bb4601c557e85ccf57fce6a37f8111111af8b730aea2da1b567414d1"
+    },
+    "png/128/seated-red-squirrel-with-bushy-tail.png": {
+      "bytes": 21331,
+      "sha256": "d337d89105d08d5d1c61ad83bb6b5a55b7ad109e9a3835a9841dd0cfa4941654"
+    },
+    "png/128/small-brown-round-flower-on-leafy-stem.png": {
+      "bytes": 7372,
+      "sha256": "fd5e9cbc44056f63c6d6760f686b36ebbc833c35479ce8e77fc8bcc21ad5797c"
+    },
+    "png/128/small-faded-gray-flower-on-green-stem.png": {
+      "bytes": 10158,
+      "sha256": "b280ae2c5a031dd1bb750970f18a62fd181b345b0ba01052ec5a0eecf2a803e1"
+    },
+    "png/128/small-gray-bird-with-long-tail.png": {
+      "bytes": 14327,
+      "sha256": "ebde5f4cc8662bb643b3937b87d19cecc985576d5feb9860ad917975256d3e9a"
+    },
+    "png/128/small-red-bud-on-long-horizontal-stem.png": {
+      "bytes": 10899,
+      "sha256": "64171e914425b30a3daec4e55d2087c0a522b94598fec4d45063b852dfb08583"
+    },
+    "png/128/small-upright-red-bud-with-long-stem.png": {
+      "bytes": 10080,
+      "sha256": "ded513f39503db0573f1ca814c220bbdcbd8f3bca69fb1c7734a72a149b9dc90"
+    },
+    "png/128/two-dancing-black-horned-figures-with-touching-feet.png": {
+      "bytes": 18634,
+      "sha256": "7a7816ae17681b0c8c21c2ede97f7b8af0c2d221bb6c546f1e223c2cce5c8680"
+    },
+    "png/128/two-dancing-devils-in-gold-landscape-oval.png": {
+      "bytes": 33657,
+      "sha256": "ada4bba2c7bb117418fe50c0dfd048412aa827fd77fd42dee900b8cdc5cd0ded"
+    },
+    "png/128/upper-left-paired-green-leaves.png": {
+      "bytes": 12390,
+      "sha256": "d142ce2be6e6fca1b3c12d2625432be9fbf289b37d70c509297015a2ee4fa16b"
+    },
+    "png/128/upright-paired-green-leaves.png": {
+      "bytes": 9827,
+      "sha256": "11f108f03c1c7f8d3538e23e7b452b3e60b6c44cd74c5a24aa489895532a68e5"
+    },
+    "png/128/white-robed-winged-angel.png": {
+      "bytes": 17901,
+      "sha256": "4dcaf8f9f5a42ab5b1dac09fa3bf8ebe1f7e4421709778804e9242f32e9633c7"
+    },
+    "png/256/angel-chasing-devil-in-gold-oval.png": {
+      "bytes": 111083,
+      "sha256": "ccc3c92e608fb859271b505b47283871f029fdcb6258c02e43b3311272b3b071"
+    },
+    "png/256/bearded-profile-head.png": {
+      "bytes": 83914,
+      "sha256": "c92e470adab843aa0d58b32a48a0d7e6d9e89347c689e81ba4eb502d89c4a6df"
+    },
+    "png/256/black-horned-devil.png": {
+      "bytes": 34727,
+      "sha256": "e72b11cc9ee57e936452fc87ce5e1a261f48622f8ef4b00a8673034a0a0ea928"
+    },
+    "png/256/blue-and-pink-bud-with-two-green-leaves.png": {
+      "bytes": 37165,
+      "sha256": "fe762dbadeee7ed018b0ad0b4ad24187118ffc405c467b7e7460c40a28a691bd"
+    },
+    "png/256/blue-clad-man-pulling-ornamental-stem.png": {
+      "bytes": 50400,
+      "sha256": "9502e5f183643806c56ed186dbf5a7a02349ec98e1f1431e82d6e68645fa9d4d"
+    },
+    "png/256/blue-red-and-gray-radial-flower.png": {
+      "bytes": 107846,
+      "sha256": "15cf0e6fc5f059ae906e30feda95a04833cfbb6aa160a4b8df2b209d0cfd699f"
+    },
+    "png/256/broad-green-leaf-scroll.png": {
+      "bytes": 55154,
+      "sha256": "4b3d24337f1d218a7c04a1e0d0019fdb0702220eac2c0b97b64ae85017591c1c"
+    },
+    "png/256/brown-fan-flower-with-curled-green-leaf-branch.png": {
+      "bytes": 44707,
+      "sha256": "c384a539d4dfc0b117c4e3830698b8015dc33643728d062c91a666f61e97fd89"
+    },
+    "png/256/christ-carrying-cross-with-contacting-procession.png": {
+      "bytes": 123557,
+      "sha256": "b68647bc9f12c0f0a968e577259fe9e7f96f637916309b28601d3f308064433c"
+    },
+    "png/256/cook-with-ladle-dish-and-soup-cauldron.png": {
+      "bytes": 83962,
+      "sha256": "c334824991cb6fd29f6c50729e17c56bc8da9ba38ca4afb3be1c6ebc5bc20ac9"
+    },
+    "png/256/coronation-of-mary-with-six-angels-and-throne.png": {
+      "bytes": 117911,
+      "sha256": "1b409e682db01ae043100325bb69d1e30e30084696a5f6c628b0bef9bd3b5a11"
+    },
+    "png/256/crossed-gray-blue-leaf-pair.png": {
+      "bytes": 33232,
+      "sha256": "bbf19de6ebc388d5a9a0018aa01b063d9a2dcaf7c6a527e9d699d5735e6c81ec"
+    },
+    "png/256/crouching-hairy-figure-with-long-bent-implement.png": {
+      "bytes": 43786,
+      "sha256": "17d4fddb8d039a850af38f5f47d7e66b8c8e4a3d5e4f7c5acd779e94111292b1"
+    },
+    "png/256/diving-long-beaked-waterbird.png": {
+      "bytes": 40396,
+      "sha256": "cad19db11dcb0cd3f7477b99a554a1593671dfee502d55170f503ee21d38047e"
+    },
+    "png/256/girl-kneading-bread-at-table-with-basket.png": {
+      "bytes": 77080,
+      "sha256": "c8df3c61ea9d4a7c526f7f09abfa9ff1f92788cd42699f1a4bdca63188c1dc8f"
+    },
+    "png/256/gold-ground-portrait-of-saint-paul-with-sword-and-book.png": {
+      "bytes": 116495,
+      "sha256": "71abd53774af00486d97df43ff4b297d5fe03f53da9f7b2c6d1ed2427669b306"
+    },
+    "png/256/gray-blue-flower-with-red-center-and-green-leaf-scroll.png": {
+      "bytes": 51114,
+      "sha256": "e0e72c54bc425fad7576fe8e27b7115d4a37e3b2d25fc194e7155da8789e109c"
+    },
+    "png/256/hairy-hunter-and-diving-bird-in-columned-pond-scene.png": {
+      "bytes": 50651,
+      "sha256": "c5d41897bc346ba0f224dcb559364685e152e2d1f10d740de2ce3af7671a952b"
+    },
+    "png/256/horizontal-brown-flower-with-long-green-leaves.png": {
+      "bytes": 10979,
+      "sha256": "1fb7ba3a81253ddbff9d05b48c7d6d59a0727d7e29c4d023247b36376ef7b348"
+    },
+    "png/256/horizontal-pea-pod-with-two-leaves.png": {
+      "bytes": 23864,
+      "sha256": "63160e9c3c5acd9b8364369bb02fc1f986cf28d8f95b813da4084b1f4c2b6c57"
+    },
+    "png/256/human-headed-bird-with-curved-gold-neck-and-brown-wings.png": {
+      "bytes": 54224,
+      "sha256": "395183941e7021d0710091d4e2a3ff53dc80ef966047722cb821a803fa7f7bdd"
+    },
+    "png/256/human-headed-bird.png": {
+      "bytes": 64220,
+      "sha256": "62bc8b52fb9a8db10e211318d33ff19002e74f2ab183381ca4512978a35d9cf7"
+    },
+    "png/256/kneeling-blue-robed-angel-with-long-green-wings.png": {
+      "bytes": 86182,
+      "sha256": "0bf1b26dc29c9dd57e957d7186ecc5e8e19c7c275a05939fe0d90cf88bb5dc7a"
+    },
+    "png/256/kneeling-green-robed-angel-with-long-green-wings.png": {
+      "bytes": 94921,
+      "sha256": "0a26ae8efe1b6e480782d0d75ab3fad73e21abab0aece7f77eecdbbcdcecaf7f"
+    },
+    "png/256/left-tan-robed-man-visible-half-figure.png": {
+      "bytes": 54120,
+      "sha256": "1cc3a83ac424c6e48a39b4d9ff824f9845c23c8361b003f3c2bb2776881e887d"
+    },
+    "png/256/lower-left-pair-of-contacting-figures.png": {
+      "bytes": 91642,
+      "sha256": "29eb64b439398303af4b9e649f20b68db8f530776de661cb07884f3cc163e354"
+    },
+    "png/256/lower-right-pair-of-contacting-figures.png": {
+      "bytes": 91916,
+      "sha256": "a9f4598d675ac222494f8612c86a5754182d59c4eea546c1bf9766bdf6539e1e"
+    },
+    "png/256/pale-yellow-daisy-on-lobed-green-leaf-scroll.png": {
+      "bytes": 51982,
+      "sha256": "ca9af7bbf2deb936b0bb399b581f18c3633321f70853632778ebf3c0c618574b"
+    },
+    "png/256/pale-yellow-flower-with-long-green-leaf-stem.png": {
+      "bytes": 44427,
+      "sha256": "ff0ff8b24a29e3bf9f40efff1ad65244e835417c7477da9f17f27320c5375416"
+    },
+    "png/256/pink-and-blue-upright-flower-on-curving-stem.png": {
+      "bytes": 32704,
+      "sha256": "b26774b7694ae5b1e6a00d4642a98b23fea1994312e9ef2490d6e2a4751a40de"
+    },
+    "png/256/pointed-blue-red-flower-with-long-green-stem.png": {
+      "bytes": 23769,
+      "sha256": "950df76b2e35d727f9be647b13136edf24659f45f1d7600c6890e033391cfe5d"
+    },
+    "png/256/red-scalloped-flower-on-long-green-leaves.png": {
+      "bytes": 52282,
+      "sha256": "71cd560ed78cc5ff39fb0d8dc99bdc870404e7e480d49ef51a31fa5071479aad"
+    },
+    "png/256/right-blue-red-robed-man-visible-half-figure.png": {
+      "bytes": 65215,
+      "sha256": "7db97c124229b1816c19b83b086f6fd9b6abcc545e99c814732e01685f0e6c28"
+    },
+    "png/256/saint-paul-visible-bust-with-sword-and-book.png": {
+      "bytes": 86791,
+      "sha256": "0acb5773f124c25ddad249c55e2102f9e349f94d03f23338aa4f8487724c2ad2"
+    },
+    "png/256/saint-paul-with-long-sword-and-book.png": {
+      "bytes": 51058,
+      "sha256": "deddf3ce0a996e84fc5cc978f438dd6b20a1441e7811a0dd383e1d9da0eb0348"
+    },
+    "png/256/saint-peter-with-large-key.png": {
+      "bytes": 59985,
+      "sha256": "409b811171a937ad0fc5d4f8057ac827db14854cc118dea6ab19c93cb9258d72"
+    },
+    "png/256/seated-red-squirrel-with-bushy-tail.png": {
+      "bytes": 77367,
+      "sha256": "df1a725d6e74d4f506b9089a0081937ff5c8734ce0a5a7f9b8b1ccefe1c16920"
+    },
+    "png/256/small-brown-round-flower-on-leafy-stem.png": {
+      "bytes": 22972,
+      "sha256": "4a11f1faebfb3b2862d1854da5776351cd51f3a02447c641666235ec725d117d"
+    },
+    "png/256/small-faded-gray-flower-on-green-stem.png": {
+      "bytes": 32033,
+      "sha256": "efb6d3a5fc471722f0679b55e972f43b7d466f4ec7deaaec0c2ce3679b230d1c"
+    },
+    "png/256/small-gray-bird-with-long-tail.png": {
+      "bytes": 47605,
+      "sha256": "ceb1563271625f5822dcb32b96a8578c911da9ee01bad919de5ccf824639e494"
+    },
+    "png/256/small-red-bud-on-long-horizontal-stem.png": {
+      "bytes": 36465,
+      "sha256": "198708e69b975cb67afeef3723f384f35427abdfffdb6a6c8b8fd02f51c0c01c"
+    },
+    "png/256/small-upright-red-bud-with-long-stem.png": {
+      "bytes": 33465,
+      "sha256": "f1130710e233b048bf54872e2a21b24180b16e239c462c1b43992ff776c02be3"
+    },
+    "png/256/two-dancing-black-horned-figures-with-touching-feet.png": {
+      "bytes": 55548,
+      "sha256": "a1671c8fe578b98797ce782ea622dabc74a9cde9c9ed8d3b0de6a861cd5742f8"
+    },
+    "png/256/two-dancing-devils-in-gold-landscape-oval.png": {
+      "bytes": 115833,
+      "sha256": "581a605fd8fa925e8ec513a9803e19462c6c3482c424e64feab22a3b4e14c1b2"
+    },
+    "png/256/upper-left-paired-green-leaves.png": {
+      "bytes": 40611,
+      "sha256": "5dd968f03eaff1b318255fea8b6c4920c3ad505f4656a985111f64a0d7538622"
+    },
+    "png/256/upright-paired-green-leaves.png": {
+      "bytes": 31091,
+      "sha256": "bf39659186fc9f0c987e59c75aa1d2b5f146967d6b535f9674502e72918a319d"
+    },
+    "png/256/white-robed-winged-angel.png": {
+      "bytes": 52672,
+      "sha256": "eb03cd70f6cda4c65606807e99ef85c256e88bacf07c92daa8de84fd9f0f10c5"
+    },
+    "png/512/angel-chasing-devil-in-gold-oval.png": {
+      "bytes": 352256,
+      "sha256": "6d9f2b2074e05bd245d64a4a0263acd6692b87966b9ca9a82c6c24505a74fae0"
+    },
+    "png/512/black-horned-devil.png": {
+      "bytes": 105946,
+      "sha256": "d2a35c70269bd1ab2bff140b65ef73e1a832e6576188019b4d20f63a4d09825e"
+    },
+    "png/512/blue-and-pink-bud-with-two-green-leaves.png": {
+      "bytes": 127921,
+      "sha256": "5c220f45a074e995b4cb085546dc6f75c3043845bf4e4e88bffa63a0fa5e504a"
+    },
+    "png/512/blue-clad-man-pulling-ornamental-stem.png": {
+      "bytes": 175303,
+      "sha256": "a7ccd7fe8ac5bf91c55a722f8439eeb9afb66d4bcf26c579d62d9af4d6435da4"
+    },
+    "png/512/blue-red-and-gray-radial-flower.png": {
+      "bytes": 394576,
+      "sha256": "0d4c09d03d562706a422ad36931325044b3514aadfd982eb6b0ac6036431195f"
+    },
+    "png/512/broad-green-leaf-scroll.png": {
+      "bytes": 185355,
+      "sha256": "c82311f6c785628751a0c46da1b430231e7eb8e6e02192ad6ce8d45ba511476e"
+    },
+    "png/512/brown-fan-flower-with-curled-green-leaf-branch.png": {
+      "bytes": 145789,
+      "sha256": "8bf24fe207ed7210db003f43133992d905b9b8002838c420f4302b2fa7adc6c6"
+    },
+    "png/512/christ-carrying-cross-with-contacting-procession.png": {
+      "bytes": 436769,
+      "sha256": "ce2d539e136eeaa29b22edc0b8600bfa8703b1ad17d4351b34bc0eba6fab96b3"
+    },
+    "png/512/cook-with-ladle-dish-and-soup-cauldron.png": {
+      "bytes": 301262,
+      "sha256": "d60d61433d27ff510702401ee5137a7b04edba044b86a07bfe77c6250ff15911"
+    },
+    "png/512/coronation-of-mary-with-six-angels-and-throne.png": {
+      "bytes": 415229,
+      "sha256": "4426cfe42481b02cf3d5e63ebd7c64a7d095e53af361ac440d6409414a4c8c13"
+    },
+    "png/512/crossed-gray-blue-leaf-pair.png": {
+      "bytes": 116265,
+      "sha256": "94b782d245cab4600a90a688a163c728cb43e926562e63d528c0fc29118414f0"
+    },
+    "png/512/crouching-hairy-figure-with-long-bent-implement.png": {
+      "bytes": 134090,
+      "sha256": "d0599420d5d96d80c702a8c5d4881b6ca76482076d01bcc534f08913d7c7cded"
+    },
+    "png/512/diving-long-beaked-waterbird.png": {
+      "bytes": 125344,
+      "sha256": "b72bde08908aa806f75c396b0dc47c271241aa55d9b9db4460f6b68dbd177eb4"
+    },
+    "png/512/girl-kneading-bread-at-table-with-basket.png": {
+      "bytes": 274361,
+      "sha256": "6913678793945f008a5abd2d2b0685115e9a23d64e2f05b72e218efa2363dec1"
+    },
+    "png/512/gold-ground-portrait-of-saint-paul-with-sword-and-book.png": {
+      "bytes": 403393,
+      "sha256": "41c8d56af95307814cc7d9b91244d23a997500bff75e61c5d7e013217b8a42a8"
+    },
+    "png/512/gray-blue-flower-with-red-center-and-green-leaf-scroll.png": {
+      "bytes": 175467,
+      "sha256": "bca2f8b3b3203326ae1b622f93dc6adba91dd9aeab267857828ab6e352bce219"
+    },
+    "png/512/hairy-hunter-and-diving-bird-in-columned-pond-scene.png": {
+      "bytes": 182013,
+      "sha256": "62b5f8975246c9f8fb667e486beb1c99b6b83c619007c811132f78ad7e077e5d"
+    },
+    "png/512/horizontal-brown-flower-with-long-green-leaves.png": {
+      "bytes": 36832,
+      "sha256": "009b60268c50ab1161d897e98bc1314f647447327454332688b2f1a03c0302f1"
+    },
+    "png/512/horizontal-pea-pod-with-two-leaves.png": {
+      "bytes": 83337,
+      "sha256": "e5cfbfd0ebfefa519f909b7a54a6c06fbd06b2cfdb4f02d13affe1bf3c89b865"
+    },
+    "png/512/human-headed-bird-with-curved-gold-neck-and-brown-wings.png": {
+      "bytes": 171767,
+      "sha256": "f2d1c013ef49755564f96a0d54f3ade7369a2e26966b7ad5553cfeb4c0fb4f29"
+    },
+    "png/512/human-headed-bird.png": {
+      "bytes": 218128,
+      "sha256": "21ab6f2ecdcda3a317f0fdfbab1de39642a1d801d0bb7369780232c8277c39c3"
+    },
+    "png/512/kneeling-blue-robed-angel-with-long-green-wings.png": {
+      "bytes": 298065,
+      "sha256": "019cf6e7be6d6256456ecdd260cdeae148a6b0f1cfbfc215c3463034e2217840"
+    },
+    "png/512/kneeling-green-robed-angel-with-long-green-wings.png": {
+      "bytes": 339042,
+      "sha256": "021e00a9f3f16f9faef10ed59d6d2206a8a9f8ac7f95f0bdf43a89bd98192dad"
+    },
+    "png/512/lower-left-pair-of-contacting-figures.png": {
+      "bytes": 324135,
+      "sha256": "8e2e8fe8df881672c01bb3952f02f9cb490510bf81bbc6d14e5579da1e12cf95"
+    },
+    "png/512/lower-right-pair-of-contacting-figures.png": {
+      "bytes": 331762,
+      "sha256": "abaf1cefd9f3e75807c8b0c8a4986a56fbc2f7a445152a75529296c79f6a9987"
+    },
+    "png/512/pale-yellow-daisy-on-lobed-green-leaf-scroll.png": {
+      "bytes": 173838,
+      "sha256": "a33cfd19481d83ad661b90f69bc0210fa7f5425e90bd00a5ea06e2bb08a42912"
+    },
+    "png/512/pale-yellow-flower-with-long-green-leaf-stem.png": {
+      "bytes": 147273,
+      "sha256": "e0e5abc051b391499c75d643fac9729b6633e0f16d4d36559661136e33b667d7"
+    },
+    "png/512/pink-and-blue-upright-flower-on-curving-stem.png": {
+      "bytes": 113397,
+      "sha256": "166e3d0855c2f0c34cd722fdd24eb5835d67e0333cb0c3815cbe24b98f4357fd"
+    },
+    "png/512/pointed-blue-red-flower-with-long-green-stem.png": {
+      "bytes": 81278,
+      "sha256": "2e24f35c87b8319a39262b9b3c2efce8fc5b834fae70ec25a0caaf978474a514"
+    },
+    "png/512/red-scalloped-flower-on-long-green-leaves.png": {
+      "bytes": 180194,
+      "sha256": "400182afe1d08bb67b4dd9dc3cb9a96982c574ca6248b435b2319694d7deeab7"
+    },
+    "png/512/saint-paul-with-long-sword-and-book.png": {
+      "bytes": 175007,
+      "sha256": "1a8203738e1f6de5af45d4fab7a5f36e92e792aab87fc0a3afc7bd8d1a5ca3e9"
+    },
+    "png/512/saint-peter-with-large-key.png": {
+      "bytes": 209242,
+      "sha256": "502189b513a2675e91581d88120219c55178316ce3e8ab29c2b49f3a4826f516"
+    },
+    "png/512/seated-red-squirrel-with-bushy-tail.png": {
+      "bytes": 280772,
+      "sha256": "8d5211cf58e1b7de06d35303993afe957175874a3e25d2481e47a5b30ad6e66d"
+    },
+    "png/512/small-brown-round-flower-on-leafy-stem.png": {
+      "bytes": 78161,
+      "sha256": "581b8314916590ebc692c81933db76beb193d8f94b00ad4162e94c8dfb8b588d"
+    },
+    "png/512/small-faded-gray-flower-on-green-stem.png": {
+      "bytes": 109997,
+      "sha256": "b5865ad9190123d318d691cc81f224a01cf639a55fb21a3d10e24dd0e4e2f770"
+    },
+    "png/512/small-gray-bird-with-long-tail.png": {
+      "bytes": 168031,
+      "sha256": "45e583120a0896fb2439d514a36229ec262d9b7aabf3711a48f99ab09d140a31"
+    },
+    "png/512/small-red-bud-on-long-horizontal-stem.png": {
+      "bytes": 127915,
+      "sha256": "67d846ee0d21d5cbccafc7df4bce0d52cd2d7bd627b7afc86c6ee49b8687e605"
+    },
+    "png/512/small-upright-red-bud-with-long-stem.png": {
+      "bytes": 117038,
+      "sha256": "569a3030951e8c542a0be77ac27468ca9f8d90df07c7a239f890bfa633092890"
+    },
+    "png/512/two-dancing-black-horned-figures-with-touching-feet.png": {
+      "bytes": 173895,
+      "sha256": "55a3f90447b33d9ee03391921baef4b66ac6360c3a76af62abc09149ef2eba24"
+    },
+    "png/512/two-dancing-devils-in-gold-landscape-oval.png": {
+      "bytes": 375995,
+      "sha256": "ea3be8914180baceb240539af12f37a5197f57fb6ef3991579ba117ab869be6e"
+    },
+    "png/512/upper-left-paired-green-leaves.png": {
+      "bytes": 145354,
+      "sha256": "fec11dc1e738b9bd3a7ce323c5e8d9f411273bd29ce80fe6affb96c753a61ac7"
+    },
+    "png/512/upright-paired-green-leaves.png": {
+      "bytes": 107919,
+      "sha256": "b92129e626dd3ce9360842524dd0361ff2b1a4f817bae621eba94428eec1323e"
+    },
+    "png/512/white-robed-winged-angel.png": {
+      "bytes": 156434,
+      "sha256": "017a06cc4357e2059bb831fbe2b93b18980891f489c78445f63198d45788b139"
+    },
+    "png/768/angel-chasing-devil-in-gold-oval.png": {
+      "bytes": 693208,
+      "sha256": "27976d797f722524f70e4c2863f7508922eb47da4901f361bb53bc3d423822fe"
+    },
+    "png/768/blue-and-pink-bud-with-two-green-leaves.png": {
+      "bytes": 269110,
+      "sha256": "91bb81086cd5c929157f69dba37e0cec2bd2ce66277d7a1fc5a5e375d3fabc6d"
+    },
+    "png/768/blue-clad-man-pulling-ornamental-stem.png": {
+      "bytes": 371558,
+      "sha256": "4ffdd2113b52a5b223e230018d45a766676aad872a8075c91e0d2d6a3ad78353"
+    },
+    "png/768/blue-red-and-gray-radial-flower.png": {
+      "bytes": 852561,
+      "sha256": "7d8fbf99d6462ab9eaefdcdf05a5b7bd37610085c9322bf1378370016ace21de"
+    },
+    "png/768/broad-green-leaf-scroll.png": {
+      "bytes": 388340,
+      "sha256": "e0ad4704786236cbcd6cbffc0f4abe6298f7ee0b5946b392212ec092ba39c2e0"
+    },
+    "png/768/brown-fan-flower-with-curled-green-leaf-branch.png": {
+      "bytes": 299576,
+      "sha256": "5ca915938e8d1251f17e4f7c819c0ad6c16ca0ee1ae56ddaa17f34ce984ac35e"
+    },
+    "png/768/christ-carrying-cross-with-contacting-procession.png": {
+      "bytes": 935770,
+      "sha256": "101986116ffb1b2311b49f1f1815102e61933b1d7f49047e1f2c14e4bcee94eb"
+    },
+    "png/768/cook-with-ladle-dish-and-soup-cauldron.png": {
+      "bytes": 650205,
+      "sha256": "cbf39d19e630dffbf3eb0225d12d78403b8468428785a6d4e8df553e69286404"
+    },
+    "png/768/coronation-of-mary-with-six-angels-and-throne.png": {
+      "bytes": 871651,
+      "sha256": "9dd828dcaa4334c5cd259eb03ab5b999669dd64dc54b7d25d4f41299076ea05a"
+    },
+    "png/768/crossed-gray-blue-leaf-pair.png": {
+      "bytes": 248226,
+      "sha256": "26a9a82cbb61909ee9c28bec9b1e86ef05eed870827448c9c79d9f299d8780dd"
+    },
+    "png/768/girl-kneading-bread-at-table-with-basket.png": {
+      "bytes": 591730,
+      "sha256": "7f0afdf98b86b9266a1ab6c6dafaca24894aca23458c667903ff79abd96bbe5b"
+    },
+    "png/768/gray-blue-flower-with-red-center-and-green-leaf-scroll.png": {
+      "bytes": 369509,
+      "sha256": "d6e6aa4ae7d168f0ab76f021775cc3274f4769de6cc4b820c01add3a190f52cd"
+    },
+    "png/768/hairy-hunter-and-diving-bird-in-columned-pond-scene.png": {
+      "bytes": 382337,
+      "sha256": "58745252a6eb9de3bd4de41f4498a54c7006365db3397c1ba53d4b0b1a7737f8"
+    },
+    "png/768/horizontal-brown-flower-with-long-green-leaves.png": {
+      "bytes": 74871,
+      "sha256": "fb8667a19b216ea062b1c9a5244654b73414ffe2f24cbf98668151865798ab2b"
+    },
+    "png/768/horizontal-pea-pod-with-two-leaves.png": {
+      "bytes": 176269,
+      "sha256": "14182d10a07b3c1fdc880c8016e903b5f804de47ecfbed0404b861731bccfca5"
+    },
+    "png/768/kneeling-blue-robed-angel-with-long-green-wings.png": {
+      "bytes": 642454,
+      "sha256": "82879b9d82ae1e2120db3ec2eae357cfa44637021f4edd09372220ee6823764b"
+    },
+    "png/768/kneeling-green-robed-angel-with-long-green-wings.png": {
+      "bytes": 733371,
+      "sha256": "991bfe4bc9f9c49ca211ea78fe16b8704b4878be25b674a5b68e60edf236197f"
+    },
+    "png/768/lower-right-pair-of-contacting-figures.png": {
+      "bytes": 707577,
+      "sha256": "aeb80c244d0d61f2fb2b638a436f234b8197e49607591762bd894bb556ee86df"
+    },
+    "png/768/pale-yellow-daisy-on-lobed-green-leaf-scroll.png": {
+      "bytes": 362704,
+      "sha256": "ba388d043c788c076576300e2cd5d96e48b3f006f4837e3310650477c9b60134"
+    },
+    "png/768/pale-yellow-flower-with-long-green-leaf-stem.png": {
+      "bytes": 301629,
+      "sha256": "056b22f4f5827af8eac5bca78b9c4be81f77be9b8e8271c1d7285c22543755e7"
+    },
+    "png/768/pink-and-blue-upright-flower-on-curving-stem.png": {
+      "bytes": 240849,
+      "sha256": "3b4311fc00a17c02e91415059637cb496e25d88567bd7fc16be9958e54b7b33a"
+    },
+    "png/768/pointed-blue-red-flower-with-long-green-stem.png": {
+      "bytes": 172631,
+      "sha256": "2ec86cca80f53107454368a9299582f3548b351b75e2bdad3c71af7e014141cd"
+    },
+    "png/768/red-scalloped-flower-on-long-green-leaves.png": {
+      "bytes": 379331,
+      "sha256": "c513d75c37e6c4a230b209903c1f6446a5f7ca7a7ef585c7d64ea17339dcaf71"
+    },
+    "png/768/saint-paul-with-long-sword-and-book.png": {
+      "bytes": 368647,
+      "sha256": "4ff1f43eb6f5585472558be0a61212519d4475d4fbc58b791af36d172a5f208d"
+    },
+    "png/768/saint-peter-with-large-key.png": {
+      "bytes": 442614,
+      "sha256": "90ef9951d550d03aa5af81d3f81d04a501de2a1b5ac731b3a0e82288a427ec8a"
+    },
+    "png/768/seated-red-squirrel-with-bushy-tail.png": {
+      "bytes": 600398,
+      "sha256": "9e036a6a00f6aa6ca4c1120bbb0bd1fdb2371fc5db078f8e5bcf4416e0e48e1e"
+    },
+    "png/768/small-brown-round-flower-on-leafy-stem.png": {
+      "bytes": 163555,
+      "sha256": "90dc51b0fc6719716b44c82dc9ffa6ad51c899b28b0007686cb3f8c578e55bc6"
+    },
+    "png/768/small-faded-gray-flower-on-green-stem.png": {
+      "bytes": 231128,
+      "sha256": "f8cd458eea95ce72d00e75b6f9a4c54c5b5294294cd5e90fb9c84ae266e570ed"
+    },
+    "png/768/small-red-bud-on-long-horizontal-stem.png": {
+      "bytes": 273131,
+      "sha256": "bb061235ad5534f3465ca6b11965a72aee66829af261a3b04ccddaafb0c81e9a"
+    },
+    "png/768/small-upright-red-bud-with-long-stem.png": {
+      "bytes": 249968,
+      "sha256": "3ba6eb83a46cc39b3862ddc0174e05472670d92d82c5c929f6bca35fafbee617"
+    },
+    "png/768/two-dancing-devils-in-gold-landscape-oval.png": {
+      "bytes": 741853,
+      "sha256": "ea702dcf9c66e99bcaefaf6bd91618800b3e2d66fdf5635474c3885535a8fbd2"
+    },
+    "png/768/upper-left-paired-green-leaves.png": {
+      "bytes": 313612,
+      "sha256": "74e44d17eec051e49bc4436f33cf58268bdf49846f158d806e691b43b4ee08f9"
+    },
+    "png/768/upright-paired-green-leaves.png": {
+      "bytes": 229124,
+      "sha256": "15ef03a6b2298376b21eda960e40ae4bc7d2bc47171aaa19b6e49eb8885f0501"
+    },
+    "png/angel-chasing-devil-in-gold-oval.png": {
+      "bytes": 984149,
+      "sha256": "4e3200807a250bb9be3e72fe925c19ad99ad8d1c3a4f2176ad06632bfa94db3a"
+    },
+    "png/bearded-profile-head.png": {
+      "bytes": 113595,
+      "sha256": "c7c346e06c68d5c61eeb0644ec70b3efd812581b31b56608b522e98d47890dd7"
+    },
+    "png/black-horned-devil.png": {
+      "bytes": 148294,
+      "sha256": "cd2c843144ac6ea0ec826cbb56f42394411ef621369507c03bbf9c90db95040c"
+    },
+    "png/blue-and-pink-bud-with-two-green-leaves.png": {
+      "bytes": 866981,
+      "sha256": "cfd75cc197457579bc9cb47fb61f1e76cf6a5087c9dbac0358045fdad5932f1c"
+    },
+    "png/blue-clad-man-pulling-ornamental-stem.png": {
+      "bytes": 621075,
+      "sha256": "c567189c2977f52764eba4573811dbd7d1a347df9cfa91d8983fde039e49e2ba"
+    },
+    "png/blue-red-and-gray-radial-flower.png": {
+      "bytes": 2461277,
+      "sha256": "e082a1afe3c9f5f2b698fffb504529be9b3f564a199c38be750ea236eb4280a9"
+    },
+    "png/broad-green-leaf-scroll.png": {
+      "bytes": 1482225,
+      "sha256": "9689ee7b4067e47a11484e25dc4704beecf8ce276bdd9dd4c5bb3b4cc0231e4e"
+    },
+    "png/brown-fan-flower-with-curled-green-leaf-branch.png": {
+      "bytes": 1698097,
+      "sha256": "3d78c02a48911918c4e4300c4a8ffd3fe42d491b7d7b198c1352387a6487718f"
+    },
+    "png/christ-carrying-cross-with-contacting-procession.png": {
+      "bytes": 2360969,
+      "sha256": "c7450f699f8630caba844efd11fba307e7ec1567c7a50f59d6594c4c60d52f0a"
+    },
+    "png/cook-with-ladle-dish-and-soup-cauldron.png": {
+      "bytes": 1903900,
+      "sha256": "71bdd88339e01525969a275ed9214cd68b3d4cd1262ee034f75bfff34c76be59"
+    },
+    "png/coronation-of-mary-with-six-angels-and-throne.png": {
+      "bytes": 2308583,
+      "sha256": "3856e33ff9284b6aa207202b57499cbb79ca4b168ffbcb5b6645ef1cfd02b72d"
+    },
+    "png/crossed-gray-blue-leaf-pair.png": {
+      "bytes": 547289,
+      "sha256": "bbe2fee8f7c171565b6b3f3b8925236e89191a2750141cf2ab4fa71cbe0671f1"
+    },
+    "png/crouching-hairy-figure-with-long-bent-implement.png": {
+      "bytes": 229490,
+      "sha256": "2a8528c6c0715f31027dfab4b2c5b0a9a80ec56cc9d2c3f6d4b80fce9fc3c847"
+    },
+    "png/diving-long-beaked-waterbird.png": {
+      "bytes": 209630,
+      "sha256": "f8e915ab926d3cd0ba9bbc77e5baf1cd7c96c173bd551d7d45d6cd5ff7fcb117"
+    },
+    "png/girl-kneading-bread-at-table-with-basket.png": {
+      "bytes": 1666528,
+      "sha256": "a0d4c69683b50f2086cde0230537c9890f64088077782c04f3c3c17b82fe9352"
+    },
+    "png/gold-ground-portrait-of-saint-paul-with-sword-and-book.png": {
+      "bytes": 410888,
+      "sha256": "936be91e4ad807fe44eec472212ce4a52d314756d3b9fb8099aef6a4950788e3"
+    },
+    "png/gray-blue-flower-with-red-center-and-green-leaf-scroll.png": {
+      "bytes": 1395330,
+      "sha256": "561cf97d491021a0f86df5aa3221feb6c90ce4b460b1bd4e4c4c7ae3ee636e73"
+    },
+    "png/hairy-hunter-and-diving-bird-in-columned-pond-scene.png": {
+      "bytes": 3051402,
+      "sha256": "aaee7af7b30f406dbf59839d54ae73b14139cadd2a9218daf724d5d7b05c2f3c"
+    },
+    "png/horizontal-brown-flower-with-long-green-leaves.png": {
+      "bytes": 487572,
+      "sha256": "70108dfff4011ea8328bce2203881255f74e7adea173cd89aa343cff4d9f5872"
+    },
+    "png/horizontal-pea-pod-with-two-leaves.png": {
+      "bytes": 1097035,
+      "sha256": "2575ca3f348eb3d361dca8caaf890994610e533a01c67a233fe681735fb35b94"
+    },
+    "png/human-headed-bird-with-curved-gold-neck-and-brown-wings.png": {
+      "bytes": 216592,
+      "sha256": "166830c7ef07d992d3d85f61623a1dcba5ae733498e0e141f6a893bf75378dd5"
+    },
+    "png/human-headed-bird.png": {
+      "bytes": 288430,
+      "sha256": "9f344d77bf1b3aa9e02822a4b99cd0562323585703c23f5d6f6651405e389f15"
+    },
+    "png/kneeling-blue-robed-angel-with-long-green-wings.png": {
+      "bytes": 1671695,
+      "sha256": "d15749de990cec649d6c88823a1e99d9c1449efbad04c8a8d9ebab05c156bdbd"
+    },
+    "png/kneeling-green-robed-angel-with-long-green-wings.png": {
+      "bytes": 1910971,
+      "sha256": "9b80094f62a1ac7e7bd93b8a47619e5e57e5caa20c4a7744f3f775aba0d072e4"
+    },
+    "png/left-tan-robed-man-visible-half-figure.png": {
+      "bytes": 159168,
+      "sha256": "c3012d9b89df7089ec8336629a3bda6f7daf99b9f4ac3d45db6092923bd60882"
+    },
+    "png/lower-left-pair-of-contacting-figures.png": {
+      "bytes": 581157,
+      "sha256": "616160c0ee6da869039ab63e84714d28a979f796960858ef3ad801349ce944ff"
+    },
+    "png/lower-right-pair-of-contacting-figures.png": {
+      "bytes": 795852,
+      "sha256": "ea90a2ad7a50a6abc023e01bb324a0728eb28d2b5846e9c23fb960dcf5894c8d"
+    },
+    "png/pale-yellow-daisy-on-lobed-green-leaf-scroll.png": {
+      "bytes": 1621467,
+      "sha256": "0da835636c646713779c64c9d4cc772d74cecdf1c9a6d9bbc91beeb15aeee97d"
+    },
+    "png/pale-yellow-flower-with-long-green-leaf-stem.png": {
+      "bytes": 1655504,
+      "sha256": "05f23e049bf04a790712004e7b0f505863873bed16c206075ee9b2537127cb2a"
+    },
+    "png/pink-and-blue-upright-flower-on-curving-stem.png": {
+      "bytes": 1221745,
+      "sha256": "c75b9988a4acbad6670baf373de2e167406accea2f0482bc4c917192541363ed"
+    },
+    "png/pointed-blue-red-flower-with-long-green-stem.png": {
+      "bytes": 1069895,
+      "sha256": "6b3c440fe88811acb2ecbc8dd44e76bceae9bde9e813562e07140b70899afa06"
+    },
+    "png/red-scalloped-flower-on-long-green-leaves.png": {
+      "bytes": 1856376,
+      "sha256": "9155af319d37dbc6a35f7252c56be6795ee4f0b957f24247ce71717f54b5335d"
+    },
+    "png/right-blue-red-robed-man-visible-half-figure.png": {
+      "bytes": 153493,
+      "sha256": "81a5c13390e5e34b5789791524fe7ee1c2b5426641e189931272e53d4aa5ed15"
+    },
+    "png/saint-paul-visible-bust-with-sword-and-book.png": {
+      "bytes": 280456,
+      "sha256": "d63dfd7e6dbd14c77dd5c87c38cad999eadc0d45d87f4333e58f8281cd3837b9"
+    },
+    "png/saint-paul-with-long-sword-and-book.png": {
+      "bytes": 548148,
+      "sha256": "99d1d20d78b290085dc9dfd4dc5fb1e38ab7a524172d2570b7a9450b8ed7f098"
+    },
+    "png/saint-peter-with-large-key.png": {
+      "bytes": 664496,
+      "sha256": "df1730a8b2f9ab4bfc377f94d0a424ba4fabcd207dc7d9d432c0c8368f4274bb"
+    },
+    "png/seated-red-squirrel-with-bushy-tail.png": {
+      "bytes": 2094263,
+      "sha256": "9a33fcb98c2a39259573ec9de5133e7bac67161b8a8b962e39bca4e8335a3344"
+    },
+    "png/small-brown-round-flower-on-leafy-stem.png": {
+      "bytes": 1028227,
+      "sha256": "178017f82e166bbed3f06501091a2e35980d135dc869011dd8f952f613f8736f"
+    },
+    "png/small-faded-gray-flower-on-green-stem.png": {
+      "bytes": 1035477,
+      "sha256": "8abfcd81f66c0403380aa4943d145e41bebe42a17c0dab15ef871cc19c729345"
+    },
+    "png/small-gray-bird-with-long-tail.png": {
+      "bytes": 179112,
+      "sha256": "db86395a5003ea04b795765f2b360b48ae240ffcc14229e0d15c1559631707b3"
+    },
+    "png/small-red-bud-on-long-horizontal-stem.png": {
+      "bytes": 571347,
+      "sha256": "fb18fef5f9005898e71bd655685efa827dd253b3d7f1707818bdd0afc07fbee7"
+    },
+    "png/small-upright-red-bud-with-long-stem.png": {
+      "bytes": 536144,
+      "sha256": "18708789b7d87c79002f41a4d51d18cd5a91418d6a8998b429b0663e48f7ce99"
+    },
+    "png/two-dancing-black-horned-figures-with-touching-feet.png": {
+      "bytes": 260399,
+      "sha256": "865a6aa4274aa8b7fb6dd9f94c2bd072dc9302dfc8d0bfb481f1fd2066095a4e"
+    },
+    "png/two-dancing-devils-in-gold-landscape-oval.png": {
+      "bytes": 902882,
+      "sha256": "9d3a554903307d8057ecf03265254589ac22b447bcdd12dee88befbb5b779050"
+    },
+    "png/upper-left-paired-green-leaves.png": {
+      "bytes": 738077,
+      "sha256": "a472b02f6f653dda8c650105bc72eee0d37bfca727acc6a8c54201f88b4b4032"
+    },
+    "png/upright-paired-green-leaves.png": {
+      "bytes": 1007462,
+      "sha256": "c0d4c95f825ba2532f3498788ed9223f57812eb3a50f295944cdf23ca51fd8a9"
+    },
+    "png/white-robed-winged-angel.png": {
+      "bytes": 196468,
+      "sha256": "58d9b9f495a97a71897e3c1f74355601d4523800697dd00264009841f233fe52"
+    },
+    "webp/128/angel-chasing-devil-in-gold-oval.webp": {
+      "bytes": 25754,
+      "sha256": "5d09506001487338999ce9cb179072cc508389b3a58f3badf7e77bd6495da841"
+    },
+    "webp/128/bearded-profile-head.webp": {
+      "bytes": 17232,
+      "sha256": "ae6985751ce6def391a7425b9206d78be9bfcd2e7689ead9b506ade68924b16e"
+    },
+    "webp/128/black-horned-devil.webp": {
+      "bytes": 9064,
+      "sha256": "4a475cf5db16fa0f3d580b5e6af5718b542de175931759bf63c85e39f00c3936"
+    },
+    "webp/128/blue-and-pink-bud-with-two-green-leaves.webp": {
+      "bytes": 9680,
+      "sha256": "5eec743d9aae4b15f1b91c90e71f72bc6d27127bb8ee26cc8ed5b2951880e933"
+    },
+    "webp/128/blue-clad-man-pulling-ornamental-stem.webp": {
+      "bytes": 12354,
+      "sha256": "1677d355db0bc1c8ebe2b75ae490340581a9608b11ae27357010f0abaf492f27"
+    },
+    "webp/128/blue-red-and-gray-radial-flower.webp": {
+      "bytes": 23182,
+      "sha256": "ef7f76ac05f469e173d3f588c0651f9a10fc7dccba87fc4e4fc88f250dfc3e29"
+    },
+    "webp/128/broad-green-leaf-scroll.webp": {
+      "bytes": 13950,
+      "sha256": "87bb72291e6e9476c545af26bafec35be6734d710742e3d73a86c020654d5600"
+    },
+    "webp/128/brown-fan-flower-with-curled-green-leaf-branch.webp": {
+      "bytes": 11574,
+      "sha256": "32d8e2f915bf1386fd8c7b5bdec57b7bf1b47994ec14a42e21465a2499ea1d24"
+    },
+    "webp/128/christ-carrying-cross-with-contacting-procession.webp": {
+      "bytes": 29206,
+      "sha256": "7810206ccc613492a986dbb74ffdfe0fa6ea9c716eaf0717278760d2678fd810"
+    },
+    "webp/128/cook-with-ladle-dish-and-soup-cauldron.webp": {
+      "bytes": 18258,
+      "sha256": "849d8d0d6b55f466e2fed5bfe1e13d539567752419989ea9fc003255c949c17a"
+    },
+    "webp/128/coronation-of-mary-with-six-angels-and-throne.webp": {
+      "bytes": 27172,
+      "sha256": "10c44d652641ea730cf2a4329d982b46a57eee6540c28ab40f163b2b9aed6c40"
+    },
+    "webp/128/crossed-gray-blue-leaf-pair.webp": {
+      "bytes": 7974,
+      "sha256": "8c150f0d2be5fda1ee8409c750c95f185b8d91ef5c88f57b442f14eed648f817"
+    },
+    "webp/128/crouching-hairy-figure-with-long-bent-implement.webp": {
+      "bytes": 11378,
+      "sha256": "19c49fdd1912bd4fc0abad2ebb6d179f0b880e7a47f67fb747695f26580be9f3"
+    },
+    "webp/128/diving-long-beaked-waterbird.webp": {
+      "bytes": 10514,
+      "sha256": "ade71c0ad59fb586431eeb00fb6bd659a407dd19b248d54fe38a0c6e2942e51c"
+    },
+    "webp/128/girl-kneading-bread-at-table-with-basket.webp": {
+      "bytes": 18368,
+      "sha256": "e727020ecb0740831601aefaf1debc67ddc2af5f4ff3bf5694ea1fb9965dbedb"
+    },
+    "webp/128/gold-ground-portrait-of-saint-paul-with-sword-and-book.webp": {
+      "bytes": 24740,
+      "sha256": "29b8be9329c4fa382046c90adfe726b018f476d8ade1540e333067b10a3fb13c"
+    },
+    "webp/128/gray-blue-flower-with-red-center-and-green-leaf-scroll.webp": {
+      "bytes": 13046,
+      "sha256": "e89501bc4a4a3d27d904d2348263c16fcc57ee796eddd3a77e9796746ce4247c"
+    },
+    "webp/128/hairy-hunter-and-diving-bird-in-columned-pond-scene.webp": {
+      "bytes": 11774,
+      "sha256": "99e8ec85759fd9b65211ea59542149ae5e92ecdc500078ea2cc371b7f42bceda"
+    },
+    "webp/128/horizontal-brown-flower-with-long-green-leaves.webp": {
+      "bytes": 3610,
+      "sha256": "26d9f96ea1d7db2498f0f53f120b16261de2c668af8c6957ccf1b05b21819159"
+    },
+    "webp/128/horizontal-pea-pod-with-two-leaves.webp": {
+      "bytes": 6498,
+      "sha256": "867c282a4249600b1645654807c89608ee1c9a6cab723a1753250bff28ac8c93"
+    },
+    "webp/128/human-headed-bird-with-curved-gold-neck-and-brown-wings.webp": {
+      "bytes": 12984,
+      "sha256": "9cdaf2f5f891373e8992c4bf429a7356bdd60f0cc9e32ec81da5dec5af720f3e"
+    },
+    "webp/128/human-headed-bird.webp": {
+      "bytes": 14740,
+      "sha256": "950cb467ad29fbf5e46ca75c6501dff4f4d8fe66fdfffd216eb6f43d1430f6c1"
+    },
+    "webp/128/kneeling-blue-robed-angel-with-long-green-wings.webp": {
+      "bytes": 20680,
+      "sha256": "1856bb77903e34f693f722b219eb18d99baf61248cb9d17ccfb31b6bcbbffe9b"
+    },
+    "webp/128/kneeling-green-robed-angel-with-long-green-wings.webp": {
+      "bytes": 21236,
+      "sha256": "101221296f8c9169d9081e246e45627fc2f3199047bd90702d565db6e475d9d2"
+    },
+    "webp/128/left-tan-robed-man-visible-half-figure.webp": {
+      "bytes": 12552,
+      "sha256": "d4f90dab87e62bf7103e2e67f168c5205f30aca583192222bedff54f56ff7f6b"
+    },
+    "webp/128/lower-left-pair-of-contacting-figures.webp": {
+      "bytes": 20008,
+      "sha256": "c92f7eb140c9b9bcd3cc0bcba089fdcfa504087d7e4df57b4808507f6b225f53"
+    },
+    "webp/128/lower-right-pair-of-contacting-figures.webp": {
+      "bytes": 22258,
+      "sha256": "f129c1b416c3245274c88dffca4584730b0a38174aa4bd533e3d2482523ede3b"
+    },
+    "webp/128/pale-yellow-daisy-on-lobed-green-leaf-scroll.webp": {
+      "bytes": 13300,
+      "sha256": "9e4b2e625808e25664175f4de5f4a69734dcdd10b9221ccd2e8c57b2e8f923f9"
+    },
+    "webp/128/pale-yellow-flower-with-long-green-leaf-stem.webp": {
+      "bytes": 11186,
+      "sha256": "4d521846b5b69e3c1d73736c3e39843c03a4eca44789c5f17dc64528f05933ac"
+    },
+    "webp/128/pink-and-blue-upright-flower-on-curving-stem.webp": {
+      "bytes": 9202,
+      "sha256": "66e8e14529bd445f1d78b3ffa2f41f24dc0a5a365d8ecb9aa5e4b54b33253874"
+    },
+    "webp/128/pointed-blue-red-flower-with-long-green-stem.webp": {
+      "bytes": 6798,
+      "sha256": "3aaf136889dbe644cecebb6e7840a47088c5c0893b4b3ab3697c89f745c4aa80"
+    },
+    "webp/128/red-scalloped-flower-on-long-green-leaves.webp": {
+      "bytes": 12778,
+      "sha256": "0634c29b084943b00c6ea03b1b040d2634d6811590216f8575cbf2f10e3ff815"
+    },
+    "webp/128/right-blue-red-robed-man-visible-half-figure.webp": {
+      "bytes": 14336,
+      "sha256": "7818a3fbf8e92cde32928dc9fcf613b024aa69a3f7d700bcf3c26be92b06d130"
+    },
+    "webp/128/saint-paul-visible-bust-with-sword-and-book.webp": {
+      "bytes": 18802,
+      "sha256": "5f35092edd8b818474db3ce6605ce38550dab74f6563413602472b59f7355610"
+    },
+    "webp/128/saint-paul-with-long-sword-and-book.webp": {
+      "bytes": 11190,
+      "sha256": "4762b1bddb8e80083375f6157be52103b771a74ca6b4811e19c204e46633b73e"
+    },
+    "webp/128/saint-peter-with-large-key.webp": {
+      "bytes": 12862,
+      "sha256": "4b2bdca722d8ce7de573fc96bfdae485cc9df23ed9c811df2dc84e12dade0f6f"
+    },
+    "webp/128/seated-red-squirrel-with-bushy-tail.webp": {
+      "bytes": 17292,
+      "sha256": "e721ac068d6b326ee1507841a448f90b47dc9081c75a2763f4950179c0cb48bd"
+    },
+    "webp/128/small-brown-round-flower-on-leafy-stem.webp": {
+      "bytes": 6316,
+      "sha256": "f98dcc50a7f58ac8ebb84bb6c3c48387c5b416d1f58884fb1963a90d3cd05e52"
+    },
+    "webp/128/small-faded-gray-flower-on-green-stem.webp": {
+      "bytes": 8366,
+      "sha256": "f2d9eeb852b8c5d69f1fce0fd6eae2bbcf0eefffa719b1618b3264fe62d36c93"
+    },
+    "webp/128/small-gray-bird-with-long-tail.webp": {
+      "bytes": 9922,
+      "sha256": "03c90975c34aba6df8ee9212ff63f27d676da9cee2fae743cdbda4bbbe28386f"
+    },
+    "webp/128/small-red-bud-on-long-horizontal-stem.webp": {
+      "bytes": 9864,
+      "sha256": "1053e3326baa196d479cfd36aa8a55e9c47b515124952eb4a412e03a8f30f84a"
+    },
+    "webp/128/small-upright-red-bud-with-long-stem.webp": {
+      "bytes": 8792,
+      "sha256": "4bebc05a023c3d3d5929d8e2d66f6ba33fa882031cc9660a3e803fdd231a3fb4"
+    },
+    "webp/128/two-dancing-black-horned-figures-with-touching-feet.webp": {
+      "bytes": 14572,
+      "sha256": "7e4786e26b15964b11d31f28dc41e76e0118aceeceb3bbc9ddd430159996fb38"
+    },
+    "webp/128/two-dancing-devils-in-gold-landscape-oval.webp": {
+      "bytes": 25848,
+      "sha256": "d41d466a0a6f9f1697d3c33bd807100767796f0e81786be7fb84c696d18bb815"
+    },
+    "webp/128/upper-left-paired-green-leaves.webp": {
+      "bytes": 10698,
+      "sha256": "9b046f18458b458c5d88d5586cc433b706bd1a70cb8339a9d187cbd6b19dbc9a"
+    },
+    "webp/128/upright-paired-green-leaves.webp": {
+      "bytes": 8376,
+      "sha256": "a795553f6813f9243a5408faac9a1cd9bc42e77a812d9dff30478247384896fa"
+    },
+    "webp/128/white-robed-winged-angel.webp": {
+      "bytes": 13776,
+      "sha256": "320cc9d0d130f86611c31809d71ee280653f22f401c81fa1b3b5ce61ba443c99"
+    },
+    "webp/256/angel-chasing-devil-in-gold-oval.webp": {
+      "bytes": 78980,
+      "sha256": "c60ec52c389ea02a98a9336c8b51b3f3304989282da5890b08716c00a794f38c"
+    },
+    "webp/256/bearded-profile-head.webp": {
+      "bytes": 58670,
+      "sha256": "1c43be9930487727a8431d7114d231bd518ea5e39b9ec6a215356ec8695ac447"
+    },
+    "webp/256/black-horned-devil.webp": {
+      "bytes": 25596,
+      "sha256": "b07007963c2bb6a41b04ed6bd69052703b4a412dc84518ba55a999124e2b0d75"
+    },
+    "webp/256/blue-and-pink-bud-with-two-green-leaves.webp": {
+      "bytes": 29816,
+      "sha256": "f99643e5dd5e0b292651243fd4636b0d9f037afe34515f2ff77a5c2661770df4"
+    },
+    "webp/256/blue-clad-man-pulling-ornamental-stem.webp": {
+      "bytes": 37814,
+      "sha256": "eb8d74b7c260798472d9e666eb05b170feb2325a424e4b8d9bf194a3c4c97240"
+    },
+    "webp/256/blue-red-and-gray-radial-flower.webp": {
+      "bytes": 80170,
+      "sha256": "b8bb7e40b2b02537671dc1776f7fdbf5c6fe20bbe778a4ab4b0db3092c3347d5"
+    },
+    "webp/256/broad-green-leaf-scroll.webp": {
+      "bytes": 47060,
+      "sha256": "9e6a47aff5940c75fbe01779dfac82a3228ed34f43400fe5f9206fc23db9e991"
+    },
+    "webp/256/brown-fan-flower-with-curled-green-leaf-branch.webp": {
+      "bytes": 36822,
+      "sha256": "8c7d6b8bcf18dbc6a72ee92e0a938ef54f6d04dc729e99c347a1bfbba9a87efa"
+    },
+    "webp/256/christ-carrying-cross-with-contacting-procession.webp": {
+      "bytes": 94906,
+      "sha256": "96db2d07c8d1fb7d5770849c715d7d4c10158be6d3a875b7cf998cc785eda07b"
+    },
+    "webp/256/cook-with-ladle-dish-and-soup-cauldron.webp": {
+      "bytes": 59092,
+      "sha256": "0a1d174361a34f3472b652fc74bbfe68059a0598db5946776fc5740d146324c2"
+    },
+    "webp/256/coronation-of-mary-with-six-angels-and-throne.webp": {
+      "bytes": 89724,
+      "sha256": "1927b2f0052ad30f80f22f926354aa44e87ac2e3e2129b1e25b223dc73b85c77"
+    },
+    "webp/256/crossed-gray-blue-leaf-pair.webp": {
+      "bytes": 25638,
+      "sha256": "daa9c05799e404e0f6d624610c729d970af1e13ca8f17c0642405067dadc0eef"
+    },
+    "webp/256/crouching-hairy-figure-with-long-bent-implement.webp": {
+      "bytes": 33282,
+      "sha256": "b529b767e04d37dc999d9cf48a3ba760c1291b6f14660d45be4134ffbbf1363f"
+    },
+    "webp/256/diving-long-beaked-waterbird.webp": {
+      "bytes": 30826,
+      "sha256": "e66788b887f924f30f7dc0b47114bd5e10117e27b9dc49ca666d2a4204f0d15b"
+    },
+    "webp/256/girl-kneading-bread-at-table-with-basket.webp": {
+      "bytes": 53906,
+      "sha256": "0390a0ddeedddc70b5bbe4dd9e67d702e8c231b593f2af2d929bcfaedfe010e7"
+    },
+    "webp/256/gold-ground-portrait-of-saint-paul-with-sword-and-book.webp": {
+      "bytes": 84640,
+      "sha256": "d39de39654aceca0dba81df40ad109ab8aa1ef94cc666d16086781dc2b7af4cd"
+    },
+    "webp/256/gray-blue-flower-with-red-center-and-green-leaf-scroll.webp": {
+      "bytes": 39846,
+      "sha256": "7cac139a02523423fe72976b2002a0cbb9366aa8d1ef235d0680b65ae90c51e1"
+    },
+    "webp/256/hairy-hunter-and-diving-bird-in-columned-pond-scene.webp": {
+      "bytes": 39992,
+      "sha256": "27afeb784631e9bf51c401eb1756e512777d5c9694ea29266a3a1decc7ed5842"
+    },
+    "webp/256/horizontal-brown-flower-with-long-green-leaves.webp": {
+      "bytes": 10298,
+      "sha256": "37a157bedc214f66b9ae15f3f177d089c9b3a3c101d30146ec6c257735aeeee6"
+    },
+    "webp/256/horizontal-pea-pod-with-two-leaves.webp": {
+      "bytes": 19524,
+      "sha256": "38565888abec77a2e8f37760349f4c7478dd137c90fa559ef4f78b451db33c3c"
+    },
+    "webp/256/human-headed-bird-with-curved-gold-neck-and-brown-wings.webp": {
+      "bytes": 39140,
+      "sha256": "3e733ee70f6361418e2de23e50583b8da0e3e6b1fe2c13aff370ddf4dcba4a80"
+    },
+    "webp/256/human-headed-bird.webp": {
+      "bytes": 44764,
+      "sha256": "a6075d61647b03d1f6698f6781ff209d82ff5a8809c0361ac96fd95835a6cebc"
+    },
+    "webp/256/kneeling-blue-robed-angel-with-long-green-wings.webp": {
+      "bytes": 65882,
+      "sha256": "7163162a9f5d338b86ad25fc838964af8e4f8f708b0fb1072e0d8e5649c486e1"
+    },
+    "webp/256/kneeling-green-robed-angel-with-long-green-wings.webp": {
+      "bytes": 70478,
+      "sha256": "f6f8598678b163f275667b44486c41875d10fde1398ed7c0089aacc97bfa3de3"
+    },
+    "webp/256/left-tan-robed-man-visible-half-figure.webp": {
+      "bytes": 38862,
+      "sha256": "e25543b74c5fbee82a917969192ad8e344b9a57228c6df4c197ab775b9b76f53"
+    },
+    "webp/256/lower-left-pair-of-contacting-figures.webp": {
+      "bytes": 65732,
+      "sha256": "e479457a8038899601205b097c8e0e0a438f0c9b4fe5b9e3f91d88878caef483"
+    },
+    "webp/256/lower-right-pair-of-contacting-figures.webp": {
+      "bytes": 69712,
+      "sha256": "6774e48183039071c553a668aa3c20eabf9a8f8e1f7c2cf4e93900e6cbdf3d90"
+    },
+    "webp/256/pale-yellow-daisy-on-lobed-green-leaf-scroll.webp": {
+      "bytes": 40958,
+      "sha256": "431b0f1a095e37d99adad8e8b36c6dda21dd53d4eb30eba79fa8d5c7ed99b942"
+    },
+    "webp/256/pale-yellow-flower-with-long-green-leaf-stem.webp": {
+      "bytes": 36834,
+      "sha256": "39e4a8664fd0a186d1d752491cadce833ea37bc699bcf0ec63528e8f90279468"
+    },
+    "webp/256/pink-and-blue-upright-flower-on-curving-stem.webp": {
+      "bytes": 25786,
+      "sha256": "a3a59c6b761579f227d54b75eb7b2a62330918d1c3936fe90f6f23ac048ebc6e"
+    },
+    "webp/256/pointed-blue-red-flower-with-long-green-stem.webp": {
+      "bytes": 22288,
+      "sha256": "038f564441389de391cc33d18e2b66ac1f02c449576d415f6404e139641c4711"
+    },
+    "webp/256/red-scalloped-flower-on-long-green-leaves.webp": {
+      "bytes": 40946,
+      "sha256": "547fa4f1a7f7a1d7b33db5467e727be251146d8f0851d028652dbae02fd91056"
+    },
+    "webp/256/right-blue-red-robed-man-visible-half-figure.webp": {
+      "bytes": 48830,
+      "sha256": "2b52d1e2b426038b4f2dbe3573b56bb180c763185e9c2b8654aea605a8faaa8e"
+    },
+    "webp/256/saint-paul-visible-bust-with-sword-and-book.webp": {
+      "bytes": 63952,
+      "sha256": "e088b12a9a9d0fb06622524e68d1e1da7ab8584fed6441e5634122b068871274"
+    },
+    "webp/256/saint-paul-with-long-sword-and-book.webp": {
+      "bytes": 36010,
+      "sha256": "235a28ec9c297c1cb99f9c666d632e4720306234dcf3b3bb8d9fef92ef2a79b6"
+    },
+    "webp/256/saint-peter-with-large-key.webp": {
+      "bytes": 43948,
+      "sha256": "e9e49aaa08a95e176a8fbe8780b24d15ac43a47d64bb3238890d85dd5860f8d6"
+    },
+    "webp/256/seated-red-squirrel-with-bushy-tail.webp": {
+      "bytes": 56756,
+      "sha256": "6477f12be9f545230e4875693c2412f59d39d67e6874654fff742dcdb1bf1b80"
+    },
+    "webp/256/small-brown-round-flower-on-leafy-stem.webp": {
+      "bytes": 20090,
+      "sha256": "a879929065bd173f1d81a708cd0d5603859f4880df9c7162385e3230c71432b6"
+    },
+    "webp/256/small-faded-gray-flower-on-green-stem.webp": {
+      "bytes": 24912,
+      "sha256": "15f898b9a1502697bf989aa7a35a364c63fee712e6528fcb83393f4309061dc8"
+    },
+    "webp/256/small-gray-bird-with-long-tail.webp": {
+      "bytes": 33756,
+      "sha256": "f79fd291f28aa8aca6be18bef51db412c19f7173c469b24a17d6e243db10b151"
+    },
+    "webp/256/small-red-bud-on-long-horizontal-stem.webp": {
+      "bytes": 29656,
+      "sha256": "f76039f4622b531534b4eef905f6e2d390f77efa58c0a69dba97d22d7d9651e1"
+    },
+    "webp/256/small-upright-red-bud-with-long-stem.webp": {
+      "bytes": 26610,
+      "sha256": "0bdbb34deaadb133f287ce5bbe5c67a5f08fe5f4bd954818e0f3e0482e2e064e"
+    },
+    "webp/256/two-dancing-black-horned-figures-with-touching-feet.webp": {
+      "bytes": 41434,
+      "sha256": "03deef837368f5dd963eca93db3cc080cc1fc838eae584ea3902a7cafcfaafa0"
+    },
+    "webp/256/two-dancing-devils-in-gold-landscape-oval.webp": {
+      "bytes": 86834,
+      "sha256": "0528e9a16525155aa226e9f7a37e7bc03e5ec8b9c37b04c331144c95d0066c53"
+    },
+    "webp/256/upper-left-paired-green-leaves.webp": {
+      "bytes": 32266,
+      "sha256": "41ae6b26886c33d78b7d2c012e205bf1f2e7489b22578dfbbce6c88325486d09"
+    },
+    "webp/256/upright-paired-green-leaves.webp": {
+      "bytes": 26188,
+      "sha256": "eeb5c9b0203969d7f2b83f3c348413981a8cfe602daffbc72e2ea312c3fc6b99"
+    },
+    "webp/256/white-robed-winged-angel.webp": {
+      "bytes": 38354,
+      "sha256": "4b110ac9dc875d062c893dba3fe22b6c66ee09a9096411ae6843c18b180161e9"
+    },
+    "webp/512/angel-chasing-devil-in-gold-oval.webp": {
+      "bytes": 229558,
+      "sha256": "b2a34930fd0f0057882c4733b962acef7572da7dc3643fc5a1896b991b436734"
+    },
+    "webp/512/black-horned-devil.webp": {
+      "bytes": 76302,
+      "sha256": "ef971dfc68ea375ecfc231ed5ed165a1a0eab6f86ee8f1ba38c866e881be55e9"
+    },
+    "webp/512/blue-and-pink-bud-with-two-green-leaves.webp": {
+      "bytes": 97914,
+      "sha256": "08feaff165b8d501bd225ae9ae1af784b12fd439ce2fa2ee0eab5c6beb15c488"
+    },
+    "webp/512/blue-clad-man-pulling-ornamental-stem.webp": {
+      "bytes": 126824,
+      "sha256": "b2c8e823bec0b9eb2a8f69f960a5ed644688a367afee040e5446f3a9a5747faf"
+    },
+    "webp/512/blue-red-and-gray-radial-flower.webp": {
+      "bytes": 285196,
+      "sha256": "346da3b5d3bef33e060a9aa18d26d619797be6a843cf8829bec05f662f9261c0"
+    },
+    "webp/512/broad-green-leaf-scroll.webp": {
+      "bytes": 139824,
+      "sha256": "7fb215c1a5aa008bbd4707c7a80b5fce4c65ae6e92ab03e7d72011cd93420e0a"
+    },
+    "webp/512/brown-fan-flower-with-curled-green-leaf-branch.webp": {
+      "bytes": 110226,
+      "sha256": "504a274ca33ae9d59880c6ef10e52732f277630c11fdc34e179ae3d5ce8c0312"
+    },
+    "webp/512/christ-carrying-cross-with-contacting-procession.webp": {
+      "bytes": 329464,
+      "sha256": "decefb4315d54da967c9c34fbb7958ec5f77ab377437e3ad873a7713eba54ed8"
+    },
+    "webp/512/cook-with-ladle-dish-and-soup-cauldron.webp": {
+      "bytes": 208854,
+      "sha256": "152cc556968fe1c2e1776788ec8d81fb5bc08c2a91947105cf5d0414f208630d"
+    },
+    "webp/512/coronation-of-mary-with-six-angels-and-throne.webp": {
+      "bytes": 306146,
+      "sha256": "7dba3d64c90bcc08bfcfcdba2557fe75bc726f5e34034d777d408a2d58963fae"
+    },
+    "webp/512/crossed-gray-blue-leaf-pair.webp": {
+      "bytes": 80668,
+      "sha256": "f9f2ff4190a7f35615c23826cfba2fde51bda77a164c06e373bd553f27bdca41"
+    },
+    "webp/512/crouching-hairy-figure-with-long-bent-implement.webp": {
+      "bytes": 93114,
+      "sha256": "67a749e7d3cf8ffcc09e1ce2148a0d807eb966a9a09d04c195ca633c3c5ad770"
+    },
+    "webp/512/diving-long-beaked-waterbird.webp": {
+      "bytes": 90008,
+      "sha256": "5d471a0ed9f469ab56d579c4ef6068756ba732f78e15229cd60a439a5779bddd"
+    },
+    "webp/512/girl-kneading-bread-at-table-with-basket.webp": {
+      "bytes": 191168,
+      "sha256": "c20b5e27f49b458ade973a7ca417210b327b22b3c3e7d42b1a6604fdca596915"
+    },
+    "webp/512/gold-ground-portrait-of-saint-paul-with-sword-and-book.webp": {
+      "bytes": 280396,
+      "sha256": "d4b270cf3b597f36cf403c8de82f3b4108adf1be0119ffe233ff35122597fc58"
+    },
+    "webp/512/gray-blue-flower-with-red-center-and-green-leaf-scroll.webp": {
+      "bytes": 131778,
+      "sha256": "8b1e6a9064d2528204eb440d838c78369e2f8ac163d499ae09898c1bb4180204"
+    },
+    "webp/512/hairy-hunter-and-diving-bird-in-columned-pond-scene.webp": {
+      "bytes": 137740,
+      "sha256": "4027eb0d6de2b0620acb3611cdd17ba8cfb114cf9503d4c98367f92d858e9405"
+    },
+    "webp/512/horizontal-brown-flower-with-long-green-leaves.webp": {
+      "bytes": 31744,
+      "sha256": "4dedb8c3afb7abfe1294fc82641cc6512cd5cf1729559ba3b6113339052c916b"
+    },
+    "webp/512/horizontal-pea-pod-with-two-leaves.webp": {
+      "bytes": 64128,
+      "sha256": "1e99a4be5f977c074f2a3a7981beece046f871fd6b961e565a0895f9248ea590"
+    },
+    "webp/512/human-headed-bird-with-curved-gold-neck-and-brown-wings.webp": {
+      "bytes": 117632,
+      "sha256": "3bf0168a0ab3080d786deb7173007fba1f81019ee5315d220a2d89c8467f39d5"
+    },
+    "webp/512/human-headed-bird.webp": {
+      "bytes": 150626,
+      "sha256": "44ca67ea03fbf69f65985a2f4b8a2671b1886949dc89168919e64a380d721c6b"
+    },
+    "webp/512/kneeling-blue-robed-angel-with-long-green-wings.webp": {
+      "bytes": 227832,
+      "sha256": "0e308bbcd1371ea3f27f472c2ff1b2898e642715edce0f5a19a9df24285eacde"
+    },
+    "webp/512/kneeling-green-robed-angel-with-long-green-wings.webp": {
+      "bytes": 241764,
+      "sha256": "34ed76fcc3726681227036f7ef5db8c261f2c860cf4b65e94ad3a9533ef63a55"
+    },
+    "webp/512/lower-left-pair-of-contacting-figures.webp": {
+      "bytes": 229498,
+      "sha256": "8064033491908e1a027d2cb7a5b11b179ec851de9d1fc9a3756d2b56bc66418e"
+    },
+    "webp/512/lower-right-pair-of-contacting-figures.webp": {
+      "bytes": 248684,
+      "sha256": "1929541b2b16c9228dbd088d24d53ea4706e35a3c8ed36d1e808c2e204d0e70a"
+    },
+    "webp/512/pale-yellow-daisy-on-lobed-green-leaf-scroll.webp": {
+      "bytes": 130336,
+      "sha256": "5030151d6d04f002c94e9b6dadd7f3f1f59c5133880e3abbb2f37775c4a4167f"
+    },
+    "webp/512/pale-yellow-flower-with-long-green-leaf-stem.webp": {
+      "bytes": 113486,
+      "sha256": "6174f1aaabe56b4bde3117cacad007b9816a952fb6a8a6898a6eca4f3ff4aa6d"
+    },
+    "webp/512/pink-and-blue-upright-flower-on-curving-stem.webp": {
+      "bytes": 85552,
+      "sha256": "b65a38cb13e20cd729c98a8ebc968e56cf730be1e2657dd5b8f58b34e7a84fc2"
+    },
+    "webp/512/pointed-blue-red-flower-with-long-green-stem.webp": {
+      "bytes": 63608,
+      "sha256": "98e60c7a8fe744eec0e4349de5ccea9e7a1a81be5f4685949099ebc037c59cfb"
+    },
+    "webp/512/red-scalloped-flower-on-long-green-leaves.webp": {
+      "bytes": 136684,
+      "sha256": "c861ca4f090b8a96cd4ab61a094a8a58891be33bb4b60e30f81ae051d215d2c4"
+    },
+    "webp/512/saint-paul-with-long-sword-and-book.webp": {
+      "bytes": 120160,
+      "sha256": "dc00534471423b86f32cfb506fd1500959929d2cdc54d0c8b63e62e901149d83"
+    },
+    "webp/512/saint-peter-with-large-key.webp": {
+      "bytes": 148514,
+      "sha256": "55a7d3dbcbfab0fb4a444e9ed802b61266f50f795c115f51b8792091af092862"
+    },
+    "webp/512/seated-red-squirrel-with-bushy-tail.webp": {
+      "bytes": 198254,
+      "sha256": "0e9870ac10112a27c8796585943dad12ef62e71732bf0a42b454ee9c0a3de7e1"
+    },
+    "webp/512/small-brown-round-flower-on-leafy-stem.webp": {
+      "bytes": 59162,
+      "sha256": "d6a248d5716e702603b6a0a40ecff7abdd05edf7308fb936be569ce5fdf64554"
+    },
+    "webp/512/small-faded-gray-flower-on-green-stem.webp": {
+      "bytes": 80664,
+      "sha256": "bc80fe17372d0da6f071104f6687ea567d3e4512359087d97c3c8ccc900421b2"
+    },
+    "webp/512/small-gray-bird-with-long-tail.webp": {
+      "bytes": 110810,
+      "sha256": "1b517ea380fbe52f2864287a82f85a977fc770655c2a4f34887dcded02b196ff"
+    },
+    "webp/512/small-red-bud-on-long-horizontal-stem.webp": {
+      "bytes": 97146,
+      "sha256": "5c0132d4558d2f1394cccf11ad55939ebe2c97a413ca4aa838365ac269f1634b"
+    },
+    "webp/512/small-upright-red-bud-with-long-stem.webp": {
+      "bytes": 89036,
+      "sha256": "5bb465a48778ee41890b919a3c698b52593ec15307b26f53f71f39eecdf741bb"
+    },
+    "webp/512/two-dancing-black-horned-figures-with-touching-feet.webp": {
+      "bytes": 127874,
+      "sha256": "e06d6fcca2e902269b0f7244f70e47f042dd5705806ae98acb9dc9265579692f"
+    },
+    "webp/512/two-dancing-devils-in-gold-landscape-oval.webp": {
+      "bytes": 255728,
+      "sha256": "7c56096aaaa8e8a96602c399ff2ca7b5fc5f36dfbda827a08848240a78e04960"
+    },
+    "webp/512/upper-left-paired-green-leaves.webp": {
+      "bytes": 109166,
+      "sha256": "5bac65103c2a93ca4298157c73305090bd7465c28fa57361d267d99f1438eeb0"
+    },
+    "webp/512/upright-paired-green-leaves.webp": {
+      "bytes": 81922,
+      "sha256": "e2c30391bc8af75170d83ea0b2ff10ea10946c7c3b6fd06d6256c05acd08f4fc"
+    },
+    "webp/512/white-robed-winged-angel.webp": {
+      "bytes": 103286,
+      "sha256": "2e55fc5df59f7d53410d8c10e49b842fc06090624d519b608b85157910369cbf"
+    },
+    "webp/768/angel-chasing-devil-in-gold-oval.webp": {
+      "bytes": 467330,
+      "sha256": "b22789c2344a93c53179e4f1807095d609882bd9006e05dc5ac9ed67ebaf31be"
+    },
+    "webp/768/blue-and-pink-bud-with-two-green-leaves.webp": {
+      "bytes": 202246,
+      "sha256": "75d0026aef52a421dc231449b1a947008678528b66b605408db784bfff43be59"
+    },
+    "webp/768/blue-clad-man-pulling-ornamental-stem.webp": {
+      "bytes": 269332,
+      "sha256": "b328ec90e7fcc9caff3d3deb95fc0f9a993bad914550c82350f16c37a4621b58"
+    },
+    "webp/768/blue-red-and-gray-radial-flower.webp": {
+      "bytes": 628714,
+      "sha256": "32989627fdd5a62e74ba67830caa8c4fc8cb54a50ce79ab93fa4fd230ac5ffa7"
+    },
+    "webp/768/broad-green-leaf-scroll.webp": {
+      "bytes": 291672,
+      "sha256": "55d82774c42128d4747abfc6d0fa81489ac188d2393da1a66dd1009316dff86b"
+    },
+    "webp/768/brown-fan-flower-with-curled-green-leaf-branch.webp": {
+      "bytes": 223980,
+      "sha256": "d3086163be55fc84a6a917ae3a5f9261665ea0078326b7b7caed90c3b968d2ae"
+    },
+    "webp/768/christ-carrying-cross-with-contacting-procession.webp": {
+      "bytes": 686902,
+      "sha256": "9d92eaec0aed84af6ae39e6a22b8722a65ca1fa8bb7f3bfe3106b005bfe64e25"
+    },
+    "webp/768/cook-with-ladle-dish-and-soup-cauldron.webp": {
+      "bytes": 451706,
+      "sha256": "5a720b9599fa3307030429053d6256a89955e59b4c7cc199b6df8e53a07060f6"
+    },
+    "webp/768/coronation-of-mary-with-six-angels-and-throne.webp": {
+      "bytes": 625948,
+      "sha256": "35427f314492862124faacd6cc8d50836c865d5358ca28a8c11e3a576f6e0a49"
+    },
+    "webp/768/crossed-gray-blue-leaf-pair.webp": {
+      "bytes": 172106,
+      "sha256": "9f19ece256b518055e8fafa8f08990c8275434bb32ab837639518006a33885d1"
+    },
+    "webp/768/girl-kneading-bread-at-table-with-basket.webp": {
+      "bytes": 411806,
+      "sha256": "64663697e8bdcc60daf0693594449f16f865768a20cc6343cc951196303e6cf9"
+    },
+    "webp/768/gray-blue-flower-with-red-center-and-green-leaf-scroll.webp": {
+      "bytes": 275918,
+      "sha256": "6991a4061a7271677336630c294a6e701999f2ec0697d95fdc0467433b280056"
+    },
+    "webp/768/hairy-hunter-and-diving-bird-in-columned-pond-scene.webp": {
+      "bytes": 286470,
+      "sha256": "bcc5ac0308c31d1e3509a2e399fecde82d437a946aef4411553754c3003b984c"
+    },
+    "webp/768/horizontal-brown-flower-with-long-green-leaves.webp": {
+      "bytes": 61590,
+      "sha256": "b5a06d9e923c2ba2bdf6345ac9bd9eebda4b4d8f427b708a9372a4d085a834c3"
+    },
+    "webp/768/horizontal-pea-pod-with-two-leaves.webp": {
+      "bytes": 133014,
+      "sha256": "ab0e627804149bfd50355e2fe2c104fa50e034061d2b885d0057cd8b2085282a"
+    },
+    "webp/768/kneeling-blue-robed-angel-with-long-green-wings.webp": {
+      "bytes": 486846,
+      "sha256": "6ea5e376ad5c115f2fb2d5f6b29e7c85a7215c18f0c3f54cf79ef75c9c97d2bc"
+    },
+    "webp/768/kneeling-green-robed-angel-with-long-green-wings.webp": {
+      "bytes": 511740,
+      "sha256": "ace1fbb620e464a53d82566e753460d1611ba7d02b7fc58a8200d624f30f20c1"
+    },
+    "webp/768/lower-right-pair-of-contacting-figures.webp": {
+      "bytes": 529058,
+      "sha256": "375b05777ba1f4c9ec03b693d2965b9e2547c1103f212e3a96a6877bf912dbd5"
+    },
+    "webp/768/pale-yellow-daisy-on-lobed-green-leaf-scroll.webp": {
+      "bytes": 269052,
+      "sha256": "7cd92a128e12610c13e3b4edcf2dd7385da88ffd0c1e7de4851aa64b697377f3"
+    },
+    "webp/768/pale-yellow-flower-with-long-green-leaf-stem.webp": {
+      "bytes": 230856,
+      "sha256": "afbfc325b309f7302ff28a1eb436f09c3fe13d2a03a23e360c5fa6227b2b1c0f"
+    },
+    "webp/768/pink-and-blue-upright-flower-on-curving-stem.webp": {
+      "bytes": 178142,
+      "sha256": "ad6af94a940cb185dacbc3826448ad304c39ddea0c13d1d978632eb1d9594851"
+    },
+    "webp/768/pointed-blue-red-flower-with-long-green-stem.webp": {
+      "bytes": 130390,
+      "sha256": "a66cd7933ef2a920e73fe8c08f51f14fc7a3105f9b57d65957304d014a708415"
+    },
+    "webp/768/red-scalloped-flower-on-long-green-leaves.webp": {
+      "bytes": 288512,
+      "sha256": "48605d5998946bb00065e2752744750b468015f49d737ef638655c9a7e614ac7"
+    },
+    "webp/768/saint-paul-with-long-sword-and-book.webp": {
+      "bytes": 255218,
+      "sha256": "e388989e7d993ca0529f58cb7c0b74b7c1e4e1453946735c38f8a69d5f7d20fd"
+    },
+    "webp/768/saint-peter-with-large-key.webp": {
+      "bytes": 313756,
+      "sha256": "237869dcd8d1b2840cb8c266ccf928b547a1c4da6950ee039b639fccf4a6823e"
+    },
+    "webp/768/seated-red-squirrel-with-bushy-tail.webp": {
+      "bytes": 423396,
+      "sha256": "3ab12ab6ce48c2b03b998c07b914091b9a185238b2950338607c3ca6895c9623"
+    },
+    "webp/768/small-brown-round-flower-on-leafy-stem.webp": {
+      "bytes": 119562,
+      "sha256": "3e9ae8d9b85f76923ba7c05201bb7164f54107673af008c2b04f0fbbb4e15737"
+    },
+    "webp/768/small-faded-gray-flower-on-green-stem.webp": {
+      "bytes": 165860,
+      "sha256": "0a32699dc24dc5ca5bc5bf3fc37dd96e807b7ecf79c2fb62161d3cf40109576a"
+    },
+    "webp/768/small-red-bud-on-long-horizontal-stem.webp": {
+      "bytes": 205944,
+      "sha256": "321ec4505481c23fdc2912aa68ba72ece87eb3350ea7d4a00099048050ffbec2"
+    },
+    "webp/768/small-upright-red-bud-with-long-stem.webp": {
+      "bytes": 186358,
+      "sha256": "b5c840e78b2cab5958a648218925a09d41d9d8ca45be775a159e90b71bfe6ba5"
+    },
+    "webp/768/two-dancing-devils-in-gold-landscape-oval.webp": {
+      "bytes": 489266,
+      "sha256": "89e0269cd11a00f73f6cb1c1ff50e94449b9c775905c3edb83c00deb6debefdc"
+    },
+    "webp/768/upper-left-paired-green-leaves.webp": {
+      "bytes": 234502,
+      "sha256": "7aa57bbbc955aa5053e0a4f93440ec22c7d7bacbb4f0789fb5d3c5ac96700ad6"
+    },
+    "webp/768/upright-paired-green-leaves.webp": {
+      "bytes": 165578,
+      "sha256": "c212c23ec7fdf86c25b025e727034fa3899f74037db72556231eb71812a300eb"
+    },
+    "webp/angel-chasing-devil-in-gold-oval.webp": {
+      "bytes": 624288,
+      "sha256": "ff077573a109c2c1e50971853f7a9a39bb19354bf411704facee064aecd9b331"
+    },
+    "webp/bearded-profile-head.webp": {
+      "bytes": 76300,
+      "sha256": "4f00d3f4af3300bfbca5e1ff97feb3674f51b21b69b260f85a6757305be57b74"
+    },
+    "webp/black-horned-devil.webp": {
+      "bytes": 95906,
+      "sha256": "f2bb691fc5fa4d180c4295b7c6032728cd73b2c4b59b9fd392843c568b0c7e6f"
+    },
+    "webp/blue-and-pink-bud-with-two-green-leaves.webp": {
+      "bytes": 638316,
+      "sha256": "c2154cee058a3afffe05bdd23b2ea48d0797c31c3c962b1061054cc20b02ff29"
+    },
+    "webp/blue-clad-man-pulling-ornamental-stem.webp": {
+      "bytes": 444130,
+      "sha256": "97a445f18b44aa110394b418993ef10136e66bcabb49f503d84b0a543a0d735b"
+    },
+    "webp/blue-red-and-gray-radial-flower.webp": {
+      "bytes": 1753298,
+      "sha256": "1f2b44c03a1a7633c6319cabb52df20986c605c05054bed53fe2874eecfa36bc"
+    },
+    "webp/broad-green-leaf-scroll.webp": {
+      "bytes": 1080198,
+      "sha256": "e4c2126fe7e15022e0e8419482cb01b4ca08f5ab9f11daf4b881a0767d8a7548"
+    },
+    "webp/brown-fan-flower-with-curled-green-leaf-branch.webp": {
+      "bytes": 1206052,
+      "sha256": "078e606f3060ac86060398829b19d5a5a47bd38964e4e51ee26ed17615814bef"
+    },
+    "webp/christ-carrying-cross-with-contacting-procession.webp": {
+      "bytes": 1728794,
+      "sha256": "90f44768e3f7a125f5a774e0f14adc2de37d63eb8054277006ac991cf00861a0"
+    },
+    "webp/cook-with-ladle-dish-and-soup-cauldron.webp": {
+      "bytes": 1300080,
+      "sha256": "118d5bd998031f9118c48e68ac53643750682a3c06a56185465c3b5cf9afc50b"
+    },
+    "webp/coronation-of-mary-with-six-angels-and-throne.webp": {
+      "bytes": 1655764,
+      "sha256": "b381b2f752dd541fa740beec9ef234bbf0bafcb4e88d68aa91aa9dd432f0b322"
+    },
+    "webp/crossed-gray-blue-leaf-pair.webp": {
+      "bytes": 378998,
+      "sha256": "53ab62f67f271cdf1fcfa1d09c41b4a819a9eb833cff6d076ce107268c7b4694"
+    },
+    "webp/crouching-hairy-figure-with-long-bent-implement.webp": {
+      "bytes": 146338,
+      "sha256": "f86d04a820ce6b62f0d0fd10d093b7087e7526077b2fc6e59767ad039fa9f8dc"
+    },
+    "webp/diving-long-beaked-waterbird.webp": {
+      "bytes": 135218,
+      "sha256": "31b0b00e2851a4150f437d2f84e451996d557bee817bc1631dbb48fe520f6a72"
+    },
+    "webp/girl-kneading-bread-at-table-with-basket.webp": {
+      "bytes": 1147656,
+      "sha256": "03fc60e49bfe58b98a90dfcd564dda88df370cae149f3d50cac561e5b9c81141"
+    },
+    "webp/gold-ground-portrait-of-saint-paul-with-sword-and-book.webp": {
+      "bytes": 278126,
+      "sha256": "029cdec95afc255a677e1c4efb3764844c4b11cffdc7cedbcc818f0ad711b51b"
+    },
+    "webp/gray-blue-flower-with-red-center-and-green-leaf-scroll.webp": {
+      "bytes": 1015188,
+      "sha256": "87bcb7535aed11556232f4bca05cb577c224a51094f4e3807fd554a28a573520"
+    },
+    "webp/hairy-hunter-and-diving-bird-in-columned-pond-scene.webp": {
+      "bytes": 1952110,
+      "sha256": "759e43395404965916fc406ec6444dfc33b6b4ea4c8af1c1ec762fd12023d1a5"
+    },
+    "webp/horizontal-brown-flower-with-long-green-leaves.webp": {
+      "bytes": 371132,
+      "sha256": "728de8c5c36a27f2af0a09c5329c8faf2985dfae40814cd51232f56f6e978f13"
+    },
+    "webp/horizontal-pea-pod-with-two-leaves.webp": {
+      "bytes": 771698,
+      "sha256": "a2fd96d75f4f9f77370720deabb56506362cb289fd0e7a4d321533f4651a46eb"
+    },
+    "webp/human-headed-bird-with-curved-gold-neck-and-brown-wings.webp": {
+      "bytes": 131918,
+      "sha256": "8ce30aee719b269317f6931ee76be4aa9f3b7090c1680f1aae85358de3917e63"
+    },
+    "webp/human-headed-bird.webp": {
+      "bytes": 194516,
+      "sha256": "93016f22c952bbea13244eff0badb8a724af934626e9fa40772ac286d7851733"
+    },
+    "webp/kneeling-blue-robed-angel-with-long-green-wings.webp": {
+      "bytes": 1256682,
+      "sha256": "e1135a4a98c2f9a8f4bfcdbb2ecd577dc5a9d102c960b30f7a7c5ff739a2c9c9"
+    },
+    "webp/kneeling-green-robed-angel-with-long-green-wings.webp": {
+      "bytes": 1316076,
+      "sha256": "109627d10cb9fee1ea02392c50fcb0213dc846bc95e41df2d5c5f9675bee74be"
+    },
+    "webp/left-tan-robed-man-visible-half-figure.webp": {
+      "bytes": 107532,
+      "sha256": "c8ba295cc13c91f50565124e493cd94c7c8ec33747ea99f04780596fbf7b614d"
+    },
+    "webp/lower-left-pair-of-contacting-figures.webp": {
+      "bytes": 407440,
+      "sha256": "ca9917169370f32d27ddad4f348674b7b790833c6facf52e8e1cc23fe7e8c4d5"
+    },
+    "webp/lower-right-pair-of-contacting-figures.webp": {
+      "bytes": 587926,
+      "sha256": "3a9fc48f40286da9bd60b1d70eef000a75721bbde10ee7a3c7d3734d3bc67680"
+    },
+    "webp/pale-yellow-daisy-on-lobed-green-leaf-scroll.webp": {
+      "bytes": 1150106,
+      "sha256": "ac6ebde4b038ac264ae0e7683a241773de9ac338394433bb829e9c6ce93eaa38"
+    },
+    "webp/pale-yellow-flower-with-long-green-leaf-stem.webp": {
+      "bytes": 1194410,
+      "sha256": "c278003635ab6219d323561bb9165828b1a201785f7cd3d67520191c76158a1d"
+    },
+    "webp/pink-and-blue-upright-flower-on-curving-stem.webp": {
+      "bytes": 871128,
+      "sha256": "261c8188a445ebd188af47f41f3b3d2cba7478373b0f4c0ea07ae11363ea796d"
+    },
+    "webp/pointed-blue-red-flower-with-long-green-stem.webp": {
+      "bytes": 776020,
+      "sha256": "794eddf8f1d35ad18286e9596e4510055ca8ae274612c73a5f8cc8b3dc2c34d3"
+    },
+    "webp/red-scalloped-flower-on-long-green-leaves.webp": {
+      "bytes": 1359842,
+      "sha256": "12eee3a17f3490b3338c8a3871979f23a7e409678ed0882486ad75f06356a1ce"
+    },
+    "webp/right-blue-red-robed-man-visible-half-figure.webp": {
+      "bytes": 108914,
+      "sha256": "0ded71d3a0b471880f9eced03d867736b1c5716888c46d12577dc7892de6802f"
+    },
+    "webp/saint-paul-visible-bust-with-sword-and-book.webp": {
+      "bytes": 199292,
+      "sha256": "18f3b1dbe14222191b7d4b427613ac26ded8dff2fd53e9c9625998b8709720c7"
+    },
+    "webp/saint-paul-with-long-sword-and-book.webp": {
+      "bytes": 373510,
+      "sha256": "74cba7581e580e2173b95d50e4823c8324aba9ca61b20e051f4eb63089936e07"
+    },
+    "webp/saint-peter-with-large-key.webp": {
+      "bytes": 466904,
+      "sha256": "fb51a077c525b4291bd8eb469f9cedd22302fffc34d15e08f8dd10b3d20f5778"
+    },
+    "webp/seated-red-squirrel-with-bushy-tail.webp": {
+      "bytes": 1408808,
+      "sha256": "2090325b940f530e0981b26405f5e4bcd6435d237920cfba1178ff12e86fd2ee"
+    },
+    "webp/small-brown-round-flower-on-leafy-stem.webp": {
+      "bytes": 727124,
+      "sha256": "9c3501e94be1c17b2190fec8694e2df280452ac2c93bb24077fd40f97554c88e"
+    },
+    "webp/small-faded-gray-flower-on-green-stem.webp": {
+      "bytes": 719812,
+      "sha256": "b810e673c4f25f0a42099270e31779787e2fc6a785490e999fd1f179e2b3e5f1"
+    },
+    "webp/small-gray-bird-with-long-tail.webp": {
+      "bytes": 116788,
+      "sha256": "71926ca425826e462053335403da258d79182383c632b30396d5b433c4329df2"
+    },
+    "webp/small-red-bud-on-long-horizontal-stem.webp": {
+      "bytes": 413478,
+      "sha256": "500b25ee33668a1414422dc5ea2ba1cfccc717cdf74d466c78b1065ee834d416"
+    },
+    "webp/small-upright-red-bud-with-long-stem.webp": {
+      "bytes": 387528,
+      "sha256": "45aa0ebfed33805e8cc793d8365e3a19aef3cf32f3ab99228e0cc4eb8d324ac5"
+    },
+    "webp/two-dancing-black-horned-figures-with-touching-feet.webp": {
+      "bytes": 167616,
+      "sha256": "6a484847b3f19a19da8db643c8451054b617420ecd06200b595730ab16bb86e6"
+    },
+    "webp/two-dancing-devils-in-gold-landscape-oval.webp": {
+      "bytes": 549784,
+      "sha256": "23ca3957b5b89716d5ae6410dea9d37472c26b742452af6a2a8a8b5456ceee66"
+    },
+    "webp/upper-left-paired-green-leaves.webp": {
+      "bytes": 537984,
+      "sha256": "9b9701104c80d8dc6564156c7b9f4ce6b5bd4a39005ab4275e027e4436d8a687"
+    },
+    "webp/upright-paired-green-leaves.webp": {
+      "bytes": 703128,
+      "sha256": "3ca9e738b5f3aa21cb3090b55230f1f32af149696dfd62057769bbe420f66504"
+    },
+    "webp/white-robed-winged-angel.webp": {
+      "bytes": 118738,
+      "sha256": "43272365b80f44c85f61764631190b2915562a11a3fb531dd61095bedddd8131"
+    }
+  },
+  "inputs": {
+    "sources/tiles/angel-chasing-devil-in-gold-oval.png": {
+      "bytes": 984149,
+      "sha256": "4e3200807a250bb9be3e72fe925c19ad99ad8d1c3a4f2176ad06632bfa94db3a"
+    },
+    "sources/tiles/bearded-profile-head.png": {
+      "bytes": 113595,
+      "sha256": "c7c346e06c68d5c61eeb0644ec70b3efd812581b31b56608b522e98d47890dd7"
+    },
+    "sources/tiles/black-horned-devil.png": {
+      "bytes": 148294,
+      "sha256": "cd2c843144ac6ea0ec826cbb56f42394411ef621369507c03bbf9c90db95040c"
+    },
+    "sources/tiles/blue-and-pink-bud-with-two-green-leaves.png": {
+      "bytes": 866981,
+      "sha256": "cfd75cc197457579bc9cb47fb61f1e76cf6a5087c9dbac0358045fdad5932f1c"
+    },
+    "sources/tiles/blue-clad-man-pulling-ornamental-stem.png": {
+      "bytes": 621075,
+      "sha256": "c567189c2977f52764eba4573811dbd7d1a347df9cfa91d8983fde039e49e2ba"
+    },
+    "sources/tiles/blue-red-and-gray-radial-flower.png": {
+      "bytes": 2461277,
+      "sha256": "e082a1afe3c9f5f2b698fffb504529be9b3f564a199c38be750ea236eb4280a9"
+    },
+    "sources/tiles/broad-green-leaf-scroll.png": {
+      "bytes": 1482225,
+      "sha256": "9689ee7b4067e47a11484e25dc4704beecf8ce276bdd9dd4c5bb3b4cc0231e4e"
+    },
+    "sources/tiles/brown-fan-flower-with-curled-green-leaf-branch.png": {
+      "bytes": 1698097,
+      "sha256": "3d78c02a48911918c4e4300c4a8ffd3fe42d491b7d7b198c1352387a6487718f"
+    },
+    "sources/tiles/christ-carrying-cross-with-contacting-procession.png": {
+      "bytes": 2360969,
+      "sha256": "c7450f699f8630caba844efd11fba307e7ec1567c7a50f59d6594c4c60d52f0a"
+    },
+    "sources/tiles/cook-with-ladle-dish-and-soup-cauldron.png": {
+      "bytes": 1903900,
+      "sha256": "71bdd88339e01525969a275ed9214cd68b3d4cd1262ee034f75bfff34c76be59"
+    },
+    "sources/tiles/coronation-of-mary-with-six-angels-and-throne.png": {
+      "bytes": 2308583,
+      "sha256": "3856e33ff9284b6aa207202b57499cbb79ca4b168ffbcb5b6645ef1cfd02b72d"
+    },
+    "sources/tiles/crossed-gray-blue-leaf-pair.png": {
+      "bytes": 547289,
+      "sha256": "bbe2fee8f7c171565b6b3f3b8925236e89191a2750141cf2ab4fa71cbe0671f1"
+    },
+    "sources/tiles/crouching-hairy-figure-with-long-bent-implement.png": {
+      "bytes": 229490,
+      "sha256": "2a8528c6c0715f31027dfab4b2c5b0a9a80ec56cc9d2c3f6d4b80fce9fc3c847"
+    },
+    "sources/tiles/diving-long-beaked-waterbird.png": {
+      "bytes": 209630,
+      "sha256": "f8e915ab926d3cd0ba9bbc77e5baf1cd7c96c173bd551d7d45d6cd5ff7fcb117"
+    },
+    "sources/tiles/girl-kneading-bread-at-table-with-basket.png": {
+      "bytes": 1666528,
+      "sha256": "a0d4c69683b50f2086cde0230537c9890f64088077782c04f3c3c17b82fe9352"
+    },
+    "sources/tiles/gold-ground-portrait-of-saint-paul-with-sword-and-book.png": {
+      "bytes": 410888,
+      "sha256": "936be91e4ad807fe44eec472212ce4a52d314756d3b9fb8099aef6a4950788e3"
+    },
+    "sources/tiles/gray-blue-flower-with-red-center-and-green-leaf-scroll.png": {
+      "bytes": 1395330,
+      "sha256": "561cf97d491021a0f86df5aa3221feb6c90ce4b460b1bd4e4c4c7ae3ee636e73"
+    },
+    "sources/tiles/hairy-hunter-and-diving-bird-in-columned-pond-scene.png": {
+      "bytes": 3051402,
+      "sha256": "aaee7af7b30f406dbf59839d54ae73b14139cadd2a9218daf724d5d7b05c2f3c"
+    },
+    "sources/tiles/horizontal-brown-flower-with-long-green-leaves.png": {
+      "bytes": 487572,
+      "sha256": "70108dfff4011ea8328bce2203881255f74e7adea173cd89aa343cff4d9f5872"
+    },
+    "sources/tiles/horizontal-pea-pod-with-two-leaves.png": {
+      "bytes": 1097035,
+      "sha256": "2575ca3f348eb3d361dca8caaf890994610e533a01c67a233fe681735fb35b94"
+    },
+    "sources/tiles/human-headed-bird.png": {
+      "bytes": 288430,
+      "sha256": "9f344d77bf1b3aa9e02822a4b99cd0562323585703c23f5d6f6651405e389f15"
+    },
+    "sources/tiles/human-headed-bird-with-curved-gold-neck-and-brown-wings.png": {
+      "bytes": 216592,
+      "sha256": "166830c7ef07d992d3d85f61623a1dcba5ae733498e0e141f6a893bf75378dd5"
+    },
+    "sources/tiles/kneeling-blue-robed-angel-with-long-green-wings.png": {
+      "bytes": 1671695,
+      "sha256": "d15749de990cec649d6c88823a1e99d9c1449efbad04c8a8d9ebab05c156bdbd"
+    },
+    "sources/tiles/kneeling-green-robed-angel-with-long-green-wings.png": {
+      "bytes": 1910971,
+      "sha256": "9b80094f62a1ac7e7bd93b8a47619e5e57e5caa20c4a7744f3f775aba0d072e4"
+    },
+    "sources/tiles/left-tan-robed-man-visible-half-figure.png": {
+      "bytes": 159168,
+      "sha256": "c3012d9b89df7089ec8336629a3bda6f7daf99b9f4ac3d45db6092923bd60882"
+    },
+    "sources/tiles/lower-left-pair-of-contacting-figures.png": {
+      "bytes": 581157,
+      "sha256": "616160c0ee6da869039ab63e84714d28a979f796960858ef3ad801349ce944ff"
+    },
+    "sources/tiles/lower-right-pair-of-contacting-figures.png": {
+      "bytes": 795852,
+      "sha256": "ea90a2ad7a50a6abc023e01bb324a0728eb28d2b5846e9c23fb960dcf5894c8d"
+    },
+    "sources/tiles/pale-yellow-daisy-on-lobed-green-leaf-scroll.png": {
+      "bytes": 1621467,
+      "sha256": "0da835636c646713779c64c9d4cc772d74cecdf1c9a6d9bbc91beeb15aeee97d"
+    },
+    "sources/tiles/pale-yellow-flower-with-long-green-leaf-stem.png": {
+      "bytes": 1655504,
+      "sha256": "05f23e049bf04a790712004e7b0f505863873bed16c206075ee9b2537127cb2a"
+    },
+    "sources/tiles/pink-and-blue-upright-flower-on-curving-stem.png": {
+      "bytes": 1221745,
+      "sha256": "c75b9988a4acbad6670baf373de2e167406accea2f0482bc4c917192541363ed"
+    },
+    "sources/tiles/pointed-blue-red-flower-with-long-green-stem.png": {
+      "bytes": 1069895,
+      "sha256": "6b3c440fe88811acb2ecbc8dd44e76bceae9bde9e813562e07140b70899afa06"
+    },
+    "sources/tiles/red-scalloped-flower-on-long-green-leaves.png": {
+      "bytes": 1856376,
+      "sha256": "9155af319d37dbc6a35f7252c56be6795ee4f0b957f24247ce71717f54b5335d"
+    },
+    "sources/tiles/right-blue-red-robed-man-visible-half-figure.png": {
+      "bytes": 153493,
+      "sha256": "81a5c13390e5e34b5789791524fe7ee1c2b5426641e189931272e53d4aa5ed15"
+    },
+    "sources/tiles/saint-paul-visible-bust-with-sword-and-book.png": {
+      "bytes": 280456,
+      "sha256": "d63dfd7e6dbd14c77dd5c87c38cad999eadc0d45d87f4333e58f8281cd3837b9"
+    },
+    "sources/tiles/saint-paul-with-long-sword-and-book.png": {
+      "bytes": 548148,
+      "sha256": "99d1d20d78b290085dc9dfd4dc5fb1e38ab7a524172d2570b7a9450b8ed7f098"
+    },
+    "sources/tiles/saint-peter-with-large-key.png": {
+      "bytes": 664496,
+      "sha256": "df1730a8b2f9ab4bfc377f94d0a424ba4fabcd207dc7d9d432c0c8368f4274bb"
+    },
+    "sources/tiles/seated-red-squirrel-with-bushy-tail.png": {
+      "bytes": 2094263,
+      "sha256": "9a33fcb98c2a39259573ec9de5133e7bac67161b8a8b962e39bca4e8335a3344"
+    },
+    "sources/tiles/small-brown-round-flower-on-leafy-stem.png": {
+      "bytes": 1028227,
+      "sha256": "178017f82e166bbed3f06501091a2e35980d135dc869011dd8f952f613f8736f"
+    },
+    "sources/tiles/small-faded-gray-flower-on-green-stem.png": {
+      "bytes": 1035477,
+      "sha256": "8abfcd81f66c0403380aa4943d145e41bebe42a17c0dab15ef871cc19c729345"
+    },
+    "sources/tiles/small-gray-bird-with-long-tail.png": {
+      "bytes": 179112,
+      "sha256": "db86395a5003ea04b795765f2b360b48ae240ffcc14229e0d15c1559631707b3"
+    },
+    "sources/tiles/small-red-bud-on-long-horizontal-stem.png": {
+      "bytes": 571347,
+      "sha256": "fb18fef5f9005898e71bd655685efa827dd253b3d7f1707818bdd0afc07fbee7"
+    },
+    "sources/tiles/small-upright-red-bud-with-long-stem.png": {
+      "bytes": 536144,
+      "sha256": "18708789b7d87c79002f41a4d51d18cd5a91418d6a8998b429b0663e48f7ce99"
+    },
+    "sources/tiles/two-dancing-black-horned-figures-with-touching-feet.png": {
+      "bytes": 260399,
+      "sha256": "865a6aa4274aa8b7fb6dd9f94c2bd072dc9302dfc8d0bfb481f1fd2066095a4e"
+    },
+    "sources/tiles/two-dancing-devils-in-gold-landscape-oval.png": {
+      "bytes": 902882,
+      "sha256": "9d3a554903307d8057ecf03265254589ac22b447bcdd12dee88befbb5b779050"
+    },
+    "sources/tiles/upper-left-paired-green-leaves.png": {
+      "bytes": 738077,
+      "sha256": "a472b02f6f653dda8c650105bc72eee0d37bfca727acc6a8c54201f88b4b4032"
+    },
+    "sources/tiles/upright-paired-green-leaves.png": {
+      "bytes": 1007462,
+      "sha256": "c0d4c95f825ba2532f3498788ed9223f57812eb3a50f295944cdf23ca51fd8a9"
+    },
+    "sources/tiles/white-robed-winged-angel.png": {
+      "bytes": 196468,
+      "sha256": "58d9b9f495a97a71897e3c1f74355601d4523800697dd00264009841f233fe52"
+    }
+  }
+}

@@ -13,7 +13,8 @@ test('historical origins reach full, scoped and individual metadata without back
   const borders = await json('historical-border-patterns.json');
   const supplied = await json('illustration-additions.json');
   const authored = await json('authored-additions.json');
-  const names = new Set([...audit.assets, ...borders, ...supplied.assets, ...authored.assets].map(item => item.name));
+  const finished = await json('finished-additions.json');
+  const names = new Set([...finished.assets, ...audit.assets, ...borders, ...supplied.assets, ...authored.assets].map(item => item.name));
   const masters = [...await json('illustrations.json'), ...await json('raster-metadata.json')];
   for (const entry of audit.assets) {
     const item = getOrnament(entry.name);
@@ -34,7 +35,7 @@ test('historical origins reach full, scoped and individual metadata without back
   assert.equal(legacy.length, 111);
   assert.ok(legacy.every(item => !Object.hasOwn(item, 'provenance')));
   assert.equal(findOrnaments({ query: 'Hoefnagel' }).length, 4);
-  assert.equal(findOrnaments({ query: 'Walters Art Museum' }).length, 4);
+  assert.equal(findOrnaments({ query: 'Walters Art Museum' }).filter(item => !finished.assets.some(a => a.name === item.name)).length, 4);
 });
 
 test('author reaches full, scoped and individual imports and search without attributing unknown artwork', async () => {

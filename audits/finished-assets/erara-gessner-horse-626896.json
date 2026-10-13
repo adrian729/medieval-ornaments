@@ -1,0 +1,139 @@
+{
+  "source_id": "erara-gessner-horse-626896",
+  "assets": [
+    {
+      "id": "erara-gessner-horse-626896--horse",
+      "name": "horse",
+      "source_id": "erara-gessner-horse-626896",
+      "source_folder": "e-rara-gessner",
+      "asset_type": "illustration",
+      "description": "A horse with its complete mane, flowing tail, four legs and hooves. Part of the Gessner Historiae Animalium set.",
+      "source_region": [
+        220,
+        249,
+        2784,
+        3257
+      ],
+      "rotation_clockwise": 270,
+      "export_crop": [
+        195,
+        109,
+        2846,
+        2499
+      ],
+      "width": 2651,
+      "height": 2390,
+      "png": "e-rara-gessner/erara-gessner-horse-626896--horse.png",
+      "png_sha256": "4d499a869c1f0f0a87016f8084d3f16640fa3500874665eadf726c64b60de5f8",
+      "provenance": {
+        "institution": "Zentralbibliothek Zürich",
+        "title": "Gessner, Historiae animalium: De equo.",
+        "object_identifier": "5.1: a-5.3; image 626896; section De equo.",
+        "date": "1551–1587",
+        "record_url": "https://www.e-rara.ch/zuz/content/pageview/626896",
+        "image_rights": "Public Domain Mark; parent bibliographic record",
+        "rights_url": "https://www.e-rara.ch/zuz/content/titleinfo/637105",
+        "source_sha256": "bdb76be1e8bb533a330049a50f7d9fd8da275b9198923c2aa54606f1c1b310f9",
+        "source_file": "tmp/new-assets/e-rara-gessner/erara-gessner-horse-626896--gessner-historiae-animalium-de-equo.jpg",
+        "source_metadata": "tmp/new-assets/e-rara-gessner/erara-gessner-horse-626896.json",
+        "image_url": "https://www.e-rara.ch/i3f/v20/626896/full/full/0/default.jpg",
+        "method": "source-pixel-extraction-with-ai-assisted-selection-mask"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: precise-object-edit. Output ONLY an original-aligned two-color foreground selection matte. Preserve EXACTLY this input’s aspect ratio, size relationships, positions, pose and every contour. No recentering or reconstruction. Solid vivid MAGENTA #ff00ff selects the complete original animal illustration; solid CYAN #00ffff excludes ALL page paper, letters, text, caption, print showing through from the other page, stains and actual openings between limbs and around the tail or trunk. Select A horse with its complete mane, flowing tail, four legs and hooves. The selected animal must be a FEATURELESS SOLID MAGENTA silhouette: every interior pale illustrated body surface, eye, dark ink line and hatch must be magenta with no copied internal features. Actual exterior page and genuine spaces between feet, tail, trunk or antler branches must remain cyan. Include every thin whisker, toe, claw, tip and hair at its original position. Do not simplify, move, enlarge, redraw or add anything. No white or black or other colors, no text on the mask. Exclude the horizontal ground hatching, cast shadows, ruled lines and lettering outside the animal’s actual contour.",
+        "selection_mask": "tmp/extraction-work/erara-gessner-horse-626896--horse--selection-mask.png",
+        "selection_mask_sha256": "5b3c240db36ddacb3dabbc8fe908a40a3f3fe10c5c63b4dc480ff63683987e17",
+        "mask_dimensions": [
+          1359,
+          1158
+        ],
+        "mask_application": "binary selection resized to native source region; only alpha changed",
+        "mask_source_region": [
+          220,
+          249,
+          2784,
+          3257
+        ],
+        "mask_encoding": "magenta-on-cyan",
+        "native_stroke_correction": null,
+        "native_paper_cleanup": null,
+        "native_boundary_refinement": null,
+        "mask_preprocessing": {
+          "fill_internal_holes_below_px": 250,
+          "remove_islands_below_px": 30
+        },
+        "native_rgb_verification": "all alpha-visible RGB values exactly equal the recorded native source crop; fully transparent RGB cleared",
+        "source_color_profile_preserved": true,
+        "source_pixels_repainted": false
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261010",
+        "notes": "Native overlay confirms ears, muzzle, mane curls, all four hooves and complete tail; real loop in tail and spaces between legs transparent. Original native print colors retained.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": "tmp/extraction-work/quality-reaudit-20261010/manifest.json"
+      },
+      "categories": [
+        "animals"
+      ],
+      "subjects": [
+        "horse"
+      ],
+      "facing": "left",
+      "colors": [
+        "brown",
+        "cream"
+      ],
+      "composition": "single-figure",
+      "vector_review": {
+        "status": "accepted",
+        "method": "Editable native-color VTracer paths with eight-layer native PNG alpha contour mask, excluding opaque hidden pixels and stray trace islands.",
+        "premultiplied_rgb_error_at_review_resolution": 0.01830815044143259,
+        "alpha_error_at_review_resolution": 0.0006894041293220933,
+        "limitation": "Contours and scan tones are approximate. PNG retains original native source RGB and remains the preferred fidelity master.",
+        "embedded_raster": false,
+        "quality_round": "20261010"
+      },
+      "svg": "e-rara-gessner/erara-gessner-horse-626896--horse.svg",
+      "svg_sha256": "7a97c3c132bdd2300fe76b786ce6112aee08f8dbb2415dc3eac0971d22dc5f46",
+      "review_history": [
+        {
+          "round": "quality-reaudit-20261010",
+          "previous_review": {
+            "status": "accepted",
+            "reviewed_on": "2026-10-10T13:29:09.375148+00:00",
+            "notes": "Checked the complete upright source horse, mane curls, tail loops, all visible hooves and the openings between legs. External ground hatching and all page lettering are excluded. Native RGB unchanged; SVG not yet accepted.",
+            "checks": [
+              "original-source-comparison",
+              "white-background",
+              "dark-background",
+              "outer-contours",
+              "interior-openings",
+              "thin-details",
+              "original-rgb-equality"
+            ]
+          }
+        }
+      ],
+      "sets": [
+        {
+          "id": "gessner-historiae-animalium",
+          "name": "Gessner Historiae Animalium",
+          "relation": "same historical zoological work and illustration family"
+        }
+      ],
+      "description_before_set_naming": "A horse with its complete mane, flowing tail, four legs and hooves.",
+      "set_label": "Gessner Historiae Animalium"
+    }
+  ]
+}

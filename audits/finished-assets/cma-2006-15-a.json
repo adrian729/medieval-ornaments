@@ -1,0 +1,1207 @@
+{
+  "source_id": "cma-2006-15-a",
+  "assets": [
+    {
+      "id": "cma-2006-15-a--acanthus-scroll-with-copper-vase-and-seated-wind-player",
+      "name": "acanthus-scroll-with-copper-vase-and-seated-wind-player",
+      "source_id": "cma-2006-15-a",
+      "source_folder": "cleveland",
+      "asset_type": "decoration",
+      "description": "Gray acanthus scroll with a copper vase, red flower and a seated bearded grotesque playing a blue wind instrument. Part of the Cleveland 1524 Psalter and Prayerbook set.",
+      "source_region": [
+        734,
+        7306,
+        8808,
+        9926
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        153,
+        147,
+        7940,
+        2523
+      ],
+      "export_crop_coordinate_space": "original-native-source-region",
+      "width": 7787,
+      "height": 2376,
+      "png": "cleveland/cma-2006-15-a--acanthus-scroll-with-copper-vase-and-seated-wind-player.png",
+      "png_sha256": "0c08c2789562c8f1667cff21f333315e5f78a0bb08676d83fcdf676d77be7661",
+      "provenance": {
+        "institution": "Cleveland Museum of Art",
+        "title": "Leaf from a Psalter and Prayerbook: Initial E with Ornamental Border Containing a Seated Satyr and a Bird Eating Grapes (recto)",
+        "object_identifier": "2006.15.a",
+        "date": "c. 1524",
+        "record_url": "https://clevelandart.org/art/2006.15.a",
+        "image_rights": "CC0; share_license_status=CC0",
+        "rights_url": "https://www.clevelandart.org/open-access",
+        "source_file": "tmp/new-assets/cleveland/cma-2006-15-a--leaf-from-a-psalter-and-prayerbook-initial-e-with-ornamental-border-containing-a-seated-sa--master.tif",
+        "source_sha256": "23bcaa627af03969a16a61510d2304b2d15e725469eaa2e212eecdb78e179bbe",
+        "source_metadata": "tmp/new-assets/cleveland/cma-2006-15-a.json",
+        "image_url": "https://openaccess-cdn.clevelandart.org/2006.15.a/2006.15.a_full.tif",
+        "method": "native-source-continuous-edge-matting"
+      },
+      "extraction": {
+        "candidate_png": "tmp/extraction-work/continuation-20261010/cma-2006-15-a--acanthus-scroll-with-copper-vase-and-seated-wind-player--native-inspected-prop-patch.png",
+        "native_export_crop": [
+          153,
+          147,
+          7940,
+          2523
+        ],
+        "export_crop_coordinate_space": "original-native-source-region",
+        "annotation_json": "tmp/extraction-work/continuation-20261010/cma-2006-15-a--acanthus-scroll-with-copper-vase-and-seated-wind-player--registered-native-annotation.json",
+        "trimap_png": "tmp/extraction-work/continuation-20261010/cma-2006-15-a--acanthus-scroll-with-copper-vase-and-seated-wind-player--registered-native-trimap.png",
+        "native_source_size": [
+          8074,
+          2620
+        ],
+        "native_upscaling": false,
+        "source_pixels_redrawn": false,
+        "original_opaque_rgb_preserved": true,
+        "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate. Source-inspected local native semantic ownership, with a three-native-pixel closed-form continuous alpha boundary. Only original source RGB used, opaque original pixels retained exactly. No reconstructed body or drawn prop. Missing contact prop supplemented or external field replaced only in the authored source scope. Source-inspected local native semantic ownership, with a three-native-pixel closed-form continuous alpha boundary. Only original source RGB used, opaque original pixels retained exactly. No reconstructed body or drawn prop. Missing contact prop supplemented or external field replaced only in the authored source scope.",
+        "alpha_guide": {
+          "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+          "guide_png": "tmp/extraction-work/continuation-20261010/cma-2006-15-a--acanthus-scroll-with-copper-vase-and-seated-wind-player--native-alpha-reference.png",
+          "guide_sha256": "bab18c59c2a0a3f59715ca7e63abe4b0f43d45864710d9b56b401bb650ee7c24",
+          "native_original": "tmp/extraction-work/continuation-20261010/cma-2006-15-a--acanthus-scroll-with-copper-vase-and-seated-wind-player--original.png",
+          "similarity_ai_alpha_to_original": [
+            [
+              3.6214165504097853,
+              0.018036106199762498,
+              151.0293430129532
+            ],
+            [
+              -0.018036106199762498,
+              3.6214165504097853,
+              185.02878487426045
+            ]
+          ],
+          "matching_feature_pairs": 715,
+          "inlier_feature_pairs": 583,
+          "inlier_rms_native_pixels": 7.356331452457475,
+          "source_inspection_factor": 0.22293782511766164,
+          "unknown_edge_band_native_pixels": 27,
+          "edge_solve_tile_size": 640,
+          "edge_solve_halo": 54,
+          "edge_solve_tiles": 42,
+          "original_opaque_rgb_preserved": true
+        },
+        "status": "awaiting-original-white-dark-review",
+        "inspected_native_patch_annotation": "tmp/extraction-work/continuation-20261010/cma-2006-15-a--acanthus-scroll-with-copper-vase-and-seated-wind-player--native-inspected-prop-patch-annotation.json",
+        "tool": "Original native scan / closed-form edge alpha and foreground decontamination",
+        "pixel_exact": false
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Reviewed actual native original, white and dark renders. Complete source-visible contact groups retained with original proportions, opaque pale surfaces, fine outlines and original mixed-color details. The figure’s full bent implement and real foot remain; the wind player retains the complete blue instrument and source feet without the surrounding rectangular field; the mounted couple retains the complete falcon, both original gold legs and raised fist, with the unrelated tree leaf cleared. Original native RGB retained at opaque pixels, no enlargement or traced replacement contours.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/cma-2006-13-b--crouching-hairy-figure-with-long-bent-implement--final-reviewed-native-proof.jpg",
+          "tmp/extraction-work/continuation-20261010/cma-2006-15-a--acanthus-scroll-with-copper-vase-and-seated-wind-player--current-native-source-white-dark.jpg",
+          "tmp/extraction-work/continuation-20261010/cma-2011-65-a--mounted-couple-on-white-horse--native-complete-final-proof.jpg"
+        ]
+      },
+      "categories": [
+        "floral"
+      ],
+      "subjects": [
+        "vase",
+        "scroll",
+        "leaf",
+        "flower",
+        "figure",
+        "instrument"
+      ],
+      "colors": [
+        "gray",
+        "brown",
+        "green",
+        "gold",
+        "red",
+        "blue"
+      ],
+      "facing": "unclear",
+      "composition": "single-ornament",
+      "usage_notes": "Original source-visible independent ornament or contacting figure group. No seamless repeat inferred. Exact original source bounds and extraction prompt retained; no unrelated page letters. Source-derived transparency will be reviewed against native scan.",
+      "metadata_correction": {
+        "reason": "Copper is retained in the object description; the shared selection vocabulary uses brown for its copper-toned vase. Visible green acanthus leaves added to the factual color list. Artwork bytes are unchanged.",
+        "old_colors": [
+          "gray",
+          "copper",
+          "gold",
+          "red",
+          "blue"
+        ],
+        "review_evidence": "tmp/extraction-work/continuation-20261010/cma-2006-15-a--acanthus-scroll-with-copper-vase-and-seated-wind-player--metadata-color-review.jpg"
+      },
+      "sets": [
+        {
+          "id": "cleveland-1524-psalter-prayerbook",
+          "name": "Cleveland 1524 Psalter and Prayerbook",
+          "relation": "related Cleveland leaves with matching source title, date and painted style; individual source identities retained"
+        },
+        {
+          "id": "cma-2006-15-a-set",
+          "name": "Leaf from a Psalter and Prayerbook: Initial E with Ornamental Border Containing a Seated Satyr and a Bird Eating Grapes (recto) (cma-2006-15-a)",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "Gray acanthus scroll with a copper vase, red flower and a seated bearded grotesque playing a blue wind instrument.",
+      "set_label": "Cleveland 1524 Psalter and Prayerbook"
+    },
+    {
+      "id": "cma-2006-15-a--elongated-red-gray-leaf-scroll-with-blue-center",
+      "name": "elongated-red-gray-leaf-scroll-with-blue-center",
+      "source_id": "cma-2006-15-a",
+      "source_folder": "cleveland",
+      "asset_type": "decoration",
+      "description": "Long red and gray pointed leaf ornament with a blue central bulb and red petal collar. Part of the Cleveland 1524 Psalter and Prayerbook set.",
+      "source_region": [
+        1017,
+        94,
+        7535,
+        909
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        44,
+        71,
+        6406,
+        661
+      ],
+      "export_crop_coordinate_space": "original-native-source-region",
+      "width": 6362,
+      "height": 590,
+      "png": "cleveland/cma-2006-15-a--elongated-red-gray-leaf-scroll-with-blue-center.png",
+      "png_sha256": "3384cb926a6b5086571e9f11fca0e991626d6ab7900d00c9a2451388c821f637",
+      "provenance": {
+        "institution": "Cleveland Museum of Art",
+        "title": "Leaf from a Psalter and Prayerbook: Initial E with Ornamental Border Containing a Seated Satyr and a Bird Eating Grapes (recto)",
+        "object_identifier": "2006.15.a",
+        "date": "c. 1524",
+        "record_url": "https://clevelandart.org/art/2006.15.a",
+        "image_rights": "CC0; share_license_status=CC0",
+        "rights_url": "https://www.clevelandart.org/open-access",
+        "source_file": "tmp/new-assets/cleveland/cma-2006-15-a--leaf-from-a-psalter-and-prayerbook-initial-e-with-ornamental-border-containing-a-seated-sa--master.tif",
+        "source_sha256": "23bcaa627af03969a16a61510d2304b2d15e725469eaa2e212eecdb78e179bbe",
+        "source_metadata": "tmp/new-assets/cleveland/cma-2006-15-a.json",
+        "image_url": "https://openaccess-cdn.clevelandart.org/2006.15.a/2006.15.a_full.tif",
+        "method": "native-source-continuous-edge-matting"
+      },
+      "extraction": {
+        "candidate_png": "tmp/extraction-work/continuation-20261010/cma-2006-15-a--elongated-red-gray-leaf-scroll-with-blue-center--registered-native-candidate.png",
+        "native_export_crop": [
+          44,
+          71,
+          6406,
+          661
+        ],
+        "export_crop_coordinate_space": "original-native-source-region",
+        "annotation_json": "tmp/extraction-work/continuation-20261010/cma-2006-15-a--elongated-red-gray-leaf-scroll-with-blue-center--registered-native-annotation.json",
+        "trimap_png": "tmp/extraction-work/continuation-20261010/cma-2006-15-a--elongated-red-gray-leaf-scroll-with-blue-center--registered-native-trimap.png",
+        "native_source_size": [
+          6518,
+          815
+        ],
+        "native_upscaling": false,
+        "source_pixels_redrawn": false,
+        "original_opaque_rgb_preserved": true,
+        "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+        "alpha_guide": {
+          "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+          "guide_png": "tmp/extraction-work/continuation-20261010/cma-2006-15-a--elongated-red-gray-leaf-scroll-with-blue-center--native-alpha-reference.png",
+          "guide_sha256": "1ad51d9c0366b27c326ee3f9f127aa455010079693f709ea38b602c59538be9f",
+          "native_original": "tmp/extraction-work/continuation-20261010/cma-2006-15-a--elongated-red-gray-leaf-scroll-with-blue-center--original.png",
+          "similarity_ai_alpha_to_original": [
+            [
+              2.9927465360575956,
+              -0.0005743566341015403,
+              45.10720577150073
+            ],
+            [
+              0.0005743566341015403,
+              2.9927465360575956,
+              70.80980843429646
+            ]
+          ],
+          "matching_feature_pairs": 274,
+          "inlier_feature_pairs": 251,
+          "inlier_rms_native_pixels": 4.1207006793764505,
+          "source_inspection_factor": 0.27615833077631174,
+          "unknown_edge_band_native_pixels": 22,
+          "edge_solve_tile_size": 640,
+          "edge_solve_halo": 44,
+          "edge_solve_tiles": 12,
+          "original_opaque_rgb_preserved": true
+        },
+        "status": "awaiting-original-white-dark-review",
+        "tool": "Original native scan / closed-form edge alpha and foreground decontamination",
+        "pixel_exact": false
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Original native source colors, texture and source-visible painted detail retained; compared actual original regions and white/dark cutouts. Full human-headed bird and contacting dancing figures retained; no individual overlapping feet. Actual finite original floral frame/L corner and full elongated source leaf tips retained without an invented repeat. Source-derived alpha remains approximate; no source RGB redraw, enlargement or vector faceting. The whole manuscript frame retains its intrinsic painted circular scene, with its figures also supplied separately.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/cleveland-native-first-proof.jpg",
+          "tmp/extraction-work/continuation-20261010/cleveland-native-next-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/cma-2005-206-b--two-dancing-black-horned-figures-with-touching-feet--native-final-reviewed-dark.jpg"
+        ]
+      },
+      "categories": [
+        "floral"
+      ],
+      "subjects": [
+        "leaf",
+        "scroll",
+        "petal"
+      ],
+      "colors": [
+        "red",
+        "gray",
+        "blue"
+      ],
+      "facing": "unclear",
+      "composition": "single-ornament",
+      "usage_notes": "Original source-visible independent ornament or contacting figure group. No seamless repeat inferred. Exact original source bounds and extraction prompt retained; no unrelated page letters. Source-derived transparency will be reviewed against native scan.",
+      "sets": [
+        {
+          "id": "cleveland-1524-psalter-prayerbook",
+          "name": "Cleveland 1524 Psalter and Prayerbook",
+          "relation": "related Cleveland leaves with matching source title, date and painted style; individual source identities retained"
+        },
+        {
+          "id": "cma-2006-15-a-set",
+          "name": "Leaf from a Psalter and Prayerbook: Initial E with Ornamental Border Containing a Seated Satyr and a Bird Eating Grapes (recto) (cma-2006-15-a)",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "Long red and gray pointed leaf ornament with a blue central bulb and red petal collar.",
+      "set_label": "Cleveland 1524 Psalter and Prayerbook"
+    },
+    {
+      "id": "cma-2006-15-a--gray-bird-among-grapes-on-long-floral-vine",
+      "name": "gray-bird-among-grapes-on-long-floral-vine",
+      "source_id": "cma-2006-15-a",
+      "source_folder": "cleveland",
+      "asset_type": "decoration",
+      "description": "Gray bird with spread wings contacting a long vine with green grapes, leaves and blue and red flowers. Part of the Cleveland 1524 Psalter and Prayerbook set.",
+      "source_region": [
+        6950,
+        81,
+        8808,
+        7730
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        175,
+        96,
+        1766,
+        7569
+      ],
+      "export_crop_coordinate_space": "original-native-source-region",
+      "width": 1591,
+      "height": 7473,
+      "png": "cleveland/cma-2006-15-a--gray-bird-among-grapes-on-long-floral-vine.png",
+      "png_sha256": "539a5bf3d4c337d69badff72b1d7064e23fb27639c6425c04d7268eb88d5b23b",
+      "provenance": {
+        "institution": "Cleveland Museum of Art",
+        "title": "Leaf from a Psalter and Prayerbook: Initial E with Ornamental Border Containing a Seated Satyr and a Bird Eating Grapes (recto)",
+        "object_identifier": "2006.15.a",
+        "date": "c. 1524",
+        "record_url": "https://clevelandart.org/art/2006.15.a",
+        "image_rights": "CC0; share_license_status=CC0",
+        "rights_url": "https://www.clevelandart.org/open-access",
+        "source_file": "tmp/new-assets/cleveland/cma-2006-15-a--leaf-from-a-psalter-and-prayerbook-initial-e-with-ornamental-border-containing-a-seated-sa--master.tif",
+        "source_sha256": "23bcaa627af03969a16a61510d2304b2d15e725469eaa2e212eecdb78e179bbe",
+        "source_metadata": "tmp/new-assets/cleveland/cma-2006-15-a.json",
+        "image_url": "https://openaccess-cdn.clevelandart.org/2006.15.a/2006.15.a_full.tif",
+        "method": "native-source-continuous-edge-matting"
+      },
+      "extraction": {
+        "candidate_png": "tmp/extraction-work/continuation-20261010/cma-2006-15-a--gray-bird-among-grapes-on-long-floral-vine--refined-original-native-candidate.png",
+        "native_export_crop": [
+          175,
+          96,
+          1766,
+          7569
+        ],
+        "export_crop_coordinate_space": "original-native-source-region",
+        "annotation_json": "tmp/extraction-work/continuation-20261010/cma-2006-15-a--gray-bird-among-grapes-on-long-floral-vine--refined-original-native-audit.json",
+        "trimap_png": "tmp/extraction-work/continuation-20261010/cma-2006-15-a--gray-bird-among-grapes-on-long-floral-vine--refined-original-native-trimap.png",
+        "native_source_size": [
+          1858,
+          7649
+        ],
+        "native_upscaling": false,
+        "source_pixels_redrawn": false,
+        "original_opaque_rgb_preserved": true,
+        "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+        "alpha_guide": {
+          "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+          "guide_png": "tmp/extraction-work/continuation-20261010/cma-2006-15-a--gray-bird-among-grapes-on-long-floral-vine--native-alpha-reference.png",
+          "guide_sha256": "6869b153fd47707b722e736d4a794928e5debf61751ff1931bec0359a96173c7",
+          "native_original": "tmp/extraction-work/continuation-20261010/cma-2006-15-a--gray-bird-among-grapes-on-long-floral-vine--original.png",
+          "similarity_ai_alpha_to_original": [
+            [
+              3.518209699152101,
+              0.002821462687480181,
+              153.1396633982991
+            ],
+            [
+              -0.002821462687480181,
+              3.518209699152101,
+              77.07327003189224
+            ]
+          ],
+          "matching_feature_pairs": 806,
+          "inlier_feature_pairs": 548,
+          "inlier_rms_native_pixels": 8.826553404763663,
+          "source_inspection_factor": 0.23532487906915936,
+          "unknown_edge_band_native_pixels": 3,
+          "edge_solve_tile_size": 640,
+          "edge_solve_halo": 32,
+          "edge_solve_tiles": 35,
+          "original_opaque_rgb_preserved": true
+        },
+        "status": "awaiting-original-white-dark-review",
+        "native_refinement": {
+          "method": "Original blue flower and gray bird paint, outlines and pale painted highlights inspected at native scale. Bright gilt page pixels outside the actual filled blue/gray/green/red pigment silhouette are explicitly background; enclosed original paint wear stays opaque. This clears the exterior glittering page fringe rather than retaining it as a false gold stroke. Original fine painted tendrils and all opaque native colors remain source RGB; no scaling or redraw.",
+          "source": "tmp/extraction-work/continuation-20261010/cma-2006-15-a--gray-bird-among-grapes-on-long-floral-vine--original.png",
+          "previous_native_matte": {
+            "candidate_png": "tmp/extraction-work/continuation-20261010/cma-2006-15-a--gray-bird-among-grapes-on-long-floral-vine--refined-original-native-candidate.png",
+            "native_export_crop": [
+              175,
+              96,
+              1766,
+              7569
+            ],
+            "export_crop_coordinate_space": "original-native-source-region",
+            "annotation_json": "tmp/extraction-work/continuation-20261010/cma-2006-15-a--gray-bird-among-grapes-on-long-floral-vine--refined-original-native-audit.json",
+            "trimap_png": "tmp/extraction-work/continuation-20261010/cma-2006-15-a--gray-bird-among-grapes-on-long-floral-vine--refined-original-native-trimap.png",
+            "native_source_size": [
+              1858,
+              7649
+            ],
+            "native_upscaling": false,
+            "source_pixels_redrawn": false,
+            "original_opaque_rgb_preserved": true,
+            "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+            "alpha_guide": {
+              "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+              "guide_png": "tmp/extraction-work/continuation-20261010/cma-2006-15-a--gray-bird-among-grapes-on-long-floral-vine--native-alpha-reference.png",
+              "guide_sha256": "6869b153fd47707b722e736d4a794928e5debf61751ff1931bec0359a96173c7",
+              "native_original": "tmp/extraction-work/continuation-20261010/cma-2006-15-a--gray-bird-among-grapes-on-long-floral-vine--original.png",
+              "similarity_ai_alpha_to_original": [
+                [
+                  3.518209699152101,
+                  0.002821462687480181,
+                  153.1396633982991
+                ],
+                [
+                  -0.002821462687480181,
+                  3.518209699152101,
+                  77.07327003189224
+                ]
+              ],
+              "matching_feature_pairs": 806,
+              "inlier_feature_pairs": 548,
+              "inlier_rms_native_pixels": 8.826553404763663,
+              "source_inspection_factor": 0.23532487906915936,
+              "unknown_edge_band_native_pixels": 3,
+              "edge_solve_tile_size": 640,
+              "edge_solve_halo": 32,
+              "edge_solve_tiles": 35,
+              "original_opaque_rgb_preserved": true
+            },
+            "status": "awaiting-original-white-dark-review",
+            "native_refinement": {
+              "method": "Original blue flower and gray bird paint, outlines and pale painted highlights inspected at native scale. Bright gilt page pixels within twenty-eight native pixels outside the actual filled blue/gray/green/red pigment silhouette are explicitly background; enclosed original paint wear stays opaque. This clears the exterior glittering page fringe rather than retaining it as a false gold stroke. Original fine painted tendrils and all opaque native colors remain source RGB; no scaling or redraw.",
+              "source": "tmp/extraction-work/continuation-20261010/cma-2006-15-a--gray-bird-among-grapes-on-long-floral-vine--original.png",
+              "previous_native_matte": {
+                "candidate_png": "tmp/extraction-work/continuation-20261010/cma-2006-15-a--gray-bird-among-grapes-on-long-floral-vine--refined-original-native-candidate.png",
+                "native_export_crop": [
+                  175,
+                  96,
+                  1766,
+                  7569
+                ],
+                "export_crop_coordinate_space": "original-native-source-region",
+                "annotation_json": "tmp/extraction-work/continuation-20261010/cma-2006-15-a--gray-bird-among-grapes-on-long-floral-vine--refined-original-native-audit.json",
+                "trimap_png": "tmp/extraction-work/continuation-20261010/cma-2006-15-a--gray-bird-among-grapes-on-long-floral-vine--refined-original-native-trimap.png",
+                "native_source_size": [
+                  1858,
+                  7649
+                ],
+                "native_upscaling": false,
+                "source_pixels_redrawn": false,
+                "original_opaque_rgb_preserved": true,
+                "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+                "alpha_guide": {
+                  "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+                  "guide_png": "tmp/extraction-work/continuation-20261010/cma-2006-15-a--gray-bird-among-grapes-on-long-floral-vine--native-alpha-reference.png",
+                  "guide_sha256": "6869b153fd47707b722e736d4a794928e5debf61751ff1931bec0359a96173c7",
+                  "native_original": "tmp/extraction-work/continuation-20261010/cma-2006-15-a--gray-bird-among-grapes-on-long-floral-vine--original.png",
+                  "similarity_ai_alpha_to_original": [
+                    [
+                      3.518209699152101,
+                      0.002821462687480181,
+                      153.1396633982991
+                    ],
+                    [
+                      -0.002821462687480181,
+                      3.518209699152101,
+                      77.07327003189224
+                    ]
+                  ],
+                  "matching_feature_pairs": 806,
+                  "inlier_feature_pairs": 548,
+                  "inlier_rms_native_pixels": 8.826553404763663,
+                  "source_inspection_factor": 0.23532487906915936,
+                  "unknown_edge_band_native_pixels": 3,
+                  "edge_solve_tile_size": 640,
+                  "edge_solve_halo": 32,
+                  "edge_solve_tiles": 35,
+                  "original_opaque_rgb_preserved": true
+                },
+                "status": "awaiting-original-white-dark-review",
+                "native_refinement": {
+                  "method": "Original blue flower and gray bird paint, outlines and pale painted highlights inspected at native scale. Bright gilt page pixels within twenty-eight native pixels outside the actual filled blue/gray pigment silhouette are explicitly background; enclosed original paint wear stays opaque. This clears the exterior glittering page fringe rather than retaining it as a false gold stroke. Original fine painted tendrils and all opaque native colors remain source RGB; no scaling or redraw.",
+                  "source": "tmp/extraction-work/continuation-20261010/cma-2006-15-a--gray-bird-among-grapes-on-long-floral-vine--original.png",
+                  "previous_native_matte": {
+                    "candidate_png": "tmp/extraction-work/continuation-20261010/cma-2006-15-a--gray-bird-among-grapes-on-long-floral-vine--refined-original-native-candidate.png",
+                    "native_export_crop": [
+                      154,
+                      73,
+                      1790,
+                      7594
+                    ],
+                    "export_crop_coordinate_space": "original-native-source-region",
+                    "annotation_json": "tmp/extraction-work/continuation-20261010/cma-2006-15-a--gray-bird-among-grapes-on-long-floral-vine--refined-original-native-audit.json",
+                    "trimap_png": "tmp/extraction-work/continuation-20261010/cma-2006-15-a--gray-bird-among-grapes-on-long-floral-vine--refined-original-native-trimap.png",
+                    "native_source_size": [
+                      1858,
+                      7649
+                    ],
+                    "native_upscaling": false,
+                    "source_pixels_redrawn": false,
+                    "original_opaque_rgb_preserved": true,
+                    "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+                    "alpha_guide": {
+                      "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+                      "guide_png": "tmp/extraction-work/continuation-20261010/cma-2006-15-a--gray-bird-among-grapes-on-long-floral-vine--native-alpha-reference.png",
+                      "guide_sha256": "6869b153fd47707b722e736d4a794928e5debf61751ff1931bec0359a96173c7",
+                      "native_original": "tmp/extraction-work/continuation-20261010/cma-2006-15-a--gray-bird-among-grapes-on-long-floral-vine--original.png",
+                      "similarity_ai_alpha_to_original": [
+                        [
+                          3.518209699152101,
+                          0.002821462687480181,
+                          153.1396633982991
+                        ],
+                        [
+                          -0.002821462687480181,
+                          3.518209699152101,
+                          77.07327003189224
+                        ]
+                      ],
+                      "matching_feature_pairs": 806,
+                      "inlier_feature_pairs": 548,
+                      "inlier_rms_native_pixels": 8.826553404763663,
+                      "source_inspection_factor": 0.23532487906915936,
+                      "unknown_edge_band_native_pixels": 3,
+                      "edge_solve_tile_size": 640,
+                      "edge_solve_halo": 32,
+                      "edge_solve_tiles": 35,
+                      "original_opaque_rgb_preserved": true
+                    },
+                    "status": "awaiting-original-white-dark-review",
+                    "native_refinement": {
+                      "method": "Thirty-two-native-pixel uncertainty at the loose generated guide edge allows source pigment to fit the actual contour and remove the retained exterior gilt fringe. Original opaque dark, green, blue and red pigment seeds retain thin painted stems/feathers/tendrils; broad pale painted interiors stay source-opaque. Source RGB and proportions unchanged; genuine openings clear. No newly drawn anatomy or supersampled delivery.",
+                      "source": "tmp/extraction-work/continuation-20261010/cma-2006-15-a--gray-bird-among-grapes-on-long-floral-vine--original.png",
+                      "previous_native_matte": {
+                        "candidate_png": "tmp/extraction-work/continuation-20261010/cma-2006-15-a--gray-bird-among-grapes-on-long-floral-vine--refined-original-native-candidate.png",
+                        "native_export_crop": [
+                          172,
+                          93,
+                          1769,
+                          7571
+                        ],
+                        "export_crop_coordinate_space": "original-native-source-region",
+                        "annotation_json": "tmp/extraction-work/continuation-20261010/cma-2006-15-a--gray-bird-among-grapes-on-long-floral-vine--refined-original-native-audit.json",
+                        "trimap_png": "tmp/extraction-work/continuation-20261010/cma-2006-15-a--gray-bird-among-grapes-on-long-floral-vine--refined-original-native-trimap.png",
+                        "native_source_size": [
+                          1858,
+                          7649
+                        ],
+                        "native_upscaling": false,
+                        "source_pixels_redrawn": false,
+                        "original_opaque_rgb_preserved": true,
+                        "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+                        "alpha_guide": {
+                          "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+                          "guide_png": "tmp/extraction-work/continuation-20261010/cma-2006-15-a--gray-bird-among-grapes-on-long-floral-vine--native-alpha-reference.png",
+                          "guide_sha256": "6869b153fd47707b722e736d4a794928e5debf61751ff1931bec0359a96173c7",
+                          "native_original": "tmp/extraction-work/continuation-20261010/cma-2006-15-a--gray-bird-among-grapes-on-long-floral-vine--original.png",
+                          "similarity_ai_alpha_to_original": [
+                            [
+                              3.518209699152101,
+                              0.002821462687480181,
+                              153.1396633982991
+                            ],
+                            [
+                              -0.002821462687480181,
+                              3.518209699152101,
+                              77.07327003189224
+                            ]
+                          ],
+                          "matching_feature_pairs": 806,
+                          "inlier_feature_pairs": 548,
+                          "inlier_rms_native_pixels": 8.826553404763663,
+                          "source_inspection_factor": 0.23532487906915936,
+                          "unknown_edge_band_native_pixels": 3,
+                          "edge_solve_tile_size": 640,
+                          "edge_solve_halo": 32,
+                          "edge_solve_tiles": 35,
+                          "original_opaque_rgb_preserved": true
+                        },
+                        "status": "awaiting-original-white-dark-review",
+                        "native_refinement": {
+                          "method": "Native original bird, all connecting grapes/leaves/floral stems and authentic painted shading retained. Nine-native-pixel edge matting fits original brown/gray pigment against gilt page; actual dark fine-stroke foreground seeds preserve narrow original tendrils. Genuine openings remain clear. Native RGB inside opaque painted surfaces unchanged, no generated anatomy or raster upscaling.",
+                          "source": "tmp/extraction-work/continuation-20261010/cma-2006-15-a--gray-bird-among-grapes-on-long-floral-vine--original.png",
+                          "previous_native_matte": {
+                            "candidate_png": "tmp/extraction-work/continuation-20261010/cma-2006-15-a--gray-bird-among-grapes-on-long-floral-vine--registered-native-candidate.png",
+                            "native_export_crop": [
+                              176,
+                              100,
+                              1764,
+                              7566
+                            ],
+                            "export_crop_coordinate_space": "original-native-source-region",
+                            "annotation_json": "tmp/extraction-work/continuation-20261010/cma-2006-15-a--gray-bird-among-grapes-on-long-floral-vine--registered-native-annotation.json",
+                            "trimap_png": "tmp/extraction-work/continuation-20261010/cma-2006-15-a--gray-bird-among-grapes-on-long-floral-vine--registered-native-trimap.png",
+                            "native_source_size": [
+                              1858,
+                              7649
+                            ],
+                            "native_upscaling": false,
+                            "source_pixels_redrawn": false,
+                            "original_opaque_rgb_preserved": true,
+                            "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+                            "alpha_guide": {
+                              "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+                              "guide_png": "tmp/extraction-work/continuation-20261010/cma-2006-15-a--gray-bird-among-grapes-on-long-floral-vine--native-alpha-reference.png",
+                              "guide_sha256": "6869b153fd47707b722e736d4a794928e5debf61751ff1931bec0359a96173c7",
+                              "native_original": "tmp/extraction-work/continuation-20261010/cma-2006-15-a--gray-bird-among-grapes-on-long-floral-vine--original.png",
+                              "similarity_ai_alpha_to_original": [
+                                [
+                                  3.518209699152101,
+                                  0.002821462687480181,
+                                  153.1396633982991
+                                ],
+                                [
+                                  -0.002821462687480181,
+                                  3.518209699152101,
+                                  77.07327003189224
+                                ]
+                              ],
+                              "matching_feature_pairs": 806,
+                              "inlier_feature_pairs": 548,
+                              "inlier_rms_native_pixels": 8.826553404763663,
+                              "source_inspection_factor": 0.23532487906915936,
+                              "unknown_edge_band_native_pixels": 3,
+                              "edge_solve_tile_size": 640,
+                              "edge_solve_halo": 32,
+                              "edge_solve_tiles": 35,
+                              "original_opaque_rgb_preserved": true
+                            },
+                            "status": "awaiting-original-white-dark-review"
+                          },
+                          "unknown_band_native_pixels": 9,
+                          "source_rgb_redrawn": false,
+                          "source_resized": false,
+                          "original_opaque_rgb_preserved": true,
+                          "ownership": "tmp/extraction-work/continuation-20261010/cma-2006-15-a--gray-bird-among-grapes-on-long-floral-vine--refined-original-native-ownership.png",
+                          "ownership_sha256": "bb8e42feb782d9281b01706ec3062d6c5fb64be7e39e889054d515f7a45ec22f",
+                          "fine_dark_stroke_seed": "Within inspected ownership, R<142,G<130"
+                        }
+                      },
+                      "unknown_band_native_pixels": 32,
+                      "source_rgb_redrawn": false,
+                      "source_resized": false,
+                      "original_opaque_rgb_preserved": true,
+                      "ownership": "tmp/extraction-work/continuation-20261010/cma-2006-15-a--gray-bird-among-grapes-on-long-floral-vine--refined-original-native-ownership.png",
+                      "ownership_sha256": "bb8e42feb782d9281b01706ec3062d6c5fb64be7e39e889054d515f7a45ec22f",
+                      "actual_native_edge_band": 32,
+                      "original_color_foreground_seeds": "dark neutral/brown, green, blue and red paint inside inspected subject ownership; exterior gold field has no foreground seed"
+                    }
+                  },
+                  "unknown_band_native_pixels": 6,
+                  "source_rgb_redrawn": false,
+                  "source_resized": false,
+                  "original_opaque_rgb_preserved": true,
+                  "ownership": "tmp/extraction-work/continuation-20261010/cma-2006-15-a--gray-bird-among-grapes-on-long-floral-vine--refined-original-native-ownership.png",
+                  "ownership_sha256": "0fb94a791bc95fda3609c10fc643feff366c2221cf72c96f7244bfcd7482f5ce",
+                  "exterior_gilt_test": "R-B>42,G-B>30,G>145; outside source blue/gray silhouette and within 28 native pixels",
+                  "source_inspected_region_native_rows": [
+                    2550,
+                    5700
+                  ],
+                  "original_paint_wear_enclosed_by_source_pigment_retained": true
+                }
+              },
+              "unknown_band_native_pixels": 6,
+              "source_rgb_redrawn": false,
+              "source_resized": false,
+              "original_opaque_rgb_preserved": true,
+              "ownership": "tmp/extraction-work/continuation-20261010/cma-2006-15-a--gray-bird-among-grapes-on-long-floral-vine--refined-original-native-ownership.png",
+              "ownership_sha256": "819b6930446fd922229da8618b47b4467817999d659488539058bd8588fa9a01",
+              "exterior_gilt_test": "R-B>42,G-B>30,G>145,R-G>8; outside source blue/gray/green/red silhouette and within 28 native pixels",
+              "source_inspected_region_native_rows": [
+                2550,
+                5700
+              ],
+              "original_paint_wear_enclosed_by_source_pigment_retained": true
+            }
+          },
+          "unknown_band_native_pixels": 6,
+          "source_rgb_redrawn": false,
+          "source_resized": false,
+          "original_opaque_rgb_preserved": true,
+          "ownership": "tmp/extraction-work/continuation-20261010/cma-2006-15-a--gray-bird-among-grapes-on-long-floral-vine--refined-original-native-ownership.png",
+          "ownership_sha256": "40ff874933148df20aad398934a6fd1ac01ff270a6353eb441f7336caa6ecc4d",
+          "exterior_gilt_test": "R-B>42,G-B>30,G>145,R-G>8; outside source blue/gray/green/red silhouette; gray seed requires abs(B-G)<22,R>115",
+          "source_inspected_region_native_rows": [
+            2550,
+            5700
+          ],
+          "original_paint_wear_enclosed_by_source_pigment_retained": true
+        },
+        "tool": "Original native scan / closed-form edge alpha and foreground decontamination",
+        "pixel_exact": false,
+        "ownership_guide_prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. Select the WHOLE original RIGHT vertical floral VINE INCLUDING the gray BIRD WITH SPREAD WINGS in its middle. The gray shapes around the middle are a bird, not leaves. The bird contacts the grapevine; preserve the whole contacting group. Keep both green grape clusters and leaves at the top, all native vine stems/tendrils, the gray bird body/head/beak/wings, the large blue flower below, red/gray lower foliage and blue lower terminal. Remove unoutlined flat gilded ground, parchment, text and frame rules not belonging to the vine. No isolated bird separated from its required prop, no generic redraw. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_ownership_guide": {
+          "file": "tmp/extraction-work/cma-2006-15-a--gray-bird-among-grapes-on-long-floral-vine--retained-ai-extraction.png",
+          "sha256": "5a5e73da92419341765b398b8343dedbb4c5e5219656e8fd2db3e6e6ba7360ca",
+          "purpose": "Retained AI alpha guide only; delivered opaque RGB belongs to the unchanged native source."
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Full original/white/dark inspection plus native 100% bird wing, fine tendrils, blue flower and weathered green leaf. Exterior gilt fringe removed, painted blue/gray/green/red surfaces retained, source wear left as photographed. Native source RGB and proportions; no source enlargement or contour redraw.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/gray-bird-current-review-current-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/gray-bird-stems-final-native.png"
+        ]
+      },
+      "categories": [
+        "floral"
+      ],
+      "subjects": [
+        "bird",
+        "grape",
+        "leaf",
+        "vine",
+        "flower",
+        "wing"
+      ],
+      "colors": [
+        "gray",
+        "green",
+        "blue",
+        "red",
+        "brown"
+      ],
+      "facing": "unclear",
+      "composition": "single-ornament",
+      "usage_notes": "Original source-visible independent ornament or contacting figure group. No seamless repeat inferred. Exact original source bounds and extraction prompt retained; no unrelated page letters. Source-derived transparency will be reviewed against native scan.",
+      "sets": [
+        {
+          "id": "cleveland-1524-psalter-prayerbook",
+          "name": "Cleveland 1524 Psalter and Prayerbook",
+          "relation": "related Cleveland leaves with matching source title, date and painted style; individual source identities retained"
+        },
+        {
+          "id": "cma-2006-15-a-set",
+          "name": "Leaf from a Psalter and Prayerbook: Initial E with Ornamental Border Containing a Seated Satyr and a Bird Eating Grapes (recto) (cma-2006-15-a)",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "Gray bird with spread wings contacting a long vine with green grapes, leaves and blue and red flowers.",
+      "set_label": "Cleveland 1524 Psalter and Prayerbook"
+    },
+    {
+      "id": "cma-2006-15-a--lower-oval-red-cream-flower-and-two-green-leaves",
+      "name": "lower-oval-red-cream-flower-and-two-green-leaves",
+      "source_id": "cma-2006-15-a",
+      "source_folder": "cleveland",
+      "asset_type": "decoration",
+      "description": "Oval red and cream flower on a curved green stem with two green leaves. Part of the Cleveland 1524 Psalter and Prayerbook set.",
+      "source_region": [
+        633,
+        5320,
+        1475,
+        8047
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        160,
+        158,
+        696,
+        2569
+      ],
+      "export_crop_coordinate_space": "original-native-source-region",
+      "width": 536,
+      "height": 2411,
+      "png": "cleveland/cma-2006-15-a--lower-oval-red-cream-flower-and-two-green-leaves.png",
+      "png_sha256": "3054d2b0ea1d3c2e75c7d9b0c181b43ef53e045380ba8ba3c70bbf87946f74d6",
+      "provenance": {
+        "institution": "Cleveland Museum of Art",
+        "title": "Leaf from a Psalter and Prayerbook: Initial E with Ornamental Border Containing a Seated Satyr and a Bird Eating Grapes (recto)",
+        "object_identifier": "2006.15.a",
+        "date": "c. 1524",
+        "record_url": "https://clevelandart.org/art/2006.15.a",
+        "image_rights": "CC0; share_license_status=CC0",
+        "rights_url": "https://www.clevelandart.org/open-access",
+        "source_file": "tmp/new-assets/cleveland/cma-2006-15-a--leaf-from-a-psalter-and-prayerbook-initial-e-with-ornamental-border-containing-a-seated-sa--master.tif",
+        "source_sha256": "23bcaa627af03969a16a61510d2304b2d15e725469eaa2e212eecdb78e179bbe",
+        "source_metadata": "tmp/new-assets/cleveland/cma-2006-15-a.json",
+        "image_url": "https://openaccess-cdn.clevelandart.org/2006.15.a/2006.15.a_full.tif",
+        "method": "native-source-continuous-edge-matting"
+      },
+      "extraction": {
+        "candidate_png": "tmp/extraction-work/continuation-20261010/cma-2006-15-a--lower-oval-red-cream-flower-and-two-green-leaves--registered-native-candidate.png",
+        "native_export_crop": [
+          160,
+          158,
+          696,
+          2569
+        ],
+        "export_crop_coordinate_space": "original-native-source-region",
+        "annotation_json": "tmp/extraction-work/continuation-20261010/cma-2006-15-a--lower-oval-red-cream-flower-and-two-green-leaves--registered-native-annotation.json",
+        "trimap_png": "tmp/extraction-work/continuation-20261010/cma-2006-15-a--lower-oval-red-cream-flower-and-two-green-leaves--registered-native-trimap.png",
+        "native_source_size": [
+          842,
+          2727
+        ],
+        "native_upscaling": false,
+        "source_pixels_redrawn": false,
+        "original_opaque_rgb_preserved": true,
+        "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+        "alpha_guide": {
+          "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+          "guide_png": "tmp/extraction-work/continuation-20261010/cma-2006-15-a--lower-oval-red-cream-flower-and-two-green-leaves--native-alpha-reference.png",
+          "guide_sha256": "76c42552d5ddf06d13f2414d0e5568ae94488dc17d96093aff272fb20723b185",
+          "native_original": "tmp/extraction-work/continuation-20261010/cma-2006-15-a--lower-oval-red-cream-flower-and-two-green-leaves--original.png",
+          "similarity_ai_alpha_to_original": [
+            [
+              1.250607957416114,
+              -0.027503470975949375,
+              165.24508396975267
+            ],
+            [
+              0.027503470975949375,
+              1.250607957416114,
+              152.83852648309508
+            ]
+          ],
+          "matching_feature_pairs": 154,
+          "inlier_feature_pairs": 63,
+          "inlier_rms_native_pixels": 3.6702267959205317,
+          "source_inspection_factor": 0.6600660066006601,
+          "unknown_edge_band_native_pixels": 3,
+          "edge_solve_tile_size": 640,
+          "edge_solve_halo": 32,
+          "edge_solve_tiles": 6,
+          "original_opaque_rgb_preserved": true
+        },
+        "status": "awaiting-original-white-dark-review",
+        "tool": "Original native scan / closed-form edge alpha and foreground decontamination",
+        "pixel_exact": false,
+        "ownership_guide_prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. Select ONLY the independent LOWER LEFT sprig: the oval red-and-cream flower, its whole curved thin brown stem and both green leaves. Preserve complete stem terminals and real pale flower paint. Remove page/gold/black ground and text, without clipping the bottom stem or inventing stems. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_ownership_guide": {
+          "file": "tmp/extraction-work/cma-2006-15-a--lower-oval-red-cream-flower-and-two-green-leaves--retained-ai-extraction.png",
+          "sha256": "9b92a3e38b8be651bb66b1f7ed59fe147253bff1a9b9f2e819257257bc0cdad7",
+          "purpose": "Alpha ownership guide only; original opaque RGB retained."
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Full original botanical inputs and source/white/dark complete and native detail comparisons inspected. Complete red flowers, green stems and both leaf bodies retained, including original cream/gold worn surfaces. External gold field and neighboring red page rule cleared; no genuine closed holes in these three plants. Original RGB retained at opaque pixels; narrow native continuous edge matting, no upscaling or faceted vector redraw. Alpha ownership remains an approximate registered extraction.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/three-sprigs-original-owned-tight-native-recipes-current-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/three-sprigs-full-original-input-review.jpg",
+          "tmp/extraction-work/continuation-20261010/cma-2006-15-a--upper-red-trefoil-flower-and-two-green-leaves--latest-native-detail-proof.jpg",
+          "tmp/extraction-work/continuation-20261010/cma-2006-15-a--middle-two-green-leaf-curved-twig--latest-native-detail-proof.jpg",
+          "tmp/extraction-work/continuation-20261010/cma-2006-15-a--lower-oval-red-cream-flower-and-two-green-leaves--latest-native-detail-proof.jpg"
+        ]
+      },
+      "categories": [
+        "floral"
+      ],
+      "subjects": [
+        "flower",
+        "leaf",
+        "stem"
+      ],
+      "colors": [
+        "red",
+        "cream",
+        "green",
+        "brown"
+      ],
+      "facing": "unclear",
+      "composition": "single-ornament",
+      "usage_notes": "Original source-visible independent ornament or contacting figure group. No seamless repeat inferred. Exact original source bounds and extraction prompt retained; no unrelated page letters. Source-derived transparency will be reviewed against native scan.",
+      "sets": [
+        {
+          "id": "cleveland-1524-psalter-prayerbook",
+          "name": "Cleveland 1524 Psalter and Prayerbook",
+          "relation": "related Cleveland leaves with matching source title, date and painted style; individual source identities retained"
+        },
+        {
+          "id": "cma-2006-15-a-set",
+          "name": "Leaf from a Psalter and Prayerbook: Initial E with Ornamental Border Containing a Seated Satyr and a Bird Eating Grapes (recto) (cma-2006-15-a)",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "Oval red and cream flower on a curved green stem with two green leaves.",
+      "set_label": "Cleveland 1524 Psalter and Prayerbook"
+    },
+    {
+      "id": "cma-2006-15-a--middle-two-green-leaf-curved-twig",
+      "name": "middle-two-green-leaf-curved-twig",
+      "source_id": "cma-2006-15-a",
+      "source_folder": "cleveland",
+      "asset_type": "decoration",
+      "description": "Two green leaves connected by a thin curved brown twig. Part of the Cleveland 1524 Psalter and Prayerbook set.",
+      "source_region": [
+        633,
+        3010,
+        1455,
+        4970
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        140,
+        79,
+        657,
+        1823
+      ],
+      "export_crop_coordinate_space": "original-native-source-region",
+      "width": 517,
+      "height": 1744,
+      "png": "cleveland/cma-2006-15-a--middle-two-green-leaf-curved-twig.png",
+      "png_sha256": "d6582b31df8485e951d03e9556ccf9a2564c51e1a792ccca77cb19ac3a4c8c7b",
+      "provenance": {
+        "institution": "Cleveland Museum of Art",
+        "title": "Leaf from a Psalter and Prayerbook: Initial E with Ornamental Border Containing a Seated Satyr and a Bird Eating Grapes (recto)",
+        "object_identifier": "2006.15.a",
+        "date": "c. 1524",
+        "record_url": "https://clevelandart.org/art/2006.15.a",
+        "image_rights": "CC0; share_license_status=CC0",
+        "rights_url": "https://www.clevelandart.org/open-access",
+        "source_file": "tmp/new-assets/cleveland/cma-2006-15-a--leaf-from-a-psalter-and-prayerbook-initial-e-with-ornamental-border-containing-a-seated-sa--master.tif",
+        "source_sha256": "23bcaa627af03969a16a61510d2304b2d15e725469eaa2e212eecdb78e179bbe",
+        "source_metadata": "tmp/new-assets/cleveland/cma-2006-15-a.json",
+        "image_url": "https://openaccess-cdn.clevelandart.org/2006.15.a/2006.15.a_full.tif",
+        "method": "native-source-continuous-edge-matting"
+      },
+      "extraction": {
+        "candidate_png": "tmp/extraction-work/continuation-20261010/cma-2006-15-a--middle-two-green-leaf-curved-twig--registered-native-candidate.png",
+        "native_export_crop": [
+          140,
+          79,
+          657,
+          1823
+        ],
+        "export_crop_coordinate_space": "original-native-source-region",
+        "annotation_json": "tmp/extraction-work/continuation-20261010/cma-2006-15-a--middle-two-green-leaf-curved-twig--registered-native-annotation.json",
+        "trimap_png": "tmp/extraction-work/continuation-20261010/cma-2006-15-a--middle-two-green-leaf-curved-twig--registered-native-trimap.png",
+        "native_source_size": [
+          822,
+          1960
+        ],
+        "native_upscaling": false,
+        "source_pixels_redrawn": false,
+        "original_opaque_rgb_preserved": true,
+        "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+        "alpha_guide": {
+          "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+          "guide_png": "tmp/extraction-work/continuation-20261010/cma-2006-15-a--middle-two-green-leaf-curved-twig--native-alpha-reference.png",
+          "guide_sha256": "c7cdd2ee308264774c0ef43c977988df667a5a824552e2819e28dc5e571d3464",
+          "native_original": "tmp/extraction-work/continuation-20261010/cma-2006-15-a--middle-two-green-leaf-curved-twig--original.png",
+          "similarity_ai_alpha_to_original": [
+            [
+              0.9678843517143979,
+              -0.005360084461593087,
+              144.4500457138016
+            ],
+            [
+              0.005360084461593087,
+              0.9678843517143979,
+              77.11412130563161
+            ]
+          ],
+          "matching_feature_pairs": 69,
+          "inlier_feature_pairs": 31,
+          "inlier_rms_native_pixels": 2.510385976796216,
+          "source_inspection_factor": 0.9183673469387755,
+          "unknown_edge_band_native_pixels": 3,
+          "edge_solve_tile_size": 640,
+          "edge_solve_halo": 32,
+          "edge_solve_tiles": 5,
+          "original_opaque_rgb_preserved": true
+        },
+        "status": "awaiting-original-white-dark-review",
+        "tool": "Original native scan / closed-form edge alpha and foreground decontamination",
+        "pixel_exact": false,
+        "ownership_guide_prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. Select ONLY the independent MIDDLE LEFT sprig: two green leaves and their complete fine curved brown twig. Keep all original twig endpoints and leaf tips; no false added flowers or extension. Remove page, glyph and gold/black ground. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_ownership_guide": {
+          "file": "tmp/extraction-work/cma-2006-15-a--middle-two-green-leaf-curved-twig--retained-ai-extraction.png",
+          "sha256": "29cf6664659e779f88f3549fbf9b716cd76c52407c954172d300e79a992163af",
+          "purpose": "Alpha ownership guide only; original opaque RGB retained."
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Full original botanical inputs and source/white/dark complete and native detail comparisons inspected. Complete red flowers, green stems and both leaf bodies retained, including original cream/gold worn surfaces. External gold field and neighboring red page rule cleared; no genuine closed holes in these three plants. Original RGB retained at opaque pixels; narrow native continuous edge matting, no upscaling or faceted vector redraw. Alpha ownership remains an approximate registered extraction.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/three-sprigs-original-owned-tight-native-recipes-current-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/three-sprigs-full-original-input-review.jpg",
+          "tmp/extraction-work/continuation-20261010/cma-2006-15-a--upper-red-trefoil-flower-and-two-green-leaves--latest-native-detail-proof.jpg",
+          "tmp/extraction-work/continuation-20261010/cma-2006-15-a--middle-two-green-leaf-curved-twig--latest-native-detail-proof.jpg",
+          "tmp/extraction-work/continuation-20261010/cma-2006-15-a--lower-oval-red-cream-flower-and-two-green-leaves--latest-native-detail-proof.jpg"
+        ]
+      },
+      "categories": [
+        "floral"
+      ],
+      "subjects": [
+        "leaf",
+        "twig"
+      ],
+      "colors": [
+        "green",
+        "brown"
+      ],
+      "facing": "unclear",
+      "composition": "single-ornament",
+      "usage_notes": "Original source-visible independent ornament or contacting figure group. No seamless repeat inferred. Exact original source bounds and extraction prompt retained; no unrelated page letters. Source-derived transparency will be reviewed against native scan.",
+      "sets": [
+        {
+          "id": "cleveland-1524-psalter-prayerbook",
+          "name": "Cleveland 1524 Psalter and Prayerbook",
+          "relation": "related Cleveland leaves with matching source title, date and painted style; individual source identities retained"
+        },
+        {
+          "id": "cma-2006-15-a-set",
+          "name": "Leaf from a Psalter and Prayerbook: Initial E with Ornamental Border Containing a Seated Satyr and a Bird Eating Grapes (recto) (cma-2006-15-a)",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "Two green leaves connected by a thin curved brown twig.",
+      "set_label": "Cleveland 1524 Psalter and Prayerbook"
+    },
+    {
+      "id": "cma-2006-15-a--upper-red-trefoil-flower-and-two-green-leaves",
+      "name": "upper-red-trefoil-flower-and-two-green-leaves",
+      "source_id": "cma-2006-15-a",
+      "source_folder": "cleveland",
+      "asset_type": "decoration",
+      "description": "Red trefoil flower with a curved thin green stem and two green leaves. Part of the Cleveland 1524 Psalter and Prayerbook set.",
+      "source_region": [
+        646,
+        296,
+        1461,
+        2687
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        85,
+        108,
+        680,
+        2174
+      ],
+      "export_crop_coordinate_space": "original-native-source-region",
+      "width": 595,
+      "height": 2066,
+      "png": "cleveland/cma-2006-15-a--upper-red-trefoil-flower-and-two-green-leaves.png",
+      "png_sha256": "d464344a88563f5e54ff12aa9eaddf9705da58e4bfce67ad662324a01339a9a4",
+      "provenance": {
+        "institution": "Cleveland Museum of Art",
+        "title": "Leaf from a Psalter and Prayerbook: Initial E with Ornamental Border Containing a Seated Satyr and a Bird Eating Grapes (recto)",
+        "object_identifier": "2006.15.a",
+        "date": "c. 1524",
+        "record_url": "https://clevelandart.org/art/2006.15.a",
+        "image_rights": "CC0; share_license_status=CC0",
+        "rights_url": "https://www.clevelandart.org/open-access",
+        "source_file": "tmp/new-assets/cleveland/cma-2006-15-a--leaf-from-a-psalter-and-prayerbook-initial-e-with-ornamental-border-containing-a-seated-sa--master.tif",
+        "source_sha256": "23bcaa627af03969a16a61510d2304b2d15e725469eaa2e212eecdb78e179bbe",
+        "source_metadata": "tmp/new-assets/cleveland/cma-2006-15-a.json",
+        "image_url": "https://openaccess-cdn.clevelandart.org/2006.15.a/2006.15.a_full.tif",
+        "method": "native-source-continuous-edge-matting"
+      },
+      "extraction": {
+        "candidate_png": "tmp/extraction-work/continuation-20261010/cma-2006-15-a--upper-red-trefoil-flower-and-two-green-leaves--registered-native-candidate.png",
+        "native_export_crop": [
+          85,
+          108,
+          680,
+          2174
+        ],
+        "export_crop_coordinate_space": "original-native-source-region",
+        "annotation_json": "tmp/extraction-work/continuation-20261010/cma-2006-15-a--upper-red-trefoil-flower-and-two-green-leaves--registered-native-annotation.json",
+        "trimap_png": "tmp/extraction-work/continuation-20261010/cma-2006-15-a--upper-red-trefoil-flower-and-two-green-leaves--registered-native-trimap.png",
+        "native_source_size": [
+          815,
+          2391
+        ],
+        "native_upscaling": false,
+        "source_pixels_redrawn": false,
+        "original_opaque_rgb_preserved": true,
+        "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+        "alpha_guide": {
+          "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+          "guide_png": "tmp/extraction-work/continuation-20261010/cma-2006-15-a--upper-red-trefoil-flower-and-two-green-leaves--native-alpha-reference.png",
+          "guide_sha256": "b8c295cca7bc48ff62ecadcdd5358923381fe60718282df20d2433ca3d9d6f1d",
+          "native_original": "tmp/extraction-work/continuation-20261010/cma-2006-15-a--upper-red-trefoil-flower-and-two-green-leaves--original.png",
+          "similarity_ai_alpha_to_original": [
+            [
+              0.989163909754607,
+              -0.0014270774831221609,
+              84.40099025416328
+            ],
+            [
+              0.0014270774831221609,
+              0.989163909754607,
+              105.62199369672356
+            ]
+          ],
+          "matching_feature_pairs": 177,
+          "inlier_feature_pairs": 87,
+          "inlier_rms_native_pixels": 2.315259180965799,
+          "source_inspection_factor": 0.7528230865746549,
+          "unknown_edge_band_native_pixels": 3,
+          "edge_solve_tile_size": 640,
+          "edge_solve_halo": 32,
+          "edge_solve_tiles": 6,
+          "original_opaque_rgb_preserved": true
+        },
+        "status": "awaiting-original-white-dark-review",
+        "tool": "Original native scan / closed-form edge alpha and foreground decontamination",
+        "pixel_exact": false,
+        "ownership_guide_prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. Select ONLY the complete upper LEFT independent red trefoil flower sprig: flower at top, curved thin stem and both green leaves below. Exclude the top horizontal ornament, right frame rule, letter and all paper/gold ground. Preserve its entire natural original stem terminal. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_ownership_guide": {
+          "file": "tmp/extraction-work/cma-2006-15-a--upper-red-trefoil-flower-and-two-green-leaves--retained-ai-extraction.png",
+          "sha256": "d169c1771885bd149f67d11d7c2499835a28fee2d60d5152e8b04c911e940dff",
+          "purpose": "Alpha ownership guide only; original opaque RGB retained."
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Full original botanical inputs and source/white/dark complete and native detail comparisons inspected. Complete red flowers, green stems and both leaf bodies retained, including original cream/gold worn surfaces. External gold field and neighboring red page rule cleared; no genuine closed holes in these three plants. Original RGB retained at opaque pixels; narrow native continuous edge matting, no upscaling or faceted vector redraw. Alpha ownership remains an approximate registered extraction.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/three-sprigs-original-owned-tight-native-recipes-current-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/three-sprigs-full-original-input-review.jpg",
+          "tmp/extraction-work/continuation-20261010/cma-2006-15-a--upper-red-trefoil-flower-and-two-green-leaves--latest-native-detail-proof.jpg",
+          "tmp/extraction-work/continuation-20261010/cma-2006-15-a--middle-two-green-leaf-curved-twig--latest-native-detail-proof.jpg",
+          "tmp/extraction-work/continuation-20261010/cma-2006-15-a--lower-oval-red-cream-flower-and-two-green-leaves--latest-native-detail-proof.jpg"
+        ]
+      },
+      "categories": [
+        "floral"
+      ],
+      "subjects": [
+        "flower",
+        "leaf",
+        "stem"
+      ],
+      "colors": [
+        "red",
+        "green",
+        "brown"
+      ],
+      "facing": "unclear",
+      "composition": "single-ornament",
+      "usage_notes": "Original source-visible independent ornament or contacting figure group. No seamless repeat inferred. Exact original source bounds and extraction prompt retained; no unrelated page letters. Source-derived transparency will be reviewed against native scan.",
+      "sets": [
+        {
+          "id": "cleveland-1524-psalter-prayerbook",
+          "name": "Cleveland 1524 Psalter and Prayerbook",
+          "relation": "related Cleveland leaves with matching source title, date and painted style; individual source identities retained"
+        },
+        {
+          "id": "cma-2006-15-a-set",
+          "name": "Leaf from a Psalter and Prayerbook: Initial E with Ornamental Border Containing a Seated Satyr and a Bird Eating Grapes (recto) (cma-2006-15-a)",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "Red trefoil flower with a curved thin green stem and two green leaves.",
+      "set_label": "Cleveland 1524 Psalter and Prayerbook"
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+import type{WholeDesign}from'../common.js';type D=WholeDesign<"blue-line-filler-with-white-waves-hatching-and-curled-terminal","webp"|"png","decoration">;export declare const ornament:D['ornament'];export declare const resolveOrnament:D['resolve'];export type ImageOptions=D['imageOptions'];export declare const createOrnamentImage:D['createOrnamentImage'];

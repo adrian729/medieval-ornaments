@@ -1,0 +1,117 @@
+{
+  "source_id": "walters-w88-186r",
+  "assets": [
+    {
+      "id": "walters-w88-186r--monkeys-playing-chess",
+      "name": "monkeys-playing-chess",
+      "source_id": "walters-w88-186r",
+      "source_folder": "walters",
+      "asset_type": "illustration",
+      "description": "Two complete seated monkeys facing one another at the original upright golden chequered board or box: left monkey raising the source small game piece, both players hands contacting the board, all bent legs and feet, the complete visible board and its original grid.",
+      "source_region": [
+        934,
+        5165,
+        2354,
+        6089
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        17,
+        39,
+        1332,
+        857
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 1315,
+      "height": 818,
+      "png": "walters/walters-w88-186r--monkeys-playing-chess.png",
+      "png_sha256": "65320a55c6e6d0af44bf14d85b78effc1c9b201138988133b2344db7dff5dcd3",
+      "provenance": {
+        "institution": "Walters Art Museum",
+        "title": "Monkeys playing chess",
+        "object_identifier": "W.88, fol. 186r",
+        "date": "First quarter 14th century CE",
+        "record_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/html/W88/description.html",
+        "image_rights": "CC0 (Digital Walters manuscript images)",
+        "rights_url": "https://www.thedigitalwalters.org/01_ACCESS_WALTERS_MANUSCRIPTS.html",
+        "source_file": "tmp/new-assets/walters/walters-w88-186r--monkeys-playing-chess--master.tif",
+        "source_sha256": "97a258a8c25edee5ea3c493f4a398ee320ce69a313ebb305bb995788de12d3fa",
+        "source_metadata": "tmp/new-assets/walters/walters-w88-186r.json",
+        "image_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/W88/data/W.88/master/W88_000377_1200.tif",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: background-extraction. Extract this EXACT ORIGINAL connected manuscript scene of TWO SEATED MONKEYS PLAYING AT THEIR GOLDEN CHEQUERED BOARD/BOX onto genuine transparency. Keep both players together with the complete original visible object, all original contact points, exact relative positions, poses, expressions, head/ear/finger/toe contours and fur hatching. Left monkey holds the actual little original playing piece in its raised hand and touches the board with its other hand; right monkey has its near hand over the board and its other arm resting along its raised knee, both original feet visible. Preserve the real black filled triangular form between the left monkey's bent knee and elbow; do not delete illustrated black areas as background. The chequered golden object is upright, with an irregular tilted/sloping top and box-like front: retain its EXACT SOURCE geometry, actual visible black grid lines and gold painted cells, including hand occlusions. Do not replace it with a horizontal board, modern uniform 8-by-8 chessboard, cube, new perspective or invented game pieces. Remove ONLY surrounding green parchment, page rules, stains and unrelated reverse-page ghosts. Clean photographic paper discoloration and ghost marks inside the foreground while retaining the actual original opaque painted body tones and all fine ink strokes. Genuinely empty gaps around/between limbs and figures must be transparent. No new anatomy, re-posing, hidden detail reconstruction, generic redrawing, smoothing away original ink, shadows, halo or background rectangle. Output one faithful complete historical illustration with small transparent margins.",
+        "retained_generated_extraction": "tmp/extraction-work/walters-w88-186r--monkeys-playing-chess--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "6c143fa736bf397c74141fdb0c5335530e65eaa49a8e7248e36bb227d32d67d4",
+        "retained_generated_size": [
+          1555,
+          1012
+        ],
+        "resolution_cap_scale": 0.8701472556894244,
+        "resolution_capped_size": [
+          1353,
+          881
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          1300,
+          804
+        ],
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 3418
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261010",
+        "notes": "Kept only both players and their shared board/box. Verified original small held piece, touching hands, gold box proportions, board grid, legs and feet. Painted black regions below the arms remain opaque artwork. Re-exported without subject upscaling beyond original dimensions; no separate interacting players.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": "tmp/extraction-work/quality-reaudit-20261010/eight-final-corrections-original-white-dark.jpg"
+      },
+      "categories": [
+        "animals"
+      ],
+      "subjects": [
+        "monkey",
+        "chessboard",
+        "chess",
+        "game"
+      ],
+      "facing": "mixed",
+      "colors": [
+        "brown",
+        "gold",
+        "green"
+      ],
+      "composition": "multiple-figures",
+      "usage_notes": "Connected scene retained as one illustration. Interacting hands and shared props are not split into individual assets. AI-assisted cleanup may alter minute scan texture; original scan and full prompt are retained for comparison.",
+      "review_history": [
+        {
+          "round": "quality-reaudit-20261010",
+          "previous_review": {
+            "status": "accepted",
+            "reviewed_on": "2026-10-10",
+            "notes": "Correction round: compared entire scene to the original. Actual interactions remain intact; surrounding parchment, photographic green cast and reverse-page ghosts cleared. Complete limb/foot widths and contact junctions checked on white/dark. AI cleanup approximates small ink texture and paint wear; original source retained."
+          }
+        }
+      ]
+    }
+  ]
+}

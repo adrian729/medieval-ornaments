@@ -1,0 +1,169 @@
+{
+  "source_id": "nga-4342",
+  "assets": [
+    {
+      "id": "nga-4342--candelabra-supported-by-two-blindfolded-women",
+      "name": "candelabra-supported-by-two-blindfolded-women",
+      "source_id": "nga-4342",
+      "source_folder": "national-gallery-of-art",
+      "asset_type": "decoration",
+      "description": "Original vertical candelabra ornament supported by two blindfolded women, with its contacting upper grotesque.",
+      "source_region": [
+        0,
+        0,
+        745,
+        4096
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        34,
+        66,
+        702,
+        4035
+      ],
+      "export_crop_coordinate_space": "original-native-source-region",
+      "width": 668,
+      "height": 3969,
+      "png": "national-gallery-of-art/nga-4342--candelabra-supported-by-two-blindfolded-women.png",
+      "png_sha256": "a8d685151bd149bb6b2c008cd1a091c3c8730fa08b5b79bf53fca56fc1ca5319",
+      "provenance": {
+        "institution": "National Gallery of Art, Washington",
+        "title": "Panel of Ornament with Candelabra Supported by Two Blindfolded Women",
+        "object_identifier": "1943.3.1124",
+        "date": "1527",
+        "artist": "Sebald Beham",
+        "record_url": "https://www.nga.gov/collection/art-object-page.4342.html",
+        "image_rights": "Open Access / public domain; official image dataset openaccess=1",
+        "rights_url": "https://www.nga.gov/artworks/free-images-and-open-access",
+        "source_file": "tmp/new-assets/national-gallery-of-art/nga-4342--panel-of-ornament-with-candelabra-supported-by-two-blindfolded-women.jpg",
+        "source_sha256": "bb3572d81c8158b018e6610ac5dee17dce31a41b3b1968e6e9f7f3065f8be556",
+        "source_metadata": "tmp/new-assets/national-gallery-of-art/nga-4342.json",
+        "image_url": "https://api.nga.gov/iiif/856e5bd3-3852-4884-94e1-50ea4c8b44fb/full/full/0/default.jpg",
+        "method": "native-source-continuous-edge-matting"
+      },
+      "extraction": {
+        "candidate_png": "tmp/extraction-work/continuation-20261010/nga-4342--candelabra-supported-by-two-blindfolded-women--native-no-extrinsic-signature.png",
+        "native_export_crop": [
+          34,
+          66,
+          702,
+          4035
+        ],
+        "export_crop_coordinate_space": "original-native-source-region",
+        "annotation_json": "tmp/extraction-work/continuation-20261010/nga-4342--candelabra-supported-by-two-blindfolded-women--registered-native-annotation.json",
+        "trimap_png": "tmp/extraction-work/continuation-20261010/nga-4342--candelabra-supported-by-two-blindfolded-women--registered-native-trimap.png",
+        "native_source_size": [
+          745,
+          4096
+        ],
+        "native_upscaling": false,
+        "source_pixels_redrawn": false,
+        "original_opaque_rgb_preserved": true,
+        "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+        "alpha_guide": {
+          "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+          "guide_png": "tmp/extraction-work/continuation-20261010/nga-4342--candelabra-supported-by-two-blindfolded-women--native-alpha-reference.png",
+          "guide_sha256": "bdca7c9a53921f783b9391631f3151c22615ec876964300fc9275dd416a0cf34",
+          "native_original": "tmp/extraction-work/continuation-20261010/nga-4342--candelabra-supported-by-two-blindfolded-women--original.png",
+          "similarity_ai_alpha_to_original": [
+            [
+              1.8882559491325395,
+              -0.002307976851998318,
+              30.261259300454014
+            ],
+            [
+              0.002307976851998318,
+              1.8882559491325395,
+              57.66716719915899
+            ]
+          ],
+          "matching_feature_pairs": 869,
+          "inlier_feature_pairs": 695,
+          "inlier_rms_native_pixels": 3.7630954622284736,
+          "source_inspection_factor": 0.439453125,
+          "unknown_edge_band_native_pixels": 3,
+          "edge_solve_tile_size": 640,
+          "edge_solve_halo": 32,
+          "edge_solve_tiles": 14,
+          "original_opaque_rgb_preserved": true
+        },
+        "status": "awaiting-original-white-dark-review",
+        "signature_exclusion": {
+          "method": "The separate original rectangular 1527/artist-monogram panel and its underside rule are excluded in original native source coordinates. Both visible figure bodies and curved lower extremities on either side remain unchanged. No source-hidden anatomy is invented.",
+          "source_region_polygon": [
+            [
+              253,
+              3890
+            ],
+            [
+              465,
+              3891
+            ],
+            [
+              466,
+              4045
+            ],
+            [
+              254,
+              4045
+            ]
+          ],
+          "input_candidate": "tmp/extraction-work/continuation-20261010/nga-4342--candelabra-supported-by-two-blindfolded-women--native-before-signature-exclusion.png",
+          "input_candidate_sha256": "a203e5e85de217f25b8d7171c72a5f35d4478c8217b8fc403a3396ba2eb9cabc",
+          "previous_native_annotation": "tmp/extraction-work/continuation-20261010/nga-4342--candelabra-supported-by-two-blindfolded-women--registered-native-annotation.json"
+        },
+        "signature_exclusion_annotation": "tmp/extraction-work/continuation-20261010/nga-4342--candelabra-supported-by-two-blindfolded-women--signature-exclusion-annotation.json",
+        "tool": "Original native scan / closed-form edge alpha and foreground decontamination",
+        "pixel_exact": false,
+        "ownership_guide_prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. Select ONLY the COMPLETE finite connected original foreground engraved ornament shown in this reference. Retain every source-visible acanthus curl, stem, leaf, petal, figure, head, hand, foot, claw, tail, wing, prop and instrument, including all original fine hatching within foreground surfaces. Keep contacting figures together with their required shared mounts/props and ornamental structure. Remove the uniform dark crosshatched field outside the ornament and inside every true opening between its curls or figures, but keep the original dark hatching within the pale foreground bodies opaque. Preserve original inscriptions on actual foreground ribbons/vessels as source artwork; remove only extrinsic signatures/date labels/page rules/paper around the design. Do not cut or redraw the original forehead, facial features, source-visible anatomy, hatching or feathery leaves. This is one finite original ornamental network, with no inferred seamless tile, generic frame corner, symmetry repair or modernized leaf shape. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_ownership_guide": {
+          "file": "tmp/extraction-work/nga-4342--candelabra-supported-by-two-blindfolded-women--retained-ai-extraction.png",
+          "sha256": "42f31ab3c7db12b392b89342c924e865f55189eb556c6347d9401dc3814167d6",
+          "purpose": "Retained AI alpha guide only; delivered opaque RGB belongs to the unchanged native source."
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Original/native white/dark comparisons inspected. Complete connected ornamental systems remain whole, including opaque source body surfaces, source print hatching and intrinsic roundel cloud scenes. Exterior printed field and true openings cleared with a three-native-pixel continuous source matte; original opaque RGB and native proportions retained. The separate NGA4342 date/monogram panel was removed along its original bounds; its occlusion was not repainted. No inaccurate vector or inferred repeat.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/connected-engraved-panel-tight-native-recipes-current-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/connected-engraved-panel-tight-native-recipes-current-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/nga-4342--candelabra-supported-by-two-blindfolded-women--latest-native-detail-proof.jpg"
+        ]
+      },
+      "categories": [
+        "floral",
+        "fantasy",
+        "humans"
+      ],
+      "subjects": [
+        "woman",
+        "blindfold",
+        "candelabra",
+        "vase",
+        "leaf",
+        "scroll",
+        "figure"
+      ],
+      "colors": [
+        "black",
+        "cream",
+        "gray"
+      ],
+      "facing": "unclear",
+      "composition": "single-ornament",
+      "usage_notes": "One complete connected candelabra ornament. The separate date/artist-monogram panel below it is excluded; visible figure ends around its original occlusion remain unaltered. No hidden anatomy or new border/corners reconstructed."
+    }
+  ]
+}

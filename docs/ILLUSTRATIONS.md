@@ -216,3 +216,11 @@ before authoring; selected builds preserve unrelated artwork.
 
 The complete prior migration and historical addition notes are preserved in
 [the merge plan](https://github.com/adrian729/medieval-ornaments/blob/main/docs/MERGE-PLAN.md#illustration-maintenance-record).
+
+The finished historical batch is audited in `finished-additions.json`, with
+per-source extraction/review records in `audits/finished-assets/`. Transparent
+figures, touching groups and retained complete scenes preserve their reviewed
+separation decisions. Superseded alternate extractions are recorded explicitly
+and excluded from the public catalog. Native PNG masters remain the appearance
+reference; an SVG is supplied only where the retained trace passed review.
+Optional named `sets` connect related subjects and ornaments in discovery.

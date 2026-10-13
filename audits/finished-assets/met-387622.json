@@ -1,0 +1,1038 @@
+{
+  "source_id": "met-387622",
+  "assets": [
+    {
+      "id": "met-387622--framed-mounted-figure-and-attendant-vignette",
+      "name": "framed-mounted-figure-and-attendant-vignette",
+      "source_id": "met-387622",
+      "source_folder": "met",
+      "asset_type": "illustration",
+      "description": "A complete original framed engraved vignette of mounted figure and attendant vignette. Part of the Du Cerceau bird-canopy architecture set.",
+      "source_region": [
+        63,
+        1614,
+        394,
+        1855
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        0,
+        0,
+        331,
+        241
+      ],
+      "export_crop_coordinate_space": "source-region",
+      "width": 331,
+      "height": 241,
+      "png": "met/met-387622--framed-mounted-figure-and-attendant-vignette.png",
+      "png_sha256": "98325151cd0a1fa2f0904549a3dbcf501aa908039420596993b1982e7339c5f3",
+      "provenance": {
+        "institution": "Metropolitan Museum of Art",
+        "title": "Grotesque Panel",
+        "object_identifier": "21.10.1(31)",
+        "date": "1550",
+        "artist": "Jacques Androuet Du Cerceau",
+        "record_url": "https://www.metmuseum.org/art/collection/search/387622",
+        "image_rights": "CC0 Open Access; isPublicDomain=true",
+        "rights_url": "https://www.metmuseum.org/policies/image-resources",
+        "source_file": "tmp/new-assets/met/met-387622--grotesque-panel.jpg",
+        "source_sha256": "54c6b3852c207f744aa2ee86447b0c751dcd85782331a219b6d401f0a79caa79",
+        "source_metadata": "tmp/new-assets/met/met-387622.json",
+        "image_url": "https://images.metmuseum.org/CRDImages/dp/original/DP213858.jpg",
+        "method": "native-continuous-ink-matting"
+      },
+      "extraction": {
+        "method": "Native-resolution continuous ink coverage after locally measured paper removal; PNG appearance master.",
+        "source_pixels_repainted": false,
+        "source_rgb_modified": "Paper removed by measured ink coverage; RGB is the scan-measured ink tone, not an exact source-pixel crop.",
+        "paper_kernel": 61,
+        "minimum_coverage": 0.2,
+        "minimum_component_pixels": 3,
+        "settings": {
+          "paper_kernel": 61,
+          "paper_kernel_shape": "rectangle",
+          "minimum_coverage": 0.2,
+          "minimum_component_pixels": 3,
+          "minimum_component_peak": 0.5,
+          "minimum_channel_coverage": true,
+          "largest_connected_support_join_radius": 3,
+          "fill_connected_support_interiors": false
+        },
+        "exclude_regions": [],
+        "export_crop": [
+          0,
+          0,
+          331,
+          241
+        ],
+        "ink_color": [
+          70,
+          67,
+          62
+        ],
+        "candidate_png": "tmp/extraction-work/met-387622--framed-mounted-figure-and-attendant-vignette--ink-candidate.png",
+        "status": "awaiting-native-visual-review",
+        "tool": "Native source ink analysis",
+        "source_pixels_redrawn": false
+      },
+      "parent": "met-387622--grotesque-architecture-with-bird-canopies-and-framed-scenes",
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Compared source details and native white/dark alpha renders. Five complete light-line lace cells retain original cream polarity and genuine dark openings. The cleaner of the repeated small medallion impressions is retained. Six framed vignettes preserve full source-visible heads/arms/props and their contacting original frames; interior/exterior paper is clear.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/refined-lace-and-vignette-native-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/refined-lace-and-vignette-native-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/refined-lace-and-vignette-native-proof-3.jpg",
+          "tmp/extraction-work/continuation-20261010/refined-lace-and-vignette-native-proof-4.jpg",
+          "tmp/extraction-work/continuation-20261010/refined-lace-and-vignette-native-proof-5.jpg"
+        ]
+      },
+      "categories": [
+        "humans"
+      ],
+      "subjects": [
+        "figure",
+        "scene",
+        "frame"
+      ],
+      "facing": "mixed",
+      "colors": [
+        "brown",
+        "black"
+      ],
+      "composition": "framed-scene",
+      "usage_notes": "Whole original small vignette with its native engraved frame, where figures touch their support. Paper is transparent throughout. No limbs or missing frame segments invented; this intrinsic scene is separately available alongside its parent grotesque ornament.",
+      "selection_history": [
+        {
+          "previous_values": {
+            "categories": [
+              "people"
+            ],
+            "subjects": [
+              "figure",
+              "scene",
+              "frame"
+            ],
+            "composition": "scene"
+          },
+          "reason": "Normalize new staging metadata to shared category/composition/subject vocabulary; factual descriptions and original source metadata unchanged."
+        }
+      ],
+      "sets": [
+        {
+          "id": "met-387622-set",
+          "name": "Du Cerceau bird-canopy architecture",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A complete original framed engraved vignette of mounted figure and attendant vignette.",
+      "set_label": "Du Cerceau bird-canopy architecture"
+    },
+    {
+      "id": "met-387622--framed-reclining-figure-with-round-shield",
+      "name": "framed-reclining-figure-with-round-shield",
+      "source_id": "met-387622",
+      "source_folder": "met",
+      "asset_type": "illustration",
+      "description": "A complete original framed engraved vignette of reclining figure with round shield. Part of the Du Cerceau bird-canopy architecture set.",
+      "source_region": [
+        1712,
+        1620,
+        2057,
+        1871
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        10,
+        0,
+        345,
+        251
+      ],
+      "export_crop_coordinate_space": "source-region",
+      "width": 335,
+      "height": 251,
+      "png": "met/met-387622--framed-reclining-figure-with-round-shield.png",
+      "png_sha256": "005fd02c892b64f696994be6f6d123d9d6d5a6b9c4542e95650878027b1b843a",
+      "provenance": {
+        "institution": "Metropolitan Museum of Art",
+        "title": "Grotesque Panel",
+        "object_identifier": "21.10.1(31)",
+        "date": "1550",
+        "artist": "Jacques Androuet Du Cerceau",
+        "record_url": "https://www.metmuseum.org/art/collection/search/387622",
+        "image_rights": "CC0 Open Access; isPublicDomain=true",
+        "rights_url": "https://www.metmuseum.org/policies/image-resources",
+        "source_file": "tmp/new-assets/met/met-387622--grotesque-panel.jpg",
+        "source_sha256": "54c6b3852c207f744aa2ee86447b0c751dcd85782331a219b6d401f0a79caa79",
+        "source_metadata": "tmp/new-assets/met/met-387622.json",
+        "image_url": "https://images.metmuseum.org/CRDImages/dp/original/DP213858.jpg",
+        "method": "native-continuous-ink-matting"
+      },
+      "extraction": {
+        "method": "Native-resolution continuous ink coverage after locally measured paper removal; PNG appearance master.",
+        "source_pixels_repainted": false,
+        "source_rgb_modified": "Paper removed by measured ink coverage; RGB is the scan-measured ink tone, not an exact source-pixel crop.",
+        "paper_kernel": 61,
+        "minimum_coverage": 0.2,
+        "minimum_component_pixels": 3,
+        "settings": {
+          "paper_kernel": 61,
+          "paper_kernel_shape": "rectangle",
+          "minimum_coverage": 0.2,
+          "minimum_component_pixels": 3,
+          "minimum_component_peak": 0.5,
+          "minimum_channel_coverage": true,
+          "largest_connected_support_join_radius": 3,
+          "fill_connected_support_interiors": false
+        },
+        "exclude_regions": [],
+        "export_crop": [
+          10,
+          0,
+          345,
+          251
+        ],
+        "ink_color": [
+          73,
+          68,
+          63
+        ],
+        "candidate_png": "tmp/extraction-work/met-387622--framed-reclining-figure-with-round-shield--ink-candidate.png",
+        "status": "awaiting-native-visual-review",
+        "tool": "Native source ink analysis",
+        "source_pixels_redrawn": false
+      },
+      "parent": "met-387622--grotesque-architecture-with-bird-canopies-and-framed-scenes",
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Compared source details and native white/dark alpha renders. Five complete light-line lace cells retain original cream polarity and genuine dark openings. The cleaner of the repeated small medallion impressions is retained. Six framed vignettes preserve full source-visible heads/arms/props and their contacting original frames; interior/exterior paper is clear.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/refined-lace-and-vignette-native-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/refined-lace-and-vignette-native-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/refined-lace-and-vignette-native-proof-3.jpg",
+          "tmp/extraction-work/continuation-20261010/refined-lace-and-vignette-native-proof-4.jpg",
+          "tmp/extraction-work/continuation-20261010/refined-lace-and-vignette-native-proof-5.jpg"
+        ]
+      },
+      "categories": [
+        "humans"
+      ],
+      "subjects": [
+        "figure",
+        "scene",
+        "frame"
+      ],
+      "facing": "mixed",
+      "colors": [
+        "brown",
+        "black"
+      ],
+      "composition": "framed-scene",
+      "usage_notes": "Whole original small vignette with its native engraved frame, where figures touch their support. Paper is transparent throughout. No limbs or missing frame segments invented; this intrinsic scene is separately available alongside its parent grotesque ornament.",
+      "selection_history": [
+        {
+          "previous_values": {
+            "categories": [
+              "people"
+            ],
+            "subjects": [
+              "figure",
+              "scene",
+              "frame"
+            ],
+            "composition": "scene"
+          },
+          "reason": "Normalize new staging metadata to shared category/composition/subject vocabulary; factual descriptions and original source metadata unchanged."
+        }
+      ],
+      "sets": [
+        {
+          "id": "met-387622-set",
+          "name": "Du Cerceau bird-canopy architecture",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A complete original framed engraved vignette of reclining figure with round shield.",
+      "set_label": "Du Cerceau bird-canopy architecture"
+    },
+    {
+      "id": "met-387622--framed-standing-statue-and-two-foreground-figures",
+      "name": "framed-standing-statue-and-two-foreground-figures",
+      "source_id": "met-387622",
+      "source_folder": "met",
+      "asset_type": "illustration",
+      "description": "A complete original framed engraved vignette of standing statue and two foreground figures. Part of the Du Cerceau bird-canopy architecture set.",
+      "source_region": [
+        65,
+        1847,
+        400,
+        2344
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        0,
+        0,
+        335,
+        497
+      ],
+      "export_crop_coordinate_space": "source-region",
+      "width": 335,
+      "height": 497,
+      "png": "met/met-387622--framed-standing-statue-and-two-foreground-figures.png",
+      "png_sha256": "49c6dd3812b8b74c18ef81946bccfbf7e26e562b5885d4abec69e441d2d30466",
+      "provenance": {
+        "institution": "Metropolitan Museum of Art",
+        "title": "Grotesque Panel",
+        "object_identifier": "21.10.1(31)",
+        "date": "1550",
+        "artist": "Jacques Androuet Du Cerceau",
+        "record_url": "https://www.metmuseum.org/art/collection/search/387622",
+        "image_rights": "CC0 Open Access; isPublicDomain=true",
+        "rights_url": "https://www.metmuseum.org/policies/image-resources",
+        "source_file": "tmp/new-assets/met/met-387622--grotesque-panel.jpg",
+        "source_sha256": "54c6b3852c207f744aa2ee86447b0c751dcd85782331a219b6d401f0a79caa79",
+        "source_metadata": "tmp/new-assets/met/met-387622.json",
+        "image_url": "https://images.metmuseum.org/CRDImages/dp/original/DP213858.jpg",
+        "method": "native-continuous-ink-matting"
+      },
+      "extraction": {
+        "method": "Native-resolution continuous ink coverage after locally measured paper removal; PNG appearance master.",
+        "source_pixels_repainted": false,
+        "source_rgb_modified": "Paper removed by measured ink coverage; RGB is the scan-measured ink tone, not an exact source-pixel crop.",
+        "paper_kernel": 61,
+        "minimum_coverage": 0.2,
+        "minimum_component_pixels": 3,
+        "settings": {
+          "paper_kernel": 61,
+          "paper_kernel_shape": "rectangle",
+          "minimum_coverage": 0.2,
+          "minimum_component_pixels": 3,
+          "minimum_component_peak": 0.5,
+          "minimum_channel_coverage": true,
+          "largest_connected_support_join_radius": 3,
+          "fill_connected_support_interiors": false
+        },
+        "exclude_regions": [],
+        "export_crop": [
+          0,
+          0,
+          335,
+          497
+        ],
+        "ink_color": [
+          70,
+          68,
+          63
+        ],
+        "candidate_png": "tmp/extraction-work/met-387622--framed-standing-statue-and-two-foreground-figures--ink-candidate.png",
+        "status": "awaiting-native-visual-review",
+        "tool": "Native source ink analysis",
+        "source_pixels_redrawn": false
+      },
+      "parent": "met-387622--grotesque-architecture-with-bird-canopies-and-framed-scenes",
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Compared source details and native white/dark alpha renders. Five complete light-line lace cells retain original cream polarity and genuine dark openings. The cleaner of the repeated small medallion impressions is retained. Six framed vignettes preserve full source-visible heads/arms/props and their contacting original frames; interior/exterior paper is clear.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/refined-lace-and-vignette-native-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/refined-lace-and-vignette-native-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/refined-lace-and-vignette-native-proof-3.jpg",
+          "tmp/extraction-work/continuation-20261010/refined-lace-and-vignette-native-proof-4.jpg",
+          "tmp/extraction-work/continuation-20261010/refined-lace-and-vignette-native-proof-5.jpg"
+        ]
+      },
+      "categories": [
+        "humans"
+      ],
+      "subjects": [
+        "figure",
+        "scene",
+        "frame"
+      ],
+      "facing": "mixed",
+      "colors": [
+        "brown",
+        "black"
+      ],
+      "composition": "framed-scene",
+      "usage_notes": "Whole original small vignette with its native engraved frame, where figures touch their support. Paper is transparent throughout. No limbs or missing frame segments invented; this intrinsic scene is separately available alongside its parent grotesque ornament.",
+      "selection_history": [
+        {
+          "previous_values": {
+            "categories": [
+              "people"
+            ],
+            "subjects": [
+              "figure",
+              "scene",
+              "frame"
+            ],
+            "composition": "scene"
+          },
+          "reason": "Normalize new staging metadata to shared category/composition/subject vocabulary; factual descriptions and original source metadata unchanged."
+        }
+      ],
+      "sets": [
+        {
+          "id": "met-387622-set",
+          "name": "Du Cerceau bird-canopy architecture",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A complete original framed engraved vignette of standing statue and two foreground figures.",
+      "set_label": "Du Cerceau bird-canopy architecture"
+    },
+    {
+      "id": "met-387622--framed-standing-statue-with-two-attending-figures",
+      "name": "framed-standing-statue-with-two-attending-figures",
+      "source_id": "met-387622",
+      "source_folder": "met",
+      "asset_type": "illustration",
+      "description": "A complete original framed engraved vignette of standing statue with two attending figures. Part of the Du Cerceau bird-canopy architecture set.",
+      "source_region": [
+        1710,
+        1861,
+        2059,
+        2350
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        4,
+        0,
+        349,
+        489
+      ],
+      "export_crop_coordinate_space": "source-region",
+      "width": 345,
+      "height": 489,
+      "png": "met/met-387622--framed-standing-statue-with-two-attending-figures.png",
+      "png_sha256": "6d824ee40927a86b834fdad63c34350e1fd9add2cbe043d489d112679bb5fbbb",
+      "provenance": {
+        "institution": "Metropolitan Museum of Art",
+        "title": "Grotesque Panel",
+        "object_identifier": "21.10.1(31)",
+        "date": "1550",
+        "artist": "Jacques Androuet Du Cerceau",
+        "record_url": "https://www.metmuseum.org/art/collection/search/387622",
+        "image_rights": "CC0 Open Access; isPublicDomain=true",
+        "rights_url": "https://www.metmuseum.org/policies/image-resources",
+        "source_file": "tmp/new-assets/met/met-387622--grotesque-panel.jpg",
+        "source_sha256": "54c6b3852c207f744aa2ee86447b0c751dcd85782331a219b6d401f0a79caa79",
+        "source_metadata": "tmp/new-assets/met/met-387622.json",
+        "image_url": "https://images.metmuseum.org/CRDImages/dp/original/DP213858.jpg",
+        "method": "native-continuous-ink-matting"
+      },
+      "extraction": {
+        "method": "Native-resolution continuous ink coverage after locally measured paper removal; PNG appearance master.",
+        "source_pixels_repainted": false,
+        "source_rgb_modified": "Paper removed by measured ink coverage; RGB is the scan-measured ink tone, not an exact source-pixel crop.",
+        "paper_kernel": 61,
+        "minimum_coverage": 0.2,
+        "minimum_component_pixels": 3,
+        "settings": {
+          "paper_kernel": 61,
+          "paper_kernel_shape": "rectangle",
+          "minimum_coverage": 0.2,
+          "minimum_component_pixels": 3,
+          "minimum_component_peak": 0.5,
+          "minimum_channel_coverage": true,
+          "largest_connected_support_join_radius": 3,
+          "fill_connected_support_interiors": false
+        },
+        "exclude_regions": [],
+        "export_crop": [
+          4,
+          0,
+          349,
+          489
+        ],
+        "ink_color": [
+          74,
+          69,
+          64
+        ],
+        "candidate_png": "tmp/extraction-work/met-387622--framed-standing-statue-with-two-attending-figures--ink-candidate.png",
+        "status": "awaiting-native-visual-review",
+        "tool": "Native source ink analysis",
+        "source_pixels_redrawn": false
+      },
+      "parent": "met-387622--grotesque-architecture-with-bird-canopies-and-framed-scenes",
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Compared source details and native white/dark alpha renders. Five complete light-line lace cells retain original cream polarity and genuine dark openings. The cleaner of the repeated small medallion impressions is retained. Six framed vignettes preserve full source-visible heads/arms/props and their contacting original frames; interior/exterior paper is clear.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/refined-lace-and-vignette-native-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/refined-lace-and-vignette-native-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/refined-lace-and-vignette-native-proof-3.jpg",
+          "tmp/extraction-work/continuation-20261010/refined-lace-and-vignette-native-proof-4.jpg",
+          "tmp/extraction-work/continuation-20261010/refined-lace-and-vignette-native-proof-5.jpg"
+        ]
+      },
+      "categories": [
+        "humans"
+      ],
+      "subjects": [
+        "figure",
+        "scene",
+        "frame"
+      ],
+      "facing": "mixed",
+      "colors": [
+        "brown",
+        "black"
+      ],
+      "composition": "framed-scene",
+      "usage_notes": "Whole original small vignette with its native engraved frame, where figures touch their support. Paper is transparent throughout. No limbs or missing frame segments invented; this intrinsic scene is separately available alongside its parent grotesque ornament.",
+      "selection_history": [
+        {
+          "previous_values": {
+            "categories": [
+              "people"
+            ],
+            "subjects": [
+              "figure",
+              "scene",
+              "frame"
+            ],
+            "composition": "scene"
+          },
+          "reason": "Normalize new staging metadata to shared category/composition/subject vocabulary; factual descriptions and original source metadata unchanged."
+        }
+      ],
+      "sets": [
+        {
+          "id": "met-387622-set",
+          "name": "Du Cerceau bird-canopy architecture",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A complete original framed engraved vignette of standing statue with two attending figures.",
+      "set_label": "Du Cerceau bird-canopy architecture"
+    },
+    {
+      "id": "met-387622--framed-two-figures-contesting-on-shared-ground",
+      "name": "framed-two-figures-contesting-on-shared-ground",
+      "source_id": "met-387622",
+      "source_folder": "met",
+      "asset_type": "illustration",
+      "description": "A complete original framed engraved vignette of two figures contesting on shared ground. Part of the Du Cerceau bird-canopy architecture set.",
+      "source_region": [
+        69,
+        1261,
+        493,
+        1574
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        0,
+        0,
+        424,
+        313
+      ],
+      "export_crop_coordinate_space": "source-region",
+      "width": 424,
+      "height": 313,
+      "png": "met/met-387622--framed-two-figures-contesting-on-shared-ground.png",
+      "png_sha256": "7850a4a7df954af0caa43ddda0aa05078efce14bc114f73457d88f2501923db9",
+      "provenance": {
+        "institution": "Metropolitan Museum of Art",
+        "title": "Grotesque Panel",
+        "object_identifier": "21.10.1(31)",
+        "date": "1550",
+        "artist": "Jacques Androuet Du Cerceau",
+        "record_url": "https://www.metmuseum.org/art/collection/search/387622",
+        "image_rights": "CC0 Open Access; isPublicDomain=true",
+        "rights_url": "https://www.metmuseum.org/policies/image-resources",
+        "source_file": "tmp/new-assets/met/met-387622--grotesque-panel.jpg",
+        "source_sha256": "54c6b3852c207f744aa2ee86447b0c751dcd85782331a219b6d401f0a79caa79",
+        "source_metadata": "tmp/new-assets/met/met-387622.json",
+        "image_url": "https://images.metmuseum.org/CRDImages/dp/original/DP213858.jpg",
+        "method": "native-continuous-ink-matting"
+      },
+      "extraction": {
+        "method": "Native-resolution continuous ink coverage after locally measured paper removal; PNG appearance master.",
+        "source_pixels_repainted": false,
+        "source_rgb_modified": "Paper removed by measured ink coverage; RGB is the scan-measured ink tone, not an exact source-pixel crop.",
+        "paper_kernel": 61,
+        "minimum_coverage": 0.2,
+        "minimum_component_pixels": 3,
+        "settings": {
+          "paper_kernel": 61,
+          "paper_kernel_shape": "rectangle",
+          "minimum_coverage": 0.2,
+          "minimum_component_pixels": 3,
+          "minimum_component_peak": 0.5,
+          "minimum_channel_coverage": true,
+          "largest_connected_support_join_radius": 3,
+          "fill_connected_support_interiors": false
+        },
+        "exclude_regions": [],
+        "export_crop": [
+          0,
+          0,
+          424,
+          313
+        ],
+        "ink_color": [
+          70,
+          68,
+          63
+        ],
+        "candidate_png": "tmp/extraction-work/met-387622--framed-two-figures-contesting-on-shared-ground--ink-candidate.png",
+        "status": "awaiting-native-visual-review",
+        "tool": "Native source ink analysis",
+        "source_pixels_redrawn": false
+      },
+      "parent": "met-387622--grotesque-architecture-with-bird-canopies-and-framed-scenes",
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Compared source details and native white/dark alpha renders. Five complete light-line lace cells retain original cream polarity and genuine dark openings. The cleaner of the repeated small medallion impressions is retained. Six framed vignettes preserve full source-visible heads/arms/props and their contacting original frames; interior/exterior paper is clear.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/refined-lace-and-vignette-native-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/refined-lace-and-vignette-native-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/refined-lace-and-vignette-native-proof-3.jpg",
+          "tmp/extraction-work/continuation-20261010/refined-lace-and-vignette-native-proof-4.jpg",
+          "tmp/extraction-work/continuation-20261010/refined-lace-and-vignette-native-proof-5.jpg"
+        ]
+      },
+      "categories": [
+        "humans"
+      ],
+      "subjects": [
+        "figure",
+        "scene",
+        "frame"
+      ],
+      "facing": "mixed",
+      "colors": [
+        "brown",
+        "black"
+      ],
+      "composition": "framed-scene",
+      "usage_notes": "Whole original small vignette with its native engraved frame, where figures touch their support. Paper is transparent throughout. No limbs or missing frame segments invented; this intrinsic scene is separately available alongside its parent grotesque ornament.",
+      "selection_history": [
+        {
+          "previous_values": {
+            "categories": [
+              "people"
+            ],
+            "subjects": [
+              "figure",
+              "scene",
+              "frame"
+            ],
+            "composition": "scene"
+          },
+          "reason": "Normalize new staging metadata to shared category/composition/subject vocabulary; factual descriptions and original source metadata unchanged."
+        }
+      ],
+      "sets": [
+        {
+          "id": "met-387622-set",
+          "name": "Du Cerceau bird-canopy architecture",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A complete original framed engraved vignette of two figures contesting on shared ground.",
+      "set_label": "Du Cerceau bird-canopy architecture"
+    },
+    {
+      "id": "met-387622--framed-two-figures-with-rectangular-props",
+      "name": "framed-two-figures-with-rectangular-props",
+      "source_id": "met-387622",
+      "source_folder": "met",
+      "asset_type": "illustration",
+      "description": "A complete original framed engraved vignette of two figures with rectangular props. Part of the Du Cerceau bird-canopy architecture set.",
+      "source_region": [
+        1611,
+        1259,
+        2059,
+        1580
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        6,
+        0,
+        448,
+        321
+      ],
+      "export_crop_coordinate_space": "source-region",
+      "width": 442,
+      "height": 321,
+      "png": "met/met-387622--framed-two-figures-with-rectangular-props.png",
+      "png_sha256": "6f349c62bb6ba0354d11002748cca1c5f557849936ddfcfb5ec6bc92b29c55a4",
+      "provenance": {
+        "institution": "Metropolitan Museum of Art",
+        "title": "Grotesque Panel",
+        "object_identifier": "21.10.1(31)",
+        "date": "1550",
+        "artist": "Jacques Androuet Du Cerceau",
+        "record_url": "https://www.metmuseum.org/art/collection/search/387622",
+        "image_rights": "CC0 Open Access; isPublicDomain=true",
+        "rights_url": "https://www.metmuseum.org/policies/image-resources",
+        "source_file": "tmp/new-assets/met/met-387622--grotesque-panel.jpg",
+        "source_sha256": "54c6b3852c207f744aa2ee86447b0c751dcd85782331a219b6d401f0a79caa79",
+        "source_metadata": "tmp/new-assets/met/met-387622.json",
+        "image_url": "https://images.metmuseum.org/CRDImages/dp/original/DP213858.jpg",
+        "method": "native-continuous-ink-matting"
+      },
+      "extraction": {
+        "method": "Native-resolution continuous ink coverage after locally measured paper removal; PNG appearance master.",
+        "source_pixels_repainted": false,
+        "source_rgb_modified": "Paper removed by measured ink coverage; RGB is the scan-measured ink tone, not an exact source-pixel crop.",
+        "paper_kernel": 61,
+        "minimum_coverage": 0.2,
+        "minimum_component_pixels": 3,
+        "settings": {
+          "paper_kernel": 61,
+          "paper_kernel_shape": "rectangle",
+          "minimum_coverage": 0.2,
+          "minimum_component_pixels": 3,
+          "minimum_component_peak": 0.5,
+          "minimum_channel_coverage": true,
+          "largest_connected_support_join_radius": 3,
+          "fill_connected_support_interiors": false
+        },
+        "exclude_regions": [],
+        "export_crop": [
+          6,
+          0,
+          448,
+          321
+        ],
+        "ink_color": [
+          74,
+          68,
+          63
+        ],
+        "candidate_png": "tmp/extraction-work/met-387622--framed-two-figures-with-rectangular-props--ink-candidate.png",
+        "status": "awaiting-native-visual-review",
+        "tool": "Native source ink analysis",
+        "source_pixels_redrawn": false
+      },
+      "parent": "met-387622--grotesque-architecture-with-bird-canopies-and-framed-scenes",
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Compared source details and native white/dark alpha renders. Five complete light-line lace cells retain original cream polarity and genuine dark openings. The cleaner of the repeated small medallion impressions is retained. Six framed vignettes preserve full source-visible heads/arms/props and their contacting original frames; interior/exterior paper is clear.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/refined-lace-and-vignette-native-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/refined-lace-and-vignette-native-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/refined-lace-and-vignette-native-proof-3.jpg",
+          "tmp/extraction-work/continuation-20261010/refined-lace-and-vignette-native-proof-4.jpg",
+          "tmp/extraction-work/continuation-20261010/refined-lace-and-vignette-native-proof-5.jpg"
+        ]
+      },
+      "categories": [
+        "humans"
+      ],
+      "subjects": [
+        "figure",
+        "scene",
+        "frame"
+      ],
+      "facing": "mixed",
+      "colors": [
+        "brown",
+        "black"
+      ],
+      "composition": "framed-scene",
+      "usage_notes": "Whole original small vignette with its native engraved frame, where figures touch their support. Paper is transparent throughout. No limbs or missing frame segments invented; this intrinsic scene is separately available alongside its parent grotesque ornament.",
+      "selection_history": [
+        {
+          "previous_values": {
+            "categories": [
+              "people"
+            ],
+            "subjects": [
+              "figure",
+              "scene",
+              "frame"
+            ],
+            "composition": "scene"
+          },
+          "reason": "Normalize new staging metadata to shared category/composition/subject vocabulary; factual descriptions and original source metadata unchanged."
+        }
+      ],
+      "sets": [
+        {
+          "id": "met-387622-set",
+          "name": "Du Cerceau bird-canopy architecture",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A complete original framed engraved vignette of two figures with rectangular props.",
+      "set_label": "Du Cerceau bird-canopy architecture"
+    },
+    {
+      "id": "met-387622--grotesque-architecture-with-bird-canopies-and-framed-scenes",
+      "name": "grotesque-architecture-with-bird-canopies-and-framed-scenes",
+      "source_id": "met-387622",
+      "source_folder": "met",
+      "asset_type": "decoration",
+      "description": "A native engraved grotesque architecture with bird canopies, a central winged figure, paired hybrids and six framed scenes above four lower figure niches. Part of the Du Cerceau bird-canopy architecture set.",
+      "source_region": [
+        32,
+        34,
+        2074,
+        3130
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        0,
+        0,
+        2042,
+        3096
+      ],
+      "export_crop_coordinate_space": "reviewed-native-rule-correction-canvas",
+      "width": 2042,
+      "height": 3096,
+      "png": "met/met-387622--grotesque-architecture-with-bird-canopies-and-framed-scenes.png",
+      "png_sha256": "85bea402921f94536701a5d5ccd240c208ef6f7cc882acf0547992135f264e66",
+      "provenance": {
+        "institution": "Metropolitan Museum of Art",
+        "title": "Grotesque Panel",
+        "object_identifier": "21.10.1(31)",
+        "date": "1550",
+        "artist": "Jacques Androuet Du Cerceau",
+        "record_url": "https://www.metmuseum.org/art/collection/search/387622",
+        "image_rights": "CC0 Open Access; isPublicDomain=true",
+        "rights_url": "https://www.metmuseum.org/policies/image-resources",
+        "source_file": "tmp/new-assets/met/met-387622--grotesque-panel.jpg",
+        "source_sha256": "54c6b3852c207f744aa2ee86447b0c751dcd85782331a219b6d401f0a79caa79",
+        "source_metadata": "tmp/new-assets/met/met-387622.json",
+        "image_url": "https://images.metmuseum.org/CRDImages/dp/original/DP213858.jpg",
+        "method": "native-continuous-ink-matting"
+      },
+      "extraction": {
+        "method": "Native-resolution continuous ink coverage after locally measured paper removal; PNG appearance master.",
+        "source_pixels_repainted": false,
+        "source_rgb_modified": "Paper removed by measured ink coverage; RGB is the scan-measured ink tone, not an exact source-pixel crop.",
+        "paper_kernel": 61,
+        "minimum_coverage": 0.2,
+        "minimum_component_pixels": 5,
+        "settings": {
+          "paper_kernel": 61,
+          "paper_kernel_shape": "rectangle",
+          "minimum_coverage": 0.2,
+          "minimum_component_pixels": 5,
+          "minimum_component_peak": 0.55,
+          "minimum_channel_coverage": true,
+          "largest_connected_support_join_radius": 5,
+          "fill_connected_support_interiors": false
+        },
+        "exclude_regions": [],
+        "export_crop": [
+          0,
+          0,
+          1992,
+          3046
+        ],
+        "ink_color": [
+          73,
+          69,
+          64
+        ],
+        "candidate_png": "tmp/extraction-work/todo-fixes-20261012/met-387622--grotesque-architecture-with-bird-canopies-and-framed-scenes--completed-plate-candidate.png",
+        "status": "awaiting-native-visual-review",
+        "tool": "Native source ink analysis",
+        "source_pixels_redrawn": true,
+        "todo_correction": {
+          "id": "met-387622--grotesque-architecture-with-bird-canopies-and-framed-scenes",
+          "candidate": "tmp/extraction-work/todo-fixes-20261012/met-387622--grotesque-architecture-with-bird-canopies-and-framed-scenes--completed-plate-candidate.png",
+          "before": "tmp/extraction-work/todo-fixes-20261012/met-387622--grotesque-architecture-with-bird-canopies-and-framed-scenes--before.png",
+          "source_region": [
+            32,
+            34,
+            2074,
+            3130
+          ],
+          "original": "tmp/new-assets/met/met-387622--grotesque-panel.jpg",
+          "recovered_sides": [
+            {
+              "side": "top",
+              "source_axis_intercept_in_expanded_region": 15.041087231352718,
+              "slope": -0.008217446270543615,
+              "observed_original_segment_pixels": 1582,
+              "extent": [
+                15,
+                2027
+              ]
+            },
+            {
+              "side": "bottom",
+              "source_axis_intercept_in_expanded_region": 3056.0,
+              "slope": 0.014208721215090642,
+              "observed_original_segment_pixels": 2041,
+              "extent": [
+                15,
+                2027
+              ]
+            },
+            {
+              "side": "left",
+              "source_axis_intercept_in_expanded_region": 19.96783625730994,
+              "slope": 0.0035737491877842753,
+              "observed_original_segment_pixels": 3078,
+              "extent": [
+                15,
+                3081
+              ]
+            },
+            {
+              "side": "right",
+              "source_axis_intercept_in_expanded_region": 2006.3686868686868,
+              "slope": 0.005050505050505051,
+              "observed_original_segment_pixels": 1980,
+              "extent": [
+                15,
+                3081
+              ]
+            }
+          ],
+          "pixels_added_or_strengthened": 97782,
+          "status": "awaiting-original-white-dark-review",
+          "method": "Recover only observed long plate rules from the original scan in a narrow source-fitted native corridor. The input is expanded 25 pixels to include clipped original ink. Source-measured ink color and coverage; no inferred missing side, generic rectangle, artwork rescaling or changed interior pixels.",
+          "rule_repair": {
+            "missing_native_columns_completed": 1550,
+            "method": "Only absent/faint outside-rule samples (<65 alpha in five-native-pixel corridor) receive the narrow three-pixel ink cross-section of a nearby surviving original printed rule. Decorative hatching and ornament interiors are unchanged."
+          }
+        }
+      },
+      "parent": null,
+      "children": [
+        "met-387622--framed-two-figures-contesting-on-shared-ground",
+        "met-387622--framed-mounted-figure-and-attendant-vignette",
+        "met-387622--framed-standing-statue-and-two-foreground-figures",
+        "met-387622--framed-two-figures-with-rectangular-props",
+        "met-387622--framed-reclining-figure-with-round-shield",
+        "met-387622--framed-standing-statue-with-two-attending-figures"
+      ],
+      "review": {
+        "status": "accepted",
+        "quality_round": "finished-only-todo-corrections-20261012",
+        "notes": "Original finite engraved composition retained with its source-supported outside plate rules. Clipped rules recovered from adjacent original scan pixels; faint thin-rule gaps narrowly completed with neighboring native ink profiles where recorded. Decorative hatch bands retain original print wear. No generic replacement frame or repeat is inferred.",
+        "checks": [
+          "actual-original-comparison",
+          "native-scale-and-proportions",
+          "complete-figures-and-ornaments",
+          "source-rule-geometry-and-endpoints",
+          "white-and-dark-backgrounds"
+        ],
+        "evidence": [
+          "tmp/extraction-work/todo-fixes-20261012/met-387622--grotesque-architecture-with-bird-canopies-and-framed-scenes--recovered-rules-proof.jpg",
+          "tmp/extraction-work/todo-fixes-20261012/completed-plates-final-review-2.jpg"
+        ]
+      },
+      "categories": [
+        "hybrids",
+        "humans",
+        "animals",
+        "floral"
+      ],
+      "subjects": [
+        "bird",
+        "canopy",
+        "hybrid",
+        "figure",
+        "frame",
+        "niche"
+      ],
+      "facing": "mixed",
+      "colors": [
+        "brown",
+        "black"
+      ],
+      "composition": "single-ornament",
+      "usage_notes": "Original finite engraved composition retained with its source-supported outside plate rules. Clipped rules recovered from adjacent original scan pixels; faint thin-rule gaps narrowly completed with neighboring native ink profiles where recorded. Decorative hatch bands retain original print wear. No generic replacement frame or repeat is inferred. Finite original decoration; no repeat or corner atlas inferred.",
+      "sets": [
+        {
+          "id": "met-387622-set",
+          "name": "Du Cerceau bird-canopy architecture",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A native engraved grotesque architecture with bird canopies, a central winged figure, paired hybrids and six framed scenes above four lower figure niches.",
+      "set_label": "Du Cerceau bird-canopy architecture",
+      "review_history": [
+        {
+          "status": "accepted",
+          "quality_round": "20261011",
+          "notes": "Native source linework compared in full on source/white/dark. Natural continuous measured ink coverage; no resized hard mask, polygon trace or source stretch. Foreground strokes and props preserved; isolated page specks excluded by connected native support. Red stamp color excluded only where distinguishable from neutral foreground ink. Bare cartouche title removed with individually inspected text-line bounds, leaving the complete original frame. Original faded ink remains faint rather than newly enhanced.",
+          "checks": [
+            "original-source-comparison",
+            "complete-retained-entity",
+            "native-subject-scale",
+            "white-and-dark-backgrounds",
+            "exterior-and-genuine-openings",
+            "fine-props-and-extremities"
+          ],
+          "evidence": [
+            "tmp/extraction-work/continuation-20261010/seven-native-refinement-recipes-proof-1.jpg",
+            "tmp/extraction-work/continuation-20261010/seven-native-refinement-recipes-proof-2.jpg",
+            "tmp/extraction-work/continuation-20261010/cartouche-font-correction-native-proof-1.jpg"
+          ]
+        }
+      ]
+    }
+  ]
+}

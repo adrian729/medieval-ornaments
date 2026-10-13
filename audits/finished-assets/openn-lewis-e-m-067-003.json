@@ -1,0 +1,1039 @@
+{
+  "source_id": "openn-lewis-e-m-067-003",
+  "assets": [
+    {
+      "id": "openn-lewis-e-m-067-003--blue-serrated-floret-with-red-gold-center",
+      "name": "blue-serrated-floret-with-red-gold-center",
+      "source_id": "openn-lewis-e-m-067-003",
+      "source_folder": "openn-free-library",
+      "asset_type": "whole-decoration",
+      "description": "Separate blue serrated floret with an irregular red and gilt circular center. Part of the Initial (openn-lewis-e-m-067-003) set.",
+      "source_region": [
+        961,
+        185,
+        1206,
+        425
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        0,
+        0,
+        245,
+        240
+      ],
+      "export_crop_coordinate_space": "original-native-source-region",
+      "width": 245,
+      "height": 240,
+      "png": "openn-free-library/openn-lewis-e-m-067-003--blue-serrated-floret-with-red-gold-center.png",
+      "png_sha256": "7197b84b4917a213de579e5bd659a710dfe7c11051759fd435d90566a280d1ff",
+      "provenance": {
+        "institution": "Free Library of Philadelphia, John Frederick Lewis Collection",
+        "title": "Initial",
+        "object_identifier": "Lewis E M 67:3 Initial",
+        "date": "(Germany, 1400-1499)",
+        "record_url": "https://openn.library.upenn.edu/Data/0023/html/lewis_e_m_067_003.html",
+        "image_rights": "Public Domain Mark 1.0; item record explicitly places images in public domain",
+        "rights_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "source_file": "tmp/new-assets/openn-free-library/openn-lewis-e-m-067-003--initial--master.tif",
+        "source_sha256": "2becd60ebef0f327e6a024e616a2aca0277a9beb9958d6e6057f794990a3140a",
+        "source_metadata": "tmp/new-assets/openn-free-library/openn-lewis-e-m-067-003.json",
+        "image_url": "https://openn.library.upenn.edu/Data/0023/lewis_e_m_067_003/data/master/8296_0000.tif",
+        "method": "native-source-continuous-edge-matting"
+      },
+      "extraction": {
+        "candidate_png": "tmp/extraction-work/continuation-20261010/openn-lewis-e-m-067-003--blue-serrated-floret-with-red-gold-center--native-member-candidate.png",
+        "native_export_crop": [
+          0,
+          0,
+          245,
+          240
+        ],
+        "native_source_size": [
+          245,
+          240
+        ],
+        "annotation_json": "tmp/extraction-work/continuation-20261010/openn-lewis-e-m-067-003--blue-serrated-floret-with-red-gold-center--native-member-audit.json",
+        "export_crop_coordinate_space": "original-native-source-region",
+        "native_upscaling": false,
+        "source_pixels_redrawn": false,
+        "original_opaque_rgb_preserved": true,
+        "native_member_derivation": {
+          "method": "Source-native standalone member selected from the reviewed finite floral-bar matte. Native parent alpha/RGB are cropped without resizing or redraw; the unrelated contacting main vine component and its three-pixel soft-edge allowance are excluded within this isolated member region. All original detached member petals/tendrils and real openings remain.",
+          "parent_id": "openn-lewis-e-m-067-003--tall-floral-bar-with-knotted-red-blue-ribbons",
+          "parent_candidate": "tmp/extraction-work/continuation-20261010/openn-lewis-e-m-067-003--tall-floral-bar-with-knotted-red-blue-ribbons--refined-original-native-candidate.png",
+          "parent_candidate_sha256": "5abde45cd5ecf74b182b9f940f0d593c77e0258593216ccd673327c6ca816ecf",
+          "parent_source_matte_audit": "tmp/extraction-work/continuation-20261010/openn-lewis-e-m-067-003--tall-floral-bar-with-knotted-red-blue-ribbons--refined-original-native-audit.json",
+          "native_member_bounds_in_parent_original": [
+            275,
+            30,
+            520,
+            270
+          ],
+          "original_opaque_rgb_preserved": true,
+          "source_pixels_redrawn": false,
+          "source_resized": false,
+          "unrelated_lower_vine_soft_edge_exclusion": "Parent source rows225..235 have no floret alpha; only unrelated sub-127-alpha vine fragments reappear below row240. Child rows>=205 (source y>=235) are cleared across this empty separation, preserving all genuine floret petals."
+        },
+        "method": "Source-native standalone member selected from the reviewed finite floral-bar matte. Native parent alpha/RGB are cropped without resizing or redraw; the unrelated contacting main vine component and its three-pixel soft-edge allowance are excluded within this isolated member region. All original detached member petals/tendrils and real openings remain.",
+        "status": "awaiting-original-white-dark-review",
+        "tool": "Original native scan / closed-form edge alpha and foreground decontamination",
+        "pixel_exact": false
+      },
+      "parent": "openn-lewis-e-m-067-003--tall-floral-bar-with-knotted-red-blue-ribbons",
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Original independent painted motifs inspected at native scale on white and dark. Unrelated nearby vine and cursive marks are removed; complete source-visible petals/tendrils and red/gold centers retained without scale changes. Parent/child native extraction and original source bounds are traceable.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/openn67-three-independent-motifs-current-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/openn67-green-floret-clean-native-proof.png"
+        ]
+      },
+      "categories": [
+        "floral"
+      ],
+      "subjects": [
+        "flower",
+        "petal"
+      ],
+      "colors": [
+        "blue",
+        "red",
+        "gold"
+      ],
+      "facing": "front",
+      "composition": "standalone",
+      "usage_notes": "Independent original painted motif; native parent pixels and alpha retained without scale changes. Repeated similar scattered motifs are represented by this inspected complete example rather than duplicate cutouts. No repeat or vector redraw inferred.",
+      "sets": [
+        {
+          "id": "openn-lewis-e-m-067-003-set",
+          "name": "Initial (openn-lewis-e-m-067-003)",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "Separate blue serrated floret with an irregular red and gilt circular center.",
+      "set_label": "Initial (openn-lewis-e-m-067-003)"
+    },
+    {
+      "id": "openn-lewis-e-m-067-003--four-armed-green-feathered-floret-with-red-gold-center",
+      "name": "four-armed-green-feathered-floret-with-red-gold-center",
+      "source_id": "openn-lewis-e-m-067-003",
+      "source_folder": "openn-free-library",
+      "asset_type": "whole-decoration",
+      "description": "Separate four-armed green feathered floret with fine curving tendrils and a red and gilt center. Part of the Initial (openn-lewis-e-m-067-003) set.",
+      "source_region": [
+        751,
+        1040,
+        961,
+        1255
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        0,
+        0,
+        210,
+        215
+      ],
+      "export_crop_coordinate_space": "original-native-source-region",
+      "width": 210,
+      "height": 215,
+      "png": "openn-free-library/openn-lewis-e-m-067-003--four-armed-green-feathered-floret-with-red-gold-center.png",
+      "png_sha256": "1fe31c51f46974702b8f48ef64bb286193b3302b432426e273e1bbdf4dca0e07",
+      "provenance": {
+        "institution": "Free Library of Philadelphia, John Frederick Lewis Collection",
+        "title": "Initial",
+        "object_identifier": "Lewis E M 67:3 Initial",
+        "date": "(Germany, 1400-1499)",
+        "record_url": "https://openn.library.upenn.edu/Data/0023/html/lewis_e_m_067_003.html",
+        "image_rights": "Public Domain Mark 1.0; item record explicitly places images in public domain",
+        "rights_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "source_file": "tmp/new-assets/openn-free-library/openn-lewis-e-m-067-003--initial--master.tif",
+        "source_sha256": "2becd60ebef0f327e6a024e616a2aca0277a9beb9958d6e6057f794990a3140a",
+        "source_metadata": "tmp/new-assets/openn-free-library/openn-lewis-e-m-067-003.json",
+        "image_url": "https://openn.library.upenn.edu/Data/0023/lewis_e_m_067_003/data/master/8296_0000.tif",
+        "method": "native-source-continuous-edge-matting"
+      },
+      "extraction": {
+        "candidate_png": "tmp/extraction-work/continuation-20261010/openn-lewis-e-m-067-003--four-armed-green-feathered-floret-with-red-gold-center--native-member-candidate.png",
+        "native_export_crop": [
+          0,
+          0,
+          210,
+          215
+        ],
+        "native_source_size": [
+          210,
+          215
+        ],
+        "annotation_json": "tmp/extraction-work/continuation-20261010/openn-lewis-e-m-067-003--four-armed-green-feathered-floret-with-red-gold-center--native-member-audit.json",
+        "export_crop_coordinate_space": "original-native-source-region",
+        "native_upscaling": false,
+        "source_pixels_redrawn": false,
+        "original_opaque_rgb_preserved": true,
+        "native_member_derivation": {
+          "method": "Source-native standalone member selected from the reviewed finite floral-bar matte. Native parent alpha/RGB are cropped without resizing or redraw; the unrelated contacting main vine component and its three-pixel soft-edge allowance are excluded within this isolated member region. All original detached member petals/tendrils and real openings remain.",
+          "parent_id": "openn-lewis-e-m-067-003--tall-floral-bar-with-knotted-red-blue-ribbons",
+          "parent_candidate": "tmp/extraction-work/continuation-20261010/openn-lewis-e-m-067-003--tall-floral-bar-with-knotted-red-blue-ribbons--refined-original-native-candidate.png",
+          "parent_candidate_sha256": "5abde45cd5ecf74b182b9f940f0d593c77e0258593216ccd673327c6ca816ecf",
+          "parent_source_matte_audit": "tmp/extraction-work/continuation-20261010/openn-lewis-e-m-067-003--tall-floral-bar-with-knotted-red-blue-ribbons--refined-original-native-audit.json",
+          "native_member_bounds_in_parent_original": [
+            65,
+            885,
+            275,
+            1100
+          ],
+          "original_opaque_rgb_preserved": true,
+          "source_pixels_redrawn": false,
+          "source_resized": false,
+          "disconnected_source_mark_cleanup": {
+            "method": "Retain the complete inspected central four-armed floret component and its three-native-pixel antialias collar; remove the unrelated detached cursive mark at lower right and outlying unrelated vine residue. No source pixels moved or resized.",
+            "removed_pixels": 3291
+          }
+        },
+        "method": "Source-native standalone member selected from the reviewed finite floral-bar matte. Native parent alpha/RGB are cropped without resizing or redraw; the unrelated contacting main vine component and its three-pixel soft-edge allowance are excluded within this isolated member region. All original detached member petals/tendrils and real openings remain.",
+        "status": "awaiting-original-white-dark-review",
+        "tool": "Original native scan / closed-form edge alpha and foreground decontamination",
+        "pixel_exact": false
+      },
+      "parent": "openn-lewis-e-m-067-003--tall-floral-bar-with-knotted-red-blue-ribbons",
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Original independent painted motifs inspected at native scale on white and dark. Unrelated nearby vine and cursive marks are removed; complete source-visible petals/tendrils and red/gold centers retained without scale changes. Parent/child native extraction and original source bounds are traceable.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/openn67-three-independent-motifs-current-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/openn67-green-floret-clean-native-proof.png"
+        ]
+      },
+      "categories": [
+        "floral"
+      ],
+      "subjects": [
+        "flower",
+        "petal"
+      ],
+      "colors": [
+        "green",
+        "red",
+        "gold"
+      ],
+      "facing": "front",
+      "composition": "standalone",
+      "usage_notes": "Independent original painted motif; native parent pixels and alpha retained without scale changes. Repeated similar scattered motifs are represented by this inspected complete example rather than duplicate cutouts. No repeat or vector redraw inferred.",
+      "sets": [
+        {
+          "id": "openn-lewis-e-m-067-003-set",
+          "name": "Initial (openn-lewis-e-m-067-003)",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "Separate four-armed green feathered floret with fine curving tendrils and a red and gilt center.",
+      "set_label": "Initial (openn-lewis-e-m-067-003)"
+    },
+    {
+      "id": "openn-lewis-e-m-067-003--horizontal-floral-spray-with-blue-flowers-and-green-curled-stem",
+      "name": "horizontal-floral-spray-with-blue-flowers-and-green-curled-stem",
+      "source_id": "openn-lewis-e-m-067-003",
+      "source_folder": "openn-free-library",
+      "asset_type": "decoration",
+      "description": "Hand-painted horizontal floral spray with blue and pale flowers, green curled stem, pink folded leaves and small gilt florets. Part of the Initial (openn-lewis-e-m-067-003) set.",
+      "source_region": [
+        1372,
+        6963,
+        5881,
+        8020
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        9,
+        105,
+        4454,
+        1009
+      ],
+      "export_crop_coordinate_space": "original-native-source-region",
+      "width": 4445,
+      "height": 904,
+      "png": "openn-free-library/openn-lewis-e-m-067-003--horizontal-floral-spray-with-blue-flowers-and-green-curled-stem.png",
+      "png_sha256": "d70fd19de1b227b88673031cbe4c0ee94b34d474d5fe54701fefc092feb80fe8",
+      "provenance": {
+        "institution": "Free Library of Philadelphia, John Frederick Lewis Collection",
+        "title": "Initial",
+        "object_identifier": "Lewis E M 67:3 Initial",
+        "date": "(Germany, 1400-1499)",
+        "record_url": "https://openn.library.upenn.edu/Data/0023/html/lewis_e_m_067_003.html",
+        "image_rights": "Public Domain Mark 1.0; item record explicitly places images in public domain",
+        "rights_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "source_file": "tmp/new-assets/openn-free-library/openn-lewis-e-m-067-003--initial--master.tif",
+        "source_sha256": "2becd60ebef0f327e6a024e616a2aca0277a9beb9958d6e6057f794990a3140a",
+        "source_metadata": "tmp/new-assets/openn-free-library/openn-lewis-e-m-067-003.json",
+        "image_url": "https://openn.library.upenn.edu/Data/0023/lewis_e_m_067_003/data/master/8296_0000.tif",
+        "method": "native-source-continuous-edge-matting"
+      },
+      "extraction": {
+        "candidate_png": "tmp/extraction-work/continuation-20261010/openn-lewis-e-m-067-003--horizontal-floral-spray-with-blue-flowers-and-green-curled-stem--refined-original-native-candidate.png",
+        "native_export_crop": [
+          9,
+          105,
+          4454,
+          1009
+        ],
+        "export_crop_coordinate_space": "original-native-source-region",
+        "annotation_json": "tmp/extraction-work/continuation-20261010/openn-lewis-e-m-067-003--horizontal-floral-spray-with-blue-flowers-and-green-curled-stem--refined-original-native-audit.json",
+        "trimap_png": "tmp/extraction-work/continuation-20261010/openn-lewis-e-m-067-003--horizontal-floral-spray-with-blue-flowers-and-green-curled-stem--refined-original-native-trimap.png",
+        "native_source_size": [
+          4509,
+          1057
+        ],
+        "native_upscaling": false,
+        "source_pixels_redrawn": false,
+        "original_opaque_rgb_preserved": true,
+        "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+        "alpha_guide": {
+          "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+          "guide_png": "tmp/extraction-work/continuation-20261010/openn-lewis-e-m-067-003--horizontal-floral-spray-with-blue-flowers-and-green-curled-stem--native-alpha-reference.png",
+          "guide_sha256": "4d229361431db7ffe1059af46460187e143e2a59ceeb8d4725196411085be645",
+          "native_original": "tmp/extraction-work/continuation-20261010/openn-lewis-e-m-067-003--horizontal-floral-spray-with-blue-flowers-and-green-curled-stem--original.png",
+          "similarity_ai_alpha_to_original": [
+            [
+              2.0844204586619854,
+              0.00398851099312446,
+              -11.62758713498322
+            ],
+            [
+              -0.00398851099312446,
+              2.0844204586619854,
+              -239.94439526386273
+            ]
+          ],
+          "matching_feature_pairs": 478,
+          "inlier_feature_pairs": 329,
+          "inlier_rms_native_pixels": 4.713369651881017,
+          "source_inspection_factor": 0.3992015968063872,
+          "unknown_edge_band_native_pixels": 6,
+          "edge_solve_tile_size": 640,
+          "edge_solve_halo": 32,
+          "edge_solve_tiles": 14,
+          "original_opaque_rgb_preserved": true
+        },
+        "status": "awaiting-original-white-dark-review",
+        "native_refinement": {
+          "method": "The independently inspected upper blue/gold floret has genuine parchment openings between its painted lobes; warm source parchment (R/G 1.035..1.15, B/G .81.. .95, R>155,G>135,B>110) is removed throughout that isolated top-265-row floret. Elsewhere this exclusion is confined to a nine-pixel interior/sixteen-pixel exterior edge band, leaving pale folded leaf interiors opaque. Blue/gray petals, gilt centers, green/red pigment, original fine stems and all source geometry are preserved. Continuous eight-native-pixel edge matting and original opaque RGB; no enlarged, redrawn or repeated motifs.",
+          "source": "tmp/extraction-work/continuation-20261010/openn-lewis-e-m-067-003--horizontal-floral-spray-with-blue-flowers-and-green-curled-stem--original.png",
+          "previous_native_matte": {
+            "candidate_png": "tmp/extraction-work/continuation-20261010/openn-lewis-e-m-067-003--horizontal-floral-spray-with-blue-flowers-and-green-curled-stem--refined-original-native-candidate.png",
+            "native_export_crop": [
+              3,
+              100,
+              4457,
+              1013
+            ],
+            "export_crop_coordinate_space": "original-native-source-region",
+            "annotation_json": "tmp/extraction-work/continuation-20261010/openn-lewis-e-m-067-003--horizontal-floral-spray-with-blue-flowers-and-green-curled-stem--refined-original-native-audit.json",
+            "trimap_png": "tmp/extraction-work/continuation-20261010/openn-lewis-e-m-067-003--horizontal-floral-spray-with-blue-flowers-and-green-curled-stem--refined-original-native-trimap.png",
+            "native_source_size": [
+              4509,
+              1057
+            ],
+            "native_upscaling": false,
+            "source_pixels_redrawn": false,
+            "original_opaque_rgb_preserved": true,
+            "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+            "alpha_guide": {
+              "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+              "guide_png": "tmp/extraction-work/continuation-20261010/openn-lewis-e-m-067-003--horizontal-floral-spray-with-blue-flowers-and-green-curled-stem--native-alpha-reference.png",
+              "guide_sha256": "4d229361431db7ffe1059af46460187e143e2a59ceeb8d4725196411085be645",
+              "native_original": "tmp/extraction-work/continuation-20261010/openn-lewis-e-m-067-003--horizontal-floral-spray-with-blue-flowers-and-green-curled-stem--original.png",
+              "similarity_ai_alpha_to_original": [
+                [
+                  2.0844204586619854,
+                  0.00398851099312446,
+                  -11.62758713498322
+                ],
+                [
+                  -0.00398851099312446,
+                  2.0844204586619854,
+                  -239.94439526386273
+                ]
+              ],
+              "matching_feature_pairs": 478,
+              "inlier_feature_pairs": 329,
+              "inlier_rms_native_pixels": 4.713369651881017,
+              "source_inspection_factor": 0.3992015968063872,
+              "unknown_edge_band_native_pixels": 6,
+              "edge_solve_tile_size": 640,
+              "edge_solve_halo": 32,
+              "edge_solve_tiles": 14,
+              "original_opaque_rgb_preserved": true
+            },
+            "status": "awaiting-original-white-dark-review",
+            "native_refinement": {
+              "method": "Native paper-fringe cleanup at the inspected floral edges. A local untouched background sample at least sixteen native pixels outside registered ownership measures the nearby parchment colour. Only a narrow ten-pixel interior/sixteen-pixel exterior boundary region whose blurred source RGB is within ten colour units of that local paper is marked background. Opaque interior pale petals, gold paint and dark/coloured fine stems remain source pixels. Continuous four-native-pixel edge matting; no redraw, resize, repeat or invented contour.",
+              "source": "tmp/extraction-work/continuation-20261010/openn-lewis-e-m-067-003--horizontal-floral-spray-with-blue-flowers-and-green-curled-stem--original.png",
+              "previous_native_matte": {
+                "candidate_png": "tmp/extraction-work/continuation-20261010/openn-lewis-e-m-067-003--horizontal-floral-spray-with-blue-flowers-and-green-curled-stem--registered-native-candidate.png",
+                "native_export_crop": [
+                  3,
+                  96,
+                  4464,
+                  1018
+                ],
+                "export_crop_coordinate_space": "original-native-source-region",
+                "annotation_json": "tmp/extraction-work/continuation-20261010/openn-lewis-e-m-067-003--horizontal-floral-spray-with-blue-flowers-and-green-curled-stem--registered-native-annotation.json",
+                "trimap_png": "tmp/extraction-work/continuation-20261010/openn-lewis-e-m-067-003--horizontal-floral-spray-with-blue-flowers-and-green-curled-stem--registered-native-trimap.png",
+                "native_source_size": [
+                  4509,
+                  1057
+                ],
+                "native_upscaling": false,
+                "source_pixels_redrawn": false,
+                "original_opaque_rgb_preserved": true,
+                "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+                "alpha_guide": {
+                  "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+                  "guide_png": "tmp/extraction-work/continuation-20261010/openn-lewis-e-m-067-003--horizontal-floral-spray-with-blue-flowers-and-green-curled-stem--native-alpha-reference.png",
+                  "guide_sha256": "4d229361431db7ffe1059af46460187e143e2a59ceeb8d4725196411085be645",
+                  "native_original": "tmp/extraction-work/continuation-20261010/openn-lewis-e-m-067-003--horizontal-floral-spray-with-blue-flowers-and-green-curled-stem--original.png",
+                  "similarity_ai_alpha_to_original": [
+                    [
+                      2.0844204586619854,
+                      0.00398851099312446,
+                      -11.62758713498322
+                    ],
+                    [
+                      -0.00398851099312446,
+                      2.0844204586619854,
+                      -239.94439526386273
+                    ]
+                  ],
+                  "matching_feature_pairs": 478,
+                  "inlier_feature_pairs": 329,
+                  "inlier_rms_native_pixels": 4.713369651881017,
+                  "source_inspection_factor": 0.3992015968063872,
+                  "unknown_edge_band_native_pixels": 6,
+                  "edge_solve_tile_size": 640,
+                  "edge_solve_halo": 32,
+                  "edge_solve_tiles": 14,
+                  "original_opaque_rgb_preserved": true
+                },
+                "status": "awaiting-original-white-dark-review"
+              },
+              "unknown_band_native_pixels": 4,
+              "source_rgb_redrawn": false,
+              "source_resized": false,
+              "original_opaque_rgb_preserved": true,
+              "ownership": "tmp/extraction-work/continuation-20261010/openn-lewis-e-m-067-003--horizontal-floral-spray-with-blue-flowers-and-green-curled-stem--refined-original-native-ownership.png",
+              "ownership_sha256": "1b80be2155c421d15341274dca0e3d53de3167edf7083b417048bf51cae625b5",
+              "local_background_sampling_distance": 16,
+              "near_edge_paper_colour_distance": 10,
+              "certain_background_pixels": 365991
+            }
+          },
+          "unknown_band_native_pixels": 8,
+          "source_rgb_redrawn": false,
+          "source_resized": false,
+          "original_opaque_rgb_preserved": true,
+          "ownership": "tmp/extraction-work/continuation-20261010/openn-lewis-e-m-067-003--horizontal-floral-spray-with-blue-flowers-and-green-curled-stem--refined-original-native-ownership.png",
+          "ownership_sha256": "6197c63294f6f09bdaf63123eb9fa1c2d8d87c78748df1966306a2ac48817df8",
+          "upper_floret_genuine_opening_scope_rows": null,
+          "certain_background_pixels": 595973
+        },
+        "tool": "Original native scan / closed-form edge alpha and foreground decontamination",
+        "pixel_exact": false,
+        "ownership_guide_prompt": "Use case: background-extraction. Edit the supplied ORIGINAL source region. ONLY the complete lower HORIZONTAL floral spray, including its original thin dark curling left stem and right tiny bud on pointed tendril. Retain all original thin stems, leaves, folded petals, gilding and deliberately scattered tiny florets. Clear the separate vertical bar and all music, lettering, page and background. Preserve the exact original appearance, proportions, source-visible endpoints, paint texture, tiny stems and pale/gold paint. Genuine transparent alpha in all openings and exterior. No redrawing, sharpening, inventing hidden tips, extending stems, symmetrizing, upscaling or replacement flowers. One finite hand-varied ornament, no inferred repeat or new corners.",
+        "retained_generated_ownership_guide": {
+          "file": "tmp/extraction-work/openn-lewis-e-m-067-003--horizontal-floral-spray-with-blue-flowers-and-green-curled-stem--retained-ai-extraction.png",
+          "sha256": "4d229361431db7ffe1059af46460187e143e2a59ceeb8d4725196411085be645",
+          "purpose": "Retained AI alpha guide only; delivered opaque RGB belongs to the unchanged native source."
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Final source/white/dark and actual native-scale flower/fold checks inspected. Original blue/gold/green/pale paint retained with genuine parchment openings clear. The vertical and horizontal pieces are separate finite hand-varied decorations; no unsupported repeating unit or SVG redraw.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/openn67-current-final-native-review-current-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/openn67-final-source-openings-and-folds.png"
+        ]
+      },
+      "categories": [
+        "floral"
+      ],
+      "subjects": [
+        "flower",
+        "leaf",
+        "stem"
+      ],
+      "colors": [
+        "blue",
+        "pink",
+        "green",
+        "gold",
+        "red"
+      ],
+      "facing": "unclear",
+      "composition": "single-ornament",
+      "usage_notes": "Original finite, hand-varied foliate ornament. Integral painted petal highlights retained; exterior parchment and actual openings transparent. No repeat or corner invention. Separate vertical and horizontal ornaments rather than a disconnected L montage.",
+      "sets": [
+        {
+          "id": "openn-lewis-e-m-067-003-set",
+          "name": "Initial (openn-lewis-e-m-067-003)",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "Hand-painted horizontal floral spray with blue and pale flowers, green curled stem, pink folded leaves and small gilt florets.",
+      "set_label": "Initial (openn-lewis-e-m-067-003)"
+    },
+    {
+      "id": "openn-lewis-e-m-067-003--resurrection-with-tomb-and-four-soldiers",
+      "name": "resurrection-with-tomb-and-four-soldiers",
+      "source_id": "openn-lewis-e-m-067-003",
+      "source_folder": "openn-free-library",
+      "asset_type": "illustration",
+      "description": "Christ with an entire tall flower-ended cross staff, tomb and four soldiers. Part of the Initial (openn-lewis-e-m-067-003) set.",
+      "source_region": [
+        1666,
+        4394,
+        2997,
+        6266
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        26,
+        12,
+        1025,
+        1450
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 999,
+      "height": 1438,
+      "png": "openn-free-library/openn-lewis-e-m-067-003--resurrection-with-tomb-and-four-soldiers.png",
+      "png_sha256": "9e342252fd505b37cff61118fed047b7b9de8f13f0a4421bf16cfa933ef63889",
+      "provenance": {
+        "institution": "Free Library of Philadelphia, John Frederick Lewis Collection",
+        "title": "Initial",
+        "object_identifier": "Lewis E M 67:3 Initial",
+        "date": "(Germany, 1400-1499)",
+        "record_url": "https://openn.library.upenn.edu/Data/0023/html/lewis_e_m_067_003.html",
+        "image_rights": "Public Domain Mark 1.0; item record explicitly places images in public domain",
+        "rights_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "source_file": "tmp/new-assets/openn-free-library/openn-lewis-e-m-067-003--initial--master.tif",
+        "source_sha256": "2becd60ebef0f327e6a024e616a2aca0277a9beb9958d6e6057f794990a3140a",
+        "source_metadata": "tmp/new-assets/openn-free-library/openn-lewis-e-m-067-003.json",
+        "image_url": "https://openn.library.upenn.edu/Data/0023/lewis_e_m_067_003/data/master/8296_0000.tif",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. Extract ONLY complete contacting resurrection scene inside decorated C: Christ, original red/green robe, both hands and feet, open tomb, FOUR soldiers and their original props/limbs, shared tiny green foreground turf. Crucially preserve the ENTIRE TALL ORIGINAL STAFF with its large pale-gold FLORIATE CROSS above Christ's head: three sideways/upper flowered ends and small radial ornament at their junction. It reaches close to the initial's upper blue curve. Do not replace the cross with a rounded gold knob or truncate it at head height. Preserve this faint source cross without inventing new ornaments. Remove entire decorated C/blue/red/green frame and flat gold sky, including between cross arms; pale gold original cross surfaces opaque. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_extraction": "tmp/extraction-work/openn-lewis-e-m-067-003--resurrection-with-tomb-and-four-soldiers--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "6607e21ce8c9ef474788fee2a832c3467614bce1672250b6b50f3d2ce1c49195",
+        "retained_generated_size": [
+          1058,
+          1487
+        ],
+        "resolution_cap_scale": 1,
+        "resolution_capped_size": [
+          1058,
+          1487
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          1120,
+          1681
+        ],
+        "native_subject_size_evidence": {
+          "method": "Individually inspected native visible subject bounds, excluding input-region whitespace and neighbours.",
+          "preview_subject_bounds": [
+            341,
+            875,
+            558,
+            1201
+          ],
+          "preview_size": [
+            1263,
+            1600
+          ],
+          "original_size": [
+            6516,
+            8252
+          ]
+        },
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 8177
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Compared original regions with transparent artwork on white and dark. Correct original cat identification and full low furry tail with prey; complete floral cross staff above resurrection; contacting lower-left pair has no unrelated border knob; saints and half-figures individually separated because their bodies do not contact. Pale figures remain opaque; visible original endings retained.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/seven-source-corrections-results-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/seven-source-corrections-results-proof-2.jpg"
+        ]
+      },
+      "categories": [
+        "humans"
+      ],
+      "subjects": [
+        "christ",
+        "cross",
+        "tomb",
+        "soldier"
+      ],
+      "colors": [
+        "red",
+        "green",
+        "gray",
+        "blue",
+        "cream",
+        "gold"
+      ],
+      "facing": "unclear",
+      "composition": "multiple-figures",
+      "usage_notes": "Original independent specimen with printed plate rules and page removed. AI-assisted extraction remains approximate; source bounds, actual native subject cap, original and exact prompt retained.",
+      "sets": [
+        {
+          "id": "openn-lewis-e-m-067-003-set",
+          "name": "Initial (openn-lewis-e-m-067-003)",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "Christ with an entire tall flower-ended cross staff, tomb and four soldiers.",
+      "set_label": "Initial (openn-lewis-e-m-067-003)"
+    },
+    {
+      "id": "openn-lewis-e-m-067-003--small-red-gold-painted-roundel",
+      "name": "small-red-gold-painted-roundel",
+      "source_id": "openn-lewis-e-m-067-003",
+      "source_folder": "openn-free-library",
+      "asset_type": "whole-decoration",
+      "description": "Small independent red and gilt painted roundel with its original uneven brushed edge. Part of the Initial (openn-lewis-e-m-067-003) set.",
+      "source_region": [
+        752,
+        3081,
+        854,
+        3181
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        0,
+        0,
+        102,
+        100
+      ],
+      "export_crop_coordinate_space": "original-native-source-region",
+      "width": 102,
+      "height": 100,
+      "png": "openn-free-library/openn-lewis-e-m-067-003--small-red-gold-painted-roundel.png",
+      "png_sha256": "ba72952efb553c2a9b664c5d2dd45cd5c95e23ad9117fe3f352cb99d1532cfe2",
+      "provenance": {
+        "institution": "Free Library of Philadelphia, John Frederick Lewis Collection",
+        "title": "Initial",
+        "object_identifier": "Lewis E M 67:3 Initial",
+        "date": "(Germany, 1400-1499)",
+        "record_url": "https://openn.library.upenn.edu/Data/0023/html/lewis_e_m_067_003.html",
+        "image_rights": "Public Domain Mark 1.0; item record explicitly places images in public domain",
+        "rights_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "source_file": "tmp/new-assets/openn-free-library/openn-lewis-e-m-067-003--initial--master.tif",
+        "source_sha256": "2becd60ebef0f327e6a024e616a2aca0277a9beb9958d6e6057f794990a3140a",
+        "source_metadata": "tmp/new-assets/openn-free-library/openn-lewis-e-m-067-003.json",
+        "image_url": "https://openn.library.upenn.edu/Data/0023/lewis_e_m_067_003/data/master/8296_0000.tif",
+        "method": "native-source-continuous-edge-matting"
+      },
+      "extraction": {
+        "candidate_png": "tmp/extraction-work/continuation-20261010/openn-lewis-e-m-067-003--small-red-gold-painted-roundel--native-member-candidate.png",
+        "native_export_crop": [
+          0,
+          0,
+          102,
+          100
+        ],
+        "native_source_size": [
+          102,
+          100
+        ],
+        "annotation_json": "tmp/extraction-work/continuation-20261010/openn-lewis-e-m-067-003--small-red-gold-painted-roundel--native-member-audit.json",
+        "export_crop_coordinate_space": "original-native-source-region",
+        "native_upscaling": false,
+        "source_pixels_redrawn": false,
+        "original_opaque_rgb_preserved": true,
+        "native_member_derivation": {
+          "method": "Source-native standalone member selected from the reviewed finite floral-bar matte. Native parent alpha/RGB are cropped without resizing or redraw; the unrelated contacting main vine component and its three-pixel soft-edge allowance are excluded within this isolated member region. All original detached member petals/tendrils and real openings remain.",
+          "parent_id": "openn-lewis-e-m-067-003--tall-floral-bar-with-knotted-red-blue-ribbons",
+          "parent_candidate": "tmp/extraction-work/continuation-20261010/openn-lewis-e-m-067-003--tall-floral-bar-with-knotted-red-blue-ribbons--refined-original-native-candidate.png",
+          "parent_candidate_sha256": "5abde45cd5ecf74b182b9f940f0d593c77e0258593216ccd673327c6ca816ecf",
+          "parent_source_matte_audit": "tmp/extraction-work/continuation-20261010/openn-lewis-e-m-067-003--tall-floral-bar-with-knotted-red-blue-ribbons--refined-original-native-audit.json",
+          "native_member_bounds_in_parent_original": [
+            66,
+            2926,
+            168,
+            3026
+          ],
+          "original_opaque_rgb_preserved": true,
+          "source_pixels_redrawn": false,
+          "source_resized": false
+        },
+        "method": "Source-native standalone member selected from the reviewed finite floral-bar matte. Native parent alpha/RGB are cropped without resizing or redraw; the unrelated contacting main vine component and its three-pixel soft-edge allowance are excluded within this isolated member region. All original detached member petals/tendrils and real openings remain.",
+        "status": "awaiting-original-white-dark-review",
+        "tool": "Original native scan / closed-form edge alpha and foreground decontamination",
+        "pixel_exact": false
+      },
+      "parent": "openn-lewis-e-m-067-003--tall-floral-bar-with-knotted-red-blue-ribbons",
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Original independent painted motifs inspected at native scale on white and dark. Unrelated nearby vine and cursive marks are removed; complete source-visible petals/tendrils and red/gold centers retained without scale changes. Parent/child native extraction and original source bounds are traceable.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/openn67-three-independent-motifs-current-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/openn67-green-floret-clean-native-proof.png"
+        ]
+      },
+      "categories": [
+        "geometric"
+      ],
+      "subjects": [
+        "roundel"
+      ],
+      "colors": [
+        "red",
+        "gold"
+      ],
+      "facing": "front",
+      "composition": "standalone",
+      "usage_notes": "Independent original painted motif; native parent pixels and alpha retained without scale changes. Repeated similar scattered motifs are represented by this inspected complete example rather than duplicate cutouts. No repeat or vector redraw inferred.",
+      "sets": [
+        {
+          "id": "openn-lewis-e-m-067-003-set",
+          "name": "Initial (openn-lewis-e-m-067-003)",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "Small independent red and gilt painted roundel with its original uneven brushed edge.",
+      "set_label": "Initial (openn-lewis-e-m-067-003)"
+    },
+    {
+      "id": "openn-lewis-e-m-067-003--tall-floral-bar-with-knotted-red-blue-ribbons",
+      "name": "tall-floral-bar-with-knotted-red-blue-ribbons",
+      "source_id": "openn-lewis-e-m-067-003",
+      "source_folder": "openn-free-library",
+      "asset_type": "decoration",
+      "description": "Tall hand-painted floral bar with alternating blue, pink, green and gold leaf fans, flowers, small gilt florets and a red-blue ribbon knot. Part of the Initial (openn-lewis-e-m-067-003) set.",
+      "source_region": [
+        686,
+        155,
+        1486,
+        8035
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        30,
+        79,
+        753,
+        7750
+      ],
+      "export_crop_coordinate_space": "original-native-source-region",
+      "width": 723,
+      "height": 7671,
+      "png": "openn-free-library/openn-lewis-e-m-067-003--tall-floral-bar-with-knotted-red-blue-ribbons.png",
+      "png_sha256": "5abde45cd5ecf74b182b9f940f0d593c77e0258593216ccd673327c6ca816ecf",
+      "provenance": {
+        "institution": "Free Library of Philadelphia, John Frederick Lewis Collection",
+        "title": "Initial",
+        "object_identifier": "Lewis E M 67:3 Initial",
+        "date": "(Germany, 1400-1499)",
+        "record_url": "https://openn.library.upenn.edu/Data/0023/html/lewis_e_m_067_003.html",
+        "image_rights": "Public Domain Mark 1.0; item record explicitly places images in public domain",
+        "rights_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "source_file": "tmp/new-assets/openn-free-library/openn-lewis-e-m-067-003--initial--master.tif",
+        "source_sha256": "2becd60ebef0f327e6a024e616a2aca0277a9beb9958d6e6057f794990a3140a",
+        "source_metadata": "tmp/new-assets/openn-free-library/openn-lewis-e-m-067-003.json",
+        "image_url": "https://openn.library.upenn.edu/Data/0023/lewis_e_m_067_003/data/master/8296_0000.tif",
+        "method": "native-source-continuous-edge-matting"
+      },
+      "extraction": {
+        "candidate_png": "tmp/extraction-work/continuation-20261010/openn-lewis-e-m-067-003--tall-floral-bar-with-knotted-red-blue-ribbons--refined-original-native-candidate.png",
+        "native_export_crop": [
+          30,
+          79,
+          753,
+          7750
+        ],
+        "export_crop_coordinate_space": "original-native-source-region",
+        "annotation_json": "tmp/extraction-work/continuation-20261010/openn-lewis-e-m-067-003--tall-floral-bar-with-knotted-red-blue-ribbons--refined-original-native-audit.json",
+        "trimap_png": "tmp/extraction-work/continuation-20261010/openn-lewis-e-m-067-003--tall-floral-bar-with-knotted-red-blue-ribbons--refined-original-native-trimap.png",
+        "native_source_size": [
+          800,
+          7880
+        ],
+        "native_upscaling": false,
+        "source_pixels_redrawn": false,
+        "original_opaque_rgb_preserved": true,
+        "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+        "alpha_guide": {
+          "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+          "guide_png": "tmp/extraction-work/continuation-20261010/openn-lewis-e-m-067-003--tall-floral-bar-with-knotted-red-blue-ribbons--native-alpha-reference.png",
+          "guide_sha256": "cb36ce97fd83798dcf118700f99e7fdbf05c0830323aafc33fc7e3dda08ca385",
+          "native_original": "tmp/extraction-work/continuation-20261010/openn-lewis-e-m-067-003--tall-floral-bar-with-knotted-red-blue-ribbons--original.png",
+          "similarity_ai_alpha_to_original": [
+            [
+              3.655135285186282,
+              -0.008196603870641516,
+              -944.3998767495915
+            ],
+            [
+              0.008196603870641516,
+              3.655135285186282,
+              27.05752740317333
+            ]
+          ],
+          "matching_feature_pairs": 417,
+          "inlier_feature_pairs": 335,
+          "inlier_rms_native_pixels": 6.841369765220731,
+          "source_inspection_factor": 0.22842639593908629,
+          "unknown_edge_band_native_pixels": 6,
+          "edge_solve_tile_size": 640,
+          "edge_solve_halo": 32,
+          "edge_solve_tiles": 24,
+          "original_opaque_rgb_preserved": true
+        },
+        "status": "awaiting-original-white-dark-review",
+        "native_refinement": {
+          "method": "The independently inspected upper blue/gold floret has genuine parchment openings between its painted lobes; warm source parchment (R/G 1.035..1.15, B/G .81.. .95, R>155,G>135,B>110) is removed throughout that isolated top-265-row floret. Elsewhere this exclusion is confined to a nine-pixel interior/sixteen-pixel exterior edge band, leaving pale folded leaf interiors opaque. Blue/gray petals, gilt centers, green/red pigment, original fine stems and all source geometry are preserved. Continuous eight-native-pixel edge matting and original opaque RGB; no enlarged, redrawn or repeated motifs.",
+          "source": "tmp/extraction-work/continuation-20261010/openn-lewis-e-m-067-003--tall-floral-bar-with-knotted-red-blue-ribbons--original.png",
+          "previous_native_matte": {
+            "candidate_png": "tmp/extraction-work/continuation-20261010/openn-lewis-e-m-067-003--tall-floral-bar-with-knotted-red-blue-ribbons--refined-original-native-candidate.png",
+            "native_export_crop": [
+              6,
+              76,
+              761,
+              7751
+            ],
+            "export_crop_coordinate_space": "original-native-source-region",
+            "annotation_json": "tmp/extraction-work/continuation-20261010/openn-lewis-e-m-067-003--tall-floral-bar-with-knotted-red-blue-ribbons--refined-original-native-audit.json",
+            "trimap_png": "tmp/extraction-work/continuation-20261010/openn-lewis-e-m-067-003--tall-floral-bar-with-knotted-red-blue-ribbons--refined-original-native-trimap.png",
+            "native_source_size": [
+              800,
+              7880
+            ],
+            "native_upscaling": false,
+            "source_pixels_redrawn": false,
+            "original_opaque_rgb_preserved": true,
+            "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+            "alpha_guide": {
+              "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+              "guide_png": "tmp/extraction-work/continuation-20261010/openn-lewis-e-m-067-003--tall-floral-bar-with-knotted-red-blue-ribbons--native-alpha-reference.png",
+              "guide_sha256": "cb36ce97fd83798dcf118700f99e7fdbf05c0830323aafc33fc7e3dda08ca385",
+              "native_original": "tmp/extraction-work/continuation-20261010/openn-lewis-e-m-067-003--tall-floral-bar-with-knotted-red-blue-ribbons--original.png",
+              "similarity_ai_alpha_to_original": [
+                [
+                  3.655135285186282,
+                  -0.008196603870641516,
+                  -944.3998767495915
+                ],
+                [
+                  0.008196603870641516,
+                  3.655135285186282,
+                  27.05752740317333
+                ]
+              ],
+              "matching_feature_pairs": 417,
+              "inlier_feature_pairs": 335,
+              "inlier_rms_native_pixels": 6.841369765220731,
+              "source_inspection_factor": 0.22842639593908629,
+              "unknown_edge_band_native_pixels": 6,
+              "edge_solve_tile_size": 640,
+              "edge_solve_halo": 32,
+              "edge_solve_tiles": 24,
+              "original_opaque_rgb_preserved": true
+            },
+            "status": "awaiting-original-white-dark-review",
+            "native_refinement": {
+              "method": "Native paper-fringe cleanup at the inspected floral edges. A local untouched background sample at least sixteen native pixels outside registered ownership measures the nearby parchment colour. Only a narrow ten-pixel interior/sixteen-pixel exterior boundary region whose blurred source RGB is within ten colour units of that local paper is marked background. Opaque interior pale petals, gold paint and dark/coloured fine stems remain source pixels. Continuous four-native-pixel edge matting; no redraw, resize, repeat or invented contour.",
+              "source": "tmp/extraction-work/continuation-20261010/openn-lewis-e-m-067-003--tall-floral-bar-with-knotted-red-blue-ribbons--original.png",
+              "previous_native_matte": {
+                "candidate_png": "tmp/extraction-work/continuation-20261010/openn-lewis-e-m-067-003--tall-floral-bar-with-knotted-red-blue-ribbons--registered-native-candidate.png",
+                "native_export_crop": [
+                  1,
+                  67,
+                  762,
+                  7749
+                ],
+                "export_crop_coordinate_space": "original-native-source-region",
+                "annotation_json": "tmp/extraction-work/continuation-20261010/openn-lewis-e-m-067-003--tall-floral-bar-with-knotted-red-blue-ribbons--registered-native-annotation.json",
+                "trimap_png": "tmp/extraction-work/continuation-20261010/openn-lewis-e-m-067-003--tall-floral-bar-with-knotted-red-blue-ribbons--registered-native-trimap.png",
+                "native_source_size": [
+                  800,
+                  7880
+                ],
+                "native_upscaling": false,
+                "source_pixels_redrawn": false,
+                "original_opaque_rgb_preserved": true,
+                "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+                "alpha_guide": {
+                  "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+                  "guide_png": "tmp/extraction-work/continuation-20261010/openn-lewis-e-m-067-003--tall-floral-bar-with-knotted-red-blue-ribbons--native-alpha-reference.png",
+                  "guide_sha256": "cb36ce97fd83798dcf118700f99e7fdbf05c0830323aafc33fc7e3dda08ca385",
+                  "native_original": "tmp/extraction-work/continuation-20261010/openn-lewis-e-m-067-003--tall-floral-bar-with-knotted-red-blue-ribbons--original.png",
+                  "similarity_ai_alpha_to_original": [
+                    [
+                      3.655135285186282,
+                      -0.008196603870641516,
+                      -944.3998767495915
+                    ],
+                    [
+                      0.008196603870641516,
+                      3.655135285186282,
+                      27.05752740317333
+                    ]
+                  ],
+                  "matching_feature_pairs": 417,
+                  "inlier_feature_pairs": 335,
+                  "inlier_rms_native_pixels": 6.841369765220731,
+                  "source_inspection_factor": 0.22842639593908629,
+                  "unknown_edge_band_native_pixels": 6,
+                  "edge_solve_tile_size": 640,
+                  "edge_solve_halo": 32,
+                  "edge_solve_tiles": 24,
+                  "original_opaque_rgb_preserved": true
+                },
+                "status": "awaiting-original-white-dark-review"
+              },
+              "unknown_band_native_pixels": 4,
+              "source_rgb_redrawn": false,
+              "source_resized": false,
+              "original_opaque_rgb_preserved": true,
+              "ownership": "tmp/extraction-work/continuation-20261010/openn-lewis-e-m-067-003--tall-floral-bar-with-knotted-red-blue-ribbons--refined-original-native-ownership.png",
+              "ownership_sha256": "df0b668113e56681516c5ca8fcc28a1830376d91ac671b7757091e5c8e5b9a37",
+              "local_background_sampling_distance": 16,
+              "near_edge_paper_colour_distance": 10,
+              "certain_background_pixels": 576627
+            }
+          },
+          "unknown_band_native_pixels": 8,
+          "source_rgb_redrawn": false,
+          "source_resized": false,
+          "original_opaque_rgb_preserved": true,
+          "ownership": "tmp/extraction-work/continuation-20261010/openn-lewis-e-m-067-003--tall-floral-bar-with-knotted-red-blue-ribbons--refined-original-native-ownership.png",
+          "ownership_sha256": "fafb0c6c451958fc8f7522040022a020ec33e254d60463c7707cb01d182f9519",
+          "upper_floret_genuine_opening_scope_rows": [
+            0,
+            264
+          ],
+          "certain_background_pixels": 915736
+        },
+        "tool": "Original native scan / closed-form edge alpha and foreground decontamination",
+        "pixel_exact": false,
+        "ownership_guide_prompt": "Use case: background-extraction. Edit the supplied ORIGINAL source region. ONLY the entire LEFT vertical foliate bar with all small detached florets deliberately arranged around its stem, from original upper terminal to complete bottom terminal, including the red-blue woven ribbon knot. Clear all music/lettering, parchment, scale, the illustration/its gold frame and the separate horizontal floral spray. Preserve the exact original appearance, proportions, source-visible endpoints, paint texture, tiny stems and pale/gold paint. Genuine transparent alpha in all openings and exterior. No redrawing, sharpening, inventing hidden tips, extending stems, symmetrizing, upscaling or replacement flowers. One finite hand-varied ornament, no inferred repeat or new corners.",
+        "retained_generated_ownership_guide": {
+          "file": "tmp/extraction-work/openn-lewis-e-m-067-003--tall-floral-bar-with-knotted-red-blue-ribbons--retained-ai-extraction.png",
+          "sha256": "cb36ce97fd83798dcf118700f99e7fdbf05c0830323aafc33fc7e3dda08ca385",
+          "purpose": "Retained AI alpha guide only; delivered opaque RGB belongs to the unchanged native source."
+        }
+      },
+      "parent": null,
+      "children": [
+        "openn-lewis-e-m-067-003--blue-serrated-floret-with-red-gold-center",
+        "openn-lewis-e-m-067-003--four-armed-green-feathered-floret-with-red-gold-center",
+        "openn-lewis-e-m-067-003--small-red-gold-painted-roundel"
+      ],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Final source/white/dark and actual native-scale flower/fold checks inspected. Original blue/gold/green/pale paint retained with genuine parchment openings clear. The vertical and horizontal pieces are separate finite hand-varied decorations; no unsupported repeating unit or SVG redraw.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/openn67-current-final-native-review-current-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/openn67-final-source-openings-and-folds.png"
+        ]
+      },
+      "categories": [
+        "floral"
+      ],
+      "subjects": [
+        "flower",
+        "leaf",
+        "stem",
+        "ribbon"
+      ],
+      "colors": [
+        "blue",
+        "pink",
+        "green",
+        "gold",
+        "red"
+      ],
+      "facing": "unclear",
+      "composition": "single-ornament",
+      "usage_notes": "Original finite, hand-varied foliate ornament. Integral painted petal highlights retained; exterior parchment and actual openings transparent. No repeat or corner invention. Separate vertical and horizontal ornaments rather than a disconnected L montage.",
+      "sets": [
+        {
+          "id": "openn-lewis-e-m-067-003-set",
+          "name": "Initial (openn-lewis-e-m-067-003)",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "Tall hand-painted floral bar with alternating blue, pink, green and gold leaf fans, flowers, small gilt florets and a red-blue ribbon knot.",
+      "set_label": "Initial (openn-lewis-e-m-067-003)"
+    }
+  ]
+}

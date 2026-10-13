@@ -1,4 +1,5 @@
-import { createFrame, createDivider, createOrnamentImage, findOrnaments, getOrnament, resolveOrnament } from '@ranx729/medieval-ornaments';
+import { attachOrnament } from '../../lib/vanilla-core.js';
+import { findOrnaments, getOrnament, resolveOrnament, loadCatalog } from '../shared/playground-catalog.js';
 import { createDivider as createBerryDivider } from '@ranx729/medieval-ornaments/designs/red-berry-vine';
 import { createOrnamentImage as createFlyingPig } from '@ranx729/medieval-ornaments/designs/flying-pig';
 import { assetsBase } from '../shared/env.js';
@@ -8,6 +9,10 @@ import { htmlSnippet } from '../shared/snippets.js';
 
 // The offline ZIP self-hosts its artwork; published pages use the default CDN.
 const hosting = assetsBase ? { assetsBase } : {};
+// Stable controllers preserve the user's DOM while the picker loads discovery.
+const createFrame = (node, options) => attachOrnament(node, 'frame', options, resolveOrnament);
+const createDivider = (node, options) => attachOrnament(node, 'divider', options, resolveOrnament);
+const createOrnamentImage = (node, options) => attachOrnament(node, 'image', options, resolveOrnament);
 
 // Picker thumbnails use the library with the smallest published files.
 function thumbnail(item, target, { lazy }) {
@@ -27,11 +32,13 @@ function thumbnail(item, target, { lazy }) {
 
 // ---------- Borders: one design as a frame and as a divider ----------
 const borderPicker = createPicker({ id: 'design', label: 'Border', value: 'red-berry-vine', items: findOrnaments({ use: 'divider' }),
+  load: async () => { await loadCatalog(); return findOrnaments({ use: 'divider' }); },
   search: query => findOrnaments({ use: 'divider', query }), thumbnail, onChange: () => updateBorders() });
-$('#designPicker').append(borderPicker.element);
+$('#designPicker').replaceChildren(borderPicker.element);
 const borders = () => ({ design: borderPicker.value, orientation: $('#orientation').value, size: Number($('#size').value) });
 let options = borders();
 let frame = createFrame($('#frame'), { design: options.design, size: options.size, ...hosting });
+let frameAttached = true;
 const divider = createDivider($('#divider'), { design: options.design, orientation: options.orientation, size: options.size, ...hosting });
 const borderCode = codePanel($('#borderCode'));
 
@@ -39,36 +46,42 @@ function updateBorders() {
   options = borders();
   const { design, orientation, size } = options;
   $('#sizeOut').value = `${size}px`;
-  frame?.update({ design, size });
+  const hasFrame = getOrnament(design).uses.includes('frame');
+  if (!hasFrame && frame) { frame.destroy(); frame = null; }
+  if (hasFrame && !frame && frameAttached) frame = createFrame($('#frame'), { design, size, ...hosting });
+  if (hasFrame && frame) frame.update({ design, size });
+  $('#toggle').disabled = !hasFrame;
+  $('#toggle').textContent = hasFrame ? frame ? 'Detach frame' : 'Attach frame' : 'Divider only';
   divider.update({ design, orientation, size });
   $('#details').textContent = `${divider.configuration.axis === 'x' ? 'Horizontal' : 'Vertical'} divider using ${divider.configuration.asset.path}`;
-  const js = `import { createFrame, createDivider } from '@ranx729/medieval-ornaments';
+  const js = `import { ${hasFrame ? 'createFrame, ' : ''}createDivider } from '@ranx729/medieval-ornaments';
 import '@ranx729/medieval-ornaments/styles.css';
 
-const frame = createFrame(document.querySelector('#frame'), {
+${hasFrame ? `const frame = createFrame(document.querySelector('#frame'), {
   design: '${design}', size: ${size}
 });
-const divider = createDivider(document.querySelector('#divider'), {
+` : ''}const divider = createDivider(document.querySelector('#divider'), {
   design: '${design}', orientation: '${orientation}', size: ${size}
 });
 
 // Later: change options in place, or remove the ornament.
 divider.update({ orientation: 'horizontal' });
-frame.destroy();`;
+${hasFrame ? 'frame.destroy();' : 'divider.destroy();'}`;
   // The same result without JavaScript, from the library's own resolution.
-  const blocks = [htmlSnippet(resolveOrnament('frame', { design, size, ...hosting }), '…'), htmlSnippet(resolveOrnament('divider', { design, orientation, size, ...hosting }))];
+  const blocks = [...(hasFrame ? [htmlSnippet(resolveOrnament('frame', { design, size, ...hosting }), '…')] : []), htmlSnippet(resolveOrnament('divider', { design, orientation, size, ...hosting }))];
   borderCode.set({ js, html: [blocks[0].split('\n')[0], ...blocks.map(block => block.split('\n').slice(2).join('\n'))].join('\n\n') });
 }
 for (const id of ['orientation', 'size']) $('#' + id).addEventListener('input', updateBorders);
 $('#toggle').addEventListener('click', () => {
-  if (frame) { frame.destroy(); frame = null; $('#toggle').textContent = 'Attach frame'; }
-  else { frame = createFrame($('#frame'), { design: options.design, size: options.size, ...hosting }); $('#toggle').textContent = 'Detach frame'; }
+  if (frame) { frame.destroy(); frame = null; frameAttached = false; $('#toggle').textContent = 'Attach frame'; }
+  else { frame = createFrame($('#frame'), { design: options.design, size: options.size, ...hosting }); frameAttached = true; $('#toggle').textContent = 'Detach frame'; }
 });
 
 // ---------- Images: one of the sizes published for the chosen image ----------
 const imagePicker = createPicker({ id: 'wholeDesign', label: 'Image', value: 'floral-bird-panel-blue', items: findOrnaments({ use: 'image' }),
+  load: async () => { await loadCatalog(); return findOrnaments({ use: 'image' }); },
   search: query => findOrnaments({ use: 'image', query }), thumbnail, onChange: () => updateImage() });
-$('#imagePicker').append(imagePicker.element);
+$('#imagePicker').replaceChildren(imagePicker.element);
 let tier = '256';
 const initial = chosenSize(getOrnament(imagePicker.value));
 const whole = createOrnamentImage($('#whole'), { design: imagePicker.value, size: initial.size, pixelRatio: 1, loading: 'lazy', decoding: 'async', ...hosting });

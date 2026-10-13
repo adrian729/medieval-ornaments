@@ -1,0 +1,566 @@
+{
+  "source_id": "walters-w82-191v",
+  "assets": [
+    {
+      "id": "walters-w82-191v--crouching-unicorn-with-gold-horn",
+      "name": "crouching-unicorn-with-gold-horn",
+      "source_id": "walters-w82-191v",
+      "source_folder": "walters",
+      "asset_type": "illustration",
+      "description": "A low crouching gray-green unicorn with a long horizontal gilded horn, a pointed mane, folded front legs and extended rear legs. Part of the Walters W.82 Marginalia set.",
+      "source_region": [
+        5314,
+        264,
+        7606,
+        1056
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        20,
+        21,
+        2086,
+        674
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 2066,
+      "height": 653,
+      "png": "walters/walters-w82-191v--crouching-unicorn-with-gold-horn.png",
+      "png_sha256": "ee06fbb47cf4704fd5875f3973b46e37adf6fbe32c13a3e68605dca9ad38e8ab",
+      "provenance": {
+        "institution": "Walters Art Museum",
+        "title": "Initial “D” with nimbed apostle and pseudo-inscribed scroll; unicorn, mermaid, and hunting scene in margin",
+        "object_identifier": "W.82, fol. 191v",
+        "date": "Ca. 1315-1325 CE",
+        "record_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/html/W82/description.html",
+        "image_rights": "CC0 (Digital Walters manuscript images)",
+        "rights_url": "https://www.thedigitalwalters.org/01_ACCESS_WALTERS_MANUSCRIPTS.html",
+        "source_file": "tmp/new-assets/walters/walters-w82-191v--initial-d-with-nimbed-apostle-and-pseudo-inscribed-scroll-unicorn-mermaid-and-hunting-scen--master.tif",
+        "source_sha256": "8c42322b38c5ea4a01e13cae700ad7c129c1953fc3fdd3fb6b7ce92a44e7c967",
+        "source_metadata": "tmp/new-assets/walters/walters-w82-191v.json",
+        "image_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/W82/data/W.82/master/W82_000386_1200.tif",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: background-extraction. Edit target: the referenced ORIGINAL historical manuscript detail. Make a faithful transparent cutout of ONLY the specified complete painted subject. Keep the original pose, proportions, colors, hand-drawn contours and slight scan softness. Preserve every actual limb, prop and delicate painted stroke; do not invent missing parts or new detail. Opaque pale skin/eyes/painted surfaces stay opaque; genuine gaps between limbs and props and around the subject are transparent. Remove all parchment, text, foliate manuscript borders, unrelated neighbor figures, isolated marks and stains. Smooth fine antialiased edges; no coarse binary steps, polygon outlines, paper fringe, black ground line, shadow, sharpened modern cartoon or extra texture. Preserve the original figure aspect and its relative anatomy. Subject: the complete original pale gray-green unicorn crouching/running low and facing LEFT, including its unusually long narrow horizontal GOLD horn projecting left, dark mane spikes above the head, original eye and muzzle ink curls, bent front legs with original split hooves beneath the chest, low long torso, back legs extended to the right and original thin curled tail. Keep the original very wide low silhouette, approximately 3.1 times wider than tall; do not make an upright standing unicorn, shorten the horn, add hooves or thicken the body. Preserve the golden leaf glint on the horn and its original dark tip. Exclude all lettering below, parchment and black photography margin above. No invented ground line.",
+        "retained_generated_extraction": "tmp/extraction-work/walters-w82-191v--crouching-unicorn-with-gold-horn--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "7faaed3ed35256297ed39e5076963ee9af65a3ce6e9bb8c5cc201608a0345353",
+        "retained_generated_size": [
+          2206,
+          713
+        ],
+        "resolution_cap_scale": 0.951276102088167,
+        "resolution_capped_size": [
+          2099,
+          678
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          2050,
+          670
+        ],
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 5762
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "native-contours-and-new-assets-20261010",
+        "approval_scope": "Extraction-workflow visual review only; remains provisional for maintainer review.",
+        "checks": [
+          "actual-original-source",
+          "white-and-dark-backgrounds",
+          "complete-entity-and-fine-tips",
+          "native-subject-scale",
+          "opaque-painted-foreground",
+          "transparent-exterior-and-genuine-holes",
+          "contacting-group-policy"
+        ],
+        "notes": "Checked the native wide, low body proportions, complete long gold horn, mane, crouching legs and curled tail against the actual source. Pale painted body remains opaque; spaces around legs and tail are transparent. Removed adjacent blackletter and upper framing rule. Built-in image_gen extraction: approximate source texture, tones and small contours are explicitly recorded; no native subject upscaling and no forced SVG redraw.",
+        "evidence": [
+          "tmp/extraction-work/contour-corrections-20261010/walters-five-source-white-dark.jpg"
+        ]
+      },
+      "categories": [
+        "animals",
+        "fantasy"
+      ],
+      "subjects": [
+        "unicorn",
+        "horn"
+      ],
+      "colors": [
+        "gray",
+        "green",
+        "gold"
+      ],
+      "facing": "left",
+      "composition": "single-figure",
+      "usage_notes": "Original source and exact AI extraction prompt retained. This is an AI-assisted approximation, not a pixel-exact crop; minute contours, scan grain and tones can differ. No separately split versions of contacting figures/props. Native subject bounds cap both axes, with no raster upscaling.",
+      "sets": [
+        {
+          "id": "walters-w82-marginalia",
+          "name": "Walters W.82 Marginalia",
+          "relation": "same manuscript; each page retains its source identity"
+        },
+        {
+          "id": "walters-w82-191v-set",
+          "name": "Initial “D” with nimbed apostle and pseudo-inscribed scroll; unicorn, mermaid, and hunting scene in margin (walters-w82-191v)",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A low crouching gray-green unicorn with a long horizontal gilded horn, a pointed mane, folded front legs and extended rear legs.",
+      "set_label": "Walters W.82 Marginalia"
+    },
+    {
+      "id": "walters-w82-191v--hunter-spearing-boar",
+      "name": "hunter-spearing-boar",
+      "source_id": "walters-w82-191v",
+      "source_folder": "walters",
+      "asset_type": "illustration",
+      "description": "An orange-robed hunter spears a gray boar lying on its back; both figures, their connecting spear and the original small red blood strokes remain together. Part of the Walters W.82 Marginalia set.",
+      "source_region": [
+        4887,
+        6035,
+        7240,
+        7760
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        98,
+        66,
+        1346,
+        1056
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 1248,
+      "height": 990,
+      "png": "walters/walters-w82-191v--hunter-spearing-boar.png",
+      "png_sha256": "6a7153bb3254b6ebb9470d3b9622af1f054c3a6b16d59641499a0c50e1436929",
+      "provenance": {
+        "institution": "Walters Art Museum",
+        "title": "Initial “D” with nimbed apostle and pseudo-inscribed scroll; unicorn, mermaid, and hunting scene in margin",
+        "object_identifier": "W.82, fol. 191v",
+        "date": "Ca. 1315-1325 CE",
+        "record_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/html/W82/description.html",
+        "image_rights": "CC0 (Digital Walters manuscript images)",
+        "rights_url": "https://www.thedigitalwalters.org/01_ACCESS_WALTERS_MANUSCRIPTS.html",
+        "source_file": "tmp/new-assets/walters/walters-w82-191v--initial-d-with-nimbed-apostle-and-pseudo-inscribed-scroll-unicorn-mermaid-and-hunting-scen--master.tif",
+        "source_sha256": "8c42322b38c5ea4a01e13cae700ad7c129c1953fc3fdd3fb6b7ce92a44e7c967",
+        "source_metadata": "tmp/new-assets/walters/walters-w82-191v.json",
+        "image_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/W82/data/W.82/master/W82_000386_1200.tif",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: background-extraction. Edit target: the referenced ORIGINAL historical manuscript detail. Make a faithful transparent cutout of ONLY the specified complete painted subject. Keep the original pose, proportions, colors, hand-drawn contours and slight scan softness. Preserve every actual limb, prop and delicate painted stroke; do not invent missing parts or new detail. Opaque pale skin/eyes/painted surfaces stay opaque; genuine gaps between limbs and props and around the subject are transparent. Remove all parchment, text, foliate manuscript borders, unrelated neighbor figures, isolated marks and stains. Smooth fine antialiased edges; no coarse binary steps, polygon outlines, paper fringe, black ground line, shadow, sharpened modern cartoon or extra texture. Preserve the original figure aspect and its relative anatomy. Subject: ONE complete interacting group: the orange-robed hunter at left, with curly pale head, two hands holding the original long narrow spear diagonally right, his two green-clad legs and original long feet; at right the original gray long-eared animal pierced by that spear, lying twisted on its back with its existing four bent legs/feet, curled tail and raised head/muzzle. Keep the spear physically connecting the two. Preserve ONLY the exact modest original red blood marks already painted above/around/below the animal, without adding wounds or enhancing gore. Do not split either figure or the spear. Do not decide on a new animal species or redraw its anatomy: copy this original long-eared animal. Keep all original visible paws/ears/tail and the original position on its back. Remove the blue/red/gold ornamental ground border and all surrounding paper; retain the animal and both hunter feet fully. No new dark ground stroke.",
+        "retained_generated_extraction": "tmp/extraction-work/walters-w82-191v--hunter-spearing-long-eared-animal--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "744617aded37e93c7079b275650a08f41f83ae09f8461051375aed43a8cc977e",
+        "retained_generated_size": [
+          1465,
+          1073
+        ],
+        "resolution_cap_scale": 1,
+        "resolution_capped_size": [
+          1465,
+          1073
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          2250,
+          1550
+        ],
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 10766
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "native-contours-and-new-assets-20261010",
+        "approval_scope": "Extraction-workflow visual review only; remains provisional for maintainer review.",
+        "checks": [
+          "actual-original-source",
+          "white-and-dark-backgrounds",
+          "complete-entity-and-fine-tips",
+          "native-subject-scale",
+          "opaque-painted-foreground",
+          "transparent-exterior-and-genuine-holes",
+          "contacting-group-policy"
+        ],
+        "notes": "Hunter, held spear and wounded animal remain one physically connected group. Checked both hands, complete spear, original long ears, curled limbs, hunter toes and original red strokes. Removed the unrelated formal diagonal/lower border. Maintainer identifies the animal as a boar; source tones and tiny stroke positions are approximate in this AI extraction. Built-in image_gen extraction: approximate source texture, tones and small contours are explicitly recorded; no native subject upscaling and no forced SVG redraw.",
+        "evidence": [
+          "tmp/extraction-work/contour-corrections-20261010/walters-five-source-white-dark.jpg"
+        ],
+        "maintainer_identification": [
+          "Maintainer identified the animal as a boar."
+        ]
+      },
+      "categories": [
+        "humans",
+        "animals"
+      ],
+      "subjects": [
+        "hunter",
+        "person",
+        "spear",
+        "boar",
+        "hunting"
+      ],
+      "colors": [
+        "orange",
+        "green",
+        "gray",
+        "cream",
+        "red"
+      ],
+      "facing": "mixed",
+      "composition": "multiple-figures",
+      "usage_notes": "Original source and exact AI extraction prompt retained. This is an AI-assisted approximation, not a pixel-exact crop; minute contours, scan grain and tones can differ. No separately split versions of contacting figures/props. Native subject bounds cap both axes, with no raster upscaling.",
+      "identity_history": [
+        {
+          "previous_id": "walters-w82-191v--hunter-spearing-long-eared-animal",
+          "reason": "Maintainer identified the animal as a boar."
+        }
+      ],
+      "sets": [
+        {
+          "id": "walters-w82-marginalia",
+          "name": "Walters W.82 Marginalia",
+          "relation": "same manuscript; each page retains its source identity"
+        },
+        {
+          "id": "walters-w82-191v-set",
+          "name": "Initial “D” with nimbed apostle and pseudo-inscribed scroll; unicorn, mermaid, and hunting scene in margin (walters-w82-191v)",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "An orange-robed hunter spears a gray boar lying on its back; both figures, their connecting spear and the original small red blood strokes remain together.",
+      "set_label": "Walters W.82 Marginalia"
+    },
+    {
+      "id": "walters-w82-191v--white-wave-and-alternating-dots-on-blue",
+      "name": "white-wave-and-alternating-dots-on-blue",
+      "source_id": "walters-w82-191v",
+      "source_folder": "walters",
+      "asset_type": "border",
+      "description": "A hand painted white wave with alternating white dots and two white bounding lines on blue. Part of the Walters W.82 Marginalia set.",
+      "source_region": [
+        6162,
+        4832,
+        7218,
+        5130
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        0,
+        0,
+        134,
+        223
+      ],
+      "export_crop_coordinate_space": "source-region",
+      "width": 134,
+      "height": 223,
+      "png": "walters/walters-w82-191v--white-wave-and-alternating-dots-on-blue.png",
+      "png_sha256": "3ee20c9b106ccd784f89a182d3f17a71899eacd683bcbcb4a5171cf924d61ec8",
+      "provenance": {
+        "institution": "Walters Art Museum",
+        "title": "Initial “D” with nimbed apostle and pseudo-inscribed scroll; unicorn, mermaid, and hunting scene in margin",
+        "object_identifier": "W.82, fol. 191v",
+        "date": "Ca. 1315-1325 CE",
+        "record_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/html/W82/description.html",
+        "image_rights": "CC0 (Digital Walters manuscript images)",
+        "rights_url": "https://www.thedigitalwalters.org/01_ACCESS_WALTERS_MANUSCRIPTS.html",
+        "source_file": "tmp/new-assets/walters/walters-w82-191v--initial-d-with-nimbed-apostle-and-pseudo-inscribed-scroll-unicorn-mermaid-and-hunting-scen--master.tif",
+        "source_sha256": "8c42322b38c5ea4a01e13cae700ad7c129c1953fc3fdd3fb6b7ce92a44e7c967",
+        "source_metadata": "tmp/new-assets/walters/walters-w82-191v.json",
+        "image_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/W82/data/W.82/master/W82_000386_1200.tif",
+        "method": "native-interior-repeat-with-source-derived-miter-corners"
+      },
+      "extraction": {
+        "candidate_png": "tmp/extraction-work/continuation-20261010/walters-w82-191v--white-wave-and-alternating-dots-on-blue--painted-cycle.png",
+        "candidate_sha256": "b49089a61c9fa7aa5139d345a51576678a42a009d93624dce3b425db7c105ad0",
+        "export_crop": [
+          192,
+          60,
+          326,
+          283
+        ],
+        "method": "Original painted band RGB with continuous native edge alpha. One rigid 2.0 degree counterclockwise orientation correction, bicubic interpolation, no scaling or elastic changes. Interior paint remains opaque, including original pale pattern and blue filled artwork body; only exterior parchment is removed.",
+        "native_upscaling": false,
+        "source_pixels_redrawn": false,
+        "ink_color": null,
+        "oriented_source_png": "tmp/extraction-work/continuation-20261010/walters-w82-191v--white-wave-and-alternating-dots-on-blue--oriented-source.png",
+        "rigid_rotation_counterclockwise_degrees": 2.0,
+        "oriented_source_cycle_bounds": [
+          192,
+          60,
+          326,
+          283
+        ],
+        "trimap_png": "tmp/extraction-work/continuation-20261010/walters-w82-191v--white-wave-and-alternating-dots-on-blue--painted-cycle-guide.png",
+        "vector_method": "Withheld: a simplified vector would lose original paint texture and irregular contours.",
+        "repeat_build": {
+          "unit_png": "tmp/extraction-work/walters-w82-191v--white-wave-and-alternating-dots-on-blue--unit.png",
+          "bar_png": "tmp/extraction-work/walters-w82-191v--white-wave-and-alternating-dots-on-blue--bar.png",
+          "frame_png": "tmp/extraction-work/walters-w82-191v--white-wave-and-alternating-dots-on-blue--frame-atlas.png",
+          "corners": [
+            {
+              "name": "top-left",
+              "png": "tmp/extraction-work/walters-w82-191v--white-wave-and-alternating-dots-on-blue--corner-top-left.png",
+              "atlas_bounds": [
+                0,
+                0,
+                223,
+                223
+              ]
+            },
+            {
+              "name": "top-right",
+              "png": "tmp/extraction-work/walters-w82-191v--white-wave-and-alternating-dots-on-blue--corner-top-right.png",
+              "atlas_bounds": [
+                357,
+                0,
+                580,
+                223
+              ]
+            },
+            {
+              "name": "bottom-right",
+              "png": "tmp/extraction-work/walters-w82-191v--white-wave-and-alternating-dots-on-blue--corner-bottom-right.png",
+              "atlas_bounds": [
+                357,
+                357,
+                580,
+                580
+              ]
+            },
+            {
+              "name": "bottom-left",
+              "png": "tmp/extraction-work/walters-w82-191v--white-wave-and-alternating-dots-on-blue--corner-bottom-left.png",
+              "atlas_bounds": [
+                0,
+                357,
+                223,
+                580
+              ]
+            }
+          ],
+          "native_unit_size": [
+            134,
+            223
+          ],
+          "atlas_size": [
+            580,
+            580
+          ],
+          "slice_pixels": 223,
+          "slice_percent": 38.44827586206897,
+          "repeat_ratio": 0.600896860986547,
+          "join_adjustment": {
+            "pixels_at_each_end": 2,
+            "method": "average matching source collars; interior columns 2 through width-3 unchanged",
+            "source_cycle_verification": "The inspected original blue line filler contains five consecutive white wave cycles, each with a dot above the low portion and a dot below the high portion. The selected interior cycle retains BOTH alternating dot phases and both original horizontal white lines. The gold pip and curled endpoint are finite end decorations and are excluded."
+          },
+          "corner_method": "Mitered reflections of the exact same native unit, using the repository’s four phase-matched corner geometry. Derived corners are distinct from the original fixed printer-frame corners.",
+          "status": "accepted-after-source-unit-bar-four-corner-visual-review"
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Viewed the original full band, source-coordinate phase detail, complete native motif period, five repeats and all four miter corners on dark backgrounds. Original blue paint is the artwork field; external parchment removed. Continuous native alpha, audited rigid deskew, no upscaling or elastic shaping. Only two collar columns joined; phase-matched corners use the same original unit. PNG-only preserves paint texture.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/three-painted-native-period-coordinate-inspection.jpg",
+          "tmp/extraction-work/continuation-20261010/two-straightened-native-bands-coordinate-inspection.jpg",
+          "tmp/extraction-work/continuation-20261010/white-curl-exact-phase-inspection.jpg",
+          "tmp/extraction-work/walters-w82-191v--white-wave-and-alternating-dots-on-blue--bar-dark.jpg",
+          "tmp/extraction-work/walters-w82-191v--white-wave-and-alternating-dots-on-blue--frame-dark.jpg"
+        ]
+      },
+      "categories": [
+        "geometric",
+        "scrollwork"
+      ],
+      "subjects": [
+        "wave",
+        "dot",
+        "line",
+        "band"
+      ],
+      "colors": [
+        "blue",
+        "cream",
+        "white"
+      ],
+      "facing": "unclear",
+      "composition": "repeat-tile",
+      "usage_notes": "Original painted blue field is intrinsic artwork. Repeat unit has its original one-cycle motif or motif-cell geometry. All interiors retain scan colors after the audited rigid orientation correction; only two end columns are joined. Four derived corners use the same source artwork and phase, not unrelated flowers. PNG only to retain paint texture.",
+      "repeat": {
+        "rationale": "The inspected original blue line filler contains five consecutive white wave cycles, each with a dot above the low portion and a dot below the high portion. The selected interior cycle retains BOTH alternating dot phases and both original horizontal white lines. The gold pip and curled endpoint are finite end decorations and are excluded.",
+        "original_direction": "horizontal",
+        "source_evidence_png": "tmp/extraction-work/continuation-20261010/walters-w82-191v--native-period-band.png",
+        "slice_pixels": 223,
+        "slice_percent": 38.44827586206897,
+        "repeat_ratio": 0.600896860986547,
+        "native_unit_size": [
+          134,
+          223
+        ],
+        "atlas_size": [
+          580,
+          580
+        ],
+        "join_adjustment": {
+          "pixels_at_each_end": 2,
+          "method": "average matching source collars; interior columns 2 through width-3 unchanged",
+          "source_cycle_verification": "The inspected original blue line filler contains five consecutive white wave cycles, each with a dot above the low portion and a dot below the high portion. The selected interior cycle retains BOTH alternating dot phases and both original horizontal white lines. The gold pip and curled endpoint are finite end decorations and are excluded."
+        },
+        "corner_method": "Mitered reflections of the exact same native unit, using the repository’s four phase-matched corner geometry. Derived corners are distinct from the original fixed printer-frame corners."
+      },
+      "components": {
+        "bar": {
+          "png": "walters/walters-w82-191v--white-wave-and-alternating-dots-on-blue--bar.png",
+          "png_sha256": "a23d181c46adb57ab8cbd714eccc9df27692b97c8131c3f089e007fe519694de",
+          "width": 670,
+          "height": 223,
+          "set_id": "walters-w82-191v--white-wave-and-alternating-dots-on-blue",
+          "set_name": "Walters W.82 Marginalia — white wave and alternating dots on blue",
+          "set_role": "bar"
+        },
+        "frame": {
+          "png": "walters/walters-w82-191v--white-wave-and-alternating-dots-on-blue--frame-atlas.png",
+          "png_sha256": "ca5323adb3ffe3191b671b300745631ea5216a033b56a798e3eae097174de7d1",
+          "width": 580,
+          "height": 580,
+          "set_id": "walters-w82-191v--white-wave-and-alternating-dots-on-blue",
+          "set_name": "Walters W.82 Marginalia — white wave and alternating dots on blue",
+          "set_role": "frame"
+        },
+        "corner-top-left": {
+          "png": "walters/walters-w82-191v--white-wave-and-alternating-dots-on-blue--corner-top-left.png",
+          "png_sha256": "1b06ae0841b9c97adae8709155f2687547ec9f6e89746da0c0758b8db867fa7d",
+          "width": 223,
+          "height": 223,
+          "atlas_bounds": [
+            0,
+            0,
+            223,
+            223
+          ],
+          "method": "Mitered reflections of the exact same native unit, using the repository’s four phase-matched corner geometry. Derived corners are distinct from the original fixed printer-frame corners.",
+          "set_id": "walters-w82-191v--white-wave-and-alternating-dots-on-blue",
+          "set_name": "Walters W.82 Marginalia — white wave and alternating dots on blue",
+          "set_role": "corner-top-left"
+        },
+        "corner-top-right": {
+          "png": "walters/walters-w82-191v--white-wave-and-alternating-dots-on-blue--corner-top-right.png",
+          "png_sha256": "7fd5757224f0fd5a471d0b18798bea37b09e1c09b50474cbf8d847970cb3f084",
+          "width": 223,
+          "height": 223,
+          "atlas_bounds": [
+            357,
+            0,
+            580,
+            223
+          ],
+          "method": "Mitered reflections of the exact same native unit, using the repository’s four phase-matched corner geometry. Derived corners are distinct from the original fixed printer-frame corners.",
+          "set_id": "walters-w82-191v--white-wave-and-alternating-dots-on-blue",
+          "set_name": "Walters W.82 Marginalia — white wave and alternating dots on blue",
+          "set_role": "corner-top-right"
+        },
+        "corner-bottom-right": {
+          "png": "walters/walters-w82-191v--white-wave-and-alternating-dots-on-blue--corner-bottom-right.png",
+          "png_sha256": "3442ce19751ffdb2644a7bb1230943cdcc46d451d06e3ccbf074e285de7c4f35",
+          "width": 223,
+          "height": 223,
+          "atlas_bounds": [
+            357,
+            357,
+            580,
+            580
+          ],
+          "method": "Mitered reflections of the exact same native unit, using the repository’s four phase-matched corner geometry. Derived corners are distinct from the original fixed printer-frame corners.",
+          "set_id": "walters-w82-191v--white-wave-and-alternating-dots-on-blue",
+          "set_name": "Walters W.82 Marginalia — white wave and alternating dots on blue",
+          "set_role": "corner-bottom-right"
+        },
+        "corner-bottom-left": {
+          "png": "walters/walters-w82-191v--white-wave-and-alternating-dots-on-blue--corner-bottom-left.png",
+          "png_sha256": "4f658f39d042c42976e54be77530f9f91812d2dc6331779eb78601ef75b60155",
+          "width": 223,
+          "height": 223,
+          "atlas_bounds": [
+            0,
+            357,
+            223,
+            580
+          ],
+          "method": "Mitered reflections of the exact same native unit, using the repository’s four phase-matched corner geometry. Derived corners are distinct from the original fixed printer-frame corners.",
+          "set_id": "walters-w82-191v--white-wave-and-alternating-dots-on-blue",
+          "set_name": "Walters W.82 Marginalia — white wave and alternating dots on blue",
+          "set_role": "corner-bottom-left"
+        },
+        "rotated_tile": {
+          "png": "walters/walters-w82-191v--white-wave-and-alternating-dots-on-blue--rotated-tile.png",
+          "png_sha256": "c2ac68babb67ac1a573fdaf4cc8c6a0515338c56d1617b7df8271ed10a6a36a6",
+          "width": 223,
+          "height": 134,
+          "method": "Pixel-exact 90 degree clockwise transpose of the corresponding horizontal PNG.",
+          "set_id": "walters-w82-191v--white-wave-and-alternating-dots-on-blue",
+          "set_name": "Walters W.82 Marginalia — white wave and alternating dots on blue",
+          "set_role": "rotated_tile"
+        },
+        "rotated_bar": {
+          "png": "walters/walters-w82-191v--white-wave-and-alternating-dots-on-blue--rotated-bar.png",
+          "png_sha256": "443b5759a0882e437f05127f2bf7cd2c847dab4756c058822c5f301c67f78ac0",
+          "width": 223,
+          "height": 670,
+          "method": "Pixel-exact 90 degree clockwise transpose of the corresponding horizontal PNG.",
+          "set_id": "walters-w82-191v--white-wave-and-alternating-dots-on-blue",
+          "set_name": "Walters W.82 Marginalia — white wave and alternating dots on blue",
+          "set_role": "rotated_bar"
+        }
+      },
+      "sets": [
+        {
+          "id": "walters-w82-marginalia",
+          "name": "Walters W.82 Marginalia",
+          "relation": "same manuscript; each page retains its source identity"
+        },
+        {
+          "id": "walters-w82-191v-set",
+          "name": "Initial “D” with nimbed apostle and pseudo-inscribed scroll; unicorn, mermaid, and hunting scene in margin (walters-w82-191v)",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A hand painted white wave with alternating white dots and two white bounding lines on blue.",
+      "set_label": "Walters W.82 Marginalia"
+    }
+  ]
+}

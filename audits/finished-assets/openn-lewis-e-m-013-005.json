@@ -1,0 +1,778 @@
+{
+  "source_id": "openn-lewis-e-m-013-005",
+  "assets": [
+    {
+      "id": "openn-lewis-e-m-013-005--blue-webbed-fan-leaf",
+      "name": "blue-webbed-fan-leaf",
+      "source_id": "openn-lewis-e-m-013-005",
+      "source_folder": "openn-free-library",
+      "asset_type": "decoration",
+      "description": "Only the original blue and pink pointed fan-shaped foliate ornament at the upper left, with its pale branching web-like veins, all six main irregular pointed tips and the original narrow base at right. Remove the connected frame bars, gold field, neighboring foliage and other ornaments. Keep the original asymmetrical shape and pale vein strokes. Do not turn it into a generic bat wing or add points. Part of the Border detail fragment (openn-lewis-e-m-013-005) set.",
+      "source_region": [
+        221,
+        118,
+        809,
+        1012
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        11,
+        21,
+        579,
+        889
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 568,
+      "height": 868,
+      "png": "openn-free-library/openn-lewis-e-m-013-005--blue-webbed-fan-leaf.png",
+      "png_sha256": "f0465e93b9aed021b41ee3e06c9638fd3b1661c5d9c3048fb1be7b5fbe077adf",
+      "provenance": {
+        "institution": "Free Library of Philadelphia, John Frederick Lewis Collection",
+        "title": "Border detail fragment",
+        "object_identifier": "Lewis E M 13:5 Border detail fragment",
+        "date": "(Unknown, 1400-1499)",
+        "record_url": "https://openn.library.upenn.edu/Data/0023/html/lewis_e_m_013_005.html",
+        "image_rights": "Public Domain Mark 1.0; item record explicitly places images in public domain",
+        "rights_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "source_file": "tmp/new-assets/openn-free-library/openn-lewis-e-m-013-005--border-detail-fragment--master.tif",
+        "source_sha256": "9a42b3b031829275e1ad6c43d8e46848cc6fd9bb9308690f6dc33e4af77d6ba6",
+        "source_metadata": "tmp/new-assets/openn-free-library/openn-lewis-e-m-013-005.json",
+        "image_url": "https://openn.library.upenn.edu/Data/0023/lewis_e_m_013_005/data/master/7555_0000.tif",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: faithful manuscript ornament extraction. Edit the ORIGINAL reference. Only the original blue and pink pointed fan-shaped foliate ornament at the upper left, with its pale branching web-like veins, all five irregular pointed tips and the original narrow base at right. Remove the connected frame bars, gold field, neighboring foliage and other ornaments. Keep the original asymmetrical shape and pale vein strokes. Do not turn it into a generic bat wing or add points. Retain the complete selected original motif, all original contours, tiny painted tips, delicate stems, veins and white painted highlights, at its original proportions. Subject paint stays opaque, including pale and gold-colored subject parts. Only the surrounding flat background, page, letter shapes and genuine holes between selected subject parts become transparent. Do not add missing source-hidden parts, extend stems or tails, change anatomy, add leaves, modernize, symmetrize, sharpen, stretch or compress this historic hand-painted drawing. Fine natural antialiased contours without stepped polygons or parchment halos. Genuine transparent alpha outside and within all real openings, no white rectangle or checkerboard paint.",
+        "retained_generated_extraction": "tmp/extraction-work/openn-lewis-e-m-013-005--blue-webbed-fan-leaf--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "4f0c7d007a1575b3e12b685b98fbce3268356858b7a220dba7de57d6de7bf7b8",
+        "retained_generated_size": [
+          1017,
+          1547
+        ],
+        "resolution_cap_scale": 0.5778926955397543,
+        "resolution_capped_size": [
+          588,
+          894
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          588,
+          894
+        ],
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 1698
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "approval_scope": "Original source comparison; provisional for maintainer review.",
+        "checks": [
+          "complete-source-visible-subject",
+          "original-proportions",
+          "transparent-exterior-and-openings",
+          "opaque-original-paint-surfaces",
+          "thin-original-tips-and-props",
+          "white-and-dark-backgrounds",
+          "native-size-cap"
+        ],
+        "notes": "Compared against the original source and retained all actual leaf tips, painted highlights, thin stems, contacting props and original visible anatomy. The two-faced alchemical figure retains both faces, shared crown, both wings and all three chalice serpent heads; the reclining dragon includes both brown rear wings. AI-assisted texture and contour differences remain explicitly recorded.",
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/twelve-ornament-generated-results-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/twelve-ornament-generated-results-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/twelve-ornament-generated-results-proof-3.jpg"
+        ]
+      },
+      "categories": [
+        "floral"
+      ],
+      "subjects": [
+        "leaf",
+        "flower",
+        "scroll"
+      ],
+      "facing": "mixed",
+      "colors": [
+        "blue",
+        "red",
+        "green",
+        "gold"
+      ],
+      "composition": "single-ornament",
+      "sets": [
+        {
+          "id": "openn-lewis-e-m-013-005-set",
+          "name": "Border detail fragment (openn-lewis-e-m-013-005)",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "Only the original blue and pink pointed fan-shaped foliate ornament at the upper left, with its pale branching web-like veins, all six main irregular pointed tips and the original narrow base at right. Remove the connected frame bars, gold field, neighboring foliage and other ornaments. Keep the original asymmetrical shape and pale vein strokes. Do not turn it into a generic bat wing or add points.",
+      "set_label": "Border detail fragment (openn-lewis-e-m-013-005)"
+    },
+    {
+      "id": "openn-lewis-e-m-013-005--inner-red-and-blue-leaf-scroll",
+      "name": "inner-red-and-blue-leaf-scroll",
+      "source_id": "openn-lewis-e-m-013-005",
+      "source_folder": "openn-free-library",
+      "asset_type": "decoration",
+      "description": "A dense irregular red and blue leaf scroll with small curled branches. Part of the Border detail fragment (openn-lewis-e-m-013-005) set.",
+      "source_region": [
+        684,
+        751,
+        1364,
+        1631
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        0,
+        0,
+        653,
+        846
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 653,
+      "height": 846,
+      "png": "openn-free-library/openn-lewis-e-m-013-005--inner-red-and-blue-leaf-scroll.png",
+      "png_sha256": "072320a75880178d6769423c5bd217fdb90825983de15256f12a20725c79069f",
+      "provenance": {
+        "institution": "Free Library of Philadelphia, John Frederick Lewis Collection",
+        "title": "Border detail fragment",
+        "object_identifier": "Lewis E M 13:5 Border detail fragment",
+        "date": "(Unknown, 1400-1499)",
+        "record_url": "https://openn.library.upenn.edu/Data/0023/html/lewis_e_m_013_005.html",
+        "image_rights": "Public Domain Mark 1.0; item record explicitly places images in public domain",
+        "rights_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "source_file": "tmp/new-assets/openn-free-library/openn-lewis-e-m-013-005--border-detail-fragment--master.tif",
+        "source_sha256": "9a42b3b031829275e1ad6c43d8e46848cc6fd9bb9308690f6dc33e4af77d6ba6",
+        "source_metadata": "tmp/new-assets/openn-free-library/openn-lewis-e-m-013-005.json",
+        "image_url": "https://openn.library.upenn.edu/Data/0023/lewis_e_m_013_005/data/master/7555_0000.tif",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. Isolate ONLY the inner red/blue botanical arabesque between the letter posts: the actual irregular lobed leaves, white painted highlights and curved stems. EXCLUDE all four straight blue/red letter strokes enclosing it, including the blue vertical decorated strip at right, and the flat gold fill behind. Preserve only actual original connections, original leaf tips and any source-truncated twig ends. Retain every original face-like and leaf-like detail, including the orange curled snout-like upper shape, without reinterpreting the original. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_extraction": "tmp/extraction-work/openn-lewis-e-m-013-005--inner-red-and-blue-leaf-scroll--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "af15744ef6dcf55a4e005c72e38e2e954ddd420964416e67dd44317714d1e3ed",
+        "retained_generated_size": [
+          1102,
+          1427
+        ],
+        "resolution_cap_scale": 0.5925589836660617,
+        "resolution_capped_size": [
+          653,
+          846
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          653,
+          856
+        ],
+        "native_subject_size_evidence": {
+          "method": "Individually inspected native visible subject bounds, excluding input-region whitespace and neighbours.",
+          "preview_subject_bounds": [
+            382,
+            420,
+            742,
+            892
+          ],
+          "preview_size": [
+            1400,
+            1313
+          ],
+          "original_size": [
+            2540,
+            2382
+          ]
+        },
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 1688
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Viewed each original ROI and final white/dark proof. Complete selected stems, faces, wings, leaves and contacts retained; paper/gold/sky and glyph-only strokes excluded. Native subject caps and exact prompts retained; AI approximation is disclosed.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/openn-margin-first-ready-results-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/openn-margin-first-ready-results-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/openn-margin-first-ready-results-proof-3.jpg"
+        ]
+      },
+      "categories": [
+        "floral",
+        "scrollwork"
+      ],
+      "subjects": [
+        "leaf",
+        "scroll",
+        "stem"
+      ],
+      "colors": [
+        "red",
+        "blue",
+        "white"
+      ],
+      "facing": "unclear",
+      "composition": "single-ornament",
+      "usage_notes": "Original independent specimen with printed plate rules and page removed. AI-assisted extraction remains approximate; source bounds, actual native subject cap, original and exact prompt retained.",
+      "sets": [
+        {
+          "id": "openn-lewis-e-m-013-005-set",
+          "name": "Border detail fragment (openn-lewis-e-m-013-005)",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A dense irregular red and blue leaf scroll with small curled branches.",
+      "set_label": "Border detail fragment (openn-lewis-e-m-013-005)"
+    },
+    {
+      "id": "openn-lewis-e-m-013-005--left-two-flower-black-twig-with-gold-berry",
+      "name": "left-two-flower-black-twig-with-gold-berry",
+      "source_id": "openn-lewis-e-m-013-005",
+      "source_folder": "openn-free-library",
+      "asset_type": "decoration",
+      "description": "Two small pink green scalloped flowers with a gold berry and curled black stems. Part of the Border detail fragment (openn-lewis-e-m-013-005) set.",
+      "source_region": [
+        129,
+        960,
+        492,
+        1361
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        47,
+        0,
+        353,
+        371
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 306,
+      "height": 371,
+      "png": "openn-free-library/openn-lewis-e-m-013-005--left-two-flower-black-twig-with-gold-berry.png",
+      "png_sha256": "3ae1b5681761c371949fc0e3faaafa455a03839834a11d1fcda32c8bdea3f53b",
+      "provenance": {
+        "institution": "Free Library of Philadelphia, John Frederick Lewis Collection",
+        "title": "Border detail fragment",
+        "object_identifier": "Lewis E M 13:5 Border detail fragment",
+        "date": "(Unknown, 1400-1499)",
+        "record_url": "https://openn.library.upenn.edu/Data/0023/html/lewis_e_m_013_005.html",
+        "image_rights": "Public Domain Mark 1.0; item record explicitly places images in public domain",
+        "rights_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "source_file": "tmp/new-assets/openn-free-library/openn-lewis-e-m-013-005--border-detail-fragment--master.tif",
+        "source_sha256": "9a42b3b031829275e1ad6c43d8e46848cc6fd9bb9308690f6dc33e4af77d6ba6",
+        "source_metadata": "tmp/new-assets/openn-free-library/openn-lewis-e-m-013-005.json",
+        "image_url": "https://openn.library.upenn.edu/Data/0023/lewis_e_m_013_005/data/master/7555_0000.tif",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. Isolate ONLY the small fine black twig at the left with both opposed pink and green scalloped flowers and its small left gold berry. Remove the large blue/red vertical letter stroke completely; retain every fine twig end and only the original twig stem at its junction. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_extraction": "tmp/extraction-work/openn-lewis-e-m-013-005--left-two-flower-black-twig-with-gold-berry--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "cffe9f19ea8c8221a1e31a52ce724cd0bb964503644aa52e110364fafe7f05f0",
+        "retained_generated_size": [
+          1339,
+          1174
+        ],
+        "resolution_cap_scale": 0.3162020905923345,
+        "resolution_capped_size": [
+          423,
+          371
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          310,
+          363
+        ],
+        "native_subject_size_evidence": {
+          "method": "Individually inspected native visible subject bounds, excluding input-region whitespace and neighbours.",
+          "preview_subject_bounds": [
+            86,
+            541,
+            257,
+            741
+          ],
+          "preview_size": [
+            1400,
+            1313
+          ],
+          "original_size": [
+            2540,
+            2382
+          ]
+        },
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 95
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Viewed each original ROI and final white/dark proof. Complete selected stems, faces, wings, leaves and contacts retained; paper/gold/sky and glyph-only strokes excluded. Native subject caps and exact prompts retained; AI approximation is disclosed.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/openn-margin-first-ready-results-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/openn-margin-first-ready-results-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/openn-margin-first-ready-results-proof-3.jpg"
+        ]
+      },
+      "categories": [
+        "floral"
+      ],
+      "subjects": [
+        "flower",
+        "twig",
+        "berry"
+      ],
+      "colors": [
+        "pink",
+        "green",
+        "gold",
+        "black"
+      ],
+      "facing": "unclear",
+      "composition": "single-ornament",
+      "usage_notes": "Original independent specimen with printed plate rules and page removed. AI-assisted extraction remains approximate; source bounds, actual native subject cap, original and exact prompt retained.",
+      "sets": [
+        {
+          "id": "openn-lewis-e-m-013-005-set",
+          "name": "Border detail fragment (openn-lewis-e-m-013-005)",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "Two small pink green scalloped flowers with a gold berry and curled black stems.",
+      "set_label": "Border detail fragment (openn-lewis-e-m-013-005)"
+    },
+    {
+      "id": "openn-lewis-e-m-013-005--lower-left-knotted-red-and-blue-leaf",
+      "name": "lower-left-knotted-red-and-blue-leaf",
+      "source_id": "openn-lewis-e-m-013-005",
+      "source_folder": "openn-free-library",
+      "asset_type": "decoration",
+      "description": "A red and blue knotted leaf flourish tied around the original letter junction. Part of the Border detail fragment (openn-lewis-e-m-013-005) set.",
+      "source_region": [
+        263,
+        1787,
+        704,
+        2117
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        16,
+        26,
+        428,
+        321
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 412,
+      "height": 295,
+      "png": "openn-free-library/openn-lewis-e-m-013-005--lower-left-knotted-red-and-blue-leaf.png",
+      "png_sha256": "df26c9c454c03924625237bc3805dd8d8ced0758649af35a09f79cdb71a04bbb",
+      "provenance": {
+        "institution": "Free Library of Philadelphia, John Frederick Lewis Collection",
+        "title": "Border detail fragment",
+        "object_identifier": "Lewis E M 13:5 Border detail fragment",
+        "date": "(Unknown, 1400-1499)",
+        "record_url": "https://openn.library.upenn.edu/Data/0023/html/lewis_e_m_013_005.html",
+        "image_rights": "Public Domain Mark 1.0; item record explicitly places images in public domain",
+        "rights_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "source_file": "tmp/new-assets/openn-free-library/openn-lewis-e-m-013-005--border-detail-fragment--master.tif",
+        "source_sha256": "9a42b3b031829275e1ad6c43d8e46848cc6fd9bb9308690f6dc33e4af77d6ba6",
+        "source_metadata": "tmp/new-assets/openn-free-library/openn-lewis-e-m-013-005.json",
+        "image_url": "https://openn.library.upenn.edu/Data/0023/lewis_e_m_013_005/data/master/7555_0000.tif",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. Isolate ONLY the red/blue folded or knotted foliate flourish at the lower left with its original gold painted knot center and blue curled loop. Exclude the straight vertical letter post that passes behind it above and below; preserve only source-visible folded leaf parts without filling or reconstructing hidden parts. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_extraction": "tmp/extraction-work/openn-lewis-e-m-013-005--lower-left-knotted-red-and-blue-leaf--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "98d9236c9f2a92aba18d2c280f5b0823dcdb2ee1cc7210b79c778618153bead0",
+        "retained_generated_size": [
+          1450,
+          1085
+        ],
+        "resolution_cap_scale": 0.2972972972972973,
+        "resolution_capped_size": [
+          431,
+          323
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          396,
+          285
+        ],
+        "native_subject_size_evidence": {
+          "method": "Individually inspected native visible subject bounds, excluding input-region whitespace and neighbours.",
+          "preview_subject_bounds": [
+            158,
+            1000,
+            376,
+            1157
+          ],
+          "preview_size": [
+            1400,
+            1313
+          ],
+          "original_size": [
+            2540,
+            2382
+          ]
+        },
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 6
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Viewed each original ROI and final white/dark proof. Complete selected stems, faces, wings, leaves and contacts retained; paper/gold/sky and glyph-only strokes excluded. Native subject caps and exact prompts retained; AI approximation is disclosed.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/openn-margin-first-ready-results-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/openn-margin-first-ready-results-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/openn-margin-first-ready-results-proof-3.jpg"
+        ]
+      },
+      "categories": [
+        "floral",
+        "knotwork"
+      ],
+      "subjects": [
+        "leaf",
+        "knot",
+        "loop"
+      ],
+      "colors": [
+        "red",
+        "blue",
+        "gold"
+      ],
+      "facing": "unclear",
+      "composition": "single-ornament",
+      "usage_notes": "Original independent specimen with printed plate rules and page removed. AI-assisted extraction remains approximate; source bounds, actual native subject cap, original and exact prompt retained.",
+      "sets": [
+        {
+          "id": "openn-lewis-e-m-013-005-set",
+          "name": "Border detail fragment (openn-lewis-e-m-013-005)",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A red and blue knotted leaf flourish tied around the original letter junction.",
+      "set_label": "Border detail fragment (openn-lewis-e-m-013-005)"
+    },
+    {
+      "id": "openn-lewis-e-m-013-005--upper-right-red-lobed-leaf-terminal",
+      "name": "upper-right-red-lobed-leaf-terminal",
+      "source_id": "openn-lewis-e-m-013-005",
+      "source_folder": "openn-free-library",
+      "asset_type": "decoration",
+      "description": "A long red lobed leaf terminal with fine dark curled tips. Part of the Border detail fragment (openn-lewis-e-m-013-005) set.",
+      "source_region": [
+        1539,
+        252,
+        1840,
+        764
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        14,
+        1,
+        288,
+        480
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 274,
+      "height": 479,
+      "png": "openn-free-library/openn-lewis-e-m-013-005--upper-right-red-lobed-leaf-terminal.png",
+      "png_sha256": "1c9e767e1fddfd7900e199f82e4b26dd80baf48ded3fc5d955ae4ab26f594970",
+      "provenance": {
+        "institution": "Free Library of Philadelphia, John Frederick Lewis Collection",
+        "title": "Border detail fragment",
+        "object_identifier": "Lewis E M 13:5 Border detail fragment",
+        "date": "(Unknown, 1400-1499)",
+        "record_url": "https://openn.library.upenn.edu/Data/0023/html/lewis_e_m_013_005.html",
+        "image_rights": "Public Domain Mark 1.0; item record explicitly places images in public domain",
+        "rights_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "source_file": "tmp/new-assets/openn-free-library/openn-lewis-e-m-013-005--border-detail-fragment--master.tif",
+        "source_sha256": "9a42b3b031829275e1ad6c43d8e46848cc6fd9bb9308690f6dc33e4af77d6ba6",
+        "source_metadata": "tmp/new-assets/openn-free-library/openn-lewis-e-m-013-005.json",
+        "image_url": "https://openn.library.upenn.edu/Data/0023/lewis_e_m_013_005/data/master/7555_0000.tif",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. Isolate ONLY the tall red lobed leaf terminal at the upper right, including the fine black upper tip and short right curl. Exclude the letter post below its base and the blue horizontal bar to the left. End at the actual original leaf attachment; do not fabricate hidden stems. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_extraction": "tmp/extraction-work/openn-lewis-e-m-013-005--upper-right-red-lobed-leaf-terminal--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "4e952b6c1dd0bb0bef9604be6eeed0603ebacb65d20b5704c2f52727e18c8ea6",
+        "retained_generated_size": [
+          962,
+          1635
+        ],
+        "resolution_cap_scale": 0.29928894634776987,
+        "resolution_capped_size": [
+          288,
+          489
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          259,
+          463
+        ],
+        "native_subject_size_evidence": {
+          "method": "Individually inspected native visible subject bounds, excluding input-region whitespace and neighbours.",
+          "preview_subject_bounds": [
+            861,
+            153,
+            1004,
+            408
+          ],
+          "preview_size": [
+            1400,
+            1313
+          ],
+          "original_size": [
+            2540,
+            2382
+          ]
+        },
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 30
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Viewed each original ROI and final white/dark proof. Complete selected stems, faces, wings, leaves and contacts retained; paper/gold/sky and glyph-only strokes excluded. Native subject caps and exact prompts retained; AI approximation is disclosed.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/openn-margin-first-ready-results-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/openn-margin-first-ready-results-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/openn-margin-first-ready-results-proof-3.jpg"
+        ]
+      },
+      "categories": [
+        "floral"
+      ],
+      "subjects": [
+        "leaf",
+        "terminal"
+      ],
+      "colors": [
+        "red",
+        "pink",
+        "black"
+      ],
+      "facing": "unclear",
+      "composition": "single-ornament",
+      "usage_notes": "Original independent specimen with printed plate rules and page removed. AI-assisted extraction remains approximate; source bounds, actual native subject cap, original and exact prompt retained.",
+      "sets": [
+        {
+          "id": "openn-lewis-e-m-013-005-set",
+          "name": "Border detail fragment (openn-lewis-e-m-013-005)",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A long red lobed leaf terminal with fine dark curled tips.",
+      "set_label": "Border detail fragment (openn-lewis-e-m-013-005)"
+    },
+    {
+      "id": "openn-lewis-e-m-013-005--upper-two-flower-black-twig-with-gold-berry",
+      "name": "upper-two-flower-black-twig-with-gold-berry",
+      "source_id": "openn-lewis-e-m-013-005",
+      "source_folder": "openn-free-library",
+      "asset_type": "decoration",
+      "description": "Two pink and green scalloped flowers and one gold berry on a fine black flowering twig. Part of the Border detail fragment (openn-lewis-e-m-013-005) set.",
+      "source_region": [
+        740,
+        40,
+        1421,
+        655
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        10,
+        18,
+        665,
+        599
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 655,
+      "height": 581,
+      "png": "openn-free-library/openn-lewis-e-m-013-005--upper-two-flower-black-twig-with-gold-berry.png",
+      "png_sha256": "6124ae80c2812f76adddd35afd250415c3455b5c21c3c2103dd4d9c4f8d517cc",
+      "provenance": {
+        "institution": "Free Library of Philadelphia, John Frederick Lewis Collection",
+        "title": "Border detail fragment",
+        "object_identifier": "Lewis E M 13:5 Border detail fragment",
+        "date": "(Unknown, 1400-1499)",
+        "record_url": "https://openn.library.upenn.edu/Data/0023/html/lewis_e_m_013_005.html",
+        "image_rights": "Public Domain Mark 1.0; item record explicitly places images in public domain",
+        "rights_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "source_file": "tmp/new-assets/openn-free-library/openn-lewis-e-m-013-005--border-detail-fragment--master.tif",
+        "source_sha256": "9a42b3b031829275e1ad6c43d8e46848cc6fd9bb9308690f6dc33e4af77d6ba6",
+        "source_metadata": "tmp/new-assets/openn-free-library/openn-lewis-e-m-013-005.json",
+        "image_url": "https://openn.library.upenn.edu/Data/0023/lewis_e_m_013_005/data/master/7555_0000.tif",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. Isolate ONLY the thin black twig ABOVE the horizontal decorated letter bar: both complete opposed scalloped pink flowers with green bases, all delicate black curl tips, and the small oval gold berry at the upper center. EXCLUDE the entire horizontal blue/gold letter bar at the bottom, the blue fan leaf at left and the red leaf terminal at right. Keep the original black stem ending at its original junction with the letter. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_extraction": "tmp/extraction-work/openn-lewis-e-m-013-005--upper-two-flower-black-twig-with-gold-berry--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "afd2b8a05aa00e97e542ad3b9dea6e69badc6f3de1b6b5e7dbc739f228398aad",
+        "retained_generated_size": [
+          1320,
+          1191
+        ],
+        "resolution_cap_scale": 0.5116092874299439,
+        "resolution_capped_size": [
+          675,
+          609
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          639,
+          568
+        ],
+        "native_subject_size_evidence": {
+          "method": "Individually inspected native visible subject bounds, excluding input-region whitespace and neighbours.",
+          "preview_subject_bounds": [
+            418,
+            35,
+            770,
+            348
+          ],
+          "preview_size": [
+            1400,
+            1313
+          ],
+          "original_size": [
+            2540,
+            2382
+          ]
+        },
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 2968
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Viewed each original ROI and final white/dark proof. Complete selected stems, faces, wings, leaves and contacts retained; paper/gold/sky and glyph-only strokes excluded. Native subject caps and exact prompts retained; AI approximation is disclosed.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/openn-margin-first-ready-results-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/openn-margin-first-ready-results-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/openn-margin-first-ready-results-proof-3.jpg"
+        ]
+      },
+      "categories": [
+        "floral"
+      ],
+      "subjects": [
+        "flower",
+        "twig",
+        "berry"
+      ],
+      "colors": [
+        "pink",
+        "green",
+        "gold",
+        "black"
+      ],
+      "facing": "unclear",
+      "composition": "single-ornament",
+      "usage_notes": "Original independent specimen with printed plate rules and page removed. AI-assisted extraction remains approximate; source bounds, actual native subject cap, original and exact prompt retained.",
+      "sets": [
+        {
+          "id": "openn-lewis-e-m-013-005-set",
+          "name": "Border detail fragment (openn-lewis-e-m-013-005)",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "Two pink and green scalloped flowers and one gold berry on a fine black flowering twig.",
+      "set_label": "Border detail fragment (openn-lewis-e-m-013-005)"
+    }
+  ]
+}

@@ -1,0 +1,308 @@
+{
+  "source_id": "walters-w82-75v",
+  "assets": [
+    {
+      "id": "walters-w82-75v--crowned-seated-bell-ringer-with-bell-set-and-hammers",
+      "name": "crowned-seated-bell-ringer-with-bell-set-and-hammers",
+      "source_id": "walters-w82-75v",
+      "source_folder": "walters",
+      "asset_type": "illustration",
+      "description": "A crowned seated figure plays the original hanging bell set with two long hammers. Part of the Walters W.82 Marginalia set.",
+      "source_region": [
+        3121,
+        3724,
+        5004,
+        5363
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        303,
+        68,
+        1574,
+        1538
+      ],
+      "export_crop_coordinate_space": "original-native-source-region",
+      "width": 1271,
+      "height": 1470,
+      "png": "walters/walters-w82-75v--crowned-seated-bell-ringer-with-bell-set-and-hammers.png",
+      "png_sha256": "91bc2ac2c15e68b4e8a2dc5dccd95f6ae791e8511fc758fb3dfebe3ce60258ff",
+      "provenance": {
+        "institution": "Walters Art Museum",
+        "title": "Initial \"E\" with David ringing bells; apes trapping birds in margin",
+        "object_identifier": "W.82, fol. 75v",
+        "date": "Ca. 1315-1325 CE",
+        "record_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/html/W82/description.html",
+        "image_rights": "CC0 (Digital Walters manuscript images)",
+        "rights_url": "https://www.thedigitalwalters.org/01_ACCESS_WALTERS_MANUSCRIPTS.html",
+        "source_file": "tmp/new-assets/walters/walters-w82-75v--initial-e-with-david-ringing-bells-apes-trapping-birds-in-margin--master.tif",
+        "source_sha256": "2fe7210327e07ad0f7b900d689dfe1853ea0be277e903ed223f8fa07b3b586f1",
+        "source_metadata": "tmp/new-assets/walters/walters-w82-75v.json",
+        "image_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/W82/data/W.82/master/W82_000154_1200.tif",
+        "method": "native-source-continuous-edge-matting"
+      },
+      "extraction": {
+        "candidate_png": "tmp/extraction-work/continuation-20261010/walters-w82-75v--crowned-seated-bell-ringer-with-bell-set-and-hammers--registered-native-candidate.png",
+        "native_export_crop": [
+          303,
+          68,
+          1574,
+          1538
+        ],
+        "export_crop_coordinate_space": "original-native-source-region",
+        "annotation_json": "tmp/extraction-work/continuation-20261010/walters-w82-75v--crowned-seated-bell-ringer-with-bell-set-and-hammers--registered-native-annotation.json",
+        "trimap_png": "tmp/extraction-work/continuation-20261010/walters-w82-75v--crowned-seated-bell-ringer-with-bell-set-and-hammers--registered-native-trimap.png",
+        "native_source_size": [
+          1883,
+          1639
+        ],
+        "native_upscaling": false,
+        "source_pixels_redrawn": false,
+        "original_opaque_rgb_preserved": true,
+        "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+        "alpha_guide": {
+          "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+          "guide_png": "tmp/extraction-work/continuation-20261010/walters-w82-75v--crowned-seated-bell-ringer-with-bell-set-and-hammers--native-alpha-reference.png",
+          "guide_sha256": "354ed397efc5a5fc8b7b4cf76349d85a1bb90061209769a8e6ecbf5ae6c55e95",
+          "native_original": "tmp/extraction-work/continuation-20261010/walters-w82-75v--crowned-seated-bell-ringer-with-bell-set-and-hammers--original.png",
+          "similarity_ai_alpha_to_original": [
+            [
+              1.2744062427070217,
+              0.0034188045328434388,
+              80.59015439430162
+            ],
+            [
+              -0.0034188045328434388,
+              1.2744062427070217,
+              61.21957629291159
+            ]
+          ],
+          "matching_feature_pairs": 365,
+          "inlier_feature_pairs": 191,
+          "inlier_rms_native_pixels": 2.449422107966914,
+          "source_inspection_factor": 0.9559214020180563,
+          "unknown_edge_band_native_pixels": 3,
+          "edge_solve_tile_size": 640,
+          "edge_solve_halo": 32,
+          "edge_solve_tiles": 9,
+          "original_opaque_rgb_preserved": true
+        },
+        "status": "awaiting-original-white-dark-review",
+        "tool": "Original native scan / closed-form edge alpha and foreground decontamination",
+        "pixel_exact": false,
+        "ownership_guide_prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. Keep the COMPLETE original crowned seated bell ringer, both original hands, both long green hammers with their proper heads, ALL the original blue hanging bells above/right of the figure, and the original supporting bench. This is one original interacting musician/instrument group. Preserve every source-visible bell suspension and hammer end; clear the true gaps between bells, hammers and body. Remove all red/brown/blue/gold letter G strokes and every part of the flat gold letter field; do not invent an instrument frame where the source attaches to the capital, extend suspension rods, add bells, or repaint hidden anatomy. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_ownership_guide": {
+          "file": "tmp/extraction-work/walters-w82-75v--crowned-seated-bell-ringer-with-bell-set-and-hammers--retained-ai-extraction.png",
+          "sha256": "354ed397efc5a5fc8b7b4cf76349d85a1bb90061209769a8e6ecbf5ae6c55e95",
+          "purpose": "Retained AI alpha guide only; delivered opaque RGB belongs to the unchanged native source."
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Viewed full original pages, the actual native original ROIs and aligned current native source/white/dark proofs. Every original visible hand, face, robe fold, prop and pale/gold/blue/green painted surface retained. True openings and unrelated glyph/flat field cleared. Original native RGB and proportions retained; registered AI alpha is ownership evidence only, never replacement texture. Bell group preserves the actual source suspension, four blue bells, both hammers and bench. Reclining figure retains source-visible forehead up to the actual manuscript edge, source orb-like object and patterned rectangular object; missing top of head is not invented. Bust retains complete original orb/cross, halo and visible upper body only.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/walters-six-initial-native-review-current-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/walters-six-initial-native-review-current-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/original-figure-contact-and-bell-suspension-details.jpg"
+        ]
+      },
+      "categories": [
+        "humans",
+        "music"
+      ],
+      "subjects": [
+        "figure",
+        "king",
+        "crown",
+        "bell",
+        "hammer",
+        "bench",
+        "robe"
+      ],
+      "colors": [
+        "blue",
+        "green",
+        "gold",
+        "red",
+        "cream",
+        "brown"
+      ],
+      "facing": "unclear",
+      "composition": "standalone",
+      "usage_notes": "Original native source pixels retained; only alpha ownership uses the retained AI-assisted extraction. No native enlargement, invented anatomy or source redraw. Page exterior, gold letter field and actual capital glyph excluded. Preserve all source-visible props and pale/colored surfaces. Source-existing occlusion or truncation is retained without hidden reconstruction. The actual original orange bell suspension, all four original blue bells, both hammers and source bench remain with the musician; original paint and worn gilding retained.",
+      "sets": [
+        {
+          "id": "walters-w82-marginalia",
+          "name": "Walters W.82 Marginalia",
+          "relation": "same manuscript; each page retains its source identity"
+        },
+        {
+          "id": "walters-w82-75v-set",
+          "name": "Initial \"E\" with David ringing bells; apes trapping birds in margin (walters-w82-75v)",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A crowned seated figure plays the original hanging bell set with two long hammers.",
+      "set_label": "Walters W.82 Marginalia"
+    },
+    {
+      "id": "walters-w82-75v--reclining-green-robed-figure-with-patterned-object",
+      "name": "reclining-green-robed-figure-with-patterned-object",
+      "source_id": "walters-w82-75v",
+      "source_folder": "walters",
+      "asset_type": "illustration",
+      "description": "A reclining green-robed figure holds a patterned rectangular object. Part of the Walters W.82 Marginalia set.",
+      "source_region": [
+        3286,
+        224,
+        4993,
+        992
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        43,
+        112,
+        1705,
+        693
+      ],
+      "export_crop_coordinate_space": "original-native-source-region",
+      "width": 1662,
+      "height": 581,
+      "png": "walters/walters-w82-75v--reclining-green-robed-figure-with-patterned-object.png",
+      "png_sha256": "c8d487c1ae378dfc0b33595d6447355de2b3d1bdc7fb7b05557009edf3856dfc",
+      "provenance": {
+        "institution": "Walters Art Museum",
+        "title": "Initial \"E\" with David ringing bells; apes trapping birds in margin",
+        "object_identifier": "W.82, fol. 75v",
+        "date": "Ca. 1315-1325 CE",
+        "record_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/html/W82/description.html",
+        "image_rights": "CC0 (Digital Walters manuscript images)",
+        "rights_url": "https://www.thedigitalwalters.org/01_ACCESS_WALTERS_MANUSCRIPTS.html",
+        "source_file": "tmp/new-assets/walters/walters-w82-75v--initial-e-with-david-ringing-bells-apes-trapping-birds-in-margin--master.tif",
+        "source_sha256": "2fe7210327e07ad0f7b900d689dfe1853ea0be277e903ed223f8fa07b3b586f1",
+        "source_metadata": "tmp/new-assets/walters/walters-w82-75v.json",
+        "image_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/W82/data/W.82/master/W82_000154_1200.tif",
+        "method": "native-source-continuous-edge-matting"
+      },
+      "extraction": {
+        "candidate_png": "tmp/extraction-work/continuation-20261010/walters-w82-75v--reclining-green-robed-figure-with-patterned-object--registered-native-candidate.png",
+        "native_export_crop": [
+          43,
+          112,
+          1705,
+          693
+        ],
+        "export_crop_coordinate_space": "original-native-source-region",
+        "annotation_json": "tmp/extraction-work/continuation-20261010/walters-w82-75v--reclining-green-robed-figure-with-patterned-object--registered-native-annotation.json",
+        "trimap_png": "tmp/extraction-work/continuation-20261010/walters-w82-75v--reclining-green-robed-figure-with-patterned-object--registered-native-trimap.png",
+        "native_source_size": [
+          1707,
+          768
+        ],
+        "native_upscaling": false,
+        "source_pixels_redrawn": false,
+        "original_opaque_rgb_preserved": true,
+        "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+        "alpha_guide": {
+          "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+          "guide_png": "tmp/extraction-work/continuation-20261010/walters-w82-75v--reclining-green-robed-figure-with-patterned-object--native-alpha-reference.png",
+          "guide_sha256": "863a7d0df9ec439230b015c08e059fe6cb537ba417cea074154eaa2015ee3262",
+          "native_original": "tmp/extraction-work/continuation-20261010/walters-w82-75v--reclining-green-robed-figure-with-patterned-object--original.png",
+          "similarity_ai_alpha_to_original": [
+            [
+              0.9132378827072074,
+              0.004430118454281492,
+              -1.658941598689837
+            ],
+            [
+              -0.004430118454281492,
+              0.9132378827072074,
+              -0.4396268011456166
+            ]
+          ],
+          "matching_feature_pairs": 436,
+          "inlier_feature_pairs": 296,
+          "inlier_rms_native_pixels": 1.6064243264219549,
+          "source_inspection_factor": 1,
+          "unknown_edge_band_native_pixels": 3,
+          "edge_solve_tile_size": 640,
+          "edge_solve_halo": 32,
+          "edge_solve_tiles": 6,
+          "original_opaque_rgb_preserved": true
+        },
+        "status": "awaiting-original-white-dark-review",
+        "tool": "Original native scan / closed-form edge alpha and foreground decontamination",
+        "pixel_exact": false,
+        "ownership_guide_prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. Keep ONLY the complete reclining green-robed figure at the top of the page and the complete patterned rectangular object held against it. Preserve the source head, both visible hands, all cloak folds and the complete tapering fabric/feet at right. Remove the long blue/gold manuscript border, its leaf terminals and the page background; no new legs, book pages, wings or replacement tail. The exact object identity is uncertain; preserve its actual lattice pattern rather than modernizing it into a book. The upper head meets the original page boundary: retain all source-visible forehead and hair but do not reconstruct missing hair above that actual source edge. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_ownership_guide": {
+          "file": "tmp/extraction-work/walters-w82-75v--reclining-green-robed-figure-with-patterned-object--retained-ai-extraction.png",
+          "sha256": "863a7d0df9ec439230b015c08e059fe6cb537ba417cea074154eaa2015ee3262",
+          "purpose": "Retained AI alpha guide only; delivered opaque RGB belongs to the unchanged native source."
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Viewed full original pages, the actual native original ROIs and aligned current native source/white/dark proofs. Every original visible hand, face, robe fold, prop and pale/gold/blue/green painted surface retained. True openings and unrelated glyph/flat field cleared. Original native RGB and proportions retained; registered AI alpha is ownership evidence only, never replacement texture. Bell group preserves the actual source suspension, four blue bells, both hammers and bench. Reclining figure retains source-visible forehead up to the actual manuscript edge, source orb-like object and patterned rectangular object; missing top of head is not invented. Bust retains complete original orb/cross, halo and visible upper body only.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/walters-six-initial-native-review-current-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/walters-six-initial-native-review-current-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/original-figure-contact-and-bell-suspension-details.jpg"
+        ]
+      },
+      "categories": [
+        "humans"
+      ],
+      "subjects": [
+        "figure",
+        "robe",
+        "object",
+        "rectangle",
+        "orb"
+      ],
+      "colors": [
+        "green",
+        "cream",
+        "brown",
+        "gold"
+      ],
+      "facing": "unclear",
+      "composition": "standalone",
+      "usage_notes": "Original native source pixels retained; only alpha ownership uses the retained AI-assisted extraction. No native enlargement, invented anatomy or source redraw. Page exterior, gold letter field and actual capital glyph excluded. Preserve all source-visible props and pale/colored surfaces. Source-existing occlusion or truncation is retained without hidden reconstruction. The head is cropped at the original page boundary; all originally visible forehead is retained. The held rectangular object identity remains uncertain, and the source orb-like object is retained.",
+      "sets": [
+        {
+          "id": "walters-w82-marginalia",
+          "name": "Walters W.82 Marginalia",
+          "relation": "same manuscript; each page retains its source identity"
+        },
+        {
+          "id": "walters-w82-75v-set",
+          "name": "Initial \"E\" with David ringing bells; apes trapping birds in margin (walters-w82-75v)",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A reclining green-robed figure holds a patterned rectangular object.",
+      "set_label": "Walters W.82 Marginalia"
+    }
+  ]
+}

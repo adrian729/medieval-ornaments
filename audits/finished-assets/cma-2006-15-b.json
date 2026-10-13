@@ -1,0 +1,1270 @@
+{
+  "source_id": "cma-2006-15-b",
+  "assets": [
+    {
+      "id": "cma-2006-15-b--brown-fan-flower-with-curled-green-leaf-branch",
+      "name": "brown-fan-flower-with-curled-green-leaf-branch",
+      "source_id": "cma-2006-15-b",
+      "source_folder": "cleveland",
+      "asset_type": "illustration",
+      "description": "Brown fan-shaped flower with green leaves and a smaller red bud on a curling branch. Part of the Cleveland 1524 Psalter and Prayerbook set.",
+      "source_region": [
+        317,
+        249,
+        1812,
+        4087
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        9,
+        10,
+        777,
+        2004
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 768,
+      "height": 1994,
+      "png": "cleveland/cma-2006-15-b--brown-fan-flower-with-curled-green-leaf-branch.png",
+      "png_sha256": "3d78c02a48911918c4e4300c4a8ffd3fe42d491b7d7b198c1352387a6487718f",
+      "provenance": {
+        "institution": "Cleveland Museum of Art",
+        "title": "Leaf from a Psalter and Prayerbook: Ornamental Border with Flowers and Squirrel (verso)",
+        "object_identifier": "2006.15.b",
+        "date": "c. 1524",
+        "record_url": "https://clevelandart.org/art/2006.15.b",
+        "image_rights": "CC0; share_license_status=CC0",
+        "rights_url": "https://www.clevelandart.org/open-access",
+        "source_file": "tmp/new-assets/cleveland/cma-2006-15-b--leaf-from-a-psalter-and-prayerbook-ornamental-border-with-flowers-and-squirrel-verso--master.tif",
+        "source_sha256": "92e50400b0f1ab17eeaa4d72a095f87eab67c55d5bf234e0018fd3087c100d75",
+        "source_metadata": "tmp/new-assets/cleveland/cma-2006-15-b.json",
+        "image_url": "https://openaccess-cdn.clevelandart.org/2006.15.b/2006.15.b_full.tif",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. Extract ONLY entire upper-left branch, brown fan flower, green sepals, all original green leaves and curling attached red bud near lower-middle. Preserve all curved thin stems and genuine loop openings. No separate pale yellow flower below. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_extraction": "tmp/extraction-work/cma-2006-15-b--brown-fan-flower-with-curled-green-leaf-branch--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "ea9da8608826bab594c05bb47f9c60c13b364a52963ab6c2b5ef1fd30b0d5470",
+        "retained_generated_size": [
+          782,
+          2010
+        ],
+        "resolution_cap_scale": 1,
+        "resolution_capped_size": [
+          782,
+          2010
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          1340,
+          3690
+        ],
+        "native_subject_size_evidence": {
+          "method": "Individually inspected native visible subject bounds, excluding input-region whitespace and neighbours.",
+          "preview_subject_bounds": [
+            58,
+            50,
+            257,
+            598
+          ],
+          "preview_size": [
+            1339,
+            1600
+          ],
+          "original_size": [
+            9018,
+            10773
+          ]
+        },
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 17249
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Individually compared every source and white/dark extraction. All flowers/leaves/stems are separate original specimens; connected leaf scrolls remain whole. Original leaf and petal counts, stem tips, pale opaque petals, genuine curl openings and worn paint checked. Peasant retains entire woven basket, staff, fingers, both shoes and small intrinsic turf. Squirrel retains all tail hairs/ear tips/paws and small turf. Blue-clad man retains complete visible hands and feet with no letter stalk. AI texture/contours remain approximate and are audited.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/cleveland-calendar-flower-results-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/cleveland-calendar-flower-results-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/cleveland-calendar-flower-results-proof-3.jpg",
+          "tmp/extraction-work/continuation-20261010/cleveland-calendar-flower-results-proof-4.jpg",
+          "tmp/extraction-work/continuation-20261010/cleveland-calendar-flower-results-proof-5.jpg",
+          "tmp/extraction-work/continuation-20261010/cleveland-calendar-flower-results-proof-6.jpg",
+          "tmp/extraction-work/continuation-20261010/cleveland-calendar-flower-results-proof-7.jpg"
+        ]
+      },
+      "categories": [
+        "botanical",
+        "floral"
+      ],
+      "subjects": [
+        "flower",
+        "leaf",
+        "stem"
+      ],
+      "colors": [
+        "brown",
+        "green",
+        "red"
+      ],
+      "facing": "unclear",
+      "composition": "standalone",
+      "usage_notes": "Original independent specimen with printed plate rules and page removed. AI-assisted extraction remains approximate; source bounds, actual native subject cap, original and exact prompt retained.",
+      "sets": [
+        {
+          "id": "cleveland-1524-psalter-prayerbook",
+          "name": "Cleveland 1524 Psalter and Prayerbook",
+          "relation": "related Cleveland leaves with matching source title, date and painted style; individual source identities retained"
+        },
+        {
+          "id": "cma-2006-15-b-set",
+          "name": "Leaf from a Psalter and Prayerbook: Ornamental Border with Flowers and Squirrel (verso) (cma-2006-15-b)",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "Brown fan-shaped flower with green leaves and a smaller red bud on a curling branch.",
+      "set_label": "Cleveland 1524 Psalter and Prayerbook"
+    },
+    {
+      "id": "cma-2006-15-b--horizontal-brown-flower-with-long-green-leaves",
+      "name": "horizontal-brown-flower-with-long-green-leaves",
+      "source_id": "cma-2006-15-b",
+      "source_folder": "cleveland",
+      "asset_type": "illustration",
+      "description": "Brown flared flower on a long horizontal green stem with three flowing leaves. Part of the Cleveland 1524 Psalter and Prayerbook set.",
+      "source_region": [
+        1980,
+        148,
+        7604,
+        774
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        20,
+        236,
+        2153,
+        489
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 2133,
+      "height": 253,
+      "png": "cleveland/cma-2006-15-b--horizontal-brown-flower-with-long-green-leaves.png",
+      "png_sha256": "70108dfff4011ea8328bce2203881255f74e7adea173cd89aa343cff4d9f5872",
+      "provenance": {
+        "institution": "Cleveland Museum of Art",
+        "title": "Leaf from a Psalter and Prayerbook: Ornamental Border with Flowers and Squirrel (verso)",
+        "object_identifier": "2006.15.b",
+        "date": "c. 1524",
+        "record_url": "https://clevelandart.org/art/2006.15.b",
+        "image_rights": "CC0; share_license_status=CC0",
+        "rights_url": "https://www.clevelandart.org/open-access",
+        "source_file": "tmp/new-assets/cleveland/cma-2006-15-b--leaf-from-a-psalter-and-prayerbook-ornamental-border-with-flowers-and-squirrel-verso--master.tif",
+        "source_sha256": "92e50400b0f1ab17eeaa4d72a095f87eab67c55d5bf234e0018fd3087c100d75",
+        "source_metadata": "tmp/new-assets/cleveland/cma-2006-15-b.json",
+        "image_url": "https://openaccess-cdn.clevelandart.org/2006.15.b/2006.15.b_full.tif",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. Extract ONLY complete top horizontal brown flared flower, green curled sepals, long thin original stalk and all three overlapping long green leaves. No detached upper-right flower. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_extraction": "tmp/extraction-work/cma-2006-15-b--horizontal-brown-flower-with-long-green-leaves--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "37c9a6e08a6fed5029975ecf518778aeb8ba51b744fccea59c8ee6ade24ba5d9",
+        "retained_generated_size": [
+          2172,
+          724
+        ],
+        "resolution_cap_scale": 1,
+        "resolution_capped_size": [
+          2172,
+          724
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          5496,
+          505
+        ],
+        "native_subject_size_evidence": {
+          "method": "Individually inspected native visible subject bounds, excluding input-region whitespace and neighbours.",
+          "preview_subject_bounds": [
+            304,
+            31,
+            1120,
+            106
+          ],
+          "preview_size": [
+            1339,
+            1600
+          ],
+          "original_size": [
+            9018,
+            10773
+          ]
+        },
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 13327
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Individually compared every source and white/dark extraction. All flowers/leaves/stems are separate original specimens; connected leaf scrolls remain whole. Original leaf and petal counts, stem tips, pale opaque petals, genuine curl openings and worn paint checked. Peasant retains entire woven basket, staff, fingers, both shoes and small intrinsic turf. Squirrel retains all tail hairs/ear tips/paws and small turf. Blue-clad man retains complete visible hands and feet with no letter stalk. AI texture/contours remain approximate and are audited.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/cleveland-calendar-flower-results-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/cleveland-calendar-flower-results-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/cleveland-calendar-flower-results-proof-3.jpg",
+          "tmp/extraction-work/continuation-20261010/cleveland-calendar-flower-results-proof-4.jpg",
+          "tmp/extraction-work/continuation-20261010/cleveland-calendar-flower-results-proof-5.jpg",
+          "tmp/extraction-work/continuation-20261010/cleveland-calendar-flower-results-proof-6.jpg",
+          "tmp/extraction-work/continuation-20261010/cleveland-calendar-flower-results-proof-7.jpg"
+        ]
+      },
+      "categories": [
+        "botanical",
+        "floral"
+      ],
+      "subjects": [
+        "flower",
+        "leaf",
+        "stem"
+      ],
+      "colors": [
+        "brown",
+        "green"
+      ],
+      "facing": "unclear",
+      "composition": "standalone",
+      "usage_notes": "Original independent specimen with printed plate rules and page removed. AI-assisted extraction remains approximate; source bounds, actual native subject cap, original and exact prompt retained.",
+      "sets": [
+        {
+          "id": "cleveland-1524-psalter-prayerbook",
+          "name": "Cleveland 1524 Psalter and Prayerbook",
+          "relation": "related Cleveland leaves with matching source title, date and painted style; individual source identities retained"
+        },
+        {
+          "id": "cma-2006-15-b-set",
+          "name": "Leaf from a Psalter and Prayerbook: Ornamental Border with Flowers and Squirrel (verso) (cma-2006-15-b)",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "Brown flared flower on a long horizontal green stem with three flowing leaves.",
+      "set_label": "Cleveland 1524 Psalter and Prayerbook"
+    },
+    {
+      "id": "cma-2006-15-b--pale-yellow-daisy-on-lobed-green-leaf-scroll",
+      "name": "pale-yellow-daisy-on-lobed-green-leaf-scroll",
+      "source_id": "cma-2006-15-b",
+      "source_folder": "cleveland",
+      "asset_type": "illustration",
+      "description": "Pale yellow daisy with red center on a green leaf scroll. Part of the Cleveland 1524 Psalter and Prayerbook set.",
+      "source_region": [
+        1623,
+        7952,
+        5098,
+        9669
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        15,
+        34,
+        1771,
+        875
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 1756,
+      "height": 841,
+      "png": "cleveland/cma-2006-15-b--pale-yellow-daisy-on-lobed-green-leaf-scroll.png",
+      "png_sha256": "0da835636c646713779c64c9d4cc772d74cecdf1c9a6d9bbc91beeb15aeee97d",
+      "provenance": {
+        "institution": "Cleveland Museum of Art",
+        "title": "Leaf from a Psalter and Prayerbook: Ornamental Border with Flowers and Squirrel (verso)",
+        "object_identifier": "2006.15.b",
+        "date": "c. 1524",
+        "record_url": "https://clevelandart.org/art/2006.15.b",
+        "image_rights": "CC0; share_license_status=CC0",
+        "rights_url": "https://www.clevelandart.org/open-access",
+        "source_file": "tmp/new-assets/cleveland/cma-2006-15-b--leaf-from-a-psalter-and-prayerbook-ornamental-border-with-flowers-and-squirrel-verso--master.tif",
+        "source_sha256": "92e50400b0f1ab17eeaa4d72a095f87eab67c55d5bf234e0018fd3087c100d75",
+        "source_metadata": "tmp/new-assets/cleveland/cma-2006-15-b.json",
+        "image_url": "https://openaccess-cdn.clevelandart.org/2006.15.b/2006.15.b_full.tif",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. Extract ONLY bottom-left pale yellow daisy with red spotted oval center, long green curving stem and all connected lobed green leaves. Leave pale petals opaque, all gaps clear. No squirrel or independent red flower. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_extraction": "tmp/extraction-work/cma-2006-15-b--pale-yellow-daisy-on-lobed-green-leaf-scroll--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "da6a0892b1758083be0f9ca8bda581b153ec34ea38de24028710e492f596d899",
+        "retained_generated_size": [
+          1784,
+          882
+        ],
+        "resolution_cap_scale": 1,
+        "resolution_capped_size": [
+          1784,
+          882
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          3340,
+          1576
+        ],
+        "native_subject_size_evidence": {
+          "method": "Individually inspected native visible subject bounds, excluding input-region whitespace and neighbours.",
+          "preview_subject_bounds": [
+            252,
+            1193,
+            748,
+            1427
+          ],
+          "preview_size": [
+            1339,
+            1600
+          ],
+          "original_size": [
+            9018,
+            10773
+          ]
+        },
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 12639
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Individually compared every source and white/dark extraction. All flowers/leaves/stems are separate original specimens; connected leaf scrolls remain whole. Original leaf and petal counts, stem tips, pale opaque petals, genuine curl openings and worn paint checked. Peasant retains entire woven basket, staff, fingers, both shoes and small intrinsic turf. Squirrel retains all tail hairs/ear tips/paws and small turf. Blue-clad man retains complete visible hands and feet with no letter stalk. AI texture/contours remain approximate and are audited.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/cleveland-calendar-flower-results-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/cleveland-calendar-flower-results-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/cleveland-calendar-flower-results-proof-3.jpg",
+          "tmp/extraction-work/continuation-20261010/cleveland-calendar-flower-results-proof-4.jpg",
+          "tmp/extraction-work/continuation-20261010/cleveland-calendar-flower-results-proof-5.jpg",
+          "tmp/extraction-work/continuation-20261010/cleveland-calendar-flower-results-proof-6.jpg",
+          "tmp/extraction-work/continuation-20261010/cleveland-calendar-flower-results-proof-7.jpg"
+        ]
+      },
+      "categories": [
+        "botanical",
+        "floral"
+      ],
+      "subjects": [
+        "flower",
+        "leaf",
+        "stem"
+      ],
+      "colors": [
+        "yellow",
+        "cream",
+        "red",
+        "green"
+      ],
+      "facing": "unclear",
+      "composition": "standalone",
+      "usage_notes": "Original independent specimen with printed plate rules and page removed. AI-assisted extraction remains approximate; source bounds, actual native subject cap, original and exact prompt retained.",
+      "sets": [
+        {
+          "id": "cleveland-1524-psalter-prayerbook",
+          "name": "Cleveland 1524 Psalter and Prayerbook",
+          "relation": "related Cleveland leaves with matching source title, date and painted style; individual source identities retained"
+        },
+        {
+          "id": "cma-2006-15-b-set",
+          "name": "Leaf from a Psalter and Prayerbook: Ornamental Border with Flowers and Squirrel (verso) (cma-2006-15-b)",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "Pale yellow daisy with red center on a green leaf scroll.",
+      "set_label": "Cleveland 1524 Psalter and Prayerbook"
+    },
+    {
+      "id": "cma-2006-15-b--pale-yellow-flower-with-long-green-leaf-stem",
+      "name": "pale-yellow-flower-with-long-green-leaf-stem",
+      "source_id": "cma-2006-15-b",
+      "source_folder": "cleveland",
+      "asset_type": "illustration",
+      "description": "Pale yellow round flower with curled green center and long leafy stem. Part of the Cleveland 1524 Psalter and Prayerbook set.",
+      "source_region": [
+        317,
+        3912,
+        1812,
+        7750
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        34,
+        24,
+        782,
+        1999
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 748,
+      "height": 1975,
+      "png": "cleveland/cma-2006-15-b--pale-yellow-flower-with-long-green-leaf-stem.png",
+      "png_sha256": "05f23e049bf04a790712004e7b0f505863873bed16c206075ee9b2537127cb2a",
+      "provenance": {
+        "institution": "Cleveland Museum of Art",
+        "title": "Leaf from a Psalter and Prayerbook: Ornamental Border with Flowers and Squirrel (verso)",
+        "object_identifier": "2006.15.b",
+        "date": "c. 1524",
+        "record_url": "https://clevelandart.org/art/2006.15.b",
+        "image_rights": "CC0; share_license_status=CC0",
+        "rights_url": "https://www.clevelandart.org/open-access",
+        "source_file": "tmp/new-assets/cleveland/cma-2006-15-b--leaf-from-a-psalter-and-prayerbook-ornamental-border-with-flowers-and-squirrel-verso--master.tif",
+        "source_sha256": "92e50400b0f1ab17eeaa4d72a095f87eab67c55d5bf234e0018fd3087c100d75",
+        "source_metadata": "tmp/new-assets/cleveland/cma-2006-15-b.json",
+        "image_url": "https://openaccess-cdn.clevelandart.org/2006.15.b/2006.15.b_full.tif",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. Extract ONLY middle/lower-left pale yellow flower with its green curled center, all attached leaves and full original long curved stem ending above squirrel. Pale yellow petals opaque. No upper brown flower or squirrel. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_extraction": "tmp/extraction-work/cma-2006-15-b--pale-yellow-flower-with-long-green-leaf-stem--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "24ab13b52ac9a7ec1e0b0208a88aed93c58c5065adffd9cb3bd962e49dc6a615",
+        "retained_generated_size": [
+          782,
+          2010
+        ],
+        "resolution_cap_scale": 1,
+        "resolution_capped_size": [
+          782,
+          2010
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          1313,
+          3703
+        ],
+        "native_subject_size_evidence": {
+          "method": "Individually inspected native visible subject bounds, excluding input-region whitespace and neighbours.",
+          "preview_subject_bounds": [
+            62,
+            595,
+            257,
+            1145
+          ],
+          "preview_size": [
+            1339,
+            1600
+          ],
+          "original_size": [
+            9018,
+            10773
+          ]
+        },
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 9489
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Individually compared every source and white/dark extraction. All flowers/leaves/stems are separate original specimens; connected leaf scrolls remain whole. Original leaf and petal counts, stem tips, pale opaque petals, genuine curl openings and worn paint checked. Peasant retains entire woven basket, staff, fingers, both shoes and small intrinsic turf. Squirrel retains all tail hairs/ear tips/paws and small turf. Blue-clad man retains complete visible hands and feet with no letter stalk. AI texture/contours remain approximate and are audited.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/cleveland-calendar-flower-results-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/cleveland-calendar-flower-results-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/cleveland-calendar-flower-results-proof-3.jpg",
+          "tmp/extraction-work/continuation-20261010/cleveland-calendar-flower-results-proof-4.jpg",
+          "tmp/extraction-work/continuation-20261010/cleveland-calendar-flower-results-proof-5.jpg",
+          "tmp/extraction-work/continuation-20261010/cleveland-calendar-flower-results-proof-6.jpg",
+          "tmp/extraction-work/continuation-20261010/cleveland-calendar-flower-results-proof-7.jpg"
+        ]
+      },
+      "categories": [
+        "botanical",
+        "floral"
+      ],
+      "subjects": [
+        "flower",
+        "leaf",
+        "stem"
+      ],
+      "colors": [
+        "yellow",
+        "cream",
+        "green"
+      ],
+      "facing": "unclear",
+      "composition": "standalone",
+      "usage_notes": "Original independent specimen with printed plate rules and page removed. AI-assisted extraction remains approximate; source bounds, actual native subject cap, original and exact prompt retained.",
+      "sets": [
+        {
+          "id": "cleveland-1524-psalter-prayerbook",
+          "name": "Cleveland 1524 Psalter and Prayerbook",
+          "relation": "related Cleveland leaves with matching source title, date and painted style; individual source identities retained"
+        },
+        {
+          "id": "cma-2006-15-b-set",
+          "name": "Leaf from a Psalter and Prayerbook: Ornamental Border with Flowers and Squirrel (verso) (cma-2006-15-b)",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "Pale yellow round flower with curled green center and long leafy stem.",
+      "set_label": "Cleveland 1524 Psalter and Prayerbook"
+    },
+    {
+      "id": "cma-2006-15-b--red-scalloped-flower-on-long-green-leaves",
+      "name": "red-scalloped-flower-on-long-green-leaves",
+      "source_id": "cma-2006-15-b",
+      "source_folder": "cleveland",
+      "asset_type": "illustration",
+      "description": "Red scalloped flower with two long green leaves. Part of the Cleveland 1524 Psalter and Prayerbook set.",
+      "source_region": [
+        4546,
+        7952,
+        8035,
+        9554
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        11,
+        8,
+        1843,
+        849
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 1832,
+      "height": 841,
+      "png": "cleveland/cma-2006-15-b--red-scalloped-flower-on-long-green-leaves.png",
+      "png_sha256": "9155af319d37dbc6a35f7252c56be6795ee4f0b957f24247ce71717f54b5335d",
+      "provenance": {
+        "institution": "Cleveland Museum of Art",
+        "title": "Leaf from a Psalter and Prayerbook: Ornamental Border with Flowers and Squirrel (verso)",
+        "object_identifier": "2006.15.b",
+        "date": "c. 1524",
+        "record_url": "https://clevelandart.org/art/2006.15.b",
+        "image_rights": "CC0; share_license_status=CC0",
+        "rights_url": "https://www.clevelandart.org/open-access",
+        "source_file": "tmp/new-assets/cleveland/cma-2006-15-b--leaf-from-a-psalter-and-prayerbook-ornamental-border-with-flowers-and-squirrel-verso--master.tif",
+        "source_sha256": "92e50400b0f1ab17eeaa4d72a095f87eab67c55d5bf234e0018fd3087c100d75",
+        "source_metadata": "tmp/new-assets/cleveland/cma-2006-15-b.json",
+        "image_url": "https://openaccess-cdn.clevelandart.org/2006.15.b/2006.15.b_full.tif",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. Extract ONLY bottom-right red scalloped flower, fine source petal strokes, two long green curved leaves and their entire connecting stalk. No pale yellow flower nearby. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_extraction": "tmp/extraction-work/cma-2006-15-b--red-scalloped-flower-on-long-green-leaves--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "a5678af039fd7253915862b430adabdf4c6464910b204e1d065e6564883fd28c",
+        "retained_generated_size": [
+          1851,
+          849
+        ],
+        "resolution_cap_scale": 1,
+        "resolution_capped_size": [
+          1851,
+          849
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          3347,
+          1481
+        ],
+        "native_subject_size_evidence": {
+          "method": "Individually inspected native visible subject bounds, excluding input-region whitespace and neighbours.",
+          "preview_subject_bounds": [
+            685,
+            1191,
+            1182,
+            1411
+          ],
+          "preview_size": [
+            1339,
+            1600
+          ],
+          "original_size": [
+            9018,
+            10773
+          ]
+        },
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 12558
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Individually compared every source and white/dark extraction. All flowers/leaves/stems are separate original specimens; connected leaf scrolls remain whole. Original leaf and petal counts, stem tips, pale opaque petals, genuine curl openings and worn paint checked. Peasant retains entire woven basket, staff, fingers, both shoes and small intrinsic turf. Squirrel retains all tail hairs/ear tips/paws and small turf. Blue-clad man retains complete visible hands and feet with no letter stalk. AI texture/contours remain approximate and are audited.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/cleveland-calendar-flower-results-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/cleveland-calendar-flower-results-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/cleveland-calendar-flower-results-proof-3.jpg",
+          "tmp/extraction-work/continuation-20261010/cleveland-calendar-flower-results-proof-4.jpg",
+          "tmp/extraction-work/continuation-20261010/cleveland-calendar-flower-results-proof-5.jpg",
+          "tmp/extraction-work/continuation-20261010/cleveland-calendar-flower-results-proof-6.jpg",
+          "tmp/extraction-work/continuation-20261010/cleveland-calendar-flower-results-proof-7.jpg"
+        ]
+      },
+      "categories": [
+        "botanical",
+        "floral"
+      ],
+      "subjects": [
+        "flower",
+        "leaf",
+        "stem"
+      ],
+      "colors": [
+        "red",
+        "green",
+        "black"
+      ],
+      "facing": "unclear",
+      "composition": "standalone",
+      "usage_notes": "Original independent specimen with printed plate rules and page removed. AI-assisted extraction remains approximate; source bounds, actual native subject cap, original and exact prompt retained.",
+      "sets": [
+        {
+          "id": "cleveland-1524-psalter-prayerbook",
+          "name": "Cleveland 1524 Psalter and Prayerbook",
+          "relation": "related Cleveland leaves with matching source title, date and painted style; individual source identities retained"
+        },
+        {
+          "id": "cma-2006-15-b-set",
+          "name": "Leaf from a Psalter and Prayerbook: Ornamental Border with Flowers and Squirrel (verso) (cma-2006-15-b)",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "Red scalloped flower with two long green leaves.",
+      "set_label": "Cleveland 1524 Psalter and Prayerbook"
+    },
+    {
+      "id": "cma-2006-15-b--seated-red-squirrel-with-bushy-tail",
+      "name": "seated-red-squirrel-with-bushy-tail",
+      "source_id": "cma-2006-15-b",
+      "source_folder": "cleveland",
+      "asset_type": "illustration",
+      "description": "Small seated reddish brown squirrel with a bushy upright tail. Part of the Cleveland 1524 Psalter and Prayerbook set.",
+      "source_region": [
+        330,
+        7541,
+        1603,
+        9420
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        0,
+        0,
+        970,
+        1524
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 970,
+      "height": 1524,
+      "png": "cleveland/cma-2006-15-b--seated-red-squirrel-with-bushy-tail.png",
+      "png_sha256": "9a33fcb98c2a39259573ec9de5133e7bac67161b8a8b962e39bca4e8335a3344",
+      "provenance": {
+        "institution": "Cleveland Museum of Art",
+        "title": "Leaf from a Psalter and Prayerbook: Ornamental Border with Flowers and Squirrel (verso)",
+        "object_identifier": "2006.15.b",
+        "date": "c. 1524",
+        "record_url": "https://clevelandart.org/art/2006.15.b",
+        "image_rights": "CC0; share_license_status=CC0",
+        "rights_url": "https://www.clevelandart.org/open-access",
+        "source_file": "tmp/new-assets/cleveland/cma-2006-15-b--leaf-from-a-psalter-and-prayerbook-ornamental-border-with-flowers-and-squirrel-verso--master.tif",
+        "source_sha256": "92e50400b0f1ab17eeaa4d72a095f87eab67c55d5bf234e0018fd3087c100d75",
+        "source_metadata": "tmp/new-assets/cleveland/cma-2006-15-b.json",
+        "image_url": "https://openaccess-cdn.clevelandart.org/2006.15.b/2006.15.b_full.tif",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. Extract ONLY the complete lower-left seated reddish brown squirrel, full bushy upright tail, ear points, both forepaws and both hindfeet. Keep tiny irregular source turf directly beneath feet, not the broad background band. No yellow flower or text. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_extraction": "tmp/extraction-work/cma-2006-15-b--seated-red-squirrel-with-bushy-tail--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "18c8c05d786459579b9f6e86ba1619d32b7ea7fee38e8bc197e7d9327cb79531",
+        "retained_generated_size": [
+          1032,
+          1524
+        ],
+        "resolution_cap_scale": 1,
+        "resolution_capped_size": [
+          1032,
+          1524
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          1125,
+          1757
+        ],
+        "native_subject_size_evidence": {
+          "method": "Individually inspected native visible subject bounds, excluding input-region whitespace and neighbours.",
+          "preview_subject_bounds": [
+            61,
+            1130,
+            228,
+            1391
+          ],
+          "preview_size": [
+            1339,
+            1600
+          ],
+          "original_size": [
+            9018,
+            10773
+          ]
+        },
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 7526
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Individually compared every source and white/dark extraction. All flowers/leaves/stems are separate original specimens; connected leaf scrolls remain whole. Original leaf and petal counts, stem tips, pale opaque petals, genuine curl openings and worn paint checked. Peasant retains entire woven basket, staff, fingers, both shoes and small intrinsic turf. Squirrel retains all tail hairs/ear tips/paws and small turf. Blue-clad man retains complete visible hands and feet with no letter stalk. AI texture/contours remain approximate and are audited.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/cleveland-calendar-flower-results-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/cleveland-calendar-flower-results-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/cleveland-calendar-flower-results-proof-3.jpg",
+          "tmp/extraction-work/continuation-20261010/cleveland-calendar-flower-results-proof-4.jpg",
+          "tmp/extraction-work/continuation-20261010/cleveland-calendar-flower-results-proof-5.jpg",
+          "tmp/extraction-work/continuation-20261010/cleveland-calendar-flower-results-proof-6.jpg",
+          "tmp/extraction-work/continuation-20261010/cleveland-calendar-flower-results-proof-7.jpg"
+        ]
+      },
+      "categories": [
+        "animals"
+      ],
+      "subjects": [
+        "squirrel"
+      ],
+      "colors": [
+        "brown",
+        "green",
+        "black"
+      ],
+      "facing": "unclear",
+      "composition": "standalone",
+      "usage_notes": "Original independent specimen with printed plate rules and page removed. AI-assisted extraction remains approximate; source bounds, actual native subject cap, original and exact prompt retained.",
+      "sets": [
+        {
+          "id": "cleveland-1524-psalter-prayerbook",
+          "name": "Cleveland 1524 Psalter and Prayerbook",
+          "relation": "related Cleveland leaves with matching source title, date and painted style; individual source identities retained"
+        },
+        {
+          "id": "cma-2006-15-b-set",
+          "name": "Leaf from a Psalter and Prayerbook: Ornamental Border with Flowers and Squirrel (verso) (cma-2006-15-b)",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "Small seated reddish brown squirrel with a bushy upright tail.",
+      "set_label": "Cleveland 1524 Psalter and Prayerbook"
+    },
+    {
+      "id": "cma-2006-15-b--small-brown-round-flower-on-leafy-stem",
+      "name": "small-brown-round-flower-on-leafy-stem",
+      "source_id": "cma-2006-15-b",
+      "source_folder": "cleveland",
+      "asset_type": "illustration",
+      "description": "Small brown rounded flower on a long stem with green leaves. Part of the Cleveland 1524 Psalter and Prayerbook set.",
+      "source_region": [
+        7516,
+        5407,
+        8291,
+        7817
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        87,
+        13,
+        667,
+        2139
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 580,
+      "height": 2126,
+      "png": "cleveland/cma-2006-15-b--small-brown-round-flower-on-leafy-stem.png",
+      "png_sha256": "178017f82e166bbed3f06501091a2e35980d135dc869011dd8f952f613f8736f",
+      "provenance": {
+        "institution": "Cleveland Museum of Art",
+        "title": "Leaf from a Psalter and Prayerbook: Ornamental Border with Flowers and Squirrel (verso)",
+        "object_identifier": "2006.15.b",
+        "date": "c. 1524",
+        "record_url": "https://clevelandart.org/art/2006.15.b",
+        "image_rights": "CC0; share_license_status=CC0",
+        "rights_url": "https://www.clevelandart.org/open-access",
+        "source_file": "tmp/new-assets/cleveland/cma-2006-15-b--leaf-from-a-psalter-and-prayerbook-ornamental-border-with-flowers-and-squirrel-verso--master.tif",
+        "source_sha256": "92e50400b0f1ab17eeaa4d72a095f87eab67c55d5bf234e0018fd3087c100d75",
+        "source_metadata": "tmp/new-assets/cleveland/cma-2006-15-b.json",
+        "image_url": "https://openaccess-cdn.clevelandart.org/2006.15.b/2006.15.b_full.tif",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. Extract ONLY lower-right small round brown flower, original faint gold stripes, long slender stem and all original green leaves. Do not restore worn paint. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_extraction": "tmp/extraction-work/cma-2006-15-b--small-brown-round-flower-on-leafy-stem--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "d3a1733a698b2176da5d0baa3095e48efe80b7acecfc99d044d0df1ffef447fe",
+        "retained_generated_size": [
+          724,
+          2172
+        ],
+        "resolution_cap_scale": 1,
+        "resolution_capped_size": [
+          724,
+          2172
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          626,
+          2262
+        ],
+        "native_subject_size_evidence": {
+          "method": "Individually inspected native visible subject bounds, excluding input-region whitespace and neighbours.",
+          "preview_subject_bounds": [
+            1126,
+            816,
+            1219,
+            1152
+          ],
+          "preview_size": [
+            1339,
+            1600
+          ],
+          "original_size": [
+            9018,
+            10773
+          ]
+        },
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 6325
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Individually compared every source and white/dark extraction. All flowers/leaves/stems are separate original specimens; connected leaf scrolls remain whole. Original leaf and petal counts, stem tips, pale opaque petals, genuine curl openings and worn paint checked. Peasant retains entire woven basket, staff, fingers, both shoes and small intrinsic turf. Squirrel retains all tail hairs/ear tips/paws and small turf. Blue-clad man retains complete visible hands and feet with no letter stalk. AI texture/contours remain approximate and are audited.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/cleveland-calendar-flower-results-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/cleveland-calendar-flower-results-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/cleveland-calendar-flower-results-proof-3.jpg",
+          "tmp/extraction-work/continuation-20261010/cleveland-calendar-flower-results-proof-4.jpg",
+          "tmp/extraction-work/continuation-20261010/cleveland-calendar-flower-results-proof-5.jpg",
+          "tmp/extraction-work/continuation-20261010/cleveland-calendar-flower-results-proof-6.jpg",
+          "tmp/extraction-work/continuation-20261010/cleveland-calendar-flower-results-proof-7.jpg"
+        ]
+      },
+      "categories": [
+        "botanical",
+        "floral"
+      ],
+      "subjects": [
+        "flower",
+        "leaf",
+        "stem"
+      ],
+      "colors": [
+        "brown",
+        "green",
+        "gold"
+      ],
+      "facing": "unclear",
+      "composition": "standalone",
+      "usage_notes": "Original independent specimen with printed plate rules and page removed. AI-assisted extraction remains approximate; source bounds, actual native subject cap, original and exact prompt retained.",
+      "sets": [
+        {
+          "id": "cleveland-1524-psalter-prayerbook",
+          "name": "Cleveland 1524 Psalter and Prayerbook",
+          "relation": "related Cleveland leaves with matching source title, date and painted style; individual source identities retained"
+        },
+        {
+          "id": "cma-2006-15-b-set",
+          "name": "Leaf from a Psalter and Prayerbook: Ornamental Border with Flowers and Squirrel (verso) (cma-2006-15-b)",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "Small brown rounded flower on a long stem with green leaves.",
+      "set_label": "Cleveland 1524 Psalter and Prayerbook"
+    },
+    {
+      "id": "cma-2006-15-b--small-faded-gray-flower-on-green-stem",
+      "name": "small-faded-gray-flower-on-green-stem",
+      "source_id": "cma-2006-15-b",
+      "source_folder": "cleveland",
+      "asset_type": "illustration",
+      "description": "Faded gray tan flower with two green leaves. Part of the Cleveland 1524 Psalter and Prayerbook set.",
+      "source_region": [
+        7523,
+        236,
+        8291,
+        2417
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        157,
+        31,
+        769,
+        1789
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 612,
+      "height": 1758,
+      "png": "cleveland/cma-2006-15-b--small-faded-gray-flower-on-green-stem.png",
+      "png_sha256": "8abfcd81f66c0403380aa4943d145e41bebe42a17c0dab15ef871cc19c729345",
+      "provenance": {
+        "institution": "Cleveland Museum of Art",
+        "title": "Leaf from a Psalter and Prayerbook: Ornamental Border with Flowers and Squirrel (verso)",
+        "object_identifier": "2006.15.b",
+        "date": "c. 1524",
+        "record_url": "https://clevelandart.org/art/2006.15.b",
+        "image_rights": "CC0; share_license_status=CC0",
+        "rights_url": "https://www.clevelandart.org/open-access",
+        "source_file": "tmp/new-assets/cleveland/cma-2006-15-b--leaf-from-a-psalter-and-prayerbook-ornamental-border-with-flowers-and-squirrel-verso--master.tif",
+        "source_sha256": "92e50400b0f1ab17eeaa4d72a095f87eab67c55d5bf234e0018fd3087c100d75",
+        "source_metadata": "tmp/new-assets/cleveland/cma-2006-15-b.json",
+        "image_url": "https://openaccess-cdn.clevelandart.org/2006.15.b/2006.15.b_full.tif",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. Extract ONLY the small upper-right faded gray/tan flower, its green stem and both attached leaves. Preserve actual faint worn paint; do not restore its damaged upper petal or invent missing details. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_extraction": "tmp/extraction-work/cma-2006-15-b--small-faded-gray-flower-on-green-stem--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "f9f95110c93493cfa27134e364bd781f7590d6338040ff7897782ff52351c0e0",
+        "retained_generated_size": [
+          876,
+          1795
+        ],
+        "resolution_cap_scale": 1,
+        "resolution_capped_size": [
+          876,
+          1795
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          626,
+          2027
+        ],
+        "native_subject_size_evidence": {
+          "method": "Individually inspected native visible subject bounds, excluding input-region whitespace and neighbours.",
+          "preview_subject_bounds": [
+            1127,
+            48,
+            1220,
+            349
+          ],
+          "preview_size": [
+            1339,
+            1600
+          ],
+          "original_size": [
+            9018,
+            10773
+          ]
+        },
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 8869
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Individually compared every source and white/dark extraction. All flowers/leaves/stems are separate original specimens; connected leaf scrolls remain whole. Original leaf and petal counts, stem tips, pale opaque petals, genuine curl openings and worn paint checked. Peasant retains entire woven basket, staff, fingers, both shoes and small intrinsic turf. Squirrel retains all tail hairs/ear tips/paws and small turf. Blue-clad man retains complete visible hands and feet with no letter stalk. AI texture/contours remain approximate and are audited.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/cleveland-calendar-flower-results-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/cleveland-calendar-flower-results-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/cleveland-calendar-flower-results-proof-3.jpg",
+          "tmp/extraction-work/continuation-20261010/cleveland-calendar-flower-results-proof-4.jpg",
+          "tmp/extraction-work/continuation-20261010/cleveland-calendar-flower-results-proof-5.jpg",
+          "tmp/extraction-work/continuation-20261010/cleveland-calendar-flower-results-proof-6.jpg",
+          "tmp/extraction-work/continuation-20261010/cleveland-calendar-flower-results-proof-7.jpg"
+        ]
+      },
+      "categories": [
+        "botanical",
+        "floral"
+      ],
+      "subjects": [
+        "flower",
+        "leaf",
+        "stem"
+      ],
+      "colors": [
+        "gray",
+        "tan",
+        "green"
+      ],
+      "facing": "unclear",
+      "composition": "standalone",
+      "usage_notes": "Original independent specimen with printed plate rules and page removed. AI-assisted extraction remains approximate; source bounds, actual native subject cap, original and exact prompt retained.",
+      "sets": [
+        {
+          "id": "cleveland-1524-psalter-prayerbook",
+          "name": "Cleveland 1524 Psalter and Prayerbook",
+          "relation": "related Cleveland leaves with matching source title, date and painted style; individual source identities retained"
+        },
+        {
+          "id": "cma-2006-15-b-set",
+          "name": "Leaf from a Psalter and Prayerbook: Ornamental Border with Flowers and Squirrel (verso) (cma-2006-15-b)",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "Faded gray tan flower with two green leaves.",
+      "set_label": "Cleveland 1524 Psalter and Prayerbook"
+    },
+    {
+      "id": "cma-2006-15-b--upright-paired-green-leaves",
+      "name": "upright-paired-green-leaves",
+      "source_id": "cma-2006-15-b",
+      "source_folder": "cleveland",
+      "asset_type": "illustration",
+      "description": "Independent upright pair of green leaves with crossing short stems. Part of the Cleveland 1524 Psalter and Prayerbook set.",
+      "source_region": [
+        7570,
+        2801,
+        8217,
+        4949
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        202,
+        9,
+        708,
+        1730
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 506,
+      "height": 1721,
+      "png": "cleveland/cma-2006-15-b--upright-paired-green-leaves.png",
+      "png_sha256": "c0d4c95f825ba2532f3498788ed9223f57812eb3a50f295944cdf23ca51fd8a9",
+      "provenance": {
+        "institution": "Cleveland Museum of Art",
+        "title": "Leaf from a Psalter and Prayerbook: Ornamental Border with Flowers and Squirrel (verso)",
+        "object_identifier": "2006.15.b",
+        "date": "c. 1524",
+        "record_url": "https://clevelandart.org/art/2006.15.b",
+        "image_rights": "CC0; share_license_status=CC0",
+        "rights_url": "https://www.clevelandart.org/open-access",
+        "source_file": "tmp/new-assets/cleveland/cma-2006-15-b--leaf-from-a-psalter-and-prayerbook-ornamental-border-with-flowers-and-squirrel-verso--master.tif",
+        "source_sha256": "92e50400b0f1ab17eeaa4d72a095f87eab67c55d5bf234e0018fd3087c100d75",
+        "source_metadata": "tmp/new-assets/cleveland/cma-2006-15-b.json",
+        "image_url": "https://openaccess-cdn.clevelandart.org/2006.15.b/2006.15.b_full.tif",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. Extract ONLY independent mid-right green leaf pair, all short original crossing stems and both leaf tips. No flowers above/below. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_extraction": "tmp/extraction-work/cma-2006-15-b--upright-paired-green-leaves--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "650b6932cc28594d21a4238c66d8f438dd2088b7726f99ae2102a694cb055186",
+        "retained_generated_size": [
+          887,
+          1774
+        ],
+        "resolution_cap_scale": 1,
+        "resolution_capped_size": [
+          887,
+          1774
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          519,
+          1980
+        ],
+        "native_subject_size_evidence": {
+          "method": "Individually inspected native visible subject bounds, excluding input-region whitespace and neighbours.",
+          "preview_subject_bounds": [
+            1133,
+            430,
+            1210,
+            724
+          ],
+          "preview_size": [
+            1339,
+            1600
+          ],
+          "original_size": [
+            9018,
+            10773
+          ]
+        },
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 7385
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Individually compared every source and white/dark extraction. All flowers/leaves/stems are separate original specimens; connected leaf scrolls remain whole. Original leaf and petal counts, stem tips, pale opaque petals, genuine curl openings and worn paint checked. Peasant retains entire woven basket, staff, fingers, both shoes and small intrinsic turf. Squirrel retains all tail hairs/ear tips/paws and small turf. Blue-clad man retains complete visible hands and feet with no letter stalk. AI texture/contours remain approximate and are audited.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/cleveland-calendar-flower-results-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/cleveland-calendar-flower-results-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/cleveland-calendar-flower-results-proof-3.jpg",
+          "tmp/extraction-work/continuation-20261010/cleveland-calendar-flower-results-proof-4.jpg",
+          "tmp/extraction-work/continuation-20261010/cleveland-calendar-flower-results-proof-5.jpg",
+          "tmp/extraction-work/continuation-20261010/cleveland-calendar-flower-results-proof-6.jpg",
+          "tmp/extraction-work/continuation-20261010/cleveland-calendar-flower-results-proof-7.jpg"
+        ]
+      },
+      "categories": [
+        "botanical",
+        "floral"
+      ],
+      "subjects": [
+        "flower",
+        "leaf",
+        "stem"
+      ],
+      "colors": [
+        "green",
+        "black"
+      ],
+      "facing": "unclear",
+      "composition": "standalone",
+      "usage_notes": "Original independent specimen with printed plate rules and page removed. AI-assisted extraction remains approximate; source bounds, actual native subject cap, original and exact prompt retained.",
+      "sets": [
+        {
+          "id": "cleveland-1524-psalter-prayerbook",
+          "name": "Cleveland 1524 Psalter and Prayerbook",
+          "relation": "related Cleveland leaves with matching source title, date and painted style; individual source identities retained"
+        },
+        {
+          "id": "cma-2006-15-b-set",
+          "name": "Leaf from a Psalter and Prayerbook: Ornamental Border with Flowers and Squirrel (verso) (cma-2006-15-b)",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "Independent upright pair of green leaves with crossing short stems.",
+      "set_label": "Cleveland 1524 Psalter and Prayerbook"
+    }
+  ]
+}

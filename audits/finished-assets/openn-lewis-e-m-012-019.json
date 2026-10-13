@@ -1,0 +1,250 @@
+{
+  "source_id": "openn-lewis-e-m-012-019",
+  "assets": [
+    {
+      "id": "openn-lewis-e-m-012-019--blue-dragon-head-with-orange-tongue",
+      "name": "blue-dragon-head-with-orange-tongue",
+      "source_id": "openn-lewis-e-m-012-019",
+      "source_folder": "openn-free-library",
+      "asset_type": "decoration",
+      "description": "Only the left-facing blue dragon-head terminal, its white painted eye, pointed snout, original orange projecting tongue and its visible short upper neck. Exclude the letter bars, gold field, the long orange/blue vertical flourish and all other foliage. Do not invent a body or add anatomy. Part of the Inhabited initial U (openn-lewis-e-m-012-019) set.",
+      "source_region": [
+        272,
+        280,
+        622,
+        614
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        6,
+        4,
+        345,
+        308
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 339,
+      "height": 304,
+      "png": "openn-free-library/openn-lewis-e-m-012-019--blue-dragon-head-with-orange-tongue.png",
+      "png_sha256": "daa1af7430f4d7899252ae78ba841ecce8ee7e38fec0e0636e297d061cc32cea",
+      "provenance": {
+        "institution": "Free Library of Philadelphia, John Frederick Lewis Collection",
+        "title": "Inhabited initial U",
+        "object_identifier": "Lewis E M 12:19 Inhabited initial U",
+        "date": "(Unknown, 1400-1499)",
+        "record_url": "https://openn.library.upenn.edu/Data/0023/html/lewis_e_m_012_019.html",
+        "image_rights": "Public Domain Mark 1.0; item record explicitly places images in public domain",
+        "rights_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "source_file": "tmp/new-assets/openn-free-library/openn-lewis-e-m-012-019--inhabited-initial-u--master.tif",
+        "source_sha256": "2f3211ead96e5985bb1830a2260a1ca9f57f49cc776e7dd7d5578ca3af8b8767",
+        "source_metadata": "tmp/new-assets/openn-free-library/openn-lewis-e-m-012-019.json",
+        "image_url": "https://openn.library.upenn.edu/Data/0023/lewis_e_m_012_019/data/master/7544_0000.tif",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: faithful manuscript ornament extraction. Edit the ORIGINAL reference. Only the left-facing blue dragon-head terminal, its white painted eye, pointed snout, original orange projecting tongue and its visible short upper neck. Exclude the letter bars, gold field, the long orange/blue vertical flourish and all other foliage. Do not invent a body or add anatomy. Retain the complete selected original motif, all original contours, tiny painted tips, delicate stems, veins and white painted highlights, at its original proportions. Subject paint stays opaque, including pale and gold-colored subject parts. Only the surrounding flat background, page, letter shapes and genuine holes between selected subject parts become transparent. Do not add missing source-hidden parts, extend stems or tails, change anatomy, add leaves, modernize, symmetrize, sharpen, stretch or compress this historic hand-painted drawing. Fine natural antialiased contours without stepped polygons or parchment halos. Genuine transparent alpha outside and within all real openings, no white rectangle or checkerboard paint.",
+        "retained_generated_extraction": "tmp/extraction-work/openn-lewis-e-m-012-019--blue-dragon-head-with-orange-tongue--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "34242a4cfd560b2ed39bfa386dad26c980a540100e0f09b934831c6b72074771",
+        "retained_generated_size": [
+          1284,
+          1225
+        ],
+        "resolution_cap_scale": 0.27258566978193144,
+        "resolution_capped_size": [
+          350,
+          334
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          350,
+          334
+        ],
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 20
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "approval_scope": "Original source comparison; provisional for maintainer review.",
+        "checks": [
+          "complete-source-visible-subject",
+          "original-proportions",
+          "transparent-exterior-and-openings",
+          "opaque-original-paint-surfaces",
+          "thin-original-tips-and-props",
+          "white-and-dark-backgrounds",
+          "native-size-cap"
+        ],
+        "notes": "Compared against the original source and retained all actual leaf tips, painted highlights, thin stems, contacting props and original visible anatomy. The two-faced alchemical figure retains both faces, shared crown, both wings and all three chalice serpent heads; the reclining dragon includes both brown rear wings. AI-assisted texture and contour differences remain explicitly recorded.",
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/twelve-ornament-generated-results-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/twelve-ornament-generated-results-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/twelve-ornament-generated-results-proof-3.jpg"
+        ]
+      },
+      "categories": [
+        "animals",
+        "fantasy"
+      ],
+      "subjects": [
+        "dragon",
+        "head",
+        "tongue"
+      ],
+      "facing": "mixed",
+      "colors": [
+        "blue",
+        "red",
+        "green",
+        "gold"
+      ],
+      "composition": "standalone",
+      "sets": [
+        {
+          "id": "openn-lewis-e-m-012-019-set",
+          "name": "Inhabited initial U (openn-lewis-e-m-012-019)",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "Only the left-facing blue dragon-head terminal, its white painted eye, pointed snout, original orange projecting tongue and its visible short upper neck. Exclude the letter bars, gold field, the long orange/blue vertical flourish and all other foliage. Do not invent a body or add anatomy.",
+      "set_label": "Inhabited initial U (openn-lewis-e-m-012-019)"
+    },
+    {
+      "id": "openn-lewis-e-m-012-019--interlaced-blue-red-foliage",
+      "name": "interlaced-blue-red-foliage",
+      "source_id": "openn-lewis-e-m-012-019",
+      "source_folder": "openn-free-library",
+      "asset_type": "decoration",
+      "description": "An interlaced blue and pink foliate ornament with paired curled stems and orange, blue and pink lobed leaves. Part of the Inhabited initial U (openn-lewis-e-m-012-019) set.",
+      "source_region": [
+        684,
+        237,
+        1551,
+        1297
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        16,
+        52,
+        829,
+        1019
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 813,
+      "height": 967,
+      "png": "openn-free-library/openn-lewis-e-m-012-019--interlaced-blue-red-foliage.png",
+      "png_sha256": "d5ff3a3e8e3d0fe4576bc08f2db7494bbae1dd6f12614a2d273bf23ae678ffb9",
+      "provenance": {
+        "institution": "Free Library of Philadelphia, John Frederick Lewis Collection",
+        "title": "Inhabited initial U",
+        "object_identifier": "Lewis E M 12:19 Inhabited initial U",
+        "date": "(Unknown, 1400-1499)",
+        "record_url": "https://openn.library.upenn.edu/Data/0023/html/lewis_e_m_012_019.html",
+        "image_rights": "Public Domain Mark 1.0; item record explicitly places images in public domain",
+        "rights_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "source_file": "tmp/new-assets/openn-free-library/openn-lewis-e-m-012-019--inhabited-initial-u--master.tif",
+        "source_sha256": "2f3211ead96e5985bb1830a2260a1ca9f57f49cc776e7dd7d5578ca3af8b8767",
+        "source_metadata": "tmp/new-assets/openn-free-library/openn-lewis-e-m-012-019.json",
+        "image_url": "https://openn.library.upenn.edu/Data/0023/lewis_e_m_012_019/data/master/7544_0000.tif",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: precise-object-edit / faithful historical foreground extraction. Edit target: the supplied original manuscript detail. Extract Only the original intertwined blue and pink interior foliate decoration: paired looping stems with orange and blue upper leaves, paired curled lobed leaves at the center and the downward foliage tips. Remove the surrounding U letter including its tall red vertical stroke, gold field and unrelated dragon at left. Preserve original twists, alternate colors, small tips and opaque painted highlights; clear true gaps between all stems. Do not fill gaps or simplify the interlace. Keep the exact original pose, shapes, colors, proportions and fine ink or painted lines. Output on a genuinely transparent background, with small transparent padding. Remove lettering, parchment, stains, chart, ruler and surrounding ground color. No new details, reconstruction, modern redraw, shadows, glow, smoothing or background rectangle.",
+        "retained_generated_extraction": "tmp/extraction-work/openn-lewis-e-m-012-019--interlaced-blue-red-foliage--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "eed6049a725f6601ced2d759e67639224335ed7b4f752d73f193df6ad56ff246",
+        "retained_generated_size": [
+          1134,
+          1387
+        ],
+        "resolution_cap_scale": 0.7642393655371305,
+        "resolution_capped_size": [
+          867,
+          1060
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261010",
+        "notes": "Compared paired red/blue stems, intertwined crossings and all leaf/flower tips with original decorated initial. Surrounding square, letter backing and parchment excluded; true gaps transparent.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": "tmp/extraction-work/quality-reaudit-20261010/manifest.json"
+      },
+      "categories": [
+        "botanical",
+        "scrollwork",
+        "knotwork"
+      ],
+      "subjects": [
+        "interlaced-foliage",
+        "leaves"
+      ],
+      "facing": "unclear",
+      "colors": [
+        "blue",
+        "pink",
+        "orange",
+        "cream"
+      ],
+      "composition": "single-ornament",
+      "review_history": [
+        {
+          "round": "quality-reaudit-20261010",
+          "previous_review": {
+            "status": "accepted",
+            "reviewed_on": "2026-10-10",
+            "notes": "Original motif compared with extraction on white and dark backgrounds: source pose, principal painted shapes, terminals and pale highlights retained. Actual openings cleared; initial glyph and flat gold/black fields removed. AI-assisted extraction approximates paint texture and some small contours."
+          }
+        }
+      ],
+      "selection_history": [
+        {
+          "previous_values": {
+            "categories": [
+              "botanical",
+              "scrollwork",
+              "knotwork"
+            ],
+            "subjects": [
+              "interlaced foliage",
+              "leaves"
+            ],
+            "composition": "single-ornament"
+          },
+          "reason": "Normalize new staging metadata to shared category/composition/subject vocabulary; factual descriptions and original source metadata unchanged."
+        }
+      ],
+      "sets": [
+        {
+          "id": "openn-lewis-e-m-012-019-set",
+          "name": "Inhabited initial U (openn-lewis-e-m-012-019)",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "An interlaced blue and pink foliate ornament with paired curled stems and orange, blue and pink lobed leaves.",
+      "set_label": "Inhabited initial U (openn-lewis-e-m-012-019)"
+    }
+  ]
+}

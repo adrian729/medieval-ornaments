@@ -1,0 +1,1 @@
+import type{WholeDesign}from'../common.js';type D=WholeDesign<"lower-gold-rod-with-red-blue-and-gold-foliate-branch-walters-w171-19v","webp"|"png","decoration">;export declare const ornament:D['ornament'];export declare const resolveOrnament:D['resolve'];export type ImageOptions=D['imageOptions'];export declare const createOrnamentImage:D['createOrnamentImage'];

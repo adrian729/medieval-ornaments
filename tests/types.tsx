@@ -102,3 +102,11 @@ const rosselliSvg = <RosselliFrame format="svg" />;
 // @ts-expect-error The individual border stays bound to its own design.
 createRosselliFrame(document.createElement('div'), {design: 'rosselli-foliate-border'});
 void [rosselli, rosselliSvg];
+
+// Reviewed repeat units without faithful corners expose divider-only entries.
+import { resolveOrnament as resolveDividerOnly, createDivider as createDividerOnly } from '../lib/designs/white-curling-vine-on-blue-repeat.js';
+resolveDividerOnly('divider', { orientation: 'vertical' });
+// @ts-expect-error No approved corners or frame capability.
+resolveDividerOnly('frame');
+// @ts-expect-error Generic frames also exclude divider-only design names.
+resolveOrnament('frame', { design: 'white-curling-vine-on-blue-repeat' });

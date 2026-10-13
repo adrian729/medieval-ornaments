@@ -1,0 +1,1251 @@
+{
+  "source_id": "met-680571",
+  "assets": [
+    {
+      "id": "met-680571--fixed-printer-frame-with-varying-palmette-bands",
+      "name": "fixed-printer-frame-with-varying-palmette-bands",
+      "source_id": "met-680571",
+      "source_folder": "met",
+      "asset_type": "decoration",
+      "description": "An original fixed printer frame with varying palmette and curled-scroll bands. Part of the Schön Neues Modelbuch (Page 2 recto) (met-680571) set.",
+      "source_region": [
+        396,
+        171,
+        2552,
+        1935
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        1,
+        2,
+        2151,
+        1764
+      ],
+      "export_crop_coordinate_space": "source-region",
+      "width": 2150,
+      "height": 1762,
+      "png": "met/met-680571--fixed-printer-frame-with-varying-palmette-bands.png",
+      "png_sha256": "a98d89c7e6e8f031446f00eb1c4074af7d39906f2e58a044d6e2052e4b0fd6ba",
+      "provenance": {
+        "institution": "Metropolitan Museum of Art",
+        "title": "Schön Neues Modelbuch (Page 2 recto)",
+        "object_identifier": "20.16(2r)",
+        "date": "1597",
+        "artist": "Johann Sibmacher",
+        "record_url": "https://www.metmuseum.org/art/collection/search/680571",
+        "image_rights": "CC0 Open Access; isPublicDomain=true",
+        "rights_url": "https://www.metmuseum.org/policies/image-resources",
+        "source_file": "tmp/new-assets/met/met-680571--schon-neues-modelbuch-page-2-recto.jpg",
+        "source_sha256": "da9d453a2b644ef54fa8df0adfddab42bf457abf899d8d550c4dcc836091f758",
+        "source_metadata": "tmp/new-assets/met/met-680571.json",
+        "image_url": "https://images.metmuseum.org/CRDImages/dp/original/DP363467.jpg",
+        "method": "native-continuous-ink-matting"
+      },
+      "extraction": {
+        "method": "Native-resolution continuous ink coverage after locally measured paper removal; PNG appearance master.",
+        "source_pixels_repainted": false,
+        "source_rgb_modified": "Paper removed by measured ink coverage; RGB is the scan-measured ink tone, not an exact source-pixel crop.",
+        "paper_kernel": 61,
+        "minimum_coverage": 0.24,
+        "minimum_component_pixels": 4,
+        "settings": {
+          "paper_kernel": 61,
+          "paper_kernel_shape": "rectangle",
+          "minimum_coverage": 0.24,
+          "minimum_component_pixels": 4,
+          "minimum_component_peak": 0.55,
+          "minimum_channel_coverage": true
+        },
+        "exclude_regions": [
+          [
+            197,
+            109,
+            1963,
+            1571
+          ]
+        ],
+        "export_crop": [
+          1,
+          2,
+          2151,
+          1764
+        ],
+        "ink_color": [
+          59,
+          55,
+          50
+        ],
+        "candidate_png": "tmp/extraction-work/met-680571--fixed-printer-frame-with-varying-palmette-bands--ink-candidate.png",
+        "status": "awaiting-native-visual-review",
+        "tool": "Native source ink analysis",
+        "source_pixels_redrawn": false
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Complete original motif periods inspected before local native phase matching. Source ink and continuous alpha retained, all interior columns unchanged; only documented two-pixel matching collars averaged. Five-cycle strips and all four phase-derived miter corners inspected on white/dark; fixed frame keeps actual varied bands/corners. Cleaner bow impression chosen after four originals compared, no paper-fold blot repeated. Rotated units and bars are exact native 90-degree turns. No faceted trace.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/printer-next-strip-corners-1.jpg",
+          "tmp/extraction-work/continuation-20261010/printer-next-strip-corners-2.jpg",
+          "tmp/extraction-work/continuation-20261010/printer-next-strip-corners-3.jpg",
+          "tmp/extraction-work/continuation-20261010/cleaner-bow-strip-four-corners.jpg",
+          "tmp/extraction-work/continuation-20261010/printer-border-repeat-next-proof-2.jpg"
+        ]
+      },
+      "categories": [
+        "floral",
+        "scrollwork",
+        "geometric"
+      ],
+      "subjects": [
+        "frame",
+        "palmette",
+        "scroll"
+      ],
+      "facing": "mixed",
+      "colors": [
+        "brown",
+        "black"
+      ],
+      "composition": "single-ornament",
+      "usage_notes": "Original fixed frame with all actual corners and different upper/lower bands retained. Center text and letter excluded, paper transparent. This whole original complements the separately audited original repeat units; it is not a generated frame.",
+      "sets": [
+        {
+          "id": "met-680571-set",
+          "name": "Schön Neues Modelbuch (Page 2 recto) (met-680571)",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "An original fixed printer frame with varying palmette and curled-scroll bands.",
+      "set_label": "Schön Neues Modelbuch (Page 2 recto) (met-680571)"
+    },
+    {
+      "id": "met-680571--palmette-paired-scroll-repeat",
+      "name": "palmette-paired-scroll-repeat",
+      "source_id": "met-680571",
+      "source_folder": "met",
+      "asset_type": "border",
+      "description": "An original interior printer-border cycle containing one palmette and paired curled scrolls, selected from three matching visible cycles in the lower frame band. Part of the Schön Neues Modelbuch (Page 2 recto) (met-680571) set.",
+      "source_region": [
+        1343,
+        1745,
+        1831,
+        1930
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        0,
+        0,
+        488,
+        185
+      ],
+      "export_crop_coordinate_space": "source-region",
+      "width": 488,
+      "height": 185,
+      "png": "met/met-680571--palmette-paired-scroll-repeat.png",
+      "png_sha256": "90d48bd74127f1aaae7e0ac300570742943891c6d558fbbbf68979830006ad9b",
+      "provenance": {
+        "institution": "Metropolitan Museum of Art",
+        "title": "Schön Neues Modelbuch (Page 2 recto)",
+        "object_identifier": "20.16(2r)",
+        "date": "1597",
+        "artist": "Johann Sibmacher",
+        "record_url": "https://www.metmuseum.org/art/collection/search/680571",
+        "image_rights": "CC0 Open Access; isPublicDomain=true",
+        "rights_url": "https://www.metmuseum.org/policies/image-resources",
+        "source_file": "tmp/new-assets/met/met-680571--schon-neues-modelbuch-page-2-recto.jpg",
+        "source_sha256": "da9d453a2b644ef54fa8df0adfddab42bf457abf899d8d550c4dcc836091f758",
+        "source_metadata": "tmp/new-assets/met/met-680571.json",
+        "image_url": "https://images.metmuseum.org/CRDImages/dp/original/DP363467.jpg",
+        "method": "native-interior-repeat-with-source-derived-miter-corners"
+      },
+      "extraction": {
+        "method": "native-resolution ink coverage after locally measured paper removal; measured ink color and five-layer editable contour trace",
+        "source_pixels_repainted": false,
+        "source_rgb_modified": "Paper removed by measured ink coverage; RGB is the scan-measured ink tone, not an exact source-pixel crop.",
+        "paper_kernel": 61,
+        "minimum_coverage": 0.22,
+        "minimum_component_pixels": 30,
+        "export_crop": [
+          0,
+          0,
+          488,
+          185
+        ],
+        "ink_color": [
+          57,
+          53,
+          48
+        ],
+        "candidate_png": "tmp/extraction-work/met-680571--palmette-paired-scroll-repeat--ink-candidate.png",
+        "candidate_svg": "tmp/extraction-work/met-680571--palmette-paired-scroll-repeat--ink-candidate.svg",
+        "vector_method": "OpenCV native alpha contours, 0.25-pixel polygon approximation, five measured opacity layers; no embedded raster",
+        "status": "awaiting-native-and-vector-visual-review",
+        "repeat_build": {
+          "unit_png": "tmp/extraction-work/met-680571--palmette-paired-scroll-repeat--unit.png",
+          "unit_svg": "tmp/extraction-work/met-680571--palmette-paired-scroll-repeat--unit.svg",
+          "bar_png": "tmp/extraction-work/met-680571--palmette-paired-scroll-repeat--bar.png",
+          "bar_svg": "tmp/extraction-work/met-680571--palmette-paired-scroll-repeat--bar.svg",
+          "frame_png": "tmp/extraction-work/met-680571--palmette-paired-scroll-repeat--frame-atlas.png",
+          "frame_svg": "tmp/extraction-work/met-680571--palmette-paired-scroll-repeat--frame-atlas.svg",
+          "corners": [
+            {
+              "name": "top-left",
+              "png": "tmp/extraction-work/met-680571--palmette-paired-scroll-repeat--corner-top-left.png",
+              "atlas_bounds": [
+                0,
+                0,
+                185,
+                185
+              ]
+            },
+            {
+              "name": "top-right",
+              "png": "tmp/extraction-work/met-680571--palmette-paired-scroll-repeat--corner-top-right.png",
+              "atlas_bounds": [
+                673,
+                0,
+                858,
+                185
+              ]
+            },
+            {
+              "name": "bottom-right",
+              "png": "tmp/extraction-work/met-680571--palmette-paired-scroll-repeat--corner-bottom-right.png",
+              "atlas_bounds": [
+                673,
+                673,
+                858,
+                858
+              ]
+            },
+            {
+              "name": "bottom-left",
+              "png": "tmp/extraction-work/met-680571--palmette-paired-scroll-repeat--corner-bottom-left.png",
+              "atlas_bounds": [
+                0,
+                673,
+                185,
+                858
+              ]
+            }
+          ],
+          "native_unit_size": [
+            488,
+            185
+          ],
+          "atlas_size": [
+            858,
+            858
+          ],
+          "slice_pixels": 185,
+          "slice_percent": 21.56177156177156,
+          "repeat_ratio": 2.637837837837838,
+          "join_adjustment": {
+            "pixels_at_each_end": 2,
+            "method": "average matching source collars; interior columns 2 through width-3 unchanged",
+            "source_cycle_verification": "Three directly inspected matching interior palmette/paired-scroll cycles."
+          },
+          "corner_method": "Mitered reflections of the exact same native unit, using the repository’s four phase-matched corner geometry. Derived corners are distinct from the original fixed printer-frame corners.",
+          "status": "awaiting-repeat-and-corner-visual-review"
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261010",
+        "notes": "Compared original interior cycle, cleaned unit, repeated strip and source-derived miter corners. Actual palmette/paired-scroll sequence retained; repeat geometry comes from inspected cycles, not an arbitrary crop.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": "tmp/extraction-work/quality-reaudit-20261010/manifest.json"
+      },
+      "categories": [
+        "floral",
+        "geometric"
+      ],
+      "subjects": [
+        "palmette",
+        "scroll"
+      ],
+      "facing": "unclear",
+      "colors": [
+        "brown",
+        "black"
+      ],
+      "composition": "repeat-tile",
+      "repeat": {
+        "status": "accepted",
+        "orientation": "horizontal",
+        "source_witnesses": [
+          [
+            890,
+            1745,
+            1365,
+            1930
+          ],
+          [
+            1365,
+            1745,
+            1840,
+            1930
+          ],
+          [
+            1840,
+            1745,
+            2315,
+            1930
+          ]
+        ],
+        "rationale": "Direct inspection shows the same interior palmette/paired-scroll cycle three times. Frame end motifs and its half-height upper band are excluded. Correlation is supplementary measurement only.",
+        "phase_measurement": "Source contour crossing comparison selects original x=1343 and x=1831 (488px cycle); both crossings belong to the matching paired-scroll axes. Three visible interior cycles establish the repeated motif independently.",
+        "slice_pixels": 185,
+        "slice_percent": 21.56177156177156,
+        "repeat_ratio": 2.637837837837838,
+        "native_unit_size": [
+          488,
+          185
+        ],
+        "atlas_size": [
+          858,
+          858
+        ],
+        "join_adjustment": {
+          "pixels_at_each_end": 2,
+          "method": "average matching source collars; interior columns 2 through width-3 unchanged",
+          "source_cycle_verification": "Three directly inspected matching interior palmette/paired-scroll cycles."
+        },
+        "corner_method": "Mitered reflections of the exact same native unit, using the repository’s four phase-matched corner geometry. Derived corners are distinct from the original fixed printer-frame corners."
+      },
+      "svg": "met/met-680571--palmette-paired-scroll-repeat.svg",
+      "svg_sha256": "4b31accaa6d31315f404ef34054fc5b1f8daa398ad829e3cd39e3c27ac500ce5",
+      "vector_review": {
+        "status": "accepted",
+        "method": "OpenCV native alpha contours, 0.25-pixel polygon approximation, five measured opacity layers; no embedded raster",
+        "embedded_raster": false,
+        "native_frame_premultiplied_rgb_mean_error": 0.005527407515507843
+      },
+      "components": {
+        "bar": {
+          "png": "met/met-680571--palmette-paired-scroll-repeat--bar.png",
+          "png_sha256": "0568c3017c25a9f8ecf3cfe7a79e1c6aaefc9e63c2c35ddc8e68797ffa7e0297",
+          "svg": "met/met-680571--palmette-paired-scroll-repeat--bar.svg",
+          "svg_sha256": "1f1a3f68702af9795dbf3452138d55380bcd28ae7e12ce91231c5e1e1afb89a8",
+          "width": 2440,
+          "height": 185,
+          "set_id": "met-680571--palmette-paired-scroll-repeat",
+          "set_name": "Schön Neues Modelbuch (Page 2 recto) (met-680571) — palmette paired scroll repeat",
+          "set_role": "bar"
+        },
+        "frame": {
+          "png": "met/met-680571--palmette-paired-scroll-repeat--frame-atlas.png",
+          "png_sha256": "c0d0a5f224d144864fe32f861cac2c7b9fac2ab1936369b5a3be7ab9d5068edf",
+          "svg": "met/met-680571--palmette-paired-scroll-repeat--frame-atlas.svg",
+          "svg_sha256": "3fd0524317b83a0f75e821ef8c27c5417b4cdf74de8310e24681190f201ec525",
+          "width": 858,
+          "height": 858,
+          "set_id": "met-680571--palmette-paired-scroll-repeat",
+          "set_name": "Schön Neues Modelbuch (Page 2 recto) (met-680571) — palmette paired scroll repeat",
+          "set_role": "frame"
+        },
+        "corner-top-left": {
+          "png": "met/met-680571--palmette-paired-scroll-repeat--corner-top-left.png",
+          "png_sha256": "2ae3866a18a0101e35efae604586d4323010cd235fbbfb30504b7e95ebfbd416",
+          "width": 185,
+          "height": 185,
+          "atlas_bounds": [
+            0,
+            0,
+            185,
+            185
+          ],
+          "method": "Mitered reflections of the exact same native unit, using the repository’s four phase-matched corner geometry. Derived corners are distinct from the original fixed printer-frame corners.",
+          "set_id": "met-680571--palmette-paired-scroll-repeat",
+          "set_name": "Schön Neues Modelbuch (Page 2 recto) (met-680571) — palmette paired scroll repeat",
+          "set_role": "corner-top-left"
+        },
+        "corner-top-right": {
+          "png": "met/met-680571--palmette-paired-scroll-repeat--corner-top-right.png",
+          "png_sha256": "bb703cdf51fba3385e6c359226d8142c4edfb6c0666ff1baf1fee430d605194a",
+          "width": 185,
+          "height": 185,
+          "atlas_bounds": [
+            673,
+            0,
+            858,
+            185
+          ],
+          "method": "Mitered reflections of the exact same native unit, using the repository’s four phase-matched corner geometry. Derived corners are distinct from the original fixed printer-frame corners.",
+          "set_id": "met-680571--palmette-paired-scroll-repeat",
+          "set_name": "Schön Neues Modelbuch (Page 2 recto) (met-680571) — palmette paired scroll repeat",
+          "set_role": "corner-top-right"
+        },
+        "corner-bottom-right": {
+          "png": "met/met-680571--palmette-paired-scroll-repeat--corner-bottom-right.png",
+          "png_sha256": "58da70df63d8210714f013c91f0d41e807d142b39827076da2266aa48f361de6",
+          "width": 185,
+          "height": 185,
+          "atlas_bounds": [
+            673,
+            673,
+            858,
+            858
+          ],
+          "method": "Mitered reflections of the exact same native unit, using the repository’s four phase-matched corner geometry. Derived corners are distinct from the original fixed printer-frame corners.",
+          "set_id": "met-680571--palmette-paired-scroll-repeat",
+          "set_name": "Schön Neues Modelbuch (Page 2 recto) (met-680571) — palmette paired scroll repeat",
+          "set_role": "corner-bottom-right"
+        },
+        "corner-bottom-left": {
+          "png": "met/met-680571--palmette-paired-scroll-repeat--corner-bottom-left.png",
+          "png_sha256": "a5748d25328b33837bfb5a0686cb1334b69ac3db74359df0812d46f70729ab71",
+          "width": 185,
+          "height": 185,
+          "atlas_bounds": [
+            0,
+            673,
+            185,
+            858
+          ],
+          "method": "Mitered reflections of the exact same native unit, using the repository’s four phase-matched corner geometry. Derived corners are distinct from the original fixed printer-frame corners.",
+          "set_id": "met-680571--palmette-paired-scroll-repeat",
+          "set_name": "Schön Neues Modelbuch (Page 2 recto) (met-680571) — palmette paired scroll repeat",
+          "set_role": "corner-bottom-left"
+        }
+      },
+      "usage_notes": "Use complete units for bars and round for repeat frames. Native four-corner atlas slice is 185px of 858px (21.5617715618%). The original printer frame with its thinner top band is retained as a separate fixed whole decoration.",
+      "review_history": [
+        {
+          "round": "quality-reaudit-20261010",
+          "previous_review": {
+            "status": "accepted",
+            "reviewed_on": "2026-10-10T13:28:03.260169+00:00",
+            "checks": [
+              "original-source-contours",
+              "transparent-inside-and-outside",
+              "native-PNG-and-rendered-SVG",
+              "five-unit-strip",
+              "all-four-miter-corners",
+              "native-and-vector-atlas-comparison"
+            ],
+            "notes": "The fixed printer frame preserves its original corners and thinner upper band. The separate repeat is an inspected interior lower-band palmette/paired-scroll cycle. Derived corners use only that same native unit; they are not the original fixed frame corners."
+          }
+        }
+      ],
+      "sets": [
+        {
+          "id": "met-680571-set",
+          "name": "Schön Neues Modelbuch (Page 2 recto) (met-680571)",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "An original interior printer-border cycle containing one palmette and paired curled scrolls, selected from three matching visible cycles in the lower frame band.",
+      "set_label": "Schön Neues Modelbuch (Page 2 recto) (met-680571)"
+    },
+    {
+      "id": "met-680571--palmette-scroll-printer-frame",
+      "name": "palmette-scroll-printer-frame",
+      "source_id": "met-680571",
+      "source_folder": "met",
+      "asset_type": "decoration",
+      "description": "A complete original printed rectangular frame of alternating palmettes and paired scrolls, with four original printer corner joins and a transparent text opening. The upper band is narrower than the other three sides. Part of the Schön Neues Modelbuch (Page 2 recto) (met-680571) set.",
+      "source_region": [
+        385,
+        155,
+        2560,
+        1940
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        11,
+        18,
+        2175,
+        1780
+      ],
+      "export_crop_coordinate_space": "source-region",
+      "width": 2164,
+      "height": 1762,
+      "png": "met/met-680571--palmette-scroll-printer-frame.png",
+      "png_sha256": "ba9c1c195a59fa8a48c614f5dd81a737fd42e66fab9cebad47a11338a9e9c58b",
+      "provenance": {
+        "institution": "Metropolitan Museum of Art",
+        "title": "Schön Neues Modelbuch (Page 2 recto)",
+        "object_identifier": "20.16(2r)",
+        "date": "1597",
+        "artist": "Johann Sibmacher",
+        "record_url": "https://www.metmuseum.org/art/collection/search/680571",
+        "image_rights": "CC0 Open Access; isPublicDomain=true",
+        "rights_url": "https://www.metmuseum.org/policies/image-resources",
+        "source_file": "tmp/new-assets/met/met-680571--schon-neues-modelbuch-page-2-recto.jpg",
+        "source_sha256": "da9d453a2b644ef54fa8df0adfddab42bf457abf899d8d550c4dcc836091f758",
+        "source_metadata": "tmp/new-assets/met/met-680571.json",
+        "image_url": "https://images.metmuseum.org/CRDImages/dp/original/DP363467.jpg",
+        "method": "native-ink-matting-and-editable-source-contour-trace"
+      },
+      "extraction": {
+        "method": "native-resolution ink coverage after locally measured paper removal; measured ink color and five-layer editable contour trace",
+        "source_pixels_repainted": false,
+        "source_rgb_modified": "Paper removed by measured ink coverage; RGB is the scan-measured ink tone, not an exact source-pixel crop.",
+        "paper_kernel": 61,
+        "minimum_coverage": 0.2,
+        "minimum_component_pixels": 30,
+        "export_crop": [
+          11,
+          18,
+          2175,
+          1780
+        ],
+        "ink_color": [
+          59,
+          55,
+          50
+        ],
+        "candidate_png": "tmp/extraction-work/met-680571--palmette-scroll-printer-frame--ink-candidate.png",
+        "candidate_svg": "tmp/extraction-work/met-680571--palmette-scroll-printer-frame--ink-candidate.svg",
+        "vector_method": "OpenCV native alpha contours, 0.25-pixel polygon approximation, five measured opacity layers; no embedded raster",
+        "status": "awaiting-native-and-vector-visual-review",
+        "tool": "native source ink analysis / OpenCV editable contours",
+        "source_pixels_redrawn": false
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261010",
+        "notes": "Complete original rectangular printer frame retained with all four original corners and thinner top band. Lettering and paper removed; no new uniform top repeat substituted.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": "tmp/extraction-work/quality-reaudit-20261010/manifest.json"
+      },
+      "categories": [
+        "floral",
+        "geometric"
+      ],
+      "subjects": [
+        "palmette",
+        "scroll",
+        "frame"
+      ],
+      "facing": "unclear",
+      "colors": [
+        "brown",
+        "black"
+      ],
+      "composition": "single-ornament",
+      "repeat": {
+        "status": "original-fixed-frame",
+        "note": "Original top half-height band differs from the full-height bottom and side cycles; all four original joins remain in this fixed frame."
+      },
+      "svg": "met/met-680571--palmette-scroll-printer-frame.svg",
+      "svg_sha256": "49289c969eff5dd87f2af943c7ec2deae69835ba47a97efab75ae5331871ba5f",
+      "vector_review": {
+        "status": "accepted",
+        "method": "OpenCV native alpha contours, 0.25-pixel polygon approximation, five measured opacity layers; no embedded raster",
+        "embedded_raster": false
+      },
+      "review_history": [
+        {
+          "round": "quality-reaudit-20261010",
+          "previous_review": {
+            "status": "accepted",
+            "reviewed_on": "2026-10-10T13:28:03.231278+00:00",
+            "checks": [
+              "original-source-contours",
+              "transparent-inside-and-outside",
+              "native-PNG-and-rendered-SVG",
+              "five-unit-strip",
+              "all-four-miter-corners",
+              "native-and-vector-atlas-comparison"
+            ],
+            "notes": "The fixed printer frame preserves its original corners and thinner upper band. The separate repeat is an inspected interior lower-band palmette/paired-scroll cycle. Derived corners use only that same native unit; they are not the original fixed frame corners."
+          }
+        }
+      ],
+      "sets": [
+        {
+          "id": "met-680571-set",
+          "name": "Schön Neues Modelbuch (Page 2 recto) (met-680571)",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A complete original printed rectangular frame of alternating palmettes and paired scrolls, with four original printer corner joins and a transparent text opening. The upper band is narrower than the other three sides.",
+      "set_label": "Schön Neues Modelbuch (Page 2 recto) (met-680571)"
+    },
+    {
+      "id": "met-680571--upper-row-palmettes-and-paired-scroll-cycle",
+      "name": "upper-row-palmettes-and-paired-scroll-cycle",
+      "source_id": "met-680571",
+      "source_folder": "met",
+      "asset_type": "border",
+      "description": "Original printed upper row palmettes and paired scroll cycle, with transparent paper and source-derived repeat corners. Part of the Schön Neues Modelbuch (Page 2 recto) (met-680571) set.",
+      "source_region": [
+        1253,
+        178,
+        1743,
+        283
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        0,
+        0,
+        490,
+        105
+      ],
+      "export_crop_coordinate_space": "source-region",
+      "width": 490,
+      "height": 105,
+      "png": "met/met-680571--upper-row-palmettes-and-paired-scroll-cycle.png",
+      "png_sha256": "995031662567b6b51f9a6cfea7be47962ce649783aecdab26e45632d0e9ac154",
+      "provenance": {
+        "institution": "Metropolitan Museum of Art",
+        "title": "Schön Neues Modelbuch (Page 2 recto)",
+        "object_identifier": "20.16(2r)",
+        "date": "1597",
+        "artist": "Johann Sibmacher",
+        "record_url": "https://www.metmuseum.org/art/collection/search/680571",
+        "image_rights": "CC0 Open Access; isPublicDomain=true",
+        "rights_url": "https://www.metmuseum.org/policies/image-resources",
+        "source_file": "tmp/new-assets/met/met-680571--schon-neues-modelbuch-page-2-recto.jpg",
+        "source_sha256": "da9d453a2b644ef54fa8df0adfddab42bf457abf899d8d550c4dcc836091f758",
+        "source_metadata": "tmp/new-assets/met/met-680571.json",
+        "image_url": "https://images.metmuseum.org/CRDImages/dp/original/DP363467.jpg",
+        "method": "native-interior-repeat-with-source-derived-miter-corners"
+      },
+      "extraction": {
+        "method": "Native-resolution continuous ink coverage after locally measured paper removal; PNG appearance master.",
+        "source_pixels_repainted": false,
+        "source_rgb_modified": "Paper removed by measured ink coverage; RGB is the scan-measured ink tone, not an exact source-pixel crop.",
+        "paper_kernel": 61,
+        "minimum_coverage": 0.24,
+        "minimum_component_pixels": 4,
+        "settings": {
+          "paper_kernel": 61,
+          "paper_kernel_shape": "rectangle",
+          "minimum_coverage": 0.24,
+          "minimum_component_pixels": 4,
+          "minimum_component_peak": 0.55,
+          "minimum_channel_coverage": true
+        },
+        "exclude_regions": [],
+        "export_crop": [
+          0,
+          0,
+          490,
+          105
+        ],
+        "ink_color": [
+          60,
+          56,
+          50
+        ],
+        "candidate_png": "tmp/extraction-work/met-680571--upper-row-palmettes-and-paired-scroll-cycle--ink-candidate.png",
+        "status": "awaiting-native-visual-review",
+        "repeat_build": {
+          "unit_png": "tmp/extraction-work/met-680571--upper-row-palmettes-and-paired-scroll-cycle--unit.png",
+          "bar_png": "tmp/extraction-work/met-680571--upper-row-palmettes-and-paired-scroll-cycle--bar.png",
+          "frame_png": "tmp/extraction-work/met-680571--upper-row-palmettes-and-paired-scroll-cycle--frame-atlas.png",
+          "corners": [
+            {
+              "name": "top-left",
+              "png": "tmp/extraction-work/met-680571--upper-row-palmettes-and-paired-scroll-cycle--corner-top-left.png",
+              "atlas_bounds": [
+                0,
+                0,
+                105,
+                105
+              ]
+            },
+            {
+              "name": "top-right",
+              "png": "tmp/extraction-work/met-680571--upper-row-palmettes-and-paired-scroll-cycle--corner-top-right.png",
+              "atlas_bounds": [
+                595,
+                0,
+                700,
+                105
+              ]
+            },
+            {
+              "name": "bottom-right",
+              "png": "tmp/extraction-work/met-680571--upper-row-palmettes-and-paired-scroll-cycle--corner-bottom-right.png",
+              "atlas_bounds": [
+                595,
+                595,
+                700,
+                700
+              ]
+            },
+            {
+              "name": "bottom-left",
+              "png": "tmp/extraction-work/met-680571--upper-row-palmettes-and-paired-scroll-cycle--corner-bottom-left.png",
+              "atlas_bounds": [
+                0,
+                595,
+                105,
+                700
+              ]
+            }
+          ],
+          "native_unit_size": [
+            490,
+            105
+          ],
+          "atlas_size": [
+            700,
+            700
+          ],
+          "slice_pixels": 105,
+          "slice_percent": 15.0,
+          "repeat_ratio": 4.666666666666667,
+          "join_adjustment": {
+            "pixels_at_each_end": 2,
+            "method": "average matching source collars; interior columns 2 through width-3 unchanged",
+            "source_cycle_verification": "Complete upper-row sequence of paired palmette lobes alternating with paired curled arches, directly compared at three upper-band occurrences; the upper half-row is an original printed band, not a crop inferred from a full lower cell."
+          },
+          "corner_method": "Mitered reflections of the exact same native unit, using the repository’s four phase-matched corner geometry. Derived corners are distinct from the original fixed printer-frame corners.",
+          "status": "awaiting-repeat-and-corner-visual-review"
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Complete original motif periods inspected before local native phase matching. Source ink and continuous alpha retained, all interior columns unchanged; only documented two-pixel matching collars averaged. Five-cycle strips and all four phase-derived miter corners inspected on white/dark; fixed frame keeps actual varied bands/corners. Cleaner bow impression chosen after four originals compared, no paper-fold blot repeated. Rotated units and bars are exact native 90-degree turns. No faceted trace.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/printer-next-strip-corners-1.jpg",
+          "tmp/extraction-work/continuation-20261010/printer-next-strip-corners-2.jpg",
+          "tmp/extraction-work/continuation-20261010/printer-next-strip-corners-3.jpg",
+          "tmp/extraction-work/continuation-20261010/cleaner-bow-strip-four-corners.jpg",
+          "tmp/extraction-work/continuation-20261010/printer-border-repeat-next-proof-2.jpg"
+        ]
+      },
+      "categories": [
+        "floral",
+        "scrollwork",
+        "geometric"
+      ],
+      "subjects": [
+        "palmette",
+        "scroll",
+        "leaf"
+      ],
+      "colors": [
+        "black",
+        "brown"
+      ],
+      "facing": "mixed",
+      "composition": "repeat-tile",
+      "usage_notes": "Native source ink retained with continuous alpha; full alternating original sequence preserved. Repeat/corners derived from this inspected unit, distinct from original fixed frame corners. No sharpened or faceted SVG redraw.",
+      "repeat": {
+        "rationale": "Complete upper-row sequence of paired palmette lobes alternating with paired curled arches, directly compared at three upper-band occurrences; the upper half-row is an original printed band, not a crop inferred from a full lower cell.",
+        "original_orientation": "horizontal",
+        "phase_alignment": {
+          "initial_native_bounds": [
+            1234,
+            178,
+            1725,
+            283
+          ],
+          "refined_native_bounds": [
+            1253,
+            178,
+            1743,
+            283
+          ],
+          "method": "Five native boundary columns compared only around the visually identified complete motif cycle; source motif sequence established independently before numerical local join alignment.",
+          "boundary_profile_difference": 0.13075258239668752,
+          "phase_radius_native_pixels": 20,
+          "period_radius_native_pixels": 12
+        },
+        "slice_pixels": 105,
+        "slice_percent": 15.0,
+        "repeat_ratio": 4.666666666666667,
+        "native_unit_size": [
+          490,
+          105
+        ],
+        "atlas_size": [
+          700,
+          700
+        ],
+        "join_adjustment": {
+          "pixels_at_each_end": 2,
+          "method": "average matching source collars; interior columns 2 through width-3 unchanged",
+          "source_cycle_verification": "Complete upper-row sequence of paired palmette lobes alternating with paired curled arches, directly compared at three upper-band occurrences; the upper half-row is an original printed band, not a crop inferred from a full lower cell."
+        },
+        "corner_method": "Mitered reflections of the exact same native unit, using the repository’s four phase-matched corner geometry. Derived corners are distinct from the original fixed printer-frame corners."
+      },
+      "components": {
+        "bar": {
+          "png": "met/met-680571--upper-row-palmettes-and-paired-scroll-cycle--bar.png",
+          "png_sha256": "b83fdbad03c19b270262233da8feee911f18eac43da6b7787ce15656ff8e27ef",
+          "width": 2450,
+          "height": 105,
+          "set_id": "met-680571--upper-row-palmettes-and-paired-scroll-cycle",
+          "set_name": "Schön Neues Modelbuch (Page 2 recto) (met-680571) — upper row palmettes and paired scroll cycle",
+          "set_role": "bar"
+        },
+        "frame": {
+          "png": "met/met-680571--upper-row-palmettes-and-paired-scroll-cycle--frame-atlas.png",
+          "png_sha256": "55a71e37d25d0f61aa2d01f569cf0145d713f6e2adb26e7a38acdc6131e6e4e2",
+          "width": 700,
+          "height": 700,
+          "set_id": "met-680571--upper-row-palmettes-and-paired-scroll-cycle",
+          "set_name": "Schön Neues Modelbuch (Page 2 recto) (met-680571) — upper row palmettes and paired scroll cycle",
+          "set_role": "frame"
+        },
+        "corner-top-left": {
+          "png": "met/met-680571--upper-row-palmettes-and-paired-scroll-cycle--corner-top-left.png",
+          "png_sha256": "7fa93c92ff1e94f6600de266fe07cb5d4c38593c22b1632f05266ab46b890482",
+          "width": 105,
+          "height": 105,
+          "atlas_bounds": [
+            0,
+            0,
+            105,
+            105
+          ],
+          "method": "Mitered reflections of the exact same native unit, using the repository’s four phase-matched corner geometry. Derived corners are distinct from the original fixed printer-frame corners.",
+          "set_id": "met-680571--upper-row-palmettes-and-paired-scroll-cycle",
+          "set_name": "Schön Neues Modelbuch (Page 2 recto) (met-680571) — upper row palmettes and paired scroll cycle",
+          "set_role": "corner-top-left"
+        },
+        "corner-top-right": {
+          "png": "met/met-680571--upper-row-palmettes-and-paired-scroll-cycle--corner-top-right.png",
+          "png_sha256": "cdfd80e7b16e2b507b329ab1e8a6486e7b6bfc097b8d93e63b5565d01c29854a",
+          "width": 105,
+          "height": 105,
+          "atlas_bounds": [
+            595,
+            0,
+            700,
+            105
+          ],
+          "method": "Mitered reflections of the exact same native unit, using the repository’s four phase-matched corner geometry. Derived corners are distinct from the original fixed printer-frame corners.",
+          "set_id": "met-680571--upper-row-palmettes-and-paired-scroll-cycle",
+          "set_name": "Schön Neues Modelbuch (Page 2 recto) (met-680571) — upper row palmettes and paired scroll cycle",
+          "set_role": "corner-top-right"
+        },
+        "corner-bottom-right": {
+          "png": "met/met-680571--upper-row-palmettes-and-paired-scroll-cycle--corner-bottom-right.png",
+          "png_sha256": "e1e2928474c9af860db6915e137bb66b7cb0a3d5cfe762b9c834468cd7c47f0b",
+          "width": 105,
+          "height": 105,
+          "atlas_bounds": [
+            595,
+            595,
+            700,
+            700
+          ],
+          "method": "Mitered reflections of the exact same native unit, using the repository’s four phase-matched corner geometry. Derived corners are distinct from the original fixed printer-frame corners.",
+          "set_id": "met-680571--upper-row-palmettes-and-paired-scroll-cycle",
+          "set_name": "Schön Neues Modelbuch (Page 2 recto) (met-680571) — upper row palmettes and paired scroll cycle",
+          "set_role": "corner-bottom-right"
+        },
+        "corner-bottom-left": {
+          "png": "met/met-680571--upper-row-palmettes-and-paired-scroll-cycle--corner-bottom-left.png",
+          "png_sha256": "97f7a182e8ea8b1dc341c274a4913a15ac4241da21125137ac18d560cf707967",
+          "width": 105,
+          "height": 105,
+          "atlas_bounds": [
+            0,
+            595,
+            105,
+            700
+          ],
+          "method": "Mitered reflections of the exact same native unit, using the repository’s four phase-matched corner geometry. Derived corners are distinct from the original fixed printer-frame corners.",
+          "set_id": "met-680571--upper-row-palmettes-and-paired-scroll-cycle",
+          "set_name": "Schön Neues Modelbuch (Page 2 recto) (met-680571) — upper row palmettes and paired scroll cycle",
+          "set_role": "corner-bottom-left"
+        },
+        "rotated_tile": {
+          "png": "met/met-680571--upper-row-palmettes-and-paired-scroll-cycle--rotated-tile.png",
+          "png_sha256": "c2aeee0b59005e83c00c2ff67050127a07b67e100339683eadd9b2431f9f7b08",
+          "width": 105,
+          "height": 490,
+          "method": "Pixel-exact clockwise 90-degree transpose of its own accepted native master.",
+          "set_id": "met-680571--upper-row-palmettes-and-paired-scroll-cycle",
+          "set_name": "Schön Neues Modelbuch (Page 2 recto) (met-680571) — upper row palmettes and paired scroll cycle",
+          "set_role": "rotated_tile"
+        },
+        "rotated_bar": {
+          "png": "met/met-680571--upper-row-palmettes-and-paired-scroll-cycle--rotated-bar.png",
+          "png_sha256": "aa3f1d0ff047bc2b87af827df6b600ad7a14256f51e00cf734bdb23421bb76ac",
+          "width": 105,
+          "height": 2450,
+          "method": "Pixel-exact clockwise 90-degree transpose of its own accepted native master.",
+          "set_id": "met-680571--upper-row-palmettes-and-paired-scroll-cycle",
+          "set_name": "Schön Neues Modelbuch (Page 2 recto) (met-680571) — upper row palmettes and paired scroll cycle",
+          "set_role": "rotated_bar"
+        }
+      },
+      "sets": [
+        {
+          "id": "met-680571-set",
+          "name": "Schön Neues Modelbuch (Page 2 recto) (met-680571)",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "Original printed upper row palmettes and paired scroll cycle, with transparent paper and source-derived repeat corners.",
+      "set_label": "Schön Neues Modelbuch (Page 2 recto) (met-680571)"
+    },
+    {
+      "id": "met-680571--upright-palmettes-and-four-lobed-scroll-cycle",
+      "name": "upright-palmettes-and-four-lobed-scroll-cycle",
+      "source_id": "met-680571",
+      "source_folder": "met",
+      "asset_type": "border",
+      "description": "Original printed upright palmettes and four lobed scroll cycle, with transparent paper and source-derived repeat corners. Part of the Schön Neues Modelbuch (Page 2 recto) (met-680571) set.",
+      "source_region": [
+        1404,
+        1744,
+        1855,
+        1928
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        0,
+        0,
+        451,
+        184
+      ],
+      "export_crop_coordinate_space": "source-region",
+      "width": 451,
+      "height": 184,
+      "png": "met/met-680571--upright-palmettes-and-four-lobed-scroll-cycle.png",
+      "png_sha256": "9844ea94088949b83d178fe75f2121a5947f0f67350479c7047db29a5b8c6e18",
+      "provenance": {
+        "institution": "Metropolitan Museum of Art",
+        "title": "Schön Neues Modelbuch (Page 2 recto)",
+        "object_identifier": "20.16(2r)",
+        "date": "1597",
+        "artist": "Johann Sibmacher",
+        "record_url": "https://www.metmuseum.org/art/collection/search/680571",
+        "image_rights": "CC0 Open Access; isPublicDomain=true",
+        "rights_url": "https://www.metmuseum.org/policies/image-resources",
+        "source_file": "tmp/new-assets/met/met-680571--schon-neues-modelbuch-page-2-recto.jpg",
+        "source_sha256": "da9d453a2b644ef54fa8df0adfddab42bf457abf899d8d550c4dcc836091f758",
+        "source_metadata": "tmp/new-assets/met/met-680571.json",
+        "image_url": "https://images.metmuseum.org/CRDImages/dp/original/DP363467.jpg",
+        "method": "native-interior-repeat-with-source-derived-miter-corners"
+      },
+      "extraction": {
+        "method": "Native-resolution continuous ink coverage after locally measured paper removal; PNG appearance master.",
+        "source_pixels_repainted": false,
+        "source_rgb_modified": "Paper removed by measured ink coverage; RGB is the scan-measured ink tone, not an exact source-pixel crop.",
+        "paper_kernel": 61,
+        "minimum_coverage": 0.24,
+        "minimum_component_pixels": 4,
+        "settings": {
+          "paper_kernel": 61,
+          "paper_kernel_shape": "rectangle",
+          "minimum_coverage": 0.24,
+          "minimum_component_pixels": 4,
+          "minimum_component_peak": 0.55,
+          "minimum_channel_coverage": true
+        },
+        "exclude_regions": [],
+        "export_crop": [
+          0,
+          0,
+          451,
+          184
+        ],
+        "ink_color": [
+          57,
+          53,
+          48
+        ],
+        "candidate_png": "tmp/extraction-work/met-680571--upright-palmettes-and-four-lobed-scroll-cycle--ink-candidate.png",
+        "status": "awaiting-native-visual-review",
+        "repeat_build": {
+          "unit_png": "tmp/extraction-work/met-680571--upright-palmettes-and-four-lobed-scroll-cycle--unit.png",
+          "bar_png": "tmp/extraction-work/met-680571--upright-palmettes-and-four-lobed-scroll-cycle--bar.png",
+          "frame_png": "tmp/extraction-work/met-680571--upright-palmettes-and-four-lobed-scroll-cycle--frame-atlas.png",
+          "corners": [
+            {
+              "name": "top-left",
+              "png": "tmp/extraction-work/met-680571--upright-palmettes-and-four-lobed-scroll-cycle--corner-top-left.png",
+              "atlas_bounds": [
+                0,
+                0,
+                184,
+                184
+              ]
+            },
+            {
+              "name": "top-right",
+              "png": "tmp/extraction-work/met-680571--upright-palmettes-and-four-lobed-scroll-cycle--corner-top-right.png",
+              "atlas_bounds": [
+                635,
+                0,
+                819,
+                184
+              ]
+            },
+            {
+              "name": "bottom-right",
+              "png": "tmp/extraction-work/met-680571--upright-palmettes-and-four-lobed-scroll-cycle--corner-bottom-right.png",
+              "atlas_bounds": [
+                635,
+                635,
+                819,
+                819
+              ]
+            },
+            {
+              "name": "bottom-left",
+              "png": "tmp/extraction-work/met-680571--upright-palmettes-and-four-lobed-scroll-cycle--corner-bottom-left.png",
+              "atlas_bounds": [
+                0,
+                635,
+                184,
+                819
+              ]
+            }
+          ],
+          "native_unit_size": [
+            451,
+            184
+          ],
+          "atlas_size": [
+            819,
+            819
+          ],
+          "slice_pixels": 184,
+          "slice_percent": 22.466422466422465,
+          "repeat_ratio": 2.4510869565217392,
+          "join_adjustment": {
+            "pixels_at_each_end": 2,
+            "method": "average matching source collars; interior columns 2 through width-3 unchanged",
+            "source_cycle_verification": "The complete alternating upright palmette and four-lobed scroll sequence, inspected at three consecutive positions in the lower printer border. The different left terminal and rotated first palmette are excluded."
+          },
+          "corner_method": "Mitered reflections of the exact same native unit, using the repository’s four phase-matched corner geometry. Derived corners are distinct from the original fixed printer-frame corners.",
+          "status": "awaiting-repeat-and-corner-visual-review"
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Complete original motif periods inspected before local native phase matching. Source ink and continuous alpha retained, all interior columns unchanged; only documented two-pixel matching collars averaged. Five-cycle strips and all four phase-derived miter corners inspected on white/dark; fixed frame keeps actual varied bands/corners. Cleaner bow impression chosen after four originals compared, no paper-fold blot repeated. Rotated units and bars are exact native 90-degree turns. No faceted trace.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/printer-next-strip-corners-1.jpg",
+          "tmp/extraction-work/continuation-20261010/printer-next-strip-corners-2.jpg",
+          "tmp/extraction-work/continuation-20261010/printer-next-strip-corners-3.jpg",
+          "tmp/extraction-work/continuation-20261010/cleaner-bow-strip-four-corners.jpg",
+          "tmp/extraction-work/continuation-20261010/printer-border-repeat-next-proof-2.jpg"
+        ]
+      },
+      "categories": [
+        "floral",
+        "scrollwork",
+        "geometric"
+      ],
+      "subjects": [
+        "palmette",
+        "scroll",
+        "leaf"
+      ],
+      "colors": [
+        "black",
+        "brown"
+      ],
+      "facing": "mixed",
+      "composition": "repeat-tile",
+      "usage_notes": "Native source ink retained with continuous alpha; full alternating original sequence preserved. Repeat/corners derived from this inspected unit, distinct from original fixed frame corners. No sharpened or faceted SVG redraw.",
+      "repeat": {
+        "rationale": "The complete alternating upright palmette and four-lobed scroll sequence, inspected at three consecutive positions in the lower printer border. The different left terminal and rotated first palmette are excluded.",
+        "original_orientation": "horizontal",
+        "phase_alignment": {
+          "initial_native_bounds": [
+            1393,
+            1744,
+            1851,
+            1928
+          ],
+          "refined_native_bounds": [
+            1404,
+            1744,
+            1855,
+            1928
+          ],
+          "method": "Five native boundary columns compared only around the visually identified complete motif cycle; source motif sequence established independently before numerical local join alignment.",
+          "boundary_profile_difference": 0.19067757854447379,
+          "phase_radius_native_pixels": 20,
+          "period_radius_native_pixels": 12
+        },
+        "slice_pixels": 184,
+        "slice_percent": 22.466422466422465,
+        "repeat_ratio": 2.4510869565217392,
+        "native_unit_size": [
+          451,
+          184
+        ],
+        "atlas_size": [
+          819,
+          819
+        ],
+        "join_adjustment": {
+          "pixels_at_each_end": 2,
+          "method": "average matching source collars; interior columns 2 through width-3 unchanged",
+          "source_cycle_verification": "The complete alternating upright palmette and four-lobed scroll sequence, inspected at three consecutive positions in the lower printer border. The different left terminal and rotated first palmette are excluded."
+        },
+        "corner_method": "Mitered reflections of the exact same native unit, using the repository’s four phase-matched corner geometry. Derived corners are distinct from the original fixed printer-frame corners."
+      },
+      "components": {
+        "bar": {
+          "png": "met/met-680571--upright-palmettes-and-four-lobed-scroll-cycle--bar.png",
+          "png_sha256": "ffc35a4cce157e578673fa5da71fd3fc5068206cb002a20dffdce3d8fde3a168",
+          "width": 2255,
+          "height": 184,
+          "set_id": "met-680571--upright-palmettes-and-four-lobed-scroll-cycle",
+          "set_name": "Schön Neues Modelbuch (Page 2 recto) (met-680571) — upright palmettes and four lobed scroll cycle",
+          "set_role": "bar"
+        },
+        "frame": {
+          "png": "met/met-680571--upright-palmettes-and-four-lobed-scroll-cycle--frame-atlas.png",
+          "png_sha256": "a1fb0f2d2c42bbc81197e0a78e24df1dcfaea1d91e5a0bd345e825004557e9d3",
+          "width": 819,
+          "height": 819,
+          "set_id": "met-680571--upright-palmettes-and-four-lobed-scroll-cycle",
+          "set_name": "Schön Neues Modelbuch (Page 2 recto) (met-680571) — upright palmettes and four lobed scroll cycle",
+          "set_role": "frame"
+        },
+        "corner-top-left": {
+          "png": "met/met-680571--upright-palmettes-and-four-lobed-scroll-cycle--corner-top-left.png",
+          "png_sha256": "06f6afc3a55c0aba49e21028c5a3e6ec8f4766016df1e726f36baf27b59febf5",
+          "width": 184,
+          "height": 184,
+          "atlas_bounds": [
+            0,
+            0,
+            184,
+            184
+          ],
+          "method": "Mitered reflections of the exact same native unit, using the repository’s four phase-matched corner geometry. Derived corners are distinct from the original fixed printer-frame corners.",
+          "set_id": "met-680571--upright-palmettes-and-four-lobed-scroll-cycle",
+          "set_name": "Schön Neues Modelbuch (Page 2 recto) (met-680571) — upright palmettes and four lobed scroll cycle",
+          "set_role": "corner-top-left"
+        },
+        "corner-top-right": {
+          "png": "met/met-680571--upright-palmettes-and-four-lobed-scroll-cycle--corner-top-right.png",
+          "png_sha256": "dbd536602ead294182f43d126eb3e086dd89e2ecaa5b6f6b18c70f4710341303",
+          "width": 184,
+          "height": 184,
+          "atlas_bounds": [
+            635,
+            0,
+            819,
+            184
+          ],
+          "method": "Mitered reflections of the exact same native unit, using the repository’s four phase-matched corner geometry. Derived corners are distinct from the original fixed printer-frame corners.",
+          "set_id": "met-680571--upright-palmettes-and-four-lobed-scroll-cycle",
+          "set_name": "Schön Neues Modelbuch (Page 2 recto) (met-680571) — upright palmettes and four lobed scroll cycle",
+          "set_role": "corner-top-right"
+        },
+        "corner-bottom-right": {
+          "png": "met/met-680571--upright-palmettes-and-four-lobed-scroll-cycle--corner-bottom-right.png",
+          "png_sha256": "5c529d101ae42ad0baaf018272426d1443109cf0ea330373d74652730edd7948",
+          "width": 184,
+          "height": 184,
+          "atlas_bounds": [
+            635,
+            635,
+            819,
+            819
+          ],
+          "method": "Mitered reflections of the exact same native unit, using the repository’s four phase-matched corner geometry. Derived corners are distinct from the original fixed printer-frame corners.",
+          "set_id": "met-680571--upright-palmettes-and-four-lobed-scroll-cycle",
+          "set_name": "Schön Neues Modelbuch (Page 2 recto) (met-680571) — upright palmettes and four lobed scroll cycle",
+          "set_role": "corner-bottom-right"
+        },
+        "corner-bottom-left": {
+          "png": "met/met-680571--upright-palmettes-and-four-lobed-scroll-cycle--corner-bottom-left.png",
+          "png_sha256": "4df15b32d4b6bd6b499a9c6c11b6adfdc6e484ffc0d32686257bd55de8c14400",
+          "width": 184,
+          "height": 184,
+          "atlas_bounds": [
+            0,
+            635,
+            184,
+            819
+          ],
+          "method": "Mitered reflections of the exact same native unit, using the repository’s four phase-matched corner geometry. Derived corners are distinct from the original fixed printer-frame corners.",
+          "set_id": "met-680571--upright-palmettes-and-four-lobed-scroll-cycle",
+          "set_name": "Schön Neues Modelbuch (Page 2 recto) (met-680571) — upright palmettes and four lobed scroll cycle",
+          "set_role": "corner-bottom-left"
+        },
+        "rotated_tile": {
+          "png": "met/met-680571--upright-palmettes-and-four-lobed-scroll-cycle--rotated-tile.png",
+          "png_sha256": "e5d17890dfd87ae538c6b0f91ec29949c6b20d1177a299034447fb206faa7672",
+          "width": 184,
+          "height": 451,
+          "method": "Pixel-exact clockwise 90-degree transpose of its own accepted native master.",
+          "set_id": "met-680571--upright-palmettes-and-four-lobed-scroll-cycle",
+          "set_name": "Schön Neues Modelbuch (Page 2 recto) (met-680571) — upright palmettes and four lobed scroll cycle",
+          "set_role": "rotated_tile"
+        },
+        "rotated_bar": {
+          "png": "met/met-680571--upright-palmettes-and-four-lobed-scroll-cycle--rotated-bar.png",
+          "png_sha256": "5e60b21e5d6fcfe731454e234d285b97ff9b9e8065eef6cc6faf126ada345943",
+          "width": 184,
+          "height": 2255,
+          "method": "Pixel-exact clockwise 90-degree transpose of its own accepted native master.",
+          "set_id": "met-680571--upright-palmettes-and-four-lobed-scroll-cycle",
+          "set_name": "Schön Neues Modelbuch (Page 2 recto) (met-680571) — upright palmettes and four lobed scroll cycle",
+          "set_role": "rotated_bar"
+        }
+      },
+      "sets": [
+        {
+          "id": "met-680571-set",
+          "name": "Schön Neues Modelbuch (Page 2 recto) (met-680571)",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "Original printed upright palmettes and four lobed scroll cycle, with transparent paper and source-derived repeat corners.",
+      "set_label": "Schön Neues Modelbuch (Page 2 recto) (met-680571)"
+    }
+  ]
+}

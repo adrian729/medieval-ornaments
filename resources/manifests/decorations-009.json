@@ -1,0 +1,3913 @@
+{
+  "schemaVersion": 2,
+  "id": "decorations-009",
+  "collection": "decorations",
+  "package": "@ranx729/medieval-ornaments-assets-decorations-009",
+  "version": "0.1.0",
+  "designs": {
+    "blue-dragon-head-with-orange-tongue": {
+      "name": "blue-dragon-head-with-orange-tongue",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 339,
+      "height": 304,
+      "png": "png/blue-dragon-head-with-orange-tongue.png",
+      "webp": "webp/blue-dragon-head-with-orange-tongue.webp",
+      "png_bytes": 144471,
+      "webp_bytes": 104054,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/blue-dragon-head-with-orange-tongue.png",
+          "webp": "webp/128/blue-dragon-head-with-orange-tongue.webp",
+          "width": 128,
+          "height": 115,
+          "png_bytes": 23913,
+          "webp_bytes": 18034
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/blue-dragon-head-with-orange-tongue.png",
+          "webp": "webp/256/blue-dragon-head-with-orange-tongue.webp",
+          "width": 256,
+          "height": 230,
+          "png_bytes": 85963,
+          "webp_bytes": 63398
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "blue-inlay-with-white-opposed-chevron-chain": {
+      "name": "blue-inlay-with-white-opposed-chevron-chain",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-source-extraction",
+      "repeat_axis": "none",
+      "width": 174,
+      "height": 530,
+      "png": "png/blue-inlay-with-white-opposed-chevron-chain.png",
+      "webp": "webp/blue-inlay-with-white-opposed-chevron-chain.webp",
+      "png_bytes": 171674,
+      "webp_bytes": 134294,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/blue-inlay-with-white-opposed-chevron-chain.png",
+          "webp": "webp/128/blue-inlay-with-white-opposed-chevron-chain.webp",
+          "width": 42,
+          "height": 128,
+          "png_bytes": 12508,
+          "webp_bytes": 12186
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/blue-inlay-with-white-opposed-chevron-chain.png",
+          "webp": "webp/256/blue-inlay-with-white-opposed-chevron-chain.webp",
+          "width": 84,
+          "height": 256,
+          "png_bytes": 43379,
+          "webp_bytes": 38302
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/blue-inlay-with-white-opposed-chevron-chain.png",
+          "webp": "webp/512/blue-inlay-with-white-opposed-chevron-chain.webp",
+          "width": 168,
+          "height": 512,
+          "png_bytes": 158309,
+          "webp_bytes": 135116
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "blue-serrated-floret-with-red-gold-center": {
+      "name": "blue-serrated-floret-with-red-gold-center",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-source-extraction",
+      "repeat_axis": "none",
+      "width": 245,
+      "height": 240,
+      "png": "png/blue-serrated-floret-with-red-gold-center.png",
+      "webp": "webp/blue-serrated-floret-with-red-gold-center.webp",
+      "png_bytes": 29506,
+      "webp_bytes": 23760,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/blue-serrated-floret-with-red-gold-center.png",
+          "webp": "webp/128/blue-serrated-floret-with-red-gold-center.webp",
+          "width": 128,
+          "height": 125,
+          "png_bytes": 10263,
+          "webp_bytes": 8976
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "blue-webbed-fan-leaf": {
+      "name": "blue-webbed-fan-leaf",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 568,
+      "height": 868,
+      "png": "png/blue-webbed-fan-leaf.png",
+      "webp": "webp/blue-webbed-fan-leaf.webp",
+      "png_bytes": 483600,
+      "webp_bytes": 349790,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/blue-webbed-fan-leaf.png",
+          "webp": "webp/128/blue-webbed-fan-leaf.webp",
+          "width": 84,
+          "height": 128,
+          "png_bytes": 15279,
+          "webp_bytes": 11596
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/blue-webbed-fan-leaf.png",
+          "webp": "webp/256/blue-webbed-fan-leaf.webp",
+          "width": 168,
+          "height": 256,
+          "png_bytes": 51235,
+          "webp_bytes": 37848
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/blue-webbed-fan-leaf.png",
+          "webp": "webp/512/blue-webbed-fan-leaf.webp",
+          "width": 335,
+          "height": 512,
+          "png_bytes": 180481,
+          "webp_bytes": 133828
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/blue-webbed-fan-leaf.png",
+          "webp": "webp/768/blue-webbed-fan-leaf.webp",
+          "width": 503,
+          "height": 768,
+          "png_bytes": 383001,
+          "webp_bytes": 285916
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "fixed-floral-page-margin-with-acanthus-and-gold-ivy-walters-w186-285r": {
+      "name": "fixed-floral-page-margin-with-acanthus-and-gold-ivy-walters-w186-285r",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 1082,
+      "height": 1445,
+      "png": "png/fixed-floral-page-margin-with-acanthus-and-gold-ivy-walters-w186-285r.png",
+      "webp": "webp/fixed-floral-page-margin-with-acanthus-and-gold-ivy-walters-w186-285r.webp",
+      "png_bytes": 1989799,
+      "webp_bytes": 1677558,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/fixed-floral-page-margin-with-acanthus-and-gold-ivy-walters-w186-285r.png",
+          "webp": "webp/128/fixed-floral-page-margin-with-acanthus-and-gold-ivy-walters-w186-285r.webp",
+          "width": 96,
+          "height": 128,
+          "png_bytes": 26516,
+          "webp_bytes": 23068
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/fixed-floral-page-margin-with-acanthus-and-gold-ivy-walters-w186-285r.png",
+          "webp": "webp/256/fixed-floral-page-margin-with-acanthus-and-gold-ivy-walters-w186-285r.webp",
+          "width": 192,
+          "height": 256,
+          "png_bytes": 92250,
+          "webp_bytes": 76864
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/fixed-floral-page-margin-with-acanthus-and-gold-ivy-walters-w186-285r.png",
+          "webp": "webp/512/fixed-floral-page-margin-with-acanthus-and-gold-ivy-walters-w186-285r.webp",
+          "width": 383,
+          "height": 512,
+          "png_bytes": 316106,
+          "webp_bytes": 263640
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/fixed-floral-page-margin-with-acanthus-and-gold-ivy-walters-w186-285r.png",
+          "webp": "webp/768/fixed-floral-page-margin-with-acanthus-and-gold-ivy-walters-w186-285r.webp",
+          "width": 575,
+          "height": 768,
+          "png_bytes": 659680,
+          "webp_bytes": 536476
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "fixed-floral-page-margin-with-acanthus-and-gold-ivy-walters-w186-291v": {
+      "name": "fixed-floral-page-margin-with-acanthus-and-gold-ivy-walters-w186-291v",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 1072,
+      "height": 1443,
+      "png": "png/fixed-floral-page-margin-with-acanthus-and-gold-ivy-walters-w186-291v.png",
+      "webp": "webp/fixed-floral-page-margin-with-acanthus-and-gold-ivy-walters-w186-291v.webp",
+      "png_bytes": 1903485,
+      "webp_bytes": 1608398,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/fixed-floral-page-margin-with-acanthus-and-gold-ivy-walters-w186-291v.png",
+          "webp": "webp/128/fixed-floral-page-margin-with-acanthus-and-gold-ivy-walters-w186-291v.webp",
+          "width": 95,
+          "height": 128,
+          "png_bytes": 25896,
+          "webp_bytes": 22582
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/fixed-floral-page-margin-with-acanthus-and-gold-ivy-walters-w186-291v.png",
+          "webp": "webp/256/fixed-floral-page-margin-with-acanthus-and-gold-ivy-walters-w186-291v.webp",
+          "width": 190,
+          "height": 256,
+          "png_bytes": 89388,
+          "webp_bytes": 73638
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/fixed-floral-page-margin-with-acanthus-and-gold-ivy-walters-w186-291v.png",
+          "webp": "webp/512/fixed-floral-page-margin-with-acanthus-and-gold-ivy-walters-w186-291v.webp",
+          "width": 380,
+          "height": 512,
+          "png_bytes": 305420,
+          "webp_bytes": 253680
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/fixed-floral-page-margin-with-acanthus-and-gold-ivy-walters-w186-291v.png",
+          "webp": "webp/768/fixed-floral-page-margin-with-acanthus-and-gold-ivy-walters-w186-291v.webp",
+          "width": 571,
+          "height": 768,
+          "png_bytes": 633609,
+          "webp_bytes": 519698
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "fixed-rectangular-gold-blue-and-red-foliate-panel": {
+      "name": "fixed-rectangular-gold-blue-and-red-foliate-panel",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 1364,
+      "height": 1138,
+      "png": "png/fixed-rectangular-gold-blue-and-red-foliate-panel.png",
+      "webp": "webp/fixed-rectangular-gold-blue-and-red-foliate-panel.webp",
+      "png_bytes": 2724077,
+      "webp_bytes": 2012218,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/fixed-rectangular-gold-blue-and-red-foliate-panel.png",
+          "webp": "webp/128/fixed-rectangular-gold-blue-and-red-foliate-panel.webp",
+          "width": 128,
+          "height": 107,
+          "png_bytes": 33043,
+          "webp_bytes": 27674
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/fixed-rectangular-gold-blue-and-red-foliate-panel.png",
+          "webp": "webp/256/fixed-rectangular-gold-blue-and-red-foliate-panel.webp",
+          "width": 256,
+          "height": 214,
+          "png_bytes": 121011,
+          "webp_bytes": 96114
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/fixed-rectangular-gold-blue-and-red-foliate-panel.png",
+          "webp": "webp/512/fixed-rectangular-gold-blue-and-red-foliate-panel.webp",
+          "width": 512,
+          "height": 427,
+          "png_bytes": 443003,
+          "webp_bytes": 335666
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/fixed-rectangular-gold-blue-and-red-foliate-panel.png",
+          "webp": "webp/768/fixed-rectangular-gold-blue-and-red-foliate-panel.webp",
+          "width": 768,
+          "height": 641,
+          "png_bytes": 946078,
+          "webp_bytes": 705094
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "four-armed-green-feathered-floret-with-red-gold-center": {
+      "name": "four-armed-green-feathered-floret-with-red-gold-center",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-source-extraction",
+      "repeat_axis": "none",
+      "width": 210,
+      "height": 215,
+      "png": "png/four-armed-green-feathered-floret-with-red-gold-center.png",
+      "webp": "webp/four-armed-green-feathered-floret-with-red-gold-center.webp",
+      "png_bytes": 40680,
+      "webp_bytes": 32190,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/four-armed-green-feathered-floret-with-red-gold-center.png",
+          "webp": "webp/128/four-armed-green-feathered-floret-with-red-gold-center.webp",
+          "width": 125,
+          "height": 128,
+          "png_bytes": 16466,
+          "webp_bytes": 13726
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "grapevine-with-two-purple-clusters-and-lobed-leaves": {
+      "name": "grapevine-with-two-purple-clusters-and-lobed-leaves",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 944,
+      "height": 1623,
+      "png": "png/grapevine-with-two-purple-clusters-and-lobed-leaves.png",
+      "webp": "webp/grapevine-with-two-purple-clusters-and-lobed-leaves.webp",
+      "png_bytes": 1631645,
+      "webp_bytes": 1257854,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/grapevine-with-two-purple-clusters-and-lobed-leaves.png",
+          "webp": "webp/128/grapevine-with-two-purple-clusters-and-lobed-leaves.webp",
+          "width": 74,
+          "height": 128,
+          "png_bytes": 19436,
+          "webp_bytes": 16624
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/grapevine-with-two-purple-clusters-and-lobed-leaves.png",
+          "webp": "webp/256/grapevine-with-two-purple-clusters-and-lobed-leaves.webp",
+          "width": 149,
+          "height": 256,
+          "png_bytes": 63768,
+          "webp_bytes": 52422
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/grapevine-with-two-purple-clusters-and-lobed-leaves.png",
+          "webp": "webp/512/grapevine-with-two-purple-clusters-and-lobed-leaves.webp",
+          "width": 298,
+          "height": 512,
+          "png_bytes": 208361,
+          "webp_bytes": 163378
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/grapevine-with-two-purple-clusters-and-lobed-leaves.png",
+          "webp": "webp/768/grapevine-with-two-purple-clusters-and-lobed-leaves.webp",
+          "width": 447,
+          "height": 768,
+          "png_bytes": 427397,
+          "webp_bytes": 334836
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "green-gold-leaf-and-flower-flourish": {
+      "name": "green-gold-leaf-and-flower-flourish",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 1187,
+      "height": 1247,
+      "png": "png/green-gold-leaf-and-flower-flourish.png",
+      "webp": "webp/green-gold-leaf-and-flower-flourish.webp",
+      "png_bytes": 1368618,
+      "webp_bytes": 1027142,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/green-gold-leaf-and-flower-flourish.png",
+          "webp": "webp/128/green-gold-leaf-and-flower-flourish.webp",
+          "width": 122,
+          "height": 128,
+          "png_bytes": 25026,
+          "webp_bytes": 20680
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/green-gold-leaf-and-flower-flourish.png",
+          "webp": "webp/256/green-gold-leaf-and-flower-flourish.webp",
+          "width": 244,
+          "height": 256,
+          "png_bytes": 79757,
+          "webp_bytes": 63226
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/green-gold-leaf-and-flower-flourish.png",
+          "webp": "webp/512/green-gold-leaf-and-flower-flourish.webp",
+          "width": 487,
+          "height": 512,
+          "png_bytes": 265794,
+          "webp_bytes": 205260
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/green-gold-leaf-and-flower-flourish.png",
+          "webp": "webp/768/green-gold-leaf-and-flower-flourish.webp",
+          "width": 731,
+          "height": 768,
+          "png_bytes": 561199,
+          "webp_bytes": 429892
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "green-lobed-leaf-with-pointed-tip": {
+      "name": "green-lobed-leaf-with-pointed-tip",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-source-extraction",
+      "repeat_axis": "none",
+      "width": 480,
+      "height": 545,
+      "png": "png/green-lobed-leaf-with-pointed-tip.png",
+      "webp": "webp/green-lobed-leaf-with-pointed-tip.webp",
+      "png_bytes": 276676,
+      "webp_bytes": 221446,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/green-lobed-leaf-with-pointed-tip.png",
+          "webp": "webp/128/green-lobed-leaf-with-pointed-tip.webp",
+          "width": 113,
+          "height": 128,
+          "png_bytes": 19738,
+          "webp_bytes": 15090
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/green-lobed-leaf-with-pointed-tip.png",
+          "webp": "webp/256/green-lobed-leaf-with-pointed-tip.webp",
+          "width": 225,
+          "height": 256,
+          "png_bytes": 65395,
+          "webp_bytes": 50858
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/green-lobed-leaf-with-pointed-tip.png",
+          "webp": "webp/512/green-lobed-leaf-with-pointed-tip.webp",
+          "width": 451,
+          "height": 512,
+          "png_bytes": 239535,
+          "webp_bytes": 194494
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "horizontal-floral-spray-with-blue-flowers-and-green-curled-stem": {
+      "name": "horizontal-floral-spray-with-blue-flowers-and-green-curled-stem",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-source-extraction",
+      "repeat_axis": "none",
+      "width": 4445,
+      "height": 904,
+      "png": "png/horizontal-floral-spray-with-blue-flowers-and-green-curled-stem.png",
+      "webp": "webp/horizontal-floral-spray-with-blue-flowers-and-green-curled-stem.webp",
+      "png_bytes": 3108033,
+      "webp_bytes": 2599776,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/horizontal-floral-spray-with-blue-flowers-and-green-curled-stem.png",
+          "webp": "webp/128/horizontal-floral-spray-with-blue-flowers-and-green-curled-stem.webp",
+          "width": 128,
+          "height": 26,
+          "png_bytes": 8131,
+          "webp_bytes": 6434
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/horizontal-floral-spray-with-blue-flowers-and-green-curled-stem.png",
+          "webp": "webp/256/horizontal-floral-spray-with-blue-flowers-and-green-curled-stem.webp",
+          "width": 256,
+          "height": 52,
+          "png_bytes": 26090,
+          "webp_bytes": 19872
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/horizontal-floral-spray-with-blue-flowers-and-green-curled-stem.png",
+          "webp": "webp/512/horizontal-floral-spray-with-blue-flowers-and-green-curled-stem.webp",
+          "width": 512,
+          "height": 104,
+          "png_bytes": 81796,
+          "webp_bytes": 63446
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/horizontal-floral-spray-with-blue-flowers-and-green-curled-stem.png",
+          "webp": "webp/768/horizontal-floral-spray-with-blue-flowers-and-green-curled-stem.webp",
+          "width": 768,
+          "height": 156,
+          "png_bytes": 158863,
+          "webp_bytes": 125848
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "inner-red-and-blue-leaf-scroll": {
+      "name": "inner-red-and-blue-leaf-scroll",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 653,
+      "height": 846,
+      "png": "png/inner-red-and-blue-leaf-scroll.png",
+      "webp": "webp/inner-red-and-blue-leaf-scroll.webp",
+      "png_bytes": 955113,
+      "webp_bytes": 716278,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/inner-red-and-blue-leaf-scroll.png",
+          "webp": "webp/128/inner-red-and-blue-leaf-scroll.webp",
+          "width": 99,
+          "height": 128,
+          "png_bytes": 36324,
+          "webp_bytes": 29678
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/inner-red-and-blue-leaf-scroll.png",
+          "webp": "webp/256/inner-red-and-blue-leaf-scroll.webp",
+          "width": 198,
+          "height": 256,
+          "png_bytes": 117898,
+          "webp_bytes": 91394
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/inner-red-and-blue-leaf-scroll.png",
+          "webp": "webp/512/inner-red-and-blue-leaf-scroll.webp",
+          "width": 395,
+          "height": 512,
+          "png_bytes": 392563,
+          "webp_bytes": 299608
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/inner-red-and-blue-leaf-scroll.png",
+          "webp": "webp/768/inner-red-and-blue-leaf-scroll.webp",
+          "width": 593,
+          "height": 768,
+          "png_bytes": 811914,
+          "webp_bytes": 617824
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "interlaced-blue-red-foliage": {
+      "name": "interlaced-blue-red-foliage",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 813,
+      "height": 967,
+      "png": "png/interlaced-blue-red-foliage.png",
+      "webp": "webp/interlaced-blue-red-foliage.webp",
+      "png_bytes": 1341235,
+      "webp_bytes": 980806,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/interlaced-blue-red-foliage.png",
+          "webp": "webp/128/interlaced-blue-red-foliage.webp",
+          "width": 108,
+          "height": 128,
+          "png_bytes": 36723,
+          "webp_bytes": 31190
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/interlaced-blue-red-foliage.png",
+          "webp": "webp/256/interlaced-blue-red-foliage.webp",
+          "width": 215,
+          "height": 256,
+          "png_bytes": 121468,
+          "webp_bytes": 91992
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/interlaced-blue-red-foliage.png",
+          "webp": "webp/512/interlaced-blue-red-foliage.webp",
+          "width": 430,
+          "height": 512,
+          "png_bytes": 416150,
+          "webp_bytes": 307954
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/interlaced-blue-red-foliage.png",
+          "webp": "webp/768/interlaced-blue-red-foliage.webp",
+          "width": 646,
+          "height": 768,
+          "png_bytes": 883095,
+          "webp_bytes": 651624
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "left-and-lower-floral-margin-with-acanthus-and-gold-ivy": {
+      "name": "left-and-lower-floral-margin-with-acanthus-and-gold-ivy",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 1045,
+      "height": 1459,
+      "png": "png/left-and-lower-floral-margin-with-acanthus-and-gold-ivy.png",
+      "webp": "webp/left-and-lower-floral-margin-with-acanthus-and-gold-ivy.webp",
+      "png_bytes": 1878604,
+      "webp_bytes": 1608590,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/left-and-lower-floral-margin-with-acanthus-and-gold-ivy.png",
+          "webp": "webp/128/left-and-lower-floral-margin-with-acanthus-and-gold-ivy.webp",
+          "width": 92,
+          "height": 128,
+          "png_bytes": 21820,
+          "webp_bytes": 20156
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/left-and-lower-floral-margin-with-acanthus-and-gold-ivy.png",
+          "webp": "webp/256/left-and-lower-floral-margin-with-acanthus-and-gold-ivy.webp",
+          "width": 183,
+          "height": 256,
+          "png_bytes": 79448,
+          "webp_bytes": 71224
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/left-and-lower-floral-margin-with-acanthus-and-gold-ivy.png",
+          "webp": "webp/512/left-and-lower-floral-margin-with-acanthus-and-gold-ivy.webp",
+          "width": 367,
+          "height": 512,
+          "png_bytes": 288928,
+          "webp_bytes": 244746
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/left-and-lower-floral-margin-with-acanthus-and-gold-ivy.png",
+          "webp": "webp/768/left-and-lower-floral-margin-with-acanthus-and-gold-ivy.webp",
+          "width": 550,
+          "height": 768,
+          "png_bytes": 603011,
+          "webp_bytes": 509450
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "left-two-flower-black-twig-with-gold-berry": {
+      "name": "left-two-flower-black-twig-with-gold-berry",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 306,
+      "height": 371,
+      "png": "png/left-two-flower-black-twig-with-gold-berry.png",
+      "webp": "webp/left-two-flower-black-twig-with-gold-berry.webp",
+      "png_bytes": 125494,
+      "webp_bytes": 92562,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/left-two-flower-black-twig-with-gold-berry.png",
+          "webp": "webp/128/left-two-flower-black-twig-with-gold-berry.webp",
+          "width": 106,
+          "height": 128,
+          "png_bytes": 19708,
+          "webp_bytes": 15756
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/left-two-flower-black-twig-with-gold-berry.png",
+          "webp": "webp/256/left-two-flower-black-twig-with-gold-berry.webp",
+          "width": 211,
+          "height": 256,
+          "png_bytes": 65981,
+          "webp_bytes": 50576
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "lobed-floral-blue-scroll": {
+      "name": "lobed-floral-blue-scroll",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 797,
+      "height": 1065,
+      "png": "png/lobed-floral-blue-scroll.png",
+      "webp": "webp/lobed-floral-blue-scroll.webp",
+      "png_bytes": 1023484,
+      "webp_bytes": 759524,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/lobed-floral-blue-scroll.png",
+          "webp": "webp/128/lobed-floral-blue-scroll.webp",
+          "width": 96,
+          "height": 128,
+          "png_bytes": 26518,
+          "webp_bytes": 21912
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/lobed-floral-blue-scroll.png",
+          "webp": "webp/256/lobed-floral-blue-scroll.webp",
+          "width": 192,
+          "height": 256,
+          "png_bytes": 84382,
+          "webp_bytes": 62788
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/lobed-floral-blue-scroll.png",
+          "webp": "webp/512/lobed-floral-blue-scroll.webp",
+          "width": 383,
+          "height": 512,
+          "png_bytes": 274889,
+          "webp_bytes": 203632
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/lobed-floral-blue-scroll.png",
+          "webp": "webp/768/lobed-floral-blue-scroll.webp",
+          "width": 575,
+          "height": 768,
+          "png_bytes": 570586,
+          "webp_bytes": 425610
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "lower-gold-rod-with-red-blue-and-gold-foliate-branch-walters-w171-19v": {
+      "name": "lower-gold-rod-with-red-blue-and-gold-foliate-branch-walters-w171-19v",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 1399,
+      "height": 1027,
+      "png": "png/lower-gold-rod-with-red-blue-and-gold-foliate-branch-walters-w171-19v.png",
+      "webp": "webp/lower-gold-rod-with-red-blue-and-gold-foliate-branch-walters-w171-19v.webp",
+      "png_bytes": 640647,
+      "webp_bytes": 483368,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/lower-gold-rod-with-red-blue-and-gold-foliate-branch-walters-w171-19v.png",
+          "webp": "webp/128/lower-gold-rod-with-red-blue-and-gold-foliate-branch-walters-w171-19v.webp",
+          "width": 128,
+          "height": 94,
+          "png_bytes": 11404,
+          "webp_bytes": 9332
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/lower-gold-rod-with-red-blue-and-gold-foliate-branch-walters-w171-19v.png",
+          "webp": "webp/256/lower-gold-rod-with-red-blue-and-gold-foliate-branch-walters-w171-19v.webp",
+          "width": 256,
+          "height": 188,
+          "png_bytes": 35228,
+          "webp_bytes": 29254
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/lower-gold-rod-with-red-blue-and-gold-foliate-branch-walters-w171-19v.png",
+          "webp": "webp/512/lower-gold-rod-with-red-blue-and-gold-foliate-branch-walters-w171-19v.webp",
+          "width": 512,
+          "height": 376,
+          "png_bytes": 111288,
+          "webp_bytes": 84588
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/lower-gold-rod-with-red-blue-and-gold-foliate-branch-walters-w171-19v.png",
+          "webp": "webp/768/lower-gold-rod-with-red-blue-and-gold-foliate-branch-walters-w171-19v.webp",
+          "width": 768,
+          "height": 564,
+          "png_bytes": 224757,
+          "webp_bytes": 169822
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "lower-gold-rod-with-red-blue-and-gold-foliate-branch-walters-w171-74r": {
+      "name": "lower-gold-rod-with-red-blue-and-gold-foliate-branch-walters-w171-74r",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 1385,
+      "height": 1066,
+      "png": "png/lower-gold-rod-with-red-blue-and-gold-foliate-branch-walters-w171-74r.png",
+      "webp": "webp/lower-gold-rod-with-red-blue-and-gold-foliate-branch-walters-w171-74r.webp",
+      "png_bytes": 681969,
+      "webp_bytes": 513848,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/lower-gold-rod-with-red-blue-and-gold-foliate-branch-walters-w171-74r.png",
+          "webp": "webp/128/lower-gold-rod-with-red-blue-and-gold-foliate-branch-walters-w171-74r.webp",
+          "width": 128,
+          "height": 99,
+          "png_bytes": 12167,
+          "webp_bytes": 9952
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/lower-gold-rod-with-red-blue-and-gold-foliate-branch-walters-w171-74r.png",
+          "webp": "webp/256/lower-gold-rod-with-red-blue-and-gold-foliate-branch-walters-w171-74r.webp",
+          "width": 256,
+          "height": 197,
+          "png_bytes": 36989,
+          "webp_bytes": 31152
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/lower-gold-rod-with-red-blue-and-gold-foliate-branch-walters-w171-74r.png",
+          "webp": "webp/512/lower-gold-rod-with-red-blue-and-gold-foliate-branch-walters-w171-74r.webp",
+          "width": 512,
+          "height": 394,
+          "png_bytes": 117770,
+          "webp_bytes": 89458
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/lower-gold-rod-with-red-blue-and-gold-foliate-branch-walters-w171-74r.png",
+          "webp": "webp/768/lower-gold-rod-with-red-blue-and-gold-foliate-branch-walters-w171-74r.webp",
+          "width": 768,
+          "height": 591,
+          "png_bytes": 239221,
+          "webp_bytes": 180970
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "lower-left-gold-and-pink-rod-with-ivy-flourish-walters-w171-10r": {
+      "name": "lower-left-gold-and-pink-rod-with-ivy-flourish-walters-w171-10r",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 1050,
+      "height": 1438,
+      "png": "png/lower-left-gold-and-pink-rod-with-ivy-flourish-walters-w171-10r.png",
+      "webp": "webp/lower-left-gold-and-pink-rod-with-ivy-flourish-walters-w171-10r.webp",
+      "png_bytes": 574160,
+      "webp_bytes": 425378,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/lower-left-gold-and-pink-rod-with-ivy-flourish-walters-w171-10r.png",
+          "webp": "webp/128/lower-left-gold-and-pink-rod-with-ivy-flourish-walters-w171-10r.webp",
+          "width": 93,
+          "height": 128,
+          "png_bytes": 9841,
+          "webp_bytes": 7854
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/lower-left-gold-and-pink-rod-with-ivy-flourish-walters-w171-10r.png",
+          "webp": "webp/256/lower-left-gold-and-pink-rod-with-ivy-flourish-walters-w171-10r.webp",
+          "width": 187,
+          "height": 256,
+          "png_bytes": 29578,
+          "webp_bytes": 24842
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/lower-left-gold-and-pink-rod-with-ivy-flourish-walters-w171-10r.png",
+          "webp": "webp/512/lower-left-gold-and-pink-rod-with-ivy-flourish-walters-w171-10r.webp",
+          "width": 374,
+          "height": 512,
+          "png_bytes": 93136,
+          "webp_bytes": 69864
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/lower-left-gold-and-pink-rod-with-ivy-flourish-walters-w171-10r.png",
+          "webp": "webp/768/lower-left-gold-and-pink-rod-with-ivy-flourish-walters-w171-10r.webp",
+          "width": 561,
+          "height": 768,
+          "png_bytes": 187890,
+          "webp_bytes": 141096
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "lower-left-gold-and-pink-rod-with-ivy-flourish-walters-w171-12r": {
+      "name": "lower-left-gold-and-pink-rod-with-ivy-flourish-walters-w171-12r",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 1092,
+      "height": 1402,
+      "png": "png/lower-left-gold-and-pink-rod-with-ivy-flourish-walters-w171-12r.png",
+      "webp": "webp/lower-left-gold-and-pink-rod-with-ivy-flourish-walters-w171-12r.webp",
+      "png_bytes": 572016,
+      "webp_bytes": 423802,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/lower-left-gold-and-pink-rod-with-ivy-flourish-walters-w171-12r.png",
+          "webp": "webp/128/lower-left-gold-and-pink-rod-with-ivy-flourish-walters-w171-12r.webp",
+          "width": 100,
+          "height": 128,
+          "png_bytes": 9908,
+          "webp_bytes": 7770
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/lower-left-gold-and-pink-rod-with-ivy-flourish-walters-w171-12r.png",
+          "webp": "webp/256/lower-left-gold-and-pink-rod-with-ivy-flourish-walters-w171-12r.webp",
+          "width": 199,
+          "height": 256,
+          "png_bytes": 29464,
+          "webp_bytes": 24528
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/lower-left-gold-and-pink-rod-with-ivy-flourish-walters-w171-12r.png",
+          "webp": "webp/512/lower-left-gold-and-pink-rod-with-ivy-flourish-walters-w171-12r.webp",
+          "width": 399,
+          "height": 512,
+          "png_bytes": 94428,
+          "webp_bytes": 70796
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/lower-left-gold-and-pink-rod-with-ivy-flourish-walters-w171-12r.png",
+          "webp": "webp/768/lower-left-gold-and-pink-rod-with-ivy-flourish-walters-w171-12r.webp",
+          "width": 598,
+          "height": 768,
+          "png_bytes": 194347,
+          "webp_bytes": 144800
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "lower-left-knotted-red-and-blue-leaf": {
+      "name": "lower-left-knotted-red-and-blue-leaf",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 412,
+      "height": 295,
+      "png": "png/lower-left-knotted-red-and-blue-leaf.png",
+      "webp": "webp/lower-left-knotted-red-and-blue-leaf.webp",
+      "png_bytes": 186983,
+      "webp_bytes": 138534,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/lower-left-knotted-red-and-blue-leaf.png",
+          "webp": "webp/128/lower-left-knotted-red-and-blue-leaf.webp",
+          "width": 128,
+          "height": 92,
+          "png_bytes": 21209,
+          "webp_bytes": 16726
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/lower-left-knotted-red-and-blue-leaf.png",
+          "webp": "webp/256/lower-left-knotted-red-and-blue-leaf.webp",
+          "width": 256,
+          "height": 183,
+          "png_bytes": 76248,
+          "webp_bytes": 58538
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "lower-red-gold-and-blue-leaf-spray": {
+      "name": "lower-red-gold-and-blue-leaf-spray",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 992,
+      "height": 1016,
+      "png": "png/lower-red-gold-and-blue-leaf-spray.png",
+      "webp": "webp/lower-red-gold-and-blue-leaf-spray.webp",
+      "png_bytes": 1239835,
+      "webp_bytes": 896122,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/lower-red-gold-and-blue-leaf-spray.png",
+          "webp": "webp/128/lower-red-gold-and-blue-leaf-spray.webp",
+          "width": 125,
+          "height": 128,
+          "png_bytes": 27790,
+          "webp_bytes": 22076
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/lower-red-gold-and-blue-leaf-spray.png",
+          "webp": "webp/256/lower-red-gold-and-blue-leaf-spray.webp",
+          "width": 250,
+          "height": 256,
+          "png_bytes": 95437,
+          "webp_bytes": 72836
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/lower-red-gold-and-blue-leaf-spray.png",
+          "webp": "webp/512/lower-red-gold-and-blue-leaf-spray.webp",
+          "width": 500,
+          "height": 512,
+          "png_bytes": 343434,
+          "webp_bytes": 253998
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/lower-red-gold-and-blue-leaf-spray.png",
+          "webp": "webp/768/lower-red-gold-and-blue-leaf-spray.webp",
+          "width": 750,
+          "height": 768,
+          "png_bytes": 736244,
+          "webp_bytes": 549786
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "oval-blue-celestial-scene-with-gold-stars-and-crescent": {
+      "name": "oval-blue-celestial-scene-with-gold-stars-and-crescent",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-source-extraction",
+      "repeat_axis": "none",
+      "width": 1900,
+      "height": 2830,
+      "png": "png/oval-blue-celestial-scene-with-gold-stars-and-crescent.png",
+      "webp": "webp/oval-blue-celestial-scene-with-gold-stars-and-crescent.webp",
+      "png_bytes": 9354857,
+      "webp_bytes": 7331574,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/oval-blue-celestial-scene-with-gold-stars-and-crescent.png",
+          "webp": "webp/128/oval-blue-celestial-scene-with-gold-stars-and-crescent.webp",
+          "width": 86,
+          "height": 128,
+          "png_bytes": 22440,
+          "webp_bytes": 18184
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/oval-blue-celestial-scene-with-gold-stars-and-crescent.png",
+          "webp": "webp/256/oval-blue-celestial-scene-with-gold-stars-and-crescent.webp",
+          "width": 172,
+          "height": 256,
+          "png_bytes": 83341,
+          "webp_bytes": 64564
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/oval-blue-celestial-scene-with-gold-stars-and-crescent.png",
+          "webp": "webp/512/oval-blue-celestial-scene-with-gold-stars-and-crescent.webp",
+          "width": 344,
+          "height": 512,
+          "png_bytes": 322052,
+          "webp_bytes": 250424
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/oval-blue-celestial-scene-with-gold-stars-and-crescent.png",
+          "webp": "webp/768/oval-blue-celestial-scene-with-gold-stars-and-crescent.webp",
+          "width": 516,
+          "height": 768,
+          "png_bytes": 708069,
+          "webp_bytes": 561904
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "pink-flower-and-green-scroll-flourish": {
+      "name": "pink-flower-and-green-scroll-flourish",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 998,
+      "height": 1536,
+      "png": "png/pink-flower-and-green-scroll-flourish.png",
+      "webp": "webp/pink-flower-and-green-scroll-flourish.webp",
+      "png_bytes": 1393768,
+      "webp_bytes": 1036722,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/pink-flower-and-green-scroll-flourish.png",
+          "webp": "webp/128/pink-flower-and-green-scroll-flourish.webp",
+          "width": 83,
+          "height": 128,
+          "png_bytes": 19046,
+          "webp_bytes": 16346
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/pink-flower-and-green-scroll-flourish.png",
+          "webp": "webp/256/pink-flower-and-green-scroll-flourish.webp",
+          "width": 166,
+          "height": 256,
+          "png_bytes": 60568,
+          "webp_bytes": 48242
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/pink-flower-and-green-scroll-flourish.png",
+          "webp": "webp/512/pink-flower-and-green-scroll-flourish.webp",
+          "width": 333,
+          "height": 512,
+          "png_bytes": 198112,
+          "webp_bytes": 154020
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/pink-flower-and-green-scroll-flourish.png",
+          "webp": "webp/768/pink-flower-and-green-scroll-flourish.webp",
+          "width": 499,
+          "height": 768,
+          "png_bytes": 406630,
+          "webp_bytes": 308976
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "pink-inlay-with-white-opposed-chevron-chain": {
+      "name": "pink-inlay-with-white-opposed-chevron-chain",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-source-extraction",
+      "repeat_axis": "none",
+      "width": 184,
+      "height": 620,
+      "png": "png/pink-inlay-with-white-opposed-chevron-chain.png",
+      "webp": "webp/pink-inlay-with-white-opposed-chevron-chain.webp",
+      "png_bytes": 201923,
+      "webp_bytes": 159318,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/pink-inlay-with-white-opposed-chevron-chain.png",
+          "webp": "webp/128/pink-inlay-with-white-opposed-chevron-chain.webp",
+          "width": 38,
+          "height": 128,
+          "png_bytes": 10822,
+          "webp_bytes": 9996
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/pink-inlay-with-white-opposed-chevron-chain.png",
+          "webp": "webp/256/pink-inlay-with-white-opposed-chevron-chain.webp",
+          "width": 76,
+          "height": 256,
+          "png_bytes": 38411,
+          "webp_bytes": 32100
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/pink-inlay-with-white-opposed-chevron-chain.png",
+          "webp": "webp/512/pink-inlay-with-white-opposed-chevron-chain.webp",
+          "width": 152,
+          "height": 512,
+          "png_bytes": 137346,
+          "webp_bytes": 117338
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "small-irregular-gold-star": {
+      "name": "small-irregular-gold-star",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 222,
+      "height": 199,
+      "png": "png/small-irregular-gold-star.png",
+      "webp": "webp/small-irregular-gold-star.webp",
+      "png_bytes": 41757,
+      "webp_bytes": 33488,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/small-irregular-gold-star.png",
+          "webp": "webp/128/small-irregular-gold-star.webp",
+          "width": 128,
+          "height": 115,
+          "png_bytes": 16218,
+          "webp_bytes": 12510
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "small-red-gold-painted-roundel": {
+      "name": "small-red-gold-painted-roundel",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-source-extraction",
+      "repeat_axis": "none",
+      "width": 102,
+      "height": 100,
+      "png": "png/small-red-gold-painted-roundel.png",
+      "webp": "webp/small-red-gold-painted-roundel.webp",
+      "png_bytes": 13065,
+      "webp_bytes": 11088,
+      "variants": [],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "tall-floral-bar-with-knotted-red-blue-ribbons": {
+      "name": "tall-floral-bar-with-knotted-red-blue-ribbons",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-source-extraction",
+      "repeat_axis": "none",
+      "width": 723,
+      "height": 7671,
+      "png": "png/tall-floral-bar-with-knotted-red-blue-ribbons.png",
+      "webp": "webp/tall-floral-bar-with-knotted-red-blue-ribbons.webp",
+      "png_bytes": 5719419,
+      "webp_bytes": 4752192,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/tall-floral-bar-with-knotted-red-blue-ribbons.png",
+          "webp": "webp/128/tall-floral-bar-with-knotted-red-blue-ribbons.webp",
+          "width": 12,
+          "height": 128,
+          "png_bytes": 5397,
+          "webp_bytes": 4440
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/tall-floral-bar-with-knotted-red-blue-ribbons.png",
+          "webp": "webp/256/tall-floral-bar-with-knotted-red-blue-ribbons.webp",
+          "width": 24,
+          "height": 256,
+          "png_bytes": 17585,
+          "webp_bytes": 14144
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/tall-floral-bar-with-knotted-red-blue-ribbons.png",
+          "webp": "webp/512/tall-floral-bar-with-knotted-red-blue-ribbons.webp",
+          "width": 48,
+          "height": 512,
+          "png_bytes": 56058,
+          "webp_bytes": 45336
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/tall-floral-bar-with-knotted-red-blue-ribbons.png",
+          "webp": "webp/768/tall-floral-bar-with-knotted-red-blue-ribbons.webp",
+          "width": 72,
+          "height": 768,
+          "png_bytes": 109199,
+          "webp_bytes": 90804
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "thin-red-and-gold-fixed-miniature-frame": {
+      "name": "thin-red-and-gold-fixed-miniature-frame",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 1060,
+      "height": 1470,
+      "png": "png/thin-red-and-gold-fixed-miniature-frame.png",
+      "webp": "webp/thin-red-and-gold-fixed-miniature-frame.webp",
+      "png_bytes": 607262,
+      "webp_bytes": 462224,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/thin-red-and-gold-fixed-miniature-frame.png",
+          "webp": "webp/128/thin-red-and-gold-fixed-miniature-frame.webp",
+          "width": 92,
+          "height": 128,
+          "png_bytes": 7647,
+          "webp_bytes": 7368
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/thin-red-and-gold-fixed-miniature-frame.png",
+          "webp": "webp/256/thin-red-and-gold-fixed-miniature-frame.webp",
+          "width": 185,
+          "height": 256,
+          "png_bytes": 26092,
+          "webp_bytes": 24118
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/thin-red-and-gold-fixed-miniature-frame.png",
+          "webp": "webp/512/thin-red-and-gold-fixed-miniature-frame.webp",
+          "width": 369,
+          "height": 512,
+          "png_bytes": 87768,
+          "webp_bytes": 72446
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/thin-red-and-gold-fixed-miniature-frame.png",
+          "webp": "webp/768/thin-red-and-gold-fixed-miniature-frame.webp",
+          "width": 554,
+          "height": 768,
+          "png_bytes": 184335,
+          "webp_bytes": 145382
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "three-gold-trefoils-on-connected-serpentine-scroll": {
+      "name": "three-gold-trefoils-on-connected-serpentine-scroll",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-source-extraction",
+      "repeat_axis": "none",
+      "width": 1549,
+      "height": 501,
+      "png": "png/three-gold-trefoils-on-connected-serpentine-scroll.png",
+      "webp": "webp/three-gold-trefoils-on-connected-serpentine-scroll.webp",
+      "png_bytes": 849878,
+      "webp_bytes": 714712,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/three-gold-trefoils-on-connected-serpentine-scroll.png",
+          "webp": "webp/128/three-gold-trefoils-on-connected-serpentine-scroll.webp",
+          "width": 128,
+          "height": 41,
+          "png_bytes": 10613,
+          "webp_bytes": 8822
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/three-gold-trefoils-on-connected-serpentine-scroll.png",
+          "webp": "webp/256/three-gold-trefoils-on-connected-serpentine-scroll.webp",
+          "width": 256,
+          "height": 83,
+          "png_bytes": 34232,
+          "webp_bytes": 28020
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/three-gold-trefoils-on-connected-serpentine-scroll.png",
+          "webp": "webp/512/three-gold-trefoils-on-connected-serpentine-scroll.webp",
+          "width": 512,
+          "height": 166,
+          "png_bytes": 114350,
+          "webp_bytes": 93558
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/three-gold-trefoils-on-connected-serpentine-scroll.png",
+          "webp": "webp/768/three-gold-trefoils-on-connected-serpentine-scroll.webp",
+          "width": 768,
+          "height": 248,
+          "png_bytes": 234460,
+          "webp_bytes": 198284
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "two-gold-pointed-leaves-on-fine-curled-stem": {
+      "name": "two-gold-pointed-leaves-on-fine-curled-stem",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-source-extraction",
+      "repeat_axis": "none",
+      "width": 447,
+      "height": 1009,
+      "png": "png/two-gold-pointed-leaves-on-fine-curled-stem.png",
+      "webp": "webp/two-gold-pointed-leaves-on-fine-curled-stem.webp",
+      "png_bytes": 195830,
+      "webp_bytes": 155746,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/two-gold-pointed-leaves-on-fine-curled-stem.png",
+          "webp": "webp/128/two-gold-pointed-leaves-on-fine-curled-stem.webp",
+          "width": 57,
+          "height": 128,
+          "png_bytes": 7625,
+          "webp_bytes": 5226
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/two-gold-pointed-leaves-on-fine-curled-stem.png",
+          "webp": "webp/256/two-gold-pointed-leaves-on-fine-curled-stem.webp",
+          "width": 113,
+          "height": 256,
+          "png_bytes": 21096,
+          "webp_bytes": 15276
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/two-gold-pointed-leaves-on-fine-curled-stem.png",
+          "webp": "webp/512/two-gold-pointed-leaves-on-fine-curled-stem.webp",
+          "width": 227,
+          "height": 512,
+          "png_bytes": 63261,
+          "webp_bytes": 51016
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/two-gold-pointed-leaves-on-fine-curled-stem.png",
+          "webp": "webp/768/two-gold-pointed-leaves-on-fine-curled-stem.webp",
+          "width": 340,
+          "height": 768,
+          "png_bytes": 126068,
+          "webp_bytes": 104392
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "upper-blue-and-rust-ivy-sprig": {
+      "name": "upper-blue-and-rust-ivy-sprig",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 1149,
+      "height": 939,
+      "png": "png/upper-blue-and-rust-ivy-sprig.png",
+      "webp": "webp/upper-blue-and-rust-ivy-sprig.webp",
+      "png_bytes": 551533,
+      "webp_bytes": 431532,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/upper-blue-and-rust-ivy-sprig.png",
+          "webp": "webp/128/upper-blue-and-rust-ivy-sprig.webp",
+          "width": 128,
+          "height": 105,
+          "png_bytes": 13237,
+          "webp_bytes": 10214
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/upper-blue-and-rust-ivy-sprig.png",
+          "webp": "webp/256/upper-blue-and-rust-ivy-sprig.webp",
+          "width": 256,
+          "height": 209,
+          "png_bytes": 40439,
+          "webp_bytes": 32506
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/upper-blue-and-rust-ivy-sprig.png",
+          "webp": "webp/512/upper-blue-and-rust-ivy-sprig.webp",
+          "width": 512,
+          "height": 418,
+          "png_bytes": 131831,
+          "webp_bytes": 103114
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/upper-blue-and-rust-ivy-sprig.png",
+          "webp": "webp/768/upper-blue-and-rust-ivy-sprig.webp",
+          "width": 768,
+          "height": 628,
+          "png_bytes": 271683,
+          "webp_bytes": 211942
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "upper-gold-rod-with-red-blue-and-gold-foliate-branch-walters-w171-19v": {
+      "name": "upper-gold-rod-with-red-blue-and-gold-foliate-branch-walters-w171-19v",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 1271,
+      "height": 1182,
+      "png": "png/upper-gold-rod-with-red-blue-and-gold-foliate-branch-walters-w171-19v.png",
+      "webp": "webp/upper-gold-rod-with-red-blue-and-gold-foliate-branch-walters-w171-19v.webp",
+      "png_bytes": 599890,
+      "webp_bytes": 460576,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/upper-gold-rod-with-red-blue-and-gold-foliate-branch-walters-w171-19v.png",
+          "webp": "webp/128/upper-gold-rod-with-red-blue-and-gold-foliate-branch-walters-w171-19v.webp",
+          "width": 128,
+          "height": 119,
+          "png_bytes": 11831,
+          "webp_bytes": 9396
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/upper-gold-rod-with-red-blue-and-gold-foliate-branch-walters-w171-19v.png",
+          "webp": "webp/256/upper-gold-rod-with-red-blue-and-gold-foliate-branch-walters-w171-19v.webp",
+          "width": 256,
+          "height": 238,
+          "png_bytes": 36551,
+          "webp_bytes": 29910
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/upper-gold-rod-with-red-blue-and-gold-foliate-branch-walters-w171-19v.png",
+          "webp": "webp/512/upper-gold-rod-with-red-blue-and-gold-foliate-branch-walters-w171-19v.webp",
+          "width": 512,
+          "height": 476,
+          "png_bytes": 116974,
+          "webp_bytes": 90358
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/upper-gold-rod-with-red-blue-and-gold-foliate-branch-walters-w171-19v.png",
+          "webp": "webp/768/upper-gold-rod-with-red-blue-and-gold-foliate-branch-walters-w171-19v.webp",
+          "width": 768,
+          "height": 714,
+          "png_bytes": 243430,
+          "webp_bytes": 187346
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "upper-gold-rod-with-red-blue-and-gold-foliate-branch-walters-w171-74r": {
+      "name": "upper-gold-rod-with-red-blue-and-gold-foliate-branch-walters-w171-74r",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 1149,
+      "height": 1289,
+      "png": "png/upper-gold-rod-with-red-blue-and-gold-foliate-branch-walters-w171-74r.png",
+      "webp": "webp/upper-gold-rod-with-red-blue-and-gold-foliate-branch-walters-w171-74r.webp",
+      "png_bytes": 515685,
+      "webp_bytes": 389124,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/upper-gold-rod-with-red-blue-and-gold-foliate-branch-walters-w171-74r.png",
+          "webp": "webp/128/upper-gold-rod-with-red-blue-and-gold-foliate-branch-walters-w171-74r.webp",
+          "width": 114,
+          "height": 128,
+          "png_bytes": 9952,
+          "webp_bytes": 8048
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/upper-gold-rod-with-red-blue-and-gold-foliate-branch-walters-w171-74r.png",
+          "webp": "webp/256/upper-gold-rod-with-red-blue-and-gold-foliate-branch-walters-w171-74r.webp",
+          "width": 228,
+          "height": 256,
+          "png_bytes": 31150,
+          "webp_bytes": 25872
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/upper-gold-rod-with-red-blue-and-gold-foliate-branch-walters-w171-74r.png",
+          "webp": "webp/512/upper-gold-rod-with-red-blue-and-gold-foliate-branch-walters-w171-74r.webp",
+          "width": 456,
+          "height": 512,
+          "png_bytes": 98959,
+          "webp_bytes": 74590
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/upper-gold-rod-with-red-blue-and-gold-foliate-branch-walters-w171-74r.png",
+          "webp": "webp/768/upper-gold-rod-with-red-blue-and-gold-foliate-branch-walters-w171-74r.webp",
+          "width": 685,
+          "height": 768,
+          "png_bytes": 203248,
+          "webp_bytes": 153838
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "upper-left-gray-curled-ivy-with-gold-and-blue-trefoils": {
+      "name": "upper-left-gray-curled-ivy-with-gold-and-blue-trefoils",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-source-extraction",
+      "repeat_axis": "none",
+      "width": 1307,
+      "height": 1256,
+      "png": "png/upper-left-gray-curled-ivy-with-gold-and-blue-trefoils.png",
+      "webp": "webp/upper-left-gray-curled-ivy-with-gold-and-blue-trefoils.webp",
+      "png_bytes": 864114,
+      "webp_bytes": 725524,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/upper-left-gray-curled-ivy-with-gold-and-blue-trefoils.png",
+          "webp": "webp/128/upper-left-gray-curled-ivy-with-gold-and-blue-trefoils.webp",
+          "width": 128,
+          "height": 123,
+          "png_bytes": 16663,
+          "webp_bytes": 12564
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/upper-left-gray-curled-ivy-with-gold-and-blue-trefoils.png",
+          "webp": "webp/256/upper-left-gray-curled-ivy-with-gold-and-blue-trefoils.webp",
+          "width": 256,
+          "height": 246,
+          "png_bytes": 50358,
+          "webp_bytes": 38996
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/upper-left-gray-curled-ivy-with-gold-and-blue-trefoils.png",
+          "webp": "webp/512/upper-left-gray-curled-ivy-with-gold-and-blue-trefoils.webp",
+          "width": 512,
+          "height": 492,
+          "png_bytes": 163462,
+          "webp_bytes": 131442
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/upper-left-gray-curled-ivy-with-gold-and-blue-trefoils.png",
+          "webp": "webp/768/upper-left-gray-curled-ivy-with-gold-and-blue-trefoils.webp",
+          "width": 768,
+          "height": 738,
+          "png_bytes": 332054,
+          "webp_bytes": 276682
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "upper-left-pink-ivy-flourish": {
+      "name": "upper-left-pink-ivy-flourish",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 1413,
+      "height": 1035,
+      "png": "png/upper-left-pink-ivy-flourish.png",
+      "webp": "webp/upper-left-pink-ivy-flourish.webp",
+      "png_bytes": 787090,
+      "webp_bytes": 585860,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/upper-left-pink-ivy-flourish.png",
+          "webp": "webp/128/upper-left-pink-ivy-flourish.webp",
+          "width": 128,
+          "height": 94,
+          "png_bytes": 13837,
+          "webp_bytes": 10736
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/upper-left-pink-ivy-flourish.png",
+          "webp": "webp/256/upper-left-pink-ivy-flourish.webp",
+          "width": 256,
+          "height": 188,
+          "png_bytes": 42791,
+          "webp_bytes": 33770
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/upper-left-pink-ivy-flourish.png",
+          "webp": "webp/512/upper-left-pink-ivy-flourish.webp",
+          "width": 512,
+          "height": 375,
+          "png_bytes": 133351,
+          "webp_bytes": 100308
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/upper-left-pink-ivy-flourish.png",
+          "webp": "webp/768/upper-left-pink-ivy-flourish.webp",
+          "width": 768,
+          "height": 563,
+          "png_bytes": 269802,
+          "webp_bytes": 201098
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "upper-red-gold-and-blue-leaf-spray": {
+      "name": "upper-red-gold-and-blue-leaf-spray",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 1199,
+      "height": 898,
+      "png": "png/upper-red-gold-and-blue-leaf-spray.png",
+      "webp": "webp/upper-red-gold-and-blue-leaf-spray.webp",
+      "png_bytes": 1118869,
+      "webp_bytes": 842952,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/upper-red-gold-and-blue-leaf-spray.png",
+          "webp": "webp/128/upper-red-gold-and-blue-leaf-spray.webp",
+          "width": 128,
+          "height": 96,
+          "png_bytes": 19243,
+          "webp_bytes": 15868
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/upper-red-gold-and-blue-leaf-spray.png",
+          "webp": "webp/256/upper-red-gold-and-blue-leaf-spray.webp",
+          "width": 256,
+          "height": 192,
+          "png_bytes": 65553,
+          "webp_bytes": 51668
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/upper-red-gold-and-blue-leaf-spray.png",
+          "webp": "webp/512/upper-red-gold-and-blue-leaf-spray.webp",
+          "width": 512,
+          "height": 383,
+          "png_bytes": 229756,
+          "webp_bytes": 178590
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/upper-red-gold-and-blue-leaf-spray.png",
+          "webp": "webp/768/upper-red-gold-and-blue-leaf-spray.webp",
+          "width": 768,
+          "height": 575,
+          "png_bytes": 490561,
+          "webp_bytes": 374766
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "upper-right-red-lobed-leaf-terminal": {
+      "name": "upper-right-red-lobed-leaf-terminal",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 274,
+      "height": 479,
+      "png": "png/upper-right-red-lobed-leaf-terminal.png",
+      "webp": "webp/upper-right-red-lobed-leaf-terminal.webp",
+      "png_bytes": 176908,
+      "webp_bytes": 128862,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/upper-right-red-lobed-leaf-terminal.png",
+          "webp": "webp/128/upper-right-red-lobed-leaf-terminal.webp",
+          "width": 73,
+          "height": 128,
+          "png_bytes": 15669,
+          "webp_bytes": 13420
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/upper-right-red-lobed-leaf-terminal.png",
+          "webp": "webp/256/upper-right-red-lobed-leaf-terminal.webp",
+          "width": 146,
+          "height": 256,
+          "png_bytes": 55252,
+          "webp_bytes": 43126
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "upper-two-flower-black-twig-with-gold-berry": {
+      "name": "upper-two-flower-black-twig-with-gold-berry",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 655,
+      "height": 581,
+      "png": "png/upper-two-flower-black-twig-with-gold-berry.png",
+      "webp": "webp/upper-two-flower-black-twig-with-gold-berry.webp",
+      "png_bytes": 267889,
+      "webp_bytes": 202064,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/upper-two-flower-black-twig-with-gold-berry.png",
+          "webp": "webp/128/upper-two-flower-black-twig-with-gold-berry.webp",
+          "width": 128,
+          "height": 114,
+          "png_bytes": 16831,
+          "webp_bytes": 12612
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/upper-two-flower-black-twig-with-gold-berry.png",
+          "webp": "webp/256/upper-two-flower-black-twig-with-gold-berry.webp",
+          "width": 256,
+          "height": 227,
+          "png_bytes": 52544,
+          "webp_bytes": 40408
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/upper-two-flower-black-twig-with-gold-berry.png",
+          "webp": "webp/512/upper-two-flower-black-twig-with-gold-berry.webp",
+          "width": 512,
+          "height": 454,
+          "png_bytes": 175655,
+          "webp_bytes": 134020
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "worn-gold-crescent-moon": {
+      "name": "worn-gold-crescent-moon",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-source-extraction",
+      "repeat_axis": "none",
+      "width": 409,
+      "height": 219,
+      "png": "png/worn-gold-crescent-moon.png",
+      "webp": "webp/worn-gold-crescent-moon.webp",
+      "png_bytes": 88552,
+      "webp_bytes": 72450,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/worn-gold-crescent-moon.png",
+          "webp": "webp/128/worn-gold-crescent-moon.webp",
+          "width": 128,
+          "height": 69,
+          "png_bytes": 10907,
+          "webp_bytes": 9446
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/worn-gold-crescent-moon.png",
+          "webp": "webp/256/worn-gold-crescent-moon.webp",
+          "width": 256,
+          "height": 137,
+          "png_bytes": 36994,
+          "webp_bytes": 31716
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    }
+  },
+  "files": {
+    "png/128/blue-dragon-head-with-orange-tongue.png": {
+      "bytes": 23913,
+      "sha256": "95abbdb86d035ccae70e06542fdf67d82d9dcdc0eac5a07654cceee9bf9151d7"
+    },
+    "png/128/blue-inlay-with-white-opposed-chevron-chain.png": {
+      "bytes": 12508,
+      "sha256": "c20fa95a57425f6d1f00575d4fb919a8fa8ec784977fb5a872de25b85440b9a1"
+    },
+    "png/128/blue-serrated-floret-with-red-gold-center.png": {
+      "bytes": 10263,
+      "sha256": "ae621d86172977c219d6f97fb55cf87e92cd0b7c119e325b1af2aec00a3969c5"
+    },
+    "png/128/blue-webbed-fan-leaf.png": {
+      "bytes": 15279,
+      "sha256": "40ecfeffe9cbb16682d7b584dac110ff670cfa4dc4ff4eb19addbd8d2a436481"
+    },
+    "png/128/fixed-floral-page-margin-with-acanthus-and-gold-ivy-walters-w186-285r.png": {
+      "bytes": 26516,
+      "sha256": "b7f91231617c3e027b04f49ba7e2da9612d1b4cdb71f02bf9fc477eb5b770781"
+    },
+    "png/128/fixed-floral-page-margin-with-acanthus-and-gold-ivy-walters-w186-291v.png": {
+      "bytes": 25896,
+      "sha256": "54773173e3e7c9aabcd1865291a731cecdfb211b11b67d74d088c64cfd0e2794"
+    },
+    "png/128/fixed-rectangular-gold-blue-and-red-foliate-panel.png": {
+      "bytes": 33043,
+      "sha256": "f3025c87e2e51a1b917de61385943e27de36f24fbc7f35097e98f63a2fc20122"
+    },
+    "png/128/four-armed-green-feathered-floret-with-red-gold-center.png": {
+      "bytes": 16466,
+      "sha256": "3b00c325112eb3e7b4f2970652702855532a4c313e2e790fe13140834415c257"
+    },
+    "png/128/grapevine-with-two-purple-clusters-and-lobed-leaves.png": {
+      "bytes": 19436,
+      "sha256": "e3eab25f57923daf74418c4e21fd685f2fd3ab75278d0d57cb140392a448b9c9"
+    },
+    "png/128/green-gold-leaf-and-flower-flourish.png": {
+      "bytes": 25026,
+      "sha256": "9e69c9c2149f69ff6ffbdcea66df6176fb055572f6b9ca50dfda8e3f5e368ea5"
+    },
+    "png/128/green-lobed-leaf-with-pointed-tip.png": {
+      "bytes": 19738,
+      "sha256": "41923216b81b1dee6fbe5ce69d635a5dc7e6487d6a320f231c21766bdc81630d"
+    },
+    "png/128/horizontal-floral-spray-with-blue-flowers-and-green-curled-stem.png": {
+      "bytes": 8131,
+      "sha256": "34e6f6f69a4368d59e1e195b89e6e2f5f91389a99c5c8cea61b948eb6706044d"
+    },
+    "png/128/inner-red-and-blue-leaf-scroll.png": {
+      "bytes": 36324,
+      "sha256": "aa14ceb3161a4fe0f265def6e78d87855cf72cf5237b9440cb301ce8ee1dfad9"
+    },
+    "png/128/interlaced-blue-red-foliage.png": {
+      "bytes": 36723,
+      "sha256": "e823c90068d3c7e7a5d48cd140498ca732d8ed49c86ed621237e753ce5a9ab72"
+    },
+    "png/128/left-and-lower-floral-margin-with-acanthus-and-gold-ivy.png": {
+      "bytes": 21820,
+      "sha256": "092c915016b45ffaa4fd310dcacd649b820116091caa1b615fbe8799b0128bc0"
+    },
+    "png/128/left-two-flower-black-twig-with-gold-berry.png": {
+      "bytes": 19708,
+      "sha256": "da6b208bbe97a0a618d7d244bdd6b33d40c7962d1338fefa6ddf2b9b63d109b0"
+    },
+    "png/128/lobed-floral-blue-scroll.png": {
+      "bytes": 26518,
+      "sha256": "cf230aed2176dc0650909cbb04abf8e564bacfde14fd7e00dc5bba2ad881dd3c"
+    },
+    "png/128/lower-gold-rod-with-red-blue-and-gold-foliate-branch-walters-w171-19v.png": {
+      "bytes": 11404,
+      "sha256": "afd4cc223e3e28ff7aa085751e894579bc797b6c84e57f5e33b5507c29ea19bb"
+    },
+    "png/128/lower-gold-rod-with-red-blue-and-gold-foliate-branch-walters-w171-74r.png": {
+      "bytes": 12167,
+      "sha256": "40a545e324c9865a5f11a914f67fcfb00061d14b25e2e1e4eb86ab86cab9c70f"
+    },
+    "png/128/lower-left-gold-and-pink-rod-with-ivy-flourish-walters-w171-10r.png": {
+      "bytes": 9841,
+      "sha256": "6fd85ec0909178d3709741fc84a577d45b232216fbdbdb0555cf1e3da44b98e7"
+    },
+    "png/128/lower-left-gold-and-pink-rod-with-ivy-flourish-walters-w171-12r.png": {
+      "bytes": 9908,
+      "sha256": "02425dac04b186e1ff3d23ee3248bbab14beb12a9cf13d9b4d997c0adb5e1dff"
+    },
+    "png/128/lower-left-knotted-red-and-blue-leaf.png": {
+      "bytes": 21209,
+      "sha256": "77dbc7adee6362ebeb5fe3f75f581d04da67e22a8578158124758e1e5cd78833"
+    },
+    "png/128/lower-red-gold-and-blue-leaf-spray.png": {
+      "bytes": 27790,
+      "sha256": "2ebab0dfa476095ff11c93186c2938187cb296800ab00b6b44def55a3c82203c"
+    },
+    "png/128/oval-blue-celestial-scene-with-gold-stars-and-crescent.png": {
+      "bytes": 22440,
+      "sha256": "f0a30ccacb28a217f33385bdb46da3e194653f0fe130274992d880eebc2a20d2"
+    },
+    "png/128/pink-flower-and-green-scroll-flourish.png": {
+      "bytes": 19046,
+      "sha256": "8fde033f5efddfb160cdab4016261335b7ad898d6ca0fa72f0612722595d0116"
+    },
+    "png/128/pink-inlay-with-white-opposed-chevron-chain.png": {
+      "bytes": 10822,
+      "sha256": "6b8be29dbb132f8bdf7caba7b1e9018653687ce32fbdc1e619b7ffa1f1850a88"
+    },
+    "png/128/small-irregular-gold-star.png": {
+      "bytes": 16218,
+      "sha256": "99227df0dec9870b8ac961aa07a3ee01a4749c71d10b12b483729ce0a2b408b2"
+    },
+    "png/128/tall-floral-bar-with-knotted-red-blue-ribbons.png": {
+      "bytes": 5397,
+      "sha256": "3adbea33b82b92e0a683d5f65c52c28ecf4e18bcc02c1637d4e40979a9ee50f5"
+    },
+    "png/128/thin-red-and-gold-fixed-miniature-frame.png": {
+      "bytes": 7647,
+      "sha256": "4016144b779e77eb4dcbfd4795416d73a0e19c38472e3ac8088d1a73fb3e4f0f"
+    },
+    "png/128/three-gold-trefoils-on-connected-serpentine-scroll.png": {
+      "bytes": 10613,
+      "sha256": "942dc0465f87288cd01d3f08cc5d12929fa143468877c54b84d4e80d5e50a03b"
+    },
+    "png/128/two-gold-pointed-leaves-on-fine-curled-stem.png": {
+      "bytes": 7625,
+      "sha256": "0a3b4cac9d9b790069892ba706c215d4bc6d678c6c13e26ed0bc8404fb0efba7"
+    },
+    "png/128/upper-blue-and-rust-ivy-sprig.png": {
+      "bytes": 13237,
+      "sha256": "d41cbafa412acbd777e4ca2fd297116ad4cfbdb2a108e2c6d6aee602949dbdcf"
+    },
+    "png/128/upper-gold-rod-with-red-blue-and-gold-foliate-branch-walters-w171-19v.png": {
+      "bytes": 11831,
+      "sha256": "1dd0f51f9229ddabc869118a2a6f82a5b6bfaaf420baa0ea1ed5d4e1d98c1c34"
+    },
+    "png/128/upper-gold-rod-with-red-blue-and-gold-foliate-branch-walters-w171-74r.png": {
+      "bytes": 9952,
+      "sha256": "862cc7195f8e57ab103cc1d16428300995b1533c4d6e19ad8adb1bdba11895e5"
+    },
+    "png/128/upper-left-gray-curled-ivy-with-gold-and-blue-trefoils.png": {
+      "bytes": 16663,
+      "sha256": "91794ade63bdf892c956c67061d3758189dce004495cd537b30073c45fa708fd"
+    },
+    "png/128/upper-left-pink-ivy-flourish.png": {
+      "bytes": 13837,
+      "sha256": "c4cf77b978cf933121046af67955c3088337b592c57480be8399e3f1fa346b14"
+    },
+    "png/128/upper-red-gold-and-blue-leaf-spray.png": {
+      "bytes": 19243,
+      "sha256": "8bb6d3f5ae131aae945080be0552760c13178d7a6ae6b657da7dc8b93d724e04"
+    },
+    "png/128/upper-right-red-lobed-leaf-terminal.png": {
+      "bytes": 15669,
+      "sha256": "518eca2f7a359540653f7103be6cf08741664618e9050b7367594e08488f600a"
+    },
+    "png/128/upper-two-flower-black-twig-with-gold-berry.png": {
+      "bytes": 16831,
+      "sha256": "603628a939cc1f1efff8b02f8ce218dd86116b643d3cffa0c584733fd0360ee4"
+    },
+    "png/128/worn-gold-crescent-moon.png": {
+      "bytes": 10907,
+      "sha256": "5a51e0b9032e3d7654d96a9bf64a161741b9dd414a7825dfad75132b31e2e75e"
+    },
+    "png/256/blue-dragon-head-with-orange-tongue.png": {
+      "bytes": 85963,
+      "sha256": "798ad42a855df4ddeb02272f535d4d7b9e0372ea3e6a8aa6d81829f802cf0e49"
+    },
+    "png/256/blue-inlay-with-white-opposed-chevron-chain.png": {
+      "bytes": 43379,
+      "sha256": "ef9f886b0de9f92101811ac02c96567871fe7429d66ec11ce2217e6283736cb0"
+    },
+    "png/256/blue-webbed-fan-leaf.png": {
+      "bytes": 51235,
+      "sha256": "0a76021fb05eb90d297d51474eb2102f171095d2d766e5b303d72002fec15ae3"
+    },
+    "png/256/fixed-floral-page-margin-with-acanthus-and-gold-ivy-walters-w186-285r.png": {
+      "bytes": 92250,
+      "sha256": "a64d48ba67166446aae7cc93e4e1f144cbd3383ec31862e4a8bf5e9591f5e1e8"
+    },
+    "png/256/fixed-floral-page-margin-with-acanthus-and-gold-ivy-walters-w186-291v.png": {
+      "bytes": 89388,
+      "sha256": "2f99c9680ccc048f92534701d1b9b82560bff1904ba26e63affab228f3b0103c"
+    },
+    "png/256/fixed-rectangular-gold-blue-and-red-foliate-panel.png": {
+      "bytes": 121011,
+      "sha256": "c604c7cf167c814852f1220afbddca3c1797b387107685f742fbbc50eafcb842"
+    },
+    "png/256/grapevine-with-two-purple-clusters-and-lobed-leaves.png": {
+      "bytes": 63768,
+      "sha256": "60212d34aeb26a6cef4358e8a6d4e6fa544986629aeee6a4ba6d37e57205fce5"
+    },
+    "png/256/green-gold-leaf-and-flower-flourish.png": {
+      "bytes": 79757,
+      "sha256": "15706c579c8c2f64cae0c7d014b7a907ccb4a0003cbcf76fdeebbbd520365f6c"
+    },
+    "png/256/green-lobed-leaf-with-pointed-tip.png": {
+      "bytes": 65395,
+      "sha256": "d3bcb82b9e65af5b7a8343df20abfc26aa845222ae91d322af2e35b5a8f95b7c"
+    },
+    "png/256/horizontal-floral-spray-with-blue-flowers-and-green-curled-stem.png": {
+      "bytes": 26090,
+      "sha256": "c397c651952c44749cc671f31090184c0f4a698fc3765718b1b94b9053e79cdc"
+    },
+    "png/256/inner-red-and-blue-leaf-scroll.png": {
+      "bytes": 117898,
+      "sha256": "6c53b1ea8da83f2685a05dfae28498b4ec5f16b556acb3dd947e275a388ecc72"
+    },
+    "png/256/interlaced-blue-red-foliage.png": {
+      "bytes": 121468,
+      "sha256": "57a0e24850f51d938e6f8a50b76e479c9a9c7ac8a2a764327d6908a89bf40167"
+    },
+    "png/256/left-and-lower-floral-margin-with-acanthus-and-gold-ivy.png": {
+      "bytes": 79448,
+      "sha256": "8c74485a2b6a9e8eb56e34c9cf62fea81894cd4eba1e954f3ba65246f63dc580"
+    },
+    "png/256/left-two-flower-black-twig-with-gold-berry.png": {
+      "bytes": 65981,
+      "sha256": "8f3c99c730de5c74f62880e92ca300ac67c63f95db9d46de6ab8ae86442e3bf1"
+    },
+    "png/256/lobed-floral-blue-scroll.png": {
+      "bytes": 84382,
+      "sha256": "e3616fa3f0a0363aee84522ef3088c618b51ebc4a48ac521f6a3b07073406e3c"
+    },
+    "png/256/lower-gold-rod-with-red-blue-and-gold-foliate-branch-walters-w171-19v.png": {
+      "bytes": 35228,
+      "sha256": "3302b99040d828468f76bbbd80b3f4eedc82deb0880f0d8e89c7c8e31f9660bc"
+    },
+    "png/256/lower-gold-rod-with-red-blue-and-gold-foliate-branch-walters-w171-74r.png": {
+      "bytes": 36989,
+      "sha256": "65bad9dbef1c1480fff0ca1ff52a85e9004638b49305f6d905c2f01cde6f894e"
+    },
+    "png/256/lower-left-gold-and-pink-rod-with-ivy-flourish-walters-w171-10r.png": {
+      "bytes": 29578,
+      "sha256": "821a37f36924eda7a471cf6ba10d483e985875c851d0f4cb6e336a14a930d687"
+    },
+    "png/256/lower-left-gold-and-pink-rod-with-ivy-flourish-walters-w171-12r.png": {
+      "bytes": 29464,
+      "sha256": "8d835c58978e2190445198a138c1b11bf436169db275f71ada54ba7f2a35f6be"
+    },
+    "png/256/lower-left-knotted-red-and-blue-leaf.png": {
+      "bytes": 76248,
+      "sha256": "39a464b097227ced842f2dcf20b443f373a25fb06bd6ed95c1f1c5b36d14adcf"
+    },
+    "png/256/lower-red-gold-and-blue-leaf-spray.png": {
+      "bytes": 95437,
+      "sha256": "70873aab5bd9a1fcb189c934aa81c5eacb253f7633360747327e2ac164126f73"
+    },
+    "png/256/oval-blue-celestial-scene-with-gold-stars-and-crescent.png": {
+      "bytes": 83341,
+      "sha256": "2fb5663b3acb09ba9f163db95b4d02e2f4f978dd97c325c9b5d7ff70af2223df"
+    },
+    "png/256/pink-flower-and-green-scroll-flourish.png": {
+      "bytes": 60568,
+      "sha256": "af928457c4b2da3b7c0eac35abab9751603b4bb942198cfd73fc3329cf057390"
+    },
+    "png/256/pink-inlay-with-white-opposed-chevron-chain.png": {
+      "bytes": 38411,
+      "sha256": "41765e9acdfdfefde5ee5c371c866ae84dcaa71a541012009a9563d0cabde5d9"
+    },
+    "png/256/tall-floral-bar-with-knotted-red-blue-ribbons.png": {
+      "bytes": 17585,
+      "sha256": "eb2331513df69258f368a6154a30073c975b019fda425fc5d37b2f0892f87378"
+    },
+    "png/256/thin-red-and-gold-fixed-miniature-frame.png": {
+      "bytes": 26092,
+      "sha256": "bd5751bf826e00ef066e6d976b43098b096c5353ddd2a67cd2bb2e9f2e6a98cc"
+    },
+    "png/256/three-gold-trefoils-on-connected-serpentine-scroll.png": {
+      "bytes": 34232,
+      "sha256": "53b33b716450aa283ce5058353cf59643d2837ddfbe2b9018070fc0a531ec5cb"
+    },
+    "png/256/two-gold-pointed-leaves-on-fine-curled-stem.png": {
+      "bytes": 21096,
+      "sha256": "af77d955ca215756e5fb6e9f2f0be95110599429cbbd1f97f9d9107b34aab81f"
+    },
+    "png/256/upper-blue-and-rust-ivy-sprig.png": {
+      "bytes": 40439,
+      "sha256": "2d2dd156a78cf3b77d579be9f139341a56d81bf8e7611309de0d9c2132895828"
+    },
+    "png/256/upper-gold-rod-with-red-blue-and-gold-foliate-branch-walters-w171-19v.png": {
+      "bytes": 36551,
+      "sha256": "9dc051fba9876d5922c46b40a7e91a216dd592251421e11ed70636fba6568503"
+    },
+    "png/256/upper-gold-rod-with-red-blue-and-gold-foliate-branch-walters-w171-74r.png": {
+      "bytes": 31150,
+      "sha256": "3c13e970000785de1250091a9c5d35e4f323f7307e49aafa11eb3f913d184bb6"
+    },
+    "png/256/upper-left-gray-curled-ivy-with-gold-and-blue-trefoils.png": {
+      "bytes": 50358,
+      "sha256": "a80f6cd25e4d6e3d1bba05fea38dd3c955a4d9251cc51c7431eb1fbd49b3fee9"
+    },
+    "png/256/upper-left-pink-ivy-flourish.png": {
+      "bytes": 42791,
+      "sha256": "5bec16d375901a10c377f55670bd6a8f79d30fef3d0a1bdbdff4e302a0e670b6"
+    },
+    "png/256/upper-red-gold-and-blue-leaf-spray.png": {
+      "bytes": 65553,
+      "sha256": "77d738510f336f637baea3c887efd465788cd33aac6d7bb32ed725d840eaf0d2"
+    },
+    "png/256/upper-right-red-lobed-leaf-terminal.png": {
+      "bytes": 55252,
+      "sha256": "f7ebe00d3c98d6e781263233f5e627817eeff4082007ee6007775a394aaeafdd"
+    },
+    "png/256/upper-two-flower-black-twig-with-gold-berry.png": {
+      "bytes": 52544,
+      "sha256": "03d0c355f3f3370dcef2abcb2b9887f60ba9f1bf4e8b0e15edf0f38f2d19b26c"
+    },
+    "png/256/worn-gold-crescent-moon.png": {
+      "bytes": 36994,
+      "sha256": "5c92542f9824ee1b36f7d3767ecc17ef90439512ab505463dfdacd042eb09176"
+    },
+    "png/512/blue-inlay-with-white-opposed-chevron-chain.png": {
+      "bytes": 158309,
+      "sha256": "b741aec2a25e2b70a885f2c44aeb1edb94768f735b8bdfd1b6468bca28c76b17"
+    },
+    "png/512/blue-webbed-fan-leaf.png": {
+      "bytes": 180481,
+      "sha256": "ee55660c63b536fe2770e4868765c4ae81d039bada488f4bc345f2e9f965e730"
+    },
+    "png/512/fixed-floral-page-margin-with-acanthus-and-gold-ivy-walters-w186-285r.png": {
+      "bytes": 316106,
+      "sha256": "b846984cd64a4ae1acba992e1fbb4ffca0906161ded262c5eb2813f315ed5257"
+    },
+    "png/512/fixed-floral-page-margin-with-acanthus-and-gold-ivy-walters-w186-291v.png": {
+      "bytes": 305420,
+      "sha256": "66bab7929d0b648615e8378fc4ef2da423bec1d5ebec5380852164c5675b19dc"
+    },
+    "png/512/fixed-rectangular-gold-blue-and-red-foliate-panel.png": {
+      "bytes": 443003,
+      "sha256": "cc3603740872e1f92d2dc6a761522dd48123cf6c54eecf5a5a2ff922db221c56"
+    },
+    "png/512/grapevine-with-two-purple-clusters-and-lobed-leaves.png": {
+      "bytes": 208361,
+      "sha256": "fc4a22d4b72e113efb2ff900d58d7f19820522fe9f81be8696194e8dbafec082"
+    },
+    "png/512/green-gold-leaf-and-flower-flourish.png": {
+      "bytes": 265794,
+      "sha256": "1c2790fdc65be8e4e53a96a03a069d0a5122b45f29b7074ac14c34f2e4de710b"
+    },
+    "png/512/green-lobed-leaf-with-pointed-tip.png": {
+      "bytes": 239535,
+      "sha256": "dec59c6984e3344033a3a216b4b6fd34badd129366d464411ed744f015530a84"
+    },
+    "png/512/horizontal-floral-spray-with-blue-flowers-and-green-curled-stem.png": {
+      "bytes": 81796,
+      "sha256": "93444fe7e90d8dcab4d5e87bf1a6a80be282afaa9941c162d4e3e27c8d4fdf9b"
+    },
+    "png/512/inner-red-and-blue-leaf-scroll.png": {
+      "bytes": 392563,
+      "sha256": "3183895f59555a7d05043f6293792cf8eb6fb370aaaa77787f9b3df46293c0cd"
+    },
+    "png/512/interlaced-blue-red-foliage.png": {
+      "bytes": 416150,
+      "sha256": "15c3c374a9055ca1fa5146a3785d9f03a00e49eeda648e72aca1048687dc7901"
+    },
+    "png/512/left-and-lower-floral-margin-with-acanthus-and-gold-ivy.png": {
+      "bytes": 288928,
+      "sha256": "d8c83be03d6e0cbddffc3ccf1c3fdc8445a6bcad7d3e1261ed660e602156e87e"
+    },
+    "png/512/lobed-floral-blue-scroll.png": {
+      "bytes": 274889,
+      "sha256": "d8fd0a330399e510feee050f1cef49cb7ee673f3a3a01ad319ce628c403e63f1"
+    },
+    "png/512/lower-gold-rod-with-red-blue-and-gold-foliate-branch-walters-w171-19v.png": {
+      "bytes": 111288,
+      "sha256": "abcfc176cd8eda7ce0c9976802f9737857e2b5d59cccd7077402aaa16bf28df3"
+    },
+    "png/512/lower-gold-rod-with-red-blue-and-gold-foliate-branch-walters-w171-74r.png": {
+      "bytes": 117770,
+      "sha256": "1e7abc7d8efe5ab1bbb8ce69cb85ad86e849c7783316d3a84a7963d61b090c40"
+    },
+    "png/512/lower-left-gold-and-pink-rod-with-ivy-flourish-walters-w171-10r.png": {
+      "bytes": 93136,
+      "sha256": "4ed6145ef0a805b013370f3f0ba86b46a6c0dcaa7d384d14e4f1a490a332eb2e"
+    },
+    "png/512/lower-left-gold-and-pink-rod-with-ivy-flourish-walters-w171-12r.png": {
+      "bytes": 94428,
+      "sha256": "9fc6ce4258d645cb2c856dbf12dfc57d80fad63c92a6b449d95906ea79c3626e"
+    },
+    "png/512/lower-red-gold-and-blue-leaf-spray.png": {
+      "bytes": 343434,
+      "sha256": "80d2487f295f22633b0f0f3c2089ef7c28af050e9624b609049ba4068b209ee3"
+    },
+    "png/512/oval-blue-celestial-scene-with-gold-stars-and-crescent.png": {
+      "bytes": 322052,
+      "sha256": "2e29508ab98895f0d19f45e5f5ad15399ef20a9b788c82ed83d0cd4a088328f6"
+    },
+    "png/512/pink-flower-and-green-scroll-flourish.png": {
+      "bytes": 198112,
+      "sha256": "f80f2ffa0c38f74b81170485b61377055f440b5214df9337d79291d2284f0b9a"
+    },
+    "png/512/pink-inlay-with-white-opposed-chevron-chain.png": {
+      "bytes": 137346,
+      "sha256": "7b84b19fe43f0a5798da26235212163b94c643f0a02ba73c79f50393dbf87e4b"
+    },
+    "png/512/tall-floral-bar-with-knotted-red-blue-ribbons.png": {
+      "bytes": 56058,
+      "sha256": "597125ba1e2f595a84ee59b5f665f538e7a02b95ea1de18c362793c2907bb041"
+    },
+    "png/512/thin-red-and-gold-fixed-miniature-frame.png": {
+      "bytes": 87768,
+      "sha256": "99edb34fd306d5d40f43ad8cfbd49414c1b52e6acffbac1c0bd553c52b75aaa5"
+    },
+    "png/512/three-gold-trefoils-on-connected-serpentine-scroll.png": {
+      "bytes": 114350,
+      "sha256": "1385e0e644044fcd0a67d0859b878cf96845ae910188fabefebe48d3effdc623"
+    },
+    "png/512/two-gold-pointed-leaves-on-fine-curled-stem.png": {
+      "bytes": 63261,
+      "sha256": "e97d6e58006af0c78b455e7978f1dff9ad3cdbebfb2595cf05b2a8e539760d1a"
+    },
+    "png/512/upper-blue-and-rust-ivy-sprig.png": {
+      "bytes": 131831,
+      "sha256": "75fd0c0f04ac9fc36123cf526ad3765a4275ec05d428feaad07132b30320bf91"
+    },
+    "png/512/upper-gold-rod-with-red-blue-and-gold-foliate-branch-walters-w171-19v.png": {
+      "bytes": 116974,
+      "sha256": "f32316d18d07c9491bf8fa964043686053334636bcada5ebae0b607eebfd8af6"
+    },
+    "png/512/upper-gold-rod-with-red-blue-and-gold-foliate-branch-walters-w171-74r.png": {
+      "bytes": 98959,
+      "sha256": "c0c45b071efec0ae2e558308cc3ed7a6104fb97de12b21d1772fbb23b63027ba"
+    },
+    "png/512/upper-left-gray-curled-ivy-with-gold-and-blue-trefoils.png": {
+      "bytes": 163462,
+      "sha256": "32cf7b09f9d573ee2563373498b379c817506623bba71e33ebfb7a5abab78917"
+    },
+    "png/512/upper-left-pink-ivy-flourish.png": {
+      "bytes": 133351,
+      "sha256": "c1fa2cb31b60df7769d49b4f41b0817538f566e85a858ce8fc4db1c0bae877cb"
+    },
+    "png/512/upper-red-gold-and-blue-leaf-spray.png": {
+      "bytes": 229756,
+      "sha256": "41df1d40a62a9e0b272fb01727a84c47c9712722a9c3a9a57ee932c9932bc637"
+    },
+    "png/512/upper-two-flower-black-twig-with-gold-berry.png": {
+      "bytes": 175655,
+      "sha256": "798e4842abe48d7b1c6aa13cea774c03ba9f05353c12fbf6e1cd90b49e147a65"
+    },
+    "png/768/blue-webbed-fan-leaf.png": {
+      "bytes": 383001,
+      "sha256": "e6934fd6349c3aab7df036ec71fe02955d253edc1e3993dd1829bcb19c0a3547"
+    },
+    "png/768/fixed-floral-page-margin-with-acanthus-and-gold-ivy-walters-w186-285r.png": {
+      "bytes": 659680,
+      "sha256": "86bd30b7bccf9feb9a1d1f6d8e0542b9194c25749eef64068f21ff187e442eab"
+    },
+    "png/768/fixed-floral-page-margin-with-acanthus-and-gold-ivy-walters-w186-291v.png": {
+      "bytes": 633609,
+      "sha256": "ed122238873d479a6ef81426609d701a2ef40741f3f40053db0d4f96cf99ec2c"
+    },
+    "png/768/fixed-rectangular-gold-blue-and-red-foliate-panel.png": {
+      "bytes": 946078,
+      "sha256": "a7c2eed97c30680425f434fd6895cda810fb7ae57d320e9b4dc5ad438cfd4e32"
+    },
+    "png/768/grapevine-with-two-purple-clusters-and-lobed-leaves.png": {
+      "bytes": 427397,
+      "sha256": "e9977bb48e7c301ad2785736791ce6bf406b3a47df4f792746c0d1409aaf61eb"
+    },
+    "png/768/green-gold-leaf-and-flower-flourish.png": {
+      "bytes": 561199,
+      "sha256": "c6ef4998259ddf220dc633506f28b6285b6d12d02187c393935f7475cbeb143e"
+    },
+    "png/768/horizontal-floral-spray-with-blue-flowers-and-green-curled-stem.png": {
+      "bytes": 158863,
+      "sha256": "33c59300557f2c3ea91aa0c07d3632182d3e659d5eabe6e8ef213d2cc4c749af"
+    },
+    "png/768/inner-red-and-blue-leaf-scroll.png": {
+      "bytes": 811914,
+      "sha256": "314bcf7a7c8960f80e2438b9a452f63f29644bdf6e46e3ad098932c05fd8fb51"
+    },
+    "png/768/interlaced-blue-red-foliage.png": {
+      "bytes": 883095,
+      "sha256": "b7f1c58eaf961caac9b28eb5e29ba4bcc60b7f4edbca13184952e64e798c67e7"
+    },
+    "png/768/left-and-lower-floral-margin-with-acanthus-and-gold-ivy.png": {
+      "bytes": 603011,
+      "sha256": "460b89126279ef02a84a53ac2174e8958a3914b9dbf70a9f80fde46fad681983"
+    },
+    "png/768/lobed-floral-blue-scroll.png": {
+      "bytes": 570586,
+      "sha256": "b417103fc883ac757226533e1946363b2733936533a69b2d3f87d352b9e9fda4"
+    },
+    "png/768/lower-gold-rod-with-red-blue-and-gold-foliate-branch-walters-w171-19v.png": {
+      "bytes": 224757,
+      "sha256": "9ef7c6069abf80d0f9c07229700a4a3038249306e43373a0f57d68c83ef1f528"
+    },
+    "png/768/lower-gold-rod-with-red-blue-and-gold-foliate-branch-walters-w171-74r.png": {
+      "bytes": 239221,
+      "sha256": "fefb4521d0497b53234b154d60bf3f68f3965aaa45d46dc7a16f2aaf7fa39231"
+    },
+    "png/768/lower-left-gold-and-pink-rod-with-ivy-flourish-walters-w171-10r.png": {
+      "bytes": 187890,
+      "sha256": "a153163b6a18ca2ba508c10700c4fc01b225f8840720d42c139a131ae293664d"
+    },
+    "png/768/lower-left-gold-and-pink-rod-with-ivy-flourish-walters-w171-12r.png": {
+      "bytes": 194347,
+      "sha256": "07b00585a071806ed38fdc8d1cfc9e196595daeb463b7317848c40ffb063a11a"
+    },
+    "png/768/lower-red-gold-and-blue-leaf-spray.png": {
+      "bytes": 736244,
+      "sha256": "2bb83b64adc2b265476fe5ac017b5768c663059ee1438631f7c1953ea781f146"
+    },
+    "png/768/oval-blue-celestial-scene-with-gold-stars-and-crescent.png": {
+      "bytes": 708069,
+      "sha256": "4703294dcf12881626519bcb5c49837d323ae04c1b1cce835fbe2f9691eda994"
+    },
+    "png/768/pink-flower-and-green-scroll-flourish.png": {
+      "bytes": 406630,
+      "sha256": "757da45725ae920020ebd8f14fc5963a69922cec5961b7ff325d87b9a9ffdd4a"
+    },
+    "png/768/tall-floral-bar-with-knotted-red-blue-ribbons.png": {
+      "bytes": 109199,
+      "sha256": "8e3cb9cbf0ce5cc468a2d80831c8ffe7b2551f738d8968456d0d82ed4ee4bb86"
+    },
+    "png/768/thin-red-and-gold-fixed-miniature-frame.png": {
+      "bytes": 184335,
+      "sha256": "7d402160ff5592fcf902d04ce1e35a3667ef3c451e43288c92f749b60aeae6b9"
+    },
+    "png/768/three-gold-trefoils-on-connected-serpentine-scroll.png": {
+      "bytes": 234460,
+      "sha256": "cee94028ddc6ebed3239545f27eb52cefc21e092fae36d45a0fe0af22c8d4ad5"
+    },
+    "png/768/two-gold-pointed-leaves-on-fine-curled-stem.png": {
+      "bytes": 126068,
+      "sha256": "f34003893340161e9d6cc2d065b3747a473acdbef22dc523e599b0f5d518fb5b"
+    },
+    "png/768/upper-blue-and-rust-ivy-sprig.png": {
+      "bytes": 271683,
+      "sha256": "6ea156e672bc1a86c47121ce5541bf51a7a13a3bb8e38597dd9b3330a351db52"
+    },
+    "png/768/upper-gold-rod-with-red-blue-and-gold-foliate-branch-walters-w171-19v.png": {
+      "bytes": 243430,
+      "sha256": "ab44fb67f12b5376317293c892fe40d492d9e0b24657fc382d46c11c7dcf2858"
+    },
+    "png/768/upper-gold-rod-with-red-blue-and-gold-foliate-branch-walters-w171-74r.png": {
+      "bytes": 203248,
+      "sha256": "bfa315c6b947a9f085b5d97a9a1a4fc1c2f4cad282b0ad968ccbae4916113538"
+    },
+    "png/768/upper-left-gray-curled-ivy-with-gold-and-blue-trefoils.png": {
+      "bytes": 332054,
+      "sha256": "5788b99ae75f4384405c4080e092b6a58ac9068c0a51fb31833554a91d2dbb44"
+    },
+    "png/768/upper-left-pink-ivy-flourish.png": {
+      "bytes": 269802,
+      "sha256": "6a04b99899486ff82606e7f0b02ce860cf7b2c6aac0529c2e9d61ef2280af622"
+    },
+    "png/768/upper-red-gold-and-blue-leaf-spray.png": {
+      "bytes": 490561,
+      "sha256": "08980e35c345208b8f10d040070ea69050ac815b7f617c7a1d1d293f0cebf4e1"
+    },
+    "png/blue-dragon-head-with-orange-tongue.png": {
+      "bytes": 144471,
+      "sha256": "daa1af7430f4d7899252ae78ba841ecce8ee7e38fec0e0636e297d061cc32cea"
+    },
+    "png/blue-inlay-with-white-opposed-chevron-chain.png": {
+      "bytes": 171674,
+      "sha256": "36fa406d914ec61f201e2d2935d9991d83ac573418c40e5591cbe56004b52b34"
+    },
+    "png/blue-serrated-floret-with-red-gold-center.png": {
+      "bytes": 29506,
+      "sha256": "7197b84b4917a213de579e5bd659a710dfe7c11051759fd435d90566a280d1ff"
+    },
+    "png/blue-webbed-fan-leaf.png": {
+      "bytes": 483600,
+      "sha256": "f0465e93b9aed021b41ee3e06c9638fd3b1661c5d9c3048fb1be7b5fbe077adf"
+    },
+    "png/fixed-floral-page-margin-with-acanthus-and-gold-ivy-walters-w186-285r.png": {
+      "bytes": 1989799,
+      "sha256": "68495dc4f7c67aaf84e2bb854f1545ec4c86094d8124b45bfef60f8e85d88b00"
+    },
+    "png/fixed-floral-page-margin-with-acanthus-and-gold-ivy-walters-w186-291v.png": {
+      "bytes": 1903485,
+      "sha256": "7517a9862852559dde71af94d43cd457bbb29b0888c18482f19a6ce879006916"
+    },
+    "png/fixed-rectangular-gold-blue-and-red-foliate-panel.png": {
+      "bytes": 2724077,
+      "sha256": "b968cbb5171177d017dae5306d0793a025001cf90e9a0eaefcfe11d9d5473004"
+    },
+    "png/four-armed-green-feathered-floret-with-red-gold-center.png": {
+      "bytes": 40680,
+      "sha256": "1fe31c51f46974702b8f48ef64bb286193b3302b432426e273e1bbdf4dca0e07"
+    },
+    "png/grapevine-with-two-purple-clusters-and-lobed-leaves.png": {
+      "bytes": 1631645,
+      "sha256": "d797f10c4eed838460b5a8cdb132302d7a654bbb2ed5ef7e468ecb0b74151d4c"
+    },
+    "png/green-gold-leaf-and-flower-flourish.png": {
+      "bytes": 1368618,
+      "sha256": "77173b7cf842f10747556967328241dc56f5497e51022d211bdb0154e0b16698"
+    },
+    "png/green-lobed-leaf-with-pointed-tip.png": {
+      "bytes": 276676,
+      "sha256": "6cadabaea7107cbfbe6a5d28eca86d6d72317f872e300ec58ae66b4eaf2cabb7"
+    },
+    "png/horizontal-floral-spray-with-blue-flowers-and-green-curled-stem.png": {
+      "bytes": 3108033,
+      "sha256": "d70fd19de1b227b88673031cbe4c0ee94b34d474d5fe54701fefc092feb80fe8"
+    },
+    "png/inner-red-and-blue-leaf-scroll.png": {
+      "bytes": 955113,
+      "sha256": "072320a75880178d6769423c5bd217fdb90825983de15256f12a20725c79069f"
+    },
+    "png/interlaced-blue-red-foliage.png": {
+      "bytes": 1341235,
+      "sha256": "d5ff3a3e8e3d0fe4576bc08f2db7494bbae1dd6f12614a2d273bf23ae678ffb9"
+    },
+    "png/left-and-lower-floral-margin-with-acanthus-and-gold-ivy.png": {
+      "bytes": 1878604,
+      "sha256": "71e032198e04d4245b97a760e91d5e8c0d9b70c4f1737e6f3752ab7a16acc6ac"
+    },
+    "png/left-two-flower-black-twig-with-gold-berry.png": {
+      "bytes": 125494,
+      "sha256": "3ae1b5681761c371949fc0e3faaafa455a03839834a11d1fcda32c8bdea3f53b"
+    },
+    "png/lobed-floral-blue-scroll.png": {
+      "bytes": 1023484,
+      "sha256": "441a039aaa7972aa812169e8f5bf936fc2122c7381b1de0573d560dc6fe8bf02"
+    },
+    "png/lower-gold-rod-with-red-blue-and-gold-foliate-branch-walters-w171-19v.png": {
+      "bytes": 640647,
+      "sha256": "d02e02a60ad495743afd94946269c48c6b1282fd4bf7f4886a434c22107dc649"
+    },
+    "png/lower-gold-rod-with-red-blue-and-gold-foliate-branch-walters-w171-74r.png": {
+      "bytes": 681969,
+      "sha256": "17e4b72f3988c0ed8007036d6668be91f15175fc906db5e94d12493d7675e8cb"
+    },
+    "png/lower-left-gold-and-pink-rod-with-ivy-flourish-walters-w171-10r.png": {
+      "bytes": 574160,
+      "sha256": "ab30626137c681ab6bb2f45402c519f75520bb7296a3ee8274190f85cb291e21"
+    },
+    "png/lower-left-gold-and-pink-rod-with-ivy-flourish-walters-w171-12r.png": {
+      "bytes": 572016,
+      "sha256": "fd494cadb3713db610e5c2fd7477f940291c015b423338f269441a07dcfea608"
+    },
+    "png/lower-left-knotted-red-and-blue-leaf.png": {
+      "bytes": 186983,
+      "sha256": "df26c9c454c03924625237bc3805dd8d8ced0758649af35a09f79cdb71a04bbb"
+    },
+    "png/lower-red-gold-and-blue-leaf-spray.png": {
+      "bytes": 1239835,
+      "sha256": "c06211b4540daafb3a31ca76970a3fd0768b7176ec4de44610a9098ead0eb5cf"
+    },
+    "png/oval-blue-celestial-scene-with-gold-stars-and-crescent.png": {
+      "bytes": 9354857,
+      "sha256": "9e26fbe79fd8eb25ba2964780b985ca3ccf97c3a7a99d4a88b422d15c202f1a6"
+    },
+    "png/pink-flower-and-green-scroll-flourish.png": {
+      "bytes": 1393768,
+      "sha256": "d3e09b11deda6a91aabe675f3d93350538e1f4348317c790095bba85c541e0b6"
+    },
+    "png/pink-inlay-with-white-opposed-chevron-chain.png": {
+      "bytes": 201923,
+      "sha256": "b8b1fd9cca7906f3b82941a47296c6c65bc0db917a216078386cc4ddc9ef2efc"
+    },
+    "png/small-irregular-gold-star.png": {
+      "bytes": 41757,
+      "sha256": "731fdf2d5a68c3613a7f539d9ad593d1ba4007770fd3b309dc55f22abb80d13f"
+    },
+    "png/small-red-gold-painted-roundel.png": {
+      "bytes": 13065,
+      "sha256": "ba72952efb553c2a9b664c5d2dd45cd5c95e23ad9117fe3f352cb99d1532cfe2"
+    },
+    "png/tall-floral-bar-with-knotted-red-blue-ribbons.png": {
+      "bytes": 5719419,
+      "sha256": "5abde45cd5ecf74b182b9f940f0d593c77e0258593216ccd673327c6ca816ecf"
+    },
+    "png/thin-red-and-gold-fixed-miniature-frame.png": {
+      "bytes": 607262,
+      "sha256": "5acd1290fe6ca258b141a750d982ee7720fea6dc4471a4484059eb28fc66a392"
+    },
+    "png/three-gold-trefoils-on-connected-serpentine-scroll.png": {
+      "bytes": 849878,
+      "sha256": "9b5afe11d6ca3eb56c4595c5c16a922d7920a40f06b36e73e8691d8f0e6e6403"
+    },
+    "png/two-gold-pointed-leaves-on-fine-curled-stem.png": {
+      "bytes": 195830,
+      "sha256": "19f104d8d446acb8017d093fae6166b5b128ae76b2238701fbf0e9212acdeb2b"
+    },
+    "png/upper-blue-and-rust-ivy-sprig.png": {
+      "bytes": 551533,
+      "sha256": "5b68222693d8a01e6391980ddceb899008ffe4d2d300d1260d4bc8957b3abead"
+    },
+    "png/upper-gold-rod-with-red-blue-and-gold-foliate-branch-walters-w171-19v.png": {
+      "bytes": 599890,
+      "sha256": "07fa62632b0da93b352deb2074e34fda13d8c8e7c3b47be6bdc5db9cb0566b15"
+    },
+    "png/upper-gold-rod-with-red-blue-and-gold-foliate-branch-walters-w171-74r.png": {
+      "bytes": 515685,
+      "sha256": "2895cdf7ceac705e81ad02286397715d338e8121ad8ff6089a0b92d542fcb0ac"
+    },
+    "png/upper-left-gray-curled-ivy-with-gold-and-blue-trefoils.png": {
+      "bytes": 864114,
+      "sha256": "925d077d719244f69391d283b5595c8796c4bd36f43c149535c3876ec2552cd4"
+    },
+    "png/upper-left-pink-ivy-flourish.png": {
+      "bytes": 787090,
+      "sha256": "a3aa7abc15e7d2e1bba4d338d7ea914fe686dc6823c0aa0225ff6e89ff87335d"
+    },
+    "png/upper-red-gold-and-blue-leaf-spray.png": {
+      "bytes": 1118869,
+      "sha256": "8ef02ec348f9ff5323a328f80f63040453d034c2a09fe6fd45aed36be84fd121"
+    },
+    "png/upper-right-red-lobed-leaf-terminal.png": {
+      "bytes": 176908,
+      "sha256": "1c9e767e1fddfd7900e199f82e4b26dd80baf48ded3fc5d955ae4ab26f594970"
+    },
+    "png/upper-two-flower-black-twig-with-gold-berry.png": {
+      "bytes": 267889,
+      "sha256": "6124ae80c2812f76adddd35afd250415c3455b5c21c3c2103dd4d9c4f8d517cc"
+    },
+    "png/worn-gold-crescent-moon.png": {
+      "bytes": 88552,
+      "sha256": "cc41930c3f84497f4db7d596d5a99d2e915e79a4d8ba4d64c95ca3f056d88f80"
+    },
+    "webp/128/blue-dragon-head-with-orange-tongue.webp": {
+      "bytes": 18034,
+      "sha256": "a61cf7be11705bbc69c4a65555326a92bc1f07e6fd6310947d3cb2d4659073e5"
+    },
+    "webp/128/blue-inlay-with-white-opposed-chevron-chain.webp": {
+      "bytes": 12186,
+      "sha256": "bbb97b57d71cd22268e0b84426c9b76e1dc286e600f9b509a0f8fac3bb78e6df"
+    },
+    "webp/128/blue-serrated-floret-with-red-gold-center.webp": {
+      "bytes": 8976,
+      "sha256": "455b778b4389ec483f2b9e7bae356c7506fd47cc19dffd20bf5f3f43a1e44784"
+    },
+    "webp/128/blue-webbed-fan-leaf.webp": {
+      "bytes": 11596,
+      "sha256": "c93074d4eded3223e248f0488700aee8daa37af6360ceccf204763ea2b47fa5e"
+    },
+    "webp/128/fixed-floral-page-margin-with-acanthus-and-gold-ivy-walters-w186-285r.webp": {
+      "bytes": 23068,
+      "sha256": "ab0224c44d84bc8661fdfc16be497947e1f79412e4d282f316471ed04f155022"
+    },
+    "webp/128/fixed-floral-page-margin-with-acanthus-and-gold-ivy-walters-w186-291v.webp": {
+      "bytes": 22582,
+      "sha256": "02de4e7d5871652b62abd9785f20e113a8eb4f03e4d1d3a5bb430372058a8c5a"
+    },
+    "webp/128/fixed-rectangular-gold-blue-and-red-foliate-panel.webp": {
+      "bytes": 27674,
+      "sha256": "1fa363c510b016853aab94a4d5fdfa6e256b586fc97dd271e2d39058f9a60d64"
+    },
+    "webp/128/four-armed-green-feathered-floret-with-red-gold-center.webp": {
+      "bytes": 13726,
+      "sha256": "036ab087ec6fe01ece8eed9e345a355556a8270f802e886cf30da5fa309862dd"
+    },
+    "webp/128/grapevine-with-two-purple-clusters-and-lobed-leaves.webp": {
+      "bytes": 16624,
+      "sha256": "cc9fa0202dedf8c8b1c4b0e9658fda4c9890f5d5a878621c7d60586512d4fd2a"
+    },
+    "webp/128/green-gold-leaf-and-flower-flourish.webp": {
+      "bytes": 20680,
+      "sha256": "78ac91cd61f87697593ab5df9c0c3e985a6bf75eb8fa58d26852671234bd7d68"
+    },
+    "webp/128/green-lobed-leaf-with-pointed-tip.webp": {
+      "bytes": 15090,
+      "sha256": "a96599bba316f98748166465312e1cddf11dfcc2df0cb7ab26a7c871c29bc617"
+    },
+    "webp/128/horizontal-floral-spray-with-blue-flowers-and-green-curled-stem.webp": {
+      "bytes": 6434,
+      "sha256": "0491631e4103529353f2d725db2d655ca0ba2e46c397a9ffd89df85a90ec8ca0"
+    },
+    "webp/128/inner-red-and-blue-leaf-scroll.webp": {
+      "bytes": 29678,
+      "sha256": "0ebf20eba6d198a68b589355af3da248130c2a64c23a85b3a95930250bdc0758"
+    },
+    "webp/128/interlaced-blue-red-foliage.webp": {
+      "bytes": 31190,
+      "sha256": "e38395713e99287417415ec8de5aaeee494b79aaddb3342a3a3e234ba6d9d210"
+    },
+    "webp/128/left-and-lower-floral-margin-with-acanthus-and-gold-ivy.webp": {
+      "bytes": 20156,
+      "sha256": "34aeca399b4b4ec957385df79580f30bf50cf31a37542afeb614a2924f27736b"
+    },
+    "webp/128/left-two-flower-black-twig-with-gold-berry.webp": {
+      "bytes": 15756,
+      "sha256": "f8597df415747515e4541e9fd1199f9de8fec95b515f42dfbca0db62c421215b"
+    },
+    "webp/128/lobed-floral-blue-scroll.webp": {
+      "bytes": 21912,
+      "sha256": "dbf66a85cd434708f3c5153b942fcbe66d7186469d16616353d333698350f7a3"
+    },
+    "webp/128/lower-gold-rod-with-red-blue-and-gold-foliate-branch-walters-w171-19v.webp": {
+      "bytes": 9332,
+      "sha256": "6803a85f9f15a20df79ad8aa0e0d8180989dbf1e68e486ade3b1572c75cb0710"
+    },
+    "webp/128/lower-gold-rod-with-red-blue-and-gold-foliate-branch-walters-w171-74r.webp": {
+      "bytes": 9952,
+      "sha256": "3c41d4b60d60b7897d0b380c984ae1a0ad784c1b83fb0f3cda0beaa456956240"
+    },
+    "webp/128/lower-left-gold-and-pink-rod-with-ivy-flourish-walters-w171-10r.webp": {
+      "bytes": 7854,
+      "sha256": "02bb740e758b142d7491294602b80fb3fd5889942b83f75eb8b46d464db987f4"
+    },
+    "webp/128/lower-left-gold-and-pink-rod-with-ivy-flourish-walters-w171-12r.webp": {
+      "bytes": 7770,
+      "sha256": "c40519cb1fcaca9cadd5fb1ddcb4a3f867418cdc36d137fd1d8734c288fc22f3"
+    },
+    "webp/128/lower-left-knotted-red-and-blue-leaf.webp": {
+      "bytes": 16726,
+      "sha256": "cfd4cf59476cfafeb4082b9a841754699318ecb703edebea7b9a1f052e9611dd"
+    },
+    "webp/128/lower-red-gold-and-blue-leaf-spray.webp": {
+      "bytes": 22076,
+      "sha256": "4f7304b61a1e488966afa42516fbdede9ae5789c2aec53f74d6c09152d7cb00d"
+    },
+    "webp/128/oval-blue-celestial-scene-with-gold-stars-and-crescent.webp": {
+      "bytes": 18184,
+      "sha256": "f06b72c2d4718415069b91a1b41863893d20a31c63379b291e7208e364b8668b"
+    },
+    "webp/128/pink-flower-and-green-scroll-flourish.webp": {
+      "bytes": 16346,
+      "sha256": "16d304ca6757f1b2d00503e837c0e13264f514115a92fee2f14945e22981ae3b"
+    },
+    "webp/128/pink-inlay-with-white-opposed-chevron-chain.webp": {
+      "bytes": 9996,
+      "sha256": "b6688858a843d4c0b2a598703fd45e5aef6a0d3881d7fbccd1cb87d720b4ace1"
+    },
+    "webp/128/small-irregular-gold-star.webp": {
+      "bytes": 12510,
+      "sha256": "1a6842c9affaefba5bb2a5d15bf049c6ea5adc9e0a7843130550234298c2218d"
+    },
+    "webp/128/tall-floral-bar-with-knotted-red-blue-ribbons.webp": {
+      "bytes": 4440,
+      "sha256": "5370d71054911ec46f19e9aa972a1c9746a7ac236eb12c3b2e5e3e2f37f39e6e"
+    },
+    "webp/128/thin-red-and-gold-fixed-miniature-frame.webp": {
+      "bytes": 7368,
+      "sha256": "f3c7333697216dfc800a7f571ac1e6f62e3f43ea6107efde0ff476afbbae1829"
+    },
+    "webp/128/three-gold-trefoils-on-connected-serpentine-scroll.webp": {
+      "bytes": 8822,
+      "sha256": "7485de527444b1bf12771f37d123c6877ffc8ccc63950ca1041b6619d6e19dd1"
+    },
+    "webp/128/two-gold-pointed-leaves-on-fine-curled-stem.webp": {
+      "bytes": 5226,
+      "sha256": "53014761633835bd73f0c17d2d83f1569912a2ae2e7aacc43de37cc74051317d"
+    },
+    "webp/128/upper-blue-and-rust-ivy-sprig.webp": {
+      "bytes": 10214,
+      "sha256": "8ccf8519e33d9bc60717732584bc55aff9c0b499b659c833413cf47dcc7c4793"
+    },
+    "webp/128/upper-gold-rod-with-red-blue-and-gold-foliate-branch-walters-w171-19v.webp": {
+      "bytes": 9396,
+      "sha256": "c0615b77ae8a2bc227c90799d74408390cc19395c57ed928ec4fc48bea8521cb"
+    },
+    "webp/128/upper-gold-rod-with-red-blue-and-gold-foliate-branch-walters-w171-74r.webp": {
+      "bytes": 8048,
+      "sha256": "f4d1a22322f60a87525d9c327580bc99541bd2703a241feb33a1a5ab68192297"
+    },
+    "webp/128/upper-left-gray-curled-ivy-with-gold-and-blue-trefoils.webp": {
+      "bytes": 12564,
+      "sha256": "b0e3eafffff56dd8ac59674329aa59f7568d9e3c993bb4bb44a53dafee4635f8"
+    },
+    "webp/128/upper-left-pink-ivy-flourish.webp": {
+      "bytes": 10736,
+      "sha256": "760617fbbdc14d34e4bf0bee6342f9ab82bc9020a811078d7fb13ef4a4a992c4"
+    },
+    "webp/128/upper-red-gold-and-blue-leaf-spray.webp": {
+      "bytes": 15868,
+      "sha256": "503f1e89dae4f6659db642fa165e9c3dde88427fcc98ce4c774e2b341dd02062"
+    },
+    "webp/128/upper-right-red-lobed-leaf-terminal.webp": {
+      "bytes": 13420,
+      "sha256": "452b7d6023999cfcdd3989ffef7a3ff7cda43cd02677baee27204e5582a1afc6"
+    },
+    "webp/128/upper-two-flower-black-twig-with-gold-berry.webp": {
+      "bytes": 12612,
+      "sha256": "aa365fd8f71eae46b4785d8a92ecf0448c52e7fe32654048de36952edcd94454"
+    },
+    "webp/128/worn-gold-crescent-moon.webp": {
+      "bytes": 9446,
+      "sha256": "925a7c61761a102d7aa5ed98027ba288faca50322a6bd6189bf66643a97cf713"
+    },
+    "webp/256/blue-dragon-head-with-orange-tongue.webp": {
+      "bytes": 63398,
+      "sha256": "c4d90bcb1f067e72b1c2994f81b84f002f74c7fa2f8bcda152a0cbb5244d2219"
+    },
+    "webp/256/blue-inlay-with-white-opposed-chevron-chain.webp": {
+      "bytes": 38302,
+      "sha256": "bbe2168a3340a63b76456c137365b30902a6620873e1bb016b2bdb89af81f749"
+    },
+    "webp/256/blue-webbed-fan-leaf.webp": {
+      "bytes": 37848,
+      "sha256": "d0544bf1952d4acc4a527346614e90fe300a0b5a196a258f0816215d622372cf"
+    },
+    "webp/256/fixed-floral-page-margin-with-acanthus-and-gold-ivy-walters-w186-285r.webp": {
+      "bytes": 76864,
+      "sha256": "61a91d5599d65ae5cb64ded726d2a1440895964ba42f1d18982bb3c378b2e3de"
+    },
+    "webp/256/fixed-floral-page-margin-with-acanthus-and-gold-ivy-walters-w186-291v.webp": {
+      "bytes": 73638,
+      "sha256": "3c664fa410ca357d8c6e11929eaf40e04f6896787615c46c9a1cebd5021f59bf"
+    },
+    "webp/256/fixed-rectangular-gold-blue-and-red-foliate-panel.webp": {
+      "bytes": 96114,
+      "sha256": "9a12db70975ab4d5932b34c961072e6dc4ff89acad2fa928c245d17ce0346859"
+    },
+    "webp/256/grapevine-with-two-purple-clusters-and-lobed-leaves.webp": {
+      "bytes": 52422,
+      "sha256": "57ce77cb775b214fc1afe3677fa36e0bd60b2ecc7f731df0259e7a8f7ae011ef"
+    },
+    "webp/256/green-gold-leaf-and-flower-flourish.webp": {
+      "bytes": 63226,
+      "sha256": "7645af7eb6693e8a7fb016061ad2299deec3108d0a7940d1acc5fa6447821537"
+    },
+    "webp/256/green-lobed-leaf-with-pointed-tip.webp": {
+      "bytes": 50858,
+      "sha256": "770394945bfb302089987837d0984279f938d9727d466523fbc01322d67bd453"
+    },
+    "webp/256/horizontal-floral-spray-with-blue-flowers-and-green-curled-stem.webp": {
+      "bytes": 19872,
+      "sha256": "362dcafbf80fea16cb4097b79e60101c72f3ae4f0b9682e012c8d659239f28e9"
+    },
+    "webp/256/inner-red-and-blue-leaf-scroll.webp": {
+      "bytes": 91394,
+      "sha256": "556cd063f9cf0b30cbd4a1fff80d2015c6ae6dcf3ad1bd842be6653293f47fd3"
+    },
+    "webp/256/interlaced-blue-red-foliage.webp": {
+      "bytes": 91992,
+      "sha256": "c743dc8526e5f4c92973998b9d80ae4a3d1ff451f312dab5e356a0351377a53c"
+    },
+    "webp/256/left-and-lower-floral-margin-with-acanthus-and-gold-ivy.webp": {
+      "bytes": 71224,
+      "sha256": "0761d292adc37a895b9b769515cbb0808964f90a06e1be98374b5816843bd727"
+    },
+    "webp/256/left-two-flower-black-twig-with-gold-berry.webp": {
+      "bytes": 50576,
+      "sha256": "34795bd321f95984b4837ecfcac9eb8d72dc160c04a8a05141dd86f0aafe70cb"
+    },
+    "webp/256/lobed-floral-blue-scroll.webp": {
+      "bytes": 62788,
+      "sha256": "3b3e43fa4312298ede83dc4b221a77b0e409ec972bd7ab3324d82751b9b16a6d"
+    },
+    "webp/256/lower-gold-rod-with-red-blue-and-gold-foliate-branch-walters-w171-19v.webp": {
+      "bytes": 29254,
+      "sha256": "1886c370e5d76d039edd55a08229872951d022f38559798fac49dd97c4ee9158"
+    },
+    "webp/256/lower-gold-rod-with-red-blue-and-gold-foliate-branch-walters-w171-74r.webp": {
+      "bytes": 31152,
+      "sha256": "81c506a6f194f3c2a009f1a369b9ffe7b9e7ce3446690b57b5df9b401d443dd5"
+    },
+    "webp/256/lower-left-gold-and-pink-rod-with-ivy-flourish-walters-w171-10r.webp": {
+      "bytes": 24842,
+      "sha256": "1e0bcc3adc32a8fa4590acab280b5ed6a6dfbbfde75d9790b927f964aa7212a8"
+    },
+    "webp/256/lower-left-gold-and-pink-rod-with-ivy-flourish-walters-w171-12r.webp": {
+      "bytes": 24528,
+      "sha256": "cd7a33d2a6809f1f55409a5b039f9f6ad8742090ec376c85cce59635e3316b31"
+    },
+    "webp/256/lower-left-knotted-red-and-blue-leaf.webp": {
+      "bytes": 58538,
+      "sha256": "cceec361d87b359b5a234dd30dcdbde7dc133a09defbf6609154b35f3881c061"
+    },
+    "webp/256/lower-red-gold-and-blue-leaf-spray.webp": {
+      "bytes": 72836,
+      "sha256": "b6991f0d940eb1ccadef0a99a1cd6ad066128ed2c0ecdd9af259d0f07b8e89c8"
+    },
+    "webp/256/oval-blue-celestial-scene-with-gold-stars-and-crescent.webp": {
+      "bytes": 64564,
+      "sha256": "19a1cdcaf0c2c96f4309843c397898585e05d5a90465e34b497ee1bb1b650b0e"
+    },
+    "webp/256/pink-flower-and-green-scroll-flourish.webp": {
+      "bytes": 48242,
+      "sha256": "9ba7ab72fd8b3485951e609a791b21095a5c8c69722f8500a96cfaed8fb8afb3"
+    },
+    "webp/256/pink-inlay-with-white-opposed-chevron-chain.webp": {
+      "bytes": 32100,
+      "sha256": "3261fb1c8ed7753582c894ff3809abb4f18da2904c579605dd99576424c02dfd"
+    },
+    "webp/256/tall-floral-bar-with-knotted-red-blue-ribbons.webp": {
+      "bytes": 14144,
+      "sha256": "c7d5401219d5080d1da171b6d8674bfa465c45966b491ac5e4c63c4a3e31298b"
+    },
+    "webp/256/thin-red-and-gold-fixed-miniature-frame.webp": {
+      "bytes": 24118,
+      "sha256": "dcbc9895458e30801b058863e74d20890e4a228b2ebb177d9473cb39937efd2d"
+    },
+    "webp/256/three-gold-trefoils-on-connected-serpentine-scroll.webp": {
+      "bytes": 28020,
+      "sha256": "961dc15b98402980949bd721489b3493e4e899a388c8515141baeb27861a5f67"
+    },
+    "webp/256/two-gold-pointed-leaves-on-fine-curled-stem.webp": {
+      "bytes": 15276,
+      "sha256": "26007504c9b490af107f9f8e6a5d38fe43d905d70b9fd066dce147d393891a00"
+    },
+    "webp/256/upper-blue-and-rust-ivy-sprig.webp": {
+      "bytes": 32506,
+      "sha256": "29fe12e4f240bf3e4bb11b53a5b7a1afebd2ede338cedf491bc868fbf884b949"
+    },
+    "webp/256/upper-gold-rod-with-red-blue-and-gold-foliate-branch-walters-w171-19v.webp": {
+      "bytes": 29910,
+      "sha256": "055bd2dffa1bdbbc807d99ddafa3fe563dfca38b5e1ffa5d3319007edcde5b40"
+    },
+    "webp/256/upper-gold-rod-with-red-blue-and-gold-foliate-branch-walters-w171-74r.webp": {
+      "bytes": 25872,
+      "sha256": "61c0a69aed3e83f9b21454d5553e64588ade4d855a2dfb20799fc457c5d033dd"
+    },
+    "webp/256/upper-left-gray-curled-ivy-with-gold-and-blue-trefoils.webp": {
+      "bytes": 38996,
+      "sha256": "7e879036522e5c11e786b5022a97fb835cdce8ceb0738f5c72ffb00e18148099"
+    },
+    "webp/256/upper-left-pink-ivy-flourish.webp": {
+      "bytes": 33770,
+      "sha256": "932fdcb69bce145ff36879ef891e578574ee1aae3f2d76bf96bb146be051f6af"
+    },
+    "webp/256/upper-red-gold-and-blue-leaf-spray.webp": {
+      "bytes": 51668,
+      "sha256": "2d2b5101677b3af81ea157e494b5dacee257429920c7f1c595086e27348c8390"
+    },
+    "webp/256/upper-right-red-lobed-leaf-terminal.webp": {
+      "bytes": 43126,
+      "sha256": "6c56e359e83c40a7c92a534ba4141d688ed5b6bcab037432e5c0e1b099ac29a6"
+    },
+    "webp/256/upper-two-flower-black-twig-with-gold-berry.webp": {
+      "bytes": 40408,
+      "sha256": "e345bd888edce7ecb6aa6ffdcf31fbaae9143204e84008734f84c01cbf93a2d4"
+    },
+    "webp/256/worn-gold-crescent-moon.webp": {
+      "bytes": 31716,
+      "sha256": "563c608d931e925e222407a276f311c35647ade327726a93cdec1d97ea348bde"
+    },
+    "webp/512/blue-inlay-with-white-opposed-chevron-chain.webp": {
+      "bytes": 135116,
+      "sha256": "af8aeb6f04f32eeb7be1b6a50a771dc70a9ff6844a252a06c59d9dda9e43cdde"
+    },
+    "webp/512/blue-webbed-fan-leaf.webp": {
+      "bytes": 133828,
+      "sha256": "28a839f3d6d73c7af3206468f9161d057f72052c079ce7fb676c55ff94c6fb62"
+    },
+    "webp/512/fixed-floral-page-margin-with-acanthus-and-gold-ivy-walters-w186-285r.webp": {
+      "bytes": 263640,
+      "sha256": "208ccb94cb0c472d48c26cbf91c82fe1756997686118b87d9e7b9b2d8b21d59e"
+    },
+    "webp/512/fixed-floral-page-margin-with-acanthus-and-gold-ivy-walters-w186-291v.webp": {
+      "bytes": 253680,
+      "sha256": "cb6147eea9f322be8a60b194e2ead88d5f9b9c34b0dbc73d71287dcfd16759ee"
+    },
+    "webp/512/fixed-rectangular-gold-blue-and-red-foliate-panel.webp": {
+      "bytes": 335666,
+      "sha256": "381fd48459a63707a8218742fb926e96b549d53497e6fe45e8468eaf18709442"
+    },
+    "webp/512/grapevine-with-two-purple-clusters-and-lobed-leaves.webp": {
+      "bytes": 163378,
+      "sha256": "833c02f8335fdd9a5426e854faa5e73954e15cab9c5a3021fc1a03629b95864f"
+    },
+    "webp/512/green-gold-leaf-and-flower-flourish.webp": {
+      "bytes": 205260,
+      "sha256": "9ba1fd719088fc8e4fefdbf21c7034f5cd8fb823960b5edeefc64b1cfea72a2f"
+    },
+    "webp/512/green-lobed-leaf-with-pointed-tip.webp": {
+      "bytes": 194494,
+      "sha256": "6986cb02bf58147c4d7bbbcbb26804d5f8d0c9b45f13ea7e40759166cc994524"
+    },
+    "webp/512/horizontal-floral-spray-with-blue-flowers-and-green-curled-stem.webp": {
+      "bytes": 63446,
+      "sha256": "dfe4b87585ca7605fcf5955154298839203ddd38e22dfb312a00ae2444211138"
+    },
+    "webp/512/inner-red-and-blue-leaf-scroll.webp": {
+      "bytes": 299608,
+      "sha256": "ea8412175c64aaff6339c760b11619f490c13ec02be29a4412d579cd23d5781b"
+    },
+    "webp/512/interlaced-blue-red-foliage.webp": {
+      "bytes": 307954,
+      "sha256": "4e2c4658caa648f5289cc242b26459c49b1639a388013175dfa641fec3cae3b5"
+    },
+    "webp/512/left-and-lower-floral-margin-with-acanthus-and-gold-ivy.webp": {
+      "bytes": 244746,
+      "sha256": "087d91ce0158c3c5e3c279c34bcb5c99edd0f45637fb76701962597746aed891"
+    },
+    "webp/512/lobed-floral-blue-scroll.webp": {
+      "bytes": 203632,
+      "sha256": "8a7c4cdb262fd2acd2204e6155443576a99ad9a9d2f9a4173923389f6be4216b"
+    },
+    "webp/512/lower-gold-rod-with-red-blue-and-gold-foliate-branch-walters-w171-19v.webp": {
+      "bytes": 84588,
+      "sha256": "31879d4e666280fcb734d2d57078f6195a2f92b46c03a630737f66808b424e25"
+    },
+    "webp/512/lower-gold-rod-with-red-blue-and-gold-foliate-branch-walters-w171-74r.webp": {
+      "bytes": 89458,
+      "sha256": "2f6910eadf98efde094a5b20e3454c98b67e0f62147eea576aea272f80b76d82"
+    },
+    "webp/512/lower-left-gold-and-pink-rod-with-ivy-flourish-walters-w171-10r.webp": {
+      "bytes": 69864,
+      "sha256": "7972aa6020f47f60d56171c2fa446abecd8056f14f7acef22b4f401ff77432a3"
+    },
+    "webp/512/lower-left-gold-and-pink-rod-with-ivy-flourish-walters-w171-12r.webp": {
+      "bytes": 70796,
+      "sha256": "a86cca7bbd8789cf0b1feffc2b5be213819baa987686abf4489c901bd4aaed97"
+    },
+    "webp/512/lower-red-gold-and-blue-leaf-spray.webp": {
+      "bytes": 253998,
+      "sha256": "01a366a50149acb129c7e8ddbfec20697ce61f68f7a6886267e010bc8344063c"
+    },
+    "webp/512/oval-blue-celestial-scene-with-gold-stars-and-crescent.webp": {
+      "bytes": 250424,
+      "sha256": "6a6bee219908c2afa264cadbba59991d14a3059b771bc26819168dff3e4bde28"
+    },
+    "webp/512/pink-flower-and-green-scroll-flourish.webp": {
+      "bytes": 154020,
+      "sha256": "07753367ecafc716d9282f87ed86f97aab9d65397700fb63e2aa51c52be82336"
+    },
+    "webp/512/pink-inlay-with-white-opposed-chevron-chain.webp": {
+      "bytes": 117338,
+      "sha256": "d14fc539b72c03304040867f5a6b34865109aa8669b3a2ebe24e2fa8b1557cb6"
+    },
+    "webp/512/tall-floral-bar-with-knotted-red-blue-ribbons.webp": {
+      "bytes": 45336,
+      "sha256": "85acac68e6c74e1ed77351e15be933bde9a782faa05e345b41581a3872988bcc"
+    },
+    "webp/512/thin-red-and-gold-fixed-miniature-frame.webp": {
+      "bytes": 72446,
+      "sha256": "bc9d4e48601a778a5ff376c836b7cc93e6855948ddf4c8a7e919ca51b1dc67f7"
+    },
+    "webp/512/three-gold-trefoils-on-connected-serpentine-scroll.webp": {
+      "bytes": 93558,
+      "sha256": "2ede72e9e3263296d5b023b9e32394b58db6b812e2bc360b6b4e8dfe108a1a05"
+    },
+    "webp/512/two-gold-pointed-leaves-on-fine-curled-stem.webp": {
+      "bytes": 51016,
+      "sha256": "b01f7726770cb769c1b670db601570b302e64f2e3f9b748752f222ff8ffae8f4"
+    },
+    "webp/512/upper-blue-and-rust-ivy-sprig.webp": {
+      "bytes": 103114,
+      "sha256": "4a3358ef103605f04952bd7b7542cfd38a25551668ad4faacad1757a8d27ae0b"
+    },
+    "webp/512/upper-gold-rod-with-red-blue-and-gold-foliate-branch-walters-w171-19v.webp": {
+      "bytes": 90358,
+      "sha256": "9bc32d2996770cb6062e8966d9bacc0e9a5134972eaba66cfc47cb822cbef471"
+    },
+    "webp/512/upper-gold-rod-with-red-blue-and-gold-foliate-branch-walters-w171-74r.webp": {
+      "bytes": 74590,
+      "sha256": "f3564c76548f7ce1efea1ae6aa27d10f43cbd895f784e50c56aaca6428624fee"
+    },
+    "webp/512/upper-left-gray-curled-ivy-with-gold-and-blue-trefoils.webp": {
+      "bytes": 131442,
+      "sha256": "a5b81219ab0478e1d229d004d395d7e70d5405c1212e0f88ba6fbf98c2eaccd9"
+    },
+    "webp/512/upper-left-pink-ivy-flourish.webp": {
+      "bytes": 100308,
+      "sha256": "11af045e7f4b1023d4ae4f9a141108d3f229299466be2573a3c7edb00e07eb83"
+    },
+    "webp/512/upper-red-gold-and-blue-leaf-spray.webp": {
+      "bytes": 178590,
+      "sha256": "d3f5dbbd76fb4431b89571061ccf82edca6f13b531f7685e583f5bf4e0cf24b0"
+    },
+    "webp/512/upper-two-flower-black-twig-with-gold-berry.webp": {
+      "bytes": 134020,
+      "sha256": "6cc51c07ebce4c6c347a97c61d439ac1407b94ac6894ea7a38b27a547d9e3a6c"
+    },
+    "webp/768/blue-webbed-fan-leaf.webp": {
+      "bytes": 285916,
+      "sha256": "48870a36d993c7abc24feba873c200b2ec5ce700611202c84984fa8cfdf1b900"
+    },
+    "webp/768/fixed-floral-page-margin-with-acanthus-and-gold-ivy-walters-w186-285r.webp": {
+      "bytes": 536476,
+      "sha256": "c3b2249bc7b673b32319b0ccd816c72d2085e95652e7f99cc551b3ec6262d4ab"
+    },
+    "webp/768/fixed-floral-page-margin-with-acanthus-and-gold-ivy-walters-w186-291v.webp": {
+      "bytes": 519698,
+      "sha256": "52829a30e928dd3ca0b9dbe6cdebb335b8b2d13e4c308fa6a1d8a828cc7805ba"
+    },
+    "webp/768/fixed-rectangular-gold-blue-and-red-foliate-panel.webp": {
+      "bytes": 705094,
+      "sha256": "6c7b7b1361c35fff246bcb79bf71955e847685595a29fbe18d5ac50a4c01a510"
+    },
+    "webp/768/grapevine-with-two-purple-clusters-and-lobed-leaves.webp": {
+      "bytes": 334836,
+      "sha256": "3e1f3ac0642636b10ff90172f96a851466f7587ad2fe84ab2cac967dfac1082a"
+    },
+    "webp/768/green-gold-leaf-and-flower-flourish.webp": {
+      "bytes": 429892,
+      "sha256": "da893ff6a8a8002596ff494298a9b5a3e9b6e6b003882dcd69c044bfe402546f"
+    },
+    "webp/768/horizontal-floral-spray-with-blue-flowers-and-green-curled-stem.webp": {
+      "bytes": 125848,
+      "sha256": "c4714b8dc81b3909d7646a890a8dd531007cb3565567c79fd09d7b98754a1bce"
+    },
+    "webp/768/inner-red-and-blue-leaf-scroll.webp": {
+      "bytes": 617824,
+      "sha256": "de1ed3745d5b31d36e13a5e3f2677076bb3a68978d290bf0078b1e036ab02446"
+    },
+    "webp/768/interlaced-blue-red-foliage.webp": {
+      "bytes": 651624,
+      "sha256": "999e154d7d1a3c3141586d2212aa61d8ae41e238125ea2bf634dc5eba83e469d"
+    },
+    "webp/768/left-and-lower-floral-margin-with-acanthus-and-gold-ivy.webp": {
+      "bytes": 509450,
+      "sha256": "bc9de12709ee9fb89a19eff304c1ac3a660f08e518da5a5c66b5d9f7273ce657"
+    },
+    "webp/768/lobed-floral-blue-scroll.webp": {
+      "bytes": 425610,
+      "sha256": "b2f6171c5008a365b1167e0dea198ebdc9131d49d16f762112b5460ca729ef99"
+    },
+    "webp/768/lower-gold-rod-with-red-blue-and-gold-foliate-branch-walters-w171-19v.webp": {
+      "bytes": 169822,
+      "sha256": "f4cfe42411436c22fe2ea90ea17d31b26d8052c65754476fec82ddcf16a81763"
+    },
+    "webp/768/lower-gold-rod-with-red-blue-and-gold-foliate-branch-walters-w171-74r.webp": {
+      "bytes": 180970,
+      "sha256": "d2bb8fcdbd16921a9f00d55e22e809b60a0e6afbfaefc62d46eb118bb3dcf2cc"
+    },
+    "webp/768/lower-left-gold-and-pink-rod-with-ivy-flourish-walters-w171-10r.webp": {
+      "bytes": 141096,
+      "sha256": "d265588534f88d2c9d798414dfbfc66da8af0fca73572b3ed0cd6fa691a969b8"
+    },
+    "webp/768/lower-left-gold-and-pink-rod-with-ivy-flourish-walters-w171-12r.webp": {
+      "bytes": 144800,
+      "sha256": "2cd31a84a06704750ab1b51212189cd6085e3b78bd5b19520760b813ca04ee55"
+    },
+    "webp/768/lower-red-gold-and-blue-leaf-spray.webp": {
+      "bytes": 549786,
+      "sha256": "3b4556e0e5bda9bb63c7bfe93b0dd47d7acca4cba981484db3bc7dfada4575fe"
+    },
+    "webp/768/oval-blue-celestial-scene-with-gold-stars-and-crescent.webp": {
+      "bytes": 561904,
+      "sha256": "500bd8696318837cd71d361871d719027b6c0ad5da90d739ea0396f0f23b8257"
+    },
+    "webp/768/pink-flower-and-green-scroll-flourish.webp": {
+      "bytes": 308976,
+      "sha256": "e75ab9ec7a27cb1b56dfc88036f94042825f7b37329c7acab58d8f8731ebf960"
+    },
+    "webp/768/tall-floral-bar-with-knotted-red-blue-ribbons.webp": {
+      "bytes": 90804,
+      "sha256": "38235560068b94906610dc229866ccbbb62bc6dfbb65583c0fec9ce8e41e29b1"
+    },
+    "webp/768/thin-red-and-gold-fixed-miniature-frame.webp": {
+      "bytes": 145382,
+      "sha256": "ec8e3315b29091fd47c8d06a4e3057936d71f0f7431d4cf421b2103f9119dd13"
+    },
+    "webp/768/three-gold-trefoils-on-connected-serpentine-scroll.webp": {
+      "bytes": 198284,
+      "sha256": "e264c5f7a0c42ad3ab30c40e33b99958cbff2de396bd49c04714bdd9baef6180"
+    },
+    "webp/768/two-gold-pointed-leaves-on-fine-curled-stem.webp": {
+      "bytes": 104392,
+      "sha256": "86e084521a62d19a675a59e34f191352acc5bd63aef97c008208504bcd967b30"
+    },
+    "webp/768/upper-blue-and-rust-ivy-sprig.webp": {
+      "bytes": 211942,
+      "sha256": "f1da63e1eb195066027180e329066fd528f895a1513ed02cf06b871adbfd25bc"
+    },
+    "webp/768/upper-gold-rod-with-red-blue-and-gold-foliate-branch-walters-w171-19v.webp": {
+      "bytes": 187346,
+      "sha256": "a0752fd0a2ada9c2b35cd166644d5ff1688b92101ba4ae3307993c9a531030c8"
+    },
+    "webp/768/upper-gold-rod-with-red-blue-and-gold-foliate-branch-walters-w171-74r.webp": {
+      "bytes": 153838,
+      "sha256": "b47b2507e9c2e8985cb68f3c97b57464387c556987ae0469e0cedb826be69707"
+    },
+    "webp/768/upper-left-gray-curled-ivy-with-gold-and-blue-trefoils.webp": {
+      "bytes": 276682,
+      "sha256": "f9eb8116ff252363dc56f33f96727aeca25d466074ea951bc9977ea7a3aa73fe"
+    },
+    "webp/768/upper-left-pink-ivy-flourish.webp": {
+      "bytes": 201098,
+      "sha256": "fa905fa75d68d299dd0459bc8ef22ebf3399dd6a27d02a13f3649807eb69bb36"
+    },
+    "webp/768/upper-red-gold-and-blue-leaf-spray.webp": {
+      "bytes": 374766,
+      "sha256": "5db81b0dabeaf76622a21086ea5c81e848c792de2f7d9273c199c97484f7c5ae"
+    },
+    "webp/blue-dragon-head-with-orange-tongue.webp": {
+      "bytes": 104054,
+      "sha256": "d6b8dece0681c281141c59ab1825f3461410803a8e606ba09c2edce9e80c2f67"
+    },
+    "webp/blue-inlay-with-white-opposed-chevron-chain.webp": {
+      "bytes": 134294,
+      "sha256": "d481660f32cc4d50bd46cfb972ae6c4d169fabced2825082233f9d2e395f7175"
+    },
+    "webp/blue-serrated-floret-with-red-gold-center.webp": {
+      "bytes": 23760,
+      "sha256": "8cccb1b199fb0bac49fb43666c908a203d2b7b06e250676548b699cb760669ae"
+    },
+    "webp/blue-webbed-fan-leaf.webp": {
+      "bytes": 349790,
+      "sha256": "0528eb57630ee5e05e486ac5511014abf3ca12c612df66e1fde2f5229610df69"
+    },
+    "webp/fixed-floral-page-margin-with-acanthus-and-gold-ivy-walters-w186-285r.webp": {
+      "bytes": 1677558,
+      "sha256": "6c75d89d1d64f0a580b498f44ebfe4ea27bc252d7919410193d01d1adbb65ca3"
+    },
+    "webp/fixed-floral-page-margin-with-acanthus-and-gold-ivy-walters-w186-291v.webp": {
+      "bytes": 1608398,
+      "sha256": "0c4f8c7b0d4dc0837e52d21ccca84fb010098efe8a0937575492bb404aa545ec"
+    },
+    "webp/fixed-rectangular-gold-blue-and-red-foliate-panel.webp": {
+      "bytes": 2012218,
+      "sha256": "ba6068d975078fbc64427338c4c914363ed211bc002c2f83c61896b26916c47b"
+    },
+    "webp/four-armed-green-feathered-floret-with-red-gold-center.webp": {
+      "bytes": 32190,
+      "sha256": "ffdeb1a38d0af11e3a0f1334b136fe779bdcc679952bd81d42c6689c9c5fd636"
+    },
+    "webp/grapevine-with-two-purple-clusters-and-lobed-leaves.webp": {
+      "bytes": 1257854,
+      "sha256": "77926aca4d3abb7b583597e6a1130c6ee748a65ebf34c1c6ab909205edad8e22"
+    },
+    "webp/green-gold-leaf-and-flower-flourish.webp": {
+      "bytes": 1027142,
+      "sha256": "2f871d19be6ea7ff713bb58465849d07aa8fedae9ebc3419694808efe5ec1029"
+    },
+    "webp/green-lobed-leaf-with-pointed-tip.webp": {
+      "bytes": 221446,
+      "sha256": "60679fed6895336a4b1f6417f984f0963a7bb9c78d5a4bcdb5504283a2c6c1f0"
+    },
+    "webp/horizontal-floral-spray-with-blue-flowers-and-green-curled-stem.webp": {
+      "bytes": 2599776,
+      "sha256": "3d05b4d00fd6e4db2ae30c1b19683c8db3a719ae782f988a006e821eb51ca45e"
+    },
+    "webp/inner-red-and-blue-leaf-scroll.webp": {
+      "bytes": 716278,
+      "sha256": "aa7471f2834d11af26f76a6c8f3b7396dd446ecda3be7cea9c494bdab0ce7aab"
+    },
+    "webp/interlaced-blue-red-foliage.webp": {
+      "bytes": 980806,
+      "sha256": "8770c393b08c0ca815b1d05f734c9360da73b6c9318919cc40bd7710c941149d"
+    },
+    "webp/left-and-lower-floral-margin-with-acanthus-and-gold-ivy.webp": {
+      "bytes": 1608590,
+      "sha256": "284d13cce6d253f170903886c58b08dc0d2db9c5f82db92968cd40fe0dc597d4"
+    },
+    "webp/left-two-flower-black-twig-with-gold-berry.webp": {
+      "bytes": 92562,
+      "sha256": "12dff7f3253f31225d4bd650a389fe5a2ff7122cc00dafe5f6f0bb58fe506e8a"
+    },
+    "webp/lobed-floral-blue-scroll.webp": {
+      "bytes": 759524,
+      "sha256": "489f584ab9a5a0e1b73b99834cf58d28fff16e5305a7c47e52a0c2f80842e18b"
+    },
+    "webp/lower-gold-rod-with-red-blue-and-gold-foliate-branch-walters-w171-19v.webp": {
+      "bytes": 483368,
+      "sha256": "1451f5fe4b4c12d6e9549051898eaf19c4f3ab3d3bd2380aa59338d89e255301"
+    },
+    "webp/lower-gold-rod-with-red-blue-and-gold-foliate-branch-walters-w171-74r.webp": {
+      "bytes": 513848,
+      "sha256": "87dde0712798b3b44314f040dc2b8dd9a8278a45a060b7343ccd83773263d3ce"
+    },
+    "webp/lower-left-gold-and-pink-rod-with-ivy-flourish-walters-w171-10r.webp": {
+      "bytes": 425378,
+      "sha256": "20f874e4479f8987eb48c4d63a544b2928624d4c82d30508d725260c36cd1404"
+    },
+    "webp/lower-left-gold-and-pink-rod-with-ivy-flourish-walters-w171-12r.webp": {
+      "bytes": 423802,
+      "sha256": "a6b8d38501846b4fc7becbdde7cabef4cda5989f13d2e10c6110a467c6f072ca"
+    },
+    "webp/lower-left-knotted-red-and-blue-leaf.webp": {
+      "bytes": 138534,
+      "sha256": "ea02dfc512784a9991e6f343dbcd8af27b95d633e545f991444c724aba37aeea"
+    },
+    "webp/lower-red-gold-and-blue-leaf-spray.webp": {
+      "bytes": 896122,
+      "sha256": "9adcd3f5adb316d9d2fe2d3883793d0d89af1abbc15c1c89b61cb215a2edee0c"
+    },
+    "webp/oval-blue-celestial-scene-with-gold-stars-and-crescent.webp": {
+      "bytes": 7331574,
+      "sha256": "e89c91e1b049a43d5d043a9abaa8aeace17c23eb6abe4631ffd6e26df070c545"
+    },
+    "webp/pink-flower-and-green-scroll-flourish.webp": {
+      "bytes": 1036722,
+      "sha256": "184b9a1d3f5c7a4de680172871f54d1f40354cb15b315a1b1986c0421e0df4a2"
+    },
+    "webp/pink-inlay-with-white-opposed-chevron-chain.webp": {
+      "bytes": 159318,
+      "sha256": "3cc224971a22ed40295b1ddcff5e0738385fc5e0f15fe733d0b1028b0e0a2f15"
+    },
+    "webp/small-irregular-gold-star.webp": {
+      "bytes": 33488,
+      "sha256": "08e1c7ac9746275fb078667a4dc2f4907032ab833f618fa961fbf512dfaf6f31"
+    },
+    "webp/small-red-gold-painted-roundel.webp": {
+      "bytes": 11088,
+      "sha256": "d2980a1a5d435176fa4a5a7e99127e1d58cd914aaa3bb35ca124d24afec9add2"
+    },
+    "webp/tall-floral-bar-with-knotted-red-blue-ribbons.webp": {
+      "bytes": 4752192,
+      "sha256": "358d3c0f1f8ba44f32f4a29e4e26ed0af33ba3d723873a808ac4825206ba0e7c"
+    },
+    "webp/thin-red-and-gold-fixed-miniature-frame.webp": {
+      "bytes": 462224,
+      "sha256": "537afa906eb2ee72f01c7bf9d43b195d5e7f38a364f660b8aca7a300e8c2895f"
+    },
+    "webp/three-gold-trefoils-on-connected-serpentine-scroll.webp": {
+      "bytes": 714712,
+      "sha256": "3690ddaa17311626c5e969fa50768db2a8ddca881e831fbc9af7833638982eb5"
+    },
+    "webp/two-gold-pointed-leaves-on-fine-curled-stem.webp": {
+      "bytes": 155746,
+      "sha256": "6c331153ea4f9c903af1c2157a2e2ab1fc5e280c0739ca5e8a0b9cc54c34b595"
+    },
+    "webp/upper-blue-and-rust-ivy-sprig.webp": {
+      "bytes": 431532,
+      "sha256": "cda7865a5faf4ee83fbc741b23bd6b010078700f643171b19784fdbbe96cd588"
+    },
+    "webp/upper-gold-rod-with-red-blue-and-gold-foliate-branch-walters-w171-19v.webp": {
+      "bytes": 460576,
+      "sha256": "114b6425bec8ef18797d4385ad9fd97f13d14373a525536e9062233bcd98ce34"
+    },
+    "webp/upper-gold-rod-with-red-blue-and-gold-foliate-branch-walters-w171-74r.webp": {
+      "bytes": 389124,
+      "sha256": "2d8af9b373515e0603f8ada789279bbdb30b6be7cc9a5d5bd1ebf16edc1750e8"
+    },
+    "webp/upper-left-gray-curled-ivy-with-gold-and-blue-trefoils.webp": {
+      "bytes": 725524,
+      "sha256": "f715a39c2f64ca62c44186139f078f910f3a421acbc9cf6af908342bedfbedea"
+    },
+    "webp/upper-left-pink-ivy-flourish.webp": {
+      "bytes": 585860,
+      "sha256": "3047e87839b3e63020bcd0402696ca3d63cdbf7d2f524255b8d96e65e9da4219"
+    },
+    "webp/upper-red-gold-and-blue-leaf-spray.webp": {
+      "bytes": 842952,
+      "sha256": "eaaa38df6bb56732aa77306117863892db7373f8b43e39350901dca83cc1cf16"
+    },
+    "webp/upper-right-red-lobed-leaf-terminal.webp": {
+      "bytes": 128862,
+      "sha256": "e0a2392f201670c0931e6fb55973bc396e201a7cc41169f0d9c148b77fed203f"
+    },
+    "webp/upper-two-flower-black-twig-with-gold-berry.webp": {
+      "bytes": 202064,
+      "sha256": "ffe02e105cd0edb6c710694972310be56f363ee4acc7cb1f50fca0b7ec2cd99c"
+    },
+    "webp/worn-gold-crescent-moon.webp": {
+      "bytes": 72450,
+      "sha256": "3ad94cfeef5687af2ec7e2f280505a369fbd374b3e7bf8dd97da58d6982792ef"
+    }
+  },
+  "inputs": {
+    "sources/tiles/blue-dragon-head-with-orange-tongue.png": {
+      "bytes": 144471,
+      "sha256": "daa1af7430f4d7899252ae78ba841ecce8ee7e38fec0e0636e297d061cc32cea"
+    },
+    "sources/tiles/blue-inlay-with-white-opposed-chevron-chain.png": {
+      "bytes": 171674,
+      "sha256": "36fa406d914ec61f201e2d2935d9991d83ac573418c40e5591cbe56004b52b34"
+    },
+    "sources/tiles/blue-serrated-floret-with-red-gold-center.png": {
+      "bytes": 29506,
+      "sha256": "7197b84b4917a213de579e5bd659a710dfe7c11051759fd435d90566a280d1ff"
+    },
+    "sources/tiles/blue-webbed-fan-leaf.png": {
+      "bytes": 483600,
+      "sha256": "f0465e93b9aed021b41ee3e06c9638fd3b1661c5d9c3048fb1be7b5fbe077adf"
+    },
+    "sources/tiles/fixed-floral-page-margin-with-acanthus-and-gold-ivy-walters-w186-285r.png": {
+      "bytes": 1989799,
+      "sha256": "68495dc4f7c67aaf84e2bb854f1545ec4c86094d8124b45bfef60f8e85d88b00"
+    },
+    "sources/tiles/fixed-floral-page-margin-with-acanthus-and-gold-ivy-walters-w186-291v.png": {
+      "bytes": 1903485,
+      "sha256": "7517a9862852559dde71af94d43cd457bbb29b0888c18482f19a6ce879006916"
+    },
+    "sources/tiles/fixed-rectangular-gold-blue-and-red-foliate-panel.png": {
+      "bytes": 2724077,
+      "sha256": "b968cbb5171177d017dae5306d0793a025001cf90e9a0eaefcfe11d9d5473004"
+    },
+    "sources/tiles/four-armed-green-feathered-floret-with-red-gold-center.png": {
+      "bytes": 40680,
+      "sha256": "1fe31c51f46974702b8f48ef64bb286193b3302b432426e273e1bbdf4dca0e07"
+    },
+    "sources/tiles/grapevine-with-two-purple-clusters-and-lobed-leaves.png": {
+      "bytes": 1631645,
+      "sha256": "d797f10c4eed838460b5a8cdb132302d7a654bbb2ed5ef7e468ecb0b74151d4c"
+    },
+    "sources/tiles/green-gold-leaf-and-flower-flourish.png": {
+      "bytes": 1368618,
+      "sha256": "77173b7cf842f10747556967328241dc56f5497e51022d211bdb0154e0b16698"
+    },
+    "sources/tiles/green-lobed-leaf-with-pointed-tip.png": {
+      "bytes": 276676,
+      "sha256": "6cadabaea7107cbfbe6a5d28eca86d6d72317f872e300ec58ae66b4eaf2cabb7"
+    },
+    "sources/tiles/horizontal-floral-spray-with-blue-flowers-and-green-curled-stem.png": {
+      "bytes": 3108033,
+      "sha256": "d70fd19de1b227b88673031cbe4c0ee94b34d474d5fe54701fefc092feb80fe8"
+    },
+    "sources/tiles/inner-red-and-blue-leaf-scroll.png": {
+      "bytes": 955113,
+      "sha256": "072320a75880178d6769423c5bd217fdb90825983de15256f12a20725c79069f"
+    },
+    "sources/tiles/interlaced-blue-red-foliage.png": {
+      "bytes": 1341235,
+      "sha256": "d5ff3a3e8e3d0fe4576bc08f2db7494bbae1dd6f12614a2d273bf23ae678ffb9"
+    },
+    "sources/tiles/left-and-lower-floral-margin-with-acanthus-and-gold-ivy.png": {
+      "bytes": 1878604,
+      "sha256": "71e032198e04d4245b97a760e91d5e8c0d9b70c4f1737e6f3752ab7a16acc6ac"
+    },
+    "sources/tiles/left-two-flower-black-twig-with-gold-berry.png": {
+      "bytes": 125494,
+      "sha256": "3ae1b5681761c371949fc0e3faaafa455a03839834a11d1fcda32c8bdea3f53b"
+    },
+    "sources/tiles/lobed-floral-blue-scroll.png": {
+      "bytes": 1023484,
+      "sha256": "441a039aaa7972aa812169e8f5bf936fc2122c7381b1de0573d560dc6fe8bf02"
+    },
+    "sources/tiles/lower-gold-rod-with-red-blue-and-gold-foliate-branch-walters-w171-19v.png": {
+      "bytes": 640647,
+      "sha256": "d02e02a60ad495743afd94946269c48c6b1282fd4bf7f4886a434c22107dc649"
+    },
+    "sources/tiles/lower-gold-rod-with-red-blue-and-gold-foliate-branch-walters-w171-74r.png": {
+      "bytes": 681969,
+      "sha256": "17e4b72f3988c0ed8007036d6668be91f15175fc906db5e94d12493d7675e8cb"
+    },
+    "sources/tiles/lower-left-gold-and-pink-rod-with-ivy-flourish-walters-w171-10r.png": {
+      "bytes": 574160,
+      "sha256": "ab30626137c681ab6bb2f45402c519f75520bb7296a3ee8274190f85cb291e21"
+    },
+    "sources/tiles/lower-left-gold-and-pink-rod-with-ivy-flourish-walters-w171-12r.png": {
+      "bytes": 572016,
+      "sha256": "fd494cadb3713db610e5c2fd7477f940291c015b423338f269441a07dcfea608"
+    },
+    "sources/tiles/lower-left-knotted-red-and-blue-leaf.png": {
+      "bytes": 186983,
+      "sha256": "df26c9c454c03924625237bc3805dd8d8ced0758649af35a09f79cdb71a04bbb"
+    },
+    "sources/tiles/lower-red-gold-and-blue-leaf-spray.png": {
+      "bytes": 1239835,
+      "sha256": "c06211b4540daafb3a31ca76970a3fd0768b7176ec4de44610a9098ead0eb5cf"
+    },
+    "sources/tiles/oval-blue-celestial-scene-with-gold-stars-and-crescent.png": {
+      "bytes": 9354857,
+      "sha256": "9e26fbe79fd8eb25ba2964780b985ca3ccf97c3a7a99d4a88b422d15c202f1a6"
+    },
+    "sources/tiles/pink-flower-and-green-scroll-flourish.png": {
+      "bytes": 1393768,
+      "sha256": "d3e09b11deda6a91aabe675f3d93350538e1f4348317c790095bba85c541e0b6"
+    },
+    "sources/tiles/pink-inlay-with-white-opposed-chevron-chain.png": {
+      "bytes": 201923,
+      "sha256": "b8b1fd9cca7906f3b82941a47296c6c65bc0db917a216078386cc4ddc9ef2efc"
+    },
+    "sources/tiles/small-irregular-gold-star.png": {
+      "bytes": 41757,
+      "sha256": "731fdf2d5a68c3613a7f539d9ad593d1ba4007770fd3b309dc55f22abb80d13f"
+    },
+    "sources/tiles/small-red-gold-painted-roundel.png": {
+      "bytes": 13065,
+      "sha256": "ba72952efb553c2a9b664c5d2dd45cd5c95e23ad9117fe3f352cb99d1532cfe2"
+    },
+    "sources/tiles/tall-floral-bar-with-knotted-red-blue-ribbons.png": {
+      "bytes": 5719419,
+      "sha256": "5abde45cd5ecf74b182b9f940f0d593c77e0258593216ccd673327c6ca816ecf"
+    },
+    "sources/tiles/thin-red-and-gold-fixed-miniature-frame.png": {
+      "bytes": 607262,
+      "sha256": "5acd1290fe6ca258b141a750d982ee7720fea6dc4471a4484059eb28fc66a392"
+    },
+    "sources/tiles/three-gold-trefoils-on-connected-serpentine-scroll.png": {
+      "bytes": 849878,
+      "sha256": "9b5afe11d6ca3eb56c4595c5c16a922d7920a40f06b36e73e8691d8f0e6e6403"
+    },
+    "sources/tiles/two-gold-pointed-leaves-on-fine-curled-stem.png": {
+      "bytes": 195830,
+      "sha256": "19f104d8d446acb8017d093fae6166b5b128ae76b2238701fbf0e9212acdeb2b"
+    },
+    "sources/tiles/upper-blue-and-rust-ivy-sprig.png": {
+      "bytes": 551533,
+      "sha256": "5b68222693d8a01e6391980ddceb899008ffe4d2d300d1260d4bc8957b3abead"
+    },
+    "sources/tiles/upper-gold-rod-with-red-blue-and-gold-foliate-branch-walters-w171-19v.png": {
+      "bytes": 599890,
+      "sha256": "07fa62632b0da93b352deb2074e34fda13d8c8e7c3b47be6bdc5db9cb0566b15"
+    },
+    "sources/tiles/upper-gold-rod-with-red-blue-and-gold-foliate-branch-walters-w171-74r.png": {
+      "bytes": 515685,
+      "sha256": "2895cdf7ceac705e81ad02286397715d338e8121ad8ff6089a0b92d542fcb0ac"
+    },
+    "sources/tiles/upper-left-gray-curled-ivy-with-gold-and-blue-trefoils.png": {
+      "bytes": 864114,
+      "sha256": "925d077d719244f69391d283b5595c8796c4bd36f43c149535c3876ec2552cd4"
+    },
+    "sources/tiles/upper-left-pink-ivy-flourish.png": {
+      "bytes": 787090,
+      "sha256": "a3aa7abc15e7d2e1bba4d338d7ea914fe686dc6823c0aa0225ff6e89ff87335d"
+    },
+    "sources/tiles/upper-red-gold-and-blue-leaf-spray.png": {
+      "bytes": 1118869,
+      "sha256": "8ef02ec348f9ff5323a328f80f63040453d034c2a09fe6fd45aed36be84fd121"
+    },
+    "sources/tiles/upper-right-red-lobed-leaf-terminal.png": {
+      "bytes": 176908,
+      "sha256": "1c9e767e1fddfd7900e199f82e4b26dd80baf48ded3fc5d955ae4ab26f594970"
+    },
+    "sources/tiles/upper-two-flower-black-twig-with-gold-berry.png": {
+      "bytes": 267889,
+      "sha256": "6124ae80c2812f76adddd35afd250415c3455b5c21c3c2103dd4d9c4f8d517cc"
+    },
+    "sources/tiles/worn-gold-crescent-moon.png": {
+      "bytes": 88552,
+      "sha256": "cc41930c3f84497f4db7d596d5a99d2e915e79a4d8ba4d64c95ca3f056d88f80"
+    }
+  }
+}

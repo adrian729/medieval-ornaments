@@ -1,0 +1,110 @@
+{
+  "source_id": "nga-832",
+  "assets": [
+    {
+      "id": "nga-832--palmette-with-paired-dolphin-heads-and-leaf-scroll",
+      "name": "palmette-with-paired-dolphin-heads-and-leaf-scroll",
+      "source_id": "nga-832",
+      "source_folder": "national-gallery-of-art",
+      "asset_type": "decoration",
+      "description": "The complete connected central palmette fan, both original fantastic long-beaked dolphin-like heads at lower left and right, both horn-shaped cups, all tendrils, curled leaves and connecting stems.",
+      "source_region": [
+        0,
+        0,
+        4096,
+        1816
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        19,
+        30,
+        1861,
+        803
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 1842,
+      "height": 773,
+      "png": "national-gallery-of-art/nga-832--palmette-with-paired-dolphin-heads-and-leaf-scroll.png",
+      "png_sha256": "6cafd4be9b3dc5cd3fb04b81f1e1fa3371d271e7efc83c550804ea3e1e26e1b8",
+      "provenance": {
+        "institution": "National Gallery of Art, Washington",
+        "title": "Ornament with Palmette and Two Dophin Heads",
+        "object_identifier": "1941.2.7",
+        "date": "c. 1540/1545",
+        "artist": "Sebald Beham",
+        "record_url": "https://www.nga.gov/collection/art-object-page.832.html",
+        "image_rights": "Open Access / public domain; official image dataset openaccess=1",
+        "rights_url": "https://www.nga.gov/artworks/free-images-and-open-access",
+        "source_file": "tmp/new-assets/national-gallery-of-art/nga-832--ornament-with-palmette-and-two-dophin-heads.jpg",
+        "source_sha256": "77669ce21967b4aaa8fdaabe0e1ba4ac0d742bdb9e45786b88cb0e3d9934f03c",
+        "source_metadata": "tmp/new-assets/national-gallery-of-art/nga-832.json",
+        "image_url": null,
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: background-extraction. Edit target: the referenced original nonsexual historical engraving, for a museum decorative-art collection. Extract ONLY the existing ornament onto genuine transparency, preserving its exact appearance. Subject: The complete connected central palmette fan, both original fantastic long-beaked dolphin-like heads at lower left and right, both horn-shaped cups, all tendrils, curled leaves and connecting stems. Remove only the small HSB initials on the central palmette, leaving that original pale palmette surface and existing outline; no new shading. The heads are original Renaissance mythical sea creatures, not modern realistic dolphins. Remove the dense straight crosshatched BACKGROUND field completely, outside the ornament and inside every genuine scroll opening. Keep all original curved foreground hatching, engraving texture, opaque pale illustrated surfaces, hand-drawn irregularities, original proportions, ink color and every tiny tip. Do not transform the subject, add details, beautify, make it symmetrical, invent missing parts, alter anatomy, or turn it into a modern clean vector. Remove page paper, outer printed cell rules, dirt and unrelated printer marks. Retain the ornament wherever it meets the source edge, without invented extensions. Do not compress or stretch the original aspect ratio. Use smoothly antialiased original contours, no hard polygon cuts, paper halo, pixel-scale outline or shadow. True transparent alpha, never a white rectangle or painted checkerboard.",
+        "retained_generated_extraction": "tmp/extraction-work/nga-832--palmette-with-paired-dolphin-heads-and-leaf-scroll--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "fe64645a4d888a111069d210d9968e2e404e0d0e888714f98cfda0e6b836db98",
+        "retained_generated_size": [
+          1884,
+          835
+        ],
+        "resolution_cap_scale": 1,
+        "resolution_capped_size": [
+          1884,
+          835
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          4096,
+          1816
+        ],
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 62909
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "approval_scope": "Extraction-workflow source comparison; provisional for maintainer review.",
+        "checks": [
+          "original-connected-motif",
+          "clear-background-hatching-and-internal-openings",
+          "opaque-illustrated-surfaces",
+          "original-proportions",
+          "native-resolution-cap",
+          "white-and-dark-backgrounds"
+        ],
+        "notes": "Compared every major leaf, scroll connection and foreground figure/prop against the untouched source. Original background field and lettering removed; fine print appearance remains an explicitly recorded AI-assisted approximation. No forced vector or invented repeat.",
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/nga-three-generated-proof-1.jpg"
+        ]
+      },
+      "categories": [
+        "floral",
+        "fantasy"
+      ],
+      "subjects": [
+        "scroll",
+        "leaf",
+        "ornament"
+      ],
+      "facing": "mixed",
+      "colors": [
+        "black",
+        "brown",
+        "cream"
+      ],
+      "composition": "single-ornament",
+      "usage_notes": "Finite connected engraving; no seamless cycle or new corner atlas inferred. Actual source-truncated ends are retained without extensions. AI-assisted background extraction, not a pixel-exact crop; original and exact prompt retained."
+    }
+  ]
+}

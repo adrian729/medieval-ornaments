@@ -78,7 +78,12 @@
           "minLength": 1,
           "enum": [
             "ai-assisted-extraction",
-            "independent-ai-interpretation"
+            "independent-ai-interpretation",
+            "native-source-extraction",
+            "native-ink-extraction",
+            "native-source-repeat",
+            "ai-assisted-source-mask",
+            "mixed-source-extraction"
           ]
         },
         "audit": {
@@ -106,7 +111,8 @@
     "ornament": {
       "allOf": [
         {"$ref": "#/$defs/asset"},
-        {"if": {"properties": {"kind": {"const": "repeat-tile"}}}, "then": {"required": ["repeat_ratio", "border_image_slice_percent"], "properties": {"asset_type": {"const": "border"}, "repeat_axis": {"enum": ["x", "y"]}}}, "else": {"properties": {"asset_type": {"enum": ["decoration", "illustration"]}, "repeat_axis": {"const": "none"}}}}
+        {"if": {"properties": {"kind": {"const": "repeat-tile"}}}, "then": {"required": ["repeat_ratio"], "properties": {"asset_type": {"const": "border"}, "repeat_axis": {"enum": ["x", "y"]}}}, "else": {"properties": {"asset_type": {"enum": ["decoration", "illustration"]}, "repeat_axis": {"const": "none"}}}},
+        {"if": {"properties": {"components": {"required": ["border_image"]}}}, "then": {"required": ["border_image_slice_percent"]}}
       ],
       "required": ["name", "description", "categories", "subjects", "facing", "colors", "composition", "asset_type", "kind", "repeat_axis", "derivation", "has_transparency", "usage_notes", "variants", "components"],
       "properties": {
@@ -128,6 +134,7 @@
         "derivation": {"type": "string", "minLength": 1},
         "reference": {"type": "string"},
         "provenance": {"$ref": "#/$defs/provenance"},
+        "sets": {"type": "array", "items": {"type": "object", "required": ["id", "name"], "additionalProperties": false, "properties": {"id": {"type": "string", "minLength": 1}, "name": {"type": "string", "minLength": 1}}}},
         "author": {"type": "string", "minLength": 1, "description": "Optional creator account, including artwork created by an agent on that account's behalf. Separate from provenance.artist, which identifies a historical source artist. Omit when unknown."},
         "uses": {"type": "array", "items": {"enum": ["frame", "divider", "image"]}},
         "formats": {"type": "array", "items": {"enum": ["svg", "webp", "png"]}},

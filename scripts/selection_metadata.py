@@ -24,7 +24,7 @@ def enrich(catalog, measure=None):
     authored_notes = {}
     authored_origins = {}
     authors = {}
-    for filename in ['illustrations.json', 'raster-metadata.json', 'historical-border-patterns.json']:
+    for filename in ['illustrations.json', 'raster-metadata.json', 'historical-border-patterns.json', 'finished-border-patterns.json']:
         master = ROOT / filename
         if master.exists():
             items = json.loads(master.read_text())
@@ -59,7 +59,10 @@ def enrich(catalog, measure=None):
         # Read authored notes from the master, never yesterday's generated notes.
         notes = [*authored_notes.get(item['name'], []), *facts.get('usage_notes', [])]
         if item['kind'] == 'repeat-tile':
-            notes.append(f"Repeats originally {'vertically' if item['repeat_axis'] == 'y' else 'horizontally'}; use the matching rotated tile for the other axis and the supplied atlas with round fitting for frames.")
+            if 'border_image' in item['components']:
+                notes.append(f"Repeats originally {'vertically' if item['repeat_axis'] == 'y' else 'horizontally'}; use the matching rotated tile for the other axis and the supplied atlas with round fitting for frames.")
+            else:
+                notes.append(f"Repeats originally {'vertically' if item['repeat_axis'] == 'y' else 'horizontally'}; use the matching rotated tile for the other axis. Divider only: no approved frame corners or atlas.")
         else:
             notes.append('Complete image; no verified repeating unit or frame atlas. Preserve its proportions.')
         if not item['has_transparency']:

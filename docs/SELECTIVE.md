@@ -360,3 +360,9 @@ a single numbered repository is not a flat collection mirror.
 
 The [migration guide](RESOURCE-MIGRATION.md) lists changes to raw GitHub URLs,
 Pages image links, ZIP links, authoring checkouts and legacy CDN constants.
+
+Divider-only designs expose only their divider exports and reject frame use,
+including in TypeScript. The selected installer preserves named sets and copies
+all approved components, including individually named corner phases and bars,
+from the same assigned resource. These extra components do not introduce other
+designs or a full catalog into an individual import.

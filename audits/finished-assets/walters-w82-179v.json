@@ -1,0 +1,533 @@
+{
+  "source_id": "walters-w82-179v",
+  "assets": [
+    {
+      "id": "walters-w82-179v--blue-line-filler-with-white-waves-hatching-and-curled-terminal",
+      "name": "blue-line-filler-with-white-waves-hatching-and-curled-terminal",
+      "source_id": "walters-w82-179v",
+      "source_folder": "walters",
+      "asset_type": "decoration",
+      "description": "A finite blue line filler with gold pips, unequal white waves, hatching and a curled terminal. Part of the Walters W.82 Marginalia set.",
+      "source_region": [
+        5565,
+        2215,
+        7161,
+        2505
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        17,
+        118,
+        1278,
+        342
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 1261,
+      "height": 224,
+      "png": "walters/walters-w82-179v--blue-line-filler-with-white-waves-hatching-and-curled-terminal.png",
+      "png_sha256": "03aec4acd29aa9715c0106cb61d620aaa5de7396b57177ca14c75004e05c40ad",
+      "provenance": {
+        "institution": "Walters Art Museum",
+        "title": "Initial \"D\" with the Nativity; merman feeding stork with spoon and man sitting in basket of eggs in margins",
+        "object_identifier": "W.82, fol. 179v",
+        "date": "Ca. 1315-1325 CE",
+        "record_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/html/W82/description.html",
+        "image_rights": "CC0 (Digital Walters manuscript images)",
+        "rights_url": "https://www.thedigitalwalters.org/01_ACCESS_WALTERS_MANUSCRIPTS.html",
+        "source_file": "tmp/new-assets/walters/walters-w82-179v--initial-d-with-the-nativity-merman-feeding-stork-with-spoon-and-man-sitting-in-basket-of-e--master.tif",
+        "source_sha256": "345543fc84ebe26a2621fb0fa16fff7c052b06ed6e2f098ccfd3e11deff43aa2",
+        "source_metadata": "tmp/new-assets/walters/walters-w82-179v.json",
+        "image_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/W82/data/W.82/master/W82_000362_1200.tif",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. Isolate the ENTIRE painted blue ornamental line filler, including its left gold pips, original white waves, the changing white short vertical hatching at right and the original small curled end. Blue paint is the intrinsic artwork body and remains OPAQUE; original white lines and gold paint remain opaque. Only exterior parchment, neighboring letters and page ruling are transparent. Preserve its source-worn unequal pattern and hand-painted border edges. No invented repeat, restored gilt, modern straightening of individual brush strokes or symmetric terminal. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_extraction": "tmp/extraction-work/walters-w82-179v--blue-line-filler-with-white-waves-hatching-and-curled-terminal--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "abce20624124a9cb7311d5b91a50d93d8d0dd060376afcb11ab42055c93b4516",
+        "retained_generated_size": [
+          2172,
+          724
+        ],
+        "resolution_cap_scale": 0.5994236311239193,
+        "resolution_capped_size": [
+          1302,
+          434
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          1480,
+          208
+        ],
+        "native_subject_size_evidence": {
+          "method": "Individually inspected native visible subject bounds, excluding input-region whitespace and neighbours.",
+          "preview_subject_bounds": [
+            1028,
+            412,
+            1298,
+            450
+          ],
+          "preview_size": [
+            1400,
+            1527
+          ],
+          "original_size": [
+            7676,
+            8371
+          ]
+        },
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 4258
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Inspected the complete native original and each light/dark export. Retained all selected source-visible tree trunks, foliage, fruit, fountain architecture and water jets, and complete foliate border strokes, alternating original paint and fine stem ends. Gold background and independent neighboring art removed; painted bodies remain opaque. Finite hand-drawn border branches are whole ornaments, with no invented repeat or corner atlas. The blue line-filler preserves both gold pips and the original right terminal; neighboring red panel is excluded. Native visible subject dimensions cap both axes, with no upscaling.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/fountain-tree-ready-results-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/fountain-tree-ready-results-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/fountain-tree-ready-results-proof-3.jpg"
+        ]
+      },
+      "categories": [
+        "geometric",
+        "scrollwork"
+      ],
+      "subjects": [
+        "band",
+        "wave",
+        "hatching",
+        "pip",
+        "terminal"
+      ],
+      "colors": [
+        "blue",
+        "white",
+        "gold"
+      ],
+      "facing": "unclear",
+      "composition": "single-ornament",
+      "usage_notes": "Original independent specimen with printed plate rules and page removed. AI-assisted extraction remains approximate; source bounds, actual native subject cap, original and exact prompt retained.",
+      "sets": [
+        {
+          "id": "walters-w82-marginalia",
+          "name": "Walters W.82 Marginalia",
+          "relation": "same manuscript; each page retains its source identity"
+        },
+        {
+          "id": "walters-w82-179v-set",
+          "name": "Initial \"D\" with the Nativity; merman feeding stork with spoon and man sitting in basket of eggs in margins (walters-w82-179v)",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A finite blue line filler with gold pips, unequal white waves, hatching and a curled terminal.",
+      "set_label": "Walters W.82 Marginalia"
+    },
+    {
+      "id": "walters-w82-179v--figure-in-woven-basket-with-red-cord-and-crowned-face",
+      "name": "figure-in-woven-basket-with-red-cord-and-crowned-face",
+      "source_id": "walters-w82-179v",
+      "source_folder": "walters",
+      "asset_type": "illustration",
+      "description": "A figure sits in a woven basket and holds thin red cords leading to a suspended gold face with a scalloped crown. Part of the Walters W.82 Marginalia set.",
+      "source_region": [
+        5450,
+        5741,
+        7013,
+        7730
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        0,
+        192,
+        1432,
+        1921
+      ],
+      "export_crop_coordinate_space": "original-native-source-region",
+      "width": 1432,
+      "height": 1729,
+      "png": "walters/walters-w82-179v--figure-in-woven-basket-with-red-cord-and-crowned-face.png",
+      "png_sha256": "d65f733380116f1471331385c5c4eaeba107e6e918bbd9241830026b1e0affd6",
+      "provenance": {
+        "institution": "Walters Art Museum",
+        "title": "Initial \"D\" with the Nativity; merman feeding stork with spoon and man sitting in basket of eggs in margins",
+        "object_identifier": "W.82, fol. 179v",
+        "date": "Ca. 1315-1325 CE",
+        "record_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/html/W82/description.html",
+        "image_rights": "CC0 (Digital Walters manuscript images)",
+        "rights_url": "https://www.thedigitalwalters.org/01_ACCESS_WALTERS_MANUSCRIPTS.html",
+        "source_file": "tmp/new-assets/walters/walters-w82-179v--initial-d-with-the-nativity-merman-feeding-stork-with-spoon-and-man-sitting-in-basket-of-e--master.tif",
+        "source_sha256": "345543fc84ebe26a2621fb0fa16fff7c052b06ed6e2f098ccfd3e11deff43aa2",
+        "source_metadata": "tmp/new-assets/walters/walters-w82-179v.json",
+        "image_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/W82/data/W.82/master/W82_000362_1200.tif",
+        "method": "native-source-continuous-edge-matting"
+      },
+      "extraction": {
+        "candidate_png": "tmp/extraction-work/continuation-20261010/walters-w82-179v--figure-in-woven-basket-with-red-cord-and-crowned-face--registered-native-candidate.png",
+        "native_export_crop": [
+          0,
+          192,
+          1432,
+          1921
+        ],
+        "export_crop_coordinate_space": "original-native-source-region",
+        "annotation_json": "tmp/extraction-work/continuation-20261010/walters-w82-179v--figure-in-woven-basket-with-red-cord-and-crowned-face--registered-native-annotation.json",
+        "trimap_png": "tmp/extraction-work/continuation-20261010/walters-w82-179v--figure-in-woven-basket-with-red-cord-and-crowned-face--registered-native-trimap.png",
+        "native_source_size": [
+          1563,
+          1989
+        ],
+        "native_upscaling": false,
+        "source_pixels_redrawn": false,
+        "original_opaque_rgb_preserved": true,
+        "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+        "alpha_guide": {
+          "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+          "guide_png": "tmp/extraction-work/continuation-20261010/walters-w82-179v--figure-in-woven-basket-with-red-cord-and-crowned-face--native-alpha-reference.png",
+          "guide_sha256": "61b12c60b5fef75b099b61a148836fc0445f30280c5af6b2c1ce7202b9147b97",
+          "native_original": "tmp/extraction-work/continuation-20261010/walters-w82-179v--figure-in-woven-basket-with-red-cord-and-crowned-face--complete-source-input.png",
+          "similarity_ai_alpha_to_original": [
+            [
+              1.3506471962065814,
+              0.02556644812123087,
+              -63.11621045816059
+            ],
+            [
+              -0.02556644812123087,
+              1.3506471962065814,
+              81.21982139609678
+            ]
+          ],
+          "matching_feature_pairs": 778,
+          "inlier_feature_pairs": 267,
+          "inlier_rms_native_pixels": 2.727157242481314,
+          "source_inspection_factor": 0.9049773755656109,
+          "unknown_edge_band_native_pixels": 3,
+          "edge_solve_tile_size": 640,
+          "edge_solve_halo": 32,
+          "edge_solve_tiles": 6,
+          "original_opaque_rgb_preserved": true
+        },
+        "status": "awaiting-original-white-dark-review",
+        "tool": "Original native scan / closed-form edge alpha and foreground decontamination",
+        "pixel_exact": false,
+        "ownership_guide_prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. Keep the complete original lower-right figure seated in its woven basket, every hand/finger and visible robe, the entire woven basket, ALL thin red cords above its raised hand, and the suspended gold face with its original gray scalloped crown above. These source pieces are joined by the real red cords and belong together. Do not turn the human face into an ape, balloon or fruit. Remove the blue ornament running beneath/behind the basket and all unrelated manuscript background; no new cord, source-hidden body, changed crown or invented connections. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint. This complete native input includes all original source-visible crown points or raised fingertips above the former smaller region. Keep those original visible extremities; remove surrounding letters and page ornament.",
+        "retained_generated_ownership_guide": {
+          "file": "tmp/extraction-work/walters-w82-179v--figure-in-woven-basket-with-red-cord-and-crowned-face--retained-ai-extraction.png",
+          "sha256": "61b12c60b5fef75b099b61a148836fc0445f30280c5af6b2c1ce7202b9147b97",
+          "purpose": "Retained AI alpha guide only; delivered opaque RGB belongs to the unchanged native source."
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Expanded untouched source, original/white/dark native proof and original thin red cords reviewed. Complete source-visible gray scalloped crown, gold face, thin real red cords, raised fingers, robe and woven basket retained as one physically connected group. Nearby text and unrelated blue page vine excluded; source wear and pale painted surfaces remain opaque. Original native scale and fully opaque source RGB retained, not the generated redraw.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/two-complete-source-native-registration-current-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/walters-w82-179v--figure-in-woven-basket-with-red-cord-and-crowned-face--complete-source-input.png"
+        ]
+      },
+      "categories": [
+        "humans",
+        "fantasy"
+      ],
+      "subjects": [
+        "figure",
+        "basket",
+        "cord",
+        "face",
+        "crown"
+      ],
+      "colors": [
+        "cream",
+        "brown",
+        "red",
+        "gold",
+        "gray"
+      ],
+      "facing": "unclear",
+      "composition": "standalone",
+      "usage_notes": "Original independent specimen with printed plate rules and page removed. AI-assisted extraction remains approximate; source bounds, actual native subject cap, original and exact prompt retained.",
+      "sets": [
+        {
+          "id": "walters-w82-marginalia",
+          "name": "Walters W.82 Marginalia",
+          "relation": "same manuscript; each page retains its source identity"
+        },
+        {
+          "id": "walters-w82-179v-set",
+          "name": "Initial \"D\" with the Nativity; merman feeding stork with spoon and man sitting in basket of eggs in margins (walters-w82-179v)",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A figure sits in a woven basket and holds thin red cords leading to a suspended gold face with a scalloped crown.",
+      "set_label": "Walters W.82 Marginalia"
+    },
+    {
+      "id": "walters-w82-179v--orange-clad-floating-figure-with-green-cloak-and-crossed-implement",
+      "name": "orange-clad-floating-figure-with-green-cloak-and-crossed-implement",
+      "source_id": "walters-w82-179v",
+      "source_folder": "walters",
+      "asset_type": "illustration",
+      "description": "An orange-clad floating figure trails a long green cloak and holds a crossed green and red implement with a round junction. Part of the Walters W.82 Marginalia set.",
+      "source_region": [
+        4891,
+        219,
+        7676,
+        1661
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        32,
+        55,
+        2647,
+        1058
+      ],
+      "export_crop_coordinate_space": "original-native-source-region",
+      "width": 2615,
+      "height": 1003,
+      "png": "walters/walters-w82-179v--orange-clad-floating-figure-with-green-cloak-and-crossed-implement.png",
+      "png_sha256": "81b6f5bdd5bcd7945cacaa00c5c3e96ba8266d6778f53635a1e1099ba67f9559",
+      "provenance": {
+        "institution": "Walters Art Museum",
+        "title": "Initial \"D\" with the Nativity; merman feeding stork with spoon and man sitting in basket of eggs in margins",
+        "object_identifier": "W.82, fol. 179v",
+        "date": "Ca. 1315-1325 CE",
+        "record_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/html/W82/description.html",
+        "image_rights": "CC0 (Digital Walters manuscript images)",
+        "rights_url": "https://www.thedigitalwalters.org/01_ACCESS_WALTERS_MANUSCRIPTS.html",
+        "source_file": "tmp/new-assets/walters/walters-w82-179v--initial-d-with-the-nativity-merman-feeding-stork-with-spoon-and-man-sitting-in-basket-of-e--master.tif",
+        "source_sha256": "345543fc84ebe26a2621fb0fa16fff7c052b06ed6e2f098ccfd3e11deff43aa2",
+        "source_metadata": "tmp/new-assets/walters/walters-w82-179v.json",
+        "image_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/W82/data/W.82/master/W82_000362_1200.tif",
+        "method": "native-source-continuous-edge-matting"
+      },
+      "extraction": {
+        "candidate_png": "tmp/extraction-work/continuation-20261010/walters-w82-179v--orange-clad-floating-figure-with-green-cloak-and-crossed-implement--refined-original-native-candidate.png",
+        "native_export_crop": [
+          32,
+          55,
+          2647,
+          1058
+        ],
+        "export_crop_coordinate_space": "original-native-source-region",
+        "annotation_json": "tmp/extraction-work/continuation-20261010/walters-w82-179v--orange-clad-floating-figure-with-green-cloak-and-crossed-implement--refined-original-native-audit.json",
+        "trimap_png": "tmp/extraction-work/continuation-20261010/walters-w82-179v--orange-clad-floating-figure-with-green-cloak-and-crossed-implement--refined-original-native-trimap.png",
+        "native_source_size": [
+          2785,
+          1442
+        ],
+        "native_upscaling": false,
+        "source_pixels_redrawn": false,
+        "original_opaque_rgb_preserved": true,
+        "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+        "alpha_guide": {
+          "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+          "guide_png": "tmp/extraction-work/continuation-20261010/walters-w82-179v--orange-clad-floating-figure-with-green-cloak-and-crossed-implement--native-alpha-reference.png",
+          "guide_sha256": "26f7d7f634b13461bfc24ead010698af5e91752f7cbd63ae5f63f6dfd487944e",
+          "native_original": "tmp/extraction-work/continuation-20261010/walters-w82-179v--orange-clad-floating-figure-with-green-cloak-and-crossed-implement--original.png",
+          "similarity_ai_alpha_to_original": [
+            [
+              1.5656872674725462,
+              0.01413860226087936,
+              -19.714899109244357
+            ],
+            [
+              -0.01413860226087936,
+              1.5656872674725462,
+              -47.75191567603265
+            ]
+          ],
+          "matching_feature_pairs": 233,
+          "inlier_feature_pairs": 101,
+          "inlier_rms_native_pixels": 3.166001943058267,
+          "source_inspection_factor": 0.6463195691202872,
+          "unknown_edge_band_native_pixels": 3,
+          "edge_solve_tile_size": 640,
+          "edge_solve_halo": 32,
+          "edge_solve_tiles": 7,
+          "original_opaque_rgb_preserved": true
+        },
+        "status": "awaiting-original-white-dark-review",
+        "native_refinement": {
+          "method": "The original cloak, hands and crossed implement remain at their original native coordinates. The extracted-alpha extrapolation outside the photographed manuscript page is removed using the individually inspected physical page-edge profile and the actual visible shaft endpoint. The original shaft remains clipped by the physical page edge exactly as photographed; no completed end, anatomy or texture is invented.",
+          "source": "tmp/extraction-work/continuation-20261010/walters-w82-179v--orange-clad-floating-figure-with-green-cloak-and-crossed-implement--original.png",
+          "previous_native_matte": {
+            "candidate_png": "tmp/extraction-work/continuation-20261010/walters-w82-179v--orange-clad-floating-figure-with-green-cloak-and-crossed-implement--registered-native-candidate.png",
+            "native_export_crop": [
+              32,
+              57,
+              2730,
+              1265
+            ],
+            "export_crop_coordinate_space": "original-native-source-region",
+            "annotation_json": "tmp/extraction-work/continuation-20261010/walters-w82-179v--orange-clad-floating-figure-with-green-cloak-and-crossed-implement--registered-native-annotation.json",
+            "trimap_png": "tmp/extraction-work/continuation-20261010/walters-w82-179v--orange-clad-floating-figure-with-green-cloak-and-crossed-implement--registered-native-trimap.png",
+            "native_source_size": [
+              2785,
+              1442
+            ],
+            "native_upscaling": false,
+            "source_pixels_redrawn": false,
+            "original_opaque_rgb_preserved": true,
+            "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+            "alpha_guide": {
+              "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+              "guide_png": "tmp/extraction-work/continuation-20261010/walters-w82-179v--orange-clad-floating-figure-with-green-cloak-and-crossed-implement--native-alpha-reference.png",
+              "guide_sha256": "26f7d7f634b13461bfc24ead010698af5e91752f7cbd63ae5f63f6dfd487944e",
+              "native_original": "tmp/extraction-work/continuation-20261010/walters-w82-179v--orange-clad-floating-figure-with-green-cloak-and-crossed-implement--original.png",
+              "similarity_ai_alpha_to_original": [
+                [
+                  1.5656872674725462,
+                  0.01413860226087936,
+                  -19.714899109244357
+                ],
+                [
+                  -0.01413860226087936,
+                  1.5656872674725462,
+                  -47.75191567603265
+                ]
+              ],
+              "matching_feature_pairs": 233,
+              "inlier_feature_pairs": 101,
+              "inlier_rms_native_pixels": 3.166001943058267,
+              "source_inspection_factor": 0.6463195691202872,
+              "unknown_edge_band_native_pixels": 3,
+              "edge_solve_tile_size": 640,
+              "edge_solve_halo": 32,
+              "edge_solve_tiles": 7,
+              "original_opaque_rgb_preserved": true
+            },
+            "status": "awaiting-original-white-dark-review"
+          },
+          "unknown_band_native_pixels": 3,
+          "source_rgb_redrawn": false,
+          "source_resized": false,
+          "original_opaque_rgb_preserved": true,
+          "ownership": "tmp/extraction-work/continuation-20261010/walters-w82-179v--orange-clad-floating-figure-with-green-cloak-and-crossed-implement--refined-original-native-ownership.png",
+          "ownership_sha256": "8e3f7b491d4d4839e9999d2327b34b9209297a0507ce9da2cd6da667c2138ec3",
+          "inspected_physical_page_edge_native_y_x": [
+            [
+              700,
+              2632
+            ],
+            [
+              800,
+              2633
+            ],
+            [
+              900,
+              2637
+            ],
+            [
+              1000,
+              2634
+            ],
+            [
+              1100,
+              2628
+            ],
+            [
+              1200,
+              2621
+            ],
+            [
+              1350,
+              2622
+            ]
+          ],
+          "source_visible_shaft_end_row": 1238
+        },
+        "tool": "Original native scan / closed-form edge alpha and foreground decontamination",
+        "pixel_exact": false,
+        "ownership_guide_prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. Keep the complete source-visible orange-clad floating figure in the upper-right margin, its head and both hands, the entire tapering long GREEN CLOAK flowing left, and its COMPLETE held implement: the thin green horizontal section ending in a circular ring, AND the entire original red/ochre diagonal shaft passing through that ring, including its short upper point and long lower portion visible toward the right page edge. The exact implement identity is uncertain; retain its actual source shape, not a conventional trumpet or modern sword. The red diagonal SHAFT contacts the held ring and is part of this group; it must not be dropped as background. Remove manuscript text and the blue/red horizontal line filler below the figure, paper and separate ornament. The head and outer shaft meet original page boundaries; preserve every visible part without extending missing hair or inventing hidden shaft ends. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_ownership_guide": {
+          "file": "tmp/extraction-work/walters-w82-179v--orange-clad-floating-figure-with-green-cloak-and-crossed-implement--retained-ai-extraction.png",
+          "sha256": "26f7d7f634b13461bfc24ead010698af5e91752f7cbd63ae5f63f6dfd487944e",
+          "purpose": "Retained AI alpha guide only; delivered opaque RGB belongs to the unchanged native source."
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Compared the actual original and native source/detail views, followed by the corrected full white/dark proof. Complete original cloak, hands, round junction, green handle and red crossing shaft retained. The extrinsic photographed-book wedge beyond the physical manuscript edge is removed, without shortening the shaft visible on the page. Original source clipping of head and shaft is documented; no reconstruction, upscaling or vector approximation.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/two-refined-native-margin-pieces-current-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/walters-w82-179v--orange-clad-floating-figure-with-green-cloak-and-crossed-implement--native-source-coordinates.png"
+        ]
+      },
+      "categories": [
+        "humans"
+      ],
+      "subjects": [
+        "figure",
+        "implement",
+        "cloak",
+        "hand",
+        "shaft",
+        "ring"
+      ],
+      "colors": [
+        "orange",
+        "green",
+        "red",
+        "cream",
+        "brown"
+      ],
+      "facing": "unclear",
+      "composition": "standalone",
+      "usage_notes": "Original source-visible floating figure, flowing cloak, both hands, horizontal round-ended handle and crossing red shaft. Implement identity is uncertain. The original manuscript physically clips the top of the head and the lower shaft end; no missing parts are invented. Exterior paper, lettering, unrelated line filler and adjacent photographed-book pixels are transparent. Native source RGB and proportions are retained; AI supplies an ownership guide only.",
+      "sets": [
+        {
+          "id": "walters-w82-marginalia",
+          "name": "Walters W.82 Marginalia",
+          "relation": "same manuscript; each page retains its source identity"
+        },
+        {
+          "id": "walters-w82-179v-set",
+          "name": "Initial \"D\" with the Nativity; merman feeding stork with spoon and man sitting in basket of eggs in margins (walters-w82-179v)",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "An orange-clad floating figure trails a long green cloak and holds a crossed green and red implement with a round junction.",
+      "set_label": "Walters W.82 Marginalia"
+    }
+  ]
+}

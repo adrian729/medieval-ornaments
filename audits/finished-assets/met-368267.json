@@ -1,0 +1,3446 @@
+{
+  "source_id": "met-368267",
+  "assets": [
+    {
+      "id": "met-368267--arched-lace-with-checker-fans-and-square-star",
+      "name": "arched-lace-with-checker-fans-and-square-star",
+      "source_id": "met-368267",
+      "source_folder": "met",
+      "asset_type": "decoration",
+      "description": "Original cream printed arched lace with checker fans and square star, with the dark printed field removed. Part of the Latomus lace patterns set.",
+      "source_region": [
+        2648,
+        1552,
+        3331,
+        2100
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        0,
+        0,
+        683,
+        548
+      ],
+      "export_crop_coordinate_space": "source-region",
+      "width": 683,
+      "height": 548,
+      "png": "met/met-368267--arched-lace-with-checker-fans-and-square-star.png",
+      "png_sha256": "e602ba985b18bdebe23249edbaf55020247bafa4d810f6a1cc75c5790f44678f",
+      "provenance": {
+        "institution": "Metropolitan Museum of Art",
+        "title": "Schon newes Modelbuch...Page 1(r)",
+        "object_identifier": "53.600.8(1r)",
+        "date": "1617",
+        "artist": "Sigismundus Latomus",
+        "record_url": "https://www.metmuseum.org/art/collection/search/368267",
+        "image_rights": "CC0 Open Access; isPublicDomain=true",
+        "rights_url": "https://www.metmuseum.org/policies/image-resources",
+        "source_file": "tmp/new-assets/met/met-368267--schon-newes-modelbuch-page-1-r.jpg",
+        "source_sha256": "4f557de2ff17a7eca2a09add818482321f4f47ae4f3b0c09cc48ae71d5808ce3",
+        "source_metadata": "tmp/new-assets/met/met-368267.json",
+        "image_url": "https://images.metmuseum.org/CRDImages/dp/original/DP359638.jpg",
+        "method": "native-continuous-ink-matting"
+      },
+      "extraction": {
+        "method": "Native continuous light-line coverage after measuring the dark printed field; source polarity and cream color retained.",
+        "source_pixels_repainted": false,
+        "source_rgb_modified": "Original cream linework represented by its measured light tone and continuous native coverage. The dark printed field and genuine dark openings are transparent; no inverted black replacement strokes.",
+        "paper_kernel": 19,
+        "minimum_coverage": 0.24,
+        "minimum_component_pixels": 4,
+        "settings": {
+          "paper_kernel": 19,
+          "paper_kernel_shape": "rectangle",
+          "minimum_coverage": 0.24,
+          "minimum_component_pixels": 4,
+          "minimum_component_peak": 0.58,
+          "minimum_channel_coverage": true,
+          "light_foreground_on_dark_print": true,
+          "largest_connected_support_join_radius": 0,
+          "fill_connected_support_interiors": false
+        },
+        "exclude_regions": [],
+        "export_crop": [
+          0,
+          0,
+          683,
+          548
+        ],
+        "ink_color": [
+          202,
+          172,
+          141
+        ],
+        "candidate_png": "tmp/extraction-work/met-368267--arched-lace-with-checker-fans-and-square-star-whole-boundary-trial--ink-candidate.png",
+        "status": "awaiting-native-visual-review",
+        "exclude_polygons": [
+          [
+            [
+              0,
+              0
+            ],
+            [
+              225,
+              0
+            ],
+            [
+              174,
+              139
+            ],
+            [
+              97,
+              174
+            ],
+            [
+              0,
+              169
+            ]
+          ],
+          [
+            [
+              509,
+              0
+            ],
+            [
+              657,
+              0
+            ],
+            [
+              657,
+              193
+            ],
+            [
+              592,
+              163
+            ],
+            [
+              542,
+              120
+            ]
+          ],
+          [
+            [
+              0,
+              477
+            ],
+            [
+              73,
+              477
+            ],
+            [
+              115,
+              548
+            ],
+            [
+              0,
+              548
+            ]
+          ]
+        ],
+        "foreground_polarity": "light-source-lines-on-dark-printed-field",
+        "source_boundary_cleanup": {
+          "method": "Expanded native bounds before extraction; only inspected long bottom cell-rule stroke excluded, then detached components discarded with a three-native-pixel continuity support. Original continuous source alpha retained.",
+          "removed_rule_lines": [
+            [
+              104,
+              527,
+              677,
+              525
+            ],
+            [
+              103,
+              525,
+              682,
+              523
+            ],
+            [
+              102,
+              524,
+              682,
+              520
+            ],
+            [
+              247,
+              527,
+              642,
+              526
+            ],
+            [
+              222,
+              12,
+              512,
+              15
+            ],
+            [
+              220,
+              15,
+              513,
+              17
+            ],
+            [
+              103,
+              526,
+              432,
+              525
+            ],
+            [
+              235,
+              8,
+              512,
+              13
+            ],
+            [
+              222,
+              10,
+              446,
+              13
+            ],
+            [
+              105,
+              528,
+              444,
+              528
+            ]
+          ],
+          "exterior_unrelated_fragments": {
+            "native_regions": [
+              [
+                0,
+                426,
+                105,
+                548
+              ]
+            ],
+            "native_polygons": [],
+            "method": "Only source-inspected neighboring ornament fragments and dark-field wear outside the selected lace removed. Original native continuous alpha contour and genuine internal openings untouched."
+          }
+        },
+        "outside_fragment_cleanup": {
+          "native_regions": [
+            [
+              0,
+              355,
+              78,
+              426
+            ]
+          ],
+          "method": "Only visually identified outside neighboring motifs and plate rules removed; largest three-native-pixel continuity support discards detached unrelated grains. Subject continuous source coverage unchanged."
+        },
+        "tool": "Native source ink analysis",
+        "source_pixels_redrawn": false
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Original native lace motifs compared with white and dark composites. All dark-field openings clear; measured cream source-line coverage retained, no raster scaling or faceted SVG. Original source-limited flat terminations honestly retained; no missing full circle or hidden top half invented. Cell rules and unrelated neighboring motifs removed. Complete square cell selected over larger partial copies; duplicate impressions omitted.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/lace-eight-final-source-white-dark-1.jpg",
+          "tmp/extraction-work/continuation-20261010/lace-eight-final-source-white-dark-2.jpg",
+          "tmp/extraction-work/continuation-20261010/lace-extra-final-cleaned-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/lace-extra-final-cleaned-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/two-lace-source-coordinate-cleaned-1.jpg"
+        ]
+      },
+      "categories": [
+        "geometric",
+        "floral"
+      ],
+      "subjects": [
+        "lace",
+        "star",
+        "petal",
+        "roundel"
+      ],
+      "facing": "mixed",
+      "colors": [
+        "cream",
+        "brown"
+      ],
+      "composition": "single-ornament",
+      "usage_notes": "Native source light-line polarity retained. Dark printed field is transparent, including actual openings. Original source-limited arched ends and cell geometry retained; no full missing circle is invented and no seamless period inferred. PNG master represents measured cream line coverage, not pixel-exact RGB or an inverted modern drawing. Whole subject bounds expanded before native alpha extraction. Unrelated page-cell rules, dark-field wear and neighboring motif fragments excluded; original source-visible terminations retained without repainting or inventing full circles.",
+      "sets": [
+        {
+          "id": "met-368267-set",
+          "name": "Latomus lace patterns",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "Original cream printed arched lace with checker fans and square star, with the dark printed field removed.",
+      "set_label": "Latomus lace patterns"
+    },
+    {
+      "id": "met-368267--arched-lace-with-compass-star-and-dense-small-petals",
+      "name": "arched-lace-with-compass-star-and-dense-small-petals",
+      "source_id": "met-368267",
+      "source_folder": "met",
+      "asset_type": "decoration",
+      "description": "Original cream printed arched lace with compass star and dense small petals, with the dark printed field removed. Part of the Latomus lace patterns set.",
+      "source_region": [
+        1983,
+        1560,
+        2602,
+        2100
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        0,
+        0,
+        619,
+        531
+      ],
+      "export_crop_coordinate_space": "source-region",
+      "width": 619,
+      "height": 531,
+      "png": "met/met-368267--arched-lace-with-compass-star-and-dense-small-petals.png",
+      "png_sha256": "027bdb0cd412b69f20f06d53536701bfa1879afde4e567022afbdfc43ee5ae85",
+      "provenance": {
+        "institution": "Metropolitan Museum of Art",
+        "title": "Schon newes Modelbuch...Page 1(r)",
+        "object_identifier": "53.600.8(1r)",
+        "date": "1617",
+        "artist": "Sigismundus Latomus",
+        "record_url": "https://www.metmuseum.org/art/collection/search/368267",
+        "image_rights": "CC0 Open Access; isPublicDomain=true",
+        "rights_url": "https://www.metmuseum.org/policies/image-resources",
+        "source_file": "tmp/new-assets/met/met-368267--schon-newes-modelbuch-page-1-r.jpg",
+        "source_sha256": "4f557de2ff17a7eca2a09add818482321f4f47ae4f3b0c09cc48ae71d5808ce3",
+        "source_metadata": "tmp/new-assets/met/met-368267.json",
+        "image_url": "https://images.metmuseum.org/CRDImages/dp/original/DP359638.jpg",
+        "method": "native-continuous-ink-matting"
+      },
+      "extraction": {
+        "method": "Native continuous light-line coverage after measuring the dark printed field; source polarity and cream color retained.",
+        "source_pixels_repainted": false,
+        "source_rgb_modified": "Original cream linework represented by its measured light tone and continuous native coverage. The dark printed field and genuine dark openings are transparent; no inverted black replacement strokes.",
+        "paper_kernel": 19,
+        "minimum_coverage": 0.24,
+        "minimum_component_pixels": 4,
+        "settings": {
+          "paper_kernel": 19,
+          "paper_kernel_shape": "rectangle",
+          "minimum_coverage": 0.24,
+          "minimum_component_pixels": 4,
+          "minimum_component_peak": 0.58,
+          "minimum_channel_coverage": true,
+          "light_foreground_on_dark_print": true,
+          "largest_connected_support_join_radius": 0,
+          "fill_connected_support_interiors": false
+        },
+        "exclude_regions": [],
+        "export_crop": [
+          0,
+          0,
+          619,
+          531
+        ],
+        "ink_color": [
+          199,
+          170,
+          140
+        ],
+        "candidate_png": "tmp/extraction-work/met-368267--arched-lace-with-compass-star-and-dense-small-petals-whole-boundary-trial--ink-candidate.png",
+        "status": "awaiting-native-visual-review",
+        "exclude_polygons": [
+          [
+            [
+              0,
+              0
+            ],
+            [
+              193,
+              0
+            ],
+            [
+              158,
+              131
+            ],
+            [
+              105,
+              163
+            ],
+            [
+              0,
+              161
+            ]
+          ],
+          [
+            [
+              469,
+              0
+            ],
+            [
+              619,
+              0
+            ],
+            [
+              619,
+              169
+            ],
+            [
+              536,
+              177
+            ]
+          ]
+        ],
+        "foreground_polarity": "light-source-lines-on-dark-printed-field",
+        "source_boundary_cleanup": {
+          "method": "Expanded native bounds before extraction; only inspected long bottom cell-rule stroke excluded, then detached components discarded with a three-native-pixel continuity support. Original continuous source alpha retained.",
+          "removed_rule_lines": [
+            [
+              0,
+              519,
+              618,
+              518
+            ],
+            [
+              0,
+              520,
+              618,
+              521
+            ],
+            [
+              0,
+              516,
+              618,
+              517
+            ],
+            [
+              0,
+              521,
+              618,
+              522
+            ],
+            [
+              0,
+              518,
+              409,
+              517
+            ],
+            [
+              3,
+              515,
+              618,
+              515
+            ],
+            [
+              0,
+              522,
+              229,
+              522
+            ],
+            [
+              193,
+              2,
+              471,
+              7
+            ],
+            [
+              191,
+              11,
+              470,
+              9
+            ],
+            [
+              192,
+              9,
+              452,
+              7
+            ],
+            [
+              281,
+              3,
+              469,
+              2
+            ],
+            [
+              193,
+              4,
+              471,
+              8
+            ],
+            [
+              306,
+              523,
+              577,
+              523
+            ],
+            [
+              309,
+              522,
+              618,
+              520
+            ],
+            [
+              39,
+              514,
+              238,
+              514
+            ],
+            [
+              2,
+              517,
+              238,
+              517
+            ]
+          ],
+          "exterior_unrelated_fragments": {
+            "native_regions": [],
+            "native_polygons": [],
+            "method": "Only source-inspected neighboring ornament fragments and dark-field wear outside the selected lace removed. Original native continuous alpha contour and genuine internal openings untouched."
+          }
+        },
+        "tool": "Native source ink analysis",
+        "source_pixels_redrawn": false
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Original native lace motifs compared with white and dark composites. All dark-field openings clear; measured cream source-line coverage retained, no raster scaling or faceted SVG. Original source-limited flat terminations honestly retained; no missing full circle or hidden top half invented. Cell rules and unrelated neighboring motifs removed. Complete square cell selected over larger partial copies; duplicate impressions omitted.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/lace-eight-final-source-white-dark-1.jpg",
+          "tmp/extraction-work/continuation-20261010/lace-eight-final-source-white-dark-2.jpg",
+          "tmp/extraction-work/continuation-20261010/lace-extra-final-cleaned-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/lace-extra-final-cleaned-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/two-lace-source-coordinate-cleaned-1.jpg"
+        ]
+      },
+      "categories": [
+        "geometric",
+        "floral"
+      ],
+      "subjects": [
+        "lace",
+        "star",
+        "petal",
+        "roundel"
+      ],
+      "facing": "mixed",
+      "colors": [
+        "cream",
+        "brown"
+      ],
+      "composition": "single-ornament",
+      "usage_notes": "Native source light-line polarity retained. Dark printed field is transparent, including actual openings. Original source-limited arched ends and cell geometry retained; no full missing circle is invented and no seamless period inferred. PNG master represents measured cream line coverage, not pixel-exact RGB or an inverted modern drawing. Whole subject bounds expanded before native alpha extraction. Unrelated page-cell rules, dark-field wear and neighboring motif fragments excluded; original source-visible terminations retained without repainting or inventing full circles.",
+      "sets": [
+        {
+          "id": "met-368267-set",
+          "name": "Latomus lace patterns",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "Original cream printed arched lace with compass star and dense small petals, with the dark printed field removed.",
+      "set_label": "Latomus lace patterns"
+    },
+    {
+      "id": "met-368267--arched-lace-with-concentric-petal-rosette",
+      "name": "arched-lace-with-concentric-petal-rosette",
+      "source_id": "met-368267",
+      "source_folder": "met",
+      "asset_type": "decoration",
+      "description": "Original cream printed arched lace with concentric petal rosette, with the dark printed field removed. Part of the Latomus lace patterns set.",
+      "source_region": [
+        737,
+        1557,
+        1321,
+        2100
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        0,
+        0,
+        584,
+        543
+      ],
+      "export_crop_coordinate_space": "source-region",
+      "width": 584,
+      "height": 543,
+      "png": "met/met-368267--arched-lace-with-concentric-petal-rosette.png",
+      "png_sha256": "ea9fefc7be0ec1c13c27af9f06f3dccc0fdc5325769d81cb544c2c3133b50771",
+      "provenance": {
+        "institution": "Metropolitan Museum of Art",
+        "title": "Schon newes Modelbuch...Page 1(r)",
+        "object_identifier": "53.600.8(1r)",
+        "date": "1617",
+        "artist": "Sigismundus Latomus",
+        "record_url": "https://www.metmuseum.org/art/collection/search/368267",
+        "image_rights": "CC0 Open Access; isPublicDomain=true",
+        "rights_url": "https://www.metmuseum.org/policies/image-resources",
+        "source_file": "tmp/new-assets/met/met-368267--schon-newes-modelbuch-page-1-r.jpg",
+        "source_sha256": "4f557de2ff17a7eca2a09add818482321f4f47ae4f3b0c09cc48ae71d5808ce3",
+        "source_metadata": "tmp/new-assets/met/met-368267.json",
+        "image_url": "https://images.metmuseum.org/CRDImages/dp/original/DP359638.jpg",
+        "method": "native-continuous-ink-matting"
+      },
+      "extraction": {
+        "method": "Native continuous light-line coverage after measuring the dark printed field; source polarity and cream color retained.",
+        "source_pixels_repainted": false,
+        "source_rgb_modified": "Original cream linework represented by its measured light tone and continuous native coverage. The dark printed field and genuine dark openings are transparent; no inverted black replacement strokes.",
+        "paper_kernel": 19,
+        "minimum_coverage": 0.24,
+        "minimum_component_pixels": 4,
+        "settings": {
+          "paper_kernel": 19,
+          "paper_kernel_shape": "rectangle",
+          "minimum_coverage": 0.24,
+          "minimum_component_pixels": 4,
+          "minimum_component_peak": 0.58,
+          "minimum_channel_coverage": true,
+          "light_foreground_on_dark_print": true,
+          "largest_connected_support_join_radius": 0,
+          "fill_connected_support_interiors": false
+        },
+        "exclude_regions": [],
+        "export_crop": [
+          0,
+          0,
+          584,
+          543
+        ],
+        "ink_color": [
+          203,
+          174,
+          143
+        ],
+        "candidate_png": "tmp/extraction-work/met-368267--arched-lace-with-concentric-petal-rosette-whole-boundary-trial--ink-candidate.png",
+        "status": "awaiting-native-visual-review",
+        "exclude_polygons": [
+          [
+            [
+              0,
+              0
+            ],
+            [
+              185,
+              0
+            ],
+            [
+              134,
+              126
+            ],
+            [
+              54,
+              155
+            ],
+            [
+              0,
+              153
+            ]
+          ],
+          [
+            [
+              493,
+              0
+            ],
+            [
+              558,
+              0
+            ],
+            [
+              558,
+              169
+            ],
+            [
+              509,
+              161
+            ]
+          ]
+        ],
+        "foreground_polarity": "light-source-lines-on-dark-printed-field",
+        "source_boundary_cleanup": {
+          "method": "Expanded native bounds before extraction; only inspected long bottom cell-rule stroke excluded, then detached components discarded with a three-native-pixel continuity support. Original continuous source alpha retained.",
+          "removed_rule_lines": [
+            [
+              0,
+              532,
+              583,
+              528
+            ],
+            [
+              0,
+              530,
+              583,
+              526
+            ],
+            [
+              0,
+              535,
+              583,
+              530
+            ],
+            [
+              137,
+              535,
+              451,
+              532
+            ],
+            [
+              397,
+              526,
+              583,
+              525
+            ],
+            [
+              182,
+              11,
+              493,
+              10
+            ],
+            [
+              181,
+              13,
+              493,
+              12
+            ],
+            [
+              182,
+              9,
+              493,
+              6
+            ],
+            [
+              0,
+              531,
+              583,
+              527
+            ],
+            [
+              213,
+              9,
+              493,
+              9
+            ],
+            [
+              0,
+              534,
+              236,
+              532
+            ],
+            [
+              407,
+              525,
+              583,
+              523
+            ]
+          ],
+          "exterior_unrelated_fragments": {
+            "native_regions": [],
+            "native_polygons": [],
+            "method": "Only source-inspected neighboring ornament fragments and dark-field wear outside the selected lace removed. Original native continuous alpha contour and genuine internal openings untouched."
+          }
+        },
+        "tool": "Native source ink analysis",
+        "source_pixels_redrawn": false
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Original native lace motifs compared with white and dark composites. All dark-field openings clear; measured cream source-line coverage retained, no raster scaling or faceted SVG. Original source-limited flat terminations honestly retained; no missing full circle or hidden top half invented. Cell rules and unrelated neighboring motifs removed. Complete square cell selected over larger partial copies; duplicate impressions omitted.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/lace-eight-final-source-white-dark-1.jpg",
+          "tmp/extraction-work/continuation-20261010/lace-eight-final-source-white-dark-2.jpg",
+          "tmp/extraction-work/continuation-20261010/lace-extra-final-cleaned-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/lace-extra-final-cleaned-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/two-lace-source-coordinate-cleaned-1.jpg"
+        ]
+      },
+      "categories": [
+        "geometric",
+        "floral"
+      ],
+      "subjects": [
+        "lace",
+        "star",
+        "petal",
+        "roundel"
+      ],
+      "facing": "mixed",
+      "colors": [
+        "cream",
+        "brown"
+      ],
+      "composition": "single-ornament",
+      "usage_notes": "Native source light-line polarity retained. Dark printed field is transparent, including actual openings. Original source-limited arched ends and cell geometry retained; no full missing circle is invented and no seamless period inferred. PNG master represents measured cream line coverage, not pixel-exact RGB or an inverted modern drawing. Whole subject bounds expanded before native alpha extraction. Unrelated page-cell rules, dark-field wear and neighboring motif fragments excluded; original source-visible terminations retained without repainting or inventing full circles.",
+      "sets": [
+        {
+          "id": "met-368267-set",
+          "name": "Latomus lace patterns",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "Original cream printed arched lace with concentric petal rosette, with the dark printed field removed.",
+      "set_label": "Latomus lace patterns"
+    },
+    {
+      "id": "met-368267--arched-lace-with-crossed-stars-and-small-petals",
+      "name": "arched-lace-with-crossed-stars-and-small-petals",
+      "source_id": "met-368267",
+      "source_folder": "met",
+      "asset_type": "decoration",
+      "description": "Original cream printed arched lace with crossed stars and small petals, with the dark printed field removed. Part of the Latomus lace patterns set.",
+      "source_region": [
+        689,
+        354,
+        1375,
+        985
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        0,
+        0,
+        686,
+        631
+      ],
+      "export_crop_coordinate_space": "source-region",
+      "width": 686,
+      "height": 631,
+      "png": "met/met-368267--arched-lace-with-crossed-stars-and-small-petals.png",
+      "png_sha256": "cc3e1780611b55938c19831ce98ecff7bc263330c03e1b4cee10cb3fbfc17b26",
+      "provenance": {
+        "institution": "Metropolitan Museum of Art",
+        "title": "Schon newes Modelbuch...Page 1(r)",
+        "object_identifier": "53.600.8(1r)",
+        "date": "1617",
+        "artist": "Sigismundus Latomus",
+        "record_url": "https://www.metmuseum.org/art/collection/search/368267",
+        "image_rights": "CC0 Open Access; isPublicDomain=true",
+        "rights_url": "https://www.metmuseum.org/policies/image-resources",
+        "source_file": "tmp/new-assets/met/met-368267--schon-newes-modelbuch-page-1-r.jpg",
+        "source_sha256": "4f557de2ff17a7eca2a09add818482321f4f47ae4f3b0c09cc48ae71d5808ce3",
+        "source_metadata": "tmp/new-assets/met/met-368267.json",
+        "image_url": "https://images.metmuseum.org/CRDImages/dp/original/DP359638.jpg",
+        "method": "native-continuous-ink-matting"
+      },
+      "extraction": {
+        "method": "Native continuous light-line coverage after measuring the dark printed field; source polarity and cream color retained.",
+        "source_pixels_repainted": false,
+        "source_rgb_modified": "Original cream linework represented by its measured light tone and continuous native coverage. The dark printed field and genuine dark openings are transparent; no inverted black replacement strokes.",
+        "paper_kernel": 19,
+        "minimum_coverage": 0.24,
+        "minimum_component_pixels": 4,
+        "settings": {
+          "paper_kernel": 19,
+          "paper_kernel_shape": "rectangle",
+          "minimum_coverage": 0.24,
+          "minimum_component_pixels": 4,
+          "minimum_component_peak": 0.58,
+          "minimum_channel_coverage": true,
+          "light_foreground_on_dark_print": true,
+          "largest_connected_support_join_radius": 0,
+          "fill_connected_support_interiors": false
+        },
+        "exclude_regions": [],
+        "export_crop": [
+          0,
+          0,
+          686,
+          631
+        ],
+        "ink_color": [
+          201,
+          172,
+          142
+        ],
+        "candidate_png": "tmp/extraction-work/met-368267--arched-lace-with-crossed-stars-and-small-petals-whole-boundary-trial--ink-candidate.png",
+        "status": "awaiting-native-visual-review",
+        "exclude_polygons": [
+          [
+            [
+              0,
+              0
+            ],
+            [
+              172,
+              0
+            ],
+            [
+              137,
+              147
+            ],
+            [
+              0,
+              166
+            ]
+          ],
+          [
+            [
+              493,
+              0
+            ],
+            [
+              686,
+              0
+            ],
+            [
+              686,
+              187
+            ],
+            [
+              603,
+              193
+            ],
+            [
+              528,
+              104
+            ]
+          ]
+        ],
+        "foreground_polarity": "light-source-lines-on-dark-printed-field",
+        "source_boundary_cleanup": {
+          "method": "Expanded native bounds before extraction; only inspected long bottom cell-rule stroke excluded, then detached components discarded with a three-native-pixel continuity support. Original continuous source alpha retained.",
+          "removed_rule_lines": [
+            [
+              0,
+              616,
+              685,
+              622
+            ],
+            [
+              0,
+              617,
+              685,
+              623
+            ],
+            [
+              0,
+              619,
+              549,
+              623
+            ],
+            [
+              325,
+              618,
+              685,
+              620
+            ],
+            [
+              309,
+              622,
+              517,
+              623
+            ],
+            [
+              172,
+              6,
+              496,
+              12
+            ],
+            [
+              10,
+              626,
+              582,
+              627
+            ],
+            [
+              99,
+              624,
+              581,
+              626
+            ],
+            [
+              172,
+              5,
+              496,
+              11
+            ],
+            [
+              172,
+              3,
+              495,
+              8
+            ],
+            [
+              171,
+              7,
+              496,
+              13
+            ],
+            [
+              171,
+              8,
+              379,
+              12
+            ],
+            [
+              271,
+              6,
+              495,
+              9
+            ]
+          ],
+          "exterior_unrelated_fragments": {
+            "native_regions": [],
+            "native_polygons": [],
+            "method": "Only source-inspected neighboring ornament fragments and dark-field wear outside the selected lace removed. Original native continuous alpha contour and genuine internal openings untouched."
+          }
+        },
+        "tool": "Native source ink analysis",
+        "source_pixels_redrawn": false
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Original native lace motifs compared with white and dark composites. All dark-field openings clear; measured cream source-line coverage retained, no raster scaling or faceted SVG. Original source-limited flat terminations honestly retained; no missing full circle or hidden top half invented. Cell rules and unrelated neighboring motifs removed. Complete square cell selected over larger partial copies; duplicate impressions omitted.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/lace-eight-final-source-white-dark-1.jpg",
+          "tmp/extraction-work/continuation-20261010/lace-eight-final-source-white-dark-2.jpg",
+          "tmp/extraction-work/continuation-20261010/lace-extra-final-cleaned-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/lace-extra-final-cleaned-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/two-lace-source-coordinate-cleaned-1.jpg"
+        ]
+      },
+      "categories": [
+        "geometric",
+        "floral"
+      ],
+      "subjects": [
+        "lace",
+        "star",
+        "petal",
+        "roundel"
+      ],
+      "facing": "mixed",
+      "colors": [
+        "cream",
+        "brown"
+      ],
+      "composition": "single-ornament",
+      "usage_notes": "Native source light-line polarity retained. Dark printed field is transparent, including actual openings. Original source-limited arched ends and cell geometry retained; no full missing circle is invented and no seamless period inferred. PNG master represents measured cream line coverage, not pixel-exact RGB or an inverted modern drawing. Whole subject bounds expanded before native alpha extraction. Unrelated page-cell rules, dark-field wear and neighboring motif fragments excluded; original source-visible terminations retained without repainting or inventing full circles.",
+      "sets": [
+        {
+          "id": "met-368267-set",
+          "name": "Latomus lace patterns",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "Original cream printed arched lace with crossed stars and small petals, with the dark printed field removed.",
+      "set_label": "Latomus lace patterns"
+    },
+    {
+      "id": "met-368267--arched-lace-with-eight-point-stars-and-small-roundels",
+      "name": "arched-lace-with-eight-point-stars-and-small-roundels",
+      "source_id": "met-368267",
+      "source_folder": "met",
+      "asset_type": "decoration",
+      "description": "Original cream printed arched lace with eight point stars and small roundels, with the dark printed field removed. Part of the Latomus lace patterns set.",
+      "source_region": [
+        1972,
+        343,
+        2686,
+        985
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        0,
+        0,
+        714,
+        642
+      ],
+      "export_crop_coordinate_space": "source-region",
+      "width": 714,
+      "height": 642,
+      "png": "met/met-368267--arched-lace-with-eight-point-stars-and-small-roundels.png",
+      "png_sha256": "76684a4a35c8f363bd0c8b0aefee97554c648e1fb2dde858a772bb6e6fe038e0",
+      "provenance": {
+        "institution": "Metropolitan Museum of Art",
+        "title": "Schon newes Modelbuch...Page 1(r)",
+        "object_identifier": "53.600.8(1r)",
+        "date": "1617",
+        "artist": "Sigismundus Latomus",
+        "record_url": "https://www.metmuseum.org/art/collection/search/368267",
+        "image_rights": "CC0 Open Access; isPublicDomain=true",
+        "rights_url": "https://www.metmuseum.org/policies/image-resources",
+        "source_file": "tmp/new-assets/met/met-368267--schon-newes-modelbuch-page-1-r.jpg",
+        "source_sha256": "4f557de2ff17a7eca2a09add818482321f4f47ae4f3b0c09cc48ae71d5808ce3",
+        "source_metadata": "tmp/new-assets/met/met-368267.json",
+        "image_url": "https://images.metmuseum.org/CRDImages/dp/original/DP359638.jpg",
+        "method": "native-continuous-ink-matting"
+      },
+      "extraction": {
+        "method": "Native continuous light-line coverage after measuring the dark printed field; source polarity and cream color retained.",
+        "source_pixels_repainted": false,
+        "source_rgb_modified": "Original cream linework represented by its measured light tone and continuous native coverage. The dark printed field and genuine dark openings are transparent; no inverted black replacement strokes.",
+        "paper_kernel": 19,
+        "minimum_coverage": 0.24,
+        "minimum_component_pixels": 4,
+        "settings": {
+          "paper_kernel": 19,
+          "paper_kernel_shape": "rectangle",
+          "minimum_coverage": 0.24,
+          "minimum_component_pixels": 4,
+          "minimum_component_peak": 0.58,
+          "minimum_channel_coverage": true,
+          "light_foreground_on_dark_print": true,
+          "largest_connected_support_join_radius": 0,
+          "fill_connected_support_interiors": false
+        },
+        "exclude_regions": [],
+        "export_crop": [
+          0,
+          0,
+          714,
+          642
+        ],
+        "ink_color": [
+          203,
+          175,
+          145
+        ],
+        "candidate_png": "tmp/extraction-work/met-368267--arched-lace-with-eight-point-stars-and-small-roundels-whole-boundary-trial--ink-candidate.png",
+        "status": "awaiting-native-visual-review",
+        "exclude_polygons": [
+          [
+            [
+              0,
+              0
+            ],
+            [
+              201,
+              0
+            ],
+            [
+              153,
+              166
+            ],
+            [
+              59,
+              185
+            ]
+          ],
+          [
+            [
+              531,
+              0
+            ],
+            [
+              686,
+              0
+            ],
+            [
+              686,
+              212
+            ],
+            [
+              641,
+              222
+            ],
+            [
+              571,
+              158
+            ]
+          ]
+        ],
+        "foreground_polarity": "light-source-lines-on-dark-printed-field",
+        "source_boundary_cleanup": {
+          "method": "Expanded native bounds before extraction; only inspected long bottom cell-rule stroke excluded, then detached components discarded with a three-native-pixel continuity support. Original continuous source alpha retained.",
+          "removed_rule_lines": [
+            [
+              0,
+              632,
+              713,
+              630
+            ],
+            [
+              151,
+              632,
+              713,
+              631
+            ],
+            [
+              0,
+              634,
+              713,
+              632
+            ],
+            [
+              266,
+              630,
+              713,
+              628
+            ],
+            [
+              34,
+              635,
+              319,
+              635
+            ],
+            [
+              195,
+              23,
+              535,
+              19
+            ],
+            [
+              195,
+              25,
+              535,
+              21
+            ],
+            [
+              196,
+              20,
+              535,
+              18
+            ],
+            [
+              199,
+              18,
+              534,
+              17
+            ]
+          ],
+          "exterior_unrelated_fragments": {
+            "native_regions": [],
+            "native_polygons": [],
+            "method": "Only source-inspected neighboring ornament fragments and dark-field wear outside the selected lace removed. Original native continuous alpha contour and genuine internal openings untouched."
+          }
+        },
+        "tool": "Native source ink analysis",
+        "source_pixels_redrawn": false
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Original native lace motifs compared with white and dark composites. All dark-field openings clear; measured cream source-line coverage retained, no raster scaling or faceted SVG. Original source-limited flat terminations honestly retained; no missing full circle or hidden top half invented. Cell rules and unrelated neighboring motifs removed. Complete square cell selected over larger partial copies; duplicate impressions omitted.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/lace-eight-final-source-white-dark-1.jpg",
+          "tmp/extraction-work/continuation-20261010/lace-eight-final-source-white-dark-2.jpg",
+          "tmp/extraction-work/continuation-20261010/lace-extra-final-cleaned-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/lace-extra-final-cleaned-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/two-lace-source-coordinate-cleaned-1.jpg"
+        ]
+      },
+      "categories": [
+        "geometric",
+        "floral"
+      ],
+      "subjects": [
+        "lace",
+        "star",
+        "petal",
+        "roundel"
+      ],
+      "facing": "mixed",
+      "colors": [
+        "cream",
+        "brown"
+      ],
+      "composition": "single-ornament",
+      "usage_notes": "Native source light-line polarity retained. Dark printed field is transparent, including actual openings. Original source-limited arched ends and cell geometry retained; no full missing circle is invented and no seamless period inferred. PNG master represents measured cream line coverage, not pixel-exact RGB or an inverted modern drawing. Whole subject bounds expanded before native alpha extraction. Unrelated page-cell rules, dark-field wear and neighboring motif fragments excluded; original source-visible terminations retained without repainting or inventing full circles.",
+      "sets": [
+        {
+          "id": "met-368267-set",
+          "name": "Latomus lace patterns",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "Original cream printed arched lace with eight point stars and small roundels, with the dark printed field removed.",
+      "set_label": "Latomus lace patterns"
+    },
+    {
+      "id": "met-368267--arched-lace-with-four-floral-diamonds",
+      "name": "arched-lace-with-four-floral-diamonds",
+      "source_id": "met-368267",
+      "source_folder": "met",
+      "asset_type": "decoration",
+      "description": "Original cream printed arched lace with four floral diamonds, with the dark printed field removed. Part of the Latomus lace patterns set.",
+      "source_region": [
+        1321,
+        373,
+        2018,
+        985
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        0,
+        7,
+        697,
+        612
+      ],
+      "export_crop_coordinate_space": "source-region",
+      "width": 697,
+      "height": 605,
+      "png": "met/met-368267--arched-lace-with-four-floral-diamonds.png",
+      "png_sha256": "e4bc7b5bb2b2d68a429b1240ad6f480af4ba9c0629466ea867024588457dba42",
+      "provenance": {
+        "institution": "Metropolitan Museum of Art",
+        "title": "Schon newes Modelbuch...Page 1(r)",
+        "object_identifier": "53.600.8(1r)",
+        "date": "1617",
+        "artist": "Sigismundus Latomus",
+        "record_url": "https://www.metmuseum.org/art/collection/search/368267",
+        "image_rights": "CC0 Open Access; isPublicDomain=true",
+        "rights_url": "https://www.metmuseum.org/policies/image-resources",
+        "source_file": "tmp/new-assets/met/met-368267--schon-newes-modelbuch-page-1-r.jpg",
+        "source_sha256": "4f557de2ff17a7eca2a09add818482321f4f47ae4f3b0c09cc48ae71d5808ce3",
+        "source_metadata": "tmp/new-assets/met/met-368267.json",
+        "image_url": "https://images.metmuseum.org/CRDImages/dp/original/DP359638.jpg",
+        "method": "native-continuous-ink-matting"
+      },
+      "extraction": {
+        "method": "Native continuous light-line coverage after measuring the dark printed field; source polarity and cream color retained.",
+        "source_pixels_repainted": false,
+        "source_rgb_modified": "Original cream linework represented by its measured light tone and continuous native coverage. The dark printed field and genuine dark openings are transparent; no inverted black replacement strokes.",
+        "paper_kernel": 19,
+        "minimum_coverage": 0.24,
+        "minimum_component_pixels": 4,
+        "settings": {
+          "paper_kernel": 19,
+          "paper_kernel_shape": "rectangle",
+          "minimum_coverage": 0.24,
+          "minimum_component_pixels": 4,
+          "minimum_component_peak": 0.58,
+          "minimum_channel_coverage": true,
+          "light_foreground_on_dark_print": true,
+          "largest_connected_support_join_radius": 0,
+          "fill_connected_support_interiors": false
+        },
+        "exclude_regions": [],
+        "export_crop": [
+          0,
+          7,
+          697,
+          612
+        ],
+        "ink_color": [
+          200,
+          173,
+          143
+        ],
+        "candidate_png": "tmp/extraction-work/met-368267--arched-lace-with-four-floral-diamonds-whole-boundary-trial--ink-candidate.png",
+        "status": "awaiting-native-visual-review",
+        "exclude_polygons": [
+          [
+            [
+              0,
+              0
+            ],
+            [
+              207,
+              0
+            ],
+            [
+              164,
+              166
+            ],
+            [
+              99,
+              166
+            ],
+            [
+              0,
+              118
+            ]
+          ],
+          [
+            [
+              517,
+              0
+            ],
+            [
+              697,
+              0
+            ],
+            [
+              697,
+              145
+            ],
+            [
+              560,
+              190
+            ]
+          ]
+        ],
+        "foreground_polarity": "light-source-lines-on-dark-printed-field",
+        "source_boundary_cleanup": {
+          "method": "Expanded native bounds before extraction; only inspected long bottom cell-rule stroke excluded, then detached components discarded with a three-native-pixel continuity support. Original continuous source alpha retained.",
+          "removed_rule_lines": [
+            [
+              0,
+              594,
+              696,
+              596
+            ],
+            [
+              0,
+              595,
+              666,
+              598
+            ],
+            [
+              0,
+              593,
+              696,
+              594
+            ],
+            [
+              59,
+              595,
+              344,
+              594
+            ],
+            [
+              454,
+              593,
+              683,
+              593
+            ],
+            [
+              4,
+              601,
+              228,
+              601
+            ]
+          ],
+          "exterior_unrelated_fragments": {
+            "native_regions": [
+              [
+                0,
+                310,
+                89,
+                560
+              ]
+            ],
+            "native_polygons": [
+              [
+                [
+                  0,
+                  0
+                ],
+                [
+                  220,
+                  0
+                ],
+                [
+                  178,
+                  151
+                ],
+                [
+                  126,
+                  206
+                ],
+                [
+                  92,
+                  267
+                ],
+                [
+                  0,
+                  270
+                ]
+              ]
+            ],
+            "method": "Only source-inspected neighboring ornament fragments and dark-field wear outside the selected lace removed. Original native continuous alpha contour and genuine internal openings untouched."
+          }
+        },
+        "tool": "Native source ink analysis",
+        "source_pixels_redrawn": false
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Original native lace motifs compared with white and dark composites. All dark-field openings clear; measured cream source-line coverage retained, no raster scaling or faceted SVG. Original source-limited flat terminations honestly retained; no missing full circle or hidden top half invented. Cell rules and unrelated neighboring motifs removed. Complete square cell selected over larger partial copies; duplicate impressions omitted.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/lace-eight-final-source-white-dark-1.jpg",
+          "tmp/extraction-work/continuation-20261010/lace-eight-final-source-white-dark-2.jpg",
+          "tmp/extraction-work/continuation-20261010/lace-extra-final-cleaned-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/lace-extra-final-cleaned-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/two-lace-source-coordinate-cleaned-1.jpg"
+        ]
+      },
+      "categories": [
+        "geometric",
+        "floral"
+      ],
+      "subjects": [
+        "lace",
+        "star",
+        "petal",
+        "roundel"
+      ],
+      "facing": "mixed",
+      "colors": [
+        "cream",
+        "brown"
+      ],
+      "composition": "single-ornament",
+      "usage_notes": "Native source light-line polarity retained. Dark printed field is transparent, including actual openings. Original source-limited arched ends and cell geometry retained; no full missing circle is invented and no seamless period inferred. PNG master represents measured cream line coverage, not pixel-exact RGB or an inverted modern drawing. Whole subject bounds expanded before native alpha extraction. Unrelated page-cell rules, dark-field wear and neighboring motif fragments excluded; original source-visible terminations retained without repainting or inventing full circles.",
+      "sets": [
+        {
+          "id": "met-368267-set",
+          "name": "Latomus lace patterns",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "Original cream printed arched lace with four floral diamonds, with the dark printed field removed.",
+      "set_label": "Latomus lace patterns"
+    },
+    {
+      "id": "met-368267--arched-lace-with-large-petalled-flower",
+      "name": "arched-lace-with-large-petalled-flower",
+      "source_id": "met-368267",
+      "source_folder": "met",
+      "asset_type": "decoration",
+      "description": "Original cream printed arched lace with large petalled flower, with the dark printed field removed. Part of the Latomus lace patterns set.",
+      "source_region": [
+        2640,
+        365,
+        3329,
+        985
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        0,
+        0,
+        689,
+        620
+      ],
+      "export_crop_coordinate_space": "source-region",
+      "width": 689,
+      "height": 620,
+      "png": "met/met-368267--arched-lace-with-large-petalled-flower.png",
+      "png_sha256": "ea88e16f2b983e4448c007a42ad7ed1146fac4352925132e70335bfd34197263",
+      "provenance": {
+        "institution": "Metropolitan Museum of Art",
+        "title": "Schon newes Modelbuch...Page 1(r)",
+        "object_identifier": "53.600.8(1r)",
+        "date": "1617",
+        "artist": "Sigismundus Latomus",
+        "record_url": "https://www.metmuseum.org/art/collection/search/368267",
+        "image_rights": "CC0 Open Access; isPublicDomain=true",
+        "rights_url": "https://www.metmuseum.org/policies/image-resources",
+        "source_file": "tmp/new-assets/met/met-368267--schon-newes-modelbuch-page-1-r.jpg",
+        "source_sha256": "4f557de2ff17a7eca2a09add818482321f4f47ae4f3b0c09cc48ae71d5808ce3",
+        "source_metadata": "tmp/new-assets/met/met-368267.json",
+        "image_url": "https://images.metmuseum.org/CRDImages/dp/original/DP359638.jpg",
+        "method": "native-continuous-ink-matting"
+      },
+      "extraction": {
+        "method": "Native continuous light-line coverage after measuring the dark printed field; source polarity and cream color retained.",
+        "source_pixels_repainted": false,
+        "source_rgb_modified": "Original cream linework represented by its measured light tone and continuous native coverage. The dark printed field and genuine dark openings are transparent; no inverted black replacement strokes.",
+        "paper_kernel": 19,
+        "minimum_coverage": 0.24,
+        "minimum_component_pixels": 4,
+        "settings": {
+          "paper_kernel": 19,
+          "paper_kernel_shape": "rectangle",
+          "minimum_coverage": 0.24,
+          "minimum_component_pixels": 4,
+          "minimum_component_peak": 0.58,
+          "minimum_channel_coverage": true,
+          "light_foreground_on_dark_print": true,
+          "largest_connected_support_join_radius": 0,
+          "fill_connected_support_interiors": false
+        },
+        "exclude_regions": [],
+        "export_crop": [
+          0,
+          0,
+          689,
+          620
+        ],
+        "ink_color": [
+          203,
+          174,
+          144
+        ],
+        "candidate_png": "tmp/extraction-work/met-368267--arched-lace-with-large-petalled-flower-whole-boundary-trial--ink-candidate.png",
+        "status": "awaiting-native-visual-review",
+        "exclude_polygons": [
+          [
+            [
+              0,
+              0
+            ],
+            [
+              158,
+              0
+            ],
+            [
+              113,
+              131
+            ],
+            [
+              73,
+              174
+            ],
+            [
+              0,
+              174
+            ]
+          ],
+          [
+            [
+              568,
+              0
+            ],
+            [
+              689,
+              0
+            ],
+            [
+              689,
+              174
+            ],
+            [
+              603,
+              145
+            ]
+          ]
+        ],
+        "foreground_polarity": "light-source-lines-on-dark-printed-field",
+        "source_boundary_cleanup": {
+          "method": "Expanded native bounds before extraction; only inspected long bottom cell-rule stroke excluded, then detached components discarded with a three-native-pixel continuity support. Original continuous source alpha retained.",
+          "removed_rule_lines": [
+            [
+              0,
+              607,
+              688,
+              607
+            ],
+            [
+              157,
+              611,
+              688,
+              609
+            ],
+            [
+              0,
+              608,
+              688,
+              608
+            ],
+            [
+              0,
+              606,
+              494,
+              606
+            ],
+            [
+              357,
+              613,
+              571,
+              613
+            ],
+            [
+              326,
+              612,
+              688,
+              611
+            ],
+            [
+              227,
+              592,
+              461,
+              593
+            ],
+            [
+              225,
+              594,
+              462,
+              594
+            ],
+            [
+              148,
+              609,
+              478,
+              609
+            ]
+          ],
+          "exterior_unrelated_fragments": {
+            "native_regions": [
+              [
+                420,
+                45,
+                502,
+                104
+              ],
+              [
+                561,
+                78,
+                606,
+                130
+              ]
+            ],
+            "native_polygons": [],
+            "method": "Only source-inspected neighboring ornament fragments and dark-field wear outside the selected lace removed. Original native continuous alpha contour and genuine internal openings untouched."
+          }
+        },
+        "tool": "Native source ink analysis",
+        "source_pixels_redrawn": false
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Original native lace motifs compared with white and dark composites. All dark-field openings clear; measured cream source-line coverage retained, no raster scaling or faceted SVG. Original source-limited flat terminations honestly retained; no missing full circle or hidden top half invented. Cell rules and unrelated neighboring motifs removed. Complete square cell selected over larger partial copies; duplicate impressions omitted.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/lace-eight-final-source-white-dark-1.jpg",
+          "tmp/extraction-work/continuation-20261010/lace-eight-final-source-white-dark-2.jpg",
+          "tmp/extraction-work/continuation-20261010/lace-extra-final-cleaned-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/lace-extra-final-cleaned-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/two-lace-source-coordinate-cleaned-1.jpg"
+        ]
+      },
+      "categories": [
+        "geometric",
+        "floral"
+      ],
+      "subjects": [
+        "lace",
+        "star",
+        "petal",
+        "roundel"
+      ],
+      "facing": "mixed",
+      "colors": [
+        "cream",
+        "brown"
+      ],
+      "composition": "single-ornament",
+      "usage_notes": "Native source light-line polarity retained. Dark printed field is transparent, including actual openings. Original source-limited arched ends and cell geometry retained; no full missing circle is invented and no seamless period inferred. PNG master represents measured cream line coverage, not pixel-exact RGB or an inverted modern drawing. Whole subject bounds expanded before native alpha extraction. Unrelated page-cell rules, dark-field wear and neighboring motif fragments excluded; original source-visible terminations retained without repainting or inventing full circles.",
+      "sets": [
+        {
+          "id": "met-368267-set",
+          "name": "Latomus lace patterns",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "Original cream printed arched lace with large petalled flower, with the dark printed field removed.",
+      "set_label": "Latomus lace patterns"
+    },
+    {
+      "id": "met-368267--arched-lace-with-radiating-spokes-and-pointed-petals",
+      "name": "arched-lace-with-radiating-spokes-and-pointed-petals",
+      "source_id": "met-368267",
+      "source_folder": "met",
+      "asset_type": "decoration",
+      "description": "Original cream printed arched lace with radiating spokes and pointed petals, with the dark printed field removed. Part of the Latomus lace patterns set.",
+      "source_region": [
+        1294,
+        1563,
+        1932,
+        2100
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        0,
+        0,
+        638,
+        536
+      ],
+      "export_crop_coordinate_space": "source-region",
+      "width": 638,
+      "height": 536,
+      "png": "met/met-368267--arched-lace-with-radiating-spokes-and-pointed-petals.png",
+      "png_sha256": "3fbcb6f326718a89c3e55305f70682513ed00fe5907e28daca60d8a863a4ea62",
+      "provenance": {
+        "institution": "Metropolitan Museum of Art",
+        "title": "Schon newes Modelbuch...Page 1(r)",
+        "object_identifier": "53.600.8(1r)",
+        "date": "1617",
+        "artist": "Sigismundus Latomus",
+        "record_url": "https://www.metmuseum.org/art/collection/search/368267",
+        "image_rights": "CC0 Open Access; isPublicDomain=true",
+        "rights_url": "https://www.metmuseum.org/policies/image-resources",
+        "source_file": "tmp/new-assets/met/met-368267--schon-newes-modelbuch-page-1-r.jpg",
+        "source_sha256": "4f557de2ff17a7eca2a09add818482321f4f47ae4f3b0c09cc48ae71d5808ce3",
+        "source_metadata": "tmp/new-assets/met/met-368267.json",
+        "image_url": "https://images.metmuseum.org/CRDImages/dp/original/DP359638.jpg",
+        "method": "native-continuous-ink-matting"
+      },
+      "extraction": {
+        "method": "Native continuous light-line coverage after measuring the dark printed field; source polarity and cream color retained.",
+        "source_pixels_repainted": false,
+        "source_rgb_modified": "Original cream linework represented by its measured light tone and continuous native coverage. The dark printed field and genuine dark openings are transparent; no inverted black replacement strokes.",
+        "paper_kernel": 19,
+        "minimum_coverage": 0.24,
+        "minimum_component_pixels": 4,
+        "settings": {
+          "paper_kernel": 19,
+          "paper_kernel_shape": "rectangle",
+          "minimum_coverage": 0.24,
+          "minimum_component_pixels": 4,
+          "minimum_component_peak": 0.58,
+          "minimum_channel_coverage": true,
+          "light_foreground_on_dark_print": true,
+          "largest_connected_support_join_radius": 0,
+          "fill_connected_support_interiors": false
+        },
+        "exclude_regions": [],
+        "export_crop": [
+          0,
+          0,
+          638,
+          536
+        ],
+        "ink_color": [
+          198,
+          169,
+          139
+        ],
+        "candidate_png": "tmp/extraction-work/met-368267--arched-lace-with-radiating-spokes-and-pointed-petals-whole-boundary-trial--ink-candidate.png",
+        "status": "awaiting-native-visual-review",
+        "exclude_polygons": [
+          [
+            [
+              0,
+              0
+            ],
+            [
+              180,
+              0
+            ],
+            [
+              156,
+              147
+            ],
+            [
+              75,
+              182
+            ],
+            [
+              0,
+              177
+            ]
+          ],
+          [
+            [
+              515,
+              0
+            ],
+            [
+              638,
+              0
+            ],
+            [
+              638,
+              163
+            ],
+            [
+              563,
+              174
+            ]
+          ]
+        ],
+        "foreground_polarity": "light-source-lines-on-dark-printed-field",
+        "source_boundary_cleanup": {
+          "method": "Expanded native bounds before extraction; only inspected long bottom cell-rule stroke excluded, then detached components discarded with a three-native-pixel continuity support. Original continuous source alpha retained.",
+          "removed_rule_lines": [
+            [
+              0,
+              519,
+              637,
+              514
+            ],
+            [
+              0,
+              517,
+              637,
+              513
+            ],
+            [
+              0,
+              520,
+              637,
+              516
+            ],
+            [
+              0,
+              522,
+              637,
+              518
+            ],
+            [
+              180,
+              5,
+              514,
+              0
+            ],
+            [
+              180,
+              6,
+              516,
+              6
+            ],
+            [
+              139,
+              522,
+              402,
+              521
+            ],
+            [
+              234,
+              0,
+              493,
+              0
+            ],
+            [
+              233,
+              516,
+              446,
+              518
+            ],
+            [
+              231,
+              519,
+              423,
+              518
+            ],
+            [
+              0,
+              523,
+              219,
+              523
+            ]
+          ],
+          "exterior_unrelated_fragments": {
+            "native_regions": [],
+            "native_polygons": [],
+            "method": "Only source-inspected neighboring ornament fragments and dark-field wear outside the selected lace removed. Original native continuous alpha contour and genuine internal openings untouched."
+          }
+        },
+        "tool": "Native source ink analysis",
+        "source_pixels_redrawn": false
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Original native lace motifs compared with white and dark composites. All dark-field openings clear; measured cream source-line coverage retained, no raster scaling or faceted SVG. Original source-limited flat terminations honestly retained; no missing full circle or hidden top half invented. Cell rules and unrelated neighboring motifs removed. Complete square cell selected over larger partial copies; duplicate impressions omitted.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/lace-eight-final-source-white-dark-1.jpg",
+          "tmp/extraction-work/continuation-20261010/lace-eight-final-source-white-dark-2.jpg",
+          "tmp/extraction-work/continuation-20261010/lace-extra-final-cleaned-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/lace-extra-final-cleaned-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/two-lace-source-coordinate-cleaned-1.jpg"
+        ]
+      },
+      "categories": [
+        "geometric",
+        "floral"
+      ],
+      "subjects": [
+        "lace",
+        "star",
+        "petal",
+        "roundel"
+      ],
+      "facing": "mixed",
+      "colors": [
+        "cream",
+        "brown"
+      ],
+      "composition": "single-ornament",
+      "usage_notes": "Native source light-line polarity retained. Dark printed field is transparent, including actual openings. Original source-limited arched ends and cell geometry retained; no full missing circle is invented and no seamless period inferred. PNG master represents measured cream line coverage, not pixel-exact RGB or an inverted modern drawing. Whole subject bounds expanded before native alpha extraction. Unrelated page-cell rules, dark-field wear and neighboring motif fragments excluded; original source-visible terminations retained without repainting or inventing full circles.",
+      "sets": [
+        {
+          "id": "met-368267-set",
+          "name": "Latomus lace patterns",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "Original cream printed arched lace with radiating spokes and pointed petals, with the dark printed field removed.",
+      "set_label": "Latomus lace patterns"
+    },
+    {
+      "id": "met-368267--hanging-rosette-and-bell-finial",
+      "name": "hanging-rosette-and-bell-finial",
+      "source_id": "met-368267",
+      "source_folder": "met",
+      "asset_type": "decoration",
+      "description": "A hanging cream rosette with a small bell-shaped lower finial. Part of the Latomus lace patterns set.",
+      "source_region": [
+        1903,
+        1562,
+        2133,
+        1780
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        0,
+        5,
+        230,
+        218
+      ],
+      "export_crop_coordinate_space": "source-region",
+      "width": 230,
+      "height": 213,
+      "png": "met/met-368267--hanging-rosette-and-bell-finial.png",
+      "png_sha256": "094346146eb76d056c9fa498278c2cb43f41158fee6409e3ffa3774556de86f5",
+      "provenance": {
+        "institution": "Metropolitan Museum of Art",
+        "title": "Schon newes Modelbuch...Page 1(r)",
+        "object_identifier": "53.600.8(1r)",
+        "date": "1617",
+        "artist": "Sigismundus Latomus",
+        "record_url": "https://www.metmuseum.org/art/collection/search/368267",
+        "image_rights": "CC0 Open Access; isPublicDomain=true",
+        "rights_url": "https://www.metmuseum.org/policies/image-resources",
+        "source_file": "tmp/new-assets/met/met-368267--schon-newes-modelbuch-page-1-r.jpg",
+        "source_sha256": "4f557de2ff17a7eca2a09add818482321f4f47ae4f3b0c09cc48ae71d5808ce3",
+        "source_metadata": "tmp/new-assets/met/met-368267.json",
+        "image_url": "https://images.metmuseum.org/CRDImages/dp/original/DP359638.jpg",
+        "method": "native-continuous-ink-matting"
+      },
+      "extraction": {
+        "method": "Native continuous light-line coverage after measuring the dark printed field; source polarity and cream color retained.",
+        "source_pixels_repainted": false,
+        "source_rgb_modified": "Original cream linework represented by its measured light tone and continuous native coverage. The dark printed field and genuine dark openings are transparent; no inverted black replacement strokes.",
+        "paper_kernel": 19,
+        "minimum_coverage": 0.24,
+        "minimum_component_pixels": 3,
+        "settings": {
+          "paper_kernel": 19,
+          "paper_kernel_shape": "rectangle",
+          "minimum_coverage": 0.24,
+          "minimum_component_pixels": 3,
+          "minimum_component_peak": 0.58,
+          "minimum_channel_coverage": true,
+          "light_foreground_on_dark_print": true
+        },
+        "exclude_regions": [
+          [
+            0,
+            0,
+            230,
+            11
+          ]
+        ],
+        "export_crop": [
+          0,
+          5,
+          230,
+          218
+        ],
+        "ink_color": [
+          198,
+          169,
+          138
+        ],
+        "candidate_png": "tmp/extraction-work/met-368267--hanging-rosette-and-bell-finial--ink-candidate.png",
+        "status": "awaiting-native-visual-review",
+        "foreground_polarity": "light-source-lines-on-dark-printed-field",
+        "outside_fragment_cleanup": {
+          "native_regions": [],
+          "method": "Only visually identified outside neighboring motifs and plate rules removed; largest three-native-pixel continuity support discards detached unrelated grains. Subject continuous source coverage unchanged."
+        },
+        "tool": "Native source ink analysis",
+        "source_pixels_redrawn": false
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Original native lace motifs compared with white and dark composites. All dark-field openings clear; measured cream source-line coverage retained, no raster scaling or faceted SVG. Original source-limited flat terminations honestly retained; no missing full circle or hidden top half invented. Cell rules and unrelated neighboring motifs removed. Complete square cell selected over larger partial copies; duplicate impressions omitted.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/lace-eight-final-source-white-dark-1.jpg",
+          "tmp/extraction-work/continuation-20261010/lace-eight-final-source-white-dark-2.jpg",
+          "tmp/extraction-work/continuation-20261010/lace-extra-final-cleaned-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/lace-extra-final-cleaned-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/two-lace-source-coordinate-cleaned-1.jpg"
+        ]
+      },
+      "categories": [
+        "floral",
+        "geometric"
+      ],
+      "subjects": [
+        "lace",
+        "rosette",
+        "bell",
+        "finial"
+      ],
+      "facing": "mixed",
+      "colors": [
+        "cream",
+        "brown"
+      ],
+      "composition": "single-ornament",
+      "usage_notes": "Finite source-visible hanging rosette and bell finial. Its upper edge ends at the original sheet division; no hidden top half reconstructed. Measured cream light-line continuous alpha, no seamless period inferred.",
+      "sets": [
+        {
+          "id": "met-368267-set",
+          "name": "Latomus lace patterns",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A hanging cream rosette with a small bell-shaped lower finial.",
+      "set_label": "Latomus lace patterns"
+    },
+    {
+      "id": "met-368267--inverted-lattice-floral-triangle",
+      "name": "inverted-lattice-floral-triangle",
+      "source_id": "met-368267",
+      "source_folder": "met",
+      "asset_type": "decoration",
+      "description": "An inverted triangular lace ornament with crossed stems and a central six-petalled flower. Part of the Latomus lace patterns set.",
+      "source_region": [
+        1260,
+        351,
+        1522,
+        603
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        0,
+        13,
+        252,
+        225
+      ],
+      "export_crop_coordinate_space": "source-region",
+      "width": 252,
+      "height": 212,
+      "png": "met/met-368267--inverted-lattice-floral-triangle.png",
+      "png_sha256": "4e1f3768971113ffb97cef56fdc24642292083950812984150e588fc25b3d723",
+      "provenance": {
+        "institution": "Metropolitan Museum of Art",
+        "title": "Schon newes Modelbuch...Page 1(r)",
+        "object_identifier": "53.600.8(1r)",
+        "date": "1617",
+        "artist": "Sigismundus Latomus",
+        "record_url": "https://www.metmuseum.org/art/collection/search/368267",
+        "image_rights": "CC0 Open Access; isPublicDomain=true",
+        "rights_url": "https://www.metmuseum.org/policies/image-resources",
+        "source_file": "tmp/new-assets/met/met-368267--schon-newes-modelbuch-page-1-r.jpg",
+        "source_sha256": "4f557de2ff17a7eca2a09add818482321f4f47ae4f3b0c09cc48ae71d5808ce3",
+        "source_metadata": "tmp/new-assets/met/met-368267.json",
+        "image_url": "https://images.metmuseum.org/CRDImages/dp/original/DP359638.jpg",
+        "method": "native-continuous-ink-matting"
+      },
+      "extraction": {
+        "method": "Native continuous light-line coverage after measuring the dark printed field; source polarity and cream color retained.",
+        "source_pixels_repainted": false,
+        "source_rgb_modified": "Original cream linework represented by its measured light tone and continuous native coverage. The dark printed field and genuine dark openings are transparent; no inverted black replacement strokes.",
+        "paper_kernel": 19,
+        "minimum_coverage": 0.24,
+        "minimum_component_pixels": 3,
+        "settings": {
+          "paper_kernel": 19,
+          "paper_kernel_shape": "rectangle",
+          "minimum_coverage": 0.24,
+          "minimum_component_pixels": 3,
+          "minimum_component_peak": 0.58,
+          "minimum_channel_coverage": true,
+          "light_foreground_on_dark_print": true,
+          "largest_connected_support_join_radius": 3,
+          "fill_connected_support_interiors": false
+        },
+        "exclude_regions": [
+          [
+            0,
+            0,
+            263,
+            19
+          ],
+          [
+            128,
+            225,
+            262,
+            252
+          ]
+        ],
+        "export_crop": [
+          0,
+          13,
+          252,
+          225
+        ],
+        "ink_color": [
+          201,
+          174,
+          144
+        ],
+        "candidate_png": "tmp/extraction-work/met-368267--inverted-lattice-floral-triangle--ink-candidate.png",
+        "status": "awaiting-native-visual-review",
+        "exclude_polygons": [
+          [
+            [
+              0,
+              129
+            ],
+            [
+              56,
+              174
+            ],
+            [
+              101,
+              236
+            ],
+            [
+              123,
+              252
+            ],
+            [
+              0,
+              252
+            ]
+          ],
+          [
+            [
+              214,
+              137
+            ],
+            [
+              262,
+              137
+            ],
+            [
+              262,
+              252
+            ],
+            [
+              128,
+              252
+            ],
+            [
+              134,
+              220
+            ],
+            [
+              168,
+              180
+            ]
+          ]
+        ],
+        "foreground_polarity": "light-source-lines-on-dark-printed-field",
+        "outside_fragment_cleanup": {
+          "candidate_regions": [
+            [
+              114,
+              184,
+              252,
+              212
+            ]
+          ],
+          "candidate_origin_in_source_region": [
+            0,
+            13
+          ],
+          "method": "Source-inspected neighboring semicircular petal fragment at bottom-right excluded outside the actual triangle finial; original subject light-line coverage unchanged."
+        },
+        "tool": "Native source ink analysis",
+        "source_pixels_redrawn": false
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Reviewed original triangle on white and dark after excluding the unrelated adjoining petal fragment. Complete native triangle tips and original source-defined upper termination retained; dark field and genuine openings clear.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/inverted-triangle-no-petal-fragment-1.jpg"
+        ]
+      },
+      "categories": [
+        "floral",
+        "geometric"
+      ],
+      "subjects": [
+        "lace",
+        "triangle",
+        "flower",
+        "stem"
+      ],
+      "facing": "mixed",
+      "colors": [
+        "cream",
+        "brown"
+      ],
+      "composition": "single-ornament",
+      "usage_notes": "Native visible triangle; source-defined flat upper termination retained. Repeated elsewhere on the sheet; this cleaner impression selected, alternative occurrence not exported. Neighboring semicircular motifs excluded.",
+      "sets": [
+        {
+          "id": "met-368267-set",
+          "name": "Latomus lace patterns",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "An inverted triangular lace ornament with crossed stems and a central six-petalled flower.",
+      "set_label": "Latomus lace patterns"
+    },
+    {
+      "id": "met-368267--small-lace-roundel-with-eight-point-star",
+      "name": "small-lace-roundel-with-eight-point-star",
+      "source_id": "met-368267",
+      "source_folder": "met",
+      "asset_type": "decoration",
+      "description": "Original cream printed small lace roundel with eight point star, with the dark printed field removed. Part of the Latomus lace patterns set.",
+      "source_region": [
+        3066,
+        1008,
+        3342,
+        1276
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        0,
+        0,
+        276,
+        268
+      ],
+      "export_crop_coordinate_space": "source-region",
+      "width": 276,
+      "height": 268,
+      "png": "met/met-368267--small-lace-roundel-with-eight-point-star.png",
+      "png_sha256": "89867a325f6a8336cf80d079ab5e28e51c6e93e64449f61e493c1f50e482469b",
+      "provenance": {
+        "institution": "Metropolitan Museum of Art",
+        "title": "Schon newes Modelbuch...Page 1(r)",
+        "object_identifier": "53.600.8(1r)",
+        "date": "1617",
+        "artist": "Sigismundus Latomus",
+        "record_url": "https://www.metmuseum.org/art/collection/search/368267",
+        "image_rights": "CC0 Open Access; isPublicDomain=true",
+        "rights_url": "https://www.metmuseum.org/policies/image-resources",
+        "source_file": "tmp/new-assets/met/met-368267--schon-newes-modelbuch-page-1-r.jpg",
+        "source_sha256": "4f557de2ff17a7eca2a09add818482321f4f47ae4f3b0c09cc48ae71d5808ce3",
+        "source_metadata": "tmp/new-assets/met/met-368267.json",
+        "image_url": "https://images.metmuseum.org/CRDImages/dp/original/DP359638.jpg",
+        "method": "native-continuous-ink-matting"
+      },
+      "extraction": {
+        "method": "Native continuous light-line coverage after measuring the dark printed field; source polarity and cream color retained.",
+        "source_pixels_repainted": false,
+        "source_rgb_modified": "Original cream linework represented by its measured light tone and continuous native coverage. The dark printed field and genuine dark openings are transparent; no inverted black replacement strokes.",
+        "paper_kernel": 61,
+        "minimum_coverage": 0.24,
+        "minimum_component_pixels": 4,
+        "settings": {
+          "paper_kernel": 61,
+          "paper_kernel_shape": "rectangle",
+          "minimum_coverage": 0.24,
+          "minimum_component_pixels": 4,
+          "minimum_component_peak": 0.52,
+          "minimum_channel_coverage": true,
+          "light_foreground_on_dark_print": true,
+          "largest_connected_support_join_radius": 3,
+          "fill_connected_support_interiors": true
+        },
+        "exclude_regions": [],
+        "export_crop": [
+          0,
+          0,
+          276,
+          268
+        ],
+        "ink_color": [
+          206,
+          176,
+          144
+        ],
+        "candidate_png": "tmp/extraction-work/met-368267--small-lace-roundel-with-eight-point-star--ink-candidate.png",
+        "status": "awaiting-native-visual-review",
+        "foreground_polarity": "light-source-lines-on-dark-printed-field",
+        "tool": "Native source ink analysis",
+        "source_pixels_redrawn": false
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Compared source details and native white/dark alpha renders. Five complete light-line lace cells retain original cream polarity and genuine dark openings. The cleaner of the repeated small medallion impressions is retained. Six framed vignettes preserve full source-visible heads/arms/props and their contacting original frames; interior/exterior paper is clear.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/refined-lace-and-vignette-native-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/refined-lace-and-vignette-native-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/refined-lace-and-vignette-native-proof-3.jpg",
+          "tmp/extraction-work/continuation-20261010/refined-lace-and-vignette-native-proof-4.jpg",
+          "tmp/extraction-work/continuation-20261010/refined-lace-and-vignette-native-proof-5.jpg"
+        ]
+      },
+      "categories": [
+        "geometric",
+        "floral"
+      ],
+      "subjects": [
+        "lace",
+        "star",
+        "petal",
+        "roundel"
+      ],
+      "facing": "mixed",
+      "colors": [
+        "cream",
+        "brown"
+      ],
+      "composition": "single-ornament",
+      "usage_notes": "Native source light-line polarity retained. Dark printed field is transparent, including actual openings. Original source-limited arched ends and cell geometry retained; no full missing circle is invented and no seamless period inferred. PNG master represents measured cream line coverage, not pixel-exact RGB or an inverted modern drawing.",
+      "duplicate_candidates": [
+        {
+          "source_id": "met-368267",
+          "source_region": [
+            3066,
+            1286,
+            3342,
+            1562
+          ],
+          "rejected_id": "met-368267--small-lace-roundel-with-radiating-triangle-fan",
+          "reason": "Same star-lace medallion printed twice on the source sheet. Upper impression has clearer fine peripheral filaments and less worn small linework; same source/license."
+        }
+      ],
+      "sets": [
+        {
+          "id": "met-368267-set",
+          "name": "Latomus lace patterns",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "Original cream printed small lace roundel with eight point star, with the dark printed field removed.",
+      "set_label": "Latomus lace patterns"
+    },
+    {
+      "id": "met-368267--small-triangular-fleur-finial",
+      "name": "small-triangular-fleur-finial",
+      "source_id": "met-368267",
+      "source_folder": "met",
+      "asset_type": "decoration",
+      "description": "A small cream triangular lace finial with curling branches. Part of the Latomus lace patterns set.",
+      "source_region": [
+        1975,
+        1970,
+        2088,
+        2088
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        0,
+        0,
+        104,
+        110
+      ],
+      "export_crop_coordinate_space": "source-region",
+      "width": 104,
+      "height": 110,
+      "png": "met/met-368267--small-triangular-fleur-finial.png",
+      "png_sha256": "faf8789f8b06e79c169d6599c2f25c2ed66540b6f17616c13a4e1dfd89f41446",
+      "provenance": {
+        "institution": "Metropolitan Museum of Art",
+        "title": "Schon newes Modelbuch...Page 1(r)",
+        "object_identifier": "53.600.8(1r)",
+        "date": "1617",
+        "artist": "Sigismundus Latomus",
+        "record_url": "https://www.metmuseum.org/art/collection/search/368267",
+        "image_rights": "CC0 Open Access; isPublicDomain=true",
+        "rights_url": "https://www.metmuseum.org/policies/image-resources",
+        "source_file": "tmp/new-assets/met/met-368267--schon-newes-modelbuch-page-1-r.jpg",
+        "source_sha256": "4f557de2ff17a7eca2a09add818482321f4f47ae4f3b0c09cc48ae71d5808ce3",
+        "source_metadata": "tmp/new-assets/met/met-368267.json",
+        "image_url": "https://images.metmuseum.org/CRDImages/dp/original/DP359638.jpg",
+        "method": "native-continuous-ink-matting"
+      },
+      "extraction": {
+        "method": "Native continuous light-line coverage after measuring the dark printed field; source polarity and cream color retained.",
+        "source_pixels_repainted": false,
+        "source_rgb_modified": "Original cream linework represented by its measured light tone and continuous native coverage. The dark printed field and genuine dark openings are transparent; no inverted black replacement strokes.",
+        "paper_kernel": 19,
+        "minimum_coverage": 0.24,
+        "minimum_component_pixels": 3,
+        "settings": {
+          "paper_kernel": 19,
+          "paper_kernel_shape": "rectangle",
+          "minimum_coverage": 0.24,
+          "minimum_component_pixels": 3,
+          "minimum_component_peak": 0.58,
+          "minimum_channel_coverage": true,
+          "light_foreground_on_dark_print": true,
+          "largest_connected_support_join_radius": 3,
+          "fill_connected_support_interiors": false
+        },
+        "exclude_regions": [
+          [
+            0,
+            113,
+            113,
+            118
+          ],
+          [
+            0,
+            104,
+            113,
+            118
+          ]
+        ],
+        "export_crop": [
+          0,
+          0,
+          104,
+          110
+        ],
+        "ink_color": [
+          196,
+          169,
+          139
+        ],
+        "candidate_png": "tmp/extraction-work/met-368267--small-triangular-fleur-finial--ink-candidate.png",
+        "status": "awaiting-native-visual-review",
+        "exclude_polygons": [
+          [
+            [
+              75,
+              0
+            ],
+            [
+              113,
+              0
+            ],
+            [
+              113,
+              29
+            ]
+          ]
+        ],
+        "foreground_polarity": "light-source-lines-on-dark-printed-field",
+        "boundary_review": "Source-coordinate exclusions revised against original individual finial, removing unrelated neighboring petals and complete straight cell rule. Original subject coverage preserved.",
+        "tool": "Native source ink analysis",
+        "source_pixels_redrawn": false
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Original native lace motifs compared with white and dark composites. All dark-field openings clear; measured cream source-line coverage retained, no raster scaling or faceted SVG. Original source-limited flat terminations honestly retained; no missing full circle or hidden top half invented. Cell rules and unrelated neighboring motifs removed. Complete square cell selected over larger partial copies; duplicate impressions omitted.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/lace-eight-final-source-white-dark-1.jpg",
+          "tmp/extraction-work/continuation-20261010/lace-eight-final-source-white-dark-2.jpg",
+          "tmp/extraction-work/continuation-20261010/lace-extra-final-cleaned-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/lace-extra-final-cleaned-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/two-lace-source-coordinate-cleaned-1.jpg"
+        ]
+      },
+      "categories": [
+        "floral",
+        "geometric"
+      ],
+      "subjects": [
+        "lace",
+        "finial",
+        "branch"
+      ],
+      "facing": "mixed",
+      "colors": [
+        "cream",
+        "brown"
+      ],
+      "composition": "single-ornament",
+      "usage_notes": "Native ink appearance retained with continuous transparency. This finite original ornament establishes no seamless period; no repeat or corner atlas inferred. SVG withheld where tracing alters the source print grain.",
+      "sets": [
+        {
+          "id": "met-368267-set",
+          "name": "Latomus lace patterns",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A small cream triangular lace finial with curling branches.",
+      "set_label": "Latomus lace patterns"
+    },
+    {
+      "id": "met-368267--square-four-pointed-star-lace-cell",
+      "name": "square-four-pointed-star-lace-cell",
+      "source_id": "met-368267",
+      "source_folder": "met",
+      "asset_type": "decoration",
+      "description": "A cream square lace cell with a four-pointed star and diagonal corner ties. Part of the Latomus lace patterns set.",
+      "source_region": [
+        649,
+        351,
+        801,
+        496
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        0,
+        0,
+        152,
+        145
+      ],
+      "export_crop_coordinate_space": "source-region",
+      "width": 152,
+      "height": 145,
+      "png": "met/met-368267--square-four-pointed-star-lace-cell.png",
+      "png_sha256": "255426dce06d42a381e02356504b3d44fac8dc49ea9a9980d1381f713daee827",
+      "provenance": {
+        "institution": "Metropolitan Museum of Art",
+        "title": "Schon newes Modelbuch...Page 1(r)",
+        "object_identifier": "53.600.8(1r)",
+        "date": "1617",
+        "artist": "Sigismundus Latomus",
+        "record_url": "https://www.metmuseum.org/art/collection/search/368267",
+        "image_rights": "CC0 Open Access; isPublicDomain=true",
+        "rights_url": "https://www.metmuseum.org/policies/image-resources",
+        "source_file": "tmp/new-assets/met/met-368267--schon-newes-modelbuch-page-1-r.jpg",
+        "source_sha256": "4f557de2ff17a7eca2a09add818482321f4f47ae4f3b0c09cc48ae71d5808ce3",
+        "source_metadata": "tmp/new-assets/met/met-368267.json",
+        "image_url": "https://images.metmuseum.org/CRDImages/dp/original/DP359638.jpg",
+        "method": "native-continuous-ink-matting"
+      },
+      "extraction": {
+        "method": "Native continuous light-line coverage after measuring the dark printed field; source polarity and cream color retained.",
+        "source_pixels_repainted": false,
+        "source_rgb_modified": "Original cream linework represented by its measured light tone and continuous native coverage. The dark printed field and genuine dark openings are transparent; no inverted black replacement strokes.",
+        "paper_kernel": 19,
+        "minimum_coverage": 0.24,
+        "minimum_component_pixels": 3,
+        "settings": {
+          "paper_kernel": 19,
+          "paper_kernel_shape": "rectangle",
+          "minimum_coverage": 0.24,
+          "minimum_component_pixels": 3,
+          "minimum_component_peak": 0.58,
+          "minimum_channel_coverage": true,
+          "light_foreground_on_dark_print": true
+        },
+        "exclude_regions": [],
+        "export_crop": [
+          0,
+          0,
+          152,
+          145
+        ],
+        "ink_color": [
+          202,
+          176,
+          147
+        ],
+        "candidate_png": "tmp/extraction-work/met-368267--square-four-pointed-star-lace-cell--ink-candidate.png",
+        "status": "awaiting-native-visual-review",
+        "foreground_polarity": "light-source-lines-on-dark-printed-field",
+        "outside_fragment_cleanup": {
+          "native_regions": [],
+          "method": "Only visually identified outside neighboring motifs and plate rules removed; largest three-native-pixel continuity support discards detached unrelated grains. Subject continuous source coverage unchanged."
+        },
+        "tool": "Native source ink analysis",
+        "source_pixels_redrawn": false
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Original native lace motifs compared with white and dark composites. All dark-field openings clear; measured cream source-line coverage retained, no raster scaling or faceted SVG. Original source-limited flat terminations honestly retained; no missing full circle or hidden top half invented. Cell rules and unrelated neighboring motifs removed. Complete square cell selected over larger partial copies; duplicate impressions omitted.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/lace-eight-final-source-white-dark-1.jpg",
+          "tmp/extraction-work/continuation-20261010/lace-eight-final-source-white-dark-2.jpg",
+          "tmp/extraction-work/continuation-20261010/lace-extra-final-cleaned-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/lace-extra-final-cleaned-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/two-lace-source-coordinate-cleaned-1.jpg"
+        ]
+      },
+      "categories": [
+        "floral",
+        "geometric"
+      ],
+      "subjects": [
+        "lace",
+        "star",
+        "square"
+      ],
+      "facing": "mixed",
+      "colors": [
+        "cream",
+        "brown"
+      ],
+      "composition": "single-ornament",
+      "usage_notes": "Complete square corner cell retained with its intrinsic cream rule and star. Larger partial copies hanging from sheet divisions are redundant and were skipped. Neighboring different cells do not establish a seamless period; kept as a finite decoration.",
+      "sets": [
+        {
+          "id": "met-368267-set",
+          "name": "Latomus lace patterns",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A cream square lace cell with a four-pointed star and diagonal corner ties.",
+      "set_label": "Latomus lace patterns"
+    },
+    {
+      "id": "met-368267--square-lace-with-concentric-cross-and-star-corners",
+      "name": "square-lace-with-concentric-cross-and-star-corners",
+      "source_id": "met-368267",
+      "source_folder": "met",
+      "asset_type": "decoration",
+      "description": "Original cream printed square lace with concentric cross and star corners, with the dark printed field removed. Part of the Latomus lace patterns set.",
+      "source_region": [
+        1881,
+        1005,
+        2474,
+        1562
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        0,
+        0,
+        593,
+        557
+      ],
+      "export_crop_coordinate_space": "source-region",
+      "width": 593,
+      "height": 557,
+      "png": "met/met-368267--square-lace-with-concentric-cross-and-star-corners.png",
+      "png_sha256": "3912ecf4295ecd66d8306788ab0510a769b426b6f3e78394fa9d652d69e42aac",
+      "provenance": {
+        "institution": "Metropolitan Museum of Art",
+        "title": "Schon newes Modelbuch...Page 1(r)",
+        "object_identifier": "53.600.8(1r)",
+        "date": "1617",
+        "artist": "Sigismundus Latomus",
+        "record_url": "https://www.metmuseum.org/art/collection/search/368267",
+        "image_rights": "CC0 Open Access; isPublicDomain=true",
+        "rights_url": "https://www.metmuseum.org/policies/image-resources",
+        "source_file": "tmp/new-assets/met/met-368267--schon-newes-modelbuch-page-1-r.jpg",
+        "source_sha256": "4f557de2ff17a7eca2a09add818482321f4f47ae4f3b0c09cc48ae71d5808ce3",
+        "source_metadata": "tmp/new-assets/met/met-368267.json",
+        "image_url": "https://images.metmuseum.org/CRDImages/dp/original/DP359638.jpg",
+        "method": "native-continuous-ink-matting"
+      },
+      "extraction": {
+        "method": "Native continuous light-line coverage after measuring the dark printed field; source polarity and cream color retained.",
+        "source_pixels_repainted": false,
+        "source_rgb_modified": "Original cream linework represented by its measured light tone and continuous native coverage. The dark printed field and genuine dark openings are transparent; no inverted black replacement strokes.",
+        "paper_kernel": 61,
+        "minimum_coverage": 0.24,
+        "minimum_component_pixels": 4,
+        "settings": {
+          "paper_kernel": 61,
+          "paper_kernel_shape": "rectangle",
+          "minimum_coverage": 0.24,
+          "minimum_component_pixels": 4,
+          "minimum_component_peak": 0.52,
+          "minimum_channel_coverage": true,
+          "light_foreground_on_dark_print": true
+        },
+        "exclude_regions": [],
+        "export_crop": [
+          0,
+          0,
+          593,
+          557
+        ],
+        "ink_color": [
+          200,
+          171,
+          141
+        ],
+        "candidate_png": "tmp/extraction-work/met-368267--square-lace-with-concentric-cross-and-star-corners--ink-candidate.png",
+        "status": "awaiting-native-visual-review",
+        "foreground_polarity": "light-source-lines-on-dark-printed-field",
+        "tool": "Native source ink analysis",
+        "source_pixels_redrawn": false
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Compared source details and native white/dark alpha renders. Five complete light-line lace cells retain original cream polarity and genuine dark openings. The cleaner of the repeated small medallion impressions is retained. Six framed vignettes preserve full source-visible heads/arms/props and their contacting original frames; interior/exterior paper is clear.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/refined-lace-and-vignette-native-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/refined-lace-and-vignette-native-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/refined-lace-and-vignette-native-proof-3.jpg",
+          "tmp/extraction-work/continuation-20261010/refined-lace-and-vignette-native-proof-4.jpg",
+          "tmp/extraction-work/continuation-20261010/refined-lace-and-vignette-native-proof-5.jpg"
+        ]
+      },
+      "categories": [
+        "geometric",
+        "floral"
+      ],
+      "subjects": [
+        "lace",
+        "star",
+        "petal",
+        "roundel"
+      ],
+      "facing": "mixed",
+      "colors": [
+        "cream",
+        "brown"
+      ],
+      "composition": "single-ornament",
+      "usage_notes": "Native source light-line polarity retained. Dark printed field is transparent, including actual openings. Original source-limited arched ends and cell geometry retained; no full missing circle is invented and no seamless period inferred. PNG master represents measured cream line coverage, not pixel-exact RGB or an inverted modern drawing.",
+      "sets": [
+        {
+          "id": "met-368267-set",
+          "name": "Latomus lace patterns",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "Original cream printed square lace with concentric cross and star corners, with the dark printed field removed.",
+      "set_label": "Latomus lace patterns"
+    },
+    {
+      "id": "met-368267--square-lace-with-radiating-petals-and-triangle-fans",
+      "name": "square-lace-with-radiating-petals-and-triangle-fans",
+      "source_id": "met-368267",
+      "source_folder": "met",
+      "asset_type": "decoration",
+      "description": "Original cream printed square lace with radiating petals and triangle fans, with the dark printed field removed. Part of the Latomus lace patterns set.",
+      "source_region": [
+        667,
+        1005,
+        1273,
+        1562
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        0,
+        0,
+        606,
+        557
+      ],
+      "export_crop_coordinate_space": "source-region",
+      "width": 606,
+      "height": 557,
+      "png": "met/met-368267--square-lace-with-radiating-petals-and-triangle-fans.png",
+      "png_sha256": "139cf3ce194d4214a1c6f17864dc979e0e462ed35a5356d2f7c5b88f901ac2ef",
+      "provenance": {
+        "institution": "Metropolitan Museum of Art",
+        "title": "Schon newes Modelbuch...Page 1(r)",
+        "object_identifier": "53.600.8(1r)",
+        "date": "1617",
+        "artist": "Sigismundus Latomus",
+        "record_url": "https://www.metmuseum.org/art/collection/search/368267",
+        "image_rights": "CC0 Open Access; isPublicDomain=true",
+        "rights_url": "https://www.metmuseum.org/policies/image-resources",
+        "source_file": "tmp/new-assets/met/met-368267--schon-newes-modelbuch-page-1-r.jpg",
+        "source_sha256": "4f557de2ff17a7eca2a09add818482321f4f47ae4f3b0c09cc48ae71d5808ce3",
+        "source_metadata": "tmp/new-assets/met/met-368267.json",
+        "image_url": "https://images.metmuseum.org/CRDImages/dp/original/DP359638.jpg",
+        "method": "native-continuous-ink-matting"
+      },
+      "extraction": {
+        "method": "Native continuous light-line coverage after measuring the dark printed field; source polarity and cream color retained.",
+        "source_pixels_repainted": false,
+        "source_rgb_modified": "Original cream linework represented by its measured light tone and continuous native coverage. The dark printed field and genuine dark openings are transparent; no inverted black replacement strokes.",
+        "paper_kernel": 61,
+        "minimum_coverage": 0.24,
+        "minimum_component_pixels": 4,
+        "settings": {
+          "paper_kernel": 61,
+          "paper_kernel_shape": "rectangle",
+          "minimum_coverage": 0.24,
+          "minimum_component_pixels": 4,
+          "minimum_component_peak": 0.52,
+          "minimum_channel_coverage": true,
+          "light_foreground_on_dark_print": true
+        },
+        "exclude_regions": [],
+        "export_crop": [
+          0,
+          0,
+          606,
+          557
+        ],
+        "ink_color": [
+          202,
+          172,
+          140
+        ],
+        "candidate_png": "tmp/extraction-work/met-368267--square-lace-with-radiating-petals-and-triangle-fans--ink-candidate.png",
+        "status": "awaiting-native-visual-review",
+        "foreground_polarity": "light-source-lines-on-dark-printed-field",
+        "tool": "Native source ink analysis",
+        "source_pixels_redrawn": false
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Compared source details and native white/dark alpha renders. Five complete light-line lace cells retain original cream polarity and genuine dark openings. The cleaner of the repeated small medallion impressions is retained. Six framed vignettes preserve full source-visible heads/arms/props and their contacting original frames; interior/exterior paper is clear.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/refined-lace-and-vignette-native-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/refined-lace-and-vignette-native-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/refined-lace-and-vignette-native-proof-3.jpg",
+          "tmp/extraction-work/continuation-20261010/refined-lace-and-vignette-native-proof-4.jpg",
+          "tmp/extraction-work/continuation-20261010/refined-lace-and-vignette-native-proof-5.jpg"
+        ]
+      },
+      "categories": [
+        "geometric",
+        "floral"
+      ],
+      "subjects": [
+        "lace",
+        "star",
+        "petal",
+        "roundel"
+      ],
+      "facing": "mixed",
+      "colors": [
+        "cream",
+        "brown"
+      ],
+      "composition": "single-ornament",
+      "usage_notes": "Native source light-line polarity retained. Dark printed field is transparent, including actual openings. Original source-limited arched ends and cell geometry retained; no full missing circle is invented and no seamless period inferred. PNG master represents measured cream line coverage, not pixel-exact RGB or an inverted modern drawing.",
+      "sets": [
+        {
+          "id": "met-368267-set",
+          "name": "Latomus lace patterns",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "Original cream printed square lace with radiating petals and triangle fans, with the dark printed field removed.",
+      "set_label": "Latomus lace patterns"
+    },
+    {
+      "id": "met-368267--square-lace-with-six-looped-petal-medallion",
+      "name": "square-lace-with-six-looped-petal-medallion",
+      "source_id": "met-368267",
+      "source_folder": "met",
+      "asset_type": "decoration",
+      "description": "Original cream printed square lace with six looped petal medallion, with the dark printed field removed. Part of the Latomus lace patterns set.",
+      "source_region": [
+        1281,
+        1008,
+        1871,
+        1560
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        0,
+        0,
+        590,
+        552
+      ],
+      "export_crop_coordinate_space": "source-region",
+      "width": 590,
+      "height": 552,
+      "png": "met/met-368267--square-lace-with-six-looped-petal-medallion.png",
+      "png_sha256": "697fff379ea0dc92618fc6945b3db5446e46ac7ff527b67e545063dba4e8d91a",
+      "provenance": {
+        "institution": "Metropolitan Museum of Art",
+        "title": "Schon newes Modelbuch...Page 1(r)",
+        "object_identifier": "53.600.8(1r)",
+        "date": "1617",
+        "artist": "Sigismundus Latomus",
+        "record_url": "https://www.metmuseum.org/art/collection/search/368267",
+        "image_rights": "CC0 Open Access; isPublicDomain=true",
+        "rights_url": "https://www.metmuseum.org/policies/image-resources",
+        "source_file": "tmp/new-assets/met/met-368267--schon-newes-modelbuch-page-1-r.jpg",
+        "source_sha256": "4f557de2ff17a7eca2a09add818482321f4f47ae4f3b0c09cc48ae71d5808ce3",
+        "source_metadata": "tmp/new-assets/met/met-368267.json",
+        "image_url": "https://images.metmuseum.org/CRDImages/dp/original/DP359638.jpg",
+        "method": "native-continuous-ink-matting"
+      },
+      "extraction": {
+        "method": "Native continuous light-line coverage after measuring the dark printed field; source polarity and cream color retained.",
+        "source_pixels_repainted": false,
+        "source_rgb_modified": "Original cream linework represented by its measured light tone and continuous native coverage. The dark printed field and genuine dark openings are transparent; no inverted black replacement strokes.",
+        "paper_kernel": 61,
+        "minimum_coverage": 0.24,
+        "minimum_component_pixels": 4,
+        "settings": {
+          "paper_kernel": 61,
+          "paper_kernel_shape": "rectangle",
+          "minimum_coverage": 0.24,
+          "minimum_component_pixels": 4,
+          "minimum_component_peak": 0.52,
+          "minimum_channel_coverage": true,
+          "light_foreground_on_dark_print": true
+        },
+        "exclude_regions": [],
+        "export_crop": [
+          0,
+          0,
+          590,
+          552
+        ],
+        "ink_color": [
+          197,
+          169,
+          139
+        ],
+        "candidate_png": "tmp/extraction-work/met-368267--square-lace-with-six-looped-petal-medallion--ink-candidate.png",
+        "status": "awaiting-native-visual-review",
+        "foreground_polarity": "light-source-lines-on-dark-printed-field",
+        "tool": "Native source ink analysis",
+        "source_pixels_redrawn": false
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Compared source details and native white/dark alpha renders. Five complete light-line lace cells retain original cream polarity and genuine dark openings. The cleaner of the repeated small medallion impressions is retained. Six framed vignettes preserve full source-visible heads/arms/props and their contacting original frames; interior/exterior paper is clear.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/refined-lace-and-vignette-native-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/refined-lace-and-vignette-native-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/refined-lace-and-vignette-native-proof-3.jpg",
+          "tmp/extraction-work/continuation-20261010/refined-lace-and-vignette-native-proof-4.jpg",
+          "tmp/extraction-work/continuation-20261010/refined-lace-and-vignette-native-proof-5.jpg"
+        ]
+      },
+      "categories": [
+        "geometric",
+        "floral"
+      ],
+      "subjects": [
+        "lace",
+        "star",
+        "petal",
+        "roundel"
+      ],
+      "facing": "mixed",
+      "colors": [
+        "cream",
+        "brown"
+      ],
+      "composition": "single-ornament",
+      "usage_notes": "Native source light-line polarity retained. Dark printed field is transparent, including actual openings. Original source-limited arched ends and cell geometry retained; no full missing circle is invented and no seamless period inferred. PNG master represents measured cream line coverage, not pixel-exact RGB or an inverted modern drawing.",
+      "sets": [
+        {
+          "id": "met-368267-set",
+          "name": "Latomus lace patterns",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "Original cream printed square lace with six looped petal medallion, with the dark printed field removed.",
+      "set_label": "Latomus lace patterns"
+    },
+    {
+      "id": "met-368267--square-lace-with-triangle-star-and-small-oval-petals",
+      "name": "square-lace-with-triangle-star-and-small-oval-petals",
+      "source_id": "met-368267",
+      "source_folder": "met",
+      "asset_type": "decoration",
+      "description": "Original cream printed square lace with triangle star and small oval petals, with the dark printed field removed. Part of the Latomus lace patterns set.",
+      "source_region": [
+        2487,
+        1008,
+        3058,
+        1562
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        0,
+        0,
+        571,
+        554
+      ],
+      "export_crop_coordinate_space": "source-region",
+      "width": 571,
+      "height": 554,
+      "png": "met/met-368267--square-lace-with-triangle-star-and-small-oval-petals.png",
+      "png_sha256": "984c8d45c0df0f0ca70e67c1bccb57b640803b49f36d7ee9deec130c4b2b2f98",
+      "provenance": {
+        "institution": "Metropolitan Museum of Art",
+        "title": "Schon newes Modelbuch...Page 1(r)",
+        "object_identifier": "53.600.8(1r)",
+        "date": "1617",
+        "artist": "Sigismundus Latomus",
+        "record_url": "https://www.metmuseum.org/art/collection/search/368267",
+        "image_rights": "CC0 Open Access; isPublicDomain=true",
+        "rights_url": "https://www.metmuseum.org/policies/image-resources",
+        "source_file": "tmp/new-assets/met/met-368267--schon-newes-modelbuch-page-1-r.jpg",
+        "source_sha256": "4f557de2ff17a7eca2a09add818482321f4f47ae4f3b0c09cc48ae71d5808ce3",
+        "source_metadata": "tmp/new-assets/met/met-368267.json",
+        "image_url": "https://images.metmuseum.org/CRDImages/dp/original/DP359638.jpg",
+        "method": "native-continuous-ink-matting"
+      },
+      "extraction": {
+        "method": "Native continuous light-line coverage after measuring the dark printed field; source polarity and cream color retained.",
+        "source_pixels_repainted": false,
+        "source_rgb_modified": "Original cream linework represented by its measured light tone and continuous native coverage. The dark printed field and genuine dark openings are transparent; no inverted black replacement strokes.",
+        "paper_kernel": 61,
+        "minimum_coverage": 0.24,
+        "minimum_component_pixels": 4,
+        "settings": {
+          "paper_kernel": 61,
+          "paper_kernel_shape": "rectangle",
+          "minimum_coverage": 0.24,
+          "minimum_component_pixels": 4,
+          "minimum_component_peak": 0.52,
+          "minimum_channel_coverage": true,
+          "light_foreground_on_dark_print": true
+        },
+        "exclude_regions": [],
+        "export_crop": [
+          0,
+          0,
+          571,
+          554
+        ],
+        "ink_color": [
+          203,
+          174,
+          143
+        ],
+        "candidate_png": "tmp/extraction-work/met-368267--square-lace-with-triangle-star-and-small-oval-petals--ink-candidate.png",
+        "status": "awaiting-native-visual-review",
+        "foreground_polarity": "light-source-lines-on-dark-printed-field",
+        "tool": "Native source ink analysis",
+        "source_pixels_redrawn": false
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Compared source details and native white/dark alpha renders. Five complete light-line lace cells retain original cream polarity and genuine dark openings. The cleaner of the repeated small medallion impressions is retained. Six framed vignettes preserve full source-visible heads/arms/props and their contacting original frames; interior/exterior paper is clear.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/refined-lace-and-vignette-native-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/refined-lace-and-vignette-native-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/refined-lace-and-vignette-native-proof-3.jpg",
+          "tmp/extraction-work/continuation-20261010/refined-lace-and-vignette-native-proof-4.jpg",
+          "tmp/extraction-work/continuation-20261010/refined-lace-and-vignette-native-proof-5.jpg"
+        ]
+      },
+      "categories": [
+        "geometric",
+        "floral"
+      ],
+      "subjects": [
+        "lace",
+        "star",
+        "petal",
+        "roundel"
+      ],
+      "facing": "mixed",
+      "colors": [
+        "cream",
+        "brown"
+      ],
+      "composition": "single-ornament",
+      "usage_notes": "Native source light-line polarity retained. Dark printed field is transparent, including actual openings. Original source-limited arched ends and cell geometry retained; no full missing circle is invented and no seamless period inferred. PNG master represents measured cream line coverage, not pixel-exact RGB or an inverted modern drawing.",
+      "sets": [
+        {
+          "id": "met-368267-set",
+          "name": "Latomus lace patterns",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "Original cream printed square lace with triangle star and small oval petals, with the dark printed field removed.",
+      "set_label": "Latomus lace patterns"
+    },
+    {
+      "id": "met-368267--suspended-foliate-roundel",
+      "name": "suspended-foliate-roundel",
+      "source_id": "met-368267",
+      "source_folder": "met",
+      "asset_type": "decoration",
+      "description": "A suspended cream foliate roundel with pointed lower leaf finials. Part of the Latomus lace patterns set.",
+      "source_region": [
+        1806,
+        348,
+        2165,
+        630
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        0,
+        13,
+        359,
+        282
+      ],
+      "export_crop_coordinate_space": "source-region",
+      "width": 359,
+      "height": 269,
+      "png": "met/met-368267--suspended-foliate-roundel.png",
+      "png_sha256": "e33a31f28a19349fbed6097278f5e9ab1e80b5b162c285ebfc863cfc6ed5805b",
+      "provenance": {
+        "institution": "Metropolitan Museum of Art",
+        "title": "Schon newes Modelbuch...Page 1(r)",
+        "object_identifier": "53.600.8(1r)",
+        "date": "1617",
+        "artist": "Sigismundus Latomus",
+        "record_url": "https://www.metmuseum.org/art/collection/search/368267",
+        "image_rights": "CC0 Open Access; isPublicDomain=true",
+        "rights_url": "https://www.metmuseum.org/policies/image-resources",
+        "source_file": "tmp/new-assets/met/met-368267--schon-newes-modelbuch-page-1-r.jpg",
+        "source_sha256": "4f557de2ff17a7eca2a09add818482321f4f47ae4f3b0c09cc48ae71d5808ce3",
+        "source_metadata": "tmp/new-assets/met/met-368267.json",
+        "image_url": "https://images.metmuseum.org/CRDImages/dp/original/DP359638.jpg",
+        "method": "native-continuous-ink-matting"
+      },
+      "extraction": {
+        "method": "Native continuous light-line coverage after measuring the dark printed field; source polarity and cream color retained.",
+        "source_pixels_repainted": false,
+        "source_rgb_modified": "Original cream linework represented by its measured light tone and continuous native coverage. The dark printed field and genuine dark openings are transparent; no inverted black replacement strokes.",
+        "paper_kernel": 19,
+        "minimum_coverage": 0.24,
+        "minimum_component_pixels": 3,
+        "settings": {
+          "paper_kernel": 19,
+          "paper_kernel_shape": "rectangle",
+          "minimum_coverage": 0.24,
+          "minimum_component_pixels": 3,
+          "minimum_component_peak": 0.58,
+          "minimum_channel_coverage": true,
+          "light_foreground_on_dark_print": true
+        },
+        "exclude_regions": [
+          [
+            0,
+            0,
+            359,
+            19
+          ]
+        ],
+        "export_crop": [
+          0,
+          13,
+          359,
+          282
+        ],
+        "ink_color": [
+          204,
+          177,
+          149
+        ],
+        "candidate_png": "tmp/extraction-work/met-368267--suspended-foliate-roundel--ink-candidate.png",
+        "status": "awaiting-native-visual-review",
+        "exclude_polygons": [
+          [
+            [
+              0,
+              201
+            ],
+            [
+              99,
+              273
+            ],
+            [
+              123,
+              281
+            ],
+            [
+              0,
+              281
+            ]
+          ],
+          [
+            [
+              314,
+              182
+            ],
+            [
+              359,
+              180
+            ],
+            [
+              359,
+              281
+            ],
+            [
+              289,
+              281
+            ]
+          ]
+        ],
+        "foreground_polarity": "light-source-lines-on-dark-printed-field",
+        "outside_fragment_cleanup": {
+          "native_regions": [
+            [
+              0,
+              0,
+              359,
+              8
+            ]
+          ],
+          "method": "Only visually identified outside neighboring motifs and plate rules removed; largest three-native-pixel continuity support discards detached unrelated grains. Subject continuous source coverage unchanged."
+        },
+        "tool": "Native source ink analysis",
+        "source_pixels_redrawn": false
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Original native lace motifs compared with white and dark composites. All dark-field openings clear; measured cream source-line coverage retained, no raster scaling or faceted SVG. Original source-limited flat terminations honestly retained; no missing full circle or hidden top half invented. Cell rules and unrelated neighboring motifs removed. Complete square cell selected over larger partial copies; duplicate impressions omitted.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/lace-eight-final-source-white-dark-1.jpg",
+          "tmp/extraction-work/continuation-20261010/lace-eight-final-source-white-dark-2.jpg",
+          "tmp/extraction-work/continuation-20261010/lace-extra-final-cleaned-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/lace-extra-final-cleaned-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/two-lace-source-coordinate-cleaned-1.jpg"
+        ]
+      },
+      "categories": [
+        "floral",
+        "geometric"
+      ],
+      "subjects": [
+        "lace",
+        "roundel",
+        "leaf",
+        "finial"
+      ],
+      "facing": "mixed",
+      "colors": [
+        "cream",
+        "brown"
+      ],
+      "composition": "single-ornament",
+      "usage_notes": "Whole source-visible suspended ornament with upper edge honestly terminating at the original plate rule. Neighboring arched motifs excluded. No invented missing upper portion or seamless repeat.",
+      "sets": [
+        {
+          "id": "met-368267-set",
+          "name": "Latomus lace patterns",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A suspended cream foliate roundel with pointed lower leaf finials.",
+      "set_label": "Latomus lace patterns"
+    }
+  ]
+}

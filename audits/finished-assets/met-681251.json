@@ -1,0 +1,1169 @@
+{
+  "source_id": "met-681251",
+  "assets": [
+    {
+      "id": "met-681251--large-knotted-ribbons-with-flowers-and-curled-leaves",
+      "name": "large-knotted-ribbons-with-flowers-and-curled-leaves",
+      "source_id": "met-681251",
+      "source_folder": "met",
+      "asset_type": "decoration",
+      "description": "A finite intertwined-ribbon panel with flowers and curled leaves; the two motifs differ. Part of the Modelbuch knots and floral diamonds set.",
+      "source_region": [
+        467,
+        1264,
+        1648,
+        1990
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        0,
+        0,
+        1181,
+        726
+      ],
+      "export_crop_coordinate_space": "source-region",
+      "width": 1181,
+      "height": 726,
+      "png": "met/met-681251--large-knotted-ribbons-with-flowers-and-curled-leaves.png",
+      "png_sha256": "a26c211fa8bb91e1a3e930eb424f65c26fd14d4d34d65313328eddd5b45f932c",
+      "provenance": {
+        "institution": "Metropolitan Museum of Art",
+        "title": "Page from Ein new kunstlich Modelbuch...(Page 2r)",
+        "object_identifier": "22.84.1(2r)",
+        "date": "1544",
+        "artist": "Peter Quentel",
+        "record_url": "https://www.metmuseum.org/art/collection/search/681251",
+        "image_rights": "CC0 Open Access; isPublicDomain=true",
+        "rights_url": "https://www.metmuseum.org/policies/image-resources",
+        "source_file": "tmp/new-assets/met/met-681251--page-from-ein-new-kunstlich-modelbuch-page-2r.jpg",
+        "source_sha256": "bae677b486ebff0386efabee060e4f417621c1443b94c9ee08e94d357d8e8918",
+        "source_metadata": "tmp/new-assets/met/met-681251.json",
+        "image_url": "https://images.metmuseum.org/CRDImages/dp/original/DP357021.jpg",
+        "method": "native-continuous-ink-matting"
+      },
+      "extraction": {
+        "method": "Native-resolution continuous ink coverage after locally measured paper removal; PNG appearance master.",
+        "source_pixels_repainted": false,
+        "source_rgb_modified": "Paper removed by measured ink coverage; RGB is the scan-measured ink tone, not an exact source-pixel crop.",
+        "paper_kernel": 61,
+        "minimum_coverage": 0.22,
+        "minimum_component_pixels": 3,
+        "settings": {
+          "paper_kernel": 61,
+          "paper_kernel_shape": "rectangle",
+          "minimum_coverage": 0.22,
+          "minimum_component_pixels": 3,
+          "minimum_component_peak": 0.55,
+          "minimum_channel_coverage": true
+        },
+        "exclude_regions": [],
+        "export_crop": [
+          0,
+          0,
+          1181,
+          726
+        ],
+        "ink_color": [
+          57,
+          49,
+          41
+        ],
+        "candidate_png": "tmp/extraction-work/met-681251--large-knotted-ribbons-with-flowers-and-curled-leaves--ink-candidate.png",
+        "status": "awaiting-native-visual-review",
+        "tool": "Native source ink analysis",
+        "source_pixels_redrawn": false
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Original native linework and real openings checked on white/dark; full alternating cycles retained. Five strips, enlarged native joins and four-phase source-derived miter atlases inspected. Finite panels retain distinct central/terminal motifs and are not falsely repeated.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/more-modelbook-native-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/more-modelbook-native-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/more-modelbook-native-proof-3.jpg",
+          "tmp/extraction-work/continuation-20261010/more-modelbook-strip-join-frame-1.jpg",
+          "tmp/extraction-work/continuation-20261010/more-modelbook-strip-join-frame-2.jpg"
+        ]
+      },
+      "categories": [
+        "floral",
+        "geometric"
+      ],
+      "subjects": [
+        "ribbon",
+        "flower",
+        "leaf",
+        "knot"
+      ],
+      "facing": "mixed",
+      "colors": [
+        "brown",
+        "black"
+      ],
+      "composition": "single-ornament",
+      "usage_notes": "The original finite strip is retained. Similar ends alone do not establish a full repeating cycle; no seamless tile or corner atlas inferred.",
+      "sets": [
+        {
+          "id": "met-681251-set",
+          "name": "Modelbuch knots and floral diamonds",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A finite intertwined-ribbon panel with flowers and curled leaves; the two motifs differ.",
+      "set_label": "Modelbuch knots and floral diamonds"
+    },
+    {
+      "id": "met-681251--mirrored-floral-wave-with-central-interlace",
+      "name": "mirrored-floral-wave-with-central-interlace",
+      "source_id": "met-681251",
+      "source_folder": "met",
+      "asset_type": "decoration",
+      "description": "A finite floral-wave panel with mirrored ends and a distinct central interlace. Part of the Modelbuch knots and floral diamonds set.",
+      "source_region": [
+        467,
+        1147,
+        1648,
+        1251
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        0,
+        0,
+        1181,
+        104
+      ],
+      "export_crop_coordinate_space": "source-region",
+      "width": 1181,
+      "height": 104,
+      "png": "met/met-681251--mirrored-floral-wave-with-central-interlace.png",
+      "png_sha256": "067822dc057d72fbcfad8252e4457acc30a3ad68f691834ff7d634334a21651f",
+      "provenance": {
+        "institution": "Metropolitan Museum of Art",
+        "title": "Page from Ein new kunstlich Modelbuch...(Page 2r)",
+        "object_identifier": "22.84.1(2r)",
+        "date": "1544",
+        "artist": "Peter Quentel",
+        "record_url": "https://www.metmuseum.org/art/collection/search/681251",
+        "image_rights": "CC0 Open Access; isPublicDomain=true",
+        "rights_url": "https://www.metmuseum.org/policies/image-resources",
+        "source_file": "tmp/new-assets/met/met-681251--page-from-ein-new-kunstlich-modelbuch-page-2r.jpg",
+        "source_sha256": "bae677b486ebff0386efabee060e4f417621c1443b94c9ee08e94d357d8e8918",
+        "source_metadata": "tmp/new-assets/met/met-681251.json",
+        "image_url": "https://images.metmuseum.org/CRDImages/dp/original/DP357021.jpg",
+        "method": "native-continuous-ink-matting"
+      },
+      "extraction": {
+        "method": "Native-resolution continuous ink coverage after locally measured paper removal; PNG appearance master.",
+        "source_pixels_repainted": false,
+        "source_rgb_modified": "Paper removed by measured ink coverage; RGB is the scan-measured ink tone, not an exact source-pixel crop.",
+        "paper_kernel": 61,
+        "minimum_coverage": 0.22,
+        "minimum_component_pixels": 3,
+        "settings": {
+          "paper_kernel": 61,
+          "paper_kernel_shape": "rectangle",
+          "minimum_coverage": 0.22,
+          "minimum_component_pixels": 3,
+          "minimum_component_peak": 0.55,
+          "minimum_channel_coverage": true
+        },
+        "exclude_regions": [],
+        "export_crop": [
+          0,
+          0,
+          1181,
+          104
+        ],
+        "ink_color": [
+          54,
+          46,
+          38
+        ],
+        "candidate_png": "tmp/extraction-work/met-681251--mirrored-floral-wave-with-central-interlace--ink-candidate.png",
+        "status": "awaiting-native-visual-review",
+        "tool": "Native source ink analysis",
+        "source_pixels_redrawn": false
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Original native linework and real openings checked on white/dark; full alternating cycles retained. Five strips, enlarged native joins and four-phase source-derived miter atlases inspected. Finite panels retain distinct central/terminal motifs and are not falsely repeated.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/more-modelbook-native-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/more-modelbook-native-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/more-modelbook-native-proof-3.jpg",
+          "tmp/extraction-work/continuation-20261010/more-modelbook-strip-join-frame-1.jpg",
+          "tmp/extraction-work/continuation-20261010/more-modelbook-strip-join-frame-2.jpg"
+        ]
+      },
+      "categories": [
+        "floral",
+        "geometric"
+      ],
+      "subjects": [
+        "flower",
+        "scroll",
+        "interlace"
+      ],
+      "facing": "mixed",
+      "colors": [
+        "brown",
+        "black"
+      ],
+      "composition": "single-ornament",
+      "usage_notes": "The original finite strip is retained. Similar ends alone do not establish a full repeating cycle; no seamless tile or corner atlas inferred.",
+      "sets": [
+        {
+          "id": "met-681251-set",
+          "name": "Modelbuch knots and floral diamonds",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A finite floral-wave panel with mirrored ends and a distinct central interlace.",
+      "set_label": "Modelbuch knots and floral diamonds"
+    },
+    {
+      "id": "met-681251--small-oval-loops-and-three-star-knots-panel",
+      "name": "small-oval-loops-and-three-star-knots-panel",
+      "source_id": "met-681251",
+      "source_folder": "met",
+      "asset_type": "decoration",
+      "description": "A thin finite border panel with oval-loop ends and three central star knots. Part of the Modelbuch knots and floral diamonds set.",
+      "source_region": [
+        469,
+        2001,
+        1651,
+        2057
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        0,
+        0,
+        1182,
+        56
+      ],
+      "export_crop_coordinate_space": "source-region",
+      "width": 1182,
+      "height": 56,
+      "png": "met/met-681251--small-oval-loops-and-three-star-knots-panel.png",
+      "png_sha256": "c2f529673ffe1f8fc27206b03b2722df02229473dd7558d9fdc0dab2374026ed",
+      "provenance": {
+        "institution": "Metropolitan Museum of Art",
+        "title": "Page from Ein new kunstlich Modelbuch...(Page 2r)",
+        "object_identifier": "22.84.1(2r)",
+        "date": "1544",
+        "artist": "Peter Quentel",
+        "record_url": "https://www.metmuseum.org/art/collection/search/681251",
+        "image_rights": "CC0 Open Access; isPublicDomain=true",
+        "rights_url": "https://www.metmuseum.org/policies/image-resources",
+        "source_file": "tmp/new-assets/met/met-681251--page-from-ein-new-kunstlich-modelbuch-page-2r.jpg",
+        "source_sha256": "bae677b486ebff0386efabee060e4f417621c1443b94c9ee08e94d357d8e8918",
+        "source_metadata": "tmp/new-assets/met/met-681251.json",
+        "image_url": "https://images.metmuseum.org/CRDImages/dp/original/DP357021.jpg",
+        "method": "native-continuous-ink-matting"
+      },
+      "extraction": {
+        "method": "Native-resolution continuous ink coverage after locally measured paper removal; PNG appearance master.",
+        "source_pixels_repainted": false,
+        "source_rgb_modified": "Paper removed by measured ink coverage; RGB is the scan-measured ink tone, not an exact source-pixel crop.",
+        "paper_kernel": 61,
+        "minimum_coverage": 0.22,
+        "minimum_component_pixels": 3,
+        "settings": {
+          "paper_kernel": 61,
+          "paper_kernel_shape": "rectangle",
+          "minimum_coverage": 0.22,
+          "minimum_component_pixels": 3,
+          "minimum_component_peak": 0.55,
+          "minimum_channel_coverage": true
+        },
+        "exclude_regions": [],
+        "export_crop": [
+          0,
+          0,
+          1182,
+          56
+        ],
+        "ink_color": [
+          57,
+          50,
+          42
+        ],
+        "candidate_png": "tmp/extraction-work/met-681251--small-oval-loops-and-three-star-knots-panel--ink-candidate.png",
+        "status": "awaiting-native-visual-review",
+        "tool": "Native source ink analysis",
+        "source_pixels_redrawn": false
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Original native linework and real openings checked on white/dark; full alternating cycles retained. Five strips, enlarged native joins and four-phase source-derived miter atlases inspected. Finite panels retain distinct central/terminal motifs and are not falsely repeated.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/more-modelbook-native-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/more-modelbook-native-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/more-modelbook-native-proof-3.jpg",
+          "tmp/extraction-work/continuation-20261010/more-modelbook-strip-join-frame-1.jpg",
+          "tmp/extraction-work/continuation-20261010/more-modelbook-strip-join-frame-2.jpg"
+        ]
+      },
+      "categories": [
+        "geometric"
+      ],
+      "subjects": [
+        "loop",
+        "star",
+        "knot"
+      ],
+      "facing": "mixed",
+      "colors": [
+        "brown",
+        "black"
+      ],
+      "composition": "single-ornament",
+      "usage_notes": "The original finite strip is retained. Similar ends alone do not establish a full repeating cycle; no seamless tile or corner atlas inferred.",
+      "sets": [
+        {
+          "id": "met-681251-set",
+          "name": "Modelbuch knots and floral diamonds",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A thin finite border panel with oval-loop ends and three central star knots.",
+      "set_label": "Modelbuch knots and floral diamonds"
+    },
+    {
+      "id": "met-681251--stacked-star-loops-and-knotted-floral-diamonds",
+      "name": "stacked-star-loops-and-knotted-floral-diamonds",
+      "source_id": "met-681251",
+      "source_folder": "met",
+      "asset_type": "border",
+      "description": "An original model-book border of stacked star loops and knotted floral diamonds. Part of the Modelbuch knots and floral diamonds set.",
+      "source_region": [
+        526,
+        254,
+        1087,
+        788
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        0,
+        0,
+        561,
+        534
+      ],
+      "export_crop_coordinate_space": "source-region",
+      "width": 561,
+      "height": 534,
+      "png": "met/met-681251--stacked-star-loops-and-knotted-floral-diamonds.png",
+      "png_sha256": "df869b3e466c0af6ed082cc291e56a699ba42233888df771642c955bda424039",
+      "provenance": {
+        "institution": "Metropolitan Museum of Art",
+        "title": "Page from Ein new kunstlich Modelbuch...(Page 2r)",
+        "object_identifier": "22.84.1(2r)",
+        "date": "1544",
+        "artist": "Peter Quentel",
+        "record_url": "https://www.metmuseum.org/art/collection/search/681251",
+        "image_rights": "CC0 Open Access; isPublicDomain=true",
+        "rights_url": "https://www.metmuseum.org/policies/image-resources",
+        "source_file": "tmp/new-assets/met/met-681251--page-from-ein-new-kunstlich-modelbuch-page-2r.jpg",
+        "source_sha256": "bae677b486ebff0386efabee060e4f417621c1443b94c9ee08e94d357d8e8918",
+        "source_metadata": "tmp/new-assets/met/met-681251.json",
+        "image_url": "https://images.metmuseum.org/CRDImages/dp/original/DP357021.jpg",
+        "method": "native-interior-repeat-with-source-derived-miter-corners"
+      },
+      "extraction": {
+        "method": "Native-resolution continuous ink coverage after locally measured paper removal; PNG appearance master.",
+        "source_pixels_repainted": false,
+        "source_rgb_modified": "Paper removed by measured ink coverage; RGB is the scan-measured ink tone, not an exact source-pixel crop.",
+        "paper_kernel": 61,
+        "minimum_coverage": 0.22,
+        "minimum_component_pixels": 3,
+        "settings": {
+          "paper_kernel": 61,
+          "paper_kernel_shape": "rectangle",
+          "minimum_coverage": 0.22,
+          "minimum_component_pixels": 3,
+          "minimum_component_peak": 0.55,
+          "minimum_channel_coverage": true
+        },
+        "exclude_regions": [],
+        "export_crop": [
+          0,
+          0,
+          561,
+          534
+        ],
+        "ink_color": [
+          52,
+          46,
+          39
+        ],
+        "candidate_png": "tmp/extraction-work/met-681251--stacked-star-loops-and-knotted-floral-diamonds--ink-candidate.png",
+        "status": "awaiting-native-visual-review",
+        "repeat_build": {
+          "unit_png": "tmp/extraction-work/met-681251--stacked-star-loops-and-knotted-floral-diamonds--unit.png",
+          "bar_png": "tmp/extraction-work/met-681251--stacked-star-loops-and-knotted-floral-diamonds--bar.png",
+          "frame_png": "tmp/extraction-work/met-681251--stacked-star-loops-and-knotted-floral-diamonds--frame-atlas.png",
+          "corners": [
+            {
+              "name": "top-left",
+              "png": "tmp/extraction-work/met-681251--stacked-star-loops-and-knotted-floral-diamonds--corner-top-left.png",
+              "atlas_bounds": [
+                0,
+                0,
+                534,
+                534
+              ]
+            },
+            {
+              "name": "top-right",
+              "png": "tmp/extraction-work/met-681251--stacked-star-loops-and-knotted-floral-diamonds--corner-top-right.png",
+              "atlas_bounds": [
+                1095,
+                0,
+                1629,
+                534
+              ]
+            },
+            {
+              "name": "bottom-right",
+              "png": "tmp/extraction-work/met-681251--stacked-star-loops-and-knotted-floral-diamonds--corner-bottom-right.png",
+              "atlas_bounds": [
+                1095,
+                1095,
+                1629,
+                1629
+              ]
+            },
+            {
+              "name": "bottom-left",
+              "png": "tmp/extraction-work/met-681251--stacked-star-loops-and-knotted-floral-diamonds--corner-bottom-left.png",
+              "atlas_bounds": [
+                0,
+                1095,
+                534,
+                1629
+              ]
+            }
+          ],
+          "native_unit_size": [
+            561,
+            534
+          ],
+          "atlas_size": [
+            1629,
+            1629
+          ],
+          "slice_pixels": 534,
+          "slice_percent": 32.78084714548803,
+          "repeat_ratio": 1.050561797752809,
+          "join_adjustment": {
+            "pixels_at_each_end": 2,
+            "method": "average matching source collars; interior columns 2 through width-3 unchanged",
+            "source_cycle_verification": "Two stacked rows alternate eight-point star loops with knotted floral diamonds. Matching star centers occur at preview x=324,666,1010; the entire intervening floral diamond and both stacked rows belong to each cycle."
+          },
+          "corner_method": "Mitered reflections of the exact same native unit, using the repository’s four phase-matched corner geometry. Derived corners are distinct from the original fixed printer-frame corners.",
+          "status": "awaiting-repeat-and-corner-visual-review"
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Original native linework and real openings checked on white/dark; full alternating cycles retained. Five strips, enlarged native joins and four-phase source-derived miter atlases inspected. Finite panels retain distinct central/terminal motifs and are not falsely repeated.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/more-modelbook-native-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/more-modelbook-native-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/more-modelbook-native-proof-3.jpg",
+          "tmp/extraction-work/continuation-20261010/more-modelbook-strip-join-frame-1.jpg",
+          "tmp/extraction-work/continuation-20261010/more-modelbook-strip-join-frame-2.jpg"
+        ]
+      },
+      "categories": [
+        "geometric",
+        "floral"
+      ],
+      "subjects": [
+        "interlace",
+        "leaf",
+        "flower",
+        "knot"
+      ],
+      "colors": [
+        "brown",
+        "black"
+      ],
+      "facing": "unclear",
+      "composition": "repeat-tile",
+      "usage_notes": "Original source ink represented by measured continuous coverage. Full semantic cycle retained; source-derived miter corners use all four independent phases. PNG-only preserves source print grain; no generic vector redraw.",
+      "repeat": {
+        "status": "accepted-source-cycle-and-four-phase-corners",
+        "orientation": "horizontal",
+        "rationale": "Two stacked rows alternate eight-point star loops with knotted floral diamonds. Matching star centers occur at preview x=324,666,1010; the entire intervening floral diamond and both stacked rows belong to each cycle.",
+        "preview_phase_bounds": [
+          323,
+          159,
+          667,
+          493
+        ],
+        "phase_measurement": "Individual matching full motif cycles directly inspected on original sheet before local edge-profile refinement.",
+        "phase_alignment": {
+          "initial_native_bounds": [
+            517,
+            254,
+            1067,
+            788
+          ],
+          "refined_native_bounds": [
+            526,
+            254,
+            1087,
+            788
+          ],
+          "method": "Native boundary profile matching within manually identified full source cycle; no autocorrelation inference.",
+          "profile_difference": 0.25691266687259573,
+          "phase_radius_preview_pixels": 45,
+          "period_radius_preview_pixels": 7
+        },
+        "slice_pixels": 534,
+        "slice_percent": 32.78084714548803,
+        "repeat_ratio": 1.050561797752809,
+        "native_unit_size": [
+          561,
+          534
+        ],
+        "atlas_size": [
+          1629,
+          1629
+        ],
+        "join_adjustment": {
+          "pixels_at_each_end": 2,
+          "method": "average matching source collars; interior columns 2 through width-3 unchanged",
+          "source_cycle_verification": "Two stacked rows alternate eight-point star loops with knotted floral diamonds. Matching star centers occur at preview x=324,666,1010; the entire intervening floral diamond and both stacked rows belong to each cycle."
+        },
+        "corner_method": "Mitered reflections of the exact same native unit, using the repository’s four phase-matched corner geometry. Derived corners are distinct from the original fixed printer-frame corners."
+      },
+      "components": {
+        "bar": {
+          "png": "met/met-681251--stacked-star-loops-and-knotted-floral-diamonds--bar.png",
+          "png_sha256": "553836220438597176e92e98ca4d87676eb4e9c3e04bc528899ad237bfc69968",
+          "width": 2805,
+          "height": 534,
+          "set_id": "met-681251--stacked-star-loops-and-knotted-floral-diamonds",
+          "set_name": "Modelbuch knots and floral diamonds — stacked star loops and knotted floral diamonds",
+          "set_role": "bar"
+        },
+        "frame": {
+          "png": "met/met-681251--stacked-star-loops-and-knotted-floral-diamonds--frame-atlas.png",
+          "png_sha256": "5716d38dc428a2a68ba7213306c671c5ec9b722af3f4af77f0dc2490d0aa398b",
+          "width": 1629,
+          "height": 1629,
+          "set_id": "met-681251--stacked-star-loops-and-knotted-floral-diamonds",
+          "set_name": "Modelbuch knots and floral diamonds — stacked star loops and knotted floral diamonds",
+          "set_role": "frame"
+        },
+        "corner-top-left": {
+          "png": "met/met-681251--stacked-star-loops-and-knotted-floral-diamonds--corner-top-left.png",
+          "png_sha256": "84e2771965415741435f75e52460724e2fa8fedf329f87f91d629b1ff23024e9",
+          "width": 534,
+          "height": 534,
+          "atlas_bounds": [
+            0,
+            0,
+            534,
+            534
+          ],
+          "method": "Mitered reflections of the exact same native unit, using the repository’s four phase-matched corner geometry. Derived corners are distinct from the original fixed printer-frame corners.",
+          "set_id": "met-681251--stacked-star-loops-and-knotted-floral-diamonds",
+          "set_name": "Modelbuch knots and floral diamonds — stacked star loops and knotted floral diamonds",
+          "set_role": "corner-top-left"
+        },
+        "corner-top-right": {
+          "png": "met/met-681251--stacked-star-loops-and-knotted-floral-diamonds--corner-top-right.png",
+          "png_sha256": "eedef641384f0d861b90e706cc52034b97055a230d6aa79c97374d91d346f40b",
+          "width": 534,
+          "height": 534,
+          "atlas_bounds": [
+            1095,
+            0,
+            1629,
+            534
+          ],
+          "method": "Mitered reflections of the exact same native unit, using the repository’s four phase-matched corner geometry. Derived corners are distinct from the original fixed printer-frame corners.",
+          "set_id": "met-681251--stacked-star-loops-and-knotted-floral-diamonds",
+          "set_name": "Modelbuch knots and floral diamonds — stacked star loops and knotted floral diamonds",
+          "set_role": "corner-top-right"
+        },
+        "corner-bottom-right": {
+          "png": "met/met-681251--stacked-star-loops-and-knotted-floral-diamonds--corner-bottom-right.png",
+          "png_sha256": "b2486359b8d6a5458e35d6eddb82c1ab74367a83b1863a6222a920ba924f914e",
+          "width": 534,
+          "height": 534,
+          "atlas_bounds": [
+            1095,
+            1095,
+            1629,
+            1629
+          ],
+          "method": "Mitered reflections of the exact same native unit, using the repository’s four phase-matched corner geometry. Derived corners are distinct from the original fixed printer-frame corners.",
+          "set_id": "met-681251--stacked-star-loops-and-knotted-floral-diamonds",
+          "set_name": "Modelbuch knots and floral diamonds — stacked star loops and knotted floral diamonds",
+          "set_role": "corner-bottom-right"
+        },
+        "corner-bottom-left": {
+          "png": "met/met-681251--stacked-star-loops-and-knotted-floral-diamonds--corner-bottom-left.png",
+          "png_sha256": "1c8565b9493727c7cc307aa763edc2c36267dcae8628231123b4d41d6a4f6a36",
+          "width": 534,
+          "height": 534,
+          "atlas_bounds": [
+            0,
+            1095,
+            534,
+            1629
+          ],
+          "method": "Mitered reflections of the exact same native unit, using the repository’s four phase-matched corner geometry. Derived corners are distinct from the original fixed printer-frame corners.",
+          "set_id": "met-681251--stacked-star-loops-and-knotted-floral-diamonds",
+          "set_name": "Modelbuch knots and floral diamonds — stacked star loops and knotted floral diamonds",
+          "set_role": "corner-bottom-left"
+        },
+        "rotated_tile": {
+          "png": "met/met-681251--stacked-star-loops-and-knotted-floral-diamonds--rotated-tile.png",
+          "png_sha256": "ff13659f5dcbd2fc34ea62ef728ab62bbf3fc9c6d40939c58c6aecfc114de268",
+          "width": 534,
+          "height": 561,
+          "method": "Pixel-exact clockwise 90-degree transpose of its own accepted native master.",
+          "set_id": "met-681251--stacked-star-loops-and-knotted-floral-diamonds",
+          "set_name": "Modelbuch knots and floral diamonds — stacked star loops and knotted floral diamonds",
+          "set_role": "rotated_tile"
+        },
+        "rotated_bar": {
+          "png": "met/met-681251--stacked-star-loops-and-knotted-floral-diamonds--rotated-bar.png",
+          "png_sha256": "212c446251439981441beaf8d430587dd1ef693005824d280babc3edf6e77b46",
+          "width": 534,
+          "height": 2805,
+          "method": "Pixel-exact clockwise 90-degree transpose of its own accepted native master.",
+          "set_id": "met-681251--stacked-star-loops-and-knotted-floral-diamonds",
+          "set_name": "Modelbuch knots and floral diamonds — stacked star loops and knotted floral diamonds",
+          "set_role": "rotated_bar"
+        }
+      },
+      "sets": [
+        {
+          "id": "met-681251-set",
+          "name": "Modelbuch knots and floral diamonds",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "An original model-book border of stacked star loops and knotted floral diamonds.",
+      "set_label": "Modelbuch knots and floral diamonds"
+    },
+    {
+      "id": "met-681251--three-undulations-between-fine-rules",
+      "name": "three-undulations-between-fine-rules",
+      "source_id": "met-681251",
+      "source_folder": "met",
+      "asset_type": "border",
+      "description": "Original thin divider with three undulations between fine rules. Part of the Modelbuch knots and floral diamonds set.",
+      "source_region": [
+        744,
+        1113,
+        906,
+        1142
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        0,
+        0,
+        162,
+        29
+      ],
+      "export_crop_coordinate_space": "source-region",
+      "width": 162,
+      "height": 29,
+      "png": "met/met-681251--three-undulations-between-fine-rules.png",
+      "png_sha256": "189d7693194d0b2f8d2a1381ea3856b0e0dd98468835a80ff680b3018b21aa9d",
+      "provenance": {
+        "institution": "Metropolitan Museum of Art",
+        "title": "Page from Ein new kunstlich Modelbuch...(Page 2r)",
+        "object_identifier": "22.84.1(2r)",
+        "date": "1544",
+        "artist": "Peter Quentel",
+        "record_url": "https://www.metmuseum.org/art/collection/search/681251",
+        "image_rights": "CC0 Open Access; isPublicDomain=true",
+        "rights_url": "https://www.metmuseum.org/policies/image-resources",
+        "source_file": "tmp/new-assets/met/met-681251--page-from-ein-new-kunstlich-modelbuch-page-2r.jpg",
+        "source_sha256": "bae677b486ebff0386efabee060e4f417621c1443b94c9ee08e94d357d8e8918",
+        "source_metadata": "tmp/new-assets/met/met-681251.json",
+        "image_url": "https://images.metmuseum.org/CRDImages/dp/original/DP357021.jpg",
+        "method": "native-interior-repeat-with-source-derived-miter-corners"
+      },
+      "extraction": {
+        "method": "Native-resolution continuous ink coverage after locally measured paper removal; PNG appearance master.",
+        "source_pixels_repainted": false,
+        "source_rgb_modified": "Paper removed by measured ink coverage; RGB is the scan-measured ink tone, not an exact source-pixel crop.",
+        "paper_kernel": 61,
+        "minimum_coverage": 0.22,
+        "minimum_component_pixels": 3,
+        "settings": {
+          "paper_kernel": 61,
+          "paper_kernel_shape": "rectangle",
+          "minimum_coverage": 0.22,
+          "minimum_component_pixels": 3,
+          "minimum_component_peak": 0.55,
+          "minimum_channel_coverage": true
+        },
+        "exclude_regions": [],
+        "export_crop": [
+          0,
+          0,
+          162,
+          29
+        ],
+        "ink_color": [
+          56,
+          48,
+          41
+        ],
+        "candidate_png": "tmp/extraction-work/met-681251--three-undulations-between-fine-rules--ink-candidate.png",
+        "status": "awaiting-native-visual-review",
+        "repeat_build": {
+          "unit_png": "tmp/extraction-work/met-681251--three-undulations-between-fine-rules--unit.png",
+          "bar_png": "tmp/extraction-work/met-681251--three-undulations-between-fine-rules--bar.png",
+          "frame_png": "tmp/extraction-work/met-681251--three-undulations-between-fine-rules--frame-atlas.png",
+          "corners": [
+            {
+              "name": "top-left",
+              "png": "tmp/extraction-work/met-681251--three-undulations-between-fine-rules--corner-top-left.png",
+              "atlas_bounds": [
+                0,
+                0,
+                29,
+                29
+              ]
+            },
+            {
+              "name": "top-right",
+              "png": "tmp/extraction-work/met-681251--three-undulations-between-fine-rules--corner-top-right.png",
+              "atlas_bounds": [
+                191,
+                0,
+                220,
+                29
+              ]
+            },
+            {
+              "name": "bottom-right",
+              "png": "tmp/extraction-work/met-681251--three-undulations-between-fine-rules--corner-bottom-right.png",
+              "atlas_bounds": [
+                191,
+                191,
+                220,
+                220
+              ]
+            },
+            {
+              "name": "bottom-left",
+              "png": "tmp/extraction-work/met-681251--three-undulations-between-fine-rules--corner-bottom-left.png",
+              "atlas_bounds": [
+                0,
+                191,
+                29,
+                220
+              ]
+            }
+          ],
+          "native_unit_size": [
+            162,
+            29
+          ],
+          "atlas_size": [
+            220,
+            220
+          ],
+          "slice_pixels": 29,
+          "slice_percent": 13.181818181818182,
+          "repeat_ratio": 5.586206896551724,
+          "join_adjustment": {
+            "pixels_at_each_end": 2,
+            "method": "average matching source collars; interior columns 2 through width-3 unchanged",
+            "source_cycle_verification": "Continuous source wavy line between fine parallel rules. The retained native unit contains three consecutive source undulations to preserve hand-print texture; this is a deliberate original motif-cell block, not a claim that the entire worn source repeats pixel-for-pixel."
+          },
+          "corner_method": "Mitered reflections of the exact same native unit, using the repository’s four phase-matched corner geometry. Derived corners are distinct from the original fixed printer-frame corners.",
+          "status": "accepted-native-cell-strip-and-four-corners"
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Native source cells compared on white/dark. Hatch gaps remain open; three-wave phase corrected to continuous joins. Five-unit strips and all four miter corners inspected. Native interiors unchanged; two-pixel endpoint collars audited. Deliberate source motif-cell blocks, not a claim of exact worn-print repetition.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/fine-rule-source-white-dark-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/fine-rule-strip-and-four-corner-proof.jpg",
+          "tmp/extraction-work/continuation-20261010/refined-wave-native-strip-four-corners.jpg"
+        ]
+      },
+      "categories": [
+        "geometric"
+      ],
+      "subjects": [
+        "line",
+        "wave"
+      ],
+      "facing": "unclear",
+      "colors": [
+        "black",
+        "brown"
+      ],
+      "composition": "repeat-tile",
+      "usage_notes": "Continuous source wavy line between fine parallel rules. The retained native unit contains three consecutive source undulations to preserve hand-print texture; this is a deliberate original motif-cell block, not a claim that the entire worn source repeats pixel-for-pixel. Two-pixel endpoint collars only; native interiors unchanged. All four corners are source-derived miter phases.",
+      "repeat": {
+        "status": "accepted-native-cell-strip-and-four-corners",
+        "orientation": "horizontal",
+        "rationale": "Continuous source wavy line between fine parallel rules. The retained native unit contains three consecutive source undulations to preserve hand-print texture; this is a deliberate original motif-cell block, not a claim that the entire worn source repeats pixel-for-pixel.",
+        "native_unit_type": "deliberate-source-motif-cell",
+        "preview_bounds": [
+          506,
+          696,
+          599,
+          714
+        ],
+        "exact_source_period_claimed": false,
+        "phase_alignment": {
+          "initial_native_bounds": [
+            810,
+            1113,
+            958,
+            1142
+          ],
+          "refined_native_bounds": [
+            744,
+            1113,
+            906,
+            1142
+          ],
+          "method": "Five native boundary columns compared only within the directly identified three-undulation source motif block; interior pixels not repainted or warped.",
+          "difference": 0.045158507421413197
+        },
+        "slice_pixels": 29,
+        "slice_percent": 13.181818181818182,
+        "repeat_ratio": 5.586206896551724,
+        "native_unit_size": [
+          162,
+          29
+        ],
+        "atlas_size": [
+          220,
+          220
+        ],
+        "join_adjustment": {
+          "pixels_at_each_end": 2,
+          "method": "average matching source collars; interior columns 2 through width-3 unchanged",
+          "source_cycle_verification": "Continuous source wavy line between fine parallel rules. The retained native unit contains three consecutive source undulations to preserve hand-print texture; this is a deliberate original motif-cell block, not a claim that the entire worn source repeats pixel-for-pixel."
+        },
+        "corner_method": "Mitered reflections of the exact same native unit, using the repository’s four phase-matched corner geometry. Derived corners are distinct from the original fixed printer-frame corners."
+      },
+      "components": {
+        "bar": {
+          "png": "met/met-681251--three-undulations-between-fine-rules--bar.png",
+          "png_sha256": "0d08db6af2548b5bd467d1e790f59de5a7d26ee5056b3df81437b12d1ca5aec1",
+          "width": 810,
+          "height": 29,
+          "set_id": "met-681251--three-undulations-between-fine-rules",
+          "set_name": "Modelbuch knots and floral diamonds — three undulations between fine rules",
+          "set_role": "bar"
+        },
+        "frame": {
+          "png": "met/met-681251--three-undulations-between-fine-rules--frame-atlas.png",
+          "png_sha256": "7ae4f4f0b56cc7733d4993baf4449be86577078294bce6d5d44dabb02118ce17",
+          "width": 220,
+          "height": 220,
+          "set_id": "met-681251--three-undulations-between-fine-rules",
+          "set_name": "Modelbuch knots and floral diamonds — three undulations between fine rules",
+          "set_role": "frame"
+        },
+        "corner-top-left": {
+          "png": "met/met-681251--three-undulations-between-fine-rules--corner-top-left.png",
+          "png_sha256": "e4a484b4fc6de2edfbaf57a71ed6115cb98a7a913b91b1055f99fc67d53c9785",
+          "width": 29,
+          "height": 29,
+          "atlas_bounds": [
+            0,
+            0,
+            29,
+            29
+          ],
+          "method": "Mitered reflections of the exact same native unit, using the repository’s four phase-matched corner geometry. Derived corners are distinct from the original fixed printer-frame corners.",
+          "set_id": "met-681251--three-undulations-between-fine-rules",
+          "set_name": "Modelbuch knots and floral diamonds — three undulations between fine rules",
+          "set_role": "corner-top-left"
+        },
+        "corner-top-right": {
+          "png": "met/met-681251--three-undulations-between-fine-rules--corner-top-right.png",
+          "png_sha256": "6fa5b8af036765c16abcd9ccde1e561d32e822fd2d7d47a9c1207313f1206f60",
+          "width": 29,
+          "height": 29,
+          "atlas_bounds": [
+            191,
+            0,
+            220,
+            29
+          ],
+          "method": "Mitered reflections of the exact same native unit, using the repository’s four phase-matched corner geometry. Derived corners are distinct from the original fixed printer-frame corners.",
+          "set_id": "met-681251--three-undulations-between-fine-rules",
+          "set_name": "Modelbuch knots and floral diamonds — three undulations between fine rules",
+          "set_role": "corner-top-right"
+        },
+        "corner-bottom-right": {
+          "png": "met/met-681251--three-undulations-between-fine-rules--corner-bottom-right.png",
+          "png_sha256": "3bf917063f9c47459f4f01bda86b8691b5dd9494ba02e7a33f03b5a9568edefa",
+          "width": 29,
+          "height": 29,
+          "atlas_bounds": [
+            191,
+            191,
+            220,
+            220
+          ],
+          "method": "Mitered reflections of the exact same native unit, using the repository’s four phase-matched corner geometry. Derived corners are distinct from the original fixed printer-frame corners.",
+          "set_id": "met-681251--three-undulations-between-fine-rules",
+          "set_name": "Modelbuch knots and floral diamonds — three undulations between fine rules",
+          "set_role": "corner-bottom-right"
+        },
+        "corner-bottom-left": {
+          "png": "met/met-681251--three-undulations-between-fine-rules--corner-bottom-left.png",
+          "png_sha256": "c837f2f3b89ab78baf22e1d7804ce4f3ac42da11730dc3f00b900d5dce2fec12",
+          "width": 29,
+          "height": 29,
+          "atlas_bounds": [
+            0,
+            191,
+            29,
+            220
+          ],
+          "method": "Mitered reflections of the exact same native unit, using the repository’s four phase-matched corner geometry. Derived corners are distinct from the original fixed printer-frame corners.",
+          "set_id": "met-681251--three-undulations-between-fine-rules",
+          "set_name": "Modelbuch knots and floral diamonds — three undulations between fine rules",
+          "set_role": "corner-bottom-left"
+        },
+        "rotated_tile": {
+          "png": "met/met-681251--three-undulations-between-fine-rules--rotated-tile.png",
+          "png_sha256": "172efd01c74bf328d3474088aa2f11aba28d58321e9b8dae33cd28ca5662ea2d",
+          "width": 29,
+          "height": 162,
+          "rotation_clockwise": 90,
+          "method": "Pixel-exact 90-degree turn of native unit or bar; no rerender or stretching.",
+          "set_id": "met-681251--three-undulations-between-fine-rules",
+          "set_name": "Modelbuch knots and floral diamonds — three undulations between fine rules",
+          "set_role": "rotated_tile"
+        },
+        "rotated_bar": {
+          "png": "met/met-681251--three-undulations-between-fine-rules--rotated-bar.png",
+          "png_sha256": "e67c3b980234bd12bd0943a773467230729e8ddacb0fc602a115a6fbdfc9f848",
+          "width": 29,
+          "height": 810,
+          "rotation_clockwise": 90,
+          "method": "Pixel-exact 90-degree turn of native unit or bar; no rerender or stretching.",
+          "set_id": "met-681251--three-undulations-between-fine-rules",
+          "set_name": "Modelbuch knots and floral diamonds — three undulations between fine rules",
+          "set_role": "rotated_bar"
+        }
+      },
+      "sets": [
+        {
+          "id": "met-681251-set",
+          "name": "Modelbuch knots and floral diamonds",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "Original thin divider with three undulations between fine rules.",
+      "set_label": "Modelbuch knots and floral diamonds"
+    },
+    {
+      "id": "met-681251--two-flower-vases-and-braided-diamonds-panel",
+      "name": "two-flower-vases-and-braided-diamonds-panel",
+      "source_id": "met-681251",
+      "source_folder": "met",
+      "asset_type": "decoration",
+      "description": "Two different flower-vase pedestals alternate with braided diamond knots in a finite original panel. Part of the Modelbuch knots and floral diamonds set.",
+      "source_region": [
+        467,
+        825,
+        1648,
+        1108
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        0,
+        0,
+        1181,
+        283
+      ],
+      "export_crop_coordinate_space": "source-region",
+      "width": 1181,
+      "height": 283,
+      "png": "met/met-681251--two-flower-vases-and-braided-diamonds-panel.png",
+      "png_sha256": "4842e8a45208d4f503bae5dfaff8bc3fc17b480d2d977dd8c52571f11dee363a",
+      "provenance": {
+        "institution": "Metropolitan Museum of Art",
+        "title": "Page from Ein new kunstlich Modelbuch...(Page 2r)",
+        "object_identifier": "22.84.1(2r)",
+        "date": "1544",
+        "artist": "Peter Quentel",
+        "record_url": "https://www.metmuseum.org/art/collection/search/681251",
+        "image_rights": "CC0 Open Access; isPublicDomain=true",
+        "rights_url": "https://www.metmuseum.org/policies/image-resources",
+        "source_file": "tmp/new-assets/met/met-681251--page-from-ein-new-kunstlich-modelbuch-page-2r.jpg",
+        "source_sha256": "bae677b486ebff0386efabee060e4f417621c1443b94c9ee08e94d357d8e8918",
+        "source_metadata": "tmp/new-assets/met/met-681251.json",
+        "image_url": "https://images.metmuseum.org/CRDImages/dp/original/DP357021.jpg",
+        "method": "native-continuous-ink-matting"
+      },
+      "extraction": {
+        "method": "Native-resolution continuous ink coverage after locally measured paper removal; PNG appearance master.",
+        "source_pixels_repainted": false,
+        "source_rgb_modified": "Paper removed by measured ink coverage; RGB is the scan-measured ink tone, not an exact source-pixel crop.",
+        "paper_kernel": 61,
+        "minimum_coverage": 0.22,
+        "minimum_component_pixels": 3,
+        "settings": {
+          "paper_kernel": 61,
+          "paper_kernel_shape": "rectangle",
+          "minimum_coverage": 0.22,
+          "minimum_component_pixels": 3,
+          "minimum_component_peak": 0.55,
+          "minimum_channel_coverage": true
+        },
+        "exclude_regions": [],
+        "export_crop": [
+          0,
+          0,
+          1181,
+          283
+        ],
+        "ink_color": [
+          54,
+          46,
+          38
+        ],
+        "candidate_png": "tmp/extraction-work/met-681251--two-flower-vases-and-braided-diamonds-panel--ink-candidate.png",
+        "status": "awaiting-native-visual-review",
+        "tool": "Native source ink analysis",
+        "source_pixels_redrawn": false
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Original native linework and real openings checked on white/dark; full alternating cycles retained. Five strips, enlarged native joins and four-phase source-derived miter atlases inspected. Finite panels retain distinct central/terminal motifs and are not falsely repeated.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/more-modelbook-native-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/more-modelbook-native-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/more-modelbook-native-proof-3.jpg",
+          "tmp/extraction-work/continuation-20261010/more-modelbook-strip-join-frame-1.jpg",
+          "tmp/extraction-work/continuation-20261010/more-modelbook-strip-join-frame-2.jpg"
+        ]
+      },
+      "categories": [
+        "floral",
+        "geometric"
+      ],
+      "subjects": [
+        "vase",
+        "flower",
+        "knot"
+      ],
+      "facing": "mixed",
+      "colors": [
+        "brown",
+        "black"
+      ],
+      "composition": "single-ornament",
+      "usage_notes": "The original finite strip is retained. Similar ends alone do not establish a full repeating cycle; no seamless tile or corner atlas inferred.",
+      "selection_history": [
+        {
+          "previous_values": {
+            "categories": [
+              "floral",
+              "geometric",
+              "objects"
+            ],
+            "subjects": [
+              "vase",
+              "flower",
+              "knot"
+            ],
+            "composition": "single-ornament"
+          },
+          "reason": "Normalize new staging metadata to shared category/composition/subject vocabulary; factual descriptions and original source metadata unchanged."
+        }
+      ],
+      "sets": [
+        {
+          "id": "met-681251-set",
+          "name": "Modelbuch knots and floral diamonds",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "Two different flower-vase pedestals alternate with braided diamond knots in a finite original panel.",
+      "set_label": "Modelbuch knots and floral diamonds"
+    }
+  ]
+}

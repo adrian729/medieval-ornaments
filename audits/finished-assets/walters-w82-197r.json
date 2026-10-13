@@ -1,0 +1,308 @@
+{
+  "source_id": "walters-w82-197r",
+  "assets": [
+    {
+      "id": "walters-w82-197r--white-curled-stroke-pattern-on-blue",
+      "name": "white-curled-stroke-pattern-on-blue",
+      "source_id": "walters-w82-197r",
+      "source_folder": "walters",
+      "asset_type": "border",
+      "description": "A hand painted white curled stroke and spacing between two fine white lines on blue. Part of the Walters W.82 Marginalia set.",
+      "source_region": [
+        2999,
+        2043,
+        4090,
+        2311
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        0,
+        0,
+        79,
+        214
+      ],
+      "export_crop_coordinate_space": "source-region",
+      "width": 79,
+      "height": 214,
+      "png": "walters/walters-w82-197r--white-curled-stroke-pattern-on-blue.png",
+      "png_sha256": "8346a47238544a33498b5763e841ccaa1d17dce0bffd60e12f25be0cd9dd3e01",
+      "provenance": {
+        "institution": "Walters Art Museum",
+        "title": "Initial “D” with God blessing King David praying before altar; dragon and juggler in margin",
+        "object_identifier": "W.82, fol. 197r",
+        "date": "Ca. 1315-1325 CE",
+        "record_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/html/W82/description.html",
+        "image_rights": "CC0 (Digital Walters manuscript images)",
+        "rights_url": "https://www.thedigitalwalters.org/01_ACCESS_WALTERS_MANUSCRIPTS.html",
+        "source_file": "tmp/new-assets/walters/walters-w82-197r--initial-d-with-god-blessing-king-david-praying-before-altar-dragon-and-juggler-in-margin--master.tif",
+        "source_sha256": "f098f1aab95c77e8a831c08f587499e72c335880be94389896da13f2b9967fe7",
+        "source_metadata": "tmp/new-assets/walters/walters-w82-197r.json",
+        "image_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/W82/data/W.82/master/W82_000397_1200.tif",
+        "method": "native-interior-repeat-with-source-derived-miter-corners"
+      },
+      "extraction": {
+        "candidate_png": "tmp/extraction-work/continuation-20261010/walters-w82-197r--white-curled-stroke-pattern-on-blue--painted-cycle.png",
+        "candidate_sha256": "3c5195a0ceeb620122151f3fde13ec40cd47e10c6cdefc93e47e7bf11471b153",
+        "export_crop": [
+          450,
+          38,
+          529,
+          252
+        ],
+        "method": "Original painted band RGB with continuous native edge alpha. One rigid 2.0 degree counterclockwise orientation correction, bicubic interpolation, no scaling or elastic changes. Interior paint remains opaque, including original pale pattern and blue filled artwork body; only exterior parchment is removed.",
+        "native_upscaling": false,
+        "source_pixels_redrawn": false,
+        "ink_color": null,
+        "oriented_source_png": "tmp/extraction-work/continuation-20261010/walters-w82-197r--white-curled-stroke-pattern-on-blue--oriented-source.png",
+        "rigid_rotation_counterclockwise_degrees": 2.0,
+        "oriented_source_cycle_bounds": [
+          450,
+          38,
+          529,
+          252
+        ],
+        "trimap_png": "tmp/extraction-work/continuation-20261010/walters-w82-197r--white-curled-stroke-pattern-on-blue--painted-cycle-guide.png",
+        "vector_method": "Withheld: a simplified vector would lose original paint texture and irregular contours.",
+        "repeat_build": {
+          "unit_png": "tmp/extraction-work/walters-w82-197r--white-curled-stroke-pattern-on-blue--unit.png",
+          "bar_png": "tmp/extraction-work/walters-w82-197r--white-curled-stroke-pattern-on-blue--bar.png",
+          "frame_png": "tmp/extraction-work/walters-w82-197r--white-curled-stroke-pattern-on-blue--frame-atlas.png",
+          "corners": [
+            {
+              "name": "top-left",
+              "png": "tmp/extraction-work/walters-w82-197r--white-curled-stroke-pattern-on-blue--corner-top-left.png",
+              "atlas_bounds": [
+                0,
+                0,
+                214,
+                214
+              ]
+            },
+            {
+              "name": "top-right",
+              "png": "tmp/extraction-work/walters-w82-197r--white-curled-stroke-pattern-on-blue--corner-top-right.png",
+              "atlas_bounds": [
+                293,
+                0,
+                507,
+                214
+              ]
+            },
+            {
+              "name": "bottom-right",
+              "png": "tmp/extraction-work/walters-w82-197r--white-curled-stroke-pattern-on-blue--corner-bottom-right.png",
+              "atlas_bounds": [
+                293,
+                293,
+                507,
+                507
+              ]
+            },
+            {
+              "name": "bottom-left",
+              "png": "tmp/extraction-work/walters-w82-197r--white-curled-stroke-pattern-on-blue--corner-bottom-left.png",
+              "atlas_bounds": [
+                0,
+                293,
+                214,
+                507
+              ]
+            }
+          ],
+          "native_unit_size": [
+            79,
+            214
+          ],
+          "atlas_size": [
+            507,
+            507
+          ],
+          "slice_pixels": 214,
+          "slice_percent": 42.209072978303745,
+          "repeat_ratio": 0.3691588785046729,
+          "join_adjustment": {
+            "pixels_at_each_end": 2,
+            "method": "average matching source collars; interior columns 2 through width-3 unchanged",
+            "source_cycle_verification": "The inspected source line filler shows at least eight successive white curled stroke motifs separated by small blue gaps. The selected interior motif cell includes one complete curled stroke and its original gap, with both bounding white lines; the left gold pip and right endpoint are excluded. This repeats the original motif cell, rather than claiming that all unequal handwritten source strokes are pixel-identical."
+          },
+          "corner_method": "Mitered reflections of the exact same native unit, using the repository’s four phase-matched corner geometry. Derived corners are distinct from the original fixed printer-frame corners.",
+          "status": "accepted-after-source-unit-bar-four-corner-visual-review"
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Viewed the original full band, source-coordinate phase detail, complete native motif period, five repeats and all four miter corners on dark backgrounds. Original blue paint is the artwork field; external parchment removed. Continuous native alpha, audited rigid deskew, no upscaling or elastic shaping. Only two collar columns joined; phase-matched corners use the same original unit. PNG-only preserves paint texture.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/three-painted-native-period-coordinate-inspection.jpg",
+          "tmp/extraction-work/continuation-20261010/two-straightened-native-bands-coordinate-inspection.jpg",
+          "tmp/extraction-work/continuation-20261010/white-curl-exact-phase-inspection.jpg",
+          "tmp/extraction-work/walters-w82-197r--white-curled-stroke-pattern-on-blue--bar-dark.jpg",
+          "tmp/extraction-work/walters-w82-197r--white-curled-stroke-pattern-on-blue--frame-dark.jpg"
+        ]
+      },
+      "categories": [
+        "geometric",
+        "scrollwork"
+      ],
+      "subjects": [
+        "curl",
+        "line",
+        "band"
+      ],
+      "colors": [
+        "blue",
+        "cream",
+        "white"
+      ],
+      "facing": "unclear",
+      "composition": "repeat-tile",
+      "usage_notes": "Original painted blue field is intrinsic artwork. Repeat unit has its original one-cycle motif or motif-cell geometry. All interiors retain scan colors after the audited rigid orientation correction; only two end columns are joined. Four derived corners use the same source artwork and phase, not unrelated flowers. PNG only to retain paint texture.",
+      "repeat": {
+        "rationale": "The inspected source line filler shows at least eight successive white curled stroke motifs separated by small blue gaps. The selected interior motif cell includes one complete curled stroke and its original gap, with both bounding white lines; the left gold pip and right endpoint are excluded. This repeats the original motif cell, rather than claiming that all unequal handwritten source strokes are pixel-identical.",
+        "original_direction": "horizontal",
+        "source_evidence_png": "tmp/extraction-work/continuation-20261010/walters-w82-197r--native-period-band.png",
+        "slice_pixels": 214,
+        "slice_percent": 42.209072978303745,
+        "repeat_ratio": 0.3691588785046729,
+        "native_unit_size": [
+          79,
+          214
+        ],
+        "atlas_size": [
+          507,
+          507
+        ],
+        "join_adjustment": {
+          "pixels_at_each_end": 2,
+          "method": "average matching source collars; interior columns 2 through width-3 unchanged",
+          "source_cycle_verification": "The inspected source line filler shows at least eight successive white curled stroke motifs separated by small blue gaps. The selected interior motif cell includes one complete curled stroke and its original gap, with both bounding white lines; the left gold pip and right endpoint are excluded. This repeats the original motif cell, rather than claiming that all unequal handwritten source strokes are pixel-identical."
+        },
+        "corner_method": "Mitered reflections of the exact same native unit, using the repository’s four phase-matched corner geometry. Derived corners are distinct from the original fixed printer-frame corners."
+      },
+      "components": {
+        "bar": {
+          "png": "walters/walters-w82-197r--white-curled-stroke-pattern-on-blue--bar.png",
+          "png_sha256": "0ff74c91314fc3d1fcd2d383476478d3ba4be9198ac3306d685e3599f980116b",
+          "width": 395,
+          "height": 214,
+          "set_id": "walters-w82-197r--white-curled-stroke-pattern-on-blue",
+          "set_name": "Walters W.82 Marginalia — white curled stroke pattern on blue",
+          "set_role": "bar"
+        },
+        "frame": {
+          "png": "walters/walters-w82-197r--white-curled-stroke-pattern-on-blue--frame-atlas.png",
+          "png_sha256": "b9f159a7a2acc5eff45d8c14133d3b200021127b2b311ced12b338210740aff0",
+          "width": 507,
+          "height": 507,
+          "set_id": "walters-w82-197r--white-curled-stroke-pattern-on-blue",
+          "set_name": "Walters W.82 Marginalia — white curled stroke pattern on blue",
+          "set_role": "frame"
+        },
+        "corner-top-left": {
+          "png": "walters/walters-w82-197r--white-curled-stroke-pattern-on-blue--corner-top-left.png",
+          "png_sha256": "c637a551c0b366d9dbba153ffbd228a6f3c2696b6a48d374d45c10adf073e2ee",
+          "width": 214,
+          "height": 214,
+          "atlas_bounds": [
+            0,
+            0,
+            214,
+            214
+          ],
+          "method": "Mitered reflections of the exact same native unit, using the repository’s four phase-matched corner geometry. Derived corners are distinct from the original fixed printer-frame corners.",
+          "set_id": "walters-w82-197r--white-curled-stroke-pattern-on-blue",
+          "set_name": "Walters W.82 Marginalia — white curled stroke pattern on blue",
+          "set_role": "corner-top-left"
+        },
+        "corner-top-right": {
+          "png": "walters/walters-w82-197r--white-curled-stroke-pattern-on-blue--corner-top-right.png",
+          "png_sha256": "4073c3bae6eb95cd242787852e7c5c1548417c4973ef5acea1eb2182a25313a5",
+          "width": 214,
+          "height": 214,
+          "atlas_bounds": [
+            293,
+            0,
+            507,
+            214
+          ],
+          "method": "Mitered reflections of the exact same native unit, using the repository’s four phase-matched corner geometry. Derived corners are distinct from the original fixed printer-frame corners.",
+          "set_id": "walters-w82-197r--white-curled-stroke-pattern-on-blue",
+          "set_name": "Walters W.82 Marginalia — white curled stroke pattern on blue",
+          "set_role": "corner-top-right"
+        },
+        "corner-bottom-right": {
+          "png": "walters/walters-w82-197r--white-curled-stroke-pattern-on-blue--corner-bottom-right.png",
+          "png_sha256": "9508115dc2208393080b4a541bcedbd860acc0a2da256425b443e2d4543c379b",
+          "width": 214,
+          "height": 214,
+          "atlas_bounds": [
+            293,
+            293,
+            507,
+            507
+          ],
+          "method": "Mitered reflections of the exact same native unit, using the repository’s four phase-matched corner geometry. Derived corners are distinct from the original fixed printer-frame corners.",
+          "set_id": "walters-w82-197r--white-curled-stroke-pattern-on-blue",
+          "set_name": "Walters W.82 Marginalia — white curled stroke pattern on blue",
+          "set_role": "corner-bottom-right"
+        },
+        "corner-bottom-left": {
+          "png": "walters/walters-w82-197r--white-curled-stroke-pattern-on-blue--corner-bottom-left.png",
+          "png_sha256": "1f655c73e3e3d55404b6e734e111d23d00523d646882fd63817aed04c99f4882",
+          "width": 214,
+          "height": 214,
+          "atlas_bounds": [
+            0,
+            293,
+            214,
+            507
+          ],
+          "method": "Mitered reflections of the exact same native unit, using the repository’s four phase-matched corner geometry. Derived corners are distinct from the original fixed printer-frame corners.",
+          "set_id": "walters-w82-197r--white-curled-stroke-pattern-on-blue",
+          "set_name": "Walters W.82 Marginalia — white curled stroke pattern on blue",
+          "set_role": "corner-bottom-left"
+        },
+        "rotated_tile": {
+          "png": "walters/walters-w82-197r--white-curled-stroke-pattern-on-blue--rotated-tile.png",
+          "png_sha256": "cede0edbe443b45601d3cc1ff77b16cb580063fa665f71646d08d897a4ba52f7",
+          "width": 214,
+          "height": 79,
+          "method": "Pixel-exact 90 degree clockwise transpose of the corresponding horizontal PNG.",
+          "set_id": "walters-w82-197r--white-curled-stroke-pattern-on-blue",
+          "set_name": "Walters W.82 Marginalia — white curled stroke pattern on blue",
+          "set_role": "rotated_tile"
+        },
+        "rotated_bar": {
+          "png": "walters/walters-w82-197r--white-curled-stroke-pattern-on-blue--rotated-bar.png",
+          "png_sha256": "aafd17837845aceacdf1a17b262eb32a1a7b278874eb536a31382a893986ca67",
+          "width": 214,
+          "height": 395,
+          "method": "Pixel-exact 90 degree clockwise transpose of the corresponding horizontal PNG.",
+          "set_id": "walters-w82-197r--white-curled-stroke-pattern-on-blue",
+          "set_name": "Walters W.82 Marginalia — white curled stroke pattern on blue",
+          "set_role": "rotated_bar"
+        }
+      },
+      "sets": [
+        {
+          "id": "walters-w82-marginalia",
+          "name": "Walters W.82 Marginalia",
+          "relation": "same manuscript; each page retains its source identity"
+        }
+      ],
+      "description_before_set_naming": "A hand painted white curled stroke and spacing between two fine white lines on blue.",
+      "set_label": "Walters W.82 Marginalia"
+    }
+  ]
+}

@@ -1,0 +1,659 @@
+{
+  "source_id": "cma-2003-171",
+  "assets": [
+    {
+      "id": "cma-2003-171--lower-left-pair-of-contacting-figures",
+      "name": "lower-left-pair-of-contacting-figures",
+      "source_id": "cma-2003-171",
+      "source_folder": "cleveland",
+      "asset_type": "illustration",
+      "description": "A pale-robed figure touching the head of a kneeling blue and red figure. Part of the Leaf Excised from an Antiphonary: Initial Q with Saints Peter and Paul (cma-2003-171) set.",
+      "source_region": [
+        1297,
+        6224,
+        2103,
+        7016
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        22,
+        9,
+        717,
+        715
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 695,
+      "height": 706,
+      "png": "cleveland/cma-2003-171--lower-left-pair-of-contacting-figures.png",
+      "png_sha256": "616160c0ee6da869039ab63e84714d28a979f796960858ef3ad801349ce944ff",
+      "provenance": {
+        "institution": "Cleveland Museum of Art",
+        "title": "Leaf Excised from an Antiphonary: Initial Q with Saints Peter and Paul",
+        "object_identifier": "2003.171",
+        "date": "c. 1325",
+        "record_url": "https://clevelandart.org/art/2003.171",
+        "image_rights": "CC0; share_license_status=CC0",
+        "rights_url": "https://www.clevelandart.org/open-access",
+        "source_file": "tmp/new-assets/cleveland/cma-2003-171--leaf-excised-from-an-antiphonary-initial-q-with-saints-peter-and-paul--master.tif",
+        "source_sha256": "eba9a7e7aae900dc5b3f090a900bc62e526b68ff6465527c35efafed8ae4e501",
+        "source_metadata": "tmp/new-assets/cleveland/cma-2003-171.json",
+        "image_url": "https://openaccess-cdn.clevelandart.org/2003.171/2003.171_full.tif",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. Extract ONLY complete lower-left touching pair: pale-robed orange-legged figure touching the kneeling blue/red figure's head, other bent arm holding its original rectangular prop, both full visible feet and robe hems. Keep pair joined at hand/head contact. Remove entire unrelated ivy border they stand on, especially the SMALL GOLD KNOB at far LEFT beside the kneeling blue robe: that knob belongs to the border, not their bodies. Remove gray stalk rising behind pale figure and all ivy leaves. No hidden parts invented. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_extraction": "tmp/extraction-work/cma-2003-171--lower-left-pair-of-contacting-figures--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "603a9c8c9941a1df37697b007ec35361d5b4d2773e856e38310896db4880f9d5",
+        "retained_generated_size": [
+          1265,
+          1243
+        ],
+        "resolution_cap_scale": 0.5839019737324822,
+        "resolution_capped_size": [
+          739,
+          726
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          715,
+          692
+        ],
+        "native_subject_size_evidence": {
+          "method": "Individually inspected native visible subject bounds, excluding input-region whitespace and neighbours.",
+          "preview_subject_bounds": [
+            283,
+            1307,
+            432,
+            1451
+          ],
+          "preview_size": [
+            1111,
+            1600
+          ],
+          "original_size": [
+            5335,
+            7684
+          ]
+        },
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 1345
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Compared original regions with transparent artwork on white and dark. Correct original cat identification and full low furry tail with prey; complete floral cross staff above resurrection; contacting lower-left pair has no unrelated border knob; saints and half-figures individually separated because their bodies do not contact. Pale figures remain opaque; visible original endings retained.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/seven-source-corrections-results-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/seven-source-corrections-results-proof-2.jpg"
+        ]
+      },
+      "categories": [
+        "humans"
+      ],
+      "subjects": [
+        "man",
+        "woman"
+      ],
+      "colors": [
+        "blue",
+        "red",
+        "cream",
+        "orange"
+      ],
+      "facing": "unclear",
+      "composition": "multiple-figures",
+      "usage_notes": "Original independent specimen with printed plate rules and page removed. AI-assisted extraction remains approximate; source bounds, actual native subject cap, original and exact prompt retained.",
+      "sets": [
+        {
+          "id": "cma-2003-171-set",
+          "name": "Leaf Excised from an Antiphonary: Initial Q with Saints Peter and Paul (cma-2003-171)",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A pale-robed figure touching the head of a kneeling blue and red figure.",
+      "set_label": "Leaf Excised from an Antiphonary: Initial Q with Saints Peter and Paul (cma-2003-171)"
+    },
+    {
+      "id": "cma-2003-171--lower-right-pair-of-contacting-figures",
+      "name": "lower-right-pair-of-contacting-figures",
+      "source_id": "cma-2003-171",
+      "source_folder": "cleveland",
+      "asset_type": "illustration",
+      "description": "Two contacting figures with blue red robes and orange stockings. Part of the Leaf Excised from an Antiphonary: Initial Q with Saints Peter and Paul (cma-2003-171) set.",
+      "source_region": [
+        3025,
+        6224,
+        3842,
+        7127
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        18,
+        3,
+        696,
+        820
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 678,
+      "height": 817,
+      "png": "cleveland/cma-2003-171--lower-right-pair-of-contacting-figures.png",
+      "png_sha256": "ea90a2ad7a50a6abc023e01bb324a0728eb28d2b5846e9c23fb960dcf5894c8d",
+      "provenance": {
+        "institution": "Cleveland Museum of Art",
+        "title": "Leaf Excised from an Antiphonary: Initial Q with Saints Peter and Paul",
+        "object_identifier": "2003.171",
+        "date": "c. 1325",
+        "record_url": "https://clevelandart.org/art/2003.171",
+        "image_rights": "CC0; share_license_status=CC0",
+        "rights_url": "https://www.clevelandart.org/open-access",
+        "source_file": "tmp/new-assets/cleveland/cma-2003-171--leaf-excised-from-an-antiphonary-initial-q-with-saints-peter-and-paul--master.tif",
+        "source_sha256": "eba9a7e7aae900dc5b3f090a900bc62e526b68ff6465527c35efafed8ae4e501",
+        "source_metadata": "tmp/new-assets/cleveland/cma-2003-171.json",
+        "image_url": "https://openaccess-cdn.clevelandart.org/2003.171/2003.171_full.tif",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. Extract ONLY contacting pair at lower-right: forward bent red/blue-robed figure and standing blue/red/orange-legged figure lifting a hand. Full original hems/hands/feet visible; keep interacting pair together. Remove ivy support branch, no musical notes or other figure group. No invention of source-occluded feet. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_extraction": "tmp/extraction-work/cma-2003-171--lower-right-pair-of-contacting-figures--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "ff39d2db75de4156647ec54e32d135b6efdc5083d43dc3f57d723258beead043",
+        "retained_generated_size": [
+          1193,
+          1319
+        ],
+        "resolution_cap_scale": 0.6324921135646687,
+        "resolution_capped_size": [
+          755,
+          834
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          706,
+          802
+        ],
+        "native_subject_size_evidence": {
+          "method": "Individually inspected native visible subject bounds, excluding input-region whitespace and neighbours.",
+          "preview_subject_bounds": [
+            645,
+            1308,
+            792,
+            1475
+          ],
+          "preview_size": [
+            1111,
+            1600
+          ],
+          "original_size": [
+            5335,
+            7684
+          ]
+        },
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 3165
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Original source and white/dark renders individually inspected. Contacting lower-right figures retain full bodies/feet and physical head/hand contact. Detached gray bird retains both feet, full tail and beak. Paul is an honest source-visible waist-length figure with complete visible sword/book/halo. Foliate panel retains all four original pointed finials and three central blue stars, its intrinsic designed gold/blue fields, and worn paint; it is not a glyph. Thin red/gold frame keeps original corners, transparent exterior/interior and genuine imperfect geometry. No seamless period invented.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/new-borders-scenes-results-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/new-borders-scenes-results-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/new-borders-scenes-results-proof-3.jpg"
+        ]
+      },
+      "categories": [
+        "humans"
+      ],
+      "subjects": [
+        "man",
+        "woman"
+      ],
+      "colors": [
+        "blue",
+        "red",
+        "orange",
+        "cream"
+      ],
+      "facing": "unclear",
+      "composition": "multiple-figures",
+      "usage_notes": "Original independent specimen with printed plate rules and page removed. AI-assisted extraction remains approximate; source bounds, actual native subject cap, original and exact prompt retained.",
+      "sets": [
+        {
+          "id": "cma-2003-171-set",
+          "name": "Leaf Excised from an Antiphonary: Initial Q with Saints Peter and Paul (cma-2003-171)",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "Two contacting figures with blue red robes and orange stockings.",
+      "set_label": "Leaf Excised from an Antiphonary: Initial Q with Saints Peter and Paul (cma-2003-171)"
+    },
+    {
+      "id": "cma-2003-171--saint-paul-with-long-sword-and-book",
+      "name": "saint-paul-with-long-sword-and-book",
+      "source_id": "cma-2003-171",
+      "source_folder": "cleveland",
+      "asset_type": "illustration",
+      "description": "Saint Paul holding a long sword and a book. Part of the Leaf Excised from an Antiphonary: Initial Q with Saints Peter and Paul (cma-2003-171) set.",
+      "source_region": [
+        1191,
+        2718,
+        1705,
+        3794
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        48,
+        0,
+        409,
+        957
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 361,
+      "height": 957,
+      "png": "cleveland/cma-2003-171--saint-paul-with-long-sword-and-book.png",
+      "png_sha256": "99d1d20d78b290085dc9dfd4dc5fb1e38ab7a524172d2570b7a9450b8ed7f098",
+      "provenance": {
+        "institution": "Cleveland Museum of Art",
+        "title": "Leaf Excised from an Antiphonary: Initial Q with Saints Peter and Paul",
+        "object_identifier": "2003.171",
+        "date": "c. 1325",
+        "record_url": "https://clevelandart.org/art/2003.171",
+        "image_rights": "CC0; share_license_status=CC0",
+        "rights_url": "https://www.clevelandart.org/open-access",
+        "source_file": "tmp/new-assets/cleveland/cma-2003-171--leaf-excised-from-an-antiphonary-initial-q-with-saints-peter-and-paul--master.tif",
+        "source_sha256": "eba9a7e7aae900dc5b3f090a900bc62e526b68ff6465527c35efafed8ae4e501",
+        "source_metadata": "tmp/new-assets/cleveland/cma-2003-171.json",
+        "image_url": "https://openaccess-cdn.clevelandart.org/2003.171/2003.171_full.tif",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. Extract ONLY RIGHT Saint Paul in large initial Q: full source-visible head, blue/gold halo, book, both hands, entire upward sword with its visible tip, pale-gray and blue robe and full visible lower hem/foot. Exclude separate left Peter/key and all Q letter/gold checkerboard/blue field. Actual source-visible cloth only, no hidden parts invented. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_extraction": "tmp/extraction-work/cma-2003-171--saint-paul-with-long-sword-and-book--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "fe0e63e8cf853d99458ccb5c6d71c0a9702251823d3835542a588f93a04db728",
+        "retained_generated_size": [
+          867,
+          1815
+        ],
+        "resolution_cap_scale": 0.5275476634727346,
+        "resolution_capped_size": [
+          457,
+          957
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          403,
+          951
+        ],
+        "native_subject_size_evidence": {
+          "method": "Individually inspected native visible subject bounds, excluding input-region whitespace and neighbours.",
+          "preview_subject_bounds": [
+            260,
+            578,
+            344,
+            776
+          ],
+          "preview_size": [
+            1111,
+            1600
+          ],
+          "original_size": [
+            5335,
+            7684
+          ]
+        },
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 323
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Compared original regions with transparent artwork on white and dark. Correct original cat identification and full low furry tail with prey; complete floral cross staff above resurrection; contacting lower-left pair has no unrelated border knob; saints and half-figures individually separated because their bodies do not contact. Pale figures remain opaque; visible original endings retained.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/seven-source-corrections-results-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/seven-source-corrections-results-proof-2.jpg"
+        ]
+      },
+      "categories": [
+        "humans",
+        "reading"
+      ],
+      "subjects": [
+        "saint",
+        "sword",
+        "book",
+        "halo"
+      ],
+      "colors": [
+        "blue",
+        "cream",
+        "gold",
+        "gray"
+      ],
+      "facing": "unclear",
+      "composition": "single-figure",
+      "usage_notes": "Original independent specimen with printed plate rules and page removed. AI-assisted extraction remains approximate; source bounds, actual native subject cap, original and exact prompt retained.",
+      "sets": [
+        {
+          "id": "cma-2003-171-set",
+          "name": "Leaf Excised from an Antiphonary: Initial Q with Saints Peter and Paul (cma-2003-171)",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "Saint Paul holding a long sword and a book.",
+      "set_label": "Leaf Excised from an Antiphonary: Initial Q with Saints Peter and Paul (cma-2003-171)"
+    },
+    {
+      "id": "cma-2003-171--saint-peter-with-large-key",
+      "name": "saint-peter-with-large-key",
+      "source_id": "cma-2003-171",
+      "source_folder": "cleveland",
+      "asset_type": "illustration",
+      "description": "Saint Peter holding a large key and raising his other hand. Part of the Leaf Excised from an Antiphonary: Initial Q with Saints Peter and Paul (cma-2003-171) set.",
+      "source_region": [
+        735,
+        2718,
+        1393,
+        3789
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        92,
+        5,
+        505,
+        967
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 413,
+      "height": 962,
+      "png": "cleveland/cma-2003-171--saint-peter-with-large-key.png",
+      "png_sha256": "df1730a8b2f9ab4bfc377f94d0a424ba4fabcd207dc7d9d432c0c8368f4274bb",
+      "provenance": {
+        "institution": "Cleveland Museum of Art",
+        "title": "Leaf Excised from an Antiphonary: Initial Q with Saints Peter and Paul",
+        "object_identifier": "2003.171",
+        "date": "c. 1325",
+        "record_url": "https://clevelandart.org/art/2003.171",
+        "image_rights": "CC0; share_license_status=CC0",
+        "rights_url": "https://www.clevelandart.org/open-access",
+        "source_file": "tmp/new-assets/cleveland/cma-2003-171--leaf-excised-from-an-antiphonary-initial-q-with-saints-peter-and-paul--master.tif",
+        "source_sha256": "eba9a7e7aae900dc5b3f090a900bc62e526b68ff6465527c35efafed8ae4e501",
+        "source_metadata": "tmp/new-assets/cleveland/cma-2003-171.json",
+        "image_url": "https://openaccess-cdn.clevelandart.org/2003.171/2003.171_full.tif",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. Extract ONLY LEFT Saint Peter from the large initial Q. Preserve complete source-visible halo, face/hair, large key held across left shoulder, raised open hand, both arms, blue/red/pale-gray drapery and actual source-visible lower hem/feet. Exclude the separate Saint Paul at right, gold checkerboard, Q letter and blue rectangular initial. Preserve only visible source cloth at overlaps; do not invent hidden robe or anatomy. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_extraction": "tmp/extraction-work/cma-2003-171--saint-peter-with-large-key--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "e379c70d911013de75bdf53925e75ef11a678f9eaa7c8ca5546aa83aafbb42c7",
+        "retained_generated_size": [
+          983,
+          1600
+        ],
+        "resolution_cap_scale": 0.6095360824742269,
+        "resolution_capped_size": [
+          599,
+          975
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          547,
+          946
+        ],
+        "native_subject_size_evidence": {
+          "method": "Individually inspected native visible subject bounds, excluding input-region whitespace and neighbours.",
+          "preview_subject_bounds": [
+            166,
+            579,
+            280,
+            776
+          ],
+          "preview_size": [
+            1111,
+            1600
+          ],
+          "original_size": [
+            5335,
+            7684
+          ]
+        },
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 262
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Compared original regions with transparent artwork on white and dark. Correct original cat identification and full low furry tail with prey; complete floral cross staff above resurrection; contacting lower-left pair has no unrelated border knob; saints and half-figures individually separated because their bodies do not contact. Pale figures remain opaque; visible original endings retained.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/seven-source-corrections-results-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/seven-source-corrections-results-proof-2.jpg"
+        ]
+      },
+      "categories": [
+        "humans"
+      ],
+      "subjects": [
+        "saint",
+        "key",
+        "halo"
+      ],
+      "colors": [
+        "blue",
+        "red",
+        "cream",
+        "gold",
+        "gray"
+      ],
+      "facing": "unclear",
+      "composition": "single-figure",
+      "usage_notes": "Original independent specimen with printed plate rules and page removed. AI-assisted extraction remains approximate; source bounds, actual native subject cap, original and exact prompt retained.",
+      "sets": [
+        {
+          "id": "cma-2003-171-set",
+          "name": "Leaf Excised from an Antiphonary: Initial Q with Saints Peter and Paul (cma-2003-171)",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "Saint Peter holding a large key and raising his other hand.",
+      "set_label": "Leaf Excised from an Antiphonary: Initial Q with Saints Peter and Paul (cma-2003-171)"
+    },
+    {
+      "id": "cma-2003-171--small-gray-bird-with-long-tail",
+      "name": "small-gray-bird-with-long-tail",
+      "source_id": "cma-2003-171",
+      "source_folder": "cleveland",
+      "asset_type": "illustration",
+      "description": "A small gray bird with a narrow beak and long tail. Part of the Leaf Excised from an Antiphonary: Initial Q with Saints Peter and Paul (cma-2003-171) set.",
+      "source_region": [
+        4259,
+        5187,
+        4711,
+        5811
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        83,
+        33,
+        398,
+        565
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 315,
+      "height": 532,
+      "png": "cleveland/cma-2003-171--small-gray-bird-with-long-tail.png",
+      "png_sha256": "db86395a5003ea04b795765f2b360b48ae240ffcc14229e0d15c1559631707b3",
+      "provenance": {
+        "institution": "Cleveland Museum of Art",
+        "title": "Leaf Excised from an Antiphonary: Initial Q with Saints Peter and Paul",
+        "object_identifier": "2003.171",
+        "date": "c. 1325",
+        "record_url": "https://clevelandart.org/art/2003.171",
+        "image_rights": "CC0; share_license_status=CC0",
+        "rights_url": "https://www.clevelandart.org/open-access",
+        "source_file": "tmp/new-assets/cleveland/cma-2003-171--leaf-excised-from-an-antiphonary-initial-q-with-saints-peter-and-paul--master.tif",
+        "source_sha256": "eba9a7e7aae900dc5b3f090a900bc62e526b68ff6465527c35efafed8ae4e501",
+        "source_metadata": "tmp/new-assets/cleveland/cma-2003-171.json",
+        "image_url": "https://openaccess-cdn.clevelandart.org/2003.171/2003.171_full.tif",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. Extract ONLY the separate gray bird floating above the lower-right ornamental branch. Complete original beak, head, feathers, both tiny visible feet and entire long tail. No ivy sprig below. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_extraction": "tmp/extraction-work/cma-2003-171--small-gray-bird-with-long-tail--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "48bd683197eafa4c202d0f426e8cb6be8ca062d7e380f5e7ba11e1064227465b",
+        "retained_generated_size": [
+          1067,
+          1474
+        ],
+        "resolution_cap_scale": 0.39892746327371986,
+        "resolution_capped_size": [
+          426,
+          588
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          317,
+          519
+        ],
+        "native_subject_size_evidence": {
+          "method": "Individually inspected native visible subject bounds, excluding input-region whitespace and neighbours.",
+          "preview_subject_bounds": [
+            904,
+            1091,
+            970,
+            1199
+          ],
+          "preview_size": [
+            1111,
+            1600
+          ],
+          "original_size": [
+            5335,
+            7684
+          ]
+        },
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 45
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Original source and white/dark renders individually inspected. Contacting lower-right figures retain full bodies/feet and physical head/hand contact. Detached gray bird retains both feet, full tail and beak. Paul is an honest source-visible waist-length figure with complete visible sword/book/halo. Foliate panel retains all four original pointed finials and three central blue stars, its intrinsic designed gold/blue fields, and worn paint; it is not a glyph. Thin red/gold frame keeps original corners, transparent exterior/interior and genuine imperfect geometry. No seamless period invented.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/new-borders-scenes-results-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/new-borders-scenes-results-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/new-borders-scenes-results-proof-3.jpg"
+        ]
+      },
+      "categories": [
+        "animals"
+      ],
+      "subjects": [
+        "bird"
+      ],
+      "colors": [
+        "gray",
+        "black"
+      ],
+      "facing": "unclear",
+      "composition": "single-figure",
+      "usage_notes": "Original independent specimen with printed plate rules and page removed. AI-assisted extraction remains approximate; source bounds, actual native subject cap, original and exact prompt retained.",
+      "sets": [
+        {
+          "id": "cma-2003-171-set",
+          "name": "Leaf Excised from an Antiphonary: Initial Q with Saints Peter and Paul (cma-2003-171)",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A small gray bird with a narrow beak and long tail.",
+      "set_label": "Leaf Excised from an Antiphonary: Initial Q with Saints Peter and Paul (cma-2003-171)"
+    }
+  ]
+}

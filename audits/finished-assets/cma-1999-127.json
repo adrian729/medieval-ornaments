@@ -1,0 +1,133 @@
+{
+  "source_id": "cma-1999-127",
+  "assets": [
+    {
+      "id": "cma-1999-127--christ-carrying-cross-with-contacting-procession",
+      "name": "christ-carrying-cross-with-contacting-procession",
+      "source_id": "cma-1999-127",
+      "source_folder": "cleveland",
+      "asset_type": "illustration",
+      "description": "Christ carrying a wooden cross with a contacting procession of soldiers and holy figures.",
+      "source_region": [
+        1446,
+        1517,
+        4232,
+        4151
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        18,
+        11,
+        1290,
+        1212
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 1272,
+      "height": 1201,
+      "png": "cleveland/cma-1999-127--christ-carrying-cross-with-contacting-procession.png",
+      "png_sha256": "c7450f699f8630caba844efd11fba307e7ec1567c7a50f59d6594c4c60d52f0a",
+      "provenance": {
+        "institution": "Cleveland Museum of Art",
+        "title": "Leaf from a Book of Hours: Christ Carrying the Cross (Sext, Hours of the Cross)",
+        "object_identifier": "1999.127",
+        "date": "c. 1410–1420",
+        "record_url": "https://clevelandart.org/art/1999.127",
+        "image_rights": "CC0; share_license_status=CC0",
+        "rights_url": "https://www.clevelandart.org/open-access",
+        "source_file": "tmp/new-assets/cleveland/cma-1999-127--leaf-from-a-book-of-hours-christ-carrying-the-cross-sext-hours-of-the-cross--master.tif",
+        "source_sha256": "13ef7537ef75b004a842d531fefbf1aa807d2cee0c42f4d64223a56c32ce5824",
+        "source_metadata": "tmp/new-assets/cleveland/cma-1999-127.json",
+        "image_url": "https://openaccess-cdn.clevelandart.org/1999.127/1999.127_full.tif",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. Extract ONLY complete foreground contacting procession: blue-robed Christ with entire long brown wooden cross, three source-visible holy figures behind at left, red-armored soldiers at left/right and tan-purple robed captor in foreground. Shared cross and rope contacts mean ONE group. Preserve all original exposed hands, armor, halos, hems and bare/booted feet. Remove landscape, architecture, distant upper hill figure, sky, all ground between feet and outer gold rule. Do not invent bodies hidden behind others. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_extraction": "tmp/extraction-work/cma-1999-127--christ-carrying-cross-with-contacting-procession--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "2ed154ba3e15f63e85f516a398cb9576eb96d7215b9cca3c42f136fce83bc37b",
+        "retained_generated_size": [
+          1290,
+          1219
+        ],
+        "resolution_cap_scale": 1,
+        "resolution_capped_size": [
+          1290,
+          1219
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          2672,
+          2524
+        ],
+        "native_subject_size_evidence": {
+          "method": "Individually inspected native visible subject bounds, excluding input-region whitespace and neighbours.",
+          "preview_subject_bounds": [
+            316,
+            331,
+            876,
+            860
+          ],
+          "preview_size": [
+            1147,
+            1600
+          ],
+          "original_size": [
+            5472,
+            7634
+          ]
+        },
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 9669
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Compared original/source-white-dark proofs. Both kneeling angels retain all long wing tips, pale facial features, gold halos and original robe hems. Finite floral frame preserves distinct side designs, corner knots, thin black/gold flowers and genuine openings. Cross procession retains complete visible source group and shared cross without hidden body invention; flat landscape and original plate rule cleared.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/cleveland-next-partial-results-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/cleveland-next-partial-results-proof-2.jpg"
+        ]
+      },
+      "categories": [
+        "humans"
+      ],
+      "subjects": [
+        "christ",
+        "cross",
+        "soldier",
+        "halo",
+        "rope",
+        "procession"
+      ],
+      "colors": [
+        "blue",
+        "red",
+        "tan",
+        "purple",
+        "gold",
+        "gray",
+        "cream"
+      ],
+      "facing": "unclear",
+      "composition": "multiple-figures",
+      "usage_notes": "Original independent specimen with printed plate rules and page removed. AI-assisted extraction remains approximate; source bounds, actual native subject cap, original and exact prompt retained."
+    }
+  ]
+}

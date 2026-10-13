@@ -1,0 +1,1 @@
+import type{BoundComponent as C,BoundProps as P}from'../react-core.js';import type{ImageOptions}from'../designs/right-blue-robed-angel-with-harp.js';export{ornament}from'../designs/right-blue-robed-angel-with-harp.js';export type{OrnamentStyle}from'../react-core.js';export type OrnamentImageProps=P<'image',ImageOptions>;export declare const OrnamentImage:C<'image',ImageOptions>;

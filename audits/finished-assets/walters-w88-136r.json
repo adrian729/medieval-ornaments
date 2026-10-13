@@ -1,0 +1,545 @@
+{
+  "source_id": "walters-w88-136r",
+  "assets": [
+    {
+      "id": "walters-w88-136r--lower-profile-head-on-long-blue-and-gold-rod",
+      "name": "lower-profile-head-on-long-blue-and-gold-rod",
+      "source_id": "walters-w88-136r",
+      "source_folder": "walters",
+      "asset_type": "decoration",
+      "description": "A finite original manuscript marginal flourish: lower profile head on long blue and gold rod. Part of the Walters W.88 Dancing Monkeys set.",
+      "source_region": [
+        464,
+        3907,
+        1037,
+        6203
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        119,
+        0,
+        556,
+        2106
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 437,
+      "height": 2106,
+      "png": "walters/walters-w88-136r--lower-profile-head-on-long-blue-and-gold-rod.png",
+      "png_sha256": "0f6d548eac8fcf9ed064e82c52d122df5140926ad06a06fe5b445576c4856a33",
+      "provenance": {
+        "institution": "Walters Art Museum",
+        "title": "Dancing monkeys",
+        "object_identifier": "W.88, fol. 136r",
+        "date": "First quarter 14th century CE",
+        "record_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/html/W88/description.html",
+        "image_rights": "CC0 (Digital Walters manuscript images)",
+        "rights_url": "https://www.thedigitalwalters.org/01_ACCESS_WALTERS_MANUSCRIPTS.html",
+        "source_file": "tmp/new-assets/walters/walters-w88-136r--dancing-monkeys--master.tif",
+        "source_sha256": "0ca359b8bb9e459d4ce4b081bab988f943522ac776ec806f69b86008d6b51f9a",
+        "source_metadata": "tmp/new-assets/walters/walters-w88-136r.json",
+        "image_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/W88/data/W.88/master/W88_000277_1200.tif",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. Isolate the lower profile head with curled hair and its long blue/gold marginal rod, including original angular side leaf near the upper end. Exclude the capital H and its bottom horizontal bar completely. Keep the source-visible rod continuation below the glyph and its actual junction; no invented connecting line or cap. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_extraction": "tmp/extraction-work/walters-w88-136r--lower-profile-head-on-long-blue-and-gold-rod--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "0966ed65cec5a823f015400341ed6a3f6aa98e735c598d599011cee777170eda",
+        "retained_generated_size": [
+          725,
+          2170
+        ],
+        "resolution_cap_scale": 1,
+        "resolution_capped_size": [
+          725,
+          2170
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          494,
+          2148
+        ],
+        "native_subject_size_evidence": {
+          "method": "Individually inspected native visible subject bounds, excluding input-region whitespace and neighbours.",
+          "preview_subject_bounds": [
+            101,
+            814,
+            201,
+            1249
+          ],
+          "preview_size": [
+            1259,
+            1600
+          ],
+          "original_size": [
+            6216,
+            7902
+          ]
+        },
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 2129
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Original ROIs and final white/dark proofs inspected individually. All three original profile heads in the upper connected margin retained; both faces in the long left rod remain correctly oriented. Each hooded/lower head, stem, curl, original worn gilding and colored/pale fill retained; letter H/R/C/P and paper rules excluded. Two finite unequal floral margins retain actual flowering branches, acanthus, vases and fine gilt ivy, with original center/letter panels removed and no fabricated uniform repeat.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/walters-margin-final-ready-results-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/walters-margin-final-ready-results-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/walters-margin-final-ready-results-proof-3.jpg"
+        ]
+      },
+      "categories": [
+        "floral",
+        "scrollwork"
+      ],
+      "subjects": [
+        "flourish",
+        "leaf",
+        "stem",
+        "margin"
+      ],
+      "colors": [
+        "blue",
+        "gold",
+        "pink",
+        "brown",
+        "black"
+      ],
+      "facing": "unclear",
+      "composition": "single-ornament",
+      "usage_notes": "Original independent specimen with printed plate rules and page removed. AI-assisted extraction remains approximate; source bounds, actual native subject cap, original and exact prompt retained.",
+      "sets": [
+        {
+          "id": "walters-w88-136r-set",
+          "name": "Walters W.88 Dancing Monkeys",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A finite original manuscript marginal flourish: lower profile head on long blue and gold rod.",
+      "set_label": "Walters W.88 Dancing Monkeys"
+    },
+    {
+      "id": "walters-w88-136r--short-blue-and-gold-curled-leaf-terminal",
+      "name": "short-blue-and-gold-curled-leaf-terminal",
+      "source_id": "walters-w88-136r",
+      "source_folder": "walters",
+      "asset_type": "decoration",
+      "description": "A finite original manuscript marginal flourish: short blue and gold curled leaf terminal. Part of the Walters W.88 Dancing Monkeys set.",
+      "source_region": [
+        2444,
+        2385,
+        3135,
+        2864
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        0,
+        0,
+        560,
+        388
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 560,
+      "height": 388,
+      "png": "walters/walters-w88-136r--short-blue-and-gold-curled-leaf-terminal.png",
+      "png_sha256": "3711fdfc3ada8f88b3c43e17838d2c0e3825398d9fbe4e2a9aed8a4a7c020115",
+      "provenance": {
+        "institution": "Walters Art Museum",
+        "title": "Dancing monkeys",
+        "object_identifier": "W.88, fol. 136r",
+        "date": "First quarter 14th century CE",
+        "record_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/html/W88/description.html",
+        "image_rights": "CC0 (Digital Walters manuscript images)",
+        "rights_url": "https://www.thedigitalwalters.org/01_ACCESS_WALTERS_MANUSCRIPTS.html",
+        "source_file": "tmp/new-assets/walters/walters-w88-136r--dancing-monkeys--master.tif",
+        "source_sha256": "0ca359b8bb9e459d4ce4b081bab988f943522ac776ec806f69b86008d6b51f9a",
+        "source_metadata": "tmp/new-assets/walters/walters-w88-136r.json",
+        "image_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/W88/data/W.88/master/W88_000277_1200.tif",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. Isolate ONLY the curved blue/gold leaf terminal extending to the right of the small capital R. Exclude the entire R and its box. Keep the original terminal shape and source-visible base, without making a new letter or connecting hidden parts. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_extraction": "tmp/extraction-work/walters-w88-136r--short-blue-and-gold-curled-leaf-terminal--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "096990e1195c9f844939a61b8fd7f5c86a4a9e2ea9afe8e4a80215b46a2b665f",
+        "retained_generated_size": [
+          1507,
+          1044
+        ],
+        "resolution_cap_scale": 0.37137435189902424,
+        "resolution_capped_size": [
+          560,
+          388
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          553,
+          410
+        ],
+        "native_subject_size_evidence": {
+          "method": "Individually inspected native visible subject bounds, excluding input-region whitespace and neighbours.",
+          "preview_subject_bounds": [
+            514,
+            490,
+            626,
+            573
+          ],
+          "preview_size": [
+            1259,
+            1600
+          ],
+          "original_size": [
+            6216,
+            7902
+          ]
+        },
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 79
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Original ROIs and final white/dark proofs inspected individually. All three original profile heads in the upper connected margin retained; both faces in the long left rod remain correctly oriented. Each hooded/lower head, stem, curl, original worn gilding and colored/pale fill retained; letter H/R/C/P and paper rules excluded. Two finite unequal floral margins retain actual flowering branches, acanthus, vases and fine gilt ivy, with original center/letter panels removed and no fabricated uniform repeat.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/walters-margin-final-ready-results-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/walters-margin-final-ready-results-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/walters-margin-final-ready-results-proof-3.jpg"
+        ]
+      },
+      "categories": [
+        "floral",
+        "scrollwork"
+      ],
+      "subjects": [
+        "flourish",
+        "leaf",
+        "stem",
+        "margin"
+      ],
+      "colors": [
+        "blue",
+        "gold",
+        "pink",
+        "brown",
+        "black"
+      ],
+      "facing": "unclear",
+      "composition": "single-ornament",
+      "usage_notes": "Original independent specimen with printed plate rules and page removed. AI-assisted extraction remains approximate; source bounds, actual native subject cap, original and exact prompt retained.",
+      "sets": [
+        {
+          "id": "walters-w88-136r-set",
+          "name": "Walters W.88 Dancing Monkeys",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A finite original manuscript marginal flourish: short blue and gold curled leaf terminal.",
+      "set_label": "Walters W.88 Dancing Monkeys"
+    },
+    {
+      "id": "walters-w88-136r--two-dancing-monkeys",
+      "name": "two-dancing-monkeys",
+      "source_id": "walters-w88-136r",
+      "source_folder": "walters",
+      "asset_type": "illustration",
+      "description": "Two complete dancing monkeys holding hands, retaining the source joining hands, raised fists, faces, fur markings, both complete bent legs and feet. Part of the Walters W.88 Dancing Monkeys set.",
+      "source_region": [
+        1000,
+        4950,
+        2700,
+        5980
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        27,
+        31,
+        1490,
+        877
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 1463,
+      "height": 846,
+      "png": "walters/walters-w88-136r--two-dancing-monkeys.png",
+      "png_sha256": "5a6093cdc6cb3a793a166a6d572b1a7607904639bfdb5fa8e24b6f614edcef94",
+      "provenance": {
+        "institution": "Walters Art Museum",
+        "title": "Dancing monkeys",
+        "object_identifier": "W.88, fol. 136r",
+        "date": "First quarter 14th century CE",
+        "record_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/html/W88/description.html",
+        "image_rights": "CC0 (Digital Walters manuscript images)",
+        "rights_url": "https://www.thedigitalwalters.org/01_ACCESS_WALTERS_MANUSCRIPTS.html",
+        "source_file": "tmp/new-assets/walters/walters-w88-136r--dancing-monkeys--master.tif",
+        "source_sha256": "0ca359b8bb9e459d4ce4b081bab988f943522ac776ec806f69b86008d6b51f9a",
+        "source_metadata": "tmp/new-assets/walters/walters-w88-136r.json",
+        "image_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/W88/data/W.88/master/W88_000277_1200.tif",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: background-extraction. Extract the original complete TWO DANCING MONKEYS HOLDING HANDS as a single transparent illustration from this source. Preserve exactly the original poses, expressions, anatomy, joined hands, extended arms, raised fists, both bent legs and complete feet, original contact points, proportions, ink outlines and fur hatch marks. Keep each calf and ankle its FULL actual source width, not thin broken lines; retain all original toes and finger tips. Remove green parchment, page ruling, stains and unrelated reverse-page colored ghost images. Clean photographic paper discoloration and ghost marks within the illustration while retaining pale original illustrated body surfaces as opaque and preserving the source ink details. Keep real gaps between arms, bodies and legs genuinely transparent. The monkeys physically hold hands: keep that junction intact, do not detach, invent fingers or simplify their pose. Do not add a tail from the pale gold circular reverse-page ghost behind the right monkey. No generic new illustration, modern anatomy, new limb, re-posing, simplified hatching, shadows, halo or rectangular background. Keep the faithful historical drawing.",
+        "retained_generated_extraction": "tmp/extraction-work/walters-w88-136r--two-dancing-monkeys--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "0e68916a541aa3094cd3da3f72b797a05f8d3d9e1aa5540c03644c2ec61db4c1",
+        "retained_generated_size": [
+          1611,
+          976
+        ],
+        "resolution_cap_scale": 0.9336373420948281,
+        "resolution_capped_size": [
+          1504,
+          911
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          1503,
+          833
+        ],
+        "native_subject_size_evidence": null,
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 5627
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Retained original transparent raw resampled once uniformly to the previously inspected native subject bounds; conservative two-pixel allowance corrects Lanczos extent drift. Rechecked source, white/dark renders: entire long nose, beard strokes, hair curl/collar and joined monkey hands, calves, feet and fingers unchanged. No new extraction or changed pose.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/native-cap-one-pixel-final-proof-1.jpg"
+        ]
+      },
+      "categories": [
+        "animals",
+        "music"
+      ],
+      "subjects": [
+        "monkey",
+        "dance"
+      ],
+      "facing": "mixed",
+      "colors": [
+        "cream",
+        "brown"
+      ],
+      "composition": "multiple-figures",
+      "review_history": [
+        {
+          "round": "quality-reaudit-20261010",
+          "previous_review": {
+            "status": "accepted",
+            "reviewed_on": "2026-10-10",
+            "notes": "Correction round: compared entire scene to the original. Actual interactions remain intact; surrounding parchment, photographic green cast and reverse-page ghosts cleared. Complete limb/foot widths and contact junctions checked on white/dark. AI cleanup approximates small ink texture and paint wear; original source retained."
+          }
+        },
+        {
+          "status": "accepted",
+          "quality_round": "20261010",
+          "notes": "Kept only the hand-holding pair; no independent interacting monkeys. Verified both source gestures, complete hands, both feet/calves and source relative poses. Re-exported without subject upscaling beyond inspected native dimensions; real limb gaps transparent and paint surfaces opaque.",
+          "checks": [
+            "original-source-comparison",
+            "complete-retained-entity",
+            "native-subject-scale",
+            "white-and-dark-backgrounds",
+            "exterior-and-genuine-openings",
+            "fine-props-and-extremities"
+          ],
+          "evidence": "tmp/extraction-work/quality-reaudit-20261010/eight-final-corrections-original-white-dark.jpg"
+        }
+      ],
+      "sets": [
+        {
+          "id": "walters-w88-136r-set",
+          "name": "Walters W.88 Dancing Monkeys",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "Two complete dancing monkeys holding hands, retaining the source joining hands, raised fists, faces, fur markings, both complete bent legs and feet.",
+      "set_label": "Walters W.88 Dancing Monkeys"
+    },
+    {
+      "id": "walters-w88-136r--upper-hooded-head-on-bent-gold-rod",
+      "name": "upper-hooded-head-on-bent-gold-rod",
+      "source_id": "walters-w88-136r",
+      "source_folder": "walters",
+      "asset_type": "decoration",
+      "description": "A finite original manuscript marginal flourish: upper hooded head on bent gold rod. Part of the Walters W.88 Dancing Monkeys set.",
+      "source_region": [
+        548,
+        1388,
+        1580,
+        3482
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        75,
+        44,
+        743,
+        1773
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 668,
+      "height": 1729,
+      "png": "walters/walters-w88-136r--upper-hooded-head-on-bent-gold-rod.png",
+      "png_sha256": "1ffff030e0d1f1d1e15ccd1cfba9870b40e805cf4142ebca5858926a18b78b3f",
+      "provenance": {
+        "institution": "Walters Art Museum",
+        "title": "Dancing monkeys",
+        "object_identifier": "W.88, fol. 136r",
+        "date": "First quarter 14th century CE",
+        "record_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/html/W88/description.html",
+        "image_rights": "CC0 (Digital Walters manuscript images)",
+        "rights_url": "https://www.thedigitalwalters.org/01_ACCESS_WALTERS_MANUSCRIPTS.html",
+        "source_file": "tmp/new-assets/walters/walters-w88-136r--dancing-monkeys--master.tif",
+        "source_sha256": "0ca359b8bb9e459d4ce4b081bab988f943522ac776ec806f69b86008d6b51f9a",
+        "source_metadata": "tmp/new-assets/walters/walters-w88-136r.json",
+        "image_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/W88/data/W.88/master/W88_000277_1200.tif",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. Isolate the upper hooded profile head and its complete slim gold rod down to the original bent blue/gold corner immediately above the decorated capital H. Exclude the ENTIRE H, its horizontal and vertical letter strokes and all text. The original rod with hooded head is an independent marginal flourish; preserve its actual cut at the letter junction, no invented cap. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_extraction": "tmp/extraction-work/walters-w88-136r--upper-hooded-head-on-bent-gold-rod--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "eb55861e2a0139e0c69cfc4335d00fa658d7139bdfe09dd5d0a51dc641f0eb4e",
+        "retained_generated_size": [
+          880,
+          1786
+        ],
+        "resolution_cap_scale": 1,
+        "resolution_capped_size": [
+          880,
+          1786
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          908,
+          2020
+        ],
+        "native_subject_size_evidence": {
+          "method": "Individually inspected native visible subject bounds, excluding input-region whitespace and neighbours.",
+          "preview_subject_bounds": [
+            126,
+            291,
+            310,
+            700
+          ],
+          "preview_size": [
+            1259,
+            1600
+          ],
+          "original_size": [
+            6216,
+            7902
+          ]
+        },
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 5203
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Original ROIs and final white/dark proofs inspected individually. All three original profile heads in the upper connected margin retained; both faces in the long left rod remain correctly oriented. Each hooded/lower head, stem, curl, original worn gilding and colored/pale fill retained; letter H/R/C/P and paper rules excluded. Two finite unequal floral margins retain actual flowering branches, acanthus, vases and fine gilt ivy, with original center/letter panels removed and no fabricated uniform repeat.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/walters-margin-final-ready-results-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/walters-margin-final-ready-results-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/walters-margin-final-ready-results-proof-3.jpg"
+        ]
+      },
+      "categories": [
+        "floral",
+        "scrollwork"
+      ],
+      "subjects": [
+        "flourish",
+        "leaf",
+        "stem",
+        "margin"
+      ],
+      "colors": [
+        "blue",
+        "gold",
+        "pink",
+        "brown",
+        "black"
+      ],
+      "facing": "unclear",
+      "composition": "single-ornament",
+      "usage_notes": "Original independent specimen with printed plate rules and page removed. AI-assisted extraction remains approximate; source bounds, actual native subject cap, original and exact prompt retained.",
+      "sets": [
+        {
+          "id": "walters-w88-136r-set",
+          "name": "Walters W.88 Dancing Monkeys",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A finite original manuscript marginal flourish: upper hooded head on bent gold rod.",
+      "set_label": "Walters W.88 Dancing Monkeys"
+    }
+  ]
+}

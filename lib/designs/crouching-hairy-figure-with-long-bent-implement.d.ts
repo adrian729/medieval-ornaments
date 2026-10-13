@@ -1,0 +1,1 @@
+import type{WholeDesign}from'../common.js';type D=WholeDesign<"crouching-hairy-figure-with-long-bent-implement","webp"|"png","illustration">;export declare const ornament:D['ornament'];export declare const resolveOrnament:D['resolve'];export type ImageOptions=D['imageOptions'];export declare const createOrnamentImage:D['createOrnamentImage'];

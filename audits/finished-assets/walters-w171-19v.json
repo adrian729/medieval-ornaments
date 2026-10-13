@@ -1,0 +1,675 @@
+{
+  "source_id": "walters-w171-19v",
+  "assets": [
+    {
+      "id": "walters-w171-19v--gothic-tiered-fountain-with-water-jets",
+      "name": "gothic-tiered-fountain-with-water-jets",
+      "source_id": "walters-w171-19v",
+      "source_folder": "walters",
+      "asset_type": "illustration",
+      "description": "A gray green Gothic fountain with pointed architectural spire, tiered basins and curved blue water jets. Part of the Walters W.171 Fountain of Life set.",
+      "source_region": [
+        4284,
+        3683,
+        6337,
+        6647
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        54,
+        15,
+        1032,
+        1496
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 978,
+      "height": 1481,
+      "png": "walters/walters-w171-19v--gothic-tiered-fountain-with-water-jets.png",
+      "png_sha256": "f3f312e27daa31922d2fac4e82fd72f9cbee1adc4c4255379cdf74074a7fb2ff",
+      "provenance": {
+        "institution": "Walters Art Museum",
+        "title": "Fountain of life and the four rivers of paradise",
+        "object_identifier": "W.171, fol. 19v",
+        "date": "1400-1404 CE",
+        "record_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/html/W171/description.html",
+        "image_rights": "CC0 (Digital Walters manuscript images)",
+        "rights_url": "https://www.thedigitalwalters.org/01_ACCESS_WALTERS_MANUSCRIPTS.html",
+        "source_file": "tmp/new-assets/walters/walters-w171-19v--fountain-of-life-and-the-four-rivers-of-paradise--master.tif",
+        "source_sha256": "7b8e07b49e49546ff6a8a9e461fec058f6e83b15735aa1c67478d248ab2765c3",
+        "source_metadata": "tmp/new-assets/walters/walters-w171-19v.json",
+        "image_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/W171/data/W.171/master/W171_000042_1200.tif",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. Isolate ONLY the complete original tiered FOUNTAIN, including the full fine central spire, original pointed architectural openings, both tiered basins, all original curved water jets and the water streams at the base. Remove BOTH background trees, every part of the blue decorated O, the flat gold field and all letters/rules. Clear true architectural window/arch openings and gaps between jet streams. Preserve original gray green masonry, worn opaque pale paint and source-visible gold detailing without restoring or brightening the original. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_extraction": "tmp/extraction-work/walters-w171-19v--gothic-tiered-fountain-with-water-jets--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "2ad7b8829d342ccae9fc1f0766c2dc519cdabc285cf12013e0ce5e358298da33",
+        "retained_generated_size": [
+          1044,
+          1507
+        ],
+        "resolution_cap_scale": 1,
+        "resolution_capped_size": [
+          1044,
+          1507
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          1960,
+          2779
+        ],
+        "native_subject_size_evidence": {
+          "method": "Individually inspected native visible subject bounds, excluding input-region whitespace and neighbours.",
+          "preview_subject_bounds": [
+            656,
+            576,
+            953,
+            997
+          ],
+          "preview_size": [
+            1400,
+            1464
+          ],
+          "original_size": [
+            9241,
+            9664
+          ]
+        },
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 10639
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Inspected the complete native original and each light/dark export. Retained all selected source-visible tree trunks, foliage, fruit, fountain architecture and water jets, and complete foliate border strokes, alternating original paint and fine stem ends. Gold background and independent neighboring art removed; painted bodies remain opaque. Finite hand-drawn border branches are whole ornaments, with no invented repeat or corner atlas. The blue line-filler preserves both gold pips and the original right terminal; neighboring red panel is excluded. Native visible subject dimensions cap both axes, with no upscaling.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/fountain-tree-ready-results-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/fountain-tree-ready-results-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/fountain-tree-ready-results-proof-3.jpg"
+        ]
+      },
+      "categories": [
+        "geometric"
+      ],
+      "subjects": [
+        "fountain",
+        "water",
+        "basin",
+        "spire",
+        "architecture"
+      ],
+      "colors": [
+        "gray",
+        "green",
+        "blue",
+        "gold"
+      ],
+      "facing": "unclear",
+      "composition": "standalone",
+      "usage_notes": "Original independent specimen with printed plate rules and page removed. AI-assisted extraction remains approximate; source bounds, actual native subject cap, original and exact prompt retained.",
+      "sets": [
+        {
+          "id": "walters-w171-19v-set",
+          "name": "Walters W.171 Fountain of Life",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A gray green Gothic fountain with pointed architectural spire, tiered basins and curved blue water jets.",
+      "set_label": "Walters W.171 Fountain of Life"
+    },
+    {
+      "id": "walters-w171-19v--left-dark-leafy-tree",
+      "name": "left-dark-leafy-tree",
+      "source_id": "walters-w171-19v",
+      "source_folder": "walters",
+      "asset_type": "illustration",
+      "description": "A small dark green leafy tree with a bent trunk beside the original fountain. Part of the Walters W.171 Fountain of Life set.",
+      "source_region": [
+        4277,
+        4390,
+        5003,
+        5822
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        47,
+        32,
+        672,
+        1334
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 625,
+      "height": 1302,
+      "png": "walters/walters-w171-19v--left-dark-leafy-tree.png",
+      "png_sha256": "5ffc9f4db07140cee90dde5c06c09bee8cae08fef1062926e1b861dd892fdd2f",
+      "provenance": {
+        "institution": "Walters Art Museum",
+        "title": "Fountain of life and the four rivers of paradise",
+        "object_identifier": "W.171, fol. 19v",
+        "date": "1400-1404 CE",
+        "record_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/html/W171/description.html",
+        "image_rights": "CC0 (Digital Walters manuscript images)",
+        "rights_url": "https://www.thedigitalwalters.org/01_ACCESS_WALTERS_MANUSCRIPTS.html",
+        "source_file": "tmp/new-assets/walters/walters-w171-19v--fountain-of-life-and-the-four-rivers-of-paradise--master.tif",
+        "source_sha256": "7b8e07b49e49546ff6a8a9e461fec058f6e83b15735aa1c67478d248ab2765c3",
+        "source_metadata": "tmp/new-assets/walters/walters-w171-19v.json",
+        "image_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/W171/data/W.171/master/W171_000042_1200.tif",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. Isolate ONLY the original small LEFT tree, all source-visible dark leaves and its thin bent trunk. Exclude the fountain, water streams crossing in front, flat gold ground and blue letter. Retain only source-visible trunk and foliage; no invented parts behind the fountain, no new branches or restored leaves. Keep original worn dark paint opaque. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_extraction": "tmp/extraction-work/walters-w171-19v--left-dark-leafy-tree--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "b737350a1629b454b96c011d7fc5b861028a4dfde0ba9314222680eaf6360a34",
+        "retained_generated_size": [
+          893,
+          1761
+        ],
+        "resolution_cap_scale": 0.772972972972973,
+        "resolution_capped_size": [
+          690,
+          1361
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          620,
+          1287
+        ],
+        "native_subject_size_evidence": {
+          "method": "Individually inspected native visible subject bounds, excluding input-region whitespace and neighbours.",
+          "preview_subject_bounds": [
+            657,
+            679,
+            751,
+            874
+          ],
+          "preview_size": [
+            1400,
+            1464
+          ],
+          "original_size": [
+            9241,
+            9664
+          ]
+        },
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 7789
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Inspected the complete native original and each light/dark export. Retained all selected source-visible tree trunks, foliage, fruit, fountain architecture and water jets, and complete foliate border strokes, alternating original paint and fine stem ends. Gold background and independent neighboring art removed; painted bodies remain opaque. Finite hand-drawn border branches are whole ornaments, with no invented repeat or corner atlas. The blue line-filler preserves both gold pips and the original right terminal; neighboring red panel is excluded. Native visible subject dimensions cap both axes, with no upscaling.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/fountain-tree-ready-results-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/fountain-tree-ready-results-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/fountain-tree-ready-results-proof-3.jpg"
+        ]
+      },
+      "categories": [
+        "floral",
+        "botanical"
+      ],
+      "subjects": [
+        "tree",
+        "leaf",
+        "trunk"
+      ],
+      "colors": [
+        "green",
+        "brown",
+        "gray"
+      ],
+      "facing": "unclear",
+      "composition": "standalone",
+      "usage_notes": "Original independent specimen with printed plate rules and page removed. AI-assisted extraction remains approximate; source bounds, actual native subject cap, original and exact prompt retained.",
+      "sets": [
+        {
+          "id": "walters-w171-19v-set",
+          "name": "Walters W.171 Fountain of Life",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A small dark green leafy tree with a bent trunk beside the original fountain.",
+      "set_label": "Walters W.171 Fountain of Life"
+    },
+    {
+      "id": "walters-w171-19v--lower-gold-rod-with-red-blue-and-gold-foliate-branch",
+      "name": "lower-gold-rod-with-red-blue-and-gold-foliate-branch",
+      "source_id": "walters-w171-19v",
+      "source_folder": "walters",
+      "asset_type": "decoration",
+      "description": "A finite lower gold margin rod with red blue and gold foliate branches and fine curls. Part of the Walters W.171 Fountain of Life set.",
+      "source_region": [
+        3056,
+        6132,
+        6852,
+        8892
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        29,
+        9,
+        1428,
+        1036
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 1399,
+      "height": 1027,
+      "png": "walters/walters-w171-19v--lower-gold-rod-with-red-blue-and-gold-foliate-branch.png",
+      "png_sha256": "d02e02a60ad495743afd94946269c48c6b1282fd4bf7f4886a434c22107dc649",
+      "provenance": {
+        "institution": "Walters Art Museum",
+        "title": "Fountain of life and the four rivers of paradise",
+        "object_identifier": "W.171, fol. 19v",
+        "date": "1400-1404 CE",
+        "record_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/html/W171/description.html",
+        "image_rights": "CC0 (Digital Walters manuscript images)",
+        "rights_url": "https://www.thedigitalwalters.org/01_ACCESS_WALTERS_MANUSCRIPTS.html",
+        "source_file": "tmp/new-assets/walters/walters-w171-19v--fountain-of-life-and-the-four-rivers-of-paradise--master.tif",
+        "source_sha256": "7b8e07b49e49546ff6a8a9e461fec058f6e83b15735aa1c67478d248ab2765c3",
+        "source_metadata": "tmp/new-assets/walters/walters-w171-19v.json",
+        "image_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/W171/data/W.171/master/W171_000042_1200.tif",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. Isolate ALL of the original lower marginal ornament: the thin left GOLD/PINK vertical rod below the large decorated initial, the curled foliate terminal immediately at the original letter junction, and the complete lower branching red/pink stem with every original red, blue and gilt leaf. Exclude ALL blue oval letter strokes, the flat gold letter panel, all text and page ruling. Keep actual original ends and source wear; do not invent a cap or new leaves. This is a finite unequal original ornament, not a synthetic repeat. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_extraction": "tmp/extraction-work/walters-w171-19v--lower-gold-rod-with-red-blue-and-gold-foliate-branch--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "187ce8c43bd165b81012aca0cf86a6ff0251a59a465898bd4b1f274fe0536632",
+        "retained_generated_size": [
+          1472,
+          1069
+        ],
+        "resolution_cap_scale": 1,
+        "resolution_capped_size": [
+          1472,
+          1069
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          3663,
+          2614
+        ],
+        "native_subject_size_evidence": {
+          "method": "Individually inspected native visible subject bounds, excluding input-region whitespace and neighbours.",
+          "preview_subject_bounds": [
+            472,
+            941,
+            1027,
+            1337
+          ],
+          "preview_size": [
+            1400,
+            1464
+          ],
+          "original_size": [
+            9241,
+            9664
+          ]
+        },
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 17470
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Inspected the complete native original and each light/dark export. Retained all selected source-visible tree trunks, foliage, fruit, fountain architecture and water jets, and complete foliate border strokes, alternating original paint and fine stem ends. Gold background and independent neighboring art removed; painted bodies remain opaque. Finite hand-drawn border branches are whole ornaments, with no invented repeat or corner atlas. The blue line-filler preserves both gold pips and the original right terminal; neighboring red panel is excluded. Native visible subject dimensions cap both axes, with no upscaling.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/fountain-tree-ready-results-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/fountain-tree-ready-results-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/fountain-tree-ready-results-proof-3.jpg"
+        ]
+      },
+      "categories": [
+        "floral",
+        "scrollwork"
+      ],
+      "subjects": [
+        "rod",
+        "leaf",
+        "stem",
+        "flourish",
+        "margin"
+      ],
+      "colors": [
+        "gold",
+        "red",
+        "blue",
+        "pink",
+        "brown"
+      ],
+      "facing": "unclear",
+      "composition": "single-ornament",
+      "usage_notes": "Original independent specimen with printed plate rules and page removed. AI-assisted extraction remains approximate; source bounds, actual native subject cap, original and exact prompt retained.",
+      "sets": [
+        {
+          "id": "walters-w171-19v-set",
+          "name": "Walters W.171 Fountain of Life",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A finite lower gold margin rod with red blue and gold foliate branches and fine curls.",
+      "set_label": "Walters W.171 Fountain of Life"
+    },
+    {
+      "id": "walters-w171-19v--right-dark-leafy-tree",
+      "name": "right-dark-leafy-tree",
+      "source_id": "walters-w171-19v",
+      "source_folder": "walters",
+      "asset_type": "illustration",
+      "description": "A small dark green leafy tree with a thin curved trunk beside the original fountain. Part of the Walters W.171 Fountain of Life set.",
+      "source_region": [
+        5749,
+        4350,
+        6330,
+        5525
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        10,
+        3,
+        528,
+        733
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 518,
+      "height": 730,
+      "png": "walters/walters-w171-19v--right-dark-leafy-tree.png",
+      "png_sha256": "09d04839281f8929b25f2f6404d21a213967bb4164f0c8a2681b71d0589df773",
+      "provenance": {
+        "institution": "Walters Art Museum",
+        "title": "Fountain of life and the four rivers of paradise",
+        "object_identifier": "W.171, fol. 19v",
+        "date": "1400-1404 CE",
+        "record_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/html/W171/description.html",
+        "image_rights": "CC0 (Digital Walters manuscript images)",
+        "rights_url": "https://www.thedigitalwalters.org/01_ACCESS_WALTERS_MANUSCRIPTS.html",
+        "source_file": "tmp/new-assets/walters/walters-w171-19v--fountain-of-life-and-the-four-rivers-of-paradise--master.tif",
+        "source_sha256": "7b8e07b49e49546ff6a8a9e461fec058f6e83b15735aa1c67478d248ab2765c3",
+        "source_metadata": "tmp/new-assets/walters/walters-w171-19v.json",
+        "image_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/W171/data/W.171/master/W171_000042_1200.tif",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. Isolate ONLY the original small RIGHT tree with its complete source-visible dark crown and thin curved trunk. Exclude the fountain, water streams in front, flat gold ground and decorated blue letter. Original pale/dark wear stays opaque, no restoration or completion of hidden branches. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_extraction": "tmp/extraction-work/walters-w171-19v--right-dark-leafy-tree--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "c677e9ec57628d379ceefe41acab1ecefae98c02bfb21a98e353d4d151ee2ea2",
+        "retained_generated_size": [
+          1071,
+          1468
+        ],
+        "resolution_cap_scale": 0.4990059642147117,
+        "resolution_capped_size": [
+          534,
+          733
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          502,
+          1069
+        ],
+        "native_subject_size_evidence": {
+          "method": "Individually inspected native visible subject bounds, excluding input-region whitespace and neighbours.",
+          "preview_subject_bounds": [
+            879,
+            669,
+            955,
+            831
+          ],
+          "preview_size": [
+            1400,
+            1464
+          ],
+          "original_size": [
+            9241,
+            9664
+          ]
+        },
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 1562
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Inspected the complete native original and each light/dark export. Retained all selected source-visible tree trunks, foliage, fruit, fountain architecture and water jets, and complete foliate border strokes, alternating original paint and fine stem ends. Gold background and independent neighboring art removed; painted bodies remain opaque. Finite hand-drawn border branches are whole ornaments, with no invented repeat or corner atlas. The blue line-filler preserves both gold pips and the original right terminal; neighboring red panel is excluded. Native visible subject dimensions cap both axes, with no upscaling.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/fountain-tree-ready-results-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/fountain-tree-ready-results-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/fountain-tree-ready-results-proof-3.jpg"
+        ]
+      },
+      "categories": [
+        "floral",
+        "botanical"
+      ],
+      "subjects": [
+        "tree",
+        "leaf",
+        "trunk"
+      ],
+      "colors": [
+        "green",
+        "brown",
+        "gray"
+      ],
+      "facing": "unclear",
+      "composition": "standalone",
+      "usage_notes": "Original independent specimen with printed plate rules and page removed. AI-assisted extraction remains approximate; source bounds, actual native subject cap, original and exact prompt retained.",
+      "sets": [
+        {
+          "id": "walters-w171-19v-set",
+          "name": "Walters W.171 Fountain of Life",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A small dark green leafy tree with a thin curved trunk beside the original fountain.",
+      "set_label": "Walters W.171 Fountain of Life"
+    },
+    {
+      "id": "walters-w171-19v--upper-gold-rod-with-red-blue-and-gold-foliate-branch",
+      "name": "upper-gold-rod-with-red-blue-and-gold-foliate-branch",
+      "source_id": "walters-w171-19v",
+      "source_folder": "walters",
+      "asset_type": "decoration",
+      "description": "A finite upper gold margin rod with red blue and gold foliate branches and fine curls. Part of the Walters W.171 Fountain of Life set.",
+      "source_region": [
+        2799,
+        488,
+        6937,
+        4291
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        18,
+        13,
+        1289,
+        1195
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 1271,
+      "height": 1182,
+      "png": "walters/walters-w171-19v--upper-gold-rod-with-red-blue-and-gold-foliate-branch.png",
+      "png_sha256": "07fa62632b0da93b352deb2074e34fda13d8c8e7c3b47be6bdc5db9cb0566b15",
+      "provenance": {
+        "institution": "Walters Art Museum",
+        "title": "Fountain of life and the four rivers of paradise",
+        "object_identifier": "W.171, fol. 19v",
+        "date": "1400-1404 CE",
+        "record_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/html/W171/description.html",
+        "image_rights": "CC0 (Digital Walters manuscript images)",
+        "rights_url": "https://www.thedigitalwalters.org/01_ACCESS_WALTERS_MANUSCRIPTS.html",
+        "source_file": "tmp/new-assets/walters/walters-w171-19v--fountain-of-life-and-the-four-rivers-of-paradise--master.tif",
+        "source_sha256": "7b8e07b49e49546ff6a8a9e461fec058f6e83b15735aa1c67478d248ab2765c3",
+        "source_metadata": "tmp/new-assets/walters/walters-w171-19v.json",
+        "image_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/W171/data/W.171/master/W171_000042_1200.tif",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. Isolate ALL of the original upper marginal ornament: the thin left GOLD/PINK vertical rod, the full top red/pink branching stem with every original red, blue and gilt leaf terminal, both upper and lower curled tips, and the original curled terminal where the rod meets the decorated initial. Exclude ALL blue letter glyph strokes, the large oval initial, the flat gold letter field, all text and page ruling. Retain only actual source-visible endings at the letter junction; no replacement cap, restored gilding, invented leaves or uniform repeating border. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_extraction": "tmp/extraction-work/walters-w171-19v--upper-gold-rod-with-red-blue-and-gold-foliate-branch--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "50743edcf58638d37def51a4b1bbe412abbba20d41b422c0579479ab52405fe8",
+        "retained_generated_size": [
+          1309,
+          1202
+        ],
+        "resolution_cap_scale": 1,
+        "resolution_capped_size": [
+          1309,
+          1202
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          4007,
+          3690
+        ],
+        "native_subject_size_evidence": {
+          "method": "Individually inspected native visible subject bounds, excluding input-region whitespace and neighbours.",
+          "preview_subject_bounds": [
+            433,
+            82,
+            1040,
+            641
+          ],
+          "preview_size": [
+            1400,
+            1464
+          ],
+          "original_size": [
+            9241,
+            9664
+          ]
+        },
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 22259
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Inspected the complete native original and each light/dark export. Retained all selected source-visible tree trunks, foliage, fruit, fountain architecture and water jets, and complete foliate border strokes, alternating original paint and fine stem ends. Gold background and independent neighboring art removed; painted bodies remain opaque. Finite hand-drawn border branches are whole ornaments, with no invented repeat or corner atlas. The blue line-filler preserves both gold pips and the original right terminal; neighboring red panel is excluded. Native visible subject dimensions cap both axes, with no upscaling.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/fountain-tree-ready-results-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/fountain-tree-ready-results-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/fountain-tree-ready-results-proof-3.jpg"
+        ]
+      },
+      "categories": [
+        "floral",
+        "scrollwork"
+      ],
+      "subjects": [
+        "rod",
+        "leaf",
+        "stem",
+        "flourish",
+        "margin"
+      ],
+      "colors": [
+        "gold",
+        "red",
+        "blue",
+        "pink",
+        "brown"
+      ],
+      "facing": "unclear",
+      "composition": "single-ornament",
+      "usage_notes": "Original independent specimen with printed plate rules and page removed. AI-assisted extraction remains approximate; source bounds, actual native subject cap, original and exact prompt retained.",
+      "sets": [
+        {
+          "id": "walters-w171-19v-set",
+          "name": "Walters W.171 Fountain of Life",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A finite upper gold margin rod with red blue and gold foliate branches and fine curls.",
+      "set_label": "Walters W.171 Fountain of Life"
+    }
+  ]
+}

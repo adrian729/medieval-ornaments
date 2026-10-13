@@ -1,0 +1,252 @@
+{
+  "source_id": "nga-3302",
+  "assets": [
+    {
+      "id": "nga-3302--intertwined-hop-vine-and-lobed-leaf-scroll",
+      "name": "intertwined-hop-vine-and-lobed-leaf-scroll",
+      "source_id": "nga-3302",
+      "source_folder": "national-gallery-of-art",
+      "asset_type": "decoration",
+      "description": "An intertwined hop vine and broad curling foliage, with hanging hop cones, serrated leaves and deeply lobed scroll leaves.",
+      "source_region": [
+        0,
+        0,
+        4079,
+        2915
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        0,
+        0,
+        4079,
+        2915
+      ],
+      "export_crop_coordinate_space": "reviewed-native-rule-correction-canvas",
+      "width": 4079,
+      "height": 2915,
+      "png": "national-gallery-of-art/nga-3302--intertwined-hop-vine-and-lobed-leaf-scroll.png",
+      "png_sha256": "93476d30bedfc3374ea8d9d938e3178da77dc13909a14345534bb3a353d2af7b",
+      "provenance": {
+        "institution": "National Gallery of Art, Washington",
+        "title": "Ornament with Hop Vine",
+        "object_identifier": "1943.3.90",
+        "date": "c. 1480/1490",
+        "artist": "Martin Schongauer",
+        "record_url": "https://www.nga.gov/collection/art-object-page.3302.html",
+        "image_rights": "Open Access / public domain; official image dataset openaccess=1",
+        "rights_url": "https://www.nga.gov/artworks/free-images-and-open-access",
+        "source_file": "tmp/new-assets/national-gallery-of-art/nga-3302--ornament-with-hop-vine.jpg",
+        "source_sha256": "3336d71d8e2aa0bab32460bc5bc4a110c1fec95ce4c41d15210dd0dfec17e8e7",
+        "source_metadata": "tmp/new-assets/national-gallery-of-art/nga-3302.json",
+        "image_url": "https://api.nga.gov/iiif/4130d104-3624-44c3-80d5-a3425865e186/full/full/0/default.jpg",
+        "method": "native-ink-matting"
+      },
+      "extraction": {
+        "method": "Native-resolution measured scan ink coverage with continuous alpha and original geometry. SVG trace rejected for print-texture changes.",
+        "source_pixels_repainted": false,
+        "source_rgb_modified": "Paper removed by measured ink coverage; RGB is the scan-measured ink tone, not an exact source-pixel crop.",
+        "paper_kernel": 61,
+        "minimum_coverage": 0.18,
+        "minimum_component_pixels": 12,
+        "settings": {
+          "paper_kernel": 61,
+          "minimum_coverage": 0.18,
+          "minimum_channel_coverage": true,
+          "minimum_component_pixels": 12,
+          "minimum_component_peak": 0.42,
+          "largest_connected_support_join_radius": 4,
+          "fill_connected_support_interiors": true,
+          "paper_kernel_shape": "rectangle"
+        },
+        "exclude_regions": [
+          [
+            2109,
+            2585,
+            2195,
+            2688
+          ],
+          [
+            2205,
+            2590,
+            2270,
+            2679
+          ]
+        ],
+        "export_crop": [
+          3,
+          5,
+          4039,
+          2887
+        ],
+        "ink_color": [
+          61,
+          48,
+          35
+        ],
+        "candidate_png": "tmp/extraction-work/todo-fixes-20261012/nga-3302--intertwined-hop-vine-and-lobed-leaf-scroll--completed-plate-candidate.png",
+        "candidate_svg": "tmp/extraction-work/nga-3302--intertwined-hop-vine-and-lobed-leaf-scroll--native-curves.svg",
+        "vector_method": "Five native measured-opacity layers traced as cubic splines in two 48-pixel-padded native slabs, clipped at one original integer source coordinate. No scaling, new motif geometry or embedded raster.",
+        "status": "native-PNG-reviewed;vector-trial-rejected",
+        "trace_options": {
+          "library": "VTracer 0.6.15",
+          "interpreter": "Python 3.12",
+          "mode": "spline",
+          "filter_speckle": 1,
+          "path_precision": 4,
+          "opacity_layers": 5,
+          "native_padded_slabs": 2,
+          "padding_native_pixels": 48,
+          "rationale": "Whole native trace exceeded VTracer cluster capacity; padded local tracing retains native input pixels and contour context."
+        },
+        "tool": "Native measured ink coverage; no delivered vector",
+        "source_pixels_redrawn": true,
+        "delivered_vector": false,
+        "exclude_polygons": [
+          [
+            [
+              1997,
+              2588
+            ],
+            [
+              2100,
+              2588
+            ],
+            [
+              2100,
+              2679
+            ],
+            [
+              2056,
+              2665
+            ],
+            [
+              2033,
+              2657
+            ],
+            [
+              1997,
+              2657
+            ]
+          ]
+        ],
+        "todo_correction": {
+          "id": "nga-3302--intertwined-hop-vine-and-lobed-leaf-scroll",
+          "candidate": "tmp/extraction-work/todo-fixes-20261012/nga-3302--intertwined-hop-vine-and-lobed-leaf-scroll--completed-plate-candidate.png",
+          "before": "tmp/extraction-work/todo-fixes-20261012/nga-3302--intertwined-hop-vine-and-lobed-leaf-scroll--before.png",
+          "source_region": [
+            0,
+            0,
+            4079,
+            2915
+          ],
+          "original": "tmp/new-assets/national-gallery-of-art/nga-3302--ornament-with-hop-vine.jpg",
+          "recovered_sides": [
+            {
+              "side": "top",
+              "source_axis_intercept_in_expanded_region": 37.0,
+              "slope": 0.0,
+              "observed_original_segment_pixels": 2322,
+              "extent": [
+                8,
+                4064
+              ]
+            },
+            {
+              "side": "bottom",
+              "source_axis_intercept_in_expanded_region": 2877.668667087808,
+              "slope": 0.0015792798483891346,
+              "observed_original_segment_pixels": 3166,
+              "extent": [
+                8,
+                4064
+              ]
+            },
+            {
+              "side": "left",
+              "source_axis_intercept_in_expanded_region": 41.0,
+              "slope": 0.0,
+              "observed_original_segment_pixels": 1405,
+              "extent": [
+                5,
+                2907
+              ]
+            }
+          ],
+          "pixels_added_or_strengthened": 97311,
+          "status": "awaiting-original-white-dark-review",
+          "method": "Recover only observed long plate rules from the original scan in a narrow source-fitted native corridor. The input is expanded 25 pixels to include clipped original ink. Source-measured ink color and coverage; no inferred missing side, generic rectangle, artwork rescaling or changed interior pixels.",
+          "rule_repair": {
+            "missing_native_columns_completed": 2477,
+            "method": "Only absent/faint outside-rule samples (<65 alpha in five-native-pixel corridor) receive the narrow three-pixel ink cross-section of a nearby surviving original printed rule. Decorative hatching and ornament interiors are unchanged."
+          }
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "finished-only-todo-corrections-20261012",
+        "notes": "Original finite engraved composition retained with its source-supported outside plate rules. Clipped rules recovered from adjacent original scan pixels; faint thin-rule gaps narrowly completed with neighboring native ink profiles where recorded. Decorative hatch bands retain original print wear. No generic replacement frame or repeat is inferred.",
+        "checks": [
+          "actual-original-comparison",
+          "native-scale-and-proportions",
+          "complete-figures-and-ornaments",
+          "source-rule-geometry-and-endpoints",
+          "white-and-dark-backgrounds"
+        ],
+        "evidence": [
+          "tmp/extraction-work/todo-fixes-20261012/nga-3302--intertwined-hop-vine-and-lobed-leaf-scroll--recovered-rules-proof.jpg",
+          "tmp/extraction-work/todo-fixes-20261012/completed-plates-final-review-2.jpg"
+        ]
+      },
+      "categories": [
+        "botanical",
+        "floral",
+        "scrollwork"
+      ],
+      "subjects": [
+        "hop",
+        "vine",
+        "leaf",
+        "cone",
+        "scroll"
+      ],
+      "colors": [
+        "brown",
+        "black"
+      ],
+      "facing": "unclear",
+      "composition": "single-ornament",
+      "usage_notes": "Original finite engraved composition retained with its source-supported outside plate rules. Clipped rules recovered from adjacent original scan pixels; faint thin-rule gaps narrowly completed with neighboring native ink profiles where recorded. Decorative hatch bands retain original print wear. No generic replacement frame or repeat is inferred. Finite original decoration; no repeat or corner atlas inferred.",
+      "vector_evaluation": {
+        "status": "rejected-for-native-print-texture-mismatch",
+        "reason": "At native scale the traced opacity layers produce smooth solid bands and faceted patches inside the original grainy printed strokes. This changes source appearance too much for the requested fidelity. Native transparent PNG retained, SVG trial excluded from delivered assets.",
+        "trial": "tmp/extraction-work/nga-3302--intertwined-hop-vine-and-lobed-leaf-scroll--native-curves.svg",
+        "trial_sha256": "ddf976aef896b05a51351ee7c08937aa43636d0eaa178ac85f6105c52ce1e65a",
+        "evidence": "tmp/extraction-work/contour-corrections-20261010/nga-native-vector-join-proof.png"
+      },
+      "review_history": [
+        {
+          "status": "accepted",
+          "quality_round": "native-contours-and-new-assets-20261010",
+          "approval_scope": "Extraction-workflow visual review only; remains provisional for maintainer review.",
+          "checks": [
+            "actual-original-source",
+            "white-and-dark-backgrounds",
+            "complete-entity-and-fine-tips",
+            "native-subject-scale",
+            "opaque-painted-foreground",
+            "transparent-exterior-and-genuine-holes",
+            "contacting-group-policy"
+          ],
+          "notes": "Compared full original intertwined vine with native transparent PNG and rejected editable cubic SVG trial on white and dark. Checked hop cones, serrated and lobed leaves, fine stems and all true holes. Monogram removed with individually inspected exclusions; the M touches the lower vine, so its exclusion follows the vine contour and leaves that original curved stroke intact. No invented seamless repeat. Native-size SVG slab junction checked for clipping or displaced geometry. Native-size vector comparison exposed faceted patches replacing source ink grain. The SVG trial is excluded from delivery; only the native transparent PNG passes the source-appearance review.",
+          "evidence": [
+            "tmp/extraction-work/contour-corrections-20261010/nga-source-native-vector-proof.jpg",
+            "tmp/extraction-work/contour-corrections-20261010/hop-monogram-native-after.png",
+            "tmp/extraction-work/contour-corrections-20261010/nga-native-vector-join-proof.png"
+          ]
+        }
+      ]
+    }
+  ]
+}

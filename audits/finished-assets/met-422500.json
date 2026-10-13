@@ -1,0 +1,113 @@
+{
+  "source_id": "met-422500",
+  "assets": [
+    {
+      "id": "met-422500--sphinxes-and-cornucopias-in-tall-candelabrum",
+      "name": "sphinxes-and-cornucopias-in-tall-candelabrum",
+      "source_id": "met-422500",
+      "source_folder": "met",
+      "asset_type": "decoration",
+      "description": "A tall candelabrum with paired sphinxes, cornucopias, masks and curled leaves.",
+      "source_region": [
+        0,
+        0,
+        1478,
+        3932
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        18,
+        2,
+        749,
+        2027
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 731,
+      "height": 2025,
+      "png": "met/met-422500--sphinxes-and-cornucopias-in-tall-candelabrum.png",
+      "png_sha256": "67a2c3665dd986c2a00e12f2105b2897aa218f532751f9ece6a00472f2b03330",
+      "provenance": {
+        "institution": "Metropolitan Museum of Art",
+        "title": "Vertical Panel with Candelabrum Grotesques Containing Cornucopias and Sphinxes",
+        "object_identifier": "27.23.79",
+        "date": "1552",
+        "artist": "Heinrich Aldegrever",
+        "record_url": "https://www.metmuseum.org/art/collection/search/422500",
+        "image_rights": "CC0 Open Access; isPublicDomain=true",
+        "rights_url": "https://www.metmuseum.org/policies/image-resources",
+        "source_file": "tmp/new-assets/met/met-422500--vertical-panel-with-candelabrum-grotesques-containing-cornucopias-and-sphinxes.jpg",
+        "source_sha256": "ba1b440a570b5eacbbc57e7a6cb995cb86485514c48eb1e801f3176b77181574",
+        "source_metadata": "tmp/new-assets/met/met-422500.json",
+        "image_url": "https://images.metmuseum.org/CRDImages/dp/original/DP836785.jpg",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: background-extraction. Edit target: the referenced ORIGINAL historic engraving for a museum decorative-art collection. Produce a transparent cutout of this exact existing ornament, with all source proportions and engraved detail preserved. Subject: The entire exact original tall ornament: upper urn and scrolls, central masks, all paired cornucopias, and both original lower sphinxes contacting the leaf scrolls. Preserve all source-visible fine details and narrow connections. Remove the tiny lower-center signature panel and surrounding dark background hatch. No new anatomical parts or invented symmetrical foliage. Remove the dense straight crosshatched BACKGROUND field, page paper, outer plate rules, unrelated signatures, date panels and cartouche lettering. Clear every genuine opening between leaves, limbs, wings, stems and scrolls. Foreground curved hatching, original ink texture, pale illustrated surfaces and every real contour stay intact and opaque. Keep every original finger, toe, curl, narrow connecting line, leaf tooth and motif tip. Keep physically contacting figures and shared props together. Do not invent missing source-truncated ends or extend motifs beyond the original. Do not add shading, symmetry, anatomy, detail or generic replacement foliage. Do not redesign, simplify, beautify, sharpen into modern line art, stretch or compress the original height-to-width ratio. Preserve the exact original long narrow arrangement when present. Use fine antialiased edges without paper halos or stepped polygon cuts. Genuine transparent alpha outside and inside the openings; no white rectangle, checkerboard paint, background hatching or shadow.",
+        "retained_generated_extraction": "tmp/extraction-work/met-422500--sphinxes-and-cornucopias-in-tall-candelabrum--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "b1712eb4cf990b12fa188dd9e374b78adb1ae9be80e03c31658cae43fb63f8b4",
+        "retained_generated_size": [
+          769,
+          2045
+        ],
+        "resolution_cap_scale": 1,
+        "resolution_capped_size": [
+          769,
+          2045
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          1478,
+          3932
+        ],
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 58683
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Complete original contacting figures, appendages, props, fine leaf contours and genuine interior openings checked on source/white/dark. Satyrs remain two contacting couples on one original stem; both sphinxes remain joined to their original scroll. Narrow soldier/sheath retains its full pointed end. Printed signatures and dark hatch field removed; original foreground hatching and pale surfaces retained opaque. No generic trace.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/eight-met-dark-generated-results-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/eight-met-dark-generated-results-proof-2.jpg"
+        ]
+      },
+      "categories": [
+        "hybrids",
+        "floral"
+      ],
+      "subjects": [
+        "sphinx",
+        "cornucopia",
+        "mask",
+        "leaf",
+        "scroll"
+      ],
+      "facing": "mixed",
+      "colors": [
+        "black",
+        "brown",
+        "cream"
+      ],
+      "composition": "single-ornament",
+      "usage_notes": "Whole finite source ornament with original contacting figures and shared props retained. No seamless period or new frame corners inferred. AI-assisted extraction is approximate, not a pixel-exact crop; original, exact prompt and native resolution caps retained."
+    }
+  ]
+}

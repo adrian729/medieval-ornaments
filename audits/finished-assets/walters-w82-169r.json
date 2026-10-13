@@ -1,0 +1,134 @@
+{
+  "source_id": "walters-w82-169r",
+  "assets": [
+    {
+      "id": "walters-w82-169r--long-beaked-orange-winged-bird",
+      "name": "long-beaked-orange-winged-bird",
+      "source_id": "walters-w82-169r",
+      "source_folder": "walters",
+      "asset_type": "illustration",
+      "description": "A long-beaked green-gray bird with two orange wings, orange legs and an attached human-headed tail. Part of the Walters W.82 Marginalia set.",
+      "source_region": [
+        2823,
+        5942,
+        4345,
+        7323
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        27,
+        94,
+        1309,
+        1150
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 1282,
+      "height": 1056,
+      "png": "walters/walters-w82-169r--long-beaked-orange-winged-bird.png",
+      "png_sha256": "3c1741faa0e08bcac9345f39fa09d8c41f659e017caa91eaea11f6affa05d252",
+      "provenance": {
+        "institution": "Walters Art Museum",
+        "title": "Initial \"S\" with dying man receiving last rites from abbot; woman dances on shoulder of bagpipe player in margin",
+        "object_identifier": "W.82, fol. 169r",
+        "date": "Ca. 1315-1325 CE",
+        "record_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/html/W82/description.html",
+        "image_rights": "CC0 (Digital Walters manuscript images)",
+        "rights_url": "https://www.thedigitalwalters.org/01_ACCESS_WALTERS_MANUSCRIPTS.html",
+        "source_file": "tmp/new-assets/walters/walters-w82-169r--initial-s-with-dying-man-receiving-last-rites-from-abbot-woman-dances-on-shoulder-of-bagpi--master.tif",
+        "source_sha256": "679e633e351727976c20f756c392c699eee8ccd68bf39c4a808bb694e6f6eded",
+        "source_metadata": "tmp/new-assets/walters/walters-w82-169r.json",
+        "image_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/W82/data/W.82/master/W82_000341_1200.tif",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: background-extraction. Edit target: the referenced ORIGINAL historical manuscript detail. Make a faithful transparent cutout of ONLY the specified complete painted subject. Keep the original pose, proportions, colors, hand-drawn contours and slight scan softness. Preserve every actual limb, prop and delicate painted stroke; do not invent missing parts or new detail. Opaque pale skin/eyes/painted surfaces stay opaque; genuine gaps between limbs and props and around the subject are transparent. Remove all parchment, text, foliate manuscript borders, unrelated neighbor figures, isolated marks and stains. Smooth fine antialiased edges; no coarse binary steps, polygon outlines, paper fringe, black ground line, shadow, sharpened modern cartoon or extra texture. Preserve the original figure aspect and its relative anatomy. Subject: ONE complete green-gray hybrid dragon with a very long toothed horizontal bird beak facing LEFT, long green curling neck, original small dark eye and crest, gray-green rounded body, BOTH orange feathered wings stretched outward/upward, its two original long orange legs and toes below, and the pale curly HUMAN-HEADED tail attached behind the right wing at the lower right. That human head is part of the same original beast; keep its eyes, curls, mouth and beard/skin as painted and all the connecting tail. Preserve BOTH orange wings and their narrow feather tips. The body is not just its green portion; orange wings/legs and pale tail-face also belong to the cutout. Exclude the separate orange flower/foliate stem at left, the blue/red/gold border underneath/behind it and the text above. No simplified wings, missing orange parts, new tail, added body or ground line.",
+        "retained_generated_extraction": "tmp/extraction-work/walters-w82-169r--long-beaked-orange-winged-dragon--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "4746df6578db14c2b98b53e8e6056e2b90e7470ac2e1b21e1e2beae39a10d6a8",
+        "retained_generated_size": [
+          1316,
+          1195
+        ],
+        "resolution_cap_scale": 1,
+        "resolution_capped_size": [
+          1316,
+          1195
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          1480,
+          1190
+        ],
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 9901
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "native-contours-and-new-assets-20261010",
+        "approval_scope": "Extraction-workflow visual review only; remains provisional for maintainer review.",
+        "checks": [
+          "actual-original-source",
+          "white-and-dark-backgrounds",
+          "complete-entity-and-fine-tips",
+          "native-subject-scale",
+          "opaque-painted-foreground",
+          "transparent-exterior-and-genuine-holes",
+          "contacting-group-policy"
+        ],
+        "notes": "Checked the full long beak, green-gray neck and body, both orange wings, both orange feet and toes, and the attached human-headed tail behind the right wing. Pale tail face remains opaque. Removed the nearby separate flower/stem, text and painted border; transparent openings follow the spaces between the original limbs and wings. Built-in image_gen extraction: approximate source texture, tones and small contours are explicitly recorded; no native subject upscaling and no forced SVG redraw.",
+        "evidence": [
+          "tmp/extraction-work/contour-corrections-20261010/walters-five-source-white-dark.jpg"
+        ],
+        "maintainer_identification": [
+          "Maintainer identified this hybrid as a bird, not a dragon."
+        ]
+      },
+      "categories": [
+        "animals",
+        "fantasy",
+        "hybrids"
+      ],
+      "subjects": [
+        "bird",
+        "beak",
+        "wing",
+        "person",
+        "tail",
+        "hybrid"
+      ],
+      "colors": [
+        "green",
+        "gray",
+        "orange",
+        "cream"
+      ],
+      "facing": "mixed",
+      "composition": "single-figure",
+      "usage_notes": "Original source and exact AI extraction prompt retained. This is an AI-assisted approximation, not a pixel-exact crop; minute contours, scan grain and tones can differ. No separately split versions of contacting figures/props. Native subject bounds cap both axes, with no raster upscaling.",
+      "identity_history": [
+        {
+          "previous_id": "walters-w82-169r--long-beaked-orange-winged-dragon",
+          "reason": "Maintainer identified this hybrid as a bird, not a dragon."
+        }
+      ],
+      "sets": [
+        {
+          "id": "walters-w82-marginalia",
+          "name": "Walters W.82 Marginalia",
+          "relation": "same manuscript; each page retains its source identity"
+        }
+      ],
+      "description_before_set_naming": "A long-beaked green-gray bird with two orange wings, orange legs and an attached human-headed tail.",
+      "set_label": "Walters W.82 Marginalia"
+    }
+  ]
+}

@@ -66,3 +66,15 @@ Prefer a restrained pattern for small corners or dense layouts. Use tall standal
 Author attribution is maintained on illustration/raster masters, or in
 `selection-metadata.json` for other ornaments. Refresh metadata without rebuilding
 artwork. Omit unknown authors; this field makes no additional licensing claim.
+
+New historical additions can carry `sets: [{id, name}]`. Search the shared set
+name to find related drawings, original corners or pieces from one manuscript.
+The browser's Set buttons perform this search without restricting the asset
+type. Component downloads name all four corner phases explicitly; use the
+supplied atlas when constructing a frame.
+
+A verified repeat can be **divider-only** when no faithful corners were
+approved. Check `uses.includes('frame')` before offering frame controls;
+`kind: 'repeat-tile'` alone is insufficient. The gold S-leaf/red and white
+vine/blue patterns retain both divider axes and their whole original frame as
+a separate decoration. No corner was invented to fill this capability gap.

@@ -1,0 +1,132 @@
+{
+  "source_id": "nga-5965",
+  "assets": [
+    {
+      "id": "nga-5965--square-floral-ornament-with-circular-medallion",
+      "name": "square-floral-ornament-with-circular-medallion",
+      "source_id": "nga-5965",
+      "source_folder": "national-gallery-of-art",
+      "asset_type": "decoration",
+      "description": "An original square floral ornament surrounding a circular medallion, with curled leaves, flowers and small winged figures.",
+      "source_region": [
+        0,
+        0,
+        2644,
+        2648
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        4,
+        0,
+        1249,
+        1248
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 1245,
+      "height": 1248,
+      "png": "national-gallery-of-art/nga-5965--square-floral-ornament-with-circular-medallion.png",
+      "png_sha256": "40f1dfb91985bf7c7ea40f0be32f2b19ade37971d0ab2e7c7a8ec49adf038638",
+      "provenance": {
+        "institution": "National Gallery of Art, Washington",
+        "title": "Goldsmith's Ornament in Square",
+        "object_identifier": "1943.3.2790",
+        "date": "1580–1699 (catalog year range)",
+        "artist": "M. Christollien",
+        "record_url": "https://www.nga.gov/collection/art-object-page.5965.html",
+        "image_rights": "Open Access / public domain; official image dataset openaccess=1",
+        "rights_url": "https://www.nga.gov/artworks/free-images-and-open-access",
+        "source_file": "tmp/new-assets/national-gallery-of-art/nga-5965--goldsmith-s-ornament-in-square.jpg",
+        "source_sha256": "1ccf601e4ed3f8ef3300c4ac26361e39449a047142dd283d568e94c2e048c860",
+        "source_metadata": "tmp/new-assets/national-gallery-of-art/nga-5965.json",
+        "image_url": null,
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: background-extraction. Edit target: the referenced ORIGINAL historic engraving for a museum decorative-art collection. Produce a transparent cutout of this exact existing ornament, with all source proportions and engraved detail preserved. Subject: The entire ORIGINAL square floral print, retaining every leaf, flower, thin tendril and irregular ink shape; its circular central floral medallion and ring; the square linear framework; all four surrounding sides, original corners, hanging bead chains and the tiny upper winged figures. The original uneven black/brown printed ink itself is the foreground: remove only the pale yellow/brown PAPER field, stains, outer plate edge, bottom-right signature text and empty spaces between ink shapes. Preserve original ink grain, small pale engraved holes and the asymmetry of the four sides. Do not symmetrize, add flowers, regularize curls or replace this with a generic square frame. This is a finite ornament: do not invent a seamless repeat. Remove the dense straight crosshatched BACKGROUND field, page paper, outer plate rules, unrelated signatures, date panels and cartouche lettering. Clear every genuine opening between leaves, limbs, wings, stems and scrolls. Foreground curved hatching, original ink texture, pale illustrated surfaces and every real contour stay intact and opaque. Keep every original finger, toe, curl, narrow connecting line, leaf tooth and motif tip. Keep physically contacting figures and shared props together. Do not invent missing source-truncated ends or extend motifs beyond the original. Do not add shading, symmetry, anatomy, detail or generic replacement foliage. Do not redesign, simplify, beautify, sharpen into modern line art, stretch or compress the original height-to-width ratio. Preserve the exact original long narrow arrangement when present. Use fine antialiased edges without paper halos or stepped polygon cuts. Genuine transparent alpha outside and inside the openings; no white rectangle, checkerboard paint, background hatching or shadow.",
+        "retained_generated_extraction": "tmp/extraction-work/nga-5965--square-floral-ornament-with-circular-medallion--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "db2919188515974d2b8297a420731b4fc87a08f4e969f41dd65c6545a23578ab",
+        "retained_generated_size": [
+          1254,
+          1254
+        ],
+        "resolution_cap_scale": 1,
+        "resolution_capped_size": [
+          1254,
+          1254
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          2644,
+          2648
+        ],
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 104915
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "approval_scope": "Original source comparison; provisional for maintainer review.",
+        "checks": [
+          "complete-source-visible-subject",
+          "original-proportions",
+          "transparent-exterior-and-openings",
+          "opaque-original-paint-surfaces",
+          "thin-original-tips-and-props",
+          "white-and-dark-backgrounds",
+          "native-size-cap"
+        ],
+        "notes": "Compared against the original source and retained all actual leaf tips, painted highlights, thin stems, contacting props and original visible anatomy. The two-faced alchemical figure retains both faces, shared crown, both wings and all three chalice serpent heads; the reclining dragon includes both brown rear wings. AI-assisted texture and contour differences remain explicitly recorded.",
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/twelve-ornament-generated-results-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/twelve-ornament-generated-results-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/twelve-ornament-generated-results-proof-3.jpg"
+        ]
+      },
+      "categories": [
+        "floral"
+      ],
+      "subjects": [
+        "flower",
+        "leaf",
+        "scroll",
+        "medallion",
+        "winged-figure"
+      ],
+      "facing": "mixed",
+      "colors": [
+        "black",
+        "brown",
+        "cream"
+      ],
+      "composition": "single-ornament",
+      "usage_notes": "Whole finite source ornament with original contacting figures and shared props retained. No seamless period or new frame corners inferred. AI-assisted extraction is approximate, not a pixel-exact crop; original, exact prompt and native resolution caps retained.",
+      "selection_history": [
+        {
+          "previous_values": {
+            "categories": [
+              "floral"
+            ],
+            "subjects": [
+              "flower",
+              "leaf",
+              "scroll",
+              "medallion",
+              "winged figure"
+            ],
+            "composition": "single-ornament"
+          },
+          "reason": "Normalize new staging metadata to shared category/composition/subject vocabulary; factual descriptions and original source metadata unchanged."
+        }
+      ]
+    }
+  ]
+}

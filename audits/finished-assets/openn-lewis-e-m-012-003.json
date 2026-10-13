@@ -1,0 +1,160 @@
+{
+  "source_id": "openn-lewis-e-m-012-003",
+  "assets": [
+    {
+      "id": "openn-lewis-e-m-012-003--winged-dragon-with-curling-red-body-and-foliage",
+      "name": "winged-dragon-with-curling-red-body-and-foliage",
+      "source_id": "openn-lewis-e-m-012-003",
+      "source_folder": "openn-free-library",
+      "asset_type": "illustration",
+      "description": "A winged dragon ornament with blue creature heads, an orange wing, a long red and pink curling form with pale dot decoration, a blue foot and attached red, blue and orange foliage.",
+      "source_region": [
+        400,
+        60,
+        1800,
+        1250
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        30,
+        0,
+        1337,
+        1148
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 1307,
+      "height": 1148,
+      "png": "openn-free-library/openn-lewis-e-m-012-003--winged-dragon-with-curling-red-body-and-foliage.png",
+      "png_sha256": "bde22f655ddffd36cb4cecd115b8266fb6f9c39bea6ea373c8d07bdff6537456",
+      "provenance": {
+        "institution": "Free Library of Philadelphia, John Frederick Lewis Collection",
+        "title": "Inhabited initial S",
+        "object_identifier": "Lewis E M 12:3 Inhabited initial S",
+        "date": "(Unknown, 1300-1399)",
+        "record_url": "https://openn.library.upenn.edu/Data/0023/html/lewis_e_m_012_003.html",
+        "image_rights": "Public Domain Mark 1.0; item record explicitly places images in public domain",
+        "rights_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "source_file": "tmp/new-assets/openn-free-library/openn-lewis-e-m-012-003--inhabited-initial-s--master.tif",
+        "source_sha256": "989f9d2595debfe23e6bb1c7691924e5e1fec10a20fd813f48729849438d2abf",
+        "source_metadata": "tmp/new-assets/openn-free-library/openn-lewis-e-m-012-003.json",
+        "image_url": "https://openn.library.upenn.edu/Data/0023/lewis_e_m_012_003/data/master/7528_0000.tif",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: precise-object-edit. Image 1 is the EDIT TARGET: an already extracted complete historical dragon ornament with real transparency. Image 2 is the untouched original for verification only. Make ONE small correction to Image 1: remove the little pointed orange triangular projection protruding leftward around the middle of the left side, just left of the vertical pink-and-blue curled foliate strip and above the lower orange leaves. That triangle is GOLD BACKGROUND in the original, not part of the dragon; it was mistakenly recolored orange during extraction. Make only that triangular background area transparent, following the adjacent original pink/blue foliate silhouette. Preserve every actual attached leaf, curl, the entire long red/pink dotted winding body, both blue heads, orange wing, leg, foot and central foliate spiral. Keep ALL OTHER artwork exactly as Image 1: same drawing, canvas proportions, pixel positions, colors, original wear and ink details. Preserve existing transparency in every exterior and interior opening. Do not redraw, restyle, recolor, simplify, shift or resize the subject and do not delete the winding form as a letter. Output the full corrected extracted ornament on real transparent alpha.",
+        "retained_generated_extraction": "tmp/extraction-work/openn-lewis-e-m-012-003--winged-dragon-with-curling-red-body-and-foliage--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "b34c00459c0bb5b401ce53ea447da2309d509cbacb12e9d262379497c98826c6",
+        "retained_generated_size": [
+          1360,
+          1157
+        ],
+        "resolution_cap_scale": 1,
+        "resolution_capped_size": [
+          1360,
+          1157
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "history": [
+          {
+            "tool": "image_gen.imagegen",
+            "prompt": "Use case: background-extraction. Input: the original historical manuscript detail, NOT the previous incomplete extraction. Extract the COMPLETE connected inhabited dragon ornament onto genuine transparent alpha. Keep the upper-right blue dragon head and pointed ear, full orange wing, visible blue bent leg and foot, the ENTIRE long red/pink white-dotted winding form sweeping across the top, around the left, behind and below the wing, down the right and along the bottom; keep the lower-left blue open-mouthed creature head, all original attached red/blue/orange foliate terminals at left and the central enclosed foliate spiral. The long red/pink winding form and connected extensions are subject artwork: DO NOT delete them as a letter or replace them with a short simplified dragon body. Remove ONLY the flat gold background in every real opening, unconnected rectangular outer frame and geometric corner backing, pale parchment, ruler, chart and page lines. Preserve all original relative positions, exact source outline, folds, original multicolored paint, wear, ink and hatching. Preserve pale painted creature features as opaque; genuine background openings must be transparent. No invention, modernization, isolated generic dragon, smoothing, new anatomy, changed colors, new contours, solid background, shadows or halo. Do not reconstruct any section obscured in the source. Include every existing subject terminal without clipping, with a small transparent outer margin.",
+            "input": "tmp/extraction-work/openn-dragon-full-detail.jpg",
+            "retained_output": "tmp/extraction-work/openn-lewis-e-m-012-003--winged-dragon-with-curling-red-body-and-foliage--initial-ai-extraction.png",
+            "sha256": "ac4a561aa3df3b0738391b37fbc5abb6307569a459a1bb279b031f741cc26f65"
+          },
+          {
+            "tool": "image_gen.imagegen",
+            "prompt": "Use case: precise-object-edit. Image 1 is the EDIT TARGET: an already extracted complete historical dragon ornament with real transparency. Image 2 is the untouched original for verification only. Make ONE small correction to Image 1: remove the little pointed orange triangular projection protruding leftward around the middle of the left side, just left of the vertical pink-and-blue curled foliate strip and above the lower orange leaves. That triangle is GOLD BACKGROUND in the original, not part of the dragon; it was mistakenly recolored orange during extraction. Make only that triangular background area transparent, following the adjacent original pink/blue foliate silhouette. Preserve every actual attached leaf, curl, the entire long red/pink dotted winding body, both blue heads, orange wing, leg, foot and central foliate spiral. Keep ALL OTHER artwork exactly as Image 1: same drawing, canvas proportions, pixel positions, colors, original wear and ink details. Preserve existing transparency in every exterior and interior opening. Do not redraw, restyle, recolor, simplify, shift or resize the subject and do not delete the winding form as a letter. Output the full corrected extracted ornament on real transparent alpha.",
+            "inputs": [
+              "tmp/extraction-work/openn-lewis-e-m-012-003--winged-dragon-with-curling-red-body-and-foliage--initial-ai-extraction.png",
+              "tmp/extraction-work/openn-dragon-full-detail.jpg"
+            ],
+            "retained_output": "tmp/extraction-work/openn-lewis-e-m-012-003--winged-dragon-with-curling-red-body-and-foliage--retained-ai-extraction.png",
+            "sha256": "b34c00459c0bb5b401ce53ea447da2309d509cbacb12e9d262379497c98826c6"
+          }
+        ]
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261010",
+        "notes": "Full source motif compared: winding dotted red/pink body, two blue heads, orange wing, blue limb and attached foliage retained together. Initial square/gilded backdrop removed. AI extraction may alter wear and small contours.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": "tmp/extraction-work/quality-reaudit-20261010/manifest.json"
+      },
+      "categories": [
+        "animals",
+        "fantasy",
+        "floral",
+        "scrollwork"
+      ],
+      "subjects": [
+        "dragon",
+        "creature-head",
+        "bat-wing",
+        "foliage",
+        "curling-body"
+      ],
+      "facing": "mixed",
+      "colors": [
+        "blue",
+        "red",
+        "pink",
+        "orange",
+        "cream",
+        "black"
+      ],
+      "composition": "single-ornament",
+      "usage_notes": "Retains the entire connected inhabited ornament, including the red/pink curling form previously misidentified as removable lettering. Upper winged creature and lower terminal head are intertwined with foliate extensions; no complete hidden anatomy is reconstructed.",
+      "revision": {
+        "reason": "User identified incomplete subject and incorrect color-limited interpretation",
+        "replaces": "openn-lewis-e-m-012-003--orange-winged-blue-dragon",
+        "previous_version": "tmp/extraction-work/retired-compositions/openn-free-library/openn-lewis-e-m-012-003--orange-winged-blue-dragon.json"
+      },
+      "review_history": [
+        {
+          "round": "quality-reaudit-20261010",
+          "previous_review": {
+            "status": "accepted",
+            "reviewed_on": "2026-10-10",
+            "notes": "Correction round: entire original inhabited ornament compared, including the red/pink winding form previously omitted, both blue creature heads, full orange wing, blue foot, side foliage and central spiral. Original frame/gold ground cleared from exterior and real openings; false gold-background pointed projection excluded. AI extraction changes some wear/paint texture; not pixel-exact."
+          }
+        }
+      ],
+      "selection_history": [
+        {
+          "previous_values": {
+            "categories": [
+              "animals",
+              "fantasy",
+              "floral",
+              "scrollwork"
+            ],
+            "subjects": [
+              "dragon",
+              "creature head",
+              "bat wing",
+              "foliage",
+              "curling body"
+            ],
+            "composition": "single-ornament"
+          },
+          "reason": "Normalize new staging metadata to shared category/composition/subject vocabulary; factual descriptions and original source metadata unchanged."
+        }
+      ]
+    }
+  ]
+}

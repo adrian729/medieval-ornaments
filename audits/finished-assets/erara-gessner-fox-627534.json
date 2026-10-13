@@ -1,0 +1,139 @@
+{
+  "source_id": "erara-gessner-fox-627534",
+  "assets": [
+    {
+      "id": "erara-gessner-fox-627534--fox",
+      "name": "fox",
+      "source_id": "erara-gessner-fox-627534",
+      "source_folder": "e-rara-gessner",
+      "asset_type": "illustration",
+      "description": "A fox with its complete bushy tail, paws, pointed muzzle and ears. Part of the Gessner Historiae Animalium set.",
+      "source_region": [
+        293,
+        294,
+        2695,
+        3257
+      ],
+      "rotation_clockwise": 90,
+      "export_crop": [
+        221,
+        222,
+        2718,
+        1697
+      ],
+      "width": 2497,
+      "height": 1475,
+      "png": "e-rara-gessner/erara-gessner-fox-627534--fox.png",
+      "png_sha256": "a8c4da9ef8569238721f225bc5add2dd853c5a0b45f5c9b5a290d1bea1fd61ef",
+      "provenance": {
+        "institution": "Zentralbibliothek Zürich",
+        "title": "Gessner, Historiae animalium: De vulpe.",
+        "object_identifier": "5.1: a-5.3; image 627534; section De vulpe.",
+        "date": "1551–1587",
+        "record_url": "https://www.e-rara.ch/zuz/content/pageview/627534",
+        "image_rights": "Public Domain Mark; parent bibliographic record",
+        "rights_url": "https://www.e-rara.ch/zuz/content/titleinfo/637105",
+        "source_sha256": "bd742a3cc7d9655c2dd1efe83b5bc8ef24bb68ef7ad03eea3d19603138ceddcd",
+        "source_file": "tmp/new-assets/e-rara-gessner/erara-gessner-fox-627534--gessner-historiae-animalium-de-vulpe.jpg",
+        "source_metadata": "tmp/new-assets/e-rara-gessner/erara-gessner-fox-627534.json",
+        "image_url": "https://www.e-rara.ch/i3f/v20/627534/full/full/0/default.jpg",
+        "method": "source-pixel-extraction-with-ai-assisted-selection-mask"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: precise-object-edit. Output ONLY an original-aligned two-color foreground selection matte. Preserve EXACTLY this input’s aspect ratio, size relationships, positions, pose and every contour. No recentering or reconstruction. Solid vivid MAGENTA #ff00ff selects the complete original animal illustration; solid CYAN #00ffff excludes ALL page paper, letters, text, caption, print showing through from the other page, stains and actual openings between limbs and around the tail or trunk. Select A fox with its complete bushy tail, paws, pointed muzzle and ears. The selected animal must be a FEATURELESS SOLID MAGENTA silhouette: every interior pale illustrated body surface, eye, dark ink line and hatch must be magenta with no copied internal features. Actual exterior page and genuine spaces between feet, tail, trunk or antler branches must remain cyan. Include every thin whisker, toe, claw, tip and hair at its original position. Do not simplify, move, enlarge, redraw or add anything. No white or black or other colors, no text on the mask. Exclude the horizontal ground hatching, cast shadows, ruled lines and lettering outside the animal’s actual contour.",
+        "selection_mask": "tmp/extraction-work/erara-gessner-fox-627534--fox--selection-mask.png",
+        "selection_mask_sha256": "10e4c46a9b0b2857466c237ea478ae8b22f88badad690b5acc7faa623447bc95",
+        "mask_dimensions": [
+          1393,
+          1129
+        ],
+        "mask_application": "binary selection resized to native source region; only alpha changed",
+        "mask_source_region": [
+          293,
+          294,
+          2695,
+          3257
+        ],
+        "mask_encoding": "magenta-on-cyan",
+        "native_stroke_correction": null,
+        "native_paper_cleanup": null,
+        "native_boundary_refinement": null,
+        "mask_preprocessing": {
+          "fill_internal_holes_below_px": 250,
+          "remove_islands_below_px": 30
+        },
+        "native_rgb_verification": "all alpha-visible RGB values exactly equal the recorded native source crop; fully transparent RGB cleared",
+        "source_color_profile_preserved": true,
+        "source_pixels_repainted": false
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261010",
+        "notes": "Native overlay confirms nose, whiskers, both ears, back fur, complete tail, front paws and exposed rear toes. External ground/caption excluded.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": "tmp/extraction-work/quality-reaudit-20261010/manifest.json"
+      },
+      "categories": [
+        "animals"
+      ],
+      "subjects": [
+        "fox"
+      ],
+      "facing": "right",
+      "colors": [
+        "brown",
+        "cream"
+      ],
+      "composition": "single-figure",
+      "vector_review": {
+        "status": "accepted",
+        "method": "Editable native-color VTracer paths with eight-layer native PNG alpha contour mask, excluding opaque hidden pixels and stray trace islands.",
+        "premultiplied_rgb_error_at_review_resolution": 0.01865958752770299,
+        "alpha_error_at_review_resolution": 0.0008189263613546991,
+        "limitation": "Contours and scan tones are approximate. PNG retains original native source RGB and remains the preferred fidelity master.",
+        "embedded_raster": false,
+        "quality_round": "20261010"
+      },
+      "svg": "e-rara-gessner/erara-gessner-fox-627534--fox.svg",
+      "svg_sha256": "2afa754ccf4ad015ae6676d3a0bbea7717fad5f39f10b53f28c9123bdc6f67b3",
+      "review_history": [
+        {
+          "round": "quality-reaudit-20261010",
+          "previous_review": {
+            "status": "accepted",
+            "reviewed_on": "2026-10-10T11:45:29.482766+00:00",
+            "notes": "Compared the complete animal against its source, checked corrected orientation, fur/ear/tail tips and paws, and inspected transparent exterior and true spaces between limbs on light and dark backgrounds. Native source RGB retained; SVG evaluation remains pending.",
+            "checks": [
+              "original-source-comparison",
+              "white-background",
+              "dark-background",
+              "outer-contours",
+              "interior-openings",
+              "thin-details",
+              "original-rgb-equality"
+            ]
+          }
+        }
+      ],
+      "sets": [
+        {
+          "id": "gessner-historiae-animalium",
+          "name": "Gessner Historiae Animalium",
+          "relation": "same historical zoological work and illustration family"
+        }
+      ],
+      "description_before_set_naming": "A fox with its complete bushy tail, paws, pointed muzzle and ears.",
+      "set_label": "Gessner Historiae Animalium"
+    }
+  ]
+}

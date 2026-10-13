@@ -64,7 +64,9 @@ const illustrationNames = items.filter(item => item.asset_type === 'illustration
 const categories = [...new Set(items.flatMap(item => item.categories))].sort();
 const declarations = `// Generated design/capability types; edit scripts/build-library.mjs.
 export type DesignName = RepeatDesignName | WholeDesignName;
-export type RepeatDesignName = ${union(repeats)};
+export type FrameDesignName = ${union(items.filter(item => item.uses.includes('frame')).map(item => item.name))};
+export type DividerOnlyDesignName = ${union(items.filter(item => item.uses.includes('divider') && !item.uses.includes('frame')).map(item => item.name))};
+export type RepeatDesignName = FrameDesignName | DividerOnlyDesignName;
 export type WholeDesignName = ${union(items.filter(item => item.kind === 'standalone' && item.asset_type !== 'illustration').map(item => item.name))} | IllustrationDesignName;
 export type IllustrationDesignName = ${union(illustrationNames)};
 export type Category = ${union(categories)};
@@ -91,7 +93,7 @@ export interface Provenance {
   readonly date: string; readonly artist?: string; readonly record_url: string;
   readonly image_url?: string; readonly image_rights: string; readonly rights_url: string;
   readonly source_sha256?: string;
-  readonly method: 'ai-assisted-extraction' | 'independent-ai-interpretation';
+  readonly method: 'ai-assisted-extraction' | 'independent-ai-interpretation' | 'native-source-extraction' | 'native-ink-extraction' | 'native-source-repeat' | 'ai-assisted-source-mask' | 'mixed-source-extraction';
   readonly audit: string;
 }
 export interface Ornament extends Asset {
@@ -101,15 +103,16 @@ export interface Ornament extends Asset {
   readonly asset_type: AssetType; readonly has_transparency: boolean; readonly usage_notes: readonly string[];
   readonly kind: 'standalone' | 'repeat-tile'; readonly derivation: string;
   readonly uses: readonly OrnamentUse[]; readonly formats: readonly Exclude<Format, 'auto'>[];
-  readonly components: Readonly<Partial<Record<'border_image' | 'corner' | 'rotated_tile' | 'reference_crop', Asset>>>;
+  readonly components: Readonly<Partial<Record<'border_image' | 'corner' | 'rotated_tile' | 'reference_crop' | 'bar' | 'rotated_bar' | 'corner-top-left' | 'corner-top-right' | 'corner-bottom-left' | 'corner-bottom-right', Asset>>>;
   readonly border_image_slice_percent?: number; readonly reference?: string;
   readonly provenance?: Provenance;
   readonly author?: string;
+  readonly sets?: readonly { readonly id: string; readonly name: string }[];
 }
 export interface RepeatOrnament extends Ornament {
   readonly name: RepeatDesignName; readonly kind: 'repeat-tile';
   readonly uses: readonly ('frame' | 'divider')[]; readonly repeat_axis: 'x' | 'y';
-  readonly repeat_ratio: number; readonly border_image_slice_percent: number;
+  readonly repeat_ratio: number; readonly border_image_slice_percent?: number;
 }
 export interface WholeOrnament extends Ornament {
   readonly name: WholeDesignName; readonly kind: 'standalone';
@@ -118,7 +121,7 @@ export interface WholeOrnament extends Ornament {
 export interface CommonOptions {
   size?: number; format?: Format; pixelRatio?: number; assetsBase?: string; loading?: 'eager' | 'lazy';
 }
-export interface FrameOptions extends CommonOptions { design: RepeatDesignName; }
+export interface FrameOptions extends CommonOptions { design: FrameDesignName; }
 export interface DividerOptions extends CommonOptions { design: RepeatDesignName; orientation?: Orientation; length?: number | string; }
 export interface ImageOptions extends CommonOptions { design: WholeDesignName; alt?: string; decoding?: 'auto' | 'sync' | 'async'; fetchPriority?: 'auto' | 'high' | 'low'; }
 export interface SelectionFilters {
@@ -162,7 +165,7 @@ export declare function createOrnamentImage(element: HTMLImageElement, options: 
 `;
 await writeFile(new URL('lib/index.d.ts', root), declarations);
 const common = declarations.slice(declarations.indexOf('export type AssetType'), declarations.indexOf('export declare const version'))
-  .replace(/\b(?:DesignName|RepeatDesignName|WholeDesignName|Category)\b/g, 'string')
+  .replace(/\b(?:DesignName|FrameDesignName|DividerOnlyDesignName|RepeatDesignName|WholeDesignName|Category)\b/g, 'string')
   .replace(/readonly (png|webp|png_bytes|webp_bytes):/g, 'readonly $1?:');
 const boundTypes = `
 type BoundOptions<Base, Name extends string, Available extends Exclude<Format, 'auto'>> = Omit<Base, 'design' | 'format'> & { design?: Name; format?: 'auto' | Available };
@@ -175,6 +178,12 @@ export interface RepeatDesign<Name extends string, Available extends Exclude<For
     (use: 'divider', options?: BoundOptions<DividerOptions, Name, Available>): ResolvedOrnament;
   };
   createFrame: (element: HTMLElement, options?: BoundOptions<FrameOptions, Name, Available>) => OrnamentController<BoundOptions<FrameOptions, Name, Available>>;
+  createDivider: (element: HTMLElement, options?: BoundOptions<DividerOptions, Name, Available>) => OrnamentController<BoundOptions<DividerOptions, Name, Available>>;
+}
+export interface DividerDesign<Name extends string, Available extends Exclude<Format, 'auto'>, Type extends AssetType = 'border'> {
+  ornament: RepeatOrnament & { readonly name: Name; readonly asset_type: Type; readonly uses: readonly 'divider'[] };
+  dividerOptions: BoundOptions<DividerOptions, Name, Available>;
+  resolve: (use: 'divider', options?: BoundOptions<DividerOptions, Name, Available>) => ResolvedOrnament;
   createDivider: (element: HTMLElement, options?: BoundOptions<DividerOptions, Name, Available>) => OrnamentController<BoundOptions<DividerOptions, Name, Available>>;
 }
 export interface WholeDesign<Name extends string, Available extends Exclude<Format, 'auto'>, Type extends AssetType> {

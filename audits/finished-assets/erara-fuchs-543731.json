@@ -1,0 +1,171 @@
+{
+  "source_id": "erara-fuchs-543731",
+  "assets": [
+    {
+      "id": "erara-fuchs-543731--alsine-media",
+      "name": "alsine-media",
+      "source_id": "erara-fuchs-543731",
+      "source_folder": "e-rara-fuchs",
+      "asset_type": "illustration",
+      "description": "The complete original alsine media botanical woodcut, retaining all connected stems, leaves, flowers and roots. Source captions and reverse-side printing excluded. Part of the Fuchs 1542 Herbal set.",
+      "source_region": [
+        1410,
+        819,
+        3185,
+        3291
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        30,
+        23,
+        1755,
+        2457
+      ],
+      "export_crop_coordinate_space": "source-region",
+      "width": 1725,
+      "height": 2434,
+      "png": "e-rara-fuchs/erara-fuchs-543731--alsine-media.png",
+      "png_sha256": "3a75e7fd8adddc9641052dc289c879db506116e0de6a41148a27207991a1aeca",
+      "provenance": {
+        "institution": "Universitätsbibliothek Basel",
+        "title": "Fuchs, De historia stirpium: Alsine media (scan [54])",
+        "object_identifier": "UBH Lo I 4; scan [54]; image 543731",
+        "date": "1542",
+        "record_url": "https://www.e-rara.ch/bau_1/content/pageview/543731",
+        "image_rights": "Public Domain Mark; parent bibliographic record",
+        "rights_url": "https://www.e-rara.ch/bau_1/content/titleinfo/543675",
+        "source_file": "tmp/new-assets/e-rara-fuchs/erara-fuchs-543731--fuchs-de-historia-stirpium-scan-54.jpg",
+        "source_sha256": "42344af7b1741c70d0d5c1757f62e9770dc151f920de9cf46b2675499f1103e1",
+        "source_metadata": "tmp/new-assets/e-rara-fuchs/erara-fuchs-543731.json",
+        "image_url": "https://www.e-rara.ch/i3f/v20/543731/full/full/0/default.jpg",
+        "method": "native-ink-matting-and-editable-source-contour-trace"
+      },
+      "extraction": {
+        "native_png": "tmp/extraction-work/erara-fuchs-543731--alsine-media--lineart-native.png",
+        "export_crop": [
+          30,
+          23,
+          1755,
+          2457
+        ],
+        "ink_color": [
+          64,
+          55,
+          43
+        ],
+        "method": "native ink coverage relative to locally measured paper; eight opacity contour layers",
+        "background_estimation_kernel": 61,
+        "minimum_ink_coverage": 0.18,
+        "component_join_radius": 12,
+        "trace_layers": [
+          "tmp/extraction-work/erara-fuchs-543731--alsine-media--trace-layer-1.png",
+          "tmp/extraction-work/erara-fuchs-543731--alsine-media--trace-layer-2.png",
+          "tmp/extraction-work/erara-fuchs-543731--alsine-media--trace-layer-3.png",
+          "tmp/extraction-work/erara-fuchs-543731--alsine-media--trace-layer-4.png",
+          "tmp/extraction-work/erara-fuchs-543731--alsine-media--trace-layer-5.png",
+          "tmp/extraction-work/erara-fuchs-543731--alsine-media--trace-layer-6.png",
+          "tmp/extraction-work/erara-fuchs-543731--alsine-media--trace-layer-7.png",
+          "tmp/extraction-work/erara-fuchs-543731--alsine-media--trace-layer-8.png"
+        ],
+        "native_size": [
+          1725,
+          2434
+        ],
+        "candidate_svg": "tmp/extraction-work/erara-fuchs-543731--alsine-media--lineart-candidate.svg",
+        "vector_method": "Five-layer native ink-opacity contour tracing, 0.25px geometric approximation, genuine editable paths without raster embedding",
+        "strong_ink_threshold": 0.36,
+        "strong_ink_support_radius_native_pixels": 3,
+        "preview_vector_premultiplied_rgb_mean_error": 0.0029269081658322973,
+        "tool": "native source ink analysis / OpenCV editable contours",
+        "source_pixels_redrawn": false,
+        "source_rgb_modified": "Original printed ink isolated from measured scan paper, then represented by its measured ink tone and native opacity. No new leaves, stems, flowers, roots or ink shapes."
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261010",
+        "notes": "Compared all printed branches, leaf/flower tips, fine stalks and roots against original scan and retained SVG render. Native ink geometry preserved, caption/reverse-page ghost text excluded, all unprinted paper transparent; extraction bytes unchanged.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": "tmp/extraction-work/quality-reaudit-20261010/manifest.json"
+      },
+      "categories": [
+        "botanical",
+        "floral"
+      ],
+      "subjects": [
+        "alsine-media",
+        "plant",
+        "leaf",
+        "root"
+      ],
+      "facing": "unclear",
+      "colors": [
+        "brown",
+        "black"
+      ],
+      "composition": "standalone",
+      "usage_notes": "One plant with connected shoots and roots. Its branches are not separate plants and no repeat period is inferred. Transparent line artwork preserves the actual printed ink contours.",
+      "svg": "e-rara-fuchs/erara-fuchs-543731--alsine-media.svg",
+      "svg_sha256": "0ddbf259a9cb7f51f06edc3dd60df4b7eaef6105a011ada5d7df6565051fc1c6",
+      "vector_review": {
+        "status": "accepted",
+        "method": "Five-layer native ink-opacity contour tracing, 0.25px geometric approximation, genuine editable paths without raster embedding",
+        "embedded_raster": false,
+        "preview_premultiplied_rgb_mean_error": 0.0029269081658322973
+      },
+      "review_history": [
+        {
+          "round": "quality-reaudit-20261010",
+          "previous_review": {
+            "status": "accepted",
+            "reviewed_on": "2026-10-10T13:28:01.884877+00:00",
+            "checks": [
+              "complete-source-plant-comparison",
+              "leaf-flower-root-tips",
+              "no-caption-or-page-ground",
+              "no-reverse-side-illustration",
+              "native-transparent-line-art",
+              "rendered-editable-SVG-comparison"
+            ],
+            "notes": "Freshly inspected the complete source plant, native ink result and rendered SVG. Connected shoots and roots remain one illustration; captions and reverse-side page material are excluded. Weak original print lines are retained without inventing missing sections."
+          }
+        }
+      ],
+      "selection_history": [
+        {
+          "previous_values": {
+            "categories": [
+              "botanical",
+              "floral"
+            ],
+            "subjects": [
+              "alsine media",
+              "plant",
+              "leaf",
+              "root"
+            ],
+            "composition": "standalone"
+          },
+          "reason": "Normalize new staging metadata to shared category/composition/subject vocabulary; factual descriptions and original source metadata unchanged."
+        }
+      ],
+      "sets": [
+        {
+          "id": "fuchs-1542-herbal",
+          "name": "Fuchs 1542 Herbal",
+          "relation": "same historical botanical volume and illustration style"
+        }
+      ],
+      "description_before_set_naming": "The complete original alsine media botanical woodcut, retaining all connected stems, leaves, flowers and roots. Source captions and reverse-side printing excluded.",
+      "set_label": "Fuchs 1542 Herbal"
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "source_id": "nga-831",
+  "assets": [
+    {
+      "id": "nga-831--large-bearded-mask-with-paired-leafy-heads",
+      "name": "large-bearded-mask-with-paired-leafy-heads",
+      "source_id": "nga-831",
+      "source_folder": "national-gallery-of-art",
+      "asset_type": "decoration",
+      "description": "A large bearded mask with a curled crown and paired long-beaked foliate heads.",
+      "source_region": [
+        0,
+        0,
+        3644,
+        2396
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        12,
+        5,
+        1537,
+        1004
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 1525,
+      "height": 999,
+      "png": "national-gallery-of-art/nga-831--large-bearded-mask-with-paired-leafy-heads.png",
+      "png_sha256": "dfe4edbc011fe481ae545297e87b9ddb345b0561667e4dac2991581371b2edc5",
+      "provenance": {
+        "institution": "National Gallery of Art, Washington",
+        "title": "Ornament Panel with a Large Bearded Mask",
+        "object_identifier": "1941.2.6",
+        "date": "1543",
+        "artist": "Sebald Beham",
+        "record_url": "https://www.nga.gov/collection/art-object-page.831.html",
+        "image_rights": "Open Access / public domain; official image dataset openaccess=1",
+        "rights_url": "https://www.nga.gov/artworks/free-images-and-open-access",
+        "source_file": "tmp/new-assets/national-gallery-of-art/nga-831--ornament-panel-with-a-large-bearded-mask.jpg",
+        "source_sha256": "76395ee2c7ec392e3f7ce9d48e5f9c76278489908e52c0692d4d1f0831409f01",
+        "source_metadata": "tmp/new-assets/national-gallery-of-art/nga-831.json",
+        "image_url": null,
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: background-extraction. Edit target: the referenced ORIGINAL historic engraving for a museum decorative-art collection. Produce a transparent cutout of this exact existing ornament, with all source proportions and engraved detail preserved. Subject: The full original large central open-mouthed bearded mask, its curved crown and twisted band, all hair/beard strands, both large long-beaked foliate heads on the sides and every connecting leaf scroll. Remove the small lower HSB signature cartouche and separate edition number without cutting nearby real leaves. Remove the dense straight crosshatched BACKGROUND field, page paper, outer plate rules, unrelated signatures, date panels and cartouche lettering. Clear every genuine opening between leaves, limbs, wings, stems and scrolls. Foreground curved hatching, original ink texture, pale illustrated surfaces and every real contour stay intact and opaque. Keep every original finger, toe, curl, narrow connecting line, leaf tooth and motif tip. Keep physically contacting figures and shared props together. Do not invent missing source-truncated ends or extend motifs beyond the original. Do not add shading, symmetry, anatomy, detail or generic replacement foliage. Do not redesign, simplify, beautify, sharpen into modern line art, stretch or compress the original height-to-width ratio. Preserve the exact original long narrow arrangement when present. Use fine antialiased edges without paper halos or stepped polygon cuts. Genuine transparent alpha outside and inside the openings; no white rectangle, checkerboard paint, background hatching or shadow.",
+        "retained_generated_extraction": "tmp/extraction-work/nga-831--large-bearded-mask-with-paired-leafy-heads--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "7cf83e1a80447b20770d2d6f2ecf1840f063116ea52b6cfd64d581a521939d41",
+        "retained_generated_size": [
+          1546,
+          1017
+        ],
+        "resolution_cap_scale": 1,
+        "resolution_capped_size": [
+          1546,
+          1017
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          3644,
+          2396
+        ],
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 29890
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "approval_scope": "Extraction-workflow original source comparison; provisional for maintainer review.",
+        "checks": [
+          "complete-original-motif",
+          "original-proportions",
+          "clear-background-and-internal-openings",
+          "opaque-engraved-surfaces",
+          "white-and-dark-backgrounds",
+          "native-size-cap"
+        ],
+        "notes": "All original foreground figures, motifs and connected props checked against the full-size source. NGA 4270 retains all six human heads/torsos and their original contacting mounts and foliate frieze as one group. Original grain and tones remain explicitly recorded AI-assisted approximations; no vector or seamless repeat inferred.",
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/nga-ten-generated-results-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/nga-ten-generated-results-proof-2.jpg"
+        ]
+      },
+      "categories": [
+        "floral",
+        "fantasy"
+      ],
+      "subjects": [
+        "mask",
+        "beard",
+        "head",
+        "leaf",
+        "scroll"
+      ],
+      "facing": "mixed",
+      "colors": [
+        "black",
+        "brown",
+        "cream"
+      ],
+      "composition": "single-ornament",
+      "usage_notes": "Whole finite source ornament with original contacting figures and shared props retained. No seamless period or new frame corners inferred. AI-assisted extraction is approximate, not a pixel-exact crop; original, exact prompt and native resolution caps retained."
+    }
+  ]
+}

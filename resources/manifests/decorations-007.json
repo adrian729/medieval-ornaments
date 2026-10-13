@@ -1,0 +1,2687 @@
+{
+  "schemaVersion": 2,
+  "id": "decorations-007",
+  "collection": "decorations",
+  "package": "@ranx729/medieval-ornaments-assets-decorations-007",
+  "version": "0.1.0",
+  "designs": {
+    "acanthus-tree-of-jesse-with-crowned-figures": {
+      "name": "acanthus-tree-of-jesse-with-crowned-figures",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-source-extraction",
+      "repeat_axis": "none",
+      "width": 4004,
+      "height": 1741,
+      "png": "png/acanthus-tree-of-jesse-with-crowned-figures.png",
+      "webp": "webp/acanthus-tree-of-jesse-with-crowned-figures.webp",
+      "png_bytes": 12777203,
+      "webp_bytes": 7683242,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/acanthus-tree-of-jesse-with-crowned-figures.png",
+          "webp": "webp/128/acanthus-tree-of-jesse-with-crowned-figures.webp",
+          "width": 128,
+          "height": 56,
+          "png_bytes": 26417,
+          "webp_bytes": 18300
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/acanthus-tree-of-jesse-with-crowned-figures.png",
+          "webp": "webp/256/acanthus-tree-of-jesse-with-crowned-figures.webp",
+          "width": 256,
+          "height": 111,
+          "png_bytes": 99586,
+          "webp_bytes": 64962
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/acanthus-tree-of-jesse-with-crowned-figures.png",
+          "webp": "webp/512/acanthus-tree-of-jesse-with-crowned-figures.webp",
+          "width": 512,
+          "height": 223,
+          "png_bytes": 355133,
+          "webp_bytes": 229550
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/acanthus-tree-of-jesse-with-crowned-figures.png",
+          "webp": "webp/768/acanthus-tree-of-jesse-with-crowned-figures.webp",
+          "width": 768,
+          "height": 334,
+          "png_bytes": 726508,
+          "webp_bytes": 484864
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "animals-in-finite-leafy-frieze": {
+      "name": "animals-in-finite-leafy-frieze",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 477,
+      "height": 82,
+      "png": "png/animals-in-finite-leafy-frieze.png",
+      "webp": "webp/animals-in-finite-leafy-frieze.webp",
+      "png_bytes": 93858,
+      "webp_bytes": 61086,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/animals-in-finite-leafy-frieze.png",
+          "webp": "webp/128/animals-in-finite-leafy-frieze.webp",
+          "width": 128,
+          "height": 22,
+          "png_bytes": 8811,
+          "webp_bytes": 6168
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/animals-in-finite-leafy-frieze.png",
+          "webp": "webp/256/animals-in-finite-leafy-frieze.webp",
+          "width": 256,
+          "height": 44,
+          "png_bytes": 30382,
+          "webp_bytes": 20774
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "birds-on-flowering-scroll-frieze": {
+      "name": "birds-on-flowering-scroll-frieze",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 475,
+      "height": 113,
+      "png": "png/birds-on-flowering-scroll-frieze.png",
+      "webp": "webp/birds-on-flowering-scroll-frieze.webp",
+      "png_bytes": 129403,
+      "webp_bytes": 84132,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/birds-on-flowering-scroll-frieze.png",
+          "webp": "webp/128/birds-on-flowering-scroll-frieze.webp",
+          "width": 128,
+          "height": 30,
+          "png_bytes": 12215,
+          "webp_bytes": 8256
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/birds-on-flowering-scroll-frieze.png",
+          "webp": "webp/256/birds-on-flowering-scroll-frieze.webp",
+          "width": 256,
+          "height": 61,
+          "png_bytes": 43518,
+          "webp_bytes": 28206
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "branching-scroll-with-broad-lobed-leaves": {
+      "name": "branching-scroll-with-broad-lobed-leaves",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 469,
+      "height": 349,
+      "png": "png/branching-scroll-with-broad-lobed-leaves.png",
+      "webp": "webp/branching-scroll-with-broad-lobed-leaves.webp",
+      "png_bytes": 350116,
+      "webp_bytes": 229072,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/branching-scroll-with-broad-lobed-leaves.png",
+          "webp": "webp/128/branching-scroll-with-broad-lobed-leaves.webp",
+          "width": 128,
+          "height": 95,
+          "png_bytes": 36549,
+          "webp_bytes": 24932
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/branching-scroll-with-broad-lobed-leaves.png",
+          "webp": "webp/256/branching-scroll-with-broad-lobed-leaves.webp",
+          "width": 256,
+          "height": 191,
+          "png_bytes": 120996,
+          "webp_bytes": 86724
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "circular-acanthus-and-grotesque-ornament": {
+      "name": "circular-acanthus-and-grotesque-ornament",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 1235,
+      "height": 1274,
+      "png": "png/circular-acanthus-and-grotesque-ornament.png",
+      "webp": "webp/circular-acanthus-and-grotesque-ornament.webp",
+      "png_bytes": 2895400,
+      "webp_bytes": 2025872,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/circular-acanthus-and-grotesque-ornament.png",
+          "webp": "webp/128/circular-acanthus-and-grotesque-ornament.webp",
+          "width": 124,
+          "height": 128,
+          "png_bytes": 41094,
+          "webp_bytes": 28920
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/circular-acanthus-and-grotesque-ornament.png",
+          "webp": "webp/256/circular-acanthus-and-grotesque-ornament.webp",
+          "width": 248,
+          "height": 256,
+          "png_bytes": 150124,
+          "webp_bytes": 107856
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/circular-acanthus-and-grotesque-ornament.png",
+          "webp": "webp/512/circular-acanthus-and-grotesque-ornament.webp",
+          "width": 496,
+          "height": 512,
+          "png_bytes": 540657,
+          "webp_bytes": 368668
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/circular-acanthus-and-grotesque-ornament.png",
+          "webp": "webp/768/circular-acanthus-and-grotesque-ornament.webp",
+          "width": 744,
+          "height": 768,
+          "png_bytes": 1152313,
+          "webp_bytes": 793340
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "crossed-knots-and-four-foliate-scroll-panel": {
+      "name": "crossed-knots-and-four-foliate-scroll-panel",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-ink-extraction",
+      "repeat_axis": "none",
+      "width": 1194,
+      "height": 382,
+      "png": "png/crossed-knots-and-four-foliate-scroll-panel.png",
+      "webp": "webp/crossed-knots-and-four-foliate-scroll-panel.webp",
+      "png_bytes": 290646,
+      "webp_bytes": 182522,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/crossed-knots-and-four-foliate-scroll-panel.png",
+          "webp": "webp/128/crossed-knots-and-four-foliate-scroll-panel.webp",
+          "width": 128,
+          "height": 41,
+          "png_bytes": 14268,
+          "webp_bytes": 6530
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/crossed-knots-and-four-foliate-scroll-panel.png",
+          "webp": "webp/256/crossed-knots-and-four-foliate-scroll-panel.webp",
+          "width": 256,
+          "height": 82,
+          "png_bytes": 48728,
+          "webp_bytes": 22782
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/crossed-knots-and-four-foliate-scroll-panel.png",
+          "webp": "webp/512/crossed-knots-and-four-foliate-scroll-panel.webp",
+          "width": 512,
+          "height": 164,
+          "png_bytes": 158174,
+          "webp_bytes": 78118
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/crossed-knots-and-four-foliate-scroll-panel.png",
+          "webp": "webp/768/crossed-knots-and-four-foliate-scroll-panel.webp",
+          "width": 768,
+          "height": 246,
+          "png_bytes": 310258,
+          "webp_bytes": 164332
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "curling-leaf-ornament": {
+      "name": "curling-leaf-ornament",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "viewbox": [
+        0,
+        0,
+        982,
+        1539
+      ],
+      "width": 982,
+      "height": 1539,
+      "png": "png/curling-leaf-ornament.png",
+      "webp": "webp/curling-leaf-ornament.webp",
+      "svg": "svg/curling-leaf-ornament.svg",
+      "png_bytes": 1666549,
+      "webp_bytes": 1042344,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/curling-leaf-ornament.png",
+          "webp": "webp/128/curling-leaf-ornament.webp",
+          "width": 82,
+          "height": 128,
+          "png_bytes": 19681,
+          "webp_bytes": 12766
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/curling-leaf-ornament.png",
+          "webp": "webp/256/curling-leaf-ornament.webp",
+          "width": 163,
+          "height": 256,
+          "png_bytes": 63417,
+          "webp_bytes": 42420
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/curling-leaf-ornament.png",
+          "webp": "webp/512/curling-leaf-ornament.webp",
+          "width": 327,
+          "height": 512,
+          "png_bytes": 216797,
+          "webp_bytes": 130120
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/curling-leaf-ornament.png",
+          "webp": "webp/768/curling-leaf-ornament.webp",
+          "width": 490,
+          "height": 768,
+          "png_bytes": 457688,
+          "webp_bytes": 277146
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "svg",
+        "webp",
+        "png"
+      ]
+    },
+    "curling-thistle-ornament": {
+      "name": "curling-thistle-ornament",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "viewbox": [
+        0,
+        0,
+        1025,
+        1511
+      ],
+      "width": 1025,
+      "height": 1511,
+      "png": "png/curling-thistle-ornament.png",
+      "webp": "webp/curling-thistle-ornament.webp",
+      "svg": "svg/curling-thistle-ornament.svg",
+      "png_bytes": 1815012,
+      "webp_bytes": 1148134,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/curling-thistle-ornament.png",
+          "webp": "webp/128/curling-thistle-ornament.webp",
+          "width": 87,
+          "height": 128,
+          "png_bytes": 21878,
+          "webp_bytes": 13782
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/curling-thistle-ornament.png",
+          "webp": "webp/256/curling-thistle-ornament.webp",
+          "width": 174,
+          "height": 256,
+          "png_bytes": 70829,
+          "webp_bytes": 45644
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/curling-thistle-ornament.png",
+          "webp": "webp/512/curling-thistle-ornament.webp",
+          "width": 347,
+          "height": 512,
+          "png_bytes": 239092,
+          "webp_bytes": 150030
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/curling-thistle-ornament.png",
+          "webp": "webp/768/curling-thistle-ornament.webp",
+          "width": 521,
+          "height": 768,
+          "png_bytes": 508319,
+          "webp_bytes": 317368
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "svg",
+        "webp",
+        "png"
+      ]
+    },
+    "finite-interlaced-arabesque-cartouche": {
+      "name": "finite-interlaced-arabesque-cartouche",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-ink-extraction",
+      "repeat_axis": "none",
+      "width": 2510,
+      "height": 1754,
+      "png": "png/finite-interlaced-arabesque-cartouche.png",
+      "webp": "webp/finite-interlaced-arabesque-cartouche.webp",
+      "png_bytes": 2420610,
+      "webp_bytes": 1560632,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/finite-interlaced-arabesque-cartouche.png",
+          "webp": "webp/128/finite-interlaced-arabesque-cartouche.webp",
+          "width": 128,
+          "height": 89,
+          "png_bytes": 21119,
+          "webp_bytes": 10136
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/finite-interlaced-arabesque-cartouche.png",
+          "webp": "webp/256/finite-interlaced-arabesque-cartouche.webp",
+          "width": 256,
+          "height": 179,
+          "png_bytes": 77351,
+          "webp_bytes": 37040
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/finite-interlaced-arabesque-cartouche.png",
+          "webp": "webp/512/finite-interlaced-arabesque-cartouche.webp",
+          "width": 512,
+          "height": 358,
+          "png_bytes": 270438,
+          "webp_bytes": 128208
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/finite-interlaced-arabesque-cartouche.png",
+          "webp": "webp/768/finite-interlaced-arabesque-cartouche.webp",
+          "width": 768,
+          "height": 537,
+          "png_bytes": 560206,
+          "webp_bytes": 270510
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "intertwined-hop-vine-and-lobed-leaf-scroll": {
+      "name": "intertwined-hop-vine-and-lobed-leaf-scroll",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-ink-extraction",
+      "repeat_axis": "none",
+      "width": 4079,
+      "height": 2915,
+      "png": "png/intertwined-hop-vine-and-lobed-leaf-scroll.png",
+      "webp": "webp/intertwined-hop-vine-and-lobed-leaf-scroll.webp",
+      "png_bytes": 8160434,
+      "webp_bytes": 5469532,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/intertwined-hop-vine-and-lobed-leaf-scroll.png",
+          "webp": "webp/128/intertwined-hop-vine-and-lobed-leaf-scroll.webp",
+          "width": 128,
+          "height": 91,
+          "png_bytes": 32983,
+          "webp_bytes": 13758
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/intertwined-hop-vine-and-lobed-leaf-scroll.png",
+          "webp": "webp/256/intertwined-hop-vine-and-lobed-leaf-scroll.webp",
+          "width": 256,
+          "height": 183,
+          "png_bytes": 131070,
+          "webp_bytes": 51370
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/intertwined-hop-vine-and-lobed-leaf-scroll.png",
+          "webp": "webp/512/intertwined-hop-vine-and-lobed-leaf-scroll.webp",
+          "width": 512,
+          "height": 366,
+          "png_bytes": 466491,
+          "webp_bytes": 191414
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/intertwined-hop-vine-and-lobed-leaf-scroll.png",
+          "webp": "webp/768/intertwined-hop-vine-and-lobed-leaf-scroll.webp",
+          "width": 768,
+          "height": 549,
+          "png_bytes": 946269,
+          "webp_bytes": 409790
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "large-knotted-ribbons-with-flowers-and-curled-leaves": {
+      "name": "large-knotted-ribbons-with-flowers-and-curled-leaves",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-ink-extraction",
+      "repeat_axis": "none",
+      "width": 1181,
+      "height": 726,
+      "png": "png/large-knotted-ribbons-with-flowers-and-curled-leaves.png",
+      "webp": "webp/large-knotted-ribbons-with-flowers-and-curled-leaves.webp",
+      "png_bytes": 470450,
+      "webp_bytes": 279546,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/large-knotted-ribbons-with-flowers-and-curled-leaves.png",
+          "webp": "webp/128/large-knotted-ribbons-with-flowers-and-curled-leaves.webp",
+          "width": 128,
+          "height": 79,
+          "png_bytes": 27619,
+          "webp_bytes": 11740
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/large-knotted-ribbons-with-flowers-and-curled-leaves.png",
+          "webp": "webp/256/large-knotted-ribbons-with-flowers-and-curled-leaves.webp",
+          "width": 256,
+          "height": 157,
+          "png_bytes": 88593,
+          "webp_bytes": 37800
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/large-knotted-ribbons-with-flowers-and-curled-leaves.png",
+          "webp": "webp/512/large-knotted-ribbons-with-flowers-and-curled-leaves.webp",
+          "width": 512,
+          "height": 315,
+          "png_bytes": 283467,
+          "webp_bytes": 128912
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/large-knotted-ribbons-with-flowers-and-curled-leaves.png",
+          "webp": "webp/768/large-knotted-ribbons-with-flowers-and-curled-leaves.webp",
+          "width": 768,
+          "height": 472,
+          "png_bytes": 532026,
+          "webp_bytes": 267434
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "left-tree-and-connected-foliage-cluster": {
+      "name": "left-tree-and-connected-foliage-cluster",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-ink-extraction",
+      "repeat_axis": "none",
+      "width": 234,
+      "height": 500,
+      "png": "png/left-tree-and-connected-foliage-cluster.png",
+      "webp": "webp/left-tree-and-connected-foliage-cluster.webp",
+      "png_bytes": 95937,
+      "webp_bytes": 63478,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/left-tree-and-connected-foliage-cluster.png",
+          "webp": "webp/128/left-tree-and-connected-foliage-cluster.webp",
+          "width": 60,
+          "height": 128,
+          "png_bytes": 16166,
+          "webp_bytes": 8870
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/left-tree-and-connected-foliage-cluster.png",
+          "webp": "webp/256/left-tree-and-connected-foliage-cluster.webp",
+          "width": 120,
+          "height": 256,
+          "png_bytes": 59212,
+          "webp_bytes": 32286
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "lower-grotesque-face-mask": {
+      "name": "lower-grotesque-face-mask",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-source-extraction",
+      "repeat_axis": "none",
+      "width": 33,
+      "height": 41,
+      "png": "png/lower-grotesque-face-mask.png",
+      "webp": "webp/lower-grotesque-face-mask.webp",
+      "png_bytes": 1894,
+      "webp_bytes": 1084,
+      "variants": [],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "lower-right-foliate-trophy-with-tied-ribbon": {
+      "name": "lower-right-foliate-trophy-with-tied-ribbon",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-source-extraction",
+      "repeat_axis": "none",
+      "width": 88,
+      "height": 109,
+      "png": "png/lower-right-foliate-trophy-with-tied-ribbon.png",
+      "webp": "webp/lower-right-foliate-trophy-with-tied-ribbon.webp",
+      "png_bytes": 15099,
+      "webp_bytes": 8988,
+      "variants": [],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "mirrored-figure-eight-loops-and-floral-diamonds-panel": {
+      "name": "mirrored-figure-eight-loops-and-floral-diamonds-panel",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-ink-extraction",
+      "repeat_axis": "none",
+      "width": 1194,
+      "height": 422,
+      "png": "png/mirrored-figure-eight-loops-and-floral-diamonds-panel.png",
+      "webp": "webp/mirrored-figure-eight-loops-and-floral-diamonds-panel.webp",
+      "png_bytes": 302076,
+      "webp_bytes": 185978,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/mirrored-figure-eight-loops-and-floral-diamonds-panel.png",
+          "webp": "webp/128/mirrored-figure-eight-loops-and-floral-diamonds-panel.webp",
+          "width": 128,
+          "height": 45,
+          "png_bytes": 15726,
+          "webp_bytes": 6894
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/mirrored-figure-eight-loops-and-floral-diamonds-panel.png",
+          "webp": "webp/256/mirrored-figure-eight-loops-and-floral-diamonds-panel.webp",
+          "width": 256,
+          "height": 90,
+          "png_bytes": 53036,
+          "webp_bytes": 23630
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/mirrored-figure-eight-loops-and-floral-diamonds-panel.png",
+          "webp": "webp/512/mirrored-figure-eight-loops-and-floral-diamonds-panel.webp",
+          "width": 512,
+          "height": 181,
+          "png_bytes": 168606,
+          "webp_bytes": 79980
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/mirrored-figure-eight-loops-and-floral-diamonds-panel.png",
+          "webp": "webp/768/mirrored-figure-eight-loops-and-floral-diamonds-panel.webp",
+          "width": 768,
+          "height": 271,
+          "png_bytes": 326613,
+          "webp_bytes": 166920
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "mirrored-floral-wave-with-central-interlace": {
+      "name": "mirrored-floral-wave-with-central-interlace",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-ink-extraction",
+      "repeat_axis": "none",
+      "width": 1181,
+      "height": 104,
+      "png": "png/mirrored-floral-wave-with-central-interlace.png",
+      "webp": "webp/mirrored-floral-wave-with-central-interlace.webp",
+      "png_bytes": 100522,
+      "webp_bytes": 63510,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/mirrored-floral-wave-with-central-interlace.png",
+          "webp": "webp/128/mirrored-floral-wave-with-central-interlace.webp",
+          "width": 128,
+          "height": 11,
+          "png_bytes": 3798,
+          "webp_bytes": 2276
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/mirrored-floral-wave-with-central-interlace.png",
+          "webp": "webp/256/mirrored-floral-wave-with-central-interlace.webp",
+          "width": 256,
+          "height": 23,
+          "png_bytes": 15256,
+          "webp_bytes": 7934
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/mirrored-floral-wave-with-central-interlace.png",
+          "webp": "webp/512/mirrored-floral-wave-with-central-interlace.webp",
+          "width": 512,
+          "height": 45,
+          "png_bytes": 51318,
+          "webp_bytes": 27256
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/mirrored-floral-wave-with-central-interlace.png",
+          "webp": "webp/768/mirrored-floral-wave-with-central-interlace.webp",
+          "width": 768,
+          "height": 68,
+          "png_bytes": 104247,
+          "webp_bytes": 56326
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "mixed-oval-chain-and-floral-printer-frame": {
+      "name": "mixed-oval-chain-and-floral-printer-frame",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-ink-extraction",
+      "repeat_axis": "none",
+      "width": 1990,
+      "height": 1733,
+      "png": "png/mixed-oval-chain-and-floral-printer-frame.png",
+      "webp": "webp/mixed-oval-chain-and-floral-printer-frame.webp",
+      "png_bytes": 712566,
+      "webp_bytes": 426928,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/mixed-oval-chain-and-floral-printer-frame.png",
+          "webp": "webp/128/mixed-oval-chain-and-floral-printer-frame.webp",
+          "width": 128,
+          "height": 111,
+          "png_bytes": 9751,
+          "webp_bytes": 5422
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/mixed-oval-chain-and-floral-printer-frame.png",
+          "webp": "webp/256/mixed-oval-chain-and-floral-printer-frame.webp",
+          "width": 256,
+          "height": 223,
+          "png_bytes": 38631,
+          "webp_bytes": 17730
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/mixed-oval-chain-and-floral-printer-frame.png",
+          "webp": "webp/512/mixed-oval-chain-and-floral-printer-frame.webp",
+          "width": 512,
+          "height": 446,
+          "png_bytes": 133890,
+          "webp_bytes": 62400
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/mixed-oval-chain-and-floral-printer-frame.png",
+          "webp": "webp/768/mixed-oval-chain-and-floral-printer-frame.webp",
+          "width": 768,
+          "height": 669,
+          "png_bytes": 275179,
+          "webp_bytes": 134578
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "ornate-double-cup-with-two-children": {
+      "name": "ornate-double-cup-with-two-children",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 264,
+      "height": 469,
+      "png": "png/ornate-double-cup-with-two-children.png",
+      "webp": "webp/ornate-double-cup-with-two-children.webp",
+      "png_bytes": 318487,
+      "webp_bytes": 192890,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/ornate-double-cup-with-two-children.png",
+          "webp": "webp/128/ornate-double-cup-with-two-children.webp",
+          "width": 72,
+          "height": 128,
+          "png_bytes": 29391,
+          "webp_bytes": 18352
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/ornate-double-cup-with-two-children.png",
+          "webp": "webp/256/ornate-double-cup-with-two-children.webp",
+          "width": 144,
+          "height": 256,
+          "png_bytes": 105615,
+          "webp_bytes": 66802
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "owl-and-perching-birds-in-leafy-scroll": {
+      "name": "owl-and-perching-birds-in-leafy-scroll",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-ink-extraction",
+      "repeat_axis": "none",
+      "width": 2765,
+      "height": 3960,
+      "png": "png/owl-and-perching-birds-in-leafy-scroll.png",
+      "webp": "webp/owl-and-perching-birds-in-leafy-scroll.webp",
+      "png_bytes": 7609472,
+      "webp_bytes": 5259512,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/owl-and-perching-birds-in-leafy-scroll.png",
+          "webp": "webp/128/owl-and-perching-birds-in-leafy-scroll.webp",
+          "width": 89,
+          "height": 128,
+          "png_bytes": 30708,
+          "webp_bytes": 14034
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/owl-and-perching-birds-in-leafy-scroll.png",
+          "webp": "webp/256/owl-and-perching-birds-in-leafy-scroll.webp",
+          "width": 179,
+          "height": 256,
+          "png_bytes": 121713,
+          "webp_bytes": 52894
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/owl-and-perching-birds-in-leafy-scroll.png",
+          "webp": "webp/512/owl-and-perching-birds-in-leafy-scroll.webp",
+          "width": 357,
+          "height": 512,
+          "png_bytes": 440309,
+          "webp_bytes": 198084
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/owl-and-perching-birds-in-leafy-scroll.png",
+          "webp": "webp/768/owl-and-perching-birds-in-leafy-scroll.webp",
+          "width": 536,
+          "height": 768,
+          "png_bytes": 921033,
+          "webp_bytes": 423358
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "paired-bulbous-pendants-with-curling-stems": {
+      "name": "paired-bulbous-pendants-with-curling-stems",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-source-extraction",
+      "repeat_axis": "none",
+      "width": 50,
+      "height": 76,
+      "png": "png/paired-bulbous-pendants-with-curling-stems.png",
+      "webp": "webp/paired-bulbous-pendants-with-curling-stems.webp",
+      "png_bytes": 6755,
+      "webp_bytes": 3942,
+      "variants": [],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "paired-horns-griffins-and-children-in-candelabrum": {
+      "name": "paired-horns-griffins-and-children-in-candelabrum",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 225,
+      "height": 467,
+      "png": "png/paired-horns-griffins-and-children-in-candelabrum.png",
+      "webp": "webp/paired-horns-griffins-and-children-in-candelabrum.webp",
+      "png_bytes": 283916,
+      "webp_bytes": 181624,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/paired-horns-griffins-and-children-in-candelabrum.png",
+          "webp": "webp/128/paired-horns-griffins-and-children-in-candelabrum.webp",
+          "width": 62,
+          "height": 128,
+          "png_bytes": 27748,
+          "webp_bytes": 19406
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/paired-horns-griffins-and-children-in-candelabrum.png",
+          "webp": "webp/256/paired-horns-griffins-and-children-in-candelabrum.webp",
+          "width": 123,
+          "height": 256,
+          "png_bytes": 97625,
+          "webp_bytes": 67908
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "paired-horns-sprouting-broad-leafy-tendrils": {
+      "name": "paired-horns-sprouting-broad-leafy-tendrils",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 1925,
+      "height": 791,
+      "png": "png/paired-horns-sprouting-broad-leafy-tendrils.png",
+      "webp": "webp/paired-horns-sprouting-broad-leafy-tendrils.webp",
+      "png_bytes": 3210868,
+      "webp_bytes": 2085340,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/paired-horns-sprouting-broad-leafy-tendrils.png",
+          "webp": "webp/128/paired-horns-sprouting-broad-leafy-tendrils.webp",
+          "width": 128,
+          "height": 53,
+          "png_bytes": 24101,
+          "webp_bytes": 16662
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/paired-horns-sprouting-broad-leafy-tendrils.png",
+          "webp": "webp/256/paired-horns-sprouting-broad-leafy-tendrils.webp",
+          "width": 256,
+          "height": 105,
+          "png_bytes": 84557,
+          "webp_bytes": 56416
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/paired-horns-sprouting-broad-leafy-tendrils.png",
+          "webp": "webp/512/paired-horns-sprouting-broad-leafy-tendrils.webp",
+          "width": 512,
+          "height": 210,
+          "png_bytes": 292778,
+          "webp_bytes": 186044
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/paired-horns-sprouting-broad-leafy-tendrils.png",
+          "webp": "webp/768/paired-horns-sprouting-broad-leafy-tendrils.webp",
+          "width": 768,
+          "height": 316,
+          "png_bytes": 611505,
+          "webp_bytes": 384926
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "palmette-scroll-printer-frame": {
+      "name": "palmette-scroll-printer-frame",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-ink-extraction",
+      "repeat_axis": "none",
+      "viewbox": [
+        0,
+        0,
+        2164,
+        1762
+      ],
+      "width": 2164,
+      "height": 1762,
+      "png": "png/palmette-scroll-printer-frame.png",
+      "webp": "webp/palmette-scroll-printer-frame.webp",
+      "svg": "svg/palmette-scroll-printer-frame.svg",
+      "png_bytes": 1008128,
+      "webp_bytes": 590378,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/palmette-scroll-printer-frame.png",
+          "webp": "webp/128/palmette-scroll-printer-frame.webp",
+          "width": 128,
+          "height": 104,
+          "png_bytes": 11737,
+          "webp_bytes": 6264
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/palmette-scroll-printer-frame.png",
+          "webp": "webp/256/palmette-scroll-printer-frame.webp",
+          "width": 256,
+          "height": 208,
+          "png_bytes": 48724,
+          "webp_bytes": 22096
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/palmette-scroll-printer-frame.png",
+          "webp": "webp/512/palmette-scroll-printer-frame.webp",
+          "width": 512,
+          "height": 417,
+          "png_bytes": 170040,
+          "webp_bytes": 75850
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/palmette-scroll-printer-frame.png",
+          "webp": "webp/768/palmette-scroll-printer-frame.webp",
+          "width": 768,
+          "height": 625,
+          "png_bytes": 345787,
+          "webp_bytes": 160864
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "svg",
+        "webp",
+        "png"
+      ]
+    },
+    "right-leafy-shrub-cluster": {
+      "name": "right-leafy-shrub-cluster",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-ink-extraction",
+      "repeat_axis": "none",
+      "width": 311,
+      "height": 235,
+      "png": "png/right-leafy-shrub-cluster.png",
+      "webp": "webp/right-leafy-shrub-cluster.webp",
+      "png_bytes": 56746,
+      "webp_bytes": 36976,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/right-leafy-shrub-cluster.png",
+          "webp": "webp/128/right-leafy-shrub-cluster.webp",
+          "width": 128,
+          "height": 97,
+          "png_bytes": 23424,
+          "webp_bytes": 13022
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/right-leafy-shrub-cluster.png",
+          "webp": "webp/256/right-leafy-shrub-cluster.webp",
+          "width": 256,
+          "height": 193,
+          "png_bytes": 81572,
+          "webp_bytes": 49036
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "small-foreground-shrub-on-hatched-mound": {
+      "name": "small-foreground-shrub-on-hatched-mound",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-ink-extraction",
+      "repeat_axis": "none",
+      "width": 333,
+      "height": 112,
+      "png": "png/small-foreground-shrub-on-hatched-mound.png",
+      "webp": "webp/small-foreground-shrub-on-hatched-mound.webp",
+      "png_bytes": 23707,
+      "webp_bytes": 15516,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/small-foreground-shrub-on-hatched-mound.png",
+          "webp": "webp/128/small-foreground-shrub-on-hatched-mound.webp",
+          "width": 128,
+          "height": 43,
+          "png_bytes": 9154,
+          "webp_bytes": 5412
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/small-foreground-shrub-on-hatched-mound.png",
+          "webp": "webp/256/small-foreground-shrub-on-hatched-mound.webp",
+          "width": 256,
+          "height": 86,
+          "png_bytes": 31075,
+          "webp_bytes": 18956
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "small-oval-loops-and-three-star-knots-panel": {
+      "name": "small-oval-loops-and-three-star-knots-panel",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-ink-extraction",
+      "repeat_axis": "none",
+      "width": 1182,
+      "height": 56,
+      "png": "png/small-oval-loops-and-three-star-knots-panel.png",
+      "webp": "webp/small-oval-loops-and-three-star-knots-panel.webp",
+      "png_bytes": 62720,
+      "webp_bytes": 40948,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/small-oval-loops-and-three-star-knots-panel.png",
+          "webp": "webp/128/small-oval-loops-and-three-star-knots-panel.webp",
+          "width": 128,
+          "height": 6,
+          "png_bytes": 1980,
+          "webp_bytes": 1392
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/small-oval-loops-and-three-star-knots-panel.png",
+          "webp": "webp/256/small-oval-loops-and-three-star-knots-panel.webp",
+          "width": 256,
+          "height": 12,
+          "png_bytes": 8258,
+          "webp_bytes": 4670
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/small-oval-loops-and-three-star-knots-panel.png",
+          "webp": "webp/512/small-oval-loops-and-three-star-knots-panel.webp",
+          "width": 512,
+          "height": 24,
+          "png_bytes": 30093,
+          "webp_bytes": 16226
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/small-oval-loops-and-three-star-knots-panel.png",
+          "webp": "webp/768/small-oval-loops-and-three-star-knots-panel.webp",
+          "width": 768,
+          "height": 36,
+          "png_bytes": 62210,
+          "webp_bytes": 34952
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "sunburst-rays-with-open-center": {
+      "name": "sunburst-rays-with-open-center",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-ink-extraction",
+      "repeat_axis": "none",
+      "width": 105,
+      "height": 80,
+      "png": "png/sunburst-rays-with-open-center.png",
+      "webp": "webp/sunburst-rays-with-open-center.webp",
+      "png_bytes": 5758,
+      "webp_bytes": 3870,
+      "variants": [],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "two-children-in-tall-fruiting-leaf-scroll": {
+      "name": "two-children-in-tall-fruiting-leaf-scroll",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 143,
+      "height": 469,
+      "png": "png/two-children-in-tall-fruiting-leaf-scroll.png",
+      "webp": "webp/two-children-in-tall-fruiting-leaf-scroll.webp",
+      "png_bytes": 174828,
+      "webp_bytes": 116756,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/two-children-in-tall-fruiting-leaf-scroll.png",
+          "webp": "webp/128/two-children-in-tall-fruiting-leaf-scroll.webp",
+          "width": 39,
+          "height": 128,
+          "png_bytes": 17210,
+          "webp_bytes": 11476
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/two-children-in-tall-fruiting-leaf-scroll.png",
+          "webp": "webp/256/two-children-in-tall-fruiting-leaf-scroll.webp",
+          "width": 78,
+          "height": 256,
+          "png_bytes": 59704,
+          "webp_bytes": 39678
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "two-flower-vases-and-braided-diamonds-panel": {
+      "name": "two-flower-vases-and-braided-diamonds-panel",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-ink-extraction",
+      "repeat_axis": "none",
+      "width": 1181,
+      "height": 283,
+      "png": "png/two-flower-vases-and-braided-diamonds-panel.png",
+      "webp": "webp/two-flower-vases-and-braided-diamonds-panel.webp",
+      "png_bytes": 237504,
+      "webp_bytes": 143306,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/two-flower-vases-and-braided-diamonds-panel.png",
+          "webp": "webp/128/two-flower-vases-and-braided-diamonds-panel.webp",
+          "width": 128,
+          "height": 31,
+          "png_bytes": 11335,
+          "webp_bytes": 5392
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/two-flower-vases-and-braided-diamonds-panel.png",
+          "webp": "webp/256/two-flower-vases-and-braided-diamonds-panel.webp",
+          "width": 256,
+          "height": 61,
+          "png_bytes": 40436,
+          "webp_bytes": 17878
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/two-flower-vases-and-braided-diamonds-panel.png",
+          "webp": "webp/512/two-flower-vases-and-braided-diamonds-panel.webp",
+          "width": 512,
+          "height": 123,
+          "png_bytes": 141523,
+          "webp_bytes": 64434
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/two-flower-vases-and-braided-diamonds-panel.png",
+          "webp": "webp/768/two-flower-vases-and-braided-diamonds-panel.webp",
+          "width": 768,
+          "height": 184,
+          "png_bytes": 275522,
+          "webp_bytes": 136016
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "upper-grotesque-face-mask": {
+      "name": "upper-grotesque-face-mask",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-source-extraction",
+      "repeat_axis": "none",
+      "width": 29,
+      "height": 35,
+      "png": "png/upper-grotesque-face-mask.png",
+      "webp": "webp/upper-grotesque-face-mask.webp",
+      "png_bytes": 1591,
+      "webp_bytes": 928,
+      "variants": [],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "urn-with-tall-curling-plume": {
+      "name": "urn-with-tall-curling-plume",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-source-extraction",
+      "repeat_axis": "none",
+      "width": 60,
+      "height": 126,
+      "png": "png/urn-with-tall-curling-plume.png",
+      "webp": "webp/urn-with-tall-curling-plume.webp",
+      "png_bytes": 11247,
+      "webp_bytes": 6228,
+      "variants": [],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "urn-with-three-tiers-of-foliate-scrolls": {
+      "name": "urn-with-three-tiers-of-foliate-scrolls",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 171,
+      "height": 467,
+      "png": "png/urn-with-three-tiers-of-foliate-scrolls.png",
+      "webp": "webp/urn-with-three-tiers-of-foliate-scrolls.webp",
+      "png_bytes": 237982,
+      "webp_bytes": 162820,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/urn-with-three-tiers-of-foliate-scrolls.png",
+          "webp": "webp/128/urn-with-three-tiers-of-foliate-scrolls.webp",
+          "width": 47,
+          "height": 128,
+          "png_bytes": 22065,
+          "webp_bytes": 15022
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/urn-with-three-tiers-of-foliate-scrolls.png",
+          "webp": "webp/256/urn-with-three-tiers-of-foliate-scrolls.webp",
+          "width": 94,
+          "height": 256,
+          "png_bytes": 80699,
+          "webp_bytes": 54394
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    }
+  },
+  "files": {
+    "png/128/acanthus-tree-of-jesse-with-crowned-figures.png": {
+      "bytes": 26417,
+      "sha256": "218f3c5b21a3696a831979f5bb902aa5b9ec4ff0daa2b1d7627090581fd92f8d"
+    },
+    "png/128/animals-in-finite-leafy-frieze.png": {
+      "bytes": 8811,
+      "sha256": "5973ce346d43559988a0a64e6c26f33f74f782b65d4f75aaf245ca2a5bec6343"
+    },
+    "png/128/birds-on-flowering-scroll-frieze.png": {
+      "bytes": 12215,
+      "sha256": "d00ee163f2e5ab4eac4f7e119b6f337dd3ba6acc71b7f8f2ca3684c0c852fdbc"
+    },
+    "png/128/branching-scroll-with-broad-lobed-leaves.png": {
+      "bytes": 36549,
+      "sha256": "0f1ba48a5aa637c7f87e88b2c787a460fd717d3222ff3909da324398f1dbf327"
+    },
+    "png/128/circular-acanthus-and-grotesque-ornament.png": {
+      "bytes": 41094,
+      "sha256": "1eb78588ea6305dceceb4968cfe6b7bb98c270bce9f3b14f76869eb999076e0c"
+    },
+    "png/128/crossed-knots-and-four-foliate-scroll-panel.png": {
+      "bytes": 14268,
+      "sha256": "0e3979214ae548d13627c06c910d1d88ee8a8fac8fb62cd2c5fb0e071d89f0b6"
+    },
+    "png/128/curling-leaf-ornament.png": {
+      "bytes": 19681,
+      "sha256": "e22f57f91bcee4955b5dfbaedecf6858ed50256e467e288f120335b87b78237a"
+    },
+    "png/128/curling-thistle-ornament.png": {
+      "bytes": 21878,
+      "sha256": "9af94964dbc3eceea0e6dc414762f6e98eb4dc6343c3dc1adff262036b88c822"
+    },
+    "png/128/finite-interlaced-arabesque-cartouche.png": {
+      "bytes": 21119,
+      "sha256": "fc79fca5d0c34a3ae6ab1d3ab27479765ed91694a34137db6a41cb6314ae64d3"
+    },
+    "png/128/intertwined-hop-vine-and-lobed-leaf-scroll.png": {
+      "bytes": 32983,
+      "sha256": "e99f5940116cd405ccd92ca7ce756cd0c091e8e0a933c6c9caa89af5b9576ec4"
+    },
+    "png/128/large-knotted-ribbons-with-flowers-and-curled-leaves.png": {
+      "bytes": 27619,
+      "sha256": "d7f19d0c0793a82bbc073c8aefc460de34e1f70128dcbf10650bd998e87f650c"
+    },
+    "png/128/left-tree-and-connected-foliage-cluster.png": {
+      "bytes": 16166,
+      "sha256": "c9a82fa128de54b59ec24fb953741cdff3a5522c88e2abf40ecf52b3d9d3e8cf"
+    },
+    "png/128/mirrored-figure-eight-loops-and-floral-diamonds-panel.png": {
+      "bytes": 15726,
+      "sha256": "b3fac22037a1064abf7e94f5426dda11cf2fad97d66da9ead5b6a5fd9ec81b94"
+    },
+    "png/128/mirrored-floral-wave-with-central-interlace.png": {
+      "bytes": 3798,
+      "sha256": "082697b2a3c5c60e8edbb3459ad1a63f5e604cd57a787d255c67e7a645242891"
+    },
+    "png/128/mixed-oval-chain-and-floral-printer-frame.png": {
+      "bytes": 9751,
+      "sha256": "d0cfce92806ec2e9693a2429a89f4b15f21642c0e10d0d9c37a77071529e3196"
+    },
+    "png/128/ornate-double-cup-with-two-children.png": {
+      "bytes": 29391,
+      "sha256": "1d58a57461eb72a9d16009488d121bc7c3aaa62aff3121cc84778db643a37e9a"
+    },
+    "png/128/owl-and-perching-birds-in-leafy-scroll.png": {
+      "bytes": 30708,
+      "sha256": "acf0d3608a99bd927bbbeb68e1fc906d385b5a2b65e061d88b673bac6007d82c"
+    },
+    "png/128/paired-horns-griffins-and-children-in-candelabrum.png": {
+      "bytes": 27748,
+      "sha256": "ce57b6e55310fa71d13bd1300fc0c521ff42eb3b29e09ee842122c680d0504bd"
+    },
+    "png/128/paired-horns-sprouting-broad-leafy-tendrils.png": {
+      "bytes": 24101,
+      "sha256": "8533ecf6b725a981bdbac1c47224c4a429fe2f15dd54252de7afd1a056df7c57"
+    },
+    "png/128/palmette-scroll-printer-frame.png": {
+      "bytes": 11737,
+      "sha256": "900326e959f641b8a4f6515a14b1ff3ee61d224f29fb0c46e8acd07255757aa1"
+    },
+    "png/128/right-leafy-shrub-cluster.png": {
+      "bytes": 23424,
+      "sha256": "35ee058eb35f7e13060d948263d00b7af9b4e049ecd9b5254d1178b8791ab2da"
+    },
+    "png/128/small-foreground-shrub-on-hatched-mound.png": {
+      "bytes": 9154,
+      "sha256": "551a9f6ee29c5f1e1539634ff7cb5d9e9bc6606471ec481998143d11696e6d3e"
+    },
+    "png/128/small-oval-loops-and-three-star-knots-panel.png": {
+      "bytes": 1980,
+      "sha256": "240967df548e2b7eece9997058b12d77ae8b2462e3a86c694074fa97673f4dc7"
+    },
+    "png/128/two-children-in-tall-fruiting-leaf-scroll.png": {
+      "bytes": 17210,
+      "sha256": "3254c3c9ad0fea1e22a2a4eddef6286145dc3e80a5c39965676bd52221f42124"
+    },
+    "png/128/two-flower-vases-and-braided-diamonds-panel.png": {
+      "bytes": 11335,
+      "sha256": "f5e42fe8d1bf5aa6c1e50ed4370ac1acb885108c8e6396fbe06f2f2173d3f4bd"
+    },
+    "png/128/urn-with-three-tiers-of-foliate-scrolls.png": {
+      "bytes": 22065,
+      "sha256": "3e8e29ed9799130b68a4b4db4ee1dc5cf55ed0add559f83c496166490836fc8f"
+    },
+    "png/256/acanthus-tree-of-jesse-with-crowned-figures.png": {
+      "bytes": 99586,
+      "sha256": "b25fe0bfb80b6afab0b4ffa16208ecf36d3fa3ade90919ca2c775684297b5da1"
+    },
+    "png/256/animals-in-finite-leafy-frieze.png": {
+      "bytes": 30382,
+      "sha256": "8c508e5f0bf11e110d67a186696c8d013f83dd27ee80c53531ebc6889bbf6e49"
+    },
+    "png/256/birds-on-flowering-scroll-frieze.png": {
+      "bytes": 43518,
+      "sha256": "cd2e78e75141e7d5bfc176879435f5fc992ea34b0903102de79b10f0706a727e"
+    },
+    "png/256/branching-scroll-with-broad-lobed-leaves.png": {
+      "bytes": 120996,
+      "sha256": "1fbdb62ac574bcef4f8b1dcb474965087174bbbb7a7d068d680b18cf083bd775"
+    },
+    "png/256/circular-acanthus-and-grotesque-ornament.png": {
+      "bytes": 150124,
+      "sha256": "535905296331ef39f65740869698d4daf03408fbb955038d82988ac44bd6690c"
+    },
+    "png/256/crossed-knots-and-four-foliate-scroll-panel.png": {
+      "bytes": 48728,
+      "sha256": "700a64731b81d6e69b0a71f453cc9122f29052b4ca056aee965d1609216609d7"
+    },
+    "png/256/curling-leaf-ornament.png": {
+      "bytes": 63417,
+      "sha256": "14565784c63ff557a8e8f4b81ec31c942fdb2b53933143f710488b7ce943438c"
+    },
+    "png/256/curling-thistle-ornament.png": {
+      "bytes": 70829,
+      "sha256": "1a99242fc339c6e4eb57c6bcee70dcd00eb448958bea41fe46796666b5884e55"
+    },
+    "png/256/finite-interlaced-arabesque-cartouche.png": {
+      "bytes": 77351,
+      "sha256": "5abe0ab16d8e36725318081e2a195f6d6e568a3e3c9bae20defdc89c0b624827"
+    },
+    "png/256/intertwined-hop-vine-and-lobed-leaf-scroll.png": {
+      "bytes": 131070,
+      "sha256": "3eeaafa328d9f507b438c6628420b35becc9db18ace61867d9a2618e30693f68"
+    },
+    "png/256/large-knotted-ribbons-with-flowers-and-curled-leaves.png": {
+      "bytes": 88593,
+      "sha256": "344cab23b6fb677ae2d4773e67e86f8bdbd1b125d2151d02994c881a9d5b16ff"
+    },
+    "png/256/left-tree-and-connected-foliage-cluster.png": {
+      "bytes": 59212,
+      "sha256": "e218fcf52aff190a614149f18fd3eec21542f20df8ba46222136f99d52833a27"
+    },
+    "png/256/mirrored-figure-eight-loops-and-floral-diamonds-panel.png": {
+      "bytes": 53036,
+      "sha256": "c5b593fe930fa616431bd060bc50d043a588588dd2ab97ff00e7bfd5795d97fe"
+    },
+    "png/256/mirrored-floral-wave-with-central-interlace.png": {
+      "bytes": 15256,
+      "sha256": "b48fd9575ee71720b90ee32bd46fb13f9a4f3e49e079217edacb8b55f3ca3df5"
+    },
+    "png/256/mixed-oval-chain-and-floral-printer-frame.png": {
+      "bytes": 38631,
+      "sha256": "23abf42b7bdfbeccf6e8dafaea50b13b2fd64b2edfae7e6ee98f20d4568ee4df"
+    },
+    "png/256/ornate-double-cup-with-two-children.png": {
+      "bytes": 105615,
+      "sha256": "f14abf0931bb901edeea8d795038a215f6c5e4355216306c1e20329fd3376f9f"
+    },
+    "png/256/owl-and-perching-birds-in-leafy-scroll.png": {
+      "bytes": 121713,
+      "sha256": "d0bfca1faba7b9ecd434482a8f200c3e9fc97124be39f082c7fd06d380f20057"
+    },
+    "png/256/paired-horns-griffins-and-children-in-candelabrum.png": {
+      "bytes": 97625,
+      "sha256": "ec1f5cdf22fbdc87b615a4f00d5634c7d68c3c456538de921f86fa6d2703e08b"
+    },
+    "png/256/paired-horns-sprouting-broad-leafy-tendrils.png": {
+      "bytes": 84557,
+      "sha256": "587fecc92a6562cb26a44f36cca54f44903da1d9f0a950ce7b63432ba49b88a4"
+    },
+    "png/256/palmette-scroll-printer-frame.png": {
+      "bytes": 48724,
+      "sha256": "505d87e48405bcb4ca124cad7746c939f73e374d202cb87a1e931ffd19a09fce"
+    },
+    "png/256/right-leafy-shrub-cluster.png": {
+      "bytes": 81572,
+      "sha256": "1153bd145926f13dc403037a54f591c135df197a5b2d35b609b3127104bd10e2"
+    },
+    "png/256/small-foreground-shrub-on-hatched-mound.png": {
+      "bytes": 31075,
+      "sha256": "3e851344dfc97adce7f7b942f86523ee26f8866a010343c418d038d177d82977"
+    },
+    "png/256/small-oval-loops-and-three-star-knots-panel.png": {
+      "bytes": 8258,
+      "sha256": "f360cbc66c6703f2e16dba56f4b3ea2b687116a8953d88a2ea4d6d46dbc78987"
+    },
+    "png/256/two-children-in-tall-fruiting-leaf-scroll.png": {
+      "bytes": 59704,
+      "sha256": "b5e7fac336ffaf14360d510739c6811495bd24f2e62e4318db10790a468b1ca1"
+    },
+    "png/256/two-flower-vases-and-braided-diamonds-panel.png": {
+      "bytes": 40436,
+      "sha256": "ce9f5720cd2e6fec34353d7c31799bb71ec3d16b46f5f282bda2111ee2f02ae9"
+    },
+    "png/256/urn-with-three-tiers-of-foliate-scrolls.png": {
+      "bytes": 80699,
+      "sha256": "4a495b243bf0902f127af33be1602014d2c1e02240eae33459c9dd5c5aa573b6"
+    },
+    "png/512/acanthus-tree-of-jesse-with-crowned-figures.png": {
+      "bytes": 355133,
+      "sha256": "c397b6ea42b6adfc18bd31ac99cee14e07491e6e4c665c81d43d823c4939f11a"
+    },
+    "png/512/circular-acanthus-and-grotesque-ornament.png": {
+      "bytes": 540657,
+      "sha256": "2f2463edf829519856063840ec220f3faa5d034c98c9a22a6d4fcd0650c48a09"
+    },
+    "png/512/crossed-knots-and-four-foliate-scroll-panel.png": {
+      "bytes": 158174,
+      "sha256": "c80cfa1d0a15d543b27500d66a2abae371800e350046674554f6ee06455ed762"
+    },
+    "png/512/curling-leaf-ornament.png": {
+      "bytes": 216797,
+      "sha256": "e6f1913825e0b6a3c912ecf01e29306746087bc14dad296be953437f8f7e141d"
+    },
+    "png/512/curling-thistle-ornament.png": {
+      "bytes": 239092,
+      "sha256": "0babf715114041fbbd3b192c24a76daf648b25740f754d3c7d2fa2bdfa259a14"
+    },
+    "png/512/finite-interlaced-arabesque-cartouche.png": {
+      "bytes": 270438,
+      "sha256": "5725a1da23f40299a31ae1726e74b59a5587a386560f14b1e155b4f54c4e4950"
+    },
+    "png/512/intertwined-hop-vine-and-lobed-leaf-scroll.png": {
+      "bytes": 466491,
+      "sha256": "13df8aa95a88b35c62d3964a2a5f4fe0decb54f2293a8cc758327a6d065533e5"
+    },
+    "png/512/large-knotted-ribbons-with-flowers-and-curled-leaves.png": {
+      "bytes": 283467,
+      "sha256": "de6d8fa182755d89455821a13102a676b3ba4a484c4bb02c30dceab81815511d"
+    },
+    "png/512/mirrored-figure-eight-loops-and-floral-diamonds-panel.png": {
+      "bytes": 168606,
+      "sha256": "6d76826523525df5b26325c2c9929c9e8be9d7f4a624816a22cb7d1ab6dfe8cb"
+    },
+    "png/512/mirrored-floral-wave-with-central-interlace.png": {
+      "bytes": 51318,
+      "sha256": "c35d0f0690bf666a316ce7f936edbfb7efddf95def3bcfe1482594140d3d5abf"
+    },
+    "png/512/mixed-oval-chain-and-floral-printer-frame.png": {
+      "bytes": 133890,
+      "sha256": "cb2626fa00a3875513e4d7486000f6a2ccdeaae13731dfde41ff109b790a3d53"
+    },
+    "png/512/owl-and-perching-birds-in-leafy-scroll.png": {
+      "bytes": 440309,
+      "sha256": "d3636e160a002c73b9a5a2a73005cd3bc600303f902c54d9cd7cea4e6e4af6cc"
+    },
+    "png/512/paired-horns-sprouting-broad-leafy-tendrils.png": {
+      "bytes": 292778,
+      "sha256": "f109cd3898e45a549abcb8f0173fcb4d526447d2a54051d05a74d6eeea841c5b"
+    },
+    "png/512/palmette-scroll-printer-frame.png": {
+      "bytes": 170040,
+      "sha256": "5606a0d34c66d02c1882fba78a6748104ea98499dd4df4bab834c14ed5b226e7"
+    },
+    "png/512/small-oval-loops-and-three-star-knots-panel.png": {
+      "bytes": 30093,
+      "sha256": "afa77ba079062e551da5bd37b1f8adbc907b992c14f919f4c1a69203edc99cd8"
+    },
+    "png/512/two-flower-vases-and-braided-diamonds-panel.png": {
+      "bytes": 141523,
+      "sha256": "adb58ef09d619f772298412a80bb6bfa15f05dfe92b125027f14cf996085c1f7"
+    },
+    "png/768/acanthus-tree-of-jesse-with-crowned-figures.png": {
+      "bytes": 726508,
+      "sha256": "c444fbecc3427046436d4aee1e5ff8cee311ff384df0f945fe3d53ab63db07d7"
+    },
+    "png/768/circular-acanthus-and-grotesque-ornament.png": {
+      "bytes": 1152313,
+      "sha256": "fc0f3afb6d9e993dd1713f4fdf7eed3e08e19883c7f1fd4fd4d51beb623e62b7"
+    },
+    "png/768/crossed-knots-and-four-foliate-scroll-panel.png": {
+      "bytes": 310258,
+      "sha256": "ce4c16ccf08d787168ba7ec30371def028fef0445e835182347dc4286b021a8f"
+    },
+    "png/768/curling-leaf-ornament.png": {
+      "bytes": 457688,
+      "sha256": "e89347219d77dd945ca8bb01288d6dc75e31c35df95be7f9b14267ee2d8844b2"
+    },
+    "png/768/curling-thistle-ornament.png": {
+      "bytes": 508319,
+      "sha256": "6980413408e837b31c434828019d98ca6299423846f4f9a742840beccd4d0271"
+    },
+    "png/768/finite-interlaced-arabesque-cartouche.png": {
+      "bytes": 560206,
+      "sha256": "43ea5c79d4900ef8d20f0db8e2c3efb6ad93c8e51a39978a502081f85094ad23"
+    },
+    "png/768/intertwined-hop-vine-and-lobed-leaf-scroll.png": {
+      "bytes": 946269,
+      "sha256": "3981a665bb0de8cdf2226e7a8aca9e8643e8f22a281ac563411b182152a004a4"
+    },
+    "png/768/large-knotted-ribbons-with-flowers-and-curled-leaves.png": {
+      "bytes": 532026,
+      "sha256": "d549a4c0f4f5ec4ce02e16ec217aa01244d292d794e83a2c06426a80e4f61474"
+    },
+    "png/768/mirrored-figure-eight-loops-and-floral-diamonds-panel.png": {
+      "bytes": 326613,
+      "sha256": "22e278ca6ba7d96ed1f21739c30dd55efca00e0bc9ce8ccab7454bbf7d08c6d6"
+    },
+    "png/768/mirrored-floral-wave-with-central-interlace.png": {
+      "bytes": 104247,
+      "sha256": "23bfda9a69c7f8b33d4d86cda651c021986b0259ecb1243d054f5f256528e1f5"
+    },
+    "png/768/mixed-oval-chain-and-floral-printer-frame.png": {
+      "bytes": 275179,
+      "sha256": "a57abfe33eb54d8979bb464959059a8926529050a0ad7b79187f080c0b0271f1"
+    },
+    "png/768/owl-and-perching-birds-in-leafy-scroll.png": {
+      "bytes": 921033,
+      "sha256": "4e4f2d0af4808f17df1c84f5a3b2b57178b16889d9cb16416a505d3aab589b6b"
+    },
+    "png/768/paired-horns-sprouting-broad-leafy-tendrils.png": {
+      "bytes": 611505,
+      "sha256": "4b935f80ac2a1c13f8b5de60f5858040b61b29f019588ab83a024dd469fb49bf"
+    },
+    "png/768/palmette-scroll-printer-frame.png": {
+      "bytes": 345787,
+      "sha256": "71a7eea05cfd9044f99e9ceaba5d8d0de521879fb8f1b8c8c07a3326a1cda554"
+    },
+    "png/768/small-oval-loops-and-three-star-knots-panel.png": {
+      "bytes": 62210,
+      "sha256": "fa19a9acf001590d23d2d9cf9994ac8ab056ffe7611f52ce591207b92b0813c2"
+    },
+    "png/768/two-flower-vases-and-braided-diamonds-panel.png": {
+      "bytes": 275522,
+      "sha256": "ff34e1f024ae97dff9d10434df34186b7f293f154a0cdc3c344123ef3396e56f"
+    },
+    "png/acanthus-tree-of-jesse-with-crowned-figures.png": {
+      "bytes": 12777203,
+      "sha256": "1b5025c4b86a1cfd55636eb33079ea8debf2cc3a529f0b470f662810a42daa2d"
+    },
+    "png/animals-in-finite-leafy-frieze.png": {
+      "bytes": 93858,
+      "sha256": "051331f9acdc6e10e4ffe1c9ed91636dc5348359e06a89f250f2aa2808a8a594"
+    },
+    "png/birds-on-flowering-scroll-frieze.png": {
+      "bytes": 129403,
+      "sha256": "4d88684bb04c6e808792e4fde1b54fe9cb60010412c0a1647e2c80366242f19e"
+    },
+    "png/branching-scroll-with-broad-lobed-leaves.png": {
+      "bytes": 350116,
+      "sha256": "76d0245e0fbaa49ab49c04e4c07cfd33b8a76e5bf6e4f8b8f16dbfc48898e58b"
+    },
+    "png/circular-acanthus-and-grotesque-ornament.png": {
+      "bytes": 2895400,
+      "sha256": "eb0c29cb734f42120f9784d2eebf77443b946d6160898fc42ae1e71d626a6635"
+    },
+    "png/crossed-knots-and-four-foliate-scroll-panel.png": {
+      "bytes": 290646,
+      "sha256": "5a5b2ad302677547405eea72fb962782afa4237c6bcef1242f0d07d945cc565a"
+    },
+    "png/curling-leaf-ornament.png": {
+      "bytes": 1666549,
+      "sha256": "8ebfdc7fdae089b0b1245396a78b99e93e57f60301485b3a076d0d3af7179b64"
+    },
+    "png/curling-thistle-ornament.png": {
+      "bytes": 1815012,
+      "sha256": "8cdf579861d4dba331d273d84717efb95910faee17068b919c81519f0ba639a7"
+    },
+    "png/finite-interlaced-arabesque-cartouche.png": {
+      "bytes": 2420610,
+      "sha256": "e35e6a3ace410633690b7ebe6ca9b6ebcfe404867ce42b6fbc3744287acc6132"
+    },
+    "png/intertwined-hop-vine-and-lobed-leaf-scroll.png": {
+      "bytes": 8160434,
+      "sha256": "93476d30bedfc3374ea8d9d938e3178da77dc13909a14345534bb3a353d2af7b"
+    },
+    "png/large-knotted-ribbons-with-flowers-and-curled-leaves.png": {
+      "bytes": 470450,
+      "sha256": "a26c211fa8bb91e1a3e930eb424f65c26fd14d4d34d65313328eddd5b45f932c"
+    },
+    "png/left-tree-and-connected-foliage-cluster.png": {
+      "bytes": 95937,
+      "sha256": "6dfbb247e7b5c8eea81edfbe883b71f6f881f30e199ca1b27a91c6024a8ed036"
+    },
+    "png/lower-grotesque-face-mask.png": {
+      "bytes": 1894,
+      "sha256": "10ac649c764b6e0921b7588ca04b81d6290f457759b1cffa4af254c035833ce9"
+    },
+    "png/lower-right-foliate-trophy-with-tied-ribbon.png": {
+      "bytes": 15099,
+      "sha256": "1e60c9766a42f8ba596a52585e56b632a1e3519c41ef1539d3a2d8d4a5401f51"
+    },
+    "png/mirrored-figure-eight-loops-and-floral-diamonds-panel.png": {
+      "bytes": 302076,
+      "sha256": "328e0c00e99ad751236bbdca271e99c4acd50a976d99532c38815aab64decfd3"
+    },
+    "png/mirrored-floral-wave-with-central-interlace.png": {
+      "bytes": 100522,
+      "sha256": "067822dc057d72fbcfad8252e4457acc30a3ad68f691834ff7d634334a21651f"
+    },
+    "png/mixed-oval-chain-and-floral-printer-frame.png": {
+      "bytes": 712566,
+      "sha256": "77c32fb8707b34e41e56599a99d6f41cbc4ad1f22bd49a616ac47c0e95bb6c26"
+    },
+    "png/ornate-double-cup-with-two-children.png": {
+      "bytes": 318487,
+      "sha256": "420286a46813e0f8a6e70b9fb4c34ae09050c98d417ca16632e113eb4afb6e92"
+    },
+    "png/owl-and-perching-birds-in-leafy-scroll.png": {
+      "bytes": 7609472,
+      "sha256": "11c223132ae52a7232b4af986a4c38375efbbd7e5b5ad401390df9d27e87a6f5"
+    },
+    "png/paired-bulbous-pendants-with-curling-stems.png": {
+      "bytes": 6755,
+      "sha256": "64d33e25e9885c73eb58a36a5d55098b4979d1ea142ab947f357160e8577f49e"
+    },
+    "png/paired-horns-griffins-and-children-in-candelabrum.png": {
+      "bytes": 283916,
+      "sha256": "a7d9f6e64537257d55c78ce3d6c77c54f7b46a58e90a07243bd089e68ac52596"
+    },
+    "png/paired-horns-sprouting-broad-leafy-tendrils.png": {
+      "bytes": 3210868,
+      "sha256": "ebb08efa0242cd91f363c75d393c6c1d50e780b45f396f6bd29223ab1c2663f7"
+    },
+    "png/palmette-scroll-printer-frame.png": {
+      "bytes": 1008128,
+      "sha256": "ba9c1c195a59fa8a48c614f5dd81a737fd42e66fab9cebad47a11338a9e9c58b"
+    },
+    "png/right-leafy-shrub-cluster.png": {
+      "bytes": 56746,
+      "sha256": "da1b8e48849b4fd3895e8e9f1b706d58d179264a54e786fcb6d8c9e5e6917efa"
+    },
+    "png/small-foreground-shrub-on-hatched-mound.png": {
+      "bytes": 23707,
+      "sha256": "21b9c555cf07b644a56c894b57b3b686905dccc699d369b8c84cf452f61b3e91"
+    },
+    "png/small-oval-loops-and-three-star-knots-panel.png": {
+      "bytes": 62720,
+      "sha256": "c2f529673ffe1f8fc27206b03b2722df02229473dd7558d9fdc0dab2374026ed"
+    },
+    "png/sunburst-rays-with-open-center.png": {
+      "bytes": 5758,
+      "sha256": "522bdaaa716ae2cfb62959ada3d0eb63efffbdb76577588a31da7b604bf212c2"
+    },
+    "png/two-children-in-tall-fruiting-leaf-scroll.png": {
+      "bytes": 174828,
+      "sha256": "854d1b221ab4310abeaba2c24bbc277ddbcb0ed7360f56365f81cf108dd7f252"
+    },
+    "png/two-flower-vases-and-braided-diamonds-panel.png": {
+      "bytes": 237504,
+      "sha256": "4842e8a45208d4f503bae5dfaff8bc3fc17b480d2d977dd8c52571f11dee363a"
+    },
+    "png/upper-grotesque-face-mask.png": {
+      "bytes": 1591,
+      "sha256": "c99a72d5d8673bac2870ab30f64246cedabaaad76436377e5fae16139ab0adcf"
+    },
+    "png/urn-with-tall-curling-plume.png": {
+      "bytes": 11247,
+      "sha256": "0069a17ca795c1478d54e2033609f0bba78b233f762f0d68ca5ab9afc5743bdb"
+    },
+    "png/urn-with-three-tiers-of-foliate-scrolls.png": {
+      "bytes": 237982,
+      "sha256": "096d61509254cd3e2bdd7b84e1968db9446a9164b9fdb84f0360506ee0486715"
+    },
+    "svg/curling-leaf-ornament.svg": {
+      "bytes": 8232563,
+      "sha256": "9ff6577009793df24aa7df168b2b15e010c8bda7eea6f26c0f98246ff355a0ce"
+    },
+    "svg/curling-thistle-ornament.svg": {
+      "bytes": 9506073,
+      "sha256": "c65f8b9a2332c6a72878d1bc3e9d62dc6edb686eeeeac1f4e0462a21c6d9af2e"
+    },
+    "svg/palmette-scroll-printer-frame.svg": {
+      "bytes": 6219273,
+      "sha256": "49289c969eff5dd87f2af943c7ec2deae69835ba47a97efab75ae5331871ba5f"
+    },
+    "webp/128/acanthus-tree-of-jesse-with-crowned-figures.webp": {
+      "bytes": 18300,
+      "sha256": "0ec24e1bdd7f41a8d9fc41cfde849c818adf3aab9f5042f1e044c0c9803deafc"
+    },
+    "webp/128/animals-in-finite-leafy-frieze.webp": {
+      "bytes": 6168,
+      "sha256": "1d4996cdcb21bae28db0a6f70dc865718c63edf8def3f4fb48cb574d3bf9d3fa"
+    },
+    "webp/128/birds-on-flowering-scroll-frieze.webp": {
+      "bytes": 8256,
+      "sha256": "2b2ffd5a2db77f2db012639223a410abfd783f969633f041e1ff602bbd276dc8"
+    },
+    "webp/128/branching-scroll-with-broad-lobed-leaves.webp": {
+      "bytes": 24932,
+      "sha256": "91cb518c242bb5552ac115d073682f72b2fb3c702e1bb1170fbd6933abd820f9"
+    },
+    "webp/128/circular-acanthus-and-grotesque-ornament.webp": {
+      "bytes": 28920,
+      "sha256": "1362fbb00e148e61446392ec6e90835d74575c1fc5d9fc1534b3157685dbd44f"
+    },
+    "webp/128/crossed-knots-and-four-foliate-scroll-panel.webp": {
+      "bytes": 6530,
+      "sha256": "1cd479cfeabc12399a21e1c61c1107b7a94edafaf971cc3a5dfdcaf3a682bf09"
+    },
+    "webp/128/curling-leaf-ornament.webp": {
+      "bytes": 12766,
+      "sha256": "e1492681c205166609e91e90ddd6e1d7299fa1969624ed95dbc712e312801138"
+    },
+    "webp/128/curling-thistle-ornament.webp": {
+      "bytes": 13782,
+      "sha256": "7a3017d32bbdabccf8d7265f91996f6c7dcf7371ec57f075fa45f39c5d181288"
+    },
+    "webp/128/finite-interlaced-arabesque-cartouche.webp": {
+      "bytes": 10136,
+      "sha256": "f3cbbca98223cf8ab67289e5e3e40093155e940eb26b714235f70dc95dc44b20"
+    },
+    "webp/128/intertwined-hop-vine-and-lobed-leaf-scroll.webp": {
+      "bytes": 13758,
+      "sha256": "468b53ef16f35fa9497866ad8788a4d2d88d615079d3f607ce7194ed527d2c2c"
+    },
+    "webp/128/large-knotted-ribbons-with-flowers-and-curled-leaves.webp": {
+      "bytes": 11740,
+      "sha256": "f97974fd1a6a1e6d9e54708552bf42f184b38503561a9c06609711d96969255e"
+    },
+    "webp/128/left-tree-and-connected-foliage-cluster.webp": {
+      "bytes": 8870,
+      "sha256": "1838eb4d9b7290e66bbeef78d415da3eac71f766c6cf7ebcc89573f139290bea"
+    },
+    "webp/128/mirrored-figure-eight-loops-and-floral-diamonds-panel.webp": {
+      "bytes": 6894,
+      "sha256": "b574284c40e3aa0200f149f14a4bfcd81154e427bac52271a80651c534e5b63f"
+    },
+    "webp/128/mirrored-floral-wave-with-central-interlace.webp": {
+      "bytes": 2276,
+      "sha256": "6cc3aa9a2ed7ee709c49f795fa61e1db3129e739d73e65a3d9723efd722e76e8"
+    },
+    "webp/128/mixed-oval-chain-and-floral-printer-frame.webp": {
+      "bytes": 5422,
+      "sha256": "889cc5b22ef30a886277171151838dcf94f8e60819097a27d89b08fd8f27aecd"
+    },
+    "webp/128/ornate-double-cup-with-two-children.webp": {
+      "bytes": 18352,
+      "sha256": "d6d87bf99b2b83d2c1e62798a11419690ab1592b6d5e609f432d690698403297"
+    },
+    "webp/128/owl-and-perching-birds-in-leafy-scroll.webp": {
+      "bytes": 14034,
+      "sha256": "bfa1b3e250e93dc5014d2a0fec7644dcedfbf2680965184e8b39f04ab895a1ab"
+    },
+    "webp/128/paired-horns-griffins-and-children-in-candelabrum.webp": {
+      "bytes": 19406,
+      "sha256": "b31ab76a5214c71db7342518ed803e29bf5ab3e0c97d7647ce4ad5ba535f479d"
+    },
+    "webp/128/paired-horns-sprouting-broad-leafy-tendrils.webp": {
+      "bytes": 16662,
+      "sha256": "90a8dbcdf1c43333ad526798af39a49ac56d4cb608c3e9394ffbbe829f63b044"
+    },
+    "webp/128/palmette-scroll-printer-frame.webp": {
+      "bytes": 6264,
+      "sha256": "7a2d65e19dd462ec513644dc24bd03c35411f89eeda3524089032de39180e8ce"
+    },
+    "webp/128/right-leafy-shrub-cluster.webp": {
+      "bytes": 13022,
+      "sha256": "c2a6c53a637da68bc2b2fb048b2b7e8c2776979f16c22cd35697f1ebfac611d7"
+    },
+    "webp/128/small-foreground-shrub-on-hatched-mound.webp": {
+      "bytes": 5412,
+      "sha256": "fbfeb076a2bba69b23f2a5263d8b6f5ba46618e3285c91ad827e375cf313c2c3"
+    },
+    "webp/128/small-oval-loops-and-three-star-knots-panel.webp": {
+      "bytes": 1392,
+      "sha256": "cf081b0239ac5354ef7b3ac5d4f52ee554035f2df7f60bb3512dfc1fb08968a2"
+    },
+    "webp/128/two-children-in-tall-fruiting-leaf-scroll.webp": {
+      "bytes": 11476,
+      "sha256": "4d3802d046ba9bd4d0b3d1f10f04ede5a3e4d425f449b99bb5d20d99339bd79d"
+    },
+    "webp/128/two-flower-vases-and-braided-diamonds-panel.webp": {
+      "bytes": 5392,
+      "sha256": "3e5d510670a9edb0b098c881e90f5bcfb328b3f040509a22855d1aa54d9bfeb9"
+    },
+    "webp/128/urn-with-three-tiers-of-foliate-scrolls.webp": {
+      "bytes": 15022,
+      "sha256": "c612716f567817c8eeb49b5d4f8d9c1cdedb86fcadfc0b7f5c2a09c6c63e1fe1"
+    },
+    "webp/256/acanthus-tree-of-jesse-with-crowned-figures.webp": {
+      "bytes": 64962,
+      "sha256": "32b06ae132f61157b27be00cd54d4dd83481472cdfaf74eabaf9513323f633a7"
+    },
+    "webp/256/animals-in-finite-leafy-frieze.webp": {
+      "bytes": 20774,
+      "sha256": "e0a9e30271c71804df94cc918c8eb93d727735ace8f23e20b7b7c7f7e446e76c"
+    },
+    "webp/256/birds-on-flowering-scroll-frieze.webp": {
+      "bytes": 28206,
+      "sha256": "eabc868604ef3e148c4ccf7e371bae233b7779d92cf4f71c92d8147f565d9685"
+    },
+    "webp/256/branching-scroll-with-broad-lobed-leaves.webp": {
+      "bytes": 86724,
+      "sha256": "8aac29c574b6c52f6760e707f215b17d4379070f3a294aebb44268c6189dfc44"
+    },
+    "webp/256/circular-acanthus-and-grotesque-ornament.webp": {
+      "bytes": 107856,
+      "sha256": "55a0bf7571d0fc025274a9ae79a4a8b976f5dc66f78f428043353f05934a1f8a"
+    },
+    "webp/256/crossed-knots-and-four-foliate-scroll-panel.webp": {
+      "bytes": 22782,
+      "sha256": "e433adefde9d9c0e6668933f7b6bd65c80eeb911ba08ec203e7f3ef3086c2844"
+    },
+    "webp/256/curling-leaf-ornament.webp": {
+      "bytes": 42420,
+      "sha256": "57aa4e0e9ef2ee0535dffbe1a3a49e2c330cc376159eb9a2d2ee7060653c615a"
+    },
+    "webp/256/curling-thistle-ornament.webp": {
+      "bytes": 45644,
+      "sha256": "4229e0b04dc0aa516c21fbbbef55d51cd578b869a8b1180d30b92a7a0e1b40bf"
+    },
+    "webp/256/finite-interlaced-arabesque-cartouche.webp": {
+      "bytes": 37040,
+      "sha256": "0a9c3c827b420b672607561e2bbdd61cd98da73fe58f5aae883c222bbc227dba"
+    },
+    "webp/256/intertwined-hop-vine-and-lobed-leaf-scroll.webp": {
+      "bytes": 51370,
+      "sha256": "bea48eb5f6069f26bfecf95d6c02be039e8bca4db4ddefd4956c054ebc3b617a"
+    },
+    "webp/256/large-knotted-ribbons-with-flowers-and-curled-leaves.webp": {
+      "bytes": 37800,
+      "sha256": "91e3abf0078f97198137191e848cdb49f5b71179400926be49fe40a0d886f8e1"
+    },
+    "webp/256/left-tree-and-connected-foliage-cluster.webp": {
+      "bytes": 32286,
+      "sha256": "8d070ff35821aeb5d98b52a2fd310eedbaf3a57d004adfe00cdb16013bec8635"
+    },
+    "webp/256/mirrored-figure-eight-loops-and-floral-diamonds-panel.webp": {
+      "bytes": 23630,
+      "sha256": "e562502c0bc0f56393dd2b54777ec7f9fb2dafe4fa292deea16cb086b0d1df3f"
+    },
+    "webp/256/mirrored-floral-wave-with-central-interlace.webp": {
+      "bytes": 7934,
+      "sha256": "f263e3d049b3f0eecc1d67548b9deff0566cfd4984fa05992d617c63521e7505"
+    },
+    "webp/256/mixed-oval-chain-and-floral-printer-frame.webp": {
+      "bytes": 17730,
+      "sha256": "1400f91a69b5d893aaf8de3d920710938a31294b98a14cce9792458693a26e46"
+    },
+    "webp/256/ornate-double-cup-with-two-children.webp": {
+      "bytes": 66802,
+      "sha256": "0c168d75526ca2347a4a704911c7b9ecf7f3c5fe7534015577df82055e6c9cd8"
+    },
+    "webp/256/owl-and-perching-birds-in-leafy-scroll.webp": {
+      "bytes": 52894,
+      "sha256": "8d055646945cc1cd4f377aad22dd502a4aeeb5e3232a4b8eb9922595141b95f9"
+    },
+    "webp/256/paired-horns-griffins-and-children-in-candelabrum.webp": {
+      "bytes": 67908,
+      "sha256": "516c5ea579b193c03c996fb8a4344ed0d0fcaa09084edec447c3ebe7da927404"
+    },
+    "webp/256/paired-horns-sprouting-broad-leafy-tendrils.webp": {
+      "bytes": 56416,
+      "sha256": "90fe2c4d3f99a7db6213329f683e96dfde8ea31506b45af3a15b13353267e343"
+    },
+    "webp/256/palmette-scroll-printer-frame.webp": {
+      "bytes": 22096,
+      "sha256": "025aa191bd7d324a4cb1a6593231d1afd3bfc23ad393ed4365ecf1cff1a6d05e"
+    },
+    "webp/256/right-leafy-shrub-cluster.webp": {
+      "bytes": 49036,
+      "sha256": "c3a64e5e20c05beee31609fdd07db705816d8f424985314d469cdc39e27d2a2c"
+    },
+    "webp/256/small-foreground-shrub-on-hatched-mound.webp": {
+      "bytes": 18956,
+      "sha256": "9a43e6cf07a178a11f4921d9ffffe456bbe2b06a3e5958e48681442304b10369"
+    },
+    "webp/256/small-oval-loops-and-three-star-knots-panel.webp": {
+      "bytes": 4670,
+      "sha256": "d316e85d816d27158be20ed53985a483e45c65acb0ecf47bbe394372b6a4c207"
+    },
+    "webp/256/two-children-in-tall-fruiting-leaf-scroll.webp": {
+      "bytes": 39678,
+      "sha256": "9f75487c3089aca23bfd2cf4b65b0b5ef39297686d06897d5eee7e95b47fd207"
+    },
+    "webp/256/two-flower-vases-and-braided-diamonds-panel.webp": {
+      "bytes": 17878,
+      "sha256": "d793d23edf8d3291a033c52b43f9f7d09c62ffe6785ce04df4461e9c3efcfca1"
+    },
+    "webp/256/urn-with-three-tiers-of-foliate-scrolls.webp": {
+      "bytes": 54394,
+      "sha256": "dde730061cc8a0b263494b71b81ace8426bc07ab8f50f77cd80fc889abd1cc6c"
+    },
+    "webp/512/acanthus-tree-of-jesse-with-crowned-figures.webp": {
+      "bytes": 229550,
+      "sha256": "2d0855bd319a4b2191cfe2fb8e853d16f25591fc43cf04211ebf9da4f5c938fa"
+    },
+    "webp/512/circular-acanthus-and-grotesque-ornament.webp": {
+      "bytes": 368668,
+      "sha256": "5c43adc9a0f328d94320e6a3f950287cb5a44f95e91bc521f692800aa32545fa"
+    },
+    "webp/512/crossed-knots-and-four-foliate-scroll-panel.webp": {
+      "bytes": 78118,
+      "sha256": "6959550d7ffaa189400025f1a04368a79dd4418fb9a593732bb13a6dc50443f8"
+    },
+    "webp/512/curling-leaf-ornament.webp": {
+      "bytes": 130120,
+      "sha256": "3df815e5e2974b79ea4f5a0a0665980f5044b23c6d963de93dbd81773440b4c2"
+    },
+    "webp/512/curling-thistle-ornament.webp": {
+      "bytes": 150030,
+      "sha256": "afdd4f0b261060962a1acad34fb8cd67d94a19973b9844ff855bf62d1130f5bd"
+    },
+    "webp/512/finite-interlaced-arabesque-cartouche.webp": {
+      "bytes": 128208,
+      "sha256": "ee0693ba01f800fa905d6304ee8a1af10702a482c1b357386ab2ffc4c337f40a"
+    },
+    "webp/512/intertwined-hop-vine-and-lobed-leaf-scroll.webp": {
+      "bytes": 191414,
+      "sha256": "007bb304ac939fef40fa40d1162b50ac94741d0605d27053bb40146ad9df0962"
+    },
+    "webp/512/large-knotted-ribbons-with-flowers-and-curled-leaves.webp": {
+      "bytes": 128912,
+      "sha256": "b90549c2700d379fe0287829dfd824fa033a02dfd022ceb128fa0ca79d552289"
+    },
+    "webp/512/mirrored-figure-eight-loops-and-floral-diamonds-panel.webp": {
+      "bytes": 79980,
+      "sha256": "73eed933b7536bb1cbfd8a01a38bdcfb82cc07445a0db9421dbb45a10983f18e"
+    },
+    "webp/512/mirrored-floral-wave-with-central-interlace.webp": {
+      "bytes": 27256,
+      "sha256": "ae3e73691cb8aa52fd17ae64bb36a3ab08e73192f9bd9c6ffc5c84f58e57b26e"
+    },
+    "webp/512/mixed-oval-chain-and-floral-printer-frame.webp": {
+      "bytes": 62400,
+      "sha256": "cbe1e7e2ce9b028b744b5384197ac4cdfa837c9c1bacf1948ad5f41bc6e24758"
+    },
+    "webp/512/owl-and-perching-birds-in-leafy-scroll.webp": {
+      "bytes": 198084,
+      "sha256": "2eb9884e7b23b7f536107763eac45d01728856459f4145399baebb50a4c61426"
+    },
+    "webp/512/paired-horns-sprouting-broad-leafy-tendrils.webp": {
+      "bytes": 186044,
+      "sha256": "e37692454d0776527220e0e3c69cfd7f49491aff90f2ad0525da2a75509805fd"
+    },
+    "webp/512/palmette-scroll-printer-frame.webp": {
+      "bytes": 75850,
+      "sha256": "1225c6e9b649c1dcb0df77c6bb504a382c89ac571a9314481aa5195a141987fe"
+    },
+    "webp/512/small-oval-loops-and-three-star-knots-panel.webp": {
+      "bytes": 16226,
+      "sha256": "5381ffbb23bcb8b21da10c1b087c745f236360adc658f6cf092d00e07fbb1baf"
+    },
+    "webp/512/two-flower-vases-and-braided-diamonds-panel.webp": {
+      "bytes": 64434,
+      "sha256": "e35ea0008d33cd1726b3456aa526d1fd0a820833ad9ee5b69cfb97ed90aa6852"
+    },
+    "webp/768/acanthus-tree-of-jesse-with-crowned-figures.webp": {
+      "bytes": 484864,
+      "sha256": "104371b9d0f8ce210b18206904032a3b0454a6fe84b9a60508abe3107c5a8d87"
+    },
+    "webp/768/circular-acanthus-and-grotesque-ornament.webp": {
+      "bytes": 793340,
+      "sha256": "8c9832c4ba9aae4e57c370b650fb38d8a58563a2b7ca3b5e2ccd9e45c62a4ac8"
+    },
+    "webp/768/crossed-knots-and-four-foliate-scroll-panel.webp": {
+      "bytes": 164332,
+      "sha256": "47404afaffcfc586a44b3eadb45e9bb722e1bb46da1eae019238a13cf9b822af"
+    },
+    "webp/768/curling-leaf-ornament.webp": {
+      "bytes": 277146,
+      "sha256": "6af32af46bde8b9866134013108a75faed88efd9d6728d686e22a8dc7a481ebb"
+    },
+    "webp/768/curling-thistle-ornament.webp": {
+      "bytes": 317368,
+      "sha256": "fe964b1377b1d1ae869def080ba5c241b4e865fb3f71f30e69609aea98ffb12a"
+    },
+    "webp/768/finite-interlaced-arabesque-cartouche.webp": {
+      "bytes": 270510,
+      "sha256": "3b18e59c73b7dede2e87774be03dff8b5100f9aa7eee3a481b014ec616ff65ba"
+    },
+    "webp/768/intertwined-hop-vine-and-lobed-leaf-scroll.webp": {
+      "bytes": 409790,
+      "sha256": "728afbdb9ecdbc8482660aa27be2f5b9197b95a9567273b68799c5384f9b70ef"
+    },
+    "webp/768/large-knotted-ribbons-with-flowers-and-curled-leaves.webp": {
+      "bytes": 267434,
+      "sha256": "77fc27a70c888a4626768627743920c683833c6dbdf229df5c57a394be6bc410"
+    },
+    "webp/768/mirrored-figure-eight-loops-and-floral-diamonds-panel.webp": {
+      "bytes": 166920,
+      "sha256": "32c50866f3265f63d7790cf477c06cbca8f647ed887300503ad934b592364ebc"
+    },
+    "webp/768/mirrored-floral-wave-with-central-interlace.webp": {
+      "bytes": 56326,
+      "sha256": "ed921fc45cf61b29c6e8efbc6488a56c3f613b574925823fe051fc91f1e7a87d"
+    },
+    "webp/768/mixed-oval-chain-and-floral-printer-frame.webp": {
+      "bytes": 134578,
+      "sha256": "f1f06bdf39a41fa50eb999dae393a6a4ebf985db863e21b8bae9c8df9e49d5c6"
+    },
+    "webp/768/owl-and-perching-birds-in-leafy-scroll.webp": {
+      "bytes": 423358,
+      "sha256": "36672081c235fcbca0a5898524fb1ff8207b87e42b5ffb9551aaea92712dca65"
+    },
+    "webp/768/paired-horns-sprouting-broad-leafy-tendrils.webp": {
+      "bytes": 384926,
+      "sha256": "7999e9909d00e00c93418dfd39f55e323b610dec8762beeb54740c2de18e0749"
+    },
+    "webp/768/palmette-scroll-printer-frame.webp": {
+      "bytes": 160864,
+      "sha256": "b940e06bce26658cc5707efa93843bf800d04cab48bf3f15ea77dd9bf5e47a5e"
+    },
+    "webp/768/small-oval-loops-and-three-star-knots-panel.webp": {
+      "bytes": 34952,
+      "sha256": "a60d16f98fd9b1458deca95e11eb4931142b7bdd6189f44ba9c255377ca19b94"
+    },
+    "webp/768/two-flower-vases-and-braided-diamonds-panel.webp": {
+      "bytes": 136016,
+      "sha256": "7519740ecd7d7f520fc6187ed33cde2fad000352ebc673fc154cb156b02fb794"
+    },
+    "webp/acanthus-tree-of-jesse-with-crowned-figures.webp": {
+      "bytes": 7683242,
+      "sha256": "273bc731aeed4e7d6b719be25d337adec7a413ce79811c953bbdef27d4ef1208"
+    },
+    "webp/animals-in-finite-leafy-frieze.webp": {
+      "bytes": 61086,
+      "sha256": "ca64aab80f4eaaeb676d41940c7c398795ece88f1b48a4ae845ede24a36e2511"
+    },
+    "webp/birds-on-flowering-scroll-frieze.webp": {
+      "bytes": 84132,
+      "sha256": "22227e4b33e9cff3595ea97c20a00e1764bb5daee97c7b8b16167d9d037fd0e8"
+    },
+    "webp/branching-scroll-with-broad-lobed-leaves.webp": {
+      "bytes": 229072,
+      "sha256": "50c4ae8af78338912e001b0d3c0c650f701e344e0ccf3ccbe1eeb85c183a3949"
+    },
+    "webp/circular-acanthus-and-grotesque-ornament.webp": {
+      "bytes": 2025872,
+      "sha256": "6f9d6f40cbf5c685a7febe801bc11d73ee57f964e1aa5e87a19864ab2fae343f"
+    },
+    "webp/crossed-knots-and-four-foliate-scroll-panel.webp": {
+      "bytes": 182522,
+      "sha256": "27358113f7b0408f8a41c2d971d8872a989704e06357b14d35dd5290d733c891"
+    },
+    "webp/curling-leaf-ornament.webp": {
+      "bytes": 1042344,
+      "sha256": "308be069120cae7ef6615345573aceff6cff120696389cddf195137b8ac846ef"
+    },
+    "webp/curling-thistle-ornament.webp": {
+      "bytes": 1148134,
+      "sha256": "ed9f1454e67192b3a92bb7a05566800e9a73e491a6cf6a0bf64df3b147ed3813"
+    },
+    "webp/finite-interlaced-arabesque-cartouche.webp": {
+      "bytes": 1560632,
+      "sha256": "2e0af8ecacdce588fb19961d7601749aa9813253ceda4754526b847b0408d629"
+    },
+    "webp/intertwined-hop-vine-and-lobed-leaf-scroll.webp": {
+      "bytes": 5469532,
+      "sha256": "4bd126bccc039417246382a7f3f1e003227abca243f219d7509d3645512be5cc"
+    },
+    "webp/large-knotted-ribbons-with-flowers-and-curled-leaves.webp": {
+      "bytes": 279546,
+      "sha256": "53ecacd9b54d1cc7e3b34855263ef2fbf8f8f07d77f8658541d2dd3cc71ee8dc"
+    },
+    "webp/left-tree-and-connected-foliage-cluster.webp": {
+      "bytes": 63478,
+      "sha256": "e608dcc0c533afbd193e86500f2c32b55ec22f96e9be82c762c13e78e9154b1d"
+    },
+    "webp/lower-grotesque-face-mask.webp": {
+      "bytes": 1084,
+      "sha256": "d3556a4b9e232b4c9d3b1e837530acea916ceadc4639e868bb07b610cc3141bd"
+    },
+    "webp/lower-right-foliate-trophy-with-tied-ribbon.webp": {
+      "bytes": 8988,
+      "sha256": "f7df6c8be9cd052aa2ef4a2953dedcd276091d033f964f9a087b1d98a9ff5747"
+    },
+    "webp/mirrored-figure-eight-loops-and-floral-diamonds-panel.webp": {
+      "bytes": 185978,
+      "sha256": "cb5864c923099358d0d3b4caad953001bdbf2f9de95f11c8a6c1eadc2bcff015"
+    },
+    "webp/mirrored-floral-wave-with-central-interlace.webp": {
+      "bytes": 63510,
+      "sha256": "0dac13af414dc2dd75969c05b3885bea1e91aa5fcfc48bbd2d87819ab086062d"
+    },
+    "webp/mixed-oval-chain-and-floral-printer-frame.webp": {
+      "bytes": 426928,
+      "sha256": "f96149a2edb318259e7b235dfe5a96e408fbcae46a8cf1b13301db839d7b1d44"
+    },
+    "webp/ornate-double-cup-with-two-children.webp": {
+      "bytes": 192890,
+      "sha256": "76577e5ea5989b68f75d864954495df729dd7dd47f916e20f92b0d8f717be039"
+    },
+    "webp/owl-and-perching-birds-in-leafy-scroll.webp": {
+      "bytes": 5259512,
+      "sha256": "c29208bc6973ad9c365147134d52401b98894b1b9dc9db553920192137d9aeb4"
+    },
+    "webp/paired-bulbous-pendants-with-curling-stems.webp": {
+      "bytes": 3942,
+      "sha256": "60a1656e3f12521fa69cddd6f1d5f324d9ab3127583efa47d5cdcb1e06589f45"
+    },
+    "webp/paired-horns-griffins-and-children-in-candelabrum.webp": {
+      "bytes": 181624,
+      "sha256": "dbc508f0c0dc78ae8ecf9d6cf646c22a65bc5d8616ffba62fca5495a9bacf2f5"
+    },
+    "webp/paired-horns-sprouting-broad-leafy-tendrils.webp": {
+      "bytes": 2085340,
+      "sha256": "8bb51de31deae05ceea65dbe1b5933ef82c73bda4d817869e9654cde8d8024a3"
+    },
+    "webp/palmette-scroll-printer-frame.webp": {
+      "bytes": 590378,
+      "sha256": "f551e9bfcdfef238f40cd0380fb6c3e528606b417e61b4782d9b18ecc6880863"
+    },
+    "webp/right-leafy-shrub-cluster.webp": {
+      "bytes": 36976,
+      "sha256": "ad5344664fbb832c28fd2b4d101c4d8a481669874e2967afc055cc5bc5834d30"
+    },
+    "webp/small-foreground-shrub-on-hatched-mound.webp": {
+      "bytes": 15516,
+      "sha256": "b6a6d6c87b20ff2cee0bed21753998cad8e1d0859732922b3b2d2ec230a0835d"
+    },
+    "webp/small-oval-loops-and-three-star-knots-panel.webp": {
+      "bytes": 40948,
+      "sha256": "04a99ae2ff6bff7573c184b11b0f90716fe7c2151230c8f36968a8e17841972c"
+    },
+    "webp/sunburst-rays-with-open-center.webp": {
+      "bytes": 3870,
+      "sha256": "48267d0e55986f0de792bf732a47f5296605525e25380e8c89abaef778ea5942"
+    },
+    "webp/two-children-in-tall-fruiting-leaf-scroll.webp": {
+      "bytes": 116756,
+      "sha256": "195a658867669854b4fbea791e4044b152ad825dbf695442f2cb7619efac88bc"
+    },
+    "webp/two-flower-vases-and-braided-diamonds-panel.webp": {
+      "bytes": 143306,
+      "sha256": "f636cc916a2da055cf7a36e700251203bd6a41dd2bd6a4aef3545ba0d47896a4"
+    },
+    "webp/upper-grotesque-face-mask.webp": {
+      "bytes": 928,
+      "sha256": "7111b4da9965b5d0d8d334754eaddeb3fc3f0c02e6fca5518a5afde43883addd"
+    },
+    "webp/urn-with-tall-curling-plume.webp": {
+      "bytes": 6228,
+      "sha256": "084ddc543f5fdc871128fdf8de821d22105d258e53e664296ccd4aee38983d74"
+    },
+    "webp/urn-with-three-tiers-of-foliate-scrolls.webp": {
+      "bytes": 162820,
+      "sha256": "f2b5da5acbd16b0dbe9b865f30f89dd54fa81e73f31168377fb42b3d9aac2e7e"
+    }
+  },
+  "inputs": {
+    "sources/tiles/acanthus-tree-of-jesse-with-crowned-figures.png": {
+      "bytes": 12777203,
+      "sha256": "1b5025c4b86a1cfd55636eb33079ea8debf2cc3a529f0b470f662810a42daa2d"
+    },
+    "sources/tiles/animals-in-finite-leafy-frieze.png": {
+      "bytes": 93858,
+      "sha256": "051331f9acdc6e10e4ffe1c9ed91636dc5348359e06a89f250f2aa2808a8a594"
+    },
+    "sources/tiles/birds-on-flowering-scroll-frieze.png": {
+      "bytes": 129403,
+      "sha256": "4d88684bb04c6e808792e4fde1b54fe9cb60010412c0a1647e2c80366242f19e"
+    },
+    "sources/tiles/branching-scroll-with-broad-lobed-leaves.png": {
+      "bytes": 350116,
+      "sha256": "76d0245e0fbaa49ab49c04e4c07cfd33b8a76e5bf6e4f8b8f16dbfc48898e58b"
+    },
+    "sources/tiles/circular-acanthus-and-grotesque-ornament.png": {
+      "bytes": 2895400,
+      "sha256": "eb0c29cb734f42120f9784d2eebf77443b946d6160898fc42ae1e71d626a6635"
+    },
+    "sources/tiles/crossed-knots-and-four-foliate-scroll-panel.png": {
+      "bytes": 290646,
+      "sha256": "5a5b2ad302677547405eea72fb962782afa4237c6bcef1242f0d07d945cc565a"
+    },
+    "sources/tiles/curling-leaf-ornament.png": {
+      "bytes": 1666549,
+      "sha256": "8ebfdc7fdae089b0b1245396a78b99e93e57f60301485b3a076d0d3af7179b64"
+    },
+    "sources/traces/curling-leaf-ornament.svg": {
+      "bytes": 8232563,
+      "sha256": "9ff6577009793df24aa7df168b2b15e010c8bda7eea6f26c0f98246ff355a0ce"
+    },
+    "sources/tiles/curling-thistle-ornament.png": {
+      "bytes": 1815012,
+      "sha256": "8cdf579861d4dba331d273d84717efb95910faee17068b919c81519f0ba639a7"
+    },
+    "sources/traces/curling-thistle-ornament.svg": {
+      "bytes": 9506073,
+      "sha256": "c65f8b9a2332c6a72878d1bc3e9d62dc6edb686eeeeac1f4e0462a21c6d9af2e"
+    },
+    "sources/tiles/finite-interlaced-arabesque-cartouche.png": {
+      "bytes": 2420610,
+      "sha256": "e35e6a3ace410633690b7ebe6ca9b6ebcfe404867ce42b6fbc3744287acc6132"
+    },
+    "sources/tiles/intertwined-hop-vine-and-lobed-leaf-scroll.png": {
+      "bytes": 8160434,
+      "sha256": "93476d30bedfc3374ea8d9d938e3178da77dc13909a14345534bb3a353d2af7b"
+    },
+    "sources/tiles/large-knotted-ribbons-with-flowers-and-curled-leaves.png": {
+      "bytes": 470450,
+      "sha256": "a26c211fa8bb91e1a3e930eb424f65c26fd14d4d34d65313328eddd5b45f932c"
+    },
+    "sources/tiles/left-tree-and-connected-foliage-cluster.png": {
+      "bytes": 95937,
+      "sha256": "6dfbb247e7b5c8eea81edfbe883b71f6f881f30e199ca1b27a91c6024a8ed036"
+    },
+    "sources/tiles/lower-grotesque-face-mask.png": {
+      "bytes": 1894,
+      "sha256": "10ac649c764b6e0921b7588ca04b81d6290f457759b1cffa4af254c035833ce9"
+    },
+    "sources/tiles/lower-right-foliate-trophy-with-tied-ribbon.png": {
+      "bytes": 15099,
+      "sha256": "1e60c9766a42f8ba596a52585e56b632a1e3519c41ef1539d3a2d8d4a5401f51"
+    },
+    "sources/tiles/mirrored-figure-eight-loops-and-floral-diamonds-panel.png": {
+      "bytes": 302076,
+      "sha256": "328e0c00e99ad751236bbdca271e99c4acd50a976d99532c38815aab64decfd3"
+    },
+    "sources/tiles/mirrored-floral-wave-with-central-interlace.png": {
+      "bytes": 100522,
+      "sha256": "067822dc057d72fbcfad8252e4457acc30a3ad68f691834ff7d634334a21651f"
+    },
+    "sources/tiles/mixed-oval-chain-and-floral-printer-frame.png": {
+      "bytes": 712566,
+      "sha256": "77c32fb8707b34e41e56599a99d6f41cbc4ad1f22bd49a616ac47c0e95bb6c26"
+    },
+    "sources/tiles/ornate-double-cup-with-two-children.png": {
+      "bytes": 318487,
+      "sha256": "420286a46813e0f8a6e70b9fb4c34ae09050c98d417ca16632e113eb4afb6e92"
+    },
+    "sources/tiles/owl-and-perching-birds-in-leafy-scroll.png": {
+      "bytes": 7609472,
+      "sha256": "11c223132ae52a7232b4af986a4c38375efbbd7e5b5ad401390df9d27e87a6f5"
+    },
+    "sources/tiles/paired-bulbous-pendants-with-curling-stems.png": {
+      "bytes": 6755,
+      "sha256": "64d33e25e9885c73eb58a36a5d55098b4979d1ea142ab947f357160e8577f49e"
+    },
+    "sources/tiles/paired-horns-griffins-and-children-in-candelabrum.png": {
+      "bytes": 283916,
+      "sha256": "a7d9f6e64537257d55c78ce3d6c77c54f7b46a58e90a07243bd089e68ac52596"
+    },
+    "sources/tiles/paired-horns-sprouting-broad-leafy-tendrils.png": {
+      "bytes": 3210868,
+      "sha256": "ebb08efa0242cd91f363c75d393c6c1d50e780b45f396f6bd29223ab1c2663f7"
+    },
+    "sources/tiles/palmette-scroll-printer-frame.png": {
+      "bytes": 1008128,
+      "sha256": "ba9c1c195a59fa8a48c614f5dd81a737fd42e66fab9cebad47a11338a9e9c58b"
+    },
+    "sources/traces/palmette-scroll-printer-frame.svg": {
+      "bytes": 6219273,
+      "sha256": "49289c969eff5dd87f2af943c7ec2deae69835ba47a97efab75ae5331871ba5f"
+    },
+    "sources/tiles/right-leafy-shrub-cluster.png": {
+      "bytes": 56746,
+      "sha256": "da1b8e48849b4fd3895e8e9f1b706d58d179264a54e786fcb6d8c9e5e6917efa"
+    },
+    "sources/tiles/small-foreground-shrub-on-hatched-mound.png": {
+      "bytes": 23707,
+      "sha256": "21b9c555cf07b644a56c894b57b3b686905dccc699d369b8c84cf452f61b3e91"
+    },
+    "sources/tiles/small-oval-loops-and-three-star-knots-panel.png": {
+      "bytes": 62720,
+      "sha256": "c2f529673ffe1f8fc27206b03b2722df02229473dd7558d9fdc0dab2374026ed"
+    },
+    "sources/tiles/sunburst-rays-with-open-center.png": {
+      "bytes": 5758,
+      "sha256": "522bdaaa716ae2cfb62959ada3d0eb63efffbdb76577588a31da7b604bf212c2"
+    },
+    "sources/tiles/two-children-in-tall-fruiting-leaf-scroll.png": {
+      "bytes": 174828,
+      "sha256": "854d1b221ab4310abeaba2c24bbc277ddbcb0ed7360f56365f81cf108dd7f252"
+    },
+    "sources/tiles/two-flower-vases-and-braided-diamonds-panel.png": {
+      "bytes": 237504,
+      "sha256": "4842e8a45208d4f503bae5dfaff8bc3fc17b480d2d977dd8c52571f11dee363a"
+    },
+    "sources/tiles/upper-grotesque-face-mask.png": {
+      "bytes": 1591,
+      "sha256": "c99a72d5d8673bac2870ab30f64246cedabaaad76436377e5fae16139ab0adcf"
+    },
+    "sources/tiles/urn-with-tall-curling-plume.png": {
+      "bytes": 11247,
+      "sha256": "0069a17ca795c1478d54e2033609f0bba78b233f762f0d68ca5ab9afc5743bdb"
+    },
+    "sources/tiles/urn-with-three-tiers-of-foliate-scrolls.png": {
+      "bytes": 237982,
+      "sha256": "096d61509254cd3e2bdd7b84e1968db9446a9164b9fdb84f0360506ee0486715"
+    }
+  }
+}

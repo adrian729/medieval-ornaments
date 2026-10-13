@@ -1,0 +1,133 @@
+{
+  "source_id": "walters-w88-12r",
+  "assets": [
+    {
+      "id": "walters-w88-12r--woman-leading-harrow-horse",
+      "name": "woman-leading-harrow-horse",
+      "source_id": "walters-w88-12r",
+      "source_folder": "walters",
+      "asset_type": "illustration",
+      "description": "The complete woman in an orange robe and pale hood raising a green rod, the entire harnessed horse and the green triangular harrow with its shafts and fine connecting harness lines.",
+      "source_region": [
+        1226,
+        4327,
+        3626,
+        5927
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        7,
+        0,
+        1537,
+        1019
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 1530,
+      "height": 1019,
+      "png": "walters/walters-w88-12r--woman-leading-harrow-horse.png",
+      "png_sha256": "a61825da21311844dd0d6b8e8e338a1a5d951cfc4034567e626afa1ee51566b0",
+      "provenance": {
+        "institution": "Walters Art Museum",
+        "title": "Woman leads horse drawing harrow",
+        "object_identifier": "W.88, fol. 12r",
+        "date": "First quarter 14th century CE",
+        "record_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/html/W88/description.html",
+        "image_rights": "CC0 (Digital Walters manuscript images)",
+        "rights_url": "https://www.thedigitalwalters.org/01_ACCESS_WALTERS_MANUSCRIPTS.html",
+        "source_file": "tmp/new-assets/walters/walters-w88-12r--woman-leads-horse-drawing-harrow--master.tif",
+        "source_sha256": "786a67d0859891328f4684c40b1505fab2818b277f664d09ce35a66d91e18c58",
+        "source_metadata": "tmp/new-assets/walters/walters-w88-12r.json",
+        "image_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/W88/data/W.88/master/W88_000029_1200.tif",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: precise-object-edit. Image 1 is the edit target: this complete transparent medieval woman, horse and harrow extraction. Image 2 is the original painted harrow detail and must be matched literally. Change ONLY the left triangular harrow: it is an OPAQUE, LIGHT GREEN PAINTED TRIANGULAR PANEL, with its original irregular dark black tooth marks, two interior darker vertical strokes, and green outlined perimeter. Its entire triangular interior was painted green in the source. The openings inserted in image 1 are wrong. Restore the solid green paint between all the teeth and bars; make NO grid, lattice, rectangular holes or invented structure. Match precisely the original number, positions and irregular silhouettes of the black teeth in image 2. Keep the triangle size, outer outline, orientation, attachment and connecting shaft exactly as image 1. Preserve ALL the rest of image 1 without alteration: woman's face, robe and gesture, rod, horse face, all horse legs, tail, collar, harness, texture and original contours. Background everywhere outside the subject and between real legs and shaft gaps must be fully transparent alpha zero, with clean antialiased edges and absolutely no diffuse colored glow, residual paper or shadow. Keep the painted green triangular panel and its black teeth opaque.",
+        "retained_generated_extraction": "tmp/extraction-work/walters-w88-12r--woman-leading-harrow-horse--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "f9b430cf79efdd9d11b8450c1468ea5949d3f1a94efdce114e25cc70f00f6c09",
+        "retained_generated_size": [
+          1542,
+          1020
+        ],
+        "resolution_cap_scale": 1,
+        "resolution_capped_size": [
+          1542,
+          1020
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          2330,
+          1530
+        ],
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 11087
+        },
+        "history": [
+          {
+            "step": "first-background-extraction",
+            "prompt": "Use case: background-extraction. The input is the exact edit target, a historical manuscript scan. Isolate only the specified original painted subject on a truly transparent background, including transparency in every genuine gap. Preserve the source's exact pose, proportions, distinctive anatomy, count, contours, fine original black outlines, pale painted foreground, coloring and aged brushwork. Follow actual drawn boundaries with clean antialiasing. Remove paper, page tint, reverse-page ghosts, text, ruler lines, neighboring ornament and unrelated marks. Do not invent concealed parts, change anatomy, thicken or simplify the drawing, add a border/shadow, or modernize it. This is conservation extraction, not a redesign. Subject: the ENTIRE connected scene: hooded woman in her orange robe raising the slender green rod, pale horse in the exact walking pose, its full original harness and two connecting shafts, and the GREEN triangular harrow at LEFT. Preserve every fine bridle/shaft, tail curve, all visible legs/hooves, entire original robe and her original foot. Keep the pale hood and horse surfaces opaque; remove the real holes between legs/shafts and through the lattice of the harrow. In the harrow, preserve the original irregular black tooth-like marks and green framework; do not turn it into a new uniform rectangular grid. Preserve the large original oval horse collar, the woman's small facial expression and original relative proportions. All grid/ruling lines across the manuscript and photograph edges must be removed; no inferred new limbs or straight page-baseline under the scene.",
+            "retained_generated_extraction": "tmp/extraction-work/quality-reaudit-20261010/woman-horse-first-extraction-with-wrong-harrow.png",
+            "sha256": "dbcb965afde4aea256d18805ca38ca8e64dc13ccb860d1337bd27b3397f0e849"
+          },
+          {
+            "step": "restore-original-opaque-green-harrow",
+            "prompt": "Use case: precise-object-edit. Image 1 is the edit target: this complete transparent medieval woman, horse and harrow extraction. Image 2 is the original painted harrow detail and must be matched literally. Change ONLY the left triangular harrow: it is an OPAQUE, LIGHT GREEN PAINTED TRIANGULAR PANEL, with its original irregular dark black tooth marks, two interior darker vertical strokes, and green outlined perimeter. Its entire triangular interior was painted green in the source. The openings inserted in image 1 are wrong. Restore the solid green paint between all the teeth and bars; make NO grid, lattice, rectangular holes or invented structure. Match precisely the original number, positions and irregular silhouettes of the black teeth in image 2. Keep the triangle size, outer outline, orientation, attachment and connecting shaft exactly as image 1. Preserve ALL the rest of image 1 without alteration: woman's face, robe and gesture, rod, horse face, all horse legs, tail, collar, harness, texture and original contours. Background everywhere outside the subject and between real legs and shaft gaps must be fully transparent alpha zero, with clean antialiased edges and absolutely no diffuse colored glow, residual paper or shadow. Keep the painted green triangular panel and its black teeth opaque.",
+            "original_harrow_reference": "tmp/extraction-work/quality-reaudit-20261010/harrow-original-painted-panel.png",
+            "original_harrow_reference_sha256": "231acafda5dbae456adfd6aaa44a48ee426146a4de22af51f28f7df5e03d30a2"
+          }
+        ]
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261010",
+        "notes": "Replaced misaligned mask and corrected false harrow openings. Verified original opaque green triangular panel with irregular black teeth; full connected woman, rod, robe, horse, collar, harness/shaft lines, tail and feet preserved. Surrounding page/rules excluded. White/dark transparency checked; exact two-step AI prompts retained. Fine texture and contours remain approximate.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": "tmp/extraction-work/quality-reaudit-20261010/eight-final-corrections-original-white-dark.jpg"
+      },
+      "categories": [
+        "humans",
+        "animals"
+      ],
+      "subjects": [
+        "person",
+        "woman",
+        "horse",
+        "harrow",
+        "staff",
+        "harness"
+      ],
+      "facing": "mixed",
+      "colors": [
+        "orange",
+        "green",
+        "cream",
+        "brown"
+      ],
+      "composition": "multiple-figures",
+      "usage_notes": "The harrow is an opaque green painted triangular panel with dark teeth and interior strokes, not an open lattice. Original source ruler lines are excluded. Woman, horse and connected harrow form one illustration; no separate interacting figures are delivered.",
+      "review_history": [
+        {
+          "round": "quality-reaudit-20261010",
+          "previous_review": {
+            "status": "awaiting-visual-review"
+          }
+        }
+      ]
+    }
+  ]
+}

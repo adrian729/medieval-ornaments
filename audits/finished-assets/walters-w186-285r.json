@@ -1,0 +1,575 @@
+{
+  "source_id": "walters-w186-285r",
+  "assets": [
+    {
+      "id": "walters-w186-285r--fixed-floral-page-margin-with-acanthus-and-gold-ivy",
+      "name": "fixed-floral-page-margin-with-acanthus-and-gold-ivy",
+      "source_id": "walters-w186-285r",
+      "source_folder": "walters",
+      "asset_type": "decoration",
+      "description": "A finite floral manuscript margin with blue and orange acanthus, flowering green stems and fine gold ivy. Part of the Two angels serenading St. Adrian, bounded by lute- and vielle-playing angels (walters-w186-285r) set.",
+      "source_region": [
+        63,
+        1443,
+        3843,
+        6492
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        3,
+        5,
+        1085,
+        1450
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 1082,
+      "height": 1445,
+      "png": "walters/walters-w186-285r--fixed-floral-page-margin-with-acanthus-and-gold-ivy.png",
+      "png_sha256": "68495dc4f7c67aaf84e2bb854f1545ec4c86094d8124b45bfef60f8e85d88b00",
+      "provenance": {
+        "institution": "Walters Art Museum",
+        "title": "Two angels serenading St. Adrian, bounded by lute- and vielle-playing angels",
+        "object_identifier": "W.186, fol. 285r",
+        "date": "Ca. 1460 CE",
+        "record_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/html/W186/description.html",
+        "image_rights": "CC0 (Digital Walters manuscript images)",
+        "rights_url": "https://www.thedigitalwalters.org/01_ACCESS_WALTERS_MANUSCRIPTS.html",
+        "source_file": "tmp/new-assets/walters/walters-w186-285r--two-angels-serenading-st-adrian-bounded-by-lute-and-vielle-playing-angels--master.tif",
+        "source_sha256": "090645bbb2b84caa5271ad86837e7db23c61e22cecec7d03a2afa39049fd2693",
+        "source_metadata": "tmp/new-assets/walters/walters-w186-285r.json",
+        "image_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/W186/data/W.186/master/W186_000573_1200.tif",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. Isolate ALL the original exterior floral page ornament: every large blue/orange acanthus scroll, green leafy stem, original pink/blue/orange flowers, vases where present, tiny gilded ivy leaves and fine dark connecting twigs. Remove the central miniature COMPLETELY including its painted background, arch/frame, figures and floor; remove the lower letter/text panel COMPLETELY including its frame and large capital. Remove the parchment around and BETWEEN every leaf and twig. Keep original flowers and blue/gold painted surfaces opaque. This is the source finite margin with its actual unequal sides, not a seamless repeat: do not invent a top band, new flowers, new corners, hidden connecting stems or symmetric counterparts. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_extraction": "tmp/extraction-work/walters-w186-285r--fixed-floral-page-margin-with-acanthus-and-gold-ivy--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "6cac43bd54ab3617b951bc7b9c0f4511882b5cad3f3d3cfaf774dc69dc69afe4",
+        "retained_generated_size": [
+          1085,
+          1450
+        ],
+        "resolution_cap_scale": 1,
+        "resolution_capped_size": [
+          1085,
+          1450
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          3717,
+          4944
+        ],
+        "native_subject_size_evidence": {
+          "method": "Individually inspected native visible subject bounds, excluding input-region whitespace and neighbours.",
+          "preview_subject_bounds": [
+            18,
+            282,
+            724,
+            1221
+          ],
+          "preview_size": [
+            1274,
+            1600
+          ],
+          "original_size": [
+            6707,
+            8424
+          ]
+        },
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 109244
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Original ROIs and final white/dark proofs inspected individually. All three original profile heads in the upper connected margin retained; both faces in the long left rod remain correctly oriented. Each hooded/lower head, stem, curl, original worn gilding and colored/pale fill retained; letter H/R/C/P and paper rules excluded. Two finite unequal floral margins retain actual flowering branches, acanthus, vases and fine gilt ivy, with original center/letter panels removed and no fabricated uniform repeat.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/walters-margin-final-ready-results-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/walters-margin-final-ready-results-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/walters-margin-final-ready-results-proof-3.jpg"
+        ]
+      },
+      "categories": [
+        "floral",
+        "scrollwork"
+      ],
+      "subjects": [
+        "flower",
+        "acanthus",
+        "ivy",
+        "leaf",
+        "margin"
+      ],
+      "colors": [
+        "blue",
+        "orange",
+        "green",
+        "gold",
+        "pink"
+      ],
+      "facing": "unclear",
+      "composition": "single-ornament",
+      "usage_notes": "Original independent specimen with printed plate rules and page removed. AI-assisted extraction remains approximate; source bounds, actual native subject cap, original and exact prompt retained.",
+      "sets": [
+        {
+          "id": "walters-w186-285r-set",
+          "name": "Two angels serenading St. Adrian, bounded by lute- and vielle-playing angels (walters-w186-285r)",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A finite floral manuscript margin with blue and orange acanthus, flowering green stems and fine gold ivy.",
+      "set_label": "Two angels serenading St. Adrian, bounded by lute- and vielle-playing angels (walters-w186-285r)"
+    },
+    {
+      "id": "walters-w186-285r--left-green-robed-angel-with-small-stringed-instrument",
+      "name": "left-green-robed-angel-with-small-stringed-instrument",
+      "source_id": "walters-w186-285r",
+      "source_folder": "walters",
+      "asset_type": "illustration",
+      "description": "A green-robed angel playing a small stringed instrument. Part of the Two angels serenading St. Adrian, bounded by lute- and vielle-playing angels (walters-w186-285r) set.",
+      "source_region": [
+        674,
+        2106,
+        1269,
+        4028
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        31,
+        0,
+        573,
+        1728
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 542,
+      "height": 1728,
+      "png": "walters/walters-w186-285r--left-green-robed-angel-with-small-stringed-instrument.png",
+      "png_sha256": "8d01e5d4832becf5c8ad3cb58fb15e725df1cdb392cc4051b9fba91f012e520a",
+      "provenance": {
+        "institution": "Walters Art Museum",
+        "title": "Two angels serenading St. Adrian, bounded by lute- and vielle-playing angels",
+        "object_identifier": "W.186, fol. 285r",
+        "date": "Ca. 1460 CE",
+        "record_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/html/W186/description.html",
+        "image_rights": "CC0 (Digital Walters manuscript images)",
+        "rights_url": "https://www.thedigitalwalters.org/01_ACCESS_WALTERS_MANUSCRIPTS.html",
+        "source_file": "tmp/new-assets/walters/walters-w186-285r--two-angels-serenading-st-adrian-bounded-by-lute-and-vielle-playing-angels--master.tif",
+        "source_sha256": "090645bbb2b84caa5271ad86837e7db23c61e22cecec7d03a2afa39049fd2693",
+        "source_metadata": "tmp/new-assets/walters/walters-w186-285r.json",
+        "image_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/W186/data/W.186/master/W186_000573_1200.tif",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. ONLY the LEFT GREEN-ROBED angel with its actual original bowed instrument and thin bow. Keep all original visible gold wings, hair, face, hands, instrument strings, fold shading and the entire original green robe/hem. Remove Saint Adrian's separate sword, anvil, lion and cloak, the distant gilded mosaic/curtain and floor. Do not treat the angel's GREEN robe as background. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_extraction": "tmp/extraction-work/walters-w186-285r--left-green-robed-angel-with-vielle--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "1a7a6a6ed79c38415c6061c4e1ab99cf5f686985f4d911ad0da4bc1892937ab1",
+        "retained_generated_size": [
+          725,
+          2168
+        ],
+        "resolution_cap_scale": 0.82574568288854,
+        "resolution_capped_size": [
+          599,
+          1790
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          526,
+          1795
+        ],
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 1727
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Compared original region and white/dark native-cap renders. Full visible figures, green leg armor, contacting lion, original props, wing colors and genuine harp/desk openings checked. Two visible busts retain only source-visible lower edges; no invented hidden legs. Three other batch outputs separately rejected for correction.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/eleven-walters-weapons-generated-results-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/eleven-walters-weapons-generated-results-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/eleven-walters-weapons-generated-results-proof-3.jpg"
+        ]
+      },
+      "categories": [
+        "humans",
+        "music"
+      ],
+      "subjects": [
+        "angel",
+        "wing",
+        "robe",
+        "musical-instrument"
+      ],
+      "colors": [
+        "green",
+        "gold",
+        "cream",
+        "brown"
+      ],
+      "facing": "right",
+      "composition": "single-figure",
+      "usage_notes": "Original independent specimen with printed plate rules and page removed. AI-assisted extraction remains approximate; source bounds, actual native subject cap, original and exact prompt retained.",
+      "identity_history": [
+        {
+          "previous_id": "walters-w186-285r--left-green-robed-angel-with-vielle",
+          "reason": "The small instrument type is ambiguous in the original; preserve ambiguity rather than asserting a lute or bowed vielle."
+        }
+      ],
+      "selection_history": [
+        {
+          "previous_values": {
+            "categories": [
+              "humans",
+              "music"
+            ],
+            "subjects": [
+              "angel",
+              "wing",
+              "robe",
+              "musical instrument"
+            ],
+            "composition": "single-figure"
+          },
+          "reason": "Normalize new staging metadata to shared category/composition/subject vocabulary; factual descriptions and original source metadata unchanged."
+        }
+      ],
+      "sets": [
+        {
+          "id": "walters-w186-285r-set",
+          "name": "Two angels serenading St. Adrian, bounded by lute- and vielle-playing angels (walters-w186-285r)",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A green-robed angel playing a small stringed instrument.",
+      "set_label": "Two angels serenading St. Adrian, bounded by lute- and vielle-playing angels (walters-w186-285r)"
+    },
+    {
+      "id": "walters-w186-285r--right-blue-robed-angel-with-lute",
+      "name": "right-blue-robed-angel-with-lute",
+      "source_id": "walters-w186-285r",
+      "source_folder": "walters",
+      "asset_type": "illustration",
+      "description": "The right blue-robed angel playing a long original gold lute beside Saint Adrian. Part of the Two angels serenading St. Adrian, bounded by lute- and vielle-playing angels (walters-w186-285r) set.",
+      "source_region": [
+        1953,
+        2143,
+        2553,
+        4054
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        22,
+        2,
+        570,
+        1690
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 548,
+      "height": 1688,
+      "png": "walters/walters-w186-285r--right-blue-robed-angel-with-lute.png",
+      "png_sha256": "2739e771a883e45e009f29661beaffdad89d85897abd3bed2400ea9ddaeacc82",
+      "provenance": {
+        "institution": "Walters Art Museum",
+        "title": "Two angels serenading St. Adrian, bounded by lute- and vielle-playing angels",
+        "object_identifier": "W.186, fol. 285r",
+        "date": "Ca. 1460 CE",
+        "record_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/html/W186/description.html",
+        "image_rights": "CC0 (Digital Walters manuscript images)",
+        "rights_url": "https://www.thedigitalwalters.org/01_ACCESS_WALTERS_MANUSCRIPTS.html",
+        "source_file": "tmp/new-assets/walters/walters-w186-285r--two-angels-serenading-st-adrian-bounded-by-lute-and-vielle-playing-angels--master.tif",
+        "source_sha256": "090645bbb2b84caa5271ad86837e7db23c61e22cecec7d03a2afa39049fd2693",
+        "source_metadata": "tmp/new-assets/walters/walters-w186-285r.json",
+        "image_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/W186/data/W.186/master/W186_000573_1200.tif",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. ONLY the RIGHT BLUE-ROBED angel playing its original long gold lute. Keep the original wings, hair, face, fingers on the actual thin lute neck and strings, pear-shaped lute body, complete robe folds and original hem. Remove the adjacent lion, Adrian's cloak/anvil, the distant gold mosaic and curtain, and red floor. No invented fingers, instrument parts or new hem ends. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_extraction": "tmp/extraction-work/walters-w186-285r--right-blue-robed-angel-with-lute--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "96fdff638c11443191a38e4d750c351679ec9cedae48104f5808adc3f8d02627",
+        "retained_generated_size": [
+          724,
+          2172
+        ],
+        "resolution_cap_scale": 0.8122137404580153,
+        "resolution_capped_size": [
+          588,
+          1764
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          532,
+          1774
+        ],
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 1069
+        },
+        "native_subject_size_evidence": {
+          "method": "Individually inspected native visible subject bounds, excluding input-region whitespace and neighbours.",
+          "preview_subject_bounds": [
+            377,
+            422,
+            478,
+            759
+          ],
+          "preview_size": [
+            1274,
+            1600
+          ],
+          "original_size": [
+            6707,
+            8424
+          ]
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Compared original region and white/dark native-cap renders. Full visible figures, green leg armor, contacting lion, original props, wing colors and genuine harp/desk openings checked. Two visible busts retain only source-visible lower edges; no invented hidden legs. Three other batch outputs separately rejected for correction.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/eleven-walters-weapons-generated-results-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/eleven-walters-weapons-generated-results-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/eleven-walters-weapons-generated-results-proof-3.jpg"
+        ]
+      },
+      "categories": [
+        "humans",
+        "music"
+      ],
+      "subjects": [
+        "angel",
+        "lute",
+        "wing",
+        "robe"
+      ],
+      "colors": [
+        "blue",
+        "gold",
+        "cream",
+        "brown"
+      ],
+      "facing": "left",
+      "composition": "single-figure",
+      "usage_notes": "Original independent specimen with printed plate rules and page removed. AI-assisted extraction remains approximate; source bounds, actual native subject cap, original and exact prompt retained.",
+      "sets": [
+        {
+          "id": "walters-w186-285r-set",
+          "name": "Two angels serenading St. Adrian, bounded by lute- and vielle-playing angels (walters-w186-285r)",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "The right blue-robed angel playing a long original gold lute beside Saint Adrian.",
+      "set_label": "Two angels serenading St. Adrian, bounded by lute- and vielle-playing angels (walters-w186-285r)"
+    },
+    {
+      "id": "walters-w186-285r--saint-adrian-with-lion-sword-and-anvil",
+      "name": "saint-adrian-with-lion-sword-and-anvil",
+      "source_id": "walters-w186-285r",
+      "source_folder": "walters",
+      "asset_type": "illustration",
+      "description": "Saint Adrian with sword and anvil, green armored legs and the lion touching the original feet. Part of the Two angels serenading St. Adrian, bounded by lute- and vielle-playing angels (walters-w186-285r) set.",
+      "source_region": [
+        1058,
+        1985,
+        2064,
+        4233
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        0,
+        0,
+        839,
+        1875
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 839,
+      "height": 1875,
+      "png": "walters/walters-w186-285r--saint-adrian-with-lion-sword-and-anvil.png",
+      "png_sha256": "4528334619f096273261cc68294b6ed54b9bee1db125538205c6d733f6443859",
+      "provenance": {
+        "institution": "Walters Art Museum",
+        "title": "Two angels serenading St. Adrian, bounded by lute- and vielle-playing angels",
+        "object_identifier": "W.186, fol. 285r",
+        "date": "Ca. 1460 CE",
+        "record_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/html/W186/description.html",
+        "image_rights": "CC0 (Digital Walters manuscript images)",
+        "rights_url": "https://www.thedigitalwalters.org/01_ACCESS_WALTERS_MANUSCRIPTS.html",
+        "source_file": "tmp/new-assets/walters/walters-w186-285r--two-angels-serenading-st-adrian-bounded-by-lute-and-vielle-playing-angels--master.tif",
+        "source_sha256": "090645bbb2b84caa5271ad86837e7db23c61e22cecec7d03a2afa39049fd2693",
+        "source_metadata": "tmp/new-assets/walters/walters-w186-285r.json",
+        "image_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/W186/data/W.186/master/W186_000573_1200.tif",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. The complete central Saint Adrian WITH his contacting lion: keep original silver helmet and gold halo, blue tunic, pale spotted cloak, BOTH GREEN ARMORED LEGS, original sword and anvil held by his hands, and the complete original lion/mane/body/tail at his feet. This is one contacting group, never split the lion from his feet. Remove the two neighbouring musicians, mosaic/curtain field and brick floor. The green legs and lion are FOREGROUND and must stay opaque; no new lion legs or restored hidden cloak. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_extraction": "tmp/extraction-work/walters-w186-285r--saint-adrian-with-lion-sword-and-anvil--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "ac97a50756edf1b4dc30d232c008932e3600a7d3064dea2c0e93b58e7a69b399",
+        "retained_generated_size": [
+          839,
+          1875
+        ],
+        "resolution_cap_scale": 1,
+        "resolution_capped_size": [
+          839,
+          1875
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          921,
+          2169
+        ],
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 2548
+        },
+        "native_subject_size_evidence": {
+          "method": "Individually inspected native visible subject bounds, excluding input-region whitespace and neighbours.",
+          "preview_subject_bounds": [
+            211,
+            386,
+            386,
+            798
+          ],
+          "preview_size": [
+            1274,
+            1600
+          ],
+          "original_size": [
+            6707,
+            8424
+          ]
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Compared original region and white/dark native-cap renders. Full visible figures, green leg armor, contacting lion, original props, wing colors and genuine harp/desk openings checked. Two visible busts retain only source-visible lower edges; no invented hidden legs. Three other batch outputs separately rejected for correction.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/eleven-walters-weapons-generated-results-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/eleven-walters-weapons-generated-results-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/eleven-walters-weapons-generated-results-proof-3.jpg"
+        ]
+      },
+      "categories": [
+        "humans",
+        "animals",
+        "royalty"
+      ],
+      "subjects": [
+        "adrian",
+        "saint",
+        "lion",
+        "sword",
+        "anvil",
+        "armor"
+      ],
+      "colors": [
+        "blue",
+        "green",
+        "cream",
+        "gold",
+        "brown"
+      ],
+      "facing": "front",
+      "composition": "multiple-figures",
+      "usage_notes": "Original independent specimen with printed plate rules and page removed. AI-assisted extraction remains approximate; source bounds, actual native subject cap, original and exact prompt retained.",
+      "selection_history": [
+        {
+          "previous_values": {
+            "categories": [
+              "humans",
+              "animals",
+              "royalty"
+            ],
+            "subjects": [
+              "Adrian",
+              "saint",
+              "lion",
+              "sword",
+              "anvil",
+              "armor"
+            ],
+            "composition": "multiple-figures"
+          },
+          "reason": "Normalize new staging metadata to shared category/composition/subject vocabulary; factual descriptions and original source metadata unchanged."
+        }
+      ],
+      "sets": [
+        {
+          "id": "walters-w186-285r-set",
+          "name": "Two angels serenading St. Adrian, bounded by lute- and vielle-playing angels (walters-w186-285r)",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "Saint Adrian with sword and anvil, green armored legs and the lion touching the original feet.",
+      "set_label": "Two angels serenading St. Adrian, bounded by lute- and vielle-playing angels (walters-w186-285r)"
+    }
+  ]
+}

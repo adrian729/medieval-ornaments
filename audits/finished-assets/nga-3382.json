@@ -1,0 +1,143 @@
+{
+  "source_id": "nga-3382",
+  "assets": [
+    {
+      "id": "nga-3382--acanthus-panel-with-two-lovers-and-inhabiting-animals",
+      "name": "acanthus-panel-with-two-lovers-and-inhabiting-animals",
+      "source_id": "nga-3382",
+      "source_folder": "national-gallery-of-art",
+      "asset_type": "decoration",
+      "description": "Finite connected acanthus panel with the original central lovers and inhabiting animals.",
+      "source_region": [
+        0,
+        0,
+        4096,
+        2774
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        16,
+        7,
+        4071,
+        2746
+      ],
+      "export_crop_coordinate_space": "original-native-source-region",
+      "width": 4055,
+      "height": 2739,
+      "png": "national-gallery-of-art/nga-3382--acanthus-panel-with-two-lovers-and-inhabiting-animals.png",
+      "png_sha256": "11ff82cd96072ad51dce6ea05b03c5c30a026a99022efdcfec141ce0c9aeb297",
+      "provenance": {
+        "institution": "National Gallery of Art, Washington",
+        "title": "Ornament Panel with Two Lovers",
+        "object_identifier": "1943.3.170",
+        "date": "c. 1490/1500",
+        "artist": "Israhel van Meckenem",
+        "record_url": "https://www.nga.gov/collection/art-object-page.3382.html",
+        "image_rights": "Open Access / public domain; official image dataset openaccess=1",
+        "rights_url": "https://www.nga.gov/artworks/free-images-and-open-access",
+        "source_file": "tmp/new-assets/national-gallery-of-art/nga-3382--ornament-panel-with-two-lovers.jpg",
+        "source_sha256": "e77fbec4fbd1f8058e7b895fca796490aaa564e2f0689069578c82213f88c13f",
+        "source_metadata": "tmp/new-assets/national-gallery-of-art/nga-3382.json",
+        "image_url": "https://api.nga.gov/iiif/e0108f4c-e9b4-482b-8e78-2c20f96d32a6/full/full/0/default.jpg",
+        "method": "native-source-continuous-edge-matting"
+      },
+      "extraction": {
+        "candidate_png": "tmp/extraction-work/continuation-20261010/nga-3382--acanthus-panel-with-two-lovers-and-inhabiting-animals--registered-native-candidate.png",
+        "native_export_crop": [
+          16,
+          7,
+          4071,
+          2746
+        ],
+        "export_crop_coordinate_space": "original-native-source-region",
+        "annotation_json": "tmp/extraction-work/continuation-20261010/nga-3382--acanthus-panel-with-two-lovers-and-inhabiting-animals--registered-native-annotation.json",
+        "trimap_png": "tmp/extraction-work/continuation-20261010/nga-3382--acanthus-panel-with-two-lovers-and-inhabiting-animals--registered-native-trimap.png",
+        "native_source_size": [
+          4096,
+          2774
+        ],
+        "native_upscaling": false,
+        "source_pixels_redrawn": false,
+        "original_opaque_rgb_preserved": true,
+        "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+        "alpha_guide": {
+          "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+          "guide_png": "tmp/extraction-work/continuation-20261010/nga-3382--acanthus-panel-with-two-lovers-and-inhabiting-animals--native-alpha-reference.png",
+          "guide_sha256": "d22fbbbb7bb3caa7ec19c312c55f29b7c403e22043f6e1faffc096f2145e072e",
+          "native_original": "tmp/extraction-work/continuation-20261010/nga-3382--acanthus-panel-with-two-lovers-and-inhabiting-animals--original.png",
+          "similarity_ai_alpha_to_original": [
+            [
+              2.6849066791419753,
+              0.000343195190623384,
+              1.1192590745317474
+            ],
+            [
+              -0.000343195190623384,
+              2.6849066791419753,
+              4.797432243878238
+            ]
+          ],
+          "matching_feature_pairs": 336,
+          "inlier_feature_pairs": 284,
+          "inlier_rms_native_pixels": 2.946009044619013,
+          "source_inspection_factor": 0.439453125,
+          "unknown_edge_band_native_pixels": 3,
+          "edge_solve_tile_size": 640,
+          "edge_solve_halo": 32,
+          "edge_solve_tiles": 35,
+          "original_opaque_rgb_preserved": true
+        },
+        "status": "awaiting-original-white-dark-review",
+        "tool": "Original native scan / closed-form edge alpha and foreground decontamination",
+        "pixel_exact": false,
+        "ownership_guide_prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. Select ONLY the COMPLETE finite connected original foreground engraved ornament shown in this reference. Retain every source-visible acanthus curl, stem, leaf, petal, figure, head, hand, foot, claw, tail, wing, prop and instrument, including all original fine hatching within foreground surfaces. Keep contacting figures together with their required shared mounts/props and ornamental structure. Remove the uniform dark crosshatched field outside the ornament and inside every true opening between its curls or figures, but keep the original dark hatching within the pale foreground bodies opaque. Preserve original inscriptions on actual foreground ribbons/vessels as source artwork; remove only extrinsic signatures/date labels/page rules/paper around the design. Do not cut or redraw the original forehead, facial features, source-visible anatomy, hatching or feathery leaves. This is one finite original ornamental network, with no inferred seamless tile, generic frame corner, symmetry repair or modernized leaf shape. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_ownership_guide": {
+          "file": "tmp/extraction-work/nga-3382--acanthus-panel-with-two-lovers-and-inhabiting-animals--retained-ai-extraction.png",
+          "sha256": "7922507501aeaace45f83d2a8684e4a91627575f05f45036100974bd945e9f25",
+          "purpose": "Retained AI alpha guide only; delivered opaque RGB belongs to the unchanged native source."
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Original/native white/dark comparisons inspected. Complete connected ornamental systems remain whole, including opaque source body surfaces, source print hatching and intrinsic roundel cloud scenes. Exterior printed field and true openings cleared with a three-native-pixel continuous source matte; original opaque RGB and native proportions retained. The separate NGA4342 date/monogram panel was removed along its original bounds; its occlusion was not repainted. No inaccurate vector or inferred repeat.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/connected-engraved-panel-tight-native-recipes-current-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/connected-engraved-panel-tight-native-recipes-current-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/nga-4342--candelabra-supported-by-two-blindfolded-women--latest-native-detail-proof.jpg"
+        ]
+      },
+      "categories": [
+        "floral",
+        "fantasy",
+        "humans"
+      ],
+      "subjects": [
+        "acanthus",
+        "leaf",
+        "scroll",
+        "figure",
+        "bird",
+        "animal"
+      ],
+      "colors": [
+        "black",
+        "cream",
+        "gray"
+      ],
+      "facing": "unclear",
+      "composition": "single-ornament",
+      "usage_notes": "Complete finite original engraved ornamental network. Actual contacting figures/props remain together. Native original source and exact AI ownership-guide prompt retained; no repeat or new frame corners inferred. Separate source-visible independent figures are considered in the source audit before source completion."
+    }
+  ]
+}

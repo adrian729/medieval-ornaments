@@ -1,18 +1,20 @@
-import React, { useState, useRef, useMemo, StrictMode } from 'react';
+import React, { useState, useRef, useMemo, useEffect, StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
-import { OrnamentFrame, OrnamentDivider, OrnamentImage } from '@ranx729/medieval-ornaments/react';
+import { createOrnamentComponent } from '../../lib/react-core.js';
 import { OrnamentDivider as BerryDivider } from '@ranx729/medieval-ornaments/react/red-berry-vine';
 import { OrnamentImage as FlyingPig } from '@ranx729/medieval-ornaments/react/flying-pig';
-import { findOrnaments, getOrnament } from '@ranx729/medieval-ornaments';
-import '../site.css';
-import '../playground.css';
+import { findOrnaments, getOrnament, resolveOrnament, loadCatalog } from '../shared/playground-catalog.js';
+
+// Keep component identities stable when the full picker catalog arrives.
+const OrnamentFrame = createOrnamentComponent('frame', resolveOrnament);
+const OrnamentDivider = createOrnamentComponent('divider', resolveOrnament);
+const OrnamentImage = createOrnamentComponent('image', resolveOrnament);
 
 // Published pages use the default CDN; the offline/self-hosted build sets data-assets-base,
 // and ?assets=local previews a checkout's linked, not yet published artwork.
 const assetsBase = document.documentElement.dataset.assetsBase
   || (new URLSearchParams(location.search).get('assets') === 'local' ? new URL('/', location.href).href : undefined);
 if (assetsBase && !document.documentElement.dataset.assetsBase) for (const link of document.querySelectorAll('a[href$="/"], a[href$=".html"]')) link.search = '?assets=local';
-const borders = findOrnaments({ use: 'divider' }), images = findOrnaments({ use: 'image' });
 const readable = name => { const plate = /^plate-(\d+)-(.*)$/.exec(name), words = (plate ? plate[2] : name).replaceAll('-', ' '); const text = words[0].toUpperCase() + words.slice(1); return plate ? `Plate ${Number(plate[1])} · ${text}` : text; };
 const capital = text => text[0].toUpperCase() + text.slice(1);
 
@@ -27,7 +29,10 @@ function Thumb({ item, lazy }) {
 }
 
 // A searchable picker: type tabs, category filter and text search over the catalog.
-function DesignPicker({ id, label, items, search, value, onChange }) {
+function DesignPicker({ id, label, use, search, value, onChange }) {
+  const [items, setItems] = useState(() => findOrnaments({ use }));
+  const [loading, setLoading] = useState(false), [error, setError] = useState(false);
+  const [limit, setLimit] = useState(48);
   const dialog = useRef(null);
   const [open, setOpen] = useState(false), [type, setType] = useState('all'), [category, setCategory] = useState(''), [query, setQuery] = useState('');
   const types = useMemo(() => [...new Set(items.map(item => item.asset_type))], [items]);
@@ -35,18 +40,26 @@ function DesignPicker({ id, label, items, search, value, onChange }) {
   const counts = new Map();
   for (const item of pool) for (const name of item.categories) counts.set(name, (counts.get(name) || 0) + 1);
   const activeCategory = counts.has(category) ? category : '';
-  const allowed = useMemo(() => new Set(search(query).map(item => item.name)), [search, query]);
+  const allowed = useMemo(() => new Set(search(query).map(item => item.name)), [search, query, items]);
   const results = pool.filter(item => allowed.has(item.name) && (!activeCategory || item.categories.includes(activeCategory)));
   const current = items.find(item => item.name === value);
   const close = () => dialog.current.close();
+  const load = async () => {
+    setLoading(true); setError(false);
+    try { await loadCatalog(); setItems(findOrnaments({ use })); }
+    catch { setError(true); }
+    finally { setLoading(false); }
+  };
+  useEffect(() => { setLimit(48); }, [query, type, category]);
+  useEffect(() => { if (open && !loading && !error) dialog.current.querySelector('input[type="search"]')?.focus(); }, [open, loading, error]);
   return <>
-    <button type="button" className="picker-trigger" id={id} data-value={value} aria-haspopup="dialog" onClick={() => { setQuery(''); setOpen(true); dialog.current.showModal(); }}>
+    <button type="button" className="picker-trigger" id={id} data-value={value} aria-haspopup="dialog" onClick={() => { setQuery(''); setLimit(48); setOpen(true); dialog.current.showModal(); load(); }}>
       <span className="picker-thumb"><Thumb item={current} /></span>
       <span className="picker-label"><strong>{readable(value)}</strong><small>Change</small></span>
     </button>
     <dialog ref={dialog} className="picker" aria-label={`Choose ${label.toLowerCase()}`} onClose={() => { if (!dialog.current.open) setOpen(false); }} onClick={event => event.target === dialog.current && close()}>
       <div className="picker-head"><h2>Choose {label.toLowerCase()}</h2><button type="button" className="btn btn-icon" aria-label="Close" onClick={close}>×</button></div>
-      <div className="picker-tools">
+      <div className="picker-tools" hidden={loading || error}>
         {types.length > 1 && <div className="segmented" role="group" aria-label="Type">
           {['all', ...types].map(name => <button key={name} type="button" aria-pressed={type === name} onClick={() => setType(name)}>{name === 'all' ? 'All' : typeNames[name]}</button>)}
         </div>}
@@ -56,12 +69,15 @@ function DesignPicker({ id, label, items, search, value, onChange }) {
           {[...counts].sort(([a], [b]) => a.localeCompare(b)).map(([name, count]) => <option key={name} value={name}>{capital(name)} ({count})</option>)}
         </select>
       </div>
-      <p className="picker-count" aria-live="polite">{results.length ? `${results.length} design${results.length === 1 ? '' : 's'}` : 'No designs match. Try another word or category.'}</p>
-      {open && <ul className="picker-grid">{results.map(item => <li key={item.name}>
+      <p className="picker-count" role="status">{loading ? 'Loading designs…' : error ? 'Could not load the designs. Reload the page to try again.' : results.length ? `${results.length} design${results.length === 1 ? '' : 's'}` : 'No designs match. Try another word or category.'}</p>
+      {error && <button type="button" className="btn picker-more" onClick={() => location.reload()}>Reload page</button>}
+      {loading && <div className="picker-skeleton" aria-hidden="true">{Array.from({ length: 8 }, (_, i) => <span key={i} className="loading-placeholder" />)}</div>}
+      {open && !loading && !error && <ul className="picker-grid">{results.slice(0, limit).map(item => <li key={item.name}>
         <button type="button" className="picker-tile" data-design={item.name} aria-pressed={item.name === value} onClick={() => { onChange(item.name); close(); }}>
           <span className="tile-art"><Thumb item={item} lazy /></span><span className="tile-name">{readable(item.name)}</span>
         </button>
       </li>)}</ul>}
+      {open && !loading && !error && results.length > limit && <button type="button" className="btn picker-more" onClick={() => setLimit(n => n + 48)}>Show more designs</button>}
     </dialog>
   </>;
 }
@@ -87,6 +103,7 @@ function imageSizes(item) {
 const kilobytes = bytes => bytes >= 1048576 ? `${(bytes / 1048576).toFixed(1)} MB` : `${Math.max(1, Math.round(bytes / 1024))} KB`;
 
 function App() {
+  useEffect(() => { document.body.dataset.ready = 'true'; }, []);
   const [design, setDesign] = useState('red-berry-vine');
   const [orientation, setOrientation] = useState('original');
   const [size, setSize] = useState(24);
@@ -97,43 +114,38 @@ function App() {
   const sizes = imageSizes(getOrnament(image));
   const chosen = sizes.find(option => option.label === tier) || sizes.findLast(option => Number(option.label) <= Number(tier)) || sizes[0];
   const imageSize = Math.round(chosen.size * 100) / 100;
-  const borderSnippet = `import { OrnamentFrame, OrnamentDivider }
+  const hasFrame = getOrnament(design).uses.includes('frame');
+  const borderSnippet = `import { ${hasFrame ? 'OrnamentFrame, ' : ''}OrnamentDivider }
   from '@ranx729/medieval-ornaments/react';
 
-<OrnamentFrame design="${design}" size={${size}}>
+${hasFrame ? `<OrnamentFrame design="${design}" size={${size}}>
   …
 </OrnamentFrame>
-<OrnamentDivider design="${design}" orientation="${orientation}" size={${size}} />`;
+` : ''}<OrnamentDivider design="${design}" orientation="${orientation}" size={${size}} />`;
   const imageSnippet = `import { OrnamentImage } from '@ranx729/medieval-ornaments/react';
 
 // Loads ${chosen.path} (${chosen.width} × ${chosen.height} px).
 <OrnamentImage design="${image}" size={${imageSize}} pixelRatio={1} loading="lazy" />`;
   return <>
-    <div className="page-head">
-      <p className="eyebrow">Integration</p>
-      <h1>React</h1>
-      <p className="lede">Declarative frames, dividers and images. Styles are included, server rendering works, and your own children and state are never replaced.</p>
-      <div className="install"><code>npm i @ranx729/medieval-ornaments</code></div>
-    </div>
-
     <section className="section" aria-labelledby="bordersTitle">
-      <div className="section-head"><h2 id="bordersTitle">Borders: frames and dividers</h2><p className="muted">Every border works as a frame around any element and as a divider in either direction. React re-renders the same elements, so the note you type stays put.</p></div>
+      <div className="section-head"><h2 id="bordersTitle">Borders: frames and dividers</h2><p className="muted">Every pattern works as a divider in either direction. Patterns with approved corners also work as frames. React re-renders the same elements, so the note you type stays put.</p></div>
       <div className="playground">
         <form className="panel play-controls" onSubmit={event => event.preventDefault()}>
-          <div className="field"><span>Border</span><DesignPicker id="design" label="Border" items={borders} search={searchBorders} value={design} onChange={setDesign} /></div>
+          <div className="field"><span>Border</span><DesignPicker id="design" label="Border" use="divider" search={searchBorders} value={design} onChange={setDesign} /></div>
           <label className="field">Divider direction <select id="orientation" name="orientation" value={orientation} onChange={event => setOrientation(event.target.value)}><option value="original">Original direction</option><option value="horizontal">Horizontal</option><option value="vertical">Vertical</option></select></label>
           <label className="field"><span className="field-row">Thickness <output>{size}px</output></span><input id="size" name="size" type="range" min="12" max="64" value={size} onChange={event => setSize(Number(event.target.value))} /></label>
         </form>
         <div className="play-output">
           <div className="stage">
-            {visible && <OrnamentFrame id="frame" className="play-card" design={design} size={size} assetsBase={assetsBase}>
+            {!hasFrame && <p>This pattern is available as a divider; no frame corners were approved.</p>}
+            {visible && hasFrame && <OrnamentFrame id="frame" className="play-card" design={design} size={size} assetsBase={assetsBase}>
               <h2>A frame for your content</h2>
               <p>React owns these children. Changing the border keeps this text and the input below.</p>
               <label className="field">Your note <input id="note" name="note" type="text" value={note} onChange={event => setNote(event.target.value)} /></label>
             </OrnamentFrame>}
           </div>
           <div className="stage divider-stage"><OrnamentDivider id="divider" design={design} orientation={orientation} size={size} assetsBase={assetsBase} /></div>
-          <p className="play-actions"><button id="toggle" className="btn btn-sm" type="button" onClick={() => setVisible(value => !value)}>{visible ? 'Hide frame' : 'Show frame'}</button><span className="muted">Your note survives because its state lives above the frame.</span></p>
+          <p className="play-actions"><button id="toggle" className="btn btn-sm" type="button" disabled={!hasFrame} onClick={() => setVisible(value => !value)}>{visible ? 'Hide frame' : 'Show frame'}</button><span className="muted">Your note survives because its state lives above the frame.</span></p>
         </div>
       </div>
       <Code>{borderSnippet}</Code>
@@ -143,7 +155,7 @@ function App() {
       <div className="section-head"><h2 id="imagesTitle">Images: decorations and illustrations</h2><p className="muted">Whole images keep their proportions. Choose one of the sizes published for the selected image; it is shown at that file’s pixel size.</p></div>
       <div className="playground">
         <form className="panel play-controls" onSubmit={event => event.preventDefault()}>
-          <div className="field"><span>Image</span><DesignPicker id="wholeDesign" label="Image" items={images} search={searchImages} value={image} onChange={setImage} /></div>
+          <div className="field"><span>Image</span><DesignPicker id="wholeDesign" label="Image" use="image" search={searchImages} value={image} onChange={setImage} /></div>
           <div className="field"><span>Size</span><div className="segmented" id="imageSize" role="group" aria-label="Image size">
             {sizes.map(option => <button key={option.label} type="button" data-value={option.label} aria-pressed={option === chosen} title={`${option.width} × ${option.height} px · ${kilobytes(option.bytes)}`} onClick={() => setTier(option.label)}>{option.label}</button>)}
           </div></div>
@@ -180,4 +192,3 @@ function App() {
 
 createRoot(document.getElementById('root')).render(<StrictMode><App /></StrictMode>);
 document.body.dataset.reactVersion = React.version;
-document.body.dataset.ready = 'true';

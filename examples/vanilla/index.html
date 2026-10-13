@@ -40,10 +40,10 @@
   </div>
 
   <section class="section" aria-labelledby="bordersTitle">
-    <div class="section-head"><h2 id="bordersTitle">Borders: frames and dividers</h2><p class="muted">Every border works as a frame around any element and as a divider in either direction. Changes call <code>update()</code> on the same controllers.</p></div>
+    <div class="section-head"><h2 id="bordersTitle">Borders: frames and dividers</h2><p class="muted">Every pattern works as a divider in either direction. Patterns with approved corners also work as frames. Changes call <code>update()</code> on the same controllers.</p></div>
     <div class="playground">
       <form class="panel play-controls" onsubmit="return false">
-        <div class="field"><span>Border</span><div id="designPicker"></div></div>
+        <div class="field"><span>Border</span><div id="designPicker"><button class="picker-trigger" type="button" disabled aria-label="Loading border controls"><span class="picker-thumb loading-placeholder" aria-hidden="true"></span><span class="picker-label"><strong>Red berry vine</strong><small>Loading…</small></span></button></div></div>
         <label class="field">Divider direction <select id="orientation" name="orientation"><option value="original">Original direction</option><option value="horizontal">Horizontal</option><option value="vertical">Vertical</option></select></label>
         <label class="field"><span class="field-row">Thickness <output id="sizeOut">24px</output></span><input id="size" name="size" type="range" min="12" max="64" value="24"></label>
       </form>
@@ -65,7 +65,7 @@
     <div class="section-head"><h2 id="imagesTitle">Images: decorations and illustrations</h2><p class="muted">Whole images keep their proportions. Choose one of the sizes published for the selected image; it is shown at that file’s pixel size.</p></div>
     <div class="playground">
       <form class="panel play-controls" onsubmit="return false">
-        <div class="field"><span>Image</span><div id="imagePicker"></div></div>
+        <div class="field"><span>Image</span><div id="imagePicker"><button class="picker-trigger" type="button" disabled aria-label="Loading image controls"><span class="picker-thumb loading-placeholder" aria-hidden="true"></span><span class="picker-label"><strong>Floral bird panel blue</strong><small>Loading…</small></span></button></div></div>
         <div class="field"><span>Size</span><div class="segmented" id="imageSize" role="group" aria-label="Image size"></div></div>
       </form>
       <div class="play-output">

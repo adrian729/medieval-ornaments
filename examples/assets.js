@@ -8,7 +8,7 @@ export function assetUrl(relative) {
   if (new URLSearchParams(location.search).get('assets') === 'local') return new URL('../' + relative, import.meta.url).href;
   if (!/^(?:svg|png|webp)\//.test(relative)) return new URL('../' + relative, import.meta.url).href;
   const stem = relative.split('/').at(-1).replace(/\.(svg|png|webp)$/, '');
-  for (const name of [stem, stem.replace(/-(border|corner|rotated|reference)$/, '')]) {
+  for (const name of [stem, stem.replace(/-(bar-rotated|corner-(?:top|bottom)-(?:left|right)|border|corner|rotated|reference|bar)$/, '')]) {
     try { return getAssetSource(name).base + relative; } catch (error) { if (!(error instanceof RangeError)) throw error; }
   }
   throw new RangeError('Unassigned demo resource: ' + relative);

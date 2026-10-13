@@ -1,0 +1,248 @@
+{
+  "source_id": "met-377606",
+  "assets": [
+    {
+      "id": "met-377606--cupid-subduing-two-lions-in-acanthus-scroll",
+      "name": "cupid-subduing-two-lions-in-acanthus-scroll",
+      "source_id": "met-377606",
+      "source_folder": "met",
+      "asset_type": "decoration",
+      "description": "A winged Cupid physically holding two crouching lions, their bodies flowing into the surrounding curled acanthus frieze. Part of the Cupid and Four Seasons acanthus friezes set.",
+      "source_region": [
+        125,
+        125,
+        3832,
+        761
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        0,
+        0,
+        3707,
+        636
+      ],
+      "export_crop_coordinate_space": "source-region",
+      "width": 3707,
+      "height": 636,
+      "png": "met/met-377606--cupid-subduing-two-lions-in-acanthus-scroll.png",
+      "png_sha256": "7a3d8e8c0924671d0fea503780d26297f7af0d2c346a0da104eb0178bb3c78fb",
+      "provenance": {
+        "institution": "Metropolitan Museum of Art",
+        "title": "Two Acanthus Friezes: Cupid Subduing Two Lions; Heads of Four Seasons, plate 14 from \"Decorative friezes and foliage\" (Ornamenti di fregi e fogliami)",
+        "object_identifier": "1986.1180.647",
+        "date": "ca. 1648",
+        "artist": "Stefano della Bella",
+        "record_url": "https://www.metmuseum.org/art/collection/search/377606",
+        "image_rights": "CC0 Open Access; isPublicDomain=true",
+        "rights_url": "https://www.metmuseum.org/policies/image-resources",
+        "source_file": "tmp/new-assets/met/met-377606--two-acanthus-friezes-cupid-subduing-two-lions-heads-of-four-seasons-plate-14-from-decorati.jpg",
+        "source_sha256": "9020e8352e0e7a2650ca954694e65f17df7449415f682ace658d372b8f7c7291",
+        "source_metadata": "tmp/new-assets/met/met-377606.json",
+        "image_url": null,
+        "method": "native-continuous-ink-matting"
+      },
+      "extraction": {
+        "method": "Native-resolution continuous ink coverage after locally measured paper removal; PNG appearance master.",
+        "source_pixels_repainted": false,
+        "source_rgb_modified": "Paper removed by measured ink coverage; RGB is the scan-measured ink tone, not an exact source-pixel crop.",
+        "paper_kernel": 61,
+        "minimum_coverage": 0.12,
+        "minimum_component_pixels": 6,
+        "settings": {
+          "paper_kernel": 61,
+          "paper_kernel_shape": "rectangle",
+          "minimum_coverage": 0.12,
+          "minimum_component_pixels": 6,
+          "minimum_component_peak": 0.42,
+          "minimum_channel_coverage": true
+        },
+        "exclude_regions": [],
+        "export_crop": [
+          0,
+          0,
+          3707,
+          636
+        ],
+        "ink_color": [
+          81,
+          67,
+          46
+        ],
+        "candidate_png": "tmp/extraction-work/met-377606--cupid-subduing-two-lions-in-acanthus-scroll--ink-candidate.png",
+        "status": "awaiting-native-visual-review",
+        "tool": "Native source ink analysis",
+        "source_pixels_redrawn": false
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "approval_scope": "Native source-appearance comparison; provisional for maintainer review.",
+        "checks": [
+          "native-source-ink",
+          "continuous-alpha",
+          "complete-ornament",
+          "true-paper-transparency",
+          "fine-strokes-on-white-and-dark",
+          "no-upscaling"
+        ],
+        "notes": "Native source ink retained, including curved hatching, leaves, faces, thin draperies, cages and scroll tips. Original architectural beams/rules forming the artwork are retained where they support figures. Actual paper openings are transparent. PNG-only; a trace would lose print grain.",
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/met-eight-native-recipes-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/met-eight-native-recipes-proof-2.jpg"
+        ]
+      },
+      "categories": [
+        "floral",
+        "fantasy"
+      ],
+      "subjects": [
+        "cupid",
+        "putto",
+        "lion",
+        "wing",
+        "acanthus",
+        "leaf",
+        "scroll"
+      ],
+      "facing": "mixed",
+      "colors": [
+        "brown",
+        "black"
+      ],
+      "composition": "single-ornament",
+      "usage_notes": "Native ink appearance retained with continuous transparency. This finite original ornament establishes no seamless period; no repeat or corner atlas inferred. SVG withheld where tracing alters the source print grain.",
+      "sets": [
+        {
+          "id": "met-377606-set",
+          "name": "Cupid and Four Seasons acanthus friezes",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A winged Cupid physically holding two crouching lions, their bodies flowing into the surrounding curled acanthus frieze.",
+      "set_label": "Cupid and Four Seasons acanthus friezes"
+    },
+    {
+      "id": "met-377606--four-season-heads-in-acanthus-frieze",
+      "name": "four-season-heads-in-acanthus-frieze",
+      "source_id": "met-377606",
+      "source_folder": "met",
+      "asset_type": "decoration",
+      "description": "Four heads representing the seasons among a connected acanthus frieze, a blank curled cartouche and a wreath containing weighing scales. Part of the Cupid and Four Seasons acanthus friezes set.",
+      "source_region": [
+        151,
+        823,
+        3829,
+        1262
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        0,
+        0,
+        3678,
+        439
+      ],
+      "export_crop_coordinate_space": "source-region",
+      "width": 3678,
+      "height": 439,
+      "png": "met/met-377606--four-season-heads-in-acanthus-frieze.png",
+      "png_sha256": "2c8b1977d4d85224b3d8ab1cb6c88df070a34fe5c363671ab659adeeae9ad70f",
+      "provenance": {
+        "institution": "Metropolitan Museum of Art",
+        "title": "Two Acanthus Friezes: Cupid Subduing Two Lions; Heads of Four Seasons, plate 14 from \"Decorative friezes and foliage\" (Ornamenti di fregi e fogliami)",
+        "object_identifier": "1986.1180.647",
+        "date": "ca. 1648",
+        "artist": "Stefano della Bella",
+        "record_url": "https://www.metmuseum.org/art/collection/search/377606",
+        "image_rights": "CC0 Open Access; isPublicDomain=true",
+        "rights_url": "https://www.metmuseum.org/policies/image-resources",
+        "source_file": "tmp/new-assets/met/met-377606--two-acanthus-friezes-cupid-subduing-two-lions-heads-of-four-seasons-plate-14-from-decorati.jpg",
+        "source_sha256": "9020e8352e0e7a2650ca954694e65f17df7449415f682ace658d372b8f7c7291",
+        "source_metadata": "tmp/new-assets/met/met-377606.json",
+        "image_url": null,
+        "method": "native-continuous-ink-matting"
+      },
+      "extraction": {
+        "method": "Native-resolution continuous ink coverage after locally measured paper removal; PNG appearance master.",
+        "source_pixels_repainted": false,
+        "source_rgb_modified": "Paper removed by measured ink coverage; RGB is the scan-measured ink tone, not an exact source-pixel crop.",
+        "paper_kernel": 61,
+        "minimum_coverage": 0.12,
+        "minimum_component_pixels": 6,
+        "settings": {
+          "paper_kernel": 61,
+          "paper_kernel_shape": "rectangle",
+          "minimum_coverage": 0.12,
+          "minimum_component_pixels": 6,
+          "minimum_component_peak": 0.42,
+          "minimum_channel_coverage": true
+        },
+        "exclude_regions": [],
+        "export_crop": [
+          0,
+          0,
+          3678,
+          439
+        ],
+        "ink_color": [
+          81,
+          68,
+          47
+        ],
+        "candidate_png": "tmp/extraction-work/met-377606--four-season-heads-in-acanthus-frieze--ink-candidate.png",
+        "status": "awaiting-native-visual-review",
+        "tool": "Native source ink analysis",
+        "source_pixels_redrawn": false
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "approval_scope": "Native source-appearance comparison; provisional for maintainer review.",
+        "checks": [
+          "native-source-ink",
+          "continuous-alpha",
+          "complete-ornament",
+          "true-paper-transparency",
+          "fine-strokes-on-white-and-dark",
+          "no-upscaling"
+        ],
+        "notes": "Native source ink retained, including curved hatching, leaves, faces, thin draperies, cages and scroll tips. Original architectural beams/rules forming the artwork are retained where they support figures. Actual paper openings are transparent. PNG-only; a trace would lose print grain.",
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/met-eight-native-recipes-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/met-eight-native-recipes-proof-2.jpg"
+        ]
+      },
+      "categories": [
+        "floral",
+        "fantasy"
+      ],
+      "subjects": [
+        "head",
+        "season",
+        "acanthus",
+        "leaf",
+        "scroll",
+        "cartouche",
+        "wreath",
+        "scales"
+      ],
+      "facing": "mixed",
+      "colors": [
+        "brown",
+        "black"
+      ],
+      "composition": "single-ornament",
+      "usage_notes": "Native ink appearance retained with continuous transparency. This finite original ornament establishes no seamless period; no repeat or corner atlas inferred. SVG withheld where tracing alters the source print grain.",
+      "sets": [
+        {
+          "id": "met-377606-set",
+          "name": "Cupid and Four Seasons acanthus friezes",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "Four heads representing the seasons among a connected acanthus frieze, a blank curled cartouche and a wreath containing weighing scales.",
+      "set_label": "Cupid and Four Seasons acanthus friezes"
+    }
+  ]
+}

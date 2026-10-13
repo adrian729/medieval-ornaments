@@ -1,0 +1,1384 @@
+{
+  "schemaVersion": 2,
+  "id": "borders-005",
+  "collection": "borders",
+  "package": "@ranx729/medieval-ornaments-assets-borders-005",
+  "version": "0.1.0",
+  "designs": {
+    "gray-red-blue-lobed-leaves-in-gold-medallions-cycle": {
+      "name": "gray-red-blue-lobed-leaves-in-gold-medallions-cycle",
+      "asset_type": "border",
+      "kind": "repeat-tile",
+      "derivation": "native-source-repeat",
+      "repeat_axis": "x",
+      "repeat_ratio": 2.8577712609970676,
+      "border_image_slice_percent": 20.585571989133715,
+      "width": 1949,
+      "height": 682,
+      "png": "png/gray-red-blue-lobed-leaves-in-gold-medallions-cycle.png",
+      "webp": "webp/gray-red-blue-lobed-leaves-in-gold-medallions-cycle.webp",
+      "png_bytes": 2088148,
+      "webp_bytes": 1649822,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/gray-red-blue-lobed-leaves-in-gold-medallions-cycle.png",
+          "webp": "webp/128/gray-red-blue-lobed-leaves-in-gold-medallions-cycle.webp",
+          "width": 128,
+          "height": 45,
+          "png_bytes": 12043,
+          "webp_bytes": 9436
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/gray-red-blue-lobed-leaves-in-gold-medallions-cycle.png",
+          "webp": "webp/256/gray-red-blue-lobed-leaves-in-gold-medallions-cycle.webp",
+          "width": 256,
+          "height": 90,
+          "png_bytes": 43645,
+          "webp_bytes": 32462
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/gray-red-blue-lobed-leaves-in-gold-medallions-cycle.png",
+          "webp": "webp/512/gray-red-blue-lobed-leaves-in-gold-medallions-cycle.webp",
+          "width": 512,
+          "height": 179,
+          "png_bytes": 160112,
+          "webp_bytes": 121374
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/gray-red-blue-lobed-leaves-in-gold-medallions-cycle.png",
+          "webp": "webp/768/gray-red-blue-lobed-leaves-in-gold-medallions-cycle.webp",
+          "width": 768,
+          "height": 269,
+          "png_bytes": 342905,
+          "webp_bytes": 268224
+        }
+      ],
+      "components": {
+        "bar": {
+          "png": "png/gray-red-blue-lobed-leaves-in-gold-medallions-cycle-bar.png",
+          "webp": "webp/gray-red-blue-lobed-leaves-in-gold-medallions-cycle-bar.webp",
+          "width": 9745,
+          "height": 682,
+          "png_bytes": 2250471,
+          "webp_bytes": 6388576,
+          "variants": [
+            {
+              "max_dimension": 128,
+              "rendered_max_dimension": 128,
+              "png": "png/128/gray-red-blue-lobed-leaves-in-gold-medallions-cycle-bar.png",
+              "webp": "webp/128/gray-red-blue-lobed-leaves-in-gold-medallions-cycle-bar.webp",
+              "width": 128,
+              "height": 9,
+              "png_bytes": 2936,
+              "webp_bytes": 2642
+            },
+            {
+              "max_dimension": 256,
+              "rendered_max_dimension": 256,
+              "png": "png/256/gray-red-blue-lobed-leaves-in-gold-medallions-cycle-bar.png",
+              "webp": "webp/256/gray-red-blue-lobed-leaves-in-gold-medallions-cycle-bar.webp",
+              "width": 256,
+              "height": 18,
+              "png_bytes": 10851,
+              "webp_bytes": 8900
+            },
+            {
+              "max_dimension": 512,
+              "rendered_max_dimension": 512,
+              "png": "png/512/gray-red-blue-lobed-leaves-in-gold-medallions-cycle-bar.png",
+              "webp": "webp/512/gray-red-blue-lobed-leaves-in-gold-medallions-cycle-bar.webp",
+              "width": 512,
+              "height": 36,
+              "png_bytes": 37961,
+              "webp_bytes": 29580
+            },
+            {
+              "max_dimension": 768,
+              "rendered_max_dimension": 768,
+              "png": "png/768/gray-red-blue-lobed-leaves-in-gold-medallions-cycle-bar.png",
+              "webp": "webp/768/gray-red-blue-lobed-leaves-in-gold-medallions-cycle-bar.webp",
+              "width": 768,
+              "height": 54,
+              "png_bytes": 82099,
+              "webp_bytes": 59546
+            }
+          ]
+        },
+        "border_image": {
+          "png": "png/gray-red-blue-lobed-leaves-in-gold-medallions-cycle-border.png",
+          "webp": "webp/gray-red-blue-lobed-leaves-in-gold-medallions-cycle-border.webp",
+          "width": 3313,
+          "height": 3313,
+          "png_bytes": 9913900,
+          "webp_bytes": 8642276,
+          "variants": [],
+          "slice_pixels": 682
+        },
+        "corner-top-left": {
+          "png": "png/gray-red-blue-lobed-leaves-in-gold-medallions-cycle-corner-top-left.png",
+          "webp": "webp/gray-red-blue-lobed-leaves-in-gold-medallions-cycle-corner-top-left.webp",
+          "width": 682,
+          "height": 682,
+          "png_bytes": 691623,
+          "webp_bytes": 537706,
+          "variants": [
+            {
+              "max_dimension": 128,
+              "rendered_max_dimension": 128,
+              "png": "png/128/gray-red-blue-lobed-leaves-in-gold-medallions-cycle-corner-top-left.png",
+              "webp": "webp/128/gray-red-blue-lobed-leaves-in-gold-medallions-cycle-corner-top-left.webp",
+              "width": 128,
+              "height": 128,
+              "png_bytes": 29319,
+              "webp_bytes": 22076
+            },
+            {
+              "max_dimension": 256,
+              "rendered_max_dimension": 256,
+              "png": "png/256/gray-red-blue-lobed-leaves-in-gold-medallions-cycle-corner-top-left.png",
+              "webp": "webp/256/gray-red-blue-lobed-leaves-in-gold-medallions-cycle-corner-top-left.webp",
+              "width": 256,
+              "height": 256,
+              "png_bytes": 106475,
+              "webp_bytes": 82950
+            },
+            {
+              "max_dimension": 512,
+              "rendered_max_dimension": 512,
+              "png": "png/512/gray-red-blue-lobed-leaves-in-gold-medallions-cycle-corner-top-left.png",
+              "webp": "webp/512/gray-red-blue-lobed-leaves-in-gold-medallions-cycle-corner-top-left.webp",
+              "width": 512,
+              "height": 512,
+              "png_bytes": 390215,
+              "webp_bytes": 303298
+            }
+          ]
+        },
+        "corner-top-right": {
+          "png": "png/gray-red-blue-lobed-leaves-in-gold-medallions-cycle-corner-top-right.png",
+          "webp": "webp/gray-red-blue-lobed-leaves-in-gold-medallions-cycle-corner-top-right.webp",
+          "width": 682,
+          "height": 682,
+          "png_bytes": 692786,
+          "webp_bytes": 537990,
+          "variants": [
+            {
+              "max_dimension": 128,
+              "rendered_max_dimension": 128,
+              "png": "png/128/gray-red-blue-lobed-leaves-in-gold-medallions-cycle-corner-top-right.png",
+              "webp": "webp/128/gray-red-blue-lobed-leaves-in-gold-medallions-cycle-corner-top-right.webp",
+              "width": 128,
+              "height": 128,
+              "png_bytes": 29138,
+              "webp_bytes": 22086
+            },
+            {
+              "max_dimension": 256,
+              "rendered_max_dimension": 256,
+              "png": "png/256/gray-red-blue-lobed-leaves-in-gold-medallions-cycle-corner-top-right.png",
+              "webp": "webp/256/gray-red-blue-lobed-leaves-in-gold-medallions-cycle-corner-top-right.webp",
+              "width": 256,
+              "height": 256,
+              "png_bytes": 107868,
+              "webp_bytes": 82864
+            },
+            {
+              "max_dimension": 512,
+              "rendered_max_dimension": 512,
+              "png": "png/512/gray-red-blue-lobed-leaves-in-gold-medallions-cycle-corner-top-right.png",
+              "webp": "webp/512/gray-red-blue-lobed-leaves-in-gold-medallions-cycle-corner-top-right.webp",
+              "width": 512,
+              "height": 512,
+              "png_bytes": 392600,
+              "webp_bytes": 302444
+            }
+          ]
+        },
+        "corner-bottom-right": {
+          "png": "png/gray-red-blue-lobed-leaves-in-gold-medallions-cycle-corner-bottom-right.png",
+          "webp": "webp/gray-red-blue-lobed-leaves-in-gold-medallions-cycle-corner-bottom-right.webp",
+          "width": 682,
+          "height": 682,
+          "png_bytes": 691829,
+          "webp_bytes": 537740,
+          "variants": [
+            {
+              "max_dimension": 128,
+              "rendered_max_dimension": 128,
+              "png": "png/128/gray-red-blue-lobed-leaves-in-gold-medallions-cycle-corner-bottom-right.png",
+              "webp": "webp/128/gray-red-blue-lobed-leaves-in-gold-medallions-cycle-corner-bottom-right.webp",
+              "width": 128,
+              "height": 128,
+              "png_bytes": 29301,
+              "webp_bytes": 22188
+            },
+            {
+              "max_dimension": 256,
+              "rendered_max_dimension": 256,
+              "png": "png/256/gray-red-blue-lobed-leaves-in-gold-medallions-cycle-corner-bottom-right.png",
+              "webp": "webp/256/gray-red-blue-lobed-leaves-in-gold-medallions-cycle-corner-bottom-right.webp",
+              "width": 256,
+              "height": 256,
+              "png_bytes": 106611,
+              "webp_bytes": 82860
+            },
+            {
+              "max_dimension": 512,
+              "rendered_max_dimension": 512,
+              "png": "png/512/gray-red-blue-lobed-leaves-in-gold-medallions-cycle-corner-bottom-right.png",
+              "webp": "webp/512/gray-red-blue-lobed-leaves-in-gold-medallions-cycle-corner-bottom-right.webp",
+              "width": 512,
+              "height": 512,
+              "png_bytes": 390844,
+              "webp_bytes": 303854
+            }
+          ]
+        },
+        "corner-bottom-left": {
+          "png": "png/gray-red-blue-lobed-leaves-in-gold-medallions-cycle-corner-bottom-left.png",
+          "webp": "webp/gray-red-blue-lobed-leaves-in-gold-medallions-cycle-corner-bottom-left.webp",
+          "width": 682,
+          "height": 682,
+          "png_bytes": 691859,
+          "webp_bytes": 536842,
+          "variants": [
+            {
+              "max_dimension": 128,
+              "rendered_max_dimension": 128,
+              "png": "png/128/gray-red-blue-lobed-leaves-in-gold-medallions-cycle-corner-bottom-left.png",
+              "webp": "webp/128/gray-red-blue-lobed-leaves-in-gold-medallions-cycle-corner-bottom-left.webp",
+              "width": 128,
+              "height": 128,
+              "png_bytes": 28981,
+              "webp_bytes": 21922
+            },
+            {
+              "max_dimension": 256,
+              "rendered_max_dimension": 256,
+              "png": "png/256/gray-red-blue-lobed-leaves-in-gold-medallions-cycle-corner-bottom-left.png",
+              "webp": "webp/256/gray-red-blue-lobed-leaves-in-gold-medallions-cycle-corner-bottom-left.webp",
+              "width": 256,
+              "height": 256,
+              "png_bytes": 107006,
+              "webp_bytes": 82448
+            },
+            {
+              "max_dimension": 512,
+              "rendered_max_dimension": 512,
+              "png": "png/512/gray-red-blue-lobed-leaves-in-gold-medallions-cycle-corner-bottom-left.png",
+              "webp": "webp/512/gray-red-blue-lobed-leaves-in-gold-medallions-cycle-corner-bottom-left.webp",
+              "width": 512,
+              "height": 512,
+              "png_bytes": 391042,
+              "webp_bytes": 301834
+            }
+          ]
+        },
+        "rotated_tile": {
+          "png": "png/gray-red-blue-lobed-leaves-in-gold-medallions-cycle-rotated.png",
+          "webp": "webp/gray-red-blue-lobed-leaves-in-gold-medallions-cycle-rotated.webp",
+          "width": 682,
+          "height": 1949,
+          "png_bytes": 2074254,
+          "webp_bytes": 1640290,
+          "variants": [
+            {
+              "max_dimension": 128,
+              "rendered_max_dimension": 128,
+              "png": "png/128/gray-red-blue-lobed-leaves-in-gold-medallions-cycle-rotated.png",
+              "webp": "webp/128/gray-red-blue-lobed-leaves-in-gold-medallions-cycle-rotated.webp",
+              "width": 45,
+              "height": 128,
+              "png_bytes": 12248,
+              "webp_bytes": 9368
+            },
+            {
+              "max_dimension": 256,
+              "rendered_max_dimension": 256,
+              "png": "png/256/gray-red-blue-lobed-leaves-in-gold-medallions-cycle-rotated.png",
+              "webp": "webp/256/gray-red-blue-lobed-leaves-in-gold-medallions-cycle-rotated.webp",
+              "width": 90,
+              "height": 256,
+              "png_bytes": 44696,
+              "webp_bytes": 33266
+            },
+            {
+              "max_dimension": 512,
+              "rendered_max_dimension": 512,
+              "png": "png/512/gray-red-blue-lobed-leaves-in-gold-medallions-cycle-rotated.png",
+              "webp": "webp/512/gray-red-blue-lobed-leaves-in-gold-medallions-cycle-rotated.webp",
+              "width": 179,
+              "height": 512,
+              "png_bytes": 164286,
+              "webp_bytes": 122058
+            },
+            {
+              "max_dimension": 768,
+              "rendered_max_dimension": 768,
+              "png": "png/768/gray-red-blue-lobed-leaves-in-gold-medallions-cycle-rotated.png",
+              "webp": "webp/768/gray-red-blue-lobed-leaves-in-gold-medallions-cycle-rotated.webp",
+              "width": 269,
+              "height": 768,
+              "png_bytes": 349788,
+              "webp_bytes": 269134
+            }
+          ],
+          "repeat_axis": "y",
+          "repeat_ratio": 2.8577712609970676
+        },
+        "rotated_bar": {
+          "png": "png/gray-red-blue-lobed-leaves-in-gold-medallions-cycle-bar-rotated.png",
+          "webp": "webp/gray-red-blue-lobed-leaves-in-gold-medallions-cycle-bar-rotated.webp",
+          "width": 682,
+          "height": 9745,
+          "png_bytes": 10366741,
+          "webp_bytes": 8241994,
+          "variants": [
+            {
+              "max_dimension": 128,
+              "rendered_max_dimension": 128,
+              "png": "png/128/gray-red-blue-lobed-leaves-in-gold-medallions-cycle-bar-rotated.png",
+              "webp": "webp/128/gray-red-blue-lobed-leaves-in-gold-medallions-cycle-bar-rotated.webp",
+              "width": 9,
+              "height": 128,
+              "png_bytes": 3142,
+              "webp_bytes": 2850
+            },
+            {
+              "max_dimension": 256,
+              "rendered_max_dimension": 256,
+              "png": "png/256/gray-red-blue-lobed-leaves-in-gold-medallions-cycle-bar-rotated.png",
+              "webp": "webp/256/gray-red-blue-lobed-leaves-in-gold-medallions-cycle-bar-rotated.webp",
+              "width": 18,
+              "height": 256,
+              "png_bytes": 11168,
+              "webp_bytes": 10088
+            },
+            {
+              "max_dimension": 512,
+              "rendered_max_dimension": 512,
+              "png": "png/512/gray-red-blue-lobed-leaves-in-gold-medallions-cycle-bar-rotated.png",
+              "webp": "webp/512/gray-red-blue-lobed-leaves-in-gold-medallions-cycle-bar-rotated.webp",
+              "width": 36,
+              "height": 512,
+              "png_bytes": 39418,
+              "webp_bytes": 29340
+            },
+            {
+              "max_dimension": 768,
+              "rendered_max_dimension": 768,
+              "png": "png/768/gray-red-blue-lobed-leaves-in-gold-medallions-cycle-bar-rotated.png",
+              "webp": "webp/768/gray-red-blue-lobed-leaves-in-gold-medallions-cycle-bar-rotated.webp",
+              "width": 54,
+              "height": 768,
+              "png_bytes": 85154,
+              "webp_bytes": 61222
+            }
+          ]
+        }
+      },
+      "uses": [
+        "frame",
+        "divider"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "looped-lattice-knots-and-curled-palmettes": {
+      "name": "looped-lattice-knots-and-curled-palmettes",
+      "asset_type": "border",
+      "kind": "repeat-tile",
+      "derivation": "native-source-repeat",
+      "repeat_axis": "x",
+      "repeat_ratio": 1.289655172413793,
+      "border_image_slice_percent": 30.39832285115304,
+      "width": 561,
+      "height": 435,
+      "png": "png/looped-lattice-knots-and-curled-palmettes.png",
+      "webp": "webp/looped-lattice-knots-and-curled-palmettes.webp",
+      "png_bytes": 142793,
+      "webp_bytes": 86324,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/looped-lattice-knots-and-curled-palmettes.png",
+          "webp": "webp/128/looped-lattice-knots-and-curled-palmettes.webp",
+          "width": 128,
+          "height": 99,
+          "png_bytes": 28122,
+          "webp_bytes": 13496
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/looped-lattice-knots-and-curled-palmettes.png",
+          "webp": "webp/256/looped-lattice-knots-and-curled-palmettes.webp",
+          "width": 256,
+          "height": 199,
+          "png_bytes": 90342,
+          "webp_bytes": 44582
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/looped-lattice-knots-and-curled-palmettes.png",
+          "webp": "webp/512/looped-lattice-knots-and-curled-palmettes.webp",
+          "width": 512,
+          "height": 397,
+          "png_bytes": 284962,
+          "webp_bytes": 155078
+        }
+      ],
+      "components": {
+        "bar": {
+          "png": "png/looped-lattice-knots-and-curled-palmettes-bar.png",
+          "webp": "webp/looped-lattice-knots-and-curled-palmettes-bar.webp",
+          "width": 2805,
+          "height": 435,
+          "png_bytes": 188376,
+          "webp_bytes": 89070,
+          "variants": [
+            {
+              "max_dimension": 128,
+              "rendered_max_dimension": 128,
+              "png": "png/128/looped-lattice-knots-and-curled-palmettes-bar.png",
+              "webp": "webp/128/looped-lattice-knots-and-curled-palmettes-bar.webp",
+              "width": 128,
+              "height": 20,
+              "png_bytes": 6904,
+              "webp_bytes": 3324
+            },
+            {
+              "max_dimension": 256,
+              "rendered_max_dimension": 256,
+              "png": "png/256/looped-lattice-knots-and-curled-palmettes-bar.png",
+              "webp": "webp/256/looped-lattice-knots-and-curled-palmettes-bar.webp",
+              "width": 256,
+              "height": 40,
+              "png_bytes": 26813,
+              "webp_bytes": 11630
+            },
+            {
+              "max_dimension": 512,
+              "rendered_max_dimension": 512,
+              "png": "png/512/looped-lattice-knots-and-curled-palmettes-bar.png",
+              "webp": "webp/512/looped-lattice-knots-and-curled-palmettes-bar.webp",
+              "width": 512,
+              "height": 79,
+              "png_bytes": 92199,
+              "webp_bytes": 42574
+            },
+            {
+              "max_dimension": 768,
+              "rendered_max_dimension": 768,
+              "png": "png/768/looped-lattice-knots-and-curled-palmettes-bar.png",
+              "webp": "webp/768/looped-lattice-knots-and-curled-palmettes-bar.webp",
+              "width": 768,
+              "height": 119,
+              "png_bytes": 186992,
+              "webp_bytes": 86892
+            }
+          ]
+        },
+        "border_image": {
+          "png": "png/looped-lattice-knots-and-curled-palmettes-border.png",
+          "webp": "webp/looped-lattice-knots-and-curled-palmettes-border.webp",
+          "width": 1431,
+          "height": 1431,
+          "png_bytes": 842129,
+          "webp_bytes": 356134,
+          "variants": [
+            {
+              "max_dimension": 512,
+              "rendered_max_dimension": 477,
+              "png": "png/512/looped-lattice-knots-and-curled-palmettes-border.png",
+              "webp": "webp/512/looped-lattice-knots-and-curled-palmettes-border.webp",
+              "width": 477,
+              "height": 477,
+              "png_bytes": 318110,
+              "webp_bytes": 103684
+            },
+            {
+              "max_dimension": 768,
+              "rendered_max_dimension": 477,
+              "png": "png/768/looped-lattice-knots-and-curled-palmettes-border.png",
+              "webp": "webp/768/looped-lattice-knots-and-curled-palmettes-border.webp",
+              "width": 477,
+              "height": 477,
+              "png_bytes": 318110,
+              "webp_bytes": 103684
+            }
+          ],
+          "slice_pixels": 435
+        },
+        "corner-top-left": {
+          "png": "png/looped-lattice-knots-and-curled-palmettes-corner-top-left.png",
+          "webp": "webp/looped-lattice-knots-and-curled-palmettes-corner-top-left.webp",
+          "width": 435,
+          "height": 435,
+          "png_bytes": 101821,
+          "webp_bytes": 60806,
+          "variants": [
+            {
+              "max_dimension": 128,
+              "rendered_max_dimension": 128,
+              "png": "png/128/looped-lattice-knots-and-curled-palmettes-corner-top-left.png",
+              "webp": "webp/128/looped-lattice-knots-and-curled-palmettes-corner-top-left.webp",
+              "width": 128,
+              "height": 128,
+              "png_bytes": 31963,
+              "webp_bytes": 14950
+            },
+            {
+              "max_dimension": 256,
+              "rendered_max_dimension": 256,
+              "png": "png/256/looped-lattice-knots-and-curled-palmettes-corner-top-left.png",
+              "webp": "webp/256/looped-lattice-knots-and-curled-palmettes-corner-top-left.webp",
+              "width": 256,
+              "height": 256,
+              "png_bytes": 97850,
+              "webp_bytes": 50166
+            }
+          ]
+        },
+        "corner-top-right": {
+          "png": "png/looped-lattice-knots-and-curled-palmettes-corner-top-right.png",
+          "webp": "webp/looped-lattice-knots-and-curled-palmettes-corner-top-right.webp",
+          "width": 435,
+          "height": 435,
+          "png_bytes": 122418,
+          "webp_bytes": 72898,
+          "variants": [
+            {
+              "max_dimension": 128,
+              "rendered_max_dimension": 128,
+              "png": "png/128/looped-lattice-knots-and-curled-palmettes-corner-top-right.png",
+              "webp": "webp/128/looped-lattice-knots-and-curled-palmettes-corner-top-right.webp",
+              "width": 128,
+              "height": 128,
+              "png_bytes": 38145,
+              "webp_bytes": 17038
+            },
+            {
+              "max_dimension": 256,
+              "rendered_max_dimension": 256,
+              "png": "png/256/looped-lattice-knots-and-curled-palmettes-corner-top-right.png",
+              "webp": "webp/256/looped-lattice-knots-and-curled-palmettes-corner-top-right.webp",
+              "width": 256,
+              "height": 256,
+              "png_bytes": 122409,
+              "webp_bytes": 58482
+            }
+          ]
+        },
+        "corner-bottom-right": {
+          "png": "png/looped-lattice-knots-and-curled-palmettes-corner-bottom-right.png",
+          "webp": "webp/looped-lattice-knots-and-curled-palmettes-corner-bottom-right.webp",
+          "width": 435,
+          "height": 435,
+          "png_bytes": 102064,
+          "webp_bytes": 60956,
+          "variants": [
+            {
+              "max_dimension": 128,
+              "rendered_max_dimension": 128,
+              "png": "png/128/looped-lattice-knots-and-curled-palmettes-corner-bottom-right.png",
+              "webp": "webp/128/looped-lattice-knots-and-curled-palmettes-corner-bottom-right.webp",
+              "width": 128,
+              "height": 128,
+              "png_bytes": 31779,
+              "webp_bytes": 14930
+            },
+            {
+              "max_dimension": 256,
+              "rendered_max_dimension": 256,
+              "png": "png/256/looped-lattice-knots-and-curled-palmettes-corner-bottom-right.png",
+              "webp": "webp/256/looped-lattice-knots-and-curled-palmettes-corner-bottom-right.webp",
+              "width": 256,
+              "height": 256,
+              "png_bytes": 98295,
+              "webp_bytes": 50164
+            }
+          ]
+        },
+        "corner-bottom-left": {
+          "png": "png/looped-lattice-knots-and-curled-palmettes-corner-bottom-left.png",
+          "webp": "webp/looped-lattice-knots-and-curled-palmettes-corner-bottom-left.webp",
+          "width": 435,
+          "height": 435,
+          "png_bytes": 122560,
+          "webp_bytes": 73084,
+          "variants": [
+            {
+              "max_dimension": 128,
+              "rendered_max_dimension": 128,
+              "png": "png/128/looped-lattice-knots-and-curled-palmettes-corner-bottom-left.png",
+              "webp": "webp/128/looped-lattice-knots-and-curled-palmettes-corner-bottom-left.webp",
+              "width": 128,
+              "height": 128,
+              "png_bytes": 38487,
+              "webp_bytes": 17064
+            },
+            {
+              "max_dimension": 256,
+              "rendered_max_dimension": 256,
+              "png": "png/256/looped-lattice-knots-and-curled-palmettes-corner-bottom-left.png",
+              "webp": "webp/256/looped-lattice-knots-and-curled-palmettes-corner-bottom-left.webp",
+              "width": 256,
+              "height": 256,
+              "png_bytes": 122408,
+              "webp_bytes": 58518
+            }
+          ]
+        },
+        "rotated_tile": {
+          "png": "png/looped-lattice-knots-and-curled-palmettes-rotated.png",
+          "webp": "webp/looped-lattice-knots-and-curled-palmettes-rotated.webp",
+          "width": 435,
+          "height": 561,
+          "png_bytes": 150406,
+          "webp_bytes": 87996,
+          "variants": [
+            {
+              "max_dimension": 128,
+              "rendered_max_dimension": 128,
+              "png": "png/128/looped-lattice-knots-and-curled-palmettes-rotated.png",
+              "webp": "webp/128/looped-lattice-knots-and-curled-palmettes-rotated.webp",
+              "width": 99,
+              "height": 128,
+              "png_bytes": 29128,
+              "webp_bytes": 13488
+            },
+            {
+              "max_dimension": 256,
+              "rendered_max_dimension": 256,
+              "png": "png/256/looped-lattice-knots-and-curled-palmettes-rotated.png",
+              "webp": "webp/256/looped-lattice-knots-and-curled-palmettes-rotated.webp",
+              "width": 199,
+              "height": 256,
+              "png_bytes": 93327,
+              "webp_bytes": 45154
+            },
+            {
+              "max_dimension": 512,
+              "rendered_max_dimension": 512,
+              "png": "png/512/looped-lattice-knots-and-curled-palmettes-rotated.png",
+              "webp": "webp/512/looped-lattice-knots-and-curled-palmettes-rotated.webp",
+              "width": 397,
+              "height": 512,
+              "png_bytes": 292497,
+              "webp_bytes": 160044
+            }
+          ],
+          "repeat_axis": "y",
+          "repeat_ratio": 1.289655172413793
+        },
+        "rotated_bar": {
+          "png": "png/looped-lattice-knots-and-curled-palmettes-bar-rotated.png",
+          "webp": "webp/looped-lattice-knots-and-curled-palmettes-bar-rotated.webp",
+          "width": 435,
+          "height": 2805,
+          "png_bytes": 749546,
+          "webp_bytes": 89204,
+          "variants": [
+            {
+              "max_dimension": 128,
+              "rendered_max_dimension": 128,
+              "png": "png/128/looped-lattice-knots-and-curled-palmettes-bar-rotated.png",
+              "webp": "webp/128/looped-lattice-knots-and-curled-palmettes-bar-rotated.webp",
+              "width": 20,
+              "height": 128,
+              "png_bytes": 7045,
+              "webp_bytes": 3326
+            },
+            {
+              "max_dimension": 256,
+              "rendered_max_dimension": 256,
+              "png": "png/256/looped-lattice-knots-and-curled-palmettes-bar-rotated.png",
+              "webp": "webp/256/looped-lattice-knots-and-curled-palmettes-bar-rotated.webp",
+              "width": 40,
+              "height": 256,
+              "png_bytes": 27630,
+              "webp_bytes": 11748
+            },
+            {
+              "max_dimension": 512,
+              "rendered_max_dimension": 512,
+              "png": "png/512/looped-lattice-knots-and-curled-palmettes-bar-rotated.png",
+              "webp": "webp/512/looped-lattice-knots-and-curled-palmettes-bar-rotated.webp",
+              "width": 79,
+              "height": 512,
+              "png_bytes": 96755,
+              "webp_bytes": 42936
+            },
+            {
+              "max_dimension": 768,
+              "rendered_max_dimension": 768,
+              "png": "png/768/looped-lattice-knots-and-curled-palmettes-bar-rotated.png",
+              "webp": "webp/768/looped-lattice-knots-and-curled-palmettes-bar-rotated.webp",
+              "width": 119,
+              "height": 768,
+              "png_bytes": 197630,
+              "webp_bytes": 87726
+            }
+          ]
+        }
+      },
+      "uses": [
+        "frame",
+        "divider"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    }
+  },
+  "files": {
+    "png/128/gray-red-blue-lobed-leaves-in-gold-medallions-cycle-bar-rotated.png": {
+      "bytes": 3142,
+      "sha256": "fb3a2a45b0bedd2d6963227de8be6337e7de8a41689909f900480d103d4b2db1"
+    },
+    "png/128/gray-red-blue-lobed-leaves-in-gold-medallions-cycle-bar.png": {
+      "bytes": 2936,
+      "sha256": "9205ff4126195cc81a4a1aee7d2c71ecec5a3ad288cfe9e9b2cf653e96404bb8"
+    },
+    "png/128/gray-red-blue-lobed-leaves-in-gold-medallions-cycle-corner-bottom-left.png": {
+      "bytes": 28981,
+      "sha256": "3624485a026bbc6dd07bd242f189222f2b92ca6be24d68e7433a0eaa809b9a47"
+    },
+    "png/128/gray-red-blue-lobed-leaves-in-gold-medallions-cycle-corner-bottom-right.png": {
+      "bytes": 29301,
+      "sha256": "8408ed5be91144298adcae07d605e68eaa1e3966844802098345b04fd2c987e0"
+    },
+    "png/128/gray-red-blue-lobed-leaves-in-gold-medallions-cycle-corner-top-left.png": {
+      "bytes": 29319,
+      "sha256": "88a24e14305d870f654497c825cbc279ee02a085c2c4a0593a358f55a3fcc98d"
+    },
+    "png/128/gray-red-blue-lobed-leaves-in-gold-medallions-cycle-corner-top-right.png": {
+      "bytes": 29138,
+      "sha256": "2e2a245e4bd4fb7d8cb4bd848016bddc8e511687618464e5ff18cd16f3a3e398"
+    },
+    "png/128/gray-red-blue-lobed-leaves-in-gold-medallions-cycle-rotated.png": {
+      "bytes": 12248,
+      "sha256": "d8077332d36f901d1a5eb4e0e5097ea5e0e2268a040cb7ea670941bbe42d7f19"
+    },
+    "png/128/gray-red-blue-lobed-leaves-in-gold-medallions-cycle.png": {
+      "bytes": 12043,
+      "sha256": "812419e067ae4f29a8fa77c7664578740e831871ffc11308299814efc49d0a0c"
+    },
+    "png/128/looped-lattice-knots-and-curled-palmettes-bar-rotated.png": {
+      "bytes": 7045,
+      "sha256": "ab027fc269fdc5ae5a4630c9b80a269d78f26524275d220347113f39afd25d3c"
+    },
+    "png/128/looped-lattice-knots-and-curled-palmettes-bar.png": {
+      "bytes": 6904,
+      "sha256": "8aa23fce223f1b3b63e6112a3a187822e409557fb954669d3360e937cf01816c"
+    },
+    "png/128/looped-lattice-knots-and-curled-palmettes-corner-bottom-left.png": {
+      "bytes": 38487,
+      "sha256": "178c2b2bcbf2943c477edaf40a16194cef20136592cb79f2bd8d45978cc257e1"
+    },
+    "png/128/looped-lattice-knots-and-curled-palmettes-corner-bottom-right.png": {
+      "bytes": 31779,
+      "sha256": "5fc6f0fcbee3c956c9631d9435ed9fe5e43c9ffe45b67483966fc9df8bf116c5"
+    },
+    "png/128/looped-lattice-knots-and-curled-palmettes-corner-top-left.png": {
+      "bytes": 31963,
+      "sha256": "3200ce7f04956ebc4dd869044bc757ac463cdab8f55d308dd9df47b2f45964b6"
+    },
+    "png/128/looped-lattice-knots-and-curled-palmettes-corner-top-right.png": {
+      "bytes": 38145,
+      "sha256": "d4cca39006857e139fddafa685c7ba1f33bc4417296e8e152e5aeb5be1680b1f"
+    },
+    "png/128/looped-lattice-knots-and-curled-palmettes-rotated.png": {
+      "bytes": 29128,
+      "sha256": "adf7af5f574a7fbe6593cd4cff254c7fcfea5f5162a59ed7a239b56b9526d78d"
+    },
+    "png/128/looped-lattice-knots-and-curled-palmettes.png": {
+      "bytes": 28122,
+      "sha256": "37a017e350cb8688a2b996ded01a96eb796a692383050caf4d1027e024a42a19"
+    },
+    "png/256/gray-red-blue-lobed-leaves-in-gold-medallions-cycle-bar-rotated.png": {
+      "bytes": 11168,
+      "sha256": "f9b9430ae0f688f9e3f0133dc5a3a3c169e04edd9aa2d0f738ffffe487586e61"
+    },
+    "png/256/gray-red-blue-lobed-leaves-in-gold-medallions-cycle-bar.png": {
+      "bytes": 10851,
+      "sha256": "39c9eb0c603775a8663c56094f7a1b37b4c7ca1ee54ab2f2c6dccb19d2090827"
+    },
+    "png/256/gray-red-blue-lobed-leaves-in-gold-medallions-cycle-corner-bottom-left.png": {
+      "bytes": 107006,
+      "sha256": "0ba4113f1d5f33153f28e6644fa29c336e03ba3ac4b5cf1c17b6262428f355bc"
+    },
+    "png/256/gray-red-blue-lobed-leaves-in-gold-medallions-cycle-corner-bottom-right.png": {
+      "bytes": 106611,
+      "sha256": "d7c77300b681c3d7bf8085c40352ffbe3c20d45b880ceb52dbc955e017500b83"
+    },
+    "png/256/gray-red-blue-lobed-leaves-in-gold-medallions-cycle-corner-top-left.png": {
+      "bytes": 106475,
+      "sha256": "7b32be4d656abc3b711c03c78542d4b55fb84c3763abddbc55445ba61045176d"
+    },
+    "png/256/gray-red-blue-lobed-leaves-in-gold-medallions-cycle-corner-top-right.png": {
+      "bytes": 107868,
+      "sha256": "cc786968530392733dbd320cefe7ead92358708e1de2bd721826fd02b318256c"
+    },
+    "png/256/gray-red-blue-lobed-leaves-in-gold-medallions-cycle-rotated.png": {
+      "bytes": 44696,
+      "sha256": "29cb1f980f0e41d315c2a0af3d6e052a2195b16e6dcf7aeda70e552e4668c3fe"
+    },
+    "png/256/gray-red-blue-lobed-leaves-in-gold-medallions-cycle.png": {
+      "bytes": 43645,
+      "sha256": "77d5a0a15ffe011b63b68f51461ae72b83063476e25d20de211f7f463a0d5478"
+    },
+    "png/256/looped-lattice-knots-and-curled-palmettes-bar-rotated.png": {
+      "bytes": 27630,
+      "sha256": "f5043c546c5ffff8fde150fdc10472cee24f9ce215833ac34d8d3ad71e0932a2"
+    },
+    "png/256/looped-lattice-knots-and-curled-palmettes-bar.png": {
+      "bytes": 26813,
+      "sha256": "3ab4a176bce906ad44a92a7060a4ff6c2b4b4dc482a51591bd03d773d0f8e4fb"
+    },
+    "png/256/looped-lattice-knots-and-curled-palmettes-corner-bottom-left.png": {
+      "bytes": 122408,
+      "sha256": "29e27ad4524c59f6c56963f7a9d31bfc2b6dd79adb770ef511d21c74f343ca94"
+    },
+    "png/256/looped-lattice-knots-and-curled-palmettes-corner-bottom-right.png": {
+      "bytes": 98295,
+      "sha256": "a44da3f445e04bdc5849ca94de3b76ba709a54aaaaf39fed5fe68e4efe0d5c18"
+    },
+    "png/256/looped-lattice-knots-and-curled-palmettes-corner-top-left.png": {
+      "bytes": 97850,
+      "sha256": "1d3f22febac3819b9c78497bc212533fba94a9c70ee86c537583f54f87530ce3"
+    },
+    "png/256/looped-lattice-knots-and-curled-palmettes-corner-top-right.png": {
+      "bytes": 122409,
+      "sha256": "b1edcdca111bcc5bcb4b59a8c117e2e2e9a1fae97b9d3553fcac2ef84327b34f"
+    },
+    "png/256/looped-lattice-knots-and-curled-palmettes-rotated.png": {
+      "bytes": 93327,
+      "sha256": "c7b49262cd21acd351213d7901715e60b375ab62b4d7d769841ffd8f88f6c9b3"
+    },
+    "png/256/looped-lattice-knots-and-curled-palmettes.png": {
+      "bytes": 90342,
+      "sha256": "bfb630401834e5e45c786eda46eb3061e47db30d6edb802cbe1cbc5959c2f237"
+    },
+    "png/512/gray-red-blue-lobed-leaves-in-gold-medallions-cycle-bar-rotated.png": {
+      "bytes": 39418,
+      "sha256": "00c7fdf7a22c95f00727e594d9acab629a8e995d242e8ec547cd4cb383d8091c"
+    },
+    "png/512/gray-red-blue-lobed-leaves-in-gold-medallions-cycle-bar.png": {
+      "bytes": 37961,
+      "sha256": "3f9090da74f24ea801bad6532ecdab792cdc8099729ef534b770a2b189646c0a"
+    },
+    "png/512/gray-red-blue-lobed-leaves-in-gold-medallions-cycle-corner-bottom-left.png": {
+      "bytes": 391042,
+      "sha256": "86b13df4db79aa25e2b12d7099471514244a5937441e5f60f6d74625bfb3ece4"
+    },
+    "png/512/gray-red-blue-lobed-leaves-in-gold-medallions-cycle-corner-bottom-right.png": {
+      "bytes": 390844,
+      "sha256": "baec5912c53f2097c2cabf1adde9dbeafec2b0d456d1a4fb2f868df0179a7829"
+    },
+    "png/512/gray-red-blue-lobed-leaves-in-gold-medallions-cycle-corner-top-left.png": {
+      "bytes": 390215,
+      "sha256": "0a8c8f75f82d51a95c94f133005c4afb89a10e086c043dbc9d3b92af85f4abaa"
+    },
+    "png/512/gray-red-blue-lobed-leaves-in-gold-medallions-cycle-corner-top-right.png": {
+      "bytes": 392600,
+      "sha256": "08f5f9857156dceddf6bf542e7ee52613b2bdf8a8391a1017aab8ff5f5773dc5"
+    },
+    "png/512/gray-red-blue-lobed-leaves-in-gold-medallions-cycle-rotated.png": {
+      "bytes": 164286,
+      "sha256": "570967d2151d6d7b3088e7d64656888b4209e36e7502c0b0957f40dcd30937d7"
+    },
+    "png/512/gray-red-blue-lobed-leaves-in-gold-medallions-cycle.png": {
+      "bytes": 160112,
+      "sha256": "4879e166e74fcaf378ec2fd1b07fa2377560b2629bf9c1bad64322e169b5987f"
+    },
+    "png/512/looped-lattice-knots-and-curled-palmettes-bar-rotated.png": {
+      "bytes": 96755,
+      "sha256": "c148f487bf9ef5602b898e854115484dde59a7fde82470aeda94a400650682d4"
+    },
+    "png/512/looped-lattice-knots-and-curled-palmettes-bar.png": {
+      "bytes": 92199,
+      "sha256": "52c61179de770fa048eeb6041887a42cbde02de4677be47c4618742f68e3dc45"
+    },
+    "png/512/looped-lattice-knots-and-curled-palmettes-border.png": {
+      "bytes": 318110,
+      "sha256": "34e38cbfd1a95f413e06fb5c524879b4d624176ab999a08a59eaa2ef45031da0"
+    },
+    "png/512/looped-lattice-knots-and-curled-palmettes-rotated.png": {
+      "bytes": 292497,
+      "sha256": "88175519461d26d56ec632c1b2da25525e032c312492db4d52f65fbd78661318"
+    },
+    "png/512/looped-lattice-knots-and-curled-palmettes.png": {
+      "bytes": 284962,
+      "sha256": "65a7c7952b1759cb4bed1fc5d036800420a49476138bec2ba19e5c22f51bff47"
+    },
+    "png/768/gray-red-blue-lobed-leaves-in-gold-medallions-cycle-bar-rotated.png": {
+      "bytes": 85154,
+      "sha256": "901bac1c21f5c6a5ef99f9030376cf9204cfe919cfed975ec42b4f72c27fd530"
+    },
+    "png/768/gray-red-blue-lobed-leaves-in-gold-medallions-cycle-bar.png": {
+      "bytes": 82099,
+      "sha256": "f210a9a366395860701f46ce9bd33d9ed412e62310d643e7cf1f6d614e0f5327"
+    },
+    "png/768/gray-red-blue-lobed-leaves-in-gold-medallions-cycle-rotated.png": {
+      "bytes": 349788,
+      "sha256": "881a5481d40b8f3cb6740ff03c28c55692bea8fe4076a24f7ed16c167e60a416"
+    },
+    "png/768/gray-red-blue-lobed-leaves-in-gold-medallions-cycle.png": {
+      "bytes": 342905,
+      "sha256": "4fa24b962bca01b168ea988663095874051f6cc7994dd50410a43f5d80002e84"
+    },
+    "png/768/looped-lattice-knots-and-curled-palmettes-bar-rotated.png": {
+      "bytes": 197630,
+      "sha256": "1316db4b241cd3fa7611fe13f7e2a89d872afb852cfa5d74566c5a6457a0c9f3"
+    },
+    "png/768/looped-lattice-knots-and-curled-palmettes-bar.png": {
+      "bytes": 186992,
+      "sha256": "73a1ed89f38a0a4633d589e6953d63c09225bd9335eac6b4faabd6c33d4de371"
+    },
+    "png/768/looped-lattice-knots-and-curled-palmettes-border.png": {
+      "bytes": 318110,
+      "sha256": "34e38cbfd1a95f413e06fb5c524879b4d624176ab999a08a59eaa2ef45031da0"
+    },
+    "png/gray-red-blue-lobed-leaves-in-gold-medallions-cycle-bar-rotated.png": {
+      "bytes": 10366741,
+      "sha256": "ab9329e0cb06a2b916afcba87e951ac41b0a507367f31d616c051ba123e9fd5b"
+    },
+    "png/gray-red-blue-lobed-leaves-in-gold-medallions-cycle-bar.png": {
+      "bytes": 2250471,
+      "sha256": "f8896cdc2f5458ef46149cf15e74458f68e047dfd9d6636e313ea85a72dd3492"
+    },
+    "png/gray-red-blue-lobed-leaves-in-gold-medallions-cycle-border.png": {
+      "bytes": 9913900,
+      "sha256": "00e883df9b6bbb1f1f4487b7d26357d2daa11a2411411a16ed72b14a9c5c81c7"
+    },
+    "png/gray-red-blue-lobed-leaves-in-gold-medallions-cycle-corner-bottom-left.png": {
+      "bytes": 691859,
+      "sha256": "a40bcf770f7d71bc6c5ebaa8cedf69d1965e6e5188ed28a924734fed8eff287f"
+    },
+    "png/gray-red-blue-lobed-leaves-in-gold-medallions-cycle-corner-bottom-right.png": {
+      "bytes": 691829,
+      "sha256": "43fa0039454a75e16fbde0efee8eda54516e69ed2a3996b68bdaa979cdc4f7d2"
+    },
+    "png/gray-red-blue-lobed-leaves-in-gold-medallions-cycle-corner-top-left.png": {
+      "bytes": 691623,
+      "sha256": "9804ca3a9d5675a58c705357f178eaea31a864056aa79fa8d6c972b8cc4fc423"
+    },
+    "png/gray-red-blue-lobed-leaves-in-gold-medallions-cycle-corner-top-right.png": {
+      "bytes": 692786,
+      "sha256": "e0e6f09fc566398b915e89f295229107ac7eb05b54e43e02b151df6e384b7035"
+    },
+    "png/gray-red-blue-lobed-leaves-in-gold-medallions-cycle-rotated.png": {
+      "bytes": 2074254,
+      "sha256": "9bb67259957227f1ed919cd945858d2df214aab6609af1d1578da58fd8a722e8"
+    },
+    "png/gray-red-blue-lobed-leaves-in-gold-medallions-cycle.png": {
+      "bytes": 2088148,
+      "sha256": "468d9b662601fb924ff375751c43c197e7626652b8f7811c838bacc1571e87bf"
+    },
+    "png/looped-lattice-knots-and-curled-palmettes-bar-rotated.png": {
+      "bytes": 749546,
+      "sha256": "bdb804f2c382641f9da1e5676b9eddfd803fb1b2451d4f7255e5887fadca8e63"
+    },
+    "png/looped-lattice-knots-and-curled-palmettes-bar.png": {
+      "bytes": 188376,
+      "sha256": "54d8560c02c1f8bdddba67ac56e48a25d44b1a764e754f7d33151f0f3ecd729f"
+    },
+    "png/looped-lattice-knots-and-curled-palmettes-border.png": {
+      "bytes": 842129,
+      "sha256": "8ba9a370d43a3994112b7ee1c7a4bdad44ed8d9689105e3f961c4387868681f2"
+    },
+    "png/looped-lattice-knots-and-curled-palmettes-corner-bottom-left.png": {
+      "bytes": 122560,
+      "sha256": "2df02036050ed1513e07217f395046ec02bf486f3926b78a16b795626c0db595"
+    },
+    "png/looped-lattice-knots-and-curled-palmettes-corner-bottom-right.png": {
+      "bytes": 102064,
+      "sha256": "99957cb284c91b6acd491949c638468d808bdc673271fb1ba10459e1f4ce9ed5"
+    },
+    "png/looped-lattice-knots-and-curled-palmettes-corner-top-left.png": {
+      "bytes": 101821,
+      "sha256": "d67f7ce9623256a0050505f0444b0bce74b3ee68c62ab44a073dcafe8140806c"
+    },
+    "png/looped-lattice-knots-and-curled-palmettes-corner-top-right.png": {
+      "bytes": 122418,
+      "sha256": "531849cde79689d03c05afa3192465f986dd24b1e5f8373deb5717659f5de9fe"
+    },
+    "png/looped-lattice-knots-and-curled-palmettes-rotated.png": {
+      "bytes": 150406,
+      "sha256": "93f1c778018959a46acd467c6209636e0295270fe796d68d29dfdff307a7248d"
+    },
+    "png/looped-lattice-knots-and-curled-palmettes.png": {
+      "bytes": 142793,
+      "sha256": "d50f231823f79962249806f026dcd33c1ea24c6b489b3ba22e0adb9bf5d9f6f2"
+    },
+    "webp/128/gray-red-blue-lobed-leaves-in-gold-medallions-cycle-bar-rotated.webp": {
+      "bytes": 2850,
+      "sha256": "233ab41243acff8d0bc01b33f0f9dc527079bd79212148bcd27b404862b541bd"
+    },
+    "webp/128/gray-red-blue-lobed-leaves-in-gold-medallions-cycle-bar.webp": {
+      "bytes": 2642,
+      "sha256": "0ee55f991f5218c1385fe034509a9d9e5db75c446ed0026ace9bac9a6e457189"
+    },
+    "webp/128/gray-red-blue-lobed-leaves-in-gold-medallions-cycle-corner-bottom-left.webp": {
+      "bytes": 21922,
+      "sha256": "c0e70e3293f83721ef7a88e46376ccc625f778abeacafc975b7fa0d1bfa6af85"
+    },
+    "webp/128/gray-red-blue-lobed-leaves-in-gold-medallions-cycle-corner-bottom-right.webp": {
+      "bytes": 22188,
+      "sha256": "f3d8b6bec65807f2f5e54750d0b3b0c757dedb9ce5e1bc8df936a2ff75d7eac7"
+    },
+    "webp/128/gray-red-blue-lobed-leaves-in-gold-medallions-cycle-corner-top-left.webp": {
+      "bytes": 22076,
+      "sha256": "e2f909021b7cc5c0408059946c70d6045cd07528fb5a3c18002a75ba63555e99"
+    },
+    "webp/128/gray-red-blue-lobed-leaves-in-gold-medallions-cycle-corner-top-right.webp": {
+      "bytes": 22086,
+      "sha256": "25c2764371e7a4636e49f39c623a0326eef6132250a4bba2308e5b6b4a32bb7d"
+    },
+    "webp/128/gray-red-blue-lobed-leaves-in-gold-medallions-cycle-rotated.webp": {
+      "bytes": 9368,
+      "sha256": "dedc02930546f7ce819a946c2379e45cf0790991cdd6022b8e023ae2298b229d"
+    },
+    "webp/128/gray-red-blue-lobed-leaves-in-gold-medallions-cycle.webp": {
+      "bytes": 9436,
+      "sha256": "59a393e44c0572da1e329f1d536fdafdbd33e20be64fb91862bef1237dd770b6"
+    },
+    "webp/128/looped-lattice-knots-and-curled-palmettes-bar-rotated.webp": {
+      "bytes": 3326,
+      "sha256": "ea6d628129531354a4053900fadf9e67f7eebe4657358117275ba6454b0d3958"
+    },
+    "webp/128/looped-lattice-knots-and-curled-palmettes-bar.webp": {
+      "bytes": 3324,
+      "sha256": "0c00b24e9a9a41e8d9e2970ef2e5a6036f54055d47f691957d15e6fc775cb244"
+    },
+    "webp/128/looped-lattice-knots-and-curled-palmettes-corner-bottom-left.webp": {
+      "bytes": 17064,
+      "sha256": "5c75a6517ca453e833f2fd4238f743b0770c328619a9fb9f9a6e787de9a991e0"
+    },
+    "webp/128/looped-lattice-knots-and-curled-palmettes-corner-bottom-right.webp": {
+      "bytes": 14930,
+      "sha256": "6f08dbdc4cd5356b9c9942ffa849ad29d4fe6a02ac1da54e5440d401f3470fc1"
+    },
+    "webp/128/looped-lattice-knots-and-curled-palmettes-corner-top-left.webp": {
+      "bytes": 14950,
+      "sha256": "3679c62b770bee4569ad6756ffa75ecd38797fef470ac24e0336194e02c26c42"
+    },
+    "webp/128/looped-lattice-knots-and-curled-palmettes-corner-top-right.webp": {
+      "bytes": 17038,
+      "sha256": "7c628ebe70a4e27fa3d6df607dbd9213b7e0bbe656967cf8073470f59422e360"
+    },
+    "webp/128/looped-lattice-knots-and-curled-palmettes-rotated.webp": {
+      "bytes": 13488,
+      "sha256": "fea2fb2bffc4897e364ea737767199a876790eea2fb77215bfc56d8a55acf951"
+    },
+    "webp/128/looped-lattice-knots-and-curled-palmettes.webp": {
+      "bytes": 13496,
+      "sha256": "0cb23bdbbb250a83438ae68754e5be5723cc02592c31857bd093517205113dab"
+    },
+    "webp/256/gray-red-blue-lobed-leaves-in-gold-medallions-cycle-bar-rotated.webp": {
+      "bytes": 10088,
+      "sha256": "2891e9a3720886964d0c4133be3ed4d14b0e573368cca0ce151dc8d41ae464ff"
+    },
+    "webp/256/gray-red-blue-lobed-leaves-in-gold-medallions-cycle-bar.webp": {
+      "bytes": 8900,
+      "sha256": "566342e08f71ac1a5aaffadeb7a264ab8e49fd762e5e9c70d41c326002910fb3"
+    },
+    "webp/256/gray-red-blue-lobed-leaves-in-gold-medallions-cycle-corner-bottom-left.webp": {
+      "bytes": 82448,
+      "sha256": "35f7ebc890368a3ca00db3021c181b039bde362587fb3e7f8610645c87a25d00"
+    },
+    "webp/256/gray-red-blue-lobed-leaves-in-gold-medallions-cycle-corner-bottom-right.webp": {
+      "bytes": 82860,
+      "sha256": "da33db393499dd708bacc46475c786f3857c52d2e85c41cb475a3c11a0c0f223"
+    },
+    "webp/256/gray-red-blue-lobed-leaves-in-gold-medallions-cycle-corner-top-left.webp": {
+      "bytes": 82950,
+      "sha256": "78d9ae07e1145852f8419b6d5864c0b668e77f3f0a62f07a9dba324ae7db4927"
+    },
+    "webp/256/gray-red-blue-lobed-leaves-in-gold-medallions-cycle-corner-top-right.webp": {
+      "bytes": 82864,
+      "sha256": "c72f17a8cfb220f7d9c2d00b8d178087d43c9994203ac93055e8ab93e1d5f689"
+    },
+    "webp/256/gray-red-blue-lobed-leaves-in-gold-medallions-cycle-rotated.webp": {
+      "bytes": 33266,
+      "sha256": "0ba4911e49090b661d139bdd97339b21af646330b2a149635d5d4d1603f745ef"
+    },
+    "webp/256/gray-red-blue-lobed-leaves-in-gold-medallions-cycle.webp": {
+      "bytes": 32462,
+      "sha256": "f420d14aabf6535b7ee6552a61446b052edde6ac5ab96a604fc4fa6fbcc55ecd"
+    },
+    "webp/256/looped-lattice-knots-and-curled-palmettes-bar-rotated.webp": {
+      "bytes": 11748,
+      "sha256": "189431bd0881af410177b9e73271163a8d31b5b29349e001a4f50f4b9a16ca7c"
+    },
+    "webp/256/looped-lattice-knots-and-curled-palmettes-bar.webp": {
+      "bytes": 11630,
+      "sha256": "d8f9758c97c2d16e4fa2559e04ea1c1148248f9e467e14d5ec71ce634d9c0f73"
+    },
+    "webp/256/looped-lattice-knots-and-curled-palmettes-corner-bottom-left.webp": {
+      "bytes": 58518,
+      "sha256": "44a0b689fb09a0d6486fe588e585d64ba3790c4e180df2dd5b6be1608c2325af"
+    },
+    "webp/256/looped-lattice-knots-and-curled-palmettes-corner-bottom-right.webp": {
+      "bytes": 50164,
+      "sha256": "60d3e2a2b1e5d42b8aa09e1057307fb20307c150d5e454e09a783b134a2f5d49"
+    },
+    "webp/256/looped-lattice-knots-and-curled-palmettes-corner-top-left.webp": {
+      "bytes": 50166,
+      "sha256": "789b19c8fc6110f4a5a3c0c745276edc0fc921565d23900e2344eb0559911fc2"
+    },
+    "webp/256/looped-lattice-knots-and-curled-palmettes-corner-top-right.webp": {
+      "bytes": 58482,
+      "sha256": "b1594ae44cce35d6bd9816a1fe2dfa12cf2940ef3e042cc7615262ef9e46b138"
+    },
+    "webp/256/looped-lattice-knots-and-curled-palmettes-rotated.webp": {
+      "bytes": 45154,
+      "sha256": "28b9530d36ac1be385419fb360aaf64e4c59a3bdb24ed6ef4045f55ceb29b522"
+    },
+    "webp/256/looped-lattice-knots-and-curled-palmettes.webp": {
+      "bytes": 44582,
+      "sha256": "021491127e84ff3d33ca4a05533a98dc9d1c9cfecfd42cb4eef594208a7455ed"
+    },
+    "webp/512/gray-red-blue-lobed-leaves-in-gold-medallions-cycle-bar-rotated.webp": {
+      "bytes": 29340,
+      "sha256": "ea08623edf127d837c5cd33a9e03cca27e269009cbbda456f4623d34af27a305"
+    },
+    "webp/512/gray-red-blue-lobed-leaves-in-gold-medallions-cycle-bar.webp": {
+      "bytes": 29580,
+      "sha256": "0aef176465951208e114b0ba370dd36929ce40b5423962acd28866faea7a11ec"
+    },
+    "webp/512/gray-red-blue-lobed-leaves-in-gold-medallions-cycle-corner-bottom-left.webp": {
+      "bytes": 301834,
+      "sha256": "e4ed4318a66160c9c9535f8055c7980ee1eae11892383515aece0dcf4d4dd510"
+    },
+    "webp/512/gray-red-blue-lobed-leaves-in-gold-medallions-cycle-corner-bottom-right.webp": {
+      "bytes": 303854,
+      "sha256": "3655745b9630ce08240832a1c37a8f570d31da24825a76e271d0d42dec150448"
+    },
+    "webp/512/gray-red-blue-lobed-leaves-in-gold-medallions-cycle-corner-top-left.webp": {
+      "bytes": 303298,
+      "sha256": "70a19e87fe1aac0beed7560e7562f4ac55f9a18f1da4f505357e34c70044b28d"
+    },
+    "webp/512/gray-red-blue-lobed-leaves-in-gold-medallions-cycle-corner-top-right.webp": {
+      "bytes": 302444,
+      "sha256": "098053c08c591c6058c26a2135701a6f08e280860feff1fd6fca6941bfa8bee2"
+    },
+    "webp/512/gray-red-blue-lobed-leaves-in-gold-medallions-cycle-rotated.webp": {
+      "bytes": 122058,
+      "sha256": "0fba6c24b3b4a4c08ddf77f4f469ac36d1156d7b85a987dbe15f6579b58a34c4"
+    },
+    "webp/512/gray-red-blue-lobed-leaves-in-gold-medallions-cycle.webp": {
+      "bytes": 121374,
+      "sha256": "27938d24625a5248693ec562291a49ec7f080a80db2e1c30239a009daba0cc0a"
+    },
+    "webp/512/looped-lattice-knots-and-curled-palmettes-bar-rotated.webp": {
+      "bytes": 42936,
+      "sha256": "3936fc61c1e8693483aed312b8fcc5b545484e9bfd142c653192b6d39542971d"
+    },
+    "webp/512/looped-lattice-knots-and-curled-palmettes-bar.webp": {
+      "bytes": 42574,
+      "sha256": "3c4db45a121304cdbb93ceab1f81c7306aaca75adebec86fb05fd073ca47ef53"
+    },
+    "webp/512/looped-lattice-knots-and-curled-palmettes-border.webp": {
+      "bytes": 103684,
+      "sha256": "c1dfedfb92b1374e171e1acb1ec0db794644a7e604634da3047c6829bfbd866e"
+    },
+    "webp/512/looped-lattice-knots-and-curled-palmettes-rotated.webp": {
+      "bytes": 160044,
+      "sha256": "4b90acdf4132aaaea55ce58eb95ecff00dfd3bb21622b050d65bd76c9b83e9ec"
+    },
+    "webp/512/looped-lattice-knots-and-curled-palmettes.webp": {
+      "bytes": 155078,
+      "sha256": "02c098d6bf2fe63e02348cb1d3a41db0ecf3114a22ff678878aaf6c6b51d5c9e"
+    },
+    "webp/768/gray-red-blue-lobed-leaves-in-gold-medallions-cycle-bar-rotated.webp": {
+      "bytes": 61222,
+      "sha256": "ad657da8c97a3491a4bc2ff9376ff10e4a983fc3d6b0b4000e68dd8ad8f40b68"
+    },
+    "webp/768/gray-red-blue-lobed-leaves-in-gold-medallions-cycle-bar.webp": {
+      "bytes": 59546,
+      "sha256": "d5d9309b8b6d1da2334dbdb4635b203d525727dcc26fac30ac830d5068d1473c"
+    },
+    "webp/768/gray-red-blue-lobed-leaves-in-gold-medallions-cycle-rotated.webp": {
+      "bytes": 269134,
+      "sha256": "9fc3057eb56102d9742cd487f53b4918a586ac82f69a9224dd6e4b04a29f7d09"
+    },
+    "webp/768/gray-red-blue-lobed-leaves-in-gold-medallions-cycle.webp": {
+      "bytes": 268224,
+      "sha256": "7804c4c1d039d74ccf3fa491123371eadaa2136324fc50b74a2e4d86f6616b18"
+    },
+    "webp/768/looped-lattice-knots-and-curled-palmettes-bar-rotated.webp": {
+      "bytes": 87726,
+      "sha256": "9747beece40788b3d422025b29f3fd31ce1badf91293e54829cdc9e443b6a053"
+    },
+    "webp/768/looped-lattice-knots-and-curled-palmettes-bar.webp": {
+      "bytes": 86892,
+      "sha256": "14745340ef6ec285aa5677d38541381a807eba313d9d3153d9f0d2d148cf1581"
+    },
+    "webp/768/looped-lattice-knots-and-curled-palmettes-border.webp": {
+      "bytes": 103684,
+      "sha256": "c1dfedfb92b1374e171e1acb1ec0db794644a7e604634da3047c6829bfbd866e"
+    },
+    "webp/gray-red-blue-lobed-leaves-in-gold-medallions-cycle-bar-rotated.webp": {
+      "bytes": 8241994,
+      "sha256": "759da285ebb479de7b11dbfa4c671c30a76cecd55c0fbb41ac93f0767a50213c"
+    },
+    "webp/gray-red-blue-lobed-leaves-in-gold-medallions-cycle-bar.webp": {
+      "bytes": 6388576,
+      "sha256": "cb3436cfed1ea2a97004ce3c92e959e7bea17882674e50a3f8ba560a3274d43a"
+    },
+    "webp/gray-red-blue-lobed-leaves-in-gold-medallions-cycle-border.webp": {
+      "bytes": 8642276,
+      "sha256": "a1b82084854d7205ef22348371442dad4204d0a241920a651e41f04f93280c07"
+    },
+    "webp/gray-red-blue-lobed-leaves-in-gold-medallions-cycle-corner-bottom-left.webp": {
+      "bytes": 536842,
+      "sha256": "96aa4c80ba3ff7ad8ac0d5a5b13d855cd64f006556ba39f3178d66ad99974c17"
+    },
+    "webp/gray-red-blue-lobed-leaves-in-gold-medallions-cycle-corner-bottom-right.webp": {
+      "bytes": 537740,
+      "sha256": "7362102c6f9f7b809233190d30d61e888f5b6d213ab29c8a92f24a7fe0228544"
+    },
+    "webp/gray-red-blue-lobed-leaves-in-gold-medallions-cycle-corner-top-left.webp": {
+      "bytes": 537706,
+      "sha256": "089296c4e8fc00ac075f701ec6832141b34e31b438a73be6076bac567d9bdb88"
+    },
+    "webp/gray-red-blue-lobed-leaves-in-gold-medallions-cycle-corner-top-right.webp": {
+      "bytes": 537990,
+      "sha256": "acb9cfa804cc8f9505c9306a522658d7ffd23efb74d8a944b0b25ca3a9e701ff"
+    },
+    "webp/gray-red-blue-lobed-leaves-in-gold-medallions-cycle-rotated.webp": {
+      "bytes": 1640290,
+      "sha256": "d38474fa415d1817bd7ef5e7eb7d3d5ab27772377d1522da39be1dc0f5ae272d"
+    },
+    "webp/gray-red-blue-lobed-leaves-in-gold-medallions-cycle.webp": {
+      "bytes": 1649822,
+      "sha256": "89a2a8a2531c4d0d8d71e4d8ed070db8ab8093ad2dbd32d95194604ea2e707fd"
+    },
+    "webp/looped-lattice-knots-and-curled-palmettes-bar-rotated.webp": {
+      "bytes": 89204,
+      "sha256": "e16a5963de7523977272443235889cf152e2a342c8e5745fd55c98f08a60fa44"
+    },
+    "webp/looped-lattice-knots-and-curled-palmettes-bar.webp": {
+      "bytes": 89070,
+      "sha256": "1d6ae9d20e97f84718ff6b90ca729871c21e30e1f20977c213cef6cdb0c7735a"
+    },
+    "webp/looped-lattice-knots-and-curled-palmettes-border.webp": {
+      "bytes": 356134,
+      "sha256": "f5c456f1a9fafb994b0dffaae505786c3c5a3d3f8aa3446f79871f11f076c7da"
+    },
+    "webp/looped-lattice-knots-and-curled-palmettes-corner-bottom-left.webp": {
+      "bytes": 73084,
+      "sha256": "5d91e3de357b8363a2b2db1491c910a179a86141292727b1edd242d2c313578d"
+    },
+    "webp/looped-lattice-knots-and-curled-palmettes-corner-bottom-right.webp": {
+      "bytes": 60956,
+      "sha256": "a7ff9b069e9e3abd1347e2672286d1c75489f7ab9c22f489b9f5cb2f236d6998"
+    },
+    "webp/looped-lattice-knots-and-curled-palmettes-corner-top-left.webp": {
+      "bytes": 60806,
+      "sha256": "6339d18ddc0c67acf99c64e97ac967ce1f5f7f5e2bd43057a919bbf353e62a16"
+    },
+    "webp/looped-lattice-knots-and-curled-palmettes-corner-top-right.webp": {
+      "bytes": 72898,
+      "sha256": "048ff46094aa69d65787697e98467e129a2c7cffd9a8d0f5159ec3a662fb8548"
+    },
+    "webp/looped-lattice-knots-and-curled-palmettes-rotated.webp": {
+      "bytes": 87996,
+      "sha256": "0f8124de4c56dd834629b80cd837367812019a3fc6b91b51ededa69ec496ae93"
+    },
+    "webp/looped-lattice-knots-and-curled-palmettes.webp": {
+      "bytes": 86324,
+      "sha256": "05d31fd41e8cc2ee25006c8027a344a353a602b9973aa2ea231defb88eee5ade"
+    }
+  },
+  "inputs": {
+    "sources/tiles/gray-red-blue-lobed-leaves-in-gold-medallions-cycle.png": {
+      "bytes": 2088148,
+      "sha256": "468d9b662601fb924ff375751c43c197e7626652b8f7811c838bacc1571e87bf"
+    },
+    "sources/tiles/gray-red-blue-lobed-leaves-in-gold-medallions-cycle-border.png": {
+      "bytes": 9913900,
+      "sha256": "00e883df9b6bbb1f1f4487b7d26357d2daa11a2411411a16ed72b14a9c5c81c7"
+    },
+    "sources/tiles/gray-red-blue-lobed-leaves-in-gold-medallions-cycle-rotated.png": {
+      "bytes": 2074254,
+      "sha256": "9bb67259957227f1ed919cd945858d2df214aab6609af1d1578da58fd8a722e8"
+    },
+    "sources/tiles/gray-red-blue-lobed-leaves-in-gold-medallions-cycle-bar.png": {
+      "bytes": 2250471,
+      "sha256": "f8896cdc2f5458ef46149cf15e74458f68e047dfd9d6636e313ea85a72dd3492"
+    },
+    "sources/tiles/gray-red-blue-lobed-leaves-in-gold-medallions-cycle-bar-rotated.png": {
+      "bytes": 10366741,
+      "sha256": "ab9329e0cb06a2b916afcba87e951ac41b0a507367f31d616c051ba123e9fd5b"
+    },
+    "sources/tiles/gray-red-blue-lobed-leaves-in-gold-medallions-cycle-corner-top-left.png": {
+      "bytes": 691623,
+      "sha256": "9804ca3a9d5675a58c705357f178eaea31a864056aa79fa8d6c972b8cc4fc423"
+    },
+    "sources/tiles/gray-red-blue-lobed-leaves-in-gold-medallions-cycle-corner-top-right.png": {
+      "bytes": 692786,
+      "sha256": "e0e6f09fc566398b915e89f295229107ac7eb05b54e43e02b151df6e384b7035"
+    },
+    "sources/tiles/gray-red-blue-lobed-leaves-in-gold-medallions-cycle-corner-bottom-left.png": {
+      "bytes": 691859,
+      "sha256": "a40bcf770f7d71bc6c5ebaa8cedf69d1965e6e5188ed28a924734fed8eff287f"
+    },
+    "sources/tiles/gray-red-blue-lobed-leaves-in-gold-medallions-cycle-corner-bottom-right.png": {
+      "bytes": 691829,
+      "sha256": "43fa0039454a75e16fbde0efee8eda54516e69ed2a3996b68bdaa979cdc4f7d2"
+    },
+    "sources/tiles/looped-lattice-knots-and-curled-palmettes.png": {
+      "bytes": 142793,
+      "sha256": "d50f231823f79962249806f026dcd33c1ea24c6b489b3ba22e0adb9bf5d9f6f2"
+    },
+    "sources/tiles/looped-lattice-knots-and-curled-palmettes-border.png": {
+      "bytes": 842129,
+      "sha256": "8ba9a370d43a3994112b7ee1c7a4bdad44ed8d9689105e3f961c4387868681f2"
+    },
+    "sources/tiles/looped-lattice-knots-and-curled-palmettes-rotated.png": {
+      "bytes": 150406,
+      "sha256": "93f1c778018959a46acd467c6209636e0295270fe796d68d29dfdff307a7248d"
+    },
+    "sources/tiles/looped-lattice-knots-and-curled-palmettes-bar.png": {
+      "bytes": 188376,
+      "sha256": "54d8560c02c1f8bdddba67ac56e48a25d44b1a764e754f7d33151f0f3ecd729f"
+    },
+    "sources/tiles/looped-lattice-knots-and-curled-palmettes-bar-rotated.png": {
+      "bytes": 749546,
+      "sha256": "bdb804f2c382641f9da1e5676b9eddfd803fb1b2451d4f7255e5887fadca8e63"
+    },
+    "sources/tiles/looped-lattice-knots-and-curled-palmettes-corner-top-left.png": {
+      "bytes": 101821,
+      "sha256": "d67f7ce9623256a0050505f0444b0bce74b3ee68c62ab44a073dcafe8140806c"
+    },
+    "sources/tiles/looped-lattice-knots-and-curled-palmettes-corner-top-right.png": {
+      "bytes": 122418,
+      "sha256": "531849cde79689d03c05afa3192465f986dd24b1e5f8373deb5717659f5de9fe"
+    },
+    "sources/tiles/looped-lattice-knots-and-curled-palmettes-corner-bottom-left.png": {
+      "bytes": 122560,
+      "sha256": "2df02036050ed1513e07217f395046ec02bf486f3926b78a16b795626c0db595"
+    },
+    "sources/tiles/looped-lattice-knots-and-curled-palmettes-corner-bottom-right.png": {
+      "bytes": 102064,
+      "sha256": "99957cb284c91b6acd491949c638468d808bdc673271fb1ba10459e1f4ce9ed5"
+    }
+  }
+}

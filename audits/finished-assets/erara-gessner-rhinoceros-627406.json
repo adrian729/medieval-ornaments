@@ -1,0 +1,139 @@
+{
+  "source_id": "erara-gessner-rhinoceros-627406",
+  "assets": [
+    {
+      "id": "erara-gessner-rhinoceros-627406--armored-rhinoceros",
+      "name": "armored-rhinoceros",
+      "source_id": "erara-gessner-rhinoceros-627406",
+      "source_folder": "e-rara-gessner",
+      "asset_type": "illustration",
+      "description": "An armored rhinoceros with its complete horn, ears, patterned body, four feet and tail. Part of the Gessner Historiae Animalium set.",
+      "source_region": [
+        249,
+        294,
+        2754,
+        3302
+      ],
+      "rotation_clockwise": 270,
+      "export_crop": [
+        68,
+        427,
+        2830,
+        2349
+      ],
+      "width": 2762,
+      "height": 1922,
+      "png": "e-rara-gessner/erara-gessner-rhinoceros-627406--armored-rhinoceros.png",
+      "png_sha256": "7876fd2d852e8b3dbf43ed151035983ee3622d73800b91a2d39205e0cbc29081",
+      "provenance": {
+        "institution": "Zentralbibliothek Zürich",
+        "title": "Gessner, Historiae animalium: De rhinocerote.",
+        "object_identifier": "5.1: a-5.3; image 627406; section De rhinocerote.",
+        "date": "1551–1587",
+        "record_url": "https://www.e-rara.ch/zuz/content/pageview/627406",
+        "image_rights": "Public Domain Mark; parent bibliographic record",
+        "rights_url": "https://www.e-rara.ch/zuz/content/titleinfo/637105",
+        "source_sha256": "e4e68a9ea8ead1ec2e195dee4cdf16193206a8766e31d416ec706665e11969d8",
+        "source_file": "tmp/new-assets/e-rara-gessner/erara-gessner-rhinoceros-627406--gessner-historiae-animalium-de-rhinocerote.jpg",
+        "source_metadata": "tmp/new-assets/e-rara-gessner/erara-gessner-rhinoceros-627406.json",
+        "image_url": "https://www.e-rara.ch/i3f/v20/627406/full/full/0/default.jpg",
+        "method": "source-pixel-extraction-with-ai-assisted-selection-mask"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: precise-object-edit. Output ONLY an original-aligned two-color foreground selection matte. Preserve EXACTLY this input’s aspect ratio, size relationships, positions, pose and every contour. No recentering or reconstruction. Solid vivid MAGENTA #ff00ff selects the complete original animal illustration; solid CYAN #00ffff excludes ALL page paper, letters, text, caption, print showing through from the other page, stains and actual openings between limbs and around the tail or trunk. Select An armored rhinoceros with its complete horn, ears, patterned body, four feet and tail. The selected animal must be a FEATURELESS SOLID MAGENTA silhouette: every interior pale illustrated body surface, eye, dark ink line and hatch must be magenta with no copied internal features. Actual exterior page and genuine spaces between feet, tail, trunk or antler branches must remain cyan. Include every thin whisker, toe, claw, tip and hair at its original position. Do not simplify, move, enlarge, redraw or add anything. No white or black or other colors, no text on the mask. Exclude the horizontal ground hatching, cast shadows, ruled lines and lettering outside the animal’s actual contour.",
+        "selection_mask": "tmp/extraction-work/erara-gessner-rhinoceros-627406--armored-rhinoceros--selection-mask.png",
+        "selection_mask_sha256": "1fb3be3c9e58fb553ad0121bb2a6800aec83bde2e01c9228f71c5b27af0c8eb6",
+        "mask_dimensions": [
+          1374,
+          1145
+        ],
+        "mask_application": "binary selection resized to native source region; only alpha changed",
+        "mask_source_region": [
+          249,
+          294,
+          2754,
+          3302
+        ],
+        "mask_encoding": "magenta-on-cyan",
+        "native_stroke_correction": null,
+        "native_paper_cleanup": null,
+        "native_boundary_refinement": null,
+        "mask_preprocessing": {
+          "fill_internal_holes_below_px": 250,
+          "remove_islands_below_px": 30
+        },
+        "native_rgb_verification": "all alpha-visible RGB values exactly equal the recorded native source crop; fully transparent RGB cleared",
+        "source_color_profile_preserved": true,
+        "source_pixels_repainted": false
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261010",
+        "notes": "Native overlay confirms horn tips, ears, armored plates, feet and fine tail strokes; page lettering excluded; original native detail and body proportions retained.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": "tmp/extraction-work/quality-reaudit-20261010/manifest.json"
+      },
+      "categories": [
+        "animals"
+      ],
+      "subjects": [
+        "rhinoceros"
+      ],
+      "facing": "left",
+      "colors": [
+        "brown",
+        "cream"
+      ],
+      "composition": "single-figure",
+      "vector_review": {
+        "status": "accepted",
+        "method": "Editable native-color VTracer paths with eight-layer native PNG alpha contour mask, excluding opaque hidden pixels and stray trace islands.",
+        "premultiplied_rgb_error_at_review_resolution": 0.03602096040037252,
+        "alpha_error_at_review_resolution": 0.0007194278121926389,
+        "limitation": "Contours and scan tones are approximate. PNG retains original native source RGB and remains the preferred fidelity master.",
+        "embedded_raster": false,
+        "quality_round": "20261010"
+      },
+      "svg": "e-rara-gessner/erara-gessner-rhinoceros-627406--armored-rhinoceros.svg",
+      "svg_sha256": "234a02a870266d4625f8b1e529f4633e81004535d00152d89c49ff2771fe0e50",
+      "review_history": [
+        {
+          "round": "quality-reaudit-20261010",
+          "previous_review": {
+            "status": "accepted",
+            "reviewed_on": "2026-10-10T11:45:29.489667+00:00",
+            "notes": "Compared the complete animal against its source, checked corrected orientation, fur/ear/tail tips and paws, and inspected transparent exterior and true spaces between limbs on light and dark backgrounds. Native source RGB retained; SVG evaluation remains pending.",
+            "checks": [
+              "original-source-comparison",
+              "white-background",
+              "dark-background",
+              "outer-contours",
+              "interior-openings",
+              "thin-details",
+              "original-rgb-equality"
+            ]
+          }
+        }
+      ],
+      "sets": [
+        {
+          "id": "gessner-historiae-animalium",
+          "name": "Gessner Historiae Animalium",
+          "relation": "same historical zoological work and illustration family"
+        }
+      ],
+      "description_before_set_naming": "An armored rhinoceros with its complete horn, ears, patterned body, four feet and tail.",
+      "set_label": "Gessner Historiae Animalium"
+    }
+  ]
+}

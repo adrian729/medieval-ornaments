@@ -1,0 +1,113 @@
+{
+  "source_id": "cma-1952-100",
+  "assets": [
+    {
+      "id": "cma-1952-100--oak-leaf-corner-flourish",
+      "name": "oak-leaf-corner-flourish",
+      "source_id": "cma-1952-100",
+      "source_folder": "cleveland",
+      "asset_type": "decoration",
+      "description": "An original L-shaped oak-leaf flourish with large curling leaves and a long descending stem.",
+      "source_region": [
+        0,
+        0,
+        4030,
+        5113
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        15,
+        7,
+        1106,
+        1393
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 1091,
+      "height": 1386,
+      "png": "cleveland/cma-1952-100--oak-leaf-corner-flourish.png",
+      "png_sha256": "91f47c1395b27fdcd69330532293538ad42b7411de33b8a39e81af8238b76b4f",
+      "provenance": {
+        "institution": "Cleveland Museum of Art",
+        "title": "An Oak Leaf Ornament",
+        "object_identifier": "1952.100",
+        "date": "c. 1470",
+        "artist": "Master W with the Key (Netherlandish, active about 1465–1490)",
+        "record_url": "https://clevelandart.org/art/1952.100",
+        "image_rights": "CC0; share_license_status=CC0",
+        "rights_url": "https://www.clevelandart.org/open-access",
+        "source_file": "tmp/new-assets/cleveland/cma-1952-100--an-oak-leaf-ornament--master.tif",
+        "source_sha256": "0cb346b2ff82a2f89bde6063714edca04ea9c292611c0c50cdfa635f4f9559e6",
+        "source_metadata": "tmp/new-assets/cleveland/cma-1952-100.json",
+        "image_url": null,
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: background-extraction. Edit target: the referenced ORIGINAL historic engraving for a museum decorative-art collection. Produce a transparent cutout of this exact existing ornament, with all source proportions and engraved detail preserved. Subject: The full ORIGINAL L-shaped oak-leaf flourish. Keep the whole sprawling upper horizontal arm, the elbow at the upper right, the complete long descending right arm and its original curled base. These are one connected finite hand-engraved corner ornament, not a uniform repeat. Retain every original irregular oak-leaf lobe and curled stem. The gray rectangular plate/paper field outside the leaf contours and inside their openings is unwanted background. Remove the isolated W and A printer marks below the horizontal arm, all dirt, and the sheet edges. Preserve the original fine pale engraving and its narrow shading lines without replacing them with bolder new detail. Remove the dense straight crosshatched BACKGROUND field, page paper, outer plate rules, unrelated signatures, date panels and cartouche lettering. Clear every genuine opening between leaves, limbs, wings, stems and scrolls. Foreground curved hatching, original ink texture, pale illustrated surfaces and every real contour stay intact and opaque. Keep every original finger, toe, curl, narrow connecting line, leaf tooth and motif tip. Keep physically contacting figures and shared props together. Do not invent missing source-truncated ends or extend motifs beyond the original. Do not add shading, symmetry, anatomy, detail or generic replacement foliage. Do not redesign, simplify, beautify, sharpen into modern line art, stretch or compress the original height-to-width ratio. Preserve the exact original long narrow arrangement when present. Use fine antialiased edges without paper halos or stepped polygon cuts. Genuine transparent alpha outside and inside the openings; no white rectangle, checkerboard paint, background hatching or shadow.",
+        "retained_generated_extraction": "tmp/extraction-work/cma-1952-100--oak-leaf-corner-flourish--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "210ff799a99dddaec6b2aa532bd572f217ca6edf353334e79c1f674aaefc6f33",
+        "retained_generated_size": [
+          1114,
+          1412
+        ],
+        "resolution_cap_scale": 1,
+        "resolution_capped_size": [
+          1114,
+          1412
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          4030,
+          5113
+        ],
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 27941
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "approval_scope": "Original source comparison; provisional for maintainer review.",
+        "checks": [
+          "complete-source-visible-subject",
+          "original-proportions",
+          "transparent-exterior-and-openings",
+          "opaque-original-paint-surfaces",
+          "thin-original-tips-and-props",
+          "white-and-dark-backgrounds",
+          "native-size-cap"
+        ],
+        "notes": "Compared against the original source and retained all actual leaf tips, painted highlights, thin stems, contacting props and original visible anatomy. The two-faced alchemical figure retains both faces, shared crown, both wings and all three chalice serpent heads; the reclining dragon includes both brown rear wings. AI-assisted texture and contour differences remain explicitly recorded.",
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/twelve-ornament-generated-results-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/twelve-ornament-generated-results-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/twelve-ornament-generated-results-proof-3.jpg"
+        ]
+      },
+      "categories": [
+        "floral"
+      ],
+      "subjects": [
+        "oak",
+        "leaf",
+        "scroll",
+        "corner"
+      ],
+      "facing": "mixed",
+      "colors": [
+        "black",
+        "brown",
+        "cream"
+      ],
+      "composition": "single-ornament",
+      "usage_notes": "Whole finite source ornament with original contacting figures and shared props retained. No seamless period or new frame corners inferred. AI-assisted extraction is approximate, not a pixel-exact crop; original, exact prompt and native resolution caps retained."
+    }
+  ]
+}

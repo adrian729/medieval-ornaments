@@ -1,0 +1,327 @@
+{
+  "schemaVersion": 2,
+  "id": "illustrations-008",
+  "collection": "illustrations",
+  "package": "@ranx729/medieval-ornaments-assets-illustrations-008",
+  "version": "0.1.0",
+  "designs": {
+    "hanging-grapes-with-two-broad-leaves": {
+      "name": "hanging-grapes-with-two-broad-leaves",
+      "asset_type": "illustration",
+      "kind": "standalone",
+      "derivation": "native-ink-extraction",
+      "repeat_axis": "none",
+      "width": 79,
+      "height": 104,
+      "png": "png/hanging-grapes-with-two-broad-leaves.png",
+      "webp": "webp/hanging-grapes-with-two-broad-leaves.webp",
+      "png_bytes": 5348,
+      "webp_bytes": 3046,
+      "variants": [],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "hanging-pear-with-short-curved-stem": {
+      "name": "hanging-pear-with-short-curved-stem",
+      "asset_type": "illustration",
+      "kind": "standalone",
+      "derivation": "native-ink-extraction",
+      "repeat_axis": "none",
+      "width": 45,
+      "height": 82,
+      "png": "png/hanging-pear-with-short-curved-stem.png",
+      "webp": "webp/hanging-pear-with-short-curved-stem.webp",
+      "png_bytes": 2563,
+      "webp_bytes": 1470,
+      "variants": [],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "horse": {
+      "name": "horse",
+      "asset_type": "illustration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-source-mask",
+      "repeat_axis": "none",
+      "viewbox": [
+        0,
+        0,
+        2651,
+        2390
+      ],
+      "width": 2651,
+      "height": 2390,
+      "png": "png/horse.png",
+      "webp": "webp/horse.webp",
+      "svg": "svg/horse.svg",
+      "png_bytes": 5885617,
+      "webp_bytes": 3352678,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/horse.png",
+          "webp": "webp/128/horse.webp",
+          "width": 128,
+          "height": 115,
+          "png_bytes": 21962,
+          "webp_bytes": 14622
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/horse.png",
+          "webp": "webp/256/horse.webp",
+          "width": 256,
+          "height": 231,
+          "png_bytes": 76042,
+          "webp_bytes": 56048
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/horse.png",
+          "webp": "webp/512/horse.webp",
+          "width": 512,
+          "height": 462,
+          "png_bytes": 291705,
+          "webp_bytes": 188406
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/horse.png",
+          "webp": "webp/768/horse.webp",
+          "width": 768,
+          "height": 692,
+          "png_bytes": 656898,
+          "webp_bytes": 407262
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "svg",
+        "webp",
+        "png"
+      ]
+    },
+    "lion": {
+      "name": "lion",
+      "asset_type": "illustration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-source-mask",
+      "repeat_axis": "none",
+      "viewbox": [
+        0,
+        0,
+        2225,
+        1151
+      ],
+      "width": 2225,
+      "height": 1151,
+      "png": "png/lion.png",
+      "webp": "webp/lion.webp",
+      "svg": "svg/lion.svg",
+      "png_bytes": 3182659,
+      "webp_bytes": 1867242,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/lion.png",
+          "webp": "webp/128/lion.webp",
+          "width": 128,
+          "height": 66,
+          "png_bytes": 17689,
+          "webp_bytes": 11332
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/lion.png",
+          "webp": "webp/256/lion.webp",
+          "width": 256,
+          "height": 132,
+          "png_bytes": 62684,
+          "webp_bytes": 40940
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/lion.png",
+          "webp": "webp/512/lion.webp",
+          "width": 512,
+          "height": 265,
+          "png_bytes": 238630,
+          "webp_bytes": 162854
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/lion.png",
+          "webp": "webp/768/lion.webp",
+          "width": 768,
+          "height": 397,
+          "png_bytes": 509499,
+          "webp_bytes": 365532
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "svg",
+        "webp",
+        "png"
+      ]
+    }
+  },
+  "files": {
+    "png/128/horse.png": {
+      "bytes": 21962,
+      "sha256": "5b749086285cdea6ac0b0051becae5cffbaa313ee85a6ffb48e9b79b4c9b28e5"
+    },
+    "png/128/lion.png": {
+      "bytes": 17689,
+      "sha256": "bbdeadf12bb6ec478b2de29ccaa72bffc17b67ccc664c06387cc471067540fb0"
+    },
+    "png/256/horse.png": {
+      "bytes": 76042,
+      "sha256": "74246d26835857592e8745027ef09a46f9eaab61623855fe518beee27703b329"
+    },
+    "png/256/lion.png": {
+      "bytes": 62684,
+      "sha256": "2835a48c0d10e3010d94f96e809f3da66ab48536fcd1413b657a637cd81e5055"
+    },
+    "png/512/horse.png": {
+      "bytes": 291705,
+      "sha256": "e00c61835397cbeac3f0bc7c0882194486f4131c4e73c959050067ba32829e1c"
+    },
+    "png/512/lion.png": {
+      "bytes": 238630,
+      "sha256": "f8dc4b5e2289bd6ff91ee6cf5e4a71e3d4771fb543116c7ff593867d1612fbc9"
+    },
+    "png/768/horse.png": {
+      "bytes": 656898,
+      "sha256": "939552ae96cb9f6406b47cfee38a13082eba861bdb2e161b14b2210f8410917c"
+    },
+    "png/768/lion.png": {
+      "bytes": 509499,
+      "sha256": "56d714d73f19f6032dea3c52881069a2eea6d1de248791f1083055749e7f9201"
+    },
+    "png/hanging-grapes-with-two-broad-leaves.png": {
+      "bytes": 5348,
+      "sha256": "d8bb998638faba7d56979b167b9cfbfb45619c5776da633735e710b7df083ef2"
+    },
+    "png/hanging-pear-with-short-curved-stem.png": {
+      "bytes": 2563,
+      "sha256": "e37f9a6099ca5a3e67a20a21e2866a29e96ce0703cb88a880adb76e5ef5bae85"
+    },
+    "png/horse.png": {
+      "bytes": 5885617,
+      "sha256": "4d499a869c1f0f0a87016f8084d3f16640fa3500874665eadf726c64b60de5f8"
+    },
+    "png/lion.png": {
+      "bytes": 3182659,
+      "sha256": "adec3d91e0f9f06555143c9c17a4f32548cf53902461d86de6f8a5a7e725407c"
+    },
+    "svg/horse.svg": {
+      "bytes": 33641857,
+      "sha256": "84b85c182aea74c46cb043a9990299746a023ac69c7139be4b96020c987de1d9"
+    },
+    "svg/lion.svg": {
+      "bytes": 18155059,
+      "sha256": "0e025bffad286222f787ed87a9056f539e6923706f80d0b314001dfae4801bd9"
+    },
+    "webp/128/horse.webp": {
+      "bytes": 14622,
+      "sha256": "acb0124c4cb1f6d080448c98b9001310e1d93872b98ce2868061d9710715bd76"
+    },
+    "webp/128/lion.webp": {
+      "bytes": 11332,
+      "sha256": "548d3844b5c09500ba82cd8e02c35bf24369384e607e2252cb54082657c40814"
+    },
+    "webp/256/horse.webp": {
+      "bytes": 56048,
+      "sha256": "e2f00e424ecae107ce05b2a3b49dcf836d7b967c545e359039e6dfcedc464ad3"
+    },
+    "webp/256/lion.webp": {
+      "bytes": 40940,
+      "sha256": "c79671055061e88cf51d4386b08b5f204cf1cb2047b85c498122c1452e3b87c8"
+    },
+    "webp/512/horse.webp": {
+      "bytes": 188406,
+      "sha256": "67feb4392a5feeae215c780f8239556a1de746f5597862bae226b1becb162f51"
+    },
+    "webp/512/lion.webp": {
+      "bytes": 162854,
+      "sha256": "7ca39a6321698f9b37e18db310e8f8a1f1ae9ef6d853f79acb738dc4406eee4e"
+    },
+    "webp/768/horse.webp": {
+      "bytes": 407262,
+      "sha256": "2eba1969bea8e61ccb57450b5ba19f676097feaff2b65fb3c3de2864c4ae728d"
+    },
+    "webp/768/lion.webp": {
+      "bytes": 365532,
+      "sha256": "dc0711c2942b83d4d8500f6dc470503da0bd8907b9c5489ab8cb16bda0e77d81"
+    },
+    "webp/hanging-grapes-with-two-broad-leaves.webp": {
+      "bytes": 3046,
+      "sha256": "c26c7328d6fd02105739d71f3c86fcf584b88c03f307755a6f9095fcb5ddcd81"
+    },
+    "webp/hanging-pear-with-short-curved-stem.webp": {
+      "bytes": 1470,
+      "sha256": "7640b1ecd2ffebc6f146d87842df30398fa913424b1848524f7c1c44391df8c7"
+    },
+    "webp/horse.webp": {
+      "bytes": 3352678,
+      "sha256": "d3d8b01b3a94a0305a4da0ddfa6503a1f6f233a1275530af23382887afee9e91"
+    },
+    "webp/lion.webp": {
+      "bytes": 1867242,
+      "sha256": "97300c4e6956ccbe4b8e4a6f65f467161190a7b44e4d24daf6baae5fd0f59fba"
+    }
+  },
+  "inputs": {
+    "sources/tiles/hanging-grapes-with-two-broad-leaves.png": {
+      "bytes": 5348,
+      "sha256": "d8bb998638faba7d56979b167b9cfbfb45619c5776da633735e710b7df083ef2"
+    },
+    "sources/tiles/hanging-pear-with-short-curved-stem.png": {
+      "bytes": 2563,
+      "sha256": "e37f9a6099ca5a3e67a20a21e2866a29e96ce0703cb88a880adb76e5ef5bae85"
+    },
+    "sources/tiles/horse.png": {
+      "bytes": 5885617,
+      "sha256": "4d499a869c1f0f0a87016f8084d3f16640fa3500874665eadf726c64b60de5f8"
+    },
+    "sources/traces/horse.svg": {
+      "bytes": 33641857,
+      "sha256": "84b85c182aea74c46cb043a9990299746a023ac69c7139be4b96020c987de1d9"
+    },
+    "sources/tiles/lion.png": {
+      "bytes": 3182659,
+      "sha256": "adec3d91e0f9f06555143c9c17a4f32548cf53902461d86de6f8a5a7e725407c"
+    },
+    "sources/traces/lion.svg": {
+      "bytes": 18155059,
+      "sha256": "0e025bffad286222f787ed87a9056f539e6923706f80d0b314001dfae4801bd9"
+    }
+  }
+}

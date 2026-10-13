@@ -9,6 +9,9 @@
 <link rel="icon" type="image/png" href="../../favicon-32.png" sizes="32x32">
 <link rel="icon" type="image/svg+xml" href="../../favicon.svg" sizes="any">
 <link rel="preconnect" href="https://cdn.jsdelivr.net">
+<link rel="stylesheet" href="../../ornaments.css">
+<link rel="stylesheet" href="../site.css">
+<link rel="stylesheet" href="../playground.css">
 </head>
 <body>
 <header class="site-header">
@@ -23,7 +26,21 @@
     </nav>
   </div>
 </header>
-<main class="container" id="root"></main>
+<main class="container">
+  <div class="page-head">
+    <p class="eyebrow">Integration</p>
+    <h1>React</h1>
+    <p class="lede">Declarative frames, dividers and images. Styles are included, server rendering works, and your own children and state are never replaced.</p>
+    <div class="install"><code>npm i @ranx729/medieval-ornaments</code></div>
+  </div>
+  <div id="root">
+    <section class="section" aria-busy="true" aria-label="Interactive examples">
+      <div class="section-head"><h2>Borders: frames and dividers</h2><p class="muted">Every pattern works as a divider in either direction. Patterns with approved corners also work as frames. React re-renders the same elements, so the note you type stays put.</p></div>
+      <div class="playground"><div class="panel loading-placeholder" style="min-height:240px" aria-hidden="true"></div><div class="stage loading-placeholder" style="min-height:340px"><p role="status">Loading interactive examples…</p></div></div>
+    </section>
+    <noscript>Enable JavaScript to use the interactive examples.</noscript>
+  </div>
+</main>
 <footer class="site-footer">
   <div class="container">
     <p>The integration code is MIT-licensed; artwork is excluded from that grant. See <a href="https://github.com/adrian729/medieval-ornaments/blob/main/LICENSE">LICENSE</a>.</p>

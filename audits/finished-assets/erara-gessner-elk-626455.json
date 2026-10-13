@@ -1,0 +1,140 @@
+{
+  "source_id": "erara-gessner-elk-626455",
+  "assets": [
+    {
+      "id": "erara-gessner-elk-626455--branching-elk-antler",
+      "name": "branching-elk-antler",
+      "source_id": "erara-gessner-elk-626455",
+      "source_folder": "e-rara-gessner",
+      "asset_type": "illustration",
+      "description": "A single branching elk antler, including its complete base and every tine. Part of the Gessner Historiae Animalium set.",
+      "source_region": [
+        586,
+        2488,
+        2665,
+        3845
+      ],
+      "rotation_clockwise": 90,
+      "export_crop": [
+        57,
+        144,
+        1152,
+        1967
+      ],
+      "width": 1095,
+      "height": 1823,
+      "png": "e-rara-gessner/erara-gessner-elk-626455--branching-elk-antler.png",
+      "png_sha256": "e492a9f066a823d26f2c9c26d10c5deacbe741196a891b22c3b627462688a3bd",
+      "provenance": {
+        "institution": "Zentralbibliothek Zürich",
+        "title": "Gessner, Historiae animalium: elk antler (De alce)",
+        "object_identifier": "5.1: a-5.3; image 626455; section De alce.",
+        "date": "1551–1587",
+        "record_url": "https://www.e-rara.ch/zuz/content/pageview/626455",
+        "image_rights": "Public Domain Mark; parent bibliographic record",
+        "rights_url": "https://www.e-rara.ch/zuz/content/titleinfo/637105",
+        "source_sha256": "f95957ac448ddb221bcae8e89f243e0b37f81cc736f28583df79f26369e7be6b",
+        "source_file": "tmp/new-assets/e-rara-gessner/erara-gessner-elk-626455--gessner-historiae-animalium-de-alce.jpg",
+        "source_metadata": "tmp/new-assets/e-rara-gessner/erara-gessner-elk-626455.json",
+        "image_url": "https://www.e-rara.ch/i3f/v20/626455/full/full/0/default.jpg",
+        "method": "source-pixel-extraction-with-ai-assisted-selection-mask"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: precise-object-edit. Output ONLY an original-aligned two-color foreground selection matte. Preserve EXACTLY this input’s aspect ratio, size relationships, positions, pose and every contour. No recentering or reconstruction. Solid vivid MAGENTA #ff00ff selects the complete original animal illustration; solid CYAN #00ffff excludes ALL page paper, letters, text, caption, print showing through from the other page, stains and actual openings between limbs and around the tail or trunk. Select A single branching elk antler, including its complete base and every tine. The selected animal must be a FEATURELESS SOLID MAGENTA silhouette: every interior pale illustrated body surface, eye, dark ink line and hatch must be magenta with no copied internal features. Actual exterior page and genuine spaces between feet, tail, trunk or antler branches must remain cyan. Include every thin whisker, toe, claw, tip and hair at its original position. Do not simplify, move, enlarge, redraw or add anything. No white or black or other colors, no text on the mask. Exclude the horizontal ground hatching, cast shadows, ruled lines and lettering outside the animal’s actual contour.",
+        "selection_mask": "tmp/extraction-work/erara-gessner-elk-626455--branching-elk-antler--selection-mask.png",
+        "selection_mask_sha256": "836068a7f58f24eac97d272805676121d499c093a537ccc07d460e9a3a97cc1f",
+        "mask_dimensions": [
+          1014,
+          1551
+        ],
+        "mask_application": "binary selection resized to native source region; only alpha changed",
+        "mask_source_region": [
+          586,
+          2488,
+          2665,
+          3845
+        ],
+        "mask_encoding": "magenta-on-cyan",
+        "native_stroke_correction": null,
+        "native_paper_cleanup": null,
+        "native_boundary_refinement": null,
+        "mask_preprocessing": {
+          "fill_internal_holes_below_px": 250,
+          "remove_islands_below_px": 30
+        },
+        "native_rgb_verification": "all alpha-visible RGB values exactly equal the recorded native source crop; fully transparent RGB cleared",
+        "source_color_profile_preserved": true,
+        "source_pixels_repainted": false
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261010",
+        "notes": "Native overlay confirms every original tine and antler base; correct upright direction; adjacent text excluded. Original internal print shading retained.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": "tmp/extraction-work/quality-reaudit-20261010/manifest.json"
+      },
+      "categories": [
+        "animals"
+      ],
+      "subjects": [
+        "antler",
+        "elk"
+      ],
+      "facing": "unclear",
+      "colors": [
+        "brown",
+        "cream"
+      ],
+      "composition": "single-figure",
+      "vector_review": {
+        "status": "accepted",
+        "method": "Editable native-color VTracer paths with eight-layer native PNG alpha contour mask, excluding opaque hidden pixels and stray trace islands.",
+        "premultiplied_rgb_error_at_review_resolution": 0.021209060746149977,
+        "alpha_error_at_review_resolution": 0.0010497273820348591,
+        "limitation": "Contours and scan tones are approximate. PNG retains original native source RGB and remains the preferred fidelity master.",
+        "embedded_raster": false,
+        "quality_round": "20261010"
+      },
+      "svg": "e-rara-gessner/erara-gessner-elk-626455--branching-elk-antler.svg",
+      "svg_sha256": "267bd9cfe2777df34942589740f58511bd69061c554a416fb0219eed2ef0002f",
+      "review_history": [
+        {
+          "round": "quality-reaudit-20261010",
+          "previous_review": {
+            "status": "accepted",
+            "reviewed_on": "2026-10-10T11:45:29.464840+00:00",
+            "notes": "Compared complete antler and every tine/base against the original, checked open spaces on white and dark backgrounds, and checked the actual color-trace SVG render. Both native PNG and editable vector retained.",
+            "checks": [
+              "original-source-comparison",
+              "white-background",
+              "dark-background",
+              "outer-contours",
+              "interior-openings",
+              "thin-details",
+              "original-rgb-equality"
+            ]
+          }
+        }
+      ],
+      "sets": [
+        {
+          "id": "gessner-historiae-animalium",
+          "name": "Gessner Historiae Animalium",
+          "relation": "same historical zoological work and illustration family"
+        }
+      ],
+      "description_before_set_naming": "A single branching elk antler, including its complete base and every tine.",
+      "set_label": "Gessner Historiae Animalium"
+    }
+  ]
+}

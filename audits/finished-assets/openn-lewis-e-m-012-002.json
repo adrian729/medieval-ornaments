@@ -1,0 +1,271 @@
+{
+  "source_id": "openn-lewis-e-m-012-002",
+  "assets": [
+    {
+      "id": "openn-lewis-e-m-012-002--lower-curving-ivy-trail-with-gold-flower",
+      "name": "lower-curving-ivy-trail-with-gold-flower",
+      "source_id": "openn-lewis-e-m-012-002",
+      "source_folder": "openn-free-library",
+      "asset_type": "illustration",
+      "description": "A lower curving trail of alternating pointed ivy leaves ending beside a small gold flower. Part of the Decorated initial I (openn-lewis-e-m-012-002) set.",
+      "source_region": [
+        1076,
+        3523,
+        2524,
+        5005
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        1,
+        111,
+        1317,
+        1158
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 1316,
+      "height": 1047,
+      "png": "openn-free-library/openn-lewis-e-m-012-002--lower-curving-ivy-trail-with-gold-flower.png",
+      "png_sha256": "94bd98c22c8986307df414924d16e16e3a51992430fd76bbac37cd6a59b27ba6",
+      "provenance": {
+        "institution": "Free Library of Philadelphia, John Frederick Lewis Collection",
+        "title": "Decorated initial I",
+        "object_identifier": "Lewis E M 12:2 Decorated initial I",
+        "date": "(Unknown, 1400-1499)",
+        "record_url": "https://openn.library.upenn.edu/Data/0023/html/lewis_e_m_012_002.html",
+        "image_rights": "Public Domain Mark 1.0; item record explicitly places images in public domain",
+        "rights_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "source_file": "tmp/new-assets/openn-free-library/openn-lewis-e-m-012-002--decorated-initial-i--master.tif",
+        "source_sha256": "e1117e320d96362cbf215301ddf346be0c3408ca582068335ece6317fb417f65",
+        "source_metadata": "tmp/new-assets/openn-free-library/openn-lewis-e-m-012-002.json",
+        "image_url": "https://openn.library.upenn.edu/Data/0023/lewis_e_m_012_002/data/master/7527_0000.tif",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. ONLY the complete lower curving ivy trail below the literal initial I: retain all actual red, blue and pale pointed leaves, fine curling points, its original thin stem and the gold flower with long black curling sepals near the right end. Exclude the literal rectangular initial I, photograph paper and scale/chart. The upper stem begins at its original visible junction with the excluded initial; do not invent new ends, roots or hidden stem. Original tiny irregular leaves and faded pigment remain as drawn. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_extraction": "tmp/extraction-work/openn-lewis-e-m-012-002--lower-curving-ivy-trail-with-gold-flower--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "1da8c0a0a5924f886992b1efe11c2db077ddbec2d328dc1e0a5cf211c5a6dfa3",
+        "retained_generated_size": [
+          1317,
+          1194
+        ],
+        "resolution_cap_scale": 1,
+        "resolution_capped_size": [
+          1317,
+          1194
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          1397,
+          1409
+        ],
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 21876
+        },
+        "native_subject_size_evidence": {
+          "method": "Individually inspected visible original subject bounds, excluding ROI whitespace and neighbouring entities.",
+          "preview_subject_bounds": [
+            349,
+            1122,
+            789,
+            1566
+          ],
+          "preview_size": [
+            873,
+            1600
+          ],
+          "original_size": [
+            2772,
+            5078
+          ]
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Compared original region with white/dark alpha renders. Original garment/cloud foot, cross, both lobed leaf clusters and ivy tips retained; actual openings clear and pale/gold painted foreground opaque. No letter forms delivered.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/six-cloud-floral-generated-results-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/six-cloud-floral-generated-results-proof-2.jpg"
+        ]
+      },
+      "categories": [
+        "floral"
+      ],
+      "subjects": [
+        "ivy",
+        "leaf",
+        "stem",
+        "flower"
+      ],
+      "colors": [
+        "red",
+        "blue",
+        "pink",
+        "gold",
+        "brown"
+      ],
+      "facing": "unclear",
+      "composition": "standalone",
+      "usage_notes": "Original independent specimen with printed plate rules and page removed. AI-assisted extraction remains approximate; source bounds, actual native subject cap, original and exact prompt retained.",
+      "sets": [
+        {
+          "id": "openn-lewis-e-m-012-002-set",
+          "name": "Decorated initial I (openn-lewis-e-m-012-002)",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A lower curving trail of alternating pointed ivy leaves ending beside a small gold flower.",
+      "set_label": "Decorated initial I (openn-lewis-e-m-012-002)"
+    },
+    {
+      "id": "openn-lewis-e-m-012-002--upper-trail-of-pointed-ivy-and-gold-flower",
+      "name": "upper-trail-of-pointed-ivy-and-gold-flower",
+      "source_id": "openn-lewis-e-m-012-002",
+      "source_folder": "openn-free-library",
+      "asset_type": "illustration",
+      "description": "A slender upper trail of alternating painted pointed ivy leaves with a small gold flower. Part of the Decorated initial I (openn-lewis-e-m-012-002) set.",
+      "source_region": [
+        854,
+        251,
+        1530,
+        2072
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        14,
+        17,
+        614,
+        1642
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 600,
+      "height": 1625,
+      "png": "openn-free-library/openn-lewis-e-m-012-002--upper-trail-of-pointed-ivy-and-gold-flower.png",
+      "png_sha256": "6d2a8c09ae9abfd3460eb984b267e5acec1943ebf911c6f8b0a72eb51de1a312",
+      "provenance": {
+        "institution": "Free Library of Philadelphia, John Frederick Lewis Collection",
+        "title": "Decorated initial I",
+        "object_identifier": "Lewis E M 12:2 Decorated initial I",
+        "date": "(Unknown, 1400-1499)",
+        "record_url": "https://openn.library.upenn.edu/Data/0023/html/lewis_e_m_012_002.html",
+        "image_rights": "Public Domain Mark 1.0; item record explicitly places images in public domain",
+        "rights_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "source_file": "tmp/new-assets/openn-free-library/openn-lewis-e-m-012-002--decorated-initial-i--master.tif",
+        "source_sha256": "e1117e320d96362cbf215301ddf346be0c3408ca582068335ece6317fb417f65",
+        "source_metadata": "tmp/new-assets/openn-free-library/openn-lewis-e-m-012-002.json",
+        "image_url": "https://openn.library.upenn.edu/Data/0023/lewis_e_m_012_002/data/master/7527_0000.tif",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. ONLY the complete upper ivy trail outside the literal initial I: every alternating red, blue and pale pink pointed leaf, all long curling fine leaf points, the slender original stem and the small gold flower attached to its left midway down. Remove the page, chart and the literal rectangular pink/blue initial I where the vine enters it at the bottom. Preserve the actual visible end at that junction without adding a root or new connector. This is a finite hand-painted vine, no exact repeat inferred. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_extraction": "tmp/extraction-work/openn-lewis-e-m-012-002--upper-trail-of-pointed-ivy-and-gold-flower--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "26ed95d72b28a0a53bd05edd1435df2a2d703206e1ca71368e1000189aa02294",
+        "retained_generated_size": [
+          764,
+          2058
+        ],
+        "resolution_cap_scale": 0.8133704735376045,
+        "resolution_capped_size": [
+          621,
+          1674
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          584,
+          1812
+        ],
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 30992
+        },
+        "native_subject_size_evidence": {
+          "method": "Individually inspected visible original subject bounds, excluding ROI whitespace and neighbouring entities.",
+          "preview_subject_bounds": [
+            285,
+            80,
+            469,
+            651
+          ],
+          "preview_size": [
+            873,
+            1600
+          ],
+          "original_size": [
+            2772,
+            5078
+          ]
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Compared original region with white/dark alpha renders. Original garment/cloud foot, cross, both lobed leaf clusters and ivy tips retained; actual openings clear and pale/gold painted foreground opaque. No letter forms delivered.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/six-cloud-floral-generated-results-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/six-cloud-floral-generated-results-proof-2.jpg"
+        ]
+      },
+      "categories": [
+        "floral"
+      ],
+      "subjects": [
+        "ivy",
+        "leaf",
+        "stem",
+        "flower"
+      ],
+      "colors": [
+        "red",
+        "blue",
+        "pink",
+        "gold",
+        "brown"
+      ],
+      "facing": "unclear",
+      "composition": "standalone",
+      "usage_notes": "Original independent specimen with printed plate rules and page removed. AI-assisted extraction remains approximate; source bounds, actual native subject cap, original and exact prompt retained.",
+      "sets": [
+        {
+          "id": "openn-lewis-e-m-012-002-set",
+          "name": "Decorated initial I (openn-lewis-e-m-012-002)",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A slender upper trail of alternating painted pointed ivy leaves with a small gold flower.",
+      "set_label": "Decorated initial I (openn-lewis-e-m-012-002)"
+    }
+  ]
+}

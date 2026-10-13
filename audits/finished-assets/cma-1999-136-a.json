@@ -1,0 +1,2141 @@
+{
+  "source_id": "cma-1999-136-a",
+  "assets": [
+    {
+      "id": "cma-1999-136-a--blue-and-pink-bud-with-two-green-leaves",
+      "name": "blue-and-pink-bud-with-two-green-leaves",
+      "source_id": "cma-1999-136-a",
+      "source_folder": "cleveland",
+      "asset_type": "illustration",
+      "description": "A sideways blue and pink bud with a curved green stem and two leaves. Part of the Cleveland 1524 Psalter and Prayerbook set.",
+      "source_region": [
+        3367,
+        113,
+        4952,
+        815
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        34,
+        45,
+        1502,
+        651
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 1468,
+      "height": 606,
+      "png": "cleveland/cma-1999-136-a--blue-and-pink-bud-with-two-green-leaves.png",
+      "png_sha256": "cfd75cc197457579bc9cb47fb61f1e76cf6a5087c9dbac0358045fdad5932f1c",
+      "provenance": {
+        "institution": "Cleveland Museum of Art",
+        "title": "Leaf from a Psalter and Prayerbook: Ornamental Border with Pea Vines and a Girl Kneading Bread (recto)",
+        "object_identifier": "1999.136.a",
+        "date": "c. 1524",
+        "record_url": "https://clevelandart.org/art/1999.136.a",
+        "image_rights": "CC0; share_license_status=CC0",
+        "rights_url": "https://www.clevelandart.org/open-access",
+        "source_file": "tmp/new-assets/cleveland/cma-1999-136-a--leaf-from-a-psalter-and-prayerbook-ornamental-border-with-pea-vines-and-a-girl-kneading-br--master.tif",
+        "source_sha256": "cefeafcff30ac8fce6ee4a1b742db7a5f2b522fd9b5ebae25033bf43ef5f5ac1",
+        "source_metadata": "tmp/new-assets/cleveland/cma-1999-136-a.json",
+        "image_url": "https://openaccess-cdn.clevelandart.org/1999.136.a/1999.136.a_full.tif",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. Extract ONLY the upper-middle small sideways blue/pink flower bud, the complete curving green stem and both original green leaves. All source-visible leaf tips retained; remove gold field and page rules. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_extraction": "tmp/extraction-work/cma-1999-136-a--blue-and-pink-bud-with-two-green-leaves--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "63159d06861f5aebc3bf379204195a3014c158c317961c7a394c052f5bf020e5",
+        "retained_generated_size": [
+          1884,
+          835
+        ],
+        "resolution_cap_scale": 0.8049113233287858,
+        "resolution_capped_size": [
+          1516,
+          672
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          1458,
+          590
+        ],
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 4222
+        },
+        "native_subject_size_evidence": {
+          "method": "Individually inspected native visible subject bounds, excluding input-region whitespace and neighbours.",
+          "preview_subject_bounds": [
+            517,
+            26,
+            737,
+            115
+          ],
+          "preview_size": [
+            1330,
+            1600
+          ],
+          "original_size": [
+            8816,
+            10607
+          ]
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Compared native source region and white/dark renders. Entire original visible fingers/feet, table/basket/cauldron props, leaf and petal tips, stems and genuine openings checked. Detached specimens delivered individually. Gray-blue flower has all original gray lobes; radial flower has all FIVE original blue curls. Source-provided floor retained only beneath the intrinsic cooking scene, never a gold/page rectangle.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/cleveland-thirteen-generated-results-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/cleveland-thirteen-generated-results-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/cleveland-thirteen-generated-results-proof-3.jpg",
+          "tmp/extraction-work/continuation-20261010/cleveland-thirteen-generated-results-proof-4.jpg"
+        ]
+      },
+      "categories": [
+        "floral"
+      ],
+      "subjects": [
+        "flower",
+        "leaf",
+        "stem"
+      ],
+      "colors": [
+        "green",
+        "blue",
+        "red"
+      ],
+      "facing": "unclear",
+      "composition": "standalone",
+      "usage_notes": "Independent original foreground or intrinsic contacting scene. AI-assisted approximation; original native region, exact prompt and visible subject resolution cap retained. Gold page field is transparent; no letter forms included.",
+      "sets": [
+        {
+          "id": "cleveland-1524-psalter-prayerbook",
+          "name": "Cleveland 1524 Psalter and Prayerbook",
+          "relation": "related Cleveland leaves with matching source title, date and painted style; individual source identities retained"
+        },
+        {
+          "id": "cma-1999-136-a-set",
+          "name": "Leaf from a Psalter and Prayerbook: Ornamental Border with Pea Vines and a Girl Kneading Bread (recto) (cma-1999-136-a)",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A sideways blue and pink bud with a curved green stem and two leaves.",
+      "set_label": "Cleveland 1524 Psalter and Prayerbook"
+    },
+    {
+      "id": "cma-1999-136-a--blue-red-and-gray-radial-flower",
+      "name": "blue-red-and-gray-radial-flower",
+      "source_id": "cma-1999-136-a",
+      "source_folder": "cleveland",
+      "asset_type": "illustration",
+      "description": "A stylized radial flower with blue curled side petals, red base and gray central crown. Part of the Cleveland 1524 Psalter and Prayerbook set.",
+      "source_region": [
+        2718,
+        8307,
+        4388,
+        9626
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        41,
+        17,
+        1387,
+        1105
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 1346,
+      "height": 1088,
+      "png": "cleveland/cma-1999-136-a--blue-red-and-gray-radial-flower.png",
+      "png_sha256": "e082a1afe3c9f5f2b698fffb504529be9b3f564a199c38be750ea236eb4280a9",
+      "provenance": {
+        "institution": "Cleveland Museum of Art",
+        "title": "Leaf from a Psalter and Prayerbook: Ornamental Border with Pea Vines and a Girl Kneading Bread (recto)",
+        "object_identifier": "1999.136.a",
+        "date": "c. 1524",
+        "record_url": "https://clevelandart.org/art/1999.136.a",
+        "image_rights": "CC0; share_license_status=CC0",
+        "rights_url": "https://www.clevelandart.org/open-access",
+        "source_file": "tmp/new-assets/cleveland/cma-1999-136-a--leaf-from-a-psalter-and-prayerbook-ornamental-border-with-pea-vines-and-a-girl-kneading-br--master.tif",
+        "source_sha256": "cefeafcff30ac8fce6ee4a1b742db7a5f2b522fd9b5ebae25033bf43ef5f5ac1",
+        "source_metadata": "tmp/new-assets/cleveland/cma-1999-136-a.json",
+        "image_url": "https://openaccess-cdn.clevelandart.org/1999.136.a/1999.136.a_full.tif",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. Extract ONLY the detached large bottom-middle stylized multicolor radial flower. Retain the gray stacked central crown, green/brown ring and red body/base plus all four blue curled side lobes. Do not join surrounding green scrolls or add a stem. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_extraction": "tmp/extraction-work/cma-1999-136-a--blue-red-and-gray-radial-flower--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "40a560575b68b4eded451bc3bc99e5e89cab3f62bb796f041d12255d4284a467",
+        "retained_generated_size": [
+          1411,
+          1115
+        ],
+        "resolution_cap_scale": 1,
+        "resolution_capped_size": [
+          1411,
+          1115
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          1558,
+          1200
+        ],
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 1695
+        },
+        "native_subject_size_evidence": {
+          "method": "Individually inspected native visible subject bounds, excluding input-region whitespace and neighbours.",
+          "preview_subject_bounds": [
+            420,
+            1263,
+            655,
+            1444
+          ],
+          "preview_size": [
+            1330,
+            1600
+          ],
+          "original_size": [
+            8816,
+            10607
+          ]
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Compared native source region and white/dark renders. Entire original visible fingers/feet, table/basket/cauldron props, leaf and petal tips, stems and genuine openings checked. Detached specimens delivered individually. Gray-blue flower has all original gray lobes; radial flower has all FIVE original blue curls. Source-provided floor retained only beneath the intrinsic cooking scene, never a gold/page rectangle.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/cleveland-thirteen-generated-results-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/cleveland-thirteen-generated-results-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/cleveland-thirteen-generated-results-proof-3.jpg",
+          "tmp/extraction-work/continuation-20261010/cleveland-thirteen-generated-results-proof-4.jpg"
+        ]
+      },
+      "categories": [
+        "floral"
+      ],
+      "subjects": [
+        "flower",
+        "leaf",
+        "stem"
+      ],
+      "colors": [
+        "green",
+        "blue",
+        "red"
+      ],
+      "facing": "unclear",
+      "composition": "standalone",
+      "usage_notes": "Independent original foreground or intrinsic contacting scene. AI-assisted approximation; original native region, exact prompt and visible subject resolution cap retained. Gold page field is transparent; no letter forms included.",
+      "sets": [
+        {
+          "id": "cleveland-1524-psalter-prayerbook",
+          "name": "Cleveland 1524 Psalter and Prayerbook",
+          "relation": "related Cleveland leaves with matching source title, date and painted style; individual source identities retained"
+        },
+        {
+          "id": "cma-1999-136-a-set",
+          "name": "Leaf from a Psalter and Prayerbook: Ornamental Border with Pea Vines and a Girl Kneading Bread (recto) (cma-1999-136-a)",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A stylized radial flower with blue curled side petals, red base and gray central crown.",
+      "set_label": "Cleveland 1524 Psalter and Prayerbook"
+    },
+    {
+      "id": "cma-1999-136-a--broad-green-leaf-scroll",
+      "name": "broad-green-leaf-scroll",
+      "source_id": "cma-1999-136-a",
+      "source_folder": "cleveland",
+      "asset_type": "illustration",
+      "description": "A broad green leaf scroll with long connecting branches and curled basal leaves. Part of the Cleveland 1524 Psalter and Prayerbook set.",
+      "source_region": [
+        736,
+        8220,
+        3898,
+        10063
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        12,
+        2,
+        1606,
+        949
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 1594,
+      "height": 947,
+      "png": "cleveland/cma-1999-136-a--broad-green-leaf-scroll.png",
+      "png_sha256": "9689ee7b4067e47a11484e25dc4704beecf8ce276bdd9dd4c5bb3b4cc0231e4e",
+      "provenance": {
+        "institution": "Cleveland Museum of Art",
+        "title": "Leaf from a Psalter and Prayerbook: Ornamental Border with Pea Vines and a Girl Kneading Bread (recto)",
+        "object_identifier": "1999.136.a",
+        "date": "c. 1524",
+        "record_url": "https://clevelandart.org/art/1999.136.a",
+        "image_rights": "CC0; share_license_status=CC0",
+        "rights_url": "https://www.clevelandart.org/open-access",
+        "source_file": "tmp/new-assets/cleveland/cma-1999-136-a--leaf-from-a-psalter-and-prayerbook-ornamental-border-with-pea-vines-and-a-girl-kneading-br--master.tif",
+        "source_sha256": "cefeafcff30ac8fce6ee4a1b742db7a5f2b522fd9b5ebae25033bf43ef5f5ac1",
+        "source_metadata": "tmp/new-assets/cleveland/cma-1999-136-a.json",
+        "image_url": "https://openaccess-cdn.clevelandart.org/1999.136.a/1999.136.a_full.tif",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. Isolate ONLY the connected bottom-left GREEN LEAF SCROLL. Keep the entire lower-left elongated curled leaf down to its actual end, the large three-part upper leaf, the thin curved connecting branch and the FULL lower-right lobed leaf to its long pointed tip near the RIGHT edge of this expanded reference. The lower-left and lower-right leaves were clipped by earlier narrower input; this expanded ORIGINAL includes them completely. Exclude the detached little red bud and long stem high above-right (a separate entity), the neighboring blue/red/gray radial flower, and the large gray-blue flower/right-hand scroll. Keep only source-visible leaf parts where another flower overlaps them; no hidden continuation invented. Clear gold page field and printed border. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_extraction": "tmp/extraction-work/cma-1999-136-a--broad-green-leaf-scroll--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "df9250355fdd149cff0b10c080cf41b4fb6e64d51b21f55be50a90b8a09df7f0",
+        "retained_generated_size": [
+          1643,
+          957
+        ],
+        "resolution_cap_scale": 1,
+        "resolution_capped_size": [
+          1643,
+          957
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          2963,
+          1657
+        ],
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 8171
+        },
+        "native_subject_size_evidence": {
+          "method": "Individually inspected native visible subject bounds, excluding input-region whitespace and neighbours.",
+          "preview_subject_bounds": [
+            131,
+            1258,
+            578,
+            1508
+          ],
+          "preview_size": [
+            1330,
+            1600
+          ],
+          "original_size": [
+            8816,
+            10607
+          ]
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Expanded original source and white/dark cutouts reviewed. Full lower-left and lower-right green leaf tips retained; detached red bud excluded from scroll and delivered independently with full visible original horizontal stalk. Leaf loops transparent, gold paint lines and pale edges opaque. Original proportions and actual native subject caps retained.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/two-cleveland-leaf-scroll-corrected-results-proof-1.jpg"
+        ]
+      },
+      "categories": [
+        "botanical",
+        "scrollwork"
+      ],
+      "subjects": [
+        "leaf",
+        "scroll",
+        "stem"
+      ],
+      "colors": [
+        "green"
+      ],
+      "facing": "unclear",
+      "composition": "standalone",
+      "usage_notes": "Independent original botanical entity from the lower border. Expanded original input includes complete source-visible contours; no invented overlap-hidden parts. AI-assisted extraction with exact prompt, native bounds/cap and source retained.",
+      "sets": [
+        {
+          "id": "cleveland-1524-psalter-prayerbook",
+          "name": "Cleveland 1524 Psalter and Prayerbook",
+          "relation": "related Cleveland leaves with matching source title, date and painted style; individual source identities retained"
+        },
+        {
+          "id": "cma-1999-136-a-set",
+          "name": "Leaf from a Psalter and Prayerbook: Ornamental Border with Pea Vines and a Girl Kneading Bread (recto) (cma-1999-136-a)",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A broad green leaf scroll with long connecting branches and curled basal leaves.",
+      "set_label": "Cleveland 1524 Psalter and Prayerbook"
+    },
+    {
+      "id": "cma-1999-136-a--crossed-gray-blue-leaf-pair",
+      "name": "crossed-gray-blue-leaf-pair",
+      "source_id": "cma-1999-136-a",
+      "source_folder": "cleveland",
+      "asset_type": "illustration",
+      "description": "Two gray-blue leaves on a short crossed stem. Part of the Cleveland 1524 Psalter and Prayerbook set.",
+      "source_region": [
+        517,
+        4123,
+        1293,
+        5436
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        129,
+        6,
+        578,
+        1189
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 449,
+      "height": 1183,
+      "png": "cleveland/cma-1999-136-a--crossed-gray-blue-leaf-pair.png",
+      "png_sha256": "bbe2fee8f7c171565b6b3f3b8925236e89191a2750141cf2ab4fa71cbe0671f1",
+      "provenance": {
+        "institution": "Cleveland Museum of Art",
+        "title": "Leaf from a Psalter and Prayerbook: Ornamental Border with Pea Vines and a Girl Kneading Bread (recto)",
+        "object_identifier": "1999.136.a",
+        "date": "c. 1524",
+        "record_url": "https://clevelandart.org/art/1999.136.a",
+        "image_rights": "CC0; share_license_status=CC0",
+        "rights_url": "https://www.clevelandart.org/open-access",
+        "source_file": "tmp/new-assets/cleveland/cma-1999-136-a--leaf-from-a-psalter-and-prayerbook-ornamental-border-with-pea-vines-and-a-girl-kneading-br--master.tif",
+        "source_sha256": "cefeafcff30ac8fce6ee4a1b742db7a5f2b522fd9b5ebae25033bf43ef5f5ac1",
+        "source_metadata": "tmp/new-assets/cleveland/cma-1999-136-a.json",
+        "image_url": "https://openaccess-cdn.clevelandart.org/1999.136.a/1999.136.a_full.tif",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. Extract ONLY the middle-left pair of gray-blue leaves with their original short crossed stem and pale hatching. Both pointed stem ends visible, no page line/gold field. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_extraction": "tmp/extraction-work/cma-1999-136-a--crossed-gray-blue-leaf-pair--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "09def37cbedfcff2471e945b8939bcbb7e3cc33e71ace65e9844d6df926a43aa",
+        "retained_generated_size": [
+          964,
+          1631
+        ],
+        "resolution_cap_scale": 0.730287859824781,
+        "resolution_capped_size": [
+          704,
+          1191
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          656,
+          1167
+        ],
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 1917
+        },
+        "native_subject_size_evidence": {
+          "method": "Individually inspected native visible subject bounds, excluding input-region whitespace and neighbours.",
+          "preview_subject_bounds": [
+            86,
+            633,
+            185,
+            809
+          ],
+          "preview_size": [
+            1330,
+            1600
+          ],
+          "original_size": [
+            8816,
+            10607
+          ]
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Compared native source region and white/dark renders. Entire original visible fingers/feet, table/basket/cauldron props, leaf and petal tips, stems and genuine openings checked. Detached specimens delivered individually. Gray-blue flower has all original gray lobes; radial flower has all FIVE original blue curls. Source-provided floor retained only beneath the intrinsic cooking scene, never a gold/page rectangle.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/cleveland-thirteen-generated-results-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/cleveland-thirteen-generated-results-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/cleveland-thirteen-generated-results-proof-3.jpg",
+          "tmp/extraction-work/continuation-20261010/cleveland-thirteen-generated-results-proof-4.jpg"
+        ]
+      },
+      "categories": [
+        "floral"
+      ],
+      "subjects": [
+        "flower",
+        "leaf",
+        "stem"
+      ],
+      "colors": [
+        "green",
+        "blue",
+        "red"
+      ],
+      "facing": "unclear",
+      "composition": "standalone",
+      "usage_notes": "Independent original foreground or intrinsic contacting scene. AI-assisted approximation; original native region, exact prompt and visible subject resolution cap retained. Gold page field is transparent; no letter forms included.",
+      "sets": [
+        {
+          "id": "cleveland-1524-psalter-prayerbook",
+          "name": "Cleveland 1524 Psalter and Prayerbook",
+          "relation": "related Cleveland leaves with matching source title, date and painted style; individual source identities retained"
+        },
+        {
+          "id": "cma-1999-136-a-set",
+          "name": "Leaf from a Psalter and Prayerbook: Ornamental Border with Pea Vines and a Girl Kneading Bread (recto) (cma-1999-136-a)",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "Two gray-blue leaves on a short crossed stem.",
+      "set_label": "Cleveland 1524 Psalter and Prayerbook"
+    },
+    {
+      "id": "cma-1999-136-a--girl-kneading-bread-at-table-with-basket",
+      "name": "girl-kneading-bread-at-table-with-basket",
+      "source_id": "cma-1999-136-a",
+      "source_folder": "cleveland",
+      "asset_type": "illustration",
+      "description": "A girl kneading bread at a wooden table with a basket beneath it. Part of the Cleveland 1524 Psalter and Prayerbook set.",
+      "source_region": [
+        6602,
+        7776,
+        8445,
+        10037
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        11,
+        0,
+        1085,
+        1345
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 1074,
+      "height": 1345,
+      "png": "cleveland/cma-1999-136-a--girl-kneading-bread-at-table-with-basket.png",
+      "png_sha256": "a0d4c69683b50f2086cde0230537c9890f64088077782c04f3c3c17b82fe9352",
+      "provenance": {
+        "institution": "Cleveland Museum of Art",
+        "title": "Leaf from a Psalter and Prayerbook: Ornamental Border with Pea Vines and a Girl Kneading Bread (recto)",
+        "object_identifier": "1999.136.a",
+        "date": "c. 1524",
+        "record_url": "https://clevelandart.org/art/1999.136.a",
+        "image_rights": "CC0; share_license_status=CC0",
+        "rights_url": "https://www.clevelandart.org/open-access",
+        "source_file": "tmp/new-assets/cleveland/cma-1999-136-a--leaf-from-a-psalter-and-prayerbook-ornamental-border-with-pea-vines-and-a-girl-kneading-br--master.tif",
+        "source_sha256": "cefeafcff30ac8fce6ee4a1b742db7a5f2b522fd9b5ebae25033bf43ef5f5ac1",
+        "source_metadata": "tmp/new-assets/cleveland/cma-1999-136-a.json",
+        "image_url": "https://openaccess-cdn.clevelandart.org/1999.136.a/1999.136.a_full.tif",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. Isolate the complete lower-right bread-making group: girl in pale dress and blue head covering, one original raised hand with the BROWN short item above her head, the other hand and white dough touching the wooden table, all table legs, brown wicker basket under it and both shoes. Keep these contacting props together. Remove gold field, nearby pea leaves, page outline, and flat green painted floor; clear actual openings under the table and between legs. No hidden fingers/extra toes invented. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_extraction": "tmp/extraction-work/cma-1999-136-a--girl-kneading-bread-at-table-with-basket--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "66f0eda540c1213e6d9c42798437a78b149ce6bc354d8f5973821305617c5e6a",
+        "retained_generated_size": [
+          1132,
+          1389
+        ],
+        "resolution_cap_scale": 1,
+        "resolution_capped_size": [
+          1132,
+          1389
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          1737,
+          2174
+        ],
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 13399
+        },
+        "native_subject_size_evidence": {
+          "method": "Individually inspected native visible subject bounds, excluding input-region whitespace and neighbours.",
+          "preview_subject_bounds": [
+            1001,
+            1180,
+            1263,
+            1508
+          ],
+          "preview_size": [
+            1330,
+            1600
+          ],
+          "original_size": [
+            8816,
+            10607
+          ]
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Compared native source region and white/dark renders. Entire original visible fingers/feet, table/basket/cauldron props, leaf and petal tips, stems and genuine openings checked. Detached specimens delivered individually. Gray-blue flower has all original gray lobes; radial flower has all FIVE original blue curls. Source-provided floor retained only beneath the intrinsic cooking scene, never a gold/page rectangle.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/cleveland-thirteen-generated-results-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/cleveland-thirteen-generated-results-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/cleveland-thirteen-generated-results-proof-3.jpg",
+          "tmp/extraction-work/continuation-20261010/cleveland-thirteen-generated-results-proof-4.jpg"
+        ]
+      },
+      "categories": [
+        "humans"
+      ],
+      "subjects": [
+        "girl",
+        "bread",
+        "table",
+        "basket"
+      ],
+      "colors": [
+        "cream",
+        "blue",
+        "brown"
+      ],
+      "facing": "left",
+      "composition": "multiple-figures",
+      "usage_notes": "Independent original foreground or intrinsic contacting scene. AI-assisted approximation; original native region, exact prompt and visible subject resolution cap retained. Gold page field is transparent; no letter forms included.",
+      "sets": [
+        {
+          "id": "cleveland-1524-psalter-prayerbook",
+          "name": "Cleveland 1524 Psalter and Prayerbook",
+          "relation": "related Cleveland leaves with matching source title, date and painted style; individual source identities retained"
+        },
+        {
+          "id": "cma-1999-136-a-set",
+          "name": "Leaf from a Psalter and Prayerbook: Ornamental Border with Pea Vines and a Girl Kneading Bread (recto) (cma-1999-136-a)",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A girl kneading bread at a wooden table with a basket beneath it.",
+      "set_label": "Cleveland 1524 Psalter and Prayerbook"
+    },
+    {
+      "id": "cma-1999-136-a--gold-curled-leaf-vine-from-initial",
+      "name": "gold-curled-leaf-vine-from-initial",
+      "source_id": "cma-1999-136-a",
+      "source_folder": "cleveland",
+      "asset_type": "decoration",
+      "description": "Thin gold S-curled vine with a small trefoil and curled side leaves. Part of the Cleveland 1524 Psalter and Prayerbook set.",
+      "source_region": [
+        1445,
+        4946,
+        2008,
+        5642
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        60,
+        6,
+        548,
+        686
+      ],
+      "export_crop_coordinate_space": "original-native-source-region",
+      "width": 488,
+      "height": 680,
+      "png": "cleveland/cma-1999-136-a--gold-curled-leaf-vine-from-initial.png",
+      "png_sha256": "2ffa29630eb881b7f2956d1fdc07b9763d5221c22d0948a23805d686e69b14ec",
+      "provenance": {
+        "institution": "Cleveland Museum of Art",
+        "title": "Leaf from a Psalter and Prayerbook: Ornamental Border with Pea Vines and a Girl Kneading Bread (recto)",
+        "object_identifier": "1999.136.a",
+        "date": "c. 1524",
+        "record_url": "https://clevelandart.org/art/1999.136.a",
+        "image_rights": "CC0; share_license_status=CC0",
+        "rights_url": "https://www.clevelandart.org/open-access",
+        "source_file": "tmp/new-assets/cleveland/cma-1999-136-a--leaf-from-a-psalter-and-prayerbook-ornamental-border-with-pea-vines-and-a-girl-kneading-br--master.tif",
+        "source_sha256": "cefeafcff30ac8fce6ee4a1b742db7a5f2b522fd9b5ebae25033bf43ef5f5ac1",
+        "source_metadata": "tmp/new-assets/cleveland/cma-1999-136-a.json",
+        "image_url": "https://openaccess-cdn.clevelandart.org/1999.136.a/1999.136.a_full.tif",
+        "method": "native-source-continuous-edge-matting"
+      },
+      "extraction": {
+        "candidate_png": "tmp/extraction-work/continuation-20261010/cma-1999-136-a--gold-curled-leaf-vine-from-initial--registered-native-candidate.png",
+        "native_export_crop": [
+          60,
+          6,
+          548,
+          686
+        ],
+        "export_crop_coordinate_space": "original-native-source-region",
+        "annotation_json": "tmp/extraction-work/continuation-20261010/cma-1999-136-a--gold-curled-leaf-vine-from-initial--registered-native-annotation.json",
+        "trimap_png": "tmp/extraction-work/continuation-20261010/cma-1999-136-a--gold-curled-leaf-vine-from-initial--registered-native-trimap.png",
+        "native_source_size": [
+          563,
+          696
+        ],
+        "native_upscaling": false,
+        "source_pixels_redrawn": false,
+        "original_opaque_rgb_preserved": true,
+        "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+        "alpha_guide": {
+          "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+          "guide_png": "tmp/extraction-work/continuation-20261010/cma-1999-136-a--gold-curled-leaf-vine-from-initial--native-alpha-reference.png",
+          "guide_sha256": "22d2777fb66cee6322208e1654178f94465c637fe9fad7e87433f3bfa029d121",
+          "native_original": "tmp/extraction-work/continuation-20261010/cma-1999-136-a--gold-curled-leaf-vine-from-initial--original.png",
+          "similarity_ai_alpha_to_original": [
+            [
+              0.5014134901191519,
+              0.009428952188590592,
+              -4.243042922890864
+            ],
+            [
+              -0.009428952188590592,
+              0.5014134901191519,
+              3.4420555176725265
+            ]
+          ],
+          "matching_feature_pairs": 26,
+          "inlier_feature_pairs": 9,
+          "inlier_rms_native_pixels": 2.042210108725253,
+          "source_inspection_factor": 1,
+          "unknown_edge_band_native_pixels": 3,
+          "edge_solve_tile_size": 640,
+          "edge_solve_halo": 32,
+          "edge_solve_tiles": 2,
+          "original_opaque_rgb_preserved": true
+        },
+        "status": "awaiting-original-white-dark-review",
+        "tool": "Original native scan / closed-form edge alpha and foreground decontamination",
+        "pixel_exact": false,
+        "ownership_guide_prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. Extract only the thin gold plant decoration inside the letter D: the central curling vine with its small trefoil and side leaf curls. Do not keep any of the broad gold D letter strokes, straight square border or orange page panel. Clear all orange background and real openings. Keep the source-visible vine stem ending at its original contact with the letter baseline; do not extend it. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_ownership_guide": {
+          "file": "tmp/extraction-work/cma-1999-136-a--gold-curled-leaf-vine-from-initial--retained-ai-extraction.png",
+          "sha256": "22d2777fb66cee6322208e1654178f94465c637fe9fad7e87433f3bfa029d121",
+          "purpose": "Retained AI alpha guide only; delivered opaque RGB belongs to the unchanged native source."
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Untouched native source, complete white/dark comparisons and actual native detail inspected. Original proportions and opaque source color retained. The six-pod vine includes the smaller right-hand folded leaf/tendril; the initial vine excludes its letter; the full garden panel keeps its intrinsic shared painting and actual red border while exterior gilt page is removed. No raster upscaling or generic redraw.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/finish-six-native-review-current-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/finish-six-native-review-current-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/six-pod-native-upper-final.png",
+          "tmp/extraction-work/continuation-20261010/six-pod-native-tendril-final.png",
+          "tmp/extraction-work/continuation-20261010/gold-vine-native-full-final.png",
+          "tmp/extraction-work/continuation-20261010/garden-final-native-four-corners-source-dark.png"
+        ]
+      },
+      "categories": [
+        "floral",
+        "scrollwork"
+      ],
+      "subjects": [
+        "vine",
+        "leaf",
+        "trefoil",
+        "curl"
+      ],
+      "colors": [
+        "gold"
+      ],
+      "facing": "unclear",
+      "composition": "standalone",
+      "usage_notes": "Original independent specimen with printed plate rules and page removed. AI-assisted extraction remains approximate; source bounds, actual native subject cap, original and exact prompt retained.",
+      "sets": [
+        {
+          "id": "cleveland-1524-psalter-prayerbook",
+          "name": "Cleveland 1524 Psalter and Prayerbook",
+          "relation": "related Cleveland leaves with matching source title, date and painted style; individual source identities retained"
+        },
+        {
+          "id": "cma-1999-136-a-set",
+          "name": "Leaf from a Psalter and Prayerbook: Ornamental Border with Pea Vines and a Girl Kneading Bread (recto) (cma-1999-136-a)",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "Thin gold S-curled vine with a small trefoil and curled side leaves.",
+      "set_label": "Cleveland 1524 Psalter and Prayerbook"
+    },
+    {
+      "id": "cma-1999-136-a--gray-blue-flower-with-red-center-and-green-leaf-scroll",
+      "name": "gray-blue-flower-with-red-center-and-green-leaf-scroll",
+      "source_id": "cma-1999-136-a",
+      "source_folder": "cleveland",
+      "asset_type": "illustration",
+      "description": "A gray-blue flower with red center, large green leaf scroll and small basal red bud. Part of the Cleveland 1524 Psalter and Prayerbook set.",
+      "source_region": [
+        3798,
+        8022,
+        6768,
+        9851
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        1,
+        9,
+        1596,
+        963
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 1595,
+      "height": 954,
+      "png": "cleveland/cma-1999-136-a--gray-blue-flower-with-red-center-and-green-leaf-scroll.png",
+      "png_sha256": "561cf97d491021a0f86df5aa3221feb6c90ce4b460b1bd4e4c4c7ae3ee636e73",
+      "provenance": {
+        "institution": "Cleveland Museum of Art",
+        "title": "Leaf from a Psalter and Prayerbook: Ornamental Border with Pea Vines and a Girl Kneading Bread (recto)",
+        "object_identifier": "1999.136.a",
+        "date": "c. 1524",
+        "record_url": "https://clevelandart.org/art/1999.136.a",
+        "image_rights": "CC0; share_license_status=CC0",
+        "rights_url": "https://www.clevelandart.org/open-access",
+        "source_file": "tmp/new-assets/cleveland/cma-1999-136-a--leaf-from-a-psalter-and-prayerbook-ornamental-border-with-pea-vines-and-a-girl-kneading-br--master.tif",
+        "source_sha256": "cefeafcff30ac8fce6ee4a1b742db7a5f2b522fd9b5ebae25033bf43ef5f5ac1",
+        "source_metadata": "tmp/new-assets/cleveland/cma-1999-136-a.json",
+        "image_url": "https://openaccess-cdn.clevelandart.org/1999.136.a/1999.136.a_full.tif",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. Extract ONLY the connected lower-right gray-blue three-petalled flower with its RED center, whole large GREEN curled leaf and long diagonal green branch extending down-left, including original small green basal node and attached small red bud. Retain all thin stems to their actual ends. Exclude the girl, nearby detached multicolor flower and small detached upright red bud. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_extraction": "tmp/extraction-work/cma-1999-136-a--gray-blue-flower-with-red-center-and-green-leaf-scroll--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "cd34886275bbc2b53ed38341a935280e97314d70ab8e731e21ba39b136e9812c",
+        "retained_generated_size": [
+          1598,
+          984
+        ],
+        "resolution_cap_scale": 1,
+        "resolution_capped_size": [
+          1598,
+          984
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          2850,
+          1710
+        ],
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 7296
+        },
+        "native_subject_size_evidence": {
+          "method": "Individually inspected native visible subject bounds, excluding input-region whitespace and neighbours.",
+          "preview_subject_bounds": [
+            583,
+            1222,
+            1013,
+            1480
+          ],
+          "preview_size": [
+            1330,
+            1600
+          ],
+          "original_size": [
+            8816,
+            10607
+          ]
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Compared native source region and white/dark renders. Entire original visible fingers/feet, table/basket/cauldron props, leaf and petal tips, stems and genuine openings checked. Detached specimens delivered individually. Gray-blue flower has all original gray lobes; radial flower has all FIVE original blue curls. Source-provided floor retained only beneath the intrinsic cooking scene, never a gold/page rectangle.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/cleveland-thirteen-generated-results-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/cleveland-thirteen-generated-results-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/cleveland-thirteen-generated-results-proof-3.jpg",
+          "tmp/extraction-work/continuation-20261010/cleveland-thirteen-generated-results-proof-4.jpg"
+        ]
+      },
+      "categories": [
+        "floral"
+      ],
+      "subjects": [
+        "flower",
+        "leaf",
+        "stem"
+      ],
+      "colors": [
+        "green",
+        "blue",
+        "red"
+      ],
+      "facing": "unclear",
+      "composition": "standalone",
+      "usage_notes": "Independent original foreground or intrinsic contacting scene. AI-assisted approximation; original native region, exact prompt and visible subject resolution cap retained. Gold page field is transparent; no letter forms included.",
+      "sets": [
+        {
+          "id": "cleveland-1524-psalter-prayerbook",
+          "name": "Cleveland 1524 Psalter and Prayerbook",
+          "relation": "related Cleveland leaves with matching source title, date and painted style; individual source identities retained"
+        },
+        {
+          "id": "cma-1999-136-a-set",
+          "name": "Leaf from a Psalter and Prayerbook: Ornamental Border with Pea Vines and a Girl Kneading Bread (recto) (cma-1999-136-a)",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A gray-blue flower with red center, large green leaf scroll and small basal red bud.",
+      "set_label": "Cleveland 1524 Psalter and Prayerbook"
+    },
+    {
+      "id": "cma-1999-136-a--horizontal-pea-pod-with-two-leaves",
+      "name": "horizontal-pea-pod-with-two-leaves",
+      "source_id": "cma-1999-136-a",
+      "source_folder": "cleveland",
+      "asset_type": "illustration",
+      "description": "A horizontal green pea pod with a curving stem and two broad leaves. Part of the Cleveland 1524 Psalter and Prayerbook set.",
+      "source_region": [
+        603,
+        159,
+        3175,
+        882
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        34,
+        79,
+        2132,
+        677
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 2098,
+      "height": 598,
+      "png": "cleveland/cma-1999-136-a--horizontal-pea-pod-with-two-leaves.png",
+      "png_sha256": "2575ca3f348eb3d361dca8caaf890994610e533a01c67a233fe681735fb35b94",
+      "provenance": {
+        "institution": "Cleveland Museum of Art",
+        "title": "Leaf from a Psalter and Prayerbook: Ornamental Border with Pea Vines and a Girl Kneading Bread (recto)",
+        "object_identifier": "1999.136.a",
+        "date": "c. 1524",
+        "record_url": "https://clevelandart.org/art/1999.136.a",
+        "image_rights": "CC0; share_license_status=CC0",
+        "rights_url": "https://www.clevelandart.org/open-access",
+        "source_file": "tmp/new-assets/cleveland/cma-1999-136-a--leaf-from-a-psalter-and-prayerbook-ornamental-border-with-pea-vines-and-a-girl-kneading-br--master.tif",
+        "source_sha256": "cefeafcff30ac8fce6ee4a1b742db7a5f2b522fd9b5ebae25033bf43ef5f5ac1",
+        "source_metadata": "tmp/new-assets/cleveland/cma-1999-136-a.json",
+        "image_url": "https://openaccess-cdn.clevelandart.org/1999.136.a/1999.136.a_full.tif",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. Extract ONLY the upper-left horizontal pea pod with its entire curving stem and both broad green leaves. Retain all original pea circles and fine pale hatching. No gold field, black page outlines, text or neighboring specimens. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_extraction": "tmp/extraction-work/cma-1999-136-a--horizontal-pea-pod-with-two-leaves--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "4d33df35d3c7f66f3fb7980dff28ab03633796960041d20f38980976ff2aeb73",
+        "retained_generated_size": [
+          2170,
+          725
+        ],
+        "resolution_cap_scale": 1,
+        "resolution_capped_size": [
+          2170,
+          725
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          2433,
+          643
+        ],
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 6362
+        },
+        "native_subject_size_evidence": {
+          "method": "Individually inspected native visible subject bounds, excluding input-region whitespace and neighbours.",
+          "preview_subject_bounds": [
+            101,
+            29,
+            468,
+            126
+          ],
+          "preview_size": [
+            1330,
+            1600
+          ],
+          "original_size": [
+            8816,
+            10607
+          ]
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Compared native source region and white/dark renders. Entire original visible fingers/feet, table/basket/cauldron props, leaf and petal tips, stems and genuine openings checked. Detached specimens delivered individually. Gray-blue flower has all original gray lobes; radial flower has all FIVE original blue curls. Source-provided floor retained only beneath the intrinsic cooking scene, never a gold/page rectangle.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/cleveland-thirteen-generated-results-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/cleveland-thirteen-generated-results-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/cleveland-thirteen-generated-results-proof-3.jpg",
+          "tmp/extraction-work/continuation-20261010/cleveland-thirteen-generated-results-proof-4.jpg"
+        ]
+      },
+      "categories": [
+        "floral"
+      ],
+      "subjects": [
+        "flower",
+        "leaf",
+        "stem"
+      ],
+      "colors": [
+        "green",
+        "blue",
+        "red"
+      ],
+      "facing": "unclear",
+      "composition": "standalone",
+      "usage_notes": "Independent original foreground or intrinsic contacting scene. AI-assisted approximation; original native region, exact prompt and visible subject resolution cap retained. Gold page field is transparent; no letter forms included.",
+      "sets": [
+        {
+          "id": "cleveland-1524-psalter-prayerbook",
+          "name": "Cleveland 1524 Psalter and Prayerbook",
+          "relation": "related Cleveland leaves with matching source title, date and painted style; individual source identities retained"
+        },
+        {
+          "id": "cma-1999-136-a-set",
+          "name": "Leaf from a Psalter and Prayerbook: Ornamental Border with Pea Vines and a Girl Kneading Bread (recto) (cma-1999-136-a)",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A horizontal green pea pod with a curving stem and two broad leaves.",
+      "set_label": "Cleveland 1524 Psalter and Prayerbook"
+    },
+    {
+      "id": "cma-1999-136-a--pink-and-blue-upright-flower-on-curving-stem",
+      "name": "pink-and-blue-upright-flower-on-curving-stem",
+      "source_id": "cma-1999-136-a",
+      "source_folder": "cleveland",
+      "asset_type": "illustration",
+      "description": "An upright pink and blue flower on a curved green stem with two leaves. Part of the Cleveland 1524 Psalter and Prayerbook set.",
+      "source_region": [
+        484,
+        2194,
+        1286,
+        4183
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        45,
+        9,
+        731,
+        1881
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 686,
+      "height": 1872,
+      "png": "cleveland/cma-1999-136-a--pink-and-blue-upright-flower-on-curving-stem.png",
+      "png_sha256": "c75b9988a4acbad6670baf373de2e167406accea2f0482bc4c917192541363ed",
+      "provenance": {
+        "institution": "Cleveland Museum of Art",
+        "title": "Leaf from a Psalter and Prayerbook: Ornamental Border with Pea Vines and a Girl Kneading Bread (recto)",
+        "object_identifier": "1999.136.a",
+        "date": "c. 1524",
+        "record_url": "https://clevelandart.org/art/1999.136.a",
+        "image_rights": "CC0; share_license_status=CC0",
+        "rights_url": "https://www.clevelandart.org/open-access",
+        "source_file": "tmp/new-assets/cleveland/cma-1999-136-a--leaf-from-a-psalter-and-prayerbook-ornamental-border-with-pea-vines-and-a-girl-kneading-br--master.tif",
+        "source_sha256": "cefeafcff30ac8fce6ee4a1b742db7a5f2b522fd9b5ebae25033bf43ef5f5ac1",
+        "source_metadata": "tmp/new-assets/cleveland/cma-1999-136-a.json",
+        "image_url": "https://openaccess-cdn.clevelandart.org/1999.136.a/1999.136.a_full.tif",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. Extract ONLY the left-margin PINK/BLUE upright flower and its original connected curved stem with both GREEN leaves, complete lower pointed end. The upper separate green leaf pair and lower gray leaf pair are unrelated and excluded. Gold field removed. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_extraction": "tmp/extraction-work/cma-1999-136-a--pink-and-blue-upright-flower-on-curving-stem--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "1fa7d498720c6e9e945c88071a75fddf9e8238f46df29db2c65a167b84ad6f8b",
+        "retained_generated_size": [
+          796,
+          1975
+        ],
+        "resolution_cap_scale": 0.9571944301186178,
+        "resolution_capped_size": [
+          762,
+          1890
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          703,
+          1856
+        ],
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 9064
+        },
+        "native_subject_size_evidence": {
+          "method": "Individually inspected native visible subject bounds, excluding input-region whitespace and neighbours.",
+          "preview_subject_bounds": [
+            80,
+            342,
+            186,
+            622
+          ],
+          "preview_size": [
+            1330,
+            1600
+          ],
+          "original_size": [
+            8816,
+            10607
+          ]
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Compared native source region and white/dark renders. Entire original visible fingers/feet, table/basket/cauldron props, leaf and petal tips, stems and genuine openings checked. Detached specimens delivered individually. Gray-blue flower has all original gray lobes; radial flower has all FIVE original blue curls. Source-provided floor retained only beneath the intrinsic cooking scene, never a gold/page rectangle.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/cleveland-thirteen-generated-results-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/cleveland-thirteen-generated-results-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/cleveland-thirteen-generated-results-proof-3.jpg",
+          "tmp/extraction-work/continuation-20261010/cleveland-thirteen-generated-results-proof-4.jpg"
+        ]
+      },
+      "categories": [
+        "floral"
+      ],
+      "subjects": [
+        "flower",
+        "leaf",
+        "stem"
+      ],
+      "colors": [
+        "green",
+        "blue",
+        "red"
+      ],
+      "facing": "unclear",
+      "composition": "standalone",
+      "usage_notes": "Independent original foreground or intrinsic contacting scene. AI-assisted approximation; original native region, exact prompt and visible subject resolution cap retained. Gold page field is transparent; no letter forms included.",
+      "sets": [
+        {
+          "id": "cleveland-1524-psalter-prayerbook",
+          "name": "Cleveland 1524 Psalter and Prayerbook",
+          "relation": "related Cleveland leaves with matching source title, date and painted style; individual source identities retained"
+        },
+        {
+          "id": "cma-1999-136-a-set",
+          "name": "Leaf from a Psalter and Prayerbook: Ornamental Border with Pea Vines and a Girl Kneading Bread (recto) (cma-1999-136-a)",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "An upright pink and blue flower on a curved green stem with two leaves.",
+      "set_label": "Cleveland 1524 Psalter and Prayerbook"
+    },
+    {
+      "id": "cma-1999-136-a--pointed-blue-red-flower-with-long-green-stem",
+      "name": "pointed-blue-red-flower-with-long-green-stem",
+      "source_id": "cma-1999-136-a",
+      "source_folder": "cleveland",
+      "asset_type": "illustration",
+      "description": "A pointed blue and red flower on a long green stem with two lower leaves. Part of the Cleveland 1524 Psalter and Prayerbook set.",
+      "source_region": [
+        491,
+        5536,
+        1372,
+        8380
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        95,
+        71,
+        600,
+        2149
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 505,
+      "height": 2078,
+      "png": "cleveland/cma-1999-136-a--pointed-blue-red-flower-with-long-green-stem.png",
+      "png_sha256": "6b3c440fe88811acb2ecbc8dd44e76bceae9bde9e813562e07140b70899afa06",
+      "provenance": {
+        "institution": "Cleveland Museum of Art",
+        "title": "Leaf from a Psalter and Prayerbook: Ornamental Border with Pea Vines and a Girl Kneading Bread (recto)",
+        "object_identifier": "1999.136.a",
+        "date": "c. 1524",
+        "record_url": "https://clevelandart.org/art/1999.136.a",
+        "image_rights": "CC0; share_license_status=CC0",
+        "rights_url": "https://www.clevelandart.org/open-access",
+        "source_file": "tmp/new-assets/cleveland/cma-1999-136-a--leaf-from-a-psalter-and-prayerbook-ornamental-border-with-pea-vines-and-a-girl-kneading-br--master.tif",
+        "source_sha256": "cefeafcff30ac8fce6ee4a1b742db7a5f2b522fd9b5ebae25033bf43ef5f5ac1",
+        "source_metadata": "tmp/new-assets/cleveland/cma-1999-136-a.json",
+        "image_url": "https://openaccess-cdn.clevelandart.org/1999.136.a/1999.136.a_full.tif",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. Extract ONLY the lower-left tall blue/red pointed flower, its FULL long curved stem all the way down, both lower green leaves and the original red petal lobes. Do not shorten stalk or erase red/blue parts. Exclude the gray leaf pair above and the neighboring letter/text. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_extraction": "tmp/extraction-work/cma-1999-136-a--pointed-blue-red-flower-with-long-green-stem--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "770fc1cea7f5fa7eedf6706d084f5bbd603df1a56ad3c38ff0757024ab0dad9d",
+        "retained_generated_size": [
+          724,
+          2172
+        ],
+        "resolution_cap_scale": 1,
+        "resolution_capped_size": [
+          724,
+          2172
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          762,
+          2705
+        ],
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 7324
+        },
+        "native_subject_size_evidence": {
+          "method": "Individually inspected native visible subject bounds, excluding input-region whitespace and neighbours.",
+          "preview_subject_bounds": [
+            82,
+            849,
+            197,
+            1257
+          ],
+          "preview_size": [
+            1330,
+            1600
+          ],
+          "original_size": [
+            8816,
+            10607
+          ]
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Compared native source region and white/dark renders. Entire original visible fingers/feet, table/basket/cauldron props, leaf and petal tips, stems and genuine openings checked. Detached specimens delivered individually. Gray-blue flower has all original gray lobes; radial flower has all FIVE original blue curls. Source-provided floor retained only beneath the intrinsic cooking scene, never a gold/page rectangle.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/cleveland-thirteen-generated-results-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/cleveland-thirteen-generated-results-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/cleveland-thirteen-generated-results-proof-3.jpg",
+          "tmp/extraction-work/continuation-20261010/cleveland-thirteen-generated-results-proof-4.jpg"
+        ]
+      },
+      "categories": [
+        "floral"
+      ],
+      "subjects": [
+        "flower",
+        "leaf",
+        "stem"
+      ],
+      "colors": [
+        "green",
+        "blue",
+        "red"
+      ],
+      "facing": "unclear",
+      "composition": "standalone",
+      "usage_notes": "Independent original foreground or intrinsic contacting scene. AI-assisted approximation; original native region, exact prompt and visible subject resolution cap retained. Gold page field is transparent; no letter forms included.",
+      "sets": [
+        {
+          "id": "cleveland-1524-psalter-prayerbook",
+          "name": "Cleveland 1524 Psalter and Prayerbook",
+          "relation": "related Cleveland leaves with matching source title, date and painted style; individual source identities retained"
+        },
+        {
+          "id": "cma-1999-136-a-set",
+          "name": "Leaf from a Psalter and Prayerbook: Ornamental Border with Pea Vines and a Girl Kneading Bread (recto) (cma-1999-136-a)",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A pointed blue and red flower on a long green stem with two lower leaves.",
+      "set_label": "Cleveland 1524 Psalter and Prayerbook"
+    },
+    {
+      "id": "cma-1999-136-a--small-red-bud-on-long-horizontal-stem",
+      "name": "small-red-bud-on-long-horizontal-stem",
+      "source_id": "cma-1999-136-a",
+      "source_folder": "cleveland",
+      "asset_type": "illustration",
+      "description": "A small hanging red bud on a long curved horizontal green stem. Part of the Cleveland 1524 Psalter and Prayerbook set.",
+      "source_region": [
+        2154,
+        8174,
+        3407,
+        9023
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        49,
+        123,
+        1192,
+        724
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 1143,
+      "height": 601,
+      "png": "cleveland/cma-1999-136-a--small-red-bud-on-long-horizontal-stem.png",
+      "png_sha256": "fb18fef5f9005898e71bd655685efa827dd253b3d7f1707818bdd0afc07fbee7",
+      "provenance": {
+        "institution": "Cleveland Museum of Art",
+        "title": "Leaf from a Psalter and Prayerbook: Ornamental Border with Pea Vines and a Girl Kneading Bread (recto)",
+        "object_identifier": "1999.136.a",
+        "date": "c. 1524",
+        "record_url": "https://clevelandart.org/art/1999.136.a",
+        "image_rights": "CC0; share_license_status=CC0",
+        "rights_url": "https://www.clevelandart.org/open-access",
+        "source_file": "tmp/new-assets/cleveland/cma-1999-136-a--leaf-from-a-psalter-and-prayerbook-ornamental-border-with-pea-vines-and-a-girl-kneading-br--master.tif",
+        "source_sha256": "cefeafcff30ac8fce6ee4a1b742db7a5f2b522fd9b5ebae25033bf43ef5f5ac1",
+        "source_metadata": "tmp/new-assets/cleveland/cma-1999-136-a.json",
+        "image_url": "https://openaccess-cdn.clevelandart.org/1999.136.a/1999.136.a_full.tif",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. Extract ONLY the little hanging RED BUD at the lower-left border above the large green leaf scroll, including its complete long thin horizontal curving green stalk extending up-right to the original tip, its green curled sepals and fine gold stripes. This specimen is detached from the broad green leaf scroll beneath it; do not join them. Remove all neighboring leaves and radial flower; clear gold field and keep only original visible parts. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_extraction": "tmp/extraction-work/cma-1999-136-a--small-red-bud-on-long-horizontal-stem--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "ede4fab2c6513305fe895280087943f9d787bc2dd862a37686db3a7248d89d50",
+        "retained_generated_size": [
+          1525,
+          1031
+        ],
+        "resolution_cap_scale": 0.793661971830986,
+        "resolution_capped_size": [
+          1210,
+          818
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          1127,
+          689
+        ],
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 3160
+        },
+        "native_subject_size_evidence": {
+          "method": "Individually inspected native visible subject bounds, excluding input-region whitespace and neighbours.",
+          "preview_subject_bounds": [
+            337,
+            1244,
+            507,
+            1348
+          ],
+          "preview_size": [
+            1330,
+            1600
+          ],
+          "original_size": [
+            8816,
+            10607
+          ]
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Expanded original source and white/dark cutouts reviewed. Full lower-left and lower-right green leaf tips retained; detached red bud excluded from scroll and delivered independently with full visible original horizontal stalk. Leaf loops transparent, gold paint lines and pale edges opaque. Original proportions and actual native subject caps retained.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/two-cleveland-leaf-scroll-corrected-results-proof-1.jpg"
+        ]
+      },
+      "categories": [
+        "botanical",
+        "floral"
+      ],
+      "subjects": [
+        "bud",
+        "stem"
+      ],
+      "colors": [
+        "red",
+        "green",
+        "gold"
+      ],
+      "facing": "unclear",
+      "composition": "standalone",
+      "usage_notes": "Independent original botanical entity from the lower border. Expanded original input includes complete source-visible contours; no invented overlap-hidden parts. AI-assisted extraction with exact prompt, native bounds/cap and source retained.",
+      "sets": [
+        {
+          "id": "cleveland-1524-psalter-prayerbook",
+          "name": "Cleveland 1524 Psalter and Prayerbook",
+          "relation": "related Cleveland leaves with matching source title, date and painted style; individual source identities retained"
+        },
+        {
+          "id": "cma-1999-136-a-set",
+          "name": "Leaf from a Psalter and Prayerbook: Ornamental Border with Pea Vines and a Girl Kneading Bread (recto) (cma-1999-136-a)",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A small hanging red bud on a long curved horizontal green stem.",
+      "set_label": "Cleveland 1524 Psalter and Prayerbook"
+    },
+    {
+      "id": "cma-1999-136-a--small-upright-red-bud-with-long-stem",
+      "name": "small-upright-red-bud-with-long-stem",
+      "source_id": "cma-1999-136-a",
+      "source_folder": "cleveland",
+      "asset_type": "illustration",
+      "description": "A small upright red bud with green sepals and a long pointed stem. Part of the Cleveland 1524 Psalter and Prayerbook set.",
+      "source_region": [
+        4282,
+        8134,
+        4892,
+        9414
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        71,
+        25,
+        496,
+        1188
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 425,
+      "height": 1163,
+      "png": "cleveland/cma-1999-136-a--small-upright-red-bud-with-long-stem.png",
+      "png_sha256": "18708789b7d87c79002f41a4d51d18cd5a91418d6a8998b429b0663e48f7ce99",
+      "provenance": {
+        "institution": "Cleveland Museum of Art",
+        "title": "Leaf from a Psalter and Prayerbook: Ornamental Border with Pea Vines and a Girl Kneading Bread (recto)",
+        "object_identifier": "1999.136.a",
+        "date": "c. 1524",
+        "record_url": "https://clevelandart.org/art/1999.136.a",
+        "image_rights": "CC0; share_license_status=CC0",
+        "rights_url": "https://www.clevelandart.org/open-access",
+        "source_file": "tmp/new-assets/cleveland/cma-1999-136-a--leaf-from-a-psalter-and-prayerbook-ornamental-border-with-pea-vines-and-a-girl-kneading-br--master.tif",
+        "source_sha256": "cefeafcff30ac8fce6ee4a1b742db7a5f2b522fd9b5ebae25033bf43ef5f5ac1",
+        "source_metadata": "tmp/new-assets/cleveland/cma-1999-136-a.json",
+        "image_url": "https://openaccess-cdn.clevelandart.org/1999.136.a/1999.136.a_full.tif",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. Extract ONLY the small detached red bud between the two large lower ornaments. Keep complete green sepals, central green coiled node and full original long pointed stem. No neighboring large flower or gold field. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_extraction": "tmp/extraction-work/cma-1999-136-a--small-upright-red-bud-with-long-stem--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "c70e545f6b2326cdaf236e15db14aee64fbcee66b9b4448b9408537b591b077f",
+        "retained_generated_size": [
+          866,
+          1816
+        ],
+        "resolution_cap_scale": 0.6758986446670595,
+        "resolution_capped_size": [
+          585,
+          1227
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          471,
+          1147
+        ],
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 892
+        },
+        "native_subject_size_evidence": {
+          "method": "Individually inspected native visible subject bounds, excluding input-region whitespace and neighbours.",
+          "preview_subject_bounds": [
+            659,
+            1238,
+            730,
+            1411
+          ],
+          "preview_size": [
+            1330,
+            1600
+          ],
+          "original_size": [
+            8816,
+            10607
+          ]
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Compared native source region and white/dark renders. Entire original visible fingers/feet, table/basket/cauldron props, leaf and petal tips, stems and genuine openings checked. Detached specimens delivered individually. Gray-blue flower has all original gray lobes; radial flower has all FIVE original blue curls. Source-provided floor retained only beneath the intrinsic cooking scene, never a gold/page rectangle.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/cleveland-thirteen-generated-results-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/cleveland-thirteen-generated-results-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/cleveland-thirteen-generated-results-proof-3.jpg",
+          "tmp/extraction-work/continuation-20261010/cleveland-thirteen-generated-results-proof-4.jpg"
+        ]
+      },
+      "categories": [
+        "floral"
+      ],
+      "subjects": [
+        "flower",
+        "leaf",
+        "stem"
+      ],
+      "colors": [
+        "green",
+        "blue",
+        "red"
+      ],
+      "facing": "unclear",
+      "composition": "standalone",
+      "usage_notes": "Independent original foreground or intrinsic contacting scene. AI-assisted approximation; original native region, exact prompt and visible subject resolution cap retained. Gold page field is transparent; no letter forms included.",
+      "sets": [
+        {
+          "id": "cleveland-1524-psalter-prayerbook",
+          "name": "Cleveland 1524 Psalter and Prayerbook",
+          "relation": "related Cleveland leaves with matching source title, date and painted style; individual source identities retained"
+        },
+        {
+          "id": "cma-1999-136-a-set",
+          "name": "Leaf from a Psalter and Prayerbook: Ornamental Border with Pea Vines and a Girl Kneading Bread (recto) (cma-1999-136-a)",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A small upright red bud with green sepals and a long pointed stem.",
+      "set_label": "Cleveland 1524 Psalter and Prayerbook"
+    },
+    {
+      "id": "cma-1999-136-a--upper-left-paired-green-leaves",
+      "name": "upper-left-paired-green-leaves",
+      "source_id": "cma-1999-136-a",
+      "source_folder": "cleveland",
+      "asset_type": "illustration",
+      "description": "A short green stem carrying two opposite veined leaves. Part of the Cleveland 1524 Psalter and Prayerbook set.",
+      "source_region": [
+        484,
+        868,
+        1226,
+        2214
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        227,
+        5,
+        822,
+        1234
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 595,
+      "height": 1229,
+      "png": "cleveland/cma-1999-136-a--upper-left-paired-green-leaves.png",
+      "png_sha256": "a472b02f6f653dda8c650105bc72eee0d37bfca727acc6a8c54201f88b4b4032",
+      "provenance": {
+        "institution": "Cleveland Museum of Art",
+        "title": "Leaf from a Psalter and Prayerbook: Ornamental Border with Pea Vines and a Girl Kneading Bread (recto)",
+        "object_identifier": "1999.136.a",
+        "date": "c. 1524",
+        "record_url": "https://clevelandart.org/art/1999.136.a",
+        "image_rights": "CC0; share_license_status=CC0",
+        "rights_url": "https://www.clevelandart.org/open-access",
+        "source_file": "tmp/new-assets/cleveland/cma-1999-136-a--leaf-from-a-psalter-and-prayerbook-ornamental-border-with-pea-vines-and-a-girl-kneading-br--master.tif",
+        "source_sha256": "cefeafcff30ac8fce6ee4a1b742db7a5f2b522fd9b5ebae25033bf43ef5f5ac1",
+        "source_metadata": "tmp/new-assets/cleveland/cma-1999-136-a.json",
+        "image_url": "https://openaccess-cdn.clevelandart.org/1999.136.a/1999.136.a_full.tif",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. Extract ONLY the upper-left margin short stem with its two GREEN leaves. This stem is separate from the red/blue flower farther below; do not join them. Preserve original pointed stem ends and leaf veins. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_extraction": "tmp/extraction-work/cma-1999-136-a--upper-left-paired-green-leaves--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "1c4648977f3f65f5dfc0a2a72a2d0c1a4465bb1615bcf24744b1d04001ca865b",
+        "retained_generated_size": [
+          1191,
+          1320
+        ],
+        "resolution_cap_scale": 0.9395817195972115,
+        "resolution_capped_size": [
+          1119,
+          1240
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          610,
+          1213
+        ],
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 12498
+        },
+        "native_subject_size_evidence": {
+          "method": "Individually inspected native visible subject bounds, excluding input-region whitespace and neighbours.",
+          "preview_subject_bounds": [
+            82,
+            142,
+            174,
+            325
+          ],
+          "preview_size": [
+            1330,
+            1600
+          ],
+          "original_size": [
+            8816,
+            10607
+          ]
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Compared native source region and white/dark renders. Entire original visible fingers/feet, table/basket/cauldron props, leaf and petal tips, stems and genuine openings checked. Detached specimens delivered individually. Gray-blue flower has all original gray lobes; radial flower has all FIVE original blue curls. Source-provided floor retained only beneath the intrinsic cooking scene, never a gold/page rectangle.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/cleveland-thirteen-generated-results-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/cleveland-thirteen-generated-results-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/cleveland-thirteen-generated-results-proof-3.jpg",
+          "tmp/extraction-work/continuation-20261010/cleveland-thirteen-generated-results-proof-4.jpg"
+        ]
+      },
+      "categories": [
+        "floral"
+      ],
+      "subjects": [
+        "flower",
+        "leaf",
+        "stem"
+      ],
+      "colors": [
+        "green",
+        "blue",
+        "red"
+      ],
+      "facing": "unclear",
+      "composition": "standalone",
+      "usage_notes": "Independent original foreground or intrinsic contacting scene. AI-assisted approximation; original native region, exact prompt and visible subject resolution cap retained. Gold page field is transparent; no letter forms included.",
+      "sets": [
+        {
+          "id": "cleveland-1524-psalter-prayerbook",
+          "name": "Cleveland 1524 Psalter and Prayerbook",
+          "relation": "related Cleveland leaves with matching source title, date and painted style; individual source identities retained"
+        },
+        {
+          "id": "cma-1999-136-a-set",
+          "name": "Leaf from a Psalter and Prayerbook: Ornamental Border with Pea Vines and a Girl Kneading Bread (recto) (cma-1999-136-a)",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A short green stem carrying two opposite veined leaves.",
+      "set_label": "Cleveland 1524 Psalter and Prayerbook"
+    },
+    {
+      "id": "cma-1999-136-a--upright-pea-vine-with-six-long-pods",
+      "name": "upright-pea-vine-with-six-long-pods",
+      "source_id": "cma-1999-136-a",
+      "source_folder": "cleveland",
+      "asset_type": "decoration",
+      "description": "Upright winding pea vine with six long green pods, paired folded leaves and thin connected stalks. Part of the Cleveland 1524 Psalter and Prayerbook set.",
+      "source_region": [
+        6867,
+        186,
+        8418,
+        7365
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        0,
+        10,
+        1532,
+        7119
+      ],
+      "export_crop_coordinate_space": "original-native-source-region",
+      "width": 1532,
+      "height": 7109,
+      "png": "cleveland/cma-1999-136-a--upright-pea-vine-with-six-long-pods.png",
+      "png_sha256": "abb5ed6a58cd9b7955b4c781ef0f5c8f6c1d74a32669ef2d6c0e4619da03ca3e",
+      "provenance": {
+        "institution": "Cleveland Museum of Art",
+        "title": "Leaf from a Psalter and Prayerbook: Ornamental Border with Pea Vines and a Girl Kneading Bread (recto)",
+        "object_identifier": "1999.136.a",
+        "date": "c. 1524",
+        "record_url": "https://clevelandart.org/art/1999.136.a",
+        "image_rights": "CC0; share_license_status=CC0",
+        "rights_url": "https://www.clevelandart.org/open-access",
+        "source_file": "tmp/new-assets/cleveland/cma-1999-136-a--leaf-from-a-psalter-and-prayerbook-ornamental-border-with-pea-vines-and-a-girl-kneading-br--master.tif",
+        "source_sha256": "cefeafcff30ac8fce6ee4a1b742db7a5f2b522fd9b5ebae25033bf43ef5f5ac1",
+        "source_metadata": "tmp/new-assets/cleveland/cma-1999-136-a.json",
+        "image_url": "https://openaccess-cdn.clevelandart.org/1999.136.a/1999.136.a_full.tif",
+        "method": "native-source-continuous-edge-matting"
+      },
+      "extraction": {
+        "candidate_png": "tmp/extraction-work/continuation-20261010/cma-1999-136-a--upright-pea-vine-with-six-long-pods--refined-original-native-candidate.png",
+        "native_export_crop": [
+          0,
+          10,
+          1532,
+          7119
+        ],
+        "export_crop_coordinate_space": "original-native-source-region",
+        "annotation_json": "tmp/extraction-work/continuation-20261010/cma-1999-136-a--upright-pea-vine-with-six-long-pods--refined-original-native-audit.json",
+        "trimap_png": "tmp/extraction-work/continuation-20261010/cma-1999-136-a--upright-pea-vine-with-six-long-pods--refined-original-native-trimap.png",
+        "native_source_size": [
+          1551,
+          7179
+        ],
+        "native_upscaling": false,
+        "source_pixels_redrawn": false,
+        "original_opaque_rgb_preserved": true,
+        "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+        "alpha_guide": {
+          "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+          "guide_png": "tmp/extraction-work/continuation-20261010/cma-1999-136-a--upright-pea-vine-with-seven-long-pods--native-alpha-reference.png",
+          "guide_sha256": "12c9de5f61cafa8e262e869e3a138b20bd0b4c536128a9d6f6c1745b0a7fc70b",
+          "native_original": "tmp/extraction-work/continuation-20261010/cma-1999-136-a--upright-pea-vine-with-seven-long-pods--original.png",
+          "similarity_ai_alpha_to_original": [
+            [
+              3.3090327612892803,
+              -0.0019744765529816897,
+              -600.2559409473165
+            ],
+            [
+              0.0019744765529816897,
+              3.3090327612892803,
+              -5.319663507053401
+            ]
+          ],
+          "matching_feature_pairs": 556,
+          "inlier_feature_pairs": 457,
+          "inlier_rms_native_pixels": 6.936630758423339,
+          "source_inspection_factor": 0.25073129962390306,
+          "unknown_edge_band_native_pixels": 4,
+          "edge_solve_tile_size": 640,
+          "edge_solve_halo": 32,
+          "edge_solve_tiles": 23,
+          "original_opaque_rgb_preserved": true
+        },
+        "status": "awaiting-original-white-dark-review",
+        "native_refinement": {
+          "method": "Native close-ups confirm six full pods and the right-hand folded leaf and tendril. Reflective gold page at the original green/black contour is cleared only within seven native pixels of its outer edge; green/pale painted pod surfaces and interior source texture remain opaque. The unrelated red and black page rules remain excluded. The expanded twig is retained without adding any seventh pod or restored stem.",
+          "source": "tmp/extraction-work/continuation-20261010/cma-1999-136-a--upright-pea-vine-with-seven-long-pods--expanded-native-original.png",
+          "previous_native_matte": {
+            "candidate_png": "tmp/extraction-work/continuation-20261010/cma-1999-136-a--upright-pea-vine-with-seven-long-pods--refined-original-native-candidate.png",
+            "native_export_crop": [
+              0,
+              10,
+              1531,
+              7122
+            ],
+            "export_crop_coordinate_space": "original-native-source-region",
+            "annotation_json": "tmp/extraction-work/continuation-20261010/cma-1999-136-a--upright-pea-vine-with-seven-long-pods--refined-original-native-audit.json",
+            "trimap_png": "tmp/extraction-work/continuation-20261010/cma-1999-136-a--upright-pea-vine-with-seven-long-pods--refined-original-native-trimap.png",
+            "native_source_size": [
+              1551,
+              7179
+            ],
+            "native_upscaling": false,
+            "source_pixels_redrawn": false,
+            "original_opaque_rgb_preserved": true,
+            "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+            "alpha_guide": {
+              "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+              "guide_png": "tmp/extraction-work/continuation-20261010/cma-1999-136-a--upright-pea-vine-with-seven-long-pods--native-alpha-reference.png",
+              "guide_sha256": "12c9de5f61cafa8e262e869e3a138b20bd0b4c536128a9d6f6c1745b0a7fc70b",
+              "native_original": "tmp/extraction-work/continuation-20261010/cma-1999-136-a--upright-pea-vine-with-seven-long-pods--original.png",
+              "similarity_ai_alpha_to_original": [
+                [
+                  3.3090327612892803,
+                  -0.0019744765529816897,
+                  -600.2559409473165
+                ],
+                [
+                  0.0019744765529816897,
+                  3.3090327612892803,
+                  -5.319663507053401
+                ]
+              ],
+              "matching_feature_pairs": 556,
+              "inlier_feature_pairs": 457,
+              "inlier_rms_native_pixels": 6.936630758423339,
+              "source_inspection_factor": 0.25073129962390306,
+              "unknown_edge_band_native_pixels": 4,
+              "edge_solve_tile_size": 640,
+              "edge_solve_halo": 32,
+              "edge_solve_tiles": 23,
+              "original_opaque_rgb_preserved": true
+            },
+            "status": "awaiting-original-white-dark-review",
+            "native_refinement": {
+              "method": "The initial registered native ownership is retained for the first six pods. The seventh lower-right pod, its green leaves, original ink contour and stem are added only from the individually inspected expanded original scan region, with green pigment and adjacent dark outline distinguished from gilt background and unrelated page rules. Surviving fine paint and source-worn breaks remain, and no missing stem or pod detail is restored.",
+              "source": "tmp/extraction-work/continuation-20261010/cma-1999-136-a--upright-pea-vine-with-seven-long-pods--expanded-native-original.png",
+              "previous_native_matte": {
+                "candidate_png": "tmp/extraction-work/continuation-20261010/cma-1999-136-a--upright-pea-vine-with-seven-long-pods--refined-original-native-candidate.png",
+                "native_export_crop": [
+                  0,
+                  11,
+                  1220,
+                  7120
+                ],
+                "export_crop_coordinate_space": "original-native-source-region",
+                "annotation_json": "tmp/extraction-work/continuation-20261010/cma-1999-136-a--upright-pea-vine-with-seven-long-pods--refined-original-native-audit.json",
+                "trimap_png": "tmp/extraction-work/continuation-20261010/cma-1999-136-a--upright-pea-vine-with-seven-long-pods--refined-original-native-trimap.png",
+                "native_source_size": [
+                  1220,
+                  7179
+                ],
+                "native_upscaling": false,
+                "source_pixels_redrawn": false,
+                "original_opaque_rgb_preserved": true,
+                "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+                "alpha_guide": {
+                  "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+                  "guide_png": "tmp/extraction-work/continuation-20261010/cma-1999-136-a--upright-pea-vine-with-seven-long-pods--native-alpha-reference.png",
+                  "guide_sha256": "12c9de5f61cafa8e262e869e3a138b20bd0b4c536128a9d6f6c1745b0a7fc70b",
+                  "native_original": "tmp/extraction-work/continuation-20261010/cma-1999-136-a--upright-pea-vine-with-seven-long-pods--original.png",
+                  "similarity_ai_alpha_to_original": [
+                    [
+                      3.3090327612892803,
+                      -0.0019744765529816897,
+                      -600.2559409473165
+                    ],
+                    [
+                      0.0019744765529816897,
+                      3.3090327612892803,
+                      -5.319663507053401
+                    ]
+                  ],
+                  "matching_feature_pairs": 556,
+                  "inlier_feature_pairs": 457,
+                  "inlier_rms_native_pixels": 6.936630758423339,
+                  "source_inspection_factor": 0.25073129962390306,
+                  "unknown_edge_band_native_pixels": 4,
+                  "edge_solve_tile_size": 640,
+                  "edge_solve_halo": 32,
+                  "edge_solve_tiles": 23,
+                  "original_opaque_rgb_preserved": true
+                },
+                "status": "awaiting-original-white-dark-review",
+                "native_refinement": {
+                  "method": "The reflective yellow gilt page field is individually distinguished from green leaves, rose petals, neutral gray sepals, cream fan petals and their painted pale highlights. Only reflective gilt with R-B>65, G-B>45 and R>G within seven native pixels of the owned boundary is cleared. Interior worn pigment and pale painted highlights remain opaque. A two-pixel continuous native edge solve retains source RGB and shape; the actual fine black thistle spines are retained rather than polygon traced.",
+                  "source": "tmp/extraction-work/continuation-20261010/cma-1999-136-a--upright-pea-vine-with-seven-long-pods--original.png",
+                  "previous_native_matte": {
+                    "candidate_png": "tmp/extraction-work/continuation-20261010/cma-1999-136-a--upright-pea-vine-with-seven-long-pods--registered-native-candidate.png",
+                    "native_export_crop": [
+                      0,
+                      11,
+                      1220,
+                      7122
+                    ],
+                    "export_crop_coordinate_space": "original-native-source-region",
+                    "annotation_json": "tmp/extraction-work/continuation-20261010/cma-1999-136-a--upright-pea-vine-with-seven-long-pods--registered-native-annotation.json",
+                    "trimap_png": "tmp/extraction-work/continuation-20261010/cma-1999-136-a--upright-pea-vine-with-seven-long-pods--registered-native-trimap.png",
+                    "native_source_size": [
+                      1220,
+                      7179
+                    ],
+                    "native_upscaling": false,
+                    "source_pixels_redrawn": false,
+                    "original_opaque_rgb_preserved": true,
+                    "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+                    "alpha_guide": {
+                      "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+                      "guide_png": "tmp/extraction-work/continuation-20261010/cma-1999-136-a--upright-pea-vine-with-seven-long-pods--native-alpha-reference.png",
+                      "guide_sha256": "12c9de5f61cafa8e262e869e3a138b20bd0b4c536128a9d6f6c1745b0a7fc70b",
+                      "native_original": "tmp/extraction-work/continuation-20261010/cma-1999-136-a--upright-pea-vine-with-seven-long-pods--original.png",
+                      "similarity_ai_alpha_to_original": [
+                        [
+                          3.3090327612892803,
+                          -0.0019744765529816897,
+                          -600.2559409473165
+                        ],
+                        [
+                          0.0019744765529816897,
+                          3.3090327612892803,
+                          -5.319663507053401
+                        ]
+                      ],
+                      "matching_feature_pairs": 556,
+                      "inlier_feature_pairs": 457,
+                      "inlier_rms_native_pixels": 6.936630758423339,
+                      "source_inspection_factor": 0.25073129962390306,
+                      "unknown_edge_band_native_pixels": 4,
+                      "edge_solve_tile_size": 640,
+                      "edge_solve_halo": 32,
+                      "edge_solve_tiles": 23,
+                      "original_opaque_rgb_preserved": true
+                    },
+                    "status": "awaiting-original-white-dark-review"
+                  },
+                  "unknown_band_native_pixels": 2,
+                  "source_rgb_redrawn": false,
+                  "source_resized": false,
+                  "original_opaque_rgb_preserved": true,
+                  "ownership": "tmp/extraction-work/continuation-20261010/cma-1999-136-a--upright-pea-vine-with-seven-long-pods--refined-original-native-ownership.png",
+                  "ownership_sha256": "8a2d836d49ea70d8bd9c381710bd992fccde773ada67604fd49f0c749ca9a4d2",
+                  "scoped_reflective_gilt_background_pixels": 334547,
+                  "native_gilt_rgb_test": "R-B>65 and G-B>45 and R>G, only within 7 pixels of the owned boundary"
+                }
+              },
+              "unknown_band_native_pixels": 3,
+              "source_rgb_redrawn": false,
+              "source_resized": false,
+              "original_opaque_rgb_preserved": true,
+              "ownership": "tmp/extraction-work/continuation-20261010/cma-1999-136-a--upright-pea-vine-with-seven-long-pods--refined-original-native-ownership.png",
+              "ownership_sha256": "4e764aace14d308141d4095cc0b6dd1fd7023cbfc6dc9bf78e6b22a00668a01c",
+              "native_input_expansion": {
+                "reason": "Native whole-page inspection finds the complete seventh lower-right pod and curled stem beyond the old region. The input is expanded to original preview x1270; all added pigment comes from the untouched scan, without enlarging or completing any form.",
+                "old_source_bounds": [
+                  6867,
+                  186,
+                  8087,
+                  7365
+                ],
+                "expanded_source_bounds": [
+                  6867,
+                  186,
+                  8418,
+                  7365
+                ],
+                "added_scope_preview": [
+                  1200,
+                  760,
+                  1266,
+                  1096
+                ]
+              },
+              "original_added_pigment_pixels": 157475
+            }
+          },
+          "unknown_band_native_pixels": 2,
+          "source_rgb_redrawn": false,
+          "source_resized": false,
+          "original_opaque_rgb_preserved": true,
+          "ownership": "tmp/extraction-work/continuation-20261010/cma-1999-136-a--upright-pea-vine-with-six-long-pods--refined-original-native-ownership.png",
+          "ownership_sha256": "6456cbeec0c09c94768b377afd3adff1d56628a5019386a3d9ff249ed756843e",
+          "inspected_contour_gilt_pixels": 3774779
+        },
+        "tool": "Original native scan / closed-form edge alpha and foreground decontamination",
+        "pixel_exact": false,
+        "ownership_guide_prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. Extract the complete right-margin connected pea vine, including all seven source-visible long pods, folded leaves, curled tendrils and thin green stems. Do not include the disconnected blue-and-rose flower below, the kneading woman, text or page-frame lines. Clear gold page and actual openings between pods and stems. Keep green and pale painted pod highlights opaque. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_ownership_guide": {
+          "file": "tmp/extraction-work/cma-1999-136-a--upright-pea-vine-with-six-long-pods--retained-ai-extraction.png",
+          "sha256": "12c9de5f61cafa8e262e869e3a138b20bd0b4c536128a9d6f6c1745b0a7fc70b",
+          "purpose": "Retained AI alpha guide only; delivered opaque RGB belongs to the unchanged native source."
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Untouched native source, complete white/dark comparisons and actual native detail inspected. Original proportions and opaque source color retained. The six-pod vine includes the smaller right-hand folded leaf/tendril; the initial vine excludes its letter; the full garden panel keeps its intrinsic shared painting and actual red border while exterior gilt page is removed. No raster upscaling or generic redraw.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/finish-six-native-review-current-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/finish-six-native-review-current-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/six-pod-native-upper-final.png",
+          "tmp/extraction-work/continuation-20261010/six-pod-native-tendril-final.png",
+          "tmp/extraction-work/continuation-20261010/gold-vine-native-full-final.png",
+          "tmp/extraction-work/continuation-20261010/garden-final-native-four-corners-source-dark.png"
+        ]
+      },
+      "categories": [
+        "botanical",
+        "floral"
+      ],
+      "subjects": [
+        "pea",
+        "pod",
+        "leaf",
+        "stem"
+      ],
+      "colors": [
+        "green",
+        "brown"
+      ],
+      "facing": "unclear",
+      "composition": "standalone",
+      "usage_notes": "Original independent specimen with printed plate rules and page removed. AI-assisted extraction remains approximate; source bounds, actual native subject cap, original and exact prompt retained.",
+      "sets": [
+        {
+          "id": "cleveland-1524-psalter-prayerbook",
+          "name": "Cleveland 1524 Psalter and Prayerbook",
+          "relation": "related Cleveland leaves with matching source title, date and painted style; individual source identities retained"
+        },
+        {
+          "id": "cma-1999-136-a-set",
+          "name": "Leaf from a Psalter and Prayerbook: Ornamental Border with Pea Vines and a Girl Kneading Bread (recto) (cma-1999-136-a)",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "Upright winding pea vine with six long green pods, paired folded leaves and thin connected stalks.",
+      "set_label": "Cleveland 1524 Psalter and Prayerbook"
+    }
+  ]
+}

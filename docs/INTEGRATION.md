@@ -491,3 +491,18 @@ commands. Component APIs and design names stay stable. Raw main-branch artwork
 URLs, Pages image paths and the Pages ZIP link change; use assigned immutable
 CDN URLs or copy a flat self-hosted mirror. New resource packages are optional
 and the main checkout contains no large export/native-input files.
+
+### Repeats with no frame corners
+
+Some historical repeat units are approved only for dividers. Inspect `uses`
+(or `findOrnaments({use: 'frame'})`) before rendering a frame. For example,
+`white-curling-vine-on-blue-repeat` exposes `createDivider` / `OrnamentDivider`
+in both directions and rejects frame rendering. Its individual entry does not
+export a frame controller/component. Whole original frames remain separately
+selectable images; a repeating unit does not imply faithful corner geometry.
+
+Related historical assets carry optional named `sets`. The gallery's Set
+buttons and `findOrnaments({query: set.name})` find matching pieces across
+illustrations, decorations and borders. Four distinct corner phases, when
+present, are available as named component downloads; they are not rotations of
+one interchangeable corner.

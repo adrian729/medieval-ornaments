@@ -1,0 +1,3006 @@
+{
+  "schemaVersion": 2,
+  "id": "decorations-010",
+  "collection": "decorations",
+  "package": "@ranx729/medieval-ornaments-assets-decorations-010",
+  "version": "0.1.0",
+  "designs": {
+    "blue-line-filler-with-white-waves-hatching-and-curled-terminal": {
+      "name": "blue-line-filler-with-white-waves-hatching-and-curled-terminal",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 1261,
+      "height": 224,
+      "png": "png/blue-line-filler-with-white-waves-hatching-and-curled-terminal.png",
+      "webp": "webp/blue-line-filler-with-white-waves-hatching-and-curled-terminal.webp",
+      "png_bytes": 444294,
+      "webp_bytes": 355430,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/blue-line-filler-with-white-waves-hatching-and-curled-terminal.png",
+          "webp": "webp/128/blue-line-filler-with-white-waves-hatching-and-curled-terminal.webp",
+          "width": 128,
+          "height": 23,
+          "png_bytes": 6894,
+          "webp_bytes": 6264
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/blue-line-filler-with-white-waves-hatching-and-curled-terminal.png",
+          "webp": "webp/256/blue-line-filler-with-white-waves-hatching-and-curled-terminal.webp",
+          "width": 256,
+          "height": 45,
+          "png_bytes": 23816,
+          "webp_bytes": 20736
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/blue-line-filler-with-white-waves-hatching-and-curled-terminal.png",
+          "webp": "webp/512/blue-line-filler-with-white-waves-hatching-and-curled-terminal.webp",
+          "width": 512,
+          "height": 91,
+          "png_bytes": 85875,
+          "webp_bytes": 71606
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/blue-line-filler-with-white-waves-hatching-and-curled-terminal.png",
+          "webp": "webp/768/blue-line-filler-with-white-waves-hatching-and-curled-terminal.webp",
+          "width": 768,
+          "height": 136,
+          "png_bytes": 180659,
+          "webp_bytes": 147446
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "finite-blue-and-rose-band-with-gold-pips-and-white-curls": {
+      "name": "finite-blue-and-rose-band-with-gold-pips-and-white-curls",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-source-extraction",
+      "repeat_axis": "none",
+      "width": 1483,
+      "height": 260,
+      "png": "png/finite-blue-and-rose-band-with-gold-pips-and-white-curls.png",
+      "webp": "webp/finite-blue-and-rose-band-with-gold-pips-and-white-curls.webp",
+      "png_bytes": 569524,
+      "webp_bytes": 485754,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/finite-blue-and-rose-band-with-gold-pips-and-white-curls.png",
+          "webp": "webp/128/finite-blue-and-rose-band-with-gold-pips-and-white-curls.webp",
+          "width": 128,
+          "height": 22,
+          "png_bytes": 6877,
+          "webp_bytes": 5592
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/finite-blue-and-rose-band-with-gold-pips-and-white-curls.png",
+          "webp": "webp/256/finite-blue-and-rose-band-with-gold-pips-and-white-curls.webp",
+          "width": 256,
+          "height": 45,
+          "png_bytes": 24144,
+          "webp_bytes": 19004
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/finite-blue-and-rose-band-with-gold-pips-and-white-curls.png",
+          "webp": "webp/512/finite-blue-and-rose-band-with-gold-pips-and-white-curls.webp",
+          "width": 512,
+          "height": 90,
+          "png_bytes": 80836,
+          "webp_bytes": 64136
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/finite-blue-and-rose-band-with-gold-pips-and-white-curls.png",
+          "webp": "webp/768/finite-blue-and-rose-band-with-gold-pips-and-white-curls.webp",
+          "width": 768,
+          "height": 135,
+          "png_bytes": 167331,
+          "webp_bytes": 138490
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "finite-blue-rose-white-foliate-waves-and-gold-roundels": {
+      "name": "finite-blue-rose-white-foliate-waves-and-gold-roundels",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-source-extraction",
+      "repeat_axis": "none",
+      "width": 2250,
+      "height": 236,
+      "png": "png/finite-blue-rose-white-foliate-waves-and-gold-roundels.png",
+      "webp": "webp/finite-blue-rose-white-foliate-waves-and-gold-roundels.webp",
+      "png_bytes": 813709,
+      "webp_bytes": 686396,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/finite-blue-rose-white-foliate-waves-and-gold-roundels.png",
+          "webp": "webp/128/finite-blue-rose-white-foliate-waves-and-gold-roundels.webp",
+          "width": 128,
+          "height": 13,
+          "png_bytes": 4252,
+          "webp_bytes": 3468
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/finite-blue-rose-white-foliate-waves-and-gold-roundels.png",
+          "webp": "webp/256/finite-blue-rose-white-foliate-waves-and-gold-roundels.webp",
+          "width": 256,
+          "height": 27,
+          "png_bytes": 15042,
+          "webp_bytes": 12074
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/finite-blue-rose-white-foliate-waves-and-gold-roundels.png",
+          "webp": "webp/512/finite-blue-rose-white-foliate-waves-and-gold-roundels.webp",
+          "width": 512,
+          "height": 54,
+          "png_bytes": 52044,
+          "webp_bytes": 42580
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/finite-blue-rose-white-foliate-waves-and-gold-roundels.png",
+          "webp": "webp/768/finite-blue-rose-white-foliate-waves-and-gold-roundels.webp",
+          "width": 768,
+          "height": 81,
+          "png_bytes": 109606,
+          "webp_bytes": 89074
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "finite-four-white-loops-on-blue": {
+      "name": "finite-four-white-loops-on-blue",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-source-extraction",
+      "repeat_axis": "none",
+      "width": 538,
+      "height": 202,
+      "png": "png/finite-four-white-loops-on-blue.png",
+      "webp": "webp/finite-four-white-loops-on-blue.webp",
+      "png_bytes": 174306,
+      "webp_bytes": 149522,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/finite-four-white-loops-on-blue.png",
+          "webp": "webp/128/finite-four-white-loops-on-blue.webp",
+          "width": 128,
+          "height": 48,
+          "png_bytes": 12133,
+          "webp_bytes": 11678
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/finite-four-white-loops-on-blue.png",
+          "webp": "webp/256/finite-four-white-loops-on-blue.webp",
+          "width": 256,
+          "height": 96,
+          "png_bytes": 44258,
+          "webp_bytes": 38962
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/finite-four-white-loops-on-blue.png",
+          "webp": "webp/512/finite-four-white-loops-on-blue.webp",
+          "width": 512,
+          "height": 192,
+          "png_bytes": 158711,
+          "webp_bytes": 142812
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "finite-gold-pip-and-double-white-cross-on-rose": {
+      "name": "finite-gold-pip-and-double-white-cross-on-rose",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-source-extraction",
+      "repeat_axis": "none",
+      "width": 449,
+      "height": 188,
+      "png": "png/finite-gold-pip-and-double-white-cross-on-rose.png",
+      "webp": "webp/finite-gold-pip-and-double-white-cross-on-rose.webp",
+      "png_bytes": 137773,
+      "webp_bytes": 117102,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/finite-gold-pip-and-double-white-cross-on-rose.png",
+          "webp": "webp/128/finite-gold-pip-and-double-white-cross-on-rose.webp",
+          "width": 128,
+          "height": 54,
+          "png_bytes": 13884,
+          "webp_bytes": 11608
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/finite-gold-pip-and-double-white-cross-on-rose.png",
+          "webp": "webp/256/finite-gold-pip-and-double-white-cross-on-rose.webp",
+          "width": 256,
+          "height": 107,
+          "png_bytes": 48428,
+          "webp_bytes": 42070
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "finite-gold-pip-and-white-double-ended-curl-on-rose": {
+      "name": "finite-gold-pip-and-white-double-ended-curl-on-rose",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-source-extraction",
+      "repeat_axis": "none",
+      "width": 436,
+      "height": 226,
+      "png": "png/finite-gold-pip-and-white-double-ended-curl-on-rose.png",
+      "webp": "webp/finite-gold-pip-and-white-double-ended-curl-on-rose.webp",
+      "png_bytes": 152746,
+      "webp_bytes": 133832,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/finite-gold-pip-and-white-double-ended-curl-on-rose.png",
+          "webp": "webp/128/finite-gold-pip-and-white-double-ended-curl-on-rose.webp",
+          "width": 128,
+          "height": 66,
+          "png_bytes": 16658,
+          "webp_bytes": 13684
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/finite-gold-pip-and-white-double-ended-curl-on-rose.png",
+          "webp": "webp/256/finite-gold-pip-and-white-double-ended-curl-on-rose.webp",
+          "width": 256,
+          "height": 133,
+          "png_bytes": 58194,
+          "webp_bytes": 50356
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "finite-gold-pip-and-white-wave-on-blue": {
+      "name": "finite-gold-pip-and-white-wave-on-blue",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-source-extraction",
+      "repeat_axis": "none",
+      "width": 654,
+      "height": 206,
+      "png": "png/finite-gold-pip-and-white-wave-on-blue.png",
+      "webp": "webp/finite-gold-pip-and-white-wave-on-blue.webp",
+      "png_bytes": 233175,
+      "webp_bytes": 190434,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/finite-gold-pip-and-white-wave-on-blue.png",
+          "webp": "webp/128/finite-gold-pip-and-white-wave-on-blue.webp",
+          "width": 128,
+          "height": 40,
+          "png_bytes": 11287,
+          "webp_bytes": 9806
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/finite-gold-pip-and-white-wave-on-blue.png",
+          "webp": "webp/256/finite-gold-pip-and-white-wave-on-blue.webp",
+          "width": 256,
+          "height": 81,
+          "png_bytes": 41105,
+          "webp_bytes": 35926
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/finite-gold-pip-and-white-wave-on-blue.png",
+          "webp": "webp/512/finite-gold-pip-and-white-wave-on-blue.webp",
+          "width": 512,
+          "height": 161,
+          "png_bytes": 145974,
+          "webp_bytes": 130806
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "finite-gold-roundels-and-white-wave-on-rose": {
+      "name": "finite-gold-roundels-and-white-wave-on-rose",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-source-extraction",
+      "repeat_axis": "none",
+      "width": 1074,
+      "height": 209,
+      "png": "png/finite-gold-roundels-and-white-wave-on-rose.png",
+      "webp": "webp/finite-gold-roundels-and-white-wave-on-rose.webp",
+      "png_bytes": 375852,
+      "webp_bytes": 305788,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/finite-gold-roundels-and-white-wave-on-rose.png",
+          "webp": "webp/128/finite-gold-roundels-and-white-wave-on-rose.webp",
+          "width": 128,
+          "height": 25,
+          "png_bytes": 7644,
+          "webp_bytes": 6136
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/finite-gold-roundels-and-white-wave-on-rose.png",
+          "webp": "webp/256/finite-gold-roundels-and-white-wave-on-rose.webp",
+          "width": 256,
+          "height": 50,
+          "png_bytes": 26711,
+          "webp_bytes": 22092
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/finite-gold-roundels-and-white-wave-on-rose.png",
+          "webp": "webp/512/finite-gold-roundels-and-white-wave-on-rose.webp",
+          "width": 512,
+          "height": 100,
+          "png_bytes": 93281,
+          "webp_bytes": 77700
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/finite-gold-roundels-and-white-wave-on-rose.png",
+          "webp": "webp/768/finite-gold-roundels-and-white-wave-on-rose.webp",
+          "width": 768,
+          "height": 149,
+          "png_bytes": 195915,
+          "webp_bytes": 166964
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "finite-gold-wave-and-white-zigzag-over-blue-rose": {
+      "name": "finite-gold-wave-and-white-zigzag-over-blue-rose",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-source-extraction",
+      "repeat_axis": "none",
+      "width": 705,
+      "height": 237,
+      "png": "png/finite-gold-wave-and-white-zigzag-over-blue-rose.png",
+      "webp": "webp/finite-gold-wave-and-white-zigzag-over-blue-rose.webp",
+      "png_bytes": 262036,
+      "webp_bytes": 225192,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/finite-gold-wave-and-white-zigzag-over-blue-rose.png",
+          "webp": "webp/128/finite-gold-wave-and-white-zigzag-over-blue-rose.webp",
+          "width": 128,
+          "height": 43,
+          "png_bytes": 11463,
+          "webp_bytes": 9446
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/finite-gold-wave-and-white-zigzag-over-blue-rose.png",
+          "webp": "webp/256/finite-gold-wave-and-white-zigzag-over-blue-rose.webp",
+          "width": 256,
+          "height": 86,
+          "png_bytes": 40428,
+          "webp_bytes": 34098
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/finite-gold-wave-and-white-zigzag-over-blue-rose.png",
+          "webp": "webp/512/finite-gold-wave-and-white-zigzag-over-blue-rose.webp",
+          "width": 512,
+          "height": 172,
+          "png_bytes": 142893,
+          "webp_bytes": 124344
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "finite-gold-wave-over-blue-and-rose-ground": {
+      "name": "finite-gold-wave-over-blue-and-rose-ground",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-source-extraction",
+      "repeat_axis": "none",
+      "width": 1036,
+      "height": 256,
+      "png": "png/finite-gold-wave-over-blue-and-rose-ground.png",
+      "webp": "webp/finite-gold-wave-over-blue-and-rose-ground.webp",
+      "png_bytes": 409508,
+      "webp_bytes": 333166,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/finite-gold-wave-over-blue-and-rose-ground.png",
+          "webp": "webp/128/finite-gold-wave-over-blue-and-rose-ground.webp",
+          "width": 128,
+          "height": 32,
+          "png_bytes": 9643,
+          "webp_bytes": 7990
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/finite-gold-wave-over-blue-and-rose-ground.png",
+          "webp": "webp/256/finite-gold-wave-over-blue-and-rose-ground.webp",
+          "width": 256,
+          "height": 63,
+          "png_bytes": 32025,
+          "webp_bytes": 26184
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/finite-gold-wave-over-blue-and-rose-ground.png",
+          "webp": "webp/512/finite-gold-wave-over-blue-and-rose-ground.webp",
+          "width": 512,
+          "height": 127,
+          "png_bytes": 110937,
+          "webp_bytes": 93908
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/finite-gold-wave-over-blue-and-rose-ground.png",
+          "webp": "webp/768/finite-gold-wave-over-blue-and-rose-ground.webp",
+          "width": 768,
+          "height": 190,
+          "png_bytes": 232782,
+          "webp_bytes": 202576
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "finite-paired-gold-roundels-and-foliate-white-wave-on-rose-blue": {
+      "name": "finite-paired-gold-roundels-and-foliate-white-wave-on-rose-blue",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-source-extraction",
+      "repeat_axis": "none",
+      "width": 854,
+      "height": 228,
+      "png": "png/finite-paired-gold-roundels-and-foliate-white-wave-on-rose-blue.png",
+      "webp": "webp/finite-paired-gold-roundels-and-foliate-white-wave-on-rose-blue.webp",
+      "png_bytes": 315419,
+      "webp_bytes": 255744,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/finite-paired-gold-roundels-and-foliate-white-wave-on-rose-blue.png",
+          "webp": "webp/128/finite-paired-gold-roundels-and-foliate-white-wave-on-rose-blue.webp",
+          "width": 128,
+          "height": 34,
+          "png_bytes": 9907,
+          "webp_bytes": 8240
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/finite-paired-gold-roundels-and-foliate-white-wave-on-rose-blue.png",
+          "webp": "webp/256/finite-paired-gold-roundels-and-foliate-white-wave-on-rose-blue.webp",
+          "width": 256,
+          "height": 68,
+          "png_bytes": 34494,
+          "webp_bytes": 28990
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/finite-paired-gold-roundels-and-foliate-white-wave-on-rose-blue.png",
+          "webp": "webp/512/finite-paired-gold-roundels-and-foliate-white-wave-on-rose-blue.webp",
+          "width": 512,
+          "height": 137,
+          "png_bytes": 121957,
+          "webp_bytes": 104640
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/finite-paired-gold-roundels-and-foliate-white-wave-on-rose-blue.png",
+          "webp": "webp/768/finite-paired-gold-roundels-and-foliate-white-wave-on-rose-blue.webp",
+          "width": 768,
+          "height": 205,
+          "png_bytes": 257433,
+          "webp_bytes": 230236
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "finite-paired-gold-roundels-and-white-waves-on-blue-rose": {
+      "name": "finite-paired-gold-roundels-and-white-waves-on-blue-rose",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-source-extraction",
+      "repeat_axis": "none",
+      "width": 847,
+      "height": 209,
+      "png": "png/finite-paired-gold-roundels-and-white-waves-on-blue-rose.png",
+      "webp": "webp/finite-paired-gold-roundels-and-white-waves-on-blue-rose.webp",
+      "png_bytes": 293493,
+      "webp_bytes": 245462,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/finite-paired-gold-roundels-and-white-waves-on-blue-rose.png",
+          "webp": "webp/128/finite-paired-gold-roundels-and-white-waves-on-blue-rose.webp",
+          "width": 128,
+          "height": 32,
+          "png_bytes": 9124,
+          "webp_bytes": 7700
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/finite-paired-gold-roundels-and-white-waves-on-blue-rose.png",
+          "webp": "webp/256/finite-paired-gold-roundels-and-white-waves-on-blue-rose.webp",
+          "width": 256,
+          "height": 63,
+          "png_bytes": 31852,
+          "webp_bytes": 26826
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/finite-paired-gold-roundels-and-white-waves-on-blue-rose.png",
+          "webp": "webp/512/finite-paired-gold-roundels-and-white-waves-on-blue-rose.webp",
+          "width": 512,
+          "height": 126,
+          "png_bytes": 113700,
+          "webp_bytes": 98776
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/finite-paired-gold-roundels-and-white-waves-on-blue-rose.png",
+          "webp": "webp/768/finite-paired-gold-roundels-and-white-waves-on-blue-rose.webp",
+          "width": 768,
+          "height": 190,
+          "png_bytes": 242164,
+          "webp_bytes": 215946
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "finite-paired-gold-roundels-on-rose-band": {
+      "name": "finite-paired-gold-roundels-on-rose-band",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-source-extraction",
+      "repeat_axis": "none",
+      "width": 593,
+      "height": 247,
+      "png": "png/finite-paired-gold-roundels-on-rose-band.png",
+      "webp": "webp/finite-paired-gold-roundels-on-rose-band.webp",
+      "png_bytes": 222347,
+      "webp_bytes": 190792,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/finite-paired-gold-roundels-on-rose-band.png",
+          "webp": "webp/128/finite-paired-gold-roundels-on-rose-band.webp",
+          "width": 128,
+          "height": 53,
+          "png_bytes": 13706,
+          "webp_bytes": 11202
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/finite-paired-gold-roundels-on-rose-band.png",
+          "webp": "webp/256/finite-paired-gold-roundels-on-rose-band.webp",
+          "width": 256,
+          "height": 107,
+          "png_bytes": 47427,
+          "webp_bytes": 39966
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/finite-paired-gold-roundels-on-rose-band.png",
+          "webp": "webp/512/finite-paired-gold-roundels-on-rose-band.webp",
+          "width": 512,
+          "height": 213,
+          "png_bytes": 167779,
+          "webp_bytes": 145190
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "finite-single-gold-roundel-and-looped-white-wave-on-rose-blue": {
+      "name": "finite-single-gold-roundel-and-looped-white-wave-on-rose-blue",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-source-extraction",
+      "repeat_axis": "none",
+      "width": 764,
+      "height": 205,
+      "png": "png/finite-single-gold-roundel-and-looped-white-wave-on-rose-blue.png",
+      "webp": "webp/finite-single-gold-roundel-and-looped-white-wave-on-rose-blue.webp",
+      "png_bytes": 267168,
+      "webp_bytes": 224632,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/finite-single-gold-roundel-and-looped-white-wave-on-rose-blue.png",
+          "webp": "webp/128/finite-single-gold-roundel-and-looped-white-wave-on-rose-blue.webp",
+          "width": 128,
+          "height": 34,
+          "png_bytes": 9939,
+          "webp_bytes": 8360
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/finite-single-gold-roundel-and-looped-white-wave-on-rose-blue.png",
+          "webp": "webp/256/finite-single-gold-roundel-and-looped-white-wave-on-rose-blue.webp",
+          "width": 256,
+          "height": 69,
+          "png_bytes": 35578,
+          "webp_bytes": 29938
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/finite-single-gold-roundel-and-looped-white-wave-on-rose-blue.png",
+          "webp": "webp/512/finite-single-gold-roundel-and-looped-white-wave-on-rose-blue.webp",
+          "width": 512,
+          "height": 137,
+          "png_bytes": 124327,
+          "webp_bytes": 103512
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "finite-three-gold-roundels-and-white-zigzag-on-blue-rose": {
+      "name": "finite-three-gold-roundels-and-white-zigzag-on-blue-rose",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-source-extraction",
+      "repeat_axis": "none",
+      "width": 1353,
+      "height": 223,
+      "png": "png/finite-three-gold-roundels-and-white-zigzag-on-blue-rose.png",
+      "webp": "webp/finite-three-gold-roundels-and-white-zigzag-on-blue-rose.webp",
+      "png_bytes": 476741,
+      "webp_bytes": 411316,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/finite-three-gold-roundels-and-white-zigzag-on-blue-rose.png",
+          "webp": "webp/128/finite-three-gold-roundels-and-white-zigzag-on-blue-rose.webp",
+          "width": 128,
+          "height": 21,
+          "png_bytes": 6196,
+          "webp_bytes": 5230
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/finite-three-gold-roundels-and-white-zigzag-on-blue-rose.png",
+          "webp": "webp/256/finite-three-gold-roundels-and-white-zigzag-on-blue-rose.webp",
+          "width": 256,
+          "height": 42,
+          "png_bytes": 21504,
+          "webp_bytes": 18066
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/finite-three-gold-roundels-and-white-zigzag-on-blue-rose.png",
+          "webp": "webp/512/finite-three-gold-roundels-and-white-zigzag-on-blue-rose.webp",
+          "width": 512,
+          "height": 84,
+          "png_bytes": 77138,
+          "webp_bytes": 63340
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/finite-three-gold-roundels-and-white-zigzag-on-blue-rose.png",
+          "webp": "webp/768/finite-three-gold-roundels-and-white-zigzag-on-blue-rose.webp",
+          "width": 768,
+          "height": 127,
+          "png_bytes": 163655,
+          "webp_bytes": 139492
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "finite-white-crossed-strokes-and-gold-pip-on-blue": {
+      "name": "finite-white-crossed-strokes-and-gold-pip-on-blue",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-source-extraction",
+      "repeat_axis": "none",
+      "width": 558,
+      "height": 261,
+      "png": "png/finite-white-crossed-strokes-and-gold-pip-on-blue.png",
+      "webp": "webp/finite-white-crossed-strokes-and-gold-pip-on-blue.webp",
+      "png_bytes": 191441,
+      "webp_bytes": 160008,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/finite-white-crossed-strokes-and-gold-pip-on-blue.png",
+          "webp": "webp/128/finite-white-crossed-strokes-and-gold-pip-on-blue.webp",
+          "width": 128,
+          "height": 60,
+          "png_bytes": 13870,
+          "webp_bytes": 11576
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/finite-white-crossed-strokes-and-gold-pip-on-blue.png",
+          "webp": "webp/256/finite-white-crossed-strokes-and-gold-pip-on-blue.webp",
+          "width": 256,
+          "height": 120,
+          "png_bytes": 47190,
+          "webp_bytes": 40750
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/finite-white-crossed-strokes-and-gold-pip-on-blue.png",
+          "webp": "webp/512/finite-white-crossed-strokes-and-gold-pip-on-blue.webp",
+          "width": 512,
+          "height": 239,
+          "png_bytes": 163093,
+          "webp_bytes": 145584
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "finite-white-zigzag-and-alternating-dots-on-rose": {
+      "name": "finite-white-zigzag-and-alternating-dots-on-rose",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-source-extraction",
+      "repeat_axis": "none",
+      "width": 549,
+      "height": 217,
+      "png": "png/finite-white-zigzag-and-alternating-dots-on-rose.png",
+      "webp": "webp/finite-white-zigzag-and-alternating-dots-on-rose.webp",
+      "png_bytes": 182223,
+      "webp_bytes": 154450,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/finite-white-zigzag-and-alternating-dots-on-rose.png",
+          "webp": "webp/128/finite-white-zigzag-and-alternating-dots-on-rose.webp",
+          "width": 128,
+          "height": 51,
+          "png_bytes": 12744,
+          "webp_bytes": 10360
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/finite-white-zigzag-and-alternating-dots-on-rose.png",
+          "webp": "webp/256/finite-white-zigzag-and-alternating-dots-on-rose.webp",
+          "width": 256,
+          "height": 101,
+          "png_bytes": 44163,
+          "webp_bytes": 37188
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/finite-white-zigzag-and-alternating-dots-on-rose.png",
+          "webp": "webp/512/finite-white-zigzag-and-alternating-dots-on-rose.webp",
+          "width": 512,
+          "height": 202,
+          "png_bytes": 159712,
+          "webp_bytes": 138244
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "fixed-blue-gold-foliate-left-and-bottom-margin-border": {
+      "name": "fixed-blue-gold-foliate-left-and-bottom-margin-border",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-source-extraction",
+      "repeat_axis": "none",
+      "width": 4666,
+      "height": 7289,
+      "png": "png/fixed-blue-gold-foliate-left-and-bottom-margin-border.png",
+      "webp": "webp/fixed-blue-gold-foliate-left-and-bottom-margin-border.webp",
+      "png_bytes": 5991005,
+      "webp_bytes": 4906272,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/fixed-blue-gold-foliate-left-and-bottom-margin-border.png",
+          "webp": "webp/128/fixed-blue-gold-foliate-left-and-bottom-margin-border.webp",
+          "width": 82,
+          "height": 128,
+          "png_bytes": 6416,
+          "webp_bytes": 4716
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/fixed-blue-gold-foliate-left-and-bottom-margin-border.png",
+          "webp": "webp/256/fixed-blue-gold-foliate-left-and-bottom-margin-border.webp",
+          "width": 164,
+          "height": 256,
+          "png_bytes": 18690,
+          "webp_bytes": 14238
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/fixed-blue-gold-foliate-left-and-bottom-margin-border.png",
+          "webp": "webp/512/fixed-blue-gold-foliate-left-and-bottom-margin-border.webp",
+          "width": 328,
+          "height": 512,
+          "png_bytes": 57663,
+          "webp_bytes": 45778
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/fixed-blue-gold-foliate-left-and-bottom-margin-border.png",
+          "webp": "webp/768/fixed-blue-gold-foliate-left-and-bottom-margin-border.webp",
+          "width": 492,
+          "height": 768,
+          "png_bytes": 112759,
+          "webp_bytes": 85982
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "fixed-blue-gold-foliate-left-and-top-margin-border": {
+      "name": "fixed-blue-gold-foliate-left-and-top-margin-border",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-source-extraction",
+      "repeat_axis": "none",
+      "width": 3927,
+      "height": 7439,
+      "png": "png/fixed-blue-gold-foliate-left-and-top-margin-border.png",
+      "webp": "webp/fixed-blue-gold-foliate-left-and-top-margin-border.webp",
+      "png_bytes": 5450321,
+      "webp_bytes": 4447436,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/fixed-blue-gold-foliate-left-and-top-margin-border.png",
+          "webp": "webp/128/fixed-blue-gold-foliate-left-and-top-margin-border.webp",
+          "width": 68,
+          "height": 128,
+          "png_bytes": 5886,
+          "webp_bytes": 4150
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/fixed-blue-gold-foliate-left-and-top-margin-border.png",
+          "webp": "webp/256/fixed-blue-gold-foliate-left-and-top-margin-border.webp",
+          "width": 135,
+          "height": 256,
+          "png_bytes": 16748,
+          "webp_bytes": 12270
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/fixed-blue-gold-foliate-left-and-top-margin-border.png",
+          "webp": "webp/512/fixed-blue-gold-foliate-left-and-top-margin-border.webp",
+          "width": 270,
+          "height": 512,
+          "png_bytes": 49995,
+          "webp_bytes": 38468
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/fixed-blue-gold-foliate-left-and-top-margin-border.png",
+          "webp": "webp/768/fixed-blue-gold-foliate-left-and-top-margin-border.webp",
+          "width": 405,
+          "height": 768,
+          "png_bytes": 96304,
+          "webp_bytes": 72426
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "fixed-twisted-column-arcade-with-scalloped-arch": {
+      "name": "fixed-twisted-column-arcade-with-scalloped-arch",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-source-extraction",
+      "repeat_axis": "none",
+      "width": 3963,
+      "height": 5856,
+      "png": "png/fixed-twisted-column-arcade-with-scalloped-arch.png",
+      "webp": "webp/fixed-twisted-column-arcade-with-scalloped-arch.webp",
+      "png_bytes": 11551065,
+      "webp_bytes": 9162086,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/fixed-twisted-column-arcade-with-scalloped-arch.png",
+          "webp": "webp/128/fixed-twisted-column-arcade-with-scalloped-arch.webp",
+          "width": 87,
+          "height": 128,
+          "png_bytes": 12721,
+          "webp_bytes": 11072
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/fixed-twisted-column-arcade-with-scalloped-arch.png",
+          "webp": "webp/256/fixed-twisted-column-arcade-with-scalloped-arch.webp",
+          "width": 173,
+          "height": 256,
+          "png_bytes": 38752,
+          "webp_bytes": 30650
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/fixed-twisted-column-arcade-with-scalloped-arch.png",
+          "webp": "webp/512/fixed-twisted-column-arcade-with-scalloped-arch.webp",
+          "width": 346,
+          "height": 512,
+          "png_bytes": 126551,
+          "webp_bytes": 97266
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/fixed-twisted-column-arcade-with-scalloped-arch.png",
+          "webp": "webp/768/fixed-twisted-column-arcade-with-scalloped-arch.webp",
+          "width": 520,
+          "height": 768,
+          "png_bytes": 261122,
+          "webp_bytes": 201186
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "long-brown-foliate-vine-with-blue-green-and-gold-leaves": {
+      "name": "long-brown-foliate-vine-with-blue-green-and-gold-leaves",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-source-extraction",
+      "repeat_axis": "none",
+      "width": 774,
+      "height": 4209,
+      "png": "png/long-brown-foliate-vine-with-blue-green-and-gold-leaves.png",
+      "webp": "webp/long-brown-foliate-vine-with-blue-green-and-gold-leaves.webp",
+      "png_bytes": 2207221,
+      "webp_bytes": 1765350,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/long-brown-foliate-vine-with-blue-green-and-gold-leaves.png",
+          "webp": "webp/128/long-brown-foliate-vine-with-blue-green-and-gold-leaves.webp",
+          "width": 24,
+          "height": 128,
+          "png_bytes": 6456,
+          "webp_bytes": 4722
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/long-brown-foliate-vine-with-blue-green-and-gold-leaves.png",
+          "webp": "webp/256/long-brown-foliate-vine-with-blue-green-and-gold-leaves.webp",
+          "width": 47,
+          "height": 256,
+          "png_bytes": 18227,
+          "webp_bytes": 13876
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/long-brown-foliate-vine-with-blue-green-and-gold-leaves.png",
+          "webp": "webp/512/long-brown-foliate-vine-with-blue-green-and-gold-leaves.webp",
+          "width": 94,
+          "height": 512,
+          "png_bytes": 55078,
+          "webp_bytes": 42228
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/long-brown-foliate-vine-with-blue-green-and-gold-leaves.png",
+          "webp": "webp/768/long-brown-foliate-vine-with-blue-green-and-gold-leaves.webp",
+          "width": 141,
+          "height": 768,
+          "png_bytes": 107359,
+          "webp_bytes": 82228
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "long-left-blue-and-gold-rod-with-two-profile-heads": {
+      "name": "long-left-blue-and-gold-rod-with-two-profile-heads",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 421,
+      "height": 2100,
+      "png": "png/long-left-blue-and-gold-rod-with-two-profile-heads.png",
+      "webp": "webp/long-left-blue-and-gold-rod-with-two-profile-heads.webp",
+      "png_bytes": 645606,
+      "webp_bytes": 472754,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/long-left-blue-and-gold-rod-with-two-profile-heads.png",
+          "webp": "webp/128/long-left-blue-and-gold-rod-with-two-profile-heads.webp",
+          "width": 26,
+          "height": 128,
+          "png_bytes": 5058,
+          "webp_bytes": 4550
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/long-left-blue-and-gold-rod-with-two-profile-heads.png",
+          "webp": "webp/256/long-left-blue-and-gold-rod-with-two-profile-heads.webp",
+          "width": 51,
+          "height": 256,
+          "png_bytes": 15649,
+          "webp_bytes": 13870
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/long-left-blue-and-gold-rod-with-two-profile-heads.png",
+          "webp": "webp/512/long-left-blue-and-gold-rod-with-two-profile-heads.webp",
+          "width": 103,
+          "height": 512,
+          "png_bytes": 52338,
+          "webp_bytes": 40656
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/long-left-blue-and-gold-rod-with-two-profile-heads.png",
+          "webp": "webp/768/long-left-blue-and-gold-rod-with-two-profile-heads.webp",
+          "width": 154,
+          "height": 768,
+          "png_bytes": 106874,
+          "webp_bytes": 81610
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "lower-black-foliate-curl": {
+      "name": "lower-black-foliate-curl",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 1030,
+      "height": 734,
+      "png": "png/lower-black-foliate-curl.png",
+      "webp": "webp/lower-black-foliate-curl.webp",
+      "png_bytes": 226392,
+      "webp_bytes": 155220,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/lower-black-foliate-curl.png",
+          "webp": "webp/128/lower-black-foliate-curl.webp",
+          "width": 128,
+          "height": 91,
+          "png_bytes": 6932,
+          "webp_bytes": 4768
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/lower-black-foliate-curl.png",
+          "webp": "webp/256/lower-black-foliate-curl.webp",
+          "width": 256,
+          "height": 182,
+          "png_bytes": 21165,
+          "webp_bytes": 14430
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/lower-black-foliate-curl.png",
+          "webp": "webp/512/lower-black-foliate-curl.webp",
+          "width": 512,
+          "height": 365,
+          "png_bytes": 66892,
+          "webp_bytes": 46930
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/lower-black-foliate-curl.png",
+          "webp": "webp/768/lower-black-foliate-curl.webp",
+          "width": 768,
+          "height": 547,
+          "png_bytes": 135959,
+          "webp_bytes": 94738
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "lower-profile-head-on-long-blue-and-gold-rod": {
+      "name": "lower-profile-head-on-long-blue-and-gold-rod",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 437,
+      "height": 2106,
+      "png": "png/lower-profile-head-on-long-blue-and-gold-rod.png",
+      "webp": "webp/lower-profile-head-on-long-blue-and-gold-rod.webp",
+      "png_bytes": 744069,
+      "webp_bytes": 540234,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/lower-profile-head-on-long-blue-and-gold-rod.png",
+          "webp": "webp/128/lower-profile-head-on-long-blue-and-gold-rod.webp",
+          "width": 27,
+          "height": 128,
+          "png_bytes": 5423,
+          "webp_bytes": 4954
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/lower-profile-head-on-long-blue-and-gold-rod.png",
+          "webp": "webp/256/lower-profile-head-on-long-blue-and-gold-rod.webp",
+          "width": 53,
+          "height": 256,
+          "png_bytes": 16903,
+          "webp_bytes": 15440
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/lower-profile-head-on-long-blue-and-gold-rod.png",
+          "webp": "webp/512/lower-profile-head-on-long-blue-and-gold-rod.webp",
+          "width": 106,
+          "height": 512,
+          "png_bytes": 57196,
+          "webp_bytes": 44014
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/lower-profile-head-on-long-blue-and-gold-rod.png",
+          "webp": "webp/768/lower-profile-head-on-long-blue-and-gold-rod.webp",
+          "width": 159,
+          "height": 768,
+          "png_bytes": 118682,
+          "webp_bytes": 89130
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "orange-trefoil-flower-with-white-painted-outline": {
+      "name": "orange-trefoil-flower-with-white-painted-outline",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-source-extraction",
+      "repeat_axis": "none",
+      "width": 283,
+      "height": 274,
+      "png": "png/orange-trefoil-flower-with-white-painted-outline.png",
+      "webp": "webp/orange-trefoil-flower-with-white-painted-outline.webp",
+      "png_bytes": 87868,
+      "webp_bytes": 72808,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/orange-trefoil-flower-with-white-painted-outline.png",
+          "webp": "webp/128/orange-trefoil-flower-with-white-painted-outline.webp",
+          "width": 128,
+          "height": 124,
+          "png_bytes": 21239,
+          "webp_bytes": 18274
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/orange-trefoil-flower-with-white-painted-outline.png",
+          "webp": "webp/256/orange-trefoil-flower-with-white-painted-outline.webp",
+          "width": 256,
+          "height": 248,
+          "png_bytes": 73453,
+          "webp_bytes": 61896
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "red-four-lobed-quatrefoil-from-wind-wheel": {
+      "name": "red-four-lobed-quatrefoil-from-wind-wheel",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-source-extraction",
+      "repeat_axis": "none",
+      "width": 252,
+      "height": 246,
+      "png": "png/red-four-lobed-quatrefoil-from-wind-wheel.png",
+      "webp": "webp/red-four-lobed-quatrefoil-from-wind-wheel.webp",
+      "png_bytes": 66537,
+      "webp_bytes": 53382,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/red-four-lobed-quatrefoil-from-wind-wheel.png",
+          "webp": "webp/128/red-four-lobed-quatrefoil-from-wind-wheel.webp",
+          "width": 128,
+          "height": 125,
+          "png_bytes": 19407,
+          "webp_bytes": 16590
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "right-black-leaf-curl-on-blue-and-gold-stem": {
+      "name": "right-black-leaf-curl-on-blue-and-gold-stem",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 687,
+      "height": 1026,
+      "png": "png/right-black-leaf-curl-on-blue-and-gold-stem.png",
+      "webp": "webp/right-black-leaf-curl-on-blue-and-gold-stem.webp",
+      "png_bytes": 333416,
+      "webp_bytes": 241030,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/right-black-leaf-curl-on-blue-and-gold-stem.png",
+          "webp": "webp/128/right-black-leaf-curl-on-blue-and-gold-stem.webp",
+          "width": 86,
+          "height": 128,
+          "png_bytes": 8818,
+          "webp_bytes": 6816
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/right-black-leaf-curl-on-blue-and-gold-stem.png",
+          "webp": "webp/256/right-black-leaf-curl-on-blue-and-gold-stem.webp",
+          "width": 171,
+          "height": 256,
+          "png_bytes": 28426,
+          "webp_bytes": 22022
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/right-black-leaf-curl-on-blue-and-gold-stem.png",
+          "webp": "webp/512/right-black-leaf-curl-on-blue-and-gold-stem.webp",
+          "width": 343,
+          "height": 512,
+          "png_bytes": 94538,
+          "webp_bytes": 70272
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/right-black-leaf-curl-on-blue-and-gold-stem.png",
+          "webp": "webp/768/right-black-leaf-curl-on-blue-and-gold-stem.webp",
+          "width": 514,
+          "height": 768,
+          "png_bytes": 198737,
+          "webp_bytes": 145364
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "right-pointed-blue-and-gold-leaf-swash": {
+      "name": "right-pointed-blue-and-gold-leaf-swash",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 586,
+      "height": 397,
+      "png": "png/right-pointed-blue-and-gold-leaf-swash.png",
+      "webp": "webp/right-pointed-blue-and-gold-leaf-swash.webp",
+      "png_bytes": 205811,
+      "webp_bytes": 158424,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/right-pointed-blue-and-gold-leaf-swash.png",
+          "webp": "webp/128/right-pointed-blue-and-gold-leaf-swash.webp",
+          "width": 128,
+          "height": 87,
+          "png_bytes": 13433,
+          "webp_bytes": 11266
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/right-pointed-blue-and-gold-leaf-swash.png",
+          "webp": "webp/256/right-pointed-blue-and-gold-leaf-swash.webp",
+          "width": 256,
+          "height": 173,
+          "png_bytes": 45156,
+          "webp_bytes": 35306
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/right-pointed-blue-and-gold-leaf-swash.png",
+          "webp": "webp/512/right-pointed-blue-and-gold-leaf-swash.webp",
+          "width": 512,
+          "height": 347,
+          "png_bytes": 160628,
+          "webp_bytes": 125638
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "short-blue-and-gold-curled-leaf-terminal": {
+      "name": "short-blue-and-gold-curled-leaf-terminal",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 560,
+      "height": 388,
+      "png": "png/short-blue-and-gold-curled-leaf-terminal.png",
+      "webp": "webp/short-blue-and-gold-curled-leaf-terminal.webp",
+      "png_bytes": 222312,
+      "webp_bytes": 164712,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/short-blue-and-gold-curled-leaf-terminal.png",
+          "webp": "webp/128/short-blue-and-gold-curled-leaf-terminal.webp",
+          "width": 128,
+          "height": 89,
+          "png_bytes": 14802,
+          "webp_bytes": 11968
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/short-blue-and-gold-curled-leaf-terminal.png",
+          "webp": "webp/256/short-blue-and-gold-curled-leaf-terminal.webp",
+          "width": 256,
+          "height": 177,
+          "png_bytes": 51490,
+          "webp_bytes": 40012
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/short-blue-and-gold-curled-leaf-terminal.png",
+          "webp": "webp/512/short-blue-and-gold-curled-leaf-terminal.webp",
+          "width": 512,
+          "height": 355,
+          "png_bytes": 186668,
+          "webp_bytes": 142420
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "upper-blue-and-gold-margin-with-three-grotesque-heads": {
+      "name": "upper-blue-and-gold-margin-with-three-grotesque-heads",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 2125,
+      "height": 585,
+      "png": "png/upper-blue-and-gold-margin-with-three-grotesque-heads.png",
+      "webp": "webp/upper-blue-and-gold-margin-with-three-grotesque-heads.webp",
+      "png_bytes": 911777,
+      "webp_bytes": 659300,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/upper-blue-and-gold-margin-with-three-grotesque-heads.png",
+          "webp": "webp/128/upper-blue-and-gold-margin-with-three-grotesque-heads.webp",
+          "width": 128,
+          "height": 35,
+          "png_bytes": 6934,
+          "webp_bytes": 5822
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/upper-blue-and-gold-margin-with-three-grotesque-heads.png",
+          "webp": "webp/256/upper-blue-and-gold-margin-with-three-grotesque-heads.webp",
+          "width": 256,
+          "height": 70,
+          "png_bytes": 22103,
+          "webp_bytes": 16992
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/upper-blue-and-gold-margin-with-three-grotesque-heads.png",
+          "webp": "webp/512/upper-blue-and-gold-margin-with-three-grotesque-heads.webp",
+          "width": 512,
+          "height": 141,
+          "png_bytes": 74386,
+          "webp_bytes": 54016
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/upper-blue-and-gold-margin-with-three-grotesque-heads.png",
+          "webp": "webp/768/upper-blue-and-gold-margin-with-three-grotesque-heads.webp",
+          "width": 768,
+          "height": 211,
+          "png_bytes": 150260,
+          "webp_bytes": 107254
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "upper-hooded-head-on-bent-gold-rod": {
+      "name": "upper-hooded-head-on-bent-gold-rod",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 668,
+      "height": 1729,
+      "png": "png/upper-hooded-head-on-bent-gold-rod.png",
+      "webp": "webp/upper-hooded-head-on-bent-gold-rod.webp",
+      "png_bytes": 593017,
+      "webp_bytes": 420946,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/upper-hooded-head-on-bent-gold-rod.png",
+          "webp": "webp/128/upper-hooded-head-on-bent-gold-rod.webp",
+          "width": 49,
+          "height": 128,
+          "png_bytes": 6463,
+          "webp_bytes": 5468
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/upper-hooded-head-on-bent-gold-rod.png",
+          "webp": "webp/256/upper-hooded-head-on-bent-gold-rod.webp",
+          "width": 99,
+          "height": 256,
+          "png_bytes": 20117,
+          "webp_bytes": 17140
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/upper-hooded-head-on-bent-gold-rod.png",
+          "webp": "webp/512/upper-hooded-head-on-bent-gold-rod.webp",
+          "width": 198,
+          "height": 512,
+          "png_bytes": 66767,
+          "webp_bytes": 49136
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/upper-hooded-head-on-bent-gold-rod.png",
+          "webp": "webp/768/upper-hooded-head-on-bent-gold-rod.webp",
+          "width": 297,
+          "height": 768,
+          "png_bytes": 137660,
+          "webp_bytes": 100762
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    }
+  },
+  "files": {
+    "png/128/blue-line-filler-with-white-waves-hatching-and-curled-terminal.png": {
+      "bytes": 6894,
+      "sha256": "16be1630e636ac0f1d72e882da319d6bdb6ff60ea43d33b2803bfd3c90134bbe"
+    },
+    "png/128/finite-blue-and-rose-band-with-gold-pips-and-white-curls.png": {
+      "bytes": 6877,
+      "sha256": "f9b4071a8452857a54803382a08004721a5d5dee9fd7b34e8386252bfa10de41"
+    },
+    "png/128/finite-blue-rose-white-foliate-waves-and-gold-roundels.png": {
+      "bytes": 4252,
+      "sha256": "f205f314d6e390d867512bb82efa2c7272e2c0a4fb5de1e3d914aba4801a41ce"
+    },
+    "png/128/finite-four-white-loops-on-blue.png": {
+      "bytes": 12133,
+      "sha256": "f4220a51912766bb4eaecdc41ec25044d41057d69de3b1c9ffc0a28cc022b619"
+    },
+    "png/128/finite-gold-pip-and-double-white-cross-on-rose.png": {
+      "bytes": 13884,
+      "sha256": "4260bdab450e1722f8e94d4cbcec74096073c92a3241912786492ceaf2c224bc"
+    },
+    "png/128/finite-gold-pip-and-white-double-ended-curl-on-rose.png": {
+      "bytes": 16658,
+      "sha256": "2952b1a6ace82c0bf44caebe4cc366accff1be6daeb82c24bd202bbc0c454f4b"
+    },
+    "png/128/finite-gold-pip-and-white-wave-on-blue.png": {
+      "bytes": 11287,
+      "sha256": "5c35f212d03dec5052042c15bc326464f27c62c127f215cc6d6734d3e14b7d61"
+    },
+    "png/128/finite-gold-roundels-and-white-wave-on-rose.png": {
+      "bytes": 7644,
+      "sha256": "9ec31e7a8cbd008c50cbb53ba833c09919f202da2184cd5466c9fcbdb2602166"
+    },
+    "png/128/finite-gold-wave-and-white-zigzag-over-blue-rose.png": {
+      "bytes": 11463,
+      "sha256": "74add27b796b159530a2151be64de6f644824c41cf2d8b1560f6035da9ffc67e"
+    },
+    "png/128/finite-gold-wave-over-blue-and-rose-ground.png": {
+      "bytes": 9643,
+      "sha256": "5e97650d8398e31541d8353987792c8e427d915974344012ac97c466d52b4aed"
+    },
+    "png/128/finite-paired-gold-roundels-and-foliate-white-wave-on-rose-blue.png": {
+      "bytes": 9907,
+      "sha256": "e234defdde6b63f13cc99a55a7d4e8673b5cec4e4f682aab044b458d4f0649be"
+    },
+    "png/128/finite-paired-gold-roundels-and-white-waves-on-blue-rose.png": {
+      "bytes": 9124,
+      "sha256": "d453100408628ce68b68d07f2d96b27fcf37e7bdec9a114f89d7d6a2ce2d0e1b"
+    },
+    "png/128/finite-paired-gold-roundels-on-rose-band.png": {
+      "bytes": 13706,
+      "sha256": "83ce29f43e125c172780dc459bd0f80d2fd9e86866bc65287508b247f7d71b4a"
+    },
+    "png/128/finite-single-gold-roundel-and-looped-white-wave-on-rose-blue.png": {
+      "bytes": 9939,
+      "sha256": "050d2a22d61380a50448883ddb0eb78f24ba4f9aafdc195d1b9847ab12c8a4a3"
+    },
+    "png/128/finite-three-gold-roundels-and-white-zigzag-on-blue-rose.png": {
+      "bytes": 6196,
+      "sha256": "ffb91141d4d32de5620c1bc828d18ca08efa0f6dcc6ea12e427fc2602e672353"
+    },
+    "png/128/finite-white-crossed-strokes-and-gold-pip-on-blue.png": {
+      "bytes": 13870,
+      "sha256": "e7127823deee5b6fa94ddc8ebc20c15ea708a4794ba8fbd9d8a884de81588ed7"
+    },
+    "png/128/finite-white-zigzag-and-alternating-dots-on-rose.png": {
+      "bytes": 12744,
+      "sha256": "6c8aa3329c4b2cf41e88c8e9395df53d6def375870f5ba9f2db4cb9b145a31a7"
+    },
+    "png/128/fixed-blue-gold-foliate-left-and-bottom-margin-border.png": {
+      "bytes": 6416,
+      "sha256": "bc1853bdeb2ca9aa4fee979e188669800439dfc680bfd27789ba8259bde92bdf"
+    },
+    "png/128/fixed-blue-gold-foliate-left-and-top-margin-border.png": {
+      "bytes": 5886,
+      "sha256": "9ac8f9ceea1e6f8cbaa47d16a2d14a0b331d67744550f5bd604debc0b650464f"
+    },
+    "png/128/fixed-twisted-column-arcade-with-scalloped-arch.png": {
+      "bytes": 12721,
+      "sha256": "443f45cf59e52b85ed771df4383004df0534d3babdd0dfb681d42b999c7b594e"
+    },
+    "png/128/long-brown-foliate-vine-with-blue-green-and-gold-leaves.png": {
+      "bytes": 6456,
+      "sha256": "fe727e2adc4004c69ccc0d62f42a274520df07a4d00f48851ca6a4405af92f23"
+    },
+    "png/128/long-left-blue-and-gold-rod-with-two-profile-heads.png": {
+      "bytes": 5058,
+      "sha256": "992cff934a754d58ed3960a610df25ee42d377481d282fccce7e180fb15d6666"
+    },
+    "png/128/lower-black-foliate-curl.png": {
+      "bytes": 6932,
+      "sha256": "13cac68568fa530be14f556a64f18ac835e3f894b451789f443bfcd0e3deacdb"
+    },
+    "png/128/lower-profile-head-on-long-blue-and-gold-rod.png": {
+      "bytes": 5423,
+      "sha256": "30eb209edbefedc565b5193f3efe8d014b22e9df51c4e2c050cff1a1d17a022c"
+    },
+    "png/128/orange-trefoil-flower-with-white-painted-outline.png": {
+      "bytes": 21239,
+      "sha256": "d7583be1842a8d558db05086d8eba2156b7f16994b4067395f3a3cce74f34483"
+    },
+    "png/128/red-four-lobed-quatrefoil-from-wind-wheel.png": {
+      "bytes": 19407,
+      "sha256": "291c966be839575b5c4cd44ce25c26f8c2130b4f73d8e362198feb0f0101593e"
+    },
+    "png/128/right-black-leaf-curl-on-blue-and-gold-stem.png": {
+      "bytes": 8818,
+      "sha256": "46d280dac69fcdeb3436010823cc0bb13604c5b063cb2274cf55cdbe422e698c"
+    },
+    "png/128/right-pointed-blue-and-gold-leaf-swash.png": {
+      "bytes": 13433,
+      "sha256": "e089419d86600a29f2a013c10ba147f9c4b4512f64b71e2a6e8c3567f6fee526"
+    },
+    "png/128/short-blue-and-gold-curled-leaf-terminal.png": {
+      "bytes": 14802,
+      "sha256": "ea11f318055600bb0027ecc181d27d23cd389e4c2976b4c17af00be2446075dd"
+    },
+    "png/128/upper-blue-and-gold-margin-with-three-grotesque-heads.png": {
+      "bytes": 6934,
+      "sha256": "ad4293b83eae3797bd0f7a69f087d3e8088f644be7137cba47002c7805a75884"
+    },
+    "png/128/upper-hooded-head-on-bent-gold-rod.png": {
+      "bytes": 6463,
+      "sha256": "bd509cf5ff470123b73e27fb557eb642a39d8bfecb6fb1a1e502af31b1c9a191"
+    },
+    "png/256/blue-line-filler-with-white-waves-hatching-and-curled-terminal.png": {
+      "bytes": 23816,
+      "sha256": "b0d14c5c0c35780cc622e4cd5cdf6cd9395f1e7161150ac6d5175b44bf478595"
+    },
+    "png/256/finite-blue-and-rose-band-with-gold-pips-and-white-curls.png": {
+      "bytes": 24144,
+      "sha256": "0d0f1a2f30c1294cebd34bf64e8cf59d2b71c5fbb2761b29cd66c86b8a423f4c"
+    },
+    "png/256/finite-blue-rose-white-foliate-waves-and-gold-roundels.png": {
+      "bytes": 15042,
+      "sha256": "f08e7ab8025b760bd803e0a507248493ae73bbe1bb36a0f57b3b4e78b994599e"
+    },
+    "png/256/finite-four-white-loops-on-blue.png": {
+      "bytes": 44258,
+      "sha256": "c6284666539fd90fe3937b1c20f57fd2422124dc801b22f14cc84287e82d5b5a"
+    },
+    "png/256/finite-gold-pip-and-double-white-cross-on-rose.png": {
+      "bytes": 48428,
+      "sha256": "f97c1aaeea23ebcc4af3e7654ce9a1655d291e0d2fc0fc791d4b39a0da054f05"
+    },
+    "png/256/finite-gold-pip-and-white-double-ended-curl-on-rose.png": {
+      "bytes": 58194,
+      "sha256": "25b141c8ec87bdcbd990d3de501e17602cd2f2949bf6c05655146296eb7ae712"
+    },
+    "png/256/finite-gold-pip-and-white-wave-on-blue.png": {
+      "bytes": 41105,
+      "sha256": "a6f9a6b15887e49ed3163359825fda9c476c75eb79764a121f458ec3a02d5905"
+    },
+    "png/256/finite-gold-roundels-and-white-wave-on-rose.png": {
+      "bytes": 26711,
+      "sha256": "f435d969aad20eb58aea2131c1502bf1f019e6ed16f360f7423ff45d8dad4848"
+    },
+    "png/256/finite-gold-wave-and-white-zigzag-over-blue-rose.png": {
+      "bytes": 40428,
+      "sha256": "c795a29930dd81cfe2460ca9f87ccc6987c7c94706891e5fcf350c8f6ea25de9"
+    },
+    "png/256/finite-gold-wave-over-blue-and-rose-ground.png": {
+      "bytes": 32025,
+      "sha256": "b07f105f5e131dbb0480cddfe7f6c828fbe336b05b38a7b594051a4209533b9c"
+    },
+    "png/256/finite-paired-gold-roundels-and-foliate-white-wave-on-rose-blue.png": {
+      "bytes": 34494,
+      "sha256": "97d46fc27b5c231db098c3a2f40d3990dd241d2eced21a67caf70f57c610861e"
+    },
+    "png/256/finite-paired-gold-roundels-and-white-waves-on-blue-rose.png": {
+      "bytes": 31852,
+      "sha256": "3c4798564af9c8d2b13c59c00ee39b8f2b5403714bc1e538ba4c4f1ffd04d487"
+    },
+    "png/256/finite-paired-gold-roundels-on-rose-band.png": {
+      "bytes": 47427,
+      "sha256": "f58f6d8ddb4765e71c0582c5394f0abae10558976937d9232e280f5210ee0417"
+    },
+    "png/256/finite-single-gold-roundel-and-looped-white-wave-on-rose-blue.png": {
+      "bytes": 35578,
+      "sha256": "3b702a2316ac9283bd29d4ef7f0db36f30fcccda72cf8c61c5094b3d8a5b372e"
+    },
+    "png/256/finite-three-gold-roundels-and-white-zigzag-on-blue-rose.png": {
+      "bytes": 21504,
+      "sha256": "a165b6867ab0651c5b887432533a8c9273ea1aed7417c21ba91b0b377c57238d"
+    },
+    "png/256/finite-white-crossed-strokes-and-gold-pip-on-blue.png": {
+      "bytes": 47190,
+      "sha256": "b936d5826c76e950183524cc09501ee4b7b8b4a5ff5a65419610f2312d2f8e21"
+    },
+    "png/256/finite-white-zigzag-and-alternating-dots-on-rose.png": {
+      "bytes": 44163,
+      "sha256": "982174dab569c920e363bde557c20aca5d8d600bbefed3fab07d303e861f5749"
+    },
+    "png/256/fixed-blue-gold-foliate-left-and-bottom-margin-border.png": {
+      "bytes": 18690,
+      "sha256": "1aa19baf3d10123fc8e688013644195e0bfd0c4fe5ab869bdb5e9d755115264f"
+    },
+    "png/256/fixed-blue-gold-foliate-left-and-top-margin-border.png": {
+      "bytes": 16748,
+      "sha256": "1f6aa2049fbc96bba8a889e86965a1f1edef71b68d9f6062879d17ccf2715619"
+    },
+    "png/256/fixed-twisted-column-arcade-with-scalloped-arch.png": {
+      "bytes": 38752,
+      "sha256": "cf22d54cf9f0642be08973776cbd714ad4485b9c5885bf2fde9b43bfe06d59c4"
+    },
+    "png/256/long-brown-foliate-vine-with-blue-green-and-gold-leaves.png": {
+      "bytes": 18227,
+      "sha256": "05d4815f25a0a58b5d754a6bad48495912cf6584000d83fc59ba11e862ebfd19"
+    },
+    "png/256/long-left-blue-and-gold-rod-with-two-profile-heads.png": {
+      "bytes": 15649,
+      "sha256": "e77101745067fa7c0fd37c28496196f66f85c0f6aecfc005f2a00b4fd0a447ba"
+    },
+    "png/256/lower-black-foliate-curl.png": {
+      "bytes": 21165,
+      "sha256": "95e4f41765e1a54c08d83cfde5ee13f819cfcae187c3af1a261006d7b982ef3c"
+    },
+    "png/256/lower-profile-head-on-long-blue-and-gold-rod.png": {
+      "bytes": 16903,
+      "sha256": "5336f25f66c1e5c45f7a93b5143d949f3d0095666132c960b80be2b04d387f03"
+    },
+    "png/256/orange-trefoil-flower-with-white-painted-outline.png": {
+      "bytes": 73453,
+      "sha256": "956f70033a95016ae7a3ecd1477fe16142ab3d6ce4359aa21145eb60198e6cc4"
+    },
+    "png/256/right-black-leaf-curl-on-blue-and-gold-stem.png": {
+      "bytes": 28426,
+      "sha256": "7250359357d3672660c47d111b2500500168aa97820a71e000e9fbbe2775f0fa"
+    },
+    "png/256/right-pointed-blue-and-gold-leaf-swash.png": {
+      "bytes": 45156,
+      "sha256": "a83dc7d746f0c988487073679517d203d4efad1c81336e63dc17117eed0d2293"
+    },
+    "png/256/short-blue-and-gold-curled-leaf-terminal.png": {
+      "bytes": 51490,
+      "sha256": "be603b41fa14c5319658f3964a9f6cf9a2e0c20f9196b11a49dcee9bc72d5b93"
+    },
+    "png/256/upper-blue-and-gold-margin-with-three-grotesque-heads.png": {
+      "bytes": 22103,
+      "sha256": "fce0fc89a1d0c21ea11bf4f4dd9c1ea67ee09414d8e97ecb48586ffbf9b52de1"
+    },
+    "png/256/upper-hooded-head-on-bent-gold-rod.png": {
+      "bytes": 20117,
+      "sha256": "0110c99abc7db2c83faba908f09aa9cd882c2c5d13ef9d60435c05fc94b69a79"
+    },
+    "png/512/blue-line-filler-with-white-waves-hatching-and-curled-terminal.png": {
+      "bytes": 85875,
+      "sha256": "351a261fb3b5693e0f36ed1e6c581175c7ef5c88428ff7f37e8b435b60290e9e"
+    },
+    "png/512/finite-blue-and-rose-band-with-gold-pips-and-white-curls.png": {
+      "bytes": 80836,
+      "sha256": "381f67bc442492e8998a481ecf604b0d31510d083672bd672b7de5a09208c08b"
+    },
+    "png/512/finite-blue-rose-white-foliate-waves-and-gold-roundels.png": {
+      "bytes": 52044,
+      "sha256": "f1978fd9afd703791258f3336643551c9c82c7d61c4649d6defdad38fc3b93f8"
+    },
+    "png/512/finite-four-white-loops-on-blue.png": {
+      "bytes": 158711,
+      "sha256": "21c66f6dd92b6541412f44493caa9647540381d78f915db9a8d9d6bea3a6425b"
+    },
+    "png/512/finite-gold-pip-and-white-wave-on-blue.png": {
+      "bytes": 145974,
+      "sha256": "9bb481a614c46cc682ce30125ff3441e681f8e3897d498f83524953bb9e26cc8"
+    },
+    "png/512/finite-gold-roundels-and-white-wave-on-rose.png": {
+      "bytes": 93281,
+      "sha256": "80c84b9ce4443452fde379f424fc26a52cdab3ad3c820eb46b1932f3bf66d41b"
+    },
+    "png/512/finite-gold-wave-and-white-zigzag-over-blue-rose.png": {
+      "bytes": 142893,
+      "sha256": "7d173fe37e52574834dab29bfcc232deff748e5fbbe80bc5f81aa51504e9ba73"
+    },
+    "png/512/finite-gold-wave-over-blue-and-rose-ground.png": {
+      "bytes": 110937,
+      "sha256": "7a52d56c005f331e74f88c15fbeb11c52f4fce7b76b20645e6856e7e5c0cd998"
+    },
+    "png/512/finite-paired-gold-roundels-and-foliate-white-wave-on-rose-blue.png": {
+      "bytes": 121957,
+      "sha256": "b0e7dbb24dfbf2fcfaf11dfa7862c38d9cdd1ce8f5d7d1914845c6dedd22801d"
+    },
+    "png/512/finite-paired-gold-roundels-and-white-waves-on-blue-rose.png": {
+      "bytes": 113700,
+      "sha256": "0a559b8fbe85edfc34c45822e8d3140835672d7743d64d7441c0c76f3da111aa"
+    },
+    "png/512/finite-paired-gold-roundels-on-rose-band.png": {
+      "bytes": 167779,
+      "sha256": "c841b61c9f0a5648940dad690551d719c830e39a5d0b41ea4e56de3d66b24b2a"
+    },
+    "png/512/finite-single-gold-roundel-and-looped-white-wave-on-rose-blue.png": {
+      "bytes": 124327,
+      "sha256": "2196e3d3fbdbdcd7d9980884e80505f4e288736493e8c84f680b1ac6042e5881"
+    },
+    "png/512/finite-three-gold-roundels-and-white-zigzag-on-blue-rose.png": {
+      "bytes": 77138,
+      "sha256": "a789fc5e6c96006300169835adbf5aa598535ff3d51d033d1ce6d8bca80793d1"
+    },
+    "png/512/finite-white-crossed-strokes-and-gold-pip-on-blue.png": {
+      "bytes": 163093,
+      "sha256": "8476bef7acc25376891e7e19456dd28442bef3a0323dfbfb10a6eafee177c512"
+    },
+    "png/512/finite-white-zigzag-and-alternating-dots-on-rose.png": {
+      "bytes": 159712,
+      "sha256": "d61fd6a7ef87a6ea3e3954cebf21e265f4b6c83c9abd1fe476d36e2e9e1b220c"
+    },
+    "png/512/fixed-blue-gold-foliate-left-and-bottom-margin-border.png": {
+      "bytes": 57663,
+      "sha256": "9c1ee7d5559f415e27fbbb1e104a5e15a17f6da8e3ed1bd807229288d1f1fbfc"
+    },
+    "png/512/fixed-blue-gold-foliate-left-and-top-margin-border.png": {
+      "bytes": 49995,
+      "sha256": "025454f1e6f0f8588a046350b6634093ae276f7d2d24aa9912810e589e24c4c0"
+    },
+    "png/512/fixed-twisted-column-arcade-with-scalloped-arch.png": {
+      "bytes": 126551,
+      "sha256": "9c7f897645b1413150efb493ad8b8bde324a6e0519853e590021fc336b40f7d5"
+    },
+    "png/512/long-brown-foliate-vine-with-blue-green-and-gold-leaves.png": {
+      "bytes": 55078,
+      "sha256": "c669c24affc7757a4de5694241746224b6076ab0616f123784ddee8fa4fc45ba"
+    },
+    "png/512/long-left-blue-and-gold-rod-with-two-profile-heads.png": {
+      "bytes": 52338,
+      "sha256": "7f6db2c50b5e6a8a02c86ab601873d5d5bfb4a49b27f31baeeae496e43013b56"
+    },
+    "png/512/lower-black-foliate-curl.png": {
+      "bytes": 66892,
+      "sha256": "c8acb6996f99815d0c12c8373fe3f21cfde1be84c40253d082a9bbfce9bb9256"
+    },
+    "png/512/lower-profile-head-on-long-blue-and-gold-rod.png": {
+      "bytes": 57196,
+      "sha256": "83304c6eb3a50493ec39e2142ba0a1efe3c891372a9ac510b4b85e5d0d516bf8"
+    },
+    "png/512/right-black-leaf-curl-on-blue-and-gold-stem.png": {
+      "bytes": 94538,
+      "sha256": "b73087ba36424e71a068a1c448f1bfbfb67dc7e0ba6c1dc6b5f46ed59e5b7964"
+    },
+    "png/512/right-pointed-blue-and-gold-leaf-swash.png": {
+      "bytes": 160628,
+      "sha256": "c47b4a389875bafefc26f21cc70c215b0bbdc1d77e0efd2e5a8253c37c2b08b1"
+    },
+    "png/512/short-blue-and-gold-curled-leaf-terminal.png": {
+      "bytes": 186668,
+      "sha256": "6496729f612c70887d62979c78d42294b1f64f439d8b1c4b0518fd4f309a65e3"
+    },
+    "png/512/upper-blue-and-gold-margin-with-three-grotesque-heads.png": {
+      "bytes": 74386,
+      "sha256": "5518fab87e71e6b4bb9f58886930223b4ce4cd8cad3c5a71a108747a5b49239f"
+    },
+    "png/512/upper-hooded-head-on-bent-gold-rod.png": {
+      "bytes": 66767,
+      "sha256": "ea0ea672d2ad0edfce175e692be9d5628a6530925dcc821edb51e775b4aba46d"
+    },
+    "png/768/blue-line-filler-with-white-waves-hatching-and-curled-terminal.png": {
+      "bytes": 180659,
+      "sha256": "7f8872e17ba8d3259420552bc9f97ffb9273da4896fa252213197e1d0a8cd8e9"
+    },
+    "png/768/finite-blue-and-rose-band-with-gold-pips-and-white-curls.png": {
+      "bytes": 167331,
+      "sha256": "5c9ab19fc0a5b7c7be4c68ef1ae936350d3380789bb0d5db5293b61de26684c7"
+    },
+    "png/768/finite-blue-rose-white-foliate-waves-and-gold-roundels.png": {
+      "bytes": 109606,
+      "sha256": "9c34c97ae05f40e271b086233cd2cf0b84210c06c55afb7baa34c1fd6e575269"
+    },
+    "png/768/finite-gold-roundels-and-white-wave-on-rose.png": {
+      "bytes": 195915,
+      "sha256": "af9ca5b5bedc7c24814f38bd42cd960a0dca55216ff308518b52f5ee27be4ac7"
+    },
+    "png/768/finite-gold-wave-over-blue-and-rose-ground.png": {
+      "bytes": 232782,
+      "sha256": "1ed3df6dcfb5a452406a91f1d4e382a3ab50ecfb0142c4c0267d6e7976c52227"
+    },
+    "png/768/finite-paired-gold-roundels-and-foliate-white-wave-on-rose-blue.png": {
+      "bytes": 257433,
+      "sha256": "14c9f96778a260329e188f6c4b4da7a03be0e98e15014eb55c935066b8f20a50"
+    },
+    "png/768/finite-paired-gold-roundels-and-white-waves-on-blue-rose.png": {
+      "bytes": 242164,
+      "sha256": "1d185e534b8a766150885c65012e5f2d1f8d87eb07b695f2661ff0fdaafdea55"
+    },
+    "png/768/finite-three-gold-roundels-and-white-zigzag-on-blue-rose.png": {
+      "bytes": 163655,
+      "sha256": "39b086666017d0c28cd2fea120f49c0e9d05510c624dd8f73f6d892fb2c6e636"
+    },
+    "png/768/fixed-blue-gold-foliate-left-and-bottom-margin-border.png": {
+      "bytes": 112759,
+      "sha256": "ed1f05bf2b0b343f29d249f569e18817dbb427e1e252e2b5e2021c3a785c93bd"
+    },
+    "png/768/fixed-blue-gold-foliate-left-and-top-margin-border.png": {
+      "bytes": 96304,
+      "sha256": "06bdec2f06d31d8676e4ebb88bbd1be4ebef7a3a701c1a62a3420174c1313199"
+    },
+    "png/768/fixed-twisted-column-arcade-with-scalloped-arch.png": {
+      "bytes": 261122,
+      "sha256": "a640a7bbe944939bd2d4d92c26915e09e8743cb3cd70d97252e7859d73aeda87"
+    },
+    "png/768/long-brown-foliate-vine-with-blue-green-and-gold-leaves.png": {
+      "bytes": 107359,
+      "sha256": "b1c5b66b9141747a1958b574f91341615de2d4b91c72ac66f99a9c67e8326777"
+    },
+    "png/768/long-left-blue-and-gold-rod-with-two-profile-heads.png": {
+      "bytes": 106874,
+      "sha256": "b183cf463b401ef38d7d9c58a0e4b4633bedf6f59ff12f87a52e3ccd13e3c279"
+    },
+    "png/768/lower-black-foliate-curl.png": {
+      "bytes": 135959,
+      "sha256": "f1ae75eea872849bfd8f619e3409f2f2b96e8cad81a26bc48ac71a4bc037a87d"
+    },
+    "png/768/lower-profile-head-on-long-blue-and-gold-rod.png": {
+      "bytes": 118682,
+      "sha256": "382bcbfe888744d8819b4114872d073ce7d875c5dd4e0644b04848d422d5fdb9"
+    },
+    "png/768/right-black-leaf-curl-on-blue-and-gold-stem.png": {
+      "bytes": 198737,
+      "sha256": "443863acf3fd4248e0912c40f4079f78c105e88a7bef7dd125fac1d9c6dcb83e"
+    },
+    "png/768/upper-blue-and-gold-margin-with-three-grotesque-heads.png": {
+      "bytes": 150260,
+      "sha256": "57ca49fb08a01ce266fcf2073accaac239d9cb581b19eaa4ed66ff7853b4aa71"
+    },
+    "png/768/upper-hooded-head-on-bent-gold-rod.png": {
+      "bytes": 137660,
+      "sha256": "ddd9403986900b63b169adc95d276d79ba918cf6ae5bfbcdb8a50cce53a56746"
+    },
+    "png/blue-line-filler-with-white-waves-hatching-and-curled-terminal.png": {
+      "bytes": 444294,
+      "sha256": "03aec4acd29aa9715c0106cb61d620aaa5de7396b57177ca14c75004e05c40ad"
+    },
+    "png/finite-blue-and-rose-band-with-gold-pips-and-white-curls.png": {
+      "bytes": 569524,
+      "sha256": "da1b8f58b329dd65831bf0f7186379ef027dc71e87c50d4c448a8481d2386254"
+    },
+    "png/finite-blue-rose-white-foliate-waves-and-gold-roundels.png": {
+      "bytes": 813709,
+      "sha256": "fdffeb7c8f9fad7031eb656ea7c5259197f3d6e27b079d687c93b0747e0ff6f3"
+    },
+    "png/finite-four-white-loops-on-blue.png": {
+      "bytes": 174306,
+      "sha256": "26bfe61b3cdaeff167fc25521b4c9615e3fec945a82bf85fd7f9c7868575000c"
+    },
+    "png/finite-gold-pip-and-double-white-cross-on-rose.png": {
+      "bytes": 137773,
+      "sha256": "b7c346ad36f56423b4e3c35f1cad9e04532c611c6b2b19f84b9aaea632774806"
+    },
+    "png/finite-gold-pip-and-white-double-ended-curl-on-rose.png": {
+      "bytes": 152746,
+      "sha256": "0d081af9d49924367b6033a66a743aea405184019d24930fea8ece32a35c8122"
+    },
+    "png/finite-gold-pip-and-white-wave-on-blue.png": {
+      "bytes": 233175,
+      "sha256": "c5a1e7f1bdcb0d32a0c99d5b8aa911e3324e5f8a840e0fecbbb13f3976b5c724"
+    },
+    "png/finite-gold-roundels-and-white-wave-on-rose.png": {
+      "bytes": 375852,
+      "sha256": "d762ee98964fc41c58be3a6be9f82b616c8534f1a67943626654e3ed2c15b2a9"
+    },
+    "png/finite-gold-wave-and-white-zigzag-over-blue-rose.png": {
+      "bytes": 262036,
+      "sha256": "6896d03be5956684cdd04e284e46c974461549feb3fbde9511177155d74055fb"
+    },
+    "png/finite-gold-wave-over-blue-and-rose-ground.png": {
+      "bytes": 409508,
+      "sha256": "524a5045ab5d48f99dcb87837903b8deb096672716a80f759ef5bb399bf86264"
+    },
+    "png/finite-paired-gold-roundels-and-foliate-white-wave-on-rose-blue.png": {
+      "bytes": 315419,
+      "sha256": "b1e5e9e136b643c026c5d28c0eb882599d873d46556c6c183247127281c54209"
+    },
+    "png/finite-paired-gold-roundels-and-white-waves-on-blue-rose.png": {
+      "bytes": 293493,
+      "sha256": "055914395a1f08baa2deeae12035251e084bca14d32cce3ce1e708a98712061e"
+    },
+    "png/finite-paired-gold-roundels-on-rose-band.png": {
+      "bytes": 222347,
+      "sha256": "7414ac8439adbd7248367f30ac132e90026e988f0e342a7cf1b8fed3107a527a"
+    },
+    "png/finite-single-gold-roundel-and-looped-white-wave-on-rose-blue.png": {
+      "bytes": 267168,
+      "sha256": "534ce8950b8ddafa06e133802560747de17b270b1bf026891e00ee7f8dc52877"
+    },
+    "png/finite-three-gold-roundels-and-white-zigzag-on-blue-rose.png": {
+      "bytes": 476741,
+      "sha256": "b4e60fd5ef9ce77077d360c24773ae791c15b15a57ed9867f5debb1ca83300b4"
+    },
+    "png/finite-white-crossed-strokes-and-gold-pip-on-blue.png": {
+      "bytes": 191441,
+      "sha256": "af5c2eef66eca6033d84e2097aad1603e8afa0da6558167995791c853b265fdf"
+    },
+    "png/finite-white-zigzag-and-alternating-dots-on-rose.png": {
+      "bytes": 182223,
+      "sha256": "711fe78b9fb3512a0f383c90b5b5b06cc70858e7f83bed8e4732942f4aeb5698"
+    },
+    "png/fixed-blue-gold-foliate-left-and-bottom-margin-border.png": {
+      "bytes": 5991005,
+      "sha256": "a45a8b172f83389dd7ea19c7b0d871a19d65bb8c2c5cb8a9426e355774c846a4"
+    },
+    "png/fixed-blue-gold-foliate-left-and-top-margin-border.png": {
+      "bytes": 5450321,
+      "sha256": "28aadb03e0123928e5151d8c8b047dc75a8c7622f6d9a151812a4bdd91a513e0"
+    },
+    "png/fixed-twisted-column-arcade-with-scalloped-arch.png": {
+      "bytes": 11551065,
+      "sha256": "b4b2f42823ef0313b5777440f993c7435ab9eda3200520bc6ac7f52f9efd455b"
+    },
+    "png/long-brown-foliate-vine-with-blue-green-and-gold-leaves.png": {
+      "bytes": 2207221,
+      "sha256": "8730efff02deec422c9cae79e1eb13216f6499ef5946ce6c7f03fb76e78e6012"
+    },
+    "png/long-left-blue-and-gold-rod-with-two-profile-heads.png": {
+      "bytes": 645606,
+      "sha256": "3e06cb97aa7082d4096a61e1c7f1301ebe525bb601e8076f097d925a171747d8"
+    },
+    "png/lower-black-foliate-curl.png": {
+      "bytes": 226392,
+      "sha256": "a779e61e42d01218742830dd7f8cd48bebcc54589336d94378b776bc69a5c61e"
+    },
+    "png/lower-profile-head-on-long-blue-and-gold-rod.png": {
+      "bytes": 744069,
+      "sha256": "0f6d548eac8fcf9ed064e82c52d122df5140926ad06a06fe5b445576c4856a33"
+    },
+    "png/orange-trefoil-flower-with-white-painted-outline.png": {
+      "bytes": 87868,
+      "sha256": "de479738e5a2b9bb7caf05e73277a92ef2550ee491463ab017f98610d200f0ea"
+    },
+    "png/red-four-lobed-quatrefoil-from-wind-wheel.png": {
+      "bytes": 66537,
+      "sha256": "4c7c30cb67eecbc8c97603dbf3f25d62644370d90af271eaf02d00ab82262d08"
+    },
+    "png/right-black-leaf-curl-on-blue-and-gold-stem.png": {
+      "bytes": 333416,
+      "sha256": "7f1d492e74b84a2b5e7bbd68ea834eca05f97ae64ba4d793f0678b413fe6851a"
+    },
+    "png/right-pointed-blue-and-gold-leaf-swash.png": {
+      "bytes": 205811,
+      "sha256": "cd729544ac52a51aed79fa587b2c896e7142761c8a5beb94a37c82b3f6b3f693"
+    },
+    "png/short-blue-and-gold-curled-leaf-terminal.png": {
+      "bytes": 222312,
+      "sha256": "3711fdfc3ada8f88b3c43e17838d2c0e3825398d9fbe4e2a9aed8a4a7c020115"
+    },
+    "png/upper-blue-and-gold-margin-with-three-grotesque-heads.png": {
+      "bytes": 911777,
+      "sha256": "ca22287630cf577d3073261dab9a4c345348250b1a32aee148c4266c2629d5de"
+    },
+    "png/upper-hooded-head-on-bent-gold-rod.png": {
+      "bytes": 593017,
+      "sha256": "1ffff030e0d1f1d1e15ccd1cfba9870b40e805cf4142ebca5858926a18b78b3f"
+    },
+    "webp/128/blue-line-filler-with-white-waves-hatching-and-curled-terminal.webp": {
+      "bytes": 6264,
+      "sha256": "54ecd2b2ea4ee2d1106a280b8e6c176214b3eae53e1b6420c03afe61ed54a4e3"
+    },
+    "webp/128/finite-blue-and-rose-band-with-gold-pips-and-white-curls.webp": {
+      "bytes": 5592,
+      "sha256": "f9df9845c970c7955c3389ae183dfb4d73d89c718365c94dd906e2ba0fb46224"
+    },
+    "webp/128/finite-blue-rose-white-foliate-waves-and-gold-roundels.webp": {
+      "bytes": 3468,
+      "sha256": "522d9502582206a2f4d00fb5cc9289a4669418a9e9be0a1ebc8adde0c06d4e98"
+    },
+    "webp/128/finite-four-white-loops-on-blue.webp": {
+      "bytes": 11678,
+      "sha256": "8820aa0e28f0e7b010697f6b43cda2659c2c46013881f934eaee9f4ade77ffea"
+    },
+    "webp/128/finite-gold-pip-and-double-white-cross-on-rose.webp": {
+      "bytes": 11608,
+      "sha256": "d519fb59e0c6bddf6ff40581e36fc92941dc05eae2f869939a9b03bc9930d477"
+    },
+    "webp/128/finite-gold-pip-and-white-double-ended-curl-on-rose.webp": {
+      "bytes": 13684,
+      "sha256": "047d10d7f181175bebfe2f9a8bbdc6e50549d0ade1e0291f36a917c3fc9f8c50"
+    },
+    "webp/128/finite-gold-pip-and-white-wave-on-blue.webp": {
+      "bytes": 9806,
+      "sha256": "4baf5df4add9f360b138d4e9cdbb1d569253cdab227f9fbc1b78e546d5775f19"
+    },
+    "webp/128/finite-gold-roundels-and-white-wave-on-rose.webp": {
+      "bytes": 6136,
+      "sha256": "b7ae12bc5e6e0774da9a59cdea1bbf396e758f50ec74a96be2bf8cfaa974c49a"
+    },
+    "webp/128/finite-gold-wave-and-white-zigzag-over-blue-rose.webp": {
+      "bytes": 9446,
+      "sha256": "529409ef66284a81930127fafb35883bef80d975df1a27291cf1759b670c26a1"
+    },
+    "webp/128/finite-gold-wave-over-blue-and-rose-ground.webp": {
+      "bytes": 7990,
+      "sha256": "4a9e69b9d72fbca5f36f1b61deca9d1292e2c028d0a68aca4e78e045a3d4bd6a"
+    },
+    "webp/128/finite-paired-gold-roundels-and-foliate-white-wave-on-rose-blue.webp": {
+      "bytes": 8240,
+      "sha256": "c2e1c5524cd205e82a6ecc21602be26a789ffe547e52b85fe8ca3f0a5d75d0fb"
+    },
+    "webp/128/finite-paired-gold-roundels-and-white-waves-on-blue-rose.webp": {
+      "bytes": 7700,
+      "sha256": "037506c7cabe3c5adf7bc8ba2e7ceaa201cefc2dcffe6871479804d5e3edec4e"
+    },
+    "webp/128/finite-paired-gold-roundels-on-rose-band.webp": {
+      "bytes": 11202,
+      "sha256": "f98857041f685d6b9abee6f38c056e020d22b48718561acf6ee89a1a86d4b820"
+    },
+    "webp/128/finite-single-gold-roundel-and-looped-white-wave-on-rose-blue.webp": {
+      "bytes": 8360,
+      "sha256": "44df590c21cab39f15fbce585f864631f57be1002712a86a2dc6a5bd503e9f76"
+    },
+    "webp/128/finite-three-gold-roundels-and-white-zigzag-on-blue-rose.webp": {
+      "bytes": 5230,
+      "sha256": "e86efd5075644d46a0fda225dacaf6d6fe8ab7639fde692b567dc6bfea88c162"
+    },
+    "webp/128/finite-white-crossed-strokes-and-gold-pip-on-blue.webp": {
+      "bytes": 11576,
+      "sha256": "365774e763e81ea1e3cd90ec3b8f9c23c374a557a35944a9cb6f1ae4ac71cdc8"
+    },
+    "webp/128/finite-white-zigzag-and-alternating-dots-on-rose.webp": {
+      "bytes": 10360,
+      "sha256": "ba06526f4e572a8c1f3fa36681f59cb12356305ea6ba2b12d7b0ff1f9ef150bf"
+    },
+    "webp/128/fixed-blue-gold-foliate-left-and-bottom-margin-border.webp": {
+      "bytes": 4716,
+      "sha256": "85b9feb8046c0ce3c1a5b553b01301bfa7ecce5513a8902888be1160e95e908f"
+    },
+    "webp/128/fixed-blue-gold-foliate-left-and-top-margin-border.webp": {
+      "bytes": 4150,
+      "sha256": "92d8f7ea1f94b64e5215a72dfc3fbcaeefa8b37d0cb5833cecbe9074faae404e"
+    },
+    "webp/128/fixed-twisted-column-arcade-with-scalloped-arch.webp": {
+      "bytes": 11072,
+      "sha256": "242d2833decda428584d8c1c93a496f4a2536ccd2c3a17f5235de57666ecbe7a"
+    },
+    "webp/128/long-brown-foliate-vine-with-blue-green-and-gold-leaves.webp": {
+      "bytes": 4722,
+      "sha256": "46e13dc6fc84c1a2cca25016cbfcc24b6451274b2c3e628c08511177423eaf42"
+    },
+    "webp/128/long-left-blue-and-gold-rod-with-two-profile-heads.webp": {
+      "bytes": 4550,
+      "sha256": "416fb1a510ced117fa4c90bea4a2349f144b210200183e43ae6516b4c9dabdf3"
+    },
+    "webp/128/lower-black-foliate-curl.webp": {
+      "bytes": 4768,
+      "sha256": "36c4359f344082e748eeea024314f2e4515025efdf37c09b59f985710665923e"
+    },
+    "webp/128/lower-profile-head-on-long-blue-and-gold-rod.webp": {
+      "bytes": 4954,
+      "sha256": "d3ba97e3df3f9248e2e64973b5a2bc5498989219b13330387aa97bc51e96570c"
+    },
+    "webp/128/orange-trefoil-flower-with-white-painted-outline.webp": {
+      "bytes": 18274,
+      "sha256": "b3043aa1216bf9871eb1335e47e814fca62bbdc853c16da5f2c783dd2f7172bc"
+    },
+    "webp/128/red-four-lobed-quatrefoil-from-wind-wheel.webp": {
+      "bytes": 16590,
+      "sha256": "41ecdae9eece384d51312690d7f1bbf98e14bde11be6c0cae1d2b555afc45280"
+    },
+    "webp/128/right-black-leaf-curl-on-blue-and-gold-stem.webp": {
+      "bytes": 6816,
+      "sha256": "fb1f0e8e9993d2f483e0bd63023ee18d27563a1b29777df727f361cf0c9ef9fc"
+    },
+    "webp/128/right-pointed-blue-and-gold-leaf-swash.webp": {
+      "bytes": 11266,
+      "sha256": "aeab77b8475dcf2f685d99f42cf949a577fd5cf20ed0437c93c8f4159a222602"
+    },
+    "webp/128/short-blue-and-gold-curled-leaf-terminal.webp": {
+      "bytes": 11968,
+      "sha256": "e9a6fddfbf19e970df4a140f32685a5df33b3d8c7ae288cd36008da5fdd9ef8e"
+    },
+    "webp/128/upper-blue-and-gold-margin-with-three-grotesque-heads.webp": {
+      "bytes": 5822,
+      "sha256": "77282cf65788e2995f56ce46402d6356c8aa680fc05d5e3bb3dd490b1b918b80"
+    },
+    "webp/128/upper-hooded-head-on-bent-gold-rod.webp": {
+      "bytes": 5468,
+      "sha256": "6fea9b3542f9b41e068d131b68b1058d5302193ea83ea0eade6c1c3f43493e33"
+    },
+    "webp/256/blue-line-filler-with-white-waves-hatching-and-curled-terminal.webp": {
+      "bytes": 20736,
+      "sha256": "b21afbcc643aa61a6247d69e03e53dc505f90cde69c726b434bdecbaf6e48824"
+    },
+    "webp/256/finite-blue-and-rose-band-with-gold-pips-and-white-curls.webp": {
+      "bytes": 19004,
+      "sha256": "dfb1f201876d3f75b91c4581e3cc53ce137a53144ef7c5fabe21eed6a76aff81"
+    },
+    "webp/256/finite-blue-rose-white-foliate-waves-and-gold-roundels.webp": {
+      "bytes": 12074,
+      "sha256": "35d3bd6f3f494e859196bc7b861d7bcc2d5ecb3f75c89c8c9c9221fb5bd5b25b"
+    },
+    "webp/256/finite-four-white-loops-on-blue.webp": {
+      "bytes": 38962,
+      "sha256": "1627bef2813da1a9b2db8a8178733ea11d2ad2f18640c24d2e7e59753f07a409"
+    },
+    "webp/256/finite-gold-pip-and-double-white-cross-on-rose.webp": {
+      "bytes": 42070,
+      "sha256": "5a4d2396a5c27bce57bfd933ec1a3df006fba5c94a41160db69fe16d14fb79fa"
+    },
+    "webp/256/finite-gold-pip-and-white-double-ended-curl-on-rose.webp": {
+      "bytes": 50356,
+      "sha256": "a7870e25498d062bc4f8f51633b54673a5c511b749f19fab65c4c1b2d1b1a015"
+    },
+    "webp/256/finite-gold-pip-and-white-wave-on-blue.webp": {
+      "bytes": 35926,
+      "sha256": "d0d3fb50b2ef3691d8f89924a6e8591d4de4c1d26cf76215be54d8f15d74d2b3"
+    },
+    "webp/256/finite-gold-roundels-and-white-wave-on-rose.webp": {
+      "bytes": 22092,
+      "sha256": "b76103718b14430aa9a95e2015801b89ae1544d1378c77d30b13f2a329dc8e6d"
+    },
+    "webp/256/finite-gold-wave-and-white-zigzag-over-blue-rose.webp": {
+      "bytes": 34098,
+      "sha256": "3897fbdfa9c9cabaabc3dae2f747195fe07c42da432eff8441e4b205e2c8ac20"
+    },
+    "webp/256/finite-gold-wave-over-blue-and-rose-ground.webp": {
+      "bytes": 26184,
+      "sha256": "04ca91bd892978181647c30035f3aae688181aa9fcff87a760127d23ac50f9fa"
+    },
+    "webp/256/finite-paired-gold-roundels-and-foliate-white-wave-on-rose-blue.webp": {
+      "bytes": 28990,
+      "sha256": "dcaf0f8bb9199fa37c1eb1cbbb874d83dcada1044421fac793dc1d6de653eca0"
+    },
+    "webp/256/finite-paired-gold-roundels-and-white-waves-on-blue-rose.webp": {
+      "bytes": 26826,
+      "sha256": "ca2a26d57ea75c8247aa378b481747f54794b372bab64419ad4da1820bcbe175"
+    },
+    "webp/256/finite-paired-gold-roundels-on-rose-band.webp": {
+      "bytes": 39966,
+      "sha256": "9e93c5f9e668ac328f9458044498168e225ddbf6d9f0914b157e9e18b25395dd"
+    },
+    "webp/256/finite-single-gold-roundel-and-looped-white-wave-on-rose-blue.webp": {
+      "bytes": 29938,
+      "sha256": "ce8702e4b96af69865bd09e2ab5b92a3aa26a2d77a6b67e9ae5811f642ccfcf1"
+    },
+    "webp/256/finite-three-gold-roundels-and-white-zigzag-on-blue-rose.webp": {
+      "bytes": 18066,
+      "sha256": "29dc1ed4b06f0d4ac739cf62b66753142fe795cc98f01a13c600a31821efab6a"
+    },
+    "webp/256/finite-white-crossed-strokes-and-gold-pip-on-blue.webp": {
+      "bytes": 40750,
+      "sha256": "1f73b9e3a05850331d1ff59430997428ef4164f7bf10388cc7497c7a654fd25e"
+    },
+    "webp/256/finite-white-zigzag-and-alternating-dots-on-rose.webp": {
+      "bytes": 37188,
+      "sha256": "3938888ac1f7a837af2ce06a0cfb077abfa63e5bf02124d548b394f8fca9b844"
+    },
+    "webp/256/fixed-blue-gold-foliate-left-and-bottom-margin-border.webp": {
+      "bytes": 14238,
+      "sha256": "846a5847772401302ed1431d6b7e5e1cf413dc676b8596c03c8cf1ecb48f0b0d"
+    },
+    "webp/256/fixed-blue-gold-foliate-left-and-top-margin-border.webp": {
+      "bytes": 12270,
+      "sha256": "09e5fabeb6c47c40d9615afea2aa5c03c736583d36e93a8f6a05f345d8eb6523"
+    },
+    "webp/256/fixed-twisted-column-arcade-with-scalloped-arch.webp": {
+      "bytes": 30650,
+      "sha256": "800524d28f6a785de65c6bbdc1653001cf04df64e0f97e361a9078f5b08472ee"
+    },
+    "webp/256/long-brown-foliate-vine-with-blue-green-and-gold-leaves.webp": {
+      "bytes": 13876,
+      "sha256": "a30587b86aa327b526fa38995033862e127e207fbcff57262a471a0096a9eabe"
+    },
+    "webp/256/long-left-blue-and-gold-rod-with-two-profile-heads.webp": {
+      "bytes": 13870,
+      "sha256": "daa7f5a0c93a418abc7712701a7804a2744392ff619107f02892f1e766c8febd"
+    },
+    "webp/256/lower-black-foliate-curl.webp": {
+      "bytes": 14430,
+      "sha256": "968808efa2aa66d07922f5f8dc8a13b2667600299737697c3ae6ff15a065616f"
+    },
+    "webp/256/lower-profile-head-on-long-blue-and-gold-rod.webp": {
+      "bytes": 15440,
+      "sha256": "8f92fe002917d73d4c394a2b911885c9a14ab92ccb5391d783ac44699694c899"
+    },
+    "webp/256/orange-trefoil-flower-with-white-painted-outline.webp": {
+      "bytes": 61896,
+      "sha256": "886484cb9ec18f2b21013322db0bcbd632c51fa711344e8d6430838207382b3b"
+    },
+    "webp/256/right-black-leaf-curl-on-blue-and-gold-stem.webp": {
+      "bytes": 22022,
+      "sha256": "231452ef84619a9dd53542881d2b5925dbe5c8c2593dcce4c83341ecb4106297"
+    },
+    "webp/256/right-pointed-blue-and-gold-leaf-swash.webp": {
+      "bytes": 35306,
+      "sha256": "ff4f9228b8cb2cf5d9aaa52b2d962a97835546fac9da088efe0896a74b9e0133"
+    },
+    "webp/256/short-blue-and-gold-curled-leaf-terminal.webp": {
+      "bytes": 40012,
+      "sha256": "461eb5fcb266a564e4815fd539c97bd29d5f557a6cba1566fb143d6c3e192c34"
+    },
+    "webp/256/upper-blue-and-gold-margin-with-three-grotesque-heads.webp": {
+      "bytes": 16992,
+      "sha256": "b03a5de820d9f9fcc81e9534c5038c9a7c84a6bbba7086e4aae506d2771d8bbf"
+    },
+    "webp/256/upper-hooded-head-on-bent-gold-rod.webp": {
+      "bytes": 17140,
+      "sha256": "84a2d6fc29f2b05dc2d09d505a2a29afa8696dbdf723e6cb283f7a890b1d565c"
+    },
+    "webp/512/blue-line-filler-with-white-waves-hatching-and-curled-terminal.webp": {
+      "bytes": 71606,
+      "sha256": "f31bae5849aa35af91e2a6abce5cc24af2ae67aa75a7b954c36ec458aaa6de25"
+    },
+    "webp/512/finite-blue-and-rose-band-with-gold-pips-and-white-curls.webp": {
+      "bytes": 64136,
+      "sha256": "40b8139fc752cc49ce5bcb9ee101c0b29ff162cb762e3f9cbe860b1f17aab655"
+    },
+    "webp/512/finite-blue-rose-white-foliate-waves-and-gold-roundels.webp": {
+      "bytes": 42580,
+      "sha256": "0d72aff4b98c4915169694a6300bdf153f1a169e4cbd9960bf0ba0eb1b537413"
+    },
+    "webp/512/finite-four-white-loops-on-blue.webp": {
+      "bytes": 142812,
+      "sha256": "701ae7d29ca78070b345bd3cfc72157901b8d21ad2faa98c98252c726f1148fe"
+    },
+    "webp/512/finite-gold-pip-and-white-wave-on-blue.webp": {
+      "bytes": 130806,
+      "sha256": "a06e42d366184f2b518e81aa87470c5ba5243ceef4a8feb92bf24ee5eb2997b3"
+    },
+    "webp/512/finite-gold-roundels-and-white-wave-on-rose.webp": {
+      "bytes": 77700,
+      "sha256": "d233d2f1a4542c9892de167774f502ee02c7f6c12060159a651b1cd772ace04a"
+    },
+    "webp/512/finite-gold-wave-and-white-zigzag-over-blue-rose.webp": {
+      "bytes": 124344,
+      "sha256": "6acf49b732ec845c09e22b59c08a5abaa7f7cc7b1f29f4180efa3cb8634dd324"
+    },
+    "webp/512/finite-gold-wave-over-blue-and-rose-ground.webp": {
+      "bytes": 93908,
+      "sha256": "b68593fbf0d0832bb9015ac14e97dd79a0814ec90f62e9845dc98d47f14b8cc6"
+    },
+    "webp/512/finite-paired-gold-roundels-and-foliate-white-wave-on-rose-blue.webp": {
+      "bytes": 104640,
+      "sha256": "4255db3f20933c9fd380c3d61be0d215f1ebedc76bc95283f0d4f37a3eb02222"
+    },
+    "webp/512/finite-paired-gold-roundels-and-white-waves-on-blue-rose.webp": {
+      "bytes": 98776,
+      "sha256": "8078b438e043a1884ebe6249933ae01089f81770fed3473b30c001c6162f3ad9"
+    },
+    "webp/512/finite-paired-gold-roundels-on-rose-band.webp": {
+      "bytes": 145190,
+      "sha256": "263e218c9d4957730f4a744890a6e20114e15e5092a47142074e8de014705ebd"
+    },
+    "webp/512/finite-single-gold-roundel-and-looped-white-wave-on-rose-blue.webp": {
+      "bytes": 103512,
+      "sha256": "04520881988dfe2a30840d7f803453e34d4f24e4f0db4109d1995d4fc6c198b8"
+    },
+    "webp/512/finite-three-gold-roundels-and-white-zigzag-on-blue-rose.webp": {
+      "bytes": 63340,
+      "sha256": "9b6ae0a5c22a0227e3525d881451de8e6caafb59beb0bce14b65dd0ed860f206"
+    },
+    "webp/512/finite-white-crossed-strokes-and-gold-pip-on-blue.webp": {
+      "bytes": 145584,
+      "sha256": "1403b67576a1ff4ad8ca06b5ded11a848c6bdf259afbf5a1cede1a3becf1e462"
+    },
+    "webp/512/finite-white-zigzag-and-alternating-dots-on-rose.webp": {
+      "bytes": 138244,
+      "sha256": "99ee9a26e6b77ebc2e3c1b634942f9fba73ffec7f495063e10ef88a3a21f49da"
+    },
+    "webp/512/fixed-blue-gold-foliate-left-and-bottom-margin-border.webp": {
+      "bytes": 45778,
+      "sha256": "5b16240f7fe0e94243bd3dc7395b98afebb43d6ea8684df41e1f34307a996ebb"
+    },
+    "webp/512/fixed-blue-gold-foliate-left-and-top-margin-border.webp": {
+      "bytes": 38468,
+      "sha256": "7d5bad7638b4560bd0abfc805e501191270d740ad493833fe2a8fde782091ee6"
+    },
+    "webp/512/fixed-twisted-column-arcade-with-scalloped-arch.webp": {
+      "bytes": 97266,
+      "sha256": "a9f46b0b585c41c2f1bcdaa9a5b29918a96edb9e74d906b62543dc263b6aad6c"
+    },
+    "webp/512/long-brown-foliate-vine-with-blue-green-and-gold-leaves.webp": {
+      "bytes": 42228,
+      "sha256": "299acb057c9818cf1f371a406e1f9902d769ce2aa1a6ca6ff17977e3083b72a0"
+    },
+    "webp/512/long-left-blue-and-gold-rod-with-two-profile-heads.webp": {
+      "bytes": 40656,
+      "sha256": "d28898d5cb4f7e35a2a5d9fd11279cee9dca62a0cb47f17b8749a4ef6a59a928"
+    },
+    "webp/512/lower-black-foliate-curl.webp": {
+      "bytes": 46930,
+      "sha256": "311be6921ba983d923612674e219d02e02dd4ecf7ecf152c81b4a3815b79114a"
+    },
+    "webp/512/lower-profile-head-on-long-blue-and-gold-rod.webp": {
+      "bytes": 44014,
+      "sha256": "342dc277fae690628a1c5e849f587cc61237c646e357493a278a457bf5ccfb3a"
+    },
+    "webp/512/right-black-leaf-curl-on-blue-and-gold-stem.webp": {
+      "bytes": 70272,
+      "sha256": "6662306b9917e2dd27ca127210df88c1c2316943d13a928cbef69570d9ed1efb"
+    },
+    "webp/512/right-pointed-blue-and-gold-leaf-swash.webp": {
+      "bytes": 125638,
+      "sha256": "e1e05ee5ac0aa33681c114e6cccd44d1b131b8a33ea81fe48c8ec23b3fd0e002"
+    },
+    "webp/512/short-blue-and-gold-curled-leaf-terminal.webp": {
+      "bytes": 142420,
+      "sha256": "0a9031eef5689bc2aa421af4f4b6e0783df0738508058c9f7c52a329ed3b222d"
+    },
+    "webp/512/upper-blue-and-gold-margin-with-three-grotesque-heads.webp": {
+      "bytes": 54016,
+      "sha256": "e9765cd2b14ae33e12338579f585fccc41576d2b32786e7f43e4398ff833f33c"
+    },
+    "webp/512/upper-hooded-head-on-bent-gold-rod.webp": {
+      "bytes": 49136,
+      "sha256": "d99db92bf6071ba31f0da9e8ec25922e18deceafc9bf02c73649f24dc2f32512"
+    },
+    "webp/768/blue-line-filler-with-white-waves-hatching-and-curled-terminal.webp": {
+      "bytes": 147446,
+      "sha256": "4ca165939ab5b6ada15a1fc7d417c90579600454f3c5a6d77ac46ff3045e4eac"
+    },
+    "webp/768/finite-blue-and-rose-band-with-gold-pips-and-white-curls.webp": {
+      "bytes": 138490,
+      "sha256": "9b92b4e9e86ce49b4c5d2537a4d0870144677412bc6f6f479c8a348432463ca6"
+    },
+    "webp/768/finite-blue-rose-white-foliate-waves-and-gold-roundels.webp": {
+      "bytes": 89074,
+      "sha256": "9abe5f18303d0c511ac0abfb9f4bc2983c31c2aa81decab35b8e5e76e4e97dcd"
+    },
+    "webp/768/finite-gold-roundels-and-white-wave-on-rose.webp": {
+      "bytes": 166964,
+      "sha256": "38aaa924d52a49806e4a755b6f36d69e9a5a98410586fb826228fccb4f6dc2b4"
+    },
+    "webp/768/finite-gold-wave-over-blue-and-rose-ground.webp": {
+      "bytes": 202576,
+      "sha256": "18103ed8e7264878cd92d599fc7336a2746f95142464fccabf262a2e89b3c45b"
+    },
+    "webp/768/finite-paired-gold-roundels-and-foliate-white-wave-on-rose-blue.webp": {
+      "bytes": 230236,
+      "sha256": "c87d7596d6a3b31102210c86c10d6391a386b38ce8ad7817052cfe8b38324d90"
+    },
+    "webp/768/finite-paired-gold-roundels-and-white-waves-on-blue-rose.webp": {
+      "bytes": 215946,
+      "sha256": "b77f798edef7dca509d9a43e47207ebbcc36847dd16c8609f1ae95cf52f2e031"
+    },
+    "webp/768/finite-three-gold-roundels-and-white-zigzag-on-blue-rose.webp": {
+      "bytes": 139492,
+      "sha256": "bb8161d16c37a481a2767000b84805bfe595e8bcc7374ba6d091e7f1dd809867"
+    },
+    "webp/768/fixed-blue-gold-foliate-left-and-bottom-margin-border.webp": {
+      "bytes": 85982,
+      "sha256": "66dfe11ab8653e061a62037a51b58de17010dcf0a6147d5e2c67c50811543f65"
+    },
+    "webp/768/fixed-blue-gold-foliate-left-and-top-margin-border.webp": {
+      "bytes": 72426,
+      "sha256": "d06bb5b34de5c87b6e409afbe8e84b3d443f7ff6fd01489d17c6058c8957c9f2"
+    },
+    "webp/768/fixed-twisted-column-arcade-with-scalloped-arch.webp": {
+      "bytes": 201186,
+      "sha256": "70c56ffccedd1241af6fd3124670f797d2125305302ea7094a9bd7d2eccc533c"
+    },
+    "webp/768/long-brown-foliate-vine-with-blue-green-and-gold-leaves.webp": {
+      "bytes": 82228,
+      "sha256": "31d8373edaa41446c369ca178ccf176d9fec57484b3a046149146426f6d6d8d1"
+    },
+    "webp/768/long-left-blue-and-gold-rod-with-two-profile-heads.webp": {
+      "bytes": 81610,
+      "sha256": "ed09006b4932fecfb603dad24790fa9901db22bb2259389fe49cfe97ce76f080"
+    },
+    "webp/768/lower-black-foliate-curl.webp": {
+      "bytes": 94738,
+      "sha256": "0833de3b3c7da657f254e5e69fe8c401508c53af77c046d001201db63b1ca6c0"
+    },
+    "webp/768/lower-profile-head-on-long-blue-and-gold-rod.webp": {
+      "bytes": 89130,
+      "sha256": "bcc1d676bf2e156e6e5461a1af36a1ae2d83c83a3b03afced3924760f36e5e02"
+    },
+    "webp/768/right-black-leaf-curl-on-blue-and-gold-stem.webp": {
+      "bytes": 145364,
+      "sha256": "4d389b304546748f766980a97645210138275210be6cb583d8171af5aeecaf3c"
+    },
+    "webp/768/upper-blue-and-gold-margin-with-three-grotesque-heads.webp": {
+      "bytes": 107254,
+      "sha256": "41c770ab4d87011f4834ad881808ed8ae8b118d995922fafc2eceb83bc02c6e9"
+    },
+    "webp/768/upper-hooded-head-on-bent-gold-rod.webp": {
+      "bytes": 100762,
+      "sha256": "89a77b4fa9082005003e9a34cadd17bb27618496dbe83f9718785960399635d8"
+    },
+    "webp/blue-line-filler-with-white-waves-hatching-and-curled-terminal.webp": {
+      "bytes": 355430,
+      "sha256": "ece776340116c1978de936a577bd3132bbfb3f3a1f7a91f1593e1eb32c790d14"
+    },
+    "webp/finite-blue-and-rose-band-with-gold-pips-and-white-curls.webp": {
+      "bytes": 485754,
+      "sha256": "c2df13d15fcca275d84cae4b29e620c17728aee251970d6e9e983bb480381870"
+    },
+    "webp/finite-blue-rose-white-foliate-waves-and-gold-roundels.webp": {
+      "bytes": 686396,
+      "sha256": "749f24628d47b2f6a85c660a2a6e583f68edaaafdaf172f7072307168849cb4e"
+    },
+    "webp/finite-four-white-loops-on-blue.webp": {
+      "bytes": 149522,
+      "sha256": "66b903832a649bfdd5f6d8b2f6d49e45f6d94efbeb40b55c918d23d52558ce22"
+    },
+    "webp/finite-gold-pip-and-double-white-cross-on-rose.webp": {
+      "bytes": 117102,
+      "sha256": "d4cb3ba03ce0ea6020b0315d40d4dabc38cfd12658eae22ca6a8fcf709e71314"
+    },
+    "webp/finite-gold-pip-and-white-double-ended-curl-on-rose.webp": {
+      "bytes": 133832,
+      "sha256": "28263dd4942c48ef0cd25f941f184b5a18cc53ad9193cacc0c55e7e6ef616d8d"
+    },
+    "webp/finite-gold-pip-and-white-wave-on-blue.webp": {
+      "bytes": 190434,
+      "sha256": "1d5050dda5862deca99e68f154dae570a37e92aad145cfcc6600eebc0b562728"
+    },
+    "webp/finite-gold-roundels-and-white-wave-on-rose.webp": {
+      "bytes": 305788,
+      "sha256": "84e31b4a11d500b3583b2624fe931ef27748055507bc20aa571ae7fae970f321"
+    },
+    "webp/finite-gold-wave-and-white-zigzag-over-blue-rose.webp": {
+      "bytes": 225192,
+      "sha256": "63792d4b41bc704f3c0dacd7ba65f6ed47ebdf00f46c61435ecf58c737837b91"
+    },
+    "webp/finite-gold-wave-over-blue-and-rose-ground.webp": {
+      "bytes": 333166,
+      "sha256": "67172c6ab1c27c052c92b86a0b95905c089e7fa9bcb0199573e974c6cc72752d"
+    },
+    "webp/finite-paired-gold-roundels-and-foliate-white-wave-on-rose-blue.webp": {
+      "bytes": 255744,
+      "sha256": "7f0e1651555b11a62c4a41c1d593aa76d796e81a143b27c1b16204251eb2f479"
+    },
+    "webp/finite-paired-gold-roundels-and-white-waves-on-blue-rose.webp": {
+      "bytes": 245462,
+      "sha256": "d42f5a0c3f524ca15c48de0819c04fd246ec1689dca2f5c5fd9cc9774285d01c"
+    },
+    "webp/finite-paired-gold-roundels-on-rose-band.webp": {
+      "bytes": 190792,
+      "sha256": "8ec74b98e620f966182c504377393aaff52f529edbf6efc21a752e57456a9a4f"
+    },
+    "webp/finite-single-gold-roundel-and-looped-white-wave-on-rose-blue.webp": {
+      "bytes": 224632,
+      "sha256": "2ae38617a18148927df7f7e2788b011c481cf475154a0381e96684a289a4c059"
+    },
+    "webp/finite-three-gold-roundels-and-white-zigzag-on-blue-rose.webp": {
+      "bytes": 411316,
+      "sha256": "66c033f2d5934c92ff580ab2596644e15104c422fb5f2821828b52b56cc5a6a5"
+    },
+    "webp/finite-white-crossed-strokes-and-gold-pip-on-blue.webp": {
+      "bytes": 160008,
+      "sha256": "9a7e74343337bcbf3754c46e4cfa775d6178df9ff2925af8fcf8253e6663181e"
+    },
+    "webp/finite-white-zigzag-and-alternating-dots-on-rose.webp": {
+      "bytes": 154450,
+      "sha256": "75e60007de5a748cbf1d8bb4fb03a4bac9aceea58a8c4949ac3ae6dd1ab1e3e2"
+    },
+    "webp/fixed-blue-gold-foliate-left-and-bottom-margin-border.webp": {
+      "bytes": 4906272,
+      "sha256": "ca54a34b48deba5324b680706f1cd03f153f033c75fa57c1fc224d3a4793c143"
+    },
+    "webp/fixed-blue-gold-foliate-left-and-top-margin-border.webp": {
+      "bytes": 4447436,
+      "sha256": "606db0e5ff7bf573a85347caeea6932a490ac1fde2d42b748c6cb419832841ce"
+    },
+    "webp/fixed-twisted-column-arcade-with-scalloped-arch.webp": {
+      "bytes": 9162086,
+      "sha256": "6fc9138e84b367d9ffe20cc18f018fcc3cb2a5d4bf02b81c6bb9a6b249fb566e"
+    },
+    "webp/long-brown-foliate-vine-with-blue-green-and-gold-leaves.webp": {
+      "bytes": 1765350,
+      "sha256": "f316b9b9333b425963a68c44e43a4a1e8803f19956f71fb96c68a78abcdd37fa"
+    },
+    "webp/long-left-blue-and-gold-rod-with-two-profile-heads.webp": {
+      "bytes": 472754,
+      "sha256": "a3a8f830581184c532557ce8ac6d94d89f3e9effd4051e726d922769e64c5e8a"
+    },
+    "webp/lower-black-foliate-curl.webp": {
+      "bytes": 155220,
+      "sha256": "f473db450ef99e7baa8372d256a7f1da0b7bf67e7272d61e95299fac22b2cb7b"
+    },
+    "webp/lower-profile-head-on-long-blue-and-gold-rod.webp": {
+      "bytes": 540234,
+      "sha256": "e39078de6efe055ee029795d3f568a5e945899099463e9754eeee0d4b6102f91"
+    },
+    "webp/orange-trefoil-flower-with-white-painted-outline.webp": {
+      "bytes": 72808,
+      "sha256": "64f9ef7402f3a1321a12b415670d7a368ed6bc4dcd2cf0c8f3190891b5452756"
+    },
+    "webp/red-four-lobed-quatrefoil-from-wind-wheel.webp": {
+      "bytes": 53382,
+      "sha256": "715d8c5359f69b0cb195eb23c5368ab3e1a9587d832baaa813752f552f371c6b"
+    },
+    "webp/right-black-leaf-curl-on-blue-and-gold-stem.webp": {
+      "bytes": 241030,
+      "sha256": "5842b75c3a954b388589374c9aeb858d169913b866033b92911caf3d0b0f51d7"
+    },
+    "webp/right-pointed-blue-and-gold-leaf-swash.webp": {
+      "bytes": 158424,
+      "sha256": "748e02ee41fd263b8830cef4a3f6ea3d05a7d2c4c695805accd62e59cce6c714"
+    },
+    "webp/short-blue-and-gold-curled-leaf-terminal.webp": {
+      "bytes": 164712,
+      "sha256": "ef0b45dc27383659934dadd8d3cb24adf7418c5171e736c74ef0f2e03ae58806"
+    },
+    "webp/upper-blue-and-gold-margin-with-three-grotesque-heads.webp": {
+      "bytes": 659300,
+      "sha256": "7a3fdc9fc990d7ef39ec16b4f55ec9705d02cf281e83040f3cb38137644b8136"
+    },
+    "webp/upper-hooded-head-on-bent-gold-rod.webp": {
+      "bytes": 420946,
+      "sha256": "ef7f33d81da93888c92cec7f1020314d9e84d0b4d5bd12125e265ae81c9ab0bb"
+    }
+  },
+  "inputs": {
+    "sources/tiles/blue-line-filler-with-white-waves-hatching-and-curled-terminal.png": {
+      "bytes": 444294,
+      "sha256": "03aec4acd29aa9715c0106cb61d620aaa5de7396b57177ca14c75004e05c40ad"
+    },
+    "sources/tiles/finite-blue-and-rose-band-with-gold-pips-and-white-curls.png": {
+      "bytes": 569524,
+      "sha256": "da1b8f58b329dd65831bf0f7186379ef027dc71e87c50d4c448a8481d2386254"
+    },
+    "sources/tiles/finite-blue-rose-white-foliate-waves-and-gold-roundels.png": {
+      "bytes": 813709,
+      "sha256": "fdffeb7c8f9fad7031eb656ea7c5259197f3d6e27b079d687c93b0747e0ff6f3"
+    },
+    "sources/tiles/finite-four-white-loops-on-blue.png": {
+      "bytes": 174306,
+      "sha256": "26bfe61b3cdaeff167fc25521b4c9615e3fec945a82bf85fd7f9c7868575000c"
+    },
+    "sources/tiles/finite-gold-pip-and-double-white-cross-on-rose.png": {
+      "bytes": 137773,
+      "sha256": "b7c346ad36f56423b4e3c35f1cad9e04532c611c6b2b19f84b9aaea632774806"
+    },
+    "sources/tiles/finite-gold-pip-and-white-double-ended-curl-on-rose.png": {
+      "bytes": 152746,
+      "sha256": "0d081af9d49924367b6033a66a743aea405184019d24930fea8ece32a35c8122"
+    },
+    "sources/tiles/finite-gold-pip-and-white-wave-on-blue.png": {
+      "bytes": 233175,
+      "sha256": "c5a1e7f1bdcb0d32a0c99d5b8aa911e3324e5f8a840e0fecbbb13f3976b5c724"
+    },
+    "sources/tiles/finite-gold-roundels-and-white-wave-on-rose.png": {
+      "bytes": 375852,
+      "sha256": "d762ee98964fc41c58be3a6be9f82b616c8534f1a67943626654e3ed2c15b2a9"
+    },
+    "sources/tiles/finite-gold-wave-and-white-zigzag-over-blue-rose.png": {
+      "bytes": 262036,
+      "sha256": "6896d03be5956684cdd04e284e46c974461549feb3fbde9511177155d74055fb"
+    },
+    "sources/tiles/finite-gold-wave-over-blue-and-rose-ground.png": {
+      "bytes": 409508,
+      "sha256": "524a5045ab5d48f99dcb87837903b8deb096672716a80f759ef5bb399bf86264"
+    },
+    "sources/tiles/finite-paired-gold-roundels-and-foliate-white-wave-on-rose-blue.png": {
+      "bytes": 315419,
+      "sha256": "b1e5e9e136b643c026c5d28c0eb882599d873d46556c6c183247127281c54209"
+    },
+    "sources/tiles/finite-paired-gold-roundels-and-white-waves-on-blue-rose.png": {
+      "bytes": 293493,
+      "sha256": "055914395a1f08baa2deeae12035251e084bca14d32cce3ce1e708a98712061e"
+    },
+    "sources/tiles/finite-paired-gold-roundels-on-rose-band.png": {
+      "bytes": 222347,
+      "sha256": "7414ac8439adbd7248367f30ac132e90026e988f0e342a7cf1b8fed3107a527a"
+    },
+    "sources/tiles/finite-single-gold-roundel-and-looped-white-wave-on-rose-blue.png": {
+      "bytes": 267168,
+      "sha256": "534ce8950b8ddafa06e133802560747de17b270b1bf026891e00ee7f8dc52877"
+    },
+    "sources/tiles/finite-three-gold-roundels-and-white-zigzag-on-blue-rose.png": {
+      "bytes": 476741,
+      "sha256": "b4e60fd5ef9ce77077d360c24773ae791c15b15a57ed9867f5debb1ca83300b4"
+    },
+    "sources/tiles/finite-white-crossed-strokes-and-gold-pip-on-blue.png": {
+      "bytes": 191441,
+      "sha256": "af5c2eef66eca6033d84e2097aad1603e8afa0da6558167995791c853b265fdf"
+    },
+    "sources/tiles/finite-white-zigzag-and-alternating-dots-on-rose.png": {
+      "bytes": 182223,
+      "sha256": "711fe78b9fb3512a0f383c90b5b5b06cc70858e7f83bed8e4732942f4aeb5698"
+    },
+    "sources/tiles/fixed-blue-gold-foliate-left-and-bottom-margin-border.png": {
+      "bytes": 5991005,
+      "sha256": "a45a8b172f83389dd7ea19c7b0d871a19d65bb8c2c5cb8a9426e355774c846a4"
+    },
+    "sources/tiles/fixed-blue-gold-foliate-left-and-top-margin-border.png": {
+      "bytes": 5450321,
+      "sha256": "28aadb03e0123928e5151d8c8b047dc75a8c7622f6d9a151812a4bdd91a513e0"
+    },
+    "sources/tiles/fixed-twisted-column-arcade-with-scalloped-arch.png": {
+      "bytes": 11551065,
+      "sha256": "b4b2f42823ef0313b5777440f993c7435ab9eda3200520bc6ac7f52f9efd455b"
+    },
+    "sources/tiles/long-brown-foliate-vine-with-blue-green-and-gold-leaves.png": {
+      "bytes": 2207221,
+      "sha256": "8730efff02deec422c9cae79e1eb13216f6499ef5946ce6c7f03fb76e78e6012"
+    },
+    "sources/tiles/long-left-blue-and-gold-rod-with-two-profile-heads.png": {
+      "bytes": 645606,
+      "sha256": "3e06cb97aa7082d4096a61e1c7f1301ebe525bb601e8076f097d925a171747d8"
+    },
+    "sources/tiles/lower-black-foliate-curl.png": {
+      "bytes": 226392,
+      "sha256": "a779e61e42d01218742830dd7f8cd48bebcc54589336d94378b776bc69a5c61e"
+    },
+    "sources/tiles/lower-profile-head-on-long-blue-and-gold-rod.png": {
+      "bytes": 744069,
+      "sha256": "0f6d548eac8fcf9ed064e82c52d122df5140926ad06a06fe5b445576c4856a33"
+    },
+    "sources/tiles/orange-trefoil-flower-with-white-painted-outline.png": {
+      "bytes": 87868,
+      "sha256": "de479738e5a2b9bb7caf05e73277a92ef2550ee491463ab017f98610d200f0ea"
+    },
+    "sources/tiles/red-four-lobed-quatrefoil-from-wind-wheel.png": {
+      "bytes": 66537,
+      "sha256": "4c7c30cb67eecbc8c97603dbf3f25d62644370d90af271eaf02d00ab82262d08"
+    },
+    "sources/tiles/right-black-leaf-curl-on-blue-and-gold-stem.png": {
+      "bytes": 333416,
+      "sha256": "7f1d492e74b84a2b5e7bbd68ea834eca05f97ae64ba4d793f0678b413fe6851a"
+    },
+    "sources/tiles/right-pointed-blue-and-gold-leaf-swash.png": {
+      "bytes": 205811,
+      "sha256": "cd729544ac52a51aed79fa587b2c896e7142761c8a5beb94a37c82b3f6b3f693"
+    },
+    "sources/tiles/short-blue-and-gold-curled-leaf-terminal.png": {
+      "bytes": 222312,
+      "sha256": "3711fdfc3ada8f88b3c43e17838d2c0e3825398d9fbe4e2a9aed8a4a7c020115"
+    },
+    "sources/tiles/upper-blue-and-gold-margin-with-three-grotesque-heads.png": {
+      "bytes": 911777,
+      "sha256": "ca22287630cf577d3073261dab9a4c345348250b1a32aee148c4266c2629d5de"
+    },
+    "sources/tiles/upper-hooded-head-on-bent-gold-rod.png": {
+      "bytes": 593017,
+      "sha256": "1ffff030e0d1f1d1e15ccd1cfba9870b40e805cf4142ebca5858926a18b78b3f"
+    }
+  }
+}

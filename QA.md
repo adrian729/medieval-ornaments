@@ -1236,3 +1236,92 @@ consumers, `tests/site.mjs` (375/1200px, CDN modules, v0.10.1 ZIP) and Chrome's
 issue reporter on the deployed overview, gallery, JavaScript and React pages
 (pickers opened, sizes switched) pass with no issues.
 
+
+## Finished historical assets — local integration, 2026-10-12
+
+Scope: corrected finished new artwork only; 557 reviewed staging assets became
+541 distinct imports after 16 documented duplicate exclusions. The collection
+now has 702 designs (89 borders, 281 decorations, 332 illustrations). Thirty-five
+unfinished original sources remain paused. No release or deployment was made.
+
+- Staging validation passed before deduplication: 557 assets, 773 PNG masters /
+  components and all 159 original-source hashes. The native import retained
+  reviewed pixels; SVGs lacking viewBox received matching native canvas bounds.
+- `scripts/check_finished_assets.py` passed: 541 master hashes, 116 individually
+  retained corner phases, complete repeat bars, source audits/ownership, and the
+  original 161-design catalog and artwork/native byte inventory unchanged.
+  New repeat units use the retained two-column collars; the diagonal miter's
+  inner-most sample is checked as part of its retained corner, not as a straight
+  join. The two patterns without approved corners remain divider-only.
+- `scripts/artwork_check.py` passed: original reference pixels, 416 original
+  exact frame joins, 163 raster atlases with integral slices, and 89 exact
+  quarter-turn tile pairs.
+- `scripts/check_illustration_build.py` passed in its isolated fixture: 2,954
+  illustration delivery files and every PNG master retained, selected rebuilds,
+  deletion retention, no upscale, authored notes and collision rejection.
+- `npm test`: 44/47 passed initially; three old/new fixture assumptions were
+  corrected (divider-only SSR, baseline provenance count, numbered-package
+  offline discovery). All ten tests in the affected files then passed. Types
+  (`npm run test:types`) passed, including rejection of divider-only frames.
+- `resources check --verify-files` passed for all 29 registered resources.
+- Production example build passed. The lightweight site passed at 48,918,125
+  bytes before final documentation updates. JSON deployment whitespace and an
+  unused duplicate npm JSON catalog were removed; source images and metadata
+  fields remain intact.
+- The first browser run successfully checked all 702 designs/formats, raster
+  density choices and divider geometry. Its later gallery prefetch assertion
+  hit Chrome's default resource-timing buffer after the expanded module list;
+  the harness now reserves 12,000 timing entries. Page checks are run separately
+  with `--pages-only` after artwork checks, avoiding repeat full artwork loads.
+
+Release gates remain active. `npm run test:integration` stops at the required
+exact-resource-commit guard: the 24 changed revisions are locally approved but
+unpublished/unlocked. A measurement-only `npm pack --ignore-scripts` draft is
+809,036 bytes packed / 4,949,945 unpacked (4,291 entries), above the existing
+210 KB / 1.25 MB runtime contract. Neither limit was relaxed. Publishing requires
+resolving that contract, publishing/verifying resources, exact clean commit
+pins, then a fresh full release/integration/CDN/site run. Local reports and draft
+packages are in `tmp/finished-integration/`; the permanent handoff is
+`docs/HISTORICAL-ASSET-HANDOFF.md`.
+
+Final catalog check passed: 702 designs, 255 genuine SVGs and 8,321 public artwork files; README gallery current. All 86 browser page checks passed at 320/375/768/1200px with no runtime exceptions, including divider-only rendering, new overview choices and set metadata. All 24 changed resource repositories passed the strict byte/identity/allowlist verifier and deterministic WebP-first packing. Largest actual package: 128092234 bytes unpacked / 127667309 bytes compressed (independent maxima), within the unchanged 140 MB / 200 MB limits.
+
+Rendered all 29 new frames at 33px on light/dark backgrounds and DPR 1 / 1.25 / 2. Inspected all 29 in light and fractional-DPR dark sheets plus a DPR-2 detail sheet: retained motifs, four corner phases and repeated outlines remain continuous; dark ink correctly remains dark. The first screenshot session exited after 17 sheets; a fresh session completed all 30 sheets. Evidence: `tmp/finished-frame-review.json` and `tmp/finished-frame-*.png`.
+
+React browser checks passed for a divider-only pattern, switching back to a new frame-capable pattern, a new botanical illustration, and mobile overflow; no runtime exceptions. Report: `tmp/finished-integration/react-browser.json`. `git diff --check` passed. All authorized local integration/correction work is complete; release-only gates above remain open.
+
+### 2026-10-13: JavaScript and React demo startup
+
+Both playgrounds now bootstrap their three initial designs without the full
+702-design catalog. Discovery is imported on first picker use. Stable shared
+renderers preserve input/DOM across the switch. Pickers initially render 48
+results, with full-catalog search and an explicit next batch. Styles and useful
+HTML are available before application JavaScript; React has a section skeleton
+and vanilla has disabled control placeholders. The built local preview serves
+compressed, cacheable hashed scripts/styles; mutable HTML/artwork stay fresh.
+
+Cold Chromium samples from `tmp/finished-integration/demo-loading-timings.json`:
+
+| Built demo | Initial JS transfer (gzip, including request overhead) | Local ready | Throttled ready | Throttled first content |
+| --- | ---: | ---: | ---: | ---: |
+| React | 82,990 B | 47 ms | 880 ms | 556 ms |
+| JavaScript | 19,638 B | 41 ms | 748 ms | 696 ms |
+
+Throttling: 200,000 B/s download, 100,000 B/s upload, 150 ms latency, 4x CPU
+slowdown, browser cache disabled. These single local observations are not field
+performance guarantees. Neither page requested the full catalog at startup;
+its ~1.06 MB uncompressed script previously blocked both. Before/after Vite
+observations were roughly 1–1.2 seconds versus 0.1–0.2 seconds. Production CSS
+and React rendering remained correct at 375px and 1200px.
+
+Browser checks deliberately held back all application scripts: both headings
+and styles appeared, with placeholders visible. Delayed discovery showed the
+picker skeleton; closing it left the existing note/thickness controls usable.
+Aborted discovery showed a reload action and recovered after reload. Verified
+48-item batching, all 89 borders after the next batch, exact botanical selection,
+orientation changes, divider-only support, and preservation of the note's value
+and DOM element while changing frame-capable borders. Screenshots and executable
+Playwright CLI checks are retained in `tmp/finished-integration/check-demo-*.cjs`,
+`demo-shells-results.json`, and `*-loading-shell.png` / `*-mobile-picker.png`.
+Expected console network failures occurred only during deliberate abort tests.
+No artwork, release pins, or package-size limits changed for this fix.

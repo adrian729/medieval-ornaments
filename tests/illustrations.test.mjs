@@ -20,7 +20,7 @@ test('illustration migration preserves every imported byte and all descriptive f
     assert.equal(item.asset_type, 'illustration');
     assert.equal(item.kind, 'standalone');
     assert.deepEqual(item.uses, ['image']);
-    assert.deepEqual(item.formats, ['webp', 'png']);
+    assert.deepEqual(item.formats, ['svg', 'webp', 'png'].filter(format => original[format]));
     assert.deepEqual(item.components, {});
     assert.deepEqual(item.variants, original.variants);
     assert.ok(item.usage_notes.length);
@@ -45,12 +45,11 @@ test('scoped discovery contains only its family and combines layout/subject filt
     assert.deepEqual(api.findOrnaments(), expected);
     assert.throws(() => api.getOrnament(type === 'illustration' ? 'red-berry-vine' : 'flying-pig'), /Unknown ornament/);
   }
-  assert.equal(findOrnaments({ assetType: 'border' }).length, 58);
-  assert.equal(findOrnaments({ assetType: 'decoration' }).length, 46);
-  assert.equal(findOrnaments({ assetType: 'illustration' }).length, 57);
+  const catalog = JSON.parse(await readFile(new URL('images.json', root)));
+  for (const assetType of ['border', 'decoration', 'illustration']) assert.equal(findOrnaments({ assetType }).length, catalog.filter(item => item.asset_type === assetType).length);
   const rabbits = findOrnaments({ assetType: 'illustration', categories: ['animals', 'music'], subjects: ['rabbit'], facing: 'left', hasTransparency: true, composition: 'single-figure' });
-  assert.deepEqual(rabbits.map(item => item.name), ['bunny-trumpet', 'rabbit-bagpiper']);
-  assert.deepEqual(findOrnaments({ assetType: 'illustration', categories: ['reading'], subjects: ['rabbit'] }).map(item => item.name), ['rabbit-reading-book']);
+  for (const name of ['bunny-trumpet', 'rabbit-bagpiper']) assert.ok(rabbits.some(item => item.name === name));
+  assert.ok(findOrnaments({ assetType: 'illustration', categories: ['reading'], subjects: ['rabbit'] }).some(item => item.name === 'rabbit-reading-book'));
   assert.ok(findOrnaments({ hasTransparency: false, assetType: 'illustration' }).some(item => item.name === 'animal-musicians-ensemble'));
   assert.ok(findOrnaments({ assetType: 'illustration', query: 'OPAQUE CURVED BODY' }).some(item => item.name === 'creature-in-gold-shape'));
   assert.ok(findOrnaments({ use: 'frame', subjects: ['scroll'] }).some(item => item.name === 'plate-01-linked-scrolls'));

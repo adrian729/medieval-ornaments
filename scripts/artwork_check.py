@@ -94,7 +94,7 @@ def check():
     aligned=0
     rotated=0
     for item in catalog:
-        if 'border_image' not in item['components']:continue
+        if item['kind']!='repeat-tile':continue
         tile=item['components']['rotated_tile']
         with Image.open(ROOT/item['png']) as original,Image.open(ROOT/tile['png']) as turned:
             expected=original.transpose(Image.Transpose.ROTATE_270 if item['repeat_axis']=='x' else Image.Transpose.ROTATE_90).convert('RGBA')
@@ -102,6 +102,7 @@ def check():
         assert tile['repeat_axis']==('y' if item['repeat_axis']=='x' else 'x')
         assert tile['repeat_ratio']==item['repeat_ratio']
         rotated+=1
+        if 'border_image' not in item['components']:continue
         atlas=item['components']['border_image']
         for asset in [atlas,*atlas['variants']]:
             cut=asset['width']*item['border_image_slice_percent']/100

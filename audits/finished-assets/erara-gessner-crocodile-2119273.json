@@ -1,0 +1,150 @@
+{
+  "source_id": "erara-gessner-crocodile-2119273",
+  "assets": [
+    {
+      "id": "erara-gessner-crocodile-2119273--crocodile",
+      "name": "crocodile",
+      "source_id": "erara-gessner-crocodile-2119273",
+      "source_folder": "e-rara-gessner",
+      "asset_type": "illustration",
+      "description": "A crocodilian creature with its complete curled tail, four legs, scales and open jaws. Part of the Gessner Historiae Animalium set.",
+      "source_region": [
+        1968,
+        351,
+        3956,
+        4465
+      ],
+      "rotation_clockwise": 270,
+      "export_crop": [
+        392,
+        281,
+        3678,
+        1641
+      ],
+      "width": 3286,
+      "height": 1360,
+      "png": "e-rara-gessner/erara-gessner-crocodile-2119273--crocodile.png",
+      "png_sha256": "912c54d424f00c3cdbeddfd607b54f2a40dd46164787e8ea0b0337e700b754f7",
+      "provenance": {
+        "institution": "Zentralbibliothek Zürich",
+        "title": "Gessner, Historiae animalium: De crocodilo.",
+        "object_identifier": "5.1: a-5.3; image 2119273; section De crocodilo.",
+        "date": "1551–1587",
+        "record_url": "https://www.e-rara.ch/zuz/content/pageview/2119273",
+        "image_rights": "Public Domain Mark; parent bibliographic record",
+        "rights_url": "https://www.e-rara.ch/zuz/content/titleinfo/637105",
+        "source_sha256": "99738440b38921d3fd68abe99f8ee6f7270a86f29eb96261f0b060067996a91b",
+        "source_file": "tmp/new-assets/e-rara-gessner/erara-gessner-crocodile-2119273--gessner-historiae-animalium-de-crocodilo.jpg",
+        "source_metadata": "tmp/new-assets/e-rara-gessner/erara-gessner-crocodile-2119273.json",
+        "image_url": "https://www.e-rara.ch/i3f/v20/2119273/full/full/0/default.jpg",
+        "method": "source-pixel-extraction-with-ai-assisted-selection-mask"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: precise-object-edit. Output ONLY an original-aligned two-color foreground selection matte. Preserve EXACTLY this input’s aspect ratio, size relationships, positions, pose and every contour. No recentering or reconstruction. Solid vivid MAGENTA #ff00ff selects the complete original animal illustration; solid CYAN #00ffff excludes ALL page paper, letters, text, caption, print showing through from the other page, stains and actual openings between limbs and around the tail or trunk. Select A crocodilian creature with its complete curled tail, four legs, scales and open jaws. The selected animal must be a FEATURELESS SOLID MAGENTA silhouette: every interior pale illustrated body surface, eye, dark ink line and hatch must be magenta with no copied internal features. Actual exterior page and genuine spaces between feet, tail, trunk or antler branches must remain cyan. Include every thin whisker, toe, claw, tip and hair at its original position. Do not simplify, move, enlarge, redraw or add anything. No white or black or other colors, no text on the mask. Exclude the horizontal ground hatching, cast shadows, ruled lines and lettering outside the animal’s actual contour.",
+        "selection_mask": "tmp/extraction-work/erara-gessner-crocodile-2119273--crocodile--selection-mask.png",
+        "selection_mask_sha256": "c8c28f91d1f40c45ec576ec8673350c203c0371a8d902577226189a3bef3c2d4",
+        "mask_dimensions": [
+          1804,
+          872
+        ],
+        "mask_application": "binary selection resized to native source region; only alpha changed",
+        "mask_source_region": [
+          1968,
+          351,
+          3956,
+          4465
+        ],
+        "mask_encoding": "magenta-on-cyan",
+        "native_stroke_correction": null,
+        "native_paper_cleanup": null,
+        "native_boundary_refinement": null,
+        "mask_preprocessing": {
+          "fill_internal_holes_below_px": 250,
+          "remove_islands_below_px": 30
+        },
+        "alpha_components": [],
+        "authored_source_contours": {
+          "file": "tmp/extraction-work/erara-gessner-crocodile-2119273--crocodile--source-contour-alpha.png",
+          "editable_svg": "tmp/extraction-work/erara-gessner-crocodile-2119273--crocodile--source-contour-mask.svg",
+          "annotation": "tmp/extraction-work/erara-gessner-crocodile-2119273--authored-contours.json",
+          "method": "Individually inspected original contour anchors; local minimum-cost paths along original native ink within bounded corridors. Original RGB remains untouched.",
+          "corridor_inspection_pixels": 3,
+          "ink_edge_extension_native_pixels": 2,
+          "sha256": "a38c37ed7c00dc27f33b06e0eee558b298caa2fca6cbbbbdabcfd617a87cdc8a",
+          "editable_svg_sha256": "afa31fe2255ce4e1e635ce944a3c38d217fe390a9ade90def6031f7fe7420cf5"
+        },
+        "native_rgb_verification": "all alpha-visible RGB values exactly equal the recorded native source crop; fully transparent RGB cleared",
+        "source_color_profile_preserved": true,
+        "source_pixels_repainted": false
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261010",
+        "notes": "Source turned upright and matched original snout, teeth, four visible limbs, back ridges and full upward-curling tail. Ground hatching and surrounding text excluded.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": "tmp/extraction-work/quality-reaudit-20261010/manifest.json"
+      },
+      "categories": [
+        "animals"
+      ],
+      "subjects": [
+        "crocodile"
+      ],
+      "facing": "left",
+      "colors": [
+        "brown",
+        "cream"
+      ],
+      "composition": "single-figure",
+      "vector_review": {
+        "status": "accepted",
+        "method": "Editable native-color VTracer paths with eight-layer native PNG alpha contour mask, excluding opaque hidden pixels and stray trace islands.",
+        "premultiplied_rgb_error_at_review_resolution": 0.01836387437135894,
+        "alpha_error_at_review_resolution": 0.001235013521816326,
+        "limitation": "Contours and scan tones are approximate. PNG retains original native source RGB and remains the preferred fidelity master.",
+        "embedded_raster": false,
+        "quality_round": "20261010"
+      },
+      "svg": "e-rara-gessner/erara-gessner-crocodile-2119273--crocodile.svg",
+      "svg_sha256": "97af8916917d51d598d81156b2af23eba3bd449eb00a4eb216ac14940eabd870",
+      "review_history": [
+        {
+          "round": "quality-reaudit-20261010",
+          "previous_review": {
+            "status": "accepted",
+            "reviewed_on": "2026-10-10T13:29:09.361000+00:00",
+            "notes": "Checked original upright jaws, all four legs/claws and complete curled tail against native source details. Source-fitted editable selection contour clears lettering and external ground hatching. Native RGB unchanged; SVG not yet accepted.",
+            "checks": [
+              "original-source-comparison",
+              "white-background",
+              "dark-background",
+              "outer-contours",
+              "interior-openings",
+              "thin-details",
+              "original-rgb-equality"
+            ]
+          }
+        }
+      ],
+      "sets": [
+        {
+          "id": "gessner-historiae-animalium",
+          "name": "Gessner Historiae Animalium",
+          "relation": "same historical zoological work and illustration family"
+        }
+      ],
+      "description_before_set_naming": "A crocodilian creature with its complete curled tail, four legs, scales and open jaws.",
+      "set_label": "Gessner Historiae Animalium"
+    }
+  ]
+}

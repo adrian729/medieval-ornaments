@@ -1,0 +1,101 @@
+{
+  "source_id": "openn-lewis-e-m-012-004",
+  "assets": [
+    {
+      "id": "openn-lewis-e-m-012-004--six-leaf-blue-vine",
+      "name": "six-leaf-blue-vine",
+      "source_id": "openn-lewis-e-m-012-004",
+      "source_folder": "openn-free-library",
+      "asset_type": "decoration",
+      "description": "A winding blue vine with six pointed leaves in red, blue and green, with opaque pale tips and white painted highlights.",
+      "source_region": [
+        704,
+        933,
+        1473,
+        2014
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        18,
+        14,
+        752,
+        1027
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 734,
+      "height": 1013,
+      "png": "openn-free-library/openn-lewis-e-m-012-004--six-leaf-blue-vine.png",
+      "png_sha256": "21ed62fa78d9a8887901f2938d52d01ad325003b487978242bef1f737744689f",
+      "provenance": {
+        "institution": "Free Library of Philadelphia, John Frederick Lewis Collection",
+        "title": "Decorated initial Q",
+        "object_identifier": "Lewis E M 12:4 Decorated initial Q",
+        "date": "(Unknown, 1400-1499)",
+        "record_url": "https://openn.library.upenn.edu/Data/0023/html/lewis_e_m_012_004.html",
+        "image_rights": "Public Domain Mark 1.0; item record explicitly places images in public domain",
+        "rights_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "source_file": "tmp/new-assets/openn-free-library/openn-lewis-e-m-012-004--decorated-initial-q--master.tif",
+        "source_sha256": "d424f771be4b4d50fdfb497f173ac242c58e4f45bd972e557c0f33d23f4b6e86",
+        "source_metadata": "tmp/new-assets/openn-free-library/openn-lewis-e-m-012-004.json",
+        "image_url": "https://openn.library.upenn.edu/Data/0023/lewis_e_m_012_004/data/master/7529_0000.tif",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: precise-object-edit / faithful historical foreground extraction. Edit target: the supplied original manuscript detail. Extract The entire interior blue winding vine with six original pointed leaves: three orange-red leaves, two blue leaves and one green leaf. Remove the pink Q letter, gold field and separate colored dots. All spaces between leaves and stems must be transparent; preserve original white painted leaf tips and fine white stem highlights. Do not add a leaf or change the vine turns. Keep the exact original pose, shapes, colors, proportions and fine ink or painted lines. Output on a genuinely transparent background, with small transparent padding. Remove lettering, parchment, stains, chart, ruler and surrounding ground color. No new details, reconstruction, modern redraw, shadows, glow, smoothing or background rectangle.",
+        "retained_generated_extraction": "tmp/extraction-work/openn-lewis-e-m-012-004--six-leaf-blue-vine--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "74ab0be35eb9788ebc71f19e6779698f4f0f04baae8ba338c07bfb11b0d52af5",
+        "retained_generated_size": [
+          1058,
+          1487
+        ],
+        "resolution_cap_scale": 0.7268431001890359,
+        "resolution_capped_size": [
+          769,
+          1081
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "reason": "Rechecking silhouette, completeness, native scale, interior holes and SVG fidelity following user-reported failures.",
+        "basis": "explicit user quality reference",
+        "checks": [
+          "User identified this as a good extraction."
+        ]
+      },
+      "categories": [
+        "botanical",
+        "floral"
+      ],
+      "subjects": [
+        "vine",
+        "leaves"
+      ],
+      "facing": "unclear",
+      "colors": [
+        "blue",
+        "red",
+        "green",
+        "white"
+      ],
+      "composition": "single-ornament",
+      "review_history": [
+        {
+          "round": "quality-reaudit-20261010",
+          "previous_review": {
+            "status": "accepted",
+            "reviewed_on": "2026-10-10",
+            "notes": "Original motif compared with extraction on white and dark backgrounds: source pose, principal painted shapes, terminals and pale highlights retained. Actual openings cleared; initial glyph and flat gold/black fields removed. AI-assisted extraction approximates paint texture and some small contours."
+          }
+        }
+      ]
+    }
+  ]
+}

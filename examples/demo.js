@@ -24,6 +24,11 @@ import * as goldCinquefoilDividerCenter from '../lib/designs/gold-cinquefoil-div
 import * as rosselliRoundelTop from '../lib/designs/rosselli-roundel-top.js';
 import * as catReadingBook from '../lib/designs/cat-reading-book.js';
 import * as isabellaPinkRose from '../lib/designs/isabella-pink-rose.js';
+import * as fuchsWormwood from '../lib/designs/seriphium-absinthium.js';
+import * as blueVineFlourish from '../lib/designs/six-leaf-blue-vine.js';
+import * as beffiFrame from '../lib/designs/fixed-polychrome-floral-frame-with-knotted-medallions.js';
+import * as alternatingBlueFlowers from '../lib/designs/alternating-blue-cup-and-burst-flowers-on-green-stem.js';
+import * as blueVineRepeat from '../lib/designs/white-curling-vine-on-blue-repeat.js';
 import { assetSources } from '../lib/asset-sources.js';
 import { version } from '../lib/runtime.js';
 import { withHosting } from './shared/env.js';
@@ -32,9 +37,9 @@ import { htmlSnippet, jsSnippet, reactSnippet } from './shared/snippets.js';
 
 const named = modules => modules.map(module => [module.ornament.name, module]);
 const curated = {
-  frame: named([redBerryVine, oliveLeafAndRedBerryVine, plate27, plate03, interlockingRibbon, plate19]),
-  divider: named([goldLeafScroll, redRosetteVine, plate24, purpleOvalRosetteVine, blueLoopedQuatrefoils, plate10]),
-  image: named([flyingPig, rabbitReadingBook, hoodedHarpPlayer, isabellaSmallBird, floralBirdPanelBlue, wingedRabbit])
+  frame: named([redBerryVine, oliveLeafAndRedBerryVine, plate27, plate03, interlockingRibbon, plate19, alternatingBlueFlowers]),
+  divider: named([goldLeafScroll, redRosetteVine, plate24, purpleOvalRosetteVine, blueLoopedQuatrefoils, plate10, blueVineRepeat]),
+  image: named([flyingPig, rabbitReadingBook, hoodedHarpPlayer, isabellaSmallBird, floralBirdPanelBlue, wingedRabbit, fuchsWormwood, blueVineFlourish, beffiFrame])
 };
 const inside = {
   border: [redBerryVine, plate27, oliveLeafAndRedBerryVine, plate19],

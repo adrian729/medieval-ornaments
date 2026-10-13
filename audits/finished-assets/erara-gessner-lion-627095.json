@@ -1,0 +1,766 @@
+{
+  "source_id": "erara-gessner-lion-627095",
+  "assets": [
+    {
+      "id": "erara-gessner-lion-627095--grape-bunch-with-leaves",
+      "name": "grape-bunch-with-leaves",
+      "source_id": "erara-gessner-lion-627095",
+      "source_folder": "e-rara-gessner",
+      "asset_type": "decoration",
+      "description": "A tiny printed grape bunch with two leaves and a short hanging stem, isolated from a decorated L initial. Part of the Gessner Historiae Animalium set.",
+      "source_region": [
+        637,
+        1913,
+        702,
+        2000
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        0,
+        0,
+        65,
+        87
+      ],
+      "export_crop_coordinate_space": "source-region",
+      "width": 65,
+      "height": 87,
+      "png": "e-rara-gessner/erara-gessner-lion-627095--grape-bunch-with-leaves.png",
+      "png_sha256": "3157c005d02d85bfdf0798399e16f18589449ecb59afcdb976ca59be49e186d3",
+      "provenance": {
+        "institution": "Zentralbibliothek Zürich",
+        "title": "Gessner, Historiae animalium: De leone.",
+        "object_identifier": "5.1: a-5.3; image 627095; section De leone.",
+        "date": "1551–1587",
+        "record_url": "https://www.e-rara.ch/zuz/content/pageview/627095",
+        "image_rights": "Public Domain Mark; parent bibliographic record",
+        "rights_url": "https://www.e-rara.ch/zuz/content/titleinfo/637105",
+        "source_file": "tmp/new-assets/e-rara-gessner/erara-gessner-lion-627095--gessner-historiae-animalium-de-leone.jpg",
+        "source_sha256": "6e1d1022b4d3d1e03e77da2f3b87942a67558c62afaff5aa43fdd2f75b2e7716",
+        "source_metadata": "tmp/new-assets/e-rara-gessner/erara-gessner-lion-627095.json",
+        "image_url": "https://www.e-rara.ch/i3f/v20/627095/full/full/0/default.jpg",
+        "method": "native-ink-matting-and-editable-source-contour-trace"
+      },
+      "extraction": {
+        "method": "native-resolution ink coverage after locally measured paper removal; measured ink color and five-layer editable contour trace",
+        "source_pixels_repainted": false,
+        "source_rgb_modified": "Paper removed by measured ink coverage; RGB is the scan-measured ink tone, not an exact source-pixel crop.",
+        "paper_kernel": 21,
+        "minimum_coverage": 0.1,
+        "minimum_component_pixels": 2,
+        "settings": {
+          "paper_kernel": 21,
+          "minimum_coverage": 0.1,
+          "minimum_component_pixels": 2
+        },
+        "exclude_regions": [],
+        "export_crop": [
+          0,
+          0,
+          65,
+          87
+        ],
+        "ink_color": [
+          79,
+          65,
+          57
+        ],
+        "candidate_png": "tmp/extraction-work/erara-gessner-lion-627095--grape-bunch-with-leaves--ink-candidate.png",
+        "candidate_svg": "tmp/extraction-work/erara-gessner-lion-627095--grape-bunch-with-leaves--ink-candidate.svg",
+        "vector_method": "OpenCV native alpha contours, 0.25-pixel polygon approximation, five measured opacity layers; no embedded raster",
+        "status": "awaiting-native-and-vector-visual-review",
+        "tool": "native source ink analysis / OpenCV editable contours",
+        "source_pixels_redrawn": false,
+        "authored_support": {
+          "svg": "tmp/extraction-work/quality-reaudit-20261010/grapes-native-support.svg",
+          "sha256": "59598c9210a280803f8bc8b02fb6751a664bcc303c53b57998b19b5d0112ac43",
+          "coordinates": "native original pixels",
+          "purpose": "Exclude glyph and neighboring foliage while retaining both leaves, fruit cluster and stem."
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261010",
+        "notes": "Re-extracted at native source coordinates. Compared source, PNG and editable SVG: both leaves, stem and grape cluster retained; letter stroke and lower neighboring foliage removed. No enlargement.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": "tmp/extraction-work/quality-reaudit-20261010/manifest.json"
+      },
+      "categories": [
+        "botanical"
+      ],
+      "subjects": [
+        "grapes",
+        "leaves"
+      ],
+      "facing": "unclear",
+      "colors": [
+        "brown",
+        "black"
+      ],
+      "composition": "single-ornament",
+      "usage_notes": "Tiny native woodcut grape cluster, with no enlargement. Only the two grape leaves, cluster and short stem are retained; the initial letter, frame, upper branch and neighboring lower leaf are excluded.",
+      "svg": "e-rara-gessner/erara-gessner-lion-627095--grape-bunch-with-leaves.svg",
+      "svg_sha256": "434ed4a8f816ed93ca2f39a367251c87e50a6d907df5a43b3bfd1eba01faa421",
+      "vector_review": {
+        "status": "awaiting-final-visual-acceptance",
+        "method": "OpenCV native alpha contours, 0.25-pixel polygon approximation, five measured opacity layers; no embedded raster",
+        "embedded_raster": false
+      },
+      "review_history": [
+        {
+          "round": "quality-reaudit-20261010",
+          "previous_review": {
+            "status": "awaiting-visual-review"
+          }
+        }
+      ],
+      "sets": [
+        {
+          "id": "gessner-historiae-animalium",
+          "name": "Gessner Historiae Animalium",
+          "relation": "same historical zoological work and illustration family"
+        },
+        {
+          "id": "erara-gessner-lion-627095-set",
+          "name": "Gessner, Historiae animalium: De leone. (erara-gessner-lion-627095)",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A tiny printed grape bunch with two leaves and a short hanging stem, isolated from a decorated L initial.",
+      "set_label": "Gessner Historiae Animalium"
+    },
+    {
+      "id": "erara-gessner-lion-627095--hanging-grapes-with-two-broad-leaves",
+      "name": "hanging-grapes-with-two-broad-leaves",
+      "source_id": "erara-gessner-lion-627095",
+      "source_folder": "e-rara-gessner",
+      "asset_type": "illustration",
+      "description": "A small hanging grape cluster with two broad leaves and a short visible stem. Part of the Gessner Historiae Animalium set.",
+      "source_region": [
+        633,
+        1900,
+        712,
+        2004
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        0,
+        0,
+        79,
+        104
+      ],
+      "export_crop_coordinate_space": "source-region",
+      "width": 79,
+      "height": 104,
+      "png": "e-rara-gessner/erara-gessner-lion-627095--hanging-grapes-with-two-broad-leaves.png",
+      "png_sha256": "d8bb998638faba7d56979b167b9cfbfb45619c5776da633735e710b7df083ef2",
+      "provenance": {
+        "institution": "Zentralbibliothek Zürich",
+        "title": "Gessner, Historiae animalium: De leone.",
+        "object_identifier": "5.1: a-5.3; image 627095; section De leone.",
+        "date": "1551–1587",
+        "record_url": "https://www.e-rara.ch/zuz/content/pageview/627095",
+        "image_rights": "Public Domain Mark; parent bibliographic record",
+        "rights_url": "https://www.e-rara.ch/zuz/content/titleinfo/637105",
+        "source_file": "tmp/new-assets/e-rara-gessner/erara-gessner-lion-627095--gessner-historiae-animalium-de-leone.jpg",
+        "source_sha256": "6e1d1022b4d3d1e03e77da2f3b87942a67558c62afaff5aa43fdd2f75b2e7716",
+        "source_metadata": "tmp/new-assets/e-rara-gessner/erara-gessner-lion-627095.json",
+        "image_url": "https://www.e-rara.ch/i3f/v20/627095/full/full/0/default.jpg",
+        "method": "native-continuous-ink-matting"
+      },
+      "extraction": {
+        "method": "Native-resolution continuous ink coverage after locally measured paper removal; PNG appearance master.",
+        "source_pixels_repainted": false,
+        "source_rgb_modified": "Paper removed by measured ink coverage; RGB is the scan-measured ink tone, not an exact source-pixel crop.",
+        "paper_kernel": 19,
+        "minimum_coverage": 0.18,
+        "minimum_component_pixels": 2,
+        "settings": {
+          "paper_kernel": 19,
+          "paper_kernel_shape": "rectangle",
+          "minimum_coverage": 0.18,
+          "minimum_component_pixels": 2,
+          "minimum_component_peak": 0.35,
+          "minimum_channel_coverage": true
+        },
+        "exclude_regions": [
+          [
+            0,
+            102,
+            79,
+            105
+          ],
+          [
+            76,
+            0,
+            79,
+            105
+          ]
+        ],
+        "export_crop": [
+          0,
+          0,
+          79,
+          104
+        ],
+        "ink_color": [
+          79,
+          65,
+          57
+        ],
+        "candidate_png": "tmp/extraction-work/erara-gessner-lion-627095--hanging-grapes-with-two-broad-leaves--ink-candidate.png",
+        "status": "awaiting-native-visual-review",
+        "exclude_polygons": [
+          [
+            [
+              0,
+              0
+            ],
+            [
+              25,
+              0
+            ],
+            [
+              25,
+              14
+            ],
+            [
+              0,
+              14
+            ]
+          ],
+          [
+            [
+              54,
+              0
+            ],
+            [
+              79,
+              0
+            ],
+            [
+              79,
+              14
+            ],
+            [
+              54,
+              14
+            ]
+          ]
+        ],
+        "native_disconnected_neighbour_removal": {
+          "method": "Retain selected fruit continuous support with a two-native-pixel continuity radius; exclude alphabetic stems, frame bars and separate finials without altering retained native coverage.",
+          "pear_stem_cut_at_source_preview_y": null
+        },
+        "alphabetic_neighbour_source_exclusions": {
+          "preview_x_below": 225.8,
+          "preview_y_below": 674.8,
+          "note": "Left L column and upper glyph curve excluded in original coordinates; actual leaf tips begin to their right, original short source-visible stem retained.",
+          "lower_left_letter_foot": [
+            224,
+            692,
+            229,
+            709
+          ]
+        },
+        "tool": "Native source ink analysis",
+        "source_pixels_redrawn": false
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Native fruit/leaf ink at original size, genuine print grain and continuous alpha preserved. Letter column/foot and frame strokes removed in original coordinates; only the original short visible fruit stems retained. Enlarged inspection views are proofs only; PNGs remain 79x104 and 45x82 native rasters. No sharpened/upscaled or faceted vector version.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/grapes-native-final-inspection-zoom.png",
+          "tmp/extraction-work/continuation-20261010/two-tiny-fruits-no-letter-neighbours-zoom.jpg",
+          "tmp/extraction-work/continuation-20261010/grapes-no-letter-foot-final-1.jpg"
+        ]
+      },
+      "categories": [
+        "botanical",
+        "floral"
+      ],
+      "subjects": [
+        "grape",
+        "leaf",
+        "fruit",
+        "stem"
+      ],
+      "facing": "mixed",
+      "colors": [
+        "brown",
+        "black"
+      ],
+      "composition": "single-figure",
+      "usage_notes": "Tiny native source decoration separated from initial L; no alphabetic glyph or frame retained. Complete fruit and leaf shapes with original short source-visible stem. No enlargement or invented branch.",
+      "sets": [
+        {
+          "id": "gessner-historiae-animalium",
+          "name": "Gessner Historiae Animalium",
+          "relation": "same historical zoological work and illustration family"
+        },
+        {
+          "id": "erara-gessner-lion-627095-set",
+          "name": "Gessner, Historiae animalium: De leone. (erara-gessner-lion-627095)",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A small hanging grape cluster with two broad leaves and a short visible stem.",
+      "set_label": "Gessner Historiae Animalium"
+    },
+    {
+      "id": "erara-gessner-lion-627095--hanging-pear-with-short-curved-stem",
+      "name": "hanging-pear-with-short-curved-stem",
+      "source_id": "erara-gessner-lion-627095",
+      "source_folder": "e-rara-gessner",
+      "asset_type": "illustration",
+      "description": "A small hanging pear with its short curved stem. Part of the Gessner Historiae Animalium set.",
+      "source_region": [
+        707,
+        1897,
+        752,
+        1979
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        0,
+        0,
+        45,
+        82
+      ],
+      "export_crop_coordinate_space": "source-region",
+      "width": 45,
+      "height": 82,
+      "png": "e-rara-gessner/erara-gessner-lion-627095--hanging-pear-with-short-curved-stem.png",
+      "png_sha256": "e37f9a6099ca5a3e67a20a21e2866a29e96ce0703cb88a880adb76e5ef5bae85",
+      "provenance": {
+        "institution": "Zentralbibliothek Zürich",
+        "title": "Gessner, Historiae animalium: De leone.",
+        "object_identifier": "5.1: a-5.3; image 627095; section De leone.",
+        "date": "1551–1587",
+        "record_url": "https://www.e-rara.ch/zuz/content/pageview/627095",
+        "image_rights": "Public Domain Mark; parent bibliographic record",
+        "rights_url": "https://www.e-rara.ch/zuz/content/titleinfo/637105",
+        "source_file": "tmp/new-assets/e-rara-gessner/erara-gessner-lion-627095--gessner-historiae-animalium-de-leone.jpg",
+        "source_sha256": "6e1d1022b4d3d1e03e77da2f3b87942a67558c62afaff5aa43fdd2f75b2e7716",
+        "source_metadata": "tmp/new-assets/e-rara-gessner/erara-gessner-lion-627095.json",
+        "image_url": "https://www.e-rara.ch/i3f/v20/627095/full/full/0/default.jpg",
+        "method": "native-continuous-ink-matting"
+      },
+      "extraction": {
+        "method": "Native-resolution continuous ink coverage after locally measured paper removal; PNG appearance master.",
+        "source_pixels_repainted": false,
+        "source_rgb_modified": "Paper removed by measured ink coverage; RGB is the scan-measured ink tone, not an exact source-pixel crop.",
+        "paper_kernel": 19,
+        "minimum_coverage": 0.18,
+        "minimum_component_pixels": 2,
+        "settings": {
+          "paper_kernel": 19,
+          "paper_kernel_shape": "rectangle",
+          "minimum_coverage": 0.18,
+          "minimum_component_pixels": 2,
+          "minimum_component_peak": 0.35,
+          "minimum_channel_coverage": true
+        },
+        "exclude_regions": [
+          [
+            40,
+            0,
+            45,
+            82
+          ],
+          [
+            0,
+            78,
+            45,
+            82
+          ]
+        ],
+        "export_crop": [
+          0,
+          0,
+          45,
+          82
+        ],
+        "ink_color": [
+          79,
+          66,
+          56
+        ],
+        "candidate_png": "tmp/extraction-work/erara-gessner-lion-627095--hanging-pear-with-short-curved-stem--ink-candidate.png",
+        "status": "awaiting-native-visual-review",
+        "exclude_polygons": [
+          [
+            [
+              0,
+              0
+            ],
+            [
+              23,
+              0
+            ],
+            [
+              23,
+              11
+            ],
+            [
+              11,
+              14
+            ],
+            [
+              0,
+              14
+            ]
+          ]
+        ],
+        "native_disconnected_neighbour_removal": {
+          "method": "Retain selected fruit continuous support with a two-native-pixel continuity radius; exclude alphabetic stems, frame bars and separate finials without altering retained native coverage.",
+          "pear_stem_cut_at_source_preview_y": 674.8
+        },
+        "tool": "Native source ink analysis",
+        "source_pixels_redrawn": false
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Native fruit/leaf ink at original size, genuine print grain and continuous alpha preserved. Letter column/foot and frame strokes removed in original coordinates; only the original short visible fruit stems retained. Enlarged inspection views are proofs only; PNGs remain 79x104 and 45x82 native rasters. No sharpened/upscaled or faceted vector version.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/grapes-native-final-inspection-zoom.png",
+          "tmp/extraction-work/continuation-20261010/two-tiny-fruits-no-letter-neighbours-zoom.jpg",
+          "tmp/extraction-work/continuation-20261010/grapes-no-letter-foot-final-1.jpg"
+        ]
+      },
+      "categories": [
+        "botanical"
+      ],
+      "subjects": [
+        "pear",
+        "fruit",
+        "stem"
+      ],
+      "facing": "mixed",
+      "colors": [
+        "brown",
+        "black"
+      ],
+      "composition": "single-figure",
+      "usage_notes": "Source-native pear inside decorated initial L. Letter and printed box excluded. Entire original pear silhouette and visible short stem retained; no added rule, invented stalk or enlargement.",
+      "sets": [
+        {
+          "id": "gessner-historiae-animalium",
+          "name": "Gessner Historiae Animalium",
+          "relation": "same historical zoological work and illustration family"
+        },
+        {
+          "id": "erara-gessner-lion-627095-set",
+          "name": "Gessner, Historiae animalium: De leone. (erara-gessner-lion-627095)",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A small hanging pear with its short curved stem.",
+      "set_label": "Gessner Historiae Animalium"
+    },
+    {
+      "id": "erara-gessner-lion-627095--hanging-pear",
+      "name": "hanging-pear",
+      "source_id": "erara-gessner-lion-627095",
+      "source_folder": "e-rara-gessner",
+      "asset_type": "decoration",
+      "description": "A tiny printed pear with a short hanging stem, isolated from a decorated L initial. Part of the Gessner Historiae Animalium set.",
+      "source_region": [
+        701,
+        1912,
+        746,
+        1979
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        0,
+        0,
+        45,
+        67
+      ],
+      "export_crop_coordinate_space": "source-region",
+      "width": 45,
+      "height": 67,
+      "png": "e-rara-gessner/erara-gessner-lion-627095--hanging-pear.png",
+      "png_sha256": "6dc47d294c238110bda8e5b8f60c55caa90bf37d0ca8524d78dd7ff6e94e0f95",
+      "provenance": {
+        "institution": "Zentralbibliothek Zürich",
+        "title": "Gessner, Historiae animalium: De leone.",
+        "object_identifier": "5.1: a-5.3; image 627095; section De leone.",
+        "date": "1551–1587",
+        "record_url": "https://www.e-rara.ch/zuz/content/pageview/627095",
+        "image_rights": "Public Domain Mark; parent bibliographic record",
+        "rights_url": "https://www.e-rara.ch/zuz/content/titleinfo/637105",
+        "source_file": "tmp/new-assets/e-rara-gessner/erara-gessner-lion-627095--gessner-historiae-animalium-de-leone.jpg",
+        "source_sha256": "6e1d1022b4d3d1e03e77da2f3b87942a67558c62afaff5aa43fdd2f75b2e7716",
+        "source_metadata": "tmp/new-assets/e-rara-gessner/erara-gessner-lion-627095.json",
+        "image_url": "https://www.e-rara.ch/i3f/v20/627095/full/full/0/default.jpg",
+        "method": "native-ink-matting-and-editable-source-contour-trace"
+      },
+      "extraction": {
+        "method": "native-resolution ink coverage after locally measured paper removal; measured ink color and five-layer editable contour trace",
+        "source_pixels_repainted": false,
+        "source_rgb_modified": "Paper removed by measured ink coverage; RGB is the scan-measured ink tone, not an exact source-pixel crop.",
+        "paper_kernel": 21,
+        "minimum_coverage": 0.1,
+        "minimum_component_pixels": 2,
+        "settings": {
+          "paper_kernel": 21,
+          "minimum_coverage": 0.1,
+          "minimum_component_pixels": 2
+        },
+        "exclude_regions": [],
+        "export_crop": [
+          0,
+          0,
+          45,
+          67
+        ],
+        "ink_color": [
+          81,
+          66,
+          56
+        ],
+        "candidate_png": "tmp/extraction-work/erara-gessner-lion-627095--hanging-pear--ink-candidate.png",
+        "candidate_svg": "tmp/extraction-work/erara-gessner-lion-627095--hanging-pear--ink-candidate.svg",
+        "vector_method": "OpenCV native alpha contours, 0.25-pixel polygon approximation, five measured opacity layers; no embedded raster",
+        "status": "awaiting-native-and-vector-visual-review",
+        "tool": "native source ink analysis / OpenCV editable contours",
+        "source_pixels_redrawn": false,
+        "authored_support": {
+          "svg": "tmp/extraction-work/quality-reaudit-20261010/pear-native-support.svg",
+          "sha256": "cd03b0b08613a9bda65b33b2e7b0f0ae3823f5635cf99646ca92450d50da337e",
+          "coordinates": "native original pixels",
+          "purpose": "Exclude letter-block frame, nearby leaf and upper decoration without cutting pear ink."
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261010",
+        "notes": "Re-extracted at native source coordinates. Compared source, PNG and editable SVG: complete pear and short stem retained; straight initial-frame line and lower neighboring leaf removed. No enlargement.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": "tmp/extraction-work/quality-reaudit-20261010/manifest.json"
+      },
+      "categories": [
+        "botanical"
+      ],
+      "subjects": [
+        "pear"
+      ],
+      "facing": "unclear",
+      "colors": [
+        "brown",
+        "black"
+      ],
+      "composition": "single-ornament",
+      "usage_notes": "Tiny native woodcut motif, with no enlargement. Only the pear and its short stem are retained; surrounding initial frame, glyph, upper foliage and lower leaf are excluded.",
+      "svg": "e-rara-gessner/erara-gessner-lion-627095--hanging-pear.svg",
+      "svg_sha256": "c2335ef042accb929453414844457cd9c7fe8a5b142ee310b28a4cb38a426398",
+      "vector_review": {
+        "status": "awaiting-final-visual-acceptance",
+        "method": "OpenCV native alpha contours, 0.25-pixel polygon approximation, five measured opacity layers; no embedded raster",
+        "embedded_raster": false
+      },
+      "review_history": [
+        {
+          "round": "quality-reaudit-20261010",
+          "previous_review": {
+            "status": "awaiting-visual-review"
+          }
+        }
+      ],
+      "sets": [
+        {
+          "id": "gessner-historiae-animalium",
+          "name": "Gessner Historiae Animalium",
+          "relation": "same historical zoological work and illustration family"
+        },
+        {
+          "id": "erara-gessner-lion-627095-set",
+          "name": "Gessner, Historiae animalium: De leone. (erara-gessner-lion-627095)",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A tiny printed pear with a short hanging stem, isolated from a decorated L initial.",
+      "set_label": "Gessner Historiae Animalium"
+    },
+    {
+      "id": "erara-gessner-lion-627095--lion",
+      "name": "lion",
+      "source_id": "erara-gessner-lion-627095",
+      "source_folder": "e-rara-gessner",
+      "asset_type": "illustration",
+      "description": "A lion with its complete mane, paws and tufted curled tail. Part of the Gessner Historiae Animalium set.",
+      "source_region": [
+        322,
+        498,
+        2783,
+        1877
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        48,
+        97,
+        2273,
+        1248
+      ],
+      "width": 2225,
+      "height": 1151,
+      "png": "e-rara-gessner/erara-gessner-lion-627095--lion.png",
+      "png_sha256": "adec3d91e0f9f06555143c9c17a4f32548cf53902461d86de6f8a5a7e725407c",
+      "provenance": {
+        "institution": "Zentralbibliothek Zürich",
+        "title": "Gessner, Historiae animalium: De leone.",
+        "object_identifier": "5.1: a-5.3; image 627095; section De leone.",
+        "date": "1551–1587",
+        "record_url": "https://www.e-rara.ch/zuz/content/pageview/627095",
+        "image_rights": "Public Domain Mark; parent bibliographic record",
+        "rights_url": "https://www.e-rara.ch/zuz/content/titleinfo/637105",
+        "source_sha256": "6e1d1022b4d3d1e03e77da2f3b87942a67558c62afaff5aa43fdd2f75b2e7716",
+        "source_file": "tmp/new-assets/e-rara-gessner/erara-gessner-lion-627095--gessner-historiae-animalium-de-leone.jpg",
+        "source_metadata": "tmp/new-assets/e-rara-gessner/erara-gessner-lion-627095.json",
+        "image_url": "https://www.e-rara.ch/i3f/v20/627095/full/full/0/default.jpg",
+        "method": "source-pixel-extraction-with-ai-assisted-selection-mask"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: precise-object-edit. Output ONLY an original-aligned two-color foreground selection matte. Preserve EXACTLY this input’s aspect ratio, size relationships, positions, pose and every contour. No recentering or reconstruction. Solid vivid MAGENTA #ff00ff selects the complete original animal illustration; solid CYAN #00ffff excludes ALL page paper, letters, text, caption, print showing through from the other page, stains and actual openings between limbs and around the tail or trunk. Select A lion with its complete mane, paws and tufted curled tail. The selected animal must be a FEATURELESS SOLID MAGENTA silhouette: every interior pale illustrated body surface, eye, dark ink line and hatch must be magenta with no copied internal features. Actual exterior page and genuine spaces between feet, tail, trunk or antler branches must remain cyan. Include every thin whisker, toe, claw, tip and hair at its original position. Do not simplify, move, enlarge, redraw or add anything. No white or black or other colors, no text on the mask. Exclude the horizontal ground hatching, cast shadows, ruled lines and lettering outside the animal’s actual contour.",
+        "selection_mask": "tmp/extraction-work/erara-gessner-lion-627095--lion--selection-mask.png",
+        "selection_mask_sha256": "9fe7f7832bdd0c2b765f8d5c7d9765fd4c49d7445e1536899ab3ff7d386ef2f7",
+        "mask_dimensions": [
+          1676,
+          939
+        ],
+        "mask_application": "binary selection resized to native source region; only alpha changed",
+        "mask_source_region": [
+          322,
+          498,
+          2783,
+          1877
+        ],
+        "mask_encoding": "magenta-on-cyan",
+        "native_stroke_correction": null,
+        "native_paper_cleanup": null,
+        "native_boundary_refinement": null,
+        "mask_preprocessing": {
+          "fill_internal_holes_below_px": 250,
+          "remove_islands_below_px": 30
+        },
+        "native_rgb_verification": "all alpha-visible RGB values exactly equal the recorded native source crop; fully transparent RGB cleared",
+        "source_color_profile_preserved": true,
+        "source_pixels_repainted": false
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261010",
+        "notes": "Native overlay confirms long mane, whiskers, belly fur, all feet and complete tufted tail. Horizontal ground rule and exterior hatching excluded; original body scale retained.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": "tmp/extraction-work/quality-reaudit-20261010/manifest.json"
+      },
+      "categories": [
+        "animals"
+      ],
+      "subjects": [
+        "lion"
+      ],
+      "facing": "left",
+      "colors": [
+        "brown",
+        "cream"
+      ],
+      "composition": "single-figure",
+      "vector_review": {
+        "status": "accepted",
+        "method": "Editable native-color VTracer paths with eight-layer native PNG alpha contour mask, excluding opaque hidden pixels and stray trace islands.",
+        "premultiplied_rgb_error_at_review_resolution": 0.025501860196647897,
+        "alpha_error_at_review_resolution": 0.001500096723772382,
+        "limitation": "Contours and scan tones are approximate. PNG retains original native source RGB and remains the preferred fidelity master.",
+        "embedded_raster": false,
+        "quality_round": "20261010"
+      },
+      "svg": "e-rara-gessner/erara-gessner-lion-627095--lion.svg",
+      "svg_sha256": "1bdaedcf79ad7c1b08be02d93c69083efabebf4e52dd7ddb1808327800cbb98b",
+      "review_history": [
+        {
+          "round": "quality-reaudit-20261010",
+          "previous_review": {
+            "status": "accepted",
+            "reviewed_on": "2026-10-10T11:45:29.486206+00:00",
+            "notes": "Compared the complete animal against its source, checked corrected orientation, fur/ear/tail tips and paws, and inspected transparent exterior and true spaces between limbs on light and dark backgrounds. Native source RGB retained; SVG evaluation remains pending.",
+            "checks": [
+              "original-source-comparison",
+              "white-background",
+              "dark-background",
+              "outer-contours",
+              "interior-openings",
+              "thin-details",
+              "original-rgb-equality"
+            ]
+          }
+        }
+      ],
+      "sets": [
+        {
+          "id": "gessner-historiae-animalium",
+          "name": "Gessner Historiae Animalium",
+          "relation": "same historical zoological work and illustration family"
+        },
+        {
+          "id": "erara-gessner-lion-627095-set",
+          "name": "Gessner, Historiae animalium: De leone. (erara-gessner-lion-627095)",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A lion with its complete mane, paws and tufted curled tail.",
+      "set_label": "Gessner Historiae Animalium"
+    }
+  ]
+}

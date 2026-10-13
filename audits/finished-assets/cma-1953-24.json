@@ -1,0 +1,1405 @@
+{
+  "source_id": "cma-1953-24",
+  "assets": [
+    {
+      "id": "cma-1953-24--coronation-of-mary-with-six-angels-and-throne",
+      "name": "coronation-of-mary-with-six-angels-and-throne",
+      "source_id": "cma-1953-24",
+      "source_folder": "cleveland",
+      "asset_type": "illustration",
+      "description": "The coronation of Mary with Christ, six angels and their shared architectural throne. Part of the Beffi Coronation frame set.",
+      "source_region": [
+        872,
+        1308,
+        4115,
+        5030
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        0,
+        0,
+        1171,
+        1322
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 1171,
+      "height": 1322,
+      "png": "cleveland/cma-1953-24--coronation-of-mary-with-six-angels-and-throne.png",
+      "png_sha256": "3856e33ff9284b6aa207202b57499cbb79ca4b168ffbcb5b6645ef1cfd02b72d",
+      "provenance": {
+        "institution": "Cleveland Museum of Art",
+        "title": "Leaf from an Antiphonary: Coronation of the Virgin",
+        "object_identifier": "1953.24",
+        "date": "1400s",
+        "artist": "Master of the Beffi Triptych (Italian, active 1390–1425)",
+        "record_url": "https://clevelandart.org/art/1953.24",
+        "image_rights": "CC0; share_license_status=CC0",
+        "rights_url": "https://www.clevelandart.org/open-access",
+        "source_file": "tmp/new-assets/cleveland/cma-1953-24--leaf-from-an-antiphonary-coronation-of-the-virgin--master.tif",
+        "source_sha256": "fad2ff0aae45fd22d3d36c015cd0c4f75c0f59fa1863d74927aea79a725b0b6f",
+        "source_metadata": "tmp/new-assets/cleveland/cma-1953-24.json",
+        "image_url": "https://openaccess-cdn.clevelandart.org/1953.24/1953.24_full.tif",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. Extract the ENTIRE original contacting scene: Christ crowning Mary, all FOUR standing angels, BOTH foreground kneeling angels and the source-visible peaked architectural throne. Keep the original two kneeling angels IN FRONT of the throne so the hidden lower arches stay hidden exactly as in the source. NO newly completed arches or hidden legs. Preserve every actual throne fragment, wing and long green wing tip, robe, crown and halo. Remove flat orange floor, flat gold background, rectangular outer miniature rule and all outer page ornament. Genuine architecture openings and actual gaps between figures clear; painted stone, clothing and halos opaque. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_extraction": "tmp/extraction-work/cma-1953-24--coronation-of-mary-with-six-angels-and-throne--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "97925e7db9ef411d6354777b0cff5fb2cd8cd76b6695555ba3623c1bd8b26564",
+        "retained_generated_size": [
+          1171,
+          1343
+        ],
+        "resolution_cap_scale": 1,
+        "resolution_capped_size": [
+          1171,
+          1343
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          3109,
+          3605
+        ],
+        "native_subject_size_evidence": {
+          "method": "Individually inspected native visible subject bounds, excluding input-region whitespace and neighbours.",
+          "preview_subject_bounds": [
+            233,
+            337,
+            1003,
+            1230
+          ],
+          "preview_size": [
+            1138,
+            1600
+          ],
+          "original_size": [
+            4595,
+            6459
+          ]
+        },
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 11831
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Each complete original ROI, white and dark proof inspected. Coronation retains Christ, Mary, six angels and their actual shared throne, clears the floor/gold field and real architectural openings; two foreground kneelers also already available separately. Angel retains all original wing, white scroll and blue/white clouds while starry sky/arch cleared. Both small leaf terminals retain their actual pale/colored folds and original silhouettes without invented branches.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/full-shape-final-ready-results-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/full-shape-final-ready-results-proof-2.jpg"
+        ]
+      },
+      "categories": [
+        "humans",
+        "royalty"
+      ],
+      "subjects": [
+        "christ",
+        "mary",
+        "throne",
+        "angel",
+        "crown",
+        "halo"
+      ],
+      "colors": [
+        "blue",
+        "red",
+        "cream",
+        "gray",
+        "gold"
+      ],
+      "facing": "unclear",
+      "composition": "multiple-figures",
+      "usage_notes": "Original independent specimen with printed plate rules and page removed. AI-assisted extraction remains approximate; source bounds, actual native subject cap, original and exact prompt retained.",
+      "sets": [
+        {
+          "id": "cma-1953-24-set",
+          "name": "Beffi Coronation frame",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "The coronation of Mary with Christ, six angels and their shared architectural throne.",
+      "set_label": "Beffi Coronation frame"
+    },
+    {
+      "id": "cma-1953-24--fixed-polychrome-floral-frame-with-knotted-medallions",
+      "name": "fixed-polychrome-floral-frame-with-knotted-medallions",
+      "source_id": "cma-1953-24",
+      "source_folder": "cleveland",
+      "asset_type": "decoration",
+      "description": "A complete finite polychrome floral frame with knotted medallions, stars, pendant ornaments and 47 inventoried peripheral gold sunbursts; part of the Beffi Coronation frame set.",
+      "source_region": [
+        89,
+        101,
+        4555,
+        6322
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        1,
+        0,
+        4453,
+        6119
+      ],
+      "export_crop_coordinate_space": "original-native-source-region",
+      "width": 4452,
+      "height": 6119,
+      "png": "cleveland/cma-1953-24--fixed-polychrome-floral-frame-with-knotted-medallions.png",
+      "png_sha256": "8bf9bf36abf455a9d0adf7aaa819226d948f63e734581660a973c0e08aa3202c",
+      "provenance": {
+        "institution": "Cleveland Museum of Art",
+        "title": "Leaf from an Antiphonary: Coronation of the Virgin",
+        "object_identifier": "1953.24",
+        "date": "1400s",
+        "artist": "Master of the Beffi Triptych (Italian, active 1390–1425)",
+        "record_url": "https://clevelandart.org/art/1953.24",
+        "image_rights": "CC0; share_license_status=CC0",
+        "rights_url": "https://www.clevelandart.org/open-access",
+        "source_file": "tmp/new-assets/cleveland/cma-1953-24--leaf-from-an-antiphonary-coronation-of-the-virgin--master.tif",
+        "source_sha256": "fad2ff0aae45fd22d3d36c015cd0c4f75c0f59fa1863d74927aea79a725b0b6f",
+        "source_metadata": "tmp/new-assets/cleveland/cma-1953-24.json",
+        "image_url": "https://openaccess-cdn.clevelandart.org/1953.24/1953.24_full.tif",
+        "method": "native-source-paint-and-measured-sunburst-ink-matting"
+      },
+      "extraction": {
+        "candidate_png": "tmp/extraction-work/todo-fixes-20261012/cma-1953-24--fixed-polychrome-floral-frame-with-knotted-medallions--native-complete-frame-with-clean-sunburst-rays.png",
+        "native_export_crop": [
+          1,
+          0,
+          4453,
+          6119
+        ],
+        "export_crop_coordinate_space": "original-native-source-region",
+        "annotation_json": "tmp/extraction-work/continuation-20261010/cma-1953-24--fixed-polychrome-floral-frame-with-knotted-medallions--refined-original-native-audit.json",
+        "trimap_png": "tmp/extraction-work/continuation-20261010/cma-1953-24--fixed-polychrome-floral-frame-with-knotted-medallions--refined-original-native-trimap.png",
+        "native_source_size": [
+          4466,
+          6221
+        ],
+        "native_upscaling": false,
+        "source_pixels_redrawn": false,
+        "original_opaque_rgb_preserved": false,
+        "method": "Source-native frame extraction: registered AI alpha supplies broad ownership only, followed by individually inventoried sunburst recovery and measured native ink unmixing of fine radial strokes. Original painted RGB retained; only ink-ray RGB/alpha is converted to measured coverage to clear intervening parchment.",
+        "alpha_guide": {
+          "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+          "guide_png": "tmp/extraction-work/todo-fixes-20261012/cma-1953-24--fixed-polychrome-floral-frame-with-knotted-medallions--complete-frame-alpha-guide.png",
+          "guide_sha256": "1525acb7aa85790b33eff0cc9c8b22339af71a92761ff3a0131e084bd4090ae3",
+          "native_original": "tmp/extraction-work/continuation-20261010/cma-1953-24--fixed-polychrome-floral-frame-with-knotted-medallions--original.png",
+          "similarity_ai_alpha_to_original": [
+            [
+              4.204368030926804,
+              -0.0007468539170094999,
+              -2.7365771753147397
+            ],
+            [
+              0.0007468539170094999,
+              4.204368030926804,
+              1.8825329279598324
+            ]
+          ],
+          "matching_feature_pairs": 579,
+          "inlier_feature_pairs": 535,
+          "inlier_rms_native_pixels": 5.253378518689099,
+          "source_inspection_factor": 0.28934254942935217,
+          "unknown_edge_band_native_pixels": 5,
+          "edge_solve_tile_size": 640,
+          "edge_solve_halo": 32,
+          "edge_solve_tiles": 48,
+          "original_opaque_rgb_preserved": true
+        },
+        "status": "reviewed-source-white-dark",
+        "native_refinement": {
+          "method": "Complete original four-sided Beffi frame recovered at native resolution using registered extraction alpha for broad ownership, followed by a source-coordinate inventory of 47 actual peripheral gold sunbursts. Missing disks and their thin black radial strokes are recovered from original pigment/ink in individually inspected round scopes. Actual sunburst openings remain clear; no generated RGB, new flowers, reconstructed gold or resized source pixels are delivered. Original opaque painted surfaces and all finite-frame ornaments retained.",
+          "source": "tmp/extraction-work/continuation-20261010/cma-1953-24--fixed-polychrome-floral-frame-with-knotted-medallions--original.png",
+          "previous_native_matte": {
+            "candidate_png": "tmp/extraction-work/continuation-20261010/cma-1953-24--fixed-polychrome-floral-frame-with-knotted-medallions--registered-native-candidate.png",
+            "native_export_crop": [
+              0,
+              21,
+              4461,
+              6122
+            ],
+            "export_crop_coordinate_space": "original-native-source-region",
+            "annotation_json": "tmp/extraction-work/continuation-20261010/cma-1953-24--fixed-polychrome-floral-frame-with-knotted-medallions--registered-native-annotation.json",
+            "trimap_png": "tmp/extraction-work/continuation-20261010/cma-1953-24--fixed-polychrome-floral-frame-with-knotted-medallions--registered-native-trimap.png",
+            "native_source_size": [
+              4466,
+              6221
+            ],
+            "native_upscaling": false,
+            "source_pixels_redrawn": false,
+            "original_opaque_rgb_preserved": true,
+            "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+            "alpha_guide": {
+              "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+              "guide_png": "tmp/extraction-work/todo-fixes-20261012/cma-1953-24--fixed-polychrome-floral-frame-with-knotted-medallions--complete-frame-alpha-guide.png",
+              "guide_sha256": "1525acb7aa85790b33eff0cc9c8b22339af71a92761ff3a0131e084bd4090ae3",
+              "native_original": "tmp/extraction-work/continuation-20261010/cma-1953-24--fixed-polychrome-floral-frame-with-knotted-medallions--original.png",
+              "similarity_ai_alpha_to_original": [
+                [
+                  4.204368030926804,
+                  -0.0007468539170094999,
+                  -2.7365771753147397
+                ],
+                [
+                  0.0007468539170094999,
+                  4.204368030926804,
+                  1.8825329279598324
+                ]
+              ],
+              "matching_feature_pairs": 579,
+              "inlier_feature_pairs": 535,
+              "inlier_rms_native_pixels": 5.253378518689099,
+              "source_inspection_factor": 0.28934254942935217,
+              "unknown_edge_band_native_pixels": 5,
+              "edge_solve_tile_size": 640,
+              "edge_solve_halo": 32,
+              "edge_solve_tiles": 48,
+              "original_opaque_rgb_preserved": true
+            },
+            "status": "awaiting-original-white-dark-review"
+          },
+          "unknown_band_native_pixels": 2,
+          "source_rgb_redrawn": false,
+          "source_resized": false,
+          "original_opaque_rgb_preserved": true,
+          "ownership": "tmp/extraction-work/continuation-20261010/cma-1953-24--fixed-polychrome-floral-frame-with-knotted-medallions--refined-original-native-ownership.png",
+          "ownership_sha256": "0adf8ae58af03f2485753dfd4c9227ab80004dfa1c285eda9a953779b20ba6b1",
+          "sunburst_centres_radius_in_1000px_original_proof": [
+            [
+              30,
+              45,
+              16
+            ],
+            [
+              23,
+              83,
+              14
+            ],
+            [
+              94,
+              15,
+              16
+            ],
+            [
+              170,
+              41,
+              15
+            ],
+            [
+              168,
+              117,
+              16
+            ],
+            [
+              39,
+              160,
+              15
+            ],
+            [
+              145,
+              160,
+              16
+            ],
+            [
+              300,
+              28,
+              16
+            ],
+            [
+              325,
+              121,
+              16
+            ],
+            [
+              405,
+              123,
+              16
+            ],
+            [
+              429,
+              20,
+              17
+            ],
+            [
+              591,
+              28,
+              17
+            ],
+            [
+              584,
+              120,
+              16
+            ],
+            [
+              517,
+              133,
+              13
+            ],
+            [
+              725,
+              22,
+              17
+            ],
+            [
+              711,
+              125,
+              17
+            ],
+            [
+              848,
+              125,
+              17
+            ],
+            [
+              868,
+              36,
+              16
+            ],
+            [
+              920,
+              61,
+              11
+            ],
+            [
+              989,
+              38,
+              10
+            ],
+            [
+              982,
+              63,
+              10
+            ],
+            [
+              923,
+              122,
+              11
+            ],
+            [
+              913,
+              145,
+              12
+            ],
+            [
+              982,
+              119,
+              11
+            ],
+            [
+              989,
+              145,
+              12
+            ],
+            [
+              918,
+              278,
+              15
+            ],
+            [
+              988,
+              473,
+              14
+            ],
+            [
+              918,
+              708,
+              14
+            ],
+            [
+              989,
+              699,
+              13
+            ],
+            [
+              917,
+              843,
+              15
+            ],
+            [
+              983,
+              840,
+              14
+            ],
+            [
+              916,
+              975,
+              15
+            ],
+            [
+              984,
+              978,
+              15
+            ],
+            [
+              32,
+              364,
+              20
+            ],
+            [
+              157,
+              362,
+              18
+            ],
+            [
+              32,
+              945,
+              14
+            ],
+            [
+              151,
+              950,
+              14
+            ],
+            [
+              50,
+              1133,
+              15
+            ],
+            [
+              122,
+              1125,
+              18
+            ],
+            [
+              253,
+              1128,
+              15
+            ],
+            [
+              563,
+              1130,
+              18
+            ],
+            [
+              819,
+              1137,
+              17
+            ],
+            [
+              978,
+              1151,
+              17
+            ],
+            [
+              33,
+              1312,
+              15
+            ],
+            [
+              123,
+              1325,
+              15
+            ],
+            [
+              240,
+              1317,
+              17
+            ],
+            [
+              555,
+              1307,
+              17
+            ]
+          ],
+          "native_sunburst_regions": [
+            [
+              63,
+              130,
+              206,
+              273
+            ],
+            [
+              40,
+              308,
+              167,
+              435
+            ],
+            [
+              349,
+              0,
+              492,
+              139
+            ],
+            [
+              692,
+              116,
+              827,
+              251
+            ],
+            [
+              679,
+              452,
+              822,
+              595
+            ],
+            [
+              107,
+              648,
+              242,
+              783
+            ],
+            [
+              577,
+              644,
+              720,
+              787
+            ],
+            [
+              1269,
+              54,
+              1412,
+              197
+            ],
+            [
+              1380,
+              469,
+              1523,
+              612
+            ],
+            [
+              1738,
+              478,
+              1881,
+              621
+            ],
+            [
+              1840,
+              13,
+              1993,
+              166
+            ],
+            [
+              2563,
+              49,
+              2716,
+              202
+            ],
+            [
+              2537,
+              465,
+              2680,
+              608
+            ],
+            [
+              2251,
+              536,
+              2368,
+              653
+            ],
+            [
+              3162,
+              22,
+              3315,
+              175
+            ],
+            [
+              3099,
+              482,
+              3252,
+              635
+            ],
+            [
+              3711,
+              482,
+              3864,
+              635
+            ],
+            [
+              3805,
+              90,
+              3948,
+              233
+            ],
+            [
+              4060,
+              223,
+              4159,
+              322
+            ],
+            [
+              4372,
+              125,
+              4463,
+              216
+            ],
+            [
+              4341,
+              236,
+              4432,
+              327
+            ],
+            [
+              4073,
+              496,
+              4172,
+              595
+            ],
+            [
+              4023,
+              594,
+              4132,
+              703
+            ],
+            [
+              4337,
+              482,
+              4436,
+              581
+            ],
+            [
+              4363,
+              594,
+              4466,
+              703
+            ],
+            [
+              4033,
+              1175,
+              4168,
+              1310
+            ],
+            [
+              4349,
+              2049,
+              4466,
+              2176
+            ],
+            [
+              4037,
+              3099,
+              4164,
+              3226
+            ],
+            [
+              4359,
+              3064,
+              4466,
+              3181
+            ],
+            [
+              4028,
+              3698,
+              4163,
+              3833
+            ],
+            [
+              4327,
+              3688,
+              4454,
+              3815
+            ],
+            [
+              4024,
+              4287,
+              4159,
+              4422
+            ],
+            [
+              4328,
+              4301,
+              4463,
+              4436
+            ],
+            [
+              54,
+              1537,
+              233,
+              1716
+            ],
+            [
+              621,
+              1537,
+              782,
+              1698
+            ],
+            [
+              80,
+              4157,
+              207,
+              4284
+            ],
+            [
+              611,
+              4180,
+              738,
+              4307
+            ],
+            [
+              156,
+              4993,
+              291,
+              5128
+            ],
+            [
+              465,
+              4944,
+              626,
+              5105
+            ],
+            [
+              1063,
+              4971,
+              1198,
+              5106
+            ],
+            [
+              2434,
+              4967,
+              2595,
+              5128
+            ],
+            [
+              3582,
+              5002,
+              3735,
+              5155
+            ],
+            [
+              4292,
+              5064,
+              4445,
+              5217
+            ],
+            [
+              80,
+              5792,
+              215,
+              5927
+            ],
+            [
+              482,
+              5850,
+              617,
+              5985
+            ],
+            [
+              996,
+              5806,
+              1149,
+              5959
+            ],
+            [
+              2403,
+              5761,
+              2556,
+              5914
+            ]
+          ],
+          "original_proof": "tmp/extraction-work/todo-fixes-20261012/beffi-original-frame-1000-coordinate-audit.jpg",
+          "immutable_registered_base": "tmp/extraction-work/todo-fixes-20261012/cma-1953-24--fixed-polychrome-floral-frame-with-knotted-medallions--registered-native-before-sunbursts.png",
+          "exact_ai_ownership_prompt": "tmp/extraction-work/todo-fixes-20261012/frame-alpha-guide-prompt.txt"
+        },
+        "sunburst_ink_unmixing": {
+          "method": "Inside 47 inspected sunburst scopes only, original black radial ink is separated from parchment using a 19-native-pixel local paper estimate and measured third-percentile source ink tone. Coverage below .14 is discarded; real gold disks remain opaque original RGB. This replaces the rejected paper-filled AI ownership between rays. All frame pixels outside these scopes are unchanged from the previous source-native candidate.",
+          "scopes_1000px_original": [
+            [
+              30,
+              45,
+              16
+            ],
+            [
+              23,
+              83,
+              14
+            ],
+            [
+              94,
+              15,
+              16
+            ],
+            [
+              170,
+              41,
+              15
+            ],
+            [
+              168,
+              117,
+              16
+            ],
+            [
+              39,
+              160,
+              15
+            ],
+            [
+              145,
+              160,
+              16
+            ],
+            [
+              300,
+              28,
+              16
+            ],
+            [
+              325,
+              121,
+              16
+            ],
+            [
+              405,
+              123,
+              16
+            ],
+            [
+              429,
+              20,
+              17
+            ],
+            [
+              591,
+              28,
+              17
+            ],
+            [
+              584,
+              120,
+              16
+            ],
+            [
+              517,
+              133,
+              13
+            ],
+            [
+              725,
+              22,
+              17
+            ],
+            [
+              711,
+              125,
+              17
+            ],
+            [
+              848,
+              125,
+              17
+            ],
+            [
+              868,
+              36,
+              16
+            ],
+            [
+              920,
+              61,
+              11
+            ],
+            [
+              989,
+              38,
+              10
+            ],
+            [
+              982,
+              63,
+              10
+            ],
+            [
+              923,
+              122,
+              11
+            ],
+            [
+              913,
+              145,
+              12
+            ],
+            [
+              982,
+              119,
+              11
+            ],
+            [
+              989,
+              145,
+              12
+            ],
+            [
+              918,
+              278,
+              15
+            ],
+            [
+              988,
+              473,
+              14
+            ],
+            [
+              918,
+              708,
+              14
+            ],
+            [
+              989,
+              699,
+              13
+            ],
+            [
+              917,
+              843,
+              15
+            ],
+            [
+              983,
+              840,
+              14
+            ],
+            [
+              916,
+              975,
+              15
+            ],
+            [
+              984,
+              978,
+              15
+            ],
+            [
+              32,
+              364,
+              20
+            ],
+            [
+              157,
+              362,
+              18
+            ],
+            [
+              32,
+              945,
+              14
+            ],
+            [
+              151,
+              950,
+              14
+            ],
+            [
+              50,
+              1133,
+              15
+            ],
+            [
+              122,
+              1125,
+              18
+            ],
+            [
+              253,
+              1128,
+              15
+            ],
+            [
+              563,
+              1130,
+              18
+            ],
+            [
+              819,
+              1137,
+              17
+            ],
+            [
+              978,
+              1151,
+              17
+            ],
+            [
+              33,
+              1312,
+              15
+            ],
+            [
+              123,
+              1325,
+              15
+            ],
+            [
+              240,
+              1317,
+              17
+            ],
+            [
+              555,
+              1307,
+              17
+            ]
+          ],
+          "source_rgb_modified": "Only ray RGB becomes measured original ink tone; alpha records original coverage. Gold and all other opaque paint retain original RGB.",
+          "previous_candidate": "tmp/extraction-work/continuation-20261010/cma-1953-24--fixed-polychrome-floral-frame-with-knotted-medallions--refined-original-native-candidate.png",
+          "candidate_sha256": "8bf9bf36abf455a9d0adf7aaa819226d948f63e734581660a973c0e08aa3202c",
+          "status": "awaiting-source-white-dark-review"
+        },
+        "tool": "Original native scan / closed-form edge alpha and foreground decontamination",
+        "pixel_exact": false,
+        "ownership_guide_prompt": "Use case: background-extraction. Extract the complete original four-sided outer floral manuscript frame from this original scan, on transparent background. Keep absolutely every original small peripheral gold circular sunburst ornament and all its thin black radiating spikes, including top, bottom, outside AND inside the bands. Preserve every gold medallion, interwoven blue knot, six-pointed star, leaf, fine hanging droplet and tiny blue bead; gold fields within the actual ornaments remain opaque with original wear. Preserve exact asymmetric original arrangement and geometry; do not simplify, omit detached small ornaments, repair worn paint, duplicate or add ornaments. Clear central religious miniature including its own rectangular gilt/green border, musical staff, all lettering, and parchment between ornaments and through their real holes. The outer frame ornament alone remains, with genuinely transparent interior and exterior. Faithful historical paint texture and original colors; no redesigned details, no symmetrical replacement. Maintain original proportions and all source-visible extremities. Large detailed output.",
+        "retained_generated_ownership_guide": {
+          "file": "tmp/extraction-work/todo-fixes-20261012/cma-1953-24--fixed-polychrome-floral-frame-with-knotted-medallions--complete-frame-alpha-guide.png",
+          "sha256": "1525acb7aa85790b33eff0cc9c8b22339af71a92761ff3a0131e084bd4090ae3",
+          "purpose": "AI alpha ownership reference only. Delivered paint is native source RGB; ray ink is source-measured tone and coverage, with no generated RGB."
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "todo-fixes-20261012",
+        "checks": [
+          "whole-original-comparison",
+          "47-peripheral-sunburst-inventory",
+          "native-source-scale",
+          "white-and-dark-backgrounds",
+          "genuine-transparent-openings",
+          "source-paint-and-wear-retained"
+        ],
+        "notes": "Corrected omission of peripheral sunbursts, including the two upper-left circles missing from the earlier extraction. All 47 scoped sunbursts checked against the original; original rays recovered and intervening parchment removed by local ink unmixing. Whole frame reviewed on white/dark. Paint remains source-native; gold, leaf tips, knots, stars and pendants retained. Historical wear and physically source-clipped top/righthand ray ends remain as original.",
+        "evidence": [
+          "tmp/extraction-work/todo-fixes-20261012/beffi-original-frame-1000-coordinate-audit.jpg",
+          "tmp/extraction-work/todo-fixes-20261012/beffi-clean-rays-white.jpg",
+          "tmp/extraction-work/todo-fixes-20261012/beffi-clean-rays-dark.jpg"
+        ]
+      },
+      "categories": [
+        "floral",
+        "scrollwork",
+        "knotwork",
+        "geometric"
+      ],
+      "subjects": [
+        "frame",
+        "flower",
+        "leaf",
+        "knot",
+        "medallion",
+        "star",
+        "scroll"
+      ],
+      "colors": [
+        "blue",
+        "red",
+        "green",
+        "cream",
+        "gold",
+        "black"
+      ],
+      "facing": "unclear",
+      "composition": "single-ornament",
+      "usage_notes": "Beffi Coronation frame set. Complete finite original floral frame with 47 inventoried peripheral gold sunbursts and their original fine black rays. Source-native painted color retained; ray alpha and ink tone separated from parchment by measured native ink coverage. Transparent centre and actual openings; no seamless repeat or corner atlas inferred.",
+      "review_history": [
+        {
+          "status": "accepted",
+          "quality_round": "20261011",
+          "notes": "Compared original/source-white-dark proofs. Both kneeling angels retain all long wing tips, pale facial features, gold halos and original robe hems. Finite floral frame preserves distinct side designs, corner knots, thin black/gold flowers and genuine openings. Cross procession retains complete visible source group and shared cross without hidden body invention; flat landscape and original plate rule cleared.",
+          "checks": [
+            "original-source-comparison",
+            "complete-retained-entity",
+            "native-subject-scale",
+            "white-and-dark-backgrounds",
+            "exterior-and-genuine-openings",
+            "fine-props-and-extremities"
+          ],
+          "evidence": [
+            "tmp/extraction-work/continuation-20261010/cleveland-next-partial-results-proof-1.jpg",
+            "tmp/extraction-work/continuation-20261010/cleveland-next-partial-results-proof-2.jpg"
+          ]
+        }
+      ],
+      "sets": [
+        {
+          "id": "cma-1953-24-set",
+          "name": "Beffi Coronation frame",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A complete finite polychrome floral frame with knotted medallions, stars, pendant ornaments and 47 inventoried peripheral gold sunbursts; part of the Beffi Coronation frame set.",
+      "set_label": "Beffi Coronation frame"
+    },
+    {
+      "id": "cma-1953-24--kneeling-blue-robed-angel-with-long-green-wings",
+      "name": "kneeling-blue-robed-angel-with-long-green-wings",
+      "source_id": "cma-1953-24",
+      "source_folder": "cleveland",
+      "asset_type": "illustration",
+      "description": "A kneeling blue-robed angel with long green wings and a gold halo. Part of the Beffi Coronation frame set.",
+      "source_region": [
+        961,
+        3589,
+        2011,
+        4965
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        8,
+        0,
+        993,
+        1289
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 985,
+      "height": 1289,
+      "png": "cleveland/cma-1953-24--kneeling-blue-robed-angel-with-long-green-wings.png",
+      "png_sha256": "d15749de990cec649d6c88823a1e99d9c1449efbad04c8a8d9ebab05c156bdbd",
+      "provenance": {
+        "institution": "Cleveland Museum of Art",
+        "title": "Leaf from an Antiphonary: Coronation of the Virgin",
+        "object_identifier": "1953.24",
+        "date": "1400s",
+        "artist": "Master of the Beffi Triptych (Italian, active 1390–1425)",
+        "record_url": "https://clevelandart.org/art/1953.24",
+        "image_rights": "CC0; share_license_status=CC0",
+        "rights_url": "https://www.clevelandart.org/open-access",
+        "source_file": "tmp/new-assets/cleveland/cma-1953-24--leaf-from-an-antiphonary-coronation-of-the-virgin--master.tif",
+        "source_sha256": "fad2ff0aae45fd22d3d36c015cd0c4f75c0f59fa1863d74927aea79a725b0b6f",
+        "source_metadata": "tmp/new-assets/cleveland/cma-1953-24.json",
+        "image_url": "https://openaccess-cdn.clevelandart.org/1953.24/1953.24_full.tif",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. Extract ONLY foreground LEFT kneeling blue-robed angel. Include full gold halo, head, hands, all folds of robe down to its original hem and BOTH long narrow spiky green/blue wing tips reaching down-left. No throne fragments, floor or other angels; no hidden reconstruction. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_extraction": "tmp/extraction-work/cma-1953-24--kneeling-blue-robed-angel-with-long-green-wings--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "cbe4386a8cf3b38c43471d9377558efc50851f8b2947257a71471eb9e280669b",
+        "retained_generated_size": [
+          1096,
+          1436
+        ],
+        "resolution_cap_scale": 0.9150141643059491,
+        "resolution_capped_size": [
+          1003,
+          1314
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          969,
+          1304
+        ],
+        "native_subject_size_evidence": {
+          "method": "Individually inspected native visible subject bounds, excluding input-region whitespace and neighbours.",
+          "preview_subject_bounds": [
+            244,
+            901,
+            484,
+            1224
+          ],
+          "preview_size": [
+            1138,
+            1600
+          ],
+          "original_size": [
+            4595,
+            6459
+          ]
+        },
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 4581
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Compared original/source-white-dark proofs. Both kneeling angels retain all long wing tips, pale facial features, gold halos and original robe hems. Finite floral frame preserves distinct side designs, corner knots, thin black/gold flowers and genuine openings. Cross procession retains complete visible source group and shared cross without hidden body invention; flat landscape and original plate rule cleared.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/cleveland-next-partial-results-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/cleveland-next-partial-results-proof-2.jpg"
+        ]
+      },
+      "categories": [
+        "humans",
+        "fantasy"
+      ],
+      "subjects": [
+        "angel",
+        "wing",
+        "halo"
+      ],
+      "colors": [
+        "blue",
+        "green",
+        "gold",
+        "cream"
+      ],
+      "facing": "unclear",
+      "composition": "single-figure",
+      "usage_notes": "Original independent specimen with printed plate rules and page removed. AI-assisted extraction remains approximate; source bounds, actual native subject cap, original and exact prompt retained.",
+      "sets": [
+        {
+          "id": "cma-1953-24-set",
+          "name": "Beffi Coronation frame",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A kneeling blue-robed angel with long green wings and a gold halo.",
+      "set_label": "Beffi Coronation frame"
+    },
+    {
+      "id": "cma-1953-24--kneeling-green-robed-angel-with-long-green-wings",
+      "name": "kneeling-green-robed-angel-with-long-green-wings",
+      "source_id": "cma-1953-24",
+      "source_folder": "cleveland",
+      "asset_type": "illustration",
+      "description": "A kneeling green-robed angel with long pointed wings and a gold halo. Part of the Beffi Coronation frame set.",
+      "source_region": [
+        2512,
+        3565,
+        3691,
+        4925
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        29,
+        9,
+        1138,
+        1302
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 1109,
+      "height": 1293,
+      "png": "cleveland/cma-1953-24--kneeling-green-robed-angel-with-long-green-wings.png",
+      "png_sha256": "9b80094f62a1ac7e7bd93b8a47619e5e57e5caa20c4a7744f3f775aba0d072e4",
+      "provenance": {
+        "institution": "Cleveland Museum of Art",
+        "title": "Leaf from an Antiphonary: Coronation of the Virgin",
+        "object_identifier": "1953.24",
+        "date": "1400s",
+        "artist": "Master of the Beffi Triptych (Italian, active 1390–1425)",
+        "record_url": "https://clevelandart.org/art/1953.24",
+        "image_rights": "CC0; share_license_status=CC0",
+        "rights_url": "https://www.clevelandart.org/open-access",
+        "source_file": "tmp/new-assets/cleveland/cma-1953-24--leaf-from-an-antiphonary-coronation-of-the-virgin--master.tif",
+        "source_sha256": "fad2ff0aae45fd22d3d36c015cd0c4f75c0f59fa1863d74927aea79a725b0b6f",
+        "source_metadata": "tmp/new-assets/cleveland/cma-1953-24.json",
+        "image_url": "https://openaccess-cdn.clevelandart.org/1953.24/1953.24_full.tif",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. Extract ONLY foreground RIGHT kneeling green-robed angel. Full gold halo, profile head, praying hands, complete original robe hem and BOTH narrow spiky wing tips to the lower-right. Remove throne, floor and other angels. Preserve original visible outlines. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_extraction": "tmp/extraction-work/cma-1953-24--kneeling-green-robed-angel-with-long-green-wings--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "c0190ba9c3eec1f5e520f0d97aed64903b908efa9b8143028bccfb249e2426e8",
+        "retained_generated_size": [
+          1168,
+          1347
+        ],
+        "resolution_cap_scale": 0.9891575072969595,
+        "resolution_capped_size": [
+          1155,
+          1332
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          1098,
+          1280
+        ],
+        "native_subject_size_evidence": {
+          "method": "Individually inspected native visible subject bounds, excluding input-region whitespace and neighbours.",
+          "preview_subject_bounds": [
+            632,
+            894,
+            904,
+            1211
+          ],
+          "preview_size": [
+            1138,
+            1600
+          ],
+          "original_size": [
+            4595,
+            6459
+          ]
+        },
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 4482
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Compared original/source-white-dark proofs. Both kneeling angels retain all long wing tips, pale facial features, gold halos and original robe hems. Finite floral frame preserves distinct side designs, corner knots, thin black/gold flowers and genuine openings. Cross procession retains complete visible source group and shared cross without hidden body invention; flat landscape and original plate rule cleared.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/cleveland-next-partial-results-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/cleveland-next-partial-results-proof-2.jpg"
+        ]
+      },
+      "categories": [
+        "humans",
+        "fantasy"
+      ],
+      "subjects": [
+        "angel",
+        "wing",
+        "halo"
+      ],
+      "colors": [
+        "green",
+        "gold",
+        "cream",
+        "blue"
+      ],
+      "facing": "unclear",
+      "composition": "single-figure",
+      "usage_notes": "Original independent specimen with printed plate rules and page removed. AI-assisted extraction remains approximate; source bounds, actual native subject cap, original and exact prompt retained.",
+      "sets": [
+        {
+          "id": "cma-1953-24-set",
+          "name": "Beffi Coronation frame",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A kneeling green-robed angel with long pointed wings and a gold halo.",
+      "set_label": "Beffi Coronation frame"
+    }
+  ]
+}

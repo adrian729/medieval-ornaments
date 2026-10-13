@@ -120,6 +120,7 @@
     "build:assets": "node scripts/build-assets-package.mjs",
     "audit:selective": "node scripts/selective_audit.mjs",
     "build:site": "node scripts/build-site.mjs",
+    "preview:local": "npm run build:examples && npm run build:site && node scripts/preview-site.mjs",
     "resources": "node scripts/resources.mjs",
     "build:examples": "node scripts/build-examples.mjs"
   },

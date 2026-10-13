@@ -10,7 +10,7 @@
 <script type="module">
 import { assetUrl } from './assets.js';
 import { ornaments, createFrame } from '../lib/index.js';
-const repeats=ornaments.filter(x=>x.kind==='repeat-tile'),controllers=[];
+const repeats=ornaments.filter(x=>x.uses.includes('frame')),controllers=[];
 document.querySelector('h1').textContent=repeats.length+' repeating border designs · large and small frames';
 const label=document.createElement('label');label.textContent='Format ';
 const select=document.createElement('select');select.id='format';

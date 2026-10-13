@@ -3,7 +3,7 @@
   "id": "illustrations-002",
   "collection": "illustrations",
   "package": "@ranx729/medieval-ornaments-assets-illustrations-002",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "designs": {
     "choirbook-and-ivy": {
       "name": "choirbook-and-ivy",
@@ -57,6 +57,195 @@
           "height": 512,
           "png_bytes": 137097,
           "webp_bytes": 88738
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "complete-apostle-city-scene-with-blue-vine-frame": {
+      "name": "complete-apostle-city-scene-with-blue-vine-frame",
+      "asset_type": "illustration",
+      "kind": "standalone",
+      "derivation": "native-source-extraction",
+      "repeat_axis": "none",
+      "width": 3769,
+      "height": 3137,
+      "png": "png/complete-apostle-city-scene-with-blue-vine-frame.png",
+      "webp": "webp/complete-apostle-city-scene-with-blue-vine-frame.webp",
+      "png_bytes": 17137537,
+      "webp_bytes": 11656550,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/complete-apostle-city-scene-with-blue-vine-frame.png",
+          "webp": "webp/128/complete-apostle-city-scene-with-blue-vine-frame.webp",
+          "width": 128,
+          "height": 107,
+          "png_bytes": 27125,
+          "webp_bytes": 22544
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/complete-apostle-city-scene-with-blue-vine-frame.png",
+          "webp": "webp/256/complete-apostle-city-scene-with-blue-vine-frame.webp",
+          "width": 256,
+          "height": 213,
+          "png_bytes": 103989,
+          "webp_bytes": 80402
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/complete-apostle-city-scene-with-blue-vine-frame.png",
+          "webp": "webp/512/complete-apostle-city-scene-with-blue-vine-frame.webp",
+          "width": 512,
+          "height": 426,
+          "png_bytes": 394831,
+          "webp_bytes": 292922
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/complete-apostle-city-scene-with-blue-vine-frame.png",
+          "webp": "webp/768/complete-apostle-city-scene-with-blue-vine-frame.webp",
+          "width": 768,
+          "height": 639,
+          "png_bytes": 868388,
+          "webp_bytes": 631846
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "haloed-man-gesturing-in-blue-and-green-robes": {
+      "name": "haloed-man-gesturing-in-blue-and-green-robes",
+      "asset_type": "illustration",
+      "kind": "standalone",
+      "derivation": "native-source-extraction",
+      "repeat_axis": "none",
+      "width": 421,
+      "height": 1057,
+      "png": "png/haloed-man-gesturing-in-blue-and-green-robes.png",
+      "webp": "webp/haloed-man-gesturing-in-blue-and-green-robes.webp",
+      "png_bytes": 469114,
+      "webp_bytes": 300748,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/haloed-man-gesturing-in-blue-and-green-robes.png",
+          "webp": "webp/128/haloed-man-gesturing-in-blue-and-green-robes.webp",
+          "width": 51,
+          "height": 128,
+          "png_bytes": 11692,
+          "webp_bytes": 9558
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/haloed-man-gesturing-in-blue-and-green-robes.png",
+          "webp": "webp/256/haloed-man-gesturing-in-blue-and-green-robes.webp",
+          "width": 102,
+          "height": 256,
+          "png_bytes": 38893,
+          "webp_bytes": 30282
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/haloed-man-gesturing-in-blue-and-green-robes.png",
+          "webp": "webp/512/haloed-man-gesturing-in-blue-and-green-robes.webp",
+          "width": 204,
+          "height": 512,
+          "png_bytes": 133014,
+          "webp_bytes": 95560
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/haloed-man-gesturing-in-blue-and-green-robes.png",
+          "webp": "webp/768/haloed-man-gesturing-in-blue-and-green-robes.webp",
+          "width": 306,
+          "height": 768,
+          "png_bytes": 273098,
+          "webp_bytes": 185700
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "haloed-man-in-blue-and-orange-robes": {
+      "name": "haloed-man-in-blue-and-orange-robes",
+      "asset_type": "illustration",
+      "kind": "standalone",
+      "derivation": "native-source-extraction",
+      "repeat_axis": "none",
+      "width": 344,
+      "height": 1048,
+      "png": "png/haloed-man-in-blue-and-orange-robes.png",
+      "webp": "webp/haloed-man-in-blue-and-orange-robes.webp",
+      "png_bytes": 461072,
+      "webp_bytes": 299180,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/haloed-man-in-blue-and-orange-robes.png",
+          "webp": "webp/128/haloed-man-in-blue-and-orange-robes.webp",
+          "width": 42,
+          "height": 128,
+          "png_bytes": 11371,
+          "webp_bytes": 9914
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/haloed-man-in-blue-and-orange-robes.png",
+          "webp": "webp/256/haloed-man-in-blue-and-orange-robes.webp",
+          "width": 84,
+          "height": 256,
+          "png_bytes": 37780,
+          "webp_bytes": 32500
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/haloed-man-in-blue-and-orange-robes.png",
+          "webp": "webp/512/haloed-man-in-blue-and-orange-robes.webp",
+          "width": 168,
+          "height": 512,
+          "png_bytes": 131370,
+          "webp_bytes": 97702
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/haloed-man-in-blue-and-orange-robes.png",
+          "webp": "webp/768/haloed-man-in-blue-and-orange-robes.webp",
+          "width": 252,
+          "height": 768,
+          "png_bytes": 271003,
+          "webp_bytes": 187522
         }
       ],
       "components": {},
@@ -1389,6 +1578,69 @@
         "png"
       ]
     },
+    "standing-apostle-with-rolled-scroll": {
+      "name": "standing-apostle-with-rolled-scroll",
+      "asset_type": "illustration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 716,
+      "height": 2002,
+      "png": "png/standing-apostle-with-rolled-scroll.png",
+      "webp": "webp/standing-apostle-with-rolled-scroll.webp",
+      "png_bytes": 1834865,
+      "webp_bytes": 1299048,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/standing-apostle-with-rolled-scroll.png",
+          "webp": "webp/128/standing-apostle-with-rolled-scroll.webp",
+          "width": 46,
+          "height": 128,
+          "png_bytes": 13428,
+          "webp_bytes": 12202
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/standing-apostle-with-rolled-scroll.png",
+          "webp": "webp/256/standing-apostle-with-rolled-scroll.webp",
+          "width": 92,
+          "height": 256,
+          "png_bytes": 45651,
+          "webp_bytes": 35958
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/standing-apostle-with-rolled-scroll.png",
+          "webp": "webp/512/standing-apostle-with-rolled-scroll.webp",
+          "width": 183,
+          "height": 512,
+          "png_bytes": 156610,
+          "webp_bytes": 118154
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/standing-apostle-with-rolled-scroll.png",
+          "webp": "webp/768/standing-apostle-with-rolled-scroll.webp",
+          "width": 275,
+          "height": 768,
+          "png_bytes": 327036,
+          "webp_bytes": 238860
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
     "walters-centaur-archer": {
       "name": "walters-centaur-archer",
       "asset_type": "illustration",
@@ -1597,6 +1849,18 @@
       "bytes": 6972,
       "sha256": "463352abcd46229da496f2c32bc88114855f7bc031cb5ac55b326168b7d1dea1"
     },
+    "png/128/complete-apostle-city-scene-with-blue-vine-frame.png": {
+      "bytes": 27125,
+      "sha256": "fdd4d7b1ccd4c02c4095c6c64f9d7540b143d6bfa760ce2ee6448d1fd8bc7ef3"
+    },
+    "png/128/haloed-man-gesturing-in-blue-and-green-robes.png": {
+      "bytes": 11692,
+      "sha256": "b8b5efe257ab6b358bedd158c89ec02aa035ace8031fb039318bf0f10e891614"
+    },
+    "png/128/haloed-man-in-blue-and-orange-robes.png": {
+      "bytes": 11371,
+      "sha256": "084fbb492bef51269af6ae428685617f33771efae397c692d137ff7c069ffffe"
+    },
     "png/128/hoefnagel-cut-apple.png": {
       "bytes": 26597,
       "sha256": "0ae49b4b12b4f69935c116f0c9098537024f9102aa796de18ba08e0e6db1034a"
@@ -1689,6 +1953,10 @@
       "bytes": 20193,
       "sha256": "26b7aeccc39a1c577d523797851f4b2f999bea8a27ae9b10842b6169eb6a5117"
     },
+    "png/128/standing-apostle-with-rolled-scroll.png": {
+      "bytes": 13428,
+      "sha256": "725f48edf551e777882733ca354f6cc04cf0052676d6a9280771b7420b6deaca"
+    },
     "png/128/walters-centaur-archer.png": {
       "bytes": 24493,
       "sha256": "d4ec7da8e6eb9cfa114672de0b6277020d7b2b722957113fca83bb8afc0b1c4c"
@@ -1708,6 +1976,18 @@
     "png/256/choirbook-and-ivy.png": {
       "bytes": 21860,
       "sha256": "a2e7cfe22d408d5037c46ba068691a26ddbb25fe76113a493814a859687d70ad"
+    },
+    "png/256/complete-apostle-city-scene-with-blue-vine-frame.png": {
+      "bytes": 103989,
+      "sha256": "94d20f507e0c8abf01ce7ad98422852f74ef0c088ebb3dc1d893e3785005dcef"
+    },
+    "png/256/haloed-man-gesturing-in-blue-and-green-robes.png": {
+      "bytes": 38893,
+      "sha256": "ecb4ac447a3606fc751df7ede4bc1c420b5d714f90145b6c8aae3727fff9f188"
+    },
+    "png/256/haloed-man-in-blue-and-orange-robes.png": {
+      "bytes": 37780,
+      "sha256": "4846a0e9deec2e46471351c4841d4dfa274f40b7b4d2473397d20ddca17b7cc7"
     },
     "png/256/hoefnagel-cut-apple.png": {
       "bytes": 96111,
@@ -1801,6 +2081,10 @@
       "bytes": 66589,
       "sha256": "d1efb06251a43230bdcafb735cfe98254ca9a9af5bc325f0fdf520461db38dd7"
     },
+    "png/256/standing-apostle-with-rolled-scroll.png": {
+      "bytes": 45651,
+      "sha256": "631afd6f1c4434571d3a073f28745c18d0c3ef763ccbaab8aa07ded19c3fbd14"
+    },
     "png/256/walters-centaur-archer.png": {
       "bytes": 82613,
       "sha256": "6e3dd5275a0b475c22f6724f6a9bc13a1668858ec37a83a9fb3e96700a7e0154"
@@ -1820,6 +2104,18 @@
     "png/512/choirbook-and-ivy.png": {
       "bytes": 67916,
       "sha256": "fa92f84ac8f08ad359b9654a88681880ec7355f459a27f8c36fcd6cfae8548e8"
+    },
+    "png/512/complete-apostle-city-scene-with-blue-vine-frame.png": {
+      "bytes": 394831,
+      "sha256": "1169e868365b14f3fc2ea01ff4820900bdd00f3cdd26215a8584a72c47aa5e99"
+    },
+    "png/512/haloed-man-gesturing-in-blue-and-green-robes.png": {
+      "bytes": 133014,
+      "sha256": "7f8af2f001db6ab2dc5a0340631ff4e5d66d17c59c4812debde10fdd13f29d82"
+    },
+    "png/512/haloed-man-in-blue-and-orange-robes.png": {
+      "bytes": 131370,
+      "sha256": "d85b85d08d772d242fc44a7e831ef39af6326897da9be94c8fe7058a41a543fd"
     },
     "png/512/hoefnagel-cut-apple.png": {
       "bytes": 364246,
@@ -1901,6 +2197,10 @@
       "bytes": 231500,
       "sha256": "c8bec6fc654707d441afe71415b1ea89c6d1d76efc4e8e7d195585d299269de9"
     },
+    "png/512/standing-apostle-with-rolled-scroll.png": {
+      "bytes": 156610,
+      "sha256": "a844c5316b2bb27b654a8dc8b86b733ff427812b0d7ca628bd0eae5084dc36b2"
+    },
     "png/512/walters-centaur-archer.png": {
       "bytes": 285413,
       "sha256": "7939538f25fe74d343b97d5f9ebec481b37cbe75e41851c75ca7164f8420cbd0"
@@ -1912,6 +2212,18 @@
     "png/768/choirbook-and-ivy.png": {
       "bytes": 137097,
       "sha256": "620f495beff95239da72bb1272f9e835d52923ade8bea271c1a9a477dfb5427f"
+    },
+    "png/768/complete-apostle-city-scene-with-blue-vine-frame.png": {
+      "bytes": 868388,
+      "sha256": "bec0efa17857ece69e0923fbdef596f0ee59eaedafbc0800a10e145e1e1ceb33"
+    },
+    "png/768/haloed-man-gesturing-in-blue-and-green-robes.png": {
+      "bytes": 273098,
+      "sha256": "4c163af0f16bb756e71847d085d02b8873e92f3340a82a5d0f761e53d33eceac"
+    },
+    "png/768/haloed-man-in-blue-and-orange-robes.png": {
+      "bytes": 271003,
+      "sha256": "5acac74af92aeef47ac07e9330de2ff4e15cad7538b55583d81b2ef579265d57"
     },
     "png/768/hoefnagel-cut-apple.png": {
       "bytes": 807575,
@@ -1985,6 +2297,10 @@
       "bytes": 497765,
       "sha256": "f7000ff103d614587085f7267bb1673d9b2071184853dd42489e0869d1297cfe"
     },
+    "png/768/standing-apostle-with-rolled-scroll.png": {
+      "bytes": 327036,
+      "sha256": "39b472ceb286a07db99ae4fa8ad84ad7c45fba17a2dfa5ed147025017fc61a3b"
+    },
     "png/768/walters-rabbit-church-bells.png": {
       "bytes": 810977,
       "sha256": "d131b4da14718e0353a364e8448c859a1495b23a9ab58eb6d7d7fd66cee6466a"
@@ -1992,6 +2308,18 @@
     "png/choirbook-and-ivy.png": {
       "bytes": 730743,
       "sha256": "7cf42535d12602494b3b59ce277976471c19a67eea01b142266c5c9a16b2d4fa"
+    },
+    "png/complete-apostle-city-scene-with-blue-vine-frame.png": {
+      "bytes": 17137537,
+      "sha256": "d47fe09fbef36e2ffafacc8be205283c8b5db678f6b6641814a27584c17228c0"
+    },
+    "png/haloed-man-gesturing-in-blue-and-green-robes.png": {
+      "bytes": 469114,
+      "sha256": "78ec69257df194e34ff6dd21a9bc0a535ba4ae0eb5b437aad7feaa64c3ddbfa4"
+    },
+    "png/haloed-man-in-blue-and-orange-robes.png": {
+      "bytes": 461072,
+      "sha256": "9bfe4d2168bfcc85abc5e5c658f370f2fe3fa7888391a39a3cacc7e7327c2143"
     },
     "png/hoefnagel-cut-apple.png": {
       "bytes": 1970999,
@@ -2085,6 +2413,10 @@
       "bytes": 1321288,
       "sha256": "96caf9279d50a90ca0bfb07f33a03fd43f99229a6d983c89929c023a27540853"
     },
+    "png/standing-apostle-with-rolled-scroll.png": {
+      "bytes": 1834865,
+      "sha256": "1738df7c6a3d7448975b57fcd47c80bdb310eea557dad64a035e35e12705a964"
+    },
     "png/walters-centaur-archer.png": {
       "bytes": 526938,
       "sha256": "8087a8c1934d6468ba342bf1c9439f0beb926c970f0930167dbc8dcaf00e60d8"
@@ -2104,6 +2436,18 @@
     "webp/128/choirbook-and-ivy.webp": {
       "bytes": 4190,
       "sha256": "872d8724c5bc486ae86ae0ef67047b35516078ea37cabd4a85348334e4174e28"
+    },
+    "webp/128/complete-apostle-city-scene-with-blue-vine-frame.webp": {
+      "bytes": 22544,
+      "sha256": "397bfa23f29440d4c525268249b91c4c3212f954eff2537a89c736f77a590389"
+    },
+    "webp/128/haloed-man-gesturing-in-blue-and-green-robes.webp": {
+      "bytes": 9558,
+      "sha256": "f0ac49a576f61fe45ad454258ddece949ab2fdda348d6263c78bb9306a92a572"
+    },
+    "webp/128/haloed-man-in-blue-and-orange-robes.webp": {
+      "bytes": 9914,
+      "sha256": "bd24223fb7355cca990317a85235a2bcf5f147e93d99219bb258b4cce1af6559"
     },
     "webp/128/hoefnagel-cut-apple.webp": {
       "bytes": 20786,
@@ -2197,6 +2541,10 @@
       "bytes": 15766,
       "sha256": "e4b23afc7b71f28e034eff32d52991393e9c3210e3d5004b467a5f42834ddf67"
     },
+    "webp/128/standing-apostle-with-rolled-scroll.webp": {
+      "bytes": 12202,
+      "sha256": "7f0b5282a89cb0a39d111c06090d1577ce804f1734d0cd3963e8a99dfa6b94b6"
+    },
     "webp/128/walters-centaur-archer.webp": {
       "bytes": 18866,
       "sha256": "4304728752a2ffe245105e2f7b96c53c84ff82f9bdf18658c032a0f472874dce"
@@ -2216,6 +2564,18 @@
     "webp/256/choirbook-and-ivy.webp": {
       "bytes": 13998,
       "sha256": "c165e8de80f1c58f22d05660205850aed8fd1a1b29e046f442d50adc1dea335e"
+    },
+    "webp/256/complete-apostle-city-scene-with-blue-vine-frame.webp": {
+      "bytes": 80402,
+      "sha256": "4d6f901b6c56b18c2848f7b6f95c331dcb982947cceb5cf68a0d99a1e3f03c53"
+    },
+    "webp/256/haloed-man-gesturing-in-blue-and-green-robes.webp": {
+      "bytes": 30282,
+      "sha256": "28a8e10c8883f6eaed76921b184ab49e10662e6014e12703c1fed3ab94836832"
+    },
+    "webp/256/haloed-man-in-blue-and-orange-robes.webp": {
+      "bytes": 32500,
+      "sha256": "3a702e7faa399084f9ce8fc74d458d03a4c01590ab707b08b36614210b1d3383"
     },
     "webp/256/hoefnagel-cut-apple.webp": {
       "bytes": 71560,
@@ -2309,6 +2669,10 @@
       "bytes": 48470,
       "sha256": "4ed5372fa908937f92c0506852eaf9c10e600d66581694504d2b9938136541d4"
     },
+    "webp/256/standing-apostle-with-rolled-scroll.webp": {
+      "bytes": 35958,
+      "sha256": "b45c091eac079cbd0442e1017b37271a1e42d4459f6a4f8dd47dd3612c0fc810"
+    },
     "webp/256/walters-centaur-archer.webp": {
       "bytes": 60208,
       "sha256": "4d3c8cfdfb9ba213af5c8ef868cb887f8ef5570f84cccde2173fd0076f8ac923"
@@ -2328,6 +2692,18 @@
     "webp/512/choirbook-and-ivy.webp": {
       "bytes": 43708,
       "sha256": "ed6b74f05d1261144bd1d4b0faaf2ada5b2d435a64ec7ef0a230e97c683940c2"
+    },
+    "webp/512/complete-apostle-city-scene-with-blue-vine-frame.webp": {
+      "bytes": 292922,
+      "sha256": "5a93cee1415d554385acb2e45e56e82df19e7262ea4713012d3f8347f8db12ce"
+    },
+    "webp/512/haloed-man-gesturing-in-blue-and-green-robes.webp": {
+      "bytes": 95560,
+      "sha256": "830088c4e1f624d77de98b09247c92161ad9f8f656e68dca989233e87cbf2bc3"
+    },
+    "webp/512/haloed-man-in-blue-and-orange-robes.webp": {
+      "bytes": 97702,
+      "sha256": "7537f53e16e36f1083976f52f9f5562fe24f9aa3bd8caf51abfb1c36567ef700"
     },
     "webp/512/hoefnagel-cut-apple.webp": {
       "bytes": 264572,
@@ -2409,6 +2785,10 @@
       "bytes": 162342,
       "sha256": "63df3ebea2acc0fe55ad5e6ded03c23475350795240b266248a32f0bf0e2eb19"
     },
+    "webp/512/standing-apostle-with-rolled-scroll.webp": {
+      "bytes": 118154,
+      "sha256": "940573f3fb2d95571c8ebf4a363ffda18abc710586aaeb29a477833511e07b90"
+    },
     "webp/512/walters-centaur-archer.webp": {
       "bytes": 205856,
       "sha256": "bb700ff73d8c69dceffa94df51620e9174d950918d6776d4313156b93dce1792"
@@ -2420,6 +2800,18 @@
     "webp/768/choirbook-and-ivy.webp": {
       "bytes": 88738,
       "sha256": "b14070d2a67888ff7ab2dfbe538aa10aecb4b29baa695f64a20b74c83d87d8e8"
+    },
+    "webp/768/complete-apostle-city-scene-with-blue-vine-frame.webp": {
+      "bytes": 631846,
+      "sha256": "34eda83b8efc2896e6101b3529082be6405cee45621137c6cf66c265eab744c8"
+    },
+    "webp/768/haloed-man-gesturing-in-blue-and-green-robes.webp": {
+      "bytes": 185700,
+      "sha256": "72cbd8d0220f0c64891384e81850d8a95df7fa18710c4f820d00a82568da9447"
+    },
+    "webp/768/haloed-man-in-blue-and-orange-robes.webp": {
+      "bytes": 187522,
+      "sha256": "c117f082e2228a172869530624db64a08ef0333a5121dd29ed5fc9c93a16e29e"
     },
     "webp/768/hoefnagel-cut-apple.webp": {
       "bytes": 583936,
@@ -2493,6 +2885,10 @@
       "bytes": 345818,
       "sha256": "489114e12583b4fa2946d8c149981f8922fa92611f96def83cbb0b3cd49377e0"
     },
+    "webp/768/standing-apostle-with-rolled-scroll.webp": {
+      "bytes": 238860,
+      "sha256": "1faf4aba296088476abceaea0c93bd23f48b1410f8bf9f6e7a738a075e53a738"
+    },
     "webp/768/walters-rabbit-church-bells.webp": {
       "bytes": 574524,
       "sha256": "d445a519667899fa0f0297984c6e2c24381d20fff274fc63f15252cbc6e40dea"
@@ -2500,6 +2896,18 @@
     "webp/choirbook-and-ivy.webp": {
       "bytes": 482022,
       "sha256": "81cac6a6296e87d383a560f7ce61743b6e4134380a1237fcef0304ff7cd7a99a"
+    },
+    "webp/complete-apostle-city-scene-with-blue-vine-frame.webp": {
+      "bytes": 11656550,
+      "sha256": "cc80f64fd51bdd252983b0f247dfea21124a4f1c7d4b1ccca43da69b9f73182c"
+    },
+    "webp/haloed-man-gesturing-in-blue-and-green-robes.webp": {
+      "bytes": 300748,
+      "sha256": "0f2be6b0dbedfd4c206655a125fb84b837ddd4db296ac368d8ed610e4382ac6c"
+    },
+    "webp/haloed-man-in-blue-and-orange-robes.webp": {
+      "bytes": 299180,
+      "sha256": "7a5e8ca2113c567fbae7078f491a58ddb1f1cd6b8a6e1969a079b15234468ffd"
     },
     "webp/hoefnagel-cut-apple.webp": {
       "bytes": 1427430,
@@ -2593,6 +3001,10 @@
       "bytes": 927744,
       "sha256": "c22fcb7d9360c6bea3bff7b1e7c6e0f2c276af4f1670b16e64fa1a535d63e1bd"
     },
+    "webp/standing-apostle-with-rolled-scroll.webp": {
+      "bytes": 1299048,
+      "sha256": "9739481e5a3d28c32903f550f4e3c4703394f01134d5aab7251c7ecd2fcd9768"
+    },
     "webp/walters-centaur-archer.webp": {
       "bytes": 373318,
       "sha256": "2f084bf0e5ae1796e7e9be8d504ac9362609c4e03fe76e3234a773b352247164"
@@ -2674,6 +3086,22 @@
     "sources/tiles/walters-rabbit-church-bells.png": {
       "bytes": 2156817,
       "sha256": "adec10d7017f69478ecab4ba4f310bed5e40c8ef3025fe18d795d0e2543752e3"
+    },
+    "sources/tiles/complete-apostle-city-scene-with-blue-vine-frame.png": {
+      "bytes": 17137537,
+      "sha256": "d47fe09fbef36e2ffafacc8be205283c8b5db678f6b6641814a27584c17228c0"
+    },
+    "sources/tiles/haloed-man-gesturing-in-blue-and-green-robes.png": {
+      "bytes": 469114,
+      "sha256": "78ec69257df194e34ff6dd21a9bc0a535ba4ae0eb5b437aad7feaa64c3ddbfa4"
+    },
+    "sources/tiles/haloed-man-in-blue-and-orange-robes.png": {
+      "bytes": 461072,
+      "sha256": "9bfe4d2168bfcc85abc5e5c658f370f2fe3fa7888391a39a3cacc7e7327c2143"
+    },
+    "sources/tiles/standing-apostle-with-rolled-scroll.png": {
+      "bytes": 1834865,
+      "sha256": "1738df7c6a3d7448975b57fcd47c80bdb310eea557dad64a035e35e12705a964"
     }
   }
 }

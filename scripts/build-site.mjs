@@ -9,7 +9,9 @@ const site = path.join(root, 'dist/site');
 await rm(site, { recursive: true, force: true });
 await mkdir(site, { recursive: true });
 for (const directory of ['lib', 'docs']) {
-  await cp(path.join(root, directory), path.join(site, directory), { recursive: true });
+  // The site reads images.json; the npm-only duplicate JSON catalog is unused.
+  await cp(path.join(root, directory), path.join(site, directory), { recursive: true,
+    filter: source => source !== path.join(root, 'lib/catalog.json') });
 }
 // Public pages come from the production build (npm run build:examples); the
 // internal review/QA pages are served from source with their URL helper.
@@ -27,9 +29,14 @@ const files = ['index.html', 'ornaments.css', 'favicon.svg', 'favicon-32.png', '
   'images.json', 'images.schema.json', 'illustrations.json', 'illustration-import.json',
   'selection-metadata.json', 'assets-manifest.json', 'LICENSE', 'source-patterns.json',
   'additional-patterns.json', 'reference-crops.json', 'raster-metadata.json', 'EXTRACTION-PROMPTS.json',
-  'historical-additions.json', 'historical-border-patterns.json', 'illustration-additions.json', 'authored-additions.json',
+  'historical-additions.json', 'historical-border-patterns.json', 'finished-additions.json', 'finished-border-patterns.json', 'illustration-additions.json', 'authored-additions.json',
   ...(await readdir(root)).filter(name => name.endsWith('.md'))];
-for (const name of files) await cp(path.join(root, name), path.join(site, name));
+for (const name of files) {
+  const source = path.join(root, name), target = path.join(site, name);
+  // Keep every field while avoiding authoring whitespace in deployed metadata.
+  if (name.endsWith('.json')) await writeFile(target, JSON.stringify(JSON.parse(await readFile(source, 'utf8'))) + '\n');
+  else await cp(source, target);
+}
 const pkg=JSON.parse(await readFile(path.join(root,'package.json')));
 const archive=`https://github.com/adrian729/medieval-ornaments/releases/download/v${pkg.version}/medieval-ornaments-browser.zip`;
 for(const relative of ['examples/review.html','examples/qa.html']) {

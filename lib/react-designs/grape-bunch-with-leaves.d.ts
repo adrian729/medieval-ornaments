@@ -1,0 +1,1 @@
+import type{BoundComponent as C,BoundProps as P}from'../react-core.js';import type{ImageOptions}from'../designs/grape-bunch-with-leaves.js';export{ornament}from'../designs/grape-bunch-with-leaves.js';export type{OrnamentStyle}from'../react-core.js';export type OrnamentImageProps=P<'image',ImageOptions>;export declare const OrnamentImage:C<'image',ImageOptions>;

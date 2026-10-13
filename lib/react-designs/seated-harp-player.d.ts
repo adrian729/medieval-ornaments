@@ -1,0 +1,1 @@
+import type{BoundComponent as C,BoundProps as P}from'../react-core.js';import type{ImageOptions}from'../designs/seated-harp-player.js';export{ornament}from'../designs/seated-harp-player.js';export type{OrnamentStyle}from'../react-core.js';export type OrnamentImageProps=P<'image',ImageOptions>;export declare const OrnamentImage:C<'image',ImageOptions>;

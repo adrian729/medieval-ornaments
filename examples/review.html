@@ -40,10 +40,12 @@ function update(){
       divider.style.setProperty('--ornament-size','32px');divider.style.setProperty('--ornament-ratio',item.repeat_ratio);
       if(item.repeat_axis==='y')divider.style.setProperty('--ornament-length','180px');
       paint.push(()=>divider.style.setProperty('--ornament-image',`url("${assetPath(item,fmt,32*Math.max(1,item.repeat_ratio)*dpr)}")`));card.append(divider);
+      if(item.components.border_image){
       const frame=document.createElement('div');frame.className='ornament-frame';
       frame.style.setProperty('--ornament-size',size+'px');frame.style.setProperty('--ornament-slice',item.border_image_slice_percent+'%');
       paint.push(()=>frame.style.setProperty('--ornament-image',`url("${assetPath(item.components.border_image,fmt,size*100/item.border_image_slice_percent*dpr)}")`));
       frame.textContent=size+'px frame';card.append(frame);
+      }
     }
     const note=document.createElement('p');note.className='note';note.textContent=item.source_pattern||item.description;card.append(note);
     $('grid').append(card);cleanup.push(observeNearViewport(card,()=>{for(const apply of paint)apply()}));

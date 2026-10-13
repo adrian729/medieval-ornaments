@@ -37,16 +37,148 @@
       "filesSha256": "9890e97466318b8bab66a92cec488b7475a95b9323f08c2a45f5dd2fc8e6c2ec"
     },
     "borders-004": {
-      "version": "0.1.1",
-      "gitCommit": "1c0280b3205fdb540720e1897e2583de93d9eb02",
-      "manifestSha256": "baaae935ab457a7105a13de5041576064c4048600a06f73e7aefb827ab4d0e80",
-      "filesSha256": "435049f8add546878f1d1a66c1a97a780e5e2d258703fa9e8357723f198cebfa"
+      "version": "0.1.2",
+      "gitCommit": null,
+      "manifestSha256": "4dfba3c0463ef14b8964892b7f44645f02d64af4298e13baf50b8673ac41d698",
+      "filesSha256": "25eecfb0458cb79883ef8c4a3788e2798bd791d85f22ab96808afd7c423fea62"
     },
     "illustrations-002": {
-      "version": "0.1.1",
-      "gitCommit": "df62ee450aec78f8a860afa3263ceeb5384199e1",
-      "manifestSha256": "109518193e2947ebec3b90d0fdbc9fe14e4368fa535fb23091e508b1e0db9c85",
-      "filesSha256": "8bfc9d84e3d455e2d998ad66bf9ba68111e85640156a83791b590a157b1968eb"
+      "version": "0.1.2",
+      "gitCommit": null,
+      "manifestSha256": "69af4856cfbe742c2c7a3e16caa84346d09cf177096e284d721da72cd97d31f5",
+      "filesSha256": "313b7fe9dbae96645c4236714063ea341d2f57ba8c7f9548937d12b1368daeae"
+    },
+    "decorations-002": {
+      "version": "0.1.0",
+      "gitCommit": null,
+      "manifestSha256": "4c487358f178d4826514752211586fb1567b53de718eeb1dfe7bafb78a6efce8",
+      "filesSha256": "ec9952ae3e1178ac151512004dbe62187a2f545482b7b4bdff45507f0e62345f"
+    },
+    "illustrations-003": {
+      "version": "0.1.0",
+      "gitCommit": null,
+      "manifestSha256": "b888839c5df1099e383d5a8fa25845f807cf81f8e5ec92fa31bae4e99949ead3",
+      "filesSha256": "82af9b6bca1123c02977f2f391623b47b82c4b4a2af38dd7b9ba5d2a5845bdc8"
+    },
+    "decorations-003": {
+      "version": "0.1.0",
+      "gitCommit": null,
+      "manifestSha256": "0ee7cd47c64c89bfe5af03d2981d903cd04e76c9ea9848cfea2cb15689b2ef2c",
+      "filesSha256": "e2f55d0fb6e7428ef65d45089a8dc4eb8d2f1adf8c165907f1df992d74c99925"
+    },
+    "decorations-004": {
+      "version": "0.1.0",
+      "gitCommit": null,
+      "manifestSha256": "66fd136b0872f2bd2cbe07b037c1c85651c63d7f01669839c8eb37857838f617",
+      "filesSha256": "708cff0d730495a327ebbe284c9e6173464c4c868a1027501bf1656577c8d04f"
+    },
+    "illustrations-004": {
+      "version": "0.1.0",
+      "gitCommit": null,
+      "manifestSha256": "f60b28d0d4731d24ff72abc9ff3a853aea700aae2f1bad327262f678938c7020",
+      "filesSha256": "7262c7f4b3fff423c7dbf37b8abefa5a69dcbc93d22b9abadaff1790b90a4fb0"
+    },
+    "decorations-005": {
+      "version": "0.1.0",
+      "gitCommit": null,
+      "manifestSha256": "1a2491bc9486051b9fe0870e49be0e849c9bbe97cdbf050d40b084d21c5b6aa5",
+      "filesSha256": "5df117d82a5023e1bf4dd43bc43e8f4da358620760427742d3a22d1ccac6cc3b"
+    },
+    "illustrations-005": {
+      "version": "0.1.0",
+      "gitCommit": null,
+      "manifestSha256": "a7842b3a12a454dfd04f80312ab70733e1efd41cae7101c8a320eb400881df8f",
+      "filesSha256": "2a8a5a8acc31f78fd0facc60b243246eda59204dc059711f816aeb09addbf75f"
+    },
+    "illustrations-006": {
+      "version": "0.1.0",
+      "gitCommit": null,
+      "manifestSha256": "f8a60fcfe3fa5f0c83797173dd3e3cfaa02ad956ea31adcc0395d9dbc622e2f0",
+      "filesSha256": "a33087021c4be9fbe8c854dcc556746a8e8cc97b54199a27313598a5c5f7384f"
+    },
+    "illustrations-007": {
+      "version": "0.1.0",
+      "gitCommit": null,
+      "manifestSha256": "243573680378a2fa4ffbea7bbb509544441b2ca4157b448349070af8385b6813",
+      "filesSha256": "e30b9edb34c1aaaa9c13c63020766e820b5bc8906df9bd7832d273d331dc11f3"
+    },
+    "illustrations-008": {
+      "version": "0.1.0",
+      "gitCommit": null,
+      "manifestSha256": "c57aae0ae629abc3e39b43b6c9253c027394bfeae36d2510a7e541fa8779fd10",
+      "filesSha256": "49394abc28a752b881bd9238ecbf791b7a16441190d3188cea6dd281bfac3135"
+    },
+    "illustrations-009": {
+      "version": "0.1.0",
+      "gitCommit": null,
+      "manifestSha256": "a6e6781c540eee36d7296cde33b7f8dd143b88a5902234b747462d452e370a8a",
+      "filesSha256": "f0cb15f174ccbe8926c63ca92a4521c4c41afa6b39de6253c788ab03f56361b6"
+    },
+    "decorations-006": {
+      "version": "0.1.0",
+      "gitCommit": null,
+      "manifestSha256": "66ad24895eed62fa8bcbd2adcfd1ad1a5eb05e47f0cd6aae15a3666b7aadf2d5",
+      "filesSha256": "eec9487b434dc198c9d49387e3b34b7e96a05a670f208b4ad9c8a070b2b237e8"
+    },
+    "decorations-007": {
+      "version": "0.1.0",
+      "gitCommit": null,
+      "manifestSha256": "dfc755876784f9a9ae7c0e9b8b62dcf68d7b992fc279faade7e6fab462325af6",
+      "filesSha256": "c9a40daaf783f608180ec2d80575b3114eda638e03f79eccf49e27ec5c558e1a"
+    },
+    "borders-005": {
+      "version": "0.1.0",
+      "gitCommit": null,
+      "manifestSha256": "c5f31998695a2d7e5d358c2e9a09de4cd8d93b17c6ea866f7333be2198fd4cb1",
+      "filesSha256": "58cc5bcf881f93f92897be04128130bdc4892cb7aba0db725fc3fa36f600ed2a"
+    },
+    "illustrations-010": {
+      "version": "0.1.0",
+      "gitCommit": null,
+      "manifestSha256": "f40c54ed53526e046aea42f3ebe8b4e7b4e00fd86beb65e1d21ac0fcf02834b7",
+      "filesSha256": "771589982a24d31cdf7d0149cd3b468b872c63e7562445ce657bfd15b3dc6023"
+    },
+    "decorations-008": {
+      "version": "0.1.0",
+      "gitCommit": null,
+      "manifestSha256": "efe7fe197da708ddebd9ed3b6666dd95f8e1869a9759747d32af17d38e3ce1c2",
+      "filesSha256": "c6524a02cc501f31a3cc41cdbf6e73e0c19e57f339bf0ba66fbf4b78ade54de3"
+    },
+    "decorations-009": {
+      "version": "0.1.0",
+      "gitCommit": null,
+      "manifestSha256": "1d58690949f52c929ae50da723f418ba94475dac4d72f01b282b3795e3ff8ce6",
+      "filesSha256": "fe7f107b793c692b4b2920199086cd335e55dede5767171f49940c9b46d66773"
+    },
+    "borders-006": {
+      "version": "0.1.0",
+      "gitCommit": null,
+      "manifestSha256": "2696ed369b675ea68116ebce90aa4062a19a73e22a02f5fe490571804726479c",
+      "filesSha256": "fcc694645f9deeb1a46751a9b5df5ef92cb8d90754910489817beb17f4bb47e6"
+    },
+    "illustrations-011": {
+      "version": "0.1.0",
+      "gitCommit": null,
+      "manifestSha256": "3f08712b249e5ddf8e113cc46026f368a5030e9259f4c4c76918dbf3a5418d05",
+      "filesSha256": "5c1afc0653f6a7b7ba9ec3e24e4c49be67cf5f42611e0846329f2c541c788833"
+    },
+    "decorations-010": {
+      "version": "0.1.0",
+      "gitCommit": null,
+      "manifestSha256": "65172cb9deaa36ca5be0ad2c526048b101d12420ebe6e4c4a658b3f85bb44eeb",
+      "filesSha256": "876e68d85a4cfab824e6b195e38425b8eaa4963581cb4595e2e5ef2f7e64f6bb"
+    },
+    "illustrations-012": {
+      "version": "0.1.0",
+      "gitCommit": null,
+      "manifestSha256": "3397290e58b699668e8cd9f29455de769651a219617b353377986a51e7130f16",
+      "filesSha256": "b60de3e0766e0e90bd5d1d59d821916de2a9627f848ced4664a2a93fd84ae03b"
+    },
+    "illustrations-013": {
+      "version": "0.1.0",
+      "gitCommit": null,
+      "manifestSha256": "dcb4df43cee7994109611d339f7eb6c3c9cdfae3ebd545b36ad5c26bb712ccf9",
+      "filesSha256": "8ab9ffe7fec6819b9b27bf45034bc80864073e9241d182e8415324eca2fb383a"
     }
   }
 }

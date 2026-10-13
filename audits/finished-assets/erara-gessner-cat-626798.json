@@ -1,0 +1,139 @@
+{
+  "source_id": "erara-gessner-cat-626798",
+  "assets": [
+    {
+      "id": "erara-gessner-cat-626798--cat",
+      "name": "cat",
+      "source_id": "erara-gessner-cat-626798",
+      "source_folder": "e-rara-gessner",
+      "asset_type": "illustration",
+      "description": "A seated striped cat with its complete curled tail, paws, ears and whiskers. Part of the Gessner Historiae Animalium set.",
+      "source_region": [
+        1030,
+        271,
+        2746,
+        2262
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        96,
+        113,
+        1275,
+        1941
+      ],
+      "width": 1179,
+      "height": 1828,
+      "png": "e-rara-gessner/erara-gessner-cat-626798--cat.png",
+      "png_sha256": "a76195e23a78ac72b77f7a98b299d91d03e471001f701172d825db702322bd42",
+      "provenance": {
+        "institution": "Zentralbibliothek Zürich",
+        "title": "Gessner, Historiae animalium: De cato seu fele.",
+        "object_identifier": "5.1: a-5.3; image 626798; section De cato seu fele.",
+        "date": "1551–1587",
+        "record_url": "https://www.e-rara.ch/zuz/content/pageview/626798",
+        "image_rights": "Public Domain Mark; parent bibliographic record",
+        "rights_url": "https://www.e-rara.ch/zuz/content/titleinfo/637105",
+        "source_sha256": "237d87135b9d10fdde79e9b5e569bc904f4807cc56f58843b7808ded27d1af3e",
+        "source_file": "tmp/new-assets/e-rara-gessner/erara-gessner-cat-626798--gessner-historiae-animalium-de-cato-seu-fele.jpg",
+        "source_metadata": "tmp/new-assets/e-rara-gessner/erara-gessner-cat-626798.json",
+        "image_url": "https://www.e-rara.ch/i3f/v20/626798/full/full/0/default.jpg",
+        "method": "source-pixel-extraction-with-ai-assisted-selection-mask"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: precise-object-edit. Output ONLY an original-aligned two-color foreground selection matte. Preserve EXACTLY this input’s aspect ratio, size relationships, positions, pose and every contour. No recentering or reconstruction. Solid vivid MAGENTA #ff00ff selects the complete original animal illustration; solid CYAN #00ffff excludes ALL page paper, letters, text, caption, print showing through from the other page, stains and actual openings between limbs and around the tail or trunk. Select A seated striped cat with its complete curled tail, paws, ears and whiskers. The selected animal must be a FEATURELESS SOLID MAGENTA silhouette: every interior pale illustrated body surface, eye, dark ink line and hatch must be magenta with no copied internal features. Actual exterior page and genuine spaces between feet, tail, trunk or antler branches must remain cyan. Include every thin whisker, toe, claw, tip and hair at its original position. Do not simplify, move, enlarge, redraw or add anything. No white or black or other colors, no text on the mask. Exclude the horizontal ground hatching, cast shadows, ruled lines and lettering outside the animal’s actual contour.",
+        "selection_mask": "tmp/extraction-work/erara-gessner-cat-626798--cat--selection-mask.png",
+        "selection_mask_sha256": "e7652d1dcab2abc080edb780bb91c47e2b46d2737f8e17314bde71294b6b77e5",
+        "mask_dimensions": [
+          1164,
+          1351
+        ],
+        "mask_application": "binary selection resized to native source region; only alpha changed",
+        "mask_source_region": [
+          1030,
+          271,
+          2746,
+          2262
+        ],
+        "mask_encoding": "magenta-on-cyan",
+        "native_stroke_correction": null,
+        "native_paper_cleanup": null,
+        "native_boundary_refinement": null,
+        "mask_preprocessing": {
+          "fill_internal_holes_below_px": 250,
+          "remove_islands_below_px": 30
+        },
+        "native_rgb_verification": "all alpha-visible RGB values exactly equal the recorded native source crop; fully transparent RGB cleared",
+        "source_color_profile_preserved": true,
+        "source_pixels_repainted": false
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261010",
+        "notes": "Native overlay confirms both ear tips, paws, curled tail and fine original whiskers. Real gap between limbs transparent; page text outside body excluded.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": "tmp/extraction-work/quality-reaudit-20261010/manifest.json"
+      },
+      "categories": [
+        "animals"
+      ],
+      "subjects": [
+        "cat"
+      ],
+      "facing": "front",
+      "colors": [
+        "brown",
+        "cream"
+      ],
+      "composition": "single-figure",
+      "vector_review": {
+        "status": "accepted",
+        "method": "Editable native-color VTracer paths with eight-layer native PNG alpha contour mask, excluding opaque hidden pixels and stray trace islands.",
+        "premultiplied_rgb_error_at_review_resolution": 0.03181313381004223,
+        "alpha_error_at_review_resolution": 0.0006927422131643355,
+        "limitation": "Contours and scan tones are approximate. PNG retains original native source RGB and remains the preferred fidelity master.",
+        "embedded_raster": false,
+        "quality_round": "20261010"
+      },
+      "svg": "e-rara-gessner/erara-gessner-cat-626798--cat.svg",
+      "svg_sha256": "3cd8109d2ac114acebd11314887aa8a434a56347a02d62d086370cdd92e7bf6b",
+      "review_history": [
+        {
+          "round": "quality-reaudit-20261010",
+          "previous_review": {
+            "status": "accepted",
+            "reviewed_on": "2026-10-10T11:45:29.475776+00:00",
+            "notes": "Compared the complete animal against its source, checked corrected orientation, fur/ear/tail tips and paws, and inspected transparent exterior and true spaces between limbs on light and dark backgrounds. Native source RGB retained; SVG evaluation remains pending.",
+            "checks": [
+              "original-source-comparison",
+              "white-background",
+              "dark-background",
+              "outer-contours",
+              "interior-openings",
+              "thin-details",
+              "original-rgb-equality"
+            ]
+          }
+        }
+      ],
+      "sets": [
+        {
+          "id": "gessner-historiae-animalium",
+          "name": "Gessner Historiae Animalium",
+          "relation": "same historical zoological work and illustration family"
+        }
+      ],
+      "description_before_set_naming": "A seated striped cat with its complete curled tail, paws, ears and whiskers.",
+      "set_label": "Gessner Historiae Animalium"
+    }
+  ]
+}

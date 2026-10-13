@@ -1,0 +1,111 @@
+{
+  "source_id": "cma-1922-498",
+  "assets": [
+    {
+      "id": "cma-1922-498--bearded-mask-with-eagle-and-paired-fauns",
+      "name": "bearded-mask-with-eagle-and-paired-fauns",
+      "source_id": "cma-1922-498",
+      "source_folder": "cleveland",
+      "asset_type": "decoration",
+      "description": "One complete connected grotesque ornament: the large central bearded mask, both lower fauns/tritons with their complete legs and scaled tails, the central eagle with both spread wings and talons, both small birds perched on the upper curved scrolls and all the foliate stems connecting them.",
+      "source_region": [
+        0,
+        0,
+        2119,
+        2796
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        10,
+        1,
+        1085,
+        1423
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 1075,
+      "height": 1422,
+      "png": "cleveland/cma-1922-498--bearded-mask-with-eagle-and-paired-fauns.png",
+      "png_sha256": "f1b8fa7c8a3440d4443f939d8052875be57d5a7583d0774a93de8c3d87c8c433",
+      "provenance": {
+        "institution": "Cleveland Museum of Art",
+        "title": "Ornament Design with a Mask and an Eagle between Two Fauns Below",
+        "object_identifier": "1922.498",
+        "date": "1509",
+        "artist": "Heinrich Aldegrever (German, 1502–1555/61)",
+        "record_url": "https://clevelandart.org/art/1922.498",
+        "image_rights": "CC0; share_license_status=CC0",
+        "rights_url": "https://www.clevelandart.org/open-access",
+        "source_file": "tmp/new-assets/cleveland/cma-1922-498--ornament-design-with-a-mask-and-an-eagle-between-two-fauns-below--master.tif",
+        "source_sha256": "525b4b81db946a5000125dce34878167e1abe4cb80d2abf7424e57e6f2ff230f",
+        "source_metadata": "tmp/new-assets/cleveland/cma-1922-498.json",
+        "image_url": null,
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: background-extraction. Edit target: the referenced ORIGINAL Renaissance engraving. Produce a faithful transparent cutout of the exact existing connected ornament. One complete connected grotesque ornament: the large central bearded mask, both lower fauns/tritons with their complete legs and scaled tails, the central eagle with both spread wings and talons, both small birds perched on the upper curved scrolls and all the foliate stems connecting them. Exclude only the unrelated upper-right date/AG panel. Do not split the contacting figures, shared scrolls or perching birds. The dense straight crosshatched rectangle BEHIND the ornament is background and must become completely transparent, including all openings between scrolls, figures and leaves. Retain the actual curved hatching INSIDE the figures, leaves and scrolls. Pale white engraved figure surfaces are opaque illustrated surfaces, not holes. Remove page paper, plate border, dirt, signatures and date/cartouche panels without cutting the real ornament or inventing shapes underneath. Preserve the original line weight, tiny engraving strokes, pose, proportions, asymmetry, source print grain and dark warm-black/brown ink. Preserve every tip, limb, wing, fish tail and delicate connecting stroke. No beautification, simplification, symmetry correction, new shading, redrawn clean vector style, hard polygon or scaled pixel outline. Do not compress the source aspect ratio. Only remove the unrelated background and marks. True transparent alpha, no checkerboard painted into the image, no shadow or framing rectangle.",
+        "retained_generated_extraction": "tmp/extraction-work/cma-1922-498--bearded-mask-with-eagle-and-paired-fauns--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "eb8d838afe6d60e2f3282a5ca47a233483eadf10aa17259705c036f809437a00",
+        "retained_generated_size": [
+          1092,
+          1441
+        ],
+        "resolution_cap_scale": 1,
+        "resolution_capped_size": [
+          1092,
+          1441
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          2119,
+          2796
+        ],
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 32660
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "approval_scope": "Extraction-workflow source comparison; provisional for maintainer review.",
+        "checks": [
+          "complete-connected-subject",
+          "original-proportions",
+          "true-transparent-scroll-openings",
+          "opaque-pale-engraved-surfaces",
+          "fine-antialiased-edges",
+          "white-and-dark-backgrounds",
+          "no-upscaling"
+        ],
+        "notes": "Compared the full untouched original with the complete connected ornament on white and dark. Background crosshatching and cartouche marks removed; foreground hatching, figures, curls and fine tips retained. AI-assisted appearance remains approximate and is explicitly labeled. PNG only because a new vector redraw would change engraved detail.",
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/cleveland-three-source-white-dark.jpg"
+        ]
+      },
+      "categories": [
+        "floral",
+        "fantasy"
+      ],
+      "subjects": [
+        "scroll",
+        "leaf",
+        "ornament"
+      ],
+      "facing": "mixed",
+      "colors": [
+        "black",
+        "brown",
+        "cream"
+      ],
+      "composition": "single-ornament",
+      "usage_notes": "Finite connected Renaissance ornament. The source establishes no seamless cycle; no repeat or corner atlas is inferred. AI-assisted background extraction retains opaque illustrated pale surfaces; exact prompt and untouched original retained."
+    }
+  ]
+}

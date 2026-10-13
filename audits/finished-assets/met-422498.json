@@ -1,0 +1,131 @@
+{
+  "source_id": "met-422498",
+  "assets": [
+    {
+      "id": "met-422498--two-boys-with-connected-acanthus-scroll",
+      "name": "two-boys-with-connected-acanthus-scroll",
+      "source_id": "met-422498",
+      "source_folder": "met",
+      "asset_type": "decoration",
+      "description": "Two boys holding a connected leafy acanthus scroll.",
+      "source_region": [
+        81,
+        75,
+        3717,
+        1566
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        3,
+        1,
+        1955,
+        803
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 1952,
+      "height": 802,
+      "png": "met/met-422498--two-boys-with-connected-acanthus-scroll.png",
+      "png_sha256": "1f79821ce0c5f037c04e360a1dcf2e29c143db93c3491e69734570a7ba43cd05",
+      "provenance": {
+        "institution": "Metropolitan Museum of Art",
+        "title": "Horizontal Panel with Two Nude Boys Surrounded by Tendrils",
+        "object_identifier": "27.23.78",
+        "date": "1549",
+        "artist": "Heinrich Aldegrever",
+        "record_url": "https://www.metmuseum.org/art/collection/search/422498",
+        "image_rights": "CC0 Open Access; isPublicDomain=true",
+        "rights_url": "https://www.metmuseum.org/policies/image-resources",
+        "source_file": "tmp/new-assets/met/met-422498--horizontal-panel-with-two-nude-boys-surrounded-by-tendrils.jpg",
+        "source_sha256": "19337006e4bc7a078d95b294ba85a88c244a23dde9334ed919cc34036f9ab08e",
+        "source_metadata": "tmp/new-assets/met/met-422498.json",
+        "image_url": "https://images.metmuseum.org/CRDImages/dp/original/DP836790.jpg",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. Extract ENTIRE original connected acanthus decoration with BOTH boys interacting with its shared stems. Keep all large curled leaves, every original thin vine, exposed limbs, heads and feet. Remove dark crosshatched rectangular background including every genuine opening within scroll curls and between boys/branches. Pale engraved leaves and skin stay opaque with full original hatching. Remove tiny lettered signature plaque, preserving only visible hand/arm without hidden reconstruction. No repeat established. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_extraction": "tmp/extraction-work/met-422498--two-boys-with-connected-acanthus-scroll--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "b1dabddf4d44098ba9c36d2a942887580e0b720d1a8d6b9ff4eb3b0df4582501",
+        "retained_generated_size": [
+          1958,
+          803
+        ],
+        "resolution_cap_scale": 1,
+        "resolution_capped_size": [
+          1958,
+          803
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          3577,
+          1445
+        ],
+        "native_subject_size_evidence": {
+          "method": "Individually inspected native visible subject bounds, excluding input-region whitespace and neighbours.",
+          "preview_subject_bounds": [
+            40,
+            35,
+            1367,
+            571
+          ],
+          "preview_size": [
+            1400,
+            607
+          ],
+          "original_size": [
+            3774,
+            1636
+          ]
+        },
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 23230
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Compared every entity with the original at source scale on white/dark. All original contact groups remain together, including stag/hound and each rider/horse. Separate hounds and the complete hunting landscape are also retained. Printed paper, landscape hatching around individuals and crosshatched ornament background removed, pale engraved surfaces opaque, true gaps clear. AI method and exact input/prompt are retained; no source raster upscaling or SVG stand-in.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/hunt-nga-met-ready-results-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/hunt-nga-met-ready-results-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/hunt-nga-met-ready-results-proof-3.jpg"
+        ]
+      },
+      "categories": [
+        "humans",
+        "floral",
+        "scrollwork"
+      ],
+      "subjects": [
+        "boy",
+        "acanthus",
+        "leaf",
+        "vine"
+      ],
+      "colors": [
+        "black",
+        "brown",
+        "cream"
+      ],
+      "facing": "unclear",
+      "composition": "single-ornament",
+      "usage_notes": "Original independent specimen with printed plate rules and page removed. AI-assisted extraction remains approximate; source bounds, actual native subject cap, original and exact prompt retained."
+    }
+  ]
+}

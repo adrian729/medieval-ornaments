@@ -1,0 +1,435 @@
+{
+  "source_id": "walters-w148-52r",
+  "assets": [
+    {
+      "id": "walters-w148-52r--left-facing-brown-quadruped-with-gold-trefoil-in-curled-tail",
+      "name": "left-facing-brown-quadruped-with-gold-trefoil-in-curled-tail",
+      "source_id": "walters-w148-52r",
+      "source_folder": "walters",
+      "asset_type": "illustration",
+      "description": "A left-facing brown long-tailed quadruped with an open mouth, pale body marks and a gold trefoil touching its inward-curled tail. Part of the Initial \"C\" (Cristus paganis) (walters-w148-52r) set.",
+      "source_region": [
+        3587,
+        8239,
+        5554,
+        8940
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        19,
+        36,
+        1862,
+        642
+      ],
+      "export_crop_coordinate_space": "original-native-source-region",
+      "width": 1843,
+      "height": 606,
+      "png": "walters/walters-w148-52r--left-facing-brown-quadruped-with-gold-trefoil-in-curled-tail.png",
+      "png_sha256": "042e3bef1db9f6fa4ab08fd315d6caeeecfa6d44c34286c98ce90e2687f5b448",
+      "provenance": {
+        "institution": "Walters Art Museum",
+        "title": "Initial \"C\" (Cristus paganis)",
+        "object_identifier": "W.148, fol. 52r",
+        "date": "First half of the 14th century CE",
+        "record_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/html/W148/description.html",
+        "image_rights": "CC0 (Digital Walters manuscript images)",
+        "rights_url": "https://www.thedigitalwalters.org/01_ACCESS_WALTERS_MANUSCRIPTS.html",
+        "source_file": "tmp/new-assets/walters/walters-w148-52r--initial-c-cristus-paganis--master.tif",
+        "source_sha256": "14c2bbca973c92502440f3e1d29b625dd889235829001b37318aba49eb307abf",
+        "source_metadata": "tmp/new-assets/walters/walters-w148-52r.json",
+        "image_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/W148/data/W.148/master/W148_000107_819.tif",
+        "method": "native-source-continuous-edge-matting"
+      },
+      "extraction": {
+        "candidate_png": "tmp/extraction-work/continuation-20261010/walters-w148-52r--left-facing-brown-quadruped-with-gold-trefoil-in-curled-tail--smooth-native-boundary-candidate.png",
+        "native_export_crop": [
+          19,
+          36,
+          1862,
+          642
+        ],
+        "export_crop_coordinate_space": "original-native-source-region",
+        "annotation_json": "tmp/extraction-work/continuation-20261010/walters-w148-52r--left-facing-brown-quadruped-with-gold-trefoil-in-curled-tail--refined-original-native-audit.json",
+        "trimap_png": "tmp/extraction-work/continuation-20261010/walters-w148-52r--left-facing-brown-quadruped-with-gold-trefoil-in-curled-tail--refined-original-native-trimap.png",
+        "native_source_size": [
+          1967,
+          701
+        ],
+        "native_upscaling": false,
+        "source_pixels_redrawn": false,
+        "original_opaque_rgb_preserved": true,
+        "method": "Source-registered ownership refitted by five-pass native RGB GrabCut inside a nine-pixel contour uncertainty band; continuous two-pixel native edge alpha. Opaque source RGB and unscaled proportions retained. AI guide supplies ownership only; no redraw.",
+        "alpha_guide": {
+          "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+          "guide_png": "tmp/extraction-work/continuation-20261010/walters-w148-52r--left-facing-brown-quadruped-with-gold-trefoil-in-curled-tail--native-alpha-reference.png",
+          "guide_sha256": "770b66733e2e2c7fe7f842587c608551485aff096180e591d3bd92341874eb34",
+          "native_original": "tmp/extraction-work/continuation-20261010/walters-w148-52r--left-facing-brown-quadruped-with-gold-trefoil-in-curled-tail--original.png",
+          "similarity_ai_alpha_to_original": [
+            [
+              0.8957852903309603,
+              0.003263265509391528,
+              -4.75184365544181
+            ],
+            [
+              -0.003263265509391528,
+              0.8957852903309603,
+              10.220466490262112
+            ]
+          ],
+          "matching_feature_pairs": 342,
+          "inlier_feature_pairs": 163,
+          "inlier_rms_native_pixels": 2.399598888490719,
+          "source_inspection_factor": 0.9150991357397051,
+          "unknown_edge_band_native_pixels": 12,
+          "edge_solve_tile_size": 640,
+          "edge_solve_halo": 32,
+          "edge_solve_tiles": 4,
+          "original_opaque_rgb_preserved": true
+        },
+        "status": "awaiting-original-white-dark-review",
+        "native_refinement": {
+          "method": "Five-pass native RGB GrabCut refits the uncertain contour of the retained registered ownership guide. Only pixels within nine native pixels of that contour may change ownership; certain original body cores and distant background stay fixed. The inspected pale rear-ear surface is opaque, and the extrinsic lower page rule is excluded. Two-pixel continuous edge matting; no source repaint, sharpening or scaling.",
+          "source": "tmp/extraction-work/continuation-20261010/walters-w148-52r--left-facing-brown-quadruped-with-gold-trefoil-in-curled-tail--original.png",
+          "previous_native_matte": {
+            "candidate_png": "tmp/extraction-work/continuation-20261010/walters-w148-52r--left-facing-brown-quadruped-with-gold-trefoil-in-curled-tail--registered-native-candidate.png",
+            "native_export_crop": [
+              8,
+              28,
+              1870,
+              657
+            ],
+            "export_crop_coordinate_space": "original-native-source-region",
+            "annotation_json": "tmp/extraction-work/continuation-20261010/walters-w148-52r--left-facing-brown-quadruped-with-gold-trefoil-in-curled-tail--registered-native-annotation.json",
+            "trimap_png": "tmp/extraction-work/continuation-20261010/walters-w148-52r--left-facing-brown-quadruped-with-gold-trefoil-in-curled-tail--registered-native-trimap.png",
+            "native_source_size": [
+              1967,
+              701
+            ],
+            "native_upscaling": false,
+            "source_pixels_redrawn": false,
+            "original_opaque_rgb_preserved": true,
+            "method": "Source-registered ownership refitted by five-pass native RGB GrabCut inside a nine-pixel contour uncertainty band; continuous two-pixel native edge alpha. Opaque source RGB and unscaled proportions retained. AI guide supplies ownership only; no redraw.",
+            "alpha_guide": {
+              "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+              "guide_png": "tmp/extraction-work/continuation-20261010/walters-w148-52r--left-facing-brown-quadruped-with-gold-trefoil-in-curled-tail--native-alpha-reference.png",
+              "guide_sha256": "770b66733e2e2c7fe7f842587c608551485aff096180e591d3bd92341874eb34",
+              "native_original": "tmp/extraction-work/continuation-20261010/walters-w148-52r--left-facing-brown-quadruped-with-gold-trefoil-in-curled-tail--original.png",
+              "similarity_ai_alpha_to_original": [
+                [
+                  0.8957852903309603,
+                  0.003263265509391528,
+                  -4.75184365544181
+                ],
+                [
+                  -0.003263265509391528,
+                  0.8957852903309603,
+                  10.220466490262112
+                ]
+              ],
+              "matching_feature_pairs": 342,
+              "inlier_feature_pairs": 163,
+              "inlier_rms_native_pixels": 2.399598888490719,
+              "source_inspection_factor": 0.9150991357397051,
+              "unknown_edge_band_native_pixels": 12,
+              "edge_solve_tile_size": 640,
+              "edge_solve_halo": 32,
+              "edge_solve_tiles": 4,
+              "original_opaque_rgb_preserved": true
+            },
+            "status": "awaiting-original-white-dark-review"
+          },
+          "unknown_band_native_pixels": 2,
+          "source_rgb_redrawn": false,
+          "source_resized": false,
+          "original_opaque_rgb_preserved": true,
+          "ownership": "tmp/extraction-work/continuation-20261010/walters-w148-52r--left-facing-brown-quadruped-with-gold-trefoil-in-curled-tail--refined-original-native-ownership.png",
+          "ownership_sha256": "2ed898e62afcafbc4102e882ed27e02441a720c984a1c1d538249e21b4c82851",
+          "native_rgb_grabcut_iterations": 5,
+          "uncertain_ownership_distance": 9,
+          "scoped_exterior_nose_green_cleanup": {
+            "removed_pixels": 3022,
+            "rule": "Only within 4 native pixels of the outer boundary, in the inspected nose/lower-jaw region; G-R>18, G-B>24 and mean RGB>72. Original dark outline and every opaque body core preserved."
+          },
+          "conservative_boundary_cleanup": {
+            "method": "Native signed-distance alpha contour cleanup: one-pixel boundary inset, two pixels at the left muzzle and three pixels at the right muzzle, with 0.55-native-pixel Gaussian antialiasing. Original opaque interior RGB and native dimensions remain unchanged; no vector faceting, anatomy reconstruction or resampling."
+          }
+        },
+        "before_final_nose_edge_candidate": "tmp/extraction-work/continuation-20261010/walters-w148-52r--left-facing-brown-quadruped-with-gold-trefoil-in-curled-tail--refined-original-native-candidate.png",
+        "before_smooth_boundary_candidate": "tmp/extraction-work/continuation-20261010/walters-w148-52r--left-facing-brown-quadruped-with-gold-trefoil-in-curled-tail--nose-edge-cleaned-native-candidate.png",
+        "tool": "Original native scan / closed-form edge alpha and foreground decontamination",
+        "pixel_exact": false,
+        "ownership_guide_prompt": "Faithful historical manuscript cutout. Extract only the complete left-facing brown long-tailed quadruped and the gold trefoil physically touching the inward curled tail. The entire original dark outline is artwork: keep it, together with pale body marks, the pale interior of the small rear ear, open jaws, both ears, all source-visible paws and the whole pointed curled tail. Remove the green manuscript ground around it and in the real open tail loop and between the legs. Keep all interior painted brown, pale and gold surfaces opaque. Remove the straight unrelated page rules at top and bottom, including the rule touching the hind paw; retain only the actual source-visible paw. Preserve source proportions, original hand-painted shape, mottled pigment and fine dark strokes; no recolouring, mirror symmetry, anatomy restoration, new tips, invented lines or modern redraw. Transparent alpha outside and through the real openings.",
+        "retained_generated_ownership_guide": {
+          "file": "tmp/extraction-work/walters-w148-52r--left-facing-brown-quadruped-with-gold-trefoil-in-curled-tail--retained-ai-extraction.png",
+          "sha256": "770b66733e2e2c7fe7f842587c608551485aff096180e591d3bd92341874eb34",
+          "purpose": "Retained AI alpha guide only; delivered opaque RGB belongs to the unchanged native source."
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Original/native-detail/white/dark comparisons inspected for all six extremity proofs. Both complete original brown bodies, eyes, ears, mouths, cream patches, paws and curled tails retained. The touching gold trefoil remains with each animal. Green page field and upper/lower page rules are cleared, as are the actual tail/leg openings. Original opaque pigment/gilding and native proportions retained. Source-visible lower paw edge remains source-truncated; no hidden toe or line reconstructed. Continuous native alpha receives the recorded narrow boundary cleanup; no faceted trace or upscale.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/walters14852-two-beasts-reviewed-native-detail-1.png",
+          "tmp/extraction-work/continuation-20261010/walters14852-two-beasts-reviewed-native-detail-2.png",
+          "tmp/extraction-work/continuation-20261010/walters14852-two-beasts-reviewed-native-detail-3.png",
+          "tmp/extraction-work/continuation-20261010/walters14852-two-beasts-reviewed-native-detail-4.png",
+          "tmp/extraction-work/continuation-20261010/walters14852-two-beasts-reviewed-native-detail-5.png",
+          "tmp/extraction-work/continuation-20261010/walters14852-two-beasts-reviewed-native-detail-6.png"
+        ]
+      },
+      "categories": [
+        "animals"
+      ],
+      "subjects": [
+        "quadruped",
+        "tail",
+        "paw",
+        "trefoil"
+      ],
+      "colors": [
+        "brown",
+        "cream",
+        "black",
+        "gold"
+      ],
+      "facing": "left",
+      "composition": "standalone",
+      "usage_notes": "Complete native source-visible quadruped and the contacting gilt trefoil in its curled tail remain one group. The two disconnected creatures are separate assets. Painted cream patches, eye and pale ear are opaque. Source RGB/proportions retained; alpha ownership and narrow edge cleanup are approximate and individually audited. No SVG inferred for textured pigment and gilding.",
+      "sets": [
+        {
+          "id": "walters-w148-52r-set",
+          "name": "Initial \"C\" (Cristus paganis) (walters-w148-52r)",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A left-facing brown long-tailed quadruped with an open mouth, pale body marks and a gold trefoil touching its inward-curled tail.",
+      "set_label": "Initial \"C\" (Cristus paganis) (walters-w148-52r)"
+    },
+    {
+      "id": "walters-w148-52r--right-facing-brown-quadruped-with-gold-trefoil-in-curled-tail",
+      "name": "right-facing-brown-quadruped-with-gold-trefoil-in-curled-tail",
+      "source_id": "walters-w148-52r",
+      "source_folder": "walters",
+      "asset_type": "illustration",
+      "description": "A right-facing brown long-tailed quadruped with an open mouth, pale body marks and a gold trefoil touching its inward-curled tail. Part of the Initial \"C\" (Cristus paganis) (walters-w148-52r) set.",
+      "source_region": [
+        715,
+        8232,
+        2675,
+        8947
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        46,
+        57,
+        1896,
+        704
+      ],
+      "export_crop_coordinate_space": "original-native-source-region",
+      "width": 1850,
+      "height": 647,
+      "png": "walters/walters-w148-52r--right-facing-brown-quadruped-with-gold-trefoil-in-curled-tail.png",
+      "png_sha256": "09d3bd9da6b82bfaabd2a3157385fed99e4a439edb2ab130e8cbf52a144e6c06",
+      "provenance": {
+        "institution": "Walters Art Museum",
+        "title": "Initial \"C\" (Cristus paganis)",
+        "object_identifier": "W.148, fol. 52r",
+        "date": "First half of the 14th century CE",
+        "record_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/html/W148/description.html",
+        "image_rights": "CC0 (Digital Walters manuscript images)",
+        "rights_url": "https://www.thedigitalwalters.org/01_ACCESS_WALTERS_MANUSCRIPTS.html",
+        "source_file": "tmp/new-assets/walters/walters-w148-52r--initial-c-cristus-paganis--master.tif",
+        "source_sha256": "14c2bbca973c92502440f3e1d29b625dd889235829001b37318aba49eb307abf",
+        "source_metadata": "tmp/new-assets/walters/walters-w148-52r.json",
+        "image_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/W148/data/W.148/master/W148_000107_819.tif",
+        "method": "native-source-continuous-edge-matting"
+      },
+      "extraction": {
+        "candidate_png": "tmp/extraction-work/continuation-20261010/walters-w148-52r--right-facing-brown-quadruped-with-gold-trefoil-in-curled-tail--smooth-native-boundary-candidate.png",
+        "native_export_crop": [
+          46,
+          57,
+          1896,
+          704
+        ],
+        "export_crop_coordinate_space": "original-native-source-region",
+        "annotation_json": "tmp/extraction-work/continuation-20261010/walters-w148-52r--right-facing-brown-quadruped-with-gold-trefoil-in-curled-tail--refined-original-native-audit.json",
+        "trimap_png": "tmp/extraction-work/continuation-20261010/walters-w148-52r--right-facing-brown-quadruped-with-gold-trefoil-in-curled-tail--refined-original-native-trimap.png",
+        "native_source_size": [
+          1960,
+          715
+        ],
+        "native_upscaling": false,
+        "source_pixels_redrawn": false,
+        "original_opaque_rgb_preserved": true,
+        "method": "Source-registered ownership refitted by five-pass native RGB GrabCut inside a nine-pixel contour uncertainty band; continuous two-pixel native edge alpha. Opaque source RGB and unscaled proportions retained. AI guide supplies ownership only; no redraw.",
+        "alpha_guide": {
+          "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+          "guide_png": "tmp/extraction-work/continuation-20261010/walters-w148-52r--right-facing-brown-quadruped-with-gold-trefoil-in-curled-tail--native-alpha-reference.png",
+          "guide_sha256": "58ca7cd4aa4b68f3337e89bdd7aef5be094a2cd3ce34d83209e54a20dc9c1274",
+          "native_original": "tmp/extraction-work/continuation-20261010/walters-w148-52r--right-facing-brown-quadruped-with-gold-trefoil-in-curled-tail--original.png",
+          "similarity_ai_alpha_to_original": [
+            [
+              0.9347420947002302,
+              -0.001520597705662496,
+              2.4151778398572845
+            ],
+            [
+              0.001520597705662496,
+              0.9347420947002302,
+              5.596178765563058
+            ]
+          ],
+          "matching_feature_pairs": 412,
+          "inlier_feature_pairs": 246,
+          "inlier_rms_native_pixels": 2.1895112552186022,
+          "source_inspection_factor": 0.9183673469387755,
+          "unknown_edge_band_native_pixels": 12,
+          "edge_solve_tile_size": 640,
+          "edge_solve_halo": 32,
+          "edge_solve_tiles": 5,
+          "original_opaque_rgb_preserved": true
+        },
+        "status": "awaiting-original-white-dark-review",
+        "native_refinement": {
+          "method": "Five-pass native RGB GrabCut refits the uncertain contour of the retained registered ownership guide. Only pixels within nine native pixels of that contour may change ownership; certain original body cores and distant background stay fixed. The inspected pale rear-ear surface is opaque, and the extrinsic lower page rule is excluded. Two-pixel continuous edge matting; no source repaint, sharpening or scaling.",
+          "source": "tmp/extraction-work/continuation-20261010/walters-w148-52r--right-facing-brown-quadruped-with-gold-trefoil-in-curled-tail--original.png",
+          "previous_native_matte": {
+            "candidate_png": "tmp/extraction-work/continuation-20261010/walters-w148-52r--right-facing-brown-quadruped-with-gold-trefoil-in-curled-tail--registered-native-candidate.png",
+            "native_export_crop": [
+              36,
+              55,
+              1915,
+              715
+            ],
+            "export_crop_coordinate_space": "original-native-source-region",
+            "annotation_json": "tmp/extraction-work/continuation-20261010/walters-w148-52r--right-facing-brown-quadruped-with-gold-trefoil-in-curled-tail--registered-native-annotation.json",
+            "trimap_png": "tmp/extraction-work/continuation-20261010/walters-w148-52r--right-facing-brown-quadruped-with-gold-trefoil-in-curled-tail--registered-native-trimap.png",
+            "native_source_size": [
+              1960,
+              715
+            ],
+            "native_upscaling": false,
+            "source_pixels_redrawn": false,
+            "original_opaque_rgb_preserved": true,
+            "method": "Source-registered ownership refitted by five-pass native RGB GrabCut inside a nine-pixel contour uncertainty band; continuous two-pixel native edge alpha. Opaque source RGB and unscaled proportions retained. AI guide supplies ownership only; no redraw.",
+            "alpha_guide": {
+              "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+              "guide_png": "tmp/extraction-work/continuation-20261010/walters-w148-52r--right-facing-brown-quadruped-with-gold-trefoil-in-curled-tail--native-alpha-reference.png",
+              "guide_sha256": "58ca7cd4aa4b68f3337e89bdd7aef5be094a2cd3ce34d83209e54a20dc9c1274",
+              "native_original": "tmp/extraction-work/continuation-20261010/walters-w148-52r--right-facing-brown-quadruped-with-gold-trefoil-in-curled-tail--original.png",
+              "similarity_ai_alpha_to_original": [
+                [
+                  0.9347420947002302,
+                  -0.001520597705662496,
+                  2.4151778398572845
+                ],
+                [
+                  0.001520597705662496,
+                  0.9347420947002302,
+                  5.596178765563058
+                ]
+              ],
+              "matching_feature_pairs": 412,
+              "inlier_feature_pairs": 246,
+              "inlier_rms_native_pixels": 2.1895112552186022,
+              "source_inspection_factor": 0.9183673469387755,
+              "unknown_edge_band_native_pixels": 12,
+              "edge_solve_tile_size": 640,
+              "edge_solve_halo": 32,
+              "edge_solve_tiles": 5,
+              "original_opaque_rgb_preserved": true
+            },
+            "status": "awaiting-original-white-dark-review"
+          },
+          "unknown_band_native_pixels": 2,
+          "source_rgb_redrawn": false,
+          "source_resized": false,
+          "original_opaque_rgb_preserved": true,
+          "ownership": "tmp/extraction-work/continuation-20261010/walters-w148-52r--right-facing-brown-quadruped-with-gold-trefoil-in-curled-tail--refined-original-native-ownership.png",
+          "ownership_sha256": "78c6030fbc3c3b95a495c01721d558048b9d94fd115cdf1e861fdbd579f9c092",
+          "native_rgb_grabcut_iterations": 5,
+          "uncertain_ownership_distance": 9,
+          "scoped_exterior_nose_green_cleanup": {
+            "removed_pixels": 1381,
+            "rule": "Only within 4 native pixels of the outer boundary, in the inspected nose/lower-jaw region; G-R>18, G-B>24 and mean RGB>72. Original dark outline and every opaque body core preserved."
+          },
+          "conservative_boundary_cleanup": {
+            "method": "Native signed-distance alpha contour cleanup: one-pixel boundary inset, two pixels at the left muzzle and three pixels at the right muzzle, with 0.55-native-pixel Gaussian antialiasing. Original opaque interior RGB and native dimensions remain unchanged; no vector faceting, anatomy reconstruction or resampling."
+          }
+        },
+        "before_final_nose_edge_candidate": "tmp/extraction-work/continuation-20261010/walters-w148-52r--right-facing-brown-quadruped-with-gold-trefoil-in-curled-tail--refined-original-native-candidate.png",
+        "before_smooth_boundary_candidate": "tmp/extraction-work/continuation-20261010/walters-w148-52r--right-facing-brown-quadruped-with-gold-trefoil-in-curled-tail--nose-edge-cleaned-native-candidate.png",
+        "tool": "Original native scan / closed-form edge alpha and foreground decontamination",
+        "pixel_exact": false,
+        "ownership_guide_prompt": "Faithful historical manuscript cutout. Extract only the complete right-facing brown long-tailed quadruped and the gold trefoil physically touching the inward curled tail. The entire original dark outline is artwork: keep it, together with pale body marks, the pale interior of the small rear ear, open jaws, both ears, all source-visible paws and the whole pointed curled tail. Remove the green manuscript ground around it and in the real open tail loop and between the legs. Keep all interior painted brown, pale and gold surfaces opaque. Remove the straight unrelated page rules at top and bottom, including the rule touching the hind paw; retain only the actual source-visible paw. Preserve source proportions, original hand-painted shape, mottled pigment and fine dark strokes; no recolouring, mirror symmetry, anatomy restoration, new tips, invented lines or modern redraw. Transparent alpha outside and through the real openings.",
+        "retained_generated_ownership_guide": {
+          "file": "tmp/extraction-work/walters-w148-52r--right-facing-brown-quadruped-with-gold-trefoil-in-curled-tail--retained-ai-extraction.png",
+          "sha256": "58ca7cd4aa4b68f3337e89bdd7aef5be094a2cd3ce34d83209e54a20dc9c1274",
+          "purpose": "Retained AI alpha guide only; delivered opaque RGB belongs to the unchanged native source."
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Original/native-detail/white/dark comparisons inspected for all six extremity proofs. Both complete original brown bodies, eyes, ears, mouths, cream patches, paws and curled tails retained. The touching gold trefoil remains with each animal. Green page field and upper/lower page rules are cleared, as are the actual tail/leg openings. Original opaque pigment/gilding and native proportions retained. Source-visible lower paw edge remains source-truncated; no hidden toe or line reconstructed. Continuous native alpha receives the recorded narrow boundary cleanup; no faceted trace or upscale.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/walters14852-two-beasts-reviewed-native-detail-1.png",
+          "tmp/extraction-work/continuation-20261010/walters14852-two-beasts-reviewed-native-detail-2.png",
+          "tmp/extraction-work/continuation-20261010/walters14852-two-beasts-reviewed-native-detail-3.png",
+          "tmp/extraction-work/continuation-20261010/walters14852-two-beasts-reviewed-native-detail-4.png",
+          "tmp/extraction-work/continuation-20261010/walters14852-two-beasts-reviewed-native-detail-5.png",
+          "tmp/extraction-work/continuation-20261010/walters14852-two-beasts-reviewed-native-detail-6.png"
+        ]
+      },
+      "categories": [
+        "animals"
+      ],
+      "subjects": [
+        "quadruped",
+        "tail",
+        "paw",
+        "trefoil"
+      ],
+      "colors": [
+        "brown",
+        "cream",
+        "black",
+        "gold"
+      ],
+      "facing": "right",
+      "composition": "standalone",
+      "usage_notes": "Complete native source-visible quadruped and the contacting gilt trefoil in its curled tail remain one group. The two disconnected creatures are separate assets. Painted cream patches, eye and pale ear are opaque. Source RGB/proportions retained; alpha ownership and narrow edge cleanup are approximate and individually audited. No SVG inferred for textured pigment and gilding.",
+      "sets": [
+        {
+          "id": "walters-w148-52r-set",
+          "name": "Initial \"C\" (Cristus paganis) (walters-w148-52r)",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A right-facing brown long-tailed quadruped with an open mouth, pale body marks and a gold trefoil touching its inward-curled tail.",
+      "set_label": "Initial \"C\" (Cristus paganis) (walters-w148-52r)"
+    }
+  ]
+}

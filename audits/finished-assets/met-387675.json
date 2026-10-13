@@ -1,0 +1,176 @@
+{
+  "source_id": "met-387675",
+  "assets": [
+    {
+      "id": "met-387675--garlanded-grotesque-with-birds-musicians-and-central-mask",
+      "name": "garlanded-grotesque-with-birds-musicians-and-central-mask",
+      "source_id": "met-387675",
+      "source_folder": "met",
+      "asset_type": "decoration",
+      "description": "A tall native grotesque with garlanded upper birds, two musicians, a central winged mask, paired lower figures and narrow original figure friezes.",
+      "source_region": [
+        23,
+        29,
+        2229,
+        3450
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        0,
+        0,
+        2206,
+        3421
+      ],
+      "export_crop_coordinate_space": "reviewed-native-rule-correction-canvas",
+      "width": 2206,
+      "height": 3421,
+      "png": "met/met-387675--garlanded-grotesque-with-birds-musicians-and-central-mask.png",
+      "png_sha256": "0e8c4bcf20d4107913bdcf061dd08ed3f0bad37dee9007b6129600a6a71c27d6",
+      "provenance": {
+        "institution": "Metropolitan Museum of Art",
+        "title": "Grotesque Panel",
+        "object_identifier": "23.34.2(28)",
+        "date": "1562",
+        "artist": "Jacques Androuet Du Cerceau",
+        "record_url": "https://www.metmuseum.org/art/collection/search/387675",
+        "image_rights": "CC0 Open Access; isPublicDomain=true",
+        "rights_url": "https://www.metmuseum.org/policies/image-resources",
+        "source_file": "tmp/new-assets/met/met-387675--grotesque-panel.jpg",
+        "source_sha256": "e74b911019cd57d483a7d342aae79e8dc14c8397e4653a8224ef69b36631370f",
+        "source_metadata": "tmp/new-assets/met/met-387675.json",
+        "image_url": "https://images.metmuseum.org/CRDImages/dp/original/DP213859.jpg",
+        "method": "native-continuous-ink-matting"
+      },
+      "extraction": {
+        "method": "Native-resolution continuous ink coverage after locally measured paper removal; PNG appearance master.",
+        "source_pixels_repainted": false,
+        "source_rgb_modified": "Paper removed by measured ink coverage; RGB is the scan-measured ink tone, not an exact source-pixel crop.",
+        "paper_kernel": 61,
+        "minimum_coverage": 0.2,
+        "minimum_component_pixels": 5,
+        "settings": {
+          "paper_kernel": 61,
+          "paper_kernel_shape": "rectangle",
+          "minimum_coverage": 0.2,
+          "minimum_component_pixels": 5,
+          "minimum_component_peak": 0.55,
+          "minimum_channel_coverage": true,
+          "largest_connected_support_join_radius": 5,
+          "fill_connected_support_interiors": false,
+          "exclude_red_stains": true
+        },
+        "exclude_regions": [],
+        "export_crop": [
+          0,
+          0,
+          2156,
+          3371
+        ],
+        "ink_color": [
+          82,
+          77,
+          66
+        ],
+        "candidate_png": "tmp/extraction-work/todo-fixes-20261012/met-387675--garlanded-grotesque-with-birds-musicians-and-central-mask--completed-plate-candidate.png",
+        "status": "awaiting-native-visual-review",
+        "red_stamp_removal": {
+          "method": "Only source pixels with red exceeding both green and blue by 30 levels excluded as the inspected red collection stamp. Original neutral ink under/around the stamp retained; no missing strokes reconstructed.",
+          "removed_pixels": 9184
+        },
+        "tool": "Native source ink analysis",
+        "source_pixels_redrawn": true,
+        "todo_correction": {
+          "id": "met-387675--garlanded-grotesque-with-birds-musicians-and-central-mask",
+          "candidate": "tmp/extraction-work/todo-fixes-20261012/met-387675--garlanded-grotesque-with-birds-musicians-and-central-mask--completed-plate-candidate.png",
+          "before": "tmp/extraction-work/todo-fixes-20261012/met-387675--garlanded-grotesque-with-birds-musicians-and-central-mask--before.png",
+          "source_region": [
+            23,
+            29,
+            2229,
+            3450
+          ],
+          "original": "tmp/new-assets/met/met-387675--grotesque-panel.jpg",
+          "recovered_sides": [
+            {
+              "side": "top",
+              "source_axis_intercept_in_expanded_region": -0.08839779005524884,
+              "slope": 0.013561024610748368,
+              "observed_original_segment_pixels": 1991,
+              "extent": [
+                15,
+                2191
+              ]
+            }
+          ],
+          "pixels_added_or_strengthened": 21057,
+          "status": "awaiting-original-white-dark-review",
+          "method": "Recover only observed long plate rules from the original scan in a narrow source-fitted native corridor. The input is expanded 25 pixels to include clipped original ink. Source-measured ink color and coverage; no inferred missing side, generic rectangle, artwork rescaling or changed interior pixels.",
+          "rule_repair": {
+            "missing_native_columns_completed": 0,
+            "method": "Only absent/faint outside-rule samples (<65 alpha in five-native-pixel corridor) receive the narrow three-pixel ink cross-section of a nearby surviving original printed rule. Decorative hatching and ornament interiors are unchanged."
+          }
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "finished-only-todo-corrections-20261012",
+        "notes": "Original finite engraved composition retained with its source-supported outside plate rules. Clipped rules recovered from adjacent original scan pixels; faint thin-rule gaps narrowly completed with neighboring native ink profiles where recorded. Decorative hatch bands retain original print wear. No generic replacement frame or repeat is inferred.",
+        "checks": [
+          "actual-original-comparison",
+          "native-scale-and-proportions",
+          "complete-figures-and-ornaments",
+          "source-rule-geometry-and-endpoints",
+          "white-and-dark-backgrounds"
+        ],
+        "evidence": [
+          "tmp/extraction-work/todo-fixes-20261012/met-387675--garlanded-grotesque-with-birds-musicians-and-central-mask--recovered-rules-proof.jpg",
+          "tmp/extraction-work/todo-fixes-20261012/completed-plates-final-review-2.jpg"
+        ]
+      },
+      "categories": [
+        "animals",
+        "humans",
+        "hybrids",
+        "music",
+        "floral"
+      ],
+      "subjects": [
+        "bird",
+        "garland",
+        "musician",
+        "mask",
+        "figure",
+        "frieze"
+      ],
+      "facing": "mixed",
+      "colors": [
+        "brown",
+        "black"
+      ],
+      "composition": "single-ornament",
+      "usage_notes": "Original finite engraved composition retained with its source-supported outside plate rules. Clipped rules recovered from adjacent original scan pixels; faint thin-rule gaps narrowly completed with neighboring native ink profiles where recorded. Decorative hatch bands retain original print wear. No generic replacement frame or repeat is inferred. Finite original decoration; no repeat or corner atlas inferred.",
+      "review_history": [
+        {
+          "status": "accepted",
+          "quality_round": "20261011",
+          "notes": "Native source linework compared in full on source/white/dark. Natural continuous measured ink coverage; no resized hard mask, polygon trace or source stretch. Foreground strokes and props preserved; isolated page specks excluded by connected native support. Red stamp color excluded only where distinguishable from neutral foreground ink. Bare cartouche title removed with individually inspected text-line bounds, leaving the complete original frame. Original faded ink remains faint rather than newly enhanced.",
+          "checks": [
+            "original-source-comparison",
+            "complete-retained-entity",
+            "native-subject-scale",
+            "white-and-dark-backgrounds",
+            "exterior-and-genuine-openings",
+            "fine-props-and-extremities"
+          ],
+          "evidence": [
+            "tmp/extraction-work/continuation-20261010/seven-native-refinement-recipes-proof-1.jpg",
+            "tmp/extraction-work/continuation-20261010/seven-native-refinement-recipes-proof-2.jpg",
+            "tmp/extraction-work/continuation-20261010/cartouche-font-correction-native-proof-1.jpg"
+          ]
+        }
+      ]
+    }
+  ]
+}

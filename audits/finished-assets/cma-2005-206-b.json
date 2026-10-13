@@ -1,0 +1,2392 @@
+{
+  "source_id": "cma-2005-206-b",
+  "assets": [
+    {
+      "id": "cma-2005-206-b--blue-brown-discs-and-diamonds-six-motif-repeat",
+      "name": "blue-brown-discs-and-diamonds-six-motif-repeat",
+      "source_id": "cma-2005-206-b",
+      "source_folder": "cleveland",
+      "asset_type": "border",
+      "description": "Native six-motif manuscript cycle of blue and brown discs and diamonds with gold hatching, on its original gold field. Part of the Office of the Dead dancing devils set.",
+      "source_region": [
+        2113,
+        2938,
+        2844,
+        3081
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        0,
+        0,
+        490,
+        113
+      ],
+      "export_crop_coordinate_space": "source-region",
+      "width": 490,
+      "height": 113,
+      "png": "cleveland/cma-2005-206-b--blue-brown-discs-and-diamonds-six-motif-repeat.png",
+      "png_sha256": "fd30fdee82cc33829bdbc2bef154c0d080869ae10f27ec7188a08efbdecc22bc",
+      "provenance": {
+        "institution": "Cleveland Museum of Art",
+        "title": "Leaf from a Book of Hours: Office of the Dead: Two Devils (verso)",
+        "object_identifier": "2005.206.b",
+        "date": "c. 1460",
+        "artist": "Coëtivy Master (French)",
+        "record_url": "https://clevelandart.org/art/2005.206.b",
+        "image_rights": "CC0; share_license_status=CC0",
+        "rights_url": "https://www.clevelandart.org/open-access",
+        "source_file": "tmp/new-assets/cleveland/cma-2005-206-b--leaf-from-a-book-of-hours-office-of-the-dead-two-devils-verso--master.tif",
+        "source_sha256": "95460394e5a6c2947fef91eaa47c0dd9d8b038169ba47711ba7c3b4f4a812cf1",
+        "source_metadata": "tmp/new-assets/cleveland/cma-2005-206-b.json",
+        "image_url": "https://openaccess-cdn.clevelandart.org/2005.206.b/2005.206.b_full.tif",
+        "method": "native-interior-repeat-with-source-derived-miter-corners"
+      },
+      "extraction": {
+        "candidate_png": "tmp/extraction-work/continuation-20261010/cma-2005-206-b--blue-brown-discs-and-diamonds-six-motif-repeat--native-cycle.png",
+        "export_crop": [
+          0,
+          0,
+          490,
+          113
+        ],
+        "method": "One complete original six-motif cycle, premultiplied-alpha native-scale rigid deskew; no reshaping or upscaling",
+        "native_upscaling": false,
+        "ink_color": null,
+        "original_native_matte_audit": {
+          "candidate_png": "tmp/extraction-work/continuation-20261010/cma-2005-206-b--finite-blue-gold-discs-and-diamonds-line-filler--refined-original-native-candidate.png",
+          "native_export_crop": [
+            0,
+            3,
+            715,
+            130
+          ],
+          "annotation_json": "tmp/extraction-work/continuation-20261010/cma-2005-206-b--finite-blue-gold-discs-and-diamonds-line-filler--refined-original-native-audit.json",
+          "trimap_png": "tmp/extraction-work/continuation-20261010/cma-2005-206-b--finite-blue-gold-discs-and-diamonds-line-filler--refined-original-native-trimap.png",
+          "native_source_size": [
+            731,
+            143
+          ],
+          "export_crop_coordinate_space": "original-native-source-region",
+          "native_refinement": {
+            "method": "Complete original finite illuminated bar including the original black outline/spurs, gilding, blue/rust motifs and painted inner fields. The connected original dark painted perimeter determines ownership; its enclosed original painted area stays opaque. Only exterior parchment and unrelated isolated scan flecks clear. Narrow three-native-pixel source contour fitting, source RGB and native proportions retained. Motif sequence is finite and not falsely turned into a repeat.",
+            "source": "tmp/extraction-work/continuation-20261010/cma-2005-206-b--finite-blue-gold-discs-and-diamonds-line-filler--original.png",
+            "previous_native_matte": {},
+            "unknown_band_native_pixels": 3,
+            "source_rgb_redrawn": false,
+            "source_resized": false,
+            "original_opaque_rgb_preserved": true,
+            "ownership": "tmp/extraction-work/continuation-20261010/cma-2005-206-b--finite-blue-gold-discs-and-diamonds-line-filler--refined-original-native-ownership.png",
+            "ownership_sha256": "3750e60c91cf6f23553183d7d7ba8af4e1dab3b61cfc519ecafee9e5e2325d87",
+            "native_dark_perimeter_detection": "mean(R,G,B)<145; enclosed painted bar filled, external specks excluded"
+          },
+          "status": "awaiting-original-white-dark-review"
+        },
+        "repeat_build": {
+          "unit_png": "tmp/extraction-work/cma-2005-206-b--blue-brown-discs-and-diamonds-six-motif-repeat--unit.png",
+          "bar_png": "tmp/extraction-work/cma-2005-206-b--blue-brown-discs-and-diamonds-six-motif-repeat--bar.png",
+          "frame_png": "tmp/extraction-work/cma-2005-206-b--blue-brown-discs-and-diamonds-six-motif-repeat--frame-atlas.png",
+          "corners": [
+            {
+              "name": "top-left",
+              "png": "tmp/extraction-work/cma-2005-206-b--blue-brown-discs-and-diamonds-six-motif-repeat--corner-top-left.png",
+              "atlas_bounds": [
+                0,
+                0,
+                113,
+                113
+              ]
+            },
+            {
+              "name": "top-right",
+              "png": "tmp/extraction-work/cma-2005-206-b--blue-brown-discs-and-diamonds-six-motif-repeat--corner-top-right.png",
+              "atlas_bounds": [
+                603,
+                0,
+                716,
+                113
+              ]
+            },
+            {
+              "name": "bottom-right",
+              "png": "tmp/extraction-work/cma-2005-206-b--blue-brown-discs-and-diamonds-six-motif-repeat--corner-bottom-right.png",
+              "atlas_bounds": [
+                603,
+                603,
+                716,
+                716
+              ]
+            },
+            {
+              "name": "bottom-left",
+              "png": "tmp/extraction-work/cma-2005-206-b--blue-brown-discs-and-diamonds-six-motif-repeat--corner-bottom-left.png",
+              "atlas_bounds": [
+                0,
+                603,
+                113,
+                716
+              ]
+            }
+          ],
+          "native_unit_size": [
+            490,
+            113
+          ],
+          "atlas_size": [
+            716,
+            716
+          ],
+          "slice_pixels": 113,
+          "slice_percent": 15.782122905027933,
+          "repeat_ratio": 4.336283185840708,
+          "join_adjustment": {
+            "pixels_at_each_end": 2,
+            "method": "average matching source collars; interior columns 2 through width-3 unchanged",
+            "source_cycle_verification": "The finite source shows blue/brown/blue diamonds followed by brown/blue/brown discs, then the next blue/brown diamonds. A full six-motif shape-and-colour cycle is retained. One native cycle repeats; original spacing differs slightly rather than proving pixel-identical cycles."
+          },
+          "corner_method": "Mitered reflections of the exact same native unit, using the repository’s four phase-matched corner geometry. Derived corners are distinct from the original fixed printer-frame corners.",
+          "status": "awaiting-repeat-and-corner-visual-review"
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Full six-motif cycles and native coordinate-grid source compared. Initial partial motif cuts rejected; final phase cuts are in gold gaps after complete glyphs. Unit, five repeats and all four same-source miter corners inspected on white and dark at native scale. Original blue/brown paint, gold hatching and dark perimeter retained. Rigid deskew is audited; source strips remain unchanged. No invented geometric replacement.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/cma5206-finite-glyph-native-coordinate-grid.png",
+          "tmp/extraction-work/continuation-20261010/cma5206-six-motif-corrected-phase-review.jpg",
+          "tmp/extraction-work/continuation-20261010/cma5206-repeat-native-joins-and-four-corners.png"
+        ]
+      },
+      "categories": [
+        "geometric"
+      ],
+      "subjects": [
+        "disc",
+        "diamond",
+        "bar"
+      ],
+      "colors": [
+        "blue",
+        "gold",
+        "brown",
+        "black"
+      ],
+      "facing": "unclear",
+      "composition": "repeat-tile",
+      "usage_notes": "Six original complete hand-drawn motifs, including their original alternating colours and original gold field. Derived strip is deskewed by one rigid rotation at native scale; source whole strip remains unchanged. No upscaling or redrawing. Four same-source miter corners; original hand-drawn spacing varies.",
+      "repeat": {
+        "rationale": "The finite source shows blue/brown/blue diamonds followed by brown/blue/brown discs, then the next blue/brown diamonds. A full six-motif shape-and-colour cycle is retained. One native cycle repeats; original spacing differs slightly rather than proving pixel-identical cycles.",
+        "original_direction": "horizontal",
+        "whole_strip_asset": "cma-2005-206-b--finite-blue-gold-discs-and-diamonds-line-filler",
+        "rigid_deskew_counterclockwise_degrees": 0.4497181404186067,
+        "deskew_affine": [
+          [
+            0.999969196268995,
+            0.00784898166261791,
+            -0.48739800174196873
+          ],
+          [
+            -0.00784898166261791,
+            0.999969196268995,
+            2.807966981304717
+          ]
+        ],
+        "cycle_bounds_in_deskewed_whole_strip": [
+          133,
+          0,
+          623,
+          127
+        ],
+        "native_scale": 1,
+        "motif_sequence": [
+          "brown diamond",
+          "blue diamond",
+          "brown disc",
+          "blue disc",
+          "brown disc",
+          "blue diamond"
+        ],
+        "phase_review": "Native coordinate-grid inspection places both cuts in gold gaps between complete adjacent motifs, after the first blue glyph and after the corresponding next blue glyph. First trial cutting a brown rim and blue diamond tip rejected.",
+        "slice_pixels": 113,
+        "slice_percent": 15.782122905027933,
+        "repeat_ratio": 4.336283185840708,
+        "native_unit_size": [
+          490,
+          113
+        ],
+        "atlas_size": [
+          716,
+          716
+        ],
+        "join_adjustment": {
+          "pixels_at_each_end": 2,
+          "method": "average matching source collars; interior columns 2 through width-3 unchanged",
+          "source_cycle_verification": "The finite source shows blue/brown/blue diamonds followed by brown/blue/brown discs, then the next blue/brown diamonds. A full six-motif shape-and-colour cycle is retained. One native cycle repeats; original spacing differs slightly rather than proving pixel-identical cycles."
+        },
+        "corner_method": "Mitered reflections of the exact same native unit, using the repository’s four phase-matched corner geometry. Derived corners are distinct from the original fixed printer-frame corners."
+      },
+      "components": {
+        "bar": {
+          "png": "cleveland/cma-2005-206-b--blue-brown-discs-and-diamonds-six-motif-repeat--bar.png",
+          "png_sha256": "2c2866222515aac1b0e6debb8465a39f7a6fc57538a1fadd7154d9f417ffd2ac",
+          "width": 2450,
+          "height": 113,
+          "set_id": "cma-2005-206-b--blue-brown-discs-and-diamonds-six-motif-repeat",
+          "set_name": "Office of the Dead dancing devils — blue brown discs and diamonds six motif repeat",
+          "set_role": "bar"
+        },
+        "frame": {
+          "png": "cleveland/cma-2005-206-b--blue-brown-discs-and-diamonds-six-motif-repeat--frame-atlas.png",
+          "png_sha256": "fa92f6b586bf2ac2fa41e785c41aec282f0082895d01adb9d8b40c95976c13ec",
+          "width": 716,
+          "height": 716,
+          "set_id": "cma-2005-206-b--blue-brown-discs-and-diamonds-six-motif-repeat",
+          "set_name": "Office of the Dead dancing devils — blue brown discs and diamonds six motif repeat",
+          "set_role": "frame"
+        },
+        "corner-top-left": {
+          "png": "cleveland/cma-2005-206-b--blue-brown-discs-and-diamonds-six-motif-repeat--corner-top-left.png",
+          "png_sha256": "c5dd814c52c643845b148080d3f8bf572ebdcfe1aba8330ffb975fd9293b53a8",
+          "width": 113,
+          "height": 113,
+          "atlas_bounds": [
+            0,
+            0,
+            113,
+            113
+          ],
+          "method": "Mitered reflections of the exact same native unit, using the repository’s four phase-matched corner geometry. Derived corners are distinct from the original fixed printer-frame corners.",
+          "set_id": "cma-2005-206-b--blue-brown-discs-and-diamonds-six-motif-repeat",
+          "set_name": "Office of the Dead dancing devils — blue brown discs and diamonds six motif repeat",
+          "set_role": "corner-top-left"
+        },
+        "corner-top-right": {
+          "png": "cleveland/cma-2005-206-b--blue-brown-discs-and-diamonds-six-motif-repeat--corner-top-right.png",
+          "png_sha256": "fdb5ee0ea1a181418909b5a562b7ec0c1776afdd117db5db43b4b1b99897c052",
+          "width": 113,
+          "height": 113,
+          "atlas_bounds": [
+            603,
+            0,
+            716,
+            113
+          ],
+          "method": "Mitered reflections of the exact same native unit, using the repository’s four phase-matched corner geometry. Derived corners are distinct from the original fixed printer-frame corners.",
+          "set_id": "cma-2005-206-b--blue-brown-discs-and-diamonds-six-motif-repeat",
+          "set_name": "Office of the Dead dancing devils — blue brown discs and diamonds six motif repeat",
+          "set_role": "corner-top-right"
+        },
+        "corner-bottom-right": {
+          "png": "cleveland/cma-2005-206-b--blue-brown-discs-and-diamonds-six-motif-repeat--corner-bottom-right.png",
+          "png_sha256": "b6db694e07f2c3e2ba417aefb1d49a7b223113cc91979d0fdd765deeee7eef11",
+          "width": 113,
+          "height": 113,
+          "atlas_bounds": [
+            603,
+            603,
+            716,
+            716
+          ],
+          "method": "Mitered reflections of the exact same native unit, using the repository’s four phase-matched corner geometry. Derived corners are distinct from the original fixed printer-frame corners.",
+          "set_id": "cma-2005-206-b--blue-brown-discs-and-diamonds-six-motif-repeat",
+          "set_name": "Office of the Dead dancing devils — blue brown discs and diamonds six motif repeat",
+          "set_role": "corner-bottom-right"
+        },
+        "corner-bottom-left": {
+          "png": "cleveland/cma-2005-206-b--blue-brown-discs-and-diamonds-six-motif-repeat--corner-bottom-left.png",
+          "png_sha256": "30485d0231c0602f3b4a26e511b915890843a66a8a4774dc44ef110854d4b3bd",
+          "width": 113,
+          "height": 113,
+          "atlas_bounds": [
+            0,
+            603,
+            113,
+            716
+          ],
+          "method": "Mitered reflections of the exact same native unit, using the repository’s four phase-matched corner geometry. Derived corners are distinct from the original fixed printer-frame corners.",
+          "set_id": "cma-2005-206-b--blue-brown-discs-and-diamonds-six-motif-repeat",
+          "set_name": "Office of the Dead dancing devils — blue brown discs and diamonds six motif repeat",
+          "set_role": "corner-bottom-left"
+        }
+      },
+      "sets": [
+        {
+          "id": "cma-2005-206-b-set",
+          "name": "Office of the Dead dancing devils",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "Native six-motif manuscript cycle of blue and brown discs and diamonds with gold hatching, on its original gold field.",
+      "set_label": "Office of the Dead dancing devils"
+    },
+    {
+      "id": "cma-2005-206-b--blue-gold-floral-manuscript-frame",
+      "name": "blue-gold-floral-manuscript-frame",
+      "source_id": "cma-2005-206-b",
+      "source_folder": "cleveland",
+      "asset_type": "decoration",
+      "description": "Finite blue and gold floral manuscript frame with green leaves, red and blue flowers, ivy and two figural motifs. Part of the Office of the Dead dancing devils set.",
+      "source_region": [
+        291,
+        200,
+        3531,
+        4469
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        44,
+        23,
+        3220,
+        4197
+      ],
+      "export_crop_coordinate_space": "original-native-source-region",
+      "width": 3176,
+      "height": 4174,
+      "png": "cleveland/cma-2005-206-b--blue-gold-floral-manuscript-frame.png",
+      "png_sha256": "d4b06e02cda09efb90efca197f058a3cc2972444b197a76eb9ded5e7fa39d66b",
+      "provenance": {
+        "institution": "Cleveland Museum of Art",
+        "title": "Leaf from a Book of Hours: Office of the Dead: Two Devils (verso)",
+        "object_identifier": "2005.206.b",
+        "date": "c. 1460",
+        "artist": "Coëtivy Master (French)",
+        "record_url": "https://clevelandart.org/art/2005.206.b",
+        "image_rights": "CC0; share_license_status=CC0",
+        "rights_url": "https://www.clevelandart.org/open-access",
+        "source_file": "tmp/new-assets/cleveland/cma-2005-206-b--leaf-from-a-book-of-hours-office-of-the-dead-two-devils-verso--master.tif",
+        "source_sha256": "95460394e5a6c2947fef91eaa47c0dd9d8b038169ba47711ba7c3b4f4a812cf1",
+        "source_metadata": "tmp/new-assets/cleveland/cma-2005-206-b.json",
+        "image_url": "https://openaccess-cdn.clevelandart.org/2005.206.b/2005.206.b_full.tif",
+        "method": "native-source-continuous-edge-matting"
+      },
+      "extraction": {
+        "candidate_png": "tmp/extraction-work/continuation-20261010/cma-2005-206-b--blue-gold-floral-manuscript-frame--registered-native-candidate.png",
+        "native_export_crop": [
+          44,
+          23,
+          3220,
+          4197
+        ],
+        "export_crop_coordinate_space": "original-native-source-region",
+        "annotation_json": "tmp/extraction-work/continuation-20261010/cma-2005-206-b--blue-gold-floral-manuscript-frame--registered-native-annotation.json",
+        "trimap_png": "tmp/extraction-work/continuation-20261010/cma-2005-206-b--blue-gold-floral-manuscript-frame--registered-native-trimap.png",
+        "native_source_size": [
+          3240,
+          4269
+        ],
+        "native_upscaling": false,
+        "source_pixels_redrawn": false,
+        "original_opaque_rgb_preserved": true,
+        "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+        "alpha_guide": {
+          "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+          "guide_png": "tmp/extraction-work/continuation-20261010/cma-2005-206-b--blue-gold-floral-manuscript-frame--native-alpha-reference.png",
+          "guide_sha256": "144217dfe4eea943dd2b438f3cdec28e4358c00593893d61489f97e6532d7486",
+          "native_original": "tmp/extraction-work/continuation-20261010/cma-2005-206-b--blue-gold-floral-manuscript-frame--original.png",
+          "similarity_ai_alpha_to_original": [
+            [
+              2.9689112170214043,
+              0.0004758769676540661,
+              33.126409523329485
+            ],
+            [
+              -0.0004758769676540661,
+              2.9689112170214043,
+              15.817664131509979
+            ]
+          ],
+          "matching_feature_pairs": 997,
+          "inlier_feature_pairs": 883,
+          "inlier_rms_native_pixels": 4.649671451790716,
+          "source_inspection_factor": 0.42164441321152496,
+          "unknown_edge_band_native_pixels": 14,
+          "edge_solve_tile_size": 640,
+          "edge_solve_halo": 32,
+          "edge_solve_tiles": 40,
+          "original_opaque_rgb_preserved": true
+        },
+        "status": "awaiting-original-white-dark-review",
+        "tool": "Original native scan / closed-form edge alpha and foreground decontamination",
+        "pixel_exact": false
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Original native source colors, texture and source-visible painted detail retained; compared actual original regions and white/dark cutouts. Full human-headed bird and contacting dancing figures retained; no individual overlapping feet. Actual finite original floral frame/L corner and full elongated source leaf tips retained without an invented repeat. Source-derived alpha remains approximate; no source RGB redraw, enlargement or vector faceting. The whole manuscript frame retains its intrinsic painted circular scene, with its figures also supplied separately.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/cleveland-native-first-proof.jpg",
+          "tmp/extraction-work/continuation-20261010/cleveland-native-next-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/cma-2005-206-b--two-dancing-black-horned-figures-with-touching-feet--native-final-reviewed-dark.jpg"
+        ]
+      },
+      "categories": [
+        "floral"
+      ],
+      "subjects": [
+        "frame",
+        "leaf",
+        "flower",
+        "vine",
+        "figure"
+      ],
+      "colors": [
+        "blue",
+        "gold",
+        "green",
+        "red",
+        "black"
+      ],
+      "facing": "unclear",
+      "composition": "single-ornament",
+      "usage_notes": "Original source-visible independent ornament or contacting figure group. No seamless repeat inferred. Exact original source bounds and extraction prompt retained; no unrelated page letters. Source-derived transparency will be reviewed against native scan.",
+      "sets": [
+        {
+          "id": "cma-2005-206-b-set",
+          "name": "Office of the Dead dancing devils",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "Finite blue and gold floral manuscript frame with green leaves, red and blue flowers, ivy and two figural motifs.",
+      "set_label": "Office of the Dead dancing devils"
+    },
+    {
+      "id": "cma-2005-206-b--finite-blue-gold-discs-and-diamonds-line-filler",
+      "name": "finite-blue-gold-discs-and-diamonds-line-filler",
+      "source_id": "cma-2005-206-b",
+      "source_folder": "cleveland",
+      "asset_type": "decoration",
+      "description": "Original finite gold-field manuscript line filler with blue and brown discs and diamonds, gold hatching and a dark perimeter. Part of the Office of the Dead dancing devils set.",
+      "source_region": [
+        2113,
+        2938,
+        2844,
+        3081
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        0,
+        3,
+        715,
+        130
+      ],
+      "export_crop_coordinate_space": "original-native-source-region",
+      "width": 715,
+      "height": 127,
+      "png": "cleveland/cma-2005-206-b--finite-blue-gold-discs-and-diamonds-line-filler.png",
+      "png_sha256": "a4f68696a47360c47665d13937cb88f08f4c0c9cc1feebcb7ec009955fe18968",
+      "provenance": {
+        "institution": "Cleveland Museum of Art",
+        "title": "Leaf from a Book of Hours: Office of the Dead: Two Devils (verso)",
+        "object_identifier": "2005.206.b",
+        "date": "c. 1460",
+        "artist": "Coëtivy Master (French)",
+        "record_url": "https://clevelandart.org/art/2005.206.b",
+        "image_rights": "CC0; share_license_status=CC0",
+        "rights_url": "https://www.clevelandart.org/open-access",
+        "source_file": "tmp/new-assets/cleveland/cma-2005-206-b--leaf-from-a-book-of-hours-office-of-the-dead-two-devils-verso--master.tif",
+        "source_sha256": "95460394e5a6c2947fef91eaa47c0dd9d8b038169ba47711ba7c3b4f4a812cf1",
+        "source_metadata": "tmp/new-assets/cleveland/cma-2005-206-b.json",
+        "image_url": "https://openaccess-cdn.clevelandart.org/2005.206.b/2005.206.b_full.tif",
+        "method": "native-source-continuous-edge-matting"
+      },
+      "extraction": {
+        "candidate_png": "tmp/extraction-work/continuation-20261010/cma-2005-206-b--finite-blue-gold-discs-and-diamonds-line-filler--refined-original-native-candidate.png",
+        "native_export_crop": [
+          0,
+          3,
+          715,
+          130
+        ],
+        "annotation_json": "tmp/extraction-work/continuation-20261010/cma-2005-206-b--finite-blue-gold-discs-and-diamonds-line-filler--refined-original-native-audit.json",
+        "trimap_png": "tmp/extraction-work/continuation-20261010/cma-2005-206-b--finite-blue-gold-discs-and-diamonds-line-filler--refined-original-native-trimap.png",
+        "native_source_size": [
+          731,
+          143
+        ],
+        "export_crop_coordinate_space": "original-native-source-region",
+        "native_refinement": {
+          "method": "Complete original finite illuminated bar including the original black outline/spurs, gilding, blue/rust motifs and painted inner fields. The connected original dark painted perimeter determines ownership; its enclosed original painted area stays opaque. Only exterior parchment and unrelated isolated scan flecks clear. Narrow three-native-pixel source contour fitting, source RGB and native proportions retained. Motif sequence is finite and not falsely turned into a repeat.",
+          "source": "tmp/extraction-work/continuation-20261010/cma-2005-206-b--finite-blue-gold-discs-and-diamonds-line-filler--original.png",
+          "previous_native_matte": {},
+          "unknown_band_native_pixels": 3,
+          "source_rgb_redrawn": false,
+          "source_resized": false,
+          "original_opaque_rgb_preserved": true,
+          "ownership": "tmp/extraction-work/continuation-20261010/cma-2005-206-b--finite-blue-gold-discs-and-diamonds-line-filler--refined-original-native-ownership.png",
+          "ownership_sha256": "3750e60c91cf6f23553183d7d7ba8af4e1dab3b61cfc519ecafee9e5e2325d87",
+          "native_dark_perimeter_detection": "mean(R,G,B)<145; enclosed painted bar filled, external specks excluded"
+        },
+        "status": "awaiting-original-white-dark-review",
+        "tool": "Original native scan / closed-form edge alpha and foreground decontamination",
+        "pixel_exact": false
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Inspected the untouched source and transparent results on white and dark backgrounds at native pixel scale. Complete painted fields, original irregular ink perimeters, hatching and pale chevrons retained. Exterior parchment/gilt is cleared without cutting pale motif strokes. No scaling or inferred glyph reconstruction.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/walters-w171-10r--blue-inlay-with-white-opposed-chevron-chain--native-100-final.png",
+          "tmp/extraction-work/continuation-20261010/walters-w171-10r--pink-inlay-with-white-opposed-chevron-chain--native-100-final.png",
+          "tmp/extraction-work/continuation-20261010/cma-2005-206-a--finite-gold-foliate-wave-on-blue-line-filler--native-100-final.png",
+          "tmp/extraction-work/continuation-20261010/cma-2005-206-a--finite-blue-gold-discs-and-paired-diamonds-line-filler--native-100-final.png",
+          "tmp/extraction-work/continuation-20261010/cma-2005-206-b--finite-blue-gold-discs-and-diamonds-line-filler--native-100-final.png"
+        ]
+      },
+      "categories": [
+        "geometric"
+      ],
+      "subjects": [
+        "disc",
+        "diamond",
+        "bar"
+      ],
+      "colors": [
+        "blue",
+        "gold",
+        "brown",
+        "black"
+      ],
+      "facing": "unclear",
+      "composition": "standalone",
+      "usage_notes": "Original finite strip with hand-drawn spacing. Its six-motif colour-and-shape cycle is identifiable; a separate repeating unit is being prepared. Gold fields and brown, blue and black paint are integral; exterior parchment is transparent.",
+      "sets": [
+        {
+          "id": "cma-2005-206-b-set",
+          "name": "Office of the Dead dancing devils",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "Original finite gold-field manuscript line filler with blue and brown discs and diamonds, gold hatching and a dark perimeter.",
+      "set_label": "Office of the Dead dancing devils"
+    },
+    {
+      "id": "cma-2005-206-b--human-headed-bird-with-curved-gold-neck-and-brown-wings",
+      "name": "human-headed-bird-with-curved-gold-neck-and-brown-wings",
+      "source_id": "cma-2005-206-b",
+      "source_folder": "cleveland",
+      "asset_type": "illustration",
+      "description": "Bearded human-headed bird with a curved gold neck and brown gold-hatched wings and pointed tails. Part of the Office of the Dead dancing devils set.",
+      "source_region": [
+        1766,
+        3444,
+        2635,
+        4159
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        113,
+        144,
+        714,
+        613
+      ],
+      "export_crop_coordinate_space": "original-native-source-region",
+      "width": 601,
+      "height": 469,
+      "png": "cleveland/cma-2005-206-b--human-headed-bird-with-curved-gold-neck-and-brown-wings.png",
+      "png_sha256": "166830c7ef07d992d3d85f61623a1dcba5ae733498e0e141f6a893bf75378dd5",
+      "provenance": {
+        "institution": "Cleveland Museum of Art",
+        "title": "Leaf from a Book of Hours: Office of the Dead: Two Devils (verso)",
+        "object_identifier": "2005.206.b",
+        "date": "c. 1460",
+        "artist": "Coëtivy Master (French)",
+        "record_url": "https://clevelandart.org/art/2005.206.b",
+        "image_rights": "CC0; share_license_status=CC0",
+        "rights_url": "https://www.clevelandart.org/open-access",
+        "source_file": "tmp/new-assets/cleveland/cma-2005-206-b--leaf-from-a-book-of-hours-office-of-the-dead-two-devils-verso--master.tif",
+        "source_sha256": "95460394e5a6c2947fef91eaa47c0dd9d8b038169ba47711ba7c3b4f4a812cf1",
+        "source_metadata": "tmp/new-assets/cleveland/cma-2005-206-b.json",
+        "image_url": "https://openaccess-cdn.clevelandart.org/2005.206.b/2005.206.b_full.tif",
+        "method": "native-source-continuous-edge-matting"
+      },
+      "extraction": {
+        "candidate_png": "tmp/extraction-work/continuation-20261010/cma-2005-206-b--human-headed-bird-with-curved-gold-neck-and-brown-wings--registered-native-candidate.png",
+        "native_export_crop": [
+          113,
+          144,
+          714,
+          613
+        ],
+        "export_crop_coordinate_space": "original-native-source-region",
+        "annotation_json": "tmp/extraction-work/continuation-20261010/cma-2005-206-b--human-headed-bird-with-curved-gold-neck-and-brown-wings--registered-native-annotation.json",
+        "trimap_png": "tmp/extraction-work/continuation-20261010/cma-2005-206-b--human-headed-bird-with-curved-gold-neck-and-brown-wings--registered-native-trimap.png",
+        "native_source_size": [
+          869,
+          715
+        ],
+        "native_upscaling": false,
+        "source_pixels_redrawn": false,
+        "original_opaque_rgb_preserved": true,
+        "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+        "alpha_guide": {
+          "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+          "guide_png": "tmp/extraction-work/continuation-20261010/cma-2005-206-b--human-headed-bird-with-curved-gold-neck-and-brown-wings--native-alpha-reference.png",
+          "guide_sha256": "e9ba2fc37c7700976b03e33760356dac38b487915c98db5f4967eb433676a1e4",
+          "native_original": "tmp/extraction-work/continuation-20261010/cma-2005-206-b--human-headed-bird-with-curved-gold-neck-and-brown-wings--original.png",
+          "similarity_ai_alpha_to_original": [
+            [
+              0.6801881594478988,
+              0.015103431586451907,
+              111.43741975459606
+            ],
+            [
+              -0.015103431586451907,
+              0.6801881594478988,
+              153.30222906210844
+            ]
+          ],
+          "matching_feature_pairs": 99,
+          "inlier_feature_pairs": 58,
+          "inlier_rms_native_pixels": 2.1742237472384263,
+          "source_inspection_factor": 1,
+          "unknown_edge_band_native_pixels": 6,
+          "edge_solve_tile_size": 640,
+          "edge_solve_halo": 32,
+          "edge_solve_tiles": 2,
+          "original_opaque_rgb_preserved": true
+        },
+        "status": "awaiting-original-white-dark-review",
+        "tool": "Original native scan / closed-form edge alpha and foreground decontamination",
+        "pixel_exact": false
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Original native source colors, texture and source-visible painted detail retained; compared actual original regions and white/dark cutouts. Full human-headed bird and contacting dancing figures retained; no individual overlapping feet. Actual finite original floral frame/L corner and full elongated source leaf tips retained without an invented repeat. Source-derived alpha remains approximate; no source RGB redraw, enlargement or vector faceting. The whole manuscript frame retains its intrinsic painted circular scene, with its figures also supplied separately.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/cleveland-native-first-proof.jpg",
+          "tmp/extraction-work/continuation-20261010/cleveland-native-next-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/cma-2005-206-b--two-dancing-black-horned-figures-with-touching-feet--native-final-reviewed-dark.jpg"
+        ]
+      },
+      "categories": [
+        "fantasy"
+      ],
+      "subjects": [
+        "bird",
+        "head",
+        "wing",
+        "tail"
+      ],
+      "colors": [
+        "brown",
+        "gold"
+      ],
+      "facing": "unclear",
+      "composition": "standalone",
+      "usage_notes": "Original source-visible independent ornament or contacting figure group. No seamless repeat inferred. Exact original source bounds and extraction prompt retained; no unrelated page letters. Source-derived transparency will be reviewed against native scan.",
+      "sets": [
+        {
+          "id": "cma-2005-206-b-set",
+          "name": "Office of the Dead dancing devils",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "Bearded human-headed bird with a curved gold neck and brown gold-hatched wings and pointed tails.",
+      "set_label": "Office of the Dead dancing devils"
+    },
+    {
+      "id": "cma-2005-206-b--two-dancing-black-horned-figures-with-touching-feet",
+      "name": "two-dancing-black-horned-figures-with-touching-feet",
+      "source_id": "cma-2005-206-b",
+      "source_folder": "cleveland",
+      "asset_type": "illustration",
+      "description": "Two black horned dancing figures with gold hatching, raised hands and touching feet. Part of the Office of the Dead dancing devils set.",
+      "source_region": [
+        469,
+        1719,
+        1266,
+        2538
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        102,
+        104,
+        709,
+        776
+      ],
+      "export_crop_coordinate_space": "source-region",
+      "width": 607,
+      "height": 672,
+      "png": "cleveland/cma-2005-206-b--two-dancing-black-horned-figures-with-touching-feet.png",
+      "png_sha256": "865a6aa4274aa8b7fb6dd9f94c2bd072dc9302dfc8d0bfb481f1fd2066095a4e",
+      "provenance": {
+        "institution": "Cleveland Museum of Art",
+        "title": "Leaf from a Book of Hours: Office of the Dead: Two Devils (verso)",
+        "object_identifier": "2005.206.b",
+        "date": "c. 1460",
+        "artist": "Coëtivy Master (French)",
+        "record_url": "https://clevelandart.org/art/2005.206.b",
+        "image_rights": "CC0; share_license_status=CC0",
+        "rights_url": "https://www.clevelandart.org/open-access",
+        "source_file": "tmp/new-assets/cleveland/cma-2005-206-b--leaf-from-a-book-of-hours-office-of-the-dead-two-devils-verso--master.tif",
+        "source_sha256": "95460394e5a6c2947fef91eaa47c0dd9d8b038169ba47711ba7c3b4f4a812cf1",
+        "source_metadata": "tmp/new-assets/cleveland/cma-2005-206-b.json",
+        "image_url": "https://openaccess-cdn.clevelandart.org/2005.206.b/2005.206.b_full.tif",
+        "method": "native-source-continuous-edge-matting"
+      },
+      "extraction": {
+        "candidate_png": "tmp/extraction-work/continuation-20261010/cma-2005-206-b--two-dancing-black-horned-figures-with-touching-feet--native-final-reviewed.png",
+        "native_export_crop": [
+          102,
+          104,
+          709,
+          776
+        ],
+        "annotation_json": "tmp/extraction-work/continuation-20261010/cma-2005-206-b--two-dancing-black-horned-figures-with-touching-feet--native-semantic-annotation.json",
+        "trimap_png": "tmp/extraction-work/continuation-20261010/cma-2005-206-b--two-dancing-black-horned-figures-with-touching-feet--native-semantic-trimap.png",
+        "native_upscaling": false,
+        "source_pixels_redrawn": false,
+        "original_opaque_rgb_preserved": true,
+        "native_source_size": [
+          797,
+          819
+        ],
+        "unknown_contour_band_native_pixels": 3,
+        "rotation_method": "Source orientation retained",
+        "method": "SAM 2.1 semantic ownership guide applied only to native alpha; complete opaque original painted surfaces and exact opaque source RGB retained. Closed-form continuous native edge matting; no source upscaling, redraw, restored anatomy, or vector approximation.",
+        "semantic_body_guide": {
+          "prompts_native_pixels": [
+            {
+              "positive": [
+                [
+                  220.0,
+                  220.0
+                ],
+                [
+                  215.0,
+                  137.0
+                ],
+                [
+                  274.0,
+                  137.0
+                ],
+                [
+                  230.0,
+                  370.0
+                ],
+                [
+                  250.00000000000003,
+                  460.0
+                ],
+                [
+                  174.0,
+                  637.0
+                ],
+                [
+                  316.0,
+                  666.0
+                ],
+                [
+                  338.0,
+                  292.0
+                ],
+                [
+                  190.0,
+                  245.0
+                ]
+              ],
+              "negative": [
+                [
+                  150.0,
+                  320.0
+                ],
+                [
+                  375.0,
+                  430.0
+                ],
+                [
+                  315.0,
+                  140.0
+                ],
+                [
+                  100.00000000000001,
+                  700.0
+                ]
+              ],
+              "box": [
+                115.565,
+                98.28,
+                406.47,
+                769.8599999999999
+              ],
+              "mask_choice": 2
+            },
+            {
+              "positive": [
+                [
+                  479.99999999999994,
+                  215.0
+                ],
+                [
+                  486.0,
+                  341.0
+                ],
+                [
+                  500.00000000000006,
+                  450.00000000000006
+                ],
+                [
+                  525.0,
+                  507.0
+                ],
+                [
+                  597.0,
+                  540.0
+                ],
+                [
+                  556.0,
+                  662.0
+                ],
+                [
+                  671.0,
+                  310.0
+                ],
+                [
+                  469.0,
+                  128.0
+                ],
+                [
+                  496.0,
+                  151.0
+                ],
+                [
+                  387.0,
+                  705.0
+                ]
+              ],
+              "negative": [
+                [
+                  595.0,
+                  200.0
+                ],
+                [
+                  710.0,
+                  400.0
+                ],
+                [
+                  660.0,
+                  585.0
+                ],
+                [
+                  380.0,
+                  450.00000000000006
+                ]
+              ],
+              "box": [
+                354.665,
+                94.185,
+                709.33,
+                769.8599999999999
+              ],
+              "mask_choice": 2
+            }
+          ],
+          "normalized_prompts": [
+            {
+              "positive": [
+                [
+                  0.27603513174404015,
+                  0.2686202686202686
+                ],
+                [
+                  0.2697616060225847,
+                  0.16727716727716727
+                ],
+                [
+                  0.3437892095357591,
+                  0.16727716727716727
+                ],
+                [
+                  0.28858218318695106,
+                  0.4517704517704518
+                ],
+                [
+                  0.3136762860727729,
+                  0.5616605616605617
+                ],
+                [
+                  0.21831869510664995,
+                  0.7777777777777778
+                ],
+                [
+                  0.39648682559598497,
+                  0.8131868131868132
+                ],
+                [
+                  0.424090338770389,
+                  0.35653235653235654
+                ],
+                [
+                  0.2383939774153074,
+                  0.29914529914529914
+                ]
+              ],
+              "negative": [
+                [
+                  0.18820577164366373,
+                  0.3907203907203907
+                ],
+                [
+                  0.47051442910915936,
+                  0.525030525030525
+                ],
+                [
+                  0.39523212045169387,
+                  0.17094017094017094
+                ],
+                [
+                  0.12547051442910917,
+                  0.8547008547008547
+                ]
+              ],
+              "box": [
+                0.145,
+                0.12,
+                0.51,
+                0.94
+              ]
+            },
+            {
+              "positive": [
+                [
+                  0.6022584692597239,
+                  0.2625152625152625
+                ],
+                [
+                  0.6097867001254705,
+                  0.4163614163614164
+                ],
+                [
+                  0.6273525721455459,
+                  0.5494505494505495
+                ],
+                [
+                  0.6587202007528231,
+                  0.6190476190476191
+                ],
+                [
+                  0.7490589711417817,
+                  0.6593406593406593
+                ],
+                [
+                  0.6976160602258469,
+                  0.8083028083028083
+                ],
+                [
+                  0.8419071518193224,
+                  0.3785103785103785
+                ],
+                [
+                  0.588456712672522,
+                  0.1562881562881563
+                ],
+                [
+                  0.6223337515683814,
+                  0.18437118437118438
+                ],
+                [
+                  0.48557089084065247,
+                  0.8608058608058609
+                ]
+              ],
+              "negative": [
+                [
+                  0.7465495608531995,
+                  0.2442002442002442
+                ],
+                [
+                  0.890840652446675,
+                  0.4884004884004884
+                ],
+                [
+                  0.8281053952321205,
+                  0.7142857142857143
+                ],
+                [
+                  0.4767879548306148,
+                  0.5494505494505495
+                ]
+              ],
+              "box": [
+                0.445,
+                0.115,
+                0.89,
+                0.94
+              ]
+            }
+          ],
+          "scores": [
+            [
+              0.7770382165908813,
+              0.5400257706642151,
+              0.8588129878044128
+            ],
+            [
+              0.8070676326751709,
+              0.5338361859321594,
+              0.8771337270736694
+            ]
+          ],
+          "ownership_scope_polygons": null,
+          "checkpoint": "tmp/sam2.1_hiera_base_plus.pt",
+          "checkpoint_sha256": "a2345aede8715ab1d5d31b4a509fb160c5a4af1970f199d9054ccfb746c004c5",
+          "unknown_band_native_pixels": 3,
+          "rotation_clockwise": 0,
+          "method": "SAM 2.1 semantic ownership guide applied only to native alpha; complete opaque original painted surfaces and exact opaque source RGB retained. Closed-form continuous native edge matting; no source upscaling, redraw, restored anatomy, or vector approximation."
+        },
+        "status": "awaiting-native-source-white-dark-review",
+        "exterior_cleanup": "Removed unrelated disconnected gold-ground twigs and specks; ownership constrained to within eight native pixels of the original registered subject guide. Native original painted horns, fingers, toe tips, gold hatching and touching feet retained. No isolated individual figures exported.",
+        "tool": "Original native scan / closed-form edge alpha and foreground decontamination",
+        "pixel_exact": false
+      },
+      "parent": "cma-2005-206-b--two-dancing-devils-in-gold-landscape-oval",
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Original native source colors, texture and source-visible painted detail retained; compared actual original regions and white/dark cutouts. Full human-headed bird and contacting dancing figures retained; no individual overlapping feet. Actual finite original floral frame/L corner and full elongated source leaf tips retained without an invented repeat. Source-derived alpha remains approximate; no source RGB redraw, enlargement or vector faceting. The whole manuscript frame retains its intrinsic painted circular scene, with its figures also supplied separately.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/cleveland-native-first-proof.jpg",
+          "tmp/extraction-work/continuation-20261010/cleveland-native-next-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/cma-2005-206-b--two-dancing-black-horned-figures-with-touching-feet--native-final-reviewed-dark.jpg"
+        ]
+      },
+      "categories": [
+        "fantasy"
+      ],
+      "subjects": [
+        "figure",
+        "horn",
+        "hand",
+        "foot"
+      ],
+      "colors": [
+        "black",
+        "gold"
+      ],
+      "facing": "unclear",
+      "composition": "standalone",
+      "usage_notes": "Original source-visible independent ornament or contacting figure group. No seamless repeat inferred. Exact original source bounds and extraction prompt retained; no unrelated page letters. Source-derived transparency will be reviewed against native scan.",
+      "sets": [
+        {
+          "id": "cma-2005-206-b-set",
+          "name": "Office of the Dead dancing devils",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "Two black horned dancing figures with gold hatching, raised hands and touching feet.",
+      "set_label": "Office of the Dead dancing devils"
+    },
+    {
+      "id": "cma-2005-206-b--two-dancing-devils-in-gold-landscape-oval",
+      "name": "two-dancing-devils-in-gold-landscape-oval",
+      "source_id": "cma-2005-206-b",
+      "source_folder": "cleveland",
+      "asset_type": "illustration",
+      "description": "Two contacting dancing black horned figures in their original gold-edged oval landscape, with blue sky, green trees and ground. Part of the Office of the Dead dancing devils set.",
+      "source_region": [
+        344,
+        1697,
+        1234,
+        2589
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        0,
+        17,
+        870,
+        872
+      ],
+      "export_crop_coordinate_space": "original-native-source-region",
+      "width": 870,
+      "height": 855,
+      "png": "cleveland/cma-2005-206-b--two-dancing-devils-in-gold-landscape-oval.png",
+      "png_sha256": "9d3a554903307d8057ecf03265254589ac22b447bcdd12dee88befbb5b779050",
+      "provenance": {
+        "institution": "Cleveland Museum of Art",
+        "title": "Leaf from a Book of Hours: Office of the Dead: Two Devils (verso)",
+        "object_identifier": "2005.206.b",
+        "date": "c. 1460",
+        "artist": "Coëtivy Master (French)",
+        "record_url": "https://clevelandart.org/art/2005.206.b",
+        "image_rights": "CC0; share_license_status=CC0",
+        "rights_url": "https://www.clevelandart.org/open-access",
+        "source_file": "tmp/new-assets/cleveland/cma-2005-206-b--leaf-from-a-book-of-hours-office-of-the-dead-two-devils-verso--master.tif",
+        "source_sha256": "95460394e5a6c2947fef91eaa47c0dd9d8b038169ba47711ba7c3b4f4a812cf1",
+        "source_metadata": "tmp/new-assets/cleveland/cma-2005-206-b.json",
+        "image_url": "https://openaccess-cdn.clevelandart.org/2005.206.b/2005.206.b_full.tif",
+        "method": "native-source-continuous-edge-matting"
+      },
+      "extraction": {
+        "method": "Original source scene boundary only",
+        "native_upscaling": false,
+        "candidate_png": "tmp/extraction-work/continuation-20261010/cma-2005-206-b--two-dancing-devils-in-gold-landscape-oval--refined-original-native-candidate.png",
+        "native_export_crop": [
+          0,
+          17,
+          870,
+          872
+        ],
+        "annotation_json": "tmp/extraction-work/continuation-20261010/cma-2005-206-b--two-dancing-devils-in-gold-landscape-oval--refined-original-native-audit.json",
+        "trimap_png": "tmp/extraction-work/continuation-20261010/cma-2005-206-b--two-dancing-devils-in-gold-landscape-oval--refined-original-native-trimap.png",
+        "native_source_size": [
+          890,
+          892
+        ],
+        "export_crop_coordinate_space": "original-native-source-region",
+        "native_refinement": {
+          "method": "Original lower-right gold endpoints are continuously fitted over nineteen native rows for ownership only, then a six-native-pixel closed-form colour edge solve follows the original photograph. This replaces the hard row endpoint clipping of the prior private trial. Original RGB and original gilt texture remain untouched; no upscaling, new gilt, or shape redraw. Exterior flowers/paper are excluded, original scene and entire visible golden rim retained.",
+          "source": "tmp/extraction-work/continuation-20261010/cma-2005-206-b--two-dancing-devils-in-gold-landscape-oval--complete-original.png",
+          "previous_native_matte": {
+            "method": "Original source scene boundary only",
+            "native_upscaling": false,
+            "candidate_png": "tmp/extraction-work/continuation-20261010/cma-2005-206-b--two-dancing-devils-in-gold-landscape-oval--refined-original-native-candidate.png",
+            "native_export_crop": [
+              12,
+              20,
+              867,
+              869
+            ],
+            "annotation_json": "tmp/extraction-work/continuation-20261010/cma-2005-206-b--two-dancing-devils-in-gold-landscape-oval--refined-original-native-audit.json",
+            "trimap_png": "tmp/extraction-work/continuation-20261010/cma-2005-206-b--two-dancing-devils-in-gold-landscape-oval--refined-original-native-trimap.png",
+            "native_source_size": [
+              890,
+              892
+            ],
+            "export_crop_coordinate_space": "original-native-source-region",
+            "native_refinement": {
+              "method": "Native source gold rim measured along the inspected lower-right boundary: near the manually inspected source silhouette, rightmost contiguous gold pigment (>=5 native pixels) establishes the paint endpoint. Nine-row ownership median only removes isolated paper/floral flecks; the actual original paint RGB is unchanged. Two native pixels retain the dark outer contour before three-pixel edge matting. Exterior paper and adjacent red flower excluded, complete original gold rim and landscape opaque.",
+              "source": "tmp/extraction-work/continuation-20261010/cma-2005-206-b--two-dancing-devils-in-gold-landscape-oval--complete-original.png",
+              "previous_native_matte": {
+                "method": "Original source scene boundary only",
+                "native_upscaling": false,
+                "candidate_png": "tmp/extraction-work/continuation-20261010/cma-2005-206-b--two-dancing-devils-in-gold-landscape-oval--refined-original-native-candidate.png",
+                "native_export_crop": [
+                  7,
+                  15,
+                  871,
+                  874
+                ],
+                "annotation_json": "tmp/extraction-work/continuation-20261010/cma-2005-206-b--two-dancing-devils-in-gold-landscape-oval--refined-original-native-audit.json",
+                "trimap_png": "tmp/extraction-work/continuation-20261010/cma-2005-206-b--two-dancing-devils-in-gold-landscape-oval--refined-original-native-trimap.png",
+                "native_source_size": [
+                  890,
+                  892
+                ],
+                "export_crop_coordinate_space": "original-native-source-region",
+                "native_refinement": {
+                  "method": "Complete original gilded oval follows source perimeter landmarks read from the native coordinate grid, including the asymmetric lower-right curvature. Eight-native-pixel continuous edge matting preserves the actual original gilt contour and paint transitions. Full original landscape is opaque; manuscript flora/paper outside excluded. No RGB or anatomy redraw or source resize.",
+                  "source": "tmp/extraction-work/continuation-20261010/cma-2005-206-b--two-dancing-devils-in-gold-landscape-oval--complete-original.png",
+                  "previous_native_matte": {
+                    "method": "Original source scene boundary only",
+                    "native_upscaling": false,
+                    "candidate_png": "tmp/extraction-work/continuation-20261010/cma-2005-206-b--two-dancing-devils-in-gold-landscape-oval--refined-original-native-candidate.png",
+                    "native_export_crop": [
+                      7,
+                      14,
+                      869,
+                      881
+                    ],
+                    "annotation_json": "tmp/extraction-work/continuation-20261010/cma-2005-206-b--two-dancing-devils-in-gold-landscape-oval--refined-original-native-audit.json",
+                    "trimap_png": "tmp/extraction-work/continuation-20261010/cma-2005-206-b--two-dancing-devils-in-gold-landscape-oval--refined-original-native-trimap.png",
+                    "native_source_size": [
+                      890,
+                      892
+                    ],
+                    "export_crop_coordinate_space": "original-native-source-region",
+                    "native_refinement": {
+                      "method": "Original gilded oval exterior follows individually inspected source boundary landmarks, with a twelve-native-pixel closed-form edge solve matching actual paint/paper transitions. Continuous spline is ownership only, not a redrawn golden ellipse. Whole original landscape and original gold perimeter are opaque. No source scaling, smoothing of original RGB or alteration of anatomy. Both earlier automatic candidates rejected for cutting the gold rim or admitting neighboring floral paint.",
+                      "source": "tmp/extraction-work/continuation-20261010/cma-2005-206-b--two-dancing-devils-in-gold-landscape-oval--complete-original.png",
+                      "previous_native_matte": {
+                        "method": "Original source scene boundary only",
+                        "native_upscaling": false,
+                        "candidate_png": "tmp/extraction-work/continuation-20261010/cma-2005-206-b--two-dancing-devils-in-gold-landscape-oval--refined-original-native-candidate.png",
+                        "native_export_crop": [
+                          4,
+                          0,
+                          850,
+                          878
+                        ],
+                        "annotation_json": "tmp/extraction-work/continuation-20261010/cma-2005-206-b--two-dancing-devils-in-gold-landscape-oval--refined-original-native-audit.json",
+                        "trimap_png": "tmp/extraction-work/continuation-20261010/cma-2005-206-b--two-dancing-devils-in-gold-landscape-oval--refined-original-native-trimap.png",
+                        "native_source_size": [
+                          850,
+                          878
+                        ],
+                        "export_crop_coordinate_space": "original-native-source-region",
+                        "native_refinement": {
+                          "method": "Whole original painted landscape oval: source blue/gold pigment establishes its actual perimeter, with complete interior scene opaque. Largest source pigment island filled through the landscape; ellipse is only a loose exterior exclusion, never a drawn perimeter. Initial GrabCut candidate cutting the original gold rim rejected. Three-native-pixel continuous edge alpha, native original RGB unscaled.",
+                          "source": "tmp/extraction-work/continuation-20261010/cma-2005-206-b--two-dancing-devils-in-gold-landscape-oval--original.png",
+                          "previous_native_matte": {
+                            "method": "Original source scene boundary only",
+                            "native_upscaling": false,
+                            "candidate_png": "tmp/extraction-work/continuation-20261010/cma-2005-206-b--two-dancing-devils-in-gold-landscape-oval--refined-original-native-candidate.png",
+                            "native_export_crop": [
+                              15,
+                              5,
+                              848,
+                              873
+                            ],
+                            "annotation_json": "tmp/extraction-work/continuation-20261010/cma-2005-206-b--two-dancing-devils-in-gold-landscape-oval--refined-original-native-audit.json",
+                            "trimap_png": "tmp/extraction-work/continuation-20261010/cma-2005-206-b--two-dancing-devils-in-gold-landscape-oval--refined-original-native-trimap.png",
+                            "native_source_size": [
+                              850,
+                              878
+                            ],
+                            "export_crop_coordinate_space": "original-native-source-region",
+                            "native_refinement": {
+                              "method": "Original oval painted scene is opaque. Ellipse only seeds native foreground/background ownership; native source pigment boundaries determine the actual irregular perimeter. GrabCut and three-native-pixel closed-form edge matting; no geometric oval is redrawn. Interior lettering belongs to the original painted scene and is retained. Exterior manuscript parchment, berries and flowers excluded.",
+                              "source": "tmp/extraction-work/continuation-20261010/cma-2005-206-b--two-dancing-devils-in-gold-landscape-oval--original.png",
+                              "previous_native_matte": {
+                                "method": "Original source scene boundary only",
+                                "native_upscaling": false
+                              },
+                              "unknown_band_native_pixels": 3,
+                              "source_rgb_redrawn": false,
+                              "source_resized": false,
+                              "original_opaque_rgb_preserved": true,
+                              "ownership": "tmp/extraction-work/continuation-20261010/cma-2005-206-b--two-dancing-devils-in-gold-landscape-oval--refined-original-native-ownership.png",
+                              "ownership_sha256": "f8367865bcc5145cb0baee2132cd4e1535b6a7f4bf935fbc352fe97833c8c414",
+                              "ownership_seed_ellipse": {
+                                "center": [
+                                  433,
+                                  444
+                                ],
+                                "radii": [
+                                  410,
+                                  418
+                                ]
+                              },
+                              "native_grabcut_iterations": 5
+                            },
+                            "status": "awaiting-original-white-dark-review"
+                          },
+                          "unknown_band_native_pixels": 3,
+                          "source_rgb_redrawn": false,
+                          "source_resized": false,
+                          "original_opaque_rgb_preserved": true,
+                          "ownership": "tmp/extraction-work/continuation-20261010/cma-2005-206-b--two-dancing-devils-in-gold-landscape-oval--refined-original-native-ownership.png",
+                          "ownership_sha256": "e20ae0116a7115507de3701c9df98e8d3a0de107a2ab30ccc10e0ef693301cd4",
+                          "native_blue_gold_pigment_guide": "G-B>25,R-G>0 OR B-R>0,B-G>-4; loose ellipse<=1.15, definite original scene interior<=.77",
+                          "closing_native_pixels": 3
+                        },
+                        "status": "awaiting-original-white-dark-review"
+                      },
+                      "unknown_band_native_pixels": 12,
+                      "source_rgb_redrawn": false,
+                      "source_resized": false,
+                      "original_opaque_rgb_preserved": true,
+                      "ownership": "tmp/extraction-work/continuation-20261010/cma-2005-206-b--two-dancing-devils-in-gold-landscape-oval--refined-original-native-ownership.png",
+                      "ownership_sha256": "6ee77d7bbb3c895252386a84e73fee37e8d5b17c7b3875b079ac77d70e1b71b7",
+                      "source_boundary_landmarks_native": [
+                        [
+                          429.0,
+                          30.0
+                        ],
+                        [
+                          313.0,
+                          46.0
+                        ],
+                        [
+                          233.0,
+                          74.0
+                        ],
+                        [
+                          164.0,
+                          124.0
+                        ],
+                        [
+                          105.0,
+                          203.0
+                        ],
+                        [
+                          58.0,
+                          293.0
+                        ],
+                        [
+                          30.0,
+                          395.0
+                        ],
+                        [
+                          26.0,
+                          499.0
+                        ],
+                        [
+                          44.0,
+                          608.0
+                        ],
+                        [
+                          88.0,
+                          703.0
+                        ],
+                        [
+                          155.0,
+                          777.0
+                        ],
+                        [
+                          237.0,
+                          826.0
+                        ],
+                        [
+                          335.0,
+                          853.0
+                        ],
+                        [
+                          430.0,
+                          864.0
+                        ],
+                        [
+                          538.0,
+                          854.0
+                        ],
+                        [
+                          635.0,
+                          823.0
+                        ],
+                        [
+                          717.0,
+                          767.0
+                        ],
+                        [
+                          783.0,
+                          690.0
+                        ],
+                        [
+                          827.0,
+                          592.0
+                        ],
+                        [
+                          850.0,
+                          482.0
+                        ],
+                        [
+                          846.0,
+                          385.0
+                        ],
+                        [
+                          816.0,
+                          293.0
+                        ],
+                        [
+                          766.0,
+                          206.0
+                        ],
+                        [
+                          699.0,
+                          132.0
+                        ],
+                        [
+                          615.0,
+                          80.0
+                        ],
+                        [
+                          429.0,
+                          30.0
+                        ]
+                      ],
+                      "source_boundary_landmarks_coordinate_space": "expanded original region",
+                      "continuous_scope_spline": "periodic cubic interpolation, no raster/source resampling",
+                      "native_input_expansion": {
+                        "old_bounds": [
+                          344,
+                          1697,
+                          1194,
+                          2575
+                        ],
+                        "new_bounds": [
+                          344,
+                          1697,
+                          1234,
+                          2589
+                        ],
+                        "reason": "Added native right/bottom margin to inspect the complete gilded oval perimeter; old ROI nearly touched the right rim."
+                      }
+                    },
+                    "status": "awaiting-original-white-dark-review"
+                  },
+                  "unknown_band_native_pixels": 8,
+                  "source_rgb_redrawn": false,
+                  "source_resized": false,
+                  "original_opaque_rgb_preserved": true,
+                  "ownership": "tmp/extraction-work/continuation-20261010/cma-2005-206-b--two-dancing-devils-in-gold-landscape-oval--refined-original-native-ownership.png",
+                  "ownership_sha256": "b38fc5377b10364c5287c5e88283d6043e11fee89aa2ea764ba7b69b89f63479",
+                  "source_boundary_landmarks_native": [
+                    [
+                      434.0,
+                      29.0
+                    ],
+                    [
+                      360.0,
+                      40.0
+                    ],
+                    [
+                      295.0,
+                      59.0
+                    ],
+                    [
+                      222.0,
+                      94.0
+                    ],
+                    [
+                      155.0,
+                      149.0
+                    ],
+                    [
+                      100.0,
+                      211.0
+                    ],
+                    [
+                      56.0,
+                      285.0
+                    ],
+                    [
+                      29.0,
+                      365.0
+                    ],
+                    [
+                      21.0,
+                      460.0
+                    ],
+                    [
+                      30.0,
+                      556.0
+                    ],
+                    [
+                      57.0,
+                      645.0
+                    ],
+                    [
+                      102.0,
+                      721.0
+                    ],
+                    [
+                      166.0,
+                      782.0
+                    ],
+                    [
+                      250.0,
+                      828.0
+                    ],
+                    [
+                      345.0,
+                      850.0
+                    ],
+                    [
+                      443.0,
+                      859.0
+                    ],
+                    [
+                      552.0,
+                      840.0
+                    ],
+                    [
+                      636.0,
+                      807.0
+                    ],
+                    [
+                      707.0,
+                      759.0
+                    ],
+                    [
+                      763.0,
+                      704.0
+                    ],
+                    [
+                      809.0,
+                      639.0
+                    ],
+                    [
+                      842.0,
+                      564.0
+                    ],
+                    [
+                      857.0,
+                      470.0
+                    ],
+                    [
+                      842.0,
+                      373.0
+                    ],
+                    [
+                      813.0,
+                      280.0
+                    ],
+                    [
+                      779.0,
+                      203.0
+                    ],
+                    [
+                      700.0,
+                      125.0
+                    ],
+                    [
+                      618.0,
+                      76.0
+                    ],
+                    [
+                      434.0,
+                      29.0
+                    ]
+                  ],
+                  "native_coordinate_grid_evidence": "tmp/extraction-work/continuation-20261010/cma5206b-oval-original-native-coordinate-grid.png"
+                },
+                "status": "awaiting-original-white-dark-review"
+              },
+              "unknown_band_native_pixels": 3,
+              "source_rgb_redrawn": false,
+              "source_resized": false,
+              "original_opaque_rgb_preserved": true,
+              "ownership": "tmp/extraction-work/continuation-20261010/cma-2005-206-b--two-dancing-devils-in-gold-landscape-oval--refined-original-native-ownership.png",
+              "ownership_sha256": "29405950e649aa0f6a3af5f84ba328d3a90c232b3312089ad85b5b8d3f31bda2",
+              "native_lower_right_rim_rows": [
+                610,
+                850
+              ],
+              "gold_pigment_criterion": "R>80,0<R-G<34,G-B>26",
+              "native_gold_endpoint_columns": [
+                809,
+                809,
+                809,
+                809,
+                809,
+                808,
+                808,
+                807,
+                807,
+                805,
+                805,
+                805,
+                804,
+                804,
+                803,
+                802,
+                801,
+                801,
+                800,
+                799,
+                797,
+                797,
+                796,
+                796,
+                796,
+                796,
+                795,
+                794,
+                792,
+                790,
+                789,
+                789,
+                789,
+                789,
+                788,
+                787,
+                786,
+                786,
+                785,
+                782,
+                780,
+                780,
+                779,
+                779,
+                779,
+                779,
+                779,
+                778,
+                778,
+                777,
+                777,
+                776,
+                776,
+                775,
+                775,
+                774,
+                768,
+                768,
+                767,
+                766,
+                765,
+                764,
+                764,
+                764,
+                764,
+                764,
+                764,
+                764,
+                763,
+                763,
+                763,
+                762,
+                762,
+                761,
+                753,
+                753,
+                753,
+                753,
+                753,
+                753,
+                753,
+                753,
+                753,
+                753,
+                751,
+                750,
+                750,
+                749,
+                749,
+                749,
+                749,
+                749,
+                748,
+                747,
+                747,
+                746,
+                745,
+                744,
+                742,
+                741,
+                740,
+                740,
+                740,
+                739,
+                738,
+                736,
+                736,
+                734,
+                733,
+                732,
+                732,
+                731,
+                731,
+                730,
+                729,
+                729,
+                728,
+                727,
+                726,
+                725,
+                725,
+                724,
+                724,
+                723,
+                721,
+                720,
+                719,
+                718,
+                717,
+                715,
+                715,
+                715,
+                715,
+                715,
+                715,
+                714,
+                712,
+                711,
+                711,
+                709,
+                705,
+                703,
+                703,
+                702,
+                702,
+                701,
+                699,
+                696,
+                693,
+                692,
+                691,
+                690,
+                689,
+                688,
+                687,
+                686,
+                684,
+                681,
+                680,
+                679,
+                677,
+                675,
+                674,
+                673,
+                673,
+                671,
+                668,
+                665,
+                664,
+                664,
+                664,
+                664,
+                663,
+                663,
+                663,
+                663,
+                663,
+                663,
+                663,
+                663,
+                662,
+                660,
+                658,
+                657,
+                653,
+                652,
+                651,
+                650,
+                647,
+                646,
+                645,
+                643,
+                640,
+                638,
+                637,
+                635,
+                634,
+                629,
+                629,
+                628,
+                617,
+                617,
+                616,
+                615,
+                612,
+                609,
+                608,
+                608,
+                608,
+                608,
+                606,
+                605,
+                594,
+                592,
+                592,
+                591,
+                591,
+                591,
+                589,
+                585,
+                585,
+                581,
+                579,
+                575,
+                573,
+                569,
+                567,
+                558,
+                558,
+                556,
+                554,
+                550,
+                548,
+                543,
+                539,
+                535,
+                533,
+                529,
+                529,
+                529
+              ],
+              "source_coordinate_grid": "tmp/extraction-work/continuation-20261010/cma5206b-oval-original-native-coordinate-grid.png"
+            },
+            "status": "awaiting-original-white-dark-review"
+          },
+          "unknown_band_native_pixels": 6,
+          "source_rgb_redrawn": false,
+          "source_resized": false,
+          "original_opaque_rgb_preserved": true,
+          "ownership": "tmp/extraction-work/continuation-20261010/cma-2005-206-b--two-dancing-devils-in-gold-landscape-oval--refined-original-native-ownership.png",
+          "ownership_sha256": "7846aa8d777a60f0fbcd4b8bedc4895a42910f99bba5ea1c9071f3246f407d4a",
+          "native_original_gold_endpoint_columns": [
+            809,
+            809,
+            809,
+            809,
+            809,
+            808,
+            808,
+            807,
+            807,
+            805,
+            805,
+            805,
+            804,
+            804,
+            803,
+            802,
+            801,
+            801,
+            800,
+            799,
+            797,
+            797,
+            796,
+            796,
+            796,
+            796,
+            795,
+            794,
+            792,
+            790,
+            789,
+            789,
+            789,
+            789,
+            788,
+            787,
+            786,
+            786,
+            785,
+            782,
+            780,
+            780,
+            779,
+            779,
+            779,
+            779,
+            779,
+            778,
+            778,
+            777,
+            777,
+            776,
+            776,
+            775,
+            775,
+            774,
+            768,
+            768,
+            767,
+            766,
+            765,
+            764,
+            764,
+            764,
+            764,
+            764,
+            764,
+            764,
+            763,
+            763,
+            763,
+            762,
+            762,
+            761,
+            753,
+            753,
+            753,
+            753,
+            753,
+            753,
+            753,
+            753,
+            753,
+            753,
+            751,
+            750,
+            750,
+            749,
+            749,
+            749,
+            749,
+            749,
+            748,
+            747,
+            747,
+            746,
+            745,
+            744,
+            742,
+            741,
+            740,
+            740,
+            740,
+            739,
+            738,
+            736,
+            736,
+            734,
+            733,
+            732,
+            732,
+            731,
+            731,
+            730,
+            729,
+            729,
+            728,
+            727,
+            726,
+            725,
+            725,
+            724,
+            724,
+            723,
+            721,
+            720,
+            719,
+            718,
+            717,
+            715,
+            715,
+            715,
+            715,
+            715,
+            715,
+            714,
+            712,
+            711,
+            711,
+            709,
+            705,
+            703,
+            703,
+            702,
+            702,
+            701,
+            699,
+            696,
+            693,
+            692,
+            691,
+            690,
+            689,
+            688,
+            687,
+            686,
+            684,
+            681,
+            680,
+            679,
+            677,
+            675,
+            674,
+            673,
+            673,
+            671,
+            668,
+            665,
+            664,
+            664,
+            664,
+            664,
+            663,
+            663,
+            663,
+            663,
+            663,
+            663,
+            663,
+            663,
+            662,
+            660,
+            658,
+            657,
+            653,
+            652,
+            651,
+            650,
+            647,
+            646,
+            645,
+            643,
+            640,
+            638,
+            637,
+            635,
+            634,
+            629,
+            629,
+            628,
+            617,
+            617,
+            616,
+            615,
+            612,
+            609,
+            608,
+            608,
+            608,
+            608,
+            606,
+            605,
+            594,
+            592,
+            592,
+            591,
+            591,
+            591,
+            589,
+            585,
+            585,
+            581,
+            579,
+            575,
+            573,
+            569,
+            567,
+            558,
+            558,
+            556,
+            554,
+            550,
+            548,
+            543,
+            539,
+            535,
+            533,
+            529,
+            529,
+            529
+          ],
+          "continuous_ownership_column_fit": [
+            809.1141490088859,
+            809.1207564365461,
+            809.018977926099,
+            808.8180310401676,
+            808.5271333413752,
+            808.1555023923449,
+            807.7123557556998,
+            807.206910994063,
+            806.6483856700578,
+            806.0459973463111,
+            805.435647943392,
+            804.8615656789073,
+            804.1724900486552,
+            803.4816452896989,
+            802.7443609022598,
+            801.9159663865588,
+            801.1096859796592,
+            800.3365767359616,
+            799.6678460858069,
+            798.9747899159705,
+            798.3511720477704,
+            797.7191508182261,
+            796.9451570101767,
+            796.155683325966,
+            795.3149049093363,
+            794.5028748341482,
+            793.6974789916007,
+            792.9787704555547,
+            792.2087571870894,
+            791.467492260066,
+            790.7509951349002,
+            790.0597080937679,
+            789.1623175586064,
+            788.24988942946,
+            787.2954444935909,
+            786.374170720924,
+            785.4590888987215,
+            784.5789473684251,
+            783.7160548429939,
+            782.7461300309639,
+            781.8005307386152,
+            780.890314020349,
+            780.1287041132282,
+            779.4710305174742,
+            778.9327731092477,
+            778.4272445820474,
+            778.0256523662136,
+            778.0999557717864,
+            778.0145953118129,
+            777.65855816011,
+            777.0322865988541,
+            776.2759840778457,
+            775.311808934104,
+            774.1640866873105,
+            772.8991596638696,
+            771.5833701901854,
+            770.2830605926621,
+            768.9624060150417,
+            767.7434763379075,
+            766.6461742591812,
+            765.6904024767841,
+            764.8359133126974,
+            764.2605042016846,
+            763.8217602830646,
+            763.6974789916006,
+            764.2264484741304,
+            764.1313578062843,
+            763.8394515701057,
+            763.3149049093361,
+            762.577620521897,
+            761.6430782839491,
+            760.5223352498933,
+            759.3241928350326,
+            758.0973020787301,
+            756.8903140203489,
+            755.8721804511317,
+            754.956214064577,
+            754.1021671826664,
+            753.3299425033209,
+            752.6594427244621,
+            752.1525873507336,
+            751.7691287041171,
+            751.6267138434359,
+            751.7408226448513,
+            751.3697478991636,
+            750.9190623617906,
+            750.4754533392343,
+            750.0278637770936,
+            749.5696594427283,
+            749.158779301198,
+            748.6996904024805,
+            748.2034498009768,
+            747.6253869969079,
+            747.0229986731573,
+            746.3095975232236,
+            745.5143741707248,
+            744.768686421941,
+            743.8279522335288,
+            742.9301194161912,
+            741.9973463069475,
+            741.0583812472396,
+            740.0862450243294,
+            739.1141088014192,
+            738.0729765590486,
+            737.1539141972615,
+            736.2879256965981,
+            735.4060150375979,
+            734.597080937642,
+            733.7456877487875,
+            732.894294559933,
+            732.0252100840374,
+            731.1627598407822,
+            730.4334365325115,
+            729.7036709420647,
+            729.0579389650635,
+            728.4365325077437,
+            727.8819106590042,
+            727.2184873949618,
+            726.488721804515,
+            725.6749226006228,
+            724.9217160548467,
+            723.9977885891235,
+            723.0340557275579,
+            721.9991154356517,
+            720.9172932330864,
+            719.910659000446,
+            718.9991154356517,
+            718.2206988058418,
+            717.4555506413128,
+            716.6258292790837,
+            715.973905351618,
+            715.504643962852,
+            715.0738611234003,
+            714.4679345422417,
+            713.6912870411359,
+            712.7439186200833,
+            711.723573639986,
+            710.6859796550235,
+            709.6492702344132,
+            708.4360902255676,
+            707.0176912870446,
+            705.4537815126088,
+            703.8084918177833,
+            702.1503759398532,
+            700.5524104378629,
+            698.9898275099549,
+            697.3958425475489,
+            695.9217160548466,
+            694.7231313578098,
+            693.4820875718744,
+            691.9964617425953,
+            690.4356479433915,
+            688.9509066784644,
+            687.4197257850544,
+            685.9840778416665,
+            684.5678903140239,
+            683.2711189739089,
+            682.0075187969959,
+            680.6488279522371,
+            679.1508182220291,
+            677.4931446262751,
+            675.7532065457797,
+            674.0039805395877,
+            672.3741707209234,
+            670.8301636444087,
+            669.4360902255673,
+            668.1494913755009,
+            666.8770455550675,
+            665.7766475011092,
+            664.8814683768278,
+            664.1180893410029,
+            663.524546660773,
+            663.1946041574558,
+            663.0641309155275,
+            663.1154356479468,
+            663.35338345865,
+            663.3228659885041,
+            662.9265811587827,
+            662.2627156125642,
+            661.5316231755894,
+            660.5621406457353,
+            659.3918620079644,
+            658.0207872622767,
+            656.573639982312,
+            654.9659442724492,
+            653.1640866873099,
+            651.3011941618786,
+            649.3569217160581,
+            647.6581158779335,
+            645.8443166740414,
+            644.0238832375089,
+            642.7624944714761,
+            641.0424590889021,
+            639.1233967271152,
+            636.7961079168542,
+            634.4453781512638,
+            632.0800530738644,
+            629.5975232198174,
+            626.8350287483447,
+            624.0433436532539,
+            621.3485183547135,
+            618.8903140203481,
+            616.5019902697953,
+            614.8739495798351,
+            613.215391419729,
+            611.3768244139793,
+            609.6267138434353,
+            607.6023883237538,
+            605.7726669615247,
+            604.3237505528558,
+            602.4007076514847,
+            600.3980539584286,
+            598.5957540911131,
+            596.8182220256554,
+            595.014595311812,
+            592.9340999557747,
+            590.8505086245054,
+            588.7080937638243,
+            587.0252100840366,
+            585.1034940291936,
+            583.0800530738641,
+            581.110128261834,
+            578.391862007964,
+            575.2888102609495,
+            572.2122954444966,
+            569.0066342326434,
+            565.7938965059737,
+            562.5333923042931,
+            559.313578062807,
+            555.7027863777118,
+            552.1892967713429,
+            548.8325224826771,
+            545.5514387573209,
+            542.374706820527,
+            539.330987897551,
+            536.4489432136488,
+            533.7572339940758,
+            531.2845214640877,
+            529.0594668489402,
+            527.110731373889
+          ],
+          "ownership_only_savgol": {
+            "native_rows": 19,
+            "polynomial_order": 3
+          },
+          "previous_native_boundary_review": "tmp/extraction-work/continuation-20261010/cma5206b-oval-final-native-gold-rim-review.png"
+        },
+        "status": "awaiting-original-white-dark-review",
+        "tool": "Original native scan / closed-form edge alpha and foreground decontamination",
+        "pixel_exact": false
+      },
+      "parent": null,
+      "children": [
+        "cma-2005-206-b--two-dancing-black-horned-figures-with-touching-feet"
+      ],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Compared complete original, white/dark full output and native 100 percent detailed boundaries. Original anatomy, props, wing tips, halo, gray/dark outlines, all gold rim and painted surfaces retained at native scale. Exterior paper/flowers or sky cleared, complete actual openings transparent. Original scene field stays integral; original half-length waist truncation stays unchanged. No invented parts or raster upscaling.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/three-current-final-native-review-current-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/oval-and-angel-native-final-soft-edge-review.png",
+          "tmp/extraction-work/continuation-20261010/cma5206b-oval-original-native-coordinate-grid.png"
+        ]
+      },
+      "categories": [
+        "humans",
+        "animals"
+      ],
+      "subjects": [
+        "devil",
+        "landscape",
+        "tree"
+      ],
+      "colors": [
+        "blue",
+        "gold",
+        "green",
+        "black"
+      ],
+      "facing": "unclear",
+      "composition": "framed-scene",
+      "usage_notes": "Original gold-rimmed landscape oval, with its original lettering, sky, trees and ground. Both dancing figures contact at their feet and are also available as one transparent interacting group; no individual dancing figures split.",
+      "sets": [
+        {
+          "id": "cma-2005-206-b-set",
+          "name": "Office of the Dead dancing devils",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "Two contacting dancing black horned figures in their original gold-edged oval landscape, with blue sky, green trees and ground.",
+      "set_label": "Office of the Dead dancing devils"
+    }
+  ]
+}

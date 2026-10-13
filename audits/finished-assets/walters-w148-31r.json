@@ -1,0 +1,1217 @@
+{
+  "source_id": "walters-w148-31r",
+  "assets": [
+    {
+      "id": "walters-w148-31r--gray-red-blue-lobed-leaves-in-gold-medallions-cycle",
+      "name": "gray-red-blue-lobed-leaves-in-gold-medallions-cycle",
+      "source_id": "walters-w148-31r",
+      "source_folder": "walters",
+      "asset_type": "border",
+      "description": "A complete gray-red-blue color cycle of lobed leaves in gold medallions with continuous gray-green foliage. Part of the Initial \"S\" (Sed cum iudei) (walters-w148-31r) set.",
+      "source_region": [
+        3084,
+        722,
+        5033,
+        1260
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        0,
+        0,
+        1949,
+        682
+      ],
+      "export_crop_coordinate_space": "source-region",
+      "width": 1949,
+      "height": 682,
+      "png": "walters/walters-w148-31r--gray-red-blue-lobed-leaves-in-gold-medallions-cycle.png",
+      "png_sha256": "468d9b662601fb924ff375751c43c197e7626652b8f7811c838bacc1571e87bf",
+      "provenance": {
+        "institution": "Walters Art Museum",
+        "title": "Initial \"S\" (Sed cum iudei)",
+        "object_identifier": "W.148, fol. 31r",
+        "date": "First half of the 14th century CE",
+        "record_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/html/W148/description.html",
+        "image_rights": "CC0 (Digital Walters manuscript images)",
+        "rights_url": "https://www.thedigitalwalters.org/01_ACCESS_WALTERS_MANUSCRIPTS.html",
+        "source_file": "tmp/new-assets/walters/walters-w148-31r--initial-s-sed-cum-iudei--master.tif",
+        "source_sha256": "9290421954a6a5dd80659798644e38ee2325244670a6f58202f2fec1b001567c",
+        "source_metadata": "tmp/new-assets/walters/walters-w148-31r.json",
+        "image_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/W148/data/W.148/master/W148_000065_819.tif",
+        "method": "native-interior-repeat-with-source-derived-miter-corners"
+      },
+      "extraction": {
+        "candidate_png": "tmp/extraction-work/continuation-20261010/walters-w148-31r--gray-red-blue-lobed-leaves-in-gold-medallions-cycle--native-corner-phase-candidate.png",
+        "candidate_sha256": "545285c433545b3adb4674e1ff2a3282f44fa1ce1368b613fe87932a18324a6b",
+        "export_crop": [
+          0,
+          0,
+          1949,
+          682
+        ],
+        "export_crop_coordinate_space": "oriented-native-cycle-with-transparent-support-padding",
+        "method": "Original native filled painted pattern interior, exact original RGB and optional exact 90-degree transpose. Only transparent support padding is added; two-column repeat join and source-derived corner geometry are separately audited. No raster enlargement or vector approximation.",
+        "native_upscaling": false,
+        "source_pixels_redrawn": false,
+        "ink_color": null,
+        "annotation_json": "tmp/extraction-work/continuation-20261010/walters-w148-31r--gray-red-blue-lobed-leaves-in-gold-medallions-cycle--corner-phase-alignment.json",
+        "vector_method": "Withheld: palette tracing would replace original gilding, paint texture and irregular source contours.",
+        "corner_phase_alignment": {
+          "previous_candidate_geometry": {
+            "source_box": [
+              3064,
+              722,
+              5013,
+              1260
+            ],
+            "ink_extraction": {
+              "candidate_png": "tmp/extraction-work/continuation-20261010/walters-w148-31r--gray-red-blue-lobed-leaves-in-gold-medallions-cycle--native-cycle-candidate.png",
+              "candidate_sha256": "cd9408daf75c9a68b6f82ca6755eb1c69b1dd175225edd45f07f0c1c533782ff",
+              "export_crop": [
+                0,
+                0,
+                1949,
+                550
+              ],
+              "export_crop_coordinate_space": "oriented-native-cycle-with-transparent-support-padding",
+              "method": "Original native filled painted pattern interior, exact original RGB and optional exact 90-degree transpose. Only transparent support padding is added; two-column repeat join and source-derived corner geometry are separately audited. No raster enlargement or vector approximation.",
+              "native_upscaling": false,
+              "source_pixels_redrawn": false,
+              "ink_color": null,
+              "annotation_json": "tmp/extraction-work/continuation-20261010/walters-w148-31r--gray-red-blue-lobed-leaves-in-gold-medallions-cycle--native-cycle-audit.json",
+              "vector_method": "Withheld: palette tracing would replace original gilding, paint texture and irregular source contours."
+            },
+            "repeat_build": {
+              "unit_png": "tmp/extraction-work/walters-w148-31r--gray-red-blue-lobed-leaves-in-gold-medallions-cycle--unit.png",
+              "bar_png": "tmp/extraction-work/walters-w148-31r--gray-red-blue-lobed-leaves-in-gold-medallions-cycle--bar.png",
+              "frame_png": "tmp/extraction-work/walters-w148-31r--gray-red-blue-lobed-leaves-in-gold-medallions-cycle--frame-atlas.png",
+              "corners": [
+                {
+                  "name": "top-left",
+                  "png": "tmp/extraction-work/walters-w148-31r--gray-red-blue-lobed-leaves-in-gold-medallions-cycle--corner-top-left.png",
+                  "atlas_bounds": [
+                    0,
+                    0,
+                    550,
+                    550
+                  ]
+                },
+                {
+                  "name": "top-right",
+                  "png": "tmp/extraction-work/walters-w148-31r--gray-red-blue-lobed-leaves-in-gold-medallions-cycle--corner-top-right.png",
+                  "atlas_bounds": [
+                    2499,
+                    0,
+                    3049,
+                    550
+                  ]
+                },
+                {
+                  "name": "bottom-right",
+                  "png": "tmp/extraction-work/walters-w148-31r--gray-red-blue-lobed-leaves-in-gold-medallions-cycle--corner-bottom-right.png",
+                  "atlas_bounds": [
+                    2499,
+                    2499,
+                    3049,
+                    3049
+                  ]
+                },
+                {
+                  "name": "bottom-left",
+                  "png": "tmp/extraction-work/walters-w148-31r--gray-red-blue-lobed-leaves-in-gold-medallions-cycle--corner-bottom-left.png",
+                  "atlas_bounds": [
+                    0,
+                    2499,
+                    550,
+                    3049
+                  ]
+                }
+              ],
+              "native_unit_size": [
+                1949,
+                550
+              ],
+              "atlas_size": [
+                3049,
+                3049
+              ],
+              "slice_pixels": 550,
+              "slice_percent": 18.038701213512628,
+              "repeat_ratio": 3.5436363636363635,
+              "join_adjustment": {
+                "pixels_at_each_end": 2,
+                "method": "average matching source collars; interior columns 2 through width-3 unchanged",
+                "source_cycle_verification": "The original upper band visibly repeats gray, red and blue lobed leaves in gilded medallions. Three adjacent complete cells are the complete color period; one cell would erase the alternation. An interior red-blue-gray cycle is selected away from the initial-S ascender. Source cell spacing and brush shapes vary: this repeats one complete original three-color cycle, without claiming that all original hand-painted cycles were pixel-identical."
+              },
+              "corner_method": "Mitered reflections of the exact same native unit, using the repository’s four phase-matched corner geometry. Derived corners are distinct from the original fixed printer-frame corners.",
+              "status": "awaiting-repeat-and-corner-visual-review"
+            }
+          },
+          "corrected_preview_phase_bounds": [
+            470,
+            110,
+            767,
+            192
+          ],
+          "source_native_bounds": [
+            3084,
+            722,
+            5033,
+            1260
+          ],
+          "inspected_preview_motif_centers": [
+            [
+              522,
+              147
+            ],
+            [
+              715,
+              147
+            ]
+          ],
+          "oriented_native_motif_centers": [
+            [
+              341,
+              243
+            ],
+            [
+              1608,
+              243
+            ]
+          ],
+          "native_corner_square_side": 682,
+          "transparent_support_padding_native_pixels": {
+            "top": 98,
+            "bottom": 46,
+            "left": 0,
+            "right": 0
+          },
+          "method": "Native period phase is selected from the unchanged source so the first and last motif centers lie approximately half a corner-square width from its ends. Transparent support padding centers the original painted band at the same corner-diagonal height. This avoids bisecting off-center leaf bodies at the miters. All source paint pixels retain original dimensions and RGB; no rescaling, new curves, cyclic color rearrangement or generic corner artwork."
+        },
+        "repeat_build": {
+          "unit_png": "tmp/extraction-work/walters-w148-31r--gray-red-blue-lobed-leaves-in-gold-medallions-cycle--unit.png",
+          "bar_png": "tmp/extraction-work/walters-w148-31r--gray-red-blue-lobed-leaves-in-gold-medallions-cycle--bar.png",
+          "frame_png": "tmp/extraction-work/walters-w148-31r--gray-red-blue-lobed-leaves-in-gold-medallions-cycle--frame-atlas.png",
+          "corners": [
+            {
+              "name": "top-left",
+              "png": "tmp/extraction-work/walters-w148-31r--gray-red-blue-lobed-leaves-in-gold-medallions-cycle--corner-top-left.png",
+              "atlas_bounds": [
+                0,
+                0,
+                682,
+                682
+              ]
+            },
+            {
+              "name": "top-right",
+              "png": "tmp/extraction-work/walters-w148-31r--gray-red-blue-lobed-leaves-in-gold-medallions-cycle--corner-top-right.png",
+              "atlas_bounds": [
+                2631,
+                0,
+                3313,
+                682
+              ]
+            },
+            {
+              "name": "bottom-right",
+              "png": "tmp/extraction-work/walters-w148-31r--gray-red-blue-lobed-leaves-in-gold-medallions-cycle--corner-bottom-right.png",
+              "atlas_bounds": [
+                2631,
+                2631,
+                3313,
+                3313
+              ]
+            },
+            {
+              "name": "bottom-left",
+              "png": "tmp/extraction-work/walters-w148-31r--gray-red-blue-lobed-leaves-in-gold-medallions-cycle--corner-bottom-left.png",
+              "atlas_bounds": [
+                0,
+                2631,
+                682,
+                3313
+              ]
+            }
+          ],
+          "native_unit_size": [
+            1949,
+            682
+          ],
+          "atlas_size": [
+            3313,
+            3313
+          ],
+          "slice_pixels": 682,
+          "slice_percent": 20.585571989133715,
+          "repeat_ratio": 2.8577712609970676,
+          "join_adjustment": {
+            "pixels_at_each_end": 2,
+            "method": "average matching source collars; interior columns 2 through width-3 unchanged",
+            "source_cycle_verification": "The original upper band visibly repeats gray, red and blue lobed leaves in gilded medallions. Three adjacent complete cells are the complete color period; one cell would erase the alternation. An interior red-blue-gray cycle is selected away from the initial-S ascender. Source cell spacing and brush shapes vary: this repeats one complete original three-color cycle, without claiming that all original hand-painted cycles were pixel-identical."
+          },
+          "corner_method": "Mitered reflections of the exact same native unit, using the repository’s four phase-matched corner geometry. Derived corners are distinct from the original fixed printer-frame corners.",
+          "status": "accepted-native-period-strip-and-four-corner-phases"
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Original full manuscript and native source cycles, five-period strips, white/dark frame atlases and all four native corner phases inspected. Full red/blue/gray medallion cycle and red-up/blue-down/blue-up/red-down interlace cycle retained. Source phase and transparent support padding center corner motifs without scaling paint. Original opaque gilding and filled painted ground are intrinsic. Only the audited two-column end join changes source pixels; original vertical direction is separately available as exact 90-degree tile/bar components. Derived corners are source-based miter reflections, not claims of untouched original page corners. SVG withheld because a trace would replace original paint and gilding.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/new-crops/_review/sources/walters-w148-31r.jpg",
+          "tmp/extraction-work/continuation-20261010/walters-w148-31r--gray-red-blue-lobed-leaves-in-gold-medallions-cycle--four-corners-native-proof.jpg",
+          "tmp/extraction-work/continuation-20261010/walters-w148-31r--opposed-blue-red-leaves-with-gray-interlace-cycle--four-corners-native-proof.jpg",
+          "tmp/extraction-work/walters-w148-31r--gray-red-blue-lobed-leaves-in-gold-medallions-cycle--frame-white.jpg",
+          "tmp/extraction-work/walters-w148-31r--gray-red-blue-lobed-leaves-in-gold-medallions-cycle--frame-dark.jpg",
+          "tmp/extraction-work/walters-w148-31r--opposed-blue-red-leaves-with-gray-interlace-cycle--frame-white.jpg",
+          "tmp/extraction-work/walters-w148-31r--opposed-blue-red-leaves-with-gray-interlace-cycle--frame-dark.jpg",
+          "tmp/extraction-work/walters-w148-31r--gray-red-blue-lobed-leaves-in-gold-medallions-cycle--bar-white.jpg",
+          "tmp/extraction-work/walters-w148-31r--opposed-blue-red-leaves-with-gray-interlace-cycle--bar-white.jpg"
+        ]
+      },
+      "categories": [
+        "geometric",
+        "floral"
+      ],
+      "subjects": [
+        "leaf",
+        "medallion",
+        "foliage",
+        "band"
+      ],
+      "colors": [
+        "gray",
+        "red",
+        "blue",
+        "gold",
+        "green",
+        "black"
+      ],
+      "facing": "unclear",
+      "composition": "repeat-tile",
+      "usage_notes": "Complete original motif and color period. Original gilt/gray-green painted fields remain opaque. Original spacing and brush shapes are preserved within this chosen native period; source hand-painted cycles vary. Bars and four miter phases derive from this exact artwork, with only the audited two-column end join. These derived corners do not claim to be the original mixed-pattern page corners. Original alphabet glyphs and manuscript text are excluded.",
+      "repeat": {
+        "rationale": "The original upper band visibly repeats gray, red and blue lobed leaves in gilded medallions. Three adjacent complete cells are the complete color period; one cell would erase the alternation. An interior red-blue-gray cycle is selected away from the initial-S ascender. Source cell spacing and brush shapes vary: this repeats one complete original three-color cycle, without claiming that all original hand-painted cycles were pixel-identical.",
+        "original_direction": "horizontal",
+        "source_cycle": {
+          "inspected_preview_cycle_bounds": [
+            470,
+            110,
+            767,
+            192
+          ],
+          "preview_size": [
+            1348,
+            1600
+          ],
+          "native_source_bounds": [
+            3084,
+            722,
+            5033,
+            1260
+          ],
+          "native_crop_size": [
+            1949,
+            538
+          ],
+          "native_direction": "horizontal",
+          "orientation": "source horizontal orientation unchanged",
+          "transparent_support_padding_native_pixels": {
+            "top": 98,
+            "bottom": 46,
+            "left": 0,
+            "right": 0
+          },
+          "intrinsic_ground_policy": "The original filled gilt and gray-green pattern fields remain opaque; no external manuscript paper is intentionally included. Native field/cycle boundaries must be compared before approval.",
+          "original_opaque_rgb_preserved": true,
+          "source_resized": false,
+          "candidate_sha256": "cd9408daf75c9a68b6f82ca6755eb1c69b1dd175225edd45f07f0c1c533782ff"
+        },
+        "status": "accepted-native-period-strip-and-four-corner-phases",
+        "slice_pixels": 682,
+        "slice_percent": 20.585571989133715,
+        "repeat_ratio": 2.8577712609970676,
+        "native_unit_size": [
+          1949,
+          682
+        ],
+        "atlas_size": [
+          3313,
+          3313
+        ],
+        "join_adjustment": {
+          "pixels_at_each_end": 2,
+          "method": "average matching source collars; interior columns 2 through width-3 unchanged",
+          "source_cycle_verification": "The original upper band visibly repeats gray, red and blue lobed leaves in gilded medallions. Three adjacent complete cells are the complete color period; one cell would erase the alternation. An interior red-blue-gray cycle is selected away from the initial-S ascender. Source cell spacing and brush shapes vary: this repeats one complete original three-color cycle, without claiming that all original hand-painted cycles were pixel-identical."
+        },
+        "corner_method": "Mitered reflections of the exact same native unit, using the repository’s four phase-matched corner geometry. Derived corners are distinct from the original fixed printer-frame corners."
+      },
+      "components": {
+        "bar": {
+          "png": "walters/walters-w148-31r--gray-red-blue-lobed-leaves-in-gold-medallions-cycle--bar.png",
+          "png_sha256": "f8896cdc2f5458ef46149cf15e74458f68e047dfd9d6636e313ea85a72dd3492",
+          "width": 9745,
+          "height": 682,
+          "set_id": "walters-w148-31r--gray-red-blue-lobed-leaves-in-gold-medallions-cycle",
+          "set_name": "Initial \"S\" (Sed cum iudei) (walters-w148-31r) — gray red blue lobed leaves in gold medallions cycle",
+          "set_role": "bar"
+        },
+        "frame": {
+          "png": "walters/walters-w148-31r--gray-red-blue-lobed-leaves-in-gold-medallions-cycle--frame-atlas.png",
+          "png_sha256": "00e883df9b6bbb1f1f4487b7d26357d2daa11a2411411a16ed72b14a9c5c81c7",
+          "width": 3313,
+          "height": 3313,
+          "set_id": "walters-w148-31r--gray-red-blue-lobed-leaves-in-gold-medallions-cycle",
+          "set_name": "Initial \"S\" (Sed cum iudei) (walters-w148-31r) — gray red blue lobed leaves in gold medallions cycle",
+          "set_role": "frame"
+        },
+        "corner-top-left": {
+          "png": "walters/walters-w148-31r--gray-red-blue-lobed-leaves-in-gold-medallions-cycle--corner-top-left.png",
+          "png_sha256": "9804ca3a9d5675a58c705357f178eaea31a864056aa79fa8d6c972b8cc4fc423",
+          "width": 682,
+          "height": 682,
+          "atlas_bounds": [
+            0,
+            0,
+            682,
+            682
+          ],
+          "method": "Mitered reflections of the exact same native unit, using the repository’s four phase-matched corner geometry. Derived corners are distinct from the original fixed printer-frame corners.",
+          "set_id": "walters-w148-31r--gray-red-blue-lobed-leaves-in-gold-medallions-cycle",
+          "set_name": "Initial \"S\" (Sed cum iudei) (walters-w148-31r) — gray red blue lobed leaves in gold medallions cycle",
+          "set_role": "corner-top-left"
+        },
+        "corner-top-right": {
+          "png": "walters/walters-w148-31r--gray-red-blue-lobed-leaves-in-gold-medallions-cycle--corner-top-right.png",
+          "png_sha256": "e0e6f09fc566398b915e89f295229107ac7eb05b54e43e02b151df6e384b7035",
+          "width": 682,
+          "height": 682,
+          "atlas_bounds": [
+            2631,
+            0,
+            3313,
+            682
+          ],
+          "method": "Mitered reflections of the exact same native unit, using the repository’s four phase-matched corner geometry. Derived corners are distinct from the original fixed printer-frame corners.",
+          "set_id": "walters-w148-31r--gray-red-blue-lobed-leaves-in-gold-medallions-cycle",
+          "set_name": "Initial \"S\" (Sed cum iudei) (walters-w148-31r) — gray red blue lobed leaves in gold medallions cycle",
+          "set_role": "corner-top-right"
+        },
+        "corner-bottom-right": {
+          "png": "walters/walters-w148-31r--gray-red-blue-lobed-leaves-in-gold-medallions-cycle--corner-bottom-right.png",
+          "png_sha256": "43fa0039454a75e16fbde0efee8eda54516e69ed2a3996b68bdaa979cdc4f7d2",
+          "width": 682,
+          "height": 682,
+          "atlas_bounds": [
+            2631,
+            2631,
+            3313,
+            3313
+          ],
+          "method": "Mitered reflections of the exact same native unit, using the repository’s four phase-matched corner geometry. Derived corners are distinct from the original fixed printer-frame corners.",
+          "set_id": "walters-w148-31r--gray-red-blue-lobed-leaves-in-gold-medallions-cycle",
+          "set_name": "Initial \"S\" (Sed cum iudei) (walters-w148-31r) — gray red blue lobed leaves in gold medallions cycle",
+          "set_role": "corner-bottom-right"
+        },
+        "corner-bottom-left": {
+          "png": "walters/walters-w148-31r--gray-red-blue-lobed-leaves-in-gold-medallions-cycle--corner-bottom-left.png",
+          "png_sha256": "a40bcf770f7d71bc6c5ebaa8cedf69d1965e6e5188ed28a924734fed8eff287f",
+          "width": 682,
+          "height": 682,
+          "atlas_bounds": [
+            0,
+            2631,
+            682,
+            3313
+          ],
+          "method": "Mitered reflections of the exact same native unit, using the repository’s four phase-matched corner geometry. Derived corners are distinct from the original fixed printer-frame corners.",
+          "set_id": "walters-w148-31r--gray-red-blue-lobed-leaves-in-gold-medallions-cycle",
+          "set_name": "Initial \"S\" (Sed cum iudei) (walters-w148-31r) — gray red blue lobed leaves in gold medallions cycle",
+          "set_role": "corner-bottom-left"
+        }
+      },
+      "sets": [
+        {
+          "id": "walters-w148-31r-set",
+          "name": "Initial \"S\" (Sed cum iudei) (walters-w148-31r)",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A complete gray-red-blue color cycle of lobed leaves in gold medallions with continuous gray-green foliage.",
+      "set_label": "Initial \"S\" (Sed cum iudei) (walters-w148-31r)"
+    },
+    {
+      "id": "walters-w148-31r--opposed-blue-red-leaves-with-gray-interlace-cycle",
+      "name": "opposed-blue-red-leaves-with-gray-interlace-cycle",
+      "source_id": "walters-w148-31r",
+      "source_folder": "walters",
+      "asset_type": "border",
+      "description": "A complete four-shape blue-red cycle of opposed lobed leaves within gray interlacing ribbons on gilt ground. Part of the Initial \"S\" (Sed cum iudei) (walters-w148-31r) set.",
+      "source_region": [
+        5919,
+        2611,
+        6338,
+        5229
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        0,
+        0,
+        2618,
+        604
+      ],
+      "export_crop_coordinate_space": "source-region",
+      "width": 2618,
+      "height": 604,
+      "png": "walters/walters-w148-31r--opposed-blue-red-leaves-with-gray-interlace-cycle.png",
+      "png_sha256": "c67da51a93490830333265208c8e253e3a44e6e204298d81f74a869c73f1d99b",
+      "provenance": {
+        "institution": "Walters Art Museum",
+        "title": "Initial \"S\" (Sed cum iudei)",
+        "object_identifier": "W.148, fol. 31r",
+        "date": "First half of the 14th century CE",
+        "record_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/html/W148/description.html",
+        "image_rights": "CC0 (Digital Walters manuscript images)",
+        "rights_url": "https://www.thedigitalwalters.org/01_ACCESS_WALTERS_MANUSCRIPTS.html",
+        "source_file": "tmp/new-assets/walters/walters-w148-31r--initial-s-sed-cum-iudei--master.tif",
+        "source_sha256": "9290421954a6a5dd80659798644e38ee2325244670a6f58202f2fec1b001567c",
+        "source_metadata": "tmp/new-assets/walters/walters-w148-31r.json",
+        "image_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/W148/data/W.148/master/W148_000065_819.tif",
+        "method": "native-interior-repeat-with-source-derived-miter-corners"
+      },
+      "extraction": {
+        "candidate_png": "tmp/extraction-work/continuation-20261010/walters-w148-31r--opposed-blue-red-leaves-with-gray-interlace-cycle--native-corner-phase-candidate.png",
+        "candidate_sha256": "85ce07a6ad9da4a46622a017a4738317e75304cffde3c0fa77756bf42c3b9739",
+        "export_crop": [
+          0,
+          0,
+          2618,
+          604
+        ],
+        "export_crop_coordinate_space": "oriented-native-cycle-with-transparent-support-padding",
+        "method": "Original native filled painted pattern interior, exact original RGB and optional exact 90-degree transpose. Only transparent support padding is added; two-column repeat join and source-derived corner geometry are separately audited. No raster enlargement or vector approximation.",
+        "native_upscaling": false,
+        "source_pixels_redrawn": false,
+        "ink_color": null,
+        "annotation_json": "tmp/extraction-work/continuation-20261010/walters-w148-31r--opposed-blue-red-leaves-with-gray-interlace-cycle--corner-phase-alignment.json",
+        "vector_method": "Withheld: palette tracing would replace original gilding, paint texture and irregular source contours.",
+        "corner_phase_alignment": {
+          "previous_candidate_geometry": {
+            "source_box": [
+              5919,
+              2638,
+              6338,
+              5256
+            ],
+            "ink_extraction": {
+              "candidate_png": "tmp/extraction-work/continuation-20261010/walters-w148-31r--opposed-blue-red-leaves-with-gray-interlace-cycle--native-cycle-candidate.png",
+              "candidate_sha256": "957f9877e795cd95512630297bad000511c3dd05ab4e4a97a8ac445888f56056",
+              "export_crop": [
+                0,
+                0,
+                2618,
+                431
+              ],
+              "export_crop_coordinate_space": "oriented-native-cycle-with-transparent-support-padding",
+              "method": "Original native filled painted pattern interior, exact original RGB and optional exact 90-degree transpose. Only transparent support padding is added; two-column repeat join and source-derived corner geometry are separately audited. No raster enlargement or vector approximation.",
+              "native_upscaling": false,
+              "source_pixels_redrawn": false,
+              "ink_color": null,
+              "annotation_json": "tmp/extraction-work/continuation-20261010/walters-w148-31r--opposed-blue-red-leaves-with-gray-interlace-cycle--native-cycle-audit.json",
+              "vector_method": "Withheld: palette tracing would replace original gilding, paint texture and irregular source contours."
+            },
+            "repeat_build": {
+              "unit_png": "tmp/extraction-work/walters-w148-31r--opposed-blue-red-leaves-with-gray-interlace-cycle--unit.png",
+              "bar_png": "tmp/extraction-work/walters-w148-31r--opposed-blue-red-leaves-with-gray-interlace-cycle--bar.png",
+              "frame_png": "tmp/extraction-work/walters-w148-31r--opposed-blue-red-leaves-with-gray-interlace-cycle--frame-atlas.png",
+              "corners": [
+                {
+                  "name": "top-left",
+                  "png": "tmp/extraction-work/walters-w148-31r--opposed-blue-red-leaves-with-gray-interlace-cycle--corner-top-left.png",
+                  "atlas_bounds": [
+                    0,
+                    0,
+                    431,
+                    431
+                  ]
+                },
+                {
+                  "name": "top-right",
+                  "png": "tmp/extraction-work/walters-w148-31r--opposed-blue-red-leaves-with-gray-interlace-cycle--corner-top-right.png",
+                  "atlas_bounds": [
+                    3049,
+                    0,
+                    3480,
+                    431
+                  ]
+                },
+                {
+                  "name": "bottom-right",
+                  "png": "tmp/extraction-work/walters-w148-31r--opposed-blue-red-leaves-with-gray-interlace-cycle--corner-bottom-right.png",
+                  "atlas_bounds": [
+                    3049,
+                    3049,
+                    3480,
+                    3480
+                  ]
+                },
+                {
+                  "name": "bottom-left",
+                  "png": "tmp/extraction-work/walters-w148-31r--opposed-blue-red-leaves-with-gray-interlace-cycle--corner-bottom-left.png",
+                  "atlas_bounds": [
+                    0,
+                    3049,
+                    431,
+                    3480
+                  ]
+                }
+              ],
+              "native_unit_size": [
+                2618,
+                431
+              ],
+              "atlas_size": [
+                3480,
+                3480
+              ],
+              "slice_pixels": 431,
+              "slice_percent": 12.385057471264368,
+              "repeat_ratio": 6.0742459396751745,
+              "join_adjustment": {
+                "pixels_at_each_end": 2,
+                "method": "average matching source collars; interior columns 2 through width-3 unchanged",
+                "source_cycle_verification": "The right source band has both upward and downward lobes for each of the blue and red phases: red-up, blue-down, blue-up, red-down recur between equivalent interlace crossings. All four shapes are needed to preserve the actual color-and-direction cycle. Original hand-painted spacing varies. The original vertical source is transposed exactly 90 degrees for the canonical horizontal assembly; the original orientation will be retained as an exact rotated component."
+              },
+              "corner_method": "Mitered reflections of the exact same native unit, using the repository’s four phase-matched corner geometry. Derived corners are distinct from the original fixed printer-frame corners.",
+              "status": "awaiting-repeat-and-corner-visual-review"
+            }
+          },
+          "corrected_preview_phase_bounds": [
+            902,
+            398,
+            966,
+            797
+          ],
+          "source_native_bounds": [
+            5919,
+            2611,
+            6338,
+            5229
+          ],
+          "inspected_preview_motif_centers": [
+            [
+              933,
+              444
+            ],
+            [
+              933,
+              751
+            ]
+          ],
+          "oriented_native_motif_centers": [
+            [
+              302,
+              215
+            ],
+            [
+              2316,
+              215
+            ]
+          ],
+          "native_corner_square_side": 604,
+          "transparent_support_padding_native_pixels": {
+            "top": 87,
+            "bottom": 98,
+            "left": 0,
+            "right": 0
+          },
+          "method": "Native period phase is selected from the unchanged source so the first and last motif centers lie approximately half a corner-square width from its ends. Transparent support padding centers the original painted band at the same corner-diagonal height. This avoids bisecting off-center leaf bodies at the miters. All source paint pixels retain original dimensions and RGB; no rescaling, new curves, cyclic color rearrangement or generic corner artwork."
+        },
+        "repeat_build": {
+          "unit_png": "tmp/extraction-work/walters-w148-31r--opposed-blue-red-leaves-with-gray-interlace-cycle--unit.png",
+          "bar_png": "tmp/extraction-work/walters-w148-31r--opposed-blue-red-leaves-with-gray-interlace-cycle--bar.png",
+          "frame_png": "tmp/extraction-work/walters-w148-31r--opposed-blue-red-leaves-with-gray-interlace-cycle--frame-atlas.png",
+          "corners": [
+            {
+              "name": "top-left",
+              "png": "tmp/extraction-work/walters-w148-31r--opposed-blue-red-leaves-with-gray-interlace-cycle--corner-top-left.png",
+              "atlas_bounds": [
+                0,
+                0,
+                604,
+                604
+              ]
+            },
+            {
+              "name": "top-right",
+              "png": "tmp/extraction-work/walters-w148-31r--opposed-blue-red-leaves-with-gray-interlace-cycle--corner-top-right.png",
+              "atlas_bounds": [
+                3222,
+                0,
+                3826,
+                604
+              ]
+            },
+            {
+              "name": "bottom-right",
+              "png": "tmp/extraction-work/walters-w148-31r--opposed-blue-red-leaves-with-gray-interlace-cycle--corner-bottom-right.png",
+              "atlas_bounds": [
+                3222,
+                3222,
+                3826,
+                3826
+              ]
+            },
+            {
+              "name": "bottom-left",
+              "png": "tmp/extraction-work/walters-w148-31r--opposed-blue-red-leaves-with-gray-interlace-cycle--corner-bottom-left.png",
+              "atlas_bounds": [
+                0,
+                3222,
+                604,
+                3826
+              ]
+            }
+          ],
+          "native_unit_size": [
+            2618,
+            604
+          ],
+          "atlas_size": [
+            3826,
+            3826
+          ],
+          "slice_pixels": 604,
+          "slice_percent": 15.786722425509671,
+          "repeat_ratio": 4.3344370860927155,
+          "join_adjustment": {
+            "pixels_at_each_end": 2,
+            "method": "average matching source collars; interior columns 2 through width-3 unchanged",
+            "source_cycle_verification": "The right source band has both upward and downward lobes for each of the blue and red phases: red-up, blue-down, blue-up, red-down recur between equivalent interlace crossings. All four shapes are needed to preserve the actual color-and-direction cycle. Original hand-painted spacing varies. The original vertical source is transposed exactly 90 degrees for the canonical horizontal assembly; the original orientation will be retained as an exact rotated component."
+          },
+          "corner_method": "Mitered reflections of the exact same native unit, using the repository’s four phase-matched corner geometry. Derived corners are distinct from the original fixed printer-frame corners.",
+          "status": "accepted-native-period-strip-and-four-corner-phases"
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Original full manuscript and native source cycles, five-period strips, white/dark frame atlases and all four native corner phases inspected. Full red/blue/gray medallion cycle and red-up/blue-down/blue-up/red-down interlace cycle retained. Source phase and transparent support padding center corner motifs without scaling paint. Original opaque gilding and filled painted ground are intrinsic. Only the audited two-column end join changes source pixels; original vertical direction is separately available as exact 90-degree tile/bar components. Derived corners are source-based miter reflections, not claims of untouched original page corners. SVG withheld because a trace would replace original paint and gilding.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/new-crops/_review/sources/walters-w148-31r.jpg",
+          "tmp/extraction-work/continuation-20261010/walters-w148-31r--gray-red-blue-lobed-leaves-in-gold-medallions-cycle--four-corners-native-proof.jpg",
+          "tmp/extraction-work/continuation-20261010/walters-w148-31r--opposed-blue-red-leaves-with-gray-interlace-cycle--four-corners-native-proof.jpg",
+          "tmp/extraction-work/walters-w148-31r--gray-red-blue-lobed-leaves-in-gold-medallions-cycle--frame-white.jpg",
+          "tmp/extraction-work/walters-w148-31r--gray-red-blue-lobed-leaves-in-gold-medallions-cycle--frame-dark.jpg",
+          "tmp/extraction-work/walters-w148-31r--opposed-blue-red-leaves-with-gray-interlace-cycle--frame-white.jpg",
+          "tmp/extraction-work/walters-w148-31r--opposed-blue-red-leaves-with-gray-interlace-cycle--frame-dark.jpg",
+          "tmp/extraction-work/walters-w148-31r--gray-red-blue-lobed-leaves-in-gold-medallions-cycle--bar-white.jpg",
+          "tmp/extraction-work/walters-w148-31r--opposed-blue-red-leaves-with-gray-interlace-cycle--bar-white.jpg"
+        ]
+      },
+      "categories": [
+        "geometric",
+        "floral"
+      ],
+      "subjects": [
+        "leaf",
+        "heart",
+        "interlace",
+        "band"
+      ],
+      "colors": [
+        "blue",
+        "red",
+        "gray",
+        "gold",
+        "black"
+      ],
+      "facing": "unclear",
+      "composition": "repeat-tile",
+      "usage_notes": "Complete original motif and color period. Original gilt/gray-green painted fields remain opaque. Original spacing and brush shapes are preserved within this chosen native period; source hand-painted cycles vary. Bars and four miter phases derive from this exact artwork, with only the audited two-column end join. These derived corners do not claim to be the original mixed-pattern page corners. Original alphabet glyphs and manuscript text are excluded.",
+      "repeat": {
+        "rationale": "The right source band has both upward and downward lobes for each of the blue and red phases: red-up, blue-down, blue-up, red-down recur between equivalent interlace crossings. All four shapes are needed to preserve the actual color-and-direction cycle. Original hand-painted spacing varies. The original vertical source is transposed exactly 90 degrees for the canonical horizontal assembly; the original orientation will be retained as an exact rotated component.",
+        "original_direction": "vertical",
+        "source_cycle": {
+          "inspected_preview_cycle_bounds": [
+            902,
+            398,
+            966,
+            797
+          ],
+          "preview_size": [
+            1348,
+            1600
+          ],
+          "native_source_bounds": [
+            5919,
+            2611,
+            6338,
+            5229
+          ],
+          "native_crop_size": [
+            419,
+            2618
+          ],
+          "native_direction": "vertical",
+          "orientation": "exact native 90-degree counterclockwise transpose",
+          "transparent_support_padding_native_pixels": {
+            "top": 87,
+            "bottom": 98,
+            "left": 0,
+            "right": 0
+          },
+          "intrinsic_ground_policy": "The original filled gilt and gray-green pattern fields remain opaque; no external manuscript paper is intentionally included. Native field/cycle boundaries must be compared before approval.",
+          "original_opaque_rgb_preserved": true,
+          "source_resized": false,
+          "candidate_sha256": "957f9877e795cd95512630297bad000511c3dd05ab4e4a97a8ac445888f56056"
+        },
+        "status": "accepted-native-period-strip-and-four-corner-phases",
+        "slice_pixels": 604,
+        "slice_percent": 15.786722425509671,
+        "repeat_ratio": 4.3344370860927155,
+        "native_unit_size": [
+          2618,
+          604
+        ],
+        "atlas_size": [
+          3826,
+          3826
+        ],
+        "join_adjustment": {
+          "pixels_at_each_end": 2,
+          "method": "average matching source collars; interior columns 2 through width-3 unchanged",
+          "source_cycle_verification": "The right source band has both upward and downward lobes for each of the blue and red phases: red-up, blue-down, blue-up, red-down recur between equivalent interlace crossings. All four shapes are needed to preserve the actual color-and-direction cycle. Original hand-painted spacing varies. The original vertical source is transposed exactly 90 degrees for the canonical horizontal assembly; the original orientation will be retained as an exact rotated component."
+        },
+        "corner_method": "Mitered reflections of the exact same native unit, using the repository’s four phase-matched corner geometry. Derived corners are distinct from the original fixed printer-frame corners."
+      },
+      "components": {
+        "bar": {
+          "png": "walters/walters-w148-31r--opposed-blue-red-leaves-with-gray-interlace-cycle--bar.png",
+          "png_sha256": "ec21caca23887f9fc425430a4ba09a293d6772130f5fe42cb867e906cff8f3ec",
+          "width": 13090,
+          "height": 604,
+          "set_id": "walters-w148-31r--opposed-blue-red-leaves-with-gray-interlace-cycle",
+          "set_name": "Initial \"S\" (Sed cum iudei) (walters-w148-31r) — opposed blue red leaves with gray interlace cycle",
+          "set_role": "bar"
+        },
+        "frame": {
+          "png": "walters/walters-w148-31r--opposed-blue-red-leaves-with-gray-interlace-cycle--frame-atlas.png",
+          "png_sha256": "9164927ae6c578bbbe492cd60c8159dc92a4c90149beec623f02ec0cf47e2603",
+          "width": 3826,
+          "height": 3826,
+          "set_id": "walters-w148-31r--opposed-blue-red-leaves-with-gray-interlace-cycle",
+          "set_name": "Initial \"S\" (Sed cum iudei) (walters-w148-31r) — opposed blue red leaves with gray interlace cycle",
+          "set_role": "frame"
+        },
+        "corner-top-left": {
+          "png": "walters/walters-w148-31r--opposed-blue-red-leaves-with-gray-interlace-cycle--corner-top-left.png",
+          "png_sha256": "3fbf109ca5b3622355cc5551540e82591083b9d40884c680c7c5160da792bd88",
+          "width": 604,
+          "height": 604,
+          "atlas_bounds": [
+            0,
+            0,
+            604,
+            604
+          ],
+          "method": "Mitered reflections of the exact same native unit, using the repository’s four phase-matched corner geometry. Derived corners are distinct from the original fixed printer-frame corners.",
+          "set_id": "walters-w148-31r--opposed-blue-red-leaves-with-gray-interlace-cycle",
+          "set_name": "Initial \"S\" (Sed cum iudei) (walters-w148-31r) — opposed blue red leaves with gray interlace cycle",
+          "set_role": "corner-top-left"
+        },
+        "corner-top-right": {
+          "png": "walters/walters-w148-31r--opposed-blue-red-leaves-with-gray-interlace-cycle--corner-top-right.png",
+          "png_sha256": "88ee8956b990930fb530bc02bb24f80508a4bb39d8e6436f22a7f98a1a1a6a29",
+          "width": 604,
+          "height": 604,
+          "atlas_bounds": [
+            3222,
+            0,
+            3826,
+            604
+          ],
+          "method": "Mitered reflections of the exact same native unit, using the repository’s four phase-matched corner geometry. Derived corners are distinct from the original fixed printer-frame corners.",
+          "set_id": "walters-w148-31r--opposed-blue-red-leaves-with-gray-interlace-cycle",
+          "set_name": "Initial \"S\" (Sed cum iudei) (walters-w148-31r) — opposed blue red leaves with gray interlace cycle",
+          "set_role": "corner-top-right"
+        },
+        "corner-bottom-right": {
+          "png": "walters/walters-w148-31r--opposed-blue-red-leaves-with-gray-interlace-cycle--corner-bottom-right.png",
+          "png_sha256": "8fb45bb46999508d52016e8761b5f08e1b620a5abff3e2254640209b18e3c99e",
+          "width": 604,
+          "height": 604,
+          "atlas_bounds": [
+            3222,
+            3222,
+            3826,
+            3826
+          ],
+          "method": "Mitered reflections of the exact same native unit, using the repository’s four phase-matched corner geometry. Derived corners are distinct from the original fixed printer-frame corners.",
+          "set_id": "walters-w148-31r--opposed-blue-red-leaves-with-gray-interlace-cycle",
+          "set_name": "Initial \"S\" (Sed cum iudei) (walters-w148-31r) — opposed blue red leaves with gray interlace cycle",
+          "set_role": "corner-bottom-right"
+        },
+        "corner-bottom-left": {
+          "png": "walters/walters-w148-31r--opposed-blue-red-leaves-with-gray-interlace-cycle--corner-bottom-left.png",
+          "png_sha256": "f0f303a9f8635c913d04aaa5d1b605618bf7e4197bb4f22145821bf4aa58c8bf",
+          "width": 604,
+          "height": 604,
+          "atlas_bounds": [
+            0,
+            3222,
+            604,
+            3826
+          ],
+          "method": "Mitered reflections of the exact same native unit, using the repository’s four phase-matched corner geometry. Derived corners are distinct from the original fixed printer-frame corners.",
+          "set_id": "walters-w148-31r--opposed-blue-red-leaves-with-gray-interlace-cycle",
+          "set_name": "Initial \"S\" (Sed cum iudei) (walters-w148-31r) — opposed blue red leaves with gray interlace cycle",
+          "set_role": "corner-bottom-left"
+        },
+        "rotated_tile": {
+          "png": "walters/walters-w148-31r--opposed-blue-red-leaves-with-gray-interlace-cycle--rotated-tile.png",
+          "png_sha256": "48037e4eef824aca6fa8d8e6a4dc782e7fcb9c81d00d5d6bd196f6cdea930652",
+          "width": 604,
+          "height": 2618,
+          "method": "Pixel-exact 90-degree clockwise transpose of the canonical horizontal native tile/bar, retaining the original source direction.",
+          "set_id": "walters-w148-31r--opposed-blue-red-leaves-with-gray-interlace-cycle",
+          "set_name": "Initial \"S\" (Sed cum iudei) (walters-w148-31r) — opposed blue red leaves with gray interlace cycle",
+          "set_role": "rotated_tile"
+        },
+        "rotated_bar": {
+          "png": "walters/walters-w148-31r--opposed-blue-red-leaves-with-gray-interlace-cycle--rotated-bar.png",
+          "png_sha256": "ce6e1662c6609fc160e786e133093e0026fd57ca49efe64b7b3eee1cbe9cd564",
+          "width": 604,
+          "height": 13090,
+          "method": "Pixel-exact 90-degree clockwise transpose of the canonical horizontal native tile/bar, retaining the original source direction.",
+          "set_id": "walters-w148-31r--opposed-blue-red-leaves-with-gray-interlace-cycle",
+          "set_name": "Initial \"S\" (Sed cum iudei) (walters-w148-31r) — opposed blue red leaves with gray interlace cycle",
+          "set_role": "rotated_bar"
+        }
+      },
+      "sets": [
+        {
+          "id": "walters-w148-31r-set",
+          "name": "Initial \"S\" (Sed cum iudei) (walters-w148-31r)",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A complete four-shape blue-red cycle of opposed lobed leaves within gray interlacing ribbons on gilt ground.",
+      "set_label": "Initial \"S\" (Sed cum iudei) (walters-w148-31r)"
+    },
+    {
+      "id": "walters-w148-31r--three-gold-trefoils-on-connected-serpentine-scroll",
+      "name": "three-gold-trefoils-on-connected-serpentine-scroll",
+      "source_id": "walters-w148-31r",
+      "source_folder": "walters",
+      "asset_type": "decoration",
+      "description": "Three gold trefoil blossoms on a connected serpentine gold scroll with its original fine pale contour lines. Part of the Initial \"S\" (Sed cum iudei) (walters-w148-31r) set.",
+      "source_region": [
+        1050,
+        1358,
+        2750,
+        2090
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        25,
+        88,
+        1574,
+        589
+      ],
+      "export_crop_coordinate_space": "original-native-source-region",
+      "width": 1549,
+      "height": 501,
+      "png": "walters/walters-w148-31r--three-gold-trefoils-on-connected-serpentine-scroll.png",
+      "png_sha256": "9b5afe11d6ca3eb56c4595c5c16a922d7920a40f06b36e73e8691d8f0e6e6403",
+      "provenance": {
+        "institution": "Walters Art Museum",
+        "title": "Initial \"S\" (Sed cum iudei)",
+        "object_identifier": "W.148, fol. 31r",
+        "date": "First half of the 14th century CE",
+        "record_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/html/W148/description.html",
+        "image_rights": "CC0 (Digital Walters manuscript images)",
+        "rights_url": "https://www.thedigitalwalters.org/01_ACCESS_WALTERS_MANUSCRIPTS.html",
+        "source_file": "tmp/new-assets/walters/walters-w148-31r--initial-s-sed-cum-iudei--master.tif",
+        "source_sha256": "9290421954a6a5dd80659798644e38ee2325244670a6f58202f2fec1b001567c",
+        "source_metadata": "tmp/new-assets/walters/walters-w148-31r.json",
+        "image_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/W148/data/W.148/master/W148_000065_819.tif",
+        "method": "native-source-continuous-edge-matting"
+      },
+      "extraction": {
+        "candidate_png": "tmp/extraction-work/continuation-20261010/walters-w148-31r--three-gold-trefoils-on-connected-serpentine-scroll--refined-original-native-candidate.png",
+        "native_export_crop": [
+          25,
+          88,
+          1574,
+          589
+        ],
+        "export_crop_coordinate_space": "original-native-source-region",
+        "annotation_json": "tmp/extraction-work/continuation-20261010/walters-w148-31r--three-gold-trefoils-on-connected-serpentine-scroll--refined-original-native-audit.json",
+        "trimap_png": "tmp/extraction-work/continuation-20261010/walters-w148-31r--three-gold-trefoils-on-connected-serpentine-scroll--refined-original-native-trimap.png",
+        "native_source_size": [
+          1700,
+          732
+        ],
+        "native_upscaling": false,
+        "source_pixels_redrawn": false,
+        "original_opaque_rgb_preserved": true,
+        "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+        "alpha_guide": {
+          "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+          "guide_png": "tmp/extraction-work/continuation-20261010/walters-w148-31r--three-gold-trefoils-on-connected-serpentine-scroll--native-alpha-reference.png",
+          "guide_sha256": "195d89c63141e4a76ba135200cb1e961fb2db5de232433d5d437c561083115a3",
+          "native_original": "tmp/extraction-work/continuation-20261010/walters-w148-31r--three-gold-trefoils-on-connected-serpentine-scroll--original.png",
+          "similarity_ai_alpha_to_original": [
+            [
+              0.7406874594029086,
+              -0.0015804748907953172,
+              0.4306255253694115
+            ],
+            [
+              0.0015804748907953172,
+              0.7406874594029086,
+              52.87865378143845
+            ]
+          ],
+          "matching_feature_pairs": 348,
+          "inlier_feature_pairs": 183,
+          "inlier_rms_native_pixels": 2.385701503544201,
+          "source_inspection_factor": 1,
+          "unknown_edge_band_native_pixels": 3,
+          "edge_solve_tile_size": 640,
+          "edge_solve_halo": 32,
+          "edge_solve_tiles": 3,
+          "original_opaque_rgb_preserved": true
+        },
+        "status": "awaiting-original-white-dark-review",
+        "native_refinement": {
+          "method": "Original registered native alpha retained for the three gold trefoils and connected scroll. The native source input is expanded below/right, and the source-visible narrow terminal is restored up to its actual junction with the broader capital S using inspected native contour ownership and a continuous closed-form 8-pixel uncertainty band. Original RGB is unwarped, unresized and unchanged at opaque pixels. No hidden tip or new ornament is painted; larger glyph, counter grounds and separate pale dots remain excluded.",
+          "source": "tmp/extraction-work/continuation-20261010/walters-w148-31r--three-gold-trefoils-on-connected-serpentine-scroll--expanded-original.png",
+          "previous_native_matte": {
+            "candidate_png": "tmp/extraction-work/continuation-20261010/walters-w148-31r--three-gold-trefoils-on-connected-serpentine-scroll--registered-native-candidate.png",
+            "native_export_crop": [
+              30,
+              92,
+              1576,
+              519
+            ],
+            "export_crop_coordinate_space": "original-native-source-region",
+            "annotation_json": "tmp/extraction-work/continuation-20261010/walters-w148-31r--three-gold-trefoils-on-connected-serpentine-scroll--registered-native-annotation.json",
+            "trimap_png": "tmp/extraction-work/continuation-20261010/walters-w148-31r--three-gold-trefoils-on-connected-serpentine-scroll--registered-native-trimap.png",
+            "native_source_size": [
+              1634,
+              519
+            ],
+            "native_upscaling": false,
+            "source_pixels_redrawn": false,
+            "original_opaque_rgb_preserved": true,
+            "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+            "alpha_guide": {
+              "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+              "guide_png": "tmp/extraction-work/continuation-20261010/walters-w148-31r--three-gold-trefoils-on-connected-serpentine-scroll--native-alpha-reference.png",
+              "guide_sha256": "195d89c63141e4a76ba135200cb1e961fb2db5de232433d5d437c561083115a3",
+              "native_original": "tmp/extraction-work/continuation-20261010/walters-w148-31r--three-gold-trefoils-on-connected-serpentine-scroll--original.png",
+              "similarity_ai_alpha_to_original": [
+                [
+                  0.7406874594029086,
+                  -0.0015804748907953172,
+                  0.4306255253694115
+                ],
+                [
+                  0.0015804748907953172,
+                  0.7406874594029086,
+                  52.87865378143845
+                ]
+              ],
+              "matching_feature_pairs": 348,
+              "inlier_feature_pairs": 183,
+              "inlier_rms_native_pixels": 2.385701503544201,
+              "source_inspection_factor": 1,
+              "unknown_edge_band_native_pixels": 3,
+              "edge_solve_tile_size": 640,
+              "edge_solve_halo": 32,
+              "edge_solve_tiles": 3,
+              "original_opaque_rgb_preserved": true
+            },
+            "status": "awaiting-original-white-dark-review"
+          },
+          "unknown_band_native_pixels": 8,
+          "source_rgb_redrawn": false,
+          "source_resized": false,
+          "original_opaque_rgb_preserved": true,
+          "ownership": "tmp/extraction-work/continuation-20261010/walters-w148-31r--three-gold-trefoils-on-connected-serpentine-scroll--refined-original-native-ownership.png",
+          "ownership_sha256": "d5d3429263c5a742def0230c4164320c86d3f871ea1bf753b8cbd5eb149c23d9",
+          "terminal_source_detail": "tmp/extraction-work/continuation-20261010/walters-w148-31r--three-gold-trefoils-on-connected-serpentine-scroll--right-terminal-coordinate-detail.png",
+          "terminal_source_detail_origin_in_input": [
+            1204,
+            199
+          ],
+          "inspected_visible_terminal_ownership_polygon": [
+            [
+              1484,
+              354
+            ],
+            [
+              1470,
+              389
+            ],
+            [
+              1453,
+              431
+            ],
+            [
+              1453,
+              467
+            ],
+            [
+              1462,
+              488
+            ],
+            [
+              1480,
+              504
+            ],
+            [
+              1500,
+              514
+            ],
+            [
+              1511,
+              533
+            ],
+            [
+              1526,
+              554
+            ],
+            [
+              1552,
+              581
+            ],
+            [
+              1563,
+              593
+            ],
+            [
+              1554,
+              551
+            ],
+            [
+              1549,
+              517
+            ],
+            [
+              1542,
+              485
+            ],
+            [
+              1530,
+              471
+            ],
+            [
+              1513,
+              460
+            ],
+            [
+              1505,
+              445
+            ],
+            [
+              1511,
+              417
+            ],
+            [
+              1522,
+              403
+            ],
+            [
+              1513,
+              373
+            ],
+            [
+              1503,
+              356
+            ]
+          ]
+        },
+        "tool": "Original native scan / closed-form edge alpha and foreground decontamination",
+        "pixel_exact": false,
+        "ownership_guide_prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. Select only the small independent internal ornament: the serpentine golden scroll joining the THREE small golden trefoil blossoms within the upper blue/rose counter. Keep all three blossoms, their small stems, every complete spiral and the fine pale outlines belonging to this scroll. Remove the much broader golden capital-S stroke bordering the region at top/bottom/outer sides, the blue and rose counter grounds, and the separate pale background dots. This is the internal floral frieze, not the letter. Where the small scroll meets the larger glyph, retain the original visible ornament end without completing hidden or nonexistent branches. Preserve the connected scroll as one ornament, rather than presenting three separate trefoils. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_ownership_guide": {
+          "file": "tmp/extraction-work/walters-w148-31r--three-gold-trefoils-on-connected-serpentine-scroll--retained-ai-extraction.png",
+          "sha256": "195d89c63141e4a76ba135200cb1e961fb2db5de232433d5d437c561083115a3",
+          "purpose": "Retained AI alpha guide only; delivered opaque RGB belongs to the unchanged native source."
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Original source, complete page, expanded right-terminal source detail and white/dark native proof inspected. All three trefoils and the connecting gold scroll are intact, with native original opaque gilding RGB. Expanded input preserves the actual thin stem through its visible contact with the capital, without inventing hidden continuation. Broader glyph strokes, blue/rose counter grounds and independent pale dots are excluded. Finite ornament only; no source-established repeat or faithful vector is inferred.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/walters148-gold-trefoil-native-registration-current-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/walters-w148-31r--three-gold-trefoils-on-connected-serpentine-scroll--right-terminal-coordinate-detail.png",
+          "tmp/new-crops/_review/sources/walters-w148-31r.jpg"
+        ]
+      },
+      "categories": [
+        "floral",
+        "scrollwork"
+      ],
+      "subjects": [
+        "trefoil",
+        "flower",
+        "scroll",
+        "curl"
+      ],
+      "colors": [
+        "gold",
+        "brown",
+        "cream",
+        "black"
+      ],
+      "facing": "unclear",
+      "composition": "single-ornament",
+      "usage_notes": "Finite connected gold scroll with three trefoil flowers extracted from the decorative counter of a capital S. The actual thin terminal is retained up to its visible junction with the broader glyph, without reconstructing hidden continuation. Alphabet strokes, blue/rose grounds and independent pale dots are excluded. Native gilding/paint RGB and source proportions are retained; no repeat or vector approximation is inferred.",
+      "sets": [
+        {
+          "id": "walters-w148-31r-set",
+          "name": "Initial \"S\" (Sed cum iudei) (walters-w148-31r)",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "Three gold trefoil blossoms on a connected serpentine gold scroll with its original fine pale contour lines.",
+      "set_label": "Initial \"S\" (Sed cum iudei) (walters-w148-31r)"
+    }
+  ]
+}

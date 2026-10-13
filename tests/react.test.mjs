@@ -7,8 +7,8 @@ import { findOrnaments } from '../lib/index.js';
 
 test('React SSR renders every design without DOM globals', () => {
   for (const item of findOrnaments()) {
-    const Component = item.kind === 'standalone' ? OrnamentImage : OrnamentFrame;
-    const markup = renderToString(h(Component, { design: item.name, ref: createRef(), id: 'art', className: 'custom', style: { padding: '12px' }, assetsBase: '/art/' }, item.kind === 'standalone' ? undefined : h('input', { defaultValue: 'Preserved content' })));
+    const Component = item.kind === 'standalone' ? OrnamentImage : item.uses.includes('frame') ? OrnamentFrame : OrnamentDivider;
+    const markup = renderToString(h(Component, { design: item.name, ref: createRef(), id: 'art', className: 'custom', style: { padding: '12px' }, assetsBase: '/art/' }, !item.uses.includes('frame') ? undefined : h('input', { defaultValue: 'Preserved content' })));
     assert.ok(markup.includes('ornament-'));
     assert.ok(markup.includes('/art/'));
     assert.ok(markup.includes('padding:12px'));

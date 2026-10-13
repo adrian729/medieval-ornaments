@@ -1,0 +1,550 @@
+{
+  "source_id": "walters-w186-291v",
+  "assets": [
+    {
+      "id": "walters-w186-291v--fixed-floral-page-margin-with-acanthus-and-gold-ivy",
+      "name": "fixed-floral-page-margin-with-acanthus-and-gold-ivy",
+      "source_id": "walters-w186-291v",
+      "source_folder": "walters",
+      "asset_type": "decoration",
+      "description": "A finite floral manuscript margin with blue and orange acanthus, flowering green stems and fine gold ivy. Part of the St. Margaret emerging from Dragon (walters-w186-291v) set.",
+      "source_region": [
+        2849,
+        1337,
+        6685,
+        6428
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        0,
+        2,
+        1072,
+        1445
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 1072,
+      "height": 1443,
+      "png": "walters/walters-w186-291v--fixed-floral-page-margin-with-acanthus-and-gold-ivy.png",
+      "png_sha256": "7517a9862852559dde71af94d43cd457bbb29b0888c18482f19a6ce879006916",
+      "provenance": {
+        "institution": "Walters Art Museum",
+        "title": "St. Margaret emerging from Dragon",
+        "object_identifier": "W.186, fol. 291v",
+        "date": "Ca. 1460 CE",
+        "record_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/html/W186/description.html",
+        "image_rights": "CC0 (Digital Walters manuscript images)",
+        "rights_url": "https://www.thedigitalwalters.org/01_ACCESS_WALTERS_MANUSCRIPTS.html",
+        "source_file": "tmp/new-assets/walters/walters-w186-291v--st-margaret-emerging-from-dragon--master.tif",
+        "source_sha256": "c1fd00c6e1be1d51bc000cdd4c0a666a358a15d0eb83b2e9d4e19b90e0d18daf",
+        "source_metadata": "tmp/new-assets/walters/walters-w186-291v.json",
+        "image_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/W186/data/W.186/master/W186_000586_1200.tif",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. Isolate ALL the original exterior floral page ornament: every large blue/orange acanthus scroll, green leafy stem, original pink/blue/orange flowers, vases where present, tiny gilded ivy leaves and fine dark connecting twigs. Remove the central miniature COMPLETELY including its painted background, arch/frame, figures and floor; remove the lower letter/text panel COMPLETELY including its frame and large capital. Remove the parchment around and BETWEEN every leaf and twig. Keep original flowers and blue/gold painted surfaces opaque. This is the source finite margin with its actual unequal sides, not a seamless repeat: do not invent a top band, new flowers, new corners, hidden connecting stems or symmetric counterparts. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_extraction": "tmp/extraction-work/walters-w186-291v--fixed-floral-page-margin-with-acanthus-and-gold-ivy--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "587176389d0e1d7f8e42b58fc0a2718a725eab8ad00e4f9e3b6a73dc2d2e808e",
+        "retained_generated_size": [
+          1089,
+          1445
+        ],
+        "resolution_cap_scale": 1,
+        "resolution_capped_size": [
+          1089,
+          1445
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          3698,
+          4980
+        ],
+        "native_subject_size_evidence": {
+          "method": "Individually inspected native visible subject bounds, excluding input-region whitespace and neighbours.",
+          "preview_subject_bounds": [
+            550,
+            264,
+            1247,
+            1203
+          ],
+          "preview_size": [
+            1278,
+            1600
+          ],
+          "original_size": [
+            6780,
+            8486
+          ]
+        },
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 105893
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Original ROIs and final white/dark proofs inspected individually. All three original profile heads in the upper connected margin retained; both faces in the long left rod remain correctly oriented. Each hooded/lower head, stem, curl, original worn gilding and colored/pale fill retained; letter H/R/C/P and paper rules excluded. Two finite unequal floral margins retain actual flowering branches, acanthus, vases and fine gilt ivy, with original center/letter panels removed and no fabricated uniform repeat.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/walters-margin-final-ready-results-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/walters-margin-final-ready-results-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/walters-margin-final-ready-results-proof-3.jpg"
+        ]
+      },
+      "categories": [
+        "floral",
+        "scrollwork"
+      ],
+      "subjects": [
+        "flower",
+        "acanthus",
+        "ivy",
+        "leaf",
+        "margin"
+      ],
+      "colors": [
+        "blue",
+        "orange",
+        "green",
+        "gold",
+        "pink"
+      ],
+      "facing": "unclear",
+      "composition": "single-ornament",
+      "usage_notes": "Original independent specimen with printed plate rules and page removed. AI-assisted extraction remains approximate; source bounds, actual native subject cap, original and exact prompt retained.",
+      "sets": [
+        {
+          "id": "walters-w186-291v-set",
+          "name": "St. Margaret emerging from Dragon (walters-w186-291v)",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A finite floral manuscript margin with blue and orange acanthus, flowering green stems and fine gold ivy.",
+      "set_label": "St. Margaret emerging from Dragon (walters-w186-291v)"
+    },
+    {
+      "id": "walters-w186-291v--saint-margaret-emerging-from-winged-dragon",
+      "name": "saint-margaret-emerging-from-winged-dragon",
+      "source_id": "walters-w186-291v",
+      "source_folder": "walters",
+      "asset_type": "illustration",
+      "description": "Saint Margaret emerging from a pale winged dragon within its original low crenellated foreground wall. Part of the St. Margaret emerging from Dragon (walters-w186-291v) set.",
+      "source_region": [
+        4154,
+        2291,
+        6080,
+        4232
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        26,
+        0,
+        1226,
+        1261
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 1200,
+      "height": 1261,
+      "png": "walters/walters-w186-291v--saint-margaret-emerging-from-winged-dragon.png",
+      "png_sha256": "b59ae4468fa6df8377cc599816de24c99d87d22a0de46cde72ba350e34155b4e",
+      "provenance": {
+        "institution": "Walters Art Museum",
+        "title": "St. Margaret emerging from Dragon",
+        "object_identifier": "W.186, fol. 291v",
+        "date": "Ca. 1460 CE",
+        "record_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/html/W186/description.html",
+        "image_rights": "CC0 (Digital Walters manuscript images)",
+        "rights_url": "https://www.thedigitalwalters.org/01_ACCESS_WALTERS_MANUSCRIPTS.html",
+        "source_file": "tmp/new-assets/walters/walters-w186-291v--st-margaret-emerging-from-dragon--master.tif",
+        "source_sha256": "c1fd00c6e1be1d51bc000cdd4c0a666a358a15d0eb83b2e9d4e19b90e0d18daf",
+        "source_metadata": "tmp/new-assets/walters/walters-w186-291v.json",
+        "image_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/W186/data/W.186/master/W186_000586_1200.tif",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. Extract the connected Saint Margaret, winged dragon and ENTIRE original low GRAY CRENELLATED FOREGROUND WALL. The wall is a broad V/U-shaped angular enclosure: left wall rises diagonally from the FAR LEFT at the blue skirt level, bottom gray band spans the full source width, and right wall rises to the FAR RIGHT beside the dragon wing. Keep all original battlements, wall folds, two triangular GREEN PAINTED support corners within the gray wall if actually touching it, dragon claws and whole source-visible wall ends exactly as drawn. Do not shorten this enclosure to a tiny straight wall just under the dragon's feet; do not invent new battlements. Keep original halo, gold garment, cross-staff/praying hands, all BLUE skirt pieces including the part extending under the dragon's jaw, whole green-yellow wing, thin yellow curled tail, all paws. Remove the distant blue star curtain, upper unrelated angel musicians, gold grid and RED TILED FLOOR (also inside the V-shaped enclosure) so genuine openings are transparent. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_extraction": "tmp/extraction-work/walters-w186-291v--saint-margaret-emerging-from-winged-dragon--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "28974c995badc42fea7d9226dfa7a53dd194a26510fba512b7bf01061f8250f1",
+        "retained_generated_size": [
+          1247,
+          1261
+        ],
+        "resolution_cap_scale": 1,
+        "resolution_capped_size": [
+          1247,
+          1261
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          1836,
+          1872
+        ],
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 12790
+        },
+        "native_subject_size_evidence": {
+          "method": "Individually inspected native visible subject bounds, excluding input-region whitespace and neighbours.",
+          "preview_subject_bounds": [
+            793,
+            438,
+            1139,
+            791
+          ],
+          "preview_size": [
+            1278,
+            1600
+          ],
+          "original_size": [
+            6780,
+            8486
+          ]
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Expanded original source comparisons confirm BOTH full long red/blue wing structures, their source-visible tips below the arch, full blue robe hems, harp openings and wind instrument. Saint Margaret retains the entire original V-shaped foreground wall and green touching corner supports with all claws, long curled tail and blue skirt pieces; distant floor/curtain clear. Original visible source forms retained; AI appearance approximate.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/three-walters-wings-wall-corrected-results-proof-1.jpg"
+        ]
+      },
+      "categories": [
+        "humans",
+        "fantasy"
+      ],
+      "subjects": [
+        "saint",
+        "dragon",
+        "wing",
+        "wall"
+      ],
+      "colors": [
+        "blue",
+        "gold",
+        "green",
+        "gray"
+      ],
+      "facing": "left",
+      "composition": "multiple-figures",
+      "usage_notes": "Complete source-visible contacting group. Expanded source input prevents clipping wings; low original enclosure retained where physically supporting figures. AI-assisted approximate extraction with exact original/prompts and native visible subject cap.",
+      "sets": [
+        {
+          "id": "walters-w186-291v-set",
+          "name": "St. Margaret emerging from Dragon (walters-w186-291v)",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "Saint Margaret emerging from a pale winged dragon within its original low crenellated foreground wall.",
+      "set_label": "St. Margaret emerging from Dragon (walters-w186-291v)"
+    },
+    {
+      "id": "walters-w186-291v--upper-left-angel-with-musical-instrument-visible-bust",
+      "name": "upper-left-angel-with-musical-instrument-visible-bust",
+      "source_id": "walters-w186-291v",
+      "source_folder": "walters",
+      "asset_type": "illustration",
+      "description": "The visible bust of a pink and green angel holding a small musical instrument. Part of the St. Margaret emerging from Dragon (walters-w186-291v) set.",
+      "source_region": [
+        4186,
+        1740,
+        4769,
+        2408
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        24,
+        11,
+        543,
+        614
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 519,
+      "height": 603,
+      "png": "walters/walters-w186-291v--upper-left-angel-with-musical-instrument-visible-bust.png",
+      "png_sha256": "a6d20c3063255162df39d4055cd6dd3d1f94bc42fc2805c132fee7019dfb0737",
+      "provenance": {
+        "institution": "Walters Art Museum",
+        "title": "St. Margaret emerging from Dragon",
+        "object_identifier": "W.186, fol. 291v",
+        "date": "Ca. 1460 CE",
+        "record_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/html/W186/description.html",
+        "image_rights": "CC0 (Digital Walters manuscript images)",
+        "rights_url": "https://www.thedigitalwalters.org/01_ACCESS_WALTERS_MANUSCRIPTS.html",
+        "source_file": "tmp/new-assets/walters/walters-w186-291v--st-margaret-emerging-from-dragon--master.tif",
+        "source_sha256": "c1fd00c6e1be1d51bc000cdd4c0a666a358a15d0eb83b2e9d4e19b90e0d18daf",
+        "source_metadata": "tmp/new-assets/walters/walters-w186-291v.json",
+        "image_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/W186/data/W.186/master/W186_000586_1200.tif",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. ONLY the actual SOURCE-VISIBLE UPPER BODY of the upper LEFT angel musician holding its gold lute. Keep original pale face, hair/wings, pink and green garment and all visible hands and strings. The original waist/lower body is obscured by the blue background curtain: retain the original visible cutoff, do NOT create a full body, new legs, new sleeves or hidden lute parts. Remove curtain, mosaic field and original arch border. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_extraction": "tmp/extraction-work/walters-w186-291v--upper-left-angel-with-lute-visible-bust--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "12aac4a00ce66cbff3b55169347d309df175607c23ddd7748f8205eff9f2e323",
+        "retained_generated_size": [
+          1171,
+          1343
+        ],
+        "resolution_cap_scale": 0.4639927073837739,
+        "resolution_capped_size": [
+          543,
+          623
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          509,
+          621
+        ],
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 336
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Compared original region and white/dark native-cap renders. Full visible figures, green leg armor, contacting lion, original props, wing colors and genuine harp/desk openings checked. Two visible busts retain only source-visible lower edges; no invented hidden legs. Three other batch outputs separately rejected for correction.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/eleven-walters-weapons-generated-results-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/eleven-walters-weapons-generated-results-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/eleven-walters-weapons-generated-results-proof-3.jpg"
+        ]
+      },
+      "categories": [
+        "humans",
+        "music"
+      ],
+      "subjects": [
+        "angel",
+        "wing",
+        "robe",
+        "musical-instrument"
+      ],
+      "colors": [
+        "pink",
+        "green",
+        "gold",
+        "cream",
+        "brown"
+      ],
+      "facing": "right",
+      "composition": "single-figure",
+      "usage_notes": "Original independent specimen with printed plate rules and page removed. AI-assisted extraction remains approximate; source bounds, actual native subject cap, original and exact prompt retained.",
+      "identity_history": [
+        {
+          "previous_id": "walters-w186-291v--upper-left-angel-with-lute-visible-bust",
+          "reason": "The small instrument type is ambiguous in the original; preserve ambiguity rather than asserting a lute or bowed vielle."
+        }
+      ],
+      "selection_history": [
+        {
+          "previous_values": {
+            "categories": [
+              "humans",
+              "music"
+            ],
+            "subjects": [
+              "angel",
+              "wing",
+              "robe",
+              "musical instrument"
+            ],
+            "composition": "single-figure"
+          },
+          "reason": "Normalize new staging metadata to shared category/composition/subject vocabulary; factual descriptions and original source metadata unchanged."
+        }
+      ],
+      "sets": [
+        {
+          "id": "walters-w186-291v-set",
+          "name": "St. Margaret emerging from Dragon (walters-w186-291v)",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "The visible bust of a pink and green angel holding a small musical instrument.",
+      "set_label": "St. Margaret emerging from Dragon (walters-w186-291v)"
+    },
+    {
+      "id": "walters-w186-291v--upper-right-angel-with-trumpet-visible-bust",
+      "name": "upper-right-angel-with-trumpet-visible-bust",
+      "source_id": "walters-w186-291v",
+      "source_folder": "walters",
+      "asset_type": "illustration",
+      "description": "The source-visible upper body of the right angel playing a long red and gold trumpet above Saint Margaret. Part of the St. Margaret emerging from Dragon (walters-w186-291v) set.",
+      "source_region": [
+        5104,
+        1697,
+        5979,
+        2445
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        13,
+        28,
+        818,
+        697
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 805,
+      "height": 669,
+      "png": "walters/walters-w186-291v--upper-right-angel-with-trumpet-visible-bust.png",
+      "png_sha256": "027c4982fb516e426c50b2951c56413b2a065f1dc0c4683b0f48ff48407c6f7d",
+      "provenance": {
+        "institution": "Walters Art Museum",
+        "title": "St. Margaret emerging from Dragon",
+        "object_identifier": "W.186, fol. 291v",
+        "date": "Ca. 1460 CE",
+        "record_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/html/W186/description.html",
+        "image_rights": "CC0 (Digital Walters manuscript images)",
+        "rights_url": "https://www.thedigitalwalters.org/01_ACCESS_WALTERS_MANUSCRIPTS.html",
+        "source_file": "tmp/new-assets/walters/walters-w186-291v--st-margaret-emerging-from-dragon--master.tif",
+        "source_sha256": "c1fd00c6e1be1d51bc000cdd4c0a666a358a15d0eb83b2e9d4e19b90e0d18daf",
+        "source_metadata": "tmp/new-assets/walters/walters-w186-291v.json",
+        "image_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/W186/data/W.186/master/W186_000586_1200.tif",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. ONLY the actual SOURCE-VISIBLE upper RIGHT angel musician with the complete long red/gold trumpet extending up-left from its mouth. Keep the original face, pale head covering/wings, green garment, hands and the entire actual thin trumpet/bell. The source lower body is obscured by blue curtain, so preserve that exact visible cutoff without making new legs, a full body or hidden anatomy. Remove the curtain and gold mosaic, neighbouring figure and arch border. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_extraction": "tmp/extraction-work/walters-w186-291v--upper-right-angel-with-trumpet-visible-bust--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "ba809f46ab224ce060886e488cfaf7844f456ba43590049873c1b0613cfa8a77",
+        "retained_generated_size": [
+          1356,
+          1159
+        ],
+        "resolution_cap_scale": 0.6035141329258976,
+        "resolution_capped_size": [
+          818,
+          699
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          790,
+          684
+        ],
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 1227
+        },
+        "native_subject_size_evidence": {
+          "method": "Individually inspected native visible subject bounds, excluding input-region whitespace and neighbours.",
+          "preview_subject_bounds": [
+            971,
+            327,
+            1120,
+            456
+          ],
+          "preview_size": [
+            1278,
+            1600
+          ],
+          "original_size": [
+            6780,
+            8486
+          ]
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Compared original region and white/dark native-cap renders. Full visible figures, green leg armor, contacting lion, original props, wing colors and genuine harp/desk openings checked. Two visible busts retain only source-visible lower edges; no invented hidden legs. Three other batch outputs separately rejected for correction.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/eleven-walters-weapons-generated-results-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/eleven-walters-weapons-generated-results-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/eleven-walters-weapons-generated-results-proof-3.jpg"
+        ]
+      },
+      "categories": [
+        "humans",
+        "music"
+      ],
+      "subjects": [
+        "angel",
+        "trumpet",
+        "wing",
+        "robe"
+      ],
+      "colors": [
+        "green",
+        "red",
+        "gold",
+        "cream",
+        "brown"
+      ],
+      "facing": "left",
+      "composition": "single-figure",
+      "usage_notes": "Original independent specimen with printed plate rules and page removed. AI-assisted extraction remains approximate; source bounds, actual native subject cap, original and exact prompt retained.",
+      "sets": [
+        {
+          "id": "walters-w186-291v-set",
+          "name": "St. Margaret emerging from Dragon (walters-w186-291v)",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "The source-visible upper body of the right angel playing a long red and gold trumpet above Saint Margaret.",
+      "set_label": "St. Margaret emerging from Dragon (walters-w186-291v)"
+    }
+  ]
+}

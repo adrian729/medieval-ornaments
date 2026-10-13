@@ -1,0 +1,135 @@
+{
+  "source_id": "cma-2001-79-b",
+  "assets": [
+    {
+      "id": "cma-2001-79-b--tall-silver-acanthus-scroll-with-red-and-blue-flowers",
+      "name": "tall-silver-acanthus-scroll-with-red-and-blue-flowers",
+      "source_id": "cma-2001-79-b",
+      "source_folder": "cleveland",
+      "asset_type": "decoration",
+      "description": "A tall silver gray acanthus scroll intertwined with red stemmed flowers and green leaves.",
+      "source_region": [
+        3271,
+        135,
+        4148,
+        5243
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        156,
+        0,
+        586,
+        2172
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 430,
+      "height": 2172,
+      "png": "cleveland/cma-2001-79-b--tall-silver-acanthus-scroll-with-red-and-blue-flowers.png",
+      "png_sha256": "0981dfa537e5093b174e77201780a07e703bd57a1bae9f1dfb325b09b16dd6b0",
+      "provenance": {
+        "institution": "Cleveland Museum of Art",
+        "title": "Leaf from a Book of Hours: Text with Illustrated Border (verso)",
+        "object_identifier": "2001.79.b",
+        "date": "c. 1510",
+        "record_url": "https://clevelandart.org/art/2001.79.b",
+        "image_rights": "CC0; share_license_status=CC0",
+        "rights_url": "https://www.clevelandart.org/open-access",
+        "source_file": "tmp/new-assets/cleveland/cma-2001-79-b--leaf-from-a-book-of-hours-text-with-illustrated-border-verso--master.tif",
+        "source_sha256": "0d90fea64ea8ab48fbd455ce35394aad89858f0753d88cfec28f46db1aaea748",
+        "source_metadata": "tmp/new-assets/cleveland/cma-2001-79-b.json",
+        "image_url": "https://openaccess-cdn.clevelandart.org/2001.79.b/2001.79.b_full.tif",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. Extract ONLY full right-hand floral ornament: entire silver/gray S-curled acanthus with pale highlights and every thin curled tip, plus all original red-stemmed red/blue flowers and green leaves running behind and around it. Keep the source-visible connected plant as ONE finite ornament. Remove gold dotted background, all straight page borders and text. Silver gray leaves stay opaque; ALL real gaps in scrolls and between branches transparent. No hidden reconstruction where acanthus occludes stems. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_extraction": "tmp/extraction-work/cma-2001-79-b--tall-silver-acanthus-scroll-with-red-and-blue-flowers--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "677d397c3ed08b1500b4ab73cf71ed15875b1cb036a9e79dbdca32fbf0d20dba",
+        "retained_generated_size": [
+          724,
+          2172
+        ],
+        "resolution_cap_scale": 1,
+        "resolution_capped_size": [
+          724,
+          2172
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          823,
+          5071
+        ],
+        "native_subject_size_evidence": {
+          "method": "Individually inspected native visible subject bounds, excluding input-region whitespace and neighbours.",
+          "preview_subject_bounds": [
+            975,
+            44,
+            1218,
+            1542
+          ],
+          "preview_size": [
+            1267,
+            1600
+          ],
+          "original_size": [
+            4290,
+            5416
+          ]
+        },
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 63829
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Individually compared full retained subjects with original source region, on white and dark. Entire source-visible bodies, shared hands and long staffs, stems, basal leaves and scroll openings retained. Whole landscapes retain intrinsic terrain and separate contacting pairs are also available. Native subject caps enforced without stretching; generated extraction explicitly approximate.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/recovered-completed-results-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/recovered-completed-results-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/recovered-completed-results-proof-3.jpg",
+          "tmp/extraction-work/continuation-20261010/recovered-completed-results-proof-5.jpg",
+          "tmp/extraction-work/continuation-20261010/corrected-pair-artifact-mapping-results-proof-1.jpg"
+        ]
+      },
+      "categories": [
+        "floral",
+        "botanical",
+        "scrollwork"
+      ],
+      "subjects": [
+        "acanthus",
+        "flower",
+        "leaf",
+        "stem",
+        "scroll"
+      ],
+      "colors": [
+        "gray",
+        "cream",
+        "red",
+        "blue",
+        "green"
+      ],
+      "facing": "unclear",
+      "composition": "single-ornament",
+      "usage_notes": "Original independent specimen with printed plate rules and page removed. AI-assisted extraction remains approximate; source bounds, actual native subject cap, original and exact prompt retained."
+    }
+  ]
+}

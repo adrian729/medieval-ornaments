@@ -1,0 +1,2290 @@
+{
+  "source_id": "cma-1950-154",
+  "assets": [
+    {
+      "id": "cma-1950-154--complete-apostle-city-scene-with-blue-vine-frame",
+      "name": "complete-apostle-city-scene-with-blue-vine-frame",
+      "source_id": "cma-1950-154",
+      "source_folder": "cleveland",
+      "asset_type": "illustration",
+      "description": "The complete original gold-ground miniature: a haloed standing apostle, draped city towers, green floor and original blue vine and red-gold frame with four projecting corner flourishes. Part of the Greek Psalter blue-vine frame set.",
+      "source_region": [
+        220,
+        210,
+        4050,
+        3410
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        9,
+        24,
+        3778,
+        3161
+      ],
+      "export_crop_coordinate_space": "original-native-source-region",
+      "width": 3769,
+      "height": 3137,
+      "png": "cleveland/cma-1950-154--complete-apostle-city-scene-with-blue-vine-frame.png",
+      "png_sha256": "d47fe09fbef36e2ffafacc8be205283c8b5db678f6b6641814a27584c17228c0",
+      "provenance": {
+        "institution": "Cleveland Museum of Art",
+        "title": "Leaf from a Greek Psalter and New Testament",
+        "object_identifier": "1950.154",
+        "date": "1084",
+        "record_url": "https://clevelandart.org/art/1950.154",
+        "image_rights": "CC0; share_license_status=CC0",
+        "rights_url": "https://www.clevelandart.org/open-access",
+        "source_file": "tmp/new-assets/cleveland/cma-1950-154--leaf-from-a-greek-psalter-and-new-testament--master.tif",
+        "source_sha256": "50cf1d6abf2cfd5507a7ee7faa58cac559c2fbe3d1fe7ab9f83423ecc0481c95",
+        "source_metadata": "tmp/new-assets/cleveland/cma-1950-154.json",
+        "image_url": "https://openaccess-cdn.clevelandart.org/1950.154/1950.154_full.tif",
+        "method": "native-source-continuous-edge-matting"
+      },
+      "extraction": {
+        "native_source_size": [
+          3830,
+          3200
+        ],
+        "native_upscaling": false,
+        "original_opaque_rgb_preserved": true,
+        "status": "awaiting-original-white-dark-review",
+        "candidate_png": "tmp/extraction-work/continuation-20261010/cma-1950-154--complete-apostle-city-scene-with-blue-vine-frame--refined-original-native-candidate.png",
+        "native_export_crop": [
+          9,
+          24,
+          3778,
+          3161
+        ],
+        "annotation_json": "tmp/extraction-work/continuation-20261010/cma-1950-154--complete-apostle-city-scene-with-blue-vine-frame--refined-original-native-audit.json",
+        "trimap_png": "tmp/extraction-work/continuation-20261010/cma-1950-154--complete-apostle-city-scene-with-blue-vine-frame--refined-original-native-trimap.png",
+        "export_crop_coordinate_space": "original-native-source-region",
+        "native_refinement": {
+          "method": "Native source-only extraction of the entire painted miniature and its connected original finite frame. Gold ground, architecture, red drapery, green floor, haloed apostle and all painted inner surfaces remain opaque. Pigment ownership is confined to inspected original frame and four projecting finial regions; all original blue/red/gold/cream painting survives. Actual finial openings and exterior parchment are transparent. Three-native-pixel continuous edge solve; no source upscale, rigid resize, restoration or invented repeat.",
+          "source": "tmp/extraction-work/continuation-20261010/cma-1950-154--complete-apostle-city-scene-with-blue-vine-frame--original.png",
+          "previous_native_matte": {
+            "native_source_size": [
+              3830,
+              3200
+            ],
+            "native_upscaling": false,
+            "original_opaque_rgb_preserved": true,
+            "status": "awaiting-original-white-dark-review",
+            "candidate_png": "tmp/extraction-work/continuation-20261010/cma-1950-154--complete-apostle-city-scene-with-blue-vine-frame--refined-original-native-candidate.png",
+            "native_export_crop": [
+              9,
+              24,
+              3778,
+              3190
+            ],
+            "annotation_json": "tmp/extraction-work/continuation-20261010/cma-1950-154--complete-apostle-city-scene-with-blue-vine-frame--refined-original-native-audit.json",
+            "trimap_png": "tmp/extraction-work/continuation-20261010/cma-1950-154--complete-apostle-city-scene-with-blue-vine-frame--refined-original-native-trimap.png",
+            "export_crop_coordinate_space": "original-native-source-region",
+            "native_refinement": {
+              "method": "Native source-only extraction of the entire painted miniature and its connected original finite frame. Gold ground, architecture, red drapery, green floor, haloed apostle and all painted inner surfaces remain opaque. Pigment ownership is confined to inspected original frame and four projecting finial regions; all original blue/red/gold/cream painting survives. Actual finial openings and exterior parchment are transparent. Three-native-pixel continuous edge solve; no source upscale, rigid resize, restoration or invented repeat.",
+              "source": "tmp/extraction-work/continuation-20261010/cma-1950-154--complete-apostle-city-scene-with-blue-vine-frame--original.png",
+              "previous_native_matte": {
+                "native_source_size": [
+                  3830,
+                  3200
+                ],
+                "native_upscaling": false,
+                "original_opaque_rgb_preserved": true,
+                "status": "awaiting-original-white-dark-review",
+                "candidate_png": "tmp/extraction-work/continuation-20261010/cma-1950-154--complete-apostle-city-scene-with-blue-vine-frame--refined-original-native-candidate.png",
+                "native_export_crop": [
+                  4,
+                  24,
+                  3797,
+                  3200
+                ],
+                "annotation_json": "tmp/extraction-work/continuation-20261010/cma-1950-154--complete-apostle-city-scene-with-blue-vine-frame--refined-original-native-audit.json",
+                "trimap_png": "tmp/extraction-work/continuation-20261010/cma-1950-154--complete-apostle-city-scene-with-blue-vine-frame--refined-original-native-trimap.png",
+                "export_crop_coordinate_space": "original-native-source-region",
+                "native_refinement": {
+                  "method": "Native source-only extraction of the entire painted miniature and its connected original finite frame. Gold ground, architecture, red drapery, green floor, haloed apostle and all painted inner surfaces remain opaque. Pigment ownership is confined to inspected original frame and four projecting finial regions; all original blue/red/gold/cream painting survives. Actual finial openings and exterior parchment are transparent. Three-native-pixel continuous edge solve; no source upscale, rigid resize, restoration or invented repeat.",
+                  "source": "tmp/extraction-work/continuation-20261010/cma-1950-154--complete-apostle-city-scene-with-blue-vine-frame--original.png",
+                  "previous_native_matte": {
+                    "native_source_size": [
+                      3830,
+                      3200
+                    ],
+                    "native_upscaling": false,
+                    "original_opaque_rgb_preserved": true,
+                    "status": "awaiting-native-source-review"
+                  },
+                  "unknown_band_native_pixels": 3,
+                  "source_rgb_redrawn": false,
+                  "source_resized": false,
+                  "original_opaque_rgb_preserved": true,
+                  "ownership": "tmp/extraction-work/continuation-20261010/cma-1950-154--complete-apostle-city-scene-with-blue-vine-frame--refined-original-native-ownership.png",
+                  "ownership_sha256": "6270450126c77d51d8b9c11c28883a0f650ba2569aa4d73bd820838498fa50fe",
+                  "source_original_scope_polygons": [
+                    [
+                      [
+                        670,
+                        450
+                      ],
+                      [
+                        3590,
+                        400
+                      ],
+                      [
+                        3640,
+                        3400
+                      ],
+                      [
+                        670,
+                        3410
+                      ]
+                    ],
+                    [
+                      [
+                        450,
+                        240
+                      ],
+                      [
+                        825,
+                        240
+                      ],
+                      [
+                        825,
+                        650
+                      ],
+                      [
+                        450,
+                        650
+                      ]
+                    ],
+                    [
+                      [
+                        3390,
+                        240
+                      ],
+                      [
+                        3740,
+                        240
+                      ],
+                      [
+                        3740,
+                        660
+                      ],
+                      [
+                        3390,
+                        660
+                      ]
+                    ],
+                    [
+                      [
+                        230,
+                        2700
+                      ],
+                      [
+                        740,
+                        2700
+                      ],
+                      [
+                        740,
+                        3410
+                      ],
+                      [
+                        230,
+                        3410
+                      ]
+                    ],
+                    [
+                      [
+                        3510,
+                        2700
+                      ],
+                      [
+                        4010,
+                        2700
+                      ],
+                      [
+                        4010,
+                        3410
+                      ],
+                      [
+                        3510,
+                        3410
+                      ]
+                    ]
+                  ],
+                  "native_color_scope_rule": "R-B>32 or B-R>12 and B-G>-15, only in individually inspected scene/frame scopes",
+                  "scene_interior_opaque_scope_native": [
+                    [
+                      770,
+                      560
+                    ],
+                    [
+                      3470,
+                      490
+                    ],
+                    [
+                      3540,
+                      3320
+                    ],
+                    [
+                      750,
+                      3335
+                    ]
+                  ]
+                }
+              },
+              "unknown_band_native_pixels": 3,
+              "source_rgb_redrawn": false,
+              "source_resized": false,
+              "original_opaque_rgb_preserved": true,
+              "ownership": "tmp/extraction-work/continuation-20261010/cma-1950-154--complete-apostle-city-scene-with-blue-vine-frame--refined-original-native-ownership.png",
+              "ownership_sha256": "78728bf295af232da3213264d3f294f641c0b8a17f484a90fd1e19be52a70535",
+              "source_original_scope_polygons": [
+                [
+                  [
+                    670,
+                    450
+                  ],
+                  [
+                    3590,
+                    400
+                  ],
+                  [
+                    3640,
+                    3400
+                  ],
+                  [
+                    670,
+                    3410
+                  ]
+                ],
+                [
+                  [
+                    450,
+                    240
+                  ],
+                  [
+                    825,
+                    240
+                  ],
+                  [
+                    825,
+                    650
+                  ],
+                  [
+                    450,
+                    650
+                  ]
+                ],
+                [
+                  [
+                    3390,
+                    240
+                  ],
+                  [
+                    3740,
+                    240
+                  ],
+                  [
+                    3740,
+                    660
+                  ],
+                  [
+                    3390,
+                    660
+                  ]
+                ],
+                [
+                  [
+                    230,
+                    2700
+                  ],
+                  [
+                    740,
+                    2700
+                  ],
+                  [
+                    740,
+                    3410
+                  ],
+                  [
+                    230,
+                    3410
+                  ]
+                ],
+                [
+                  [
+                    3510,
+                    2700
+                  ],
+                  [
+                    4010,
+                    2700
+                  ],
+                  [
+                    4010,
+                    3410
+                  ],
+                  [
+                    3510,
+                    3410
+                  ]
+                ]
+              ],
+              "native_color_scope_rule": "Blue B-R>8,B-G>-15; gilt B/G<.68,G>60; red R-G>25,R-B>45. Original dark outlines gray<145 only within three native pixels of pigment, inside inspected scopes.",
+              "scene_interior_opaque_scope_native": [
+                [
+                  770,
+                  560
+                ],
+                [
+                  3470,
+                  490
+                ],
+                [
+                  3540,
+                  3320
+                ],
+                [
+                  750,
+                  3335
+                ]
+              ]
+            }
+          },
+          "unknown_band_native_pixels": 3,
+          "source_rgb_redrawn": false,
+          "source_resized": false,
+          "original_opaque_rgb_preserved": true,
+          "ownership": "tmp/extraction-work/continuation-20261010/cma-1950-154--complete-apostle-city-scene-with-blue-vine-frame--refined-original-native-ownership.png",
+          "ownership_sha256": "5b43202990c751348b65859abc578688dbbd37f4065bcc204e28f72443709513",
+          "source_original_scope_polygons": [
+            [
+              [
+                670,
+                450
+              ],
+              [
+                3590,
+                400
+              ],
+              [
+                3640,
+                3400
+              ],
+              [
+                670,
+                3410
+              ]
+            ],
+            [
+              [
+                450,
+                240
+              ],
+              [
+                825,
+                240
+              ],
+              [
+                825,
+                650
+              ],
+              [
+                450,
+                650
+              ]
+            ],
+            [
+              [
+                3390,
+                240
+              ],
+              [
+                3740,
+                240
+              ],
+              [
+                3740,
+                660
+              ],
+              [
+                3390,
+                660
+              ]
+            ],
+            [
+              [
+                230,
+                2700
+              ],
+              [
+                740,
+                2700
+              ],
+              [
+                740,
+                3410
+              ],
+              [
+                230,
+                3410
+              ]
+            ],
+            [
+              [
+                3510,
+                2700
+              ],
+              [
+                4010,
+                2700
+              ],
+              [
+                4010,
+                3410
+              ],
+              [
+                3510,
+                3410
+              ]
+            ]
+          ],
+          "native_color_scope_rule": "Blue B-R>8,B-G>-15; gilt B/G<.68,G>60; red R-G>25,R-B>45. Original dark outlines gray<145 only within three native pixels of pigment, inside inspected scopes.",
+          "scene_interior_opaque_scope_native": [
+            [
+              770,
+              560
+            ],
+            [
+              3470,
+              490
+            ],
+            [
+              3540,
+              3320
+            ],
+            [
+              750,
+              3335
+            ]
+          ]
+        },
+        "tool": "Original native scan / closed-form edge alpha and foreground decontamination",
+        "pixel_exact": false
+      },
+      "parent": null,
+      "children": [
+        "cma-1950-154--standing-apostle-with-rolled-scroll"
+      ],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Inspected complete original, white/dark composites and native contours. Original gold painted scene/architecture/figure and all finite frame flourishes are retained; frame’s genuine counter and finial openings are clear. Separate blue/green actor keeps the complete original halo, gesturing hand, both feet and original red-gold baseline, with unrelated alphabetic crossbar and words removed. Intrinsic paint wear remains opaque, native source RGB/proportions retained, no upscale or redraw.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/cma1950154-scene-native-review-current-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/cma1950154-final-native-frame-finials-and-background-review.jpg",
+          "tmp/extraction-work/continuation-20261010/cma1950154-finite-frame-complete-pattern-edges-final-review.jpg",
+          "tmp/extraction-work/continuation-20261010/cma1950154-two-figures-native-review-current-proof-1.jpg"
+        ]
+      },
+      "categories": [
+        "humans",
+        "floral",
+        "reading"
+      ],
+      "subjects": [
+        "apostle",
+        "halo",
+        "scroll",
+        "city",
+        "tower",
+        "drapery",
+        "vine",
+        "frame"
+      ],
+      "colors": [
+        "blue",
+        "gold",
+        "red",
+        "green",
+        "brown"
+      ],
+      "facing": "front",
+      "composition": "framed-scene",
+      "usage_notes": "Original native scan color, paint wear and asymmetry retained. Exterior page, unrelated writing and alphabetic connecting rules excluded; opaque illustrated surfaces preserved. No missing pigment or geometry invented. PNG retains historical paint texture.",
+      "sets": [
+        {
+          "id": "cma-1950-154-set",
+          "name": "Greek Psalter blue-vine frame",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "The complete original gold-ground miniature: a haloed standing apostle, draped city towers, green floor and original blue vine and red-gold frame with four projecting corner flourishes.",
+      "set_label": "Greek Psalter blue-vine frame"
+    },
+    {
+      "id": "cma-1950-154--finite-blue-vine-and-red-gold-miniature-frame",
+      "name": "finite-blue-vine-and-red-gold-miniature-frame",
+      "source_id": "cma-1950-154",
+      "source_folder": "cleveland",
+      "asset_type": "decoration",
+      "description": "The complete finite painted frame with blue and white curling vines, red-gold outer and inner bands, two upper red-gold finials and two lower blue leaf flourishes. Part of the Greek Psalter blue-vine frame set.",
+      "source_region": [
+        220,
+        210,
+        4050,
+        3410
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        9,
+        24,
+        3778,
+        3161
+      ],
+      "export_crop_coordinate_space": "original-native-source-region",
+      "width": 3769,
+      "height": 3137,
+      "png": "cleveland/cma-1950-154--finite-blue-vine-and-red-gold-miniature-frame.png",
+      "png_sha256": "a76c10962bfc5f7812cc203ba0bb6c7cdc6c473ef57544eea9a621a1f5a25fa8",
+      "provenance": {
+        "institution": "Cleveland Museum of Art",
+        "title": "Leaf from a Greek Psalter and New Testament",
+        "object_identifier": "1950.154",
+        "date": "1084",
+        "record_url": "https://clevelandart.org/art/1950.154",
+        "image_rights": "CC0; share_license_status=CC0",
+        "rights_url": "https://www.clevelandart.org/open-access",
+        "source_file": "tmp/new-assets/cleveland/cma-1950-154--leaf-from-a-greek-psalter-and-new-testament--master.tif",
+        "source_sha256": "50cf1d6abf2cfd5507a7ee7faa58cac559c2fbe3d1fe7ab9f83423ecc0481c95",
+        "source_metadata": "tmp/new-assets/cleveland/cma-1950-154.json",
+        "image_url": "https://openaccess-cdn.clevelandart.org/1950.154/1950.154_full.tif",
+        "method": "native-source-continuous-edge-matting"
+      },
+      "extraction": {
+        "native_source_size": [
+          3830,
+          3200
+        ],
+        "native_upscaling": false,
+        "original_opaque_rgb_preserved": true,
+        "status": "awaiting-original-white-dark-review",
+        "candidate_png": "tmp/extraction-work/continuation-20261010/cma-1950-154--finite-blue-vine-and-red-gold-miniature-frame--original-native-finite-frame.png",
+        "native_export_crop": [
+          9,
+          24,
+          3778,
+          3161
+        ],
+        "annotation_json": "tmp/extraction-work/continuation-20261010/cma-1950-154--complete-apostle-city-scene-with-blue-vine-frame--refined-original-native-audit.json",
+        "trimap_png": "tmp/extraction-work/continuation-20261010/cma-1950-154--complete-apostle-city-scene-with-blue-vine-frame--refined-original-native-trimap.png",
+        "export_crop_coordinate_space": "original-native-source-region",
+        "native_refinement": {
+          "method": "Native source-only extraction of the entire painted miniature and its connected original finite frame. Gold ground, architecture, red drapery, green floor, haloed apostle and all painted inner surfaces remain opaque. Pigment ownership is confined to inspected original frame and four projecting finial regions; all original blue/red/gold/cream painting survives. Actual finial openings and exterior parchment are transparent. Three-native-pixel continuous edge solve; no source upscale, rigid resize, restoration or invented repeat.",
+          "source": "tmp/extraction-work/continuation-20261010/cma-1950-154--complete-apostle-city-scene-with-blue-vine-frame--original.png",
+          "previous_native_matte": {
+            "native_source_size": [
+              3830,
+              3200
+            ],
+            "native_upscaling": false,
+            "original_opaque_rgb_preserved": true,
+            "status": "awaiting-original-white-dark-review",
+            "candidate_png": "tmp/extraction-work/continuation-20261010/cma-1950-154--complete-apostle-city-scene-with-blue-vine-frame--refined-original-native-candidate.png",
+            "native_export_crop": [
+              9,
+              24,
+              3778,
+              3190
+            ],
+            "annotation_json": "tmp/extraction-work/continuation-20261010/cma-1950-154--complete-apostle-city-scene-with-blue-vine-frame--refined-original-native-audit.json",
+            "trimap_png": "tmp/extraction-work/continuation-20261010/cma-1950-154--complete-apostle-city-scene-with-blue-vine-frame--refined-original-native-trimap.png",
+            "export_crop_coordinate_space": "original-native-source-region",
+            "native_refinement": {
+              "method": "Native source-only extraction of the entire painted miniature and its connected original finite frame. Gold ground, architecture, red drapery, green floor, haloed apostle and all painted inner surfaces remain opaque. Pigment ownership is confined to inspected original frame and four projecting finial regions; all original blue/red/gold/cream painting survives. Actual finial openings and exterior parchment are transparent. Three-native-pixel continuous edge solve; no source upscale, rigid resize, restoration or invented repeat.",
+              "source": "tmp/extraction-work/continuation-20261010/cma-1950-154--complete-apostle-city-scene-with-blue-vine-frame--original.png",
+              "previous_native_matte": {
+                "native_source_size": [
+                  3830,
+                  3200
+                ],
+                "native_upscaling": false,
+                "original_opaque_rgb_preserved": true,
+                "status": "awaiting-original-white-dark-review",
+                "candidate_png": "tmp/extraction-work/continuation-20261010/cma-1950-154--complete-apostle-city-scene-with-blue-vine-frame--refined-original-native-candidate.png",
+                "native_export_crop": [
+                  4,
+                  24,
+                  3797,
+                  3200
+                ],
+                "annotation_json": "tmp/extraction-work/continuation-20261010/cma-1950-154--complete-apostle-city-scene-with-blue-vine-frame--refined-original-native-audit.json",
+                "trimap_png": "tmp/extraction-work/continuation-20261010/cma-1950-154--complete-apostle-city-scene-with-blue-vine-frame--refined-original-native-trimap.png",
+                "export_crop_coordinate_space": "original-native-source-region",
+                "native_refinement": {
+                  "method": "Native source-only extraction of the entire painted miniature and its connected original finite frame. Gold ground, architecture, red drapery, green floor, haloed apostle and all painted inner surfaces remain opaque. Pigment ownership is confined to inspected original frame and four projecting finial regions; all original blue/red/gold/cream painting survives. Actual finial openings and exterior parchment are transparent. Three-native-pixel continuous edge solve; no source upscale, rigid resize, restoration or invented repeat.",
+                  "source": "tmp/extraction-work/continuation-20261010/cma-1950-154--complete-apostle-city-scene-with-blue-vine-frame--original.png",
+                  "previous_native_matte": {
+                    "native_source_size": [
+                      3830,
+                      3200
+                    ],
+                    "native_upscaling": false,
+                    "original_opaque_rgb_preserved": true,
+                    "status": "awaiting-native-source-review"
+                  },
+                  "unknown_band_native_pixels": 3,
+                  "source_rgb_redrawn": false,
+                  "source_resized": false,
+                  "original_opaque_rgb_preserved": true,
+                  "ownership": "tmp/extraction-work/continuation-20261010/cma-1950-154--complete-apostle-city-scene-with-blue-vine-frame--refined-original-native-ownership.png",
+                  "ownership_sha256": "6270450126c77d51d8b9c11c28883a0f650ba2569aa4d73bd820838498fa50fe",
+                  "source_original_scope_polygons": [
+                    [
+                      [
+                        670,
+                        450
+                      ],
+                      [
+                        3590,
+                        400
+                      ],
+                      [
+                        3640,
+                        3400
+                      ],
+                      [
+                        670,
+                        3410
+                      ]
+                    ],
+                    [
+                      [
+                        450,
+                        240
+                      ],
+                      [
+                        825,
+                        240
+                      ],
+                      [
+                        825,
+                        650
+                      ],
+                      [
+                        450,
+                        650
+                      ]
+                    ],
+                    [
+                      [
+                        3390,
+                        240
+                      ],
+                      [
+                        3740,
+                        240
+                      ],
+                      [
+                        3740,
+                        660
+                      ],
+                      [
+                        3390,
+                        660
+                      ]
+                    ],
+                    [
+                      [
+                        230,
+                        2700
+                      ],
+                      [
+                        740,
+                        2700
+                      ],
+                      [
+                        740,
+                        3410
+                      ],
+                      [
+                        230,
+                        3410
+                      ]
+                    ],
+                    [
+                      [
+                        3510,
+                        2700
+                      ],
+                      [
+                        4010,
+                        2700
+                      ],
+                      [
+                        4010,
+                        3410
+                      ],
+                      [
+                        3510,
+                        3410
+                      ]
+                    ]
+                  ],
+                  "native_color_scope_rule": "R-B>32 or B-R>12 and B-G>-15, only in individually inspected scene/frame scopes",
+                  "scene_interior_opaque_scope_native": [
+                    [
+                      770,
+                      560
+                    ],
+                    [
+                      3470,
+                      490
+                    ],
+                    [
+                      3540,
+                      3320
+                    ],
+                    [
+                      750,
+                      3335
+                    ]
+                  ]
+                }
+              },
+              "unknown_band_native_pixels": 3,
+              "source_rgb_redrawn": false,
+              "source_resized": false,
+              "original_opaque_rgb_preserved": true,
+              "ownership": "tmp/extraction-work/continuation-20261010/cma-1950-154--complete-apostle-city-scene-with-blue-vine-frame--refined-original-native-ownership.png",
+              "ownership_sha256": "78728bf295af232da3213264d3f294f641c0b8a17f484a90fd1e19be52a70535",
+              "source_original_scope_polygons": [
+                [
+                  [
+                    670,
+                    450
+                  ],
+                  [
+                    3590,
+                    400
+                  ],
+                  [
+                    3640,
+                    3400
+                  ],
+                  [
+                    670,
+                    3410
+                  ]
+                ],
+                [
+                  [
+                    450,
+                    240
+                  ],
+                  [
+                    825,
+                    240
+                  ],
+                  [
+                    825,
+                    650
+                  ],
+                  [
+                    450,
+                    650
+                  ]
+                ],
+                [
+                  [
+                    3390,
+                    240
+                  ],
+                  [
+                    3740,
+                    240
+                  ],
+                  [
+                    3740,
+                    660
+                  ],
+                  [
+                    3390,
+                    660
+                  ]
+                ],
+                [
+                  [
+                    230,
+                    2700
+                  ],
+                  [
+                    740,
+                    2700
+                  ],
+                  [
+                    740,
+                    3410
+                  ],
+                  [
+                    230,
+                    3410
+                  ]
+                ],
+                [
+                  [
+                    3510,
+                    2700
+                  ],
+                  [
+                    4010,
+                    2700
+                  ],
+                  [
+                    4010,
+                    3410
+                  ],
+                  [
+                    3510,
+                    3410
+                  ]
+                ]
+              ],
+              "native_color_scope_rule": "Blue B-R>8,B-G>-15; gilt B/G<.68,G>60; red R-G>25,R-B>45. Original dark outlines gray<145 only within three native pixels of pigment, inside inspected scopes.",
+              "scene_interior_opaque_scope_native": [
+                [
+                  770,
+                  560
+                ],
+                [
+                  3470,
+                  490
+                ],
+                [
+                  3540,
+                  3320
+                ],
+                [
+                  750,
+                  3335
+                ]
+              ]
+            }
+          },
+          "unknown_band_native_pixels": 3,
+          "source_rgb_redrawn": false,
+          "source_resized": false,
+          "original_opaque_rgb_preserved": true,
+          "ownership": "tmp/extraction-work/continuation-20261010/cma-1950-154--complete-apostle-city-scene-with-blue-vine-frame--refined-original-native-ownership.png",
+          "ownership_sha256": "5b43202990c751348b65859abc578688dbbd37f4065bcc204e28f72443709513",
+          "source_original_scope_polygons": [
+            [
+              [
+                670,
+                450
+              ],
+              [
+                3590,
+                400
+              ],
+              [
+                3640,
+                3400
+              ],
+              [
+                670,
+                3410
+              ]
+            ],
+            [
+              [
+                450,
+                240
+              ],
+              [
+                825,
+                240
+              ],
+              [
+                825,
+                650
+              ],
+              [
+                450,
+                650
+              ]
+            ],
+            [
+              [
+                3390,
+                240
+              ],
+              [
+                3740,
+                240
+              ],
+              [
+                3740,
+                660
+              ],
+              [
+                3390,
+                660
+              ]
+            ],
+            [
+              [
+                230,
+                2700
+              ],
+              [
+                740,
+                2700
+              ],
+              [
+                740,
+                3410
+              ],
+              [
+                230,
+                3410
+              ]
+            ],
+            [
+              [
+                3510,
+                2700
+              ],
+              [
+                4010,
+                2700
+              ],
+              [
+                4010,
+                3410
+              ],
+              [
+                3510,
+                3410
+              ]
+            ]
+          ],
+          "native_color_scope_rule": "Blue B-R>8,B-G>-15; gilt B/G<.68,G>60; red R-G>25,R-B>45. Original dark outlines gray<145 only within three native pixels of pigment, inside inspected scopes.",
+          "scene_interior_opaque_scope_native": [
+            [
+              770,
+              560
+            ],
+            [
+              3470,
+              490
+            ],
+            [
+              3540,
+              3320
+            ],
+            [
+              750,
+              3335
+            ]
+          ]
+        },
+        "derived_from_complete_native_scene": {
+          "id": "cma-1950-154--complete-apostle-city-scene-with-blue-vine-frame",
+          "candidate_png": "tmp/extraction-work/continuation-20261010/cma-1950-154--complete-apostle-city-scene-with-blue-vine-frame--refined-original-native-candidate.png",
+          "candidate_sha256": "d47fe09fbef36e2ffafacc8be205283c8b5db678f6b6641814a27584c17228c0",
+          "original_inner_frame_boundary_source_coordinates": {
+            "left_y_x": [
+              [
+                696,
+                948
+              ],
+              [
+                850,
+                949
+              ],
+              [
+                1200,
+                949
+              ],
+              [
+                1600,
+                946
+              ],
+              [
+                2000,
+                947
+              ],
+              [
+                2400,
+                945
+              ],
+              [
+                2800,
+                945
+              ],
+              [
+                3117,
+                945
+              ]
+            ],
+            "right_y_x": [
+              [
+                657,
+                3280
+              ],
+              [
+                850,
+                3281
+              ],
+              [
+                1200,
+                3287
+              ],
+              [
+                1600,
+                3294
+              ],
+              [
+                2000,
+                3299
+              ],
+              [
+                2400,
+                3304
+              ],
+              [
+                2800,
+                3303
+              ],
+              [
+                3118,
+                3303
+              ]
+            ],
+            "top_x_y": [
+              [
+                933,
+                721
+              ],
+              [
+                1100,
+                717
+              ],
+              [
+                1500,
+                706
+              ],
+              [
+                1900,
+                700
+              ],
+              [
+                2300,
+                690
+              ],
+              [
+                2700,
+                685
+              ],
+              [
+                3000,
+                680
+              ],
+              [
+                3295,
+                682
+              ]
+            ],
+            "bottom_x_y": [
+              [
+                930,
+                3121
+              ],
+              [
+                1100,
+                3118
+              ],
+              [
+                1500,
+                3116
+              ],
+              [
+                1900,
+                3117
+              ],
+              [
+                2300,
+                3118
+              ],
+              [
+                2700,
+                3119
+              ],
+              [
+                3000,
+                3119
+              ],
+              [
+                3318,
+                3122
+              ]
+            ]
+          },
+          "method": "Only the original miniature interior is transparent. Original finite frame with all four contacted flourishes keeps the reviewed native scene alpha and unchanged source RGB. The inspected bowed inner-edge curves use monotonic interpolation and a one-native-pixel antialiased alpha collar; no generic replacement frame, symmetry or new ornament geometry.",
+          "source_native_boundary_proof": "tmp/extraction-work/continuation-20261010/cma1950154-original-inner-frame-four-corners-native-coordinates.jpg"
+        },
+        "tool": "Original native scan / closed-form edge alpha and foreground decontamination",
+        "pixel_exact": false
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Inspected complete original, white/dark composites and native contours. Original gold painted scene/architecture/figure and all finite frame flourishes are retained; frame’s genuine counter and finial openings are clear. Separate blue/green actor keeps the complete original halo, gesturing hand, both feet and original red-gold baseline, with unrelated alphabetic crossbar and words removed. Intrinsic paint wear remains opaque, native source RGB/proportions retained, no upscale or redraw.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/cma1950154-scene-native-review-current-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/cma1950154-final-native-frame-finials-and-background-review.jpg",
+          "tmp/extraction-work/continuation-20261010/cma1950154-finite-frame-complete-pattern-edges-final-review.jpg",
+          "tmp/extraction-work/continuation-20261010/cma1950154-two-figures-native-review-current-proof-1.jpg"
+        ]
+      },
+      "categories": [
+        "floral",
+        "scrollwork",
+        "geometric"
+      ],
+      "subjects": [
+        "frame",
+        "vine",
+        "leaf",
+        "curl",
+        "gold"
+      ],
+      "colors": [
+        "blue",
+        "white",
+        "red",
+        "gold"
+      ],
+      "facing": "front",
+      "composition": "single-ornament",
+      "usage_notes": "Whole finite original painted frame, with its true empty center and four source corner flourishes. It can be placed directly as a fixed image; no seamless or scalable repeat atlas is claimed for this whole frame. Original native scan pixels, paint wear, colors and proportions retained.",
+      "sets": [
+        {
+          "id": "cma-1950-154-set",
+          "name": "Greek Psalter blue-vine frame",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "The complete finite painted frame with blue and white curling vines, red-gold outer and inner bands, two upper red-gold finials and two lower blue leaf flourishes.",
+      "set_label": "Greek Psalter blue-vine frame"
+    },
+    {
+      "id": "cma-1950-154--gold-s-shaped-leaf-on-red-repeat",
+      "name": "gold-s-shaped-leaf-on-red-repeat",
+      "source_id": "cma-1950-154",
+      "source_folder": "cleveland",
+      "asset_type": "border",
+      "description": "A full gold S-shaped leaf cycle on the original red outer frame band. Part of the Greek Psalter blue-vine frame set.",
+      "source_region": [
+        1200,
+        3285,
+        1270,
+        3365
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        0,
+        0,
+        70,
+        70
+      ],
+      "export_crop_coordinate_space": "source-region",
+      "width": 70,
+      "height": 70,
+      "png": "cleveland/cma-1950-154--gold-s-shaped-leaf-on-red-repeat.png",
+      "png_sha256": "1796da09b8079446396f2622e882d7ef5a8c436f63eaecb1ab30ffb83d2022af",
+      "provenance": {
+        "institution": "Cleveland Museum of Art",
+        "title": "Leaf from a Greek Psalter and New Testament",
+        "object_identifier": "1950.154",
+        "date": "1084",
+        "record_url": "https://clevelandart.org/art/1950.154",
+        "image_rights": "CC0; share_license_status=CC0",
+        "rights_url": "https://www.clevelandart.org/open-access",
+        "source_file": "tmp/new-assets/cleveland/cma-1950-154--leaf-from-a-greek-psalter-and-new-testament--master.tif",
+        "source_sha256": "50cf1d6abf2cfd5507a7ee7faa58cac559c2fbe3d1fe7ab9f83423ecc0481c95",
+        "source_metadata": "tmp/new-assets/cleveland/cma-1950-154.json",
+        "image_url": "https://openaccess-cdn.clevelandart.org/1950.154/1950.154_full.tif",
+        "method": "native-interior-repeat-for-bars"
+      },
+      "extraction": {
+        "candidate_png": "tmp/extraction-work/continuation-20261010/cma-1950-154--gold-s-shaped-leaf-on-red-repeat--trimmed-original-native-repeat-cycle.png",
+        "native_matte": {
+          "native_source_size": [
+            70,
+            80
+          ],
+          "native_upscaling": false,
+          "original_opaque_rgb_preserved": true,
+          "status": "awaiting-original-white-dark-review",
+          "candidate_png": "tmp/extraction-work/continuation-20261010/cma-1950-154--gold-s-shaped-leaf-on-red-repeat--trimmed-original-native-repeat-cycle.png",
+          "native_export_crop": [
+            0,
+            0,
+            70,
+            75
+          ],
+          "annotation_json": "tmp/extraction-work/continuation-20261010/cma-1950-154--gold-s-shaped-leaf-on-red-repeat--refined-original-native-audit.json",
+          "trimap_png": "tmp/extraction-work/continuation-20261010/cma-1950-154--gold-s-shaped-leaf-on-red-repeat--refined-original-native-trimap.png",
+          "export_crop_coordinate_space": "original-native-source-region",
+          "native_refinement": {
+            "method": "The entire original painted band is isolated by its native pigment perimeter. Continuous original blue or red/gold field and all original pale ornament strokes remain opaque; exterior page and adjacent differently colored frame bands are excluded. One full source-established motif cycle, native original proportions/RGB and two-native-pixel continuous alpha. No invented contour, elastic warp or source upscale.",
+            "source": "tmp/extraction-work/continuation-20261010/cma-1950-154--gold-s-shaped-leaf-on-red-repeat--original.png",
+            "previous_native_matte": {
+              "native_source_size": [
+                70,
+                80
+              ],
+              "native_upscaling": false,
+              "original_opaque_rgb_preserved": true,
+              "status": "awaiting-native-source-review"
+            },
+            "unknown_band_native_pixels": 2,
+            "source_rgb_redrawn": false,
+            "source_resized": false,
+            "original_opaque_rgb_preserved": true,
+            "ownership": "tmp/extraction-work/continuation-20261010/cma-1950-154--gold-s-shaped-leaf-on-red-repeat--refined-original-native-ownership.png",
+            "ownership_sha256": "fce78f83ebe70e450a951846268418f3d89b9b7065e7c64b1b800e95223fafaf",
+            "original_source_cycle_bounds": [
+              1200,
+              3285,
+              1270,
+              3365
+            ],
+            "actual_native_source_cycle_evidence": "tmp/extraction-work/continuation-20261010/cma1950154-original-outer-red-gold-s-repeat-native-grid.jpg"
+          }
+        },
+        "native_upscaling": false,
+        "source_pixels_redrawn": false,
+        "original_opaque_rgb_preserved": true,
+        "source_original_bounds": [
+          1200,
+          3285,
+          1270,
+          3365
+        ],
+        "export_crop": [
+          0,
+          0,
+          70,
+          75
+        ],
+        "method": "Actual native painted motif cycle with continuous alpha. Exact original opaque RGB, no resize, Source Native bounding paint perimeter. Only the explicitly audited two-pixel join collars change.",
+        "candidate_sha256": "5c53c35a6d653b325e2051419d672e1c3d580f8697f8d8276251405a50870ee0",
+        "repeat_build": {
+          "unit_png": "tmp/extraction-work/cma-1950-154--gold-s-shaped-leaf-on-red-repeat--unit.png",
+          "bar_png": "tmp/extraction-work/cma-1950-154--gold-s-shaped-leaf-on-red-repeat--bar.png",
+          "native_unit_size": [
+            70,
+            70
+          ],
+          "repeat_ratio": 1.0,
+          "join_adjustment": {
+            "pixels_at_each_end": 2,
+            "method": "average matching source collars; interior columns 2 through width-3 unchanged",
+            "source_cycle_verification": "The original bottom painted frame visibly establishes multiple consecutive gold diagonal S-shaped leaf cycles on red. This source-native interior motif cell retains one full cycle and original paint texture; original handwritten spacings and field edges vary and are not claimed pixel-periodic. The full original frame remains available separately."
+          },
+          "status": "awaiting-repeat-and-corner-visual-review",
+          "rejected_corner_trial": {
+            "unit_png": "tmp/extraction-work/cma-1950-154--gold-s-shaped-leaf-on-red-repeat--unit.png",
+            "bar_png": "tmp/extraction-work/cma-1950-154--gold-s-shaped-leaf-on-red-repeat--bar.png",
+            "frame_png": "tmp/extraction-work/cma-1950-154--gold-s-shaped-leaf-on-red-repeat--frame-atlas.png",
+            "corners": [
+              {
+                "name": "top-left",
+                "png": "tmp/extraction-work/cma-1950-154--gold-s-shaped-leaf-on-red-repeat--corner-top-left.png",
+                "atlas_bounds": [
+                  0,
+                  0,
+                  70,
+                  70
+                ]
+              },
+              {
+                "name": "top-right",
+                "png": "tmp/extraction-work/cma-1950-154--gold-s-shaped-leaf-on-red-repeat--corner-top-right.png",
+                "atlas_bounds": [
+                  140,
+                  0,
+                  210,
+                  70
+                ]
+              },
+              {
+                "name": "bottom-right",
+                "png": "tmp/extraction-work/cma-1950-154--gold-s-shaped-leaf-on-red-repeat--corner-bottom-right.png",
+                "atlas_bounds": [
+                  140,
+                  140,
+                  210,
+                  210
+                ]
+              },
+              {
+                "name": "bottom-left",
+                "png": "tmp/extraction-work/cma-1950-154--gold-s-shaped-leaf-on-red-repeat--corner-bottom-left.png",
+                "atlas_bounds": [
+                  0,
+                  140,
+                  70,
+                  210
+                ]
+              }
+            ],
+            "native_unit_size": [
+              70,
+              70
+            ],
+            "atlas_size": [
+              210,
+              210
+            ],
+            "slice_pixels": 70,
+            "slice_percent": 33.333333333333336,
+            "repeat_ratio": 1.0,
+            "join_adjustment": {
+              "pixels_at_each_end": 2,
+              "method": "average matching source collars; interior columns 2 through width-3 unchanged",
+              "source_cycle_verification": "The original bottom painted frame visibly establishes multiple consecutive gold diagonal S-shaped leaf cycles on red. This source-native interior motif cell retains one full cycle and original paint texture; original handwritten spacings and field edges vary and are not claimed pixel-periodic. The full original frame remains available separately."
+            },
+            "corner_method": "Mitered reflections of the exact same native unit, using the repository’s four phase-matched corner geometry. Derived corners are distinct from the original fixed printer-frame corners.",
+            "status": "awaiting-repeat-and-corner-visual-review"
+          },
+          "frame_withheld": {
+            "reason": "Trial miter corners leave visibly stepped painted-field boundaries and altered-looking ornament bends. They do not respect the original corner drawing closely enough. Deliver native motif units/bars only; the separately supplied complete original finite frame preserves its four actual corner flourishes.",
+            "review_evidence": "tmp/extraction-work/continuation-20261010/cma1950154-native-two-patterns-bars-and-four-corners-review.jpg"
+          }
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Inspected original neighboring motif periods, native unit and five-unit bars on white/dark. Blue cycle includes both opposite white curl/leaf phases; gold cycle includes a full S leaf. Exact original opaque RGB and source texture retained, native antialiased field perimeter and true exterior alpha. Two-pixel end-collar adjustment only; all interiors are byte unchanged. Trial four-corner frames visibly distort painterly boundaries, so frame/corner outputs are deliberately withheld. The separate whole finite original frame retains the source’s real corners.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/cma1950154-native-half-bottom-frame-unit-detail.jpg",
+          "tmp/extraction-work/continuation-20261010/cma1950154-original-outer-red-gold-s-repeat-native-grid.jpg",
+          "tmp/extraction-work/continuation-20261010/cma1950154-native-two-patterns-bars-and-four-corners-review.jpg"
+        ]
+      },
+      "categories": [
+        "floral",
+        "scrollwork"
+      ],
+      "subjects": [
+        "leaf",
+        "curl",
+        "band"
+      ],
+      "colors": [
+        "red",
+        "gold"
+      ],
+      "facing": "unclear",
+      "composition": "repeat-tile",
+      "usage_notes": "A source-established complete native painted motif cycle for repeating bars, with a five-unit example. Interior pixels remain original; two native end columns are averaged for the join. Original painterly spacing/contours vary. Frame/corner trials are withheld because mitered field boundaries visibly step and the bends change the corner drawing; use the separately supplied complete original finite frame for its four actual hand-painted corners. PNG only, without source upscale or SVG simplification.",
+      "repeat": {
+        "rationale": "The original bottom painted frame visibly establishes multiple consecutive gold diagonal S-shaped leaf cycles on red. This source-native interior motif cell retains one full cycle and original paint texture; original handwritten spacings and field edges vary and are not claimed pixel-periodic. The full original frame remains available separately.",
+        "original_direction": "horizontal",
+        "source_unit_bounds": [
+          1200,
+          3285,
+          1270,
+          3365
+        ],
+        "source_cycle_evidence": "tmp/extraction-work/continuation-20261010/cma1950154-original-outer-red-gold-s-repeat-native-grid.jpg",
+        "repeat_ratio": 1.0,
+        "native_unit_size": [
+          70,
+          70
+        ],
+        "join_adjustment": {
+          "pixels_at_each_end": 2,
+          "method": "average matching source collars; interior columns 2 through width-3 unchanged",
+          "source_cycle_verification": "The original bottom painted frame visibly establishes multiple consecutive gold diagonal S-shaped leaf cycles on red. This source-native interior motif cell retains one full cycle and original paint texture; original handwritten spacings and field edges vary and are not claimed pixel-periodic. The full original frame remains available separately."
+        },
+        "frame_withheld": {
+          "reason": "Trial miter corners leave visibly stepped painted-field boundaries and altered-looking ornament bends. They do not respect the original corner drawing closely enough. Deliver native motif units/bars only; the separately supplied complete original finite frame preserves its four actual corner flourishes.",
+          "review_evidence": "tmp/extraction-work/continuation-20261010/cma1950154-native-two-patterns-bars-and-four-corners-review.jpg"
+        }
+      },
+      "components": {
+        "bar": {
+          "png": "cleveland/cma-1950-154--gold-s-shaped-leaf-on-red-repeat--bar.png",
+          "png_sha256": "41beb29f8b17c41a2a1b4b572c6ae71d086e73c88154493932d36a79eaa35581",
+          "width": 350,
+          "height": 70,
+          "set_id": "cma-1950-154--gold-s-shaped-leaf-on-red-repeat",
+          "set_name": "Greek Psalter blue-vine frame — gold s shaped leaf on red repeat",
+          "set_role": "bar"
+        }
+      },
+      "sets": [
+        {
+          "id": "cma-1950-154-set",
+          "name": "Greek Psalter blue-vine frame",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A full gold S-shaped leaf cycle on the original red outer frame band.",
+      "set_label": "Greek Psalter blue-vine frame"
+    },
+    {
+      "id": "cma-1950-154--haloed-man-gesturing-in-blue-and-green-robes",
+      "name": "haloed-man-gesturing-in-blue-and-green-robes",
+      "source_id": "cma-1950-154",
+      "source_folder": "cleveland",
+      "asset_type": "illustration",
+      "description": "A small original haloed bearded figure wearing green upper robes and a blue lower robe, extending his hands. Part of the Greek Psalter blue-vine frame set.",
+      "source_region": [
+        320,
+        3590,
+        780,
+        4710
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        0,
+        30,
+        421,
+        1087
+      ],
+      "export_crop_coordinate_space": "original-native-source-region",
+      "width": 421,
+      "height": 1057,
+      "png": "cleveland/cma-1950-154--haloed-man-gesturing-in-blue-and-green-robes.png",
+      "png_sha256": "78ec69257df194e34ff6dd21a9bc0a535ba4ae0eb5b437aad7feaa64c3ddbfa4",
+      "provenance": {
+        "institution": "Cleveland Museum of Art",
+        "title": "Leaf from a Greek Psalter and New Testament",
+        "object_identifier": "1950.154",
+        "date": "1084",
+        "record_url": "https://clevelandart.org/art/1950.154",
+        "image_rights": "CC0; share_license_status=CC0",
+        "rights_url": "https://www.clevelandart.org/open-access",
+        "source_file": "tmp/new-assets/cleveland/cma-1950-154--leaf-from-a-greek-psalter-and-new-testament--master.tif",
+        "source_sha256": "50cf1d6abf2cfd5507a7ee7faa58cac559c2fbe3d1fe7ab9f83423ecc0481c95",
+        "source_metadata": "tmp/new-assets/cleveland/cma-1950-154.json",
+        "image_url": "https://openaccess-cdn.clevelandart.org/1950.154/1950.154_full.tif",
+        "method": "native-source-continuous-edge-matting"
+      },
+      "extraction": {
+        "native_source_size": [
+          460,
+          1120
+        ],
+        "native_upscaling": false,
+        "original_opaque_rgb_preserved": true,
+        "status": "awaiting-original-white-dark-review",
+        "candidate_png": "tmp/extraction-work/continuation-20261010/cma-1950-154--haloed-man-gesturing-in-blue-and-green-robes--refined-original-native-candidate.png",
+        "native_export_crop": [
+          0,
+          30,
+          421,
+          1087
+        ],
+        "annotation_json": "tmp/extraction-work/continuation-20261010/cma-1950-154--haloed-man-gesturing-in-blue-and-green-robes--refined-original-native-audit.json",
+        "trimap_png": "tmp/extraction-work/continuation-20261010/cma-1950-154--haloed-man-gesturing-in-blue-and-green-robes--refined-original-native-trimap.png",
+        "export_crop_coordinate_space": "original-native-source-region",
+        "native_refinement": {
+          "method": "Source-native actor and complete source-visible painted halo retained. The halo’s source red/gold circular perimeter defines its actual boundary; worn paint and pale original robe/face surfaces remain opaque. The decorated capital’s straight connecting crossbar, other figure and surrounding Greek text are excluded. The original hand gesture, clothing folds and feet with their contacted small red-gold baseline remain. Two-native-pixel continuous source-fitted contour alpha, original opaque RGB and proportions, no restoration, redraw or upscale.",
+          "source": "tmp/extraction-work/continuation-20261010/cma-1950-154--haloed-man-gesturing-in-blue-and-green-robes--original.png",
+          "previous_native_matte": {
+            "native_source_size": [
+              460,
+              1120
+            ],
+            "native_upscaling": false,
+            "original_opaque_rgb_preserved": true,
+            "status": "awaiting-original-white-dark-review",
+            "candidate_png": "tmp/extraction-work/continuation-20261010/cma-1950-154--haloed-man-gesturing-in-blue-and-green-robes--refined-original-native-candidate.png",
+            "native_export_crop": [
+              0,
+              30,
+              421,
+              1103
+            ],
+            "annotation_json": "tmp/extraction-work/continuation-20261010/cma-1950-154--haloed-man-gesturing-in-blue-and-green-robes--refined-original-native-audit.json",
+            "trimap_png": "tmp/extraction-work/continuation-20261010/cma-1950-154--haloed-man-gesturing-in-blue-and-green-robes--refined-original-native-trimap.png",
+            "export_crop_coordinate_space": "original-native-source-region",
+            "native_refinement": {
+              "method": "Source-native actor and complete source-visible painted halo retained. The halo’s source red/gold circular perimeter defines its actual boundary; worn paint and pale original robe/face surfaces remain opaque. The decorated capital’s straight connecting crossbar, other figure and surrounding Greek text are excluded. The original hand gesture, clothing folds and feet with their contacted small red-gold baseline remain. Two-native-pixel continuous source-fitted contour alpha, original opaque RGB and proportions, no restoration, redraw or upscale.",
+              "source": "tmp/extraction-work/continuation-20261010/cma-1950-154--haloed-man-gesturing-in-blue-and-green-robes--original.png",
+              "previous_native_matte": {
+                "native_source_size": [
+                  460,
+                  1045
+                ],
+                "native_upscaling": false,
+                "original_opaque_rgb_preserved": true,
+                "status": "awaiting-original-white-dark-review",
+                "candidate_png": "tmp/extraction-work/continuation-20261010/cma-1950-154--haloed-man-gesturing-in-blue-and-green-robes--refined-original-native-candidate.png",
+                "native_export_crop": [
+                  24,
+                  30,
+                  421,
+                  1045
+                ],
+                "annotation_json": "tmp/extraction-work/continuation-20261010/cma-1950-154--haloed-man-gesturing-in-blue-and-green-robes--refined-original-native-audit.json",
+                "trimap_png": "tmp/extraction-work/continuation-20261010/cma-1950-154--haloed-man-gesturing-in-blue-and-green-robes--refined-original-native-trimap.png",
+                "export_crop_coordinate_space": "original-native-source-region",
+                "native_refinement": {
+                  "method": "Source-native actor and complete source-visible painted halo retained. The halo’s source red/gold circular perimeter defines its actual boundary; worn paint and pale original robe/face surfaces remain opaque. The decorated capital’s straight connecting crossbar, other figure and surrounding Greek text are excluded. The original hand gesture, clothing folds and feet with their contacted small red-gold baseline remain. Two-native-pixel continuous source-fitted contour alpha, original opaque RGB and proportions, no restoration, redraw or upscale.",
+                  "source": "tmp/extraction-work/continuation-20261010/cma-1950-154--haloed-man-gesturing-in-blue-and-green-robes--original.png",
+                  "previous_native_matte": {
+                    "native_source_size": [
+                      460,
+                      1045
+                    ],
+                    "native_upscaling": false,
+                    "original_opaque_rgb_preserved": true,
+                    "status": "awaiting-original-white-dark-review",
+                    "candidate_png": "tmp/extraction-work/continuation-20261010/cma-1950-154--haloed-man-gesturing-in-blue-and-green-robes--refined-original-native-candidate.png",
+                    "native_export_crop": [
+                      24,
+                      15,
+                      421,
+                      1045
+                    ],
+                    "annotation_json": "tmp/extraction-work/continuation-20261010/cma-1950-154--haloed-man-gesturing-in-blue-and-green-robes--refined-original-native-audit.json",
+                    "trimap_png": "tmp/extraction-work/continuation-20261010/cma-1950-154--haloed-man-gesturing-in-blue-and-green-robes--refined-original-native-trimap.png",
+                    "export_crop_coordinate_space": "original-native-source-region",
+                    "native_refinement": {
+                      "method": "Source-native actor and complete source-visible painted halo retained. The halo’s source red/gold circular perimeter defines its actual boundary; worn paint and pale original robe/face surfaces remain opaque. The decorated capital’s straight connecting crossbar, other figure and surrounding Greek text are excluded. The original hand gesture, clothing folds and feet with their contacted small red-gold baseline remain. Two-native-pixel continuous source-fitted contour alpha, original opaque RGB and proportions, no restoration, redraw or upscale.",
+                      "source": "tmp/extraction-work/continuation-20261010/cma-1950-154--haloed-man-gesturing-in-blue-and-green-robes--original.png",
+                      "previous_native_matte": {
+                        "native_source_size": [
+                          460,
+                          1045
+                        ],
+                        "native_upscaling": false,
+                        "original_opaque_rgb_preserved": true,
+                        "status": "awaiting-native-source-review"
+                      },
+                      "unknown_band_native_pixels": 2,
+                      "source_rgb_redrawn": false,
+                      "source_resized": false,
+                      "original_opaque_rgb_preserved": true,
+                      "ownership": "tmp/extraction-work/continuation-20261010/cma-1950-154--haloed-man-gesturing-in-blue-and-green-robes--refined-original-native-ownership.png",
+                      "ownership_sha256": "d74baa466bac7dd35c612a4aaaab515c1884f32fb2bda872c8a563a31a33b931",
+                      "native_semantic_choice": 2,
+                      "additional_native_complete_hand_choice": 0,
+                      "inspected_halo_scope_source_center_radius": [
+                        495,
+                        3743,
+                        126,
+                        128
+                      ],
+                      "inspected_hand_source_bounds": [
+                        630,
+                        3805,
+                        748,
+                        3940
+                      ],
+                      "native_original_ownership_audit": "tmp/extraction-work/continuation-20261010/cma1950154-native-figure-ownership-audit.json"
+                    }
+                  },
+                  "unknown_band_native_pixels": 2,
+                  "source_rgb_redrawn": false,
+                  "source_resized": false,
+                  "original_opaque_rgb_preserved": true,
+                  "ownership": "tmp/extraction-work/continuation-20261010/cma-1950-154--haloed-man-gesturing-in-blue-and-green-robes--refined-original-native-ownership.png",
+                  "ownership_sha256": "91ead7f966c1db487ad8d6cba15ff319b6a021b125b76e8f768e27c54866eff2",
+                  "native_semantic_choice": 2,
+                  "additional_native_complete_hand_choice": 0,
+                  "inspected_halo_scope_source_center_radius": [
+                    496,
+                    3750,
+                    124,
+                    120
+                  ],
+                  "inspected_hand_source_bounds": [
+                    630,
+                    3805,
+                    748,
+                    3940
+                  ],
+                  "native_original_ownership_audit": "tmp/extraction-work/continuation-20261010/cma1950154-native-figure-ownership-audit.json"
+                }
+              },
+              "unknown_band_native_pixels": 2,
+              "source_rgb_redrawn": false,
+              "source_resized": false,
+              "original_opaque_rgb_preserved": true,
+              "ownership": "tmp/extraction-work/continuation-20261010/cma-1950-154--haloed-man-gesturing-in-blue-and-green-robes--refined-original-native-ownership.png",
+              "ownership_sha256": "8c7fda89604798132d5971a2d5fd0e8d9613b6c32c99bbc42a9166ce1ce24571",
+              "native_semantic_choice": 2,
+              "additional_native_complete_hand_choice": 0,
+              "inspected_halo_scope_source_center_radius": [
+                496,
+                3750,
+                124,
+                120
+              ],
+              "inspected_hand_source_bounds": [
+                630,
+                3805,
+                748,
+                3940
+              ],
+              "native_original_ownership_audit": "tmp/extraction-work/continuation-20261010/cma1950154-native-figure-ownership-audit.json"
+            }
+          },
+          "unknown_band_native_pixels": 2,
+          "source_rgb_redrawn": false,
+          "source_resized": false,
+          "original_opaque_rgb_preserved": true,
+          "ownership": "tmp/extraction-work/continuation-20261010/cma-1950-154--haloed-man-gesturing-in-blue-and-green-robes--refined-original-native-ownership.png",
+          "ownership_sha256": "d0cd4b7799d5e0a734f6c31cb546534586181d6f49384600e81bbfc092a5e2b4",
+          "native_semantic_choice": 2,
+          "additional_native_complete_hand_choice": 0,
+          "inspected_halo_scope_source_center_radius": [
+            496,
+            3750,
+            124,
+            120
+          ],
+          "inspected_hand_source_bounds": [
+            630,
+            3805,
+            748,
+            3940
+          ],
+          "native_original_ownership_audit": "tmp/extraction-work/continuation-20261010/cma1950154-native-figure-ownership-audit.json"
+        },
+        "tool": "Original native scan / closed-form edge alpha and foreground decontamination",
+        "pixel_exact": false
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Inspected complete original, white/dark composites and native contours. Original gold painted scene/architecture/figure and all finite frame flourishes are retained; frame’s genuine counter and finial openings are clear. Separate blue/green actor keeps the complete original halo, gesturing hand, both feet and original red-gold baseline, with unrelated alphabetic crossbar and words removed. Intrinsic paint wear remains opaque, native source RGB/proportions retained, no upscale or redraw.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/cma1950154-scene-native-review-current-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/cma1950154-final-native-frame-finials-and-background-review.jpg",
+          "tmp/extraction-work/continuation-20261010/cma1950154-finite-frame-complete-pattern-edges-final-review.jpg",
+          "tmp/extraction-work/continuation-20261010/cma1950154-two-figures-native-review-current-proof-1.jpg"
+        ]
+      },
+      "categories": [
+        "humans"
+      ],
+      "subjects": [
+        "man",
+        "halo",
+        "robe",
+        "hand"
+      ],
+      "colors": [
+        "blue",
+        "green",
+        "gold",
+        "brown"
+      ],
+      "facing": "front",
+      "composition": "single-figure",
+      "usage_notes": "Original native scan color, paint wear and asymmetry retained. Exterior page, unrelated writing and alphabetic connecting rules excluded; opaque illustrated surfaces preserved. No missing pigment or geometry invented. PNG retains historical paint texture.",
+      "sets": [
+        {
+          "id": "cma-1950-154-set",
+          "name": "Greek Psalter blue-vine frame",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A small original haloed bearded figure wearing green upper robes and a blue lower robe, extending his hands.",
+      "set_label": "Greek Psalter blue-vine frame"
+    },
+    {
+      "id": "cma-1950-154--haloed-man-in-blue-and-orange-robes",
+      "name": "haloed-man-in-blue-and-orange-robes",
+      "source_id": "cma-1950-154",
+      "source_folder": "cleveland",
+      "asset_type": "illustration",
+      "description": "A small original haloed bearded figure wearing blue and orange robes, gesturing with his left hand. Part of the Greek Psalter blue-vine frame set.",
+      "source_region": [
+        660,
+        3580,
+        1110,
+        4710
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        2,
+        37,
+        346,
+        1085
+      ],
+      "export_crop_coordinate_space": "original-native-source-region",
+      "width": 344,
+      "height": 1048,
+      "png": "cleveland/cma-1950-154--haloed-man-in-blue-and-orange-robes.png",
+      "png_sha256": "9bfe4d2168bfcc85abc5e5c658f370f2fe3fa7888391a39a3cacc7e7327c2143",
+      "provenance": {
+        "institution": "Cleveland Museum of Art",
+        "title": "Leaf from a Greek Psalter and New Testament",
+        "object_identifier": "1950.154",
+        "date": "1084",
+        "record_url": "https://clevelandart.org/art/1950.154",
+        "image_rights": "CC0; share_license_status=CC0",
+        "rights_url": "https://www.clevelandart.org/open-access",
+        "source_file": "tmp/new-assets/cleveland/cma-1950-154--leaf-from-a-greek-psalter-and-new-testament--master.tif",
+        "source_sha256": "50cf1d6abf2cfd5507a7ee7faa58cac559c2fbe3d1fe7ab9f83423ecc0481c95",
+        "source_metadata": "tmp/new-assets/cleveland/cma-1950-154.json",
+        "image_url": "https://openaccess-cdn.clevelandart.org/1950.154/1950.154_full.tif",
+        "method": "native-source-continuous-edge-matting"
+      },
+      "extraction": {
+        "candidate_png": "tmp/extraction-work/continuation-20261010/cma-1950-154--haloed-man-in-blue-and-orange-robes--registered-native-candidate.png",
+        "native_export_crop": [
+          2,
+          37,
+          346,
+          1085
+        ],
+        "export_crop_coordinate_space": "original-native-source-region",
+        "annotation_json": "tmp/extraction-work/continuation-20261010/cma-1950-154--haloed-man-in-blue-and-orange-robes--registered-native-annotation.json",
+        "trimap_png": "tmp/extraction-work/continuation-20261010/cma-1950-154--haloed-man-in-blue-and-orange-robes--registered-native-trimap.png",
+        "native_source_size": [
+          450,
+          1130
+        ],
+        "native_upscaling": false,
+        "source_pixels_redrawn": false,
+        "original_opaque_rgb_preserved": true,
+        "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+        "alpha_guide": {
+          "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+          "guide_png": "tmp/extraction-work/continuation-20261010/cma-1950-154--haloed-man-in-blue-and-orange-robes--complete-hand-and-halo-alpha-reference.png",
+          "guide_sha256": "620ce05f1b409c7fb2e919bbbd2c26750018432567a4c7c2df20c78ca6662977",
+          "native_original": "tmp/extraction-work/continuation-20261010/cma-1950-154--haloed-man-in-blue-and-orange-robes--original.png",
+          "similarity_ai_alpha_to_original": [
+            [
+              0.6383560433320539,
+              -0.010347668310065656,
+              -93.51248927184535
+            ],
+            [
+              0.010347668310065656,
+              0.6383560433320539,
+              36.155813192783356
+            ]
+          ],
+          "matching_feature_pairs": 572,
+          "inlier_feature_pairs": 330,
+          "inlier_rms_native_pixels": 2.1107310357934606,
+          "source_inspection_factor": 1,
+          "unknown_edge_band_native_pixels": 3,
+          "edge_solve_tile_size": 640,
+          "edge_solve_halo": 32,
+          "edge_solve_tiles": 2,
+          "original_opaque_rgb_preserved": true
+        },
+        "status": "awaiting-original-white-dark-review",
+        "tool": "Original native scan / closed-form edge alpha and foreground decontamination",
+        "pixel_exact": false,
+        "ownership_guide_prompt": "Use case: faithful foreground ownership extraction from the supplied original historical illuminated manuscript crop. Keep only the complete small haloed bearded man in blue and orange robes, including his full round gold halo, his small LEFT HAND gesturing out to the left around the middle of the crop, both robe layers, both feet and their contacted small red/gold baseline. Exclude surrounding Greek lettering, the other figure or its finger fragments at far left, and the horizontal alphabetic crossbar behind the halo. Keep the exact source pose, proportions, painted outline, grain, gilding and paint wear. Pale and worn illustrated surfaces within the halo, robe, limbs and hand are opaque; actual exterior parchment and genuine openings between feet become transparent. No new fingers, clothing folds, reconstruction, symmetry, sharpened vector strokes, replaced anatomy or restored pigment. Complete selected SOURCE-VISIBLE subject, truly transparent background, no paper rectangle.",
+        "retained_generated_ownership_guide": {
+          "file": "tmp/extraction-work/continuation-20261010/cma-1950-154--haloed-man-in-blue-and-orange-robes--complete-hand-and-halo-alpha-reference.png",
+          "sha256": "620ce05f1b409c7fb2e919bbbd2c26750018432567a4c7c2df20c78ca6662977",
+          "purpose": "Retained AI alpha guide only; delivered opaque RGB belongs to the unchanged native source."
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Reviewed original at native detail and white/dark: complete halo, both robe layers, full source-visible gesturing left hand, both feet and red/gold baseline. Intrinsic worn/pale figure paint stays opaque; alphabetic crossbar, surrounding writing and actual foot gap are clear. Ownership alpha is registered from retained AI guide (330 distinct inliers, RMS 2.11 native pixels), but delivered RGB is native untouched-source painting at opaque pixels, not generated repainting. No upscale or vector replacement.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/cma1950154-two-figures-native-review-current-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/cma1950154-orange-figure-complete-source-native-hand-halo-feet-review.jpg"
+        ]
+      },
+      "categories": [
+        "humans"
+      ],
+      "subjects": [
+        "man",
+        "halo",
+        "robe",
+        "hand"
+      ],
+      "colors": [
+        "blue",
+        "orange",
+        "gold",
+        "brown"
+      ],
+      "facing": "front",
+      "composition": "single-figure",
+      "usage_notes": "Original native scan color, paint wear and asymmetry retained. Exterior page, unrelated writing and alphabetic connecting rules excluded; opaque illustrated surfaces preserved. No missing pigment or geometry invented. PNG retains historical paint texture.",
+      "sets": [
+        {
+          "id": "cma-1950-154-set",
+          "name": "Greek Psalter blue-vine frame",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A small original haloed bearded figure wearing blue and orange robes, gesturing with his left hand.",
+      "set_label": "Greek Psalter blue-vine frame"
+    },
+    {
+      "id": "cma-1950-154--standing-apostle-with-rolled-scroll",
+      "name": "standing-apostle-with-rolled-scroll",
+      "source_id": "cma-1950-154",
+      "source_folder": "cleveland",
+      "asset_type": "illustration",
+      "description": "A standing haloed apostle in blue and orange robes holding a rolled white scroll. Part of the Greek Psalter blue-vine frame set.",
+      "source_region": [
+        1672,
+        764,
+        2567,
+        3164
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        34,
+        0,
+        750,
+        2002
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 716,
+      "height": 2002,
+      "png": "cleveland/cma-1950-154--standing-apostle-with-rolled-scroll.png",
+      "png_sha256": "1738df7c6a3d7448975b57fcd47c80bdb310eea557dad64a035e35e12705a964",
+      "provenance": {
+        "institution": "Cleveland Museum of Art",
+        "title": "Leaf from a Greek Psalter and New Testament",
+        "object_identifier": "1950.154",
+        "date": "1084",
+        "record_url": "https://clevelandart.org/art/1950.154",
+        "image_rights": "CC0; share_license_status=CC0",
+        "rights_url": "https://www.clevelandart.org/open-access",
+        "source_file": "tmp/new-assets/cleveland/cma-1950-154--leaf-from-a-greek-psalter-and-new-testament--master.tif",
+        "source_sha256": "50cf1d6abf2cfd5507a7ee7faa58cac559c2fbe3d1fe7ab9f83423ecc0481c95",
+        "source_metadata": "tmp/new-assets/cleveland/cma-1950-154.json",
+        "image_url": "https://openaccess-cdn.clevelandart.org/1950.154/1950.154_full.tif",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. Isolate only the central full-length bearded apostle. Keep the thin original GOLD halo, blue under-robe, orange drapery, two hands, the small rolled WHITE SCROLL held in his hand, both original bare/sandalled feet. This is a scroll, not a book. Remove the distant gold field, red hanging wall cloth, all towers/architecture, painted turquoise ground and rectangular frame. No invented foot/anatomy. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_extraction": "tmp/extraction-work/cma-1950-154--standing-apostle-with-rolled-scroll--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "44109e33834c51fbca9431f0eaa9ed04b0af77c426dfe2f588b1c0e697546ad4",
+        "retained_generated_size": [
+          766,
+          2053
+        ],
+        "resolution_cap_scale": 1,
+        "resolution_capped_size": [
+          766,
+          2053
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          806,
+          2312
+        ],
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 6242
+        },
+        "native_subject_size_evidence": {
+          "method": "Individually inspected native visible subject bounds, excluding input-region whitespace and neighbours.",
+          "preview_subject_bounds": [
+            402,
+            190,
+            592,
+            735
+          ],
+          "preview_size": [
+            1070,
+            1600
+          ],
+          "original_size": [
+            4540,
+            6787
+          ]
+        }
+      },
+      "parent": "cma-1950-154--complete-apostle-city-scene-with-blue-vine-frame",
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Compared native source region and white/dark renders. Entire original visible fingers/feet, table/basket/cauldron props, leaf and petal tips, stems and genuine openings checked. Detached specimens delivered individually. Gray-blue flower has all original gray lobes; radial flower has all FIVE original blue curls. Source-provided floor retained only beneath the intrinsic cooking scene, never a gold/page rectangle.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/cleveland-thirteen-generated-results-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/cleveland-thirteen-generated-results-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/cleveland-thirteen-generated-results-proof-3.jpg",
+          "tmp/extraction-work/continuation-20261010/cleveland-thirteen-generated-results-proof-4.jpg"
+        ]
+      },
+      "categories": [
+        "humans"
+      ],
+      "subjects": [
+        "apostle",
+        "scroll",
+        "halo"
+      ],
+      "colors": [
+        "blue",
+        "orange",
+        "gold",
+        "brown"
+      ],
+      "facing": "front",
+      "composition": "standalone",
+      "usage_notes": "Independent original foreground or intrinsic contacting scene. AI-assisted approximation; original native region, exact prompt and visible subject resolution cap retained. Gold page field is transparent; no letter forms included.",
+      "sets": [
+        {
+          "id": "cma-1950-154-set",
+          "name": "Greek Psalter blue-vine frame",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A standing haloed apostle in blue and orange robes holding a rolled white scroll.",
+      "set_label": "Greek Psalter blue-vine frame"
+    },
+    {
+      "id": "cma-1950-154--white-curling-vine-on-blue-repeat",
+      "name": "white-curling-vine-on-blue-repeat",
+      "source_id": "cma-1950-154",
+      "source_folder": "cleveland",
+      "asset_type": "border",
+      "description": "A full white curling vine cycle with curled tip and spreading leaf on its original blue painted band. Part of the Greek Psalter blue-vine frame set.",
+      "source_region": [
+        1180,
+        3170,
+        1490,
+        3300
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        0,
+        0,
+        310,
+        111
+      ],
+      "export_crop_coordinate_space": "source-region",
+      "width": 310,
+      "height": 111,
+      "png": "cleveland/cma-1950-154--white-curling-vine-on-blue-repeat.png",
+      "png_sha256": "7a7b6901056f0389f70ada6bbd3f8c73001abbdf237fd18509866182166838f2",
+      "provenance": {
+        "institution": "Cleveland Museum of Art",
+        "title": "Leaf from a Greek Psalter and New Testament",
+        "object_identifier": "1950.154",
+        "date": "1084",
+        "record_url": "https://clevelandart.org/art/1950.154",
+        "image_rights": "CC0; share_license_status=CC0",
+        "rights_url": "https://www.clevelandart.org/open-access",
+        "source_file": "tmp/new-assets/cleveland/cma-1950-154--leaf-from-a-greek-psalter-and-new-testament--master.tif",
+        "source_sha256": "50cf1d6abf2cfd5507a7ee7faa58cac559c2fbe3d1fe7ab9f83423ecc0481c95",
+        "source_metadata": "tmp/new-assets/cleveland/cma-1950-154.json",
+        "image_url": "https://openaccess-cdn.clevelandart.org/1950.154/1950.154_full.tif",
+        "method": "native-interior-repeat-for-bars"
+      },
+      "extraction": {
+        "candidate_png": "tmp/extraction-work/continuation-20261010/cma-1950-154--white-curling-vine-on-blue-repeat--trimmed-original-native-repeat-cycle.png",
+        "native_matte": {
+          "native_source_size": [
+            310,
+            130
+          ],
+          "native_upscaling": false,
+          "original_opaque_rgb_preserved": true,
+          "status": "awaiting-original-white-dark-review",
+          "candidate_png": "tmp/extraction-work/continuation-20261010/cma-1950-154--white-curling-vine-on-blue-repeat--trimmed-original-native-repeat-cycle.png",
+          "native_export_crop": [
+            0,
+            8,
+            310,
+            129
+          ],
+          "annotation_json": "tmp/extraction-work/continuation-20261010/cma-1950-154--white-curling-vine-on-blue-repeat--refined-original-native-audit.json",
+          "trimap_png": "tmp/extraction-work/continuation-20261010/cma-1950-154--white-curling-vine-on-blue-repeat--refined-original-native-trimap.png",
+          "export_crop_coordinate_space": "original-native-source-region",
+          "native_refinement": {
+            "method": "The entire original painted band is isolated by its native pigment perimeter. Continuous original blue or red/gold field and all original pale ornament strokes remain opaque; exterior page and adjacent differently colored frame bands are excluded. One full source-established motif cycle, native original proportions/RGB and two-native-pixel continuous alpha. No invented contour, elastic warp or source upscale.",
+            "source": "tmp/extraction-work/continuation-20261010/cma-1950-154--white-curling-vine-on-blue-repeat--original.png",
+            "previous_native_matte": {
+              "native_source_size": [
+                310,
+                130
+              ],
+              "native_upscaling": false,
+              "original_opaque_rgb_preserved": true,
+              "status": "awaiting-native-source-review"
+            },
+            "unknown_band_native_pixels": 2,
+            "source_rgb_redrawn": false,
+            "source_resized": false,
+            "original_opaque_rgb_preserved": true,
+            "ownership": "tmp/extraction-work/continuation-20261010/cma-1950-154--white-curling-vine-on-blue-repeat--refined-original-native-ownership.png",
+            "ownership_sha256": "d32383a6f38c0e4dfd99b4a4c095e227ed9610167a7486662b2250ed34365a4b",
+            "original_source_cycle_bounds": [
+              1180,
+              3170,
+              1490,
+              3300
+            ],
+            "actual_native_source_cycle_evidence": "tmp/extraction-work/continuation-20261010/cma1950154-native-half-bottom-frame-unit-detail.jpg"
+          }
+        },
+        "native_upscaling": false,
+        "source_pixels_redrawn": false,
+        "original_opaque_rgb_preserved": true,
+        "source_original_bounds": [
+          1180,
+          3170,
+          1490,
+          3300
+        ],
+        "export_crop": [
+          0,
+          8,
+          310,
+          129
+        ],
+        "method": "Actual native painted motif cycle with continuous alpha. Exact original opaque RGB, no resize, Source Native bounding paint perimeter. Only the explicitly audited two-pixel join collars change.",
+        "candidate_sha256": "59a3e41d76d284a8a5f1d6483af82951b5119eb3bc1b0b740002263ff2645fa8",
+        "repeat_build": {
+          "unit_png": "tmp/extraction-work/cma-1950-154--white-curling-vine-on-blue-repeat--unit.png",
+          "bar_png": "tmp/extraction-work/cma-1950-154--white-curling-vine-on-blue-repeat--bar.png",
+          "native_unit_size": [
+            310,
+            111
+          ],
+          "repeat_ratio": 2.7927927927927927,
+          "join_adjustment": {
+            "pixels_at_each_end": 2,
+            "method": "average matching source collars; interior columns 2 through width-3 unchanged",
+            "source_cycle_verification": "The original bottom painted frame visibly establishes multiple consecutive white vine cycles, each with a hooked curl and a spreading leaf. This source-native interior motif cell retains one full cycle and original paint texture; original handwritten spacings and field edges vary and are not claimed pixel-periodic. The full original frame remains available separately."
+          },
+          "status": "awaiting-repeat-and-corner-visual-review",
+          "rejected_corner_trial": {
+            "unit_png": "tmp/extraction-work/cma-1950-154--white-curling-vine-on-blue-repeat--unit.png",
+            "bar_png": "tmp/extraction-work/cma-1950-154--white-curling-vine-on-blue-repeat--bar.png",
+            "frame_png": "tmp/extraction-work/cma-1950-154--white-curling-vine-on-blue-repeat--frame-atlas.png",
+            "corners": [
+              {
+                "name": "top-left",
+                "png": "tmp/extraction-work/cma-1950-154--white-curling-vine-on-blue-repeat--corner-top-left.png",
+                "atlas_bounds": [
+                  0,
+                  0,
+                  111,
+                  111
+                ]
+              },
+              {
+                "name": "top-right",
+                "png": "tmp/extraction-work/cma-1950-154--white-curling-vine-on-blue-repeat--corner-top-right.png",
+                "atlas_bounds": [
+                  421,
+                  0,
+                  532,
+                  111
+                ]
+              },
+              {
+                "name": "bottom-right",
+                "png": "tmp/extraction-work/cma-1950-154--white-curling-vine-on-blue-repeat--corner-bottom-right.png",
+                "atlas_bounds": [
+                  421,
+                  421,
+                  532,
+                  532
+                ]
+              },
+              {
+                "name": "bottom-left",
+                "png": "tmp/extraction-work/cma-1950-154--white-curling-vine-on-blue-repeat--corner-bottom-left.png",
+                "atlas_bounds": [
+                  0,
+                  421,
+                  111,
+                  532
+                ]
+              }
+            ],
+            "native_unit_size": [
+              310,
+              111
+            ],
+            "atlas_size": [
+              532,
+              532
+            ],
+            "slice_pixels": 111,
+            "slice_percent": 20.86466165413534,
+            "repeat_ratio": 2.7927927927927927,
+            "join_adjustment": {
+              "pixels_at_each_end": 2,
+              "method": "average matching source collars; interior columns 2 through width-3 unchanged",
+              "source_cycle_verification": "The original bottom painted frame visibly establishes multiple consecutive white vine cycles, each with a hooked curl and a spreading leaf. This source-native interior motif cell retains one full cycle and original paint texture; original handwritten spacings and field edges vary and are not claimed pixel-periodic. The full original frame remains available separately."
+            },
+            "corner_method": "Mitered reflections of the exact same native unit, using the repository’s four phase-matched corner geometry. Derived corners are distinct from the original fixed printer-frame corners.",
+            "status": "awaiting-repeat-and-corner-visual-review"
+          },
+          "frame_withheld": {
+            "reason": "Trial miter corners leave visibly stepped painted-field boundaries and altered-looking ornament bends. They do not respect the original corner drawing closely enough. Deliver native motif units/bars only; the separately supplied complete original finite frame preserves its four actual corner flourishes.",
+            "review_evidence": "tmp/extraction-work/continuation-20261010/cma1950154-native-two-patterns-bars-and-four-corners-review.jpg"
+          }
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Inspected original neighboring motif periods, native unit and five-unit bars on white/dark. Blue cycle includes both opposite white curl/leaf phases; gold cycle includes a full S leaf. Exact original opaque RGB and source texture retained, native antialiased field perimeter and true exterior alpha. Two-pixel end-collar adjustment only; all interiors are byte unchanged. Trial four-corner frames visibly distort painterly boundaries, so frame/corner outputs are deliberately withheld. The separate whole finite original frame retains the source’s real corners.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/cma1950154-native-half-bottom-frame-unit-detail.jpg",
+          "tmp/extraction-work/continuation-20261010/cma1950154-original-outer-red-gold-s-repeat-native-grid.jpg",
+          "tmp/extraction-work/continuation-20261010/cma1950154-native-two-patterns-bars-and-four-corners-review.jpg"
+        ]
+      },
+      "categories": [
+        "floral",
+        "scrollwork"
+      ],
+      "subjects": [
+        "vine",
+        "curl",
+        "band"
+      ],
+      "colors": [
+        "blue",
+        "white"
+      ],
+      "facing": "unclear",
+      "composition": "repeat-tile",
+      "usage_notes": "A source-established complete native painted motif cycle for repeating bars, with a five-unit example. Interior pixels remain original; two native end columns are averaged for the join. Original painterly spacing/contours vary. Frame/corner trials are withheld because mitered field boundaries visibly step and the bends change the corner drawing; use the separately supplied complete original finite frame for its four actual hand-painted corners. PNG only, without source upscale or SVG simplification.",
+      "repeat": {
+        "rationale": "The original bottom painted frame visibly establishes multiple consecutive white vine cycles, each with a hooked curl and a spreading leaf. This source-native interior motif cell retains one full cycle and original paint texture; original handwritten spacings and field edges vary and are not claimed pixel-periodic. The full original frame remains available separately.",
+        "original_direction": "horizontal",
+        "source_unit_bounds": [
+          1180,
+          3170,
+          1490,
+          3300
+        ],
+        "source_cycle_evidence": "tmp/extraction-work/continuation-20261010/cma1950154-native-half-bottom-frame-unit-detail.jpg",
+        "repeat_ratio": 2.7927927927927927,
+        "native_unit_size": [
+          310,
+          111
+        ],
+        "join_adjustment": {
+          "pixels_at_each_end": 2,
+          "method": "average matching source collars; interior columns 2 through width-3 unchanged",
+          "source_cycle_verification": "The original bottom painted frame visibly establishes multiple consecutive white vine cycles, each with a hooked curl and a spreading leaf. This source-native interior motif cell retains one full cycle and original paint texture; original handwritten spacings and field edges vary and are not claimed pixel-periodic. The full original frame remains available separately."
+        },
+        "frame_withheld": {
+          "reason": "Trial miter corners leave visibly stepped painted-field boundaries and altered-looking ornament bends. They do not respect the original corner drawing closely enough. Deliver native motif units/bars only; the separately supplied complete original finite frame preserves its four actual corner flourishes.",
+          "review_evidence": "tmp/extraction-work/continuation-20261010/cma1950154-native-two-patterns-bars-and-four-corners-review.jpg"
+        }
+      },
+      "components": {
+        "bar": {
+          "png": "cleveland/cma-1950-154--white-curling-vine-on-blue-repeat--bar.png",
+          "png_sha256": "5d03eb2724a586790f69a4c425e9aad101fe5a1186eea835bc4b0646fb90d1f8",
+          "width": 1550,
+          "height": 111,
+          "set_id": "cma-1950-154--white-curling-vine-on-blue-repeat",
+          "set_name": "Greek Psalter blue-vine frame — white curling vine on blue repeat",
+          "set_role": "bar"
+        }
+      },
+      "sets": [
+        {
+          "id": "cma-1950-154-set",
+          "name": "Greek Psalter blue-vine frame",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A full white curling vine cycle with curled tip and spreading leaf on its original blue painted band.",
+      "set_label": "Greek Psalter blue-vine frame"
+    }
+  ]
+}

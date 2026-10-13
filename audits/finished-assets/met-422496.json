@@ -1,0 +1,114 @@
+{
+  "source_id": "met-422496",
+  "assets": [
+    {
+      "id": "met-422496--soldier-profile-in-fruiting-dagger-sheath",
+      "name": "soldier-profile-in-fruiting-dagger-sheath",
+      "source_id": "met-422496",
+      "source_folder": "met",
+      "asset_type": "decoration",
+      "description": "An engraved dagger-sheath ornament with a helmeted soldier profile, fruit and narrow curled foliage.",
+      "source_region": [
+        0,
+        0,
+        881,
+        3899
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        121,
+        15,
+        604,
+        2163
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 483,
+      "height": 2148,
+      "png": "met/met-422496--soldier-profile-in-fruiting-dagger-sheath.png",
+      "png_sha256": "b7d41e6b2d0a1657366f61ec5f857fb3098bf9ea3860e00e94060c47a2684baf",
+      "provenance": {
+        "institution": "Metropolitan Museum of Art",
+        "title": "Dagger Sheath with Profile of a Soldier Supported by Tendrils",
+        "object_identifier": "32.123.2",
+        "date": "1535",
+        "artist": "Heinrich Aldegrever",
+        "record_url": "https://www.metmuseum.org/art/collection/search/422496",
+        "image_rights": "CC0 Open Access; isPublicDomain=true",
+        "rights_url": "https://www.metmuseum.org/policies/image-resources",
+        "source_file": "tmp/new-assets/met/met-422496--dagger-sheath-with-profile-of-a-soldier-supported-by-tendrils.jpg",
+        "source_sha256": "1f80447a8ad6f3907fe09163bcbc25d063f90238a77a538c0cc710ac1fcdc527",
+        "source_metadata": "tmp/new-assets/met/met-422496.json",
+        "image_url": "https://images.metmuseum.org/CRDImages/dp/original/DP836756.jpg",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: background-extraction. Edit target: the referenced ORIGINAL historic engraving for a museum decorative-art collection. Produce a transparent cutout of this exact existing ornament, with all source proportions and engraved detail preserved. Subject: The complete original tapered dagger-sheath ornament, including top helmeted soldier profile, every fruit, lobed leaf, thin stem and its original narrow pointed bottom. Remove only the surrounding rectangular plate/paper, dark background hatch and bottom-left signature plaque. Keep the exact tapered outline, without stretching the narrow motif. Remove the dense straight crosshatched BACKGROUND field, page paper, outer plate rules, unrelated signatures, date panels and cartouche lettering. Clear every genuine opening between leaves, limbs, wings, stems and scrolls. Foreground curved hatching, original ink texture, pale illustrated surfaces and every real contour stay intact and opaque. Keep every original finger, toe, curl, narrow connecting line, leaf tooth and motif tip. Keep physically contacting figures and shared props together. Do not invent missing source-truncated ends or extend motifs beyond the original. Do not add shading, symmetry, anatomy, detail or generic replacement foliage. Do not redesign, simplify, beautify, sharpen into modern line art, stretch or compress the original height-to-width ratio. Preserve the exact original long narrow arrangement when present. Use fine antialiased edges without paper halos or stepped polygon cuts. Genuine transparent alpha outside and inside the openings; no white rectangle, checkerboard paint, background hatching or shadow.",
+        "retained_generated_extraction": "tmp/extraction-work/met-422496--soldier-profile-in-fruiting-dagger-sheath--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "a255a714de588ebf3ef87ef52d10ba8b503d8de129ab7eddff5d201501e6bb55",
+        "retained_generated_size": [
+          724,
+          2171
+        ],
+        "resolution_cap_scale": 1,
+        "resolution_capped_size": [
+          724,
+          2171
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          881,
+          3899
+        ],
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 31039
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Complete original contacting figures, appendages, props, fine leaf contours and genuine interior openings checked on source/white/dark. Satyrs remain two contacting couples on one original stem; both sphinxes remain joined to their original scroll. Narrow soldier/sheath retains its full pointed end. Printed signatures and dark hatch field removed; original foreground hatching and pale surfaces retained opaque. No generic trace.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/eight-met-dark-generated-results-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/eight-met-dark-generated-results-proof-2.jpg"
+        ]
+      },
+      "categories": [
+        "humans",
+        "floral"
+      ],
+      "subjects": [
+        "helmet",
+        "head",
+        "fruit",
+        "leaf",
+        "scroll",
+        "sheath"
+      ],
+      "facing": "mixed",
+      "colors": [
+        "black",
+        "brown",
+        "cream"
+      ],
+      "composition": "single-ornament",
+      "usage_notes": "Whole finite source ornament with original contacting figures and shared props retained. No seamless period or new frame corners inferred. AI-assisted extraction is approximate, not a pixel-exact crop; original, exact prompt and native resolution caps retained."
+    }
+  ]
+}

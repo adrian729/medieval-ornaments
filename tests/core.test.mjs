@@ -17,10 +17,11 @@ test('generated catalog agrees with artwork and has stable capabilities', async 
   const illustrations = JSON.parse(await readFile(new URL('illustrations.json', root)));
   const raster = JSON.parse(await readFile(new URL('raster-metadata.json', root)));
   const rasterBorders = JSON.parse(await readFile(new URL('historical-border-patterns.json', root)));
+  const finishedBorders = JSON.parse(await readFile(new URL('finished-border-patterns.json', root)));
   const repeats = additions.filter(item => item.kind === 'repeat-tile').length;
-  assert.equal(ornaments.length, 44 + raster.length + additions.length + illustrations.length + rasterBorders.length);
-  assert.equal(findOrnaments({ use: 'frame' }).length, 40 + repeats + rasterBorders.length);
-  assert.equal(findOrnaments({ use: 'divider' }).length, 40 + repeats + rasterBorders.length);
+  assert.equal(ornaments.length, 44 + raster.length + additions.length + illustrations.length + rasterBorders.length + finishedBorders.length);
+  assert.equal(findOrnaments({ use: 'frame' }).length, 40 + repeats + rasterBorders.length + finishedBorders.filter(item => item.components.border_image).length);
+  assert.equal(findOrnaments({ use: 'divider' }).length, 40 + repeats + rasterBorders.length + finishedBorders.length);
   assert.equal(findOrnaments({ use: 'image' }).length, 4 + raster.length + additions.length - repeats + illustrations.length);
   assert.deepEqual(ornaments.map(item => item.name), [...ornaments.map(item => item.name)].sort());
   for (const item of original) {
@@ -28,7 +29,7 @@ test('generated catalog agrees with artwork and has stable capabilities', async 
     assert.deepEqual(generated, item);
     assert.ok(Object.isFrozen(getOrnament(item.name).components));
     assert.ok(Object.isFrozen(getOrnament(item.name).variants));
-    assert.deepEqual(uses, item.kind === 'standalone' ? ['image'] : ['frame', 'divider']);
+    assert.deepEqual(uses, item.kind === 'standalone' ? ['image'] : item.components.border_image ? ['frame', 'divider'] : ['divider']);
     assert.deepEqual(formats, ['svg', 'webp', 'png'].filter(format => item[format]));
   }
 });
@@ -55,6 +56,10 @@ test('every repeat design selects original and forced axes with each format', as
       assert.ok([source, ...source.variants].some(asset => asset[result.asset.format] === result.asset.path));
       await access(new URL(result.asset.path, root));
     }
+    if (!item.components.border_image) {
+      assert.throws(() => resolveOrnament('frame', { design: item.name }), /cannot be used/);
+      continue;
+    }
     const frame = resolveOrnament('frame', { design: item.name, size: 33 });
     assert.equal(frame.style['--ornament-slice'], item.border_image_slice_percent + '%');
     assert.ok(frame.asset.path.includes('-border.'));
@@ -77,7 +82,7 @@ test('whole designs use the painted default and fail unsupported repetition', ()
 
 test('raster choice follows actual resolution at exact boundaries for all assets', () => {
   for (const item of ornaments) {
-    const uses = item.kind === 'standalone' ? ['image'] : ['frame', 'divider'];
+    const uses = item.kind === 'standalone' ? ['image'] : item.components.border_image ? ['frame', 'divider'] : ['divider'];
     for (const use of uses) for (const format of ['png', 'webp']) for (const density of [1, 2, 3]) {
       const source = use === 'frame' ? item.components.border_image : item;
       const factor = use === 'frame' ? 100 / item.border_image_slice_percent : use === 'divider' ? Math.max(1, item.repeat_ratio) : Math.max(1, source.width / source.height);

@@ -1,0 +1,1 @@
+import type{DividerDesign}from'../common.js';type D=DividerDesign<"gold-s-shaped-leaf-on-red-repeat","webp"|"png","border">;export declare const ornament:D['ornament'];export declare const resolveOrnament:D['resolve'];export type DividerOptions=D['dividerOptions'];export declare const createDivider:D['createDivider'];

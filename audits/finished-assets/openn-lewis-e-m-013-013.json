@@ -1,0 +1,109 @@
+{
+  "source_id": "openn-lewis-e-m-013-013",
+  "assets": [
+    {
+      "id": "openn-lewis-e-m-013-013--lobed-floral-blue-scroll",
+      "name": "lobed-floral-blue-scroll",
+      "source_id": "openn-lewis-e-m-013-013",
+      "source_folder": "openn-free-library",
+      "asset_type": "decoration",
+      "description": "A long curling blue foliate scroll with red flowers, green lobed leaves and small blue and red terminals.",
+      "source_region": [
+        487,
+        570,
+        1369,
+        1672
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        41,
+        28,
+        838,
+        1093
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 797,
+      "height": 1065,
+      "png": "openn-free-library/openn-lewis-e-m-013-013--lobed-floral-blue-scroll.png",
+      "png_sha256": "441a039aaa7972aa812169e8f5bf936fc2122c7381b1de0573d560dc6fe8bf02",
+      "provenance": {
+        "institution": "Free Library of Philadelphia, John Frederick Lewis Collection",
+        "title": "Decorated initial O",
+        "object_identifier": "Lewis E M 13:13 Decorated initial O",
+        "date": "(France, 1400-1499)",
+        "record_url": "https://openn.library.upenn.edu/Data/0023/html/lewis_e_m_013_013.html",
+        "image_rights": "Public Domain Mark 1.0; item record explicitly places images in public domain",
+        "rights_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "source_file": "tmp/new-assets/openn-free-library/openn-lewis-e-m-013-013--decorated-initial-o--master.tif",
+        "source_sha256": "99ce105567d38d62c7c0f43368a5c88d5f5ce887bb82dd21884448c3149f7f71",
+        "source_metadata": "tmp/new-assets/openn-free-library/openn-lewis-e-m-013-013.json",
+        "image_url": "https://openn.library.upenn.edu/Data/0023/lewis_e_m_013_013/data/master/7563_0000.tif",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: precise-object-edit / faithful historical foreground extraction. Edit target: the supplied original manuscript detail. Extract Only the entire connected blue interior vine-scroll with its two orange flowers, two green lobed leaves and two small blue terminal leaves. Remove the large pink O letter, flat gold background and separate dots. Preserve all six foliage terminals and original blue winding stem, all opaque white painted highlights; real openings must be transparent. Keep the exact original pose, shapes, colors, proportions and fine ink or painted lines. Output on a genuinely transparent background, with small transparent padding. Remove lettering, parchment, stains, chart, ruler and surrounding ground color. No new details, reconstruction, modern redraw, shadows, glow, smoothing or background rectangle.",
+        "retained_generated_extraction": "tmp/extraction-work/openn-lewis-e-m-013-013--lobed-floral-blue-scroll--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "c250c4bb848eb33692ecb720c8decacdca7f673c85d59c009e0df643fe8cfe8f",
+        "retained_generated_size": [
+          1122,
+          1402
+        ],
+        "resolution_cap_scale": 0.7860199714693296,
+        "resolution_capped_size": [
+          882,
+          1102
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261010",
+        "notes": "Compared original curling blue stem, red/green blossoms and blue/red terminals. Gold oval and surrounding initial background removed; blossom interiors retained opaque.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": "tmp/extraction-work/quality-reaudit-20261010/manifest.json"
+      },
+      "categories": [
+        "floral",
+        "botanical",
+        "scrollwork"
+      ],
+      "subjects": [
+        "vine",
+        "flowers",
+        "leaves"
+      ],
+      "facing": "unclear",
+      "colors": [
+        "blue",
+        "red",
+        "green",
+        "white"
+      ],
+      "composition": "single-ornament",
+      "review_history": [
+        {
+          "round": "quality-reaudit-20261010",
+          "previous_review": {
+            "status": "accepted",
+            "reviewed_on": "2026-10-10",
+            "notes": "Original motif compared with extraction on white and dark backgrounds: source pose, principal painted shapes, terminals and pale highlights retained. Actual openings cleared; initial glyph and flat gold/black fields removed. AI-assisted extraction approximates paint texture and some small contours."
+          }
+        }
+      ]
+    }
+  ]
+}

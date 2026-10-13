@@ -1,0 +1,267 @@
+{
+  "source_id": "openn-lewis-e-m-013-004",
+  "assets": [
+    {
+      "id": "openn-lewis-e-m-013-004--pink-and-red-lobed-leaves-on-blue-stem",
+      "name": "pink-and-red-lobed-leaves-on-blue-stem",
+      "source_id": "openn-lewis-e-m-013-004",
+      "source_folder": "openn-free-library",
+      "asset_type": "illustration",
+      "description": "A pink and red pair of broad lobed leaves joined by a curled blue stem, separated from a decorated initial. Part of the Decorated initial A (openn-lewis-e-m-013-004) set.",
+      "source_region": [
+        720,
+        919,
+        1715,
+        1609
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        13,
+        0,
+        951,
+        660
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 938,
+      "height": 660,
+      "png": "openn-free-library/openn-lewis-e-m-013-004--pink-and-red-lobed-leaves-on-blue-stem.png",
+      "png_sha256": "768ca0aa34c6e69cdf34599b90d7e775462c9b75570b5dc20698ec1a207e1ec9",
+      "provenance": {
+        "institution": "Free Library of Philadelphia, John Frederick Lewis Collection",
+        "title": "Decorated initial A",
+        "object_identifier": "Lewis E M 13:4 Decorated initial A",
+        "date": "(France, 1400-1499)",
+        "record_url": "https://openn.library.upenn.edu/Data/0023/html/lewis_e_m_013_004.html",
+        "image_rights": "Public Domain Mark 1.0; item record explicitly places images in public domain",
+        "rights_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "source_file": "tmp/new-assets/openn-free-library/openn-lewis-e-m-013-004--decorated-initial-a--master.tif",
+        "source_sha256": "bd223771b0b17277b33e49d62b922cbe4347a136175800173ed36091d233a81c",
+        "source_metadata": "tmp/new-assets/openn-free-library/openn-lewis-e-m-013-004.json",
+        "image_url": "https://openn.library.upenn.edu/Data/0023/lewis_e_m_013_004/data/master/7554_0000.tif",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. ONLY the lower interior ornament: the complete large pale pink lobed leaf at LEFT and complete red-brown lobed leaf at RIGHT, joined by their original dark blue curling stem. Preserve every actual lobe, the white painted highlights and dots, and the complete three forked little blue stem ends below. Exclude all blue letter-A structural strokes above and around them, the green letter finials, gold flat field and every isolated gold/red/white dot not physically belonging to these two leaves. No new ornament or guessed stem extensions. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_extraction": "tmp/extraction-work/openn-lewis-e-m-013-004--pink-and-red-lobed-leaves-on-blue-stem--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "7e397264b55038e39d37461904a6c697194388f22a9259c0843e129734703bde",
+        "retained_generated_size": [
+          1506,
+          1045
+        ],
+        "resolution_cap_scale": 0.631761284220366,
+        "resolution_capped_size": [
+          951,
+          660
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          926,
+          667
+        ],
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 579
+        },
+        "native_subject_size_evidence": {
+          "method": "Individually inspected visible original subject bounds, excluding ROI whitespace and neighbouring entities.",
+          "preview_subject_bounds": [
+            437,
+            542,
+            977,
+            931
+          ],
+          "preview_size": [
+            1382,
+            1600
+          ],
+          "original_size": [
+            2370,
+            2744
+          ]
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Compared original region with white/dark alpha renders. Original garment/cloud foot, cross, both lobed leaf clusters and ivy tips retained; actual openings clear and pale/gold painted foreground opaque. No letter forms delivered.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/six-cloud-floral-generated-results-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/six-cloud-floral-generated-results-proof-2.jpg"
+        ]
+      },
+      "categories": [
+        "floral"
+      ],
+      "subjects": [
+        "leaf",
+        "stem",
+        "scroll"
+      ],
+      "colors": [
+        "pink",
+        "red",
+        "blue",
+        "white"
+      ],
+      "facing": "unclear",
+      "composition": "standalone",
+      "usage_notes": "Original independent specimen with printed plate rules and page removed. AI-assisted extraction remains approximate; source bounds, actual native subject cap, original and exact prompt retained.",
+      "sets": [
+        {
+          "id": "openn-lewis-e-m-013-004-set",
+          "name": "Decorated initial A (openn-lewis-e-m-013-004)",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A pink and red pair of broad lobed leaves joined by a curled blue stem, separated from a decorated initial.",
+      "set_label": "Decorated initial A (openn-lewis-e-m-013-004)"
+    },
+    {
+      "id": "openn-lewis-e-m-013-004--red-flower-and-blue-leaf-on-pale-forked-stem",
+      "name": "red-flower-and-blue-leaf-on-pale-forked-stem",
+      "source_id": "openn-lewis-e-m-013-004",
+      "source_folder": "openn-free-library",
+      "asset_type": "illustration",
+      "description": "A red lobed flower and blue leaf joined by a pale forked stem, separated from a decorated initial. Part of the Decorated initial A (openn-lewis-e-m-013-004) set.",
+      "source_region": [
+        863,
+        429,
+        1663,
+        856
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        20,
+        0,
+        779,
+        417
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 759,
+      "height": 417,
+      "png": "openn-free-library/openn-lewis-e-m-013-004--red-flower-and-blue-leaf-on-pale-forked-stem.png",
+      "png_sha256": "4812843f73ed5309c044bb4cc3e754c7f9f2cd80cc9ea96ddaad6264ca5bfece",
+      "provenance": {
+        "institution": "Free Library of Philadelphia, John Frederick Lewis Collection",
+        "title": "Decorated initial A",
+        "object_identifier": "Lewis E M 13:4 Decorated initial A",
+        "date": "(France, 1400-1499)",
+        "record_url": "https://openn.library.upenn.edu/Data/0023/html/lewis_e_m_013_004.html",
+        "image_rights": "Public Domain Mark 1.0; item record explicitly places images in public domain",
+        "rights_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "source_file": "tmp/new-assets/openn-free-library/openn-lewis-e-m-013-004--decorated-initial-a--master.tif",
+        "source_sha256": "bd223771b0b17277b33e49d62b922cbe4347a136175800173ed36091d233a81c",
+        "source_metadata": "tmp/new-assets/openn-free-library/openn-lewis-e-m-013-004.json",
+        "image_url": "https://openn.library.upenn.edu/Data/0023/lewis_e_m_013_004/data/master/7554_0000.tif",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. ONLY the upper interior ornament: the whole dark red lobed flower at LEFT, the whole small blue pointed leaf at RIGHT and their original pale pink forked stem down to its visible curved horizontal ends. Exclude every structural blue stroke of the letter A behind/around this ornament, the flat gold field and all unrelated coloured dots. Keep original painted white highlights and faded original pigment opaque, without reconstructing it or adding leaves. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_extraction": "tmp/extraction-work/openn-lewis-e-m-013-004--red-flower-and-blue-leaf-on-pale-forked-stem--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "a7167ac6cc3d4fe321ca7fa0c4241881118e238a06443f757398e6fac9c5091e",
+        "retained_generated_size": [
+          1717,
+          916
+        ],
+        "resolution_cap_scale": 0.4557522123893805,
+        "resolution_capped_size": [
+          783,
+          417
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          760,
+          412
+        ],
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 118
+        },
+        "native_subject_size_evidence": {
+          "method": "Individually inspected visible original subject bounds, excluding ROI whitespace and neighbouring entities.",
+          "preview_subject_bounds": [
+            516,
+            252,
+            959,
+            492
+          ],
+          "preview_size": [
+            1382,
+            1600
+          ],
+          "original_size": [
+            2370,
+            2744
+          ]
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Compared original region with white/dark alpha renders. Original garment/cloud foot, cross, both lobed leaf clusters and ivy tips retained; actual openings clear and pale/gold painted foreground opaque. No letter forms delivered.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/six-cloud-floral-generated-results-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/six-cloud-floral-generated-results-proof-2.jpg"
+        ]
+      },
+      "categories": [
+        "floral"
+      ],
+      "subjects": [
+        "flower",
+        "leaf",
+        "stem"
+      ],
+      "colors": [
+        "red",
+        "blue",
+        "pink",
+        "white"
+      ],
+      "facing": "unclear",
+      "composition": "standalone",
+      "usage_notes": "Original independent specimen with printed plate rules and page removed. AI-assisted extraction remains approximate; source bounds, actual native subject cap, original and exact prompt retained.",
+      "sets": [
+        {
+          "id": "openn-lewis-e-m-013-004-set",
+          "name": "Decorated initial A (openn-lewis-e-m-013-004)",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A red lobed flower and blue leaf joined by a pale forked stem, separated from a decorated initial.",
+      "set_label": "Decorated initial A (openn-lewis-e-m-013-004)"
+    }
+  ]
+}

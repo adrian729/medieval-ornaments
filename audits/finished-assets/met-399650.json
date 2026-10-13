@@ -1,0 +1,366 @@
+{
+  "source_id": "met-399650",
+  "assets": [
+    {
+      "id": "met-399650--tall-grotesque-candelabrum-with-paired-satyrs",
+      "name": "tall-grotesque-candelabrum-with-paired-satyrs",
+      "source_id": "met-399650",
+      "source_folder": "met",
+      "asset_type": "decoration",
+      "description": "A tall grotesque candelabrum with paired satyrs, winged masks, burning cups and narrow hanging ornaments.",
+      "source_region": [
+        54,
+        54,
+        1110,
+        3672
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        0,
+        0,
+        1048,
+        3616
+      ],
+      "export_crop_coordinate_space": "reviewed-native-rule-correction-canvas",
+      "width": 1048,
+      "height": 3616,
+      "png": "met/met-399650--tall-grotesque-candelabrum-with-paired-satyrs.png",
+      "png_sha256": "f6d25013cd87a6721a8a795ae723fcc785b5564481daf39687ea430071620ac4",
+      "provenance": {
+        "institution": "Metropolitan Museum of Art",
+        "title": "Candelabra Grotesque",
+        "object_identifier": "2012.136.735",
+        "date": "ca. 1485–1536",
+        "artist": "Daniel Hopfer",
+        "record_url": "https://www.metmuseum.org/art/collection/search/399650",
+        "image_rights": "CC0 Open Access; isPublicDomain=true",
+        "rights_url": "https://www.metmuseum.org/policies/image-resources",
+        "source_file": "tmp/new-assets/met/met-399650--candelabra-grotesque.jpg",
+        "source_sha256": "ef794d7bb70b14391ef57fb4063cacc89ab8862a24a44b562662da18ffe34e41",
+        "source_metadata": "tmp/new-assets/met/met-399650.json",
+        "image_url": "https://images.metmuseum.org/CRDImages/dp/original/DP828559.jpg",
+        "method": "native-continuous-ink-matting"
+      },
+      "extraction": {
+        "method": "Native-resolution continuous ink coverage after locally measured paper removal; PNG appearance master.",
+        "source_pixels_repainted": false,
+        "source_rgb_modified": "Paper removed by measured ink coverage; RGB is the scan-measured ink tone, not an exact source-pixel crop.",
+        "paper_kernel": 61,
+        "minimum_coverage": 0.2,
+        "minimum_component_pixels": 6,
+        "settings": {
+          "paper_kernel": 61,
+          "paper_kernel_shape": "rectangle",
+          "minimum_coverage": 0.2,
+          "minimum_component_pixels": 6,
+          "minimum_component_peak": 0.6,
+          "minimum_channel_coverage": true,
+          "largest_connected_support_join_radius": 4,
+          "fill_connected_support_interiors": false
+        },
+        "exclude_regions": [
+          [
+            353,
+            2956,
+            423,
+            3029
+          ],
+          [
+            640,
+            2956,
+            715,
+            3029
+          ]
+        ],
+        "export_crop": [
+          0,
+          2,
+          1048,
+          3618
+        ],
+        "ink_color": [
+          72,
+          61,
+          49
+        ],
+        "candidate_png": "tmp/extraction-work/todo-fixes-20261012/met-399650--tall-grotesque-candelabrum-with-paired-satyrs--finished-boundary-candidate.png",
+        "status": "awaiting-native-visual-review",
+        "tool": "Native source ink analysis",
+        "source_pixels_redrawn": false,
+        "todo_correction": {
+          "source_region": [
+            54,
+            54,
+            1110,
+            3672
+          ],
+          "method": "Remove inspected plate-edge fragments and stray paper marks in blank outer regions; preserve the engraved base, figures and all interior ink without resampling. Coordinates recorded in a 700px-wide review grid and mapped exactly to native pixels.",
+          "exclusion_polygons_review_width": 700,
+          "exclusion_polygons": [
+            [
+              [
+                0,
+                0
+              ],
+              [
+                99,
+                0
+              ],
+              [
+                99,
+                11
+              ],
+              [
+                22,
+                15
+              ],
+              [
+                17,
+                40
+              ],
+              [
+                13,
+                147
+              ],
+              [
+                0,
+                147
+              ]
+            ],
+            [
+              [
+                150,
+                0
+              ],
+              [
+                258,
+                0
+              ],
+              [
+                258,
+                24
+              ],
+              [
+                150,
+                24
+              ]
+            ],
+            [
+              [
+                568,
+                123
+              ],
+              [
+                650,
+                110
+              ],
+              [
+                650,
+                184
+              ],
+              [
+                568,
+                175
+              ]
+            ],
+            [
+              [
+                665,
+                1780
+              ],
+              [
+                700,
+                1780
+              ],
+              [
+                700,
+                2390
+              ],
+              [
+                685,
+                2390
+              ],
+              [
+                678,
+                2250
+              ],
+              [
+                658,
+                2210
+              ],
+              [
+                658,
+                1980
+              ],
+              [
+                658,
+                1945
+              ],
+              [
+                652,
+                1910
+              ]
+            ],
+            [
+              [
+                0,
+                1860
+              ],
+              [
+                7,
+                1860
+              ],
+              [
+                7,
+                2270
+              ],
+              [
+                0,
+                2270
+              ]
+            ],
+            [
+              [
+                0,
+                2407
+              ],
+              [
+                700,
+                2407
+              ],
+              [
+                700,
+                2500
+              ],
+              [
+                0,
+                2500
+              ]
+            ],
+            [
+              [
+                660,
+                1800
+              ],
+              [
+                660,
+                1835
+              ],
+              [
+                655,
+                1870
+              ],
+              [
+                668,
+                1915
+              ],
+              [
+                649,
+                1930
+              ],
+              [
+                653,
+                1980
+              ],
+              [
+                640,
+                2020
+              ],
+              [
+                638,
+                2160
+              ],
+              [
+                644,
+                2240
+              ],
+              [
+                646,
+                2280
+              ],
+              [
+                628,
+                2310
+              ],
+              [
+                625,
+                2338
+              ],
+              [
+                676,
+                2370
+              ],
+              [
+                683,
+                2384
+              ],
+              [
+                700,
+                2384
+              ],
+              [
+                700,
+                1800
+              ]
+            ]
+          ],
+          "removed_foreground_pixels": 27961,
+          "id": "met-399650--tall-grotesque-candelabrum-with-paired-satyrs",
+          "candidate": "tmp/extraction-work/todo-fixes-20261012/met-399650--tall-grotesque-candelabrum-with-paired-satyrs--finished-boundary-candidate.png"
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "finished-only-todo-corrections-20261012",
+        "notes": "Remove inspected plate-edge fragments and stray paper marks in blank outer regions; preserve the engraved base, figures and all interior ink without resampling. Coordinates recorded in a 700px-wide review grid and mapped exactly to native pixels.",
+        "checks": [
+          "actual-original-comparison",
+          "native-scale-and-proportions",
+          "complete-figures-and-ornaments",
+          "source-rule-geometry-and-endpoints",
+          "white-and-dark-backgrounds"
+        ],
+        "evidence": [
+          "tmp/extraction-work/todo-fixes-20261012/met-399650--tall-grotesque-candelabrum-with-paired-satyrs--finished-boundary-proof.jpg"
+        ]
+      },
+      "categories": [
+        "floral",
+        "fantasy"
+      ],
+      "subjects": [
+        "satyr",
+        "mask",
+        "wing",
+        "candelabrum",
+        "scroll",
+        "flame"
+      ],
+      "facing": "mixed",
+      "colors": [
+        "brown",
+        "black"
+      ],
+      "composition": "single-ornament",
+      "usage_notes": "Remove inspected plate-edge fragments and stray paper marks in blank outer regions; preserve the engraved base, figures and all interior ink without resampling. Coordinates recorded in a 700px-wide review grid and mapped exactly to native pixels. Finite original decoration; no repeat or corner atlas inferred.",
+      "review_history": [
+        {
+          "status": "accepted",
+          "quality_round": "20261011",
+          "notes": "Entire original tall ornament inspected: top figure and flags, paired satyrs, flames and masks, all original fine hanging props and base retained. Complete native width preserved. Source-measured continuous ink alpha, not an upscaled silhouette or literal source RGB copy. Signatures and paper specks excluded without replacing foreground strokes.",
+          "checks": [
+            "original-source-comparison",
+            "complete-retained-entity",
+            "native-subject-scale",
+            "white-and-dark-backgrounds",
+            "exterior-and-genuine-openings",
+            "fine-props-and-extremities"
+          ],
+          "evidence": "tmp/extraction-work/continuation-20261010/met-candelabrum-native-refinement-recipe-proof-1.jpg"
+        }
+      ]
+    }
+  ]
+}

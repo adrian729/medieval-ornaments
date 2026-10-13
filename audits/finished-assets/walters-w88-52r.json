@@ -1,0 +1,1032 @@
+{
+  "source_id": "walters-w88-52r",
+  "assets": [
+    {
+      "id": "walters-w88-52r--long-left-blue-and-gold-rod-with-two-profile-heads",
+      "name": "long-left-blue-and-gold-rod-with-two-profile-heads",
+      "source_id": "walters-w88-52r",
+      "source_folder": "walters",
+      "asset_type": "decoration",
+      "description": "A finite original manuscript marginal flourish: long left blue and gold rod with two profile heads. Part of the Walters W.88 Monkey Choir set.",
+      "source_region": [
+        124,
+        2774,
+        746,
+        5523
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        159,
+        8,
+        580,
+        2108
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 421,
+      "height": 2100,
+      "png": "walters/walters-w88-52r--long-left-blue-and-gold-rod-with-two-profile-heads.png",
+      "png_sha256": "3e06cb97aa7082d4096a61e1c7f1301ebe525bb601e8076f097d925a171747d8",
+      "provenance": {
+        "institution": "Walters Art Museum",
+        "title": "Monkeys singing",
+        "object_identifier": "W.88, fol. 52r",
+        "date": "First quarter 14th century CE",
+        "record_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/html/W88/description.html",
+        "image_rights": "CC0 (Digital Walters manuscript images)",
+        "rights_url": "https://www.thedigitalwalters.org/01_ACCESS_WALTERS_MANUSCRIPTS.html",
+        "source_file": "tmp/new-assets/walters/walters-w88-52r--monkeys-singing--master.tif",
+        "source_sha256": "1574874490e1dbccd39e14dd6bf8926e0e85848ffbcd1ffe3f7ab239aeab8d1e",
+        "source_metadata": "tmp/new-assets/walters/walters-w88-52r.json",
+        "image_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/W88/data/W.88/master/W88_000109_1200.tif",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. Isolate the complete long slim left blue/gold margin rod between its TWO original profile-head terminals: upper tilted head below the decorated letter and lower capped face. Remove the entire boxed C and its alphabetic frame, all text and page ruling. Keep the rod and both faces as their original contacting ornament. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_extraction": "tmp/extraction-work/walters-w88-52r--long-left-blue-and-gold-rod-with-two-profile-heads--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "51522db185fceac15a436bece978aa628f2f8a362978bc867ba5c2a69cc92f59",
+        "retained_generated_size": [
+          724,
+          2172
+        ],
+        "resolution_cap_scale": 1,
+        "resolution_capped_size": [
+          724,
+          2172
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          547,
+          2675
+        ],
+        "native_subject_size_evidence": {
+          "method": "Individually inspected native visible subject bounds, excluding input-region whitespace and neighbours.",
+          "preview_subject_bounds": [
+            35,
+            568,
+            145,
+            1106
+          ],
+          "preview_size": [
+            1227,
+            1600
+          ],
+          "original_size": [
+            6102,
+            7954
+          ]
+        },
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 1471
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Original ROIs and final white/dark proofs inspected individually. All three original profile heads in the upper connected margin retained; both faces in the long left rod remain correctly oriented. Each hooded/lower head, stem, curl, original worn gilding and colored/pale fill retained; letter H/R/C/P and paper rules excluded. Two finite unequal floral margins retain actual flowering branches, acanthus, vases and fine gilt ivy, with original center/letter panels removed and no fabricated uniform repeat.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/walters-margin-final-ready-results-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/walters-margin-final-ready-results-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/walters-margin-final-ready-results-proof-3.jpg"
+        ]
+      },
+      "categories": [
+        "floral",
+        "scrollwork"
+      ],
+      "subjects": [
+        "flourish",
+        "leaf",
+        "stem",
+        "margin"
+      ],
+      "colors": [
+        "blue",
+        "gold",
+        "pink",
+        "brown",
+        "black"
+      ],
+      "facing": "unclear",
+      "composition": "single-ornament",
+      "usage_notes": "Original independent specimen with printed plate rules and page removed. AI-assisted extraction remains approximate; source bounds, actual native subject cap, original and exact prompt retained.",
+      "sets": [
+        {
+          "id": "walters-w88-52r-set",
+          "name": "Walters W.88 Monkey Choir",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A finite original manuscript marginal flourish: long left blue and gold rod with two profile heads.",
+      "set_label": "Walters W.88 Monkey Choir"
+    },
+    {
+      "id": "walters-w88-52r--lower-black-foliate-curl",
+      "name": "lower-black-foliate-curl",
+      "source_id": "walters-w88-52r",
+      "source_folder": "walters",
+      "asset_type": "decoration",
+      "description": "A finite original manuscript marginal flourish: lower black foliate curl. Part of the Walters W.88 Monkey Choir set.",
+      "source_region": [
+        1134,
+        5931,
+        2243,
+        6731
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        31,
+        31,
+        1061,
+        765
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 1030,
+      "height": 734,
+      "png": "walters/walters-w88-52r--lower-black-foliate-curl.png",
+      "png_sha256": "a779e61e42d01218742830dd7f8cd48bebcc54589336d94378b776bc69a5c61e",
+      "provenance": {
+        "institution": "Walters Art Museum",
+        "title": "Monkeys singing",
+        "object_identifier": "W.88, fol. 52r",
+        "date": "First quarter 14th century CE",
+        "record_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/html/W88/description.html",
+        "image_rights": "CC0 (Digital Walters manuscript images)",
+        "rights_url": "https://www.thedigitalwalters.org/01_ACCESS_WALTERS_MANUSCRIPTS.html",
+        "source_file": "tmp/new-assets/walters/walters-w88-52r--monkeys-singing--master.tif",
+        "source_sha256": "1574874490e1dbccd39e14dd6bf8926e0e85848ffbcd1ffe3f7ab239aeab8d1e",
+        "source_metadata": "tmp/new-assets/walters/walters-w88-52r.json",
+        "image_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/W88/data/W.88/master/W88_000109_1200.tif",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. Isolate ONLY the thin black foliate curl below the blue/gold end of the decorated P. Keep every original tiny black leaf and the original bottom-page-truncated ending. Exclude ALL blue/gold P glyph strokes, the alphabetic bowl and neighboring singers. No hidden stem restoration. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_extraction": "tmp/extraction-work/walters-w88-52r--lower-black-foliate-curl--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "1d094ed2854e2615eff2e0e99d19f6dff131267df58aa4a8f4189ba269eff48a",
+        "retained_generated_size": [
+          1477,
+          1065
+        ],
+        "resolution_cap_scale": 0.732657301147606,
+        "resolution_capped_size": [
+          1082,
+          780
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          1034,
+          721
+        ],
+        "native_subject_size_evidence": {
+          "method": "Individually inspected native visible subject bounds, excluding input-region whitespace and neighbours.",
+          "preview_subject_bounds": [
+            237,
+            1205,
+            445,
+            1350
+          ],
+          "preview_size": [
+            1227,
+            1600
+          ],
+          "original_size": [
+            6102,
+            7954
+          ]
+        },
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 8467
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Original ROIs and final white/dark proofs inspected individually. All three original profile heads in the upper connected margin retained; both faces in the long left rod remain correctly oriented. Each hooded/lower head, stem, curl, original worn gilding and colored/pale fill retained; letter H/R/C/P and paper rules excluded. Two finite unequal floral margins retain actual flowering branches, acanthus, vases and fine gilt ivy, with original center/letter panels removed and no fabricated uniform repeat.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/walters-margin-final-ready-results-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/walters-margin-final-ready-results-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/walters-margin-final-ready-results-proof-3.jpg"
+        ]
+      },
+      "categories": [
+        "floral",
+        "scrollwork"
+      ],
+      "subjects": [
+        "flourish",
+        "leaf",
+        "stem",
+        "margin"
+      ],
+      "colors": [
+        "blue",
+        "gold",
+        "pink",
+        "brown",
+        "black"
+      ],
+      "facing": "unclear",
+      "composition": "single-ornament",
+      "usage_notes": "Original independent specimen with printed plate rules and page removed. AI-assisted extraction remains approximate; source bounds, actual native subject cap, original and exact prompt retained.",
+      "sets": [
+        {
+          "id": "walters-w88-52r-set",
+          "name": "Walters W.88 Monkey Choir",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A finite original manuscript marginal flourish: lower black foliate curl.",
+      "set_label": "Walters W.88 Monkey Choir"
+    },
+    {
+      "id": "walters-w88-52r--monkeys-singing-at-lectern",
+      "name": "monkeys-singing-at-lectern",
+      "source_id": "walters-w88-52r",
+      "source_folder": "walters",
+      "asset_type": "illustration",
+      "description": "Two complete singing monkeys with fur, expressive gestures and open mouths, beside the original wooden lectern and open book. The separate decorative vine and letter are excluded. Part of the Walters W.88 Monkey Choir set.",
+      "source_region": [
+        854,
+        4375,
+        3661,
+        7318
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        104,
+        65,
+        1190,
+        1192
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 1086,
+      "height": 1127,
+      "png": "walters/walters-w88-52r--monkeys-singing-at-lectern.png",
+      "png_sha256": "aeb8520770decd05d3a5bf559c4459d1e4024750b0db831a7ea31cd380311783",
+      "provenance": {
+        "institution": "Walters Art Museum",
+        "title": "Monkeys singing",
+        "object_identifier": "W.88, fol. 52r",
+        "date": "First quarter 14th century CE",
+        "record_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/html/W88/description.html",
+        "image_rights": "CC0 (Digital Walters manuscript images)",
+        "rights_url": "https://www.thedigitalwalters.org/01_ACCESS_WALTERS_MANUSCRIPTS.html",
+        "source_file": "tmp/new-assets/walters/walters-w88-52r--monkeys-singing--master.tif",
+        "source_sha256": "1574874490e1dbccd39e14dd6bf8926e0e85848ffbcd1ffe3f7ab239aeab8d1e",
+        "source_metadata": "tmp/new-assets/walters/walters-w88-52r.json",
+        "image_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/W88/data/W.88/master/W88_000109_1200.tif",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: precise-object-edit / background removal. Edit target: the supplied original medieval manuscript crop. Extract Two complete singing monkeys with fur, expressive gestures and open mouths, beside the original wooden lectern and open book. The separate decorative vine and letter are excluded. Output the actual original illustrated artwork on a genuinely transparent background, with transparency in every genuine paper opening between limbs, figures and props. Preserve the exact source drawing, silhouettes, expressions, poses, hand gestures, anatomy, thin outlines, ink hatching, original colors and painted surface textures. Preserve pale illustrated skin and animal surfaces as opaque; remove only unpainted surrounding parchment, stains, all writing/ruling, reverse-side ghost images and photographic surroundings. No redrawing, modernization, beautification, extra characters, invented details, changed proportions, new shading, shadows, halo, page rectangle, disconnected paper fragments, or added background. Keep the original relative positions of the figures and original artwork facing. Retain every complete visible source tip, finger and toe with a small transparent margin. This is a faithful extraction of historical art, not a stylistic recreation.",
+        "retained_generated_extraction": "tmp/extraction-work/walters-w88-52r--monkeys-singing-at-lectern--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "0a005b34c5bb6dcd40f3318be64faaba1eb390be8698a49a516eb360d2280a61",
+        "retained_generated_size": [
+          1225,
+          1284
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, only transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261010",
+        "notes": "Both contacting monkeys, raised hand and the lectern/book remain together. Complete source poses, feet and original book proportions checked; true gaps transparent. Optional SVG is an approximate editable trace.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": "tmp/extraction-work/quality-reaudit-20261010/manifest.json"
+      },
+      "categories": [
+        "animals",
+        "music"
+      ],
+      "subjects": [
+        "monkey",
+        "book",
+        "lectern",
+        "singing"
+      ],
+      "facing": "right",
+      "colors": [
+        "cream",
+        "brown",
+        "black"
+      ],
+      "composition": "multiple-figures",
+      "usage_notes": "Complete foreground scene retained with actual inter-item openings. This is an AI-assisted extraction, not a pixel-exact crop; source scan, exact prompt and extraction bytes remain traceable. Separate usable subjects/groups are prepared from this retained transparent master.",
+      "svg": "walters/walters-w88-52r--monkeys-singing-at-lectern.svg",
+      "svg_sha256": "27f09417c4e83716c05361ab2ff4a205cc47a41f54cd3c11826d546b6fc223d7",
+      "vector_review": {
+        "status": "accepted",
+        "reviewed_on": "2026-10-10",
+        "embedded_raster": false,
+        "method": "Editable VTracer color paths fitted to the original PNG alpha with eight native opacity-contour layers",
+        "premultiplied_rgb_error": 0.017170968551905377,
+        "alpha_error": 0.007351471295540382,
+        "trace_settings": {
+          "filter_speckle": 2,
+          "color_precision": 6,
+          "layer_difference": 12,
+          "mode": "spline",
+          "path_precision": 3
+        },
+        "notes": "Rendered SVG compared against PNG: actual exterior and openings, thin lances, instrument contours and anatomical silhouettes retained. Small print/paint texture is approximated; PNG remains the raster master."
+      },
+      "review_history": [
+        {
+          "round": "quality-reaudit-20261010",
+          "previous_review": {
+            "status": "accepted",
+            "reviewed_on": "2026-10-10",
+            "notes": "Both monkeys, their faces, toes, pointing hands, open book and lectern checked against source. Monkeys are furred rather than robed. Real openings clear. AI-assisted extraction may alter ink texture.",
+            "checks": [
+              "original source comparison",
+              "white and dark background transparency",
+              "complete visible limbs and props",
+              "no surrounding lettering or page rectangle"
+            ]
+          }
+        }
+      ],
+      "sets": [
+        {
+          "id": "walters-w88-52r-set",
+          "name": "Walters W.88 Monkey Choir",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "Two complete singing monkeys with fur, expressive gestures and open mouths, beside the original wooden lectern and open book. The separate decorative vine and letter are excluded.",
+      "set_label": "Walters W.88 Monkey Choir"
+    },
+    {
+      "id": "walters-w88-52r--orange-trefoil-flower-with-white-painted-outline",
+      "name": "orange-trefoil-flower-with-white-painted-outline",
+      "source_id": "walters-w88-52r",
+      "source_folder": "walters",
+      "asset_type": "decoration",
+      "description": "An orange trefoil flower with its original white painted outline and central white highlights, isolated from the surrounding alphabetic vine. Part of the Walters W.88 Monkey Choir set.",
+      "source_region": [
+        428,
+        2272,
+        1094,
+        2784
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        229,
+        55,
+        512,
+        329
+      ],
+      "export_crop_coordinate_space": "source-region",
+      "width": 283,
+      "height": 274,
+      "png": "walters/walters-w88-52r--orange-trefoil-flower-with-white-painted-outline.png",
+      "png_sha256": "de479738e5a2b9bb7caf05e73277a92ef2550ee491463ab017f98610d200f0ea",
+      "provenance": {
+        "institution": "Walters Art Museum",
+        "title": "Monkeys singing",
+        "object_identifier": "W.88, fol. 52r",
+        "date": "First quarter 14th century CE",
+        "record_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/html/W88/description.html",
+        "image_rights": "CC0 (Digital Walters manuscript images)",
+        "rights_url": "https://www.thedigitalwalters.org/01_ACCESS_WALTERS_MANUSCRIPTS.html",
+        "source_file": "tmp/new-assets/walters/walters-w88-52r--monkeys-singing--master.tif",
+        "source_sha256": "1574874490e1dbccd39e14dd6bf8926e0e85848ffbcd1ffe3f7ab239aeab8d1e",
+        "source_metadata": "tmp/new-assets/walters/walters-w88-52r.json",
+        "image_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/W88/data/W.88/master/W88_000109_1200.tif",
+        "method": "native-source-continuous-edge-matting"
+      },
+      "extraction": {
+        "candidate_png": "tmp/extraction-work/continuation-20261010/walters-w88-52r--orange-trefoil-flower-with-white-painted-outline--refined-native-candidate.png",
+        "native_export_crop": [
+          229,
+          55,
+          512,
+          329
+        ],
+        "annotation_json": "tmp/extraction-work/continuation-20261010/walters-w88-52r--orange-trefoil-flower-with-white-painted-outline--native-semantic-annotation.json",
+        "trimap_png": "tmp/extraction-work/continuation-20261010/walters-w88-52r--orange-trefoil-flower-with-white-painted-outline--refined-native-trimap.png",
+        "native_upscaling": false,
+        "source_pixels_redrawn": false,
+        "original_opaque_rgb_preserved": true,
+        "native_source_size": [
+          666,
+          512
+        ],
+        "unknown_contour_band_native_pixels": 4,
+        "rotation_method": "Source orientation retained",
+        "method": "SAM 2.1 semantic ownership guide applied only to native alpha; complete opaque original painted surfaces and exact opaque source RGB retained. Closed-form continuous native edge matting; no source upscaling, redraw, restored anatomy, or vector approximation.",
+        "semantic_body_guide": {
+          "prompts_native_pixels": [
+            {
+              "positive": [
+                [
+                  386.28,
+                  240.64
+                ],
+                [
+                  386.28,
+                  122.88
+                ],
+                [
+                  279.71999999999997,
+                  215.04
+                ],
+                [
+                  452.88000000000005,
+                  199.68
+                ]
+              ],
+              "negative": [
+                [
+                  299.7,
+                  337.92
+                ],
+                [
+                  499.5,
+                  337.92
+                ],
+                [
+                  552.78,
+                  204.8
+                ],
+                [
+                  299.7,
+                  163.84
+                ],
+                [
+                  446.22,
+                  128.0
+                ]
+              ],
+              "box": [
+                226.44000000000003,
+                61.44,
+                519.48,
+                317.44
+              ],
+              "mask_choice": 2
+            }
+          ],
+          "normalized_prompts": [
+            {
+              "positive": [
+                [
+                  0.58,
+                  0.47
+                ],
+                [
+                  0.58,
+                  0.24
+                ],
+                [
+                  0.42,
+                  0.42
+                ],
+                [
+                  0.68,
+                  0.39
+                ]
+              ],
+              "negative": [
+                [
+                  0.45,
+                  0.66
+                ],
+                [
+                  0.75,
+                  0.66
+                ],
+                [
+                  0.83,
+                  0.4
+                ],
+                [
+                  0.45,
+                  0.32
+                ],
+                [
+                  0.67,
+                  0.25
+                ]
+              ],
+              "box": [
+                0.34,
+                0.12,
+                0.78,
+                0.62
+              ]
+            }
+          ],
+          "scores": [
+            [
+              0.8674555420875549,
+              0.7751107811927795,
+              0.8820871114730835
+            ]
+          ],
+          "ownership_scope_polygons": null,
+          "checkpoint": "tmp/sam2.1_hiera_base_plus.pt",
+          "checkpoint_sha256": "a2345aede8715ab1d5d31b4a509fb160c5a4af1970f199d9054ccfb746c004c5",
+          "unknown_band_native_pixels": 4,
+          "rotation_clockwise": 0,
+          "method": "SAM 2.1 semantic ownership guide applied only to native alpha; complete opaque original painted surfaces and exact opaque source RGB retained. Closed-form continuous native edge matting; no source upscaling, redraw, restored anatomy, or vector approximation."
+        },
+        "status": "awaiting-final-original-white-dark-review",
+        "alpha_support_refinements": {
+          "id": "walters-w88-52r--orange-trefoil-flower-with-white-painted-outline"
+        },
+        "tool": "Original native scan / closed-form edge alpha and foreground decontamination",
+        "pixel_exact": false
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Reviewed the expanded original/native painted contour and each white/dark result. Entire opaque painted bodies, real paint wear, pale strokes and source-visible extremities retained on their native pixel grid. All figure exterior, genuine openings, glyph strokes and detached page/diagram fragments cleared. Aquarius uses an exact 180-degree native transpose. Native alpha-only guide refinements preserve the small original diagram marks crossing Capricorn's forehoof and Scorpio's wing; the marks never extend outside the subjects and no underlying paint is invented. The green leaf and orange bloom are complete original ornaments; shared alphabetic blue strokes were excluded rather than presented as severed vines. No upscaling, redraw or faceted SVG.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/five-refined-native-dark-inspection.jpg",
+          "tmp/extraction-work/continuation-20261010/five-native-zodiac-and-letter-motifs-final-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/five-native-zodiac-and-letter-motifs-final-proof-2.jpg"
+        ]
+      },
+      "categories": [
+        "floral"
+      ],
+      "subjects": [
+        "flower"
+      ],
+      "colors": [
+        "orange",
+        "blue",
+        "green",
+        "gold"
+      ],
+      "facing": "unclear",
+      "composition": "standalone",
+      "usage_notes": "The complete original leaf or bloom is usable independently. The shared alphabetic blue stroke and surrounding letter are excluded; no severed curl is presented as a complete vine.",
+      "sets": [
+        {
+          "id": "walters-w88-52r-set",
+          "name": "Walters W.88 Monkey Choir",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "An orange trefoil flower with its original white painted outline and central white highlights, isolated from the surrounding alphabetic vine.",
+      "set_label": "Walters W.88 Monkey Choir"
+    },
+    {
+      "id": "walters-w88-52r--right-black-leaf-curl-on-blue-and-gold-stem",
+      "name": "right-black-leaf-curl-on-blue-and-gold-stem",
+      "source_id": "walters-w88-52r",
+      "source_folder": "walters",
+      "asset_type": "decoration",
+      "description": "A black curling leaf flourish on a short blue and gold stem. Part of the Walters W.88 Monkey Choir set.",
+      "source_region": [
+        2173,
+        2968,
+        2969,
+        4216
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        14,
+        65,
+        701,
+        1091
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 687,
+      "height": 1026,
+      "png": "walters/walters-w88-52r--right-black-leaf-curl-on-blue-and-gold-stem.png",
+      "png_sha256": "7f1d492e74b84a2b5e7bbd68ea834eca05f97ae64ba4d793f0678b413fe6851a",
+      "provenance": {
+        "institution": "Walters Art Museum",
+        "title": "Monkeys singing",
+        "object_identifier": "W.88, fol. 52r",
+        "date": "First quarter 14th century CE",
+        "record_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/html/W88/description.html",
+        "image_rights": "CC0 (Digital Walters manuscript images)",
+        "rights_url": "https://www.thedigitalwalters.org/01_ACCESS_WALTERS_MANUSCRIPTS.html",
+        "source_file": "tmp/new-assets/walters/walters-w88-52r--monkeys-singing--master.tif",
+        "source_sha256": "1574874490e1dbccd39e14dd6bf8926e0e85848ffbcd1ffe3f7ab239aeab8d1e",
+        "source_metadata": "tmp/new-assets/walters/walters-w88-52r.json",
+        "image_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/W88/data/W.88/master/W88_000109_1200.tif",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. Isolate ONLY the right projecting thin blue/gold stem leading to the black foliate curl ABOVE the boxed letter S. Keep the original black upper curl and every tiny black leaf. Exclude the entire boxed S below left and its letter strokes, text and page rules. Stop at the actual original stem-letter junction. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_extraction": "tmp/extraction-work/walters-w88-52r--right-black-leaf-curl-on-blue-and-gold-stem--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "dcbcdde3e9f54bf86359d7749da297f3014070365b1a010aba3837f5356874d7",
+        "retained_generated_size": [
+          1002,
+          1570
+        ],
+        "resolution_cap_scale": 0.7048319327731093,
+        "resolution_capped_size": [
+          706,
+          1107
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          671,
+          1148
+        ],
+        "native_subject_size_evidence": {
+          "method": "Individually inspected native visible subject bounds, excluding input-region whitespace and neighbours.",
+          "preview_subject_bounds": [
+            447,
+            608,
+            582,
+            839
+          ],
+          "preview_size": [
+            1227,
+            1600
+          ],
+          "original_size": [
+            6102,
+            7954
+          ]
+        },
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 3270
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Viewed original, white and dark comparisons. Corrected flowering plants contain no neighboring gilt ivy; complete source-visible leaves and source-truncated flower remain opaque. Archer retains its actual curved shaft end, two original hoofed legs and true arm/bow openings. Full tall rod and upper curl now retained. Butterfly fine anatomy checked against the native original. All source-capped PNGs retain precise prompt and original attribution.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/openn-margin-final-ready-results-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/openn-margin-final-ready-results-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/openn-margin-final-ready-results-proof-3.jpg",
+          "tmp/extraction-work/continuation-20261010/openn-lewis-e-m-031-029--small-spotted-butterfly--original.png"
+        ]
+      },
+      "categories": [
+        "floral"
+      ],
+      "subjects": [
+        "leaf",
+        "curl",
+        "stem"
+      ],
+      "colors": [
+        "black",
+        "blue",
+        "gold"
+      ],
+      "facing": "unclear",
+      "composition": "single-ornament",
+      "usage_notes": "Original independent specimen with printed plate rules and page removed. AI-assisted extraction remains approximate; source bounds, actual native subject cap, original and exact prompt retained.",
+      "sets": [
+        {
+          "id": "walters-w88-52r-set",
+          "name": "Walters W.88 Monkey Choir",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A black curling leaf flourish on a short blue and gold stem.",
+      "set_label": "Walters W.88 Monkey Choir"
+    },
+    {
+      "id": "walters-w88-52r--right-pointed-blue-and-gold-leaf-swash",
+      "name": "right-pointed-blue-and-gold-leaf-swash",
+      "source_id": "walters-w88-52r",
+      "source_folder": "walters",
+      "asset_type": "decoration",
+      "description": "A pointed blue and gold foliate swash projecting from a decorated letter. Part of the Walters W.88 Monkey Choir set.",
+      "source_region": [
+        2024,
+        2232,
+        2740,
+        2898
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        5,
+        35,
+        591,
+        432
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 586,
+      "height": 397,
+      "png": "walters/walters-w88-52r--right-pointed-blue-and-gold-leaf-swash.png",
+      "png_sha256": "cd729544ac52a51aed79fa587b2c896e7142761c8a5beb94a37c82b3f6b3f693",
+      "provenance": {
+        "institution": "Walters Art Museum",
+        "title": "Monkeys singing",
+        "object_identifier": "W.88, fol. 52r",
+        "date": "First quarter 14th century CE",
+        "record_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/html/W88/description.html",
+        "image_rights": "CC0 (Digital Walters manuscript images)",
+        "rights_url": "https://www.thedigitalwalters.org/01_ACCESS_WALTERS_MANUSCRIPTS.html",
+        "source_file": "tmp/new-assets/walters/walters-w88-52r--monkeys-singing--master.tif",
+        "source_sha256": "1574874490e1dbccd39e14dd6bf8926e0e85848ffbcd1ffe3f7ab239aeab8d1e",
+        "source_metadata": "tmp/new-assets/walters/walters-w88-52r.json",
+        "image_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/W88/data/W.88/master/W88_000109_1200.tif",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. Isolate only the projecting pointed BLUE/GOLD leaf above and to the right of the boxed F: the original narrow curved blue/gold blade and its pointed faceted leaf at the right tip. Exclude the entire boxed alphabetic F and its vertical/horizontal letter strokes below the source junction, all text and rules. No invented replacement base. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_extraction": "tmp/extraction-work/walters-w88-52r--right-pointed-blue-and-gold-leaf-swash--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "aa1ba72bcfe7fbe8d0ef8b7887ca041a18be6326bb8dc74eab496fe239a335c8",
+        "retained_generated_size": [
+          1300,
+          1209
+        ],
+        "resolution_cap_scale": 0.4585054275601082,
+        "resolution_capped_size": [
+          596,
+          554
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          572,
+          562
+        ],
+        "native_subject_size_evidence": {
+          "method": "Individually inspected native visible subject bounds, excluding input-region whitespace and neighbours.",
+          "preview_subject_bounds": [
+            421,
+            457,
+            536,
+            570
+          ],
+          "preview_size": [
+            1227,
+            1600
+          ],
+          "original_size": [
+            6102,
+            7954
+          ]
+        },
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 436
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Viewed original, white and dark comparisons. Corrected flowering plants contain no neighboring gilt ivy; complete source-visible leaves and source-truncated flower remain opaque. Archer retains its actual curved shaft end, two original hoofed legs and true arm/bow openings. Full tall rod and upper curl now retained. Butterfly fine anatomy checked against the native original. All source-capped PNGs retain precise prompt and original attribution.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/openn-margin-final-ready-results-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/openn-margin-final-ready-results-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/openn-margin-final-ready-results-proof-3.jpg",
+          "tmp/extraction-work/continuation-20261010/openn-lewis-e-m-031-029--small-spotted-butterfly--original.png"
+        ]
+      },
+      "categories": [
+        "floral"
+      ],
+      "subjects": [
+        "leaf",
+        "terminal",
+        "flourish"
+      ],
+      "colors": [
+        "blue",
+        "gold"
+      ],
+      "facing": "unclear",
+      "composition": "single-ornament",
+      "usage_notes": "Original independent specimen with printed plate rules and page removed. AI-assisted extraction remains approximate; source bounds, actual native subject cap, original and exact prompt retained.",
+      "sets": [
+        {
+          "id": "walters-w88-52r-set",
+          "name": "Walters W.88 Monkey Choir",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A pointed blue and gold foliate swash projecting from a decorated letter.",
+      "set_label": "Walters W.88 Monkey Choir"
+    },
+    {
+      "id": "walters-w88-52r--upper-blue-and-gold-margin-with-three-grotesque-heads",
+      "name": "upper-blue-and-gold-margin-with-three-grotesque-heads",
+      "source_id": "walters-w88-52r",
+      "source_folder": "walters",
+      "asset_type": "decoration",
+      "description": "A finite original manuscript marginal flourish: upper blue and gold margin with three grotesque heads. Part of the Walters W.88 Monkey Choir set.",
+      "source_region": [
+        134,
+        1586,
+        3029,
+        2416
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        19,
+        88,
+        2144,
+        673
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 2125,
+      "height": 585,
+      "png": "walters/walters-w88-52r--upper-blue-and-gold-margin-with-three-grotesque-heads.png",
+      "png_sha256": "ca22287630cf577d3073261dab9a4c345348250b1a32aee148c4266c2629d5de",
+      "provenance": {
+        "institution": "Walters Art Museum",
+        "title": "Monkeys singing",
+        "object_identifier": "W.88, fol. 52r",
+        "date": "First quarter 14th century CE",
+        "record_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/html/W88/description.html",
+        "image_rights": "CC0 (Digital Walters manuscript images)",
+        "rights_url": "https://www.thedigitalwalters.org/01_ACCESS_WALTERS_MANUSCRIPTS.html",
+        "source_file": "tmp/new-assets/walters/walters-w88-52r--monkeys-singing--master.tif",
+        "source_sha256": "1574874490e1dbccd39e14dd6bf8926e0e85848ffbcd1ffe3f7ab239aeab8d1e",
+        "source_metadata": "tmp/new-assets/walters/walters-w88-52r.json",
+        "image_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/W88/data/W.88/master/W88_000109_1200.tif",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. Isolate the entire TOP horizontal blue/gold marginal ornament with its curled left leaf tip, the blue crouching human-headed creature, the small head at the long neck junction and the right hooded profile head on the thin curling extension. These original parts share the same continuous decorative stem and remain one finite ornament. Exclude the boxed circular capital C below, all alphabetic glyph strokes and page rules. Preserve actual original terminals and stop precisely at the glyph junction without replacing missing stem. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_extraction": "tmp/extraction-work/walters-w88-52r--upper-blue-and-gold-margin-with-three-grotesque-heads--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "7be4ecf09a67c3cca48dc8ca9e0ff1a6ce0a6bdc6b6c80b6396315312decb2a9",
+        "retained_generated_size": [
+          2172,
+          724
+        ],
+        "resolution_cap_scale": 1,
+        "resolution_capped_size": [
+          2172,
+          724
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          2810,
+          751
+        ],
+        "native_subject_size_evidence": {
+          "method": "Individually inspected native visible subject bounds, excluding input-region whitespace and neighbours.",
+          "preview_subject_bounds": [
+            37,
+            329,
+            602,
+            480
+          ],
+          "preview_size": [
+            1227,
+            1600
+          ],
+          "original_size": [
+            6102,
+            7954
+          ]
+        },
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 3272
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Original ROIs and final white/dark proofs inspected individually. All three original profile heads in the upper connected margin retained; both faces in the long left rod remain correctly oriented. Each hooded/lower head, stem, curl, original worn gilding and colored/pale fill retained; letter H/R/C/P and paper rules excluded. Two finite unequal floral margins retain actual flowering branches, acanthus, vases and fine gilt ivy, with original center/letter panels removed and no fabricated uniform repeat.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/walters-margin-final-ready-results-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/walters-margin-final-ready-results-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/walters-margin-final-ready-results-proof-3.jpg"
+        ]
+      },
+      "categories": [
+        "floral",
+        "scrollwork"
+      ],
+      "subjects": [
+        "flourish",
+        "leaf",
+        "stem",
+        "margin"
+      ],
+      "colors": [
+        "blue",
+        "gold",
+        "pink",
+        "brown",
+        "black"
+      ],
+      "facing": "unclear",
+      "composition": "single-ornament",
+      "usage_notes": "Original independent specimen with printed plate rules and page removed. AI-assisted extraction remains approximate; source bounds, actual native subject cap, original and exact prompt retained.",
+      "sets": [
+        {
+          "id": "walters-w88-52r-set",
+          "name": "Walters W.88 Monkey Choir",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A finite original manuscript marginal flourish: upper blue and gold margin with three grotesque heads.",
+      "set_label": "Walters W.88 Monkey Choir"
+    }
+  ]
+}

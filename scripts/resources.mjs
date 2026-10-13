@@ -8,7 +8,7 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { createHash } from 'node:crypto';
 import { assetCatalog, assetPaths, catalogBytes } from './package-assets.mjs';
-import { projectRoot, registry, resourceLock, manifest, resourceDirectory, sourceId, repositoryName, packageName, capabilities, designPaths, validateResources, digest, stable, checkedRelative } from './resource-store.mjs';
+import { projectRoot, registry, resourceLock, manifest, resourceDirectory, sourceId, repositoryName, packageName, capabilities, designPaths, designStems, validateResources, digest, stable, checkedRelative } from './resource-store.mjs';
 import { scaffold } from './scaffold-resource.mjs';
 import { packResource } from './pack-resource.mjs';
 const exec = promisify(execFile), json = value => JSON.stringify(value,null,2)+'\n';
@@ -41,7 +41,6 @@ const saveLock=()=>writeFile(path.join(projectRoot,'resource-lock.json'),json(lo
 const selectedIds=()=>options.design ? [config.assignments[options.design]||(()=>{throw Error(`Unknown assignment: ${options.design}`)})()] : options.source ? [options.source] : options.all ? Object.keys(config.sources) : (()=>{throw Error('Select --all, --source or --design.');})();
 const sourceInfo=id=>config.sources[id]||(()=>{throw Error(`Unknown resource: ${id}`)})();
 const inventory=id=>({...manifest(id).files,...manifest(id).inputs});
-const designStems=name=>[name,...['-border','-corner','-rotated','-reference'].map(suffix=>name+suffix)];
 const belongsToDesign=(relative,name)=>designStems(name).includes(path.basename(relative).replace(/\.[^.]+$/,''));
 const size=id=>Object.values(inventory(id)).reduce((sum,file)=>sum+file.bytes,0);
 async function fileDigest(file) {const hash=createHash('sha256');let bytes=0;for await(const chunk of createReadStream(file)){bytes+=chunk.length;hash.update(chunk);}return {bytes,sha256:hash.digest('hex')};}
@@ -75,7 +74,7 @@ else if(command==='status'||command==='check') {
 } else if(command==='plan') console.log(json(placement(options.collection,footprint(options.bytes),options.design)));
 else if(command==='assign') {
   const name=options.design;if(!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(name||'')||config.assignments[name])throw Error('assign requires a new unique lowercase kebab-case design name.');
-  const stems=new Set([name,...['-border','-corner','-rotated','-reference'].map(suffix=>name+suffix)]);
+  const stems=new Set(designStems(name));
   for(const id of Object.keys(config.sources))for(const relative of Object.keys(inventory(id)))if(stems.has(path.basename(relative).replace(/\.[^.]+$/,'')))throw Error('Design output would collide with an existing resource: '+relative);
   const result=placement(options.collection,footprint(options.bytes),name);if(!result.fits)throw Error(`Provision ${result.nextSource} before assigning this design.`);
   config.assignments[name]=result.source;await saveConfig();console.log(json(result));

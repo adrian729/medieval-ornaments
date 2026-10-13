@@ -4,7 +4,7 @@ export const root = new URL('../', import.meta.url);
 export async function assetCatalog() {
   const original = JSON.parse(await readFile(new URL('images.json', root), 'utf8'));
   return original.map(item => ({ ...item,
-    uses: item.kind === 'standalone' ? ['image'] : ['frame', 'divider'],
+    uses: item.kind === 'standalone' ? ['image'] : item.components.border_image ? ['frame', 'divider'] : ['divider'],
     formats: ['svg', 'webp', 'png'].filter(format => item[format])
   })).sort((a, b) => a.name.localeCompare(b.name, 'en'));
 }

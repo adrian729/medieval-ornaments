@@ -1,0 +1,2882 @@
+{
+  "source_id": "mkg-dc00101865",
+  "assets": [
+    {
+      "id": "mkg-dc00101865--crossed-weapons-with-tied-ribbon",
+      "name": "crossed-weapons-with-tied-ribbon",
+      "source_id": "mkg-dc00101865",
+      "source_folder": "mkg-hamburg",
+      "asset_type": "illustration",
+      "description": "A tied bundle of crossed engraved weapons, separated from the decorated letter framework. Part of the De Bry B alphabet ornaments set.",
+      "source_region": [
+        30,
+        271,
+        118,
+        365
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        0,
+        0,
+        74,
+        89
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 74,
+      "height": 89,
+      "png": "mkg-hamburg/mkg-dc00101865--crossed-weapons-with-tied-ribbon.png",
+      "png_sha256": "fc2a5c4dcca6dfd400a3628589426804e3297391363ce367fc2f87917aa25907",
+      "provenance": {
+        "institution": "Museum für Kunst und Gewerbe Hamburg",
+        "title": "Der Buchstabe B, Blatt aus der Folge \"Nova Alphati Effictio Historiis\"",
+        "object_identifier": "O1913.136",
+        "date": "1595",
+        "artist": "Bry, Johann Theodor de",
+        "record_url": "https://www.mkg-hamburg.de/en/object/dc00101865",
+        "image_rights": "Public Domain Mark 1.0; object image marked Public Domain",
+        "rights_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "source_file": "tmp/new-assets/mkg-hamburg/mkg-dc00101865--der-buchstabe-b-blatt-aus-der-folge-nova-alphati-effictio-historiis.jpg",
+        "source_sha256": "940798d28cbab372ff44c3b25d8e0fe4e9b6b86f816ef6190d2c12385ab60b43",
+        "source_metadata": "tmp/new-assets/mkg-hamburg/mkg-dc00101865.json",
+        "image_url": "https://www.mkg-hamburg.de/en/object/dc00101865/image-download/0",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. ONLY the original tied cluster of crossed weapons and its actual binding ribbons. Preserve original blade and handle tips, small shield-like round parts and all source-visible original folds. Remove every thin or thick structural stroke of the letter B behind them. Do NOT add any hanging cord or tassel: the lower tassel belongs to the excluded LETTER framework and is unrelated to this weapon cluster. Do not reconstruct hidden tips or make new weapons. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_extraction": "tmp/extraction-work/mkg-dc00101865--crossed-weapons-with-tied-ribbon--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "b720e020cb402daa759fe34454b3923401e0dd41bf4ab1f7e81518ad8271208b",
+        "retained_generated_size": [
+          1213,
+          1296
+        ],
+        "resolution_cap_scale": 0.06876352365543188,
+        "resolution_capped_size": [
+          83,
+          89
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          84,
+          85
+        ],
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 0
+        },
+        "native_subject_size_evidence": {
+          "method": "Individually inspected native visible subject bounds, excluding input-region whitespace and neighbours.",
+          "preview_subject_bounds": [
+            32,
+            275,
+            116,
+            360
+          ],
+          "preview_size": [
+            364,
+            500
+          ],
+          "original_size": [
+            364,
+            500
+          ]
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Compared original region and white/dark native-cap renders. Full visible figures, green leg armor, contacting lion, original props, wing colors and genuine harp/desk openings checked. Two visible busts retain only source-visible lower edges; no invented hidden legs. Three other batch outputs separately rejected for correction.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/eleven-walters-weapons-generated-results-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/eleven-walters-weapons-generated-results-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/eleven-walters-weapons-generated-results-proof-3.jpg"
+        ]
+      },
+      "categories": [
+        "ribbons"
+      ],
+      "subjects": [
+        "weapon",
+        "sword",
+        "ribbon"
+      ],
+      "colors": [
+        "brown",
+        "cream"
+      ],
+      "facing": "unclear",
+      "composition": "standalone",
+      "usage_notes": "Original independent specimen with printed plate rules and page removed. AI-assisted extraction remains approximate; source bounds, actual native subject cap, original and exact prompt retained.",
+      "sets": [
+        {
+          "id": "mkg-dc00101865-set",
+          "name": "De Bry B alphabet ornaments",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A tied bundle of crossed engraved weapons, separated from the decorated letter framework.",
+      "set_label": "De Bry B alphabet ornaments"
+    },
+    {
+      "id": "mkg-dc00101865--flower-bouquet-from-decorated-initial",
+      "name": "flower-bouquet-from-decorated-initial",
+      "source_id": "mkg-dc00101865",
+      "source_folder": "mkg-hamburg",
+      "asset_type": "illustration",
+      "description": "A narrow engraved bouquet of leafy flowers, separated from a decorated letter's vessel. Part of the De Bry B alphabet ornaments set.",
+      "source_region": [
+        54,
+        139,
+        147,
+        239
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        0,
+        0,
+        96,
+        103
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 96,
+      "height": 103,
+      "png": "mkg-hamburg/mkg-dc00101865--flower-bouquet-from-decorated-initial.png",
+      "png_sha256": "c7531c6734fddf871ad6b2c3072a95990de0749d8182e187dbb0929335de5854",
+      "provenance": {
+        "institution": "Museum für Kunst und Gewerbe Hamburg",
+        "title": "Der Buchstabe B, Blatt aus der Folge \"Nova Alphati Effictio Historiis\"",
+        "object_identifier": "O1913.136",
+        "date": "1595",
+        "artist": "Bry, Johann Theodor de",
+        "record_url": "https://www.mkg-hamburg.de/en/object/dc00101865",
+        "image_rights": "Public Domain Mark 1.0; object image marked Public Domain",
+        "rights_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "source_file": "tmp/new-assets/mkg-hamburg/mkg-dc00101865--der-buchstabe-b-blatt-aus-der-folge-nova-alphati-effictio-historiis.jpg",
+        "source_sha256": "940798d28cbab372ff44c3b25d8e0fe4e9b6b86f816ef6190d2c12385ab60b43",
+        "source_metadata": "tmp/new-assets/mkg-hamburg/mkg-dc00101865.json",
+        "image_url": "https://www.mkg-hamburg.de/en/object/dc00101865/image-download/0",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. ONLY the actual original upright bouquet of flowers and leaves, with every visible thin stem down to the original vessel rim. Remove the vessel, letter B framework and everything else. Keep the original stalk ends where they enter the vessel; do not invent a new vase, roots or extended stalks. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_extraction": "tmp/extraction-work/mkg-dc00101865--flower-bouquet-from-decorated-initial--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "63cb49ea252ce68f865e3184d763451823026d5ef016a57ea33abf8838757905",
+        "retained_generated_size": [
+          1209,
+          1300
+        ],
+        "resolution_cap_scale": 0.07914155700405853,
+        "resolution_capped_size": [
+          96,
+          103
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          93,
+          99
+        ],
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 0
+        },
+        "native_subject_size_evidence": {
+          "method": "Individually inspected visible original subject bounds, excluding ROI whitespace and neighbouring entities.",
+          "preview_subject_bounds": [
+            54,
+            139,
+            147,
+            238
+          ],
+          "preview_size": [
+            364,
+            500
+          ],
+          "original_size": [
+            364,
+            500
+          ]
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Original native subject bounds and source/white/dark compared. Complete actual original bird wings and beaks retained, with opaque pale engraved surfaces and no neighbouring leaf. Tiny Hamburg bird and bouquet retain original resolution caps; no invented source detail. The incomplete hoofed animal and unsupported long weapon/tassel connector were rejected and removed.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/eight-independent-generated-results-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/eight-independent-generated-results-proof-2.jpg"
+        ]
+      },
+      "categories": [
+        "floral"
+      ],
+      "subjects": [
+        "flower",
+        "leaf",
+        "stem"
+      ],
+      "colors": [
+        "brown",
+        "cream"
+      ],
+      "facing": "unclear",
+      "composition": "standalone",
+      "usage_notes": "Original independent specimen with printed plate rules and page removed. AI-assisted extraction remains approximate; source bounds, actual native subject cap, original and exact prompt retained.",
+      "sets": [
+        {
+          "id": "mkg-dc00101865-set",
+          "name": "De Bry B alphabet ornaments",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A narrow engraved bouquet of leafy flowers, separated from a decorated letter's vessel.",
+      "set_label": "De Bry B alphabet ornaments"
+    },
+    {
+      "id": "mkg-dc00101865--lower-grotesque-face-mask",
+      "name": "lower-grotesque-face-mask",
+      "source_id": "mkg-dc00101865",
+      "source_folder": "mkg-hamburg",
+      "asset_type": "decoration",
+      "description": "A small lower grotesque face mask. Part of the De Bry B alphabet ornaments set.",
+      "source_region": [
+        101,
+        341,
+        136,
+        384
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        2,
+        0,
+        35,
+        41
+      ],
+      "export_crop_coordinate_space": "original-native-source-region",
+      "width": 33,
+      "height": 41,
+      "png": "mkg-hamburg/mkg-dc00101865--lower-grotesque-face-mask.png",
+      "png_sha256": "10ac649c764b6e0921b7588ca04b81d6290f457759b1cffa4af254c035833ce9",
+      "provenance": {
+        "institution": "Museum für Kunst und Gewerbe Hamburg",
+        "title": "Der Buchstabe B, Blatt aus der Folge \"Nova Alphati Effictio Historiis\"",
+        "object_identifier": "O1913.136",
+        "date": "1595",
+        "artist": "Bry, Johann Theodor de",
+        "record_url": "https://www.mkg-hamburg.de/en/object/dc00101865",
+        "image_rights": "Public Domain Mark 1.0; object image marked Public Domain",
+        "rights_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "source_file": "tmp/new-assets/mkg-hamburg/mkg-dc00101865--der-buchstabe-b-blatt-aus-der-folge-nova-alphati-effictio-historiis.jpg",
+        "source_sha256": "940798d28cbab372ff44c3b25d8e0fe4e9b6b86f816ef6190d2c12385ab60b43",
+        "source_metadata": "tmp/new-assets/mkg-hamburg/mkg-dc00101865.json",
+        "image_url": "https://www.mkg-hamburg.de/en/object/dc00101865/image-download/0",
+        "method": "native-source-continuous-edge-matting"
+      },
+      "extraction": {
+        "native_source_size": [
+          35,
+          43
+        ],
+        "native_upscaling": false,
+        "original_opaque_rgb_preserved": true,
+        "status": "awaiting-original-white-dark-review",
+        "candidate_png": "tmp/extraction-work/continuation-20261010/mkg-dc00101865--lower-grotesque-face-mask--refined-original-native-candidate.png",
+        "native_export_crop": [
+          2,
+          0,
+          35,
+          41
+        ],
+        "annotation_json": "tmp/extraction-work/continuation-20261010/mkg-dc00101865--lower-grotesque-face-mask--refined-original-native-audit.json",
+        "trimap_png": "tmp/extraction-work/continuation-20261010/mkg-dc00101865--lower-grotesque-face-mask--refined-original-native-trimap.png",
+        "export_crop_coordinate_space": "original-native-source-region",
+        "native_refinement": {
+          "method": "Source-only native semantic ownership retains the complete original subject. Its actual pale surfaces and original engraved print shading are opaque, with measured original ink cores protecting narrow native strokes. Individually inspected large alphabetic strokes and neighboring motifs are excluded. Original JPEG RGB and native proportions; one-pixel continuous alpha, no source upscale or invented recovered detail. The tiny scan limits source detail, so no redraw/vector enlargement is supplied.",
+          "source": "tmp/extraction-work/continuation-20261010/mkg-dc00101865--lower-grotesque-face-mask--original.png",
+          "previous_native_matte": {
+            "native_source_size": [
+              35,
+              43
+            ],
+            "native_upscaling": false,
+            "original_opaque_rgb_preserved": true,
+            "status": "awaiting-original-white-dark-review"
+          },
+          "unknown_band_native_pixels": 1,
+          "source_rgb_redrawn": false,
+          "source_resized": false,
+          "original_opaque_rgb_preserved": true,
+          "ownership": "tmp/extraction-work/continuation-20261010/mkg-dc00101865--lower-grotesque-face-mask--refined-original-native-ownership.png",
+          "ownership_sha256": "a4a6b73fa2ea3b0dab129de68e215da2dad54f7b1714028c5fb8edfc5794e0ce",
+          "native_semantic_mask_choice": 2,
+          "native_ownership_audit": "tmp/extraction-work/continuation-20261010/mkg01865-native-figures-and-masks-ownership-audit.json",
+          "source_original_dimensions": [
+            364,
+            500
+          ],
+          "intrinsic_surface_fill": "All enclosed face print surfaces; only figure texture holes smaller than 45 original pixels."
+        },
+        "tool": "Original native scan / closed-form edge alpha and foreground decontamination",
+        "pixel_exact": false
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Source/native/light/dark comparison reviewed. The urn/plume and both distinct small carved masks retain original native JPEG pixels and opaque intrinsic surfaces; supporting letter framework is excluded. The sunburst retains the actual source-faded radial ink with the central lettering and paper removed, using measured native print coverage. All remain small according to the real 364x500 source; no new detail, upscaling or vector replacement. Both masks are distinct original renders, not duplicate copies.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/mkg01865-four-independent-decorations-native-final-review.jpg",
+          "tmp/extraction-work/continuation-20261010/mkg01865-whole-original-native-coordinate-audit.png"
+        ]
+      },
+      "categories": [
+        "humans",
+        "hybrids"
+      ],
+      "subjects": [
+        "face",
+        "mask",
+        "grotesque"
+      ],
+      "colors": [
+        "black",
+        "brown",
+        "cream"
+      ],
+      "facing": "front",
+      "composition": "single-ornament",
+      "usage_notes": "Independent ornament isolated from the capital B; original source is only 364x500 pixels, so no source upscaling or claimed recovered detail. Exact original, source bounds, processing and guide retained. Large letter framework and unrelated motifs excluded.",
+      "sets": [
+        {
+          "id": "mkg-dc00101865-set",
+          "name": "De Bry B alphabet ornaments",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A small lower grotesque face mask.",
+      "set_label": "De Bry B alphabet ornaments"
+    },
+    {
+      "id": "mkg-dc00101865--lower-right-foliate-trophy-with-tied-ribbon",
+      "name": "lower-right-foliate-trophy-with-tied-ribbon",
+      "source_id": "mkg-dc00101865",
+      "source_folder": "mkg-hamburg",
+      "asset_type": "decoration",
+      "description": "A tied foliate trophy with crossed slender implements and a leafy sprig. Part of the De Bry B alphabet ornaments set.",
+      "source_region": [
+        247,
+        315,
+        346,
+        449
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        0,
+        4,
+        88,
+        113
+      ],
+      "export_crop_coordinate_space": "original-native-source-region",
+      "width": 88,
+      "height": 109,
+      "png": "mkg-hamburg/mkg-dc00101865--lower-right-foliate-trophy-with-tied-ribbon.png",
+      "png_sha256": "1e60c9766a42f8ba596a52585e56b632a1e3519c41ef1539d3a2d8d4a5401f51",
+      "provenance": {
+        "institution": "Museum für Kunst und Gewerbe Hamburg",
+        "title": "Der Buchstabe B, Blatt aus der Folge \"Nova Alphati Effictio Historiis\"",
+        "object_identifier": "O1913.136",
+        "date": "1595",
+        "artist": "Bry, Johann Theodor de",
+        "record_url": "https://www.mkg-hamburg.de/en/object/dc00101865",
+        "image_rights": "Public Domain Mark 1.0; object image marked Public Domain",
+        "rights_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "source_file": "tmp/new-assets/mkg-hamburg/mkg-dc00101865--der-buchstabe-b-blatt-aus-der-folge-nova-alphati-effictio-historiis.jpg",
+        "source_sha256": "940798d28cbab372ff44c3b25d8e0fe4e9b6b86f816ef6190d2c12385ab60b43",
+        "source_metadata": "tmp/new-assets/mkg-hamburg/mkg-dc00101865.json",
+        "image_url": "https://www.mkg-hamburg.de/en/object/dc00101865/image-download/0",
+        "method": "native-source-continuous-edge-matting"
+      },
+      "extraction": {
+        "native_source_size": [
+          99,
+          134
+        ],
+        "native_upscaling": false,
+        "original_opaque_rgb_preserved": true,
+        "status": "awaiting-original-white-dark-review",
+        "candidate_png": "tmp/extraction-work/continuation-20261010/mkg-dc00101865--lower-right-foliate-trophy-with-tied-ribbon--refined-original-native-candidate.png",
+        "native_export_crop": [
+          0,
+          4,
+          88,
+          113
+        ],
+        "annotation_json": "tmp/extraction-work/continuation-20261010/mkg-dc00101865--lower-right-foliate-trophy-with-tied-ribbon--refined-original-native-audit.json",
+        "trimap_png": "tmp/extraction-work/continuation-20261010/mkg-dc00101865--lower-right-foliate-trophy-with-tied-ribbon--refined-original-native-trimap.png",
+        "export_crop_coordinate_space": "original-native-source-region",
+        "native_refinement": {
+          "method": "Source-only native semantic ownership of the entire crossed slender implements and foliate plume tied by an original folded ribbon. All ribbon/leaf print surfaces and original hatched shading remain opaque. Actual gaps between stems clear. The large alphabetic oval and its independently connected hanging tassel are excluded at the inspected source interface, not assigned to the trophy. Original RGB/proportions and one-native-pixel continuous alpha; no upscale or generated redraw.",
+          "source": "tmp/extraction-work/continuation-20261010/mkg-dc00101865--lower-right-foliate-trophy-with-tied-ribbon--original.png",
+          "previous_native_matte": {
+            "native_source_size": [
+              99,
+              134
+            ],
+            "native_upscaling": false,
+            "original_opaque_rgb_preserved": true,
+            "status": "awaiting-native-source-review"
+          },
+          "unknown_band_native_pixels": 1,
+          "source_rgb_redrawn": false,
+          "source_resized": false,
+          "original_opaque_rgb_preserved": true,
+          "ownership": "tmp/extraction-work/continuation-20261010/mkg-dc00101865--lower-right-foliate-trophy-with-tied-ribbon--refined-original-native-ownership.png",
+          "ownership_sha256": "537cf863bc7fdd94cb675f2bc8531ea391ab1febd28c15c9b9821c0103e4a865",
+          "native_semantic_choice": 0,
+          "source_native_ownership_audit": "tmp/extraction-work/continuation-20261010/mkg01865-native-pendants-and-trophy-ownership-audit.json",
+          "source_tassel_excluded_after_native_y": 421
+        },
+        "tool": "Original native scan / closed-form edge alpha and foreground decontamination",
+        "pixel_exact": false
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Compared all four complete source-visible groups at native coordinate detail and white/dark. Putto stays with the complete contacted animal-headed finial and its recovered real rounded terminal; seated man keeps his original lower leg/foot, held loop, stem and pendant. Bulbs retain full opaque surfaces, curled source stems and original engraved shading. Trophy keeps all source-visible slender implements, ribbon folds, foliate plume and leaf tips; separate glyph tassel/large letter curves are excluded. Original RGB/proportions remain at native 364×500 source scale. Fine faint loops use measured native ink coverage only in originally missing/background pixels; retained actor/bulb pixels are unchanged. No unreviewed generated redraw or vector trial supplied.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/mkg01865-final-four-native-groups-original-white-dark-review.jpg",
+          "tmp/extraction-work/continuation-20261010/mkg01865-actual-whole-animal-finial-source-native-join-coordinates.jpg",
+          "tmp/extraction-work/continuation-20261010/mkg01865-complete-man-and-leg-native-coordinate-detail.jpg"
+        ]
+      },
+      "categories": [
+        "botanical"
+      ],
+      "subjects": [
+        "trophy",
+        "implement",
+        "leaf",
+        "ribbon"
+      ],
+      "colors": [
+        "black",
+        "brown",
+        "cream"
+      ],
+      "facing": "unclear",
+      "composition": "single-ornament",
+      "usage_notes": "Independent ornament isolated from the capital B; original source is only 364x500 pixels, so no source upscaling or claimed recovered detail. Exact original, source bounds, processing and guide retained. Large letter framework and unrelated motifs excluded.",
+      "sets": [
+        {
+          "id": "mkg-dc00101865-set",
+          "name": "De Bry B alphabet ornaments",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A tied foliate trophy with crossed slender implements and a leafy sprig.",
+      "set_label": "De Bry B alphabet ornaments"
+    },
+    {
+      "id": "mkg-dc00101865--paired-bulbous-pendants-with-curling-stems",
+      "name": "paired-bulbous-pendants-with-curling-stems",
+      "source_id": "mkg-dc00101865",
+      "source_folder": "mkg-hamburg",
+      "asset_type": "decoration",
+      "description": "Paired bulbous pendants with shared curling stems and small foliate caps. Part of the De Bry B alphabet ornaments set.",
+      "source_region": [
+        39,
+        105,
+        89,
+        181
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        0,
+        0,
+        50,
+        76
+      ],
+      "export_crop_coordinate_space": "original-native-source-region",
+      "width": 50,
+      "height": 76,
+      "png": "mkg-hamburg/mkg-dc00101865--paired-bulbous-pendants-with-curling-stems.png",
+      "png_sha256": "64d33e25e9885c73eb58a36a5d55098b4979d1ea142ab947f357160e8577f49e",
+      "provenance": {
+        "institution": "Museum für Kunst und Gewerbe Hamburg",
+        "title": "Der Buchstabe B, Blatt aus der Folge \"Nova Alphati Effictio Historiis\"",
+        "object_identifier": "O1913.136",
+        "date": "1595",
+        "artist": "Bry, Johann Theodor de",
+        "record_url": "https://www.mkg-hamburg.de/en/object/dc00101865",
+        "image_rights": "Public Domain Mark 1.0; object image marked Public Domain",
+        "rights_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "source_file": "tmp/new-assets/mkg-hamburg/mkg-dc00101865--der-buchstabe-b-blatt-aus-der-folge-nova-alphati-effictio-historiis.jpg",
+        "source_sha256": "940798d28cbab372ff44c3b25d8e0fe4e9b6b86f816ef6190d2c12385ab60b43",
+        "source_metadata": "tmp/new-assets/mkg-hamburg/mkg-dc00101865.json",
+        "image_url": "https://www.mkg-hamburg.de/en/object/dc00101865/image-download/0",
+        "method": "native-source-continuous-edge-matting"
+      },
+      "extraction": {
+        "native_source_size": [
+          50,
+          76
+        ],
+        "native_upscaling": false,
+        "original_opaque_rgb_preserved": true,
+        "status": "awaiting-original-white-dark-review",
+        "candidate_png": "tmp/extraction-work/continuation-20261010/mkg-dc00101865--paired-bulbous-pendants-with-curling-stems--native-whole-entity-with-measured-fine-strokes.png",
+        "native_export_crop": [
+          0,
+          0,
+          50,
+          76
+        ],
+        "annotation_json": "tmp/extraction-work/continuation-20261010/mkg-dc00101865--paired-bulbous-pendants-with-curling-stems--refined-original-native-audit.json",
+        "trimap_png": "tmp/extraction-work/continuation-20261010/mkg-dc00101865--paired-bulbous-pendants-with-curling-stems--refined-original-native-trimap.png",
+        "export_crop_coordinate_space": "original-native-source-region",
+        "native_refinement": {
+          "method": "Both actual source bulbs and all their source-visible caps/curled connecting stems form one ornament. Individually inspected native bulb interiors retain their original pale surfaces and print hatching as opaque; genuine gaps among the ornamental stems clear. Original alphabetic crossbar/straight rule and surrounding letters excluded. Source-native two-pixel continuous contour alpha, original opaque RGB, no source enlargement, generated replacement, symmetry or new pendant anatomy.",
+          "source": "tmp/extraction-work/continuation-20261010/mkg-dc00101865--paired-bulbous-pendants-with-curling-stems--complete-native-original.png",
+          "previous_native_matte": {
+            "native_source_size": [
+              50,
+              76
+            ],
+            "native_upscaling": false,
+            "original_opaque_rgb_preserved": true,
+            "status": "awaiting-native-source-review"
+          },
+          "unknown_band_native_pixels": 1,
+          "source_rgb_redrawn": false,
+          "source_resized": false,
+          "original_opaque_rgb_preserved": true,
+          "ownership": "tmp/extraction-work/continuation-20261010/mkg-dc00101865--paired-bulbous-pendants-with-curling-stems--refined-original-native-ownership.png",
+          "ownership_sha256": "fe4b8b9a39b125a9cd8b29d3df4de3a5f6c4ee44c999ac27d6ed8fc83881fca9",
+          "native_source_ownership_scope": [
+            [
+              45,
+              116
+            ],
+            [
+              49,
+              112
+            ],
+            [
+              55,
+              107
+            ],
+            [
+              63,
+              111
+            ],
+            [
+              64,
+              115
+            ],
+            [
+              69,
+              114
+            ],
+            [
+              75,
+              118
+            ],
+            [
+              79,
+              124
+            ],
+            [
+              84,
+              127
+            ],
+            [
+              84,
+              135
+            ],
+            [
+              79,
+              139
+            ],
+            [
+              74,
+              139
+            ],
+            [
+              72,
+              143
+            ],
+            [
+              71,
+              159
+            ],
+            [
+              71,
+              174
+            ],
+            [
+              65,
+              177
+            ],
+            [
+              56,
+              176
+            ],
+            [
+              51,
+              172
+            ],
+            [
+              52,
+              159
+            ],
+            [
+              51,
+              153
+            ],
+            [
+              51,
+              147
+            ],
+            [
+              44,
+              144
+            ],
+            [
+              42,
+              138
+            ],
+            [
+              42,
+              127
+            ]
+          ],
+          "source_native_opaque_bulb_surface_polygons": [
+            [
+              [
+                59,
+                127
+              ],
+              [
+                55,
+                127
+              ],
+              [
+                51,
+                128
+              ],
+              [
+                47,
+                131
+              ],
+              [
+                45,
+                134
+              ],
+              [
+                46,
+                138
+              ],
+              [
+                49,
+                141
+              ],
+              [
+                54,
+                143
+              ],
+              [
+                60,
+                142
+              ],
+              [
+                62,
+                138
+              ],
+              [
+                62,
+                133
+              ],
+              [
+                61,
+                130
+              ]
+            ],
+            [
+              [
+                64,
+                141
+              ],
+              [
+                67,
+                144
+              ],
+              [
+                68,
+                151
+              ],
+              [
+                69,
+                160
+              ],
+              [
+                69,
+                166
+              ],
+              [
+                67,
+                170
+              ],
+              [
+                64,
+                173
+              ],
+              [
+                60,
+                174
+              ],
+              [
+                56,
+                172
+              ],
+              [
+                55,
+                169
+              ],
+              [
+                55,
+                163
+              ],
+              [
+                56,
+                156
+              ],
+              [
+                61,
+                150
+              ],
+              [
+                61,
+                145
+              ]
+            ]
+          ],
+          "native_source_outline_coordinate_evidence": "tmp/extraction-work/continuation-20261010/mkg01865-upper-left-pendant-pair-exact-native-coordinates.jpg",
+          "rejected_spurious_prior_registration": "tmp/extraction-work/continuation-20261010/mkg01865-paired-pendant-native-registration.json"
+        },
+        "fine_original_ink_recovery": {
+          "previous_native_matte": {
+            "native_source_size": [
+              50,
+              76
+            ],
+            "native_upscaling": false,
+            "original_opaque_rgb_preserved": true,
+            "status": "awaiting-original-white-dark-review",
+            "candidate_png": "tmp/extraction-work/continuation-20261010/mkg-dc00101865--paired-bulbous-pendants-with-curling-stems--refined-original-native-candidate.png",
+            "native_export_crop": [
+              0,
+              0,
+              50,
+              76
+            ],
+            "annotation_json": "tmp/extraction-work/continuation-20261010/mkg-dc00101865--paired-bulbous-pendants-with-curling-stems--refined-original-native-audit.json",
+            "trimap_png": "tmp/extraction-work/continuation-20261010/mkg-dc00101865--paired-bulbous-pendants-with-curling-stems--refined-original-native-trimap.png",
+            "export_crop_coordinate_space": "original-native-source-region",
+            "native_refinement": {
+              "method": "Both actual source bulbs and all their source-visible caps/curled connecting stems form one ornament. Individually inspected native bulb interiors retain their original pale surfaces and print hatching as opaque; genuine gaps among the ornamental stems clear. Original alphabetic crossbar/straight rule and surrounding letters excluded. Source-native two-pixel continuous contour alpha, original opaque RGB, no source enlargement, generated replacement, symmetry or new pendant anatomy.",
+              "source": "tmp/extraction-work/continuation-20261010/mkg-dc00101865--paired-bulbous-pendants-with-curling-stems--complete-native-original.png",
+              "previous_native_matte": {
+                "native_source_size": [
+                  50,
+                  76
+                ],
+                "native_upscaling": false,
+                "original_opaque_rgb_preserved": true,
+                "status": "awaiting-native-source-review"
+              },
+              "unknown_band_native_pixels": 1,
+              "source_rgb_redrawn": false,
+              "source_resized": false,
+              "original_opaque_rgb_preserved": true,
+              "ownership": "tmp/extraction-work/continuation-20261010/mkg-dc00101865--paired-bulbous-pendants-with-curling-stems--refined-original-native-ownership.png",
+              "ownership_sha256": "fe4b8b9a39b125a9cd8b29d3df4de3a5f6c4ee44c999ac27d6ed8fc83881fca9",
+              "native_source_ownership_scope": [
+                [
+                  45,
+                  116
+                ],
+                [
+                  49,
+                  112
+                ],
+                [
+                  55,
+                  107
+                ],
+                [
+                  63,
+                  111
+                ],
+                [
+                  64,
+                  115
+                ],
+                [
+                  69,
+                  114
+                ],
+                [
+                  75,
+                  118
+                ],
+                [
+                  79,
+                  124
+                ],
+                [
+                  84,
+                  127
+                ],
+                [
+                  84,
+                  135
+                ],
+                [
+                  79,
+                  139
+                ],
+                [
+                  74,
+                  139
+                ],
+                [
+                  72,
+                  143
+                ],
+                [
+                  71,
+                  159
+                ],
+                [
+                  71,
+                  174
+                ],
+                [
+                  65,
+                  177
+                ],
+                [
+                  56,
+                  176
+                ],
+                [
+                  51,
+                  172
+                ],
+                [
+                  52,
+                  159
+                ],
+                [
+                  51,
+                  153
+                ],
+                [
+                  51,
+                  147
+                ],
+                [
+                  44,
+                  144
+                ],
+                [
+                  42,
+                  138
+                ],
+                [
+                  42,
+                  127
+                ]
+              ],
+              "source_native_opaque_bulb_surface_polygons": [
+                [
+                  [
+                    59,
+                    127
+                  ],
+                  [
+                    55,
+                    127
+                  ],
+                  [
+                    51,
+                    128
+                  ],
+                  [
+                    47,
+                    131
+                  ],
+                  [
+                    45,
+                    134
+                  ],
+                  [
+                    46,
+                    138
+                  ],
+                  [
+                    49,
+                    141
+                  ],
+                  [
+                    54,
+                    143
+                  ],
+                  [
+                    60,
+                    142
+                  ],
+                  [
+                    62,
+                    138
+                  ],
+                  [
+                    62,
+                    133
+                  ],
+                  [
+                    61,
+                    130
+                  ]
+                ],
+                [
+                  [
+                    64,
+                    141
+                  ],
+                  [
+                    67,
+                    144
+                  ],
+                  [
+                    68,
+                    151
+                  ],
+                  [
+                    69,
+                    160
+                  ],
+                  [
+                    69,
+                    166
+                  ],
+                  [
+                    67,
+                    170
+                  ],
+                  [
+                    64,
+                    173
+                  ],
+                  [
+                    60,
+                    174
+                  ],
+                  [
+                    56,
+                    172
+                  ],
+                  [
+                    55,
+                    169
+                  ],
+                  [
+                    55,
+                    163
+                  ],
+                  [
+                    56,
+                    156
+                  ],
+                  [
+                    61,
+                    150
+                  ],
+                  [
+                    61,
+                    145
+                  ]
+                ]
+              ],
+              "native_source_outline_coordinate_evidence": "tmp/extraction-work/continuation-20261010/mkg01865-upper-left-pendant-pair-exact-native-coordinates.jpg",
+              "rejected_spurious_prior_registration": "tmp/extraction-work/continuation-20261010/mkg01865-paired-pendant-native-registration.json"
+            }
+          },
+          "foreground_protection": "Every retained subject pixel with alpha>=8 is left byte unchanged. Fine source ink is recovered only in genuine missing/background pixels; never replace skin, clothes, bulb interiors, hands or earlier foreground edges.",
+          "source_native_thin_stroke_polylines": [
+            [
+              [
+                51,
+                148
+              ],
+              [
+                50,
+                153
+              ],
+              [
+                47,
+                156
+              ],
+              [
+                44,
+                160
+              ],
+              [
+                45,
+                164
+              ],
+              [
+                48,
+                161
+              ]
+            ],
+            [
+              [
+                75,
+                139
+              ],
+              [
+                78,
+                142
+              ],
+              [
+                79,
+                146
+              ],
+              [
+                77,
+                150
+              ],
+              [
+                74,
+                150
+              ],
+              [
+                73,
+                147
+              ]
+            ]
+          ],
+          "method": "Individually inspected original faint curled/looped strokes use continuous measured ink coverage against a local 13-native-pixel paper estimate. Only their three-native-pixel ownership collars change; opaque actor/bulb/RGB surfaces and all earlier true openings remain unchanged. Native dimensions and proportions, no replacement stroke/path or source upscale.",
+          "measured_source_ink_rgb": [
+            68,
+            59,
+            44
+          ],
+          "minimum_visible_coverage": 0.045,
+          "rgb_modified_in_fine_stroke_collars_only": "Measured source ink tone replaces mixed paper/ink RGB so the source stroke remains natural on arbitrary backgrounds."
+        },
+        "tool": "Original native scan / closed-form edge alpha and foreground decontamination",
+        "pixel_exact": false
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Compared all four complete source-visible groups at native coordinate detail and white/dark. Putto stays with the complete contacted animal-headed finial and its recovered real rounded terminal; seated man keeps his original lower leg/foot, held loop, stem and pendant. Bulbs retain full opaque surfaces, curled source stems and original engraved shading. Trophy keeps all source-visible slender implements, ribbon folds, foliate plume and leaf tips; separate glyph tassel/large letter curves are excluded. Original RGB/proportions remain at native 364×500 source scale. Fine faint loops use measured native ink coverage only in originally missing/background pixels; retained actor/bulb pixels are unchanged. No unreviewed generated redraw or vector trial supplied.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/mkg01865-final-four-native-groups-original-white-dark-review.jpg",
+          "tmp/extraction-work/continuation-20261010/mkg01865-actual-whole-animal-finial-source-native-join-coordinates.jpg",
+          "tmp/extraction-work/continuation-20261010/mkg01865-complete-man-and-leg-native-coordinate-detail.jpg"
+        ]
+      },
+      "categories": [
+        "scrollwork"
+      ],
+      "subjects": [
+        "pendant",
+        "stem",
+        "curl"
+      ],
+      "colors": [
+        "black",
+        "brown",
+        "cream"
+      ],
+      "facing": "unclear",
+      "composition": "single-ornament",
+      "usage_notes": "The clearest source-visible pair is retained. The similar upper-right pair is partially occluded by the putto and the lower pair overlaps the letter stroke; compare their render before retaining any duplicate motif. Source is only 364x500 pixels; no source upscaling or inferred repeating unit.",
+      "sets": [
+        {
+          "id": "mkg-dc00101865-set",
+          "name": "De Bry B alphabet ornaments",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "Paired bulbous pendants with shared curling stems and small foliate caps.",
+      "set_label": "De Bry B alphabet ornaments"
+    },
+    {
+      "id": "mkg-dc00101865--seated-man-pulling-looped-cord",
+      "name": "seated-man-pulling-looped-cord",
+      "source_id": "mkg-dc00101865",
+      "source_folder": "mkg-hamburg",
+      "asset_type": "illustration",
+      "description": "A seated man pulling a looped cord with a small hanging foliate pendant. Part of the De Bry B alphabet ornaments set.",
+      "source_region": [
+        145,
+        211,
+        266,
+        398
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        4,
+        2,
+        110,
+        180
+      ],
+      "export_crop_coordinate_space": "original-native-source-region",
+      "width": 106,
+      "height": 178,
+      "png": "mkg-hamburg/mkg-dc00101865--seated-man-pulling-looped-cord.png",
+      "png_sha256": "0ac8cb2556ca7b86b13d88c356ec1a34581865a6b8f64674f5c86fbbd3562aaf",
+      "provenance": {
+        "institution": "Museum für Kunst und Gewerbe Hamburg",
+        "title": "Der Buchstabe B, Blatt aus der Folge \"Nova Alphati Effictio Historiis\"",
+        "object_identifier": "O1913.136",
+        "date": "1595",
+        "artist": "Bry, Johann Theodor de",
+        "record_url": "https://www.mkg-hamburg.de/en/object/dc00101865",
+        "image_rights": "Public Domain Mark 1.0; object image marked Public Domain",
+        "rights_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "source_file": "tmp/new-assets/mkg-hamburg/mkg-dc00101865--der-buchstabe-b-blatt-aus-der-folge-nova-alphati-effictio-historiis.jpg",
+        "source_sha256": "940798d28cbab372ff44c3b25d8e0fe4e9b6b86f816ef6190d2c12385ab60b43",
+        "source_metadata": "tmp/new-assets/mkg-hamburg/mkg-dc00101865.json",
+        "image_url": "https://www.mkg-hamburg.de/en/object/dc00101865/image-download/0",
+        "method": "native-source-continuous-edge-matting"
+      },
+      "extraction": {
+        "native_source_size": [
+          121,
+          187
+        ],
+        "native_upscaling": false,
+        "original_opaque_rgb_preserved": true,
+        "status": "awaiting-original-white-dark-review",
+        "candidate_png": "tmp/extraction-work/continuation-20261010/mkg-dc00101865--seated-man-pulling-looped-cord--native-whole-entity-with-measured-fine-strokes.png",
+        "native_export_crop": [
+          4,
+          2,
+          110,
+          180
+        ],
+        "annotation_json": "tmp/extraction-work/continuation-20261010/mkg-dc00101865--seated-man-pulling-looped-cord--refined-original-native-audit.json",
+        "trimap_png": "tmp/extraction-work/continuation-20261010/mkg-dc00101865--seated-man-pulling-looped-cord--refined-original-native-trimap.png",
+        "export_crop_coordinate_space": "original-native-source-region",
+        "native_refinement": {
+          "method": "The complete native man, original foot and pendant are retained. The actual held loop is recovered from the unchanged original fine engraved stroke, with explicit native ink ownership preventing its removal by an erosion band. Only the source-visible alphabetic oval-field fragment adjacent to the loop is excluded. Genuine loop opening is transparent; no cord extension, hidden anatomy, source upscale or redraw.",
+          "source": "tmp/extraction-work/continuation-20261010/mkg-dc00101865--seated-man-pulling-looped-cord--original.png",
+          "previous_native_matte": {
+            "native_source_size": [
+              121,
+              187
+            ],
+            "native_upscaling": false,
+            "original_opaque_rgb_preserved": true,
+            "status": "awaiting-original-white-dark-review",
+            "candidate_png": "tmp/extraction-work/continuation-20261010/mkg-dc00101865--seated-man-pulling-looped-cord--refined-original-native-candidate.png",
+            "native_export_crop": [
+              3,
+              0,
+              111,
+              182
+            ],
+            "annotation_json": "tmp/extraction-work/continuation-20261010/mkg-dc00101865--seated-man-pulling-looped-cord--refined-original-native-audit.json",
+            "trimap_png": "tmp/extraction-work/continuation-20261010/mkg-dc00101865--seated-man-pulling-looped-cord--refined-original-native-trimap.png",
+            "export_crop_coordinate_space": "original-native-source-region",
+            "native_refinement": {
+              "method": "Complete original source-native contacting figure group; disconnected glyph, gourd and plate fragments removed by inspected ownership. The entire contacted animal-headed finial stays with the upper putto. The seated man keeps the complete original leg and visible foot recovered by expanding the native source input, as well as his held loop/pendant. Pale figure surfaces are opaque; real openings remain transparent. Two-native-pixel continuous edge alpha, original source RGB/proportions, no redraw, restore of hidden anatomy, vector or upscale.",
+              "source": "tmp/extraction-work/continuation-20261010/mkg-dc00101865--seated-man-pulling-looped-cord--original.png",
+              "previous_native_matte": {
+                "native_source_size": [
+                  121,
+                  164
+                ],
+                "native_upscaling": false,
+                "original_opaque_rgb_preserved": true,
+                "status": "awaiting-original-white-dark-review",
+                "candidate_png": "tmp/extraction-work/continuation-20261010/mkg-dc00101865--seated-man-pulling-looped-cord--refined-original-native-candidate.png",
+                "native_export_crop": [
+                  4,
+                  2,
+                  109,
+                  154
+                ],
+                "annotation_json": "tmp/extraction-work/continuation-20261010/mkg-dc00101865--seated-man-pulling-looped-cord--refined-original-native-audit.json",
+                "trimap_png": "tmp/extraction-work/continuation-20261010/mkg-dc00101865--seated-man-pulling-looped-cord--refined-original-native-trimap.png",
+                "export_crop_coordinate_space": "original-native-source-region",
+                "native_refinement": {
+                  "method": "Source-only native semantic ownership retains the complete original subject. Its actual pale surfaces and original engraved print shading are opaque, with measured original ink cores protecting narrow native strokes. Individually inspected large alphabetic strokes and neighboring motifs are excluded. Original JPEG RGB and native proportions; one-pixel continuous alpha, no source upscale or invented recovered detail. The tiny scan limits source detail, so no redraw/vector enlargement is supplied.",
+                  "source": "tmp/extraction-work/continuation-20261010/mkg-dc00101865--seated-man-pulling-looped-cord--original.png",
+                  "previous_native_matte": {
+                    "native_source_size": [
+                      121,
+                      164
+                    ],
+                    "native_upscaling": false,
+                    "original_opaque_rgb_preserved": true,
+                    "status": "awaiting-original-white-dark-review"
+                  },
+                  "unknown_band_native_pixels": 1,
+                  "source_rgb_redrawn": false,
+                  "source_resized": false,
+                  "original_opaque_rgb_preserved": true,
+                  "ownership": "tmp/extraction-work/continuation-20261010/mkg-dc00101865--seated-man-pulling-looped-cord--refined-original-native-ownership.png",
+                  "ownership_sha256": "591ed3481b231113ef8e8bfabbfddabb88b865098386010c101c175f072f3763",
+                  "native_semantic_mask_choice": 0,
+                  "native_ownership_audit": "tmp/extraction-work/continuation-20261010/mkg01865-native-figures-and-masks-ownership-audit.json",
+                  "source_original_dimensions": [
+                    364,
+                    500
+                  ],
+                  "intrinsic_surface_fill": "All enclosed face print surfaces; only figure texture holes smaller than 45 original pixels."
+                }
+              },
+              "unknown_band_native_pixels": 2,
+              "source_rgb_redrawn": false,
+              "source_resized": false,
+              "original_opaque_rgb_preserved": true,
+              "ownership": "tmp/extraction-work/continuation-20261010/mkg-dc00101865--seated-man-pulling-looped-cord--refined-original-native-ownership.png",
+              "ownership_sha256": "6e547fa63433102e23998232118ce1a18c7a79bd4ccf9546a5158f642079d381",
+              "source_native_intrinsic_surface_polygons": [
+                [
+                  [
+                    218,
+                    317
+                  ],
+                  [
+                    211,
+                    334
+                  ],
+                  [
+                    203,
+                    349
+                  ],
+                  [
+                    195,
+                    365
+                  ],
+                  [
+                    192,
+                    377
+                  ],
+                  [
+                    198,
+                    379
+                  ],
+                  [
+                    198,
+                    382
+                  ],
+                  [
+                    189,
+                    384
+                  ],
+                  [
+                    181,
+                    382
+                  ],
+                  [
+                    181,
+                    374
+                  ],
+                  [
+                    185,
+                    359
+                  ],
+                  [
+                    192,
+                    342
+                  ],
+                  [
+                    200,
+                    328
+                  ],
+                  [
+                    205,
+                    315
+                  ]
+                ]
+              ],
+              "native_original_coordinate_evidence": "tmp/extraction-work/continuation-20261010/mkg01865-complete-man-and-leg-native-coordinate-detail.jpg"
+            }
+          },
+          "unknown_band_native_pixels": 1,
+          "source_rgb_redrawn": false,
+          "source_resized": false,
+          "original_opaque_rgb_preserved": true,
+          "ownership": "tmp/extraction-work/continuation-20261010/mkg-dc00101865--seated-man-pulling-looped-cord--refined-original-native-ownership.png",
+          "ownership_sha256": "93b72e214d75651d2256898366ef997f91ea057819800c0f2d98815770426f1b",
+          "inspected_held_loop_source_polyline": [
+            [
+              233,
+              237
+            ],
+            [
+              235,
+              243
+            ],
+            [
+              236,
+              254
+            ],
+            [
+              238,
+              263
+            ],
+            [
+              242,
+              266
+            ],
+            [
+              245,
+              263
+            ],
+            [
+              246,
+              257
+            ],
+            [
+              244,
+              249
+            ],
+            [
+              240,
+              245
+            ],
+            [
+              235,
+              240
+            ]
+          ],
+          "native_source_ink_rule_only_near_actual_loop": "gray<180 inside three-native-pixel inspected line scope",
+          "prior_native_matte": {
+            "native_source_size": [
+              121,
+              187
+            ],
+            "native_upscaling": false,
+            "original_opaque_rgb_preserved": true,
+            "status": "awaiting-original-white-dark-review",
+            "candidate_png": "tmp/extraction-work/continuation-20261010/mkg-dc00101865--seated-man-pulling-looped-cord--refined-original-native-candidate.png",
+            "native_export_crop": [
+              3,
+              0,
+              111,
+              182
+            ],
+            "annotation_json": "tmp/extraction-work/continuation-20261010/mkg-dc00101865--seated-man-pulling-looped-cord--refined-original-native-audit.json",
+            "trimap_png": "tmp/extraction-work/continuation-20261010/mkg-dc00101865--seated-man-pulling-looped-cord--refined-original-native-trimap.png",
+            "export_crop_coordinate_space": "original-native-source-region",
+            "native_refinement": {
+              "method": "Complete original source-native contacting figure group; disconnected glyph, gourd and plate fragments removed by inspected ownership. The entire contacted animal-headed finial stays with the upper putto. The seated man keeps the complete original leg and visible foot recovered by expanding the native source input, as well as his held loop/pendant. Pale figure surfaces are opaque; real openings remain transparent. Two-native-pixel continuous edge alpha, original source RGB/proportions, no redraw, restore of hidden anatomy, vector or upscale.",
+              "source": "tmp/extraction-work/continuation-20261010/mkg-dc00101865--seated-man-pulling-looped-cord--original.png",
+              "previous_native_matte": {
+                "native_source_size": [
+                  121,
+                  164
+                ],
+                "native_upscaling": false,
+                "original_opaque_rgb_preserved": true,
+                "status": "awaiting-original-white-dark-review",
+                "candidate_png": "tmp/extraction-work/continuation-20261010/mkg-dc00101865--seated-man-pulling-looped-cord--refined-original-native-candidate.png",
+                "native_export_crop": [
+                  4,
+                  2,
+                  109,
+                  154
+                ],
+                "annotation_json": "tmp/extraction-work/continuation-20261010/mkg-dc00101865--seated-man-pulling-looped-cord--refined-original-native-audit.json",
+                "trimap_png": "tmp/extraction-work/continuation-20261010/mkg-dc00101865--seated-man-pulling-looped-cord--refined-original-native-trimap.png",
+                "export_crop_coordinate_space": "original-native-source-region",
+                "native_refinement": {
+                  "method": "Source-only native semantic ownership retains the complete original subject. Its actual pale surfaces and original engraved print shading are opaque, with measured original ink cores protecting narrow native strokes. Individually inspected large alphabetic strokes and neighboring motifs are excluded. Original JPEG RGB and native proportions; one-pixel continuous alpha, no source upscale or invented recovered detail. The tiny scan limits source detail, so no redraw/vector enlargement is supplied.",
+                  "source": "tmp/extraction-work/continuation-20261010/mkg-dc00101865--seated-man-pulling-looped-cord--original.png",
+                  "previous_native_matte": {
+                    "native_source_size": [
+                      121,
+                      164
+                    ],
+                    "native_upscaling": false,
+                    "original_opaque_rgb_preserved": true,
+                    "status": "awaiting-original-white-dark-review"
+                  },
+                  "unknown_band_native_pixels": 1,
+                  "source_rgb_redrawn": false,
+                  "source_resized": false,
+                  "original_opaque_rgb_preserved": true,
+                  "ownership": "tmp/extraction-work/continuation-20261010/mkg-dc00101865--seated-man-pulling-looped-cord--refined-original-native-ownership.png",
+                  "ownership_sha256": "591ed3481b231113ef8e8bfabbfddabb88b865098386010c101c175f072f3763",
+                  "native_semantic_mask_choice": 0,
+                  "native_ownership_audit": "tmp/extraction-work/continuation-20261010/mkg01865-native-figures-and-masks-ownership-audit.json",
+                  "source_original_dimensions": [
+                    364,
+                    500
+                  ],
+                  "intrinsic_surface_fill": "All enclosed face print surfaces; only figure texture holes smaller than 45 original pixels."
+                }
+              },
+              "unknown_band_native_pixels": 2,
+              "source_rgb_redrawn": false,
+              "source_resized": false,
+              "original_opaque_rgb_preserved": true,
+              "ownership": "tmp/extraction-work/continuation-20261010/mkg-dc00101865--seated-man-pulling-looped-cord--refined-original-native-ownership.png",
+              "ownership_sha256": "6e547fa63433102e23998232118ce1a18c7a79bd4ccf9546a5158f642079d381",
+              "source_native_intrinsic_surface_polygons": [
+                [
+                  [
+                    218,
+                    317
+                  ],
+                  [
+                    211,
+                    334
+                  ],
+                  [
+                    203,
+                    349
+                  ],
+                  [
+                    195,
+                    365
+                  ],
+                  [
+                    192,
+                    377
+                  ],
+                  [
+                    198,
+                    379
+                  ],
+                  [
+                    198,
+                    382
+                  ],
+                  [
+                    189,
+                    384
+                  ],
+                  [
+                    181,
+                    382
+                  ],
+                  [
+                    181,
+                    374
+                  ],
+                  [
+                    185,
+                    359
+                  ],
+                  [
+                    192,
+                    342
+                  ],
+                  [
+                    200,
+                    328
+                  ],
+                  [
+                    205,
+                    315
+                  ]
+                ]
+              ],
+              "native_original_coordinate_evidence": "tmp/extraction-work/continuation-20261010/mkg01865-complete-man-and-leg-native-coordinate-detail.jpg"
+            }
+          }
+        },
+        "fine_original_ink_recovery": {
+          "previous_native_matte": {
+            "native_source_size": [
+              121,
+              187
+            ],
+            "native_upscaling": false,
+            "original_opaque_rgb_preserved": true,
+            "status": "awaiting-original-white-dark-review",
+            "candidate_png": "tmp/extraction-work/continuation-20261010/mkg-dc00101865--seated-man-pulling-looped-cord--refined-original-native-candidate.png",
+            "native_export_crop": [
+              4,
+              2,
+              110,
+              180
+            ],
+            "annotation_json": "tmp/extraction-work/continuation-20261010/mkg-dc00101865--seated-man-pulling-looped-cord--refined-original-native-audit.json",
+            "trimap_png": "tmp/extraction-work/continuation-20261010/mkg-dc00101865--seated-man-pulling-looped-cord--refined-original-native-trimap.png",
+            "export_crop_coordinate_space": "original-native-source-region",
+            "native_refinement": {
+              "method": "The complete native man, original foot and pendant are retained. The actual held loop is recovered from the unchanged original fine engraved stroke, with explicit native ink ownership preventing its removal by an erosion band. Only the source-visible alphabetic oval-field fragment adjacent to the loop is excluded. Genuine loop opening is transparent; no cord extension, hidden anatomy, source upscale or redraw.",
+              "source": "tmp/extraction-work/continuation-20261010/mkg-dc00101865--seated-man-pulling-looped-cord--original.png",
+              "previous_native_matte": {
+                "native_source_size": [
+                  121,
+                  187
+                ],
+                "native_upscaling": false,
+                "original_opaque_rgb_preserved": true,
+                "status": "awaiting-original-white-dark-review",
+                "candidate_png": "tmp/extraction-work/continuation-20261010/mkg-dc00101865--seated-man-pulling-looped-cord--refined-original-native-candidate.png",
+                "native_export_crop": [
+                  3,
+                  0,
+                  111,
+                  182
+                ],
+                "annotation_json": "tmp/extraction-work/continuation-20261010/mkg-dc00101865--seated-man-pulling-looped-cord--refined-original-native-audit.json",
+                "trimap_png": "tmp/extraction-work/continuation-20261010/mkg-dc00101865--seated-man-pulling-looped-cord--refined-original-native-trimap.png",
+                "export_crop_coordinate_space": "original-native-source-region",
+                "native_refinement": {
+                  "method": "Complete original source-native contacting figure group; disconnected glyph, gourd and plate fragments removed by inspected ownership. The entire contacted animal-headed finial stays with the upper putto. The seated man keeps the complete original leg and visible foot recovered by expanding the native source input, as well as his held loop/pendant. Pale figure surfaces are opaque; real openings remain transparent. Two-native-pixel continuous edge alpha, original source RGB/proportions, no redraw, restore of hidden anatomy, vector or upscale.",
+                  "source": "tmp/extraction-work/continuation-20261010/mkg-dc00101865--seated-man-pulling-looped-cord--original.png",
+                  "previous_native_matte": {
+                    "native_source_size": [
+                      121,
+                      164
+                    ],
+                    "native_upscaling": false,
+                    "original_opaque_rgb_preserved": true,
+                    "status": "awaiting-original-white-dark-review",
+                    "candidate_png": "tmp/extraction-work/continuation-20261010/mkg-dc00101865--seated-man-pulling-looped-cord--refined-original-native-candidate.png",
+                    "native_export_crop": [
+                      4,
+                      2,
+                      109,
+                      154
+                    ],
+                    "annotation_json": "tmp/extraction-work/continuation-20261010/mkg-dc00101865--seated-man-pulling-looped-cord--refined-original-native-audit.json",
+                    "trimap_png": "tmp/extraction-work/continuation-20261010/mkg-dc00101865--seated-man-pulling-looped-cord--refined-original-native-trimap.png",
+                    "export_crop_coordinate_space": "original-native-source-region",
+                    "native_refinement": {
+                      "method": "Source-only native semantic ownership retains the complete original subject. Its actual pale surfaces and original engraved print shading are opaque, with measured original ink cores protecting narrow native strokes. Individually inspected large alphabetic strokes and neighboring motifs are excluded. Original JPEG RGB and native proportions; one-pixel continuous alpha, no source upscale or invented recovered detail. The tiny scan limits source detail, so no redraw/vector enlargement is supplied.",
+                      "source": "tmp/extraction-work/continuation-20261010/mkg-dc00101865--seated-man-pulling-looped-cord--original.png",
+                      "previous_native_matte": {
+                        "native_source_size": [
+                          121,
+                          164
+                        ],
+                        "native_upscaling": false,
+                        "original_opaque_rgb_preserved": true,
+                        "status": "awaiting-original-white-dark-review"
+                      },
+                      "unknown_band_native_pixels": 1,
+                      "source_rgb_redrawn": false,
+                      "source_resized": false,
+                      "original_opaque_rgb_preserved": true,
+                      "ownership": "tmp/extraction-work/continuation-20261010/mkg-dc00101865--seated-man-pulling-looped-cord--refined-original-native-ownership.png",
+                      "ownership_sha256": "591ed3481b231113ef8e8bfabbfddabb88b865098386010c101c175f072f3763",
+                      "native_semantic_mask_choice": 0,
+                      "native_ownership_audit": "tmp/extraction-work/continuation-20261010/mkg01865-native-figures-and-masks-ownership-audit.json",
+                      "source_original_dimensions": [
+                        364,
+                        500
+                      ],
+                      "intrinsic_surface_fill": "All enclosed face print surfaces; only figure texture holes smaller than 45 original pixels."
+                    }
+                  },
+                  "unknown_band_native_pixels": 2,
+                  "source_rgb_redrawn": false,
+                  "source_resized": false,
+                  "original_opaque_rgb_preserved": true,
+                  "ownership": "tmp/extraction-work/continuation-20261010/mkg-dc00101865--seated-man-pulling-looped-cord--refined-original-native-ownership.png",
+                  "ownership_sha256": "6e547fa63433102e23998232118ce1a18c7a79bd4ccf9546a5158f642079d381",
+                  "source_native_intrinsic_surface_polygons": [
+                    [
+                      [
+                        218,
+                        317
+                      ],
+                      [
+                        211,
+                        334
+                      ],
+                      [
+                        203,
+                        349
+                      ],
+                      [
+                        195,
+                        365
+                      ],
+                      [
+                        192,
+                        377
+                      ],
+                      [
+                        198,
+                        379
+                      ],
+                      [
+                        198,
+                        382
+                      ],
+                      [
+                        189,
+                        384
+                      ],
+                      [
+                        181,
+                        382
+                      ],
+                      [
+                        181,
+                        374
+                      ],
+                      [
+                        185,
+                        359
+                      ],
+                      [
+                        192,
+                        342
+                      ],
+                      [
+                        200,
+                        328
+                      ],
+                      [
+                        205,
+                        315
+                      ]
+                    ]
+                  ],
+                  "native_original_coordinate_evidence": "tmp/extraction-work/continuation-20261010/mkg01865-complete-man-and-leg-native-coordinate-detail.jpg"
+                }
+              },
+              "unknown_band_native_pixels": 1,
+              "source_rgb_redrawn": false,
+              "source_resized": false,
+              "original_opaque_rgb_preserved": true,
+              "ownership": "tmp/extraction-work/continuation-20261010/mkg-dc00101865--seated-man-pulling-looped-cord--refined-original-native-ownership.png",
+              "ownership_sha256": "93b72e214d75651d2256898366ef997f91ea057819800c0f2d98815770426f1b",
+              "inspected_held_loop_source_polyline": [
+                [
+                  233,
+                  237
+                ],
+                [
+                  235,
+                  243
+                ],
+                [
+                  236,
+                  254
+                ],
+                [
+                  238,
+                  263
+                ],
+                [
+                  242,
+                  266
+                ],
+                [
+                  245,
+                  263
+                ],
+                [
+                  246,
+                  257
+                ],
+                [
+                  244,
+                  249
+                ],
+                [
+                  240,
+                  245
+                ],
+                [
+                  235,
+                  240
+                ]
+              ],
+              "native_source_ink_rule_only_near_actual_loop": "gray<180 inside three-native-pixel inspected line scope",
+              "prior_native_matte": {
+                "native_source_size": [
+                  121,
+                  187
+                ],
+                "native_upscaling": false,
+                "original_opaque_rgb_preserved": true,
+                "status": "awaiting-original-white-dark-review",
+                "candidate_png": "tmp/extraction-work/continuation-20261010/mkg-dc00101865--seated-man-pulling-looped-cord--refined-original-native-candidate.png",
+                "native_export_crop": [
+                  3,
+                  0,
+                  111,
+                  182
+                ],
+                "annotation_json": "tmp/extraction-work/continuation-20261010/mkg-dc00101865--seated-man-pulling-looped-cord--refined-original-native-audit.json",
+                "trimap_png": "tmp/extraction-work/continuation-20261010/mkg-dc00101865--seated-man-pulling-looped-cord--refined-original-native-trimap.png",
+                "export_crop_coordinate_space": "original-native-source-region",
+                "native_refinement": {
+                  "method": "Complete original source-native contacting figure group; disconnected glyph, gourd and plate fragments removed by inspected ownership. The entire contacted animal-headed finial stays with the upper putto. The seated man keeps the complete original leg and visible foot recovered by expanding the native source input, as well as his held loop/pendant. Pale figure surfaces are opaque; real openings remain transparent. Two-native-pixel continuous edge alpha, original source RGB/proportions, no redraw, restore of hidden anatomy, vector or upscale.",
+                  "source": "tmp/extraction-work/continuation-20261010/mkg-dc00101865--seated-man-pulling-looped-cord--original.png",
+                  "previous_native_matte": {
+                    "native_source_size": [
+                      121,
+                      164
+                    ],
+                    "native_upscaling": false,
+                    "original_opaque_rgb_preserved": true,
+                    "status": "awaiting-original-white-dark-review",
+                    "candidate_png": "tmp/extraction-work/continuation-20261010/mkg-dc00101865--seated-man-pulling-looped-cord--refined-original-native-candidate.png",
+                    "native_export_crop": [
+                      4,
+                      2,
+                      109,
+                      154
+                    ],
+                    "annotation_json": "tmp/extraction-work/continuation-20261010/mkg-dc00101865--seated-man-pulling-looped-cord--refined-original-native-audit.json",
+                    "trimap_png": "tmp/extraction-work/continuation-20261010/mkg-dc00101865--seated-man-pulling-looped-cord--refined-original-native-trimap.png",
+                    "export_crop_coordinate_space": "original-native-source-region",
+                    "native_refinement": {
+                      "method": "Source-only native semantic ownership retains the complete original subject. Its actual pale surfaces and original engraved print shading are opaque, with measured original ink cores protecting narrow native strokes. Individually inspected large alphabetic strokes and neighboring motifs are excluded. Original JPEG RGB and native proportions; one-pixel continuous alpha, no source upscale or invented recovered detail. The tiny scan limits source detail, so no redraw/vector enlargement is supplied.",
+                      "source": "tmp/extraction-work/continuation-20261010/mkg-dc00101865--seated-man-pulling-looped-cord--original.png",
+                      "previous_native_matte": {
+                        "native_source_size": [
+                          121,
+                          164
+                        ],
+                        "native_upscaling": false,
+                        "original_opaque_rgb_preserved": true,
+                        "status": "awaiting-original-white-dark-review"
+                      },
+                      "unknown_band_native_pixels": 1,
+                      "source_rgb_redrawn": false,
+                      "source_resized": false,
+                      "original_opaque_rgb_preserved": true,
+                      "ownership": "tmp/extraction-work/continuation-20261010/mkg-dc00101865--seated-man-pulling-looped-cord--refined-original-native-ownership.png",
+                      "ownership_sha256": "591ed3481b231113ef8e8bfabbfddabb88b865098386010c101c175f072f3763",
+                      "native_semantic_mask_choice": 0,
+                      "native_ownership_audit": "tmp/extraction-work/continuation-20261010/mkg01865-native-figures-and-masks-ownership-audit.json",
+                      "source_original_dimensions": [
+                        364,
+                        500
+                      ],
+                      "intrinsic_surface_fill": "All enclosed face print surfaces; only figure texture holes smaller than 45 original pixels."
+                    }
+                  },
+                  "unknown_band_native_pixels": 2,
+                  "source_rgb_redrawn": false,
+                  "source_resized": false,
+                  "original_opaque_rgb_preserved": true,
+                  "ownership": "tmp/extraction-work/continuation-20261010/mkg-dc00101865--seated-man-pulling-looped-cord--refined-original-native-ownership.png",
+                  "ownership_sha256": "6e547fa63433102e23998232118ce1a18c7a79bd4ccf9546a5158f642079d381",
+                  "source_native_intrinsic_surface_polygons": [
+                    [
+                      [
+                        218,
+                        317
+                      ],
+                      [
+                        211,
+                        334
+                      ],
+                      [
+                        203,
+                        349
+                      ],
+                      [
+                        195,
+                        365
+                      ],
+                      [
+                        192,
+                        377
+                      ],
+                      [
+                        198,
+                        379
+                      ],
+                      [
+                        198,
+                        382
+                      ],
+                      [
+                        189,
+                        384
+                      ],
+                      [
+                        181,
+                        382
+                      ],
+                      [
+                        181,
+                        374
+                      ],
+                      [
+                        185,
+                        359
+                      ],
+                      [
+                        192,
+                        342
+                      ],
+                      [
+                        200,
+                        328
+                      ],
+                      [
+                        205,
+                        315
+                      ]
+                    ]
+                  ],
+                  "native_original_coordinate_evidence": "tmp/extraction-work/continuation-20261010/mkg01865-complete-man-and-leg-native-coordinate-detail.jpg"
+                }
+              }
+            }
+          },
+          "foreground_protection": "Every retained subject pixel with alpha>=8 is left byte unchanged. Fine source ink is recovered only in genuine missing/background pixels; never replace skin, clothes, bulb interiors, hands or earlier foreground edges.",
+          "source_native_thin_stroke_polylines": [
+            [
+              [
+                235,
+                243
+              ],
+              [
+                236,
+                250
+              ],
+              [
+                237,
+                259
+              ],
+              [
+                239,
+                265
+              ],
+              [
+                243,
+                267
+              ],
+              [
+                246,
+                264
+              ],
+              [
+                247,
+                257
+              ],
+              [
+                244,
+                249
+              ],
+              [
+                241,
+                245
+              ]
+            ],
+            [
+              [
+                227,
+                239
+              ],
+              [
+                226,
+                250
+              ],
+              [
+                226,
+                260
+              ],
+              [
+                226,
+                270
+              ]
+            ]
+          ],
+          "method": "Individually inspected original faint curled/looped strokes use continuous measured ink coverage against a local 13-native-pixel paper estimate. Only their three-native-pixel ownership collars change; opaque actor/bulb/RGB surfaces and all earlier true openings remain unchanged. Native dimensions and proportions, no replacement stroke/path or source upscale.",
+          "measured_source_ink_rgb": [
+            66,
+            58,
+            41
+          ],
+          "minimum_visible_coverage": 0.045,
+          "rgb_modified_in_fine_stroke_collars_only": "Measured source ink tone replaces mixed paper/ink RGB so the source stroke remains natural on arbitrary backgrounds."
+        },
+        "tool": "Original native scan / closed-form edge alpha and foreground decontamination",
+        "pixel_exact": false
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Compared all four complete source-visible groups at native coordinate detail and white/dark. Putto stays with the complete contacted animal-headed finial and its recovered real rounded terminal; seated man keeps his original lower leg/foot, held loop, stem and pendant. Bulbs retain full opaque surfaces, curled source stems and original engraved shading. Trophy keeps all source-visible slender implements, ribbon folds, foliate plume and leaf tips; separate glyph tassel/large letter curves are excluded. Original RGB/proportions remain at native 364×500 source scale. Fine faint loops use measured native ink coverage only in originally missing/background pixels; retained actor/bulb pixels are unchanged. No unreviewed generated redraw or vector trial supplied.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/mkg01865-final-four-native-groups-original-white-dark-review.jpg",
+          "tmp/extraction-work/continuation-20261010/mkg01865-actual-whole-animal-finial-source-native-join-coordinates.jpg",
+          "tmp/extraction-work/continuation-20261010/mkg01865-complete-man-and-leg-native-coordinate-detail.jpg"
+        ]
+      },
+      "categories": [
+        "humans"
+      ],
+      "subjects": [
+        "man",
+        "cord",
+        "pendant"
+      ],
+      "colors": [
+        "black",
+        "brown",
+        "cream"
+      ],
+      "facing": "right",
+      "composition": "single-figure",
+      "usage_notes": "Independent ornament isolated from the capital B; original source is only 364x500 pixels, so no source upscaling or claimed recovered detail. Exact original, source bounds, processing and guide retained. Large letter framework and unrelated motifs excluded.",
+      "sets": [
+        {
+          "id": "mkg-dc00101865-set",
+          "name": "De Bry B alphabet ornaments",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A seated man pulling a looped cord with a small hanging foliate pendant.",
+      "set_label": "De Bry B alphabet ornaments"
+    },
+    {
+      "id": "mkg-dc00101865--small-bird-flying-left",
+      "name": "small-bird-flying-left",
+      "source_id": "mkg-dc00101865",
+      "source_folder": "mkg-hamburg",
+      "asset_type": "illustration",
+      "description": "A small left-facing bird with spread feathered wings, extracted from a decorated initial. Part of the De Bry B alphabet ornaments set.",
+      "source_region": [
+        207,
+        135,
+        293,
+        171
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        3,
+        0,
+        74,
+        32
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 71,
+      "height": 32,
+      "png": "mkg-hamburg/mkg-dc00101865--small-bird-flying-left.png",
+      "png_sha256": "c55a3717b8f901aca3dc5fff7bc854c5071b7bf72179a30d8b515d43ad68e570",
+      "provenance": {
+        "institution": "Museum für Kunst und Gewerbe Hamburg",
+        "title": "Der Buchstabe B, Blatt aus der Folge \"Nova Alphati Effictio Historiis\"",
+        "object_identifier": "O1913.136",
+        "date": "1595",
+        "artist": "Bry, Johann Theodor de",
+        "record_url": "https://www.mkg-hamburg.de/en/object/dc00101865",
+        "image_rights": "Public Domain Mark 1.0; object image marked Public Domain",
+        "rights_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "source_file": "tmp/new-assets/mkg-hamburg/mkg-dc00101865--der-buchstabe-b-blatt-aus-der-folge-nova-alphati-effictio-historiis.jpg",
+        "source_sha256": "940798d28cbab372ff44c3b25d8e0fe4e9b6b86f816ef6190d2c12385ab60b43",
+        "source_metadata": "tmp/new-assets/mkg-hamburg/mkg-dc00101865.json",
+        "image_url": "https://www.mkg-hamburg.de/en/object/dc00101865/image-download/0",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. ONLY the original small flying bird with left-pointing beak, raised wings and little feet, at the middle right. Remove the letter's curved stroke and any little ornamental connectors. Preserve the source-visible bird, without extending its very fine feathers. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_extraction": "tmp/extraction-work/mkg-dc00101865--small-bird-flying-left--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "f300fbecd0224eb1b08a990bcdf95026cc0c48a44402fa8fcbc5148931f4df82",
+        "retained_generated_size": [
+          1938,
+          811
+        ],
+        "resolution_cap_scale": 0.039301310043668124,
+        "resolution_capped_size": [
+          76,
+          32
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          77,
+          27
+        ],
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 0
+        },
+        "native_subject_size_evidence": {
+          "method": "Individually inspected visible original subject bounds, excluding ROI whitespace and neighbouring entities.",
+          "preview_subject_bounds": [
+            209,
+            138,
+            286,
+            165
+          ],
+          "preview_size": [
+            364,
+            500
+          ],
+          "original_size": [
+            364,
+            500
+          ]
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Original native subject bounds and source/white/dark compared. Complete actual original bird wings and beaks retained, with opaque pale engraved surfaces and no neighbouring leaf. Tiny Hamburg bird and bouquet retain original resolution caps; no invented source detail. The incomplete hoofed animal and unsupported long weapon/tassel connector were rejected and removed.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/eight-independent-generated-results-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/eight-independent-generated-results-proof-2.jpg"
+        ]
+      },
+      "categories": [
+        "animals"
+      ],
+      "subjects": [
+        "bird",
+        "wing",
+        "tail",
+        "beak"
+      ],
+      "colors": [
+        "brown",
+        "cream"
+      ],
+      "facing": "left",
+      "composition": "standalone",
+      "usage_notes": "Original independent specimen with printed plate rules and page removed. AI-assisted extraction remains approximate; source bounds, actual native subject cap, original and exact prompt retained.",
+      "sets": [
+        {
+          "id": "mkg-dc00101865-set",
+          "name": "De Bry B alphabet ornaments",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A small left-facing bird with spread feathered wings, extracted from a decorated initial.",
+      "set_label": "De Bry B alphabet ornaments"
+    },
+    {
+      "id": "mkg-dc00101865--sunburst-rays-with-open-center",
+      "name": "sunburst-rays-with-open-center",
+      "source_id": "mkg-dc00101865",
+      "source_folder": "mkg-hamburg",
+      "asset_type": "decoration",
+      "description": "Faded original engraved sunburst rays with an open center. Part of the De Bry B alphabet ornaments set.",
+      "source_region": [
+        209,
+        39,
+        314,
+        119
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        0,
+        0,
+        105,
+        80
+      ],
+      "export_crop_coordinate_space": "source-region",
+      "width": 105,
+      "height": 80,
+      "png": "mkg-hamburg/mkg-dc00101865--sunburst-rays-with-open-center.png",
+      "png_sha256": "522bdaaa716ae2cfb62959ada3d0eb63efffbdb76577588a31da7b604bf212c2",
+      "provenance": {
+        "institution": "Museum für Kunst und Gewerbe Hamburg",
+        "title": "Der Buchstabe B, Blatt aus der Folge \"Nova Alphati Effictio Historiis\"",
+        "object_identifier": "O1913.136",
+        "date": "1595",
+        "artist": "Bry, Johann Theodor de",
+        "record_url": "https://www.mkg-hamburg.de/en/object/dc00101865",
+        "image_rights": "Public Domain Mark 1.0; object image marked Public Domain",
+        "rights_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "source_file": "tmp/new-assets/mkg-hamburg/mkg-dc00101865--der-buchstabe-b-blatt-aus-der-folge-nova-alphati-effictio-historiis.jpg",
+        "source_sha256": "940798d28cbab372ff44c3b25d8e0fe4e9b6b86f816ef6190d2c12385ab60b43",
+        "source_metadata": "tmp/new-assets/mkg-hamburg/mkg-dc00101865.json",
+        "image_url": "https://www.mkg-hamburg.de/en/object/dc00101865/image-download/0",
+        "method": "native-continuous-ink-matting"
+      },
+      "extraction": {
+        "method": "Native-resolution continuous printed-ray coverage after locally measured paper removal; PNG appearance master.",
+        "source_pixels_repainted": false,
+        "source_rgb_modified": "Paper removed by measured ink coverage; RGB is the scan-measured ink tone, not an exact source-pixel crop.",
+        "paper_kernel": 45,
+        "minimum_coverage": 0.045,
+        "minimum_component_pixels": 1,
+        "settings": {
+          "paper_kernel": 45,
+          "minimum_coverage": 0.045,
+          "minimum_component_pixels": 1,
+          "skip_vector_trial": true
+        },
+        "exclude_regions": [],
+        "export_crop": [
+          0,
+          0,
+          105,
+          80
+        ],
+        "ink_color": [
+          94,
+          85,
+          62
+        ],
+        "candidate_png": "tmp/extraction-work/mkg-dc00101865--sunburst-rays-with-open-center--ink-candidate.png",
+        "status": "awaiting-native-and-vector-visual-review",
+        "native_support": {
+          "file": "tmp/extraction-work/continuation-20261010/mkg-dc00101865--sunburst-rays-with-open-center--source-radial-ink-scope.png",
+          "sha256": "064d09932c243064108c0ef4c38ee04e379abf7e2cded7d7a710bc2573be5a62",
+          "method": "Native-coordinate bitmap ownership support; original continuous printed ink coverage retained."
+        },
+        "tool": "Native source ink analysis",
+        "source_pixels_redrawn": false
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Source/native/light/dark comparison reviewed. The urn/plume and both distinct small carved masks retain original native JPEG pixels and opaque intrinsic surfaces; supporting letter framework is excluded. The sunburst retains the actual source-faded radial ink with the central lettering and paper removed, using measured native print coverage. All remain small according to the real 364x500 source; no new detail, upscaling or vector replacement. Both masks are distinct original renders, not duplicate copies.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/mkg01865-four-independent-decorations-native-final-review.jpg",
+          "tmp/extraction-work/continuation-20261010/mkg01865-whole-original-native-coordinate-audit.png"
+        ]
+      },
+      "categories": [
+        "geometric"
+      ],
+      "subjects": [
+        "sunburst",
+        "ray"
+      ],
+      "colors": [
+        "brown",
+        "gray"
+      ],
+      "facing": "front",
+      "composition": "single-ornament",
+      "usage_notes": "Original printed radial strokes isolated from paper; the central lettering is excluded. The source is a 364x500 scan, with only 105x80 native pixels in this input, and retains its original fading. No redrawn rays, invented symmetry, upscale, generic sunburst or inferred repeat. Original native ink coverage is represented using measured print tone; no unsupported SVG.",
+      "sets": [
+        {
+          "id": "mkg-dc00101865-set",
+          "name": "De Bry B alphabet ornaments",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "Faded original engraved sunburst rays with an open center.",
+      "set_label": "De Bry B alphabet ornaments"
+    },
+    {
+      "id": "mkg-dc00101865--upper-grotesque-face-mask",
+      "name": "upper-grotesque-face-mask",
+      "source_id": "mkg-dc00101865",
+      "source_folder": "mkg-hamburg",
+      "asset_type": "decoration",
+      "description": "A small upper grotesque face mask. Part of the De Bry B alphabet ornaments set.",
+      "source_region": [
+        101,
+        252,
+        134,
+        294
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        4,
+        7,
+        33,
+        42
+      ],
+      "export_crop_coordinate_space": "original-native-source-region",
+      "width": 29,
+      "height": 35,
+      "png": "mkg-hamburg/mkg-dc00101865--upper-grotesque-face-mask.png",
+      "png_sha256": "c99a72d5d8673bac2870ab30f64246cedabaaad76436377e5fae16139ab0adcf",
+      "provenance": {
+        "institution": "Museum für Kunst und Gewerbe Hamburg",
+        "title": "Der Buchstabe B, Blatt aus der Folge \"Nova Alphati Effictio Historiis\"",
+        "object_identifier": "O1913.136",
+        "date": "1595",
+        "artist": "Bry, Johann Theodor de",
+        "record_url": "https://www.mkg-hamburg.de/en/object/dc00101865",
+        "image_rights": "Public Domain Mark 1.0; object image marked Public Domain",
+        "rights_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "source_file": "tmp/new-assets/mkg-hamburg/mkg-dc00101865--der-buchstabe-b-blatt-aus-der-folge-nova-alphati-effictio-historiis.jpg",
+        "source_sha256": "940798d28cbab372ff44c3b25d8e0fe4e9b6b86f816ef6190d2c12385ab60b43",
+        "source_metadata": "tmp/new-assets/mkg-hamburg/mkg-dc00101865.json",
+        "image_url": "https://www.mkg-hamburg.de/en/object/dc00101865/image-download/0",
+        "method": "native-source-continuous-edge-matting"
+      },
+      "extraction": {
+        "native_source_size": [
+          33,
+          42
+        ],
+        "native_upscaling": false,
+        "original_opaque_rgb_preserved": true,
+        "status": "awaiting-original-white-dark-review",
+        "candidate_png": "tmp/extraction-work/continuation-20261010/mkg-dc00101865--upper-grotesque-face-mask--refined-original-native-candidate.png",
+        "native_export_crop": [
+          4,
+          7,
+          33,
+          42
+        ],
+        "annotation_json": "tmp/extraction-work/continuation-20261010/mkg-dc00101865--upper-grotesque-face-mask--refined-original-native-audit.json",
+        "trimap_png": "tmp/extraction-work/continuation-20261010/mkg-dc00101865--upper-grotesque-face-mask--refined-original-native-trimap.png",
+        "export_crop_coordinate_space": "original-native-source-region",
+        "native_refinement": {
+          "method": "Source-only native semantic ownership retains the complete original subject. Its actual pale surfaces and original engraved print shading are opaque, with measured original ink cores protecting narrow native strokes. Individually inspected large alphabetic strokes and neighboring motifs are excluded. Original JPEG RGB and native proportions; one-pixel continuous alpha, no source upscale or invented recovered detail. The tiny scan limits source detail, so no redraw/vector enlargement is supplied.",
+          "source": "tmp/extraction-work/continuation-20261010/mkg-dc00101865--upper-grotesque-face-mask--original.png",
+          "previous_native_matte": {
+            "native_source_size": [
+              33,
+              42
+            ],
+            "native_upscaling": false,
+            "original_opaque_rgb_preserved": true,
+            "status": "awaiting-original-white-dark-review"
+          },
+          "unknown_band_native_pixels": 1,
+          "source_rgb_redrawn": false,
+          "source_resized": false,
+          "original_opaque_rgb_preserved": true,
+          "ownership": "tmp/extraction-work/continuation-20261010/mkg-dc00101865--upper-grotesque-face-mask--refined-original-native-ownership.png",
+          "ownership_sha256": "e350b922ab939f45fbed3e79c70b93cad59fecdd8fa7aef6c583626c66763873",
+          "native_semantic_mask_choice": 2,
+          "native_ownership_audit": "tmp/extraction-work/continuation-20261010/mkg01865-native-figures-and-masks-ownership-audit.json",
+          "source_original_dimensions": [
+            364,
+            500
+          ],
+          "intrinsic_surface_fill": "All enclosed face print surfaces; only figure texture holes smaller than 45 original pixels."
+        },
+        "tool": "Original native scan / closed-form edge alpha and foreground decontamination",
+        "pixel_exact": false
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Source/native/light/dark comparison reviewed. The urn/plume and both distinct small carved masks retain original native JPEG pixels and opaque intrinsic surfaces; supporting letter framework is excluded. The sunburst retains the actual source-faded radial ink with the central lettering and paper removed, using measured native print coverage. All remain small according to the real 364x500 source; no new detail, upscaling or vector replacement. Both masks are distinct original renders, not duplicate copies.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/mkg01865-four-independent-decorations-native-final-review.jpg",
+          "tmp/extraction-work/continuation-20261010/mkg01865-whole-original-native-coordinate-audit.png"
+        ]
+      },
+      "categories": [
+        "humans",
+        "hybrids"
+      ],
+      "subjects": [
+        "face",
+        "mask",
+        "grotesque"
+      ],
+      "colors": [
+        "black",
+        "brown",
+        "cream"
+      ],
+      "facing": "front",
+      "composition": "single-ornament",
+      "usage_notes": "Independent ornament isolated from the capital B; original source is only 364x500 pixels, so no source upscaling or claimed recovered detail. Exact original, source bounds, processing and guide retained. Large letter framework and unrelated motifs excluded.",
+      "sets": [
+        {
+          "id": "mkg-dc00101865-set",
+          "name": "De Bry B alphabet ornaments",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A small upper grotesque face mask.",
+      "set_label": "De Bry B alphabet ornaments"
+    },
+    {
+      "id": "mkg-dc00101865--urn-with-tall-curling-plume",
+      "name": "urn-with-tall-curling-plume",
+      "source_id": "mkg-dc00101865",
+      "source_folder": "mkg-hamburg",
+      "asset_type": "decoration",
+      "description": "An urn with a tall curling plume. Part of the De Bry B alphabet ornaments set.",
+      "source_region": [
+        262,
+        171,
+        327,
+        302
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        0,
+        0,
+        60,
+        126
+      ],
+      "export_crop_coordinate_space": "original-native-source-region",
+      "width": 60,
+      "height": 126,
+      "png": "mkg-hamburg/mkg-dc00101865--urn-with-tall-curling-plume.png",
+      "png_sha256": "0069a17ca795c1478d54e2033609f0bba78b233f762f0d68ca5ab9afc5743bdb",
+      "provenance": {
+        "institution": "Museum für Kunst und Gewerbe Hamburg",
+        "title": "Der Buchstabe B, Blatt aus der Folge \"Nova Alphati Effictio Historiis\"",
+        "object_identifier": "O1913.136",
+        "date": "1595",
+        "artist": "Bry, Johann Theodor de",
+        "record_url": "https://www.mkg-hamburg.de/en/object/dc00101865",
+        "image_rights": "Public Domain Mark 1.0; object image marked Public Domain",
+        "rights_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "source_file": "tmp/new-assets/mkg-hamburg/mkg-dc00101865--der-buchstabe-b-blatt-aus-der-folge-nova-alphati-effictio-historiis.jpg",
+        "source_sha256": "940798d28cbab372ff44c3b25d8e0fe4e9b6b86f816ef6190d2c12385ab60b43",
+        "source_metadata": "tmp/new-assets/mkg-hamburg/mkg-dc00101865.json",
+        "image_url": "https://www.mkg-hamburg.de/en/object/dc00101865/image-download/0",
+        "method": "native-source-continuous-edge-matting"
+      },
+      "extraction": {
+        "candidate_png": "tmp/extraction-work/continuation-20261010/mkg-dc00101865--urn-with-tall-curling-plume--refined-original-native-candidate.png",
+        "native_export_crop": [
+          0,
+          0,
+          60,
+          126
+        ],
+        "export_crop_coordinate_space": "original-native-source-region",
+        "annotation_json": "tmp/extraction-work/continuation-20261010/mkg-dc00101865--urn-with-tall-curling-plume--refined-original-native-audit.json",
+        "trimap_png": "tmp/extraction-work/continuation-20261010/mkg-dc00101865--urn-with-tall-curling-plume--refined-original-native-trimap.png",
+        "native_source_size": [
+          65,
+          131
+        ],
+        "native_upscaling": false,
+        "source_pixels_redrawn": false,
+        "original_opaque_rgb_preserved": true,
+        "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+        "alpha_guide": {
+          "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+          "guide_png": "tmp/extraction-work/continuation-20261010/mkg-dc00101865--urn-with-tall-curling-plume--native-alpha-reference.png",
+          "guide_sha256": "d65043b430db12b5db65643123130b00b2d015133ab49d8a690d8d84ce729fca",
+          "native_original": "tmp/extraction-work/continuation-20261010/mkg-dc00101865--urn-with-tall-curling-plume--original.png",
+          "similarity_ai_alpha_to_original": [
+            [
+              0.07320893909841418,
+              0.0009254900061813099,
+              -8.72690376437593
+            ],
+            [
+              -0.0009254900061813099,
+              0.07320893909841418,
+              3.5436472713805562
+            ]
+          ],
+          "matching_feature_pairs": 38,
+          "inlier_feature_pairs": 21,
+          "inlier_rms_native_pixels": 0.6541683672151629,
+          "source_inspection_factor": 1,
+          "unknown_edge_band_native_pixels": 1,
+          "edge_solve_tile_size": 640,
+          "edge_solve_halo": 32,
+          "edge_solve_tiles": 1,
+          "original_opaque_rgb_preserved": true
+        },
+        "status": "awaiting-original-white-dark-review",
+        "native_refinement": {
+          "method": "Complete original native curling plume and urn retained; the unrelated capital-letter support/crossbar and its side curls below original source row 291 are excluded. Native original opacity and print shading remain. The source guide registers with 21 inlier features and 0.65-native-pixel RMS. All delivered opaque RGB belongs to the untouched 364x500 source, with no enlargement, new pedestal or new plume detail.",
+          "source": "tmp/extraction-work/continuation-20261010/mkg-dc00101865--urn-with-tall-curling-plume--original.png",
+          "previous_native_matte": {
+            "candidate_png": "tmp/extraction-work/continuation-20261010/mkg-dc00101865--urn-with-tall-curling-plume--registered-native-candidate.png",
+            "native_export_crop": [
+              0,
+              0,
+              60,
+              131
+            ],
+            "export_crop_coordinate_space": "original-native-source-region",
+            "annotation_json": "tmp/extraction-work/continuation-20261010/mkg-dc00101865--urn-with-tall-curling-plume--registered-native-annotation.json",
+            "trimap_png": "tmp/extraction-work/continuation-20261010/mkg-dc00101865--urn-with-tall-curling-plume--registered-native-trimap.png",
+            "native_source_size": [
+              65,
+              131
+            ],
+            "native_upscaling": false,
+            "source_pixels_redrawn": false,
+            "original_opaque_rgb_preserved": true,
+            "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+            "alpha_guide": {
+              "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+              "guide_png": "tmp/extraction-work/continuation-20261010/mkg-dc00101865--urn-with-tall-curling-plume--native-alpha-reference.png",
+              "guide_sha256": "d65043b430db12b5db65643123130b00b2d015133ab49d8a690d8d84ce729fca",
+              "native_original": "tmp/extraction-work/continuation-20261010/mkg-dc00101865--urn-with-tall-curling-plume--original.png",
+              "similarity_ai_alpha_to_original": [
+                [
+                  0.07320893909841418,
+                  0.0009254900061813099,
+                  -8.72690376437593
+                ],
+                [
+                  -0.0009254900061813099,
+                  0.07320893909841418,
+                  3.5436472713805562
+                ]
+              ],
+              "matching_feature_pairs": 38,
+              "inlier_feature_pairs": 21,
+              "inlier_rms_native_pixels": 0.6541683672151629,
+              "source_inspection_factor": 1,
+              "unknown_edge_band_native_pixels": 1,
+              "edge_solve_tile_size": 640,
+              "edge_solve_halo": 32,
+              "edge_solve_tiles": 1,
+              "original_opaque_rgb_preserved": true
+            },
+            "status": "awaiting-original-white-dark-review"
+          },
+          "unknown_band_native_pixels": 1,
+          "source_rgb_redrawn": false,
+          "source_resized": false,
+          "original_opaque_rgb_preserved": true,
+          "ownership": "tmp/extraction-work/continuation-20261010/mkg-dc00101865--urn-with-tall-curling-plume--refined-original-native-ownership.png",
+          "ownership_sha256": "62f3b0d5d896aa862fbc8d4c27960ffa40b92ac95c82f3fc0b57db55c169b233",
+          "excluded_letter_support_from_original_source_y": 291,
+          "source_registered_guide_inliers": 21,
+          "source_registered_guide_rms_native_pixels": 0.65
+        },
+        "tool": "Original native scan / closed-form edge alpha and foreground decontamination",
+        "pixel_exact": false,
+        "ownership_guide_prompt": "Use case: background-extraction. Edit target: the referenced original Renaissance engraving crop. The small upright urn and its tall original curling plume above, retained as one decoration. Include the full vessel and its source-visible ornamental base. Exclude every structural stroke of the capital B, letter crossbar beneath the vessel, neighboring face mask and the page. Do not invent a new pedestal or interpret the plume as a new portrait. Preserve original proportions, source-visible contours, print shading and aged texture. Clear all surrounding paper and every genuine opening. Do not strengthen, modernize, simplify, beautify, add hidden parts, restore source-truncated ends, draw new lines or change the pose. Intrinsic pale subject surfaces remain opaque. Fine natural antialiased edges and actual transparent exterior; no paper rectangle, shadow or checkerboard.",
+        "retained_generated_ownership_guide": {
+          "file": "tmp/extraction-work/continuation-20261010/mkg-dc00101865--urn-with-tall-curling-plume--native-alpha-reference.png",
+          "sha256": "d65043b430db12b5db65643123130b00b2d015133ab49d8a690d8d84ce729fca",
+          "purpose": "Retained AI alpha guide only; delivered opaque RGB belongs to the unchanged native source."
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Source/native/light/dark comparison reviewed. The urn/plume and both distinct small carved masks retain original native JPEG pixels and opaque intrinsic surfaces; supporting letter framework is excluded. The sunburst retains the actual source-faded radial ink with the central lettering and paper removed, using measured native print coverage. All remain small according to the real 364x500 source; no new detail, upscaling or vector replacement. Both masks are distinct original renders, not duplicate copies.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/mkg01865-four-independent-decorations-native-final-review.jpg",
+          "tmp/extraction-work/continuation-20261010/mkg01865-whole-original-native-coordinate-audit.png"
+        ]
+      },
+      "categories": [
+        "scrollwork"
+      ],
+      "subjects": [
+        "urn",
+        "plume",
+        "scroll"
+      ],
+      "colors": [
+        "black",
+        "brown",
+        "cream"
+      ],
+      "facing": "unclear",
+      "composition": "single-ornament",
+      "usage_notes": "Independent ornament isolated from the capital B; original source is only 364x500 pixels, so no source upscaling or claimed recovered detail. Exact original, source bounds, processing and guide retained. Large letter framework and unrelated motifs excluded.",
+      "sets": [
+        {
+          "id": "mkg-dc00101865-set",
+          "name": "De Bry B alphabet ornaments",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "An urn with a tall curling plume.",
+      "set_label": "De Bry B alphabet ornaments"
+    },
+    {
+      "id": "mkg-dc00101865--winged-putto-with-contacted-animal-headed-finial",
+      "name": "winged-putto-with-contacted-animal-headed-finial",
+      "source_id": "mkg-dc00101865",
+      "source_folder": "mkg-hamburg",
+      "asset_type": "illustration",
+      "description": "One complete source-visible winged putto with draped cloth and a contacted animal-headed finial, including its whole rounded endpoint and the small hanging ornament. Part of the De Bry B alphabet ornaments set.",
+      "source_region": [
+        75,
+        40,
+        225,
+        185
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        3,
+        0,
+        150,
+        139
+      ],
+      "export_crop_coordinate_space": "original-native-source-region",
+      "width": 147,
+      "height": 139,
+      "png": "mkg-hamburg/mkg-dc00101865--winged-putto-with-contacted-animal-headed-finial.png",
+      "png_sha256": "e5bde2b2896e9cf01431532f1ad0216e806ec37e76db77f6d3387c3e5000ab19",
+      "provenance": {
+        "institution": "Museum für Kunst und Gewerbe Hamburg",
+        "title": "Der Buchstabe B, Blatt aus der Folge \"Nova Alphati Effictio Historiis\"",
+        "object_identifier": "O1913.136",
+        "date": "1595",
+        "artist": "Bry, Johann Theodor de",
+        "record_url": "https://www.mkg-hamburg.de/en/object/dc00101865",
+        "image_rights": "Public Domain Mark 1.0; object image marked Public Domain",
+        "rights_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "source_file": "tmp/new-assets/mkg-hamburg/mkg-dc00101865--der-buchstabe-b-blatt-aus-der-folge-nova-alphati-effictio-historiis.jpg",
+        "source_sha256": "940798d28cbab372ff44c3b25d8e0fe4e9b6b86f816ef6190d2c12385ab60b43",
+        "source_metadata": "tmp/new-assets/mkg-hamburg/mkg-dc00101865.json",
+        "image_url": "https://www.mkg-hamburg.de/en/object/dc00101865/image-download/0",
+        "method": "native-source-continuous-edge-matting"
+      },
+      "extraction": {
+        "native_source_size": [
+          150,
+          145
+        ],
+        "native_upscaling": false,
+        "original_opaque_rgb_preserved": true,
+        "status": "awaiting-original-white-dark-review",
+        "candidate_png": "tmp/extraction-work/continuation-20261010/mkg-dc00101865--winged-putto-with-outstretched-arms--refined-original-native-candidate.png",
+        "native_export_crop": [
+          3,
+          0,
+          150,
+          139
+        ],
+        "annotation_json": "tmp/extraction-work/continuation-20261010/mkg-dc00101865--winged-putto-with-outstretched-arms--refined-original-native-audit.json",
+        "trimap_png": "tmp/extraction-work/continuation-20261010/mkg-dc00101865--winged-putto-with-outstretched-arms--refined-original-native-trimap.png",
+        "export_crop_coordinate_space": "original-native-source-region",
+        "native_refinement": {
+          "method": "The complete original source-visible putto, garment, wings, hands and contacted animal-headed finial stay one group. The original rounded finial terminal is recovered from the actual expanded source input, ending at its real x218 contour rather than at the old input rectangle. The large alphabetic curve behind it remains excluded. Native original RGB/proportions and one-native-pixel continuous alpha; no invented endpoint, hidden anatomy, source enlargement or generated redraw.",
+          "source": "tmp/extraction-work/continuation-20261010/mkg-dc00101865--winged-putto-with-outstretched-arms--expanded-finial-native-original.png",
+          "previous_native_matte": {
+            "native_source_size": [
+              141,
+              145
+            ],
+            "native_upscaling": false,
+            "original_opaque_rgb_preserved": true,
+            "status": "awaiting-original-white-dark-review",
+            "candidate_png": "tmp/extraction-work/continuation-20261010/mkg-dc00101865--winged-putto-with-outstretched-arms--refined-original-native-candidate.png",
+            "native_export_crop": [
+              1,
+              0,
+              141,
+              140
+            ],
+            "annotation_json": "tmp/extraction-work/continuation-20261010/mkg-dc00101865--winged-putto-with-outstretched-arms--refined-original-native-audit.json",
+            "trimap_png": "tmp/extraction-work/continuation-20261010/mkg-dc00101865--winged-putto-with-outstretched-arms--refined-original-native-trimap.png",
+            "export_crop_coordinate_space": "original-native-source-region",
+            "native_refinement": {
+              "method": "Complete original source-native contacting figure group; disconnected glyph, gourd and plate fragments removed by inspected ownership. The entire contacted animal-headed finial stays with the upper putto. The seated man keeps the complete original leg and visible foot recovered by expanding the native source input, as well as his held loop/pendant. Pale figure surfaces are opaque; real openings remain transparent. Two-native-pixel continuous edge alpha, original source RGB/proportions, no redraw, restore of hidden anatomy, vector or upscale.",
+              "source": "tmp/extraction-work/continuation-20261010/mkg-dc00101865--winged-putto-with-outstretched-arms--original.png",
+              "previous_native_matte": {
+                "native_source_size": [
+                  141,
+                  145
+                ],
+                "native_upscaling": false,
+                "original_opaque_rgb_preserved": true,
+                "status": "awaiting-original-white-dark-review",
+                "candidate_png": "tmp/extraction-work/continuation-20261010/mkg-dc00101865--winged-putto-with-outstretched-arms--refined-original-native-candidate.png",
+                "native_export_crop": [
+                  0,
+                  0,
+                  141,
+                  144
+                ],
+                "annotation_json": "tmp/extraction-work/continuation-20261010/mkg-dc00101865--winged-putto-with-outstretched-arms--refined-original-native-audit.json",
+                "trimap_png": "tmp/extraction-work/continuation-20261010/mkg-dc00101865--winged-putto-with-outstretched-arms--refined-original-native-trimap.png",
+                "export_crop_coordinate_space": "original-native-source-region",
+                "native_refinement": {
+                  "method": "Source-only native semantic ownership retains the complete original subject. Its actual pale surfaces and original engraved print shading are opaque, with measured original ink cores protecting narrow native strokes. Individually inspected large alphabetic strokes and neighboring motifs are excluded. Original JPEG RGB and native proportions; one-pixel continuous alpha, no source upscale or invented recovered detail. The tiny scan limits source detail, so no redraw/vector enlargement is supplied.",
+                  "source": "tmp/extraction-work/continuation-20261010/mkg-dc00101865--winged-putto-with-outstretched-arms--original.png",
+                  "previous_native_matte": {
+                    "native_source_size": [
+                      141,
+                      145
+                    ],
+                    "native_upscaling": false,
+                    "original_opaque_rgb_preserved": true,
+                    "status": "awaiting-original-white-dark-review"
+                  },
+                  "unknown_band_native_pixels": 1,
+                  "source_rgb_redrawn": false,
+                  "source_resized": false,
+                  "original_opaque_rgb_preserved": true,
+                  "ownership": "tmp/extraction-work/continuation-20261010/mkg-dc00101865--winged-putto-with-outstretched-arms--refined-original-native-ownership.png",
+                  "ownership_sha256": "cbc54dcb9c88c5835dc5d4349a3c1085179ab4cd61a65a7ed537c0fa955be991",
+                  "native_semantic_mask_choice": 0,
+                  "native_ownership_audit": "tmp/extraction-work/continuation-20261010/mkg01865-native-figures-and-masks-ownership-audit.json",
+                  "source_original_dimensions": [
+                    364,
+                    500
+                  ],
+                  "intrinsic_surface_fill": "All enclosed face print surfaces; only figure texture holes smaller than 45 original pixels."
+                }
+              },
+              "unknown_band_native_pixels": 2,
+              "source_rgb_redrawn": false,
+              "source_resized": false,
+              "original_opaque_rgb_preserved": true,
+              "ownership": "tmp/extraction-work/continuation-20261010/mkg-dc00101865--winged-putto-with-outstretched-arms--refined-original-native-ownership.png",
+              "ownership_sha256": "d948b11fc9fa11575926124b1194c25b5b40d715f56448fa002c8f94152ef590",
+              "source_native_intrinsic_surface_polygons": [
+                [
+                  [
+                    91,
+                    105
+                  ],
+                  [
+                    101,
+                    105
+                  ],
+                  [
+                    111,
+                    109
+                  ],
+                  [
+                    106,
+                    113
+                  ],
+                  [
+                    96,
+                    114
+                  ],
+                  [
+                    86,
+                    115
+                  ],
+                  [
+                    86,
+                    111
+                  ]
+                ]
+              ],
+              "native_original_coordinate_evidence": "tmp/extraction-work/continuation-20261010/mkg01865-complete-man-and-leg-native-coordinate-detail.jpg"
+            }
+          },
+          "unknown_band_native_pixels": 1,
+          "source_rgb_redrawn": false,
+          "source_resized": false,
+          "original_opaque_rgb_preserved": true,
+          "ownership": "tmp/extraction-work/continuation-20261010/mkg-dc00101865--winged-putto-with-outstretched-arms--refined-original-native-ownership.png",
+          "ownership_sha256": "8bf6063fa231d7b3d7c2a8e6d3ef9cdc8f1168d27e975c1e4d90d3d3f1819ca3",
+          "native_original_finial_terminal_surface_polygon": [
+            [
+              210,
+              91
+            ],
+            [
+              216,
+              89
+            ],
+            [
+              219,
+              90
+            ],
+            [
+              219,
+              93
+            ],
+            [
+              217,
+              94
+            ],
+            [
+              213,
+              96
+            ],
+            [
+              207,
+              99
+            ],
+            [
+              204,
+              96
+            ]
+          ],
+          "original_finial_endpoint_recovery": {
+            "previous_native_source_bounds": [
+              75,
+              40,
+              216,
+              185
+            ],
+            "complete_native_source_bounds": [
+              75,
+              40,
+              225,
+              185
+            ],
+            "previous_native_candidate": "tmp/extraction-work/continuation-20261010/mkg-dc00101865--winged-putto-with-outstretched-arms--native-body-before-finial-endpoint-expansion.png",
+            "reason": "The original animal-headed finial’s rounded terminal reaches source x218, two pixels outside the previous x216 input. Expand the actual source input and recover only the original rounded terminal, without extending the large alphabetic curve behind it.",
+            "native_original_coordinate_proof": "tmp/extraction-work/continuation-20261010/mkg01865-actual-whole-animal-finial-source-native-join-coordinates.jpg"
+          }
+        },
+        "tool": "Original native scan / closed-form edge alpha and foreground decontamination",
+        "pixel_exact": false
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Compared all four complete source-visible groups at native coordinate detail and white/dark. Putto stays with the complete contacted animal-headed finial and its recovered real rounded terminal; seated man keeps his original lower leg/foot, held loop, stem and pendant. Bulbs retain full opaque surfaces, curled source stems and original engraved shading. Trophy keeps all source-visible slender implements, ribbon folds, foliate plume and leaf tips; separate glyph tassel/large letter curves are excluded. Original RGB/proportions remain at native 364×500 source scale. Fine faint loops use measured native ink coverage only in originally missing/background pixels; retained actor/bulb pixels are unchanged. No unreviewed generated redraw or vector trial supplied.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/mkg01865-final-four-native-groups-original-white-dark-review.jpg",
+          "tmp/extraction-work/continuation-20261010/mkg01865-actual-whole-animal-finial-source-native-join-coordinates.jpg",
+          "tmp/extraction-work/continuation-20261010/mkg01865-complete-man-and-leg-native-coordinate-detail.jpg"
+        ]
+      },
+      "categories": [
+        "humans",
+        "fantasy"
+      ],
+      "subjects": [
+        "putto",
+        "wing",
+        "cloth",
+        "finial",
+        "head",
+        "pendant"
+      ],
+      "colors": [
+        "black",
+        "brown",
+        "cream"
+      ],
+      "facing": "front",
+      "composition": "single-figure",
+      "usage_notes": "The original figure, held hanging ornament and contacted animal-headed finial remain one source-native group. The alphabetic framework and unrelated bulbs are excluded. The finial’s real rounded endpoint is recovered from the expanded original input; no missing body/letter/endpoint is invented. This source scan is only 364×500, so delivery stays native without fake vector detail or enlargement.",
+      "sets": [
+        {
+          "id": "mkg-dc00101865-set",
+          "name": "De Bry B alphabet ornaments",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "One complete source-visible winged putto with draped cloth and a contacted animal-headed finial, including its whole rounded endpoint and the small hanging ornament.",
+      "set_label": "De Bry B alphabet ornaments"
+    }
+  ]
+}

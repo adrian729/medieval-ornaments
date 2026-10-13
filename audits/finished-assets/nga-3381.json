@@ -1,0 +1,143 @@
+{
+  "source_id": "nga-3381",
+  "assets": [
+    {
+      "id": "nga-3381--acanthus-tree-of-jesse-with-crowned-figures",
+      "name": "acanthus-tree-of-jesse-with-crowned-figures",
+      "source_id": "nga-3381",
+      "source_folder": "national-gallery-of-art",
+      "asset_type": "decoration",
+      "description": "Connected Tree of Jesse acanthus ornament with its original crowned figures and reclining base figure.",
+      "source_region": [
+        0,
+        0,
+        4096,
+        1849
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        41,
+        14,
+        4045,
+        1755
+      ],
+      "export_crop_coordinate_space": "original-native-source-region",
+      "width": 4004,
+      "height": 1741,
+      "png": "national-gallery-of-art/nga-3381--acanthus-tree-of-jesse-with-crowned-figures.png",
+      "png_sha256": "1b5025c4b86a1cfd55636eb33079ea8debf2cc3a529f0b470f662810a42daa2d",
+      "provenance": {
+        "institution": "National Gallery of Art, Washington",
+        "title": "Ornament with the Tree of Jesse",
+        "object_identifier": "1943.3.169",
+        "date": "1445–1503 (catalog year range)",
+        "artist": "Israhel van Meckenem",
+        "record_url": "https://www.nga.gov/collection/art-object-page.3381.html",
+        "image_rights": "Open Access / public domain; official image dataset openaccess=1",
+        "rights_url": "https://www.nga.gov/artworks/free-images-and-open-access",
+        "source_file": "tmp/new-assets/national-gallery-of-art/nga-3381--ornament-with-the-tree-of-jesse.jpg",
+        "source_sha256": "3345d7d93ce11c98826b796d7ec97a071a0c90bbd58e317494cea8295af16a0e",
+        "source_metadata": "tmp/new-assets/national-gallery-of-art/nga-3381.json",
+        "image_url": "https://api.nga.gov/iiif/25bc216a-651b-4357-8dae-f2b1cfe675ce/full/full/0/default.jpg",
+        "method": "native-source-continuous-edge-matting"
+      },
+      "extraction": {
+        "candidate_png": "tmp/extraction-work/continuation-20261010/nga-3381--acanthus-tree-of-jesse-with-crowned-figures--registered-native-candidate.png",
+        "native_export_crop": [
+          41,
+          14,
+          4045,
+          1755
+        ],
+        "export_crop_coordinate_space": "original-native-source-region",
+        "annotation_json": "tmp/extraction-work/continuation-20261010/nga-3381--acanthus-tree-of-jesse-with-crowned-figures--registered-native-annotation.json",
+        "trimap_png": "tmp/extraction-work/continuation-20261010/nga-3381--acanthus-tree-of-jesse-with-crowned-figures--registered-native-trimap.png",
+        "native_source_size": [
+          4096,
+          1849
+        ],
+        "native_upscaling": false,
+        "source_pixels_redrawn": false,
+        "original_opaque_rgb_preserved": true,
+        "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+        "alpha_guide": {
+          "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+          "guide_png": "tmp/extraction-work/continuation-20261010/nga-3381--acanthus-tree-of-jesse-with-crowned-figures--native-alpha-reference.png",
+          "guide_sha256": "04edf7f0c8cd4e2cb67ba69390c52c0574da5f68526fbaa4f72a4cdc2ff49ab5",
+          "native_original": "tmp/extraction-work/continuation-20261010/nga-3381--acanthus-tree-of-jesse-with-crowned-figures--original.png",
+          "similarity_ai_alpha_to_original": [
+            [
+              2.193126709002347,
+              -0.00017873461713483325,
+              31.417387112106027
+            ],
+            [
+              0.00017873461713483325,
+              2.193126709002347,
+              2.0876245602931185
+            ]
+          ],
+          "matching_feature_pairs": 885,
+          "inlier_feature_pairs": 827,
+          "inlier_rms_native_pixels": 2.1259065491866793,
+          "source_inspection_factor": 0.439453125,
+          "unknown_edge_band_native_pixels": 3,
+          "edge_solve_tile_size": 640,
+          "edge_solve_halo": 32,
+          "edge_solve_tiles": 21,
+          "original_opaque_rgb_preserved": true
+        },
+        "status": "awaiting-original-white-dark-review",
+        "tool": "Original native scan / closed-form edge alpha and foreground decontamination",
+        "pixel_exact": false,
+        "ownership_guide_prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. Select ONLY the COMPLETE finite connected original foreground engraved ornament shown in this reference. Retain every source-visible acanthus curl, stem, leaf, petal, figure, head, hand, foot, claw, tail, wing, prop and instrument, including all original fine hatching within foreground surfaces. Keep contacting figures together with their required shared mounts/props and ornamental structure. Remove the uniform dark crosshatched field outside the ornament and inside every true opening between its curls or figures, but keep the original dark hatching within the pale foreground bodies opaque. Preserve original inscriptions on actual foreground ribbons/vessels as source artwork; remove only extrinsic signatures/date labels/page rules/paper around the design. Do not cut or redraw the original forehead, facial features, source-visible anatomy, hatching or feathery leaves. This is one finite original ornamental network, with no inferred seamless tile, generic frame corner, symmetry repair or modernized leaf shape. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_ownership_guide": {
+          "file": "tmp/extraction-work/nga-3381--acanthus-tree-of-jesse-with-crowned-figures--retained-ai-extraction.png",
+          "sha256": "174e9343b9b5640d03dc1a5b6663beb69b86f876776eaf808a76e76048d0a61d",
+          "purpose": "Retained AI alpha guide only; delivered opaque RGB belongs to the unchanged native source."
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Original/native white/dark comparisons inspected. Complete connected ornamental systems remain whole, including opaque source body surfaces, source print hatching and intrinsic roundel cloud scenes. Exterior printed field and true openings cleared with a three-native-pixel continuous source matte; original opaque RGB and native proportions retained. The separate NGA4342 date/monogram panel was removed along its original bounds; its occlusion was not repainted. No inaccurate vector or inferred repeat.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/connected-engraved-panel-tight-native-recipes-current-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/connected-engraved-panel-tight-native-recipes-current-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/nga-4342--candelabra-supported-by-two-blindfolded-women--latest-native-detail-proof.jpg"
+        ]
+      },
+      "categories": [
+        "floral",
+        "fantasy",
+        "humans"
+      ],
+      "subjects": [
+        "tree",
+        "crown",
+        "figure",
+        "robe",
+        "leaf",
+        "scroll"
+      ],
+      "colors": [
+        "black",
+        "cream",
+        "gray"
+      ],
+      "facing": "unclear",
+      "composition": "single-ornament",
+      "usage_notes": "Complete finite original engraved ornamental network. Actual contacting figures/props remain together. Native original source and exact AI ownership-guide prompt retained; no repeat or new frame corners inferred. Separate source-visible independent figures are considered in the source audit before source completion."
+    }
+  ]
+}

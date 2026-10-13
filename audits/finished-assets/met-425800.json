@@ -1,0 +1,1395 @@
+{
+  "source_id": "met-425800",
+  "assets": [
+    {
+      "id": "met-425800--battlefield-frieze-with-contacting-cavalry",
+      "name": "battlefield-frieze-with-contacting-cavalry",
+      "source_id": "met-425800",
+      "source_folder": "met",
+      "asset_type": "illustration",
+      "description": "A wide engraved battlefield scene with cavalry and foot soldiers. Part of the Livre Nouveau de Fleurs set.",
+      "source_region": [
+        78,
+        1666,
+        3253,
+        2316
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        0,
+        137,
+        2169,
+        580
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 2169,
+      "height": 443,
+      "png": "met/met-425800--battlefield-frieze-with-contacting-cavalry.png",
+      "png_sha256": "ddc9699cb429bec44000ce5a4163ea1832426d0c33d4ff614c0de3404990cfbf",
+      "provenance": {
+        "institution": "Metropolitan Museum of Art",
+        "title": "Horizontal Panel with a Row of Flowers Above a Frieze with a Battle Scene in a Landscape, from \"Livre Nouveau de Fleurs Tres-Util\"",
+        "object_identifier": "53.600.261(2)",
+        "date": "1645",
+        "artist": "Nicolas Cochin",
+        "record_url": "https://www.metmuseum.org/art/collection/search/425800",
+        "image_rights": "CC0 Open Access; isPublicDomain=true",
+        "rights_url": "https://www.metmuseum.org/policies/image-resources",
+        "source_file": "tmp/new-assets/met/met-425800--horizontal-panel-with-a-row-of-flowers-above-a-frieze-with-a-battle-scene-in-a-landscape-f.jpg",
+        "source_sha256": "7e84d06fe2968e5077a17f0b06051403374fbfab0ae1ee560d490284d78b7a23",
+        "source_metadata": "tmp/new-assets/met/met-425800.json",
+        "image_url": "https://images.metmuseum.org/CRDImages/dp/original/DP837397.jpg",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. Extract the whole intrinsic lower battlefield scene: original figures, horses, long flags, spears, smoke curls, fallen soldiers, terrain and plants connecting the scene. Remove surrounding blank paper/sky and all straight plate border/divider lines. Preserve original natural irregular scene contour, not a rectangle. Do not redraw the tiny original riders or invent details. Clear real white background openings among smoke curls, flags, tree leaves and isolated terrain strokes. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_extraction": "tmp/extraction-work/met-425800--battlefield-frieze-with-contacting-cavalry--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "3ebafb7d13972ef6e3cfe5b730b82d1d449d5df4026c63ced09a4d42ae8e4ef1",
+        "retained_generated_size": [
+          2170,
+          725
+        ],
+        "resolution_cap_scale": 1,
+        "resolution_capped_size": [
+          2170,
+          725
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          3137,
+          619
+        ],
+        "native_subject_size_evidence": {
+          "method": "Individually inspected native visible subject bounds, excluding input-region whitespace and neighbours.",
+          "preview_subject_bounds": [
+            41,
+            708,
+            1363,
+            969
+          ],
+          "preview_size": [
+            1400,
+            990
+          ],
+          "original_size": [
+            3322,
+            2349
+          ]
+        },
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 28291
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Individually compared full retained subjects with original source region, on white and dark. Entire source-visible bodies, shared hands and long staffs, stems, basal leaves and scroll openings retained. Whole landscapes retain intrinsic terrain and separate contacting pairs are also available. Native subject caps enforced without stretching; generated extraction explicitly approximate.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/recovered-completed-results-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/recovered-completed-results-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/recovered-completed-results-proof-3.jpg",
+          "tmp/extraction-work/continuation-20261010/recovered-completed-results-proof-5.jpg",
+          "tmp/extraction-work/continuation-20261010/corrected-pair-artifact-mapping-results-proof-1.jpg"
+        ]
+      },
+      "categories": [
+        "humans",
+        "animals"
+      ],
+      "subjects": [
+        "battle",
+        "soldier",
+        "horse",
+        "flag",
+        "spear",
+        "smoke"
+      ],
+      "colors": [
+        "black",
+        "brown",
+        "cream"
+      ],
+      "facing": "unclear",
+      "composition": "framed-scene",
+      "usage_notes": "Original independent specimen with printed plate rules and page removed. AI-assisted extraction remains approximate; source bounds, actual native subject cap, original and exact prompt retained.",
+      "sets": [
+        {
+          "id": "livre-nouveau-de-fleurs",
+          "name": "Livre Nouveau de Fleurs",
+          "relation": "same named series of flower and landscape engravings"
+        },
+        {
+          "id": "met-425800-set",
+          "name": "Horizontal Panel with a Row of Flowers Above a Frieze with a Battle Scene in a Landscape, from \"Livre Nouveau de Fleurs Tres-Util\" (met-425800)",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A wide engraved battlefield scene with cavalry and foot soldiers.",
+      "set_label": "Livre Nouveau de Fleurs"
+    },
+    {
+      "id": "met-425800--branching-star-flowers-on-long-leaves",
+      "name": "branching-star-flowers-on-long-leaves",
+      "source_id": "met-425800",
+      "source_folder": "met",
+      "asset_type": "illustration",
+      "description": "Four branching star-like flowers with long curved narrow leaves. Part of the Livre Nouveau de Fleurs set.",
+      "source_region": [
+        2527,
+        57,
+        3291,
+        1307
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        4,
+        22,
+        730,
+        1192
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 726,
+      "height": 1170,
+      "png": "met/met-425800--branching-star-flowers-on-long-leaves.png",
+      "png_sha256": "233e263e9ff26eb856f828437249444f762e20c52cdddfc3ba5c3d56febe9d49",
+      "provenance": {
+        "institution": "Metropolitan Museum of Art",
+        "title": "Horizontal Panel with a Row of Flowers Above a Frieze with a Battle Scene in a Landscape, from \"Livre Nouveau de Fleurs Tres-Util\"",
+        "object_identifier": "53.600.261(2)",
+        "date": "1645",
+        "artist": "Nicolas Cochin",
+        "record_url": "https://www.metmuseum.org/art/collection/search/425800",
+        "image_rights": "CC0 Open Access; isPublicDomain=true",
+        "rights_url": "https://www.metmuseum.org/policies/image-resources",
+        "source_file": "tmp/new-assets/met/met-425800--horizontal-panel-with-a-row-of-flowers-above-a-frieze-with-a-battle-scene-in-a-landscape-f.jpg",
+        "source_sha256": "7e84d06fe2968e5077a17f0b06051403374fbfab0ae1ee560d490284d78b7a23",
+        "source_metadata": "tmp/new-assets/met/met-425800.json",
+        "image_url": "https://images.metmuseum.org/CRDImages/dp/original/DP837397.jpg",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. Extract ONLY the ENTIRE branching star-flower plant at the upper right: all FOUR open star flowers (two upper and two lower), its buds and hanging stamens, ALL original curved narrow leaves including the long lower-right blade ending below the lower pair of stars, and the original short stem end at the upper left. Remove the two open flowers on the separate basal fan below. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_extraction": "tmp/extraction-work/met-425800--branching-star-flowers-on-long-leaves--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "8dd9d032e9b97c3f3b815c60a5d2787bcd0751588911d52f8428e0da35ad8bde",
+        "retained_generated_size": [
+          981,
+          1604
+        ],
+        "resolution_cap_scale": 0.7447523188798661,
+        "resolution_capped_size": [
+          731,
+          1195
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          712,
+          1201
+        ],
+        "native_subject_size_evidence": {
+          "method": "Individually inspected native visible subject bounds, excluding input-region whitespace and neighbours.",
+          "preview_subject_bounds": [
+            1075,
+            31,
+            1375,
+            537
+          ],
+          "preview_size": [
+            1400,
+            990
+          ],
+          "original_size": [
+            3322,
+            2349
+          ]
+        },
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 7045
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Original ROI and both white/dark proofs examined individually. All selected plant roots, thin stems, petals and basal blades present; pale printed and painted subject surfaces retained. Other plants/rules/architecture and true holes cleared. Original page-truncated ends kept honestly. Cleveland blue branch includes all five blossoms; pink branch retains four full and one original partial blossom. Engraved sword leaves and crown stems checked against overlapping native source detail. Detached page-edge fragment removed from the upper-left acanthus without altering its contacting bird or complete terminals.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/full-shape-first-ready-results-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/full-shape-first-ready-results-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/full-shape-first-ready-results-proof-3.jpg",
+          "tmp/extraction-work/continuation-20261010/met425800-upper-overlapping-stems-original-inspection.png"
+        ]
+      },
+      "categories": [
+        "floral",
+        "botanical"
+      ],
+      "subjects": [
+        "flower",
+        "leaf",
+        "stem"
+      ],
+      "colors": [
+        "black",
+        "brown",
+        "cream"
+      ],
+      "facing": "unclear",
+      "composition": "single-figure",
+      "usage_notes": "Original independent specimen with printed plate rules and page removed. AI-assisted extraction remains approximate; source bounds, actual native subject cap, original and exact prompt retained.",
+      "sets": [
+        {
+          "id": "livre-nouveau-de-fleurs",
+          "name": "Livre Nouveau de Fleurs",
+          "relation": "same named series of flower and landscape engravings"
+        },
+        {
+          "id": "met-425800-set",
+          "name": "Horizontal Panel with a Row of Flowers Above a Frieze with a Battle Scene in a Landscape, from \"Livre Nouveau de Fleurs Tres-Util\" (met-425800)",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "Four branching star-like flowers with long curved narrow leaves.",
+      "set_label": "Livre Nouveau de Fleurs"
+    },
+    {
+      "id": "met-425800--clustered-small-flowers-with-long-sword-shaped-leaves",
+      "name": "clustered-small-flowers-with-long-sword-shaped-leaves",
+      "source_id": "met-425800",
+      "source_folder": "met",
+      "asset_type": "illustration",
+      "description": "Clustered small flowers above complete long folded sword-shaped basal leaves. Part of the Livre Nouveau de Fleurs set.",
+      "source_region": [
+        560,
+        52,
+        1293,
+        1649
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        12,
+        1,
+        615,
+        1322
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 603,
+      "height": 1321,
+      "png": "met/met-425800--clustered-small-flowers-with-long-sword-shaped-leaves.png",
+      "png_sha256": "501db2e6184c6e0bc9f65c46f73026ef225601ba64e1b25762888a9a650e66c3",
+      "provenance": {
+        "institution": "Metropolitan Museum of Art",
+        "title": "Horizontal Panel with a Row of Flowers Above a Frieze with a Battle Scene in a Landscape, from \"Livre Nouveau de Fleurs Tres-Util\"",
+        "object_identifier": "53.600.261(2)",
+        "date": "1645",
+        "artist": "Nicolas Cochin",
+        "record_url": "https://www.metmuseum.org/art/collection/search/425800",
+        "image_rights": "CC0 Open Access; isPublicDomain=true",
+        "rights_url": "https://www.metmuseum.org/policies/image-resources",
+        "source_file": "tmp/new-assets/met/met-425800--horizontal-panel-with-a-row-of-flowers-above-a-frieze-with-a-battle-scene-in-a-landscape-f.jpg",
+        "source_sha256": "7e84d06fe2968e5077a17f0b06051403374fbfab0ae1ee560d490284d78b7a23",
+        "source_metadata": "tmp/new-assets/met/met-425800.json",
+        "image_url": "https://images.metmuseum.org/CRDImages/dp/original/DP837397.jpg",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. Extract ONLY the entire specimen with long folded sword-shaped basal leaves and the small four-flower cluster above them. Include its COMPLETE very long curved upper-right sword leaf ending near the top edge, its upper-right hanging flower and the separate lower-right flower, both connected to THIS specimen. Remove serrated leaves from the plant to the left and the large crown-flower foliage to the right. Where the tall sword-leaf tip meets a neighbouring crown leaf, keep only the selected source-visible blade, without inventing a hidden tip. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_extraction": "tmp/extraction-work/met-425800--clustered-small-flowers-with-long-sword-shaped-leaves--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "85d1974686f601327e8e9e6acf5933fa2e2641af9befed66e1bdf10d96620f1a",
+        "retained_generated_size": [
+          850,
+          1851
+        ],
+        "resolution_cap_scale": 0.724053724053724,
+        "resolution_capped_size": [
+          615,
+          1340
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          593,
+          1549
+        ],
+        "native_subject_size_evidence": {
+          "method": "Individually inspected native visible subject bounds, excluding input-region whitespace and neighbours.",
+          "preview_subject_bounds": [
+            249,
+            31,
+            499,
+            684
+          ],
+          "preview_size": [
+            1400,
+            990
+          ],
+          "original_size": [
+            3322,
+            2349
+          ]
+        },
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 1965
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Original ROI and both white/dark proofs examined individually. All selected plant roots, thin stems, petals and basal blades present; pale printed and painted subject surfaces retained. Other plants/rules/architecture and true holes cleared. Original page-truncated ends kept honestly. Cleveland blue branch includes all five blossoms; pink branch retains four full and one original partial blossom. Engraved sword leaves and crown stems checked against overlapping native source detail. Detached page-edge fragment removed from the upper-left acanthus without altering its contacting bird or complete terminals.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/full-shape-first-ready-results-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/full-shape-first-ready-results-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/full-shape-first-ready-results-proof-3.jpg",
+          "tmp/extraction-work/continuation-20261010/met425800-upper-overlapping-stems-original-inspection.png"
+        ]
+      },
+      "categories": [
+        "floral",
+        "botanical"
+      ],
+      "subjects": [
+        "flower",
+        "leaf",
+        "stem"
+      ],
+      "colors": [
+        "black",
+        "brown",
+        "cream"
+      ],
+      "facing": "unclear",
+      "composition": "single-figure",
+      "usage_notes": "Original independent specimen with printed plate rules and page removed. AI-assisted extraction remains approximate; source bounds, actual native subject cap, original and exact prompt retained.",
+      "sets": [
+        {
+          "id": "livre-nouveau-de-fleurs",
+          "name": "Livre Nouveau de Fleurs",
+          "relation": "same named series of flower and landscape engravings"
+        },
+        {
+          "id": "met-425800-set",
+          "name": "Horizontal Panel with a Row of Flowers Above a Frieze with a Battle Scene in a Landscape, from \"Livre Nouveau de Fleurs Tres-Util\" (met-425800)",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "Clustered small flowers above complete long folded sword-shaped basal leaves.",
+      "set_label": "Livre Nouveau de Fleurs"
+    },
+    {
+      "id": "met-425800--cupped-flowers-and-buds-on-leafy-stem",
+      "name": "cupped-flowers-and-buds-on-leafy-stem",
+      "source_id": "met-425800",
+      "source_folder": "met",
+      "asset_type": "illustration",
+      "description": "Cupped flowers and buds on a tall leafy stem. Part of the Livre Nouveau de Fleurs set.",
+      "source_region": [
+        2069,
+        64,
+        2741,
+        1637
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        0,
+        0,
+        639,
+        1494
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 639,
+      "height": 1494,
+      "png": "met/met-425800--cupped-flowers-and-buds-on-leafy-stem.png",
+      "png_sha256": "00bf76278c2dec174b6ab45d75558bc997b36c7a936fa06d4351895333c0fecf",
+      "provenance": {
+        "institution": "Metropolitan Museum of Art",
+        "title": "Horizontal Panel with a Row of Flowers Above a Frieze with a Battle Scene in a Landscape, from \"Livre Nouveau de Fleurs Tres-Util\"",
+        "object_identifier": "53.600.261(2)",
+        "date": "1645",
+        "artist": "Nicolas Cochin",
+        "record_url": "https://www.metmuseum.org/art/collection/search/425800",
+        "image_rights": "CC0 Open Access; isPublicDomain=true",
+        "rights_url": "https://www.metmuseum.org/policies/image-resources",
+        "source_file": "tmp/new-assets/met/met-425800--horizontal-panel-with-a-row-of-flowers-above-a-frieze-with-a-battle-scene-in-a-landscape-f.jpg",
+        "source_sha256": "7e84d06fe2968e5077a17f0b06051403374fbfab0ae1ee560d490284d78b7a23",
+        "source_metadata": "tmp/new-assets/met/met-425800.json",
+        "image_url": "https://images.metmuseum.org/CRDImages/dp/original/DP837397.jpg",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. Extract ONLY tall branching plant to the right of the central drooping whorl, with all original cupped flowers and pointed bud on its stem, complete narrow leaves and all low basal leaves. Exclude nearby separate low sideways flower and far-right star-flower plants. Every pale petal interior opaque, spaces between stems/leaves clear. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_extraction": "tmp/extraction-work/met-425800--cupped-flowers-and-buds-on-leafy-stem--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "a2b58fbbd7d5a709f923987b5567e9e35d4e591d85e6eb9e03c3abf2b6bd9b74",
+        "retained_generated_size": [
+          820,
+          1918
+        ],
+        "resolution_cap_scale": 0.7790123456790123,
+        "resolution_capped_size": [
+          639,
+          1494
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          631,
+          1547
+        ],
+        "native_subject_size_evidence": {
+          "method": "Individually inspected native visible subject bounds, excluding input-region whitespace and neighbours.",
+          "preview_subject_bounds": [
+            881,
+            33,
+            1147,
+            685
+          ],
+          "preview_size": [
+            1400,
+            990
+          ],
+          "original_size": [
+            3322,
+            2349
+          ]
+        },
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 7522
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Individually compared full retained subjects with original source region, on white and dark. Entire source-visible bodies, shared hands and long staffs, stems, basal leaves and scroll openings retained. Whole landscapes retain intrinsic terrain and separate contacting pairs are also available. Native subject caps enforced without stretching; generated extraction explicitly approximate.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/recovered-completed-results-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/recovered-completed-results-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/recovered-completed-results-proof-3.jpg",
+          "tmp/extraction-work/continuation-20261010/recovered-completed-results-proof-5.jpg",
+          "tmp/extraction-work/continuation-20261010/corrected-pair-artifact-mapping-results-proof-1.jpg"
+        ]
+      },
+      "categories": [
+        "floral",
+        "botanical"
+      ],
+      "subjects": [
+        "flower",
+        "leaf",
+        "stem"
+      ],
+      "colors": [
+        "black",
+        "brown",
+        "cream"
+      ],
+      "facing": "unclear",
+      "composition": "single-figure",
+      "usage_notes": "Original independent specimen with printed plate rules and page removed. AI-assisted extraction remains approximate; source bounds, actual native subject cap, original and exact prompt retained.",
+      "sets": [
+        {
+          "id": "livre-nouveau-de-fleurs",
+          "name": "Livre Nouveau de Fleurs",
+          "relation": "same named series of flower and landscape engravings"
+        },
+        {
+          "id": "met-425800-set",
+          "name": "Horizontal Panel with a Row of Flowers Above a Frieze with a Battle Scene in a Landscape, from \"Livre Nouveau de Fleurs Tres-Util\" (met-425800)",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "Cupped flowers and buds on a tall leafy stem.",
+      "set_label": "Livre Nouveau de Fleurs"
+    },
+    {
+      "id": "met-425800--drooping-flower-whorl-beneath-long-crown-leaves",
+      "name": "drooping-flower-whorl-beneath-long-crown-leaves",
+      "source_id": "met-425800",
+      "source_folder": "met",
+      "asset_type": "illustration",
+      "description": "A whorl of drooping bell-like flowers beneath long crown leaves on a tall stem. Part of the Livre Nouveau de Fleurs set.",
+      "source_region": [
+        1110,
+        43,
+        2340,
+        1651
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        41,
+        6,
+        1094,
+        1424
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 1053,
+      "height": 1418,
+      "png": "met/met-425800--drooping-flower-whorl-beneath-long-crown-leaves.png",
+      "png_sha256": "0ba68f57196b3cf5a131ed73a681116c26b4725ff1d783298aa1277b36921b0c",
+      "provenance": {
+        "institution": "Metropolitan Museum of Art",
+        "title": "Horizontal Panel with a Row of Flowers Above a Frieze with a Battle Scene in a Landscape, from \"Livre Nouveau de Fleurs Tres-Util\"",
+        "object_identifier": "53.600.261(2)",
+        "date": "1645",
+        "artist": "Nicolas Cochin",
+        "record_url": "https://www.metmuseum.org/art/collection/search/425800",
+        "image_rights": "CC0 Open Access; isPublicDomain=true",
+        "rights_url": "https://www.metmuseum.org/policies/image-resources",
+        "source_file": "tmp/new-assets/met/met-425800--horizontal-panel-with-a-row-of-flowers-above-a-frieze-with-a-battle-scene-in-a-landscape-f.jpg",
+        "source_sha256": "7e84d06fe2968e5077a17f0b06051403374fbfab0ae1ee560d490284d78b7a23",
+        "source_metadata": "tmp/new-assets/met/met-425800.json",
+        "image_url": "https://images.metmuseum.org/CRDImages/dp/original/DP837397.jpg",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. Extract ONLY the large central crown plant: complete ring of hanging bell flowers beneath its long crown leaves and its original straight thick vertical stem. Retain all source-visible crown leaf ends, including the original truncated ends where they meet the top print boundary. The long curved sword leaf and small hanging flowers at upper-left belong to the neighbouring sword-leaf specimen; REMOVE those neighbours. Preserve only source-visible selected leaf parts at their overlap, no invented hidden leaf tip. Remove all smaller independent plants below left/right and plate rules. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_extraction": "tmp/extraction-work/met-425800--drooping-flower-whorl-beneath-long-crown-leaves--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "2bfde4cc449424cee4f4c70526982b77c79ea0535cad040e6045b61f3c7551ee",
+        "retained_generated_size": [
+          1097,
+          1434
+        ],
+        "resolution_cap_scale": 1,
+        "resolution_capped_size": [
+          1097,
+          1434
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          1179,
+          1566
+        ],
+        "native_subject_size_evidence": {
+          "method": "Individually inspected native visible subject bounds, excluding input-region whitespace and neighbours.",
+          "preview_subject_bounds": [
+            483,
+            24,
+            980,
+            684
+          ],
+          "preview_size": [
+            1400,
+            990
+          ],
+          "original_size": [
+            3322,
+            2349
+          ]
+        },
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 5381
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Original ROI and both white/dark proofs examined individually. All selected plant roots, thin stems, petals and basal blades present; pale printed and painted subject surfaces retained. Other plants/rules/architecture and true holes cleared. Original page-truncated ends kept honestly. Cleveland blue branch includes all five blossoms; pink branch retains four full and one original partial blossom. Engraved sword leaves and crown stems checked against overlapping native source detail. Detached page-edge fragment removed from the upper-left acanthus without altering its contacting bird or complete terminals.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/full-shape-first-ready-results-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/full-shape-first-ready-results-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/full-shape-first-ready-results-proof-3.jpg",
+          "tmp/extraction-work/continuation-20261010/met425800-upper-overlapping-stems-original-inspection.png"
+        ]
+      },
+      "categories": [
+        "floral",
+        "botanical"
+      ],
+      "subjects": [
+        "flower",
+        "leaf",
+        "stem"
+      ],
+      "colors": [
+        "black",
+        "brown",
+        "cream"
+      ],
+      "facing": "unclear",
+      "composition": "single-figure",
+      "usage_notes": "Original independent specimen with printed plate rules and page removed. AI-assisted extraction remains approximate; source bounds, actual native subject cap, original and exact prompt retained.",
+      "sets": [
+        {
+          "id": "livre-nouveau-de-fleurs",
+          "name": "Livre Nouveau de Fleurs",
+          "relation": "same named series of flower and landscape engravings"
+        },
+        {
+          "id": "met-425800-set",
+          "name": "Horizontal Panel with a Row of Flowers Above a Frieze with a Battle Scene in a Landscape, from \"Livre Nouveau de Fleurs Tres-Util\" (met-425800)",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A whorl of drooping bell-like flowers beneath long crown leaves on a tall stem.",
+      "set_label": "Livre Nouveau de Fleurs"
+    },
+    {
+      "id": "met-425800--sideways-flower-on-bent-stem-with-long-leaves",
+      "name": "sideways-flower-on-bent-stem-with-long-leaves",
+      "source_id": "met-425800",
+      "source_folder": "met",
+      "asset_type": "illustration",
+      "description": "A sideways cupped flower on a bent stem with long pointed basal leaves. Part of the Livre Nouveau de Fleurs set.",
+      "source_region": [
+        1708,
+        887,
+        2425,
+        1666
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        9,
+        24,
+        661,
+        710
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 652,
+      "height": 686,
+      "png": "met/met-425800--sideways-flower-on-bent-stem-with-long-leaves.png",
+      "png_sha256": "9f921bb5a6ba08b8b3cd21f7d09663e027478a3788978f9c5dfd30fa37bdce6a",
+      "provenance": {
+        "institution": "Metropolitan Museum of Art",
+        "title": "Horizontal Panel with a Row of Flowers Above a Frieze with a Battle Scene in a Landscape, from \"Livre Nouveau de Fleurs Tres-Util\"",
+        "object_identifier": "53.600.261(2)",
+        "date": "1645",
+        "artist": "Nicolas Cochin",
+        "record_url": "https://www.metmuseum.org/art/collection/search/425800",
+        "image_rights": "CC0 Open Access; isPublicDomain=true",
+        "rights_url": "https://www.metmuseum.org/policies/image-resources",
+        "source_file": "tmp/new-assets/met/met-425800--horizontal-panel-with-a-row-of-flowers-above-a-frieze-with-a-battle-scene-in-a-landscape-f.jpg",
+        "source_sha256": "7e84d06fe2968e5077a17f0b06051403374fbfab0ae1ee560d490284d78b7a23",
+        "source_metadata": "tmp/new-assets/met/met-425800.json",
+        "image_url": "https://images.metmuseum.org/CRDImages/dp/original/DP837397.jpg",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. Extract ONLY the bent flowering plant, its original flower facing sideways, all upright leaves and ALL source-visible long basal blades sweeping right toward the right edge. Remove tall cupped-flower plant rooted at the far right of the supplied region and its independent vertical stem; preserve only visible overlapping parts of the selected plant, without inventing hidden leaves. The selected bent flower is rooted near the lower-left part of this input, while the excluded cupped-flower plant has a separate straight vertical stem near the far right. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_extraction": "tmp/extraction-work/met-425800--sideways-flower-on-bent-stem-with-long-leaves--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "ea7ae3a695d1b1e4cdbff99908584c8073d2355b153d1a06e854db23c0262a44",
+        "retained_generated_size": [
+          1203,
+          1307
+        ],
+        "resolution_cap_scale": 0.5569176882661997,
+        "resolution_capped_size": [
+          670,
+          728
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          636,
+          700
+        ],
+        "native_subject_size_evidence": {
+          "method": "Individually inspected native visible subject bounds, excluding input-region whitespace and neighbours.",
+          "preview_subject_bounds": [
+            730,
+            392,
+            998,
+            687
+          ],
+          "preview_size": [
+            1400,
+            990
+          ],
+          "original_size": [
+            3322,
+            2349
+          ]
+        },
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 2120
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Original ROI and both white/dark proofs examined individually. All selected plant roots, thin stems, petals and basal blades present; pale printed and painted subject surfaces retained. Other plants/rules/architecture and true holes cleared. Original page-truncated ends kept honestly. Cleveland blue branch includes all five blossoms; pink branch retains four full and one original partial blossom. Engraved sword leaves and crown stems checked against overlapping native source detail. Detached page-edge fragment removed from the upper-left acanthus without altering its contacting bird or complete terminals.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/full-shape-first-ready-results-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/full-shape-first-ready-results-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/full-shape-first-ready-results-proof-3.jpg",
+          "tmp/extraction-work/continuation-20261010/met425800-upper-overlapping-stems-original-inspection.png"
+        ]
+      },
+      "categories": [
+        "floral",
+        "botanical"
+      ],
+      "subjects": [
+        "flower",
+        "leaf",
+        "stem"
+      ],
+      "colors": [
+        "black",
+        "brown",
+        "cream"
+      ],
+      "facing": "unclear",
+      "composition": "single-figure",
+      "usage_notes": "Original independent specimen with printed plate rules and page removed. AI-assisted extraction remains approximate; source bounds, actual native subject cap, original and exact prompt retained.",
+      "sets": [
+        {
+          "id": "livre-nouveau-de-fleurs",
+          "name": "Livre Nouveau de Fleurs",
+          "relation": "same named series of flower and landscape engravings"
+        },
+        {
+          "id": "met-425800-set",
+          "name": "Horizontal Panel with a Row of Flowers Above a Frieze with a Battle Scene in a Landscape, from \"Livre Nouveau de Fleurs Tres-Util\" (met-425800)",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A sideways cupped flower on a bent stem with long pointed basal leaves.",
+      "set_label": "Livre Nouveau de Fleurs"
+    },
+    {
+      "id": "met-425800--small-five-petalled-flower-on-sparse-stem",
+      "name": "small-five-petalled-flower-on-sparse-stem",
+      "source_id": "met-425800",
+      "source_folder": "met",
+      "asset_type": "illustration",
+      "description": "A small five-petalled flower on a sparse slender stem with one folded leaf. Part of the Livre Nouveau de Fleurs set.",
+      "source_region": [
+        1300,
+        1056,
+        1599,
+        1632
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        0,
+        0,
+        299,
+        576
+      ],
+      "export_crop_coordinate_space": "source-region",
+      "width": 299,
+      "height": 576,
+      "png": "met/met-425800--small-five-petalled-flower-on-sparse-stem.png",
+      "png_sha256": "e74960e8a1fd4df66a02abe3aa745c459354106b6d8210a602228a67f7958477",
+      "provenance": {
+        "institution": "Metropolitan Museum of Art",
+        "title": "Horizontal Panel with a Row of Flowers Above a Frieze with a Battle Scene in a Landscape, from \"Livre Nouveau de Fleurs Tres-Util\"",
+        "object_identifier": "53.600.261(2)",
+        "date": "1645",
+        "artist": "Nicolas Cochin",
+        "record_url": "https://www.metmuseum.org/art/collection/search/425800",
+        "image_rights": "CC0 Open Access; isPublicDomain=true",
+        "rights_url": "https://www.metmuseum.org/policies/image-resources",
+        "source_file": "tmp/new-assets/met/met-425800--horizontal-panel-with-a-row-of-flowers-above-a-frieze-with-a-battle-scene-in-a-landscape-f.jpg",
+        "source_sha256": "7e84d06fe2968e5077a17f0b06051403374fbfab0ae1ee560d490284d78b7a23",
+        "source_metadata": "tmp/new-assets/met/met-425800.json",
+        "image_url": "https://images.metmuseum.org/CRDImages/dp/original/DP837397.jpg",
+        "method": "native-continuous-ink-matting"
+      },
+      "extraction": {
+        "method": "Native-resolution continuous ink coverage after locally measured paper removal; PNG appearance master.",
+        "source_pixels_repainted": false,
+        "source_rgb_modified": "Paper removed by measured ink coverage; RGB is the scan-measured ink tone, not an exact source-pixel crop.",
+        "paper_kernel": 61,
+        "minimum_coverage": 0.2,
+        "minimum_component_pixels": 4,
+        "settings": {
+          "paper_kernel": 61,
+          "paper_kernel_shape": "rectangle",
+          "minimum_coverage": 0.2,
+          "minimum_component_pixels": 4,
+          "minimum_component_peak": 0.5,
+          "minimum_channel_coverage": true,
+          "largest_connected_support_join_radius": 0,
+          "fill_connected_support_interiors": false
+        },
+        "exclude_regions": [],
+        "export_crop": [
+          0,
+          0,
+          299,
+          576
+        ],
+        "ink_color": [
+          66,
+          60,
+          52
+        ],
+        "candidate_png": "tmp/extraction-work/met-425800--small-five-petalled-flower-on-sparse-stem--ink-candidate.png",
+        "status": "awaiting-native-visual-review",
+        "inspected_source_baseline_removal": {
+          "native_source_line": [
+            115,
+            1603,
+            3105,
+            1639
+          ],
+          "subject_ending": "Original visible stem or leaf ends stop at the plate separator; no new roots or extended tips invented.",
+          "method": "Coverage at/below the visually verified sloping plate divider is excluded before retaining the largest three-native-pixel continuity support. All actual selected interior source ink coverage remains native and unscaled."
+        },
+        "tool": "Native source ink analysis",
+        "source_pixels_redrawn": false
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Complete source-native bloom, narrow stem and single long leaf retained; plate separator and disconnected neighboring flowers removed. Native print grain and continuous ink coverage, no resampling or trace. Original visible stem end preserved without adding roots.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/sparse-flower-native-final-inspection-1.jpg"
+        ]
+      },
+      "categories": [
+        "floral",
+        "botanical"
+      ],
+      "subjects": [
+        "flower",
+        "leaf",
+        "stem"
+      ],
+      "colors": [
+        "black",
+        "brown",
+        "cream"
+      ],
+      "facing": "unclear",
+      "composition": "single-figure",
+      "usage_notes": "Source-native engraved line art with measured ink color and continuous alpha; original ink contours/hatching retained at actual source size. Original pale paper between ink strokes is transparent, including genuine openings. No modern redrawing, hidden reconstruction, artificial sharpened vector or source upscaling. Printed plate rules and unrelated neighbors excluded. The prepared AI request was canceled before a result was used; this delivered master comes only from native source pixels.",
+      "sets": [
+        {
+          "id": "livre-nouveau-de-fleurs",
+          "name": "Livre Nouveau de Fleurs",
+          "relation": "same named series of flower and landscape engravings"
+        },
+        {
+          "id": "met-425800-set",
+          "name": "Horizontal Panel with a Row of Flowers Above a Frieze with a Battle Scene in a Landscape, from \"Livre Nouveau de Fleurs Tres-Util\" (met-425800)",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A small five-petalled flower on a sparse slender stem with one folded leaf.",
+      "set_label": "Livre Nouveau de Fleurs"
+    },
+    {
+      "id": "met-425800--tall-flowering-stem-with-serrated-leaves",
+      "name": "tall-flowering-stem-with-serrated-leaves",
+      "source_id": "met-425800",
+      "source_folder": "met",
+      "asset_type": "illustration",
+      "description": "A tall flowering stem with several small blossoms and serrated leaves. Part of the Livre Nouveau de Fleurs set.",
+      "source_region": [
+        57,
+        52,
+        878,
+        1649
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        14,
+        3,
+        792,
+        1531
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 778,
+      "height": 1528,
+      "png": "met/met-425800--tall-flowering-stem-with-serrated-leaves.png",
+      "png_sha256": "a40b0b88a90f13af55f5d9c052dbfc86e3a9234fe1f25e3888e7bc0b8e2efb2f",
+      "provenance": {
+        "institution": "Metropolitan Museum of Art",
+        "title": "Horizontal Panel with a Row of Flowers Above a Frieze with a Battle Scene in a Landscape, from \"Livre Nouveau de Fleurs Tres-Util\"",
+        "object_identifier": "53.600.261(2)",
+        "date": "1645",
+        "artist": "Nicolas Cochin",
+        "record_url": "https://www.metmuseum.org/art/collection/search/425800",
+        "image_rights": "CC0 Open Access; isPublicDomain=true",
+        "rights_url": "https://www.metmuseum.org/policies/image-resources",
+        "source_file": "tmp/new-assets/met/met-425800--horizontal-panel-with-a-row-of-flowers-above-a-frieze-with-a-battle-scene-in-a-landscape-f.jpg",
+        "source_sha256": "7e84d06fe2968e5077a17f0b06051403374fbfab0ae1ee560d490284d78b7a23",
+        "source_metadata": "tmp/new-assets/met/met-425800.json",
+        "image_url": "https://images.metmuseum.org/CRDImages/dp/original/DP837397.jpg",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. Extract ONLY far-left entire tall plant: all flowers, axillary blooms, jagged and serrated leaves, including the broad right leaf reaching toward the neighbouring plant. Remove the neighboring sword-leaf specimen. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_extraction": "tmp/extraction-work/met-425800--tall-flowering-stem-with-serrated-leaves--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "95658b047bb35b8aece7ee10140901c26c7456b9140849934ffedcaf59b7e037",
+        "retained_generated_size": [
+          899,
+          1749
+        ],
+        "resolution_cap_scale": 0.8809248554913295,
+        "resolution_capped_size": [
+          792,
+          1541
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          762,
+          1542
+        ],
+        "native_subject_size_evidence": {
+          "method": "Individually inspected native visible subject bounds, excluding input-region whitespace and neighbours.",
+          "preview_subject_bounds": [
+            32,
+            31,
+            353,
+            681
+          ],
+          "preview_size": [
+            1400,
+            990
+          ],
+          "original_size": [
+            3322,
+            2349
+          ]
+        },
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 8692
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Original ROI and both white/dark proofs examined individually. All selected plant roots, thin stems, petals and basal blades present; pale printed and painted subject surfaces retained. Other plants/rules/architecture and true holes cleared. Original page-truncated ends kept honestly. Cleveland blue branch includes all five blossoms; pink branch retains four full and one original partial blossom. Engraved sword leaves and crown stems checked against overlapping native source detail. Detached page-edge fragment removed from the upper-left acanthus without altering its contacting bird or complete terminals.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/full-shape-first-ready-results-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/full-shape-first-ready-results-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/full-shape-first-ready-results-proof-3.jpg",
+          "tmp/extraction-work/continuation-20261010/met425800-upper-overlapping-stems-original-inspection.png"
+        ]
+      },
+      "categories": [
+        "floral",
+        "botanical"
+      ],
+      "subjects": [
+        "flower",
+        "leaf",
+        "stem"
+      ],
+      "colors": [
+        "black",
+        "brown",
+        "cream"
+      ],
+      "facing": "unclear",
+      "composition": "single-figure",
+      "usage_notes": "Original independent specimen with printed plate rules and page removed. AI-assisted extraction remains approximate; source bounds, actual native subject cap, original and exact prompt retained.",
+      "sets": [
+        {
+          "id": "livre-nouveau-de-fleurs",
+          "name": "Livre Nouveau de Fleurs",
+          "relation": "same named series of flower and landscape engravings"
+        },
+        {
+          "id": "met-425800-set",
+          "name": "Horizontal Panel with a Row of Flowers Above a Frieze with a Battle Scene in a Landscape, from \"Livre Nouveau de Fleurs Tres-Util\" (met-425800)",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A tall flowering stem with several small blossoms and serrated leaves.",
+      "set_label": "Livre Nouveau de Fleurs"
+    },
+    {
+      "id": "met-425800--two-open-flowers-on-pointed-basal-leaves",
+      "name": "two-open-flowers-on-pointed-basal-leaves",
+      "source_id": "met-425800",
+      "source_folder": "met",
+      "asset_type": "illustration",
+      "description": "Two open flowers above a complete fan of tall and low pointed basal leaves. Part of the Livre Nouveau de Fleurs set.",
+      "source_region": [
+        2520,
+        1023,
+        3275,
+        1668
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        15,
+        0,
+        677,
+        588
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 662,
+      "height": 588,
+      "png": "met/met-425800--two-open-flowers-on-pointed-basal-leaves.png",
+      "png_sha256": "76aa9d17d6fb2ad4effc07d78ad5774927d4020bf43380c58e7ba32822c8c411",
+      "provenance": {
+        "institution": "Metropolitan Museum of Art",
+        "title": "Horizontal Panel with a Row of Flowers Above a Frieze with a Battle Scene in a Landscape, from \"Livre Nouveau de Fleurs Tres-Util\"",
+        "object_identifier": "53.600.261(2)",
+        "date": "1645",
+        "artist": "Nicolas Cochin",
+        "record_url": "https://www.metmuseum.org/art/collection/search/425800",
+        "image_rights": "CC0 Open Access; isPublicDomain=true",
+        "rights_url": "https://www.metmuseum.org/policies/image-resources",
+        "source_file": "tmp/new-assets/met/met-425800--horizontal-panel-with-a-row-of-flowers-above-a-frieze-with-a-battle-scene-in-a-landscape-f.jpg",
+        "source_sha256": "7e84d06fe2968e5077a17f0b06051403374fbfab0ae1ee560d490284d78b7a23",
+        "source_metadata": "tmp/new-assets/met/met-425800.json",
+        "image_url": "https://images.metmuseum.org/CRDImages/dp/original/DP837397.jpg",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. Extract ONLY the ENTIRE lower-right plant with TWO open flowers and ALL its connected leaves. Keep the THREE tall pointed central basal blades rising well ABOVE the two blooms, plus both long low basal blades spreading left/right. These tall blades belong to the SAME root and MUST remain. No upper neighboring star-flower plant or plate rule. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_extraction": "tmp/extraction-work/met-425800--two-open-flowers-on-pointed-basal-leaves--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "1368632c634a5638c17e3b0b6afbd7e76a21e08de5972c2d7bbb4716d09714fc",
+        "retained_generated_size": [
+          1358,
+          1159
+        ],
+        "resolution_cap_scale": 0.5074235807860262,
+        "resolution_capped_size": [
+          689,
+          588
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          686,
+          581
+        ],
+        "native_subject_size_evidence": {
+          "method": "Individually inspected native visible subject bounds, excluding input-region whitespace and neighbours.",
+          "preview_subject_bounds": [
+            1077,
+            445,
+            1366,
+            690
+          ],
+          "preview_size": [
+            1400,
+            990
+          ],
+          "original_size": [
+            3322,
+            2349
+          ]
+        },
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 1546
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Original ROI and both white/dark proofs examined individually. All selected plant roots, thin stems, petals and basal blades present; pale printed and painted subject surfaces retained. Other plants/rules/architecture and true holes cleared. Original page-truncated ends kept honestly. Cleveland blue branch includes all five blossoms; pink branch retains four full and one original partial blossom. Engraved sword leaves and crown stems checked against overlapping native source detail. Detached page-edge fragment removed from the upper-left acanthus without altering its contacting bird or complete terminals.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/full-shape-first-ready-results-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/full-shape-first-ready-results-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/full-shape-first-ready-results-proof-3.jpg",
+          "tmp/extraction-work/continuation-20261010/met425800-upper-overlapping-stems-original-inspection.png"
+        ]
+      },
+      "categories": [
+        "floral",
+        "botanical"
+      ],
+      "subjects": [
+        "flower",
+        "leaf",
+        "stem"
+      ],
+      "colors": [
+        "black",
+        "brown",
+        "cream"
+      ],
+      "facing": "unclear",
+      "composition": "single-figure",
+      "usage_notes": "Original independent specimen with printed plate rules and page removed. AI-assisted extraction remains approximate; source bounds, actual native subject cap, original and exact prompt retained.",
+      "sets": [
+        {
+          "id": "livre-nouveau-de-fleurs",
+          "name": "Livre Nouveau de Fleurs",
+          "relation": "same named series of flower and landscape engravings"
+        },
+        {
+          "id": "met-425800-set",
+          "name": "Horizontal Panel with a Row of Flowers Above a Frieze with a Battle Scene in a Landscape, from \"Livre Nouveau de Fleurs Tres-Util\" (met-425800)",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "Two open flowers above a complete fan of tall and low pointed basal leaves.",
+      "set_label": "Livre Nouveau de Fleurs"
+    },
+    {
+      "id": "met-425800--two-star-flowers-on-curving-leafy-stem",
+      "name": "two-star-flowers-on-curving-leafy-stem",
+      "source_id": "met-425800",
+      "source_folder": "met",
+      "asset_type": "illustration",
+      "description": "Two pointed star-like flowers on a slender curving leafy stem. Part of the Livre Nouveau de Fleurs set.",
+      "source_region": [
+        1063,
+        899,
+        1440,
+        1651
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        22,
+        20,
+        353,
+        734
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 331,
+      "height": 714,
+      "png": "met/met-425800--two-star-flowers-on-curving-leafy-stem.png",
+      "png_sha256": "cc8d284889c8d26ec10a515e9d1400b74f2708a20c34874dd4c42a658273555b",
+      "provenance": {
+        "institution": "Metropolitan Museum of Art",
+        "title": "Horizontal Panel with a Row of Flowers Above a Frieze with a Battle Scene in a Landscape, from \"Livre Nouveau de Fleurs Tres-Util\"",
+        "object_identifier": "53.600.261(2)",
+        "date": "1645",
+        "artist": "Nicolas Cochin",
+        "record_url": "https://www.metmuseum.org/art/collection/search/425800",
+        "image_rights": "CC0 Open Access; isPublicDomain=true",
+        "rights_url": "https://www.metmuseum.org/policies/image-resources",
+        "source_file": "tmp/new-assets/met/met-425800--horizontal-panel-with-a-row-of-flowers-above-a-frieze-with-a-battle-scene-in-a-landscape-f.jpg",
+        "source_sha256": "7e84d06fe2968e5077a17f0b06051403374fbfab0ae1ee560d490284d78b7a23",
+        "source_metadata": "tmp/new-assets/met/met-425800.json",
+        "image_url": "https://images.metmuseum.org/CRDImages/dp/original/DP837397.jpg",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. Extract ONLY the complete small bent stem with one open star-like lower flower and the closed downward bell above. Retain EVERY thin petal and dangling bell tip, curved slender stem and pointed leaves. Remove the neighboring sparse-stem flower at the right. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_extraction": "tmp/extraction-work/met-425800--two-star-flowers-on-curving-leafy-stem--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "d7a54229a6428e5cd2a271b23b705ccf50cbfd82ffa73641f8a19255753075aa",
+        "retained_generated_size": [
+          888,
+          1771
+        ],
+        "resolution_cap_scale": 0.4253503960999391,
+        "resolution_capped_size": [
+          378,
+          753
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          335,
+          698
+        ],
+        "native_subject_size_evidence": {
+          "method": "Individually inspected native visible subject bounds, excluding input-region whitespace and neighbours.",
+          "preview_subject_bounds": [
+            455,
+            392,
+            596,
+            686
+          ],
+          "preview_size": [
+            1400,
+            990
+          ],
+          "original_size": [
+            3322,
+            2349
+          ]
+        },
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 89
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Original ROI and both white/dark proofs examined individually. All selected plant roots, thin stems, petals and basal blades present; pale printed and painted subject surfaces retained. Other plants/rules/architecture and true holes cleared. Original page-truncated ends kept honestly. Cleveland blue branch includes all five blossoms; pink branch retains four full and one original partial blossom. Engraved sword leaves and crown stems checked against overlapping native source detail. Detached page-edge fragment removed from the upper-left acanthus without altering its contacting bird or complete terminals.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/full-shape-first-ready-results-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/full-shape-first-ready-results-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/full-shape-first-ready-results-proof-3.jpg",
+          "tmp/extraction-work/continuation-20261010/met425800-upper-overlapping-stems-original-inspection.png"
+        ]
+      },
+      "categories": [
+        "floral",
+        "botanical"
+      ],
+      "subjects": [
+        "flower",
+        "leaf",
+        "stem"
+      ],
+      "colors": [
+        "black",
+        "brown",
+        "cream"
+      ],
+      "facing": "unclear",
+      "composition": "single-figure",
+      "usage_notes": "Original independent specimen with printed plate rules and page removed. AI-assisted extraction remains approximate; source bounds, actual native subject cap, original and exact prompt retained.",
+      "sets": [
+        {
+          "id": "livre-nouveau-de-fleurs",
+          "name": "Livre Nouveau de Fleurs",
+          "relation": "same named series of flower and landscape engravings"
+        },
+        {
+          "id": "met-425800-set",
+          "name": "Horizontal Panel with a Row of Flowers Above a Frieze with a Battle Scene in a Landscape, from \"Livre Nouveau de Fleurs Tres-Util\" (met-425800)",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "Two pointed star-like flowers on a slender curving leafy stem.",
+      "set_label": "Livre Nouveau de Fleurs"
+    }
+  ]
+}

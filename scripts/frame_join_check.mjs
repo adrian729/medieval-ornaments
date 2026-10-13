@@ -16,12 +16,27 @@ await send('Emulation.setDeviceMetricsOverride',{width:1200,height:1000,deviceSc
 // The internal QA page supplies ornaments.css; frames are built here with the library.
 await send('Page.navigate',{url:origin+'/examples/qa.html?assets=local'});
 for(let i=0;i<100;i++){if(await evaluate('document.body?.dataset.ready==="true"'))break;await pause(50)}
+if(label==='finished'){
+  const catalog=await(await fetch(origin+'/images.json')).json();
+  const additions=await(await fetch(origin+'/finished-additions.json')).json();
+  const names=new Set(additions.assets.map(a=>a.name));
+  const items=catalog.filter(i=>names.has(i.name)&&i.components.border_image),sheets=[];
+  for(const scale of [1,1.25,2])for(const theme of ['light','dark'])for(let offset=0;offset<items.length;offset+=6){
+    const selected=items.slice(offset,offset+6).map(i=>i.name);
+    await send('Emulation.setDeviceMetricsOverride',{width:1100,height:1020,deviceScaleFactor:scale,mobile:false});
+    await evaluate(`(async()=>{const api=await import('/lib/index.js');document.body.innerHTML='';document.body.style.cssText='margin:0;background:${theme==='dark'?'#20252c':'#fffaf0'};color:${theme==='dark'?'#eee':'#222'}';const names=${JSON.stringify(selected)};for(const [i,name]of names.entries()){const r=api.resolveOrnament('frame',{design:name,size:33,pixelRatio:${scale},format:'webp',assetsBase:location.origin+'/'}),el=document.createElement('div');el.className=r.className;el.style.cssText='position:absolute;left:'+(20.5+(i%2)*540)+'px;top:'+(20.25+Math.floor(i/2)*330)+'px;width:510px;height:290px;font:13px system-ui;display:grid;place-items:center;text-align:center;overflow-wrap:anywhere';for(const [k,v]of Object.entries(r.style))el.style.setProperty(k,v);el.textContent=name;document.body.append(el);const im=new Image();im.src=r.asset.url;await im.decode()}})()`);
+    await pause(80);const shot=await send('Page.captureScreenshot',{captureBeyondViewport:false});const file=`finished-frame-${theme}-${scale}-${offset}.png`;
+    await writeFile(new URL('../tmp/'+file,import.meta.url),Buffer.from(shot.data,'base64'));sheets.push({file,ratio:scale,theme,names:selected});
+  }
+  await writeFile(new URL('../tmp/finished-frame-review.json',import.meta.url),JSON.stringify({designs:items.length,size:33,sheets},null,2));
+  console.log(`Rendered ${items.length} finished frames at 33px, light/dark and DPR 1/1.25/2.`);ws.close();process.exit(0);
+}
 if(label==='matrix'){
   const catalog=await(await fetch(origin+'/images.json')).json();
   const representatives=['gold-quatrefoil-vine','red-berry-vine','gold-leaf-scroll','red-rosette-vine'];
   const samples=[];
   for(const name of representatives)for(let size=16;size<=48;size++)samples.push({name,size});
-  for(const item of catalog.filter(i=>i.kind==='repeat-tile'&&!representatives.includes(i.name)))samples.push({name:item.name,size:33});
+  for(const item of catalog.filter(i=>i.components.border_image&&!representatives.includes(i.name)))samples.push({name:item.name,size:33});
   const sheets=[];
   for(const format of ['svg','png','webp'])for(const scale of [1,1.25,2])for(let offset=0;offset<samples.length;offset+=24){
     const cases=samples.slice(offset,offset+24).map((sample,i)=>{

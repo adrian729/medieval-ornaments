@@ -1,0 +1,167 @@
+{
+  "source_id": "nga-3661",
+  "assets": [
+    {
+      "id": "nga-3661--tall-satyr-with-violin-candelabrum",
+      "name": "tall-satyr-with-violin-candelabrum",
+      "source_id": "nga-3661",
+      "source_folder": "national-gallery-of-art",
+      "asset_type": "decoration",
+      "description": "A very tall engraved candelabrum with a violin-playing satyr, masks, curved foliage and a small lower figure.",
+      "source_region": [
+        61,
+        72,
+        658,
+        4020
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        0,
+        0,
+        597,
+        3948
+      ],
+      "export_crop_coordinate_space": "reviewed-native-rule-correction-canvas",
+      "width": 597,
+      "height": 3948,
+      "png": "national-gallery-of-art/nga-3661--tall-satyr-with-violin-candelabrum.png",
+      "png_sha256": "fb11e8c773ad2e45df03d7be28f4d58f7de38269f1c27d9016de203cf52b65ce",
+      "provenance": {
+        "institution": "National Gallery of Art, Washington",
+        "title": "Ornament Panel: Satyr Holding a Violin",
+        "object_identifier": "1943.3.449",
+        "date": "c. 1505/1515",
+        "artist": "Giovanni Pietro Birago and Zoan Andrea",
+        "record_url": "https://www.nga.gov/collection/art-object-page.3661.html",
+        "image_rights": "Open Access / public domain; official image dataset openaccess=1",
+        "rights_url": "https://www.nga.gov/artworks/free-images-and-open-access",
+        "source_file": "tmp/new-assets/national-gallery-of-art/nga-3661--ornament-panel-satyr-holding-a-violin.jpg",
+        "source_sha256": "1a053478d0a11db7276e017f64c1740433c7d6fd05757dff200209675e86200e",
+        "source_metadata": "tmp/new-assets/national-gallery-of-art/nga-3661.json",
+        "image_url": "https://api.nga.gov/iiif/10e03462-8b8f-41d2-8bf0-86feafe5a937/full/full/0/default.jpg",
+        "method": "native-continuous-ink-matting"
+      },
+      "extraction": {
+        "method": "Native-resolution continuous ink coverage after locally measured paper removal; PNG appearance master.",
+        "source_pixels_repainted": false,
+        "source_rgb_modified": "Paper removed by measured ink coverage; RGB is the scan-measured ink tone, not an exact source-pixel crop.",
+        "paper_kernel": 61,
+        "minimum_coverage": 0.16,
+        "minimum_component_pixels": 3,
+        "settings": {
+          "paper_kernel": 61,
+          "paper_kernel_shape": "rectangle",
+          "minimum_coverage": 0.16,
+          "minimum_component_pixels": 3,
+          "minimum_component_peak": 0.55,
+          "minimum_channel_coverage": true,
+          "largest_connected_support_join_radius": 5,
+          "fill_connected_support_interiors": false
+        },
+        "exclude_regions": [],
+        "export_crop": [
+          0,
+          11,
+          592,
+          4024
+        ],
+        "ink_color": [
+          84,
+          75,
+          64
+        ],
+        "candidate_png": "tmp/extraction-work/todo-fixes-20261012/nga-3661--tall-satyr-with-violin-candelabrum--finished-boundary-candidate.png",
+        "status": "awaiting-native-visual-review",
+        "tool": "Native source ink analysis",
+        "source_pixels_redrawn": false,
+        "todo_correction": {
+          "source_region": [
+            61,
+            72,
+            658,
+            4020
+          ],
+          "actual_source_frame": [
+            [
+              72,
+              94
+            ],
+            [
+              632,
+              83
+            ],
+            [
+              646,
+              4007
+            ],
+            [
+              74,
+              4009
+            ]
+          ],
+          "restored_left_artwork_pixels": 84499,
+          "method": "Retain accepted native interior; recover previously clipped left artwork and actual plate rules from full original using the same native measured ink coverage. Remove paper outside the actual plate. No enlargement, perspective warp or drawing reconstruction.",
+          "id": "nga-3661--tall-satyr-with-violin-candelabrum",
+          "candidate": "tmp/extraction-work/todo-fixes-20261012/nga-3661--tall-satyr-with-violin-candelabrum--finished-boundary-candidate.png"
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "finished-only-todo-corrections-20261012",
+        "notes": "Retain accepted native interior; recover previously clipped left artwork and actual plate rules from full original using the same native measured ink coverage. Remove paper outside the actual plate. No enlargement, perspective warp or drawing reconstruction.",
+        "checks": [
+          "actual-original-comparison",
+          "native-scale-and-proportions",
+          "complete-figures-and-ornaments",
+          "source-rule-geometry-and-endpoints",
+          "white-and-dark-backgrounds"
+        ],
+        "evidence": [
+          "tmp/extraction-work/todo-fixes-20261012/nga-3661--tall-satyr-with-violin-candelabrum--finished-boundary-proof.jpg"
+        ]
+      },
+      "categories": [
+        "humans",
+        "hybrids",
+        "music",
+        "floral"
+      ],
+      "subjects": [
+        "satyr",
+        "violin",
+        "mask",
+        "leaf",
+        "figure"
+      ],
+      "facing": "mixed",
+      "colors": [
+        "brown",
+        "black"
+      ],
+      "composition": "single-ornament",
+      "usage_notes": "Retain accepted native interior; recover previously clipped left artwork and actual plate rules from full original using the same native measured ink coverage. Remove paper outside the actual plate. No enlargement, perspective warp or drawing reconstruction. Finite original decoration; no repeat or corner atlas inferred.",
+      "review_history": [
+        {
+          "status": "accepted",
+          "quality_round": "20261011",
+          "notes": "Native source linework compared in full on source/white/dark. Natural continuous measured ink coverage; no resized hard mask, polygon trace or source stretch. Foreground strokes and props preserved; isolated page specks excluded by connected native support. Red stamp color excluded only where distinguishable from neutral foreground ink. Bare cartouche title removed with individually inspected text-line bounds, leaving the complete original frame. Original faded ink remains faint rather than newly enhanced.",
+          "checks": [
+            "original-source-comparison",
+            "complete-retained-entity",
+            "native-subject-scale",
+            "white-and-dark-backgrounds",
+            "exterior-and-genuine-openings",
+            "fine-props-and-extremities"
+          ],
+          "evidence": [
+            "tmp/extraction-work/continuation-20261010/seven-native-refinement-recipes-proof-1.jpg",
+            "tmp/extraction-work/continuation-20261010/seven-native-refinement-recipes-proof-2.jpg",
+            "tmp/extraction-work/continuation-20261010/cartouche-font-correction-native-proof-1.jpg"
+          ]
+        }
+      ]
+    }
+  ]
+}

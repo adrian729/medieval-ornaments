@@ -1,0 +1,1725 @@
+{
+  "schemaVersion": 2,
+  "id": "decorations-008",
+  "collection": "decorations",
+  "package": "@ranx729/medieval-ornaments-assets-decorations-008",
+  "version": "0.1.0",
+  "designs": {
+    "acanthus-panel-with-two-lovers-and-inhabiting-animals": {
+      "name": "acanthus-panel-with-two-lovers-and-inhabiting-animals",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-source-extraction",
+      "repeat_axis": "none",
+      "width": 4055,
+      "height": 2739,
+      "png": "png/acanthus-panel-with-two-lovers-and-inhabiting-animals.png",
+      "webp": "webp/acanthus-panel-with-two-lovers-and-inhabiting-animals.webp",
+      "png_bytes": 18808958,
+      "webp_bytes": 11765508,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/acanthus-panel-with-two-lovers-and-inhabiting-animals.png",
+          "webp": "webp/128/acanthus-panel-with-two-lovers-and-inhabiting-animals.webp",
+          "width": 128,
+          "height": 86,
+          "png_bytes": 40785,
+          "webp_bytes": 28050
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/acanthus-panel-with-two-lovers-and-inhabiting-animals.png",
+          "webp": "webp/256/acanthus-panel-with-two-lovers-and-inhabiting-animals.webp",
+          "width": 256,
+          "height": 173,
+          "png_bytes": 153721,
+          "webp_bytes": 101094
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/acanthus-panel-with-two-lovers-and-inhabiting-animals.png",
+          "webp": "webp/512/acanthus-panel-with-two-lovers-and-inhabiting-animals.webp",
+          "width": 512,
+          "height": 346,
+          "png_bytes": 541672,
+          "webp_bytes": 352302
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/acanthus-panel-with-two-lovers-and-inhabiting-animals.png",
+          "webp": "webp/768/acanthus-panel-with-two-lovers-and-inhabiting-animals.webp",
+          "width": 768,
+          "height": 519,
+          "png_bytes": 1106227,
+          "webp_bytes": 733042
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "candelabra-supported-by-two-blindfolded-women": {
+      "name": "candelabra-supported-by-two-blindfolded-women",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-source-extraction",
+      "repeat_axis": "none",
+      "width": 668,
+      "height": 3969,
+      "png": "png/candelabra-supported-by-two-blindfolded-women.png",
+      "webp": "webp/candelabra-supported-by-two-blindfolded-women.webp",
+      "png_bytes": 4715497,
+      "webp_bytes": 2753858,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/candelabra-supported-by-two-blindfolded-women.png",
+          "webp": "webp/128/candelabra-supported-by-two-blindfolded-women.webp",
+          "width": 22,
+          "height": 128,
+          "png_bytes": 9992,
+          "webp_bytes": 7252
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/candelabra-supported-by-two-blindfolded-women.png",
+          "webp": "webp/256/candelabra-supported-by-two-blindfolded-women.webp",
+          "width": 43,
+          "height": 256,
+          "png_bytes": 35220,
+          "webp_bytes": 24246
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/candelabra-supported-by-two-blindfolded-women.png",
+          "webp": "webp/512/candelabra-supported-by-two-blindfolded-women.webp",
+          "width": 86,
+          "height": 512,
+          "png_bytes": 123626,
+          "webp_bytes": 86528
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/candelabra-supported-by-two-blindfolded-women.png",
+          "webp": "webp/768/candelabra-supported-by-two-blindfolded-women.webp",
+          "width": 129,
+          "height": 768,
+          "png_bytes": 259748,
+          "webp_bytes": 168418
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "child-gripping-wide-foliate-scroll": {
+      "name": "child-gripping-wide-foliate-scroll",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 1996,
+      "height": 776,
+      "png": "png/child-gripping-wide-foliate-scroll.png",
+      "webp": "webp/child-gripping-wide-foliate-scroll.webp",
+      "png_bytes": 3155571,
+      "webp_bytes": 2108550,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/child-gripping-wide-foliate-scroll.png",
+          "webp": "webp/128/child-gripping-wide-foliate-scroll.webp",
+          "width": 128,
+          "height": 50,
+          "png_bytes": 22572,
+          "webp_bytes": 16096
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/child-gripping-wide-foliate-scroll.png",
+          "webp": "webp/256/child-gripping-wide-foliate-scroll.webp",
+          "width": 256,
+          "height": 100,
+          "png_bytes": 79429,
+          "webp_bytes": 54722
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/child-gripping-wide-foliate-scroll.png",
+          "webp": "webp/512/child-gripping-wide-foliate-scroll.webp",
+          "width": 512,
+          "height": 199,
+          "png_bytes": 268881,
+          "webp_bytes": 177936
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/child-gripping-wide-foliate-scroll.png",
+          "webp": "webp/768/child-gripping-wide-foliate-scroll.webp",
+          "width": 768,
+          "height": 299,
+          "png_bytes": 563966,
+          "webp_bytes": 370040
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "fluted-vase-with-horns-and-broad-leaf-scroll": {
+      "name": "fluted-vase-with-horns-and-broad-leaf-scroll",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 1563,
+      "height": 981,
+      "png": "png/fluted-vase-with-horns-and-broad-leaf-scroll.png",
+      "webp": "webp/fluted-vase-with-horns-and-broad-leaf-scroll.webp",
+      "png_bytes": 3228579,
+      "webp_bytes": 2114926,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/fluted-vase-with-horns-and-broad-leaf-scroll.png",
+          "webp": "webp/128/fluted-vase-with-horns-and-broad-leaf-scroll.webp",
+          "width": 128,
+          "height": 80,
+          "png_bytes": 35776,
+          "webp_bytes": 23994
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/fluted-vase-with-horns-and-broad-leaf-scroll.png",
+          "webp": "webp/256/fluted-vase-with-horns-and-broad-leaf-scroll.webp",
+          "width": 256,
+          "height": 161,
+          "png_bytes": 123569,
+          "webp_bytes": 84488
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/fluted-vase-with-horns-and-broad-leaf-scroll.png",
+          "webp": "webp/512/fluted-vase-with-horns-and-broad-leaf-scroll.webp",
+          "width": 512,
+          "height": 321,
+          "png_bytes": 426192,
+          "webp_bytes": 273370
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/fluted-vase-with-horns-and-broad-leaf-scroll.png",
+          "webp": "webp/768/fluted-vase-with-horns-and-broad-leaf-scroll.webp",
+          "width": 768,
+          "height": 482,
+          "png_bytes": 895888,
+          "webp_bytes": 572734
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "foliate-vine-with-hairy-grotesque-mask": {
+      "name": "foliate-vine-with-hairy-grotesque-mask",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-source-extraction",
+      "repeat_axis": "none",
+      "width": 201,
+      "height": 828,
+      "png": "png/foliate-vine-with-hairy-grotesque-mask.png",
+      "webp": "webp/foliate-vine-with-hairy-grotesque-mask.webp",
+      "png_bytes": 224212,
+      "webp_bytes": 126680,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/foliate-vine-with-hairy-grotesque-mask.png",
+          "webp": "webp/128/foliate-vine-with-hairy-grotesque-mask.webp",
+          "width": 31,
+          "height": 128,
+          "png_bytes": 9674,
+          "webp_bytes": 6110
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/foliate-vine-with-hairy-grotesque-mask.png",
+          "webp": "webp/256/foliate-vine-with-hairy-grotesque-mask.webp",
+          "width": 62,
+          "height": 256,
+          "png_bytes": 32800,
+          "webp_bytes": 20298
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/foliate-vine-with-hairy-grotesque-mask.png",
+          "webp": "webp/512/foliate-vine-with-hairy-grotesque-mask.webp",
+          "width": 124,
+          "height": 512,
+          "png_bytes": 111515,
+          "webp_bytes": 65398
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/foliate-vine-with-hairy-grotesque-mask.png",
+          "webp": "webp/768/foliate-vine-with-hairy-grotesque-mask.webp",
+          "width": 186,
+          "height": 768,
+          "png_bytes": 219773,
+          "webp_bytes": 130062
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "interacting-centaurs-and-riders-in-foliate-frieze": {
+      "name": "interacting-centaurs-and-riders-in-foliate-frieze",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 2091,
+      "height": 693,
+      "png": "png/interacting-centaurs-and-riders-in-foliate-frieze.png",
+      "webp": "webp/interacting-centaurs-and-riders-in-foliate-frieze.webp",
+      "png_bytes": 2920264,
+      "webp_bytes": 1933814,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/interacting-centaurs-and-riders-in-foliate-frieze.png",
+          "webp": "webp/128/interacting-centaurs-and-riders-in-foliate-frieze.webp",
+          "width": 128,
+          "height": 42,
+          "png_bytes": 17849,
+          "webp_bytes": 12906
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/interacting-centaurs-and-riders-in-foliate-frieze.png",
+          "webp": "webp/256/interacting-centaurs-and-riders-in-foliate-frieze.webp",
+          "width": 256,
+          "height": 85,
+          "png_bytes": 62012,
+          "webp_bytes": 43282
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/interacting-centaurs-and-riders-in-foliate-frieze.png",
+          "webp": "webp/512/interacting-centaurs-and-riders-in-foliate-frieze.webp",
+          "width": 512,
+          "height": 170,
+          "png_bytes": 213362,
+          "webp_bytes": 142022
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/interacting-centaurs-and-riders-in-foliate-frieze.png",
+          "webp": "webp/768/interacting-centaurs-and-riders-in-foliate-frieze.webp",
+          "width": 768,
+          "height": 255,
+          "png_bytes": 452158,
+          "webp_bytes": 296444
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "large-bearded-mask-with-paired-leafy-heads": {
+      "name": "large-bearded-mask-with-paired-leafy-heads",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 1525,
+      "height": 999,
+      "png": "png/large-bearded-mask-with-paired-leafy-heads.png",
+      "webp": "webp/large-bearded-mask-with-paired-leafy-heads.webp",
+      "png_bytes": 3341728,
+      "webp_bytes": 2171040,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/large-bearded-mask-with-paired-leafy-heads.png",
+          "webp": "webp/128/large-bearded-mask-with-paired-leafy-heads.webp",
+          "width": 128,
+          "height": 84,
+          "png_bytes": 34849,
+          "webp_bytes": 24232
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/large-bearded-mask-with-paired-leafy-heads.png",
+          "webp": "webp/256/large-bearded-mask-with-paired-leafy-heads.webp",
+          "width": 256,
+          "height": 168,
+          "png_bytes": 121169,
+          "webp_bytes": 85308
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/large-bearded-mask-with-paired-leafy-heads.png",
+          "webp": "webp/512/large-bearded-mask-with-paired-leafy-heads.webp",
+          "width": 512,
+          "height": 335,
+          "png_bytes": 427009,
+          "webp_bytes": 271254
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/large-bearded-mask-with-paired-leafy-heads.png",
+          "webp": "webp/768/large-bearded-mask-with-paired-leafy-heads.webp",
+          "width": 768,
+          "height": 503,
+          "png_bytes": 925755,
+          "webp_bytes": 585890
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "palmette-with-paired-dolphin-heads-and-leaf-scroll": {
+      "name": "palmette-with-paired-dolphin-heads-and-leaf-scroll",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 1842,
+      "height": 773,
+      "png": "png/palmette-with-paired-dolphin-heads-and-leaf-scroll.png",
+      "webp": "webp/palmette-with-paired-dolphin-heads-and-leaf-scroll.webp",
+      "png_bytes": 3025704,
+      "webp_bytes": 2067834,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/palmette-with-paired-dolphin-heads-and-leaf-scroll.png",
+          "webp": "webp/128/palmette-with-paired-dolphin-heads-and-leaf-scroll.webp",
+          "width": 128,
+          "height": 54,
+          "png_bytes": 25134,
+          "webp_bytes": 17626
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/palmette-with-paired-dolphin-heads-and-leaf-scroll.png",
+          "webp": "webp/256/palmette-with-paired-dolphin-heads-and-leaf-scroll.webp",
+          "width": 256,
+          "height": 107,
+          "png_bytes": 88666,
+          "webp_bytes": 60712
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/palmette-with-paired-dolphin-heads-and-leaf-scroll.png",
+          "webp": "webp/512/palmette-with-paired-dolphin-heads-and-leaf-scroll.webp",
+          "width": 512,
+          "height": 215,
+          "png_bytes": 301686,
+          "webp_bytes": 213928
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/palmette-with-paired-dolphin-heads-and-leaf-scroll.png",
+          "webp": "webp/768/palmette-with-paired-dolphin-heads-and-leaf-scroll.webp",
+          "width": 768,
+          "height": 322,
+          "png_bytes": 618851,
+          "webp_bytes": 412676
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "seated-child-holding-tall-leafy-scroll": {
+      "name": "seated-child-holding-tall-leafy-scroll",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 1045,
+      "height": 1428,
+      "png": "png/seated-child-holding-tall-leafy-scroll.png",
+      "webp": "webp/seated-child-holding-tall-leafy-scroll.webp",
+      "png_bytes": 2736550,
+      "webp_bytes": 1827656,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/seated-child-holding-tall-leafy-scroll.png",
+          "webp": "webp/128/seated-child-holding-tall-leafy-scroll.webp",
+          "width": 94,
+          "height": 128,
+          "png_bytes": 37823,
+          "webp_bytes": 24994
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/seated-child-holding-tall-leafy-scroll.png",
+          "webp": "webp/256/seated-child-holding-tall-leafy-scroll.webp",
+          "width": 187,
+          "height": 256,
+          "png_bytes": 122193,
+          "webp_bytes": 84020
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/seated-child-holding-tall-leafy-scroll.png",
+          "webp": "webp/512/seated-child-holding-tall-leafy-scroll.webp",
+          "width": 375,
+          "height": 512,
+          "png_bytes": 415231,
+          "webp_bytes": 271410
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/seated-child-holding-tall-leafy-scroll.png",
+          "webp": "webp/768/seated-child-holding-tall-leafy-scroll.webp",
+          "width": 562,
+          "height": 768,
+          "png_bytes": 883055,
+          "webp_bytes": 579478
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "six-leaf-blue-vine": {
+      "name": "six-leaf-blue-vine",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 734,
+      "height": 1013,
+      "png": "png/six-leaf-blue-vine.png",
+      "webp": "webp/six-leaf-blue-vine.webp",
+      "png_bytes": 905290,
+      "webp_bytes": 663412,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/six-leaf-blue-vine.png",
+          "webp": "webp/128/six-leaf-blue-vine.webp",
+          "width": 93,
+          "height": 128,
+          "png_bytes": 24766,
+          "webp_bytes": 19302
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/six-leaf-blue-vine.png",
+          "webp": "webp/256/six-leaf-blue-vine.webp",
+          "width": 185,
+          "height": 256,
+          "png_bytes": 79479,
+          "webp_bytes": 59416
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/six-leaf-blue-vine.png",
+          "webp": "webp/512/six-leaf-blue-vine.webp",
+          "width": 371,
+          "height": 512,
+          "png_bytes": 265389,
+          "webp_bytes": 195956
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/six-leaf-blue-vine.png",
+          "webp": "webp/768/six-leaf-blue-vine.webp",
+          "width": 556,
+          "height": 768,
+          "png_bytes": 553425,
+          "webp_bytes": 407972
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "square-floral-ornament-with-circular-medallion": {
+      "name": "square-floral-ornament-with-circular-medallion",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 1245,
+      "height": 1248,
+      "png": "png/square-floral-ornament-with-circular-medallion.png",
+      "webp": "webp/square-floral-ornament-with-circular-medallion.webp",
+      "png_bytes": 3483667,
+      "webp_bytes": 2530606,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/square-floral-ornament-with-circular-medallion.png",
+          "webp": "webp/128/square-floral-ornament-with-circular-medallion.webp",
+          "width": 128,
+          "height": 128,
+          "png_bytes": 47103,
+          "webp_bytes": 30980
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/square-floral-ornament-with-circular-medallion.png",
+          "webp": "webp/256/square-floral-ornament-with-circular-medallion.webp",
+          "width": 255,
+          "height": 256,
+          "png_bytes": 183616,
+          "webp_bytes": 114842
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/square-floral-ornament-with-circular-medallion.png",
+          "webp": "webp/512/square-floral-ornament-with-circular-medallion.webp",
+          "width": 511,
+          "height": 512,
+          "png_bytes": 691383,
+          "webp_bytes": 441816
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/square-floral-ornament-with-circular-medallion.png",
+          "webp": "webp/768/square-floral-ornament-with-circular-medallion.webp",
+          "width": 766,
+          "height": 768,
+          "png_bytes": 1482626,
+          "webp_bytes": 989926
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "tall-foliate-grotesque-with-female-and-animal-heads": {
+      "name": "tall-foliate-grotesque-with-female-and-animal-heads",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-source-extraction",
+      "repeat_axis": "none",
+      "width": 638,
+      "height": 2038,
+      "png": "png/tall-foliate-grotesque-with-female-and-animal-heads.png",
+      "webp": "webp/tall-foliate-grotesque-with-female-and-animal-heads.webp",
+      "png_bytes": 1956615,
+      "webp_bytes": 1124082,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/tall-foliate-grotesque-with-female-and-animal-heads.png",
+          "webp": "webp/128/tall-foliate-grotesque-with-female-and-animal-heads.webp",
+          "width": 40,
+          "height": 128,
+          "png_bytes": 16639,
+          "webp_bytes": 10786
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/tall-foliate-grotesque-with-female-and-animal-heads.png",
+          "webp": "webp/256/tall-foliate-grotesque-with-female-and-animal-heads.webp",
+          "width": 80,
+          "height": 256,
+          "png_bytes": 56671,
+          "webp_bytes": 35876
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/tall-foliate-grotesque-with-female-and-animal-heads.png",
+          "webp": "webp/512/tall-foliate-grotesque-with-female-and-animal-heads.webp",
+          "width": 160,
+          "height": 512,
+          "png_bytes": 188588,
+          "webp_bytes": 122906
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/tall-foliate-grotesque-with-female-and-animal-heads.png",
+          "webp": "webp/768/tall-foliate-grotesque-with-female-and-animal-heads.webp",
+          "width": 240,
+          "height": 768,
+          "png_bytes": 393102,
+          "webp_bytes": 246310
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "tall-foliate-shaft-with-paired-masks-and-dolphins": {
+      "name": "tall-foliate-shaft-with-paired-masks-and-dolphins",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 634,
+      "height": 2158,
+      "png": "png/tall-foliate-shaft-with-paired-masks-and-dolphins.png",
+      "webp": "webp/tall-foliate-shaft-with-paired-masks-and-dolphins.webp",
+      "png_bytes": 3067488,
+      "webp_bytes": 2032540,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/tall-foliate-shaft-with-paired-masks-and-dolphins.png",
+          "webp": "webp/128/tall-foliate-shaft-with-paired-masks-and-dolphins.webp",
+          "width": 38,
+          "height": 128,
+          "png_bytes": 17622,
+          "webp_bytes": 12348
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/tall-foliate-shaft-with-paired-masks-and-dolphins.png",
+          "webp": "webp/256/tall-foliate-shaft-with-paired-masks-and-dolphins.webp",
+          "width": 75,
+          "height": 256,
+          "png_bytes": 62630,
+          "webp_bytes": 42494
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/tall-foliate-shaft-with-paired-masks-and-dolphins.png",
+          "webp": "webp/512/tall-foliate-shaft-with-paired-masks-and-dolphins.webp",
+          "width": 150,
+          "height": 512,
+          "png_bytes": 217888,
+          "webp_bytes": 151464
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/tall-foliate-shaft-with-paired-masks-and-dolphins.png",
+          "webp": "webp/768/tall-foliate-shaft-with-paired-masks-and-dolphins.webp",
+          "width": 226,
+          "height": 768,
+          "png_bytes": 452187,
+          "webp_bytes": 299926
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "tall-leafy-shaft-with-horned-and-bearded-masks": {
+      "name": "tall-leafy-shaft-with-horned-and-bearded-masks",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 706,
+      "height": 2167,
+      "png": "png/tall-leafy-shaft-with-horned-and-bearded-masks.png",
+      "webp": "webp/tall-leafy-shaft-with-horned-and-bearded-masks.webp",
+      "png_bytes": 3173312,
+      "webp_bytes": 2149246,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/tall-leafy-shaft-with-horned-and-bearded-masks.png",
+          "webp": "webp/128/tall-leafy-shaft-with-horned-and-bearded-masks.webp",
+          "width": 42,
+          "height": 128,
+          "png_bytes": 19936,
+          "webp_bytes": 13988
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/tall-leafy-shaft-with-horned-and-bearded-masks.png",
+          "webp": "webp/256/tall-leafy-shaft-with-horned-and-bearded-masks.webp",
+          "width": 83,
+          "height": 256,
+          "png_bytes": 70723,
+          "webp_bytes": 47538
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/tall-leafy-shaft-with-horned-and-bearded-masks.png",
+          "webp": "webp/512/tall-leafy-shaft-with-horned-and-bearded-masks.webp",
+          "width": 167,
+          "height": 512,
+          "png_bytes": 239235,
+          "webp_bytes": 165968
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/tall-leafy-shaft-with-horned-and-bearded-masks.png",
+          "webp": "webp/768/tall-leafy-shaft-with-horned-and-bearded-masks.webp",
+          "width": 250,
+          "height": 768,
+          "png_bytes": 484949,
+          "webp_bytes": 323700
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "tall-satyr-with-violin-candelabrum": {
+      "name": "tall-satyr-with-violin-candelabrum",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-ink-extraction",
+      "repeat_axis": "none",
+      "width": 597,
+      "height": 3948,
+      "png": "png/tall-satyr-with-violin-candelabrum.png",
+      "webp": "webp/tall-satyr-with-violin-candelabrum.webp",
+      "png_bytes": 2746159,
+      "webp_bytes": 1626064,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/tall-satyr-with-violin-candelabrum.png",
+          "webp": "webp/128/tall-satyr-with-violin-candelabrum.webp",
+          "width": 19,
+          "height": 128,
+          "png_bytes": 5833,
+          "webp_bytes": 3216
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/tall-satyr-with-violin-candelabrum.png",
+          "webp": "webp/256/tall-satyr-with-violin-candelabrum.webp",
+          "width": 39,
+          "height": 256,
+          "png_bytes": 24534,
+          "webp_bytes": 12146
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/tall-satyr-with-violin-candelabrum.png",
+          "webp": "webp/512/tall-satyr-with-violin-candelabrum.webp",
+          "width": 77,
+          "height": 512,
+          "png_bytes": 99274,
+          "webp_bytes": 47360
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/tall-satyr-with-violin-candelabrum.png",
+          "webp": "webp/768/tall-satyr-with-violin-candelabrum.webp",
+          "width": 116,
+          "height": 768,
+          "png_bytes": 228503,
+          "webp_bytes": 108636
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "war-candelabrum-with-dragons-masks-and-weapons": {
+      "name": "war-candelabrum-with-dragons-masks-and-weapons",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 833,
+      "height": 1841,
+      "png": "png/war-candelabrum-with-dragons-masks-and-weapons.png",
+      "webp": "webp/war-candelabrum-with-dragons-masks-and-weapons.webp",
+      "png_bytes": 3289472,
+      "webp_bytes": 2168342,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/war-candelabrum-with-dragons-masks-and-weapons.png",
+          "webp": "webp/128/war-candelabrum-with-dragons-masks-and-weapons.webp",
+          "width": 58,
+          "height": 128,
+          "png_bytes": 25832,
+          "webp_bytes": 17692
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/war-candelabrum-with-dragons-masks-and-weapons.png",
+          "webp": "webp/256/war-candelabrum-with-dragons-masks-and-weapons.webp",
+          "width": 116,
+          "height": 256,
+          "png_bytes": 93130,
+          "webp_bytes": 61012
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/war-candelabrum-with-dragons-masks-and-weapons.png",
+          "webp": "webp/512/war-candelabrum-with-dragons-masks-and-weapons.webp",
+          "width": 232,
+          "height": 512,
+          "png_bytes": 318559,
+          "webp_bytes": 220010
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/war-candelabrum-with-dragons-masks-and-weapons.png",
+          "webp": "webp/768/war-candelabrum-with-dragons-masks-and-weapons.webp",
+          "width": 347,
+          "height": 768,
+          "png_bytes": 656604,
+          "webp_bytes": 430980
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    }
+  },
+  "files": {
+    "png/128/acanthus-panel-with-two-lovers-and-inhabiting-animals.png": {
+      "bytes": 40785,
+      "sha256": "64a2ad32efea5e3c5ed87c7e479e16866aa046162467167cdb3164956a5ec37c"
+    },
+    "png/128/candelabra-supported-by-two-blindfolded-women.png": {
+      "bytes": 9992,
+      "sha256": "0e9054c6154626c0fbfa089f3873ed3a2b05b8a56e5bde96917616e826172937"
+    },
+    "png/128/child-gripping-wide-foliate-scroll.png": {
+      "bytes": 22572,
+      "sha256": "4cf8ac56761bcd247ae21bfbe92709e55fc410d437e8e939db14f95e8ff49ee5"
+    },
+    "png/128/fluted-vase-with-horns-and-broad-leaf-scroll.png": {
+      "bytes": 35776,
+      "sha256": "b2a134bdc7b527bd1e91a6ae23355e064fbc23b1ac4e51a0eb4609a170ca2237"
+    },
+    "png/128/foliate-vine-with-hairy-grotesque-mask.png": {
+      "bytes": 9674,
+      "sha256": "2f448e52c5ae293302c3201b60e23bf2d2d798597611a918cd3aeb89f6373869"
+    },
+    "png/128/interacting-centaurs-and-riders-in-foliate-frieze.png": {
+      "bytes": 17849,
+      "sha256": "121bd719b8bb62b70f93640e632667f2fbc8742ec7672a73e5dc0adf3f947d76"
+    },
+    "png/128/large-bearded-mask-with-paired-leafy-heads.png": {
+      "bytes": 34849,
+      "sha256": "0404a154b4be7ce99e01968a17e8157b4b22a9a7598e42002a2898bde916e1bf"
+    },
+    "png/128/palmette-with-paired-dolphin-heads-and-leaf-scroll.png": {
+      "bytes": 25134,
+      "sha256": "a2357fcdbad1b797a3c694704cd4987b93599936f49d44a40a726c6281e1b407"
+    },
+    "png/128/seated-child-holding-tall-leafy-scroll.png": {
+      "bytes": 37823,
+      "sha256": "d25c13d3baca6f8e9dee4580490e27f603c2e4e3472f5e6dd91ca052111a0726"
+    },
+    "png/128/six-leaf-blue-vine.png": {
+      "bytes": 24766,
+      "sha256": "753eb750543a490af50dcdceeaead3dfa005edde3735a1d617b95388daa1b227"
+    },
+    "png/128/square-floral-ornament-with-circular-medallion.png": {
+      "bytes": 47103,
+      "sha256": "f8091396983268443d41c33368eac87e9d6b69584f3b33694491e951f5e1a105"
+    },
+    "png/128/tall-foliate-grotesque-with-female-and-animal-heads.png": {
+      "bytes": 16639,
+      "sha256": "b3c403854e53a7002f38f067a9bab9b56fd75417a0fa330a2df079ba2ab43c70"
+    },
+    "png/128/tall-foliate-shaft-with-paired-masks-and-dolphins.png": {
+      "bytes": 17622,
+      "sha256": "bb9f68666f6656800aa460b208be362b9f1dfac0020c8c3b56efb69a15486266"
+    },
+    "png/128/tall-leafy-shaft-with-horned-and-bearded-masks.png": {
+      "bytes": 19936,
+      "sha256": "6428f898515925a409d11a7b6ef558a2d57e1ea0a8568e97a08d20178eed148f"
+    },
+    "png/128/tall-satyr-with-violin-candelabrum.png": {
+      "bytes": 5833,
+      "sha256": "9d8c697aed3d5f602593ff8c161b9d6ee1e9f17900f1d00cb473f0dfc842b2b6"
+    },
+    "png/128/war-candelabrum-with-dragons-masks-and-weapons.png": {
+      "bytes": 25832,
+      "sha256": "84cc8e16c598c8fdf9fc261f855876da944700091d888b1831cf27b891b9e15b"
+    },
+    "png/256/acanthus-panel-with-two-lovers-and-inhabiting-animals.png": {
+      "bytes": 153721,
+      "sha256": "bc5d4430786ffdf2dc5dcaa95643c3d37285be9d906da78fbed7f5045bce55db"
+    },
+    "png/256/candelabra-supported-by-two-blindfolded-women.png": {
+      "bytes": 35220,
+      "sha256": "3c74432e7e121ed1437b13d4c76a19f7fa7a8e02b19ae4682facc499984a6776"
+    },
+    "png/256/child-gripping-wide-foliate-scroll.png": {
+      "bytes": 79429,
+      "sha256": "4b4b56c3801349f880a4bc0b2582f688645cd2cc4b70ee2e6c52c27b82a412d9"
+    },
+    "png/256/fluted-vase-with-horns-and-broad-leaf-scroll.png": {
+      "bytes": 123569,
+      "sha256": "d8de7aa40090939e2d7bbbabbe9b07b3f3b51f894b49cfe85352349fab02b469"
+    },
+    "png/256/foliate-vine-with-hairy-grotesque-mask.png": {
+      "bytes": 32800,
+      "sha256": "1f1b9c4925da70818a006fed910b753106215c41b2a5c9bebd3fff98c1c78fbb"
+    },
+    "png/256/interacting-centaurs-and-riders-in-foliate-frieze.png": {
+      "bytes": 62012,
+      "sha256": "e6dd99396e89f8059492889f155223dc12628b7cfb13d431dea6e6cb0b1ded23"
+    },
+    "png/256/large-bearded-mask-with-paired-leafy-heads.png": {
+      "bytes": 121169,
+      "sha256": "9a8fc07d633271e7f941beb8663144b0bc7b1509da5732e2a2abbae8b439f848"
+    },
+    "png/256/palmette-with-paired-dolphin-heads-and-leaf-scroll.png": {
+      "bytes": 88666,
+      "sha256": "e667c8afcdd4454eb58ee7a11f55afd13c1ffc01f4931881942d20c7a0415258"
+    },
+    "png/256/seated-child-holding-tall-leafy-scroll.png": {
+      "bytes": 122193,
+      "sha256": "f44bbdc02207fa45ac1c3cb7f5e22a8aada48c51223781511d6a4d2fc9754240"
+    },
+    "png/256/six-leaf-blue-vine.png": {
+      "bytes": 79479,
+      "sha256": "c39b51ab8475f074c8c8e6f0729268257b11dfdaa38e0a5286cfa5f621635d5d"
+    },
+    "png/256/square-floral-ornament-with-circular-medallion.png": {
+      "bytes": 183616,
+      "sha256": "e0faf65f4f23c7a0ebef377adc783bc7e74ed225bd0a815e4c1ffe7db11c5790"
+    },
+    "png/256/tall-foliate-grotesque-with-female-and-animal-heads.png": {
+      "bytes": 56671,
+      "sha256": "c01e5cc31f657adf9744724cf2495faa5a55eee1aa9043c6c742802ddf9fdc67"
+    },
+    "png/256/tall-foliate-shaft-with-paired-masks-and-dolphins.png": {
+      "bytes": 62630,
+      "sha256": "a95d91aa23c13db1e4a0352396df8a8382e628d29189224dc2ba9d108903ea5f"
+    },
+    "png/256/tall-leafy-shaft-with-horned-and-bearded-masks.png": {
+      "bytes": 70723,
+      "sha256": "d4d5932dcdc226d44ea8f9fa7ca7e716e63dd647610c25b2df4180d69d2477fe"
+    },
+    "png/256/tall-satyr-with-violin-candelabrum.png": {
+      "bytes": 24534,
+      "sha256": "6940ad311a94deac88018151e037d8e107888b123d4ec62daed68eb62ca8c007"
+    },
+    "png/256/war-candelabrum-with-dragons-masks-and-weapons.png": {
+      "bytes": 93130,
+      "sha256": "a8dbada20eba2e326ff576185a079cff49349f0682bd61eec1b5153ade17019a"
+    },
+    "png/512/acanthus-panel-with-two-lovers-and-inhabiting-animals.png": {
+      "bytes": 541672,
+      "sha256": "2c110b91a6ad9e992c98255d349b9e84c698e5dc89690cf586a6b5b906aa72bf"
+    },
+    "png/512/candelabra-supported-by-two-blindfolded-women.png": {
+      "bytes": 123626,
+      "sha256": "28a8da2faaba85d218a3a478cb598989133dd32a866e73c56d447abe203ba104"
+    },
+    "png/512/child-gripping-wide-foliate-scroll.png": {
+      "bytes": 268881,
+      "sha256": "4f7842bb3cb5f00a76fcc1b2c4f80f736bf74959f605d5591dba6acaeb57a474"
+    },
+    "png/512/fluted-vase-with-horns-and-broad-leaf-scroll.png": {
+      "bytes": 426192,
+      "sha256": "92c0c0cf5bd632a2a4dc0a1088c7b7b30a91dd6727f8e635743dd14190d9c1fd"
+    },
+    "png/512/foliate-vine-with-hairy-grotesque-mask.png": {
+      "bytes": 111515,
+      "sha256": "9b07f6690b3095ef005ee5a991cd4ba8c85b93877cf9d80237e11b2af7747759"
+    },
+    "png/512/interacting-centaurs-and-riders-in-foliate-frieze.png": {
+      "bytes": 213362,
+      "sha256": "96f44c222ccc7b79ac4db02e94c6db4b115bb5ad862b8fa7d4a31b7fbe4ba967"
+    },
+    "png/512/large-bearded-mask-with-paired-leafy-heads.png": {
+      "bytes": 427009,
+      "sha256": "a5ec1410dfca3ef4f1191ae5a34eabdc33df57bc5ad3179cdb6664c938df435c"
+    },
+    "png/512/palmette-with-paired-dolphin-heads-and-leaf-scroll.png": {
+      "bytes": 301686,
+      "sha256": "d73857f8c2b228315ed7c65c638ed4bd256343bad7707c6f93a073232663b24c"
+    },
+    "png/512/seated-child-holding-tall-leafy-scroll.png": {
+      "bytes": 415231,
+      "sha256": "c9bdeee89255a549467f0a4076ba9a383e774a368659f8fdef50b51b1a29e6a9"
+    },
+    "png/512/six-leaf-blue-vine.png": {
+      "bytes": 265389,
+      "sha256": "5a158dfa61bea81b55f6db1339b91e71621ee2fb210dedbaaa902bc500ce65d2"
+    },
+    "png/512/square-floral-ornament-with-circular-medallion.png": {
+      "bytes": 691383,
+      "sha256": "323826a46af0c774292a98f819322b1224b5575b28134e93b7e45e76f7cf7037"
+    },
+    "png/512/tall-foliate-grotesque-with-female-and-animal-heads.png": {
+      "bytes": 188588,
+      "sha256": "9b849aa6db846a2ebf0244797dd639a04ede297c8bb2be52e67705e1cd5435d6"
+    },
+    "png/512/tall-foliate-shaft-with-paired-masks-and-dolphins.png": {
+      "bytes": 217888,
+      "sha256": "67dfe0ea8a2a0e4a0c741e16f6aea2eeacbb44a9c57330b5d041bd223514e0bb"
+    },
+    "png/512/tall-leafy-shaft-with-horned-and-bearded-masks.png": {
+      "bytes": 239235,
+      "sha256": "c67e6686f9d01b738013f9bec66d583c0fa69f9ceb4586ad2b77998ae8d65fb8"
+    },
+    "png/512/tall-satyr-with-violin-candelabrum.png": {
+      "bytes": 99274,
+      "sha256": "d408e7cdb003f31a63d28aa5e3858c14187552b2aef4d7c97bfcb894af07542b"
+    },
+    "png/512/war-candelabrum-with-dragons-masks-and-weapons.png": {
+      "bytes": 318559,
+      "sha256": "b9f40f9c9e6757abd545916bd123836d3024ba71fd598746dfaf50bb8b274456"
+    },
+    "png/768/acanthus-panel-with-two-lovers-and-inhabiting-animals.png": {
+      "bytes": 1106227,
+      "sha256": "58ae4f3ddf9354a06cb59e2af7df319c39273b51d131b478b4c1c1819b14d651"
+    },
+    "png/768/candelabra-supported-by-two-blindfolded-women.png": {
+      "bytes": 259748,
+      "sha256": "2ad038190f18effbb7e1c154ab3e7b78e85bc1f00185c9cd32c54debcf1950a0"
+    },
+    "png/768/child-gripping-wide-foliate-scroll.png": {
+      "bytes": 563966,
+      "sha256": "e54b000a820175fd0469586cf64d8d17353e40de5e996c7a67ee8832dc8b6de4"
+    },
+    "png/768/fluted-vase-with-horns-and-broad-leaf-scroll.png": {
+      "bytes": 895888,
+      "sha256": "a96f7247e1253ae6af16ca914704859c83c6e4fef38fff924b189cfb0a3e6382"
+    },
+    "png/768/foliate-vine-with-hairy-grotesque-mask.png": {
+      "bytes": 219773,
+      "sha256": "fb9b41b70a9185ac6034ffd0a267ba59fefcb63e7295d0fe8d9029a6d01ce0de"
+    },
+    "png/768/interacting-centaurs-and-riders-in-foliate-frieze.png": {
+      "bytes": 452158,
+      "sha256": "12e34cd59ddec5e029898ae7d145565a3303614254b56fce5ccbe16153836252"
+    },
+    "png/768/large-bearded-mask-with-paired-leafy-heads.png": {
+      "bytes": 925755,
+      "sha256": "9455891d89d01eaed2a588b72e7378ae725e69150782b45550fb6815a68bd9a9"
+    },
+    "png/768/palmette-with-paired-dolphin-heads-and-leaf-scroll.png": {
+      "bytes": 618851,
+      "sha256": "0acbbbe5646177079d13f87fe3f9fd8f9aaf79fa2061c1c4714982aea5a67607"
+    },
+    "png/768/seated-child-holding-tall-leafy-scroll.png": {
+      "bytes": 883055,
+      "sha256": "6d5319f51778e5eb30781aeca3a6cbd26861aa09265b606aa147713964abb481"
+    },
+    "png/768/six-leaf-blue-vine.png": {
+      "bytes": 553425,
+      "sha256": "0c7f1057e9662c12600c0f498e9606831d4d4b02d8f541af22f62541c84f17c8"
+    },
+    "png/768/square-floral-ornament-with-circular-medallion.png": {
+      "bytes": 1482626,
+      "sha256": "0410df762f5e7d188ac994dfb8c3d79a61c17bbf1d3ea37f2b2bf9ae4574297f"
+    },
+    "png/768/tall-foliate-grotesque-with-female-and-animal-heads.png": {
+      "bytes": 393102,
+      "sha256": "ce66618e03148c59e6253f54d446ed9e94f40c04ab565e6fca501b5914e548c9"
+    },
+    "png/768/tall-foliate-shaft-with-paired-masks-and-dolphins.png": {
+      "bytes": 452187,
+      "sha256": "f1c666c0da50554637d3d11afc26928ccd60d87c092e92472c46266511a32a45"
+    },
+    "png/768/tall-leafy-shaft-with-horned-and-bearded-masks.png": {
+      "bytes": 484949,
+      "sha256": "ccd4e06a81ddad9aafd2f4a1fc981476eb0e1d34f3857b2adf22c5626355319d"
+    },
+    "png/768/tall-satyr-with-violin-candelabrum.png": {
+      "bytes": 228503,
+      "sha256": "092464d93c659310e5bbb07566f2d70a2e986cfe66ef08a5c70a297915f5932b"
+    },
+    "png/768/war-candelabrum-with-dragons-masks-and-weapons.png": {
+      "bytes": 656604,
+      "sha256": "89f40ff35c9573981bff0b20fd1a4707ab0958cfb206e2b287d94ffecc75850a"
+    },
+    "png/acanthus-panel-with-two-lovers-and-inhabiting-animals.png": {
+      "bytes": 18808958,
+      "sha256": "11ff82cd96072ad51dce6ea05b03c5c30a026a99022efdcfec141ce0c9aeb297"
+    },
+    "png/candelabra-supported-by-two-blindfolded-women.png": {
+      "bytes": 4715497,
+      "sha256": "a8d685151bd149bb6b2c008cd1a091c3c8730fa08b5b79bf53fca56fc1ca5319"
+    },
+    "png/child-gripping-wide-foliate-scroll.png": {
+      "bytes": 3155571,
+      "sha256": "2a67fa3bc77d355f6ead2cbe2fa0eaa18819836911543f06844789f349106265"
+    },
+    "png/fluted-vase-with-horns-and-broad-leaf-scroll.png": {
+      "bytes": 3228579,
+      "sha256": "5feeb8514a000dcf552b73fb3b3023cb2936dd283d45ba253e71cb19faa81e7f"
+    },
+    "png/foliate-vine-with-hairy-grotesque-mask.png": {
+      "bytes": 224212,
+      "sha256": "ffc12cb51ef7bbcc21a037dfb851caabfda519e15dfc4a2c7cc929c3d0e25bc2"
+    },
+    "png/interacting-centaurs-and-riders-in-foliate-frieze.png": {
+      "bytes": 2920264,
+      "sha256": "28dc6df70917df8dcef4e47e627f88919c6cea953be84c1594e3da5b1982b077"
+    },
+    "png/large-bearded-mask-with-paired-leafy-heads.png": {
+      "bytes": 3341728,
+      "sha256": "dfe4edbc011fe481ae545297e87b9ddb345b0561667e4dac2991581371b2edc5"
+    },
+    "png/palmette-with-paired-dolphin-heads-and-leaf-scroll.png": {
+      "bytes": 3025704,
+      "sha256": "6cafd4be9b3dc5cd3fb04b81f1e1fa3371d271e7efc83c550804ea3e1e26e1b8"
+    },
+    "png/seated-child-holding-tall-leafy-scroll.png": {
+      "bytes": 2736550,
+      "sha256": "8e4906e9cd093703389f8489542b0f35adbba1556921aba499df964700f5d576"
+    },
+    "png/six-leaf-blue-vine.png": {
+      "bytes": 905290,
+      "sha256": "21ed62fa78d9a8887901f2938d52d01ad325003b487978242bef1f737744689f"
+    },
+    "png/square-floral-ornament-with-circular-medallion.png": {
+      "bytes": 3483667,
+      "sha256": "40f1dfb91985bf7c7ea40f0be32f2b19ade37971d0ab2e7c7a8ec49adf038638"
+    },
+    "png/tall-foliate-grotesque-with-female-and-animal-heads.png": {
+      "bytes": 1956615,
+      "sha256": "462f714b38a53b09c6aeb514d33a88b636d0e638b2c4539ca4b2c284aed1dd43"
+    },
+    "png/tall-foliate-shaft-with-paired-masks-and-dolphins.png": {
+      "bytes": 3067488,
+      "sha256": "85564297c2a24e716365ee09f6094a119a236f1e4fe1174756b3f40c127f410d"
+    },
+    "png/tall-leafy-shaft-with-horned-and-bearded-masks.png": {
+      "bytes": 3173312,
+      "sha256": "b32ae6a019278286a3e69a16f4d14310a0ecd998d8c65f736f4540b2ca4dd5ce"
+    },
+    "png/tall-satyr-with-violin-candelabrum.png": {
+      "bytes": 2746159,
+      "sha256": "fb11e8c773ad2e45df03d7be28f4d58f7de38269f1c27d9016de203cf52b65ce"
+    },
+    "png/war-candelabrum-with-dragons-masks-and-weapons.png": {
+      "bytes": 3289472,
+      "sha256": "1e34572eca3330d529b973189f6a30e3773656cf30656bbc2bd748f7aa25f9b3"
+    },
+    "webp/128/acanthus-panel-with-two-lovers-and-inhabiting-animals.webp": {
+      "bytes": 28050,
+      "sha256": "97279204703193367fa13ecbdbc7356d8ce0a436dd8ec8cd98b68d0555fd7daa"
+    },
+    "webp/128/candelabra-supported-by-two-blindfolded-women.webp": {
+      "bytes": 7252,
+      "sha256": "4df98be7bf814946801a33829c02502b4b9821c964f519c21f03684a5ef61072"
+    },
+    "webp/128/child-gripping-wide-foliate-scroll.webp": {
+      "bytes": 16096,
+      "sha256": "595e94219ce2635dddc1ef460a356498a824ca07ee927b6ab62485733cc75751"
+    },
+    "webp/128/fluted-vase-with-horns-and-broad-leaf-scroll.webp": {
+      "bytes": 23994,
+      "sha256": "52361cb02741ca6a49d45ab33723d8aba11fb7d84db7806c617d3b7817773119"
+    },
+    "webp/128/foliate-vine-with-hairy-grotesque-mask.webp": {
+      "bytes": 6110,
+      "sha256": "2be546dff90ee495b7be3b928eeada35e398f020628f1afc9eaa91eeb5684046"
+    },
+    "webp/128/interacting-centaurs-and-riders-in-foliate-frieze.webp": {
+      "bytes": 12906,
+      "sha256": "382b887b81114d9fe915d73ebabb35f41ed4257576ac3aa229aec8f116dab885"
+    },
+    "webp/128/large-bearded-mask-with-paired-leafy-heads.webp": {
+      "bytes": 24232,
+      "sha256": "8956a742564bb681e082133eb723b75da43b432ecae21136de61d0704ee8d1c6"
+    },
+    "webp/128/palmette-with-paired-dolphin-heads-and-leaf-scroll.webp": {
+      "bytes": 17626,
+      "sha256": "85a0d0e7ad024be90f0645b3504475184a4c39948c7fd604a953862478cd5e6e"
+    },
+    "webp/128/seated-child-holding-tall-leafy-scroll.webp": {
+      "bytes": 24994,
+      "sha256": "7aa563ea1380ee4eccf42a98766fa1d525d49dddcd372e443e4adf63a18b9fa7"
+    },
+    "webp/128/six-leaf-blue-vine.webp": {
+      "bytes": 19302,
+      "sha256": "ed1e7e15eeb989368bbe35034cc055e0a7bb0777d5fea630171dbb23af9f1f99"
+    },
+    "webp/128/square-floral-ornament-with-circular-medallion.webp": {
+      "bytes": 30980,
+      "sha256": "bff3f527dddfe4267f6cda9f1684c5f834b74c41928a422e8746f5594d42dcb4"
+    },
+    "webp/128/tall-foliate-grotesque-with-female-and-animal-heads.webp": {
+      "bytes": 10786,
+      "sha256": "3aa60a20544213fef36340ecfd8eb2b77eb65fadf917aac4c0610e7d67f9a710"
+    },
+    "webp/128/tall-foliate-shaft-with-paired-masks-and-dolphins.webp": {
+      "bytes": 12348,
+      "sha256": "ac3431bfa70ed5efeea9bb8d7595b691342de53b57f2863e57cc9b5af45df381"
+    },
+    "webp/128/tall-leafy-shaft-with-horned-and-bearded-masks.webp": {
+      "bytes": 13988,
+      "sha256": "6b561924a4eaea1c861ca59a97aa9ae3fb206732b427d7d3d31715c5749a325e"
+    },
+    "webp/128/tall-satyr-with-violin-candelabrum.webp": {
+      "bytes": 3216,
+      "sha256": "8c018230d248131e4f7f0e7cc77b6b9242df620073bb127619f17885c1cc5c15"
+    },
+    "webp/128/war-candelabrum-with-dragons-masks-and-weapons.webp": {
+      "bytes": 17692,
+      "sha256": "9bda67a378811dc7efccc1864b3a56fab3d87ff66793400665615f61dc41a006"
+    },
+    "webp/256/acanthus-panel-with-two-lovers-and-inhabiting-animals.webp": {
+      "bytes": 101094,
+      "sha256": "27b9d85b26ec1df13b8e870201680459a19b48354fe48e06d7786117fdf44477"
+    },
+    "webp/256/candelabra-supported-by-two-blindfolded-women.webp": {
+      "bytes": 24246,
+      "sha256": "dc0f1ac9c102b0488b4136b40aa586e369b2e899948895f26ea7db9af5614dd1"
+    },
+    "webp/256/child-gripping-wide-foliate-scroll.webp": {
+      "bytes": 54722,
+      "sha256": "88b2123bb7e834adc7988317cebb8129a4e1c32d973f8b7266511c0b646ee5fd"
+    },
+    "webp/256/fluted-vase-with-horns-and-broad-leaf-scroll.webp": {
+      "bytes": 84488,
+      "sha256": "fc011115de0719041cfaa19cbcc99b5c64070a8f060c214317aeef565f598a3d"
+    },
+    "webp/256/foliate-vine-with-hairy-grotesque-mask.webp": {
+      "bytes": 20298,
+      "sha256": "f8ff65d93936ca1ab62f2483ea84f39b68d2acb6a10f080d10c56174b320103f"
+    },
+    "webp/256/interacting-centaurs-and-riders-in-foliate-frieze.webp": {
+      "bytes": 43282,
+      "sha256": "4f344c1f6c195c0a9dac1ed9d46d6785a2da730d37919e2e2b9bdb7ab3e5d0b3"
+    },
+    "webp/256/large-bearded-mask-with-paired-leafy-heads.webp": {
+      "bytes": 85308,
+      "sha256": "d0ccffa39f1d07fcd3529d184366b5d4044e762cf4fb84fec935e829627d3a95"
+    },
+    "webp/256/palmette-with-paired-dolphin-heads-and-leaf-scroll.webp": {
+      "bytes": 60712,
+      "sha256": "8aa40f9297c7b278fb5bc7ab0229113bdf0efb022668f558e4b95d116469589f"
+    },
+    "webp/256/seated-child-holding-tall-leafy-scroll.webp": {
+      "bytes": 84020,
+      "sha256": "d5d0ff360997644a1267915794eb8514d76357d9201732851f64b0441a6c6a49"
+    },
+    "webp/256/six-leaf-blue-vine.webp": {
+      "bytes": 59416,
+      "sha256": "f4f6533132e598c8402a19972e5146c32966f5c4095449a326c272bb42e7e60d"
+    },
+    "webp/256/square-floral-ornament-with-circular-medallion.webp": {
+      "bytes": 114842,
+      "sha256": "14094c620420c843d58dbfb35207336f3d95686dc04f978ec900daa1a7276921"
+    },
+    "webp/256/tall-foliate-grotesque-with-female-and-animal-heads.webp": {
+      "bytes": 35876,
+      "sha256": "e7cd6d7ca1012e9a3f9100b66f222792ed3cdde45a3d099e2311cbf9e74e101a"
+    },
+    "webp/256/tall-foliate-shaft-with-paired-masks-and-dolphins.webp": {
+      "bytes": 42494,
+      "sha256": "f138e3d94efd1072f5143c7e810151dc37193b474dd8cfa6527fe89612d149ec"
+    },
+    "webp/256/tall-leafy-shaft-with-horned-and-bearded-masks.webp": {
+      "bytes": 47538,
+      "sha256": "3da1cfd47713361f35e1676177cd2df762dd06463499c194cc0bd72efdbd3e25"
+    },
+    "webp/256/tall-satyr-with-violin-candelabrum.webp": {
+      "bytes": 12146,
+      "sha256": "5263749793b5277a565f536853c06e29d1a2eed52b74545eaa323debdbe48d72"
+    },
+    "webp/256/war-candelabrum-with-dragons-masks-and-weapons.webp": {
+      "bytes": 61012,
+      "sha256": "6c7e16197cf5340b7c1225fce24f9154169fcd104017b92a7a3a39b8068fd79e"
+    },
+    "webp/512/acanthus-panel-with-two-lovers-and-inhabiting-animals.webp": {
+      "bytes": 352302,
+      "sha256": "b71a58687a95db90c076ce1e2f8b2a5b6873eb21b3c9fe47fdb2ed9f75defac4"
+    },
+    "webp/512/candelabra-supported-by-two-blindfolded-women.webp": {
+      "bytes": 86528,
+      "sha256": "0da703dc0791ca2ebf4ac053cfe5182ec9ee84c7fc23ab70197faa450c2a0763"
+    },
+    "webp/512/child-gripping-wide-foliate-scroll.webp": {
+      "bytes": 177936,
+      "sha256": "a8cefa3fd2f4fdae454b1eaa4054b863545918bb38c0badcc4b0b45c91d564c8"
+    },
+    "webp/512/fluted-vase-with-horns-and-broad-leaf-scroll.webp": {
+      "bytes": 273370,
+      "sha256": "8df3bfb3f36d5012746debb26504acf528815d627b9e5f6ec898ad58c60d6fd0"
+    },
+    "webp/512/foliate-vine-with-hairy-grotesque-mask.webp": {
+      "bytes": 65398,
+      "sha256": "d19ab26287e8da2591879a0524487b0018b8e324a1fcf37eb3c40fcd161d96bc"
+    },
+    "webp/512/interacting-centaurs-and-riders-in-foliate-frieze.webp": {
+      "bytes": 142022,
+      "sha256": "9c2fdbf00e29e63b1217f936dd7779498173d6d204ba5ab4dac6095506c37e93"
+    },
+    "webp/512/large-bearded-mask-with-paired-leafy-heads.webp": {
+      "bytes": 271254,
+      "sha256": "ca3cbeae1ff7935892bc4fb84e249860b7e104062f83bda0570dde94e6bf6f55"
+    },
+    "webp/512/palmette-with-paired-dolphin-heads-and-leaf-scroll.webp": {
+      "bytes": 213928,
+      "sha256": "dd68417a1e46ac9933875cb5f7854b370f6df1d7813c1cfae2e5acaacffde046"
+    },
+    "webp/512/seated-child-holding-tall-leafy-scroll.webp": {
+      "bytes": 271410,
+      "sha256": "4bf38b6becfc82d08a5a4dc22709e648f19fa18323e278171f7c05d345abf74d"
+    },
+    "webp/512/six-leaf-blue-vine.webp": {
+      "bytes": 195956,
+      "sha256": "820fe0541be2db845efcd7195f59a97c5b8965f7168d2801ba55b63fe09de6c3"
+    },
+    "webp/512/square-floral-ornament-with-circular-medallion.webp": {
+      "bytes": 441816,
+      "sha256": "dbc6b376ba561279ba6f9c26638ecd5a8b7f7b87f9b251269922dced883ab212"
+    },
+    "webp/512/tall-foliate-grotesque-with-female-and-animal-heads.webp": {
+      "bytes": 122906,
+      "sha256": "426160e7bd8c70b9d7168f99647fd5507c3acf382992cb54e6dbdbd66092d317"
+    },
+    "webp/512/tall-foliate-shaft-with-paired-masks-and-dolphins.webp": {
+      "bytes": 151464,
+      "sha256": "9e07144dc1cb59550ab0e2726f9018293cc35c080a8160711d6d71dc798de6b6"
+    },
+    "webp/512/tall-leafy-shaft-with-horned-and-bearded-masks.webp": {
+      "bytes": 165968,
+      "sha256": "cbf8ac70da6670430d7f8d3e7ccfb85ce4aab1b37a205535a9b2f7be0e3d0e75"
+    },
+    "webp/512/tall-satyr-with-violin-candelabrum.webp": {
+      "bytes": 47360,
+      "sha256": "a5a11c9d289df480e1994ec0a0fce80392c7288e92495aa9a67e98cd5f60ce8c"
+    },
+    "webp/512/war-candelabrum-with-dragons-masks-and-weapons.webp": {
+      "bytes": 220010,
+      "sha256": "329d0db4720c702396899fcdca8e7c4eb31df0cf54c33c2dbbdafdae1b209109"
+    },
+    "webp/768/acanthus-panel-with-two-lovers-and-inhabiting-animals.webp": {
+      "bytes": 733042,
+      "sha256": "ae43cb84fc638cbbcf369e0f0dfd7a64822cbb38a54cebd1738aed7ec58f60a8"
+    },
+    "webp/768/candelabra-supported-by-two-blindfolded-women.webp": {
+      "bytes": 168418,
+      "sha256": "0439d176e003489855b1c4ba9fbe3880d7b74fa6c33f8faa4cd30829754bac7f"
+    },
+    "webp/768/child-gripping-wide-foliate-scroll.webp": {
+      "bytes": 370040,
+      "sha256": "ff706a23a8ca20993fad1f285e6273bbf4606c72f2e55a334bf3ab810328d23a"
+    },
+    "webp/768/fluted-vase-with-horns-and-broad-leaf-scroll.webp": {
+      "bytes": 572734,
+      "sha256": "b36029a1bcacf4b484febd678d8f3fa2329cc68439b7581f2f9c0e5438961e3c"
+    },
+    "webp/768/foliate-vine-with-hairy-grotesque-mask.webp": {
+      "bytes": 130062,
+      "sha256": "c95a28f56e0183ab0b27e530f6b632ed0ed6001eef627d0d7177fe24649c7171"
+    },
+    "webp/768/interacting-centaurs-and-riders-in-foliate-frieze.webp": {
+      "bytes": 296444,
+      "sha256": "0d83cd65e8a7fbb0fcc799d2417ebfcf8134312c331794fe3718eb5f09c027e1"
+    },
+    "webp/768/large-bearded-mask-with-paired-leafy-heads.webp": {
+      "bytes": 585890,
+      "sha256": "c2270ba736ab607787b257bd5d2c4f829fbcb46ebc1bfc0125be282cc2f24466"
+    },
+    "webp/768/palmette-with-paired-dolphin-heads-and-leaf-scroll.webp": {
+      "bytes": 412676,
+      "sha256": "5c9604293cfa89e85a01916b15918625a727483f108fa96891f3e975b4042798"
+    },
+    "webp/768/seated-child-holding-tall-leafy-scroll.webp": {
+      "bytes": 579478,
+      "sha256": "37f648d688727319c03cc96f5642ead78533b1594ec5e4f9982756a2c0c7c24e"
+    },
+    "webp/768/six-leaf-blue-vine.webp": {
+      "bytes": 407972,
+      "sha256": "179aa1af0ca39d232cded0082534bf7d4ad726952db1a2b77cf56198a9dc8d04"
+    },
+    "webp/768/square-floral-ornament-with-circular-medallion.webp": {
+      "bytes": 989926,
+      "sha256": "03257a32faacc076ccd851fbeeb9d791429d3928835f2758eda40e56c76b0054"
+    },
+    "webp/768/tall-foliate-grotesque-with-female-and-animal-heads.webp": {
+      "bytes": 246310,
+      "sha256": "dab50158aa718118afc175c59bd6237dcbaaf61074d22974f3952fb7facb19c1"
+    },
+    "webp/768/tall-foliate-shaft-with-paired-masks-and-dolphins.webp": {
+      "bytes": 299926,
+      "sha256": "60b3fc53ec5f67ce6b9c57729fa570de81643f636882989a8f91641b97a18ec0"
+    },
+    "webp/768/tall-leafy-shaft-with-horned-and-bearded-masks.webp": {
+      "bytes": 323700,
+      "sha256": "1018592de0f4b8c7ecaa5494a1b5c6b9b9960125efae441424bb13b247b8da64"
+    },
+    "webp/768/tall-satyr-with-violin-candelabrum.webp": {
+      "bytes": 108636,
+      "sha256": "4a7a5952158fbdc3e381db2eb65d79b5c67b0d14abf927d4d0dc5d8521538110"
+    },
+    "webp/768/war-candelabrum-with-dragons-masks-and-weapons.webp": {
+      "bytes": 430980,
+      "sha256": "56f269fb83110baa383528fdfdad1313750dc00c92149fb66dd8ac9a52a665f2"
+    },
+    "webp/acanthus-panel-with-two-lovers-and-inhabiting-animals.webp": {
+      "bytes": 11765508,
+      "sha256": "d3d82364deef5e5512b74cd825e4d5d4afead7a9f232f151752aa6ebfdd48629"
+    },
+    "webp/candelabra-supported-by-two-blindfolded-women.webp": {
+      "bytes": 2753858,
+      "sha256": "37a21f92599a32d414be461997aff951b56eb898dc3e3e84f9c2e948af3e3c3f"
+    },
+    "webp/child-gripping-wide-foliate-scroll.webp": {
+      "bytes": 2108550,
+      "sha256": "1184d51346ca7bca492601ea76cf8091a3f594cbc40c8f13af3adc659cefc073"
+    },
+    "webp/fluted-vase-with-horns-and-broad-leaf-scroll.webp": {
+      "bytes": 2114926,
+      "sha256": "f03716556bf221190c328545414d405100d3c77db4a5a3e04b014e01baf41ffe"
+    },
+    "webp/foliate-vine-with-hairy-grotesque-mask.webp": {
+      "bytes": 126680,
+      "sha256": "941d7696f633fb7f7c337864012c97f628926c2835748ab1ff4d035e45bd42a2"
+    },
+    "webp/interacting-centaurs-and-riders-in-foliate-frieze.webp": {
+      "bytes": 1933814,
+      "sha256": "3a5f995d85ae5ba41a4e5509a6f4cba5c9aa53f54d9d3a6991eab42421d2274d"
+    },
+    "webp/large-bearded-mask-with-paired-leafy-heads.webp": {
+      "bytes": 2171040,
+      "sha256": "9c0a966fefa4a3c72aed76cfcc6d6d1d0c4349114b1e62c33651c81becbd8529"
+    },
+    "webp/palmette-with-paired-dolphin-heads-and-leaf-scroll.webp": {
+      "bytes": 2067834,
+      "sha256": "f3456f6ce468c50c99d132a9a9ca9e7d595aaad012234bd56f2b57da7edb743b"
+    },
+    "webp/seated-child-holding-tall-leafy-scroll.webp": {
+      "bytes": 1827656,
+      "sha256": "2a9622b9a4702c50020aea3ad78d7048ca977d944ab12a914532c7cdf8115821"
+    },
+    "webp/six-leaf-blue-vine.webp": {
+      "bytes": 663412,
+      "sha256": "d43d5bad459b10ca1b9fed478b2ab8171080755d63e46a1a758d3ef34073bbfe"
+    },
+    "webp/square-floral-ornament-with-circular-medallion.webp": {
+      "bytes": 2530606,
+      "sha256": "442f7a477ed6744d50a7b8abf8782275799f80a18ba4e4bb1e37251183c80f5c"
+    },
+    "webp/tall-foliate-grotesque-with-female-and-animal-heads.webp": {
+      "bytes": 1124082,
+      "sha256": "53832d93f547df8d2573df052993cb21c00fadce54838c80ec71d45916ed8553"
+    },
+    "webp/tall-foliate-shaft-with-paired-masks-and-dolphins.webp": {
+      "bytes": 2032540,
+      "sha256": "ba99aad99a9c52c28e8d0ad5f29623dfca46b367c37f4501db34f2a7a4b9bd85"
+    },
+    "webp/tall-leafy-shaft-with-horned-and-bearded-masks.webp": {
+      "bytes": 2149246,
+      "sha256": "bf8921f2d19d65f1ef446b970217209d08fdb734e1c31794dc020de4fd1df44c"
+    },
+    "webp/tall-satyr-with-violin-candelabrum.webp": {
+      "bytes": 1626064,
+      "sha256": "c3c7f8da313c25c4bd24924e50c84bab7281e7a007229253e2d4126f5ce09b43"
+    },
+    "webp/war-candelabrum-with-dragons-masks-and-weapons.webp": {
+      "bytes": 2168342,
+      "sha256": "dd232a082cdbfef31c84c9da3a596e612f263eb5f4db550b80e835cf00ae7592"
+    }
+  },
+  "inputs": {
+    "sources/tiles/acanthus-panel-with-two-lovers-and-inhabiting-animals.png": {
+      "bytes": 18808958,
+      "sha256": "11ff82cd96072ad51dce6ea05b03c5c30a026a99022efdcfec141ce0c9aeb297"
+    },
+    "sources/tiles/candelabra-supported-by-two-blindfolded-women.png": {
+      "bytes": 4715497,
+      "sha256": "a8d685151bd149bb6b2c008cd1a091c3c8730fa08b5b79bf53fca56fc1ca5319"
+    },
+    "sources/tiles/child-gripping-wide-foliate-scroll.png": {
+      "bytes": 3155571,
+      "sha256": "2a67fa3bc77d355f6ead2cbe2fa0eaa18819836911543f06844789f349106265"
+    },
+    "sources/tiles/fluted-vase-with-horns-and-broad-leaf-scroll.png": {
+      "bytes": 3228579,
+      "sha256": "5feeb8514a000dcf552b73fb3b3023cb2936dd283d45ba253e71cb19faa81e7f"
+    },
+    "sources/tiles/foliate-vine-with-hairy-grotesque-mask.png": {
+      "bytes": 224212,
+      "sha256": "ffc12cb51ef7bbcc21a037dfb851caabfda519e15dfc4a2c7cc929c3d0e25bc2"
+    },
+    "sources/tiles/interacting-centaurs-and-riders-in-foliate-frieze.png": {
+      "bytes": 2920264,
+      "sha256": "28dc6df70917df8dcef4e47e627f88919c6cea953be84c1594e3da5b1982b077"
+    },
+    "sources/tiles/large-bearded-mask-with-paired-leafy-heads.png": {
+      "bytes": 3341728,
+      "sha256": "dfe4edbc011fe481ae545297e87b9ddb345b0561667e4dac2991581371b2edc5"
+    },
+    "sources/tiles/palmette-with-paired-dolphin-heads-and-leaf-scroll.png": {
+      "bytes": 3025704,
+      "sha256": "6cafd4be9b3dc5cd3fb04b81f1e1fa3371d271e7efc83c550804ea3e1e26e1b8"
+    },
+    "sources/tiles/seated-child-holding-tall-leafy-scroll.png": {
+      "bytes": 2736550,
+      "sha256": "8e4906e9cd093703389f8489542b0f35adbba1556921aba499df964700f5d576"
+    },
+    "sources/tiles/six-leaf-blue-vine.png": {
+      "bytes": 905290,
+      "sha256": "21ed62fa78d9a8887901f2938d52d01ad325003b487978242bef1f737744689f"
+    },
+    "sources/tiles/square-floral-ornament-with-circular-medallion.png": {
+      "bytes": 3483667,
+      "sha256": "40f1dfb91985bf7c7ea40f0be32f2b19ade37971d0ab2e7c7a8ec49adf038638"
+    },
+    "sources/tiles/tall-foliate-grotesque-with-female-and-animal-heads.png": {
+      "bytes": 1956615,
+      "sha256": "462f714b38a53b09c6aeb514d33a88b636d0e638b2c4539ca4b2c284aed1dd43"
+    },
+    "sources/tiles/tall-foliate-shaft-with-paired-masks-and-dolphins.png": {
+      "bytes": 3067488,
+      "sha256": "85564297c2a24e716365ee09f6094a119a236f1e4fe1174756b3f40c127f410d"
+    },
+    "sources/tiles/tall-leafy-shaft-with-horned-and-bearded-masks.png": {
+      "bytes": 3173312,
+      "sha256": "b32ae6a019278286a3e69a16f4d14310a0ecd998d8c65f736f4540b2ca4dd5ce"
+    },
+    "sources/tiles/tall-satyr-with-violin-candelabrum.png": {
+      "bytes": 2746159,
+      "sha256": "fb11e8c773ad2e45df03d7be28f4d58f7de38269f1c27d9016de203cf52b65ce"
+    },
+    "sources/tiles/war-candelabrum-with-dragons-masks-and-weapons.png": {
+      "bytes": 3289472,
+      "sha256": "1e34572eca3330d529b973189f6a30e3773656cf30656bbc2bd748f7aa25f9b3"
+    }
+  }
+}

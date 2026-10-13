@@ -4,6 +4,8 @@ from functools import lru_cache
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
+COMPONENT_SUFFIXES = ['-border', '-corner', '-rotated', '-reference', '-bar', '-bar-rotated',
+                      '-corner-top-left', '-corner-top-right', '-corner-bottom-left', '-corner-bottom-right']
 
 
 @lru_cache(maxsize=1)
@@ -23,7 +25,7 @@ def owners():
         retained=[name for name in manifest['designs'] if config['assignments'].get(name)!=identity]
         def belongs(relative):
             stem=Path(relative).stem
-            return not any(stem==name or any(stem==name+suffix for suffix in ['-border','-corner','-rotated','-reference']) for name in retained)
+            return not any(stem==name or any(stem==name+suffix for suffix in COMPONENT_SUFFIXES) for name in retained)
         for relative in filter(belongs,[*manifest['files'], *manifest.get('inputs', {})]):
             assert relative not in result, f'Two resource owners: {relative}'
             result[relative] = identity
@@ -39,11 +41,11 @@ def resource_file(relative, *, write=False):
     identity = owners().get(relative)
     if write and identity is not None:
         stem = Path(relative).stem
-        candidates = [name for name in config['assignments'] if stem == name or any(stem == name + suffix for suffix in ['-border', '-corner', '-rotated', '-reference'])]
+        candidates = [name for name in config['assignments'] if stem == name or any(stem == name + suffix for suffix in COMPONENT_SUFFIXES)]
         assert len(candidates) == 1 and config['assignments'][candidates[0]] == identity, f'Conflicting resource write ownership: {relative}'
     if identity is None and relative.startswith(('png/', 'webp/', 'svg/', 'sources/tiles/', 'sources/traces/')):
         stem = Path(relative).stem
-        candidates = [name for name in config['assignments'] if stem == name or any(stem == name + suffix for suffix in ['-border', '-corner', '-rotated', '-reference'])]
+        candidates = [name for name in config['assignments'] if stem == name or any(stem == name + suffix for suffix in COMPONENT_SUFFIXES)]
         assert len(candidates) == 1, f'Register an unambiguous resource before writing {relative}'
         identity = config['assignments'][candidates[0]]
     if identity is None:

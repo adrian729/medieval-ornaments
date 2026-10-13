@@ -1,0 +1,230 @@
+{
+  "source_id": "walters-w88-169r",
+  "assets": [
+    {
+      "source_id": "walters-w88-169r",
+      "source_folder": "walters",
+      "provenance": {
+        "institution": "Walters Art Museum",
+        "title": "Man playing harp and dog dancing",
+        "object_identifier": "W.88, fol. 169r",
+        "date": "First quarter 14th century CE",
+        "record_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/html/W88/description.html",
+        "image_rights": "CC0 (Digital Walters manuscript images)",
+        "rights_url": "https://www.thedigitalwalters.org/01_ACCESS_WALTERS_MANUSCRIPTS.html",
+        "source_sha256": "82c7f9f4adc02fba6937419297b5c12170b383e56ee28d589fa10e55ff0ed0ba",
+        "source_file": "tmp/new-assets/walters/walters-w88-169r--man-playing-harp-and-dog-dancing--master.tif",
+        "image_url": null,
+        "method": "source-pixel-extraction-with-ai-assisted-selection-mask"
+      },
+      "id": "walters-w88-169r--dancing-dog",
+      "name": "dancing-dog",
+      "asset_type": "illustration",
+      "description": "A pale dog stands on its hind legs with bent forelegs, an open mouth and a long curved tail. Part of the Walters W.88 Harp and Dancing Dog set.",
+      "source_region": [
+        1980,
+        4730,
+        3090,
+        5850
+      ],
+      "export_crop": [
+        6,
+        83,
+        1050,
+        1018
+      ],
+      "width": 1044,
+      "height": 935,
+      "png": "walters/walters-w88-169r--dancing-dog.png",
+      "png_sha256": "9b64e2a1a2718c449cfa659963993ad4a993c59aa1d803f4dd2ae1b23d27c724",
+      "extraction": {
+        "method": "original-position-alpha-composition",
+        "component_masks": [
+          "walters-w88-169r--harp-player-and-dancing-dog"
+        ],
+        "native_rgb_verification": "all output RGB values exactly equal the recorded native source crop",
+        "source_pixels_repainted": false
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261010",
+        "notes": "Compared source snout/open mouth, curled tail, raised paws and hind feet; page rulings removed, native RGB retained and no composition with the disconnected harp player.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": "tmp/extraction-work/quality-reaudit-20261010/manifest.json"
+      },
+      "categories": [
+        "animals"
+      ],
+      "subjects": [
+        "dog",
+        "tail"
+      ],
+      "facing": "left",
+      "colors": [
+        "cream",
+        "black"
+      ],
+      "composition": "single-figure",
+      "archived_source_layout": {
+        "id": "walters-w88-169r--harp-player-and-dancing-dog",
+        "reason": "Disconnected subjects have individually reviewed deliveries; combined layout is redundant and retained only as extraction audit input.",
+        "source_id": "walters-w88-169r",
+        "metadata": "tmp/extraction-work/retired-compositions/walters/walters-w88-169r--harp-player-and-dancing-dog.json",
+        "png": "tmp/extraction-work/retired-compositions/walters/walters-w88-169r--harp-player-and-dancing-dog.png",
+        "png_sha256": "3ff8eae621a69813d3241b2ce690da7b1b09324436238811adc389dfeb08a5ea"
+      },
+      "review_history": [
+        {
+          "round": "quality-reaudit-20261010",
+          "previous_review": {
+            "status": "accepted",
+            "reviewed_on": "2026-10-10T11:24:59.389160+00:00",
+            "notes": "Compared against the untouched source and inspected on white and dark backgrounds. Complete original outline and associated props retained; actual openings cleared, pale illustrated surfaces opaque, no lettering or adjacent ornament. Visible source RGB preserved. The complete oval scene intentionally retains its painted landscape.",
+            "checks": [
+              "original-source-comparison",
+              "white-background",
+              "dark-background",
+              "outer-contours",
+              "interior-openings",
+              "thin-details",
+              "original-rgb-equality"
+            ]
+          }
+        }
+      ],
+      "sets": [
+        {
+          "id": "walters-w88-169r-set",
+          "name": "Walters W.88 Harp and Dancing Dog",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A pale dog stands on its hind legs with bent forelegs, an open mouth and a long curved tail.",
+      "set_label": "Walters W.88 Harp and Dancing Dog"
+    },
+    {
+      "source_id": "walters-w88-169r",
+      "source_folder": "walters",
+      "provenance": {
+        "institution": "Walters Art Museum",
+        "title": "Man playing harp and dog dancing",
+        "object_identifier": "W.88, fol. 169r",
+        "date": "First quarter 14th century CE",
+        "record_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/html/W88/description.html",
+        "image_rights": "CC0 (Digital Walters manuscript images)",
+        "rights_url": "https://www.thedigitalwalters.org/01_ACCESS_WALTERS_MANUSCRIPTS.html",
+        "source_sha256": "82c7f9f4adc02fba6937419297b5c12170b383e56ee28d589fa10e55ff0ed0ba",
+        "source_file": "tmp/new-assets/walters/walters-w88-169r--man-playing-harp-and-dog-dancing--master.tif",
+        "image_url": null,
+        "method": "source-pixel-extraction-with-ai-assisted-selection-mask"
+      },
+      "id": "walters-w88-169r--seated-harp-player",
+      "name": "seated-harp-player",
+      "asset_type": "illustration",
+      "description": "A gold-clad seated man plays a triangular harp with thin strings while sitting on a blue rectangular seat. Part of the Walters W.88 Harp and Dancing Dog set.",
+      "source_region": [
+        800,
+        4400,
+        1990,
+        6070
+      ],
+      "export_crop": [
+        233,
+        176,
+        1176,
+        1488
+      ],
+      "width": 943,
+      "height": 1312,
+      "png": "walters/walters-w88-169r--seated-harp-player.png",
+      "png_sha256": "8ec924166615933a23796856ce3d7e8efaf716189fd4999deb1935bf223372c4",
+      "extraction": {
+        "method": "original-position-alpha-composition",
+        "component_masks": [
+          "walters-w88-169r--harp-player-and-dancing-dog"
+        ],
+        "native_rgb_verification": "all output RGB values exactly equal the recorded native source crop",
+        "source_pixels_repainted": false
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261010",
+        "notes": "Player, harp, strings and shared seat retained as one contacting subject; spaces between fine strings transparent, painted figure and instrument opaque. Original rule/text excluded.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": "tmp/extraction-work/quality-reaudit-20261010/manifest.json"
+      },
+      "categories": [
+        "humans",
+        "music"
+      ],
+      "subjects": [
+        "human",
+        "harp",
+        "seat"
+      ],
+      "facing": "right",
+      "colors": [
+        "gold",
+        "blue",
+        "brown",
+        "black",
+        "cream"
+      ],
+      "composition": "single-figure",
+      "archived_source_layout": {
+        "id": "walters-w88-169r--harp-player-and-dancing-dog",
+        "reason": "Disconnected subjects have individually reviewed deliveries; combined layout is redundant and retained only as extraction audit input.",
+        "source_id": "walters-w88-169r",
+        "metadata": "tmp/extraction-work/retired-compositions/walters/walters-w88-169r--harp-player-and-dancing-dog.json",
+        "png": "tmp/extraction-work/retired-compositions/walters/walters-w88-169r--harp-player-and-dancing-dog.png",
+        "png_sha256": "3ff8eae621a69813d3241b2ce690da7b1b09324436238811adc389dfeb08a5ea"
+      },
+      "review_history": [
+        {
+          "round": "quality-reaudit-20261010",
+          "previous_review": {
+            "status": "accepted",
+            "reviewed_on": "2026-10-10T11:24:59.392573+00:00",
+            "notes": "Compared against the untouched source and inspected on white and dark backgrounds. Complete original outline and associated props retained; actual openings cleared, pale illustrated surfaces opaque, no lettering or adjacent ornament. Visible source RGB preserved. The complete oval scene intentionally retains its painted landscape.",
+            "checks": [
+              "original-source-comparison",
+              "white-background",
+              "dark-background",
+              "outer-contours",
+              "interior-openings",
+              "thin-details",
+              "original-rgb-equality"
+            ]
+          }
+        }
+      ],
+      "sets": [
+        {
+          "id": "walters-w88-169r-set",
+          "name": "Walters W.88 Harp and Dancing Dog",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A gold-clad seated man plays a triangular harp with thin strings while sitting on a blue rectangular seat.",
+      "set_label": "Walters W.88 Harp and Dancing Dog"
+    }
+  ]
+}

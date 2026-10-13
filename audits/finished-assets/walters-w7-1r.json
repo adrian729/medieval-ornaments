@@ -1,0 +1,837 @@
+{
+  "source_id": "walters-w7-1r",
+  "assets": [
+    {
+      "id": "walters-w7-1r--haloed-eagle-head-with-pale-blue-wings",
+      "name": "haloed-eagle-head-with-pale-blue-wings",
+      "source_id": "walters-w7-1r",
+      "source_folder": "walters",
+      "asset_type": "illustration",
+      "description": "A left-facing haloed eagle head with pale blue wings. Part of the Walters W.7 Canon Table Evangelists set.",
+      "source_region": [
+        3829,
+        1586,
+        5101,
+        2513
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        2,
+        212,
+        924,
+        751
+      ],
+      "export_crop_coordinate_space": "original-native-source-region",
+      "width": 922,
+      "height": 539,
+      "png": "walters/walters-w7-1r--haloed-eagle-head-with-pale-blue-wings.png",
+      "png_sha256": "3f65450aed2b1a02517a1de4c6113e4a06dc940752d57e83e6ca30771268fe76",
+      "provenance": {
+        "institution": "Walters Art Museum",
+        "title": "Canon table",
+        "object_identifier": "W.7, fol. 1r",
+        "date": "Middle of the 11th century CE",
+        "record_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/html/W7/description.html",
+        "image_rights": "CC0 (Digital Walters manuscript images)",
+        "rights_url": "https://www.thedigitalwalters.org/01_ACCESS_WALTERS_MANUSCRIPTS.html",
+        "source_file": "tmp/new-assets/walters/walters-w7-1r--canon-table--master.tif",
+        "source_sha256": "34b0db64619284678b29c39f8514a8facfb6d64c2a95abd6cc54c85949689ea6",
+        "source_metadata": "tmp/new-assets/walters/walters-w7-1r.json",
+        "image_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/W7/data/W.7/master/W7_000005_1022.tif",
+        "method": "native-source-continuous-edge-matting"
+      },
+      "extraction": {
+        "candidate_png": "tmp/extraction-work/continuation-20261010/walters-w7-1r--haloed-eagle-head-with-pale-blue-wings--refined-original-native-candidate.png",
+        "native_export_crop": [
+          2,
+          212,
+          924,
+          751
+        ],
+        "export_crop_coordinate_space": "original-native-source-region",
+        "annotation_json": "tmp/extraction-work/continuation-20261010/walters-w7-1r--haloed-eagle-head-with-pale-blue-wings--refined-original-native-audit.json",
+        "trimap_png": "tmp/extraction-work/continuation-20261010/walters-w7-1r--haloed-eagle-head-with-pale-blue-wings--refined-original-native-trimap.png",
+        "native_source_size": [
+          1272,
+          927
+        ],
+        "native_upscaling": false,
+        "source_pixels_redrawn": false,
+        "original_opaque_rgb_preserved": true,
+        "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+        "alpha_guide": {
+          "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+          "guide_png": "tmp/extraction-work/continuation-20261010/walters-w7-1r--haloed-eagle-head-with-pale-blue-wings--native-alpha-reference.png",
+          "guide_sha256": "9a7e7a5eeb31d735a13f2c701ff8452621fadbbdf52d79ed08a55e850f241d4b",
+          "native_original": "tmp/extraction-work/continuation-20261010/walters-w7-1r--haloed-eagle-head-with-pale-blue-wings--complete-native-source.png",
+          "similarity_ai_alpha_to_original": [
+            [
+              0.6302681812743288,
+              -0.0018001911431446856,
+              -0.33336825307396073
+            ],
+            [
+              0.0018001911431446856,
+              0.6302681812743288,
+              131.43594708400857
+            ]
+          ],
+          "matching_feature_pairs": 242,
+          "inlier_feature_pairs": 136,
+          "inlier_rms_native_pixels": 1.9632097886345432,
+          "source_inspection_factor": 1,
+          "unknown_edge_band_native_pixels": 5,
+          "edge_solve_tile_size": 640,
+          "edge_solve_halo": 32,
+          "edge_solve_tiles": 4,
+          "original_opaque_rgb_preserved": true
+        },
+        "status": "awaiting-original-white-dark-review",
+        "native_refinement": {
+          "method": "Complete enlarged-source winged symbol retains both source-visible long feather tips, entire head, gilt nimbus and all pale beads. Saturated gilt/red architectural paint is excluded only outside the nimbus at the outer wing margins; original pale yellow, rose or blue feathers stay opaque. Source RGB and all internal highlights/hatching remain original, unscaled and unwarped. Native continuous alpha; no new feather shapes or hidden anatomy.",
+          "source": "tmp/extraction-work/continuation-20261010/walters-w7-1r--haloed-eagle-head-with-pale-blue-wings--complete-native-source.png",
+          "previous_native_matte": {
+            "candidate_png": "tmp/extraction-work/continuation-20261010/walters-w7-1r--haloed-eagle-head-with-pale-blue-wings--registered-native-candidate.png",
+            "native_export_crop": [
+              0,
+              212,
+              922,
+              753
+            ],
+            "export_crop_coordinate_space": "original-native-source-region",
+            "annotation_json": "tmp/extraction-work/continuation-20261010/walters-w7-1r--haloed-eagle-head-with-pale-blue-wings--registered-native-annotation.json",
+            "trimap_png": "tmp/extraction-work/continuation-20261010/walters-w7-1r--haloed-eagle-head-with-pale-blue-wings--registered-native-trimap.png",
+            "native_source_size": [
+              1272,
+              927
+            ],
+            "native_upscaling": false,
+            "source_pixels_redrawn": false,
+            "original_opaque_rgb_preserved": true,
+            "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+            "alpha_guide": {
+              "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+              "guide_png": "tmp/extraction-work/continuation-20261010/walters-w7-1r--haloed-eagle-head-with-pale-blue-wings--native-alpha-reference.png",
+              "guide_sha256": "9a7e7a5eeb31d735a13f2c701ff8452621fadbbdf52d79ed08a55e850f241d4b",
+              "native_original": "tmp/extraction-work/continuation-20261010/walters-w7-1r--haloed-eagle-head-with-pale-blue-wings--complete-native-source.png",
+              "similarity_ai_alpha_to_original": [
+                [
+                  0.6302681812743288,
+                  -0.0018001911431446856,
+                  -0.33336825307396073
+                ],
+                [
+                  0.0018001911431446856,
+                  0.6302681812743288,
+                  131.43594708400857
+                ]
+              ],
+              "matching_feature_pairs": 242,
+              "inlier_feature_pairs": 136,
+              "inlier_rms_native_pixels": 1.9632097886345432,
+              "source_inspection_factor": 1,
+              "unknown_edge_band_native_pixels": 5,
+              "edge_solve_tile_size": 640,
+              "edge_solve_halo": 32,
+              "edge_solve_tiles": 4,
+              "original_opaque_rgb_preserved": true
+            },
+            "status": "awaiting-original-white-dark-review"
+          },
+          "unknown_band_native_pixels": 5,
+          "source_rgb_redrawn": false,
+          "source_resized": false,
+          "original_opaque_rgb_preserved": true,
+          "ownership": "tmp/extraction-work/continuation-20261010/walters-w7-1r--haloed-eagle-head-with-pale-blue-wings--refined-original-native-ownership.png",
+          "ownership_sha256": "21590c8ae1680fa60097c468057fce6f28e701e1fd6bd9c2d35f8865f7bface9",
+          "local_architectural_paint_exclusion_scope_native": {
+            "right_x_greater_than": 755,
+            "left_x_less_than": 250
+          },
+          "excluded_architectural_pixels": 157616
+        },
+        "tool": "Original native scan / closed-form edge alpha and foreground decontamination",
+        "pixel_exact": false,
+        "ownership_guide_prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. Select only the left-facing EAGLE head and source-visible neck/chest, complete original gilded nimbus with its small pale beads, and both entire PALE BLUE wings. Keep the two wings and their nimbus/head together as the original winged symbol. Clear the purple niche ground, surrounding broad gold architectural arch, colored architecture and horizontal sill. The lower symbol is physically occluded by the sill: keep the original visible edge and do not invent a new body or neck. Preserve ALL pale beads of the halo even if individually separated by genuine tiny gaps; do not drop tiny pale details or pale feathers. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint. The enlarged source includes the COMPLETE long left feather tips; retain them down to their natural drawn ends. The big gilded ARCH outside the wings, and the pale PURPLE flat field between feathers, are architecture/background to remove. Keep the small complete GOLD NIMBUS around the head, all its cream beads and both original wings. The lion wings are pale yellow paint, the ox wings rose paint, and the eagle wings pale blue paint; follow the referenced subject's original wing boundaries. Do not retain any gilded arch fragments or broad purple background on those wings.",
+        "retained_generated_ownership_guide": {
+          "file": "tmp/extraction-work/walters-w7-1r--haloed-eagle-head-with-pale-blue-wings--retained-ai-extraction.png",
+          "sha256": "9a7e7a5eeb31d735a13f2c701ff8452621fadbbdf52d79ed08a55e850f241d4b",
+          "purpose": "Retained AI alpha guide only; delivered opaque RGB belongs to the unchanged native source."
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Viewed the unchanged source alongside native transparent candidates on white and dark, including original-size right feather endpoints. Complete source-visible feather tips on both sides, original faces and gold/beaded halos are retained. Purple niche grounds, separate gilt/red architecture and bottom sill are removed; pale painted feathers remain opaque. The final ox right-tip gold fragment was removed locally without affecting its rose feather. Source opaque RGB and native proportions are retained; no invented concealed body and no vector approximation.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/walters7-complete-wings-native-registration-current-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/walters7-three-right-wing-native-detail.jpg",
+          "tmp/extraction-work/continuation-20261010/walters7-ox-tip-actual-native-coordinate-proof.png"
+        ]
+      },
+      "categories": [
+        "animals",
+        "fantasy"
+      ],
+      "subjects": [
+        "eagle",
+        "bird",
+        "head",
+        "halo",
+        "wing"
+      ],
+      "colors": [
+        "blue",
+        "gold",
+        "brown",
+        "cream",
+        "black"
+      ],
+      "facing": "unclear",
+      "composition": "standalone",
+      "usage_notes": "Original source-visible winged evangelist symbol, independently reusable alongside the complete canon-table frame. The architectural sill occludes its lower edge; no concealed body is restored. Painted pale feathers and halo beads are retained.",
+      "sets": [
+        {
+          "id": "walters-w7-1r-set",
+          "name": "Walters W.7 Canon Table Evangelists",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A left-facing haloed eagle head with pale blue wings.",
+      "set_label": "Walters W.7 Canon Table Evangelists"
+    },
+    {
+      "id": "walters-w7-1r--haloed-frontal-lion-head-with-pale-gold-wings",
+      "name": "haloed-frontal-lion-head-with-pale-gold-wings",
+      "source_id": "walters-w7-1r",
+      "source_folder": "walters",
+      "asset_type": "illustration",
+      "description": "A frontal haloed lion head with pale gold wings. Part of the Walters W.7 Canon Table Evangelists set.",
+      "source_region": [
+        1681,
+        1598,
+        2915,
+        2500
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        74,
+        259,
+        1022,
+        760
+      ],
+      "export_crop_coordinate_space": "original-native-source-region",
+      "width": 948,
+      "height": 501,
+      "png": "walters/walters-w7-1r--haloed-frontal-lion-head-with-pale-gold-wings.png",
+      "png_sha256": "dac0a4caf7c3fce70c92e19c15eb2ffb8b0ca9182b8591cc44d05e2de84213dc",
+      "provenance": {
+        "institution": "Walters Art Museum",
+        "title": "Canon table",
+        "object_identifier": "W.7, fol. 1r",
+        "date": "Middle of the 11th century CE",
+        "record_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/html/W7/description.html",
+        "image_rights": "CC0 (Digital Walters manuscript images)",
+        "rights_url": "https://www.thedigitalwalters.org/01_ACCESS_WALTERS_MANUSCRIPTS.html",
+        "source_file": "tmp/new-assets/walters/walters-w7-1r--canon-table--master.tif",
+        "source_sha256": "34b0db64619284678b29c39f8514a8facfb6d64c2a95abd6cc54c85949689ea6",
+        "source_metadata": "tmp/new-assets/walters/walters-w7-1r.json",
+        "image_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/W7/data/W.7/master/W7_000005_1022.tif",
+        "method": "native-source-continuous-edge-matting"
+      },
+      "extraction": {
+        "candidate_png": "tmp/extraction-work/continuation-20261010/walters-w7-1r--haloed-frontal-lion-head-with-pale-gold-wings--refined-original-native-candidate.png",
+        "native_export_crop": [
+          74,
+          259,
+          1022,
+          760
+        ],
+        "export_crop_coordinate_space": "original-native-source-region",
+        "annotation_json": "tmp/extraction-work/continuation-20261010/walters-w7-1r--haloed-frontal-lion-head-with-pale-gold-wings--refined-original-native-audit.json",
+        "trimap_png": "tmp/extraction-work/continuation-20261010/walters-w7-1r--haloed-frontal-lion-head-with-pale-gold-wings--refined-original-native-trimap.png",
+        "native_source_size": [
+          1234,
+          902
+        ],
+        "native_upscaling": false,
+        "source_pixels_redrawn": false,
+        "original_opaque_rgb_preserved": true,
+        "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+        "alpha_guide": {
+          "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+          "guide_png": "tmp/extraction-work/continuation-20261010/walters-w7-1r--haloed-frontal-lion-head-with-pale-gold-wings--native-alpha-reference.png",
+          "guide_sha256": "7ce4658c61d33719bbb861d1e2a686c02b7ffd9401a60a5a0c426eb65db777b7",
+          "native_original": "tmp/extraction-work/continuation-20261010/walters-w7-1r--haloed-frontal-lion-head-with-pale-gold-wings--complete-native-source.png",
+          "similarity_ai_alpha_to_original": [
+            [
+              0.6009530197290545,
+              0.0011490809013774,
+              46.08097244972224
+            ],
+            [
+              -0.0011490809013774,
+              0.6009530197290545,
+              233.95203103393698
+            ]
+          ],
+          "matching_feature_pairs": 266,
+          "inlier_feature_pairs": 107,
+          "inlier_rms_native_pixels": 1.6114192321802616,
+          "source_inspection_factor": 1,
+          "unknown_edge_band_native_pixels": 5,
+          "edge_solve_tile_size": 640,
+          "edge_solve_halo": 32,
+          "edge_solve_tiles": 4,
+          "original_opaque_rgb_preserved": true
+        },
+        "status": "awaiting-original-white-dark-review",
+        "native_refinement": {
+          "method": "Complete enlarged-source winged symbol retains both source-visible long feather tips, entire head, gilt nimbus and all pale beads. Saturated gilt/red architectural paint is excluded only outside the nimbus at the outer wing margins; original pale yellow, rose or blue feathers stay opaque. Source RGB and all internal highlights/hatching remain original, unscaled and unwarped. Native continuous alpha; no new feather shapes or hidden anatomy.",
+          "source": "tmp/extraction-work/continuation-20261010/walters-w7-1r--haloed-frontal-lion-head-with-pale-gold-wings--complete-native-source.png",
+          "previous_native_matte": {
+            "candidate_png": "tmp/extraction-work/continuation-20261010/walters-w7-1r--haloed-frontal-lion-head-with-pale-gold-wings--registered-native-candidate.png",
+            "native_export_crop": [
+              69,
+              260,
+              1068,
+              759
+            ],
+            "export_crop_coordinate_space": "original-native-source-region",
+            "annotation_json": "tmp/extraction-work/continuation-20261010/walters-w7-1r--haloed-frontal-lion-head-with-pale-gold-wings--registered-native-annotation.json",
+            "trimap_png": "tmp/extraction-work/continuation-20261010/walters-w7-1r--haloed-frontal-lion-head-with-pale-gold-wings--registered-native-trimap.png",
+            "native_source_size": [
+              1234,
+              902
+            ],
+            "native_upscaling": false,
+            "source_pixels_redrawn": false,
+            "original_opaque_rgb_preserved": true,
+            "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+            "alpha_guide": {
+              "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+              "guide_png": "tmp/extraction-work/continuation-20261010/walters-w7-1r--haloed-frontal-lion-head-with-pale-gold-wings--native-alpha-reference.png",
+              "guide_sha256": "7ce4658c61d33719bbb861d1e2a686c02b7ffd9401a60a5a0c426eb65db777b7",
+              "native_original": "tmp/extraction-work/continuation-20261010/walters-w7-1r--haloed-frontal-lion-head-with-pale-gold-wings--complete-native-source.png",
+              "similarity_ai_alpha_to_original": [
+                [
+                  0.6009530197290545,
+                  0.0011490809013774,
+                  46.08097244972224
+                ],
+                [
+                  -0.0011490809013774,
+                  0.6009530197290545,
+                  233.95203103393698
+                ]
+              ],
+              "matching_feature_pairs": 266,
+              "inlier_feature_pairs": 107,
+              "inlier_rms_native_pixels": 1.6114192321802616,
+              "source_inspection_factor": 1,
+              "unknown_edge_band_native_pixels": 5,
+              "edge_solve_tile_size": 640,
+              "edge_solve_halo": 32,
+              "edge_solve_tiles": 4,
+              "original_opaque_rgb_preserved": true
+            },
+            "status": "awaiting-original-white-dark-review"
+          },
+          "unknown_band_native_pixels": 5,
+          "source_rgb_redrawn": false,
+          "source_resized": false,
+          "original_opaque_rgb_preserved": true,
+          "ownership": "tmp/extraction-work/continuation-20261010/walters-w7-1r--haloed-frontal-lion-head-with-pale-gold-wings--refined-original-native-ownership.png",
+          "ownership_sha256": "c94f206c38734659321cda28b7bef40e38c50422fd5827d135956127839463ad",
+          "local_architectural_paint_exclusion_scope_native": {
+            "right_x_greater_than": 840,
+            "left_x_less_than": 300
+          },
+          "excluded_architectural_pixels": 147486
+        },
+        "tool": "Original native scan / closed-form edge alpha and foreground decontamination",
+        "pixel_exact": false,
+        "ownership_guide_prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. Select only the frontal LION head, complete original gilded nimbus with its small pale beads, and both entire PALE GOLD wings. Keep the two wings and their nimbus/head together as the original winged symbol. Clear the purple niche ground, surrounding broad gold architectural arch, colored architecture and horizontal sill. The lower symbol is physically occluded by the sill: keep the original visible edge and do not invent a new body or neck. Preserve ALL pale beads of the halo even if individually separated by genuine tiny gaps; do not drop tiny pale details or pale feathers. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint. The enlarged source includes the COMPLETE long left feather tips; retain them down to their natural drawn ends. The big gilded ARCH outside the wings, and the pale PURPLE flat field between feathers, are architecture/background to remove. Keep the small complete GOLD NIMBUS around the head, all its cream beads and both original wings. The lion wings are pale yellow paint, the ox wings rose paint, and the eagle wings pale blue paint; follow the referenced subject's original wing boundaries. Do not retain any gilded arch fragments or broad purple background on those wings.",
+        "retained_generated_ownership_guide": {
+          "file": "tmp/extraction-work/walters-w7-1r--haloed-frontal-lion-head-with-pale-gold-wings--retained-ai-extraction.png",
+          "sha256": "7ce4658c61d33719bbb861d1e2a686c02b7ffd9401a60a5a0c426eb65db777b7",
+          "purpose": "Retained AI alpha guide only; delivered opaque RGB belongs to the unchanged native source."
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Viewed the unchanged source alongside native transparent candidates on white and dark, including original-size right feather endpoints. Complete source-visible feather tips on both sides, original faces and gold/beaded halos are retained. Purple niche grounds, separate gilt/red architecture and bottom sill are removed; pale painted feathers remain opaque. The final ox right-tip gold fragment was removed locally without affecting its rose feather. Source opaque RGB and native proportions are retained; no invented concealed body and no vector approximation.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/walters7-complete-wings-native-registration-current-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/walters7-three-right-wing-native-detail.jpg",
+          "tmp/extraction-work/continuation-20261010/walters7-ox-tip-actual-native-coordinate-proof.png"
+        ]
+      },
+      "categories": [
+        "animals",
+        "fantasy"
+      ],
+      "subjects": [
+        "lion",
+        "head",
+        "halo",
+        "wing"
+      ],
+      "colors": [
+        "gold",
+        "brown",
+        "cream",
+        "black"
+      ],
+      "facing": "unclear",
+      "composition": "standalone",
+      "usage_notes": "Original source-visible winged evangelist symbol, independently reusable alongside the complete canon-table frame. The architectural sill occludes its lower edge; no concealed body is restored. Painted pale feathers and halo beads are retained.",
+      "sets": [
+        {
+          "id": "walters-w7-1r-set",
+          "name": "Walters W.7 Canon Table Evangelists",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A frontal haloed lion head with pale gold wings.",
+      "set_label": "Walters W.7 Canon Table Evangelists"
+    },
+    {
+      "id": "walters-w7-1r--haloed-frontal-ox-head-with-rose-wings",
+      "name": "haloed-frontal-ox-head-with-rose-wings",
+      "source_id": "walters-w7-1r",
+      "source_folder": "walters",
+      "asset_type": "illustration",
+      "description": "A frontal haloed horned ox head with rose wings. Part of the Walters W.7 Canon Table Evangelists set.",
+      "source_region": [
+        2781,
+        1598,
+        4046,
+        2506
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        11,
+        260,
+        928,
+        766
+      ],
+      "export_crop_coordinate_space": "original-native-source-region",
+      "width": 917,
+      "height": 506,
+      "png": "walters/walters-w7-1r--haloed-frontal-ox-head-with-rose-wings.png",
+      "png_sha256": "d3b7d7f80bf18be37c20ad6b6f65f7944a8c522d585fc1eb000db3ee955c2242",
+      "provenance": {
+        "institution": "Walters Art Museum",
+        "title": "Canon table",
+        "object_identifier": "W.7, fol. 1r",
+        "date": "Middle of the 11th century CE",
+        "record_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/html/W7/description.html",
+        "image_rights": "CC0 (Digital Walters manuscript images)",
+        "rights_url": "https://www.thedigitalwalters.org/01_ACCESS_WALTERS_MANUSCRIPTS.html",
+        "source_file": "tmp/new-assets/walters/walters-w7-1r--canon-table--master.tif",
+        "source_sha256": "34b0db64619284678b29c39f8514a8facfb6d64c2a95abd6cc54c85949689ea6",
+        "source_metadata": "tmp/new-assets/walters/walters-w7-1r.json",
+        "image_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/W7/data/W.7/master/W7_000005_1022.tif",
+        "method": "native-source-continuous-edge-matting"
+      },
+      "extraction": {
+        "candidate_png": "tmp/extraction-work/continuation-20261010/walters-w7-1r--haloed-frontal-ox-head-with-rose-wings--refined-original-native-candidate.png",
+        "native_export_crop": [
+          11,
+          260,
+          928,
+          766
+        ],
+        "export_crop_coordinate_space": "original-native-source-region",
+        "annotation_json": "tmp/extraction-work/continuation-20261010/walters-w7-1r--haloed-frontal-ox-head-with-rose-wings--refined-original-native-audit.json",
+        "trimap_png": "tmp/extraction-work/continuation-20261010/walters-w7-1r--haloed-frontal-ox-head-with-rose-wings--refined-original-native-trimap.png",
+        "native_source_size": [
+          1265,
+          908
+        ],
+        "native_upscaling": false,
+        "source_pixels_redrawn": false,
+        "original_opaque_rgb_preserved": true,
+        "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+        "alpha_guide": {
+          "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+          "guide_png": "tmp/extraction-work/continuation-20261010/walters-w7-1r--haloed-frontal-ox-head-with-rose-wings--native-alpha-reference.png",
+          "guide_sha256": "609205cd01cb837f8da958377e5d5ac371a03c4a229a73fb59b94f7070915b88",
+          "native_original": "tmp/extraction-work/continuation-20261010/walters-w7-1r--haloed-frontal-ox-head-with-rose-wings--complete-native-source.png",
+          "similarity_ai_alpha_to_original": [
+            [
+              0.5965240301852133,
+              0.005125524121488696,
+              -48.737814995890346
+            ],
+            [
+              -0.005125524121488696,
+              0.5965240301852133,
+              251.15412601029774
+            ]
+          ],
+          "matching_feature_pairs": 219,
+          "inlier_feature_pairs": 109,
+          "inlier_rms_native_pixels": 2.219363579886872,
+          "source_inspection_factor": 1,
+          "unknown_edge_band_native_pixels": 5,
+          "edge_solve_tile_size": 640,
+          "edge_solve_halo": 32,
+          "edge_solve_tiles": 4,
+          "original_opaque_rgb_preserved": true
+        },
+        "status": "awaiting-original-white-dark-review",
+        "native_refinement": {
+          "method": "The last isolated architectural gold fragment outside the lower right feather is excluded only in the inspected native x>913, y>640 tip region. Genuine rose feathers and their original dark terminal remain; no subject gold halo falls in this scope. Original RGB and continuous source-fitted feather edges are retained.",
+          "source": "tmp/extraction-work/continuation-20261010/walters-w7-1r--haloed-frontal-ox-head-with-rose-wings--complete-native-source.png",
+          "previous_native_matte": {
+            "candidate_png": "tmp/extraction-work/continuation-20261010/walters-w7-1r--haloed-frontal-ox-head-with-rose-wings--refined-original-native-candidate.png",
+            "native_export_crop": [
+              10,
+              257,
+              959,
+              767
+            ],
+            "export_crop_coordinate_space": "original-native-source-region",
+            "annotation_json": "tmp/extraction-work/continuation-20261010/walters-w7-1r--haloed-frontal-ox-head-with-rose-wings--refined-original-native-audit.json",
+            "trimap_png": "tmp/extraction-work/continuation-20261010/walters-w7-1r--haloed-frontal-ox-head-with-rose-wings--refined-original-native-trimap.png",
+            "native_source_size": [
+              1265,
+              908
+            ],
+            "native_upscaling": false,
+            "source_pixels_redrawn": false,
+            "original_opaque_rgb_preserved": true,
+            "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+            "alpha_guide": {
+              "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+              "guide_png": "tmp/extraction-work/continuation-20261010/walters-w7-1r--haloed-frontal-ox-head-with-rose-wings--native-alpha-reference.png",
+              "guide_sha256": "609205cd01cb837f8da958377e5d5ac371a03c4a229a73fb59b94f7070915b88",
+              "native_original": "tmp/extraction-work/continuation-20261010/walters-w7-1r--haloed-frontal-ox-head-with-rose-wings--complete-native-source.png",
+              "similarity_ai_alpha_to_original": [
+                [
+                  0.5965240301852133,
+                  0.005125524121488696,
+                  -48.737814995890346
+                ],
+                [
+                  -0.005125524121488696,
+                  0.5965240301852133,
+                  251.15412601029774
+                ]
+              ],
+              "matching_feature_pairs": 219,
+              "inlier_feature_pairs": 109,
+              "inlier_rms_native_pixels": 2.219363579886872,
+              "source_inspection_factor": 1,
+              "unknown_edge_band_native_pixels": 5,
+              "edge_solve_tile_size": 640,
+              "edge_solve_halo": 32,
+              "edge_solve_tiles": 4,
+              "original_opaque_rgb_preserved": true
+            },
+            "status": "awaiting-original-white-dark-review",
+            "native_refinement": {
+              "method": "Complete enlarged-source winged symbol retains both source-visible long feather tips, entire head, gilt nimbus and all pale beads. Saturated gilt/red architectural paint is excluded only outside the nimbus at the outer wing margins; original pale yellow, rose or blue feathers stay opaque. Source RGB and all internal highlights/hatching remain original, unscaled and unwarped. Native continuous alpha; no new feather shapes or hidden anatomy.",
+              "source": "tmp/extraction-work/continuation-20261010/walters-w7-1r--haloed-frontal-ox-head-with-rose-wings--complete-native-source.png",
+              "previous_native_matte": {
+                "candidate_png": "tmp/extraction-work/continuation-20261010/walters-w7-1r--haloed-frontal-ox-head-with-rose-wings--registered-native-candidate.png",
+                "native_export_crop": [
+                  0,
+                  257,
+                  983,
+                  766
+                ],
+                "export_crop_coordinate_space": "original-native-source-region",
+                "annotation_json": "tmp/extraction-work/continuation-20261010/walters-w7-1r--haloed-frontal-ox-head-with-rose-wings--registered-native-annotation.json",
+                "trimap_png": "tmp/extraction-work/continuation-20261010/walters-w7-1r--haloed-frontal-ox-head-with-rose-wings--registered-native-trimap.png",
+                "native_source_size": [
+                  1265,
+                  908
+                ],
+                "native_upscaling": false,
+                "source_pixels_redrawn": false,
+                "original_opaque_rgb_preserved": true,
+                "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+                "alpha_guide": {
+                  "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+                  "guide_png": "tmp/extraction-work/continuation-20261010/walters-w7-1r--haloed-frontal-ox-head-with-rose-wings--native-alpha-reference.png",
+                  "guide_sha256": "609205cd01cb837f8da958377e5d5ac371a03c4a229a73fb59b94f7070915b88",
+                  "native_original": "tmp/extraction-work/continuation-20261010/walters-w7-1r--haloed-frontal-ox-head-with-rose-wings--complete-native-source.png",
+                  "similarity_ai_alpha_to_original": [
+                    [
+                      0.5965240301852133,
+                      0.005125524121488696,
+                      -48.737814995890346
+                    ],
+                    [
+                      -0.005125524121488696,
+                      0.5965240301852133,
+                      251.15412601029774
+                    ]
+                  ],
+                  "matching_feature_pairs": 219,
+                  "inlier_feature_pairs": 109,
+                  "inlier_rms_native_pixels": 2.219363579886872,
+                  "source_inspection_factor": 1,
+                  "unknown_edge_band_native_pixels": 5,
+                  "edge_solve_tile_size": 640,
+                  "edge_solve_halo": 32,
+                  "edge_solve_tiles": 4,
+                  "original_opaque_rgb_preserved": true
+                },
+                "status": "awaiting-original-white-dark-review"
+              },
+              "unknown_band_native_pixels": 5,
+              "source_rgb_redrawn": false,
+              "source_resized": false,
+              "original_opaque_rgb_preserved": true,
+              "ownership": "tmp/extraction-work/continuation-20261010/walters-w7-1r--haloed-frontal-ox-head-with-rose-wings--refined-original-native-ownership.png",
+              "ownership_sha256": "4442d2b6cd6a22c41b67c375bd95aec5e24002da587b45453a1116eadb120575",
+              "local_architectural_paint_exclusion_scope_native": {
+                "right_x_greater_than": 815,
+                "left_x_less_than": 300
+              },
+              "excluded_architectural_pixels": 144829
+            }
+          },
+          "unknown_band_native_pixels": 3,
+          "source_rgb_redrawn": false,
+          "source_resized": false,
+          "original_opaque_rgb_preserved": true,
+          "ownership": "tmp/extraction-work/continuation-20261010/walters-w7-1r--haloed-frontal-ox-head-with-rose-wings--refined-original-native-ownership.png",
+          "ownership_sha256": "8e86d4082578a2f880a1534db83759d37763c7389330035ae20936652500ce9b",
+          "inspected_tip_background_gold_scope": [
+            913,
+            640,
+            1265,
+            908
+          ],
+          "gold_criterion": "R-B>30 and G-B>25"
+        },
+        "tool": "Original native scan / closed-form edge alpha and foreground decontamination",
+        "pixel_exact": false,
+        "ownership_guide_prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. Select only the frontal HORNED OX head, both source-visible horns, complete original gilded nimbus with its small pale beads, and both entire ROSE wings. Keep the two wings and their nimbus/head together as the original winged symbol. Clear the purple niche ground, surrounding broad gold architectural arch, colored architecture and horizontal sill. The lower symbol is physically occluded by the sill: keep the original visible edge and do not invent a new body or neck. Preserve ALL pale beads of the halo even if individually separated by genuine tiny gaps; do not drop tiny pale details or pale feathers. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint. The enlarged source includes the COMPLETE long left feather tips; retain them down to their natural drawn ends. The big gilded ARCH outside the wings, and the pale PURPLE flat field between feathers, are architecture/background to remove. Keep the small complete GOLD NIMBUS around the head, all its cream beads and both original wings. The lion wings are pale yellow paint, the ox wings rose paint, and the eagle wings pale blue paint; follow the referenced subject's original wing boundaries. Do not retain any gilded arch fragments or broad purple background on those wings.",
+        "retained_generated_ownership_guide": {
+          "file": "tmp/extraction-work/walters-w7-1r--haloed-frontal-ox-head-with-rose-wings--retained-ai-extraction.png",
+          "sha256": "609205cd01cb837f8da958377e5d5ac371a03c4a229a73fb59b94f7070915b88",
+          "purpose": "Retained AI alpha guide only; delivered opaque RGB belongs to the unchanged native source."
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Viewed the unchanged source alongside native transparent candidates on white and dark, including original-size right feather endpoints. Complete source-visible feather tips on both sides, original faces and gold/beaded halos are retained. Purple niche grounds, separate gilt/red architecture and bottom sill are removed; pale painted feathers remain opaque. The final ox right-tip gold fragment was removed locally without affecting its rose feather. Source opaque RGB and native proportions are retained; no invented concealed body and no vector approximation.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/walters7-complete-wings-native-registration-current-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/walters7-three-right-wing-native-detail.jpg",
+          "tmp/extraction-work/continuation-20261010/walters7-ox-tip-actual-native-coordinate-proof.png"
+        ]
+      },
+      "categories": [
+        "animals",
+        "fantasy"
+      ],
+      "subjects": [
+        "ox",
+        "head",
+        "horn",
+        "halo",
+        "wing"
+      ],
+      "colors": [
+        "gold",
+        "pink",
+        "cream",
+        "black"
+      ],
+      "facing": "unclear",
+      "composition": "standalone",
+      "usage_notes": "Original source-visible winged evangelist symbol, independently reusable alongside the complete canon-table frame. The architectural sill occludes its lower edge; no concealed body is restored. Painted pale feathers and halo beads are retained.",
+      "sets": [
+        {
+          "id": "walters-w7-1r-set",
+          "name": "Walters W.7 Canon Table Evangelists",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A frontal haloed horned ox head with rose wings.",
+      "set_label": "Walters W.7 Canon Table Evangelists"
+    },
+    {
+      "id": "walters-w7-1r--haloed-human-head-with-gold-wings",
+      "name": "haloed-human-head-with-gold-wings",
+      "source_id": "walters-w7-1r",
+      "source_folder": "walters",
+      "asset_type": "illustration",
+      "description": "A haloed human head with gold wings. Part of the Walters W.7 Canon Table Evangelists set.",
+      "source_region": [
+        690,
+        1720,
+        1694,
+        2410
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        41,
+        120,
+        954,
+        673
+      ],
+      "export_crop_coordinate_space": "original-native-source-region",
+      "width": 913,
+      "height": 553,
+      "png": "walters/walters-w7-1r--haloed-human-head-with-gold-wings.png",
+      "png_sha256": "cb8b4d6524da96e457450b3d46388a6500993025aa96fa5cbfcdfef409ed8786",
+      "provenance": {
+        "institution": "Walters Art Museum",
+        "title": "Canon table",
+        "object_identifier": "W.7, fol. 1r",
+        "date": "Middle of the 11th century CE",
+        "record_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/html/W7/description.html",
+        "image_rights": "CC0 (Digital Walters manuscript images)",
+        "rights_url": "https://www.thedigitalwalters.org/01_ACCESS_WALTERS_MANUSCRIPTS.html",
+        "source_file": "tmp/new-assets/walters/walters-w7-1r--canon-table--master.tif",
+        "source_sha256": "34b0db64619284678b29c39f8514a8facfb6d64c2a95abd6cc54c85949689ea6",
+        "source_metadata": "tmp/new-assets/walters/walters-w7-1r.json",
+        "image_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/W7/data/W.7/master/W7_000005_1022.tif",
+        "method": "native-source-continuous-edge-matting"
+      },
+      "extraction": {
+        "candidate_png": "tmp/extraction-work/continuation-20261010/walters-w7-1r--haloed-human-head-with-gold-wings--registered-native-candidate.png",
+        "native_export_crop": [
+          41,
+          120,
+          954,
+          673
+        ],
+        "export_crop_coordinate_space": "original-native-source-region",
+        "annotation_json": "tmp/extraction-work/continuation-20261010/walters-w7-1r--haloed-human-head-with-gold-wings--registered-native-annotation.json",
+        "trimap_png": "tmp/extraction-work/continuation-20261010/walters-w7-1r--haloed-human-head-with-gold-wings--registered-native-trimap.png",
+        "native_source_size": [
+          1004,
+          690
+        ],
+        "native_upscaling": false,
+        "source_pixels_redrawn": false,
+        "original_opaque_rgb_preserved": true,
+        "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+        "alpha_guide": {
+          "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+          "guide_png": "tmp/extraction-work/continuation-20261010/walters-w7-1r--haloed-human-head-with-gold-wings--native-alpha-reference.png",
+          "guide_sha256": "65772cecb22167f874347eacd3bc1602df3312d5fc29527766d521ef722a8703",
+          "native_original": "tmp/extraction-work/continuation-20261010/walters-w7-1r--haloed-human-head-with-gold-wings--original.png",
+          "similarity_ai_alpha_to_original": [
+            [
+              0.6030841335160259,
+              0.013536967373127037,
+              21.61450710952298
+            ],
+            [
+              -0.013536967373127037,
+              0.6030841335160259,
+              67.04934907262434
+            ]
+          ],
+          "matching_feature_pairs": 474,
+          "inlier_feature_pairs": 348,
+          "inlier_rms_native_pixels": 1.8326718753876745,
+          "source_inspection_factor": 1,
+          "unknown_edge_band_native_pixels": 3,
+          "edge_solve_tile_size": 640,
+          "edge_solve_halo": 32,
+          "edge_solve_tiles": 3,
+          "original_opaque_rgb_preserved": true
+        },
+        "status": "awaiting-original-white-dark-review",
+        "tool": "Original native scan / closed-form edge alpha and foreground decontamination",
+        "pixel_exact": false,
+        "ownership_guide_prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. Select only the human head, complete original gilded nimbus with its small pale beads, both entire GOLD wings, and the source-visible neck. Keep the two wings and their nimbus/head together as the original winged symbol. Clear the purple niche ground, surrounding broad gold architectural arch, colored architecture and horizontal sill. The lower symbol is physically occluded by the sill: keep the original visible edge and do not invent a new body or neck. Preserve ALL pale beads of the halo even if individually separated by genuine tiny gaps; do not drop tiny pale details or pale feathers. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_ownership_guide": {
+          "file": "tmp/extraction-work/walters-w7-1r--haloed-human-head-with-gold-wings--retained-ai-extraction.png",
+          "sha256": "65772cecb22167f874347eacd3bc1602df3312d5fc29527766d521ef722a8703",
+          "purpose": "Retained AI alpha guide only; delivered opaque RGB belongs to the unchanged native source."
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Complete original source and original/white/dark native comparison inspected. Entire orange-gold wings, complete source-visible human face/neck, gilded nimbus and small pale halo beads are intact. Niche ground, architecture and sill excluded. Native proportions and original opaque paint RGB retained, with genuine openings transparent. Lower neck is naturally occluded by the source sill; no concealed torso is synthesized.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/walters7-four-symbols-native-registration-current-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/walters-w7-1r--haloed-human-head-with-gold-wings--original.png"
+        ]
+      },
+      "categories": [
+        "humans",
+        "fantasy"
+      ],
+      "subjects": [
+        "human",
+        "head",
+        "halo",
+        "wing"
+      ],
+      "colors": [
+        "pink",
+        "gold",
+        "cream",
+        "black"
+      ],
+      "facing": "unclear",
+      "composition": "standalone",
+      "usage_notes": "Original source-visible winged evangelist symbol, independently reusable alongside the complete canon-table frame. The architectural sill occludes its lower edge; no concealed body is restored. Painted pale feathers and halo beads are retained.",
+      "sets": [
+        {
+          "id": "walters-w7-1r-set",
+          "name": "Walters W.7 Canon Table Evangelists",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A haloed human head with gold wings.",
+      "set_label": "Walters W.7 Canon Table Evangelists"
+    }
+  ]
+}

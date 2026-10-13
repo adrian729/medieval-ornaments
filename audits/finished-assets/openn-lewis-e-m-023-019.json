@@ -1,0 +1,646 @@
+{
+  "source_id": "openn-lewis-e-m-023-019",
+  "assets": [
+    {
+      "id": "openn-lewis-e-m-023-019--green-lobed-leaf-with-pointed-tip",
+      "name": "green-lobed-leaf-with-pointed-tip",
+      "source_id": "openn-lewis-e-m-023-019",
+      "source_folder": "openn-free-library",
+      "asset_type": "decoration",
+      "description": "A broad green lobed leaf with white painted vein accents and a pointed lower tip, isolated from its supporting alphabetic blue stroke. Part of the Decorated initial D (openn-lewis-e-m-023-019) set.",
+      "source_region": [
+        2459,
+        1873,
+        3182,
+        2559
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        92,
+        104,
+        572,
+        649
+      ],
+      "export_crop_coordinate_space": "source-region",
+      "width": 480,
+      "height": 545,
+      "png": "openn-free-library/openn-lewis-e-m-023-019--green-lobed-leaf-with-pointed-tip.png",
+      "png_sha256": "6cadabaea7107cbfbe6a5d28eca86d6d72317f872e300ec58ae66b4eaf2cabb7",
+      "provenance": {
+        "institution": "Free Library of Philadelphia, John Frederick Lewis Collection",
+        "title": "Decorated initial D",
+        "object_identifier": "Lewis E M 23:19 Decorated initial D",
+        "date": "(Italy (northern), 1400-1499)",
+        "record_url": "https://openn.library.upenn.edu/Data/0023/html/lewis_e_m_023_019.html",
+        "image_rights": "Public Domain Mark 1.0; item record explicitly places images in public domain",
+        "rights_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "source_file": "tmp/new-assets/openn-free-library/openn-lewis-e-m-023-019--decorated-initial-d--master.tif",
+        "source_sha256": "97a7ab5ba6b2a74e7237f1e746a6fbee1861cda4a783f9f67ce42b41dbaf7c0e",
+        "source_metadata": "tmp/new-assets/openn-free-library/openn-lewis-e-m-023-019.json",
+        "image_url": "https://openn.library.upenn.edu/Data/0023/lewis_e_m_023_019/data/master/7731_0000.tif",
+        "method": "native-source-continuous-edge-matting"
+      },
+      "extraction": {
+        "candidate_png": "tmp/extraction-work/continuation-20261010/openn-lewis-e-m-023-019--green-lobed-leaf-with-pointed-tip--refined-native-candidate.png",
+        "native_export_crop": [
+          92,
+          104,
+          572,
+          649
+        ],
+        "annotation_json": "tmp/extraction-work/continuation-20261010/openn-lewis-e-m-023-019--green-lobed-leaf-with-pointed-tip--native-semantic-annotation.json",
+        "trimap_png": "tmp/extraction-work/continuation-20261010/openn-lewis-e-m-023-019--green-lobed-leaf-with-pointed-tip--refined-native-trimap.png",
+        "native_upscaling": false,
+        "source_pixels_redrawn": false,
+        "original_opaque_rgb_preserved": true,
+        "native_source_size": [
+          723,
+          686
+        ],
+        "unknown_contour_band_native_pixels": 4,
+        "rotation_method": "Source orientation retained",
+        "method": "SAM 2.1 semantic ownership guide applied only to native alpha; complete opaque original painted surfaces and exact opaque source RGB retained. Closed-form continuous native edge matting; no source upscaling, redraw, restored anatomy, or vector approximation.",
+        "semantic_body_guide": {
+          "prompts_native_pixels": [
+            {
+              "positive": [
+                [
+                  361.5,
+                  377.3
+                ],
+                [
+                  361.5,
+                  205.79999999999998
+                ],
+                [
+                  325.35,
+                  500.78
+                ],
+                [
+                  187.98000000000002,
+                  391.02
+                ],
+                [
+                  448.26,
+                  473.34
+                ]
+              ],
+              "negative": [
+                [
+                  173.51999999999998,
+                  171.5
+                ],
+                [
+                  542.25,
+                  219.52
+                ],
+                [
+                  86.75999999999999,
+                  521.36
+                ],
+                [
+                  506.09999999999997,
+                  631.12
+                ]
+              ],
+              "box": [
+                72.3,
+                82.32,
+                621.78,
+                644.8399999999999
+              ],
+              "mask_choice": 2
+            }
+          ],
+          "normalized_prompts": [
+            {
+              "positive": [
+                [
+                  0.5,
+                  0.55
+                ],
+                [
+                  0.5,
+                  0.3
+                ],
+                [
+                  0.45,
+                  0.73
+                ],
+                [
+                  0.26,
+                  0.57
+                ],
+                [
+                  0.62,
+                  0.69
+                ]
+              ],
+              "negative": [
+                [
+                  0.24,
+                  0.25
+                ],
+                [
+                  0.75,
+                  0.32
+                ],
+                [
+                  0.12,
+                  0.76
+                ],
+                [
+                  0.7,
+                  0.92
+                ]
+              ],
+              "box": [
+                0.1,
+                0.12,
+                0.86,
+                0.94
+              ]
+            }
+          ],
+          "scores": [
+            [
+              0.8724778890609741,
+              0.6902579069137573,
+              0.8806450366973877
+            ]
+          ],
+          "ownership_scope_polygons": null,
+          "checkpoint": "tmp/sam2.1_hiera_base_plus.pt",
+          "checkpoint_sha256": "a2345aede8715ab1d5d31b4a509fb160c5a4af1970f199d9054ccfb746c004c5",
+          "unknown_band_native_pixels": 4,
+          "rotation_clockwise": 0,
+          "method": "SAM 2.1 semantic ownership guide applied only to native alpha; complete opaque original painted surfaces and exact opaque source RGB retained. Closed-form continuous native edge matting; no source upscaling, redraw, restored anatomy, or vector approximation."
+        },
+        "status": "awaiting-final-original-white-dark-review",
+        "alpha_support_refinements": {
+          "id": "openn-lewis-e-m-023-019--green-lobed-leaf-with-pointed-tip",
+          "exclude_boxes": [
+            [
+              0,
+              398,
+              100,
+              686
+            ],
+            [
+              0,
+              0,
+              94,
+              686
+            ]
+          ]
+        },
+        "tool": "Original native scan / closed-form edge alpha and foreground decontamination",
+        "pixel_exact": false
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Reviewed the expanded original/native painted contour and each white/dark result. Entire opaque painted bodies, real paint wear, pale strokes and source-visible extremities retained on their native pixel grid. All figure exterior, genuine openings, glyph strokes and detached page/diagram fragments cleared. Aquarius uses an exact 180-degree native transpose. Native alpha-only guide refinements preserve the small original diagram marks crossing Capricorn's forehoof and Scorpio's wing; the marks never extend outside the subjects and no underlying paint is invented. The green leaf and orange bloom are complete original ornaments; shared alphabetic blue strokes were excluded rather than presented as severed vines. No upscaling, redraw or faceted SVG.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/five-refined-native-dark-inspection.jpg",
+          "tmp/extraction-work/continuation-20261010/five-native-zodiac-and-letter-motifs-final-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/five-native-zodiac-and-letter-motifs-final-proof-2.jpg"
+        ]
+      },
+      "categories": [
+        "floral",
+        "scrollwork"
+      ],
+      "subjects": [
+        "leaf"
+      ],
+      "colors": [
+        "blue",
+        "green",
+        "white"
+      ],
+      "facing": "unclear",
+      "composition": "standalone",
+      "usage_notes": "The complete original leaf or bloom is usable independently. The shared alphabetic blue stroke and surrounding letter are excluded; no severed curl is presented as a complete vine.",
+      "sets": [
+        {
+          "id": "openn-lewis-e-m-023-019-set",
+          "name": "Decorated initial D (openn-lewis-e-m-023-019)",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A broad green lobed leaf with white painted vein accents and a pointed lower tip, isolated from its supporting alphabetic blue stroke.",
+      "set_label": "Decorated initial D (openn-lewis-e-m-023-019)"
+    },
+    {
+      "id": "openn-lewis-e-m-023-019--lower-red-gold-and-blue-leaf-spray",
+      "name": "lower-red-gold-and-blue-leaf-spray",
+      "source_id": "openn-lewis-e-m-023-019",
+      "source_folder": "openn-free-library",
+      "asset_type": "decoration",
+      "description": "A red gold and blue lower leaf spray with long pointed blue lobes. Part of the Decorated initial D (openn-lewis-e-m-023-019) set.",
+      "source_region": [
+        959,
+        2006,
+        2232,
+        3077
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        80,
+        1,
+        1072,
+        1017
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 992,
+      "height": 1016,
+      "png": "openn-free-library/openn-lewis-e-m-023-019--lower-red-gold-and-blue-leaf-spray.png",
+      "png_sha256": "c06211b4540daafb3a31ca76970a3fd0768b7176ec4de44610a9098ead0eb5cf",
+      "provenance": {
+        "institution": "Free Library of Philadelphia, John Frederick Lewis Collection",
+        "title": "Decorated initial D",
+        "object_identifier": "Lewis E M 23:19 Decorated initial D",
+        "date": "(Italy (northern), 1400-1499)",
+        "record_url": "https://openn.library.upenn.edu/Data/0023/html/lewis_e_m_023_019.html",
+        "image_rights": "Public Domain Mark 1.0; item record explicitly places images in public domain",
+        "rights_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "source_file": "tmp/new-assets/openn-free-library/openn-lewis-e-m-023-019--decorated-initial-d--master.tif",
+        "source_sha256": "97a7ab5ba6b2a74e7237f1e746a6fbee1861cda4a783f9f67ce42b41dbaf7c0e",
+        "source_metadata": "tmp/new-assets/openn-free-library/openn-lewis-e-m-023-019.json",
+        "image_url": "https://openn.library.upenn.edu/Data/0023/lewis_e_m_023_019/data/master/7731_0000.tif",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. Isolate only the lower-left projecting foliate terminal: the large red/gold upper pointed leaf and long blue lower lobed leaf with its red/white patterned folded center. Exclude the flat red letter box, gold circular pips and blue outer oval continuing right. Keep the original leaf outlines and base ending at the actual original junction. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_extraction": "tmp/extraction-work/openn-lewis-e-m-023-019--lower-red-gold-and-blue-leaf-spray--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "0005640c2ab81ad9e62c64c9347bbeca53c759cdcd0f395a25a9386987b4ee90",
+        "retained_generated_size": [
+          1367,
+          1150
+        ],
+        "resolution_cap_scale": 0.8865248226950354,
+        "resolution_capped_size": [
+          1212,
+          1020
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          1180,
+          1000
+        ],
+        "native_subject_size_evidence": {
+          "method": "Individually inspected native visible subject bounds, excluding input-region whitespace and neighbours.",
+          "preview_subject_bounds": [
+            325,
+            657,
+            705,
+            979
+          ],
+          "preview_size": [
+            1400,
+            1073
+          ],
+          "original_size": [
+            4346,
+            3332
+          ]
+        },
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 3847
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Viewed original, white and dark comparisons. Corrected flowering plants contain no neighboring gilt ivy; complete source-visible leaves and source-truncated flower remain opaque. Archer retains its actual curved shaft end, two original hoofed legs and true arm/bow openings. Full tall rod and upper curl now retained. Butterfly fine anatomy checked against the native original. All source-capped PNGs retain precise prompt and original attribution.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/openn-margin-final-ready-results-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/openn-margin-final-ready-results-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/openn-margin-final-ready-results-proof-3.jpg",
+          "tmp/extraction-work/continuation-20261010/openn-lewis-e-m-031-029--small-spotted-butterfly--original.png"
+        ]
+      },
+      "categories": [
+        "floral"
+      ],
+      "subjects": [
+        "leaf",
+        "spray",
+        "terminal"
+      ],
+      "colors": [
+        "red",
+        "gold",
+        "blue",
+        "white"
+      ],
+      "facing": "unclear",
+      "composition": "single-ornament",
+      "usage_notes": "Original independent specimen with printed plate rules and page removed. AI-assisted extraction remains approximate; source bounds, actual native subject cap, original and exact prompt retained.",
+      "sets": [
+        {
+          "id": "openn-lewis-e-m-023-019-set",
+          "name": "Decorated initial D (openn-lewis-e-m-023-019)",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A red gold and blue lower leaf spray with long pointed blue lobes.",
+      "set_label": "Decorated initial D (openn-lewis-e-m-023-019)"
+    },
+    {
+      "id": "openn-lewis-e-m-023-019--orange-maned-hybrid-with-blue-wing-and-green-claws",
+      "name": "orange-maned-hybrid-with-blue-wing-and-green-claws",
+      "source_id": "openn-lewis-e-m-023-019",
+      "source_folder": "openn-free-library",
+      "asset_type": "illustration",
+      "description": "An orange maned hybrid with a large curled blue wing, gold feathered neck and green clawed feet. Part of the Decorated initial D (openn-lewis-e-m-023-019) set.",
+      "source_region": [
+        2164,
+        370,
+        3738,
+        2164
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        0,
+        3,
+        1152,
+        1335
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 1152,
+      "height": 1332,
+      "png": "openn-free-library/openn-lewis-e-m-023-019--orange-maned-hybrid-with-blue-wing-and-green-claws.png",
+      "png_sha256": "2d330bcfaf8b81df124c57f3887a1d2c49c1558d281a6e71be095b37480675fa",
+      "provenance": {
+        "institution": "Free Library of Philadelphia, John Frederick Lewis Collection",
+        "title": "Decorated initial D",
+        "object_identifier": "Lewis E M 23:19 Decorated initial D",
+        "date": "(Italy (northern), 1400-1499)",
+        "record_url": "https://openn.library.upenn.edu/Data/0023/html/lewis_e_m_023_019.html",
+        "image_rights": "Public Domain Mark 1.0; item record explicitly places images in public domain",
+        "rights_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "source_file": "tmp/new-assets/openn-free-library/openn-lewis-e-m-023-019--decorated-initial-d--master.tif",
+        "source_sha256": "97a7ab5ba6b2a74e7237f1e746a6fbee1861cda4a783f9f67ce42b41dbaf7c0e",
+        "source_metadata": "tmp/new-assets/openn-free-library/openn-lewis-e-m-023-019.json",
+        "image_url": "https://openn.library.upenn.edu/Data/0023/lewis_e_m_023_019/data/master/7731_0000.tif",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. Isolate ONLY the complete animal inside the decorated letter: orange maned pointed-eared head at upper right, its gold feathered front, gray breast, large inward-curled BLUE WING at left, and both green clawed feet. The blue outer oval and tall blue left post are LETTER STROKES and must be entirely excluded. The selected blue wing has feather striations and points inward below the gold feather tips. Remove all red/gold flat ground, orange botanical leaves below the feet, and the blue vine loop with green leaf below. Preserve actual wear and pale feather interiors; no modern species reinterpretation. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_extraction": "tmp/extraction-work/openn-lewis-e-m-023-019--orange-maned-hybrid-with-blue-wing-and-green-claws--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "8b7a3b11ad4b48f943b16a4649b6a91e4f11ce964c20c5b655fccd5f565226dc",
+        "retained_generated_size": [
+          1175,
+          1339
+        ],
+        "resolution_cap_scale": 1,
+        "resolution_capped_size": [
+          1175,
+          1339
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          1456,
+          1720
+        ],
+        "native_subject_size_evidence": {
+          "method": "Individually inspected native visible subject bounds, excluding input-region whitespace and neighbours.",
+          "preview_subject_bounds": [
+            704,
+            131,
+            1173,
+            685
+          ],
+          "preview_size": [
+            1400,
+            1073
+          ],
+          "original_size": [
+            4346,
+            3332
+          ]
+        },
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 3560
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Viewed each original ROI and final white/dark proof. Complete selected stems, faces, wings, leaves and contacts retained; paper/gold/sky and glyph-only strokes excluded. Native subject caps and exact prompts retained; AI approximation is disclosed.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/openn-margin-first-ready-results-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/openn-margin-first-ready-results-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/openn-margin-first-ready-results-proof-3.jpg"
+        ]
+      },
+      "categories": [
+        "animals",
+        "hybrids"
+      ],
+      "subjects": [
+        "hybrid",
+        "mane",
+        "wing",
+        "claw"
+      ],
+      "colors": [
+        "orange",
+        "gold",
+        "blue",
+        "green",
+        "gray"
+      ],
+      "facing": "right",
+      "composition": "standalone",
+      "usage_notes": "Original independent specimen with printed plate rules and page removed. AI-assisted extraction remains approximate; source bounds, actual native subject cap, original and exact prompt retained.",
+      "sets": [
+        {
+          "id": "openn-lewis-e-m-023-019-set",
+          "name": "Decorated initial D (openn-lewis-e-m-023-019)",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "An orange maned hybrid with a large curled blue wing, gold feathered neck and green clawed feet.",
+      "set_label": "Decorated initial D (openn-lewis-e-m-023-019)"
+    },
+    {
+      "id": "openn-lewis-e-m-023-019--upper-red-gold-and-blue-leaf-spray",
+      "name": "upper-red-gold-and-blue-leaf-spray",
+      "source_id": "openn-lewis-e-m-023-019",
+      "source_folder": "openn-free-library",
+      "asset_type": "decoration",
+      "description": "A red gold and blue upper foliate spray with a curled painted leaf. Part of the Decorated initial D (openn-lewis-e-m-023-019) set.",
+      "source_region": [
+        925,
+        115,
+        2189,
+        1087
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        6,
+        22,
+        1205,
+        920
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 1199,
+      "height": 898,
+      "png": "openn-free-library/openn-lewis-e-m-023-019--upper-red-gold-and-blue-leaf-spray.png",
+      "png_sha256": "8ef02ec348f9ff5323a328f80f63040453d034c2a09fe6fd45aed36be84fd121",
+      "provenance": {
+        "institution": "Free Library of Philadelphia, John Frederick Lewis Collection",
+        "title": "Decorated initial D",
+        "object_identifier": "Lewis E M 23:19 Decorated initial D",
+        "date": "(Italy (northern), 1400-1499)",
+        "record_url": "https://openn.library.upenn.edu/Data/0023/html/lewis_e_m_023_019.html",
+        "image_rights": "Public Domain Mark 1.0; item record explicitly places images in public domain",
+        "rights_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "source_file": "tmp/new-assets/openn-free-library/openn-lewis-e-m-023-019--decorated-initial-d--master.tif",
+        "source_sha256": "97a7ab5ba6b2a74e7237f1e746a6fbee1861cda4a783f9f67ce42b41dbaf7c0e",
+        "source_metadata": "tmp/new-assets/openn-free-library/openn-lewis-e-m-023-019.json",
+        "image_url": "https://openn.library.upenn.edu/Data/0023/lewis_e_m_023_019/data/master/7731_0000.tif",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. Isolate only the upper-left projecting botanical terminal: the full red/gold left-pointing leaf and curled BLUE upper leaf with small red center. Exclude the flat red letter box, all gold circular pips and the decorated blue letter post continuing down. Preserve actual painted leaf junctions and source-truncated upper leaf edge. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_extraction": "tmp/extraction-work/openn-lewis-e-m-023-019--upper-red-gold-and-blue-leaf-spray--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "51a301a1fe72ba248b73ce26790651458c14005a81c4316e5dce8679a0dbd409",
+        "retained_generated_size": [
+          1430,
+          1100
+        ],
+        "resolution_cap_scale": 0.8431931575196009,
+        "resolution_capped_size": [
+          1206,
+          928
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          1183,
+          891
+        ],
+        "native_subject_size_evidence": {
+          "method": "Individually inspected native visible subject bounds, excluding input-region whitespace and neighbours.",
+          "preview_subject_bounds": [
+            315,
+            47,
+            696,
+            334
+          ],
+          "preview_size": [
+            1400,
+            1073
+          ],
+          "original_size": [
+            4346,
+            3332
+          ]
+        },
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 5911
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Viewed each original ROI and final white/dark proof. Complete selected stems, faces, wings, leaves and contacts retained; paper/gold/sky and glyph-only strokes excluded. Native subject caps and exact prompts retained; AI approximation is disclosed.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/openn-margin-first-ready-results-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/openn-margin-first-ready-results-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/openn-margin-first-ready-results-proof-3.jpg"
+        ]
+      },
+      "categories": [
+        "floral"
+      ],
+      "subjects": [
+        "leaf",
+        "spray",
+        "curl"
+      ],
+      "colors": [
+        "red",
+        "gold",
+        "blue",
+        "white"
+      ],
+      "facing": "unclear",
+      "composition": "single-ornament",
+      "usage_notes": "Original independent specimen with printed plate rules and page removed. AI-assisted extraction remains approximate; source bounds, actual native subject cap, original and exact prompt retained.",
+      "sets": [
+        {
+          "id": "openn-lewis-e-m-023-019-set",
+          "name": "Decorated initial D (openn-lewis-e-m-023-019)",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A red gold and blue upper foliate spray with a curled painted leaf.",
+      "set_label": "Decorated initial D (openn-lewis-e-m-023-019)"
+    }
+  ]
+}

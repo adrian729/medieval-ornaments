@@ -1,0 +1,1196 @@
+{
+  "source_id": "met-338721",
+  "assets": [
+    {
+      "id": "met-338721--arched-canopy-with-two-hanging-birdcages",
+      "name": "arched-canopy-with-two-hanging-birdcages",
+      "source_id": "met-338721",
+      "source_folder": "met",
+      "asset_type": "decoration",
+      "description": "An arched canopy and leafy beams supporting two hanging birdcages, a central hanging drapery and delicate strands of tassels. Part of the Du Cerceau birdcage grotesques set.",
+      "source_region": [
+        1169,
+        121,
+        2894,
+        1345
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        0,
+        0,
+        1725,
+        1224
+      ],
+      "export_crop_coordinate_space": "reviewed-native-rule-correction-canvas",
+      "width": 1725,
+      "height": 1224,
+      "png": "met/met-338721--arched-canopy-with-two-hanging-birdcages.png",
+      "png_sha256": "17c1388b3206c40455c43944b3d3a0329e83b14b7e368635dc565acd26ab3b28",
+      "provenance": {
+        "institution": "Metropolitan Museum of Art",
+        "title": "Grotesque Ornament Panel, from \"Livre de Grotesques...\"",
+        "object_identifier": "49.95.321",
+        "date": "1566",
+        "artist": "Jacques Androuet Du Cerceau",
+        "record_url": "https://www.metmuseum.org/art/collection/search/338721",
+        "image_rights": "CC0 Open Access; isPublicDomain=true",
+        "rights_url": "https://www.metmuseum.org/policies/image-resources",
+        "source_file": "tmp/new-assets/met/met-338721--grotesque-ornament-panel-from-livre-de-grotesques.jpg",
+        "source_sha256": "1e12434dbdf4463c553345d331ce835e60ce7e1e9c82cfb1971e7ab9438e9377",
+        "source_metadata": "tmp/new-assets/met/met-338721.json",
+        "image_url": null,
+        "method": "native-continuous-ink-matting"
+      },
+      "extraction": {
+        "method": "Native-resolution continuous ink coverage after locally measured paper removal; PNG appearance master.",
+        "source_pixels_repainted": false,
+        "source_rgb_modified": "Paper removed by measured ink coverage; RGB is the scan-measured ink tone, not an exact source-pixel crop.",
+        "paper_kernel": 61,
+        "minimum_coverage": 0.13,
+        "minimum_component_pixels": 6,
+        "settings": {
+          "paper_kernel": 61,
+          "paper_kernel_shape": "rectangle",
+          "minimum_coverage": 0.13,
+          "minimum_component_pixels": 6,
+          "minimum_component_peak": 0.42,
+          "minimum_channel_coverage": true
+        },
+        "exclude_regions": [],
+        "export_crop": [
+          0,
+          0,
+          1675,
+          1174
+        ],
+        "ink_color": [
+          45,
+          45,
+          45
+        ],
+        "candidate_png": "tmp/extraction-work/todo-fixes-20261012/met-338721--arched-canopy-with-two-hanging-birdcages--completed-plate-candidate.png",
+        "status": "awaiting-native-visual-review",
+        "tool": "Native source ink analysis",
+        "source_pixels_redrawn": true,
+        "todo_correction": {
+          "id": "met-338721--arched-canopy-with-two-hanging-birdcages",
+          "candidate": "tmp/extraction-work/todo-fixes-20261012/met-338721--arched-canopy-with-two-hanging-birdcages--completed-plate-candidate.png",
+          "before": "tmp/extraction-work/todo-fixes-20261012/met-338721--arched-canopy-with-two-hanging-birdcages--before.png",
+          "source_region": [
+            1169,
+            121,
+            2894,
+            1345
+          ],
+          "original": "tmp/new-assets/met/met-338721--grotesque-ornament-panel-from-livre-de-grotesques.jpg",
+          "recovered_sides": [
+            {
+              "side": "top",
+              "source_axis_intercept_in_expanded_region": 20.585112873703476,
+              "slope": 0.004881025015253203,
+              "observed_original_segment_pixels": 1639,
+              "extent": [
+                15,
+                1710
+              ]
+            },
+            {
+              "side": "bottom",
+              "source_axis_intercept_in_expanded_region": 1201.089552238806,
+              "slope": -0.003582089552238806,
+              "observed_original_segment_pixels": 1675,
+              "extent": [
+                15,
+                1710
+              ]
+            },
+            {
+              "side": "left",
+              "source_axis_intercept_in_expanded_region": 18.86890756302521,
+              "slope": 0.010084033613445379,
+              "observed_original_segment_pixels": 1190,
+              "extent": [
+                15,
+                1209
+              ]
+            },
+            {
+              "side": "right",
+              "source_axis_intercept_in_expanded_region": 1699.0,
+              "slope": 0.0,
+              "observed_original_segment_pixels": 1172,
+              "extent": [
+                15,
+                1209
+              ]
+            }
+          ],
+          "pixels_added_or_strengthened": 11395,
+          "status": "awaiting-original-white-dark-review",
+          "method": "Recover only observed long plate rules from the original scan in a narrow source-fitted native corridor. The input is expanded 25 pixels to include clipped original ink. Source-measured ink color and coverage; no inferred missing side, generic rectangle, artwork rescaling or changed interior pixels.",
+          "rule_repair": {
+            "missing_native_columns_completed": 88,
+            "method": "Only absent/faint outside-rule samples (<65 alpha in five-native-pixel corridor) receive the narrow three-pixel ink cross-section of a nearby surviving original printed rule. Decorative hatching and ornament interiors are unchanged."
+          }
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "finished-only-todo-corrections-20261012",
+        "notes": "Original finite engraved composition retained with its source-supported outside plate rules. Clipped rules recovered from adjacent original scan pixels; faint thin-rule gaps narrowly completed with neighboring native ink profiles where recorded. Decorative hatch bands retain original print wear. No generic replacement frame or repeat is inferred.",
+        "checks": [
+          "actual-original-comparison",
+          "native-scale-and-proportions",
+          "complete-figures-and-ornaments",
+          "source-rule-geometry-and-endpoints",
+          "white-and-dark-backgrounds"
+        ],
+        "evidence": [
+          "tmp/extraction-work/todo-fixes-20261012/met-338721--arched-canopy-with-two-hanging-birdcages--recovered-rules-proof.jpg",
+          "tmp/extraction-work/todo-fixes-20261012/completed-plates-final-review-1.jpg"
+        ]
+      },
+      "categories": [
+        "floral",
+        "fantasy"
+      ],
+      "subjects": [
+        "canopy",
+        "cage",
+        "bird",
+        "drapery",
+        "tassel",
+        "leaf"
+      ],
+      "facing": "mixed",
+      "colors": [
+        "brown",
+        "black"
+      ],
+      "composition": "single-ornament",
+      "usage_notes": "Original finite engraved composition retained with its source-supported outside plate rules. Clipped rules recovered from adjacent original scan pixels; faint thin-rule gaps narrowly completed with neighboring native ink profiles where recorded. Decorative hatch bands retain original print wear. No generic replacement frame or repeat is inferred. Finite original decoration; no repeat or corner atlas inferred.",
+      "sets": [
+        {
+          "id": "met-338721-set",
+          "name": "Du Cerceau birdcage grotesques",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "An arched canopy and leafy beams supporting two hanging birdcages, a central hanging drapery and delicate strands of tassels.",
+      "set_label": "Du Cerceau birdcage grotesques",
+      "review_history": [
+        {
+          "status": "accepted",
+          "approval_scope": "Native source-appearance comparison; provisional for maintainer review.",
+          "checks": [
+            "native-source-ink",
+            "continuous-alpha",
+            "complete-ornament",
+            "true-paper-transparency",
+            "fine-strokes-on-white-and-dark",
+            "no-upscaling"
+          ],
+          "notes": "Native source ink retained, including curved hatching, leaves, faces, thin draperies, cages and scroll tips. Original architectural beams/rules forming the artwork are retained where they support figures. Actual paper openings are transparent. PNG-only; a trace would lose print grain.",
+          "evidence": [
+            "tmp/extraction-work/continuation-20261010/met-eight-native-recipes-proof-1.jpg",
+            "tmp/extraction-work/continuation-20261010/met-eight-native-recipes-proof-2.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "met-338721--foliate-face-with-paired-perching-birds",
+      "name": "foliate-face-with-paired-perching-birds",
+      "source_id": "met-338721",
+      "source_folder": "met",
+      "asset_type": "decoration",
+      "description": "A foliate face beneath two curling scrolls, with paired birds perching on connected architectural branches and hanging ornaments. Part of the Du Cerceau birdcage grotesques set.",
+      "source_region": [
+        2921,
+        124,
+        3922,
+        668
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        0,
+        0,
+        1001,
+        544
+      ],
+      "export_crop_coordinate_space": "reviewed-native-rule-correction-canvas",
+      "width": 1001,
+      "height": 544,
+      "png": "met/met-338721--foliate-face-with-paired-perching-birds.png",
+      "png_sha256": "dcb98936a9692c1d135ce5a643f1c83bf24965e4cf3fec42d9adb5139fbe8178",
+      "provenance": {
+        "institution": "Metropolitan Museum of Art",
+        "title": "Grotesque Ornament Panel, from \"Livre de Grotesques...\"",
+        "object_identifier": "49.95.321",
+        "date": "1566",
+        "artist": "Jacques Androuet Du Cerceau",
+        "record_url": "https://www.metmuseum.org/art/collection/search/338721",
+        "image_rights": "CC0 Open Access; isPublicDomain=true",
+        "rights_url": "https://www.metmuseum.org/policies/image-resources",
+        "source_file": "tmp/new-assets/met/met-338721--grotesque-ornament-panel-from-livre-de-grotesques.jpg",
+        "source_sha256": "1e12434dbdf4463c553345d331ce835e60ce7e1e9c82cfb1971e7ab9438e9377",
+        "source_metadata": "tmp/new-assets/met/met-338721.json",
+        "image_url": null,
+        "method": "native-continuous-ink-matting"
+      },
+      "extraction": {
+        "method": "Native-resolution continuous ink coverage after locally measured paper removal; PNG appearance master.",
+        "source_pixels_repainted": false,
+        "source_rgb_modified": "Paper removed by measured ink coverage; RGB is the scan-measured ink tone, not an exact source-pixel crop.",
+        "paper_kernel": 61,
+        "minimum_coverage": 0.13,
+        "minimum_component_pixels": 6,
+        "settings": {
+          "paper_kernel": 61,
+          "paper_kernel_shape": "rectangle",
+          "minimum_coverage": 0.13,
+          "minimum_component_pixels": 6,
+          "minimum_component_peak": 0.42,
+          "minimum_channel_coverage": true
+        },
+        "exclude_regions": [],
+        "export_crop": [
+          0,
+          0,
+          951,
+          494
+        ],
+        "ink_color": [
+          43,
+          43,
+          43
+        ],
+        "candidate_png": "tmp/extraction-work/todo-fixes-20261012/met-338721--foliate-face-with-paired-perching-birds--completed-plate-candidate.png",
+        "status": "awaiting-native-visual-review",
+        "tool": "Native source ink analysis",
+        "source_pixels_redrawn": true,
+        "todo_correction": {
+          "id": "met-338721--foliate-face-with-paired-perching-birds",
+          "candidate": "tmp/extraction-work/todo-fixes-20261012/met-338721--foliate-face-with-paired-perching-birds--completed-plate-candidate.png",
+          "before": "tmp/extraction-work/todo-fixes-20261012/met-338721--foliate-face-with-paired-perching-birds--before.png",
+          "source_region": [
+            2921,
+            124,
+            3922,
+            668
+          ],
+          "original": "tmp/new-assets/met/met-338721--grotesque-ornament-panel-from-livre-de-grotesques.jpg",
+          "recovered_sides": [
+            {
+              "side": "top",
+              "source_axis_intercept_in_expanded_region": 26.0,
+              "slope": 0.006211180124223602,
+              "observed_original_segment_pixels": 966,
+              "extent": [
+                15,
+                986
+              ]
+            },
+            {
+              "side": "bottom",
+              "source_axis_intercept_in_expanded_region": 517.0,
+              "slope": 0.0,
+              "observed_original_segment_pixels": 956,
+              "extent": [
+                15,
+                986
+              ]
+            },
+            {
+              "side": "left",
+              "source_axis_intercept_in_expanded_region": 25.0,
+              "slope": 0.0,
+              "observed_original_segment_pixels": 498,
+              "extent": [
+                15,
+                529
+              ]
+            },
+            {
+              "side": "right",
+              "source_axis_intercept_in_expanded_region": 972.7480916030535,
+              "slope": 0.007633587786259542,
+              "observed_original_segment_pixels": 262,
+              "extent": [
+                15,
+                529
+              ]
+            }
+          ],
+          "pixels_added_or_strengthened": 5592,
+          "status": "awaiting-original-white-dark-review",
+          "method": "Recover only observed long plate rules from the original scan in a narrow source-fitted native corridor. The input is expanded 25 pixels to include clipped original ink. Source-measured ink color and coverage; no inferred missing side, generic rectangle, artwork rescaling or changed interior pixels.",
+          "rule_repair": {
+            "missing_native_columns_completed": 172,
+            "method": "Only absent/faint outside-rule samples (<65 alpha in five-native-pixel corridor) receive the narrow three-pixel ink cross-section of a nearby surviving original printed rule. Decorative hatching and ornament interiors are unchanged."
+          }
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "finished-only-todo-corrections-20261012",
+        "notes": "Original finite engraved composition retained with its source-supported outside plate rules. Clipped rules recovered from adjacent original scan pixels; faint thin-rule gaps narrowly completed with neighboring native ink profiles where recorded. Decorative hatch bands retain original print wear. No generic replacement frame or repeat is inferred.",
+        "checks": [
+          "actual-original-comparison",
+          "native-scale-and-proportions",
+          "complete-figures-and-ornaments",
+          "source-rule-geometry-and-endpoints",
+          "white-and-dark-backgrounds"
+        ],
+        "evidence": [
+          "tmp/extraction-work/todo-fixes-20261012/met-338721--foliate-face-with-paired-perching-birds--recovered-rules-proof.jpg",
+          "tmp/extraction-work/todo-fixes-20261012/completed-plates-final-review-1.jpg"
+        ]
+      },
+      "categories": [
+        "floral",
+        "fantasy"
+      ],
+      "subjects": [
+        "face",
+        "bird",
+        "leaf",
+        "scroll",
+        "tassel"
+      ],
+      "facing": "mixed",
+      "colors": [
+        "brown",
+        "black"
+      ],
+      "composition": "single-ornament",
+      "usage_notes": "Original finite engraved composition retained with its source-supported outside plate rules. Clipped rules recovered from adjacent original scan pixels; faint thin-rule gaps narrowly completed with neighboring native ink profiles where recorded. Decorative hatch bands retain original print wear. No generic replacement frame or repeat is inferred. Finite original decoration; no repeat or corner atlas inferred.",
+      "sets": [
+        {
+          "id": "met-338721-set",
+          "name": "Du Cerceau birdcage grotesques",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A foliate face beneath two curling scrolls, with paired birds perching on connected architectural branches and hanging ornaments.",
+      "set_label": "Du Cerceau birdcage grotesques",
+      "review_history": [
+        {
+          "status": "accepted",
+          "approval_scope": "Native source-appearance comparison; provisional for maintainer review.",
+          "checks": [
+            "native-source-ink",
+            "continuous-alpha",
+            "complete-ornament",
+            "true-paper-transparency",
+            "fine-strokes-on-white-and-dark",
+            "no-upscaling"
+          ],
+          "notes": "Native source ink retained, including curved hatching, leaves, faces, thin draperies, cages and scroll tips. Original architectural beams/rules forming the artwork are retained where they support figures. Actual paper openings are transparent. PNG-only; a trace would lose print grain.",
+          "evidence": [
+            "tmp/extraction-work/continuation-20261010/met-eight-native-recipes-proof-1.jpg",
+            "tmp/extraction-work/continuation-20261010/met-eight-native-recipes-proof-2.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "met-338721--grotesque-canopy-with-birds-and-suspended-miniature",
+      "name": "grotesque-canopy-with-birds-and-suspended-miniature",
+      "source_id": "met-338721",
+      "source_folder": "met",
+      "asset_type": "decoration",
+      "description": "A finite architectural grotesque ornament with paired perched birds, canopy scrolls, hanging cages, tassels and a framed miniature. Part of the Du Cerceau birdcage grotesques set.",
+      "source_region": [
+        118,
+        118,
+        1122,
+        653
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        0,
+        0,
+        1004,
+        535
+      ],
+      "export_crop_coordinate_space": "reviewed-native-rule-correction-canvas",
+      "width": 1004,
+      "height": 535,
+      "png": "met/met-338721--grotesque-canopy-with-birds-and-suspended-miniature.png",
+      "png_sha256": "81de1d3d93a41979e6c51264b6d89fc5062e30ec6deae5874837ef894022b68a",
+      "provenance": {
+        "institution": "Metropolitan Museum of Art",
+        "title": "Grotesque Ornament Panel, from \"Livre de Grotesques...\"",
+        "object_identifier": "49.95.321",
+        "date": "1566",
+        "artist": "Jacques Androuet Du Cerceau",
+        "record_url": "https://www.metmuseum.org/art/collection/search/338721",
+        "image_rights": "CC0 Open Access; isPublicDomain=true",
+        "rights_url": "https://www.metmuseum.org/policies/image-resources",
+        "source_file": "tmp/new-assets/met/met-338721--grotesque-ornament-panel-from-livre-de-grotesques.jpg",
+        "source_sha256": "1e12434dbdf4463c553345d331ce835e60ce7e1e9c82cfb1971e7ab9438e9377",
+        "source_metadata": "tmp/new-assets/met/met-338721.json",
+        "image_url": null,
+        "method": "native-continuous-ink-matting"
+      },
+      "extraction": {
+        "method": "Native-resolution continuous ink coverage after locally measured paper removal; PNG appearance master.",
+        "source_pixels_repainted": false,
+        "source_rgb_modified": "Paper removed by measured ink coverage; RGB is the scan-measured ink tone, not an exact source-pixel crop.",
+        "paper_kernel": 61,
+        "minimum_coverage": 0.13,
+        "minimum_component_pixels": 6,
+        "settings": {
+          "paper_kernel": 61,
+          "paper_kernel_shape": "rectangle",
+          "minimum_coverage": 0.13,
+          "minimum_component_pixels": 6,
+          "minimum_component_peak": 0.42,
+          "minimum_channel_coverage": true
+        },
+        "exclude_regions": [],
+        "export_crop": [
+          0,
+          0,
+          954,
+          485
+        ],
+        "ink_color": [
+          44,
+          44,
+          44
+        ],
+        "candidate_png": "tmp/extraction-work/todo-fixes-20261012/met-338721--grotesque-canopy-with-birds-and-suspended-miniature--completed-plate-candidate.png",
+        "status": "awaiting-native-visual-review",
+        "tool": "Native source ink analysis",
+        "source_pixels_redrawn": true,
+        "todo_correction": {
+          "id": "met-338721--grotesque-canopy-with-birds-and-suspended-miniature",
+          "candidate": "tmp/extraction-work/todo-fixes-20261012/met-338721--grotesque-canopy-with-birds-and-suspended-miniature--completed-plate-candidate.png",
+          "before": "tmp/extraction-work/todo-fixes-20261012/met-338721--grotesque-canopy-with-birds-and-suspended-miniature--before.png",
+          "source_region": [
+            118,
+            118,
+            1122,
+            653
+          ],
+          "original": "tmp/new-assets/met/met-338721--grotesque-ornament-panel-from-livre-de-grotesques.jpg",
+          "recovered_sides": [
+            {
+              "side": "top",
+              "source_axis_intercept_in_expanded_region": 32.15698267074414,
+              "slope": -0.007135575942915392,
+              "observed_original_segment_pixels": 981,
+              "extent": [
+                15,
+                989
+              ]
+            },
+            {
+              "side": "bottom",
+              "source_axis_intercept_in_expanded_region": 509.0,
+              "slope": 0.0,
+              "observed_original_segment_pixels": 954,
+              "extent": [
+                15,
+                989
+              ]
+            },
+            {
+              "side": "left",
+              "source_axis_intercept_in_expanded_region": 25.861702127659573,
+              "slope": 0.005319148936170213,
+              "observed_original_segment_pixels": 376,
+              "extent": [
+                15,
+                520
+              ]
+            },
+            {
+              "side": "right",
+              "source_axis_intercept_in_expanded_region": 975.7422680412371,
+              "slope": 0.010309278350515464,
+              "observed_original_segment_pixels": 485,
+              "extent": [
+                15,
+                520
+              ]
+            }
+          ],
+          "pixels_added_or_strengthened": 4809,
+          "status": "awaiting-original-white-dark-review",
+          "method": "Recover only observed long plate rules from the original scan in a narrow source-fitted native corridor. The input is expanded 25 pixels to include clipped original ink. Source-measured ink color and coverage; no inferred missing side, generic rectangle, artwork rescaling or changed interior pixels.",
+          "rule_repair": {
+            "missing_native_columns_completed": 80,
+            "method": "Only absent/faint outside-rule samples (<65 alpha in five-native-pixel corridor) receive the narrow three-pixel ink cross-section of a nearby surviving original printed rule. Decorative hatching and ornament interiors are unchanged."
+          }
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "finished-only-todo-corrections-20261012",
+        "notes": "Original finite engraved composition retained with its source-supported outside plate rules. Clipped rules recovered from adjacent original scan pixels; faint thin-rule gaps narrowly completed with neighboring native ink profiles where recorded. Decorative hatch bands retain original print wear. No generic replacement frame or repeat is inferred.",
+        "checks": [
+          "actual-original-comparison",
+          "native-scale-and-proportions",
+          "complete-figures-and-ornaments",
+          "source-rule-geometry-and-endpoints",
+          "white-and-dark-backgrounds"
+        ],
+        "evidence": [
+          "tmp/extraction-work/todo-fixes-20261012/met-338721--grotesque-canopy-with-birds-and-suspended-miniature--recovered-rules-proof.jpg",
+          "tmp/extraction-work/todo-fixes-20261012/completed-plates-final-review-1.jpg"
+        ]
+      },
+      "categories": [
+        "floral",
+        "fantasy"
+      ],
+      "subjects": [
+        "bird",
+        "canopy",
+        "cage",
+        "tassel",
+        "scroll"
+      ],
+      "facing": "mixed",
+      "colors": [
+        "brown",
+        "black"
+      ],
+      "composition": "single-ornament",
+      "usage_notes": "Original finite engraved composition retained with its source-supported outside plate rules. Clipped rules recovered from adjacent original scan pixels; faint thin-rule gaps narrowly completed with neighboring native ink profiles where recorded. Decorative hatch bands retain original print wear. No generic replacement frame or repeat is inferred. Finite original decoration; no repeat or corner atlas inferred.",
+      "sets": [
+        {
+          "id": "met-338721-set",
+          "name": "Du Cerceau birdcage grotesques",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A finite architectural grotesque ornament with paired perched birds, canopy scrolls, hanging cages, tassels and a framed miniature.",
+      "set_label": "Du Cerceau birdcage grotesques",
+      "review_history": [
+        {
+          "status": "accepted",
+          "approval_scope": "Native source-appearance comparison; provisional for maintainer review.",
+          "checks": [
+            "native-source-ink",
+            "continuous-alpha",
+            "complete-ornament",
+            "true-paper-transparency",
+            "fine-strokes-on-white-and-dark",
+            "no-upscaling"
+          ],
+          "notes": "Native source ink retained, including curved hatching, leaves, faces, thin draperies, cages and scroll tips. Original architectural beams/rules forming the artwork are retained where they support figures. Actual paper openings are transparent. PNG-only; a trace would lose print grain.",
+          "evidence": [
+            "tmp/extraction-work/continuation-20261010/met-eight-native-recipes-proof-1.jpg",
+            "tmp/extraction-work/continuation-20261010/met-eight-native-recipes-proof-2.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "met-338721--grotesque-with-paired-curled-hybrids-and-framed-scene",
+      "name": "grotesque-with-paired-curled-hybrids-and-framed-scene",
+      "source_id": "met-338721",
+      "source_folder": "met",
+      "asset_type": "decoration",
+      "description": "A complete architectural ornament with paired curling hybrids, foliate stalks, suspended garlands and a central miniature framed scene. Part of the Du Cerceau birdcage grotesques set.",
+      "source_region": [
+        1169,
+        1375,
+        2902,
+        2693
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        0,
+        0,
+        1733,
+        1318
+      ],
+      "export_crop_coordinate_space": "reviewed-native-rule-correction-canvas",
+      "width": 1733,
+      "height": 1318,
+      "png": "met/met-338721--grotesque-with-paired-curled-hybrids-and-framed-scene.png",
+      "png_sha256": "af7b474a46b5a923a8c4d287138fbeb02c03e9b1dee58bfb4b8b2ab58434b763",
+      "provenance": {
+        "institution": "Metropolitan Museum of Art",
+        "title": "Grotesque Ornament Panel, from \"Livre de Grotesques...\"",
+        "object_identifier": "49.95.321",
+        "date": "1566",
+        "artist": "Jacques Androuet Du Cerceau",
+        "record_url": "https://www.metmuseum.org/art/collection/search/338721",
+        "image_rights": "CC0 Open Access; isPublicDomain=true",
+        "rights_url": "https://www.metmuseum.org/policies/image-resources",
+        "source_file": "tmp/new-assets/met/met-338721--grotesque-ornament-panel-from-livre-de-grotesques.jpg",
+        "source_sha256": "1e12434dbdf4463c553345d331ce835e60ce7e1e9c82cfb1971e7ab9438e9377",
+        "source_metadata": "tmp/new-assets/met/met-338721.json",
+        "image_url": null,
+        "method": "native-continuous-ink-matting"
+      },
+      "extraction": {
+        "method": "Native-resolution continuous ink coverage after locally measured paper removal; PNG appearance master.",
+        "source_pixels_repainted": false,
+        "source_rgb_modified": "Paper removed by measured ink coverage; RGB is the scan-measured ink tone, not an exact source-pixel crop.",
+        "paper_kernel": 61,
+        "minimum_coverage": 0.13,
+        "minimum_component_pixels": 6,
+        "settings": {
+          "paper_kernel": 61,
+          "paper_kernel_shape": "rectangle",
+          "minimum_coverage": 0.13,
+          "minimum_component_pixels": 6,
+          "minimum_component_peak": 0.42,
+          "minimum_channel_coverage": true
+        },
+        "exclude_regions": [],
+        "export_crop": [
+          0,
+          0,
+          1683,
+          1268
+        ],
+        "ink_color": [
+          44,
+          44,
+          44
+        ],
+        "candidate_png": "tmp/extraction-work/todo-fixes-20261012/met-338721--grotesque-with-paired-curled-hybrids-and-framed-scene--completed-plate-candidate.png",
+        "status": "awaiting-native-visual-review",
+        "tool": "Native source ink analysis",
+        "source_pixels_redrawn": true,
+        "todo_correction": {
+          "id": "met-338721--grotesque-with-paired-curled-hybrids-and-framed-scene",
+          "candidate": "tmp/extraction-work/todo-fixes-20261012/met-338721--grotesque-with-paired-curled-hybrids-and-framed-scene--completed-plate-candidate.png",
+          "before": "tmp/extraction-work/todo-fixes-20261012/met-338721--grotesque-with-paired-curled-hybrids-and-framed-scene--before.png",
+          "source_region": [
+            1169,
+            1375,
+            2902,
+            2693
+          ],
+          "original": "tmp/new-assets/met/met-338721--grotesque-ornament-panel-from-livre-de-grotesques.jpg",
+          "recovered_sides": [
+            {
+              "side": "top",
+              "source_axis_intercept_in_expanded_region": 31.287061994609164,
+              "slope": -0.0013477088948787063,
+              "observed_original_segment_pixels": 742,
+              "extent": [
+                15,
+                1718
+              ]
+            },
+            {
+              "side": "bottom",
+              "source_axis_intercept_in_expanded_region": 1285.867088607595,
+              "slope": 0.006329113924050633,
+              "observed_original_segment_pixels": 790,
+              "extent": [
+                15,
+                1718
+              ]
+            },
+            {
+              "side": "left",
+              "source_axis_intercept_in_expanded_region": 25.0,
+              "slope": 0.0,
+              "observed_original_segment_pixels": 1260,
+              "extent": [
+                15,
+                1303
+              ]
+            },
+            {
+              "side": "right",
+              "source_axis_intercept_in_expanded_region": 1700.1376554174067,
+              "slope": -0.006216696269982238,
+              "observed_original_segment_pixels": 1126,
+              "extent": [
+                15,
+                1303
+              ]
+            }
+          ],
+          "pixels_added_or_strengthened": 12524,
+          "status": "awaiting-original-white-dark-review",
+          "method": "Recover only observed long plate rules from the original scan in a narrow source-fitted native corridor. The input is expanded 25 pixels to include clipped original ink. Source-measured ink color and coverage; no inferred missing side, generic rectangle, artwork rescaling or changed interior pixels.",
+          "rule_repair": {
+            "missing_native_columns_completed": 430,
+            "method": "Only absent/faint outside-rule samples (<65 alpha in five-native-pixel corridor) receive the narrow three-pixel ink cross-section of a nearby surviving original printed rule. Decorative hatching and ornament interiors are unchanged."
+          }
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "finished-only-todo-corrections-20261012",
+        "notes": "Original finite engraved composition retained with its source-supported outside plate rules. Clipped rules recovered from adjacent original scan pixels; faint thin-rule gaps narrowly completed with neighboring native ink profiles where recorded. Decorative hatch bands retain original print wear. No generic replacement frame or repeat is inferred.",
+        "checks": [
+          "actual-original-comparison",
+          "native-scale-and-proportions",
+          "complete-figures-and-ornaments",
+          "source-rule-geometry-and-endpoints",
+          "white-and-dark-backgrounds"
+        ],
+        "evidence": [
+          "tmp/extraction-work/todo-fixes-20261012/met-338721--grotesque-with-paired-curled-hybrids-and-framed-scene--recovered-rules-proof.jpg",
+          "tmp/extraction-work/todo-fixes-20261012/completed-plates-final-review-1.jpg"
+        ]
+      },
+      "categories": [
+        "floral",
+        "fantasy"
+      ],
+      "subjects": [
+        "hybrid",
+        "garland",
+        "leaf",
+        "scroll",
+        "frame"
+      ],
+      "facing": "mixed",
+      "colors": [
+        "brown",
+        "black"
+      ],
+      "composition": "single-ornament",
+      "usage_notes": "Original finite engraved composition retained with its source-supported outside plate rules. Clipped rules recovered from adjacent original scan pixels; faint thin-rule gaps narrowly completed with neighboring native ink profiles where recorded. Decorative hatch bands retain original print wear. No generic replacement frame or repeat is inferred. Finite original decoration; no repeat or corner atlas inferred.",
+      "sets": [
+        {
+          "id": "met-338721-set",
+          "name": "Du Cerceau birdcage grotesques",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A complete architectural ornament with paired curling hybrids, foliate stalks, suspended garlands and a central miniature framed scene.",
+      "set_label": "Du Cerceau birdcage grotesques",
+      "review_history": [
+        {
+          "status": "accepted",
+          "approval_scope": "Native source-appearance comparison; provisional for maintainer review.",
+          "checks": [
+            "native-source-ink",
+            "continuous-alpha",
+            "complete-ornament",
+            "true-paper-transparency",
+            "fine-strokes-on-white-and-dark",
+            "no-upscaling"
+          ],
+          "notes": "Native source ink retained, including curved hatching, leaves, faces, thin draperies, cages and scroll tips. Original architectural beams/rules forming the artwork are retained where they support figures. Actual paper openings are transparent. PNG-only; a trace would lose print grain.",
+          "evidence": [
+            "tmp/extraction-work/continuation-20261010/met-eight-native-recipes-proof-1.jpg",
+            "tmp/extraction-work/continuation-20261010/met-eight-native-recipes-proof-2.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "met-338721--tall-canopy-with-framed-figure-and-winged-mask",
+      "name": "tall-canopy-with-framed-figure-and-winged-mask",
+      "source_id": "met-338721",
+      "source_folder": "met",
+      "asset_type": "decoration",
+      "description": "A tall connected canopy ornament with suspended draperies, a central framed figure, foliate masks, smoking urns, tassels and a winged lower mask. Part of the Du Cerceau birdcage grotesques set.",
+      "source_region": [
+        2924,
+        701,
+        3922,
+        2693
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        0,
+        0,
+        998,
+        1992
+      ],
+      "export_crop_coordinate_space": "reviewed-native-rule-correction-canvas",
+      "width": 998,
+      "height": 1992,
+      "png": "met/met-338721--tall-canopy-with-framed-figure-and-winged-mask.png",
+      "png_sha256": "0429a5f4a0a25c5d39fbab24ba8894a35040a91e1d8099bdfc9d86b553e5a919",
+      "provenance": {
+        "institution": "Metropolitan Museum of Art",
+        "title": "Grotesque Ornament Panel, from \"Livre de Grotesques...\"",
+        "object_identifier": "49.95.321",
+        "date": "1566",
+        "artist": "Jacques Androuet Du Cerceau",
+        "record_url": "https://www.metmuseum.org/art/collection/search/338721",
+        "image_rights": "CC0 Open Access; isPublicDomain=true",
+        "rights_url": "https://www.metmuseum.org/policies/image-resources",
+        "source_file": "tmp/new-assets/met/met-338721--grotesque-ornament-panel-from-livre-de-grotesques.jpg",
+        "source_sha256": "1e12434dbdf4463c553345d331ce835e60ce7e1e9c82cfb1971e7ab9438e9377",
+        "source_metadata": "tmp/new-assets/met/met-338721.json",
+        "image_url": null,
+        "method": "native-continuous-ink-matting"
+      },
+      "extraction": {
+        "method": "Native-resolution continuous ink coverage after locally measured paper removal; PNG appearance master.",
+        "source_pixels_repainted": false,
+        "source_rgb_modified": "Paper removed by measured ink coverage; RGB is the scan-measured ink tone, not an exact source-pixel crop.",
+        "paper_kernel": 61,
+        "minimum_coverage": 0.13,
+        "minimum_component_pixels": 6,
+        "settings": {
+          "paper_kernel": 61,
+          "paper_kernel_shape": "rectangle",
+          "minimum_coverage": 0.13,
+          "minimum_component_pixels": 6,
+          "minimum_component_peak": 0.42,
+          "minimum_channel_coverage": true
+        },
+        "exclude_regions": [],
+        "export_crop": [
+          0,
+          0,
+          948,
+          1942
+        ],
+        "ink_color": [
+          43,
+          43,
+          43
+        ],
+        "candidate_png": "tmp/extraction-work/todo-fixes-20261012/met-338721--tall-canopy-with-framed-figure-and-winged-mask--completed-plate-candidate.png",
+        "status": "awaiting-native-visual-review",
+        "tool": "Native source ink analysis",
+        "source_pixels_redrawn": true,
+        "todo_correction": {
+          "id": "met-338721--tall-canopy-with-framed-figure-and-winged-mask",
+          "candidate": "tmp/extraction-work/todo-fixes-20261012/met-338721--tall-canopy-with-framed-figure-and-winged-mask--completed-plate-candidate.png",
+          "before": "tmp/extraction-work/todo-fixes-20261012/met-338721--tall-canopy-with-framed-figure-and-winged-mask--before.png",
+          "source_region": [
+            2924,
+            701,
+            3922,
+            2693
+          ],
+          "original": "tmp/new-assets/met/met-338721--grotesque-ornament-panel-from-livre-de-grotesques.jpg",
+          "recovered_sides": [
+            {
+              "side": "top",
+              "source_axis_intercept_in_expanded_region": 19.79245283018868,
+              "slope": 0.009433962264150943,
+              "observed_original_segment_pixels": 954,
+              "extent": [
+                15,
+                983
+              ]
+            },
+            {
+              "side": "bottom",
+              "source_axis_intercept_in_expanded_region": 1963.9513325608343,
+              "slope": 0.0034762456546929316,
+              "observed_original_segment_pixels": 863,
+              "extent": [
+                15,
+                983
+              ]
+            },
+            {
+              "side": "left",
+              "source_axis_intercept_in_expanded_region": 33.165631469979296,
+              "slope": -0.008281573498964804,
+              "observed_original_segment_pixels": 966,
+              "extent": [
+                15,
+                1977
+              ]
+            },
+            {
+              "side": "right",
+              "source_axis_intercept_in_expanded_region": 975.0102951269732,
+              "slope": -0.0034317089910775567,
+              "observed_original_segment_pixels": 1457,
+              "extent": [
+                15,
+                1977
+              ]
+            }
+          ],
+          "pixels_added_or_strengthened": 20883,
+          "status": "awaiting-original-white-dark-review",
+          "method": "Recover only observed long plate rules from the original scan in a narrow source-fitted native corridor. The input is expanded 25 pixels to include clipped original ink. Source-measured ink color and coverage; no inferred missing side, generic rectangle, artwork rescaling or changed interior pixels.",
+          "rule_repair": {
+            "missing_native_columns_completed": 895,
+            "method": "Only absent/faint outside-rule samples (<65 alpha in five-native-pixel corridor) receive the narrow three-pixel ink cross-section of a nearby surviving original printed rule. Decorative hatching and ornament interiors are unchanged."
+          }
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "finished-only-todo-corrections-20261012",
+        "notes": "Original finite engraved composition retained with its source-supported outside plate rules. Clipped rules recovered from adjacent original scan pixels; faint thin-rule gaps narrowly completed with neighboring native ink profiles where recorded. Decorative hatch bands retain original print wear. No generic replacement frame or repeat is inferred.",
+        "checks": [
+          "actual-original-comparison",
+          "native-scale-and-proportions",
+          "complete-figures-and-ornaments",
+          "source-rule-geometry-and-endpoints",
+          "white-and-dark-backgrounds"
+        ],
+        "evidence": [
+          "tmp/extraction-work/todo-fixes-20261012/met-338721--tall-canopy-with-framed-figure-and-winged-mask--recovered-rules-proof.jpg",
+          "tmp/extraction-work/todo-fixes-20261012/completed-plates-final-review-1.jpg"
+        ]
+      },
+      "categories": [
+        "floral",
+        "fantasy"
+      ],
+      "subjects": [
+        "canopy",
+        "person",
+        "mask",
+        "wing",
+        "urn",
+        "tassel",
+        "leaf"
+      ],
+      "facing": "mixed",
+      "colors": [
+        "brown",
+        "black"
+      ],
+      "composition": "single-ornament",
+      "usage_notes": "Original finite engraved composition retained with its source-supported outside plate rules. Clipped rules recovered from adjacent original scan pixels; faint thin-rule gaps narrowly completed with neighboring native ink profiles where recorded. Decorative hatch bands retain original print wear. No generic replacement frame or repeat is inferred. Finite original decoration; no repeat or corner atlas inferred.",
+      "sets": [
+        {
+          "id": "met-338721-set",
+          "name": "Du Cerceau birdcage grotesques",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A tall connected canopy ornament with suspended draperies, a central framed figure, foliate masks, smoking urns, tassels and a winged lower mask.",
+      "set_label": "Du Cerceau birdcage grotesques",
+      "review_history": [
+        {
+          "status": "accepted",
+          "approval_scope": "Native source-appearance comparison; provisional for maintainer review.",
+          "checks": [
+            "native-source-ink",
+            "continuous-alpha",
+            "complete-ornament",
+            "true-paper-transparency",
+            "fine-strokes-on-white-and-dark",
+            "no-upscaling"
+          ],
+          "notes": "Native source ink retained, including curved hatching, leaves, faces, thin draperies, cages and scroll tips. Original architectural beams/rules forming the artwork are retained where they support figures. Actual paper openings are transparent. PNG-only; a trace would lose print grain.",
+          "evidence": [
+            "tmp/extraction-work/continuation-20261010/met-eight-native-recipes-proof-1.jpg",
+            "tmp/extraction-work/continuation-20261010/met-eight-native-recipes-proof-2.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "met-338721--tall-grotesque-with-dragons-and-paired-griffins",
+      "name": "tall-grotesque-with-dragons-and-paired-griffins",
+      "source_id": "met-338721",
+      "source_folder": "met",
+      "asset_type": "decoration",
+      "description": "A complete tall architectural grotesque ornament with paired dragons, griffins, foliate candelabra, hanging strands and a small framed vignette. Part of the Du Cerceau birdcage grotesques set.",
+      "source_region": [
+        124,
+        683,
+        1122,
+        2687
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        0,
+        0,
+        998,
+        2004
+      ],
+      "export_crop_coordinate_space": "reviewed-native-rule-correction-canvas",
+      "width": 998,
+      "height": 2004,
+      "png": "met/met-338721--tall-grotesque-with-dragons-and-paired-griffins.png",
+      "png_sha256": "1239b7da5442ad6b9f5fce0866afbac5877e41f1388881d4722bd0cdc79d67be",
+      "provenance": {
+        "institution": "Metropolitan Museum of Art",
+        "title": "Grotesque Ornament Panel, from \"Livre de Grotesques...\"",
+        "object_identifier": "49.95.321",
+        "date": "1566",
+        "artist": "Jacques Androuet Du Cerceau",
+        "record_url": "https://www.metmuseum.org/art/collection/search/338721",
+        "image_rights": "CC0 Open Access; isPublicDomain=true",
+        "rights_url": "https://www.metmuseum.org/policies/image-resources",
+        "source_file": "tmp/new-assets/met/met-338721--grotesque-ornament-panel-from-livre-de-grotesques.jpg",
+        "source_sha256": "1e12434dbdf4463c553345d331ce835e60ce7e1e9c82cfb1971e7ab9438e9377",
+        "source_metadata": "tmp/new-assets/met/met-338721.json",
+        "image_url": null,
+        "method": "native-continuous-ink-matting"
+      },
+      "extraction": {
+        "method": "Native-resolution continuous ink coverage after locally measured paper removal; PNG appearance master.",
+        "source_pixels_repainted": false,
+        "source_rgb_modified": "Paper removed by measured ink coverage; RGB is the scan-measured ink tone, not an exact source-pixel crop.",
+        "paper_kernel": 61,
+        "minimum_coverage": 0.13,
+        "minimum_component_pixels": 6,
+        "settings": {
+          "paper_kernel": 61,
+          "paper_kernel_shape": "rectangle",
+          "minimum_coverage": 0.13,
+          "minimum_component_pixels": 6,
+          "minimum_component_peak": 0.42,
+          "minimum_channel_coverage": true
+        },
+        "exclude_regions": [],
+        "export_crop": [
+          0,
+          0,
+          948,
+          1954
+        ],
+        "ink_color": [
+          44,
+          44,
+          44
+        ],
+        "candidate_png": "tmp/extraction-work/todo-fixes-20261012/met-338721--tall-grotesque-with-dragons-and-paired-griffins--completed-plate-candidate.png",
+        "status": "awaiting-native-visual-review",
+        "tool": "Native source ink analysis",
+        "source_pixels_redrawn": true,
+        "todo_correction": {
+          "id": "met-338721--tall-grotesque-with-dragons-and-paired-griffins",
+          "candidate": "tmp/extraction-work/todo-fixes-20261012/met-338721--tall-grotesque-with-dragons-and-paired-griffins--completed-plate-candidate.png",
+          "before": "tmp/extraction-work/todo-fixes-20261012/met-338721--tall-grotesque-with-dragons-and-paired-griffins--before.png",
+          "source_region": [
+            124,
+            683,
+            1122,
+            2687
+          ],
+          "original": "tmp/new-assets/met/met-338721--grotesque-ornament-panel-from-livre-de-grotesques.jpg",
+          "recovered_sides": [
+            {
+              "side": "top",
+              "source_axis_intercept_in_expanded_region": 30.08116883116883,
+              "slope": -0.003246753246753247,
+              "observed_original_segment_pixels": 924,
+              "extent": [
+                15,
+                983
+              ]
+            },
+            {
+              "side": "bottom",
+              "source_axis_intercept_in_expanded_region": 1976.8169014084508,
+              "slope": 0.007042253521126761,
+              "observed_original_segment_pixels": 710,
+              "extent": [
+                15,
+                983
+              ]
+            },
+            {
+              "side": "left",
+              "source_axis_intercept_in_expanded_region": 25.99291856348002,
+              "slope": 0.0035407182599898838,
+              "observed_original_segment_pixels": 1977,
+              "extent": [
+                15,
+                1989
+              ]
+            },
+            {
+              "side": "right",
+              "source_axis_intercept_in_expanded_region": 972.8,
+              "slope": 0.007142857142857143,
+              "observed_original_segment_pixels": 1960,
+              "extent": [
+                15,
+                1989
+              ]
+            }
+          ],
+          "pixels_added_or_strengthened": 17587,
+          "status": "awaiting-original-white-dark-review",
+          "method": "Recover only observed long plate rules from the original scan in a narrow source-fitted native corridor. The input is expanded 25 pixels to include clipped original ink. Source-measured ink color and coverage; no inferred missing side, generic rectangle, artwork rescaling or changed interior pixels.",
+          "rule_repair": {
+            "missing_native_columns_completed": 333,
+            "method": "Only absent/faint outside-rule samples (<65 alpha in five-native-pixel corridor) receive the narrow three-pixel ink cross-section of a nearby surviving original printed rule. Decorative hatching and ornament interiors are unchanged."
+          }
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "finished-only-todo-corrections-20261012",
+        "notes": "Original finite engraved composition retained with its source-supported outside plate rules. Clipped rules recovered from adjacent original scan pixels; faint thin-rule gaps narrowly completed with neighboring native ink profiles where recorded. Decorative hatch bands retain original print wear. No generic replacement frame or repeat is inferred.",
+        "checks": [
+          "actual-original-comparison",
+          "native-scale-and-proportions",
+          "complete-figures-and-ornaments",
+          "source-rule-geometry-and-endpoints",
+          "white-and-dark-backgrounds"
+        ],
+        "evidence": [
+          "tmp/extraction-work/todo-fixes-20261012/met-338721--tall-grotesque-with-dragons-and-paired-griffins--recovered-rules-proof.jpg",
+          "tmp/extraction-work/todo-fixes-20261012/completed-plates-final-review-2.jpg"
+        ]
+      },
+      "categories": [
+        "floral",
+        "fantasy"
+      ],
+      "subjects": [
+        "dragon",
+        "griffin",
+        "leaf",
+        "scroll",
+        "candelabrum"
+      ],
+      "facing": "mixed",
+      "colors": [
+        "brown",
+        "black"
+      ],
+      "composition": "single-ornament",
+      "usage_notes": "Original finite engraved composition retained with its source-supported outside plate rules. Clipped rules recovered from adjacent original scan pixels; faint thin-rule gaps narrowly completed with neighboring native ink profiles where recorded. Decorative hatch bands retain original print wear. No generic replacement frame or repeat is inferred. Finite original decoration; no repeat or corner atlas inferred.",
+      "sets": [
+        {
+          "id": "met-338721-set",
+          "name": "Du Cerceau birdcage grotesques",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A complete tall architectural grotesque ornament with paired dragons, griffins, foliate candelabra, hanging strands and a small framed vignette.",
+      "set_label": "Du Cerceau birdcage grotesques",
+      "review_history": [
+        {
+          "status": "accepted",
+          "approval_scope": "Native source-appearance comparison; provisional for maintainer review.",
+          "checks": [
+            "native-source-ink",
+            "continuous-alpha",
+            "complete-ornament",
+            "true-paper-transparency",
+            "fine-strokes-on-white-and-dark",
+            "no-upscaling"
+          ],
+          "notes": "Native source ink retained, including curved hatching, leaves, faces, thin draperies, cages and scroll tips. Original architectural beams/rules forming the artwork are retained where they support figures. Actual paper openings are transparent. PNG-only; a trace would lose print grain.",
+          "evidence": [
+            "tmp/extraction-work/continuation-20261010/met-eight-native-recipes-proof-1.jpg",
+            "tmp/extraction-work/continuation-20261010/met-eight-native-recipes-proof-2.jpg"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "source_id": "mkg-dc00101811",
+  "assets": [
+    {
+      "id": "mkg-dc00101811--animals-in-finite-leafy-frieze",
+      "name": "animals-in-finite-leafy-frieze",
+      "source_id": "mkg-dc00101811",
+      "source_folder": "mkg-hamburg",
+      "asset_type": "decoration",
+      "description": "A finite engraved frieze of animals among curling leafy stems.",
+      "source_region": [
+        0,
+        0,
+        500,
+        78
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        0,
+        38,
+        477,
+        120
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 477,
+      "height": 82,
+      "png": "mkg-hamburg/mkg-dc00101811--animals-in-finite-leafy-frieze.png",
+      "png_sha256": "051331f9acdc6e10e4ffe1c9ed91636dc5348359e06a89f250f2aa2808a8a594",
+      "provenance": {
+        "institution": "Museum für Kunst und Gewerbe Hamburg",
+        "title": "Tierfries, Blatt aus der Folge \"Mancherlei Conterfectisches von Thierlein etc.\"",
+        "object_identifier": "O1911.604",
+        "date": "1557",
+        "artist": "Solis, Virgil",
+        "record_url": "https://www.mkg-hamburg.de/sammlung/objekt/tierfries-blatt-folge-mancherlei-conterfectisches-thierlein-etc/O1911.604",
+        "image_rights": "Public Domain Mark 1.0; object image marked Public Domain",
+        "rights_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "source_file": "tmp/new-assets/mkg-hamburg/mkg-dc00101811--tierfries-blatt-aus-der-folge-mancherlei-conterfectisches-von-thierlein-etc.jpg",
+        "source_sha256": "3d287d987d65cf70dd26db438ff7712463d1e2ad949676a9029443b1a93dc3e7",
+        "source_metadata": "tmp/new-assets/mkg-hamburg/mkg-dc00101811.json",
+        "image_url": "https://www.mkg-hamburg.de/object/dc00101811/image-download/0",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: background-extraction. Edit target: the referenced ORIGINAL historic engraving for a museum decorative-art collection. Produce a transparent cutout of this exact existing ornament, with all source proportions and engraved detail preserved. Subject: The complete original narrow finite animal-and-leafy-scroll frieze, preserving every animal in its original pose and every delicate leafy stem. Remove surrounding paper and true spaces within the scroll. This is the whole finite original; do not invent a seamless repeat or redesign the animals. Remove the dense straight crosshatched BACKGROUND field, page paper, outer plate rules, unrelated signatures, date panels and cartouche lettering. Clear every genuine opening between leaves, limbs, wings, stems and scrolls. Foreground curved hatching, original ink texture, pale illustrated surfaces and every real contour stay intact and opaque. Keep every original finger, toe, curl, narrow connecting line, leaf tooth and motif tip. Keep physically contacting figures and shared props together. Do not invent missing source-truncated ends or extend motifs beyond the original. Do not add shading, symmetry, anatomy, detail or generic replacement foliage. Do not redesign, simplify, beautify, sharpen into modern line art, stretch or compress the original height-to-width ratio. Preserve the exact original long narrow arrangement when present. Use fine antialiased edges without paper halos or stepped polygon cuts. Genuine transparent alpha outside and inside the openings; no white rectangle, checkerboard paint, background hatching or shadow.",
+        "retained_generated_extraction": "tmp/extraction-work/mkg-dc00101811--animals-in-finite-leafy-frieze--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "296a0b11b72b026ffc4ef9f12000d6ad87730c50de53c7f00e536e2dec518489",
+        "retained_generated_size": [
+          2170,
+          725
+        ],
+        "resolution_cap_scale": 0.21989835210292258,
+        "resolution_capped_size": [
+          477,
+          159
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          465,
+          72
+        ],
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 28
+        },
+        "native_subject_size_evidence": "Conservative source subject bounds within the inspected full plate; five-to-seven-percent outer paper/plate margin excluded from the native subject cap."
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Source/white/dark inspections completed for all contacting ornaments, heraldic crests and finite friezes. Actual opaque engraved surfaces and all genuine openings retained. Original tall proportions, motif tiers, full feather/leaf tips and animals checked. Lettered rings, signatures and background hatch excluded. Native subject caps apply uniformly to both axes; no upscaled source detail or generic SVG.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/mkg-twelve-generated-results-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/mkg-twelve-generated-results-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/mkg-twelve-generated-results-proof-3.jpg"
+        ]
+      },
+      "categories": [
+        "animals",
+        "floral"
+      ],
+      "subjects": [
+        "animal",
+        "leaf",
+        "scroll"
+      ],
+      "facing": "mixed",
+      "colors": [
+        "black",
+        "brown",
+        "cream"
+      ],
+      "composition": "single-ornament",
+      "usage_notes": "Whole finite source ornament with original contacting figures and shared props retained. No seamless period or new frame corners inferred. AI-assisted extraction is approximate, not a pixel-exact crop; original, exact prompt and native resolution caps retained."
+    }
+  ]
+}

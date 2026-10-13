@@ -1,0 +1,112 @@
+{
+  "source_id": "nga-3511",
+  "assets": [
+    {
+      "id": "nga-3511--seated-child-holding-tall-leafy-scroll",
+      "name": "seated-child-holding-tall-leafy-scroll",
+      "source_id": "nga-3511",
+      "source_folder": "national-gallery-of-art",
+      "asset_type": "decoration",
+      "description": "A seated child holding the stems of a tall branching leafy scroll.",
+      "source_region": [
+        0,
+        0,
+        2541,
+        3488
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        16,
+        15,
+        1061,
+        1443
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 1045,
+      "height": 1428,
+      "png": "national-gallery-of-art/nga-3511--seated-child-holding-tall-leafy-scroll.png",
+      "png_sha256": "8e4906e9cd093703389f8489542b0f35adbba1556921aba499df964700f5d576",
+      "provenance": {
+        "institution": "National Gallery of Art, Washington",
+        "title": "Scroll Ornament with Seated Child",
+        "object_identifier": "1943.3.299",
+        "date": "1532",
+        "artist": "Heinrich Aldegrever",
+        "record_url": "https://www.nga.gov/collection/art-object-page.3511.html",
+        "image_rights": "Open Access / public domain; official image dataset openaccess=1",
+        "rights_url": "https://www.nga.gov/artworks/free-images-and-open-access",
+        "source_file": "tmp/new-assets/national-gallery-of-art/nga-3511--scroll-ornament-with-seated-child.jpg",
+        "source_sha256": "f1b721853408b514a457665ac9d683a191c2834a5b7c3f2d67d82856dc831012",
+        "source_metadata": "tmp/new-assets/national-gallery-of-art/nga-3511.json",
+        "image_url": null,
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: background-extraction. Edit target: the referenced ORIGINAL historic engraving for a museum decorative-art collection. Produce a transparent cutout of this exact existing ornament, with all source proportions and engraved detail preserved. Subject: The full branching scroll and the seated child at its base holding the stems, including both hands, the complete seated legs and feet, every curled leaf and fine connecting stem. Exclude only the bottom-right printer panel. Remove the dense straight crosshatched BACKGROUND field, page paper, outer plate rules, unrelated signatures, date panels and cartouche lettering. Clear every genuine opening between leaves, limbs, wings, stems and scrolls. Foreground curved hatching, original ink texture, pale illustrated surfaces and every real contour stay intact and opaque. Keep every original finger, toe, curl, narrow connecting line, leaf tooth and motif tip. Keep physically contacting figures and shared props together. Do not invent missing source-truncated ends or extend motifs beyond the original. Do not add shading, symmetry, anatomy, detail or generic replacement foliage. Do not redesign, simplify, beautify, sharpen into modern line art, stretch or compress the original height-to-width ratio. Preserve the exact original long narrow arrangement when present. Use fine antialiased edges without paper halos or stepped polygon cuts. Genuine transparent alpha outside and inside the openings; no white rectangle, checkerboard paint, background hatching or shadow.",
+        "retained_generated_extraction": "tmp/extraction-work/nga-3511--seated-child-holding-tall-leafy-scroll--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "92080fa6f5f5dadbe128bb45b3567e09c6d65f7a19229697cf870b78c672d458",
+        "retained_generated_size": [
+          1071,
+          1469
+        ],
+        "resolution_cap_scale": 1,
+        "resolution_capped_size": [
+          1071,
+          1469
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          2541,
+          3488
+        ],
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 37477
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "approval_scope": "Extraction-workflow original source comparison; provisional for maintainer review.",
+        "checks": [
+          "complete-original-motif",
+          "original-proportions",
+          "clear-background-and-internal-openings",
+          "opaque-engraved-surfaces",
+          "white-and-dark-backgrounds",
+          "native-size-cap"
+        ],
+        "notes": "All original foreground figures, motifs and connected props checked against the full-size source. NGA 4270 retains all six human heads/torsos and their original contacting mounts and foliate frieze as one group. Original grain and tones remain explicitly recorded AI-assisted approximations; no vector or seamless repeat inferred.",
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/nga-ten-generated-results-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/nga-ten-generated-results-proof-2.jpg"
+        ]
+      },
+      "categories": [
+        "floral",
+        "fantasy"
+      ],
+      "subjects": [
+        "child",
+        "person",
+        "leaf",
+        "scroll"
+      ],
+      "facing": "mixed",
+      "colors": [
+        "black",
+        "brown",
+        "cream"
+      ],
+      "composition": "single-ornament",
+      "usage_notes": "Whole finite source ornament with original contacting figures and shared props retained. No seamless period or new frame corners inferred. AI-assisted extraction is approximate, not a pixel-exact crop; original, exact prompt and native resolution caps retained."
+    }
+  ]
+}

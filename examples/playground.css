@@ -23,6 +23,11 @@ pre.code-panel { margin: 0; }
 }
 
 /* Design picker: trigger plus a searchable dialog (plain JavaScript and React). */
+.loading-placeholder { background: var(--stage-paper); border: 1px solid var(--line); border-radius: 10px; }
+.picker-skeleton { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; padding: 12px 20px; }
+.picker-skeleton .loading-placeholder { height: 140px; }
+.picker-more { flex: none; align-self: center; margin: 8px 20px 16px; }
+.picker [hidden] { display: none; }
 .picker-trigger { display: flex; align-items: center; gap: 10px; width: 100%; padding: 6px 12px 6px 6px; border: 1px solid var(--line-strong); border-radius: var(--radius-sm); background: var(--surface); color: var(--ink); font: inherit; text-align: left; cursor: pointer; }
 .picker-trigger:hover { border-color: var(--ink); }
 .picker-thumb { display: grid; place-items: center; flex: none; width: 56px; height: 44px; border-radius: 6px; background: var(--stage-paper); overflow: hidden; }

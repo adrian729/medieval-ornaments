@@ -1,0 +1,382 @@
+{
+  "schemaVersion": 2,
+  "id": "illustrations-006",
+  "collection": "illustrations",
+  "package": "@ranx729/medieval-ornaments-assets-illustrations-006",
+  "version": "0.1.0",
+  "designs": {
+    "beaver": {
+      "name": "beaver",
+      "asset_type": "illustration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-source-mask",
+      "repeat_axis": "none",
+      "viewbox": [
+        0,
+        0,
+        2824,
+        1154
+      ],
+      "width": 2824,
+      "height": 1154,
+      "png": "png/beaver.png",
+      "webp": "webp/beaver.webp",
+      "svg": "svg/beaver.svg",
+      "png_bytes": 4063030,
+      "webp_bytes": 2510942,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/beaver.png",
+          "webp": "webp/128/beaver.webp",
+          "width": 128,
+          "height": 52,
+          "png_bytes": 12296,
+          "webp_bytes": 8376
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/beaver.png",
+          "webp": "webp/256/beaver.webp",
+          "width": 256,
+          "height": 105,
+          "png_bytes": 44809,
+          "webp_bytes": 30396
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/beaver.png",
+          "webp": "webp/512/beaver.webp",
+          "width": 512,
+          "height": 209,
+          "png_bytes": 176056,
+          "webp_bytes": 119588
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/beaver.png",
+          "webp": "webp/768/beaver.webp",
+          "width": 768,
+          "height": 314,
+          "png_bytes": 392132,
+          "webp_bytes": 265066
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "svg",
+        "webp",
+        "png"
+      ]
+    },
+    "cat": {
+      "name": "cat",
+      "asset_type": "illustration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-source-mask",
+      "repeat_axis": "none",
+      "viewbox": [
+        0,
+        0,
+        1179,
+        1828
+      ],
+      "width": 1179,
+      "height": 1828,
+      "png": "png/cat.png",
+      "webp": "webp/cat.webp",
+      "svg": "svg/cat.svg",
+      "png_bytes": 3217437,
+      "webp_bytes": 1702452,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/cat.png",
+          "webp": "webp/128/cat.webp",
+          "width": 83,
+          "height": 128,
+          "png_bytes": 22654,
+          "webp_bytes": 14820
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/cat.png",
+          "webp": "webp/256/cat.webp",
+          "width": 165,
+          "height": 256,
+          "png_bytes": 84318,
+          "webp_bytes": 52940
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/cat.png",
+          "webp": "webp/512/cat.webp",
+          "width": 330,
+          "height": 512,
+          "png_bytes": 338150,
+          "webp_bytes": 200458
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/cat.png",
+          "webp": "webp/768/cat.webp",
+          "width": 495,
+          "height": 768,
+          "png_bytes": 737982,
+          "webp_bytes": 420034
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "svg",
+        "webp",
+        "png"
+      ]
+    },
+    "crocodile": {
+      "name": "crocodile",
+      "asset_type": "illustration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-source-mask",
+      "repeat_axis": "none",
+      "viewbox": [
+        0,
+        0,
+        3286,
+        1360
+      ],
+      "width": 3286,
+      "height": 1360,
+      "png": "png/crocodile.png",
+      "webp": "webp/crocodile.webp",
+      "svg": "svg/crocodile.svg",
+      "png_bytes": 3923043,
+      "webp_bytes": 2157972,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/crocodile.png",
+          "webp": "webp/128/crocodile.webp",
+          "width": 128,
+          "height": 53,
+          "png_bytes": 11084,
+          "webp_bytes": 7280
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/crocodile.png",
+          "webp": "webp/256/crocodile.webp",
+          "width": 256,
+          "height": 106,
+          "png_bytes": 38037,
+          "webp_bytes": 24528
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/crocodile.png",
+          "webp": "webp/512/crocodile.webp",
+          "width": 512,
+          "height": 212,
+          "png_bytes": 139592,
+          "webp_bytes": 92046
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/crocodile.png",
+          "webp": "webp/768/crocodile.webp",
+          "width": 768,
+          "height": 318,
+          "png_bytes": 301715,
+          "webp_bytes": 205646
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "svg",
+        "webp",
+        "png"
+      ]
+    }
+  },
+  "files": {
+    "png/128/beaver.png": {
+      "bytes": 12296,
+      "sha256": "b696fa882e339a302d34ad3f2526a1f258c688829651e9db0a536308ba2f81da"
+    },
+    "png/128/cat.png": {
+      "bytes": 22654,
+      "sha256": "d02a8fa355756296ecb574919978a94225f3d8eaa4e82d9fec38ee71c4a6a047"
+    },
+    "png/128/crocodile.png": {
+      "bytes": 11084,
+      "sha256": "f62d9e9e916145d2ac147305282d561dd21c7a55b926d49fe04e4e39e010bc96"
+    },
+    "png/256/beaver.png": {
+      "bytes": 44809,
+      "sha256": "5b32297116a96fd48ca022471514de2fd5f380d37b8fefd00aff3a50a2edb48d"
+    },
+    "png/256/cat.png": {
+      "bytes": 84318,
+      "sha256": "84fe080214754aa71bf2cda13928bc7ceff5dd3317b7a0c05825430716e51347"
+    },
+    "png/256/crocodile.png": {
+      "bytes": 38037,
+      "sha256": "52a2e2490bfb5c20852394ba7707a629ece761eaa02b65def432345f95803661"
+    },
+    "png/512/beaver.png": {
+      "bytes": 176056,
+      "sha256": "419f10cb39cf414477f2b7048edaf5ec748630ef90a5017c90c853e69591c00b"
+    },
+    "png/512/cat.png": {
+      "bytes": 338150,
+      "sha256": "d9dbb9bdb78a012c943e32ce3e33aa0865bf6aef5b6d400ef47019d5f342c579"
+    },
+    "png/512/crocodile.png": {
+      "bytes": 139592,
+      "sha256": "926850ed6bc86e269895c42ec59d2a003d3300703ddbf84ea8796a1803141f33"
+    },
+    "png/768/beaver.png": {
+      "bytes": 392132,
+      "sha256": "61c5ae3516c9c60bda6e7a4562f79282a9eb3b540e788a0d1f3ac5afa5eb6319"
+    },
+    "png/768/cat.png": {
+      "bytes": 737982,
+      "sha256": "b0ef1b9580818ceb15c6be42b2b9a8fcf70ed37bf77589547f8d066b7daa26c8"
+    },
+    "png/768/crocodile.png": {
+      "bytes": 301715,
+      "sha256": "7ad470af92f33ff412df0f5c3f99e62e6880e296753bba07134f489d75ffdc39"
+    },
+    "png/beaver.png": {
+      "bytes": 4063030,
+      "sha256": "4ac8e912cff27fd9c3c47da56f8885aac3daae2506f1877decd2c2080892a965"
+    },
+    "png/cat.png": {
+      "bytes": 3217437,
+      "sha256": "a76195e23a78ac72b77f7a98b299d91d03e471001f701172d825db702322bd42"
+    },
+    "png/crocodile.png": {
+      "bytes": 3923043,
+      "sha256": "912c54d424f00c3cdbeddfd607b54f2a40dd46164787e8ea0b0337e700b754f7"
+    },
+    "svg/beaver.svg": {
+      "bytes": 26316673,
+      "sha256": "d00bde89195cfc0721d92bc988d6b3525c133028c59dd7003e24c3507c6eb1f8"
+    },
+    "svg/cat.svg": {
+      "bytes": 22005414,
+      "sha256": "af293283f1b6f072bec5013d3e2c7bc233e46ecafbca2baec87ed0f5286fbe4d"
+    },
+    "svg/crocodile.svg": {
+      "bytes": 21951994,
+      "sha256": "4aeab6d4b519d77dbd435febb4c6cccfbad5cc650556ab42539608ca66df8edd"
+    },
+    "webp/128/beaver.webp": {
+      "bytes": 8376,
+      "sha256": "059a036b3c3ee7f74adadedcb4c1177ae4315065d0e3b7d74b51dd9d127eb571"
+    },
+    "webp/128/cat.webp": {
+      "bytes": 14820,
+      "sha256": "4ff09f8cce75da801a72e9686ac8f2646f77be48b8b5ce6ca5aa527380c6f398"
+    },
+    "webp/128/crocodile.webp": {
+      "bytes": 7280,
+      "sha256": "24c8024fc63d5db88e4e8c5d6acdc31911c8260381f2649868a9facff802aa9e"
+    },
+    "webp/256/beaver.webp": {
+      "bytes": 30396,
+      "sha256": "c55fe598215d66aeec7579954fa0e05c18801dbe465d684728b87055ae0fbe87"
+    },
+    "webp/256/cat.webp": {
+      "bytes": 52940,
+      "sha256": "f9f83ff19920fe8909c886d9a1c4365e61cb1227f55121137c2d22b3dbffc9b6"
+    },
+    "webp/256/crocodile.webp": {
+      "bytes": 24528,
+      "sha256": "5ead8dc7601dd2f24e4e74f272d452c93987af9615bb5f17ad8884d40fcbfa29"
+    },
+    "webp/512/beaver.webp": {
+      "bytes": 119588,
+      "sha256": "c26ee08665e3d5b207741f6410eb992e330fc9add6057748bbd19aadbfd3429c"
+    },
+    "webp/512/cat.webp": {
+      "bytes": 200458,
+      "sha256": "0785182386ef06242b9ab4f56d4c40ec3e4cb12dfc03078bab711666e5059d6a"
+    },
+    "webp/512/crocodile.webp": {
+      "bytes": 92046,
+      "sha256": "f27340aee9a0dc5acbb878270f4638c5b9ffacc812d77b63413cc8323aa3bf55"
+    },
+    "webp/768/beaver.webp": {
+      "bytes": 265066,
+      "sha256": "7338dc9264fa5fb6f1ef511d90209fe64406ff920bec514b692be423d0f70979"
+    },
+    "webp/768/cat.webp": {
+      "bytes": 420034,
+      "sha256": "eb699417247d7d169897cb49a5c2fb878b317df43f619a8130376157c4b21868"
+    },
+    "webp/768/crocodile.webp": {
+      "bytes": 205646,
+      "sha256": "0f2e6d7f16b42c2c27febf37489ab95d1cea72b61e4171ac0338c546328fcca1"
+    },
+    "webp/beaver.webp": {
+      "bytes": 2510942,
+      "sha256": "86475d21ab45e250773aff1646e56b719835f6d09cce48018605d176147f69ca"
+    },
+    "webp/cat.webp": {
+      "bytes": 1702452,
+      "sha256": "1fc9399d3245ed82e3658f4d9c516c9329ad6448b2a49015a86146eb07ffc1f1"
+    },
+    "webp/crocodile.webp": {
+      "bytes": 2157972,
+      "sha256": "66b8f1f749a38d9e747b9f175dba22511ccba8f1eac291e866a04624bf4ada36"
+    }
+  },
+  "inputs": {
+    "sources/tiles/beaver.png": {
+      "bytes": 4063030,
+      "sha256": "4ac8e912cff27fd9c3c47da56f8885aac3daae2506f1877decd2c2080892a965"
+    },
+    "sources/traces/beaver.svg": {
+      "bytes": 26316673,
+      "sha256": "d00bde89195cfc0721d92bc988d6b3525c133028c59dd7003e24c3507c6eb1f8"
+    },
+    "sources/tiles/cat.png": {
+      "bytes": 3217437,
+      "sha256": "a76195e23a78ac72b77f7a98b299d91d03e471001f701172d825db702322bd42"
+    },
+    "sources/traces/cat.svg": {
+      "bytes": 22005414,
+      "sha256": "af293283f1b6f072bec5013d3e2c7bc233e46ecafbca2baec87ed0f5286fbe4d"
+    },
+    "sources/tiles/crocodile.png": {
+      "bytes": 3923043,
+      "sha256": "912c54d424f00c3cdbeddfd607b54f2a40dd46164787e8ea0b0337e700b754f7"
+    },
+    "sources/traces/crocodile.svg": {
+      "bytes": 21951994,
+      "sha256": "4aeab6d4b519d77dbd435febb4c6cccfbad5cc650556ab42539608ca66df8edd"
+    }
+  }
+}

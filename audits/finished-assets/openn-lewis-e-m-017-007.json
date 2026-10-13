@@ -1,0 +1,341 @@
+{
+  "source_id": "openn-lewis-e-m-017-007",
+  "assets": [
+    {
+      "id": "openn-lewis-e-m-017-007--green-gold-leaf-and-flower-flourish",
+      "name": "green-gold-leaf-and-flower-flourish",
+      "source_id": "openn-lewis-e-m-017-007",
+      "source_folder": "openn-free-library",
+      "asset_type": "decoration",
+      "description": "The entire upper-left botanical flourish: curling green and gold broad leaves, the pale blue base leaf, thin upper green stems and small yellow flowers, and the thin red and gold beaded curl extending left. Remove the red ruling line and the neighboring A letter completely. Keep original painted tips and fine flower stems. Part of the Historiated initial A from an antiphonary depicting the Agnus Dei (openn-lewis-e-m-017-007) set.",
+      "source_region": [
+        918,
+        459,
+        2755,
+        2407
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        18,
+        22,
+        1205,
+        1269
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 1187,
+      "height": 1247,
+      "png": "openn-free-library/openn-lewis-e-m-017-007--green-gold-leaf-and-flower-flourish.png",
+      "png_sha256": "77173b7cf842f10747556967328241dc56f5497e51022d211bdb0154e0b16698",
+      "provenance": {
+        "institution": "Free Library of Philadelphia, John Frederick Lewis Collection",
+        "title": "Historiated initial A from an antiphonary depicting the Agnus Dei",
+        "object_identifier": "Lewis E M 17:7 Historiated initial A from an antiphonary depicting the Agnus Dei",
+        "date": "(Germany, 1500-1599)",
+        "record_url": "https://openn.library.upenn.edu/Data/0023/html/lewis_e_m_017_007.html",
+        "image_rights": "Public Domain Mark 1.0; item record explicitly places images in public domain",
+        "rights_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "source_file": "tmp/new-assets/openn-free-library/openn-lewis-e-m-017-007--historiated-initial-a-from-an-antiphonary-depicting-the-agnus-dei--master.tif",
+        "source_sha256": "8ea874ab25c1ef0cdb9dfe784ac7ab65529fc013d4d8f7222d70de42ff5c70d6",
+        "source_metadata": "tmp/new-assets/openn-free-library/openn-lewis-e-m-017-007.json",
+        "image_url": "https://openn.library.upenn.edu/Data/0023/lewis_e_m_017_007/data/master/7638_0000.tif",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: faithful manuscript ornament extraction. Edit the ORIGINAL reference. The entire upper-left botanical flourish: curling green and gold broad leaves, the pale blue base leaf, thin upper green stems and small yellow flowers, and the thin red and gold beaded curl extending left. Remove the red ruling line and the neighboring A letter completely. Keep original painted tips and fine flower stems. Retain the complete selected original motif, all original contours, tiny painted tips, delicate stems, veins and white painted highlights, at its original proportions. Subject paint stays opaque, including pale and gold-colored subject parts. Only the surrounding flat background, page, letter shapes and genuine holes between selected subject parts become transparent. Do not add missing source-hidden parts, extend stems or tails, change anatomy, add leaves, modernize, symmetrize, sharpen, stretch or compress this historic hand-painted drawing. Fine natural antialiased contours without stepped polygons or parchment halos. Genuine transparent alpha outside and within all real openings, no white rectangle or checkerboard paint.",
+        "retained_generated_extraction": "tmp/extraction-work/openn-lewis-e-m-017-007--green-gold-leaf-and-flower-flourish--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "4f743e9f1ad64696f6229063b4fb8c999c032a083706f20eba7de4e6696cdc9f",
+        "retained_generated_size": [
+          1218,
+          1292
+        ],
+        "resolution_cap_scale": 1,
+        "resolution_capped_size": [
+          1218,
+          1292
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          1837,
+          1948
+        ],
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 43869
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "approval_scope": "Original source comparison; provisional for maintainer review.",
+        "checks": [
+          "complete-source-visible-subject",
+          "original-proportions",
+          "transparent-exterior-and-openings",
+          "opaque-original-paint-surfaces",
+          "thin-original-tips-and-props",
+          "white-and-dark-backgrounds",
+          "native-size-cap"
+        ],
+        "notes": "Compared against the original source and retained all actual leaf tips, painted highlights, thin stems, contacting props and original visible anatomy. The two-faced alchemical figure retains both faces, shared crown, both wings and all three chalice serpent heads; the reclining dragon includes both brown rear wings. AI-assisted texture and contour differences remain explicitly recorded.",
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/twelve-ornament-generated-results-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/twelve-ornament-generated-results-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/twelve-ornament-generated-results-proof-3.jpg"
+        ]
+      },
+      "categories": [
+        "floral"
+      ],
+      "subjects": [
+        "leaf",
+        "flower",
+        "scroll"
+      ],
+      "facing": "mixed",
+      "colors": [
+        "blue",
+        "red",
+        "green",
+        "gold"
+      ],
+      "composition": "single-ornament",
+      "sets": [
+        {
+          "id": "openn-lewis-e-m-017-007-set",
+          "name": "Historiated initial A from an antiphonary depicting the Agnus Dei (openn-lewis-e-m-017-007)",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "The entire upper-left botanical flourish: curling green and gold broad leaves, the pale blue base leaf, thin upper green stems and small yellow flowers, and the thin red and gold beaded curl extending left. Remove the red ruling line and the neighboring A letter completely. Keep original painted tips and fine flower stems.",
+      "set_label": "Historiated initial A from an antiphonary depicting the Agnus Dei (openn-lewis-e-m-017-007)"
+    },
+    {
+      "id": "openn-lewis-e-m-017-007--lamb-with-cross-and-ribbon",
+      "name": "lamb-with-cross-and-ribbon",
+      "source_id": "openn-lewis-e-m-017-007",
+      "source_folder": "openn-free-library",
+      "asset_type": "illustration",
+      "description": "A pale reclining lamb beneath a thin gold cross wrapped with a blue and white ribbon. Part of the Historiated initial A from an antiphonary depicting the Agnus Dei (openn-lewis-e-m-017-007) set.",
+      "source_region": [
+        2059,
+        1552,
+        3357,
+        2993
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        2,
+        6,
+        1190,
+        1269
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 1188,
+      "height": 1263,
+      "png": "openn-free-library/openn-lewis-e-m-017-007--lamb-with-cross-and-ribbon.png",
+      "png_sha256": "6ceed5579df99fa49a33768ca708403003ad606ee2f3cdf3d5e87de0aeb41d46",
+      "provenance": {
+        "institution": "Free Library of Philadelphia, John Frederick Lewis Collection",
+        "title": "Historiated initial A from an antiphonary depicting the Agnus Dei",
+        "object_identifier": "Lewis E M 17:7 Historiated initial A from an antiphonary depicting the Agnus Dei",
+        "date": "(Germany, 1500-1599)",
+        "record_url": "https://openn.library.upenn.edu/Data/0023/html/lewis_e_m_017_007.html",
+        "image_rights": "Public Domain Mark 1.0; item record explicitly places images in public domain",
+        "rights_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "source_file": "tmp/new-assets/openn-free-library/openn-lewis-e-m-017-007--historiated-initial-a-from-an-antiphonary-depicting-the-agnus-dei--master.tif",
+        "source_sha256": "8ea874ab25c1ef0cdb9dfe784ac7ab65529fc013d4d8f7222d70de42ff5c70d6",
+        "source_metadata": "tmp/new-assets/openn-free-library/openn-lewis-e-m-017-007.json",
+        "image_url": "https://openn.library.upenn.edu/Data/0023/lewis_e_m_017_007/data/master/7638_0000.tif",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: precise-object-edit / faithful historical foreground extraction. Edit target: the supplied original manuscript detail. Extract Only the complete pale reclining Lamb of God holding its original thin gold cross with the blue and white wrapped ribbon. Retain its original face, ears, curly fleece, visible hooves, gold cross and ribbon. Remove the black painted initial field, green grass shelf, colorful A letter and every surrounding floral flourish. Do not invent obscured anatomy. All actual openings around the cross and ribbon must be transparent and pale lamb surfaces remain opaque. Keep the exact original pose, shapes, colors, proportions and fine ink or painted lines. Output on a genuinely transparent background, with small transparent padding. Remove lettering, parchment, stains, chart, ruler and surrounding ground color. No new details, reconstruction, modern redraw, shadows, glow, smoothing or background rectangle.",
+        "retained_generated_extraction": "tmp/extraction-work/openn-lewis-e-m-017-007--lamb-with-cross-and-ribbon--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "a16521f3e5d952fcb7069c8c66420bfa4852d16a3c06848fe62e80a37b247926",
+        "retained_generated_size": [
+          1190,
+          1322
+        ],
+        "resolution_cap_scale": 1,
+        "resolution_capped_size": [
+          1190,
+          1322
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261010",
+        "notes": "Compared original lamb, complete thin cross and curling ribbon; pale fleece remains opaque and surrounding letter/background excluded. Original rear is partly occluded; AI rear-boundary approximation is recorded.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": "tmp/extraction-work/quality-reaudit-20261010/manifest.json"
+      },
+      "categories": [
+        "animals"
+      ],
+      "subjects": [
+        "lamb",
+        "cross",
+        "ribbon"
+      ],
+      "facing": "right",
+      "colors": [
+        "cream",
+        "gold",
+        "blue",
+        "white"
+      ],
+      "composition": "single-figure",
+      "review_history": [
+        {
+          "round": "quality-reaudit-20261010",
+          "previous_review": {
+            "status": "accepted",
+            "reviewed_on": "2026-10-10",
+            "notes": "Original motif compared with extraction on white and dark backgrounds: source pose, principal painted shapes, terminals and pale highlights retained. Actual openings cleared; initial glyph and flat gold/black fields removed. AI-assisted extraction approximates paint texture and some small contours."
+          }
+        }
+      ],
+      "sets": [
+        {
+          "id": "openn-lewis-e-m-017-007-set",
+          "name": "Historiated initial A from an antiphonary depicting the Agnus Dei (openn-lewis-e-m-017-007)",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A pale reclining lamb beneath a thin gold cross wrapped with a blue and white ribbon.",
+      "set_label": "Historiated initial A from an antiphonary depicting the Agnus Dei (openn-lewis-e-m-017-007)"
+    },
+    {
+      "id": "openn-lewis-e-m-017-007--pink-flower-and-green-scroll-flourish",
+      "name": "pink-flower-and-green-scroll-flourish",
+      "source_id": "openn-lewis-e-m-017-007",
+      "source_folder": "openn-free-library",
+      "asset_type": "decoration",
+      "description": "A complete lower pink-flower and green-scroll flourish with blue and red beaded stems and its original red flared decorative node. Part of the Historiated initial A from an antiphonary depicting the Agnus Dei (openn-lewis-e-m-017-007) set.",
+      "source_region": [
+        780,
+        1800,
+        2650,
+        4380
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        3,
+        1,
+        1001,
+        1537
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 998,
+      "height": 1536,
+      "png": "openn-free-library/openn-lewis-e-m-017-007--pink-flower-and-green-scroll-flourish.png",
+      "png_sha256": "d3e09b11deda6a91aabe675f3d93350538e1f4348317c790095bba85c541e0b6",
+      "provenance": {
+        "institution": "Free Library of Philadelphia, John Frederick Lewis Collection",
+        "title": "Historiated initial A from an antiphonary depicting the Agnus Dei",
+        "object_identifier": "Lewis E M 17:7 Historiated initial A from an antiphonary depicting the Agnus Dei",
+        "date": "(Germany, 1500-1599)",
+        "record_url": "https://openn.library.upenn.edu/Data/0023/html/lewis_e_m_017_007.html",
+        "image_rights": "Public Domain Mark 1.0; item record explicitly places images in public domain",
+        "rights_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "source_file": "tmp/new-assets/openn-free-library/openn-lewis-e-m-017-007--historiated-initial-a-from-an-antiphonary-depicting-the-agnus-dei--master.tif",
+        "source_sha256": "8ea874ab25c1ef0cdb9dfe784ac7ab65529fc013d4d8f7222d70de42ff5c70d6",
+        "source_metadata": "tmp/new-assets/openn-free-library/openn-lewis-e-m-017-007.json",
+        "image_url": "https://openn.library.upenn.edu/Data/0023/lewis_e_m_017_007/data/master/7638_0000.tif",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: source-faithful manuscript extraction correction. The FIRST reference is the ORIGINAL painted source region. The SECOND is a previous extraction. Re-extract the entire original lower-left botanical flourish faithfully. Keep all THREE original pink flowers (two larger low flowers and the small upper flower), their whole curling green stem, the full tapered BLUE BEADED flourish at upper left, the narrow red beaded flourish at lower left, the entire long pink branching curled stalk and both original green and orange/gold leaf-like lobes at the upper junction. Crucially, KEEP the existing RED FLARED PETALLED NODE directly above the blue beaded-stem junction, as it is visible in the ORIGINAL. Remove the tall pink A-letter column rising above that red node, the black field, the green grass shelf and neighboring lamb. The previous extraction invented two blue leaf lobes at this upper junction: remove those invented lobes and retain only the actual original visible blue paint below the red node. Do not invent a hidden top or missing portions where the letter column overlapped the node. Do not add leaves, restore missing details, lengthen the beads, crop any of the original trailing curls, alter the original asymmetry or change colors. Subject paint and white painted highlights stay opaque; all true holes and unwanted background are transparent. Original proportions and fine source contours; natural antialiasing, no parchment halos, steps or checkerboard paint.",
+        "retained_generated_extraction": "tmp/extraction-work/openn-lewis-e-m-017-007--pink-flower-and-green-scroll-flourish--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "b79587d9747ca0c890821f53012b350373988ee8115429f2dfc42cbe6fcbcfaa",
+        "retained_generated_size": [
+          1019,
+          1543
+        ],
+        "resolution_cap_scale": 1,
+        "resolution_capped_size": [
+          1019,
+          1543
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          1870,
+          2580
+        ],
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 17504
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Original blue bead chain, red terminal node, three pink flowers and complete green/red/gold scroll retained. Removed prior invented blue junction lobes. Literal A glyph excluded, original visible ornament preserved; real scroll openings transparent. Source/white/dark inspected.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": "tmp/extraction-work/continuation-20261010/six-tulips-and-pink-generated-results-proof-2.jpg"
+      },
+      "categories": [
+        "floral"
+      ],
+      "subjects": [
+        "leaf",
+        "flower",
+        "scroll"
+      ],
+      "facing": "mixed",
+      "colors": [
+        "blue",
+        "red",
+        "green",
+        "gold"
+      ],
+      "composition": "single-ornament",
+      "sets": [
+        {
+          "id": "openn-lewis-e-m-017-007-set",
+          "name": "Historiated initial A from an antiphonary depicting the Agnus Dei (openn-lewis-e-m-017-007)",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A complete lower pink-flower and green-scroll flourish with blue and red beaded stems and its original red flared decorative node.",
+      "set_label": "Historiated initial A from an antiphonary depicting the Agnus Dei (openn-lewis-e-m-017-007)"
+    }
+  ]
+}

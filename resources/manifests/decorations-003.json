@@ -1,0 +1,2399 @@
+{
+  "schemaVersion": 2,
+  "id": "decorations-003",
+  "collection": "decorations",
+  "package": "@ranx729/medieval-ornaments-assets-decorations-003",
+  "version": "0.1.0",
+  "designs": {
+    "blue-gold-floral-frame": {
+      "name": "blue-gold-floral-frame",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-source-mask",
+      "repeat_axis": "none",
+      "width": 3186,
+      "height": 4157,
+      "png": "png/blue-gold-floral-frame.png",
+      "webp": "webp/blue-gold-floral-frame.webp",
+      "png_bytes": 11115210,
+      "webp_bytes": 7211298,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/blue-gold-floral-frame.png",
+          "webp": "webp/128/blue-gold-floral-frame.webp",
+          "width": 98,
+          "height": 128,
+          "png_bytes": 32850,
+          "webp_bytes": 29678
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/blue-gold-floral-frame.png",
+          "webp": "webp/256/blue-gold-floral-frame.webp",
+          "width": 196,
+          "height": 256,
+          "png_bytes": 126808,
+          "webp_bytes": 104026
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/blue-gold-floral-frame.png",
+          "webp": "webp/512/blue-gold-floral-frame.webp",
+          "width": 392,
+          "height": 512,
+          "png_bytes": 452810,
+          "webp_bytes": 351546
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/blue-gold-floral-frame.png",
+          "webp": "webp/768/blue-gold-floral-frame.webp",
+          "width": 589,
+          "height": 768,
+          "png_bytes": 923853,
+          "webp_bytes": 696834
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "blue-gold-floral-manuscript-frame": {
+      "name": "blue-gold-floral-manuscript-frame",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-source-extraction",
+      "repeat_axis": "none",
+      "width": 3176,
+      "height": 4174,
+      "png": "png/blue-gold-floral-manuscript-frame.png",
+      "webp": "webp/blue-gold-floral-manuscript-frame.webp",
+      "png_bytes": 16324942,
+      "webp_bytes": 11445212,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/blue-gold-floral-manuscript-frame.png",
+          "webp": "webp/128/blue-gold-floral-manuscript-frame.webp",
+          "width": 97,
+          "height": 128,
+          "png_bytes": 32189,
+          "webp_bytes": 28884
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/blue-gold-floral-manuscript-frame.png",
+          "webp": "webp/256/blue-gold-floral-manuscript-frame.webp",
+          "width": 195,
+          "height": 256,
+          "png_bytes": 125241,
+          "webp_bytes": 103492
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/blue-gold-floral-manuscript-frame.png",
+          "webp": "webp/512/blue-gold-floral-manuscript-frame.webp",
+          "width": 390,
+          "height": 512,
+          "png_bytes": 449514,
+          "webp_bytes": 357478
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/blue-gold-floral-manuscript-frame.png",
+          "webp": "webp/768/blue-gold-floral-manuscript-frame.webp",
+          "width": 584,
+          "height": 768,
+          "png_bytes": 922265,
+          "webp_bytes": 740508
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "blue-rose-and-gray-flower-on-long-green-stem": {
+      "name": "blue-rose-and-gray-flower-on-long-green-stem",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-source-extraction",
+      "repeat_axis": "none",
+      "width": 1121,
+      "height": 3839,
+      "png": "png/blue-rose-and-gray-flower-on-long-green-stem.png",
+      "webp": "webp/blue-rose-and-gray-flower-on-long-green-stem.webp",
+      "png_bytes": 4000666,
+      "webp_bytes": 2650928,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/blue-rose-and-gray-flower-on-long-green-stem.png",
+          "webp": "webp/128/blue-rose-and-gray-flower-on-long-green-stem.webp",
+          "width": 37,
+          "height": 128,
+          "png_bytes": 10297,
+          "webp_bytes": 8722
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/blue-rose-and-gray-flower-on-long-green-stem.png",
+          "webp": "webp/256/blue-rose-and-gray-flower-on-long-green-stem.webp",
+          "width": 75,
+          "height": 256,
+          "png_bytes": 32714,
+          "webp_bytes": 25928
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/blue-rose-and-gray-flower-on-long-green-stem.png",
+          "webp": "webp/512/blue-rose-and-gray-flower-on-long-green-stem.webp",
+          "width": 150,
+          "height": 512,
+          "png_bytes": 108930,
+          "webp_bytes": 83176
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/blue-rose-and-gray-flower-on-long-green-stem.png",
+          "webp": "webp/768/blue-rose-and-gray-flower-on-long-green-stem.webp",
+          "width": 224,
+          "height": 768,
+          "png_bytes": 225684,
+          "webp_bytes": 170254
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "crossed-blue-leaf-pair": {
+      "name": "crossed-blue-leaf-pair",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-source-extraction",
+      "repeat_axis": "none",
+      "width": 1216,
+      "height": 451,
+      "png": "png/crossed-blue-leaf-pair.png",
+      "webp": "webp/crossed-blue-leaf-pair.webp",
+      "png_bytes": 502423,
+      "webp_bytes": 334598,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/crossed-blue-leaf-pair.png",
+          "webp": "webp/128/crossed-blue-leaf-pair.webp",
+          "width": 128,
+          "height": 47,
+          "png_bytes": 10195,
+          "webp_bytes": 8402
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/crossed-blue-leaf-pair.png",
+          "webp": "webp/256/crossed-blue-leaf-pair.webp",
+          "width": 256,
+          "height": 95,
+          "png_bytes": 33577,
+          "webp_bytes": 26292
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/crossed-blue-leaf-pair.png",
+          "webp": "webp/512/crossed-blue-leaf-pair.webp",
+          "width": 512,
+          "height": 190,
+          "png_bytes": 114492,
+          "webp_bytes": 84330
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/crossed-blue-leaf-pair.png",
+          "webp": "webp/768/crossed-blue-leaf-pair.webp",
+          "width": 768,
+          "height": 285,
+          "png_bytes": 232462,
+          "webp_bytes": 169598
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "crossed-upright-blue-leaf-pair": {
+      "name": "crossed-upright-blue-leaf-pair",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-source-extraction",
+      "repeat_axis": "none",
+      "width": 493,
+      "height": 1309,
+      "png": "png/crossed-upright-blue-leaf-pair.png",
+      "webp": "webp/crossed-upright-blue-leaf-pair.webp",
+      "png_bytes": 515178,
+      "webp_bytes": 327820,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/crossed-upright-blue-leaf-pair.png",
+          "webp": "webp/128/crossed-upright-blue-leaf-pair.webp",
+          "width": 48,
+          "height": 128,
+          "png_bytes": 9747,
+          "webp_bytes": 7876
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/crossed-upright-blue-leaf-pair.png",
+          "webp": "webp/256/crossed-upright-blue-leaf-pair.webp",
+          "width": 96,
+          "height": 256,
+          "png_bytes": 30660,
+          "webp_bytes": 23280
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/crossed-upright-blue-leaf-pair.png",
+          "webp": "webp/512/crossed-upright-blue-leaf-pair.webp",
+          "width": 193,
+          "height": 512,
+          "png_bytes": 102567,
+          "webp_bytes": 73742
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/crossed-upright-blue-leaf-pair.png",
+          "webp": "webp/768/crossed-upright-blue-leaf-pair.webp",
+          "width": 289,
+          "height": 768,
+          "png_bytes": 206584,
+          "webp_bytes": 139034
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "crossed-upright-gray-leaf-pair": {
+      "name": "crossed-upright-gray-leaf-pair",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-source-extraction",
+      "repeat_axis": "none",
+      "width": 511,
+      "height": 1451,
+      "png": "png/crossed-upright-gray-leaf-pair.png",
+      "webp": "webp/crossed-upright-gray-leaf-pair.webp",
+      "png_bytes": 606731,
+      "webp_bytes": 382124,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/crossed-upright-gray-leaf-pair.png",
+          "webp": "webp/128/crossed-upright-gray-leaf-pair.webp",
+          "width": 45,
+          "height": 128,
+          "png_bytes": 9622,
+          "webp_bytes": 7152
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/crossed-upright-gray-leaf-pair.png",
+          "webp": "webp/256/crossed-upright-gray-leaf-pair.webp",
+          "width": 90,
+          "height": 256,
+          "png_bytes": 30817,
+          "webp_bytes": 22318
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/crossed-upright-gray-leaf-pair.png",
+          "webp": "webp/512/crossed-upright-gray-leaf-pair.webp",
+          "width": 180,
+          "height": 512,
+          "png_bytes": 102914,
+          "webp_bytes": 67992
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/crossed-upright-gray-leaf-pair.png",
+          "webp": "webp/768/crossed-upright-gray-leaf-pair.webp",
+          "width": 270,
+          "height": 768,
+          "png_bytes": 206732,
+          "webp_bytes": 136320
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "finite-blue-gold-discs-and-diamonds-line-filler": {
+      "name": "finite-blue-gold-discs-and-diamonds-line-filler",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-source-extraction",
+      "repeat_axis": "none",
+      "width": 715,
+      "height": 127,
+      "png": "png/finite-blue-gold-discs-and-diamonds-line-filler.png",
+      "webp": "webp/finite-blue-gold-discs-and-diamonds-line-filler.webp",
+      "png_bytes": 118175,
+      "webp_bytes": 76278,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/finite-blue-gold-discs-and-diamonds-line-filler.png",
+          "webp": "webp/128/finite-blue-gold-discs-and-diamonds-line-filler.webp",
+          "width": 128,
+          "height": 23,
+          "png_bytes": 7071,
+          "webp_bytes": 5962
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/finite-blue-gold-discs-and-diamonds-line-filler.png",
+          "webp": "webp/256/finite-blue-gold-discs-and-diamonds-line-filler.webp",
+          "width": 256,
+          "height": 45,
+          "png_bytes": 21845,
+          "webp_bytes": 17608
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/finite-blue-gold-discs-and-diamonds-line-filler.png",
+          "webp": "webp/512/finite-blue-gold-discs-and-diamonds-line-filler.webp",
+          "width": 512,
+          "height": 91,
+          "png_bytes": 70442,
+          "webp_bytes": 52088
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "finite-blue-gold-discs-and-paired-diamonds-line-filler": {
+      "name": "finite-blue-gold-discs-and-paired-diamonds-line-filler",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-source-extraction",
+      "repeat_axis": "none",
+      "width": 950,
+      "height": 136,
+      "png": "png/finite-blue-gold-discs-and-paired-diamonds-line-filler.png",
+      "webp": "webp/finite-blue-gold-discs-and-paired-diamonds-line-filler.webp",
+      "png_bytes": 158402,
+      "webp_bytes": 98124,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/finite-blue-gold-discs-and-paired-diamonds-line-filler.png",
+          "webp": "webp/128/finite-blue-gold-discs-and-paired-diamonds-line-filler.webp",
+          "width": 128,
+          "height": 18,
+          "png_bytes": 5391,
+          "webp_bytes": 4690
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/finite-blue-gold-discs-and-paired-diamonds-line-filler.png",
+          "webp": "webp/256/finite-blue-gold-discs-and-paired-diamonds-line-filler.webp",
+          "width": 256,
+          "height": 37,
+          "png_bytes": 17864,
+          "webp_bytes": 14588
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/finite-blue-gold-discs-and-paired-diamonds-line-filler.png",
+          "webp": "webp/512/finite-blue-gold-discs-and-paired-diamonds-line-filler.webp",
+          "width": 512,
+          "height": 73,
+          "png_bytes": 57661,
+          "webp_bytes": 44186
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/finite-blue-gold-discs-and-paired-diamonds-line-filler.png",
+          "webp": "webp/768/finite-blue-gold-discs-and-paired-diamonds-line-filler.webp",
+          "width": 768,
+          "height": 110,
+          "png_bytes": 114683,
+          "webp_bytes": 85180
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "finite-gold-foliate-wave-on-blue-line-filler": {
+      "name": "finite-gold-foliate-wave-on-blue-line-filler",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-source-extraction",
+      "repeat_axis": "none",
+      "width": 552,
+      "height": 142,
+      "png": "png/finite-gold-foliate-wave-on-blue-line-filler.png",
+      "webp": "webp/finite-gold-foliate-wave-on-blue-line-filler.webp",
+      "png_bytes": 97976,
+      "webp_bytes": 61032,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/finite-gold-foliate-wave-on-blue-line-filler.png",
+          "webp": "webp/128/finite-gold-foliate-wave-on-blue-line-filler.webp",
+          "width": 128,
+          "height": 33,
+          "png_bytes": 8845,
+          "webp_bytes": 7226
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/finite-gold-foliate-wave-on-blue-line-filler.png",
+          "webp": "webp/256/finite-gold-foliate-wave-on-blue-line-filler.webp",
+          "width": 256,
+          "height": 66,
+          "png_bytes": 28319,
+          "webp_bytes": 22106
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/finite-gold-foliate-wave-on-blue-line-filler.png",
+          "webp": "webp/512/finite-gold-foliate-wave-on-blue-line-filler.webp",
+          "width": 512,
+          "height": 132,
+          "png_bytes": 89934,
+          "webp_bytes": 66158
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "finite-gold-foliate-wave-on-blue-red-line-filler": {
+      "name": "finite-gold-foliate-wave-on-blue-red-line-filler",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-source-extraction",
+      "repeat_axis": "none",
+      "width": 633,
+      "height": 128,
+      "png": "png/finite-gold-foliate-wave-on-blue-red-line-filler.png",
+      "webp": "webp/finite-gold-foliate-wave-on-blue-red-line-filler.webp",
+      "png_bytes": 95887,
+      "webp_bytes": 64786,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/finite-gold-foliate-wave-on-blue-red-line-filler.png",
+          "webp": "webp/128/finite-gold-foliate-wave-on-blue-red-line-filler.webp",
+          "width": 128,
+          "height": 26,
+          "png_bytes": 7292,
+          "webp_bytes": 6346
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/finite-gold-foliate-wave-on-blue-red-line-filler.png",
+          "webp": "webp/256/finite-gold-foliate-wave-on-blue-red-line-filler.webp",
+          "width": 256,
+          "height": 52,
+          "png_bytes": 23258,
+          "webp_bytes": 19440
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/finite-gold-foliate-wave-on-blue-red-line-filler.png",
+          "webp": "webp/512/finite-gold-foliate-wave-on-blue-red-line-filler.webp",
+          "width": 512,
+          "height": 104,
+          "png_bytes": 72245,
+          "webp_bytes": 54608
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "fixed-gold-columned-pond-frame-with-scroll-capitals": {
+      "name": "fixed-gold-columned-pond-frame-with-scroll-capitals",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-source-extraction",
+      "repeat_axis": "none",
+      "width": 2685,
+      "height": 902,
+      "png": "png/fixed-gold-columned-pond-frame-with-scroll-capitals.png",
+      "webp": "webp/fixed-gold-columned-pond-frame-with-scroll-capitals.webp",
+      "png_bytes": 1203665,
+      "webp_bytes": 750400,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/fixed-gold-columned-pond-frame-with-scroll-capitals.png",
+          "webp": "webp/128/fixed-gold-columned-pond-frame-with-scroll-capitals.webp",
+          "width": 128,
+          "height": 43,
+          "png_bytes": 7112,
+          "webp_bytes": 6234
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/fixed-gold-columned-pond-frame-with-scroll-capitals.png",
+          "webp": "webp/256/fixed-gold-columned-pond-frame-with-scroll-capitals.webp",
+          "width": 256,
+          "height": 86,
+          "png_bytes": 22706,
+          "webp_bytes": 18678
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/fixed-gold-columned-pond-frame-with-scroll-capitals.png",
+          "webp": "webp/512/fixed-gold-columned-pond-frame-with-scroll-capitals.webp",
+          "width": 512,
+          "height": 172,
+          "png_bytes": 76329,
+          "webp_bytes": 61058
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/fixed-gold-columned-pond-frame-with-scroll-capitals.png",
+          "webp": "webp/768/fixed-gold-columned-pond-frame-with-scroll-capitals.webp",
+          "width": 768,
+          "height": 258,
+          "png_bytes": 155929,
+          "webp_bytes": 123686
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "four-rose-petals-with-green-calyx-and-two-leaves": {
+      "name": "four-rose-petals-with-green-calyx-and-two-leaves",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-source-extraction",
+      "repeat_axis": "none",
+      "width": 1068,
+      "height": 2188,
+      "png": "png/four-rose-petals-with-green-calyx-and-two-leaves.png",
+      "webp": "webp/four-rose-petals-with-green-calyx-and-two-leaves.webp",
+      "png_bytes": 2332576,
+      "webp_bytes": 1481770,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/four-rose-petals-with-green-calyx-and-two-leaves.png",
+          "webp": "webp/128/four-rose-petals-with-green-calyx-and-two-leaves.webp",
+          "width": 62,
+          "height": 128,
+          "png_bytes": 15040,
+          "webp_bytes": 12650
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/four-rose-petals-with-green-calyx-and-two-leaves.png",
+          "webp": "webp/256/four-rose-petals-with-green-calyx-and-two-leaves.webp",
+          "width": 125,
+          "height": 256,
+          "png_bytes": 49661,
+          "webp_bytes": 37940
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/four-rose-petals-with-green-calyx-and-two-leaves.png",
+          "webp": "webp/512/four-rose-petals-with-green-calyx-and-two-leaves.webp",
+          "width": 250,
+          "height": 512,
+          "png_bytes": 174346,
+          "webp_bytes": 123364
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/four-rose-petals-with-green-calyx-and-two-leaves.png",
+          "webp": "webp/768/four-rose-petals-with-green-calyx-and-two-leaves.webp",
+          "width": 375,
+          "height": 768,
+          "png_bytes": 368161,
+          "webp_bytes": 250920
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "gold-curled-leaf-scroll-from-lower-initial": {
+      "name": "gold-curled-leaf-scroll-from-lower-initial",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-source-extraction",
+      "repeat_axis": "none",
+      "width": 321,
+      "height": 241,
+      "png": "png/gold-curled-leaf-scroll-from-lower-initial.png",
+      "webp": "webp/gold-curled-leaf-scroll-from-lower-initial.webp",
+      "png_bytes": 86787,
+      "webp_bytes": 59604,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/gold-curled-leaf-scroll-from-lower-initial.png",
+          "webp": "webp/128/gold-curled-leaf-scroll-from-lower-initial.webp",
+          "width": 128,
+          "height": 96,
+          "png_bytes": 18475,
+          "webp_bytes": 13200
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/gold-curled-leaf-scroll-from-lower-initial.png",
+          "webp": "webp/256/gold-curled-leaf-scroll-from-lower-initial.webp",
+          "width": 256,
+          "height": 192,
+          "png_bytes": 61084,
+          "webp_bytes": 46440
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "gold-curled-leaf-vine-from-round-initial": {
+      "name": "gold-curled-leaf-vine-from-round-initial",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-source-extraction",
+      "repeat_axis": "none",
+      "width": 505,
+      "height": 639,
+      "png": "png/gold-curled-leaf-vine-from-round-initial.png",
+      "webp": "webp/gold-curled-leaf-vine-from-round-initial.webp",
+      "png_bytes": 267575,
+      "webp_bytes": 189726,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/gold-curled-leaf-vine-from-round-initial.png",
+          "webp": "webp/128/gold-curled-leaf-vine-from-round-initial.webp",
+          "width": 101,
+          "height": 128,
+          "png_bytes": 18481,
+          "webp_bytes": 12060
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/gold-curled-leaf-vine-from-round-initial.png",
+          "webp": "webp/256/gold-curled-leaf-vine-from-round-initial.webp",
+          "width": 202,
+          "height": 256,
+          "png_bytes": 56761,
+          "webp_bytes": 39404
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/gold-curled-leaf-vine-from-round-initial.png",
+          "webp": "webp/512/gold-curled-leaf-vine-from-round-initial.webp",
+          "width": 405,
+          "height": 512,
+          "png_bytes": 188834,
+          "webp_bytes": 145936
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "gold-curled-pointed-leaf-from-initial-counter": {
+      "name": "gold-curled-pointed-leaf-from-initial-counter",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-source-extraction",
+      "repeat_axis": "none",
+      "width": 64,
+      "height": 93,
+      "png": "png/gold-curled-pointed-leaf-from-initial-counter.png",
+      "webp": "webp/gold-curled-pointed-leaf-from-initial-counter.webp",
+      "png_bytes": 7484,
+      "webp_bytes": 5216,
+      "variants": [],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "gold-five-petal-flower-from-initial-counter": {
+      "name": "gold-five-petal-flower-from-initial-counter",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-source-extraction",
+      "repeat_axis": "none",
+      "width": 171,
+      "height": 176,
+      "png": "png/gold-five-petal-flower-from-initial-counter.png",
+      "webp": "webp/gold-five-petal-flower-from-initial-counter.webp",
+      "png_bytes": 29373,
+      "webp_bytes": 20606,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/gold-five-petal-flower-from-initial-counter.png",
+          "webp": "webp/128/gold-five-petal-flower-from-initial-counter.webp",
+          "width": 124,
+          "height": 128,
+          "png_bytes": 18350,
+          "webp_bytes": 14118
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "gold-three-lobed-leaf-from-initial-counter": {
+      "name": "gold-three-lobed-leaf-from-initial-counter",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-source-extraction",
+      "repeat_axis": "none",
+      "width": 145,
+      "height": 122,
+      "png": "png/gold-three-lobed-leaf-from-initial-counter.png",
+      "webp": "webp/gold-three-lobed-leaf-from-initial-counter.webp",
+      "png_bytes": 17804,
+      "webp_bytes": 12108,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/gold-three-lobed-leaf-from-initial-counter.png",
+          "webp": "webp/128/gold-three-lobed-leaf-from-initial-counter.webp",
+          "width": 128,
+          "height": 108,
+          "png_bytes": 15086,
+          "webp_bytes": 11932
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "gray-folded-bud-with-rose-petals-and-green-leaves": {
+      "name": "gray-folded-bud-with-rose-petals-and-green-leaves",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-source-extraction",
+      "repeat_axis": "none",
+      "width": 1920,
+      "height": 547,
+      "png": "png/gray-folded-bud-with-rose-petals-and-green-leaves.png",
+      "webp": "webp/gray-folded-bud-with-rose-petals-and-green-leaves.webp",
+      "png_bytes": 1068027,
+      "webp_bytes": 692264,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/gray-folded-bud-with-rose-petals-and-green-leaves.png",
+          "webp": "webp/128/gray-folded-bud-with-rose-petals-and-green-leaves.webp",
+          "width": 128,
+          "height": 36,
+          "png_bytes": 8986,
+          "webp_bytes": 7462
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/gray-folded-bud-with-rose-petals-and-green-leaves.png",
+          "webp": "webp/256/gray-folded-bud-with-rose-petals-and-green-leaves.webp",
+          "width": 256,
+          "height": 73,
+          "png_bytes": 29755,
+          "webp_bytes": 23264
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/gray-folded-bud-with-rose-petals-and-green-leaves.png",
+          "webp": "webp/512/gray-folded-bud-with-rose-petals-and-green-leaves.webp",
+          "width": 512,
+          "height": 146,
+          "png_bytes": 104217,
+          "webp_bytes": 76368
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/gray-folded-bud-with-rose-petals-and-green-leaves.png",
+          "webp": "webp/768/gray-folded-bud-with-rose-petals-and-green-leaves.webp",
+          "width": 768,
+          "height": 219,
+          "png_bytes": 218758,
+          "webp_bytes": 149252
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "large-red-flower-and-small-bud-on-branching-green-stem": {
+      "name": "large-red-flower-and-small-bud-on-branching-green-stem",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-source-extraction",
+      "repeat_axis": "none",
+      "width": 3373,
+      "height": 1680,
+      "png": "png/large-red-flower-and-small-bud-on-branching-green-stem.png",
+      "webp": "webp/large-red-flower-and-small-bud-on-branching-green-stem.webp",
+      "png_bytes": 5434573,
+      "webp_bytes": 3549854,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/large-red-flower-and-small-bud-on-branching-green-stem.png",
+          "webp": "webp/128/large-red-flower-and-small-bud-on-branching-green-stem.webp",
+          "width": 128,
+          "height": 64,
+          "png_bytes": 15752,
+          "webp_bytes": 12772
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/large-red-flower-and-small-bud-on-branching-green-stem.png",
+          "webp": "webp/256/large-red-flower-and-small-bud-on-branching-green-stem.webp",
+          "width": 256,
+          "height": 128,
+          "png_bytes": 52417,
+          "webp_bytes": 39920
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/large-red-flower-and-small-bud-on-branching-green-stem.png",
+          "webp": "webp/512/large-red-flower-and-small-bud-on-branching-green-stem.webp",
+          "width": 512,
+          "height": 255,
+          "png_bytes": 179670,
+          "webp_bytes": 129650
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/large-red-flower-and-small-bud-on-branching-green-stem.png",
+          "webp": "webp/768/large-red-flower-and-small-bud-on-branching-green-stem.webp",
+          "width": 768,
+          "height": 383,
+          "png_bytes": 380997,
+          "webp_bytes": 277344
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "pale-pleated-fan-flower-on-curved-green-stem": {
+      "name": "pale-pleated-fan-flower-on-curved-green-stem",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-source-extraction",
+      "repeat_axis": "none",
+      "width": 2718,
+      "height": 1596,
+      "png": "png/pale-pleated-fan-flower-on-curved-green-stem.png",
+      "webp": "webp/pale-pleated-fan-flower-on-curved-green-stem.webp",
+      "png_bytes": 3353526,
+      "webp_bytes": 2152858,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/pale-pleated-fan-flower-on-curved-green-stem.png",
+          "webp": "webp/128/pale-pleated-fan-flower-on-curved-green-stem.webp",
+          "width": 128,
+          "height": 75,
+          "png_bytes": 14834,
+          "webp_bytes": 11944
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/pale-pleated-fan-flower-on-curved-green-stem.png",
+          "webp": "webp/256/pale-pleated-fan-flower-on-curved-green-stem.webp",
+          "width": 256,
+          "height": 150,
+          "png_bytes": 47533,
+          "webp_bytes": 36346
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/pale-pleated-fan-flower-on-curved-green-stem.png",
+          "webp": "webp/512/pale-pleated-fan-flower-on-curved-green-stem.webp",
+          "width": 512,
+          "height": 301,
+          "png_bytes": 167285,
+          "webp_bytes": 123408
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/pale-pleated-fan-flower-on-curved-green-stem.png",
+          "webp": "webp/768/pale-pleated-fan-flower-on-curved-green-stem.webp",
+          "width": 768,
+          "height": 451,
+          "png_bytes": 353675,
+          "webp_bytes": 244698
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "pointed-rose-flower-with-gray-sepals-on-green-twig": {
+      "name": "pointed-rose-flower-with-gray-sepals-on-green-twig",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-source-extraction",
+      "repeat_axis": "none",
+      "width": 1676,
+      "height": 590,
+      "png": "png/pointed-rose-flower-with-gray-sepals-on-green-twig.png",
+      "webp": "webp/pointed-rose-flower-with-gray-sepals-on-green-twig.webp",
+      "png_bytes": 858553,
+      "webp_bytes": 549158,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/pointed-rose-flower-with-gray-sepals-on-green-twig.png",
+          "webp": "webp/128/pointed-rose-flower-with-gray-sepals-on-green-twig.webp",
+          "width": 128,
+          "height": 45,
+          "png_bytes": 9769,
+          "webp_bytes": 8062
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/pointed-rose-flower-with-gray-sepals-on-green-twig.png",
+          "webp": "webp/256/pointed-rose-flower-with-gray-sepals-on-green-twig.webp",
+          "width": 256,
+          "height": 90,
+          "png_bytes": 31928,
+          "webp_bytes": 24710
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/pointed-rose-flower-with-gray-sepals-on-green-twig.png",
+          "webp": "webp/512/pointed-rose-flower-with-gray-sepals-on-green-twig.webp",
+          "width": 512,
+          "height": 180,
+          "png_bytes": 110169,
+          "webp_bytes": 79444
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/pointed-rose-flower-with-gray-sepals-on-green-twig.png",
+          "webp": "webp/768/pointed-rose-flower-with-gray-sepals-on-green-twig.webp",
+          "width": 768,
+          "height": 270,
+          "png_bytes": 227079,
+          "webp_bytes": 160102
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "red-blue-gold-acanthus-and-green-leaf-l-border": {
+      "name": "red-blue-gold-acanthus-and-green-leaf-l-border",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-source-extraction",
+      "repeat_axis": "none",
+      "width": 2674,
+      "height": 3484,
+      "png": "png/red-blue-gold-acanthus-and-green-leaf-l-border.png",
+      "webp": "webp/red-blue-gold-acanthus-and-green-leaf-l-border.webp",
+      "png_bytes": 4345201,
+      "webp_bytes": 2807820,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/red-blue-gold-acanthus-and-green-leaf-l-border.png",
+          "webp": "webp/128/red-blue-gold-acanthus-and-green-leaf-l-border.webp",
+          "width": 98,
+          "height": 128,
+          "png_bytes": 14535,
+          "webp_bytes": 12520
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/red-blue-gold-acanthus-and-green-leaf-l-border.png",
+          "webp": "webp/256/red-blue-gold-acanthus-and-green-leaf-l-border.webp",
+          "width": 196,
+          "height": 256,
+          "png_bytes": 49742,
+          "webp_bytes": 39974
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/red-blue-gold-acanthus-and-green-leaf-l-border.png",
+          "webp": "webp/512/red-blue-gold-acanthus-and-green-leaf-l-border.webp",
+          "width": 393,
+          "height": 512,
+          "png_bytes": 168840,
+          "webp_bytes": 131540
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/red-blue-gold-acanthus-and-green-leaf-l-border.png",
+          "webp": "webp/768/red-blue-gold-acanthus-and-green-leaf-l-border.webp",
+          "width": 589,
+          "height": 768,
+          "png_bytes": 343154,
+          "webp_bytes": 272134
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "small-rose-cap-flower-on-upright-green-stem": {
+      "name": "small-rose-cap-flower-on-upright-green-stem",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-source-extraction",
+      "repeat_axis": "none",
+      "width": 652,
+      "height": 2077,
+      "png": "png/small-rose-cap-flower-on-upright-green-stem.png",
+      "webp": "webp/small-rose-cap-flower-on-upright-green-stem.webp",
+      "png_bytes": 891668,
+      "webp_bytes": 578598,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/small-rose-cap-flower-on-upright-green-stem.png",
+          "webp": "webp/128/small-rose-cap-flower-on-upright-green-stem.webp",
+          "width": 40,
+          "height": 128,
+          "png_bytes": 7651,
+          "webp_bytes": 6586
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/small-rose-cap-flower-on-upright-green-stem.png",
+          "webp": "webp/256/small-rose-cap-flower-on-upright-green-stem.webp",
+          "width": 80,
+          "height": 256,
+          "png_bytes": 23609,
+          "webp_bytes": 20704
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/small-rose-cap-flower-on-upright-green-stem.png",
+          "webp": "webp/512/small-rose-cap-flower-on-upright-green-stem.webp",
+          "width": 161,
+          "height": 512,
+          "png_bytes": 79146,
+          "webp_bytes": 58788
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/small-rose-cap-flower-on-upright-green-stem.png",
+          "webp": "webp/768/small-rose-cap-flower-on-upright-green-stem.webp",
+          "width": 241,
+          "height": 768,
+          "png_bytes": 161297,
+          "webp_bytes": 117738
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "spiny-green-thistle-with-rose-petals": {
+      "name": "spiny-green-thistle-with-rose-petals",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-source-extraction",
+      "repeat_axis": "none",
+      "width": 999,
+      "height": 1407,
+      "png": "png/spiny-green-thistle-with-rose-petals.png",
+      "webp": "webp/spiny-green-thistle-with-rose-petals.webp",
+      "png_bytes": 1561767,
+      "webp_bytes": 1012458,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/spiny-green-thistle-with-rose-petals.png",
+          "webp": "webp/128/spiny-green-thistle-with-rose-petals.webp",
+          "width": 91,
+          "height": 128,
+          "png_bytes": 23519,
+          "webp_bytes": 19404
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/spiny-green-thistle-with-rose-petals.png",
+          "webp": "webp/256/spiny-green-thistle-with-rose-petals.webp",
+          "width": 182,
+          "height": 256,
+          "png_bytes": 78426,
+          "webp_bytes": 58476
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/spiny-green-thistle-with-rose-petals.png",
+          "webp": "webp/512/spiny-green-thistle-with-rose-petals.webp",
+          "width": 364,
+          "height": 512,
+          "png_bytes": 270193,
+          "webp_bytes": 187046
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/spiny-green-thistle-with-rose-petals.png",
+          "webp": "webp/768/spiny-green-thistle-with-rose-petals.webp",
+          "width": 545,
+          "height": 768,
+          "png_bytes": 551481,
+          "webp_bytes": 392096
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "tall-silver-acanthus-scroll-with-red-and-blue-flowers": {
+      "name": "tall-silver-acanthus-scroll-with-red-and-blue-flowers",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 430,
+      "height": 2172,
+      "png": "png/tall-silver-acanthus-scroll-with-red-and-blue-flowers.png",
+      "webp": "webp/tall-silver-acanthus-scroll-with-red-and-blue-flowers.webp",
+      "png_bytes": 1417476,
+      "webp_bytes": 1078842,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/tall-silver-acanthus-scroll-with-red-and-blue-flowers.png",
+          "webp": "webp/128/tall-silver-acanthus-scroll-with-red-and-blue-flowers.webp",
+          "width": 25,
+          "height": 128,
+          "png_bytes": 10954,
+          "webp_bytes": 9090
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/tall-silver-acanthus-scroll-with-red-and-blue-flowers.png",
+          "webp": "webp/256/tall-silver-acanthus-scroll-with-red-and-blue-flowers.webp",
+          "width": 51,
+          "height": 256,
+          "png_bytes": 37098,
+          "webp_bytes": 30342
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/tall-silver-acanthus-scroll-with-red-and-blue-flowers.png",
+          "webp": "webp/512/tall-silver-acanthus-scroll-with-red-and-blue-flowers.webp",
+          "width": 101,
+          "height": 512,
+          "png_bytes": 116114,
+          "webp_bytes": 90774
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/tall-silver-acanthus-scroll-with-red-and-blue-flowers.png",
+          "webp": "webp/768/tall-silver-acanthus-scroll-with-red-and-blue-flowers.webp",
+          "width": 152,
+          "height": 768,
+          "png_bytes": 229879,
+          "webp_bytes": 173534
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    }
+  },
+  "files": {
+    "png/128/blue-gold-floral-frame.png": {
+      "bytes": 32850,
+      "sha256": "a44f7cdd9c3297b3815a1b2052905687224ec4751347d2d6655daf498542c4d1"
+    },
+    "png/128/blue-gold-floral-manuscript-frame.png": {
+      "bytes": 32189,
+      "sha256": "3332bc0fcdf92511236800ad475767f6b0e428121743e642dd5da01d36f6910a"
+    },
+    "png/128/blue-rose-and-gray-flower-on-long-green-stem.png": {
+      "bytes": 10297,
+      "sha256": "8e8e35c641511f105a2454c6506b5169bf1c825e55d34decdfab55dfc0bae004"
+    },
+    "png/128/crossed-blue-leaf-pair.png": {
+      "bytes": 10195,
+      "sha256": "74cb7ab3e9c22b6ff6c7bc9d107825245e6ce65546481b4edd54fa8341e336bc"
+    },
+    "png/128/crossed-upright-blue-leaf-pair.png": {
+      "bytes": 9747,
+      "sha256": "bbaed2542bd4bb014674f2633a3b432e11906d27bcc43d781cce36e70cf8767f"
+    },
+    "png/128/crossed-upright-gray-leaf-pair.png": {
+      "bytes": 9622,
+      "sha256": "d794c557ccf0f294b847adce9404cfb3e2d52432353e6b73d14b6d564f2115c3"
+    },
+    "png/128/finite-blue-gold-discs-and-diamonds-line-filler.png": {
+      "bytes": 7071,
+      "sha256": "5c7ccd5d9b08bcd5e557f105954d305b7e3c7d6c9069144ae6f047b981c4540e"
+    },
+    "png/128/finite-blue-gold-discs-and-paired-diamonds-line-filler.png": {
+      "bytes": 5391,
+      "sha256": "9f45cedfd8cdf262746b7a24cb5b9df9a61336a26861ae5383b4f90f3ba3d772"
+    },
+    "png/128/finite-gold-foliate-wave-on-blue-line-filler.png": {
+      "bytes": 8845,
+      "sha256": "93345d085b3560b271d14504a9756d8fbac1fe0a6337d297b1925fa069dd1b1c"
+    },
+    "png/128/finite-gold-foliate-wave-on-blue-red-line-filler.png": {
+      "bytes": 7292,
+      "sha256": "cb51bce2de06e2af009a749d0821e3eb91c1213e4e7d2da8c0b5afea7466fb79"
+    },
+    "png/128/fixed-gold-columned-pond-frame-with-scroll-capitals.png": {
+      "bytes": 7112,
+      "sha256": "8a0646f3bd2ebb5cb369469ec7e317cf6552259d015901bf96f45d28dc14ab79"
+    },
+    "png/128/four-rose-petals-with-green-calyx-and-two-leaves.png": {
+      "bytes": 15040,
+      "sha256": "9246e172d8a876fd895ee724e9cd0cd2bb348e987198b982882323f8eefb4810"
+    },
+    "png/128/gold-curled-leaf-scroll-from-lower-initial.png": {
+      "bytes": 18475,
+      "sha256": "480e77a62cf1669630c970daecc6f2a2339ea34858fee2fa7e3b7eb61b37dc8c"
+    },
+    "png/128/gold-curled-leaf-vine-from-round-initial.png": {
+      "bytes": 18481,
+      "sha256": "e224ca90f156147a4cd38aa068eccc87ee4ab8d382c914db49080551621dc1d6"
+    },
+    "png/128/gold-five-petal-flower-from-initial-counter.png": {
+      "bytes": 18350,
+      "sha256": "527f93c53bc6cefe04d266c58214caac28dcd076045db2b1553ee3de9ddf975d"
+    },
+    "png/128/gold-three-lobed-leaf-from-initial-counter.png": {
+      "bytes": 15086,
+      "sha256": "1e8f9defb718e362f90eb981481e9b55f9b96a3167e9d059330c41dcd00830cb"
+    },
+    "png/128/gray-folded-bud-with-rose-petals-and-green-leaves.png": {
+      "bytes": 8986,
+      "sha256": "66dee8b4a3562933c204d11e66ca68e51218494a751a1262b874322d5fbc86e7"
+    },
+    "png/128/large-red-flower-and-small-bud-on-branching-green-stem.png": {
+      "bytes": 15752,
+      "sha256": "1c493a584dd7d3c596978abd0628b22df3b35518124dd88ead6cfe26931ee6b4"
+    },
+    "png/128/pale-pleated-fan-flower-on-curved-green-stem.png": {
+      "bytes": 14834,
+      "sha256": "14c30c6d84c5811b4a9e0fec22caa7b87210267e03e31b61ce2da55544934d6c"
+    },
+    "png/128/pointed-rose-flower-with-gray-sepals-on-green-twig.png": {
+      "bytes": 9769,
+      "sha256": "2aee9ef067767ddc0901ba93c5f1163f0c27942ec391324c118be3f4c80a5f73"
+    },
+    "png/128/red-blue-gold-acanthus-and-green-leaf-l-border.png": {
+      "bytes": 14535,
+      "sha256": "009b7b84d6744f8c9b09fc701d0c1b5638e0667c78416bfba899a2e81f0622fb"
+    },
+    "png/128/small-rose-cap-flower-on-upright-green-stem.png": {
+      "bytes": 7651,
+      "sha256": "71feabc8c3378ced121608990debf2282d726f9499553513fb13f0ce771554cf"
+    },
+    "png/128/spiny-green-thistle-with-rose-petals.png": {
+      "bytes": 23519,
+      "sha256": "725eb45228c93b5dae0443121a31f3a3689b19d4fc05da4a985a0223b0f00452"
+    },
+    "png/128/tall-silver-acanthus-scroll-with-red-and-blue-flowers.png": {
+      "bytes": 10954,
+      "sha256": "a9bf53a9eb5ece0643932fc2a4820c120a8396280d478b9be584d3882b4c0873"
+    },
+    "png/256/blue-gold-floral-frame.png": {
+      "bytes": 126808,
+      "sha256": "c7402afa42e49e588cba871307998e658d4a834c4651fbe8f3841aa5edad8d4d"
+    },
+    "png/256/blue-gold-floral-manuscript-frame.png": {
+      "bytes": 125241,
+      "sha256": "af411326d032bf1e80e9ba4a32717a114b2ce3233f002d9af5f2fa62827fd98c"
+    },
+    "png/256/blue-rose-and-gray-flower-on-long-green-stem.png": {
+      "bytes": 32714,
+      "sha256": "cbc8d175162b7e1db50720283a3310f5e9d51da6663fd4fb6a1d53ecbd858505"
+    },
+    "png/256/crossed-blue-leaf-pair.png": {
+      "bytes": 33577,
+      "sha256": "889b022f195c4cf847362796e07635f96fdd183f27093f4dc17f89793addc5a1"
+    },
+    "png/256/crossed-upright-blue-leaf-pair.png": {
+      "bytes": 30660,
+      "sha256": "b0af01837605b196eb2899dcb16f62c4cf3fe0309cf59a968ed9bcc497d3f1d8"
+    },
+    "png/256/crossed-upright-gray-leaf-pair.png": {
+      "bytes": 30817,
+      "sha256": "011ceec718fabd634f2887e9c073be6956da98108f133fc9baef893f9e94aa19"
+    },
+    "png/256/finite-blue-gold-discs-and-diamonds-line-filler.png": {
+      "bytes": 21845,
+      "sha256": "fbb7dbd85092aa34c64e82d0e7db2338cf2296ad1c7f5337354b00ddf553065d"
+    },
+    "png/256/finite-blue-gold-discs-and-paired-diamonds-line-filler.png": {
+      "bytes": 17864,
+      "sha256": "5a95e2421c36a3c67ce0d5f5d46fffb359dd3bf96a1400756001277cdfb02641"
+    },
+    "png/256/finite-gold-foliate-wave-on-blue-line-filler.png": {
+      "bytes": 28319,
+      "sha256": "716c83ef1f24dd010a83b269927bfbde5ad99311236a73a127026887f210459b"
+    },
+    "png/256/finite-gold-foliate-wave-on-blue-red-line-filler.png": {
+      "bytes": 23258,
+      "sha256": "0fff8b39c3b511372ebe378e2229b24d70cf5a017b6c85e61f90a0ef1a1012fb"
+    },
+    "png/256/fixed-gold-columned-pond-frame-with-scroll-capitals.png": {
+      "bytes": 22706,
+      "sha256": "7ce37da853fe0ac332a2d4e58cde8ce59ed2761a15e6b28dce418934c73ea95b"
+    },
+    "png/256/four-rose-petals-with-green-calyx-and-two-leaves.png": {
+      "bytes": 49661,
+      "sha256": "94c6c824078b34bb31ebea92e2a741b97c485128f72cde00f798ae9e1d9db081"
+    },
+    "png/256/gold-curled-leaf-scroll-from-lower-initial.png": {
+      "bytes": 61084,
+      "sha256": "11a40e4f9c38589e142b7e9827dc9a40388ee6f8ae7fa824e8d5f6377a954580"
+    },
+    "png/256/gold-curled-leaf-vine-from-round-initial.png": {
+      "bytes": 56761,
+      "sha256": "612da9576d112c3de998d70208569bdcabc30c46300a5e6d12472f337211e850"
+    },
+    "png/256/gray-folded-bud-with-rose-petals-and-green-leaves.png": {
+      "bytes": 29755,
+      "sha256": "718efb0ae476a889e54c7514b7296d6a2ecb2607300e1bccfe97a934a6baf333"
+    },
+    "png/256/large-red-flower-and-small-bud-on-branching-green-stem.png": {
+      "bytes": 52417,
+      "sha256": "7a13887e8a990918a74246777a14e3abbcdddfc79fa5fb39ac4ff404b7db88eb"
+    },
+    "png/256/pale-pleated-fan-flower-on-curved-green-stem.png": {
+      "bytes": 47533,
+      "sha256": "601a61810928b1684749a1228cdaaef4ac53af36187986907f41fa152d11bcd6"
+    },
+    "png/256/pointed-rose-flower-with-gray-sepals-on-green-twig.png": {
+      "bytes": 31928,
+      "sha256": "ab5ee13a89c17d23368cb383391386c5f0f2cb54a4e5f84115701856fa59299e"
+    },
+    "png/256/red-blue-gold-acanthus-and-green-leaf-l-border.png": {
+      "bytes": 49742,
+      "sha256": "24633ed5ff7ec41a14cb24a445798a8e0d930db53c932bc0619cdb052ae8fc95"
+    },
+    "png/256/small-rose-cap-flower-on-upright-green-stem.png": {
+      "bytes": 23609,
+      "sha256": "09019c8e98457503e4f49294f2325a0edc7f41bd3f49673ea6c1089df2305274"
+    },
+    "png/256/spiny-green-thistle-with-rose-petals.png": {
+      "bytes": 78426,
+      "sha256": "e73e9ae06b0d1f95e7ceafa541080af235fa9269b2d247dc9b164c112ad42c25"
+    },
+    "png/256/tall-silver-acanthus-scroll-with-red-and-blue-flowers.png": {
+      "bytes": 37098,
+      "sha256": "b00580dadfea9a2e040fcc55711e2026057b873899d6d1bf6ba09790d5c3572f"
+    },
+    "png/512/blue-gold-floral-frame.png": {
+      "bytes": 452810,
+      "sha256": "5be89a58ab56559926b4ab8d601e5c84d6e3308129703f1cbd71ec57532b45f5"
+    },
+    "png/512/blue-gold-floral-manuscript-frame.png": {
+      "bytes": 449514,
+      "sha256": "ef08b6e8d8d97a41efce263376e1489229a533cfdfd7eae18ededd329c0852a2"
+    },
+    "png/512/blue-rose-and-gray-flower-on-long-green-stem.png": {
+      "bytes": 108930,
+      "sha256": "9855611d9ab318c740470384063b0d3ce943fba68d1bc620e24a01925287ac44"
+    },
+    "png/512/crossed-blue-leaf-pair.png": {
+      "bytes": 114492,
+      "sha256": "488d5d44ca0b1925780c7bb76a60900a880eb48e5b382bc065daefff041f2100"
+    },
+    "png/512/crossed-upright-blue-leaf-pair.png": {
+      "bytes": 102567,
+      "sha256": "4f2a5c647cda617bc5b0c04b28aa9aab40bc53851bdbfa29afb8f05bcc53087b"
+    },
+    "png/512/crossed-upright-gray-leaf-pair.png": {
+      "bytes": 102914,
+      "sha256": "c7ea587088b0252e23f7b2b78e9a92e97b9e6481a7d8ec91d02192e8d1313e16"
+    },
+    "png/512/finite-blue-gold-discs-and-diamonds-line-filler.png": {
+      "bytes": 70442,
+      "sha256": "953568a78a93e71b171acd71adc12bcc3d1dbea33292cffe86eb7638e32a5e74"
+    },
+    "png/512/finite-blue-gold-discs-and-paired-diamonds-line-filler.png": {
+      "bytes": 57661,
+      "sha256": "5f6dd3b1c6264a43c1f7d4bce0247f05c966ebb6fc67f2e1f7bf2fdc71f41d11"
+    },
+    "png/512/finite-gold-foliate-wave-on-blue-line-filler.png": {
+      "bytes": 89934,
+      "sha256": "ede37b7f8c02fb61e4fabf3e260978e1e0966fcc67d8e383776d5aaf41212f0a"
+    },
+    "png/512/finite-gold-foliate-wave-on-blue-red-line-filler.png": {
+      "bytes": 72245,
+      "sha256": "9cd859ffd8b6a396e9dee4fd154f77ed847f4ae742da05d31bc05a217f79187a"
+    },
+    "png/512/fixed-gold-columned-pond-frame-with-scroll-capitals.png": {
+      "bytes": 76329,
+      "sha256": "ffe8f20be4898b5f4d22c7690f3488949d714f3d0cda95dbc691b4526292bcca"
+    },
+    "png/512/four-rose-petals-with-green-calyx-and-two-leaves.png": {
+      "bytes": 174346,
+      "sha256": "ae11603bcbd7c8f2c473b625540d8a869df3a31c21ad1210f0366633440e6295"
+    },
+    "png/512/gold-curled-leaf-vine-from-round-initial.png": {
+      "bytes": 188834,
+      "sha256": "9f942f0f9722cd37be54d1a4b83567e75d6c7c9abdd4e75f337d54fbe3d9d546"
+    },
+    "png/512/gray-folded-bud-with-rose-petals-and-green-leaves.png": {
+      "bytes": 104217,
+      "sha256": "fad709629827db52f069501d067f63aaf0d28549562bd695554054a3aef2b99f"
+    },
+    "png/512/large-red-flower-and-small-bud-on-branching-green-stem.png": {
+      "bytes": 179670,
+      "sha256": "9224e2a5f8b9a65b7c36fd56a22c0ffd4e4d719239a15d9dcd057abff8ae2deb"
+    },
+    "png/512/pale-pleated-fan-flower-on-curved-green-stem.png": {
+      "bytes": 167285,
+      "sha256": "9e760c737f082a0016941c9d69eea09a49492acc08ad89f7ca1bcbd73ea70bdd"
+    },
+    "png/512/pointed-rose-flower-with-gray-sepals-on-green-twig.png": {
+      "bytes": 110169,
+      "sha256": "22523dbc02954b4414ab6a438a7a5c128c0753daf4cf2d4b320ec398da295a00"
+    },
+    "png/512/red-blue-gold-acanthus-and-green-leaf-l-border.png": {
+      "bytes": 168840,
+      "sha256": "2dec8f73ac5824c464e1126342edf2f1de650ed402b08403dfe73145f4323806"
+    },
+    "png/512/small-rose-cap-flower-on-upright-green-stem.png": {
+      "bytes": 79146,
+      "sha256": "8820ea2748b43f236477ba3a6445666167949e5c6625221044b3519b88279ea3"
+    },
+    "png/512/spiny-green-thistle-with-rose-petals.png": {
+      "bytes": 270193,
+      "sha256": "a501f68cdd13ca6a3728d0445e6f3d2fd6548142e0f216fd6c668012c3068974"
+    },
+    "png/512/tall-silver-acanthus-scroll-with-red-and-blue-flowers.png": {
+      "bytes": 116114,
+      "sha256": "b55eadb96f1f4bb2cffb3f0778d224c76abf6f45868dc552526ddb8352bb3b64"
+    },
+    "png/768/blue-gold-floral-frame.png": {
+      "bytes": 923853,
+      "sha256": "f9cf48e6d97a90aae79c1360a5e8a470987da881fde91a53ebc43075b8f5aa8c"
+    },
+    "png/768/blue-gold-floral-manuscript-frame.png": {
+      "bytes": 922265,
+      "sha256": "ae9a7ae7983fb21053e467ccff335ab86ef564a95185855cfa8b34de78f42409"
+    },
+    "png/768/blue-rose-and-gray-flower-on-long-green-stem.png": {
+      "bytes": 225684,
+      "sha256": "d09adfffd2864d9b7afa2f76c6503ceb8baa8ee2b6a157b4b854e3ca0e96659a"
+    },
+    "png/768/crossed-blue-leaf-pair.png": {
+      "bytes": 232462,
+      "sha256": "e55423e8fe8f2b05ef79972024b5a65cd7321e68163699469d5b153cfe98c009"
+    },
+    "png/768/crossed-upright-blue-leaf-pair.png": {
+      "bytes": 206584,
+      "sha256": "b2451a0760d88deeeaa16a187f4f323ab694b6c6eb7eebdf07c7f00b168b0b98"
+    },
+    "png/768/crossed-upright-gray-leaf-pair.png": {
+      "bytes": 206732,
+      "sha256": "5df6cab0de58d12248004a4e4c12d0df604e6952c2c5dceb277f2ac3740b7228"
+    },
+    "png/768/finite-blue-gold-discs-and-paired-diamonds-line-filler.png": {
+      "bytes": 114683,
+      "sha256": "2beebdb57bd26df19d1f9ea13bfd8b2dea0dc68043e4032f940c946a9672e358"
+    },
+    "png/768/fixed-gold-columned-pond-frame-with-scroll-capitals.png": {
+      "bytes": 155929,
+      "sha256": "9c7b1a6f0c0b86ac10f379b8087ba23995f5f321a34e88794d9a2a9695e126e1"
+    },
+    "png/768/four-rose-petals-with-green-calyx-and-two-leaves.png": {
+      "bytes": 368161,
+      "sha256": "71acb9a401f03d29387e401e8834244bdffb1273cb5393b0b067cfbff50ebe6e"
+    },
+    "png/768/gray-folded-bud-with-rose-petals-and-green-leaves.png": {
+      "bytes": 218758,
+      "sha256": "c65bf97858b915b046e5843b313040888ec4b5079f2dfce5b53fbe7988f97f04"
+    },
+    "png/768/large-red-flower-and-small-bud-on-branching-green-stem.png": {
+      "bytes": 380997,
+      "sha256": "b6a76aaf78a2f10d3da5874e802ad31e0e14629df81b03010c03670c9526c695"
+    },
+    "png/768/pale-pleated-fan-flower-on-curved-green-stem.png": {
+      "bytes": 353675,
+      "sha256": "1a3cdff2e78f9f828d1a8814fc4227748b090b2cbe0317a07573e64217a510f4"
+    },
+    "png/768/pointed-rose-flower-with-gray-sepals-on-green-twig.png": {
+      "bytes": 227079,
+      "sha256": "4f15a887a4fedc2f31f86fc76a2d4304cab17a7fbdf5d0cd1bf7f3ba4f8421e3"
+    },
+    "png/768/red-blue-gold-acanthus-and-green-leaf-l-border.png": {
+      "bytes": 343154,
+      "sha256": "d2ca9b88acd7720233a3cb666d8424a5ae01abb257c8b2360daf95e514498ca5"
+    },
+    "png/768/small-rose-cap-flower-on-upright-green-stem.png": {
+      "bytes": 161297,
+      "sha256": "66b45a5008efd749c7a5e9086c6f3e9c5980a57f127756cfde626ea92a1dd563"
+    },
+    "png/768/spiny-green-thistle-with-rose-petals.png": {
+      "bytes": 551481,
+      "sha256": "213f7602e051e5d18611f7858e329d2d4326c5fe9c40005e9d339bd73aa11bc7"
+    },
+    "png/768/tall-silver-acanthus-scroll-with-red-and-blue-flowers.png": {
+      "bytes": 229879,
+      "sha256": "98d6204367107a90f8b6cb05b7f4a9e20e8f91cb6fe3f1043ffbe2f7fee0b065"
+    },
+    "png/blue-gold-floral-frame.png": {
+      "bytes": 11115210,
+      "sha256": "3708cdd80f6a71620d2ca9e479f2a8596df6db3c2797d2ec74312e4db361c7b8"
+    },
+    "png/blue-gold-floral-manuscript-frame.png": {
+      "bytes": 16324942,
+      "sha256": "d4b06e02cda09efb90efca197f058a3cc2972444b197a76eb9ded5e7fa39d66b"
+    },
+    "png/blue-rose-and-gray-flower-on-long-green-stem.png": {
+      "bytes": 4000666,
+      "sha256": "07cda82a64ad9a6e904f1dd64d15957c13fc71c967d093d3834575d925fb0d47"
+    },
+    "png/crossed-blue-leaf-pair.png": {
+      "bytes": 502423,
+      "sha256": "02666435384909701ba2c6ef2471e1bddf2cbc5f224979a4d92e9d9898b6aff3"
+    },
+    "png/crossed-upright-blue-leaf-pair.png": {
+      "bytes": 515178,
+      "sha256": "18699fa576821e0df649e326b2019476edf88cb82fc5658216fd35d4a79dd9c1"
+    },
+    "png/crossed-upright-gray-leaf-pair.png": {
+      "bytes": 606731,
+      "sha256": "dee392d80d7ce2e2818cf9091f2cf5f522d868e37bf49661e1c8d012368c3e8c"
+    },
+    "png/finite-blue-gold-discs-and-diamonds-line-filler.png": {
+      "bytes": 118175,
+      "sha256": "a4f68696a47360c47665d13937cb88f08f4c0c9cc1feebcb7ec009955fe18968"
+    },
+    "png/finite-blue-gold-discs-and-paired-diamonds-line-filler.png": {
+      "bytes": 158402,
+      "sha256": "8b3117da87cb7afe7adaec4c8ee0d5d5ee5adbea410e65bec9d0aff3cd0acea6"
+    },
+    "png/finite-gold-foliate-wave-on-blue-line-filler.png": {
+      "bytes": 97976,
+      "sha256": "4482de0693dbb3180ca8d24538ebbc7dfd44d1496062e8a82a76ed16556f13b6"
+    },
+    "png/finite-gold-foliate-wave-on-blue-red-line-filler.png": {
+      "bytes": 95887,
+      "sha256": "3a12e178a739f279903aa6b9697720a2eaa9c07aeb0496eb2d446ef8192dc086"
+    },
+    "png/fixed-gold-columned-pond-frame-with-scroll-capitals.png": {
+      "bytes": 1203665,
+      "sha256": "b583d6202c31f6b0347b44966768772013b92bfaf1a56b012640f6cc319b358f"
+    },
+    "png/four-rose-petals-with-green-calyx-and-two-leaves.png": {
+      "bytes": 2332576,
+      "sha256": "cff97c42c47d7ac255f29114acdcdcb83b1ec3ee683c4f5f35a169dd1f6f305c"
+    },
+    "png/gold-curled-leaf-scroll-from-lower-initial.png": {
+      "bytes": 86787,
+      "sha256": "aecb8de5e75555f40b68bdd5ed9cf09b0c7da47a4370e5a0848ad570f0c2c897"
+    },
+    "png/gold-curled-leaf-vine-from-round-initial.png": {
+      "bytes": 267575,
+      "sha256": "d422eaafcda06bca2ee221ed632377797af3c80f9fe877db9d9b83d0e413934f"
+    },
+    "png/gold-curled-pointed-leaf-from-initial-counter.png": {
+      "bytes": 7484,
+      "sha256": "eef88955bbbd518147ee61d64c4da5f388082f88c0a714e2d4d3895eec286343"
+    },
+    "png/gold-five-petal-flower-from-initial-counter.png": {
+      "bytes": 29373,
+      "sha256": "04e578c8ee73fe47242a8e47c26fe9061f8e07ee42a68d2c0a8725755d4bb808"
+    },
+    "png/gold-three-lobed-leaf-from-initial-counter.png": {
+      "bytes": 17804,
+      "sha256": "d9572220c2e4e6bef0fcdb7e720afec43073ece025a1e00490bd81f1b4745fbc"
+    },
+    "png/gray-folded-bud-with-rose-petals-and-green-leaves.png": {
+      "bytes": 1068027,
+      "sha256": "2b33b90698bd9e0ffb3e4e0d15ec7ad1fdb7fe3fb76206612cd1fe0204bc85e1"
+    },
+    "png/large-red-flower-and-small-bud-on-branching-green-stem.png": {
+      "bytes": 5434573,
+      "sha256": "51edf909d280cc9a8a2ee3c7dac27211fc342927fb55426cada35a5ee7e37288"
+    },
+    "png/pale-pleated-fan-flower-on-curved-green-stem.png": {
+      "bytes": 3353526,
+      "sha256": "4a070e8a0576230e759455ce9e5ead1681aa51fd3feeaf1f5f1817aa8d9a936d"
+    },
+    "png/pointed-rose-flower-with-gray-sepals-on-green-twig.png": {
+      "bytes": 858553,
+      "sha256": "36f361255de947cb401f7c72aed8dffecd9d2341ceb9fe926e9c3645e00858c4"
+    },
+    "png/red-blue-gold-acanthus-and-green-leaf-l-border.png": {
+      "bytes": 4345201,
+      "sha256": "12ccbede8e324ddb35d4a26264030d1aa1ff6a2e18bef089ff5a82070971eeb9"
+    },
+    "png/small-rose-cap-flower-on-upright-green-stem.png": {
+      "bytes": 891668,
+      "sha256": "30e0030485192ab4876d87b23b13b4e189c7998ec1271eec6acb3fbdd2a72734"
+    },
+    "png/spiny-green-thistle-with-rose-petals.png": {
+      "bytes": 1561767,
+      "sha256": "bbbc8596fd4a7fc2c1c6b3a11a64ffda43cd613ef8f38808eebf08c3cc971995"
+    },
+    "png/tall-silver-acanthus-scroll-with-red-and-blue-flowers.png": {
+      "bytes": 1417476,
+      "sha256": "0981dfa537e5093b174e77201780a07e703bd57a1bae9f1dfb325b09b16dd6b0"
+    },
+    "webp/128/blue-gold-floral-frame.webp": {
+      "bytes": 29678,
+      "sha256": "cb7029f194f12aed6731300facc207b99f9052cfe4b55c1be3eada45a8565266"
+    },
+    "webp/128/blue-gold-floral-manuscript-frame.webp": {
+      "bytes": 28884,
+      "sha256": "bb479d1d3daccd9edf9352ceb6f03689ce5716c9c73a5853d670eba85f6fbd1b"
+    },
+    "webp/128/blue-rose-and-gray-flower-on-long-green-stem.webp": {
+      "bytes": 8722,
+      "sha256": "01a8ba57ca3e35d0bdfb60cb88ff2d8d024d595d219d8c01936edbeb02de35e7"
+    },
+    "webp/128/crossed-blue-leaf-pair.webp": {
+      "bytes": 8402,
+      "sha256": "14f7ee8bf1cf241e8d9d836959b7a71b4485e1d18858c0b8ab93ee143437884d"
+    },
+    "webp/128/crossed-upright-blue-leaf-pair.webp": {
+      "bytes": 7876,
+      "sha256": "cf4bf0d4325b10e123cb7ffbe4645129147caf0abc90ac3b95283226613f8c90"
+    },
+    "webp/128/crossed-upright-gray-leaf-pair.webp": {
+      "bytes": 7152,
+      "sha256": "ede31bb69da9d38d35c22a935fc546f0bd585fb37a2889673d354c00cda39a5e"
+    },
+    "webp/128/finite-blue-gold-discs-and-diamonds-line-filler.webp": {
+      "bytes": 5962,
+      "sha256": "cf12e830b00f78e574cc891191c1373664ca06542011adc59741887af55afd8a"
+    },
+    "webp/128/finite-blue-gold-discs-and-paired-diamonds-line-filler.webp": {
+      "bytes": 4690,
+      "sha256": "2ecb384cca8ff5f88dd36de2aac74dd4b0461da586c683cd6c7db9ab94dbb2c9"
+    },
+    "webp/128/finite-gold-foliate-wave-on-blue-line-filler.webp": {
+      "bytes": 7226,
+      "sha256": "94ea72b60e84fa9ee4d57a67fc74320e3453cff32192413b7787b7d63cd85926"
+    },
+    "webp/128/finite-gold-foliate-wave-on-blue-red-line-filler.webp": {
+      "bytes": 6346,
+      "sha256": "6d314ad328501904c1bc30e3b0e6c994a7b5d1324aba894b702b8536be5aba0b"
+    },
+    "webp/128/fixed-gold-columned-pond-frame-with-scroll-capitals.webp": {
+      "bytes": 6234,
+      "sha256": "6af736f522d4eae9cd8022955369c4f04ec63f6db1955702cf366d4a6c249c4e"
+    },
+    "webp/128/four-rose-petals-with-green-calyx-and-two-leaves.webp": {
+      "bytes": 12650,
+      "sha256": "11df4398804bb8aed7a82272431f663208a0e0abbce647731f31ac1a7de47841"
+    },
+    "webp/128/gold-curled-leaf-scroll-from-lower-initial.webp": {
+      "bytes": 13200,
+      "sha256": "1458bc9f7f17511af51294c3fd3ce458e4610d25781d662ecf60561a196b22d5"
+    },
+    "webp/128/gold-curled-leaf-vine-from-round-initial.webp": {
+      "bytes": 12060,
+      "sha256": "cb2315145db16d4e0b77994304986bf5d7e0fbc6c478e9e1715adf81e3505705"
+    },
+    "webp/128/gold-five-petal-flower-from-initial-counter.webp": {
+      "bytes": 14118,
+      "sha256": "8a7bc69e785bb1d209e86232ac7b133028b1a63ed32234acd359583550c7c1d4"
+    },
+    "webp/128/gold-three-lobed-leaf-from-initial-counter.webp": {
+      "bytes": 11932,
+      "sha256": "61dc147e28431ba4e28d125560600c55b0c02ff43e6b44df6c7bdc175a408e36"
+    },
+    "webp/128/gray-folded-bud-with-rose-petals-and-green-leaves.webp": {
+      "bytes": 7462,
+      "sha256": "c3496a5670d5e6d5846ed15fcb7580a740fd7c7008f260d55315e45162e595c7"
+    },
+    "webp/128/large-red-flower-and-small-bud-on-branching-green-stem.webp": {
+      "bytes": 12772,
+      "sha256": "252375a168aa5489c1e302ac2fedb83f2ed4f0000bb790f8061b46cfef7afd0c"
+    },
+    "webp/128/pale-pleated-fan-flower-on-curved-green-stem.webp": {
+      "bytes": 11944,
+      "sha256": "7591bc5eb9321c936979ca933fb123ddd3d8d9495bdec1432c7042113a2d8be9"
+    },
+    "webp/128/pointed-rose-flower-with-gray-sepals-on-green-twig.webp": {
+      "bytes": 8062,
+      "sha256": "73c62a6f79088bb9d1dcf077c30427eaf730e4f26e7e714ca49321993e1948d8"
+    },
+    "webp/128/red-blue-gold-acanthus-and-green-leaf-l-border.webp": {
+      "bytes": 12520,
+      "sha256": "bf59b6e325e2595a676c58e9eb5f56980f35b06f25d5ae0b7986ef5cf1b3f66a"
+    },
+    "webp/128/small-rose-cap-flower-on-upright-green-stem.webp": {
+      "bytes": 6586,
+      "sha256": "3fce886e1ab8eea0b26414bf05e556d3b30e5056fe0735c9cce279fcee3a3196"
+    },
+    "webp/128/spiny-green-thistle-with-rose-petals.webp": {
+      "bytes": 19404,
+      "sha256": "ce4c81428fb484d3a047add2d262de2280ed994a85a7d9d2970e3bc49c76f38e"
+    },
+    "webp/128/tall-silver-acanthus-scroll-with-red-and-blue-flowers.webp": {
+      "bytes": 9090,
+      "sha256": "92322cca63e933ccbfcb94c51ab43e01866000a522e7b473b4ae4d9267aec35e"
+    },
+    "webp/256/blue-gold-floral-frame.webp": {
+      "bytes": 104026,
+      "sha256": "921f077a6e4262d1bfedd05a938a7b7847144c1ccbbd79fb15ebc085e9804c10"
+    },
+    "webp/256/blue-gold-floral-manuscript-frame.webp": {
+      "bytes": 103492,
+      "sha256": "6db044388cc1ede8b6e7ec5198a84d14588bfaa9500ed517785b5f8f80599055"
+    },
+    "webp/256/blue-rose-and-gray-flower-on-long-green-stem.webp": {
+      "bytes": 25928,
+      "sha256": "6d39553f7ca09cfa6044481ea315fb39e36376e1dcc24e59bb0584c0ba91655b"
+    },
+    "webp/256/crossed-blue-leaf-pair.webp": {
+      "bytes": 26292,
+      "sha256": "f738bda4e88abf675ecb17239aa1a5b7645ec68d258b576e53738a4fa701c5af"
+    },
+    "webp/256/crossed-upright-blue-leaf-pair.webp": {
+      "bytes": 23280,
+      "sha256": "03aff6c44f395712beff22a35b19778ec48497f726d0081e3141fde36985d034"
+    },
+    "webp/256/crossed-upright-gray-leaf-pair.webp": {
+      "bytes": 22318,
+      "sha256": "f52d2c1fa39ae11201c86babc45fbf48eb635acb773be11fb728b48082257c0f"
+    },
+    "webp/256/finite-blue-gold-discs-and-diamonds-line-filler.webp": {
+      "bytes": 17608,
+      "sha256": "6934809d6f431a055e309c9245c21521df00a243f183c515b6ee30605b9b858f"
+    },
+    "webp/256/finite-blue-gold-discs-and-paired-diamonds-line-filler.webp": {
+      "bytes": 14588,
+      "sha256": "922e4e219da881783a3017c207a024645569a450966101f6a9a36bad55c52f6e"
+    },
+    "webp/256/finite-gold-foliate-wave-on-blue-line-filler.webp": {
+      "bytes": 22106,
+      "sha256": "70830ed91b263e3ddcdb5a37e650f92b872fb980932b1a79cbd86b0f486289ea"
+    },
+    "webp/256/finite-gold-foliate-wave-on-blue-red-line-filler.webp": {
+      "bytes": 19440,
+      "sha256": "cbdd336af1db29053baa7589a11ad607628a52d92bcf94cdb7890e57594fba52"
+    },
+    "webp/256/fixed-gold-columned-pond-frame-with-scroll-capitals.webp": {
+      "bytes": 18678,
+      "sha256": "2c0377a6f9e1d1c6ab15c0e68b1411f84528f8415cbd163b6a45830a4ecb3b41"
+    },
+    "webp/256/four-rose-petals-with-green-calyx-and-two-leaves.webp": {
+      "bytes": 37940,
+      "sha256": "3bfee4d87596f9b36f122457937da157282e0f61eef1db776f5e5d2a06db07cb"
+    },
+    "webp/256/gold-curled-leaf-scroll-from-lower-initial.webp": {
+      "bytes": 46440,
+      "sha256": "9c9d958e2f5e7d5cfd3c118bebe701715179e8d6cbf105d4f833946ce6c050cb"
+    },
+    "webp/256/gold-curled-leaf-vine-from-round-initial.webp": {
+      "bytes": 39404,
+      "sha256": "5331b7e2c449463d3cb3c51a55dea980974717ace4783bbd12253f09e27e30cc"
+    },
+    "webp/256/gray-folded-bud-with-rose-petals-and-green-leaves.webp": {
+      "bytes": 23264,
+      "sha256": "e6874df586ab0360707df85317b3484fd53bbd835c4f9a4861f4f170b165e588"
+    },
+    "webp/256/large-red-flower-and-small-bud-on-branching-green-stem.webp": {
+      "bytes": 39920,
+      "sha256": "b1861111ff3ffb85b9fbd3e856a2e17ce2bc2aabdf3a78d85914fda68db3079a"
+    },
+    "webp/256/pale-pleated-fan-flower-on-curved-green-stem.webp": {
+      "bytes": 36346,
+      "sha256": "ee33b7f7d8114e2693b8ed58ab356af842ab95c730109bdf78d251fb01bc9845"
+    },
+    "webp/256/pointed-rose-flower-with-gray-sepals-on-green-twig.webp": {
+      "bytes": 24710,
+      "sha256": "a0471c475daa39e748aca3fa2b5e4645a2b349e4ef34b2802335aa6042cb1854"
+    },
+    "webp/256/red-blue-gold-acanthus-and-green-leaf-l-border.webp": {
+      "bytes": 39974,
+      "sha256": "46f58faf2f83a84b2d1819dac33ec420287e5be506fe67dfacfa050160ce95cc"
+    },
+    "webp/256/small-rose-cap-flower-on-upright-green-stem.webp": {
+      "bytes": 20704,
+      "sha256": "cdeb16bc5aa1f18ec7ef839031e969094da584799cbfd65460330ce16f70cfe9"
+    },
+    "webp/256/spiny-green-thistle-with-rose-petals.webp": {
+      "bytes": 58476,
+      "sha256": "6a38b51f62031954c4949837e5f0258a03c4e7cd2c46a17942552a8fece94546"
+    },
+    "webp/256/tall-silver-acanthus-scroll-with-red-and-blue-flowers.webp": {
+      "bytes": 30342,
+      "sha256": "f64d6bc7446715bed6d850c2e53c07b8590ea1fb200fac55ad14f283e504429f"
+    },
+    "webp/512/blue-gold-floral-frame.webp": {
+      "bytes": 351546,
+      "sha256": "fecfcd1b890a53b3cc7f91dd47f8f289d5c8a93de556f977b51f3657788fccce"
+    },
+    "webp/512/blue-gold-floral-manuscript-frame.webp": {
+      "bytes": 357478,
+      "sha256": "014ce1e031121cad44831eb0d39a7958a316bc77096de2fbf33c1d3633cbe4b3"
+    },
+    "webp/512/blue-rose-and-gray-flower-on-long-green-stem.webp": {
+      "bytes": 83176,
+      "sha256": "18fa1eacb15947c9f83b56a2f6a416a44dc0aae69dbd216229e889bfb26857b2"
+    },
+    "webp/512/crossed-blue-leaf-pair.webp": {
+      "bytes": 84330,
+      "sha256": "f7ee898ee92d8b3e4882acf751efdce2c7771dd021d3a4add3d2c78f281f8ea4"
+    },
+    "webp/512/crossed-upright-blue-leaf-pair.webp": {
+      "bytes": 73742,
+      "sha256": "cfe1a2ede148b17b040a6f8ad12dc90afa13796648635a957a6a653669d8f29e"
+    },
+    "webp/512/crossed-upright-gray-leaf-pair.webp": {
+      "bytes": 67992,
+      "sha256": "9ef6d53f6b75c893a16a2673e69a96f931814c0b4434bc91675e06861f5cff9a"
+    },
+    "webp/512/finite-blue-gold-discs-and-diamonds-line-filler.webp": {
+      "bytes": 52088,
+      "sha256": "0c84b9612f6437603ad05df97091bd2d088958d088c0b1c4fd70526e9483bf98"
+    },
+    "webp/512/finite-blue-gold-discs-and-paired-diamonds-line-filler.webp": {
+      "bytes": 44186,
+      "sha256": "b1cb7567eef4d7970947cef48a86bcf5f86ec69a8a712095908df5c14c25fbd3"
+    },
+    "webp/512/finite-gold-foliate-wave-on-blue-line-filler.webp": {
+      "bytes": 66158,
+      "sha256": "e1d26a7276c3d4157f22e57ba5d4322bf8f3eba9d9c57cc950a7b957c6a0c4f0"
+    },
+    "webp/512/finite-gold-foliate-wave-on-blue-red-line-filler.webp": {
+      "bytes": 54608,
+      "sha256": "e5754cb907cc42c5534e0def1fa38cd643f318154b4081be982271a94b5d5475"
+    },
+    "webp/512/fixed-gold-columned-pond-frame-with-scroll-capitals.webp": {
+      "bytes": 61058,
+      "sha256": "ed3aa855321d79aeadf37f4fe86b74f9ac2d4b7aa5337613d136e19b59d12a8c"
+    },
+    "webp/512/four-rose-petals-with-green-calyx-and-two-leaves.webp": {
+      "bytes": 123364,
+      "sha256": "d3efaad63a26e2fdaf644502f61af76e4019fe4f47845f6c92945ab70ed337a0"
+    },
+    "webp/512/gold-curled-leaf-vine-from-round-initial.webp": {
+      "bytes": 145936,
+      "sha256": "20d2c8af8c61e18bb43ff523d94873fd66723ba36c73f8d5335df4d57f4c81f6"
+    },
+    "webp/512/gray-folded-bud-with-rose-petals-and-green-leaves.webp": {
+      "bytes": 76368,
+      "sha256": "945a9e49bb1b0a40286a83e23b3d4c8fbfc8039f72f45165d37f6b14d5135d0d"
+    },
+    "webp/512/large-red-flower-and-small-bud-on-branching-green-stem.webp": {
+      "bytes": 129650,
+      "sha256": "18acb9b7b337fb619461c687ca03fd92a7fbc2410f979d08aa8b7a99b1863b31"
+    },
+    "webp/512/pale-pleated-fan-flower-on-curved-green-stem.webp": {
+      "bytes": 123408,
+      "sha256": "e9ef3c74deaef4bd98b0b1831c37837dd6a7811845217d2c8887f1e2bbdd8450"
+    },
+    "webp/512/pointed-rose-flower-with-gray-sepals-on-green-twig.webp": {
+      "bytes": 79444,
+      "sha256": "69f1e75717e27a4846e256990131fa62ac97b436ff98fef3d2299a7b63d5d478"
+    },
+    "webp/512/red-blue-gold-acanthus-and-green-leaf-l-border.webp": {
+      "bytes": 131540,
+      "sha256": "3a830de2455af96923653282eadf4749e8c0dd682cc7d1c0e8c432067be88535"
+    },
+    "webp/512/small-rose-cap-flower-on-upright-green-stem.webp": {
+      "bytes": 58788,
+      "sha256": "4084dfbc6910ad2004ba8895ac6fc91ed04f7a75326fb9d20e1d06f502af9aee"
+    },
+    "webp/512/spiny-green-thistle-with-rose-petals.webp": {
+      "bytes": 187046,
+      "sha256": "cc88f7af769ebf6b26d829330b67388da62c41122b1bb6e0cb7299b10ed76a83"
+    },
+    "webp/512/tall-silver-acanthus-scroll-with-red-and-blue-flowers.webp": {
+      "bytes": 90774,
+      "sha256": "4eb6ef02f4b7ffe791e1fc27262227518798ee291e73f1d9ad08cf6fdd94f5e9"
+    },
+    "webp/768/blue-gold-floral-frame.webp": {
+      "bytes": 696834,
+      "sha256": "b9d44dc6e9b055c971ca7016a705643a9abd74d471544d14859c8028d9b077da"
+    },
+    "webp/768/blue-gold-floral-manuscript-frame.webp": {
+      "bytes": 740508,
+      "sha256": "6b369f7c3ddca4a07edc334f9e60eaca2c6ff4a7482535645ddff62e06d1d162"
+    },
+    "webp/768/blue-rose-and-gray-flower-on-long-green-stem.webp": {
+      "bytes": 170254,
+      "sha256": "e5210e53527cb7bf5ac3ba36833fe6c5245d62cf62f943f3ce8f487bc6deaaec"
+    },
+    "webp/768/crossed-blue-leaf-pair.webp": {
+      "bytes": 169598,
+      "sha256": "f8cff28bf0972033650c6a4a3e6698bc0a6ab0e7227cbce5801befd05260afc3"
+    },
+    "webp/768/crossed-upright-blue-leaf-pair.webp": {
+      "bytes": 139034,
+      "sha256": "1924c55d471e7362ad06fc8841979d9473d4b63bb48b30a40e20c9f814398bed"
+    },
+    "webp/768/crossed-upright-gray-leaf-pair.webp": {
+      "bytes": 136320,
+      "sha256": "6ded25d038fe299df9b728d35088ecb3438d7ac0a7002ecec88cf39aaa02c2a0"
+    },
+    "webp/768/finite-blue-gold-discs-and-paired-diamonds-line-filler.webp": {
+      "bytes": 85180,
+      "sha256": "5929c16cbce7fb6f8a97a7a72b5da7351880dc8a780ad557bebfdbf649262726"
+    },
+    "webp/768/fixed-gold-columned-pond-frame-with-scroll-capitals.webp": {
+      "bytes": 123686,
+      "sha256": "4b5b44880fdbc3193bf91a78f85d31d4f87848b55154ea30af3953f7f98afe30"
+    },
+    "webp/768/four-rose-petals-with-green-calyx-and-two-leaves.webp": {
+      "bytes": 250920,
+      "sha256": "75e55db15867d75d5e65757a481d479dfe873b63cfebdc551528db3dec04a22f"
+    },
+    "webp/768/gray-folded-bud-with-rose-petals-and-green-leaves.webp": {
+      "bytes": 149252,
+      "sha256": "3a81ba24114b18fb2a4b2353b60ae0721f7772e22876feb630a03aa06aeefeec"
+    },
+    "webp/768/large-red-flower-and-small-bud-on-branching-green-stem.webp": {
+      "bytes": 277344,
+      "sha256": "d727e0ca0b7afafd529c8efb24485b28f8f75d2a745cfffb50f47530b8906f05"
+    },
+    "webp/768/pale-pleated-fan-flower-on-curved-green-stem.webp": {
+      "bytes": 244698,
+      "sha256": "7eeea764e2216fbb11c2fd7c2f4ce2989753e7c483e6b7dd46d111f23fe9d665"
+    },
+    "webp/768/pointed-rose-flower-with-gray-sepals-on-green-twig.webp": {
+      "bytes": 160102,
+      "sha256": "54cce8a77bcaf556f60a9ea740509fea7390b20bcc3c053da08e6a98fcca3102"
+    },
+    "webp/768/red-blue-gold-acanthus-and-green-leaf-l-border.webp": {
+      "bytes": 272134,
+      "sha256": "696a5b0be162150420b2b049d466983b311a5075f1a75fd4ac9927cb2fe96f0a"
+    },
+    "webp/768/small-rose-cap-flower-on-upright-green-stem.webp": {
+      "bytes": 117738,
+      "sha256": "08d63208bdaebd974a8d3632ca44c2c8e98102f9dd8daaace2dff5367dbbc406"
+    },
+    "webp/768/spiny-green-thistle-with-rose-petals.webp": {
+      "bytes": 392096,
+      "sha256": "49d7c659ba6f33a36a18c82ca9c26915f775d0d4cfb8b976818d8bd9f923bab7"
+    },
+    "webp/768/tall-silver-acanthus-scroll-with-red-and-blue-flowers.webp": {
+      "bytes": 173534,
+      "sha256": "5020338627a5b828fd213d268121f1be7370e053a6b62de354944016029d8c99"
+    },
+    "webp/blue-gold-floral-frame.webp": {
+      "bytes": 7211298,
+      "sha256": "2051de40e4c62abe76fe2d932c43298df7f0f4426a24f091fa1b825236860ee2"
+    },
+    "webp/blue-gold-floral-manuscript-frame.webp": {
+      "bytes": 11445212,
+      "sha256": "0a233c1035576da04b82958d18d8e6a6bf48086e8b111448cfcd3f952e3a65c2"
+    },
+    "webp/blue-rose-and-gray-flower-on-long-green-stem.webp": {
+      "bytes": 2650928,
+      "sha256": "7157316d8401a9f8eae79715fc0228f9def0c860ddc91d8988324fe32736e1ac"
+    },
+    "webp/crossed-blue-leaf-pair.webp": {
+      "bytes": 334598,
+      "sha256": "1091c4b15a0e269c12d6a63f84b78aa9591eeabc6eedf3f2ff338c966412b0f8"
+    },
+    "webp/crossed-upright-blue-leaf-pair.webp": {
+      "bytes": 327820,
+      "sha256": "9062f7b94d86301ce6a47c4481e70dabeb8871f2c6d6d5824649b013d2c2dd9e"
+    },
+    "webp/crossed-upright-gray-leaf-pair.webp": {
+      "bytes": 382124,
+      "sha256": "1a8b0ba53cd3a795b13879668b44df25d7335212b63bf0631f853694b5213110"
+    },
+    "webp/finite-blue-gold-discs-and-diamonds-line-filler.webp": {
+      "bytes": 76278,
+      "sha256": "5db7c5dc2744523c21b8718c43bee69bf100dedcbc8355549eb2a35215155be3"
+    },
+    "webp/finite-blue-gold-discs-and-paired-diamonds-line-filler.webp": {
+      "bytes": 98124,
+      "sha256": "88e1ac0e79b4961164a51adb69f72e339986d2272818249bab9d256fcc662d95"
+    },
+    "webp/finite-gold-foliate-wave-on-blue-line-filler.webp": {
+      "bytes": 61032,
+      "sha256": "ca216f56b03919ac417ccd17773d33fce0c64e208edeba1faa4efb2667e7180f"
+    },
+    "webp/finite-gold-foliate-wave-on-blue-red-line-filler.webp": {
+      "bytes": 64786,
+      "sha256": "b6674d1cb9572b24bf42ba5015e8856eb04170f40e3196f1745cab68ceaf4d41"
+    },
+    "webp/fixed-gold-columned-pond-frame-with-scroll-capitals.webp": {
+      "bytes": 750400,
+      "sha256": "b465526669c220530c2f9cb9e1b296b1feb89f8f028b8d6089224070e8c0f50e"
+    },
+    "webp/four-rose-petals-with-green-calyx-and-two-leaves.webp": {
+      "bytes": 1481770,
+      "sha256": "e3d6a17b83e181e7901e4eeef780b05480259c5214937fce8be2dda57d80be8e"
+    },
+    "webp/gold-curled-leaf-scroll-from-lower-initial.webp": {
+      "bytes": 59604,
+      "sha256": "df9692c5daac043819fcf0aacb6524a2ae60159a2c724689249b79d33758d85b"
+    },
+    "webp/gold-curled-leaf-vine-from-round-initial.webp": {
+      "bytes": 189726,
+      "sha256": "9b0dd8d4cb46839d7bebddcfe48d4b69e7b1a6fcaddb932e142800799f14779c"
+    },
+    "webp/gold-curled-pointed-leaf-from-initial-counter.webp": {
+      "bytes": 5216,
+      "sha256": "22d5eb6c1ac5bb68b2a4c3c3dcbc8d8bb90e77c4ce761f973180aa9b945250cf"
+    },
+    "webp/gold-five-petal-flower-from-initial-counter.webp": {
+      "bytes": 20606,
+      "sha256": "c7cd660fb2190a0ee44452eaa9fa76d0055c3d4803e1ae5823e8e8ac0a468501"
+    },
+    "webp/gold-three-lobed-leaf-from-initial-counter.webp": {
+      "bytes": 12108,
+      "sha256": "6430f0c080dfe93095548d8ed2a354405598550e8cc38c88040cd4431a11b1dc"
+    },
+    "webp/gray-folded-bud-with-rose-petals-and-green-leaves.webp": {
+      "bytes": 692264,
+      "sha256": "ce14b2a6bc578a64bfeed5c867bfabb4e83e51491797d063d21c4b4b5c2442b4"
+    },
+    "webp/large-red-flower-and-small-bud-on-branching-green-stem.webp": {
+      "bytes": 3549854,
+      "sha256": "3a3b51d4eb0f5d581b83c21a60b74d93cc3ade2139654fdcee255b7e44f6a537"
+    },
+    "webp/pale-pleated-fan-flower-on-curved-green-stem.webp": {
+      "bytes": 2152858,
+      "sha256": "f4d2f3566c4d863c610509e70fbc94879b8c7888a0e2e654ed5aa827affa0b8a"
+    },
+    "webp/pointed-rose-flower-with-gray-sepals-on-green-twig.webp": {
+      "bytes": 549158,
+      "sha256": "958c8810d551bf113704f0910bad7e73459a802da6464d043f04b2186487f274"
+    },
+    "webp/red-blue-gold-acanthus-and-green-leaf-l-border.webp": {
+      "bytes": 2807820,
+      "sha256": "d128c944ff3d88d550d8693ef07267243508b7baeef3e66052908461fe785a24"
+    },
+    "webp/small-rose-cap-flower-on-upright-green-stem.webp": {
+      "bytes": 578598,
+      "sha256": "20b70909215cd5ee7e63744038ea1289b336cdc486eefd3ad6d2bf54a78b1f56"
+    },
+    "webp/spiny-green-thistle-with-rose-petals.webp": {
+      "bytes": 1012458,
+      "sha256": "5d32c322930a0c6260ef44b651361cc73791f839b1d5a7b74bc7d5cbec6bfdbf"
+    },
+    "webp/tall-silver-acanthus-scroll-with-red-and-blue-flowers.webp": {
+      "bytes": 1078842,
+      "sha256": "85326aafeb4f8b873aff0050ec4d1306ec8b1bef8f524e60998c76df5b58069c"
+    }
+  },
+  "inputs": {
+    "sources/tiles/blue-gold-floral-frame.png": {
+      "bytes": 11115210,
+      "sha256": "3708cdd80f6a71620d2ca9e479f2a8596df6db3c2797d2ec74312e4db361c7b8"
+    },
+    "sources/tiles/blue-gold-floral-manuscript-frame.png": {
+      "bytes": 16324942,
+      "sha256": "d4b06e02cda09efb90efca197f058a3cc2972444b197a76eb9ded5e7fa39d66b"
+    },
+    "sources/tiles/blue-rose-and-gray-flower-on-long-green-stem.png": {
+      "bytes": 4000666,
+      "sha256": "07cda82a64ad9a6e904f1dd64d15957c13fc71c967d093d3834575d925fb0d47"
+    },
+    "sources/tiles/crossed-blue-leaf-pair.png": {
+      "bytes": 502423,
+      "sha256": "02666435384909701ba2c6ef2471e1bddf2cbc5f224979a4d92e9d9898b6aff3"
+    },
+    "sources/tiles/crossed-upright-blue-leaf-pair.png": {
+      "bytes": 515178,
+      "sha256": "18699fa576821e0df649e326b2019476edf88cb82fc5658216fd35d4a79dd9c1"
+    },
+    "sources/tiles/crossed-upright-gray-leaf-pair.png": {
+      "bytes": 606731,
+      "sha256": "dee392d80d7ce2e2818cf9091f2cf5f522d868e37bf49661e1c8d012368c3e8c"
+    },
+    "sources/tiles/finite-blue-gold-discs-and-diamonds-line-filler.png": {
+      "bytes": 118175,
+      "sha256": "a4f68696a47360c47665d13937cb88f08f4c0c9cc1feebcb7ec009955fe18968"
+    },
+    "sources/tiles/finite-blue-gold-discs-and-paired-diamonds-line-filler.png": {
+      "bytes": 158402,
+      "sha256": "8b3117da87cb7afe7adaec4c8ee0d5d5ee5adbea410e65bec9d0aff3cd0acea6"
+    },
+    "sources/tiles/finite-gold-foliate-wave-on-blue-line-filler.png": {
+      "bytes": 97976,
+      "sha256": "4482de0693dbb3180ca8d24538ebbc7dfd44d1496062e8a82a76ed16556f13b6"
+    },
+    "sources/tiles/finite-gold-foliate-wave-on-blue-red-line-filler.png": {
+      "bytes": 95887,
+      "sha256": "3a12e178a739f279903aa6b9697720a2eaa9c07aeb0496eb2d446ef8192dc086"
+    },
+    "sources/tiles/fixed-gold-columned-pond-frame-with-scroll-capitals.png": {
+      "bytes": 1203665,
+      "sha256": "b583d6202c31f6b0347b44966768772013b92bfaf1a56b012640f6cc319b358f"
+    },
+    "sources/tiles/four-rose-petals-with-green-calyx-and-two-leaves.png": {
+      "bytes": 2332576,
+      "sha256": "cff97c42c47d7ac255f29114acdcdcb83b1ec3ee683c4f5f35a169dd1f6f305c"
+    },
+    "sources/tiles/gold-curled-leaf-scroll-from-lower-initial.png": {
+      "bytes": 86787,
+      "sha256": "aecb8de5e75555f40b68bdd5ed9cf09b0c7da47a4370e5a0848ad570f0c2c897"
+    },
+    "sources/tiles/gold-curled-leaf-vine-from-round-initial.png": {
+      "bytes": 267575,
+      "sha256": "d422eaafcda06bca2ee221ed632377797af3c80f9fe877db9d9b83d0e413934f"
+    },
+    "sources/tiles/gold-curled-pointed-leaf-from-initial-counter.png": {
+      "bytes": 7484,
+      "sha256": "eef88955bbbd518147ee61d64c4da5f388082f88c0a714e2d4d3895eec286343"
+    },
+    "sources/tiles/gold-five-petal-flower-from-initial-counter.png": {
+      "bytes": 29373,
+      "sha256": "04e578c8ee73fe47242a8e47c26fe9061f8e07ee42a68d2c0a8725755d4bb808"
+    },
+    "sources/tiles/gold-three-lobed-leaf-from-initial-counter.png": {
+      "bytes": 17804,
+      "sha256": "d9572220c2e4e6bef0fcdb7e720afec43073ece025a1e00490bd81f1b4745fbc"
+    },
+    "sources/tiles/gray-folded-bud-with-rose-petals-and-green-leaves.png": {
+      "bytes": 1068027,
+      "sha256": "2b33b90698bd9e0ffb3e4e0d15ec7ad1fdb7fe3fb76206612cd1fe0204bc85e1"
+    },
+    "sources/tiles/large-red-flower-and-small-bud-on-branching-green-stem.png": {
+      "bytes": 5434573,
+      "sha256": "51edf909d280cc9a8a2ee3c7dac27211fc342927fb55426cada35a5ee7e37288"
+    },
+    "sources/tiles/pale-pleated-fan-flower-on-curved-green-stem.png": {
+      "bytes": 3353526,
+      "sha256": "4a070e8a0576230e759455ce9e5ead1681aa51fd3feeaf1f5f1817aa8d9a936d"
+    },
+    "sources/tiles/pointed-rose-flower-with-gray-sepals-on-green-twig.png": {
+      "bytes": 858553,
+      "sha256": "36f361255de947cb401f7c72aed8dffecd9d2341ceb9fe926e9c3645e00858c4"
+    },
+    "sources/tiles/red-blue-gold-acanthus-and-green-leaf-l-border.png": {
+      "bytes": 4345201,
+      "sha256": "12ccbede8e324ddb35d4a26264030d1aa1ff6a2e18bef089ff5a82070971eeb9"
+    },
+    "sources/tiles/small-rose-cap-flower-on-upright-green-stem.png": {
+      "bytes": 891668,
+      "sha256": "30e0030485192ab4876d87b23b13b4e189c7998ec1271eec6acb3fbdd2a72734"
+    },
+    "sources/tiles/spiny-green-thistle-with-rose-petals.png": {
+      "bytes": 1561767,
+      "sha256": "bbbc8596fd4a7fc2c1c6b3a11a64ffda43cd613ef8f38808eebf08c3cc971995"
+    },
+    "sources/tiles/tall-silver-acanthus-scroll-with-red-and-blue-flowers.png": {
+      "bytes": 1417476,
+      "sha256": "0981dfa537e5093b174e77201780a07e703bd57a1bae9f1dfb325b09b16dd6b0"
+    }
+  }
+}

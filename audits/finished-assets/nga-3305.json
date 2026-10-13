@@ -1,0 +1,395 @@
+{
+  "source_id": "nga-3305",
+  "assets": [
+    {
+      "id": "nga-3305--lower-flying-day-bird",
+      "name": "lower-flying-day-bird",
+      "source_id": "nga-3305",
+      "source_folder": "national-gallery-of-art",
+      "asset_type": "illustration",
+      "description": "A small engraved day bird flying toward the owl, with a raised wing and pointed beak. Part of the Ornament with Owl Mocked by Day Birds (nga-3305) set.",
+      "source_region": [
+        41,
+        3016,
+        599,
+        3576
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        21,
+        0,
+        564,
+        438
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 543,
+      "height": 438,
+      "png": "national-gallery-of-art/nga-3305--lower-flying-day-bird.png",
+      "png_sha256": "67ba95d4b3dcea14a872be28c614b3a2c6029dff82ac075c3bb7b13f02fcb906",
+      "provenance": {
+        "institution": "National Gallery of Art, Washington",
+        "title": "Ornament with Owl Mocked by Day Birds",
+        "object_identifier": "1943.3.93",
+        "date": "c. 1480/1490",
+        "artist": "Martin Schongauer",
+        "record_url": "https://www.nga.gov/collection/art-object-page.3305.html",
+        "image_rights": "Open Access / public domain; official image dataset openaccess=1",
+        "rights_url": "https://www.nga.gov/artworks/free-images-and-open-access",
+        "source_file": "tmp/new-assets/national-gallery-of-art/nga-3305--ornament-with-owl-mocked-by-day-birds.jpg",
+        "source_sha256": "d4977fd42e66afc84dfa4575ae585bd403b62874b381c97e6ac7380c6d1873e6",
+        "source_metadata": "tmp/new-assets/national-gallery-of-art/nga-3305.json",
+        "image_url": "https://api.nga.gov/iiif/d626f080-0fb8-4305-8619-2d1bf53dd536/full/full/0/default.jpg",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. ONLY the small independent flying bird at left, which flies to the RIGHT toward the owl. Retain that small bird's whole raised left wing, small body, its right-pointing beak and source-visible little feather tips. Remove the unrelated large owl wing at right and every surrounding curled leaf. No invented legs, no clipping the thin original beak. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_extraction": "tmp/extraction-work/nga-3305--lower-flying-day-bird--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "f4a9151acfd10b6aa79eea23da410c13337bf538268237c36b687bd85f6ad090",
+        "retained_generated_size": [
+          1444,
+          1089
+        ],
+        "resolution_cap_scale": 0.4022900763358779,
+        "resolution_capped_size": [
+          581,
+          438
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          527,
+          486
+        ],
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 36
+        },
+        "native_subject_size_evidence": {
+          "method": "Individually inspected visible original subject bounds, excluding ROI whitespace and neighbouring entities.",
+          "preview_subject_bounds": [
+            17,
+            1190,
+            223,
+            1380
+          ],
+          "preview_size": [
+            1121,
+            1600
+          ],
+          "original_size": [
+            2870,
+            4096
+          ]
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Original native subject bounds and source/white/dark compared. Complete actual original bird wings and beaks retained, with opaque pale engraved surfaces and no neighbouring leaf. Tiny Hamburg bird and bouquet retain original resolution caps; no invented source detail. The incomplete hoofed animal and unsupported long weapon/tassel connector were rejected and removed.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/eight-independent-generated-results-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/eight-independent-generated-results-proof-2.jpg"
+        ]
+      },
+      "categories": [
+        "animals"
+      ],
+      "subjects": [
+        "bird",
+        "wing",
+        "tail",
+        "beak"
+      ],
+      "colors": [
+        "brown",
+        "cream"
+      ],
+      "facing": "unclear",
+      "composition": "standalone",
+      "usage_notes": "Original independent specimen with printed plate rules and page removed. AI-assisted extraction remains approximate; source bounds, actual native subject cap, original and exact prompt retained.",
+      "sets": [
+        {
+          "id": "nga-3305-set",
+          "name": "Ornament with Owl Mocked by Day Birds (nga-3305)",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A small engraved day bird flying toward the owl, with a raised wing and pointed beak.",
+      "set_label": "Ornament with Owl Mocked by Day Birds (nga-3305)"
+    },
+    {
+      "id": "nga-3305--owl-and-perching-birds-in-leafy-scroll",
+      "name": "owl-and-perching-birds-in-leafy-scroll",
+      "source_id": "nga-3305",
+      "source_folder": "national-gallery-of-art",
+      "asset_type": "decoration",
+      "description": "An owl with spread wings and day birds among broad curling foliage. Part of the Ornament with Owl Mocked by Day Birds (nga-3305) set.",
+      "source_region": [
+        51,
+        64,
+        2816,
+        4024
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        0,
+        0,
+        2765,
+        3960
+      ],
+      "export_crop_coordinate_space": "source-region",
+      "width": 2765,
+      "height": 3960,
+      "png": "national-gallery-of-art/nga-3305--owl-and-perching-birds-in-leafy-scroll.png",
+      "png_sha256": "11c223132ae52a7232b4af986a4c38375efbbd7e5b5ad401390df9d27e87a6f5",
+      "provenance": {
+        "institution": "National Gallery of Art, Washington",
+        "title": "Ornament with Owl Mocked by Day Birds",
+        "object_identifier": "1943.3.93",
+        "date": "c. 1480/1490",
+        "artist": "Martin Schongauer",
+        "record_url": "https://www.nga.gov/collection/art-object-page.3305.html",
+        "image_rights": "Open Access / public domain; official image dataset openaccess=1",
+        "rights_url": "https://www.nga.gov/artworks/free-images-and-open-access",
+        "source_file": "tmp/new-assets/national-gallery-of-art/nga-3305--ornament-with-owl-mocked-by-day-birds.jpg",
+        "source_sha256": "d4977fd42e66afc84dfa4575ae585bd403b62874b381c97e6ac7380c6d1873e6",
+        "source_metadata": "tmp/new-assets/national-gallery-of-art/nga-3305.json",
+        "image_url": "https://api.nga.gov/iiif/d626f080-0fb8-4305-8619-2d1bf53dd536/full/full/0/default.jpg",
+        "method": "native-continuous-ink-matting"
+      },
+      "extraction": {
+        "method": "Native-resolution continuous ink coverage after locally measured paper removal; PNG appearance master.",
+        "source_pixels_repainted": false,
+        "source_rgb_modified": "Paper removed by measured ink coverage; RGB is the scan-measured ink tone, not an exact source-pixel crop.",
+        "paper_kernel": 61,
+        "minimum_coverage": 0.2,
+        "minimum_component_pixels": 5,
+        "settings": {
+          "paper_kernel": 61,
+          "paper_kernel_shape": "rectangle",
+          "minimum_coverage": 0.2,
+          "minimum_component_pixels": 5,
+          "minimum_component_peak": 0.55,
+          "minimum_channel_coverage": true,
+          "largest_connected_support_join_radius": 5,
+          "fill_connected_support_interiors": false
+        },
+        "exclude_regions": [
+          [
+            1298,
+            3884,
+            1585,
+            3960
+          ]
+        ],
+        "export_crop": [
+          0,
+          0,
+          2765,
+          3960
+        ],
+        "ink_color": [
+          63,
+          53,
+          43
+        ],
+        "candidate_png": "tmp/extraction-work/nga-3305--owl-and-perching-birds-in-leafy-scroll--ink-candidate.png",
+        "status": "awaiting-native-visual-review",
+        "tool": "Native source ink analysis",
+        "source_pixels_redrawn": false
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Native source linework compared in full on source/white/dark. Natural continuous measured ink coverage; no resized hard mask, polygon trace or source stretch. Foreground strokes and props preserved; isolated page specks excluded by connected native support. Red stamp color excluded only where distinguishable from neutral foreground ink. Bare cartouche title removed with individually inspected text-line bounds, leaving the complete original frame. Original faded ink remains faint rather than newly enhanced.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/seven-native-refinement-recipes-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/seven-native-refinement-recipes-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/cartouche-font-correction-native-proof-1.jpg"
+        ]
+      },
+      "categories": [
+        "animals",
+        "floral"
+      ],
+      "subjects": [
+        "owl",
+        "bird",
+        "leaf",
+        "scroll"
+      ],
+      "facing": "mixed",
+      "colors": [
+        "brown",
+        "black"
+      ],
+      "composition": "single-ornament",
+      "usage_notes": "A complete finite original foliate ornament; the two independent flying birds are also delivered as separate illustrations. Native measured continuous ink coverage; no seamless repeat inferred.",
+      "sets": [
+        {
+          "id": "nga-3305-set",
+          "name": "Ornament with Owl Mocked by Day Birds (nga-3305)",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "An owl with spread wings and day birds among broad curling foliage.",
+      "set_label": "Ornament with Owl Mocked by Day Birds (nga-3305)"
+    },
+    {
+      "id": "nga-3305--upper-flying-day-bird",
+      "name": "upper-flying-day-bird",
+      "source_id": "nga-3305",
+      "source_folder": "national-gallery-of-art",
+      "asset_type": "illustration",
+      "description": "An engraved flying day bird with one raised wing and pointed tail. Part of the Ornament with Owl Mocked by Day Birds (nga-3305) set.",
+      "source_region": [
+        1214,
+        38,
+        1713,
+        371
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        18,
+        7,
+        448,
+        317
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 430,
+      "height": 310,
+      "png": "national-gallery-of-art/nga-3305--upper-flying-day-bird.png",
+      "png_sha256": "ce84b5bb2e419e2f3056eba2f39ff426b5c5da4aeeaae22234af1fab264e0d34",
+      "provenance": {
+        "institution": "National Gallery of Art, Washington",
+        "title": "Ornament with Owl Mocked by Day Birds",
+        "object_identifier": "1943.3.93",
+        "date": "c. 1480/1490",
+        "artist": "Martin Schongauer",
+        "record_url": "https://www.nga.gov/collection/art-object-page.3305.html",
+        "image_rights": "Open Access / public domain; official image dataset openaccess=1",
+        "rights_url": "https://www.nga.gov/artworks/free-images-and-open-access",
+        "source_file": "tmp/new-assets/national-gallery-of-art/nga-3305--ornament-with-owl-mocked-by-day-birds.jpg",
+        "source_sha256": "d4977fd42e66afc84dfa4575ae585bd403b62874b381c97e6ac7380c6d1873e6",
+        "source_metadata": "tmp/new-assets/national-gallery-of-art/nga-3305.json",
+        "image_url": "https://api.nga.gov/iiif/d626f080-0fb8-4305-8619-2d1bf53dd536/full/full/0/default.jpg",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. ONLY the actual flying bird in this original upper-center region, including its raised wing, lowered feather contours, pointed beak and long tail. Remove all surrounding foliate scrolls and plate-top rule. Retain the entire source-visible bird, no invented parts. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_extraction": "tmp/extraction-work/nga-3305--upper-flying-day-bird--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "d2761e53ee2b95b32d2afac1d9f4890377992fdca225d8ffe1669226e13300a9",
+        "retained_generated_size": [
+          1535,
+          1025
+        ],
+        "resolution_cap_scale": 0.31309904153354634,
+        "resolution_capped_size": [
+          481,
+          321
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          443,
+          294
+        ],
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 9
+        },
+        "native_subject_size_evidence": {
+          "method": "Individually inspected visible original subject bounds, excluding ROI whitespace and neighbouring entities.",
+          "preview_subject_bounds": [
+            482,
+            20,
+            655,
+            135
+          ],
+          "preview_size": [
+            1121,
+            1600
+          ],
+          "original_size": [
+            2870,
+            4096
+          ]
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Original native subject bounds and source/white/dark compared. Complete actual original bird wings and beaks retained, with opaque pale engraved surfaces and no neighbouring leaf. Tiny Hamburg bird and bouquet retain original resolution caps; no invented source detail. The incomplete hoofed animal and unsupported long weapon/tassel connector were rejected and removed.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/eight-independent-generated-results-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/eight-independent-generated-results-proof-2.jpg"
+        ]
+      },
+      "categories": [
+        "animals"
+      ],
+      "subjects": [
+        "bird",
+        "wing",
+        "tail",
+        "beak"
+      ],
+      "colors": [
+        "brown",
+        "cream"
+      ],
+      "facing": "unclear",
+      "composition": "standalone",
+      "usage_notes": "Original independent specimen with printed plate rules and page removed. AI-assisted extraction remains approximate; source bounds, actual native subject cap, original and exact prompt retained.",
+      "sets": [
+        {
+          "id": "nga-3305-set",
+          "name": "Ornament with Owl Mocked by Day Birds (nga-3305)",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "An engraved flying day bird with one raised wing and pointed tail.",
+      "set_label": "Ornament with Owl Mocked by Day Birds (nga-3305)"
+    }
+  ]
+}

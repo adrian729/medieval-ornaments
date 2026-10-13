@@ -1,0 +1,168 @@
+{
+  "source_id": "met-411963",
+  "assets": [
+    {
+      "id": "met-411963--horned-hybrids-and-bears-in-foliate-cartouche-frame",
+      "name": "horned-hybrids-and-bears-in-foliate-cartouche-frame",
+      "source_id": "met-411963",
+      "source_folder": "met",
+      "asset_type": "decoration",
+      "description": "Paired horned hybrids and bears in a complete curling foliate cartouche frame, with original title lettering removed.",
+      "source_region": [
+        232,
+        167,
+        3788,
+        1125
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        0,
+        0,
+        3539,
+        941
+      ],
+      "export_crop_coordinate_space": "source-region",
+      "width": 3539,
+      "height": 941,
+      "png": "met/met-411963--horned-hybrids-and-bears-in-foliate-cartouche-frame.png",
+      "png_sha256": "d9f1e092879720a15703f0abfc6cd0a05710d7a3811c0dd5df5d5babeb054cf2",
+      "provenance": {
+        "institution": "Metropolitan Museum of Art",
+        "title": "Disegni Varij di Polifilo Zancarli (Friezes)",
+        "object_identifier": "49.20.13(1)",
+        "date": "ca. 1625",
+        "artist": "Polifilo Giancarli",
+        "record_url": "https://www.metmuseum.org/art/collection/search/411963",
+        "image_rights": "CC0 Open Access; isPublicDomain=true",
+        "rights_url": "https://www.metmuseum.org/policies/image-resources",
+        "source_file": "tmp/new-assets/met/met-411963--disegni-varij-di-polifilo-zancarli-friezes.jpg",
+        "source_sha256": "9e558c75f3b032a3004725c5b0fa9f312d080f2de7538ed163943a0f7e89fad2",
+        "source_metadata": "tmp/new-assets/met/met-411963.json",
+        "image_url": "https://images.metmuseum.org/CRDImages/dp/original/DP833104.jpg",
+        "method": "native-continuous-ink-matting"
+      },
+      "extraction": {
+        "method": "Native-resolution continuous ink coverage after locally measured paper removal; PNG appearance master.",
+        "source_pixels_repainted": false,
+        "source_rgb_modified": "Paper removed by measured ink coverage; RGB is the scan-measured ink tone, not an exact source-pixel crop.",
+        "paper_kernel": 61,
+        "minimum_coverage": 0.2,
+        "minimum_component_pixels": 5,
+        "settings": {
+          "paper_kernel": 61,
+          "paper_kernel_shape": "rectangle",
+          "minimum_coverage": 0.2,
+          "minimum_component_pixels": 5,
+          "minimum_component_peak": 0.55,
+          "minimum_channel_coverage": true,
+          "largest_connected_support_join_radius": 5,
+          "fill_connected_support_interiors": false
+        },
+        "exclude_regions": [
+          [
+            1406,
+            198,
+            2075,
+            249
+          ],
+          [
+            1383,
+            252,
+            2081,
+            312
+          ],
+          [
+            1383,
+            320,
+            2081,
+            382
+          ],
+          [
+            1469,
+            391,
+            2021,
+            448
+          ],
+          [
+            1542,
+            468,
+            1922,
+            524
+          ],
+          [
+            1321,
+            547,
+            2183,
+            604
+          ],
+          [
+            1698,
+            606,
+            1783,
+            640
+          ],
+          [
+            1520,
+            640,
+            1984,
+            688
+          ]
+        ],
+        "export_crop": [
+          0,
+          0,
+          3539,
+          941
+        ],
+        "ink_color": [
+          70,
+          59,
+          48
+        ],
+        "candidate_png": "tmp/extraction-work/met-411963--horned-hybrids-and-bears-in-foliate-cartouche-frame--ink-candidate.png",
+        "status": "awaiting-native-visual-review",
+        "tool": "Native source ink analysis",
+        "source_pixels_redrawn": false
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Native source linework compared in full on source/white/dark. Natural continuous measured ink coverage; no resized hard mask, polygon trace or source stretch. Foreground strokes and props preserved; isolated page specks excluded by connected native support. Red stamp color excluded only where distinguishable from neutral foreground ink. Bare cartouche title removed with individually inspected text-line bounds, leaving the complete original frame. Original faded ink remains faint rather than newly enhanced.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/seven-native-refinement-recipes-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/seven-native-refinement-recipes-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/cartouche-font-correction-native-proof-1.jpg"
+        ]
+      },
+      "categories": [
+        "animals",
+        "hybrids",
+        "floral"
+      ],
+      "subjects": [
+        "hybrid",
+        "bear",
+        "leaf",
+        "scroll",
+        "cartouche"
+      ],
+      "facing": "mixed",
+      "colors": [
+        "brown",
+        "black"
+      ],
+      "composition": "single-ornament",
+      "usage_notes": "Native ink appearance retained with continuous transparency. This finite original ornament establishes no seamless period; no repeat or corner atlas inferred. SVG withheld where tracing alters the source print grain."
+    }
+  ]
+}

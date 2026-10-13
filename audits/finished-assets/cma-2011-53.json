@@ -1,0 +1,975 @@
+{
+  "source_id": "cma-2011-53",
+  "assets": [
+    {
+      "id": "cma-2011-53--blue-clad-man-pulling-ornamental-stem",
+      "name": "blue-clad-man-pulling-ornamental-stem",
+      "source_id": "cma-2011-53",
+      "source_folder": "cleveland",
+      "asset_type": "illustration",
+      "description": "A blue-clad man with both hands raised to an ornamental stem. Part of the Latin Bible Paul and foliate initials set.",
+      "source_region": [
+        829,
+        5472,
+        1524,
+        6606
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        82,
+        0,
+        613,
+        1020
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 531,
+      "height": 1020,
+      "png": "cleveland/cma-2011-53--blue-clad-man-pulling-ornamental-stem.png",
+      "png_sha256": "c567189c2977f52764eba4573811dbd7d1a347df9cfa91d8983fde039e49e2ba",
+      "provenance": {
+        "institution": "Cleveland Museum of Art",
+        "title": "Leaf from a Latin Bible: Initial P: St. Paul with a Sword and a Book",
+        "object_identifier": "2011.53",
+        "date": "c. 1230–40",
+        "artist": "William de Brailes (English, active c. 1230)",
+        "record_url": "https://clevelandart.org/art/2011.53",
+        "image_rights": "CC0; share_license_status=CC0",
+        "rights_url": "https://www.clevelandart.org/open-access",
+        "source_file": "tmp/new-assets/cleveland/cma-2011-53--leaf-from-a-latin-bible-initial-p-st-paul-with-a-sword-and-a-book--master.tif",
+        "source_sha256": "339f458fcefdd83b3d639457e032e242affa25c3248b5f218791f7da5ab04fb2",
+        "source_metadata": "tmp/new-assets/cleveland/cma-2011-53.json",
+        "image_url": "https://openaccess-cdn.clevelandart.org/2011.53/2011.53_full.tif",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. Extract ONLY entire small lower-left blue-clad man, both raised hands, head/face, wrapped blue garment, both orange stocking legs and feet. Keep only short source-visible ornament contact between his hands; exclude the long vertical initial letter P above and its whole stem. No hidden hand or anatomy invented. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_extraction": "tmp/extraction-work/cma-2011-53--blue-clad-man-pulling-ornamental-stem--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "06155533b7b7cda6337970ce2659c6c7693de7ff5e422debccb2130a6346fe28",
+        "retained_generated_size": [
+          982,
+          1602
+        ],
+        "resolution_cap_scale": 0.6555772994129159,
+        "resolution_capped_size": [
+          644,
+          1050
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          565,
+          1005
+        ],
+        "native_subject_size_evidence": {
+          "method": "Individually inspected native visible subject bounds, excluding input-region whitespace and neighbours.",
+          "preview_subject_bounds": [
+            204,
+            1234,
+            330,
+            1458
+          ],
+          "preview_size": [
+            1164,
+            1600
+          ],
+          "original_size": [
+            5219,
+            7176
+          ]
+        },
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 1916
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Individually compared every source and white/dark extraction. All flowers/leaves/stems are separate original specimens; connected leaf scrolls remain whole. Original leaf and petal counts, stem tips, pale opaque petals, genuine curl openings and worn paint checked. Peasant retains entire woven basket, staff, fingers, both shoes and small intrinsic turf. Squirrel retains all tail hairs/ear tips/paws and small turf. Blue-clad man retains complete visible hands and feet with no letter stalk. AI texture/contours remain approximate and are audited.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/cleveland-calendar-flower-results-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/cleveland-calendar-flower-results-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/cleveland-calendar-flower-results-proof-3.jpg",
+          "tmp/extraction-work/continuation-20261010/cleveland-calendar-flower-results-proof-4.jpg",
+          "tmp/extraction-work/continuation-20261010/cleveland-calendar-flower-results-proof-5.jpg",
+          "tmp/extraction-work/continuation-20261010/cleveland-calendar-flower-results-proof-6.jpg",
+          "tmp/extraction-work/continuation-20261010/cleveland-calendar-flower-results-proof-7.jpg"
+        ]
+      },
+      "categories": [
+        "humans"
+      ],
+      "subjects": [
+        "man"
+      ],
+      "colors": [
+        "blue",
+        "orange",
+        "gray"
+      ],
+      "facing": "unclear",
+      "composition": "standalone",
+      "usage_notes": "Original independent specimen with printed plate rules and page removed. AI-assisted extraction remains approximate; source bounds, actual native subject cap, original and exact prompt retained.",
+      "sets": [
+        {
+          "id": "cma-2011-53-set",
+          "name": "Latin Bible Paul and foliate initials",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A blue-clad man with both hands raised to an ornamental stem.",
+      "set_label": "Latin Bible Paul and foliate initials"
+    },
+    {
+      "id": "cma-2011-53--gold-ground-portrait-of-saint-paul-with-sword-and-book",
+      "name": "gold-ground-portrait-of-saint-paul-with-sword-and-book",
+      "source_id": "cma-2011-53",
+      "source_folder": "cleveland",
+      "asset_type": "illustration",
+      "description": "A complete original gold-ground portrait miniature of a haloed Saint Paul holding his sword and book, with the surrounding alphabetic strokes excluded. Part of the Latin Bible Paul and foliate initials set.",
+      "source_region": [
+        1190,
+        2770,
+        1860,
+        3420
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        63,
+        66,
+        509,
+        579
+      ],
+      "export_crop_coordinate_space": "original-native-source-region",
+      "width": 446,
+      "height": 513,
+      "png": "cleveland/cma-2011-53--gold-ground-portrait-of-saint-paul-with-sword-and-book.png",
+      "png_sha256": "936be91e4ad807fe44eec472212ce4a52d314756d3b9fb8099aef6a4950788e3",
+      "provenance": {
+        "institution": "Cleveland Museum of Art",
+        "title": "Leaf from a Latin Bible: Initial P: St. Paul with a Sword and a Book",
+        "object_identifier": "2011.53",
+        "date": "c. 1230–40",
+        "artist": "William de Brailes (English, active c. 1230)",
+        "record_url": "https://clevelandart.org/art/2011.53",
+        "image_rights": "CC0; share_license_status=CC0",
+        "rights_url": "https://www.clevelandart.org/open-access",
+        "source_file": "tmp/new-assets/cleveland/cma-2011-53--leaf-from-a-latin-bible-initial-p-st-paul-with-a-sword-and-a-book--master.tif",
+        "source_sha256": "339f458fcefdd83b3d639457e032e242affa25c3248b5f218791f7da5ab04fb2",
+        "source_metadata": "tmp/new-assets/cleveland/cma-2011-53.json",
+        "image_url": "https://openaccess-cdn.clevelandart.org/2011.53/2011.53_full.tif",
+        "method": "native-source-continuous-edge-matting"
+      },
+      "extraction": {
+        "native_source_size": [
+          670,
+          650
+        ],
+        "native_upscaling": false,
+        "original_opaque_rgb_preserved": true,
+        "status": "awaiting-original-white-dark-review",
+        "candidate_png": "tmp/extraction-work/continuation-20261010/cma-2011-53--gold-ground-portrait-of-saint-paul-with-sword-and-book--refined-original-native-candidate.png",
+        "native_export_crop": [
+          63,
+          66,
+          509,
+          579
+        ],
+        "annotation_json": "tmp/extraction-work/continuation-20261010/cma-2011-53--gold-ground-portrait-of-saint-paul-with-sword-and-book--refined-original-native-audit.json",
+        "trimap_png": "tmp/extraction-work/continuation-20261010/cma-2011-53--gold-ground-portrait-of-saint-paul-with-sword-and-book--refined-original-native-trimap.png",
+        "export_crop_coordinate_space": "original-native-source-region",
+        "native_refinement": {
+          "method": "The entire original miniature counter painting retains opaque gold ground, all depicted figures/props, source paint wear and the shared tan background band where present. Individually inspected native inner-counter ownership excludes the surrounding alphabetic ring, serif/tail, column text and exterior parchment. Semantic ownership is filled only as one actual painted scene, not as a silhouette that erases interior gold or clothes. Source-visible half figures remain truncated as painted; no new limbs or restored pigment. Four-native-pixel continuous alpha fits the original painted counter edge; source RGB/proportions stay native and all opaque pixels remain original.",
+          "source": "tmp/extraction-work/continuation-20261010/cma-2011-53--gold-ground-portrait-of-saint-paul-with-sword-and-book--original.png",
+          "previous_native_matte": {
+            "native_source_size": [
+              670,
+              650
+            ],
+            "native_upscaling": false,
+            "original_opaque_rgb_preserved": true,
+            "status": "awaiting-original-white-dark-review",
+            "candidate_png": "tmp/extraction-work/continuation-20261010/cma-2011-53--gold-ground-portrait-of-saint-paul-with-sword-and-book--refined-original-native-candidate.png",
+            "native_export_crop": [
+              63,
+              66,
+              509,
+              579
+            ],
+            "annotation_json": "tmp/extraction-work/continuation-20261010/cma-2011-53--gold-ground-portrait-of-saint-paul-with-sword-and-book--refined-original-native-audit.json",
+            "trimap_png": "tmp/extraction-work/continuation-20261010/cma-2011-53--gold-ground-portrait-of-saint-paul-with-sword-and-book--refined-original-native-trimap.png",
+            "export_crop_coordinate_space": "original-native-source-region",
+            "native_refinement": {
+              "method": "The entire original miniature counter painting retains opaque gold ground, all depicted figures/props, source paint wear and the shared tan background band where present. Individually inspected native inner-counter ownership excludes the surrounding alphabetic ring, serif/tail, column text and exterior parchment. Semantic ownership is filled only as one actual painted scene, not as a silhouette that erases interior gold or clothes. Source-visible half figures remain truncated as painted; no new limbs or restored pigment. Four-native-pixel continuous alpha fits the original painted counter edge; source RGB/proportions stay native and all opaque pixels remain original.",
+              "source": "tmp/extraction-work/continuation-20261010/cma-2011-53--gold-ground-portrait-of-saint-paul-with-sword-and-book--original.png",
+              "previous_native_matte": {
+                "native_source_size": [
+                  670,
+                  650
+                ],
+                "native_upscaling": false,
+                "original_opaque_rgb_preserved": true,
+                "status": "awaiting-original-white-dark-review",
+                "candidate_png": "tmp/extraction-work/continuation-20261010/cma-2011-53--gold-ground-portrait-of-saint-paul-with-sword-and-book--refined-original-native-candidate.png",
+                "native_export_crop": [
+                  63,
+                  74,
+                  507,
+                  572
+                ],
+                "annotation_json": "tmp/extraction-work/continuation-20261010/cma-2011-53--gold-ground-portrait-of-saint-paul-with-sword-and-book--refined-original-native-audit.json",
+                "trimap_png": "tmp/extraction-work/continuation-20261010/cma-2011-53--gold-ground-portrait-of-saint-paul-with-sword-and-book--refined-original-native-trimap.png",
+                "export_crop_coordinate_space": "original-native-source-region",
+                "native_refinement": {
+                  "method": "The entire original miniature counter painting retains opaque gold ground, all depicted figures/props, source paint wear and the shared tan background band where present. Individually inspected native inner-counter ownership excludes the surrounding alphabetic ring, serif/tail, column text and exterior parchment. Semantic ownership is filled only as one actual painted scene, not as a silhouette that erases interior gold or clothes. Source-visible half figures remain truncated as painted; no new limbs or restored pigment. Four-native-pixel continuous alpha fits the original painted counter edge; source RGB/proportions stay native and all opaque pixels remain original.",
+                  "source": "tmp/extraction-work/continuation-20261010/cma-2011-53--gold-ground-portrait-of-saint-paul-with-sword-and-book--original.png",
+                  "previous_native_matte": {
+                    "native_source_size": [
+                      670,
+                      650
+                    ],
+                    "native_upscaling": false,
+                    "original_opaque_rgb_preserved": true,
+                    "status": "awaiting-original-source-review"
+                  },
+                  "unknown_band_native_pixels": 4,
+                  "source_rgb_redrawn": false,
+                  "source_resized": false,
+                  "original_opaque_rgb_preserved": true,
+                  "ownership": "tmp/extraction-work/continuation-20261010/cma-2011-53--gold-ground-portrait-of-saint-paul-with-sword-and-book--refined-original-native-ownership.png",
+                  "ownership_sha256": "159c67a35237bb1d9a615130bc66baf9ef14e61f30e1fc20c74c4ed993bf71b0",
+                  "native_semantic_choice": 0,
+                  "inspected_inner_counter_scope_native_center_radii": [
+                    276,
+                    322,
+                    219,
+                    239
+                  ],
+                  "source_gilt_perimeter_recovery_collar_native_pixels": 8,
+                  "native_semantic_source_audit": "tmp/extraction-work/continuation-20261010/cma201153-native-counter-scenes-ownership-audit.json"
+                }
+              },
+              "unknown_band_native_pixels": 4,
+              "source_rgb_redrawn": false,
+              "source_resized": false,
+              "original_opaque_rgb_preserved": true,
+              "ownership": "tmp/extraction-work/continuation-20261010/cma-2011-53--gold-ground-portrait-of-saint-paul-with-sword-and-book--refined-original-native-ownership.png",
+              "ownership_sha256": "751cfc5fcf660294a33051fbba7cb56f5599fb45d105b23406fd1de89fc15e53",
+              "native_semantic_choice": 0,
+              "inspected_inner_counter_scope_native_center_radii": [
+                276,
+                322,
+                222,
+                247
+              ],
+              "source_gilt_perimeter_recovery_collar_native_pixels": 8,
+              "native_semantic_source_audit": "tmp/extraction-work/continuation-20261010/cma201153-native-counter-scenes-ownership-audit.json"
+            }
+          },
+          "unknown_band_native_pixels": 4,
+          "source_rgb_redrawn": false,
+          "source_resized": false,
+          "original_opaque_rgb_preserved": true,
+          "ownership": "tmp/extraction-work/continuation-20261010/cma-2011-53--gold-ground-portrait-of-saint-paul-with-sword-and-book--refined-original-native-ownership.png",
+          "ownership_sha256": "751cfc5fcf660294a33051fbba7cb56f5599fb45d105b23406fd1de89fc15e53",
+          "native_semantic_choice": 0,
+          "inspected_inner_counter_scope_native_center_radii": [
+            276,
+            322,
+            222,
+            247
+          ],
+          "source_gilt_perimeter_recovery_collar_native_pixels": 8,
+          "native_semantic_source_audit": "tmp/extraction-work/continuation-20261010/cma201153-native-counter-scenes-ownership-audit.json"
+        },
+        "tool": "Original native scan / closed-form edge alpha and foreground decontamination",
+        "pixel_exact": false
+      },
+      "parent": null,
+      "children": [
+        "cma-2011-53--saint-paul-visible-bust-with-sword-and-book"
+      ],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Inspected complete originals and native source/white/dark detail of heads, full hats/hair, halo, hands, book/sword and source-truncated robe bases. Complete gold-ground counter paintings keep all shared original background surfaces and source paint wear opaque; surrounding capital-letter rings/strokes, text and page are excluded. In the two-person scene the original flat robe/base edge is preserved, not cut into an invented circular silhouette. Actual original facial/hair/shading pixels remain native. Separately supplied figures are linked as children. PNG only to preserve original miniature texture, without source upscale or invented restoration.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/cma201153-original-gold-two-person-counter-miniature.jpg",
+          "tmp/extraction-work/continuation-20261010/cma201153-original-saint-paul-counter-miniature.jpg",
+          "tmp/extraction-work/continuation-20261010/cma201153-complete-original-hair-hat-and-robe-base-final-review.jpg",
+          "tmp/extraction-work/continuation-20261010/cma201153-whole-paul-original-halo-sword-book-and-robe-final-review.jpg"
+        ]
+      },
+      "categories": [
+        "humans",
+        "reading"
+      ],
+      "subjects": [
+        "saint",
+        "paul",
+        "sword",
+        "book",
+        "halo",
+        "gold"
+      ],
+      "colors": [
+        "gold",
+        "blue",
+        "tan",
+        "red",
+        "brown"
+      ],
+      "facing": "right",
+      "composition": "framed-scene",
+      "usage_notes": "The complete original painted counter miniature is retained, with its actual gold/blue/tan background surfaces opaque and surrounding letter forms/writing removed. The separately supplied actors remain available. Source-visible truncated lower figures stay exactly as painted, with no invented legs or extended clothes. Native original pixels/proportions, no source upscale or vector simplification.",
+      "sets": [
+        {
+          "id": "cma-2011-53-set",
+          "name": "Latin Bible Paul and foliate initials",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A complete original gold-ground portrait miniature of a haloed Saint Paul holding his sword and book, with the surrounding alphabetic strokes excluded.",
+      "set_label": "Latin Bible Paul and foliate initials"
+    },
+    {
+      "id": "cma-2011-53--left-tan-robed-man-visible-half-figure",
+      "name": "left-tan-robed-man-visible-half-figure",
+      "source_id": "cma-2011-53",
+      "source_folder": "cleveland",
+      "asset_type": "illustration",
+      "description": "A tan-robed man with a red hat and raised hands, retaining his source-visible half figure. Part of the Latin Bible Paul and foliate initials set.",
+      "source_region": [
+        2811,
+        4126,
+        3179,
+        4664
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        34,
+        10,
+        293,
+        470
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 259,
+      "height": 460,
+      "png": "cleveland/cma-2011-53--left-tan-robed-man-visible-half-figure.png",
+      "png_sha256": "c3012d9b89df7089ec8336629a3bda6f7daf99b9f4ac3d45db6092923bd60882",
+      "provenance": {
+        "institution": "Cleveland Museum of Art",
+        "title": "Leaf from a Latin Bible: Initial P: St. Paul with a Sword and a Book",
+        "object_identifier": "2011.53",
+        "date": "c. 1230–40",
+        "artist": "William de Brailes (English, active c. 1230)",
+        "record_url": "https://clevelandart.org/art/2011.53",
+        "image_rights": "CC0; share_license_status=CC0",
+        "rights_url": "https://www.clevelandart.org/open-access",
+        "source_file": "tmp/new-assets/cleveland/cma-2011-53--leaf-from-a-latin-bible-initial-p-st-paul-with-a-sword-and-a-book--master.tif",
+        "source_sha256": "339f458fcefdd83b3d639457e032e242affa25c3248b5f218791f7da5ab04fb2",
+        "source_metadata": "tmp/new-assets/cleveland/cma-2011-53.json",
+        "image_url": "https://openaccess-cdn.clevelandart.org/2011.53/2011.53_full.tif",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. Extract ONLY LEFT tan-robed red-hatted man inside lower initial D, head/face, both original arms and fingers, robe to its actual source-visible lower edge. Exclude right man, large D glyph, all flat gold background and the tan straight vertical letter/pillar between figures. Retain actual fingers beside this vertical bar, without inventing fingers hidden behind it. Do not add legs beyond source crop. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_extraction": "tmp/extraction-work/cma-2011-53--left-tan-robed-man-visible-half-figure--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "e619191714b4a04108dea9cf2a9cfa37f5987a122afaf81cb6790b9b05e4be28",
+        "retained_generated_size": [
+          1037,
+          1517
+        ],
+        "resolution_cap_scale": 0.3173695496783417,
+        "resolution_capped_size": [
+          329,
+          481
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          300,
+          444
+        ],
+        "native_subject_size_evidence": {
+          "method": "Individually inspected native visible subject bounds, excluding input-region whitespace and neighbours.",
+          "preview_subject_bounds": [
+            638,
+            930,
+            705,
+            1029
+          ],
+          "preview_size": [
+            1164,
+            1600
+          ],
+          "original_size": [
+            5219,
+            7176
+          ]
+        },
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 39
+        }
+      },
+      "parent": "cma-2011-53--two-facing-men-on-gold-with-central-tan-band",
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Compared original regions with transparent artwork on white and dark. Correct original cat identification and full low furry tail with prey; complete floral cross staff above resurrection; contacting lower-left pair has no unrelated border knob; saints and half-figures individually separated because their bodies do not contact. Pale figures remain opaque; visible original endings retained.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/seven-source-corrections-results-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/seven-source-corrections-results-proof-2.jpg"
+        ]
+      },
+      "categories": [
+        "humans"
+      ],
+      "subjects": [
+        "man",
+        "hat"
+      ],
+      "colors": [
+        "tan",
+        "red",
+        "cream",
+        "brown"
+      ],
+      "facing": "unclear",
+      "composition": "single-figure",
+      "usage_notes": "Original independent specimen with printed plate rules and page removed. AI-assisted extraction remains approximate; source bounds, actual native subject cap, original and exact prompt retained.",
+      "sets": [
+        {
+          "id": "cma-2011-53-set",
+          "name": "Latin Bible Paul and foliate initials",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A tan-robed man with a red hat and raised hands, retaining his source-visible half figure.",
+      "set_label": "Latin Bible Paul and foliate initials"
+    },
+    {
+      "id": "cma-2011-53--right-blue-red-robed-man-visible-half-figure",
+      "name": "right-blue-red-robed-man-visible-half-figure",
+      "source_id": "cma-2011-53",
+      "source_folder": "cleveland",
+      "asset_type": "illustration",
+      "description": "A blue and red robed man raising his hand, retaining his source-visible half figure. Part of the Latin Bible Paul and foliate initials set.",
+      "source_region": [
+        3058,
+        4126,
+        3349,
+        4664
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        21,
+        11,
+        233,
+        416
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 212,
+      "height": 405,
+      "png": "cleveland/cma-2011-53--right-blue-red-robed-man-visible-half-figure.png",
+      "png_sha256": "81a5c13390e5e34b5789791524fe7ee1c2b5426641e189931272e53d4aa5ed15",
+      "provenance": {
+        "institution": "Cleveland Museum of Art",
+        "title": "Leaf from a Latin Bible: Initial P: St. Paul with a Sword and a Book",
+        "object_identifier": "2011.53",
+        "date": "c. 1230–40",
+        "artist": "William de Brailes (English, active c. 1230)",
+        "record_url": "https://clevelandart.org/art/2011.53",
+        "image_rights": "CC0; share_license_status=CC0",
+        "rights_url": "https://www.clevelandart.org/open-access",
+        "source_file": "tmp/new-assets/cleveland/cma-2011-53--leaf-from-a-latin-bible-initial-p-st-paul-with-a-sword-and-a-book--master.tif",
+        "source_sha256": "339f458fcefdd83b3d639457e032e242affa25c3248b5f218791f7da5ab04fb2",
+        "source_metadata": "tmp/new-assets/cleveland/cma-2011-53.json",
+        "image_url": "https://openaccess-cdn.clevelandart.org/2011.53/2011.53_full.tif",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. Extract ONLY RIGHT man inside lower D: pale head/face, cap, original raised hand/fingers, red upper garment and blue/tan lower visible robe, stopping at real original lower edge. Remove separate left man, entire D glyph and its straight tan central vertical letter/pillar and EVERY flat gold background area around or between body parts. No invented hidden hand, torso or legs. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_extraction": "tmp/extraction-work/cma-2011-53--right-blue-red-robed-man-visible-half-figure--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "e5530b54130e6bff27bb21067f2f4040ff29dc90698afe2cc3122b9f9b56d428",
+        "retained_generated_size": [
+          922,
+          1706
+        ],
+        "resolution_cap_scale": 0.2532133676092545,
+        "resolution_capped_size": [
+          233,
+          432
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          197,
+          435
+        ],
+        "native_subject_size_evidence": {
+          "method": "Individually inspected native visible subject bounds, excluding input-region whitespace and neighbours.",
+          "preview_subject_bounds": [
+            694,
+            932,
+            738,
+            1029
+          ],
+          "preview_size": [
+            1164,
+            1600
+          ],
+          "original_size": [
+            5219,
+            7176
+          ]
+        },
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 8
+        }
+      },
+      "parent": "cma-2011-53--two-facing-men-on-gold-with-central-tan-band",
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Compared original regions with transparent artwork on white and dark. Correct original cat identification and full low furry tail with prey; complete floral cross staff above resurrection; contacting lower-left pair has no unrelated border knob; saints and half-figures individually separated because their bodies do not contact. Pale figures remain opaque; visible original endings retained.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/seven-source-corrections-results-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/seven-source-corrections-results-proof-2.jpg"
+        ]
+      },
+      "categories": [
+        "humans"
+      ],
+      "subjects": [
+        "man",
+        "hat"
+      ],
+      "colors": [
+        "blue",
+        "red",
+        "tan",
+        "cream"
+      ],
+      "facing": "unclear",
+      "composition": "single-figure",
+      "usage_notes": "Original independent specimen with printed plate rules and page removed. AI-assisted extraction remains approximate; source bounds, actual native subject cap, original and exact prompt retained.",
+      "sets": [
+        {
+          "id": "cma-2011-53-set",
+          "name": "Latin Bible Paul and foliate initials",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A blue and red robed man raising his hand, retaining his source-visible half figure.",
+      "set_label": "Latin Bible Paul and foliate initials"
+    },
+    {
+      "id": "cma-2011-53--saint-paul-visible-bust-with-sword-and-book",
+      "name": "saint-paul-visible-bust-with-sword-and-book",
+      "source_id": "cma-2011-53",
+      "source_folder": "cleveland",
+      "asset_type": "illustration",
+      "description": "Saint Paul holding a sword and a book, retaining his visible waist-length figure. Part of the Latin Bible Paul and foliate initials set.",
+      "source_region": [
+        1242,
+        2826,
+        1717,
+        3382
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        45,
+        10,
+        408,
+        492
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 363,
+      "height": 482,
+      "png": "cleveland/cma-2011-53--saint-paul-visible-bust-with-sword-and-book.png",
+      "png_sha256": "d63dfd7e6dbd14c77dd5c87c38cad999eadc0d45d87f4333e58f8281cd3837b9",
+      "provenance": {
+        "institution": "Cleveland Museum of Art",
+        "title": "Leaf from a Latin Bible: Initial P: St. Paul with a Sword and a Book",
+        "object_identifier": "2011.53",
+        "date": "c. 1230–40",
+        "artist": "William de Brailes (English, active c. 1230)",
+        "record_url": "https://clevelandart.org/art/2011.53",
+        "image_rights": "CC0; share_license_status=CC0",
+        "rights_url": "https://www.clevelandart.org/open-access",
+        "source_file": "tmp/new-assets/cleveland/cma-2011-53--leaf-from-a-latin-bible-initial-p-st-paul-with-a-sword-and-a-book--master.tif",
+        "source_sha256": "339f458fcefdd83b3d639457e032e242affa25c3248b5f218791f7da5ab04fb2",
+        "source_metadata": "tmp/new-assets/cleveland/cma-2011-53.json",
+        "image_url": "https://openaccess-cdn.clevelandart.org/2011.53/2011.53_full.tif",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. Extract ONLY visible waist-length Saint Paul inside upper-left initial P, head/halo, both hands, entire original visible sword, book and blue/tan robes. No P letter or gold disk background. The original figure ends at waist where the initial occludes it; preserve that honest lower edge without inventing legs. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_extraction": "tmp/extraction-work/cma-2011-53--saint-paul-visible-bust-with-sword-and-book--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "99a5ff45545cec2b555ed9de46fd8a81c17144c048fd3614727b6fdab0d247a9",
+        "retained_generated_size": [
+          1159,
+          1358
+        ],
+        "resolution_cap_scale": 0.380718954248366,
+        "resolution_capped_size": [
+          441,
+          517
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          368,
+          466
+        ],
+        "native_subject_size_evidence": {
+          "method": "Individually inspected native visible subject bounds, excluding input-region whitespace and neighbours.",
+          "preview_subject_bounds": [
+            290,
+            640,
+            372,
+            744
+          ],
+          "preview_size": [
+            1164,
+            1600
+          ],
+          "original_size": [
+            5219,
+            7176
+          ]
+        },
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 37
+        }
+      },
+      "parent": "cma-2011-53--gold-ground-portrait-of-saint-paul-with-sword-and-book",
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Original source and white/dark renders individually inspected. Contacting lower-right figures retain full bodies/feet and physical head/hand contact. Detached gray bird retains both feet, full tail and beak. Paul is an honest source-visible waist-length figure with complete visible sword/book/halo. Foliate panel retains all four original pointed finials and three central blue stars, its intrinsic designed gold/blue fields, and worn paint; it is not a glyph. Thin red/gold frame keeps original corners, transparent exterior/interior and genuine imperfect geometry. No seamless period invented.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/new-borders-scenes-results-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/new-borders-scenes-results-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/new-borders-scenes-results-proof-3.jpg"
+        ]
+      },
+      "categories": [
+        "humans",
+        "reading"
+      ],
+      "subjects": [
+        "saint",
+        "sword",
+        "book",
+        "halo"
+      ],
+      "colors": [
+        "blue",
+        "tan",
+        "gold",
+        "gray"
+      ],
+      "facing": "unclear",
+      "composition": "single-figure",
+      "usage_notes": "Original independent specimen with printed plate rules and page removed. AI-assisted extraction remains approximate; source bounds, actual native subject cap, original and exact prompt retained.",
+      "sets": [
+        {
+          "id": "cma-2011-53-set",
+          "name": "Latin Bible Paul and foliate initials",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "Saint Paul holding a sword and a book, retaining his visible waist-length figure.",
+      "set_label": "Latin Bible Paul and foliate initials"
+    },
+    {
+      "id": "cma-2011-53--two-facing-men-on-gold-with-central-tan-band",
+      "name": "two-facing-men-on-gold-with-central-tan-band",
+      "source_id": "cma-2011-53",
+      "source_folder": "cleveland",
+      "asset_type": "illustration",
+      "description": "The complete original miniature of two facing half figures on shared gold ground, with a tan vertical band between them. The left man gestures with both hands; the right wears blue and red and holds a hand to his chest. Part of the Latin Bible Paul and foliate initials set.",
+      "source_region": [
+        2650,
+        4020,
+        3510,
+        4730
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        164,
+        96,
+        684,
+        591
+      ],
+      "export_crop_coordinate_space": "original-native-source-region",
+      "width": 520,
+      "height": 495,
+      "png": "cleveland/cma-2011-53--two-facing-men-on-gold-with-central-tan-band.png",
+      "png_sha256": "1b6d02bc5d4e025fc1d037a976895eaf7642e53014c1329015b41d5119c6e6d8",
+      "provenance": {
+        "institution": "Cleveland Museum of Art",
+        "title": "Leaf from a Latin Bible: Initial P: St. Paul with a Sword and a Book",
+        "object_identifier": "2011.53",
+        "date": "c. 1230–40",
+        "artist": "William de Brailes (English, active c. 1230)",
+        "record_url": "https://clevelandart.org/art/2011.53",
+        "image_rights": "CC0; share_license_status=CC0",
+        "rights_url": "https://www.clevelandart.org/open-access",
+        "source_file": "tmp/new-assets/cleveland/cma-2011-53--leaf-from-a-latin-bible-initial-p-st-paul-with-a-sword-and-a-book--master.tif",
+        "source_sha256": "339f458fcefdd83b3d639457e032e242affa25c3248b5f218791f7da5ab04fb2",
+        "source_metadata": "tmp/new-assets/cleveland/cma-2011-53.json",
+        "image_url": "https://openaccess-cdn.clevelandart.org/2011.53/2011.53_full.tif",
+        "method": "native-source-continuous-edge-matting"
+      },
+      "extraction": {
+        "native_source_size": [
+          860,
+          710
+        ],
+        "native_upscaling": false,
+        "original_opaque_rgb_preserved": true,
+        "status": "awaiting-original-white-dark-review",
+        "candidate_png": "tmp/extraction-work/continuation-20261010/cma-2011-53--two-facing-men-on-gold-with-central-tan-band--refined-original-native-candidate.png",
+        "native_export_crop": [
+          164,
+          96,
+          684,
+          591
+        ],
+        "annotation_json": "tmp/extraction-work/continuation-20261010/cma-2011-53--two-facing-men-on-gold-with-central-tan-band--refined-original-native-audit.json",
+        "trimap_png": "tmp/extraction-work/continuation-20261010/cma-2011-53--two-facing-men-on-gold-with-central-tan-band--refined-original-native-trimap.png",
+        "export_crop_coordinate_space": "original-native-source-region",
+        "native_refinement": {
+          "method": "The entire original miniature counter painting retains opaque gold ground, all depicted figures/props, source paint wear and the shared tan background band where present. Individually inspected native inner-counter ownership excludes the surrounding alphabetic ring, serif/tail, column text and exterior parchment. Semantic ownership is filled only as one actual painted scene, not as a silhouette that erases interior gold or clothes. Source-visible half figures remain truncated as painted; no new limbs or restored pigment. Four-native-pixel continuous alpha fits the original painted counter edge; source RGB/proportions stay native and all opaque pixels remain original.",
+          "source": "tmp/extraction-work/continuation-20261010/cma-2011-53--two-facing-men-on-gold-with-central-tan-band--original.png",
+          "previous_native_matte": {
+            "native_source_size": [
+              860,
+              710
+            ],
+            "native_upscaling": false,
+            "original_opaque_rgb_preserved": true,
+            "status": "awaiting-original-white-dark-review",
+            "candidate_png": "tmp/extraction-work/continuation-20261010/cma-2011-53--two-facing-men-on-gold-with-central-tan-band--refined-original-native-candidate.png",
+            "native_export_crop": [
+              164,
+              103,
+              684,
+              591
+            ],
+            "annotation_json": "tmp/extraction-work/continuation-20261010/cma-2011-53--two-facing-men-on-gold-with-central-tan-band--refined-original-native-audit.json",
+            "trimap_png": "tmp/extraction-work/continuation-20261010/cma-2011-53--two-facing-men-on-gold-with-central-tan-band--refined-original-native-trimap.png",
+            "export_crop_coordinate_space": "original-native-source-region",
+            "native_refinement": {
+              "method": "The entire original miniature counter painting retains opaque gold ground, all depicted figures/props, source paint wear and the shared tan background band where present. Individually inspected native inner-counter ownership excludes the surrounding alphabetic ring, serif/tail, column text and exterior parchment. Semantic ownership is filled only as one actual painted scene, not as a silhouette that erases interior gold or clothes. Source-visible half figures remain truncated as painted; no new limbs or restored pigment. Four-native-pixel continuous alpha fits the original painted counter edge; source RGB/proportions stay native and all opaque pixels remain original.",
+              "source": "tmp/extraction-work/continuation-20261010/cma-2011-53--two-facing-men-on-gold-with-central-tan-band--original.png",
+              "previous_native_matte": {
+                "native_source_size": [
+                  860,
+                  710
+                ],
+                "native_upscaling": false,
+                "original_opaque_rgb_preserved": true,
+                "status": "awaiting-original-white-dark-review",
+                "candidate_png": "tmp/extraction-work/continuation-20261010/cma-2011-53--two-facing-men-on-gold-with-central-tan-band--refined-original-native-candidate.png",
+                "native_export_crop": [
+                  164,
+                  103,
+                  684,
+                  587
+                ],
+                "annotation_json": "tmp/extraction-work/continuation-20261010/cma-2011-53--two-facing-men-on-gold-with-central-tan-band--refined-original-native-audit.json",
+                "trimap_png": "tmp/extraction-work/continuation-20261010/cma-2011-53--two-facing-men-on-gold-with-central-tan-band--refined-original-native-trimap.png",
+                "export_crop_coordinate_space": "original-native-source-region",
+                "native_refinement": {
+                  "method": "The entire original miniature counter painting retains opaque gold ground, all depicted figures/props, source paint wear and the shared tan background band where present. Individually inspected native inner-counter ownership excludes the surrounding alphabetic ring, serif/tail, column text and exterior parchment. Semantic ownership is filled only as one actual painted scene, not as a silhouette that erases interior gold or clothes. Source-visible half figures remain truncated as painted; no new limbs or restored pigment. Four-native-pixel continuous alpha fits the original painted counter edge; source RGB/proportions stay native and all opaque pixels remain original.",
+                  "source": "tmp/extraction-work/continuation-20261010/cma-2011-53--two-facing-men-on-gold-with-central-tan-band--original.png",
+                  "previous_native_matte": {
+                    "native_source_size": [
+                      860,
+                      710
+                    ],
+                    "native_upscaling": false,
+                    "original_opaque_rgb_preserved": true,
+                    "status": "awaiting-original-source-review"
+                  },
+                  "unknown_band_native_pixels": 4,
+                  "source_rgb_redrawn": false,
+                  "source_resized": false,
+                  "original_opaque_rgb_preserved": true,
+                  "ownership": "tmp/extraction-work/continuation-20261010/cma-2011-53--two-facing-men-on-gold-with-central-tan-band--refined-original-native-ownership.png",
+                  "ownership_sha256": "e60b03758e06de1336a091a071ef012d02f5385971ceac6042ae722f1c9435bf",
+                  "native_semantic_choice": 0,
+                  "inspected_inner_counter_scope_native_center_radii": [
+                    425,
+                    345,
+                    248,
+                    234
+                  ],
+                  "source_gilt_perimeter_recovery_collar_native_pixels": 8,
+                  "native_semantic_source_audit": "tmp/extraction-work/continuation-20261010/cma201153-native-counter-scenes-ownership-audit.json"
+                }
+              },
+              "unknown_band_native_pixels": 4,
+              "source_rgb_redrawn": false,
+              "source_resized": false,
+              "original_opaque_rgb_preserved": true,
+              "ownership": "tmp/extraction-work/continuation-20261010/cma-2011-53--two-facing-men-on-gold-with-central-tan-band--refined-original-native-ownership.png",
+              "ownership_sha256": "353d68a06efed16e699e0649c261a7e54546934e4c481b35c70305c847c8d5f8",
+              "native_semantic_choice": 0,
+              "inspected_inner_counter_scope_native_center_radii": [
+                425,
+                345,
+                248,
+                234
+              ],
+              "source_gilt_perimeter_recovery_collar_native_pixels": 8,
+              "native_semantic_source_audit": "tmp/extraction-work/continuation-20261010/cma201153-native-counter-scenes-ownership-audit.json"
+            }
+          },
+          "unknown_band_native_pixels": 4,
+          "source_rgb_redrawn": false,
+          "source_resized": false,
+          "original_opaque_rgb_preserved": true,
+          "ownership": "tmp/extraction-work/continuation-20261010/cma-2011-53--two-facing-men-on-gold-with-central-tan-band--refined-original-native-ownership.png",
+          "ownership_sha256": "d0ae9a9f91509cabf58bb694e210936be891c52fc04445a6d9d727dc75c3f8d6",
+          "native_semantic_choice": 0,
+          "inspected_inner_counter_scope_native_center_radii": [
+            425,
+            345,
+            248,
+            234
+          ],
+          "source_gilt_perimeter_recovery_collar_native_pixels": 8,
+          "native_semantic_source_audit": "tmp/extraction-work/continuation-20261010/cma201153-native-counter-scenes-ownership-audit.json"
+        },
+        "tool": "Original native scan / closed-form edge alpha and foreground decontamination",
+        "pixel_exact": false
+      },
+      "parent": null,
+      "children": [
+        "cma-2011-53--left-tan-robed-man-visible-half-figure",
+        "cma-2011-53--right-blue-red-robed-man-visible-half-figure"
+      ],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Inspected complete originals and native source/white/dark detail of heads, full hats/hair, halo, hands, book/sword and source-truncated robe bases. Complete gold-ground counter paintings keep all shared original background surfaces and source paint wear opaque; surrounding capital-letter rings/strokes, text and page are excluded. In the two-person scene the original flat robe/base edge is preserved, not cut into an invented circular silhouette. Actual original facial/hair/shading pixels remain native. Separately supplied figures are linked as children. PNG only to preserve original miniature texture, without source upscale or invented restoration.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/cma201153-original-gold-two-person-counter-miniature.jpg",
+          "tmp/extraction-work/continuation-20261010/cma201153-original-saint-paul-counter-miniature.jpg",
+          "tmp/extraction-work/continuation-20261010/cma201153-complete-original-hair-hat-and-robe-base-final-review.jpg",
+          "tmp/extraction-work/continuation-20261010/cma201153-whole-paul-original-halo-sword-book-and-robe-final-review.jpg"
+        ]
+      },
+      "categories": [
+        "humans"
+      ],
+      "subjects": [
+        "man",
+        "robe",
+        "hand",
+        "gold",
+        "band"
+      ],
+      "colors": [
+        "gold",
+        "blue",
+        "tan",
+        "red",
+        "brown"
+      ],
+      "facing": "mixed",
+      "composition": "framed-scene",
+      "usage_notes": "The complete original painted counter miniature is retained, with its actual gold/blue/tan background surfaces opaque and surrounding letter forms/writing removed. The separately supplied actors remain available. Source-visible truncated lower figures stay exactly as painted, with no invented legs or extended clothes. Native original pixels/proportions, no source upscale or vector simplification.",
+      "sets": [
+        {
+          "id": "cma-2011-53-set",
+          "name": "Latin Bible Paul and foliate initials",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "The complete original miniature of two facing half figures on shared gold ground, with a tan vertical band between them. The left man gestures with both hands; the right wears blue and red and holds a hand to his chest.",
+      "set_label": "Latin Bible Paul and foliate initials"
+    }
+  ]
+}

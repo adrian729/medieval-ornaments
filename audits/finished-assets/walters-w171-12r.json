@@ -1,0 +1,1870 @@
+{
+  "source_id": "walters-w171-12r",
+  "assets": [
+    {
+      "id": "walters-w171-12r--brown-bull-with-upturned-head",
+      "name": "brown-bull-with-upturned-head",
+      "source_id": "walters-w171-12r",
+      "source_folder": "walters",
+      "asset_type": "illustration",
+      "description": "A brown bull with an upturned head, horns and a curling tail. Part of the Walters W.171 Zodiac set.",
+      "source_region": [
+        2756,
+        1672,
+        3465,
+        2368
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        9,
+        5,
+        600,
+        581
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 591,
+      "height": 576,
+      "png": "walters/walters-w171-12r--brown-bull-with-upturned-head.png",
+      "png_sha256": "51284973d0231fc0173e0e0d08ffde1ea6c240866bfe4bede96ab0f0d6be2509",
+      "provenance": {
+        "institution": "Walters Art Museum",
+        "title": "Twelve signs of the zodiac",
+        "object_identifier": "W.171, fol. 12r",
+        "date": "1400-1404 CE",
+        "record_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/html/W171/description.html",
+        "image_rights": "CC0 (Digital Walters manuscript images)",
+        "rights_url": "https://www.thedigitalwalters.org/01_ACCESS_WALTERS_MANUSCRIPTS.html",
+        "source_file": "tmp/new-assets/walters/walters-w171-12r--twelve-signs-of-the-zodiac--master.tif",
+        "source_sha256": "73dc1cd136e9c21376977c2fc08e911e9afc54d53775dea977ca13bf76d7b3ab",
+        "source_metadata": "tmp/new-assets/walters/walters-w171-12r.json",
+        "image_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/W171/data/W.171/master/W171_000027_1200.tif",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. Isolate the complete brown bull with its raised muzzle, both horns, curled tail and all original legs. Remove the flat gold zodiac field. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_extraction": "tmp/extraction-work/walters-w171-12r--brown-bull-with-upturned-head--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "33b72b42f33cdaa65d34c440821add17def93b4e49cfa467c0fdf87d7da5815b",
+        "retained_generated_size": [
+          1266,
+          1243
+        ],
+        "resolution_cap_scale": 0.4745376303877783,
+        "resolution_capped_size": [
+          601,
+          590
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          582,
+          562
+        ],
+        "native_subject_size_evidence": {
+          "method": "Individually inspected native visible subject bounds, excluding input-region whitespace and neighbours.",
+          "preview_subject_bounds": [
+            422,
+            261,
+            509,
+            345
+          ],
+          "preview_size": [
+            1400,
+            1426
+          ],
+          "original_size": [
+            9366,
+            9539
+          ]
+        },
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 1478
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Every original ROI and white/dark proof inspected. Complete horn curls, hooves, bird beak/feathers, crab claws/legs, lion mane/tail, both scale pans/cords, fish fins/tails and maiden flowering twigs retained. Contacting twins kept together; both genuine arm openings cleared. Flat gilt field and blue sky excluded; opaque original pale body/garment surfaces preserved. Two silver fish are visibly distinct original drawings with differing proportions/fins, retained as separate illustrations. Ivy sprig has all three source leaves and actual curls, no letter. L ornament keeps full original lower sprig and rod, excluding unrelated page-edge twig.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/walters-zodiac-first-ready-results-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/walters-zodiac-first-ready-results-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/walters-zodiac-first-ready-results-proof-3.jpg",
+          "tmp/extraction-work/continuation-20261010/walters-zodiac-first-ready-results-proof-4.jpg",
+          "tmp/extraction-work/continuation-20261010/walters-zodiac-first-ready-results-proof-5.jpg"
+        ]
+      },
+      "categories": [
+        "animals"
+      ],
+      "subjects": [
+        "bull",
+        "horn",
+        "tail",
+        "zodiac"
+      ],
+      "colors": [
+        "brown",
+        "tan"
+      ],
+      "facing": "left",
+      "composition": "standalone",
+      "usage_notes": "Original independent specimen with printed plate rules and page removed. AI-assisted extraction remains approximate; source bounds, actual native subject cap, original and exact prompt retained.",
+      "sets": [
+        {
+          "id": "walters-w171-12r-set",
+          "name": "Walters W.171 Zodiac",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A brown bull with an upturned head, horns and a curling tail.",
+      "set_label": "Walters W.171 Zodiac"
+    },
+    {
+      "id": "walters-w171-12r--dark-green-long-beaked-bird",
+      "name": "dark-green-long-beaked-bird",
+      "source_id": "walters-w171-12r",
+      "source_folder": "walters",
+      "asset_type": "illustration",
+      "description": "A dark green bird with a long beak, folded or raised feathers and a small curled tail. Part of the Walters W.171 Zodiac set.",
+      "source_region": [
+        1485,
+        3070,
+        2201,
+        3606
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        78,
+        0,
+        630,
+        478
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 552,
+      "height": 478,
+      "png": "walters/walters-w171-12r--dark-green-long-beaked-bird.png",
+      "png_sha256": "bcea7d18970083fc41a478abc5bbe42581b2f17b7fd3059178fd0f66aaf58e0a",
+      "provenance": {
+        "institution": "Walters Art Museum",
+        "title": "Twelve signs of the zodiac",
+        "object_identifier": "W.171, fol. 12r",
+        "date": "1400-1404 CE",
+        "record_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/html/W171/description.html",
+        "image_rights": "CC0 (Digital Walters manuscript images)",
+        "rights_url": "https://www.thedigitalwalters.org/01_ACCESS_WALTERS_MANUSCRIPTS.html",
+        "source_file": "tmp/new-assets/walters/walters-w171-12r--twelve-signs-of-the-zodiac--master.tif",
+        "source_sha256": "73dc1cd136e9c21376977c2fc08e911e9afc54d53775dea977ca13bf76d7b3ab",
+        "source_metadata": "tmp/new-assets/walters/walters-w171-12r.json",
+        "image_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/W171/data/W.171/master/W171_000027_1200.tif",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. Isolate the complete DARK GREEN BIRD, not a dragon or a modern scorpion. Preserve the long pointed beak at upper left, original dark layered wing, small feet and curled feathered tail at right. The medieval zodiac rendering itself is retained without reinterpretation. Remove the flat gold zodiac field. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_extraction": "tmp/extraction-work/walters-w171-12r--dark-green-long-beaked-bird--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "0330e14297021fb617c1a7882af6b229f7058efc066d54e32e9a5ebecbd8a827",
+        "retained_generated_size": [
+          1450,
+          1085
+        ],
+        "resolution_cap_scale": 0.4489795918367347,
+        "resolution_capped_size": [
+          651,
+          487
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          629,
+          462
+        ],
+        "native_subject_size_evidence": {
+          "method": "Individually inspected native visible subject bounds, excluding input-region whitespace and neighbours.",
+          "preview_subject_bounds": [
+            228,
+            466,
+            322,
+            535
+          ],
+          "preview_size": [
+            1400,
+            1426
+          ],
+          "original_size": [
+            9366,
+            9539
+          ]
+        },
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 1247
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Every original ROI and white/dark proof inspected. Complete horn curls, hooves, bird beak/feathers, crab claws/legs, lion mane/tail, both scale pans/cords, fish fins/tails and maiden flowering twigs retained. Contacting twins kept together; both genuine arm openings cleared. Flat gilt field and blue sky excluded; opaque original pale body/garment surfaces preserved. Two silver fish are visibly distinct original drawings with differing proportions/fins, retained as separate illustrations. Ivy sprig has all three source leaves and actual curls, no letter. L ornament keeps full original lower sprig and rod, excluding unrelated page-edge twig.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/walters-zodiac-first-ready-results-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/walters-zodiac-first-ready-results-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/walters-zodiac-first-ready-results-proof-3.jpg",
+          "tmp/extraction-work/continuation-20261010/walters-zodiac-first-ready-results-proof-4.jpg",
+          "tmp/extraction-work/continuation-20261010/walters-zodiac-first-ready-results-proof-5.jpg"
+        ]
+      },
+      "categories": [
+        "animals"
+      ],
+      "subjects": [
+        "bird",
+        "wing",
+        "beak",
+        "zodiac"
+      ],
+      "colors": [
+        "green",
+        "brown"
+      ],
+      "facing": "left",
+      "composition": "standalone",
+      "usage_notes": "Original independent specimen with printed plate rules and page removed. AI-assisted extraction remains approximate; source bounds, actual native subject cap, original and exact prompt retained.",
+      "sets": [
+        {
+          "id": "walters-w171-12r-set",
+          "name": "Walters W.171 Zodiac",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A dark green bird with a long beak, folded or raised feathers and a small curled tail.",
+      "set_label": "Walters W.171 Zodiac"
+    },
+    {
+      "id": "walters-w171-12r--embracing-zodiac-twins",
+      "name": "embracing-zodiac-twins",
+      "source_id": "walters-w171-12r",
+      "source_folder": "walters",
+      "asset_type": "illustration",
+      "description": "Two seated zodiac figures embracing, one in blue and one in brown. Part of the Walters W.171 Zodiac set.",
+      "source_region": [
+        2857,
+        2328,
+        3586,
+        2990
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        55,
+        0,
+        660,
+        595
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 605,
+      "height": 595,
+      "png": "walters/walters-w171-12r--embracing-zodiac-twins.png",
+      "png_sha256": "e696970f6182d5c25171321fe04fae1967b32d0e9f9049ac3641ba65fffd7b27",
+      "provenance": {
+        "institution": "Walters Art Museum",
+        "title": "Twelve signs of the zodiac",
+        "object_identifier": "W.171, fol. 12r",
+        "date": "1400-1404 CE",
+        "record_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/html/W171/description.html",
+        "image_rights": "CC0 (Digital Walters manuscript images)",
+        "rights_url": "https://www.thedigitalwalters.org/01_ACCESS_WALTERS_MANUSCRIPTS.html",
+        "source_file": "tmp/new-assets/walters/walters-w171-12r--twelve-signs-of-the-zodiac--master.tif",
+        "source_sha256": "73dc1cd136e9c21376977c2fc08e911e9afc54d53775dea977ca13bf76d7b3ab",
+        "source_metadata": "tmp/new-assets/walters/walters-w171-12r.json",
+        "image_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/W171/data/W.171/master/W171_000027_1200.tif",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. Isolate BOTH original embracing twins with their shared hand and arm contacts. Keep the complete blue and brown garments and original feet. Do not split the contacting couple; remove flat gold field. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_extraction": "tmp/extraction-work/walters-w171-12r--embracing-zodiac-twins--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "eb492835dfe16e2dca69399946738d0e75e4c566faae0094cbcf16cbe336a95b",
+        "retained_generated_size": [
+          1316,
+          1195
+        ],
+        "resolution_cap_scale": 0.5013031565347174,
+        "resolution_capped_size": [
+          660,
+          599
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          649,
+          582
+        ],
+        "native_subject_size_evidence": {
+          "method": "Individually inspected native visible subject bounds, excluding input-region whitespace and neighbours.",
+          "preview_subject_bounds": [
+            434,
+            355,
+            531,
+            442
+          ],
+          "preview_size": [
+            1400,
+            1426
+          ],
+          "original_size": [
+            9366,
+            9539
+          ]
+        },
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 740
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Every original ROI and white/dark proof inspected. Complete horn curls, hooves, bird beak/feathers, crab claws/legs, lion mane/tail, both scale pans/cords, fish fins/tails and maiden flowering twigs retained. Contacting twins kept together; both genuine arm openings cleared. Flat gilt field and blue sky excluded; opaque original pale body/garment surfaces preserved. Two silver fish are visibly distinct original drawings with differing proportions/fins, retained as separate illustrations. Ivy sprig has all three source leaves and actual curls, no letter. L ornament keeps full original lower sprig and rod, excluding unrelated page-edge twig.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/walters-zodiac-first-ready-results-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/walters-zodiac-first-ready-results-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/walters-zodiac-first-ready-results-proof-3.jpg",
+          "tmp/extraction-work/continuation-20261010/walters-zodiac-first-ready-results-proof-4.jpg",
+          "tmp/extraction-work/continuation-20261010/walters-zodiac-first-ready-results-proof-5.jpg"
+        ]
+      },
+      "categories": [
+        "humans"
+      ],
+      "subjects": [
+        "couple",
+        "embrace",
+        "zodiac"
+      ],
+      "colors": [
+        "blue",
+        "brown",
+        "cream"
+      ],
+      "facing": "mixed",
+      "composition": "multiple-figures",
+      "usage_notes": "Original independent specimen with printed plate rules and page removed. AI-assisted extraction remains approximate; source bounds, actual native subject cap, original and exact prompt retained.",
+      "sets": [
+        {
+          "id": "walters-w171-12r-set",
+          "name": "Walters W.171 Zodiac",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "Two seated zodiac figures embracing, one in blue and one in brown.",
+      "set_label": "Walters W.171 Zodiac"
+    },
+    {
+      "id": "walters-w171-12r--gold-lion-with-curled-tail",
+      "name": "gold-lion-with-curled-tail",
+      "source_id": "walters-w171-12r",
+      "source_folder": "walters",
+      "asset_type": "illustration",
+      "description": "A gold lion with an open mouth and a curling tufted tail. Part of the Walters W.171 Zodiac set.",
+      "source_region": [
+        2790,
+        3539,
+        3485,
+        4174
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        27,
+        18,
+        648,
+        583
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 621,
+      "height": 565,
+      "png": "walters/walters-w171-12r--gold-lion-with-curled-tail.png",
+      "png_sha256": "af1035a6eaf926167cc93d157079bf7e7e8f684ee7c840e94c7e7cf182b59433",
+      "provenance": {
+        "institution": "Walters Art Museum",
+        "title": "Twelve signs of the zodiac",
+        "object_identifier": "W.171, fol. 12r",
+        "date": "1400-1404 CE",
+        "record_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/html/W171/description.html",
+        "image_rights": "CC0 (Digital Walters manuscript images)",
+        "rights_url": "https://www.thedigitalwalters.org/01_ACCESS_WALTERS_MANUSCRIPTS.html",
+        "source_file": "tmp/new-assets/walters/walters-w171-12r--twelve-signs-of-the-zodiac--master.tif",
+        "source_sha256": "73dc1cd136e9c21376977c2fc08e911e9afc54d53775dea977ca13bf76d7b3ab",
+        "source_metadata": "tmp/new-assets/walters/walters-w171-12r.json",
+        "image_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/W171/data/W.171/master/W171_000027_1200.tif",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. Isolate the complete gold lion including its head, mane, four legs and the tall curved tail with terminal tuft. Remove the flat gold zodiac field. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_extraction": "tmp/extraction-work/walters-w171-12r--gold-lion-with-curled-tail--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "78c5a09ea3e2dd637bd6ebd08b1c7634c77ad17d589b365159221fcfae5e09f0",
+        "retained_generated_size": [
+          1312,
+          1199
+        ],
+        "resolution_cap_scale": 0.4950405770964833,
+        "resolution_capped_size": [
+          649,
+          594
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          609,
+          549
+        ],
+        "native_subject_size_evidence": {
+          "method": "Individually inspected native visible subject bounds, excluding input-region whitespace and neighbours.",
+          "preview_subject_bounds": [
+            425,
+            536,
+            516,
+            618
+          ],
+          "preview_size": [
+            1400,
+            1426
+          ],
+          "original_size": [
+            9366,
+            9539
+          ]
+        },
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 965
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Every original ROI and white/dark proof inspected. Complete horn curls, hooves, bird beak/feathers, crab claws/legs, lion mane/tail, both scale pans/cords, fish fins/tails and maiden flowering twigs retained. Contacting twins kept together; both genuine arm openings cleared. Flat gilt field and blue sky excluded; opaque original pale body/garment surfaces preserved. Two silver fish are visibly distinct original drawings with differing proportions/fins, retained as separate illustrations. Ivy sprig has all three source leaves and actual curls, no letter. L ornament keeps full original lower sprig and rod, excluding unrelated page-edge twig.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/walters-zodiac-first-ready-results-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/walters-zodiac-first-ready-results-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/walters-zodiac-first-ready-results-proof-3.jpg",
+          "tmp/extraction-work/continuation-20261010/walters-zodiac-first-ready-results-proof-4.jpg",
+          "tmp/extraction-work/continuation-20261010/walters-zodiac-first-ready-results-proof-5.jpg"
+        ]
+      },
+      "categories": [
+        "animals"
+      ],
+      "subjects": [
+        "lion",
+        "tail",
+        "zodiac"
+      ],
+      "colors": [
+        "gold",
+        "brown"
+      ],
+      "facing": "left",
+      "composition": "standalone",
+      "usage_notes": "Original independent specimen with printed plate rules and page removed. AI-assisted extraction remains approximate; source bounds, actual native subject cap, original and exact prompt retained.",
+      "sets": [
+        {
+          "id": "walters-w171-12r-set",
+          "name": "Walters W.171 Zodiac",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A gold lion with an open mouth and a curling tufted tail.",
+      "set_label": "Walters W.171 Zodiac"
+    },
+    {
+      "id": "walters-w171-12r--gold-scales-with-two-blue-pans",
+      "name": "gold-scales-with-two-blue-pans",
+      "source_id": "walters-w171-12r",
+      "source_folder": "walters",
+      "asset_type": "illustration",
+      "description": "Gold weighing scales with two suspended blue pans. Part of the Walters W.171 Zodiac set.",
+      "source_region": [
+        1599,
+        3579,
+        2234,
+        4214
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        43,
+        0,
+        557,
+        561
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 514,
+      "height": 561,
+      "png": "walters/walters-w171-12r--gold-scales-with-two-blue-pans.png",
+      "png_sha256": "76b00b37665859ec796198975027c243bbef51af5d33cb25c82ead4735188538",
+      "provenance": {
+        "institution": "Walters Art Museum",
+        "title": "Twelve signs of the zodiac",
+        "object_identifier": "W.171, fol. 12r",
+        "date": "1400-1404 CE",
+        "record_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/html/W171/description.html",
+        "image_rights": "CC0 (Digital Walters manuscript images)",
+        "rights_url": "https://www.thedigitalwalters.org/01_ACCESS_WALTERS_MANUSCRIPTS.html",
+        "source_file": "tmp/new-assets/walters/walters-w171-12r--twelve-signs-of-the-zodiac--master.tif",
+        "source_sha256": "73dc1cd136e9c21376977c2fc08e911e9afc54d53775dea977ca13bf76d7b3ab",
+        "source_metadata": "tmp/new-assets/walters/walters-w171-12r.json",
+        "image_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/W171/data/W.171/master/W171_000027_1200.tif",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. Isolate the complete balance scales: horizontal gold beam, upper suspension, BOTH thin hanging cords and BOTH blue pans. All are physically connected. Remove flat gold field and nearby bird. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_extraction": "tmp/extraction-work/walters-w171-12r--gold-scales-with-two-blue-pans--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "8fe3f9f3896ec95b897257586df7ddafd9317690858a43c955951dc94aeee871",
+        "retained_generated_size": [
+          1254,
+          1254
+        ],
+        "resolution_cap_scale": 0.45,
+        "resolution_capped_size": [
+          564,
+          564
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          562,
+          549
+        ],
+        "native_subject_size_evidence": {
+          "method": "Individually inspected native visible subject bounds, excluding input-region whitespace and neighbours.",
+          "preview_subject_bounds": [
+            247,
+            544,
+            331,
+            626
+          ],
+          "preview_size": [
+            1400,
+            1426
+          ],
+          "original_size": [
+            9366,
+            9539
+          ]
+        },
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 2725
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Every original ROI and white/dark proof inspected. Complete horn curls, hooves, bird beak/feathers, crab claws/legs, lion mane/tail, both scale pans/cords, fish fins/tails and maiden flowering twigs retained. Contacting twins kept together; both genuine arm openings cleared. Flat gilt field and blue sky excluded; opaque original pale body/garment surfaces preserved. Two silver fish are visibly distinct original drawings with differing proportions/fins, retained as separate illustrations. Ivy sprig has all three source leaves and actual curls, no letter. L ornament keeps full original lower sprig and rod, excluding unrelated page-edge twig.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/walters-zodiac-first-ready-results-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/walters-zodiac-first-ready-results-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/walters-zodiac-first-ready-results-proof-3.jpg",
+          "tmp/extraction-work/continuation-20261010/walters-zodiac-first-ready-results-proof-4.jpg",
+          "tmp/extraction-work/continuation-20261010/walters-zodiac-first-ready-results-proof-5.jpg"
+        ]
+      },
+      "categories": [
+        "geometric"
+      ],
+      "subjects": [
+        "scales",
+        "balance",
+        "pan",
+        "zodiac"
+      ],
+      "colors": [
+        "gold",
+        "blue"
+      ],
+      "facing": "front",
+      "composition": "standalone",
+      "usage_notes": "Original independent specimen with printed plate rules and page removed. AI-assisted extraction remains approximate; source bounds, actual native subject cap, original and exact prompt retained.",
+      "sets": [
+        {
+          "id": "walters-w171-12r-set",
+          "name": "Walters W.171 Zodiac",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "Gold weighing scales with two suspended blue pans.",
+      "set_label": "Walters W.171 Zodiac"
+    },
+    {
+      "id": "walters-w171-12r--gray-curled-horn-ram",
+      "name": "gray-curled-horn-ram",
+      "source_id": "walters-w171-12r",
+      "source_folder": "walters",
+      "asset_type": "illustration",
+      "description": "A gray ram with a curled horn and small hooves. Part of the Walters W.171 Zodiac set.",
+      "source_region": [
+        2208,
+        1445,
+        2850,
+        2067
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        42,
+        15,
+        564,
+        559
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 522,
+      "height": 544,
+      "png": "walters/walters-w171-12r--gray-curled-horn-ram.png",
+      "png_sha256": "909d7aedc4fe436bc6ca41be2e2b53c83ff28e800c62aaffa3cdc903caa8c206",
+      "provenance": {
+        "institution": "Walters Art Museum",
+        "title": "Twelve signs of the zodiac",
+        "object_identifier": "W.171, fol. 12r",
+        "date": "1400-1404 CE",
+        "record_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/html/W171/description.html",
+        "image_rights": "CC0 (Digital Walters manuscript images)",
+        "rights_url": "https://www.thedigitalwalters.org/01_ACCESS_WALTERS_MANUSCRIPTS.html",
+        "source_file": "tmp/new-assets/walters/walters-w171-12r--twelve-signs-of-the-zodiac--master.tif",
+        "source_sha256": "73dc1cd136e9c21376977c2fc08e911e9afc54d53775dea977ca13bf76d7b3ab",
+        "source_metadata": "tmp/new-assets/walters/walters-w171-12r.json",
+        "image_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/W171/data/W.171/master/W171_000027_1200.tif",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. Isolate the complete small gray ram with curled horn; keep the head turned left and all four source-visible hooves. Remove the flat gold zodiac field. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_extraction": "tmp/extraction-work/walters-w171-12r--gray-curled-horn-ram--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "f607cbe9b4bf258301dd077c37eb7aab085bf6cc922b59c8fadf62f62b91ff9d",
+        "retained_generated_size": [
+          1274,
+          1234
+        ],
+        "resolution_cap_scale": 0.4656084656084656,
+        "resolution_capped_size": [
+          593,
+          575
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          549,
+          528
+        ],
+        "native_subject_size_evidence": {
+          "method": "Individually inspected native visible subject bounds, excluding input-region whitespace and neighbours.",
+          "preview_subject_bounds": [
+            337,
+            224,
+            419,
+            303
+          ],
+          "preview_size": [
+            1400,
+            1426
+          ],
+          "original_size": [
+            9366,
+            9539
+          ]
+        },
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 3537
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Every original ROI and white/dark proof inspected. Complete horn curls, hooves, bird beak/feathers, crab claws/legs, lion mane/tail, both scale pans/cords, fish fins/tails and maiden flowering twigs retained. Contacting twins kept together; both genuine arm openings cleared. Flat gilt field and blue sky excluded; opaque original pale body/garment surfaces preserved. Two silver fish are visibly distinct original drawings with differing proportions/fins, retained as separate illustrations. Ivy sprig has all three source leaves and actual curls, no letter. L ornament keeps full original lower sprig and rod, excluding unrelated page-edge twig.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/walters-zodiac-first-ready-results-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/walters-zodiac-first-ready-results-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/walters-zodiac-first-ready-results-proof-3.jpg",
+          "tmp/extraction-work/continuation-20261010/walters-zodiac-first-ready-results-proof-4.jpg",
+          "tmp/extraction-work/continuation-20261010/walters-zodiac-first-ready-results-proof-5.jpg"
+        ]
+      },
+      "categories": [
+        "animals"
+      ],
+      "subjects": [
+        "ram",
+        "horn",
+        "zodiac"
+      ],
+      "colors": [
+        "gray",
+        "brown"
+      ],
+      "facing": "left",
+      "composition": "standalone",
+      "usage_notes": "Original independent specimen with printed plate rules and page removed. AI-assisted extraction remains approximate; source bounds, actual native subject cap, original and exact prompt retained.",
+      "sets": [
+        {
+          "id": "walters-w171-12r-set",
+          "name": "Walters W.171 Zodiac",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A gray ram with a curled horn and small hooves.",
+      "set_label": "Walters W.171 Zodiac"
+    },
+    {
+      "id": "walters-w171-12r--gray-long-horned-goat",
+      "name": "gray-long-horned-goat",
+      "source_id": "walters-w171-12r",
+      "source_folder": "walters",
+      "asset_type": "illustration",
+      "description": "A gray goat with long backward-curving horns and a small beard. Part of the Walters W.171 Zodiac set.",
+      "source_region": [
+        1412,
+        1666,
+        2168,
+        2395
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        51,
+        0,
+        645,
+        642
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 594,
+      "height": 642,
+      "png": "walters/walters-w171-12r--gray-long-horned-goat.png",
+      "png_sha256": "69c7cd675ef85a062d7a99c2d407a8c329e816f267e777e44796e50d522a165b",
+      "provenance": {
+        "institution": "Walters Art Museum",
+        "title": "Twelve signs of the zodiac",
+        "object_identifier": "W.171, fol. 12r",
+        "date": "1400-1404 CE",
+        "record_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/html/W171/description.html",
+        "image_rights": "CC0 (Digital Walters manuscript images)",
+        "rights_url": "https://www.thedigitalwalters.org/01_ACCESS_WALTERS_MANUSCRIPTS.html",
+        "source_file": "tmp/new-assets/walters/walters-w171-12r--twelve-signs-of-the-zodiac--master.tif",
+        "source_sha256": "73dc1cd136e9c21376977c2fc08e911e9afc54d53775dea977ca13bf76d7b3ab",
+        "source_metadata": "tmp/new-assets/walters/walters-w171-12r.json",
+        "image_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/W171/data/W.171/master/W171_000027_1200.tif",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. Isolate the complete gray goat; keep both long swept horns, every original hoof and the short beard. Remove the flat gold zodiac field. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_extraction": "tmp/extraction-work/walters-w171-12r--gray-long-horned-goat--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "ba5b82b35b78d9785fbdf10abdfde18a4971968cf30fb0b7514d848012cbbff0",
+        "retained_generated_size": [
+          1277,
+          1231
+        ],
+        "resolution_cap_scale": 0.521558872305141,
+        "resolution_capped_size": [
+          666,
+          642
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          636,
+          629
+        ],
+        "native_subject_size_evidence": {
+          "method": "Individually inspected native visible subject bounds, excluding input-region whitespace and neighbours.",
+          "preview_subject_bounds": [
+            222,
+            260,
+            317,
+            354
+          ],
+          "preview_size": [
+            1400,
+            1426
+          ],
+          "original_size": [
+            9366,
+            9539
+          ]
+        },
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 2550
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Every original ROI and white/dark proof inspected. Complete horn curls, hooves, bird beak/feathers, crab claws/legs, lion mane/tail, both scale pans/cords, fish fins/tails and maiden flowering twigs retained. Contacting twins kept together; both genuine arm openings cleared. Flat gilt field and blue sky excluded; opaque original pale body/garment surfaces preserved. Two silver fish are visibly distinct original drawings with differing proportions/fins, retained as separate illustrations. Ivy sprig has all three source leaves and actual curls, no letter. L ornament keeps full original lower sprig and rod, excluding unrelated page-edge twig.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/walters-zodiac-first-ready-results-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/walters-zodiac-first-ready-results-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/walters-zodiac-first-ready-results-proof-3.jpg",
+          "tmp/extraction-work/continuation-20261010/walters-zodiac-first-ready-results-proof-4.jpg",
+          "tmp/extraction-work/continuation-20261010/walters-zodiac-first-ready-results-proof-5.jpg"
+        ]
+      },
+      "categories": [
+        "animals"
+      ],
+      "subjects": [
+        "goat",
+        "horn",
+        "zodiac"
+      ],
+      "colors": [
+        "gray",
+        "brown"
+      ],
+      "facing": "right",
+      "composition": "standalone",
+      "usage_notes": "Original independent specimen with printed plate rules and page removed. AI-assisted extraction remains approximate; source bounds, actual native subject cap, original and exact prompt retained.",
+      "sets": [
+        {
+          "id": "walters-w171-12r-set",
+          "name": "Walters W.171 Zodiac",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A gray goat with long backward-curving horns and a small beard.",
+      "set_label": "Walters W.171 Zodiac"
+    },
+    {
+      "id": "walters-w171-12r--lower-left-gold-and-pink-rod-with-ivy-flourish",
+      "name": "lower-left-gold-and-pink-rod-with-ivy-flourish",
+      "source_id": "walters-w171-12r",
+      "source_folder": "walters",
+      "asset_type": "decoration",
+      "description": "A finite original manuscript marginal flourish: lower left gold and pink rod with ivy flourish. Part of the Walters W.171 Zodiac set.",
+      "source_region": [
+        381,
+        3840,
+        3820,
+        8248
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        13,
+        0,
+        1105,
+        1402
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 1092,
+      "height": 1402,
+      "png": "walters/walters-w171-12r--lower-left-gold-and-pink-rod-with-ivy-flourish.png",
+      "png_sha256": "fd494cadb3713db610e5c2fd7477f940291c015b423338f269441a07dcfea608",
+      "provenance": {
+        "institution": "Walters Art Museum",
+        "title": "Twelve signs of the zodiac",
+        "object_identifier": "W.171, fol. 12r",
+        "date": "1400-1404 CE",
+        "record_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/html/W171/description.html",
+        "image_rights": "CC0 (Digital Walters manuscript images)",
+        "rights_url": "https://www.thedigitalwalters.org/01_ACCESS_WALTERS_MANUSCRIPTS.html",
+        "source_file": "tmp/new-assets/walters/walters-w171-12r--twelve-signs-of-the-zodiac--master.tif",
+        "source_sha256": "73dc1cd136e9c21376977c2fc08e911e9afc54d53775dea977ca13bf76d7b3ab",
+        "source_metadata": "tmp/new-assets/walters/walters-w171-12r.json",
+        "image_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/W171/data/W.171/master/W171_000027_1200.tif",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. Isolate the lower-left gold and pink vertical rod with the full lower branching ivy flourish and the small curled leaf terminal just below the oval. Keep its original fine stems and all blue, gold and rust leaf tips. Exclude the complete oval initial and zodiac field, all text and page ruling; no reconstructed cap at the source junction. Include the ENTIRE tall upper gold rod and its small coiled terminal, from the junction immediately beneath the oval down through the pink rod section and then every lower ivy branch. The long upper gold half of the rod is essential. Do not shorten or omit it. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_extraction": "tmp/extraction-work/walters-w171-12r--lower-left-gold-and-pink-rod-with-ivy-flourish--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "8539ec595b68280c122005cd2bec722c3c9e16b2177fb3358b22db7e0fb430ee",
+        "retained_generated_size": [
+          1108,
+          1420
+        ],
+        "resolution_cap_scale": 1,
+        "resolution_capped_size": [
+          1108,
+          1420
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          3291,
+          4274
+        ],
+        "native_subject_size_evidence": {
+          "method": "Individually inspected native visible subject bounds, excluding input-region whitespace and neighbours.",
+          "preview_subject_bounds": [
+            66,
+            583,
+            558,
+            1222
+          ],
+          "preview_size": [
+            1400,
+            1426
+          ],
+          "original_size": [
+            9366,
+            9539
+          ]
+        },
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 16635
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Viewed original, white and dark comparisons. Corrected flowering plants contain no neighboring gilt ivy; complete source-visible leaves and source-truncated flower remain opaque. Archer retains its actual curved shaft end, two original hoofed legs and true arm/bow openings. Full tall rod and upper curl now retained. Butterfly fine anatomy checked against the native original. All source-capped PNGs retain precise prompt and original attribution.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/openn-margin-final-ready-results-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/openn-margin-final-ready-results-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/openn-margin-final-ready-results-proof-3.jpg",
+          "tmp/extraction-work/continuation-20261010/openn-lewis-e-m-031-029--small-spotted-butterfly--original.png"
+        ]
+      },
+      "categories": [
+        "floral",
+        "scrollwork"
+      ],
+      "subjects": [
+        "flourish",
+        "leaf",
+        "stem",
+        "margin"
+      ],
+      "colors": [
+        "blue",
+        "gold",
+        "pink",
+        "brown",
+        "black"
+      ],
+      "facing": "unclear",
+      "composition": "single-ornament",
+      "usage_notes": "Original independent specimen with printed plate rules and page removed. AI-assisted extraction remains approximate; source bounds, actual native subject cap, original and exact prompt retained.",
+      "sets": [
+        {
+          "id": "walters-w171-12r-set",
+          "name": "Walters W.171 Zodiac",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A finite original manuscript marginal flourish: lower left gold and pink rod with ivy flourish.",
+      "set_label": "Walters W.171 Zodiac"
+    },
+    {
+      "id": "walters-w171-12r--lower-silver-fish-with-red-fins",
+      "name": "lower-silver-fish-with-red-fins",
+      "source_id": "walters-w171-12r",
+      "source_folder": "walters",
+      "asset_type": "illustration",
+      "description": "A smaller silver gray fish with red-edged fins and a forked tail. Part of the Walters W.171 Zodiac set.",
+      "source_region": [
+        2194,
+        3398,
+        2897,
+        3646
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        7,
+        0,
+        552,
+        194
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 545,
+      "height": 194,
+      "png": "walters/walters-w171-12r--lower-silver-fish-with-red-fins.png",
+      "png_sha256": "583995ce9c915bb8b50f30b60294a3fabfd574f5b2864daf2108f1844c0c894c",
+      "provenance": {
+        "institution": "Walters Art Museum",
+        "title": "Twelve signs of the zodiac",
+        "object_identifier": "W.171, fol. 12r",
+        "date": "1400-1404 CE",
+        "record_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/html/W171/description.html",
+        "image_rights": "CC0 (Digital Walters manuscript images)",
+        "rights_url": "https://www.thedigitalwalters.org/01_ACCESS_WALTERS_MANUSCRIPTS.html",
+        "source_file": "tmp/new-assets/walters/walters-w171-12r--twelve-signs-of-the-zodiac--master.tif",
+        "source_sha256": "73dc1cd136e9c21376977c2fc08e911e9afc54d53775dea977ca13bf76d7b3ab",
+        "source_metadata": "tmp/new-assets/walters/walters-w171-12r.json",
+        "image_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/W171/data/W.171/master/W171_000027_1200.tif",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. Isolate ONLY the lower, smaller silver fish, a distinct original drawing; remove the upper fish. Keep its complete forked tail, gills and red-edged fins. Remove the flat gold zodiac field. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_extraction": "tmp/extraction-work/walters-w171-12r--lower-silver-fish-with-red-fins--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "86633adf61130cbaaca67ee07eb4f8dee896a9067c1b464397ed7d5f5b949e93",
+        "retained_generated_size": [
+          2112,
+          744
+        ],
+        "resolution_cap_scale": 0.26138630319148937,
+        "resolution_capped_size": [
+          552,
+          194
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          602,
+          187
+        ],
+        "native_subject_size_evidence": {
+          "method": "Individually inspected native visible subject bounds, excluding input-region whitespace and neighbours.",
+          "preview_subject_bounds": [
+            337,
+            513,
+            427,
+            541
+          ],
+          "preview_size": [
+            1400,
+            1426
+          ],
+          "original_size": [
+            9366,
+            9539
+          ]
+        },
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 325
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Every original ROI and white/dark proof inspected. Complete horn curls, hooves, bird beak/feathers, crab claws/legs, lion mane/tail, both scale pans/cords, fish fins/tails and maiden flowering twigs retained. Contacting twins kept together; both genuine arm openings cleared. Flat gilt field and blue sky excluded; opaque original pale body/garment surfaces preserved. Two silver fish are visibly distinct original drawings with differing proportions/fins, retained as separate illustrations. Ivy sprig has all three source leaves and actual curls, no letter. L ornament keeps full original lower sprig and rod, excluding unrelated page-edge twig.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/walters-zodiac-first-ready-results-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/walters-zodiac-first-ready-results-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/walters-zodiac-first-ready-results-proof-3.jpg",
+          "tmp/extraction-work/continuation-20261010/walters-zodiac-first-ready-results-proof-4.jpg",
+          "tmp/extraction-work/continuation-20261010/walters-zodiac-first-ready-results-proof-5.jpg"
+        ]
+      },
+      "categories": [
+        "animals"
+      ],
+      "subjects": [
+        "fish",
+        "fin",
+        "zodiac"
+      ],
+      "colors": [
+        "gray",
+        "red"
+      ],
+      "facing": "left",
+      "composition": "standalone",
+      "usage_notes": "Original independent specimen with printed plate rules and page removed. AI-assisted extraction remains approximate; source bounds, actual native subject cap, original and exact prompt retained.",
+      "sets": [
+        {
+          "id": "walters-w171-12r-set",
+          "name": "Walters W.171 Zodiac",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A smaller silver gray fish with red-edged fins and a forked tail.",
+      "set_label": "Walters W.171 Zodiac"
+    },
+    {
+      "id": "walters-w171-12r--red-crab-with-raised-claws",
+      "name": "red-crab-with-raised-claws",
+      "source_id": "walters-w171-12r",
+      "source_folder": "walters",
+      "asset_type": "illustration",
+      "description": "A red crab with raised claws and curved side legs. Part of the Walters W.171 Zodiac set.",
+      "source_region": [
+        2890,
+        2930,
+        3539,
+        3606
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        3,
+        0,
+        520,
+        542
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 517,
+      "height": 542,
+      "png": "walters/walters-w171-12r--red-crab-with-raised-claws.png",
+      "png_sha256": "b3eabc1059c994106cb72f248741ff0b8dd8cd830acef2f102a1f5e91a92f97e",
+      "provenance": {
+        "institution": "Walters Art Museum",
+        "title": "Twelve signs of the zodiac",
+        "object_identifier": "W.171, fol. 12r",
+        "date": "1400-1404 CE",
+        "record_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/html/W171/description.html",
+        "image_rights": "CC0 (Digital Walters manuscript images)",
+        "rights_url": "https://www.thedigitalwalters.org/01_ACCESS_WALTERS_MANUSCRIPTS.html",
+        "source_file": "tmp/new-assets/walters/walters-w171-12r--twelve-signs-of-the-zodiac--master.tif",
+        "source_sha256": "73dc1cd136e9c21376977c2fc08e911e9afc54d53775dea977ca13bf76d7b3ab",
+        "source_metadata": "tmp/new-assets/walters/walters-w171-12r.json",
+        "image_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/W171/data/W.171/master/W171_000027_1200.tif",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. Isolate the complete red crab with both original claws and every source-visible curved leg; exclude adjacent gold field and lion. Remove the flat gold zodiac field. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_extraction": "tmp/extraction-work/walters-w171-12r--red-crab-with-raised-claws--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "92efd72fe7fc06b026f003a55fceabb4e0cc4296a9e55fd55bc1ba17d12ba903",
+        "retained_generated_size": [
+          1229,
+          1280
+        ],
+        "resolution_cap_scale": 0.4232343651670051,
+        "resolution_capped_size": [
+          520,
+          542
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          535,
+          535
+        ],
+        "native_subject_size_evidence": {
+          "method": "Individually inspected native visible subject bounds, excluding input-region whitespace and neighbours.",
+          "preview_subject_bounds": [
+            442,
+            450,
+            522,
+            530
+          ],
+          "preview_size": [
+            1400,
+            1426
+          ],
+          "original_size": [
+            9366,
+            9539
+          ]
+        },
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 2845
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Every original ROI and white/dark proof inspected. Complete horn curls, hooves, bird beak/feathers, crab claws/legs, lion mane/tail, both scale pans/cords, fish fins/tails and maiden flowering twigs retained. Contacting twins kept together; both genuine arm openings cleared. Flat gilt field and blue sky excluded; opaque original pale body/garment surfaces preserved. Two silver fish are visibly distinct original drawings with differing proportions/fins, retained as separate illustrations. Ivy sprig has all three source leaves and actual curls, no letter. L ornament keeps full original lower sprig and rod, excluding unrelated page-edge twig.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/walters-zodiac-first-ready-results-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/walters-zodiac-first-ready-results-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/walters-zodiac-first-ready-results-proof-3.jpg",
+          "tmp/extraction-work/continuation-20261010/walters-zodiac-first-ready-results-proof-4.jpg",
+          "tmp/extraction-work/continuation-20261010/walters-zodiac-first-ready-results-proof-5.jpg"
+        ]
+      },
+      "categories": [
+        "animals"
+      ],
+      "subjects": [
+        "crab",
+        "claw",
+        "zodiac"
+      ],
+      "colors": [
+        "red",
+        "orange"
+      ],
+      "facing": "front",
+      "composition": "standalone",
+      "usage_notes": "Original independent specimen with printed plate rules and page removed. AI-assisted extraction remains approximate; source bounds, actual native subject cap, original and exact prompt retained.",
+      "sets": [
+        {
+          "id": "walters-w171-12r-set",
+          "name": "Walters W.171 Zodiac",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A red crab with raised claws and curved side legs.",
+      "set_label": "Walters W.171 Zodiac"
+    },
+    {
+      "id": "walters-w171-12r--seated-archer-with-hoofed-legs",
+      "name": "seated-archer-with-hoofed-legs",
+      "source_id": "walters-w171-12r",
+      "source_folder": "walters",
+      "asset_type": "illustration",
+      "description": "A seated human archer with dark hoofed legs drawing a tall bow. Part of the Walters W.171 Zodiac set.",
+      "source_region": [
+        1398,
+        2328,
+        2194,
+        3097
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        55,
+        20,
+        646,
+        685
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 591,
+      "height": 665,
+      "png": "walters/walters-w171-12r--seated-archer-with-hoofed-legs.png",
+      "png_sha256": "17566af4596fb3f4839114c96a93288c0bebfa0bce5e2b8eac2276f16c1c44c9",
+      "provenance": {
+        "institution": "Walters Art Museum",
+        "title": "Twelve signs of the zodiac",
+        "object_identifier": "W.171, fol. 12r",
+        "date": "1400-1404 CE",
+        "record_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/html/W171/description.html",
+        "image_rights": "CC0 (Digital Walters manuscript images)",
+        "rights_url": "https://www.thedigitalwalters.org/01_ACCESS_WALTERS_MANUSCRIPTS.html",
+        "source_file": "tmp/new-assets/walters/walters-w171-12r--twelve-signs-of-the-zodiac--master.tif",
+        "source_sha256": "73dc1cd136e9c21376977c2fc08e911e9afc54d53775dea977ca13bf76d7b3ab",
+        "source_metadata": "tmp/new-assets/walters/walters-w171-12r.json",
+        "image_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/W171/data/W.171/master/W171_000027_1200.tif",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. Isolate the complete seated hybrid archer drawing its bow. His TWO dark hoofed legs are original; do not replace them with human feet, add a horse body or infer a centaur. Retain the bowstring, full arrow, fingers, head and all source-visible limbs. Remove flat gold ground and neighboring red water jar. IMPORTANT: the source left end of the held shaft is a SMALL CURVED DARK LINE, not a triangular modern arrowhead. Preserve precisely that source-visible curved/blunt end. Do not add an arrowhead, a spear tip, a new weapon or any new triangle. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_extraction": "tmp/extraction-work/walters-w171-12r--seated-archer-with-hoofed-legs--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "9593b6f96e9c0d19cdcd6c1036144e6bf2e8e468b6e25caec5bed6e37d0b0b14",
+        "retained_generated_size": [
+          1276,
+          1233
+        ],
+        "resolution_cap_scale": 0.5570815450643777,
+        "resolution_capped_size": [
+          711,
+          687
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          642,
+          649
+        ],
+        "native_subject_size_evidence": {
+          "method": "Individually inspected native visible subject bounds, excluding input-region whitespace and neighbours.",
+          "preview_subject_bounds": [
+            218,
+            358,
+            314,
+            455
+          ],
+          "preview_size": [
+            1400,
+            1426
+          ],
+          "original_size": [
+            9366,
+            9539
+          ]
+        },
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 5411
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Viewed original, white and dark comparisons. Corrected flowering plants contain no neighboring gilt ivy; complete source-visible leaves and source-truncated flower remain opaque. Archer retains its actual curved shaft end, two original hoofed legs and true arm/bow openings. Full tall rod and upper curl now retained. Butterfly fine anatomy checked against the native original. All source-capped PNGs retain precise prompt and original attribution.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/openn-margin-final-ready-results-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/openn-margin-final-ready-results-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/openn-margin-final-ready-results-proof-3.jpg",
+          "tmp/extraction-work/continuation-20261010/openn-lewis-e-m-031-029--small-spotted-butterfly--original.png"
+        ]
+      },
+      "categories": [
+        "humans",
+        "hybrids"
+      ],
+      "subjects": [
+        "archer",
+        "bow",
+        "arrow",
+        "hoof",
+        "zodiac"
+      ],
+      "colors": [
+        "cream",
+        "gold",
+        "brown"
+      ],
+      "facing": "left",
+      "composition": "standalone",
+      "usage_notes": "Original independent specimen with printed plate rules and page removed. AI-assisted extraction remains approximate; source bounds, actual native subject cap, original and exact prompt retained.",
+      "sets": [
+        {
+          "id": "walters-w171-12r-set",
+          "name": "Walters W.171 Zodiac",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A seated human archer with dark hoofed legs drawing a tall bow.",
+      "set_label": "Walters W.171 Zodiac"
+    },
+    {
+      "id": "walters-w171-12r--seated-maiden-holding-small-flowers",
+      "name": "seated-maiden-holding-small-flowers",
+      "source_id": "walters-w171-12r",
+      "source_folder": "walters",
+      "asset_type": "illustration",
+      "description": "A seated maiden in a brown robe holding small flower stems. Part of the Walters W.171 Zodiac set.",
+      "source_region": [
+        2321,
+        3739,
+        2930,
+        4468
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        64,
+        17,
+        552,
+        662
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 488,
+      "height": 645,
+      "png": "walters/walters-w171-12r--seated-maiden-holding-small-flowers.png",
+      "png_sha256": "12429b736a147820c3efe034f812ea5bcf2c5b1ff887b2c52e44a01b1be442cc",
+      "provenance": {
+        "institution": "Walters Art Museum",
+        "title": "Twelve signs of the zodiac",
+        "object_identifier": "W.171, fol. 12r",
+        "date": "1400-1404 CE",
+        "record_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/html/W171/description.html",
+        "image_rights": "CC0 (Digital Walters manuscript images)",
+        "rights_url": "https://www.thedigitalwalters.org/01_ACCESS_WALTERS_MANUSCRIPTS.html",
+        "source_file": "tmp/new-assets/walters/walters-w171-12r--twelve-signs-of-the-zodiac--master.tif",
+        "source_sha256": "73dc1cd136e9c21376977c2fc08e911e9afc54d53775dea977ca13bf76d7b3ab",
+        "source_metadata": "tmp/new-assets/walters/walters-w171-12r.json",
+        "image_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/W171/data/W.171/master/W171_000027_1200.tif",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. Isolate the complete seated maiden, her brown robe, original head/hair, hands, feet and both small flowering stems. Retain the source-visible fine stems. Remove flat gold ground and all neighboring animals. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_extraction": "tmp/extraction-work/walters-w171-12r--seated-maiden-holding-small-flowers--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "1426bb027d203040066e120a20098578b62e89da8dd5084942894711f3564337",
+        "retained_generated_size": [
+          1147,
+          1372
+        ],
+        "resolution_cap_scale": 0.4996028594122319,
+        "resolution_capped_size": [
+          573,
+          685
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          529,
+          629
+        ],
+        "native_subject_size_evidence": {
+          "method": "Individually inspected native visible subject bounds, excluding input-region whitespace and neighbours.",
+          "preview_subject_bounds": [
+            355,
+            567,
+            434,
+            661
+          ],
+          "preview_size": [
+            1400,
+            1426
+          ],
+          "original_size": [
+            9366,
+            9539
+          ]
+        },
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 2619
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Every original ROI and white/dark proof inspected. Complete horn curls, hooves, bird beak/feathers, crab claws/legs, lion mane/tail, both scale pans/cords, fish fins/tails and maiden flowering twigs retained. Contacting twins kept together; both genuine arm openings cleared. Flat gilt field and blue sky excluded; opaque original pale body/garment surfaces preserved. Two silver fish are visibly distinct original drawings with differing proportions/fins, retained as separate illustrations. Ivy sprig has all three source leaves and actual curls, no letter. L ornament keeps full original lower sprig and rod, excluding unrelated page-edge twig.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/walters-zodiac-first-ready-results-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/walters-zodiac-first-ready-results-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/walters-zodiac-first-ready-results-proof-3.jpg",
+          "tmp/extraction-work/continuation-20261010/walters-zodiac-first-ready-results-proof-4.jpg",
+          "tmp/extraction-work/continuation-20261010/walters-zodiac-first-ready-results-proof-5.jpg"
+        ]
+      },
+      "categories": [
+        "humans",
+        "floral"
+      ],
+      "subjects": [
+        "maiden",
+        "flower",
+        "robe",
+        "zodiac"
+      ],
+      "colors": [
+        "brown",
+        "cream",
+        "gold"
+      ],
+      "facing": "right",
+      "composition": "standalone",
+      "usage_notes": "Original independent specimen with printed plate rules and page removed. AI-assisted extraction remains approximate; source bounds, actual native subject cap, original and exact prompt retained.",
+      "sets": [
+        {
+          "id": "walters-w171-12r-set",
+          "name": "Walters W.171 Zodiac",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A seated maiden in a brown robe holding small flower stems.",
+      "set_label": "Walters W.171 Zodiac"
+    },
+    {
+      "id": "walters-w171-12r--upper-left-pink-ivy-flourish",
+      "name": "upper-left-pink-ivy-flourish",
+      "source_id": "walters-w171-12r",
+      "source_folder": "walters",
+      "asset_type": "decoration",
+      "description": "A finite original manuscript marginal flourish: upper left pink ivy flourish. Part of the Walters W.171 Zodiac set.",
+      "source_region": [
+        355,
+        368,
+        2903,
+        2201
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        7,
+        16,
+        1420,
+        1051
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 1413,
+      "height": 1035,
+      "png": "walters/walters-w171-12r--upper-left-pink-ivy-flourish.png",
+      "png_sha256": "a3aa7abc15e7d2e1bba4d338d7ea914fe686dc6823c0aa0225ff6e89ff87335d",
+      "provenance": {
+        "institution": "Walters Art Museum",
+        "title": "Twelve signs of the zodiac",
+        "object_identifier": "W.171, fol. 12r",
+        "date": "1400-1404 CE",
+        "record_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/html/W171/description.html",
+        "image_rights": "CC0 (Digital Walters manuscript images)",
+        "rights_url": "https://www.thedigitalwalters.org/01_ACCESS_WALTERS_MANUSCRIPTS.html",
+        "source_file": "tmp/new-assets/walters/walters-w171-12r--twelve-signs-of-the-zodiac--master.tif",
+        "source_sha256": "73dc1cd136e9c21376977c2fc08e911e9afc54d53775dea977ca13bf76d7b3ab",
+        "source_metadata": "tmp/new-assets/walters/walters-w171-12r.json",
+        "image_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/W171/data/W.171/master/W171_000027_1200.tif",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. Isolate the upper-left pink branching ivy flourish with all blue, gold and rust leaves and curled stems. Exclude the large oval capital, blue oval band, flat gilded field and printed letters. Stop at the original flourish/letter junction without inventing a new connecting stem. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_extraction": "tmp/extraction-work/walters-w171-12r--upper-left-pink-ivy-flourish--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "af328f3eae78dcbd973b6cd672c683be98741429a5168ca4f41589b305adcdb4",
+        "retained_generated_size": [
+          1478,
+          1064
+        ],
+        "resolution_cap_scale": 1,
+        "resolution_capped_size": [
+          1478,
+          1064
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          2395,
+          1712
+        ],
+        "native_subject_size_evidence": {
+          "method": "Individually inspected native visible subject bounds, excluding input-region whitespace and neighbours.",
+          "preview_subject_bounds": [
+            63,
+            66,
+            421,
+            322
+          ],
+          "preview_size": [
+            1400,
+            1426
+          ],
+          "original_size": [
+            9366,
+            9539
+          ]
+        },
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 13641
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Original ROIs and final white/dark proofs inspected individually. All three original profile heads in the upper connected margin retained; both faces in the long left rod remain correctly oriented. Each hooded/lower head, stem, curl, original worn gilding and colored/pale fill retained; letter H/R/C/P and paper rules excluded. Two finite unequal floral margins retain actual flowering branches, acanthus, vases and fine gilt ivy, with original center/letter panels removed and no fabricated uniform repeat.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/walters-margin-final-ready-results-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/walters-margin-final-ready-results-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/walters-margin-final-ready-results-proof-3.jpg"
+        ]
+      },
+      "categories": [
+        "floral",
+        "scrollwork"
+      ],
+      "subjects": [
+        "flourish",
+        "leaf",
+        "stem",
+        "margin"
+      ],
+      "colors": [
+        "blue",
+        "gold",
+        "pink",
+        "brown",
+        "black"
+      ],
+      "facing": "unclear",
+      "composition": "single-ornament",
+      "usage_notes": "Original independent specimen with printed plate rules and page removed. AI-assisted extraction remains approximate; source bounds, actual native subject cap, original and exact prompt retained.",
+      "sets": [
+        {
+          "id": "walters-w171-12r-set",
+          "name": "Walters W.171 Zodiac",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A finite original manuscript marginal flourish: upper left pink ivy flourish.",
+      "set_label": "Walters W.171 Zodiac"
+    },
+    {
+      "id": "walters-w171-12r--upper-silver-fish-with-red-fins",
+      "name": "upper-silver-fish-with-red-fins",
+      "source_id": "walters-w171-12r",
+      "source_folder": "walters",
+      "asset_type": "illustration",
+      "description": "A long silver gray fish with red-edged fins and a forked tail. Part of the Walters W.171 Zodiac set.",
+      "source_region": [
+        2194,
+        3177,
+        2897,
+        3432
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        18,
+        0,
+        521,
+        189
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 503,
+      "height": 189,
+      "png": "walters/walters-w171-12r--upper-silver-fish-with-red-fins.png",
+      "png_sha256": "48d46df696290d6ff61f531784e7dc35ee8dd51130626cc51bc38234dd378706",
+      "provenance": {
+        "institution": "Walters Art Museum",
+        "title": "Twelve signs of the zodiac",
+        "object_identifier": "W.171, fol. 12r",
+        "date": "1400-1404 CE",
+        "record_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/html/W171/description.html",
+        "image_rights": "CC0 (Digital Walters manuscript images)",
+        "rights_url": "https://www.thedigitalwalters.org/01_ACCESS_WALTERS_MANUSCRIPTS.html",
+        "source_file": "tmp/new-assets/walters/walters-w171-12r--twelve-signs-of-the-zodiac--master.tif",
+        "source_sha256": "73dc1cd136e9c21376977c2fc08e911e9afc54d53775dea977ca13bf76d7b3ab",
+        "source_metadata": "tmp/new-assets/walters/walters-w171-12r.json",
+        "image_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/W171/data/W.171/master/W171_000027_1200.tif",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. Isolate ONLY the upper, longer silver fish with red fin edges; the lower fish is separate and must be removed. Keep the entire visible tail and every source fin. Remove the flat gold zodiac field. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_extraction": "tmp/extraction-work/walters-w171-12r--upper-silver-fish-with-red-fins--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "93d80495b1ea3783f9c7752d178164a96752b0d8ca7833bc31414e508326edb6",
+        "retained_generated_size": [
+          2083,
+          755
+        ],
+        "resolution_cap_scale": 0.25002168131359853,
+        "resolution_capped_size": [
+          521,
+          189
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          629,
+          187
+        ],
+        "native_subject_size_evidence": {
+          "method": "Individually inspected native visible subject bounds, excluding input-region whitespace and neighbours.",
+          "preview_subject_bounds": [
+            334,
+            481,
+            428,
+            509
+          ],
+          "preview_size": [
+            1400,
+            1426
+          ],
+          "original_size": [
+            9366,
+            9539
+          ]
+        },
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 41
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Every original ROI and white/dark proof inspected. Complete horn curls, hooves, bird beak/feathers, crab claws/legs, lion mane/tail, both scale pans/cords, fish fins/tails and maiden flowering twigs retained. Contacting twins kept together; both genuine arm openings cleared. Flat gilt field and blue sky excluded; opaque original pale body/garment surfaces preserved. Two silver fish are visibly distinct original drawings with differing proportions/fins, retained as separate illustrations. Ivy sprig has all three source leaves and actual curls, no letter. L ornament keeps full original lower sprig and rod, excluding unrelated page-edge twig.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/walters-zodiac-first-ready-results-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/walters-zodiac-first-ready-results-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/walters-zodiac-first-ready-results-proof-3.jpg",
+          "tmp/extraction-work/continuation-20261010/walters-zodiac-first-ready-results-proof-4.jpg",
+          "tmp/extraction-work/continuation-20261010/walters-zodiac-first-ready-results-proof-5.jpg"
+        ]
+      },
+      "categories": [
+        "animals"
+      ],
+      "subjects": [
+        "fish",
+        "fin",
+        "zodiac"
+      ],
+      "colors": [
+        "gray",
+        "red"
+      ],
+      "facing": "left",
+      "composition": "standalone",
+      "usage_notes": "Original independent specimen with printed plate rules and page removed. AI-assisted extraction remains approximate; source bounds, actual native subject cap, original and exact prompt retained.",
+      "sets": [
+        {
+          "id": "walters-w171-12r-set",
+          "name": "Walters W.171 Zodiac",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A long silver gray fish with red-edged fins and a forked tail.",
+      "set_label": "Walters W.171 Zodiac"
+    }
+  ]
+}

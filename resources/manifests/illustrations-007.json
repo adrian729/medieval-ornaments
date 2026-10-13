@@ -1,0 +1,382 @@
+{
+  "schemaVersion": 2,
+  "id": "illustrations-007",
+  "collection": "illustrations",
+  "package": "@ranx729/medieval-ornaments-assets-illustrations-007",
+  "version": "0.1.0",
+  "designs": {
+    "branching-elk-antler": {
+      "name": "branching-elk-antler",
+      "asset_type": "illustration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-source-mask",
+      "repeat_axis": "none",
+      "viewbox": [
+        0,
+        0,
+        1095,
+        1823
+      ],
+      "width": 1095,
+      "height": 1823,
+      "png": "png/branching-elk-antler.png",
+      "webp": "webp/branching-elk-antler.webp",
+      "svg": "svg/branching-elk-antler.svg",
+      "png_bytes": 2389683,
+      "webp_bytes": 1433468,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/branching-elk-antler.png",
+          "webp": "webp/128/branching-elk-antler.webp",
+          "width": 77,
+          "height": 128,
+          "png_bytes": 21909,
+          "webp_bytes": 13880
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/branching-elk-antler.png",
+          "webp": "webp/256/branching-elk-antler.webp",
+          "width": 154,
+          "height": 256,
+          "png_bytes": 76405,
+          "webp_bytes": 50188
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/branching-elk-antler.png",
+          "webp": "webp/512/branching-elk-antler.webp",
+          "width": 308,
+          "height": 512,
+          "png_bytes": 274341,
+          "webp_bytes": 193894
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/branching-elk-antler.png",
+          "webp": "webp/768/branching-elk-antler.webp",
+          "width": 461,
+          "height": 768,
+          "png_bytes": 561992,
+          "webp_bytes": 376414
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "svg",
+        "webp",
+        "png"
+      ]
+    },
+    "elephant": {
+      "name": "elephant",
+      "asset_type": "illustration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-source-mask",
+      "repeat_axis": "none",
+      "viewbox": [
+        0,
+        0,
+        2916,
+        2102
+      ],
+      "width": 2916,
+      "height": 2102,
+      "png": "png/elephant.png",
+      "webp": "webp/elephant.webp",
+      "svg": "svg/elephant.svg",
+      "png_bytes": 7667026,
+      "webp_bytes": 4690078,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/elephant.png",
+          "webp": "webp/128/elephant.webp",
+          "width": 128,
+          "height": 92,
+          "png_bytes": 23654,
+          "webp_bytes": 15986
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/elephant.png",
+          "webp": "webp/256/elephant.webp",
+          "width": 256,
+          "height": 185,
+          "png_bytes": 82211,
+          "webp_bytes": 53340
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/elephant.png",
+          "webp": "webp/512/elephant.webp",
+          "width": 512,
+          "height": 369,
+          "png_bytes": 315202,
+          "webp_bytes": 200582
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/elephant.png",
+          "webp": "webp/768/elephant.webp",
+          "width": 768,
+          "height": 554,
+          "png_bytes": 718025,
+          "webp_bytes": 465724
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "svg",
+        "webp",
+        "png"
+      ]
+    },
+    "fox": {
+      "name": "fox",
+      "asset_type": "illustration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-source-mask",
+      "repeat_axis": "none",
+      "viewbox": [
+        0,
+        0,
+        2497,
+        1475
+      ],
+      "width": 2497,
+      "height": 1475,
+      "png": "png/fox.png",
+      "webp": "webp/fox.webp",
+      "svg": "svg/fox.svg",
+      "png_bytes": 3073521,
+      "webp_bytes": 1669164,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/fox.png",
+          "webp": "webp/128/fox.webp",
+          "width": 128,
+          "height": 76,
+          "png_bytes": 13356,
+          "webp_bytes": 8710
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/fox.png",
+          "webp": "webp/256/fox.webp",
+          "width": 256,
+          "height": 151,
+          "png_bytes": 46258,
+          "webp_bytes": 29780
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/fox.png",
+          "webp": "webp/512/fox.webp",
+          "width": 512,
+          "height": 302,
+          "png_bytes": 179455,
+          "webp_bytes": 112710
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/fox.png",
+          "webp": "webp/768/fox.webp",
+          "width": 768,
+          "height": 454,
+          "png_bytes": 392196,
+          "webp_bytes": 262260
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "svg",
+        "webp",
+        "png"
+      ]
+    }
+  },
+  "files": {
+    "png/128/branching-elk-antler.png": {
+      "bytes": 21909,
+      "sha256": "b3d8ec6f2641246dfffc8bb370a4d1bb42e0e7ffac616d6bee84a31d007b3359"
+    },
+    "png/128/elephant.png": {
+      "bytes": 23654,
+      "sha256": "0b038a1f1b5dc662e565b8ae93dffc714699ea63df6e357ef57ba618042d7e99"
+    },
+    "png/128/fox.png": {
+      "bytes": 13356,
+      "sha256": "7b5c2e9ac2e03571a1f27886769d0ba68697bce7bce1b3bf410bc304a2363d24"
+    },
+    "png/256/branching-elk-antler.png": {
+      "bytes": 76405,
+      "sha256": "dea00f9a8cf131ebeb5e9687463f727bc1a1d75d6d60a30ae740888afc227ec4"
+    },
+    "png/256/elephant.png": {
+      "bytes": 82211,
+      "sha256": "f24dbb6fd10bf3bb023a9211c27fcaf2d69bccd44403c316f08002d014f3b068"
+    },
+    "png/256/fox.png": {
+      "bytes": 46258,
+      "sha256": "99e293675e1f53bdc650a3210436b872c10c4369f2fd88b887fa26bbe107b00e"
+    },
+    "png/512/branching-elk-antler.png": {
+      "bytes": 274341,
+      "sha256": "79109402023d6ff1ec00bc25ef06a474b5af867055b25015fd5f2611f309be1f"
+    },
+    "png/512/elephant.png": {
+      "bytes": 315202,
+      "sha256": "c09ad139b6ee292b3667897c4f693589ab21be8431e0579e9a0fb504faab3aee"
+    },
+    "png/512/fox.png": {
+      "bytes": 179455,
+      "sha256": "565c32d2cbfd6dfda417c5700e4d7957861a6b617e8740df8653f000a4969bcc"
+    },
+    "png/768/branching-elk-antler.png": {
+      "bytes": 561992,
+      "sha256": "37fce0fbd45950885719b169f3d3c21b2069078a981d553f0a23ce0fee0ea5c6"
+    },
+    "png/768/elephant.png": {
+      "bytes": 718025,
+      "sha256": "bd9087e71181a792825c37513d801c5a1cc4f945e5ba8060ce130d56c07b025b"
+    },
+    "png/768/fox.png": {
+      "bytes": 392196,
+      "sha256": "758b6b86eca99eae7e172f3e032d4b86417fb41f8c8d54170f1c591a7a35eb2d"
+    },
+    "png/branching-elk-antler.png": {
+      "bytes": 2389683,
+      "sha256": "e492a9f066a823d26f2c9c26d10c5deacbe741196a891b22c3b627462688a3bd"
+    },
+    "png/elephant.png": {
+      "bytes": 7667026,
+      "sha256": "445bd964adc05536c6ebcc1298b9dd4d93cdfa2f1ae21f483f165cb364610b36"
+    },
+    "png/fox.png": {
+      "bytes": 3073521,
+      "sha256": "a8c4da9ef8569238721f225bc5add2dd853c5a0b45f5c9b5a290d1bea1fd61ef"
+    },
+    "svg/branching-elk-antler.svg": {
+      "bytes": 11087969,
+      "sha256": "22983e12fd4e1ff019e2e8463483ca48c4813494a5748459fe8e522b13c81564"
+    },
+    "svg/elephant.svg": {
+      "bytes": 45253077,
+      "sha256": "99853f95a615879f85c0dc0833b13512f263fbf0c1e0fbdb8d9261dd3f79c5a9"
+    },
+    "svg/fox.svg": {
+      "bytes": 19569918,
+      "sha256": "74f800f1192919dfbc90dd142e4a3681100b69551de27040b307a4952e054792"
+    },
+    "webp/128/branching-elk-antler.webp": {
+      "bytes": 13880,
+      "sha256": "923dc5828880d11867094559cd509b6c7ac7e8d78f6bc295aada8a1ba89f13c8"
+    },
+    "webp/128/elephant.webp": {
+      "bytes": 15986,
+      "sha256": "ff400dbe9fc767331e7b0ce5a2c4b3f7041e52a9f900898959ed31e2eef59429"
+    },
+    "webp/128/fox.webp": {
+      "bytes": 8710,
+      "sha256": "1503ea0f2ddb34d98962e73003f57cf5c820018716cf27e53448e56ec51a25c9"
+    },
+    "webp/256/branching-elk-antler.webp": {
+      "bytes": 50188,
+      "sha256": "b3bd4dda08adbc9f65363cfb215f4dcd93f9908f0f3d0ba6b0e215df2768dcf1"
+    },
+    "webp/256/elephant.webp": {
+      "bytes": 53340,
+      "sha256": "7a6518d356c058c596c37bc90710a4dd284c9d69b8d5aa6faa76ce50cf942421"
+    },
+    "webp/256/fox.webp": {
+      "bytes": 29780,
+      "sha256": "047b5a1987b19605bdfb22a0f1502658df1d7f576fe4213887c49f691ec97b51"
+    },
+    "webp/512/branching-elk-antler.webp": {
+      "bytes": 193894,
+      "sha256": "dbba4fe84460d877f96b97c48d760d93b645bcda9993c071af9215c4e443fe18"
+    },
+    "webp/512/elephant.webp": {
+      "bytes": 200582,
+      "sha256": "842e9277807406c604ce30c22faf6e89cc2e5c2820fee03d03b59d01ee75a614"
+    },
+    "webp/512/fox.webp": {
+      "bytes": 112710,
+      "sha256": "803d581e830f3d5960148f55515f843253885d70e52541b1c45565c5ca17e3fc"
+    },
+    "webp/768/branching-elk-antler.webp": {
+      "bytes": 376414,
+      "sha256": "49659d876993d47beaa14a07ac6a6587de47a29092584bcb782bc22f2f4a9dc4"
+    },
+    "webp/768/elephant.webp": {
+      "bytes": 465724,
+      "sha256": "8174310f740248570d9bc15847d9f18ce2864dac2cd48a9f366763b8bfd410ec"
+    },
+    "webp/768/fox.webp": {
+      "bytes": 262260,
+      "sha256": "4081cbaf73aefc54e65dbc0af8646e6494960d81838363d040d4db582a179a3a"
+    },
+    "webp/branching-elk-antler.webp": {
+      "bytes": 1433468,
+      "sha256": "79c9185c4c59312d89206ae36e7dba147716bbf61b1213e1ce0e479ff5e05825"
+    },
+    "webp/elephant.webp": {
+      "bytes": 4690078,
+      "sha256": "567a76a4455902e84f306c91dc28ef4622cc5b4da1ad99d98da364b18ed2b09f"
+    },
+    "webp/fox.webp": {
+      "bytes": 1669164,
+      "sha256": "9399aa92f8b1fc77d164bff10a20ef4a8b60b0e9cdf62829be31e23507e80c8c"
+    }
+  },
+  "inputs": {
+    "sources/tiles/branching-elk-antler.png": {
+      "bytes": 2389683,
+      "sha256": "e492a9f066a823d26f2c9c26d10c5deacbe741196a891b22c3b627462688a3bd"
+    },
+    "sources/traces/branching-elk-antler.svg": {
+      "bytes": 11087969,
+      "sha256": "22983e12fd4e1ff019e2e8463483ca48c4813494a5748459fe8e522b13c81564"
+    },
+    "sources/tiles/elephant.png": {
+      "bytes": 7667026,
+      "sha256": "445bd964adc05536c6ebcc1298b9dd4d93cdfa2f1ae21f483f165cb364610b36"
+    },
+    "sources/traces/elephant.svg": {
+      "bytes": 45253077,
+      "sha256": "99853f95a615879f85c0dc0833b13512f263fbf0c1e0fbdb8d9261dd3f79c5a9"
+    },
+    "sources/tiles/fox.png": {
+      "bytes": 3073521,
+      "sha256": "a8c4da9ef8569238721f225bc5add2dd853c5a0b45f5c9b5a290d1bea1fd61ef"
+    },
+    "sources/traces/fox.svg": {
+      "bytes": 19569918,
+      "sha256": "74f800f1192919dfbc90dd142e4a3681100b69551de27040b307a4952e054792"
+    }
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "source_id": "cma-1946-250",
+  "assets": [
+    {
+      "id": "cma-1946-250--acanthus-vase-between-two-female-chimeras",
+      "name": "acanthus-vase-between-two-female-chimeras",
+      "source_id": "cma-1946-250",
+      "source_folder": "cleveland",
+      "asset_type": "decoration",
+      "description": "Acanthus and flower stems rising from a vase between two female chimeras with scaly tails and clawed feet.",
+      "source_region": [
+        67,
+        57,
+        2734,
+        5330
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        17,
+        57,
+        2643,
+        5257
+      ],
+      "export_crop_coordinate_space": "original-native-source-region",
+      "width": 2626,
+      "height": 5200,
+      "png": "cleveland/cma-1946-250--acanthus-vase-between-two-female-chimeras.png",
+      "png_sha256": "f8dc7cfaf8f4ba8d88ab2a4db154af5d9d8ab301d1f938f3328fa1291558b42d",
+      "provenance": {
+        "institution": "Cleveland Museum of Art",
+        "title": "A Vase between Two Chimeric Figures",
+        "object_identifier": "1946.250",
+        "date": "1553",
+        "artist": "Heinrich Aldegrever (German, 1502–1555/61)",
+        "record_url": "https://clevelandart.org/art/1946.250",
+        "image_rights": "CC0; share_license_status=CC0",
+        "rights_url": "https://www.clevelandart.org/open-access",
+        "source_file": "tmp/new-assets/cleveland/cma-1946-250--a-vase-between-two-chimeric-figures--master.tif",
+        "source_sha256": "9c0c33c67cecbe01b9a186c81a9a06bf3a505e95857b6fad9cb4f17a93f1e297",
+        "source_metadata": "tmp/new-assets/cleveland/cma-1946-250.json",
+        "image_url": "https://openaccess-cdn.clevelandart.org/1946.250/1946.250_full.tif",
+        "method": "native-source-continuous-edge-matting"
+      },
+      "extraction": {
+        "candidate_png": "tmp/extraction-work/continuation-20261010/cma-1946-250--acanthus-vase-between-two-female-chimeras--registered-native-candidate.png",
+        "native_export_crop": [
+          17,
+          57,
+          2643,
+          5257
+        ],
+        "export_crop_coordinate_space": "original-native-source-region",
+        "annotation_json": "tmp/extraction-work/continuation-20261010/cma-1946-250--acanthus-vase-between-two-female-chimeras--registered-native-annotation.json",
+        "trimap_png": "tmp/extraction-work/continuation-20261010/cma-1946-250--acanthus-vase-between-two-female-chimeras--registered-native-trimap.png",
+        "native_source_size": [
+          2667,
+          5273
+        ],
+        "native_upscaling": false,
+        "source_pixels_redrawn": false,
+        "original_opaque_rgb_preserved": true,
+        "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+        "alpha_guide": {
+          "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+          "guide_png": "tmp/extraction-work/continuation-20261010/cma-1946-250--acanthus-vase-between-two-female-chimeras--native-alpha-reference.png",
+          "guide_sha256": "5f87b3d6560bcdb204d45eb9d68315cb1c1b24ded375ad45e955830f6ae252bd",
+          "native_original": "tmp/extraction-work/continuation-20261010/cma-1946-250--acanthus-vase-between-two-female-chimeras--original.png",
+          "similarity_ai_alpha_to_original": [
+            [
+              3.014150026498771,
+              -0.008695692115487775,
+              19.58325962011024
+            ],
+            [
+              0.008695692115487775,
+              3.014150026498771,
+              51.653790978997655
+            ]
+          ],
+          "matching_feature_pairs": 1180,
+          "inlier_feature_pairs": 429,
+          "inlier_rms_native_pixels": 6.911261239189034,
+          "source_inspection_factor": 0.3413616537075668,
+          "unknown_edge_band_native_pixels": 18,
+          "edge_solve_tile_size": 640,
+          "edge_solve_halo": 36,
+          "edge_solve_tiles": 43,
+          "original_opaque_rgb_preserved": true
+        },
+        "status": "awaiting-original-white-dark-review",
+        "tool": "Original native scan / closed-form edge alpha and foreground decontamination",
+        "pixel_exact": false
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Reviewed complete native original/white/dark proof. Whole connected vase/acanthus/flower heads and both female chimeras retained with their original claws, scales, hair, and interior engraved hatching opaque; dark extrinsic crosshatched field and real curl openings cleared. Original upper stalk ends are retained where the signature panel interrupts the scan; no concealed details invented. No inferred repeat or inaccurate vector offered.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/cleveland-further-native-proof-2.jpg"
+        ]
+      },
+      "categories": [
+        "floral",
+        "fantasy"
+      ],
+      "subjects": [
+        "vase",
+        "leaf",
+        "flower",
+        "chimera",
+        "tail",
+        "claw"
+      ],
+      "colors": [
+        "black",
+        "cream",
+        "gray"
+      ],
+      "facing": "unclear",
+      "composition": "single-ornament",
+      "usage_notes": "Original independent specimen with printed plate rules and page removed. AI-assisted extraction remains approximate; source bounds, actual native subject cap, original and exact prompt retained."
+    }
+  ]
+}

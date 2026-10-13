@@ -1,0 +1,162 @@
+{
+  "source_id": "met-696807",
+  "assets": [
+    {
+      "id": "met-696807--finite-interlaced-arabesque-cartouche",
+      "name": "finite-interlaced-arabesque-cartouche",
+      "source_id": "met-696807",
+      "source_folder": "met",
+      "asset_type": "decoration",
+      "description": "A finite arabesque cartouche with interlaced ribbon-like bands, dense leaf scrolls and pointed side and central terminals.",
+      "source_region": [
+        308,
+        152,
+        2854,
+        1914
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        9,
+        0,
+        2519,
+        1754
+      ],
+      "export_crop_coordinate_space": "source-region",
+      "width": 2510,
+      "height": 1754,
+      "png": "met/met-696807--finite-interlaced-arabesque-cartouche.png",
+      "png_sha256": "e35e6a3ace410633690b7ebe6ca9b6ebcfe404867ce42b6fbc3744287acc6132",
+      "provenance": {
+        "institution": "Metropolitan Museum of Art",
+        "title": "Arabesque Design on Dark Ground",
+        "object_identifier": "33.70.39",
+        "date": "1534–1562",
+        "artist": "Virgil Solis",
+        "record_url": "https://www.metmuseum.org/art/collection/search/696807",
+        "image_rights": "CC0 Open Access; isPublicDomain=true",
+        "rights_url": "https://www.metmuseum.org/policies/image-resources",
+        "source_file": "tmp/new-assets/met/met-696807--arabesque-design-on-dark-ground.jpg",
+        "source_sha256": "9766c1175b0eed8f2a3c5a67f793ac76c2e1a03ef874ebb70c75d35a8c9b3947",
+        "source_metadata": "tmp/new-assets/met/met-696807.json",
+        "image_url": "https://images.metmuseum.org/CRDImages/dp/original/DP854199.jpg",
+        "method": "native-continuous-ink-matting"
+      },
+      "extraction": {
+        "method": "Native-resolution continuous ink coverage after locally measured paper removal; PNG appearance master.",
+        "source_pixels_repainted": false,
+        "source_rgb_modified": "Paper removed by measured ink coverage; RGB is the scan-measured ink tone, not an exact source-pixel crop.",
+        "paper_kernel": 61,
+        "minimum_coverage": 0.3,
+        "minimum_component_pixels": 12,
+        "settings": {
+          "paper_kernel": 61,
+          "paper_kernel_shape": "rectangle",
+          "minimum_coverage": 0.3,
+          "minimum_component_pixels": 12,
+          "minimum_component_peak": 0.56,
+          "minimum_channel_coverage": true
+        },
+        "exclude_regions": [
+          [
+            1390,
+            1627,
+            1479,
+            1732
+          ]
+        ],
+        "export_crop": [
+          9,
+          0,
+          2519,
+          1754
+        ],
+        "ink_color": [
+          57,
+          54,
+          46
+        ],
+        "candidate_png": "tmp/extraction-work/met-696807--finite-interlaced-arabesque-cartouche--ink-candidate.png",
+        "status": "awaiting-native-visual-review",
+        "exclude_polygons": [
+          [
+            [
+              1046,
+              1625
+            ],
+            [
+              1107,
+              1734
+            ],
+            [
+              1217,
+              1634
+            ],
+            [
+              1196,
+              1613
+            ],
+            [
+              1105,
+              1678
+            ],
+            [
+              1074,
+              1622
+            ]
+          ]
+        ],
+        "native_support": {
+          "file": "tmp/extraction-work/continuation-20261010/met-696807--finite-interlaced-arabesque-cartouche--printed-contour-support.svg",
+          "sha256": "6023e59a368dc5b1c038a177b22ef14ce9d85b2b49241a7e2718c934d1f3e793",
+          "method": "Authored loose support in native source coordinates; original continuous ink alpha retained."
+        },
+        "printed_contour_support": {
+          "annotation": "tmp/extraction-work/continuation-20261010/met-696807--finite-interlaced-arabesque-cartouche--original-perimeter-annotation.json",
+          "svg": "tmp/extraction-work/continuation-20261010/met-696807--finite-interlaced-arabesque-cartouche--printed-contour-support.svg",
+          "method": "Remove detached scratched plate ground outside the printed finite cartouche. Contour follows the actual original external ink perimeter; it is only a support mask, never a replacement illustration.",
+          "coverage_threshold": 0.3,
+          "native_perimeter_extension_pixels": 7
+        },
+        "tool": "Native source ink analysis",
+        "source_pixels_redrawn": false
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Native original, white and dark final proofs inspected. Complete interlaced arabesque and all central/side terminals retained; handwritten V/S, outer plate rule, detached paper scratches and ground removed. Inspected source-contour support preserves external printed perimeter with seven native pixels of allowance; underlying native continuous ink shape remains the original, never a traced replacement. Pale negative intervals genuinely transparent. SVG withheld.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/met-native-arabesque-with-print-perimeter-1.jpg"
+        ]
+      },
+      "categories": [
+        "floral",
+        "geometric",
+        "scrollwork"
+      ],
+      "subjects": [
+        "arabesque",
+        "cartouche",
+        "ribbon",
+        "scroll",
+        "leaf"
+      ],
+      "facing": "mixed",
+      "colors": [
+        "brown",
+        "black"
+      ],
+      "composition": "single-ornament",
+      "usage_notes": "Native ink appearance retained with continuous transparency. This finite original ornament establishes no seamless period; no repeat or corner atlas inferred. SVG withheld where tracing alters the source print grain."
+    }
+  ]
+}

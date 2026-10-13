@@ -1,0 +1,1660 @@
+{
+  "source_id": "met-681256",
+  "assets": [
+    {
+      "id": "met-681256--braided-diamond-knots-and-pointed-leaf-crosses",
+      "name": "braided-diamond-knots-and-pointed-leaf-crosses",
+      "source_id": "met-681256",
+      "source_folder": "met",
+      "asset_type": "border",
+      "description": "An original model-book border of braided diamond knots and pointed leaf crosses. Part of the Modelbuch braided and leafy patterns set.",
+      "source_region": [
+        670,
+        1657,
+        1225,
+        2057
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        0,
+        0,
+        555,
+        400
+      ],
+      "export_crop_coordinate_space": "source-region",
+      "width": 555,
+      "height": 400,
+      "png": "met/met-681256--braided-diamond-knots-and-pointed-leaf-crosses.png",
+      "png_sha256": "75482f503fa102bb5413c1603e9b7dccc0e09a8d4c13aef43e91e0325921e06a",
+      "provenance": {
+        "institution": "Metropolitan Museum of Art",
+        "title": "Page from Ein new kunstlich Modelbuch...(Page 3r)",
+        "object_identifier": "22.84.1(3r)",
+        "date": "1544",
+        "artist": "Peter Quentel",
+        "record_url": "https://www.metmuseum.org/art/collection/search/681256",
+        "image_rights": "CC0 Open Access; isPublicDomain=true",
+        "rights_url": "https://www.metmuseum.org/policies/image-resources",
+        "source_file": "tmp/new-assets/met/met-681256--page-from-ein-new-kunstlich-modelbuch-page-3r.jpg",
+        "source_sha256": "d121fd2815eb01d9b7646df88f60721a93e5c035fd2d49ac0ec8a0a6b3780338",
+        "source_metadata": "tmp/new-assets/met/met-681256.json",
+        "image_url": "https://images.metmuseum.org/CRDImages/dp/original/DP357023.jpg",
+        "method": "native-interior-repeat-with-source-derived-miter-corners"
+      },
+      "extraction": {
+        "method": "Native-resolution continuous ink coverage after locally measured paper removal; PNG appearance master.",
+        "source_pixels_repainted": false,
+        "source_rgb_modified": "Paper removed by measured ink coverage; RGB is the scan-measured ink tone, not an exact source-pixel crop.",
+        "paper_kernel": 61,
+        "minimum_coverage": 0.22,
+        "minimum_component_pixels": 3,
+        "settings": {
+          "paper_kernel": 61,
+          "paper_kernel_shape": "rectangle",
+          "minimum_coverage": 0.22,
+          "minimum_component_pixels": 3,
+          "minimum_component_peak": 0.55,
+          "minimum_channel_coverage": true
+        },
+        "exclude_regions": [],
+        "export_crop": [
+          0,
+          0,
+          555,
+          400
+        ],
+        "ink_color": [
+          61,
+          53,
+          45
+        ],
+        "candidate_png": "tmp/extraction-work/met-681256--braided-diamond-knots-and-pointed-leaf-crosses--ink-candidate.png",
+        "status": "awaiting-native-visual-review",
+        "repeat_build": {
+          "unit_png": "tmp/extraction-work/met-681256--braided-diamond-knots-and-pointed-leaf-crosses--unit.png",
+          "bar_png": "tmp/extraction-work/met-681256--braided-diamond-knots-and-pointed-leaf-crosses--bar.png",
+          "frame_png": "tmp/extraction-work/met-681256--braided-diamond-knots-and-pointed-leaf-crosses--frame-atlas.png",
+          "corners": [
+            {
+              "name": "top-left",
+              "png": "tmp/extraction-work/met-681256--braided-diamond-knots-and-pointed-leaf-crosses--corner-top-left.png",
+              "atlas_bounds": [
+                0,
+                0,
+                400,
+                400
+              ]
+            },
+            {
+              "name": "top-right",
+              "png": "tmp/extraction-work/met-681256--braided-diamond-knots-and-pointed-leaf-crosses--corner-top-right.png",
+              "atlas_bounds": [
+                955,
+                0,
+                1355,
+                400
+              ]
+            },
+            {
+              "name": "bottom-right",
+              "png": "tmp/extraction-work/met-681256--braided-diamond-knots-and-pointed-leaf-crosses--corner-bottom-right.png",
+              "atlas_bounds": [
+                955,
+                955,
+                1355,
+                1355
+              ]
+            },
+            {
+              "name": "bottom-left",
+              "png": "tmp/extraction-work/met-681256--braided-diamond-knots-and-pointed-leaf-crosses--corner-bottom-left.png",
+              "atlas_bounds": [
+                0,
+                955,
+                400,
+                1355
+              ]
+            }
+          ],
+          "native_unit_size": [
+            555,
+            400
+          ],
+          "atlas_size": [
+            1355,
+            1355
+          ],
+          "slice_pixels": 400,
+          "slice_percent": 29.52029520295203,
+          "repeat_ratio": 1.3875,
+          "join_adjustment": {
+            "pixels_at_each_end": 2,
+            "method": "average matching source collars; interior columns 2 through width-3 unchanged",
+            "source_cycle_verification": "Pointed four-way leaf crosses at preview x=421 and772 bound one full braided-diamond-knot cycle with both upper and lower palmette projections. Matching left/right partial knot phases establish the row repeat."
+          },
+          "corner_method": "Mitered reflections of the exact same native unit, using the repository’s four phase-matched corner geometry. Derived corners are distinct from the original fixed printer-frame corners.",
+          "status": "awaiting-repeat-and-corner-visual-review"
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Original native linework and real openings checked on white/dark; full alternating cycles retained. Five strips, enlarged native joins and four-phase source-derived miter atlases inspected. Finite panels retain distinct central/terminal motifs and are not falsely repeated.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/more-modelbook-native-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/more-modelbook-native-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/more-modelbook-native-proof-3.jpg",
+          "tmp/extraction-work/continuation-20261010/more-modelbook-strip-join-frame-1.jpg",
+          "tmp/extraction-work/continuation-20261010/more-modelbook-strip-join-frame-2.jpg"
+        ]
+      },
+      "categories": [
+        "geometric",
+        "floral"
+      ],
+      "subjects": [
+        "interlace",
+        "leaf",
+        "flower",
+        "knot"
+      ],
+      "colors": [
+        "brown",
+        "black"
+      ],
+      "facing": "unclear",
+      "composition": "repeat-tile",
+      "usage_notes": "Original source ink represented by measured continuous coverage. Full semantic cycle retained; source-derived miter corners use all four independent phases. PNG-only preserves source print grain; no generic vector redraw.",
+      "repeat": {
+        "status": "accepted-source-cycle-and-four-phase-corners",
+        "orientation": "horizontal",
+        "rationale": "Pointed four-way leaf crosses at preview x=421 and772 bound one full braided-diamond-knot cycle with both upper and lower palmette projections. Matching left/right partial knot phases establish the row repeat.",
+        "preview_phase_bounds": [
+          421,
+          1035,
+          772,
+          1285
+        ],
+        "phase_measurement": "Individual matching full motif cycles directly inspected on original sheet before local edge-profile refinement.",
+        "phase_alignment": {
+          "initial_native_bounds": [
+            674,
+            1657,
+            1236,
+            2057
+          ],
+          "refined_native_bounds": [
+            670,
+            1657,
+            1225,
+            2057
+          ],
+          "method": "Native boundary profile matching within manually identified full source cycle; no autocorrelation inference.",
+          "profile_difference": 0.09600034683804692,
+          "phase_radius_preview_pixels": 45,
+          "period_radius_preview_pixels": 7
+        },
+        "slice_pixels": 400,
+        "slice_percent": 29.52029520295203,
+        "repeat_ratio": 1.3875,
+        "native_unit_size": [
+          555,
+          400
+        ],
+        "atlas_size": [
+          1355,
+          1355
+        ],
+        "join_adjustment": {
+          "pixels_at_each_end": 2,
+          "method": "average matching source collars; interior columns 2 through width-3 unchanged",
+          "source_cycle_verification": "Pointed four-way leaf crosses at preview x=421 and772 bound one full braided-diamond-knot cycle with both upper and lower palmette projections. Matching left/right partial knot phases establish the row repeat."
+        },
+        "corner_method": "Mitered reflections of the exact same native unit, using the repository’s four phase-matched corner geometry. Derived corners are distinct from the original fixed printer-frame corners."
+      },
+      "components": {
+        "bar": {
+          "png": "met/met-681256--braided-diamond-knots-and-pointed-leaf-crosses--bar.png",
+          "png_sha256": "8e318eb534aa7638d30a95dd5e2033a95115266a2cb043231660f78772e18e9b",
+          "width": 2775,
+          "height": 400,
+          "set_id": "met-681256--braided-diamond-knots-and-pointed-leaf-crosses",
+          "set_name": "Modelbuch braided and leafy patterns — braided diamond knots and pointed leaf crosses",
+          "set_role": "bar"
+        },
+        "frame": {
+          "png": "met/met-681256--braided-diamond-knots-and-pointed-leaf-crosses--frame-atlas.png",
+          "png_sha256": "ffd02eea83b7b63bb9ad996524f02603e340dddc1e3e78bc4473cda821cd7731",
+          "width": 1355,
+          "height": 1355,
+          "set_id": "met-681256--braided-diamond-knots-and-pointed-leaf-crosses",
+          "set_name": "Modelbuch braided and leafy patterns — braided diamond knots and pointed leaf crosses",
+          "set_role": "frame"
+        },
+        "corner-top-left": {
+          "png": "met/met-681256--braided-diamond-knots-and-pointed-leaf-crosses--corner-top-left.png",
+          "png_sha256": "391eef2ca58e0f8d8fbe2cd216dac6de7a324565f2b5e035d0fd8079a9467456",
+          "width": 400,
+          "height": 400,
+          "atlas_bounds": [
+            0,
+            0,
+            400,
+            400
+          ],
+          "method": "Mitered reflections of the exact same native unit, using the repository’s four phase-matched corner geometry. Derived corners are distinct from the original fixed printer-frame corners.",
+          "set_id": "met-681256--braided-diamond-knots-and-pointed-leaf-crosses",
+          "set_name": "Modelbuch braided and leafy patterns — braided diamond knots and pointed leaf crosses",
+          "set_role": "corner-top-left"
+        },
+        "corner-top-right": {
+          "png": "met/met-681256--braided-diamond-knots-and-pointed-leaf-crosses--corner-top-right.png",
+          "png_sha256": "6ad311581fba9c2e1d8eca571b6373e80e99ece9a89a7c042ecba9826d3e3fee",
+          "width": 400,
+          "height": 400,
+          "atlas_bounds": [
+            955,
+            0,
+            1355,
+            400
+          ],
+          "method": "Mitered reflections of the exact same native unit, using the repository’s four phase-matched corner geometry. Derived corners are distinct from the original fixed printer-frame corners.",
+          "set_id": "met-681256--braided-diamond-knots-and-pointed-leaf-crosses",
+          "set_name": "Modelbuch braided and leafy patterns — braided diamond knots and pointed leaf crosses",
+          "set_role": "corner-top-right"
+        },
+        "corner-bottom-right": {
+          "png": "met/met-681256--braided-diamond-knots-and-pointed-leaf-crosses--corner-bottom-right.png",
+          "png_sha256": "141d11481c57592a45b321c90d4cfcb307b7e4f3513e4dd82d58677921fdb390",
+          "width": 400,
+          "height": 400,
+          "atlas_bounds": [
+            955,
+            955,
+            1355,
+            1355
+          ],
+          "method": "Mitered reflections of the exact same native unit, using the repository’s four phase-matched corner geometry. Derived corners are distinct from the original fixed printer-frame corners.",
+          "set_id": "met-681256--braided-diamond-knots-and-pointed-leaf-crosses",
+          "set_name": "Modelbuch braided and leafy patterns — braided diamond knots and pointed leaf crosses",
+          "set_role": "corner-bottom-right"
+        },
+        "corner-bottom-left": {
+          "png": "met/met-681256--braided-diamond-knots-and-pointed-leaf-crosses--corner-bottom-left.png",
+          "png_sha256": "a61c762e341fdeb11d7080967a3a34598f567c90d01fca86b1dfa6a3db565098",
+          "width": 400,
+          "height": 400,
+          "atlas_bounds": [
+            0,
+            955,
+            400,
+            1355
+          ],
+          "method": "Mitered reflections of the exact same native unit, using the repository’s four phase-matched corner geometry. Derived corners are distinct from the original fixed printer-frame corners.",
+          "set_id": "met-681256--braided-diamond-knots-and-pointed-leaf-crosses",
+          "set_name": "Modelbuch braided and leafy patterns — braided diamond knots and pointed leaf crosses",
+          "set_role": "corner-bottom-left"
+        },
+        "rotated_tile": {
+          "png": "met/met-681256--braided-diamond-knots-and-pointed-leaf-crosses--rotated-tile.png",
+          "png_sha256": "e1a5451a9fdb0112d54472196d2da61a515ecfb4e351a489a9826deef60a24a4",
+          "width": 400,
+          "height": 555,
+          "method": "Pixel-exact clockwise 90-degree transpose of its own accepted native master.",
+          "set_id": "met-681256--braided-diamond-knots-and-pointed-leaf-crosses",
+          "set_name": "Modelbuch braided and leafy patterns — braided diamond knots and pointed leaf crosses",
+          "set_role": "rotated_tile"
+        },
+        "rotated_bar": {
+          "png": "met/met-681256--braided-diamond-knots-and-pointed-leaf-crosses--rotated-bar.png",
+          "png_sha256": "203b82ad18fb284588807d13f7f644f20e709ffb4b9e9d75589744f49ac40600",
+          "width": 400,
+          "height": 2775,
+          "method": "Pixel-exact clockwise 90-degree transpose of its own accepted native master.",
+          "set_id": "met-681256--braided-diamond-knots-and-pointed-leaf-crosses",
+          "set_name": "Modelbuch braided and leafy patterns — braided diamond knots and pointed leaf crosses",
+          "set_role": "rotated_bar"
+        }
+      },
+      "sets": [
+        {
+          "id": "met-681256-set",
+          "name": "Modelbuch braided and leafy patterns",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "An original model-book border of braided diamond knots and pointed leaf crosses.",
+      "set_label": "Modelbuch braided and leafy patterns"
+    },
+    {
+      "id": "met-681256--diagonal-leafy-scrolls-and-paired-rosettes",
+      "name": "diagonal-leafy-scrolls-and-paired-rosettes",
+      "source_id": "met-681256",
+      "source_folder": "met",
+      "asset_type": "border",
+      "description": "An original model-book border of diagonal leafy scrolls and paired rosettes. Part of the Modelbuch braided and leafy patterns set.",
+      "source_region": [
+        745,
+        1237,
+        1302,
+        1615
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        0,
+        0,
+        557,
+        378
+      ],
+      "export_crop_coordinate_space": "source-region",
+      "width": 557,
+      "height": 378,
+      "png": "met/met-681256--diagonal-leafy-scrolls-and-paired-rosettes.png",
+      "png_sha256": "b63e0fa8e9a113b541243c04fed556070a20f22834f5a8aaea67b7cacd3da63e",
+      "provenance": {
+        "institution": "Metropolitan Museum of Art",
+        "title": "Page from Ein new kunstlich Modelbuch...(Page 3r)",
+        "object_identifier": "22.84.1(3r)",
+        "date": "1544",
+        "artist": "Peter Quentel",
+        "record_url": "https://www.metmuseum.org/art/collection/search/681256",
+        "image_rights": "CC0 Open Access; isPublicDomain=true",
+        "rights_url": "https://www.metmuseum.org/policies/image-resources",
+        "source_file": "tmp/new-assets/met/met-681256--page-from-ein-new-kunstlich-modelbuch-page-3r.jpg",
+        "source_sha256": "d121fd2815eb01d9b7646df88f60721a93e5c035fd2d49ac0ec8a0a6b3780338",
+        "source_metadata": "tmp/new-assets/met/met-681256.json",
+        "image_url": "https://images.metmuseum.org/CRDImages/dp/original/DP357023.jpg",
+        "method": "native-interior-repeat-with-source-derived-miter-corners"
+      },
+      "extraction": {
+        "method": "Native-resolution continuous ink coverage after locally measured paper removal; PNG appearance master.",
+        "source_pixels_repainted": false,
+        "source_rgb_modified": "Paper removed by measured ink coverage; RGB is the scan-measured ink tone, not an exact source-pixel crop.",
+        "paper_kernel": 61,
+        "minimum_coverage": 0.22,
+        "minimum_component_pixels": 3,
+        "settings": {
+          "paper_kernel": 61,
+          "paper_kernel_shape": "rectangle",
+          "minimum_coverage": 0.22,
+          "minimum_component_pixels": 3,
+          "minimum_component_peak": 0.55,
+          "minimum_channel_coverage": true
+        },
+        "exclude_regions": [],
+        "export_crop": [
+          0,
+          0,
+          557,
+          378
+        ],
+        "ink_color": [
+          59,
+          50,
+          43
+        ],
+        "candidate_png": "tmp/extraction-work/met-681256--diagonal-leafy-scrolls-and-paired-rosettes--ink-candidate.png",
+        "status": "awaiting-native-visual-review",
+        "repeat_build": {
+          "unit_png": "tmp/extraction-work/met-681256--diagonal-leafy-scrolls-and-paired-rosettes--unit.png",
+          "bar_png": "tmp/extraction-work/met-681256--diagonal-leafy-scrolls-and-paired-rosettes--bar.png",
+          "frame_png": "tmp/extraction-work/met-681256--diagonal-leafy-scrolls-and-paired-rosettes--frame-atlas.png",
+          "corners": [
+            {
+              "name": "top-left",
+              "png": "tmp/extraction-work/met-681256--diagonal-leafy-scrolls-and-paired-rosettes--corner-top-left.png",
+              "atlas_bounds": [
+                0,
+                0,
+                378,
+                378
+              ]
+            },
+            {
+              "name": "top-right",
+              "png": "tmp/extraction-work/met-681256--diagonal-leafy-scrolls-and-paired-rosettes--corner-top-right.png",
+              "atlas_bounds": [
+                935,
+                0,
+                1313,
+                378
+              ]
+            },
+            {
+              "name": "bottom-right",
+              "png": "tmp/extraction-work/met-681256--diagonal-leafy-scrolls-and-paired-rosettes--corner-bottom-right.png",
+              "atlas_bounds": [
+                935,
+                935,
+                1313,
+                1313
+              ]
+            },
+            {
+              "name": "bottom-left",
+              "png": "tmp/extraction-work/met-681256--diagonal-leafy-scrolls-and-paired-rosettes--corner-bottom-left.png",
+              "atlas_bounds": [
+                0,
+                935,
+                378,
+                1313
+              ]
+            }
+          ],
+          "native_unit_size": [
+            557,
+            378
+          ],
+          "atlas_size": [
+            1313,
+            1313
+          ],
+          "slice_pixels": 378,
+          "slice_percent": 28.789032749428788,
+          "repeat_ratio": 1.4735449735449735,
+          "join_adjustment": {
+            "pixels_at_each_end": 2,
+            "method": "average matching source collars; interior columns 2 through width-3 unchanged",
+            "source_cycle_verification": "Crossing leafy-scroll centers at preview x=421 and773 repeat across the row. Each cycle contains both small intermediate flower rosettes and the alternating upper/lower leaf branches, not a single isolated leaf."
+          },
+          "corner_method": "Mitered reflections of the exact same native unit, using the repository’s four phase-matched corner geometry. Derived corners are distinct from the original fixed printer-frame corners.",
+          "status": "awaiting-repeat-and-corner-visual-review"
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Original native linework and real openings checked on white/dark; full alternating cycles retained. Five strips, enlarged native joins and four-phase source-derived miter atlases inspected. Finite panels retain distinct central/terminal motifs and are not falsely repeated.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/more-modelbook-native-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/more-modelbook-native-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/more-modelbook-native-proof-3.jpg",
+          "tmp/extraction-work/continuation-20261010/more-modelbook-strip-join-frame-1.jpg",
+          "tmp/extraction-work/continuation-20261010/more-modelbook-strip-join-frame-2.jpg"
+        ]
+      },
+      "categories": [
+        "geometric",
+        "floral"
+      ],
+      "subjects": [
+        "interlace",
+        "leaf",
+        "flower",
+        "knot"
+      ],
+      "colors": [
+        "brown",
+        "black"
+      ],
+      "facing": "unclear",
+      "composition": "repeat-tile",
+      "usage_notes": "Original source ink represented by measured continuous coverage. Full semantic cycle retained; source-derived miter corners use all four independent phases. PNG-only preserves source print grain; no generic vector redraw.",
+      "repeat": {
+        "status": "accepted-source-cycle-and-four-phase-corners",
+        "orientation": "horizontal",
+        "rationale": "Crossing leafy-scroll centers at preview x=421 and773 repeat across the row. Each cycle contains both small intermediate flower rosettes and the alternating upper/lower leaf branches, not a single isolated leaf.",
+        "preview_phase_bounds": [
+          421,
+          773,
+          773,
+          1009
+        ],
+        "phase_measurement": "Individual matching full motif cycles directly inspected on original sheet before local edge-profile refinement.",
+        "phase_alignment": {
+          "initial_native_bounds": [
+            674,
+            1237,
+            1237,
+            1615
+          ],
+          "refined_native_bounds": [
+            745,
+            1237,
+            1302,
+            1615
+          ],
+          "method": "Native boundary profile matching within manually identified full source cycle; no autocorrelation inference.",
+          "profile_difference": 0.18433535875121815,
+          "phase_radius_preview_pixels": 45,
+          "period_radius_preview_pixels": 7
+        },
+        "slice_pixels": 378,
+        "slice_percent": 28.789032749428788,
+        "repeat_ratio": 1.4735449735449735,
+        "native_unit_size": [
+          557,
+          378
+        ],
+        "atlas_size": [
+          1313,
+          1313
+        ],
+        "join_adjustment": {
+          "pixels_at_each_end": 2,
+          "method": "average matching source collars; interior columns 2 through width-3 unchanged",
+          "source_cycle_verification": "Crossing leafy-scroll centers at preview x=421 and773 repeat across the row. Each cycle contains both small intermediate flower rosettes and the alternating upper/lower leaf branches, not a single isolated leaf."
+        },
+        "corner_method": "Mitered reflections of the exact same native unit, using the repository’s four phase-matched corner geometry. Derived corners are distinct from the original fixed printer-frame corners."
+      },
+      "components": {
+        "bar": {
+          "png": "met/met-681256--diagonal-leafy-scrolls-and-paired-rosettes--bar.png",
+          "png_sha256": "0ab3ac44dd6df3f22be081b95fbf2c986efec39b8f2d3bd20ed27fe04bb59164",
+          "width": 2785,
+          "height": 378,
+          "set_id": "met-681256--diagonal-leafy-scrolls-and-paired-rosettes",
+          "set_name": "Modelbuch braided and leafy patterns — diagonal leafy scrolls and paired rosettes",
+          "set_role": "bar"
+        },
+        "frame": {
+          "png": "met/met-681256--diagonal-leafy-scrolls-and-paired-rosettes--frame-atlas.png",
+          "png_sha256": "8c8ec3d4663b401fcedd42e8070cfe39502f8436f5c3864b291b1ffcdedd7313",
+          "width": 1313,
+          "height": 1313,
+          "set_id": "met-681256--diagonal-leafy-scrolls-and-paired-rosettes",
+          "set_name": "Modelbuch braided and leafy patterns — diagonal leafy scrolls and paired rosettes",
+          "set_role": "frame"
+        },
+        "corner-top-left": {
+          "png": "met/met-681256--diagonal-leafy-scrolls-and-paired-rosettes--corner-top-left.png",
+          "png_sha256": "a341e8df77e4cbb976ee8ddd87123f5d12e69016bb1aebbbc8519048096bfda7",
+          "width": 378,
+          "height": 378,
+          "atlas_bounds": [
+            0,
+            0,
+            378,
+            378
+          ],
+          "method": "Mitered reflections of the exact same native unit, using the repository’s four phase-matched corner geometry. Derived corners are distinct from the original fixed printer-frame corners.",
+          "set_id": "met-681256--diagonal-leafy-scrolls-and-paired-rosettes",
+          "set_name": "Modelbuch braided and leafy patterns — diagonal leafy scrolls and paired rosettes",
+          "set_role": "corner-top-left"
+        },
+        "corner-top-right": {
+          "png": "met/met-681256--diagonal-leafy-scrolls-and-paired-rosettes--corner-top-right.png",
+          "png_sha256": "b561fd936831741b34b88250c4d509f2db35af79e15e55fd252dab773a7ec164",
+          "width": 378,
+          "height": 378,
+          "atlas_bounds": [
+            935,
+            0,
+            1313,
+            378
+          ],
+          "method": "Mitered reflections of the exact same native unit, using the repository’s four phase-matched corner geometry. Derived corners are distinct from the original fixed printer-frame corners.",
+          "set_id": "met-681256--diagonal-leafy-scrolls-and-paired-rosettes",
+          "set_name": "Modelbuch braided and leafy patterns — diagonal leafy scrolls and paired rosettes",
+          "set_role": "corner-top-right"
+        },
+        "corner-bottom-right": {
+          "png": "met/met-681256--diagonal-leafy-scrolls-and-paired-rosettes--corner-bottom-right.png",
+          "png_sha256": "a4028ac1d8e8e58285d915d23005ecfb837ac649fab4d0f02fca6915206d1910",
+          "width": 378,
+          "height": 378,
+          "atlas_bounds": [
+            935,
+            935,
+            1313,
+            1313
+          ],
+          "method": "Mitered reflections of the exact same native unit, using the repository’s four phase-matched corner geometry. Derived corners are distinct from the original fixed printer-frame corners.",
+          "set_id": "met-681256--diagonal-leafy-scrolls-and-paired-rosettes",
+          "set_name": "Modelbuch braided and leafy patterns — diagonal leafy scrolls and paired rosettes",
+          "set_role": "corner-bottom-right"
+        },
+        "corner-bottom-left": {
+          "png": "met/met-681256--diagonal-leafy-scrolls-and-paired-rosettes--corner-bottom-left.png",
+          "png_sha256": "a838dfa578143c3b14373faa3623a3897b165f7823021bcfa0d24d5764329871",
+          "width": 378,
+          "height": 378,
+          "atlas_bounds": [
+            0,
+            935,
+            378,
+            1313
+          ],
+          "method": "Mitered reflections of the exact same native unit, using the repository’s four phase-matched corner geometry. Derived corners are distinct from the original fixed printer-frame corners.",
+          "set_id": "met-681256--diagonal-leafy-scrolls-and-paired-rosettes",
+          "set_name": "Modelbuch braided and leafy patterns — diagonal leafy scrolls and paired rosettes",
+          "set_role": "corner-bottom-left"
+        },
+        "rotated_tile": {
+          "png": "met/met-681256--diagonal-leafy-scrolls-and-paired-rosettes--rotated-tile.png",
+          "png_sha256": "e6cc60145ce10f9808061d34c34dd0cb3f3c5a71f71704d04cf901b9201b63cf",
+          "width": 378,
+          "height": 557,
+          "method": "Pixel-exact clockwise 90-degree transpose of its own accepted native master.",
+          "set_id": "met-681256--diagonal-leafy-scrolls-and-paired-rosettes",
+          "set_name": "Modelbuch braided and leafy patterns — diagonal leafy scrolls and paired rosettes",
+          "set_role": "rotated_tile"
+        },
+        "rotated_bar": {
+          "png": "met/met-681256--diagonal-leafy-scrolls-and-paired-rosettes--rotated-bar.png",
+          "png_sha256": "97697a2d688fe8a36706e487c102cbeeaa04507d67aa98717416ce5e663b411a",
+          "width": 378,
+          "height": 2785,
+          "method": "Pixel-exact clockwise 90-degree transpose of its own accepted native master.",
+          "set_id": "met-681256--diagonal-leafy-scrolls-and-paired-rosettes",
+          "set_name": "Modelbuch braided and leafy patterns — diagonal leafy scrolls and paired rosettes",
+          "set_role": "rotated_bar"
+        }
+      },
+      "sets": [
+        {
+          "id": "met-681256-set",
+          "name": "Modelbuch braided and leafy patterns",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "An original model-book border of diagonal leafy scrolls and paired rosettes.",
+      "set_label": "Modelbuch braided and leafy patterns"
+    },
+    {
+      "id": "met-681256--fine-vertical-hatching-between-parallel-rules",
+      "name": "fine-vertical-hatching-between-parallel-rules",
+      "source_id": "met-681256",
+      "source_folder": "met",
+      "asset_type": "border",
+      "description": "Original thin divider with fine vertical hatching between parallel rules. Part of the Modelbuch braided and leafy patterns set.",
+      "source_region": [
+        792,
+        730,
+        834,
+        768
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        0,
+        0,
+        42,
+        38
+      ],
+      "export_crop_coordinate_space": "source-region",
+      "width": 42,
+      "height": 38,
+      "png": "met/met-681256--fine-vertical-hatching-between-parallel-rules.png",
+      "png_sha256": "bc0221fae79b897e9e7e7751b1b218cffe354eb93fe2876abf1cc6434323d4da",
+      "provenance": {
+        "institution": "Metropolitan Museum of Art",
+        "title": "Page from Ein new kunstlich Modelbuch...(Page 3r)",
+        "object_identifier": "22.84.1(3r)",
+        "date": "1544",
+        "artist": "Peter Quentel",
+        "record_url": "https://www.metmuseum.org/art/collection/search/681256",
+        "image_rights": "CC0 Open Access; isPublicDomain=true",
+        "rights_url": "https://www.metmuseum.org/policies/image-resources",
+        "source_file": "tmp/new-assets/met/met-681256--page-from-ein-new-kunstlich-modelbuch-page-3r.jpg",
+        "source_sha256": "d121fd2815eb01d9b7646df88f60721a93e5c035fd2d49ac0ec8a0a6b3780338",
+        "source_metadata": "tmp/new-assets/met/met-681256.json",
+        "image_url": "https://images.metmuseum.org/CRDImages/dp/original/DP357023.jpg",
+        "method": "native-interior-repeat-with-source-derived-miter-corners"
+      },
+      "extraction": {
+        "method": "Native-resolution continuous ink coverage after locally measured paper removal; PNG appearance master.",
+        "source_pixels_repainted": false,
+        "source_rgb_modified": "Paper removed by measured ink coverage; RGB is the scan-measured ink tone, not an exact source-pixel crop.",
+        "paper_kernel": 61,
+        "minimum_coverage": 0.22,
+        "minimum_component_pixels": 3,
+        "settings": {
+          "paper_kernel": 61,
+          "paper_kernel_shape": "rectangle",
+          "minimum_coverage": 0.22,
+          "minimum_component_pixels": 3,
+          "minimum_component_peak": 0.55,
+          "minimum_channel_coverage": true
+        },
+        "exclude_regions": [],
+        "export_crop": [
+          0,
+          0,
+          42,
+          38
+        ],
+        "ink_color": [
+          56,
+          49,
+          38
+        ],
+        "candidate_png": "tmp/extraction-work/met-681256--fine-vertical-hatching-between-parallel-rules--ink-candidate.png",
+        "status": "awaiting-native-visual-review",
+        "repeat_build": {
+          "unit_png": "tmp/extraction-work/met-681256--fine-vertical-hatching-between-parallel-rules--unit.png",
+          "bar_png": "tmp/extraction-work/met-681256--fine-vertical-hatching-between-parallel-rules--bar.png",
+          "frame_png": "tmp/extraction-work/met-681256--fine-vertical-hatching-between-parallel-rules--frame-atlas.png",
+          "corners": [
+            {
+              "name": "top-left",
+              "png": "tmp/extraction-work/met-681256--fine-vertical-hatching-between-parallel-rules--corner-top-left.png",
+              "atlas_bounds": [
+                0,
+                0,
+                38,
+                38
+              ]
+            },
+            {
+              "name": "top-right",
+              "png": "tmp/extraction-work/met-681256--fine-vertical-hatching-between-parallel-rules--corner-top-right.png",
+              "atlas_bounds": [
+                80,
+                0,
+                118,
+                38
+              ]
+            },
+            {
+              "name": "bottom-right",
+              "png": "tmp/extraction-work/met-681256--fine-vertical-hatching-between-parallel-rules--corner-bottom-right.png",
+              "atlas_bounds": [
+                80,
+                80,
+                118,
+                118
+              ]
+            },
+            {
+              "name": "bottom-left",
+              "png": "tmp/extraction-work/met-681256--fine-vertical-hatching-between-parallel-rules--corner-bottom-left.png",
+              "atlas_bounds": [
+                0,
+                80,
+                38,
+                118
+              ]
+            }
+          ],
+          "native_unit_size": [
+            42,
+            38
+          ],
+          "atlas_size": [
+            118,
+            118
+          ],
+          "slice_pixels": 38,
+          "slice_percent": 32.20338983050848,
+          "repeat_ratio": 1.105263157894737,
+          "join_adjustment": {
+            "pixels_at_each_end": 2,
+            "method": "average matching source collars; interior columns 2 through width-3 unchanged",
+            "source_cycle_verification": "Repeated vertical hatching between original parallel rules occurs in all three separating bands. This native block retains several adjacent source hatch strokes, including their hand-print variation, as a deliberate representative motif-cell unit. No new generic line art is substituted; cleaner first-band impression selected."
+          },
+          "corner_method": "Mitered reflections of the exact same native unit, using the repository’s four phase-matched corner geometry. Derived corners are distinct from the original fixed printer-frame corners.",
+          "status": "accepted-native-cell-strip-and-four-corners"
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Native source cells compared on white/dark. Hatch gaps remain open; three-wave phase corrected to continuous joins. Five-unit strips and all four miter corners inspected. Native interiors unchanged; two-pixel endpoint collars audited. Deliberate source motif-cell blocks, not a claim of exact worn-print repetition.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/fine-rule-source-white-dark-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/fine-rule-strip-and-four-corner-proof.jpg",
+          "tmp/extraction-work/continuation-20261010/refined-wave-native-strip-four-corners.jpg"
+        ]
+      },
+      "categories": [
+        "geometric"
+      ],
+      "subjects": [
+        "line",
+        "hatching"
+      ],
+      "facing": "unclear",
+      "colors": [
+        "black",
+        "brown"
+      ],
+      "composition": "repeat-tile",
+      "usage_notes": "Repeated vertical hatching between original parallel rules occurs in all three separating bands. This native block retains several adjacent source hatch strokes, including their hand-print variation, as a deliberate representative motif-cell unit. No new generic line art is substituted; cleaner first-band impression selected. Two-pixel endpoint collars only; native interiors unchanged. All four corners are source-derived miter phases.",
+      "repeat": {
+        "status": "accepted-native-cell-strip-and-four-corners",
+        "orientation": "horizontal",
+        "rationale": "Repeated vertical hatching between original parallel rules occurs in all three separating bands. This native block retains several adjacent source hatch strokes, including their hand-print variation, as a deliberate representative motif-cell unit. No new generic line art is substituted; cleaner first-band impression selected.",
+        "native_unit_type": "deliberate-source-motif-cell",
+        "preview_bounds": [
+          495,
+          456,
+          521,
+          480
+        ],
+        "exact_source_period_claimed": false,
+        "slice_pixels": 38,
+        "slice_percent": 32.20338983050848,
+        "repeat_ratio": 1.105263157894737,
+        "native_unit_size": [
+          42,
+          38
+        ],
+        "atlas_size": [
+          118,
+          118
+        ],
+        "join_adjustment": {
+          "pixels_at_each_end": 2,
+          "method": "average matching source collars; interior columns 2 through width-3 unchanged",
+          "source_cycle_verification": "Repeated vertical hatching between original parallel rules occurs in all three separating bands. This native block retains several adjacent source hatch strokes, including their hand-print variation, as a deliberate representative motif-cell unit. No new generic line art is substituted; cleaner first-band impression selected."
+        },
+        "corner_method": "Mitered reflections of the exact same native unit, using the repository’s four phase-matched corner geometry. Derived corners are distinct from the original fixed printer-frame corners."
+      },
+      "components": {
+        "bar": {
+          "png": "met/met-681256--fine-vertical-hatching-between-parallel-rules--bar.png",
+          "png_sha256": "0abb505e3e9664eeb38da2fd4b015dbc00887899687ae96088d3665a5e3f11fb",
+          "width": 210,
+          "height": 38,
+          "set_id": "met-681256--fine-vertical-hatching-between-parallel-rules",
+          "set_name": "Modelbuch braided and leafy patterns — fine vertical hatching between parallel rules",
+          "set_role": "bar"
+        },
+        "frame": {
+          "png": "met/met-681256--fine-vertical-hatching-between-parallel-rules--frame-atlas.png",
+          "png_sha256": "430d4b3d54e40ccfa992d0a90ebe283309044601750e9036ccb171f248f9fcf6",
+          "width": 118,
+          "height": 118,
+          "set_id": "met-681256--fine-vertical-hatching-between-parallel-rules",
+          "set_name": "Modelbuch braided and leafy patterns — fine vertical hatching between parallel rules",
+          "set_role": "frame"
+        },
+        "corner-top-left": {
+          "png": "met/met-681256--fine-vertical-hatching-between-parallel-rules--corner-top-left.png",
+          "png_sha256": "3a8f6c259f200c8ef6ce60670d4b8925da93483a330f9b21274e71aefcef5f43",
+          "width": 38,
+          "height": 38,
+          "atlas_bounds": [
+            0,
+            0,
+            38,
+            38
+          ],
+          "method": "Mitered reflections of the exact same native unit, using the repository’s four phase-matched corner geometry. Derived corners are distinct from the original fixed printer-frame corners.",
+          "set_id": "met-681256--fine-vertical-hatching-between-parallel-rules",
+          "set_name": "Modelbuch braided and leafy patterns — fine vertical hatching between parallel rules",
+          "set_role": "corner-top-left"
+        },
+        "corner-top-right": {
+          "png": "met/met-681256--fine-vertical-hatching-between-parallel-rules--corner-top-right.png",
+          "png_sha256": "ef84be766afca66338b811568df66f4e440dd8f463d6c5e66a3a90325a69674b",
+          "width": 38,
+          "height": 38,
+          "atlas_bounds": [
+            80,
+            0,
+            118,
+            38
+          ],
+          "method": "Mitered reflections of the exact same native unit, using the repository’s four phase-matched corner geometry. Derived corners are distinct from the original fixed printer-frame corners.",
+          "set_id": "met-681256--fine-vertical-hatching-between-parallel-rules",
+          "set_name": "Modelbuch braided and leafy patterns — fine vertical hatching between parallel rules",
+          "set_role": "corner-top-right"
+        },
+        "corner-bottom-right": {
+          "png": "met/met-681256--fine-vertical-hatching-between-parallel-rules--corner-bottom-right.png",
+          "png_sha256": "3ad2f9574b81f3e3a23957ea7e9a9e69601c39b879751a63d3dece32c4739153",
+          "width": 38,
+          "height": 38,
+          "atlas_bounds": [
+            80,
+            80,
+            118,
+            118
+          ],
+          "method": "Mitered reflections of the exact same native unit, using the repository’s four phase-matched corner geometry. Derived corners are distinct from the original fixed printer-frame corners.",
+          "set_id": "met-681256--fine-vertical-hatching-between-parallel-rules",
+          "set_name": "Modelbuch braided and leafy patterns — fine vertical hatching between parallel rules",
+          "set_role": "corner-bottom-right"
+        },
+        "corner-bottom-left": {
+          "png": "met/met-681256--fine-vertical-hatching-between-parallel-rules--corner-bottom-left.png",
+          "png_sha256": "7358dbc29193abec60f74e7050f489cf14b77a2c2c57daf2bf7e635816104bd4",
+          "width": 38,
+          "height": 38,
+          "atlas_bounds": [
+            0,
+            80,
+            38,
+            118
+          ],
+          "method": "Mitered reflections of the exact same native unit, using the repository’s four phase-matched corner geometry. Derived corners are distinct from the original fixed printer-frame corners.",
+          "set_id": "met-681256--fine-vertical-hatching-between-parallel-rules",
+          "set_name": "Modelbuch braided and leafy patterns — fine vertical hatching between parallel rules",
+          "set_role": "corner-bottom-left"
+        },
+        "rotated_tile": {
+          "png": "met/met-681256--fine-vertical-hatching-between-parallel-rules--rotated-tile.png",
+          "png_sha256": "3b6419c473fb477e6abbbd7079c92c610e041192511a976893ff60c385b704c2",
+          "width": 38,
+          "height": 42,
+          "rotation_clockwise": 90,
+          "method": "Pixel-exact 90-degree turn of native unit or bar; no rerender or stretching.",
+          "set_id": "met-681256--fine-vertical-hatching-between-parallel-rules",
+          "set_name": "Modelbuch braided and leafy patterns — fine vertical hatching between parallel rules",
+          "set_role": "rotated_tile"
+        },
+        "rotated_bar": {
+          "png": "met/met-681256--fine-vertical-hatching-between-parallel-rules--rotated-bar.png",
+          "png_sha256": "da608095acf590ccf92eaed210557f815555b1bde9fa2a906748db7662d38c75",
+          "width": 38,
+          "height": 210,
+          "rotation_clockwise": 90,
+          "method": "Pixel-exact 90-degree turn of native unit or bar; no rerender or stretching.",
+          "set_id": "met-681256--fine-vertical-hatching-between-parallel-rules",
+          "set_name": "Modelbuch braided and leafy patterns — fine vertical hatching between parallel rules",
+          "set_role": "rotated_bar"
+        }
+      },
+      "sets": [
+        {
+          "id": "met-681256-set",
+          "name": "Modelbuch braided and leafy patterns",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "Original thin divider with fine vertical hatching between parallel rules.",
+      "set_label": "Modelbuch braided and leafy patterns"
+    },
+    {
+      "id": "met-681256--interlaced-chevron-knots-and-eight-point-flowers",
+      "name": "interlaced-chevron-knots-and-eight-point-flowers",
+      "source_id": "met-681256",
+      "source_folder": "met",
+      "asset_type": "border",
+      "description": "An original model-book border of interlaced chevron knots and eight point flowers. Part of the Modelbuch braided and leafy patterns set.",
+      "source_region": [
+        609,
+        285,
+        1177,
+        731
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        0,
+        0,
+        568,
+        446
+      ],
+      "export_crop_coordinate_space": "source-region",
+      "width": 568,
+      "height": 446,
+      "png": "met/met-681256--interlaced-chevron-knots-and-eight-point-flowers.png",
+      "png_sha256": "74d28ebeea9b70a556d8da0262036bad437c980598abddfa31cd6bc40600d7f0",
+      "provenance": {
+        "institution": "Metropolitan Museum of Art",
+        "title": "Page from Ein new kunstlich Modelbuch...(Page 3r)",
+        "object_identifier": "22.84.1(3r)",
+        "date": "1544",
+        "artist": "Peter Quentel",
+        "record_url": "https://www.metmuseum.org/art/collection/search/681256",
+        "image_rights": "CC0 Open Access; isPublicDomain=true",
+        "rights_url": "https://www.metmuseum.org/policies/image-resources",
+        "source_file": "tmp/new-assets/met/met-681256--page-from-ein-new-kunstlich-modelbuch-page-3r.jpg",
+        "source_sha256": "d121fd2815eb01d9b7646df88f60721a93e5c035fd2d49ac0ec8a0a6b3780338",
+        "source_metadata": "tmp/new-assets/met/met-681256.json",
+        "image_url": "https://images.metmuseum.org/CRDImages/dp/original/DP357023.jpg",
+        "method": "native-interior-repeat-with-source-derived-miter-corners"
+      },
+      "extraction": {
+        "method": "Native-resolution continuous ink coverage after locally measured paper removal; PNG appearance master.",
+        "source_pixels_repainted": false,
+        "source_rgb_modified": "Paper removed by measured ink coverage; RGB is the scan-measured ink tone, not an exact source-pixel crop.",
+        "paper_kernel": 61,
+        "minimum_coverage": 0.22,
+        "minimum_component_pixels": 3,
+        "settings": {
+          "paper_kernel": 61,
+          "paper_kernel_shape": "rectangle",
+          "minimum_coverage": 0.22,
+          "minimum_component_pixels": 3,
+          "minimum_component_peak": 0.55,
+          "minimum_channel_coverage": true
+        },
+        "exclude_regions": [],
+        "export_crop": [
+          0,
+          0,
+          568,
+          446
+        ],
+        "ink_color": [
+          56,
+          50,
+          42
+        ],
+        "candidate_png": "tmp/extraction-work/met-681256--interlaced-chevron-knots-and-eight-point-flowers--ink-candidate.png",
+        "status": "awaiting-native-visual-review",
+        "repeat_build": {
+          "unit_png": "tmp/extraction-work/met-681256--interlaced-chevron-knots-and-eight-point-flowers--unit.png",
+          "bar_png": "tmp/extraction-work/met-681256--interlaced-chevron-knots-and-eight-point-flowers--bar.png",
+          "frame_png": "tmp/extraction-work/met-681256--interlaced-chevron-knots-and-eight-point-flowers--frame-atlas.png",
+          "corners": [
+            {
+              "name": "top-left",
+              "png": "tmp/extraction-work/met-681256--interlaced-chevron-knots-and-eight-point-flowers--corner-top-left.png",
+              "atlas_bounds": [
+                0,
+                0,
+                446,
+                446
+              ]
+            },
+            {
+              "name": "top-right",
+              "png": "tmp/extraction-work/met-681256--interlaced-chevron-knots-and-eight-point-flowers--corner-top-right.png",
+              "atlas_bounds": [
+                1014,
+                0,
+                1460,
+                446
+              ]
+            },
+            {
+              "name": "bottom-right",
+              "png": "tmp/extraction-work/met-681256--interlaced-chevron-knots-and-eight-point-flowers--corner-bottom-right.png",
+              "atlas_bounds": [
+                1014,
+                1014,
+                1460,
+                1460
+              ]
+            },
+            {
+              "name": "bottom-left",
+              "png": "tmp/extraction-work/met-681256--interlaced-chevron-knots-and-eight-point-flowers--corner-bottom-left.png",
+              "atlas_bounds": [
+                0,
+                1014,
+                446,
+                1460
+              ]
+            }
+          ],
+          "native_unit_size": [
+            568,
+            446
+          ],
+          "atlas_size": [
+            1460,
+            1460
+          ],
+          "slice_pixels": 446,
+          "slice_percent": 30.54794520547945,
+          "repeat_ratio": 1.2735426008968609,
+          "join_adjustment": {
+            "pixels_at_each_end": 2,
+            "method": "average matching source collars; interior columns 2 through width-3 unchanged",
+            "source_cycle_verification": "Eight-point flower centers at preview x=419 and771 bound one complete cycle containing the intervening crossed chevron knot, small diamonds and dot accents. The row shows two full matching cycles."
+          },
+          "corner_method": "Mitered reflections of the exact same native unit, using the repository’s four phase-matched corner geometry. Derived corners are distinct from the original fixed printer-frame corners.",
+          "status": "awaiting-repeat-and-corner-visual-review"
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Original native linework and real openings checked on white/dark; full alternating cycles retained. Five strips, enlarged native joins and four-phase source-derived miter atlases inspected. Finite panels retain distinct central/terminal motifs and are not falsely repeated.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/more-modelbook-native-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/more-modelbook-native-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/more-modelbook-native-proof-3.jpg",
+          "tmp/extraction-work/continuation-20261010/more-modelbook-strip-join-frame-1.jpg",
+          "tmp/extraction-work/continuation-20261010/more-modelbook-strip-join-frame-2.jpg"
+        ]
+      },
+      "categories": [
+        "geometric",
+        "floral"
+      ],
+      "subjects": [
+        "interlace",
+        "leaf",
+        "flower",
+        "knot"
+      ],
+      "colors": [
+        "brown",
+        "black"
+      ],
+      "facing": "unclear",
+      "composition": "repeat-tile",
+      "usage_notes": "Original source ink represented by measured continuous coverage. Full semantic cycle retained; source-derived miter corners use all four independent phases. PNG-only preserves source print grain; no generic vector redraw.",
+      "repeat": {
+        "status": "accepted-source-cycle-and-four-phase-corners",
+        "orientation": "horizontal",
+        "rationale": "Eight-point flower centers at preview x=419 and771 bound one complete cycle containing the intervening crossed chevron knot, small diamonds and dot accents. The row shows two full matching cycles.",
+        "preview_phase_bounds": [
+          419,
+          178,
+          771,
+          457
+        ],
+        "phase_measurement": "Individual matching full motif cycles directly inspected on original sheet before local edge-profile refinement.",
+        "phase_alignment": {
+          "initial_native_bounds": [
+            671,
+            285,
+            1234,
+            731
+          ],
+          "refined_native_bounds": [
+            609,
+            285,
+            1177,
+            731
+          ],
+          "method": "Native boundary profile matching within manually identified full source cycle; no autocorrelation inference.",
+          "profile_difference": 0.12820121034391324,
+          "phase_radius_preview_pixels": 45,
+          "period_radius_preview_pixels": 7
+        },
+        "slice_pixels": 446,
+        "slice_percent": 30.54794520547945,
+        "repeat_ratio": 1.2735426008968609,
+        "native_unit_size": [
+          568,
+          446
+        ],
+        "atlas_size": [
+          1460,
+          1460
+        ],
+        "join_adjustment": {
+          "pixels_at_each_end": 2,
+          "method": "average matching source collars; interior columns 2 through width-3 unchanged",
+          "source_cycle_verification": "Eight-point flower centers at preview x=419 and771 bound one complete cycle containing the intervening crossed chevron knot, small diamonds and dot accents. The row shows two full matching cycles."
+        },
+        "corner_method": "Mitered reflections of the exact same native unit, using the repository’s four phase-matched corner geometry. Derived corners are distinct from the original fixed printer-frame corners."
+      },
+      "components": {
+        "bar": {
+          "png": "met/met-681256--interlaced-chevron-knots-and-eight-point-flowers--bar.png",
+          "png_sha256": "320bbe81d4bd6c21f2401f2d971e8c2bed29aa5f4eb71e1772759cb5f7c51416",
+          "width": 2840,
+          "height": 446,
+          "set_id": "met-681256--interlaced-chevron-knots-and-eight-point-flowers",
+          "set_name": "Modelbuch braided and leafy patterns — interlaced chevron knots and eight point flowers",
+          "set_role": "bar"
+        },
+        "frame": {
+          "png": "met/met-681256--interlaced-chevron-knots-and-eight-point-flowers--frame-atlas.png",
+          "png_sha256": "db1e1109f7104239c1ff63fc19ac9c6fc08331fa3179599aea38b47128f06833",
+          "width": 1460,
+          "height": 1460,
+          "set_id": "met-681256--interlaced-chevron-knots-and-eight-point-flowers",
+          "set_name": "Modelbuch braided and leafy patterns — interlaced chevron knots and eight point flowers",
+          "set_role": "frame"
+        },
+        "corner-top-left": {
+          "png": "met/met-681256--interlaced-chevron-knots-and-eight-point-flowers--corner-top-left.png",
+          "png_sha256": "d1243132c92042aa79b1e356133cc4bcca7707132fb97c24f9f290700979eed0",
+          "width": 446,
+          "height": 446,
+          "atlas_bounds": [
+            0,
+            0,
+            446,
+            446
+          ],
+          "method": "Mitered reflections of the exact same native unit, using the repository’s four phase-matched corner geometry. Derived corners are distinct from the original fixed printer-frame corners.",
+          "set_id": "met-681256--interlaced-chevron-knots-and-eight-point-flowers",
+          "set_name": "Modelbuch braided and leafy patterns — interlaced chevron knots and eight point flowers",
+          "set_role": "corner-top-left"
+        },
+        "corner-top-right": {
+          "png": "met/met-681256--interlaced-chevron-knots-and-eight-point-flowers--corner-top-right.png",
+          "png_sha256": "c011214aacb3837b2c5085aa1caf30d0d959562bc704303c4c8331de91062c7c",
+          "width": 446,
+          "height": 446,
+          "atlas_bounds": [
+            1014,
+            0,
+            1460,
+            446
+          ],
+          "method": "Mitered reflections of the exact same native unit, using the repository’s four phase-matched corner geometry. Derived corners are distinct from the original fixed printer-frame corners.",
+          "set_id": "met-681256--interlaced-chevron-knots-and-eight-point-flowers",
+          "set_name": "Modelbuch braided and leafy patterns — interlaced chevron knots and eight point flowers",
+          "set_role": "corner-top-right"
+        },
+        "corner-bottom-right": {
+          "png": "met/met-681256--interlaced-chevron-knots-and-eight-point-flowers--corner-bottom-right.png",
+          "png_sha256": "abaa65feac58e8b3f45ef9716511b84d0b513246ee3e2ceb0688ef973a6397e1",
+          "width": 446,
+          "height": 446,
+          "atlas_bounds": [
+            1014,
+            1014,
+            1460,
+            1460
+          ],
+          "method": "Mitered reflections of the exact same native unit, using the repository’s four phase-matched corner geometry. Derived corners are distinct from the original fixed printer-frame corners.",
+          "set_id": "met-681256--interlaced-chevron-knots-and-eight-point-flowers",
+          "set_name": "Modelbuch braided and leafy patterns — interlaced chevron knots and eight point flowers",
+          "set_role": "corner-bottom-right"
+        },
+        "corner-bottom-left": {
+          "png": "met/met-681256--interlaced-chevron-knots-and-eight-point-flowers--corner-bottom-left.png",
+          "png_sha256": "8a2b4f5d54e44a2be31ad86f0c5e59075c6be851c6dbec17f5b6041b143972f6",
+          "width": 446,
+          "height": 446,
+          "atlas_bounds": [
+            0,
+            1014,
+            446,
+            1460
+          ],
+          "method": "Mitered reflections of the exact same native unit, using the repository’s four phase-matched corner geometry. Derived corners are distinct from the original fixed printer-frame corners.",
+          "set_id": "met-681256--interlaced-chevron-knots-and-eight-point-flowers",
+          "set_name": "Modelbuch braided and leafy patterns — interlaced chevron knots and eight point flowers",
+          "set_role": "corner-bottom-left"
+        },
+        "rotated_tile": {
+          "png": "met/met-681256--interlaced-chevron-knots-and-eight-point-flowers--rotated-tile.png",
+          "png_sha256": "8136a43e94ae2241643f2c30cf38d4e47655c1533f5dbe71b5b00f819360db5a",
+          "width": 446,
+          "height": 568,
+          "method": "Pixel-exact clockwise 90-degree transpose of its own accepted native master.",
+          "set_id": "met-681256--interlaced-chevron-knots-and-eight-point-flowers",
+          "set_name": "Modelbuch braided and leafy patterns — interlaced chevron knots and eight point flowers",
+          "set_role": "rotated_tile"
+        },
+        "rotated_bar": {
+          "png": "met/met-681256--interlaced-chevron-knots-and-eight-point-flowers--rotated-bar.png",
+          "png_sha256": "89d53038ae899df2448b121fe5630798e2acca90ab0ac444e37e9f862d62d026",
+          "width": 446,
+          "height": 2840,
+          "method": "Pixel-exact clockwise 90-degree transpose of its own accepted native master.",
+          "set_id": "met-681256--interlaced-chevron-knots-and-eight-point-flowers",
+          "set_name": "Modelbuch braided and leafy patterns — interlaced chevron knots and eight point flowers",
+          "set_role": "rotated_bar"
+        }
+      },
+      "sets": [
+        {
+          "id": "met-681256-set",
+          "name": "Modelbuch braided and leafy patterns",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "An original model-book border of interlaced chevron knots and eight point flowers.",
+      "set_label": "Modelbuch braided and leafy patterns"
+    },
+    {
+      "id": "met-681256--looped-lattice-knots-and-curled-palmettes",
+      "name": "looped-lattice-knots-and-curled-palmettes",
+      "source_id": "met-681256",
+      "source_folder": "met",
+      "asset_type": "border",
+      "description": "An original model-book border of looped lattice knots and curled palmettes. Part of the Modelbuch braided and leafy patterns set.",
+      "source_region": [
+        603,
+        765,
+        1164,
+        1200
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        0,
+        0,
+        561,
+        435
+      ],
+      "export_crop_coordinate_space": "source-region",
+      "width": 561,
+      "height": 435,
+      "png": "met/met-681256--looped-lattice-knots-and-curled-palmettes.png",
+      "png_sha256": "d50f231823f79962249806f026dcd33c1ea24c6b489b3ba22e0adb9bf5d9f6f2",
+      "provenance": {
+        "institution": "Metropolitan Museum of Art",
+        "title": "Page from Ein new kunstlich Modelbuch...(Page 3r)",
+        "object_identifier": "22.84.1(3r)",
+        "date": "1544",
+        "artist": "Peter Quentel",
+        "record_url": "https://www.metmuseum.org/art/collection/search/681256",
+        "image_rights": "CC0 Open Access; isPublicDomain=true",
+        "rights_url": "https://www.metmuseum.org/policies/image-resources",
+        "source_file": "tmp/new-assets/met/met-681256--page-from-ein-new-kunstlich-modelbuch-page-3r.jpg",
+        "source_sha256": "d121fd2815eb01d9b7646df88f60721a93e5c035fd2d49ac0ec8a0a6b3780338",
+        "source_metadata": "tmp/new-assets/met/met-681256.json",
+        "image_url": "https://images.metmuseum.org/CRDImages/dp/original/DP357023.jpg",
+        "method": "native-interior-repeat-with-source-derived-miter-corners"
+      },
+      "extraction": {
+        "method": "Native-resolution continuous ink coverage after locally measured paper removal; PNG appearance master.",
+        "source_pixels_repainted": false,
+        "source_rgb_modified": "Paper removed by measured ink coverage; RGB is the scan-measured ink tone, not an exact source-pixel crop.",
+        "paper_kernel": 61,
+        "minimum_coverage": 0.22,
+        "minimum_component_pixels": 3,
+        "settings": {
+          "paper_kernel": 61,
+          "paper_kernel_shape": "rectangle",
+          "minimum_coverage": 0.22,
+          "minimum_component_pixels": 3,
+          "minimum_component_peak": 0.55,
+          "minimum_channel_coverage": true
+        },
+        "exclude_regions": [],
+        "export_crop": [
+          0,
+          0,
+          561,
+          435
+        ],
+        "ink_color": [
+          57,
+          49,
+          42
+        ],
+        "candidate_png": "tmp/extraction-work/met-681256--looped-lattice-knots-and-curled-palmettes--ink-candidate.png",
+        "status": "awaiting-native-visual-review",
+        "repeat_build": {
+          "unit_png": "tmp/extraction-work/met-681256--looped-lattice-knots-and-curled-palmettes--unit.png",
+          "bar_png": "tmp/extraction-work/met-681256--looped-lattice-knots-and-curled-palmettes--bar.png",
+          "frame_png": "tmp/extraction-work/met-681256--looped-lattice-knots-and-curled-palmettes--frame-atlas.png",
+          "corners": [
+            {
+              "name": "top-left",
+              "png": "tmp/extraction-work/met-681256--looped-lattice-knots-and-curled-palmettes--corner-top-left.png",
+              "atlas_bounds": [
+                0,
+                0,
+                435,
+                435
+              ]
+            },
+            {
+              "name": "top-right",
+              "png": "tmp/extraction-work/met-681256--looped-lattice-knots-and-curled-palmettes--corner-top-right.png",
+              "atlas_bounds": [
+                996,
+                0,
+                1431,
+                435
+              ]
+            },
+            {
+              "name": "bottom-right",
+              "png": "tmp/extraction-work/met-681256--looped-lattice-knots-and-curled-palmettes--corner-bottom-right.png",
+              "atlas_bounds": [
+                996,
+                996,
+                1431,
+                1431
+              ]
+            },
+            {
+              "name": "bottom-left",
+              "png": "tmp/extraction-work/met-681256--looped-lattice-knots-and-curled-palmettes--corner-bottom-left.png",
+              "atlas_bounds": [
+                0,
+                996,
+                435,
+                1431
+              ]
+            }
+          ],
+          "native_unit_size": [
+            561,
+            435
+          ],
+          "atlas_size": [
+            1431,
+            1431
+          ],
+          "slice_pixels": 435,
+          "slice_percent": 30.39832285115304,
+          "repeat_ratio": 1.289655172413793,
+          "join_adjustment": {
+            "pixels_at_each_end": 2,
+            "method": "average matching source collars; interior columns 2 through width-3 unchanged",
+            "source_cycle_verification": "Matching looped lattice knots at preview x=422 and771 alternate with a complete curled palmette and its triple-line stem. Both types and all surrounding dots constitute the full source cycle."
+          },
+          "corner_method": "Mitered reflections of the exact same native unit, using the repository’s four phase-matched corner geometry. Derived corners are distinct from the original fixed printer-frame corners.",
+          "status": "awaiting-repeat-and-corner-visual-review"
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Original native linework and real openings checked on white/dark; full alternating cycles retained. Five strips, enlarged native joins and four-phase source-derived miter atlases inspected. Finite panels retain distinct central/terminal motifs and are not falsely repeated.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/more-modelbook-native-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/more-modelbook-native-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/more-modelbook-native-proof-3.jpg",
+          "tmp/extraction-work/continuation-20261010/more-modelbook-strip-join-frame-1.jpg",
+          "tmp/extraction-work/continuation-20261010/more-modelbook-strip-join-frame-2.jpg"
+        ]
+      },
+      "categories": [
+        "geometric",
+        "floral"
+      ],
+      "subjects": [
+        "interlace",
+        "leaf",
+        "flower",
+        "knot"
+      ],
+      "colors": [
+        "brown",
+        "black"
+      ],
+      "facing": "unclear",
+      "composition": "repeat-tile",
+      "usage_notes": "Original source ink represented by measured continuous coverage. Full semantic cycle retained; source-derived miter corners use all four independent phases. PNG-only preserves source print grain; no generic vector redraw.",
+      "repeat": {
+        "status": "accepted-source-cycle-and-four-phase-corners",
+        "orientation": "horizontal",
+        "rationale": "Matching looped lattice knots at preview x=422 and771 alternate with a complete curled palmette and its triple-line stem. Both types and all surrounding dots constitute the full source cycle.",
+        "preview_phase_bounds": [
+          422,
+          478,
+          771,
+          750
+        ],
+        "phase_measurement": "Individual matching full motif cycles directly inspected on original sheet before local edge-profile refinement.",
+        "phase_alignment": {
+          "initial_native_bounds": [
+            675,
+            765,
+            1234,
+            1200
+          ],
+          "refined_native_bounds": [
+            603,
+            765,
+            1164,
+            1200
+          ],
+          "method": "Native boundary profile matching within manually identified full source cycle; no autocorrelation inference.",
+          "profile_difference": 0.21891220058107438,
+          "phase_radius_preview_pixels": 45,
+          "period_radius_preview_pixels": 7
+        },
+        "slice_pixels": 435,
+        "slice_percent": 30.39832285115304,
+        "repeat_ratio": 1.289655172413793,
+        "native_unit_size": [
+          561,
+          435
+        ],
+        "atlas_size": [
+          1431,
+          1431
+        ],
+        "join_adjustment": {
+          "pixels_at_each_end": 2,
+          "method": "average matching source collars; interior columns 2 through width-3 unchanged",
+          "source_cycle_verification": "Matching looped lattice knots at preview x=422 and771 alternate with a complete curled palmette and its triple-line stem. Both types and all surrounding dots constitute the full source cycle."
+        },
+        "corner_method": "Mitered reflections of the exact same native unit, using the repository’s four phase-matched corner geometry. Derived corners are distinct from the original fixed printer-frame corners."
+      },
+      "components": {
+        "bar": {
+          "png": "met/met-681256--looped-lattice-knots-and-curled-palmettes--bar.png",
+          "png_sha256": "54d8560c02c1f8bdddba67ac56e48a25d44b1a764e754f7d33151f0f3ecd729f",
+          "width": 2805,
+          "height": 435,
+          "set_id": "met-681256--looped-lattice-knots-and-curled-palmettes",
+          "set_name": "Modelbuch braided and leafy patterns — looped lattice knots and curled palmettes",
+          "set_role": "bar"
+        },
+        "frame": {
+          "png": "met/met-681256--looped-lattice-knots-and-curled-palmettes--frame-atlas.png",
+          "png_sha256": "8ba9a370d43a3994112b7ee1c7a4bdad44ed8d9689105e3f961c4387868681f2",
+          "width": 1431,
+          "height": 1431,
+          "set_id": "met-681256--looped-lattice-knots-and-curled-palmettes",
+          "set_name": "Modelbuch braided and leafy patterns — looped lattice knots and curled palmettes",
+          "set_role": "frame"
+        },
+        "corner-top-left": {
+          "png": "met/met-681256--looped-lattice-knots-and-curled-palmettes--corner-top-left.png",
+          "png_sha256": "d67f7ce9623256a0050505f0444b0bce74b3ee68c62ab44a073dcafe8140806c",
+          "width": 435,
+          "height": 435,
+          "atlas_bounds": [
+            0,
+            0,
+            435,
+            435
+          ],
+          "method": "Mitered reflections of the exact same native unit, using the repository’s four phase-matched corner geometry. Derived corners are distinct from the original fixed printer-frame corners.",
+          "set_id": "met-681256--looped-lattice-knots-and-curled-palmettes",
+          "set_name": "Modelbuch braided and leafy patterns — looped lattice knots and curled palmettes",
+          "set_role": "corner-top-left"
+        },
+        "corner-top-right": {
+          "png": "met/met-681256--looped-lattice-knots-and-curled-palmettes--corner-top-right.png",
+          "png_sha256": "531849cde79689d03c05afa3192465f986dd24b1e5f8373deb5717659f5de9fe",
+          "width": 435,
+          "height": 435,
+          "atlas_bounds": [
+            996,
+            0,
+            1431,
+            435
+          ],
+          "method": "Mitered reflections of the exact same native unit, using the repository’s four phase-matched corner geometry. Derived corners are distinct from the original fixed printer-frame corners.",
+          "set_id": "met-681256--looped-lattice-knots-and-curled-palmettes",
+          "set_name": "Modelbuch braided and leafy patterns — looped lattice knots and curled palmettes",
+          "set_role": "corner-top-right"
+        },
+        "corner-bottom-right": {
+          "png": "met/met-681256--looped-lattice-knots-and-curled-palmettes--corner-bottom-right.png",
+          "png_sha256": "99957cb284c91b6acd491949c638468d808bdc673271fb1ba10459e1f4ce9ed5",
+          "width": 435,
+          "height": 435,
+          "atlas_bounds": [
+            996,
+            996,
+            1431,
+            1431
+          ],
+          "method": "Mitered reflections of the exact same native unit, using the repository’s four phase-matched corner geometry. Derived corners are distinct from the original fixed printer-frame corners.",
+          "set_id": "met-681256--looped-lattice-knots-and-curled-palmettes",
+          "set_name": "Modelbuch braided and leafy patterns — looped lattice knots and curled palmettes",
+          "set_role": "corner-bottom-right"
+        },
+        "corner-bottom-left": {
+          "png": "met/met-681256--looped-lattice-knots-and-curled-palmettes--corner-bottom-left.png",
+          "png_sha256": "2df02036050ed1513e07217f395046ec02bf486f3926b78a16b795626c0db595",
+          "width": 435,
+          "height": 435,
+          "atlas_bounds": [
+            0,
+            996,
+            435,
+            1431
+          ],
+          "method": "Mitered reflections of the exact same native unit, using the repository’s four phase-matched corner geometry. Derived corners are distinct from the original fixed printer-frame corners.",
+          "set_id": "met-681256--looped-lattice-knots-and-curled-palmettes",
+          "set_name": "Modelbuch braided and leafy patterns — looped lattice knots and curled palmettes",
+          "set_role": "corner-bottom-left"
+        },
+        "rotated_tile": {
+          "png": "met/met-681256--looped-lattice-knots-and-curled-palmettes--rotated-tile.png",
+          "png_sha256": "78d48da8b78e75cad779ce174d95e204436ec877848973c000cf1b61a0bbd25c",
+          "width": 435,
+          "height": 561,
+          "method": "Pixel-exact clockwise 90-degree transpose of its own accepted native master.",
+          "set_id": "met-681256--looped-lattice-knots-and-curled-palmettes",
+          "set_name": "Modelbuch braided and leafy patterns — looped lattice knots and curled palmettes",
+          "set_role": "rotated_tile"
+        },
+        "rotated_bar": {
+          "png": "met/met-681256--looped-lattice-knots-and-curled-palmettes--rotated-bar.png",
+          "png_sha256": "756c7ded7a3721557b8c851014ec441f6d59de99a0f1af488e86377298dd881b",
+          "width": 435,
+          "height": 2805,
+          "method": "Pixel-exact clockwise 90-degree transpose of its own accepted native master.",
+          "set_id": "met-681256--looped-lattice-knots-and-curled-palmettes",
+          "set_name": "Modelbuch braided and leafy patterns — looped lattice knots and curled palmettes",
+          "set_role": "rotated_bar"
+        }
+      },
+      "sets": [
+        {
+          "id": "met-681256-set",
+          "name": "Modelbuch braided and leafy patterns",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "An original model-book border of looped lattice knots and curled palmettes.",
+      "set_label": "Modelbuch braided and leafy patterns"
+    }
+  ]
+}

@@ -55,7 +55,7 @@ The npm/vanilla JavaScript/React runtime is published as `@ranx729/medieval-orna
 5. Never upscale source raster exports. Make each smaller variant directly from its master. SVG may scale, but a trace does not recover missing source detail. PNG/WebP pairs must preserve alpha and visible RGB losslessly. Floral vector masters are at most 1024px; raster atlases use sizes with integer slice coordinates. Size folders are upper bounds, not guaranteed exact dimensions; skip a smaller atlas size if it would require fractional slices.
 6. Frames require `round`: partial repeat units cannot match the corners. Dividers retain natural tile proportions; choose the main tile or `components.rotated_tile` to match the desired axis. Rotated PNG/WebP masters must be pixel-exact 90-degree turns, not rerenders or stretched images. Read `repeat_ratio` and `border_image_slice_percent` from the catalog; plate geometry is not uniformly 256 × 96 or 448 × 448. Do not rotate source-derived miter corners blindly: use the supplied atlas, which contains all four phase-matched corners.
 7. Run `.venv/bin/python scripts/catalog.py --check`, `.venv/bin/python scripts/artwork_check.py`, and `git diff --check`. Inspect every changed design against the reference, as repeated strips, and in light/dark frames. Check leaves/petals and artwork continuity, not only whether a gap crosses the frame. Run browser and rendered join checks in `QA.md`, including 33px and fractional pixel ratios. Automated checks do not replace visual inspection.
-8. Keep README, usage notes, browser, and examples synchronized. Do not invent provenance/authorship/licenses. Record exact prompts/method for AI extractions; never call them pixel-exact crops. Never publish a watermarked source sheet as a cleaned extraction.
+8. Keep README, usage notes, browser, and examples synchronized. Do not invent provenance/authorship/licenses. Choose new historical sources from [docs/ARTWORK-SOURCES.md](docs/ARTWORK-SOURCES.md) and follow its "Source licenses: what to do" rules: normally nothing beyond `provenance`. Never accept terms of use on the maintainer's behalf: set that source aside, finish the remaining work, then ask about all set-aside sources at the end. Record exact prompts/method for AI extractions; never call them pixel-exact crops. Never publish a watermarked source sheet as a cleaned extraction.
 
 Published runtime 0.8.1 uses numbered resource revisions 0.1.3 and 137 designs: 58 repeating borders, 24 whole decorations and 55 illustrations. The original 111 designs remain unchanged. The six illustration selection fields and every imported file are preserved in the migration inventory. The original 49 designs are unchanged. Five new source decorations remain whole; original whole designs include the five panels and plate 11, 16, 36, 37. Whole plate designs retain SVG alternatives but have no corner/frame components.
 
@@ -106,3 +106,26 @@ publish and trust link. The public pages were redesigned (overview, paginated
 gallery, searchable pickers in the integration examples); the packed runtime
 budget is 210 KB.
 
+
+## Paused local historical extraction work
+
+The historical-source extraction task is paused at the user’s request (2026-10-12).
+Before resuming it, read [docs/HISTORICAL-ASSET-HANDOFF.md](docs/HISTORICAL-ASSET-HANDOFF.md).
+It records 557 accepted staged assets, 35 unfinished sources, known rejected trials,
+validation limits and exact restart files. The required originals and work files
+are ignored local data under `tmp/`; they are not present in a fresh clone.
+Resume unfinished-source extraction only when the user requests it. The subsequent
+authorized task is to fix `tmp/todos.md` only for the finished new assets, then
+integrate those finished assets into the real project after understanding its
+demo, resource and release workflows. Existing published artwork must not change.
+
+Finished historical integration (2026-10-12): `finished-additions.json` maps the
+frozen reviewed selection into real design names/resources; per-source methods,
+exact prompts and review history live in `audits/finished-assets/`. Preserve its
+explicit duplicate decisions. `finished-border-patterns.json` /
+`scripts/finished_assets.py` rebuild retained inputs only; two source repeats
+are divider-only. Derive capabilities from the presence of an approved atlas,
+not `kind` alone. `sets` names feed shared discovery and gallery group links.
+Component ownership includes bars and all four explicitly named corner phases.
+Read the current local-integration gates at the end of PACKAGE-PLAN.md before
+publishing. The separate unfinished-source handoff remains in effect.

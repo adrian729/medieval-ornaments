@@ -1,0 +1,139 @@
+{
+  "source_id": "erara-gessner-beaver-626789",
+  "assets": [
+    {
+      "id": "erara-gessner-beaver-626789--beaver",
+      "name": "beaver",
+      "source_id": "erara-gessner-beaver-626789",
+      "source_folder": "e-rara-gessner",
+      "asset_type": "illustration",
+      "description": "A beaver with its complete scaly paddle tail, paws, claws, fur and ears. Part of the Gessner Historiae Animalium set.",
+      "source_region": [
+        1289,
+        317,
+        2870,
+        3619
+      ],
+      "rotation_clockwise": 90,
+      "export_crop": [
+        154,
+        196,
+        2978,
+        1350
+      ],
+      "width": 2824,
+      "height": 1154,
+      "png": "e-rara-gessner/erara-gessner-beaver-626789--beaver.png",
+      "png_sha256": "4ac8e912cff27fd9c3c47da56f8885aac3daae2506f1877decd2c2080892a965",
+      "provenance": {
+        "institution": "Zentralbibliothek Zürich",
+        "title": "Gessner, Historiae animalium: De castore.",
+        "object_identifier": "5.1: a-5.3; image 626789; section De castore.",
+        "date": "1551–1587",
+        "record_url": "https://www.e-rara.ch/zuz/content/pageview/626789",
+        "image_rights": "Public Domain Mark; parent bibliographic record",
+        "rights_url": "https://www.e-rara.ch/zuz/content/titleinfo/637105",
+        "source_sha256": "e2160fb6f15897c1c57a3cb454c240893f3d641fcdb37e5ac11cd0b8193d2e47",
+        "source_file": "tmp/new-assets/e-rara-gessner/erara-gessner-beaver-626789--gessner-historiae-animalium-de-castore.jpg",
+        "source_metadata": "tmp/new-assets/e-rara-gessner/erara-gessner-beaver-626789.json",
+        "image_url": "https://www.e-rara.ch/i3f/v20/626789/full/full/0/default.jpg",
+        "method": "source-pixel-extraction-with-ai-assisted-selection-mask"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: precise-object-edit. Output ONLY an original-aligned two-color foreground selection matte. Preserve EXACTLY this input’s aspect ratio, size relationships, positions, pose and every contour. No recentering or reconstruction. Solid vivid MAGENTA #ff00ff selects the complete original animal illustration; solid CYAN #00ffff excludes ALL page paper, letters, text, caption, print showing through from the other page, stains and actual openings between limbs and around the tail or trunk. Select A beaver with its complete scaly paddle tail, paws, claws, fur and ears. The selected animal must be a FEATURELESS SOLID MAGENTA silhouette: every interior pale illustrated body surface, eye, dark ink line and hatch must be magenta with no copied internal features. Actual exterior page and genuine spaces between feet, tail, trunk or antler branches must remain cyan. Include every thin whisker, toe, claw, tip and hair at its original position. Do not simplify, move, enlarge, redraw or add anything. No white or black or other colors, no text on the mask. Exclude the horizontal ground hatching, cast shadows, ruled lines and lettering outside the animal’s actual contour.",
+        "selection_mask": "tmp/extraction-work/erara-gessner-beaver-626789--beaver--selection-mask.png",
+        "selection_mask_sha256": "b65ee1db2e7107fb3257e98dd115a43290a71da2f95b21fa28bf70ca49e53eab",
+        "mask_dimensions": [
+          1812,
+          868
+        ],
+        "mask_application": "binary selection resized to native source region; only alpha changed",
+        "mask_source_region": [
+          1289,
+          317,
+          2870,
+          3619
+        ],
+        "mask_encoding": "magenta-on-cyan",
+        "native_stroke_correction": null,
+        "native_paper_cleanup": null,
+        "native_boundary_refinement": null,
+        "mask_preprocessing": {
+          "fill_internal_holes_below_px": 250,
+          "remove_islands_below_px": 30
+        },
+        "native_rgb_verification": "all alpha-visible RGB values exactly equal the recorded native source crop; fully transparent RGB cleared",
+        "source_color_profile_preserved": true,
+        "source_pixels_repainted": false
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261010",
+        "notes": "Native overlay confirms paddle tail, teeth, whiskers, four paws and fine fur contour. Caption/letters and external ground excluded; original body RGB retained.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": "tmp/extraction-work/quality-reaudit-20261010/manifest.json"
+      },
+      "categories": [
+        "animals"
+      ],
+      "subjects": [
+        "beaver"
+      ],
+      "facing": "right",
+      "colors": [
+        "brown",
+        "cream"
+      ],
+      "composition": "single-figure",
+      "vector_review": {
+        "status": "accepted",
+        "method": "Editable native-color VTracer paths with eight-layer native PNG alpha contour mask, excluding opaque hidden pixels and stray trace islands.",
+        "premultiplied_rgb_error_at_review_resolution": 0.026053332384647264,
+        "alpha_error_at_review_resolution": 0.0008929305988129517,
+        "limitation": "Contours and scan tones are approximate. PNG retains original native source RGB and remains the preferred fidelity master.",
+        "embedded_raster": false,
+        "quality_round": "20261010"
+      },
+      "svg": "e-rara-gessner/erara-gessner-beaver-626789--beaver.svg",
+      "svg_sha256": "796ce19d7e5c884c6250624ad3bf36fdf365ab82cb0507b6a5f9803e3a5bf860",
+      "review_history": [
+        {
+          "round": "quality-reaudit-20261010",
+          "previous_review": {
+            "status": "accepted",
+            "reviewed_on": "2026-10-10T11:45:29.472044+00:00",
+            "notes": "Compared the complete animal against its source, checked corrected orientation, fur/ear/tail tips and paws, and inspected transparent exterior and true spaces between limbs on light and dark backgrounds. Native source RGB retained; SVG evaluation remains pending.",
+            "checks": [
+              "original-source-comparison",
+              "white-background",
+              "dark-background",
+              "outer-contours",
+              "interior-openings",
+              "thin-details",
+              "original-rgb-equality"
+            ]
+          }
+        }
+      ],
+      "sets": [
+        {
+          "id": "gessner-historiae-animalium",
+          "name": "Gessner Historiae Animalium",
+          "relation": "same historical zoological work and illustration family"
+        }
+      ],
+      "description_before_set_naming": "A beaver with its complete scaly paddle tail, paws, claws, fur and ears.",
+      "set_label": "Gessner Historiae Animalium"
+    }
+  ]
+}

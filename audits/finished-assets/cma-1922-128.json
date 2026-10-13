@@ -1,0 +1,111 @@
+{
+  "source_id": "cma-1922-128",
+  "assets": [
+    {
+      "id": "cma-1922-128--fish-and-flower-candelabrum-scroll",
+      "name": "fish-and-flower-candelabrum-scroll",
+      "source_id": "cma-1922-128",
+      "source_folder": "cleveland",
+      "asset_type": "decoration",
+      "description": "One complete tall connected ornament: the central decorated shaft and vase, every upper flower and leaf curl, both pairs of fantastic fish facing outward from the lower scrolls, and every connecting stem.",
+      "source_region": [
+        0,
+        0,
+        1859,
+        5052
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        31,
+        6,
+        716,
+        1995
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 685,
+      "height": 1989,
+      "png": "cleveland/cma-1922-128--fish-and-flower-candelabrum-scroll.png",
+      "png_sha256": "2f7b18a05d35b4a458c506920c50e3af53866b6ccfc2498b3eac9d3e0a519765",
+      "provenance": {
+        "institution": "Cleveland Museum of Art",
+        "title": "Ornament Design with Fishes",
+        "object_identifier": "1922.128",
+        "date": "1552",
+        "artist": "Heinrich Aldegrever (German, 1502–1555/61)",
+        "record_url": "https://clevelandart.org/art/1922.128",
+        "image_rights": "CC0; share_license_status=CC0",
+        "rights_url": "https://www.clevelandart.org/open-access",
+        "source_file": "tmp/new-assets/cleveland/cma-1922-128--ornament-design-with-fishes--master.tif",
+        "source_sha256": "88dc8f479e5d525f920c8a1dfe8e38eabee0359bbca68f941049fcd682f2e865",
+        "source_metadata": "tmp/new-assets/cleveland/cma-1922-128.json",
+        "image_url": null,
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: background-extraction. Edit target: the referenced ORIGINAL Renaissance engraving. Produce a faithful transparent cutout of the exact existing connected ornament. One complete tall connected ornament: the central decorated shaft and vase, every upper flower and leaf curl, both pairs of fantastic fish facing outward from the lower scrolls, and every connecting stem. Exclude the bottom printed date and AG cartouche, retaining all adjacent real plant contours. All fish belong to the connected scroll; do not separate them. The dense straight crosshatched rectangle BEHIND the ornament is background and must become completely transparent, including all openings between scrolls, figures and leaves. Retain the actual curved hatching INSIDE the figures, leaves and scrolls. Pale white engraved figure surfaces are opaque illustrated surfaces, not holes. Remove page paper, plate border, dirt, signatures and date/cartouche panels without cutting the real ornament or inventing shapes underneath. Preserve the original line weight, tiny engraving strokes, pose, proportions, asymmetry, source print grain and dark warm-black/brown ink. Preserve every tip, limb, wing, fish tail and delicate connecting stroke. No beautification, simplification, symmetry correction, new shading, redrawn clean vector style, hard polygon or scaled pixel outline. Do not compress the source aspect ratio. Only remove the unrelated background and marks. True transparent alpha, no checkerboard painted into the image, no shadow or framing rectangle.",
+        "retained_generated_extraction": "tmp/extraction-work/cma-1922-128--fish-and-flower-candelabrum-scroll--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "ff274eb61877ea822c4fef667e0605ff21ad51bbc5bcc713ea91ae113ce44ae3",
+        "retained_generated_size": [
+          761,
+          2067
+        ],
+        "resolution_cap_scale": 1,
+        "resolution_capped_size": [
+          761,
+          2067
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          1859,
+          5052
+        ],
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 63892
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "approval_scope": "Extraction-workflow source comparison; provisional for maintainer review.",
+        "checks": [
+          "complete-connected-subject",
+          "original-proportions",
+          "true-transparent-scroll-openings",
+          "opaque-pale-engraved-surfaces",
+          "fine-antialiased-edges",
+          "white-and-dark-backgrounds",
+          "no-upscaling"
+        ],
+        "notes": "Compared the full untouched original with the complete connected ornament on white and dark. Background crosshatching and cartouche marks removed; foreground hatching, figures, curls and fine tips retained. AI-assisted appearance remains approximate and is explicitly labeled. PNG only because a new vector redraw would change engraved detail.",
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/cleveland-three-source-white-dark.jpg"
+        ]
+      },
+      "categories": [
+        "floral",
+        "fantasy"
+      ],
+      "subjects": [
+        "scroll",
+        "leaf",
+        "ornament"
+      ],
+      "facing": "mixed",
+      "colors": [
+        "black",
+        "brown",
+        "cream"
+      ],
+      "composition": "single-ornament",
+      "usage_notes": "Finite connected Renaissance ornament. The source establishes no seamless cycle; no repeat or corner atlas is inferred. AI-assisted background extraction retains opaque illustrated pale surfaces; exact prompt and untouched original retained."
+    }
+  ]
+}

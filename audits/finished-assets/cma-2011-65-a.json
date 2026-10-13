@@ -1,0 +1,1400 @@
+{
+  "source_id": "cma-2011-65-a",
+  "assets": [
+    {
+      "id": "cma-2011-65-a--connected-gray-acanthus-network-with-three-curled-lobes",
+      "name": "connected-gray-acanthus-network-with-three-curled-lobes",
+      "source_id": "cma-2011-65-a",
+      "source_folder": "cleveland",
+      "asset_type": "decoration",
+      "description": "A connected gray acanthus network spreads three large curled lobes and smaller folded leaves across the lower margin. Part of the May Calendar floral ornaments set.",
+      "source_region": [
+        2071,
+        5357,
+        4471,
+        6529
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        85,
+        65,
+        1809,
+        1145
+      ],
+      "export_crop_coordinate_space": "original-native-source-region",
+      "width": 1724,
+      "height": 1080,
+      "png": "cleveland/cma-2011-65-a--connected-gray-acanthus-network-with-three-curled-lobes.png",
+      "png_sha256": "0008ae27f61c145d3bd808264278d8976df3380569defbb97bfdd5aa268d50db",
+      "provenance": {
+        "institution": "Cleveland Museum of Art",
+        "title": "Leaf from a Book of Hours: Calendar Page for May (recto)",
+        "object_identifier": "2011.65.a",
+        "date": "c. 1510",
+        "record_url": "https://clevelandart.org/art/2011.65.a",
+        "image_rights": "CC0; share_license_status=CC0",
+        "rights_url": "https://www.clevelandart.org/open-access",
+        "source_file": "tmp/new-assets/cleveland/cma-2011-65-a--leaf-from-a-book-of-hours-calendar-page-for-may-recto--master.tif",
+        "source_sha256": "9c05df87df5be107cc387fca4fbc7dc5795487b45243f46e82f9968f9e3a44dd",
+        "source_metadata": "tmp/new-assets/cleveland/cma-2011-65-a.json",
+        "image_url": "https://openaccess-cdn.clevelandart.org/2011.65.a/2011.65.a_full.tif",
+        "method": "native-source-continuous-edge-matting"
+      },
+      "extraction": {
+        "candidate_png": "tmp/extraction-work/continuation-20261010/cma-2011-65-a--connected-gray-acanthus-network-with-three-curled-lobes--refined-original-native-candidate.png",
+        "native_export_crop": [
+          85,
+          65,
+          1809,
+          1145
+        ],
+        "export_crop_coordinate_space": "original-native-source-region",
+        "annotation_json": "tmp/extraction-work/continuation-20261010/cma-2011-65-a--connected-gray-acanthus-network-with-three-curled-lobes--refined-original-native-audit.json",
+        "trimap_png": "tmp/extraction-work/continuation-20261010/cma-2011-65-a--connected-gray-acanthus-network-with-three-curled-lobes--refined-original-native-trimap.png",
+        "native_source_size": [
+          2400,
+          1172
+        ],
+        "native_upscaling": false,
+        "source_pixels_redrawn": false,
+        "original_opaque_rgb_preserved": true,
+        "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+        "alpha_guide": {
+          "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+          "guide_png": "tmp/extraction-work/continuation-20261010/cma-2011-65-a--connected-gray-acanthus-network-with-three-curled-lobes--native-alpha-reference.png",
+          "guide_sha256": "c3aaf5a7dbecc2382814ab5a48d69530442db2fea2825bf60ba1e3eef776b4e1",
+          "native_original": "tmp/extraction-work/continuation-20261010/cma-2011-65-a--connected-gray-acanthus-network-with-three-curled-lobes--original.png",
+          "similarity_ai_alpha_to_original": [
+            [
+              1.108429078858429,
+              0.05596645214109808,
+              -55.55968422799544
+            ],
+            [
+              -0.05596645214109808,
+              1.108429078858429,
+              130.51585036754935
+            ]
+          ],
+          "matching_feature_pairs": 132,
+          "inlier_feature_pairs": 18,
+          "inlier_rms_native_pixels": 3.251403971537455,
+          "source_inspection_factor": 0.75,
+          "unknown_edge_band_native_pixels": 3,
+          "edge_solve_tile_size": 640,
+          "edge_solve_halo": 32,
+          "edge_solve_tiles": 6,
+          "original_opaque_rgb_preserved": true
+        },
+        "status": "awaiting-original-white-dark-review",
+        "native_refinement": {
+          "method": "Final source-native grid review removes the remaining independent green-leaf root protruding beyond the actual gray stem boundary, locally x817..890,y315..401. The gray stem, dark original shading, all three lobes and source-visible lower tip remain. Continuous native alpha; no background rule, no drawing replacement.",
+          "source": "tmp/extraction-work/continuation-20261010/cma-2011-65-a--connected-gray-acanthus-network-with-three-curled-lobes--original.png",
+          "previous_native_matte": {
+            "candidate_png": "tmp/extraction-work/continuation-20261010/cma-2011-65-a--connected-gray-acanthus-network-with-three-curled-lobes--refined-original-native-candidate.png",
+            "native_export_crop": [
+              85,
+              65,
+              1809,
+              1143
+            ],
+            "export_crop_coordinate_space": "original-native-source-region",
+            "annotation_json": "tmp/extraction-work/continuation-20261010/cma-2011-65-a--connected-gray-acanthus-network-with-three-curled-lobes--refined-original-native-audit.json",
+            "trimap_png": "tmp/extraction-work/continuation-20261010/cma-2011-65-a--connected-gray-acanthus-network-with-three-curled-lobes--refined-original-native-trimap.png",
+            "native_source_size": [
+              2400,
+              1172
+            ],
+            "native_upscaling": false,
+            "source_pixels_redrawn": false,
+            "original_opaque_rgb_preserved": true,
+            "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+            "alpha_guide": {
+              "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+              "guide_png": "tmp/extraction-work/continuation-20261010/cma-2011-65-a--connected-gray-acanthus-network-with-three-curled-lobes--native-alpha-reference.png",
+              "guide_sha256": "c3aaf5a7dbecc2382814ab5a48d69530442db2fea2825bf60ba1e3eef776b4e1",
+              "native_original": "tmp/extraction-work/continuation-20261010/cma-2011-65-a--connected-gray-acanthus-network-with-three-curled-lobes--original.png",
+              "similarity_ai_alpha_to_original": [
+                [
+                  1.108429078858429,
+                  0.05596645214109808,
+                  -55.55968422799544
+                ],
+                [
+                  -0.05596645214109808,
+                  1.108429078858429,
+                  130.51585036754935
+                ]
+              ],
+              "matching_feature_pairs": 132,
+              "inlier_feature_pairs": 18,
+              "inlier_rms_native_pixels": 3.251403971537455,
+              "source_inspection_factor": 0.75,
+              "unknown_edge_band_native_pixels": 3,
+              "edge_solve_tile_size": 640,
+              "edge_solve_halo": 32,
+              "edge_solve_tiles": 6,
+              "original_opaque_rgb_preserved": true
+            },
+            "status": "awaiting-original-white-dark-review",
+            "native_refinement": {
+              "method": "Final native source ownership cleanup removes the disconnected warm page-rule residue only below source row 1088 and the independent green-leaf contour in its inspected local x833..973,y270..345 interface. The actual gray lower tip projecting through the page rule stays opaque; all contacting three-curl gray network and gray terminal retained. Native continuous alpha, original source RGB, no reconstruction.",
+              "source": "tmp/extraction-work/continuation-20261010/cma-2011-65-a--connected-gray-acanthus-network-with-three-curled-lobes--original.png",
+              "previous_native_matte": {
+                "candidate_png": "tmp/extraction-work/continuation-20261010/cma-2011-65-a--connected-gray-acanthus-network-with-three-curled-lobes--refined-original-native-candidate.png",
+                "native_export_crop": [
+                  85,
+                  65,
+                  1809,
+                  1149
+                ],
+                "export_crop_coordinate_space": "original-native-source-region",
+                "annotation_json": "tmp/extraction-work/continuation-20261010/cma-2011-65-a--connected-gray-acanthus-network-with-three-curled-lobes--refined-original-native-audit.json",
+                "trimap_png": "tmp/extraction-work/continuation-20261010/cma-2011-65-a--connected-gray-acanthus-network-with-three-curled-lobes--refined-original-native-trimap.png",
+                "native_source_size": [
+                  2400,
+                  1172
+                ],
+                "native_upscaling": false,
+                "source_pixels_redrawn": false,
+                "original_opaque_rgb_preserved": true,
+                "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+                "alpha_guide": {
+                  "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+                  "guide_png": "tmp/extraction-work/continuation-20261010/cma-2011-65-a--connected-gray-acanthus-network-with-three-curled-lobes--native-alpha-reference.png",
+                  "guide_sha256": "c3aaf5a7dbecc2382814ab5a48d69530442db2fea2825bf60ba1e3eef776b4e1",
+                  "native_original": "tmp/extraction-work/continuation-20261010/cma-2011-65-a--connected-gray-acanthus-network-with-three-curled-lobes--original.png",
+                  "similarity_ai_alpha_to_original": [
+                    [
+                      1.108429078858429,
+                      0.05596645214109808,
+                      -55.55968422799544
+                    ],
+                    [
+                      -0.05596645214109808,
+                      1.108429078858429,
+                      130.51585036754935
+                    ]
+                  ],
+                  "matching_feature_pairs": 132,
+                  "inlier_feature_pairs": 18,
+                  "inlier_rms_native_pixels": 3.251403971537455,
+                  "source_inspection_factor": 0.75,
+                  "unknown_edge_band_native_pixels": 3,
+                  "edge_solve_tile_size": 640,
+                  "edge_solve_halo": 32,
+                  "edge_solve_tiles": 6,
+                  "original_opaque_rgb_preserved": true
+                },
+                "status": "awaiting-original-white-dark-review",
+                "native_refinement": {
+                  "method": "Final complete native source scroll. Full original bottom-tip close-up confirms the lower three-curl stem tip projects slightly over the manuscript frame rule: its actual gray source pixels are retained through native row 1135. The separately owned dark page rule is background, not a false straight baseline. Original contacting leaves, dark folds and genuine openings preserved; source RGB and original proportions only.",
+                  "source": "tmp/extraction-work/continuation-20261010/cma-2011-65-a--connected-gray-acanthus-network-with-three-curled-lobes--original.png",
+                  "previous_native_matte": {
+                    "candidate_png": "tmp/extraction-work/continuation-20261010/cma-2011-65-a--connected-gray-acanthus-network-with-three-curled-lobes--refined-original-native-candidate.png",
+                    "native_export_crop": [
+                      85,
+                      65,
+                      1809,
+                      1124
+                    ],
+                    "export_crop_coordinate_space": "original-native-source-region",
+                    "annotation_json": "tmp/extraction-work/continuation-20261010/cma-2011-65-a--connected-gray-acanthus-network-with-three-curled-lobes--refined-original-native-audit.json",
+                    "trimap_png": "tmp/extraction-work/continuation-20261010/cma-2011-65-a--connected-gray-acanthus-network-with-three-curled-lobes--refined-original-native-trimap.png",
+                    "native_source_size": [
+                      2400,
+                      1172
+                    ],
+                    "native_upscaling": false,
+                    "source_pixels_redrawn": false,
+                    "original_opaque_rgb_preserved": true,
+                    "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+                    "alpha_guide": {
+                      "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+                      "guide_png": "tmp/extraction-work/continuation-20261010/cma-2011-65-a--connected-gray-acanthus-network-with-three-curled-lobes--native-alpha-reference.png",
+                      "guide_sha256": "c3aaf5a7dbecc2382814ab5a48d69530442db2fea2825bf60ba1e3eef776b4e1",
+                      "native_original": "tmp/extraction-work/continuation-20261010/cma-2011-65-a--connected-gray-acanthus-network-with-three-curled-lobes--original.png",
+                      "similarity_ai_alpha_to_original": [
+                        [
+                          1.108429078858429,
+                          0.05596645214109808,
+                          -55.55968422799544
+                        ],
+                        [
+                          -0.05596645214109808,
+                          1.108429078858429,
+                          130.51585036754935
+                        ]
+                      ],
+                      "matching_feature_pairs": 132,
+                      "inlier_feature_pairs": 18,
+                      "inlier_rms_native_pixels": 3.251403971537455,
+                      "source_inspection_factor": 0.75,
+                      "unknown_edge_band_native_pixels": 3,
+                      "edge_solve_tile_size": 640,
+                      "edge_solve_halo": 32,
+                      "edge_solve_tiles": 6,
+                      "original_opaque_rgb_preserved": true
+                    },
+                    "status": "awaiting-original-white-dark-review",
+                    "native_refinement": {
+                      "method": "Final source-only owner cleanup after whole original comparison: contacting gray/cream leaves and dark curved folds retained. Warm exterior parchment near the S-scroll text-frame contacts is explicitly background; separately owned green-leaf contour touching the upper three-curl scroll is excluded by its original green pigment in the individually inspected scope. Native source RGB, no contour redraw or scaling.",
+                      "source": "tmp/extraction-work/continuation-20261010/cma-2011-65-a--connected-gray-acanthus-network-with-three-curled-lobes--original.png",
+                      "previous_native_matte": {
+                        "candidate_png": "tmp/extraction-work/continuation-20261010/cma-2011-65-a--connected-gray-acanthus-network-with-three-curled-lobes--refined-original-native-candidate.png",
+                        "native_export_crop": [
+                          85,
+                          65,
+                          1809,
+                          1124
+                        ],
+                        "export_crop_coordinate_space": "original-native-source-region",
+                        "annotation_json": "tmp/extraction-work/continuation-20261010/cma-2011-65-a--connected-gray-acanthus-network-with-three-curled-lobes--refined-original-native-audit.json",
+                        "trimap_png": "tmp/extraction-work/continuation-20261010/cma-2011-65-a--connected-gray-acanthus-network-with-three-curled-lobes--refined-original-native-trimap.png",
+                        "native_source_size": [
+                          2400,
+                          1172
+                        ],
+                        "native_upscaling": false,
+                        "source_pixels_redrawn": false,
+                        "original_opaque_rgb_preserved": true,
+                        "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+                        "alpha_guide": {
+                          "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+                          "guide_png": "tmp/extraction-work/continuation-20261010/cma-2011-65-a--connected-gray-acanthus-network-with-three-curled-lobes--native-alpha-reference.png",
+                          "guide_sha256": "c3aaf5a7dbecc2382814ab5a48d69530442db2fea2825bf60ba1e3eef776b4e1",
+                          "native_original": "tmp/extraction-work/continuation-20261010/cma-2011-65-a--connected-gray-acanthus-network-with-three-curled-lobes--original.png",
+                          "similarity_ai_alpha_to_original": [
+                            [
+                              1.108429078858429,
+                              0.05596645214109808,
+                              -55.55968422799544
+                            ],
+                            [
+                              -0.05596645214109808,
+                              1.108429078858429,
+                              130.51585036754935
+                            ]
+                          ],
+                          "matching_feature_pairs": 132,
+                          "inlier_feature_pairs": 18,
+                          "inlier_rms_native_pixels": 3.251403971537455,
+                          "source_inspection_factor": 0.75,
+                          "unknown_edge_band_native_pixels": 3,
+                          "edge_solve_tile_size": 640,
+                          "edge_solve_halo": 32,
+                          "edge_solve_tiles": 6,
+                          "original_opaque_rgb_preserved": true
+                        },
+                        "status": "awaiting-original-white-dark-review",
+                        "native_refinement": {
+                          "method": "Original native gray/cream acanthus and all contacting curls retained. Source-only rule and neighboring motif cleanup: native long straight page-frame ink excluded in its inspected edge corridors; unrelated blue flower outline, green leaf outlines and black ground specks excluded by ownership. Original gray/cream lobes, dark folded surfaces and native contours stay at source resolution. Three-pixel continuous source contour solve; no redraw or guessed restoration.",
+                          "source": "tmp/extraction-work/continuation-20261010/cma-2011-65-a--connected-gray-acanthus-network-with-three-curled-lobes--original.png",
+                          "previous_native_matte": {
+                            "candidate_png": "tmp/extraction-work/continuation-20261010/cma-2011-65-a--connected-gray-acanthus-network-with-three-curled-lobes--refined-original-native-candidate.png",
+                            "native_export_crop": [
+                              0,
+                              45,
+                              2400,
+                              1124
+                            ],
+                            "export_crop_coordinate_space": "original-native-source-region",
+                            "annotation_json": "tmp/extraction-work/continuation-20261010/cma-2011-65-a--connected-gray-acanthus-network-with-three-curled-lobes--refined-original-native-audit.json",
+                            "trimap_png": "tmp/extraction-work/continuation-20261010/cma-2011-65-a--connected-gray-acanthus-network-with-three-curled-lobes--refined-original-native-trimap.png",
+                            "native_source_size": [
+                              2400,
+                              1172
+                            ],
+                            "native_upscaling": false,
+                            "source_pixels_redrawn": false,
+                            "original_opaque_rgb_preserved": true,
+                            "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+                            "alpha_guide": {
+                              "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+                              "guide_png": "tmp/extraction-work/continuation-20261010/cma-2011-65-a--connected-gray-acanthus-network-with-three-curled-lobes--native-alpha-reference.png",
+                              "guide_sha256": "c3aaf5a7dbecc2382814ab5a48d69530442db2fea2825bf60ba1e3eef776b4e1",
+                              "native_original": "tmp/extraction-work/continuation-20261010/cma-2011-65-a--connected-gray-acanthus-network-with-three-curled-lobes--original.png",
+                              "similarity_ai_alpha_to_original": [
+                                [
+                                  1.108429078858429,
+                                  0.05596645214109808,
+                                  -55.55968422799544
+                                ],
+                                [
+                                  -0.05596645214109808,
+                                  1.108429078858429,
+                                  130.51585036754935
+                                ]
+                              ],
+                              "matching_feature_pairs": 132,
+                              "inlier_feature_pairs": 18,
+                              "inlier_rms_native_pixels": 3.251403971537455,
+                              "source_inspection_factor": 0.75,
+                              "unknown_edge_band_native_pixels": 3,
+                              "edge_solve_tile_size": 640,
+                              "edge_solve_halo": 32,
+                              "edge_solve_tiles": 6,
+                              "original_opaque_rgb_preserved": true
+                            },
+                            "status": "awaiting-original-white-dark-review",
+                            "native_refinement": {
+                              "method": "Original gray/cream pigment and its nearby dark original contour within the inspected painted margin. Upper/lower parchment and unrelated text-frame rules excluded by source location. Native cold gray/cream colors select the actual source curves, avoiding the globally distorted three-curl generated guide. Pale painted surfaces and enclosed original wear remain opaque; large genuine scroll openings clear. Continuous three-native-pixel original edge fitting, no scaled source RGB or redraw.",
+                              "source": "tmp/extraction-work/continuation-20261010/cma-2011-65-a--connected-gray-acanthus-network-with-three-curled-lobes--original.png",
+                              "previous_native_matte": {
+                                "candidate_png": "tmp/extraction-work/continuation-20261010/cma-2011-65-a--connected-gray-acanthus-network-with-three-curled-lobes--refined-original-native-candidate.png",
+                                "native_export_crop": [
+                                  41,
+                                  52,
+                                  1901,
+                                  1084
+                                ],
+                                "export_crop_coordinate_space": "original-native-source-region",
+                                "annotation_json": "tmp/extraction-work/continuation-20261010/cma-2011-65-a--connected-gray-acanthus-network-with-three-curled-lobes--refined-original-native-audit.json",
+                                "trimap_png": "tmp/extraction-work/continuation-20261010/cma-2011-65-a--connected-gray-acanthus-network-with-three-curled-lobes--refined-original-native-trimap.png",
+                                "native_source_size": [
+                                  2400,
+                                  1172
+                                ],
+                                "native_upscaling": false,
+                                "source_pixels_redrawn": false,
+                                "original_opaque_rgb_preserved": true,
+                                "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+                                "alpha_guide": {
+                                  "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+                                  "guide_png": "tmp/extraction-work/continuation-20261010/cma-2011-65-a--connected-gray-acanthus-network-with-three-curled-lobes--native-alpha-reference.png",
+                                  "guide_sha256": "c3aaf5a7dbecc2382814ab5a48d69530442db2fea2825bf60ba1e3eef776b4e1",
+                                  "native_original": "tmp/extraction-work/continuation-20261010/cma-2011-65-a--connected-gray-acanthus-network-with-three-curled-lobes--original.png",
+                                  "similarity_ai_alpha_to_original": [
+                                    [
+                                      1.108429078858429,
+                                      0.05596645214109808,
+                                      -55.55968422799544
+                                    ],
+                                    [
+                                      -0.05596645214109808,
+                                      1.108429078858429,
+                                      130.51585036754935
+                                    ]
+                                  ],
+                                  "matching_feature_pairs": 132,
+                                  "inlier_feature_pairs": 18,
+                                  "inlier_rms_native_pixels": 3.251403971537455,
+                                  "source_inspection_factor": 0.75,
+                                  "unknown_edge_band_native_pixels": 3,
+                                  "edge_solve_tile_size": 640,
+                                  "edge_solve_halo": 32,
+                                  "edge_solve_tiles": 6,
+                                  "original_opaque_rgb_preserved": true
+                                },
+                                "status": "awaiting-original-white-dark-review",
+                                "native_refinement": {
+                                  "method": "Original successful single SIFT registration supplies ownership only; narrow two-native-pixel original RGB contour matting. Broad gray-color/envelope trials that admitted parchment are rejected. Original cream/gray surfaces, dark folded leaves and all curls retained. Full source verifies that the upper leaf-like tassel actually meets the main gray scroll at its pointed left root, so this is a contacting group. No inferred split, source resizing, redraw or invented hidden end.",
+                                  "source": "tmp/extraction-work/continuation-20261010/cma-2011-65-a--connected-gray-acanthus-network-with-three-curled-lobes--original.png",
+                                  "previous_native_matte": {
+                                    "candidate_png": "tmp/extraction-work/continuation-20261010/cma-2011-65-a--connected-gray-acanthus-network-with-three-curled-lobes--registered-native-candidate.png",
+                                    "native_export_crop": [
+                                      40,
+                                      51,
+                                      1902,
+                                      1084
+                                    ],
+                                    "export_crop_coordinate_space": "original-native-source-region",
+                                    "annotation_json": "tmp/extraction-work/continuation-20261010/cma-2011-65-a--connected-gray-acanthus-network-with-three-curled-lobes--registered-native-annotation.json",
+                                    "trimap_png": "tmp/extraction-work/continuation-20261010/cma-2011-65-a--connected-gray-acanthus-network-with-three-curled-lobes--registered-native-trimap.png",
+                                    "native_source_size": [
+                                      2400,
+                                      1172
+                                    ],
+                                    "native_upscaling": false,
+                                    "source_pixels_redrawn": false,
+                                    "original_opaque_rgb_preserved": true,
+                                    "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+                                    "alpha_guide": {
+                                      "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+                                      "guide_png": "tmp/extraction-work/continuation-20261010/cma-2011-65-a--connected-gray-acanthus-network-with-three-curled-lobes--native-alpha-reference.png",
+                                      "guide_sha256": "c3aaf5a7dbecc2382814ab5a48d69530442db2fea2825bf60ba1e3eef776b4e1",
+                                      "native_original": "tmp/extraction-work/continuation-20261010/cma-2011-65-a--connected-gray-acanthus-network-with-three-curled-lobes--original.png",
+                                      "similarity_ai_alpha_to_original": [
+                                        [
+                                          1.108429078858429,
+                                          0.05596645214109808,
+                                          -55.55968422799544
+                                        ],
+                                        [
+                                          -0.05596645214109808,
+                                          1.108429078858429,
+                                          130.51585036754935
+                                        ]
+                                      ],
+                                      "matching_feature_pairs": 132,
+                                      "inlier_feature_pairs": 18,
+                                      "inlier_rms_native_pixels": 3.251403971537455,
+                                      "source_inspection_factor": 0.75,
+                                      "unknown_edge_band_native_pixels": 3,
+                                      "edge_solve_tile_size": 640,
+                                      "edge_solve_halo": 32,
+                                      "edge_solve_tiles": 6,
+                                      "original_opaque_rgb_preserved": true
+                                    },
+                                    "status": "awaiting-original-white-dark-review"
+                                  },
+                                  "unknown_band_native_pixels": 2,
+                                  "source_rgb_redrawn": false,
+                                  "source_resized": false,
+                                  "original_opaque_rgb_preserved": true,
+                                  "ownership": "tmp/extraction-work/continuation-20261010/cma-2011-65-a--connected-gray-acanthus-network-with-three-curled-lobes--refined-original-native-ownership.png",
+                                  "ownership_sha256": "9b5d9f049ee5cc2bab90f39a2b97151d7a4650ab107e9a653d889d723a218213",
+                                  "original_registration": {
+                                    "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+                                    "guide_png": "tmp/extraction-work/continuation-20261010/cma-2011-65-a--connected-gray-acanthus-network-with-three-curled-lobes--native-alpha-reference.png",
+                                    "guide_sha256": "c3aaf5a7dbecc2382814ab5a48d69530442db2fea2825bf60ba1e3eef776b4e1",
+                                    "native_original": "tmp/extraction-work/continuation-20261010/cma-2011-65-a--connected-gray-acanthus-network-with-three-curled-lobes--original.png",
+                                    "similarity_ai_alpha_to_original": [
+                                      [
+                                        1.108429078858429,
+                                        0.05596645214109808,
+                                        -55.55968422799544
+                                      ],
+                                      [
+                                        -0.05596645214109808,
+                                        1.108429078858429,
+                                        130.51585036754935
+                                      ]
+                                    ],
+                                    "matching_feature_pairs": 132,
+                                    "inlier_feature_pairs": 18,
+                                    "inlier_rms_native_pixels": 3.251403971537455,
+                                    "source_inspection_factor": 0.75,
+                                    "unknown_edge_band_native_pixels": 3,
+                                    "edge_solve_tile_size": 640,
+                                    "edge_solve_halo": 32,
+                                    "edge_solve_tiles": 6,
+                                    "original_opaque_rgb_preserved": true
+                                  },
+                                  "tassel_contact_verified_with": "cma65-gray-tassel-source-native.png",
+                                  "full_lower_terminal_verified_with": "cma65-gray-scroll-lower-native-original.png"
+                                }
+                              },
+                              "unknown_band_native_pixels": 3,
+                              "source_rgb_redrawn": false,
+                              "source_resized": false,
+                              "original_opaque_rgb_preserved": true,
+                              "ownership": "tmp/extraction-work/continuation-20261010/cma-2011-65-a--connected-gray-acanthus-network-with-three-curled-lobes--refined-original-native-ownership.png",
+                              "ownership_sha256": "a1a00c8d3eaaa1dd0166adaca46f729d2a55e921be42d06b7a8f6f6436b4ebda",
+                              "gray_pigment": "abs(R-G)<20,G-B<23,B-G<25,R-B<28,B-R<30",
+                              "dark_contour_nearness_native": 4.5,
+                              "scope_notes": "Original painted gold margin only; explicitly excluded adjoining paper"
+                            }
+                          },
+                          "unknown_band_native_pixels": 3,
+                          "source_rgb_redrawn": false,
+                          "source_resized": false,
+                          "original_opaque_rgb_preserved": true,
+                          "ownership": "tmp/extraction-work/continuation-20261010/cma-2011-65-a--connected-gray-acanthus-network-with-three-curled-lobes--refined-original-native-ownership.png",
+                          "ownership_sha256": "586f5691544160b8652aa6c9b45e2a8921c777a9ba93d85142eb42f3c2e88a1c",
+                          "extrinsic_rule_opening_shape": [
+                            1,
+                            340
+                          ],
+                          "original_full_gray_group_components_preserved_minimum_native_area": 12000,
+                          "upper_gray_ear_source_verified": "cma65-network-upper-contact-native-grid.png"
+                        }
+                      },
+                      "unknown_band_native_pixels": 3,
+                      "source_rgb_redrawn": false,
+                      "source_resized": false,
+                      "original_opaque_rgb_preserved": true,
+                      "ownership": "tmp/extraction-work/continuation-20261010/cma-2011-65-a--connected-gray-acanthus-network-with-three-curled-lobes--refined-original-native-ownership.png",
+                      "ownership_sha256": "d91b634357c10dda60308589e8df9123e5eae25a207ca55b3beaab7382563339",
+                      "cleanup_source_owner_scope": "Native text-frame edge contacts and independently owned green leaf only",
+                      "all_previous_rejected_trials_retained_privately": true
+                    }
+                  },
+                  "unknown_band_native_pixels": 3,
+                  "source_rgb_redrawn": false,
+                  "source_resized": false,
+                  "original_opaque_rgb_preserved": true,
+                  "ownership": "tmp/extraction-work/continuation-20261010/cma-2011-65-a--connected-gray-acanthus-network-with-three-curled-lobes--refined-original-native-ownership.png",
+                  "ownership_sha256": "5ecbbe0a349d26ff6ff64d2361bd63aa402136a7047312856c6649b8c0756fda",
+                  "verified_lower_native_source_tip": "cma65-network-bottom-point-original-native.png",
+                  "native_tip_ownership_vertices": [
+                    [
+                      426,
+                      1080
+                    ],
+                    [
+                      469,
+                      1100
+                    ],
+                    [
+                      505,
+                      1123
+                    ],
+                    [
+                      505,
+                      1140
+                    ],
+                    [
+                      477,
+                      1135
+                    ],
+                    [
+                      457,
+                      1112
+                    ],
+                    [
+                      428,
+                      1107
+                    ]
+                  ]
+                }
+              },
+              "unknown_band_native_pixels": 3,
+              "source_rgb_redrawn": false,
+              "source_resized": false,
+              "original_opaque_rgb_preserved": true,
+              "ownership": "tmp/extraction-work/continuation-20261010/cma-2011-65-a--connected-gray-acanthus-network-with-three-curled-lobes--refined-original-native-ownership.png",
+              "ownership_sha256": "bb24ac2b73d4506d1d0a4d62585cc4c0a74f5ac3081349f2e06999ead6d75279",
+              "excluded_local_green_leaf_interface": [
+                [
+                  833,
+                  290
+                ],
+                [
+                  874,
+                  272
+                ],
+                [
+                  970,
+                  270
+                ],
+                [
+                  973,
+                  319
+                ],
+                [
+                  842,
+                  345
+                ]
+              ],
+              "removed_page_rule_source_rows": 1088
+            }
+          },
+          "unknown_band_native_pixels": 3,
+          "source_rgb_redrawn": false,
+          "source_resized": false,
+          "original_opaque_rgb_preserved": true,
+          "ownership": "tmp/extraction-work/continuation-20261010/cma-2011-65-a--connected-gray-acanthus-network-with-three-curled-lobes--refined-original-native-ownership.png",
+          "ownership_sha256": "947ef0c7abcabda53e766fc41c1570fc945cba88e3a648be4abdbe6a674c27da",
+          "independent_green_leaf_root_exclusion_native": {
+            "rows": [
+              315,
+              332,
+              353,
+              383,
+              401
+            ],
+            "gray_stem_outer_boundary_x": [
+              825,
+              827,
+              824,
+              820,
+              817
+            ]
+          }
+        },
+        "tool": "Original native scan / closed-form edge alpha and foreground decontamination",
+        "pixel_exact": false,
+        "ownership_guide_prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. Keep ONLY the complete connected GRAY ACANTHUS network in the bottom margin: all three large source curled lobes, the gray central connecting branches, every pointed folded gray leaf and all actual thin gray terminal flourishes. Keep the whole connected network together, not three independently dismembered curls. Remove the gold/tan field, fine brown vine crossing behind it, all separate blue/red flowers and green/gold leaves, page/text and black outer frame. Preserve the gray forms exactly where the original brown vine or other artwork occludes them; do not invent hidden gray stem pieces or reshape leaves. Clear all genuine scroll openings and keep pale gray body fills opaque. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_ownership_guide": {
+          "file": "tmp/extraction-work/cma-2011-65-a--connected-gray-acanthus-network-with-three-curled-lobes--retained-ai-extraction.png",
+          "sha256": "c3aaf5a7dbecc2382814ab5a48d69530442db2fea2825bf60ba1e3eef776b4e1",
+          "purpose": "Retained AI alpha guide only; delivered opaque RGB belongs to the unchanged native source."
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Whole original and white/dark results reviewed, including native-scale gray folds, the actual connected upper-right terminal, the lower point crossing the original frame rule and the green-leaf interface. False page baseline and independent leaf-root remnants removed. All original gray contact branches remain one ornament, genuine openings clear, source RGB unscaled.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/three-current-final-native-review-current-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/oval-network-last-native-boundary-review.png",
+          "tmp/extraction-work/continuation-20261010/cma65-scrolls-native-contact-and-lower-tip-review.png"
+        ]
+      },
+      "categories": [
+        "floral",
+        "scrollwork"
+      ],
+      "subjects": [
+        "acanthus",
+        "leaf",
+        "scroll",
+        "curl",
+        "stem"
+      ],
+      "colors": [
+        "gray",
+        "cream",
+        "black"
+      ],
+      "facing": "unclear",
+      "composition": "standalone",
+      "usage_notes": "Whole original contacting three-curl gray acanthus network, including its connected upper-right folded terminal and source-visible lower tip. Exterior gilt field, independent green foliage, paper and page rules are transparent. Native scan RGB retained at original scale, with continuous edge alpha; no invented hidden tips or SVG approximation.",
+      "sets": [
+        {
+          "id": "cma-2011-65-a-set",
+          "name": "May Calendar floral ornaments",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A connected gray acanthus network spreads three large curled lobes and smaller folded leaves across the lower margin.",
+      "set_label": "May Calendar floral ornaments"
+    },
+    {
+      "id": "cma-2011-65-a--gray-acanthus-s-scroll-with-curled-leaf-terminals",
+      "name": "gray-acanthus-s-scroll-with-curled-leaf-terminals",
+      "source_id": "cma-2011-65-a",
+      "source_folder": "cleveland",
+      "asset_type": "decoration",
+      "description": "A complete gray acanthus S scroll with curled and folded leaf terminals. Part of the May Calendar floral ornaments set.",
+      "source_region": [
+        3594,
+        1630,
+        4574,
+        4143
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        151,
+        465,
+        908,
+        2499
+      ],
+      "export_crop_coordinate_space": "original-native-source-region",
+      "width": 757,
+      "height": 2034,
+      "png": "cleveland/cma-2011-65-a--gray-acanthus-s-scroll-with-curled-leaf-terminals.png",
+      "png_sha256": "0b7733ca93cd4758853b3994fa5940119a915ddef5ac75f72c0803a89c3ac6fd",
+      "provenance": {
+        "institution": "Cleveland Museum of Art",
+        "title": "Leaf from a Book of Hours: Calendar Page for May (recto)",
+        "object_identifier": "2011.65.a",
+        "date": "c. 1510",
+        "record_url": "https://clevelandart.org/art/2011.65.a",
+        "image_rights": "CC0; share_license_status=CC0",
+        "rights_url": "https://www.clevelandart.org/open-access",
+        "source_file": "tmp/new-assets/cleveland/cma-2011-65-a--leaf-from-a-book-of-hours-calendar-page-for-may-recto--master.tif",
+        "source_sha256": "9c05df87df5be107cc387fca4fbc7dc5795487b45243f46e82f9968f9e3a44dd",
+        "source_metadata": "tmp/new-assets/cleveland/cma-2011-65-a.json",
+        "image_url": "https://openaccess-cdn.clevelandart.org/2011.65.a/2011.65.a_full.tif",
+        "method": "native-source-continuous-edge-matting"
+      },
+      "extraction": {
+        "candidate_png": "tmp/extraction-work/continuation-20261010/cma-2011-65-a--gray-acanthus-s-scroll-with-curled-leaf-terminals--refined-original-native-candidate.png",
+        "native_export_crop": [
+          151,
+          465,
+          908,
+          2499
+        ],
+        "export_crop_coordinate_space": "original-native-source-region",
+        "annotation_json": "tmp/extraction-work/continuation-20261010/cma-2011-65-a--gray-acanthus-s-scroll-with-curled-leaf-terminals--refined-original-native-audit.json",
+        "trimap_png": "tmp/extraction-work/continuation-20261010/cma-2011-65-a--gray-acanthus-s-scroll-with-curled-leaf-terminals--refined-original-native-trimap.png",
+        "native_source_size": [
+          980,
+          2513
+        ],
+        "native_upscaling": false,
+        "source_pixels_redrawn": false,
+        "original_opaque_rgb_preserved": true,
+        "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+        "alpha_guide": {
+          "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+          "guide_png": "tmp/extraction-work/continuation-20261010/cma-2011-65-a--gray-acanthus-s-scroll-with-curled-leaf-terminals--native-alpha-reference.png",
+          "guide_sha256": "b646ccec861c7de7764d6e3d8fc6843140650d2c9272c95ddedf02ebffcd837c",
+          "native_original": "tmp/extraction-work/continuation-20261010/cma-2011-65-a--gray-acanthus-s-scroll-with-curled-leaf-terminals--original.png",
+          "similarity_ai_alpha_to_original": [
+            [
+              1.066009494818898,
+              -0.006015073060946894,
+              9.77996488941496
+            ],
+            [
+              0.006015073060946894,
+              1.066009494818898,
+              118.66323434850614
+            ]
+          ],
+          "matching_feature_pairs": 164,
+          "inlier_feature_pairs": 53,
+          "inlier_rms_native_pixels": 2.407383233982659,
+          "source_inspection_factor": 0.8275862068965517,
+          "unknown_edge_band_native_pixels": 3,
+          "edge_solve_tile_size": 640,
+          "edge_solve_halo": 32,
+          "edge_solve_tiles": 7,
+          "original_opaque_rgb_preserved": true
+        },
+        "status": "awaiting-original-white-dark-review",
+        "native_refinement": {
+          "method": "Final complete native source scroll. Full original bottom-tip close-up confirms the lower three-curl stem tip projects slightly over the manuscript frame rule: its actual gray source pixels are retained through native row 1135. The separately owned dark page rule is background, not a false straight baseline. Original contacting leaves, dark folds and genuine openings preserved; source RGB and original proportions only.",
+          "source": "tmp/extraction-work/continuation-20261010/cma-2011-65-a--gray-acanthus-s-scroll-with-curled-leaf-terminals--complete-top-original.png",
+          "previous_native_matte": {
+            "candidate_png": "tmp/extraction-work/continuation-20261010/cma-2011-65-a--gray-acanthus-s-scroll-with-curled-leaf-terminals--refined-original-native-candidate.png",
+            "native_export_crop": [
+              151,
+              465,
+              908,
+              2499
+            ],
+            "export_crop_coordinate_space": "original-native-source-region",
+            "annotation_json": "tmp/extraction-work/continuation-20261010/cma-2011-65-a--gray-acanthus-s-scroll-with-curled-leaf-terminals--refined-original-native-audit.json",
+            "trimap_png": "tmp/extraction-work/continuation-20261010/cma-2011-65-a--gray-acanthus-s-scroll-with-curled-leaf-terminals--refined-original-native-trimap.png",
+            "native_source_size": [
+              980,
+              2513
+            ],
+            "native_upscaling": false,
+            "source_pixels_redrawn": false,
+            "original_opaque_rgb_preserved": true,
+            "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+            "alpha_guide": {
+              "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+              "guide_png": "tmp/extraction-work/continuation-20261010/cma-2011-65-a--gray-acanthus-s-scroll-with-curled-leaf-terminals--native-alpha-reference.png",
+              "guide_sha256": "b646ccec861c7de7764d6e3d8fc6843140650d2c9272c95ddedf02ebffcd837c",
+              "native_original": "tmp/extraction-work/continuation-20261010/cma-2011-65-a--gray-acanthus-s-scroll-with-curled-leaf-terminals--original.png",
+              "similarity_ai_alpha_to_original": [
+                [
+                  1.066009494818898,
+                  -0.006015073060946894,
+                  9.77996488941496
+                ],
+                [
+                  0.006015073060946894,
+                  1.066009494818898,
+                  118.66323434850614
+                ]
+              ],
+              "matching_feature_pairs": 164,
+              "inlier_feature_pairs": 53,
+              "inlier_rms_native_pixels": 2.407383233982659,
+              "source_inspection_factor": 0.8275862068965517,
+              "unknown_edge_band_native_pixels": 3,
+              "edge_solve_tile_size": 640,
+              "edge_solve_halo": 32,
+              "edge_solve_tiles": 7,
+              "original_opaque_rgb_preserved": true
+            },
+            "status": "awaiting-original-white-dark-review",
+            "native_refinement": {
+              "method": "Final source-only owner cleanup after whole original comparison: contacting gray/cream leaves and dark curved folds retained. Warm exterior parchment near the S-scroll text-frame contacts is explicitly background; separately owned green-leaf contour touching the upper three-curl scroll is excluded by its original green pigment in the individually inspected scope. Native source RGB, no contour redraw or scaling.",
+              "source": "tmp/extraction-work/continuation-20261010/cma-2011-65-a--gray-acanthus-s-scroll-with-curled-leaf-terminals--complete-top-original.png",
+              "previous_native_matte": {
+                "candidate_png": "tmp/extraction-work/continuation-20261010/cma-2011-65-a--gray-acanthus-s-scroll-with-curled-leaf-terminals--refined-original-native-candidate.png",
+                "native_export_crop": [
+                  151,
+                  464,
+                  908,
+                  2499
+                ],
+                "export_crop_coordinate_space": "original-native-source-region",
+                "annotation_json": "tmp/extraction-work/continuation-20261010/cma-2011-65-a--gray-acanthus-s-scroll-with-curled-leaf-terminals--refined-original-native-audit.json",
+                "trimap_png": "tmp/extraction-work/continuation-20261010/cma-2011-65-a--gray-acanthus-s-scroll-with-curled-leaf-terminals--refined-original-native-trimap.png",
+                "native_source_size": [
+                  980,
+                  2513
+                ],
+                "native_upscaling": false,
+                "source_pixels_redrawn": false,
+                "original_opaque_rgb_preserved": true,
+                "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+                "alpha_guide": {
+                  "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+                  "guide_png": "tmp/extraction-work/continuation-20261010/cma-2011-65-a--gray-acanthus-s-scroll-with-curled-leaf-terminals--native-alpha-reference.png",
+                  "guide_sha256": "b646ccec861c7de7764d6e3d8fc6843140650d2c9272c95ddedf02ebffcd837c",
+                  "native_original": "tmp/extraction-work/continuation-20261010/cma-2011-65-a--gray-acanthus-s-scroll-with-curled-leaf-terminals--original.png",
+                  "similarity_ai_alpha_to_original": [
+                    [
+                      1.066009494818898,
+                      -0.006015073060946894,
+                      9.77996488941496
+                    ],
+                    [
+                      0.006015073060946894,
+                      1.066009494818898,
+                      118.66323434850614
+                    ]
+                  ],
+                  "matching_feature_pairs": 164,
+                  "inlier_feature_pairs": 53,
+                  "inlier_rms_native_pixels": 2.407383233982659,
+                  "source_inspection_factor": 0.8275862068965517,
+                  "unknown_edge_band_native_pixels": 3,
+                  "edge_solve_tile_size": 640,
+                  "edge_solve_halo": 32,
+                  "edge_solve_tiles": 7,
+                  "original_opaque_rgb_preserved": true
+                },
+                "status": "awaiting-original-white-dark-review",
+                "native_refinement": {
+                  "method": "Original native gray/cream acanthus and all contacting curls retained. Source-only rule and neighboring motif cleanup: native long straight page-frame ink excluded in its inspected edge corridors; unrelated blue flower outline, green leaf outlines and black ground specks excluded by ownership. Original gray/cream lobes, dark folded surfaces and native contours stay at source resolution. Three-pixel continuous source contour solve; no redraw or guessed restoration.",
+                  "source": "tmp/extraction-work/continuation-20261010/cma-2011-65-a--gray-acanthus-s-scroll-with-curled-leaf-terminals--complete-top-original.png",
+                  "previous_native_matte": {
+                    "candidate_png": "tmp/extraction-work/continuation-20261010/cma-2011-65-a--gray-acanthus-s-scroll-with-curled-leaf-terminals--refined-original-native-candidate.png",
+                    "native_export_crop": [
+                      151,
+                      464,
+                      959,
+                      2499
+                    ],
+                    "export_crop_coordinate_space": "original-native-source-region",
+                    "annotation_json": "tmp/extraction-work/continuation-20261010/cma-2011-65-a--gray-acanthus-s-scroll-with-curled-leaf-terminals--refined-original-native-audit.json",
+                    "trimap_png": "tmp/extraction-work/continuation-20261010/cma-2011-65-a--gray-acanthus-s-scroll-with-curled-leaf-terminals--refined-original-native-trimap.png",
+                    "native_source_size": [
+                      980,
+                      2513
+                    ],
+                    "native_upscaling": false,
+                    "source_pixels_redrawn": false,
+                    "original_opaque_rgb_preserved": true,
+                    "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+                    "alpha_guide": {
+                      "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+                      "guide_png": "tmp/extraction-work/continuation-20261010/cma-2011-65-a--gray-acanthus-s-scroll-with-curled-leaf-terminals--native-alpha-reference.png",
+                      "guide_sha256": "b646ccec861c7de7764d6e3d8fc6843140650d2c9272c95ddedf02ebffcd837c",
+                      "native_original": "tmp/extraction-work/continuation-20261010/cma-2011-65-a--gray-acanthus-s-scroll-with-curled-leaf-terminals--original.png",
+                      "similarity_ai_alpha_to_original": [
+                        [
+                          1.066009494818898,
+                          -0.006015073060946894,
+                          9.77996488941496
+                        ],
+                        [
+                          0.006015073060946894,
+                          1.066009494818898,
+                          118.66323434850614
+                        ]
+                      ],
+                      "matching_feature_pairs": 164,
+                      "inlier_feature_pairs": 53,
+                      "inlier_rms_native_pixels": 2.407383233982659,
+                      "source_inspection_factor": 0.8275862068965517,
+                      "unknown_edge_band_native_pixels": 3,
+                      "edge_solve_tile_size": 640,
+                      "edge_solve_halo": 32,
+                      "edge_solve_tiles": 7,
+                      "original_opaque_rgb_preserved": true
+                    },
+                    "status": "awaiting-original-white-dark-review",
+                    "native_refinement": {
+                      "method": "Original gray/cream pigment and its nearby dark original contour within the inspected painted margin. Upper/lower parchment and unrelated text-frame rules excluded by source location. Native cold gray/cream colors select the actual source curves, avoiding the globally distorted three-curl generated guide. Pale painted surfaces and enclosed original wear remain opaque; large genuine scroll openings clear. Continuous three-native-pixel original edge fitting, no scaled source RGB or redraw.",
+                      "source": "tmp/extraction-work/continuation-20261010/cma-2011-65-a--gray-acanthus-s-scroll-with-curled-leaf-terminals--complete-top-original.png",
+                      "previous_native_matte": {
+                        "candidate_png": "tmp/extraction-work/continuation-20261010/cma-2011-65-a--gray-acanthus-s-scroll-with-curled-leaf-terminals--refined-original-native-candidate.png",
+                        "native_export_crop": [
+                          157,
+                          446,
+                          907,
+                          2498
+                        ],
+                        "export_crop_coordinate_space": "original-native-source-region",
+                        "annotation_json": "tmp/extraction-work/continuation-20261010/cma-2011-65-a--gray-acanthus-s-scroll-with-curled-leaf-terminals--refined-original-native-audit.json",
+                        "trimap_png": "tmp/extraction-work/continuation-20261010/cma-2011-65-a--gray-acanthus-s-scroll-with-curled-leaf-terminals--refined-original-native-trimap.png",
+                        "native_source_size": [
+                          980,
+                          2513
+                        ],
+                        "native_upscaling": false,
+                        "source_pixels_redrawn": false,
+                        "original_opaque_rgb_preserved": true,
+                        "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+                        "alpha_guide": {
+                          "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+                          "guide_png": "tmp/extraction-work/continuation-20261010/cma-2011-65-a--gray-acanthus-s-scroll-with-curled-leaf-terminals--native-alpha-reference.png",
+                          "guide_sha256": "b646ccec861c7de7764d6e3d8fc6843140650d2c9272c95ddedf02ebffcd837c",
+                          "native_original": "tmp/extraction-work/continuation-20261010/cma-2011-65-a--gray-acanthus-s-scroll-with-curled-leaf-terminals--original.png",
+                          "similarity_ai_alpha_to_original": [
+                            [
+                              1.066009494818898,
+                              -0.006015073060946894,
+                              9.77996488941496
+                            ],
+                            [
+                              0.006015073060946894,
+                              1.066009494818898,
+                              118.66323434850614
+                            ]
+                          ],
+                          "matching_feature_pairs": 164,
+                          "inlier_feature_pairs": 53,
+                          "inlier_rms_native_pixels": 2.407383233982659,
+                          "source_inspection_factor": 0.8275862068965517,
+                          "unknown_edge_band_native_pixels": 3,
+                          "edge_solve_tile_size": 640,
+                          "edge_solve_halo": 32,
+                          "edge_solve_tiles": 7,
+                          "original_opaque_rgb_preserved": true
+                        },
+                        "status": "awaiting-original-white-dark-review",
+                        "native_refinement": {
+                          "method": "Original successful single SIFT registration supplies ownership only; narrow two-native-pixel original RGB contour matting. Broad gray-color/envelope trials that admitted parchment are rejected. Original cream/gray surfaces, dark folded leaves and all curls retained. Full source verifies that the upper leaf-like tassel actually meets the main gray scroll at its pointed left root, so this is a contacting group. No inferred split, source resizing, redraw or invented hidden end.",
+                          "source": "tmp/extraction-work/continuation-20261010/cma-2011-65-a--gray-acanthus-s-scroll-with-curled-leaf-terminals--complete-top-original.png",
+                          "previous_native_matte": {
+                            "candidate_png": "tmp/extraction-work/continuation-20261010/cma-2011-65-a--gray-acanthus-s-scroll-with-curled-leaf-terminals--registered-native-candidate.png",
+                            "native_export_crop": [
+                              69,
+                              146,
+                              818,
+                              2175
+                            ],
+                            "export_crop_coordinate_space": "original-native-source-region",
+                            "annotation_json": "tmp/extraction-work/continuation-20261010/cma-2011-65-a--gray-acanthus-s-scroll-with-curled-leaf-terminals--registered-native-annotation.json",
+                            "trimap_png": "tmp/extraction-work/continuation-20261010/cma-2011-65-a--gray-acanthus-s-scroll-with-curled-leaf-terminals--registered-native-trimap.png",
+                            "native_source_size": [
+                              890,
+                              2175
+                            ],
+                            "native_upscaling": false,
+                            "source_pixels_redrawn": false,
+                            "original_opaque_rgb_preserved": true,
+                            "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+                            "alpha_guide": {
+                              "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+                              "guide_png": "tmp/extraction-work/continuation-20261010/cma-2011-65-a--gray-acanthus-s-scroll-with-curled-leaf-terminals--native-alpha-reference.png",
+                              "guide_sha256": "b646ccec861c7de7764d6e3d8fc6843140650d2c9272c95ddedf02ebffcd837c",
+                              "native_original": "tmp/extraction-work/continuation-20261010/cma-2011-65-a--gray-acanthus-s-scroll-with-curled-leaf-terminals--original.png",
+                              "similarity_ai_alpha_to_original": [
+                                [
+                                  1.066009494818898,
+                                  -0.006015073060946894,
+                                  9.77996488941496
+                                ],
+                                [
+                                  0.006015073060946894,
+                                  1.066009494818898,
+                                  118.66323434850614
+                                ]
+                              ],
+                              "matching_feature_pairs": 164,
+                              "inlier_feature_pairs": 53,
+                              "inlier_rms_native_pixels": 2.407383233982659,
+                              "source_inspection_factor": 0.8275862068965517,
+                              "unknown_edge_band_native_pixels": 3,
+                              "edge_solve_tile_size": 640,
+                              "edge_solve_halo": 32,
+                              "edge_solve_tiles": 7,
+                              "original_opaque_rgb_preserved": true
+                            },
+                            "status": "awaiting-original-white-dark-review"
+                          },
+                          "unknown_band_native_pixels": 2,
+                          "source_rgb_redrawn": false,
+                          "source_resized": false,
+                          "original_opaque_rgb_preserved": true,
+                          "ownership": "tmp/extraction-work/continuation-20261010/cma-2011-65-a--gray-acanthus-s-scroll-with-curled-leaf-terminals--refined-original-native-ownership.png",
+                          "ownership_sha256": "7d0e21a13e136094d669f42af00d10f61aff41a5c109f161cf6aecd9b30e4e51",
+                          "original_registration": {
+                            "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+                            "guide_png": "tmp/extraction-work/continuation-20261010/cma-2011-65-a--gray-acanthus-s-scroll-with-curled-leaf-terminals--native-alpha-reference.png",
+                            "guide_sha256": "b646ccec861c7de7764d6e3d8fc6843140650d2c9272c95ddedf02ebffcd837c",
+                            "native_original": "tmp/extraction-work/continuation-20261010/cma-2011-65-a--gray-acanthus-s-scroll-with-curled-leaf-terminals--original.png",
+                            "similarity_ai_alpha_to_original": [
+                              [
+                                1.066009494818898,
+                                -0.006015073060946894,
+                                9.77996488941496
+                              ],
+                              [
+                                0.006015073060946894,
+                                1.066009494818898,
+                                118.66323434850614
+                              ]
+                            ],
+                            "matching_feature_pairs": 164,
+                            "inlier_feature_pairs": 53,
+                            "inlier_rms_native_pixels": 2.407383233982659,
+                            "source_inspection_factor": 0.8275862068965517,
+                            "unknown_edge_band_native_pixels": 3,
+                            "edge_solve_tile_size": 640,
+                            "edge_solve_halo": 32,
+                            "edge_solve_tiles": 7,
+                            "original_opaque_rgb_preserved": true
+                          },
+                          "tassel_contact_verified_with": "cma65-gray-tassel-source-native.png",
+                          "full_lower_terminal_verified_with": "cma65-gray-scroll-lower-native-original.png"
+                        }
+                      },
+                      "unknown_band_native_pixels": 3,
+                      "source_rgb_redrawn": false,
+                      "source_resized": false,
+                      "original_opaque_rgb_preserved": true,
+                      "ownership": "tmp/extraction-work/continuation-20261010/cma-2011-65-a--gray-acanthus-s-scroll-with-curled-leaf-terminals--refined-original-native-ownership.png",
+                      "ownership_sha256": "458dea4c6d1e048d4fa4a7526d36c57668a363e6a164bce0a40012ce8fa74a6b",
+                      "gray_pigment": "abs(R-G)<20,G-B<23,B-G<25,R-B<28,B-R<30",
+                      "dark_contour_nearness_native": 4.5,
+                      "scope_notes": "Original painted gold margin only; explicitly excluded adjoining paper"
+                    }
+                  },
+                  "unknown_band_native_pixels": 3,
+                  "source_rgb_redrawn": false,
+                  "source_resized": false,
+                  "original_opaque_rgb_preserved": true,
+                  "ownership": "tmp/extraction-work/continuation-20261010/cma-2011-65-a--gray-acanthus-s-scroll-with-curled-leaf-terminals--refined-original-native-ownership.png",
+                  "ownership_sha256": "a9b1729bd0deb106d7ff0bfee06e5e2cf731e83048f5fff7258c710594452eb7",
+                  "extrinsic_rule_opening_shape": [
+                    180,
+                    1
+                  ],
+                  "original_full_gray_group_components_preserved_minimum_native_area": 12000,
+                  "upper_gray_ear_source_verified": "cma65-network-upper-contact-native-grid.png"
+                }
+              },
+              "unknown_band_native_pixels": 3,
+              "source_rgb_redrawn": false,
+              "source_resized": false,
+              "original_opaque_rgb_preserved": true,
+              "ownership": "tmp/extraction-work/continuation-20261010/cma-2011-65-a--gray-acanthus-s-scroll-with-curled-leaf-terminals--refined-original-native-ownership.png",
+              "ownership_sha256": "a6ffa72de452c4311ddbc16cbe6a4cc37a2e9a086c42dc58bc28c95bf6cadcff",
+              "cleanup_source_owner_scope": "Native text-frame edge contacts and independently owned green leaf only",
+              "all_previous_rejected_trials_retained_privately": true
+            }
+          },
+          "unknown_band_native_pixels": 3,
+          "source_rgb_redrawn": false,
+          "source_resized": false,
+          "original_opaque_rgb_preserved": true,
+          "ownership": "tmp/extraction-work/continuation-20261010/cma-2011-65-a--gray-acanthus-s-scroll-with-curled-leaf-terminals--refined-original-native-ownership.png",
+          "ownership_sha256": "b389a20ee9bc87e25e2ed01d10e07634dc763b20a7b44a88d118d445a4ddfef0",
+          "verified_lower_native_source_tip": "cma65-network-bottom-point-original-native.png",
+          "native_tip_ownership_vertices": null
+        },
+        "tool": "Original native scan / closed-form edge alpha and foreground decontamination",
+        "pixel_exact": false,
+        "ownership_guide_prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. Keep ONLY the entire actual GRAY ACANTHUS S-scroll in the right margin: its upper long folded gray leaf reaching upward beside the miniature, both full opposed curled lobes, the interwoven gray central stem and every lower curled/folded gray terminal. Keep the complete original connected gray form, not just two selected curls. Remove the gold/tan patterned field, separate brown plant stems, green leaves and red flowers, manuscript letters and nearby page frame. Clear every real opening through the gray scrolls while keeping gray/cream painted body faces and source wear opaque. Do not attach the separate gray acanthus network at the page bottom or add a new S shape. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_ownership_guide": {
+          "file": "tmp/extraction-work/cma-2011-65-a--gray-acanthus-s-scroll-with-curled-leaf-terminals--retained-ai-extraction.png",
+          "sha256": "b646ccec861c7de7764d6e3d8fc6843140650d2c9272c95ddedf02ebffcd837c",
+          "purpose": "Retained AI alpha guide only; delivered opaque RGB belongs to the unchanged native source."
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Original source and whole white/dark result reviewed; native 100 percent inspection confirms complete upper stem, all curls, opaque gray folds and complete pointed lower leaf. Flat upper stem cap exists at the original page rule; it is not a missing curl. Exterior gold field and frame line removed, actual brown pigment outlines retained. Native source RGB unscaled.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/cma65-clean-native-final-review-current-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/cma65-scrolls-native-contact-and-lower-tip-review.png"
+        ]
+      },
+      "categories": [
+        "floral",
+        "scrollwork"
+      ],
+      "subjects": [
+        "acanthus",
+        "leaf",
+        "scroll",
+        "curl"
+      ],
+      "colors": [
+        "gray",
+        "cream",
+        "black"
+      ],
+      "facing": "unclear",
+      "composition": "standalone",
+      "usage_notes": "Original independent specimen with printed plate rules and page removed. AI-assisted extraction remains approximate; source bounds, actual native subject cap, original and exact prompt retained.",
+      "sets": [
+        {
+          "id": "cma-2011-65-a-set",
+          "name": "May Calendar floral ornaments",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A complete gray acanthus S scroll with curled and folded leaf terminals.",
+      "set_label": "May Calendar floral ornaments"
+    },
+    {
+      "id": "cma-2011-65-a--may-calendar-fixed-floral-frame-with-paired-forest-arches",
+      "name": "may-calendar-fixed-floral-frame-with-paired-forest-arches",
+      "source_id": "cma-2011-65-a",
+      "source_folder": "cleveland",
+      "asset_type": "decoration",
+      "description": "Fixed May-calendar floral frame with original blue rules, gray acanthus, multicolored flowers and the paired forest arches above two open text columns. Part of the May Calendar floral ornaments set.",
+      "source_region": [
+        576,
+        520,
+        4654,
+        6594
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        56,
+        72,
+        4003,
+        6000
+      ],
+      "export_crop_coordinate_space": "original-native-source-region",
+      "width": 3947,
+      "height": 5928,
+      "png": "cleveland/cma-2011-65-a--may-calendar-fixed-floral-frame-with-paired-forest-arches.png",
+      "png_sha256": "184de41b00a6b41ffd3d318ba58f345e67b8ebe2715bc738b3f35a17bdcbc46b",
+      "provenance": {
+        "institution": "Cleveland Museum of Art",
+        "title": "Leaf from a Book of Hours: Calendar Page for May (recto)",
+        "object_identifier": "2011.65.a",
+        "date": "c. 1510",
+        "record_url": "https://clevelandart.org/art/2011.65.a",
+        "image_rights": "CC0; share_license_status=CC0",
+        "rights_url": "https://www.clevelandart.org/open-access",
+        "source_file": "tmp/new-assets/cleveland/cma-2011-65-a--leaf-from-a-book-of-hours-calendar-page-for-may-recto--master.tif",
+        "source_sha256": "9c05df87df5be107cc387fca4fbc7dc5795487b45243f46e82f9968f9e3a44dd",
+        "source_metadata": "tmp/new-assets/cleveland/cma-2011-65-a.json",
+        "image_url": "https://openaccess-cdn.clevelandart.org/2011.65.a/2011.65.a_full.tif",
+        "method": "native-source-continuous-edge-matting"
+      },
+      "extraction": {
+        "candidate_png": "tmp/extraction-work/continuation-20261010/cma-2011-65-a--may-calendar-fixed-floral-frame-with-paired-forest-arches--native-fixed-frame-candidate.png",
+        "native_export_crop": [
+          56,
+          72,
+          4003,
+          6000
+        ],
+        "export_crop_coordinate_space": "original-native-source-region",
+        "annotation_json": "tmp/extraction-work/continuation-20261010/cma-2011-65-a--may-calendar-fixed-floral-frame-with-paired-forest-arches--native-fixed-frame-annotation.json",
+        "trimap_png": "tmp/extraction-work/continuation-20261010/cma-2011-65-a--may-calendar-fixed-floral-frame-with-paired-forest-arches--native-fixed-frame-trimap.png",
+        "native_source_size": [
+          4078,
+          6074
+        ],
+        "native_upscaling": false,
+        "source_pixels_redrawn": false,
+        "original_opaque_rgb_preserved": true,
+        "method": "Original full native finite manuscript frame, including intrinsic gold/tan floral ground, exact source corners and paired forest-arch miniature. Actual hand-drawn dark outer outline selected from original scan pixels near individually inspected bounds. Both calendar text columns and decorated KL letters cleared as genuine functional openings. Continuous four-native-pixel closed-form edge alpha in bounded overlapping tiles; exact original opaque RGB, native dimensions and all internal source pixels retained. No redraw, enlargement, new corners, repeat or hidden reconstruction.",
+        "status": "awaiting-native-original-white-dark-review",
+        "tool": "Original native scan / closed-form edge alpha and foreground decontamination",
+        "pixel_exact": false
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Inspected entire original calendar page and actual aligned current native original/white/dark proof. Complete original finite floral/blue-rule frame, all source corners and paired forest-arch miniature retained at original native scale. Two actual calendar text-column openings, KL glyph and exterior parchment removed. Intrinsic gilt/floral body and genuine forest landscape stay opaque. Exact original internal RGB preserved; outer contour follows actual hand-drawn source edge pixels, with continuous native alpha. No inferred cycle, atlas, replacement corner, source enlargement or hidden restoration. Separate mounted couple retained.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/new-native-contortionist-and-calendar-frame-review-current-proof-1.jpg"
+        ]
+      },
+      "categories": [
+        "floral",
+        "humans",
+        "animals"
+      ],
+      "subjects": [
+        "frame",
+        "arch",
+        "column",
+        "flower",
+        "leaf",
+        "acanthus",
+        "figure",
+        "horse",
+        "tree"
+      ],
+      "colors": [
+        "blue",
+        "gray",
+        "red",
+        "green",
+        "gold",
+        "brown",
+        "cream"
+      ],
+      "facing": "mixed",
+      "composition": "standalone",
+      "usage_notes": "Actual finite original frame and source-established corners; no inferred repeat or frame atlas. Intrinsic floral gilt ground and genuine forest landscapes remain opaque. Exterior parchment and both text fields, including KL letter forms, are transparent. The mounted couple is also available separately. Original forest figures stay as drawn and partially occluded by the original foliage; no hidden anatomy reconstructed. Every internal source paint pixel is retained unchanged.",
+      "sets": [
+        {
+          "id": "cma-2011-65-a-set",
+          "name": "May Calendar floral ornaments",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "Fixed May-calendar floral frame with original blue rules, gray acanthus, multicolored flowers and the paired forest arches above two open text columns.",
+      "set_label": "May Calendar floral ornaments"
+    },
+    {
+      "id": "cma-2011-65-a--mounted-couple-on-white-horse",
+      "name": "mounted-couple-on-white-horse",
+      "source_id": "cma-2011-65-a",
+      "source_folder": "cleveland",
+      "asset_type": "illustration",
+      "description": "A mounted couple on a white horse, with a brown falcon perched on the raised rider’s hand. Part of the May Calendar floral ornaments set.",
+      "source_region": [
+        1036,
+        895,
+        2245,
+        2329
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        27,
+        62,
+        1182,
+        1421
+      ],
+      "export_crop_coordinate_space": "original-native-source-region",
+      "width": 1155,
+      "height": 1359,
+      "png": "cleveland/cma-2011-65-a--mounted-couple-on-white-horse.png",
+      "png_sha256": "ca706f995752a14500602478450c9013bfa9468c918a24e4a85c7c5d071a7ed7",
+      "provenance": {
+        "institution": "Cleveland Museum of Art",
+        "title": "Leaf from a Book of Hours: Calendar Page for May (recto)",
+        "object_identifier": "2011.65.a",
+        "date": "c. 1510",
+        "record_url": "https://clevelandart.org/art/2011.65.a",
+        "image_rights": "CC0; share_license_status=CC0",
+        "rights_url": "https://www.clevelandart.org/open-access",
+        "source_file": "tmp/new-assets/cleveland/cma-2011-65-a--leaf-from-a-book-of-hours-calendar-page-for-may-recto--master.tif",
+        "source_sha256": "9c05df87df5be107cc387fca4fbc7dc5795487b45243f46e82f9968f9e3a44dd",
+        "source_metadata": "tmp/new-assets/cleveland/cma-2011-65-a.json",
+        "image_url": "https://openaccess-cdn.clevelandart.org/2011.65.a/2011.65.a_full.tif",
+        "method": "native-source-continuous-edge-matting"
+      },
+      "extraction": {
+        "candidate_png": "tmp/extraction-work/continuation-20261010/cma-2011-65-a--mounted-couple-on-white-horse--native-complete-falcon-legs-final.png",
+        "native_export_crop": [
+          27,
+          62,
+          1182,
+          1421
+        ],
+        "export_crop_coordinate_space": "original-native-source-region",
+        "annotation_json": "tmp/extraction-work/continuation-20261010/cma-2011-65-a--mounted-couple-on-white-horse--registered-native-annotation.json",
+        "trimap_png": "tmp/extraction-work/continuation-20261010/cma-2011-65-a--mounted-couple-on-white-horse--registered-native-trimap.png",
+        "native_source_size": [
+          1209,
+          1434
+        ],
+        "native_upscaling": false,
+        "source_pixels_redrawn": false,
+        "original_opaque_rgb_preserved": true,
+        "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate. Source-inspected local native semantic ownership, with a three-native-pixel closed-form continuous alpha boundary. Only original source RGB used, opaque original pixels retained exactly. No reconstructed body or drawn prop. Missing contact prop supplemented or external field replaced only in the authored source scope. Source-inspected local native semantic ownership, with a three-native-pixel closed-form continuous alpha boundary. Only original source RGB used, opaque original pixels retained exactly. No reconstructed body or drawn prop. Missing contact prop supplemented or external field replaced only in the authored source scope. Source-inspected local native semantic ownership, with a three-native-pixel closed-form continuous alpha boundary. Only original source RGB used, opaque original pixels retained exactly. No reconstructed body or drawn prop. Missing contact prop supplemented or external field replaced only in the authored source scope. Source-inspected local native semantic ownership, with a three-native-pixel closed-form continuous alpha boundary. Only original source RGB used, opaque original pixels retained exactly. No reconstructed body or drawn prop. Missing contact prop supplemented or external field replaced only in the authored source scope.",
+        "alpha_guide": {
+          "method": "A single SIFT/RANSAC similarity transform registers extracted AI alpha to the original scan. AI alpha supplies ownership only; original source RGB is never warped, resized, strengthened or redrawn. Native continuous closed-form edge matting and foreground decontamination are solved in overlapping bounded tiles; exact original RGB is retained at opaque pixels. Original/white/dark visual review is required; alpha ownership remains approximate.",
+          "guide_png": "tmp/extraction-work/continuation-20261010/cma-2011-65-a--mounted-couple-on-white-horse--native-alpha-reference.png",
+          "guide_sha256": "024f01abbcd974b07a71e255d6454df984a6388f56b32f8ff9c0dbb29648ec4a",
+          "native_original": "tmp/extraction-work/continuation-20261010/cma-2011-65-a--mounted-couple-on-white-horse--original.png",
+          "similarity_ai_alpha_to_original": [
+            [
+              0.9993694518620405,
+              -0.0014944896321952357,
+              31.790053216278555
+            ],
+            [
+              0.0014944896321952357,
+              0.9993694518620405,
+              64.30155303639432
+            ]
+          ],
+          "matching_feature_pairs": 902,
+          "inlier_feature_pairs": 708,
+          "inlier_rms_native_pixels": 2.0757046411899673,
+          "source_inspection_factor": 1,
+          "unknown_edge_band_native_pixels": 6,
+          "edge_solve_tile_size": 640,
+          "edge_solve_halo": 32,
+          "edge_solve_tiles": 6,
+          "original_opaque_rgb_preserved": true
+        },
+        "status": "awaiting-original-white-dark-review",
+        "inspected_native_patch_annotation": "tmp/extraction-work/continuation-20261010/cma-2011-65-a--mounted-couple-on-white-horse--native-inspected-prop-patch-annotation.json",
+        "final_falcon_leg_annotation": "tmp/extraction-work/continuation-20261010/cma-2011-65-a--mounted-couple-on-white-horse--native-complete-falcon-legs-final-annotation.json",
+        "tool": "Original native scan / closed-form edge alpha and foreground decontamination",
+        "pixel_exact": false
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Reviewed actual native original, white and dark renders. Complete source-visible contact groups retained with original proportions, opaque pale surfaces, fine outlines and original mixed-color details. The figure’s full bent implement and real foot remain; the wind player retains the complete blue instrument and source feet without the surrounding rectangular field; the mounted couple retains the complete falcon, both original gold legs and raised fist, with the unrelated tree leaf cleared. Original native RGB retained at opaque pixels, no enlargement or traced replacement contours.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/cma-2006-13-b--crouching-hairy-figure-with-long-bent-implement--final-reviewed-native-proof.jpg",
+          "tmp/extraction-work/continuation-20261010/cma-2006-15-a--acanthus-scroll-with-copper-vase-and-seated-wind-player--current-native-source-white-dark.jpg",
+          "tmp/extraction-work/continuation-20261010/cma-2011-65-a--mounted-couple-on-white-horse--native-complete-final-proof.jpg"
+        ]
+      },
+      "categories": [
+        "humans",
+        "animals"
+      ],
+      "subjects": [
+        "man",
+        "woman",
+        "horse",
+        "rider",
+        "rein",
+        "falcon",
+        "bird"
+      ],
+      "colors": [
+        "blue",
+        "red",
+        "white",
+        "brown"
+      ],
+      "facing": "unclear",
+      "composition": "standalone",
+      "usage_notes": "Original independent specimen with printed plate rules and page removed. AI-assisted extraction remains approximate; source bounds, actual native subject cap, original and exact prompt retained.",
+      "sets": [
+        {
+          "id": "cma-2011-65-a-set",
+          "name": "May Calendar floral ornaments",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A mounted couple on a white horse, with a brown falcon perched on the raised rider’s hand.",
+      "set_label": "May Calendar floral ornaments"
+    }
+  ]
+}

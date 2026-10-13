@@ -1,0 +1,564 @@
+{
+  "source_id": "walters-w186-276v",
+  "assets": [
+    {
+      "id": "walters-w186-276v--left-and-lower-floral-margin-with-acanthus-and-gold-ivy",
+      "name": "left-and-lower-floral-margin-with-acanthus-and-gold-ivy",
+      "source_id": "walters-w186-276v",
+      "source_folder": "walters",
+      "asset_type": "decoration",
+      "description": "A finite left and lower floral manuscript margin with blue and orange acanthus, flowering stems and fine gilt ivy. Part of the Two angels serenading salvator mundi (walters-w186-276v) set.",
+      "source_region": [
+        2860,
+        1350,
+        6644,
+        6473
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        13,
+        0,
+        1058,
+        1459
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 1045,
+      "height": 1459,
+      "png": "walters/walters-w186-276v--left-and-lower-floral-margin-with-acanthus-and-gold-ivy.png",
+      "png_sha256": "71e032198e04d4245b97a760e91d5e8c0d9b70c4f1737e6f3752ab7a16acc6ac",
+      "provenance": {
+        "institution": "Walters Art Museum",
+        "title": "Two angels serenading salvator mundi",
+        "object_identifier": "W.186, fol. 276v",
+        "date": "Ca. 1460 CE",
+        "record_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/html/W186/description.html",
+        "image_rights": "CC0 (Digital Walters manuscript images)",
+        "rights_url": "https://www.thedigitalwalters.org/01_ACCESS_WALTERS_MANUSCRIPTS.html",
+        "source_file": "tmp/new-assets/walters/walters-w186-276v--two-angels-serenading-salvator-mundi--master.tif",
+        "source_sha256": "831db9c73ade72a6ee4075f7252354fad8ca3af67aeefc6674ed4bda9d0c3dd7",
+        "source_metadata": "tmp/new-assets/walters/walters-w186-276v.json",
+        "image_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/W186/data/W.186/master/W186_000556_1200.tif",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. Isolate ALL the original exterior floral page ornament: every large blue/orange acanthus scroll, green leafy stem, original pink/blue/orange flowers, vases where present, tiny gilded ivy leaves and fine dark connecting twigs. Remove the central miniature COMPLETELY including its painted background, arch/frame, figures and floor; remove the lower letter/text panel COMPLETELY including its frame and large capital. Remove the parchment around and BETWEEN every leaf and twig. Keep original flowers and blue/gold painted surfaces opaque. This is the source finite margin with its actual unequal sides, not a seamless repeat: do not invent a top band, new flowers, new corners, hidden connecting stems or symmetric counterparts. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_extraction": "tmp/extraction-work/walters-w186-276v--fixed-floral-page-margin-with-acanthus-and-gold-ivy--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "725464e9f742b004070a35f3c06858e180acfd12545fc0bad5901953a4f3b837",
+        "retained_generated_size": [
+          1078,
+          1459
+        ],
+        "resolution_cap_scale": 1,
+        "resolution_capped_size": [
+          1078,
+          1459
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          3672,
+          5043
+        ],
+        "native_subject_size_evidence": {
+          "method": "Individually inspected native visible subject bounds, excluding input-region whitespace and neighbours.",
+          "preview_subject_bounds": [
+            549,
+            262,
+            1237,
+            1207
+          ],
+          "preview_size": [
+            1245,
+            1600
+          ],
+          "original_size": [
+            6644,
+            8538
+          ]
+        },
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 43787
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Actual complete left and lower connecting floral margin checked against original, white and dark proof. Blue/orange acanthus, original flowers and leaf stems, pale/green painted body fills and gilded ivy remain. Central miniature and letter panel removed. The generator omitted the independent thin top/right ivy: this retained L decoration is renamed accurately, and that remaining ornament is still pending. No source completeness claim.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/walters-margin-final-ready-results-proof-1.jpg"
+        ]
+      },
+      "categories": [
+        "floral",
+        "scrollwork"
+      ],
+      "subjects": [
+        "flower",
+        "acanthus",
+        "ivy",
+        "leaf",
+        "margin"
+      ],
+      "colors": [
+        "blue",
+        "orange",
+        "green",
+        "gold",
+        "pink"
+      ],
+      "facing": "unclear",
+      "composition": "single-ornament",
+      "usage_notes": "Original independent specimen with printed plate rules and page removed. AI-assisted extraction remains approximate; source bounds, actual native subject cap, original and exact prompt retained.",
+      "identity_revisions": [
+        {
+          "previous_id": "walters-w186-276v--fixed-floral-page-margin-with-acanthus-and-gold-ivy",
+          "reason": "Generated result retains only the complete left/lower finite margin; original thin top/right ivy remains a separate pending extraction. Honest name describes the retained artwork."
+        }
+      ],
+      "sets": [
+        {
+          "id": "walters-w186-276v-set",
+          "name": "Two angels serenading salvator mundi (walters-w186-276v)",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A finite left and lower floral manuscript margin with blue and orange acanthus, flowering stems and fine gilt ivy.",
+      "set_label": "Two angels serenading salvator mundi (walters-w186-276v)"
+    },
+    {
+      "id": "walters-w186-276v--left-blue-robed-angel-musician",
+      "name": "left-blue-robed-angel-musician",
+      "source_id": "walters-w186-276v",
+      "source_folder": "walters",
+      "asset_type": "illustration",
+      "description": "A blue-robed angel playing a small wind instrument, with its long red and blue wings. Part of the Two angels serenading salvator mundi (walters-w186-276v) set.",
+      "source_region": [
+        4216,
+        1852,
+        4888,
+        4157
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        60,
+        0,
+        663,
+        2098
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 603,
+      "height": 2098,
+      "png": "walters/walters-w186-276v--left-blue-robed-angel-musician.png",
+      "png_sha256": "628ce9b010b54909150ce8fef6b731fa081fc6d61820a96b9d9c1001177b2984",
+      "provenance": {
+        "institution": "Walters Art Museum",
+        "title": "Two angels serenading salvator mundi",
+        "object_identifier": "W.186, fol. 276v",
+        "date": "Ca. 1460 CE",
+        "record_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/html/W186/description.html",
+        "image_rights": "CC0 (Digital Walters manuscript images)",
+        "rights_url": "https://www.thedigitalwalters.org/01_ACCESS_WALTERS_MANUSCRIPTS.html",
+        "source_file": "tmp/new-assets/walters/walters-w186-276v--two-angels-serenading-salvator-mundi--master.tif",
+        "source_sha256": "831db9c73ade72a6ee4075f7252354fad8ca3af67aeefc6674ed4bda9d0c3dd7",
+        "source_metadata": "tmp/new-assets/walters/walters-w186-276v.json",
+        "image_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/W186/data/W.186/master/W186_000556_1200.tif",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. Extract the LEFT blue-robed angel in full INCLUDING ALL ORIGINAL WINGS. In this expanded source input, the very long thin blue/red/gold wing curves UP-LEFT beside the arch above the head, then joins the broad RED fan-like wing section directly above the hair. Keep the entire original red fan and long visible wing to its source-visible end under the arch. These red/blue wings are foreground, not wall cloth; their very unusual original shape must be retained exactly. The hanging GREEN tassel high above/right is distant curtain decoration and removed. Keep all robe hem, original hands and small wind instrument down to its gold bell; pale collar opaque. Remove Christ, arch, gold checker field, green curtain and red floor. No replacement short feathers or symmetrical generic wings. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_extraction": "tmp/extraction-work/walters-w186-276v--left-blue-robed-angel-musician--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "efab1129d7b36f3c5a0f0bfd34dd6f1b5dcc0eb792bb76c01f3f06c46f0f86fc",
+        "retained_generated_size": [
+          725,
+          2170
+        ],
+        "resolution_cap_scale": 0.9668958643059874,
+        "resolution_capped_size": [
+          701,
+          2098
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          587,
+          2097
+        ],
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 2426
+        },
+        "native_subject_size_evidence": {
+          "method": "Individually inspected native visible subject bounds, excluding input-region whitespace and neighbours.",
+          "preview_subject_bounds": [
+            796,
+            378,
+            906,
+            771
+          ],
+          "preview_size": [
+            1245,
+            1600
+          ],
+          "original_size": [
+            6644,
+            8538
+          ]
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Expanded original source comparisons confirm BOTH full long red/blue wing structures, their source-visible tips below the arch, full blue robe hems, harp openings and wind instrument. Saint Margaret retains the entire original V-shaped foreground wall and green touching corner supports with all claws, long curled tail and blue skirt pieces; distant floor/curtain clear. Original visible source forms retained; AI appearance approximate.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/three-walters-wings-wall-corrected-results-proof-1.jpg"
+        ]
+      },
+      "categories": [
+        "humans",
+        "music"
+      ],
+      "subjects": [
+        "angel",
+        "wing",
+        "wind-instrument"
+      ],
+      "colors": [
+        "blue",
+        "red",
+        "gold",
+        "cream"
+      ],
+      "facing": "right",
+      "composition": "standalone",
+      "usage_notes": "Complete source-visible contacting group. Expanded source input prevents clipping wings; low original enclosure retained where physically supporting figures. AI-assisted approximate extraction with exact original/prompts and native visible subject cap.",
+      "sets": [
+        {
+          "id": "walters-w186-276v-set",
+          "name": "Two angels serenading salvator mundi (walters-w186-276v)",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A blue-robed angel playing a small wind instrument, with its long red and blue wings.",
+      "set_label": "Two angels serenading salvator mundi (walters-w186-276v)"
+    },
+    {
+      "id": "walters-w186-276v--right-blue-robed-angel-with-harp",
+      "name": "right-blue-robed-angel-with-harp",
+      "source_id": "walters-w186-276v",
+      "source_folder": "walters",
+      "asset_type": "illustration",
+      "description": "A blue-robed angel playing a gold harp, with both very long original wings. Part of the Two angels serenading salvator mundi (walters-w186-276v) set.",
+      "source_region": [
+        5358,
+        1862,
+        6137,
+        4162
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        24,
+        0,
+        722,
+        2125
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 698,
+      "height": 2125,
+      "png": "walters/walters-w186-276v--right-blue-robed-angel-with-harp.png",
+      "png_sha256": "22e08384bd51f61da40d14ce20e3eea4790790101c6b5c0eb58a5cf4baa0bca2",
+      "provenance": {
+        "institution": "Walters Art Museum",
+        "title": "Two angels serenading salvator mundi",
+        "object_identifier": "W.186, fol. 276v",
+        "date": "Ca. 1460 CE",
+        "record_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/html/W186/description.html",
+        "image_rights": "CC0 (Digital Walters manuscript images)",
+        "rights_url": "https://www.thedigitalwalters.org/01_ACCESS_WALTERS_MANUSCRIPTS.html",
+        "source_file": "tmp/new-assets/walters/walters-w186-276v--two-angels-serenading-salvator-mundi--master.tif",
+        "source_sha256": "831db9c73ade72a6ee4075f7252354fad8ca3af67aeefc6674ed4bda9d0c3dd7",
+        "source_metadata": "tmp/new-assets/walters/walters-w186-276v.json",
+        "image_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/W186/data/W.186/master/W186_000556_1200.tif",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. Extract the RIGHT blue-robed angel WITH BOTH ORIGINAL LONG WINGS above its head, as well as the full GOLD HARP and entire blue robe. The two long curved BLUE wings with RED sections extend far up-right, almost to the arch; their original tips end behind the arch. Preserve only those original visible tips and all feather sections; do not fabricate continuation. Do not mistake these blue/red wings for curtain and remove them. The separate hanging GREEN tassel above-left is background and must be cleared. Keep harp strings, hands and robe, genuine spaces between strings transparent. Remove Christ, distant checker field, arch, red floor and green background. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_extraction": "tmp/extraction-work/walters-w186-276v--right-blue-robed-angel-with-harp--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "53d8d3984aa60690c84dc5310d9d849709743940c6909fe7a3da851ba07623ed",
+        "retained_generated_size": [
+          730,
+          2155
+        ],
+        "resolution_cap_scale": 0.9887804655269528,
+        "resolution_capped_size": [
+          722,
+          2131
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          720,
+          2118
+        ],
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 7769
+        },
+        "native_subject_size_evidence": {
+          "method": "Individually inspected native visible subject bounds, excluding input-region whitespace and neighbours.",
+          "preview_subject_bounds": [
+            1010,
+            374,
+            1145,
+            771
+          ],
+          "preview_size": [
+            1245,
+            1600
+          ],
+          "original_size": [
+            6644,
+            8538
+          ]
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Expanded original source comparisons confirm BOTH full long red/blue wing structures, their source-visible tips below the arch, full blue robe hems, harp openings and wind instrument. Saint Margaret retains the entire original V-shaped foreground wall and green touching corner supports with all claws, long curled tail and blue skirt pieces; distant floor/curtain clear. Original visible source forms retained; AI appearance approximate.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/three-walters-wings-wall-corrected-results-proof-1.jpg"
+        ]
+      },
+      "categories": [
+        "humans",
+        "music"
+      ],
+      "subjects": [
+        "angel",
+        "wing",
+        "harp"
+      ],
+      "colors": [
+        "blue",
+        "red",
+        "gold",
+        "cream"
+      ],
+      "facing": "left",
+      "composition": "standalone",
+      "usage_notes": "Complete source-visible contacting group. Expanded source input prevents clipping wings; low original enclosure retained where physically supporting figures. AI-assisted approximate extraction with exact original/prompts and native visible subject cap.",
+      "sets": [
+        {
+          "id": "walters-w186-276v-set",
+          "name": "Two angels serenading salvator mundi (walters-w186-276v)",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A blue-robed angel playing a gold harp, with both very long original wings.",
+      "set_label": "Two angels serenading salvator mundi (walters-w186-276v)"
+    },
+    {
+      "id": "walters-w186-276v--salvator-mundi-with-book-and-gold-orb",
+      "name": "salvator-mundi-with-book-and-gold-orb",
+      "source_id": "walters-w186-276v",
+      "source_folder": "walters",
+      "asset_type": "illustration",
+      "description": "Salvator Mundi in a long brown robe, with a gold halo, open book and a gold orb at the feet. Part of the Two angels serenading salvator mundi (walters-w186-276v) set.",
+      "source_region": [
+        4782,
+        2172,
+        5593,
+        4194
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        1,
+        9,
+        732,
+        1910
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 731,
+      "height": 1901,
+      "png": "walters/walters-w186-276v--salvator-mundi-with-book-and-gold-orb.png",
+      "png_sha256": "f4a917ca3b0b60d860274c3746861f16999b0b1153e80bbb0601e7d29064dbc1",
+      "provenance": {
+        "institution": "Walters Art Museum",
+        "title": "Two angels serenading salvator mundi",
+        "object_identifier": "W.186, fol. 276v",
+        "date": "Ca. 1460 CE",
+        "record_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/html/W186/description.html",
+        "image_rights": "CC0 (Digital Walters manuscript images)",
+        "rights_url": "https://www.thedigitalwalters.org/01_ACCESS_WALTERS_MANUSCRIPTS.html",
+        "source_file": "tmp/new-assets/walters/walters-w186-276v--two-angels-serenading-salvator-mundi--master.tif",
+        "source_sha256": "831db9c73ade72a6ee4075f7252354fad8ca3af67aeefc6674ed4bda9d0c3dd7",
+        "source_metadata": "tmp/new-assets/walters/walters-w186-276v.json",
+        "image_url": "https://thedigitalwalters.org/Data/WaltersManuscripts/W186/data/W.186/master/W186_000556_1200.tif",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. ONLY the complete central Christ figure in his actual LONG BROWN robe, gold halo, his raised blessing hand, the open book held in his other hand and the gold orb directly contacting his original feet/robe at the bottom. Keep the actual tiny painted marks on the book as intrinsic artwork. Preserve all visible fingers, original footwear and hem. Clear the GREEN background cloth and distant gold mosaic, brick floor and both neighbouring blue angels. Do not remove his green footwear as background, and do not invent new legs or a second orb. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_extraction": "tmp/extraction-work/walters-w186-276v--salvator-mundi-with-book-and-gold-orb--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "96ed51e972e71f6a49c8130882ecf076a9a2da2f7531cd4cdf48b7844891efb5",
+        "retained_generated_size": [
+          794,
+          1979
+        ],
+        "resolution_cap_scale": 0.9958217270194986,
+        "resolution_capped_size": [
+          791,
+          1971
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          715,
+          1942
+        ],
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 2969
+        },
+        "native_subject_size_evidence": {
+          "method": "Individually inspected native visible subject bounds, excluding input-region whitespace and neighbours.",
+          "preview_subject_bounds": [
+            906,
+            415,
+            1040,
+            779
+          ],
+          "preview_size": [
+            1245,
+            1600
+          ],
+          "original_size": [
+            6644,
+            8538
+          ]
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Compared original region and white/dark native-cap renders. Full visible figures, green leg armor, contacting lion, original props, wing colors and genuine harp/desk openings checked. Two visible busts retain only source-visible lower edges; no invented hidden legs. Three other batch outputs separately rejected for correction.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/eleven-walters-weapons-generated-results-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/eleven-walters-weapons-generated-results-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/eleven-walters-weapons-generated-results-proof-3.jpg"
+        ]
+      },
+      "categories": [
+        "humans",
+        "royalty",
+        "reading"
+      ],
+      "subjects": [
+        "christ",
+        "halo",
+        "book",
+        "robe",
+        "orb"
+      ],
+      "colors": [
+        "brown",
+        "gold",
+        "red",
+        "green",
+        "cream"
+      ],
+      "facing": "front",
+      "composition": "single-figure",
+      "usage_notes": "Original independent specimen with printed plate rules and page removed. AI-assisted extraction remains approximate; source bounds, actual native subject cap, original and exact prompt retained.",
+      "selection_history": [
+        {
+          "previous_values": {
+            "categories": [
+              "humans",
+              "royalty",
+              "reading"
+            ],
+            "subjects": [
+              "Christ",
+              "halo",
+              "book",
+              "robe",
+              "orb"
+            ],
+            "composition": "single-figure"
+          },
+          "reason": "Normalize new staging metadata to shared category/composition/subject vocabulary; factual descriptions and original source metadata unchanged."
+        }
+      ],
+      "sets": [
+        {
+          "id": "walters-w186-276v-set",
+          "name": "Two angels serenading salvator mundi (walters-w186-276v)",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "Salvator Mundi in a long brown robe, with a gold halo, open book and a gold orb at the feet.",
+      "set_label": "Two angels serenading salvator mundi (walters-w186-276v)"
+    }
+  ]
+}

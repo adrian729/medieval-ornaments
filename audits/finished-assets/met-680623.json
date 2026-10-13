@@ -1,0 +1,814 @@
+{
+  "source_id": "met-680623",
+  "assets": [
+    {
+      "id": "met-680623--bow-and-oval-chain-cycle",
+      "name": "bow-and-oval-chain-cycle",
+      "source_id": "met-680623",
+      "source_folder": "met",
+      "asset_type": "border",
+      "description": "Original printed bow and oval chain cycle, with transparent paper and source-derived repeat corners. Part of the Schön Neues Modelbuch (Page 4 recto) (met-680623) set.",
+      "source_region": [
+        1606,
+        194,
+        1753,
+        262
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        0,
+        0,
+        147,
+        68
+      ],
+      "export_crop_coordinate_space": "source-region",
+      "width": 147,
+      "height": 68,
+      "png": "met/met-680623--bow-and-oval-chain-cycle.png",
+      "png_sha256": "617189c484bcd98b84268935eb653c150b3d0070e06662deca6c024545eec149",
+      "provenance": {
+        "institution": "Metropolitan Museum of Art",
+        "title": "Schön Neues Modelbuch (Page 4 recto)",
+        "object_identifier": "20.16(4r)",
+        "date": "1597",
+        "artist": "Johann Sibmacher",
+        "record_url": "https://www.metmuseum.org/art/collection/search/680623",
+        "image_rights": "CC0 Open Access; isPublicDomain=true",
+        "rights_url": "https://www.metmuseum.org/policies/image-resources",
+        "source_file": "tmp/new-assets/met/met-680623--schon-neues-modelbuch-page-4-recto.jpg",
+        "source_sha256": "29e6b4772aa319b0371aefa51d8a75b874d4390366148afc47345b74bf28a3d6",
+        "source_metadata": "tmp/new-assets/met/met-680623.json",
+        "image_url": "https://images.metmuseum.org/CRDImages/dp/original/DP363471.jpg",
+        "method": "native-interior-repeat-with-source-derived-miter-corners"
+      },
+      "extraction": {
+        "method": "Native-resolution continuous ink coverage after locally measured paper removal; PNG appearance master.",
+        "source_pixels_repainted": false,
+        "source_rgb_modified": "Paper removed by measured ink coverage; RGB is the scan-measured ink tone, not an exact source-pixel crop.",
+        "paper_kernel": 61,
+        "minimum_coverage": 0.24,
+        "minimum_component_pixels": 4,
+        "settings": {
+          "paper_kernel": 61,
+          "paper_kernel_shape": "rectangle",
+          "minimum_coverage": 0.24,
+          "minimum_component_pixels": 4,
+          "minimum_component_peak": 0.55,
+          "minimum_channel_coverage": true
+        },
+        "exclude_regions": [],
+        "export_crop": [
+          0,
+          0,
+          147,
+          68
+        ],
+        "ink_color": [
+          70,
+          64,
+          57
+        ],
+        "candidate_png": "tmp/extraction-work/met-680623--bow-and-oval-chain-cycle--ink-candidate.png",
+        "status": "awaiting-native-visual-review",
+        "repeat_build": {
+          "unit_png": "tmp/extraction-work/met-680623--bow-and-oval-chain-cycle--unit.png",
+          "bar_png": "tmp/extraction-work/met-680623--bow-and-oval-chain-cycle--bar.png",
+          "frame_png": "tmp/extraction-work/met-680623--bow-and-oval-chain-cycle--frame-atlas.png",
+          "corners": [
+            {
+              "name": "top-left",
+              "png": "tmp/extraction-work/met-680623--bow-and-oval-chain-cycle--corner-top-left.png",
+              "atlas_bounds": [
+                0,
+                0,
+                68,
+                68
+              ]
+            },
+            {
+              "name": "top-right",
+              "png": "tmp/extraction-work/met-680623--bow-and-oval-chain-cycle--corner-top-right.png",
+              "atlas_bounds": [
+                215,
+                0,
+                283,
+                68
+              ]
+            },
+            {
+              "name": "bottom-right",
+              "png": "tmp/extraction-work/met-680623--bow-and-oval-chain-cycle--corner-bottom-right.png",
+              "atlas_bounds": [
+                215,
+                215,
+                283,
+                283
+              ]
+            },
+            {
+              "name": "bottom-left",
+              "png": "tmp/extraction-work/met-680623--bow-and-oval-chain-cycle--corner-bottom-left.png",
+              "atlas_bounds": [
+                0,
+                215,
+                68,
+                283
+              ]
+            }
+          ],
+          "native_unit_size": [
+            147,
+            68
+          ],
+          "atlas_size": [
+            283,
+            283
+          ],
+          "slice_pixels": 68,
+          "slice_percent": 24.02826855123675,
+          "repeat_ratio": 2.161764705882353,
+          "join_adjustment": {
+            "pixels_at_each_end": 2,
+            "method": "average matching source collars; interior columns 2 through width-3 unchanged",
+            "source_cycle_verification": "Complete original horizontal bow-plus-oval block repeated in multiple adjacent top-band cells; the asterisk interruption at the left and damaged outer terminals are excluded. Both oval and bow loops are retained."
+          },
+          "corner_method": "Mitered reflections of the exact same native unit, using the repository’s four phase-matched corner geometry. Derived corners are distinct from the original fixed printer-frame corners.",
+          "status": "awaiting-repeat-and-corner-visual-review"
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Complete original motif periods inspected before local native phase matching. Source ink and continuous alpha retained, all interior columns unchanged; only documented two-pixel matching collars averaged. Five-cycle strips and all four phase-derived miter corners inspected on white/dark; fixed frame keeps actual varied bands/corners. Cleaner bow impression chosen after four originals compared, no paper-fold blot repeated. Rotated units and bars are exact native 90-degree turns. No faceted trace.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/printer-next-strip-corners-1.jpg",
+          "tmp/extraction-work/continuation-20261010/printer-next-strip-corners-2.jpg",
+          "tmp/extraction-work/continuation-20261010/printer-next-strip-corners-3.jpg",
+          "tmp/extraction-work/continuation-20261010/cleaner-bow-strip-four-corners.jpg",
+          "tmp/extraction-work/continuation-20261010/printer-border-repeat-next-proof-2.jpg"
+        ]
+      },
+      "categories": [
+        "floral",
+        "scrollwork",
+        "geometric"
+      ],
+      "subjects": [
+        "bow",
+        "oval",
+        "chain"
+      ],
+      "colors": [
+        "black",
+        "brown"
+      ],
+      "facing": "mixed",
+      "composition": "repeat-tile",
+      "usage_notes": "Native source ink retained with continuous alpha; full alternating original sequence preserved. Repeat/corners derived from this inspected unit, distinct from original fixed frame corners. No sharpened or faceted SVG redraw.",
+      "repeat": {
+        "rationale": "Complete original horizontal bow-plus-oval block repeated in multiple adjacent top-band cells; the asterisk interruption at the left and damaged outer terminals are excluded. Both oval and bow loops are retained.",
+        "original_orientation": "horizontal",
+        "phase_alignment": {
+          "initial_native_bounds": [
+            1155,
+            194,
+            1313,
+            262
+          ],
+          "refined_native_bounds": [
+            1606,
+            194,
+            1753,
+            262
+          ],
+          "method": "Five native boundary columns compared only around the visually identified complete motif cycle; source motif sequence established independently before numerical local join alignment.",
+          "boundary_profile_difference": 0.1475827475169587,
+          "phase_radius_native_pixels": 20,
+          "period_radius_native_pixels": 12
+        },
+        "chosen_impression": {
+          "previous_source_box": [
+            1165,
+            194,
+            1312,
+            262
+          ],
+          "cleaner_source_box": [
+            1606,
+            194,
+            1753,
+            262
+          ],
+          "choice": "Four complete original impressions individually compared. The fourth retains the full oval and double-loop bow without the original paper-fold blot beneath the baseline. No subject retouch or reconstruction."
+        },
+        "slice_pixels": 68,
+        "slice_percent": 24.02826855123675,
+        "repeat_ratio": 2.161764705882353,
+        "native_unit_size": [
+          147,
+          68
+        ],
+        "atlas_size": [
+          283,
+          283
+        ],
+        "join_adjustment": {
+          "pixels_at_each_end": 2,
+          "method": "average matching source collars; interior columns 2 through width-3 unchanged",
+          "source_cycle_verification": "Complete original horizontal bow-plus-oval block repeated in multiple adjacent top-band cells; the asterisk interruption at the left and damaged outer terminals are excluded. Both oval and bow loops are retained."
+        },
+        "corner_method": "Mitered reflections of the exact same native unit, using the repository’s four phase-matched corner geometry. Derived corners are distinct from the original fixed printer-frame corners."
+      },
+      "components": {
+        "bar": {
+          "png": "met/met-680623--bow-and-oval-chain-cycle--bar.png",
+          "png_sha256": "cf5187dee95e3ab80b26f3fea6d99ddcbb6be1b1e9fc6bf4ebf0a2da82e6ab90",
+          "width": 735,
+          "height": 68,
+          "set_id": "met-680623--bow-and-oval-chain-cycle",
+          "set_name": "Schön Neues Modelbuch (Page 4 recto) (met-680623) — bow and oval chain cycle",
+          "set_role": "bar"
+        },
+        "frame": {
+          "png": "met/met-680623--bow-and-oval-chain-cycle--frame-atlas.png",
+          "png_sha256": "32eb33f8adc93a31830a3b39525a6c50576f11b21a6a3664032eec2e0a1509a8",
+          "width": 283,
+          "height": 283,
+          "set_id": "met-680623--bow-and-oval-chain-cycle",
+          "set_name": "Schön Neues Modelbuch (Page 4 recto) (met-680623) — bow and oval chain cycle",
+          "set_role": "frame"
+        },
+        "corner-top-left": {
+          "png": "met/met-680623--bow-and-oval-chain-cycle--corner-top-left.png",
+          "png_sha256": "98715d90cc254a4008ba2821aee2c079f82986477b8bbd88892125d13107643a",
+          "width": 68,
+          "height": 68,
+          "atlas_bounds": [
+            0,
+            0,
+            68,
+            68
+          ],
+          "method": "Mitered reflections of the exact same native unit, using the repository’s four phase-matched corner geometry. Derived corners are distinct from the original fixed printer-frame corners.",
+          "set_id": "met-680623--bow-and-oval-chain-cycle",
+          "set_name": "Schön Neues Modelbuch (Page 4 recto) (met-680623) — bow and oval chain cycle",
+          "set_role": "corner-top-left"
+        },
+        "corner-top-right": {
+          "png": "met/met-680623--bow-and-oval-chain-cycle--corner-top-right.png",
+          "png_sha256": "c864f15e489277cd749cab4e8665b993ce9371b30e89af9ed2177e653b7505cd",
+          "width": 68,
+          "height": 68,
+          "atlas_bounds": [
+            215,
+            0,
+            283,
+            68
+          ],
+          "method": "Mitered reflections of the exact same native unit, using the repository’s four phase-matched corner geometry. Derived corners are distinct from the original fixed printer-frame corners.",
+          "set_id": "met-680623--bow-and-oval-chain-cycle",
+          "set_name": "Schön Neues Modelbuch (Page 4 recto) (met-680623) — bow and oval chain cycle",
+          "set_role": "corner-top-right"
+        },
+        "corner-bottom-right": {
+          "png": "met/met-680623--bow-and-oval-chain-cycle--corner-bottom-right.png",
+          "png_sha256": "5541a571d004c4081315fe15938bfdbc5adec5c551db7a38debf8b654c302aa1",
+          "width": 68,
+          "height": 68,
+          "atlas_bounds": [
+            215,
+            215,
+            283,
+            283
+          ],
+          "method": "Mitered reflections of the exact same native unit, using the repository’s four phase-matched corner geometry. Derived corners are distinct from the original fixed printer-frame corners.",
+          "set_id": "met-680623--bow-and-oval-chain-cycle",
+          "set_name": "Schön Neues Modelbuch (Page 4 recto) (met-680623) — bow and oval chain cycle",
+          "set_role": "corner-bottom-right"
+        },
+        "corner-bottom-left": {
+          "png": "met/met-680623--bow-and-oval-chain-cycle--corner-bottom-left.png",
+          "png_sha256": "4af78eba640e0afb38f2e2b28b564245a9231e487e02c8e70903286a96fd1b9f",
+          "width": 68,
+          "height": 68,
+          "atlas_bounds": [
+            0,
+            215,
+            68,
+            283
+          ],
+          "method": "Mitered reflections of the exact same native unit, using the repository’s four phase-matched corner geometry. Derived corners are distinct from the original fixed printer-frame corners.",
+          "set_id": "met-680623--bow-and-oval-chain-cycle",
+          "set_name": "Schön Neues Modelbuch (Page 4 recto) (met-680623) — bow and oval chain cycle",
+          "set_role": "corner-bottom-left"
+        },
+        "rotated_tile": {
+          "png": "met/met-680623--bow-and-oval-chain-cycle--rotated-tile.png",
+          "png_sha256": "5441ef8f58c53de7e6a657f4d35f3d5ddd8cc1070b96fad3d8282c81407b0285",
+          "width": 68,
+          "height": 147,
+          "method": "Pixel-exact clockwise 90-degree transpose of its own accepted native master.",
+          "set_id": "met-680623--bow-and-oval-chain-cycle",
+          "set_name": "Schön Neues Modelbuch (Page 4 recto) (met-680623) — bow and oval chain cycle",
+          "set_role": "rotated_tile"
+        },
+        "rotated_bar": {
+          "png": "met/met-680623--bow-and-oval-chain-cycle--rotated-bar.png",
+          "png_sha256": "1888d744db9696b4c9ba94b7d72a2b8cbf82a3a9b092a6681c54e70d67f6cca4",
+          "width": 68,
+          "height": 735,
+          "method": "Pixel-exact clockwise 90-degree transpose of its own accepted native master.",
+          "set_id": "met-680623--bow-and-oval-chain-cycle",
+          "set_name": "Schön Neues Modelbuch (Page 4 recto) (met-680623) — bow and oval chain cycle",
+          "set_role": "rotated_bar"
+        }
+      },
+      "sets": [
+        {
+          "id": "met-680623-set",
+          "name": "Schön Neues Modelbuch (Page 4 recto) (met-680623)",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "Original printed bow and oval chain cycle, with transparent paper and source-derived repeat corners.",
+      "set_label": "Schön Neues Modelbuch (Page 4 recto) (met-680623)"
+    },
+    {
+      "id": "met-680623--horizontal-palmettes-and-four-lobed-scroll-cycle",
+      "name": "horizontal-palmettes-and-four-lobed-scroll-cycle",
+      "source_id": "met-680623",
+      "source_folder": "met",
+      "asset_type": "border",
+      "description": "Original printed horizontal palmettes and four lobed scroll cycle, with transparent paper and source-derived repeat corners. Part of the Schön Neues Modelbuch (Page 4 recto) (met-680623) set.",
+      "source_region": [
+        1491,
+        1753,
+        1992,
+        1931
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        0,
+        0,
+        501,
+        178
+      ],
+      "export_crop_coordinate_space": "source-region",
+      "width": 501,
+      "height": 178,
+      "png": "met/met-680623--horizontal-palmettes-and-four-lobed-scroll-cycle.png",
+      "png_sha256": "eec55d6674e3d3f6ea4423fcb216f014608c40342668c8a5e82536d637aafe25",
+      "provenance": {
+        "institution": "Metropolitan Museum of Art",
+        "title": "Schön Neues Modelbuch (Page 4 recto)",
+        "object_identifier": "20.16(4r)",
+        "date": "1597",
+        "artist": "Johann Sibmacher",
+        "record_url": "https://www.metmuseum.org/art/collection/search/680623",
+        "image_rights": "CC0 Open Access; isPublicDomain=true",
+        "rights_url": "https://www.metmuseum.org/policies/image-resources",
+        "source_file": "tmp/new-assets/met/met-680623--schon-neues-modelbuch-page-4-recto.jpg",
+        "source_sha256": "29e6b4772aa319b0371aefa51d8a75b874d4390366148afc47345b74bf28a3d6",
+        "source_metadata": "tmp/new-assets/met/met-680623.json",
+        "image_url": "https://images.metmuseum.org/CRDImages/dp/original/DP363471.jpg",
+        "method": "native-interior-repeat-with-source-derived-miter-corners"
+      },
+      "extraction": {
+        "method": "Native-resolution continuous ink coverage after locally measured paper removal; PNG appearance master.",
+        "source_pixels_repainted": false,
+        "source_rgb_modified": "Paper removed by measured ink coverage; RGB is the scan-measured ink tone, not an exact source-pixel crop.",
+        "paper_kernel": 61,
+        "minimum_coverage": 0.24,
+        "minimum_component_pixels": 4,
+        "settings": {
+          "paper_kernel": 61,
+          "paper_kernel_shape": "rectangle",
+          "minimum_coverage": 0.24,
+          "minimum_component_pixels": 4,
+          "minimum_component_peak": 0.55,
+          "minimum_channel_coverage": true
+        },
+        "exclude_regions": [],
+        "export_crop": [
+          0,
+          0,
+          501,
+          178
+        ],
+        "ink_color": [
+          66,
+          58,
+          51
+        ],
+        "candidate_png": "tmp/extraction-work/met-680623--horizontal-palmettes-and-four-lobed-scroll-cycle--ink-candidate.png",
+        "status": "awaiting-native-visual-review",
+        "repeat_build": {
+          "unit_png": "tmp/extraction-work/met-680623--horizontal-palmettes-and-four-lobed-scroll-cycle--unit.png",
+          "bar_png": "tmp/extraction-work/met-680623--horizontal-palmettes-and-four-lobed-scroll-cycle--bar.png",
+          "frame_png": "tmp/extraction-work/met-680623--horizontal-palmettes-and-four-lobed-scroll-cycle--frame-atlas.png",
+          "corners": [
+            {
+              "name": "top-left",
+              "png": "tmp/extraction-work/met-680623--horizontal-palmettes-and-four-lobed-scroll-cycle--corner-top-left.png",
+              "atlas_bounds": [
+                0,
+                0,
+                178,
+                178
+              ]
+            },
+            {
+              "name": "top-right",
+              "png": "tmp/extraction-work/met-680623--horizontal-palmettes-and-four-lobed-scroll-cycle--corner-top-right.png",
+              "atlas_bounds": [
+                679,
+                0,
+                857,
+                178
+              ]
+            },
+            {
+              "name": "bottom-right",
+              "png": "tmp/extraction-work/met-680623--horizontal-palmettes-and-four-lobed-scroll-cycle--corner-bottom-right.png",
+              "atlas_bounds": [
+                679,
+                679,
+                857,
+                857
+              ]
+            },
+            {
+              "name": "bottom-left",
+              "png": "tmp/extraction-work/met-680623--horizontal-palmettes-and-four-lobed-scroll-cycle--corner-bottom-left.png",
+              "atlas_bounds": [
+                0,
+                679,
+                178,
+                857
+              ]
+            }
+          ],
+          "native_unit_size": [
+            501,
+            178
+          ],
+          "atlas_size": [
+            857,
+            857
+          ],
+          "slice_pixels": 178,
+          "slice_percent": 20.770128354725788,
+          "repeat_ratio": 2.8146067415730336,
+          "join_adjustment": {
+            "pixels_at_each_end": 2,
+            "method": "average matching source collars; interior columns 2 through width-3 unchanged",
+            "source_cycle_verification": "Two directly inspected complete matching lower-right horizontal palmette/four-lobed scroll cycles. Earlier palmettes in this finite frame face another direction, so the unit represents this original right-hand run only; the fixed whole frame preserves its varied arrangement."
+          },
+          "corner_method": "Mitered reflections of the exact same native unit, using the repository’s four phase-matched corner geometry. Derived corners are distinct from the original fixed printer-frame corners.",
+          "status": "awaiting-repeat-and-corner-visual-review"
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Complete original motif periods inspected before local native phase matching. Source ink and continuous alpha retained, all interior columns unchanged; only documented two-pixel matching collars averaged. Five-cycle strips and all four phase-derived miter corners inspected on white/dark; fixed frame keeps actual varied bands/corners. Cleaner bow impression chosen after four originals compared, no paper-fold blot repeated. Rotated units and bars are exact native 90-degree turns. No faceted trace.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/printer-next-strip-corners-1.jpg",
+          "tmp/extraction-work/continuation-20261010/printer-next-strip-corners-2.jpg",
+          "tmp/extraction-work/continuation-20261010/printer-next-strip-corners-3.jpg",
+          "tmp/extraction-work/continuation-20261010/cleaner-bow-strip-four-corners.jpg",
+          "tmp/extraction-work/continuation-20261010/printer-border-repeat-next-proof-2.jpg"
+        ]
+      },
+      "categories": [
+        "floral",
+        "scrollwork",
+        "geometric"
+      ],
+      "subjects": [
+        "palmette",
+        "scroll",
+        "leaf"
+      ],
+      "colors": [
+        "black",
+        "brown"
+      ],
+      "facing": "mixed",
+      "composition": "repeat-tile",
+      "usage_notes": "Native source ink retained with continuous alpha; full alternating original sequence preserved. Repeat/corners derived from this inspected unit, distinct from original fixed frame corners. No sharpened or faceted SVG redraw.",
+      "repeat": {
+        "rationale": "Two directly inspected complete matching lower-right horizontal palmette/four-lobed scroll cycles. Earlier palmettes in this finite frame face another direction, so the unit represents this original right-hand run only; the fixed whole frame preserves its varied arrangement.",
+        "original_orientation": "horizontal",
+        "phase_alignment": {
+          "initial_native_bounds": [
+            1477,
+            1753,
+            1987,
+            1931
+          ],
+          "refined_native_bounds": [
+            1491,
+            1753,
+            1992,
+            1931
+          ],
+          "method": "Five native boundary columns compared only around the visually identified complete motif cycle; source motif sequence established independently before numerical local join alignment.",
+          "boundary_profile_difference": 0.2504976136640996,
+          "phase_radius_native_pixels": 20,
+          "period_radius_native_pixels": 12
+        },
+        "slice_pixels": 178,
+        "slice_percent": 20.770128354725788,
+        "repeat_ratio": 2.8146067415730336,
+        "native_unit_size": [
+          501,
+          178
+        ],
+        "atlas_size": [
+          857,
+          857
+        ],
+        "join_adjustment": {
+          "pixels_at_each_end": 2,
+          "method": "average matching source collars; interior columns 2 through width-3 unchanged",
+          "source_cycle_verification": "Two directly inspected complete matching lower-right horizontal palmette/four-lobed scroll cycles. Earlier palmettes in this finite frame face another direction, so the unit represents this original right-hand run only; the fixed whole frame preserves its varied arrangement."
+        },
+        "corner_method": "Mitered reflections of the exact same native unit, using the repository’s four phase-matched corner geometry. Derived corners are distinct from the original fixed printer-frame corners."
+      },
+      "components": {
+        "bar": {
+          "png": "met/met-680623--horizontal-palmettes-and-four-lobed-scroll-cycle--bar.png",
+          "png_sha256": "cf9f72c25bcd059fe573a5ec12a3318e6775b0469bab29543c63ae62a7ed8043",
+          "width": 2505,
+          "height": 178,
+          "set_id": "met-680623--horizontal-palmettes-and-four-lobed-scroll-cycle",
+          "set_name": "Schön Neues Modelbuch (Page 4 recto) (met-680623) — horizontal palmettes and four lobed scroll cycle",
+          "set_role": "bar"
+        },
+        "frame": {
+          "png": "met/met-680623--horizontal-palmettes-and-four-lobed-scroll-cycle--frame-atlas.png",
+          "png_sha256": "9e873353c3d98b9b6c895541b0e9af0485d99f730d19293195b446ab87836a91",
+          "width": 857,
+          "height": 857,
+          "set_id": "met-680623--horizontal-palmettes-and-four-lobed-scroll-cycle",
+          "set_name": "Schön Neues Modelbuch (Page 4 recto) (met-680623) — horizontal palmettes and four lobed scroll cycle",
+          "set_role": "frame"
+        },
+        "corner-top-left": {
+          "png": "met/met-680623--horizontal-palmettes-and-four-lobed-scroll-cycle--corner-top-left.png",
+          "png_sha256": "349265a71af168c24bf9e1c2933f3fba777655e009b323f026405861a83a4e2e",
+          "width": 178,
+          "height": 178,
+          "atlas_bounds": [
+            0,
+            0,
+            178,
+            178
+          ],
+          "method": "Mitered reflections of the exact same native unit, using the repository’s four phase-matched corner geometry. Derived corners are distinct from the original fixed printer-frame corners.",
+          "set_id": "met-680623--horizontal-palmettes-and-four-lobed-scroll-cycle",
+          "set_name": "Schön Neues Modelbuch (Page 4 recto) (met-680623) — horizontal palmettes and four lobed scroll cycle",
+          "set_role": "corner-top-left"
+        },
+        "corner-top-right": {
+          "png": "met/met-680623--horizontal-palmettes-and-four-lobed-scroll-cycle--corner-top-right.png",
+          "png_sha256": "cff28e5039a38929c297683d5703a8602972662a6a033e8362baa852c0554178",
+          "width": 178,
+          "height": 178,
+          "atlas_bounds": [
+            679,
+            0,
+            857,
+            178
+          ],
+          "method": "Mitered reflections of the exact same native unit, using the repository’s four phase-matched corner geometry. Derived corners are distinct from the original fixed printer-frame corners.",
+          "set_id": "met-680623--horizontal-palmettes-and-four-lobed-scroll-cycle",
+          "set_name": "Schön Neues Modelbuch (Page 4 recto) (met-680623) — horizontal palmettes and four lobed scroll cycle",
+          "set_role": "corner-top-right"
+        },
+        "corner-bottom-right": {
+          "png": "met/met-680623--horizontal-palmettes-and-four-lobed-scroll-cycle--corner-bottom-right.png",
+          "png_sha256": "317fdf9347b5bb6e08eacf6ce70fa8a28143d1b910117ba1ecb0836a4196878a",
+          "width": 178,
+          "height": 178,
+          "atlas_bounds": [
+            679,
+            679,
+            857,
+            857
+          ],
+          "method": "Mitered reflections of the exact same native unit, using the repository’s four phase-matched corner geometry. Derived corners are distinct from the original fixed printer-frame corners.",
+          "set_id": "met-680623--horizontal-palmettes-and-four-lobed-scroll-cycle",
+          "set_name": "Schön Neues Modelbuch (Page 4 recto) (met-680623) — horizontal palmettes and four lobed scroll cycle",
+          "set_role": "corner-bottom-right"
+        },
+        "corner-bottom-left": {
+          "png": "met/met-680623--horizontal-palmettes-and-four-lobed-scroll-cycle--corner-bottom-left.png",
+          "png_sha256": "124ff3c85146e5ffb6a02368b28ed82b35635424e3898d99461ba7f43f1d4c49",
+          "width": 178,
+          "height": 178,
+          "atlas_bounds": [
+            0,
+            679,
+            178,
+            857
+          ],
+          "method": "Mitered reflections of the exact same native unit, using the repository’s four phase-matched corner geometry. Derived corners are distinct from the original fixed printer-frame corners.",
+          "set_id": "met-680623--horizontal-palmettes-and-four-lobed-scroll-cycle",
+          "set_name": "Schön Neues Modelbuch (Page 4 recto) (met-680623) — horizontal palmettes and four lobed scroll cycle",
+          "set_role": "corner-bottom-left"
+        },
+        "rotated_tile": {
+          "png": "met/met-680623--horizontal-palmettes-and-four-lobed-scroll-cycle--rotated-tile.png",
+          "png_sha256": "8b7909afb94fe5f08476dcddaaaddffc567107478434cc459ab0eb9c82e62c09",
+          "width": 178,
+          "height": 501,
+          "method": "Pixel-exact clockwise 90-degree transpose of its own accepted native master.",
+          "set_id": "met-680623--horizontal-palmettes-and-four-lobed-scroll-cycle",
+          "set_name": "Schön Neues Modelbuch (Page 4 recto) (met-680623) — horizontal palmettes and four lobed scroll cycle",
+          "set_role": "rotated_tile"
+        },
+        "rotated_bar": {
+          "png": "met/met-680623--horizontal-palmettes-and-four-lobed-scroll-cycle--rotated-bar.png",
+          "png_sha256": "c61a1eeebc5294913fb4210ab1074ab058404308867e8d767b8ff15021b498f5",
+          "width": 178,
+          "height": 2505,
+          "method": "Pixel-exact clockwise 90-degree transpose of its own accepted native master.",
+          "set_id": "met-680623--horizontal-palmettes-and-four-lobed-scroll-cycle",
+          "set_name": "Schön Neues Modelbuch (Page 4 recto) (met-680623) — horizontal palmettes and four lobed scroll cycle",
+          "set_role": "rotated_bar"
+        }
+      },
+      "sets": [
+        {
+          "id": "met-680623-set",
+          "name": "Schön Neues Modelbuch (Page 4 recto) (met-680623)",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "Original printed horizontal palmettes and four lobed scroll cycle, with transparent paper and source-derived repeat corners.",
+      "set_label": "Schön Neues Modelbuch (Page 4 recto) (met-680623)"
+    },
+    {
+      "id": "met-680623--mixed-oval-chain-and-floral-printer-frame",
+      "name": "mixed-oval-chain-and-floral-printer-frame",
+      "source_id": "met-680623",
+      "source_folder": "met",
+      "asset_type": "decoration",
+      "description": "An original fixed printer frame with an oval-chain top, foliate sides and a wider four-lobed bottom band. Part of the Schön Neues Modelbuch (Page 4 recto) (met-680623) set.",
+      "source_region": [
+        368,
+        200,
+        2358,
+        1933
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        0,
+        0,
+        1990,
+        1733
+      ],
+      "export_crop_coordinate_space": "source-region",
+      "width": 1990,
+      "height": 1733,
+      "png": "met/met-680623--mixed-oval-chain-and-floral-printer-frame.png",
+      "png_sha256": "77c32fb8707b34e41e56599a99d6f41cbc4ad1f22bd49a616ac47c0e95bb6c26",
+      "provenance": {
+        "institution": "Metropolitan Museum of Art",
+        "title": "Schön Neues Modelbuch (Page 4 recto)",
+        "object_identifier": "20.16(4r)",
+        "date": "1597",
+        "artist": "Johann Sibmacher",
+        "record_url": "https://www.metmuseum.org/art/collection/search/680623",
+        "image_rights": "CC0 Open Access; isPublicDomain=true",
+        "rights_url": "https://www.metmuseum.org/policies/image-resources",
+        "source_file": "tmp/new-assets/met/met-680623--schon-neues-modelbuch-page-4-recto.jpg",
+        "source_sha256": "29e6b4772aa319b0371aefa51d8a75b874d4390366148afc47345b74bf28a3d6",
+        "source_metadata": "tmp/new-assets/met/met-680623.json",
+        "image_url": "https://images.metmuseum.org/CRDImages/dp/original/DP363471.jpg",
+        "method": "native-continuous-ink-matting"
+      },
+      "extraction": {
+        "method": "Native-resolution continuous ink coverage after locally measured paper removal; PNG appearance master.",
+        "source_pixels_repainted": false,
+        "source_rgb_modified": "Paper removed by measured ink coverage; RGB is the scan-measured ink tone, not an exact source-pixel crop.",
+        "paper_kernel": 61,
+        "minimum_coverage": 0.22,
+        "minimum_component_pixels": 4,
+        "settings": {
+          "paper_kernel": 61,
+          "paper_kernel_shape": "rectangle",
+          "minimum_coverage": 0.22,
+          "minimum_component_pixels": 4,
+          "minimum_component_peak": 0.55,
+          "minimum_channel_coverage": true
+        },
+        "exclude_regions": [
+          [
+            109,
+            60,
+            1879,
+            1551
+          ]
+        ],
+        "export_crop": [
+          0,
+          0,
+          1990,
+          1733
+        ],
+        "ink_color": [
+          68,
+          60,
+          52
+        ],
+        "candidate_png": "tmp/extraction-work/met-680623--mixed-oval-chain-and-floral-printer-frame--ink-candidate.png",
+        "status": "awaiting-native-visual-review",
+        "tool": "Native source ink analysis",
+        "source_pixels_redrawn": false
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Complete original fixed frame checked against native source, white and dark renders. All four distinct original corners retained. Center text/page field clear; no arbitrary central rectangle clips the inner motifs.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": "tmp/extraction-work/continuation-20261010/lace-and-vignette-native-proof-6.jpg"
+      },
+      "categories": [
+        "floral",
+        "geometric"
+      ],
+      "subjects": [
+        "frame",
+        "leaf",
+        "oval",
+        "palmette"
+      ],
+      "facing": "mixed",
+      "colors": [
+        "black",
+        "brown"
+      ],
+      "composition": "single-ornament",
+      "usage_notes": "Whole original fixed frame with all four original corners. Top, sides and bottom use different motifs. Interior printed text is removed; no generic corner substitutions or uniform-tile claim. Native measured ink coverage retains original worn printing.",
+      "selection_history": [
+        {
+          "previous_values": {
+            "categories": [
+              "floral",
+              "geometric"
+            ],
+            "subjects": [
+              "frame",
+              "leaf",
+              "oval",
+              "palmette"
+            ],
+            "composition": "frame-corner"
+          },
+          "reason": "Normalize new staging metadata to shared category/composition/subject vocabulary; factual descriptions and original source metadata unchanged."
+        }
+      ],
+      "sets": [
+        {
+          "id": "met-680623-set",
+          "name": "Schön Neues Modelbuch (Page 4 recto) (met-680623)",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "An original fixed printer frame with an oval-chain top, foliate sides and a wider four-lobed bottom band.",
+      "set_label": "Schön Neues Modelbuch (Page 4 recto) (met-680623)"
+    }
+  ]
+}

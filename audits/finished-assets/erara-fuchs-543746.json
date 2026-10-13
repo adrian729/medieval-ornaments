@@ -1,0 +1,171 @@
+{
+  "source_id": "erara-fuchs-543746",
+  "assets": [
+    {
+      "id": "erara-fuchs-543746--plantago-maior",
+      "name": "plantago-maior",
+      "source_id": "erara-fuchs-543746",
+      "source_folder": "e-rara-fuchs",
+      "asset_type": "illustration",
+      "description": "The complete original plantago maior botanical woodcut, retaining all connected stems, leaves, flowers and roots. Source captions and reverse-side printing excluded. Part of the Fuchs 1542 Herbal set.",
+      "source_region": [
+        167,
+        561,
+        2593,
+        4125
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        38,
+        37,
+        2416,
+        3533
+      ],
+      "export_crop_coordinate_space": "source-region",
+      "width": 2378,
+      "height": 3496,
+      "png": "e-rara-fuchs/erara-fuchs-543746--plantago-maior.png",
+      "png_sha256": "7bafff9b4e267ae8c2c521bd4a81e8c6647989ffbaf3a550d6009e6785c6507d",
+      "provenance": {
+        "institution": "Universitätsbibliothek Basel",
+        "title": "Fuchs, De historia stirpium: Plantago maior (scan [69])",
+        "object_identifier": "UBH Lo I 4; scan [69]; image 543746",
+        "date": "1542",
+        "record_url": "https://www.e-rara.ch/bau_1/content/pageview/543746",
+        "image_rights": "Public Domain Mark; parent bibliographic record",
+        "rights_url": "https://www.e-rara.ch/bau_1/content/titleinfo/543675",
+        "source_file": "tmp/new-assets/e-rara-fuchs/erara-fuchs-543746--fuchs-de-historia-stirpium-scan-69.jpg",
+        "source_sha256": "9fffe0fb98f331d2f41249ac9266f65223a52db0cf15004dfdd85d29318e1b20",
+        "source_metadata": "tmp/new-assets/e-rara-fuchs/erara-fuchs-543746.json",
+        "image_url": "https://www.e-rara.ch/i3f/v20/543746/full/full/0/default.jpg",
+        "method": "native-ink-matting-and-editable-source-contour-trace"
+      },
+      "extraction": {
+        "native_png": "tmp/extraction-work/erara-fuchs-543746--plantago-maior--lineart-native.png",
+        "export_crop": [
+          38,
+          37,
+          2416,
+          3533
+        ],
+        "ink_color": [
+          61,
+          54,
+          44
+        ],
+        "method": "native ink coverage relative to locally measured paper; eight opacity contour layers",
+        "background_estimation_kernel": 61,
+        "minimum_ink_coverage": 0.18,
+        "component_join_radius": 12,
+        "trace_layers": [
+          "tmp/extraction-work/erara-fuchs-543746--plantago-maior--trace-layer-1.png",
+          "tmp/extraction-work/erara-fuchs-543746--plantago-maior--trace-layer-2.png",
+          "tmp/extraction-work/erara-fuchs-543746--plantago-maior--trace-layer-3.png",
+          "tmp/extraction-work/erara-fuchs-543746--plantago-maior--trace-layer-4.png",
+          "tmp/extraction-work/erara-fuchs-543746--plantago-maior--trace-layer-5.png",
+          "tmp/extraction-work/erara-fuchs-543746--plantago-maior--trace-layer-6.png",
+          "tmp/extraction-work/erara-fuchs-543746--plantago-maior--trace-layer-7.png",
+          "tmp/extraction-work/erara-fuchs-543746--plantago-maior--trace-layer-8.png"
+        ],
+        "native_size": [
+          2378,
+          3496
+        ],
+        "candidate_svg": "tmp/extraction-work/erara-fuchs-543746--plantago-maior--lineart-candidate.svg",
+        "vector_method": "Five-layer native ink-opacity contour tracing, 0.25px geometric approximation, genuine editable paths without raster embedding",
+        "strong_ink_threshold": 0.36,
+        "strong_ink_support_radius_native_pixels": 3,
+        "preview_vector_premultiplied_rgb_mean_error": 0.0015780911971310053,
+        "tool": "native source ink analysis / OpenCV editable contours",
+        "source_pixels_redrawn": false,
+        "source_rgb_modified": "Original printed ink isolated from measured scan paper, then represented by its measured ink tone and native opacity. No new leaves, stems, flowers, roots or ink shapes."
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261010",
+        "notes": "Compared all printed branches, leaf/flower tips, fine stalks and roots against original scan and retained SVG render. Native ink geometry preserved, caption/reverse-page ghost text excluded, all unprinted paper transparent; extraction bytes unchanged.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": "tmp/extraction-work/quality-reaudit-20261010/manifest.json"
+      },
+      "categories": [
+        "botanical",
+        "floral"
+      ],
+      "subjects": [
+        "plantago-maior",
+        "plant",
+        "leaf",
+        "root"
+      ],
+      "facing": "unclear",
+      "colors": [
+        "brown",
+        "black"
+      ],
+      "composition": "standalone",
+      "usage_notes": "One plant with connected shoots and roots. Its branches are not separate plants and no repeat period is inferred. Transparent line artwork preserves the actual printed ink contours.",
+      "svg": "e-rara-fuchs/erara-fuchs-543746--plantago-maior.svg",
+      "svg_sha256": "ed11a68d669373bf45da515c89104cdd3707ef3e32617c5fba6532b63edc5aa5",
+      "vector_review": {
+        "status": "accepted",
+        "method": "Five-layer native ink-opacity contour tracing, 0.25px geometric approximation, genuine editable paths without raster embedding",
+        "embedded_raster": false,
+        "preview_premultiplied_rgb_mean_error": 0.0015780911971310053
+      },
+      "review_history": [
+        {
+          "round": "quality-reaudit-20261010",
+          "previous_review": {
+            "status": "accepted",
+            "reviewed_on": "2026-10-10T13:28:02.984881+00:00",
+            "checks": [
+              "complete-source-plant-comparison",
+              "leaf-flower-root-tips",
+              "no-caption-or-page-ground",
+              "no-reverse-side-illustration",
+              "native-transparent-line-art",
+              "rendered-editable-SVG-comparison"
+            ],
+            "notes": "Freshly inspected the complete source plant, native ink result and rendered SVG. Connected shoots and roots remain one illustration; captions and reverse-side page material are excluded. Weak original print lines are retained without inventing missing sections."
+          }
+        }
+      ],
+      "selection_history": [
+        {
+          "previous_values": {
+            "categories": [
+              "botanical",
+              "floral"
+            ],
+            "subjects": [
+              "plantago maior",
+              "plant",
+              "leaf",
+              "root"
+            ],
+            "composition": "standalone"
+          },
+          "reason": "Normalize new staging metadata to shared category/composition/subject vocabulary; factual descriptions and original source metadata unchanged."
+        }
+      ],
+      "sets": [
+        {
+          "id": "fuchs-1542-herbal",
+          "name": "Fuchs 1542 Herbal",
+          "relation": "same historical botanical volume and illustration style"
+        }
+      ],
+      "description_before_set_naming": "The complete original plantago maior botanical woodcut, retaining all connected stems, leaves, flowers and roots. Source captions and reverse-side printing excluded.",
+      "set_label": "Fuchs 1542 Herbal"
+    }
+  ]
+}

@@ -21,7 +21,7 @@ export interface Provenance {
   readonly date: string; readonly artist?: string; readonly record_url: string;
   readonly image_url?: string; readonly image_rights: string; readonly rights_url: string;
   readonly source_sha256?: string;
-  readonly method: 'ai-assisted-extraction' | 'independent-ai-interpretation';
+  readonly method: 'ai-assisted-extraction' | 'independent-ai-interpretation' | 'native-source-extraction' | 'native-ink-extraction' | 'native-source-repeat' | 'ai-assisted-source-mask' | 'mixed-source-extraction';
   readonly audit: string;
 }
 export interface Ornament extends Asset {
@@ -31,15 +31,16 @@ export interface Ornament extends Asset {
   readonly asset_type: AssetType; readonly has_transparency: boolean; readonly usage_notes: readonly string[];
   readonly kind: 'standalone' | 'repeat-tile'; readonly derivation: string;
   readonly uses: readonly OrnamentUse[]; readonly formats: readonly Exclude<Format, 'auto'>[];
-  readonly components: Readonly<Partial<Record<'border_image' | 'corner' | 'rotated_tile' | 'reference_crop', Asset>>>;
+  readonly components: Readonly<Partial<Record<'border_image' | 'corner' | 'rotated_tile' | 'reference_crop' | 'bar' | 'rotated_bar' | 'corner-top-left' | 'corner-top-right' | 'corner-bottom-left' | 'corner-bottom-right', Asset>>>;
   readonly border_image_slice_percent?: number; readonly reference?: string;
   readonly provenance?: Provenance;
   readonly author?: string;
+  readonly sets?: readonly { readonly id: string; readonly name: string }[];
 }
 export interface RepeatOrnament extends Ornament {
   readonly name: string; readonly kind: 'repeat-tile';
   readonly uses: readonly ('frame' | 'divider')[]; readonly repeat_axis: 'x' | 'y';
-  readonly repeat_ratio: number; readonly border_image_slice_percent: number;
+  readonly repeat_ratio: number; readonly border_image_slice_percent?: number;
 }
 export interface WholeOrnament extends Ornament {
   readonly name: string; readonly kind: 'standalone';
@@ -78,6 +79,12 @@ export interface RepeatDesign<Name extends string, Available extends Exclude<For
     (use: 'divider', options?: BoundOptions<DividerOptions, Name, Available>): ResolvedOrnament;
   };
   createFrame: (element: HTMLElement, options?: BoundOptions<FrameOptions, Name, Available>) => OrnamentController<BoundOptions<FrameOptions, Name, Available>>;
+  createDivider: (element: HTMLElement, options?: BoundOptions<DividerOptions, Name, Available>) => OrnamentController<BoundOptions<DividerOptions, Name, Available>>;
+}
+export interface DividerDesign<Name extends string, Available extends Exclude<Format, 'auto'>, Type extends AssetType = 'border'> {
+  ornament: RepeatOrnament & { readonly name: Name; readonly asset_type: Type; readonly uses: readonly 'divider'[] };
+  dividerOptions: BoundOptions<DividerOptions, Name, Available>;
+  resolve: (use: 'divider', options?: BoundOptions<DividerOptions, Name, Available>) => ResolvedOrnament;
   createDivider: (element: HTMLElement, options?: BoundOptions<DividerOptions, Name, Available>) => OrnamentController<BoundOptions<DividerOptions, Name, Available>>;
 }
 export interface WholeDesign<Name extends string, Available extends Exclude<Format, 'auto'>, Type extends AssetType> {

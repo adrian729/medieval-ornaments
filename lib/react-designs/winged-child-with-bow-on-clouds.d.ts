@@ -1,0 +1,1 @@
+import type{BoundComponent as C,BoundProps as P}from'../react-core.js';import type{ImageOptions}from'../designs/winged-child-with-bow-on-clouds.js';export{ornament}from'../designs/winged-child-with-bow-on-clouds.js';export type{OrnamentStyle}from'../react-core.js';export type OrnamentImageProps=P<'image',ImageOptions>;export declare const OrnamentImage:C<'image',ImageOptions>;

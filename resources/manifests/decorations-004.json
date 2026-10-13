@@ -1,0 +1,869 @@
+{
+  "schemaVersion": 2,
+  "id": "decorations-004",
+  "collection": "decorations",
+  "package": "@ranx729/medieval-ornaments-assets-decorations-004",
+  "version": "0.1.0",
+  "designs": {
+    "acanthus-scroll-with-copper-vase-and-seated-wind-player": {
+      "name": "acanthus-scroll-with-copper-vase-and-seated-wind-player",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-source-extraction",
+      "repeat_axis": "none",
+      "width": 7787,
+      "height": 2376,
+      "png": "png/acanthus-scroll-with-copper-vase-and-seated-wind-player.png",
+      "webp": "webp/acanthus-scroll-with-copper-vase-and-seated-wind-player.webp",
+      "png_bytes": 18872955,
+      "webp_bytes": 13147434,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/acanthus-scroll-with-copper-vase-and-seated-wind-player.png",
+          "webp": "webp/128/acanthus-scroll-with-copper-vase-and-seated-wind-player.webp",
+          "width": 128,
+          "height": 39,
+          "png_bytes": 11552,
+          "webp_bytes": 9656
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/acanthus-scroll-with-copper-vase-and-seated-wind-player.png",
+          "webp": "webp/256/acanthus-scroll-with-copper-vase-and-seated-wind-player.webp",
+          "width": 256,
+          "height": 78,
+          "png_bytes": 37275,
+          "webp_bytes": 29886
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/acanthus-scroll-with-copper-vase-and-seated-wind-player.png",
+          "webp": "webp/512/acanthus-scroll-with-copper-vase-and-seated-wind-player.webp",
+          "width": 512,
+          "height": 156,
+          "png_bytes": 128506,
+          "webp_bytes": 96920
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/acanthus-scroll-with-copper-vase-and-seated-wind-player.png",
+          "webp": "webp/768/acanthus-scroll-with-copper-vase-and-seated-wind-player.webp",
+          "width": 768,
+          "height": 234,
+          "png_bytes": 269306,
+          "webp_bytes": 200938
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "connected-gray-acanthus-network-with-three-curled-lobes": {
+      "name": "connected-gray-acanthus-network-with-three-curled-lobes",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-source-extraction",
+      "repeat_axis": "none",
+      "width": 1724,
+      "height": 1080,
+      "png": "png/connected-gray-acanthus-network-with-three-curled-lobes.png",
+      "webp": "webp/connected-gray-acanthus-network-with-three-curled-lobes.webp",
+      "png_bytes": 1663395,
+      "webp_bytes": 1162002,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/connected-gray-acanthus-network-with-three-curled-lobes.png",
+          "webp": "webp/128/connected-gray-acanthus-network-with-three-curled-lobes.webp",
+          "width": 128,
+          "height": 80,
+          "png_bytes": 21542,
+          "webp_bytes": 14802
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/connected-gray-acanthus-network-with-three-curled-lobes.png",
+          "webp": "webp/256/connected-gray-acanthus-network-with-three-curled-lobes.webp",
+          "width": 256,
+          "height": 160,
+          "png_bytes": 64970,
+          "webp_bytes": 45640
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/connected-gray-acanthus-network-with-three-curled-lobes.png",
+          "webp": "webp/512/connected-gray-acanthus-network-with-three-curled-lobes.webp",
+          "width": 512,
+          "height": 321,
+          "png_bytes": 204714,
+          "webp_bytes": 143428
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/connected-gray-acanthus-network-with-three-curled-lobes.png",
+          "webp": "webp/768/connected-gray-acanthus-network-with-three-curled-lobes.webp",
+          "width": 768,
+          "height": 481,
+          "png_bytes": 413001,
+          "webp_bytes": 293814
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "elongated-red-gray-leaf-scroll-with-blue-center": {
+      "name": "elongated-red-gray-leaf-scroll-with-blue-center",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-source-extraction",
+      "repeat_axis": "none",
+      "width": 6362,
+      "height": 590,
+      "png": "png/elongated-red-gray-leaf-scroll-with-blue-center.png",
+      "webp": "webp/elongated-red-gray-leaf-scroll-with-blue-center.webp",
+      "png_bytes": 3517148,
+      "webp_bytes": 2404666,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/elongated-red-gray-leaf-scroll-with-blue-center.png",
+          "webp": "webp/128/elongated-red-gray-leaf-scroll-with-blue-center.webp",
+          "width": 128,
+          "height": 12,
+          "png_bytes": 3210,
+          "webp_bytes": 3058
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/elongated-red-gray-leaf-scroll-with-blue-center.png",
+          "webp": "webp/256/elongated-red-gray-leaf-scroll-with-blue-center.webp",
+          "width": 256,
+          "height": 24,
+          "png_bytes": 9884,
+          "webp_bytes": 8628
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/elongated-red-gray-leaf-scroll-with-blue-center.png",
+          "webp": "webp/512/elongated-red-gray-leaf-scroll-with-blue-center.webp",
+          "width": 512,
+          "height": 47,
+          "png_bytes": 33291,
+          "webp_bytes": 26750
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/elongated-red-gray-leaf-scroll-with-blue-center.png",
+          "webp": "webp/768/elongated-red-gray-leaf-scroll-with-blue-center.webp",
+          "width": 768,
+          "height": 71,
+          "png_bytes": 70636,
+          "webp_bytes": 55610
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "gray-acanthus-s-scroll-with-curled-leaf-terminals": {
+      "name": "gray-acanthus-s-scroll-with-curled-leaf-terminals",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-source-extraction",
+      "repeat_axis": "none",
+      "width": 757,
+      "height": 2034,
+      "png": "png/gray-acanthus-s-scroll-with-curled-leaf-terminals.png",
+      "webp": "webp/gray-acanthus-s-scroll-with-curled-leaf-terminals.webp",
+      "png_bytes": 1346475,
+      "webp_bytes": 933490,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/gray-acanthus-s-scroll-with-curled-leaf-terminals.png",
+          "webp": "webp/128/gray-acanthus-s-scroll-with-curled-leaf-terminals.webp",
+          "width": 48,
+          "height": 128,
+          "png_bytes": 13386,
+          "webp_bytes": 9152
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/gray-acanthus-s-scroll-with-curled-leaf-terminals.png",
+          "webp": "webp/256/gray-acanthus-s-scroll-with-curled-leaf-terminals.webp",
+          "width": 95,
+          "height": 256,
+          "png_bytes": 39407,
+          "webp_bytes": 28154
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/gray-acanthus-s-scroll-with-curled-leaf-terminals.png",
+          "webp": "webp/512/gray-acanthus-s-scroll-with-curled-leaf-terminals.webp",
+          "width": 191,
+          "height": 512,
+          "png_bytes": 122553,
+          "webp_bytes": 85332
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/gray-acanthus-s-scroll-with-curled-leaf-terminals.png",
+          "webp": "webp/768/gray-acanthus-s-scroll-with-curled-leaf-terminals.webp",
+          "width": 286,
+          "height": 768,
+          "png_bytes": 246391,
+          "webp_bytes": 173688
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "gray-bird-among-grapes-on-long-floral-vine": {
+      "name": "gray-bird-among-grapes-on-long-floral-vine",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-source-extraction",
+      "repeat_axis": "none",
+      "width": 1591,
+      "height": 7473,
+      "png": "png/gray-bird-among-grapes-on-long-floral-vine.png",
+      "webp": "webp/gray-bird-among-grapes-on-long-floral-vine.webp",
+      "png_bytes": 12867918,
+      "webp_bytes": 8855804,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/gray-bird-among-grapes-on-long-floral-vine.png",
+          "webp": "webp/128/gray-bird-among-grapes-on-long-floral-vine.webp",
+          "width": 27,
+          "height": 128,
+          "png_bytes": 10245,
+          "webp_bytes": 8464
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/gray-bird-among-grapes-on-long-floral-vine.png",
+          "webp": "webp/256/gray-bird-among-grapes-on-long-floral-vine.webp",
+          "width": 55,
+          "height": 256,
+          "png_bytes": 34132,
+          "webp_bytes": 27440
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/gray-bird-among-grapes-on-long-floral-vine.png",
+          "webp": "webp/512/gray-bird-among-grapes-on-long-floral-vine.webp",
+          "width": 109,
+          "height": 512,
+          "png_bytes": 110745,
+          "webp_bytes": 86032
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/gray-bird-among-grapes-on-long-floral-vine.png",
+          "webp": "webp/768/gray-bird-among-grapes-on-long-floral-vine.webp",
+          "width": 164,
+          "height": 768,
+          "png_bytes": 223302,
+          "webp_bytes": 182222
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "lower-oval-red-cream-flower-and-two-green-leaves": {
+      "name": "lower-oval-red-cream-flower-and-two-green-leaves",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-source-extraction",
+      "repeat_axis": "none",
+      "width": 536,
+      "height": 2411,
+      "png": "png/lower-oval-red-cream-flower-and-two-green-leaves.png",
+      "webp": "webp/lower-oval-red-cream-flower-and-two-green-leaves.webp",
+      "png_bytes": 1242462,
+      "webp_bytes": 812484,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/lower-oval-red-cream-flower-and-two-green-leaves.png",
+          "webp": "webp/128/lower-oval-red-cream-flower-and-two-green-leaves.webp",
+          "width": 28,
+          "height": 128,
+          "png_bytes": 7317,
+          "webp_bytes": 6276
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/lower-oval-red-cream-flower-and-two-green-leaves.png",
+          "webp": "webp/256/lower-oval-red-cream-flower-and-two-green-leaves.webp",
+          "width": 57,
+          "height": 256,
+          "png_bytes": 23176,
+          "webp_bytes": 20674
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/lower-oval-red-cream-flower-and-two-green-leaves.png",
+          "webp": "webp/512/lower-oval-red-cream-flower-and-two-green-leaves.webp",
+          "width": 114,
+          "height": 512,
+          "png_bytes": 78680,
+          "webp_bytes": 59870
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/lower-oval-red-cream-flower-and-two-green-leaves.png",
+          "webp": "webp/768/lower-oval-red-cream-flower-and-two-green-leaves.webp",
+          "width": 171,
+          "height": 768,
+          "png_bytes": 166102,
+          "webp_bytes": 121186
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "middle-two-green-leaf-curved-twig": {
+      "name": "middle-two-green-leaf-curved-twig",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-source-extraction",
+      "repeat_axis": "none",
+      "width": 517,
+      "height": 1744,
+      "png": "png/middle-two-green-leaf-curved-twig.png",
+      "webp": "webp/middle-two-green-leaf-curved-twig.webp",
+      "png_bytes": 782019,
+      "webp_bytes": 501546,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/middle-two-green-leaf-curved-twig.png",
+          "webp": "webp/128/middle-two-green-leaf-curved-twig.webp",
+          "width": 38,
+          "height": 128,
+          "png_bytes": 8302,
+          "webp_bytes": 7054
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/middle-two-green-leaf-curved-twig.png",
+          "webp": "webp/256/middle-two-green-leaf-curved-twig.webp",
+          "width": 76,
+          "height": 256,
+          "png_bytes": 25716,
+          "webp_bytes": 20594
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/middle-two-green-leaf-curved-twig.png",
+          "webp": "webp/512/middle-two-green-leaf-curved-twig.webp",
+          "width": 152,
+          "height": 512,
+          "png_bytes": 89517,
+          "webp_bytes": 67008
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/middle-two-green-leaf-curved-twig.png",
+          "webp": "webp/768/middle-two-green-leaf-curved-twig.webp",
+          "width": 228,
+          "height": 768,
+          "png_bytes": 187985,
+          "webp_bytes": 130138
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "upper-red-trefoil-flower-and-two-green-leaves": {
+      "name": "upper-red-trefoil-flower-and-two-green-leaves",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-source-extraction",
+      "repeat_axis": "none",
+      "width": 595,
+      "height": 2066,
+      "png": "png/upper-red-trefoil-flower-and-two-green-leaves.png",
+      "webp": "webp/upper-red-trefoil-flower-and-two-green-leaves.webp",
+      "png_bytes": 858674,
+      "webp_bytes": 570924,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/upper-red-trefoil-flower-and-two-green-leaves.png",
+          "webp": "webp/128/upper-red-trefoil-flower-and-two-green-leaves.webp",
+          "width": 37,
+          "height": 128,
+          "png_bytes": 7742,
+          "webp_bytes": 6636
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/upper-red-trefoil-flower-and-two-green-leaves.png",
+          "webp": "webp/256/upper-red-trefoil-flower-and-two-green-leaves.webp",
+          "width": 74,
+          "height": 256,
+          "png_bytes": 23320,
+          "webp_bytes": 20964
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/upper-red-trefoil-flower-and-two-green-leaves.png",
+          "webp": "webp/512/upper-red-trefoil-flower-and-two-green-leaves.webp",
+          "width": 147,
+          "height": 512,
+          "png_bytes": 75865,
+          "webp_bytes": 58412
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/upper-red-trefoil-flower-and-two-green-leaves.png",
+          "webp": "webp/768/upper-red-trefoil-flower-and-two-green-leaves.webp",
+          "width": 221,
+          "height": 768,
+          "png_bytes": 156755,
+          "webp_bytes": 116472
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    }
+  },
+  "files": {
+    "png/128/acanthus-scroll-with-copper-vase-and-seated-wind-player.png": {
+      "bytes": 11552,
+      "sha256": "66adfb873c317e00fe242d432be549e5edc2ac1c10552d6a9566193ccdf6dcb2"
+    },
+    "png/128/connected-gray-acanthus-network-with-three-curled-lobes.png": {
+      "bytes": 21542,
+      "sha256": "ddc9012a079f4edb5e388e23a9680175c7ba0aafec27c64dab0de6b237479a25"
+    },
+    "png/128/elongated-red-gray-leaf-scroll-with-blue-center.png": {
+      "bytes": 3210,
+      "sha256": "33f87bd2346d0aa3feb97214fac946c1e7588234b5976b5496fb28f6e45a717c"
+    },
+    "png/128/gray-acanthus-s-scroll-with-curled-leaf-terminals.png": {
+      "bytes": 13386,
+      "sha256": "9557f78a0b5ec780be2dbcbcdd75cab02a6df9244f456a1d0009e461e1d51c05"
+    },
+    "png/128/gray-bird-among-grapes-on-long-floral-vine.png": {
+      "bytes": 10245,
+      "sha256": "7f055a126c73fa50518826b21e9ae93b97da358402e0633b643158b65b5f64ce"
+    },
+    "png/128/lower-oval-red-cream-flower-and-two-green-leaves.png": {
+      "bytes": 7317,
+      "sha256": "635f2519ea181f7d827855dda7ce2c7fb9e22c8fa010d9e85a31e2153d173475"
+    },
+    "png/128/middle-two-green-leaf-curved-twig.png": {
+      "bytes": 8302,
+      "sha256": "424c6c34ae7dbdafc060551c5e1ebdd6eef94f315b3b9e03a04ca2cc58d8608a"
+    },
+    "png/128/upper-red-trefoil-flower-and-two-green-leaves.png": {
+      "bytes": 7742,
+      "sha256": "1b993bf0079c799af0cd47569ba155ce52558eb968a16e329a0949794a009eaa"
+    },
+    "png/256/acanthus-scroll-with-copper-vase-and-seated-wind-player.png": {
+      "bytes": 37275,
+      "sha256": "3ab4779f073cb0e643d1191e9ca81ef736aa0025f1b351ed85ef8d4b2b700b06"
+    },
+    "png/256/connected-gray-acanthus-network-with-three-curled-lobes.png": {
+      "bytes": 64970,
+      "sha256": "549b427456b12560b354e46bee675cafbe0d4a6e8023e6b4cc0dfcaf54889f53"
+    },
+    "png/256/elongated-red-gray-leaf-scroll-with-blue-center.png": {
+      "bytes": 9884,
+      "sha256": "82cefbd38001561874979c075a620d50e10d9d68a310ccb71192ffba1267035a"
+    },
+    "png/256/gray-acanthus-s-scroll-with-curled-leaf-terminals.png": {
+      "bytes": 39407,
+      "sha256": "7b5873693cd6645a85770cd05c9ef803295540e8fbe76e9d07fa96f00c26b57d"
+    },
+    "png/256/gray-bird-among-grapes-on-long-floral-vine.png": {
+      "bytes": 34132,
+      "sha256": "bf93637456bdfc90ab4880aec5a2b1c226f64df09026400f0c031e153d91c424"
+    },
+    "png/256/lower-oval-red-cream-flower-and-two-green-leaves.png": {
+      "bytes": 23176,
+      "sha256": "4780fdb90a967d879cbbafd692120e73bba6a88b5eb8672b587723517c59f984"
+    },
+    "png/256/middle-two-green-leaf-curved-twig.png": {
+      "bytes": 25716,
+      "sha256": "1074093f07a989a23baf088e8c650055d741261da0f996091fdd7a1ffc2d20d1"
+    },
+    "png/256/upper-red-trefoil-flower-and-two-green-leaves.png": {
+      "bytes": 23320,
+      "sha256": "1b94b0a2832d085899953257215605d74b7a467f0dda7acdcce2e21ea7d82d76"
+    },
+    "png/512/acanthus-scroll-with-copper-vase-and-seated-wind-player.png": {
+      "bytes": 128506,
+      "sha256": "ce9bc77dec61e4deeab93d03375a041b59e6c6b5f0079375d5327a8587197385"
+    },
+    "png/512/connected-gray-acanthus-network-with-three-curled-lobes.png": {
+      "bytes": 204714,
+      "sha256": "1f0f16bb8cdf111d3d09df065caa2885dd8cc751439f635b384cc6b0e70afcf6"
+    },
+    "png/512/elongated-red-gray-leaf-scroll-with-blue-center.png": {
+      "bytes": 33291,
+      "sha256": "4d54d0ff24b1753f3379ffbc9d846a47bb9f6c1189b073e9a45fe9642cd4a902"
+    },
+    "png/512/gray-acanthus-s-scroll-with-curled-leaf-terminals.png": {
+      "bytes": 122553,
+      "sha256": "d7a51db49fe0117b7c84bcdfea23cbdd0e87589da70d560f27ce646667751205"
+    },
+    "png/512/gray-bird-among-grapes-on-long-floral-vine.png": {
+      "bytes": 110745,
+      "sha256": "a537a24ef3be0919b16c46ed8bfc3a3a9d6dd711036aafd8bd8f1d61aa714d13"
+    },
+    "png/512/lower-oval-red-cream-flower-and-two-green-leaves.png": {
+      "bytes": 78680,
+      "sha256": "006e6059e29457097d89f1a0db33fd12a3daf66f1e8c3523e94d57acc1327db4"
+    },
+    "png/512/middle-two-green-leaf-curved-twig.png": {
+      "bytes": 89517,
+      "sha256": "166717fda3ee4eb0cf04b6ec22946697ee7f1d360470359d808b5e21fcacc56c"
+    },
+    "png/512/upper-red-trefoil-flower-and-two-green-leaves.png": {
+      "bytes": 75865,
+      "sha256": "25e4240bd178dda751b0753a640ff2b1383be3f2a1b277300afe5201c460906f"
+    },
+    "png/768/acanthus-scroll-with-copper-vase-and-seated-wind-player.png": {
+      "bytes": 269306,
+      "sha256": "1a5411c13deba009a9c5be626b92c1293ea7e2753e53eb2e086bc41706351805"
+    },
+    "png/768/connected-gray-acanthus-network-with-three-curled-lobes.png": {
+      "bytes": 413001,
+      "sha256": "9c88196e5efad98456669506469083daf3ae19d6cf4c7392f51f76d36a34f5da"
+    },
+    "png/768/elongated-red-gray-leaf-scroll-with-blue-center.png": {
+      "bytes": 70636,
+      "sha256": "9e61564528ce8e7f866dc61aed4e0bf1a42480178df754cce02daed3fcf79c19"
+    },
+    "png/768/gray-acanthus-s-scroll-with-curled-leaf-terminals.png": {
+      "bytes": 246391,
+      "sha256": "7b69031b58393795409ecc7bcaae32d421aac37baff199ecc159829d6ccd9713"
+    },
+    "png/768/gray-bird-among-grapes-on-long-floral-vine.png": {
+      "bytes": 223302,
+      "sha256": "5778ea3b8aeb9b40ecee0381f683cc8a89282596c7a2762db14e9b5c05da74f5"
+    },
+    "png/768/lower-oval-red-cream-flower-and-two-green-leaves.png": {
+      "bytes": 166102,
+      "sha256": "8a5194c8a272a2b9b8705619e05c956f2c5715ea28c405f0368283f142913df9"
+    },
+    "png/768/middle-two-green-leaf-curved-twig.png": {
+      "bytes": 187985,
+      "sha256": "ed6b50e672d11a946d098f61ae9d288a22adee8ef84395db21ad443bda7f0eda"
+    },
+    "png/768/upper-red-trefoil-flower-and-two-green-leaves.png": {
+      "bytes": 156755,
+      "sha256": "02e528a38c7999370404a26f52cef4bb02bdd07fd19ceed2df8585c7742decf6"
+    },
+    "png/acanthus-scroll-with-copper-vase-and-seated-wind-player.png": {
+      "bytes": 18872955,
+      "sha256": "0c08c2789562c8f1667cff21f333315e5f78a0bb08676d83fcdf676d77be7661"
+    },
+    "png/connected-gray-acanthus-network-with-three-curled-lobes.png": {
+      "bytes": 1663395,
+      "sha256": "0008ae27f61c145d3bd808264278d8976df3380569defbb97bfdd5aa268d50db"
+    },
+    "png/elongated-red-gray-leaf-scroll-with-blue-center.png": {
+      "bytes": 3517148,
+      "sha256": "3384cb926a6b5086571e9f11fca0e991626d6ab7900d00c9a2451388c821f637"
+    },
+    "png/gray-acanthus-s-scroll-with-curled-leaf-terminals.png": {
+      "bytes": 1346475,
+      "sha256": "0b7733ca93cd4758853b3994fa5940119a915ddef5ac75f72c0803a89c3ac6fd"
+    },
+    "png/gray-bird-among-grapes-on-long-floral-vine.png": {
+      "bytes": 12867918,
+      "sha256": "539a5bf3d4c337d69badff72b1d7064e23fb27639c6425c04d7268eb88d5b23b"
+    },
+    "png/lower-oval-red-cream-flower-and-two-green-leaves.png": {
+      "bytes": 1242462,
+      "sha256": "3054d2b0ea1d3c2e75c7d9b0c181b43ef53e045380ba8ba3c70bbf87946f74d6"
+    },
+    "png/middle-two-green-leaf-curved-twig.png": {
+      "bytes": 782019,
+      "sha256": "d6582b31df8485e951d03e9556ccf9a2564c51e1a792ccca77cb19ac3a4c8c7b"
+    },
+    "png/upper-red-trefoil-flower-and-two-green-leaves.png": {
+      "bytes": 858674,
+      "sha256": "d464344a88563f5e54ff12aa9eaddf9705da58e4bfce67ad662324a01339a9a4"
+    },
+    "webp/128/acanthus-scroll-with-copper-vase-and-seated-wind-player.webp": {
+      "bytes": 9656,
+      "sha256": "40fd65b856ad58ac50f2a0e0e9b1408310d1554c7fdfcabdce247cfaf8f0b1a3"
+    },
+    "webp/128/connected-gray-acanthus-network-with-three-curled-lobes.webp": {
+      "bytes": 14802,
+      "sha256": "1ec930671d66b4773dedf3003f1c31d8812572cb19dababac46354dfaf087a6f"
+    },
+    "webp/128/elongated-red-gray-leaf-scroll-with-blue-center.webp": {
+      "bytes": 3058,
+      "sha256": "72c3cf871bc34428ae06f557104bbb9b9216fda2d9a64a26cf294efaaed16587"
+    },
+    "webp/128/gray-acanthus-s-scroll-with-curled-leaf-terminals.webp": {
+      "bytes": 9152,
+      "sha256": "0a76c66e5b640e2f74d1cbd2458d510f6ae3ff6b2c046d27728a4a385fbd8b1a"
+    },
+    "webp/128/gray-bird-among-grapes-on-long-floral-vine.webp": {
+      "bytes": 8464,
+      "sha256": "16f7815106440498275ef3d742851ea529b5545f89810c0adc1fa05555a3620b"
+    },
+    "webp/128/lower-oval-red-cream-flower-and-two-green-leaves.webp": {
+      "bytes": 6276,
+      "sha256": "c4572cf6bae1283229a253ed3599fcf160b216fb13f7833088112cebd7fb437a"
+    },
+    "webp/128/middle-two-green-leaf-curved-twig.webp": {
+      "bytes": 7054,
+      "sha256": "44c445bb0f6c9d94fd085d51074142afafc52c7e33acce0722328215c98e7fef"
+    },
+    "webp/128/upper-red-trefoil-flower-and-two-green-leaves.webp": {
+      "bytes": 6636,
+      "sha256": "6f0f90818574f3692e40bf88bd5516d238b993f52944195835f2dbfff0116dbf"
+    },
+    "webp/256/acanthus-scroll-with-copper-vase-and-seated-wind-player.webp": {
+      "bytes": 29886,
+      "sha256": "f430b8ad19b10189e7726a649d49712bb524062fc4d5ccf1641af62559ace529"
+    },
+    "webp/256/connected-gray-acanthus-network-with-three-curled-lobes.webp": {
+      "bytes": 45640,
+      "sha256": "b0dba665540ead29701efd7bf0e8010e195f69f50d0c8c62d5c99827c7a3c7bc"
+    },
+    "webp/256/elongated-red-gray-leaf-scroll-with-blue-center.webp": {
+      "bytes": 8628,
+      "sha256": "5eaba66bcaf0d45c415c8325e805fa2d7ed91381a25cf6b67a12a25c9c82d857"
+    },
+    "webp/256/gray-acanthus-s-scroll-with-curled-leaf-terminals.webp": {
+      "bytes": 28154,
+      "sha256": "94d301d5c48f0ed0f305f8be51cf207b4f85b9a000807ffc0747674acd89b456"
+    },
+    "webp/256/gray-bird-among-grapes-on-long-floral-vine.webp": {
+      "bytes": 27440,
+      "sha256": "84413a6c77d4788ae92d91dfa9fe78c43804540ff644719fb9faf258cd475fc5"
+    },
+    "webp/256/lower-oval-red-cream-flower-and-two-green-leaves.webp": {
+      "bytes": 20674,
+      "sha256": "3939452e59f1deb01bf44e2ab894339519c5ba1e086a9bd8f460c6fa1987e352"
+    },
+    "webp/256/middle-two-green-leaf-curved-twig.webp": {
+      "bytes": 20594,
+      "sha256": "93876b0d05ce4477eb38124b51fa1037dd30c2097d733e7f4ff75ebd62f7d61c"
+    },
+    "webp/256/upper-red-trefoil-flower-and-two-green-leaves.webp": {
+      "bytes": 20964,
+      "sha256": "3f4aa8d99fc89c5df0cfb9bad17d3847040038df3eb9721f747558ea970d0f15"
+    },
+    "webp/512/acanthus-scroll-with-copper-vase-and-seated-wind-player.webp": {
+      "bytes": 96920,
+      "sha256": "6ebccf5411c1e203a72adc0287e1f25f5286f9b2e9e94c9cd0c008629a49cc7c"
+    },
+    "webp/512/connected-gray-acanthus-network-with-three-curled-lobes.webp": {
+      "bytes": 143428,
+      "sha256": "9a10ec8526410d0d744c5a38c97f532b48a2638f14f7fbd5f145322a8143eee5"
+    },
+    "webp/512/elongated-red-gray-leaf-scroll-with-blue-center.webp": {
+      "bytes": 26750,
+      "sha256": "26bba27fd9273bc020600fe5db63bb8233ad590ee93fb8c22aae1c016218a3d5"
+    },
+    "webp/512/gray-acanthus-s-scroll-with-curled-leaf-terminals.webp": {
+      "bytes": 85332,
+      "sha256": "63709254b3a4e7d45a30b56cc403344954bafcc66893994f30880c1fa0168e44"
+    },
+    "webp/512/gray-bird-among-grapes-on-long-floral-vine.webp": {
+      "bytes": 86032,
+      "sha256": "51c22b100f29d6f700ef3ae2a2cde6f04c8c94ee77734b00f8ab412f8073f157"
+    },
+    "webp/512/lower-oval-red-cream-flower-and-two-green-leaves.webp": {
+      "bytes": 59870,
+      "sha256": "bb76e8f3a812d490fb7b0aa75e044538c9fc65e733a3180ac3d9ccb36a682927"
+    },
+    "webp/512/middle-two-green-leaf-curved-twig.webp": {
+      "bytes": 67008,
+      "sha256": "fe8c1c6ea46f6499663b9bd327aaaa7ce47b0a8576eac5cdee6272f1a6aecd8d"
+    },
+    "webp/512/upper-red-trefoil-flower-and-two-green-leaves.webp": {
+      "bytes": 58412,
+      "sha256": "ab19e4bd7295c6117c4a63e6db885faafa14100e76c6ed4b01ad249b1b8f5244"
+    },
+    "webp/768/acanthus-scroll-with-copper-vase-and-seated-wind-player.webp": {
+      "bytes": 200938,
+      "sha256": "7d9e23405951f92df587938455a258148b6f2fffb47371d2ce7a3b1873bcdcaa"
+    },
+    "webp/768/connected-gray-acanthus-network-with-three-curled-lobes.webp": {
+      "bytes": 293814,
+      "sha256": "ee7a4e703ef4b6f0f8fb562f6cd66cd265173f9e01c16e0408e578598ac70ca7"
+    },
+    "webp/768/elongated-red-gray-leaf-scroll-with-blue-center.webp": {
+      "bytes": 55610,
+      "sha256": "ecac27647d24055208e75e58dcf13dd9b7d6edcb04bed5e920e617ee5b7d9129"
+    },
+    "webp/768/gray-acanthus-s-scroll-with-curled-leaf-terminals.webp": {
+      "bytes": 173688,
+      "sha256": "92fb685ee3b0a1c3b98448f292e4a310fb64488d6b85b7edfe0c3fbeb06c3476"
+    },
+    "webp/768/gray-bird-among-grapes-on-long-floral-vine.webp": {
+      "bytes": 182222,
+      "sha256": "90efc425ed6ca74a18af0e22041a3755a019e66bdad8f415bbbf85cb36d87ef9"
+    },
+    "webp/768/lower-oval-red-cream-flower-and-two-green-leaves.webp": {
+      "bytes": 121186,
+      "sha256": "22cc6843f572603c3421a9e7fb3be7f6547fd26c517fadbc69039921fc79fc35"
+    },
+    "webp/768/middle-two-green-leaf-curved-twig.webp": {
+      "bytes": 130138,
+      "sha256": "cbd45a05e9917228c5dd35db4b17d244865701ce1dc5640bccce9d3173937a3b"
+    },
+    "webp/768/upper-red-trefoil-flower-and-two-green-leaves.webp": {
+      "bytes": 116472,
+      "sha256": "06f03e8bce03efaffa0f1e04fa40512fd8d42893565f6a66b016ca76bd26dadf"
+    },
+    "webp/acanthus-scroll-with-copper-vase-and-seated-wind-player.webp": {
+      "bytes": 13147434,
+      "sha256": "fa101e830e5a40129f5e48de3ad9946a7601e151bcc819a761a81c361f356745"
+    },
+    "webp/connected-gray-acanthus-network-with-three-curled-lobes.webp": {
+      "bytes": 1162002,
+      "sha256": "39f797b27c29b47c4d7f71118775226f596fab6e9f52564c1facc32a59012ff0"
+    },
+    "webp/elongated-red-gray-leaf-scroll-with-blue-center.webp": {
+      "bytes": 2404666,
+      "sha256": "ceb25ded570ddc35bd9609ed36c73ea97425c474e4e3d5e0eaf14160033dd6a5"
+    },
+    "webp/gray-acanthus-s-scroll-with-curled-leaf-terminals.webp": {
+      "bytes": 933490,
+      "sha256": "eef46f5d33cb2d2b3ba7c3e7959b0004bb91a7355168c336fa108e88bf99c4a6"
+    },
+    "webp/gray-bird-among-grapes-on-long-floral-vine.webp": {
+      "bytes": 8855804,
+      "sha256": "83e778d47f8a7fc1df6b082da507d1f7099b574f41f45930e45894c3686bdca1"
+    },
+    "webp/lower-oval-red-cream-flower-and-two-green-leaves.webp": {
+      "bytes": 812484,
+      "sha256": "2b2352b0780dd8032c82b79aa8d900b1d8b2671a1ccade311c30538aa3146f14"
+    },
+    "webp/middle-two-green-leaf-curved-twig.webp": {
+      "bytes": 501546,
+      "sha256": "e6dd2cc8ca28c0535ed1c420b097d0b3fe245185e68772d87fe7d1f2c26da3f2"
+    },
+    "webp/upper-red-trefoil-flower-and-two-green-leaves.webp": {
+      "bytes": 570924,
+      "sha256": "f35612c4c0c09a46edfc87ad6dc4720e547095961c19271ffa33a2e5d7ef6f6b"
+    }
+  },
+  "inputs": {
+    "sources/tiles/acanthus-scroll-with-copper-vase-and-seated-wind-player.png": {
+      "bytes": 18872955,
+      "sha256": "0c08c2789562c8f1667cff21f333315e5f78a0bb08676d83fcdf676d77be7661"
+    },
+    "sources/tiles/connected-gray-acanthus-network-with-three-curled-lobes.png": {
+      "bytes": 1663395,
+      "sha256": "0008ae27f61c145d3bd808264278d8976df3380569defbb97bfdd5aa268d50db"
+    },
+    "sources/tiles/elongated-red-gray-leaf-scroll-with-blue-center.png": {
+      "bytes": 3517148,
+      "sha256": "3384cb926a6b5086571e9f11fca0e991626d6ab7900d00c9a2451388c821f637"
+    },
+    "sources/tiles/gray-acanthus-s-scroll-with-curled-leaf-terminals.png": {
+      "bytes": 1346475,
+      "sha256": "0b7733ca93cd4758853b3994fa5940119a915ddef5ac75f72c0803a89c3ac6fd"
+    },
+    "sources/tiles/gray-bird-among-grapes-on-long-floral-vine.png": {
+      "bytes": 12867918,
+      "sha256": "539a5bf3d4c337d69badff72b1d7064e23fb27639c6425c04d7268eb88d5b23b"
+    },
+    "sources/tiles/lower-oval-red-cream-flower-and-two-green-leaves.png": {
+      "bytes": 1242462,
+      "sha256": "3054d2b0ea1d3c2e75c7d9b0c181b43ef53e045380ba8ba3c70bbf87946f74d6"
+    },
+    "sources/tiles/middle-two-green-leaf-curved-twig.png": {
+      "bytes": 782019,
+      "sha256": "d6582b31df8485e951d03e9556ccf9a2564c51e1a792ccca77cb19ac3a4c8c7b"
+    },
+    "sources/tiles/upper-red-trefoil-flower-and-two-green-leaves.png": {
+      "bytes": 858674,
+      "sha256": "d464344a88563f5e54ff12aa9eaddf9705da58e4bfce67ad662324a01339a9a4"
+    }
+  }
+}

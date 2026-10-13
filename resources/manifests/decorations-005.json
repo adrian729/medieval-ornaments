@@ -1,0 +1,2394 @@
+{
+  "schemaVersion": 2,
+  "id": "decorations-005",
+  "collection": "decorations",
+  "package": "@ranx729/medieval-ornaments-assets-decorations-005",
+  "version": "0.1.0",
+  "designs": {
+    "blue-curled-flower-with-rose-lobes-and-two-green-leaves": {
+      "name": "blue-curled-flower-with-rose-lobes-and-two-green-leaves",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-source-extraction",
+      "repeat_axis": "none",
+      "width": 820,
+      "height": 1186,
+      "png": "png/blue-curled-flower-with-rose-lobes-and-two-green-leaves.png",
+      "webp": "webp/blue-curled-flower-with-rose-lobes-and-two-green-leaves.webp",
+      "png_bytes": 813620,
+      "webp_bytes": 548948,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/blue-curled-flower-with-rose-lobes-and-two-green-leaves.png",
+          "webp": "webp/128/blue-curled-flower-with-rose-lobes-and-two-green-leaves.webp",
+          "width": 88,
+          "height": 128,
+          "png_bytes": 16244,
+          "webp_bytes": 12640
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/blue-curled-flower-with-rose-lobes-and-two-green-leaves.png",
+          "webp": "webp/256/blue-curled-flower-with-rose-lobes-and-two-green-leaves.webp",
+          "width": 177,
+          "height": 256,
+          "png_bytes": 52045,
+          "webp_bytes": 38772
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/blue-curled-flower-with-rose-lobes-and-two-green-leaves.png",
+          "webp": "webp/512/blue-curled-flower-with-rose-lobes-and-two-green-leaves.webp",
+          "width": 354,
+          "height": 512,
+          "png_bytes": 176050,
+          "webp_bytes": 125968
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/blue-curled-flower-with-rose-lobes-and-two-green-leaves.png",
+          "webp": "webp/768/blue-curled-flower-with-rose-lobes-and-two-green-leaves.webp",
+          "width": 531,
+          "height": 768,
+          "png_bytes": 368848,
+          "webp_bytes": 258018
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "blue-folded-flower-on-tall-green-stem": {
+      "name": "blue-folded-flower-on-tall-green-stem",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-source-extraction",
+      "repeat_axis": "none",
+      "width": 403,
+      "height": 1176,
+      "png": "png/blue-folded-flower-on-tall-green-stem.png",
+      "webp": "webp/blue-folded-flower-on-tall-green-stem.webp",
+      "png_bytes": 505913,
+      "webp_bytes": 348230,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/blue-folded-flower-on-tall-green-stem.png",
+          "webp": "webp/128/blue-folded-flower-on-tall-green-stem.webp",
+          "width": 44,
+          "height": 128,
+          "png_bytes": 11083,
+          "webp_bytes": 9274
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/blue-folded-flower-on-tall-green-stem.png",
+          "webp": "webp/256/blue-folded-flower-on-tall-green-stem.webp",
+          "width": 88,
+          "height": 256,
+          "png_bytes": 34148,
+          "webp_bytes": 26254
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/blue-folded-flower-on-tall-green-stem.png",
+          "webp": "webp/512/blue-folded-flower-on-tall-green-stem.webp",
+          "width": 175,
+          "height": 512,
+          "png_bytes": 112454,
+          "webp_bytes": 84282
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/blue-folded-flower-on-tall-green-stem.png",
+          "webp": "webp/768/blue-folded-flower-on-tall-green-stem.webp",
+          "width": 263,
+          "height": 768,
+          "png_bytes": 235095,
+          "webp_bytes": 174862
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "blue-ringed-red-and-violet-acanthus-medallion": {
+      "name": "blue-ringed-red-and-violet-acanthus-medallion",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-source-extraction",
+      "repeat_axis": "none",
+      "width": 699,
+      "height": 829,
+      "png": "png/blue-ringed-red-and-violet-acanthus-medallion.png",
+      "webp": "webp/blue-ringed-red-and-violet-acanthus-medallion.webp",
+      "png_bytes": 954948,
+      "webp_bytes": 664628,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/blue-ringed-red-and-violet-acanthus-medallion.png",
+          "webp": "webp/128/blue-ringed-red-and-violet-acanthus-medallion.webp",
+          "width": 108,
+          "height": 128,
+          "png_bytes": 38570,
+          "webp_bytes": 30182
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/blue-ringed-red-and-violet-acanthus-medallion.png",
+          "webp": "webp/256/blue-ringed-red-and-violet-acanthus-medallion.webp",
+          "width": 216,
+          "height": 256,
+          "png_bytes": 125102,
+          "webp_bytes": 93624
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/blue-ringed-red-and-violet-acanthus-medallion.png",
+          "webp": "webp/512/blue-ringed-red-and-violet-acanthus-medallion.webp",
+          "width": 432,
+          "height": 512,
+          "png_bytes": 419242,
+          "webp_bytes": 308566
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/blue-ringed-red-and-violet-acanthus-medallion.png",
+          "webp": "webp/768/blue-ringed-red-and-violet-acanthus-medallion.webp",
+          "width": 648,
+          "height": 768,
+          "png_bytes": 853842,
+          "webp_bytes": 624360
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "crossed-upright-green-leaf-pair": {
+      "name": "crossed-upright-green-leaf-pair",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-source-extraction",
+      "repeat_axis": "none",
+      "width": 332,
+      "height": 931,
+      "png": "png/crossed-upright-green-leaf-pair.png",
+      "webp": "webp/crossed-upright-green-leaf-pair.webp",
+      "png_bytes": 292108,
+      "webp_bytes": 199688,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/crossed-upright-green-leaf-pair.png",
+          "webp": "webp/128/crossed-upright-green-leaf-pair.webp",
+          "width": 46,
+          "height": 128,
+          "png_bytes": 9497,
+          "webp_bytes": 7866
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/crossed-upright-green-leaf-pair.png",
+          "webp": "webp/256/crossed-upright-green-leaf-pair.webp",
+          "width": 91,
+          "height": 256,
+          "png_bytes": 29171,
+          "webp_bytes": 22888
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/crossed-upright-green-leaf-pair.png",
+          "webp": "webp/512/crossed-upright-green-leaf-pair.webp",
+          "width": 183,
+          "height": 512,
+          "png_bytes": 100501,
+          "webp_bytes": 74892
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/crossed-upright-green-leaf-pair.png",
+          "webp": "webp/768/crossed-upright-green-leaf-pair.webp",
+          "width": 274,
+          "height": 768,
+          "png_bytes": 209102,
+          "webp_bytes": 154994
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "fixed-floral-u-border-with-gold-and-black-ivy": {
+      "name": "fixed-floral-u-border-with-gold-and-black-ivy",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-source-extraction",
+      "repeat_axis": "none",
+      "width": 4040,
+      "height": 5564,
+      "png": "png/fixed-floral-u-border-with-gold-and-black-ivy.png",
+      "webp": "webp/fixed-floral-u-border-with-gold-and-black-ivy.webp",
+      "png_bytes": 15871916,
+      "webp_bytes": 11499928,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/fixed-floral-u-border-with-gold-and-black-ivy.png",
+          "webp": "webp/128/fixed-floral-u-border-with-gold-and-black-ivy.webp",
+          "width": 93,
+          "height": 128,
+          "png_bytes": 27842,
+          "webp_bytes": 21674
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/fixed-floral-u-border-with-gold-and-black-ivy.png",
+          "webp": "webp/256/fixed-floral-u-border-with-gold-and-black-ivy.webp",
+          "width": 186,
+          "height": 256,
+          "png_bytes": 97544,
+          "webp_bytes": 70892
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/fixed-floral-u-border-with-gold-and-black-ivy.png",
+          "webp": "webp/512/fixed-floral-u-border-with-gold-and-black-ivy.webp",
+          "width": 372,
+          "height": 512,
+          "png_bytes": 316293,
+          "webp_bytes": 227112
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/fixed-floral-u-border-with-gold-and-black-ivy.png",
+          "webp": "webp/768/fixed-floral-u-border-with-gold-and-black-ivy.webp",
+          "width": 558,
+          "height": 768,
+          "png_bytes": 608735,
+          "webp_bytes": 458806
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "gold-hatched-fruit-on-green-leafy-stem": {
+      "name": "gold-hatched-fruit-on-green-leafy-stem",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-source-extraction",
+      "repeat_axis": "none",
+      "width": 414,
+      "height": 1260,
+      "png": "png/gold-hatched-fruit-on-green-leafy-stem.png",
+      "webp": "webp/gold-hatched-fruit-on-green-leafy-stem.webp",
+      "png_bytes": 510292,
+      "webp_bytes": 345736,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/gold-hatched-fruit-on-green-leafy-stem.png",
+          "webp": "webp/128/gold-hatched-fruit-on-green-leafy-stem.webp",
+          "width": 42,
+          "height": 128,
+          "png_bytes": 9724,
+          "webp_bytes": 7788
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/gold-hatched-fruit-on-green-leafy-stem.png",
+          "webp": "webp/256/gold-hatched-fruit-on-green-leafy-stem.webp",
+          "width": 84,
+          "height": 256,
+          "png_bytes": 29996,
+          "webp_bytes": 23070
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/gold-hatched-fruit-on-green-leafy-stem.png",
+          "webp": "webp/512/gold-hatched-fruit-on-green-leafy-stem.webp",
+          "width": 168,
+          "height": 512,
+          "png_bytes": 100370,
+          "webp_bytes": 74300
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/gold-hatched-fruit-on-green-leafy-stem.png",
+          "webp": "webp/768/gold-hatched-fruit-on-green-leafy-stem.webp",
+          "width": 252,
+          "height": 768,
+          "png_bytes": 209811,
+          "webp_bytes": 153914
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "grape-bunch-with-leaves": {
+      "name": "grape-bunch-with-leaves",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-ink-extraction",
+      "repeat_axis": "none",
+      "viewbox": [
+        0,
+        0,
+        65,
+        87
+      ],
+      "width": 65,
+      "height": 87,
+      "png": "png/grape-bunch-with-leaves.png",
+      "webp": "webp/grape-bunch-with-leaves.webp",
+      "svg": "svg/grape-bunch-with-leaves.svg",
+      "png_bytes": 4402,
+      "webp_bytes": 2988,
+      "variants": [],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "svg",
+        "webp",
+        "png"
+      ]
+    },
+    "hanging-pear": {
+      "name": "hanging-pear",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-ink-extraction",
+      "repeat_axis": "none",
+      "viewbox": [
+        0,
+        0,
+        45,
+        67
+      ],
+      "width": 45,
+      "height": 67,
+      "png": "png/hanging-pear.png",
+      "webp": "webp/hanging-pear.webp",
+      "svg": "svg/hanging-pear.svg",
+      "png_bytes": 2180,
+      "webp_bytes": 1412,
+      "variants": [],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "svg",
+        "webp",
+        "png"
+      ]
+    },
+    "left-gray-blue-acanthus-scroll-with-green-stem": {
+      "name": "left-gray-blue-acanthus-scroll-with-green-stem",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 563,
+      "height": 1165,
+      "png": "png/left-gray-blue-acanthus-scroll-with-green-stem.png",
+      "webp": "webp/left-gray-blue-acanthus-scroll-with-green-stem.webp",
+      "png_bytes": 811505,
+      "webp_bytes": 572932,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/left-gray-blue-acanthus-scroll-with-green-stem.png",
+          "webp": "webp/128/left-gray-blue-acanthus-scroll-with-green-stem.webp",
+          "width": 62,
+          "height": 128,
+          "png_bytes": 16327,
+          "webp_bytes": 13244
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/left-gray-blue-acanthus-scroll-with-green-stem.png",
+          "webp": "webp/256/left-gray-blue-acanthus-scroll-with-green-stem.webp",
+          "width": 124,
+          "height": 256,
+          "png_bytes": 52746,
+          "webp_bytes": 40350
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/left-gray-blue-acanthus-scroll-with-green-stem.png",
+          "webp": "webp/512/left-gray-blue-acanthus-scroll-with-green-stem.webp",
+          "width": 247,
+          "height": 512,
+          "png_bytes": 178675,
+          "webp_bytes": 129080
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/left-gray-blue-acanthus-scroll-with-green-stem.png",
+          "webp": "webp/768/left-gray-blue-acanthus-scroll-with-green-stem.webp",
+          "width": 371,
+          "height": 768,
+          "png_bytes": 381133,
+          "webp_bytes": 272498
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "long-blue-and-gold-line-end-scroll-bar": {
+      "name": "long-blue-and-gold-line-end-scroll-bar",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-source-extraction",
+      "repeat_axis": "none",
+      "width": 838,
+      "height": 169,
+      "png": "png/long-blue-and-gold-line-end-scroll-bar.png",
+      "webp": "webp/long-blue-and-gold-line-end-scroll-bar.webp",
+      "png_bytes": 165714,
+      "webp_bytes": 122692,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/long-blue-and-gold-line-end-scroll-bar.png",
+          "webp": "webp/128/long-blue-and-gold-line-end-scroll-bar.webp",
+          "width": 128,
+          "height": 26,
+          "png_bytes": 7517,
+          "webp_bytes": 6286
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/long-blue-and-gold-line-end-scroll-bar.png",
+          "webp": "webp/256/long-blue-and-gold-line-end-scroll-bar.webp",
+          "width": 256,
+          "height": 52,
+          "png_bytes": 22983,
+          "webp_bytes": 19382
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/long-blue-and-gold-line-end-scroll-bar.png",
+          "webp": "webp/512/long-blue-and-gold-line-end-scroll-bar.webp",
+          "width": 512,
+          "height": 103,
+          "png_bytes": 73138,
+          "webp_bytes": 58632
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/long-blue-and-gold-line-end-scroll-bar.png",
+          "webp": "webp/768/long-blue-and-gold-line-end-scroll-bar.webp",
+          "width": 768,
+          "height": 155,
+          "png_bytes": 148671,
+          "webp_bytes": 116922
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "lower-left-green-leaf-branch-with-pink-flowers": {
+      "name": "lower-left-green-leaf-branch-with-pink-flowers",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 759,
+      "height": 1324,
+      "png": "png/lower-left-green-leaf-branch-with-pink-flowers.png",
+      "webp": "webp/lower-left-green-leaf-branch-with-pink-flowers.webp",
+      "png_bytes": 1165309,
+      "webp_bytes": 846986,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/lower-left-green-leaf-branch-with-pink-flowers.png",
+          "webp": "webp/128/lower-left-green-leaf-branch-with-pink-flowers.webp",
+          "width": 73,
+          "height": 128,
+          "png_bytes": 19934,
+          "webp_bytes": 15162
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/lower-left-green-leaf-branch-with-pink-flowers.png",
+          "webp": "webp/256/lower-left-green-leaf-branch-with-pink-flowers.webp",
+          "width": 147,
+          "height": 256,
+          "png_bytes": 62924,
+          "webp_bytes": 48808
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/lower-left-green-leaf-branch-with-pink-flowers.png",
+          "webp": "webp/512/lower-left-green-leaf-branch-with-pink-flowers.webp",
+          "width": 294,
+          "height": 512,
+          "png_bytes": 206869,
+          "webp_bytes": 153728
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/lower-left-green-leaf-branch-with-pink-flowers.png",
+          "webp": "webp/768/lower-left-green-leaf-branch-with-pink-flowers.webp",
+          "width": 440,
+          "height": 768,
+          "png_bytes": 435279,
+          "webp_bytes": 321356
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "lower-right-green-leaf-branch-with-blue-flowers": {
+      "name": "lower-right-green-leaf-branch-with-blue-flowers",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 860,
+      "height": 1230,
+      "png": "png/lower-right-green-leaf-branch-with-blue-flowers.png",
+      "webp": "webp/lower-right-green-leaf-branch-with-blue-flowers.webp",
+      "png_bytes": 1522910,
+      "webp_bytes": 1174298,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/lower-right-green-leaf-branch-with-blue-flowers.png",
+          "webp": "webp/128/lower-right-green-leaf-branch-with-blue-flowers.webp",
+          "width": 89,
+          "height": 128,
+          "png_bytes": 26888,
+          "webp_bytes": 20382
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/lower-right-green-leaf-branch-with-blue-flowers.png",
+          "webp": "webp/256/lower-right-green-leaf-branch-with-blue-flowers.webp",
+          "width": 179,
+          "height": 256,
+          "png_bytes": 88477,
+          "webp_bytes": 69794
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/lower-right-green-leaf-branch-with-blue-flowers.png",
+          "webp": "webp/512/lower-right-green-leaf-branch-with-blue-flowers.webp",
+          "width": 358,
+          "height": 512,
+          "png_bytes": 303275,
+          "webp_bytes": 234644
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/lower-right-green-leaf-branch-with-blue-flowers.png",
+          "webp": "webp/768/lower-right-green-leaf-branch-with-blue-flowers.webp",
+          "width": 537,
+          "height": 768,
+          "png_bytes": 652429,
+          "webp_bytes": 496934
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "may-calendar-fixed-floral-frame-with-paired-forest-arches": {
+      "name": "may-calendar-fixed-floral-frame-with-paired-forest-arches",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-source-extraction",
+      "repeat_axis": "none",
+      "width": 3947,
+      "height": 5928,
+      "png": "png/may-calendar-fixed-floral-frame-with-paired-forest-arches.png",
+      "webp": "webp/may-calendar-fixed-floral-frame-with-paired-forest-arches.webp",
+      "png_bytes": 29319946,
+      "webp_bytes": 20037880,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/may-calendar-fixed-floral-frame-with-paired-forest-arches.png",
+          "webp": "webp/128/may-calendar-fixed-floral-frame-with-paired-forest-arches.webp",
+          "width": 85,
+          "height": 128,
+          "png_bytes": 20122,
+          "webp_bytes": 16716
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/may-calendar-fixed-floral-frame-with-paired-forest-arches.png",
+          "webp": "webp/256/may-calendar-fixed-floral-frame-with-paired-forest-arches.webp",
+          "width": 170,
+          "height": 256,
+          "png_bytes": 73883,
+          "webp_bytes": 56750
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/may-calendar-fixed-floral-frame-with-paired-forest-arches.png",
+          "webp": "webp/512/may-calendar-fixed-floral-frame-with-paired-forest-arches.webp",
+          "width": 341,
+          "height": 512,
+          "png_bytes": 277472,
+          "webp_bytes": 199304
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/may-calendar-fixed-floral-frame-with-paired-forest-arches.png",
+          "webp": "webp/768/may-calendar-fixed-floral-frame-with-paired-forest-arches.webp",
+          "width": 511,
+          "height": 768,
+          "png_bytes": 599351,
+          "webp_bytes": 421752
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "red-four-petaled-flower-on-curved-stem-with-green-leaves": {
+      "name": "red-four-petaled-flower-on-curved-stem-with-green-leaves",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-source-extraction",
+      "repeat_axis": "none",
+      "width": 1477,
+      "height": 888,
+      "png": "png/red-four-petaled-flower-on-curved-stem-with-green-leaves.png",
+      "webp": "webp/red-four-petaled-flower-on-curved-stem-with-green-leaves.webp",
+      "png_bytes": 1213419,
+      "webp_bytes": 827512,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/red-four-petaled-flower-on-curved-stem-with-green-leaves.png",
+          "webp": "webp/128/red-four-petaled-flower-on-curved-stem-with-green-leaves.webp",
+          "width": 128,
+          "height": 77,
+          "png_bytes": 15758,
+          "webp_bytes": 12656
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/red-four-petaled-flower-on-curved-stem-with-green-leaves.png",
+          "webp": "webp/256/red-four-petaled-flower-on-curved-stem-with-green-leaves.webp",
+          "width": 256,
+          "height": 154,
+          "png_bytes": 50485,
+          "webp_bytes": 38596
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/red-four-petaled-flower-on-curved-stem-with-green-leaves.png",
+          "webp": "webp/512/red-four-petaled-flower-on-curved-stem-with-green-leaves.webp",
+          "width": 512,
+          "height": 308,
+          "png_bytes": 171621,
+          "webp_bytes": 127086
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/red-four-petaled-flower-on-curved-stem-with-green-leaves.png",
+          "webp": "webp/768/red-four-petaled-flower-on-curved-stem-with-green-leaves.webp",
+          "width": 768,
+          "height": 462,
+          "png_bytes": 361195,
+          "webp_bytes": 256028
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "red-gray-radial-flower-on-green-leaf-spray": {
+      "name": "red-gray-radial-flower-on-green-leaf-spray",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-source-extraction",
+      "repeat_axis": "none",
+      "width": 798,
+      "height": 1776,
+      "png": "png/red-gray-radial-flower-on-green-leaf-spray.png",
+      "webp": "webp/red-gray-radial-flower-on-green-leaf-spray.webp",
+      "png_bytes": 1479837,
+      "webp_bytes": 1013958,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/red-gray-radial-flower-on-green-leaf-spray.png",
+          "webp": "webp/128/red-gray-radial-flower-on-green-leaf-spray.webp",
+          "width": 58,
+          "height": 128,
+          "png_bytes": 15554,
+          "webp_bytes": 12790
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/red-gray-radial-flower-on-green-leaf-spray.png",
+          "webp": "webp/256/red-gray-radial-flower-on-green-leaf-spray.webp",
+          "width": 115,
+          "height": 256,
+          "png_bytes": 47881,
+          "webp_bytes": 36202
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/red-gray-radial-flower-on-green-leaf-spray.png",
+          "webp": "webp/512/red-gray-radial-flower-on-green-leaf-spray.webp",
+          "width": 230,
+          "height": 512,
+          "png_bytes": 156010,
+          "webp_bytes": 115426
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/red-gray-radial-flower-on-green-leaf-spray.png",
+          "webp": "webp/768/red-gray-radial-flower-on-green-leaf-spray.webp",
+          "width": 345,
+          "height": 768,
+          "png_bytes": 321284,
+          "webp_bytes": 230710
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "rose-and-blue-bud-on-curved-stem-with-green-leaves": {
+      "name": "rose-and-blue-bud-on-curved-stem-with-green-leaves",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-source-extraction",
+      "repeat_axis": "none",
+      "width": 437,
+      "height": 1032,
+      "png": "png/rose-and-blue-bud-on-curved-stem-with-green-leaves.png",
+      "webp": "webp/rose-and-blue-bud-on-curved-stem-with-green-leaves.webp",
+      "png_bytes": 407606,
+      "webp_bytes": 294152,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/rose-and-blue-bud-on-curved-stem-with-green-leaves.png",
+          "webp": "webp/128/rose-and-blue-bud-on-curved-stem-with-green-leaves.webp",
+          "width": 54,
+          "height": 128,
+          "png_bytes": 11228,
+          "webp_bytes": 9290
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/rose-and-blue-bud-on-curved-stem-with-green-leaves.png",
+          "webp": "webp/256/rose-and-blue-bud-on-curved-stem-with-green-leaves.webp",
+          "width": 108,
+          "height": 256,
+          "png_bytes": 34613,
+          "webp_bytes": 27086
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/rose-and-blue-bud-on-curved-stem-with-green-leaves.png",
+          "webp": "webp/512/rose-and-blue-bud-on-curved-stem-with-green-leaves.webp",
+          "width": 217,
+          "height": 512,
+          "png_bytes": 116450,
+          "webp_bytes": 86602
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/rose-and-blue-bud-on-curved-stem-with-green-leaves.png",
+          "webp": "webp/768/rose-and-blue-bud-on-curved-stem-with-green-leaves.webp",
+          "width": 325,
+          "height": 768,
+          "png_bytes": 241296,
+          "webp_bytes": 178764
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "rose-blue-and-gold-layered-flower-with-two-green-leaves": {
+      "name": "rose-blue-and-gold-layered-flower-with-two-green-leaves",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-source-extraction",
+      "repeat_axis": "none",
+      "width": 1018,
+      "height": 935,
+      "png": "png/rose-blue-and-gold-layered-flower-with-two-green-leaves.png",
+      "webp": "webp/rose-blue-and-gold-layered-flower-with-two-green-leaves.webp",
+      "png_bytes": 1236640,
+      "webp_bytes": 846120,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/rose-blue-and-gold-layered-flower-with-two-green-leaves.png",
+          "webp": "webp/128/rose-blue-and-gold-layered-flower-with-two-green-leaves.webp",
+          "width": 128,
+          "height": 118,
+          "png_bytes": 29960,
+          "webp_bytes": 23218
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/rose-blue-and-gold-layered-flower-with-two-green-leaves.png",
+          "webp": "webp/256/rose-blue-and-gold-layered-flower-with-two-green-leaves.webp",
+          "width": 256,
+          "height": 235,
+          "png_bytes": 99562,
+          "webp_bytes": 75258
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/rose-blue-and-gold-layered-flower-with-two-green-leaves.png",
+          "webp": "webp/512/rose-blue-and-gold-layered-flower-with-two-green-leaves.webp",
+          "width": 512,
+          "height": 470,
+          "png_bytes": 348670,
+          "webp_bytes": 247850
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/rose-blue-and-gold-layered-flower-with-two-green-leaves.png",
+          "webp": "webp/768/rose-blue-and-gold-layered-flower-with-two-green-leaves.webp",
+          "width": 768,
+          "height": 705,
+          "png_bytes": 731853,
+          "webp_bytes": 516584
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "rose-fan-flower-with-small-red-bud-and-green-leaves": {
+      "name": "rose-fan-flower-with-small-red-bud-and-green-leaves",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-source-extraction",
+      "repeat_axis": "none",
+      "width": 829,
+      "height": 2111,
+      "png": "png/rose-fan-flower-with-small-red-bud-and-green-leaves.png",
+      "webp": "webp/rose-fan-flower-with-small-red-bud-and-green-leaves.webp",
+      "png_bytes": 1720947,
+      "webp_bytes": 1202636,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/rose-fan-flower-with-small-red-bud-and-green-leaves.png",
+          "webp": "webp/128/rose-fan-flower-with-small-red-bud-and-green-leaves.webp",
+          "width": 50,
+          "height": 128,
+          "png_bytes": 13868,
+          "webp_bytes": 10658
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/rose-fan-flower-with-small-red-bud-and-green-leaves.png",
+          "webp": "webp/256/rose-fan-flower-with-small-red-bud-and-green-leaves.webp",
+          "width": 101,
+          "height": 256,
+          "png_bytes": 42991,
+          "webp_bytes": 33236
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/rose-fan-flower-with-small-red-bud-and-green-leaves.png",
+          "webp": "webp/512/rose-fan-flower-with-small-red-bud-and-green-leaves.webp",
+          "width": 201,
+          "height": 512,
+          "png_bytes": 138029,
+          "webp_bytes": 105110
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/rose-fan-flower-with-small-red-bud-and-green-leaves.png",
+          "webp": "webp/768/rose-fan-flower-with-small-red-bud-and-green-leaves.webp",
+          "width": 302,
+          "height": 768,
+          "png_bytes": 281501,
+          "webp_bytes": 208036
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "short-blue-and-gold-line-end-scroll-bar": {
+      "name": "short-blue-and-gold-line-end-scroll-bar",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-source-extraction",
+      "repeat_axis": "none",
+      "width": 441,
+      "height": 167,
+      "png": "png/short-blue-and-gold-line-end-scroll-bar.png",
+      "webp": "webp/short-blue-and-gold-line-end-scroll-bar.webp",
+      "png_bytes": 95658,
+      "webp_bytes": 69860,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/short-blue-and-gold-line-end-scroll-bar.png",
+          "webp": "webp/128/short-blue-and-gold-line-end-scroll-bar.webp",
+          "width": 128,
+          "height": 48,
+          "png_bytes": 12113,
+          "webp_bytes": 10550
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/short-blue-and-gold-line-end-scroll-bar.png",
+          "webp": "webp/256/short-blue-and-gold-line-end-scroll-bar.webp",
+          "width": 256,
+          "height": 97,
+          "png_bytes": 39289,
+          "webp_bytes": 32322
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "small-blue-and-gold-four-point-line-end-floret": {
+      "name": "small-blue-and-gold-four-point-line-end-floret",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-source-extraction",
+      "repeat_axis": "none",
+      "width": 131,
+      "height": 131,
+      "png": "png/small-blue-and-gold-four-point-line-end-floret.png",
+      "webp": "webp/small-blue-and-gold-four-point-line-end-floret.webp",
+      "png_bytes": 27305,
+      "webp_bytes": 20292,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/small-blue-and-gold-four-point-line-end-floret.png",
+          "webp": "webp/128/small-blue-and-gold-four-point-line-end-floret.webp",
+          "width": 128,
+          "height": 128,
+          "png_bytes": 27832,
+          "webp_bytes": 22472
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "small-folded-blue-bud-on-green-stem": {
+      "name": "small-folded-blue-bud-on-green-stem",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "native-source-extraction",
+      "repeat_axis": "none",
+      "width": 758,
+      "height": 269,
+      "png": "png/small-folded-blue-bud-on-green-stem.png",
+      "webp": "webp/small-folded-blue-bud-on-green-stem.webp",
+      "png_bytes": 166816,
+      "webp_bytes": 114396,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/small-folded-blue-bud-on-green-stem.png",
+          "webp": "webp/128/small-folded-blue-bud-on-green-stem.webp",
+          "width": 128,
+          "height": 45,
+          "png_bytes": 7629,
+          "webp_bytes": 6338
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/small-folded-blue-bud-on-green-stem.png",
+          "webp": "webp/256/small-folded-blue-bud-on-green-stem.webp",
+          "width": 256,
+          "height": 91,
+          "png_bytes": 23988,
+          "webp_bytes": 18862
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/small-folded-blue-bud-on-green-stem.png",
+          "webp": "webp/512/small-folded-blue-bud-on-green-stem.webp",
+          "width": 512,
+          "height": 182,
+          "png_bytes": 83220,
+          "webp_bytes": 61070
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "small-left-red-and-blue-leaf-terminal": {
+      "name": "small-left-red-and-blue-leaf-terminal",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 466,
+      "height": 274,
+      "png": "png/small-left-red-and-blue-leaf-terminal.png",
+      "webp": "webp/small-left-red-and-blue-leaf-terminal.webp",
+      "png_bytes": 184909,
+      "webp_bytes": 142118,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/small-left-red-and-blue-leaf-terminal.png",
+          "webp": "webp/128/small-left-red-and-blue-leaf-terminal.webp",
+          "width": 128,
+          "height": 75,
+          "png_bytes": 16406,
+          "webp_bytes": 13920
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/small-left-red-and-blue-leaf-terminal.png",
+          "webp": "webp/256/small-left-red-and-blue-leaf-terminal.webp",
+          "width": 256,
+          "height": 151,
+          "png_bytes": 60231,
+          "webp_bytes": 49092
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "small-right-red-and-blue-leaf-terminal": {
+      "name": "small-right-red-and-blue-leaf-terminal",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 348,
+      "height": 218,
+      "png": "png/small-right-red-and-blue-leaf-terminal.png",
+      "webp": "webp/small-right-red-and-blue-leaf-terminal.webp",
+      "png_bytes": 111361,
+      "webp_bytes": 82958,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/small-right-red-and-blue-leaf-terminal.png",
+          "webp": "webp/128/small-right-red-and-blue-leaf-terminal.webp",
+          "width": 128,
+          "height": 80,
+          "png_bytes": 17471,
+          "webp_bytes": 14380
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/small-right-red-and-blue-leaf-terminal.png",
+          "webp": "webp/256/small-right-red-and-blue-leaf-terminal.webp",
+          "width": 256,
+          "height": 160,
+          "png_bytes": 63058,
+          "webp_bytes": 49862
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "upper-left-red-and-blue-acanthus-branch": {
+      "name": "upper-left-red-and-blue-acanthus-branch",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 1369,
+      "height": 1091,
+      "png": "png/upper-left-red-and-blue-acanthus-branch.png",
+      "webp": "webp/upper-left-red-and-blue-acanthus-branch.webp",
+      "png_bytes": 1400383,
+      "webp_bytes": 1098696,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/upper-left-red-and-blue-acanthus-branch.png",
+          "webp": "webp/128/upper-left-red-and-blue-acanthus-branch.webp",
+          "width": 128,
+          "height": 102,
+          "png_bytes": 23450,
+          "webp_bytes": 19948
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/upper-left-red-and-blue-acanthus-branch.png",
+          "webp": "webp/256/upper-left-red-and-blue-acanthus-branch.webp",
+          "width": 256,
+          "height": 204,
+          "png_bytes": 74314,
+          "webp_bytes": 61796
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/upper-left-red-and-blue-acanthus-branch.png",
+          "webp": "webp/512/upper-left-red-and-blue-acanthus-branch.webp",
+          "width": 512,
+          "height": 408,
+          "png_bytes": 243605,
+          "webp_bytes": 195630
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/upper-left-red-and-blue-acanthus-branch.png",
+          "webp": "webp/768/upper-left-red-and-blue-acanthus-branch.webp",
+          "width": 768,
+          "height": 612,
+          "png_bytes": 504343,
+          "webp_bytes": 397434
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "upper-right-pink-flowers-on-green-leaf-sprays": {
+      "name": "upper-right-pink-flowers-on-green-leaf-sprays",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "ai-assisted-extraction",
+      "repeat_axis": "none",
+      "width": 1365,
+      "height": 1033,
+      "png": "png/upper-right-pink-flowers-on-green-leaf-sprays.png",
+      "webp": "webp/upper-right-pink-flowers-on-green-leaf-sprays.webp",
+      "png_bytes": 1584881,
+      "webp_bytes": 1192006,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/upper-right-pink-flowers-on-green-leaf-sprays.png",
+          "webp": "webp/128/upper-right-pink-flowers-on-green-leaf-sprays.webp",
+          "width": 128,
+          "height": 97,
+          "png_bytes": 25622,
+          "webp_bytes": 19796
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/upper-right-pink-flowers-on-green-leaf-sprays.png",
+          "webp": "webp/256/upper-right-pink-flowers-on-green-leaf-sprays.webp",
+          "width": 256,
+          "height": 194,
+          "png_bytes": 81644,
+          "webp_bytes": 64214
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/upper-right-pink-flowers-on-green-leaf-sprays.png",
+          "webp": "webp/512/upper-right-pink-flowers-on-green-leaf-sprays.webp",
+          "width": 512,
+          "height": 387,
+          "png_bytes": 269093,
+          "webp_bytes": 203174
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/upper-right-pink-flowers-on-green-leaf-sprays.png",
+          "webp": "webp/768/upper-right-pink-flowers-on-green-leaf-sprays.webp",
+          "width": 768,
+          "height": 581,
+          "png_bytes": 571370,
+          "webp_bytes": 422368
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    }
+  },
+  "files": {
+    "png/128/blue-curled-flower-with-rose-lobes-and-two-green-leaves.png": {
+      "bytes": 16244,
+      "sha256": "d04759341466b454af93f3a54f64ee0cf73cad41fe96c9e4ca7a9370211415ce"
+    },
+    "png/128/blue-folded-flower-on-tall-green-stem.png": {
+      "bytes": 11083,
+      "sha256": "883d6e3bf363233eae5ec29b2173f9dd2a322b3b4fb6e48592c4c77d488fe50e"
+    },
+    "png/128/blue-ringed-red-and-violet-acanthus-medallion.png": {
+      "bytes": 38570,
+      "sha256": "5530c6a7af1760a4b5d61c0817f6cfd53a2b599ebcb9293384d7a01c18a4ffa2"
+    },
+    "png/128/crossed-upright-green-leaf-pair.png": {
+      "bytes": 9497,
+      "sha256": "0ddc3397c66bbe1cb72871ba0fd27c932a4ba5c4e07c4b27981ba06fadaaaf61"
+    },
+    "png/128/fixed-floral-u-border-with-gold-and-black-ivy.png": {
+      "bytes": 27842,
+      "sha256": "6699419d85a6c0227193fe57ac5825f9b2a609ddb36974e49712b45f8a4bd09b"
+    },
+    "png/128/gold-hatched-fruit-on-green-leafy-stem.png": {
+      "bytes": 9724,
+      "sha256": "1ad7eae00356ea423dcd28cd7bb28eec57c6f0a88c35b938435b6469efff7b42"
+    },
+    "png/128/left-gray-blue-acanthus-scroll-with-green-stem.png": {
+      "bytes": 16327,
+      "sha256": "b44dbc5c643d4c993966eba43740e4aa6ba3528e66a07919071e8466998d051a"
+    },
+    "png/128/long-blue-and-gold-line-end-scroll-bar.png": {
+      "bytes": 7517,
+      "sha256": "62918919c7e85deba7c604e3f946fffaf8ae8a3b131f374cb1ece739b1864431"
+    },
+    "png/128/lower-left-green-leaf-branch-with-pink-flowers.png": {
+      "bytes": 19934,
+      "sha256": "c3b1a0471acf2c7ba026eb6659cf3ea005fd88b33c1972626e385afb88701703"
+    },
+    "png/128/lower-right-green-leaf-branch-with-blue-flowers.png": {
+      "bytes": 26888,
+      "sha256": "372fe624256fd5597ad4f42714059ca70a165f692783710f189e05ba2f05e475"
+    },
+    "png/128/may-calendar-fixed-floral-frame-with-paired-forest-arches.png": {
+      "bytes": 20122,
+      "sha256": "2428ee34747ce071043f26d8853fce9d7442492c15836243089971628c4e2bbc"
+    },
+    "png/128/red-four-petaled-flower-on-curved-stem-with-green-leaves.png": {
+      "bytes": 15758,
+      "sha256": "589d11e49853c4d748cff75d8bd2eadd987c877afd3628fc45a79de1bdf1829b"
+    },
+    "png/128/red-gray-radial-flower-on-green-leaf-spray.png": {
+      "bytes": 15554,
+      "sha256": "8efdc2244bde517e100a5f664995821a4550efcb66736a5f3ddec66794589cf4"
+    },
+    "png/128/rose-and-blue-bud-on-curved-stem-with-green-leaves.png": {
+      "bytes": 11228,
+      "sha256": "6b67205b122aa7a3c72ca6557de3436b3bb49006211c6a75c53444e9f34afcec"
+    },
+    "png/128/rose-blue-and-gold-layered-flower-with-two-green-leaves.png": {
+      "bytes": 29960,
+      "sha256": "8737eeff391919e0b37ff3cae9b4d893fc416f44b9cfa383a10e25e65015b4a6"
+    },
+    "png/128/rose-fan-flower-with-small-red-bud-and-green-leaves.png": {
+      "bytes": 13868,
+      "sha256": "5fbf166565d123bbd33ab64414fbae2ecf27d4ac640983c72f873068b31326ca"
+    },
+    "png/128/short-blue-and-gold-line-end-scroll-bar.png": {
+      "bytes": 12113,
+      "sha256": "fd198325d4a327633a58d673c27e7f1fd0f367758a7a553536b615446abed622"
+    },
+    "png/128/small-blue-and-gold-four-point-line-end-floret.png": {
+      "bytes": 27832,
+      "sha256": "e49287a26d2a3b526a79f5cf3c10fc1324e1ef7f050acb1890a4814de277f31e"
+    },
+    "png/128/small-folded-blue-bud-on-green-stem.png": {
+      "bytes": 7629,
+      "sha256": "2100c99d53c0399d9c79527f79459e85e9baabcc7acc9f7ece41e87442c336d4"
+    },
+    "png/128/small-left-red-and-blue-leaf-terminal.png": {
+      "bytes": 16406,
+      "sha256": "e0a4c1d1270a978d7b649ef927b2b268bdf459f6e62f1e73c284f41e9a645d88"
+    },
+    "png/128/small-right-red-and-blue-leaf-terminal.png": {
+      "bytes": 17471,
+      "sha256": "a0c0a5600c3f2111d64808129e1591b14a1cb23242283188dcbb91ef21091dad"
+    },
+    "png/128/upper-left-red-and-blue-acanthus-branch.png": {
+      "bytes": 23450,
+      "sha256": "899f8606299c5b8de29bd06729653b00a5667c1abdabdfada2e7a34630daf56e"
+    },
+    "png/128/upper-right-pink-flowers-on-green-leaf-sprays.png": {
+      "bytes": 25622,
+      "sha256": "f4f2444d92912d3e909147fe44fa66f8b4d576b7cdec1e9fde422ece1ee06424"
+    },
+    "png/256/blue-curled-flower-with-rose-lobes-and-two-green-leaves.png": {
+      "bytes": 52045,
+      "sha256": "ae71e6dece62c1f0f3e4114540e7d9a0ff1a687eb3a34d20ff4ddd6b08eedcee"
+    },
+    "png/256/blue-folded-flower-on-tall-green-stem.png": {
+      "bytes": 34148,
+      "sha256": "307adb430f51a836c2ddcf572dfccf0adf06d1944ef99b79ee7c690ae0621beb"
+    },
+    "png/256/blue-ringed-red-and-violet-acanthus-medallion.png": {
+      "bytes": 125102,
+      "sha256": "9426a091644cdce53944ac4b60830f654d58d85f6bf2ca443b9fb3cc35674702"
+    },
+    "png/256/crossed-upright-green-leaf-pair.png": {
+      "bytes": 29171,
+      "sha256": "6febad69f02ce0cfb344e6d4dd811f91ad908fc0524282f155430102c938833c"
+    },
+    "png/256/fixed-floral-u-border-with-gold-and-black-ivy.png": {
+      "bytes": 97544,
+      "sha256": "8a1429a41e6cc21d01d003e7a140fd519c105a17546017cf80fc30656814dfce"
+    },
+    "png/256/gold-hatched-fruit-on-green-leafy-stem.png": {
+      "bytes": 29996,
+      "sha256": "fc80f343baf0091d1577e9e34f7d69b88d770034f7076b0fd58992e1920f16ed"
+    },
+    "png/256/left-gray-blue-acanthus-scroll-with-green-stem.png": {
+      "bytes": 52746,
+      "sha256": "7c333032d7efe145eb73822abae459b07e3495706c959a785b56780a23c9b1ca"
+    },
+    "png/256/long-blue-and-gold-line-end-scroll-bar.png": {
+      "bytes": 22983,
+      "sha256": "ba16f18f519499e682e540dd9656b4928ba6ca72398c822fee65a95f2fa26864"
+    },
+    "png/256/lower-left-green-leaf-branch-with-pink-flowers.png": {
+      "bytes": 62924,
+      "sha256": "956fb2458f7fee57984f0b1380b14da946337081b2c14ad00eccd4ea02c7d8fe"
+    },
+    "png/256/lower-right-green-leaf-branch-with-blue-flowers.png": {
+      "bytes": 88477,
+      "sha256": "f7f3018a063c82719def0eeb326f1917fb2d57992070f42dcfeab71a3203c4f3"
+    },
+    "png/256/may-calendar-fixed-floral-frame-with-paired-forest-arches.png": {
+      "bytes": 73883,
+      "sha256": "a83363c13f5201dbf2702a6e5e401a51dddab288dc21a705ab77c3da1bc5f015"
+    },
+    "png/256/red-four-petaled-flower-on-curved-stem-with-green-leaves.png": {
+      "bytes": 50485,
+      "sha256": "3905e2811101e15bf00627525829963f1281117fb6e7eff8fd373c2d766e9ca9"
+    },
+    "png/256/red-gray-radial-flower-on-green-leaf-spray.png": {
+      "bytes": 47881,
+      "sha256": "e053289139cbdd9d17c1d88251eda39f34baa60a5afcab98010a10a4d2417f66"
+    },
+    "png/256/rose-and-blue-bud-on-curved-stem-with-green-leaves.png": {
+      "bytes": 34613,
+      "sha256": "6a7e7e2651b3c700edcf887d93bdf71827114f0b8c7566ccb4e72e7a89b3d6b5"
+    },
+    "png/256/rose-blue-and-gold-layered-flower-with-two-green-leaves.png": {
+      "bytes": 99562,
+      "sha256": "87698e58c98e55cb985083bb2123aec8a342350f80c55ee02be501c64886477a"
+    },
+    "png/256/rose-fan-flower-with-small-red-bud-and-green-leaves.png": {
+      "bytes": 42991,
+      "sha256": "9df282d8e8a7d62780829f3ca9b396599f04784a16495eac6cd0672ea9b67e0e"
+    },
+    "png/256/short-blue-and-gold-line-end-scroll-bar.png": {
+      "bytes": 39289,
+      "sha256": "84e08c65b1171ad080b13b0dcbfe90e62a9c3d86c69e22670f543a75890a9320"
+    },
+    "png/256/small-folded-blue-bud-on-green-stem.png": {
+      "bytes": 23988,
+      "sha256": "7f4a63eb3640ae179bd5f16c9c43d0ed3c6507a9a001a27e9e22bc8efeac0d0e"
+    },
+    "png/256/small-left-red-and-blue-leaf-terminal.png": {
+      "bytes": 60231,
+      "sha256": "cae470f33b5cee0551a2cc39518970bd1eaf15173688bdbcc8f4946c0a41bbd6"
+    },
+    "png/256/small-right-red-and-blue-leaf-terminal.png": {
+      "bytes": 63058,
+      "sha256": "00483c960d7b74886c39ab1cefb3c6ec4777580718c7b1ec83e9a371d7a10bd3"
+    },
+    "png/256/upper-left-red-and-blue-acanthus-branch.png": {
+      "bytes": 74314,
+      "sha256": "badeef209321f7fb0f00402137b4541f7ac9269b1599c97f823bf6e17ba2d797"
+    },
+    "png/256/upper-right-pink-flowers-on-green-leaf-sprays.png": {
+      "bytes": 81644,
+      "sha256": "cf50e242c516a67eb05c6dea496f392efcd50709c376a7f459ecd7388a91f736"
+    },
+    "png/512/blue-curled-flower-with-rose-lobes-and-two-green-leaves.png": {
+      "bytes": 176050,
+      "sha256": "a871ef239b06b20e6946ab36533e7e787da8661c87b14e42e5e4c1629ef0187a"
+    },
+    "png/512/blue-folded-flower-on-tall-green-stem.png": {
+      "bytes": 112454,
+      "sha256": "ca0dfb4381693073236d64fe6549f8e2c6b29751f217d6a957e0b30894bda709"
+    },
+    "png/512/blue-ringed-red-and-violet-acanthus-medallion.png": {
+      "bytes": 419242,
+      "sha256": "1651e1e1aca5f39a6fa97ddada902b39847c0e32d41b0edddec4c7f5dbdf63bb"
+    },
+    "png/512/crossed-upright-green-leaf-pair.png": {
+      "bytes": 100501,
+      "sha256": "a3c6359dce1e0b80c2671a94477ad69d434607c4e662f7b93540d2c131637455"
+    },
+    "png/512/fixed-floral-u-border-with-gold-and-black-ivy.png": {
+      "bytes": 316293,
+      "sha256": "e2bdcc4012ba4909c88942754b647fbd085ee3e5a53f2d2e386e8e3eec936853"
+    },
+    "png/512/gold-hatched-fruit-on-green-leafy-stem.png": {
+      "bytes": 100370,
+      "sha256": "6ca8d6cd94a2b91273f0199900b57222708da61fb1e8a6c7549332fa1e42f4ca"
+    },
+    "png/512/left-gray-blue-acanthus-scroll-with-green-stem.png": {
+      "bytes": 178675,
+      "sha256": "bffdd46c3536156b0d76debe4120971d98bd0385e8f65c74642ade4838ff8bc2"
+    },
+    "png/512/long-blue-and-gold-line-end-scroll-bar.png": {
+      "bytes": 73138,
+      "sha256": "57d843e980b20cb30ac32a54bdd518fad45c323171ff045a27ba84eaf51ddb9b"
+    },
+    "png/512/lower-left-green-leaf-branch-with-pink-flowers.png": {
+      "bytes": 206869,
+      "sha256": "d8b489d8950563587443b74dcea8ead299e386f53a78367a080ebee689c7fbd5"
+    },
+    "png/512/lower-right-green-leaf-branch-with-blue-flowers.png": {
+      "bytes": 303275,
+      "sha256": "a83c9edc38c854e08aaf444693658492aa47458856f876a3e0d1cd624adde8c7"
+    },
+    "png/512/may-calendar-fixed-floral-frame-with-paired-forest-arches.png": {
+      "bytes": 277472,
+      "sha256": "823622ae391690694be53a81c85fcc7baa8041c86342387e4e29b75e09e07f60"
+    },
+    "png/512/red-four-petaled-flower-on-curved-stem-with-green-leaves.png": {
+      "bytes": 171621,
+      "sha256": "01a4215a6de58a376a58f5f0269dc58d6255366373d80d662838b294efdc8faf"
+    },
+    "png/512/red-gray-radial-flower-on-green-leaf-spray.png": {
+      "bytes": 156010,
+      "sha256": "3c69437b20a51c076817b5bf85f5ecef4ac750caa9463c032e7b62fa79ed7dea"
+    },
+    "png/512/rose-and-blue-bud-on-curved-stem-with-green-leaves.png": {
+      "bytes": 116450,
+      "sha256": "803eec8f6fb49bf203f5d06cca8106fc94acbb3ac2d28b343e5f386c42b557ef"
+    },
+    "png/512/rose-blue-and-gold-layered-flower-with-two-green-leaves.png": {
+      "bytes": 348670,
+      "sha256": "697f11d148bf0f1fbbf119f6839946f9cd9c7d48169903a6704bf391aa519d7b"
+    },
+    "png/512/rose-fan-flower-with-small-red-bud-and-green-leaves.png": {
+      "bytes": 138029,
+      "sha256": "bab4d0b513279352b1d3b328d6f55a98abecb682e679b6d35a67c806c8c4cea1"
+    },
+    "png/512/small-folded-blue-bud-on-green-stem.png": {
+      "bytes": 83220,
+      "sha256": "02649bdc9ea3a397ebf919129b954e1763579ef6036bf659868eea18a17fb09a"
+    },
+    "png/512/upper-left-red-and-blue-acanthus-branch.png": {
+      "bytes": 243605,
+      "sha256": "29c94bcb0d405cbcff61488cfa5c5a9cd29f408d3c60ab7a2e648d2500b793fe"
+    },
+    "png/512/upper-right-pink-flowers-on-green-leaf-sprays.png": {
+      "bytes": 269093,
+      "sha256": "65f25f1b450a7e1f12ca4d3003387c8a53a47a90b3b8c8b27b90a3535601fed2"
+    },
+    "png/768/blue-curled-flower-with-rose-lobes-and-two-green-leaves.png": {
+      "bytes": 368848,
+      "sha256": "23211872b36a24a6e203638b65a6010d4edaffa0a05cb2feae93d8b5d2c79116"
+    },
+    "png/768/blue-folded-flower-on-tall-green-stem.png": {
+      "bytes": 235095,
+      "sha256": "632a893fb8c3dedf979c996eac8c5fd9a4ade237d1f6e3d74fc8d4b45e21ddc3"
+    },
+    "png/768/blue-ringed-red-and-violet-acanthus-medallion.png": {
+      "bytes": 853842,
+      "sha256": "f4563b76c73d393250766e8b3561217478d0863590ba282b0956b2927e454ec2"
+    },
+    "png/768/crossed-upright-green-leaf-pair.png": {
+      "bytes": 209102,
+      "sha256": "d603148a385a5b6627a9019ba3ab54269f2efbf7317f037a18bb74fb2a54c61b"
+    },
+    "png/768/fixed-floral-u-border-with-gold-and-black-ivy.png": {
+      "bytes": 608735,
+      "sha256": "e4a292438b5ab408b4bfbb08d754f88fdc3f0c268493e89ac912077649a2d805"
+    },
+    "png/768/gold-hatched-fruit-on-green-leafy-stem.png": {
+      "bytes": 209811,
+      "sha256": "c46ba1054753a2ae142c288041993681e6b898327bb95aa9f0f61d05e060e1bd"
+    },
+    "png/768/left-gray-blue-acanthus-scroll-with-green-stem.png": {
+      "bytes": 381133,
+      "sha256": "de0d764a49ee25f42810b3e79ee119fa9222aa362099be8bfafa62356d02116b"
+    },
+    "png/768/long-blue-and-gold-line-end-scroll-bar.png": {
+      "bytes": 148671,
+      "sha256": "e6abaee874dbeb8398c4fb2605cedc436856ff1fa854e1055f72f83011b93e3c"
+    },
+    "png/768/lower-left-green-leaf-branch-with-pink-flowers.png": {
+      "bytes": 435279,
+      "sha256": "f320e94775390fcc9aa62b8e3b6243895e12e5ccb0533511853d409ac0160713"
+    },
+    "png/768/lower-right-green-leaf-branch-with-blue-flowers.png": {
+      "bytes": 652429,
+      "sha256": "f41cb26c605dc263639d4fb0e8dbf72918df238f7d8b3da05c72d7dba163e6fb"
+    },
+    "png/768/may-calendar-fixed-floral-frame-with-paired-forest-arches.png": {
+      "bytes": 599351,
+      "sha256": "ccd2464c85169c55fd22799da646c99024a1c95028fedb389d0f83062b7382fe"
+    },
+    "png/768/red-four-petaled-flower-on-curved-stem-with-green-leaves.png": {
+      "bytes": 361195,
+      "sha256": "2f62492c4a3f46e39551724f229350bf2bca54c696ede63ded2f91073b1bf300"
+    },
+    "png/768/red-gray-radial-flower-on-green-leaf-spray.png": {
+      "bytes": 321284,
+      "sha256": "93e73f1d49333613a5ba0f15a3fc7d29d2ed8bc8b18fcaaf7766c31ab28757bb"
+    },
+    "png/768/rose-and-blue-bud-on-curved-stem-with-green-leaves.png": {
+      "bytes": 241296,
+      "sha256": "6b9fee0153bb5043e1fd37dfe31e157413be3f6bc8f0f730f34069f094e4976c"
+    },
+    "png/768/rose-blue-and-gold-layered-flower-with-two-green-leaves.png": {
+      "bytes": 731853,
+      "sha256": "aad47446af059063759a31340bd54049ca3ab743dd72b06e7de72e5aa870a892"
+    },
+    "png/768/rose-fan-flower-with-small-red-bud-and-green-leaves.png": {
+      "bytes": 281501,
+      "sha256": "9f41b91d65af3f3ca64e4ebc020ca08d9658415fae027aae32cc4ce91c4a1edd"
+    },
+    "png/768/upper-left-red-and-blue-acanthus-branch.png": {
+      "bytes": 504343,
+      "sha256": "7cc64d39dda46779b5e77259319ee0151207efdcdaa5a11ba35a1502c9930a95"
+    },
+    "png/768/upper-right-pink-flowers-on-green-leaf-sprays.png": {
+      "bytes": 571370,
+      "sha256": "807397c6b121526294168a90b3cd498b11a42ae733a9bdeedbc4b05d5146b5a9"
+    },
+    "png/blue-curled-flower-with-rose-lobes-and-two-green-leaves.png": {
+      "bytes": 813620,
+      "sha256": "7f57492af912f86610b90b4ea3543d64a6179aa71d38536a5844900ddac689db"
+    },
+    "png/blue-folded-flower-on-tall-green-stem.png": {
+      "bytes": 505913,
+      "sha256": "dc8031225252933592372eed1a8914b576a183ea309f412f9920e0e9abd8b1f0"
+    },
+    "png/blue-ringed-red-and-violet-acanthus-medallion.png": {
+      "bytes": 954948,
+      "sha256": "a712afcc1ddd4ba04f589d16cc79482268fac3f82b6b3aa14bf0e93edca68634"
+    },
+    "png/crossed-upright-green-leaf-pair.png": {
+      "bytes": 292108,
+      "sha256": "57e37bf273810d3d1fe8dd8842957db03c8a0bced2cf67875205017522b03cd6"
+    },
+    "png/fixed-floral-u-border-with-gold-and-black-ivy.png": {
+      "bytes": 15871916,
+      "sha256": "2e6ce1143221e8086534f93aa8d3af4136bd9a7d9130d09ea12e7579a5f59f4d"
+    },
+    "png/gold-hatched-fruit-on-green-leafy-stem.png": {
+      "bytes": 510292,
+      "sha256": "b3d2355be11468d58f9900e0aa742eea179f0d41929f8fb18c6619ba2848a423"
+    },
+    "png/grape-bunch-with-leaves.png": {
+      "bytes": 4402,
+      "sha256": "3157c005d02d85bfdf0798399e16f18589449ecb59afcdb976ca59be49e186d3"
+    },
+    "png/hanging-pear.png": {
+      "bytes": 2180,
+      "sha256": "6dc47d294c238110bda8e5b8f60c55caa90bf37d0ca8524d78dd7ff6e94e0f95"
+    },
+    "png/left-gray-blue-acanthus-scroll-with-green-stem.png": {
+      "bytes": 811505,
+      "sha256": "e1315fa5d7ea825eb58a64842b56b3c27900eb49ff48d592872cad17c21fd6dc"
+    },
+    "png/long-blue-and-gold-line-end-scroll-bar.png": {
+      "bytes": 165714,
+      "sha256": "061054c082d3d4c7043a2ab2bb91e318fe1e0f51dc387c212404d5d7d0b6ff46"
+    },
+    "png/lower-left-green-leaf-branch-with-pink-flowers.png": {
+      "bytes": 1165309,
+      "sha256": "7b555f35140a135d571e51065b8bf816aed05f5784c65485faecdea22eb55c4e"
+    },
+    "png/lower-right-green-leaf-branch-with-blue-flowers.png": {
+      "bytes": 1522910,
+      "sha256": "ee36d3a2a6fcd62abcc28c06e06cc14be4e970007925eaa5b96920f3f44cb68a"
+    },
+    "png/may-calendar-fixed-floral-frame-with-paired-forest-arches.png": {
+      "bytes": 29319946,
+      "sha256": "184de41b00a6b41ffd3d318ba58f345e67b8ebe2715bc738b3f35a17bdcbc46b"
+    },
+    "png/red-four-petaled-flower-on-curved-stem-with-green-leaves.png": {
+      "bytes": 1213419,
+      "sha256": "786a42807bc237d31855ab58587febc9ac0923c3be5096595f6fa62952564731"
+    },
+    "png/red-gray-radial-flower-on-green-leaf-spray.png": {
+      "bytes": 1479837,
+      "sha256": "6ff28e713364495be0efd839636d1ecf8b5fb3838368627b7b13f0a25733741e"
+    },
+    "png/rose-and-blue-bud-on-curved-stem-with-green-leaves.png": {
+      "bytes": 407606,
+      "sha256": "c40c2048191c385b7f1651e26fcbd252db5b647519ddaebeb8a5d79c0b13f40b"
+    },
+    "png/rose-blue-and-gold-layered-flower-with-two-green-leaves.png": {
+      "bytes": 1236640,
+      "sha256": "5e6b2e5769e52eab116deb481d11ec9c8eb7e15f3b724d7c88e5540a4235a438"
+    },
+    "png/rose-fan-flower-with-small-red-bud-and-green-leaves.png": {
+      "bytes": 1720947,
+      "sha256": "de4ea8306fea9b08343273963a46a6644d1930db30d8d02f09f0cf87cfa3c19c"
+    },
+    "png/short-blue-and-gold-line-end-scroll-bar.png": {
+      "bytes": 95658,
+      "sha256": "09c86ff1cb0a7884201afc7a42cb27ea7b870f03ca05c602db2d54d396de08e1"
+    },
+    "png/small-blue-and-gold-four-point-line-end-floret.png": {
+      "bytes": 27305,
+      "sha256": "07ed525ddd0c1e241471122b5921b2a3210c40e74aa2b1ab3a4a700ef4bdc5de"
+    },
+    "png/small-folded-blue-bud-on-green-stem.png": {
+      "bytes": 166816,
+      "sha256": "05b343bd12fbe0e059557f5991b3a71617e3cb65ee3d3c437f0464b71dc903b2"
+    },
+    "png/small-left-red-and-blue-leaf-terminal.png": {
+      "bytes": 184909,
+      "sha256": "01ca1b011f2c13ce5276ec47f98d0e5a0ad661a07dc300bb1a989680599c40ea"
+    },
+    "png/small-right-red-and-blue-leaf-terminal.png": {
+      "bytes": 111361,
+      "sha256": "67eeaa1b4df4e2562fa0f47b91f15f5e3d15a66e39c5f221f30d2adb8138c790"
+    },
+    "png/upper-left-red-and-blue-acanthus-branch.png": {
+      "bytes": 1400383,
+      "sha256": "5f8142c9b783f725f44281b7a7e5b3ca182153d110159f7218f078f1e822ecee"
+    },
+    "png/upper-right-pink-flowers-on-green-leaf-sprays.png": {
+      "bytes": 1584881,
+      "sha256": "bbc65d7b79e7850ed965f7af1994ca25ca64f4f38cfbf86e82558a754ca7d5f5"
+    },
+    "svg/grape-bunch-with-leaves.svg": {
+      "bytes": 20006,
+      "sha256": "434ed4a8f816ed93ca2f39a367251c87e50a6d907df5a43b3bfd1eba01faa421"
+    },
+    "svg/hanging-pear.svg": {
+      "bytes": 8459,
+      "sha256": "c2335ef042accb929453414844457cd9c7fe8a5b142ee310b28a4cb38a426398"
+    },
+    "webp/128/blue-curled-flower-with-rose-lobes-and-two-green-leaves.webp": {
+      "bytes": 12640,
+      "sha256": "b3b7523a57a8e63817aad463a47a12269b086fbda49b2cc73756a4a607aa52ae"
+    },
+    "webp/128/blue-folded-flower-on-tall-green-stem.webp": {
+      "bytes": 9274,
+      "sha256": "c0744b900320031f3b5ed0ce37e45d9aa800fea7589cf1909798f5b06927bedd"
+    },
+    "webp/128/blue-ringed-red-and-violet-acanthus-medallion.webp": {
+      "bytes": 30182,
+      "sha256": "fb64af2204b9cdc53b5b98a794edddb3e36833613a8c7973ddac848cb258dcef"
+    },
+    "webp/128/crossed-upright-green-leaf-pair.webp": {
+      "bytes": 7866,
+      "sha256": "4cee8e46be1955a06cb0d1a85778379d548ea5843193df8484c10c6afb979e79"
+    },
+    "webp/128/fixed-floral-u-border-with-gold-and-black-ivy.webp": {
+      "bytes": 21674,
+      "sha256": "27484ea86e1c45365824ca73e626f549a4b889a449b4ceaf1fe8e66a8b1b3a79"
+    },
+    "webp/128/gold-hatched-fruit-on-green-leafy-stem.webp": {
+      "bytes": 7788,
+      "sha256": "ea19e6c215c16eb56278c447437e48fb6b499f4ed448062643eda7138c596ca1"
+    },
+    "webp/128/left-gray-blue-acanthus-scroll-with-green-stem.webp": {
+      "bytes": 13244,
+      "sha256": "5ee9f13f4ce8a36e0f801bb4ac41074ea71f4de43c68cbd3e019d92089f904b9"
+    },
+    "webp/128/long-blue-and-gold-line-end-scroll-bar.webp": {
+      "bytes": 6286,
+      "sha256": "750f036bb1adee93eb59f182b0fa29cbbfb4c1fdca15bfe1e52a2fa45a9af3e9"
+    },
+    "webp/128/lower-left-green-leaf-branch-with-pink-flowers.webp": {
+      "bytes": 15162,
+      "sha256": "fddaf2dd5b03942075be958ac1fb11de3dce71df5fda96efc89732a2f5dbaf36"
+    },
+    "webp/128/lower-right-green-leaf-branch-with-blue-flowers.webp": {
+      "bytes": 20382,
+      "sha256": "7c6943bf8584268ef347e1dd714f1f87ddc02eb3bdd81f80e3b587ab45af00d1"
+    },
+    "webp/128/may-calendar-fixed-floral-frame-with-paired-forest-arches.webp": {
+      "bytes": 16716,
+      "sha256": "c1d176a96247d37ebaec4a4d4c95849705ebfb076c48b3a7c5894dbcf40aed28"
+    },
+    "webp/128/red-four-petaled-flower-on-curved-stem-with-green-leaves.webp": {
+      "bytes": 12656,
+      "sha256": "60462ac75dff4f383d2ba0b33b6c2a023e5a633199e74d70f481bd25395d43ba"
+    },
+    "webp/128/red-gray-radial-flower-on-green-leaf-spray.webp": {
+      "bytes": 12790,
+      "sha256": "18d2f7ecc7400fcabac1a045833e9dea02ebaef4e7e6aee6c211311970929b2f"
+    },
+    "webp/128/rose-and-blue-bud-on-curved-stem-with-green-leaves.webp": {
+      "bytes": 9290,
+      "sha256": "58076b71d0f6f33d3257b0f72de545d73a5302a513bcdf5dee76e38a665ab216"
+    },
+    "webp/128/rose-blue-and-gold-layered-flower-with-two-green-leaves.webp": {
+      "bytes": 23218,
+      "sha256": "84d79fbf813195eabb4d1571c37511dd68d76849922649b0dd64629cd7e153f6"
+    },
+    "webp/128/rose-fan-flower-with-small-red-bud-and-green-leaves.webp": {
+      "bytes": 10658,
+      "sha256": "f3dfc10a7359ee23bbeeaca71bcf8a060976772e6812bbeb7e0f26440d9881b2"
+    },
+    "webp/128/short-blue-and-gold-line-end-scroll-bar.webp": {
+      "bytes": 10550,
+      "sha256": "891e50082656a6b7e15c5d567a189fdd78e63c5bc82857db8cfab2e258f37ddf"
+    },
+    "webp/128/small-blue-and-gold-four-point-line-end-floret.webp": {
+      "bytes": 22472,
+      "sha256": "2939079f3b3606b9ae5b03ba84866f283965d58972721157c4f9556752d5bd08"
+    },
+    "webp/128/small-folded-blue-bud-on-green-stem.webp": {
+      "bytes": 6338,
+      "sha256": "ae53aebfebc0b9c53190cf45337365247101ff5de60be604ca5a12a2cf455f5e"
+    },
+    "webp/128/small-left-red-and-blue-leaf-terminal.webp": {
+      "bytes": 13920,
+      "sha256": "eb87e79f64aae9cb762b371dd81f25399d9bfae721aceff4265c5eb552bc4917"
+    },
+    "webp/128/small-right-red-and-blue-leaf-terminal.webp": {
+      "bytes": 14380,
+      "sha256": "ca9baf8c1394baf8c2fb7b4f6e694fa9b10b1c6b3dab41b39e91f31beee17527"
+    },
+    "webp/128/upper-left-red-and-blue-acanthus-branch.webp": {
+      "bytes": 19948,
+      "sha256": "4e443c620b58ff2d00b6b21486b0be55a21c37afb1a597b103987164f7b1e689"
+    },
+    "webp/128/upper-right-pink-flowers-on-green-leaf-sprays.webp": {
+      "bytes": 19796,
+      "sha256": "cc6b17e937845fc0631626e2e1a8b021d15e88de8a37f32d2cee1d539cfa32d5"
+    },
+    "webp/256/blue-curled-flower-with-rose-lobes-and-two-green-leaves.webp": {
+      "bytes": 38772,
+      "sha256": "469bf2c651e1746561c949ef041a450c68480e81a3cb5e2eed3980fac74428fc"
+    },
+    "webp/256/blue-folded-flower-on-tall-green-stem.webp": {
+      "bytes": 26254,
+      "sha256": "6640f04c763ae85b2584fd31d6dbdc333d17fb01b62e055a122c35e7ad75c608"
+    },
+    "webp/256/blue-ringed-red-and-violet-acanthus-medallion.webp": {
+      "bytes": 93624,
+      "sha256": "d737f41020d01af2b83bde412be466fa70e2a7712028adf3703dd3c1b7353ab1"
+    },
+    "webp/256/crossed-upright-green-leaf-pair.webp": {
+      "bytes": 22888,
+      "sha256": "570cbb91e2db61d95497a6da9485461f146ce278ce01d641c7879cb87454b7fa"
+    },
+    "webp/256/fixed-floral-u-border-with-gold-and-black-ivy.webp": {
+      "bytes": 70892,
+      "sha256": "ebe9feab77b5b3f9878ff589cc2bca458728a339635328790986211a80af29c9"
+    },
+    "webp/256/gold-hatched-fruit-on-green-leafy-stem.webp": {
+      "bytes": 23070,
+      "sha256": "5e24e8626ad3c9f458ee94b1d5d162b3900ddae2c866333a979687db75ed7a32"
+    },
+    "webp/256/left-gray-blue-acanthus-scroll-with-green-stem.webp": {
+      "bytes": 40350,
+      "sha256": "0346e4c307d5bdb7504a833e5efbec71ebadec73bc9f97c64992b32383280a5c"
+    },
+    "webp/256/long-blue-and-gold-line-end-scroll-bar.webp": {
+      "bytes": 19382,
+      "sha256": "d9cc7c573ba8c8c5eb09401a231d04d645adb93766fcbdf3c78968cd5faed392"
+    },
+    "webp/256/lower-left-green-leaf-branch-with-pink-flowers.webp": {
+      "bytes": 48808,
+      "sha256": "dd9b05e2ff2ebb0efc98b7235402c92b4b83cf0bcb6e952211f3c44346f2c4f6"
+    },
+    "webp/256/lower-right-green-leaf-branch-with-blue-flowers.webp": {
+      "bytes": 69794,
+      "sha256": "21d34be311551a347cfead5a7b32e3d0643d969d76f6b1b10f3b41f96219e4ec"
+    },
+    "webp/256/may-calendar-fixed-floral-frame-with-paired-forest-arches.webp": {
+      "bytes": 56750,
+      "sha256": "2da543785365c5e03d14cc915b7f001e9235f816e099435bb75ed2bb987324ee"
+    },
+    "webp/256/red-four-petaled-flower-on-curved-stem-with-green-leaves.webp": {
+      "bytes": 38596,
+      "sha256": "13bbdf31244ddb28f5afba632d211b8da7a48ee782062811fd8f8cfadccb8cdc"
+    },
+    "webp/256/red-gray-radial-flower-on-green-leaf-spray.webp": {
+      "bytes": 36202,
+      "sha256": "8702d9c9f837f76f746cdffb019b1182051c9ca6d6abf29dbe29aaa63bb2e846"
+    },
+    "webp/256/rose-and-blue-bud-on-curved-stem-with-green-leaves.webp": {
+      "bytes": 27086,
+      "sha256": "8acb44ae13cbb381abe743ac133226b95d2bf4928ad2e6aa0bf3e601a4570b2b"
+    },
+    "webp/256/rose-blue-and-gold-layered-flower-with-two-green-leaves.webp": {
+      "bytes": 75258,
+      "sha256": "d4eb49dd7d0947605207230ea1608ac678805e397dae04610416204b122bdae3"
+    },
+    "webp/256/rose-fan-flower-with-small-red-bud-and-green-leaves.webp": {
+      "bytes": 33236,
+      "sha256": "b095ee860b625b41343d3d923d3357ffbd3852875bfe853141821422b068dd97"
+    },
+    "webp/256/short-blue-and-gold-line-end-scroll-bar.webp": {
+      "bytes": 32322,
+      "sha256": "9864085d9f25b88a61468119a7fea6b6f432dec7e56d1a8c7a736b2fa880fdce"
+    },
+    "webp/256/small-folded-blue-bud-on-green-stem.webp": {
+      "bytes": 18862,
+      "sha256": "510809d3b0e158b6136c18d1b0f3b72c9668cae2d9595cad8bb0dcab5edabf9e"
+    },
+    "webp/256/small-left-red-and-blue-leaf-terminal.webp": {
+      "bytes": 49092,
+      "sha256": "431dc2ede58c437c9268998b429338bcefe278763f38ad62b7e83157c1532007"
+    },
+    "webp/256/small-right-red-and-blue-leaf-terminal.webp": {
+      "bytes": 49862,
+      "sha256": "f6232c60e400862dd93283701ba2a488e6d96cf6bd7f825996fa0fbb2ed4751e"
+    },
+    "webp/256/upper-left-red-and-blue-acanthus-branch.webp": {
+      "bytes": 61796,
+      "sha256": "2bff5782505e54915299f8c86569b6512a912a02a30b326b98070295dce9738f"
+    },
+    "webp/256/upper-right-pink-flowers-on-green-leaf-sprays.webp": {
+      "bytes": 64214,
+      "sha256": "80631bdd3c073e673de90fbc3e5a3f9bf6e3ffc3f3eeb5cd358d9475c4b9ee36"
+    },
+    "webp/512/blue-curled-flower-with-rose-lobes-and-two-green-leaves.webp": {
+      "bytes": 125968,
+      "sha256": "09be23e65553ce51aaf6621099b9b684e385162271d562198497f444cbdd4a2c"
+    },
+    "webp/512/blue-folded-flower-on-tall-green-stem.webp": {
+      "bytes": 84282,
+      "sha256": "556387fe91946cdf674e155c657cac088f8aeb067c1af809eee88359ca76affb"
+    },
+    "webp/512/blue-ringed-red-and-violet-acanthus-medallion.webp": {
+      "bytes": 308566,
+      "sha256": "22f41942a23d56bca955c09d00390044a94eda88d41e94e614d327d14e2a0cfb"
+    },
+    "webp/512/crossed-upright-green-leaf-pair.webp": {
+      "bytes": 74892,
+      "sha256": "8a3dcd2480fc6f9e68983d19185ca40c4384e7f28be79a0626455547c9aa492f"
+    },
+    "webp/512/fixed-floral-u-border-with-gold-and-black-ivy.webp": {
+      "bytes": 227112,
+      "sha256": "3ffe2abd475284bcedcfdda48cd9740de2e0dcced76f0002e9a7e8bd60fbba1b"
+    },
+    "webp/512/gold-hatched-fruit-on-green-leafy-stem.webp": {
+      "bytes": 74300,
+      "sha256": "f9d75890ed67864fca56c69d85a5a9a215eacfe998bdac0094a5f95c833737da"
+    },
+    "webp/512/left-gray-blue-acanthus-scroll-with-green-stem.webp": {
+      "bytes": 129080,
+      "sha256": "daf85b434972b89ab9d09351edcddc8e9cecec3664aaa3c03b1fae49e5c9467f"
+    },
+    "webp/512/long-blue-and-gold-line-end-scroll-bar.webp": {
+      "bytes": 58632,
+      "sha256": "933f3e51835c64d44725ab8045aa57dccc575c64c9605761cd0591fc26089e39"
+    },
+    "webp/512/lower-left-green-leaf-branch-with-pink-flowers.webp": {
+      "bytes": 153728,
+      "sha256": "8680ea7b7f6583b7566366078802955ac119ab607b342c821b520da038ef0e53"
+    },
+    "webp/512/lower-right-green-leaf-branch-with-blue-flowers.webp": {
+      "bytes": 234644,
+      "sha256": "f2bbfaf7ddbb544d262a4b3c9e00256f2395697b1a3ccadcc4386ba4d3027aa6"
+    },
+    "webp/512/may-calendar-fixed-floral-frame-with-paired-forest-arches.webp": {
+      "bytes": 199304,
+      "sha256": "9e677b3214a049b93bb670035caedfc1d840582709a588e88e43ebd06ae38501"
+    },
+    "webp/512/red-four-petaled-flower-on-curved-stem-with-green-leaves.webp": {
+      "bytes": 127086,
+      "sha256": "12da17bf49478866606d3e51b537dbccbc13d8b956026ad7c3eebd41b692e858"
+    },
+    "webp/512/red-gray-radial-flower-on-green-leaf-spray.webp": {
+      "bytes": 115426,
+      "sha256": "bb4713789ccb74e796c3ef42bcebd4ba7088432809a9dc7ec1c8578e497e5806"
+    },
+    "webp/512/rose-and-blue-bud-on-curved-stem-with-green-leaves.webp": {
+      "bytes": 86602,
+      "sha256": "5f0422b8ae0727c9990ea177179994f3ec7a8d85f36ef3c9f45c059c9195d8d7"
+    },
+    "webp/512/rose-blue-and-gold-layered-flower-with-two-green-leaves.webp": {
+      "bytes": 247850,
+      "sha256": "2bae6132be117a88dede9d38568a8f5a0c6ae2335fec6180ec1efca1b2cadb3b"
+    },
+    "webp/512/rose-fan-flower-with-small-red-bud-and-green-leaves.webp": {
+      "bytes": 105110,
+      "sha256": "a66dddae127d907603ded846bc9f328542e06a6640265862ddc54fe135e3d144"
+    },
+    "webp/512/small-folded-blue-bud-on-green-stem.webp": {
+      "bytes": 61070,
+      "sha256": "19ea232312990b72d74b7544b6ee1a6207d419a16d47d1ec0f271421ce102094"
+    },
+    "webp/512/upper-left-red-and-blue-acanthus-branch.webp": {
+      "bytes": 195630,
+      "sha256": "abf1a8cff48108152ef61ef47e6b6a0fff9777f85566f4dafb8f3ababdcf895e"
+    },
+    "webp/512/upper-right-pink-flowers-on-green-leaf-sprays.webp": {
+      "bytes": 203174,
+      "sha256": "32901be834b230489d9b8d8e8f76a026638544f304ca9411921384b8ce29b067"
+    },
+    "webp/768/blue-curled-flower-with-rose-lobes-and-two-green-leaves.webp": {
+      "bytes": 258018,
+      "sha256": "959d4949e1156c2ee74de14d9fd45939e9194594e0732127df9c0a1300108956"
+    },
+    "webp/768/blue-folded-flower-on-tall-green-stem.webp": {
+      "bytes": 174862,
+      "sha256": "d9796ef53541256afc0cf9c73281334979c1cffd492bb1ac4cfc70c2ad38c6c6"
+    },
+    "webp/768/blue-ringed-red-and-violet-acanthus-medallion.webp": {
+      "bytes": 624360,
+      "sha256": "9e760a915d5a9f5279b3b538a20efe0c8ff549203a847ac35a52724db5b71ec3"
+    },
+    "webp/768/crossed-upright-green-leaf-pair.webp": {
+      "bytes": 154994,
+      "sha256": "dd59da08bcc6d84b391967c00687857585473a3798be08bf1d2d42f9c7954db2"
+    },
+    "webp/768/fixed-floral-u-border-with-gold-and-black-ivy.webp": {
+      "bytes": 458806,
+      "sha256": "4c3db4aa6bc895360fb2799905930e1e18ac4b853d98a577da1c2ad0b98278a8"
+    },
+    "webp/768/gold-hatched-fruit-on-green-leafy-stem.webp": {
+      "bytes": 153914,
+      "sha256": "1b3b862b7cf8af94f09db264e11fc64d607819e8b05395dab7b4374a7866abfb"
+    },
+    "webp/768/left-gray-blue-acanthus-scroll-with-green-stem.webp": {
+      "bytes": 272498,
+      "sha256": "be68237d9d73772bc0ef801b56e4eff9fd541230b5afd05e4f1e3facedbf56b8"
+    },
+    "webp/768/long-blue-and-gold-line-end-scroll-bar.webp": {
+      "bytes": 116922,
+      "sha256": "7ca4ae95840903f2928c1db5c6b051e43dbb6d3c40c67c8e151bbf9069b87ba8"
+    },
+    "webp/768/lower-left-green-leaf-branch-with-pink-flowers.webp": {
+      "bytes": 321356,
+      "sha256": "c4f82aa1ca5359ac2a537025f9378a9c3ab5eaf750de8337491f682b8ada5554"
+    },
+    "webp/768/lower-right-green-leaf-branch-with-blue-flowers.webp": {
+      "bytes": 496934,
+      "sha256": "ab64ce7461f921138c316b4f70d328fa02f066ccdfc117474750e4596c02268d"
+    },
+    "webp/768/may-calendar-fixed-floral-frame-with-paired-forest-arches.webp": {
+      "bytes": 421752,
+      "sha256": "c177ae3bbf8185a404b85428d6d87d86dbea964ff77dcc2ab5736817b8199488"
+    },
+    "webp/768/red-four-petaled-flower-on-curved-stem-with-green-leaves.webp": {
+      "bytes": 256028,
+      "sha256": "b0a099a006308b3abae08017b127eeeb1d6e4b05f1c9a18c7ff5a0627ac26c52"
+    },
+    "webp/768/red-gray-radial-flower-on-green-leaf-spray.webp": {
+      "bytes": 230710,
+      "sha256": "0896cfdd358309b4b10cc5c8b89fe4d245984486bed456ffb7c3bc7c4c446130"
+    },
+    "webp/768/rose-and-blue-bud-on-curved-stem-with-green-leaves.webp": {
+      "bytes": 178764,
+      "sha256": "e0244a7c9fed7d7660f08f771266e6a36d557cc14b636193cfb35b82a9a7ee26"
+    },
+    "webp/768/rose-blue-and-gold-layered-flower-with-two-green-leaves.webp": {
+      "bytes": 516584,
+      "sha256": "33d873134ecadff124d2af18990501047ab08f588806f46ecd5d969ee0f84e82"
+    },
+    "webp/768/rose-fan-flower-with-small-red-bud-and-green-leaves.webp": {
+      "bytes": 208036,
+      "sha256": "83c69d4727977e5096f2d5a3263667dc92d5997325768b6b7127096d9783d5aa"
+    },
+    "webp/768/upper-left-red-and-blue-acanthus-branch.webp": {
+      "bytes": 397434,
+      "sha256": "a046552901fa53dc1897884d787c932d3fea47b46dc85f9935e86df7f4bc67c3"
+    },
+    "webp/768/upper-right-pink-flowers-on-green-leaf-sprays.webp": {
+      "bytes": 422368,
+      "sha256": "1960d86cef9e4c18cb73ac0567bd8b624dbdfdf1a8f5d6db35eb8c02b06e0e5c"
+    },
+    "webp/blue-curled-flower-with-rose-lobes-and-two-green-leaves.webp": {
+      "bytes": 548948,
+      "sha256": "db9208cfa3e6a3a5e561ca9097267f0ea567e3ebe5b4ac047a04365ed6117037"
+    },
+    "webp/blue-folded-flower-on-tall-green-stem.webp": {
+      "bytes": 348230,
+      "sha256": "6ae7d20ead466ed9abde9c1f8b335ecb075621155d07623b3c9c441c850626e8"
+    },
+    "webp/blue-ringed-red-and-violet-acanthus-medallion.webp": {
+      "bytes": 664628,
+      "sha256": "34f8215dc9cf1849b22bb569ce1338e90601c63265545e17d0e1216aa58ac6b2"
+    },
+    "webp/crossed-upright-green-leaf-pair.webp": {
+      "bytes": 199688,
+      "sha256": "c70602a70ea6074f0b78d5df19941f7ae6d9ce480ecd6f45c0431f30d881a31b"
+    },
+    "webp/fixed-floral-u-border-with-gold-and-black-ivy.webp": {
+      "bytes": 11499928,
+      "sha256": "1403b34499e47cf43a86439ce9a31f57fea8bb738d313ce285df8975e888710d"
+    },
+    "webp/gold-hatched-fruit-on-green-leafy-stem.webp": {
+      "bytes": 345736,
+      "sha256": "3bc6d9d4cd28c1a30f779d31df46479dc70bac73ba0d809ff21f136a12bdda70"
+    },
+    "webp/grape-bunch-with-leaves.webp": {
+      "bytes": 2988,
+      "sha256": "8474e4984c7adfade012b5c9787155d0c2c4f0d2bda9d8df1680ee06cc0bb86d"
+    },
+    "webp/hanging-pear.webp": {
+      "bytes": 1412,
+      "sha256": "043bf2e34e18b85895747a6469e766d33326b1f63af3de8b7dc05424e1875cc3"
+    },
+    "webp/left-gray-blue-acanthus-scroll-with-green-stem.webp": {
+      "bytes": 572932,
+      "sha256": "b66265998edf21ad02befb80750f1354669773b263880f94baf7cd747185486e"
+    },
+    "webp/long-blue-and-gold-line-end-scroll-bar.webp": {
+      "bytes": 122692,
+      "sha256": "d2e10273b55d72d55321585406893b703251d9924856bbe87a712cc4a5e8b6df"
+    },
+    "webp/lower-left-green-leaf-branch-with-pink-flowers.webp": {
+      "bytes": 846986,
+      "sha256": "2f9fb585fde743dc94834e7005b65dbcc1e52687c4f84eda48a44d5b1dbff275"
+    },
+    "webp/lower-right-green-leaf-branch-with-blue-flowers.webp": {
+      "bytes": 1174298,
+      "sha256": "00f7ae2211ff7d5cc7dff48f2c57f1c928781a6af8e4a9cca188a1b6620a860c"
+    },
+    "webp/may-calendar-fixed-floral-frame-with-paired-forest-arches.webp": {
+      "bytes": 20037880,
+      "sha256": "f5fe6deafe4bcfdaa86bbce3c456255c7c17fc2ab84069392abcde36fd20c5c3"
+    },
+    "webp/red-four-petaled-flower-on-curved-stem-with-green-leaves.webp": {
+      "bytes": 827512,
+      "sha256": "5810d15ed96134afedcf8f5ca88416d57b212d0c392e83122c1ab0f5d3057584"
+    },
+    "webp/red-gray-radial-flower-on-green-leaf-spray.webp": {
+      "bytes": 1013958,
+      "sha256": "144d44acf916ab032a2b583beaa4738bf7c54e15ed09b6876382c5716476d511"
+    },
+    "webp/rose-and-blue-bud-on-curved-stem-with-green-leaves.webp": {
+      "bytes": 294152,
+      "sha256": "856db294d457dbc54701202603abdbce01e93c630794efb5f323c1f3d6b70495"
+    },
+    "webp/rose-blue-and-gold-layered-flower-with-two-green-leaves.webp": {
+      "bytes": 846120,
+      "sha256": "3c8e1fe402fdcc7ae87062aca9b7b151cd8058ce2025811b193e13ac342f83bf"
+    },
+    "webp/rose-fan-flower-with-small-red-bud-and-green-leaves.webp": {
+      "bytes": 1202636,
+      "sha256": "908d2c9fbc5ae592a4c88cb0239739947ab05eb1426a8d4e255a4a27f5376012"
+    },
+    "webp/short-blue-and-gold-line-end-scroll-bar.webp": {
+      "bytes": 69860,
+      "sha256": "6e2dfc48ef17c66adc6a45e41d860aedf0387b7d630068c558e3b50e200f0926"
+    },
+    "webp/small-blue-and-gold-four-point-line-end-floret.webp": {
+      "bytes": 20292,
+      "sha256": "bed82a4071695b2f5ec8e7e7e6243b6f699b72741cba8ea9eac275b7a78285d8"
+    },
+    "webp/small-folded-blue-bud-on-green-stem.webp": {
+      "bytes": 114396,
+      "sha256": "226d7dc3a567b9033d3d359233f8eebd1e5abe34ce312af4715d3414d587dd8e"
+    },
+    "webp/small-left-red-and-blue-leaf-terminal.webp": {
+      "bytes": 142118,
+      "sha256": "82d7ec9661433b0ebee6918a1a74f639ef1b3625209efac155e25b062ecd5430"
+    },
+    "webp/small-right-red-and-blue-leaf-terminal.webp": {
+      "bytes": 82958,
+      "sha256": "b65beb7bc6784eb3082072fd507b0753ec25f129c4b9d6d9112b0051de17ed9c"
+    },
+    "webp/upper-left-red-and-blue-acanthus-branch.webp": {
+      "bytes": 1098696,
+      "sha256": "98bad253059175f27806472aecf7c9db580e308f5b6e16317814278b86198948"
+    },
+    "webp/upper-right-pink-flowers-on-green-leaf-sprays.webp": {
+      "bytes": 1192006,
+      "sha256": "aad9fe538707dc6ad347e4391e478cb6becae8bcd72a692b1d0c5e2f87f887f5"
+    }
+  },
+  "inputs": {
+    "sources/tiles/blue-curled-flower-with-rose-lobes-and-two-green-leaves.png": {
+      "bytes": 813620,
+      "sha256": "7f57492af912f86610b90b4ea3543d64a6179aa71d38536a5844900ddac689db"
+    },
+    "sources/tiles/blue-folded-flower-on-tall-green-stem.png": {
+      "bytes": 505913,
+      "sha256": "dc8031225252933592372eed1a8914b576a183ea309f412f9920e0e9abd8b1f0"
+    },
+    "sources/tiles/blue-ringed-red-and-violet-acanthus-medallion.png": {
+      "bytes": 954948,
+      "sha256": "a712afcc1ddd4ba04f589d16cc79482268fac3f82b6b3aa14bf0e93edca68634"
+    },
+    "sources/tiles/crossed-upright-green-leaf-pair.png": {
+      "bytes": 292108,
+      "sha256": "57e37bf273810d3d1fe8dd8842957db03c8a0bced2cf67875205017522b03cd6"
+    },
+    "sources/tiles/fixed-floral-u-border-with-gold-and-black-ivy.png": {
+      "bytes": 15871916,
+      "sha256": "2e6ce1143221e8086534f93aa8d3af4136bd9a7d9130d09ea12e7579a5f59f4d"
+    },
+    "sources/tiles/gold-hatched-fruit-on-green-leafy-stem.png": {
+      "bytes": 510292,
+      "sha256": "b3d2355be11468d58f9900e0aa742eea179f0d41929f8fb18c6619ba2848a423"
+    },
+    "sources/tiles/grape-bunch-with-leaves.png": {
+      "bytes": 4402,
+      "sha256": "3157c005d02d85bfdf0798399e16f18589449ecb59afcdb976ca59be49e186d3"
+    },
+    "sources/traces/grape-bunch-with-leaves.svg": {
+      "bytes": 20006,
+      "sha256": "434ed4a8f816ed93ca2f39a367251c87e50a6d907df5a43b3bfd1eba01faa421"
+    },
+    "sources/tiles/hanging-pear.png": {
+      "bytes": 2180,
+      "sha256": "6dc47d294c238110bda8e5b8f60c55caa90bf37d0ca8524d78dd7ff6e94e0f95"
+    },
+    "sources/traces/hanging-pear.svg": {
+      "bytes": 8459,
+      "sha256": "c2335ef042accb929453414844457cd9c7fe8a5b142ee310b28a4cb38a426398"
+    },
+    "sources/tiles/left-gray-blue-acanthus-scroll-with-green-stem.png": {
+      "bytes": 811505,
+      "sha256": "e1315fa5d7ea825eb58a64842b56b3c27900eb49ff48d592872cad17c21fd6dc"
+    },
+    "sources/tiles/long-blue-and-gold-line-end-scroll-bar.png": {
+      "bytes": 165714,
+      "sha256": "061054c082d3d4c7043a2ab2bb91e318fe1e0f51dc387c212404d5d7d0b6ff46"
+    },
+    "sources/tiles/lower-left-green-leaf-branch-with-pink-flowers.png": {
+      "bytes": 1165309,
+      "sha256": "7b555f35140a135d571e51065b8bf816aed05f5784c65485faecdea22eb55c4e"
+    },
+    "sources/tiles/lower-right-green-leaf-branch-with-blue-flowers.png": {
+      "bytes": 1522910,
+      "sha256": "ee36d3a2a6fcd62abcc28c06e06cc14be4e970007925eaa5b96920f3f44cb68a"
+    },
+    "sources/tiles/may-calendar-fixed-floral-frame-with-paired-forest-arches.png": {
+      "bytes": 29319946,
+      "sha256": "184de41b00a6b41ffd3d318ba58f345e67b8ebe2715bc738b3f35a17bdcbc46b"
+    },
+    "sources/tiles/red-four-petaled-flower-on-curved-stem-with-green-leaves.png": {
+      "bytes": 1213419,
+      "sha256": "786a42807bc237d31855ab58587febc9ac0923c3be5096595f6fa62952564731"
+    },
+    "sources/tiles/red-gray-radial-flower-on-green-leaf-spray.png": {
+      "bytes": 1479837,
+      "sha256": "6ff28e713364495be0efd839636d1ecf8b5fb3838368627b7b13f0a25733741e"
+    },
+    "sources/tiles/rose-and-blue-bud-on-curved-stem-with-green-leaves.png": {
+      "bytes": 407606,
+      "sha256": "c40c2048191c385b7f1651e26fcbd252db5b647519ddaebeb8a5d79c0b13f40b"
+    },
+    "sources/tiles/rose-blue-and-gold-layered-flower-with-two-green-leaves.png": {
+      "bytes": 1236640,
+      "sha256": "5e6b2e5769e52eab116deb481d11ec9c8eb7e15f3b724d7c88e5540a4235a438"
+    },
+    "sources/tiles/rose-fan-flower-with-small-red-bud-and-green-leaves.png": {
+      "bytes": 1720947,
+      "sha256": "de4ea8306fea9b08343273963a46a6644d1930db30d8d02f09f0cf87cfa3c19c"
+    },
+    "sources/tiles/short-blue-and-gold-line-end-scroll-bar.png": {
+      "bytes": 95658,
+      "sha256": "09c86ff1cb0a7884201afc7a42cb27ea7b870f03ca05c602db2d54d396de08e1"
+    },
+    "sources/tiles/small-blue-and-gold-four-point-line-end-floret.png": {
+      "bytes": 27305,
+      "sha256": "07ed525ddd0c1e241471122b5921b2a3210c40e74aa2b1ab3a4a700ef4bdc5de"
+    },
+    "sources/tiles/small-folded-blue-bud-on-green-stem.png": {
+      "bytes": 166816,
+      "sha256": "05b343bd12fbe0e059557f5991b3a71617e3cb65ee3d3c437f0464b71dc903b2"
+    },
+    "sources/tiles/small-left-red-and-blue-leaf-terminal.png": {
+      "bytes": 184909,
+      "sha256": "01ca1b011f2c13ce5276ec47f98d0e5a0ad661a07dc300bb1a989680599c40ea"
+    },
+    "sources/tiles/small-right-red-and-blue-leaf-terminal.png": {
+      "bytes": 111361,
+      "sha256": "67eeaa1b4df4e2562fa0f47b91f15f5e3d15a66e39c5f221f30d2adb8138c790"
+    },
+    "sources/tiles/upper-left-red-and-blue-acanthus-branch.png": {
+      "bytes": 1400383,
+      "sha256": "5f8142c9b783f725f44281b7a7e5b3ca182153d110159f7218f078f1e822ecee"
+    },
+    "sources/tiles/upper-right-pink-flowers-on-green-leaf-sprays.png": {
+      "bytes": 1584881,
+      "sha256": "bbc65d7b79e7850ed965f7af1994ca25ca64f4f38cfbf86e82558a754ca7d5f5"
+    }
+  }
+}

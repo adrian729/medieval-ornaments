@@ -1,0 +1,1 @@
+import type{BoundComponent as C,BoundProps as P}from'../react-core.js';import type{ImageOptions}from'../designs/small-left-tulip-with-bent-leaf.js';export{ornament}from'../designs/small-left-tulip-with-bent-leaf.js';export type{OrnamentStyle}from'../react-core.js';export type OrnamentImageProps=P<'image',ImageOptions>;export declare const OrnamentImage:C<'image',ImageOptions>;

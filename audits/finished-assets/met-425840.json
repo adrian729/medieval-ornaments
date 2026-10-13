@@ -1,0 +1,1830 @@
+{
+  "source_id": "met-425840",
+  "assets": [
+    {
+      "id": "met-425840--five-tulips-with-broad-curled-leaves",
+      "name": "five-tulips-with-broad-curled-leaves",
+      "source_id": "met-425840",
+      "source_folder": "met",
+      "asset_type": "illustration",
+      "description": "Five tulips with broad curled leaves, preserving the original complete engraved specimen. Part of the Livre Nouveau de Fleurs set.",
+      "source_region": [
+        1646,
+        47,
+        2783,
+        1696
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        21,
+        5,
+        1036,
+        1492
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 1015,
+      "height": 1487,
+      "png": "met/met-425840--five-tulips-with-broad-curled-leaves.png",
+      "png_sha256": "31f1a263110ec2edd62549e9bb51ab2c295384bb7282637b5b32a13b7b601a1f",
+      "provenance": {
+        "institution": "Metropolitan Museum of Art",
+        "title": "Horizontal Panel with a Row of Flowers Above a Frieze with a Hunting Scene in a Landscape, from \"Livre Nouveau de Fleurs Tres-Util\"",
+        "object_identifier": "53.600.261(8)",
+        "date": "1645",
+        "artist": "Nicolas Cochin",
+        "record_url": "https://www.metmuseum.org/art/collection/search/425840",
+        "image_rights": "CC0 Open Access; isPublicDomain=true",
+        "rights_url": "https://www.metmuseum.org/policies/image-resources",
+        "source_file": "tmp/new-assets/met/met-425840--horizontal-panel-with-a-row-of-flowers-above-a-frieze-with-a-hunting-scene-in-a-landscape.jpg",
+        "source_sha256": "335b935dc37892bed426447ae3c3756b8a1b8a94b36d6e6545ef7c866b2dccae",
+        "source_metadata": "tmp/new-assets/met/met-425840.json",
+        "image_url": "https://images.metmuseum.org/CRDImages/dp/original/DP837393.jpg",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. Only the CENTER-RIGHT branching tulip plant with FIVE flowers: two high flowers, the large left-middle flower, the broad right-middle flower and the small lower-right bud. Include all branching stems and every complete broad folded basal leaf, including the wide leaf curling to the far right. The separate tall single tulip stem crosses near that right leaf: it belongs to another plant and must be excluded, while this plant leaf and its original hatching stay intact. Do not invent portions hidden by another specimen. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_extraction": "tmp/extraction-work/met-425840--five-tulips-with-broad-curled-leaves--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "4ffcdb3c536b250b8dcb299e6ac3c70d90dc465d95d9b61c72ac2f6eaa633c65",
+        "retained_generated_size": [
+          1041,
+          1511
+        ],
+        "resolution_cap_scale": 1,
+        "resolution_capped_size": [
+          1041,
+          1511
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          1120,
+          1640
+        ],
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 18152
+        },
+        "native_subject_size_evidence": "Inspected complete original subject bounds; cap applies to visible subject, excluding input-region whitespace."
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "All six original tulip specimens inspected on source/white/dark. Four- and five-flower plants retain all their connected blooms and basal leaves. The tall left specimen excludes the disconnected neighbouring leaf; the small right specimen retains the entire long left pointed leaf after correction. Printed baseline removed without new roots. Pale engraved surfaces opaque. No SVG replaces print texture.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/six-tulips-and-pink-generated-results-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/six-tulips-and-pink-generated-results-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/two-tulip-leaf-generated-results-proof-1.jpg"
+        ]
+      },
+      "categories": [
+        "floral"
+      ],
+      "subjects": [
+        "flower",
+        "leaf",
+        "stem"
+      ],
+      "colors": [
+        "black",
+        "brown",
+        "cream"
+      ],
+      "facing": "unclear",
+      "composition": "standalone",
+      "usage_notes": "Original independent specimen with printed plate rules and page removed. AI-assisted extraction remains approximate; source bounds, actual native subject cap, original and exact prompt retained.",
+      "sets": [
+        {
+          "id": "livre-nouveau-de-fleurs",
+          "name": "Livre Nouveau de Fleurs",
+          "relation": "same named series of flower and landscape engravings"
+        },
+        {
+          "id": "met-425840-set",
+          "name": "Horizontal Panel with a Row of Flowers Above a Frieze with a Hunting Scene in a Landscape, from \"Livre Nouveau de Fleurs Tres-Util\" (met-425840)",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "Five tulips with broad curled leaves, preserving the original complete engraved specimen.",
+      "set_label": "Livre Nouveau de Fleurs"
+    },
+    {
+      "id": "met-425840--foreground-mounted-hunter-with-raised-arm",
+      "name": "foreground-mounted-hunter-with-raised-arm",
+      "source_id": "met-425840",
+      "source_folder": "met",
+      "asset_type": "illustration",
+      "description": "A foreground mounted hunter on a rearing horse with raised arm. Part of the Livre Nouveau de Fleurs set.",
+      "source_region": [
+        2173,
+        1938,
+        2564,
+        2242
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        19,
+        10,
+        372,
+        287
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 353,
+      "height": 277,
+      "png": "met/met-425840--foreground-mounted-hunter-with-raised-arm.png",
+      "png_sha256": "907bbe32491a66ff1c18ce4f1e1a4630f80c9827856c9baf3c19464e2bd0e24a",
+      "provenance": {
+        "institution": "Metropolitan Museum of Art",
+        "title": "Horizontal Panel with a Row of Flowers Above a Frieze with a Hunting Scene in a Landscape, from \"Livre Nouveau de Fleurs Tres-Util\"",
+        "object_identifier": "53.600.261(8)",
+        "date": "1645",
+        "artist": "Nicolas Cochin",
+        "record_url": "https://www.metmuseum.org/art/collection/search/425840",
+        "image_rights": "CC0 Open Access; isPublicDomain=true",
+        "rights_url": "https://www.metmuseum.org/policies/image-resources",
+        "source_file": "tmp/new-assets/met/met-425840--horizontal-panel-with-a-row-of-flowers-above-a-frieze-with-a-hunting-scene-in-a-landscape.jpg",
+        "source_sha256": "335b935dc37892bed426447ae3c3756b8a1b8a94b36d6e6545ef7c866b2dccae",
+        "source_metadata": "tmp/new-assets/met/met-425840.json",
+        "image_url": "https://images.metmuseum.org/CRDImages/dp/original/DP837393.jpg",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. Extract ONLY large right foreground rider WITH his contacting horse, entire visible raised arm and slender hunting weapon/rod pointing left, curled hat plume, saddle, bridle, horse mane/tail and all source-visible legs/hooves. Remove shrubs, ground, distant riders and dogs. Preserve original pale body shapes opaque and clear gaps under limbs. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_extraction": "tmp/extraction-work/met-425840--foreground-mounted-hunter-with-raised-arm--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "83013945bfdb357b93674cacedb2b54b67329abacbc03a95bc78a4b69d808f4b",
+        "retained_generated_size": [
+          1423,
+          1105
+        ],
+        "resolution_cap_scale": 0.26126126126126126,
+        "resolution_capped_size": [
+          372,
+          289
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          342,
+          261
+        ],
+        "native_subject_size_evidence": {
+          "method": "Individually inspected native visible subject bounds, excluding input-region whitespace and neighbours.",
+          "preview_subject_bounds": [
+            926,
+            825,
+            1070,
+            935
+          ],
+          "preview_size": [
+            1400,
+            980
+          ],
+          "original_size": [
+            3321,
+            2325
+          ]
+        },
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 3
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Compared every entity with the original at source scale on white/dark. All original contact groups remain together, including stag/hound and each rider/horse. Separate hounds and the complete hunting landscape are also retained. Printed paper, landscape hatching around individuals and crosshatched ornament background removed, pale engraved surfaces opaque, true gaps clear. AI method and exact input/prompt are retained; no source raster upscaling or SVG stand-in.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/hunt-nga-met-ready-results-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/hunt-nga-met-ready-results-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/hunt-nga-met-ready-results-proof-3.jpg"
+        ]
+      },
+      "categories": [
+        "humans",
+        "animals"
+      ],
+      "subjects": [
+        "hunter",
+        "horse",
+        "bridle",
+        "saddle"
+      ],
+      "colors": [
+        "black",
+        "brown",
+        "cream"
+      ],
+      "facing": "unclear",
+      "composition": "multiple-figures",
+      "usage_notes": "Original independent specimen with printed plate rules and page removed. AI-assisted extraction remains approximate; source bounds, actual native subject cap, original and exact prompt retained.",
+      "sets": [
+        {
+          "id": "livre-nouveau-de-fleurs",
+          "name": "Livre Nouveau de Fleurs",
+          "relation": "same named series of flower and landscape engravings"
+        },
+        {
+          "id": "met-425840-set",
+          "name": "Horizontal Panel with a Row of Flowers Above a Frieze with a Hunting Scene in a Landscape, from \"Livre Nouveau de Fleurs Tres-Util\" (met-425840)",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A foreground mounted hunter on a rearing horse with raised arm.",
+      "set_label": "Livre Nouveau de Fleurs"
+    },
+    {
+      "id": "met-425840--four-tulips-with-folded-basal-leaves",
+      "name": "four-tulips-with-folded-basal-leaves",
+      "source_id": "met-425840",
+      "source_folder": "met",
+      "asset_type": "illustration",
+      "description": "Four tulips with folded basal leaves, preserving the original complete engraved specimen. Part of the Livre Nouveau de Fleurs set.",
+      "source_region": [
+        562,
+        43,
+        1701,
+        1689
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        2,
+        10,
+        1006,
+        1484
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 1004,
+      "height": 1474,
+      "png": "met/met-425840--four-tulips-with-folded-basal-leaves.png",
+      "png_sha256": "a1386b950a5f80461b6d8afb6afdf8bcd002ed9600940ed91b3e1cb119c7a8e3",
+      "provenance": {
+        "institution": "Metropolitan Museum of Art",
+        "title": "Horizontal Panel with a Row of Flowers Above a Frieze with a Hunting Scene in a Landscape, from \"Livre Nouveau de Fleurs Tres-Util\"",
+        "object_identifier": "53.600.261(8)",
+        "date": "1645",
+        "artist": "Nicolas Cochin",
+        "record_url": "https://www.metmuseum.org/art/collection/search/425840",
+        "image_rights": "CC0 Open Access; isPublicDomain=true",
+        "rights_url": "https://www.metmuseum.org/policies/image-resources",
+        "source_file": "tmp/new-assets/met/met-425840--horizontal-panel-with-a-row-of-flowers-above-a-frieze-with-a-hunting-scene-in-a-landscape.jpg",
+        "source_sha256": "335b935dc37892bed426447ae3c3756b8a1b8a94b36d6e6545ef7c866b2dccae",
+        "source_metadata": "tmp/new-assets/met/met-425840.json",
+        "image_url": "https://images.metmuseum.org/CRDImages/dp/original/DP837393.jpg",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. Only the CENTER-LEFT branching tulip plant with FOUR flowers: the tall upper flower, the left upper side flower, the smaller lower-left flower and the right side flower. Include all its thin branching stems, the entire folded broad basal leaves and the long narrow curved leaf tip extending up-right. The four blossoms and these leaves share one original root. Exclude the neighboring center-right plant. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_extraction": "tmp/extraction-work/met-425840--four-tulips-with-folded-basal-leaves--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "2541cbb27ebef21bc55b05c1c0359cc7b5c2964f2aeadfc1bb484d95c1b78953",
+        "retained_generated_size": [
+          1044,
+          1507
+        ],
+        "resolution_cap_scale": 1,
+        "resolution_capped_size": [
+          1044,
+          1507
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          1085,
+          1640
+        ],
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 11174
+        },
+        "native_subject_size_evidence": "Inspected complete original subject bounds; cap applies to visible subject, excluding input-region whitespace."
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "All six original tulip specimens inspected on source/white/dark. Four- and five-flower plants retain all their connected blooms and basal leaves. The tall left specimen excludes the disconnected neighbouring leaf; the small right specimen retains the entire long left pointed leaf after correction. Printed baseline removed without new roots. Pale engraved surfaces opaque. No SVG replaces print texture.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/six-tulips-and-pink-generated-results-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/six-tulips-and-pink-generated-results-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/two-tulip-leaf-generated-results-proof-1.jpg"
+        ]
+      },
+      "categories": [
+        "floral"
+      ],
+      "subjects": [
+        "flower",
+        "leaf",
+        "stem"
+      ],
+      "colors": [
+        "black",
+        "brown",
+        "cream"
+      ],
+      "facing": "unclear",
+      "composition": "standalone",
+      "usage_notes": "Original independent specimen with printed plate rules and page removed. AI-assisted extraction remains approximate; source bounds, actual native subject cap, original and exact prompt retained.",
+      "sets": [
+        {
+          "id": "livre-nouveau-de-fleurs",
+          "name": "Livre Nouveau de Fleurs",
+          "relation": "same named series of flower and landscape engravings"
+        },
+        {
+          "id": "met-425840-set",
+          "name": "Horizontal Panel with a Row of Flowers Above a Frieze with a Hunting Scene in a Landscape, from \"Livre Nouveau de Fleurs Tres-Util\" (met-425840)",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "Four tulips with folded basal leaves, preserving the original complete engraved specimen.",
+      "set_label": "Livre Nouveau de Fleurs"
+    },
+    {
+      "id": "met-425840--large-left-tulip-with-long-folded-leaf",
+      "name": "large-left-tulip-with-long-folded-leaf",
+      "source_id": "met-425840",
+      "source_folder": "met",
+      "asset_type": "illustration",
+      "description": "Large left tulip with long folded leaf, preserving the original complete engraved specimen. Part of the Livre Nouveau de Fleurs set.",
+      "source_region": [
+        114,
+        76,
+        595,
+        1682
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        10,
+        3,
+        475,
+        1433
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 465,
+      "height": 1430,
+      "png": "met/met-425840--large-left-tulip-with-long-folded-leaf.png",
+      "png_sha256": "76aa96e5f92b29350e94bd35ffa697040f0fdf9dc7ff4b28ccae353ae0c2eb01",
+      "provenance": {
+        "institution": "Metropolitan Museum of Art",
+        "title": "Horizontal Panel with a Row of Flowers Above a Frieze with a Hunting Scene in a Landscape, from \"Livre Nouveau de Fleurs Tres-Util\"",
+        "object_identifier": "53.600.261(8)",
+        "date": "1645",
+        "artist": "Nicolas Cochin",
+        "record_url": "https://www.metmuseum.org/art/collection/search/425840",
+        "image_rights": "CC0 Open Access; isPublicDomain=true",
+        "rights_url": "https://www.metmuseum.org/policies/image-resources",
+        "source_file": "tmp/new-assets/met/met-425840--horizontal-panel-with-a-row-of-flowers-above-a-frieze-with-a-hunting-scene-in-a-landscape.jpg",
+        "source_sha256": "335b935dc37892bed426447ae3c3756b8a1b8a94b36d6e6545ef7c866b2dccae",
+        "source_metadata": "tmp/new-assets/met/met-425840.json",
+        "image_url": "https://images.metmuseum.org/CRDImages/dp/original/DP837393.jpg",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Edit the original historic botanical engraving in the first reference, using the second reference only to understand the existing isolated specimen. The selected tall tulip has ONE continuous long folded leaf at its left side. Remove the completely detached little drooping leaf fragment at lower left: it belongs to the neighbouring SMALL tulip and is unrelated. Keep the entire tall tulip bloom, its tall original stalk, and the ONE long folded leaf, without changing their contours or proportions. Faithful extraction only, no redesigned hatching or invented parts. Keep pale engraved flower and leaf surfaces opaque, original ink tone and hand-drawn contours. Clear page, real openings and unrelated plants to actual transparent alpha. No background rectangle, no stretching, no smoothing away the original drawing.",
+        "retained_generated_extraction": "tmp/extraction-work/met-425840--large-left-tulip-with-long-folded-leaf--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "a665117c6dba42afdd0d63d58a5f4213e1d79dc5933c19cd18f0a917d1754464",
+        "retained_generated_size": [
+          725,
+          2170
+        ],
+        "resolution_cap_scale": 0.663448275862069,
+        "resolution_capped_size": [
+          481,
+          1440
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          485,
+          1600
+        ],
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 1032
+        },
+        "native_subject_size_evidence": "Inspected complete original subject bounds; cap applies to visible subject, excluding input-region whitespace."
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "All six original tulip specimens inspected on source/white/dark. Four- and five-flower plants retain all their connected blooms and basal leaves. The tall left specimen excludes the disconnected neighbouring leaf; the small right specimen retains the entire long left pointed leaf after correction. Printed baseline removed without new roots. Pale engraved surfaces opaque. No SVG replaces print texture.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/six-tulips-and-pink-generated-results-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/six-tulips-and-pink-generated-results-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/two-tulip-leaf-generated-results-proof-1.jpg"
+        ]
+      },
+      "categories": [
+        "floral"
+      ],
+      "subjects": [
+        "flower",
+        "leaf",
+        "stem"
+      ],
+      "colors": [
+        "black",
+        "brown",
+        "cream"
+      ],
+      "facing": "unclear",
+      "composition": "standalone",
+      "usage_notes": "Original independent specimen with printed plate rules and page removed. AI-assisted extraction remains approximate; source bounds, actual native subject cap, original and exact prompt retained.",
+      "sets": [
+        {
+          "id": "livre-nouveau-de-fleurs",
+          "name": "Livre Nouveau de Fleurs",
+          "relation": "same named series of flower and landscape engravings"
+        },
+        {
+          "id": "met-425840-set",
+          "name": "Horizontal Panel with a Row of Flowers Above a Frieze with a Hunting Scene in a Landscape, from \"Livre Nouveau de Fleurs Tres-Util\" (met-425840)",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "Large left tulip with long folded leaf, preserving the original complete engraved specimen.",
+      "set_label": "Livre Nouveau de Fleurs"
+    },
+    {
+      "id": "met-425840--large-right-tulip-with-bare-stem",
+      "name": "large-right-tulip-with-bare-stem",
+      "source_id": "met-425840",
+      "source_folder": "met",
+      "asset_type": "illustration",
+      "description": "Large right tulip with bare stem, preserving the original complete engraved specimen. Part of the Livre Nouveau de Fleurs set.",
+      "source_region": [
+        2662,
+        104,
+        3276,
+        1684
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        34,
+        12,
+        614,
+        1560
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 580,
+      "height": 1548,
+      "png": "met/met-425840--large-right-tulip-with-bare-stem.png",
+      "png_sha256": "8157b14a2307b74270410a00e483899f122cc7e6ac5b84f63afdd81ff7731aa6",
+      "provenance": {
+        "institution": "Metropolitan Museum of Art",
+        "title": "Horizontal Panel with a Row of Flowers Above a Frieze with a Hunting Scene in a Landscape, from \"Livre Nouveau de Fleurs Tres-Util\"",
+        "object_identifier": "53.600.261(8)",
+        "date": "1645",
+        "artist": "Nicolas Cochin",
+        "record_url": "https://www.metmuseum.org/art/collection/search/425840",
+        "image_rights": "CC0 Open Access; isPublicDomain=true",
+        "rights_url": "https://www.metmuseum.org/policies/image-resources",
+        "source_file": "tmp/new-assets/met/met-425840--horizontal-panel-with-a-row-of-flowers-above-a-frieze-with-a-hunting-scene-in-a-landscape.jpg",
+        "source_sha256": "335b935dc37892bed426447ae3c3756b8a1b8a94b36d6e6545ef7c866b2dccae",
+        "source_metadata": "tmp/new-assets/met/met-425840.json",
+        "image_url": "https://images.metmuseum.org/CRDImages/dp/original/DP837393.jpg",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. Only the LARGE single tall tulip at the right: its broad pointed flamed blossom and full almost straight BARE STEM. It has NO attached basal leaves in this drawing. The large curling leaf crossing in front of the stem belongs to the adjacent five-flower plant and must be excluded. Preserve the original visible stem and original blossom without adding leaves or new concealed detail. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_extraction": "tmp/extraction-work/met-425840--large-right-tulip-with-bare-stem--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "07a3ac1ccb184f23036ba81db55755074710e718c5b9923ef445c9266099af05",
+        "retained_generated_size": [
+          783,
+          2009
+        ],
+        "resolution_cap_scale": 0.7841634738186463,
+        "resolution_capped_size": [
+          614,
+          1575
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          600,
+          1575
+        ],
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 1093
+        },
+        "native_subject_size_evidence": "Inspected complete original subject bounds; cap applies to visible subject, excluding input-region whitespace."
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "All six original tulip specimens inspected on source/white/dark. Four- and five-flower plants retain all their connected blooms and basal leaves. The tall left specimen excludes the disconnected neighbouring leaf; the small right specimen retains the entire long left pointed leaf after correction. Printed baseline removed without new roots. Pale engraved surfaces opaque. No SVG replaces print texture.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/six-tulips-and-pink-generated-results-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/six-tulips-and-pink-generated-results-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/two-tulip-leaf-generated-results-proof-1.jpg"
+        ]
+      },
+      "categories": [
+        "floral"
+      ],
+      "subjects": [
+        "flower",
+        "leaf",
+        "stem"
+      ],
+      "colors": [
+        "black",
+        "brown",
+        "cream"
+      ],
+      "facing": "unclear",
+      "composition": "standalone",
+      "usage_notes": "Original independent specimen with printed plate rules and page removed. AI-assisted extraction remains approximate; source bounds, actual native subject cap, original and exact prompt retained.",
+      "sets": [
+        {
+          "id": "livre-nouveau-de-fleurs",
+          "name": "Livre Nouveau de Fleurs",
+          "relation": "same named series of flower and landscape engravings"
+        },
+        {
+          "id": "met-425840-set",
+          "name": "Horizontal Panel with a Row of Flowers Above a Frieze with a Hunting Scene in a Landscape, from \"Livre Nouveau de Fleurs Tres-Util\" (met-425840)",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "Large right tulip with bare stem, preserving the original complete engraved specimen.",
+      "set_label": "Livre Nouveau de Fleurs"
+    },
+    {
+      "id": "met-425840--leaping-antlered-stag-with-contacting-hound",
+      "name": "leaping-antlered-stag-with-contacting-hound",
+      "source_id": "met-425840",
+      "source_folder": "met",
+      "asset_type": "illustration",
+      "description": "A leaping antlered stag with a contacting hound at its hind leg. Part of the Livre Nouveau de Fleurs set.",
+      "source_region": [
+        816,
+        1964,
+        1063,
+        2221
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        6,
+        0,
+        225,
+        202
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 219,
+      "height": 202,
+      "png": "met/met-425840--leaping-antlered-stag-with-contacting-hound.png",
+      "png_sha256": "d5c4abfe4418fe15c2fc28ba66572f279752649adb9d49a43e781ee497a5eea0",
+      "provenance": {
+        "institution": "Metropolitan Museum of Art",
+        "title": "Horizontal Panel with a Row of Flowers Above a Frieze with a Hunting Scene in a Landscape, from \"Livre Nouveau de Fleurs Tres-Util\"",
+        "object_identifier": "53.600.261(8)",
+        "date": "1645",
+        "artist": "Nicolas Cochin",
+        "record_url": "https://www.metmuseum.org/art/collection/search/425840",
+        "image_rights": "CC0 Open Access; isPublicDomain=true",
+        "rights_url": "https://www.metmuseum.org/policies/image-resources",
+        "source_file": "tmp/new-assets/met/met-425840--horizontal-panel-with-a-row-of-flowers-above-a-frieze-with-a-hunting-scene-in-a-landscape.jpg",
+        "source_sha256": "335b935dc37892bed426447ae3c3756b8a1b8a94b36d6e6545ef7c866b2dccae",
+        "source_metadata": "tmp/new-assets/met/met-425840.json",
+        "image_url": "https://images.metmuseum.org/CRDImages/dp/original/DP837393.jpg",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. Extract BOTH the original antlered stag and the small hound whose mouth contacts its rear hoof. This is ONE interacting group: preserve the touching hoof and muzzle exactly. Retain full branching antlers, stag head/body/legs/tail and the contacting hound head/body/legs/long curved tail. Remove separate hounds elsewhere, ground hatch, bushes and horizon. No invented hidden anatomy. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_extraction": "tmp/extraction-work/met-425840--leaping-antlered-stag-with-contacting-hound--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "bd6cb056bd2ba1ab152d9b4fe5fb8db71aab2356fe88a6f07299e592ade5b0e6",
+        "retained_generated_size": [
+          1326,
+          1187
+        ],
+        "resolution_cap_scale": 0.17005695687550854,
+        "resolution_capped_size": [
+          225,
+          202
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          209,
+          221
+        ],
+        "native_subject_size_evidence": {
+          "method": "Individually inspected native visible subject bounds, excluding input-region whitespace and neighbours.",
+          "preview_subject_bounds": [
+            354,
+            837,
+            442,
+            930
+          ],
+          "preview_size": [
+            1400,
+            980
+          ],
+          "original_size": [
+            3321,
+            2325
+          ]
+        },
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 8
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Compared every entity with the original at source scale on white/dark. All original contact groups remain together, including stag/hound and each rider/horse. Separate hounds and the complete hunting landscape are also retained. Printed paper, landscape hatching around individuals and crosshatched ornament background removed, pale engraved surfaces opaque, true gaps clear. AI method and exact input/prompt are retained; no source raster upscaling or SVG stand-in.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/hunt-nga-met-ready-results-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/hunt-nga-met-ready-results-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/hunt-nga-met-ready-results-proof-3.jpg"
+        ]
+      },
+      "categories": [
+        "animals"
+      ],
+      "subjects": [
+        "stag",
+        "antler",
+        "dog"
+      ],
+      "colors": [
+        "black",
+        "brown",
+        "cream"
+      ],
+      "facing": "unclear",
+      "composition": "multiple-figures",
+      "usage_notes": "Original independent specimen with printed plate rules and page removed. AI-assisted extraction remains approximate; source bounds, actual native subject cap, original and exact prompt retained.",
+      "sets": [
+        {
+          "id": "livre-nouveau-de-fleurs",
+          "name": "Livre Nouveau de Fleurs",
+          "relation": "same named series of flower and landscape engravings"
+        },
+        {
+          "id": "met-425840-set",
+          "name": "Horizontal Panel with a Row of Flowers Above a Frieze with a Hunting Scene in a Landscape, from \"Livre Nouveau de Fleurs Tres-Util\" (met-425840)",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A leaping antlered stag with a contacting hound at its hind leg.",
+      "set_label": "Livre Nouveau de Fleurs"
+    },
+    {
+      "id": "met-425840--left-mounted-hunter-on-running-horse",
+      "name": "left-mounted-hunter-on-running-horse",
+      "source_id": "met-425840",
+      "source_folder": "met",
+      "asset_type": "illustration",
+      "description": "A left mounted hunter on a running horse. Part of the Livre Nouveau de Fleurs set.",
+      "source_region": [
+        1179,
+        1986,
+        1478,
+        2247
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        2,
+        7,
+        274,
+        231
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 272,
+      "height": 224,
+      "png": "met/met-425840--left-mounted-hunter-on-running-horse.png",
+      "png_sha256": "e500fc8569a6287db65a9e08de9dc1e0cda6f133c2e3d8b871c3401f8c1d701a",
+      "provenance": {
+        "institution": "Metropolitan Museum of Art",
+        "title": "Horizontal Panel with a Row of Flowers Above a Frieze with a Hunting Scene in a Landscape, from \"Livre Nouveau de Fleurs Tres-Util\"",
+        "object_identifier": "53.600.261(8)",
+        "date": "1645",
+        "artist": "Nicolas Cochin",
+        "record_url": "https://www.metmuseum.org/art/collection/search/425840",
+        "image_rights": "CC0 Open Access; isPublicDomain=true",
+        "rights_url": "https://www.metmuseum.org/policies/image-resources",
+        "source_file": "tmp/new-assets/met/met-425840--horizontal-panel-with-a-row-of-flowers-above-a-frieze-with-a-hunting-scene-in-a-landscape.jpg",
+        "source_sha256": "335b935dc37892bed426447ae3c3756b8a1b8a94b36d6e6545ef7c866b2dccae",
+        "source_metadata": "tmp/new-assets/met/met-425840.json",
+        "image_url": "https://images.metmuseum.org/CRDImages/dp/original/DP837393.jpg",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. Extract ONLY left foreground horse and contacting rider pursuing the stag, entire original rider/hat/arms, saddle, bridle, horse body, flowing tail and all source-visible hooves. No stag, hounds, grass or skyline. No reconstructed hidden legs. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_extraction": "tmp/extraction-work/met-425840--left-mounted-hunter-on-running-horse--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "b51c7ab878988b34038306f9d6fcfbdc7e652e6ff0b8927acb23c3274436b8c3",
+        "retained_generated_size": [
+          1342,
+          1172
+        ],
+        "resolution_cap_scale": 0.20396162085508254,
+        "resolution_capped_size": [
+          274,
+          239
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          261,
+          221
+        ],
+        "native_subject_size_evidence": {
+          "method": "Individually inspected native visible subject bounds, excluding input-region whitespace and neighbours.",
+          "preview_subject_bounds": [
+            505,
+            845,
+            615,
+            938
+          ],
+          "preview_size": [
+            1400,
+            980
+          ],
+          "original_size": [
+            3321,
+            2325
+          ]
+        },
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 21
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Compared every entity with the original at source scale on white/dark. All original contact groups remain together, including stag/hound and each rider/horse. Separate hounds and the complete hunting landscape are also retained. Printed paper, landscape hatching around individuals and crosshatched ornament background removed, pale engraved surfaces opaque, true gaps clear. AI method and exact input/prompt are retained; no source raster upscaling or SVG stand-in.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/hunt-nga-met-ready-results-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/hunt-nga-met-ready-results-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/hunt-nga-met-ready-results-proof-3.jpg"
+        ]
+      },
+      "categories": [
+        "humans",
+        "animals"
+      ],
+      "subjects": [
+        "hunter",
+        "horse",
+        "saddle",
+        "bridle"
+      ],
+      "colors": [
+        "black",
+        "brown",
+        "cream"
+      ],
+      "facing": "unclear",
+      "composition": "multiple-figures",
+      "usage_notes": "Original independent specimen with printed plate rules and page removed. AI-assisted extraction remains approximate; source bounds, actual native subject cap, original and exact prompt retained.",
+      "sets": [
+        {
+          "id": "livre-nouveau-de-fleurs",
+          "name": "Livre Nouveau de Fleurs",
+          "relation": "same named series of flower and landscape engravings"
+        },
+        {
+          "id": "met-425840-set",
+          "name": "Horizontal Panel with a Row of Flowers Above a Frieze with a Hunting Scene in a Landscape, from \"Livre Nouveau de Fleurs Tres-Util\" (met-425840)",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A left mounted hunter on a running horse.",
+      "set_label": "Livre Nouveau de Fleurs"
+    },
+    {
+      "id": "met-425840--left-running-hound",
+      "name": "left-running-hound",
+      "source_id": "met-425840",
+      "source_folder": "met",
+      "asset_type": "illustration",
+      "description": "A small left-running hunting hound with an upright curled tail. Part of the Livre Nouveau de Fleurs set.",
+      "source_region": [
+        1025,
+        2114,
+        1215,
+        2232
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        3,
+        7,
+        168,
+        101
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 165,
+      "height": 94,
+      "png": "met/met-425840--left-running-hound.png",
+      "png_sha256": "629c088b4e2734dca2590158911373f932af0e813dab7b66f3c33b300b1e901c",
+      "provenance": {
+        "institution": "Metropolitan Museum of Art",
+        "title": "Horizontal Panel with a Row of Flowers Above a Frieze with a Hunting Scene in a Landscape, from \"Livre Nouveau de Fleurs Tres-Util\"",
+        "object_identifier": "53.600.261(8)",
+        "date": "1645",
+        "artist": "Nicolas Cochin",
+        "record_url": "https://www.metmuseum.org/art/collection/search/425840",
+        "image_rights": "CC0 Open Access; isPublicDomain=true",
+        "rights_url": "https://www.metmuseum.org/policies/image-resources",
+        "source_file": "tmp/new-assets/met/met-425840--horizontal-panel-with-a-row-of-flowers-above-a-frieze-with-a-hunting-scene-in-a-landscape.jpg",
+        "source_sha256": "335b935dc37892bed426447ae3c3756b8a1b8a94b36d6e6545ef7c866b2dccae",
+        "source_metadata": "tmp/new-assets/met/met-425840.json",
+        "image_url": "https://images.metmuseum.org/CRDImages/dp/original/DP837393.jpg",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. Extract ONLY independent hound immediately behind the stag and ahead of the left horse. Entire original head, ears, thin curled tail and source-visible paws. No stag, horse or ground hatch. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_extraction": "tmp/extraction-work/met-425840--left-running-hound--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "857d8119da23daec30bd7143b91b32ee085978d7114feb19a82cadd0a35d76e1",
+        "retained_generated_size": [
+          1591,
+          989
+        ],
+        "resolution_cap_scale": 0.10713127810434023,
+        "resolution_capped_size": [
+          170,
+          106
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          152,
+          85
+        ],
+        "native_subject_size_evidence": {
+          "method": "Individually inspected native visible subject bounds, excluding input-region whitespace and neighbours.",
+          "preview_subject_bounds": [
+            440,
+            899,
+            504,
+            935
+          ],
+          "preview_size": [
+            1400,
+            980
+          ],
+          "original_size": [
+            3321,
+            2325
+          ]
+        },
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 0
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Compared every entity with the original at source scale on white/dark. All original contact groups remain together, including stag/hound and each rider/horse. Separate hounds and the complete hunting landscape are also retained. Printed paper, landscape hatching around individuals and crosshatched ornament background removed, pale engraved surfaces opaque, true gaps clear. AI method and exact input/prompt are retained; no source raster upscaling or SVG stand-in.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/hunt-nga-met-ready-results-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/hunt-nga-met-ready-results-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/hunt-nga-met-ready-results-proof-3.jpg"
+        ]
+      },
+      "categories": [
+        "animals"
+      ],
+      "subjects": [
+        "dog"
+      ],
+      "colors": [
+        "black",
+        "brown",
+        "cream"
+      ],
+      "facing": "unclear",
+      "composition": "single-figure",
+      "usage_notes": "Original independent specimen with printed plate rules and page removed. AI-assisted extraction remains approximate; source bounds, actual native subject cap, original and exact prompt retained.",
+      "sets": [
+        {
+          "id": "livre-nouveau-de-fleurs",
+          "name": "Livre Nouveau de Fleurs",
+          "relation": "same named series of flower and landscape engravings"
+        },
+        {
+          "id": "met-425840-set",
+          "name": "Horizontal Panel with a Row of Flowers Above a Frieze with a Hunting Scene in a Landscape, from \"Livre Nouveau de Fleurs Tres-Util\" (met-425840)",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A small left-running hunting hound with an upright curled tail.",
+      "set_label": "Livre Nouveau de Fleurs"
+    },
+    {
+      "id": "met-425840--middle-running-hound",
+      "name": "middle-running-hound",
+      "source_id": "met-425840",
+      "source_folder": "met",
+      "asset_type": "illustration",
+      "description": "A small running hunting hound with raised tail. Part of the Livre Nouveau de Fleurs set.",
+      "source_region": [
+        1739,
+        2126,
+        1898,
+        2254
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        0,
+        0,
+        130,
+        65
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 130,
+      "height": 65,
+      "png": "met/met-425840--middle-running-hound.png",
+      "png_sha256": "0205c7e0764edbf7bffd465b0e76a39d315eac1fcd0b1f760f8d61c4b2b60440",
+      "provenance": {
+        "institution": "Metropolitan Museum of Art",
+        "title": "Horizontal Panel with a Row of Flowers Above a Frieze with a Hunting Scene in a Landscape, from \"Livre Nouveau de Fleurs Tres-Util\"",
+        "object_identifier": "53.600.261(8)",
+        "date": "1645",
+        "artist": "Nicolas Cochin",
+        "record_url": "https://www.metmuseum.org/art/collection/search/425840",
+        "image_rights": "CC0 Open Access; isPublicDomain=true",
+        "rights_url": "https://www.metmuseum.org/policies/image-resources",
+        "source_file": "tmp/new-assets/met/met-425840--horizontal-panel-with-a-row-of-flowers-above-a-frieze-with-a-hunting-scene-in-a-landscape.jpg",
+        "source_sha256": "335b935dc37892bed426447ae3c3756b8a1b8a94b36d6e6545ef7c866b2dccae",
+        "source_metadata": "tmp/new-assets/met/met-425840.json",
+        "image_url": "https://images.metmuseum.org/CRDImages/dp/original/DP837393.jpg",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. Extract ONLY hound directly beneath/right of the small middle mounted rider. Full thin raised tail, head, ears and all original visible running paws. Remove ground and nearby hound to the right. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_extraction": "tmp/extraction-work/met-425840--middle-running-hound--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "c87e29c1febc5c02770695ef7c7edfec9b62aeeddc61b579cd63c2bdabd9f801",
+        "retained_generated_size": [
+          1774,
+          887
+        ],
+        "resolution_cap_scale": 0.07327196071902567,
+        "resolution_capped_size": [
+          130,
+          65
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          126,
+          90
+        ],
+        "native_subject_size_evidence": {
+          "method": "Individually inspected native visible subject bounds, excluding input-region whitespace and neighbours.",
+          "preview_subject_bounds": [
+            741,
+            904,
+            794,
+            942
+          ],
+          "preview_size": [
+            1400,
+            980
+          ],
+          "original_size": [
+            3321,
+            2325
+          ]
+        },
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 3
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Compared every entity with the original at source scale on white/dark. All original contact groups remain together, including stag/hound and each rider/horse. Separate hounds and the complete hunting landscape are also retained. Printed paper, landscape hatching around individuals and crosshatched ornament background removed, pale engraved surfaces opaque, true gaps clear. AI method and exact input/prompt are retained; no source raster upscaling or SVG stand-in.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/hunt-nga-met-ready-results-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/hunt-nga-met-ready-results-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/hunt-nga-met-ready-results-proof-3.jpg"
+        ]
+      },
+      "categories": [
+        "animals"
+      ],
+      "subjects": [
+        "dog"
+      ],
+      "colors": [
+        "black",
+        "brown",
+        "cream"
+      ],
+      "facing": "unclear",
+      "composition": "single-figure",
+      "usage_notes": "Original independent specimen with printed plate rules and page removed. AI-assisted extraction remains approximate; source bounds, actual native subject cap, original and exact prompt retained.",
+      "sets": [
+        {
+          "id": "livre-nouveau-de-fleurs",
+          "name": "Livre Nouveau de Fleurs",
+          "relation": "same named series of flower and landscape engravings"
+        },
+        {
+          "id": "met-425840-set",
+          "name": "Horizontal Panel with a Row of Flowers Above a Frieze with a Hunting Scene in a Landscape, from \"Livre Nouveau de Fleurs Tres-Util\" (met-425840)",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A small running hunting hound with raised tail.",
+      "set_label": "Livre Nouveau de Fleurs"
+    },
+    {
+      "id": "met-425840--right-low-running-hound",
+      "name": "right-low-running-hound",
+      "source_id": "met-425840",
+      "source_folder": "met",
+      "asset_type": "illustration",
+      "description": "A small low-running hound in an engraved hunt. Part of the Livre Nouveau de Fleurs set.",
+      "source_region": [
+        1860,
+        2109,
+        2054,
+        2228
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        4,
+        9,
+        177,
+        72
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 173,
+      "height": 63,
+      "png": "met/met-425840--right-low-running-hound.png",
+      "png_sha256": "e121498ef62c61bd7c5e16750b4e5ad0ac1a9595f4f7df538ae7c08b86266564",
+      "provenance": {
+        "institution": "Metropolitan Museum of Art",
+        "title": "Horizontal Panel with a Row of Flowers Above a Frieze with a Hunting Scene in a Landscape, from \"Livre Nouveau de Fleurs Tres-Util\"",
+        "object_identifier": "53.600.261(8)",
+        "date": "1645",
+        "artist": "Nicolas Cochin",
+        "record_url": "https://www.metmuseum.org/art/collection/search/425840",
+        "image_rights": "CC0 Open Access; isPublicDomain=true",
+        "rights_url": "https://www.metmuseum.org/policies/image-resources",
+        "source_file": "tmp/new-assets/met/met-425840--horizontal-panel-with-a-row-of-flowers-above-a-frieze-with-a-hunting-scene-in-a-landscape.jpg",
+        "source_sha256": "335b935dc37892bed426447ae3c3756b8a1b8a94b36d6e6545ef7c866b2dccae",
+        "source_metadata": "tmp/new-assets/met/met-425840.json",
+        "image_url": "https://images.metmuseum.org/CRDImages/dp/original/DP837393.jpg",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. Extract ONLY low-running hound between the middle and right riders, to the right of the other center hound. Complete body, head, tail and original visible paws. Clear surrounding hatch and landscape. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_extraction": "tmp/extraction-work/met-425840--right-low-running-hound--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "69a9acc80ae0e061fca3d3524d63974256977156864517b84875148a26d0e3c8",
+        "retained_generated_size": [
+          1907,
+          825
+        ],
+        "resolution_cap_scale": 0.09561510353227771,
+        "resolution_capped_size": [
+          182,
+          79
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          157,
+          81
+        ],
+        "native_subject_size_evidence": {
+          "method": "Individually inspected native visible subject bounds, excluding input-region whitespace and neighbours.",
+          "preview_subject_bounds": [
+            793,
+            897,
+            859,
+            931
+          ],
+          "preview_size": [
+            1400,
+            980
+          ],
+          "original_size": [
+            3321,
+            2325
+          ]
+        },
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 0
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Compared every entity with the original at source scale on white/dark. All original contact groups remain together, including stag/hound and each rider/horse. Separate hounds and the complete hunting landscape are also retained. Printed paper, landscape hatching around individuals and crosshatched ornament background removed, pale engraved surfaces opaque, true gaps clear. AI method and exact input/prompt are retained; no source raster upscaling or SVG stand-in.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/hunt-nga-met-ready-results-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/hunt-nga-met-ready-results-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/hunt-nga-met-ready-results-proof-3.jpg"
+        ]
+      },
+      "categories": [
+        "animals"
+      ],
+      "subjects": [
+        "dog"
+      ],
+      "colors": [
+        "black",
+        "brown",
+        "cream"
+      ],
+      "facing": "unclear",
+      "composition": "single-figure",
+      "usage_notes": "Original independent specimen with printed plate rules and page removed. AI-assisted extraction remains approximate; source bounds, actual native subject cap, original and exact prompt retained.",
+      "sets": [
+        {
+          "id": "livre-nouveau-de-fleurs",
+          "name": "Livre Nouveau de Fleurs",
+          "relation": "same named series of flower and landscape engravings"
+        },
+        {
+          "id": "met-425840-set",
+          "name": "Horizontal Panel with a Row of Flowers Above a Frieze with a Hunting Scene in a Landscape, from \"Livre Nouveau de Fleurs Tres-Util\" (met-425840)",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A small low-running hound in an engraved hunt.",
+      "set_label": "Livre Nouveau de Fleurs"
+    },
+    {
+      "id": "met-425840--small-left-tulip-with-bent-leaf",
+      "name": "small-left-tulip-with-bent-leaf",
+      "source_id": "met-425840",
+      "source_folder": "met",
+      "asset_type": "illustration",
+      "description": "Small left tulip with bent leaf, preserving the original complete engraved specimen. Part of the Livre Nouveau de Fleurs set.",
+      "source_region": [
+        47,
+        771,
+        429,
+        1677
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        18,
+        6,
+        370,
+        891
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 352,
+      "height": 885,
+      "png": "met/met-425840--small-left-tulip-with-bent-leaf.png",
+      "png_sha256": "058e9e5d868fd274672d5ce7f03935a7a8e492ecae6cd34db6066f951caef9d9",
+      "provenance": {
+        "institution": "Metropolitan Museum of Art",
+        "title": "Horizontal Panel with a Row of Flowers Above a Frieze with a Hunting Scene in a Landscape, from \"Livre Nouveau de Fleurs Tres-Util\"",
+        "object_identifier": "53.600.261(8)",
+        "date": "1645",
+        "artist": "Nicolas Cochin",
+        "record_url": "https://www.metmuseum.org/art/collection/search/425840",
+        "image_rights": "CC0 Open Access; isPublicDomain=true",
+        "rights_url": "https://www.metmuseum.org/policies/image-resources",
+        "source_file": "tmp/new-assets/met/met-425840--horizontal-panel-with-a-row-of-flowers-above-a-frieze-with-a-hunting-scene-in-a-landscape.jpg",
+        "source_sha256": "335b935dc37892bed426447ae3c3756b8a1b8a94b36d6e6545ef7c866b2dccae",
+        "source_metadata": "tmp/new-assets/met/met-425840.json",
+        "image_url": "https://images.metmuseum.org/CRDImages/dp/original/DP837393.jpg",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. Only the SMALL far-left tulip: its original single small flower, the full thin sloping stem, the short curled basal leaf and the long pointed leaf branching up-left from near the flower. Exclude the separate large tulip and tall blade behind it. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_extraction": "tmp/extraction-work/met-425840--small-left-tulip-with-bent-leaf--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "16233ae22de0c922ffc2b19fadee29142ff06c676564dcadabcecbecde66f195",
+        "retained_generated_size": [
+          814,
+          1933
+        ],
+        "resolution_cap_scale": 0.4687015002586653,
+        "resolution_capped_size": [
+          382,
+          906
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          350,
+          884
+        ],
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 194
+        },
+        "native_subject_size_evidence": "Inspected complete original subject bounds; cap applies to visible subject, excluding input-region whitespace."
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "All six original tulip specimens inspected on source/white/dark. Four- and five-flower plants retain all their connected blooms and basal leaves. The tall left specimen excludes the disconnected neighbouring leaf; the small right specimen retains the entire long left pointed leaf after correction. Printed baseline removed without new roots. Pale engraved surfaces opaque. No SVG replaces print texture.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/six-tulips-and-pink-generated-results-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/six-tulips-and-pink-generated-results-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/two-tulip-leaf-generated-results-proof-1.jpg"
+        ]
+      },
+      "categories": [
+        "floral"
+      ],
+      "subjects": [
+        "flower",
+        "leaf",
+        "stem"
+      ],
+      "colors": [
+        "black",
+        "brown",
+        "cream"
+      ],
+      "facing": "unclear",
+      "composition": "standalone",
+      "usage_notes": "Original independent specimen with printed plate rules and page removed. AI-assisted extraction remains approximate; source bounds, actual native subject cap, original and exact prompt retained.",
+      "sets": [
+        {
+          "id": "livre-nouveau-de-fleurs",
+          "name": "Livre Nouveau de Fleurs",
+          "relation": "same named series of flower and landscape engravings"
+        },
+        {
+          "id": "met-425840-set",
+          "name": "Horizontal Panel with a Row of Flowers Above a Frieze with a Hunting Scene in a Landscape, from \"Livre Nouveau de Fleurs Tres-Util\" (met-425840)",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "Small left tulip with bent leaf, preserving the original complete engraved specimen.",
+      "set_label": "Livre Nouveau de Fleurs"
+    },
+    {
+      "id": "met-425840--small-middle-mounted-hunter",
+      "name": "small-middle-mounted-hunter",
+      "source_id": "met-425840",
+      "source_folder": "met",
+      "asset_type": "illustration",
+      "description": "A small distant hunter mounted on a galloping horse. Part of the Livre Nouveau de Fleurs set.",
+      "source_region": [
+        1611,
+        1995,
+        1791,
+        2180
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        15,
+        0,
+        176,
+        165
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 161,
+      "height": 165,
+      "png": "met/met-425840--small-middle-mounted-hunter.png",
+      "png_sha256": "01e9ea20b157f8540bb3636bdc7f4bd85b4828bd623980fc1ba4c8e76d6107ea",
+      "provenance": {
+        "institution": "Metropolitan Museum of Art",
+        "title": "Horizontal Panel with a Row of Flowers Above a Frieze with a Hunting Scene in a Landscape, from \"Livre Nouveau de Fleurs Tres-Util\"",
+        "object_identifier": "53.600.261(8)",
+        "date": "1645",
+        "artist": "Nicolas Cochin",
+        "record_url": "https://www.metmuseum.org/art/collection/search/425840",
+        "image_rights": "CC0 Open Access; isPublicDomain=true",
+        "rights_url": "https://www.metmuseum.org/policies/image-resources",
+        "source_file": "tmp/new-assets/met/met-425840--horizontal-panel-with-a-row-of-flowers-above-a-frieze-with-a-hunting-scene-in-a-landscape.jpg",
+        "source_sha256": "335b935dc37892bed426447ae3c3756b8a1b8a94b36d6e6545ef7c866b2dccae",
+        "source_metadata": "tmp/new-assets/met/met-425840.json",
+        "image_url": "https://images.metmuseum.org/CRDImages/dp/original/DP837393.jpg",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. Extract ONLY smaller middle mounted hunter and his horse between the larger left and right riders. Complete source-visible hat, body, horse legs and tail, keeping the rider and horse one group. Remove ground, skyline and dogs. Preserve original tiny engraving. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_extraction": "tmp/extraction-work/met-425840--small-middle-mounted-hunter--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "863ada8ab6974962fb2a4e4e89f203934bcc287717bb91aedb0ceaaf8de927d2",
+        "retained_generated_size": [
+          1358,
+          1159
+        ],
+        "resolution_cap_scale": 0.14299802761341224,
+        "resolution_capped_size": [
+          194,
+          166
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          145,
+          149
+        ],
+        "native_subject_size_evidence": {
+          "method": "Individually inspected native visible subject bounds, excluding input-region whitespace and neighbours.",
+          "preview_subject_bounds": [
+            687,
+            849,
+            748,
+            912
+          ],
+          "preview_size": [
+            1400,
+            980
+          ],
+          "original_size": [
+            3321,
+            2325
+          ]
+        },
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 2
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Compared every entity with the original at source scale on white/dark. All original contact groups remain together, including stag/hound and each rider/horse. Separate hounds and the complete hunting landscape are also retained. Printed paper, landscape hatching around individuals and crosshatched ornament background removed, pale engraved surfaces opaque, true gaps clear. AI method and exact input/prompt are retained; no source raster upscaling or SVG stand-in.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/hunt-nga-met-ready-results-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/hunt-nga-met-ready-results-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/hunt-nga-met-ready-results-proof-3.jpg"
+        ]
+      },
+      "categories": [
+        "humans",
+        "animals"
+      ],
+      "subjects": [
+        "hunter",
+        "horse"
+      ],
+      "colors": [
+        "black",
+        "brown",
+        "cream"
+      ],
+      "facing": "unclear",
+      "composition": "multiple-figures",
+      "usage_notes": "Original independent specimen with printed plate rules and page removed. AI-assisted extraction remains approximate; source bounds, actual native subject cap, original and exact prompt retained.",
+      "sets": [
+        {
+          "id": "livre-nouveau-de-fleurs",
+          "name": "Livre Nouveau de Fleurs",
+          "relation": "same named series of flower and landscape engravings"
+        },
+        {
+          "id": "met-425840-set",
+          "name": "Horizontal Panel with a Row of Flowers Above a Frieze with a Hunting Scene in a Landscape, from \"Livre Nouveau de Fleurs Tres-Util\" (met-425840)",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "A small distant hunter mounted on a galloping horse.",
+      "set_label": "Livre Nouveau de Fleurs"
+    },
+    {
+      "id": "met-425840--small-right-tulip-with-pointed-leaves",
+      "name": "small-right-tulip-with-pointed-leaves",
+      "source_id": "met-425840",
+      "source_folder": "met",
+      "asset_type": "illustration",
+      "description": "Small right tulip with pointed leaves, preserving the original complete engraved specimen. Part of the Livre Nouveau de Fleurs set.",
+      "source_region": [
+        2794,
+        866,
+        3278,
+        1684
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        7,
+        0,
+        477,
+        808
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 470,
+      "height": 808,
+      "png": "met/met-425840--small-right-tulip-with-pointed-leaves.png",
+      "png_sha256": "395e73e47df9b5c54f7eb51e9c7374e17530b1a806123c3f817161aa94685a40",
+      "provenance": {
+        "institution": "Metropolitan Museum of Art",
+        "title": "Horizontal Panel with a Row of Flowers Above a Frieze with a Hunting Scene in a Landscape, from \"Livre Nouveau de Fleurs Tres-Util\"",
+        "object_identifier": "53.600.261(8)",
+        "date": "1645",
+        "artist": "Nicolas Cochin",
+        "record_url": "https://www.metmuseum.org/art/collection/search/425840",
+        "image_rights": "CC0 Open Access; isPublicDomain=true",
+        "rights_url": "https://www.metmuseum.org/policies/image-resources",
+        "source_file": "tmp/new-assets/met/met-425840--horizontal-panel-with-a-row-of-flowers-above-a-frieze-with-a-hunting-scene-in-a-landscape.jpg",
+        "source_sha256": "335b935dc37892bed426447ae3c3756b8a1b8a94b36d6e6545ef7c866b2dccae",
+        "source_metadata": "tmp/new-assets/met/met-425840.json",
+        "image_url": "https://images.metmuseum.org/CRDImages/dp/original/DP837393.jpg",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Edit the original historic botanical engraving in the first reference, using the second reference only to understand the existing isolated specimen. Restore and preserve the COMPLETE long thin upright left leaf from the ORIGINAL engraving. Its needle point rises almost to the flower top, distinctly higher than the right leaves. The previous cutout chopped off the upper half of this left leaf: do not copy that truncation. Keep this flower and all its own left and right leaves, including that full long thin pointed left blade, at their exact source proportions. Remove the different neighbouring large-tulip bare stalk and printed baseline. Faithful extraction only, no redesigned hatching or invented parts. Keep pale engraved flower and leaf surfaces opaque, original ink tone and hand-drawn contours. Clear page, real openings and unrelated plants to actual transparent alpha. No background rectangle, no stretching, no smoothing away the original drawing.",
+        "retained_generated_extraction": "tmp/extraction-work/met-425840--small-right-tulip-with-pointed-leaves--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "70fc688bff7c7c19480164567cafc8c462ce9946e1f67ac4f02928d7bcc83cef",
+        "retained_generated_size": [
+          964,
+          1632
+        ],
+        "resolution_cap_scale": 0.49510337323177367,
+        "resolution_capped_size": [
+          477,
+          808
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          455,
+          805
+        ],
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 361
+        },
+        "native_subject_size_evidence": "Inspected complete original subject bounds; cap applies to visible subject, excluding input-region whitespace."
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "All six original tulip specimens inspected on source/white/dark. Four- and five-flower plants retain all their connected blooms and basal leaves. The tall left specimen excludes the disconnected neighbouring leaf; the small right specimen retains the entire long left pointed leaf after correction. Printed baseline removed without new roots. Pale engraved surfaces opaque. No SVG replaces print texture.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/six-tulips-and-pink-generated-results-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/six-tulips-and-pink-generated-results-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/two-tulip-leaf-generated-results-proof-1.jpg"
+        ]
+      },
+      "categories": [
+        "floral"
+      ],
+      "subjects": [
+        "flower",
+        "leaf",
+        "stem"
+      ],
+      "colors": [
+        "black",
+        "brown",
+        "cream"
+      ],
+      "facing": "unclear",
+      "composition": "standalone",
+      "usage_notes": "Original independent specimen with printed plate rules and page removed. AI-assisted extraction remains approximate; source bounds, actual native subject cap, original and exact prompt retained.",
+      "sets": [
+        {
+          "id": "livre-nouveau-de-fleurs",
+          "name": "Livre Nouveau de Fleurs",
+          "relation": "same named series of flower and landscape engravings"
+        },
+        {
+          "id": "met-425840-set",
+          "name": "Horizontal Panel with a Row of Flowers Above a Frieze with a Hunting Scene in a Landscape, from \"Livre Nouveau de Fleurs Tres-Util\" (met-425840)",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "Small right tulip with pointed leaves, preserving the original complete engraved specimen.",
+      "set_label": "Livre Nouveau de Fleurs"
+    },
+    {
+      "id": "met-425840--stag-hunting-landscape-with-three-mounted-hunters",
+      "name": "stag-hunting-landscape-with-three-mounted-hunters",
+      "source_id": "met-425840",
+      "source_folder": "met",
+      "asset_type": "illustration",
+      "description": "An engraved stag hunting landscape with three mounted hunters and dogs. Part of the Livre Nouveau de Fleurs set.",
+      "source_region": [
+        52,
+        1670,
+        3283,
+        2301
+      ],
+      "rotation_clockwise": 0,
+      "export_crop": [
+        0,
+        118,
+        2169,
+        594
+      ],
+      "export_crop_coordinate_space": "retained-ai-extraction",
+      "width": 2169,
+      "height": 476,
+      "png": "met/met-425840--stag-hunting-landscape-with-three-mounted-hunters.png",
+      "png_sha256": "70d301912a42d188fc828a791ec1006a4860d96ddd323d7c372592e1ef31a829",
+      "provenance": {
+        "institution": "Metropolitan Museum of Art",
+        "title": "Horizontal Panel with a Row of Flowers Above a Frieze with a Hunting Scene in a Landscape, from \"Livre Nouveau de Fleurs Tres-Util\"",
+        "object_identifier": "53.600.261(8)",
+        "date": "1645",
+        "artist": "Nicolas Cochin",
+        "record_url": "https://www.metmuseum.org/art/collection/search/425840",
+        "image_rights": "CC0 Open Access; isPublicDomain=true",
+        "rights_url": "https://www.metmuseum.org/policies/image-resources",
+        "source_file": "tmp/new-assets/met/met-425840--horizontal-panel-with-a-row-of-flowers-above-a-frieze-with-a-hunting-scene-in-a-landscape.jpg",
+        "source_sha256": "335b935dc37892bed426447ae3c3756b8a1b8a94b36d6e6545ef7c866b2dccae",
+        "source_metadata": "tmp/new-assets/met/met-425840.json",
+        "image_url": "https://images.metmuseum.org/CRDImages/dp/original/DP837393.jpg",
+        "method": "ai-assisted-historical-image-extraction"
+      },
+      "extraction": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Use case: faithful historical illustration or ornament extraction. Edit the ORIGINAL supplied source region. Extract whole intrinsic lower hunting landscape with original stag, three riders on horses, all hounds, connected irregular terrain, bushes, trees, distant village and original cloud strokes. Remove straight plate rules, blank outer paper and broad blank sky. Preserve irregular natural silhouette, genuine background openings and original source-visible tiny drawing. Do not redraw or add details. Keep the entire selected original subject at its original proportions: every original fingertip, toe, petal fold, serration, thin stem, curl, feather, painted highlight and print hatching. Clear the unwanted page or flat painted background and every genuine opening between subject parts. Selected pale, gold, blue or white painted or engraved subject surfaces remain opaque. Remove neighboring unrelated subjects and printed page rules, lettering or captions. Preserve only source-visible parts, including original truncated ends; no invented hidden anatomy, new leaves, new tips, extended stalks, restored details or modern replacement artwork. Do not symmetrize, beautify, redraw, sharpen, stretch or compress the hand-drawn original. Fine natural antialiased contours without stepped polygon cuts or paper halos. Genuine transparent alpha outside and within the real openings, no rectangle or checkerboard paint.",
+        "retained_generated_extraction": "tmp/extraction-work/met-425840--stag-hunting-landscape-with-three-mounted-hunters--retained-ai-extraction.png",
+        "retained_generated_extraction_sha256": "dc3bcad05f69b0bbb03c69b0ba4d69ac934e8bd2e9b2dc4a11c38111f2c98922",
+        "retained_generated_size": [
+          2172,
+          724
+        ],
+        "resolution_cap_scale": 1,
+        "resolution_capped_size": [
+          2172,
+          724
+        ],
+        "method": "AI-assisted foreground extraction; transparent alpha retained, resolution capped to source region and transparent exterior trimmed.",
+        "pixel_exact": false,
+        "source_pixels_redrawn": "AI extraction may alter scan texture, tones or small contours; compare against the retained original source.",
+        "source_region_is_input_bounds": true,
+        "native_upscaling": false,
+        "native_subject_size_cap": [
+          3200,
+          598
+        ],
+        "native_subject_size_evidence": {
+          "method": "Individually inspected native visible subject bounds, excluding input-region whitespace and neighbours.",
+          "preview_subject_bounds": [
+            28,
+            710,
+            1377,
+            962
+          ],
+          "preview_size": [
+            1400,
+            980
+          ],
+          "original_size": [
+            3321,
+            2325
+          ]
+        },
+        "subject_resolution_cap_method": "Both subject axes capped to inspected native subject bounds; input-region whitespace cannot permit subject upscaling.",
+        "transparent_cleanup": {
+          "method": "Clear alpha <= 2/255 only more than three native pixels from alpha > 8/255; clear hidden RGB at alpha zero. Real edge alpha and visible color retained.",
+          "removed_numerical_residue_pixels": 79422
+        }
+      },
+      "parent": null,
+      "children": [],
+      "review": {
+        "status": "accepted",
+        "quality_round": "20261011",
+        "notes": "Compared every entity with the original at source scale on white/dark. All original contact groups remain together, including stag/hound and each rider/horse. Separate hounds and the complete hunting landscape are also retained. Printed paper, landscape hatching around individuals and crosshatched ornament background removed, pale engraved surfaces opaque, true gaps clear. AI method and exact input/prompt are retained; no source raster upscaling or SVG stand-in.",
+        "checks": [
+          "original-source-comparison",
+          "complete-retained-entity",
+          "native-subject-scale",
+          "white-and-dark-backgrounds",
+          "exterior-and-genuine-openings",
+          "fine-props-and-extremities"
+        ],
+        "evidence": [
+          "tmp/extraction-work/continuation-20261010/hunt-nga-met-ready-results-proof-1.jpg",
+          "tmp/extraction-work/continuation-20261010/hunt-nga-met-ready-results-proof-2.jpg",
+          "tmp/extraction-work/continuation-20261010/hunt-nga-met-ready-results-proof-3.jpg"
+        ]
+      },
+      "categories": [
+        "humans",
+        "animals",
+        "botanical"
+      ],
+      "subjects": [
+        "hunter",
+        "horse",
+        "stag",
+        "dog",
+        "tree",
+        "landscape"
+      ],
+      "colors": [
+        "black",
+        "brown",
+        "cream"
+      ],
+      "facing": "unclear",
+      "composition": "framed-scene",
+      "usage_notes": "Original independent specimen with printed plate rules and page removed. AI-assisted extraction remains approximate; source bounds, actual native subject cap, original and exact prompt retained.",
+      "sets": [
+        {
+          "id": "livre-nouveau-de-fleurs",
+          "name": "Livre Nouveau de Fleurs",
+          "relation": "same named series of flower and landscape engravings"
+        },
+        {
+          "id": "met-425840-set",
+          "name": "Horizontal Panel with a Row of Flowers Above a Frieze with a Hunting Scene in a Landscape, from \"Livre Nouveau de Fleurs Tres-Util\" (met-425840)",
+          "relation": "same original source image"
+        }
+      ],
+      "description_before_set_naming": "An engraved stag hunting landscape with three mounted hunters and dogs.",
+      "set_label": "Livre Nouveau de Fleurs"
+    }
+  ]
+}

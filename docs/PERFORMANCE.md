@@ -32,6 +32,23 @@ The optional browser ZIP includes all artwork for complete offline use.
 
 ## Repeat the audit
 
+The JavaScript and React playgrounds start with their initial designs rather
+than the entire collection. `examples/shared/playground-catalog.js` downloads the full discovery
+catalog on the first picker opening; the stable library controllers/components
+keep existing DOM and user input intact when discovery arrives. Pickers show a
+loading placeholder, render 48 results at a time, and retain full-catalog search.
+Thumbnails use the existing lazy artwork loading. A failed module download has
+an explicit reload action, since browsers retain module failures for the current
+document. React's heading and styles are in HTML, with a placeholder for the
+interactive section; JavaScript's controls have disabled initial placeholders.
+
+Use `npm run preview:local` for the production-built demos with unpublished
+local artwork. The loopback preview compresses JavaScript/CSS and caches hashed
+bundles across page navigation; HTML and mutable artwork remain uncached.
+Vite development mode also defers discovery, but includes React's development
+runtime and separate source modules. Compare production builds for delivery
+measurements. The 2026-10-13 local and throttled checks are recorded in `QA.md`.
+
 Run in a repository checkout with development dependencies, Node 22+ and
 Chromium (`CHROME_BIN` can select its executable):
 
