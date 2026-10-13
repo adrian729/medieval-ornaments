@@ -1396,3 +1396,20 @@ local checkouts. It still packs/checks the candidate runtime, compares every
 installed resource manifest, and verifies every artwork byte during offline copy.
 The default local-resource packaging path is retained. Resource allowlists and
 archive contents were independently checked before their publication.
+
+Installed-consumer fixtures were brought in sync with the completed changes:
+divider-only type assertions use the public export, the React fixture includes
+the deferred shared catalog and page styles while resolving installed runtime
+bytes, and the native sweep respects frame capabilities. The existing installed
+fixture passes the complete browser preflight: 267 design/orientation cases,
+32 density/length cases, selective imports, React 18/19, SSR/hydration, lazy
+loading, state and refs. A fresh full package run follows before publication.
+
+Final clean packed-consumer test passes with all 702 designs, 267 native
+axis/design cases, 32 density/length cases, React 18/19, Strict Mode, production,
+SSR/hydration, state/refs, public types, selective imports and self-hosting.
+All 8,321 artwork files pass offline byte verification after installing the 29
+exact published resource revisions. No browser errors or missing requests.
+Runtime archive: 815877 bytes packed / 5038440 bytes unpacked,
+4291 files, with no artwork or automatic asset dependencies. Evidence:
+`tmp/release-0.11.0/integration-local.json`.

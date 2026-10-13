@@ -609,7 +609,7 @@ individual rendering entries remain prohibited. No API migration is required.
 
 - [x] Publish/verify the 24 changed resources; activate trusted publication for new packages.
 - [x] Lock exact clean resource commits and rebuild public metadata/gallery.
-- [ ] Pass packed consumers, types, selective bundles, artwork and browser checks.
+- [x] Pass packed consumers, types, selective bundles, artwork and browser checks.
 - [x] Merge completed source work to main (828def7); keep Pages gated until publication.
 - [ ] Publish runtime 0.11.0, upload both browser ZIPs/checksums, and verify live Pages/CDN.
 
