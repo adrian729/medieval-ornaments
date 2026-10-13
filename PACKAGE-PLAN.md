@@ -610,7 +610,8 @@ individual rendering entries remain prohibited. No API migration is required.
 - [ ] Publish/verify the 24 changed resources; activate trusted publication for new packages.
 - [ ] Lock exact clean resource commits and rebuild public metadata/gallery.
 - [ ] Pass packed consumers, types, selective bundles, artwork and browser checks.
-- [ ] Merge main, publish runtime 0.11.0, upload browser ZIP, and verify live Pages/CDN.
+- [x] Merge completed source work to main (828def7); keep Pages gated until publication.
+- [ ] Publish runtime 0.11.0, upload both browser ZIPs/checksums, and verify live Pages/CDN.
 
 Release progress, 2026-10-13: borders-004 and illustrations-002 0.1.2 are
 published through OIDC, with successful full-CDN verification (runs
@@ -630,3 +631,10 @@ compression. `build:browser` emits two ordinary archives plus checksums, each
 under GitHub's 2 GiB release-file limit. Both extract into the same directory;
 all PNG/WebP/SVG files are retained unchanged. Downloaded-release tests stream
 and verify both archives before testing the complete self-hosted mirror.
+
+Decorations-002 0.1.1 is also published through OIDC and fully CDN-verified
+(run 38392159942), locked to bce4720dd84aec16daef6274d481829902596494.
+GitHub releases exist for those three verified resource revisions. The local
+two-ZIP build passes CRC validation and supplies all 8,321 public artwork paths
+exactly once when extracted together. Final release archives will be rebuilt
+after the remaining resource pins are locked.

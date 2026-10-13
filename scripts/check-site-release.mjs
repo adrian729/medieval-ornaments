@@ -8,7 +8,9 @@ if (Object.values(lock.sources).some(pin => !/^[a-f0-9]{40}$/.test(pin.gitCommit
   console.error('Pages deferred: resource publication/locking is incomplete.');
 } else {
   const { name, version } = JSON.parse(await readFile(new URL('package.json', root)));
-  const response = await fetch(`https://registry.npmjs.org/${encodeURIComponent(name)}/${version}`, { signal: AbortSignal.timeout(30000) });
+  const response = await fetch(`https://registry.npmjs.org/${encodeURIComponent(name)}/${version}?release-check=${Date.now()}`, {
+    signal: AbortSignal.timeout(30000), headers: { 'Cache-Control': 'no-cache' },
+  });
   if (!response.ok && response.status !== 404) throw Error(`Cannot verify released runtime: npm HTTP ${response.status}.`);
   const ready = response.ok && (await response.json()).version === version;
   console.log(`ready=${ready}`);

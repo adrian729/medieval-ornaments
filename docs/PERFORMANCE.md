@@ -28,7 +28,7 @@ Controllers skip unchanged DOM writes and release observer targets on teardown.
 Self-hosting chosen files avoids a separate image host connection. Enable text
 compression and long caching for versioned URLs. Profile an actual application
 before adding preloads, automatic DPR changes, memoization or virtualization.
-The optional browser ZIP includes all artwork for complete offline use.
+The two optional browser ZIPs together include all artwork for complete offline use.
 
 ## Repeat the audit
 

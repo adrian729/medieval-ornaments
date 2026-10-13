@@ -1325,3 +1325,18 @@ Playwright CLI checks are retained in `tmp/finished-integration/check-demo-*.cjs
 `demo-shells-results.json`, and `*-loading-shell.png` / `*-mobile-picker.png`.
 Expected console network failures occurred only during deliberate abort tests.
 No artwork, release pins, or package-size limits changed for this fix.
+
+### 2026-10-13: release packaging verification (publication in progress)
+
+The 0.11.0 draft offline archives built at 1,214,470,456 and 1,403,679,621
+bytes, each below 2 GiB. Both pass complete ZIP CRC checks. Extracting both
+into one directory supplies all 8,321 catalog artwork paths exactly once;
+there are no duplicate archive entries or unsafe paths. The extracted gallery
+loads 24 cards with locally hosted images, no overflow and no console errors.
+These are draft archives: final metadata/pins will be rebuilt before upload.
+
+Resources borders-004@0.1.2, illustrations-002@0.1.2 and
+decorations-002@0.1.1 passed their publication workflows and full CDN byte
+verification (38389427682, 38389474853, 38392159942), and are locked in
+resource-lock.json. Their GitHub version releases are public. Remaining new
+package publication/trust and repository creation are still in progress.
