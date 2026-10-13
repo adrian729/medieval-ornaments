@@ -590,3 +590,24 @@ The size increase tracks catalog growth from 161 to 702 designs (4.36×); artwor
 is still absent from the runtime. A release decision must either approve a new
 measured metadata budget or change catalog distribution/API architecture. This
 local import does not choose either policy change on the maintainer's behalf.
+
+## 0.11.0 production release (authorized 2026-10-13)
+
+The user explicitly requested merging and releasing all completed work, including
+publication, commits and pushes. The 35 unfinished source extractions stay paused.
+This supersedes the earlier local-only publication scope.
+
+Release decision: preserve the public synchronous catalog/JSON API, provenance,
+individual imports, and every selection field. At 702 designs, catalog.json alone
+is over 2 MB and cannot fit the former 1.25 MB installed-runtime budget. The
+collection increased 4.36x; the measured package increased about 4x to 809 KB
+packed / 4.95 MB installed. `runtime-budget.json` sets a reviewed metadata-only
+cap of 1 MB packed / 6 MB installed, with explicit headroom. Release and consumer
+checks use that same file. This is an explicit policy revision, not a claim that
+the old cap was met. Artwork, resource dependencies, and eager full catalogs in
+individual rendering entries remain prohibited. No API migration is required.
+
+- [ ] Publish/verify the 24 changed resources; activate trusted publication for new packages.
+- [ ] Lock exact clean resource commits and rebuild public metadata/gallery.
+- [ ] Pass packed consumers, types, selective bundles, artwork and browser checks.
+- [ ] Merge main, publish runtime 0.11.0, upload browser ZIP, and verify live Pages/CDN.

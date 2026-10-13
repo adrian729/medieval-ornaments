@@ -34,7 +34,7 @@ jobs:
         if: ${{ !inputs.check-authentication }}
         run: |
           npm pack --json > "$RUNNER_TEMP/pack.json"
-          node -e "const p=require(process.env.RUNNER_TEMP+'/pack.json')[0];if(p.size>=210000||p.unpackedSize>=1250000)throw Error('Runtime exceeds the 210 KB packed / 1.25 MB unpacked budget');console.log(p.filename,p.size,p.unpackedSize)"
+          node scripts/check-runtime-package.mjs "$RUNNER_TEMP/pack.json"
       - name: Publish with provenance
         if: ${{ !inputs.check-authentication }}
         run: npm publish ./ranx729-medieval-ornaments-*.tgz --access public --provenance --registry https://registry.npmjs.org

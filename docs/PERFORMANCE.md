@@ -66,7 +66,15 @@ The selective audit verifies actual included design modules, resource constants
 and production CSS retention. Packed consumers test the real npm archive,
 optional React, individual imports, copied components and artwork hashes.
 
-The runtime budget is **210,000 B packed / 1,250,000 B unpacked**; each numbered resource adds about 0.4 KB of pins. Resource
+The 0.11.0 runtime budget is **1,000,000 B packed / 6,000,000 B unpacked**,
+owned by `runtime-budget.json` and enforced by release and packed-consumer checks.
+The collection grew from 161 to 702 designs; its public JSON catalog alone now
+exceeds the former 1.25 MB installed-package limit. The measured pre-release
+metadata package is about 809 KB packed / 4.95 MB installed. This explicit budget
+revision retains all metadata, synchronous discovery and existing import paths;
+it does not add artwork or automatic resource dependencies. Individual imports
+still include only their selected metadata. Each numbered resource adds about
+0.4 KB of pins. Resource
 uploads have separate capacity limits. Timings are observations, not fixed test
 thresholds or field Core Web Vitals. Chromium results do not establish
 Safari/Firefox performance, and JS heap observations do not measure decoded
