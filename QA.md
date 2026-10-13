@@ -1340,3 +1340,23 @@ decorations-002@0.1.1 passed their publication workflows and full CDN byte
 verification (38389427682, 38389474853, 38392159942), and are locked in
 resource-lock.json. Their GitHub version releases are public. Remaining new
 package publication/trust and repository creation are still in progress.
+
+### 2026-10-13: decorations-006 publication recovery
+
+Resource publication run [38419204836](https://github.com/adrian729/medieval-ornaments-assets-decorations-006/actions/runs/38419204836)
+published `decorations-006@0.1.1` successfully with provenance. Its subsequent
+CDN check failed after verifying 407 of 412 files; five 128px PNGs returned 404
+before the deadline. No upload or artwork change was repeated.
+
+At 16:54 UTC, a fresh complete `scripts/warm-cdn.mjs decorations-006` run passed:
+all 412 approved files had matching sizes and SHA-256 hashes. The five previously
+missing paths also passed individual canonical-URL checks. The exact clean source
+commit `ec44fb4c9a47c0427471803206e735aed5d62845` is now locked, and its
+[0.1.1 release](https://github.com/adrian729/medieval-ornaments-assets-decorations-006/releases/tag/v0.1.1)
+records both the original timeout and successful recovery. Local evidence is in
+`tmp/release-0.11.0/decorations-006-cdn-recheck.log` and the release journal.
+
+The release review found this was the only failed resource workflow among the
+14 published revisions at that point; the other 13 completed successfully.
+The remaining ten activation releases are tracked separately and must pass their
+own checks before runtime publication.

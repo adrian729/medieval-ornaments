@@ -88,3 +88,20 @@ The approved 0.1.3 patches preserve every 0.1.2 artwork/native hash and renderin
 capability; they provide the required first real publish. Publication workflows
 pin main tooling 9bfb355ec00b2236fd64915dbde26b203c8b5b13. Final registry/source
 verification and connection activation status are recorded in QA.md.
+
+## Recover a CDN-only verification failure
+
+If the workflow's npm publish step succeeded but its CDN check failed, inspect
+that failed step before retrying. Do not rerun the entire publishing job: the
+package version already exists and must not be uploaded again. From the approved
+main checkout, rerun only the complete CDN verification:
+
+```sh
+node scripts/warm-cdn.mjs decorations-006
+```
+
+Only after every approved file passes its size/hash check, lock the clean source
+commit with `node scripts/resources.mjs lock --source decorations-006` and finish
+the GitHub release. Record the original workflow failure and the successful
+recheck in QA.md and the release notes; the old failed run remains an accurate
+record of the original timeout. A partial check is insufficient for adoption.
