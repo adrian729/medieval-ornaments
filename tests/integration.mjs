@@ -24,6 +24,10 @@ let server, chrome, ws, vite;
 try {
   const packageSource = process.env.ORNAMENTS_PACKAGE;
   const registryPackage = packageSource?.startsWith('@ranx729/medieval-ornaments@');
+  // Release candidates can use already-published, immutable resource revisions
+  // while still packing and checking the local runtime. Every installed resource
+  // manifest and every copied artwork byte are verified below in either mode.
+  const registryResources = registryPackage || process.env.ORNAMENTS_RESOURCE_PACKAGES === 'registry';
   const assetSource = process.env.ORNAMENTS_ASSETS_PACKAGE;
   const illustrationSource = process.env.ORNAMENTS_ILLUSTRATIONS_PACKAGE;
   const items = await assetCatalog();
@@ -148,13 +152,13 @@ try {
   const sources=registry().sources,pins=resourceLock().sources;
   for(const [id,source] of Object.entries(sources)){
     let installResource;
-    if(registryPackage)installResource=source.package+'@'+pins[id].version;
+    if(registryResources)installResource=source.package+'@'+pins[id].version;
     else{
       const packed=JSON.parse((await exec('npm',['pack','--ignore-scripts','--json','--pack-destination',folder],{cwd:path.join(root,'tmp/resource-checkouts',id),maxBuffer:3e6})).stdout)[0];
       assert.deepEqual(packed.files.filter(file=>/^(svg|png|webp)\//.test(file.path)).map(file=>file.path).sort(),assetPaths(items.filter(item=>registry().assignments[item.name]===id)));
       installResource=path.join(folder,packed.filename);
     }
-    await exec('npm',['install','--save-dev',installResource,'--ignore-scripts','--no-audit','--no-fund',registryPackage?'--prefer-online':'--offline'],{cwd:app});
+    await exec('npm',['install','--save-dev',installResource,'--ignore-scripts','--no-audit','--no-fund',registryResources?'--prefer-offline':'--offline'],{cwd:app});
     const installedResource=path.join(app,'node_modules',source.package);
     assert.deepEqual(await readFile(path.join(installedResource,'resource-manifest.json')),await readFile(path.join(root,'resources/manifests',id+'.json')));
   }

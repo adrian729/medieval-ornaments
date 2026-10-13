@@ -1389,3 +1389,10 @@ Final catalog validation also passes: 702 designs, 255 genuine SVG files and
 8,321 catalog artwork paths, including exact PNG pixels, lossless visible WebP
 pixels/alpha, native size caps, variants and selection metadata. README previews
 now point to the final locked resource commits.
+
+The packed-runtime release check can use `ORNAMENTS_RESOURCE_PACKAGES=registry`
+to install already-published exact resource pins instead of recompressing their
+local checkouts. It still packs/checks the candidate runtime, compares every
+installed resource manifest, and verifies every artwork byte during offline copy.
+The default local-resource packaging path is retained. Resource allowlists and
+archive contents were independently checked before their publication.
