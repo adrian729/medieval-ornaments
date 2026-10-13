@@ -269,7 +269,9 @@ try {
   // All designs through their installed DOM controllers, both axes and fractional densities.
   for (const item of api.findOrnaments({ use: 'divider' })) {
     for (const orientation of ['original', 'horizontal', 'vertical']) {
-      await evaluate(`divider.update(${JSON.stringify({ design: item.name, orientation, size: 33, length: 260 })});frame.update(${JSON.stringify({ design: item.name })});`);
+      await evaluate(`divider.update(${JSON.stringify({ design: item.name, orientation, size: 33, length: 260 })});`);
+      if (item.uses.includes('frame')) await evaluate(`frame.update(${JSON.stringify({ design: item.name })});`);
+      else assert.equal(await evaluate(`(()=>{const before=frame.element.outerHTML;try{frame.update(${JSON.stringify({ design: item.name })});return false}catch{return frame.element.outerHTML===before}})()`), true, 'Divider-only artwork must reject frames without changing the element');
       const result = await geometry(); checkGeometry(result);
       assert.equal(result.axis, orientation === 'original' ? item.repeat_axis : orientation === 'horizontal' ? 'x' : 'y');
       await decodeImages();
