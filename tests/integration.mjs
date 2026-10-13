@@ -185,7 +185,15 @@ try {
   await writeFile(path.join(single, 'index.html'), '<!doctype html><div id="root"></div><script type="module" src="/main.js"></script>');
   await writeFile(path.join(single, 'main.js'), `import {createElement as h} from 'react';import {createRoot} from 'react-dom/client';import {OrnamentDivider} from '@ranx729/medieval-ornaments/react';createRoot(document.getElementById('root')).render(h(OrnamentDivider,{id:'divider',design:'red-berry-vine',length:420,assetsBase:'/local/ornaments/'}));`);
   await build({ root: single, configFile: false, base: '/single-react/dist/', logLevel: 'error' });
-  await cp(path.join(root, 'examples/react/main.jsx'), path.join(app, 'main.jsx'));
+  // The demo now defers discovery through a shared module and links page styles
+  // from HTML. Keep the isolated consumer rooted in its installed runtime bytes.
+  const installedLibrary = './node_modules/@ranx729/medieval-ornaments/lib/';
+  const demoSource = (await readFile(path.join(root, 'examples/react/main.jsx'), 'utf8'))
+    .replaceAll('../../lib/', installedLibrary)
+    .replace('../shared/playground-catalog.js', './playground-catalog.js');
+  await writeFile(path.join(app, 'main.jsx'), "import '../site.css';\nimport '../playground.css';\n" + demoSource);
+  await writeFile(path.join(app, 'playground-catalog.js'),
+    (await readFile(path.join(root, 'examples/shared/playground-catalog.js'), 'utf8')).replaceAll('../../lib/', installedLibrary));
   for (const name of ['site.css', 'playground.css']) await cp(path.join(root, 'examples', name), path.join(folder, name));
   await writeFile(path.join(app, 'index.html'), '<!doctype html><html lang="en" data-assets-base="/local/ornaments/"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><div id="root"></div><script type="module" src="/main.jsx"></script></html>');
   await writeFile(path.join(app, 'react-ssr.mjs'), `export { OrnamentFrame, OrnamentDivider, OrnamentImage } from '@ranx729/medieval-ornaments/react/unstyled';`);
