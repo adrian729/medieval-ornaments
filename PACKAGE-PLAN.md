@@ -692,3 +692,10 @@ and publish both rebuilt offline ZIPs and Pages. Local packed-consumer tests
 use an explicitly supplied validation archive while the release prepack and
 Pages gates continue to reject the null resource lock. Runtime 0.11.0 remains
 the published baseline; the 35-source extraction pause remains in effect.
+
+Committed preparation: main approval/tooling
+`b42732e9c2f57d7d5b8d1c96c006862538a00d3f`; decorations-010 source
+`6b72cc4634f8d3ff417059b676064988e0652494`. Both resource workflow references
+pin the main approval commit. Push these prepared commits before invoking the
+resource publication workflow; adopt the source lock only after CDN verification.
+QA.md records the candidate package, browser and source-history checks.

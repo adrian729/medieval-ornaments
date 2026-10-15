@@ -21,7 +21,38 @@ The built vanilla page decodes all eleven acanthus images at 1200px, 375px with
 requests or runtime errors. Screenshots are under ignored
 `tmp/acanthus-preview/production-*.png`. The offline builder now copies the
 composition JavaScript/CSS; both browser and site builders include its audit.
-The lightweight site is 49,155,639 bytes, below its 50 MB limit.
+The lightweight site is 49,161,271 bytes, below its 50 MB limit.
+
+Main commit `b42732e9c2f57d7d5b8d1c96c006862538a00d3f` approves the
+catalog, manifest, audit and packaging changes. Resource commit
+`6b72cc4634f8d3ff417059b676064988e0652494` contains the masters/exports
+and pins both workflow references to that main commit. Its complete, non-partial
+Git history occupies 106,696,704 bytes of object storage, below the 950 MB cap.
+The final resource tarball verifies all 354 exports against the approved hashes,
+excludes all 41 native inputs and has SHA-256
+`888a1b0added9b8994a0207e242d6b833e03542672e75a73f31c87c7d52eb1ab`.
+
+The final unit run passes 47/47 tests and TypeScript checks pass. The extracted
+WebP/SVG browser ZIP contains the new composition scripts and audit byte-for-byte;
+its actual vanilla page decodes all eleven images at desktop/mobile/33px sizes
+using only local image URLs, without overflow, failed requests or browser errors.
+Both ZIPs verify all 8,401 public artwork files against the resource manifests.
+The WebP/SVG browser is 1,226,372,502 bytes and the PNG companion is
+1,420,260,035 bytes; both remain below GitHub's 2 GiB per-archive limit.
+Archive checksums and the exhaustive verification report are retained in ignored
+`tmp/acanthus-preview/browser-archive-check.json`.
+
+Packed-consumer integration passes for all 710 designs, with all 29 locally
+packed numbered resources installed: 267 native axis/design cases, 32
+density/length cases, vanilla native/bundled consumers, React 18/19 development
+and production, Strict Mode, SSR/hydration, refs/state, public types and offline
+self-hosting. The complete 8,401-file offline copy verifies approved hashes.
+The command was `ORNAMENTS_PACKAGE=<local-validation-tarball> npm run test:integration`,
+using the archive created by `npm pack --ignore-scripts` solely for local testing
+of the unlocked candidate. The normal release prepack remains unchanged.
+The run has no browser errors or failed requests; its report is retained in
+`tmp/acanthus-preview/package-integration.json` and the log in `integration.log`
+beside it. The final main and resource `git diff --check` checks pass.
 
 `check-site-release.mjs` correctly reports `ready=false` while decorations-010
 remains unlocked. Publication/CDN verification, the exact clean source lock,
