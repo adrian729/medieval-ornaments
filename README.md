@@ -10,6 +10,14 @@ independent corner phases, complete frames, four gold rule components, a book an
 a rabbit lutenist. They and Polyhymnia carry `author: "adrian729"`.
 [Browse authored assets](https://adrian729.github.io/medieval-ornaments/examples/?q=adrian729).
 
+The local illuminated-acanthus extension adds a divider centerpiece, separate
+gold-capped start/end terminals, a section fleuron, a leaf sprig, a rosette,
+a horizontal flourish and a vertical sprig. Its 15-piece set includes
+the seven unchanged originals. These eight additions are pending publication;
+preview them with `?assets=local`. The [composition example](examples/acanthus-dividers.js)
+and [CSS](examples/acanthus-dividers.css) join flexible red-and-gold rules directly
+under the gold terminal caps. [Exact generation prompts and audit](acanthus-additions.json).
+
 ## Install and integrate
 
 ```sh
@@ -188,12 +196,12 @@ The library build generates metadata/types from `images.json` without changing a
 <!-- gallery:start -->
 ## Browse designs
 
-702 designs: 89 repeating borders, 281 whole decorations and 332 illustrations.
+710 designs: 89 repeating borders, 289 whole decorations and 332 illustrations.
 
 | Category | Designs |
 | --- | --- |
 | `animals` | 139 |
-| `botanical` | 175 |
+| `botanical` | 183 |
 | `fantasy` | 105 |
 | `floral` | 334 |
 | `geometric` | 128 |
@@ -204,7 +212,7 @@ The library build generates metadata/types from `images.json` without changing a
 | `reading` | 9 |
 | `ribbons` | 8 |
 | `royalty` | 9 |
-| `scrollwork` | 164 |
+| `scrollwork` | 172 |
 
 [Open the asset browser for individual downloads, sizes and components](https://adrian729.github.io/medieval-ornaments/examples/).
 
@@ -497,9 +505,17 @@ The library build generates metadata/types from `images.json` without changing a
 | <img src="https://raw.githubusercontent.com/adrian729/medieval-ornaments-assets-decorations-001/c018127952b4d334ebaa306dea0d588fe42aa540/webp/128/illuminated-acanthus-corner-bottom-left.webp" height="72" alt=""> | `illuminated-acanthus-corner-bottom-left` | decoration | PNG · WebP |
 | <img src="https://raw.githubusercontent.com/adrian729/medieval-ornaments-assets-decorations-001/c018127952b4d334ebaa306dea0d588fe42aa540/webp/128/illuminated-acanthus-corner-bottom-right.webp" height="72" alt=""> | `illuminated-acanthus-corner-bottom-right` | decoration | PNG · WebP |
 | <img src="https://raw.githubusercontent.com/adrian729/medieval-ornaments-assets-decorations-001/c018127952b4d334ebaa306dea0d588fe42aa540/webp/128/illuminated-acanthus-corner-top-right.webp" height="72" alt=""> | `illuminated-acanthus-corner-top-right` | decoration | PNG · WebP |
+| Pending publication | `illuminated-acanthus-divider-center` | decoration | Review in the local browser (`?assets=local`) |
+| Pending publication | `illuminated-acanthus-divider-end` | decoration | Review in the local browser (`?assets=local`) |
+| Pending publication | `illuminated-acanthus-divider-start` | decoration | Review in the local browser (`?assets=local`) |
 | <img src="https://raw.githubusercontent.com/adrian729/medieval-ornaments-assets-decorations-001/c018127952b4d334ebaa306dea0d588fe42aa540/webp/128/illuminated-acanthus-frame.webp" height="72" alt=""> | `illuminated-acanthus-frame` | decoration | PNG · WebP |
 | <img src="https://raw.githubusercontent.com/adrian729/medieval-ornaments-assets-decorations-001/c018127952b4d334ebaa306dea0d588fe42aa540/webp/128/illuminated-acanthus-headpiece.webp" height="72" alt=""> | `illuminated-acanthus-headpiece` | decoration | PNG · WebP |
+| Pending publication | `illuminated-acanthus-horizontal-flourish` | decoration | Review in the local browser (`?assets=local`) |
+| Pending publication | `illuminated-acanthus-leaf-sprig` | decoration | Review in the local browser (`?assets=local`) |
+| Pending publication | `illuminated-acanthus-rosette` | decoration | Review in the local browser (`?assets=local`) |
+| Pending publication | `illuminated-acanthus-section-fleuron` | decoration | Review in the local browser (`?assets=local`) |
 | <img src="https://raw.githubusercontent.com/adrian729/medieval-ornaments-assets-decorations-001/c018127952b4d334ebaa306dea0d588fe42aa540/webp/128/illuminated-acanthus-tailpiece.webp" height="72" alt=""> | `illuminated-acanthus-tailpiece` | decoration | PNG · WebP |
+| Pending publication | `illuminated-acanthus-vertical-sprig` | decoration | Review in the local browser (`?assets=local`) |
 | <img src="https://raw.githubusercontent.com/adrian729/medieval-ornaments-assets-decorations-009/94f7ac0560a8eb88df0f64ba53b0e41c94dc6b4e/webp/128/inner-red-and-blue-leaf-scroll.webp" height="72" alt=""> | `inner-red-and-blue-leaf-scroll` | decoration | PNG · WebP |
 | <img src="https://raw.githubusercontent.com/adrian729/medieval-ornaments-assets-decorations-008/a2edc7d9cb4e20244196733268a344dbc24ead7a/webp/128/interacting-centaurs-and-riders-in-foliate-frieze.webp" height="72" alt=""> | `interacting-centaurs-and-riders-in-foliate-frieze` | decoration | PNG · WebP |
 | <img src="https://raw.githubusercontent.com/adrian729/medieval-ornaments-assets-decorations-009/94f7ac0560a8eb88df0f64ba53b0e41c94dc6b4e/webp/128/interlaced-blue-red-foliage.webp" height="72" alt=""> | `interlaced-blue-red-foliage` | decoration | PNG · WebP |

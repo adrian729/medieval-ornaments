@@ -1,5 +1,5 @@
 {
   "maxPackedBytes": 1000000,
   "maxUnpackedBytes": 6000000,
-  "reason": "0.11.0 preserves synchronous discovery, catalog.json and individual imports for 702 designs (up from 161). Metadata-only package; artwork and automatic resource dependencies remain forbidden."
+  "reason": "The metadata-only runtime preserves synchronous discovery, catalog.json and individual imports for 710 designs, including eight illuminated-acanthus additions. The 0.11.0 limits remain unchanged; artwork and automatic resource dependencies remain forbidden."
 }

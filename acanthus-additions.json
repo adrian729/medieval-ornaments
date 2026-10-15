@@ -1,0 +1,426 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-15",
+  "set": {
+    "id": "illuminated-acanthus",
+    "name": "Illuminated acanthus"
+  },
+  "method": "reference-guided-ai-generation",
+  "tool": "built-in image_gen",
+  "author": "adrian729",
+  "scope": "Eight newly authored transparent whole decorations extending the existing seven-piece set. The two initial divider terminals were revised at user request to remove painted line stubs. All original published artwork remains byte-for-byte unchanged. No historical source attribution is claimed.",
+  "original_references": [
+    {
+      "name": "illuminated-acanthus-corner",
+      "resource": "decorations-001",
+      "path": "png/illuminated-acanthus-corner.png",
+      "sha256": "0c3ae9a1e04ee9a4157d8e60ebf13ea1913c9707578b937504980a4c2d1e873f"
+    },
+    {
+      "name": "illuminated-acanthus-corner-bottom-left",
+      "resource": "decorations-001",
+      "path": "png/illuminated-acanthus-corner-bottom-left.png",
+      "sha256": "5766353db79acb5f06f1252e2bc31fb4d7779d1fdfa576f371248250ddb49721"
+    },
+    {
+      "name": "illuminated-acanthus-corner-bottom-right",
+      "resource": "decorations-001",
+      "path": "png/illuminated-acanthus-corner-bottom-right.png",
+      "sha256": "391ec36ec93c5528b7bf97a4bdb25afbf14991c79c420be8267a89c9b5e9f674"
+    },
+    {
+      "name": "illuminated-acanthus-corner-top-right",
+      "resource": "decorations-001",
+      "path": "png/illuminated-acanthus-corner-top-right.png",
+      "sha256": "d6ecd16bff02a64c8416c58e6a9522b1225a6264fd5b99181fbefe940305f3ab"
+    },
+    {
+      "name": "illuminated-acanthus-frame",
+      "resource": "decorations-001",
+      "path": "png/illuminated-acanthus-frame.png",
+      "sha256": "6797c4c7247f3a6f9dbdbb97ed7680a1c426bd614b3fc94f5853d5d23ca6c73b"
+    },
+    {
+      "name": "illuminated-acanthus-headpiece",
+      "resource": "decorations-001",
+      "path": "png/illuminated-acanthus-headpiece.png",
+      "sha256": "970fa67243e11e31d8db7d13caa5419def61b5f327cfd69fc1fea4123183d386"
+    },
+    {
+      "name": "illuminated-acanthus-tailpiece",
+      "resource": "decorations-001",
+      "path": "png/illuminated-acanthus-tailpiece.png",
+      "sha256": "67a3dbeeb44c496028f0c519e139460c26aae44ba08cc3c68ea3e040ddc0861c"
+    }
+  ],
+  "assets": [
+    {
+      "name": "illuminated-acanthus-divider-center",
+      "resource": "decorations-010",
+      "native_input": "sources/tiles/illuminated-acanthus-divider-center.png",
+      "master_path": "png/illuminated-acanthus-divider-center.png",
+      "native_dimensions": [
+        1774,
+        887
+      ],
+      "native_sha256": "a5f5a4ba6b910201f34a0afc72119b835930e8c7fb5b3d99c94ce5aa37989cd1",
+      "master_sha256": "a5f5a4ba6b910201f34a0afc72119b835930e8c7fb5b3d99c94ce5aa37989cd1",
+      "prompt": "Use case: style-transfer. Create ONE new transparent PNG ornament belonging to the SAME illuminated-acanthus set as the supplied original PNG references. These references are style and motif inputs, not targets to overwrite. Reference 1 is the wide headpiece, reference 2 the small upright tailpiece, reference 3 the ruled corner.\nABSOLUTE STYLE MATCH: copy their exact pigment character and craftsmanship: matte worn medium ultramarine/cobalt blue, muted brick/crimson red, warm ochre metallic gold leaf with tiny irregular flecks, sage/olive green ivy, thin dark sepia contours, ivory-white hand-painted leaf veins. Curling, scalloped broad acanthus lobes, small restrained gold scrolls, sparse pointed ivy leaves. Flat hand-painted manuscript illumination with subtle rubbed paint texture. Same restrained colors and optical stroke weight. No glossy 3D, no smooth vector finish, no photographic shadows, no jewel gemstones, no gradients or glowing halos, no new palette, no baroque carving. Nothing outside the artwork: genuinely transparent alpha in all negative space, no paper/background/drop shadow, no checkerboard painted into pixels, no lettering or labels. Keep complete tips inside canvas with only modest transparent padding; make ornament large enough for detailed native pixels. Match this specific set rather than generic medieval clipart.\nRequested asset: ONE small, compact lozenge-shaped floral CENTERPIECE for a flexible horizontal divider, approximately twice as wide as tall, NO horizontal stems, NO rules, NO end-caps or spear terminals. Interlaced blue acanthus curls on the left and right, a small upward crimson leaf, two warm gold lower lobes and one tiny downward sage ivy point, tightly gathered at a gold central knot. This must be simpler, smaller and lower than the existing tall tailpiece or wide headpiece: only five principal lobes. Organic hand-drawn balance; fine slender irregular sepia outlines, NOT thick dark cartoon outlines. Broad flat curling leaves with thin scratched ivory veins and worn paint identical to the references. Solid small gold center on the exact canvas midline so a thin line may sit behind it. Almost fill a landscape canvas with just 6% transparent margins. True alpha cutout with transparent holes, no colored outer haze. Only this single compact motif.",
+      "reference_images_in_order": [
+        "illuminated-acanthus-headpiece",
+        "illuminated-acanthus-tailpiece",
+        "illuminated-acanthus-corner"
+      ],
+      "transparent_background": true,
+      "processing": "Original generated PNG copied byte-for-byte to native input and master. Normal selected builds supply lossless WebP and 128/256/512/768 variants directly from the native master, without upscaling or repainting.",
+      "review": {
+        "status": "accepted-local-review",
+        "reviewer": "Codex",
+        "user_visual_review": "accepted",
+        "checks": [
+          "native-png-retained-byte-for-byte",
+          "lossless-webp-alpha-and-visible-rgb",
+          "variants-direct-from-master-no-upscaling",
+          "palette-motifs-and-stroke-comparison-with-originals",
+          "light-and-dark-composition-review",
+          "responsive-375px-and-fractional-1.25x-browser-review",
+          "whole-image-capabilities-no-repeat-or-atlas"
+        ],
+        "notes": [
+          "Compact balanced five-lobe center; original blue/red/gold/ivy palette, fine veins and worn pigment retained. Reviewed at native size and as a small section-divider center."
+        ],
+        "user_visual_review_date": "2026-10-15",
+        "user_visual_review_note": "User approved the expanded set and requested production readiness and commits after reviewing the corrected terminals and additional pieces."
+      }
+    },
+    {
+      "name": "illuminated-acanthus-divider-start",
+      "resource": "decorations-010",
+      "native_input": "sources/tiles/illuminated-acanthus-divider-start.png",
+      "master_path": "png/illuminated-acanthus-divider-start.png",
+      "native_dimensions": [
+        1448,
+        1086
+      ],
+      "native_sha256": "bef0bbaf6f65c0e25dc2abddfea2f9b111d89a24795f0bfe828c901765ee2114",
+      "master_sha256": "bef0bbaf6f65c0e25dc2abddfea2f9b111d89a24795f0bfe828c901765ee2114",
+      "prompt": "Use case: style-transfer. Create ONE new transparent PNG ornament belonging to the SAME illuminated-acanthus set as the supplied original PNG references. These references are style and motif inputs, not targets to overwrite. Reference 1 is the wide headpiece, reference 2 the small upright tailpiece, reference 3 the ruled corner.\nABSOLUTE STYLE MATCH: copy their exact pigment character and craftsmanship: matte worn medium ultramarine/cobalt blue, muted brick/crimson red, warm ochre metallic gold leaf with tiny irregular flecks, sage/olive green ivy, thin dark sepia contours, ivory-white hand-painted leaf veins. Curling, scalloped broad acanthus lobes, small restrained gold scrolls, sparse pointed ivy leaves. Flat hand-painted manuscript illumination with subtle rubbed paint texture. Same restrained colors and optical stroke weight. No glossy 3D, no smooth vector finish, no photographic shadows, no jewel gemstones, no gradients or glowing halos, no new palette, no baroque carving. Nothing outside the artwork: genuinely transparent alpha in all negative space, no paper/background/drop shadow, no checkerboard painted into pixels, no lettering or labels. Keep complete tips inside canvas with only modest transparent padding; make ornament large enough for detailed native pixels. Match this specific set rather than generic medieval clipart.\nRequested asset: ONE LEFT START TERMINAL for a horizontal divider, compact and roughly square, with its stem entering from the RIGHT at exactly mid-height. A short straight warm gold neck with a narrow muted red center stripe comes in from the right, stops at a little gold binding knot around 65% canvas width, then opens toward the LEFT into ONE upward-curling blue acanthus leaf, ONE smaller downward-curling red leaf and a gold tucked inner curl. One small sage ivy leaf and a delicate gold tendril complete the cluster. The LEFT silhouette is a finished rounded/lobed flourish, the RIGHT is the very short straight connector. The colored leaves must cluster left of the stem, not along a long line. No corner, no L shape, no long rule, no upright central fleur-de-lis, no pair of terminals. Fine slender irregular sepia outlines and scratched ivory veins just as in the existing tailpiece; natural worn pigment. Modest clear margins and completely transparent background and holes. Design a left endpoint that can be balanced by a companion right endpoint.",
+      "reference_images_in_order": [
+        "illuminated-acanthus-headpiece",
+        "illuminated-acanthus-tailpiece",
+        "illuminated-acanthus-corner"
+      ],
+      "transparent_background": true,
+      "processing": "Generated PNG revised with built-in image_gen to remove the connector stub; retained byte-for-byte as native input and master. Normal selected builds supply lossless WebP and smaller variants directly from this edited master. Original generation prompt and prior hash are retained.",
+      "review": {
+        "status": "accepted-local-review",
+        "reviewer": "Codex",
+        "user_visual_review": "accepted",
+        "checks": [
+          "native-png-retained-byte-for-byte",
+          "lossless-webp-alpha-and-visible-rgb",
+          "variants-direct-from-master-no-upscaling",
+          "palette-motifs-and-stroke-comparison-with-originals",
+          "light-and-dark-visual-review",
+          "responsive-375px-and-fractional-1.25x-browser-review",
+          "whole-image-capabilities-no-repeat-or-atlas"
+        ],
+        "notes": [
+          "Revised at user request to remove the entire painted rule stub. The gold cap is complete and meets the CSS rule at 73.5% of image width and 58.4% of image height, with the rule layered underneath it. No visible rule-to-rule seam remains."
+        ],
+        "user_visual_review_date": "2026-10-15",
+        "user_visual_review_note": "User approved the expanded set and requested production readiness and commits after reviewing the corrected terminals and additional pieces."
+      },
+      "revisions": [
+        {
+          "reason": "User requested removing the painted connector stub so the flexible CSS rule meets the gold cap directly.",
+          "prior_master_sha256": "aa3ab9473c2d56673f82db7c57e3a1544467ab82bee61f32a42a5a98684b996d",
+          "prior_native_dimensions": [
+            1448,
+            1086
+          ],
+          "prior_local_file": "tmp/acanthus-preview/before-connection-fix/illuminated-acanthus-divider-start.png",
+          "edit_prompt": "Use case: precise-object-edit.\nEdit target: the supplied transparent LEFT divider terminal PNG.\nMake exactly one small correction: ERASE the short horizontal rectangular RED-AND-GOLD STRIP that projects to the RIGHT of the small three-lobed gold cap. Replace that entire straight strip, including its dark top/bottom outlines, with true alpha transparency. Leave the gold cap intact, closing its existing round/scalloped right edge cleanly so it ends as a self-contained gold trefoil finial. There must be NO horizontal stub, shaft, colored line, or fringe extending rightward from the gold cap.\nPreserve the remainder of this exact ornament: the upright blue acanthus leaf, red lower leaf, gold scrolls, green ivy, ivory veins, all textures, colors, shape, position, original orientation, relative scale and existing transparent background. Keep the same 1448 by 1086 canvas with the same artwork registration and margins; do not center, crop, enlarge, move or redraw the ornament. Do not add anything. Output one transparent PNG.",
+          "tool": "built-in image_gen",
+          "note": "Reference-guided edited output; non-target pixels are not claimed to be pixel-exact.",
+          "prior_native_input": "sources/tiles/illuminated-acanthus-divider-start-reference.png"
+        }
+      ]
+    },
+    {
+      "name": "illuminated-acanthus-divider-end",
+      "resource": "decorations-010",
+      "native_input": "sources/tiles/illuminated-acanthus-divider-end.png",
+      "master_path": "png/illuminated-acanthus-divider-end.png",
+      "native_dimensions": [
+        1448,
+        1086
+      ],
+      "native_sha256": "776a1d738c064a7db2c31d3515ab6e3b5cbed66e11d9767c218d4f2f44af662e",
+      "master_sha256": "776a1d738c064a7db2c31d3515ab6e3b5cbed66e11d9767c218d4f2f44af662e",
+      "prompt": "Use case: style-transfer. The FIRST reference is the newly made LEFT terminal of a divider. Make its closely matched RIGHT terminal companion: reverse the overall horizontal orientation, matching the same canvas, scale, paint texture, pigment colors, contour thickness and individual motif proportions. The remaining reference images are the original set and lock the style. Preserve an upright blue acanthus leaf above, a muted red curling acanthus leaf below, warm gold internal lobes, one small sage/olive ivy leaf toward the far RIGHT, scratched ivory veins, thin dark sepia outlines. Its short straight horizontal red-and-gold connector now enters from the LEFT and joins the little gold binding knot, while the leaves fan out to the RIGHT. This is a new right-end image, not both ends together. Keep connector height and its vertical position identical to reference 1, with comparable transparent margins. No rotation upside-down; blue remains above and red below. Real alpha transparency everywhere outside the complete ornament and in its holes. No paper, colored haze, photographic shadow, glow, checkerboard pixels or text. Only one right endpoint; no other objects.",
+      "reference_images_in_order": [
+        "illuminated-acanthus-divider-start",
+        "illuminated-acanthus-headpiece",
+        "illuminated-acanthus-tailpiece",
+        "illuminated-acanthus-corner"
+      ],
+      "transparent_background": true,
+      "processing": "Generated PNG revised with built-in image_gen to remove the connector stub; retained byte-for-byte as native input and master. Normal selected builds supply lossless WebP and smaller variants directly from this edited master. Original generation prompt and prior hash are retained.",
+      "review": {
+        "status": "accepted-local-review",
+        "reviewer": "Codex",
+        "user_visual_review": "accepted",
+        "checks": [
+          "native-png-retained-byte-for-byte",
+          "lossless-webp-alpha-and-visible-rgb",
+          "variants-direct-from-master-no-upscaling",
+          "palette-motifs-and-stroke-comparison-with-originals",
+          "light-and-dark-visual-review",
+          "responsive-375px-and-fractional-1.25x-browser-review",
+          "whole-image-capabilities-no-repeat-or-atlas"
+        ],
+        "notes": [
+          "Revised at user request to remove the entire painted rule stub. The gold cap is complete and meets the CSS rule with a 70.5% right inset and 58.4% vertical anchor, with the rule layered underneath it. Separate right companion retains the blue-above/red-below orientation."
+        ],
+        "user_visual_review_date": "2026-10-15",
+        "user_visual_review_note": "User approved the expanded set and requested production readiness and commits after reviewing the corrected terminals and additional pieces."
+      },
+      "revisions": [
+        {
+          "reason": "User requested removing the painted connector stub so the flexible CSS rule meets the gold cap directly.",
+          "prior_master_sha256": "ee5cef6ae22ea1a30edf940e3218ead55d090f967244da3620358e5a483653eb",
+          "prior_native_dimensions": [
+            1448,
+            1086
+          ],
+          "prior_local_file": "tmp/acanthus-preview/before-connection-fix/illuminated-acanthus-divider-end.png",
+          "edit_prompt": "Use case: precise-object-edit.\nEdit target: the supplied transparent RIGHT divider terminal PNG.\nMake exactly one small correction: ERASE the short horizontal rectangular RED-AND-GOLD STRIP that projects to the LEFT of the small three-lobed gold cap. Replace that entire straight strip, including its dark top/bottom outlines, with true alpha transparency. Leave the gold cap intact, closing its existing round/scalloped left edge cleanly so it ends as a self-contained gold trefoil finial. There must be NO horizontal stub, shaft, colored line, or fringe extending leftward from the gold cap.\nPreserve the remainder of this exact ornament: the upright blue acanthus leaf, red lower leaf, gold scrolls, green ivy, ivory veins, all textures, colors, shape, position, original orientation, relative scale and existing transparent background. Keep the same 1448 by 1086 canvas with the same artwork registration and margins; do not center, crop, enlarge, move or redraw the ornament. Do not add anything. Output one transparent PNG.",
+          "tool": "built-in image_gen",
+          "note": "Reference-guided edited output; non-target pixels are not claimed to be pixel-exact.",
+          "prior_native_input": "sources/tiles/illuminated-acanthus-divider-end-reference.png"
+        }
+      ]
+    },
+    {
+      "name": "illuminated-acanthus-section-fleuron",
+      "resource": "decorations-010",
+      "native_input": "sources/tiles/illuminated-acanthus-section-fleuron.png",
+      "master_path": "png/illuminated-acanthus-section-fleuron.png",
+      "native_dimensions": [
+        1536,
+        1024
+      ],
+      "native_sha256": "2a9f80616297068128a249466c4326dcae494ecb3727de50c5d107b185fb41a5",
+      "master_sha256": "2a9f80616297068128a249466c4326dcae494ecb3727de50c5d107b185fb41a5",
+      "prompt": "Use case: style-transfer. Create ONE new transparent PNG ornament belonging to the SAME illuminated-acanthus set as the supplied original PNG references. These references are style and motif inputs, not targets to overwrite. Reference 1 is the wide headpiece, reference 2 the small upright tailpiece, reference 3 the ruled corner.\nABSOLUTE STYLE MATCH: copy their exact pigment character and craftsmanship: matte worn medium ultramarine/cobalt blue, muted brick/crimson red, warm ochre metallic gold leaf with tiny irregular flecks, sage/olive green ivy, thin dark sepia contours, ivory-white hand-painted leaf veins. Curling, scalloped broad acanthus lobes, small restrained gold scrolls, sparse pointed ivy leaves. Flat hand-painted manuscript illumination with subtle rubbed paint texture. Same restrained colors and optical stroke weight. No glossy 3D, no smooth vector finish, no photographic shadows, no jewel gemstones, no gradients or glowing halos, no new palette, no baroque carving. Nothing outside the artwork: genuinely transparent alpha in all negative space, no paper/background/drop shadow, no checkerboard painted into pixels, no lettering or labels. Keep complete tips inside canvas with only modest transparent padding; make ornament large enough for detailed native pixels. Match this specific set rather than generic medieval clipart.\nRequested asset: the compact CENTERPIECE of a flexible horizontal divider. A squat horizontal diamond/fleuron, about twice as wide as tall, balanced about the vertical axis. A tiny upright red central acanthus spear, two blue acanthus curls spreading left and right, gold inner curls, a small downward green ivy point. Two short sturdy gold stems taper outward to left and right on precisely the horizontal midline, where separate CSS rules will meet it. No long rule and no frame. Keep the interior crossing at the exact center visually solid gold/red so a 4px rule can pass behind it unobtrusively. Four or five large readable lobes, not a dense miniature headpiece. Use an approximately 3:2 landscape canvas with the compact ornament centered. Create only this single centerpiece.",
+      "reference_images_in_order": [
+        "illuminated-acanthus-headpiece",
+        "illuminated-acanthus-tailpiece",
+        "illuminated-acanthus-corner"
+      ],
+      "transparent_background": true,
+      "processing": "Original generated PNG copied byte-for-byte to native input and master. Normal selected builds supply lossless WebP and 128/256/512/768 variants directly from the native master, without upscaling or repainting.",
+      "review": {
+        "status": "accepted-local-review",
+        "reviewer": "Codex",
+        "user_visual_review": "accepted",
+        "checks": [
+          "native-png-retained-byte-for-byte",
+          "lossless-webp-alpha-and-visible-rgb",
+          "variants-direct-from-master-no-upscaling",
+          "palette-motifs-and-stroke-comparison-with-originals",
+          "light-and-dark-composition-review",
+          "responsive-375px-and-fractional-1.25x-browser-review",
+          "whole-image-capabilities-no-repeat-or-atlas"
+        ],
+        "notes": [
+          "Initially requested as a divider center, then selected as a separate section ornament because its wider capped stems and denser crest are better suited to standalone use."
+        ],
+        "user_visual_review_date": "2026-10-15",
+        "user_visual_review_note": "User approved the expanded set and requested production readiness and commits after reviewing the corrected terminals and additional pieces."
+      }
+    },
+    {
+      "name": "illuminated-acanthus-leaf-sprig",
+      "resource": "decorations-010",
+      "native_input": "sources/tiles/illuminated-acanthus-leaf-sprig.png",
+      "master_path": "png/illuminated-acanthus-leaf-sprig.png",
+      "native_dimensions": [
+        1586,
+        992
+      ],
+      "native_sha256": "6e587d6e3e6514b11f73f32c18897692c40450823df8a958e884e7fe9bf66384",
+      "master_sha256": "6e587d6e3e6514b11f73f32c18897692c40450823df8a958e884e7fe9bf66384",
+      "prompt": "Use case: style-transfer. Create ONE new transparent PNG ornament belonging to the SAME illuminated-acanthus set as the supplied original PNG references. These references are style and motif inputs, not targets to overwrite. Reference 1 is the wide headpiece, reference 2 the small upright tailpiece, reference 3 the ruled corner.\nABSOLUTE STYLE MATCH: copy their exact pigment character and craftsmanship: matte worn medium ultramarine/cobalt blue, muted brick/crimson red, warm ochre metallic gold leaf with tiny irregular flecks, sage/olive green ivy, thin dark sepia contours, ivory-white hand-painted leaf veins. Curling, scalloped broad acanthus lobes, small restrained gold scrolls, sparse pointed ivy leaves. Flat hand-painted manuscript illumination with subtle rubbed paint texture. Same restrained colors and optical stroke weight. No glossy 3D, no smooth vector finish, no photographic shadows, no jewel gemstones, no gradients or glowing halos, no new palette, no baroque carving. Nothing outside the artwork: genuinely transparent alpha in all negative space, no paper/background/drop shadow, no checkerboard painted into pixels, no lettering or labels. Keep complete tips inside canvas with only modest transparent padding; make ornament large enough for detailed native pixels. Match this specific set rather than generic medieval clipart.\nRequested asset: ONE small airy asymmetric LEAF SPRIG for a quiet section break or a margin beside a heading. An elegant diagonally rising golden S-shaped stem from lower left to upper right, carrying ONE slender curved blue acanthus leaf at upper right, ONE small muted red closed leaf/bud at lower left, and TWO small green pointed ivy leaves along the stem, with a single delicate gold spiral tip. The composition should be much lighter and simpler than the existing tall tailpiece: mostly open transparent space between only these few leaves, approximately 1.6 times as wide as tall, gently horizontal rather than a tall bouquet. Retain broad lobed acanthus anatomy, subtle rubbed pigment, fine uneven sepia contours and thin hand-drawn ivory leaf veins identical to the originals. No circle, no medallion, no central symmetric crest, no bars, no frame, no text, no background haze. All artwork tips complete within modest transparent margins. Only this single free-standing sprig.",
+      "reference_images_in_order": [
+        "illuminated-acanthus-headpiece",
+        "illuminated-acanthus-tailpiece",
+        "illuminated-acanthus-corner"
+      ],
+      "transparent_background": true,
+      "processing": "Original generated PNG copied byte-for-byte to native input and master. Normal selected builds supply lossless WebP and 128/256/512/768 variants directly from the native master, without upscaling or repainting.",
+      "review": {
+        "status": "accepted-local-review",
+        "reviewer": "Codex",
+        "user_visual_review": "accepted",
+        "checks": [
+          "native-png-retained-byte-for-byte",
+          "lossless-webp-alpha-and-visible-rgb",
+          "variants-direct-from-master-no-upscaling",
+          "palette-motifs-and-stroke-comparison-with-originals",
+          "light-and-dark-composition-review",
+          "responsive-375px-and-fractional-1.25x-browser-review",
+          "whole-image-capabilities-no-repeat-or-atlas"
+        ],
+        "notes": [
+          "Open asymmetric sprig offers a lighter section accent while repeating the same blue acanthus, red bud, gold stem and green ivy vocabulary."
+        ],
+        "user_visual_review_date": "2026-10-15",
+        "user_visual_review_note": "User approved the expanded set and requested production readiness and commits after reviewing the corrected terminals and additional pieces."
+      }
+    },
+    {
+      "name": "illuminated-acanthus-rosette",
+      "resource": "decorations-010",
+      "native_input": "sources/tiles/illuminated-acanthus-rosette.png",
+      "master_path": "png/illuminated-acanthus-rosette.png",
+      "native_dimensions": [
+        1254,
+        1254
+      ],
+      "native_sha256": "cea82ed5ae9d8239298cbe58bffe5cc3c3e8c7cc624a011ea1c68bd755f215b1",
+      "master_sha256": "cea82ed5ae9d8239298cbe58bffe5cc3c3e8c7cc624a011ea1c68bd755f215b1",
+      "prompt": "Use case: style-transfer. Create ONE new transparent PNG ornament belonging to the SAME illuminated-acanthus set as the three supplied original PNG references. Reference 1 is the headpiece, reference 2 the upright tailpiece, reference 3 the corner. These are STYLE AND MOTIF REFERENCES.\nMatch their exact worn hand-painted appearance: medium ultramarine/cobalt blue, muted brick/crimson red, warm ochre gold leaf with small irregular flecks, sage/olive green ivy, thin dark sepia contours, irregular scratched ivory leaf veins. Broad curling scalloped acanthus lobes, restrained gold tendrils, sparse pointed ivy. Flat manuscript illumination with subtly rubbed paint. Keep gold painted and textured, without thick embossed or glossy metallic highlights. The drawing must look like another piece from this exact family, not a generic medieval ornament. No gemstones, characters, lettering, text, checkerboard pixels or watercolor haze. Transparent alpha everywhere outside the artwork and inside all gaps; no paper, cast shadow or background. All tips complete and inside a small clear margin. Native details for a reusable website ornament.\nRequested asset: a SMALL COMPACT ROSETTE to mark a section break, bullet or chapter end. A rounded open fourfold rosette formed from four curled acanthus leaves around one small plain gold disk. Alternate red and blue leaves in a turning pinwheel arrangement, with small gold tucked-under curls and four tiny sage ivy points in the gaps. Compact near-circular silhouette with decorative transparent openings, no outer ring, no enclosing circle, no frame, no long stems. A few broad readable lobes, not hundreds of petals. Match the scale of detail and fine ivory veins of the original tailpiece. Almost fill a square canvas with 8% clear margins. Only one isolated rosette.",
+      "reference_images_in_order": [
+        "illuminated-acanthus-headpiece",
+        "illuminated-acanthus-tailpiece",
+        "illuminated-acanthus-corner"
+      ],
+      "transparent_background": true,
+      "processing": "Original generated PNG retained byte-for-byte as native input and master. Normal selected builds supply lossless WebP and 128/256/512/768 variants directly from the native master, without upscaling or repainting.",
+      "review": {
+        "status": "accepted-local-review",
+        "reviewer": "Codex",
+        "user_visual_review": "accepted",
+        "checks": [
+          "native-png-retained-byte-for-byte",
+          "lossless-webp-alpha-and-visible-rgb",
+          "variants-direct-from-master-no-upscaling",
+          "palette-motifs-and-stroke-comparison-with-originals",
+          "light-and-dark-visual-review",
+          "responsive-375px-and-fractional-1.25x-browser-review",
+          "whole-image-capabilities-no-repeat-or-atlas"
+        ],
+        "notes": [
+          "Compact turning leaf rosette adds a rounded section marker. Alternating red/blue broad leaves, gold inner lobes and green ivy preserve the set vocabulary. Inspected large and at small sizes alongside the existing tailpiece."
+        ],
+        "user_visual_review_date": "2026-10-15",
+        "user_visual_review_note": "User approved the expanded set and requested production readiness and commits after reviewing the corrected terminals and additional pieces."
+      }
+    },
+    {
+      "name": "illuminated-acanthus-horizontal-flourish",
+      "resource": "decorations-010",
+      "native_input": "sources/tiles/illuminated-acanthus-horizontal-flourish.png",
+      "master_path": "png/illuminated-acanthus-horizontal-flourish.png",
+      "native_dimensions": [
+        2172,
+        724
+      ],
+      "native_sha256": "f7019e1a1ed7cf8313d1b7ef55fc7533b37a550ece085012b3eea092cced8856",
+      "master_sha256": "f7019e1a1ed7cf8313d1b7ef55fc7533b37a550ece085012b3eea092cced8856",
+      "prompt": "Use case: style-transfer. Create ONE new transparent PNG ornament belonging to the SAME illuminated-acanthus set as the three supplied original PNG references. Reference 1 is the headpiece, reference 2 the upright tailpiece, reference 3 the corner. These are STYLE AND MOTIF REFERENCES.\nMatch their exact worn hand-painted appearance: medium ultramarine/cobalt blue, muted brick/crimson red, warm ochre gold leaf with small irregular flecks, sage/olive green ivy, thin dark sepia contours, irregular scratched ivory leaf veins. Broad curling scalloped acanthus lobes, restrained gold tendrils, sparse pointed ivy. Flat manuscript illumination with subtly rubbed paint. Keep gold painted and textured, without thick embossed or glossy metallic highlights. The drawing must look like another piece from this exact family, not a generic medieval ornament. No gemstones, characters, lettering, text, checkerboard pixels or watercolor haze. Transparent alpha everywhere outside the artwork and inside all gaps; no paper, cast shadow or background. All tips complete and inside a small clear margin. Native details for a reusable website ornament.\nRequested asset: a LOW HORIZONTAL FLOURISH for a section break or a short ornament beneath a heading. A graceful, gently undulating thin gold stem arranged horizontally, carrying three main broad but shallow acanthus curls: a muted red curl on the left, a blue curl near the middle, and a smaller gold curl on the right, with three small sage ivy leaves and one tiny red bud. Finish both ends with delicate curling gold tendrils; no rigid straight rules or connectors. The complete silhouette is roughly four times wider than tall, with balanced visual weight and natural hand-drawn asymmetry. Crucially this is a LOW, AIRY, CONTINUOUS HORIZONTAL BRANCH, not the existing tall central crest headpiece, not a triangular bouquet, not a row of disconnected leaves. Ample transparent gaps between the leaves, fine original-style outlines, ivory veins and worn paint. Use a wide landscape canvas, complete tips, modest clear margins. Only this single finite flourish; do not turn it into a repeated pattern or add a frame.",
+      "reference_images_in_order": [
+        "illuminated-acanthus-headpiece",
+        "illuminated-acanthus-tailpiece",
+        "illuminated-acanthus-corner"
+      ],
+      "transparent_background": true,
+      "processing": "Original generated PNG retained byte-for-byte as native input and master. Normal selected builds supply lossless WebP and 128/256/512/768 variants directly from the native master, without upscaling or repainting.",
+      "review": {
+        "status": "accepted-local-review",
+        "reviewer": "Codex",
+        "user_visual_review": "accepted",
+        "checks": [
+          "native-png-retained-byte-for-byte",
+          "lossless-webp-alpha-and-visible-rgb",
+          "variants-direct-from-master-no-upscaling",
+          "palette-motifs-and-stroke-comparison-with-originals",
+          "light-and-dark-visual-review",
+          "responsive-375px-and-fractional-1.25x-browser-review",
+          "whole-image-capabilities-no-repeat-or-atlas"
+        ],
+        "notes": [
+          "Low finite branch provides a more open horizontal section ornament than the existing headpiece. Red, blue and gold leaves, three ivy leaves, red bud and complete tendril tips retain the original set style."
+        ],
+        "user_visual_review_date": "2026-10-15",
+        "user_visual_review_note": "User approved the expanded set and requested production readiness and commits after reviewing the corrected terminals and additional pieces."
+      }
+    },
+    {
+      "name": "illuminated-acanthus-vertical-sprig",
+      "resource": "decorations-010",
+      "native_input": "sources/tiles/illuminated-acanthus-vertical-sprig.png",
+      "master_path": "png/illuminated-acanthus-vertical-sprig.png",
+      "native_dimensions": [
+        1024,
+        1536
+      ],
+      "native_sha256": "6838af2ec9ccc1ae606694bbcd270d925ee7bd4d1cbbb29c6b8332229afdfd11",
+      "master_sha256": "6838af2ec9ccc1ae606694bbcd270d925ee7bd4d1cbbb29c6b8332229afdfd11",
+      "prompt": "Use case: style-transfer. Create ONE new transparent PNG ornament belonging to the SAME illuminated-acanthus set as the three supplied original PNG references. Reference 1 is the headpiece, reference 2 the upright tailpiece, reference 3 the corner. These are STYLE AND MOTIF REFERENCES.\nMatch their exact worn hand-painted appearance: medium ultramarine/cobalt blue, muted brick/crimson red, warm ochre gold leaf with small irregular flecks, sage/olive green ivy, thin dark sepia contours, irregular scratched ivory leaf veins. Broad curling scalloped acanthus lobes, restrained gold tendrils, sparse pointed ivy. Flat manuscript illumination with subtly rubbed paint. Keep gold painted and textured, without thick embossed or glossy metallic highlights. The drawing must look like another piece from this exact family, not a generic medieval ornament. No gemstones, characters, lettering, text, checkerboard pixels or watercolor haze. Transparent alpha everywhere outside the artwork and inside all gaps; no paper, cast shadow or background. All tips complete and inside a small clear margin. Native details for a reusable website ornament.\nRequested asset: ONE SLENDER VERTICAL SPRIG for a page margin or the side of a short heading. A gently winding upright gold stem, about three times taller than wide, with two main acanthus leaves alternating sides: one muted red leaf curving toward the left in the lower half, and one blue leaf curling toward the right in the upper half, plus two small sage ivy leaves and a tiny red bud near the top. One delicate curled gold root finishes the bottom. Mostly open transparent space, a graceful botanical accent with an irregular natural rhythm, not a symmetrical bouquet. Crucially, it is an INDEPENDENT VERTICAL ORNAMENT: no L-shaped corner, no straight border rules, no horizontal base, no enclosing frame, no long plain connector. Preserve the same worn matte pigments and fine ivory veins as the existing tailpiece. Use a portrait canvas; keep all tips inside small clear margins. Only one complete sprig, with no repeat inferred.",
+      "reference_images_in_order": [
+        "illuminated-acanthus-headpiece",
+        "illuminated-acanthus-tailpiece",
+        "illuminated-acanthus-corner"
+      ],
+      "transparent_background": true,
+      "processing": "Original generated PNG retained byte-for-byte as native input and master. Normal selected builds supply lossless WebP and 128/256/512/768 variants directly from the native master, without upscaling or repainting.",
+      "review": {
+        "status": "accepted-local-review",
+        "reviewer": "Codex",
+        "user_visual_review": "accepted",
+        "checks": [
+          "native-png-retained-byte-for-byte",
+          "lossless-webp-alpha-and-visible-rgb",
+          "variants-direct-from-master-no-upscaling",
+          "palette-motifs-and-stroke-comparison-with-originals",
+          "light-and-dark-visual-review",
+          "responsive-375px-and-fractional-1.25x-browser-review",
+          "whole-image-capabilities-no-repeat-or-atlas"
+        ],
+        "notes": [
+          "Tall independent margin accent with alternating red/blue leaves, two green ivy leaves and red bud. Fine veins, gold stem and complete curled root match the original set; no corner or repeat inferred."
+        ],
+        "user_visual_review_date": "2026-10-15",
+        "user_visual_review_note": "User approved the expanded set and requested production readiness and commits after reviewing the corrected terminals and additional pieces."
+      }
+    }
+  ],
+  "preview": {
+    "generator": "scripts/build_acanthus_preview.py",
+    "local_path": "tmp/acanthus-preview/illuminated-acanthus-labeled-preview-v2.png",
+    "dimensions": [
+      2400,
+      3160
+    ],
+    "sha256": "8ed52fd558c967d2524c2ccc014af3bfe47699a41cf088b8795cd621a7b73997",
+    "contents": "Eight labeled additions, seven labeled unchanged originals, assembled corrected divider on light and dark backgrounds. Review-only thumbnails; retained masters are not cropped."
+  },
+  "capacity": {
+    "resource": "decorations-010",
+    "planned_additional_bytes": 54000000,
+    "actual_additional_bytes": 43036901,
+    "total_public_bytes": 104223109,
+    "public_limit_bytes": 140000000
+  },
+  "divider_composition": {
+    "rule": "Two flexible CSS red-and-gold rules below the artwork. No painted connector stubs remain in terminal masters.",
+    "start_left_fraction": 0.735,
+    "end_right_fraction": 0.705,
+    "terminal_vertical_anchor": 0.584,
+    "center_vertical_anchor": 0.63,
+    "css": "examples/acanthus-dividers.css"
+  }
+}

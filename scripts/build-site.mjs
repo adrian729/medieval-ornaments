@@ -29,7 +29,7 @@ const files = ['index.html', 'ornaments.css', 'favicon.svg', 'favicon-32.png', '
   'images.json', 'images.schema.json', 'illustrations.json', 'illustration-import.json',
   'selection-metadata.json', 'assets-manifest.json', 'LICENSE', 'source-patterns.json',
   'additional-patterns.json', 'reference-crops.json', 'raster-metadata.json', 'EXTRACTION-PROMPTS.json',
-  'historical-additions.json', 'historical-border-patterns.json', 'finished-additions.json', 'finished-border-patterns.json', 'illustration-additions.json', 'authored-additions.json',
+  'historical-additions.json', 'historical-border-patterns.json', 'finished-additions.json', 'finished-border-patterns.json', 'illustration-additions.json', 'authored-additions.json', 'acanthus-additions.json',
   ...(await readdir(root)).filter(name => name.endsWith('.md'))];
 for (const name of files) {
   const source = path.join(root, name), target = path.join(site, name);

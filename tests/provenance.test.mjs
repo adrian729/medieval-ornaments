@@ -14,7 +14,8 @@ test('historical origins reach full, scoped and individual metadata without back
   const supplied = await json('illustration-additions.json');
   const authored = await json('authored-additions.json');
   const finished = await json('finished-additions.json');
-  const names = new Set([...finished.assets, ...audit.assets, ...borders, ...supplied.assets, ...authored.assets].map(item => item.name));
+  const acanthus = await json('acanthus-additions.json');
+  const names = new Set([...finished.assets, ...audit.assets, ...borders, ...supplied.assets, ...authored.assets, ...acanthus.assets].map(item => item.name));
   const masters = [...await json('illustrations.json'), ...await json('raster-metadata.json')];
   for (const entry of audit.assets) {
     const item = getOrnament(entry.name);
@@ -40,7 +41,8 @@ test('historical origins reach full, scoped and individual metadata without back
 
 test('author reaches full, scoped and individual imports and search without attributing unknown artwork', async () => {
   const audit = await json('authored-additions.json');
-  const authoredNames = new Set(['polyhymnia', ...audit.assets.map(item => item.name)]);
+  const acanthus = await json('acanthus-additions.json');
+  const authoredNames = new Set(['polyhymnia', ...audit.assets.map(item => item.name), ...acanthus.assets.map(item => item.name)]);
   const masters = [...await json('illustrations.json'), ...await json('raster-metadata.json')];
   const scopes = await Promise.all(['decorations', 'illustrations'].map(scope => import('../lib/selection-'+scope+'.js')));
   for (const name of authoredNames) {
@@ -66,6 +68,17 @@ test('author reaches full, scoped and individual imports and search without attr
     assert.deepEqual(item.uses, ['image']);
     assert.ok(!Object.hasOwn(item, 'provenance'));
     assert.equal(item.reference, 'authored-additions');
+  }
+  for (const entry of acanthus.assets) {
+    const item = getOrnament(entry.name);
+    assert.equal(hash(await readFile(resourceFile(entry.native_input))), entry.native_sha256);
+    assert.equal(hash(await readFile(resourceFile(item.png))), entry.master_sha256);
+    assert.deepEqual([item.width, item.height], entry.native_dimensions);
+    assert.deepEqual(item.formats, ['webp', 'png']);
+    assert.deepEqual(item.uses, ['image']);
+    assert.ok(!Object.hasOwn(item, 'provenance'));
+    assert.equal(item.reference, 'acanthus-additions');
+    assert.ok(findOrnaments({ query: acanthus.set.name }).includes(item));
   }
 });
 

@@ -11,10 +11,11 @@ const exec = promisify(execFile);
 import { registry, resourceLock, resourceFile, designStems } from '../scripts/resource-store.mjs';
 const root = new URL('../', import.meta.url);
 const audit = JSON.parse(await readFile(new URL('finished-additions.json', root)));
+const acanthus = JSON.parse(await readFile(new URL('acanthus-additions.json', root)));
 
 test('the finished catalog excludes superseded versions and retains source identities and sets', () => {
   assert.equal(audit.imported_count, 541);
-  assert.equal(ornaments.length, 161 + audit.imported_count);
+  assert.equal(ornaments.length, 161 + audit.imported_count + acanthus.assets.length);
   for (const entry of audit.assets) {
     const item = getOrnament(entry.name);
     assert.equal(item.reference, entry.id.split('--')[0]);

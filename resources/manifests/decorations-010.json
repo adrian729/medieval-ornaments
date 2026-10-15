@@ -3,7 +3,7 @@
   "id": "decorations-010",
   "collection": "decorations",
   "package": "@ranx729/medieval-ornaments-assets-decorations-010",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "designs": {
     "blue-line-filler-with-white-waves-hatching-and-curled-terminal": {
       "name": "blue-line-filler-with-white-waves-hatching-and-curled-terminal",
@@ -1155,6 +1155,510 @@
         "png"
       ]
     },
+    "illuminated-acanthus-divider-center": {
+      "name": "illuminated-acanthus-divider-center",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "reference-guided-ai-generation",
+      "repeat_axis": "none",
+      "width": 1774,
+      "height": 887,
+      "png": "png/illuminated-acanthus-divider-center.png",
+      "webp": "webp/illuminated-acanthus-divider-center.webp",
+      "png_bytes": 1793989,
+      "webp_bytes": 1261660,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/illuminated-acanthus-divider-center.png",
+          "webp": "webp/128/illuminated-acanthus-divider-center.webp",
+          "width": 128,
+          "height": 64,
+          "png_bytes": 14878,
+          "webp_bytes": 13316
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/illuminated-acanthus-divider-center.png",
+          "webp": "webp/256/illuminated-acanthus-divider-center.webp",
+          "width": 256,
+          "height": 128,
+          "png_bytes": 49581,
+          "webp_bytes": 37804
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/illuminated-acanthus-divider-center.png",
+          "webp": "webp/512/illuminated-acanthus-divider-center.webp",
+          "width": 512,
+          "height": 256,
+          "png_bytes": 170761,
+          "webp_bytes": 125030
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/illuminated-acanthus-divider-center.png",
+          "webp": "webp/768/illuminated-acanthus-divider-center.webp",
+          "width": 768,
+          "height": 384,
+          "png_bytes": 364173,
+          "webp_bytes": 266610
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "illuminated-acanthus-divider-end": {
+      "name": "illuminated-acanthus-divider-end",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "reference-guided-ai-generation",
+      "repeat_axis": "none",
+      "width": 1448,
+      "height": 1086,
+      "png": "png/illuminated-acanthus-divider-end.png",
+      "webp": "webp/illuminated-acanthus-divider-end.webp",
+      "png_bytes": 998706,
+      "webp_bytes": 713068,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/illuminated-acanthus-divider-end.png",
+          "webp": "webp/128/illuminated-acanthus-divider-end.webp",
+          "width": 128,
+          "height": 96,
+          "png_bytes": 13801,
+          "webp_bytes": 12142
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/illuminated-acanthus-divider-end.png",
+          "webp": "webp/256/illuminated-acanthus-divider-end.webp",
+          "width": 256,
+          "height": 192,
+          "png_bytes": 45432,
+          "webp_bytes": 34410
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/illuminated-acanthus-divider-end.png",
+          "webp": "webp/512/illuminated-acanthus-divider-end.webp",
+          "width": 512,
+          "height": 384,
+          "png_bytes": 152239,
+          "webp_bytes": 113742
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/illuminated-acanthus-divider-end.png",
+          "webp": "webp/768/illuminated-acanthus-divider-end.webp",
+          "width": 768,
+          "height": 576,
+          "png_bytes": 316142,
+          "webp_bytes": 234462
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "illuminated-acanthus-divider-start": {
+      "name": "illuminated-acanthus-divider-start",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "reference-guided-ai-generation",
+      "repeat_axis": "none",
+      "width": 1448,
+      "height": 1086,
+      "png": "png/illuminated-acanthus-divider-start.png",
+      "webp": "webp/illuminated-acanthus-divider-start.webp",
+      "png_bytes": 1100839,
+      "webp_bytes": 770162,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/illuminated-acanthus-divider-start.png",
+          "webp": "webp/128/illuminated-acanthus-divider-start.webp",
+          "width": 128,
+          "height": 96,
+          "png_bytes": 14097,
+          "webp_bytes": 12282
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/illuminated-acanthus-divider-start.png",
+          "webp": "webp/256/illuminated-acanthus-divider-start.webp",
+          "width": 256,
+          "height": 192,
+          "png_bytes": 46376,
+          "webp_bytes": 34894
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/illuminated-acanthus-divider-start.png",
+          "webp": "webp/512/illuminated-acanthus-divider-start.webp",
+          "width": 512,
+          "height": 384,
+          "png_bytes": 157653,
+          "webp_bytes": 117606
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/illuminated-acanthus-divider-start.png",
+          "webp": "webp/768/illuminated-acanthus-divider-start.webp",
+          "width": 768,
+          "height": 576,
+          "png_bytes": 333020,
+          "webp_bytes": 245876
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "illuminated-acanthus-horizontal-flourish": {
+      "name": "illuminated-acanthus-horizontal-flourish",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "reference-guided-ai-generation",
+      "repeat_axis": "none",
+      "width": 2172,
+      "height": 724,
+      "png": "png/illuminated-acanthus-horizontal-flourish.png",
+      "webp": "webp/illuminated-acanthus-horizontal-flourish.webp",
+      "png_bytes": 1091206,
+      "webp_bytes": 751840,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/illuminated-acanthus-horizontal-flourish.png",
+          "webp": "webp/128/illuminated-acanthus-horizontal-flourish.webp",
+          "width": 128,
+          "height": 43,
+          "png_bytes": 7880,
+          "webp_bytes": 6282
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/illuminated-acanthus-horizontal-flourish.png",
+          "webp": "webp/256/illuminated-acanthus-horizontal-flourish.webp",
+          "width": 256,
+          "height": 85,
+          "png_bytes": 23818,
+          "webp_bytes": 19504
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/illuminated-acanthus-horizontal-flourish.png",
+          "webp": "webp/512/illuminated-acanthus-horizontal-flourish.webp",
+          "width": 512,
+          "height": 171,
+          "png_bytes": 78122,
+          "webp_bytes": 59008
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/illuminated-acanthus-horizontal-flourish.png",
+          "webp": "webp/768/illuminated-acanthus-horizontal-flourish.webp",
+          "width": 768,
+          "height": 256,
+          "png_bytes": 156385,
+          "webp_bytes": 116450
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "illuminated-acanthus-leaf-sprig": {
+      "name": "illuminated-acanthus-leaf-sprig",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "reference-guided-ai-generation",
+      "repeat_axis": "none",
+      "width": 1586,
+      "height": 992,
+      "png": "png/illuminated-acanthus-leaf-sprig.png",
+      "webp": "webp/illuminated-acanthus-leaf-sprig.webp",
+      "png_bytes": 979963,
+      "webp_bytes": 685504,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/illuminated-acanthus-leaf-sprig.png",
+          "webp": "webp/128/illuminated-acanthus-leaf-sprig.webp",
+          "width": 128,
+          "height": 80,
+          "png_bytes": 11345,
+          "webp_bytes": 9426
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/illuminated-acanthus-leaf-sprig.png",
+          "webp": "webp/256/illuminated-acanthus-leaf-sprig.webp",
+          "width": 256,
+          "height": 160,
+          "png_bytes": 35079,
+          "webp_bytes": 30018
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/illuminated-acanthus-leaf-sprig.png",
+          "webp": "webp/512/illuminated-acanthus-leaf-sprig.webp",
+          "width": 512,
+          "height": 320,
+          "png_bytes": 115429,
+          "webp_bytes": 86668
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/illuminated-acanthus-leaf-sprig.png",
+          "webp": "webp/768/illuminated-acanthus-leaf-sprig.webp",
+          "width": 768,
+          "height": 480,
+          "png_bytes": 243656,
+          "webp_bytes": 183270
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "illuminated-acanthus-rosette": {
+      "name": "illuminated-acanthus-rosette",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "reference-guided-ai-generation",
+      "repeat_axis": "none",
+      "width": 1254,
+      "height": 1254,
+      "png": "png/illuminated-acanthus-rosette.png",
+      "webp": "webp/illuminated-acanthus-rosette.webp",
+      "png_bytes": 2367677,
+      "webp_bytes": 1635406,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/illuminated-acanthus-rosette.png",
+          "webp": "webp/128/illuminated-acanthus-rosette.webp",
+          "width": 128,
+          "height": 128,
+          "png_bytes": 33170,
+          "webp_bytes": 26360
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/illuminated-acanthus-rosette.png",
+          "webp": "webp/256/illuminated-acanthus-rosette.webp",
+          "width": 256,
+          "height": 256,
+          "png_bytes": 114681,
+          "webp_bytes": 85784
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/illuminated-acanthus-rosette.png",
+          "webp": "webp/512/illuminated-acanthus-rosette.webp",
+          "width": 512,
+          "height": 512,
+          "png_bytes": 416161,
+          "webp_bytes": 303944
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/illuminated-acanthus-rosette.png",
+          "webp": "webp/768/illuminated-acanthus-rosette.webp",
+          "width": 768,
+          "height": 768,
+          "png_bytes": 913161,
+          "webp_bytes": 660756
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "illuminated-acanthus-section-fleuron": {
+      "name": "illuminated-acanthus-section-fleuron",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "reference-guided-ai-generation",
+      "repeat_axis": "none",
+      "width": 1536,
+      "height": 1024,
+      "png": "png/illuminated-acanthus-section-fleuron.png",
+      "webp": "webp/illuminated-acanthus-section-fleuron.webp",
+      "png_bytes": 1890593,
+      "webp_bytes": 1285844,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/illuminated-acanthus-section-fleuron.png",
+          "webp": "webp/128/illuminated-acanthus-section-fleuron.webp",
+          "width": 128,
+          "height": 85,
+          "png_bytes": 13443,
+          "webp_bytes": 11186
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/illuminated-acanthus-section-fleuron.png",
+          "webp": "webp/256/illuminated-acanthus-section-fleuron.webp",
+          "width": 256,
+          "height": 171,
+          "png_bytes": 42893,
+          "webp_bytes": 33280
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/illuminated-acanthus-section-fleuron.png",
+          "webp": "webp/512/illuminated-acanthus-section-fleuron.webp",
+          "width": 512,
+          "height": 341,
+          "png_bytes": 143114,
+          "webp_bytes": 106224
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/illuminated-acanthus-section-fleuron.png",
+          "webp": "webp/768/illuminated-acanthus-section-fleuron.webp",
+          "width": 768,
+          "height": 512,
+          "png_bytes": 302970,
+          "webp_bytes": 224578
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "illuminated-acanthus-vertical-sprig": {
+      "name": "illuminated-acanthus-vertical-sprig",
+      "asset_type": "decoration",
+      "kind": "standalone",
+      "derivation": "reference-guided-ai-generation",
+      "repeat_axis": "none",
+      "width": 1024,
+      "height": 1536,
+      "png": "png/illuminated-acanthus-vertical-sprig.png",
+      "webp": "webp/illuminated-acanthus-vertical-sprig.webp",
+      "png_bytes": 1797685,
+      "webp_bytes": 1191270,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/illuminated-acanthus-vertical-sprig.png",
+          "webp": "webp/128/illuminated-acanthus-vertical-sprig.webp",
+          "width": 85,
+          "height": 128,
+          "png_bytes": 12420,
+          "webp_bytes": 10230
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/illuminated-acanthus-vertical-sprig.png",
+          "webp": "webp/256/illuminated-acanthus-vertical-sprig.webp",
+          "width": 171,
+          "height": 256,
+          "png_bytes": 39280,
+          "webp_bytes": 32734
+        },
+        {
+          "max_dimension": 512,
+          "rendered_max_dimension": 512,
+          "png": "png/512/illuminated-acanthus-vertical-sprig.png",
+          "webp": "webp/512/illuminated-acanthus-vertical-sprig.webp",
+          "width": 341,
+          "height": 512,
+          "png_bytes": 129232,
+          "webp_bytes": 95756
+        },
+        {
+          "max_dimension": 768,
+          "rendered_max_dimension": 768,
+          "png": "png/768/illuminated-acanthus-vertical-sprig.png",
+          "webp": "webp/768/illuminated-acanthus-vertical-sprig.webp",
+          "width": 512,
+          "height": 768,
+          "png_bytes": 272188,
+          "webp_bytes": 200926
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
     "long-brown-foliate-vine-with-blue-green-and-gold-leaves": {
       "name": "long-brown-foliate-vine-with-blue-green-and-gold-leaves",
       "asset_type": "decoration",
@@ -1860,6 +2364,38 @@
       "bytes": 12721,
       "sha256": "443f45cf59e52b85ed771df4383004df0534d3babdd0dfb681d42b999c7b594e"
     },
+    "png/128/illuminated-acanthus-divider-center.png": {
+      "bytes": 14878,
+      "sha256": "a55b251f0370abea8819243357ac5bc23c59281fe1f3493a49f4daf80344d8a5"
+    },
+    "png/128/illuminated-acanthus-divider-end.png": {
+      "bytes": 13801,
+      "sha256": "70c8519c03fee8e91b9746b86834c6a629b112987ca4d13cfef9cabb94a7115e"
+    },
+    "png/128/illuminated-acanthus-divider-start.png": {
+      "bytes": 14097,
+      "sha256": "eb32d504b406db19c29757bec407219f52cccfdd762dd6e858491491b65e0793"
+    },
+    "png/128/illuminated-acanthus-horizontal-flourish.png": {
+      "bytes": 7880,
+      "sha256": "ae5846b385c94d73c03ee51d4d3873db8bc12b0600dd24dd8e5140201984603c"
+    },
+    "png/128/illuminated-acanthus-leaf-sprig.png": {
+      "bytes": 11345,
+      "sha256": "8a4df79e7fd21cd164fa25c369b52bd9d5a894d9f7f3685ce24ba3c44648dedb"
+    },
+    "png/128/illuminated-acanthus-rosette.png": {
+      "bytes": 33170,
+      "sha256": "987e51c28d74b4c8d203f6e0e1a4f60a5b64560af3c56a26a913f53dbaebed66"
+    },
+    "png/128/illuminated-acanthus-section-fleuron.png": {
+      "bytes": 13443,
+      "sha256": "bae1983f2d6256cc35171ce6a0daa65290b98918c99248236cca8ad56cd24a68"
+    },
+    "png/128/illuminated-acanthus-vertical-sprig.png": {
+      "bytes": 12420,
+      "sha256": "e6ea595e9072974dd8c3af3f3a9d39498d12111a44905b8f25264215750382e3"
+    },
     "png/128/long-brown-foliate-vine-with-blue-green-and-gold-leaves.png": {
       "bytes": 6456,
       "sha256": "fe727e2adc4004c69ccc0d62f42a274520df07a4d00f48851ca6a4405af92f23"
@@ -1984,6 +2520,38 @@
       "bytes": 38752,
       "sha256": "cf22d54cf9f0642be08973776cbd714ad4485b9c5885bf2fde9b43bfe06d59c4"
     },
+    "png/256/illuminated-acanthus-divider-center.png": {
+      "bytes": 49581,
+      "sha256": "1219743917cff476e97670e55bbd37360fe57bb9da2534fdbe98f55f18050f86"
+    },
+    "png/256/illuminated-acanthus-divider-end.png": {
+      "bytes": 45432,
+      "sha256": "d780e35450ed21ebdd32be5b006ad39982ee261c54f14c898970b58792251715"
+    },
+    "png/256/illuminated-acanthus-divider-start.png": {
+      "bytes": 46376,
+      "sha256": "fd2465dbe32620119759439df16ff718d3ecb99f8558cf1db91a988cc292ba60"
+    },
+    "png/256/illuminated-acanthus-horizontal-flourish.png": {
+      "bytes": 23818,
+      "sha256": "93d625de5e5ef85ea669272e4e2c6458a51780c81a5015820b76d84c5fd15d97"
+    },
+    "png/256/illuminated-acanthus-leaf-sprig.png": {
+      "bytes": 35079,
+      "sha256": "820befd331bfb98ea528fb30c27466deb3b8568ac4dd94e46e8de1b7a5e9902d"
+    },
+    "png/256/illuminated-acanthus-rosette.png": {
+      "bytes": 114681,
+      "sha256": "dbeb28107df58ae1cd6098cf04d79ad3da71f8c522d5f26ef19ae4bbcbe2b82c"
+    },
+    "png/256/illuminated-acanthus-section-fleuron.png": {
+      "bytes": 42893,
+      "sha256": "7f5695394f73f4c2c51099f46726e59ee0730fc42f630fb3e3fcadaa32b65e3d"
+    },
+    "png/256/illuminated-acanthus-vertical-sprig.png": {
+      "bytes": 39280,
+      "sha256": "1a6fadb9b7dc113ac71545d846235dac91f9667478abd4b32c8a5bc14ac4377c"
+    },
     "png/256/long-brown-foliate-vine-with-blue-green-and-gold-leaves.png": {
       "bytes": 18227,
       "sha256": "05d4815f25a0a58b5d754a6bad48495912cf6584000d83fc59ba11e862ebfd19"
@@ -2096,6 +2664,38 @@
       "bytes": 126551,
       "sha256": "9c7f897645b1413150efb493ad8b8bde324a6e0519853e590021fc336b40f7d5"
     },
+    "png/512/illuminated-acanthus-divider-center.png": {
+      "bytes": 170761,
+      "sha256": "fd6a2ce04bdbbafd9c39d7ec409bc91ece85abd3499a316b34329b81e90ec30a"
+    },
+    "png/512/illuminated-acanthus-divider-end.png": {
+      "bytes": 152239,
+      "sha256": "c56f16ea407db0081fc4a826ea12f5f7966558e4c0e65d356f8ea69d8c9f1fbc"
+    },
+    "png/512/illuminated-acanthus-divider-start.png": {
+      "bytes": 157653,
+      "sha256": "8ea5be829157b1694ac0190a08d736463f11713aaf916ab35001b6e40a9f8bce"
+    },
+    "png/512/illuminated-acanthus-horizontal-flourish.png": {
+      "bytes": 78122,
+      "sha256": "e8bd28e4ccfa3ad0cd83256b1d89c9521fd98a2d39597fa52d8681a604f8e8fb"
+    },
+    "png/512/illuminated-acanthus-leaf-sprig.png": {
+      "bytes": 115429,
+      "sha256": "a24cbe6df6b3aea8d54143e61dd8171d3d64b270d5ddd9d989b5cc510cb0b4a4"
+    },
+    "png/512/illuminated-acanthus-rosette.png": {
+      "bytes": 416161,
+      "sha256": "ecb0ff3d4c5096fac84d453806b65ec6a9fb3490c95e3726d9e6a6bc030c7356"
+    },
+    "png/512/illuminated-acanthus-section-fleuron.png": {
+      "bytes": 143114,
+      "sha256": "8007c4a820989d6003c1275ea9826a5b7840c190103ed393f0daaa5f501fdbb8"
+    },
+    "png/512/illuminated-acanthus-vertical-sprig.png": {
+      "bytes": 129232,
+      "sha256": "47479b0355d0f26ec0c7d8cfacdd6a6f2cee842ac345bf68d22381165c15e11f"
+    },
     "png/512/long-brown-foliate-vine-with-blue-green-and-gold-leaves.png": {
       "bytes": 55078,
       "sha256": "c669c24affc7757a4de5694241746224b6076ab0616f123784ddee8fa4fc45ba"
@@ -2175,6 +2775,38 @@
     "png/768/fixed-twisted-column-arcade-with-scalloped-arch.png": {
       "bytes": 261122,
       "sha256": "a640a7bbe944939bd2d4d92c26915e09e8743cb3cd70d97252e7859d73aeda87"
+    },
+    "png/768/illuminated-acanthus-divider-center.png": {
+      "bytes": 364173,
+      "sha256": "82cf7dbcdbbca37a901a262e7a808a0396aca4f61ae665a7c5041dd6202b1805"
+    },
+    "png/768/illuminated-acanthus-divider-end.png": {
+      "bytes": 316142,
+      "sha256": "4d5d31375f45bc99f0c116b5861ebd841b6fd6a5c4b90db75e117564d86e8918"
+    },
+    "png/768/illuminated-acanthus-divider-start.png": {
+      "bytes": 333020,
+      "sha256": "1397d5a1856f80d202bbad0b91db0d5c08c8c3106f5bd4f8cd2ec5ce3beb14ba"
+    },
+    "png/768/illuminated-acanthus-horizontal-flourish.png": {
+      "bytes": 156385,
+      "sha256": "408e9ec56a641d3679d111151b1cda0607633fc59a186680016fcb1f9c5763fe"
+    },
+    "png/768/illuminated-acanthus-leaf-sprig.png": {
+      "bytes": 243656,
+      "sha256": "3f13a6d8fc38d546322921f856d1f554ada9ea7f69711367990c6c245f1e5cf9"
+    },
+    "png/768/illuminated-acanthus-rosette.png": {
+      "bytes": 913161,
+      "sha256": "f8ec5030f4650358f17587ede0c2f3ddd42c7d95c47fc554fae1e8d14896bc7b"
+    },
+    "png/768/illuminated-acanthus-section-fleuron.png": {
+      "bytes": 302970,
+      "sha256": "ae5fc66a4ec303e90703564182890fe567db233e1e77f0624e97d1c6a0c7d71c"
+    },
+    "png/768/illuminated-acanthus-vertical-sprig.png": {
+      "bytes": 272188,
+      "sha256": "aec721809aeaaa6f0520fb569eebd8c039f02f67fc1d50d570ed295e4fe2c6a4"
     },
     "png/768/long-brown-foliate-vine-with-blue-green-and-gold-leaves.png": {
       "bytes": 107359,
@@ -2283,6 +2915,38 @@
     "png/fixed-twisted-column-arcade-with-scalloped-arch.png": {
       "bytes": 11551065,
       "sha256": "b4b2f42823ef0313b5777440f993c7435ab9eda3200520bc6ac7f52f9efd455b"
+    },
+    "png/illuminated-acanthus-divider-center.png": {
+      "bytes": 1793989,
+      "sha256": "a5f5a4ba6b910201f34a0afc72119b835930e8c7fb5b3d99c94ce5aa37989cd1"
+    },
+    "png/illuminated-acanthus-divider-end.png": {
+      "bytes": 998706,
+      "sha256": "776a1d738c064a7db2c31d3515ab6e3b5cbed66e11d9767c218d4f2f44af662e"
+    },
+    "png/illuminated-acanthus-divider-start.png": {
+      "bytes": 1100839,
+      "sha256": "bef0bbaf6f65c0e25dc2abddfea2f9b111d89a24795f0bfe828c901765ee2114"
+    },
+    "png/illuminated-acanthus-horizontal-flourish.png": {
+      "bytes": 1091206,
+      "sha256": "f7019e1a1ed7cf8313d1b7ef55fc7533b37a550ece085012b3eea092cced8856"
+    },
+    "png/illuminated-acanthus-leaf-sprig.png": {
+      "bytes": 979963,
+      "sha256": "6e587d6e3e6514b11f73f32c18897692c40450823df8a958e884e7fe9bf66384"
+    },
+    "png/illuminated-acanthus-rosette.png": {
+      "bytes": 2367677,
+      "sha256": "cea82ed5ae9d8239298cbe58bffe5cc3c3e8c7cc624a011ea1c68bd755f215b1"
+    },
+    "png/illuminated-acanthus-section-fleuron.png": {
+      "bytes": 1890593,
+      "sha256": "2a9f80616297068128a249466c4326dcae494ecb3727de50c5d107b185fb41a5"
+    },
+    "png/illuminated-acanthus-vertical-sprig.png": {
+      "bytes": 1797685,
+      "sha256": "6838af2ec9ccc1ae606694bbcd270d925ee7bd4d1cbbb29c6b8332229afdfd11"
     },
     "png/long-brown-foliate-vine-with-blue-green-and-gold-leaves.png": {
       "bytes": 2207221,
@@ -2408,6 +3072,38 @@
       "bytes": 11072,
       "sha256": "242d2833decda428584d8c1c93a496f4a2536ccd2c3a17f5235de57666ecbe7a"
     },
+    "webp/128/illuminated-acanthus-divider-center.webp": {
+      "bytes": 13316,
+      "sha256": "339908058629d6fd31bed1e03f071d4f494598ef85d3c7f9bf199bfe32b95471"
+    },
+    "webp/128/illuminated-acanthus-divider-end.webp": {
+      "bytes": 12142,
+      "sha256": "c1d79ef79051c85c80dd2d6da199291e4d93bd5d06b4cddf22db64100a2171a9"
+    },
+    "webp/128/illuminated-acanthus-divider-start.webp": {
+      "bytes": 12282,
+      "sha256": "ac39094150a5f80cb80ec00d9ed92bd795a2abd8374e9be45bcf1984dee820ee"
+    },
+    "webp/128/illuminated-acanthus-horizontal-flourish.webp": {
+      "bytes": 6282,
+      "sha256": "5d456bb7b1ba9b4b84426ace65d22a71d2eed893e01092d86e008eef90459ff2"
+    },
+    "webp/128/illuminated-acanthus-leaf-sprig.webp": {
+      "bytes": 9426,
+      "sha256": "7e87813c42de0696ce25469804817c6cb94cc88b67f5f1230718d6529864ad55"
+    },
+    "webp/128/illuminated-acanthus-rosette.webp": {
+      "bytes": 26360,
+      "sha256": "0cb255ba2ab0db34468c03b68e69e91cfd34f6dbfeb3c68e877fe66f95010858"
+    },
+    "webp/128/illuminated-acanthus-section-fleuron.webp": {
+      "bytes": 11186,
+      "sha256": "b679b472fffc1aa9e8f8d93b59d57bc1d8dd95e1f0488847b7a2b2c52285add3"
+    },
+    "webp/128/illuminated-acanthus-vertical-sprig.webp": {
+      "bytes": 10230,
+      "sha256": "9c01459ff044ffb899d4682642210863cda7199c338102abb80528e72628600a"
+    },
     "webp/128/long-brown-foliate-vine-with-blue-green-and-gold-leaves.webp": {
       "bytes": 4722,
       "sha256": "46e13dc6fc84c1a2cca25016cbfcc24b6451274b2c3e628c08511177423eaf42"
@@ -2532,6 +3228,38 @@
       "bytes": 30650,
       "sha256": "800524d28f6a785de65c6bbdc1653001cf04df64e0f97e361a9078f5b08472ee"
     },
+    "webp/256/illuminated-acanthus-divider-center.webp": {
+      "bytes": 37804,
+      "sha256": "2a385f5e6230586ca54c31c2a0b97f21c5f51234fb82652008a6d116fb3e28d3"
+    },
+    "webp/256/illuminated-acanthus-divider-end.webp": {
+      "bytes": 34410,
+      "sha256": "5c958f3d96580eef0ff9647ff7a74937363df117ccc7b71da510a7875db15410"
+    },
+    "webp/256/illuminated-acanthus-divider-start.webp": {
+      "bytes": 34894,
+      "sha256": "70c98c6ec505842512014b8ad2112848dd3b05b07dd6cfaa54f05ef20c98ca40"
+    },
+    "webp/256/illuminated-acanthus-horizontal-flourish.webp": {
+      "bytes": 19504,
+      "sha256": "28da54c698e1fdfbdebf80b0e9f64fb7a19f4c867121db530adbcc9be7c52bae"
+    },
+    "webp/256/illuminated-acanthus-leaf-sprig.webp": {
+      "bytes": 30018,
+      "sha256": "b927d569190714100a501c9b0e2bdd9e9a84a64a857e00fe23cbcf88f8479a72"
+    },
+    "webp/256/illuminated-acanthus-rosette.webp": {
+      "bytes": 85784,
+      "sha256": "8a4f93a92fee4bc69540ceadd4f560f6ef1cf1bc055ce071ab1afb036bdf4b12"
+    },
+    "webp/256/illuminated-acanthus-section-fleuron.webp": {
+      "bytes": 33280,
+      "sha256": "09450c68073ab58223f186772fbe2c10b925d88c608f4872c37cd44473121977"
+    },
+    "webp/256/illuminated-acanthus-vertical-sprig.webp": {
+      "bytes": 32734,
+      "sha256": "8e815d44f905fe10fb58f591f165f3f82ea2d5fcae7792d8531f1e08a1639c61"
+    },
     "webp/256/long-brown-foliate-vine-with-blue-green-and-gold-leaves.webp": {
       "bytes": 13876,
       "sha256": "a30587b86aa327b526fa38995033862e127e207fbcff57262a471a0096a9eabe"
@@ -2644,6 +3372,38 @@
       "bytes": 97266,
       "sha256": "a9f46b0b585c41c2f1bcdaa9a5b29918a96edb9e74d906b62543dc263b6aad6c"
     },
+    "webp/512/illuminated-acanthus-divider-center.webp": {
+      "bytes": 125030,
+      "sha256": "8b00e803c74a3843619f7e2e807fc39da220e694cacc79e03dc5fc657cbdb3c6"
+    },
+    "webp/512/illuminated-acanthus-divider-end.webp": {
+      "bytes": 113742,
+      "sha256": "262c7e197205bb598b250e8e9f4a281ce8c3fb0a0829105228adf9e8364ed463"
+    },
+    "webp/512/illuminated-acanthus-divider-start.webp": {
+      "bytes": 117606,
+      "sha256": "429c1622f8145c399f92c5445cceac4596ac85a101c0c6cf15bc27bbeac9f955"
+    },
+    "webp/512/illuminated-acanthus-horizontal-flourish.webp": {
+      "bytes": 59008,
+      "sha256": "41211207a3607e35bd5e2a018e1a24a0ae57c83945b87102b8ac0152682d79f4"
+    },
+    "webp/512/illuminated-acanthus-leaf-sprig.webp": {
+      "bytes": 86668,
+      "sha256": "bdf4058a2be48954d38751900ba88811dc9acd411a8132644d74fcf436c6e2a2"
+    },
+    "webp/512/illuminated-acanthus-rosette.webp": {
+      "bytes": 303944,
+      "sha256": "fa967d1eb858b4f1026456fe3269689dade8a834cbaba6d1c90dbbceb4c5b6f9"
+    },
+    "webp/512/illuminated-acanthus-section-fleuron.webp": {
+      "bytes": 106224,
+      "sha256": "dfa2b68ae2c65689869e0151a44fc3bbf7975980edd573b472dd7a7ea7486270"
+    },
+    "webp/512/illuminated-acanthus-vertical-sprig.webp": {
+      "bytes": 95756,
+      "sha256": "34df36653801e171bb1766507f5f7b435934d26100b3a5591332ec105b16fc3b"
+    },
     "webp/512/long-brown-foliate-vine-with-blue-green-and-gold-leaves.webp": {
       "bytes": 42228,
       "sha256": "299acb057c9818cf1f371a406e1f9902d769ce2aa1a6ca6ff17977e3083b72a0"
@@ -2723,6 +3483,38 @@
     "webp/768/fixed-twisted-column-arcade-with-scalloped-arch.webp": {
       "bytes": 201186,
       "sha256": "70c56ffccedd1241af6fd3124670f797d2125305302ea7094a9bd7d2eccc533c"
+    },
+    "webp/768/illuminated-acanthus-divider-center.webp": {
+      "bytes": 266610,
+      "sha256": "2fcbddb88efd18382d36c0a8bf27ba8567740b29f414e20e99439e1b9a2be527"
+    },
+    "webp/768/illuminated-acanthus-divider-end.webp": {
+      "bytes": 234462,
+      "sha256": "8ca304eed3f345ece756cdb6b32c97562eb577efa8b3fc5041a8ff9c7c573adb"
+    },
+    "webp/768/illuminated-acanthus-divider-start.webp": {
+      "bytes": 245876,
+      "sha256": "93cee849d25335fa5c9331ef867455bd3d84d71557f27f46f166ab5c43256927"
+    },
+    "webp/768/illuminated-acanthus-horizontal-flourish.webp": {
+      "bytes": 116450,
+      "sha256": "4f31e8aee7037052d69c47936b25b426d65605bc30586a7a8e03355088a681d8"
+    },
+    "webp/768/illuminated-acanthus-leaf-sprig.webp": {
+      "bytes": 183270,
+      "sha256": "b9aa66da84fed7901922a58ed2d6b4ddac97312b313c5b9ef82e34ffba495ba5"
+    },
+    "webp/768/illuminated-acanthus-rosette.webp": {
+      "bytes": 660756,
+      "sha256": "7868f717b175dea1d2adb96d46cec5e078ec439195250ca6977fb6b46e911d55"
+    },
+    "webp/768/illuminated-acanthus-section-fleuron.webp": {
+      "bytes": 224578,
+      "sha256": "5f92e1669042be5b1f05e635289a55989250829ec5a3fec2618a5ab48f78ed4d"
+    },
+    "webp/768/illuminated-acanthus-vertical-sprig.webp": {
+      "bytes": 200926,
+      "sha256": "04e138862a078354aa61076b915ba50b3fd7f379a8b1e4c66c31dc539bd78918"
     },
     "webp/768/long-brown-foliate-vine-with-blue-green-and-gold-leaves.webp": {
       "bytes": 82228,
@@ -2831,6 +3623,38 @@
     "webp/fixed-twisted-column-arcade-with-scalloped-arch.webp": {
       "bytes": 9162086,
       "sha256": "6fc9138e84b367d9ffe20cc18f018fcc3cb2a5d4bf02b81c6bb9a6b249fb566e"
+    },
+    "webp/illuminated-acanthus-divider-center.webp": {
+      "bytes": 1261660,
+      "sha256": "d9e17bb6ac0c8de93daed7b9b5cd7031b1dd1326b6e3e371d4f944b888cecb91"
+    },
+    "webp/illuminated-acanthus-divider-end.webp": {
+      "bytes": 713068,
+      "sha256": "9901bff7a2e882ec8e5d599b2fa87c3e97b470c691952b50c28108466b0d6eed"
+    },
+    "webp/illuminated-acanthus-divider-start.webp": {
+      "bytes": 770162,
+      "sha256": "b11c0bd69e7829f2a03ac0b61211e35fe3b68ada1949ef3eeb3e8c8f1de5b385"
+    },
+    "webp/illuminated-acanthus-horizontal-flourish.webp": {
+      "bytes": 751840,
+      "sha256": "d600f691ea0970418b48c61153343c7685fb60c65f710dc49c3c749ac9bdffb9"
+    },
+    "webp/illuminated-acanthus-leaf-sprig.webp": {
+      "bytes": 685504,
+      "sha256": "fd7e783055b00068de00016186d6ac5e3d0f6156ef5dccc6defdfb093bd1441c"
+    },
+    "webp/illuminated-acanthus-rosette.webp": {
+      "bytes": 1635406,
+      "sha256": "74e517e9fdb4fa4773c8433d4205a568c8bcb3d2c1380474783c67792765600c"
+    },
+    "webp/illuminated-acanthus-section-fleuron.webp": {
+      "bytes": 1285844,
+      "sha256": "f4383bf489d94f193c2393b53ee83b957ead860b1d62ce908035467515241cf4"
+    },
+    "webp/illuminated-acanthus-vertical-sprig.webp": {
+      "bytes": 1191270,
+      "sha256": "0291d9ef17a66ac1dcf05f5c4e2811bc674c98a8ed88776e123cfe73e5bd0fff"
     },
     "webp/long-brown-foliate-vine-with-blue-green-and-gold-leaves.webp": {
       "bytes": 1765350,
@@ -3001,6 +3825,46 @@
     "sources/tiles/upper-hooded-head-on-bent-gold-rod.png": {
       "bytes": 593017,
       "sha256": "1ffff030e0d1f1d1e15ccd1cfba9870b40e805cf4142ebca5858926a18b78b3f"
+    },
+    "sources/tiles/illuminated-acanthus-divider-center.png": {
+      "bytes": 1793989,
+      "sha256": "a5f5a4ba6b910201f34a0afc72119b835930e8c7fb5b3d99c94ce5aa37989cd1"
+    },
+    "sources/tiles/illuminated-acanthus-divider-end.png": {
+      "bytes": 998706,
+      "sha256": "776a1d738c064a7db2c31d3515ab6e3b5cbed66e11d9767c218d4f2f44af662e"
+    },
+    "sources/tiles/illuminated-acanthus-divider-start.png": {
+      "bytes": 1100839,
+      "sha256": "bef0bbaf6f65c0e25dc2abddfea2f9b111d89a24795f0bfe828c901765ee2114"
+    },
+    "sources/tiles/illuminated-acanthus-leaf-sprig.png": {
+      "bytes": 979963,
+      "sha256": "6e587d6e3e6514b11f73f32c18897692c40450823df8a958e884e7fe9bf66384"
+    },
+    "sources/tiles/illuminated-acanthus-section-fleuron.png": {
+      "bytes": 1890593,
+      "sha256": "2a9f80616297068128a249466c4326dcae494ecb3727de50c5d107b185fb41a5"
+    },
+    "sources/tiles/illuminated-acanthus-divider-end-reference.png": {
+      "bytes": 1118549,
+      "sha256": "ee5cef6ae22ea1a30edf940e3218ead55d090f967244da3620358e5a483653eb"
+    },
+    "sources/tiles/illuminated-acanthus-divider-start-reference.png": {
+      "bytes": 1249144,
+      "sha256": "aa3ab9473c2d56673f82db7c57e3a1544467ab82bee61f32a42a5a98684b996d"
+    },
+    "sources/tiles/illuminated-acanthus-horizontal-flourish.png": {
+      "bytes": 1091206,
+      "sha256": "f7019e1a1ed7cf8313d1b7ef55fc7533b37a550ece085012b3eea092cced8856"
+    },
+    "sources/tiles/illuminated-acanthus-rosette.png": {
+      "bytes": 2367677,
+      "sha256": "cea82ed5ae9d8239298cbe58bffe5cc3c3e8c7cc624a011ea1c68bd755f215b1"
+    },
+    "sources/tiles/illuminated-acanthus-vertical-sprig.png": {
+      "bytes": 1797685,
+      "sha256": "6838af2ec9ccc1ae606694bbcd270d925ee7bd4d1cbbb29c6b8332229afdfd11"
     }
   }
 }

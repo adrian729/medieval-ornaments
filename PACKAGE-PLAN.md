@@ -656,3 +656,39 @@ ZIP checks pass; QA.md records the evidence. The final runtime is 815,877 bytes
 packed / 5,038,440 bytes unpacked, without artwork or resource dependencies.
 All completed work is merged and released. The 35 unfinished source extractions
 remain paused; their resume instructions are in the historical asset handoff.
+
+## Illuminated-acanthus extension, release preparation (2026-10-15)
+
+Eight reference-guided modern AI decorations extend the existing seven-piece set:
+divider center/start/end, section fleuron, leaf sprig, rosette, horizontal flourish
+and vertical sprig. `acanthus-additions.json`
+retains the exact built-in image_gen prompts, reference identities/hashes and
+unaltered generated PNG hashes. Their native masters and 80 public PNG/WebP
+exports belong to decorations-010, whose next local manifest is 0.1.2 with
+`gitCommit: null`. Original 702 artwork designs and all prior resource inventory
+entries remain unchanged; the seven originals receive only shared set metadata.
+The local catalog has 710 designs: 89 borders, 289 decorations, 332 illustrations.
+
+The vanilla example includes responsive light/dark compositions. All eight are
+whole images; connecting rules are CSS, with no inferred tile, frame or SVG.
+`scripts/build_acanthus_preview.py` produces the requested labeled PNG of all
+15 pieces and assembled dividers under ignored `tmp/acanthus-preview/`.
+User review identified a visible join at the initial painted rule stubs. Both
+terminals now stop at their gold caps; flexible CSS rules extend underneath
+those caps. The earlier generated terminals remain as assigned `-reference.png`
+native inputs, with original hashes and exact edit prompts retained in the audit.
+
+The user accepted the revised set and requested production validation and commits
+in the owning repositories. The main checkout owns the audits, approved manifest,
+metadata, components and examples; decorations-010 owns all 80 exports, eight
+masters and two earlier terminal references. Its publication workflow must pin
+the main commit approving these bytes. The offline browser includes the new
+composition JavaScript/CSS, and both site/browser builds retain the audit.
+
+Publication is separate from these local commits. Publish/CDN-verify
+decorations-010 0.1.2 before locking its exact clean source commit. Then choose
+the next runtime version, run release packaging and registry-consumer checks,
+and publish both rebuilt offline ZIPs and Pages. Local packed-consumer tests
+use an explicitly supplied validation archive while the release prepack and
+Pages gates continue to reject the null resource lock. Runtime 0.11.0 remains
+the published baseline; the 35-source extraction pause remains in effect.

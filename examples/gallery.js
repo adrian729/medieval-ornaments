@@ -13,6 +13,7 @@ const TYPES = ['border', 'decoration', 'illustration'];
 const derivations = {
   'ai-assisted-extraction': 'AI-assisted extraction', 'source-crop-and-color-trace': 'Source crop and colour trace',
   'supplied-authored-raster': 'Authored raster artwork', 'vector-reconstruction': 'Vector reconstruction',
+  'reference-guided-ai-generation': 'AI artwork matched to existing set',
   'independent-ai-interpretation': 'Independent AI interpretation', 'preserved-source-scene': 'Preserved source scene'
 };
 

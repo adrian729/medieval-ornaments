@@ -147,3 +147,14 @@ consumers; all 29 pinned resource revisions are available. Main release commit
 v0.11.0 release includes both offline browser ZIPs and checksums. The tested
 runtime is 815,877 bytes packed / 5,038,440 bytes unpacked. Continue to preserve
 the original 161 artwork designs and the pause on 35 unfinished source images.
+
+Illuminated-acanthus extension (2026-10-15): the user approved eight matching
+whole decorations, including stub-free gold-capped divider terminals, and
+requested production validation and commits. `acanthus-additions.json` owns
+exact generation/edit prompts, retained references, hashes and reviews. The
+710-design catalog groups these with seven unchanged originals. New masters,
+80 PNG/WebP exports and two earlier terminal references belong to
+decorations-010 0.1.2; main owns metadata, audits and composition examples.
+The resource lock remains null until publication/CDN verification. These local
+commits do not replace published runtime 0.11.0. Read the current QA.md and
+PACKAGE-PLAN.md handoff before releasing; the paused historical work stays paused.

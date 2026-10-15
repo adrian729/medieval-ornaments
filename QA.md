@@ -1,5 +1,100 @@
 # Artwork and frame verification
 
+## Acanthus production preparation (2026-10-15)
+
+The user accepted the expanded 15-piece set and requested production validation
+and commits. The eight additions remain whole PNG/WebP decorations. Resource
+verification passes for decorations-010 0.1.2: 354 public files, 41 retained
+native inputs and 153,688,037 tracked bytes before the workflow-pin update.
+Its delivery-order archive is 103,374,871 bytes packed / 104,540,023 bytes
+unpacked, safely below the 140 MB unpacked limit. No native input enters npm.
+
+The local runtime validation archive contains 4,339 files, measures 823,046 bytes
+packed / 5,086,957 bytes unpacked, and contains no artwork or automatic resource
+dependencies. Its version is still the existing 0.11.0 authoring version; it is
+an unpublished test artifact, not a replacement for that immutable release.
+The selective production audit passes: individual imports include one design
+and one resource URL constant; scoped discovery includes only its own family.
+
+The built vanilla page decodes all eleven acanthus images at 1200px, 375px with
+1.25 device pixel ratio, and 33px terminal width, without overflow, missing
+requests or runtime errors. Screenshots are under ignored
+`tmp/acanthus-preview/production-*.png`. The offline builder now copies the
+composition JavaScript/CSS; both browser and site builders include its audit.
+The lightweight site is 49,155,639 bytes, below its 50 MB limit.
+
+`check-site-release.mjs` correctly reports `ready=false` while decorations-010
+remains unlocked. Publication/CDN verification, the exact clean source lock,
+the next runtime version and final published-consumer/Pages checks remain
+release steps. Local test artifacts must not be uploaded as version 0.11.0.
+
+## Acanthus connection correction and three more pieces (2026-10-15)
+
+User review identified a visible seam where each initial painted terminal stub
+overlapped the CSS rule. Built-in image_gen edits remove both stubs, preserving
+complete gold caps. The rules now start beneath those gold caps, with independent
+left/right insets. The preceding generated inputs are retained byte-for-byte as
+the terminals' assigned `-reference.png` inputs; the audit keeps original hashes
+and exact edit prompts. These are edited AI outputs, not pixel-exact erasures.
+
+Three further whole decorations add a rosette, a low horizontal flourish and a
+vertical sprig. The local set now has 15 images (eight additions and seven
+unchanged originals), and the collection has 710 designs. The vanilla example
+includes all eight additions. The 47 unit tests, public types and production
+example build pass. Browser inspection covers all eleven displayed images on
+light/dark surfaces, 375px width at 1.25 device pixel ratio, and 33px terminals,
+without overflow or runtime errors. The revised connections were inspected
+separately; the gallery finds and decodes all 15 set members.
+
+`catalog.py --check` validates 710 designs, 255 SVGs and 8,401 public files.
+`artwork_check.py` retains the original reference pixels, 416 exact source-frame
+joins, 163 integer-sliced atlases and 89 exact rotated tiles. The final
+`git diff --check` also passes.
+
+Resource SHA-256 verification covers 9,386 public/native files. Every published
+702-design artwork file and original decorations-010 inventory entry remains
+unchanged. The local 0.1.2 resource now contains 104,223,109 public bytes, below
+the 140 MB cap. Publication remains pending.
+
+The updated labeled preview is
+`tmp/acanthus-preview/illuminated-acanthus-labeled-preview-v2.png` (2400 × 3160).
+All review artifacts and earlier terminal comparisons remain under ignored
+`tmp/acanthus-preview/`; `acanthus-additions.json` records the preview checksum,
+generation/edit prompts, individual reviews and capacity measurements.
+
+## Illuminated-acanthus additions: local review (2026-10-15)
+
+Five new transparent whole decorations extend the seven existing originals;
+`acanthus-additions.json` records exact built-in image_gen prompts, reference
+hashes, retained native PNGs, local reviews and preview generation. The supplied
+authored backup audit is unchanged. All 702 previous artwork designs retain
+their bytes. Only shared set metadata was added to the seven original pieces.
+
+- 47 unit tests, public TypeScript checks and the production example build pass.
+- `catalog.py --check`: 707 designs, 255 SVG files, 8,371 public asset files;
+  PNG/WebP alpha/visible RGB and all directly downscaled variants validate.
+- `artwork_check.py`: untouched reference pixels, 416 exact source-frame joins,
+  163 integer-sliced atlases and 89 exact rotated tiles pass.
+- Full SHA-256 verification covers 9,351 public/native resource files. Every
+  pre-existing decorations-010 manifest entry matches its preceding revision.
+- The native vanilla example decodes all eight composition images on desktop
+  and at 375px / 1.25 device pixel ratio, without overflow or runtime errors.
+  Light/dark and 33px terminal compositions were visually inspected. The gallery
+  finds all 12 set members and decodes all thumbnails.
+- `git diff --check` passes. No repeating units or frame atlases were added.
+
+The labeled comparison PNG is
+`tmp/acanthus-preview/illuminated-acanthus-labeled-preview.png` (2400 × 2620),
+reproducible with `scripts/build_acanthus_preview.py`. It contains all twelve
+individual pieces and the assembled divider on light/dark surfaces. Browser
+screenshots and verification logs are alongside it, outside tracked artwork.
+
+Decorations-010 0.1.2 remains a local unlocked draft: 92,092,239 public bytes,
+below the 140 MB package cap. Runtime 0.11.0 remains published at its previous
+702-design snapshot. New resource publication, pinned runtime release and packed
+registry/CDN/downloaded-ZIP checks belong to the later authorized release.
+The 35 unfinished historical-source extractions remain paused.
+
 ## Trusted Publisher activation releases (2026-10-09)
 
 Account passkey enrollment is verified (`auth-and-writes`). All three new npm

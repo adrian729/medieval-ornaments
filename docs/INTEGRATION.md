@@ -241,6 +241,23 @@ the browser's own distance threshold rather than the library's 200px margin.
 Whole images include source width/height attributes to reserve their proportions
 before decoding. Continue using `size` to control display height. `decoding`
 and `fetchPriority` are browser hints, not guarantees or CSS background options.
+
+The pending illuminated-acanthus extension composes three whole images:
+`illuminated-acanthus-divider-start`, `illuminated-acanthus-divider-center` and
+`illuminated-acanthus-divider-end`. Use the image API for each component;
+[acanthus-dividers.css](../examples/acanthus-dividers.css) supplies two flexible
+red-and-gold connecting rules, and [acanthus-dividers.js](../examples/acanthus-dividers.js)
+uses individual imports with resolution selection at the displayed size.
+The terminal images have separately painted left/right phases and retain their
+upright orientation. Their gold caps have no painted line stubs: the CSS rules
+start underneath the solid gold shapes, avoiding a color or thickness seam.
+`illuminated-acanthus-section-fleuron`, `illuminated-acanthus-leaf-sprig`,
+`illuminated-acanthus-rosette` and `illuminated-acanthus-horizontal-flourish`
+work as independent section ornaments; `illuminated-acanthus-vertical-sprig`
+adds a slender margin accent. Find all 15 related images by searching
+`Illuminated acanthus`. Until publication,
+use the local browser and vanilla example with `?assets=local`.
+
 For prominent whole-image artwork, use `loading="eager"` and optionally
 `fetchPriority="high"`; avoid lazily loading the page's main image.
 

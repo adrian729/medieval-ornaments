@@ -17188,7 +17188,13 @@
     "repeat_axis": "none",
     "components": {},
     "asset_type": "decoration",
-    "has_transparency": true
+    "has_transparency": true,
+    "sets": [
+      {
+        "id": "illuminated-acanthus",
+        "name": "Illuminated acanthus"
+      }
+    ]
   },
   {
     "name": "illuminated-acanthus-corner-bottom-right",
@@ -17273,7 +17279,13 @@
     "repeat_axis": "none",
     "components": {},
     "asset_type": "decoration",
-    "has_transparency": true
+    "has_transparency": true,
+    "sets": [
+      {
+        "id": "illuminated-acanthus",
+        "name": "Illuminated acanthus"
+      }
+    ]
   },
   {
     "name": "illuminated-acanthus-corner-top-right",
@@ -17358,7 +17370,13 @@
     "repeat_axis": "none",
     "components": {},
     "asset_type": "decoration",
-    "has_transparency": true
+    "has_transparency": true,
+    "sets": [
+      {
+        "id": "illuminated-acanthus",
+        "name": "Illuminated acanthus"
+      }
+    ]
   },
   {
     "name": "illuminated-acanthus-corner",
@@ -17443,7 +17461,13 @@
     "repeat_axis": "none",
     "components": {},
     "asset_type": "decoration",
-    "has_transparency": true
+    "has_transparency": true,
+    "sets": [
+      {
+        "id": "illuminated-acanthus",
+        "name": "Illuminated acanthus"
+      }
+    ]
   },
   {
     "name": "illuminated-acanthus-frame",
@@ -17530,7 +17554,13 @@
     "repeat_axis": "none",
     "components": {},
     "asset_type": "decoration",
-    "has_transparency": true
+    "has_transparency": true,
+    "sets": [
+      {
+        "id": "illuminated-acanthus",
+        "name": "Illuminated acanthus"
+      }
+    ]
   },
   {
     "name": "illuminated-acanthus-headpiece",
@@ -17614,7 +17644,13 @@
     "repeat_axis": "none",
     "components": {},
     "asset_type": "decoration",
-    "has_transparency": true
+    "has_transparency": true,
+    "sets": [
+      {
+        "id": "illuminated-acanthus",
+        "name": "Illuminated acanthus"
+      }
+    ]
   },
   {
     "name": "illuminated-acanthus-tailpiece",
@@ -17697,7 +17733,13 @@
     "repeat_axis": "none",
     "components": {},
     "asset_type": "decoration",
-    "has_transparency": true
+    "has_transparency": true,
+    "sets": [
+      {
+        "id": "illuminated-acanthus",
+        "name": "Illuminated acanthus"
+      }
+    ]
   },
   {
     "name": "ivy-corner-bottom-left",
@@ -78762,5 +78804,752 @@
       "height": 7954
     },
     "master_longest_dimension_cap": 2125
+  },
+  {
+    "name": "illuminated-acanthus-divider-center",
+    "author": "adrian729",
+    "description": "A balanced horizontal fleuron with blue acanthus curls, an upright red leaf, gold lower lobes and a downward green ivy leaf gathered around a small gold knot.",
+    "categories": [
+      "botanical",
+      "scrollwork"
+    ],
+    "subjects": [
+      "divider",
+      "centerpiece",
+      "acanthus",
+      "ivy",
+      "leaf",
+      "scroll"
+    ],
+    "facing": "unclear",
+    "colors": [
+      "blue",
+      "red",
+      "gold",
+      "green",
+      "brown",
+      "white"
+    ],
+    "composition": "single-ornament",
+    "sets": [
+      {
+        "id": "illuminated-acanthus",
+        "name": "Illuminated acanthus"
+      }
+    ],
+    "usage_notes": [
+      "Modern AI artwork created for this set using its original PNGs as visual references. Exact prompts, references and retained master hashes are recorded in acanthus-additions.json.",
+      "Place at the center of a flexible divider with illuminated-acanthus-divider-start and illuminated-acanthus-divider-end; examples/acanthus-dividers.css supplies the connecting red-and-gold rules.",
+      "Complete image; no verified repeating unit or frame atlas. Preserve its proportions."
+    ],
+    "png": "png/illuminated-acanthus-divider-center.png",
+    "webp": "webp/illuminated-acanthus-divider-center.webp",
+    "reference": "acanthus-additions",
+    "derivation": "reference-guided-ai-generation",
+    "width": 1774,
+    "height": 887,
+    "png_bytes": 1793989,
+    "webp_bytes": 1261660,
+    "variants": [
+      {
+        "max_dimension": 128,
+        "rendered_max_dimension": 128,
+        "png": "png/128/illuminated-acanthus-divider-center.png",
+        "webp": "webp/128/illuminated-acanthus-divider-center.webp",
+        "width": 128,
+        "height": 64,
+        "png_bytes": 14878,
+        "webp_bytes": 13316
+      },
+      {
+        "max_dimension": 256,
+        "rendered_max_dimension": 256,
+        "png": "png/256/illuminated-acanthus-divider-center.png",
+        "webp": "webp/256/illuminated-acanthus-divider-center.webp",
+        "width": 256,
+        "height": 128,
+        "png_bytes": 49581,
+        "webp_bytes": 37804
+      },
+      {
+        "max_dimension": 512,
+        "rendered_max_dimension": 512,
+        "png": "png/512/illuminated-acanthus-divider-center.png",
+        "webp": "webp/512/illuminated-acanthus-divider-center.webp",
+        "width": 512,
+        "height": 256,
+        "png_bytes": 170761,
+        "webp_bytes": 125030
+      },
+      {
+        "max_dimension": 768,
+        "rendered_max_dimension": 768,
+        "png": "png/768/illuminated-acanthus-divider-center.png",
+        "webp": "webp/768/illuminated-acanthus-divider-center.webp",
+        "width": 768,
+        "height": 384,
+        "png_bytes": 364173,
+        "webp_bytes": 266610
+      }
+    ],
+    "kind": "standalone",
+    "repeat_axis": "none",
+    "components": {},
+    "asset_type": "decoration",
+    "has_transparency": true
+  },
+  {
+    "name": "illuminated-acanthus-divider-start",
+    "author": "adrian729",
+    "description": "A left divider terminal with an upright blue acanthus leaf, a downward red curl, gold lobes and tendrils, a green ivy leaf and a rounded gold cap at the right edge.",
+    "categories": [
+      "botanical",
+      "scrollwork"
+    ],
+    "subjects": [
+      "divider",
+      "terminal",
+      "acanthus",
+      "ivy",
+      "leaf",
+      "scroll"
+    ],
+    "facing": "unclear",
+    "colors": [
+      "blue",
+      "red",
+      "gold",
+      "green",
+      "brown",
+      "white"
+    ],
+    "composition": "single-ornament",
+    "sets": [
+      {
+        "id": "illuminated-acanthus",
+        "name": "Illuminated acanthus"
+      }
+    ],
+    "usage_notes": [
+      "Modern AI artwork created for this set using its original PNGs as visual references. Exact prompts, references and retained master hashes are recorded in acanthus-additions.json.",
+      "Left/start component, ending at the gold cap with no painted rule stub. Extend a flexible rule beneath the cap using examples/acanthus-dividers.css; preserve its upright orientation.",
+      "Complete image; no verified repeating unit or frame atlas. Preserve its proportions."
+    ],
+    "png": "png/illuminated-acanthus-divider-start.png",
+    "webp": "webp/illuminated-acanthus-divider-start.webp",
+    "reference": "acanthus-additions",
+    "derivation": "reference-guided-ai-generation",
+    "width": 1448,
+    "height": 1086,
+    "png_bytes": 1100839,
+    "webp_bytes": 770162,
+    "variants": [
+      {
+        "max_dimension": 128,
+        "rendered_max_dimension": 128,
+        "png": "png/128/illuminated-acanthus-divider-start.png",
+        "webp": "webp/128/illuminated-acanthus-divider-start.webp",
+        "width": 128,
+        "height": 96,
+        "png_bytes": 14097,
+        "webp_bytes": 12282
+      },
+      {
+        "max_dimension": 256,
+        "rendered_max_dimension": 256,
+        "png": "png/256/illuminated-acanthus-divider-start.png",
+        "webp": "webp/256/illuminated-acanthus-divider-start.webp",
+        "width": 256,
+        "height": 192,
+        "png_bytes": 46376,
+        "webp_bytes": 34894
+      },
+      {
+        "max_dimension": 512,
+        "rendered_max_dimension": 512,
+        "png": "png/512/illuminated-acanthus-divider-start.png",
+        "webp": "webp/512/illuminated-acanthus-divider-start.webp",
+        "width": 512,
+        "height": 384,
+        "png_bytes": 157653,
+        "webp_bytes": 117606
+      },
+      {
+        "max_dimension": 768,
+        "rendered_max_dimension": 768,
+        "png": "png/768/illuminated-acanthus-divider-start.png",
+        "webp": "webp/768/illuminated-acanthus-divider-start.webp",
+        "width": 768,
+        "height": 576,
+        "png_bytes": 333020,
+        "webp_bytes": 245876
+      }
+    ],
+    "kind": "standalone",
+    "repeat_axis": "none",
+    "components": {},
+    "asset_type": "decoration",
+    "has_transparency": true
+  },
+  {
+    "name": "illuminated-acanthus-divider-end",
+    "author": "adrian729",
+    "description": "A right divider terminal with an upright blue acanthus leaf, a downward red curl, gold lobes and tendrils, a green ivy leaf and a rounded gold cap at the left edge.",
+    "categories": [
+      "botanical",
+      "scrollwork"
+    ],
+    "subjects": [
+      "divider",
+      "terminal",
+      "acanthus",
+      "ivy",
+      "leaf",
+      "scroll"
+    ],
+    "facing": "unclear",
+    "colors": [
+      "blue",
+      "red",
+      "gold",
+      "green",
+      "brown",
+      "white"
+    ],
+    "composition": "single-ornament",
+    "sets": [
+      {
+        "id": "illuminated-acanthus",
+        "name": "Illuminated acanthus"
+      }
+    ],
+    "usage_notes": [
+      "Modern AI artwork created for this set using its original PNGs as visual references. Exact prompts, references and retained master hashes are recorded in acanthus-additions.json.",
+      "Right/end component, ending at the gold cap with no painted rule stub. Extend a flexible rule beneath the cap using examples/acanthus-dividers.css. This is a separately generated companion, not a pixel-exact reflection of the start.",
+      "Complete image; no verified repeating unit or frame atlas. Preserve its proportions."
+    ],
+    "png": "png/illuminated-acanthus-divider-end.png",
+    "webp": "webp/illuminated-acanthus-divider-end.webp",
+    "reference": "acanthus-additions",
+    "derivation": "reference-guided-ai-generation",
+    "width": 1448,
+    "height": 1086,
+    "png_bytes": 998706,
+    "webp_bytes": 713068,
+    "variants": [
+      {
+        "max_dimension": 128,
+        "rendered_max_dimension": 128,
+        "png": "png/128/illuminated-acanthus-divider-end.png",
+        "webp": "webp/128/illuminated-acanthus-divider-end.webp",
+        "width": 128,
+        "height": 96,
+        "png_bytes": 13801,
+        "webp_bytes": 12142
+      },
+      {
+        "max_dimension": 256,
+        "rendered_max_dimension": 256,
+        "png": "png/256/illuminated-acanthus-divider-end.png",
+        "webp": "webp/256/illuminated-acanthus-divider-end.webp",
+        "width": 256,
+        "height": 192,
+        "png_bytes": 45432,
+        "webp_bytes": 34410
+      },
+      {
+        "max_dimension": 512,
+        "rendered_max_dimension": 512,
+        "png": "png/512/illuminated-acanthus-divider-end.png",
+        "webp": "webp/512/illuminated-acanthus-divider-end.webp",
+        "width": 512,
+        "height": 384,
+        "png_bytes": 152239,
+        "webp_bytes": 113742
+      },
+      {
+        "max_dimension": 768,
+        "rendered_max_dimension": 768,
+        "png": "png/768/illuminated-acanthus-divider-end.png",
+        "webp": "webp/768/illuminated-acanthus-divider-end.webp",
+        "width": 768,
+        "height": 576,
+        "png_bytes": 316142,
+        "webp_bytes": 234462
+      }
+    ],
+    "kind": "standalone",
+    "repeat_axis": "none",
+    "components": {},
+    "asset_type": "decoration",
+    "has_transparency": true
+  },
+  {
+    "name": "illuminated-acanthus-section-fleuron",
+    "author": "adrian729",
+    "description": "A broad balanced section ornament with a central red and blue foliate crest, gold curls, three green ivy leaves and short gold side stems ending in red-tipped finials.",
+    "categories": [
+      "botanical",
+      "scrollwork"
+    ],
+    "subjects": [
+      "section-break",
+      "fleuron",
+      "acanthus",
+      "ivy",
+      "leaf",
+      "scroll"
+    ],
+    "facing": "unclear",
+    "colors": [
+      "blue",
+      "red",
+      "gold",
+      "green",
+      "brown",
+      "white"
+    ],
+    "composition": "single-ornament",
+    "sets": [
+      {
+        "id": "illuminated-acanthus",
+        "name": "Illuminated acanthus"
+      }
+    ],
+    "usage_notes": [
+      "Modern AI artwork created for this set using its original PNGs as visual references. Exact prompts, references and retained master hashes are recorded in acanthus-additions.json.",
+      "Use as a complete standalone section break. Its capped side stems are part of the finite ornament; they are not repeatable rules.",
+      "Complete image; no verified repeating unit or frame atlas. Preserve its proportions."
+    ],
+    "png": "png/illuminated-acanthus-section-fleuron.png",
+    "webp": "webp/illuminated-acanthus-section-fleuron.webp",
+    "reference": "acanthus-additions",
+    "derivation": "reference-guided-ai-generation",
+    "width": 1536,
+    "height": 1024,
+    "png_bytes": 1890593,
+    "webp_bytes": 1285844,
+    "variants": [
+      {
+        "max_dimension": 128,
+        "rendered_max_dimension": 128,
+        "png": "png/128/illuminated-acanthus-section-fleuron.png",
+        "webp": "webp/128/illuminated-acanthus-section-fleuron.webp",
+        "width": 128,
+        "height": 85,
+        "png_bytes": 13443,
+        "webp_bytes": 11186
+      },
+      {
+        "max_dimension": 256,
+        "rendered_max_dimension": 256,
+        "png": "png/256/illuminated-acanthus-section-fleuron.png",
+        "webp": "webp/256/illuminated-acanthus-section-fleuron.webp",
+        "width": 256,
+        "height": 171,
+        "png_bytes": 42893,
+        "webp_bytes": 33280
+      },
+      {
+        "max_dimension": 512,
+        "rendered_max_dimension": 512,
+        "png": "png/512/illuminated-acanthus-section-fleuron.png",
+        "webp": "webp/512/illuminated-acanthus-section-fleuron.webp",
+        "width": 512,
+        "height": 341,
+        "png_bytes": 143114,
+        "webp_bytes": 106224
+      },
+      {
+        "max_dimension": 768,
+        "rendered_max_dimension": 768,
+        "png": "png/768/illuminated-acanthus-section-fleuron.png",
+        "webp": "webp/768/illuminated-acanthus-section-fleuron.webp",
+        "width": 768,
+        "height": 512,
+        "png_bytes": 302970,
+        "webp_bytes": 224578
+      }
+    ],
+    "kind": "standalone",
+    "repeat_axis": "none",
+    "components": {},
+    "asset_type": "decoration",
+    "has_transparency": true
+  },
+  {
+    "name": "illuminated-acanthus-leaf-sprig",
+    "author": "adrian729",
+    "description": "An airy diagonal golden stem carrying a curling blue acanthus leaf, a small red bud, two pointed green ivy leaves and a fine gold spiral.",
+    "categories": [
+      "botanical",
+      "scrollwork"
+    ],
+    "subjects": [
+      "section-break",
+      "sprig",
+      "acanthus",
+      "ivy",
+      "leaf",
+      "bud",
+      "scroll"
+    ],
+    "facing": "unclear",
+    "colors": [
+      "blue",
+      "red",
+      "gold",
+      "green",
+      "brown",
+      "white"
+    ],
+    "composition": "single-ornament",
+    "sets": [
+      {
+        "id": "illuminated-acanthus",
+        "name": "Illuminated acanthus"
+      }
+    ],
+    "usage_notes": [
+      "Modern AI artwork created for this set using its original PNGs as visual references. Exact prompts, references and retained master hashes are recorded in acanthus-additions.json.",
+      "A lighter asymmetric accent for section breaks or headings. Use as a whole image and retain its native orientation and proportions.",
+      "Complete image; no verified repeating unit or frame atlas. Preserve its proportions."
+    ],
+    "png": "png/illuminated-acanthus-leaf-sprig.png",
+    "webp": "webp/illuminated-acanthus-leaf-sprig.webp",
+    "reference": "acanthus-additions",
+    "derivation": "reference-guided-ai-generation",
+    "width": 1586,
+    "height": 992,
+    "png_bytes": 979963,
+    "webp_bytes": 685504,
+    "variants": [
+      {
+        "max_dimension": 128,
+        "rendered_max_dimension": 128,
+        "png": "png/128/illuminated-acanthus-leaf-sprig.png",
+        "webp": "webp/128/illuminated-acanthus-leaf-sprig.webp",
+        "width": 128,
+        "height": 80,
+        "png_bytes": 11345,
+        "webp_bytes": 9426
+      },
+      {
+        "max_dimension": 256,
+        "rendered_max_dimension": 256,
+        "png": "png/256/illuminated-acanthus-leaf-sprig.png",
+        "webp": "webp/256/illuminated-acanthus-leaf-sprig.webp",
+        "width": 256,
+        "height": 160,
+        "png_bytes": 35079,
+        "webp_bytes": 30018
+      },
+      {
+        "max_dimension": 512,
+        "rendered_max_dimension": 512,
+        "png": "png/512/illuminated-acanthus-leaf-sprig.png",
+        "webp": "webp/512/illuminated-acanthus-leaf-sprig.webp",
+        "width": 512,
+        "height": 320,
+        "png_bytes": 115429,
+        "webp_bytes": 86668
+      },
+      {
+        "max_dimension": 768,
+        "rendered_max_dimension": 768,
+        "png": "png/768/illuminated-acanthus-leaf-sprig.png",
+        "webp": "webp/768/illuminated-acanthus-leaf-sprig.webp",
+        "width": 768,
+        "height": 480,
+        "png_bytes": 243656,
+        "webp_bytes": 183270
+      }
+    ],
+    "kind": "standalone",
+    "repeat_axis": "none",
+    "components": {},
+    "asset_type": "decoration",
+    "has_transparency": true
+  },
+  {
+    "name": "illuminated-acanthus-rosette",
+    "author": "adrian729",
+    "description": "A compact turning rosette of alternating red and blue acanthus leaves around a small gold disk, with gold curls and four green ivy leaves.",
+    "categories": [
+      "botanical",
+      "scrollwork"
+    ],
+    "subjects": [
+      "rosette",
+      "section-break",
+      "acanthus",
+      "ivy",
+      "leaf",
+      "scroll"
+    ],
+    "facing": "unclear",
+    "colors": [
+      "blue",
+      "red",
+      "gold",
+      "green",
+      "brown",
+      "white"
+    ],
+    "composition": "single-ornament",
+    "sets": [
+      {
+        "id": "illuminated-acanthus",
+        "name": "Illuminated acanthus"
+      }
+    ],
+    "usage_notes": [
+      "Modern AI artwork created for this set using its original PNGs as visual references. Exact prompts, references and retained master hashes are recorded in acanthus-additions.json.",
+      "A compact standalone section marker or chapter-end ornament. Use proportionally as one image; its fourfold composition is not a repeat tile.",
+      "Complete image; no verified repeating unit or frame atlas. Preserve its proportions."
+    ],
+    "png": "png/illuminated-acanthus-rosette.png",
+    "webp": "webp/illuminated-acanthus-rosette.webp",
+    "reference": "acanthus-additions",
+    "derivation": "reference-guided-ai-generation",
+    "width": 1254,
+    "height": 1254,
+    "png_bytes": 2367677,
+    "webp_bytes": 1635406,
+    "variants": [
+      {
+        "max_dimension": 128,
+        "rendered_max_dimension": 128,
+        "png": "png/128/illuminated-acanthus-rosette.png",
+        "webp": "webp/128/illuminated-acanthus-rosette.webp",
+        "width": 128,
+        "height": 128,
+        "png_bytes": 33170,
+        "webp_bytes": 26360
+      },
+      {
+        "max_dimension": 256,
+        "rendered_max_dimension": 256,
+        "png": "png/256/illuminated-acanthus-rosette.png",
+        "webp": "webp/256/illuminated-acanthus-rosette.webp",
+        "width": 256,
+        "height": 256,
+        "png_bytes": 114681,
+        "webp_bytes": 85784
+      },
+      {
+        "max_dimension": 512,
+        "rendered_max_dimension": 512,
+        "png": "png/512/illuminated-acanthus-rosette.png",
+        "webp": "webp/512/illuminated-acanthus-rosette.webp",
+        "width": 512,
+        "height": 512,
+        "png_bytes": 416161,
+        "webp_bytes": 303944
+      },
+      {
+        "max_dimension": 768,
+        "rendered_max_dimension": 768,
+        "png": "png/768/illuminated-acanthus-rosette.png",
+        "webp": "webp/768/illuminated-acanthus-rosette.webp",
+        "width": 768,
+        "height": 768,
+        "png_bytes": 913161,
+        "webp_bytes": 660756
+      }
+    ],
+    "kind": "standalone",
+    "repeat_axis": "none",
+    "components": {},
+    "asset_type": "decoration",
+    "has_transparency": true
+  },
+  {
+    "name": "illuminated-acanthus-horizontal-flourish",
+    "author": "adrian729",
+    "description": "A low horizontal golden stem with red, blue and gold acanthus curls, three green ivy leaves, a small red bud and curling tendrils at both ends.",
+    "categories": [
+      "botanical",
+      "scrollwork"
+    ],
+    "subjects": [
+      "section-break",
+      "flourish",
+      "acanthus",
+      "ivy",
+      "leaf",
+      "bud",
+      "scroll"
+    ],
+    "facing": "unclear",
+    "colors": [
+      "blue",
+      "red",
+      "gold",
+      "green",
+      "brown",
+      "white"
+    ],
+    "composition": "single-ornament",
+    "sets": [
+      {
+        "id": "illuminated-acanthus",
+        "name": "Illuminated acanthus"
+      }
+    ],
+    "usage_notes": [
+      "Modern AI artwork created for this set using its original PNGs as visual references. Exact prompts, references and retained master hashes are recorded in acanthus-additions.json.",
+      "An airy whole-image flourish for a section break or beneath a heading. Both tips are complete; no connecting rule or seamless repeat is inferred.",
+      "Complete image; no verified repeating unit or frame atlas. Preserve its proportions."
+    ],
+    "png": "png/illuminated-acanthus-horizontal-flourish.png",
+    "webp": "webp/illuminated-acanthus-horizontal-flourish.webp",
+    "reference": "acanthus-additions",
+    "derivation": "reference-guided-ai-generation",
+    "width": 2172,
+    "height": 724,
+    "png_bytes": 1091206,
+    "webp_bytes": 751840,
+    "variants": [
+      {
+        "max_dimension": 128,
+        "rendered_max_dimension": 128,
+        "png": "png/128/illuminated-acanthus-horizontal-flourish.png",
+        "webp": "webp/128/illuminated-acanthus-horizontal-flourish.webp",
+        "width": 128,
+        "height": 43,
+        "png_bytes": 7880,
+        "webp_bytes": 6282
+      },
+      {
+        "max_dimension": 256,
+        "rendered_max_dimension": 256,
+        "png": "png/256/illuminated-acanthus-horizontal-flourish.png",
+        "webp": "webp/256/illuminated-acanthus-horizontal-flourish.webp",
+        "width": 256,
+        "height": 85,
+        "png_bytes": 23818,
+        "webp_bytes": 19504
+      },
+      {
+        "max_dimension": 512,
+        "rendered_max_dimension": 512,
+        "png": "png/512/illuminated-acanthus-horizontal-flourish.png",
+        "webp": "webp/512/illuminated-acanthus-horizontal-flourish.webp",
+        "width": 512,
+        "height": 171,
+        "png_bytes": 78122,
+        "webp_bytes": 59008
+      },
+      {
+        "max_dimension": 768,
+        "rendered_max_dimension": 768,
+        "png": "png/768/illuminated-acanthus-horizontal-flourish.png",
+        "webp": "webp/768/illuminated-acanthus-horizontal-flourish.webp",
+        "width": 768,
+        "height": 256,
+        "png_bytes": 156385,
+        "webp_bytes": 116450
+      }
+    ],
+    "kind": "standalone",
+    "repeat_axis": "none",
+    "components": {},
+    "asset_type": "decoration",
+    "has_transparency": true
+  },
+  {
+    "name": "illuminated-acanthus-vertical-sprig",
+    "author": "adrian729",
+    "description": "A slender upright golden stem with a red acanthus curl below, a blue acanthus curl above, green ivy leaves, a red bud and a curled gold root.",
+    "categories": [
+      "botanical",
+      "scrollwork"
+    ],
+    "subjects": [
+      "margin",
+      "sprig",
+      "acanthus",
+      "ivy",
+      "leaf",
+      "bud",
+      "scroll"
+    ],
+    "facing": "unclear",
+    "colors": [
+      "blue",
+      "red",
+      "gold",
+      "green",
+      "brown",
+      "white"
+    ],
+    "composition": "single-ornament",
+    "sets": [
+      {
+        "id": "illuminated-acanthus",
+        "name": "Illuminated acanthus"
+      }
+    ],
+    "usage_notes": [
+      "Modern AI artwork created for this set using its original PNGs as visual references. Exact prompts, references and retained master hashes are recorded in acanthus-additions.json.",
+      "A standalone vertical margin ornament. Keep its upright orientation and natural proportions; it has no corner, straight rule or repeat unit.",
+      "Complete image; no verified repeating unit or frame atlas. Preserve its proportions."
+    ],
+    "png": "png/illuminated-acanthus-vertical-sprig.png",
+    "webp": "webp/illuminated-acanthus-vertical-sprig.webp",
+    "reference": "acanthus-additions",
+    "derivation": "reference-guided-ai-generation",
+    "width": 1024,
+    "height": 1536,
+    "png_bytes": 1797685,
+    "webp_bytes": 1191270,
+    "variants": [
+      {
+        "max_dimension": 128,
+        "rendered_max_dimension": 128,
+        "png": "png/128/illuminated-acanthus-vertical-sprig.png",
+        "webp": "webp/128/illuminated-acanthus-vertical-sprig.webp",
+        "width": 85,
+        "height": 128,
+        "png_bytes": 12420,
+        "webp_bytes": 10230
+      },
+      {
+        "max_dimension": 256,
+        "rendered_max_dimension": 256,
+        "png": "png/256/illuminated-acanthus-vertical-sprig.png",
+        "webp": "webp/256/illuminated-acanthus-vertical-sprig.webp",
+        "width": 171,
+        "height": 256,
+        "png_bytes": 39280,
+        "webp_bytes": 32734
+      },
+      {
+        "max_dimension": 512,
+        "rendered_max_dimension": 512,
+        "png": "png/512/illuminated-acanthus-vertical-sprig.png",
+        "webp": "webp/512/illuminated-acanthus-vertical-sprig.webp",
+        "width": 341,
+        "height": 512,
+        "png_bytes": 129232,
+        "webp_bytes": 95756
+      },
+      {
+        "max_dimension": 768,
+        "rendered_max_dimension": 768,
+        "png": "png/768/illuminated-acanthus-vertical-sprig.png",
+        "webp": "webp/768/illuminated-acanthus-vertical-sprig.webp",
+        "width": 512,
+        "height": 768,
+        "png_bytes": 272188,
+        "webp_bytes": 200926
+      }
+    ],
+    "kind": "standalone",
+    "repeat_axis": "none",
+    "components": {},
+    "asset_type": "decoration",
+    "has_transparency": true
   }
 ]

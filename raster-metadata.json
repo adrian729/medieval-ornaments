@@ -851,7 +851,13 @@
     "png": "png/illuminated-acanthus-corner-bottom-left.png",
     "webp": "webp/illuminated-acanthus-corner-bottom-left.webp",
     "reference": "authored-additions",
-    "derivation": "supplied-authored-raster"
+    "derivation": "supplied-authored-raster",
+    "sets": [
+      {
+        "id": "illuminated-acanthus",
+        "name": "Illuminated acanthus"
+      }
+    ]
   },
   {
     "name": "illuminated-acanthus-corner-bottom-right",
@@ -884,7 +890,13 @@
     "png": "png/illuminated-acanthus-corner-bottom-right.png",
     "webp": "webp/illuminated-acanthus-corner-bottom-right.webp",
     "reference": "authored-additions",
-    "derivation": "supplied-authored-raster"
+    "derivation": "supplied-authored-raster",
+    "sets": [
+      {
+        "id": "illuminated-acanthus",
+        "name": "Illuminated acanthus"
+      }
+    ]
   },
   {
     "name": "illuminated-acanthus-corner-top-right",
@@ -917,7 +929,13 @@
     "png": "png/illuminated-acanthus-corner-top-right.png",
     "webp": "webp/illuminated-acanthus-corner-top-right.webp",
     "reference": "authored-additions",
-    "derivation": "supplied-authored-raster"
+    "derivation": "supplied-authored-raster",
+    "sets": [
+      {
+        "id": "illuminated-acanthus",
+        "name": "Illuminated acanthus"
+      }
+    ]
   },
   {
     "name": "illuminated-acanthus-corner",
@@ -950,7 +968,13 @@
     "png": "png/illuminated-acanthus-corner.png",
     "webp": "webp/illuminated-acanthus-corner.webp",
     "reference": "authored-additions",
-    "derivation": "supplied-authored-raster"
+    "derivation": "supplied-authored-raster",
+    "sets": [
+      {
+        "id": "illuminated-acanthus",
+        "name": "Illuminated acanthus"
+      }
+    ]
   },
   {
     "name": "illuminated-acanthus-frame",
@@ -985,7 +1009,13 @@
     "png": "png/illuminated-acanthus-frame.png",
     "webp": "webp/illuminated-acanthus-frame.webp",
     "reference": "authored-additions",
-    "derivation": "supplied-authored-raster"
+    "derivation": "supplied-authored-raster",
+    "sets": [
+      {
+        "id": "illuminated-acanthus",
+        "name": "Illuminated acanthus"
+      }
+    ]
   },
   {
     "name": "illuminated-acanthus-headpiece",
@@ -1017,7 +1047,13 @@
     "png": "png/illuminated-acanthus-headpiece.png",
     "webp": "webp/illuminated-acanthus-headpiece.webp",
     "reference": "authored-additions",
-    "derivation": "supplied-authored-raster"
+    "derivation": "supplied-authored-raster",
+    "sets": [
+      {
+        "id": "illuminated-acanthus",
+        "name": "Illuminated acanthus"
+      }
+    ]
   },
   {
     "name": "illuminated-acanthus-tailpiece",
@@ -1048,7 +1084,13 @@
     "png": "png/illuminated-acanthus-tailpiece.png",
     "webp": "webp/illuminated-acanthus-tailpiece.webp",
     "reference": "authored-additions",
-    "derivation": "supplied-authored-raster"
+    "derivation": "supplied-authored-raster",
+    "sets": [
+      {
+        "id": "illuminated-acanthus",
+        "name": "Illuminated acanthus"
+      }
+    ]
   },
   {
     "name": "ivy-corner-bottom-left",
@@ -24086,5 +24128,336 @@
       "height": 7954
     },
     "master_longest_dimension_cap": 2125
+  },
+  {
+    "name": "illuminated-acanthus-divider-center",
+    "author": "adrian729",
+    "description": "A balanced horizontal fleuron with blue acanthus curls, an upright red leaf, gold lower lobes and a downward green ivy leaf gathered around a small gold knot.",
+    "categories": [
+      "botanical",
+      "scrollwork"
+    ],
+    "subjects": [
+      "divider",
+      "centerpiece",
+      "acanthus",
+      "ivy",
+      "leaf",
+      "scroll"
+    ],
+    "facing": "unclear",
+    "colors": [
+      "blue",
+      "red",
+      "gold",
+      "green",
+      "brown",
+      "white"
+    ],
+    "composition": "single-ornament",
+    "sets": [
+      {
+        "id": "illuminated-acanthus",
+        "name": "Illuminated acanthus"
+      }
+    ],
+    "usage_notes": [
+      "Modern AI artwork created for this set using its original PNGs as visual references. Exact prompts, references and retained master hashes are recorded in acanthus-additions.json.",
+      "Place at the center of a flexible divider with illuminated-acanthus-divider-start and illuminated-acanthus-divider-end; examples/acanthus-dividers.css supplies the connecting red-and-gold rules."
+    ],
+    "png": "png/illuminated-acanthus-divider-center.png",
+    "webp": "webp/illuminated-acanthus-divider-center.webp",
+    "reference": "acanthus-additions",
+    "derivation": "reference-guided-ai-generation"
+  },
+  {
+    "name": "illuminated-acanthus-divider-start",
+    "author": "adrian729",
+    "description": "A left divider terminal with an upright blue acanthus leaf, a downward red curl, gold lobes and tendrils, a green ivy leaf and a rounded gold cap at the right edge.",
+    "categories": [
+      "botanical",
+      "scrollwork"
+    ],
+    "subjects": [
+      "divider",
+      "terminal",
+      "acanthus",
+      "ivy",
+      "leaf",
+      "scroll"
+    ],
+    "facing": "unclear",
+    "colors": [
+      "blue",
+      "red",
+      "gold",
+      "green",
+      "brown",
+      "white"
+    ],
+    "composition": "single-ornament",
+    "sets": [
+      {
+        "id": "illuminated-acanthus",
+        "name": "Illuminated acanthus"
+      }
+    ],
+    "usage_notes": [
+      "Modern AI artwork created for this set using its original PNGs as visual references. Exact prompts, references and retained master hashes are recorded in acanthus-additions.json.",
+      "Left/start component, ending at the gold cap with no painted rule stub. Extend a flexible rule beneath the cap using examples/acanthus-dividers.css; preserve its upright orientation."
+    ],
+    "png": "png/illuminated-acanthus-divider-start.png",
+    "webp": "webp/illuminated-acanthus-divider-start.webp",
+    "reference": "acanthus-additions",
+    "derivation": "reference-guided-ai-generation"
+  },
+  {
+    "name": "illuminated-acanthus-divider-end",
+    "author": "adrian729",
+    "description": "A right divider terminal with an upright blue acanthus leaf, a downward red curl, gold lobes and tendrils, a green ivy leaf and a rounded gold cap at the left edge.",
+    "categories": [
+      "botanical",
+      "scrollwork"
+    ],
+    "subjects": [
+      "divider",
+      "terminal",
+      "acanthus",
+      "ivy",
+      "leaf",
+      "scroll"
+    ],
+    "facing": "unclear",
+    "colors": [
+      "blue",
+      "red",
+      "gold",
+      "green",
+      "brown",
+      "white"
+    ],
+    "composition": "single-ornament",
+    "sets": [
+      {
+        "id": "illuminated-acanthus",
+        "name": "Illuminated acanthus"
+      }
+    ],
+    "usage_notes": [
+      "Modern AI artwork created for this set using its original PNGs as visual references. Exact prompts, references and retained master hashes are recorded in acanthus-additions.json.",
+      "Right/end component, ending at the gold cap with no painted rule stub. Extend a flexible rule beneath the cap using examples/acanthus-dividers.css. This is a separately generated companion, not a pixel-exact reflection of the start."
+    ],
+    "png": "png/illuminated-acanthus-divider-end.png",
+    "webp": "webp/illuminated-acanthus-divider-end.webp",
+    "reference": "acanthus-additions",
+    "derivation": "reference-guided-ai-generation"
+  },
+  {
+    "name": "illuminated-acanthus-section-fleuron",
+    "author": "adrian729",
+    "description": "A broad balanced section ornament with a central red and blue foliate crest, gold curls, three green ivy leaves and short gold side stems ending in red-tipped finials.",
+    "categories": [
+      "botanical",
+      "scrollwork"
+    ],
+    "subjects": [
+      "section-break",
+      "fleuron",
+      "acanthus",
+      "ivy",
+      "leaf",
+      "scroll"
+    ],
+    "facing": "unclear",
+    "colors": [
+      "blue",
+      "red",
+      "gold",
+      "green",
+      "brown",
+      "white"
+    ],
+    "composition": "single-ornament",
+    "sets": [
+      {
+        "id": "illuminated-acanthus",
+        "name": "Illuminated acanthus"
+      }
+    ],
+    "usage_notes": [
+      "Modern AI artwork created for this set using its original PNGs as visual references. Exact prompts, references and retained master hashes are recorded in acanthus-additions.json.",
+      "Use as a complete standalone section break. Its capped side stems are part of the finite ornament; they are not repeatable rules."
+    ],
+    "png": "png/illuminated-acanthus-section-fleuron.png",
+    "webp": "webp/illuminated-acanthus-section-fleuron.webp",
+    "reference": "acanthus-additions",
+    "derivation": "reference-guided-ai-generation"
+  },
+  {
+    "name": "illuminated-acanthus-leaf-sprig",
+    "author": "adrian729",
+    "description": "An airy diagonal golden stem carrying a curling blue acanthus leaf, a small red bud, two pointed green ivy leaves and a fine gold spiral.",
+    "categories": [
+      "botanical",
+      "scrollwork"
+    ],
+    "subjects": [
+      "section-break",
+      "sprig",
+      "acanthus",
+      "ivy",
+      "leaf",
+      "bud",
+      "scroll"
+    ],
+    "facing": "unclear",
+    "colors": [
+      "blue",
+      "red",
+      "gold",
+      "green",
+      "brown",
+      "white"
+    ],
+    "composition": "single-ornament",
+    "sets": [
+      {
+        "id": "illuminated-acanthus",
+        "name": "Illuminated acanthus"
+      }
+    ],
+    "usage_notes": [
+      "Modern AI artwork created for this set using its original PNGs as visual references. Exact prompts, references and retained master hashes are recorded in acanthus-additions.json.",
+      "A lighter asymmetric accent for section breaks or headings. Use as a whole image and retain its native orientation and proportions."
+    ],
+    "png": "png/illuminated-acanthus-leaf-sprig.png",
+    "webp": "webp/illuminated-acanthus-leaf-sprig.webp",
+    "reference": "acanthus-additions",
+    "derivation": "reference-guided-ai-generation"
+  },
+  {
+    "name": "illuminated-acanthus-rosette",
+    "author": "adrian729",
+    "description": "A compact turning rosette of alternating red and blue acanthus leaves around a small gold disk, with gold curls and four green ivy leaves.",
+    "categories": [
+      "botanical",
+      "scrollwork"
+    ],
+    "subjects": [
+      "rosette",
+      "section-break",
+      "acanthus",
+      "ivy",
+      "leaf",
+      "scroll"
+    ],
+    "facing": "unclear",
+    "colors": [
+      "blue",
+      "red",
+      "gold",
+      "green",
+      "brown",
+      "white"
+    ],
+    "composition": "single-ornament",
+    "sets": [
+      {
+        "id": "illuminated-acanthus",
+        "name": "Illuminated acanthus"
+      }
+    ],
+    "usage_notes": [
+      "Modern AI artwork created for this set using its original PNGs as visual references. Exact prompts, references and retained master hashes are recorded in acanthus-additions.json.",
+      "A compact standalone section marker or chapter-end ornament. Use proportionally as one image; its fourfold composition is not a repeat tile."
+    ],
+    "png": "png/illuminated-acanthus-rosette.png",
+    "webp": "webp/illuminated-acanthus-rosette.webp",
+    "reference": "acanthus-additions",
+    "derivation": "reference-guided-ai-generation"
+  },
+  {
+    "name": "illuminated-acanthus-horizontal-flourish",
+    "author": "adrian729",
+    "description": "A low horizontal golden stem with red, blue and gold acanthus curls, three green ivy leaves, a small red bud and curling tendrils at both ends.",
+    "categories": [
+      "botanical",
+      "scrollwork"
+    ],
+    "subjects": [
+      "section-break",
+      "flourish",
+      "acanthus",
+      "ivy",
+      "leaf",
+      "bud",
+      "scroll"
+    ],
+    "facing": "unclear",
+    "colors": [
+      "blue",
+      "red",
+      "gold",
+      "green",
+      "brown",
+      "white"
+    ],
+    "composition": "single-ornament",
+    "sets": [
+      {
+        "id": "illuminated-acanthus",
+        "name": "Illuminated acanthus"
+      }
+    ],
+    "usage_notes": [
+      "Modern AI artwork created for this set using its original PNGs as visual references. Exact prompts, references and retained master hashes are recorded in acanthus-additions.json.",
+      "An airy whole-image flourish for a section break or beneath a heading. Both tips are complete; no connecting rule or seamless repeat is inferred."
+    ],
+    "png": "png/illuminated-acanthus-horizontal-flourish.png",
+    "webp": "webp/illuminated-acanthus-horizontal-flourish.webp",
+    "reference": "acanthus-additions",
+    "derivation": "reference-guided-ai-generation"
+  },
+  {
+    "name": "illuminated-acanthus-vertical-sprig",
+    "author": "adrian729",
+    "description": "A slender upright golden stem with a red acanthus curl below, a blue acanthus curl above, green ivy leaves, a red bud and a curled gold root.",
+    "categories": [
+      "botanical",
+      "scrollwork"
+    ],
+    "subjects": [
+      "margin",
+      "sprig",
+      "acanthus",
+      "ivy",
+      "leaf",
+      "bud",
+      "scroll"
+    ],
+    "facing": "unclear",
+    "colors": [
+      "blue",
+      "red",
+      "gold",
+      "green",
+      "brown",
+      "white"
+    ],
+    "composition": "single-ornament",
+    "sets": [
+      {
+        "id": "illuminated-acanthus",
+        "name": "Illuminated acanthus"
+      }
+    ],
+    "usage_notes": [
+      "Modern AI artwork created for this set using its original PNGs as visual references. Exact prompts, references and retained master hashes are recorded in acanthus-additions.json.",
+      "A standalone vertical margin ornament. Keep its upright orientation and natural proportions; it has no corner, straight rule or repeat unit."
+    ],
+    "png": "png/illuminated-acanthus-vertical-sprig.png",
+    "webp": "webp/illuminated-acanthus-vertical-sprig.webp",
+    "reference": "acanthus-additions",
+    "derivation": "reference-guided-ai-generation"
   }
 ]
