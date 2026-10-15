@@ -158,7 +158,9 @@ try {
       assert.deepEqual(packed.files.filter(file=>/^(svg|png|webp)\//.test(file.path)).map(file=>file.path).sort(),assetPaths(items.filter(item=>registry().assignments[item.name]===id)));
       installResource=path.join(folder,packed.filename);
     }
-    await exec('npm',['install','--save-dev',installResource,'--ignore-scripts','--no-audit','--no-fund',registryResources?'--prefer-offline':'--offline'],{cwd:app});
+    // A release check must refresh metadata for newly published exact versions;
+    // an older cached packument can omit them even when npm serves the tarball.
+    await exec('npm',['install','--save-dev',installResource,'--ignore-scripts','--no-audit','--no-fund',registryResources?'--prefer-online':'--offline'],{cwd:app});
     const installedResource=path.join(app,'node_modules',source.package);
     assert.deepEqual(await readFile(path.join(installedResource,'resource-manifest.json')),await readFile(path.join(root,'resources/manifests',id+'.json')));
   }

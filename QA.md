@@ -1,5 +1,38 @@
 # Artwork and frame verification
 
+## 0.12.0 release validation (2026-10-15)
+
+Decorations-010 0.1.2 and illustrations-013 0.1.2 are published through npm Trusted
+Publishing with provenance. Workflows 38788836176 and 38789024511 completed full
+CDN verification of all 354 and 337 public files respectively. Their GitHub
+v0.1.2 releases are public; `resource-lock.json` pins the exact clean commits
+`6b72cc4634f8d3ff417059b676064988e0652494` and
+`42660cb87d0439c752791bc3c5411be0a6271817`.
+
+Normal locked release prepack passes at 832,323 bytes packed / 5,168,745 bytes
+unpacked (4,435 package files), within the unchanged 1 MB / 6 MB runtime budget.
+The final 49 unit tests and TypeScript checks pass. The site is 49,344,998 bytes,
+below its 50 MB limit, and the selective production audit passes.
+
+The first consumer run encountered stale npm metadata (`ETARGET`) immediately
+after publication. Registry-mode resource installation now uses `--prefer-online`
+to refresh exact-version metadata; local offline checks retain `--offline`.
+The rerun passes all 726 designs, 267 native axis/design cases, 32 density/length
+cases, vanilla native/bundled, React 18/19 development/production, Strict Mode,
+SSR/hydration, refs/state, public types and self-hosting. All 29 resources came
+from npm; all 8,493 copied artwork files match their pinned manifests. This used
+a private candidate tarball while CDN warming was in progress; normal release
+prepack subsequently passed with both exact source locks. The report is retained
+as `tmp/bestiary-integration/candidate-integration.json`.
+
+Both offline ZIPs verify all 8,493 public artwork files against approved hashes.
+Their 4,422 library files match the final locked build byte-for-byte. The WebP/SVG
+browser is 1,229,125,637 bytes and the PNG companion is 1,424,153,980 bytes, below
+2 GiB each. Their SHA-256 values are in `browser-downloads.json`. The extracted
+native-module gallery passes all sixteen bestiary figures at desktop/mobile
+widths, 1.25 pixel ratio and light/dark backgrounds (64 cases), using only local
+artwork with no overflow, upscaling, missing requests or browser errors.
+
 ## Bestiary production preparation (2026-10-15)
 
 All sixteen approved figures were imported into illustrations-013 as individual
@@ -25,8 +58,20 @@ native inputs. Its measured public artwork is 89,755,274 bytes; the delivery-ord
 package is 82,287,505 bytes packed / 90,039,379 bytes unpacked before its workflow
 pin update, within the 140 MB package limit. The built site is 49,335,449 bytes,
 below its 50 MB guard, and excludes the retained generation sheets. The runtime
-0.12.0 candidate contains 726 designs. Publication and final consumer validation
-follow resource publication/CDN checks and exact clean source locks.
+0.12.0 candidate contains 726 designs. `catalog.py --check` validates all 8,493
+public files and 255 genuine SVGs. `artwork_check.py` preserves original reference
+pixels, 416 exact source-frame joins, 163 integer-sliced atlases and 89 pixel-exact
+rotated tiles. Resource verification checks every approved public/native byte,
+and the selective production audit retains single-design/single-resource imports
+and correctly scoped discovery. `git diff --check` passes.
+
+Main approval/tooling commit is `ca809f7340adf16261a4b9328136b20f97172685`.
+Illustrations-013 source `42660cb` contains all sixteen figures and pins both
+workflow references to that immutable main approval. Fresh complete remote
+history audits measure 84,521,141 bytes for illustrations-013 and 105,801,552 bytes
+for decorations-010, safely within the 950 MB history cap. All three repositories
+are pushed. Publication and final consumer validation follow resource/CDN checks
+and exact clean source locks.
 
 ## Acanthus production preparation (2026-10-15)
 

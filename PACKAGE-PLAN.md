@@ -724,3 +724,16 @@ update, including the previously committed acanthus additions. Publish and
 CDN-verify decorations-010 0.1.2 and illustrations-013 0.1.2, lock both exact clean
 source commits, then publish runtime 0.12.0, Pages and both offline browser ZIPs.
 The 35 unfinished historical source extractions remain paused.
+
+Resource publication complete, 2026-10-15: decorations-010 and illustrations-013
+0.1.2 are published with npm provenance and complete CDN verification (workflows
+38788836176 and 38789024511). GitHub v0.1.2 releases are public. Exact clean source
+locks are `6b72cc4634f8d3ff417059b676064988e0652494` and
+`42660cb87d0439c752791bc3c5411be0a6271817`. Full remote-history audits pass.
+Normal release prepack succeeds for runtime 0.12.0 at 832,323 bytes packed /
+5,168,745 bytes unpacked, with no artwork or automatic resource dependencies.
+All 49 unit tests, TypeScript, selective imports and full artwork checks pass.
+The two offline ZIPs contain all 8,493 public files with verified hashes; their
+runtime code matches the final locked build. Packed consumers pass against all 29 published numbered resources: all 726
+designs, vanilla, React 18/19, SSR/hydration, types and self-hosting. Runtime
+publication and published-consumer/Pages/downloaded-release verification remain.
