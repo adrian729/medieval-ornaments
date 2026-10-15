@@ -737,3 +737,15 @@ The two offline ZIPs contain all 8,493 public files with verified hashes; their
 runtime code matches the final locked build. Packed consumers pass against all 29 published numbered resources: all 726
 designs, vanilla, React 18/19, SSR/hydration, types and self-hosting. Runtime
 publication and published-consumer/Pages/downloaded-release verification remain.
+
+
+Release complete, 2026-10-15: runtime 0.12.0 is published with provenance from
+`388f97cced2e4aabf1de4982759e3d3aedf6e360` (workflow 38790395541).
+Pages build/deployment 38791392641 passed. GitHub v0.12.0 includes both offline
+ZIPs and checksums, whose uploaded digests match the locally validated archives.
+Fresh real-npm consumers, all sixteen live bestiary previews, live vanilla/React
+examples, pinned CDN modules/assets and both downloaded/extracted ZIPs pass.
+The actual runtime is 832,323 bytes packed / 5,168,745 bytes unpacked, with no
+artwork or automatic resource dependencies. QA.md records the reports, source
+locks, workflow IDs and propagation retries. All production gates are complete;
+the unfinished historical extraction task remains paused.

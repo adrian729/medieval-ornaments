@@ -173,3 +173,14 @@ The 0.12.0 candidate includes the prior eight acanthus additions and these sixte
 figures: 726 designs (89 borders, 289 decorations, 348 illustrations). Publication
 and exact source pins are tracked in QA.md and PACKAGE-PLAN.md. The historical
 unfinished-source pause remains in effect.
+
+
+Runtime 0.12.0 is published and production-verified (2026-10-15): 726 designs,
+including all sixteen approved shaggy bestiary figures and eight acanthus
+additions. Decorations-010 and illustrations-013 0.1.2 are published/CDN-verified
+and locked to exact clean commits. Main release commit is
+`388f97cced2e4aabf1de4982759e3d3aedf6e360`; GitHub v0.12.0 has both offline ZIPs
+and checksums. Fresh npm consumers, live Pages/CDN, all sixteen creature previews
+and downloaded ZIP checks pass. The runtime measures 832,323 bytes packed /
+5,168,745 bytes unpacked. Preserve all earlier artwork, the exact approved
+creature drawings and the pause on 35 unfinished historical sources.

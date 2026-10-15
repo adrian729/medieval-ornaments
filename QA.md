@@ -1,5 +1,51 @@
 # Artwork and frame verification
 
+## 0.12.0 production release (2026-10-15)
+
+Runtime 0.12.0 is published with npm provenance from main release commit
+`388f97cced2e4aabf1de4982759e3d3aedf6e360`. Publication/CDN workflow
+[38790395541](https://github.com/adrian729/medieval-ornaments/actions/runs/38790395541)
+and full Pages deployment
+[38791392641](https://github.com/adrian729/medieval-ornaments/actions/runs/38791392641)
+passed. [GitHub v0.12.0](https://github.com/adrian729/medieval-ornaments/releases/tag/v0.12.0)
+is public with both browser ZIPs and `browser-downloads.json`. GitHub's asset
+SHA-256 digests match the locally verified archive hashes exactly. All 29 resource
+sources have exact published locks; both revised resources have public v0.1.2
+releases and complete CDN verification, as recorded below.
+
+The actual npm package is 832,323 bytes packed / 5,168,745 bytes unpacked,
+containing 4,435 files and no artwork, dependencies or optional dependencies.
+Fresh registry-consumer verification passes for all 726 designs and all 29
+published resource packages: 267 native axis/design cases, 32 density/length
+cases, vanilla native/bundled, React 18/19 development and production, Strict
+Mode, SSR/hydration, refs/state, public types and verified offline asset copying.
+The report contains no browser errors or failed requests and is retained in
+`tmp/bestiary-integration/published-integration.json`.
+
+The immediate first post-publication install preceded public npm availability
+and returned `ETARGET`. After the successful CDN workflow and public version
+check, the fresh installation passed. The runtime was published once; the
+verification retry required no second upload.
+
+The deployed gallery finds all sixteen bestiary illustrations and decodes every
+full preview at 1200px and 375px, 1.25 device pixel ratio, on light/dark surfaces
+(64 checks). Every image uses the exact illustrations-013 0.1.2 CDN path, with no
+upscaling, overflow, missing requests or browser errors. The accepted native
+figures and separate original comparison remain intact.
+
+`node tests/site.mjs` passes against the live Pages site and actual npm CDN:
+vanilla/React demos at 375px and 1200px, 1.25 pixel ratio, original/forced axes,
+image decoding and pinned runtime modules/assets. Both public release ZIPs were
+downloaded again, verified against their SHA-256 checksums, CRC-checked, extracted
+together and used to render the self-hosted examples and illustration gallery.
+The result is retained in `tmp/bestiary-integration/published-site.json` and
+`site-release.log`. The deployed bestiary-specific checks are in `live-browser.log`.
+
+All requested artwork, packages, resource releases, runtime, Pages and offline
+downloads are published and verified. Existing artwork is unchanged, all sixteen
+approved creatures remain present, and the 35 unfinished historical sources
+remain paused. The main and owning resource repositories are committed/pushed.
+
 ## 0.12.0 release validation (2026-10-15)
 
 Decorations-010 0.1.2 and illustrations-013 0.1.2 are published through npm Trusted
