@@ -40,8 +40,10 @@ function DesignPicker({ id, label, use, search, value, onChange }) {
   const counts = new Map();
   for (const item of pool) for (const name of item.categories) counts.set(name, (counts.get(name) || 0) + 1);
   const activeCategory = counts.has(category) ? category : '';
-  const allowed = useMemo(() => new Set(search(query).map(item => item.name)), [search, query, items]);
-  const results = pool.filter(item => allowed.has(item.name) && (!activeCategory || item.categories.includes(activeCategory)));
+  // Keep the search's relevance order; the pool only narrows it.
+  const ranked = useMemo(() => search(query), [search, query, items]);
+  const inPool = new Set(pool.map(item => item.name));
+  const results = ranked.filter(item => inPool.has(item.name) && (!activeCategory || item.categories.includes(activeCategory)));
   const current = items.find(item => item.name === value);
   const close = () => dialog.current.close();
   const load = async () => {

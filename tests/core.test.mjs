@@ -106,6 +106,15 @@ test('selection filters combine capabilities, categories, subjects, colors, and 
   // Hyphens, underscores and spaces are interchangeable in queries and names.
   for (const query of ['three-undulations-between-fine-rules', 'three undulations between fine rules', ' Three_Undulations  fine-rules '])
     assert.deepEqual(findOrnaments({ query }).map(item => item.name), ['three-undulations-between-fine-rules']);
+  // Words match from their start, and name matches rank first.
+  assert.ok(!findOrnaments({ query: 'cat' }).some(item => item.name.includes('delicate')));
+  // Facing is a tag; rights notices, hashes and URLs in provenance are not searchable.
+  const right = findOrnaments({ query: 'right' });
+  assert.ok(right.every(item => item.facing === 'right' || /right/i.test([item.name, item.description, ...item.usage_notes].join(' '))));
+  assert.deepEqual(findOrnaments({ query: 'zurich' }), findOrnaments({ query: 'Zürich' }));
+  const books = findOrnaments({ query: 'book' }).map(item => item.name);
+  assert.equal(books[0], 'cat-reading-book');
+  assert.ok(books.indexOf('rabbit-reading-book') < books.findIndex(name => !name.includes('book')));
   assert.throws(() => getOrnament('unknown'), /Unknown ornament/);
   assert.throws(() => findOrnaments({ use: 'unknown' }), /use must/);
   assert.throws(() => findOrnaments({ colors: 'red' }), /arrays/);

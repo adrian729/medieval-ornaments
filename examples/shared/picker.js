@@ -32,8 +32,8 @@ export function createPicker({ id, label, items, value, search, thumbnail, onCha
   document.body.append(dialog);
 
   function results() {
-    const allowed = new Set(search(state.query).map(item => item.name));
-    return items.filter(item => allowed.has(item.name) && (state.type === 'all' || item.asset_type === state.type)
+    // Keep the search's relevance order, limited to this picker's designs.
+    return search(state.query).filter(item => byName.has(item.name) && (state.type === 'all' || item.asset_type === state.type)
       && (!state.category || item.categories.includes(state.category)));
   }
   function renderCategories() {

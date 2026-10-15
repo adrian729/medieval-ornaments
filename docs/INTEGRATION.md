@@ -263,9 +263,14 @@ const item = getOrnament('plate-02-stepped-ribbon');
 console.log(item.uses, item.formats, item.repeat_axis);
 ```
 
-Results are alphabetical. Array filters require all supplied values to match;
-all query words must match, case-insensitively, across name, description,
-categories, subjects, colors, type, facing, composition and usage notes.
+Results are alphabetical. Array filters require all supplied values to match.
+All query words must match the start of a word, ignoring case and accents, across
+name, description, categories, subjects, colors, type, facing, composition,
+sets, author, usage notes and provenance artist, title, institution and date: `red` finds "red" and "reddish" but not
+"covered". Punctuation and hyphens separate words, so
+`three undulations between fine rules` finds `three-undulations-between-fine-rules`.
+With a query, results rank by where the words matched (name, then tags,
+description, then usage notes and provenance), keeping alphabetical order within each rank.
 Catalog entries are deeply frozen. Importing them does not
 download artwork. `getOrnament()` throws on unknown names.
 
