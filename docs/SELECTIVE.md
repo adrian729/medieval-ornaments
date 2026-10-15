@@ -162,7 +162,7 @@ Run this from your application's root. The examples pin the generator version
 so another developer can reproduce the same source:
 
 ```sh
-npx @ranx729/medieval-ornaments@0.8.1 add \
+npx @ranx729/medieval-ornaments@0.12.0 add \
   red-berry-vine gold-scroll-with-blue-bellflowers
 ```
 
@@ -215,7 +215,7 @@ package marker and declarations. No import references this npm runtime package.
 For vanilla code:
 
 ```sh
-npx @ranx729/medieval-ornaments@0.8.1 add red-berry-vine --framework vanilla
+npx @ranx729/medieval-ornaments@0.12.0 add red-berry-vine --framework vanilla
 ```
 
 ```js
@@ -253,7 +253,7 @@ component installation; already verified artwork files can be reused on retry.
 For an application deployed at `/my-app/`:
 
 ```sh
-npx @ranx729/medieval-ornaments@0.8.1 add red-berry-vine \
+npx @ranx729/medieval-ornaments@0.12.0 add red-berry-vine \
   --out src/ui/ornaments \
   --assets public/ornaments \
   --assets-base /my-app/ornaments/
@@ -296,7 +296,7 @@ For a fully local invocation, install the generator and full optional archive
 while connected, then run the installed CLI:
 
 ```sh
-npm install --save-dev @ranx729/medieval-ornaments@0.8.1
+npm install --save-dev @ranx729/medieval-ornaments@0.12.0
 npm install --save-dev @ranx729/medieval-ornaments-assets-borders-001@0.1.3
 npx --no-install medieval-ornaments add red-berry-vine --offline
 ```

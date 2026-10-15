@@ -18,6 +18,13 @@ preview them with `?assets=local`. The [composition example](examples/acanthus-d
 and [CSS](examples/acanthus-dividers.css) join flexible red-and-gold rules directly
 under the gold terminal caps. [Exact generation prompts and audit](acanthus-additions.json).
 
+The **Shaggy bestiary creatures** set contains eight dogs and eight cats with
+distinct humanlike faces, inspired by the supplied shaggy dog reference.
+All sixteen approved drawings are retained as transparent PNG/lossless WebP
+illustrations at native resolution, with smaller variants. They are modern AI
+interpretations, with the original reference kept separately for comparison.
+[Generation and extraction audit](bestiary-additions.json).
+
 ## Install and integrate
 
 ```sh
@@ -30,7 +37,7 @@ image variants. It creates no local image files. Leave `assetsBase` unset and
 use `add` or `copy-assets` only when you deliberately want local files.
 No asset package is needed for this default workflow.
 
-Dependency-free vanilla JavaScript, optional React components, TypeScript declarations, and categorized discovery use the same normalized contract. See the [integration guide](https://github.com/adrian729/medieval-ornaments/blob/main/docs/INTEGRATION.md), [plain JS example](https://adrian729.github.io/medieval-ornaments/examples/vanilla/), [React example](https://adrian729.github.io/medieval-ornaments/examples/react/), and [offline browser downloads](https://github.com/adrian729/medieval-ornaments/releases/tag/v0.11.0).
+Dependency-free vanilla JavaScript, optional React components, TypeScript declarations, and categorized discovery use the same normalized contract. See the [integration guide](https://github.com/adrian729/medieval-ornaments/blob/main/docs/INTEGRATION.md), [plain JS example](https://adrian729.github.io/medieval-ornaments/examples/vanilla/), [React example](https://adrian729.github.io/medieval-ornaments/examples/react/), and [offline browser downloads](https://github.com/adrian729/medieval-ornaments/releases/tag/v0.12.0).
 
 Import an individual design to bundle only that design and the shared helpers:
 
@@ -196,17 +203,17 @@ The library build generates metadata/types from `images.json` without changing a
 <!-- gallery:start -->
 ## Browse designs
 
-710 designs: 89 repeating borders, 289 whole decorations and 332 illustrations.
+726 designs: 89 repeating borders, 289 whole decorations and 348 illustrations.
 
 | Category | Designs |
 | --- | --- |
-| `animals` | 139 |
+| `animals` | 155 |
 | `botanical` | 183 |
-| `fantasy` | 105 |
+| `fantasy` | 121 |
 | `floral` | 334 |
 | `geometric` | 128 |
 | `humans` | 152 |
-| `hybrids` | 25 |
+| `hybrids` | 41 |
 | `knotwork` | 7 |
 | `music` | 49 |
 | `reading` | 9 |
@@ -774,6 +781,22 @@ The library build generates metadata/types from `images.json` without changing a
 | <img src="https://raw.githubusercontent.com/adrian729/medieval-ornaments-assets-illustrations-003/ba281f3ab8bb7a6eb41afc72fdf862bda55c40bb/webp/128/seated-red-squirrel-with-bushy-tail.webp" height="72" alt=""> | `seated-red-squirrel-with-bushy-tail` | illustration | PNG · WebP |
 | <img src="https://raw.githubusercontent.com/adrian729/medieval-ornaments-assets-illustrations-005/7755f5337e4d9210457b095abc1c0bc21219edb0/webp/128/sedum-maius.webp" height="72" alt=""> | `sedum-maius` | illustration | PNG · WebP · SVG |
 | <img src="https://raw.githubusercontent.com/adrian729/medieval-ornaments-assets-illustrations-005/7755f5337e4d9210457b095abc1c0bc21219edb0/webp/128/seriphium-absinthium.webp" height="72" alt=""> | `seriphium-absinthium` | illustration | PNG · WebP · SVG |
+| Pending publication | `shaggy-bestiary-cat-angular-face` | illustration | Review in the local browser (`?assets=local`) |
+| Pending publication | `shaggy-bestiary-cat-brown-bearded` | illustration | Review in the local browser (`?assets=local`) |
+| Pending publication | `shaggy-bestiary-cat-charcoal-hunched` | illustration | Review in the local browser (`?assets=local`) |
+| Pending publication | `shaggy-bestiary-cat-cream-sleepy` | illustration | Review in the local browser (`?assets=local`) |
+| Pending publication | `shaggy-bestiary-cat-drooping-cheeks` | illustration | Review in the local browser (`?assets=local`) |
+| Pending publication | `shaggy-bestiary-cat-pale-bearded` | illustration | Review in the local browser (`?assets=local`) |
+| Pending publication | `shaggy-bestiary-cat-russet-striped` | illustration | Review in the local browser (`?assets=local`) |
+| Pending publication | `shaggy-bestiary-cat-tall-brow` | illustration | Review in the local browser (`?assets=local`) |
+| Pending publication | `shaggy-bestiary-dog-broad-brow` | illustration | Review in the local browser (`?assets=local`) |
+| Pending publication | `shaggy-bestiary-dog-charcoal-bearded` | illustration | Review in the local browser (`?assets=local`) |
+| Pending publication | `shaggy-bestiary-dog-crooked-face` | illustration | Review in the local browser (`?assets=local`) |
+| Pending publication | `shaggy-bestiary-dog-long-face` | illustration | Review in the local browser (`?assets=local`) |
+| Pending publication | `shaggy-bestiary-dog-pale-raised-paw` | illustration | Review in the local browser (`?assets=local`) |
+| Pending publication | `shaggy-bestiary-dog-russet-seated` | illustration | Review in the local browser (`?assets=local`) |
+| Pending publication | `shaggy-bestiary-dog-russet-smiling` | illustration | Review in the local browser (`?assets=local`) |
+| Pending publication | `shaggy-bestiary-dog-umber-crouching` | illustration | Review in the local browser (`?assets=local`) |
 | <img src="https://raw.githubusercontent.com/adrian729/medieval-ornaments-assets-decorations-010/3dd5b90a7a4c235208764b5a8d998e4d77781b0d/webp/128/short-blue-and-gold-curled-leaf-terminal.webp" height="72" alt=""> | `short-blue-and-gold-curled-leaf-terminal` | decoration | PNG · WebP |
 | <img src="https://raw.githubusercontent.com/adrian729/medieval-ornaments-assets-decorations-005/77d876f97181d9c5ef7cc48b02ed691ff68c9365/webp/128/short-blue-and-gold-line-end-scroll-bar.webp" height="72" alt=""> | `short-blue-and-gold-line-end-scroll-bar` | decoration | PNG · WebP |
 | <img src="https://raw.githubusercontent.com/adrian729/medieval-ornaments-assets-illustrations-009/61d36c2d5ffeba49eeb6a784d54fe1f1e775f7cc/webp/128/sideways-flower-on-bent-stem-with-long-leaves.webp" height="72" alt=""> | `sideways-flower-on-bent-stem-with-long-leaves` | illustration | PNG · WebP |

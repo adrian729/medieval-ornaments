@@ -1,0 +1,1222 @@
+{
+  "schema_version": 1,
+  "set": {
+    "id": "shaggy-bestiary-creatures",
+    "name": "Shaggy bestiary creatures"
+  },
+  "author": "adrian729",
+  "method": "independent-ai-interpretation",
+  "sources": {
+    "reference-dog": {
+      "path": "sources/bestiary/reference-dog.png",
+      "sha256": "e8c5f10331e84deaa53f39257ce587576e8bc4cad1c904e428763323ee7c90b1",
+      "bytes": 582518,
+      "notes": "User-supplied reference only; not imported as a new collection asset. Historical origin and author unknown."
+    },
+    "accepted-set-one": {
+      "path": "sources/bestiary/accepted-set-one.png",
+      "sha256": "2946c18c7ed9c63034367e00b9e04a62a17090fc6eaf817fb04875821c7e0be4",
+      "bytes": 2913316,
+      "notes": "Earlier accepted DOG I-IV and CAT I-IV sheet retained unchanged."
+    },
+    "accepted-set-two": {
+      "path": "sources/bestiary/accepted-set-two.png",
+      "sha256": "347f14b5201bdac084c0c277b28e0ade4bf6d31236b4fa390d0eed016e6c7e27",
+      "bytes": 3147689,
+      "notes": "Earlier accepted DOG V-VIII and CAT V-VIII sheet retained unchanged."
+    },
+    "approved-sheet": {
+      "path": "sources/bestiary/approved-creature-sheet.png",
+      "sha256": "bd6e9f0b46340fc613cedd477395e2cc23f14607d2cab8884684c9949beea7b8",
+      "bytes": 2894490,
+      "notes": "Final user-approved generation sheet; authoritative pixels for all sixteen imports. Its reference panel is AI-rendered and excluded."
+    }
+  },
+  "prompts": [
+    {
+      "id": "first-accepted-set",
+      "tool": "built-in image_gen",
+      "prompt": "Use case: stylized-concept.\nMake ONE PNG comparison sheet: original reference dog plus EIGHT NEW medieval dog/cat creatures, nine complete figures in a spacious 3-by-3 arrangement on pure white. Input image 1 is the user's original reference and is the ONLY visual reference. Study its face and anatomy very closely. Top-left shows this supplied reference dog faithfully, with label \"REFERENCE\". Other eight cells are four new dogs labeled \"DOG I\", \"DOG II\", \"DOG III\", \"DOG IV\", and four new cats labeled \"CAT I\", \"CAT II\", \"CAT III\", \"CAT IV\". Small plain dark serif captions, no other text.\n\nCRITICAL CORRECTION: The user rejected the earlier attempt as TOO NORMAL. This is NOT a request for attractive ordinary dogs or cats rendered with old-fashioned fur. The provided reference is a bizarre human-faced DOG. ALL eight new creatures must inhabit its exact peculiar visual world and be at least as uncanny and anatomically strange. This is their defining quality, not a minor stylistic accent.\n\nFACE CONSTRUCTION taken directly from the supplied reference:\nLarge close-set HUMAN eyes with visible sclera, fleshy heavy upper and lower eyelids and worried uneven brows; a high rounded forehead under parted locks; a short broad HUMANLIKE NOSE, with a fleshy bridge and bulbous tip rather than a shiny black animal nose; irregular cheeks and a compact, slightly open HUMANLIKE MOUTH with visible rusty red lips, nestled within parted moustache and beard hair. Faces should look like anxious or bewildered elderly little people improbably emerging from an animal's coat. Organically painted as a single being, not a photographic human face pasted onto a pet. No conventional canine muzzles. No ordinary cute feline faces with tiny pink triangular noses. No slick modern character design.\n\nBODY CONSTRUCTION taken directly from the reference:\nOversized head melting into a huge cascading beard and ruff; a compact hunched pear-shaped animal torso; short irregularly placed squat limbs; broad clumsy paw shapes with long separated stubby toes and tiny dark claws; slightly implausible seated, crouching and half-rearing poses; huge curling plume or sinuous hair-covered tail. Compress and distort the proportions. Awkward old bestiary anatomy, still coherent as creatures, not anatomically perfect modern domestic animals.\n\nDogs: four DISTINCT dog-like grotesques with ears mostly buried in long locks, thick haunches, beards, heavy paws and feathery scroll-shaped tails. One pale grey worried sitter with a huge chest beard and one paw lifted; one umber narrow-bodied croucher with a long sorrowful face and very short limbs; one russet-and-ivory squat creature with heavy jowls and an incredulous red-lipped mouth; one dark charcoal squat sideways sitter with an enormous pale beard, a high forehead and a solemn staring face. Not named modern breeds.\n\nCats: four DISTINCT cat-like grotesques built using the SAME unsettling human eyes, short humanlike noses, tiny red-lipped mouths and ill-proportioned bodies, with feline identity conveyed by small pointed ears, a few whiskers, compact feline paws and long curling tails. They must be just as strange as the dogs. One pale cat with a high forehead, baggy eyes, pendulous cheek hair, a long beard and a tiny stooping body; one rusty tabby-like creature with a nearly human frown and an absurdly long neck ruff crouched on tiny paws; one soot-dark cat with a flat owl-like but HUMAN-eyed face and moustache, hunched high shoulders, round belly and a curled tail; one brown-and-cream cat with a long mournful humanlike face, angled pointy ears, a pronounced shaggy bib and a compact lopsided seated body. No normal pet cat faces anywhere.\n\nMEDIUM: Match the source itself: scanned late-medieval/early-Renaissance painted creature cutout, dense irregular fine cream and dirty silver fur strokes curling in ropes and little hooks over sepia/black paint, subtle faded pigment, uneven old hand-painted contour, coarse but delicate brush detail, flatter modeling. Warm bone white, dirty grey, dark umber, muted rusty brown. Mild asymmetry and painterly imperfection. No glossy 3D finish, no polished digital fantasy illustration, no decorative costumes, no crowns, no wings, no horns, no scenery, no ground shadow, no parchment backdrop.\nKeep every body, paw, ear and tail completely visible and separate. Similar visual scale for reference and new creatures. The reference image is a comparison insert: preserve its identity, pose and colors as faithfully as possible. Overall priority: strange human-faced furry creatures tightly derived from this EXACT reference, not normal animals.\n",
+      "sha256": "8b3b9e80fec23eb5b39f0b903bfd87cf65939da170adc38efbc447711918d559"
+    },
+    {
+      "id": "second-accepted-set",
+      "tool": "built-in image_gen",
+      "prompt": "Use case: stylized-concept.\nCreate a NEW second collection as ONE PNG comparison sheet, with eight NEW medieval/Renaissance dog-and-cat grotesques and the original dog reference, nine full figures in a 3 by 3 grid on pure white. This is an additional collection, not a revision of any existing creature.\n\nINPUTS:\nImage 1 is an APPROVED earlier sheet. Match its ancient painted texture, odd squat animal anatomy, shaggy curls and strikingly humanlike faces. DO NOT reuse its repeated face: the user specifically wants MUCH MORE FACIAL VARIETY.\nImage 2 is the user's original DOG reference. Place it faithfully in the top-left comparison cell marked \"REFERENCE\"; use its painterly handling and strange human-animal character throughout.\n\nMOST IMPORTANT: EIGHT DIFFERENT FACIAL IDENTITIES, not the same worried old man's face with new fur. Change skull outline, forehead height, eye spacing/size/tilt, eyelid shape, cheek volume, nose structure, mouth shape, jaw and beard silhouette. Every new face must be immediately distinguishable even if the fur color were removed. Vary expressions, but changing expressions alone is not enough. Do not give everybody raised worried eyebrows, a bulbous nose, an open red mouth and a symmetrical long beard. Some mouths must be CLOSED. Some eyes narrow, some round, some small, some widely spaced. Retain the uncanny humanlike facial anatomy of the references; absolutely no conventional cute dog/cat faces or polished fantasy pets.\n\nCells reading left to right, top to bottom:\n1. \"REFERENCE\": supplied original dog from image 2, same pose, face and coat.\n2. \"DOG V\": square broad head, very low forehead, tiny close-set deep-set eyes under a single heavy flat brow, wide flattened fleshy nose, enormous cheeks, broad CLOSED mouth with a projecting lower lip, short rectangular forked beard. Stern and stubborn. Stocky dark-umber shaggy dog sitting at an angle, very wide feet, low curling plume tail.\n3. \"DOG VI\": an extremely LONG NARROW head and high cheekbones, a prominent long downward-curving humanlike nose shown in three-quarter profile, long hooded narrow eyes, a small thin CLOSED downturned mouth and a wispy pointed chin beard. Haughty and suspicious. Thin pale-grey dog body with an arched back, tiny awkward legs, flowing ear locks, looking sideways rather than at the viewer.\n4. \"DOG VII\": broad ROUND face, plump cheek pads, widely spaced small crinkled eyes, a SHORT UP-TURNED fleshy nose, wide crooked OPEN smile with two small worn teeth visible, broad chin and short curled whisker-beard. Mischievous rather than worried. Rust-and-cream dog with a huge head on a little squat seated body, one short forepaw lifted and a spiralling tail.\n5. \"DOG VIII\": strongly ASYMMETRICAL oblong face, sloping forehead, one large drooping eyelid and one smaller sharp eye, a long oblique bridge ending in a blunt nose, displaced thin mouth firmly CLOSED to one side, jutting heavy jaw, one-sided sweeping moustache and uneven dark beard. Cantankerous. Charcoal dog crouching low with bent short legs and a flattened fanlike tail. Its facial silhouette is very different from the square DOG V.\n6. \"CAT V\": triangular, almost diamond-shaped elongated head, tall pointed ears, prominent angular cheekbones, very NARROW slanted humanlike eyes under long swept eyebrows, long straight narrow humanlike nose, tiny PURSED closed lips, sharply forked chin tuft rather than a large round beard. Disdainful. Lean silver-umber cat stooped upright with small feline paws and an unusually long curling tail.\n7. \"CAT VI\": a very WIDE ROUND head, tiny ears, widely separated LARGE half-closed heavy-lidded eyes, very short and broad flattened fleshy nose, a wide CLOSED gently curved mouth, soft hanging jowls and a short dense ruff with NO long beard. Drowsy and complacent, like an odd furry medieval moon face. Cream cat compressed into a low ball with minute paws and a tail folded around its body.\n8. \"CAT VII\": a TALL domed forehead, narrow oval lower face, two very large protruding ROUND humanlike eyes, a SMALL hooked nose, a tiny tightly rounded O-shaped open mouth, hollow cheeks and a few long sparse chin locks. Amazed and curious. Wiry russet-and-grey cat leaning forward on awkward splayed small paws, high shoulders, little pointed ears, thin S-curved tail.\n9. \"CAT VIII\": a broad TRAPEZOIDAL head, small uneven pointed ears, eyes set at visibly different heights with sagging lids, enormous drooping cheeks, a large pear-shaped low nose, a pronounced protruding lower lip in a long CLOSED horizontal mouth, parted white side-whiskers and a broad two-lobed beard. Sleepy and solemn. Brown-and-ivory cat reclining with head turned over one shoulder, bent forepaws and a thick looped tail.\n\nShared art direction: all eight are fantastical human-faced DOG/CAT CREATURES, not people in costumes and not realistic pets. Humanlike features emerge organically from fur, not pasted-on bald photographic human faces. Irregular clumsy small animal limbs, big heads, short or hunched torsos, occasional strangely separated toes, curling tails. Canine cues are mostly hidden soft ears and shaggy haunches; feline cues are small pointed ears, whiskers and flexible tails. Preserve the same degree of uncanniness as the approved sheet.\nMatch the ORIGINAL reference's scanned antique painting: small uneven ivory/silver hair strokes, wavy hooked locks over dark umber underpainting, delicately worn pigment, flattened hand-painted modeling, restrained warm-grey/umber/ivory/russet palette. Lots of fur detail without polished 3D gloss. Every figure has its own distinct fur growth, beard/ruff and pose; no cloned faces or cloned silhouettes.\nPure white backdrop, no shadows, no scenery, no parchment, no decorative framing, no clothing or accessories, no horns or wings. Show all ears, paws and tails uncropped. Generous whitespace between figures. Small consistent dark serif labels only, using the nine captions above exactly. Render a high-detail PNG sheet.\n",
+      "sha256": "74ea2febfb5ca75afa0df13ac877a0ed50d52e38bab1d76260d94d658fe2876b"
+    },
+    {
+      "id": "five-refinement-studies",
+      "tool": "built-in image_gen",
+      "prompt": "Use case: precise-object-edit / stylized-concept.\nCreate one PNG PREVIEW OF FIVE SELECTIVE REFINEMENTS to existing medieval/Renaissance dog-and-cat creatures. Six figures total on white, arranged three columns by two rows: the supplied original dog reference followed by five revised creatures. These are alternate studies; preserve the identity and distinctive facial structure of each existing character.\n\nInput image 1: approved second creature sheet. This is the EDIT TARGET. Select ONLY DOG VI, DOG VII, CAT V, CAT VI, CAT VII from it.\nInput image 2: original supplied human-faced shaggy DOG. This is the painting-style reference and a comparison insert.\nKeep the established deeply strange, human-faced beast anatomy. All faces should remain DIFFERENT from one another and from the original dog. Do not turn these into ordinary pets. Do not turn everybody into the same worried bearded face. No new accessories.\n\nLAYOUT with exact understated dark serif captions:\nTop left: \"ORIGINAL\" \u2014 faithfully include the original dog from image 2, retaining its face, seated pose, pale beard, blackish coat and curled tail.\nTop middle: \"DOG VI \u00b7 STUDY\" \u2014 revised version of DOG VI from image 1.\nTop right: \"DOG VII \u00b7 STUDY\" \u2014 revised version of DOG VII from image 1.\nBottom left: \"CAT V \u00b7 STUDY\" \u2014 revised version of CAT V from image 1.\nBottom middle: \"CAT VI \u00b7 STUDY\" \u2014 revised version of CAT VI from image 1.\nBottom right: \"CAT VII \u00b7 STUDY\" \u2014 revised version of CAT VII from image 1.\nAll full bodies, ears, paws and tails visible with generous whitespace. Similar scale. No headline, no decorative border, no shadows, no parchment backdrop.\n\nFIVE TARGETED REFINEMENTS:\nDOG VI: retain the long narrow profile face, hooded eyes, thin pale-grey hunched dog body, soft long ear locks, wispy beard, tiny legs and flowing tail. Integrate the prominent nose more organically into the shaggy cheek and moustache transitions: reduce the sharply projecting, smooth bare human nose somewhat while retaining a visibly long curved fleshy bridge and a very distinctive elongated head. The face should emerge from fur as it does in the reference, not look like a smooth portrait glued onto an animal. Keep the small closed mouth and suspicious sideways gaze.\n\nDOG VII: retain the round broad face, russet-and-ivory fur, small squat body, one raised forepaw and lively curled tail. Replace the broad comic grin and neat line of teeth with a SMALLER UNEVEN half-smile, one lip corner gently raised, mouth mostly closed with only a small dark rusty opening and at most one tiny irregular tooth. Keep a mischievous, cheerful temperament and round cheeks, but make cheek modeling flatter and less inflated. Small crinkled humanlike eyes and short broad fleshy nose. Do not make it sad or copy the reference's worried face.\n\nCAT V: retain the narrow triangular face, long straight nose, slanted narrow eyes, tall ears, slender upright body, forked chin tuft and long curved tail. Loosen the precise symmetrical brow and cheekbone shapes: one eyebrow slightly lower, irregular cheek locks, less sharply sculpted facial planes, subtler highlights. Keep the disdainful expression and recognizably angular face. The mouth stays tiny and closed. Humanlike eyes and bridge of nose, with feline ears and whiskers.\n\nCAT VI: retain the very broad round face, wide-set sleepy half-closed eyes, short broad nose, long closed relaxed mouth, cream coat, tiny ears and low compact cat body. Break the perfectly spherical body into a gently lopsided crouch: slightly higher shoulder on one side, uneven shaggy belly contour, two small mismatched paws visible, a less symmetrical short ruff. Flatten the smooth rounded cheek shading and integrate the cheeks into uneven cream fur. It remains the broad sleepy creature; do not elongate its face or add a big beard.\n\nCAT VII: retain the tall domed forehead, narrow lower face, wiry russet-grey body, high hunched shoulders, tiny pointed ears, sparse long chin hair and thin curved tail. Reduce the cartoon-like perfectly circular eye openings: retain prominent eyes, but use unequal fleshy upper eyelids, one slightly hooded and one more open, with modest pupils. Replace the tiny perfect O-mouth with an irregular short slightly parted horizontal rust-colored mouth. Keep a quietly startled, curious expression and tall skull. Do not make it cute or give it the original dog's face.\n\nPAINTING TREATMENT FOR THE FIVE STUDIES:\nStudy image 2 closely. Match its actual irregular antique paint handling, subdued silver/ivory/umber/russet colors and slightly flattened volumes. Fine fur hairs should vary in length, spacing, brightness and density: some broken dry-brush cream strokes, some darker strands lost into underpaint, some broad quiet dark patches, occasional uneven hooks and waves. Reduce the approved sheet's uniformly bright outlined curls and polished gradients. Fur must remain richly detailed, organic and flowing, NOT fuzzy airbrushing, not vector lines, not photorealism, not glossy 3D, not heavily inked engraving. Fleshy eye sockets, noses and mouths are integrated within fur. No artificial crackle, dirt filter, blanket sepia wash, or parchment texture.\nPriority: recognizable alternate refinements of the FIVE SPECIFIC approved creatures, keeping all their different identities and wonderful grotesqueness, with less modern caricature and more of the reference's subtle uneven painted surface.\n",
+      "sha256": "1a89baf5ae47eaea4ee162a4aca447ea18ce890b5411c5d872843bc0f32452cb"
+    },
+    {
+      "id": "full-collection-and-final-correction",
+      "tool": "built-in image_gen",
+      "prompt": "Use case: compositing and precise-object-edit.\nDeliver the COMPLETE collection preview: all SIXTEEN approved medieval dog/cat creatures with the five refinement studies incorporated, plus the user's original reference dog. Exactly SEVENTEEN full-body figures. The user was upset because a previous preview showed only five and appeared to remove the other eleven. This sheet MUST restore the whole family together, with nobody missing.\n\nINPUTS:\nImage 1: accepted first set, DOG I\u2013IV and CAT I\u2013IV. Retain all EIGHT.\nImage 2: accepted second set, DOG V\u2013VIII and CAT V\u2013VIII. Retain DOG V, DOG VIII and CAT VIII faithfully; use the revised versions from image 3 for the remaining five.\nImage 3: five refinement studies, labelled DOG VI \u00b7 STUDY, DOG VII \u00b7 STUDY, CAT V \u00b7 STUDY, CAT VI \u00b7 STUDY, CAT VII \u00b7 STUDY. Include ALL FIVE in the complete lineup, preserving their identities and improved treatment.\nImage 4: original user-supplied shaggy human-faced DOG. Include it ONCE as the reference, faithfully retaining its actual face, pose, paws, fur and tail.\nIgnore the duplicate reference panels in images 1, 2 and 3. Only image 4 supplies the original comparison figure.\n\nComposition: one generously spaced landscape PNG contact sheet, pure white, FOUR ROWS.\nRow 1 has FIVE figures: \"ORIGINAL\", \"DOG I\", \"DOG II\", \"DOG III\", \"DOG IV\".\nRow 2 has FOUR figures: \"CAT I\", \"CAT II\", \"CAT III\", \"CAT IV\".\nRow 3 has FOUR figures: \"DOG V\", \"DOG VI\", \"DOG VII\", \"DOG VIII\".\nRow 4 has FOUR figures: \"CAT V\", \"CAT VI\", \"CAT VII\", \"CAT VIII\".\nCenter the four-figure rows across the full width. Large, clearly legible complete creatures with comparable visual scale. Small dark serif labels beneath. Count carefully: 1 original + 8 dogs + 8 cats =17. NO OMISSIONS, duplicates, extra new creatures or blank cells. Never substitute a five-creature sheet.\nKeep every paw, ear, whisker, body and tail entirely inside the canvas and separate from neighbors.\n\nIDENTITY PRESERVATION:\nDog I the pale worried sitter with one paw raised; Dog II the long dark umber croucher; Dog III the squat russet sitter; Dog IV the charcoal sitter with large pale beard.\nCat I pale upright with long beard; Cat II russet striped sitter; Cat III rounded dark hunched cat; Cat IV brown-and-cream long-faced sitter.\nDog V broad stern flat-browed face and compact dark body; Dog VIII dark asymmetrical sloping face and hunched crouch; Cat VIII the brown-and-ivory droopy-cheeked reclining cat. Preserve these source designs.\nFive revised characters from image 3: Dog VI retains its distinctive elongated profile, pale hanging ear locks and tall nose, with shaggy cheek transitions and subdued paint highlights; Dog VII retains its cheerful round russet face and raised paw with a smaller uneven half-smile; Cat V retains its angular long narrow face with irregular brow/cheek locks; Cat VI retains its broad sleepy face and low cream body with an uneven outline; Cat VII retains its tall domed forehead and alert eyes with uneven eyelids and an irregular slightly open mouth instead of a perfect O.\nPreserve facial diversity and personality; the eight second-set creatures must NOT converge into the same face.\n\nStyle must remain close to the supplied ORIGINAL and the already accepted creatures: uncanny humanlike eyes, noses and lips growing naturally out of shaggy animal faces, awkward compact animal bodies, individually curling fine silver/cream/umber fur, uneven antique painted strokes and muted shading. Preserve their oddness and charm. No normalizing into cute pets, no smooth modern mascot rendering, no flat generic illustration, no costume, no props, no scenery, no decorative border, no parchment or background texture.\nThis is the full working collection with targeted fixes integrated, not a selection of favorites. Output a crisp detailed PNG preview.\n\nTARGETED CORRECTION PROMPT\nEdit image 1, the COMPLETE 17-figure comparison sheet. Keep its entire composition, white background, all 17 labelled figures, all poses, all body colors, and all tails. DO NOT REMOVE ANY FIGURE. Keep ORIGINAL, DOG I\u2013V, DOG VIII, CAT I\u2013IV, CAT VIII unchanged. Image 2 is the original paint reference.\n\nMake visibly meaningful, targeted fixes to FIVE existing characters, retaining their distinct identities:\n\n1. DOG VII (third row, third figure, the smiling russet dog with one lifted paw): CLOSE the broad grinning mouth almost completely. Remove the visible row of teeth. Replace with a small, crooked rust-red HALF-SMILE formed by lips, one raised corner and a narrow dark slit. Keep his round cheeks, small humanlike eyes, raised paw, round face and cheerful character. No big open cartoon smile. Let a few uneven moustache hairs cross the mouth corners. More irregular brushwork on cheeks.\n\n2. CAT VII (bottom row, third figure, tall head and big round eyes): the existing perfect O-mouth and two circular eyes must change. Make the mouth a SHORT UNEVEN HORIZONTAL OPENING with a slightly drooping lower lip, NOT a circle or O. Bring the upper eyelids down so the visible eyes are smaller, with the left eyelid noticeably lower than the right; retain his tall domed forehead and long narrow face, quizzical expression, russet body, tiny ears and tail. He should look strangely alert and thoughtful, not cartoonishly shocked. He must remain a different individual from the other cats.\n\n3. DOG VI (third row, second figure, pale long-faced dog): retain elongated head and profile but shorten the extreme nose projection by approximately one quarter; blend the sides of the long bridge into fine shaggy cheek hair and a sparse uneven moustache. Keep his closed mouth, thin face, drooping eyes, pale long ear locks, wiry body and posture. Reduce smooth sculpted highlights on the bare nose.\n\n4. CAT V (bottom row, first figure): retain his long angular face and narrow eyes, but break the perfectly symmetrical steep brows and sharp V-shaped forehead hair. One brow slightly flatter/lower, a few irregular clumps over one cheek, subtler nose and cheek highlights. Keep the stern character and long ears.\n\n5. CAT VI (bottom row, second figure): retain the broad sleepy face, wide-set hooded eyes and cream coat. Make the body silhouette visibly less spherical: slightly raise the shoulder on his right, lower the opposite flank, show one little forepaw a little farther forward. Cheeks should have flatter uneven painted shading, with less smooth inflated volume. Keep his small closed mouth and broad face.\n\nUse the original dog's broken, irregular, slightly faded fine silver and cream brushstrokes over dark underpainting for the edited areas. Preserve the furry human-animal grotesque style and facial diversity. No cute normal pets, no modern 3D rendering, no added parchment or artificial aging effects.\nThese are five local corrections to the existing full collection, NOT replacements with different characters and NOT a reduced selection. All labels and all 17 full figures must remain.\n",
+      "sha256": "ea6c5f4debe5431cd7e83ff4e75a3f32f4aba37879003bae8d48a2c4f59fc769"
+    }
+  ],
+  "extraction": {
+    "script": "scripts/import_bestiary.py",
+    "background_min_channel": 244,
+    "background_max_chroma": 12,
+    "minimum_hole_pixels": 64,
+    "matte_rgb": [
+      253,
+      254,
+      254
+    ],
+    "minimum_edge_alpha": 0.06,
+    "description": "Keep the largest eight-connected foreground component and disconnected hair tips within two pixels. Preserve small enclosed highlights; remove larger white negative spaces. Decontaminate only the one-pixel inner/outer boundary against the estimated white matte. Native crop pixels are retained separately."
+  },
+  "capacity": {
+    "resource": "illustrations-013",
+    "planned_additional_bytes": 16000000,
+    "public_limit_bytes": 140000000,
+    "measured_additional_public_bytes": 6546901,
+    "measured_additional_native_bytes": 2106423,
+    "approved_resource_public_bytes": 89755274,
+    "approved_resource_native_bytes": 38408553
+  },
+  "assets": [
+    {
+      "name": "shaggy-bestiary-dog-pale-raised-paw",
+      "label": "DOG I",
+      "resource": "illustrations-013",
+      "crop_bounds": [
+        332,
+        7,
+        588,
+        263
+      ],
+      "asset_type": "illustration",
+      "author": "adrian729",
+      "description": "A pale shaggy dog-like creature sits with one forepaw lifted, a worried human-like face, long curling beard and a high plumed tail.",
+      "categories": [
+        "animals",
+        "hybrids",
+        "fantasy"
+      ],
+      "subjects": [
+        "dog-like-creature",
+        "human-face",
+        "shaggy-fur",
+        "curled-tail"
+      ],
+      "colors": [
+        "cream",
+        "gray",
+        "brown"
+      ],
+      "facing": "front",
+      "composition": "single-figure",
+      "sets": [
+        {
+          "id": "shaggy-bestiary-creatures",
+          "name": "Shaggy bestiary creatures"
+        }
+      ],
+      "method": "independent-ai-interpretation",
+      "usage_notes": [
+        "Modern AI illustration inspired by a user-supplied dog reference; no historical artist, date or source attribution is inferred.",
+        "Native cutout from the approved comparison sheet; preserve its small raster resolution and proportions. No upscaling, repeat, frame or SVG is supplied."
+      ],
+      "native_input": "sources/tiles/shaggy-bestiary-dog-pale-raised-paw.png",
+      "master_path": "png/shaggy-bestiary-dog-pale-raised-paw.png",
+      "source": "approved-sheet",
+      "processing": "Deterministic native crop and white-matte removal. Opaque foreground RGB is unchanged; narrow boundary pixels receive alpha and white-matte decontamination. No redraw or upscaling.",
+      "review": {
+        "status": "accepted-import-review",
+        "user_visual_review": "accepted",
+        "date": "2026-10-15",
+        "notes": [
+          "User accepted the complete sixteen-creature corrected sheet and explicitly chose deterministic cropping/background removal to preserve the approved drawings."
+        ]
+      },
+      "native_sha256": "e5e6c52cc9fa5f4ebc2f4dca31dddeeb33570698e8faa92d16b76efd82992184",
+      "master_sha256": "d1b20e8a316486f8ca1df0b313d2976dfb1fcf2a76141a39af66fa754b58ad5b",
+      "native_dimensions": [
+        256,
+        256
+      ],
+      "extraction_statistics": {
+        "opaque_pixels_preserved": 36000,
+        "antialiased_boundary_pixels": 1827,
+        "artwork_bounds": [
+          5,
+          5,
+          251,
+          251
+        ]
+      }
+    },
+    {
+      "name": "shaggy-bestiary-dog-umber-crouching",
+      "label": "DOG II",
+      "resource": "illustrations-013",
+      "crop_bounds": [
+        602,
+        28,
+        926,
+        253
+      ],
+      "asset_type": "illustration",
+      "author": "adrian729",
+      "description": "A long dark umber dog-like creature crouches on short paws, with a narrow sorrowful human-like face, hanging beard and a large curled tail.",
+      "categories": [
+        "animals",
+        "hybrids",
+        "fantasy"
+      ],
+      "subjects": [
+        "dog-like-creature",
+        "human-face",
+        "shaggy-fur",
+        "curled-tail"
+      ],
+      "colors": [
+        "brown",
+        "cream",
+        "black"
+      ],
+      "facing": "front",
+      "composition": "single-figure",
+      "sets": [
+        {
+          "id": "shaggy-bestiary-creatures",
+          "name": "Shaggy bestiary creatures"
+        }
+      ],
+      "method": "independent-ai-interpretation",
+      "usage_notes": [
+        "Modern AI illustration inspired by a user-supplied dog reference; no historical artist, date or source attribution is inferred.",
+        "Native cutout from the approved comparison sheet; preserve its small raster resolution and proportions. No upscaling, repeat, frame or SVG is supplied."
+      ],
+      "native_input": "sources/tiles/shaggy-bestiary-dog-umber-crouching.png",
+      "master_path": "png/shaggy-bestiary-dog-umber-crouching.png",
+      "source": "approved-sheet",
+      "processing": "Deterministic native crop and white-matte removal. Opaque foreground RGB is unchanged; narrow boundary pixels receive alpha and white-matte decontamination. No redraw or upscaling.",
+      "review": {
+        "status": "accepted-import-review",
+        "user_visual_review": "accepted",
+        "date": "2026-10-15",
+        "notes": [
+          "User accepted the complete sixteen-creature corrected sheet and explicitly chose deterministic cropping/background removal to preserve the approved drawings."
+        ]
+      },
+      "native_sha256": "3b9321b2665b95f5585dcd2dd5d1f33e7872d77b12f0b0e682a2b2e0b00698de",
+      "master_sha256": "0d2af183dc6963b24555e143371c51f5f72798c335b85c6a7b2533093191bd34",
+      "native_dimensions": [
+        324,
+        225
+      ],
+      "extraction_statistics": {
+        "opaque_pixels_preserved": 47167,
+        "antialiased_boundary_pixels": 1877,
+        "artwork_bounds": [
+          5,
+          5,
+          319,
+          220
+        ]
+      }
+    },
+    {
+      "name": "shaggy-bestiary-dog-russet-seated",
+      "label": "DOG III",
+      "resource": "illustrations-013",
+      "crop_bounds": [
+        936,
+        28,
+        1207,
+        257
+      ],
+      "asset_type": "illustration",
+      "author": "adrian729",
+      "description": "A squat russet dog-like creature sits on broad paws, with a round worried human-like face, pale chest curls and an upright plumed tail.",
+      "categories": [
+        "animals",
+        "hybrids",
+        "fantasy"
+      ],
+      "subjects": [
+        "dog-like-creature",
+        "human-face",
+        "shaggy-fur",
+        "curled-tail"
+      ],
+      "colors": [
+        "brown",
+        "orange",
+        "cream"
+      ],
+      "facing": "front",
+      "composition": "single-figure",
+      "sets": [
+        {
+          "id": "shaggy-bestiary-creatures",
+          "name": "Shaggy bestiary creatures"
+        }
+      ],
+      "method": "independent-ai-interpretation",
+      "usage_notes": [
+        "Modern AI illustration inspired by a user-supplied dog reference; no historical artist, date or source attribution is inferred.",
+        "Native cutout from the approved comparison sheet; preserve its small raster resolution and proportions. No upscaling, repeat, frame or SVG is supplied."
+      ],
+      "native_input": "sources/tiles/shaggy-bestiary-dog-russet-seated.png",
+      "master_path": "png/shaggy-bestiary-dog-russet-seated.png",
+      "source": "approved-sheet",
+      "processing": "Deterministic native crop and white-matte removal. Opaque foreground RGB is unchanged; narrow boundary pixels receive alpha and white-matte decontamination. No redraw or upscaling.",
+      "review": {
+        "status": "accepted-import-review",
+        "user_visual_review": "accepted",
+        "date": "2026-10-15",
+        "notes": [
+          "User accepted the complete sixteen-creature corrected sheet and explicitly chose deterministic cropping/background removal to preserve the approved drawings."
+        ]
+      },
+      "native_sha256": "3d27e981ae6a875936749f55b031bb6113898d5df9153f8adfadfd3f2e5e3d3a",
+      "master_sha256": "c6da57bd165d4fde388906d412a83af560165194acdc29cb572f02efccdf2e22",
+      "native_dimensions": [
+        271,
+        229
+      ],
+      "extraction_statistics": {
+        "opaque_pixels_preserved": 38898,
+        "antialiased_boundary_pixels": 1501,
+        "artwork_bounds": [
+          5,
+          5,
+          266,
+          224
+        ]
+      }
+    },
+    {
+      "name": "shaggy-bestiary-dog-charcoal-bearded",
+      "label": "DOG IV",
+      "resource": "illustrations-013",
+      "crop_bounds": [
+        1209,
+        2,
+        1499,
+        257
+      ],
+      "asset_type": "illustration",
+      "author": "adrian729",
+      "description": "A charcoal dog-like creature sits with a broad pale beard, solemn human-like eyes, a high forehead and a tall curled tail.",
+      "categories": [
+        "animals",
+        "hybrids",
+        "fantasy"
+      ],
+      "subjects": [
+        "dog-like-creature",
+        "human-face",
+        "shaggy-fur",
+        "curled-tail"
+      ],
+      "colors": [
+        "black",
+        "brown",
+        "cream"
+      ],
+      "facing": "front",
+      "composition": "single-figure",
+      "sets": [
+        {
+          "id": "shaggy-bestiary-creatures",
+          "name": "Shaggy bestiary creatures"
+        }
+      ],
+      "method": "independent-ai-interpretation",
+      "usage_notes": [
+        "Modern AI illustration inspired by a user-supplied dog reference; no historical artist, date or source attribution is inferred.",
+        "Native cutout from the approved comparison sheet; preserve its small raster resolution and proportions. No upscaling, repeat, frame or SVG is supplied."
+      ],
+      "native_input": "sources/tiles/shaggy-bestiary-dog-charcoal-bearded.png",
+      "master_path": "png/shaggy-bestiary-dog-charcoal-bearded.png",
+      "source": "approved-sheet",
+      "processing": "Deterministic native crop and white-matte removal. Opaque foreground RGB is unchanged; narrow boundary pixels receive alpha and white-matte decontamination. No redraw or upscaling.",
+      "review": {
+        "status": "accepted-import-review",
+        "user_visual_review": "accepted",
+        "date": "2026-10-15",
+        "notes": [
+          "User accepted the complete sixteen-creature corrected sheet and explicitly chose deterministic cropping/background removal to preserve the approved drawings."
+        ]
+      },
+      "native_sha256": "476dd2a6d549a55ea86d1f6c18774cd84fc09d24c0f0d1fb37d3efc51d2c6a20",
+      "master_sha256": "654dd6634150f5c216b1d4ffcd0819efa0e42edf53f94eb12fcea7af04891309",
+      "native_dimensions": [
+        290,
+        255
+      ],
+      "extraction_statistics": {
+        "opaque_pixels_preserved": 46545,
+        "antialiased_boundary_pixels": 1805,
+        "artwork_bounds": [
+          5,
+          5,
+          285,
+          250
+        ]
+      }
+    },
+    {
+      "name": "shaggy-bestiary-cat-pale-bearded",
+      "label": "CAT I",
+      "resource": "illustrations-013",
+      "crop_bounds": [
+        100,
+        274,
+        366,
+        516
+      ],
+      "asset_type": "illustration",
+      "author": "adrian729",
+      "description": "A pale upright cat-like creature has pointed ears, whiskers, a high human-like forehead, a long beard and a narrow curled tail.",
+      "categories": [
+        "animals",
+        "hybrids",
+        "fantasy"
+      ],
+      "subjects": [
+        "cat-like-creature",
+        "human-face",
+        "shaggy-fur",
+        "curled-tail"
+      ],
+      "colors": [
+        "cream",
+        "gray",
+        "brown"
+      ],
+      "facing": "front",
+      "composition": "single-figure",
+      "sets": [
+        {
+          "id": "shaggy-bestiary-creatures",
+          "name": "Shaggy bestiary creatures"
+        }
+      ],
+      "method": "independent-ai-interpretation",
+      "usage_notes": [
+        "Modern AI illustration inspired by a user-supplied dog reference; no historical artist, date or source attribution is inferred.",
+        "Native cutout from the approved comparison sheet; preserve its small raster resolution and proportions. No upscaling, repeat, frame or SVG is supplied."
+      ],
+      "native_input": "sources/tiles/shaggy-bestiary-cat-pale-bearded.png",
+      "master_path": "png/shaggy-bestiary-cat-pale-bearded.png",
+      "source": "approved-sheet",
+      "processing": "Deterministic native crop and white-matte removal. Opaque foreground RGB is unchanged; narrow boundary pixels receive alpha and white-matte decontamination. No redraw or upscaling.",
+      "review": {
+        "status": "accepted-import-review",
+        "user_visual_review": "accepted",
+        "date": "2026-10-15",
+        "notes": [
+          "User accepted the complete sixteen-creature corrected sheet and explicitly chose deterministic cropping/background removal to preserve the approved drawings."
+        ]
+      },
+      "native_sha256": "1c246a43e350b0c54b19b61e003a685a99e809be5743b475d7c985b688727de7",
+      "master_sha256": "b9ead497dd46d20f73197b51d697c1b39a1fa06d1ff9e9bb0fa4361671c0ee47",
+      "native_dimensions": [
+        266,
+        242
+      ],
+      "extraction_statistics": {
+        "opaque_pixels_preserved": 36995,
+        "antialiased_boundary_pixels": 1746,
+        "artwork_bounds": [
+          5,
+          5,
+          262,
+          237
+        ]
+      }
+    },
+    {
+      "name": "shaggy-bestiary-cat-russet-striped",
+      "label": "CAT II",
+      "resource": "illustrations-013",
+      "crop_bounds": [
+        420,
+        277,
+        721,
+        520
+      ],
+      "asset_type": "illustration",
+      "author": "adrian729",
+      "description": "A russet striped cat-like creature sits on small paws, with pointed ears, an anxious human-like face, pale beard and curved raised tail.",
+      "categories": [
+        "animals",
+        "hybrids",
+        "fantasy"
+      ],
+      "subjects": [
+        "cat-like-creature",
+        "human-face",
+        "shaggy-fur",
+        "curled-tail"
+      ],
+      "colors": [
+        "brown",
+        "orange",
+        "cream",
+        "black"
+      ],
+      "facing": "front",
+      "composition": "single-figure",
+      "sets": [
+        {
+          "id": "shaggy-bestiary-creatures",
+          "name": "Shaggy bestiary creatures"
+        }
+      ],
+      "method": "independent-ai-interpretation",
+      "usage_notes": [
+        "Modern AI illustration inspired by a user-supplied dog reference; no historical artist, date or source attribution is inferred.",
+        "Native cutout from the approved comparison sheet; preserve its small raster resolution and proportions. No upscaling, repeat, frame or SVG is supplied."
+      ],
+      "native_input": "sources/tiles/shaggy-bestiary-cat-russet-striped.png",
+      "master_path": "png/shaggy-bestiary-cat-russet-striped.png",
+      "source": "approved-sheet",
+      "processing": "Deterministic native crop and white-matte removal. Opaque foreground RGB is unchanged; narrow boundary pixels receive alpha and white-matte decontamination. No redraw or upscaling.",
+      "review": {
+        "status": "accepted-import-review",
+        "user_visual_review": "accepted",
+        "date": "2026-10-15",
+        "notes": [
+          "User accepted the complete sixteen-creature corrected sheet and explicitly chose deterministic cropping/background removal to preserve the approved drawings."
+        ]
+      },
+      "native_sha256": "9a36e01594e9bb8c5de2728c6ce1e81c59526687838152b43fd2a4060b4f2b55",
+      "master_sha256": "e3f8a0a0421bf7fdb0ae06fc6e675595cc3530ec122f53b53b729bfd6354f99a",
+      "native_dimensions": [
+        301,
+        243
+      ],
+      "extraction_statistics": {
+        "opaque_pixels_preserved": 41035,
+        "antialiased_boundary_pixels": 1787,
+        "artwork_bounds": [
+          5,
+          5,
+          296,
+          238
+        ]
+      }
+    },
+    {
+      "name": "shaggy-bestiary-cat-charcoal-hunched",
+      "label": "CAT III",
+      "resource": "illustrations-013",
+      "crop_bounds": [
+        788,
+        300,
+        1101,
+        524
+      ],
+      "asset_type": "illustration",
+      "author": "adrian729",
+      "description": "A rounded charcoal cat-like creature crouches with high hunched shoulders, pointed ears, a compact human-like face, pale moustache and curled tail.",
+      "categories": [
+        "animals",
+        "hybrids",
+        "fantasy"
+      ],
+      "subjects": [
+        "cat-like-creature",
+        "human-face",
+        "shaggy-fur",
+        "curled-tail"
+      ],
+      "colors": [
+        "black",
+        "brown",
+        "cream"
+      ],
+      "facing": "front",
+      "composition": "single-figure",
+      "sets": [
+        {
+          "id": "shaggy-bestiary-creatures",
+          "name": "Shaggy bestiary creatures"
+        }
+      ],
+      "method": "independent-ai-interpretation",
+      "usage_notes": [
+        "Modern AI illustration inspired by a user-supplied dog reference; no historical artist, date or source attribution is inferred.",
+        "Native cutout from the approved comparison sheet; preserve its small raster resolution and proportions. No upscaling, repeat, frame or SVG is supplied."
+      ],
+      "native_input": "sources/tiles/shaggy-bestiary-cat-charcoal-hunched.png",
+      "master_path": "png/shaggy-bestiary-cat-charcoal-hunched.png",
+      "source": "approved-sheet",
+      "processing": "Deterministic native crop and white-matte removal. Opaque foreground RGB is unchanged; narrow boundary pixels receive alpha and white-matte decontamination. No redraw or upscaling.",
+      "review": {
+        "status": "accepted-import-review",
+        "user_visual_review": "accepted",
+        "date": "2026-10-15",
+        "notes": [
+          "User accepted the complete sixteen-creature corrected sheet and explicitly chose deterministic cropping/background removal to preserve the approved drawings."
+        ]
+      },
+      "native_sha256": "95fbc36245131e0ecbad2ff713538a044e1e3fb86722364e0e248832b8751ed3",
+      "master_sha256": "4cfd52b2d0017a51627d74542810f985dc7f40efa6038c050c0b7a949d83b5e7",
+      "native_dimensions": [
+        313,
+        224
+      ],
+      "extraction_statistics": {
+        "opaque_pixels_preserved": 43918,
+        "antialiased_boundary_pixels": 1654,
+        "artwork_bounds": [
+          5,
+          5,
+          308,
+          219
+        ]
+      }
+    },
+    {
+      "name": "shaggy-bestiary-cat-brown-bearded",
+      "label": "CAT IV",
+      "resource": "illustrations-013",
+      "crop_bounds": [
+        1158,
+        276,
+        1461,
+        525
+      ],
+      "asset_type": "illustration",
+      "author": "adrian729",
+      "description": "A brown and cream cat-like creature sits with a long mournful human-like face, pointed ears, shaggy bib and thick upright curling tail.",
+      "categories": [
+        "animals",
+        "hybrids",
+        "fantasy"
+      ],
+      "subjects": [
+        "cat-like-creature",
+        "human-face",
+        "shaggy-fur",
+        "curled-tail"
+      ],
+      "colors": [
+        "brown",
+        "cream",
+        "white"
+      ],
+      "facing": "front",
+      "composition": "single-figure",
+      "sets": [
+        {
+          "id": "shaggy-bestiary-creatures",
+          "name": "Shaggy bestiary creatures"
+        }
+      ],
+      "method": "independent-ai-interpretation",
+      "usage_notes": [
+        "Modern AI illustration inspired by a user-supplied dog reference; no historical artist, date or source attribution is inferred.",
+        "Native cutout from the approved comparison sheet; preserve its small raster resolution and proportions. No upscaling, repeat, frame or SVG is supplied."
+      ],
+      "native_input": "sources/tiles/shaggy-bestiary-cat-brown-bearded.png",
+      "master_path": "png/shaggy-bestiary-cat-brown-bearded.png",
+      "source": "approved-sheet",
+      "processing": "Deterministic native crop and white-matte removal. Opaque foreground RGB is unchanged; narrow boundary pixels receive alpha and white-matte decontamination. No redraw or upscaling.",
+      "review": {
+        "status": "accepted-import-review",
+        "user_visual_review": "accepted",
+        "date": "2026-10-15",
+        "notes": [
+          "User accepted the complete sixteen-creature corrected sheet and explicitly chose deterministic cropping/background removal to preserve the approved drawings."
+        ]
+      },
+      "native_sha256": "5834637c2c3102f92aabbfa32939ba8403cebb590a7b58a6c76bfd2798301099",
+      "master_sha256": "c4899841b64cdc03dcd66c93996395b69bfd79f383f580ee06b94d172947f3e1",
+      "native_dimensions": [
+        303,
+        249
+      ],
+      "extraction_statistics": {
+        "opaque_pixels_preserved": 45297,
+        "antialiased_boundary_pixels": 1887,
+        "artwork_bounds": [
+          5,
+          5,
+          298,
+          244
+        ]
+      }
+    },
+    {
+      "name": "shaggy-bestiary-dog-broad-brow",
+      "label": "DOG V",
+      "resource": "illustrations-013",
+      "crop_bounds": [
+        49,
+        531,
+        351,
+        765
+      ],
+      "asset_type": "illustration",
+      "author": "adrian729",
+      "description": "A stocky dark dog-like creature has a broad square face, heavy flat brow, small stern human-like eyes, short beard and low plumed tail.",
+      "categories": [
+        "animals",
+        "hybrids",
+        "fantasy"
+      ],
+      "subjects": [
+        "dog-like-creature",
+        "human-face",
+        "shaggy-fur",
+        "curled-tail"
+      ],
+      "colors": [
+        "brown",
+        "black",
+        "cream"
+      ],
+      "facing": "front",
+      "composition": "single-figure",
+      "sets": [
+        {
+          "id": "shaggy-bestiary-creatures",
+          "name": "Shaggy bestiary creatures"
+        }
+      ],
+      "method": "independent-ai-interpretation",
+      "usage_notes": [
+        "Modern AI illustration inspired by a user-supplied dog reference; no historical artist, date or source attribution is inferred.",
+        "Native cutout from the approved comparison sheet; preserve its small raster resolution and proportions. No upscaling, repeat, frame or SVG is supplied."
+      ],
+      "native_input": "sources/tiles/shaggy-bestiary-dog-broad-brow.png",
+      "master_path": "png/shaggy-bestiary-dog-broad-brow.png",
+      "source": "approved-sheet",
+      "processing": "Deterministic native crop and white-matte removal. Opaque foreground RGB is unchanged; narrow boundary pixels receive alpha and white-matte decontamination. No redraw or upscaling.",
+      "review": {
+        "status": "accepted-import-review",
+        "user_visual_review": "accepted",
+        "date": "2026-10-15",
+        "notes": [
+          "User accepted the complete sixteen-creature corrected sheet and explicitly chose deterministic cropping/background removal to preserve the approved drawings."
+        ]
+      },
+      "native_sha256": "769c4883801d4eb8ea5f64621f173c4a414a7c8cfc37e3a726ace182b1a38328",
+      "master_sha256": "563228356d53d0c8a8cbe8dcb4ca2e91c484632dd55e7ab7c31e540a4451478b",
+      "native_dimensions": [
+        302,
+        234
+      ],
+      "extraction_statistics": {
+        "opaque_pixels_preserved": 47164,
+        "antialiased_boundary_pixels": 1491,
+        "artwork_bounds": [
+          5,
+          5,
+          297,
+          229
+        ]
+      }
+    },
+    {
+      "name": "shaggy-bestiary-dog-long-face",
+      "label": "DOG VI",
+      "resource": "illustrations-013",
+      "crop_bounds": [
+        410,
+        527,
+        744,
+        768
+      ],
+      "asset_type": "illustration",
+      "author": "adrian729",
+      "description": "A pale thin dog-like creature turns its elongated human-like face left, with a long curved nose, hooded eyes, hanging ear locks and flowing tail.",
+      "categories": [
+        "animals",
+        "hybrids",
+        "fantasy"
+      ],
+      "subjects": [
+        "dog-like-creature",
+        "human-face",
+        "shaggy-fur",
+        "curled-tail"
+      ],
+      "colors": [
+        "cream",
+        "gray",
+        "brown"
+      ],
+      "facing": "left",
+      "composition": "single-figure",
+      "sets": [
+        {
+          "id": "shaggy-bestiary-creatures",
+          "name": "Shaggy bestiary creatures"
+        }
+      ],
+      "method": "independent-ai-interpretation",
+      "usage_notes": [
+        "Modern AI illustration inspired by a user-supplied dog reference; no historical artist, date or source attribution is inferred.",
+        "Native cutout from the approved comparison sheet; preserve its small raster resolution and proportions. No upscaling, repeat, frame or SVG is supplied."
+      ],
+      "native_input": "sources/tiles/shaggy-bestiary-dog-long-face.png",
+      "master_path": "png/shaggy-bestiary-dog-long-face.png",
+      "source": "approved-sheet",
+      "processing": "Deterministic native crop and white-matte removal. Opaque foreground RGB is unchanged; narrow boundary pixels receive alpha and white-matte decontamination. No redraw or upscaling.",
+      "review": {
+        "status": "accepted-import-review",
+        "user_visual_review": "accepted",
+        "date": "2026-10-15",
+        "notes": [
+          "User accepted the complete sixteen-creature corrected sheet and explicitly chose deterministic cropping/background removal to preserve the approved drawings."
+        ]
+      },
+      "native_sha256": "ed1fa28869bda89607fa258679ce7d1778cba635f786c8b10062bef4e1f1f30c",
+      "master_sha256": "af6478c28ac2057e84207738c7cc3f5379361d18ba54d014ed30bfa1ae0012a3",
+      "native_dimensions": [
+        334,
+        241
+      ],
+      "extraction_statistics": {
+        "opaque_pixels_preserved": 43076,
+        "antialiased_boundary_pixels": 2187,
+        "artwork_bounds": [
+          5,
+          5,
+          329,
+          236
+        ]
+      }
+    },
+    {
+      "name": "shaggy-bestiary-dog-russet-smiling",
+      "label": "DOG VII",
+      "resource": "illustrations-013",
+      "crop_bounds": [
+        777,
+        539,
+        1068,
+        765
+      ],
+      "asset_type": "illustration",
+      "author": "adrian729",
+      "description": "A round russet dog-like creature raises one forepaw, with small human-like eyes, a short broad nose, an uneven smile and curling tail.",
+      "categories": [
+        "animals",
+        "hybrids",
+        "fantasy"
+      ],
+      "subjects": [
+        "dog-like-creature",
+        "human-face",
+        "shaggy-fur",
+        "curled-tail"
+      ],
+      "colors": [
+        "brown",
+        "orange",
+        "cream"
+      ],
+      "facing": "front",
+      "composition": "single-figure",
+      "sets": [
+        {
+          "id": "shaggy-bestiary-creatures",
+          "name": "Shaggy bestiary creatures"
+        }
+      ],
+      "method": "independent-ai-interpretation",
+      "usage_notes": [
+        "Modern AI illustration inspired by a user-supplied dog reference; no historical artist, date or source attribution is inferred.",
+        "Native cutout from the approved comparison sheet; preserve its small raster resolution and proportions. No upscaling, repeat, frame or SVG is supplied."
+      ],
+      "native_input": "sources/tiles/shaggy-bestiary-dog-russet-smiling.png",
+      "master_path": "png/shaggy-bestiary-dog-russet-smiling.png",
+      "source": "approved-sheet",
+      "processing": "Deterministic native crop and white-matte removal. Opaque foreground RGB is unchanged; narrow boundary pixels receive alpha and white-matte decontamination. No redraw or upscaling.",
+      "review": {
+        "status": "accepted-import-review",
+        "user_visual_review": "accepted",
+        "date": "2026-10-15",
+        "notes": [
+          "User accepted the complete sixteen-creature corrected sheet and explicitly chose deterministic cropping/background removal to preserve the approved drawings."
+        ]
+      },
+      "native_sha256": "dd381e904173ea5582af78cd17461a87bbf19d351f5e96ad45ccd8a8ffd78a82",
+      "master_sha256": "75b8946a5a66e1702d8f6e6009d19a960693f81076b7b69850b1096741fbd35f",
+      "native_dimensions": [
+        291,
+        226
+      ],
+      "extraction_statistics": {
+        "opaque_pixels_preserved": 40615,
+        "antialiased_boundary_pixels": 1648,
+        "artwork_bounds": [
+          5,
+          5,
+          286,
+          221
+        ]
+      }
+    },
+    {
+      "name": "shaggy-bestiary-dog-crooked-face",
+      "label": "DOG VIII",
+      "resource": "illustrations-013",
+      "crop_bounds": [
+        1092,
+        544,
+        1492,
+        779
+      ],
+      "asset_type": "illustration",
+      "author": "adrian729",
+      "description": "A dark crouching dog-like creature has an asymmetrical human-like face, uneven eyelids, a crooked mouth, sweeping pale moustache and broad low tail.",
+      "categories": [
+        "animals",
+        "hybrids",
+        "fantasy"
+      ],
+      "subjects": [
+        "dog-like-creature",
+        "human-face",
+        "shaggy-fur",
+        "curled-tail"
+      ],
+      "colors": [
+        "black",
+        "brown",
+        "cream"
+      ],
+      "facing": "front",
+      "composition": "single-figure",
+      "sets": [
+        {
+          "id": "shaggy-bestiary-creatures",
+          "name": "Shaggy bestiary creatures"
+        }
+      ],
+      "method": "independent-ai-interpretation",
+      "usage_notes": [
+        "Modern AI illustration inspired by a user-supplied dog reference; no historical artist, date or source attribution is inferred.",
+        "Native cutout from the approved comparison sheet; preserve its small raster resolution and proportions. No upscaling, repeat, frame or SVG is supplied."
+      ],
+      "native_input": "sources/tiles/shaggy-bestiary-dog-crooked-face.png",
+      "master_path": "png/shaggy-bestiary-dog-crooked-face.png",
+      "source": "approved-sheet",
+      "processing": "Deterministic native crop and white-matte removal. Opaque foreground RGB is unchanged; narrow boundary pixels receive alpha and white-matte decontamination. No redraw or upscaling.",
+      "review": {
+        "status": "accepted-import-review",
+        "user_visual_review": "accepted",
+        "date": "2026-10-15",
+        "notes": [
+          "User accepted the complete sixteen-creature corrected sheet and explicitly chose deterministic cropping/background removal to preserve the approved drawings."
+        ]
+      },
+      "native_sha256": "38a8808f3c71bee79f6c7faaff67b6b30cc41f71e3dabf9ee3505c82280f40ac",
+      "master_sha256": "33734c00016c6969b8e1622946f3c8b31b19a9f211ce18ac9f8c64de2d5a5997",
+      "native_dimensions": [
+        400,
+        235
+      ],
+      "extraction_statistics": {
+        "opaque_pixels_preserved": 53112,
+        "antialiased_boundary_pixels": 2248,
+        "artwork_bounds": [
+          5,
+          5,
+          395,
+          230
+        ]
+      }
+    },
+    {
+      "name": "shaggy-bestiary-cat-angular-face",
+      "label": "CAT V",
+      "resource": "illustrations-013",
+      "crop_bounds": [
+        65,
+        780,
+        335,
+        1002
+      ],
+      "asset_type": "illustration",
+      "author": "adrian729",
+      "description": "A slender pale cat-like creature sits with tall pointed ears, a narrow angular human-like face, slanted eyes, forked chin tuft and curved tail.",
+      "categories": [
+        "animals",
+        "hybrids",
+        "fantasy"
+      ],
+      "subjects": [
+        "cat-like-creature",
+        "human-face",
+        "shaggy-fur",
+        "curled-tail"
+      ],
+      "colors": [
+        "cream",
+        "gray",
+        "brown"
+      ],
+      "facing": "front",
+      "composition": "single-figure",
+      "sets": [
+        {
+          "id": "shaggy-bestiary-creatures",
+          "name": "Shaggy bestiary creatures"
+        }
+      ],
+      "method": "independent-ai-interpretation",
+      "usage_notes": [
+        "Modern AI illustration inspired by a user-supplied dog reference; no historical artist, date or source attribution is inferred.",
+        "Native cutout from the approved comparison sheet; preserve its small raster resolution and proportions. No upscaling, repeat, frame or SVG is supplied."
+      ],
+      "native_input": "sources/tiles/shaggy-bestiary-cat-angular-face.png",
+      "master_path": "png/shaggy-bestiary-cat-angular-face.png",
+      "source": "approved-sheet",
+      "processing": "Deterministic native crop and white-matte removal. Opaque foreground RGB is unchanged; narrow boundary pixels receive alpha and white-matte decontamination. No redraw or upscaling.",
+      "review": {
+        "status": "accepted-import-review",
+        "user_visual_review": "accepted",
+        "date": "2026-10-15",
+        "notes": [
+          "User accepted the complete sixteen-creature corrected sheet and explicitly chose deterministic cropping/background removal to preserve the approved drawings."
+        ]
+      },
+      "native_sha256": "90b5df596437d7250aad8956620c3340c96b98f8779dce2c1e8779d23d0de253",
+      "master_sha256": "8d4175f777210e466ff4428f8794915c85ff2daacdd303cc54461371fd0ef7b3",
+      "native_dimensions": [
+        270,
+        222
+      ],
+      "extraction_statistics": {
+        "opaque_pixels_preserved": 33765,
+        "antialiased_boundary_pixels": 1872,
+        "artwork_bounds": [
+          5,
+          5,
+          265,
+          217
+        ]
+      }
+    },
+    {
+      "name": "shaggy-bestiary-cat-cream-sleepy",
+      "label": "CAT VI",
+      "resource": "illustrations-013",
+      "crop_bounds": [
+        394,
+        787,
+        727,
+        1004
+      ],
+      "asset_type": "illustration",
+      "author": "adrian729",
+      "description": "A low cream cat-like creature has a very broad sleepy human-like face, half-closed eyes, small pointed ears, uneven shaggy shoulders and a tail wrapped around its paws.",
+      "categories": [
+        "animals",
+        "hybrids",
+        "fantasy"
+      ],
+      "subjects": [
+        "cat-like-creature",
+        "human-face",
+        "shaggy-fur",
+        "curled-tail"
+      ],
+      "colors": [
+        "cream",
+        "brown",
+        "gray"
+      ],
+      "facing": "front",
+      "composition": "single-figure",
+      "sets": [
+        {
+          "id": "shaggy-bestiary-creatures",
+          "name": "Shaggy bestiary creatures"
+        }
+      ],
+      "method": "independent-ai-interpretation",
+      "usage_notes": [
+        "Modern AI illustration inspired by a user-supplied dog reference; no historical artist, date or source attribution is inferred.",
+        "Native cutout from the approved comparison sheet; preserve its small raster resolution and proportions. No upscaling, repeat, frame or SVG is supplied."
+      ],
+      "native_input": "sources/tiles/shaggy-bestiary-cat-cream-sleepy.png",
+      "master_path": "png/shaggy-bestiary-cat-cream-sleepy.png",
+      "source": "approved-sheet",
+      "processing": "Deterministic native crop and white-matte removal. Opaque foreground RGB is unchanged; narrow boundary pixels receive alpha and white-matte decontamination. No redraw or upscaling.",
+      "review": {
+        "status": "accepted-import-review",
+        "user_visual_review": "accepted",
+        "date": "2026-10-15",
+        "notes": [
+          "User accepted the complete sixteen-creature corrected sheet and explicitly chose deterministic cropping/background removal to preserve the approved drawings."
+        ]
+      },
+      "native_sha256": "868dfa9ca4ea9a02c23b99e58f42be9debe56e9a3a10db1aa06a2ec0effeaab1",
+      "master_sha256": "704da7c9b349de36301a4317a72ffde8bb0461fa0b28ca3bd72f9adcabc8558b",
+      "native_dimensions": [
+        333,
+        217
+      ],
+      "extraction_statistics": {
+        "opaque_pixels_preserved": 47225,
+        "antialiased_boundary_pixels": 1424,
+        "artwork_bounds": [
+          5,
+          5,
+          328,
+          212
+        ]
+      }
+    },
+    {
+      "name": "shaggy-bestiary-cat-tall-brow",
+      "label": "CAT VII",
+      "resource": "illustrations-013",
+      "crop_bounds": [
+        792,
+        774,
+        1040,
+        998
+      ],
+      "asset_type": "illustration",
+      "author": "adrian729",
+      "description": "A wiry russet cat-like creature has a tall domed human-like forehead, unequal hooded eyes, a slightly open mouth, high shoulders and a thin curling tail.",
+      "categories": [
+        "animals",
+        "hybrids",
+        "fantasy"
+      ],
+      "subjects": [
+        "cat-like-creature",
+        "human-face",
+        "shaggy-fur",
+        "curled-tail"
+      ],
+      "colors": [
+        "brown",
+        "orange",
+        "cream"
+      ],
+      "facing": "front",
+      "composition": "single-figure",
+      "sets": [
+        {
+          "id": "shaggy-bestiary-creatures",
+          "name": "Shaggy bestiary creatures"
+        }
+      ],
+      "method": "independent-ai-interpretation",
+      "usage_notes": [
+        "Modern AI illustration inspired by a user-supplied dog reference; no historical artist, date or source attribution is inferred.",
+        "Native cutout from the approved comparison sheet; preserve its small raster resolution and proportions. No upscaling, repeat, frame or SVG is supplied."
+      ],
+      "native_input": "sources/tiles/shaggy-bestiary-cat-tall-brow.png",
+      "master_path": "png/shaggy-bestiary-cat-tall-brow.png",
+      "source": "approved-sheet",
+      "processing": "Deterministic native crop and white-matte removal. Opaque foreground RGB is unchanged; narrow boundary pixels receive alpha and white-matte decontamination. No redraw or upscaling.",
+      "review": {
+        "status": "accepted-import-review",
+        "user_visual_review": "accepted",
+        "date": "2026-10-15",
+        "notes": [
+          "User accepted the complete sixteen-creature corrected sheet and explicitly chose deterministic cropping/background removal to preserve the approved drawings."
+        ]
+      },
+      "native_sha256": "54c2b2298e793bd521be27051de5a05fb9e48283f4bf4af271113c935fa36a15",
+      "master_sha256": "d2586e708eb89920077ac5efea0b0c179c7573f125cf76f3b48aac1bd77258e0",
+      "native_dimensions": [
+        248,
+        224
+      ],
+      "extraction_statistics": {
+        "opaque_pixels_preserved": 33778,
+        "antialiased_boundary_pixels": 1727,
+        "artwork_bounds": [
+          5,
+          5,
+          243,
+          219
+        ]
+      }
+    },
+    {
+      "name": "shaggy-bestiary-cat-drooping-cheeks",
+      "label": "CAT VIII",
+      "resource": "illustrations-013",
+      "crop_bounds": [
+        1104,
+        796,
+        1492,
+        1001
+      ],
+      "asset_type": "illustration",
+      "author": "adrian729",
+      "description": "A brown and cream cat-like creature reclines with drooping cheeks, uneven human-like eyes, a long closed mouth, parted pale whiskers and a thick looping tail.",
+      "categories": [
+        "animals",
+        "hybrids",
+        "fantasy"
+      ],
+      "subjects": [
+        "cat-like-creature",
+        "human-face",
+        "shaggy-fur",
+        "curled-tail"
+      ],
+      "colors": [
+        "brown",
+        "cream",
+        "white"
+      ],
+      "facing": "front",
+      "composition": "single-figure",
+      "sets": [
+        {
+          "id": "shaggy-bestiary-creatures",
+          "name": "Shaggy bestiary creatures"
+        }
+      ],
+      "method": "independent-ai-interpretation",
+      "usage_notes": [
+        "Modern AI illustration inspired by a user-supplied dog reference; no historical artist, date or source attribution is inferred.",
+        "Native cutout from the approved comparison sheet; preserve its small raster resolution and proportions. No upscaling, repeat, frame or SVG is supplied."
+      ],
+      "native_input": "sources/tiles/shaggy-bestiary-cat-drooping-cheeks.png",
+      "master_path": "png/shaggy-bestiary-cat-drooping-cheeks.png",
+      "source": "approved-sheet",
+      "processing": "Deterministic native crop and white-matte removal. Opaque foreground RGB is unchanged; narrow boundary pixels receive alpha and white-matte decontamination. No redraw or upscaling.",
+      "review": {
+        "status": "accepted-import-review",
+        "user_visual_review": "accepted",
+        "date": "2026-10-15",
+        "notes": [
+          "User accepted the complete sixteen-creature corrected sheet and explicitly chose deterministic cropping/background removal to preserve the approved drawings."
+        ]
+      },
+      "native_sha256": "06b7a22fdb706fee010baefb3d14845a959a663b4cf87bbe0b0d539f90a093bf",
+      "master_sha256": "93dd69664a3203b13591c29f47178f55a34337bd22a6c5a2ce50d2ac912f3537",
+      "native_dimensions": [
+        388,
+        205
+      ],
+      "extraction_statistics": {
+        "opaque_pixels_preserved": 48734,
+        "antialiased_boundary_pixels": 1905,
+        "artwork_bounds": [
+          5,
+          5,
+          383,
+          200
+        ]
+      }
+    }
+  ]
+}

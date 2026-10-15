@@ -1,5 +1,33 @@
 # Artwork and frame verification
 
+## Bestiary production preparation (2026-10-15)
+
+All sixteen approved figures were imported into illustrations-013 as individual
+transparent PNG/lossless WebP images, preserving the opaque source RGB pixels.
+The original dog and both earlier accepted sheets are retained unchanged as
+shared authoring inputs. The final approved sheet supplies every native crop;
+there is no redraw, upscale, removal or invented historical attribution.
+Deterministic `import_bestiary.py --check` verifies all sixteen native/master
+hashes. All 710 previous catalog entries and all previous illustrations-013
+public/native manifest records remain unchanged.
+
+The 49 unit tests and public TypeScript checks pass. The isolated illustration
+build fixture preserves all 3,046 imported files and PNG masters, rejects
+collisions before writes and generates a new entry without upscaling. Browser
+inspection finds and decodes all sixteen gallery thumbnails and full previews
+at 1200px and 375px, with 1.25 device pixel ratio on light/dark backgrounds:
+64 full-preview cases, no overflow, upscaling, failed requests or browser errors.
+All native figures were also visually inspected together against the reference.
+Reports and review PNGs remain under ignored `tmp/bestiary-integration/`.
+
+The approved illustrations-013 0.1.2 resource contains 337 public files and 42
+native inputs. Its measured public artwork is 89,755,274 bytes; the delivery-order
+package is 82,287,505 bytes packed / 90,039,379 bytes unpacked before its workflow
+pin update, within the 140 MB package limit. The built site is 49,335,449 bytes,
+below its 50 MB guard, and excludes the retained generation sheets. The runtime
+0.12.0 candidate contains 726 designs. Publication and final consumer validation
+follow resource publication/CDN checks and exact clean source locks.
+
 ## Acanthus production preparation (2026-10-15)
 
 The user accepted the expanded 15-piece set and requested production validation

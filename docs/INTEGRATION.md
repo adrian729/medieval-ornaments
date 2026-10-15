@@ -425,8 +425,8 @@ previously the artwork was included in every runtime installation. Versions
 
 ## Native browser modules, no bundler
 
-Download the [browser ZIP](https://github.com/adrian729/medieval-ornaments/releases/download/v0.11.0/medieval-ornaments-browser.zip)
-and its [PNG companion ZIP](https://github.com/adrian729/medieval-ornaments/releases/download/v0.11.0/medieval-ornaments-browser-png.zip).
+Download the [browser ZIP](https://github.com/adrian729/medieval-ornaments/releases/download/v0.12.0/medieval-ornaments-browser.zip)
+and its [PNG companion ZIP](https://github.com/adrian729/medieval-ornaments/releases/download/v0.12.0/medieval-ornaments-browser-png.zip).
 Extract both into the same directory, merging their `medieval-ornaments-browser`
 folders, then serve that folder over HTTP. Together they contain every format
 and a self-hosted vanilla example. Two ordinary ZIPs keep each download below

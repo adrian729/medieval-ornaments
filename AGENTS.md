@@ -158,3 +158,18 @@ decorations-010 0.1.2; main owns metadata, audits and composition examples.
 The resource lock remains null until publication/CDN verification. These local
 commits do not replace published runtime 0.11.0. Read the current QA.md and
 PACKAGE-PLAN.md handoff before releasing; the paused historical work stays paused.
+
+Shaggy bestiary integration (2026-10-15): `bestiary-additions.json` audits sixteen
+approved modern AI dog/cat figures, all retained as native transparent images in
+illustrations-013. `sources/bestiary/` preserves the exact accepted generation
+sheets and separate original reference; exclude these authoring inputs from
+Pages and runtime packages. `scripts/import_bestiary.py` reproduces deterministic
+crops/background removal with exact opaque RGB retention and documented edge
+alpha cleanup; `--check` verifies retained native/master hashes. No regeneration,
+upscaling or inferred historical attribution. `shaggy-bestiary-creatures` groups
+all sixteen independent illustrations. `scripts/build_bestiary_preview.py`
+produces an ignored light/dark comparison including the original reference.
+The 0.12.0 candidate includes the prior eight acanthus additions and these sixteen
+figures: 726 designs (89 borders, 289 decorations, 348 illustrations). Publication
+and exact source pins are tracked in QA.md and PACKAGE-PLAN.md. The historical
+unfinished-source pause remains in effect.

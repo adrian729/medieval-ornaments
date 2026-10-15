@@ -22,14 +22,15 @@ await mkdir(path.join(site, 'sources'));
 for (const entry of await readdir(path.join(root, 'sources'), { withFileTypes: true })) {
   // Canonical native inputs and traces belong to resource repositories.
   // Local aliases must never be uploaded to Pages.
-  if (['traces','tiles'].includes(entry.name)) continue;
+  // Bestiary generation sheets are retained authoring inputs, not site assets.
+  if (['traces','tiles','bestiary'].includes(entry.name)) continue;
   await cp(path.join(root, 'sources', entry.name), path.join(site, 'sources', entry.name), { recursive: true, filter: source => !ownedPaths().has(path.relative(root,source).split(path.sep).join('/')) });
 }
 const files = ['index.html', 'ornaments.css', 'favicon.svg', 'favicon-32.png', 'favicon.ico',
   'images.json', 'images.schema.json', 'illustrations.json', 'illustration-import.json',
   'selection-metadata.json', 'assets-manifest.json', 'LICENSE', 'source-patterns.json',
   'additional-patterns.json', 'reference-crops.json', 'raster-metadata.json', 'EXTRACTION-PROMPTS.json',
-  'historical-additions.json', 'historical-border-patterns.json', 'finished-additions.json', 'finished-border-patterns.json', 'illustration-additions.json', 'authored-additions.json', 'acanthus-additions.json',
+  'historical-additions.json', 'historical-border-patterns.json', 'finished-additions.json', 'finished-border-patterns.json', 'illustration-additions.json', 'authored-additions.json', 'acanthus-additions.json', 'bestiary-additions.json',
   ...(await readdir(root)).filter(name => name.endsWith('.md'))];
 for (const name of files) {
   const source = path.join(root, name), target = path.join(site, name);

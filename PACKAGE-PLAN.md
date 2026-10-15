@@ -699,3 +699,28 @@ Committed preparation: main approval/tooling
 pin the main approval commit. Push these prepared commits before invoking the
 resource publication workflow; adopt the source lock only after CDN verification.
 QA.md records the candidate package, browser and source-history checks.
+
+## Shaggy bestiary integration and 0.12.0 release (2026-10-15)
+
+The user approved all sixteen modern AI dog/cat illustrations and explicitly
+chose deterministic crops/background removal to retain the exact drawings.
+`bestiary-additions.json` retains source hashes, every exact generation prompt,
+selection metadata, native crop bounds and the extraction method. The supplied
+original remains comparison-only. All sixteen figures are complete, independently
+selectable whole images, grouped as `shaggy-bestiary-creatures`.
+
+The sixteen assignments were planned before writes in illustrations-013. Their
+new public files add 6,546,901 bytes and retained native crops add 2,106,423 bytes;
+the approved 0.1.2 resource has 89,755,274 public bytes, below its 140 MB cap.
+Native masters are 248–400 pixels on their longest side; smaller PNG/WebP variants
+come directly from those masters. No upscaled export, SVG, repeat or frame is
+inferred. All previous 710 catalog entries and prior resource inventory records
+remain unchanged. The candidate contains 726 designs: 89 borders, 289 decorations
+and 348 illustrations. The existing 1 MB packed / 6 MB unpacked runtime limits
+remain in force.
+
+The user authorized pushing, publishing and releasing the complete production
+update, including the previously committed acanthus additions. Publish and
+CDN-verify decorations-010 0.1.2 and illustrations-013 0.1.2, lock both exact clean
+source commits, then publish runtime 0.12.0, Pages and both offline browser ZIPs.
+The 35 unfinished historical source extractions remain paused.

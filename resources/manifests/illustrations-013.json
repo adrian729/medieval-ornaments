@@ -3,7 +3,7 @@
   "id": "illustrations-013",
   "collection": "illustrations",
   "package": "@ranx729/medieval-ornaments-assets-illustrations-013",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "designs": {
     "ape-gripping-leafy-stalk": {
       "name": "ape-gripping-leafy-stalk",
@@ -1316,6 +1316,674 @@
         "png"
       ]
     },
+    "shaggy-bestiary-cat-angular-face": {
+      "name": "shaggy-bestiary-cat-angular-face",
+      "asset_type": "illustration",
+      "kind": "standalone",
+      "derivation": "independent-ai-interpretation",
+      "repeat_axis": "none",
+      "width": 270,
+      "height": 222,
+      "png": "png/shaggy-bestiary-cat-angular-face.png",
+      "webp": "webp/shaggy-bestiary-cat-angular-face.webp",
+      "png_bytes": 106786,
+      "webp_bytes": 71722,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/shaggy-bestiary-cat-angular-face.png",
+          "webp": "webp/128/shaggy-bestiary-cat-angular-face.webp",
+          "width": 128,
+          "height": 105,
+          "png_bytes": 31251,
+          "webp_bytes": 22556
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/shaggy-bestiary-cat-angular-face.png",
+          "webp": "webp/256/shaggy-bestiary-cat-angular-face.webp",
+          "width": 256,
+          "height": 210,
+          "png_bytes": 105451,
+          "webp_bytes": 70872
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "shaggy-bestiary-cat-brown-bearded": {
+      "name": "shaggy-bestiary-cat-brown-bearded",
+      "asset_type": "illustration",
+      "kind": "standalone",
+      "derivation": "independent-ai-interpretation",
+      "repeat_axis": "none",
+      "width": 303,
+      "height": 249,
+      "png": "png/shaggy-bestiary-cat-brown-bearded.png",
+      "webp": "webp/shaggy-bestiary-cat-brown-bearded.webp",
+      "png_bytes": 137341,
+      "webp_bytes": 90672,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/shaggy-bestiary-cat-brown-bearded.png",
+          "webp": "webp/128/shaggy-bestiary-cat-brown-bearded.webp",
+          "width": 128,
+          "height": 105,
+          "png_bytes": 31482,
+          "webp_bytes": 24412
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/shaggy-bestiary-cat-brown-bearded.png",
+          "webp": "webp/256/shaggy-bestiary-cat-brown-bearded.webp",
+          "width": 256,
+          "height": 210,
+          "png_bytes": 108272,
+          "webp_bytes": 73558
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "shaggy-bestiary-cat-charcoal-hunched": {
+      "name": "shaggy-bestiary-cat-charcoal-hunched",
+      "asset_type": "illustration",
+      "kind": "standalone",
+      "derivation": "independent-ai-interpretation",
+      "repeat_axis": "none",
+      "width": 313,
+      "height": 224,
+      "png": "png/shaggy-bestiary-cat-charcoal-hunched.png",
+      "webp": "webp/shaggy-bestiary-cat-charcoal-hunched.webp",
+      "png_bytes": 128783,
+      "webp_bytes": 83762,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/shaggy-bestiary-cat-charcoal-hunched.png",
+          "webp": "webp/128/shaggy-bestiary-cat-charcoal-hunched.webp",
+          "width": 128,
+          "height": 92,
+          "png_bytes": 27312,
+          "webp_bytes": 20516
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/shaggy-bestiary-cat-charcoal-hunched.png",
+          "webp": "webp/256/shaggy-bestiary-cat-charcoal-hunched.webp",
+          "width": 256,
+          "height": 183,
+          "png_bytes": 94781,
+          "webp_bytes": 63788
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "shaggy-bestiary-cat-cream-sleepy": {
+      "name": "shaggy-bestiary-cat-cream-sleepy",
+      "asset_type": "illustration",
+      "kind": "standalone",
+      "derivation": "independent-ai-interpretation",
+      "repeat_axis": "none",
+      "width": 333,
+      "height": 217,
+      "png": "png/shaggy-bestiary-cat-cream-sleepy.png",
+      "webp": "webp/shaggy-bestiary-cat-cream-sleepy.webp",
+      "png_bytes": 132577,
+      "webp_bytes": 86996,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/shaggy-bestiary-cat-cream-sleepy.png",
+          "webp": "webp/128/shaggy-bestiary-cat-cream-sleepy.webp",
+          "width": 128,
+          "height": 83,
+          "png_bytes": 23857,
+          "webp_bytes": 18932
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/shaggy-bestiary-cat-cream-sleepy.png",
+          "webp": "webp/256/shaggy-bestiary-cat-cream-sleepy.webp",
+          "width": 256,
+          "height": 167,
+          "png_bytes": 86001,
+          "webp_bytes": 58846
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "shaggy-bestiary-cat-drooping-cheeks": {
+      "name": "shaggy-bestiary-cat-drooping-cheeks",
+      "asset_type": "illustration",
+      "kind": "standalone",
+      "derivation": "independent-ai-interpretation",
+      "repeat_axis": "none",
+      "width": 388,
+      "height": 205,
+      "png": "png/shaggy-bestiary-cat-drooping-cheeks.png",
+      "webp": "webp/shaggy-bestiary-cat-drooping-cheeks.webp",
+      "png_bytes": 143172,
+      "webp_bytes": 94604,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/shaggy-bestiary-cat-drooping-cheeks.png",
+          "webp": "webp/128/shaggy-bestiary-cat-drooping-cheeks.webp",
+          "width": 128,
+          "height": 68,
+          "png_bytes": 20672,
+          "webp_bytes": 16838
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/shaggy-bestiary-cat-drooping-cheeks.png",
+          "webp": "webp/256/shaggy-bestiary-cat-drooping-cheeks.webp",
+          "width": 256,
+          "height": 135,
+          "png_bytes": 71726,
+          "webp_bytes": 57888
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "shaggy-bestiary-cat-pale-bearded": {
+      "name": "shaggy-bestiary-cat-pale-bearded",
+      "asset_type": "illustration",
+      "kind": "standalone",
+      "derivation": "independent-ai-interpretation",
+      "repeat_axis": "none",
+      "width": 266,
+      "height": 242,
+      "png": "png/shaggy-bestiary-cat-pale-bearded.png",
+      "webp": "webp/shaggy-bestiary-cat-pale-bearded.webp",
+      "png_bytes": 112554,
+      "webp_bytes": 71740,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/shaggy-bestiary-cat-pale-bearded.png",
+          "webp": "webp/128/shaggy-bestiary-cat-pale-bearded.webp",
+          "width": 128,
+          "height": 116,
+          "png_bytes": 33229,
+          "webp_bytes": 23948
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/shaggy-bestiary-cat-pale-bearded.png",
+          "webp": "webp/256/shaggy-bestiary-cat-pale-bearded.webp",
+          "width": 256,
+          "height": 233,
+          "png_bytes": 113324,
+          "webp_bytes": 77336
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "shaggy-bestiary-cat-russet-striped": {
+      "name": "shaggy-bestiary-cat-russet-striped",
+      "asset_type": "illustration",
+      "kind": "standalone",
+      "derivation": "independent-ai-interpretation",
+      "repeat_axis": "none",
+      "width": 301,
+      "height": 243,
+      "png": "png/shaggy-bestiary-cat-russet-striped.png",
+      "webp": "webp/shaggy-bestiary-cat-russet-striped.webp",
+      "png_bytes": 123962,
+      "webp_bytes": 86832,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/shaggy-bestiary-cat-russet-striped.png",
+          "webp": "webp/128/shaggy-bestiary-cat-russet-striped.webp",
+          "width": 128,
+          "height": 103,
+          "png_bytes": 28929,
+          "webp_bytes": 23170
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/shaggy-bestiary-cat-russet-striped.png",
+          "webp": "webp/256/shaggy-bestiary-cat-russet-striped.webp",
+          "width": 256,
+          "height": 207,
+          "png_bytes": 99496,
+          "webp_bytes": 72402
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "shaggy-bestiary-cat-tall-brow": {
+      "name": "shaggy-bestiary-cat-tall-brow",
+      "asset_type": "illustration",
+      "kind": "standalone",
+      "derivation": "independent-ai-interpretation",
+      "repeat_axis": "none",
+      "width": 248,
+      "height": 224,
+      "png": "png/shaggy-bestiary-cat-tall-brow.png",
+      "webp": "webp/shaggy-bestiary-cat-tall-brow.webp",
+      "png_bytes": 103199,
+      "webp_bytes": 70332,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/shaggy-bestiary-cat-tall-brow.png",
+          "webp": "webp/128/shaggy-bestiary-cat-tall-brow.webp",
+          "width": 128,
+          "height": 116,
+          "png_bytes": 34246,
+          "webp_bytes": 25434
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "shaggy-bestiary-dog-broad-brow": {
+      "name": "shaggy-bestiary-dog-broad-brow",
+      "asset_type": "illustration",
+      "kind": "standalone",
+      "derivation": "independent-ai-interpretation",
+      "repeat_axis": "none",
+      "width": 302,
+      "height": 234,
+      "png": "png/shaggy-bestiary-dog-broad-brow.png",
+      "webp": "webp/shaggy-bestiary-dog-broad-brow.webp",
+      "png_bytes": 137971,
+      "webp_bytes": 91380,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/shaggy-bestiary-dog-broad-brow.png",
+          "webp": "webp/128/shaggy-bestiary-dog-broad-brow.webp",
+          "width": 128,
+          "height": 99,
+          "png_bytes": 30000,
+          "webp_bytes": 23280
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/shaggy-bestiary-dog-broad-brow.png",
+          "webp": "webp/256/shaggy-bestiary-dog-broad-brow.webp",
+          "width": 256,
+          "height": 198,
+          "png_bytes": 106724,
+          "webp_bytes": 75674
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "shaggy-bestiary-dog-charcoal-bearded": {
+      "name": "shaggy-bestiary-dog-charcoal-bearded",
+      "asset_type": "illustration",
+      "kind": "standalone",
+      "derivation": "independent-ai-interpretation",
+      "repeat_axis": "none",
+      "width": 290,
+      "height": 255,
+      "png": "png/shaggy-bestiary-dog-charcoal-bearded.png",
+      "webp": "webp/shaggy-bestiary-dog-charcoal-bearded.webp",
+      "png_bytes": 137639,
+      "webp_bytes": 89990,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/shaggy-bestiary-dog-charcoal-bearded.png",
+          "webp": "webp/128/shaggy-bestiary-dog-charcoal-bearded.webp",
+          "width": 128,
+          "height": 113,
+          "png_bytes": 33031,
+          "webp_bytes": 26058
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/shaggy-bestiary-dog-charcoal-bearded.png",
+          "webp": "webp/256/shaggy-bestiary-dog-charcoal-bearded.webp",
+          "width": 256,
+          "height": 225,
+          "png_bytes": 115478,
+          "webp_bytes": 75614
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "shaggy-bestiary-dog-crooked-face": {
+      "name": "shaggy-bestiary-dog-crooked-face",
+      "asset_type": "illustration",
+      "kind": "standalone",
+      "derivation": "independent-ai-interpretation",
+      "repeat_axis": "none",
+      "width": 400,
+      "height": 235,
+      "png": "png/shaggy-bestiary-dog-crooked-face.png",
+      "webp": "webp/shaggy-bestiary-dog-crooked-face.webp",
+      "png_bytes": 157513,
+      "webp_bytes": 102974,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/shaggy-bestiary-dog-crooked-face.png",
+          "webp": "webp/128/shaggy-bestiary-dog-crooked-face.webp",
+          "width": 128,
+          "height": 75,
+          "png_bytes": 20802,
+          "webp_bytes": 15322
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/shaggy-bestiary-dog-crooked-face.png",
+          "webp": "webp/256/shaggy-bestiary-dog-crooked-face.webp",
+          "width": 256,
+          "height": 150,
+          "png_bytes": 74324,
+          "webp_bytes": 50718
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "shaggy-bestiary-dog-long-face": {
+      "name": "shaggy-bestiary-dog-long-face",
+      "asset_type": "illustration",
+      "kind": "standalone",
+      "derivation": "independent-ai-interpretation",
+      "repeat_axis": "none",
+      "width": 334,
+      "height": 241,
+      "png": "png/shaggy-bestiary-dog-long-face.png",
+      "webp": "webp/shaggy-bestiary-dog-long-face.webp",
+      "png_bytes": 133637,
+      "webp_bytes": 87622,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/shaggy-bestiary-dog-long-face.png",
+          "webp": "webp/128/shaggy-bestiary-dog-long-face.webp",
+          "width": 128,
+          "height": 92,
+          "png_bytes": 25401,
+          "webp_bytes": 18164
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/shaggy-bestiary-dog-long-face.png",
+          "webp": "webp/256/shaggy-bestiary-dog-long-face.webp",
+          "width": 256,
+          "height": 185,
+          "png_bytes": 88946,
+          "webp_bytes": 60648
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "shaggy-bestiary-dog-pale-raised-paw": {
+      "name": "shaggy-bestiary-dog-pale-raised-paw",
+      "asset_type": "illustration",
+      "kind": "standalone",
+      "derivation": "independent-ai-interpretation",
+      "repeat_axis": "none",
+      "width": 256,
+      "height": 256,
+      "png": "png/shaggy-bestiary-dog-pale-raised-paw.png",
+      "webp": "webp/shaggy-bestiary-dog-pale-raised-paw.webp",
+      "png_bytes": 112293,
+      "webp_bytes": 73240,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/shaggy-bestiary-dog-pale-raised-paw.png",
+          "webp": "webp/128/shaggy-bestiary-dog-pale-raised-paw.webp",
+          "width": 128,
+          "height": 128,
+          "png_bytes": 34770,
+          "webp_bytes": 25124
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "shaggy-bestiary-dog-russet-seated": {
+      "name": "shaggy-bestiary-dog-russet-seated",
+      "asset_type": "illustration",
+      "kind": "standalone",
+      "derivation": "independent-ai-interpretation",
+      "repeat_axis": "none",
+      "width": 271,
+      "height": 229,
+      "png": "png/shaggy-bestiary-dog-russet-seated.png",
+      "webp": "webp/shaggy-bestiary-dog-russet-seated.webp",
+      "png_bytes": 116108,
+      "webp_bytes": 76568,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/shaggy-bestiary-dog-russet-seated.png",
+          "webp": "webp/128/shaggy-bestiary-dog-russet-seated.webp",
+          "width": 128,
+          "height": 108,
+          "png_bytes": 31594,
+          "webp_bytes": 26098
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/shaggy-bestiary-dog-russet-seated.png",
+          "webp": "webp/256/shaggy-bestiary-dog-russet-seated.webp",
+          "width": 256,
+          "height": 216,
+          "png_bytes": 110426,
+          "webp_bytes": 78162
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "shaggy-bestiary-dog-russet-smiling": {
+      "name": "shaggy-bestiary-dog-russet-smiling",
+      "asset_type": "illustration",
+      "kind": "standalone",
+      "derivation": "independent-ai-interpretation",
+      "repeat_axis": "none",
+      "width": 291,
+      "height": 226,
+      "png": "png/shaggy-bestiary-dog-russet-smiling.png",
+      "webp": "webp/shaggy-bestiary-dog-russet-smiling.webp",
+      "png_bytes": 121359,
+      "webp_bytes": 82720,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/shaggy-bestiary-dog-russet-smiling.png",
+          "webp": "webp/128/shaggy-bestiary-dog-russet-smiling.webp",
+          "width": 128,
+          "height": 99,
+          "png_bytes": 28998,
+          "webp_bytes": 23988
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/shaggy-bestiary-dog-russet-smiling.png",
+          "webp": "webp/256/shaggy-bestiary-dog-russet-smiling.webp",
+          "width": 256,
+          "height": 199,
+          "png_bytes": 101466,
+          "webp_bytes": 69826
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
+    "shaggy-bestiary-dog-umber-crouching": {
+      "name": "shaggy-bestiary-dog-umber-crouching",
+      "asset_type": "illustration",
+      "kind": "standalone",
+      "derivation": "independent-ai-interpretation",
+      "repeat_axis": "none",
+      "width": 324,
+      "height": 225,
+      "png": "png/shaggy-bestiary-dog-umber-crouching.png",
+      "webp": "webp/shaggy-bestiary-dog-umber-crouching.webp",
+      "png_bytes": 140141,
+      "webp_bytes": 95554,
+      "variants": [
+        {
+          "max_dimension": 128,
+          "rendered_max_dimension": 128,
+          "png": "png/128/shaggy-bestiary-dog-umber-crouching.png",
+          "webp": "webp/128/shaggy-bestiary-dog-umber-crouching.webp",
+          "width": 128,
+          "height": 89,
+          "png_bytes": 27673,
+          "webp_bytes": 21316
+        },
+        {
+          "max_dimension": 256,
+          "rendered_max_dimension": 256,
+          "png": "png/256/shaggy-bestiary-dog-umber-crouching.png",
+          "webp": "webp/256/shaggy-bestiary-dog-umber-crouching.webp",
+          "width": 256,
+          "height": 178,
+          "png_bytes": 97234,
+          "webp_bytes": 67774
+        }
+      ],
+      "components": {},
+      "uses": [
+        "image"
+      ],
+      "formats": [
+        "webp",
+        "png"
+      ]
+    },
     "standing-ape-holding-long-gold-rod": {
       "name": "standing-ape-holding-long-gold-rod",
       "asset_type": "illustration",
@@ -1644,6 +2312,70 @@
       "bytes": 21052,
       "sha256": "2825c071bc45688957d7d37bb8c0c2b5504d8d327700db173db68dabf8d8ef6b"
     },
+    "png/128/shaggy-bestiary-cat-angular-face.png": {
+      "bytes": 31251,
+      "sha256": "9377707ce2a19644ffae4eb1a406a7a82c717caa98e63558edff79adbd44fb3e"
+    },
+    "png/128/shaggy-bestiary-cat-brown-bearded.png": {
+      "bytes": 31482,
+      "sha256": "a17b28f28dc5c3d95b6221f5e6d17b150056788e7b43281449a48dceef3dc3ec"
+    },
+    "png/128/shaggy-bestiary-cat-charcoal-hunched.png": {
+      "bytes": 27312,
+      "sha256": "22a651068a12a632b68c0a5c0f075ab37596163324f710d66028bb3c45c2de77"
+    },
+    "png/128/shaggy-bestiary-cat-cream-sleepy.png": {
+      "bytes": 23857,
+      "sha256": "6b93dc40d7c64ea493ad07a487d24f56e15b42d076cee13b711ba786a0c152ac"
+    },
+    "png/128/shaggy-bestiary-cat-drooping-cheeks.png": {
+      "bytes": 20672,
+      "sha256": "2f84d607546be2759d8efce4001d1aaed5e9a2618192fd1cfbdafabeef864ab3"
+    },
+    "png/128/shaggy-bestiary-cat-pale-bearded.png": {
+      "bytes": 33229,
+      "sha256": "5ae494edac32f7df01a1eea46ad5e0481843e029d61770f2dbcec77790a91408"
+    },
+    "png/128/shaggy-bestiary-cat-russet-striped.png": {
+      "bytes": 28929,
+      "sha256": "821550a409806fc751170857255a7ba32a65acb44ed2f00b5a4c08e339debd39"
+    },
+    "png/128/shaggy-bestiary-cat-tall-brow.png": {
+      "bytes": 34246,
+      "sha256": "1c3bc9f6fcb93f9ea2fb17b3a6be17dbab4a8b331c0dccaaae07288d620992b3"
+    },
+    "png/128/shaggy-bestiary-dog-broad-brow.png": {
+      "bytes": 30000,
+      "sha256": "b781e556d941495792b0f829504a13a67a922363dbdcfe6e721b7407dd36db4f"
+    },
+    "png/128/shaggy-bestiary-dog-charcoal-bearded.png": {
+      "bytes": 33031,
+      "sha256": "1c6f2278f331ca07a1ae92f1ad36b046ce6345bca7afbae3c57567941824cb75"
+    },
+    "png/128/shaggy-bestiary-dog-crooked-face.png": {
+      "bytes": 20802,
+      "sha256": "edc537d1fdc42c8dba4d698812182bff50ec8ce186dec727beab9247c555374f"
+    },
+    "png/128/shaggy-bestiary-dog-long-face.png": {
+      "bytes": 25401,
+      "sha256": "bbfd6f6cffa419db758246144d0dc7b0cc97d838c16c6cb0ca4845f1bd28262c"
+    },
+    "png/128/shaggy-bestiary-dog-pale-raised-paw.png": {
+      "bytes": 34770,
+      "sha256": "92dc256a261901f7db2479d219a43e7f64051312ecf46c3a06aa9da3381f56ad"
+    },
+    "png/128/shaggy-bestiary-dog-russet-seated.png": {
+      "bytes": 31594,
+      "sha256": "21a3efe01998dabe2f50cf80974f68cf48683733d8e880241e681d16525508dc"
+    },
+    "png/128/shaggy-bestiary-dog-russet-smiling.png": {
+      "bytes": 28998,
+      "sha256": "8ebe32ddebe414c044cf373b0eb4e376c94f69e2945e762f157b7618a729c377"
+    },
+    "png/128/shaggy-bestiary-dog-umber-crouching.png": {
+      "bytes": 27673,
+      "sha256": "02782ec72692a299b4062d5e4e2c035649797b7bc3d12e95abd27329c616ab00"
+    },
     "png/128/standing-ape-holding-long-gold-rod.png": {
       "bytes": 8699,
       "sha256": "fae35df739603468e52319d72d5ddd13af7434d5e24b7bee010c934ca25f71ef"
@@ -1743,6 +2475,62 @@
     "png/256/seated-harp-player.png": {
       "bytes": 68551,
       "sha256": "1840f63367699a968aedd6026067fbeed9fdbad476340a965a89f1090a97c7da"
+    },
+    "png/256/shaggy-bestiary-cat-angular-face.png": {
+      "bytes": 105451,
+      "sha256": "7f8bbcb7dfdb9c3e2a98145a0b559902794ceb479133cb60a4729cbbedec6840"
+    },
+    "png/256/shaggy-bestiary-cat-brown-bearded.png": {
+      "bytes": 108272,
+      "sha256": "3b7d0fbd74ffb01784dbb3976c6688070e1a5f28e4efd0dd796912e918db9385"
+    },
+    "png/256/shaggy-bestiary-cat-charcoal-hunched.png": {
+      "bytes": 94781,
+      "sha256": "0de4b9ccde37be83a484948a2673f39a4ecff4507a463d599fbc27c878263bf0"
+    },
+    "png/256/shaggy-bestiary-cat-cream-sleepy.png": {
+      "bytes": 86001,
+      "sha256": "0f6e1f8bbcd8ddab4585640ea2a10fee5123cd602668358f25bc233b5d7f576f"
+    },
+    "png/256/shaggy-bestiary-cat-drooping-cheeks.png": {
+      "bytes": 71726,
+      "sha256": "48b0b8d8d816d1c8138cd41269c43a4a6f4403c32cbc5e194da2e2d68a9ee032"
+    },
+    "png/256/shaggy-bestiary-cat-pale-bearded.png": {
+      "bytes": 113324,
+      "sha256": "c943e8dbdf15c5d5cf8ac2cbaec581bb1904e3c41eb0296c4cee382a9ee8ffcd"
+    },
+    "png/256/shaggy-bestiary-cat-russet-striped.png": {
+      "bytes": 99496,
+      "sha256": "2f47206d8b6d9de77cbfaed9eba5dafe5d5ba8723c8f1f8b605445a510e95f14"
+    },
+    "png/256/shaggy-bestiary-dog-broad-brow.png": {
+      "bytes": 106724,
+      "sha256": "0c9775a4d622efc14b3de616db25f8bdaa86c84d11f99402e617c7736d427929"
+    },
+    "png/256/shaggy-bestiary-dog-charcoal-bearded.png": {
+      "bytes": 115478,
+      "sha256": "6cfadf9fb70c843fe90863969fc29cfe7e12ed5be4e7d8ddcf5e6729f5c28969"
+    },
+    "png/256/shaggy-bestiary-dog-crooked-face.png": {
+      "bytes": 74324,
+      "sha256": "e61776c513527bc676d780cbf5cc9af3ccd8ab63ad62642a4a8fea5b72a7e6d5"
+    },
+    "png/256/shaggy-bestiary-dog-long-face.png": {
+      "bytes": 88946,
+      "sha256": "9c0d7046171f51bd109c7af78cb9df3191a07371ff5c9d8a6325a1ef1891627c"
+    },
+    "png/256/shaggy-bestiary-dog-russet-seated.png": {
+      "bytes": 110426,
+      "sha256": "fcb5ea6a44126e93e395af77bc97d04d4b018dfdbaeee550b84875d57ef146cf"
+    },
+    "png/256/shaggy-bestiary-dog-russet-smiling.png": {
+      "bytes": 101466,
+      "sha256": "38e67218267631f790038bfd9d69c6fc4e2c6edfc2ef17da99125f3cb3f7ea8c"
+    },
+    "png/256/shaggy-bestiary-dog-umber-crouching.png": {
+      "bytes": 97234,
+      "sha256": "02f971b0af5fc2bbd62d0213353338d24f0eb45c07ad08b32bf1e545ab820971"
     },
     "png/256/standing-ape-holding-long-gold-rod.png": {
       "bytes": 26003,
@@ -2032,6 +2820,70 @@
       "bytes": 2486260,
       "sha256": "8ec924166615933a23796856ce3d7e8efaf716189fd4999deb1935bf223372c4"
     },
+    "png/shaggy-bestiary-cat-angular-face.png": {
+      "bytes": 106786,
+      "sha256": "8d4175f777210e466ff4428f8794915c85ff2daacdd303cc54461371fd0ef7b3"
+    },
+    "png/shaggy-bestiary-cat-brown-bearded.png": {
+      "bytes": 137341,
+      "sha256": "c4899841b64cdc03dcd66c93996395b69bfd79f383f580ee06b94d172947f3e1"
+    },
+    "png/shaggy-bestiary-cat-charcoal-hunched.png": {
+      "bytes": 128783,
+      "sha256": "4cfd52b2d0017a51627d74542810f985dc7f40efa6038c050c0b7a949d83b5e7"
+    },
+    "png/shaggy-bestiary-cat-cream-sleepy.png": {
+      "bytes": 132577,
+      "sha256": "704da7c9b349de36301a4317a72ffde8bb0461fa0b28ca3bd72f9adcabc8558b"
+    },
+    "png/shaggy-bestiary-cat-drooping-cheeks.png": {
+      "bytes": 143172,
+      "sha256": "93dd69664a3203b13591c29f47178f55a34337bd22a6c5a2ce50d2ac912f3537"
+    },
+    "png/shaggy-bestiary-cat-pale-bearded.png": {
+      "bytes": 112554,
+      "sha256": "b9ead497dd46d20f73197b51d697c1b39a1fa06d1ff9e9bb0fa4361671c0ee47"
+    },
+    "png/shaggy-bestiary-cat-russet-striped.png": {
+      "bytes": 123962,
+      "sha256": "e3f8a0a0421bf7fdb0ae06fc6e675595cc3530ec122f53b53b729bfd6354f99a"
+    },
+    "png/shaggy-bestiary-cat-tall-brow.png": {
+      "bytes": 103199,
+      "sha256": "d2586e708eb89920077ac5efea0b0c179c7573f125cf76f3b48aac1bd77258e0"
+    },
+    "png/shaggy-bestiary-dog-broad-brow.png": {
+      "bytes": 137971,
+      "sha256": "563228356d53d0c8a8cbe8dcb4ca2e91c484632dd55e7ab7c31e540a4451478b"
+    },
+    "png/shaggy-bestiary-dog-charcoal-bearded.png": {
+      "bytes": 137639,
+      "sha256": "654dd6634150f5c216b1d4ffcd0819efa0e42edf53f94eb12fcea7af04891309"
+    },
+    "png/shaggy-bestiary-dog-crooked-face.png": {
+      "bytes": 157513,
+      "sha256": "33734c00016c6969b8e1622946f3c8b31b19a9f211ce18ac9f8c64de2d5a5997"
+    },
+    "png/shaggy-bestiary-dog-long-face.png": {
+      "bytes": 133637,
+      "sha256": "af6478c28ac2057e84207738c7cc3f5379361d18ba54d014ed30bfa1ae0012a3"
+    },
+    "png/shaggy-bestiary-dog-pale-raised-paw.png": {
+      "bytes": 112293,
+      "sha256": "d1b20e8a316486f8ca1df0b313d2976dfb1fcf2a76141a39af66fa754b58ad5b"
+    },
+    "png/shaggy-bestiary-dog-russet-seated.png": {
+      "bytes": 116108,
+      "sha256": "c6da57bd165d4fde388906d412a83af560165194acdc29cb572f02efccdf2e22"
+    },
+    "png/shaggy-bestiary-dog-russet-smiling.png": {
+      "bytes": 121359,
+      "sha256": "75b8946a5a66e1702d8f6e6009d19a960693f81076b7b69850b1096741fbd35f"
+    },
+    "png/shaggy-bestiary-dog-umber-crouching.png": {
+      "bytes": 140141,
+      "sha256": "0d2af183dc6963b24555e143371c51f5f72798c335b85c6a7b2533093191bd34"
+    },
     "png/standing-ape-holding-long-gold-rod.png": {
       "bytes": 868274,
       "sha256": "a25a2a452babb990bcd3af4e4c89322971cfd305b85a83403cb87d4e733a6408"
@@ -2136,6 +2988,70 @@
       "bytes": 16516,
       "sha256": "b98b5c260cd2164dd14f97508d5b495b0fefa78c16cd56d16442aa89ad084943"
     },
+    "webp/128/shaggy-bestiary-cat-angular-face.webp": {
+      "bytes": 22556,
+      "sha256": "4663c3f23974804108a68998cb575db7ce0450b9b29ca89af97af2b4c8eeb3bc"
+    },
+    "webp/128/shaggy-bestiary-cat-brown-bearded.webp": {
+      "bytes": 24412,
+      "sha256": "54ee8013954a5ddc0c03ceac7a053debbb362456b0a9a06f962237392434fa68"
+    },
+    "webp/128/shaggy-bestiary-cat-charcoal-hunched.webp": {
+      "bytes": 20516,
+      "sha256": "a9af7a2990c3b12cb0626ccabe040ec040cd62884a6ac3c0d3c35256c22b9245"
+    },
+    "webp/128/shaggy-bestiary-cat-cream-sleepy.webp": {
+      "bytes": 18932,
+      "sha256": "96ecba829dd23e6b9713cd45028b1302a014d185929c68f24cfd9db9517fe862"
+    },
+    "webp/128/shaggy-bestiary-cat-drooping-cheeks.webp": {
+      "bytes": 16838,
+      "sha256": "a60d466c155b2fa4310f961052bec7a84c2a6292e86c71681c99b17b97e578f0"
+    },
+    "webp/128/shaggy-bestiary-cat-pale-bearded.webp": {
+      "bytes": 23948,
+      "sha256": "61aee326ea8dad5b0a586c57aedc8e4174fee50277fcaa00d04e98b15090dc17"
+    },
+    "webp/128/shaggy-bestiary-cat-russet-striped.webp": {
+      "bytes": 23170,
+      "sha256": "797bd53d89d2d36b7de0a84c8781a614d0535c43f852cc708ba25b3551753a6d"
+    },
+    "webp/128/shaggy-bestiary-cat-tall-brow.webp": {
+      "bytes": 25434,
+      "sha256": "41d9b3bcc97e531159ff30267d717ef4ef3c6871560e0035b862f2ec2e474fda"
+    },
+    "webp/128/shaggy-bestiary-dog-broad-brow.webp": {
+      "bytes": 23280,
+      "sha256": "3505dbeecdf05e4703e4a3dce53daec70c963bc615f14952a86ad614ff6e28fe"
+    },
+    "webp/128/shaggy-bestiary-dog-charcoal-bearded.webp": {
+      "bytes": 26058,
+      "sha256": "5d8d1295b21f09026d3224b45fdbb81ad0ced35524dc1ebac19a4d51b9f5bd43"
+    },
+    "webp/128/shaggy-bestiary-dog-crooked-face.webp": {
+      "bytes": 15322,
+      "sha256": "a349cf9c12fd17cce07fe1decb4ef5c51541d8768d8c7cf469fffc692714a7f5"
+    },
+    "webp/128/shaggy-bestiary-dog-long-face.webp": {
+      "bytes": 18164,
+      "sha256": "7878add8f6ae0a436ac262af56249830cbb11521eb6fe85fb92c739185b532e1"
+    },
+    "webp/128/shaggy-bestiary-dog-pale-raised-paw.webp": {
+      "bytes": 25124,
+      "sha256": "ae3c1556d9582cbf79346244e00738a8212577645ddd14ae4e1979ccef4b4c70"
+    },
+    "webp/128/shaggy-bestiary-dog-russet-seated.webp": {
+      "bytes": 26098,
+      "sha256": "a683c0c384cdd3a116661c51ae768b0ecb6c88e38ac5aa8877851b84c3146051"
+    },
+    "webp/128/shaggy-bestiary-dog-russet-smiling.webp": {
+      "bytes": 23988,
+      "sha256": "4c64bb49b04acfa29a4be2f9be80dd0d571bfa41b0487766bc1868283e2b9951"
+    },
+    "webp/128/shaggy-bestiary-dog-umber-crouching.webp": {
+      "bytes": 21316,
+      "sha256": "2ce4454f4fde6b7a6c7b8ff6aba17374086e345d457951d8657b3f5843e95b49"
+    },
     "webp/128/standing-ape-holding-long-gold-rod.webp": {
       "bytes": 6640,
       "sha256": "90095e1897a889aee532be716d67bc68c4fbb6942a82dd5f58b0c2445d759ddb"
@@ -2235,6 +3151,62 @@
     "webp/256/seated-harp-player.webp": {
       "bytes": 52842,
       "sha256": "de9f1cde480e46298bc4dc86f7ff7112a21cd76a4db5d97c62db1ff790d435b9"
+    },
+    "webp/256/shaggy-bestiary-cat-angular-face.webp": {
+      "bytes": 70872,
+      "sha256": "d5a3a5f175892b1659ddeff7537336b6cbf062382ac0d8451603c9095d18ed92"
+    },
+    "webp/256/shaggy-bestiary-cat-brown-bearded.webp": {
+      "bytes": 73558,
+      "sha256": "6bcdba53b132028c0e534850656a7d0eca0439441cc17cad7fbbf610bdcc90b3"
+    },
+    "webp/256/shaggy-bestiary-cat-charcoal-hunched.webp": {
+      "bytes": 63788,
+      "sha256": "5975c95e3c50ea992dae11a00a7adfb7f0705cb4d5cbf3b1b7a67d6f8cf362e5"
+    },
+    "webp/256/shaggy-bestiary-cat-cream-sleepy.webp": {
+      "bytes": 58846,
+      "sha256": "4fc0902ba20cf605542571cfa6d8078a2247c59566a3f0961f55c4a94e4c293f"
+    },
+    "webp/256/shaggy-bestiary-cat-drooping-cheeks.webp": {
+      "bytes": 57888,
+      "sha256": "3895141f7116774e5210a91d892e746acbde19c3d76035ddbd5a9af3599f6ba7"
+    },
+    "webp/256/shaggy-bestiary-cat-pale-bearded.webp": {
+      "bytes": 77336,
+      "sha256": "2aced29022cab41a3ba54578e816c8b0e975eea02b62b10ca2b9b69412ebf048"
+    },
+    "webp/256/shaggy-bestiary-cat-russet-striped.webp": {
+      "bytes": 72402,
+      "sha256": "69dadd76068928f7ac6fc6949dd51ead199c3c77d9de1354261365701bc1e739"
+    },
+    "webp/256/shaggy-bestiary-dog-broad-brow.webp": {
+      "bytes": 75674,
+      "sha256": "72a7a0638d6422c42132ff3eb4172077e3dc83a2e0e0bc40f5f99647dd61fecd"
+    },
+    "webp/256/shaggy-bestiary-dog-charcoal-bearded.webp": {
+      "bytes": 75614,
+      "sha256": "799e0b89f56fa6a4192be45f0e86c5699ef422c8b6be931311c80395031e6227"
+    },
+    "webp/256/shaggy-bestiary-dog-crooked-face.webp": {
+      "bytes": 50718,
+      "sha256": "5e451d697d9fe3d8d404354e8e0777cd6ab398bdcd91912552487d4cf626d5dd"
+    },
+    "webp/256/shaggy-bestiary-dog-long-face.webp": {
+      "bytes": 60648,
+      "sha256": "225bd587e81e5affd0ddd09fca64911f181ca7c22044346f217c103c480d01a3"
+    },
+    "webp/256/shaggy-bestiary-dog-russet-seated.webp": {
+      "bytes": 78162,
+      "sha256": "b15d3323b96b4dfbfcd634f677e189ca42a68ffcaddf9e76c5f9cf15a6e44779"
+    },
+    "webp/256/shaggy-bestiary-dog-russet-smiling.webp": {
+      "bytes": 69826,
+      "sha256": "e7fe50f4815730e774a7944c5cbb8cbc3a42b59b36599450b773a8fa7c708f55"
+    },
+    "webp/256/shaggy-bestiary-dog-umber-crouching.webp": {
+      "bytes": 67774,
+      "sha256": "22fcd466b8a7bbc42268e38dfecece09ed49a91b07f48a8d44fb2802b785f437"
     },
     "webp/256/standing-ape-holding-long-gold-rod.webp": {
       "bytes": 20620,
@@ -2524,6 +3496,70 @@
       "bytes": 2031874,
       "sha256": "6e4ab7b6786cdf9cec36b2cf2a4a406b572c006881a3467040fc25acf89587c4"
     },
+    "webp/shaggy-bestiary-cat-angular-face.webp": {
+      "bytes": 71722,
+      "sha256": "b9ce7350fd548a18148a24f6a97d0212d948b02ebeb482360576239a989358c4"
+    },
+    "webp/shaggy-bestiary-cat-brown-bearded.webp": {
+      "bytes": 90672,
+      "sha256": "36e1c1b9360e1189ed334e90cad997b3c5767572d5a6c9736f4a42f61b96e543"
+    },
+    "webp/shaggy-bestiary-cat-charcoal-hunched.webp": {
+      "bytes": 83762,
+      "sha256": "9c89c282a1bdc1d4e3f9d6083dcec93925486170813eb5702409cc3df3da0328"
+    },
+    "webp/shaggy-bestiary-cat-cream-sleepy.webp": {
+      "bytes": 86996,
+      "sha256": "fb96ff394effdfc5ddfc6cf9d9e997c43c8837595d99a0db15826e9d2a19535c"
+    },
+    "webp/shaggy-bestiary-cat-drooping-cheeks.webp": {
+      "bytes": 94604,
+      "sha256": "ef58b1d076cd22c585bfcaf6396892da6b351b0fc801a31f4c9024c10236601c"
+    },
+    "webp/shaggy-bestiary-cat-pale-bearded.webp": {
+      "bytes": 71740,
+      "sha256": "af70b08a028558c1eefa99437a733b4fd189efc6bdfdb68ff6ba89e6f8b1a215"
+    },
+    "webp/shaggy-bestiary-cat-russet-striped.webp": {
+      "bytes": 86832,
+      "sha256": "564e7dca87547ddf2daa86635aa797d1edac3f36eeb78ec910efd9c829fb9284"
+    },
+    "webp/shaggy-bestiary-cat-tall-brow.webp": {
+      "bytes": 70332,
+      "sha256": "6057159d50e2de20f5f0a288cab6d11b432b2a1cee6e6114cb12355764d433df"
+    },
+    "webp/shaggy-bestiary-dog-broad-brow.webp": {
+      "bytes": 91380,
+      "sha256": "4b30014148e879fd17bd3781f326777d5059ebfff1c746fbbd7eb48076c932f0"
+    },
+    "webp/shaggy-bestiary-dog-charcoal-bearded.webp": {
+      "bytes": 89990,
+      "sha256": "bd91c44f8d2e79e928eb28fe5823e35466b264e85c4ccb43a19d9ae312bb7a72"
+    },
+    "webp/shaggy-bestiary-dog-crooked-face.webp": {
+      "bytes": 102974,
+      "sha256": "ea69608be4d535087a7e64a0e5ef742ce2d98083dc92e6efbcf492cc2337540c"
+    },
+    "webp/shaggy-bestiary-dog-long-face.webp": {
+      "bytes": 87622,
+      "sha256": "977a453899640df6b45c8719202c91eb8b46397802764102a0eabb86ef831834"
+    },
+    "webp/shaggy-bestiary-dog-pale-raised-paw.webp": {
+      "bytes": 73240,
+      "sha256": "876148da0e34b0967a57603c7780598585a07a2c070adf679f5923d0d1393867"
+    },
+    "webp/shaggy-bestiary-dog-russet-seated.webp": {
+      "bytes": 76568,
+      "sha256": "4998d10664f5361f108d38bb71791832076bea2bbebbdd8ef5f793b5853a24e1"
+    },
+    "webp/shaggy-bestiary-dog-russet-smiling.webp": {
+      "bytes": 82720,
+      "sha256": "0f99bea168a761cfc507264131ea53932f0c60bdc5db3208aaf310b404ebf902"
+    },
+    "webp/shaggy-bestiary-dog-umber-crouching.webp": {
+      "bytes": 95554,
+      "sha256": "d9319f2cbf94ec169c45565e7fb90e66abaf06099f3d2844afe174235e8e2efd"
+    },
     "webp/standing-ape-holding-long-gold-rod.webp": {
       "bytes": 678296,
       "sha256": "1a328a51aac4e9671c1f4041e7e732104ef2373fba42ddc7d2a061ff7fe9ac7e"
@@ -2645,6 +3681,70 @@
     "sources/tiles/woman-leading-harrow-horse.png": {
       "bytes": 1385371,
       "sha256": "a61825da21311844dd0d6b8e8e338a1a5d951cfc4034567e626afa1ee51566b0"
+    },
+    "sources/tiles/shaggy-bestiary-cat-angular-face.png": {
+      "bytes": 110290,
+      "sha256": "90b5df596437d7250aad8956620c3340c96b98f8779dce2c1e8779d23d0de253"
+    },
+    "sources/tiles/shaggy-bestiary-cat-brown-bearded.png": {
+      "bytes": 141957,
+      "sha256": "5834637c2c3102f92aabbfa32939ba8403cebb590a7b58a6c76bfd2798301099"
+    },
+    "sources/tiles/shaggy-bestiary-cat-charcoal-hunched.png": {
+      "bytes": 132153,
+      "sha256": "95fbc36245131e0ecbad2ff713538a044e1e3fb86722364e0e248832b8751ed3"
+    },
+    "sources/tiles/shaggy-bestiary-cat-cream-sleepy.png": {
+      "bytes": 133295,
+      "sha256": "868dfa9ca4ea9a02c23b99e58f42be9debe56e9a3a10db1aa06a2ec0effeaab1"
+    },
+    "sources/tiles/shaggy-bestiary-cat-drooping-cheeks.png": {
+      "bytes": 146543,
+      "sha256": "06b7a22fdb706fee010baefb3d14845a959a663b4cf87bbe0b0d539f90a093bf"
+    },
+    "sources/tiles/shaggy-bestiary-cat-pale-bearded.png": {
+      "bytes": 116289,
+      "sha256": "1c246a43e350b0c54b19b61e003a685a99e809be5743b475d7c985b688727de7"
+    },
+    "sources/tiles/shaggy-bestiary-cat-russet-striped.png": {
+      "bytes": 130037,
+      "sha256": "9a36e01594e9bb8c5de2728c6ce1e81c59526687838152b43fd2a4060b4f2b55"
+    },
+    "sources/tiles/shaggy-bestiary-cat-tall-brow.png": {
+      "bytes": 105391,
+      "sha256": "54c2b2298e793bd521be27051de5a05fb9e48283f4bf4af271113c935fa36a15"
+    },
+    "sources/tiles/shaggy-bestiary-dog-broad-brow.png": {
+      "bytes": 138053,
+      "sha256": "769c4883801d4eb8ea5f64621f173c4a414a7c8cfc37e3a726ace182b1a38328"
+    },
+    "sources/tiles/shaggy-bestiary-dog-charcoal-bearded.png": {
+      "bytes": 140604,
+      "sha256": "476dd2a6d549a55ea86d1f6c18774cd84fc09d24c0f0d1fb37d3efc51d2c6a20"
+    },
+    "sources/tiles/shaggy-bestiary-dog-crooked-face.png": {
+      "bytes": 169484,
+      "sha256": "38a8808f3c71bee79f6c7faaff67b6b30cc41f71e3dabf9ee3505c82280f40ac"
+    },
+    "sources/tiles/shaggy-bestiary-dog-long-face.png": {
+      "bytes": 142019,
+      "sha256": "ed1fa28869bda89607fa258679ce7d1778cba635f786c8b10062bef4e1f1f30c"
+    },
+    "sources/tiles/shaggy-bestiary-dog-pale-raised-paw.png": {
+      "bytes": 118284,
+      "sha256": "e5e6c52cc9fa5f4ebc2f4dca31dddeeb33570698e8faa92d16b76efd82992184"
+    },
+    "sources/tiles/shaggy-bestiary-dog-russet-seated.png": {
+      "bytes": 117641,
+      "sha256": "3d27e981ae6a875936749f55b031bb6113898d5df9153f8adfadfd3f2e5e3d3a"
+    },
+    "sources/tiles/shaggy-bestiary-dog-russet-smiling.png": {
+      "bytes": 123592,
+      "sha256": "dd381e904173ea5582af78cd17461a87bbf19d351f5e96ad45ccd8a8ffd78a82"
+    },
+    "sources/tiles/shaggy-bestiary-dog-umber-crouching.png": {
+      "bytes": 140791,
+      "sha256": "3b9321b2665b95f5585dcd2dd5d1f33e7872d77b12f0b0e682a2b2e0b00698de"
     }
   }
 }

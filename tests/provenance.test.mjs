@@ -15,7 +15,8 @@ test('historical origins reach full, scoped and individual metadata without back
   const authored = await json('authored-additions.json');
   const finished = await json('finished-additions.json');
   const acanthus = await json('acanthus-additions.json');
-  const names = new Set([...finished.assets, ...audit.assets, ...borders, ...supplied.assets, ...authored.assets, ...acanthus.assets].map(item => item.name));
+  const bestiary = await json('bestiary-additions.json');
+  const names = new Set([...finished.assets, ...audit.assets, ...borders, ...supplied.assets, ...authored.assets, ...acanthus.assets, ...bestiary.assets].map(item => item.name));
   const masters = [...await json('illustrations.json'), ...await json('raster-metadata.json')];
   for (const entry of audit.assets) {
     const item = getOrnament(entry.name);
@@ -42,7 +43,8 @@ test('historical origins reach full, scoped and individual metadata without back
 test('author reaches full, scoped and individual imports and search without attributing unknown artwork', async () => {
   const audit = await json('authored-additions.json');
   const acanthus = await json('acanthus-additions.json');
-  const authoredNames = new Set(['polyhymnia', ...audit.assets.map(item => item.name), ...acanthus.assets.map(item => item.name)]);
+  const bestiary = await json('bestiary-additions.json');
+  const authoredNames = new Set(['polyhymnia', ...audit.assets.map(item => item.name), ...acanthus.assets.map(item => item.name), ...bestiary.assets.map(item => item.name)]);
   const masters = [...await json('illustrations.json'), ...await json('raster-metadata.json')];
   const scopes = await Promise.all(['decorations', 'illustrations'].map(scope => import('../lib/selection-'+scope+'.js')));
   for (const name of authoredNames) {

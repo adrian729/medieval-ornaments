@@ -22,7 +22,7 @@ for(const relative of assetPaths(await assetCatalog())) {const target=path.join(
 for (const name of ['assets.js', 'demo.js', 'gallery.js', 'site.css', 'playground.css', 'gold-dividers.js', 'gold-dividers.css', 'acanthus-dividers.js', 'acanthus-dividers.css', 'shared', 'vanilla'])
   await cp(path.join(root, 'examples', name), path.join(browser, 'examples', name), { recursive: true });
 for (const name of ['ornaments.css', 'favicon.svg', 'favicon.ico', 'favicon-32.png', 'images.json', 'assets-manifest.json', 'LICENSE']) await cp(path.join(root, name), path.join(browser, name));
-for (const name of ['historical-additions.json', 'historical-border-patterns.json', 'finished-additions.json', 'finished-border-patterns.json', 'illustration-additions.json', 'authored-additions.json', 'acanthus-additions.json']) await cp(path.join(root, name), path.join(browser, name));
+for (const name of ['historical-additions.json', 'historical-border-patterns.json', 'finished-additions.json', 'finished-border-patterns.json', 'illustration-additions.json', 'authored-additions.json', 'acanthus-additions.json', 'bestiary-additions.json']) await cp(path.join(root, name), path.join(browser, name));
 const selfHosted = (html, base) => html.replace('<html lang="en">', `<html lang="en" data-assets-base="${base}">`);
 for (const name of ['index.html', 'demo.html', 'review.html', 'qa.html']) {
   const target = path.join(browser, 'examples', name);

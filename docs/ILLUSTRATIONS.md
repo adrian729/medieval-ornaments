@@ -1,7 +1,8 @@
 # Illustrations and autonomous selection
 
 The collection includes 41 manuscript-style illustrations migrated from
-medieval-cutouts, alongside later additions, for 57 illustrations, 58 repeating borders and 46 whole decorations.
+medieval-cutouts, alongside later additions, for 348 illustrations, 89 repeating
+borders and 289 whole decorations in the 0.12.0 catalog.
 Illustrations can ornament a page, but they remain distinct catalog types.
 Their descriptions, categories, subjects, facing, colors and composition are
 preserved from the reviewed cutout catalog. No illustration was redrawn,
@@ -12,7 +13,7 @@ traced, resized or re-encoded during migration.
 In an existing React or vanilla application, install the lightweight runtime:
 
 ```sh
-npm install @ranx729/medieval-ornaments@0.8.1
+npm install @ranx729/medieval-ornaments@0.12.0
 ```
 
 React applications also need their own React dependency. **Individual imports
@@ -69,7 +70,7 @@ Defaults remain eager loading, automatic decoding/priority and 2× density.
 ## Copy only selected code and artwork
 
 ```sh
-npx @ranx729/medieval-ornaments@0.8.1 add flying-pig rabbit-reading-book
+npx @ranx729/medieval-ornaments@0.12.0 add flying-pig rabbit-reading-book
 ```
 
 This writes editable React modules under `src/ornaments/` and only their verified
@@ -94,7 +95,7 @@ For illustration-only offline copying, first install the runtime/CLI and the
 data-only archive while connected, then copy locally:
 
 ```sh
-npm install @ranx729/medieval-ornaments@0.8.1
+npm install @ranx729/medieval-ornaments@0.12.0
 npm install --save-dev @ranx729/medieval-ornaments-assets-illustrations-001@0.1.3
 npx --no-install medieval-ornaments copy-assets public/ornaments \
   --design flying-pig --offline
@@ -224,3 +225,23 @@ separation decisions. Superseded alternate extractions are recorded explicitly
 and excluded from the public catalog. Native PNG masters remain the appearance
 reference; an SVG is supplied only where the retained trace passed review.
 Optional named `sets` connect related subjects and ornaments in discovery.
+
+## Shaggy bestiary creatures
+
+The sixteen `shaggy-bestiary-*` illustrations retain the approved eight dogs and
+eight cats as individual transparent images. Search for **Shaggy bestiary
+creatures** or use the shared `shaggy-bestiary-creatures` set. Each figure has its
+own name, six selection fields, individual vanilla/React entries and lossless
+PNG/WebP variants in illustrations-013. These modern AI interpretations carry
+`author: "adrian729"`; no historical artist or source attribution is inferred.
+
+`bestiary-additions.json` preserves the exact generation prompts, accepted source
+sheet hashes, crop bounds and deterministic background-removal parameters.
+Shared sheets and the separate original reference remain in `sources/bestiary/`;
+raw crops and transparent masters belong to the assigned resource repository.
+Opaque interior pixels retain the approved sheet's RGB values; narrow edge
+pixels receive alpha/matte cleanup. Nothing is redrawn or enlarged. Native
+canvases have longest sides of 248–400 pixels, so large displays cannot reveal
+additional detail. The reference is comparison material, not a seventeenth new
+catalog asset. `scripts/import_bestiary.py --name NAME --check` reproduces and
+verifies the extraction; ordinary illustration builds reuse retained masters.
