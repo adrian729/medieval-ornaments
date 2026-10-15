@@ -63,7 +63,8 @@ function renderFilters() {
   $('#category').replaceChildren(new Option('All categories', ''),
     ...[...counts].sort(([a], [b]) => a.localeCompare(b)).map(([category, count]) => new Option(`${category[0].toUpperCase()}${category.slice(1)} (${count})`, category)));
   $('#category').value = state.category;
-  if ($('#search').value !== state.q) $('#search').value = state.q;
+  // Compare trimmed text so a space typed between words is not removed.
+  if ($('#search').value.trim() !== state.q) $('#search').value = state.q;
   $('#clearFilters').hidden = !(state.q || state.category || state.type !== 'all');
 }
 
