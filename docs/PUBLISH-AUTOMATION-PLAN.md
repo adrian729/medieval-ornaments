@@ -1,8 +1,8 @@
-# Hands-off publication plan (draft, reviewed 2026-10-26)
+# Hands-off publication plan (agreed 2026-10-26)
 
 Goal: the maintainer only requests changes and, when ready, says "publish". Agents (Claude Code, Codex) author, validate, approve, commit and push each change and record it as pending; nothing reaches npm until the maintainer asks. On "publish", one agent ships every pending change as a single batch: new repositories and packages, every affected resource, the runtime, Pages, the offline downloads and the verification records. The maintainer is asked only for the items under "Still the maintainer's call". The pipeline must not depend on how artwork is laid out across packages, because the storage will be reorganized next and must reuse it.
 
-Status: agreed plan, not yet implemented. Nothing below is implemented, and no registry, repository or trust setting has changed. An independent review against the code found design errors and omissions in the first draft; they are folded in below. The earlier idea of storing volumes as versions of one package per collection was dropped: it ties version numbers to the storage layout (incompatible with the planned reorganization), loses semver meaning, and complicates offline installs of several volumes.
+Status: phase 1 (D1, D3) is implemented and accepted (main `2b3be3c`, `5974e71`; QA.md). Phases 2–6 are not started. No trust setting has changed. Two independent reviews against the code found design errors and omissions in the first draft; their fixes are folded in below. The earlier idea of storing volumes as versions of one package per collection was dropped: it ties version numbers to the storage layout (incompatible with the planned reorganization), loses semver meaning, and complicates offline installs of several volumes.
 
 ## Findings that shape the design
 
@@ -19,12 +19,12 @@ Status: agreed plan, not yet implemented. Nothing below is implemented, and no r
 
 Every resource package, existing or created during the reorganization, is published the same way: by its own storage repository's `publish.yml`, through a shared reusable workflow in main. The orchestrator works from `resource-registry.json` and `resource-lock.json` only, so any reorganization (new repositories, new names, moved designs) is just a registry and lock change that the same pipeline ships.
 
-- `publish-resource.yml` (reusable) takes `tooling-ref` as a dispatch input instead of a value baked into each caller. It fetches main with full history and requires that `tooling-ref` is an ancestor of `origin/main` **and** that the source's pin at `tooling-ref` equals its pin at `origin/main` HEAD, so an older approval cannot be published. It checks out exactly the locked resource commit (today it builds the dispatch ref) and audits history capacity.
-- Upload is idempotent but never blind: if `package@version` exists, or npm answers E403 "cannot publish over the previously published version", compare the registry `dist.integrity` with the deterministic local pack's sha512. A match continues to CDN verification; a mismatch fails loudly.
+- `publish-resource.yml` (reusable) takes `tooling-ref` as a dispatch input instead of a value baked into each caller. `scripts/check-publish-ref.mjs` checks through GitHub's compare API that `tooling-ref` is part of main **and** that the source's pin at `tooling-ref` equals its pin at main's head, so an older approval cannot be published. The run must build exactly the locked resource commit; it checks it out with full history and enforces the history budget (`scripts/check-history.mjs`). A `verify-only` mode runs every check and the pack without contacting npm.
+- Upload is idempotent but never blind: if `package@version` exists, or npm answers E403 "cannot publish over the previously published version", compare the registry `dist.integrity` with the deterministic local pack's sha512 (`scripts/publish-package.mjs`). A match continues to CDN verification; a mismatch fails loudly.
 - After `warm-cdn.mjs` passes, the workflow creates the storage repository's own `v<version>` release (`contents: write` in caller and reusable workflow). That release is the CDN-verified marker used by D3 and replaces the manual release step.
-- Each resource `publish.yml` is rewritten once to forward `tooling-ref` and call the reusable workflow at a pinned workflow SHA that changes only when the publishing logic changes. Rewrites happen in that repository's next revision commit; phase 1 does one deliberate workflow-only commit in one repository to prove the path (no republish). Trusted publishing matches the caller filename only, so the existing trust survives. `scaffold` writes the new form for every new repository.
-- `release.yml` (runtime) gets the same skip-and-compare step, so a CDN-timeout rerun still reaches Pages instead of failing with E403. It also creates the `v<runtime>` tag and release that later stages attach downloads to.
-- AGENTS.md's "Keep workflow code pinned to an immutable reviewed main SHA" is amended: workflow logic stays SHA-pinned; scripts come from a `tooling-ref` that must match main's current pin.
+- Each resource `publish.yml` is rewritten once to forward `tooling-ref` and call the reusable workflow at a pinned workflow SHA that changes only when the publishing logic changes. `approve` rewrites it in that repository's next revision; borders-006 adopted it in workflow-only commit `c7f3003` (no republish). Trusted publishing matches the caller filename only, so the existing trust survives. `scaffold` writes the new form for every new repository.
+- `release.yml` (runtime) gets the same skip-and-compare step, so a CDN-timeout rerun still reaches Pages instead of failing with E403. It also creates the `v<runtime>` tag and a draft release that later stages attach downloads to.
+- AGENTS.md, RESOURCES.md and PUBLISHING.md describe this (updated in phase 1): workflow logic stays SHA-pinned through `publishWorkflowRef`; scripts come from a `tooling-ref` that must match main's current pin.
 
 ### D2. New packages: one confirmation sitting per publish batch
 
@@ -32,7 +32,7 @@ npm needs the maintainer's passkey (Google Password Manager) to create a package
 
 - During preparation, before the maintainer is involved, agents do everything else: `plan`, `new`, `gh repo create` (backing off on GitHub's repository-creation rate limit), the initial pushes, assignments, artwork, approvals, verified tarballs and scaffolded `publish.yml` files.
 - The sitting: the agent starts `npm login --auth-type=web` and opens the page in the maintainer's Chrome. The maintainer presses Continue in the passkey dialog, ticking npm's "remember for 5 minutes" option on the first write confirmation. The agent then runs, back to back inside that window, for each new package:
-  - a tiny `0.0.0` stub publish that only creates the package (README, LICENSE, empty manifest). Real artwork is too large to upload inside the window;
+  - a tiny `0.0.0` stub publish that only creates the package (stub rules below). Real artwork is too large to upload inside the window;
   - `npm trust github <package> --repo <storage repository> --file publish.yml --allow-publish --yes`, with a 2-second pause between calls. npm documents about 80 trust calls per window.
 - Expected cost: one or two passkey confirmations (login, then the first write) for the whole batch. npm's installed docs document the 5-minute window for `npm trust`; the 2022 npm changelog documents "remember me for 5 minutes" for publishes. This is untested on this account: the first batch measures it, and the runbook records the real count. If publishes do not share the window, run all stubs first, then all trust calls, checkpointing each in the journal.
 - Before the sitting, every new repository passes a `verify-only` dispatch of its `publish.yml`: the full publication checks and pack, with no npm request. This catches verification, capacity and identity problems before any trust connection exists.
@@ -45,17 +45,17 @@ npm needs the maintainer's passkey (Google Password Manager) to create a package
 
 ### D3. Lock before publishing; derive publication from the registry and CDN
 
-- `resource-lock.json` changes meaning from "published, CDN-verified and locked" to "approved exact commit, version and hashes". `lock` runs right after the resource commit is pushed. It verifies bytes, and checks that the commit exists on the remote (`git ls-remote` plus `merge-base`), because README raw URLs, `fetch` and the CI checkout all depend on it. It no longer needs a full local clone.
-- History capacity uses one metric, the full mirror size from `audit-history`, measured in the publish workflow before upload. If that audit fails after the lock is on main, recovery is to approve a new version on the next source; no partial publication will have occurred.
-- A new `scripts/check-resources-published.mjs` keeps today's guarantee. A pin counts as published only when all three hold:
+- `resource-lock.json` now means "approved exact commit, version and hashes", no longer "published, CDN-verified and locked". `lock` runs right after the resource commit is pushed. It verifies bytes, the current `publish.yml`, and that the locked commit is the remote default branch's head, because README raw URLs, `fetch` and the CI checkout all depend on it. It no longer needs a full local clone.
+- History capacity is measured in the publish workflow before upload, from the full-history checkout's Git object storage (`check-history.mjs`); `audit-history` remains the manual full-mirror audit. If that audit fails after the lock is on main, recovery is to approve a new version on the next source; no partial publication will have occurred.
+- `scripts/check-resources-published.mjs` (and `npm run resources -- pending`) keeps the earlier guarantee. A pin counts as published only when all three hold:
   - npm lists the version;
-  - its `dist.integrity` matches the approved pack;
-  - the storage repository's `v<version>` release (the CDN-verified marker from D1) exists.
+  - the storage repository's `v<version>` tag, created only after the CDN check (D1), points at the locked commit;
+  - the CDN serves `resource-manifest.json` with the approved manifest digest.
 - `release.yml` runs this check before packing. `build-library.mjs --release` (prepack) keeps only its offline lock-shape check, so local `npm pack` and offline integration tests do not need the network.
 - Pages deploys the commit of the `v<runtime>` tag for `package.json`'s version, never main's tip (`check-site-release.mjs` outputs the tag's commit; `pages.yml` checks it out). Pending library, example or metadata changes on main therefore never reach the live site before "publish". `release.yml` creates that tag only after the runtime and every pinned resource are published, and keeps the GitHub release as a draft until the offline downloads are attached.
 - `approve` refuses any version that already exists on npm (today it treats `gitCommit !== null` as published), and `scripts/import_finished.py`'s patch bump uses the same check.
 - `warm-cdn.yml` (weekly `--all`) reports locked-but-unpublished pins as pending instead of failing.
-- Docs describing "null until published" are updated: RESOURCES.md (lock/publication sections), PUBLISHING.md (CDN recovery and first publication), HISTORICAL-ASSET-HANDOFF.md, the `catalog.py` gallery comment.
+- RESOURCES.md (lock and publication sections), PUBLISHING.md (first publication, verification, CDN recovery) and the `catalog.py` gallery comment were updated in phase 1. HISTORICAL-ASSET-HANDOFF.md and AGENTS.md's dated release notes keep their historical wording.
 - Each change needs one main commit carrying its approvals, locks and regenerated outputs, instead of two per resource.
 
 ### D4. Pending changes and one resumable orchestrator: `npm run ship`
@@ -103,7 +103,7 @@ Replace AGENTS.md's interim "Publishing and releases" section with a pointer to 
 
 > When the maintainer requests a change to artwork, metadata or the library, agents complete it through approval: resource repository creation, approval, commits, pushes and locks, recorded as pending. Publish only when the maintainer says so; then ship every pending change as one batch with `npm run ship` (new packages and their trust connections, resource and runtime publication, Pages, GitHub releases and QA records). Do not ask for confirmation of these steps. This authorization excludes npm trust changes outside a batch's new packages, force-pushes, deleting or deprecating packages, repositories or releases, changing published artwork the request did not name, relaxing policy limits, and resuming the paused historical extraction.
 
-Phase 4 also amends the AGENTS.md lines that conflict with D1 and D3: the publish-then-lock order, "adopt versions only after it passes" (D3 keeps the guarantee through the published check), and the immutable SHA pin (D1). Claude Code gets a small project skill (`.claude/skills/ship/SKILL.md`) that loads the runbook; Codex reads it through AGENTS.md.
+AGENTS.md's resource-workflow line was already amended in phase 1 for D1 and D3. Claude Code gets a small project skill (`.claude/skills/ship/SKILL.md`) that loads the runbook; Codex reads it through AGENTS.md.
 
 ## Still the maintainer's call
 
@@ -121,7 +121,7 @@ Versions are never one of these: agents choose them.
 
 Each phase lands as reviewed commits on main and leaves today's process working. Testing (maintainer decision): no new unit tests for the pipeline; acceptance comes from dry runs and no-upload dispatches against the real services. The existing suite was trimmed to remove redundant and batch-specific tests (49 → 33).
 
-1. Publishing core (D1, D3).
+1. Publishing core (D1, D3). **Done** (2026-10-26).
    - Work: dispatch-time `tooling-ref` with the pin-equality check; locked-commit checkout; `verify-only` mode; integrity-compared idempotent upload and the self-created release marker; the same idempotency in `release.yml`; lock-before-publish with the remote-existence check; `check-resources-published.mjs`; Pages deploying the release tag; the `approve` and `import_finished.py` version guards; `warm-cdn.yml` pending handling.
    - Acceptance: a workflow-only commit in one existing repository passes a `check-authentication` dispatch, `resources pending` reports every current pin as published, and the Pages gate resolves to the released tag.
 2. Authoring rollover helper and orchestrator stages 1–6, including `release-pending.json`, the D2 sitting, the design guard, the journal, dry run and resume.

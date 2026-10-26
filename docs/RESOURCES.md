@@ -84,14 +84,12 @@ step and follows the existing source audit and visual-review requirements.
 
 The main repository coordinates releases in this order:
 
-1. Validate assignments, source revisions, capacities and file ownership.
-2. Run the affected artwork checks and publish the changed numbered packages.
-3. Verify pinned CDN files before adopting their versions; the publish workflows
-   wait until jsDelivr serves every approved file (`scripts/warm-cdn.mjs`).
-4. Assemble compatibility archives and the optional offline browser download.
-5. Build/test the runtime and demos against the resulting locked snapshot.
-6. Publish the runtime, upload download archives to GitHub Releases, deploy
-   Pages and record package/site verification in `QA.md`.
+1. Validate assignments, source revisions, capacities and file ownership, and run the affected artwork checks.
+2. Approve, commit, push and lock each changed resource; commit the locks in main. The change is now pending, and nothing is published.
+3. When the maintainer says "publish", dispatch each pending resource's `publish.yml`. Every workflow waits until jsDelivr serves every approved file (`scripts/warm-cdn.mjs`) before creating its `v<version>` release marker.
+4. Require `scripts/check-resources-published.mjs` to pass for every pin.
+5. Build/test the runtime and demos against the published locked snapshot, then publish the runtime through `release.yml`. It creates the `v<runtime>` tag that Pages deploys, and a draft GitHub release.
+6. Attach the offline browser downloads to that release, publish it, and record package/site verification in `QA.md`.
 
 Use exact versions and source commits, never `latest`, branch tips or mutable
 URLs in released output. Old package versions are retained. Rollback selects
@@ -214,34 +212,22 @@ npm run resources -- new --collection borders
 npm run resources -- approve --source borders-002 --version 0.1.0
 ```
 
-First publication can approve the initial version; later publications require
-a new version. `approve` hashes source bytes, capabilities and allowlists.
-Commit the reviewed main manifests/tooling, then pin the resource workflow:
+First publication can approve the initial version; later publications require a new version. `approve` refuses any version npm already lists (a locked but unpublished version may be re-approved), hashes source bytes, capabilities and allowlists, and rewrites the resource's `publish.yml` from `scaffold-resource.mjs`. `verify-resource.mjs <id> <checkout>` checks the result locally.
+
+Uploads (`scripts/pack-resource.mjs`) order npm's file set WebP, vector SVG, PNG, then trace SVG, so CDNs reach common files first.
+
+Locks precede publication. Commit and push the resource checkout to its default branch, then run `lock --source <id>`: it verifies the approved bytes, a clean checkout, the current `publish.yml`, and that the locked commit is the remote default branch's head, then records that commit in `resource-lock.json`. Commit the lock in main and push. Pushing does not publish anything: `npm run resources -- pending` lists locked versions that are not yet published, and Pages keeps deploying the last `v<runtime>` tag. Publish only when the maintainer says "publish" (see AGENTS.md "Publishing and releases").
+
+Each resource's `publish.yml` calls main's reusable `publish-resource.yml`, pinned to `publishWorkflowRef` in `resource-registry.json` (bump that ref only when the workflow logic changes, then re-approve resources to pick it up). Dispatch it with the main commit whose lock approves the source:
 
 ```sh
-npm run resources -- scaffold --source borders-002 --tooling-ref <immutable-main-commit>
-node scripts/verify-resource.mjs borders-002 tmp/resource-checkouts/borders-002
-# Commit/push the resource checkout; check npm pack before publishing.
+gh workflow run publish.yml --repo adrian729/medieval-ornaments-assets-borders-002 \
+  -f tooling-ref=<main commit> -f nonce=<identifier shown in the run name>
 ```
 
-Uploads (`scripts/pack-resource.mjs`) order npm's file set WebP, vector SVG,
-PNG, then trace SVG, so CDNs reach common files first.
+The workflow refuses tooling outside main or whose pin differs from main's current pin, builds exactly the locked commit with full history, enforces the history budget (`check-history.mjs`) and the 200 MB compressed / 140 MB unpacked limits, publishes with provenance through npm Trusted Publishing, waits until jsDelivr serves every approved file (`warm-cdn.mjs`) and only then creates the repository's `v<version>` release. That release tag at the locked commit is the published marker. Reruns are safe: an existing version is compared with the local tarball's integrity and never uploaded again. `verify-only=true` runs every check and the pack without contacting npm; `check-authentication=true` also confirms the OIDC exchange without uploading. Trusted Publishing is configured per package with its **own resource repository**, workflow `publish.yml` and a GitHub-hosted runner; see [PUBLISHING.md](PUBLISHING.md). Never put credentials in repository files.
 
-The scaffold imports the pinned main reusable workflow. Configure npm Trusted
-Publishing separately for each package with its **own resource repository**,
-workflow `publish.yml`, and GitHub-hosted runner; the caller's repository
-identity matters. The workflow supplies Node 22 and npm 11.19, verifies approved
-hashes/notices, caps compressed uploads at 200 MB and publishes with provenance.
-Initial/manual publication may use an already authorized maintainer npm login.
-Never put credentials in repository files. Do not dispatch before approval.
-See [authentication checks](PUBLISHING.md) for setup and verification.
-
-After registry/CDN verification, run `lock --source <id>` in a complete,
-non-partial clone, then commit the resulting exact source SHA in main. `lock`
-checks approved bytes, a clean checkout and full Git object capacity. Partial
-fetches cannot establish history capacity; use a full authoring clone when
-locking. `audit-history --source <id>` measures a fresh complete remote mirror
-and fails above the history budget. Reports stay ignored under `tmp/`.
+A version counts as published only when npm lists it, its `v<version>` tag points at the locked commit, and the CDN serves its `resource-manifest.json` with the approved digest (`scripts/check-resources-published.mjs`, also run by `release.yml` before packing the runtime). `audit-history --source <id>` measures a fresh complete remote mirror and fails above the history budget. Reports stay ignored under `tmp/`.
 
 To revise a design whose original source is archived/full, use
 `migrate --design <name> --source borders-002`. It copies the complete approved
@@ -298,6 +284,4 @@ their design. `build_assets.py --name NAME` rebuilds only selected deliveries;
 it never repeats extraction or guesses new corners. Illustration and decoration
 masters continue to use their established catalogs/builders.
 
-New local manifests have `gitCommit: null` until publication and CDN verification.
-They are reviewable with `?assets=local`; release packaging continues to reject
-unlocked sources. Existing published artwork is not regenerated by an import.
+New local manifests have `gitCommit: null` until their pushed resource commit is locked. They are reviewable with `?assets=local`; release packaging continues to reject unlocked sources. Existing published artwork is not regenerated by an import.
