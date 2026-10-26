@@ -1,5 +1,14 @@
 # Artwork and frame verification
 
+## Publishing pipeline phase 1 (2026-10-26)
+
+Main `2b3be3c` makes resource publication dispatchable and rerun-safe and moves locks ahead of publication; `5974e71` pins `publishWorkflowRef`. No package was published and no artwork changed.
+
+- Borders-006 adopted the new `publish.yml` in workflow-only commit `c7f3003` (its locked 0.1.1 commit `ba6e231` and artwork are unchanged). Authentication-only run [40325086056](https://github.com/adrian729/medieval-ornaments-assets-borders-006/actions/runs/40325086056) passed: tooling `5974e71` verified as part of main, all 510 public files and 99 native inputs verified, full Git history 93,036,544 bytes, npm OIDC exchange confirmed, nothing uploaded.
+- `npm run resources -- pending` against npm, GitHub tags and the jsDelivr manifests reports all 29 locked versions as published.
+- Pages run [40324988043](https://github.com/adrian729/medieval-ornaments/actions/runs/40324988043) resolved the `v0.12.0` tag and deployed release commit `388f97c`, not main's tip.
+- The unit suite was trimmed from 49 to 33 tests (redundant and batch-specific tests removed; audited import hashes consolidated in `tests/audits.test.mjs`). All 33 pass with every resource fetched; `npm run test:types` passes and `npm run build` leaves `lib/` unchanged.
+
 ## 0.12.0 production release (2026-10-15)
 
 Runtime 0.12.0 is published with npm provenance from main release commit

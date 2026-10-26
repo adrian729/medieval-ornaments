@@ -754,7 +754,7 @@ the unfinished historical extraction task remains paused.
 
 The maintainer approved [docs/PUBLISH-AUTOMATION-PLAN.md](docs/PUBLISH-AUTOMATION-PLAN.md): changes stay pending until the maintainer says "publish"; one batch then ships everything; agents choose all versions; new npm packages cost one passkey sitting per batch. The decisions in force now are in AGENTS.md ("Publishing and releases"). The plan was independently reviewed against the code before agreement.
 
-- [ ] Phase 1: dispatchable `tooling-ref`, locked-commit checkout, integrity-checked idempotent uploads, lock-before-publish and the published check.
+- [x] Phase 1: dispatchable `tooling-ref`, locked-commit checkout, integrity-checked idempotent uploads, lock-before-publish and the published check (main `2b3be3c`/`5974e71`, 2026-10-26; acceptance recorded in QA.md). Existing resource repositories adopt the new `publish.yml` in their next approval; borders-006 already has it.
 - [ ] Phase 2: authoring rollover helper and `npm run ship` stages 1–6 (pending list, new-package sitting, journal, dry run, resume).
 - [ ] Phase 3: CI offline downloads and automated post-publication records.
 - [ ] Phase 4: permanent documentation (`docs/RELEASING.md`, AGENTS.md, RESOURCES.md, PUBLISHING.md, Claude skill); retire the plan file as a source of truth.
