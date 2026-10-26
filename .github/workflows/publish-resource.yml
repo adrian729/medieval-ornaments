@@ -1,4 +1,9 @@
 name: Verify and publish a resource repository
+# Reusable workflow called by each resource repository's publish.yml, which pins
+# this file to registry.publishWorkflowRef and forwards the dispatched
+# tooling-ref. Scripts come from tooling-ref, which must be part of main and
+# carry the same pin as main today. Reruns are safe: an existing version is
+# compared by integrity, never uploaded again.
 on:
   workflow_call:
     inputs:
@@ -11,8 +16,13 @@ on:
       check-authentication:
         type: boolean
         default: false
+      # Runs every check of a real publication, including packing, without any
+      # npm request: usable before a new package or its trust connection exists.
+      verify-only:
+        type: boolean
+        default: false
 permissions:
-  contents: read
+  contents: write
   id-token: write
 jobs:
   publish:
@@ -21,6 +31,9 @@ jobs:
       - uses: actions/checkout@v4
         with:
           path: resource
+          ref: ${{ github.sha }}
+          # Complete history: the capacity check measures every object.
+          fetch-depth: 0
       - uses: actions/checkout@v4
         with:
           repository: adrian729/medieval-ornaments
@@ -37,13 +50,18 @@ jobs:
         with:
           node-version: 22
       - run: npm install --global npm@11.19.0
-      - name: Verify approved bytes and repository identity
+      - name: Verify tooling, locked commit, approved bytes and repository identity
         env:
           SOURCE_ID: ${{ inputs.source }}
           CALLER_REPOSITORY: ${{ github.repository }}
+          TOOLING_REF: ${{ inputs.tooling-ref }}
+          RESOURCE_SHA: ${{ github.sha }}
+          GITHUB_TOKEN: ${{ github.token }}
         run: |
           node -e "const c=require('./tooling/resource-registry.json');if(c.sources[process.env.SOURCE_ID]?.repository!==process.env.CALLER_REPOSITORY)throw Error('Unregistered caller repository')"
+          node tooling/scripts/check-publish-ref.mjs "$SOURCE_ID" ${{ inputs.check-authentication && '--ancestor-only' || '' }}
           node tooling/scripts/verify-resource.mjs "$SOURCE_ID" "$PWD/resource"
+          node tooling/scripts/check-history.mjs "$SOURCE_ID" "$PWD/resource"
       - name: Verify npm OIDC authentication without publishing
         if: inputs.check-authentication
         run: node tooling/scripts/check-npm-auth.mjs "$PWD/resource"
@@ -55,11 +73,29 @@ jobs:
         # tarballs sequentially reach them quickly. Fails above the 200 MB
         # compressed or 140 MB unpacked (jsDelivr headroom) limits.
         run: node tooling/scripts/pack-resource.mjs "$SOURCE_ID" "$PWD/resource" "$RUNNER_TEMP/package.tgz"
-      - run: npm publish "$RUNNER_TEMP/package.tgz" --access public --provenance --registry https://registry.npmjs.org
-        if: ${{ !inputs.check-authentication }}
+      - name: Publish with provenance, or confirm identical existing bytes
+        if: ${{ !inputs.check-authentication && !inputs.verify-only }}
         working-directory: resource
+        run: node ../tooling/scripts/publish-package.mjs "$RUNNER_TEMP/package.tgz" "$(node -p "require('./package.json').name")" "$(node -p "require('./package.json').version")"
       - name: Wait until the default CDN serves every approved file
-        if: ${{ !inputs.check-authentication }}
+        if: ${{ !inputs.check-authentication && !inputs.verify-only }}
         # Absorbs jsDelivr's first fetch of the new version (seconds, with brief
         # 404s) before anything pins it; fails if a file is missing or altered.
         run: node tooling/scripts/warm-cdn.mjs "$PWD/resource"
+      - name: Mark the verified version with its release
+        if: ${{ !inputs.check-authentication && !inputs.verify-only }}
+        # The v<version> tag at the locked commit is the published marker read by
+        # scripts/check-resources-published.mjs. Created only after the CDN check.
+        working-directory: resource
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RESOURCE_SHA: ${{ github.sha }}
+        run: |
+          VERSION="$(node -p "require('./package.json').version")"
+          NAME="$(node -p "require('./package.json').name")"
+          if gh release view "v$VERSION" --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
+            echo "Release v$VERSION already exists."
+          else
+            gh release create "v$VERSION" --repo "$GITHUB_REPOSITORY" --target "$RESOURCE_SHA" --title "v$VERSION" \
+              --notes "Published $NAME@$VERSION with npm provenance from $RESOURCE_SHA; every approved file was verified on the CDN (jsDelivr) before this release was created."
+          fi

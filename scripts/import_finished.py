@@ -185,15 +185,25 @@ def run(selection,staging,workers):
  dump(ROOT/'finished-additions.json',audit)
  from selection_metadata import enrich
  catalog=enrich(old+entries,measure=set());assert catalog[:len(old)]==old,'Existing public metadata changed';dump(ROOT/'images.json',catalog)
- # Pin only approved local manifests; exact source commits remain null until
- # publication/CDN verification. No remote writes or publication occur here.
+ # Approve local manifests only; locks follow the pushed resource commits and
+ # publication follows the maintainer's batch. No remote writes occur here.
+ # A pending (unpublished) version is re-approved; a published one is bumped.
  pins=json.loads((ROOT/'resource-lock.json').read_text())['sources']
+ packages={k:v['package'] for k,v in json.loads((ROOT/'resource-registry.json').read_text())['sources'].items()}
  for identity in sorted({d['source'] for d in journal['designs'].values()}):
   pin=pins[identity];parts=list(map(int,pin['version'].split('.')))
-  if pin['gitCommit'] is not None:parts[2]+=1
+  if npm_published(packages[identity],pin['version']):parts[2]+=1
   print(command('approve','--source',identity,'--version','.'.join(map(str,parts))),flush=True)
  preserve_existing_audit(baseline)
- print('Imported and approved local resources; publish, verify CDN and lock exact commits before release.',flush=True)
+ print('Imported and approved local resources; commit, push and lock them, then leave them pending until the maintainer says publish.',flush=True)
+
+def npm_published(name,version):
+ import urllib.request,urllib.error
+ try:
+  with urllib.request.urlopen(f"https://registry.npmjs.org/{name.replace('/','%2F')}/{version}",timeout=30) as response:return json.load(response).get('version')==version
+ except urllib.error.HTTPError as error:
+  if error.code==404:return False
+  raise
 
 if __name__=='__main__':
  parser=argparse.ArgumentParser(description=__doc__);parser.add_argument('--selection',type=Path,required=True);parser.add_argument('--staging',type=Path,default=ROOT/'tmp/new-crops');parser.add_argument('--workers',type=int,default=4);args=parser.parse_args();run(args.selection.resolve(),args.staging.resolve(),args.workers)

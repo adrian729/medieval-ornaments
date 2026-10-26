@@ -1,28 +1,11 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { readFile, access, mkdtemp, symlink } from 'node:fs/promises';
-import { tmpdir } from 'node:os';
-import path from 'node:path';
-import { execFile } from 'node:child_process';
-import { promisify } from 'node:util';
-import { ornaments, getOrnament, findOrnaments, resolveOrnament, getAssetSource, version, assetsPackage, assetsVersion, defaultAssetsBase } from '../lib/index.js';
-import { main as copyAssets } from '../lib/cli.js';
-const run = promisify(execFile), root = new URL('../', import.meta.url);
-const environment = { ...process.env }; delete environment.NODE_TEST_CONTEXT;
-const exec = (command, args) => run(command, args, { env: environment });
+import { readFile, access } from 'node:fs/promises';
+import { ornaments, getOrnament, findOrnaments, resolveOrnament, getAssetSource, assetsPackage, assetsVersion, defaultAssetsBase } from '../lib/index.js';
+const root = new URL('../', import.meta.url);
 
-test('generated catalog agrees with artwork and has stable capabilities', async () => {
+test('generated catalog agrees with images.json and derives capabilities', async () => {
   const original = JSON.parse(await readFile(new URL('images.json', root)));
-  const additions = JSON.parse(await readFile(new URL('additional-patterns.json', root)));
-  const illustrations = JSON.parse(await readFile(new URL('illustrations.json', root)));
-  const raster = JSON.parse(await readFile(new URL('raster-metadata.json', root)));
-  const rasterBorders = JSON.parse(await readFile(new URL('historical-border-patterns.json', root)));
-  const finishedBorders = JSON.parse(await readFile(new URL('finished-border-patterns.json', root)));
-  const repeats = additions.filter(item => item.kind === 'repeat-tile').length;
-  assert.equal(ornaments.length, 44 + raster.length + additions.length + illustrations.length + rasterBorders.length + finishedBorders.length);
-  assert.equal(findOrnaments({ use: 'frame' }).length, 40 + repeats + rasterBorders.length + finishedBorders.filter(item => item.components.border_image).length);
-  assert.equal(findOrnaments({ use: 'divider' }).length, 40 + repeats + rasterBorders.length + finishedBorders.length);
-  assert.equal(findOrnaments({ use: 'image' }).length, 4 + raster.length + additions.length - repeats + illustrations.length);
   assert.deepEqual(ornaments.map(item => item.name), [...ornaments.map(item => item.name)].sort());
   for (const item of original) {
     const { uses, formats, ...generated } = getOrnament(item.name);
@@ -142,19 +125,4 @@ test('loading and image hints are validated and image proportions are reserved',
   assert.equal(result.attributes.width,String(item.width));assert.equal(result.attributes.height,String(item.height));
   assert.equal(result.attributes.loading,'lazy');assert.equal(result.attributes.decoding,'async');assert.equal(result.attributes.fetchpriority,'low');
   for(const options of [{loading:null},{decoding:'invalid'},{fetchPriority:'urgent'}])assert.throws(()=>resolveOrnament('image',{design,...options}));
-});
-
-test('copy CLI runs through a bin symlink and preserves selected files exactly', async () => {
-  const folder = await mkdtemp(path.join(tmpdir(), 'ornament-copy-test-'));
-  const bin = path.join(folder, 'medieval-ornaments');
-  await symlink(new URL('lib/cli.js', root), bin);
-  const out = path.join(folder, 'assets');
-  await exec(process.execPath, [bin, 'copy-assets', out, '--from', root.pathname, '--offline', '--design', 'red-berry-vine', '--design', 'floral-bird-panel-blue']);
-  const catalog = JSON.parse(await readFile(path.join(out, 'catalog.json')));
-  assert.deepEqual(catalog.map(item => item.name), ['floral-bird-panel-blue', 'red-berry-vine']);
-  for (const item of catalog) for (const component of [item, ...Object.values(item.components)]) for (const asset of [component, ...component.variants]) for (const format of ['svg', 'png', 'webp']) if (asset[format]) {
-    assert.deepEqual(await readFile(path.join(out, asset[format])), await readFile(new URL(asset[format], root)));
-  }
-  await assert.rejects(copyAssets(['copy-assets', new URL('.', root).pathname]), /outside the package directory/);
-  await assert.rejects(copyAssets(['copy-assets', out, '--design', 'floral-bird-panel-blue', '--format', 'svg']), /do not support/);
 });

@@ -749,3 +749,14 @@ The actual runtime is 832,323 bytes packed / 5,168,745 bytes unpacked, with no
 artwork or automatic resource dependencies. QA.md records the reports, source
 locks, workflow IDs and propagation retries. All production gates are complete;
 the unfinished historical extraction task remains paused.
+
+## Hands-off publication pipeline (agreed 2026-10-26, not started)
+
+The maintainer approved [docs/PUBLISH-AUTOMATION-PLAN.md](docs/PUBLISH-AUTOMATION-PLAN.md): changes stay pending until the maintainer says "publish"; one batch then ships everything; agents choose all versions; new npm packages cost one passkey sitting per batch. The decisions in force now are in AGENTS.md ("Publishing and releases"). The plan was independently reviewed against the code before agreement.
+
+- [ ] Phase 1: dispatchable `tooling-ref`, locked-commit checkout, integrity-checked idempotent uploads, lock-before-publish and the published check.
+- [ ] Phase 2: authoring rollover helper and `npm run ship` stages 1–6 (pending list, new-package sitting, journal, dry run, resume).
+- [ ] Phase 3: CI offline downloads and automated post-publication records.
+- [ ] Phase 4: permanent documentation (`docs/RELEASING.md`, AGENTS.md, RESOURCES.md, PUBLISHING.md, Claude skill); retire the plan file as a source of truth.
+- [ ] Phase 5: first real batch through the pipeline; record the measured passkey confirmations.
+- [ ] Phase 6: storage reorganization (separate plan), shipped through this pipeline.

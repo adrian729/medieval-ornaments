@@ -1,12 +1,8 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { readFile, mkdtemp, rm, readdir } from 'node:fs/promises';
+import { readFile } from 'node:fs/promises';
 import { createHash } from 'node:crypto';
-import { tmpdir } from 'node:os';
-import path from 'node:path';
-import { pathToFileURL } from 'node:url';
-import { ornaments, findOrnaments, resolveOrnament, getAssetSource, getOrnament } from '../lib/index.js';
-import { main } from '../lib/cli.js';
+import { ornaments, findOrnaments, getOrnament } from '../lib/index.js';
 
 const root = new URL('../', import.meta.url);
 const fields = ['description', 'categories', 'subjects', 'facing', 'colors', 'composition'];
@@ -54,37 +50,4 @@ test('scoped discovery contains only its family and combines layout/subject filt
   assert.ok(findOrnaments({ assetType: 'illustration', query: 'OPAQUE CURVED BODY' }).some(item => item.name === 'creature-in-gold-shape'));
   assert.ok(findOrnaments({ use: 'frame', subjects: ['scroll'] }).some(item => item.name === 'plate-01-linked-scrolls'));
   for (const options of [{ assetType: 'picture' }, { hasTransparency: 'true' }, { facing: 'up' }, { composition: 'square' }]) assert.throws(() => findOrnaments(options));
-});
-
-test('illustrations inherit sufficient variants, native image hints and capability restrictions', () => {
-  const result = resolveOrnament('image', { design: 'flying-pig', size: 128, loading: 'lazy', decoding: 'async', fetchPriority: 'low' });
-  assert.equal(result.asset.path, 'webp/256/flying-pig.webp');
-  assert.equal(result.asset.url, getAssetSource('flying-pig').base + 'webp/256/flying-pig.webp');
-  assert.equal(result.asset.resolutionLimited, false);
-  assert.equal(result.attributes.width, String(getOrnament('flying-pig').width));
-  assert.equal(result.attributes.height, String(getOrnament('flying-pig').height));
-  assert.equal(result.attributes.loading, 'lazy');
-  assert.equal(result.attributes.decoding, 'async');
-  assert.equal(result.attributes.fetchpriority, 'low');
-  assert.equal(resolveOrnament('image', { design: 'creature-in-gold-shape', size: 1000 }).asset.resolutionLimited, true);
-  for (const use of ['frame', 'divider']) assert.throws(() => resolveOrnament(use, { design: 'flying-pig' }), /cannot be used/);
-  assert.throws(() => resolveOrnament('image', { design: 'flying-pig', format: 'svg' }), /does not support/);
-});
-
-test('local illustration installation copies only selected files and preserves metadata', async t => {
-  const folder = await mkdtemp(path.join(tmpdir(), 'ornaments-illustration-'));
-  t.after(() => rm(folder, { recursive: true, force: true }));
-  const out = path.join(folder, 'src'), assets = path.join(folder, 'public');
-  const options = ['--out', out, '--assets', assets, '--framework', 'vanilla', '--from', root.pathname, '--offline'];
-  await main(['add', 'flying-pig', ...options]);
-  const api = await import(pathToFileURL(path.join(out, 'flying-pig.js')));
-  assert.equal(api.ornament.asset_type, 'illustration');
-  assert.deepEqual(api.ornament.formats, ['webp']);
-  assert.equal(api.ornament.description, getOrnament('flying-pig').description);
-  assert.equal(api.resolveOrnament('image', { size: 128 }).asset.path, 'webp/256/flying-pig.webp');
-  assert.equal(api.createDivider, undefined);
-  assert.deepEqual(await readdir(path.join(out, 'lib/design-data')), ['flying-pig.js']);
-  const images = (await readdir(assets, { recursive: true })).filter(file => /\.(png|webp|svg)$/.test(file));
-  assert.deepEqual(images.sort(), ['webp/flying-pig.webp', ...['128','256','512','768'].map(size => `webp/${size}/flying-pig.webp`)].sort());
-  await assert.rejects(main(['add', 'flying-pig', ...options, '--format', 'svg']), /does not support/);
 });

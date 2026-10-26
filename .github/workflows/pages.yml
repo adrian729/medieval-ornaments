@@ -15,6 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     outputs:
       ready: ${{ steps.check.outputs.ready }}
+      ref: ${{ steps.check.outputs.ref }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -27,7 +28,10 @@ jobs:
     if: needs.release-ready.outputs.ready == 'true'
     runs-on: ubuntu-latest
     steps:
+      # The released commit, not main's tip: pending changes stay off the site.
       - uses: actions/checkout@v4
+        with:
+          ref: ${{ needs.release-ready.outputs.ref }}
       - uses: actions/setup-node@v4
         with:
           node-version: 22

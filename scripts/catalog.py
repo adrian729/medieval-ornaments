@@ -112,9 +112,10 @@ def public_url(item, relative, *, preview=False):
 
 
 def gallery(catalog):
-    # Pending source revisions are local authoring state. Keep the last
-    # published links for existing artwork and do not invent CDN URLs for new
-    # files. A locked revision regenerates every row normally after publication.
+    # Approved but unlocked source revisions are local authoring state. Keep the
+    # last links for existing artwork and do not invent URLs for new files. A
+    # locked revision's commit is pushed, so its raw GitHub previews resolve
+    # before npm publication and every row regenerates normally.
     config = configuration()
     pins = json.loads((ROOT/'resource-lock.json').read_text())['sources'] if config else {}
     previous_rows = {}

@@ -69,6 +69,19 @@ checks are recorded in `resource-lock.json`, QA.md and PACKAGE-PLAN.md.
 The Rosselli whole strips remain intact alongside their
 audited derived borders. See QA.md and PACKAGE-PLAN.md for checks and release gates.
 
+## Publishing and releases (maintainer decisions, 2026-10-26)
+
+These decisions are in force now, before the automation exists:
+
+- Publish only when the maintainer explicitly says "publish". That instruction is also the maintainer's approval of all pending artwork; there is no separate sign-off step. Until then, carry each requested change through your own checks, visual inspection, approval, commits and pushes, and leave it pending. Pages and the npm runtime stay on the last published release.
+- On "publish", ship every pending change as one batch: new repositories and packages, all affected resources, the runtime, Pages, GitHub releases, offline downloads and QA records. Do not ask for confirmation of these steps.
+- Choose every resource and runtime version yourself, without asking: minor for new or changed artwork and new designs, patch otherwise.
+- The maintainer's only involvement in a batch is one passkey sitting (Google Password Manager, "remember for 5 minutes"), and only when the batch creates new npm packages. Prepare everything first, then create all new packages and trust connections back to back inside that window; real artwork publishes afterwards through OIDC. Revisions of existing packages never need the maintainer.
+- Not covered by this authorization: npm trust changes outside a batch's new packages, force-pushes, deleting or deprecating packages, repositories or releases, changing published artwork the request did not name, relaxing policy limits, and resuming the paused historical extraction.
+- Rejected designs; do not reintroduce them: storing volumes as versions of one package, long-lived npm tokens, and placeholder packages reserved ahead of need.
+
+The pipeline that automates this (`npm run ship`) is described in [docs/PUBLISH-AUTOMATION-PLAN.md](docs/PUBLISH-AUTOMATION-PLAN.md) and tracked in PACKAGE-PLAN.md. Until it is implemented, follow the existing procedure in docs/RESOURCES.md and docs/PUBLISHING.md; where they differ from the decisions above (for example the new-package sitting replaces their interactive full first publish and activation patch), the decisions take precedence. Locks now precede publication: `npm run resources -- pending` lists locked versions not yet published, and Pages deploys the last `v<runtime>` tag rather than main's tip. Once it is implemented, `docs/RELEASING.md` is the authoritative runbook: replace this pointer with a link to it, and keep no rule only in the plan file.
+
 Codex uses `AGENTS.md`; `CLAUDE.md` imports it. Do not create a competing singular `AGENT.md`.
 
 

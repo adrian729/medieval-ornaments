@@ -30,6 +30,7 @@ test('all individual exports match full API geometry and SSR without the full ca
     assert.throws(() => api.resolveOrnament(item.uses[0], { design: 'not-this-design' }), /supports only/);
     const missing = item.kind === 'standalone' ? 'createFrame' : 'createOrnamentImage';
     assert.equal(api[missing], undefined);
+    if (!item.uses.includes('frame')) assert.equal(api.createFrame, undefined);
     assert.equal(react[item.kind === 'standalone' ? 'OrnamentDivider' : 'OrnamentImage'], undefined);
     assert.throws(() => api.resolveOrnament(item.kind === 'standalone' ? 'frame' : 'image'), /cannot be used/);
   }

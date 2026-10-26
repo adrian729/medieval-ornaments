@@ -1,7 +1,8 @@
 name: Publish runtime
 # npm Trusted Publishing (OIDC) for @ranx729/medieval-ornaments: no stored token
 # and no interactive 2FA. Run tests and browser checks locally before dispatching;
-# the full unit suite needs resource checkouts that CI does not fetch.
+# the full unit suite needs resource checkouts that CI does not fetch. Reruns are
+# safe: an existing version is compared by integrity, never uploaded again.
 on:
   workflow_dispatch:
     inputs:
@@ -10,7 +11,7 @@ on:
         type: boolean
         default: false
 permissions:
-  contents: read
+  contents: write
   id-token: write
   actions: write
 concurrency:
@@ -31,17 +32,31 @@ jobs:
       - name: Verify npm OIDC authentication without publishing
         if: inputs.check-authentication
         run: node scripts/check-npm-auth.mjs "$PWD"
+      - name: Require every pinned resource to be published and CDN-verified
+        if: ${{ !inputs.check-authentication }}
+        run: node scripts/check-resources-published.mjs
       - name: Pack with locked resources and check the runtime budget
         if: ${{ !inputs.check-authentication }}
         run: |
           npm pack --json > "$RUNNER_TEMP/pack.json"
           node scripts/check-runtime-package.mjs "$RUNNER_TEMP/pack.json"
-      - name: Publish with provenance
+      - name: Publish with provenance, or confirm identical existing bytes
         if: ${{ !inputs.check-authentication }}
-        run: npm publish ./ranx729-medieval-ornaments-*.tgz --access public --provenance --registry https://registry.npmjs.org
+        run: node scripts/publish-package.mjs ./ranx729-medieval-ornaments-*.tgz "$(node -p "require('./package.json').name")" "$(node -p "require('./package.json').version")"
       - name: Wait until the default CDN serves the runtime
         if: ${{ !inputs.check-authentication }}
         run: node scripts/warm-cdn.mjs "$PWD"
+      - name: Tag the release and open its draft
+        if: ${{ !inputs.check-authentication }}
+        # The tag is what Pages deploys. The GitHub release stays a draft until
+        # the offline browser downloads are attached, then it is published.
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          VERSION="$(node -p "require('./package.json').version")"
+          gh api "repos/$GITHUB_REPOSITORY/git/ref/tags/v$VERSION" >/dev/null 2>&1 || gh api "repos/$GITHUB_REPOSITORY/git/refs" -f ref="refs/tags/v$VERSION" -f sha="$GITHUB_SHA" >/dev/null
+          if gh release view "v$VERSION" >/dev/null 2>&1; then echo "Release v$VERSION already exists."
+          else gh release create "v$VERSION" --verify-tag --draft --title "v$VERSION" --notes "Runtime $VERSION published to npm with provenance from $GITHUB_SHA. Offline browser downloads and checksums are attached before this release is published; QA.md records the verification."; fi
       - name: Deploy the released catalog
         if: ${{ !inputs.check-authentication }}
         env:

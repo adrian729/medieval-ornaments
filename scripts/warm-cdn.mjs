@@ -64,7 +64,7 @@ export async function warmCdn(directory, { deadlineMinutes = 15, concurrency = 8
   return { base, files: files.length };
 }
 
-// A published, locked source as listed in main: package, exact version and approved files.
+// A locked source as listed in main: package, exact version and approved files.
 export function pinnedSource(id) {
   const source = registry().sources[id], data = manifest(id);
   if (!source) throw Error(`Unknown resource: ${id}`);
@@ -76,6 +76,15 @@ if (process.argv[1] && import.meta.url === pathToFileURL(path.resolve(process.ar
   if (!target) throw Error('Usage: node scripts/warm-cdn.mjs <package-directory | source-id | --all> [--deadline-minutes 15]');
   const deadlineMinutes = flag === '--deadline-minutes' ? Number(minutes) : 15;
   const ids = target === '--all' ? Object.keys(registry().sources) : Object.hasOwn(registry().sources, target) ? [target] : null;
-  if (ids) for (const id of ids) await warmCdn(null, { deadlineMinutes, pinned: pinnedSource(id) });
+  if (target === '--all') {
+    // Scheduled check of every pin. Locks precede publication, so a pin npm does
+    // not list yet is pending, not broken: report it and warm the rest.
+    const { npmVersion } = await import('./publication.mjs');
+    for (const id of ids) {
+      const pinned = pinnedSource(id);
+      if (!await npmVersion(pinned.name, pinned.version)) { console.log(`pending ${id}: ${pinned.name}@${pinned.version} is not published yet.`); continue; }
+      await warmCdn(null, { deadlineMinutes, pinned });
+    }
+  } else if (ids) for (const id of ids) await warmCdn(null, { deadlineMinutes, pinned: pinnedSource(id) });
   else await warmCdn(path.resolve(target), { deadlineMinutes });
 }

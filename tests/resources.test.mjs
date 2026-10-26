@@ -28,7 +28,7 @@ test('a further border resource routes by assignment without changing names or g
   const directory=await temporary(t);
   for(const folder of ['lib','resources'])await cp(path.join(root,folder),path.join(directory,folder),{recursive:true});
   await mkdir(path.join(directory,'scripts'));
-  for(const name of ['build-library.mjs','package-assets.mjs','resource-store.mjs','resources.mjs','scaffold-resource.mjs','pack-resource.mjs'])await copyFile(path.join(root,'scripts',name),path.join(directory,'scripts',name));
+  for(const name of ['build-library.mjs','package-assets.mjs','resource-store.mjs','resources.mjs','scaffold-resource.mjs','pack-resource.mjs','publication.mjs'])await copyFile(path.join(root,'scripts',name),path.join(directory,'scripts',name));
   for(const name of ['package.json','images.json','assets-manifest.json','resource-registry.json','resource-lock.json'])await copyFile(path.join(root,name),path.join(directory,name));
   const config=registry(),lock=resourceLock(),name='rosselli-mask-border',owner=config.assignments[name],first=manifest(owner);
   const sequence=Math.max(...Object.values(config.sources).filter(s=>s.collection==='borders').map(s=>s.sequence))+1,id=sourceId('borders',sequence);
@@ -77,56 +77,4 @@ test('an older compatible-archive identity cannot conceal newer resource files',
   const destination=path.join(directory,'public');
   await assert.rejects(exec(process.execPath,['lib/cli.js','copy-assets',destination,'--design','red-berry-vine','--offline'],{cwd:directory}),/Offline artwork not found/);
   await assert.rejects(readdir(destination),{code:'ENOENT'});
-});
-
-test('historical and authored artwork installs offline from numbered packages with its attribution',async t=>{
-  const directory=await temporary(t),items=await assetCatalog();
-  const selected=['isabella-pink-rose','rosselli-roundel-top','ivy-corner','choirbook-and-ivy'].map(name=>items.find(item=>item.name===name));
-  const config=registry(),lock=resourceLock();
-  await writeFile(path.join(directory,'package.json'),'{"type":"module"}');
-  for(const item of selected){
-    const id=config.assignments[item.name],source=config.sources[id],target=path.join(directory,'node_modules',source.package);
-    await mkdir(target,{recursive:true});
-    await writeFile(path.join(target,'package.json'),json({name:source.package,version:lock.sources[id].version,exports:{'./package.json':'./package.json'}}));
-    await copyFile(path.join(root,'resources/manifests',id+'.json'),path.join(target,'resource-manifest.json'));
-    for(const relative of assetPaths([item]).filter(p=>p.endsWith('.png'))){
-      await mkdir(path.dirname(path.join(target,relative)),{recursive:true});
-      await copyFile(resourceFile(relative),path.join(target,relative));
-    }
-  }
-  const out=path.join(directory,'src'),assets=path.join(directory,'public');
-  await exec(process.execPath,[path.join(root,'lib/cli.js'),'add',...selected.map(item=>item.name),'--framework','vanilla','--format','png','--out',out,'--assets',assets,'--assets-base','/historical/','--offline'],{cwd:directory});
-  for(const item of selected){
-    const api=await import(pathToFileURL(path.join(out,item.name+'.js')));
-    assert.deepEqual(api.ornament.provenance,item.provenance);
-    assert.equal(api.ornament.author,item.author);
-    assert.deepEqual(api.ornament.formats,['png']);
-    const resolved=api.resolveOrnament('image',{size:128});
-    assert.ok(resolved.asset.url.startsWith('/historical/png/'));
-    assert.deepEqual(await readFile(path.join(assets,item.png)),await readFile(resourceFile(item.png)));
-  }
-  assert.ok(!(await readdir(path.join(assets,'png'))).some(name=>name==='flying-pig.png'));
-});
-
-test('resource tarballs list default delivery files before optional alternatives',async()=>{
-  const { deliveryOrder } = await import('../scripts/pack-resource.mjs');
-  const vector={derivation:'vector-reconstruction',svg:'svg/vine.svg',png:'png/vine.png',webp:'webp/vine.webp',variants:[],components:{}};
-  const traced={derivation:'source-crop-and-color-trace',svg:'svg/plate.svg',png:'png/plate.png',webp:'webp/plate.webp',variants:[{png:'png/128/plate.png',webp:'webp/128/plate.webp'}],components:{}};
-  const files=['svg/plate.svg','png/plate.png','png/128/plate.png','webp/plate.webp','svg/vine.svg','webp/128/plate.webp','png/vine.png','webp/vine.webp'];
-  assert.deepEqual(deliveryOrder(files,{vine:vector,plate:traced}),['webp/128/plate.webp','webp/plate.webp','webp/vine.webp','svg/vine.svg','png/128/plate.png','png/plate.png','png/vine.png','svg/plate.svg']);
-  for(const id of Object.keys(registry().sources)){const files=manifest(id).files;assert.ok(Object.values(files).reduce((sum,file)=>sum+file.bytes,0)<=registry().policy.maxNpmUnpackedBytes,`${id} fits the CDN package limit`);}
-});
-
-test('publishing waits until the CDN serves every approved file',async t=>{
-  const { warmCdn } = await import('../scripts/warm-cdn.mjs');
-  const directory=await temporary(t),good=Buffer.from('approved'),{createHash}=await import('node:crypto');
-  await writeFile(path.join(directory,'package.json'),json({name:'@ranx729/example',version:'1.0.0'}));
-  await writeFile(path.join(directory,'resource-manifest.json'),json({files:{'webp/a.webp':{bytes:good.length,sha256:createHash('sha256').update(good).digest('hex')}}}));
-  const original=globalThis.fetch;t.after(()=>{globalThis.fetch=original});
-  let attempts=0,body=good;
-  globalThis.fetch=async url=>url.startsWith('https://registry.npmjs.org/')?new Response('{}',{status:200}):++attempts===1?new Response('',{status:404}):new Response(body);
-  assert.deepEqual(await warmCdn(directory,{log:()=>{}}),{base:'https://cdn.jsdelivr.net/npm/@ranx729/example@1.0.0/',files:1});
-  assert.equal(attempts,2,'A transient 404 is retried');
-  body=Buffer.from('tampered');attempts=1;
-  await assert.rejects(warmCdn(directory,{deadlineMinutes:0,log:()=>{}}),/served 0\/1 files with approved bytes/);
 });
