@@ -1,5 +1,7 @@
 # Medieval ornaments
 
+> **Superseded on 2026-10-30 by [Ducktape Assets](https://github.com/adrian729/ducktape-assets)** (`@ranx729/ducktape-assets` on npm, one package per set). Every design here was re-imported pixel for pixel into the new library under a new id with reviewed metadata, or dropped with a reason; the old-to-new map, one entry per design and component, is kept at [migration/medieval-ornaments.json](https://github.com/adrian729/ducktape-assets/blob/39a2ac9/migration/medieval-ornaments.json) in the last commit of the new library that carried it. Nothing is unpublished: every version of `@ranx729/medieval-ornaments` and its resource packages stays on npm as it is, and nothing is added to them.
+
 Reusable medieval borders, painted decorations and manuscript-style illustrations,
 with PNG, lossless WebP, and smaller raster sizes. The 41 illustrations from
 medieval-cutouts are now maintained here, with their original names, descriptive
